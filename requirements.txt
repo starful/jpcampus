@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+jinja2
+google-cloud-storage
+google-generativeai>=0.8.3
+pandas
+tqdm
+python-dotenv
+geopy  # [추가] 주소를 위도/경도로 변환하기 위해 필요
