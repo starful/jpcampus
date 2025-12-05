@@ -1,51 +1,69 @@
 # 🏫 JP Campus - Smart Map for Japanese Language Schools in Tokyo
 
-JP Campus is a comprehensive service that collects and analyzes information on all Japanese language schools in Tokyo. It allows users to visualize and compare schools on a map based on **location, tuition fees, nationality ratio, and academic achievements**.
+JP Campus is a comprehensive service that provides visualized data on Japanese language schools in Tokyo and Chiba. It helps prospective students compare schools based on **location, tuition fees, nationality ratio, and academic achievements** using an interactive map.
+
+> **Key Update**: The project has been refactored for better scalability, separating frontend assets (JS/CSS) and backend logic, and introducing advanced map clustering.
 
 ## ✨ Key Features
 
-*   **🔍 Smart Filtering:** Search schools by region, tuition fee, Korean student ratio, dormitory availability, and more.
-*   **🗺️ Map Visualization:** View exact locations and surrounding environments using Google Maps integration.
-*   **📊 Detailed Insights:** Provides accurate tuition details, student demographics, and career paths extracted by AI (Gemini).
-*   **🤖 Automated Pipeline:** Fully automated process from web crawling to AI data processing and geocoding.
+*   **🔍 Smart Filtering**:
+    *   **Tuition**: Filter by realistic ranges (¥850k, ¥900k, ¥1M).
+    *   **Nationality**: Find schools with specific demographics (Global, Low Korean ratio, High Western ratio, etc.).
+    *   **Location**: Filter by specific areas (Shinjuku, Ikebukuro, Chiba, etc.).
+*   **🗺️ Interactive Map**:
+    *   **Clustering**: efficiently displays hundreds of schools using `MarkerClusterer`.
+    *   **Performance**: Optimized rendering with Google Maps JavaScript API.
+*   **📊 Detailed Insights**: Provides AI-extracted data including tuition breakdown, student demographics, and career paths.
+*   **⚡ Modern Architecture**:
+    *   **FastAPI**: High-performance backend.
+    *   **Modular Design**: Separation of concerns (HTML/CSS/JS/Python).
+    *   **SEO Optimized**: JSON-LD structured data and dynamic meta tags.
 
 ## 🛠️ Tech Stack
 
-*   **Language:** Python 3.11
-*   **Web Framework:** FastAPI
-*   **AI & Data:** Google Gemini 1.5 Flash (Data Extraction), Geopy (Geocoding)
-*   **Crawling:** Requests, BeautifulSoup4
-*   **Frontend:** HTML5, CSS3, Google Maps JavaScript API
-*   **Infrastructure:** Google Cloud Platform (Cloud Build, Cloud Run, GCS)
+*   **Backend**: Python 3.11, FastAPI, Uvicorn
+*   **Frontend**: HTML5, CSS3, Vanilla JS (ES6+), Jinja2 Templates
+*   **Map & Data**: Google Maps JavaScript API, MarkerClusterer
+*   **AI & Crawling**: Google Gemini 1.5 Flash (Data Extraction), BeautifulSoup4
+*   **Infrastructure**: Google Cloud Platform (Cloud Run, Cloud Build, GCS)
 
 ## 📂 Project Structure
 
 ```text
 jpcampus/
-├── collect_and_convert.py  # [Core] Script for Crawling + AI Extraction + Geocoding
-├── main.py                 # FastAPI Web Server (Serves the map application)
-├── requirements.txt        # Python dependencies
-├── Dockerfile              # Docker build configuration
-├── cloudbuild.yaml         # Google Cloud Build configuration
-├── .env                    # API Keys & Environment Variables (Create manually)
-├── templates/
-│   ├── index.html          # Main map view
-│   └── detail.html         # School detail view
-└── file/                   # Data storage directory
-    └── schools_complete_db.json # Final processed database
+├── app/                        # Main Application Package
+│   ├── __init__.py
+│   ├── main.py                 # FastAPI Entry Point
+│   ├── utils.py                # GCS/Local Data Loader
+│   ├── static/                 # Static Assets
+│   │   ├── css/
+│   │   │   └── style.css       # Unified Stylesheet
+│   │   └── js/
+│   │       ├── i18n.js         # Internationalization (KO/JA/EN)
+│   │       └── map.js          # Map Logic & Filters
+│   └── templates/              # HTML Templates
+│       ├── index.html          # Main Map View
+│       └── detail.html         # School Detail View
+├── scripts/                    # Data Collection Scripts
+│   ├── collect.py              # Crawling + AI Extraction
+│   └── fix_coords.py           # Geocoding Corrections
+├── file/                       # Data Storage (JSON)
+├── requirements.txt            # Python Dependencies
+├── Dockerfile                  # Docker Configuration
+└── cloudbuild.yaml             # CI/CD Configuration
 ```
 
 ## 🚀 Installation & Usage
 
 ### 1. Prerequisites
 
-*   Python 3.11 or higher
-*   Google Cloud Platform Account & Project
-*   **API Keys Required:**
-    *   Google Gemini API Key (Get from [Google AI Studio](https://aistudio.google.com/))
-    *   Google Maps JavaScript API Key (Get from [GCP Console](https://console.cloud.google.com/))
+*   Python 3.11+
+*   Google Cloud Platform Account
+*   **API Keys Required**:
+    *   `GEMINI_API_KEY`: For data extraction.
+    *   `GOOGLE_MAPS_API_KEY`: For map visualization and geocoding.
 
-### 2. Clone & Install Dependencies
+### 2. Clone & Install
 
 ```bash
 git clone https://github.com/your-username/jpcampus.git
@@ -55,41 +73,46 @@ pip install -r requirements.txt
 
 ### 3. Setup Environment Variables (.env)
 
-Create a `.env` file in the root directory and add your API keys:
+Create a `.env` file in the root directory:
 
 ```ini
-GEMINI_API_KEY=your_gemini_api_key_here
-GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-# GCS_BUCKET_NAME=your_bucket_name (Optional: for cloud storage)
+GEMINI_API_KEY=your_gemini_api_key
+GOOGLE_MAPS_API_KEY=your_maps_api_key
+# GCS_BUCKET_NAME=jpcampus (Optional: for cloud storage)
 ```
 
 ### 4. Data Collection (Run Once)
 
-Execute the script to crawl data, process it with AI, and generate the JSON database.
+Collect school data and save it to `file/schools_complete_db.json`.
 
 ```bash
-python collect_and_convert.py
+# Run the collection script
+python scripts/collect.py
 ```
-> This will generate `file/schools_complete_db.json`.
 
 ### 5. Run the Web Server
 
-Start the FastAPI server locally.
+Start the FastAPI server locally. Note the change in command due to the new folder structure.
 
 ```bash
-uvicorn main:app --reload
+# Run from the root directory
+uvicorn app.main:app --reload
 ```
 
-Open your browser and visit: `http://127.0.0.1:8000`
+Visit: `http://127.0.0.1:8000`
 
 ## ☁️ Deployment (Google Cloud Run)
 
-This project is configured for Google Cloud Build. You can deploy it using the following command (requires gcloud CLI):
+This project is configured for **Google Cloud Build** and **Cloud Run**.
+
+### Deploy Command
 
 ```bash
 gcloud builds submit --config=cloudbuild.yaml \
-  --substitutions=_GOOGLE_MAPS_API_KEY="your_maps_api_key"
+  --substitutions=_GOOGLE_MAPS_API_KEY="your_google_maps_api_key"
 ```
+
+*Ensure your `Dockerfile` entrypoint is updated to:* `CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]`
 
 ## 📝 License
 

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ meta_title }}</title>
+    <meta name="description" content="{{ meta_desc }}">
+    <link rel="canonical" href="{{ meta_url }}">
+    
+    <!-- Open Graph (SNS 공유) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ meta_url }}">
+    <meta property="og:title" content="{{ meta_title }}">
+    <meta property="og:description" content="{{ meta_desc }}">
+    <meta property="og:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
+    <meta property="og:site_name" content="JP Campus">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ meta_title }}">
+    <meta name="twitter:description" content="{{ meta_desc }}">
+    <meta name="twitter:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
+
+    <link rel="icon" href="/static/img/favicon.ico">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="main-layout">
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="/" class="logo">
+                <img src="/static/img/logo.png" alt="JP Campus" class="logo-img">
+            </a>
+            <h1 class="site-desc" style="font-size: 1.2rem; font-weight: 500; color: #666; margin: 0;">
+                일본 전국 일본어학교 지도 검색 & 비교 서비스, JP Campus
+            </h1>
+        </div>
+        <div class="lang-switch">
+            <button onclick="setLanguage('ko')">🇰🇷</button>
+            <button onclick="setLanguage('ja')">🇯🇵</button>
+            <button onclick="setLanguage('en')">🇺🇸</button>
+        </div>
+    </header>
+
+    <div id="detail-search-panel" class="detail-search-panel">
+        <div class="search-container">
+            <select id="filter-region">
+                <option value="all" data-i18n="opt_region_all">📍 지역 (전체)</option>
+                <optgroup label="관동 지방 (도쿄권)">
+                    <option value="新宿" data-i18n="opt_shinjuku">신주쿠</option>
+                    <option value="高田馬場" data-i18n="opt_takadanobaba">다카다노바바</option>
+                    <option value="大久保" data-i18n="opt_shinokubo">신오쿠보</option>
+                    <option value="池袋" data-i18n="opt_ikebukuro">이케부쿠로</option>
+                    <option value="渋谷" data-i18n="opt_shibuya">시부야</option>
+                    <option value="日暮里" data-i18n="opt_nippori">닛포리</option>
+                    <option value="横浜" data-i18n="opt_yokohama">요코하마</option>
+                    <option value="埼玉" data-i18n="opt_saitama">사이타마</option>
+                    <option value="千葉" data-i18n="opt_chiba">치바현</option>
+                </optgroup>
+                <optgroup label="관서 지방">
+                    <option value="大阪" data-i18n="opt_osaka">오사카</option>
+                    <option value="京都" data-i18n="opt_kyoto">교토</option>
+                    <option value="神戸" data-i18n="opt_kobe">고베</option>
+                </optgroup>
+                <optgroup label="그 외 주요 도시">
+                    <option value="福岡" data-i18n="opt_fukuoka">후쿠오카</option>
+                    <option value="名古屋" data-i18n="opt_nagoya">나고야</option>
+                    <option value="札幌" data-i18n="opt_sapporo">삿포로</option>
+                </optgroup>
+            </select>
+
+            <select id="filter-price"><option value="all" data-i18n="opt_price_all">💰 학비</option><option value="80" data-i18n="opt_price_80">80만엔↓</option><option value="85" data-i18n="opt_price_85">85만엔↓</option><option value="90" data-i18n="opt_price_90">90만엔↓</option></select>
+            <select id="filter-nation"><option value="all" data-i18n="opt_nation_all">🌏 국적</option><option value="global" data-i18n="opt_global">🇺🇸 다국적</option><option value="korea_low" data-i18n="opt_kr_low">🇰🇷 한국인 소수</option><option value="china_high" data-i18n="opt_cn_high">🇨🇳 한자권</option><option value="vietnam_high" data-i18n="opt_vn_high">🇻🇳 동남아</option></select>
+            <select id="filter-scale"><option value="all" data-i18n="opt_scale_all">👥 규모</option><option value="large" data-i18n="opt_scale_large">대규모</option><option value="medium" data-i18n="opt_scale_medium">중규모</option><option value="small" data-i18n="opt_scale_small">소수정예</option></select>
+            <select id="filter-career"><option value="all" data-i18n="opt_career_all">🎓 진학</option><option value="grad_school" data-i18n="opt_career_grad">대학원</option><option value="university" data-i18n="opt_career_univ">대학</option><option value="vocational" data-i18n="opt_career_voc">전문학교</option></select>
+            <select id="filter-special">
+                <option value="all" data-i18n="opt_special_all">🎯 특화</option>
+                <option value="art" data-i18n="opt_special_art">🎨 미술</option>
+                <option value="biz" data-i18n="opt_special_biz">💼 비즈니스</option>
+                <option value="short" data-i18n="opt_special_short">✈️ 단기/워홀</option>
+                <option value="jlpt" data-i18n="opt_special_jlpt">📚 JLPT 집중</option>
+            </select>
+            <select id="filter-dorm">
+                <option value="all" data-i18n="opt_dorm_all">🛏️ 기숙사</option>
+                <option value="yes" data-i18n="opt_dorm_yes">있음</option>
+                <option value="single" data-i18n="opt_dorm_single">👤 1인실</option>
+            </select>
+            <select id="filter-scholarship"><option value="all" data-i18n="opt_scholarship_all">🏅 장학금</option><option value="yes" data-i18n="opt_scholarship_yes">있음</option></select>
+            <select id="filter-eju">
+                <option value="all" data-i18n="opt_eju_all">📝 EJU</option>
+                <option value="yes" data-i18n="opt_eju_yes">있음</option>
+                <option value="science" data-i18n="opt_eju_science">⚗️ 이과/수학</option>
+            </select>
+            <select id="filter-convo"><option value="all" data-i18n="opt_convo_all">🗣️ 회화</option><option value="yes" data-i18n="opt_convo_yes">중심</option></select>
+            <select id="filter-env"><option value="all" data-i18n="opt_env_all">🏙️ 환경</option><option value="quiet" data-i18n="opt_env_quiet">조용한 곳</option><option value="active" data-i18n="opt_env_active">번화가</option></select>
+        </div>
+        
+        <div class="search-actions">
+            <button id="search-btn" class="apply-btn" onclick="applyFilters()">
+                <i class="fas fa-search"></i> <span data-i18n="btn_search">검색하기</span>
+            </button>
+            <button id="reset-btn" class="reset-btn" onclick="resetFilters()">
+                <i class="fas fa-undo"></i> <span data-i18n="btn_reset">초기화</span>
+            </button>
+        </div>
+    </div>
+
+    <section class="map-section">
+        <div id="map"></div>
+        <div class="map-overlay-info">
+            <span data-i18n="txt_result">결과:</span> <span id="result-count" class="highlight">0</span> <span data-i18n="txt_schools">개교</span>
+        </div>
+        <div id="map-legend">
+            <div class="legend-item"><span class="dot" style="background:#9B59B6"></span> <span data-i18n="legend_art">미술/디자인</span></div>
+            <div class="legend-item"><span class="dot" style="background:#2ECC71"></span> <span data-i18n="legend_cheap">가성비 (82만↓)</span></div>
+            <div class="legend-item"><span class="dot" style="background:#3498DB"></span> <span data-i18n="legend_academic">진학/EJU</span></div>
+            <div class="legend-item"><span class="dot" style="background:#EA4335"></span> <span data-i18n="legend_normal">일반</span></div>
+        </div>
+    </section>
+
+    <main class="content-section">
+        <div class="content-wrapper">
+            <div class="guide-box">
+                <h2>🏫 일본 전국 일본어학교 가이드</h2>
+                <p>
+                    성공적인 일본 유학의 첫걸음, 학교 선택이 가장 중요합니다. 
+                    JP Campus는 <strong>위치, 학비, 국적 비율</strong> 데이터를 기반으로 
+                    여러분의 목표(진학, 취업, 회화)에 딱 맞는 학교를 찾아드립니다.
+                </p>
+                <div class="guide-points">
+                    <span>💡 <strong>Tip:</strong> 도쿄뿐만 아니라 오사카, 교토, 후쿠오카 등 전국 학교를 검색해보세요!</span>
+                </div>
+                
+                {% if updated_at %}
+                <p style="margin-top: 15px; font-size: 0.85rem; color: #999;">
+                    <i class="fas fa-sync-alt"></i> 데이터 최종 갱신: {{ updated_at }}
+                </p>
+                {% endif %}
+            </div>
+
+            <h3 class="section-title"><i class="fas fa-school"></i> 추천 학교 테마</h3>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500');"></div>
+                    <div class="card-body">
+                        <h4>🎨 미대 입시 명문교</h4>
+                        <p>타마미술대, 무사시노미술대 합격자를 다수 배출한 학교들을 지도에서 '특화' 필터로 찾아보세요.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500');"></div>
+                    <div class="card-body">
+                        <h4>💰 가성비 갑! 80만엔대</h4>
+                        <p>학비 부담은 줄이고 교육 퀄리티는 챙긴 실속형 학교. '학비' 필터를 이용하세요.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500');"></div>
+                    <div class="card-body">
+                        <h4>🇺🇸 다국적 회화 중심</h4>
+                        <p>다양한 국적의 친구들과 일본어로 소통하고 싶다면 '국적' 필터를 확인하세요.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500');"></div>
+                    <div class="card-body">
+                        <h4>💼 일본 취업 특화</h4>
+                        <p>비즈니스 일본어부터 면접 대비까지. '특화' 필터에서 비즈니스를 선택하세요.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <h3>JP Campus</h3>
+            <p>JP Campus는 예비 유학생들이 자신의 목표에 맞는 일본어학교를 지도 기반으로 쉽고 정확하게 찾을 수 있도록 돕는 서비스입니다.</p>
+            <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>const SCHOOLS_DATA = {{ schools_json | safe }};</script>
+    <script src="/static/js/i18n.js"></script>
+    <script src="/static/js/map.js"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&v=weekly"></script>
+</body>
+</html>

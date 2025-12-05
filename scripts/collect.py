@@ -5,6 +5,7 @@ import time
 import random
 import re
 import os
+import datetime
 from tqdm import tqdm
 from dotenv import load_dotenv
 import google.generativeai as genai
@@ -23,7 +24,7 @@ if not GEMINI_API_KEY or not GOOGLE_MAPS_API_KEY:
 
 genai.configure(api_key=GEMINI_API_KEY)
 
-MODEL_NAME = 'models/gemini-2.0-flash'
+MODEL_NAME = 'gemini-2.0-flash'
 try:
     model = genai.GenerativeModel(MODEL_NAME)
     print(f"🤖 사용 모델: {MODEL_NAME}")
@@ -33,29 +34,43 @@ except:
 
 OUTPUT_JSON = "file/schools_complete_db.json"
 
-# [수정됨] 도쿄 + 치바 URL 리스트
 TARGET_AREAS = [
-    # 도쿄
-    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E6%9D%B1%E4%BA%AC%E9%83%BD",
-    # 치바
-    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E5%8D%83%E8%91%89"
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E5%9F%BC%E7%8E%89",         # 사이타마
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E5%8D%83%E8%91%89",         # 치바
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E6%9D%B1%E4%BA%AC%E9%83%BD", # 도쿄
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E7%A5%9E%E5%A5%88%E5%B7%9D", # 가나가와
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E4%BA%AC%E9%83%BD",         # 교토
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E5%A4%A7%E9%98%AA",         # 오사카
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E5%85%B5%E5%BA%AB",         # 효고
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E7%A6%8F%E5%B2%A1",         # 후쿠오카
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E5%8C%97%E6%B5%B7%E9%81%93", # 홋카이도
+    "https://www.nisshinkyo.org/search/area.php?lng=1&area=%E6%84%9B%E7%9F%A5"          # 아이치
 ]
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
 
 # ==========================================
-# [1] Google Geocoding (좌표 변환)
+# [1] Google Geocoding (fix_coords 기능 통합)
 # ==========================================
+def clean_address_string(address):
+    """주소 전처리: 우편번호 제거, 공백 뒤 건물명 제거"""
+    if not address: return ""
+    # 우편번호 제거 (〒123-4567, 123-4567 등)
+    address = re.sub(r'〒?\s*\d{3}-\d{4}', '', address)
+    # 앞뒤 공백 제거
+    address = address.strip()
+    # 공백이 있다면 앞부분(번지수)만 가져오기 (건물명 제거)
+    if ' ' in address:
+        address = address.split(' ')[0]
+    return address
+
 def get_google_coordinates(address):
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
+    clean_address = clean_address_string(address)
     
-    # 우편번호 및 공백 제거, 건물명 분리
-    clean_address = re.sub(r'〒?\s*\d{3}-\d{4}', '', address).strip()
-    if ' ' in clean_address:
-        clean_address = clean_address.split(' ')[0]
-    
-    # [중요] 여기에 '東京都' 강제 추가 로직 없음 (치바현 주소 대응)
-    
+    if not clean_address:
+        return None
+
     params = {"address": clean_address, "key": GOOGLE_MAPS_API_KEY, "language": "ja"}
     
     try:
@@ -64,10 +79,12 @@ def get_google_coordinates(address):
         if data['status'] == 'OK':
             loc = data['results'][0]['geometry']['location']
             return {"lat": loc['lat'], "lng": loc['lng']}
-    except:
-        pass
-    # 실패 시 기본값 (도쿄 시청)
-    return {"lat": 35.6895, "lng": 139.6917}
+        else:
+            print(f"   ⚠️ 좌표 변환 실패 [{data['status']}]: {clean_address}")
+    except Exception as e:
+        print(f"   ⚠️ API 요청 에러: {e}")
+    
+    return None
 
 # ==========================================
 # [2] 크롤링 & AI 변환
@@ -134,48 +151,93 @@ def get_page_text(url):
     except:
         return None
 
+def load_existing_db():
+    """기존 DB 파일 로드"""
+    if os.path.exists(OUTPUT_JSON):
+        try:
+            with open(OUTPUT_JSON, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                # 신규 포맷(dict) vs 구버전 포맷(list) 처리
+                if isinstance(data, dict) and "schools" in data:
+                    return data["schools"]
+                elif isinstance(data, list):
+                    return data
+        except Exception as e:
+            print(f"⚠️ 기존 DB 로드 실패: {e}")
+    return []
+
 # ==========================================
 # [3] 메인 실행
 # ==========================================
 def main():
     if not os.path.exists("file"): os.makedirs("file")
     
-    all_schools_meta = []
-    
+    # 1. 기존 데이터 로드
+    existing_data = load_existing_db()
+    existing_urls = {s.get('source_url') for s in existing_data if s.get('source_url')}
+    print(f"📂 기존 데이터: {len(existing_data)}개 로드됨")
+
+    # 2. 크롤링 할 URL 수집
+    all_links = []
     print("🔍 각 지역별 학교 리스트 수집 중...")
     for area_url in TARGET_AREAS:
         links = get_school_links(area_url)
-        print(f"   ㄴ 발견: {len(links)}개 학교")
-        all_schools_meta.extend(links)
+        all_links.extend(links)
     
-    # 중복 제거 (URL 기준)
-    seen_urls = set()
-    unique_schools = []
-    for s in all_schools_meta:
-        if s['url'] not in seen_urls:
-            unique_schools.append(s)
-            seen_urls.add(s['url'])
+    # 3. 신규 학교 필터링 (중복 제거 및 기존 DB에 없는 것만)
+    seen_urls_in_crawl = set()
+    new_targets = []
+    
+    for s in all_links:
+        url = s['url']
+        if url not in seen_urls_in_crawl and url not in existing_urls:
+            new_targets.append(s)
+            seen_urls_in_crawl.add(url)
+    
+    print(f"📊 검색된 전체 학교: {len(seen_urls_in_crawl)}개")
+    print(f"🆕 추가할 신규 학교: {len(new_targets)}개")
+    
+    if len(new_targets) == 0:
+        print("✨ 새로운 데이터가 없습니다. 날짜만 갱신합니다.")
+    else:
+        print("🚀 신규 학교 데이터 처리 시작 (AI 분석 + 좌표 변환)...")
 
-    final_data = []
-    print(f"🚀 총 {len(unique_schools)}개 학교 상세 정보 처리 시작...")
-
-    for school in tqdm(unique_schools):
+    # 4. 신규 데이터 처리 Loop
+    new_data_list = []
+    for school in tqdm(new_targets):
         raw_text = get_page_text(school['url'])
         if not raw_text: continue
 
+        # AI 데이터 추출
         data = extract_info_ai(school['name'], raw_text)
         if data:
             data['source_url'] = school['url']
+            
+            # [통합] 좌표 변환 즉시 실행
             addr = data['basic_info'].get('address', '')
             if addr:
-                data['location'] = get_google_coordinates(addr)
-            final_data.append(data)
-            time.sleep(2) # API 속도 조절
+                coords = get_google_coordinates(addr)
+                if coords:
+                    data['location'] = coords
+            
+            new_data_list.append(data)
+            time.sleep(1.5) # API 속도 조절
+
+    # 5. 기존 데이터 + 신규 데이터 병합
+    final_list = existing_data + new_data_list
+    
+    # 6. 저장
+    today_str = datetime.date.today().strftime("%Y-%m-%d")
+    final_structure = {
+        "last_updated": today_str,
+        "schools": final_list
+    }
 
     with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
-        json.dump(final_data, f, ensure_ascii=False, indent=2)
+        json.dump(final_structure, f, ensure_ascii=False, indent=2)
     
-    print(f"\n🎉 완료! {len(final_data)}개 저장됨: {OUTPUT_JSON}")
+    print(f"\n🎉 완료! 총 {len(final_list)}개 저장됨 (신규 추가: {len(new_data_list)}개)")
+    print(f"📁 파일 위치: {OUTPUT_JSON}")
 
 if __name__ == "__main__":
     main()

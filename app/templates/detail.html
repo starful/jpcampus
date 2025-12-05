@@ -1,0 +1,220 @@
+--- START OF FILE app/templates/detail.html ---
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ meta_title }}</title>
+    <meta name="description" content="{{ meta_desc }}">
+    <link rel="canonical" href="{{ meta_url }}">
+    
+    <!-- Open Graph (SNS 공유 최적화) -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ meta_url }}">
+    <meta property="og:title" content="{{ meta_title }}">
+    <meta property="og:description" content="{{ meta_desc }}">
+    <meta property="og:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
+    <meta property="og:site_name" content="JP Campus">
+    
+    <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="detail-page">
+
+    <header class="detail-header">
+        <div class="header-inner">
+            <a href="/" class="back-link" data-i18n="btn_back">
+                <i class="fas fa-arrow-left"></i> 지도 메인으로
+            </a>
+            <div class="lang-switch">
+                <button onclick="setLanguage('ko')">🇰🇷</button>
+                <button onclick="setLanguage('ja')">🇯🇵</button>
+                <button onclick="setLanguage('en')">🇺🇸</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="detail-container">
+        <div class="school-header">
+            <h1>{{ school.basic_info.name_ja }}</h1>
+            <p class="address"><i class="fas fa-map-marker-alt"></i> {{ school.basic_info.address }}</p>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-users"></i></div>
+                <div class="text-box">
+                    <span class="label" data-i18n="lbl_capacity">총 정원</span>
+                    <span class="value">{{ school.basic_info.capacity }}<span data-i18n="unit_ppl">명</span></span>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-user-graduate"></i></div>
+                <div class="text-box">
+                    <span class="label" data-i18n="lbl_total">재적 학생</span>
+                    <span class="value">{{ school.student_demographics.total }}<span data-i18n="unit_ppl">명</span></span>
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-globe-asia"></i></div>
+                <div class="text-box">
+                    <span class="label" data-i18n="lbl_korea">한국인 비율</span>
+                    {% if school.student_demographics.total > 0 %}
+                        <span class="value highlight-green">{{ "%.1f"|format(school.student_demographics.korea / school.student_demographics.total * 100) }}%</span>
+                    {% else %}
+                        <span class="value">0%</span>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-yen-sign"></i></div>
+                <div class="text-box">
+                    <span class="label" data-i18n="lbl_fee">대표 학비 (최저)</span>
+                    {% if school.courses and school.courses|length > 0 %}
+                        {% set fees = [] %}
+                        {% for c in school.courses %}
+                            {% if c.total_fees and c.total_fees is number %}
+                                {% set _ = fees.append(c.total_fees) %}
+                            {% endif %}
+                        {% endfor %}
+                        
+                        {% if fees %}
+                            <span class="value highlight-red">{{ "{:,}".format(fees|min) }}¥</span>
+                        {% else %}
+                             <span class="value">-</span>
+                        {% endif %}
+                    {% else %}
+                        <span class="value">-</span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <section class="detail-section">
+            <h2 data-i18n="ttl_features"><i class="fas fa-star"></i> 학교 특징</h2>
+            <ul class="feature-list">
+                {% if school.features %}
+                    {% for feature in school.features %}
+                    <li>{{ feature }}</li>
+                    {% endfor %}
+                {% else %}
+                    <li data-i18n="txt_no_data">데이터 없음</li>
+                {% endif %}
+            </ul>
+        </section>
+
+        <section class="detail-section">
+            <h2 data-i18n="ttl_course"><i class="fas fa-book-open"></i> 코스 정보</h2>
+            <div class="course-table">
+                {% for course in school.courses %}
+                <div class="course-row">
+                    <div class="course-name">
+                        <strong>{{ course.course_name }}</strong>
+                        <span class="course-month">{{ course.admission_month }}월 입학</span>
+                    </div>
+                    <div class="course-fee">{{ "{:,}".format(course.total_fees) }}¥</div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <h2 data-i18n="ttl_career"><i class="fas fa-chart-line"></i> 진학 실적</h2>
+            <div class="career-stats">
+                <div class="stat-item">
+                    <span class="stat-label" data-i18n="lbl_grad">대학원</span>
+                    <span class="stat-value">{{ school.career_path.grad_school }}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label" data-i18n="lbl_univ">대학</span>
+                    <span class="stat-value">{{ school.career_path.university }}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label" data-i18n="lbl_voc">전문학교</span>
+                    <span class="stat-value">{{ school.career_path.vocational }}</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="detail-section">
+            <h2 data-i18n="ttl_loc"><i class="fas fa-map-marked-alt"></i> 위치</h2>
+            <div id="map" class="detail-map"></div>
+        </section>
+        
+        <div class="cta-area">
+            <a href="{{ school.source_url }}" target="_blank" class="cta-btn" data-i18n="btn_official">
+                공식 상세 정보 확인하기 (일진협) <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </main>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&v=weekly" async defer></script>
+    <script src="/static/js/i18n.js"></script>
+    
+    <!-- [SEO] JSON-LD 구조화 데이터 추가 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "{{ school.basic_info.name_ja }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ school.basic_info.address }}",
+        "addressCountry": "JP"
+      },
+      "description": "{{ school.features | join(', ') }}",
+      "url": "{{ meta_url }}",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": {{ school.basic_info.capacity }}
+      }
+      {% if school.courses %}
+      ,
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Japanese Language Courses",
+        "itemListElement": [
+          {% for course in school.courses %}
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "{{ course.course_name }}"
+            },
+            "price": "{{ course.total_fees }}",
+            "priceCurrency": "JPY"
+          }{{ "," if not loop.last }}
+          {% endfor %}
+        ]
+      }
+      {% endif %}
+    }
+    </script>
+
+    <script>
+        setLanguage(localStorage.getItem('lang') || 'ko');
+
+        function initMap() {
+            {% if school.location and school.location.lat %}
+                const position = { lat: {{ school.location.lat }}, lng: {{ school.location.lng }} };
+                const map = new google.maps.Map(document.getElementById("map"), {
+                    center: position,
+                    zoom: 15,
+                    mapTypeControl: false,
+                    streetViewControl: true
+                });
+                new google.maps.Marker({
+                    position: position,
+                    map: map,
+                    title: "{{ school.basic_info.name_ja }}"
+                });
+            {% endif %}
+        }
+    </script>
+</body>
+</html>

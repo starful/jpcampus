@@ -1,0 +1,218 @@
+/* app/static/css/style.css */
+
+/* === Reset & Base === */
+body, html {
+    margin: 0; padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; font-family: inherit; }
+
+/* === Header (로고 초대형 확대) === */
+.main-header {
+    background: #fff;
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.logo-img { 
+    height: 400px; 
+    width: auto; 
+    max-width: 90%; 
+    margin-bottom: 30px; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-desc { font-size: 1.2rem; color: #666; margin: 0; font-weight: 500; }
+
+.lang-switch { margin-top: 25px; }
+.lang-switch button {
+    background: #f0f0f0; border-radius: 20px; padding: 6px 14px;
+    margin: 0 5px; font-size: 1.3rem; transition: 0.2s;
+}
+.lang-switch button:hover { background: #e0e0e0; }
+
+/* === Detail Search Panel (Main Filter) === */
+.detail-search-panel {
+    background: #fff; 
+    padding: 20px; 
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    max-width: 1100px; margin: 0 auto;
+}
+
+.search-container select {
+    width: 100%; padding: 0 10px; 
+    border: 1px solid #ddd; border-radius: 6px;
+    height: 40px; font-size: 0.9rem;
+    background: #fff; appearance: none;
+    transition: all 0.2s ease; /* 부드러운 전환 효과 */
+}
+
+/* [신규] 활성화된 필터 스타일 (민트색 배경 + 진한 테두리) */
+.search-container select.active-filter {
+    background-color: #e8f6f3;
+    border: 2px solid #1abc9c;
+    color: #16a085;
+    font-weight: bold;
+}
+
+/* 버튼 그룹 */
+.search-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.apply-btn {
+    display: block; 
+    width: 100%; max-width: 300px;
+    padding: 12px 0;
+    background: #2c3e50; color: #fff; 
+    border-radius: 8px; font-weight: bold;
+    font-size: 1rem; transition: background 0.2s;
+}
+.apply-btn:hover { background: #34495e; }
+
+/* [신규] 초기화 버튼 스타일 */
+.reset-btn {
+    display: none; /* 기본적으로 숨김 */
+    width: 100%; max-width: 150px;
+    padding: 12px 0;
+    background: #95a5a6; color: #fff;
+    border-radius: 8px; font-weight: bold;
+    font-size: 1rem;
+}
+.reset-btn:hover { background: #7f8c8d; }
+
+/* === Map Section === */
+.map-section {
+    position: relative;
+    width: 100%; max-width: 1200px; margin: 0 auto 40px;
+    border-radius: 12px; overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+#map { width: 100%; height: 450px; }
+
+.map-overlay-info {
+    position: absolute; top: 10px; right: 10px;
+    background: rgba(255,255,255,0.9); padding: 8px 15px;
+    border-radius: 20px; font-size: 0.85rem; font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.highlight { color: #e74c3c; }
+
+/* 범례 (Legend) */
+#map-legend {
+    position: absolute; bottom: 30px; left: 10px;
+    background: white; padding: 10px;
+    border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 5; font-size: 0.8rem;
+    display: flex; flex-direction: column; gap: 5px;
+}
+.legend-item { display: flex; align-items: center; gap: 8px; font-weight: bold; color: #555; }
+.dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; border: 1px solid rgba(0,0,0,0.1); }
+
+/* === Content Section === */
+.content-section { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+.guide-box {
+    background: #fff; padding: 30px; border-radius: 12px;
+    margin-bottom: 40px; text-align: center; border: 1px solid #eee;
+}
+.guide-box h2 { color: #2c3e50; margin-top: 0; }
+.guide-points { margin-top: 15px; background: #fffbe6; display: inline-block; padding: 10px 20px; border-radius: 8px; color: #856404; font-size: 0.9rem; }
+.section-title { text-align: center; font-size: 1.5rem; margin-bottom: 20px; color: #333; }
+.card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.card {
+    background: #fff; border-radius: 12px; overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s;
+    display: flex; flex-direction: column;
+}
+.card:hover { transform: translateY(-5px); }
+.card-img { height: 180px; background-size: cover; background-position: center; }
+.card-body { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
+.card-body h4 { margin: 0 0 10px; color: #2c3e50; }
+.card-body p { font-size: 0.9rem; color: #666; line-height: 1.5; flex-grow: 1; }
+
+/* === Footer === */
+.main-footer {
+    background: #fff; padding: 40px 20px; margin-top: 50px;
+    text-align: center; border-top: 1px solid #eee;
+}
+.footer-content h3 { margin-top: 0; color: #2c3e50; }
+.footer-content p { font-size: 0.9rem; color: #777; line-height: 1.6; }
+.copyright { margin-top: 20px; font-size: 0.8rem; color: #999; }
+
+/* === Mobile Responsive === */
+@media (max-width: 1024px) {
+    .search-container { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+    .search-container { grid-template-columns: repeat(2, 1fr); }
+    .card-grid { grid-template-columns: 1fr; }
+    
+    #map { height: 350px; }
+    .logo-img { height: 200px; } 
+    .main-header { padding: 40px 0; }
+    
+    #map-legend { bottom: 20px; left: 10px; }
+}
+
+/* === 상세 페이지 스타일 === */
+.detail-page { background-color: #f4f6f8; padding-bottom: 50px; }
+.detail-header { background: #fff; padding: 15px 0; box-shadow: 0 1px 5px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+.header-inner { max-width: 800px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+.back-link { color: #2c3e50; font-weight: bold; font-size: 0.95rem; display: flex; align-items: center; gap: 5px; }
+.detail-container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+.school-header { background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); margin-bottom: 20px; text-align: center; }
+.school-header h1 { margin: 0 0 10px; color: #2c3e50; font-size: 1.8rem; }
+.school-header .address { color: #7f8c8d; font-size: 0.95rem; margin: 0; }
+.info-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 20px; }
+.info-card { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.03); display: flex; align-items: center; gap: 15px; }
+.icon-box { width: 45px; height: 45px; background: #eef2f7; color: #3498db; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
+.text-box { display: flex; flex-direction: column; }
+.text-box .label { font-size: 0.8rem; color: #999; margin-bottom: 2px; }
+.text-box .value { font-size: 1.1rem; font-weight: bold; color: #333; }
+.detail-section { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.03); margin-bottom: 20px; }
+.detail-section h2 { font-size: 1.2rem; color: #2c3e50; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; margin-top: 0; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
+.feature-list { padding-left: 20px; margin: 0; }
+.feature-list li { margin-bottom: 8px; color: #555; line-height: 1.6; }
+.course-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #eee; }
+.course-row:last-child { border-bottom: none; }
+.course-name { display: flex; flex-direction: column; }
+.course-name strong { color: #333; font-size: 1rem; }
+.course-month { font-size: 0.8rem; color: #888; margin-top: 3px; }
+.course-fee { font-weight: bold; color: #e74c3c; font-size: 1.1rem; }
+.career-stats { display: flex; justify-content: space-around; text-align: center; background: #f8f9fa; padding: 20px; border-radius: 8px; }
+.stat-item { display: flex; flex-direction: column; gap: 5px; }
+.stat-label { font-size: 0.9rem; color: #777; }
+.stat-value { font-size: 1.5rem; font-weight: bold; color: #2c3e50; }
+.detail-map { width: 100%; height: 300px; border-radius: 8px; margin-top: 20px; border: 1px solid #ddd; }
+.cta-area { text-align: center; margin-top: 30px; }
+.cta-btn { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 30px; font-weight: bold; text-decoration: none; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); transition: transform 0.2s; }
+.cta-btn:hover { transform: translateY(-2px); background: #2980b9; }
+.info-window-card { padding: 5px 2px; max-width: 220px; font-family: 'Noto Sans KR', sans-serif; }
+.info-link { display: block; font-size: 1rem; font-weight: 700; color: #2c3e50; text-decoration: none; margin-bottom: 8px; border-bottom: 2px solid #3498db; padding-bottom: 4px; transition: color 0.2s; }
+.info-link:hover { color: #3498db; }
+.info-meta { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
+.meta-row { display: flex; align-items: center; font-size: 0.85rem; color: #555; }
+.meta-icon { width: 16px; color: #7f8c8d; text-align: center; margin-right: 6px; }
+.info-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.tag { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
