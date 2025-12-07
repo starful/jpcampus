@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일본 유학 가이드 - JP Campus</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        .guide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 30px; }
+        .guide-card { background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); overflow: hidden; transition: transform 0.2s; border: 1px solid #eee; }
+        .guide-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .guide-body { padding: 20px; }
+        .guide-tag { font-size: 0.8rem; color: #3498db; font-weight: bold; margin-bottom: 5px; display: block; }
+        .guide-title { font-size: 1.1rem; color: #2c3e50; margin: 0 0 10px; font-weight: bold; }
+        .guide-desc { font-size: 0.9rem; color: #666; line-height: 1.5; margin: 0; }
+        .read-more { display: inline-block; margin-top: 15px; font-size: 0.9rem; color: #2c3e50; text-decoration: underline; }
+    </style>
+</head>
+<body style="background-color: #f9f9f9;">
+    <header class="main-header" style="padding: 20px 0;">
+        <div class="logo-container">
+            <a href="/" class="logo" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        </div>
+    </header>
+
+    <main class="content-section" style="padding: 40px 20px;">
+        <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+            <h1>📚 일본 유학 필수 가이드</h1>
+            <p>일본 어학연수 준비부터 생활 꿀팁까지, 예비 유학생이 꼭 알아야 할 정보를 정리했습니다.</p>
+        </div>
+
+        <div class="guide-grid">
+            <!-- 10개 글 리스트 -->
+            <a href="/guide/cost" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">비용/예산</span>
+                    <h3 class="guide-title">💰 일본 어학연수 1년 비용 총정리</h3>
+                    <p class="guide-desc">학비, 기숙사비, 생활비까지. 도쿄 유학에 실제로 필요한 초기 자금과 월 평균 지출을 분석합니다.</p>
+                </div>
+            </a>
+            <a href="/guide/school-choice" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">학교선택</span>
+                    <h3 class="guide-title">🏫 실패 없는 일본어학교 선택 기준 5가지</h3>
+                    <p class="guide-desc">진학, 취업, 회화 등 목적에 따라 학교를 고르는 방법과 주의사항을 알려드립니다.</p>
+                </div>
+            </a>
+            <a href="/guide/visa" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">비자/서류</span>
+                    <h3 class="guide-title">✈️ 유학 비자(COE) 신청 절차 완벽 가이드</h3>
+                    <p class="guide-desc">복잡한 비자 신청 서류, COE 발급부터 대사관 신청까지 단계별로 쉽게 정리했습니다.</p>
+                </div>
+            </a>
+            <a href="/guide/housing" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">숙소/생활</span>
+                    <h3 class="guide-title">🏠 기숙사 vs 쉐어하우스 vs 원룸 비교</h3>
+                    <p class="guide-desc">나에게 맞는 숙소는? 각 주거 형태별 장단점과 초기 비용을 비교해드립니다.</p>
+                </div>
+            </a>
+            <a href="/guide/part-time" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">생활/알바</span>
+                    <h3 class="guide-title">🍔 일본 유학 아르바이트 구하기 & 시급</h3>
+                    <p class="guide-desc">자격외활동허가서 받는 법부터 일본어 실력별 추천 알바, 평균 시급 정보까지.</p>
+                </div>
+            </a>
+            <a href="/guide/eju-jlpt" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">시험/진학</span>
+                    <h3 class="guide-title">📚 EJU와 JLPT, 무엇을 준비해야 할까?</h3>
+                    <p class="guide-desc">일본 대학 진학을 위한 EJU와 취업을 위한 JLPT의 차이점과 준비 전략.</p>
+                </div>
+            </a>
+            <a href="/guide/preparation" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">출국준비</span>
+                    <h3 class="guide-title">🧳 일본 유학 출국 전 필수 체크리스트</h3>
+                    <p class="guide-desc">도장, 돼지코, 상비약 등 한국에서 꼭 챙겨가야 할 물건과 가져가면 안 되는 것들.</p>
+                </div>
+            </a>
+            <a href="/guide/mobile-bank" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">현지정착</span>
+                    <h3 class="guide-title">📱 일본 도착 후 할 일: 주소등록, 폰, 통장</h3>
+                    <p class="guide-desc">재류카드 주소 등록부터 유심 개통, 유초은행 통장 개설까지 초기 정착 가이드.</p>
+                </div>
+            </a>
+            <a href="/guide/insurance" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">의료/보험</span>
+                    <h3 class="guide-title">🏥 일본 국민건강보험료와 병원 이용법</h3>
+                    <p class="guide-desc">유학생도 보험료를 내야 할까? 감면 신청 방법과 아플 때 병원 이용하는 팁.</p>
+                </div>
+            </a>
+            <a href="/guide/region" class="guide-card">
+                <div class="guide-body">
+                    <span class="guide-tag">지역정보</span>
+                    <h3 class="guide-title">🌏 도쿄 vs 오사카 vs 지방, 어디로 갈까?</h3>
+                    <p class="guide-desc">지역별 물가, 분위기, 표준어 사용 여부 등 나에게 맞는 유학 지역 찾기.</p>
+                </div>
+            </a>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="/" style="display: inline-block; background: #3498db; color: #fff; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: bold;">메인 지도로 돌아가기</a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
+    </footer>
+</body>
+</html>

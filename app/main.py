@@ -29,6 +29,28 @@ app = FastAPI(lifespan=lifespan)
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 templates = Jinja2Templates(directory="app/templates")
 
+
+@app.get("/policy", response_class=HTMLResponse)
+async def policy(request: Request):
+    return templates.TemplateResponse("policy.html", {"request": request})
+
+@app.get("/about", response_class=HTMLResponse)
+async def about(request: Request):
+    return templates.TemplateResponse("about.html", {"request": request})
+
+@app.get("/contact", response_class=HTMLResponse)
+async def contact(request: Request):
+    return templates.TemplateResponse("contact.html", {"request": request})
+
+@app.get("/guide", response_class=HTMLResponse)
+async def guide_list(request: Request):
+    return templates.TemplateResponse("guide_list.html", {"request": request})
+
+@app.get("/guide/{article_name}", response_class=HTMLResponse)
+async def guide_detail(request: Request, article_name: str):
+    # guides 폴더 내의 해당 html 파일을 찾아 보여줌
+    return templates.TemplateResponse(f"guides/{article_name}.html", {"request": request})
+    
 # ---------------------------------------------------------
 # 1. 메인 페이지
 # ---------------------------------------------------------
