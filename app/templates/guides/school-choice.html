@@ -1,126 +1,175 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏫 실패 없는 일본어학교 선택 기준 5가지 (진학/취업/회화) - JP Campus 일본 유학 가이드</title>
-    <meta name="description" content="수백 개의 일본어학교 중 어디를 가야 할까요? 자신의 목적(진학, 취업, 회화)과 성향에 딱 맞는 학교를 고르는 5가지 핵심 기준을 제시합니다.">
-    <meta property="og:title" content="🏫 실패 없는 일본어학교 선택 기준 5가지 (진학/취업/회화)">
-    <meta property="og:description" content="수백 개의 일본어학교 중 어디를 가야 할까요? 자신의 목적(진학, 취업, 회화)과 성향에 딱 맞는 학교를 고르는 5가지 핵심 기준을 제시합니다.">
+    <title>🏫 5 Criteria for Choosing a Language School - JP Campus Guide</title>
+    <meta name="description" content="How to choose the right school for university advancement, employment, or conversation.">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        /* 읽기 좋은 긴 글 스타일 */
         .article-container { max-width: 860px; margin: 40px auto; padding: 0 20px; background: #fff; }
-        
         .article-header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border-radius: 16px; margin-bottom: 40px; }
         .article-category { color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
         .article-title { font-size: 2.2rem; color: #2c3e50; margin: 15px 0; line-height: 1.3; word-break: keep-all; }
         .article-meta { color: #7f8c8d; font-size: 0.9rem; }
-        
         .article-body { font-size: 1.1rem; line-height: 1.9; color: #333; }
         .article-body h2 { font-size: 1.6rem; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 60px; margin-bottom: 25px; }
         .article-body h3 { font-size: 1.3rem; color: #2980b9; margin-top: 40px; margin-bottom: 15px; border-left: 5px solid #2980b9; padding-left: 15px; }
         .article-body p { margin-bottom: 20px; text-align: justify; }
-        
-        /* 리스트 스타일 */
         .article-body ul, .article-body ol { margin-bottom: 30px; padding-left: 20px; background: #f9f9f9; padding: 20px 20px 20px 40px; border-radius: 8px; }
         .article-body li { margin-bottom: 10px; }
-        
-        /* 테이블 스타일 */
         .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 0.95rem; }
         .data-table th { background: #2c3e50; color: #fff; padding: 12px; text-align: left; }
         .data-table td { border: 1px solid #ddd; padding: 12px; }
         .data-table tr:nth-child(even) { background-color: #f2f2f2; }
-
-        /* 강조 박스 */
         .highlight-box { background-color: #e8f4f8; border: 2px solid #3498db; border-radius: 10px; padding: 25px; margin: 30px 0; }
         .highlight-title { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; display: block; }
-
-        /* FAQ 섹션 */
         .faq-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
         .faq-q { font-weight: bold; color: #f57c00; margin-bottom: 10px; display: block; }
-        
-        /* 버튼 */
         .btn-area { text-align: center; margin-top: 80px; padding: 40px 0; border-top: 1px solid #eee; }
         .cta-button { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
         .cta-button:hover { background: #2980b9; transform: translateY(-3px); }
+        
+        /* 언어별 표시 제어 */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
     </style>
 </head>
 <body>
-    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee;">
-        <div style="text-align: center;">
-            <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        <div class="lang-switch" style="margin-top:0;">
+            <button onclick="setGuideLang('en')">🇺🇸</button>
+            <button onclick="setGuideLang('ko')">🇰🇷</button>
         </div>
     </header>
 
     <article class="article-container">
-        <header class="article-header">
-            <span class="article-category">학교선택</span>
-            <h1 class="article-title">🏫 실패 없는 일본어학교 선택 기준 5가지 (진학/취업/회화)</h1>
-            <div class="article-meta">최종 업데이트: 2025년 12月 07日 · JP Campus 편집부</div>
-        </header>
+        <!-- English Content -->
+        <div id="content-en" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">School Selection</span>
+                <h1 class="article-title">🏫 5 Criteria for Choosing a Language School</h1>
+                <div class="article-meta">Last Updated: 2025-12-09 · JP Campus Editor</div>
+            </header>
+            <div class="article-body">
+                
+            <p>There are over 800 language schools in Japan. Choosing the right one is crucial for your success.</p>
 
-        <div class="article-body">
-            
-            <p>일본 유학 준비의 시작이자 가장 중요한 단계는 바로 <strong>'학교 선택'</strong>입니다. 일본 법무성 고시교만 해도 800개가 넘습니다. "유학원이 추천해 주는 곳", "친구가 간 곳"을 무작정 따라갔다가는 1년 내내 후회할 수 있습니다.</p>
-            <p>학교마다 커리큘럼, 분위기, 국적 비율이 천차만별이기 때문입니다. 나에게 맞는 학교를 고르는 5가지 절대 기준을 알려드립니다.</p>
-
-            <h2>1. '목적'에 맞는 커리큘럼인가?</h2>
-            <p>가장 먼저 스스로에게 물어보세요. "나는 왜 일본어를 배우러 가는가?"</p>
-            
-            <h3>(1) 대학/대학원 진학형</h3>
-            <p>일본 명문대 진학이 목표라면, 단순히 일본어만 가르치는 곳은 피해야 합니다. <strong>'준비교육과정'</strong>이 설치되어 있거나, EJU(일본유학시험) 대책 수업, 소논문 지도, 면접 대비가 체계적인 '진학 특화 학교'를 골라야 합니다.</p>
-            
-            <h3>(2) 일본 취업형</h3>
-            <p>IT 기업이나 호텔 등 일본 현지 취업을 원한다면 <strong>'비즈니스 일본어 클래스'</strong>가 있는지 확인하세요. 이력서 첨삭, 모의 면접, 기업 매칭 서비스를 제공하는 학교가 유리합니다.</p>
-            
-            <h3>(3) 회화 및 문화체험형</h3>
-            <p>스펙보다는 경험과 회화 실력 향상이 목적이라면, 교실에 앉아 문법만 파는 스파르타식 학교는 맞지 않습니다. 회화 위주의 수업, 다양한 과외 활동(디즈니랜드, 기모노 체험 등)이 많은 학교를 선택하세요.</p>
-
-            <h2>2. 국적 비율: 한자권 vs 비한자권</h2>
-            <p>학교 분위기를 좌우하는 가장 큰 요소입니다. JP Campus 지도 데이터의 '국적 비율'을 꼭 확인하세요.</p>
-            
-            <table class="data-table">
-                <tr><th>구분</th><th>특징</th><th>장점</th><th>단점</th></tr>
-                <tr><td><strong>중국/한자권 위주</strong></td><td>진학 실적 중심, 스파르타</td><td>한자 학습 속도가 빠름, 상위권 대학 진학률 높음</td><td>한국인과 중국인은 한자를 알아서 진도가 빠르지만 회화 기회는 적을 수 있음</td></tr>
-                <tr><td><strong>서양/다국적 위주</strong></td><td>회화 중심, 자유분방</td><td>다양한 문화 교류, 일본어로 대화할 기회가 많음</td><td>한자 수업 진도가 느림, 진학 분위기는 약할 수 있음</td></tr>
-            </table>
-
-            <h2>3. 위치와 주변 환경 (도심 vs 주택가)</h2>
-            <p>매일 통학해야 하는 곳입니다. 자신이 어떤 환경을 선호하는지 파악하세요.</p>
+            <h2>1. Purpose of Study</h2>
             <ul>
-                <li><strong>도심(신주쿠, 시부야 등):</strong> 교통이 편리하고 아르바이트 구하기가 매우 쉽습니다. 하지만 물가가 비싸고 유혹(?)이 많아 공부에 방해될 수 있습니다.</li>
-                <li><strong>주택가(다카다노바바, 나카노 등):</strong> 조용하고 면학 분위기가 좋습니다. 월세가 상대적으로 저렴합니다.</li>
+                <li><strong>University Advancement:</strong> Look for schools with "Preparatory Courses" (Junbi Kyoiku Katei) and EJU classes.</li>
+                <li><strong>Employment:</strong> Choose schools offering "Business Japanese" and job hunting support.</li>
+                <li><strong>Conversation/Culture:</strong> Look for schools with many Western students and cultural activities.</li>
             </ul>
 
-            <h2>4. 학교의 규모 (대형 vs 소형)</h2>
+            <h2>2. Nationality Ratio</h2>
+            <p>This determines the atmosphere of the class.</p>
             <ul>
-                <li><strong>대규모 학교 (500명 이상):</strong> 레벨이 10단계 이상으로 세분화되어 있어 내 실력에 딱 맞는 반에 들어갈 수 있습니다. 시스템이 체계적입니다.</li>
-                <li><strong>소규모 학교 (200명 이하):</strong> 선생님이 학생 이름을 다 외울 정도로 가족 같은 분위기입니다. 결석이나 생활 문제 등을 꼼꼼하게 케어해 줍니다.</li>
+                <li><strong>High Kanji-background (Chinese/Korean):</strong> Fast-paced, focused on kanji and exams.</li>
+                <li><strong>High Non-Kanji background (Western/SE Asian):</strong> Focuses more on speaking and basic kanji.</li>
             </ul>
 
-            <h2>5. 한국인 스태프 상주 여부</h2>
-            <p>일본어가 서툰 초기에는 비자 갱신, 병원 방문, 통장 개설 등에서 도움이 절실합니다. 한국인 직원이 상주하는 학교는 이런 행정 처리를 모국어로 도와주므로 심리적으로 매우 든든합니다.</p>
+            <h2>3. Location (Tokyo)</h2>
+            <ul>
+                <li><strong>Shinjuku/Shibuya:</strong> Convenient transport, many part-time jobs, but busy and expensive.</li>
+                <li><strong>Takadanobaba:</strong> Known as a "student town", relatively cheaper food.</li>
+                <li><strong>Nippori/Ikebukuro:</strong> Lower rent, good access to Narita airport.</li>
+            </ul>
 
-            <div class="highlight-box">
-                <span class="highlight-title">JP Campus 활용 팁</span>
-                <p>JP Campus의 지도 검색 필터에서 <strong>[국적: 서양권 많음]</strong>, <strong>[특화: 비즈니스]</strong>, <strong>[규모: 소수정예]</strong> 등을 조합하여 검색해보세요. 수백 개의 학교 중 내 조건에 맞는 곳만 쏙 골라낼 수 있습니다.</p>
-            </div>
+            <h2>4. School Size</h2>
+            <ul>
+                <li><strong>Large (500+ students):</strong> Systematic, many levels of classes.</li>
+                <li><strong>Small (Under 200):</strong> Family-like atmosphere, close attention from teachers.</li>
+            </ul>
         
+            </div>
+            <div class="btn-area">
+                <h3>Find the perfect school for you?</h3>
+                <p>Compare schools based on location, tuition, and nationality.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 Search Schools</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">Back to List</a>
+            </div>
         </div>
 
-        <div class="btn-area">
-            <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
-            <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
-            <br>
-            <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
-            <br><br>
-            <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+        <!-- Korean Content -->
+        <div id="content-ko" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">학교선택</span>
+                <h1 class="article-title">🏫 실패 없는 일본어학교 선택 기준 5가지 (진학/취업/회화)</h1>
+                <div class="article-meta">최종 업데이트: 2025-12-09 · JP Campus 편집부</div>
+            </header>
+            <div class="article-body">
+                
+            <p>일본에는 800개가 넘는 일본어학교가 있습니다. 목적에 맞는 학교를 고르는 5가지 절대 기준을 알려드립니다.</p>
+
+            <h2>1. '목적'에 맞는 커리큘럼인가?</h2>
+            <ul>
+                <li><strong>진학형:</strong> EJU 대책 수업, 소논문 지도, '준비교육과정' 설치 여부를 확인하세요.</li>
+                <li><strong>취업형:</strong> '비즈니스 일본어 클래스'가 있는지, 이력서 첨삭 지원을 해주는지 확인하세요.</li>
+                <li><strong>회화형:</strong> 스파르타식보다는 회화 위주 수업과 다양한 과외 활동이 많은 곳이 좋습니다.</li>
+            </ul>
+
+            <h2>2. 국적 비율: 한자권 vs 비한자권</h2>
+            <ul>
+                <li><strong>한자권(중국/한국) 위주:</strong> 진도가 빠르고 면학 분위기가 진지합니다. 상위권 대학 진학에 유리합니다.</li>
+                <li><strong>비한자권(서양 등) 위주:</strong> 회화 중심으로 수업이 진행되며 분위기가 자유롭습니다.</li>
+            </ul>
+
+            <h2>3. 위치와 주변 환경</h2>
+            <ul>
+                <li><strong>신주쿠/시부야:</strong> 교통과 알바 자리가 많지만 물가가 비쌉니다.</li>
+                <li><strong>다카다노바바:</strong> 학생 거리로 저렴한 식당이 많고 면학 분위기가 좋습니다.</li>
+                <li><strong>닛포리/이케부쿠로:</strong> 월세가 상대적으로 저렴합니다.</li>
+            </ul>
+
+            <h2>4. 학교의 규모</h2>
+            <ul>
+                <li><strong>대규모:</strong> 레벨이 세분화되어 있어 내 실력에 딱 맞는 반에 들어갈 수 있습니다.</li>
+                <li><strong>소규모:</strong> 선생님이 학생 이름을 다 외울 정도로 가족 같은 분위기입니다.</li>
+            </ul>
+        
+            </div>
+            <div class="btn-area">
+                <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
+                <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
         </div>
     </article>
 
     <footer class="main-footer">
         <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
     </footer>
+
+    <script>
+        function setGuideLang(lang) {
+            // 저장 및 상태 업데이트
+            localStorage.setItem('lang', lang);
+            
+            // 모든 콘텐츠 숨김
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            
+            // 선택된 언어만 표시
+            const target = document.getElementById('content-' + lang);
+            if (target) {
+                target.classList.add('active');
+            } else {
+                // Fallback to English if target lang not found
+                document.getElementById('content-en').classList.add('active');
+            }
+        }
+
+        // 초기 로드 시 언어 설정 확인
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem('lang') || 'en';
+            setGuideLang(savedLang);
+        });
+    </script>
 </body>
 </html>

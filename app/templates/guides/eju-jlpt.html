@@ -1,131 +1,168 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📚 EJU vs JLPT: 나에게 필요한 일본어 시험은? - JP Campus 일본 유학 가이드</title>
-    <meta name="description" content="일본 유학의 필수 스펙, EJU와 JLPT의 차이점을 명쾌하게 비교해 드립니다. 대학 진학이 목표라면 무엇부터 준비해야 할까요?">
-    <meta property="og:title" content="📚 EJU vs JLPT: 나에게 필요한 일본어 시험은?">
-    <meta property="og:description" content="일본 유학의 필수 스펙, EJU와 JLPT의 차이점을 명쾌하게 비교해 드립니다. 대학 진학이 목표라면 무엇부터 준비해야 할까요?">
+    <title>📚 EJU vs JLPT: Which one do I need? - JP Campus Guide</title>
+    <meta name="description" content="Differences between EJU and JLPT for university admission.">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        /* 읽기 좋은 긴 글 스타일 */
         .article-container { max-width: 860px; margin: 40px auto; padding: 0 20px; background: #fff; }
-        
         .article-header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border-radius: 16px; margin-bottom: 40px; }
         .article-category { color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
         .article-title { font-size: 2.2rem; color: #2c3e50; margin: 15px 0; line-height: 1.3; word-break: keep-all; }
         .article-meta { color: #7f8c8d; font-size: 0.9rem; }
-        
         .article-body { font-size: 1.1rem; line-height: 1.9; color: #333; }
         .article-body h2 { font-size: 1.6rem; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 60px; margin-bottom: 25px; }
         .article-body h3 { font-size: 1.3rem; color: #2980b9; margin-top: 40px; margin-bottom: 15px; border-left: 5px solid #2980b9; padding-left: 15px; }
         .article-body p { margin-bottom: 20px; text-align: justify; }
-        
-        /* 리스트 스타일 */
         .article-body ul, .article-body ol { margin-bottom: 30px; padding-left: 20px; background: #f9f9f9; padding: 20px 20px 20px 40px; border-radius: 8px; }
         .article-body li { margin-bottom: 10px; }
-        
-        /* 테이블 스타일 */
         .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 0.95rem; }
         .data-table th { background: #2c3e50; color: #fff; padding: 12px; text-align: left; }
         .data-table td { border: 1px solid #ddd; padding: 12px; }
         .data-table tr:nth-child(even) { background-color: #f2f2f2; }
-
-        /* 강조 박스 */
         .highlight-box { background-color: #e8f4f8; border: 2px solid #3498db; border-radius: 10px; padding: 25px; margin: 30px 0; }
         .highlight-title { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; display: block; }
-
-        /* FAQ 섹션 */
         .faq-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
         .faq-q { font-weight: bold; color: #f57c00; margin-bottom: 10px; display: block; }
-        
-        /* 버튼 */
         .btn-area { text-align: center; margin-top: 80px; padding: 40px 0; border-top: 1px solid #eee; }
         .cta-button { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
         .cta-button:hover { background: #2980b9; transform: translateY(-3px); }
+        
+        /* 언어별 표시 제어 */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
     </style>
 </head>
 <body>
-    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee;">
-        <div style="text-align: center;">
-            <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        <div class="lang-switch" style="margin-top:0;">
+            <button onclick="setGuideLang('en')">🇺🇸</button>
+            <button onclick="setGuideLang('ko')">🇰🇷</button>
         </div>
     </header>
 
     <article class="article-container">
-        <header class="article-header">
-            <span class="article-category">시험/진학</span>
-            <h1 class="article-title">📚 EJU vs JLPT: 나에게 필요한 일본어 시험은?</h1>
-            <div class="article-meta">최종 업데이트: 2025년 12月 07日 · JP Campus 편집부</div>
-        </header>
+        <!-- English Content -->
+        <div id="content-en" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">Exam/Uni</span>
+                <h1 class="article-title">📚 EJU vs JLPT: Which one do I need?</h1>
+                <div class="article-meta">Last Updated: 2025-12-09 · JP Campus Editor</div>
+            </header>
+            <div class="article-body">
+                
+            <p>Depending on your goal, you need to prepare for different exams.</p>
 
-        <div class="article-body">
-            
-            <p>일본 유학을 준비하는 학생이라면 누구나 한 번쯤 고민하는 문제입니다. "JLPT N1을 따야 할까, 아니면 EJU 점수를 올려야 할까?" 결론부터 말씀드리면, <strong>여러분의 유학 '목적'에 따라 준비해야 할 시험은 완전히 다릅니다.</strong></p>
-
-            <h2>1. JLPT (일본어능력시험)</h2>
-            <p>전 세계적으로 가장 널리 알려진 일본어 자격증 시험입니다.</p>
+            <h2>1. JLPT (Japanese Language Proficiency Test)</h2>
             <ul>
-                <li><strong>성격:</strong> 일본어 어휘, 문법, 독해, 청해 능력을 종합적으로 측정하여 합격/불합격을 판정합니다. (N1~N5 등급)</li>
-                <li><strong>시기:</strong> 매년 7월, 12월 (연 2회)</li>
-                <li><strong>필요한 사람:</strong>
-                    <ul>
-                        <li>일본 기업 <strong>취업</strong>을 희망하는 사람 (보통 N2 이상 필수, N1 우대)</li>
-                        <li><strong>전문학교</strong> 입학 희망자 (N2 이상 있으면 일본어 시험 면제되는 곳 많음)</li>
-                        <li>대학원 진학 희망자 (일부 연구과는 JLPT 성적만 보기도 함)</li>
-                        <li>아르바이트를 구하고 싶은 유학생 (이력서 스펙용)</li>
-                    </ul>
-                </li>
+                <li><strong>Purpose:</strong> General language ability certification (N1~N5).</li>
+                <li><strong>Needed for:</strong> Employment, Vocational schools, some Graduate schools.</li>
+                <li><strong>Schedule:</strong> Twice a year (July, December).</li>
             </ul>
 
-            <h2>2. EJU (일본유학시험)</h2>
-            <p>일본의 대학(학부)에 외국인 유학생 전형으로 입학하기 위해 치르는 시험입니다. 한국의 '수능'과 비슷합니다.</p>
+            <h2>2. EJU (Examination for Japanese University Admission)</h2>
             <ul>
-                <li><strong>성격:</strong> 일본 대학에서 학업을 수행할 수 있는 기초 학력을 평가합니다. 합격/불합격이 아니라 '점수'로 나옵니다.</li>
-                <li><strong>시기:</strong> 매년 6월, 11월 (연 2회)</li>
-                <li><strong>과목:</strong>
-                    <ul>
-                        <li><strong>일본어:</strong> 독해, 청독해, 청해, 기술(작문). JLPT보다 속독과 학술적 내용 이해가 중요합니다.</li>
-                        <li><strong>종합과목(문과) / 이과(물,화,생):</strong> 한국의 사회탐구/과학탐구와 비슷합니다.</li>
-                        <li><strong>수학:</strong> 코스1(문과), 코스2(이과)로 나뉩니다.</li>
-                    </ul>
-                </li>
-                <li><strong>필요한 사람:</strong> 일본의 <strong>4년제 국공립 및 사립 대학</strong>에 진학하려는 학생</li>
+                <li><strong>Purpose:</strong> Academic ability test for university entrance.</li>
+                <li><strong>Subjects:</strong> Japanese, Japan & the World, Science, Mathematics.</li>
+                <li><strong>Needed for:</strong> Entering Japanese Universities (Bachelor's degree).</li>
+                <li><strong>Schedule:</strong> Twice a year (June, November).</li>
             </ul>
 
-            <h2>3. JLPT와 EJU의 결정적 차이</h2>
-            <table class="data-table">
-                <tr><th>구분</th><th>JLPT</th><th>EJU</th></tr>
-                <tr><td><strong>평가 방식</strong></td><td>문법, 어휘 지식 중심</td><td>정보 처리 능력, 논리적 사고 중심</td></tr>
-                <tr><td><strong>문제 유형</strong></td><td>4지 선다형</td><td>4지 선다 + 서술형(기술)</td></tr>
-                <tr><td><strong>활용처</strong></td><td>취업, 알바, 전문학교</td><td>대학 입시 (필수)</td></tr>
-                <tr><td><strong>유효 기간</strong></td><td>평생</td><td>2년 (입시 기준)</td></tr>
-            </table>
-
-            <h2>4. 전략적 준비 방법</h2>
             <div class="highlight-box">
-                <span class="highlight-title">🎯 목표별 로드맵</span>
+                <span class="highlight-title">Strategy</span>
                 <ul>
-                    <li><strong>명문대 진학이 목표라면:</strong> JLPT 공부는 과감히 접어두고 <strong>EJU 고득점</strong>에 올인해야 합니다. 상위권 대학은 EJU 일본어 300점 후반대 + 영어(TOEFL) + 본고사/면접 싸움입니다. JLPT N1이 있어도 EJU 점수가 낮으면 대학에 못 갑니다.</li>
-                    <li><strong>전문학교나 미대, 취업이 목표라면:</strong> EJU보다는 <strong>JLPT N2~N1</strong> 취득이 우선입니다. 특히 전문학교는 JLPT N2 합격증만 있으면 일본어 필기시험을 면제해주는 경우가 대부분입니다.</li>
+                    <li><strong>Aiming for University?</strong> Focus on <strong>EJU</strong> scores. JLPT is less important.</li>
+                    <li><strong>Aiming for Job/Vocational School?</strong> Get <strong>JLPT N2 or N1</strong>.</li>
                 </ul>
             </div>
         
+            </div>
+            <div class="btn-area">
+                <h3>Find the perfect school for you?</h3>
+                <p>Compare schools based on location, tuition, and nationality.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 Search Schools</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">Back to List</a>
+            </div>
         </div>
 
-        <div class="btn-area">
-            <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
-            <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
-            <br>
-            <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
-            <br><br>
-            <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+        <!-- Korean Content -->
+        <div id="content-ko" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">시험/진학</span>
+                <h1 class="article-title">📚 EJU vs JLPT: 나에게 필요한 일본어 시험은?</h1>
+                <div class="article-meta">최종 업데이트: 2025-12-09 · JP Campus 편집부</div>
+            </header>
+            <div class="article-body">
+                
+            <p>유학 목적에 따라 준비해야 할 시험이 다릅니다.</p>
+
+            <h2>1. JLPT (일본어능력시험)</h2>
+            <ul>
+                <li><strong>성격:</strong> 일본어 종합 능력 평가 (합격/불합격).</li>
+                <li><strong>필요한 사람:</strong> 취업 희망자, 전문학교 진학자.</li>
+                <li><strong>시기:</strong> 연 2회 (7월, 12월).</li>
+            </ul>
+
+            <h2>2. EJU (일본유학시험)</h2>
+            <ul>
+                <li><strong>성격:</strong> 대학 수학 능력 평가 (점수제).</li>
+                <li><strong>과목:</strong> 일본어, 종합과목(문과)/이과, 수학.</li>
+                <li><strong>필요한 사람:</strong> 4년제 대학 진학 희망자.</li>
+                <li><strong>시기:</strong> 연 2회 (6월, 11월).</li>
+            </ul>
+
+            <div class="highlight-box">
+                <span class="highlight-title">전략</span>
+                <ul>
+                    <li><strong>대학 진학이 목표라면:</strong> JLPT보다는 <strong>EJU 고득점</strong>에 집중하세요.</li>
+                    <li><strong>전문학교/취업이 목표라면:</strong> <strong>JLPT N2~N1</strong> 취득이 우선입니다.</li>
+                </ul>
+            </div>
+        
+            </div>
+            <div class="btn-area">
+                <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
+                <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
         </div>
     </article>
 
     <footer class="main-footer">
         <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
     </footer>
+
+    <script>
+        function setGuideLang(lang) {
+            // 저장 및 상태 업데이트
+            localStorage.setItem('lang', lang);
+            
+            // 모든 콘텐츠 숨김
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            
+            // 선택된 언어만 표시
+            const target = document.getElementById('content-' + lang);
+            if (target) {
+                target.classList.add('active');
+            } else {
+                // Fallback to English if target lang not found
+                document.getElementById('content-en').classList.add('active');
+            }
+        }
+
+        // 초기 로드 시 언어 설정 확인
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem('lang') || 'en';
+            setGuideLang(savedLang);
+        });
+    </script>
 </body>
 </html>

@@ -1,111 +1,161 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>💰 일본 어학연수 1년 비용 완벽 분석 (학비, 생활비, 숨은 비용) - JP Campus 일본 유학 가이드</title>
-    <meta name="description" content="일본 유학 1년 비용은 얼마일까요? 도쿄 기준 학비, 기숙사, 생활비부터 숨겨진 초기 비용까지 현실적인 예산을 엑셀처럼 꼼꼼하게 정리해드립니다.">
-    <meta property="og:title" content="💰 일본 어학연수 1년 비용 완벽 분석 (학비, 생활비, 숨은 비용)">
-    <meta property="og:description" content="일본 유학 1년 비용은 얼마일까요? 도쿄 기준 학비, 기숙사, 생활비부터 숨겨진 초기 비용까지 현실적인 예산을 엑셀처럼 꼼꼼하게 정리해드립니다.">
+    <title>💰 1-Year Cost Breakdown for Studying in Japan - JP Campus Guide</title>
+    <meta name="description" content="Realistic budget analysis for 1 year in Tokyo: Tuition, housing, and living costs.">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        /* 읽기 좋은 긴 글 스타일 */
         .article-container { max-width: 860px; margin: 40px auto; padding: 0 20px; background: #fff; }
-        
         .article-header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border-radius: 16px; margin-bottom: 40px; }
         .article-category { color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
         .article-title { font-size: 2.2rem; color: #2c3e50; margin: 15px 0; line-height: 1.3; word-break: keep-all; }
         .article-meta { color: #7f8c8d; font-size: 0.9rem; }
-        
         .article-body { font-size: 1.1rem; line-height: 1.9; color: #333; }
         .article-body h2 { font-size: 1.6rem; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 60px; margin-bottom: 25px; }
         .article-body h3 { font-size: 1.3rem; color: #2980b9; margin-top: 40px; margin-bottom: 15px; border-left: 5px solid #2980b9; padding-left: 15px; }
         .article-body p { margin-bottom: 20px; text-align: justify; }
-        
-        /* 리스트 스타일 */
         .article-body ul, .article-body ol { margin-bottom: 30px; padding-left: 20px; background: #f9f9f9; padding: 20px 20px 20px 40px; border-radius: 8px; }
         .article-body li { margin-bottom: 10px; }
-        
-        /* 테이블 스타일 */
         .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 0.95rem; }
         .data-table th { background: #2c3e50; color: #fff; padding: 12px; text-align: left; }
         .data-table td { border: 1px solid #ddd; padding: 12px; }
         .data-table tr:nth-child(even) { background-color: #f2f2f2; }
-
-        /* 강조 박스 */
         .highlight-box { background-color: #e8f4f8; border: 2px solid #3498db; border-radius: 10px; padding: 25px; margin: 30px 0; }
         .highlight-title { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; display: block; }
-
-        /* FAQ 섹션 */
         .faq-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
         .faq-q { font-weight: bold; color: #f57c00; margin-bottom: 10px; display: block; }
-        
-        /* 버튼 */
         .btn-area { text-align: center; margin-top: 80px; padding: 40px 0; border-top: 1px solid #eee; }
         .cta-button { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
         .cta-button:hover { background: #2980b9; transform: translateY(-3px); }
+        
+        /* 언어별 표시 제어 */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
     </style>
 </head>
 <body>
-    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee;">
-        <div style="text-align: center;">
-            <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        <div class="lang-switch" style="margin-top:0;">
+            <button onclick="setGuideLang('en')">🇺🇸</button>
+            <button onclick="setGuideLang('ko')">🇰🇷</button>
         </div>
     </header>
 
     <article class="article-container">
-        <header class="article-header">
-            <span class="article-category">비용/예산</span>
-            <h1 class="article-title">💰 일본 어학연수 1년 비용 완벽 분석 (학비, 생활비, 숨은 비용)</h1>
-            <div class="article-meta">최종 업데이트: 2025년 12月 07日 · JP Campus 편집부</div>
-        </header>
+        <!-- English Content -->
+        <div id="content-en" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">Cost/Budget</span>
+                <h1 class="article-title">💰 1-Year Cost Breakdown for Studying in Japan</h1>
+                <div class="article-meta">Last Updated: 2025-12-09 · JP Campus Editor</div>
+            </header>
+            <div class="article-body">
+                
+            <p>One of the biggest concerns for students planning to study in Japan is <strong>cost</strong>. Estimates vary widely depending on lifestyle and location (Tokyo vs. rural areas).</p>
+            <p>Here is a realistic breakdown based on 2024 Tokyo prices.</p>
 
-        <div class="article-body">
-            
-            <p>일본 유학을 준비하는 분들이 가장 먼저, 그리고 가장 심각하게 고민하는 부분이 바로 <strong>'비용'</strong>입니다. 인터넷에 검색해보면 "1,500만원이면 된다"부터 "3,000만원은 있어야 한다"까지 정보가 제각각이라 혼란스러우셨을 겁니다. 이는 개인의 소비 성향과 거주 지역(도쿄 vs 지방)에 따라 편차가 크기 때문입니다.</p>
-            <p>JP Campus에서는 2024년 도쿄 물가를 기준으로, 숨겨진 비용 하나까지 놓치지 않고 <strong>가장 현실적인 1년 유학 비용</strong>을 분석해 드립니다. 이 글을 통해 구체적인 예산을 수립해 보세요.</p>
+            <h2>1. Tuition (1 Year)</h2>
+            <p>Average tuition for language schools in Tokyo:</p>
+            <table class="data-table">
+                <tr><th>Item</th><th>Average Cost (JPY)</th></tr>
+                <tr><td>Selection Fee</td><td>20,000 ~ 30,000</td></tr>
+                <tr><td>Admission Fee</td><td>50,000 ~ 70,000</td></tr>
+                <tr><td>Tuition (1 yr)</td><td>600,000 ~ 700,000</td></tr>
+                <tr><td>Facility/Others</td><td>40,000 ~ 80,000</td></tr>
+                <tr><td><strong>Total</strong></td><td><strong>Approx. 750k ~ 850k JPY</strong></td></tr>
+            </table>
+
+            <h2>2. Housing (The Biggest Variable)</h2>
+            <h3>(1) School Dormitory</h3>
+            <ul>
+                <li>Initial Cost: 30k~50k JPY</li>
+                <li>Monthly Rent (2-person room): 40k~50k JPY</li>
+                <li><strong>1 Year Total: Approx. 600k JPY</strong></li>
+            </ul>
+
+            <h3>(2) Share House</h3>
+            <ul>
+                <li>Monthly Rent + Utilities: 50k~70k JPY</li>
+                <li><strong>1 Year Total: Approx. 800k JPY</strong></li>
+            </ul>
+
+            <h3>(3) Private Apartment</h3>
+            <ul>
+                <li>Initial Cost (Key money, etc.): 200k~300k JPY</li>
+                <li>Monthly Rent: 60k~80k JPY</li>
+                <li><strong>1 Year Total: Approx. 1M~1.2M JPY</strong></li>
+            </ul>
+
+            <h2>3. Living Expenses</h2>
+            <ul>
+                <li><strong>Food:</strong> 30k~40k JPY/month (Cooking at home is key!)</li>
+                <li><strong>Transport:</strong> 5k~10k JPY/month (Student commuter pass available)</li>
+                <li><strong>Phone/Internet:</strong> 3k~5k JPY/month</li>
+            </ul>
+
+            <h2>4. Summary: Total 1-Year Cost</h2>
+            <p>Based on [Tokyo School + Dormitory + Moderate Lifestyle]:</p>
+            <table class="data-table">
+                <tr><td>Tuition</td><td>800,000 JPY</td></tr>
+                <tr><td>Housing</td><td>600,000 JPY</td></tr>
+                <tr><td>Living</td><td>600,000 JPY</td></tr>
+                <tr><td><strong>Grand Total</strong></td><td><strong>2,000,000 JPY (Approx $13,500)</strong></td></tr>
+            </table>
+        
+            </div>
+            <div class="btn-area">
+                <h3>Find the perfect school for you?</h3>
+                <p>Compare schools based on location, tuition, and nationality.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 Search Schools</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">Back to List</a>
+            </div>
+        </div>
+
+        <!-- Korean Content -->
+        <div id="content-ko" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">비용/예산</span>
+                <h1 class="article-title">💰 일본 어학연수 1년 비용 완벽 분석 (학비, 생활비, 숨은 비용)</h1>
+                <div class="article-meta">최종 업데이트: 2025-12-09 · JP Campus 편집부</div>
+            </header>
+            <div class="article-body">
+                
+            <p>일본 유학을 준비하는 분들이 가장 먼저, 그리고 가장 심각하게 고민하는 부분이 바로 <strong>'비용'</strong>입니다. 인터넷에 검색해보면 "1,500만원이면 된다"부터 "3,000만원은 있어야 한다"까지 정보가 제각각이라 혼란스러우셨을 겁니다.</p>
+            <p>JP Campus에서는 2024년 도쿄 물가를 기준으로, 숨겨진 비용 하나까지 놓치지 않고 <strong>가장 현실적인 1년 유학 비용</strong>을 분석해 드립니다.</p>
 
             <h2>1. 일본어학교 학비 (1년 기준)</h2>
-            <p>학비는 학교마다, 코스마다 다르지만 도쿄 지역 학교들의 평균적인 비용은 다음과 같습니다. 최근 엔저 현상과 물가 상승으로 인해 학비가 조금씩 오르는 추세입니다.</p>
-            
             <table class="data-table">
                 <tr><th>항목</th><th>평균 비용 (엔)</th><th>비고</th></tr>
-                <tr><td>선고료 (전형료)</td><td>20,000 ~ 30,000</td><td>원서 접수 시 1회 납부 (환불 불가)</td></tr>
+                <tr><td>선고료 (전형료)</td><td>20,000 ~ 30,000</td><td>원서 접수 시 1회 납부</td></tr>
                 <tr><td>입학금</td><td>50,000 ~ 70,000</td><td>입학 첫 해만 납부</td></tr>
-                <tr><td>수업료 (1년)</td><td>600,000 ~ 700,000</td><td>전기/후기 6개월 분납 가능한 학교 많음</td></tr>
-                <tr><td>시설비/교재비</td><td>40,000 ~ 80,000</td><td>냉난방비, 프린트물 등 포함</td></tr>
+                <tr><td>수업료 (1년)</td><td>600,000 ~ 700,000</td><td>6개월 분납 가능 학교 많음</td></tr>
+                <tr><td>시설비/교재비</td><td>40,000 ~ 80,000</td><td>냉난방비 등 포함</td></tr>
                 <tr><td><strong>총 합계</strong></td><td><strong>약 75만엔 ~ 85만엔</strong></td><td><strong>한화 약 700~800만원</strong></td></tr>
             </table>
-            
-            <div class="highlight-box">
-                <span class="highlight-title">💡 학비를 아끼는 꿀팁</span>
-                <ul>
-                    <li><strong>준비교육과정 여부 확인:</strong> 대학 진학이 목표가 아니라면, 상대적으로 저렴한 일반 회화 중심 학교를 선택하세요.</li>
-                    <li><strong>장학금 제도:</strong> 입학 전 JLPT N1/N2 소지자에게 입학금을 면제해주거나, 수업료를 10% 감면해주는 학교가 많습니다. JP Campus 검색 필터에서 '장학금'을 확인하세요.</li>
-                    <li><strong>지역 변경:</strong> 도쿄보다 오사카나 후쿠오카, 지방 도시의 학교는 연간 학비가 10~15만엔 정도 저렴할 수 있습니다.</li>
-                </ul>
-            </div>
 
             <h2>2. 주거비 (가장 큰 변수)</h2>
-            <p>어디에 사느냐에 따라 1년 예산이 500만원 이상 차이가 날 수 있습니다. 초기 정착 비용까지 고려해야 합니다.</p>
-
             <h3>(1) 학교 기숙사 (2인실 기준)</h3>
-            <p>가장 일반적인 선택입니다. 학교에서 관리하므로 안전하고, 입주 심사가 없어 편리합니다. 보통 3개월 치를 선납합니다.</p>
+            <p>가장 일반적인 선택입니다. 학교에서 관리하므로 안전하고, 입주 심사가 없어 편리합니다.</p>
             <ul>
-                <li>입실료(예치금): 3~5만엔</li>
-                <li>월세(광열비 포함): 4~5만엔</li>
+                <li>입실료: 3~5만엔</li>
+                <li>월세: 4~5만엔</li>
                 <li><strong>1년 예상 비용: 약 60만엔</strong></li>
             </ul>
 
             <h3>(2) 사설 쉐어하우스</h3>
-            <p>외국인들과 교류하고 싶다면 추천합니다. 보증금이 없고 최소 계약 기간이 짧은 편입니다.</p>
+            <p>보증금이 없고 최소 계약 기간이 짧은 편입니다.</p>
             <ul>
                 <li>월세+관리비: 5~7만엔</li>
                 <li><strong>1년 예상 비용: 약 80만엔</strong></li>
             </ul>
 
             <h3>(3) 원룸 자취 (임대)</h3>
-            <p>초기 비용(시키킹, 레이킹, 보증회사, 화재보험, 가구 구매 등)이 월세의 3~4배가 들어갑니다. 유학 초반에는 추천하지 않습니다.</p>
+            <p>초기 비용이 월세의 3~4배가 들어갑니다. 유학 초반에는 추천하지 않습니다.</p>
             <ul>
                 <li>초기 비용: 20~30만엔</li>
                 <li>월세: 6~8만엔 (도쿄 기준)</li>
@@ -113,57 +163,60 @@
             </ul>
 
             <h2>3. 생활비 (식비, 교통비, 통신비)</h2>
-            <p>숨만 쉬어도 나가는 돈입니다. 개인차가 크지만, 평균적인 유학생의 지출 내역은 다음과 같습니다.</p>
-            
             <ul>
-                <li><strong>식비 (월 3~4만엔):</strong> 일본은 외식비가 비쌉니다(한 끼 800~1,200엔). 마트에서 장을 봐서 직접 해 먹는다면 월 3만엔으로도 충분하지만, 매끼 사 먹으면 6만엔도 부족합니다.</li>
-                <li><strong>교통비 (월 5천~1만엔):</strong> 일본 전철비는 한국의 2배입니다. 집과 학교가 멀다면 교통비 부담이 큽니다. 다행히 유학생은 '통학 정기권'을 끊어 최대 50% 이상 할인을 받을 수 있습니다.</li>
-                <li><strong>통신비 (월 3~5천엔):</strong> 메이저 통신사 대신 알뜰폰(격안심)이나 GTN모바일 등을 사용하면 데이터를 충분히 쓰면서도 비용을 아낄 수 있습니다.</li>
-                <li><strong>국민건강보험료 (월 1~2천엔):</strong> 유학생은 소득이 없으므로 감면 신청 시 최저 요금만 냅니다.</li>
+                <li><strong>식비:</strong> 월 3~4만엔 (자취 요리 기준)</li>
+                <li><strong>교통비:</strong> 월 5천~1만엔 (유학생 정기권 할인 가능)</li>
+                <li><strong>통신비:</strong> 월 3~5천엔 (알뜰폰 사용 시)</li>
             </ul>
 
             <h2>4. 총정리: 1년 유학, 얼마가 필요할까?</h2>
-            <p>가장 일반적인 <strong>[도쿄 사립 어학원 + 기숙사 2인실 + 적당한 자취]</strong> 패턴으로 계산해보겠습니다.</p>
-            
+            <p>가장 일반적인 [도쿄 사립 어학원 + 기숙사 2인실 + 적당한 자취] 패턴입니다.</p>
             <table class="data-table">
                 <tr><td>학비 (1년)</td><td>800,000엔</td></tr>
                 <tr><td>주거비 (1년)</td><td>600,000엔</td></tr>
                 <tr><td>생활비 (12개월)</td><td>600,000엔</td></tr>
-                <tr><td>항공권 및 기타</td><td>100,000엔</td></tr>
-                <tr><td><strong>총 합계</strong></td><td><strong>2,100,000엔 (약 1,900만원)</strong></td></tr>
+                <tr><td><strong>총 합계</strong></td><td><strong>2,000,000엔 (약 1,900만원)</strong></td></tr>
             </table>
-
-            <h2>5. 아르바이트로 충당 가능할까?</h2>
-            <p>희소식은 일본은 유학생 아르바이트(주 28시간)가 합법이라는 점입니다. 도쿄 편의점 시급 1,113엔 기준으로 계산해보겠습니다.</p>
-            <ul>
-                <li><strong>월 수입:</strong> 1,113엔 × 28시간 × 4주 = <strong>약 124,000엔</strong></li>
-                <li><strong>1년 수입:</strong> 약 148만엔</li>
-            </ul>
-            <p>즉, <strong>초기 6개월 정도의 자금(약 1,000만원)</strong>만 들고 가서 현지에서 아르바이트를 꾸준히 한다면, 나머지 생활비와 후반기 학비는 스스로 벌어서 충당하는 것이 충분히 가능합니다. 이것이 바로 일본 유학의 가장 큰 장점입니다.</p>
-
-            <h3>자주 묻는 질문 (FAQ)</h3>
-            <div class="faq-box">
-                <span class="faq-q">Q. 초기 비용은 얼마나 환전해 가야 하나요?</span>
-                <p>A. 기숙사비와 3개월 정도의 생활비를 포함해 최소 50~70만엔(약 500~700만원)은 현금이나 카드로 준비해 가시는 것이 안전합니다. 알바를 바로 구하지 못할 수도 있기 때문입니다.</p>
-                
-                <span class="faq-q">Q. 지방으로 가면 얼마나 저렴한가요?</span>
-                <p>A. 학비는 큰 차이가 없으나, 월세가 도쿄의 절반 수준(3~4만엔에 1인실 가능)입니다. 전체 비용은 약 20~30% 절약됩니다.</p>
-            </div>
         
-        </div>
-
-        <div class="btn-area">
-            <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
-            <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
-            <br>
-            <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
-            <br><br>
-            <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
+            <div class="btn-area">
+                <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
+                <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
         </div>
     </article>
 
     <footer class="main-footer">
         <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
     </footer>
+
+    <script>
+        function setGuideLang(lang) {
+            // 저장 및 상태 업데이트
+            localStorage.setItem('lang', lang);
+            
+            // 모든 콘텐츠 숨김
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            
+            // 선택된 언어만 표시
+            const target = document.getElementById('content-' + lang);
+            if (target) {
+                target.classList.add('active');
+            } else {
+                // Fallback to English if target lang not found
+                document.getElementById('content-en').classList.add('active');
+            }
+        }
+
+        // 초기 로드 시 언어 설정 확인
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem('lang') || 'en';
+            setGuideLang(savedLang);
+        });
+    </script>
 </body>
 </html>

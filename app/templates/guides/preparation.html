@@ -1,123 +1,162 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🧳 일본 유학 출국 전 필수 체크리스트 (짐 싸기 꿀팁) - JP Campus 일본 유학 가이드</title>
-    <meta name="description" content="일본으로 떠나기 전 캐리어에 무엇을 넣어야 할까요? 도장, 돼지코, 상비약 등 한국에서 꼭 챙겨가야 할 필수품과 현지에서 사도 되는 물건들을 정리했습니다.">
-    <meta property="og:title" content="🧳 일본 유학 출국 전 필수 체크리스트 (짐 싸기 꿀팁)">
-    <meta property="og:description" content="일본으로 떠나기 전 캐리어에 무엇을 넣어야 할까요? 도장, 돼지코, 상비약 등 한국에서 꼭 챙겨가야 할 필수품과 현지에서 사도 되는 물건들을 정리했습니다.">
+    <title>🧳 Pre-departure Checklist: What to Pack - JP Campus Guide</title>
+    <meta name="description" content="Must-bring items like Hanko (seal), adapter, and documents.">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        /* 읽기 좋은 긴 글 스타일 */
         .article-container { max-width: 860px; margin: 40px auto; padding: 0 20px; background: #fff; }
-        
         .article-header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border-radius: 16px; margin-bottom: 40px; }
         .article-category { color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
         .article-title { font-size: 2.2rem; color: #2c3e50; margin: 15px 0; line-height: 1.3; word-break: keep-all; }
         .article-meta { color: #7f8c8d; font-size: 0.9rem; }
-        
         .article-body { font-size: 1.1rem; line-height: 1.9; color: #333; }
         .article-body h2 { font-size: 1.6rem; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 60px; margin-bottom: 25px; }
         .article-body h3 { font-size: 1.3rem; color: #2980b9; margin-top: 40px; margin-bottom: 15px; border-left: 5px solid #2980b9; padding-left: 15px; }
         .article-body p { margin-bottom: 20px; text-align: justify; }
-        
-        /* 리스트 스타일 */
         .article-body ul, .article-body ol { margin-bottom: 30px; padding-left: 20px; background: #f9f9f9; padding: 20px 20px 20px 40px; border-radius: 8px; }
         .article-body li { margin-bottom: 10px; }
-        
-        /* 테이블 스타일 */
         .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 0.95rem; }
         .data-table th { background: #2c3e50; color: #fff; padding: 12px; text-align: left; }
         .data-table td { border: 1px solid #ddd; padding: 12px; }
         .data-table tr:nth-child(even) { background-color: #f2f2f2; }
-
-        /* 강조 박스 */
         .highlight-box { background-color: #e8f4f8; border: 2px solid #3498db; border-radius: 10px; padding: 25px; margin: 30px 0; }
         .highlight-title { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; display: block; }
-
-        /* FAQ 섹션 */
         .faq-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
         .faq-q { font-weight: bold; color: #f57c00; margin-bottom: 10px; display: block; }
-        
-        /* 버튼 */
         .btn-area { text-align: center; margin-top: 80px; padding: 40px 0; border-top: 1px solid #eee; }
         .cta-button { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
         .cta-button:hover { background: #2980b9; transform: translateY(-3px); }
+        
+        /* 언어별 표시 제어 */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
     </style>
 </head>
 <body>
-    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee;">
-        <div style="text-align: center;">
-            <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        <div class="lang-switch" style="margin-top:0;">
+            <button onclick="setGuideLang('en')">🇺🇸</button>
+            <button onclick="setGuideLang('ko')">🇰🇷</button>
         </div>
     </header>
 
     <article class="article-container">
-        <header class="article-header">
-            <span class="article-category">출국준비</span>
-            <h1 class="article-title">🧳 일본 유학 출국 전 필수 체크리스트 (짐 싸기 꿀팁)</h1>
-            <div class="article-meta">최종 업데이트: 2025년 12月 07日 · JP Campus 편집부</div>
-        </header>
+        <!-- English Content -->
+        <div id="content-en" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">Preparation</span>
+                <h1 class="article-title">🧳 Pre-departure Checklist: What to Pack</h1>
+                <div class="article-meta">Last Updated: 2025-12-09 · JP Campus Editor</div>
+            </header>
+            <div class="article-body">
+                
+            <p>What should you pack in your luggage? Here is the essential list.</p>
 
-        <div class="article-body">
-            
-            <p>비자도 나왔고 비행기 표도 예매했다면, 이제 남은 건 <strong>짐 싸기</strong>입니다. "일본도 사람 사는 곳인데 다 있겠지"라고 방심했다가는 도착 첫날부터 당황할 수 있습니다. 반대로, 너무 바리바리 싸 들고 가서 짐만 되는 경우도 있죠.</p>
-            <p>일본 유학 선배들이 입을 모아 추천하는 '한국에서 꼭 챙겨가야 할 필수템' 리스트를 공개합니다.</p>
-
-            <h2>1. 절대 없으면 안 되는 필수품</h2>
+            <h2>1. Must-haves</h2>
             <ul>
-                <li><strong>도장 (인감/막도장):</strong> 일본은 여전히 '도장 문화'입니다. 서명(사인)으로 대체 안 되는 경우가 많습니다.
-                    <ul>
-                        <li><strong>한자 성(姓) 도장:</strong> 택배 수령, 출석 확인용 (막도장)</li>
-                        <li><strong>한자 풀네임 도장:</strong> 통장 개설, 집 계약용 (인감도장 스타일)</li>
-                    </ul>
-                </li>
-                <li><strong>돼지코 (110v 변환 어댑터):</strong> 일본 전압은 110v입니다. 다이소에서 파는 500원짜리 돼지코를 5~6개 넉넉히 챙기세요. 한국 멀티탭을 가져가서 돼지코 하나 끼워 쓰면 편리합니다.</li>
-                <li><strong>증명사진 (다양한 사이즈):</strong> 일본의 즉석 증명사진기는 보정이 안 되어 사실적(?)으로 나옵니다. 알바 이력서나 서류 제출용으로 한국에서 예쁘게 찍은 사진을 넉넉히 인화해 가세요 (3x4cm, 4x3cm).</li>
-                <li><strong>해외 결제 가능한 카드:</strong> 일본 통장을 만들기 전까지 쓸 생활비가 필요합니다. 수수료가 저렴한 트래블월렛, 트래블로그, 하나 비바 카드 등을 준비하세요. 현금도 5~10만엔 정도는 챙겨야 합니다.</li>
+                <li><strong>Hanko (Personal Seal):</strong> Required for bank accounts and contracts. Bring a round seal with your last name (Kanji or Katakana).</li>
+                <li><strong>Adapter (Type A):</strong> Japan uses 100V, Type A plugs (flat two-pin).</li>
+                <li><strong>ID Photos:</strong> Bring various sizes (3x4cm, 4x3cm) for documents and resumes.</li>
+                <li><strong>Cash & Cards:</strong> Bring at least 100,000 JPY in cash and a credit card for overseas use.</li>
             </ul>
 
-            <h2>2. 챙겨가면 삶의 질이 올라가는 물건</h2>
+            <h2>2. Good to have</h2>
             <ul>
-                <li><strong>상비약:</strong> 일본 약은 한국 약보다 성분이 순해서 잘 안 듣는다는 분들이 많습니다. 평소 먹는 두통약, 소화제, 감기약, 연고 등은 한국에서 사 가세요.</li>
-                <li><strong>안경/렌즈 여분:</strong> 일본에서 안경을 맞추려면 비싸고 시력 검사 절차가 복잡할 수 있습니다.</li>
-                <li><strong>양말/속옷/수건:</strong> 의외로 한국의 면 제품 퀄리티가 훨씬 좋습니다. 일본 수건은 얇고 잘 닳는 편입니다.</li>
-                <li><strong>때수건:</strong> 일본에는 없습니다. 목욕을 좋아한다면 필수!</li>
+                <li><strong>Medicine:</strong> Bring your usual painkillers, cold medicine, etc.</li>
+                <li><strong>Glasses/Contacts:</strong> Spare pairs are recommended.</li>
             </ul>
 
-            <h2>3. 굳이 안 가져가도 되는 것 (부피 줄이기)</h2>
+            <h2>3. Hand Carry Items (Don't put in checked luggage!)</h2>
             <ul>
-                <li><strong>무거운 샴푸, 린스, 세제:</strong> 도착 당일 쓸 여행용 키트만 챙기세요. 나머지는 일본 드럭스토어에서 저렴하고 질 좋은 제품을 쉽게 살 수 있습니다.</li>
-                <li><strong>너무 많은 옷:</strong> 유니클로, GU 등 저렴한 브랜드가 많습니다. 계절에 맞는 옷만 챙기고 나머지는 현지 조달하거나 나중에 택배로 받으세요.</li>
-                <li><strong>한국 식품:</strong> 도쿄 신오쿠보나 오사카 츠루하시에 가면 한국 마트가 널려있습니다. 심지어 동네 슈퍼에서도 신라면과 김치는 팝니다. 무겁게 쌀이나 라면을 챙길 필요 없습니다.</li>
+                <li>Passport with Visa</li>
+                <li>COE (Certificate of Eligibility)</li>
+                <li>Admission Letter</li>
+            </ul>
+        
+            </div>
+            <div class="btn-area">
+                <h3>Find the perfect school for you?</h3>
+                <p>Compare schools based on location, tuition, and nationality.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 Search Schools</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">Back to List</a>
+            </div>
+        </div>
+
+        <!-- Korean Content -->
+        <div id="content-ko" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">출국준비</span>
+                <h1 class="article-title">🧳 일본 유학 출국 전 필수 체크리스트 (짐 싸기)</h1>
+                <div class="article-meta">최종 업데이트: 2025-12-09 · JP Campus 편집부</div>
+            </header>
+            <div class="article-body">
+                
+            <p>일본으로 떠나기 전 꼭 챙겨야 할 물건들을 정리했습니다.</p>
+
+            <h2>1. 필수품</h2>
+            <ul>
+                <li><strong>도장:</strong> 일본은 도장 문화입니다. 한자 성(姓)이 새겨진 도장을 꼭 챙기세요. (은행 개설용)</li>
+                <li><strong>돼지코 (어댑터):</strong> 일본은 110v를 씁니다. 다이소에서 넉넉히 사 가세요.</li>
+                <li><strong>증명사진:</strong> 알바 이력서 등에 많이 쓰입니다. 넉넉히 인화해 가세요.</li>
+                <li><strong>해외 결제 카드 & 현금:</strong> 초기 정착금으로 현금 10만엔 이상은 준비하세요.</li>
+            </ul>
+
+            <h2>2. 챙겨가면 좋은 것</h2>
+            <ul>
+                <li><strong>상비약:</strong> 평소 먹는 약, 감기약, 소화제 등.</li>
+                <li><strong>안경/렌즈 여분:</strong> 일본에서 맞추려면 비쌀 수 있습니다.</li>
             </ul>
 
             <div class="highlight-box">
-                <span class="highlight-title">🚨 기내 수하물(핸드캐리)로 챙길 서류</span>
-                <p>다음 서류는 위탁 수하물(캐리어)에 넣지 말고, 반드시 가방에 넣어 기내에 들고 타세요. 일본 공항 입국 심사 때 제출해야 합니다.</p>
-                <ul>
-                    <li>여권 (비자 부착 확인)</li>
-                    <li>COE (재류자격인정증명서) 원본</li>
-                    <li>입학허가서</li>
-                    <li>자격외활동허가신청서 (알바 하실 분 필수)</li>
-                </ul>
+                <span class="highlight-title">🚨 기내 수하물로 챙길 것</span>
+                <p>여권, COE 원본, 입학허가서는 절대 캐리어에 넣지 말고 가방에 넣어 들고 타세요.</p>
             </div>
         
-        </div>
-
-        <div class="btn-area">
-            <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
-            <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
-            <br>
-            <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
-            <br><br>
-            <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
+            <div class="btn-area">
+                <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
+                <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
         </div>
     </article>
 
     <footer class="main-footer">
         <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
     </footer>
+
+    <script>
+        function setGuideLang(lang) {
+            // 저장 및 상태 업데이트
+            localStorage.setItem('lang', lang);
+            
+            // 모든 콘텐츠 숨김
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            
+            // 선택된 언어만 표시
+            const target = document.getElementById('content-' + lang);
+            if (target) {
+                target.classList.add('active');
+            } else {
+                // Fallback to English if target lang not found
+                document.getElementById('content-en').classList.add('active');
+            }
+        }
+
+        // 초기 로드 시 언어 설정 확인
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem('lang') || 'en';
+            setGuideLang(savedLang);
+        });
+    </script>
 </body>
 </html>

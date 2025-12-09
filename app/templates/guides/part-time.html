@@ -1,131 +1,150 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🍔 일본 유학 아르바이트: 구하는 법, 시급, 추천 직종 - JP Campus 일본 유학 가이드</title>
-    <meta name="description" content="일본 유학의 꽃, 아르바이트! 자격외활동허가서 발급부터 면접 꿀팁, 일본어 레벨별 추천 알바와 평균 시급까지 현실적인 정보를 알려드립니다.">
-    <meta property="og:title" content="🍔 일본 유학 아르바이트: 구하는 법, 시급, 추천 직종">
-    <meta property="og:description" content="일본 유학의 꽃, 아르바이트! 자격외활동허가서 발급부터 면접 꿀팁, 일본어 레벨별 추천 알바와 평균 시급까지 현실적인 정보를 알려드립니다.">
+    <title>🍔 Part-time Jobs in Japan: Guide & Wages - JP Campus Guide</title>
+    <meta name="description" content="How to get a work permit, recommended jobs by Japanese level, and average hourly wages.">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        /* 읽기 좋은 긴 글 스타일 */
         .article-container { max-width: 860px; margin: 40px auto; padding: 0 20px; background: #fff; }
-        
         .article-header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border-radius: 16px; margin-bottom: 40px; }
         .article-category { color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
         .article-title { font-size: 2.2rem; color: #2c3e50; margin: 15px 0; line-height: 1.3; word-break: keep-all; }
         .article-meta { color: #7f8c8d; font-size: 0.9rem; }
-        
         .article-body { font-size: 1.1rem; line-height: 1.9; color: #333; }
         .article-body h2 { font-size: 1.6rem; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 60px; margin-bottom: 25px; }
         .article-body h3 { font-size: 1.3rem; color: #2980b9; margin-top: 40px; margin-bottom: 15px; border-left: 5px solid #2980b9; padding-left: 15px; }
         .article-body p { margin-bottom: 20px; text-align: justify; }
-        
-        /* 리스트 스타일 */
         .article-body ul, .article-body ol { margin-bottom: 30px; padding-left: 20px; background: #f9f9f9; padding: 20px 20px 20px 40px; border-radius: 8px; }
         .article-body li { margin-bottom: 10px; }
-        
-        /* 테이블 스타일 */
         .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 0.95rem; }
         .data-table th { background: #2c3e50; color: #fff; padding: 12px; text-align: left; }
         .data-table td { border: 1px solid #ddd; padding: 12px; }
         .data-table tr:nth-child(even) { background-color: #f2f2f2; }
-
-        /* 강조 박스 */
         .highlight-box { background-color: #e8f4f8; border: 2px solid #3498db; border-radius: 10px; padding: 25px; margin: 30px 0; }
         .highlight-title { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; display: block; }
-
-        /* FAQ 섹션 */
         .faq-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
         .faq-q { font-weight: bold; color: #f57c00; margin-bottom: 10px; display: block; }
-        
-        /* 버튼 */
         .btn-area { text-align: center; margin-top: 80px; padding: 40px 0; border-top: 1px solid #eee; }
         .cta-button { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
         .cta-button:hover { background: #2980b9; transform: translateY(-3px); }
+        
+        /* 언어별 표시 제어 */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
     </style>
 </head>
 <body>
-    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee;">
-        <div style="text-align: center;">
-            <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        <div class="lang-switch" style="margin-top:0;">
+            <button onclick="setGuideLang('en')">🇺🇸</button>
+            <button onclick="setGuideLang('ko')">🇰🇷</button>
         </div>
     </header>
 
     <article class="article-container">
-        <header class="article-header">
-            <span class="article-category">생활/알바</span>
-            <h1 class="article-title">🍔 일본 유학 아르바이트: 구하는 법, 시급, 추천 직종</h1>
-            <div class="article-meta">최종 업데이트: 2025년 12月 07日 · JP Campus 편집부</div>
-        </header>
+        <!-- English Content -->
+        <div id="content-en" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">Part-time Job</span>
+                <h1 class="article-title">🍔 Part-time Jobs in Japan: Guide & Wages</h1>
+                <div class="article-meta">Last Updated: 2025-12-09 · JP Campus Editor</div>
+            </header>
+            <div class="article-body">
+                
+            <p>Part-time jobs (Baito) are a great way to cover living expenses and practice Japanese.</p>
 
-        <div class="article-body">
-            
-            <p>일본 유학 생활의 큰 즐거움이자 경제적 버팀목이 되는 것이 바로 <strong>'아르바이트(バイト, 바이토)'</strong>입니다. 일본은 유학생의 아르바이트 활동을 법적으로 폭넓게 보장하는 나라입니다.</p>
-            <p>생활비도 벌고, 일본어 실력도 획기적으로 늘릴 수 있는 알바 구하기의 모든 것을 정리했습니다.</p>
+            <h2>1. Permission to Engage in Activity other than that Permitted...</h2>
+            <p>You MUST apply for this permission at the airport upon arrival. It allows you to work up to <strong>28 hours/week</strong>.</p>
 
-            <h2>1. 알바 전 필수 준비물: 자격외활동허가서</h2>
-            <p>유학 비자는 공부를 위한 비자이므로, 원칙적으로 취업 활동이 금지되어 있습니다. 일을 하려면 반드시 <strong>'자격외활동허가'</strong>를 받아야 합니다.</p>
+            <h2>2. Jobs by Japanese Level</h2>
             <ul>
-                <li><strong>신청 방법:</strong> 일본 공항 입국 심사대에서 '자격외활동허가신청서'를 제출하면, 재류카드 뒷면에 허가 도장을 찍어줍니다. (입국 후 나중에 뉴칸에 가서 신청하려면 매우 번거로우니 꼭 공항에서 하세요!)</li>
-                <li><strong>허용 시간:</strong> 주 28시간 이내 (단, 학교 방학 기간에는 하루 8시간, 주 40시간까지 가능)</li>
-                <li><strong>금지 업종:</strong> 풍속업(파칭코, 마작, 바, 캬바쿠라 등 유흥업소) 및 관련 업무(청소, 전단지 배포 포함)는 절대 금지입니다. 적발 시 강제 추방될 수 있습니다.</li>
+                <li><strong>Beginner (N4-N5):</strong> Kitchen staff, hotel cleaning, warehouse work.</li>
+                <li><strong>Intermediate (N3-N2):</strong> Convenience store, supermarket cashier, restaurant server.</li>
+                <li><strong>Advanced (N1):</strong> Cafe (Starbucks), clothing store, hotel front desk.</li>
             </ul>
 
-            <h2>2. 일본어 레벨별 추천 아르바이트</h2>
-            <p>자신의 일본어 실력에 따라 할 수 있는 일의 종류가 달라집니다.</p>
-
-            <h3>(1) 초급 (N4~N5 수준)</h3>
-            <p>아직 말이 잘 안 통할 때입니다. 손님을 직접 응대하지 않는 업무 위주입니다.</p>
-            <ul>
-                <li><strong>주방 보조(설거지, 재료 손질):</strong> 몸은 힘들지만 식사(마카나이)를 제공해주는 곳이 많아 식비를 아낄 수 있습니다.</li>
-                <li><strong>호텔 객실 청소:</strong> 묵묵히 일만 하면 됩니다.</li>
-                <li><strong>공장 라인 작업, 신문 배달, 택배 상하차:</strong> 체력이 필요합니다.</li>
-            </ul>
-
-            <h3>(2) 중급 (N3~N2 수준)</h3>
-            <p>간단한 의사소통이 가능해지면 선택지가 넓어집니다.</p>
-            <ul>
-                <li><strong>편의점:</strong> 일본 유학 알바의 정석. 계산, 물건 진열, 택배 접수 등 업무가 다양해서 일본어가 많이 듭니다.</li>
-                <li><strong>슈퍼마켓 캐셔:</strong> 정해진 멘트 위주로 사용하므로 익숙해지면 편합니다.</li>
-                <li><strong>패밀리 레스토랑 홀 서빙:</strong> 메뉴 주문받기 등 접객 용어(경어)를 배울 수 있습니다.</li>
-            </ul>
-
-            <h3>(3) 고급 (N1 이상)</h3>
-            <p>일본인과 대등하게 일할 수 있는 수준입니다.</p>
-            <ul>
-                <li><strong>카페 (스타벅스 등):</strong> 유학생들의 로망. 높은 회화 실력과 서비스 마인드가 필요합니다.</li>
-                <li><strong>의류 매장, 드러그스토어 판매원:</strong> 적극적인 접객이 필요합니다.</li>
-                <li><strong>호텔 프론트, 사무 보조, 통번역:</strong> 시급이 높고 취업 스펙으로도 활용 가능합니다.</li>
-            </ul>
-
-            <h2>3. 시급과 수입은 얼마나 될까?</h2>
-            <p>2024년 기준, 도쿄의 최저시급은 <strong>1,113엔</strong>입니다. 오사카는 약 1,064엔입니다. 보통 도심 식당이나 편의점은 1,150엔~1,300엔 정도를 줍니다.</p>
-            <p><strong>[수입 예시]</strong> 시급 1,200엔 × 주 28시간 × 4주 = <strong>월 134,400엔</strong><br>
-            이 정도면 월세와 생활비를 내고도 약간의 용돈이 남는 금액입니다. 밤 10시 이후 야간 수당(25% 할증)을 챙기면 더 벌 수도 있습니다.</p>
-
-            <h2>4. 알바 구하는 방법</h2>
-            <ul>
-                <li><strong>타운워크(Townwork), 바이토루 등 앱 활용:</strong> 가장 일반적인 방법입니다. '유학생 환영(留学生歓迎)' 필터를 걸고 검색하세요.</li>
-                <li><strong>가게 앞 채용 포스터:</strong> 집 근처 가게에 붙은 모집 공고를 보고 직접 전화하거나 방문해서 문의하는 것도 합격률이 높습니다.</li>
-                <li><strong>지인 소개:</strong> 이미 일하고 있는 친구의 소개로 들어가면 면접 통과가 쉽습니다.</li>
-            </ul>
+            <h2>3. Hourly Wages (Tokyo)</h2>
+            <p>Minimum wage is around 1,113 JPY (2024). Night shifts (after 10 PM) get a 25% bonus.</p>
+            <p>Example: 1,200 JPY x 28 hours x 4 weeks = <strong>Approx. 134,400 JPY/month</strong>.</p>
         
+            </div>
+            <div class="btn-area">
+                <h3>Find the perfect school for you?</h3>
+                <p>Compare schools based on location, tuition, and nationality.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 Search Schools</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">Back to List</a>
+            </div>
         </div>
 
-        <div class="btn-area">
-            <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
-            <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
-            <br>
-            <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
-            <br><br>
-            <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+        <!-- Korean Content -->
+        <div id="content-ko" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">생활/알바</span>
+                <h1 class="article-title">🍔 일본 유학 아르바이트: 구하는 법, 시급, 추천 직종</h1>
+                <div class="article-meta">최종 업데이트: 2025-12-09 · JP Campus 편집부</div>
+            </header>
+            <div class="article-body">
+                
+            <p>일본 유학 생활의 꽃, 아르바이트에 대한 모든 것을 알려드립니다.</p>
+
+            <h2>1. 자격외활동허가서 (필수!)</h2>
+            <p>공항 입국 심사대에서 반드시 신청하세요. 주 28시간까지 합법적으로 일할 수 있는 허가입니다.</p>
+
+            <h2>2. 일본어 레벨별 추천 알바</h2>
+            <ul>
+                <li><strong>초급:</strong> 주방 보조(설거지), 호텔 청소, 택배 상하차 등 말이 필요 없는 일.</li>
+                <li><strong>중급:</strong> 편의점, 슈퍼마켓 계산원, 식당 서빙.</li>
+                <li><strong>고급:</strong> 카페, 의류 매장, 호텔 프론트 등 접객 업무.</li>
+            </ul>
+
+            <h2>3. 시급과 수입</h2>
+            <p>도쿄 평균 시급은 1,150엔~1,300엔 정도입니다.</p>
+            <p><strong>[월 수입 예시]</strong> 시급 1,200엔 × 주 28시간 × 4주 = <strong>약 13만 4천엔</strong> (생활비 충당 가능)</p>
+        
+            </div>
+            <div class="btn-area">
+                <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
+                <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
         </div>
     </article>
 
     <footer class="main-footer">
         <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
     </footer>
+
+    <script>
+        function setGuideLang(lang) {
+            // 저장 및 상태 업데이트
+            localStorage.setItem('lang', lang);
+            
+            // 모든 콘텐츠 숨김
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            
+            // 선택된 언어만 표시
+            const target = document.getElementById('content-' + lang);
+            if (target) {
+                target.classList.add('active');
+            } else {
+                // Fallback to English if target lang not found
+                document.getElementById('content-en').classList.add('active');
+            }
+        }
+
+        // 초기 로드 시 언어 설정 확인
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem('lang') || 'en';
+            setGuideLang(savedLang);
+        });
+    </script>
 </body>
 </html>

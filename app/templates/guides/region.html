@@ -1,113 +1,164 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌏 도쿄 vs 오사카 vs 지방, 나에게 맞는 유학 지역은? - JP Campus 일본 유학 가이드</title>
-    <meta name="description" content="표준어를 배우고 싶다면 도쿄, 저렴한 물가와 정을 원한다면 오사카. 일본어학교 지역별 특징과 장단점 완벽 비교.">
-    <meta property="og:title" content="🌏 도쿄 vs 오사카 vs 지방, 나에게 맞는 유학 지역은?">
-    <meta property="og:description" content="표준어를 배우고 싶다면 도쿄, 저렴한 물가와 정을 원한다면 오사카. 일본어학교 지역별 특징과 장단점 완벽 비교.">
+    <title>🌏 Tokyo vs Osaka vs Rural Areas - JP Campus Guide</title>
+    <meta name="description" content="Comparison of standard language usage, living costs, and atmosphere.">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        /* 읽기 좋은 긴 글 스타일 */
         .article-container { max-width: 860px; margin: 40px auto; padding: 0 20px; background: #fff; }
-        
         .article-header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border-radius: 16px; margin-bottom: 40px; }
         .article-category { color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
         .article-title { font-size: 2.2rem; color: #2c3e50; margin: 15px 0; line-height: 1.3; word-break: keep-all; }
         .article-meta { color: #7f8c8d; font-size: 0.9rem; }
-        
         .article-body { font-size: 1.1rem; line-height: 1.9; color: #333; }
         .article-body h2 { font-size: 1.6rem; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 60px; margin-bottom: 25px; }
         .article-body h3 { font-size: 1.3rem; color: #2980b9; margin-top: 40px; margin-bottom: 15px; border-left: 5px solid #2980b9; padding-left: 15px; }
         .article-body p { margin-bottom: 20px; text-align: justify; }
-        
-        /* 리스트 스타일 */
         .article-body ul, .article-body ol { margin-bottom: 30px; padding-left: 20px; background: #f9f9f9; padding: 20px 20px 20px 40px; border-radius: 8px; }
         .article-body li { margin-bottom: 10px; }
-        
-        /* 테이블 스타일 */
         .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 0.95rem; }
         .data-table th { background: #2c3e50; color: #fff; padding: 12px; text-align: left; }
         .data-table td { border: 1px solid #ddd; padding: 12px; }
         .data-table tr:nth-child(even) { background-color: #f2f2f2; }
-
-        /* 강조 박스 */
         .highlight-box { background-color: #e8f4f8; border: 2px solid #3498db; border-radius: 10px; padding: 25px; margin: 30px 0; }
         .highlight-title { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; display: block; }
-
-        /* FAQ 섹션 */
         .faq-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
         .faq-q { font-weight: bold; color: #f57c00; margin-bottom: 10px; display: block; }
-        
-        /* 버튼 */
         .btn-area { text-align: center; margin-top: 80px; padding: 40px 0; border-top: 1px solid #eee; }
         .cta-button { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
         .cta-button:hover { background: #2980b9; transform: translateY(-3px); }
+        
+        /* 언어별 표시 제어 */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
     </style>
 </head>
 <body>
-    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee;">
-        <div style="text-align: center;">
-            <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        <div class="lang-switch" style="margin-top:0;">
+            <button onclick="setGuideLang('en')">🇺🇸</button>
+            <button onclick="setGuideLang('ko')">🇰🇷</button>
         </div>
     </header>
 
     <article class="article-container">
-        <header class="article-header">
-            <span class="article-category">지역정보</span>
-            <h1 class="article-title">🌏 도쿄 vs 오사카 vs 지방, 나에게 맞는 유학 지역은?</h1>
-            <div class="article-meta">최종 업데이트: 2025년 12月 07日 · JP Campus 편집부</div>
-        </header>
+        <!-- English Content -->
+        <div id="content-en" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">Region Info</span>
+                <h1 class="article-title">🌏 Tokyo vs Osaka vs Rural Areas</h1>
+                <div class="article-meta">Last Updated: 2025-12-09 · JP Campus Editor</div>
+            </header>
+            <div class="article-body">
+                
+            <p>Choosing a region is as important as choosing a school.</p>
 
-        <div class="article-body">
-            
-            <p>일본어학교를 고를 때 '학교' 자체보다 더 먼저 결정해야 하는 것이 바로 <strong>'지역'</strong>입니다. 지역에 따라 사용하는 일본어의 억양, 생활비, 아르바이트 환경, 그리고 주말에 즐길 수 있는 문화생활이 완전히 달라지기 때문입니다.</p>
-            <p>유학생들이 가장 많이 선택하는 대표 지역 3곳의 특징을 비교해 드립니다.</p>
-
-            <h2>1. 도쿄 (Tokyo) - 압도적 인프라</h2>
-            <p>전체 유학생의 절반 이상이 도쿄로 갑니다. 일본의 수도이자 모든 것의 중심입니다.</p>
+            <h2>1. Tokyo (The Capital)</h2>
             <ul>
-                <li><strong>장점:</strong> 완벽한 표준어를 배울 수 있습니다. 학교 선택지가 수백 개로 가장 많습니다. 아르바이트 시급이 일본에서 가장 높고 일자리도 넘쳐납니다.</li>
-                <li><strong>단점:</strong> 월세와 물가가 비쌉니다. 출퇴근 시간 '지옥철'을 경험해야 합니다. 사람이 너무 많아 피로할 수 있습니다.</li>
-                <li><strong>추천:</strong> 대학 진학이나 취업이 목표인 사람, 도시의 화려한 라이프스타일을 즐기고 싶은 사람.</li>
+                <li><strong>Pros:</strong> Standard Japanese, most job opportunities, convenient lifestyle.</li>
+                <li><strong>Cons:</strong> High rent, crowded trains, expensive.</li>
+                <li><strong>Recommended for:</strong> University advancement, Career seekers.</li>
             </ul>
 
-            <h2>2. 오사카 (Osaka) - 정과 가성비</h2>
-            <p>'일본의 부엌'이자 제2의 도시. 한국인과 정서가 비슷해 적응하기 쉽습니다.</p>
+            <h2>2. Osaka (The Kitchen of Japan)</h2>
             <ul>
-                <li><strong>장점:</strong> 도쿄보다 월세가 30% 정도 저렴합니다. 사람들이 개방적이고 유머러스해서 친구 사귀기가 좋습니다. 교토, 고베, 나라 등 매력적인 주변 도시 여행이 쉽습니다.</li>
-                <li><strong>단점:</strong> 사투리(관서벤)가 강합니다. 학교에서는 표준어를 가르치지만, 알바처나 길거리에서는 사투리를 듣게 되어 본인도 모르게 억양이 섞일 수 있습니다.</li>
-                <li><strong>추천:</strong> 생활비를 아끼고 싶은 사람, 활기차고 친근한 분위기를 좋아하는 사람.</li>
+                <li><strong>Pros:</strong> Cheaper rent than Tokyo, friendly people, great food culture.</li>
+                <li><strong>Cons:</strong> Strong dialect (Kansai-ben). You might pick up the accent.</li>
+                <li><strong>Recommended for:</strong> Those who want a lively atmosphere and lower costs.</li>
             </ul>
 
-            <h2>3. 후쿠오카 및 지방 도시</h2>
-            <p>한국(부산)에서 가장 가까운 일본. 최근 뜨고 있는 유학지입니다.</p>
+            <h2>3. Fukuoka / Rural Areas</h2>
             <ul>
-                <li><strong>장점:</strong> 물가와 집값이 정말 저렴합니다 (도쿄의 절반 수준). 공항과 시내가 가깝고 도시가 컴팩트해 자전거 생활이 가능합니다. 한국에 자주 왔다 갔다 하기 편합니다.</li>
-                <li><strong>단점:</strong> 아르바이트 자리가 대도시만큼 많지 않고 시급이 낮습니다. 대형 콘서트나 전시회 등 문화 혜택이 적을 수 있습니다.</li>
-                <li><strong>추천:</strong> 조용하고 여유로운 환경에서 힐링하며 공부하고 싶은 사람, 저예산 유학을 계획하는 사람.</li>
+                <li><strong>Pros:</strong> Very low cost of living (rent is half of Tokyo), relaxed pace, close to Korea/China.</li>
+                <li><strong>Cons:</strong> Fewer part-time jobs, lower hourly wages.</li>
+                <li><strong>Recommended for:</strong> Budget students, those who prefer a quiet life.</li>
             </ul>
-
-            <div class="highlight-box">
-                <span class="highlight-title">JP Campus 에디터의 조언</span>
-                <p><strong>진학/취업</strong>이 절실하다면 정보와 기회가 많은 <strong>도쿄</strong>를 추천합니다. 반면, <strong>워킹홀리데이</strong>나 <strong>단기 어학연수</strong>로 즐겁게 생활하며 일본어를 배우고 싶다면 <strong>오사카</strong>나 <strong>후쿠오카</strong>가 만족도가 훨씬 높을 수 있습니다.</p>
-            </div>
         
+            </div>
+            <div class="btn-area">
+                <h3>Find the perfect school for you?</h3>
+                <p>Compare schools based on location, tuition, and nationality.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 Search Schools</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">Back to List</a>
+            </div>
         </div>
 
-        <div class="btn-area">
-            <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
-            <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
-            <br>
-            <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
-            <br><br>
-            <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+        <!-- Korean Content -->
+        <div id="content-ko" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">지역정보</span>
+                <h1 class="article-title">🌏 도쿄 vs 오사카 vs 지방, 어디로 갈까?</h1>
+                <div class="article-meta">최종 업데이트: 2025-12-09 · JP Campus 편집부</div>
+            </header>
+            <div class="article-body">
+                
+            <p>지역에 따라 사투리, 생활비, 분위기가 완전히 다릅니다.</p>
+
+            <h2>1. 도쿄 (수도)</h2>
+            <ul>
+                <li><strong>장점:</strong> 표준어 사용, 압도적인 일자리와 정보, 편리한 생활.</li>
+                <li><strong>단점:</strong> 비싼 월세와 물가, 복잡한 전철.</li>
+                <li><strong>추천:</strong> 대학 진학이나 취업이 목표인 분.</li>
+            </ul>
+
+            <h2>2. 오사카 (제2의 도시)</h2>
+            <ul>
+                <li><strong>장점:</strong> 도쿄보다 저렴한 물가, 정이 많고 활기찬 분위기.</li>
+                <li><strong>단점:</strong> 사투리(관서벤)가 강해 억양이 섞일 수 있습니다.</li>
+                <li><strong>추천:</strong> 생활비를 아끼면서 즐겁게 생활하고 싶은 분.</li>
+            </ul>
+
+            <h2>3. 후쿠오카 및 지방</h2>
+            <ul>
+                <li><strong>장점:</strong> 물가가 매우 저렴합니다(월세가 도쿄 절반). 여유로운 생활이 가능합니다.</li>
+                <li><strong>단점:</strong> 알바 자리가 상대적으로 적고 시급이 낮습니다.</li>
+                <li><strong>추천:</strong> 저예산 유학, 조용한 환경을 선호하는 분.</li>
+            </ul>
+        
+            </div>
+            <div class="btn-area">
+                <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
+                <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
         </div>
     </article>
 
     <footer class="main-footer">
         <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
     </footer>
+
+    <script>
+        function setGuideLang(lang) {
+            // 저장 및 상태 업데이트
+            localStorage.setItem('lang', lang);
+            
+            // 모든 콘텐츠 숨김
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            
+            // 선택된 언어만 표시
+            const target = document.getElementById('content-' + lang);
+            if (target) {
+                target.classList.add('active');
+            } else {
+                // Fallback to English if target lang not found
+                document.getElementById('content-en').classList.add('active');
+            }
+        }
+
+        // 초기 로드 시 언어 설정 확인
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem('lang') || 'en';
+            setGuideLang(savedLang);
+        });
+    </script>
 </body>
 </html>

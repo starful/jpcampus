@@ -1,95 +1,210 @@
-// app/static/js/i18n.js
+/* app/static/js/i18n.js */
 
 const translations = {
-    ko: {
-        // ... 기존 코드 유지 ...
-        opt_region_all: "📍 지역 (전체)", opt_shinjuku: "신주쿠 (교통 편리)", opt_takadanobaba: "다카다노바바 (학생가)", 
-        opt_shinokubo: "신오쿠보 (코리아타운)", opt_ikebukuro: "이케부쿠로 (생활 편리)", opt_shibuya: "시부야/하라주쿠",
-        opt_nippori: "닛포리 (저렴한 물가)", opt_chiba: "치바현 (전체)",
-        opt_price_all: "💰 학비 (1년 기준)", opt_price_80: "80만엔 ↓ (초가성비)", opt_price_85: "85만엔 ↓ (저렴)", opt_price_90: "90만엔 ↓ (평균)",
-        opt_nation_all: "🌏 국적 비율", opt_global: "🇺🇸 서구권/다국적 (회화↑)", opt_kr_low: "🇰🇷 한국인 적은 곳", 
-        opt_cn_high: "🇨🇳 한자권 (진학 분위기)", opt_vn_high: "🇻🇳 동남아 학생 활발",
-        opt_scale_all: "👥 학교 규모", opt_scale_large: "대규모 (500명↑)", opt_scale_medium: "중규모 (200~500명)", opt_scale_small: "가족적 (200명↓)",
-        opt_career_all: "🎓 진학/목표", opt_career_grad: "대학원 진학 위주", opt_career_univ: "대학 진학 위주", opt_career_voc: "전문학교/취업 위주",
-        opt_special_all: "🎯 특화/목적", opt_special_art: "🎨 미술/디자인", opt_special_biz: "💼 비즈니스/취업",
-        opt_special_short: "✈️ 단기/워킹홀리데이", opt_special_jlpt: "📚 JLPT 고득점 반",
-        opt_dorm_all: "🛏️ 기숙사", opt_dorm_yes: "기숙사 있음 (전체)", opt_dorm_single: "👤 1인실 보유",
-        opt_scholarship_all: "🏅 장학금 제도", opt_scholarship_yes: "장학금 있음",
-        opt_eju_all: "📝 EJU 대책", opt_eju_yes: "EJU 수업 있음", opt_eju_science: "⚗️ 이과/수학 대응",
-        opt_convo_all: "🗣️ 수업 스타일", opt_convo_yes: "회화/커뮤니케이션 중심",
-        opt_env_all: "🏙️ 주변 환경", opt_env_quiet: "조용한 주택가/외곽", opt_env_active: "활기찬 도심/번화가",
-
-        // [신규] 초기화 버튼 추가
-        btn_search: "이 조건으로 검색하기", btn_reset: "필터 초기화", 
-
-        txt_result: "검색 결과:", txt_schools: "개교", inf_fee: "1년 학비", inf_ppl: "명",
-        btn_back: "← 지도 메인으로 돌아가기", lbl_capacity: "총 정원", lbl_total: "재적 학생수", lbl_korea: "한국인 비율", lbl_fee: "학비 (1년 추정)",
-        ttl_features: "🏫 학교 특징", txt_no_data: "정보 없음", ttl_course: "📚 코스 및 학비", ttl_career: "📊 진학 실적 (최근)", 
-        lbl_grad: "대학원", lbl_univ: "대학", lbl_voc: "전문학교", ttl_loc: "🗺️ 위치", btn_official: "공식 상세 정보 확인하기",
-        legend_art: "미술/디자인", legend_cheap: "가성비 (82만엔↓)", legend_academic: "진학/EJU", legend_normal: "일반/기타"
-    },
-    ja: {
-        opt_region_all: "📍 地域 (全て)", opt_shinjuku: "新宿 (交通便利)",
-        opt_price_all: "💰 学費 (1年分)", opt_price_80: "80万円 ↓ (格安)", opt_price_85: "85万円 ↓", opt_price_90: "90万円 ↓",
-        opt_nation_all: "🌏 国籍比率", opt_global: "🇺🇸 多国籍 (会話重視)", opt_kr_low: "🇰🇷 韓国人少なめ",
-        opt_scale_all: "👥 規模", opt_scale_large: "大規模 (500名↑)",
-        opt_career_all: "🎓 進路/目標", opt_career_grad: "大学院重視",
-        opt_special_all: "🎯 特化/目的", opt_special_art: "🎨 美大/美術", opt_special_biz: "💼 ビジネス",
-        opt_special_short: "✈️ 短期/ワーホリ", opt_special_jlpt: "📚 JLPT対策",
-        opt_dorm_all: "🛏️ 寮", opt_dorm_yes: "提携あり", opt_dorm_single: "👤 個室あり",
-        opt_scholarship_all: "🏅 奨学金", opt_scholarship_yes: "制度あり",
-        opt_eju_all: "📝 EJU対策", opt_eju_yes: "授業あり", opt_eju_science: "⚗️ 理系/数学",
-        opt_convo_all: "🗣️ 授業スタイル", opt_convo_yes: "会話中心",
-        opt_env_all: "🏙️ 環境", opt_env_quiet: "静かな住宅街", opt_env_active: "賑やかな都心",
-
-        // [신규]
-        btn_search: "検索する", btn_reset: "リセット",
-
-        txt_result: "結果:", txt_schools: "校", inf_fee: "年間学費", inf_ppl: "名",
-        btn_back: "← マップに戻る", lbl_capacity: "定員", lbl_total: "在籍学生数", lbl_korea: "韓国人比率", lbl_fee: "学費 (1年推定)",
-        ttl_features: "🏫 特徴", txt_no_data: "データなし", ttl_course: "📚 コース", ttl_career: "📊 実績", 
-        lbl_grad: "大学院", lbl_univ: "大学", lbl_voc: "専門", ttl_loc: "🗺️ アクセス", btn_official: "公式情報",
-        legend_art: "美術/デザイン", legend_cheap: "格安 (82万円↓)", legend_academic: "進学/EJU", legend_normal: "一般"
-    },
     en: {
-        opt_region_all: "📍 Region (All)", opt_shinjuku: "Shinjuku",
-        opt_price_all: "💰 Tuition (1yr)", opt_price_80: "¥800k ↓", opt_price_85: "¥850k ↓", opt_price_90: "¥900k ↓",
-        opt_nation_all: "🌏 Nationality", opt_global: "🇺🇸 Global", opt_kr_low: "🇰🇷 Low Korean Ratio",
-        opt_scale_all: "👥 Size", opt_scale_large: "Large",
-        opt_career_all: "🎓 Career", opt_career_grad: "Grad School",
-        opt_special_all: "🎯 Specialized", opt_special_art: "🎨 Art", opt_special_biz: "💼 Business",
-        opt_special_short: "✈️ Short-term/Holiday", opt_special_jlpt: "📚 JLPT Prep",
-        opt_dorm_all: "🛏️ Dorm", opt_dorm_yes: "Available", opt_dorm_single: "👤 Single Room",
-        opt_scholarship_all: "🏅 Scholarship", opt_scholarship_yes: "Yes",
-        opt_eju_all: "📝 EJU Prep", opt_eju_yes: "Yes", opt_eju_science: "⚗️ Science/Math",
-        opt_convo_all: "🗣️ Style", opt_convo_yes: "Conversation",
-        opt_env_all: "🏙️ Env", opt_env_quiet: "Quiet", opt_env_active: "Active",
+        // --- [Filters] ---
+        opt_region_all: "📍 Region (All)",
+        opt_price_all: "💰 Tuition (1yr)", opt_price_70: "700k~ JPY", opt_price_75: "Under 750k", opt_price_80: "Under 800k", opt_price_85: "Under 850k",
+        opt_nation_all: "🌏 Nationality", opt_global: "🇺🇸 Global/Western", opt_korea_low: "🇰🇷 Low Korean Ratio", opt_china_high: "🇨🇳 High Chinese", opt_vietnam_high: "🇻🇳 High Vietnamese",
+        opt_scale_all: "👥 Size", opt_scale_large: "Large (500+)", opt_scale_medium: "Medium", opt_scale_small: "Small",
+        opt_career_all: "🎓 Career Focus", opt_career_grad: "Grad School", opt_career_university: "University", opt_career_vocational: "Vocational/Job",
+        opt_special_all: "🎯 Specialized", opt_special_art: "🎨 Art/Design", opt_special_biz: "💼 Business", opt_special_short: "✈️ Short-term", opt_special_jlpt: "📚 JLPT Prep",
+        opt_dorm_all: "🛏️ Dormitory", opt_dorm_yes: "Available", opt_dorm_single: "Single Room", opt_dorm_school_owned: "School Owned",
+        opt_scholarship_all: "🏅 Scholarship", opt_scholarship_yes: "Available",
+        opt_eju_all: "📝 EJU Prep", opt_eju_yes: "Available", opt_eju_science: "⚗️ Science/Math", opt_eju_art: "🎨 Art Practical",
+        opt_convo_all: "🗣️ Style", opt_convo_yes: "Conversation", opt_convo_activity: "Activities",
+        opt_env_all: "🏙️ Environment", opt_env_active: "City Center", opt_env_quiet: "Quiet Area",
 
-        // [신규]
-        btn_search: "Search", btn_reset: "Reset",
+        // --- [Main & Map] ---
+        page_title: "Japan Language School Map Search & Compare",
+        filter_univ_ph: "🏫 Search University (e.g. Waseda)",
+        filter_univ_desc: "* Enter a university name to see its <strong>location</strong> and schools with strong <strong>admission records</strong>.",
+        search_btn: "Search",
+        reset_btn: "Reset",
 
-        txt_result: "Results:", txt_schools: " schools", inf_fee: "Annual Fee", inf_ppl: "students",
-        btn_back: "← Back", lbl_capacity: "Capacity", lbl_total: "Total", lbl_korea: "Korean Ratio", lbl_fee: "Est. Fee",
-        ttl_features: "🏫 Features", txt_no_data: "No data", ttl_course: "📚 Courses", ttl_career: "📊 Career", 
-        lbl_grad: "Grad", lbl_univ: "Univ", lbl_voc: "Vocational", ttl_loc: "🗺️ Location", btn_official: "Details",
-        legend_art: "Art/Design", legend_cheap: "Cheap (<¥820k)", legend_academic: "Academic/EJU", legend_normal: "General"
+        // Map InfoWindow
+        iw_univ_home: "Official Website",
+        iw_school_detail: "View Details",
+        iw_capacity: "Capacity",
+        iw_min_fee: "Min Fee",
+        unit_person: "",
+        unit_money: "0k JPY",
+
+        // Detail Page
+        btn_back: "← Back to Map",
+        lbl_capacity: "Capacity",
+        ttl_features: "Features",
+        ttl_loc: "Location",
+
+        // --- [Guides Section (Main Page)] ---
+        guide_main_title: "📚 Essential Guides for Japan",
+        guide_cost_title: "💰 1-Year Cost Breakdown",
+        guide_cost_desc: "Tuition, housing, and living expenses. A realistic budget analysis for studying in Tokyo.",
+        guide_school_title: "🏫 5 Criteria for Choosing a School",
+        guide_school_desc: "How to choose the right school for university advancement, employment, or conversation.",
+        guide_visa_title: "✈️ Visa Application Guide",
+        guide_visa_desc: "Step-by-step guide from document preparation to COE issuance and visa application.",
+        guide_housing_title: "🏠 Dorm vs Share House vs Apartment",
+        guide_housing_desc: "Pros and cons of each housing type and comparison of initial costs.",
+        guide_view_all: "View All Guides >",
+
+        // --- [Guide List Page] ---
+        guide_list_title: "📚 Essential Guides for Studying in Japan",
+        guide_list_desc: "Information you must know before studying in Japan, from preparation to living tips.",
+        
+        // Guide Card Titles
+        guide_cost_t: "💰 1-Year Cost Breakdown",
+        guide_school_t: "🏫 5 Criteria for Choosing a School",
+        guide_visa_t: "✈️ Visa Application Guide",
+        guide_housing_t: "🏠 Dorm vs Share House vs Apartment",
+        guide_parttime_t: "🍔 Part-time Jobs & Wages",
+        guide_exam_t: "📚 EJU vs JLPT Guide",
+        guide_prep_t: "🧳 Pre-departure Checklist",
+        guide_settle_t: "📱 Resident Registration & Bank",
+        guide_ins_t: "🏥 Health Insurance & Hospital",
+        guide_region_t: "🌏 Tokyo vs Osaka vs Rural",
+
+        // Guide Card Descriptors
+        guide_cost_d: "Tuition, housing, and living expenses. A realistic budget analysis.",
+        guide_school_d: "How to choose the right school for university, job, or conversation.",
+        guide_visa_d: "Step-by-step guide from COE issuance to visa application.",
+        guide_housing_d: "Pros/cons of each housing type and initial cost comparison.",
+        guide_parttime_d: "Work permit, recommended jobs by level, and average wages.",
+        guide_exam_d: "Differences between EJU and JLPT for university admission.",
+        guide_prep_d: "Must-bring items like Hanko, adapter, and documents.",
+        guide_settle_d: "Guide to City Hall procedures, SIM card, and bank account.",
+        guide_ins_d: "How to apply for insurance fee reduction and use hospitals.",
+        guide_region_d: "Comparison of standard language, living costs, and atmosphere.",
+
+        // Tags
+        tag_cost: "Cost/Budget", tag_school: "Selection", tag_visa: "Visa", tag_house: "Housing",
+        tag_work: "Part-time", tag_exam: "Exam", tag_prep: "Packing", tag_settle: "Settlement",
+        tag_ins: "Insurance", tag_region: "Region",
+
+        // Footer & Common
+        btn_back_main: "Back to Main Map"
+    },
+    ko: {
+        // --- [Filters] ---
+        opt_region_all: "📍 지역 (전체)", 
+        opt_price_all: "💰 학비 (1년 기준)", opt_price_70: "70만엔대 (초저렴)", opt_price_75: "75만엔 ↓", opt_price_80: "80만엔 ↓", opt_price_85: "85만엔 ↓",
+        opt_nation_all: "🌏 국적 비율", opt_global: "🇺🇸 다국적 (서양권 10%↑)", opt_korea_low: "🇰🇷 한국인 소수 (30%↓)", opt_china_high: "🇨🇳 한자권 중심", opt_vietnam_high: "🇻🇳 동남아 중심",
+        opt_scale_all: "👥 학교 규모", opt_scale_large: "대규모 (500명↑)", opt_scale_medium: "중규모", opt_scale_small: "소수정예",
+        opt_career_all: "🎓 진학 실적", opt_career_grad: "대학원 진학 우수", opt_career_university: "명문대 진학 우수", opt_career_vocational: "취업/전문학교 위주",
+        opt_special_all: "🎯 특화 코스", opt_special_art: "🎨 미대 입시", opt_special_biz: "💼 비즈니스/취업", opt_special_short: "✈️ 단기/워킹홀리데이", opt_special_jlpt: "📚 JLPT 대비",
+        opt_dorm_all: "🛏️ 기숙사", opt_dorm_yes: "기숙사 있음", opt_dorm_single: "1인실 보유", opt_dorm_school_owned: "학교 소유",
+        opt_scholarship_all: "🏅 장학금", opt_scholarship_yes: "교내 장학금 있음",
+        opt_eju_all: "📝 EJU 대책", opt_eju_yes: "EJU 수업 있음", opt_eju_science: "⚗️ 이과 있음", opt_eju_art: "🎨 실기 지도",
+        opt_convo_all: "🗣️ 수업 분위기", opt_convo_yes: "회화 중심", opt_convo_activity: "문화 체험 많음",
+        opt_env_all: "🏙️ 주변 환경", opt_env_active: "번화가", opt_env_quiet: "조용한 동네",
+
+        // --- [Main & Map] ---
+        page_title: "일본 전국 일본어학교 지도 검색 & 비교 서비스, JP Campus",
+        filter_univ_ph: "🏫 대학 이름 검색 (예: 와세다)",
+        filter_univ_desc: "* 대학명을 입력하면 <strong>대학 위치</strong>와 <strong>진학 실적</strong>이 우수한 학교를 지도에 표시합니다.",
+        search_btn: "검색하기",
+        reset_btn: "초기화",
+        
+        // Map InfoWindow
+        iw_univ_home: "대학 홈페이지",
+        iw_school_detail: "상세 정보 보기",
+        iw_capacity: "정원",
+        iw_min_fee: "최저",
+        unit_person: "명",
+        unit_money: "만엔",
+
+        // Detail Page
+        btn_back: "← 지도 메인으로",
+        lbl_capacity: "총 정원",
+        ttl_features: "학교 특징",
+        ttl_loc: "위치",
+
+        // --- [Guides Section (Main Page)] ---
+        guide_main_title: "📚 일본 유학 핵심 가이드",
+        guide_cost_title: "💰 1년 비용 총정리",
+        guide_cost_desc: "학비, 기숙사비, 생활비까지. 도쿄 유학에 실제로 필요한 초기 자금과 예산을 분석합니다.",
+        guide_school_title: "🏫 학교 선택 기준 5가지",
+        guide_school_desc: "진학, 취업, 회화 등 내 목적에 딱 맞는 일본어학교를 고르는 방법을 알려드립니다.",
+        guide_visa_title: "✈️ 비자 신청 완벽 가이드",
+        guide_visa_desc: "복잡한 서류 준비부터 COE 발급, 대사관 사증 신청까지 단계별로 정리했습니다.",
+        guide_housing_title: "🏠 기숙사 vs 원룸",
+        guide_housing_desc: "기숙사, 쉐어하우스, 자취 중 어디가 좋을까요? 장단점과 초기 비용을 비교해드립니다.",
+        guide_view_all: "가이드 전체 보기 >",
+
+        // --- [Guide List Page] ---
+        guide_list_title: "📚 일본 유학 필수 가이드",
+        guide_list_desc: "일본 어학연수 준비부터 생활 꿀팁까지, 예비 유학생이 꼭 알아야 할 정보를 정리했습니다.",
+
+        // Guide Card Titles
+        guide_cost_t: "💰 1년 비용 총정리",
+        guide_school_t: "🏫 학교 선택 기준 5가지",
+        guide_visa_t: "✈️ 비자 신청 완벽 가이드",
+        guide_housing_t: "🏠 기숙사 vs 원룸 비교",
+        guide_parttime_t: "🍔 아르바이트 구하기 & 시급",
+        guide_exam_t: "📚 EJU와 JLPT의 차이점",
+        guide_prep_t: "🧳 출국 전 필수 체크리스트",
+        guide_settle_t: "📱 주소등록, 폰, 통장 개설",
+        guide_ins_t: "🏥 국민건강보험료와 병원",
+        guide_region_t: "🌏 도쿄 vs 오사카 vs 지방",
+
+        // Guide Card Descriptors
+        guide_cost_d: "학비, 기숙사비, 생활비까지. 도쿄 유학에 실제로 필요한 초기 자금과 예산을 분석합니다.",
+        guide_school_d: "진학, 취업, 회화 등 내 목적에 딱 맞는 일본어학교를 고르는 방법을 알려드립니다.",
+        guide_visa_d: "복잡한 서류 준비부터 COE 발급, 대사관 사증 신청까지 단계별로 정리했습니다.",
+        guide_housing_d: "기숙사, 쉐어하우스, 자취 중 어디가 좋을까요? 장단점과 초기 비용을 비교해드립니다.",
+        guide_parttime_d: "자격외활동허가서 받는 법부터 일본어 실력별 추천 알바, 평균 시급 정보까지.",
+        guide_exam_d: "일본 대학 진학을 위한 EJU와 취업을 위한 JLPT의 차이점과 준비 전략.",
+        guide_prep_d: "도장, 돼지코, 상비약 등 한국에서 꼭 챙겨가야 할 물건과 가져가면 안 되는 것들.",
+        guide_settle_d: "재류카드 주소 등록부터 유심 개통, 유초은행 통장 개설까지 초기 정착 가이드.",
+        guide_ins_d: "유학생도 보험료를 내야 할까? 감면 신청 방법과 아플 때 병원 이용하는 팁.",
+        guide_region_d: "지역별 물가, 분위기, 표준어 사용 여부 등 나에게 맞는 유학 지역 찾기.",
+
+        // Tags
+        tag_cost: "비용/예산", tag_school: "학교선택", tag_visa: "비자/서류", tag_house: "숙소/생활",
+        tag_work: "생활/알바", tag_exam: "시험/진학", tag_prep: "출국준비", tag_settle: "현지정착",
+        tag_ins: "의료/보험", tag_region: "지역정보",
+
+        // Footer & Common
+        btn_back_main: "메인 지도로 돌아가기"
     }
 };
 
-let currentLang = localStorage.getItem('lang') || 'ko';
+// [중요] 기본값을 항상 'en'으로 강제하고, localStorage가 있으면 그걸 따름
+let currentLang = 'en'; 
+if (localStorage.getItem('lang')) {
+    currentLang = localStorage.getItem('lang');
+}
 
 function setLanguage(lang) {
+    if (!translations[lang]) return;
+    
     currentLang = lang;
     localStorage.setItem('lang', lang);
     
+    // HTML 텍스트 변경
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
-        if (translations[lang] && translations[lang][key]) {
-            el.innerText = translations[lang][key];
+        if (translations[lang][key]) {
+            el.innerHTML = translations[lang][key];
         }
     });
 
-    if (typeof applyFilters === "function") {
-        applyFilters();
+    // 검색창 Placeholder
+    const univInput = document.getElementById("filter-univ");
+    if (univInput && translations[lang]['filter_univ_ph']) {
+        univInput.placeholder = translations[lang]['filter_univ_ph'];
+    }
+
+    // 지도 갱신 (데이터가 있을 때만)
+    if (typeof SCHOOLS_DATA !== "undefined" && SCHOOLS_DATA.length > 0) {
+        if (typeof applyFilters === "function") {
+            applyFilters(); 
+        } else if (typeof renderMarkers === "function") {
+            renderMarkers(SCHOOLS_DATA);
+        }
     }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    setLanguage(currentLang);
+});

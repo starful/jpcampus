@@ -1,134 +1,169 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✈️ 일본 유학 비자(COE) 신청 절차 A to Z (서류 준비부터 발급까지) - JP Campus 일본 유학 가이드</title>
-    <meta name="description" content="일본 유학 비자 준비, 너무 복잡하죠? 학교 원서 접수부터 재류자격인정증명서(COE) 발급, 영사관 사증 신청까지의 모든 과정을 알기 쉽게 정리했습니다.">
-    <meta property="og:title" content="✈️ 일본 유학 비자(COE) 신청 절차 A to Z (서류 준비부터 발급까지)">
-    <meta property="og:description" content="일본 유학 비자 준비, 너무 복잡하죠? 학교 원서 접수부터 재류자격인정증명서(COE) 발급, 영사관 사증 신청까지의 모든 과정을 알기 쉽게 정리했습니다.">
+    <title>✈️ Student Visa Application Guide (A to Z) - JP Campus Guide</title>
+    <meta name="description" content="Step-by-step guide from document preparation to COE issuance and visa application.">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        /* 읽기 좋은 긴 글 스타일 */
         .article-container { max-width: 860px; margin: 40px auto; padding: 0 20px; background: #fff; }
-        
         .article-header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border-radius: 16px; margin-bottom: 40px; }
         .article-category { color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
         .article-title { font-size: 2.2rem; color: #2c3e50; margin: 15px 0; line-height: 1.3; word-break: keep-all; }
         .article-meta { color: #7f8c8d; font-size: 0.9rem; }
-        
         .article-body { font-size: 1.1rem; line-height: 1.9; color: #333; }
         .article-body h2 { font-size: 1.6rem; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 60px; margin-bottom: 25px; }
         .article-body h3 { font-size: 1.3rem; color: #2980b9; margin-top: 40px; margin-bottom: 15px; border-left: 5px solid #2980b9; padding-left: 15px; }
         .article-body p { margin-bottom: 20px; text-align: justify; }
-        
-        /* 리스트 스타일 */
         .article-body ul, .article-body ol { margin-bottom: 30px; padding-left: 20px; background: #f9f9f9; padding: 20px 20px 20px 40px; border-radius: 8px; }
         .article-body li { margin-bottom: 10px; }
-        
-        /* 테이블 스타일 */
         .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 0.95rem; }
         .data-table th { background: #2c3e50; color: #fff; padding: 12px; text-align: left; }
         .data-table td { border: 1px solid #ddd; padding: 12px; }
         .data-table tr:nth-child(even) { background-color: #f2f2f2; }
-
-        /* 강조 박스 */
         .highlight-box { background-color: #e8f4f8; border: 2px solid #3498db; border-radius: 10px; padding: 25px; margin: 30px 0; }
         .highlight-title { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; display: block; }
-
-        /* FAQ 섹션 */
         .faq-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
         .faq-q { font-weight: bold; color: #f57c00; margin-bottom: 10px; display: block; }
-        
-        /* 버튼 */
         .btn-area { text-align: center; margin-top: 80px; padding: 40px 0; border-top: 1px solid #eee; }
         .cta-button { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
         .cta-button:hover { background: #2980b9; transform: translateY(-3px); }
+        
+        /* 언어별 표시 제어 */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
     </style>
 </head>
 <body>
-    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee;">
-        <div style="text-align: center;">
-            <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        <div class="lang-switch" style="margin-top:0;">
+            <button onclick="setGuideLang('en')">🇺🇸</button>
+            <button onclick="setGuideLang('ko')">🇰🇷</button>
         </div>
     </header>
 
     <article class="article-container">
-        <header class="article-header">
-            <span class="article-category">비자/서류</span>
-            <h1 class="article-title">✈️ 일본 유학 비자(COE) 신청 절차 A to Z (서류 준비부터 발급까지)</h1>
-            <div class="article-meta">최종 업데이트: 2025년 12月 07日 · JP Campus 편집부</div>
-        </header>
+        <!-- English Content -->
+        <div id="content-en" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">Visa/COE</span>
+                <h1 class="article-title">✈️ Student Visa Application Guide (A to Z)</h1>
+                <div class="article-meta">Last Updated: 2025-12-09 · JP Campus Editor</div>
+            </header>
+            <div class="article-body">
+                
+            <p>Getting a student visa involves strict documentation. Here is the timeline for April admission.</p>
 
-        <div class="article-body">
-            
-            <p>일본어학교 입학이 결정되었다면 이제 가장 중요한 관문, <strong>'비자(VISA)'</strong>가 남았습니다. 일본 유학 비자는 서류 심사가 꼼꼼하기로 유명하여, 사소한 실수로 불합격되는 경우도 종종 발생합니다.</p>
-            <p>입학 시기별 준비 일정과 필수 서류, 그리고 주의사항을 단계별로 완벽하게 정리해 드립니다.</p>
-
-            <h2>1. 비자 수속 타임라인 (4월 학기 기준)</h2>
-            <p>일본 유학은 보통 입학 <strong>6개월 전</strong>부터 준비를 시작해야 여유롭습니다.</p>
+            <h2>1. Timeline (April Intake)</h2>
             <ul>
-                <li><strong>전년도 9월~11월:</strong> 학교 선정 및 원서 접수 (학교별 마감일 주의)</li>
-                <li><strong>11월 말:</strong> 학교에서 일본 입국관리국(뉴칸)에 서류 일괄 제출</li>
-                <li><strong>12월~2월:</strong> 입국관리국 심사 기간 (약 2~3개월 소요)</li>
-                <li><strong>2월 말:</strong> <strong>재류자격인정증명서(COE)</strong> 결과 발표 및 발급</li>
-                <li><strong>3월 초:</strong> 학비 납부 및 COE 수령</li>
-                <li><strong>3월 중순:</strong> 주한 일본 대사관(영사관)에 비자 사증 신청</li>
-                <li><strong>3월 말:</strong> 비자 발급 및 일본 출국!</li>
+                <li><strong>Sep-Nov (Prev Year):</strong> Apply to school.</li>
+                <li><strong>Late Nov:</strong> School submits docs to Immigration Bureau.</li>
+                <li><strong>Late Feb:</strong> COE (Certificate of Eligibility) Issued.</li>
+                <li><strong>Early Mar:</strong> Pay tuition & Receive COE.</li>
+                <li><strong>Mid Mar:</strong> Apply for Visa at the Japanese Embassy in your country.</li>
             </ul>
 
-            <h2>2. 가장 중요한 서류: COE 신청 준비물</h2>
-            <p>비자 심사의 핵심은 <strong>"이 학생이 공부할 의지가 있는가?"</strong>와 <strong>"학비를 낼 돈이 있는가?"</strong> 두 가지입니다. 이를 증명하기 위해 다음 서류들이 필요합니다.</p>
-
-            <h3>(1) 본인 관련 서류</h3>
+            <h2>2. Key Documents</h2>
             <ul>
-                <li>입학원서 및 이력서 (학교 양식)</li>
-                <li>최종학교 졸업증명서 (또는 졸업예정증명서)</li>
-                <li>최종학교 성적증명서</li>
-                <li>일본어 학습 증명서 (JLPT 합격증 또는 150시간 이상 수강 증명서)</li>
-                <li>여권 복사본 및 증명사진</li>
+                <li><strong>Personal:</strong> Application form, Diploma, Transcript, Passport copy.</li>
+                <li><strong>Financial Supporter (Parents):</strong> Bank Balance Certificate (approx. 3M~4M JPY), Proof of Employment/Income.</li>
             </ul>
 
-            <h3>(2) 보증인(경비지변자) 관련 서류 - 보통 부모님</h3>
-            <ul>
-                <li><strong>은행 잔고증명서:</strong> 가장 중요합니다. 보통 <strong>3,000만원~4,000만원</strong> 이상의 잔고가 예치되어 있어야 합니다. (유학 기간 동안의 학비와 생활비를 감당할 수 있음을 증명)</li>
-                <li>재직증명서 또는 사업자등록증명원</li>
-                <li>소득금액증명원 (최근 1년 또는 3년치)</li>
-                <li>가족관계증명서 (학생과 보증인의 관계 입증)</li>
-            </ul>
-
-            <h2>3. 대사관 비자 신청 (마지막 단계)</h2>
-            <p>입국관리국 심사를 통과하여 COE(재류자격인정증명서)를 받았다면, 사실상 비자는 99% 나온 셈입니다. 이제 한국에 있는 일본 영사관에 가서 여권에 비자 스티커를 붙이는 절차만 남았습니다.</p>
-            <ul>
-                <li><strong>준비물:</strong> 여권, 사증신청서, 사진 1매, COE 원본(또는 사본), 주민등록등본</li>
-                <li><strong>신청 장소:</strong> 거주지 관할 일본 총영사관 (서울, 부산, 제주) 또는 지정 여행사 대행</li>
-                <li><strong>소요 기간:</strong> 보통 접수 다음 날 또는 2~3일 내 발급</li>
-            </ul>
-
-            <h2>4. 비자 심사 탈락(불교부)의 주된 원인</h2>
             <div class="highlight-box">
-                <span class="highlight-title">⚠️ 주의하세요!</span>
+                <span class="highlight-title">⚠️ Common Rejection Reasons</span>
                 <ul>
-                    <li><strong>이력서의 공백:</strong> 고등학교/대학교 졸업 후 5년 이상 특별한 소속 없이 공백기가 길다면 '유학 이유서'를 아주 구체적으로 잘 써야 합니다.</li>
-                    <li><strong>과거 불법체류 이력:</strong> 일본뿐만 아니라 다른 나라에서의 오버스테이 기록도 문제가 될 수 있습니다.</li>
-                    <li><strong>자금 능력 부족:</strong> 통장 잔고가 부족하거나, 보증인의 소득이 너무 낮게 신고되어 있는 경우입니다.</li>
+                    <li>Unexplained gaps in education/career history.</li>
+                    <li>Insufficient funds in bank statement.</li>
+                    <li>Past history of illegal stay or visa rejection.</li>
                 </ul>
             </div>
         
+            </div>
+            <div class="btn-area">
+                <h3>Find the perfect school for you?</h3>
+                <p>Compare schools based on location, tuition, and nationality.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 Search Schools</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">Back to List</a>
+            </div>
         </div>
 
-        <div class="btn-area">
-            <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
-            <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
-            <br>
-            <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
-            <br><br>
-            <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+        <!-- Korean Content -->
+        <div id="content-ko" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">비자/서류</span>
+                <h1 class="article-title">✈️ 일본 유학 비자(COE) 신청 절차 A to Z</h1>
+                <div class="article-meta">최종 업데이트: 2025-12-09 · JP Campus 편집부</div>
+            </header>
+            <div class="article-body">
+                
+            <p>일본 유학 비자는 서류 심사가 까다롭습니다. 4월 학기 입학을 기준으로 한 일정입니다.</p>
+
+            <h2>1. 수속 타임라인 (4월 학기)</h2>
+            <ul>
+                <li><strong>전년도 9~11월:</strong> 학교 원서 접수</li>
+                <li><strong>11월 말:</strong> 일본 입국관리국에 서류 제출 (학교 대행)</li>
+                <li><strong>2월 말:</strong> 재류자격인정증명서(COE) 발급</li>
+                <li><strong>3월 초:</strong> 학비 납부 및 COE 수령</li>
+                <li><strong>3월 중순:</strong> 주한 일본 대사관에서 비자 신청</li>
+            </ul>
+
+            <h2>2. 필수 서류</h2>
+            <ul>
+                <li><strong>본인:</strong> 입학원서, 졸업/성적증명서, 여권 사본, 사진</li>
+                <li><strong>보증인(부모님):</strong> 은행 잔고증명서 (3~4천만원 이상), 재직/소득증명서</li>
+            </ul>
+
+            <div class="highlight-box">
+                <span class="highlight-title">⚠️ 불합격 주의사항</span>
+                <ul>
+                    <li>이력서상의 공백 기간(군대 등)을 명확히 소명해야 합니다.</li>
+                    <li>보증인의 재정 능력이 부족하면 불허될 수 있습니다.</li>
+                </ul>
+            </div>
+        
+            </div>
+            <div class="btn-area">
+                <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
+                <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
         </div>
     </article>
 
     <footer class="main-footer">
         <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
     </footer>
+
+    <script>
+        function setGuideLang(lang) {
+            // 저장 및 상태 업데이트
+            localStorage.setItem('lang', lang);
+            
+            // 모든 콘텐츠 숨김
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            
+            // 선택된 언어만 표시
+            const target = document.getElementById('content-' + lang);
+            if (target) {
+                target.classList.add('active');
+            } else {
+                // Fallback to English if target lang not found
+                document.getElementById('content-en').classList.add('active');
+            }
+        }
+
+        // 초기 로드 시 언어 설정 확인
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem('lang') || 'en';
+            setGuideLang(savedLang);
+        });
+    </script>
 </body>
 </html>

@@ -1,123 +1,174 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏠 일본 기숙사 vs 쉐어하우스 vs 원룸 (장단점 및 비용 비교) - JP Campus 일본 유학 가이드</title>
-    <meta name="description" content="일본 유학 숙소, 어디가 좋을까? 학교 기숙사의 편리함, 쉐어하우스의 교류, 원룸의 자유로움. 각 주거 형태별 장단점과 초기 비용을 비교해 드립니다.">
-    <meta property="og:title" content="🏠 일본 기숙사 vs 쉐어하우스 vs 원룸 (장단점 및 비용 비교)">
-    <meta property="og:description" content="일본 유학 숙소, 어디가 좋을까? 학교 기숙사의 편리함, 쉐어하우스의 교류, 원룸의 자유로움. 각 주거 형태별 장단점과 초기 비용을 비교해 드립니다.">
+    <title>🏠 Dorm vs Share House vs Apartment - JP Campus Guide</title>
+    <meta name="description" content="Pros and cons of each housing type and comparison of initial costs.">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        /* 읽기 좋은 긴 글 스타일 */
         .article-container { max-width: 860px; margin: 40px auto; padding: 0 20px; background: #fff; }
-        
         .article-header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border-radius: 16px; margin-bottom: 40px; }
         .article-category { color: #3498db; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
         .article-title { font-size: 2.2rem; color: #2c3e50; margin: 15px 0; line-height: 1.3; word-break: keep-all; }
         .article-meta { color: #7f8c8d; font-size: 0.9rem; }
-        
         .article-body { font-size: 1.1rem; line-height: 1.9; color: #333; }
         .article-body h2 { font-size: 1.6rem; color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-top: 60px; margin-bottom: 25px; }
         .article-body h3 { font-size: 1.3rem; color: #2980b9; margin-top: 40px; margin-bottom: 15px; border-left: 5px solid #2980b9; padding-left: 15px; }
         .article-body p { margin-bottom: 20px; text-align: justify; }
-        
-        /* 리스트 스타일 */
         .article-body ul, .article-body ol { margin-bottom: 30px; padding-left: 20px; background: #f9f9f9; padding: 20px 20px 20px 40px; border-radius: 8px; }
         .article-body li { margin-bottom: 10px; }
-        
-        /* 테이블 스타일 */
         .data-table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: 0.95rem; }
         .data-table th { background: #2c3e50; color: #fff; padding: 12px; text-align: left; }
         .data-table td { border: 1px solid #ddd; padding: 12px; }
         .data-table tr:nth-child(even) { background-color: #f2f2f2; }
-
-        /* 강조 박스 */
         .highlight-box { background-color: #e8f4f8; border: 2px solid #3498db; border-radius: 10px; padding: 25px; margin: 30px 0; }
         .highlight-title { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; display: block; }
-
-        /* FAQ 섹션 */
         .faq-box { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
         .faq-q { font-weight: bold; color: #f57c00; margin-bottom: 10px; display: block; }
-        
-        /* 버튼 */
         .btn-area { text-align: center; margin-top: 80px; padding: 40px 0; border-top: 1px solid #eee; }
         .cta-button { display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 50px; font-weight: bold; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3); }
         .cta-button:hover { background: #2980b9; transform: translateY(-3px); }
+        
+        /* 언어별 표시 제어 */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
     </style>
 </head>
 <body>
-    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee;">
-        <div style="text-align: center;">
-            <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+    <header class="main-header" style="padding: 15px 0; background: #fff; border-bottom: 1px solid #eee; display: flex; justify-content: center; align-items: center; gap: 20px;">
+        <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #333; text-decoration: none;">JP Campus</a>
+        <div class="lang-switch" style="margin-top:0;">
+            <button onclick="setGuideLang('en')">🇺🇸</button>
+            <button onclick="setGuideLang('ko')">🇰🇷</button>
         </div>
     </header>
 
     <article class="article-container">
-        <header class="article-header">
-            <span class="article-category">숙소/생활</span>
-            <h1 class="article-title">🏠 일본 기숙사 vs 쉐어하우스 vs 원룸 (장단점 및 비용 비교)</h1>
-            <div class="article-meta">최종 업데이트: 2025년 12月 07日 · JP Campus 편집부</div>
-        </header>
+        <!-- English Content -->
+        <div id="content-en" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">Housing</span>
+                <h1 class="article-title">🏠 Dorm vs Share House vs Apartment</h1>
+                <div class="article-meta">Last Updated: 2025-12-09 · JP Campus Editor</div>
+            </header>
+            <div class="article-body">
+                
+            <p>Finding a place to live is as important as choosing a school. Here are the 3 most common options.</p>
 
-        <div class="article-body">
-            
-            <p>일본 유학 준비에서 학교 선택만큼이나 골치 아픈 것이 바로 <strong>'집 구하기'</strong>입니다. 일본은 한국과 주거 문화가 다르고, 외국인이 집을 구하는 절차가 까다로운 편입니다. </p>
-            <p>유학생들이 주로 선택하는 3가지 주거 형태인 <strong>학교 기숙사, 사설 쉐어하우스, 일반 임대(원룸)</strong>의 특징과 비용을 비교해 드릴 테니, 본인의 성향에 맞는 곳을 골라보세요.</p>
-
-            <h2>1. 학교 기숙사 (School Dormitory)</h2>
-            <p>대부분의 유학생이 입국 후 첫 3~6개월 동안 지내는 곳입니다. 학교 건물이거나 학교가 제휴한 맨션입니다.</p>
+            <h2>1. School Dormitory</h2>
             <ul>
-                <li><strong>장점:</strong> 학교와 가깝거나 통학이 편리한 곳에 위치합니다. 냉장고, 세탁기, 침대 등 가전가구가 완비되어 있어 몸만 들어가면 됩니다. 입주 절차가 가장 간편합니다.</li>
-                <li><strong>단점:</strong> 1인실은 드물고 비싸며, 대부분 2인실~4인실입니다. 룸메이트와 생활 패턴이 안 맞으면 힘들 수 있습니다. 통금 시간 등 규칙이 있을 수 있습니다.</li>
-                <li><strong>비용 (도쿄 2인실 기준):</strong> 월 4~5만엔 (초기 비용 약 15~20만엔)</li>
+                <li><strong>Pros:</strong> Easy procedure, furnished (fridge, washing machine), close to school.</li>
+                <li><strong>Cons:</strong> Often shared rooms (2-4 people), curfew rules.</li>
+                <li><strong>Cost:</strong> 40k~50k JPY/month.</li>
             </ul>
 
-            <h2>2. 쉐어하우스 (Share House)</h2>
-            <p>개인 방은 따로 쓰고 거실, 주방, 화장실, 욕실을 공유하는 형태입니다. 일본인과 외국인이 섞여 사는 곳이 많습니다.</p>
+            <h2>2. Share House</h2>
             <ul>
-                <li><strong>장점:</strong> 보증금/사례금 등 초기 비용이 저렴합니다. 다양한 국적의 친구를 사귈 수 있어 회화 실력이 빨리 늡니다. 단기 계약(1개월~)이 가능한 곳이 많습니다.</li>
-                <li><strong>단점:</strong> 공용 공간 청소 문제나 소음으로 인한 트러블이 생길 수 있습니다. 방음이 약한 건물이 많습니다.</li>
-                <li><strong>비용:</strong> 월 5~8만엔 (위치와 시설에 따라 천차만별)</li>
+                <li><strong>Pros:</strong> Low initial cost, opportunity to make friends, short-term contracts available.</li>
+                <li><strong>Cons:</strong> Shared kitchen/bathroom, noise issues.</li>
+                <li><strong>Cost:</strong> 50k~70k JPY/month.</li>
             </ul>
 
-            <h2>3. 일반 원룸 임대 (Private Apartment)</h2>
-            <p>부동산을 통해 일본의 일반 맨션이나 아파트를 계약하는 것입니다. 보통 유학 생활에 적응한 6개월~1년 차 이후에 많이 이사합니다.</p>
+            <h2>3. Private Apartment</h2>
             <ul>
-                <li><strong>장점:</strong> 완벽한 사생활이 보장됩니다. 내가 원하는 인테리어로 집을 꾸밀 수 있습니다. 친구를 초대하기 자유롭습니다.</li>
-                <li><strong>단점:</strong> <strong>초기 비용이 매우 비쌉니다.</strong> (시키킹, 레이킹, 보증회사비, 중개수수료, 화재보험료, 열쇠교환비 등 월세의 3~5배). 가전제품과 가구를 모두 직접 사야 합니다. 외국인 입주를 거절하는 집주인이 많습니다.</li>
-                <li><strong>비용:</strong> 월 6~9만엔 + 공과금 별도 (초기 비용 30~40만엔)</li>
+                <li><strong>Pros:</strong> Complete privacy, freedom.</li>
+                <li><strong>Cons:</strong> Very high initial cost (Key money, agent fee, etc.), unfurnished.</li>
+                <li><strong>Cost:</strong> 60k~90k JPY/month + Utilities.</li>
             </ul>
-
-            <h2>4. 한눈에 보는 비교표</h2>
-            <table class="data-table">
-                <tr><th>구분</th><th>기숙사</th><th>쉐어하우스</th><th>원룸 자취</th></tr>
-                <tr><td><strong>초기비용</strong></td><td>보통</td><td>저렴함</td><td>매우 비쌈</td></tr>
-                <tr><td><strong>사생활</strong></td><td>낮음 (2인실)</td><td>중간 (개인실)</td><td>높음</td></tr>
-                <tr><td><strong>가구/가전</strong></td><td>완비</td><td>완비</td><td>없음 (구매 필요)</td></tr>
-                <tr><td><strong>일본어 향상</strong></td><td>보통</td><td>좋음 (교류 많음)</td><td>낮음 (혼자 지냄)</td></tr>
-                <tr><td><strong>입주 난이도</strong></td><td>쉬움</td><td>쉬움</td><td>어려움 (심사 필요)</td></tr>
-            </table>
 
             <div class="highlight-box">
-                <span class="highlight-title">JP Campus 에디터의 추천</span>
-                <p>처음 일본에 갈 때는 짐도 많고 지리도 낯설기 때문에 <strong>'학교 기숙사'</strong>나 <strong>'관리형 쉐어하우스'</strong>에서 3개월 정도 살아보는 것을 추천합니다. 그동안 일본 생활에 적응하고, 직접 발품을 팔아 마음에 드는 동네의 원룸을 구해 이사하는 것이 실패 확률을 줄이는 방법입니다.</p>
+                <span class="highlight-title">Recommendation</span>
+                <p>Start with a <strong>Dormitory</strong> or <strong>Share House</strong> for the first 3 months to adjust to life in Japan, then move to an apartment later.</p>
             </div>
         
+            </div>
+            <div class="btn-area">
+                <h3>Find the perfect school for you?</h3>
+                <p>Compare schools based on location, tuition, and nationality.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 Search Schools</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">Back to List</a>
+            </div>
         </div>
 
-        <div class="btn-area">
-            <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
-            <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
-            <br>
-            <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
-            <br><br>
-            <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+        <!-- Korean Content -->
+        <div id="content-ko" class="lang-content">
+            <header class="article-header">
+                <span class="article-category">숙소/생활</span>
+                <h1 class="article-title">🏠 일본 기숙사 vs 쉐어하우스 vs 원룸 (장단점 및 비용 비교)</h1>
+                <div class="article-meta">최종 업데이트: 2025-12-09 · JP Campus 편집부</div>
+            </header>
+            <div class="article-body">
+                
+            <p>유학생들이 주로 선택하는 3가지 주거 형태의 특징과 비용을 비교해 드립니다.</p>
+
+            <h2>1. 학교 기숙사</h2>
+            <ul>
+                <li><strong>장점:</strong> 학교와 가깝고 가전가구가 완비되어 있어 몸만 들어가면 됩니다. 입주 절차가 간편합니다.</li>
+                <li><strong>단점:</strong> 1인실은 드물고 2~4인실이 많습니다. 통금 등 규칙이 있을 수 있습니다.</li>
+                <li><strong>비용:</strong> 월 4~5만엔</li>
+            </ul>
+
+            <h2>2. 쉐어하우스</h2>
+            <ul>
+                <li><strong>장점:</strong> 보증금 등 초기 비용이 저렴합니다. 다양한 국적의 친구를 사귈 수 있습니다.</li>
+                <li><strong>단점:</strong> 공용 공간 청소 문제나 소음 트러블이 있을 수 있습니다.</li>
+                <li><strong>비용:</strong> 월 5~7만엔</li>
+            </ul>
+
+            <h2>3. 일반 원룸 임대</h2>
+            <ul>
+                <li><strong>장점:</strong> 완벽한 사생활이 보장됩니다.</li>
+                <li><strong>단점:</strong> 초기 비용이 매우 비쌉니다(월세의 3~5배). 가구를 직접 사야 합니다.</li>
+                <li><strong>비용:</strong> 월 6~9만엔 + 공과금</li>
+            </ul>
+
+            <div class="highlight-box">
+                <span class="highlight-title">에디터 추천</span>
+                <p>처음에는 <strong>학교 기숙사</strong>나 <strong>쉐어하우스</strong>에서 3개월 정도 살아보며 적응한 뒤, 직접 발품을 팔아 원룸으로 이사하는 것을 추천합니다.</p>
+            </div>
+        
+            </div>
+            <div class="btn-area">
+                <h3>나에게 딱 맞는 학교를 찾고 싶다면?</h3>
+                <p>위치, 학비, 국적 비율 데이터를 기반으로 최적의 학교를 추천해드립니다.</p>
+                <br>
+                <a href="/" class="cta-button">🏫 학교 검색하러 가기</a>
+                <br><br>
+                <a href="/guide" style="color:#999; text-decoration:underline;">목록으로 돌아가기</a>
+            </div>
         </div>
     </article>
 
     <footer class="main-footer">
         <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
     </footer>
+
+    <script>
+        function setGuideLang(lang) {
+            // 저장 및 상태 업데이트
+            localStorage.setItem('lang', lang);
+            
+            // 모든 콘텐츠 숨김
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            
+            // 선택된 언어만 표시
+            const target = document.getElementById('content-' + lang);
+            if (target) {
+                target.classList.add('active');
+            } else {
+                // Fallback to English if target lang not found
+                document.getElementById('content-en').classList.add('active');
+            }
+        }
+
+        // 초기 로드 시 언어 설정 확인
+        document.addEventListener("DOMContentLoaded", () => {
+            const savedLang = localStorage.getItem('lang') || 'en';
+            setGuideLang(savedLang);
+        });
+    </script>
 </body>
 </html>
