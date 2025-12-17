@@ -9,105 +9,102 @@
     "EJU Required",
     "English Program",
     "Dormitory",
-    "Scholarship",
-    "Exchange Program"
+    "Scholarship"
   ],
   "thumbnail": "/static/img/pin-univ.png",
   "location": {
-    "lat": 35.155816,
-    "lng": 136.9648909
+    "lat": 35.1558712,
+    "lng": 136.9641163
   },
   "basic_info": {
     "name_ja": "名古屋大学",
     "name_en": "Nagoya University",
-    "address": "〒464-8601 愛知県名古屋市千種区不老町",
+    "address": "愛知県名古屋市千種区不老町",
     "website": "https://www.nagoya-u.ac.jp/"
   },
   "stats": {
-    "international_students": 2357,
-    "acceptance_rate": "30%"
+    "international_students": 2300,
+    "acceptance_rate": "25%"
   },
   "tuition": {
     "admission_fee": 282000,
     "yearly_tuition": 535800
   },
   "faculties": [
-    "文学部",
-    "教育学部",
-    "法学部",
-    "経済学部",
-    "情報学部",
-    "理学部",
-    "医学部",
-    "工学部",
-    "農学部",
-    "国際開発研究科",
-    "多元数理科学研究科",
-    "情報科学研究科",
-    "生命農学研究科",
-    "環境学研究科",
-    "創薬科学研究科",
-    "国際言語文化研究科",
-    "法学研究科",
-    "経済学研究科",
-    "医学系研究科",
-    "工学研究科",
-    "理学研究科",
-    "高等教育研究科"
+    "School of Humanities",
+    "School of Education",
+    "School of Law",
+    "School of Economics",
+    "School of Informatics",
+    "School of Science",
+    "School of Medicine",
+    "School of Engineering",
+    "School of Bioagricultural Sciences",
+    "School of Pharmaceutical Sciences"
   ],
   "features": [
     "SGU",
     "EJU Required",
     "English Program",
     "Dormitory",
-    "Scholarship",
-    "Exchange Program"
+    "Scholarship"
   ]
 }
 ---
 
-## 🏫 학교 소개
+## 🏫 University Overview
 
-나고야 대학교(名古屋大学, Nagoya University)는 일본 아이치현 나고야시에 위치한 명문 국립 대학입니다. 1939년에 설립되었으며, 일본의 7개의 구제국대학 중 하나로서 긴 역사와 뛰어난 연구 실적을 자랑합니다. 일본 내에서뿐만 아니라 국제적으로도 높은 명성을 얻고 있으며, 특히 과학, 공학 분야에서 두각을 나타내고 있습니다.
+Nagoya University (名古屋大学, Nagoya Daigaku), often abbreviated as Meidai (名大), is a prestigious national university located in Nagoya, Japan. It stands as one of Japan's top-tier research universities and is part of the select group of universities designated as Designated National Universities. Founded in 1871 as a temporary medical school, it evolved into Nagoya University in 1939. Over the years, Nagoya University has cultivated a reputation for academic excellence and groundbreaking research, particularly in fields like physics, chemistry, and medicine, boasting six Nobel laureates among its alumni and faculty.
 
-**📚 역사:**
+The university is strongly committed to fostering global perspectives and attracting international students and researchers. It actively participates in the Japanese government's Super Global University (SGU) program, aiming to enhance its international presence and develop globally competitive educational and research environments. Nagoya University emphasizes the importance of innovation and collaboration, driving research initiatives that address critical global challenges.
 
-나고야 대학교의 기원은 1871년에 설립된 나고야 현립 의학교로 거슬러 올라갑니다. 이후 나고야 의과대학, 나고야 고등공업학교 등을 거쳐 1939년에 나고야 제국대학으로 승격되었습니다. 제2차 세계 대전 후인 1947년에 현재의 나고야 대학교로 명칭이 변경되었습니다. 오랜 역사 동안 수많은 인재를 배출하며 일본의 학문 발전에 크게 기여해 왔습니다. 2014년에는 노벨 물리학상을 수상한 아카사키 이사무 교수를 배출하는 등 혁신적인 연구 성과를 지속적으로 발표하고 있습니다.
+The university's campus is located in the heart of Nagoya, providing convenient access to the city's vibrant cultural and commercial centers. With its rich history, commitment to innovation, and strong international focus, Nagoya University continues to be a leading institution in Japanese higher education and a vital contributor to global knowledge.
 
-**📍 위치:**
+## 🎓 Faculties & Departments
 
-나고야 대학교는 나고야 시 치쿠사구 후로초에 위치하고 있습니다. 캠퍼스는 자연으로 둘러싸여 있으며, 조용하고 쾌적한 학습 환경을 제공합니다. 지하철 모토야마역에서 도보로 이동할 수 있어 교통이 편리합니다. 나고야 시는 일본의 주요 도시 중 하나로서, 다양한 문화 시설과 편의 시설을 갖추고 있어 학생들이 생활하기에 편리합니다.
 
-**🌍 국제 학생 지원:**
+| Faculty                     | Departments                                                                                                                                                                                                                                                                                            |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| School of Humanities        | Philosophy, History, Japanese Language and Literature, Western Language and Literature                                                                                                                                                                                                                              |
+| School of Education         | Education Sciences                                                                                                                                                                                                                                                                                  |
+| School of Law               | Law                                                                                                                                                                                                                                                                                                    |
+| School of Economics         | Economics, Business Administration                                                                                                                                                                                                                                                                  |
+| School of Informatics       | Computer Science, Infomatics and Mathematical Science, Social Informatics                                                                                                                                                                                                                                                 |
+| School of Science           | Mathematics, Physics, Chemistry, Biological Sciences, Earth and Planetary Sciences                                                                                                                                                                                                                   |
+| School of Medicine          | Medicine, Health Sciences                                                                                                                                                                                                                                                                              |
+| School of Engineering       | Mechanical Engineering, Electrical, Electronic and Information Engineering, Applied Chemistry and Biological Engineering, Civil Engineering and Architecture, Aerospace Engineering, Energy Engineering, Materials Science and Engineering, Quantum Engineering                                                                                                            |
+| School of Bioagricultural Sciences | Agricultural Sciences, Bioscience and Biotechnology                                                                                                                                                                                                                                                           |
+| School of Pharmaceutical Sciences | Pharmaceutical Sciences                                                                                                                                                                                                                                                                            |
 
-나고야 대학교는 국제 학생들을 위한 다양한 지원 프로그램을 제공합니다. 유학생을 위한 오리엔테이션, 일본어 강좌, 튜터링 프로그램 등을 운영하여 학생들이 일본 생활에 빠르게 적응할 수 있도록 돕고 있습니다. 또한, 유학생 상담 창구를 통해 학업, 생활, 비자 등에 대한 상담을 제공하며, 국제 교류 프로그램, 해외 인턴십 프로그램 등을 통해 학생들이 국제적인 경험을 쌓을 수 있도록 지원합니다. 기숙사 시설도 잘 갖춰져 있어 유학생들이 안전하고 편안하게 생활할 수 있습니다. 영어로 진행되는 학위 과정도 다수 운영하고 있어 일본어를 잘 못하는 학생들도 학업에 참여할 수 있습니다.
 
-**👨‍🎓 유명 졸업생:**
+## 💰 Tuition & Fees
 
-나고야 대학교는 수많은 저명한 졸업생을 배출했습니다. 노벨 물리학상을 수상한 아카사키 이사무 교수 외에도, 다양한 분야에서 활약하는 인재들이 나고야 대학교 출신입니다. 기업가, 정치인, 학자, 예술가 등 다양한 분야에서 뛰어난 업적을 남긴 졸업생들이 많습니다. 대표적인 인물로는 다음과 같습니다.
 
-*   **아카사키 이사무 (赤﨑勇):** 2014년 노벨 물리학상 수상자 (청색 LED 개발 공로)
-*   **시모무라 오사무 (下村脩):** 2008년 노벨 화학상 수상자 (녹색 형광 단백질 발견 공로, 학부 졸업)
-*   **마쓰오 다카요시 (松尾 隆善):** 기업가, 로옴 창업자
-*   **야마모토 마사오 (山本 正之):** 소설가
+| Item            | Amount (JPY) |
+|-----------------|--------------|
+| Admission Fee   | 282,000      |
+| Yearly Tuition  | 535,800      |
 
-**🏫 캠퍼스 생활:**
 
-나고야 대학교는 다양한 동아리 활동, 클럽 활동, 스포츠 활동 등을 통해 학생들이 캠퍼스 생활을 즐길 수 있도록 지원합니다. 캠퍼스 내에는 도서관, 박물관, 미술관 등 다양한 문화 시설이 있으며, 학생 식당, 카페 등 편의 시설도 잘 갖춰져 있습니다. 매년 가을에는 대학 축제가 개최되어 학생들이 다양한 공연, 전시, 먹거리 등을 즐길 수 있습니다. 또한, 나고야 시는 다양한 문화 행사, 축제 등을 개최하여 학생들이 풍요로운 문화 생활을 누릴 수 있습니다.
+## 🌍 International Student Support
 
-나고야 대학교는 학문적 우수성과 풍부한 캠퍼스 생활을 동시에 제공하는 명문 대학입니다. 미래를 향한 열정과 꿈을 가진 학생들에게 최고의 교육 환경을 제공할 것입니다.
+Nagoya University offers extensive support services for international students, ensuring a smooth transition and a positive academic experience. These services include:
 
-나고야 대학교에 대한 더 자세한 정보는 공식 웹사이트를 참고하시기 바랍니다: [https://www.nagoya-u.ac.jp/](https://www.nagoya-u.ac.jp/)
+*   **Dormitory:** The university provides various accommodation options for international students, including university-managed dormitories and off-campus housing assistance. These dormitories foster a multicultural environment and offer opportunities for interaction with other students.
+*   **English Programs:** Nagoya University offers a range of degree programs and courses taught in English, catering to international students who may not have sufficient Japanese language proficiency. These programs cover diverse fields, including engineering, science, and economics.
+*   **Career Support:** The university's career support center provides career counseling, job search assistance, and internship opportunities specifically tailored to international students. They assist students in navigating the Japanese job market and connecting with potential employers.
+*   **Japanese Language Support:** For international students wishing to improve their Japanese language skills, Nagoya University offers Japanese language courses at various proficiency levels. This helps students integrate into the university community and daily life in Japan.
+*   **Visa and Immigration Support:** The university provides guidance and assistance with visa applications and immigration procedures, ensuring compliance with Japanese immigration laws.
+*   **Buddy Program:** A buddy program pairs international students with local students, providing valuable support and friendship. Buddies can help with practical matters, cultural adjustment, and social integration.
 
-**✅ 입학 요건:**
+## 📍 Campus Location & Access
 
-*   EJU (일본유학시험) 성적 필수 (일부 학과)
-*   TOEFL 또는 IELTS 등의 영어 성적
-*   고등학교 졸업 증명서 및 성적 증명서
-*   자기소개서 및 추천서
+Nagoya University's main campus is located in Chikusa-ku, Nagoya City, Aichi Prefecture. It is easily accessible by public transportation.
 
-각 학과별 입학 요건이 다르므로, 지원하고자 하는 학과의 입학 정보를 반드시 확인하시기 바랍니다.
 
-**💰 장학금 제도:**
+| Transportation | Route                                      |
+|-----------------|--------------------------------------------|
+| Subway         | Meijo Line to Nagoya Daigaku Station         |
+| Bus            | City Bus to Nagoya Daigaku Mae              |
 
-나고야 대학교는 국제 학생들을 위한 다양한 장학금 제도를 운영하고 있습니다. 일본 정부 장학금, 대학 자체 장학금, 민간 장학금 등 다양한 종류의 장학금이 있으며, 성적 우수 학생, 경제적 어려움을 겪는 학생 등 다양한 기준에 따라 장학금을 지급합니다. 장학금에 대한 자세한 정보는 대학 웹사이트에서 확인할 수 있습니다.
+The campus is conveniently located near major transportation hubs and offers easy access to the city's amenities and attractions.

@@ -7,7 +7,6 @@
     <meta name="description" content="{{ meta_desc }}">
     <link rel="canonical" href="{{ meta_url }}">
     
-    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ meta_url }}">
     <meta property="og:title" content="{{ meta_title }}">
@@ -15,17 +14,28 @@
     <meta property="og:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
     
     <link rel="icon" href="/static/img/favicon.ico">
-    <!-- CSS 버전 업데이트 -->
-    <link rel="stylesheet" href="/static/css/style.css?v=5.0"> 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=5.1"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        .goog-te-banner-frame.skiptranslate { display: none !important; }
+        body { top: 0px !important; }
+        .goog-tooltip { display: none !important; }
+        .goog-te-gadget-simple {
+            background-color: transparent !important;
+            border: 1px solid #ddd !important;
+            padding: 4px 8px !important;
+            border-radius: 4px !important;
+            font-size: 0.9rem !important;
+        }
+        .goog-te-gadget-icon { display: none !important; }
+    </style>
 </head>
 <body class="main-layout">
     
-    <!-- [고정 영역 시작] Header + Search Panel -->
+    <!-- [고정 영역] Header + Search Panel -->
     <div class="fixed-top-area">
-        
-        <!-- 1. Header -->
         <header class="main-header">
             <div class="header-content">
                 <div class="logo-container">
@@ -33,20 +43,15 @@
                         <img src="/static/img/logo.png" alt="JP Campus" class="logo-img">
                     </a>
                 </div>
-                <div class="lang-switch">
-                    <button onclick="setLanguage('en')">🇺🇸</button>
-                    <button onclick="setLanguage('ko')">🇰🇷</button>
-                </div>
+                <div id="google_translate_element"></div>
             </div>
         </header>
 
-        <!-- 2. Search Panel -->
         <div id="detail-search-panel" class="detail-search-panel">
             <div class="search-wrapper">
                 <div class="search-container">
-                    <!-- 1. Region -->
                     <select id="filter-region">
-                        <option value="all" data-i18n="opt_region_all">📍 Region (All)</option>
+                        <option value="all">📍 Region (All)</option>
                         <optgroup label="Kanto">
                             <option value="新宿">Shinjuku</option>
                             <option value="高田馬場">Takadanobaba</option>
@@ -71,118 +76,106 @@
                         </optgroup>
                     </select>
 
-                    <!-- 2. University -->
                     <div>
-                        <input type="text" id="filter-univ" placeholder="🏫 Search Univ">
+                        <input type="text" id="filter-univ" placeholder="🏫 Search Name (e.g. Waseda)">
                     </div>
 
-                    <!-- 3. Tuition -->
                     <select id="filter-price">
-                        <option value="all" data-i18n="opt_price_all">💰 Tuition</option>
+                        <option value="all">💰 Tuition (1yr)</option>
                         <option value="70">700k~ JPY</option>
                         <option value="75">Under 750k</option>
                         <option value="80">Under 800k</option>
                         <option value="85">Under 850k</option>
                     </select>
 
-                    <!-- 4. Nationality -->
                     <select id="filter-nation">
-                        <option value="all" data-i18n="opt_nation_all">🌏 Nationality</option>
-                        <option value="global">🇺🇸 Global</option>
-                        <option value="korea_low">🇰🇷 Low KR</option>
-                        <option value="china_high">🇨🇳 High CN</option>
-                        <option value="vietnam_high">🇻🇳 High VN</option>
+                        <option value="all">🌏 Nationality</option>
+                        <option value="global">🇺🇸 Global / Western</option>
+                        <option value="korea_low">🇰🇷 Low Korean Ratio</option>
+                        <option value="china_high">🇨🇳 High Chinese</option>
+                        <option value="vietnam_high">🇻🇳 High Vietnamese</option>
                     </select>
 
-                    <!-- 5. Size -->
                     <select id="filter-scale">
-                        <option value="all" data-i18n="opt_scale_all">👥 Size</option>
+                        <option value="all">👥 Size</option>
                         <option value="large">Large (500+)</option>
                         <option value="medium">Medium</option>
                         <option value="small">Small</option>
                     </select>
 
-                    <!-- 6. Career -->
                     <select id="filter-career">
-                        <option value="all" data-i18n="opt_career_all">🎓 Career</option>
+                        <option value="all">🎓 Career Focus</option>
                         <option value="grad_school">Grad School</option>
                         <option value="university">University</option>
-                        <option value="vocational">Vocational</option>
+                        <option value="vocational">Vocational / Job</option>
                     </select>
 
-                    <!-- 7. Special -->
                     <select id="filter-special">
-                        <option value="all" data-i18n="opt_special_all">🎯 Specialized</option>
-                        <option value="art">🎨 Art/Design</option>
+                        <option value="all">🎯 Specialized</option>
+                        <option value="art">🎨 Art / Design</option>
                         <option value="biz">💼 Business</option>
                         <option value="short">✈️ Short-term</option>
-                        <option value="jlpt">📚 JLPT</option>
+                        <option value="jlpt">📚 JLPT Prep</option>
                     </select>
 
-                    <!-- 8. Dorm -->
                     <select id="filter-dorm">
-                        <option value="all" data-i18n="opt_dorm_all">🛏️ Dormitory</option>
+                        <option value="all">🛏️ Dormitory</option>
                         <option value="yes">Available</option>
                         <option value="single">Single Room</option>
                         <option value="school_owned">School Owned</option>
                     </select>
 
-                    <!-- 9. Scholarship -->
                     <select id="filter-scholarship">
-                        <option value="all" data-i18n="opt_scholarship_all">🏅 Scholarship</option>
+                        <option value="all">🏅 Scholarship</option>
                         <option value="yes">Available</option>
                     </select>
 
-                    <!-- 10. EJU -->
                     <select id="filter-eju">
-                        <option value="all" data-i18n="opt_eju_all">📝 EJU Prep</option>
+                        <option value="all">📝 EJU Prep</option>
                         <option value="yes">Available</option>
-                        <option value="science">⚗️ Science</option>
-                        <option value="art">🎨 Art</option>
+                        <option value="science">⚗️ Science / Math</option>
+                        <option value="art">🎨 Art Practical</option>
                     </select>
 
-                    <!-- 11. Style -->
                     <select id="filter-convo">
-                        <option value="all" data-i18n="opt_convo_all">🗣️ Style</option>
-                        <option value="yes">Conversation</option>
-                        <option value="activity">Activities</option>
+                        <option value="all">🗣️ Class Style</option>
+                        <option value="yes">Conversation Focused</option>
+                        <option value="activity">Cultural Activities</option>
                     </select>
 
-                    <!-- 12. Environment -->
                     <select id="filter-env">
-                        <option value="all" data-i18n="opt_env_all">🏙️ Environment</option>
-                        <option value="active">City Center</option>
-                        <option value="quiet">Quiet Area</option>
+                        <option value="all">🏙️ Environment</option>
+                        <option value="active">City Center (Busy)</option>
+                        <option value="quiet">Quiet Residential</option>
                     </select>
                 </div>
                 
                 <div class="search-actions">
                     <button id="search-btn" class="apply-btn" onclick="applyFilters()">
-                        <i class="fas fa-search"></i> <span data-i18n="search_btn">Search</span>
+                        <i class="fas fa-search"></i> Search
                     </button>
                     <button id="reset-btn" class="reset-btn" onclick="resetFilters()">
-                        <i class="fas fa-undo"></i> <span data-i18n="reset_btn">Reset</span>
+                        <i class="fas fa-undo"></i> Reset
                     </button>
                 </div>
             </div>
         </div>
     </div> 
-    <!-- [고정 영역 끝] -->
 
-    <!-- Map Section (전체 너비) -->
+    <!-- Map Section -->
     <section class="map-section">
         <div class="map-container-inner">
             <div id="map"></div>
         </div>
         <div class="map-overlay-info">
-            <span data-i18n="txt_result">Results:</span> <span id="result-count" class="highlight">0</span> <span data-i18n="txt_schools">schools</span>
+            Results: <span id="result-count" class="highlight">0</span> schools
         </div>
     </section>
 
-    <!-- [1] Floating Box (지도 위에 겹치는 제목 박스) -->
+    <!-- Floating Box -->
     <div class="floating-container">
         <div class="floating-box">
-            <h2 data-i18n="page_title">Japan Language School Map Search & Compare</h2>
+            <h2>Japan Language School Map Search & Compare</h2>
             <p>
                 Compare schools based on <strong>Location, Tuition, Nationality Ratio, and Admission Records</strong>.
             </p>
@@ -194,44 +187,146 @@
         </div>
     </div>
 
-    <!-- [2] Guide Section (독립적인 하단 섹션) -->
-    <section class="guide-section">
-        <div class="guide-wrapper">
-            <h3 class="section-title" data-i18n="guide_main_title">📚 Essential Guides for Japan</h3>
+    <!-- [섹션 1] Featured Language Schools -->
+    {% if latest_schools %}
+    <section class="school-section" style="background-color: #fff; padding: 80px 0; border-top: 1px solid #f0f0f0;">
+        <div class="content-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">
+                🏫 Featured Language Schools
+            </h3>
+            
+            <div class="card-grid">
+                {% for item in latest_schools %}
+                <!-- 이미지 순차 할당 -->
+                {% set school_imgs = [
+                    'https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=500',
+                    'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=500',
+                    'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500',
+                    'https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?w=500',
+                    'https://images.unsplash.com/photo-1577985051167-0d49eec21977?w=500',
+                    'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500',
+                    'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+                    'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500',
+                    'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500', 
+                    'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500'
+                ] %}
+                {% set current_img = school_imgs[loop.index0 % 10] %}
+                
+                <a href="{{ item.link }}" class="card">
+                    <div class="card-img" style="background-image: url('{{ current_img }}'); background-size: cover; background-position: center;">
+                        <div style="position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.9); padding:5px; border-radius:50%; width:32px; height:32px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+                            <img src="/static/img/pin-school.png" style="width:18px;">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 style="font-size: 1.1rem; margin-bottom: 8px; font-weight: 700;">{{ item.basic_info.name_ja }}</h4>
+                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 12px;">
+                            <i class="fas fa-map-marker-alt" style="color: #e67e22;"></i> {{ item.basic_info.address[:15] }}...
+                        </p>
+                        {% if item.tuition and item.tuition.yearly_tuition %}
+                        <div style="margin-top: auto; padding-top: 10px; border-top: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-size: 0.85rem; color: #888;">Yearly Tuition</span>
+                            <span style="font-size: 1rem; color: #e67e22; font-weight: bold;">¥{{ "{:,}".format(item.tuition.yearly_tuition) }}</span>
+                        </div>
+                        {% endif %}
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+
+    <!-- [섹션 2] Featured Universities -->
+    {% if latest_universities %}
+    <section class="univ-section" style="background-color: #f9f9f9; padding: 80px 0; border-top: 1px solid #eee;">
+        <div class="content-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">
+                🎓 Featured Universities
+            </h3>
+            
+            <div class="card-grid">
+                {% for item in latest_universities %}
+                <!-- 이미지 순차 할당 -->
+                {% set univ_imgs = [
+                    'https://images.unsplash.com/photo-1562774053-701939374585?w=500', 
+                    'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500',
+                    'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=500',
+                    'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500',
+                    'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500',
+                    'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=500',
+                    'https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=500',
+                    'https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=500',
+                    'https://images.unsplash.com/photo-1525921429624-479b6a26d84d?w=500',
+                    'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=500'
+                ] %}
+                {% set current_univ_img = univ_imgs[loop.index0 % 10] %}
+
+                <a href="{{ item.link }}" class="card">
+                    <div class="card-img" style="background-image: url('{{ current_univ_img }}'); background-size: cover; background-position: center;">
+                        <div style="position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.9); padding:5px; border-radius:50%; width:32px; height:32px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+                            <img src="/static/img/pin-univ.png" style="width:18px;">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 style="font-size: 1.1rem; margin-bottom: 8px; font-weight: 700;">{{ item.basic_info.name_ja }}</h4>
+                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 12px;">
+                            <i class="fas fa-map-marker-alt" style="color: #3498db;"></i> {{ item.basic_info.address[:15] }}...
+                        </p>
+                        {% if item.features %}
+                        <div style="margin-top: auto; display: flex; gap: 6px; flex-wrap: wrap;">
+                            {% for tag in item.features[:2] %}
+                            <span style="font-size: 0.75rem; background: #f0f4f8; color: #555; padding: 4px 10px; border-radius: 20px; font-weight: 500; border: 1px solid #e1e8ed;">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- [섹션 3] Guide Section -->
+    <section class="guide-section" style="background-color: #fff; padding: 80px 0; border-top: 1px solid #eee;">
+        <div class="guide-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">📚 Essential Guides for Japan</h3>
             
             <div class="card-grid">
                 <a href="/guide/cost" class="card">
-                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500');"></div>
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500'); background-size: cover; background-position: center;"></div>
                     <div class="card-body">
-                        <h4 data-i18n="guide_cost_title">💰 1-Year Cost Breakdown</h4>
-                        <p data-i18n="guide_cost_desc">Realistic budget analysis for studying in Tokyo.</p>
+                        <h4>💰 1-Year Cost Breakdown</h4>
+                        <p>Realistic budget analysis for studying in Tokyo.</p>
                     </div>
                 </a>
                 <a href="/guide/school-choice" class="card">
-                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500');"></div>
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500'); background-size: cover; background-position: center;"></div>
                     <div class="card-body">
-                        <h4 data-i18n="guide_school_title">🏫 5 Criteria for Choosing</h4>
-                        <p data-i18n="guide_school_desc">How to choose the right school for your goals.</p>
+                        <h4>🏫 5 Criteria for Choosing</h4>
+                        <p>How to choose the right school for your goals.</p>
                     </div>
                 </a>
                 <a href="/guide/visa" class="card">
-                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500');"></div>
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500'); background-size: cover; background-position: center;"></div>
                     <div class="card-body">
-                        <h4 data-i18n="guide_visa_title">✈️ Visa Application Guide</h4>
-                        <p data-i18n="guide_visa_desc">Step-by-step guide to COE and visa application.</p>
+                        <h4>✈️ Visa Application Guide</h4>
+                        <p>Step-by-step guide to COE and visa application.</p>
                     </div>
                 </a>
                 <a href="/guide/housing" class="card">
-                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500');"></div>
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500'); background-size: cover; background-position: center;"></div>
                     <div class="card-body">
-                        <h4 data-i18n="guide_housing_title">🏠 Dorm vs Share House</h4>
-                        <p data-i18n="guide_housing_desc">Pros and cons of each housing type and costs.</p>
+                        <h4>🏠 Dorm vs Share House</h4>
+                        <p>Pros and cons of each housing type and costs.</p>
                     </div>
                 </a>
             </div>
             
             <div style="text-align: center; margin-top: 50px;">
-                <a href="/guide" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;" data-i18n="guide_view_all">View All Guides ></a>
+                <a href="/guide" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">View All Guides ></a>
             </div>
         </div>
     </section>
@@ -250,10 +345,22 @@
         </div>
     </footer>
 
+    <!-- Google Translate -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en', 
+                includedLanguages: 'en,ja,ko,zh-CN,zh-TW,vi,th,id',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     <!-- Scripts -->
     <script>const SCHOOLS_DATA = {{ schools_json | safe }};</script>
-    <script src="/static/js/i18n.js?v=2.5"></script>
-    <script src="/static/js/map.js?v=2.5"></script>
+    <script src="/static/js/map.js?v=2.6"></script>
     <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
     <script 
         src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker&v=weekly" 

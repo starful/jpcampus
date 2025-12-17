@@ -15,7 +15,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 # 🎯 생성할 대학 개수 설정 (여기서 조절하세요)
-LIMIT = 5 
+LIMIT = 10
 
 # 경로 설정
 INPUT_CSV = "scripts/file/univ_list_100.csv"
@@ -56,23 +56,30 @@ def clean_json(text):
     return text
 
 def get_university_info(name_ja, name_en):
-    """AI에게 대학 상세 정보 요청"""
-    print(f"🏫 AI 분석 중...: {name_ja}")
+    """AI에게 대학 상세 정보 요청 (영문 버전)"""
+    print(f"🏫 AI Analysis - English: {name_ja}")
     
     prompt = f"""
     You are an expert in Japanese higher education.
-    Analyze the university "{name_ja}" ({name_en}) and provide data for a Markdown file.
-    
+    Analyze the university "{name_ja}" ({name_en}) and provide data for a Markdown file in **ENGLISH**.
+
+    [Formatting Rules - IMPORTANT]
+    1. **Strict Markdown Tables**: 
+       - Ensure a blank line before and after the table.
+       - Use `| Header | Header |` format.
+       - Separator line MUST be `|---|---|`.
+       - Do NOT merge cells or use complex structures.
+
     [Requirements]
     1. **english_slug**: URL-friendly English name (lowercase, kebab-case). e.g., "waseda-university"
-    2. **description_ko**: Write a detailed introduction in Korean (Markdown format, 2000+ characters).
+    2. **description_ko**: Write a detailed introduction in **ENGLISH** (Markdown format, 2000+ characters).
        - **MUST use Markdown Tables**: Use tables for 'Faculties list', 'Tuition breakdown', 'Admission stats', etc.
        - Structure:
-         - 🏫 University Overview
+         - 🏫 University Overview (History, Reputation)
          - 🎓 Faculties & Departments (Use Table)
-         - 💰 Tuition & Fees (Use Table: Admission fee, Yearly tuition, etc.)
-         - 🌍 International Student Support (Dormitory, Career support)
-         - 📍 Campus Location & Access (Use Table for train access time)
+         - 💰 Tuition & Fees (Use Table: Admission fee, Yearly tuition in JPY)
+         - 🌍 International Student Support (Dormitory, English programs, Career support)
+         - 📍 Campus Location & Access (Use Table for access)
     3. **tuition**: Integer values only (JPY).
     
     [Output Format - JSON Only]
@@ -92,9 +99,9 @@ def get_university_info(name_ja, name_en):
             "admission_fee": 200000,
             "yearly_tuition": 1000000
         }},
-        "faculties": ["School of Political Science", "School of Law", "School of Culture..."],
+        "faculties": ["School of Political Science", "School of Law", ...],
         "features": ["SGU", "EJU Required", "English Program", "Dormitory", "Scholarship"],
-        "description_ko": "## 🏫 학교 소개\\n\\n(Detailed markdown content with Tables)..."
+        "description_ko": "## 🏫 University Overview\\n\\n(Detailed ENGLISH content with Tables)..."
     }}
     """
 

@@ -44,7 +44,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
 }
 
 .main-header {
-    height: 60px;
+    height: 80px; /* 헤더 전체 높이도 조금 키움 (60px -> 80px) */
     display: flex; align-items: center; justify-content: center;
     border-bottom: 1px solid #f0f0f0;
 }
@@ -54,7 +54,13 @@ button { cursor: pointer; border: none; font-family: inherit; }
     display: flex; justify-content: space-between; align-items: center;
 }
 
-.logo-img { height: 36px; width: auto; display: block; }
+/* 로고 이미지 크기 수정 */
+.logo-img { 
+    height: 50px; /* 기존 36px -> 50px로 확대 */
+    width: auto; 
+    display: block; 
+    transition: height 0.3s; /* 부드러운 전환 */
+}
 
 .lang-switch button {
     background: transparent; border: 1px solid #ddd;
@@ -210,6 +216,9 @@ button { cursor: pointer; border: none; font-family: inherit; }
 }
 
 @media (max-width: 768px) {
+    
+    .main-header { height: 60px; }
+    .logo-img { height: 40px; }
     .fixed-top-area { position: static; }
     body { padding-top: 0; }
     

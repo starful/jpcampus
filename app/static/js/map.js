@@ -102,12 +102,77 @@ function toggleButtons(isFiltered) {
     return; 
 }
 
-// [정보창] 열기 함수
-// app/static/js/map.js
+// [중요] 렌더링 함수 수정 (i18n 제거)
+function renderMarkers(data) {
+    if (!map || !LatLngBounds || !AdvancedMarkerElement) {
+        console.warn("⚠️ Maps library not loaded yet.");
+        return;
+    }
 
-// ... (위쪽 코드 생략) ...
+    if (markerCluster) markerCluster.clearMarkers();
+    
+    schoolMarkers.forEach(m => m.map = null);
+    univMarkers.forEach(m => m.map = null);
+    
+    schoolMarkers = [];
+    univMarkers = [];
 
-// [정보창] 열기 함수 (디자인 수정: 배경색 제거, 깔끔한 텍스트 위주)
+    const bounds = new LatLngBounds();
+
+    data.forEach(item => {
+        // 숫자 ID 제외
+        if (/^\d+$/.test(item.id)) return;
+
+        if (!item.location || !item.location.lat) return;
+        const position = { lat: item.location.lat, lng: item.location.lng };
+        
+        // 핀 생성
+        const pinImg = document.createElement("img");
+        
+        if (item.category === 'university') {
+            pinImg.src = '/static/img/pin-univ.png'; 
+            pinImg.width = 40;
+            
+            const marker = new AdvancedMarkerElement({
+                map: map,
+                position: position,
+                title: item.basic_info.name_ja,
+                zIndex: 9999,
+                content: pinImg,
+            });
+
+            marker.addListener("click", () => openInfoWindow(item, marker));
+            univMarkers.push(marker); 
+            bounds.extend(position);
+        } else {
+            pinImg.src = '/static/img/pin-school.png';
+            pinImg.width = 32;
+
+            const marker = new AdvancedMarkerElement({
+                map: map,
+                position: position,
+                title: item.basic_info.name_ja,
+                zIndex: 1,
+                content: pinImg,
+            });
+
+            marker.addListener("click", () => openInfoWindow(item, marker));
+            schoolMarkers.push(marker);
+            bounds.extend(position);
+        }
+    });
+
+    // 결과 수 업데이트
+    const countEl = document.getElementById("result-count");
+    if (countEl) countEl.innerText = schoolMarkers.length + univMarkers.length;
+
+    if (!window.isSearchMove && (schoolMarkers.length + univMarkers.length) > 0) {
+         map.fitBounds(bounds);
+    }
+}
+
+
+// [중요] 정보창 함수 수정 (영어 하드코딩)
 function openInfoWindow(school, marker) {
     const detailUrl = school.link || `/school/${school.id}`;
     
@@ -115,14 +180,12 @@ function openInfoWindow(school, marker) {
         ? school.basic_info.website 
         : (school.source_url || '#');
 
-    // 텍스트 색상과 라벨만 다르게 설정 (배경색 X)
     const labelColor = school.category === 'university' ? '#0F4C81' : '#E67E22';
     const labelText = school.category === 'university' ? 'UNIVERSITY' : 'LANGUAGE SCHOOL';
     const icon = school.category === 'university' ? '🎓' : '🏫';
 
     const contentString = `
         <div class="info-window-card">
-            <!-- 헤더: 배경색 없이 텍스트 강조 -->
             <div class="iw-header" style="border-bottom: 2px solid ${labelColor}; padding-bottom:10px; margin-bottom:10px;">
                 <span style="font-size:0.75rem; font-weight:bold; color:${labelColor}; display:block; margin-bottom:4px;">
                     ${labelText}
@@ -143,12 +206,10 @@ function openInfoWindow(school, marker) {
                     <span>Capacity: ${school.basic_info.capacity}</span>
                 </div>` : ''}
                 
-                <!-- 상세 보기 버튼 -->
                 <a href="${detailUrl}" class="iw-btn" style="background-color: ${labelColor}; color: white;">
                     View Details
                 </a>
 
-                <!-- 공식 홈페이지 버튼 -->
                 ${websiteUrl !== '#' ? `
                 <a href="${websiteUrl}" target="_blank" class="iw-btn" style="background-color: #fff; color: #555; border: 1px solid #ddd; margin-top: 8px;">
                     Official Website <i class="fas fa-external-link-alt"></i>
@@ -160,77 +221,6 @@ function openInfoWindow(school, marker) {
 
     infoWindow.setContent(contentString);
     infoWindow.open(map, marker);
-}
-
-// [마커] 렌더링 함수
-function renderMarkers(data) {
-    if (!map || !LatLngBounds || !AdvancedMarkerElement) {
-        console.warn("⚠️ Maps library not loaded yet.");
-        return;
-    }
-
-    if (markerCluster) markerCluster.clearMarkers();
-    
-    schoolMarkers.forEach(m => m.map = null);
-    univMarkers.forEach(m => m.map = null);
-    
-    schoolMarkers = [];
-    univMarkers = [];
-
-    const bounds = new LatLngBounds();
-
-    data.forEach(item => {
-        // 숫자 ID(구형 데이터) 제외
-        if (/^\d+$/.test(item.id)) return;
-
-        if (!item.location || !item.location.lat) return;
-        const position = { lat: item.location.lat, lng: item.location.lng };
-        
-        const pinImg = document.createElement("img");
-        
-        if (item.category === 'university') {
-            pinImg.src = '/static/img/pin-univ.png'; 
-            pinImg.width = 40;
-            
-            const marker = new AdvancedMarkerElement({
-                map: map,
-                position: position,
-                title: item.basic_info.name_ja,
-                zIndex: 9999,
-                content: pinImg,
-            });
-
-            marker.addListener("click", () => {
-                openInfoWindow(item, marker);
-            });
-            univMarkers.push(marker); 
-            bounds.extend(position);
-        } else {
-            pinImg.src = '/static/img/pin-school.png';
-            pinImg.width = 32;
-
-            const marker = new AdvancedMarkerElement({
-                map: map,
-                position: position,
-                title: item.basic_info.name_ja,
-                zIndex: 1,
-                content: pinImg,
-            });
-
-            marker.addListener("click", () => {
-                openInfoWindow(item, marker);
-            });
-            schoolMarkers.push(marker);
-            bounds.extend(position);
-        }
-    });
-
-    const countEl = document.getElementById("result-count");
-    if (countEl) countEl.innerText = schoolMarkers.length + univMarkers.length;
-
-    if (!window.isSearchMove && (schoolMarkers.length + univMarkers.length) > 0) {
-         map.fitBounds(bounds);
-    }
 }
 
 // [검색] 매칭 헬퍼

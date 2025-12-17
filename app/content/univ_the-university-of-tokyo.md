@@ -9,8 +9,7 @@
     "EJU Required",
     "English Program",
     "Dormitory",
-    "Scholarship",
-    "Global Campus Initiatives"
+    "Scholarship"
   ],
   "thumbnail": "/static/img/pin-univ.png",
   "location": {
@@ -24,7 +23,7 @@
     "website": "https://www.u-tokyo.ac.jp/"
   },
   "stats": {
-    "international_students": 3700,
+    "international_students": 4000,
     "acceptance_rate": "20%"
   },
   "tuition": {
@@ -32,54 +31,74 @@
     "yearly_tuition": 535800
   },
   "faculties": [
-    "法学部 (School of Law)",
-    "経済学部 (School of Economics)",
-    "文学部 (School of Letters)",
-    "理学部 (School of Science)",
-    "工学部 (School of Engineering)",
-    "医学部 (School of Medicine)",
-    "農学部 (School of Agriculture)",
-    "薬学部 (School of Pharmaceutical Sciences)",
-    "教育学部 (Faculty of Education)",
-    "教養学部 (College of Arts and Sciences)",
-    "総合文化研究科 (Graduate School of Arts and Sciences)",
-    "公共政策大学院 (Graduate School of Public Policy)",
-    "情報学環・学際情報学府 (Interfaculty Initiative in Information Studies)",
-    "新領域創成科学研究科 (Graduate School of Frontier Sciences)"
+    "Faculty of Law",
+    "Faculty of Medicine",
+    "Faculty of Engineering",
+    "Faculty of Letters",
+    "Faculty of Science",
+    "Faculty of Agriculture",
+    "Faculty of Economics",
+    "Faculty of Arts and Sciences",
+    "Faculty of Education",
+    "Faculty of Pharmaceutical Sciences"
   ],
   "features": [
     "SGU",
     "EJU Required",
     "English Program",
     "Dormitory",
-    "Scholarship",
-    "Global Campus Initiatives"
+    "Scholarship"
   ]
 }
 ---
 
-## 🏫 학교 소개
+## 🏫 University Overview
 
-도쿄대학교(東京大学, The University of Tokyo)는 일본을 대표하는 명문 국립대학교이며, 일본에서 가장 오래되고 권위 있는 대학 중 하나입니다. 흔히 '도다이(東大)'라는 애칭으로 불리며, 일본 사회의 리더를 배출하는 핵심 교육 기관으로 자리매김했습니다.
+The University of Tokyo (東京大学, Tōkyō Daigaku), often shortened to Todai (東大, Tōdai), is a prestigious national university located in Tokyo, Japan. Established in 1877 as the first imperial university, it is considered one of the most selective and highly-ranked universities in the world.
 
-**📜 역사**
+Todai has a rich history of academic excellence and groundbreaking research. It has produced numerous Nobel laureates, prime ministers, and influential figures in various fields. The university is committed to fostering global leaders who can contribute to solving complex societal challenges. Its mission is to advance knowledge, cultivate talent, and contribute to a better world.
 
-도쿄대학교는 1877년, 메이지 시대 정부에 의해 설립되었습니다. 당시 정부는 서구 문물을 적극적으로 받아들이고 근대화를 추진하면서, 서양식 교육 시스템을 도입하여 일본 사회의 발전을 이끌어갈 인재 양성의 필요성을 절감했습니다. 이에 따라 기존의 쇼헤이자카 학문소(昌平坂学問所), 의학교(医学所), 개성소(開成所) 등의 교육 기관을 통합하여 도쿄대학교를 설립했습니다. 초기에는 법학부, 이학부, 문학부, 의학부의 4개 학부로 시작했으며, 이후 시대의 변화에 따라 다양한 학부와 연구과를 신설하며 종합대학교로 발전했습니다.
+The University of Tokyo plays a crucial role in Japan's intellectual and economic development, attracting top students and researchers from across the globe. The university consistently ranks among the top universities worldwide and is renowned for its rigorous academic standards and cutting-edge research initiatives.
 
-**📍 위치**
+## 🎓 Faculties & Departments
 
-도쿄대학교의 메인 캠퍼스는 도쿄도 분쿄구(文京区) 혼고(本郷)에 위치하고 있습니다. 혼고 캠퍼스는 붉은 벽돌 건물과 울창한 녹지로 둘러싸여 고풍스러운 분위기를 자아냅니다. 캠퍼스 내에는 야스다 강당(安田講堂)을 비롯한 역사적인 건축물들이 자리 잡고 있어, 일본 근대 건축의 중요한 유산으로 평가받고 있습니다. 이 외에도 코마바 캠퍼스(駒場キャンパス), 카시와 캠퍼스(柏キャンパス) 등 여러 캠퍼스가 도쿄도 내에 위치하고 있으며, 각 캠퍼스는 특정 학부나 연구과의 교육 및 연구 활동을 지원합니다.
+The University of Tokyo offers a wide range of academic programs across its ten faculties and numerous graduate schools. The faculties encompass diverse disciplines, from humanities and social sciences to science and engineering.
 
-**🧑‍🎓 국제 학생 지원**
+| Faculty                        | Description                                                                                                                                                 |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Faculty of Law                 | Offers comprehensive legal education, covering public law, private law, and political science. Prepares students for careers in law, government, and business. |
+| Faculty of Medicine              | Provides rigorous medical training, encompassing basic medical sciences, clinical medicine, and public health. Focuses on producing skilled and compassionate physicians and researchers. |
+| Faculty of Engineering           | Offers a wide range of engineering disciplines, including mechanical engineering, electrical engineering, civil engineering, and information technology. Emphasizes innovation and problem-solving. |
+| Faculty of Letters             | Explores the humanities, including literature, history, philosophy, and linguistics. Fosters critical thinking and analytical skills.                       |
+| Faculty of Science               | Conducts cutting-edge research in various scientific disciplines, including physics, chemistry, biology, and mathematics. Provides a strong foundation for scientific careers. |
+| Faculty of Agriculture           | Focuses on agricultural sciences, including plant science, animal science, and environmental science. Addresses issues related to food security and sustainable agriculture. |
+| Faculty of Economics             | Offers rigorous training in economics, covering microeconomics, macroeconomics, and econometrics. Prepares students for careers in finance, consulting, and government. |
+| Faculty of Arts and Sciences    | Provides a broad liberal arts education, encompassing humanities, social sciences, and natural sciences. Encourages interdisciplinary learning and critical thinking. |
+| Faculty of Education             | Focuses on education theory and practice, preparing students for careers in teaching and educational research. Addresses issues related to educational policy and reform. |
+| Faculty of Pharmaceutical Sciences| Offers comprehensive training in pharmaceutical sciences, including drug discovery, drug delivery, and pharmacology. Prepares students for careers in the pharmaceutical industry and research. |
 
-도쿄대학교는 국제화를 적극적으로 추진하며, 다양한 국적의 학생들이 학업에 전념할 수 있도록 폭넓은 지원을 제공합니다. 외국인 유학생을 위한 특별 입학 전형을 운영하고 있으며, 일본어 능력 향상을 위한 어학 강좌, 생활 적응을 위한 오리엔테이션, 튜터링 프로그램 등을 제공합니다. 또한, 유학생 전용 기숙사를 운영하여 안정적인 주거 환경을 제공하고 있으며, 장학금 제도를 통해 학비 부담을 덜어주고 있습니다. 국제교류 프로그램도 활발하게 운영하여, 학생들이 해외 대학과의 교류를 통해 국제적인 감각을 키울 수 있도록 지원합니다. 특히 SGU (Super Global University) 사업의 일환으로 영어로 진행되는 학위 과정 (English Program)을 확대하고 있습니다.
 
-**👨‍🎓 유명 졸업생**
+## 💰 Tuition & Fees
 
-도쿄대학교는 수많은 분야에서 뛰어난 업적을 남긴 인재들을 배출했습니다. 정치, 경제, 법조, 학계, 문화예술 등 다양한 분야에서 활약하는 졸업생들은 일본 사회의 발전에 크게 기여하고 있습니다. 대표적인 졸업생으로는 노벨 물리학상 수상자인 고시바 마사토시(小柴昌俊) 교수, 노벨 화학상 수상자인 시라카와 히데키(白川英樹) 교수, 전 유엔 사무차장 아카시 야스시(明石康) 등이 있습니다. 또한, 수많은 기업의 CEO와 임원, 정부 고위 관료, 법조인, 의사, 학자들이 도쿄대학교 출신이며, 이들은 각자의 분야에서 리더십을 발휘하며 사회에 공헌하고 있습니다.
+The tuition and fees at the University of Tokyo are standardized across undergraduate programs for domestic and international students. However, international students should also factor in living expenses and other costs associated with studying in Japan.
 
-**🏫 캠퍼스 라이프**
+| Fee Type        | Amount (JPY) |
+|-----------------|--------------|
+| Admission Fee   | 282,000      |
+| Yearly Tuition  | 535,800      |
 
-도쿄대학교는 학업뿐만 아니라 다채로운 캠퍼스 라이프를 즐길 수 있는 환경을 제공합니다. 수많은 동아리와 클럽 활동이 활발하게 이루어지고 있으며, 학생들은 자신의 관심 분야에 따라 다양한 활동에 참여할 수 있습니다. 스포츠, 문화예술, 봉사활동 등 다양한 분야의 동아리가 존재하며, 학생들은 동아리 활동을 통해 교우 관계를 형성하고 리더십을 함양할 수 있습니다. 또한, 캠퍼스 내에는 다양한 편의 시설이 갖춰져 있어 학생들이 편리하게 생활할 수 있습니다. 도서관, 학생 식당, 매점, 은행, 병원 등 다양한 시설이 캠퍼스 내에 위치하고 있으며, 학생들의 학업 및 생활을 지원합니다. 특히, 도쿄대학교 도서관은 일본 최대 규모의 장서를 보유하고 있으며, 학생들의 연구 활동을 위한 중요한 자원입니다. 매년 5월에 열리는 고마바 축제(駒場祭)와 11월에 열리는 5월제(五月祭)는 도쿄대학교의 대표적인 축제이며, 학생들이 직접 기획하고 운영하는 다채로운 행사와 공연이 펼쳐집니다. 이러한 축제는 학생들의 창의성과 협동심을 발휘하는 기회가 되며, 지역 사회와의 교류를 촉진하는 역할을 합니다.
+## 🌍 International Student Support
 
-도쿄대학교는 뛰어난 교육 환경과 풍부한 지원 시스템을 통해 학생들의 잠재력을 최대한으로 발휘할 수 있도록 돕고 있습니다. 끊임없는 혁신과 발전을 통해 세계적인 명문 대학으로서의 위상을 굳건히 하고 있으며, 미래 사회를 이끌어갈 글로벌 리더 양성에 힘쓰고 있습니다.
+The University of Tokyo provides extensive support services for international students, including accommodation assistance, language support, and career counseling. These services are designed to help international students adjust to life in Japan and succeed academically.
+
+*   **Dormitory:** The university offers on-campus and off-campus dormitory options for international students. Due to limited availability, it is recommended that students apply for accommodation as early as possible.
+*   **English Programs:** Several programs are offered entirely in English at the graduate level, and some courses are available in English at the undergraduate level. The university also provides Japanese language courses to help international students improve their language proficiency.
+*   **Career Support:** The university's career support center provides career counseling, job search assistance, and internship opportunities for international students. The center also organizes career fairs and workshops to connect students with potential employers.
+
+## 📍 Campus Location & Access
+
+The University of Tokyo's main campus is located in Hongo, Bunkyo-ku, Tokyo. It is easily accessible by public transportation.
+
+| Location    | Access                                                       |
+|-------------|--------------------------------------------------------------|
+| Hongo Campus| Marunouchi Line Hongosanchome Station (5-minute walk) , Oedo Line Hongodaimae Station (5-minute walk), Namboku Line Todaimae Station (1-minute walk)  |

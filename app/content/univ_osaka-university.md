@@ -31,17 +31,19 @@
     "yearly_tuition": 535800
   },
   "faculties": [
-    "文学部",
-    "人間科学部",
-    "外国語学部",
-    "法学部",
-    "経済学部",
-    "理学部",
-    "医学部",
-    "歯学部",
-    "薬学部",
-    "工学部",
-    "基礎工学部"
+    "Faculty of Letters",
+    "Faculty of Human Sciences",
+    "Faculty of Foreign Studies",
+    "Faculty of Law",
+    "Faculty of Economics",
+    "Faculty of Science",
+    "Faculty of Medicine",
+    "Faculty of Dentistry",
+    "Faculty of Pharmaceutical Sciences",
+    "Faculty of Engineering Science",
+    "Faculty of Engineering",
+    "School of Interdisciplinary Science and Engineering",
+    "Faculty of Agriculture"
   ],
   "features": [
     "SGU",
@@ -53,36 +55,55 @@
 }
 ---
 
-## 🏫 학교 소개
+## 🏫 University Overview
 
-오사카 대학교(大阪大学, Osaka University)는 일본 오사카부에 위치한 명문 국립 대학입니다. 약칭은 '한다이(阪大)'이며, 구 제국대학 중 하나로서 일본 내에서 최상위권 대학으로 손꼽힙니다. 특히 과학, 공학, 의학 분야에서 뛰어난 연구 성과를 내고 있으며, 노벨상 수상자를 다수 배출한 세계적인 연구 중심 대학입니다.
+Osaka University (大阪大学, Ōsaka Daigaku), often abbreviated as Handai (阪大, Handai), is a leading comprehensive national university located in Osaka, Japan. It is one of Japan's former Imperial Universities, consistently ranked among the top universities in Japan and worldwide.
 
-### 📜 역사
+Founded in 1931 as Osaka Imperial University, it traces its origins back to earlier institutions such as the Osaka Prefectural Medical School (founded in 1869) and Osaka Higher Technical School (founded in 1896). The university has played a pivotal role in Japan's scientific and technological advancements. Osaka University is renowned for its strong research focus, particularly in areas such as materials science, immunology, engineering, and economics. Several Nobel laureates are associated with Osaka University, reflecting its commitment to excellence in research and education. The university actively promotes international collaboration and welcomes students from diverse backgrounds, fostering a global academic environment. It is selected as a Top Type university of the Top Global University Project by the Japanese government.
 
-오사카 대학교의 기원은 1724년에 설립된 '오사카 마에가타야쿠(大阪懐徳堂)'라는 사립 학문 기관과 1869년에 설립된 '오사카 부립 의학교(大阪府立医学校)'로 거슬러 올라갑니다. 이후 이들이 통합 및 발전을 거듭하여 1931년에 제국대학인 '오사카 제국대학(大阪帝国大学)'으로 승격되었습니다. 1947년에 현재의 '오사카 대학교'로 명칭을 변경하였습니다. 오랜 역사와 전통을 바탕으로 일본의 고등 교육과 연구 발전에 크게 기여해 왔습니다.
+## 🎓 Faculties & Departments
 
-### 📍 위치
+| Faculty                     | Departments                                                                                                                               |
+|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Faculty of Letters           | Philosophy, History, Japanese Studies, Asian Studies, European Studies                                                                     |
+| Faculty of Human Sciences    | Human Science                                                                                                                             |
+| Faculty of Foreign Studies   | English, German, French, Chinese, Korean, Indonesian, etc.                                                                               |
+| Faculty of Law              | Law, Political Science                                                                                                                   |
+| Faculty of Economics         | Economics, Business Administration                                                                                                       |
+| Faculty of Science           | Mathematics, Physics, Chemistry, Biology, Macromolecular Science                                                                        |
+| Faculty of Medicine          | Medicine                                                                                                                                   |
+| Faculty of Dentistry         | Dentistry                                                                                                                                  |
+| Faculty of Pharmaceutical Sciences | Pharmaceutical Sciences, Pharmacy                                                                                                                 |
+| Faculty of Engineering Science | Systems Innovation, Mathematical Science, Information Science and Technology, Physics Science, Chemical Chain Engineering               |
+| Faculty of Engineering       | Applied Fine Chemistry, Materials and Manufacturing Science, Mechanical Engineering, Naval Architecture and Ocean Engineering, Electrical, Electronic and Information Engineering, Applied Physics, Architectural Engineering, Civil, Environmental and Ocean Engineering, Precision Science and Technology, Global Engineering  |
+| School of Interdisciplinary Science and Engineering | Interdisciplinary Science and Engineering                                                                                                 |
+| Faculty of Agriculture       | Applied Biological Chemistry, Biological and Environmental Engineering, Applied Bioresource Science                                     |
 
-오사카 대학교는 오사카부 스이타시, 도요나카시, 미노오시에 걸쳐 캠퍼스를 운영하고 있습니다. 스이타 캠퍼스가 메인 캠퍼스이며, 이곳에는 본부, 주요 학부, 연구소가 위치하고 있습니다. 각 캠퍼스는 아름다운 자연 환경과 현대적인 시설이 조화를 이루고 있으며, 학생들은 쾌적한 환경에서 학업과 연구에 집중할 수 있습니다. 오사카 시내와도 교통이 편리하여 다양한 문화 시설과 편의 시설을 쉽게 이용할 수 있습니다.
 
-### 🧑‍🤝‍🧑 국제 학생 지원
+## 💰 Tuition & Fees (Approximate)
 
-오사카 대학교는 국제화에 적극적으로 노력하며, 다양한 국제 학생 지원 프로그램을 제공하고 있습니다. 국제 학생들을 위한 오리엔테이션, 튜터링, 일본어 강좌 등을 운영하며, 생활 전반에 걸쳐 필요한 정보를 제공하고 있습니다. 또한, 유학생을 위한 기숙사 시설을 갖추고 있으며, 장학금 제도도 운영하고 있습니다. 국제 교류 프로그램도 활발하게 운영하여, 세계 각국의 대학과 협력 관계를 맺고 학생 교환 프로그램을 지원하고 있습니다. 영어로 진행되는 학위 과정도 개설되어 있어, 일본어를 못하는 학생들도 학업을 이어갈 수 있습니다. 대학 내 국제 교류 센터에서는 유학생의 비자, 주거, 건강 등 다양한 문제에 대해 상담을 제공합니다.
+| Fee Type       | Amount (JPY) |
+|----------------|--------------|
+| Admission Fee  | 282,000      |
+| Yearly Tuition | 535,800      |
 
-### 🎓 저명한 졸업생
 
-오사카 대학교는 수많은 저명한 졸업생을 배출했습니다. 대표적인 인물로는 다음과 같습니다.
+## 🌍 International Student Support
 
-*   **유카와 히데키(湯川秀樹):** 노벨 물리학상 수상자 (중간자 이론)
-*   **오사미 시게후미(小佐見滋史):** 경영학자, 기업가
-*   **데즈카 오사무(手塚治虫):** 만화가 (아톰, 밀림의 왕자 레오)
-*   **야마나카 신야(山中伸弥):** 노벨 생리학·의학상 수상자 (유도만능줄기세포, iPS 세포)
-*   **다카쿠라 겐(高倉健):** 배우
+Osaka University provides comprehensive support for international students to ensure a smooth and enriching academic experience. This includes:
 
-이 외에도 정계, 재계, 학계, 문화계 등 다양한 분야에서 활약하는 많은 인재를 배출하여 사회 발전에 기여하고 있습니다.
+*   **Dormitory:** The university offers several types of accommodation for international students, including university-operated dormitories and private apartments. Application information and eligibility criteria are typically available on the university's website.
+*   **English Programs:** A wide range of courses and degree programs are offered in English, particularly at the graduate level, catering to international students who may not yet be proficient in Japanese. The university also provides Japanese language courses for international students.
+*   **Career Support:** The Career Center provides career counseling, job search assistance, and networking opportunities to help international students find employment after graduation. They also offer workshops on resume writing, interviewing skills, and understanding the Japanese job market.
+*   **Visa and Immigration Support:** The International Student Affairs Division assists international students with visa applications, renewals, and other immigration-related matters.
+*   **Cultural Exchange Programs:** Osaka University actively promotes cultural exchange through various events, clubs, and activities, allowing international students to interact with Japanese students and experience Japanese culture.
+*   **Scholarships:** Various scholarships are available for international students, including scholarships offered by the Japanese government (MEXT), private foundations, and Osaka University itself. Information about eligibility criteria and application procedures can be found on the university's website.
 
-### 🏫 캠퍼스 라이프
 
-오사카 대학교는 다채로운 캠퍼스 라이프를 제공합니다. 다양한 동아리 활동, 스포츠 클럽, 문화 행사 등이 활발하게 운영되고 있으며, 학생들은 자신의 관심사에 따라 자유롭게 참여할 수 있습니다. 캠퍼스 내에는 도서관, 박물관, 체육관 등 다양한 시설이 갖추어져 있으며, 학생들의 학업 및 여가 활동을 지원하고 있습니다. 또한, 대학 축제, 스포츠 대회 등 다양한 이벤트가 개최되어 학생들의 교류와 친목을 도모하고 있습니다. 오사카는 활기찬 도시이며, 오사카 대학교 학생들은 캠퍼스 밖에서도 다양한 문화와 엔터테인먼트를 즐길 수 있습니다. 근처에는 맛있는 음식점과 쇼핑몰이 많아 생활하기 편리합니다. 오사카 대학교는 학생들의 성장과 발전을 위한 최적의 환경을 제공합니다.
+## 📍 Campus Location & Access
 
-오사카 대학교는 학생들에게 학문적 우수성, 국제적인 시각, 그리고 풍요로운 캠퍼스 라이프를 제공하는 것을 목표로 합니다. 학생들은 이곳에서 자신의 잠재력을 최대한 발휘하고, 미래 사회를 이끌어갈 리더로 성장할 수 있습니다.
+Osaka University has multiple campuses, the main ones being the Suita Campus, Toyonaka Campus, and Minoh Campus. The following table describes access to the main Suita Campus:
+
+| Location Details    | Access Information                                                                                                          |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Suita Campus**  | Approximately 15 minutes walk from Hankyu Railway "Kita-Senri" Station or Osaka Metro "Senri-Chuo" Station after a bus ride. |

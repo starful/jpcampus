@@ -15,7 +15,7 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # 🎯 한 번에 처리할 파일 개수
-LIMIT = 3
+LIMIT = 10
 
 def clean_json(text):
     """
@@ -44,36 +44,43 @@ def clean_json(text):
     return text
 
 def get_ai_enhancement(school_name, current_data):
-    """AI에게 상세 학교 분석 요청"""
-    print(f"✍️ [어학원 분석 중...] {school_name}")
+    """AI에게 상세 학교 분석 요청 (영문 버전)"""
+    print(f"✍️ [AI Analysis - English] {school_name}")
     
     prompt = f"""
-    당신은 일본 유학 전문 에디터입니다. '{school_name}'에 대해 
-    블로그 포스팅 1개 분량(약 3000~3800자)의 매우 상세하고 매력적인 분석글을 작성하세요.
+    You are an expert editor specializing in Japanese language education for international students.
+    Write a detailed, engaging blog-post style review (approx. 3000~3800 characters) about '{school_name}' in **ENGLISH**.
     
-    [기초 데이터]
+    [Basic Data]
     {json.dumps(current_data, ensure_ascii=False)}
 
-    [작성 규칙 & 스타일]
-    1. **가독성 최우선**: 긴 줄글보다는 **Markdown 표(Table)**, 글머리 기호(Bulleted List)를 적극 활용하세요.
-    2. **표 필수 포함**: '커리큘럼 구성', '학비 상세 내역', '하루 일과 예시' 등은 반드시 표로 작성하세요.
-    3. **톤앤매너**: 전문적이면서도 친절하게 상담하는 듯한 어조.
+    [Writing Guidelines]
+    1. **Language**: **ENGLISH ONLY**.
+    2. **Format**: Use Markdown (Tables, Bullet points) extensively for readability.
+    3. **Tone**: Professional, encouraging, and informative for prospective international students.
+    4. **MUST Use Tables**: Use Markdown tables for 'Curriculum Levels', 'Tuition Breakdown', 'Dormitory Fees', etc.
+    5. **Strict Table Format**:
+       - Use standard Markdown table syntax.
+       - Example:
+         | Level | Goal | Duration |
+         |---|---|---|
+         | N5 | Basic | 3 months |
 
-    [필수 포함 목차 (Markdown 형식)]
-    1. **🏫 학교 개요 및 특징**: 설립 배경, 교육 철학, 전반적인 분위기.
-    2. **📍 위치 및 주변 환경**: 역세권 여부, 주변 편의시설. (표 활용: '주요 역까지 소요 시간')
-    3. **🎓 커리큘럼 및 수업**: 레벨별 수업 구성. (표 활용: '레벨별 도달 목표 및 기간')
-    4. **📈 진학 및 취업 지원**: 명문대 진학 실적, 취업 서포트 디테일.
-    5. **🏠 기숙사 및 시설**: 기숙사 타입별 월세 비교. (표 활용: '기숙사 타입별 비용 및 시설')
-    6. **💰 학비 및 장학금**: (표 활용: '초기 6개월 학비 내역 상세')
-    7. **💡 총평 및 추천 대상**: 요약 정리.
+    [Required Sections (Markdown)]
+    1. **🏫 School Overview**: History, philosophy, and campus atmosphere.
+    2. **📍 Location & Surroundings**: Access from major stations, neighborhood safety, convenience stores. (Use Table for access times).
+    3. **🎓 Curriculum & Courses**: Levels, JLPT/EJU preparation, elective classes (Business, Culture). (Use Table for levels).
+    4. **📈 Support for Higher Education & Employment**: University acceptance records, job hunting support details.
+    5. **🏠 Accommodation & Facilities**: Dormitory types, costs, commute time. (Use Table for costs).
+    6. **💰 Tuition & Scholarships**: Breakdown of fees, installment options, available scholarships. (Use Table for tuition).
+    7. **💡 Summary & Recommendation**: Pros/Cons, "Who is this school for?".
 
-    [출력 포맷 - JSON]
+    [Output Format - JSON Only]
     {{
         "english_slug": "school-name-in-english-lowercase",
-        "features": ["태그1", "태그2", "태그3", "태그4", "태그5"],
-        "description_ko": "## 🏫 학교 개요\\n\\n(여기에 표와 리스트가 포함된 3800자 분량의 상세 본문 작성)...",
-        "stats": {{ "international_students": 0, "capacity": 0 }} (모르면 0)
+        "features": ["Feature1", "Feature2", "Feature3", "Feature4", "Feature5"],
+        "description_ko": "## 🏫 School Overview\\n\\n(Write the full English content here with Markdown tables)...",
+        "stats": {{ "international_students": 0, "capacity": 0 }} (If unknown, 0)
     }}
     """
     

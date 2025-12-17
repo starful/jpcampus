@@ -20,27 +20,31 @@
     "name_ja": "京都大学",
     "name_en": "Kyoto University",
     "address": "京都府京都市左京区吉田本町",
-    "website": "https://www.kyoto-u.ac.jp/"
+    "website": "https://www.kyoto-u.ac.jp/en"
   },
   "stats": {
-    "international_students": 2400,
-    "acceptance_rate": "15%"
+    "international_students": 2633,
+    "acceptance_rate": "13%"
   },
   "tuition": {
     "admission_fee": 282000,
     "yearly_tuition": 535800
   },
   "faculties": [
-    "文学部",
-    "教育学部",
-    "法学部",
-    "経済学部",
-    "理学部",
-    "医学部",
-    "薬学部",
-    "工学部",
-    "農学部",
-    "総合人間学部"
+    "Integrated Human Studies",
+    "Letters",
+    "Education",
+    "Law",
+    "Economics",
+    "Science",
+    "Medicine",
+    "Pharmaceutical Sciences",
+    "Engineering",
+    "Agriculture",
+    "Global Engineering",
+    "Informatics",
+    "Biological Sciences",
+    "Advanced Integrated Studies in Human Survivability (Shishu-kan)"
   ],
   "features": [
     "SGU",
@@ -52,34 +56,71 @@
 }
 ---
 
-## 🏫 학교 소개
+## 🏫 University Overview
 
-교토대학교(京都大学, Kyoto University)는 일본 교토시에 위치한 명문 국립대학교입니다. 간사이 지방을 대표하는 최고 대학 중 하나이며, 일본 전체에서도 도쿄대학교와 함께 최상위권을 다투는 대학으로 명성이 높습니다. 약칭은 '교다이(京大)'이며, 영어로는 'Kyoto University' 또는 'Kyoto U'로 불립니다.
+Kyoto University (京都大学, Kyōto Daigaku), or Kyodai (京大, Kyōdai) as it is commonly known, is a national university located in Kyoto, Japan. It is the second oldest university in Japan, one of the former Imperial Universities and consistently ranked among the top universities in the world.
 
-### 📜 역사
+Founded in 1897, Kyoto University has a rich history and a strong commitment to research and innovation. It has produced numerous Nobel laureates, Fields Medalists, and other prominent figures in various fields. The university is known for its rigorous academic environment and its emphasis on independent thinking and critical inquiry.
 
-교토대학교는 1897년 제국대학령에 따라 설립된 두 번째 제국대학인 교토제국대학(京都帝国大学)에서 시작되었습니다.  도쿄제국대학(현재의 도쿄대학교)에 이어 설립되었으며, 설립 초기에는 법과대학과 의과대학으로 출발했습니다. 이후 과학 기술 분야를 강화하며 종합대학으로 발전했고, 수많은 노벨상 수상자를 배출하며 세계적인 연구 중심 대학으로 자리매김했습니다.  2차 세계대전 이후 교토제국대학에서 교토대학교로 개칭되었습니다.
+Kyoto University is a comprehensive university with a wide range of undergraduate and graduate programs. It is particularly strong in the sciences, engineering, and medicine, but also has excellent programs in the humanities, social sciences, and law. The university is committed to providing its students with a world-class education and preparing them for leadership roles in their respective fields.
 
-### 📍 위치 및 캠퍼스
+The university's motto reflects its dedication to freedom of academic pursuit and contribution to human knowledge. It encourages students and faculty to challenge conventional wisdom and to explore new ideas.
 
-교토대학교의 메인 캠퍼스는 교토시 사쿄구 요시다혼마치에 위치하고 있습니다. 요시다 캠퍼스는 대학의 상징적인 건물들과 학부, 대학원 시설들이 밀집해 있으며, 아름다운 자연 환경과 고풍스러운 건축물이 조화를 이루고 있습니다. 이 외에도 우지 캠퍼스, 가쓰라 캠퍼스 등 여러 캠퍼스를 운영하며 다양한 분야의 연구 및 교육 활동을 지원하고 있습니다. 교토 시내는 전통적인 일본 문화와 현대적인 도시의 매력이 공존하는 곳으로, 학생들이 학업과 더불어 풍부한 문화적 경험을 할 수 있는 환경을 제공합니다.
+ 
+## 🎓 Faculties & Departments
 
-### 🧑‍🎓 국제학생 지원
+Kyoto University offers a diverse range of academic programs across its various faculties and departments. Below is a list of the main faculties:
 
-교토대학교는 국제학생들을 위한 다양한 지원 프로그램을 운영하고 있습니다.  국제교류과는 유학생들의 입학, 비자, 생활 전반에 걸친 상담 및 지원을 제공하며, 튜터링 프로그램, 일본어 강좌 등을 통해 유학생들의 적응을 돕고 있습니다. 또한, 국제학생 기숙사를 운영하여 저렴한 비용으로 숙소를 제공하고 있으며, 다양한 국제교류 프로그램을 통해 외국 대학과의 협력을 강화하고 있습니다. 영어로 진행되는 학위 과정도 다수 개설되어 있어 일본어 능력이 부족한 학생들도 학업을 이어갈 수 있습니다.
+| Faculty                     | Departments/Programs (Examples)                                                                                                                                                                                               |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Integrated Human Studies      | Culture and Representation, Thought and Society, Mind and Body, Natural Sciences                                                                                                                                              |
+| Letters                      | Philosophy, History, Japanese Studies, Chinese Studies, Linguistics                                                                                                                                                             |
+| Education                    | Educational Studies, Human and Environmental Studies, Clinical Psychology                                                                                                                                                      |
+| Law                          | Legal Studies, Political Science                                                                                                                                                                                          |
+| Economics                    | Economics, Management, Finance                                                                                                                                                                                              |
+| Science                      | Mathematics, Physics, Chemistry, Biology, Earth and Planetary Sciences                                                                                                                                                         |
+| Medicine                     | Medicine, Nursing, Medical Science                                                                                                                                                                                             |
+| Pharmaceutical Sciences      | Pharmaceutical Sciences, Pharmacy                                                                                                                                                                                                |
+| Engineering                  | Civil Engineering, Mechanical Engineering, Electrical Engineering, Chemical Engineering, Architecture                                                                                                                               |
+| Agriculture                  | Agronomy, Forestry, Agricultural Chemistry, Fisheries                                                                                                                                                                             |
+| Global Engineering           | Programs designed to address global challenges through an engineering perspective.                                                                                                                                              |
+| Informatics                  | Computer Science, Information Science, Software Science                                                                                                                                                                    |
+| Biological Sciences       | Plant Biology, Animal Biology, Molecular Biology                                                                                                                                                                                |
+| Advanced Integrated Studies in Human Survivability (Shishu-kan) | Focuses on interdisciplinary studies related to human survivability, addressing complex global challenges.                                                                                             |
 
-### 👨‍🎓 유명 졸업생
 
-교토대학교는 수많은 저명한 인물들을 배출했습니다. 노벨상 수상자만 해도 유카와 히데키(물리학), 도모나가 신이치로(물리학), 후쿠이 겐이치(화학), 리베스 쇼헤이(생리학·의학), 야마나카 신야(생리학·의학), 혼조 타스쿠(생리학·의학) 등 다수가 있으며, 필즈상 수상자인 고다이라 구니히코, 우수한 학자, 기업가, 정치인, 예술가 등 다양한 분야에서 활약하는 인재들을 배출하고 있습니다.
+## 💰 Tuition & Fees
 
-### 🏫 캠퍼스 생활
+The tuition and fees for Kyoto University are set by the Japanese government and are generally comparable to other national universities. The amounts provided are estimates and are subject to change.
 
-교토대학교는 활발한 학생 자치 활동과 다양한 동아리 활동을 지원합니다. 학생들은 학술, 스포츠, 문화, 봉사 등 다양한 분야의 동아리에 참여하여 관심사를 공유하고, 리더십을 함양할 수 있습니다.  또한, 캠퍼스 내에는 도서관, 박물관, 학생회관 등 다양한 편의시설이 갖춰져 있어 학생들이 쾌적한 환경에서 학업과 연구에 집중할 수 있도록 돕고 있습니다. 특히, 교토대학교의 도서관은 방대한 장서를 자랑하며, 귀중한 고문헌 자료들도 소장하고 있습니다.
 
-### 🌏 국제적인 명성
+| Fee                      | Amount (JPY) |
+|--------------------------|--------------|
+| Admission Fee           | 282,000      |
+| Yearly Tuition          | 535,800      |
 
-교토대학교는 세계적인 대학 평가 기관에서 높은 순위를 기록하며 국제적인 명성을 얻고 있습니다. 특히, 연구 분야에서 뛰어난 성과를 보이며 세계적인 연구 중심 대학으로서의 입지를 굳건히 하고 있습니다.  다양한 국제 공동 연구 프로젝트를 수행하며 글로벌 네트워크를 확장하고 있으며, 세계 각국의 우수한 연구자들과의 협력을 통해 학문 발전에 기여하고 있습니다.
 
-교토대학교는 전통과 혁신이 공존하는 대학이며, 학생들에게 최고의 교육 환경과 연구 기회를 제공하기 위해 끊임없이 노력하고 있습니다.  미래 사회를 이끌어갈 인재를 양성하는 데 기여하며, 일본을 넘어 세계적인 대학으로 성장하고 있습니다.
 
-교토 대학교 입학에는 EJU 점수가 필요하며, 영어 프로그램도 제공하고 있습니다. 기숙사 시설도 잘 갖춰져 있으며, 장학금 제도도 운영하고 있습니다.
+## 🌍 International Student Support
+
+Kyoto University is committed to providing a supportive environment for international students. The university offers a range of services and programs to help international students adjust to life in Japan and succeed in their studies. The International Student Division provides support on various matters, including visa applications, housing, and financial aid.
+
+**Dormitory:**
+Kyoto University offers on-campus and off-campus housing options for international students. The availability of dormitory accommodation is limited, and priority is given to newly arrived students. Information on housing options and application procedures can be found on the university's website.
+
+**English Programs:**
+While many courses are taught in Japanese, Kyoto University offers a growing number of programs and courses taught in English, particularly at the graduate level. Information on English-taught programs can be found on the university's website.
+
+**Career Support:**
+The university's Career Support Center provides guidance and resources to help international students find employment opportunities after graduation. The center offers career counseling, resume workshops, and job search assistance. They also hold career fairs and networking events with companies actively seeking international talent.
+
+
+## 📍 Campus Location & Access
+
+Kyoto University has several campuses located in Kyoto City. The main campus, Yoshida Campus, is located in Sakyo-ku, Kyoto.
+
+| Campus          | Address                                       | Access                                                                                                      |
+|-----------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Yoshida Campus  | Kyoto-shi, Sakyo-ku, Yoshida-honmachi          | A short walk from Demachiyanagi Station (Keihan Railway) or various Kyoto City Bus stops.                                                     |
+| Uji Campus      | Uji, Kyoto                                  | Accessible by JR Nara Line to Uji Station, or Keihan Uji Line to Uji Station, and then a bus ride.  |
+| Katsura Campus  | Kyoto-shi, Nishikyo-ku, Kyoto Daigaku-Katsura   | Accessed by the Hankyu Kyoto Line to Katsura Station and then by Kyoto City Bus or a direct shuttle bus from the station.| 

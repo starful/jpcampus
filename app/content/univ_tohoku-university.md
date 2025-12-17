@@ -20,27 +20,27 @@
     "name_ja": "東北大学",
     "name_en": "Tohoku University",
     "address": "宮城県仙台市青葉区片平二丁目1-1",
-    "website": "https://www.tohoku.ac.jp/"
+    "website": "https://www.tohoku.ac.jp/en/"
   },
   "stats": {
-    "international_students": 2000,
-    "acceptance_rate": "20-30%"
+    "international_students": 2200,
+    "acceptance_rate": "25%"
   },
   "tuition": {
     "admission_fee": 282000,
     "yearly_tuition": 535800
   },
   "faculties": [
-    "文学部",
-    "教育学部",
-    "法学部",
-    "経済学部",
-    "理学部",
-    "医学部",
-    "歯学部",
-    "薬学部",
-    "工学部",
-    "農学部"
+    "School of Arts and Letters",
+    "School of Education",
+    "School of Law",
+    "School of Economics",
+    "School of Science",
+    "School of Medicine",
+    "School of Dentistry",
+    "School of Pharmaceutical Sciences",
+    "School of Engineering",
+    "School of Agriculture"
   ],
   "features": [
     "SGU",
@@ -52,46 +52,66 @@
 }
 ---
 
-## 🏫 학교 소개
+## 🏫 University Overview
 
-동북대학교(東北大学, Tohoku University)는 일본 미야기현 센다이시에 위치한 명문 국립 종합대학교입니다. 1907년에 창립된 도호쿠 제국대학을 기원으로 하며, 교토대학과 도쿄대학에 이어 일본에서 세 번째로 설립된 제국대학입니다. '연구 제일주의'와 '문호개방'의 정신을 바탕으로, 학문 연구와 인재 양성에 힘쓰며 일본은 물론 세계적으로도 인정받는 연구 중심 대학으로 자리매김했습니다. 특히, 재료과학, 물리학, 의학 분야에서 뛰어난 연구 성과를 보여주고 있습니다.
+Tohoku University, located in Sendai, Japan, is a prestigious national university renowned for its strong emphasis on research and innovation. Established in 1907 as the third Imperial University, it has a rich history of contributing significantly to various fields of science and technology. Tohoku University is consistently ranked among the top universities in Japan and globally, recognized for its academic excellence and influential research output.
 
-### 📍 위치 및 캠퍼스
+The university is particularly known for its pioneering work in materials science, engineering, and physics, and has produced numerous Nobel laureates and accomplished researchers. Its commitment to fostering a global perspective is evident through its active participation in international collaborations and a growing international student body. Tohoku University embraces an open and progressive academic environment, striving to cultivate future leaders who can contribute to solving global challenges.
 
-동북대학교는 센다이 시내에 여러 캠퍼스를 두고 있습니다. 주요 캠퍼스는 다음과 같습니다.
+The university's motto, "Research First," reflects its dedication to cutting-edge research and its impact on society. Tohoku University actively promotes interdisciplinary research, encouraging collaboration across different faculties and departments. This collaborative approach has led to breakthroughs in areas such as medicine, robotics, and environmental science.
 
-*   **가타히라 캠퍼스 (片平キャンパス):** 대학 본부, 문학부, 법학부, 경제학부 등 인문사회과학 계열 학부와 연구과가 위치해 있습니다. 대학의 역사적인 건물을 포함하고 있어, 고풍스러운 분위기를 느낄 수 있습니다.
-*   **가와우치 캠퍼스 (川内キャンパス):** 교육학부, 이학부 일부, 교양 교육 과정 등이 위치해 있습니다. 넓은 잔디밭과 녹지가 조성되어 있어 학생들의 휴식 공간으로 이용됩니다.
-*   **아오바야마 캠퍼스 (青葉山キャンパス):** 이학부 (일부), 약학부, 공학부, 농학부 등 이공계 학부와 연구과가 위치해 있습니다. 최첨단 연구 시설과 실험 장비를 갖추고 있으며, 자연과 어우러진 아름다운 캠퍼스 환경을 자랑합니다.
-*   **세이료 캠퍼스 (星陵キャンパス):** 의학부, 치학부, 부속 병원이 위치해 있습니다. 의료 관련 연구와 임상 교육이 활발하게 이루어지는 곳입니다.
 
-센다이시는 도호쿠 지방의 중심 도시로서, 자연과 도시가 조화롭게 어우러진 곳입니다. 대학 주변에는 다양한 편의 시설과 문화 시설이 있어 학생들의 생활에 편리함을 더합니다.
+## 🎓 Faculties & Departments
 
-### 🌍 국제 학생 지원
+Tohoku University offers a wide range of undergraduate and graduate programs across diverse academic disciplines. The university is organized into ten undergraduate schools and numerous graduate schools, each with its own specialized departments and research centers.
 
-동북대학교는 국제화를 적극적으로 추진하며, 외국인 학생들을 위한 다양한 지원 프로그램을 제공하고 있습니다.
 
-*   **유학생 지원 센터:** 입학 상담, 비자 신청, 생활 정보 제공 등 유학생의 대학 생활 전반을 지원합니다. 일본어 학습 지원 프로그램도 운영하고 있습니다.
-*   **튜터 제도:** 일본인 학생이 튜터가 되어 외국인 학생의 학습 및 생활 적응을 돕는 제도입니다.
-*   **국제 교류 프로그램:** 해외 대학과의 교환 학생 프로그램, 공동 연구 프로젝트 등 다양한 국제 교류 기회를 제공합니다.
-*   **기숙사:** 유학생을 위한 기숙사를 운영하고 있으며, 비교적 저렴한 비용으로 숙소를 제공합니다. 다만, 입실 경쟁률이 높으므로 미리 신청하는 것이 좋습니다.
+| Faculty                     | Departments                                                                                                                                                   |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| School of Arts and Letters  | Philosophy, History, Japanese Language and Literature, Western Languages and Literature                                                                    |
+| School of Education            | Educational Sciences, Human Development                                                                                                                          |
+| School of Law                | Law, Political Science                                                                                                                                            |
+| School of Economics          | Economics, Business Administration                                                                                                                                |
+| School of Science            | Mathematics, Physics, Chemistry, Biology, Earth Science                                                                                                         |
+| School of Medicine           | Medicine, Health Sciences                                                                                                                                         |
+| School of Dentistry          | Dentistry                                                                                                                                                       |
+| School of Pharmaceutical Sciences | Pharmaceutical Sciences, Pharmacy                                                                                                                                   |
+| School of Engineering        | Mechanical Engineering, Electrical Engineering, Civil Engineering, Chemical Engineering, Materials Science and Engineering, Architecture, Computer Science, etc. |
+| School of Agriculture        | Agronomy, Agricultural Chemistry, Forestry, Fisheries Science                                                                                                 |
 
-동북대학교는 SGU (Super Global University) 사업에 선정되어, 국제 경쟁력을 강화하기 위한 다양한 노력을 기울이고 있습니다. 영어로 진행되는 학위 과정도 개설되어 있어, 일본어를 못하는 학생들도 학업을 이어갈 수 있습니다.
 
-### 🧑‍🎓 유명 졸업생
+## 💰 Tuition & Fees
 
-동북대학교는 수많은 인재를 배출했으며, 다양한 분야에서 활약하고 있는 유명 졸업생들이 많습니다.
+The tuition fees at Tohoku University are standard for national universities in Japan. International students are generally required to pay the same tuition fees as domestic students. There may be opportunities for tuition fee waivers and scholarships for eligible international students.
 
-*   **노벨상 수상자:** 고바야시 마코토 (물리학상), 스즈키 아키라 (화학상) 등
-*   **정치/경제계:** 다나카 가쿠에이 (전 총리), 이나모리 가즈오 (교세라 창업자) 등
-*   **학계:** 혼다 후지시게 (수학자), 오카다 요시미 (의학자) 등
 
-### 🏫 캠퍼스 라이프
+| Fee Type       | Amount (JPY) |
+|----------------|---------------|
+| Admission Fee  | 282,000       |
+| Yearly Tuition | 535,800       |
 
-동북대학교는 활발한 학생 자치 활동과 다양한 동아리 활동을 지원합니다. 학생들은 자신의 관심사에 따라 다양한 동아리에 참여하여 교류하고, 리더십을 함양할 수 있습니다. 대학 축제와 스포츠 대회 등 다채로운 행사도 개최되어, 학생들의 캠퍼스 생활을 풍요롭게 합니다.
 
-특히, 센다이시는 '학원의 도시'라고 불릴 만큼 대학생들이 많아, 활기찬 분위기를 느낄 수 있습니다. 대학 주변에는 다양한 음식점과 카페, 쇼핑몰 등이 있어 학생들의 생활에 편리함을 더합니다. 센다이의 명물인 규탕 (소 혀 구이)과 즌다 모치 (콩떡) 등 맛있는 음식을 즐길 수 있는 것도 매력입니다.
+## 🌍 International Student Support
 
-동북대학교는 연구 중심 대학으로서 학문적 깊이를 추구하는 동시에, 학생들의 균형 잡힌 성장을 지원하는 데 힘쓰고 있습니다. 국제적인 감각과 리더십을 갖춘 인재를 양성하기 위해 끊임없이 노력하는 동북대학교는, 여러분의 꿈을 실현하는 데 훌륭한 발판이 될 것입니다.
+Tohoku University provides comprehensive support services for international students to help them adjust to life in Japan and succeed in their academic pursuits. These services include:
 
-**EJU (일본유학시험) 필요 여부**: 학부 과정에 따라 EJU 점수가 필요할 수 있습니다. 각 학부의 입시 요강을 확인하시기 바랍니다.
+*   **Dormitory:** The university offers on-campus and off-campus housing options for international students. Dormitories provide a convenient and affordable living environment, fostering a sense of community among students from different countries. Applications for university housing are typically processed before the start of each semester.
+*   **English Programs:** While some departments offer courses taught entirely in English, particularly at the graduate level, the university also provides Japanese language courses for international students. These courses help students improve their Japanese proficiency, enabling them to better communicate with locals and integrate into Japanese society.
+*   **Career Support:** Tohoku University's career support center provides guidance and resources to help international students find internships and jobs in Japan and abroad. The center offers workshops on resume writing, interview skills, and job search strategies. They also connect students with potential employers through career fairs and company visits.
+
+The university also has international student advisors who can provide assistance with visa matters, health insurance, and other administrative procedures.
+
+## 📍 Campus Location & Access
+
+Tohoku University has several campuses located in Sendai City, Miyagi Prefecture. The main campus, Katahira Campus, is located in the heart of the city and is easily accessible by public transportation.
+
+
+| Campus          | Address                                       | Access                                                                                    |
+|-----------------|---------------------------------------------|------------------------------------------------------------------------------------------|
+| Katahira Campus | 2-1-1 Katahira, Aoba-ku, Sendai, Miyagi    | 10-minute walk from Sendai Station                                                         |
+| Aobayama Campus | Aramaki Aza Aoba, Aoba-ku, Sendai, Miyagi   | Take the Tozai Subway Line to Aobayama Station                                              |
+| Kawauchi Campus | 41 Kawauchi, Aoba-ku, Sendai, Miyagi       | 15-minute walk from Sendai Station or take a bus                                            |
+| Amamiya Campus  | 1-1 Tsutsumidori-amamiya, Aoba-ku, Sendai, Miyagi | Take a bus from Sendai Station to Tohoku Daigaku Byoin-mae (Tohoku University Hospital Front) |
+
+
+Sendai is a vibrant city with a rich cultural heritage and a thriving economy. The city is known for its beautiful parks, delicious food, and friendly people. It is also conveniently located near other major cities in Japan, such as Tokyo and Osaka.
