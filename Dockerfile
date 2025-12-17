@@ -1,17 +1,19 @@
 FROM python:3.11-slim
 
-# 작업 디렉토리를 /code 로 변경 (폴더명 충돌 방지)
 WORKDIR /code
 
-# 라이브러리 설치
+# 1. 의존성 설치
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 전체 소스 복사
-COPY . .
+# 2. 필수 앱 소스만 복사 (scripts, file 등 제외)
+COPY app ./app
+COPY build_data.py .
 
-# 포트 설정
+# 3. 빌드 시점에 Markdown -> JSON 변환 실행
+# (app/content가 복사되었으므로 실행 가능)
+RUN python build_data.py
+
+# 4. 실행 설정
 ENV PORT=8080
-
-# 실행 명령어 (app 패키지 실행)
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]

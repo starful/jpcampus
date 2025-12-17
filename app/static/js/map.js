@@ -7,50 +7,53 @@ let markerCluster;
 let infoWindow;
 let ICONS = {}; 
 
-// 초기화 함수
-function initMap() {
-    console.log("🚀 Google Maps Init Start");
-    
-    // 1. 아이콘 설정 (구글 객체 로드 후 실행)
-    ICONS = {
-        university: {
-            url: "/static/img/pin-univ.png",
-            scaledSize: new google.maps.Size(64, 64),
-            anchor: new google.maps.Point(32, 64)
-        },
-        school: {
-            url: "/static/img/pin-school.png",
-            scaledSize: new google.maps.Size(50, 50),
-            anchor: new google.maps.Point(25, 50)
-        }
-    };
+let markers = [];
+let clusterer = null;
+let LatLngBounds; 
+let AdvancedMarkerElement; 
+let PinElement; 
 
-    // 2. 지도 생성
-    const japanCenter = { lat: 36.2048, lng: 138.2529 }; 
-    map = new google.maps.Map(document.getElementById("map"), {
-        center: japanCenter,
-        zoom: 5,
+async function initMap() {
+    console.log("🚀 Google Maps Init Start");
+
+    const { Map } = await google.maps.importLibrary("maps");
+    const markerLib = await google.maps.importLibrary("marker");
+    AdvancedMarkerElement = markerLib.AdvancedMarkerElement;
+    PinElement = markerLib.PinElement;
+    
+    const coreLib = await google.maps.importLibrary("core");
+    LatLngBounds = coreLib.LatLngBounds; 
+
+    // 핀 이미지 설정
+    ICONS = {
+        school: document.createElement('img'),
+        university: document.createElement('img')
+    };
+    ICONS.school.src = '/static/img/pin-school.png';
+    ICONS.university.src = '/static/img/pin-univ.png';
+
+    const mapOptions = {
+        zoom: 12,
+        center: { lat: 35.6895, lng: 139.6917 },
+        mapId: "2938bb3f7f034d78a2dbaf56", // 사용자의 Map ID
         mapTypeControl: false,
         streetViewControl: false,
-        fullscreenControl: true,
-        styles: [{ "featureType": "poi", "elementType": "labels", "stylers": [{ "visibility": "off" }] }]
-    });
+        fullscreenControl: false
+    };
 
-    infoWindow = new google.maps.InfoWindow({ maxWidth: 320 });
+    map = new Map(document.getElementById("map"), mapOptions);
+    infoWindow = new google.maps.InfoWindow(); 
 
-    // 3. 데이터 렌더링
-    if (typeof SCHOOLS_DATA !== 'undefined' && SCHOOLS_DATA.length > 0) {
-        console.log(`🏫 Rendering ${SCHOOLS_DATA.length} markers...`);
-        renderMarkers(SCHOOLS_DATA);
-    } else {
-        console.warn("⚠️ No SCHOOLS_DATA found.");
+    // 데이터 확인
+    if (typeof SCHOOLS_DATA === 'undefined' || !SCHOOLS_DATA.length) {
+        console.warn("⚠️ No school data found.");
+        return;
     }
-    
-    // 4. 이벤트 바인딩
-    bindEvents();
 
-    // 5. 초기 버튼 상태 (Search 버튼 보이기)
-    toggleButtons(false);
+    console.log(`🏫 Rendering ${SCHOOLS_DATA.length} markers...`);
+
+    bindEvents();
+    renderMarkers(SCHOOLS_DATA);
 }
 
 function bindEvents() {
@@ -58,8 +61,7 @@ function bindEvents() {
     document.querySelectorAll('.search-container select').forEach(select => {
         select.addEventListener('change', () => {
             updateFilterUI();
-            // 자동 검색을 원하면 아래 주석 해제
-            // applyFilters(); 
+            // applyFilters(); // 자동 검색 원하면 주석 해제
         });
     });
 
@@ -72,6 +74,12 @@ function bindEvents() {
         univInput.addEventListener('input', () => {
              updateFilterUI();
         });
+    }
+    
+    // 검색 버튼 클릭 시
+    const searchBtn = document.getElementById("search-btn");
+    if (searchBtn) {
+        searchBtn.addEventListener("click", applyFilters);
     }
 }
 
@@ -88,143 +96,162 @@ function updateFilterUI() {
     }
 }
 
+// [수정] 버튼 토글 로직 제거 (항상 둘 다 표시)
 function toggleButtons(isFiltered) {
-    const searchBtn = document.getElementById("search-btn");
-    const resetBtn = document.getElementById("reset-btn");
-    
-    if (searchBtn && resetBtn) {
-        if (isFiltered) {
-            searchBtn.style.display = "none";
-            resetBtn.style.display = "block"; // 혹은 inline-block
-        } else {
-            searchBtn.style.display = "block"; // 혹은 inline-block
-            resetBtn.style.display = "none";
-        }
-    }
+    // 아무것도 하지 않음 (CSS에서 display: flex로 항상 보여줌)
+    return; 
 }
 
-// 마커 그리기 함수
+// [정보창] 열기 함수
+// app/static/js/map.js
+
+// ... (위쪽 코드 생략) ...
+
+// [정보창] 열기 함수 (디자인 수정: 배경색 제거, 깔끔한 텍스트 위주)
+function openInfoWindow(school, marker) {
+    const detailUrl = school.link || `/school/${school.id}`;
+    
+    const websiteUrl = (school.category === 'university' && school.basic_info.website) 
+        ? school.basic_info.website 
+        : (school.source_url || '#');
+
+    // 텍스트 색상과 라벨만 다르게 설정 (배경색 X)
+    const labelColor = school.category === 'university' ? '#0F4C81' : '#E67E22';
+    const labelText = school.category === 'university' ? 'UNIVERSITY' : 'LANGUAGE SCHOOL';
+    const icon = school.category === 'university' ? '🎓' : '🏫';
+
+    const contentString = `
+        <div class="info-window-card">
+            <!-- 헤더: 배경색 없이 텍스트 강조 -->
+            <div class="iw-header" style="border-bottom: 2px solid ${labelColor}; padding-bottom:10px; margin-bottom:10px;">
+                <span style="font-size:0.75rem; font-weight:bold; color:${labelColor}; display:block; margin-bottom:4px;">
+                    ${labelText}
+                </span>
+                <a href="${detailUrl}" class="iw-title" style="color:#333; font-size:1.1rem; text-decoration:none;">
+                    ${icon} ${school.basic_info.name_ja}
+                </a>
+            </div>
+            
+            <div class="iw-body">
+                <div class="iw-row">
+                    <i class="fas fa-map-marker-alt iw-icon"></i>
+                    <span>${school.basic_info.address}</span>
+                </div>
+                ${school.basic_info.capacity ? `
+                <div class="iw-row">
+                    <i class="fas fa-users iw-icon"></i>
+                    <span>Capacity: ${school.basic_info.capacity}</span>
+                </div>` : ''}
+                
+                <!-- 상세 보기 버튼 -->
+                <a href="${detailUrl}" class="iw-btn" style="background-color: ${labelColor}; color: white;">
+                    View Details
+                </a>
+
+                <!-- 공식 홈페이지 버튼 -->
+                ${websiteUrl !== '#' ? `
+                <a href="${websiteUrl}" target="_blank" class="iw-btn" style="background-color: #fff; color: #555; border: 1px solid #ddd; margin-top: 8px;">
+                    Official Website <i class="fas fa-external-link-alt"></i>
+                </a>
+                ` : ''}
+            </div>
+        </div>
+    `;
+
+    infoWindow.setContent(contentString);
+    infoWindow.open(map, marker);
+}
+
+// [마커] 렌더링 함수
 function renderMarkers(data) {
-    // 초기화
+    if (!map || !LatLngBounds || !AdvancedMarkerElement) {
+        console.warn("⚠️ Maps library not loaded yet.");
+        return;
+    }
+
     if (markerCluster) markerCluster.clearMarkers();
-    schoolMarkers.forEach(m => m.setMap(null));
-    univMarkers.forEach(m => m.setMap(null));
+    
+    schoolMarkers.forEach(m => m.map = null);
+    univMarkers.forEach(m => m.map = null);
+    
     schoolMarkers = [];
     univMarkers = [];
 
-    const bounds = new google.maps.LatLngBounds();
-    const lang = (typeof currentLang !== 'undefined') ? currentLang : 'en';
-    const t = (typeof translations !== 'undefined' && translations[lang]) ? translations[lang] : (translations['en'] || {});
+    const bounds = new LatLngBounds();
 
     data.forEach(item => {
+        // 숫자 ID(구형 데이터) 제외
+        if (/^\d+$/.test(item.id)) return;
+
         if (!item.location || !item.location.lat) return;
         const position = { lat: item.location.lat, lng: item.location.lng };
         
-        // 이름 언어 설정
-        let dispName = item.basic_info.name_ja;
-        if (lang === 'en' && item.basic_info.name_en) {
-            dispName = item.basic_info.name_en;
-        }
-
-        // [A] 대학 마커
+        const pinImg = document.createElement("img");
+        
         if (item.category === 'university') {
-            const marker = new google.maps.Marker({
-                position: position,
+            pinImg.src = '/static/img/pin-univ.png'; 
+            pinImg.width = 40;
+            
+            const marker = new AdvancedMarkerElement({
                 map: map,
-                title: dispName,
+                position: position,
+                title: item.basic_info.name_ja,
                 zIndex: 9999,
-                icon: ICONS.university,
+                content: pinImg,
             });
 
             marker.addListener("click", () => {
-                const content = `
-                <div class="info-window-card">
-                    <div class="iw-header" style="background:#0F4C81;">
-                        <a href="/school/${item.id}" class="iw-title">🎓 ${dispName}</a>
-                    </div>
-                    <div class="iw-body">
-                        <div class="iw-row"><i class="fas fa-map-marker-alt iw-icon"></i> ${item.basic_info.address}</div>
-                        <a href="${item.basic_info.website}" target="_blank" class="iw-btn" style="background:#0F4C81;">${t.iw_univ_home || 'Website'}</a>
-                    </div>
-                </div>`;
-                infoWindow.setContent(content);
-                infoWindow.open(map, marker);
+                openInfoWindow(item, marker);
             });
             univMarkers.push(marker); 
             bounds.extend(position);
-        } 
-        // [B] 어학원 마커
-        else {
-            const fees = item.courses ? item.courses.map(c => c.total_fees || 9999999) : [];
-            const minFee = Math.min(...fees);
-            let feeText = '-';
-            if (minFee !== 9999999) {
-                if(lang === 'en') feeText = "¥" + (minFee/10000).toLocaleString() + "0k";
-                else feeText = (minFee/10000).toLocaleString() + (t.unit_money || '만엔');
-            }
+        } else {
+            pinImg.src = '/static/img/pin-school.png';
+            pinImg.width = 32;
 
-            const marker = new google.maps.Marker({
+            const marker = new AdvancedMarkerElement({
+                map: map,
                 position: position,
-                title: dispName,
+                title: item.basic_info.name_ja,
                 zIndex: 1,
-                icon: ICONS.school
+                content: pinImg,
             });
 
             marker.addListener("click", () => {
-                const featureTags = (item.features || []).slice(0, 3).map(f => `<span class="iw-tag">${f}</span>`).join('');
-                const content = `
-                <div class="info-window-card">
-                    <div class="iw-header" style="background:#F28C28;">
-                        <a href="/school/${item.id}" class="iw-title">🏫 ${dispName}</a>
-                    </div>
-                    <div class="iw-body">
-                        <div class="iw-row"><i class="fas fa-map-marker-alt iw-icon"></i> ${item.basic_info.address}</div>
-                        <div class="iw-row"><i class="fas fa-users iw-icon"></i> ${t.iw_capacity || 'Cap'}: ${item.basic_info.capacity}</div>
-                        <div class="iw-row"><i class="fas fa-yen-sign iw-icon"></i> ${feeText}</div>
-                        <div class="iw-tags">${featureTags}</div>
-                        <a href="/school/${item.id}" class="iw-btn" style="background:#F28C28;">${t.iw_school_detail || 'Details'}</a>
-                    </div>
-                </div>`;
-                infoWindow.setContent(content);
-                infoWindow.open(map, marker);
+                openInfoWindow(item, marker);
             });
             schoolMarkers.push(marker);
             bounds.extend(position);
         }
     });
 
-    // 클러스터링 적용
-    if (typeof markerClusterer !== 'undefined') {
-        markerCluster = new markerClusterer.MarkerClusterer({ markers: schoolMarkers, map: map });
-    }
-
-    // 결과 개수 업데이트
     const countEl = document.getElementById("result-count");
     if (countEl) countEl.innerText = schoolMarkers.length + univMarkers.length;
 
-    // 지도 범위 자동 조정 (검색 이동이 아닐 때만)
     if (!window.isSearchMove && (schoolMarkers.length + univMarkers.length) > 0) {
          map.fitBounds(bounds);
     }
 }
 
-// 검색어 매칭 헬퍼 함수
+// [검색] 매칭 헬퍼
 function checkNameMatch(item, query) {
     if (!query) return false;
-    query = query.toLowerCase();
+    query = query.toLowerCase().replace(/\s+/g, '');
     
-    // 기본 이름 확인
-    if (item.basic_info.name_ja && item.basic_info.name_ja.toLowerCase().includes(query)) return true;
-    if (item.basic_info.name_en && item.basic_info.name_en.toLowerCase().includes(query)) return true;
+    const nameJa = (item.basic_info.name_ja || "").toLowerCase().replace(/\s+/g, '');
+    const nameEn = (item.basic_info.name_en || "").toLowerCase().replace(/\s+/g, '');
+    const id = (item.id || "").toLowerCase();
+
+    if (nameJa.includes(query)) return true;
+    if (nameEn.includes(query)) return true;
+    if (id.includes(query)) return true;
     
-    // 진학 실적 확인
     if (item.career_path && item.career_path.major_universities) {
         let keywords = [query];
-        // 간이 번역 매핑
-        if (query.includes('waseda')) keywords.push('早稲田');
-        if (query.includes('keio')) keywords.push('慶應');
-        if (query.includes('meiji')) keywords.push('明治');
-        if (query.includes('tokyo')) keywords.push('東京');
+        if (query.includes('waseda') || query.includes('와세다')) keywords.push('早稲田');
+        if (query.includes('keio') || query.includes('게이오')) keywords.push('慶應');
+        if (query.includes('meiji') || query.includes('메이지')) keywords.push('明治');
+        if (query.includes('tokyo') || query.includes('도쿄')) keywords.push('東京');
         
         return item.career_path.major_universities.some(univ => 
             keywords.some(k => univ.toLowerCase().includes(k))
@@ -233,11 +260,12 @@ function checkNameMatch(item, query) {
     return false;
 }
 
-// 필터 적용 함수 (생략 없이 전체 구현)
+// [검색] 필터 적용 함수
 function applyFilters() {
-    // 1. 모든 필터 값 가져오기
+    const univInputEl = document.getElementById("filter-univ");
+    const univInput = univInputEl ? univInputEl.value.trim().toLowerCase() : "";
+    
     const region = document.getElementById("filter-region")?.value || "all";
-    const univInput = document.getElementById("filter-univ")?.value.trim().toLowerCase() || "";
     const price = document.getElementById("filter-price")?.value || "all";
     const nation = document.getElementById("filter-nation")?.value || "all";
     const scale = document.getElementById("filter-scale")?.value || "all";
@@ -249,7 +277,8 @@ function applyFilters() {
     const convo = document.getElementById("filter-convo")?.value || "all";
     const env = document.getElementById("filter-env")?.value || "all";
 
-    // 2. 대학 검색 시 해당 대학 좌표 찾기
+    console.log(`🔍 Searching for: "${univInput}"`);
+
     let targetUnivLocation = null;
     if (univInput !== "") {
         const targetUniv = SCHOOLS_DATA.find(s => 
@@ -260,42 +289,35 @@ function applyFilters() {
         }
     }
 
-    // 3. 필터링 실행
     const filtered = SCHOOLS_DATA.filter(s => {
-        // [A] 대학인 경우
         if (s.category === 'university') {
             if (univInput !== "") return checkNameMatch(s, univInput);
-            return false; // 검색어 없으면 대학 핀 숨김
+            return false; 
         }
 
-        // [B] 어학원인 경우
         const addr = s.basic_info.address || "";
         const feats = (s.features || []).join(" ");
         const cNames = (s.courses || []).map(c => c.course_name).join(" ");
         const cap = s.basic_info.capacity || 0;
         
-        // 지역 필터
         if (region !== "all" && !addr.includes(region)) return false;
 
-        // 대학 검색 필터 (진학 실적)
         if (univInput !== "") {
             if (!checkNameMatch(s, univInput)) return false; 
         }
         
-        // 학비 필터
         if (price !== "all") {
              const fees = (s.courses || []).map(c => c.total_fees).filter(f => typeof f === 'number');
              if (fees.length === 0 || Math.min(...fees) > parseInt(price) * 10000) return false;
         }
 
-        // 국적 필터
         if (nation !== "all") {
             const demo = s.student_demographics || {};
             const total = demo.total || 0;
             if (total === 0) return false;
             
             const krRatio = (demo.korea || 0) / total;
-            const westRatio = (demo.usa || 0) / total; // 예시
+            const westRatio = (demo.usa || 0) / total; 
             const cnRatio = (demo.china || 0) / total;
             const vnRatio = (demo.vietnam || 0) / total;
 
@@ -305,14 +327,12 @@ function applyFilters() {
             if (nation === "vietnam_high" && vnRatio < 0.3) return false;
         }
 
-        // 규모 필터
         if (scale !== "all") {
             if (scale === "large" && cap < 500) return false;
             if (scale === "medium" && (cap < 200 || cap >= 500)) return false;
             if (scale === "small" && cap >= 200) return false;
         }
 
-        // 진학 필터
         if (career !== "all") {
             const cp = s.career_path || {};
             if (career === "grad_school" && (cp.grad_school || 0) < 5) return false;
@@ -320,7 +340,6 @@ function applyFilters() {
             if (career === "vocational" && (cp.vocational || 0) < 10) return false;
         }
 
-        // 특화 필터
         if (special !== "all") {
             if (special === "art" && !feats.includes("미술") && !feats.includes("디자인")) return false;
             if (special === "biz" && !feats.includes("비즈니스") && !feats.includes("취업")) return false;
@@ -328,31 +347,26 @@ function applyFilters() {
             if (special === "short" && !cNames.includes("단기")) return false;
         }
 
-        // 기숙사 필터
         if (dorm !== "all") {
             if (dorm === "yes" && !feats.includes("기숙사")) return false;
             if (dorm === "single" && !feats.includes("1인실")) return false;
             if (dorm === "school_owned" && !feats.includes("기숙사")) return false;
         }
 
-        // 장학금 필터
         if (scholarship !== "all") {
             if (!feats.includes("장학금")) return false;
         }
 
-        // EJU 필터
         if (eju !== "all") {
             if (eju === "yes" && !feats.includes("EJU")) return false;
             if (eju === "science" && !feats.includes("이과")) return false;
             if (eju === "art" && !feats.includes("미술")) return false;
         }
 
-        // 회화 필터
         if (convo !== "all") {
             if (convo === "yes" && !feats.includes("회화")) return false;
         }
 
-        // 환경 필터
         if (env !== "all") {
             const isBusy = addr.includes("新宿") || addr.includes("渋谷") || addr.includes("池袋");
             if (env === "quiet" && isBusy) return false;
@@ -362,7 +376,8 @@ function applyFilters() {
         return true;
     });
 
-    // 4. 지도 업데이트
+    console.log(`✅ Result: ${filtered.length} schools found.`);
+
     window.isSearchMove = !!(targetUnivLocation && univInput !== "");
     
     renderMarkers(filtered);
@@ -373,22 +388,38 @@ function applyFilters() {
     }
 
     updateFilterUI();
-    toggleButtons(true); // 검색 결과가 있으면 Reset 버튼 보이기
+    toggleButtons(true);
 }
 
 function resetFilters() {
-    // 모든 select 초기화
+    // 1. 필터 UI 초기화
     document.querySelectorAll(".search-container select").forEach(el => el.value = 'all');
-    // 검색창 초기화
     const univInput = document.getElementById("filter-univ");
     if(univInput) univInput.value = "";
     
+    // 2. 상태 초기화
     window.isSearchMove = false;
+    
+    // 3. 전체 마커 다시 그리기
     renderMarkers(SCHOOLS_DATA);
     updateFilterUI();
+    toggleButtons(false);
     
-    toggleButtons(false); // 초기화 후 Search 버튼 보이기
+    // [수정] 지도 위치 강제 이동 코드 삭제
+    // map.setZoom(12);  <-- 삭제
+    // map.setCenter({ lat: 35.6895, lng: 139.6917 }); <-- 삭제
     
-    map.setZoom(5);
-    map.setCenter({ lat: 36.2048, lng: 138.2529 });
+    // [대안] 전체 마커가 다 보이도록 자동 조정 (Fit Bounds)
+    // renderMarkers 함수 마지막에 bounds.extend 로직이 있으므로,
+    // 여기서 굳이 이동하지 않아도 renderMarkers가 알아서 fitBounds를 수행할 것입니다.
+    // 만약 renderMarkers가 fitBounds를 안 한다면 아래 코드를 추가하세요.
+    /*
+    const bounds = new LatLngBounds();
+    SCHOOLS_DATA.forEach(item => {
+        if (item.location) bounds.extend(item.location);
+    });
+    map.fitBounds(bounds);
+    */
 }
+
+window.initMap = initMap;

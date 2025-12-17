@@ -6,7 +6,6 @@ import requests
 from tqdm import tqdm
 from dotenv import load_dotenv
 import google.generativeai as genai
-from google.api_core.exceptions import ResourceExhausted
 
 # ==========================================
 # [설정]
@@ -15,22 +14,27 @@ load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
-if not GEMINI_API_KEY or not GOOGLE_MAPS_API_KEY:
-    print("❌ 오류: .env 파일에 API 키가 없습니다.")
-    exit()
+# 🎯 생성할 대학 개수 설정 (여기서 조절하세요)
+LIMIT = 5 
+
+# 경로 설정
+INPUT_CSV = "scripts/file/univ_list_100.csv"
+OUTPUT_DIR = "app/content"
+
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
-
-INPUT_CSV = "file/univ_list_100.csv"
-OUTPUT_JSON = "file/universities.json"
 
 # ==========================================
 # [함수 정의]
 # ==========================================
 
 def get_google_coordinates(address):
-    if not address: return None
+    """구글 맵스 API로 좌표 추출"""
+    if not address: return {"lat": 35.6812, "lng": 139.7671} # 기본값 (도쿄역)
+    
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
     params = {"address": address, "key": GOOGLE_MAPS_API_KEY, "language": "ja"}
     try:
@@ -40,122 +44,148 @@ def get_google_coordinates(address):
             loc = data['results'][0]['geometry']['location']
             return {"lat": loc['lat'], "lng": loc['lng']}
     except: pass
-    return None
+    return {"lat": 35.6812, "lng": 139.7671}
 
 def clean_json(text):
+    """AI 응답에서 순수 JSON 추출"""
     text = text.replace("```json", "").replace("```", "").strip()
-    if "{" in text:
-        text = text[text.find("{"):text.rfind("}")+1]
+    start = text.find("{")
+    end = text.rfind("}") + 1
+    if start != -1 and end != -1:
+        return text[start:end]
     return text
 
 def get_university_info(name_ja, name_en):
+    """AI에게 대학 상세 정보 요청"""
+    print(f"🏫 AI 분석 중...: {name_ja}")
+    
     prompt = f"""
     You are an expert in Japanese higher education.
-    Extract detailed information about the university "{name_ja}" ({name_en}) for international students.
+    Analyze the university "{name_ja}" ({name_en}) and provide data for a Markdown file.
     
-    Output Format: ONLY valid JSON string. No markdown.
-
-    [JSON Structure]
+    [Requirements]
+    1. **english_slug**: URL-friendly English name (lowercase, kebab-case). e.g., "waseda-university"
+    2. **description_ko**: Write a detailed introduction in Korean (Markdown format, 2000+ characters).
+       - **MUST use Markdown Tables**: Use tables for 'Faculties list', 'Tuition breakdown', 'Admission stats', etc.
+       - Structure:
+         - 🏫 University Overview
+         - 🎓 Faculties & Departments (Use Table)
+         - 💰 Tuition & Fees (Use Table: Admission fee, Yearly tuition, etc.)
+         - 🌍 International Student Support (Dormitory, Career support)
+         - 📍 Campus Location & Access (Use Table for train access time)
+    3. **tuition**: Integer values only (JPY).
+    
+    [Output Format - JSON Only]
     {{
-        "id": "Unique ID based on English name (e.g., U_WASEDA)",
-        "category": "university",
+        "english_slug": "university-name-slug",
         "basic_info": {{
             "name_ja": "{name_ja}",
             "name_en": "{name_en}",
-            "address": "Main Campus Address in Japanese",
-            "website": "Official Website URL"
+            "address": "Official Japanese Address",
+            "website": "Official URL"
         }},
         "stats": {{
-            "international_students": "Approx number of intl students (integer, e.g., 5000)",
-            "acceptance_rate": "Approx acceptance rate for intl students (string, e.g., '30%')" 
+            "international_students": "Number (integer)",
+            "acceptance_rate": "Rate (string)" 
         }},
-        "faculties": ["Faculty A", "Faculty B", "Faculty C" (List up to 7 major faculties)],
         "tuition": {{
-            "admission_fee": "Entrance fee in JPY (integer)",
-            "yearly_tuition": "First year tuition in JPY (integer)"
+            "admission_fee": 200000,
+            "yearly_tuition": 1000000
         }},
-        "features": ["Feature1", "Feature2", "Feature3" (e.g., 'SGU', 'EJU Required', 'English Course', 'Dormitory')],
-        "description_ko": "Write a 3-sentence summary in Korean explaining why this university is good for international students. Mention its reputation, location, or unique strengths."
+        "faculties": ["School of Political Science", "School of Law", "School of Culture..."],
+        "features": ["SGU", "EJU Required", "English Program", "Dormitory", "Scholarship"],
+        "description_ko": "## 🏫 학교 소개\\n\\n(Detailed markdown content with Tables)..."
     }}
     """
 
     for i in range(3):
         try:
             res = model.generate_content(prompt)
-            if not res.text: return None
             return json.loads(clean_json(res.text))
-        except ResourceExhausted:
-            print("   ⏳ API 한도 초과! 대기 중...")
-            time.sleep(10)
         except Exception as e:
-            print(f"   ⚠️ AI 파싱 에러 ({name_ja}): {e}")
-            return None
+            print(f"   ⚠️ 재시도 중 ({i+1}/3)... {e}")
+            time.sleep(5)
     return None
 
-def load_existing_data():
-    if os.path.exists(OUTPUT_JSON):
-        try:
-            with open(OUTPUT_JSON, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except: return []
-    return []
+def save_to_md(data):
+    """MD 파일로 저장"""
+    # 1. 좌표 구하기
+    addr = data['basic_info'].get('address')
+    coords = get_google_coordinates(addr)
+    
+    # 2. 파일명 결정 (univ_ 접두어 강제)
+    raw_slug = data.get('english_slug', data['basic_info']['name_en'].replace(" ", "-").lower())
+    if not raw_slug.startswith("univ_"):
+        slug = f"univ_{raw_slug}"
+    else:
+        slug = raw_slug
+        
+    filename = f"{slug}.md"
+    filepath = os.path.join(OUTPUT_DIR, filename)
+
+    # 3. Frontmatter 데이터 구성
+    frontmatter = {
+        "layout": "school",
+        "id": slug,
+        "title": data['basic_info']['name_ja'],
+        "category": "university", # [중요] 대학 구분자
+        "tags": data.get('features', []),
+        "thumbnail": "/static/img/pin-univ.png",
+        "location": coords,
+        "basic_info": data['basic_info'],
+        "stats": data['stats'],
+        "tuition": data['tuition'],
+        "faculties": data.get('faculties', []),
+        "features": data.get('features', [])
+    }
+
+    # 4. 본문 분리
+    description = data.get('description_ko', '내용이 없습니다.')
+
+    # 5. 파일 쓰기
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write("---\n")
+        f.write(json.dumps(frontmatter, ensure_ascii=False, indent=2))
+        f.write("\n---\n\n")
+        f.write(description)
+    
+    print(f"   ✅ 저장 완료: {filename}")
 
 # ==========================================
 # [메인 실행]
 # ==========================================
 def main():
     if not os.path.exists(INPUT_CSV):
-        print(f"❌ {INPUT_CSV} 파일이 없습니다. 1단계 스크립트를 먼저 실행하세요.")
+        print(f"❌ {INPUT_CSV} 파일이 없습니다.")
         return
 
-    # 1. 기존 데이터 로드 (이어하기용)
-    collected_data = load_existing_data()
-    existing_names = {u['basic_info']['name_ja'] for u in collected_data}
-    print(f"📂 기존 데이터: {len(collected_data)}개 로드됨")
-
-    # 2. CSV 읽기
+    # CSV 읽기
     univ_list = []
     with open(INPUT_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if row['name_ja'] not in existing_names:
-                univ_list.append(row)
+            univ_list.append(row)
             
-    print(f"🚀 남은 {len(univ_list)}개 중 10개만 우선 수집합니다...")
+    print(f"🚀 총 {len(univ_list)}개 중 {LIMIT}개만 처리를 시작합니다...")
 
-    # 3. 수집 시작 (10개 제한)
     count = 0
-    limit = 10  # [수정] 10개만 하고 멈춤
 
     for univ in tqdm(univ_list):
-        if count >= limit:
-            print("\n🛑 테스트용 10개 수집 완료! 종료합니다.")
+        # [수정됨] 제한 개수에 도달하면 종료
+        if count >= LIMIT:
+            print(f"🛑 설정된 제한({LIMIT}개)에 도달하여 종료합니다.")
             break
-
+            
+        # 이미 존재하는 파일인지 체크 (중복 방지 로직 필요시 추가 가능)
+        
         data = get_university_info(univ['name_ja'], univ['name_en'])
         
         if data:
-            # 좌표 변환
-            addr = data['basic_info'].get('address')
-            if addr:
-                coords = get_google_coordinates(addr)
-                if coords:
-                    data['location'] = coords
-                else:
-                    data['location'] = {"lat": 35.6812, "lng": 139.7671} # 도쿄역 기본값
-            
-            collected_data.append(data)
-            
-            # [중요] 하나 할 때마다 저장 (중간에 꺼도 안전)
-            with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
-                json.dump(collected_data, f, ensure_ascii=False, indent=2)
-            
+            save_to_md(data)
             count += 1
-            time.sleep(2)
+            time.sleep(3) # API 제한 방지
         else:
             print(f"   ❌ 실패: {univ['name_ja']}")
-
-    print(f"\n🎉 현재까지 총 {len(collected_data)}개 대학 정보가 저장되었습니다.")
 
 if __name__ == "__main__":
     main()

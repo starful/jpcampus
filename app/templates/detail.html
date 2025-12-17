@@ -12,126 +12,122 @@
     <meta property="og:title" content="{{ meta_title }}">
     <meta property="og:description" content="{{ meta_desc }}">
     <meta property="og:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
-    <meta property="og:site_name" content="JP Campus">
     
-    <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="/static/img/favicon.ico">
+    <!-- CSS 버전 업데이트 -->
+    <link rel="stylesheet" href="/static/css/style.css?v=3.1">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="detail-page">
 
-    <!-- [수정됨] 상단 고정 헤더 -->
-    <header class="detail-header">
-        <div class="header-inner">
+    <!-- Header (index.html과 통일된 구조) -->
+    <header class="main-header">
+        <div class="header-content">
             <a href="/" class="back-link" data-i18n="btn_back">
-                <i class="fas fa-arrow-left"></i> 지도 메인으로
+                <i class="fas fa-arrow-left"></i> Back to Map
             </a>
             <div class="lang-switch">
-                <button onclick="setLanguage('ko')">🇰🇷</button>
-                <button onclick="setLanguage('ja')">🇯🇵</button>
                 <button onclick="setLanguage('en')">🇺🇸</button>
+                <button onclick="setLanguage('ko')">🇰🇷</button>
             </div>
         </div>
     </header>
 
     <main class="detail-container">
-            <!-- 공통 헤더 -->
-            <div class="school-header">
-                <h1>{{ school.basic_info.name_ja }}</h1>
-                <p class="address"><i class="fas fa-map-marker-alt"></i> {{ school.basic_info.address }}</p>
-                {% if school.description_ko %}
-                <div style="margin-top: 20px; padding: 20px; background: #f8f9fa; border-radius: 8px; font-size: 0.95rem; color: #555; line-height: 1.7; text-align: left;">
-                    <i class="fas fa-info-circle" style="color: #3498db; margin-right: 5px;"></i>
-                    {{ school.description_ko }}
-                </div>
-                {% endif %}
-            </div>
-
-            <!-- [분기점] 대학(university) vs 일본어학교(school) -->
-            {% if school.category == 'university' %}
-                <!-- === 대학 전용 뷰 === -->
-                <div class="info-grid">
-                    <div class="info-card">
-                        <div class="icon-box"><i class="fas fa-globe"></i></div>
-                        <div class="text-box">
-                            <span class="label">유학생 수</span>
-                            <span class="value">{{ school.stats.international_students }}명</span>
-                        </div>
-                    </div>
-                    <div class="info-card">
-                        <div class="icon-box"><i class="fas fa-yen-sign"></i></div>
-                        <div class="text-box">
-                            <span class="label">첫 해 학비</span>
-                            <span class="value">{{ "{:,}".format(school.tuition.yearly_tuition) }}¥</span>
-                        </div>
-                    </div>
-                </div>
-
-                <section class="detail-section">
-                    <h2><i class="fas fa-university"></i> 주요 학부</h2>
-                    <div class="info-tags" style="gap: 10px;">
-                        {% for faculty in school.faculties %}
-                        <span class="tag" style="background:#e3f2fd; color:#1565c0; padding:8px 15px; font-size:1rem;">{{ faculty }}</span>
-                        {% endfor %}
-                    </div>
-                </section>
-
-                <section class="detail-section">
-                    <h2><i class="fas fa-star"></i> 특징</h2>
-                    <ul class="feature-list">
-                        {% for feat in school.features %}
-                        <li>{{ feat }}</li>
-                        {% endfor %}
-                    </ul>
-                </section>
-
-            {% else %}
-                <!-- === 기존 일본어학교 뷰 (변경 없음) === -->
-                <div class="info-grid">
-                    <div class="info-card">
-                        <div class="icon-box"><i class="fas fa-users"></i></div>
-                        <div class="text-box">
-                            <span class="label" data-i18n="lbl_capacity">총 정원</span>
-                            <span class="value">{{ school.basic_info.capacity }}<span data-i18n="unit_ppl">명</span></span>
-                        </div>
-                    </div>
-                    <!-- ... (기존 코드 생략) ... -->
-                    <!-- 기존 4개 카드와 코스 정보 등 그대로 유지 -->
-                </div>
-                 <!-- ... (기존 코드 생략) ... -->
-                 <!-- 학교 특징, 코스, 진학 실적 등 그대로 유지 -->
-                 <section class="detail-section">
-                    <h2 data-i18n="ttl_features"><i class="fas fa-star"></i> 학교 특징</h2>
-                    <ul class="feature-list">
-                        {% for feature in school.features %}
-                        <li>{{ feature }}</li>
-                        {% endfor %}
-                    </ul>
-                </section>
-                 <!-- ... (기존 코드 생략) ... -->
-            {% endif %}
-
-            <!-- 공통 지도 및 버튼 -->
-            <section class="detail-section">
-                <h2 data-i18n="ttl_loc"><i class="fas fa-map-marked-alt"></i> 위치</h2>
-                <div id="map" class="detail-map"></div>
-            </section>
+        <!-- 학교 이름 및 설명 카드 -->
+        <div class="school-header">
+            <h1>{{ school.basic_info.name_ja }}</h1>
+            <p class="address"><i class="fas fa-map-marker-alt"></i> {{ school.basic_info.address }}</p>
             
-            <div class="cta-area">
-                <a href="{{ school.basic_info.website if school.category == 'university' else school.source_url }}" target="_blank" class="cta-btn">
-                    공식 홈페이지 확인하기 <i class="fas fa-external-link-alt"></i>
-                </a>
+            <div class="school-description">
+                <!-- 마크다운 변환된 본문 -->
+                {{ content_body | safe }}
             </div>
-        </main>
-
-    <footer class="main-footer">
-        <div class="footer-links" style="margin-bottom: 10px;">
-            <a href="/about" style="margin: 0 10px; color: #555;">사이트 소개</a> | 
-            <a href="/policy" style="margin: 0 10px; color: #555;">개인정보처리방침</a> | 
-            <a href="/contact" style="margin: 0 10px; color: #555;">문의하기</a>
         </div>
-        <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
+
+        <!-- 정보 그리드 (카드 형태) -->
+        <div class="info-grid">
+            <!-- 정원 -->
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-users"></i></div>
+                <div class="text-box">
+                    <span class="label">Capacity</span>
+                    <span class="value">
+                        {{ school.basic_info.capacity if school.basic_info.capacity else 'N/A' }}명
+                    </span>
+                </div>
+            </div>
+            <!-- 유학생 수 (대학일 경우) -->
+            {% if school.stats and school.stats.international_students %}
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-globe"></i></div>
+                <div class="text-box">
+                    <span class="label">Intl. Students</span>
+                    <span class="value">{{ school.stats.international_students }}명</span>
+                </div>
+            </div>
+            {% endif %}
+            <!-- 학비 -->
+            <div class="info-card">
+                <div class="icon-box"><i class="fas fa-yen-sign"></i></div>
+                <div class="text-box">
+                    <span class="label">Tuition (1st Year)</span>
+                    <span class="value">
+                        {% if school.tuition and school.tuition.yearly_tuition %}
+                            {{ "{:,}".format(school.tuition.yearly_tuition) }}¥
+                        {% else %}
+                            -
+                        {% endif %}
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 특징 섹션 -->
+        {% if school.features %}
+        <section class="detail-section">
+            <h2><i class="fas fa-star"></i> Features</h2>
+            <ul class="feature-list">
+                {% for feature in school.features %}
+                <li>{{ feature }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        <!-- 지도 섹션 -->
+        <section class="detail-section">
+            <h2><i class="fas fa-map-marked-alt"></i> Location</h2>
+            <!-- CSS에서 detail-map 클래스로 높이 지정됨 -->
+            <div id="map" class="detail-map"></div>
+        </section>
+        
+        <!-- 공식 홈페이지 버튼 -->
+        <div class="cta-area">
+            {% set link = school.basic_info.website if school.category == 'university' else school.source_url %}
+            {% if link %}
+            <a href="{{ link }}" target="_blank" class="cta-btn">
+                Visit Official Website <i class="fas fa-external-link-alt"></i>
+            </a>
+            {% else %}
+            <button class="cta-btn" disabled style="background:#ccc; cursor:not-allowed;">No Website Available</button>
+            {% endif %}
+        </div>
+    </main>
+
+    <!-- Footer (중앙 정렬 수정됨) -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <h3>JP Campus</h3>
+            <div class="footer-links">
+                <a href="/guide">Guide</a>
+                <a href="/about">About</a>
+                <a href="/policy">Privacy</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&v=weekly" async defer></script>
