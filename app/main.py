@@ -32,17 +32,37 @@ async def ads_txt():
 
 @app.get("/sitemap.xml", response_class=PlainTextResponse)
 async def sitemap():
-    # 모든 학교 ID 가져오기
-    urls = [f"{DOMAIN}/"]
+    # 1. 고정 페이지 URL
+    urls = [
+        f"{DOMAIN}/",
+        f"{DOMAIN}/about",
+        f"{DOMAIN}/guide",
+        f"{DOMAIN}/schools",
+        f"{DOMAIN}/universities",
+        f"{DOMAIN}/contact",
+        f"{DOMAIN}/policy"
+    ]
     
+    # 2. 학교 및 대학 상세 페이지 URL
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
             for s in data.get('schools', []):
                 urls.append(f"{DOMAIN}/school/{s['id']}")
     
-    # 가이드 페이지 등 추가
-    urls.append(f"{DOMAIN}/guide")
+    # 3. [추가] 가이드 상세 페이지 URL (guide_*.md 파일 스캔)
+    guide_dir = "app/content"
+    guide_files = glob.glob(os.path.join(guide_dir, "guide_*.md"))
+    
+    for filepath in guide_files:
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                post = frontmatter.load(f)
+                slug = post.metadata.get('id') # Frontmatter의 id(slug) 사용
+                if slug:
+                    urls.append(f"{DOMAIN}/guide/{slug}")
+        except Exception:
+            pass
     
     # XML 생성
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -51,6 +71,9 @@ async def sitemap():
         xml += f'  <url><loc>{url}</loc><changefreq>weekly</changefreq></url>\n'
     xml += '</urlset>'
     
+    # PlainTextResponse 대신 Response를 사용하거나 media_type 지정 필요
+    # FastAPI에서는 Response 객체를 직접 임포트해서 사용하는 것이 좋음
+    from fastapi import Response
     return Response(content=xml, media_type="application/xml")
 
 @app.get("/robots.txt", response_class=PlainTextResponse)
