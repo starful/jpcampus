@@ -19,11 +19,11 @@
   "basic_info": {
     "name_ja": "北海道大学",
     "name_en": "Hokkaido University",
-    "address": "北海道札幌市北区北8条西5丁目",
+    "address": "〒060-0808 北海道札幌市北区北8条西5丁目",
     "website": "https://www.hokudai.ac.jp/"
   },
   "stats": {
-    "international_students": 2000,
+    "international_students": 2200,
     "acceptance_rate": "20%"
   },
   "tuition": {
@@ -43,8 +43,8 @@
     "School of Agriculture",
     "School of Veterinary Medicine",
     "School of Fisheries Sciences",
-    "School of Global and Community Studies",
-    "School of Information Science and Technology"
+    "School of Global and Media Studies",
+    "School of Information Data Science"
   ],
   "features": [
     "SGU",
@@ -58,61 +58,62 @@
 
 ## 🏫 University Overview
 
-Hokkaido University (北海道大学, Hokkai Gakuen Daigaku) is a prestigious national university located in Sapporo, Hokkaido, Japan. It is one of the oldest, largest, and most comprehensive universities in Japan. Founded in 1876 as the Sapporo Agricultural College, it was later elevated to university status in 1918. Hokkaido University is highly regarded for its strong emphasis on research and is consistently ranked among the top universities in Japan and Asia.
+Hokkaido University (北大, Hokudai) is a prestigious national university located in Sapporo, Hokkaido, Japan. Established in 1876 as the Sapporo Agricultural College, it is one of the oldest, largest, and most comprehensive universities in Japan. Hokudai is renowned for its strong research programs across a wide range of disciplines, particularly in agriculture, engineering, medicine, and natural sciences. As a designated National University Corporation, it plays a vital role in advancing scientific knowledge and fostering future leaders both domestically and internationally.
 
-The university's historical roots in agriculture are evident in its strong faculties related to agricultural sciences, veterinary medicine, and fisheries sciences. However, Hokkaido University has evolved into a comprehensive institution with a wide range of disciplines, including humanities, social sciences, natural sciences, engineering, and medicine.  Its commitment to pioneering research and fostering global perspectives makes it a highly sought-after destination for students both domestically and internationally.  Hokkaido University is designated as one of the Top Type universities of the Top Global University Project.
+The university consistently ranks among the top universities in Japan and Asia. Its vast and beautiful campus, situated in the heart of Sapporo, offers a unique and conducive environment for learning and research. The university is also actively involved in promoting international collaborations, attracting students and researchers from around the globe. Hokkaido University is part of the Top Global University Project and is a leader in research and innovation.
+
+Hokudai boasts a rich history, having played a significant role in the development of Hokkaido and Japan's modernization. It continues to be a driving force in scientific and technological advancements, contributing to solutions for global challenges.
 
 ## 🎓 Faculties & Departments
 
-Hokkaido University boasts a diverse range of faculties and departments, providing students with a vast array of academic opportunities.
 
-
-| Faculty                          | Departments/Divisions                                                                                                    |
-|----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| School of Letters                  | Philosophy, History, Linguistics, Literature                                                                            |
-| School of Education                | Education, Educational Psychology, Special Needs Education                                                              |
-| School of Law                      | Law, Political Science                                                                                                     |
-| School of Economics and Business  | Economics, Business Administration, Accounting                                                                          |
-| School of Science                  | Mathematics, Physics, Chemistry, Biological Sciences, Earth and Planetary Sciences                                            |
-| School of Medicine                 | Medicine                                                                                                                |
-| School of Dentistry                | Dentistry                                                                                                               |
-| School of Pharmaceutical Sciences  | Pharmaceutical Sciences, Pharmacy                                                                                        |
-| School of Engineering              | Mechanical Engineering, Electrical and Electronic Engineering, Civil Engineering, Chemical Engineering, Applied Physics |
-| School of Agriculture              | Agriculture, Agricultural Engineering, Forestry, Fisheries, Food Science                                                      |
-| School of Veterinary Medicine      | Veterinary Medicine                                                                                                       |
-| School of Fisheries Sciences       | Fisheries, Marine Biology, Food Production Science                                                                       |
-| School of Global and Community Studies|Global Studies, Community Design                                                                                          |
-| School of Information Science and Technology|Computer Science, Information Technology, System Information Science, Life Science Informatics                      |
-
+| Faculty                     | Departments                                                                                                          |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------|
+| School of Letters             | Human Sciences, Philosophy, History, Linguistics, Literary Studies                                                        |
+| School of Education           | Education, Curriculum Studies, Educational Psychology                                                                 |
+| School of Law                 | Law, Political Science                                                                                                 |
+| School of Economics and Business | Economics, Business Administration                                                                                         |
+| School of Science             | Mathematics, Physics, Chemistry, Biology, Earth and Planetary Sciences                                                      |
+| School of Medicine            | Medicine                                                                                                             |
+| School of Dentistry           | Dentistry                                                                                                            |
+| School of Pharmaceutical Sciences | Pharmaceutical Sciences, Pharmacy                                                                                            |
+| School of Engineering         | Applied Physics, Mechanical Engineering, Chemical Engineering, Civil Engineering, Architectural Engineering, Electrical Engineering, Information Engineering, Environmental Engineering, Precision Engineering |
+| School of Agriculture         | Agricultural Science, Applied Bioscience, Forest Science, Bioresource Science                                                   |
+| School of Veterinary Medicine   | Veterinary Medicine                                                                                                     |
+| School of Fisheries Sciences   | Marine Biology, Fisheries Resources, Food Production Science                                                                 |
+| School of Global and Media Studies| Global Studies, Media and Communication Studies                                                                         |
+| School of Information Data Science| Data Science, Information Systems, Artificial Intelligence                                                                |
 
 ## 💰 Tuition & Fees
-
-The tuition and fees at Hokkaido University are standardized for national universities in Japan. The fees are subject to change, and students should refer to the official Hokkaido University website for the most up-to-date information.
 
 
 | Fee Type        | Amount (JPY) |
 |-----------------|--------------|
 | Admission Fee   | 282,000      |
-| Yearly Tuition  | 535,800      |
+| Yearly Tuition | 535,800      |
 
+
+These figures are subject to change and are provided as a general guideline. Students should always refer to the official university website for the most up-to-date information.
 
 ## 🌍 International Student Support
 
-Hokkaido University provides extensive support for international students to ensure a smooth and enriching academic experience.
+Hokkaido University is committed to providing comprehensive support for its international students. The university offers a range of services designed to help international students adjust to life in Japan and succeed in their studies. These include:
 
-*   **Dormitory:** The university offers various types of accommodation for international students, including dormitories and university-managed apartments. These accommodations provide affordable and convenient housing options.
-*   **English Programs:** Hokkaido University offers a variety of degree programs and courses taught in English, catering to international students who may not have a strong command of Japanese. The university also provides Japanese language courses to help international students improve their language skills.
-*   **Career Support:** The university's Career Center provides career counseling, job search assistance, and internship opportunities for international students. The center also organizes career fairs and workshops to help students connect with potential employers.
-*   **Scholarships**: Many scholarships are available to international students through the university, the Japanese government (MEXT), and private organizations.  Details and application procedures can be found on the university's international student support page.
-* **International Student Support Desk:** Provides guidance and assistance with visa applications, housing, daily life, and other matters.
+*   **Dormitory Accommodation:** The university provides several dormitories specifically for international students, offering affordable and convenient housing options. Priority is often given to newly arrived students.
+*   **English-Taught Programs:** A significant number of courses and programs are offered in English, catering to international students who may not yet have sufficient Japanese language proficiency. Degree programs at the graduate level are often available in English across various departments.
+*   **Japanese Language Courses:** The university offers Japanese language courses at various levels, from beginner to advanced, to help international students improve their language skills and integrate into Japanese society.
+*   **Career Support:** The university's career center provides guidance and resources to help international students find internships and employment opportunities in Japan or abroad. This includes resume workshops, interview practice, and job search assistance.
+*   **Student Support Services:** A dedicated international student support office provides assistance with visa applications, health insurance, and other administrative matters. The office also organizes cultural events and activities to help international students connect with each other and learn about Japanese culture.
+*   **Scholarship Opportunities:** Hokkaido University offers a variety of scholarships for international students, based on academic merit and financial need. These scholarships can help reduce the financial burden of studying in Japan.
+
+The university strives to create a welcoming and inclusive environment for international students, fostering a sense of community and belonging. Support staff are available to answer questions, provide guidance, and help students navigate any challenges they may face.
 
 ## 📍 Campus Location & Access
 
-Hokkaido University's main campus is located in Sapporo, the capital city of Hokkaido. The campus is easily accessible by public transportation.
 
+| Location             | Access                                                                                                                      |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Sapporo Campus         | Easily accessible by subway (Kita-Juni-Jo Station on the Namboku Line) or a short walk from Sapporo Station.                  |
 
-| Location     | Access                                                                                                                                       |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| Main Campus  | Approximately 7-minute walk from Sapporo Station (JR, Subway Namboku Line, Toho Line) and 10-minute walk from Kita-Juni-Jo Station (Subway Namboku Line) |
+The Sapporo campus is the main campus of Hokkaido University, located in the heart of Sapporo city. Its central location provides easy access to transportation, shopping, and entertainment.
 
-The expansive and green campus offers a refreshing environment for study and research.  The city of Sapporo also offers a vibrant cultural experience and is a hub for Hokkaido's attractions.

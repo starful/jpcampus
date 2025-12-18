@@ -20,7 +20,7 @@
     "name_ja": "東北大学",
     "name_en": "Tohoku University",
     "address": "宮城県仙台市青葉区片平二丁目1-1",
-    "website": "https://www.tohoku.ac.jp/en/"
+    "website": "https://www.tohoku.ac.jp/"
   },
   "stats": {
     "international_students": 2200,
@@ -31,16 +31,16 @@
     "yearly_tuition": 535800
   },
   "faculties": [
-    "School of Arts and Letters",
-    "School of Education",
-    "School of Law",
-    "School of Economics",
-    "School of Science",
+    "Faculty of Arts and Letters",
+    "Faculty of Education",
+    "Faculty of Law",
+    "Faculty of Economics",
+    "Faculty of Science",
     "School of Medicine",
     "School of Dentistry",
-    "School of Pharmaceutical Sciences",
-    "School of Engineering",
-    "School of Agriculture"
+    "Faculty of Pharmaceutical Sciences",
+    "Faculty of Engineering",
+    "Faculty of Agriculture"
   ],
   "features": [
     "SGU",
@@ -54,64 +54,59 @@
 
 ## 🏫 University Overview
 
-Tohoku University, located in Sendai, Japan, is a prestigious national university renowned for its strong emphasis on research and innovation. Established in 1907 as the third Imperial University, it has a rich history of contributing significantly to various fields of science and technology. Tohoku University is consistently ranked among the top universities in Japan and globally, recognized for its academic excellence and influential research output.
+Tohoku University, located in Sendai, Miyagi Prefecture, is one of Japan's leading national universities. Established in 1907 as Tohoku Imperial University, it was the third Imperial University to be founded in Japan and the first to admit female students. Tohoku University has a long and distinguished history of academic excellence and innovation, and it is consistently ranked among the top universities in Japan and the world.
 
-The university is particularly known for its pioneering work in materials science, engineering, and physics, and has produced numerous Nobel laureates and accomplished researchers. Its commitment to fostering a global perspective is evident through its active participation in international collaborations and a growing international student body. Tohoku University embraces an open and progressive academic environment, striving to cultivate future leaders who can contribute to solving global challenges.
+Known for its strong emphasis on research, Tohoku University boasts numerous Nobel laureates and other prestigious award winners among its faculty and alumni. The university is particularly renowned for its contributions to materials science, physics, and engineering, but it also excels in a wide range of other disciplines.
 
-The university's motto, "Research First," reflects its dedication to cutting-edge research and its impact on society. Tohoku University actively promotes interdisciplinary research, encouraging collaboration across different faculties and departments. This collaborative approach has led to breakthroughs in areas such as medicine, robotics, and environmental science.
+Tohoku University is a designated National University Corporation and a member of the Top Global University Project (SGU), reflecting its commitment to internationalization and cutting-edge research. The university actively promotes collaboration with international institutions and welcomes students and researchers from around the globe.
 
+The university's motto is "Research First, Open Door, Practice-Oriented Research and Education," which encapsulates its dedication to advancing knowledge, fostering inclusivity, and applying research findings to address real-world challenges.
 
 ## 🎓 Faculties & Departments
 
-Tohoku University offers a wide range of undergraduate and graduate programs across diverse academic disciplines. The university is organized into ten undergraduate schools and numerous graduate schools, each with its own specialized departments and research centers.
+Tohoku University comprises ten faculties, each offering a diverse range of undergraduate and graduate programs. A detailed list of faculties is presented below:
 
-
-| Faculty                     | Departments                                                                                                                                                   |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| School of Arts and Letters  | Philosophy, History, Japanese Language and Literature, Western Languages and Literature                                                                    |
-| School of Education            | Educational Sciences, Human Development                                                                                                                          |
-| School of Law                | Law, Political Science                                                                                                                                            |
-| School of Economics          | Economics, Business Administration                                                                                                                                |
-| School of Science            | Mathematics, Physics, Chemistry, Biology, Earth Science                                                                                                         |
-| School of Medicine           | Medicine, Health Sciences                                                                                                                                         |
-| School of Dentistry          | Dentistry                                                                                                                                                       |
-| School of Pharmaceutical Sciences | Pharmaceutical Sciences, Pharmacy                                                                                                                                   |
-| School of Engineering        | Mechanical Engineering, Electrical Engineering, Civil Engineering, Chemical Engineering, Materials Science and Engineering, Architecture, Computer Science, etc. |
-| School of Agriculture        | Agronomy, Agricultural Chemistry, Forestry, Fisheries Science                                                                                                 |
-
+| Faculty                     | Departments                                                                                                                                         |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Faculty of Arts and Letters | Philosophy, History, Japanese Language and Literature, English Language and Literature, Linguistics, Behavioral Science                                |
+| Faculty of Education        | Educational Sciences, Human Development and Educational Psychology                                                                                  |
+| Faculty of Law              | Law, Political Science                                                                                                                               |
+| Faculty of Economics        | Economics, Business Administration                                                                                                                 |
+| Faculty of Science          | Mathematics, Physics, Astronomy, Geophysics, Chemistry, Biology                                                                                   |
+| School of Medicine          | Medicine                                                                                                                                           |
+| School of Dentistry         | Dentistry                                                                                                                                          |
+| Faculty of Pharmaceutical Sciences | Pharmaceutical Sciences, Pharmacy                                                                                                                |
+| Faculty of Engineering      | Mechanical Engineering, Electrical Engineering, Civil Engineering, Chemical Engineering, Materials Science, Architecture, Computer Science             |
+| Faculty of Agriculture      | Agronomy, Agricultural Chemistry, Forest Science, Fisheries Science                                                                               |
 
 ## 💰 Tuition & Fees
 
-The tuition fees at Tohoku University are standard for national universities in Japan. International students are generally required to pay the same tuition fees as domestic students. There may be opportunities for tuition fee waivers and scholarships for eligible international students.
+The tuition fees for international students at Tohoku University are standardized across all faculties at the undergraduate level. Graduate tuition fees may vary slightly depending on the specific program. Here is a breakdown of the tuition and fees:
 
+| Fee                     | Amount (JPY) |
+|--------------------------|--------------|
+| Admission Fee           | 282,000      |
+| Yearly Tuition (Approx.) | 535,800      |
 
-| Fee Type       | Amount (JPY) |
-|----------------|---------------|
-| Admission Fee  | 282,000       |
-| Yearly Tuition | 535,800       |
-
+Note: These figures are approximate and subject to change. Please refer to the official Tohoku University website for the most up-to-date information.
 
 ## 🌍 International Student Support
 
-Tohoku University provides comprehensive support services for international students to help them adjust to life in Japan and succeed in their academic pursuits. These services include:
+Tohoku University is committed to providing comprehensive support to its international students to ensure a smooth and enriching academic experience. The university offers a range of services, including:
 
-*   **Dormitory:** The university offers on-campus and off-campus housing options for international students. Dormitories provide a convenient and affordable living environment, fostering a sense of community among students from different countries. Applications for university housing are typically processed before the start of each semester.
-*   **English Programs:** While some departments offer courses taught entirely in English, particularly at the graduate level, the university also provides Japanese language courses for international students. These courses help students improve their Japanese proficiency, enabling them to better communicate with locals and integrate into Japanese society.
-*   **Career Support:** Tohoku University's career support center provides guidance and resources to help international students find internships and jobs in Japan and abroad. The center offers workshops on resume writing, interview skills, and job search strategies. They also connect students with potential employers through career fairs and company visits.
-
-The university also has international student advisors who can provide assistance with visa matters, health insurance, and other administrative procedures.
+*   **Dormitory Accommodation:** Several on-campus and off-campus dormitories are available for international students. These dormitories provide affordable and convenient housing options.
+*   **English-Taught Programs:** A variety of undergraduate and graduate programs are offered in English, catering to students who may not have sufficient Japanese language proficiency.
+*   **Japanese Language Courses:** Tohoku University provides Japanese language courses for international students to help them improve their language skills and integrate into Japanese society.
+*   **Career Support:** The university's career support center offers guidance and resources to help international students find internships and employment opportunities in Japan and abroad.
+*   **International Student Advisors:** Dedicated international student advisors are available to provide assistance with visa applications, housing, health insurance, and other practical matters.
 
 ## 📍 Campus Location & Access
 
-Tohoku University has several campuses located in Sendai City, Miyagi Prefecture. The main campus, Katahira Campus, is located in the heart of the city and is easily accessible by public transportation.
+Tohoku University has several campuses located throughout Sendai City. The main campus, Katahira Campus, is easily accessible by public transportation.
 
-
-| Campus          | Address                                       | Access                                                                                    |
-|-----------------|---------------------------------------------|------------------------------------------------------------------------------------------|
-| Katahira Campus | 2-1-1 Katahira, Aoba-ku, Sendai, Miyagi    | 10-minute walk from Sendai Station                                                         |
-| Aobayama Campus | Aramaki Aza Aoba, Aoba-ku, Sendai, Miyagi   | Take the Tozai Subway Line to Aobayama Station                                              |
-| Kawauchi Campus | 41 Kawauchi, Aoba-ku, Sendai, Miyagi       | 15-minute walk from Sendai Station or take a bus                                            |
-| Amamiya Campus  | 1-1 Tsutsumidori-amamiya, Aoba-ku, Sendai, Miyagi | Take a bus from Sendai Station to Tohoku Daigaku Byoin-mae (Tohoku University Hospital Front) |
-
-
-Sendai is a vibrant city with a rich cultural heritage and a thriving economy. The city is known for its beautiful parks, delicious food, and friendly people. It is also conveniently located near other major cities in Japan, such as Tokyo and Osaka.
+| Location        | Access                                                                                |
+|-----------------|---------------------------------------------------------------------------------------|
+| Katahira Campus | 10-minute walk from Sendai Station, subway Tozai line to Aoba-dori Ichibancho station.  |
+| Aobayama Campus | Subway Tozai Line to Aobayama Station.                                                  |
+| Kawauchi Campus | Short walk from Sendai Station West Exit, easily accessible by bus and subway.           |
+| Amamiya Campus  | Subway Nanboku Line to Kita-Sendai Station, then bus or walk.                            |

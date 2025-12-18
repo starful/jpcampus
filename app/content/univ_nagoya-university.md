@@ -23,8 +23,8 @@
     "website": "https://www.nagoya-u.ac.jp/"
   },
   "stats": {
-    "international_students": 2300,
-    "acceptance_rate": "25%"
+    "international_students": 2600,
+    "acceptance_rate": "20%"
   },
   "tuition": {
     "admission_fee": 282000,
@@ -39,7 +39,7 @@
     "School of Science",
     "School of Medicine",
     "School of Engineering",
-    "School of Bioagricultural Sciences",
+    "School of Agricultural Sciences",
     "School of Pharmaceutical Sciences"
   ],
   "features": [
@@ -54,57 +54,59 @@
 
 ## 🏫 University Overview
 
-Nagoya University (名古屋大学, Nagoya Daigaku), often abbreviated as Meidai (名大), is a prestigious national university located in Nagoya, Japan. It stands as one of Japan's top-tier research universities and is part of the select group of universities designated as Designated National Universities. Founded in 1871 as a temporary medical school, it evolved into Nagoya University in 1939. Over the years, Nagoya University has cultivated a reputation for academic excellence and groundbreaking research, particularly in fields like physics, chemistry, and medicine, boasting six Nobel laureates among its alumni and faculty.
+Nagoya University (名古屋大学, Nagoya Daigaku), often abbreviated to Meidai (名大), is a Japanese national university located in Nagoya, Aichi Prefecture. It stands as one of Japan's leading research universities and is consistently ranked among the top universities globally. Founded as a temporary medical school in 1871, it was officially established as Nagoya Imperial University in 1939, marking its formal ascent to the prestigious Imperial University system. After World War II, it was renamed Nagoya University.
 
-The university is strongly committed to fostering global perspectives and attracting international students and researchers. It actively participates in the Japanese government's Super Global University (SGU) program, aiming to enhance its international presence and develop globally competitive educational and research environments. Nagoya University emphasizes the importance of innovation and collaboration, driving research initiatives that address critical global challenges.
+Nagoya University boasts a distinguished history of academic excellence, particularly in the sciences. The university has produced numerous Nobel laureates, cementing its reputation as a hub for groundbreaking research. Six Nobel Prizes have been awarded to Nagoya University researchers, spanning fields such as Physics, Chemistry, and Physiology or Medicine. This achievement highlights the university's commitment to fostering innovative research and nurturing exceptional talent.
 
-The university's campus is located in the heart of Nagoya, providing convenient access to the city's vibrant cultural and commercial centers. With its rich history, commitment to innovation, and strong international focus, Nagoya University continues to be a leading institution in Japanese higher education and a vital contributor to global knowledge.
+The university is a designated National University Corporation and a member of the prestigious Japanese Association of National Universities (JANU) and the Top Global University Project (SGU) Type A, signifying its commitment to internationalization and cutting-edge research. Nagoya University emphasizes a student-centered approach to education, promoting independent thinking and fostering a global perspective. The university offers a wide range of undergraduate and graduate programs across diverse disciplines, attracting students from around the world.
+
+Nagoya University is actively involved in collaborative research projects with leading institutions worldwide and actively promotes international student exchange programs. Its strategic location in Nagoya, a major industrial and commercial center, provides students with access to various internships and career opportunities.
+
 
 ## 🎓 Faculties & Departments
 
-
-| Faculty                     | Departments                                                                                                                                                                                                                                                                                            |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| School of Humanities        | Philosophy, History, Japanese Language and Literature, Western Language and Literature                                                                                                                                                                                                                              |
-| School of Education         | Education Sciences                                                                                                                                                                                                                                                                                  |
-| School of Law               | Law                                                                                                                                                                                                                                                                                                    |
-| School of Economics         | Economics, Business Administration                                                                                                                                                                                                                                                                  |
-| School of Informatics       | Computer Science, Infomatics and Mathematical Science, Social Informatics                                                                                                                                                                                                                                                 |
-| School of Science           | Mathematics, Physics, Chemistry, Biological Sciences, Earth and Planetary Sciences                                                                                                                                                                                                                   |
-| School of Medicine          | Medicine, Health Sciences                                                                                                                                                                                                                                                                              |
-| School of Engineering       | Mechanical Engineering, Electrical, Electronic and Information Engineering, Applied Chemistry and Biological Engineering, Civil Engineering and Architecture, Aerospace Engineering, Energy Engineering, Materials Science and Engineering, Quantum Engineering                                                                                                            |
-| School of Bioagricultural Sciences | Agricultural Sciences, Bioscience and Biotechnology                                                                                                                                                                                                                                                           |
-| School of Pharmaceutical Sciences | Pharmaceutical Sciences                                                                                                                                                                                                                                                                            |
-
+| Faculty                      | Departments                                                                                                                                                             |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| School of Humanities          | Philosophy, History, Japanese Language and Literature, English Language and Literature, Linguistics, Cultural Studies                                                    |
+| School of Education           | Educational Sciences, Human Development and Environmental Studies                                                                                                         |
+| School of Law                 | Law, Political Science                                                                                                                                                  |
+| School of Economics           | Economics, Business Administration                                                                                                                                      |
+| School of Informatics          | Computer Science, Systems Informatics, Social Informatics, Information and Human Behavior                                                                                  |
+| School of Science             | Mathematics, Physics, Chemistry, Biological Sciences, Earth and Planetary Sciences                                                                                       |
+| School of Medicine            | Medicine, Nursing                                                                                                                                                       |
+| School of Engineering         | Mechanical Engineering, Electrical and Electronic Engineering, Applied Chemistry and Biotechnology, Civil Engineering and Architecture, Aerospace Engineering, Energy Engineering |
+| School of Agricultural Sciences | Bioagricultural Sciences, Biological and Environmental Sciences                                                                                                            |
+| School of Pharmaceutical Sciences | Pharmaceutical Sciences, Pharmacy                                                                                                                                         |
 
 ## 💰 Tuition & Fees
 
-
-| Item            | Amount (JPY) |
+| Fee Type        | Amount (JPY) |
 |-----------------|--------------|
-| Admission Fee   | 282,000      |
+| Admission Fee    | 282,000      |
 | Yearly Tuition  | 535,800      |
 
+*Note: Tuition fees are subject to change. Please refer to the official Nagoya University website for the most up-to-date information.*
 
 ## 🌍 International Student Support
 
-Nagoya University offers extensive support services for international students, ensuring a smooth transition and a positive academic experience. These services include:
+Nagoya University is committed to providing comprehensive support to its international students, ensuring a smooth transition and enriching academic experience.
 
-*   **Dormitory:** The university provides various accommodation options for international students, including university-managed dormitories and off-campus housing assistance. These dormitories foster a multicultural environment and offer opportunities for interaction with other students.
-*   **English Programs:** Nagoya University offers a range of degree programs and courses taught in English, catering to international students who may not have sufficient Japanese language proficiency. These programs cover diverse fields, including engineering, science, and economics.
-*   **Career Support:** The university's career support center provides career counseling, job search assistance, and internship opportunities specifically tailored to international students. They assist students in navigating the Japanese job market and connecting with potential employers.
-*   **Japanese Language Support:** For international students wishing to improve their Japanese language skills, Nagoya University offers Japanese language courses at various proficiency levels. This helps students integrate into the university community and daily life in Japan.
-*   **Visa and Immigration Support:** The university provides guidance and assistance with visa applications and immigration procedures, ensuring compliance with Japanese immigration laws.
-*   **Buddy Program:** A buddy program pairs international students with local students, providing valuable support and friendship. Buddies can help with practical matters, cultural adjustment, and social integration.
+**Dormitory:** The university offers various on-campus and off-campus housing options specifically for international students. These dormitories provide a safe and comfortable living environment, fostering a sense of community among international residents. Information regarding application procedures and availability can be found on the university's website.
+
+**English Programs:** Nagoya University offers several degree programs taught entirely in English at both the undergraduate and graduate levels. These programs cater to students who may not have Japanese language proficiency and allow them to pursue their academic goals in a globally-oriented environment. Support is also provided to international students who wish to learn Japanese.
+
+**Career Support:** The university's Career Support Office provides extensive assistance to international students in their job search. This includes career counseling, resume workshops, interview practice, and networking events with prospective employers. Nagoya University's strong connections with local and international companies provide international graduates with valuable career opportunities.
+
+**Other support:** The university has international student advisors who offer assistance on immigration procedures, visa renewals, and other practical matters. There are also numerous student clubs and organizations that welcome international students, providing opportunities to connect with peers and engage in extracurricular activities. 
 
 ## 📍 Campus Location & Access
 
-Nagoya University's main campus is located in Chikusa-ku, Nagoya City, Aichi Prefecture. It is easily accessible by public transportation.
+Nagoya University's main campus is located in Higashiyama district of Nagoya City. It is easily accessible by public transportation.
 
+| Location            | Access                                                                    |
+|---------------------|---------------------------------------------------------------------------|
+| Higashiyama Campus | Take the Nagoya City Subway Meijo Line to Nagoya Daigaku (Nagoya University) Station. Directly connected to the campus. |
 
-| Transportation | Route                                      |
-|-----------------|--------------------------------------------|
-| Subway         | Meijo Line to Nagoya Daigaku Station         |
-| Bus            | City Bus to Nagoya Daigaku Mae              |
+The university also has other campuses, but the Higashiyama campus is the main one.
 
-The campus is conveniently located near major transportation hubs and offers easy access to the city's amenities and attractions.
+Nagoya University is a top choice for international students seeking a world-class education in a vibrant and dynamic environment. Its commitment to research, internationalization, and student support makes it an excellent place to pursue academic and professional aspirations.

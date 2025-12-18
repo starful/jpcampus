@@ -202,11 +202,58 @@ button { cursor: pointer; border: none; font-family: inherit; }
 
 
 /* === Footer === */
-.main-footer { background: #fff; border-top: 1px solid #eee; padding: 40px 0; margin-top: auto; width: 100%; }
-.footer-content { max-width: var(--max-width); margin: 0 auto; text-align: center; }
-.footer-links a { margin: 0 10px; color: #888; font-size: 0.9rem; }
-.footer-links a:hover { color: var(--primary); text-decoration: underline; }
-.copyright { color: #aaa; font-size: 0.8rem; }
+/* === Footer 수정 === */
+.main-footer {
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 60px 0; /* 여백 조금 더 확보 */
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    text-align: center;
+    display: flex; /* Flexbox 사용 */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* 텍스트 대신 로고 이미지 사용 */
+.footer-logo {
+    height: 40px; /* 로고 높이 설정 */
+    width: auto;
+    opacity: 0.8; /* 약간 투명하게 */
+    transition: opacity 0.3s;
+}
+.footer-logo:hover {
+    opacity: 1;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #666;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.copyright {
+    color: #aaa;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
 
 
 /* === Responsive === */

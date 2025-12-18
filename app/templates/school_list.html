@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | JP Campus</title>
+    <link rel="stylesheet" href="/static/css/style.css?v=5.1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body style="background-color: #f9f9f9; padding-top: 80px;">
+    
+    <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
+        <div class="header-content">
+            <a href="/" class="logo"><img src="/static/img/logo.png" class="logo-img"></a>
+            <div id="google_translate_element"></div>
+        </div>
+    </header>
+
+    <main style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h1 style="color:#2c3e50; font-weight:800; margin-bottom:10px;">{{ title }}</h1>
+            <p style="color:#666;">{{ description }}</p>
+        </div>
+
+        <div class="card-grid">
+            {% for item in items %}
+                
+                {# [수정 시작] 이미지 랜덤(순차) 할당 로직 추가 #}
+                {% if item.category == 'university' %}
+                    {% set imgs = [
+                        'https://images.unsplash.com/photo-1562774053-701939374585?w=500', 
+                        'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500',
+                        'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=500',
+                        'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500',
+                        'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500',
+                        'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=500',
+                        'https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=500',
+                        'https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=500',
+                        'https://images.unsplash.com/photo-1525921429624-479b6a26d84d?w=500',
+                        'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=500'
+                    ] %}
+                {% else %}
+                    {% set imgs = [
+                        'https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=500',
+                        'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=500',
+                        'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500',
+                        'https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?w=500',
+                        'https://images.unsplash.com/photo-1577985051167-0d49eec21977?w=500',
+                        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500',
+                        'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+                        'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500',
+                        'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500', 
+                        'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500'
+                    ] %}
+                {% endif %}
+                
+                {# 현재 아이템 순서에 따라 이미지 선택 (loop.index0 % 10) #}
+                {% set current_img = imgs[loop.index0 % 10] %}
+                {# [수정 끝] #}
+
+            <a href="{{ item.link }}" class="card">
+                <div class="card-img" style="background-image: url('{{ current_img }}'); background-size: cover; background-position: center;">
+                    <div style="position:absolute; top:10px; right:10px; background:white; padding:5px; border-radius:50%; width:30px; height:30px; display:flex; align-items:center; justify-content:center;">
+                        <img src="{{ '/static/img/pin-univ.png' if item.category == 'university' else '/static/img/pin-school.png' }}" style="width:18px;">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4 style="margin: 0 0 10px; font-size: 1.1rem; font-weight: 700;">{{ item.basic_info.name_ja }}</h4>
+                    <p style="font-size: 0.85rem; color: #777; margin-bottom: 12px;">
+                        <i class="fas fa-map-marker-alt" style="color: #e67e22;"></i> {{ item.basic_info.address }}
+                    </p>
+                    <div style="margin-top: auto; display: flex; gap: 5px; flex-wrap: wrap;">
+                        {% for tag in item.features[:3] %}
+                        <span style="font-size: 0.7rem; background: #eee; padding: 3px 8px; border-radius: 4px;">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <!-- 로고 이미지로 교체 -->
+            <a href="/" class="footer-logo-link">
+                <img src="/static/img/logo.png" alt="JP Campus" class="footer-logo">
+            </a>
+            
+            <div class="footer-links">
+                <a href="/guide">Guide</a>
+                <a href="/about">About</a>
+                <a href="/policy">Privacy</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en', 
+                includedLanguages: 'en,ja,ko,zh-CN,zh-TW,vi,th,id',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

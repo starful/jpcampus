@@ -1,133 +1,54 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japan Study Guide - JP Campus</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <title>{{ meta_title }}</title>
+    <meta name="description" content="{{ meta_desc }}">
+    <link rel="stylesheet" href="/static/css/style.css?v=5.1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .guide-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 30px; }
-        .guide-card { background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); overflow: hidden; transition: transform 0.2s; border: 1px solid #eee; }
-        .guide-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .guide-body { padding: 20px; }
-        .guide-tag { font-size: 0.8rem; color: #3498db; font-weight: bold; margin-bottom: 5px; display: block; }
-        .guide-title { font-size: 1.1rem; color: #2c3e50; margin: 0 0 10px; font-weight: bold; }
-        .guide-desc { font-size: 0.9rem; color: #666; line-height: 1.5; margin: 0; }
-        .read-more { display: inline-block; margin-top: 15px; font-size: 0.9rem; color: #2c3e50; text-decoration: underline; }
-    </style>
 </head>
-<body style="background-color: #f9f9f9;">
-    <!-- [수정] 헤더에 언어 버튼 추가 -->
-    <header class="main-header" style="padding: 20px 0;">
-        <div class="logo-container">
-            <a href="/" class="logo">
-                <img src="/static/img/logo.png" alt="JP Campus" class="logo-img">
-            </a>
-        </div>
-        <div class="lang-switch" style="text-align: center; margin-top: 10px;">
-            <button onclick="setLanguage('en')">🇺🇸</button>
-            <button onclick="setLanguage('ko')">🇰🇷</button>
+<body style="background-color: #f9f9f9; padding-top: 80px;">
+    
+    <!-- Header -->
+    <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
+        <div class="header-content">
+            <a href="/" class="logo"><img src="/static/img/logo.png" class="logo-img"></a>
+            <div id="google_translate_element"></div>
         </div>
     </header>
 
-    <main class="content-section" style="padding: 40px 20px;">
-        <div style="text-align: center; max-width: 800px; margin: 0 auto;">
-            <h1 data-i18n="guide_list_title">📚 Essential Guides for Studying in Japan</h1>
-            <p data-i18n="guide_list_desc">Information you must know before studying in Japan, from preparation to living tips.</p>
+    <main class="content-section" style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h1 style="color:#2c3e50; font-weight:800; margin-bottom:10px;">📚 Essential Guides for Japan</h1>
+            <p style="color:#666;">Comprehensive guides for your study abroad journey.</p>
         </div>
 
-        <div class="guide-grid">
-            <!-- 1. Cost -->
-            <a href="/guide/cost" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_cost">Cost/Budget</span>
-                    <h3 class="guide-title" data-i18n="guide_cost_t">💰 1-Year Cost Breakdown</h3>
-                    <p class="guide-desc" data-i18n="guide_cost_d">Tuition, housing, and living expenses. A realistic budget analysis.</p>
+        <div class="card-grid">
+            {% for guide in guides %}
+            <a href="{{ guide.link }}" class="card">
+                <div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); background-size: cover;"></div>
+                <div class="card-body">
+                    <span style="font-size: 0.8rem; color: #3498db; font-weight: bold; text-transform: uppercase;">{{ guide.category }}</span>
+                    <h4 style="margin: 8px 0; font-size: 1.1rem;">{{ guide.title }}</h4>
+                    <p style="font-size: 0.9rem; color: #666;">{{ guide.description }}</p>
                 </div>
             </a>
-            <!-- 2. School Choice -->
-            <a href="/guide/school-choice" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_school">Selection</span>
-                    <h3 class="guide-title" data-i18n="guide_school_t">🏫 5 Criteria for Choosing a School</h3>
-                    <p class="guide-desc" data-i18n="guide_school_d">How to choose the right school for university, job, or conversation.</p>
-                </div>
-            </a>
-            <!-- 3. Visa -->
-            <a href="/guide/visa" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_visa">Visa</span>
-                    <h3 class="guide-title" data-i18n="guide_visa_t">✈️ Visa Application Guide</h3>
-                    <p class="guide-desc" data-i18n="guide_visa_d">Step-by-step guide from COE issuance to visa application.</p>
-                </div>
-            </a>
-            <!-- 4. Housing -->
-            <a href="/guide/housing" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_house">Housing</span>
-                    <h3 class="guide-title" data-i18n="guide_housing_t">🏠 Dorm vs Share House vs Apartment</h3>
-                    <p class="guide-desc" data-i18n="guide_housing_d">Pros/cons of each housing type and initial cost comparison.</p>
-                </div>
-            </a>
-            <!-- 5. Part-time -->
-            <a href="/guide/part-time" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_work">Part-time</span>
-                    <h3 class="guide-title" data-i18n="guide_parttime_t">🍔 Part-time Jobs & Wages</h3>
-                    <p class="guide-desc" data-i18n="guide_parttime_d">Work permit, recommended jobs by level, and average wages.</p>
-                </div>
-            </a>
-            <!-- 6. Exam -->
-            <a href="/guide/eju-jlpt" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_exam">Exam</span>
-                    <h3 class="guide-title" data-i18n="guide_exam_t">📚 EJU vs JLPT Guide</h3>
-                    <p class="guide-desc" data-i18n="guide_exam_d">Differences between EJU and JLPT for university admission.</p>
-                </div>
-            </a>
-            <!-- 7. Prep -->
-            <a href="/guide/preparation" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_prep">Packing</span>
-                    <h3 class="guide-title" data-i18n="guide_prep_t">🧳 Pre-departure Checklist</h3>
-                    <p class="guide-desc" data-i18n="guide_prep_d">Must-bring items like Hanko, adapter, and documents.</p>
-                </div>
-            </a>
-            <!-- 8. Mobile/Bank -->
-            <a href="/guide/mobile-bank" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_settle">Settlement</span>
-                    <h3 class="guide-title" data-i18n="guide_settle_t">📱 Resident Registration & Bank</h3>
-                    <p class="guide-desc" data-i18n="guide_settle_d">Guide to City Hall procedures, SIM card, and bank account.</p>
-                </div>
-            </a>
-            <!-- 9. Insurance -->
-            <a href="/guide/insurance" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_ins">Insurance</span>
-                    <h3 class="guide-title" data-i18n="guide_ins_t">🏥 Health Insurance & Hospital</h3>
-                    <p class="guide-desc" data-i18n="guide_ins_d">How to apply for insurance fee reduction and use hospitals.</p>
-                </div>
-            </a>
-            <!-- 10. Region -->
-            <a href="/guide/region" class="guide-card">
-                <div class="guide-body">
-                    <span class="guide-tag" data-i18n="tag_region">Region</span>
-                    <h3 class="guide-title" data-i18n="guide_region_t">🌏 Tokyo vs Osaka vs Rural</h3>
-                    <p class="guide-desc" data-i18n="guide_region_d">Comparison of standard language, living costs, and atmosphere.</p>
-                </div>
-            </a>
+            {% endfor %}
         </div>
         
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="/" style="display: inline-block; background: #3498db; color: #fff; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: bold;" data-i18n="btn_back_main">Back to Main Map</a>
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="/" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">Back to Map</a>
         </div>
     </main>
 
     <footer class="main-footer">
         <div class="footer-content">
-            <h3>JP Campus</h3>
+            <!-- 로고 이미지로 교체 -->
+            <a href="/" class="footer-logo-link">
+                <img src="/static/img/logo.png" alt="JP Campus" class="footer-logo">
+            </a>
+            
             <div class="footer-links">
                 <a href="/guide">Guide</a>
                 <a href="/about">About</a>
@@ -138,7 +59,11 @@
         </div>
     </footer>
     
-    <!-- [중요] i18n.js 연결 -->
-    <script src="/static/js/i18n.js?v=2.4"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+    </script>
 </body>
 </html>

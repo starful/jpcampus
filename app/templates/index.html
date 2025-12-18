@@ -233,6 +233,12 @@
                 </a>
                 {% endfor %}
             </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="/schools" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">
+                    View All Guides >
+                </a>
+            </div>
         </div>
     </section>
     {% endif %}
@@ -285,56 +291,65 @@
                 </a>
                 {% endfor %}
             </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="/universities" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">
+                    View All Guides >
+                </a>
+            </div>
         </div>
     </section>
     {% endif %}
 
     <!-- [섹션 3] Guide Section -->
+    {% if latest_guides %}
     <section class="guide-section" style="background-color: #fff; padding: 80px 0; border-top: 1px solid #eee;">
         <div class="guide-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">📚 Essential Guides for Japan</h3>
+            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">
+                📚 Essential Guides for Japan
+            </h3>
             
             <div class="card-grid">
-                <a href="/guide/cost" class="card">
-                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500'); background-size: cover; background-position: center;"></div>
+                {% for guide in latest_guides %}
+                <a href="{{ guide.link }}" class="card">
+                    <!-- 썸네일 -->
+                    <div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); background-size: cover; background-position: center;"></div>
+                    
                     <div class="card-body">
-                        <h4>💰 1-Year Cost Breakdown</h4>
-                        <p>Realistic budget analysis for studying in Tokyo.</p>
+                        <!-- 카테고리 -->
+                        <span style="font-size: 0.8rem; color: #3498db; font-weight: bold; text-transform: uppercase; display:block; margin-bottom:5px;">
+                            {{ guide.category }}
+                        </span>
+                        <!-- 제목 -->
+                        <h4 style="margin: 0 0 10px; font-size: 1.15rem; font-weight: 700; color: var(--text-dark);">
+                            {{ guide.title }}
+                        </h4>
+                        <!-- 설명 -->
+                        <p style="font-size: 0.95rem; color: #666; line-height: 1.5; margin: 0;">
+                            {{ guide.description | truncate(60) }}
+                        </p>
                     </div>
                 </a>
-                <a href="/guide/school-choice" class="card">
-                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500'); background-size: cover; background-position: center;"></div>
-                    <div class="card-body">
-                        <h4>🏫 5 Criteria for Choosing</h4>
-                        <p>How to choose the right school for your goals.</p>
-                    </div>
-                </a>
-                <a href="/guide/visa" class="card">
-                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500'); background-size: cover; background-position: center;"></div>
-                    <div class="card-body">
-                        <h4>✈️ Visa Application Guide</h4>
-                        <p>Step-by-step guide to COE and visa application.</p>
-                    </div>
-                </a>
-                <a href="/guide/housing" class="card">
-                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500'); background-size: cover; background-position: center;"></div>
-                    <div class="card-body">
-                        <h4>🏠 Dorm vs Share House</h4>
-                        <p>Pros and cons of each housing type and costs.</p>
-                    </div>
-                </a>
+                {% endfor %}
             </div>
             
             <div style="text-align: center; margin-top: 50px;">
-                <a href="/guide" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">View All Guides ></a>
+                <a href="/guide" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">
+                    View All Guides >
+                </a>
             </div>
         </div>
     </section>
+    {% endif %}
 
     <!-- Footer -->
     <footer class="main-footer">
         <div class="footer-content">
-            <h3>JP Campus</h3>
+            <!-- 로고 이미지로 교체 -->
+            <a href="/" class="footer-logo-link">
+                <img src="/static/img/logo.png" alt="JP Campus" class="footer-logo">
+            </a>
+            
             <div class="footer-links">
                 <a href="/guide">Guide</a>
                 <a href="/about">About</a>
