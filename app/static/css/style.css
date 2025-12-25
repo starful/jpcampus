@@ -1,3 +1,5 @@
+/* app/static/css/style.css */
+
 /* === 1. Reset & Base === */
 :root {
     --primary: #3498db;
@@ -9,6 +11,8 @@
     --radius: 8px;
     --shadow: 0 4px 12px rgba(0,0,0,0.05);
     --max-width: 1200px;
+    
+    /* 상단 고정 영역 높이 (헤더 + 검색창 + 통계바) */
     --header-height: 270px; 
 }
 
@@ -22,52 +26,174 @@ html, body {
     height: 100%;
 }
 
-body { display: flex; flex-direction: column; min-height: 100vh; top: 0 !important; position: static !important; }
-body.main-layout { padding-top: var(--header-height); }
+body {
+    display: flex; flex-direction: column; min-height: 100vh;
+}
+
+/* 메인 레이아웃일 때만 상단 여백 추가 */
+body.main-layout {
+    padding-top: var(--header-height);
+}
 
 a { text-decoration: none; color: inherit; }
 button { cursor: pointer; border: none; font-family: inherit; }
 
-/* === Header & Nav === */
-.fixed-top-area { position: fixed; top: 0; left: 0; width: 100%; z-index: 2000; background-color: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
-.main-header { height: 80px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #f0f0f0; background: #fff; width: 100%; }
-.header-content { width: 100%; max-width: var(--max-width); padding: 0 20px; display: flex; justify-content: center; align-items: center; }
-.logo-img { height: 50px; width: auto; display: block; transition: height 0.3s; }
+/* === 2. Fixed Top Area (상단 고정) === */
+.fixed-top-area {
+    position: fixed;
+    top: 0; left: 0; width: 100%;
+    z-index: 2000;
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
 
-/* === Search Panel === */
+.main-header {
+    height: 80px; 
+    display: flex; align-items: center; justify-content: center;
+    border-bottom: 1px solid #f0f0f0;
+    background: #fff;
+    width: 100%;
+}
+
+.header-content {
+    width: 100%; max-width: var(--max-width); padding: 0 20px;
+    display: flex; justify-content: center; /* 로고 중앙 정렬 */
+    align-items: center;
+}
+
+.logo-img { 
+    height: 50px; 
+    width: auto; 
+    display: block; 
+    transition: height 0.3s;
+}
+
 .detail-search-panel { padding: 15px 0 15px; width: 100%; background: #fff; border-bottom: 1px solid #eee; }
 .search-wrapper { max-width: var(--max-width); margin: 0 auto; padding: 0 20px; }
 .search-container { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
-.search-container select, .search-container input[type="text"] { width: 100%; height: 40px; padding: 0 10px; border: 1px solid #ddd; border-radius: 6px; background-color: #fff; font-size: 0.85rem; color: var(--text-dark); }
+
+.search-container select, .search-container input[type="text"] {
+    width: 100%; height: 40px; padding: 0 10px;
+    border: 1px solid #ddd; border-radius: 6px;
+    background-color: #fff; font-size: 0.85rem; color: var(--text-dark);
+}
 .search-container select:focus, input:focus { border-color: var(--primary); outline: none; background: #fafdff; }
 .search-container > div input { margin-bottom: 0 !important; }
+
 .search-actions { display: flex; justify-content: center; gap: 12px; margin-top: 15px; }
-.apply-btn { width: 150px; height: 40px; background: var(--primary); color: white; border-radius: 20px; font-weight: bold; font-size: 0.95rem; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 8px rgba(52, 152, 219, 0.3); text-decoration: none; }
+
+.apply-btn {
+    width: 150px; height: 40px; background: var(--primary); color: white;
+    border-radius: 20px; font-weight: bold; font-size: 0.95rem;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 3px 8px rgba(52, 152, 219, 0.3);
+    text-decoration: none;
+}
 .apply-btn:hover { background: var(--primary-dark); }
-.reset-btn { width: 120px; height: 40px; background: #f1f3f5; color: #555; border-radius: 20px; font-weight: 500; font-size: 0.95rem; display: flex; align-items: center; justify-content: center; }
+
+.reset-btn {
+    width: 120px; height: 40px; background: #f1f3f5; color: #555;
+    border-radius: 20px; font-weight: 500; font-size: 0.95rem;
+    display: flex; align-items: center; justify-content: center;
+}
 .reset-btn:hover { background: #e9ecef; }
 
-/* === Stats Bar === */
-.stats-bar-container { background-color: #f8f9fa; padding: 10px 0; width: 100%; border-bottom: 1px solid #e1e8ed; display: flex; justify-content: center; align-items: center; }
-.stats-badges { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
-.badge-item { display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px; border-radius: 50px; font-size: 0.85rem; font-weight: 500; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+/* === [NEW] Stats Bar (통계 배지) === */
+.stats-bar-container {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid #e1e8ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-badges {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.badge-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
 .badge-blue { background-color: #e3f2fd; color: #1565c0; border: 1px solid #bbdefb; }
+.badge-gray { background-color: #eceff1; color: #455a64; border: 1px solid #cfd8dc; }
 .badge-orange { background-color: #fff3e0; color: #ef6c00; border: 1px solid #ffe0b2; }
 
 /* === Map Section === */
-.map-section { width: 100%; max-width: none; margin: 0; padding: 0; position: relative; z-index: 1; }
-.map-container-inner { width: 100%; height: 600px; border-radius: 0; border: none; background: #eee; }
-#map { width: 100%; height: 100%; }
-.map-overlay-info { position: absolute; top: 20px; right: 20px; background: rgba(255, 255, 255, 0.95); padding: 10px 20px; border-radius: 30px; font-size: 0.9rem; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.15); z-index: 10; }
+.map-section {
+    width: 100%; max-width: none;
+    margin: 0; padding: 0;
+    position: relative; z-index: 1;
+}
 
-/* === Floating Box & Guide === */
-.floating-container { width: 100%; position: relative; z-index: 10; margin-top: -80px; padding: 0 20px; pointer-events: none; }
-.floating-box { max-width: 900px; margin: 0 auto; background-color: var(--white); border-radius: 20px; padding: 40px 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; pointer-events: auto; }
+.map-container-inner {
+    width: 100%; height: 600px;
+    border-radius: 0; border: none;
+    background: #eee;
+}
+#map { width: 100%; height: 100%; }
+
+.map-overlay-info {
+    position: absolute; top: 20px; right: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px 20px; border-radius: 30px;
+    font-size: 0.9rem; font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    z-index: 10;
+}
+
+/* Info Window (커스텀 디자인) */
+.gm-style .gm-style-iw-c { padding: 0 !important; border-radius: 12px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important; overflow: hidden !important; }
+.gm-style-iw-d { overflow: hidden !important; }
+.gm-style .gm-style-iw-t::after { display: none; }
+.gm-ui-hover-effect { top: 5px !important; right: 5px !important; background: rgba(255,255,255,0.8) !important; border-radius: 50%; }
+
+.info-window-card { width: 280px; font-family: 'Noto Sans KR', sans-serif; background: #fff; }
+.iw-header { padding: 15px 20px; display: flex; flex-direction: column; justify-content: center; }
+.iw-title { font-size: 1.05rem; font-weight: 700; margin: 0; line-height: 1.4; }
+.iw-title:hover { text-decoration: underline; }
+.iw-body { padding: 0 20px 20px; }
+.iw-row { font-size: 0.9rem; color: #555; margin-bottom: 8px; display: flex; align-items: flex-start; gap: 8px; }
+.iw-icon { color: #888; width: 16px; margin-top: 3px; flex-shrink: 0; }
+.iw-btn { display: block; width: 100%; text-align: center; padding: 10px 0; margin-top: 10px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: bold; transition: background 0.2s; }
+.iw-btn:hover { filter: brightness(95%); }
+
+/* === Floating Box === */
+.floating-container {
+    width: 100%; position: relative; z-index: 10;
+    margin-top: -80px; 
+    padding: 0 20px; pointer-events: none;
+}
+
+.floating-box {
+    max-width: 900px; margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 20px; padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center; pointer-events: auto;
+}
 .floating-box h2 { font-size: 1.8rem; color: var(--text-dark); margin-bottom: 15px; font-weight: 700; }
 .floating-box p { font-size: 1.05rem; color: #555; line-height: 1.6; margin: 0; }
-.guide-section { background-color: #f9f9f9; padding: 80px 0; margin-top: 40px; border-top: 1px solid #eee; }
+
+/* === Card Grid & Guide Section === */
+.guide-section {
+    background-color: #f9f9f9; padding: 80px 0; margin-top: 40px; border-top: 1px solid #eee;
+}
 .guide-wrapper, .content-wrapper { max-width: var(--max-width); margin: 0 auto; padding: 0 20px; }
 .section-title { font-size: 1.8rem; text-align: center; margin-bottom: 50px; color: var(--text-dark); font-weight: 800; }
+
 .card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 25px; }
 .card { background: var(--white); border-radius: 12px; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; overflow: hidden; height: 100%; text-decoration: none; color: inherit; }
 .card:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,0.1); }
@@ -76,7 +202,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
 .card-body h4 { margin: 0 0 10px; font-size: 1.15rem; font-weight: 700; color: var(--text-dark); }
 .card-body p { font-size: 0.95rem; color: #666; line-height: 1.5; margin: 0; }
 
-/* === Detail Page === */
+/* === Detail Page Styles === */
 .detail-container { max-width: 900px; margin: 40px auto; padding: 0 20px; width: 100%; box-sizing: border-box; }
 .school-header { background: var(--white); padding: 40px; border-radius: var(--radius); box-shadow: var(--shadow); text-align: center; margin-bottom: 30px; border: 1px solid #eee; word-break: break-word; }
 .school-header h1 { margin: 0 0 10px; font-size: 1.8rem; }
@@ -97,6 +223,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
 .cta-area { text-align: center; margin-top: 40px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
 .cta-btn { display: inline-block; background: var(--primary); color: white; padding: 15px 30px; border-radius: 30px; font-size: 1rem; font-weight: bold; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4); text-decoration: none; transition: transform 0.2s; }
 .cta-btn:hover { transform: translateY(-3px); background: var(--primary-dark); }
+.cta-btn[disabled] { background: #ccc; box-shadow: none; cursor: not-allowed; }
 .back-link { font-size: 0.95rem; font-weight: 500; color: var(--text-gray); display: flex; align-items: center; gap: 5px; }
 .back-link:hover { color: var(--primary); }
 
@@ -115,6 +242,7 @@ button { cursor: pointer; border: none; font-family: inherit; }
     .search-container { grid-template-columns: repeat(4, 1fr); }
     .card-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
 @media (max-width: 768px) {
     .main-header { height: 60px; }
     .logo-img { height: 35px; }
@@ -140,10 +268,34 @@ button { cursor: pointer; border: none; font-family: inherit; }
     .cta-btn { width: 100%; text-align: center; }
 }
 
-/* === [핵심] 구글 크롬 오버레이 강제 숨김 === */
-.google-anno-skip, .google-anno-sc, .goog-te-banner-frame, .goog-te-balloon-frame,
-[class*="google-anno"], [id*="google-anno"] {
-    display: none !important; width: 0 !important; height: 0 !important;
-    opacity: 0 !important; pointer-events: none !important; position: absolute !important; top: -9999px !important;
+/* === [최종 수정] 구글 크롬 쇼핑/번역 오버레이만 핀포인트로 숨김 === */
+body > .google-anno-skip, 
+body > .google-anno-sc,
+body > .goog-te-banner-frame,
+body > .goog-te-balloon-frame {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    top: -9999px !important;
 }
+
+.goog-tooltip, #goog-gt-tt, .goog-te-gadget-icon {
+    display: none !important;
+}
+
+.school-description iframe, .stats-bar-container iframe {
+    display: none !important;
+}
+
+body { top: 0 !important; position: static !important; }
+
+/* 지도 내 이미지는 보이게 유지 */
+.gm-style img { 
+    display: inline-block !important; 
+    max-width: none !important;
+}
+.gm-style-iw-c { padding: 0 !important; }
 .notranslate { -webkit-user-select: none; }
