@@ -32,7 +32,6 @@ async def ads_txt():
 
 @app.get("/sitemap.xml", response_class=PlainTextResponse)
 async def sitemap():
-    # 1. 고정 페이지 URL
     urls = [
         f"{DOMAIN}/",
         f"{DOMAIN}/about",
@@ -43,14 +42,12 @@ async def sitemap():
         f"{DOMAIN}/policy"
     ]
     
-    # 2. 학교 및 대학 상세 페이지 URL
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
             for s in data.get('schools', []):
                 urls.append(f"{DOMAIN}/school/{s['id']}")
     
-    # 3. 가이드 상세 페이지 URL
     guide_dir = "app/content"
     guide_files = glob.glob(os.path.join(guide_dir, "guide_*.md"))
     
@@ -64,7 +61,6 @@ async def sitemap():
         except Exception:
             pass
     
-    # XML 생성
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for url in urls:
@@ -91,7 +87,7 @@ async def read_root(request: Request):
             schools_data = data.get('schools', [])
             updated_at = data.get('last_updated', '')
 
-    school_count = len(schools_data)
+    school_count = len(schools_data) # 전체 학교 수
     meta_desc = f"Compare {school_count} Japanese language schools & universities. Tuition, location, and nationality ratio."
 
     # 학교/대학 데이터 분리
@@ -127,6 +123,7 @@ async def read_root(request: Request):
         "meta_title": "JP Campus - Japanese Language School Map",
         "meta_desc": meta_desc,
         "updated_at": updated_at,
+        "school_count": school_count, # [중요] 템플릿에 학교 수 전달
         "latest_schools": latest_schools,
         "latest_universities": latest_universities,
         "latest_guides": guides
@@ -146,24 +143,28 @@ async def read_school_detail(request: Request, school_id: str):
         post = frontmatter.load(f)
     
     raw_content = post.content
-    # 마크다운 전처리 및 변환
+    # 마크다운 전처리
     raw_content = re.sub(r'\|([^\n]+)\|\s*\|(:?-+:?)\|', r'|\1|\n|\2|', raw_content)
     raw_content = re.sub(r'\.\s*\*', '.\n\n*', raw_content)
-    content_html = markdown.markdown(raw_content, extensions=['tables', 'fenced_code', 'nl2br', 'sane_lists'])
+    # [추가 전처리] 리스트 내 ** 강조 문법 보정
+    raw_content = re.sub(r'-\s*\n\s*\*\*', '- **', raw_content)
+    raw_content = re.sub(r'\n\s*\*\*\s*\n', '\n\n', raw_content)
+    
+    content_html = markdown.markdown(
+        raw_content,
+        extensions=['tables', 'fenced_code', 'nl2br', 'sane_lists']
+    )
     
     school = post.metadata
     
-    # [SEO 최적화] Title & Description 생성
     name_ja = school.get('basic_info', {}).get('name_ja', 'Unknown')
     name_en = school.get('basic_info', {}).get('name_en', '')
     
-    # Title
     if name_en:
         page_title = f"{name_en} ({name_ja}) - Tuition & Admission Info | JP Campus"
     else:
         page_title = f"{name_ja} - Japanese Language School Info | JP Campus"
 
-    # Description
     tuition = school.get('tuition', {}).get('yearly_tuition', 'N/A')
     if isinstance(tuition, int):
         tuition_str = f"¥{tuition:,}"
@@ -173,7 +174,6 @@ async def read_school_detail(request: Request, school_id: str):
     location = school.get('basic_info', {}).get('address', 'Japan')
     page_desc = f"Comprehensive guide for {name_ja}. Yearly tuition: {tuition_str}. Located in {location}. Find admission requirements, dormitory info, and scholarships."
 
-    # OG Image 설정
     thumbnail_path = school.get('thumbnail', '/static/img/og-image.png')
     if thumbnail_path.startswith('/'):
         og_image_url = f"{DOMAIN}{thumbnail_path}"

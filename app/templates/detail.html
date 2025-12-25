@@ -7,42 +7,28 @@
     <meta name="description" content="{{ meta_desc }}">
     <link rel="canonical" href="{{ meta_url }}">
     
-    <!-- Open Graph (Dynamic Image) -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ meta_url }}">
     <meta property="og:title" content="{{ meta_title }}">
     <meta property="og:description" content="{{ meta_desc }}">
     <meta property="og:image" content="{{ og_image }}">
     
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ meta_title }}">
-    <meta name="twitter:description" content="{{ meta_desc }}">
-    <meta name="twitter:image" content="{{ og_image }}">
-    
     <link rel="icon" href="/static/img/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.1">
+    <link rel="stylesheet" href="/static/css/style.css?v=5.3">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+    <!-- 구글 애드센스 -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
 
-    <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "EducationalOrganization",
       "name": "{{ school.basic_info.name_ja }}",
       "url": "{{ meta_url }}",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "{{ school.basic_info.address }}",
-        "addressCountry": "JP"
-      },
-      "description": "{{ meta_desc }}",
-      "sameAs": [
-        "{{ school.basic_info.website }}"
-      ]
+      "address": { "@type": "PostalAddress", "streetAddress": "{{ school.basic_info.address }}", "addressCountry": "JP" },
+      "description": "{{ meta_desc }}"
     }
     </script>
 </head>
@@ -51,10 +37,7 @@
 
     <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
         <div class="header-content">
-            <a href="/" class="back-link">
-                <i class="fas fa-arrow-left"></i> Back to Map
-            </a>
-            <div id="google_translate_element"></div>
+            <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Map</a>
         </div>
     </header>
 
@@ -64,29 +47,22 @@
             <h1>{{ school.basic_info.name_ja }}</h1>
             <p class="address"><i class="fas fa-map-marker-alt"></i> {{ school.basic_info.address }}</p>
             
-            <div class="school-description">
+            <!-- 본문에 번역 방지 적용 -->
+            <div class="school-description notranslate" translate="no">
                 {{ content_body | safe }}
             </div>
         </div>
 
-        <!-- 기본 정보 그리드 -->
+        <!-- 정보 카드 -->
         <div class="info-grid">
             <div class="info-card">
                 <div class="icon-box"><i class="fas fa-users"></i></div>
-                <div class="text-box">
-                    <span class="label">Capacity</span>
-                    <span class="value">
-                        {{ school.basic_info.capacity if school.basic_info.capacity else 'N/A' }}
-                    </span>
-                </div>
+                <div class="text-box"><span class="label">Capacity</span><span class="value">{{ school.basic_info.capacity if school.basic_info.capacity else 'N/A' }}</span></div>
             </div>
             {% if school.stats and school.stats.international_students %}
             <div class="info-card">
                 <div class="icon-box"><i class="fas fa-globe"></i></div>
-                <div class="text-box">
-                    <span class="label">Intl. Students</span>
-                    <span class="value">{{ school.stats.international_students }}</span>
-                </div>
+                <div class="text-box"><span class="label">Intl. Students</span><span class="value">{{ school.stats.international_students }}</span></div>
             </div>
             {% endif %}
             <div class="info-card">
@@ -94,53 +70,35 @@
                 <div class="text-box">
                     <span class="label">Tuition (1st Year)</span>
                     <span class="value">
-                        {% if school.tuition and school.tuition.yearly_tuition %}
-                            ¥{{ "{:,}".format(school.tuition.yearly_tuition) }}
-                        {% else %}
-                            -
-                        {% endif %}
+                        {% if school.tuition and school.tuition.yearly_tuition %}¥{{ "{:,}".format(school.tuition.yearly_tuition) }}{% else %}-{% endif %}
                     </span>
                 </div>
             </div>
         </div>
 
-        <!-- 특징 태그 -->
         {% if school.features %}
         <section class="detail-section">
             <h2><i class="fas fa-star"></i> Features</h2>
             <ul class="feature-list">
-                {% for feature in school.features %}
-                <li>{{ feature }}</li>
-                {% endfor %}
+                {% for feature in school.features %}<li>{{ feature }}</li>{% endfor %}
             </ul>
         </section>
         {% endif %}
         
-        <!-- 하단 버튼 영역 -->
         <div class="cta-area" style="display: flex; justify-content: center; gap: 15px; margin-top: 50px; padding-bottom: 30px;">
-            <!-- 공식 홈페이지 버튼 -->
             {% set link = school.basic_info.website if school.category == 'university' else school.source_url %}
             {% if link %}
-            <a href="{{ link }}" target="_blank" class="cta-btn">
-                Visit Official Website <i class="fas fa-external-link-alt"></i>
-            </a>
+            <a href="{{ link }}" target="_blank" class="cta-btn">Visit Official Website <i class="fas fa-external-link-alt"></i></a>
             {% else %}
             <button class="cta-btn" disabled style="background:#ccc; cursor:not-allowed;">No Website Available</button>
             {% endif %}
-
-            <!-- 메인으로 돌아가기 버튼 -->
-            <a href="/" class="cta-btn" style="background-color: #7f8c8d; box-shadow: 0 4px 15px rgba(127, 140, 141, 0.4);">
-                Back to Main <i class="fas fa-home"></i>
-            </a>
+            <a href="/" class="cta-btn" style="background-color: #7f8c8d; box-shadow: 0 4px 15px rgba(127, 140, 141, 0.4);">Back to Main <i class="fas fa-home"></i></a>
         </div>
     </main>
 
     <footer class="main-footer">
         <div class="footer-content">
-            <a href="/" class="footer-logo-link">
-                <img src="/static/img/logo.png" alt="JP Campus" class="footer-logo">
-            </a>
-            
+            <a href="/" class="footer-logo-link"><img src="/static/img/logo.png" alt="JP Campus" class="footer-logo"></a>
             <div class="footer-links">
                 <a href="/guide">Guide</a>
                 <a href="/about">About</a>
@@ -151,16 +109,29 @@
         </div>
     </footer>
 
-    <!-- Google Translate Script -->
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- [핵심] 구글 오버레이 강제 제거 스크립트 (Detail 페이지용) -->
     <script>
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en', 
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                autoDisplay: false
-            }, 'google_translate_element');
+    (function() {
+        // 스타일로 강제 숨김
+        const style = document.createElement('style');
+        style.innerHTML = `
+            .google-anno-skip, .google-anno-sc, .goog-te-banner-frame, .goog-te-balloon-frame {
+                display: none !important; opacity: 0 !important; pointer-events: none !important;
+            }
+            body { top: 0 !important; }
+        `;
+        document.head.appendChild(style);
+
+        // 요소 발견 즉시 삭제 함수
+        function killAnnoyances() {
+            document.querySelectorAll('.google-anno-skip, .google-anno-sc').forEach(el => el.remove());
         }
+        
+        // 주기적 실행 및 감시
+        setInterval(killAnnoyances, 500); 
+        const observer = new MutationObserver(killAnnoyances);
+        observer.observe(document.body, { childList: true, subtree: true });
+    })();
     </script>
 
 </body>

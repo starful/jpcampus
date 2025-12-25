@@ -69,8 +69,6 @@ Rikkyo University maintains a strong network of alumni who are active in various
 | Yearly Tuition (Science) | 1,764,000    |
 | Other Fees               | Varies       |
 
-_Note: Tuition fees vary depending on the faculty and department. The amounts shown above are approximate. Check the official website for the most up-to-date information._
-
 ## 🌍 International Student Support
 
 Rikkyo University offers a comprehensive range of support services for international students to help them adjust to life in Japan and succeed in their studies. These services include:
