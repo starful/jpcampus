@@ -4,6 +4,7 @@ import json
 import time
 import google.generativeai as genai
 from dotenv import load_dotenv
+import logging
 
 # ==========================================
 # [설정]
@@ -15,9 +16,15 @@ model = genai.GenerativeModel('gemini-2.0-flash')
 # 경로 설정
 INPUT_CSV = "scripts/file/guide_topics.csv"
 OUTPUT_DIR = "app/content"
+LOG_DIR = "logs"
 
 # 🎯 생성할 가이드 개수 제한 (0 또는 음수면 제한 없음)
 LIMIT = 10
+
+# 로깅 설정
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)
+logging.basicConfig(filename=os.path.join(LOG_DIR, "guide_gen.log"), level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # 🖼️ 카테고리별 썸네일 이미지 매핑 (Unsplash)
 THUMBNAILS = {
@@ -88,8 +95,10 @@ def main():
     print(f"🚀 Found {len(rows)} topics. Starting generation...")
     
     count = 0
+    skipped_count = 0
+
     for row in rows:
-        # 제한 개수 도달 시 중단
+        # 제한 개수 도달 시 중단 (새로 생성한 개수 기준)
         if LIMIT > 0 and count >= LIMIT:
             print(f"🛑 Limit reached ({LIMIT}). Stopping generation.")
             break
@@ -97,6 +106,13 @@ def main():
         slug = row['slug']
         filename = f"guide_{slug}.md"
         filepath = os.path.join(OUTPUT_DIR, filename)
+
+        # [핵심] 파일 존재 시 스킵
+        if os.path.exists(filepath):
+            print(f"⏭️ Skipping (Exists): {filename}")
+            skipped_count += 1
+            logging.info(f"Skipped: {filename}")
+            continue
 
         # AI 콘텐츠 생성
         content_body = generate_content(row)
@@ -125,10 +141,11 @@ def main():
                 f.write(content_body)
             
             print(f"✅ Saved: {filename}")
+            logging.info(f"Generated: {filename}")
             count += 1
             time.sleep(2) # API 제한 방지
 
-    print(f"✨ Job Finished. Total generated: {count}")
+    print(f"✨ Job Finished. Generated: {count}, Skipped: {skipped_count}")
 
 if __name__ == "__main__":
     main()

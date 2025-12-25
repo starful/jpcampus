@@ -7,19 +7,27 @@
     <meta name="description" content="{{ meta_desc }}">
     <link rel="canonical" href="{{ meta_url }}">
     
-    <!-- Open Graph -->
+    <!-- Open Graph (Dynamic Image) -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ meta_url }}">
     <meta property="og:title" content="{{ meta_title }}">
     <meta property="og:description" content="{{ meta_desc }}">
-    <meta property="og:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
+    <meta property="og:image" content="{{ og_image }}">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ meta_title }}">
+    <meta name="twitter:description" content="{{ meta_desc }}">
+    <meta name="twitter:image" content="{{ og_image }}">
     
     <link rel="icon" href="/static/img/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.0">
+    <link rel="stylesheet" href="/static/css/style.css?v=5.1">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <!-- [SEO] 구조화된 데이터 (JSON-LD) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
+
+    <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -37,20 +45,6 @@
       ]
     }
     </script>
-
-    <style>
-        .goog-te-banner-frame.skiptranslate { display: none !important; }
-        body { top: 0px !important; }
-        .goog-tooltip { display: none !important; }
-        .goog-te-gadget-simple {
-            background-color: transparent !important;
-            border: 1px solid #ddd !important;
-            padding: 4px 8px !important;
-            border-radius: 4px !important;
-            font-size: 0.9rem !important;
-        }
-        .goog-te-gadget-icon { display: none !important; }
-    </style>
 </head>
 
 <body class="detail-page" style="padding-top: 80px;">
@@ -121,12 +115,10 @@
             </ul>
         </section>
         {% endif %}
-
-        <!-- [삭제됨] Location (Map) Section -->
         
         <!-- 하단 버튼 영역 -->
         <div class="cta-area" style="display: flex; justify-content: center; gap: 15px; margin-top: 50px; padding-bottom: 30px;">
-            <!-- 1. 공식 홈페이지 버튼 -->
+            <!-- 공식 홈페이지 버튼 -->
             {% set link = school.basic_info.website if school.category == 'university' else school.source_url %}
             {% if link %}
             <a href="{{ link }}" target="_blank" class="cta-btn">
@@ -136,7 +128,7 @@
             <button class="cta-btn" disabled style="background:#ccc; cursor:not-allowed;">No Website Available</button>
             {% endif %}
 
-            <!-- 2. [추가됨] 메인으로 돌아가기 버튼 -->
+            <!-- 메인으로 돌아가기 버튼 -->
             <a href="/" class="cta-btn" style="background-color: #7f8c8d; box-shadow: 0 4px 15px rgba(127, 140, 141, 0.4);">
                 Back to Main <i class="fas fa-home"></i>
             </a>
@@ -145,7 +137,6 @@
 
     <footer class="main-footer">
         <div class="footer-content">
-            <!-- 로고 이미지로 교체 -->
             <a href="/" class="footer-logo-link">
                 <img src="/static/img/logo.png" alt="JP Campus" class="footer-logo">
             </a>
@@ -161,17 +152,16 @@
     </footer>
 
     <!-- Google Translate Script -->
-    <script type="text/javascript">
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'en', 
-                includedLanguages: 'en,ja,ko,zh-CN,zh-TW,vi,th,id',
                 layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
                 autoDisplay: false
             }, 'google_translate_element');
         }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>

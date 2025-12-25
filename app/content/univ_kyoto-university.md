@@ -4,117 +4,85 @@
   "id": "univ_kyoto-university",
   "title": "京都大学",
   "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
+  "tags":
+    ["SGU", "EJU Required", "English Program", "Dormitory", "Scholarship"],
   "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.0270496,
-    "lng": 135.7823155
-  },
-  "basic_info": {
-    "name_ja": "京都大学",
-    "name_en": "Kyoto University",
-    "address": "京都府京都市左京区吉田本町",
-    "website": "https://www.kyoto-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 2700,
-    "acceptance_rate": "15%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Integrated Human Studies",
-    "Letters",
-    "Education",
-    "Law",
-    "Economics",
-    "Science",
-    "Medicine",
-    "Pharmaceutical Sciences",
-    "Engineering",
-    "Agriculture",
-    "Global Engineering",
-    "Informatics",
-    "Energy Science",
-    "Asian and African Area Studies",
-    "Life Sciences",
-    "Advanced Integrated Studies in Human Survivability (Shishu-kan)",
-    "Management",
-    "Design"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ]
+  "location": { "lat": 35.0270496, "lng": 135.7823155 },
+  "basic_info":
+    {
+      "name_ja": "京都大学",
+      "name_en": "Kyoto University",
+      "address": "京都府京都市左京区吉田本町",
+      "website": "https://www.kyoto-u.ac.jp/",
+    },
+  "stats": { "international_students": 2600, "acceptance_rate": "13%" },
+  "tuition": { "admission_fee": 282000, "yearly_tuition": 535800 },
+  "faculties":
+    [
+      "Faculty of Integrated Human Studies",
+      "Faculty of Letters",
+      "Faculty of Education",
+      "Faculty of Law",
+      "Faculty of Economics",
+      "Faculty of Science",
+      "Faculty of Medicine",
+      "Faculty of Pharmaceutical Sciences",
+      "Faculty of Engineering",
+      "Faculty of Agriculture",
+    ],
+  "features":
+    ["SGU", "EJU Required", "English Program", "Dormitory", "Scholarship"],
 }
 ---
 
 ## 🏫 University Overview
 
-Kyoto University (京都大学, Kyōto Daigaku), or Kyodai (京大, Kyōdai) as it's commonly known, is a national university located in Kyoto, Japan. It is the second oldest university in Japan, one of the former Imperial Universities, and consistently ranks among the top universities in Asia and worldwide. Founded in 1897, Kyoto University has a long and distinguished history of academic excellence and groundbreaking research. The university is particularly renowned for its contributions to natural sciences, but also has strong programs in humanities, social sciences, and engineering. Kyodai has produced numerous Nobel laureates and Fields Medalists, solidifying its position as a leading research institution. Its commitment to fostering independent thought and innovative research is a hallmark of its educational philosophy. The university emphasizes critical thinking, interdisciplinary collaboration, and a dedication to addressing global challenges. Kyoto University's campus provides a unique blend of traditional Japanese architecture and modern research facilities, creating a stimulating environment for learning and discovery. Its location in the culturally rich city of Kyoto further enhances the student experience, offering access to a wealth of historical and artistic resources.
+Kyoto University (京都大学, Kyōto Daigaku), or Kyodai (京大, Kyōdai) as it is commonly known, is a national university located in Kyoto, Japan. It is the second oldest university in Japan, one of the former Imperial Universities, and one of Japan's highest ranked universities. Renowned for its research output and the high number of Nobel laureates affiliated with the university, Kyoto University consistently ranks among the top universities globally.
 
-Kyoto University is a designated National University Corporation and is comprised of ten faculties, eighteen graduate schools, thirteen research institutes and twenty-nine centers. The university also has three hospitals, fourteen libraries, and sixteen museums.
+Founded in 1897 as Kyoto Imperial University, it has a long and distinguished history of academic excellence. Its roots trace back to the Chemestry Training Center, which was established in Osaka in 1869, and it has consistently played a pivotal role in shaping Japan's intellectual landscape. The university emphasizes academic freedom and encourages independent thought, fostering a vibrant and innovative research environment. Kyoto University is a member of the Japanese University Association for National Universities (JANU) and the RU11 group.
 
-The university places great emphasis on undergraduate education but has a large graduate program. It accepts international students into both undergraduate and graduate programs. Kyoto University is part of the Top Global University Project of the Japanese government, aimed at enhancing the international competitiveness of Japanese universities.
-
+Kyoto University's academic philosophy centers on promoting groundbreaking research and fostering independent and critical thinking. The university aims to produce graduates who are not only knowledgeable but also capable of contributing to society through their expertise and innovation. With a strong emphasis on research, Kyoto University has made significant contributions to various fields, including science, technology, humanities, and social sciences. It is particularly recognized for its cutting-edge research in fields like materials science, immunology, and robotics. The university's commitment to excellence in both teaching and research makes it a highly sought-after destination for students and scholars from around the world.
 
 ## 🎓 Faculties & Departments
 
-| Faculty                        | Departments                                                                                                                                                                     |
-|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Integrated Human Studies       | Integrated Human Studies                                                                                                                                                          |
-| Letters                        | Philosophy, History, Behavioral Science, Japanese Studies                                                                                                                         |
-| Education                      | Education, Integrated Education Science                                                                                                                                            |
-| Law                            | Law                                                                                                                                                                                  |
-| Economics                      | Economics, Management                                                                                                                                                             |
-| Science                        | Mathematics, Physics, Astronomy, Geophysics, Chemistry, Biology, Earth and Planetary Sciences                                                                                     |
-| Medicine                       | Medicine, Human Health Sciences                                                                                                                                                     |
-| Pharmaceutical Sciences        | Pharmaceutical Sciences, Pharmacy                                                                                                                                                 |
-| Engineering                    | Architecture, Civil Engineering, Mechanical Engineering, Electrical Engineering, Electronic Engineering, Chemical Engineering, Materials Science, Earth Resources Engineering, Industrial Chemistry, Polymer Chemistry, Metallurgy, Naval Architecture, Aeronautics, Mineral Science and Technology, Synthetic Chemistry and Biological Chemistry, Precision Mechanics, Transportation Engineering, Sanitary Engineering, Nuclear Engineering, Applied Mathematics and Physics, Applied Physics, Electrical Communication Engineering, Automation Science, Information Science, Computer Science, Chemical Engineering and Fuel Technology, Metallurgy and Metal Technology, Resources Engineering, Architecture and Building Science, Electronic Science and Engineering, Civil Engineering Systems, Polymer Chemistry and Engineering, Materials Science and Engineering, Mechanical Engineering Science                                                                                             |
-| Agriculture                    | Agronomy, Forestry, Agricultural Chemistry, Agricultural Biology, Agricultural Engineering, Fisheries, Food Science and Technology                                                  |
-| Global Engineering             | Global Engineering                                                                                                                                                            |
-| Informatics                    | Informatics                                                                                                                                                                    |
-| Energy Science                 | Energy Science                                                                                                                                                                   |
-| Asian and African Area Studies | Asian and African Area Studies                                                                                                                                                   |
-| Life Sciences                  | Life Sciences                                                                                                                                                                      |
-| Advanced Integrated Studies in Human Survivability (Shishu-kan) | Advanced Integrated Studies in Human Survivability                                                                                                          |
-| Management                      | Management                                                                                                                                                                       |
-| Design                         | Design                                                                                                                                                                          |
+Kyoto University encompasses a wide range of faculties and graduate schools, covering diverse academic disciplines. Each faculty is further divided into departments and programs, offering students a specialized education within their chosen field of study.
 
+| Faculty                             | Departments/Programs (Examples)                                                                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Faculty of Integrated Human Studies | Science and Humanity, Cognitive and Information Sciences, Culture and Environment, Interdisciplinary Studies                                                              |
+| Faculty of Letters                  | Philosophy, History, Linguistics, Literature, Religious Studies                                                                                                           |
+| Faculty of Education                | Educational Science, Curriculum Studies, Human Development                                                                                                                |
+| Faculty of Law                      | Law, Political Science                                                                                                                                                    |
+| Faculty of Economics                | Economics, Business Administration                                                                                                                                        |
+| Faculty of Science                  | Mathematics, Physics, Chemistry, Biology, Earth and Planetary Sciences                                                                                                    |
+| Faculty of Medicine                 | Medicine, Nursing, Medical Science                                                                                                                                        |
+| Faculty of Pharmaceutical Sciences  | Pharmaceutical Sciences, Pharmacy                                                                                                                                         |
+| Faculty of Engineering              | Civil Engineering, Mechanical Engineering, Electrical Engineering, Chemical Engineering, Architecture, Materials Science and Engineering, Applied Mathematics and Physics |
+| Faculty of Agriculture              | Agronomy, Forestry, Agricultural Chemistry, Agricultural Biology, Agricultural Engineering, Fisheries                                                                     |
 
 ## 💰 Tuition & Fees
 
+The tuition and fees at Kyoto University are standardized across all national universities in Japan. International students should be aware of the costs associated with studying in Japan and make appropriate financial arrangements.
+
 | Fee Type       | Amount (JPY) |
-|----------------|--------------|
+| -------------- | ------------ |
 | Admission Fee  | 282,000      |
 | Yearly Tuition | 535,800      |
 
-
 ## 🌍 International Student Support
 
-Kyoto University offers a variety of support services for international students, including:
+Kyoto University provides comprehensive support for international students to ensure a smooth and enriching academic experience. This support includes accommodation, language courses, career guidance, and various cultural exchange programs.
 
-*   **Dormitory:** The university provides on-campus and off-campus housing options for international students. These dormitories are often a more affordable option than private rentals.
-*   **English Programs:** Many graduate programs are offered entirely in English, and even programs primarily taught in Japanese often provide support for international students who are still developing their Japanese language skills.
-*   **Career Support:** The university's career services provide guidance and resources for international students seeking employment opportunities in Japan and abroad. This includes workshops, networking events, and individual consultations.
-*   **International Student Advisors:** Dedicated advisors are available to assist international students with visa issues, housing, financial aid, and other concerns.
-*   **Japanese Language Courses:** Kyoto University offers a range of Japanese language courses for international students, from beginner to advanced levels.
-*   **Scholarships:** A variety of scholarships are available for international students, both from the university and external organizations.
-
+- **Dormitory:** The university offers various accommodation options, including international student dormitories and apartments. These facilities provide a comfortable and supportive living environment.
+- **English Programs:** Many graduate programs are offered in English, catering to international students. There are also Japanese language courses available for those who wish to improve their proficiency.
+- **Career Support:** The university's career center provides guidance and resources to help international students find employment opportunities after graduation. This includes career counseling, workshops, and job fairs.
 
 ## 📍 Campus Location & Access
 
-| Campus        | Address                             | Access                                                                                                                                    |
-|---------------|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Yoshida Campus | Kyoto, Sakyo Ward, Yoshida Honmachi | From Kyoto Station, take city bus number 17, 3, or 206 and get off at "Kyodai-Seimon-mae" (京都大学正門前). Approximately a 30-40 minute ride. |
+Kyoto University's main campus is located in Kyoto, Japan, a city renowned for its rich cultural heritage and historical landmarks. The campus is easily accessible by public transportation.
+
+| Location              | Access                                                                                             |
+| --------------------- | -------------------------------------------------------------------------------------------------- |
+| Main Campus (Yoshida) | Accessible by bus from Kyoto Station. Also, a short walk from Demachiyanagi Station (Keihan Line). |
+| Uji Campus            | Accessible by train and bus from Kyoto Station.                                                    |
+| Katsura Campus        | Accessible by bus from various stations around Kyoto.                                              |

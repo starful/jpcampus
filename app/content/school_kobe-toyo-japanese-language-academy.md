@@ -4,89 +4,87 @@
   "id": "school_kobe-toyo-japanese-language-academy",
   "title": "神戸東洋日本語学院",
   "category": "school",
-  "tags": [
-    "Dormitory",
-    "Scholarships",
-    "EJU",
-    "Science",
-    "University Preparation",
-    "Conversation",
-    "Business",
-    "Art",
-    "Design",
-    "Short-Term"
-  ],
+  "tags":
+    [
+      "Dormitory",
+      "Scholarships",
+      "EJU",
+      "Science",
+      "University Preparation",
+      "Conversation",
+      "Business",
+      "Art",
+      "Design",
+      "Short-Term",
+    ],
   "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6910859,
-    "lng": 135.187186
-  },
-  "basic_info": {
-    "name_ja": "神戸東洋日本語学院",
-    "address": "兵庫県神戸市中央区北長狭通4-5-7",
-    "capacity": 520
-  },
-  "stats": {
-    "international_students": 0,
-    "capacity": 520
-  },
+  "location": { "lat": 34.6910859, "lng": 135.187186 },
+  "basic_info":
+    {
+      "name_ja": "神戸東洋日本語学院",
+      "address": "兵庫県神戸市中央区北長狭通4-5-7",
+      "capacity": 520,
+    },
+  "stats": { "international_students": 0, "capacity": 520 },
   "tuition": {},
   "faculties": [],
-  "features": [
-    "Dormitory",
-    "Scholarships",
-    "EJU",
-    "Science",
-    "University Preparation",
-    "Conversation",
-    "Business",
-    "Art",
-    "Design",
-    "Short-Term"
-  ],
-  "courses": [
-    {
-      "course_name": "春コースⅠ",
-      "admission_month": "4",
-      "total_fees": 720000
-    },
-    {
-      "course_name": "春コースⅡ",
-      "admission_month": "4",
-      "total_fees": 1360000
-    },
-    {
-      "course_name": "夏コースⅠ",
-      "admission_month": "7",
-      "total_fees": 720000
-    },
-    {
-      "course_name": "夏コースⅡ",
-      "admission_month": "7",
-      "total_fees": 1201000
-    },
-    {
-      "course_name": "秋コースⅠ",
-      "admission_month": "10",
-      "total_fees": 720000
-    },
-    {
-      "course_name": "秋コースⅡ",
-      "admission_month": "10",
-      "total_fees": 1040000
-    },
-    {
-      "course_name": "冬コースⅠ",
-      "admission_month": "1",
-      "total_fees": 720000
-    },
-    {
-      "course_name": "冬コースⅡ",
-      "admission_month": "1",
-      "total_fees": 881000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=372"
+  "features":
+    [
+      "Dormitory",
+      "Scholarships",
+      "EJU",
+      "Science",
+      "University Preparation",
+      "Conversation",
+      "Business",
+      "Art",
+      "Design",
+      "Short-Term",
+    ],
+  "courses":
+    [
+      {
+        "course_name": "春コースⅠ",
+        "admission_month": "4",
+        "total_fees": 720000,
+      },
+      {
+        "course_name": "春コースⅡ",
+        "admission_month": "4",
+        "total_fees": 1360000,
+      },
+      {
+        "course_name": "夏コースⅠ",
+        "admission_month": "7",
+        "total_fees": 720000,
+      },
+      {
+        "course_name": "夏コースⅡ",
+        "admission_month": "7",
+        "total_fees": 1201000,
+      },
+      {
+        "course_name": "秋コースⅠ",
+        "admission_month": "10",
+        "total_fees": 720000,
+      },
+      {
+        "course_name": "秋コースⅡ",
+        "admission_month": "10",
+        "total_fees": 1040000,
+      },
+      {
+        "course_name": "冬コースⅠ",
+        "admission_month": "1",
+        "total_fees": 720000,
+      },
+      {
+        "course_name": "冬コースⅡ",
+        "admission_month": "1",
+        "total_fees": 881000,
+      },
+    ],
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=372",
 }
 ---
 
@@ -102,11 +100,11 @@ Kobe Toyo Japanese Language Academy enjoys a convenient location in the heart of
 
 Here's a breakdown of access times from major stations:
 
-| Station | Approximate Travel Time (Minutes) | Mode of Transportation | Notes |
-|---|---|---|---|
-| Sannomiya Station (Main Kobe Station) | 5-10 | Train or Subway |  Central hub with connections to Osaka and other major cities. |
-| Motomachi Station | 3-5 | Walk |  Close proximity, great for exploring the local area. |
-| Kobe Station | 10-15 | Train or Bus | Offers access to different parts of Kobe. |
+| Station                               | Approximate Travel Time (Minutes) | Mode of Transportation | Notes                                                         |
+| ------------------------------------- | --------------------------------- | ---------------------- | ------------------------------------------------------------- |
+| Sannomiya Station (Main Kobe Station) | 5-10                              | Train or Subway        | Central hub with connections to Osaka and other major cities. |
+| Motomachi Station                     | 3-5                               | Walk                   | Close proximity, great for exploring the local area.          |
+| Kobe Station                          | 10-15                             | Train or Bus           | Offers access to different parts of Kobe.                     |
 
 ## 🎓 Curriculum & Courses
 
@@ -116,19 +114,19 @@ The academy provides both long-term and short-term courses, catering to varying 
 
 Here's a general overview of the curriculum levels:
 
-| Level | Goal | Focus | JLPT Target | Equivalent Course Length (approx.) | Notes |
-|---|---|---|---|---|---|
-| Beginner (N5 equivalent) | Basic communication skills | Introduction to grammar, vocabulary, and basic sentence structures.  | N5 | 3 months | Learn fundamental Japanese. |
-| Elementary (N4 equivalent) | Improved conversational skills | Expanding vocabulary, understanding more complex grammar. | N4 | 3-6 months | Can hold simple conversations. |
-| Intermediate (N3 equivalent) | Ability to understand and participate in everyday conversations | Advanced grammar, reading comprehension, and writing skills. | N3 | 6-9 months | Can understand the main points of clear standard speech on familiar matters. |
-| Upper-Intermediate (N2 equivalent) | Proficiency in understanding and expressing complex ideas | Advanced reading comprehension, writing essays, and participating in discussions. | N2 | 9-12 months | Can understand Japanese used in a variety of circumstances. |
-| Advanced (N1 equivalent) | Mastery of the Japanese language | High-level communication, in-depth knowledge of Japanese culture and society. | N1 | 12+ months | Can understand Japanese used in a wide variety of circumstances. |
+| Level                              | Goal                                                            | Focus                                                                             | JLPT Target | Equivalent Course Length (approx.) | Notes                                                                        |
+| ---------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------- | ---------------------------------- | ---------------------------------------------------------------------------- |
+| Beginner (N5 equivalent)           | Basic communication skills                                      | Introduction to grammar, vocabulary, and basic sentence structures.               | N5          | 3 months                           | Learn fundamental Japanese.                                                  |
+| Elementary (N4 equivalent)         | Improved conversational skills                                  | Expanding vocabulary, understanding more complex grammar.                         | N4          | 3-6 months                         | Can hold simple conversations.                                               |
+| Intermediate (N3 equivalent)       | Ability to understand and participate in everyday conversations | Advanced grammar, reading comprehension, and writing skills.                      | N3          | 6-9 months                         | Can understand the main points of clear standard speech on familiar matters. |
+| Upper-Intermediate (N2 equivalent) | Proficiency in understanding and expressing complex ideas       | Advanced reading comprehension, writing essays, and participating in discussions. | N2          | 9-12 months                        | Can understand Japanese used in a variety of circumstances.                  |
+| Advanced (N1 equivalent)           | Mastery of the Japanese language                                | High-level communication, in-depth knowledge of Japanese culture and society.     | N1          | 12+ months                         | Can understand Japanese used in a wide variety of circumstances.             |
 
 In addition to standard language classes, Kobe Toyo Japanese Language Academy offers elective courses, including:
 
-*   **Business Japanese:** Learn the language and etiquette required for professional settings.
-*   **Japanese Culture:** Explore traditional and modern Japanese culture through various activities and lectures.
-*   **Art & Design:** This course is tailored to students who are planning to enter Art or Design Universities in Japan. 
+- **Business Japanese:** Learn the language and etiquette required for professional settings.
+- **Japanese Culture:** Explore traditional and modern Japanese culture through various activities and lectures.
+- **Art & Design:** This course is tailored to students who are planning to enter Art or Design Universities in Japan.
 
 ## 📈 Support for Higher Education & Employment
 
@@ -142,27 +140,27 @@ Kobe Toyo Japanese Language Academy offers dormitory accommodation for internati
 
 Here's an example of possible dormitory fees (please note these are indicative and actual fees should be verified with the school):
 
-| Room Type | Monthly Rent (approx. Yen) | Utilities (approx. Yen) | Commute Time to School | Notes |
-|---|---|---|---|---|
-| Single Room | 50,000 - 70,000 | 5,000 - 10,000 | 15-30 minutes (by public transport) | Private space, may have limited availability. |
-| Shared Room | 30,000 - 50,000 | 5,000 - 10,000 | 15-30 minutes (by public transport) | More affordable, opportunity to socialize. |
+| Room Type   | Monthly Rent (approx. Yen) | Utilities (approx. Yen) | Commute Time to School              | Notes                                         |
+| ----------- | -------------------------- | ----------------------- | ----------------------------------- | --------------------------------------------- |
+| Single Room | 50,000 - 70,000            | 5,000 - 10,000          | 15-30 minutes (by public transport) | Private space, may have limited availability. |
+| Shared Room | 30,000 - 50,000            | 5,000 - 10,000          | 15-30 minutes (by public transport) | More affordable, opportunity to socialize.    |
 
-*Note: These are estimated costs. Actual dormitory fees and availability may vary. Contact the school directly for current information.*
+_Note: These are estimated costs. Actual dormitory fees and availability may vary. Contact the school directly for current information._
 
 ## 💰 Tuition & Scholarships
 
 The tuition fees at Kobe Toyo Japanese Language Academy vary depending on the course length and type. The school offers various courses with different admission months and durations, each with its own associated cost. Here's a breakdown of the tuition fees for the courses listed:
 
-| Course Name | Admission Month | Total Fees (Yen) | Notes |
-|---|---|---|---|
-| Spring Course I | April | 720,000 | |
-| Spring Course II | April | 1,360,000 | |
-| Summer Course I | July | 720,000 | |
-| Summer Course II | July | 1,201,000 | |
-| Autumn Course I | October | 720,000 | |
-| Autumn Course II | October | 1,040,000 | |
-| Winter Course I | January | 720,000 | |
-| Winter Course II | January | 881,000 | |
+| Course Name      | Admission Month | Total Fees (Yen) | Notes |
+| ---------------- | --------------- | ---------------- | ----- |
+| Spring Course I  | April           | 720,000          |       |
+| Spring Course II | April           | 1,360,000        |       |
+| Summer Course I  | July            | 720,000          |       |
+| Summer Course II | July            | 1,201,000        |       |
+| Autumn Course I  | October         | 720,000          |       |
+| Autumn Course II | October         | 1,040,000        |       |
+| Winter Course I  | January         | 720,000          |       |
+| Winter Course II | January         | 881,000          |       |
 
 The total fees typically include tuition, entrance fee, and other miscellaneous fees. Contact the school directly for a detailed breakdown of the fees.
 
@@ -172,27 +170,27 @@ Regarding scholarships, Kobe Toyo Japanese Language Academy offers scholarships 
 
 **Pros:**
 
-*   Convenient location in the heart of Kobe.
-*   Comprehensive curriculum covering all aspects of the Japanese language.
-*   Strong support for university entrance, particularly for science-related fields.
-*   Dormitory accommodation available.
-*   Scholarship opportunities.
-*   Elective courses for Business Japanese and Japanese Culture.
-*   Offers both long-term and short-term courses.
+- Convenient location in the heart of Kobe.
+- Comprehensive curriculum covering all aspects of the Japanese language.
+- Strong support for university entrance, particularly for science-related fields.
+- Dormitory accommodation available.
+- Scholarship opportunities.
+- Elective courses for Business Japanese and Japanese Culture.
+- Offers both long-term and short-term courses.
 
 **Cons:**
 
-*   Dormitory availability may be limited.
-*   Job hunting support might be less comprehensive compared to schools focused solely on employment.
+- Dormitory availability may be limited.
+- Job hunting support might be less comprehensive compared to schools focused solely on employment.
 
 **Who is this school for?**
 
 Kobe Toyo Japanese Language Academy is ideal for international students who:
 
-*   Are planning to attend a Japanese university, especially in a science-related field.
-*   Want a well-rounded Japanese language education with a focus on practical communication skills.
-*   Seek a supportive and multicultural learning environment.
-*   Appreciate the convenience of dormitory accommodation and a central location in Kobe.
-*   Are interested in Business Japanese or Japanese culture.
+- Are planning to attend a Japanese university, especially in a science-related field.
+- Want a well-rounded Japanese language education with a focus on practical communication skills.
+- Seek a supportive and multicultural learning environment.
+- Appreciate the convenience of dormitory accommodation and a central location in Kobe.
+- Are interested in Business Japanese or Japanese culture.
 
 Overall, Kobe Toyo Japanese Language Academy is a reputable institution that provides a solid foundation in the Japanese language and offers excellent support for students aspiring to higher education in Japan. Its location, curriculum, and support services make it a strong contender for international students seeking a quality Japanese language education.

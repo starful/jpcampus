@@ -6,26 +6,26 @@ JP Campus is a comprehensive service that provides visualized data on Japanese l
 
 ## ✨ Key Features
 
-*   **🔍 Smart Filtering**:
-    *   **Tuition**: Filter by realistic ranges (¥850k, ¥900k, ¥1M).
-    *   **Nationality**: Find schools with specific demographics (Global, Low Korean ratio, High Western ratio, etc.).
-    *   **Location**: Filter by specific areas (Shinjuku, Ikebukuro, Chiba, etc.).
-*   **🗺️ Interactive Map**:
-    *   **Clustering**: efficiently displays hundreds of schools using `MarkerClusterer`.
-    *   **Performance**: Optimized rendering with Google Maps JavaScript API.
-*   **📊 Detailed Insights**: Provides AI-extracted data including tuition breakdown, student demographics, and career paths.
-*   **⚡ Modern Architecture**:
-    *   **FastAPI**: High-performance backend.
-    *   **Modular Design**: Separation of concerns (HTML/CSS/JS/Python).
-    *   **SEO Optimized**: JSON-LD structured data and dynamic meta tags.
+- **🔍 Smart Filtering**:
+  - **Tuition**: Filter by realistic ranges (¥850k, ¥900k, ¥1M).
+  - **Nationality**: Find schools with specific demographics (Global, Low Korean ratio, High Western ratio, etc.).
+  - **Location**: Filter by specific areas (Shinjuku, Ikebukuro, Chiba, etc.).
+- **🗺️ Interactive Map**:
+  - **Clustering**: efficiently displays hundreds of schools using `MarkerClusterer`.
+  - **Performance**: Optimized rendering with Google Maps JavaScript API.
+- **📊 Detailed Insights**: Provides AI-extracted data including tuition breakdown, student demographics, and career paths.
+- **⚡ Modern Architecture**:
+  - **FastAPI**: High-performance backend.
+  - **Modular Design**: Separation of concerns (HTML/CSS/JS/Python).
+  - **SEO Optimized**: JSON-LD structured data and dynamic meta tags.
 
 ## 🛠️ Tech Stack
 
-*   **Backend**: Python 3.11, FastAPI, Uvicorn
-*   **Frontend**: HTML5, CSS3, Vanilla JS (ES6+), Jinja2 Templates
-*   **Map & Data**: Google Maps JavaScript API, MarkerClusterer
-*   **AI & Crawling**: Google Gemini 1.5 Flash (Data Extraction), BeautifulSoup4
-*   **Infrastructure**: Google Cloud Platform (Cloud Run, Cloud Build, GCS)
+- **Backend**: Python 3.11, FastAPI, Uvicorn
+- **Frontend**: HTML5, CSS3, Vanilla JS (ES6+), Jinja2 Templates
+- **Map & Data**: Google Maps JavaScript API, MarkerClusterer
+- **AI & Crawling**: Google Gemini 1.5 Flash (Data Extraction), BeautifulSoup4
+- **Infrastructure**: Google Cloud Platform (Cloud Run, Cloud Build, GCS)
 
 ## 📂 Project Structure
 
@@ -57,11 +57,11 @@ jpcampus/
 
 ### 1. Prerequisites
 
-*   Python 3.11+
-*   Google Cloud Platform Account
-*   **API Keys Required**:
-    *   `GEMINI_API_KEY`: For data extraction.
-    *   `GOOGLE_MAPS_API_KEY`: For map visualization and geocoding.
+- Python 3.11+
+- Google Cloud Platform Account
+- **API Keys Required**:
+  - `GEMINI_API_KEY`: For data extraction.
+  - `GOOGLE_MAPS_API_KEY`: For map visualization and geocoding.
 
 ### 2. Clone & Install
 
@@ -112,7 +112,7 @@ gcloud builds submit --config=cloudbuild.yaml \
   --substitutions=_GOOGLE_MAPS_API_KEY="your_google_maps_api_key"
 ```
 
-*Ensure your `Dockerfile` entrypoint is updated to:* `CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]`
+_Ensure your `Dockerfile` entrypoint is updated to:_ `CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]`
 
 ## 📝 License
 

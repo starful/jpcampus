@@ -1,0 +1,31 @@
+2025-12-19 20:35:26,094 - Start processing. Pending: 201
+2025-12-19 20:35:35,809 - Success: L011.md -> school_marugame-international-academy.md
+2025-12-19 20:35:54,652 - Success: J015.md -> school_trinity-college-izumo-medical-welfare.md
+2025-12-19 20:36:13,801 - Success: B102.md -> school_kumamoto-ymca-college-japanese-language-department.md
+2025-12-19 20:36:30,593 - Success: B293.md -> school_kokusai-kotoba-gakuin-nihongo-gakko.md
+2025-12-19 20:36:50,972 - AI Error (行知学園日本語学校高田馬場校): Invalid \escape: line 11 column 1 (char 6569)
+2025-12-19 20:37:05,000 - AI Error (J S L日本アカデミー): Expecting ',' delimiter: line 4 column 4977 (char 5225)
+2025-12-19 20:37:17,938 - Success: A009.md -> school_asuka-gakuin.md
+2025-12-19 20:37:35,108 - Success: 5044.md -> school_kyoto-japanese-language-school.md
+2025-12-19 20:37:51,183 - Success: B254.md -> school_bunrin-gakuin-japanese-language-department.md
+2025-12-19 20:38:12,383 - Success: B085.md -> school_osafune-japanese-language-academy.md
+2025-12-19 20:38:29,381 - Success: B116.md -> school_hiroshima-ymca-specialized-school.md
+2025-12-19 20:38:49,962 - Success: A138.md -> school_clover-academy-osaka.md
+2025-12-23 21:34:06,931 - Start processing. Pending: 191
+2025-12-23 21:34:27,844 - Success: L010.md -> school_gyochigakuen-japanese-language-school-takadanobaba.md
+2025-12-23 21:34:45,148 - AI Error (J S L日本アカデミー): Expecting ',' delimiter: line 4 column 7039 (char 7226)
+2025-12-23 21:34:56,427 - Success: B211.md -> school_shizuoka-international-school.md
+2025-12-23 21:35:20,580 - Success: B122.md -> school_nicchu-language-academy.md
+2025-12-23 21:35:43,415 - AI Error (日立さくら日本語学校): Expecting ',' delimiter: line 4 column 4142 (char 4365)
+2025-12-23 21:35:59,083 - AI Error (清風情報工科学院日本語科): Expecting ',' delimiter: line 4 column 7981 (char 8248)
+2025-12-23 21:37:10,986 - Start processing. Pending: 188
+2025-12-23 21:37:17,629 - Success: A149.md -> school_j-s-l-nihon-academy.md
+2025-12-23 21:37:27,209 - Success: J001.md -> school_hitachi-sakura-nihongo-gakko.md
+2025-12-23 21:37:37,086 - Success: B598.md -> school_seifu-jouhou-kougakuin-senmon-gakkou-nihongo-ka.md
+2025-12-23 21:37:46,403 - Success: B489.md -> school_chuo-information-college.md
+2025-12-23 21:37:55,617 - Success: 111.md -> school_aso-foreign-language-tourism-bridal-college.md
+2025-12-23 21:38:05,243 - Success: J025.md -> school_teikyo-heisei-university-affiliated-japanese-language-school.md
+2025-12-23 21:38:15,996 - Success: L020.md -> school_nara-gaigo-gakuin.md
+2025-12-23 21:38:26,236 - Success: B017.md -> school_sam-kyoiku-gakuin.md
+2025-12-23 21:38:35,453 - Success: 5025.md -> school_jet-japanese-language-school.md
+2025-12-23 21:38:46,716 - Success: L014.md -> school_aomori-nihongo-gakuen.md

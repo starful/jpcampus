@@ -14,15 +14,19 @@ load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
-# 🎯 생성할 대학 개수 설정 (여기서 조절하세요)
+# 🎯 생성할 대학 개수 설정 (0이면 제한 없음)
 LIMIT = 10
 
 # 경로 설정
 INPUT_CSV = "scripts/file/univ_list_100.csv"
 OUTPUT_DIR = "app/content"
+LOG_DIR = "logs"
+HISTORY_FILE = os.path.join(LOG_DIR, "univ_processed_history.txt")
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
@@ -30,6 +34,18 @@ model = genai.GenerativeModel('gemini-2.0-flash')
 # ==========================================
 # [함수 정의]
 # ==========================================
+
+def load_history():
+    """처리된 학교 목록 로드"""
+    if not os.path.exists(HISTORY_FILE):
+        return set()
+    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+        return set(line.strip() for line in f)
+
+def append_history(name):
+    """처리된 학교 기록 추가"""
+    with open(HISTORY_FILE, "a", encoding="utf-8") as f:
+        f.write(f"{name}\n")
 
 def get_google_coordinates(address):
     """구글 맵스 API로 좌표 추출"""
@@ -110,7 +126,7 @@ def get_university_info(name_ja, name_en):
             res = model.generate_content(prompt)
             return json.loads(clean_json(res.text))
         except Exception as e:
-            print(f"   ⚠️ 재시도 중 ({i+1}/3)... {e}")
+            print(f"   ⚠️ Retry ({i+1}/3)... {e}")
             time.sleep(5)
     return None
 
@@ -147,7 +163,7 @@ def save_to_md(data):
     }
 
     # 4. 본문 분리
-    description = data.get('description_ko', '내용이 없습니다.')
+    description = data.get('description_ko', 'No content available.')
 
     # 5. 파일 쓰기
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -156,43 +172,46 @@ def save_to_md(data):
         f.write("\n---\n\n")
         f.write(description)
     
-    print(f"   ✅ 저장 완료: {filename}")
+    return filename
 
 # ==========================================
 # [메인 실행]
 # ==========================================
 def main():
     if not os.path.exists(INPUT_CSV):
-        print(f"❌ {INPUT_CSV} 파일이 없습니다.")
+        print(f"❌ {INPUT_CSV} file not found.")
         return
 
-    # CSV 읽기
+    # 처리된 목록 로드
+    processed_list = load_history()
+    
+    # CSV 읽기 및 필터링
     univ_list = []
     with open(INPUT_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            univ_list.append(row)
+            if row['name_ja'] not in processed_list:
+                univ_list.append(row)
             
-    print(f"🚀 총 {len(univ_list)}개 중 {LIMIT}개만 처리를 시작합니다...")
+    print(f"🚀 Total Universities: {len(univ_list)} (Already processed: {len(processed_list)})")
+    print(f"🎯 Target for this run: {LIMIT}")
 
     count = 0
-
     for univ in tqdm(univ_list):
-        # [수정됨] 제한 개수에 도달하면 종료
-        if count >= LIMIT:
-            print(f"🛑 설정된 제한({LIMIT}개)에 도달하여 종료합니다.")
+        if LIMIT > 0 and count >= LIMIT:
+            print(f"🛑 Limit reached ({LIMIT}). Stopping.")
             break
             
-        # 이미 존재하는 파일인지 체크 (중복 방지 로직 필요시 추가 가능)
-        
         data = get_university_info(univ['name_ja'], univ['name_en'])
         
         if data:
-            save_to_md(data)
+            filename = save_to_md(data)
+            append_history(univ['name_ja']) # 성공 시 기록
+            print(f"   ✅ Saved: {filename}")
             count += 1
             time.sleep(3) # API 제한 방지
         else:
-            print(f"   ❌ 실패: {univ['name_ja']}")
+            print(f"   ❌ Failed: {univ['name_ja']}")
 
 if __name__ == "__main__":
     main()

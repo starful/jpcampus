@@ -1,0 +1,171 @@
+---
+{
+  "layout": "school",
+  "id": "school_trinity-college-izumo-medical-welfare",
+  "title": "トリニティカレッジ出雲医療福祉専門学校",
+  "category": "school",
+  "tags":
+    [
+      "Dormitory",
+      "Private Room",
+      "Scholarships",
+      "EJU Preparation",
+      "Science Focused",
+      "University Advancement",
+      "Conversational Japanese",
+      "Business Japanese",
+      "Art",
+      "Design",
+      "Short-Term Courses",
+    ],
+  "thumbnail": "/static/img/pin-school.png",
+  "location": { "lat": 35.332186, "lng": 132.722255 },
+  "basic_info":
+    {
+      "name_ja": "トリニティカレッジ出雲医療福祉専門学校",
+      "address": "島根県出雲市西新町3-23-1",
+      "capacity": 60,
+    },
+  "stats": { "international_students": 0, "capacity": 60 },
+  "tuition": {},
+  "faculties": [],
+  "features":
+    [
+      "Dormitory",
+      "Private Room",
+      "Scholarships",
+      "EJU Preparation",
+      "Science Focused",
+      "University Advancement",
+      "Conversational Japanese",
+      "Business Japanese",
+      "Art",
+      "Design",
+      "Short-Term Courses",
+    ],
+  "courses":
+    [
+      {
+        "course_name": "介護進学コース",
+        "admission_month": "4",
+        "total_fees": 865000,
+      },
+      {
+        "course_name": "日本語進学2年コース",
+        "admission_month": "4",
+        "total_fees": 1615000,
+      },
+      {
+        "course_name": "日本語進学1.5年コース",
+        "admission_month": "10",
+        "total_fees": 1240000,
+      },
+    ],
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=552",
+}
+---
+
+## 🏫 School Overview
+
+Trinity College Izumo Medical & Welfare Professional Training College (トリニティカレッジ出雲医療福祉専門学校) is a vocational school located in Izumo, Shimane Prefecture, Japan. While technically a vocational school specializing in medical and welfare fields, it also offers comprehensive Japanese language programs designed to prepare international students for higher education in Japan. The school's philosophy centers on fostering compassionate and skilled professionals ready to contribute to society. The campus atmosphere is described as supportive and encouraging, with a strong emphasis on individual attention and student well-being.
+
+## 📍 Location & Surroundings
+
+Located in Izumo City, Shimane Prefecture, the school offers a quieter, more traditional Japanese experience compared to larger metropolitan areas. This environment can be beneficial for focused study and cultural immersion. While not a bustling metropolis, Izumo boasts historical significance (home to Izumo Taisha Grand Shrine) and a sense of community.
+
+Here's a table outlining the approximate access times to key locations:
+
+| Location                                        | Approximate Travel Time | Transportation Method                                             |
+| ----------------------------------------------- | ----------------------- | ----------------------------------------------------------------- |
+| Nearest Train Station (e.g., Izumo-shi Station) | 10-15 minutes           | Bus/Taxi/Walking (depending on the exact location of the station) |
+| Izumo Taisha Grand Shrine                       | 20-30 minutes           | Bus                                                               |
+| Local Convenience Store                         | 5-10 minutes            | Walking                                                           |
+| Izumo Airport                                   | 30-40 minutes           | Bus                                                               |
+
+The neighborhood is generally considered safe, contributing to a comfortable learning environment. Convenience stores are within easy reach for daily necessities.
+
+## 🎓 Curriculum & Courses
+
+Trinity College offers several Japanese language courses tailored to different proficiency levels and academic goals. The curriculum focuses on practical communication skills alongside grammar and reading comprehension, preparing students for both daily life and academic pursuits. EJU preparation is a core component, especially for those aiming to enter Japanese universities.
+
+**Available Courses:**
+
+- **介護進学コース (Caregiving Advancement Course):** Designed for students who want to enter caregiving-related vocational schools or universities. Focuses on Japanese language skills necessary for that field.
+- **日本語進学2年コース (Japanese Language Advancement 2-Year Course):** An intensive two-year program for students with little to no prior Japanese knowledge aiming to enter universities or other higher education institutions.
+- **日本語進学1.5年コース (Japanese Language Advancement 1.5-Year Course):** A shorter, more accelerated program for students with some existing Japanese knowledge who wish to prepare for higher education.
+
+**Curriculum Levels:**
+
+| Level        | Focus                                                                                                 | JLPT Target | Duration (Approximate) |
+| ------------ | ----------------------------------------------------------------------------------------------------- | ----------- | ---------------------- |
+| Beginner     | Basic grammar, vocabulary, and sentence structure. Introduction to Hiragana and Katakana.             | N5          | 3-6 months             |
+| Elementary   | Expanding vocabulary, understanding more complex grammar, and practicing conversational skills.       | N4          | 3-6 months             |
+| Intermediate | Refining grammar, improving reading comprehension, and developing fluency in spoken Japanese.         | N3          | 6-9 months             |
+| Advanced     | Mastering complex grammar, enhancing reading and writing skills, and preparing for academic Japanese. | N2/N1       | 6-9 months             |
+
+While the school's primary focus is on Japanese language proficiency for academic purposes, they likely incorporate elements of Japanese culture and potentially business Japanese to cater to diverse student needs. The availability of courses focused on Art and Design might relate to specific vocational tracks within the college, or could be elective options to broaden students' horizons.
+
+## 📈 Support for Higher Education & Employment
+
+The school provides guidance and support to students seeking to advance to universities or other vocational schools. This includes:
+
+- **EJU Preparation:** Dedicated classes and practice exams to improve scores on the Examination for Japanese University Admission for International Students (EJU).
+- **University Counseling:** Guidance on university selection, application procedures, and interview preparation.
+- **Visa Assistance:** Support with visa applications and renewals.
+
+Specific university acceptance records and detailed employment support information would be best obtained directly from the school.
+
+## 🏠 Accommodation & Facilities
+
+Trinity College offers on-campus dormitory accommodation, a significant advantage for international students adjusting to a new environment. The availability of private rooms (1人室) is a major plus, offering students privacy and a dedicated study space.
+
+**Dormitory Details (Estimates - Confirm with School):**
+
+| Room Type   | Monthly Cost (Approximate) | Amenities                                                  | Commute Time to School                |
+| ----------- | -------------------------- | ---------------------------------------------------------- | ------------------------------------- |
+| Single Room | ¥30,000 - ¥50,000          | Bed, desk, chair, closet, shared bathroom/kitchen (varies) | Within walking distance (few minutes) |
+
+It's important to confirm the exact amenities and costs directly with the school, as they can vary. On-campus accommodation simplifies daily life, reduces commute time, and fosters a sense of community among students.
+
+## 💰 Tuition & Scholarships
+
+Tuition fees vary depending on the chosen course and duration of study. Here's a breakdown based on the information provided:
+
+**Tuition Breakdown (Total Fees):**
+
+| Course Name                                                           | Total Fees (JPY) |
+| --------------------------------------------------------------------- | ---------------- |
+| 介護進学コース (Caregiving Advancement Course)                        | 865,000          |
+| 日本語進学2年コース (Japanese Language Advancement 2-Year Course)     | 1,615,000        |
+| 日本語進学1.5年コース (Japanese Language Advancement 1.5-Year Course) | 1,240,000        |
+
+**Important Note:** These are total fees for the _entire_ course duration. Inquire about payment plans and installment options. The school also offers scholarships (장학금) to eligible students. It's highly recommended to contact the school directly for detailed information on scholarship eligibility criteria and application procedures.
+
+## 💡 Summary & Recommendation
+
+**Pros:**
+
+- On-campus dormitory with private rooms.
+- Scholarship opportunities.
+- EJU preparation included in the curriculum.
+- Focus on both conversational and academic Japanese.
+- Located in a quieter, more traditional Japanese city.
+- Offers specialized track for caregiving professions.
+
+**Cons:**
+
+- Located in a less cosmopolitan area, which may not appeal to all students.
+- Information about university acceptance rates and detailed job support is limited (requires further investigation).
+- Mainly focusses on caregiving professions.
+
+**Who is this school for?**
+
+Trinity College Izumo Medical & Welfare Professional Training College is an excellent choice for international students who:
+
+- Prefer a smaller, more intimate learning environment.
+- Are seeking a supportive atmosphere with on-campus accommodation.
+- Are serious about improving their Japanese language skills for higher education or specialized careers (especially in caregiving).
+- Are interested in experiencing a more traditional side of Japan, away from the hustle and bustle of major cities.
+- Appreciate the lower living costs associated with a regional city.
+
+It's crucial to contact the school directly to obtain the most up-to-date information and to address any specific questions or concerns you may have. Be sure to inquire about scholarship availability, payment plan options, and specific details regarding university placement support.
