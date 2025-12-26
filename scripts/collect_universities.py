@@ -29,7 +29,7 @@ if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # ==========================================
 # [함수 정의]
