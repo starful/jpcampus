@@ -30,7 +30,7 @@ logging.basicConfig(filename=os.path.join(LOG_DIR, "guide_gen.log"), level=loggi
 THUMBNAILS = {
     "Cost": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500",       # 돈/계산기
     "Budget": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500",
-    "Selection": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500",  # 학교/교실
+    "Selection": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",  # [교체됨] 학교/교실 대체 -> 일본 거리
     "Visa": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",       # 여권/공항
     "Housing": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",    # 방/인테리어
     "Part-time": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",     # 카페/알바

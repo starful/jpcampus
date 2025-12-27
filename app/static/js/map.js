@@ -5,13 +5,38 @@ let schoolMarkers = [];
 let univMarkers = [];
 let markerCluster;
 let infoWindow;
-let ICONS = {}; 
 
-let markers = [];
-let clusterer = null;
 let LatLngBounds; 
 let AdvancedMarkerElement; 
 let PinElement; 
+
+// [NEW] 1. 커스텀 SVG 아이콘 정의 (직관적이고 깔끔한 벡터 그래픽)
+// 어학원용 (주황색, JLS 텍스트)
+const SVG_SCHOOL = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 84" width="32" height="46">
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+  </filter>
+  <g filter="url(#shadow)">
+    <path fill="#E67E22" stroke="#FFFFFF" stroke-width="2" d="M29,0C13,0,0,13,0,29c0,16,29,55,29,55s29-39,29-55C58,13,45,0,29,0z"/>
+    <circle cx="29" cy="29" r="18" fill="#FFFFFF" opacity="0.2"/>
+    <text x="29" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">JLS</text>
+  </g>
+</svg>`;
+
+// 대학용 (파란색, UNI 텍스트)
+const SVG_UNIV = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 84" width="32" height="46">
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+  </filter>
+  <g filter="url(#shadow)">
+    <path fill="#3498DB" stroke="#FFFFFF" stroke-width="2" d="M29,0C13,0,0,13,0,29c0,16,29,55,29,55s29-39,29-55C58,13,45,0,29,0z"/>
+    <circle cx="29" cy="29" r="18" fill="#FFFFFF" opacity="0.2"/>
+    <text x="29" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">UNI</text>
+  </g>
+</svg>`;
+
 
 async function initMap() {
     console.log("🚀 Google Maps Init Start");
@@ -23,14 +48,6 @@ async function initMap() {
     
     const coreLib = await google.maps.importLibrary("core");
     LatLngBounds = coreLib.LatLngBounds; 
-
-    // 핀 이미지 설정
-    ICONS = {
-        school: document.createElement('img'),
-        university: document.createElement('img')
-    };
-    ICONS.school.src = '/static/img/pin-school.png';
-    ICONS.university.src = '/static/img/pin-univ.png';
 
     const mapOptions = {
         zoom: 12,
@@ -61,7 +78,6 @@ function bindEvents() {
     document.querySelectorAll('.search-container select').forEach(select => {
         select.addEventListener('change', () => {
             updateFilterUI();
-            // applyFilters(); // 자동 검색 원하면 주석 해제
         });
     });
 
@@ -96,13 +112,11 @@ function updateFilterUI() {
     }
 }
 
-// [수정] 버튼 토글 로직 제거 (항상 둘 다 표시)
 function toggleButtons(isFiltered) {
-    // 아무것도 하지 않음 (CSS에서 display: flex로 항상 보여줌)
     return; 
 }
 
-// [중요] 렌더링 함수 수정 (i18n 제거)
+// [중요] 렌더링 함수 수정 (SVG 적용)
 function renderMarkers(data) {
     if (!map || !LatLngBounds || !AdvancedMarkerElement) {
         console.warn("⚠️ Maps library not loaded yet.");
@@ -118,48 +132,39 @@ function renderMarkers(data) {
     univMarkers = [];
 
     const bounds = new LatLngBounds();
+    const parser = new DOMParser(); // SVG 문자열을 DOM 요소로 변환하기 위함
 
     data.forEach(item => {
-        // 숫자 ID 제외
+        // 숫자 ID 제외 (구형 데이터 방지)
         if (/^\d+$/.test(item.id)) return;
 
         if (!item.location || !item.location.lat) return;
         const position = { lat: item.location.lat, lng: item.location.lng };
         
-        // 핀 생성
-        const pinImg = document.createElement("img");
+        // [NEW] SVG 문자열 선택 및 DOM 요소 변환
+        const isUniv = (item.category === 'university');
+        const svgString = isUniv ? SVG_UNIV : SVG_SCHOOL;
         
-        if (item.category === 'university') {
-            pinImg.src = '/static/img/pin-univ.png'; 
-            pinImg.width = 40;
-            
-            const marker = new AdvancedMarkerElement({
-                map: map,
-                position: position,
-                title: item.basic_info.name_ja,
-                zIndex: 9999,
-                content: pinImg,
-            });
+        // SVG 문자열을 HTML Element로 파싱
+        const pinContent = parser.parseFromString(svgString, 'image/svg+xml').documentElement;
+        
+        // AdvancedMarkerElement 생성
+        const marker = new AdvancedMarkerElement({
+            map: map,
+            position: position,
+            title: item.basic_info.name_ja,
+            content: pinContent, // SVG 요소를 컨텐츠로 설정
+            zIndex: isUniv ? 9999 : 1, // 대학을 위로 올림
+        });
 
-            marker.addListener("click", () => openInfoWindow(item, marker));
+        marker.addListener("click", () => openInfoWindow(item, marker));
+
+        if (isUniv) {
             univMarkers.push(marker); 
-            bounds.extend(position);
         } else {
-            pinImg.src = '/static/img/pin-school.png';
-            pinImg.width = 32;
-
-            const marker = new AdvancedMarkerElement({
-                map: map,
-                position: position,
-                title: item.basic_info.name_ja,
-                zIndex: 1,
-                content: pinImg,
-            });
-
-            marker.addListener("click", () => openInfoWindow(item, marker));
             schoolMarkers.push(marker);
-            bounds.extend(position);
         }
+        bounds.extend(position);
     });
 
     // 결과 수 업데이트
@@ -172,7 +177,7 @@ function renderMarkers(data) {
 }
 
 
-// [중요] 정보창 함수 수정 (영어 하드코딩)
+// 정보창 함수
 function openInfoWindow(school, marker) {
     const detailUrl = school.link || `/school/${school.id}`;
     
@@ -180,18 +185,20 @@ function openInfoWindow(school, marker) {
         ? school.basic_info.website 
         : (school.source_url || '#');
 
-    const labelColor = school.category === 'university' ? '#0F4C81' : '#E67E22';
+    const labelColor = school.category === 'university' ? '#3498DB' : '#E67E22'; // 핀 색상과 일치
     const labelText = school.category === 'university' ? 'UNIVERSITY' : 'LANGUAGE SCHOOL';
+    
+    // 이모지는 유지하되 색상 테마 통일
     const icon = school.category === 'university' ? '🎓' : '🏫';
 
     const contentString = `
         <div class="info-window-card">
-            <div class="iw-header" style="border-bottom: 2px solid ${labelColor}; padding-bottom:10px; margin-bottom:10px;">
-                <span style="font-size:0.75rem; font-weight:bold; color:${labelColor}; display:block; margin-bottom:4px;">
+            <div class="iw-header" style="border-left: 5px solid ${labelColor}; padding-left:15px; margin-bottom:10px;">
+                <span style="font-size:0.75rem; font-weight:bold; color:${labelColor}; display:block; margin-bottom:4px; letter-spacing:1px;">
                     ${labelText}
                 </span>
-                <a href="${detailUrl}" class="iw-title" style="color:#333; font-size:1.1rem; text-decoration:none;">
-                    ${icon} ${school.basic_info.name_ja}
+                <a href="${detailUrl}" class="iw-title" style="color:#333; font-size:1.1rem; text-decoration:none; display:block;">
+                    ${school.basic_info.name_ja}
                 </a>
             </div>
             
@@ -211,7 +218,7 @@ function openInfoWindow(school, marker) {
                 </a>
 
                 ${websiteUrl !== '#' ? `
-                <a href="${websiteUrl}" target="_blank" class="iw-btn" style="background-color: #fff; color: #555; border: 1px solid #ddd; margin-top: 8px;">
+                <a href="${websiteUrl}" target="_blank" class="iw-btn" style="background-color: #f8f9fa; color: #555; border: 1px solid #ddd; margin-top: 8px;">
                     Official Website <i class="fas fa-external-link-alt"></i>
                 </a>
                 ` : ''}
@@ -382,34 +389,15 @@ function applyFilters() {
 }
 
 function resetFilters() {
-    // 1. 필터 UI 초기화
     document.querySelectorAll(".search-container select").forEach(el => el.value = 'all');
     const univInput = document.getElementById("filter-univ");
     if(univInput) univInput.value = "";
     
-    // 2. 상태 초기화
     window.isSearchMove = false;
     
-    // 3. 전체 마커 다시 그리기
     renderMarkers(SCHOOLS_DATA);
     updateFilterUI();
     toggleButtons(false);
-    
-    // [수정] 지도 위치 강제 이동 코드 삭제
-    // map.setZoom(12);  <-- 삭제
-    // map.setCenter({ lat: 35.6895, lng: 139.6917 }); <-- 삭제
-    
-    // [대안] 전체 마커가 다 보이도록 자동 조정 (Fit Bounds)
-    // renderMarkers 함수 마지막에 bounds.extend 로직이 있으므로,
-    // 여기서 굳이 이동하지 않아도 renderMarkers가 알아서 fitBounds를 수행할 것입니다.
-    // 만약 renderMarkers가 fitBounds를 안 한다면 아래 코드를 추가하세요.
-    /*
-    const bounds = new LatLngBounds();
-    SCHOOLS_DATA.forEach(item => {
-        if (item.location) bounds.extend(item.location);
-    });
-    map.fitBounds(bounds);
-    */
 }
 
 window.initMap = initMap;

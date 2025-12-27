@@ -6,7 +6,7 @@
   "category": "Selection",
   "tags": ["Selection"],
   "description": "How to pick the right school based on your goals.",
-  "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500",
+  "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
   "date": "2025-12-19",
 }
 ---
