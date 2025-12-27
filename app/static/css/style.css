@@ -243,11 +243,87 @@ button { cursor: pointer; border: none; font-family: inherit; }
     .card-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
+/* === Responsive (Mobile Optimization) === */
 @media (max-width: 768px) {
+    /* 1. 기본 레이아웃 및 헤더 조정 */
     .main-header { height: 60px; }
     .logo-img { height: 35px; }
     .fixed-top-area { position: static; }
     body.main-layout { padding-top: 0; }
+    
+    /* 2. 상세 페이지 컨테이너 최적화 */
+    .detail-container { 
+        margin: 10px auto; 
+        padding: 0 15px; 
+    }
+
+    /* 3. 학교 헤더 (제목 영역) 가독성 개선 */
+    .school-header { 
+        padding: 25px 20px; 
+        margin-bottom: 20px;
+        text-align: left; /* 모바일에서는 왼쪽 정렬이 읽기 편함 */
+    }
+    .school-header h1 { 
+        font-size: 1.5rem; 
+        line-height: 1.3;
+        margin-bottom: 12px;
+        word-break: keep-all; /* 단어 단위 줄바꿈 */
+    }
+    .school-header .address {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    /* 4. 정보 그리드 (2열 -> 1열 변경) */
+    .info-grid { 
+        grid-template-columns: 1fr; 
+        gap: 12px; 
+        margin-bottom: 30px;
+    }
+    .info-card {
+        padding: 15px;
+        /* 모바일에서는 아이콘과 텍스트 간격 좁힘 */
+        gap: 15px; 
+    }
+    .icon-box {
+        width: 40px; height: 40px; font-size: 1rem;
+    }
+
+    /* 5. 본문 가독성 (줄간격 확보) */
+    .school-description { 
+        font-size: 1rem; 
+        line-height: 1.7; /* 줄간격 넓게 */
+        padding: 15px;
+        color: #333;
+    }
+    
+    /* 본문 내 테이블이 화면을 뚫고 나가는 것 방지 (가로 스크롤) */
+    .school-description table { 
+        display: block; 
+        width: 100%; 
+        overflow-x: auto; 
+        white-space: nowrap; 
+        font-size: 0.85rem;
+    }
+
+    /* 6. 특징 태그 및 CTA 버튼 모바일화 */
+    .feature-list li {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+    }
+
+    .cta-area { 
+        flex-direction: column; 
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .cta-btn { 
+        width: 100%; 
+        text-align: center; 
+        padding: 14px 0; /* 터치 영역 확보 */
+    }
+
+    /* 기타 메인 페이지 요소 모바일 대응 */
     .search-container { grid-template-columns: repeat(2, 1fr); }
     .apply-btn, .reset-btn { width: 100%; }
     .search-actions { flex-direction: column; }
@@ -259,13 +335,6 @@ button { cursor: pointer; border: none; font-family: inherit; }
     .floating-box h2 { font-size: 1.5rem; }
     .guide-section { padding: 40px 0; margin-top: 0; }
     .card-grid { grid-template-columns: 1fr; }
-    .detail-container { margin: 20px auto; padding: 0 15px; }
-    .school-header { padding: 25px 20px; }
-    .school-header h1 { font-size: 1.5rem; }
-    .info-grid { grid-template-columns: 1fr; }
-    .school-description table { display: block; width: 100%; overflow-x: auto; white-space: nowrap; }
-    .cta-area { flex-direction: column; }
-    .cta-btn { width: 100%; text-align: center; }
 }
 
 /* === [최종 수정] 구글 크롬 쇼핑/번역 오버레이만 핀포인트로 숨김 === */
