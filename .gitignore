@@ -22,5 +22,3 @@ schools_complete_db.json
 # [IDE] 에디터 설정 파일
 .vscode/
 .idea/
-scripts/
-logs/
