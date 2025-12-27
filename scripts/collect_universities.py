@@ -6,6 +6,7 @@ import requests
 from tqdm import tqdm
 from dotenv import load_dotenv
 import google.generativeai as genai
+from google.generativeai.types import GenerationConfig  # [추가] JSON 강제 모드
 
 # ==========================================
 # [설정]
@@ -123,7 +124,14 @@ def get_university_info(name_ja, name_en):
 
     for i in range(3):
         try:
-            res = model.generate_content(prompt)
+            # [수정] JSON 모드 강제 적용
+            res = model.generate_content(
+                prompt,
+                generation_config=GenerationConfig(
+                    response_mime_type="application/json"
+                )
+            )
+            # JSON 모드라도 마크다운 코드블록이 포함될 수 있으므로 clean_json 유지
             return json.loads(clean_json(res.text))
         except Exception as e:
             print(f"   ⚠️ Retry ({i+1}/3)... {e}")
