@@ -4,7 +4,7 @@ import os
 import json
 import frontmatter
 from datetime import datetime
-import re # 정규식 모듈 추가
+import re
 
 CONTENT_DIR = 'app/content'
 OUTPUT_FILE = 'app/static/json/schools_data.json'
@@ -21,15 +21,8 @@ def main():
         print("❌ app/content 폴더가 없습니다.")
         return
 
-    # MD 파일 순회
     for filename in os.listdir(CONTENT_DIR):
-        if not filename.endswith('.md'):
-            continue
-            
-        # [수정] 필터링 조건 추가:
-        # 파일명이 'univ_' 또는 'school_'로 시작하지 않는 파일(예: 5025.md, L002.md)은 제외
         if not (filename.startswith('univ_') or filename.startswith('school_')):
-            # print(f"🚫 제외됨 (구형 데이터): {filename}")
             continue
             
         filepath = os.path.join(CONTENT_DIR, filename)
@@ -45,6 +38,7 @@ def main():
                     "category": meta.get('category', 'school'),
                     "basic_info": {
                         "name_ja": meta.get('basic_info', {}).get('name_ja'),
+                        "name_en": meta.get('basic_info', {}).get('name_en'), # [수정됨] 영어 이름 추가
                         "address": meta.get('basic_info', {}).get('address'),
                         "capacity": meta.get('basic_info', {}).get('capacity')
                     },
@@ -59,7 +53,6 @@ def main():
         except Exception as e:
             print(f"⚠️ 에러 발생 ({filename}): {e}")
 
-    # 최종 JSON 저장
     final_data = {
         "last_updated": datetime.now().strftime("%Y-%m-%d"),
         "schools": schools_list

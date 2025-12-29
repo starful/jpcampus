@@ -1,370 +1,77 @@
 /* app/static/css/style.css */
 
-/* === 1. Reset & Base === */
 :root {
-    --primary: #3498db;
-    --primary-dark: #2980b9;
-    --text-dark: #333;
-    --text-gray: #666;
-    --bg-light: #f4f6f8;
-    --white: #ffffff;
-    --radius: 8px;
-    --shadow: 0 4px 12px rgba(0,0,0,0.05);
-    --max-width: 1200px;
-    
-    /* 상단 고정 영역 높이 (헤더 + 검색창 + 통계바) */
-    --header-height: 270px; 
+    --primary: #3498db; --primary-dark: #2980b9; --text-dark: #333; --text-gray: #666; --bg-light: #f4f6f8; --white: #ffffff; --radius: 8px; --shadow: 0 4px 12px rgba(0,0,0,0.05); --max-width: 1200px;
+    --header-height: 200px; /* 대학검색창 포함 높이 조정 */
 }
-
 * { box-sizing: border-box; }
-
-html, body {
-    margin: 0; padding: 0;
-    font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background-color: var(--bg-light);
-    color: var(--text-dark);
-    height: 100%;
-}
-
-body {
-    display: flex; flex-direction: column; min-height: 100vh;
-}
-
-/* 메인 레이아웃일 때만 상단 여백 추가 */
-body.main-layout {
-    padding-top: var(--header-height);
-}
-
+html, body { margin: 0; padding: 0; font-family: 'Noto Sans KR', sans-serif; background-color: var(--bg-light); color: var(--text-dark); height: 100%; }
+body { display: flex; flex-direction: column; min-height: 100vh; }
+body.main-layout { padding-top: var(--header-height); }
 a { text-decoration: none; color: inherit; }
 button { cursor: pointer; border: none; font-family: inherit; }
 
-/* === 2. Fixed Top Area (상단 고정) === */
-.fixed-top-area {
-    position: fixed;
-    top: 0; left: 0; width: 100%;
-    z-index: 2000;
-    background-color: var(--white);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-}
+.fixed-top-area { position: fixed; top: 0; left: 0; width: 100%; z-index: 2000; background-color: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+.main-header { height: 80px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #f0f0f0; }
+.header-content { width: 100%; max-width: var(--max-width); padding: 0 20px; display: flex; justify-content: center; align-items: center; }
+.logo-img { height: 50px; width: auto; display: block; }
 
-.main-header {
-    height: 80px; 
-    display: flex; align-items: center; justify-content: center;
-    border-bottom: 1px solid #f0f0f0;
-    background: #fff;
-    width: 100%;
-}
+/* [추가됨] 대학 검색창 스타일 */
+.univ-search-panel { padding: 10px 0; border-bottom: 1px solid #eee; }
+.univ-search-container { max-width: 600px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; background: #f5f5f5; border-radius: 50px; border: 1px solid #eee; }
+.univ-search-container i { color: #888; margin: 0 10px; }
+#univ-search-input { width: 100%; height: 40px; border: none; background: transparent; outline: none; font-size: 0.95rem; }
+#univ-search-clear { background: #ccc; color: white; border-radius: 50%; width: 20px; height: 20px; font-size: 1rem; line-height: 20px; text-align: center; margin-right: 10px; cursor: pointer; }
 
-.header-content {
-    width: 100%; max-width: var(--max-width); padding: 0 20px;
-    display: flex; justify-content: center; /* 로고 중앙 정렬 */
-    align-items: center;
-}
+.tag-filter-panel { padding: 15px 0; width: 100%; background: #fff; border-bottom: 1px solid #eee; overflow-x: auto; }
+.tag-filter-container { max-width: var(--max-width); margin: 0 auto; padding: 0 20px; display: flex; gap: 12px; align-items: center; -ms-overflow-style: none; scrollbar-width: none; }
+.tag-filter-container::-webkit-scrollbar { display: none; }
+.tag-filter-btn { padding: 8px 18px; border: 1px solid #ddd; border-radius: 50px; background-color: var(--white); color: var(--text-dark); font-size: 0.9rem; font-weight: 500; white-space: nowrap; transition: all 0.2s ease-in-out; flex-shrink: 0; }
+.tag-filter-btn:hover { background-color: #f5f5f5; border-color: #ccc; }
+.tag-filter-btn.active { background-color: var(--text-dark); color: var(--white); border-color: var(--text-dark); box-shadow: 0 3px 8px rgba(0,0,0,0.1); }
+.tag-filter-btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+.tag-count { display: inline-block; margin-left: 6px; font-size: 0.8rem; background-color: rgba(0,0,0,0.08); color: #555; padding: 2px 8px; border-radius: 10px; font-weight: 500; }
+.tag-filter-btn.active .tag-count { background-color: rgba(255,255,255,0.2); color: var(--white); }
 
-.logo-img { 
-    height: 50px; 
-    width: auto; 
-    display: block; 
-    transition: height 0.3s;
-}
-
-.detail-search-panel { padding: 15px 0 15px; width: 100%; background: #fff; border-bottom: 1px solid #eee; }
-.search-wrapper { max-width: var(--max-width); margin: 0 auto; padding: 0 20px; }
-.search-container { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
-
-.search-container select, .search-container input[type="text"] {
-    width: 100%; height: 40px; padding: 0 10px;
-    border: 1px solid #ddd; border-radius: 6px;
-    background-color: #fff; font-size: 0.85rem; color: var(--text-dark);
-}
-.search-container select:focus, input:focus { border-color: var(--primary); outline: none; background: #fafdff; }
-.search-container > div input { margin-bottom: 0 !important; }
-
-.search-actions { display: flex; justify-content: center; gap: 12px; margin-top: 15px; }
-
-.apply-btn {
-    width: 150px; height: 40px; background: var(--primary); color: white;
-    border-radius: 20px; font-weight: bold; font-size: 0.95rem;
-    display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 3px 8px rgba(52, 152, 219, 0.3);
-    text-decoration: none;
-}
-.apply-btn:hover { background: var(--primary-dark); }
-
-.reset-btn {
-    width: 120px; height: 40px; background: #f1f3f5; color: #555;
-    border-radius: 20px; font-weight: 500; font-size: 0.95rem;
-    display: flex; align-items: center; justify-content: center;
-}
-.reset-btn:hover { background: #e9ecef; }
-
-/* === [NEW] Stats Bar (통계 배지) === */
-.stats-bar-container {
-    background-color: #f8f9fa;
-    padding: 10px 0;
-    width: 100%;
-    border-bottom: 1px solid #e1e8ed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.stats-badges {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.badge-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 16px;
-    border-radius: 50px;
-    font-size: 0.85rem;
-    font-weight: 500;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
+.stats-bar-container { background-color: #f8f9fa; padding: 10px 0; width: 100%; border-bottom: 1px solid #e1e8ed; display: flex; justify-content: center; align-items: center; }
+.stats-badges { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
+.badge-item { display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px; border-radius: 50px; font-size: 0.85rem; font-weight: 500; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
 .badge-blue { background-color: #e3f2fd; color: #1565c0; border: 1px solid #bbdefb; }
-.badge-gray { background-color: #eceff1; color: #455a64; border: 1px solid #cfd8dc; }
 .badge-orange { background-color: #fff3e0; color: #ef6c00; border: 1px solid #ffe0b2; }
 
-/* === Map Section === */
-.map-section {
-    width: 100%; max-width: none;
-    margin: 0; padding: 0;
-    position: relative; z-index: 1;
-}
-
-.map-container-inner {
-    width: 100%; height: 600px;
-    border-radius: 0; border: none;
-    background: #eee;
-}
+/* ... (이하 나머지 CSS는 모두 기존과 동일) ... */
+.map-section { width: 100%; max-width: none; margin: 0; padding: 0; position: relative; z-index: 1; }
+.map-container-inner { width: 100%; height: 600px; background: #eee; }
 #map { width: 100%; height: 100%; }
-
-.map-overlay-info {
-    position: absolute; top: 20px; right: 20px;
-    background: rgba(255, 255, 255, 0.95);
-    padding: 10px 20px; border-radius: 30px;
-    font-size: 0.9rem; font-weight: bold;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-    z-index: 10;
-}
-
-/* Info Window (커스텀 디자인) */
+.map-overlay-info { position: absolute; top: 20px; right: 20px; background: rgba(255, 255, 255, 0.95); padding: 10px 20px; border-radius: 30px; font-size: 0.9rem; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.15); z-index: 10; }
 .gm-style .gm-style-iw-c { padding: 0 !important; border-radius: 12px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important; overflow: hidden !important; }
-.gm-style-iw-d { overflow: hidden !important; }
-.gm-style .gm-style-iw-t::after { display: none; }
-.gm-ui-hover-effect { top: 5px !important; right: 5px !important; background: rgba(255,255,255,0.8) !important; border-radius: 50%; }
-
-.info-window-card { width: 280px; font-family: 'Noto Sans KR', sans-serif; background: #fff; }
-.iw-header { padding: 15px 20px; display: flex; flex-direction: column; justify-content: center; }
-.iw-title { font-size: 1.05rem; font-weight: 700; margin: 0; line-height: 1.4; }
-.iw-title:hover { text-decoration: underline; }
-.iw-body { padding: 0 20px 20px; }
-.iw-row { font-size: 0.9rem; color: #555; margin-bottom: 8px; display: flex; align-items: flex-start; gap: 8px; }
-.iw-icon { color: #888; width: 16px; margin-top: 3px; flex-shrink: 0; }
-.iw-btn { display: block; width: 100%; text-align: center; padding: 10px 0; margin-top: 10px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: bold; transition: background 0.2s; }
-.iw-btn:hover { filter: brightness(95%); }
-
-/* === Floating Box === */
-.floating-container {
-    width: 100%; position: relative; z-index: 10;
-    margin-top: -80px; 
-    padding: 0 20px; pointer-events: none;
-}
-
-.floating-box {
-    max-width: 900px; margin: 0 auto;
-    background-color: var(--white);
-    border-radius: 20px; padding: 40px 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    text-align: center; pointer-events: auto;
-}
-.floating-box h2 { font-size: 1.8rem; color: var(--text-dark); margin-bottom: 15px; font-weight: 700; }
-.floating-box p { font-size: 1.05rem; color: #555; line-height: 1.6; margin: 0; }
-
-/* === Card Grid & Guide Section === */
-.guide-section {
-    background-color: #f9f9f9; padding: 80px 0; margin-top: 40px; border-top: 1px solid #eee;
-}
-.guide-wrapper, .content-wrapper { max-width: var(--max-width); margin: 0 auto; padding: 0 20px; }
-.section-title { font-size: 1.8rem; text-align: center; margin-bottom: 50px; color: var(--text-dark); font-weight: 800; }
-
+.gm-style-iw-d { overflow: hidden !important; } .gm-style .gm-style-iw-t::after { display: none; } .gm-ui-hover-effect { top: 5px !important; right: 5px !important; background: rgba(255,255,255,0.8) !important; border-radius: 50%; }
+.info-window-card { width: 280px; font-family: 'Noto Sans KR', sans-serif; }
+.iw-header { padding: 15px 20px; } .iw-title { font-size: 1.05rem; font-weight: 700; } .iw-title:hover { text-decoration: underline; } .iw-body { padding: 0 20px 20px; }
+.iw-row { font-size: 0.9rem; color: #555; margin-bottom: 8px; display: flex; align-items: flex-start; gap: 8px; } .iw-icon { color: #888; width: 16px; margin-top: 3px; flex-shrink: 0; }
+.iw-btn { display: block; width: 100%; text-align: center; padding: 10px 0; margin-top: 10px; border-radius: 6px; font-size: 0.9rem; font-weight: bold; }
+.floating-container { width: 100%; position: relative; z-index: 10; margin-top: -80px; padding: 0 20px; pointer-events: none; }
+.floating-box { max-width: 900px; margin: 0 auto; background-color: var(--white); border-radius: 20px; padding: 40px 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; pointer-events: auto; }
+.floating-box h2 { font-size: 1.8rem; margin-bottom: 15px; } .floating-box p { font-size: 1.05rem; line-height: 1.6; }
+.guide-section { padding: 80px 0; margin-top: 40px; } .guide-wrapper, .content-wrapper { max-width: var(--max-width); margin: 0 auto; padding: 0 20px; } .section-title { font-size: 1.8rem; text-align: center; margin-bottom: 50px; }
 .card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 25px; }
-.card { background: var(--white); border-radius: 12px; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; overflow: hidden; height: 100%; text-decoration: none; color: inherit; }
-.card:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,0.1); }
-.card-img { height: 180px; background-size: cover; background-position: center; position: relative; }
-.card-body { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
-.card-body h4 { margin: 0 0 10px; font-size: 1.15rem; font-weight: 700; color: var(--text-dark); }
-.card-body p { font-size: 0.95rem; color: #666; line-height: 1.5; margin: 0; }
-
-/* === Detail Page Styles === */
-.detail-container { max-width: 900px; margin: 40px auto; padding: 0 20px; width: 100%; box-sizing: border-box; }
-.school-header { background: var(--white); padding: 40px; border-radius: var(--radius); box-shadow: var(--shadow); text-align: center; margin-bottom: 30px; border: 1px solid #eee; word-break: break-word; }
-.school-header h1 { margin: 0 0 10px; font-size: 1.8rem; }
-.school-header .address { color: var(--text-gray); font-size: 1rem; margin-bottom: 20px; }
-.school-description { background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: left; line-height: 1.6; color: #444; font-size: 0.95rem; }
+.card { background: var(--white); border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; height: 100%; text-decoration: none; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,0.1); } .card-img { height: 180px; background-size: cover; background-position: center; } .card-body { padding: 25px; flex-grow: 1; display: flex; flex-direction: column; }
+.card-body h4 { margin: 0 0 10px; font-size: 1.15rem; } .card-body p { font-size: 0.95rem; color: #666; }
+.detail-container { max-width: 900px; margin: 40px auto; padding: 0 20px; } .school-header { background: var(--white); padding: 40px; border-radius: var(--radius); box-shadow: var(--shadow); text-align: center; margin-bottom: 30px; }
+.school-header h1 { margin: 0 0 10px; font-size: 1.8rem; } .school-header .address { color: var(--text-gray); }
+.school-description { background: #f8f9fa; padding: 20px; border-radius: 8px; line-height: 1.6; }
 .school-description table { width: 100%; border-collapse: collapse; margin: 20px 0; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-.school-description th, .school-description td { padding: 12px 15px; border-bottom: 1px solid #eee; text-align: left; }
-.school-description th { background-color: #f1f3f5; font-weight: bold; border-bottom: 2px solid #ddd; }
-.info-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 40px; }
-.info-card { background: var(--white); padding: 25px; border-radius: var(--radius); box-shadow: var(--shadow); display: flex; align-items: center; gap: 20px; border: 1px solid #eee; }
+.school-description th, .school-description td { padding: 12px 15px; border-bottom: 1px solid #eee; } .school-description th { background-color: #f1f3f5; }
+.info-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 40px; } .info-card { background: var(--white); padding: 25px; border-radius: var(--radius); box-shadow: var(--shadow); display: flex; align-items: center; gap: 20px; }
 .icon-box { width: 50px; height: 50px; background: #e3f2fd; color: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }
-.text-box .label { display: block; font-size: 0.8rem; color: #888; margin-bottom: 4px; }
-.text-box .value { font-size: 1.2rem; font-weight: bold; }
-.detail-section { margin-bottom: 50px; }
-.detail-section h2 { font-size: 1.4rem; color: var(--text-dark); margin-bottom: 20px; border-left: 5px solid var(--primary); padding-left: 15px; }
-.feature-list { display: flex; flex-wrap: wrap; gap: 10px; }
-.feature-list li { background: var(--white); border: 1px solid #ddd; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; color: #555; }
-.cta-area { text-align: center; margin-top: 40px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
-.cta-btn { display: inline-block; background: var(--primary); color: white; padding: 15px 30px; border-radius: 30px; font-size: 1rem; font-weight: bold; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4); text-decoration: none; transition: transform 0.2s; }
-.cta-btn:hover { transform: translateY(-3px); background: var(--primary-dark); }
-.cta-btn[disabled] { background: #ccc; box-shadow: none; cursor: not-allowed; }
-.back-link { font-size: 0.95rem; font-weight: 500; color: var(--text-gray); display: flex; align-items: center; gap: 5px; }
-.back-link:hover { color: var(--primary); }
-
-/* === Footer === */
-.main-footer { background: #fff; border-top: 1px solid #eee; padding: 60px 0; margin-top: auto; width: 100%; }
-.footer-content { max-width: var(--max-width); margin: 0 auto; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px; }
-.footer-logo { height: 40px; width: auto; opacity: 0.8; transition: opacity 0.3s; }
-.footer-logo:hover { opacity: 1; }
-.footer-links { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
-.footer-links a { color: #666; font-size: 0.95rem; font-weight: 500; transition: color 0.2s; }
-.footer-links a:hover { color: var(--primary); text-decoration: none; }
-.copyright { color: #aaa; font-size: 0.85rem; margin-top: 10px; }
-
-/* === Responsive === */
-@media (max-width: 1024px) {
-    .search-container { grid-template-columns: repeat(4, 1fr); }
-    .card-grid { grid-template-columns: repeat(2, 1fr); }
-}
-
-/* === Responsive (Mobile Optimization) === */
-@media (max-width: 768px) {
-    /* 1. 기본 레이아웃 및 헤더 조정 */
-    .main-header { height: 60px; }
-    .logo-img { height: 35px; }
-    .fixed-top-area { position: static; }
-    body.main-layout { padding-top: 0; }
-    
-    /* 2. 상세 페이지 컨테이너 최적화 */
-    .detail-container { 
-        margin: 10px auto; 
-        padding: 0 15px; 
-    }
-
-    /* 3. 학교 헤더 (제목 영역) 가독성 개선 */
-    .school-header { 
-        padding: 25px 20px; 
-        margin-bottom: 20px;
-        text-align: left; /* 모바일에서는 왼쪽 정렬이 읽기 편함 */
-    }
-    .school-header h1 { 
-        font-size: 1.5rem; 
-        line-height: 1.3;
-        margin-bottom: 12px;
-        word-break: keep-all; /* 단어 단위 줄바꿈 */
-    }
-    .school-header .address {
-        font-size: 0.9rem;
-        margin-bottom: 15px;
-    }
-
-    /* 4. 정보 그리드 (2열 -> 1열 변경) */
-    .info-grid { 
-        grid-template-columns: 1fr; 
-        gap: 12px; 
-        margin-bottom: 30px;
-    }
-    .info-card {
-        padding: 15px;
-        /* 모바일에서는 아이콘과 텍스트 간격 좁힘 */
-        gap: 15px; 
-    }
-    .icon-box {
-        width: 40px; height: 40px; font-size: 1rem;
-    }
-
-    /* 5. 본문 가독성 (줄간격 확보) */
-    .school-description { 
-        font-size: 1rem; 
-        line-height: 1.7; /* 줄간격 넓게 */
-        padding: 15px;
-        color: #333;
-    }
-    
-    /* 본문 내 테이블이 화면을 뚫고 나가는 것 방지 (가로 스크롤) */
-    .school-description table { 
-        display: block; 
-        width: 100%; 
-        overflow-x: auto; 
-        white-space: nowrap; 
-        font-size: 0.85rem;
-    }
-
-    /* 6. 특징 태그 및 CTA 버튼 모바일화 */
-    .feature-list li {
-        font-size: 0.85rem;
-        padding: 6px 12px;
-    }
-
-    .cta-area { 
-        flex-direction: column; 
-        gap: 10px;
-        margin-top: 30px;
-    }
-    .cta-btn { 
-        width: 100%; 
-        text-align: center; 
-        padding: 14px 0; /* 터치 영역 확보 */
-    }
-
-    /* 기타 메인 페이지 요소 모바일 대응 */
-    .search-container { grid-template-columns: repeat(2, 1fr); }
-    .apply-btn, .reset-btn { width: 100%; }
-    .search-actions { flex-direction: column; }
-    .stats-bar-container { padding: 10px 0; flex-wrap: wrap; }
-    .badge-item { font-size: 0.8rem; padding: 6px 12px; }
-    .map-container-inner { height: 400px; }
-    .floating-container { margin-top: 0; padding: 20px; background: #fff; }
-    .floating-box { box-shadow: none; padding: 0; border-radius: 0; text-align: left; }
-    .floating-box h2 { font-size: 1.5rem; }
-    .guide-section { padding: 40px 0; margin-top: 0; }
-    .card-grid { grid-template-columns: 1fr; }
-}
-
-/* === [최종 수정] 구글 크롬 쇼핑/번역 오버레이만 핀포인트로 숨김 === */
-body > .google-anno-skip, 
-body > .google-anno-sc,
-body > .goog-te-banner-frame,
-body > .goog-te-balloon-frame {
-    display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-    position: absolute !important;
-    top: -9999px !important;
-}
-
-.goog-tooltip, #goog-gt-tt, .goog-te-gadget-icon {
-    display: none !important;
-}
-
-.school-description iframe, .stats-bar-container iframe {
-    display: none !important;
-}
-
-body { top: 0 !important; position: static !important; }
-
-/* 지도 내 이미지는 보이게 유지 */
-.gm-style img { 
-    display: inline-block !important; 
-    max-width: none !important;
-}
-.gm-style-iw-c { padding: 0 !important; }
-.notranslate { -webkit-user-select: none; }
+.text-box .label { font-size: 0.8rem; color: #888; } .text-box .value { font-size: 1.2rem; font-weight: bold; }
+.detail-section { margin-bottom: 50px; } .detail-section h2 { font-size: 1.4rem; margin-bottom: 20px; border-left: 5px solid var(--primary); padding-left: 15px; } .feature-list { display: flex; flex-wrap: wrap; gap: 10px; } .feature-list li { background: var(--white); border: 1px solid #ddd; padding: 8px 15px; border-radius: 20px; }
+.cta-area { text-align: center; margin-top: 40px; display: flex; justify-content: center; gap: 15px; } .cta-btn { display: inline-block; background: var(--primary); color: white; padding: 15px 30px; border-radius: 30px; font-weight: bold; }
+.cta-btn:hover { background: var(--primary-dark); } .cta-btn[disabled] { background: #ccc; }
+.main-footer { background: #fff; border-top: 1px solid #eee; padding: 60px 0; margin-top: auto; } .footer-content { max-width: var(--max-width); margin: 0 auto; text-align: center; } .footer-logo { height: 40px; } .footer-links { display: flex; gap: 20px; justify-content: center; margin-top: 20px; }
+.footer-links a { color: #666; } .copyright { color: #aaa; font-size: 0.85rem; margin-top: 20px; }
+@media (max-width: 1024px) { .card-grid { grid-template-columns: repeat(2, 1fr); } .tag-filter-container { justify-content: flex-start; } }
+@media (max-width: 768px) { body.main-layout { padding-top: 0; } :root { --header-height: 180px; } .fixed-top-area { position: static; } .main-header { height: 60px; } .logo-img { height: 35px; } .tag-filter-container { padding: 0 15px; } .floating-container { margin-top: 0; padding: 20px; background: #fff; } .floating-box { box-shadow: none; padding: 0; } .card-grid { grid-template-columns: 1fr; } .detail-container { margin: 10px auto; } .info-grid { grid-template-columns: 1fr; } .school-description table { display: block; overflow-x: auto; } .cta-area { flex-direction: column; } .cta-btn { width: 100%; } }
+body > .google-anno-skip, body > .google-anno-sc, body > .goog-te-banner-frame, body > .goog-te-balloon-frame { display: none !important; } .goog-tooltip, #goog-gt-tt, .goog-te-gadget-icon { display: none !important; }
+body { top: 0 !important; }
