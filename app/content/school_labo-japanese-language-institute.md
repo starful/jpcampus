@@ -1,0 +1,68 @@
+---
+{
+  "layout": "school",
+  "id": "school_labo-japanese-language-institute",
+  "title": "ラボ日本語教育研修所",
+  "category": "school",
+  "tags": [
+    "Higher Education Prep",
+    "EJU Prep",
+    "Fine Arts",
+    "Design"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "location": {
+    "lat": 35.7264989,
+    "lng": 139.7631291
+  },
+  "basic_info": {
+    "name_ja": "ラボ日本語教育研修所",
+    "address": "東京都文京区千駄木3-33-6 千駄木パークビル",
+    "capacity": 100
+  },
+  "stats": {
+    "international_students": 0,
+    "capacity": 100
+  },
+  "tuition": {},
+  "faculties": [],
+  "features": [
+    "Higher Education Prep",
+    "EJU Prep",
+    "Fine Arts",
+    "Design"
+  ],
+  "courses": [
+    {
+      "course_name": "一般2年コース",
+      "admission_month": "4,7,10,1",
+      "total_fees": 1384000
+    },
+    {
+      "course_name": "進学1.3年コース",
+      "admission_month": "1",
+      "total_fees": 895000
+    },
+    {
+      "course_name": "進学1.6年コース",
+      "admission_month": "10",
+      "total_fees": 1058000
+    },
+    {
+      "course_name": "進学1.9年コース",
+      "admission_month": "7",
+      "total_fees": 1221000
+    },
+    {
+      "course_name": "進学2年コース",
+      "admission_month": "4",
+      "total_fees": 1384000
+    }
+  ],
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=107"
+}
+---
+
+## 🏫 학교 소개
+
+상세 설명이 없습니다.

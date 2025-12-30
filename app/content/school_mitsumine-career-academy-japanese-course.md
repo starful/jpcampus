@@ -1,0 +1,71 @@
+---
+{
+  "layout": "school",
+  "id": "school_mitsumine-career-academy-japanese-course",
+  "title": "ミツミネキャリアアカデミー 日本語コース",
+  "category": "school",
+  "tags": [
+    "University Preparation",
+    "EJU Support",
+    "Dormitory Available"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "location": {
+    "lat": 35.7042413,
+    "lng": 139.6944427
+  },
+  "basic_info": {
+    "name_ja": "ミツミネキャリアアカデミー 日本語コース",
+    "address": "東京都新宿区北新宿4-1-1 第三山廣ビル",
+    "capacity": 700
+  },
+  "stats": {
+    "international_students": 0,
+    "capacity": 700
+  },
+  "tuition": {},
+  "faculties": [],
+  "features": [
+    "University Preparation",
+    "EJU Support",
+    "Dormitory Available"
+  ],
+  "courses": [
+    {
+      "course_name": "進学2年コース",
+      "admission_month": "4",
+      "total_fees": 1420000
+    },
+    {
+      "course_name": "進学1年9ヵ月コース",
+      "admission_month": "7",
+      "total_fees": 1259500
+    },
+    {
+      "course_name": "進学1年6ヵ月コース",
+      "admission_month": "10",
+      "total_fees": 1096000
+    },
+    {
+      "course_name": "進学1年3ヵ月コース",
+      "admission_month": "1",
+      "total_fees": 931000
+    },
+    {
+      "course_name": "進学1年コース",
+      "admission_month": "4",
+      "total_fees": 760000
+    },
+    {
+      "course_name": "一般2年コース",
+      "admission_month": "4",
+      "total_fees": 1420000
+    }
+  ],
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=130"
+}
+---
+
+## 🏫 학교 소개
+
+상세 설명이 없습니다.

@@ -1,38 +1,55 @@
 ---
 {
   "layout": "school",
-  "id": "univ_osaka-university",
+  "id": "school_osaka-university",
   "title": "大阪大学",
-  "category": "university",
-  "tags":
-    ["SGU", "EJU Required", "English Program", "Dormitory", "Scholarship"],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": { "lat": 34.8192058, "lng": 135.5229417 },
-  "basic_info":
-    {
-      "name_ja": "大阪大学",
-      "name_en": "Osaka University",
-      "address": "〒565-0871 大阪府吹田市山田丘1-1",
-      "website": "https://www.osaka-u.ac.jp/",
-    },
-  "stats": { "international_students": 3000, "acceptance_rate": "15%" },
-  "tuition": { "admission_fee": 282000, "yearly_tuition": 535800 },
-  "faculties":
-    [
-      "文学部",
-      "人間科学部",
-      "外国語学部",
-      "法学部",
-      "経済学部",
-      "理学部",
-      "医学部",
-      "歯学部",
-      "薬学部",
-      "工学部",
-      "基礎工学部",
-    ],
-  "features":
-    ["SGU", "EJU Required", "English Program", "Dormitory", "Scholarship"],
+  "category": "school",
+  "tags": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "location": {
+    "lat": 34.8192058,
+    "lng": 135.5229417
+  },
+  "basic_info": {
+    "name_ja": "大阪大学",
+    "name_en": "Osaka University",
+    "address": "〒565-0871 大阪府吹田市山田丘1-1",
+    "website": "https://www.osaka-u.ac.jp/"
+  },
+  "stats": {
+    "international_students": 3000,
+    "acceptance_rate": "15%"
+  },
+  "tuition": {
+    "admission_fee": 282000,
+    "yearly_tuition": 535800
+  },
+  "faculties": [
+    "文学部",
+    "人間科学部",
+    "外国語学部",
+    "法学部",
+    "経済学部",
+    "理学部",
+    "医学部",
+    "歯学部",
+    "薬学部",
+    "工学部",
+    "基礎工学部"
+  ],
+  "features": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ]
 }
 ---
 
