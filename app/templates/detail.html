@@ -6,21 +6,16 @@
     <title>{{ meta_title }}</title>
     <meta name="description" content="{{ meta_desc }}">
     <link rel="canonical" href="{{ meta_url }}">
-    
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ meta_url }}">
     <meta property="og:title" content="{{ meta_title }}">
     <meta property="og:description" content="{{ meta_desc }}">
     <meta property="og:image" content="{{ og_image }}">
-    
     <link rel="icon" href="/static/img/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.3">
+    <link rel="stylesheet" href="/static/css/style.css?v=5.9"> <!-- 버전업 -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    <!-- 구글 애드센스 -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -31,39 +26,44 @@
       "description": "{{ meta_desc }}"
     }
     </script>
-
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDJL0618LL"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-EDJL0618LL');
     </script>
 </head>
 
 <body class="detail-page" style="padding-top: 80px;">
 
-    <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-        <div class="header-content">
-            <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> Back to Map</a>
+    <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
+        <div class="header-content" style="justify-content: flex-start; max-width: 800px;">
+            <!-- [수정됨] 뒤로가기 버튼 링크 및 텍스트 동적 변경 -->
+            {% if school.category == 'university' %}
+                <a href="/universities" class="back-link-btn">
+                    <i class="fas fa-arrow-left"></i> Back to University List
+                </a>
+            {% else %}
+                <a href="/schools" class="back-link-btn">
+                    <i class="fas fa-arrow-left"></i> Back to School List
+                </a>
+            {% endif %}
         </div>
     </header>
 
     <main class="detail-container">
-        <!-- 학교 헤더 -->
         <div class="school-header">
-            <h1>{{ school.basic_info.name_ja }}</h1>
-            <p class="address"><i class="fas fa-map-marker-alt"></i> {{ school.basic_info.address }}</p>
-            
-            <!-- 본문에 번역 방지 적용 -->
-            <div class="school-description notranslate" translate="no">
-                {{ content_body | safe }}
+            <div class="school-category">
+                {{ 'University' if school.category == 'university' else 'Language School' }}
             </div>
+            <h1>{{ school.basic_info.name_ja }}</h1>
+            {% if school.basic_info.name_en %}
+                <p class="address" style="font-weight: 500; color: #555;">{{ school.basic_info.name_en }}</p>
+            {% endif %}
+            <p class="address"><i class="fas fa-map-marker-alt"></i> {{ school.basic_info.address }}</p>
         </div>
 
-        <!-- 정보 카드 -->
         <div class="info-grid">
             <div class="info-card">
                 <div class="icon-box"><i class="fas fa-users"></i></div>
@@ -77,13 +77,12 @@
             {% endif %}
             <div class="info-card">
                 <div class="icon-box"><i class="fas fa-yen-sign"></i></div>
-                <div class="text-box">
-                    <span class="label">Tuition (1st Year)</span>
-                    <span class="value">
-                        {% if school.tuition and school.tuition.yearly_tuition %}¥{{ "{:,}".format(school.tuition.yearly_tuition) }}{% else %}-{% endif %}
-                    </span>
-                </div>
+                <div class="text-box"><span class="label">Tuition (1st Year)</span><span class="value">{% if school.tuition and school.tuition.yearly_tuition %}¥{{ "{:,}".format(school.tuition.yearly_tuition) }}{% else %}-{% endif %}</span></div>
             </div>
+        </div>
+
+        <div class="school-description notranslate" translate="no">
+            {{ content_body | safe }}
         </div>
 
         {% if school.features %}
@@ -95,14 +94,13 @@
         </section>
         {% endif %}
         
-        <div class="cta-area" style="display: flex; justify-content: center; gap: 15px; margin-top: 50px; padding-bottom: 30px;">
+        <div class="cta-area">
             {% set link = school.basic_info.website if school.category == 'university' else school.source_url %}
             {% if link %}
             <a href="{{ link }}" target="_blank" class="cta-btn">Visit Official Website <i class="fas fa-external-link-alt"></i></a>
             {% else %}
-            <button class="cta-btn" disabled style="background:#ccc; cursor:not-allowed;">No Website Available</button>
+            <button class="cta-btn" disabled>No Website Available</button>
             {% endif %}
-            <a href="/" class="cta-btn" style="background-color: #7f8c8d; box-shadow: 0 4px 15px rgba(127, 140, 141, 0.4);">Back to Main <i class="fas fa-home"></i></a>
         </div>
     </main>
 
@@ -110,39 +108,22 @@
         <div class="footer-content">
             <a href="/" class="footer-logo-link"><img src="/static/img/logo.png" alt="JP Campus" class="footer-logo"></a>
             <div class="footer-links">
-                <a href="/guide">Guide</a>
-                <a href="/about">About</a>
-                <a href="/policy">Privacy</a>
-                <a href="/contact">Contact</a>
+                <a href="/guide">Guide</a><a href="/about">About</a><a href="/policy">Privacy</a><a href="/contact">Contact</a>
             </div>
             <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- [핵심] 구글 오버레이 강제 제거 스크립트 (Detail 페이지용) -->
     <script>
     (function() {
-        // 스타일로 강제 숨김
         const style = document.createElement('style');
-        style.innerHTML = `
-            .google-anno-skip, .google-anno-sc, .goog-te-banner-frame, .goog-te-balloon-frame {
-                display: none !important; opacity: 0 !important; pointer-events: none !important;
-            }
-            body { top: 0 !important; }
-        `;
+        style.innerHTML = `.google-anno-skip, .google-anno-sc, .goog-te-banner-frame, .goog-te-balloon-frame { display: none !important; opacity: 0 !important; pointer-events: none !important; } body { top: 0 !important; }`;
         document.head.appendChild(style);
-
-        // 요소 발견 즉시 삭제 함수
-        function killAnnoyances() {
-            document.querySelectorAll('.google-anno-skip, .google-anno-sc').forEach(el => el.remove());
-        }
-        
-        // 주기적 실행 및 감시
+        function killAnnoyances() { document.querySelectorAll('.google-anno-skip, .google-anno-sc').forEach(el => el.remove()); }
         setInterval(killAnnoyances, 500); 
         const observer = new MutationObserver(killAnnoyances);
         observer.observe(document.body, { childList: true, subtree: true });
     })();
     </script>
-
 </body>
 </html>

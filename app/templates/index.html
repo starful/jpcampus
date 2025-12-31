@@ -19,7 +19,7 @@
     <meta property="og:description" content="{{ meta_desc }}">
     <meta property="og:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
     <link rel="icon" href="/static/img/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.7">
+    <link rel="stylesheet" href="/static/css/style.css?v=5.8">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
@@ -40,7 +40,6 @@
                 <input type="text" id="univ-search-input" list="university-list" placeholder="Search by University Name (e.g., Waseda)">
                 <button id="univ-search-clear" style="display:none;">&times;</button>
             </div>
-            <!-- [수정됨] datalist 옵션 형식 변경 -->
             <datalist id="university-list">
                 {% for univ in university_list_json %}
                   {% if univ.name_en %}
@@ -104,7 +103,10 @@
                 </a>
                 {% endfor %}
             </div>
-            <div style="text-align: center; margin-top: 50px;"><a href="/schools" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">View All Schools ></a></div>
+            <!-- [수정] 버튼 스타일 명시 -->
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="/schools" class="cta-btn" style="background-color: #f39c12;">View All Schools &rarr;</a>
+            </div>
         </div>
     </section>
     {% endif %}
@@ -128,13 +130,36 @@
                 </a>
                 {% endfor %}
             </div>
-            <div style="text-align: center; margin-top: 50px;"><a href="/universities" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">View All Universities ></a></div>
+            <!-- [수정] 버튼 스타일 명시 -->
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="/universities" class="cta-btn">View All Universities &rarr;</a>
+            </div>
         </div>
     </section>
     {% endif %}
 
     {% if latest_guides %}
-    <section class="guide-section" style="background-color: #fff; padding: 80px 0; border-top: 1px solid #eee;"><div class="guide-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;"><h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">📚 Essential Guides for Japan</h3><div class="card-grid">{% for guide in latest_guides %}<a href="{{ guide.link }}" class="card"><div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); background-size: cover; background-position: center;"></div><div class="card-body"><span style="font-size: 0.8rem; color: #3498db; font-weight: bold; text-transform: uppercase; display:block; margin-bottom:5px;">{{ guide.category }}</span><h4 style="margin: 0 0 10px; font-size: 1.15rem; font-weight: 700; color: var(--text-dark);">{{ guide.title }}</h4><p style="font-size: 0.95rem; color: #666; line-height: 1.5; margin: 0;">{{ guide.description | truncate(60) }}</p></div></a>{% endfor %}</div><div style="text-align: center; margin-top: 50px;"><a href="/guide" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">View All Guides ></a></div></div></section>
+    <section class="guide-section" style="background-color: #fff; padding: 80px 0; border-top: 1px solid #eee;">
+        <div class="guide-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">📚 Essential Guides for Japan</h3>
+            <div class="card-grid">
+                {% for guide in latest_guides %}
+                <a href="{{ guide.link }}" class="card">
+                    <div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); background-size: cover; background-position: center;"></div>
+                    <div class="card-body">
+                        <span style="font-size: 0.8rem; color: #3498db; font-weight: bold; text-transform: uppercase; display:block; margin-bottom:5px;">{{ guide.category }}</span>
+                        <h4 style="margin: 0 0 10px; font-size: 1.15rem; font-weight: 700; color: var(--text-dark);">{{ guide.title }}</h4>
+                        <p style="font-size: 0.95rem; color: #666; line-height: 1.5; margin: 0;">{{ guide.description | truncate(60) }}</p>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            <!-- [수정] 버튼 스타일 명시 -->
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="/guide" class="cta-btn" style="background-color: #9b59b6;">View All Guides &rarr;</a>
+            </div>
+        </div>
+    </section>
     {% endif %}
 
     <footer class="main-footer"><div class="footer-content"><a href="/" class="footer-logo-link"><img src="/static/img/logo.png" alt="JP Campus" class="footer-logo"></a><div class="footer-links"><a href="/guide">Guide</a><a href="/about">About</a><a href="/policy">Privacy</a><a href="/contact">Contact</a></div><p class="copyright">© 2024 JP Campus. All rights reserved.</p></div></footer>

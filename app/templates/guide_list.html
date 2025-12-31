@@ -5,23 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ meta_title }}</title>
     <meta name="description" content="{{ meta_desc }}">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.1">
+    <link rel="stylesheet" href="/static/css/style.css?v=5.9">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
-
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDJL0618LL"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-EDJL0618LL');
     </script>
 </head>
 <body style="background-color: #f9f9f9; padding-top: 80px;">
     
-    <!-- Header -->
     <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
         <div class="header-content">
             <a href="/" class="logo"><img src="/static/img/logo.png" class="logo-img"></a>
@@ -31,7 +27,12 @@
     <main class="content-section" style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
         <div style="text-align: center; margin-bottom: 50px;">
             <h1 style="color:#2c3e50; font-weight:800; margin-bottom:10px;">📚 Essential Guides for Japan</h1>
-            <p style="color:#666;">Comprehensive guides for your study abroad journey.</p>
+            <p style="color:#666; margin-bottom: 30px;">Comprehensive guides for your study abroad journey.</p>
+
+            <!-- [이동됨] Back to Map 버튼 위치 변경 -->
+            <a href="/" class="cta-btn gray">
+                <i class="fas fa-arrow-left"></i> Back to Map
+            </a>
         </div>
 
         <div class="card-grid">
@@ -46,25 +47,12 @@
             </a>
             {% endfor %}
         </div>
-        
-        <div style="text-align: center; margin-top: 50px;">
-            <a href="/" class="apply-btn" style="display: inline-flex; width: auto; padding: 0 40px; text-decoration: none;">Back to Map</a>
-        </div>
     </main>
 
     <footer class="main-footer">
         <div class="footer-content">
-            <!-- 로고 이미지로 교체 -->
-            <a href="/" class="footer-logo-link">
-                <img src="/static/img/logo.png" alt="JP Campus" class="footer-logo">
-            </a>
-            
-            <div class="footer-links">
-                <a href="/guide">Guide</a>
-                <a href="/about">About</a>
-                <a href="/policy">Privacy</a>
-                <a href="/contact">Contact</a>
-            </div>
+            <a href="/" class="footer-logo-link"><img src="/static/img/logo.png" alt="JP Campus" class="footer-logo"></a>
+            <div class="footer-links"><a href="/guide">Guide</a><a href="/about">About</a><a href="/policy">Privacy</a><a href="/contact">Contact</a></div>
             <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
         </div>
     </footer>
