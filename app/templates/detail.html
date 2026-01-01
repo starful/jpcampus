@@ -12,7 +12,7 @@
     <meta property="og:description" content="{{ meta_desc }}">
     <meta property="og:image" content="{{ og_image }}">
     <link rel="icon" href="/static/img/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.9"> <!-- 버전업 -->
+    <link rel="stylesheet" href="/static/css/style.css?v=5.9">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
@@ -35,11 +35,11 @@
     </script>
 </head>
 
-<body class="detail-page" style="padding-top: 80px;">
+<!-- [수정] body 태그에 배경색 직접 지정 -->
+<body class="detail-page" style="padding-top: 80px; background-color: #f4f6f8;">
 
     <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
         <div class="header-content" style="justify-content: flex-start; max-width: 800px;">
-            <!-- [수정됨] 뒤로가기 버튼 링크 및 텍스트 동적 변경 -->
             {% if school.category == 'university' %}
                 <a href="/universities" class="back-link-btn">
                     <i class="fas fa-arrow-left"></i> Back to University List
@@ -104,6 +104,7 @@
         </div>
     </main>
 
+    <!-- [수정] 푸터를 main 태그 밖으로 이동 -->
     <footer class="main-footer">
         <div class="footer-content">
             <a href="/" class="footer-logo-link"><img src="/static/img/logo.png" alt="JP Campus" class="footer-logo"></a>

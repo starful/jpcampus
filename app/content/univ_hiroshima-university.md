@@ -1,107 +1,101 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-university",
-  "title": "広島大学",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島大学",
-    "name_en": "Hiroshima University",
-    "address": "広島県東広島市鏡山一丁目7番1号",
-    "website": "https://www.hiroshima-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1200,
-    "acceptance_rate": "35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Integrated Arts and Sciences",
-    "Letters",
-    "Education",
-    "Law",
-    "Economics",
-    "Science",
-    "Medicine",
-    "Dentistry",
-    "Pharmaceutical Sciences",
-    "Engineering",
-    "Applied Biological Science",
-    "Informatics and Data Science"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ]
-}
+basic_info:
+  address: 広島県東広島市鏡山一丁目7番1号
+  name_en: Hiroshima University
+  name_ja: 広島大学
+  website: https://www.hiroshima-u.ac.jp/
+category: university
+faculties:
+- Integrated Arts and Sciences
+- Letters
+- Education
+- Law
+- Economics
+- Science
+- Medicine
+- Dentistry
+- Pharmaceutical Sciences
+- Engineering
+- Applied Biological Science
+- Informatics and Data Science
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_hiroshima-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35%
+  international_students: 1200
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 広島大学
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
-## 🏫 University Overview
+## 🏫 University Overview & Reputation
 
-Hiroshima University (広島大学, Hiroshima Daigaku), abbreviated as Hirodai (広大), is a national university located in Hiroshima, Japan. Established in 1949 through the amalgamation of several existing institutions, Hiroshima University has a rich history deeply intertwined with the city's post-World War II reconstruction. It stands as a symbol of resilience and a commitment to peace and global understanding. The university is recognized as one of Japan's leading research universities and a core member of the Top Global University Project, selected by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT).
+Hiroshima University (広島大学, Hiroshima Daigaku), often abbreviated as Hirodai (広大), stands as a prominent national university nestled in Hiroshima, Japan. Its establishment in 1949 marked a pivotal moment, merging several existing institutions into a unified center of learning and research. The university's history is deeply intertwined with the city's recovery from the devastation of World War II, making it a powerful symbol of resilience, peace, and global understanding. Hiroshima University proudly holds its position as one of Japan's leading research universities, recognized for its contributions to various fields and selected as a core member of the prestigious Top Global University Project by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT).
 
-With a strong emphasis on academic excellence and societal contribution, Hiroshima University offers a comprehensive range of undergraduate and graduate programs across diverse disciplines. The university is renowned for its research in areas such as peace studies, medical science, environmental science, and engineering. Hiroshima University strives to cultivate globally-minded individuals who can contribute to solving global challenges and promoting sustainable development.
+Hiroshima University enjoys a strong reputation both nationally and internationally. It consistently ranks among the top universities in Japan, placing it in the upper echelon of national universities alongside institutions like the University of Tokyo, Kyoto University, and Osaka University. This prestigious standing reflects its commitment to academic excellence, cutting-edge research, and a dedication to addressing global challenges. The university's reputation attracts talented students and researchers from around the world, fostering a diverse and intellectually stimulating environment. Furthermore, its graduates are highly sought after by employers in various sectors, both in Japan and internationally.
 
-Hiroshima University's main campus is located in Higashi-Hiroshima, a city about 30 kilometers east of Hiroshima City. The university also has campuses in Hiroshima City, offering specialized programs and research facilities.
+Hiroshima University's commitment extends beyond academic pursuits to encompass societal contributions. The university is actively involved in various community engagement initiatives, working to address local and global issues through research, education, and outreach programs. Its dedication to peace studies is particularly notable, given its location in Hiroshima. The university plays a crucial role in promoting peace education and fostering dialogue on issues related to conflict resolution and international cooperation. The university’s motto, “Pursuit of Peace,” is ingrained in its academic and research activities. This dedication to social responsibility further enhances the university's reputation as a leading institution committed to making a positive impact on the world.
 
-The university's mission is to pursue truth, create new knowledge, and contribute to society through education, research, and social engagement. It is committed to fostering a diverse and inclusive learning environment that encourages students to develop their full potential.
+## 🎓 Notable Faculties & Signature Programs
 
+| Faculty                        | Key Departments                                                                 | Notes (e.g., 'English Program Available') |
+|--------------------------------|-----------------------------------------------------------------------------|-----------------------------------------|
+| Integrated Arts and Sciences | Integrated Arts and Sciences                                                    |                                         |
+| Letters                        | Philosophy, History, Literature                                               |                                         |
+| Education                      | Education, Psychology, Special Education                                       |                                         |
+| Law                            | Law, Political Science                                                             |                                         |
+| Economics                      | Economics, Business Administration                                                 |                                         |
+| Science                        | Mathematics, Physics, Chemistry, Biology, Earth and Planetary Systems Science |                                         |
+| Medicine                       | Medicine, Nursing, Rehabilitation Science                                         |                                         |
+| Dentistry                      | Dentistry, Oral Health                                                         |                                         |
+| Pharmaceutical Sciences        | Pharmaceutical Sciences, Pharmacy                                                |                                         |
+| Engineering                    | Mechanical Engineering, Electrical Engineering, Chemical Engineering, Civil Engineering, Architecture |                                         |
+| Applied Biological Science     | Applied Biological Science                                                      |                                         |
+| Informatics and Data Science    | Informatics and Data Science                                                      |                                         |
 
-## 🎓 Faculties & Departments
+Hiroshima University is particularly well-regarded for its programs in Peace Studies and Medical Sciences. The Peace Studies program, offered through various departments and research centers, is a direct reflection of the university's location and history. The program focuses on understanding the causes of conflict, promoting peacebuilding strategies, and fostering international cooperation. It attracts students from around the world who are passionate about working towards a more peaceful and just world. Students engage in research, participate in seminars and workshops, and have opportunities to collaborate with international organizations and policymakers. The program emphasizes interdisciplinary approaches, drawing on insights from fields such as political science, history, sociology, and international relations. The location in Hiroshima provides students with a unique opportunity to learn from the experiences of the city and its people, further enriching their understanding of peace and reconciliation.
 
-| Faculty                        | Departments                                                                 |
-|--------------------------------|-----------------------------------------------------------------------------|
-| Integrated Arts and Sciences | Integrated Arts and Sciences                                                    |
-| Letters                        | Philosophy, History, Literature                                               |
-| Education                      | Education, Psychology, Special Education                                       |
-| Law                            | Law, Political Science                                                             |
-| Economics                      | Economics, Business Administration                                                 |
-| Science                        | Mathematics, Physics, Chemistry, Biology, Earth and Planetary Systems Science |
-| Medicine                       | Medicine, Nursing, Rehabilitation Science                                         |
-| Dentistry                      | Dentistry, Oral Health                                                         |
-| Pharmaceutical Sciences        | Pharmaceutical Sciences, Pharmacy                                                |
-| Engineering                    | Mechanical Engineering, Electrical Engineering, Chemical Engineering, Civil Engineering, Architecture |
-| Applied Biological Science     | Applied Biological Science                                                      |
-| Informatics and Data Science    | Informatics and Data Science                                                      |
+Another signature program is in the field of Medical Sciences. The Faculty of Medicine boasts a strong tradition of research and innovation. The program attracts many students interested in medical research and public health. The university hospital associated with the Faculty of Medicine provides students with valuable clinical experience. The university excels in research areas such as cancer treatment, regenerative medicine, and infectious diseases. International collaborations are a key feature of the Faculty of Medicine, with researchers actively engaged in projects around the world. The Faculty is also at the forefront of developing cutting-edge medical technologies and treatments, contributing to advancements in healthcare both in Japan and globally. The program is constantly evolving to address emerging health challenges and prepare future generations of medical professionals to meet the changing needs of society.
 
+## 🌍 International Student Admissions & Life
 
-## 💰 Tuition & Fees
+The application process for international students at Hiroshima University generally involves several key steps. Most undergraduate programs require applicants to submit scores from the Examination for Japanese University Admission for International Students (EJU). This exam assesses Japanese language proficiency, as well as foundational academic skills. Additionally, applicants must demonstrate English language proficiency through standardized tests such as TOEFL or IELTS. Specific score requirements may vary depending on the program. Graduate programs typically have similar requirements, with an emphasis on academic transcripts, letters of recommendation, and a research proposal (for research-based programs). Some programs may also require interviews, either in person or via video conference. The university provides detailed information about the application process and requirements on its website, and prospective students are encouraged to carefully review these resources.
+
+Hiroshima University offers a growing number of degree programs taught entirely in English, catering to the increasing demand from international students. These programs span various disciplines, including engineering, science, and social sciences. Examples include the Global Environmental Leaders Program (GELP) at the graduate level, focusing on sustainability and environmental issues, and some specialized programs within the engineering faculty. The availability of English-taught programs allows international students to pursue their academic goals without needing advanced Japanese language proficiency at the outset. The university also provides intensive Japanese language courses to help international students develop their language skills during their studies. A comprehensive list of English-taught programs can be found on the university's official website, allowing prospective students to identify programs that align with their academic interests.
+
+Hiroshima University provides extensive support services for international students through its International Student Office. This office offers assistance with visa applications, immigration procedures, and other administrative matters. They also organize orientation programs to help international students adjust to life in Japan and at the university. Academic advising services are available to help students choose courses, plan their academic paths, and navigate the university's academic system. Counseling services are also provided to support students' mental and emotional well-being. The university has a dedicated team of staff who are committed to providing a welcoming and supportive environment for international students. The International Student Office also organizes cultural events and activities throughout the year to help international students integrate into the university community and learn about Japanese culture.
+
+Hiroshima University has a vibrant and diverse international student population, with approximately 1200 students from countries around the world. This diverse community enriches the campus atmosphere and provides opportunities for intercultural exchange. The university has a wide range of student clubs and organizations, catering to diverse interests, including sports, arts, culture, and academic pursuits. International students are encouraged to join these clubs to connect with other students, pursue their hobbies, and make new friends. The overall campus atmosphere is welcoming and inclusive, with a strong emphasis on promoting international understanding. The university actively encourages interaction between domestic and international students through various programs and initiatives.
+
+## 💰 Tuition, Scholarships & Cost of Living
 
 | Item            | Amount (JPY) |
 |-----------------|--------------|
 | Admission Fee   | 282,000      |
 | Yearly Tuition | 535,800      |
 
+The tuition and fees at Hiroshima University are relatively standard for national universities in Japan. As shown in the table above, the admission fee is approximately 282,000 JPY, and the yearly tuition is about 535,800 JPY. These figures are subject to change, and it's important to check the university's official website for the most up-to-date information. Additional fees may apply for certain programs or activities.
 
-## 🌍 International Student Support
+Hiroshima University offers a variety of scholarships for international students. The most prestigious is the MEXT (Ministry of Education, Culture, Sports, Science and Technology) scholarship, which is awarded to outstanding students based on academic merit. The MEXT scholarship covers tuition fees, provides a monthly stipend, and includes round-trip airfare. The university also offers its own scholarships, such as the Hiroshima University President Scholarship, which provides financial assistance to outstanding international students. In addition, there are several private foundations that offer scholarships to international students studying in Japan. These foundations often have specific eligibility criteria, such as nationality, academic field, or financial need. Students are encouraged to research all available scholarship options and apply for those that meet their qualifications.
 
-Hiroshima University provides comprehensive support for international students to ensure a smooth and enriching academic experience. This support includes:
-
-*   **Dormitory:** The university offers on-campus and off-campus housing options for international students, providing a safe and comfortable living environment. Dormitories are equipped with essential amenities and offer opportunities for intercultural exchange.
-*   **English Programs:** A wide range of courses are offered in English across various disciplines, catering to international students who may not have sufficient Japanese language proficiency. The university also provides Japanese language courses to help international students improve their communication skills.
-*   **Career Support:** The university's career center provides guidance and resources to help international students explore career options, prepare for job interviews, and secure employment opportunities in Japan or abroad. They offer workshops, seminars, and individual counseling sessions.
-*   **International Student Support Office:** This office provides assistance with visa applications, immigration procedures, and other administrative matters. They also organize cultural events and activities to help international students integrate into the university community.
-*   **Buddy Program:** The university's buddy program pairs international students with local students who can provide support and friendship. Buddies help international students navigate the campus, learn about Japanese culture, and make new friends.
-*   **Scholarships:** Hiroshima University offers various scholarships to international students based on academic merit and financial need. Students are encouraged to explore the scholarship options available and apply for those that meet their eligibility criteria.
-
+The cost of living in Higashi-Hiroshima, where the main campus is located, is generally lower than in major metropolitan areas like Tokyo or Osaka. A rough monthly budget for an international student would typically include expenses such as rent, utilities, food, transportation, and personal expenses. Rent for a single room in a university dormitory or a private apartment can range from 30,000 to 60,000 JPY per month. Utilities, including electricity, water, and gas, can cost around 10,000 to 15,000 JPY per month. Food expenses can vary depending on dietary habits, but a reasonable budget would be around 30,000 to 40,000 JPY per month. Transportation costs can be minimized by using public transportation or cycling. Personal expenses, such as clothing, entertainment, and phone bills, can vary greatly depending on individual preferences. Overall, a monthly budget of around 80,000 to 120,000 JPY would be a reasonable estimate for an international student living in Higashi-Hiroshima.
 
 ## 📍 Campus Location & Access
 
@@ -110,4 +104,16 @@ Hiroshima University provides comprehensive support for international students t
 | Higashi-Hiroshima | 1-7-1 Kagamiyama, Higashi-Hiroshima City, Hiroshima | JR Sanyo Main Line to Saijo Station, then bus to Hiroshima University.                                              |
 | Hiroshima        | 1-2-3 Kasumi, Minami-ku, Hiroshima              | Hiroshima Station, then Hiroshima Electric Railway (Hiroden) streetcar to various stops near the campus buildings. |
 
-The Higashi-Hiroshima Campus is the main campus, housing most of the undergraduate and graduate programs. The Hiroshima campuses are primarily used for medical and dental programs.
+The main campus of Hiroshima University is situated in Higashi-Hiroshima, a city located about 30 kilometers east of Hiroshima City. Higashi-Hiroshima is a relatively quiet and peaceful city with a strong focus on education and research. The campus itself is located in Kagamiyama, a suburban area with a mix of residential neighborhoods, parks, and commercial establishments. The surrounding neighborhood is safe and convenient, with easy access to essential amenities such as supermarkets, restaurants, and banks. The atmosphere is conducive to studying and research, with a strong sense of community.
+
+The Hiroshima campuses, located in Hiroshima City, primarily house the medical and dental schools. The campuses in Hiroshima city are more urban in character, with a variety of shops, restaurants, and entertainment options nearby. These campuses are easily accessible by public transportation, making it convenient for students to explore the city and its attractions.
+
+**Access Details:**
+
+*   **To Higashi-Hiroshima Campus:**
+
+    *   **From Hiroshima Airport (HIJ):** Take a limousine bus to Hiroshima Station, then transfer to the JR Sanyo Main Line to Saijo Station. From Saijo Station, take a bus to Hiroshima University (approximately 15-20 minutes).
+    *   **From Hiroshima Station:** Take the JR Sanyo Main Line to Saijo Station (approximately 40-50 minutes). From Saijo Station, take a bus to Hiroshima University (approximately 15-20 minutes).
+*   **To Hiroshima Campuses:**
+
+    *   **From Hiroshima Station:** Take the Hiroshima Electric Railway (Hiroden) streetcar lines 1, 3, or 5 to various stops near the campuses (e.g., Danbara 1-chome stop for the Kasumi campus). The streetcar ride takes approximately 15-20 minutes, depending on the specific stop. Alternatively, a taxi from Hiroshima Station will take approximately 10-15 minutes.

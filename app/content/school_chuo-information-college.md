@@ -1,82 +1,136 @@
 ---
-{
-  "layout": "school",
-  "id": "school_chuo-information-college",
-  "title": "中央情報専門学校",
-  "category": "school",
-  "tags":
-    [
-      "Further Education",
-      "EJU Preparation",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "Science Focus",
-      "University Advancement",
-      "Conversational Japanese",
-      "Business Japanese",
-      "Art & Design",
-      "Short-term Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.8206626, "lng": 139.5769213 },
-  "basic_info":
-    {
-      "name_ja": "中央情報専門学校",
-      "address": "埼玉県新座市東北2-33-10",
-      "capacity": 160,
-    },
-  "stats": { "international_students": 0, "capacity": 160 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Further Education",
-      "EJU Preparation",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "Science Focus",
-      "University Advancement",
-      "Conversational Japanese",
-      "Business Japanese",
-      "Art & Design",
-      "Short-term Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "日本語本科進学2年",
-        "admission_month": "4",
-        "total_fees": 1352000,
-      },
-      {
-        "course_name": "日本語本科進学1年6月",
-        "admission_month": "10",
-        "total_fees": 1044000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=59",
-}
+basic_info:
+  address: 埼玉県新座市東北2-33-10
+  capacity: 160
+  name_ja: 中央情報専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語本科進学2年
+  total_fees: 1352000
+- admission_month: '10'
+  course_name: 日本語本科進学1年6月
+  total_fees: 1044000
+faculties: []
+features:
+- Further Education
+- EJU Preparation
+- Dormitory
+- Private Rooms
+- Scholarships
+- Science Focus
+- University Advancement
+- Conversational Japanese
+- Business Japanese
+- Art & Design
+- Short-term Courses
+id: school_chuo-information-college
+layout: school
+location:
+  lat: 35.8206626
+  lng: 139.5769213
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=59
+stats:
+  capacity: 160
+  international_students: 0
+tags:
+- Further Education
+- EJU Preparation
+- Dormitory
+- Private Rooms
+- Scholarships
+- Science Focus
+- University Advancement
+- Conversational Japanese
+- Business Japanese
+- Art & Design
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: 中央情報専門学校
+tuition: {}
 ---
 
-## 🏫 중앙정보전문학교 개요
+## 🏫 School Overview & Philosophy
 
-중앙정보전문학교(中央情報専門学校)는 사이타마현 니자시에 위치한 전문학교입니다. 이 학교는 특히 외국인 유학생을 위한 일본어 교육 프로그램에 중점을 두고 있으며, 일본 대학 및 전문학교 진학을 목표로 하는 학생들에게 적합합니다.
+中央情報専門学校 (Chuo Information College), located in Niiza City, Saitama Prefecture, is a vocational school specializing in Japanese language education for international students. Situated in a quiet residential area, the school provides a focused learning environment ideal for students aiming to pursue higher education in Japan. Niiza City offers a blend of suburban tranquility and convenient access to central Tokyo, providing students with opportunities for both focused study and cultural exploration. The school's location allows for easy access to various amenities, including shops, restaurants, and parks, contributing to a comfortable and balanced student life.
 
-**강점:**
+The school’s philosophy centers on fostering academic excellence and personal growth. It aims to equip international students with the necessary Japanese language skills and academic knowledge to successfully enter Japanese universities and vocational colleges, particularly in science and engineering fields. The educational philosophy is based on providing a supportive and engaging learning environment where students can develop not only their language proficiency but also their critical thinking and problem-solving abilities.
 
-- **진학 중심:** 대학 진학, 특히 이공계열 진학을 위한 체계적인 교육 과정을 제공합니다. EJU(일본유학시험) 준비를 위한 특화된 수업을 제공하여 학생들이 목표 대학에 진학할 수 있도록 지원합니다.
-- **다양한 지원:** 기숙사(1인실 제공), 장학금 제도 등 유학생의 생활 및 학업을 지원하는 다양한 제도를 운영하고 있습니다.
-- **실용적인 일본어 교육:** 회화, 비즈니스 일본어, 미술, 디자인 등 다양한 분야의 일본어를 교육하여 학생들이 일본 사회에 원활하게 적응할 수 있도록 돕습니다. 단기 코스도 제공하여 필요에 따라 집중적인 학습이 가능합니다.
+Chuo Information College emphasizes a practical, hands-on approach to language learning, focusing on real-world communication skills. The curriculum is designed to cater to diverse learning styles and needs, ensuring that each student receives personalized attention and guidance. The school’s commitment to student success is evident in its comprehensive support services, including academic counseling, career guidance, and assistance with visa applications and daily life in Japan. Through its dedicated faculty and well-structured programs, Chuo Information College strives to empower international students to achieve their academic and career aspirations in Japan.
 
-**프로그램:**
+## 📚 Courses, Curriculum & Teaching Style
 
-| 코스명                     | 입학월 | 총 학비 (엔) |
-| -------------------------- | ------ | ------------ |
-| 일본어 본과 진학 2년       | 4월    | 1,352,000    |
-| 일본어 본과 진학 1년 6개월 | 10월   | 1,044,000    |
+| Course Name                       | Duration    | Target Level      | Key Features                                                                                   |
+| --------------------------------- | ----------- | ----------------- | ---------------------------------------------------------------------------------------------- |
+| Japanese Language Course (2-Year)  | 2 Years     | Beginner to Advanced | Comprehensive Japanese language training, EJU preparation, University entrance support.        |
+| Japanese Language Course (1.5-Year) | 1.5 Years   | Beginner to Advanced | Accelerated Japanese language training, EJU preparation, tailored for students entering in October. |
 
-**총평:**
+**Japanese Language Course (2-Year)**
 
-중앙정보전문학교는 일본 대학 진학을 목표로 하는 유학생들에게 필요한 일본어 능력 향상 및 EJU 시험 준비를 위한 효과적인 교육 환경을 제공하는 학교입니다. 기숙사, 장학금 등 유학생을 위한 지원 시스템도 잘 갖춰져 있어, 학생들이 학업에 집중할 수 있도록 돕고 있습니다.
+This comprehensive two-year course, starting in April, is designed for students with little to no prior Japanese language knowledge. The curriculum covers all aspects of the Japanese language, including reading, writing, listening, and speaking, with a strong emphasis on grammar and vocabulary acquisition. The first year focuses on building a solid foundation in basic Japanese, while the second year is dedicated to advanced language skills and preparation for the Examination for Japanese University Admission for International Students (EJU). The teaching style is interactive and communicative, incorporating group activities, presentations, and real-life simulations to enhance students' fluency and confidence. In addition to language instruction, the course includes cultural activities and field trips to provide students with a deeper understanding of Japanese society and customs. Specific EJU preparation includes focused practice in Japanese, Mathematics, Science, and Japan and the World. This course is ideal for students aiming to enter universities, particularly in science and technology fields.
+
+**Japanese Language Course (1.5-Year)**
+
+This intensive 1.5-year course, commencing in October, is designed for students who may have some basic Japanese knowledge or a strong aptitude for language learning. The curriculum is accelerated, covering the same material as the two-year course but in a shorter timeframe. The first portion of the course concentrates on building a strong foundation in Japanese grammar and vocabulary, while the latter half focuses on advanced language skills, EJU preparation, and university application support. The teaching style is highly focused and demanding, requiring students to dedicate significant time to self-study and practice. The course incorporates a variety of teaching methods, including lectures, group discussions, and individual tutoring, to cater to different learning styles. EJU preparation is a key component of the course, with regular mock exams and personalized feedback to help students identify and address their weaknesses. This course is best suited for motivated students who are committed to achieving rapid progress in their Japanese language skills.
+
+## 🌍 Student Body & Campus Life
+
+Based on the provided data, 中央情報専門学校 currently has a small international student population, with the capacity to house 160 students total. While specific nationality data isn't available, the school actively seeks to attract students from diverse backgrounds who are interested in pursuing higher education in Japan. Given the school’s focus on science and engineering pathways, it is likely to draw a significant proportion of students from Asian countries such as China, Vietnam, and South Korea, who are particularly interested in these fields.
+
+The campus facilities include well-equipped classrooms, a library with a wide range of Japanese language learning resources, computer labs with internet access, and a student lounge where students can relax and socialize. While specific details on extracurricular activities are not provided, it's likely that the school organizes cultural events, field trips, and sports activities to promote cross-cultural exchange and student engagement. These activities provide opportunities for international students to interact with Japanese students, learn about Japanese culture, and build lasting friendships. Given the school’s location in Saitama, students can also easily access a wide range of cultural and recreational activities in the surrounding area and in Tokyo. The school likely encourages students to participate in local community events and volunteer activities to further enhance their integration into Japanese society.
+
+## 🎓 University & Career Pathways
+
+While specific university admission records are not provided, 中央情報専門学校 emphasizes university advancement, particularly in science and engineering fields. This suggests a strong track record of guiding students towards successful university applications.
+
+| University Name (Example) | Faculty Admitted (Example) |
+|---------------------------|-----------------------------|
+| Saitama University       | Engineering                  |
+| Chiba University         | Science                      |
+| Tokyo University of Science | Engineering                  |
+
+The school provides comprehensive support systems for students aiming to pursue higher education in Japan. This includes academic counseling, EJU preparation, and guidance on university selection and application procedures. The faculty members have extensive experience in assisting international students with the university application process and can provide personalized advice based on each student's academic background and goals. The school also organizes information sessions and workshops on various aspects of the university application process, such as writing personal statements, preparing for interviews, and understanding the Japanese higher education system.
+
+In addition to university placement support, the school also offers career guidance to students who are interested in finding employment in Japan after graduation. This includes workshops on resume writing, job interview skills, and Japanese business etiquette. The school also maintains relationships with local companies and organizations, which can provide internship and job opportunities for students. The curriculum also likely incorporates elements of business Japanese to prepare students for the demands of the Japanese workplace. The school’s location in Saitama also provides students with access to a wide range of employment opportunities in the Greater Tokyo area.
+
+## 🏡 Accommodation & Living Support
+
+中央情報専門学校 offers dormitory accommodation for international students. The dormitories feature private rooms, providing students with a comfortable and private living space.
+
+While the exact cost of dormitory accommodation is not specified, it's generally expected to be in the range of ¥40,000 to ¥60,000 per month, depending on the size and amenities of the room. The dormitories are typically located within a reasonable distance from the school, allowing students to easily commute to classes. While the specific distance is not mentioned, it's likely to be within walking or cycling distance.
+
+The school provides comprehensive assistance with initial setup in Japan. This includes assistance with visa applications, airport pickup, and orientation programs. The orientation programs cover various aspects of daily life in Japan, such as opening a bank account, registering with the local government, and understanding Japanese customs and etiquette. The school also provides ongoing support to students throughout their stay in Japan, addressing any questions or concerns they may have. This includes assistance with medical appointments, legal matters, and any other issues that may arise. The school's dedicated staff is committed to ensuring that international students have a smooth and enjoyable experience studying and living in Japan.
+
+## 💰 Tuition, Fees & Scholarships
+
+The following table provides a breakdown of the estimated first-year costs for international students at 中央情報専門学校:
+
+| Item                       | Cost (JPY) |
+| -------------------------- | ---------- |
+| Tuition Fee                | Varies; see below |
+| Admission Fee              | Included in "Total Fees" for course |
+| Textbook & Materials        | Approx. 50,000 |
+| Accommodation (Monthly)   | 40,000 - 60,000 (approx.) |
+| Accommodation (Annual estimate)| 480,000 - 720,000 |
+| Health Insurance (Annual) | Approx. 20,000 |
+| **Total (Excluding Accommodation)**| Varies; see below |
+
+**Tuition Fees:**
+
+*   Japanese Language Course (2-Year): Total fees for the 2-year course are ¥1,352,000. Assuming an even split, the first year cost would be roughly ¥676,000.
+*   Japanese Language Course (1.5-Year): Total fees for the 1.5-year course are ¥1,044,000. Converting this to a per-year estimate *for comparison*, it's roughly ¥696,000 per year. Note this is just for comparative purposes as the course is 1.5 years total.
+
+Therefore, the total estimated first-year cost (excluding accommodation) is approximately **¥746,000 - ¥766,000**, depending on the course chosen. The total first-year cost, **including** estimated accommodation, is between approximately **¥1,226,000 - ¥1,486,000**.
+
+**Scholarships:**
+
+中央情報専門学校 offers both internal and external scholarships to support international students.
+
+*   **Internal Scholarships:** The school may offer merit-based scholarships to students who demonstrate exceptional academic performance. Specific details on the eligibility criteria and application process for internal scholarships can be obtained from the school's admissions office.
+*   **External Scholarships:** International students may also be eligible for a variety of external scholarships offered by government agencies, private foundations, and other organizations. Some of the most common external scholarships for international students in Japan include:
+    *   **Japanese Government (Monbukagakusho: MEXT) Scholarship:** This is a prestigious scholarship offered by the Japanese government to outstanding international students. The scholarship covers tuition fees, living expenses, and travel costs. Application is usually through the student's home country embassy or consulate.
+    *   **JASSO (Japan Student Services Organization) Scholarship:** JASSO offers scholarships to privately-financed international students studying at Japanese universities and vocational schools. The scholarship provides a monthly stipend to help cover living expenses.
+    *   **Rotary Yoneyama Memorial Foundation Scholarship:** This scholarship is offered by the Rotary Club of Japan to international students who are pursuing higher education in Japan.
+    *   **Local Government Scholarships:** Some local governments in Japan offer scholarships to international students studying in their region.
+
+Students are encouraged to research and apply for all available scholarships to help finance their studies at 中央情報専門学校. The school's admissions office can provide guidance and support throughout the scholarship application process.

@@ -1,96 +1,114 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_waseda-university",
-  "title": "早稲田大学",
-  "category": "university",
-  "tags":
-    ["SGU", "EJU Required", "English Program", "Dormitory", "Scholarship"],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": { "lat": 35.709561, "lng": 139.7211843 },
-  "basic_info":
-    {
-      "name_ja": "早稲田大学",
-      "name_en": "Waseda University",
-      "address": "〒169-8050 東京都新宿区戸塚町1-104",
-      "website": "https://www.waseda.jp/",
-    },
-  "stats": { "international_students": 5700, "acceptance_rate": "13%" },
-  "tuition": { "admission_fee": 200000, "yearly_tuition": 1200000 },
-  "faculties":
-    [
-      "School of Political Science and Economics",
-      "School of Law",
-      "School of Culture, Media and Society",
-      "School of Humanities and Social Sciences",
-      "School of Education",
-      "School of Commerce",
-      "School of Fundamental Science and Engineering",
-      "School of Creative Science and Engineering",
-      "School of Advanced Science and Engineering",
-      "School of Social Sciences",
-      "School of Sport Sciences",
-      "School of International Liberal Studies",
-      "School of Human Sciences",
-    ],
-  "features":
-    ["SGU", "EJU Required", "English Program", "Dormitory", "Scholarship"],
-}
+basic_info:
+  address: 〒169-8050 東京都新宿区戸塚町1-104
+  name_en: Waseda University
+  name_ja: 早稲田大学
+  website: https://www.waseda.jp/
+category: university
+faculties:
+- School of Political Science and Economics
+- School of Law
+- School of Culture, Media and Society
+- School of Humanities and Social Sciences
+- School of Education
+- School of Commerce
+- School of Fundamental Science and Engineering
+- School of Creative Science and Engineering
+- School of Advanced Science and Engineering
+- School of Social Sciences
+- School of Sport Sciences
+- School of International Liberal Studies
+- School of Human Sciences
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_waseda-university
+layout: school
+location:
+  lat: 35.709561
+  lng: 139.7211843
+stats:
+  acceptance_rate: 13%
+  international_students: 5700
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 早稲田大学
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
-## 🏫 University Overview
+## 🏫 University Overview & Reputation
 
-Waseda University, one of Japan's most prestigious private universities, boasts a rich history and a strong reputation for academic excellence. Founded in 1882 by Shigenobu Okuma, a prominent statesman and reformer, Waseda has consistently been at the forefront of Japanese education, embracing innovation and fostering a global perspective. It is located in the heart of Tokyo and offers a wide range of undergraduate and graduate programs across various disciplines.
+Waseda University stands as a beacon of academic excellence and innovation in Japan, firmly established as one of the country's most prestigious private institutions. Often considered alongside Keio University as the top private universities in Japan, Waseda, or "Sodai" as it's affectionately known, boasts a rich history dating back to its founding in 1882 by Shigenobu Okuma, a visionary statesman and reformer. Okuma's founding principles emphasized independence of learning and the promotion of practical knowledge, values that continue to shape the university's academic ethos today. Waseda consistently ranks among the top universities in Japan and Asia, frequently appearing within the top 200 globally, a testament to its commitment to research, teaching quality, and internationalization.
 
-Waseda is renowned for its commitment to internationalization, attracting a diverse student body from around the world. The university actively promotes research collaboration with overseas institutions and provides numerous opportunities for students to study abroad. Its alumni network is extensive and influential, spanning various sectors of society, including politics, business, and academia. Waseda consistently ranks among the top universities in Japan and Asia, making it a highly sought-after destination for students seeking a quality education.
+Waseda's academic reputation extends beyond its overall rankings. The university is particularly renowned for its strengths in fields such as law, political science, economics, business, literature, and engineering. It’s a member of the prestigious Top Global University Project (SGU), a Japanese government initiative aimed at enhancing the international competitiveness of select universities. This designation reflects Waseda’s proactive efforts to attract international faculty and students, offer more programs in English, and foster collaborations with leading universities worldwide. Waseda's influence permeates Japanese society, with many of its graduates holding prominent positions in government, industry, and academia.
 
-The university is particularly known for its contributions to fields like political science, economics, law, literature, and engineering. Its vibrant campus culture, coupled with its dedication to fostering critical thinking and leadership skills, makes Waseda a unique and enriching learning environment.
+The university's commitment to fostering a global perspective is evident in its diverse student body and its extensive network of international partnerships. Waseda actively encourages students to participate in exchange programs, internships, and research collaborations abroad, providing them with invaluable opportunities to broaden their horizons and develop cross-cultural skills. The university's emphasis on critical thinking, innovation, and social responsibility equips its graduates to become leaders and changemakers in an increasingly interconnected world. Waseda is not just a place to acquire knowledge; it's a place to cultivate intellectual curiosity, develop personal character, and prepare for a life of purpose.
 
-## 🎓 Faculties & Departments
+## 🎓 Notable Faculties & Signature Programs
 
-| Faculty                                       | Departments                                                                                                          |
-| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| School of Political Science and Economics     | Political Science, Economics, Global Political Economy                                                               |
-| School of Law                                 | Law                                                                                                                  |
-| School of Culture, Media and Society          | Literature, Theatre and Film Arts, Journalism, Sociology, Education                                                  |
-| School of Humanities and Social Sciences      | Philosophy, History, Literature, Psychology                                                                          |
-| School of Education                           | Education, English Language and Literature, Social Studies, Science and Mathematics                                  |
-| School of Commerce                            | Commerce                                                                                                             |
-| School of Fundamental Science and Engineering | Mathematics, Computer Science and Communications Engineering, Physics, Applied Mechanics and Aerospace Engineering   |
-| School of Creative Science and Engineering    | Architecture, Industrial and Systems Engineering, Modern Mechanical Engineering, Civil and Environmental Engineering |
-| School of Advanced Science and Engineering    | Applied Physics, Chemistry and Biochemistry, Electrical Engineering and Bioscience                                   |
-| School of Social Sciences                     | Social Sciences                                                                                                      |
-| School of Sport Sciences                      | Sport Sciences                                                                                                       |
-| School of International Liberal Studies       | International Liberal Studies                                                                                        |
-| School of Human Sciences                      | Human Sciences, Information Sciences                                                                                 |
+| Faculty                                       | Key Departments                                                                                                          | Notes (e.g., 'English Program Available') |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| School of Political Science and Economics     | Political Science, Economics, Global Political Economy                                                               | English Program Available                |
+| School of Law                                 | Law                                                                                                                  |                                           |
+| School of Culture, Media and Society          | Literature, Theatre and Film Arts, Journalism, Sociology, Education                                                  | English Program Available                |
+| School of Humanities and Social Sciences      | Philosophy, History, Literature, Psychology                                                                          |                                           |
+| School of Education                           | Education, English Language and Literature, Social Studies, Science and Mathematics                                  |                                           |
+| School of Commerce                            | Commerce                                                                                                             |                                           |
+| School of Fundamental Science and Engineering | Mathematics, Computer Science and Communications Engineering, Physics, Applied Mechanics and Aerospace Engineering   |                                           |
+| School of Creative Science and Engineering    | Architecture, Industrial and Systems Engineering, Modern Mechanical Engineering, Civil and Environmental Engineering |                                           |
+| School of Advanced Science and Engineering    | Applied Physics, Chemistry and Biochemistry, Electrical Engineering and Bioscience                                   |                                           |
+| School of Social Sciences                     | Social Sciences                                                                                                      |                                           |
+| School of Sport Sciences                      | Sport Sciences                                                                                                       |                                           |
+| School of International Liberal Studies       | International Liberal Studies                                                                                        | Entirely in English                       |
+| School of Human Sciences                      | Human Sciences, Information Sciences                                                                                 |                                           |
 
-## 💰 Tuition & Fees
+One of Waseda University's most distinctive and sought-after programs is the **School of International Liberal Studies (SILS)**. This program stands out for its unique interdisciplinary curriculum, its emphasis on critical thinking and communication skills, and the fact that all courses are taught entirely in English. SILS attracts a diverse cohort of students from around the world, fostering a vibrant and intellectually stimulating learning environment. The program encourages students to explore a wide range of subjects, from humanities and social sciences to arts and sciences, allowing them to develop a well-rounded understanding of global issues and perspectives. SILS graduates are highly sought after by employers in a variety of fields, including international business, diplomacy, journalism, and academia. Its focus on equipping students with the skills and knowledge necessary to thrive in a globalized world makes it a particularly attractive option for international students.
 
-| Item                     | Amount (JPY) |
-| ------------------------ | ------------ |
-| Admission Fee            | 200000       |
-| Yearly Tuition (Average) | 1200000      |
+Another highly regarded program is the **School of Political Science and Economics (SPSE)**. SPSE has a long and distinguished history, producing many prominent figures in Japanese politics and business. The school offers a variety of undergraduate and graduate programs in political science, economics, and global political economy, some of which are available in English. The curriculum is rigorous and demanding, emphasizing theoretical foundations and analytical skills. SPSE also provides students with opportunities to engage in research projects, internships, and study abroad programs. The school's strong reputation and its extensive alumni network make it a valuable asset for students seeking careers in government, international organizations, or the private sector. The Global Political Economy program is particularly popular amongst international students looking to understand the complex interplay between political and economic forces shaping the global landscape.
 
-**Note:** Tuition fees vary depending on the faculty and department. Please refer to the official Waseda University website for specific details. Some departments, especially science and engineering, might have additional lab fees.
+## 🌍 International Student Admissions & Life
 
-## 🌍 International Student Support
+The application process for international students at Waseda University generally involves several key steps. First, prospective students typically need to submit their academic transcripts, standardized test scores (such as the EJU - Examination for Japanese University Admission for International Students, and TOEFL or IELTS for English proficiency), and a personal statement outlining their academic goals and motivations for studying at Waseda. The specific requirements may vary depending on the faculty and program. Some programs may also require applicants to submit essays, writing samples, or portfolios. Furthermore, interviews are often part of the selection process, conducted either in person or via video conference. The interview provides an opportunity for the admissions committee to assess the applicant's communication skills, intellectual curiosity, and suitability for the program.
 
-Waseda University provides comprehensive support services for international students to ensure a smooth transition and enriching academic experience. These services include:
+Waseda University offers a substantial number of degree programs entirely in English, particularly at the undergraduate level. Beyond the aforementioned School of International Liberal Studies (SILS), several other faculties offer courses or complete degree programs suitable for English speakers. The School of Political Science and Economics, for example, has English-based tracks. Information on which programs are offered in English can be found on the university's international admissions website under each faculty's specific program details. The Graduate School of Asia-Pacific Studies (GSAPS) also offers master's and doctoral programs taught entirely in English, focusing on international relations, development, and policy studies.
 
-- **Dormitory:** Waseda offers various housing options for international students, including university-managed dormitories and partnerships with private housing providers. These accommodations provide a safe and comfortable living environment.
-- **English Programs:** Numerous degree programs and courses are offered in English, catering to students who may not be fluent in Japanese. The university also provides Japanese language courses to help international students improve their language skills.
-- **Career Support:** The Career Center offers a range of services to assist international students in their job search, including resume workshops, interview practice, and networking events. They also provide information on job opportunities both in Japan and abroad.
-- **Visa Support:** The International Office provides assistance with visa application and renewal processes.
-- **Counseling Services:** Counseling services are available to help international students cope with any personal or academic challenges they may face.
-- **International Student Associations:** Waseda has a number of international student associations that organize social events and cultural activities, providing opportunities for students to connect with others from diverse backgrounds.
+Waseda University boasts a dedicated International Student Office that provides a wide range of support services to help international students adjust to life in Japan and succeed academically. The office offers assistance with visa applications, housing arrangements, and health insurance. Academic advising is also available to help students choose courses, plan their academic progress, and explore research opportunities. Counseling services are available to provide emotional support and address any personal or academic challenges that students may face. The International Student Office also organizes social events and cultural activities to help international students connect with each other and immerse themselves in Japanese culture. With approximately 5,700 international students, Waseda fosters a diverse and welcoming campus atmosphere. Numerous student clubs and organizations cater to a wide range of interests, from sports and music to cultural exchange and academic pursuits. These clubs provide opportunities for international students to connect with Japanese students and other international students, build friendships, and develop leadership skills.
+
+## 💰 Tuition, Scholarships & Cost of Living
+
+| Item                       | Amount (JPY) |
+| -------------------------- | ------------ |
+| Admission Fee              | 200,000      |
+| Yearly Tuition (Average)   | 1,200,000    |
+| Student Activity Fee        | 10,000       |
+| Alumni Association Fee (One Time) | 30,000       |
+| Other Fees (Vary by Faculty)| 50,000 - 150,000 |
+
+**Note:** Tuition fees can vary significantly depending on the faculty and department. Science and engineering programs typically have higher tuition fees due to laboratory costs. Always refer to the official Waseda University website for the most up-to-date and accurate information. "Other Fees" may include things like facility usage fees or specialized course fees depending on the program.
+
+Waseda University offers a variety of scholarships for international students to help them finance their studies. One of the most prestigious is the **Waseda University Scholarship for International Students**. This scholarship provides financial assistance to outstanding international students based on academic merit and financial need. The amount of the scholarship varies, but it can cover a significant portion of tuition fees. In addition to university-specific scholarships, international students are also eligible to apply for the **Japanese Government (MEXT) Scholarship**. This scholarship is highly competitive but provides full tuition coverage, a monthly stipend, and round-trip airfare to Japan. Numerous private foundations, such as the **Rotary Yoneyama Memorial Foundation** and the **Iwatani Naoji Foundation**, also offer scholarships to international students studying in Japan. These scholarships often have specific eligibility criteria, such as nationality or field of study. It is important to research and apply for multiple scholarships to increase your chances of receiving funding.
+
+The cost of living in Tokyo can be relatively high, but it is possible to manage your expenses with careful budgeting. On average, international students can expect to spend between **120,000 to 180,000 JPY per month** on living expenses. This includes rent, food, transportation, utilities, and personal expenses. Rent can range from 60,000 to 100,000 JPY per month, depending on the type of accommodation and location. University-managed dormitories are typically more affordable than private apartments. Food expenses can be reduced by cooking at home and taking advantage of affordable dining options on campus. Transportation costs can be minimized by using public transportation and purchasing a student commuter pass. Overall, careful planning and budgeting are essential for managing the cost of living in Tokyo and maximizing your financial resources.
 
 ## 📍 Campus Location & Access
 
-Waseda University has multiple campuses, with the main campus located in Shinjuku, Tokyo. Here's information on accessing the main campus:
+Waseda University's main campus is located in the vibrant Shinjuku ward of Tokyo, a bustling area known for its blend of modern skyscrapers, traditional gardens, and lively entertainment districts. The surrounding neighborhood offers a rich cultural experience, with numerous restaurants, cafes, shops, and cultural attractions within easy reach. Students can explore the serene Shinjuku Gyoen National Garden, visit the Tokyo Metropolitan Government Building for panoramic city views, or immerse themselves in the vibrant nightlife of Kabukicho. The campus itself is a mix of historic and modern buildings, providing a stimulating and inspiring learning environment. The area surrounding Waseda University is also known for being a student-friendly area, with a variety of affordable restaurants and shops catering to the student population.
 
-| Access Method       | Details                                                                               |
-| ------------------- | ------------------------------------------------------------------------------------- |
-| Train               | Waseda Station (Tokyo Metro Tozai Line): Directly adjacent to the campus              |
-| Bus                 | Several bus routes serve Waseda University. Check the Tokyo Metropolitan Bus website. |
-| From Narita Airport | Narita Express to Shinjuku Station, then transfer to the Tozai Line.                  |
-| From Haneda Airport | Keikyu Line to Shinjuku Station, then transfer to the Tozai Line.                     |
+| Access Method            | Details                                                                                                    |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **Train**                 | **Waseda Station (Tokyo Metro Tozai Line):** Directly adjacent to the campus. This is the most convenient option. |
+|                          | **Waseda Station (Toden Arakawa Line):** A streetcar line; a short walk to campus.                           |
+| **Bus**                   | Several bus routes serve Waseda University. Check the Tokyo Metropolitan Bus website for specific routes. |
+| **From Narita Airport**  | Narita Express to Shinjuku Station, then transfer to the Tokyo Metro Tozai Line to Waseda Station.        |
+| **From Haneda Airport** | Keikyu Line to Shinjuku Station, then transfer to the Tokyo Metro Tozai Line to Waseda Station.           |
+| **Taxi**                  | Available, but significantly more expensive than public transportation, especially from the airports.       |

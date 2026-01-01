@@ -5,6 +5,7 @@ import time
 import google.generativeai as genai
 from dotenv import load_dotenv
 import logging
+import glob
 
 # ==========================================
 # [설정]
@@ -17,65 +18,74 @@ model = genai.GenerativeModel('gemini-2.0-flash')
 INPUT_CSV = "scripts/file/guide_topics.csv"
 OUTPUT_DIR = "app/content"
 LOG_DIR = "logs"
+HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt") # [추가] 처리 기록 파일
 
-# 🎯 생성할 가이드 개수 제한 (0 또는 음수면 제한 없음)
 LIMIT = 10
 
-# 로깅 설정
-if not os.path.exists(LOG_DIR):
-    os.makedirs(LOG_DIR)
+# 로깅 및 기록 파일 디렉토리 생성
+if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 logging.basicConfig(filename=os.path.join(LOG_DIR, "guide_gen.log"), level=logging.INFO, format='%(asctime)s - %(message)s')
 
-# 🖼️ 카테고리별 썸네일 이미지 매핑 (Unsplash)
 THUMBNAILS = {
-    "Cost": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500",       # 돈/계산기
-    "Budget": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500",
-    "Selection": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",  # [교체됨] 학교/교실 대체 -> 일본 거리
-    "Visa": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",       # 여권/공항
-    "Housing": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",    # 방/인테리어
-    "Part-time": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",     # 카페/알바
-    "Exam": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",       # 공부/시험
-    "Preparation": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",# 짐싸기
-    "Settlement": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500", # 스마트폰/은행
-    "Insurance": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",  # 병원/건강
-    "Region": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",     # 도쿄/도시
-    "default": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500"     # 기본값
+    "Cost": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
+    "Budget": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
+    "Selection": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
+    "Visa": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
+    "Housing": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
+    "Part-time": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
+    "Exam": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
+    "Preparation": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
+    "Settlement": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
+    "Insurance": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",
+    "Region": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
+    "default": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500"
 }
 
+# [추가] 기록 관련 함수
+def load_history():
+    if not os.path.exists(HISTORY_FILE): return set()
+    with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+        return set(line.strip() for line in f)
+
+def append_history(slug):
+    with open(HISTORY_FILE, "a", encoding="utf-8") as f:
+        f.write(f"{slug}\n")
+
 def get_thumbnail(category):
-    """카테고리 문자열에 키워드가 포함되어 있으면 해당 이미지 반환"""
-    if not category:
-        return THUMBNAILS["default"]
-    
+    if not category: return THUMBNAILS["default"]
     for key, url in THUMBNAILS.items():
-        if key in category:
-            return url
+        if key in category: return url
     return THUMBNAILS["default"]
 
 def generate_content(row):
     print(f"🤖 Generating AI Content for: {row['title']}...")
-    
     prompt = f"""
-    You are a professional consultant for international students in Japan.
-    Write a blog post in **ENGLISH** based on the request below.
-
-    [Topic]
-    Title: {row['title']}
-    Context: {row['prompt']}
-
-    [Writing Guidelines]
-    1. **Format**: Standard Markdown. Use ## for main headings.
-    2. **Language**: English Only.
-    3. **Tone**: Helpful, informative, encouraging.
-    4. **Structure**: Introduction -> 3~4 Key Points -> Summary/Conclusion.
-    5. **Tables**: MUST include at least one Markdown table (e.g., Cost comparison, Timeline, Pros/Cons).
-    6. **Length**: 1500 ~ 2500 characters.
-    7. **Output**: Return ONLY the Markdown body content. Do not include Frontmatter.
+    You are an expert author who writes comprehensive guides for international students preparing to study in Japan.
+    Write a long-form, detailed blog post in **ENGLISH** based on the topic below.
+    The article must be well-structured, informative, and easy to read.
+    **Total length must be between 7000 and 8000 characters.**
+    ---
+    ### Topic Details ###
+    **Title:** {row['title']}
+    **Core Prompt:** {row['prompt']}
+    ---
+    ### Writing Guidelines & Structure ###
+    1.  **Format:** Use standard Markdown. Use `##` for main headings and `###` for subheadings.
+    2.  **Introduction:** Start with an engaging introduction that explains why this topic is important for students.
+    3.  **Main Body:**
+        -   Break down the topic into 3-5 logical main sections using `##` headings.
+        -   Under each main section, use `###` subheadings to provide more detailed points.
+        -   Use bullet points (`-`) or numbered lists (`1.`) for clarity.
+        -   **Include at least two detailed Markdown tables.** For example, comparison tables (Tokyo vs. Osaka), cost breakdown tables, pros and cons, or timelines. Tables are crucial for data visualization.
+    4.  **Tone:** Professional, yet friendly and encouraging. Provide actionable tips and advice.
+    5.  **Conclusion:** End with a summary paragraph that recaps the key takeaways.
+    ---
+    ### YOUR TASK ###
+    Generate ONLY the Markdown body content based on the guidelines above. Do not include the title or any frontmatter.
     """
-
     try:
         response = model.generate_content(prompt)
-        return response.text
+        return response.text.replace("```markdown", "").replace("```", "").strip()
     except Exception as e:
         print(f"❌ Error generating {row['slug']}: {e}")
         return None
@@ -90,15 +100,20 @@ def main():
 
     with open(INPUT_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
-        rows = list(reader)
+        all_topics = list(reader)
 
-    print(f"🚀 Found {len(rows)} topics. Starting generation...")
+    # [수정] 처리된 목록을 불러오고, 처리할 대상만 필터링
+    processed_slugs = load_history()
+    topics_to_process = [row for row in all_topics if row['slug'] not in processed_slugs]
     
-    count = 0
-    skipped_count = 0
+    print(f"🚀 Total topics: {len(all_topics)} | Already processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
+    
+    # [수정] 기존 파일 삭제 로직 제거
+    # print("🔥 Deleting existing guide files to regenerate...")
+    # ... (삭제 코드 제거됨) ...
 
-    for row in rows:
-        # 제한 개수 도달 시 중단 (새로 생성한 개수 기준)
+    count = 0
+    for row in topics_to_process:
         if LIMIT > 0 and count >= LIMIT:
             print(f"🛑 Limit reached ({LIMIT}). Stopping generation.")
             break
@@ -107,45 +122,32 @@ def main():
         filename = f"guide_{slug}.md"
         filepath = os.path.join(OUTPUT_DIR, filename)
 
-        # [핵심] 파일 존재 시 스킵
-        if os.path.exists(filepath):
-            print(f"⏭️ Skipping (Exists): {filename}")
-            skipped_count += 1
-            logging.info(f"Skipped: {filename}")
-            continue
-
-        # AI 콘텐츠 생성
         content_body = generate_content(row)
         
         if content_body:
-            # 썸네일 결정
             thumbnail_url = get_thumbnail(row['category'])
-
-            # Frontmatter 구성
-            frontmatter = {
-                "layout": "guide",
-                "id": slug,
-                "title": row['title'],
-                "category": row['category'],
-                "tags": [row['category']],
-                "description": row['description'],
-                "thumbnail": thumbnail_url,
+            frontmatter_data = {
+                "layout": "guide", "id": slug, "title": row['title'],
+                "category": row['category'], "tags": [row['category']],
+                "description": row['description'], "thumbnail": thumbnail_url,
                 "date": time.strftime("%Y-%m-%d")
             }
 
-            # 파일 저장
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write("---\n")
-                f.write(json.dumps(frontmatter, ensure_ascii=False, indent=2))
+                f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
                 f.write("\n---\n\n")
                 f.write(content_body)
             
+            # [추가] 성공 시 기록
+            append_history(slug)
+
             print(f"✅ Saved: {filename}")
             logging.info(f"Generated: {filename}")
             count += 1
-            time.sleep(2) # API 제한 방지
+            time.sleep(3)
 
-    print(f"✨ Job Finished. Generated: {count}, Skipped: {skipped_count}")
+    print(f"✨ Job Finished. Newly generated: {count} guide(s).")
 
 if __name__ == "__main__":
     main()
