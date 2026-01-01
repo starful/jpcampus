@@ -1,70 +1,59 @@
 ---
-{
-  "layout": "school",
-  "id": "school_osafune-japanese-language-academy",
-  "title": "長船日本語学院",
-  "category": "school",
-  "tags":
-    [
-      "University Preparation",
-      "International Exchange",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "EJU Preparation",
-      "Science Focus",
-      "University Admission Support",
-      "Conversation Practice",
-      "Business Japanese",
-      "Art/Design Focus",
-      "Short-Term Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.6680558, "lng": 133.926566 },
-  "basic_info":
-    {
-      "name_ja": "長船日本語学院",
-      "address": "岡山県岡山市北区蕃山町3-10",
-      "capacity": 225,
-    },
-  "stats": { "international_students": 0, "capacity": 225 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "University Preparation",
-      "International Exchange",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "EJU Preparation",
-      "Science Focus",
-      "University Admission Support",
-      "Conversation Practice",
-      "Business Japanese",
-      "Art/Design Focus",
-      "Short-Term Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "ベーシックコース",
-        "admission_month": "10",
-        "total_fees": 1063500,
-      },
-      {
-        "course_name": "スタンダードコース",
-        "admission_month": "7",
-        "total_fees": 1209500,
-      },
-      {
-        "course_name": "アドバンスドコース",
-        "admission_month": "4",
-        "total_fees": 1351500,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=392",
-}
+basic_info:
+  address: 岡山県岡山市北区蕃山町3-10
+  capacity: 225
+  name_en: Osafune Japanese Language Academy
+  name_ja: 長船日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: ベーシックコース
+  total_fees: 1063500
+- admission_month: '7'
+  course_name: スタンダードコース
+  total_fees: 1209500
+- admission_month: '4'
+  course_name: アドバンスドコース
+  total_fees: 1351500
+faculties: []
+features:
+- University Preparation
+- International Exchange
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Focus
+- University Admission Support
+- Conversation Practice
+- Business Japanese
+- Art/Design Focus
+- Short-Term Courses
+id: school_osafune-japanese-language-academy
+layout: school
+location:
+  lat: 34.6680558
+  lng: 133.926566
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=392
+stats:
+  capacity: 225
+  international_students: 0
+tags:
+- University Preparation
+- International Exchange
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Focus
+- University Admission Support
+- Conversation Practice
+- Business Japanese
+- Art/Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 長船日本語学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

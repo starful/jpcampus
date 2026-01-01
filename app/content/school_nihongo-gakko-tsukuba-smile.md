@@ -2,6 +2,7 @@
 basic_info:
   address: 茨城県取手市戸頭1142-1
   capacity: 100
+  name_en: Tsukuba Smile Japanese Language School
   name_ja: 日本語学校つくばスマイル
 category: school
 courses:

@@ -2,6 +2,7 @@
 basic_info:
   address: 大阪府大阪市阿倍野区丸山通1-6-3
   capacity: 336
+  name_en: Seifu Information Engineering Academy Japanese Language Department
   name_ja: 清風情報工科学院日本語科
 category: school
 courses:

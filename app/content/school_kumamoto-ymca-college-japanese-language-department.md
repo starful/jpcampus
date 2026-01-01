@@ -1,67 +1,58 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kumamoto-ymca-college-japanese-language-department",
-  "title": "熊本YMCA学院日本語科",
-  "category": "school",
-  "tags":
-    [
-      "Small Class Sizes",
-      "Homework Support",
-      "Conversation Focused",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "EJU Preparation",
-      "Science Course Support",
-      "University Pathway",
-      "Conversation Practice",
-      "Business Japanese",
-      "Art & Design Focus",
-      "Short-Term Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 32.8064167, "lng": 130.6952676 },
-  "basic_info":
-    {
-      "name_ja": "熊本YMCA学院日本語科",
-      "address": "熊本県熊本市中央区段山本町4-1",
-      "capacity": 140,
-    },
-  "stats": { "international_students": 0, "capacity": 140 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Small Class Sizes",
-      "Homework Support",
-      "Conversation Focused",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "EJU Preparation",
-      "Science Course Support",
-      "University Pathway",
-      "Conversation Practice",
-      "Business Japanese",
-      "Art & Design Focus",
-      "Short-Term Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学1年半コース",
-        "admission_month": "10",
-        "total_fees": 1090000,
-      },
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1420000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=448",
-}
+basic_info:
+  address: 熊本県熊本市中央区段山本町4-1
+  capacity: 140
+  name_en: Kumamoto YMCA College Japanese Language Department
+  name_ja: 熊本YMCA学院日本語科
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1090000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1420000
+faculties: []
+features:
+- Small Class Sizes
+- Homework Support
+- Conversation Focused
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Course Support
+- University Pathway
+- Conversation Practice
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+id: school_kumamoto-ymca-college-japanese-language-department
+layout: school
+location:
+  lat: 32.8064167
+  lng: 130.6952676
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=448
+stats:
+  capacity: 140
+  international_students: 0
+tags:
+- Small Class Sizes
+- Homework Support
+- Conversation Focused
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Course Support
+- University Pathway
+- Conversation Practice
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 熊本YMCA学院日本語科
+tuition: {}
 ---
 
 ## 🏫 School Overview

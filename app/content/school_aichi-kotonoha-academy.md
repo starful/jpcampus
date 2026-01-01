@@ -1,51 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "school_aichi-kotonoha-academy",
-  "title": "あいちコトノハ学院",
-  "category": "school",
-  "tags":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory Available",
-      "Conversational Japanese",
-      "Short-Term Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.2665989, "lng": 136.8736841 },
-  "basic_info":
-    {
-      "name_ja": "あいちコトノハ学院",
-      "address": "愛知県岩倉市稲荷町羽根14-10",
-      "capacity": 150,
-    },
-  "stats": { "international_students": 0, "capacity": 150 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory Available",
-      "Conversational Japanese",
-      "Short-Term Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1470000,
-      },
-      {
-        "course_name": "進学1年6か月コース",
-        "admission_month": "10",
-        "total_fees": 1150000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=545",
-}
+basic_info:
+  address: 愛知県岩倉市稲荷町羽根14-10
+  capacity: 150
+  name_en: Aichi Kotonoha Academy
+  name_ja: あいちコトノハ学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1470000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1150000
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Conversational Japanese
+- Short-Term Courses
+id: school_aichi-kotonoha-academy
+layout: school
+location:
+  lat: 35.2665989
+  lng: 136.8736841
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=545
+stats:
+  capacity: 150
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Conversational Japanese
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: あいちコトノハ学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

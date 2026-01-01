@@ -1,91 +1,70 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kobe-toyo-japanese-language-academy",
-  "title": "神戸東洋日本語学院",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "Scholarships",
-      "EJU",
-      "Science",
-      "University Preparation",
-      "Conversation",
-      "Business",
-      "Art",
-      "Design",
-      "Short-Term",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.6910859, "lng": 135.187186 },
-  "basic_info":
-    {
-      "name_ja": "神戸東洋日本語学院",
-      "address": "兵庫県神戸市中央区北長狭通4-5-7",
-      "capacity": 520,
-    },
-  "stats": { "international_students": 0, "capacity": 520 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "Scholarships",
-      "EJU",
-      "Science",
-      "University Preparation",
-      "Conversation",
-      "Business",
-      "Art",
-      "Design",
-      "Short-Term",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "春コースⅠ",
-        "admission_month": "4",
-        "total_fees": 720000,
-      },
-      {
-        "course_name": "春コースⅡ",
-        "admission_month": "4",
-        "total_fees": 1360000,
-      },
-      {
-        "course_name": "夏コースⅠ",
-        "admission_month": "7",
-        "total_fees": 720000,
-      },
-      {
-        "course_name": "夏コースⅡ",
-        "admission_month": "7",
-        "total_fees": 1201000,
-      },
-      {
-        "course_name": "秋コースⅠ",
-        "admission_month": "10",
-        "total_fees": 720000,
-      },
-      {
-        "course_name": "秋コースⅡ",
-        "admission_month": "10",
-        "total_fees": 1040000,
-      },
-      {
-        "course_name": "冬コースⅠ",
-        "admission_month": "1",
-        "total_fees": 720000,
-      },
-      {
-        "course_name": "冬コースⅡ",
-        "admission_month": "1",
-        "total_fees": 881000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=372",
-}
+basic_info:
+  address: 兵庫県神戸市中央区北長狭通4-5-7
+  capacity: 520
+  name_en: Kobe Toyo Japanese Language Academy
+  name_ja: 神戸東洋日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 春コースⅠ
+  total_fees: 720000
+- admission_month: '4'
+  course_name: 春コースⅡ
+  total_fees: 1360000
+- admission_month: '7'
+  course_name: 夏コースⅠ
+  total_fees: 720000
+- admission_month: '7'
+  course_name: 夏コースⅡ
+  total_fees: 1201000
+- admission_month: '10'
+  course_name: 秋コースⅠ
+  total_fees: 720000
+- admission_month: '10'
+  course_name: 秋コースⅡ
+  total_fees: 1040000
+- admission_month: '1'
+  course_name: 冬コースⅠ
+  total_fees: 720000
+- admission_month: '1'
+  course_name: 冬コースⅡ
+  total_fees: 881000
+faculties: []
+features:
+- Dormitory
+- Scholarships
+- EJU
+- Science
+- University Preparation
+- Conversation
+- Business
+- Art
+- Design
+- Short-Term
+id: school_kobe-toyo-japanese-language-academy
+layout: school
+location:
+  lat: 34.6910859
+  lng: 135.187186
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=372
+stats:
+  capacity: 520
+  international_students: 0
+tags:
+- Dormitory
+- Scholarships
+- EJU
+- Science
+- University Preparation
+- Conversation
+- Business
+- Art
+- Design
+- Short-Term
+thumbnail: /static/img/pin-school.png
+title: 神戸東洋日本語学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

@@ -1,63 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nicchu-language-academy",
-  "title": "日中語学専門学院",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Admission Support",
-      "Conversation Focused",
-      "Science Course Preparation",
-      "Scholarships",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.6491877, "lng": 135.5242562 },
-  "basic_info":
-    {
-      "name_ja": "日中語学専門学院",
-      "address": "大阪府大阪市天王寺区寺田町2-5-19",
-      "capacity": 176,
-    },
-  "stats": { "international_students": 0, "capacity": 176 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Admission Support",
-      "Conversation Focused",
-      "Science Course Preparation",
-      "Scholarships",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "大学進学1年3ヶ月コース",
-        "admission_month": "1",
-        "total_fees": 925000,
-      },
-      {
-        "course_name": "大学進学1年半コース",
-        "admission_month": "10",
-        "total_fees": 1090000,
-      },
-      {
-        "course_name": "大学進学1年9ヶ月コース",
-        "admission_month": "7",
-        "total_fees": 1255000,
-      },
-      {
-        "course_name": "大学進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1420000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=351",
-}
+basic_info:
+  address: 大阪府大阪市天王寺区寺田町2-5-19
+  capacity: 176
+  name_en: Nichichu Language Academy
+  name_ja: 日中語学専門学院
+category: school
+courses:
+- admission_month: '1'
+  course_name: 大学進学1年3ヶ月コース
+  total_fees: 925000
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 1090000
+- admission_month: '7'
+  course_name: 大学進学1年9ヶ月コース
+  total_fees: 1255000
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1420000
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Admission Support
+- Conversation Focused
+- Science Course Preparation
+- Scholarships
+id: school_nicchu-language-academy
+layout: school
+location:
+  lat: 34.6491877
+  lng: 135.5242562
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=351
+stats:
+  capacity: 176
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Admission Support
+- Conversation Focused
+- Science Course Preparation
+- Scholarships
+thumbnail: /static/img/pin-school.png
+title: 日中語学専門学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

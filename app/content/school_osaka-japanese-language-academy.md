@@ -2,6 +2,7 @@
 basic_info:
   address: 大阪府大阪市平野区長吉長原西2-2-12
   capacity: 244
+  name_en: Osaka Japanese Language Academy
   name_ja: 大阪日本語アカデミー
 category: school
 courses:

@@ -1,49 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_meiyo-japanese-language-academy",
-  "title": "明友日本語学院",
-  "category": "school",
-  "tags":
-    ["Dormitory", "EJU Preparation", "University Pathway", "Science Focus"],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.854525, "lng": 139.9670156 },
-  "basic_info":
-    {
-      "name_ja": "明友日本語学院",
-      "address": "千葉県柏市泉町17-1",
-      "capacity": 280,
-    },
-  "stats": { "international_students": 0, "capacity": 280 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    ["Dormitory", "EJU Preparation", "University Pathway", "Science Focus"],
-  "courses":
-    [
-      {
-        "course_name": "進学1年6か月コース",
-        "admission_month": "10",
-        "total_fees": 1074600,
-      },
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1404000,
-      },
-      {
-        "course_name": "進学1.3年コース",
-        "admission_month": "1",
-        "total_fees": 909900,
-      },
-      {
-        "course_name": "進学1.9年コース",
-        "admission_month": "7",
-        "total_fees": 1239300,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=83",
-}
+basic_info:
+  address: 千葉県柏市泉町17-1
+  capacity: 280
+  name_en: Meiyu Japanese Language School
+  name_ja: 明友日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1074600
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1404000
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 909900
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1239300
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Science Focus
+id: school_meiyo-japanese-language-academy
+layout: school
+location:
+  lat: 35.854525
+  lng: 139.9670156
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=83
+stats:
+  capacity: 280
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: 明友日本語学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

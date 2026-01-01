@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都新宿区信濃町34 トーシン信濃町駅前ビル4,5,6階
   capacity: 1080
+  name_en: Tokyo Central Japanese Language Institute
   name_ja: 東京中央日本語学院
 category: school
 courses:

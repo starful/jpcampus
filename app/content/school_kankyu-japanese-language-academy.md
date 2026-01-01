@@ -2,6 +2,7 @@
 basic_info:
   address: 宮城県仙台市青葉区土樋1-1-15
   capacity: 380
+  name_en: Global Japanese Language Institute
   name_ja: 環球日本語学習院
 category: school
 courses:

@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都北区滝野川7-8-9
   capacity: 150
+  name_en: JET Japanese Language School
   name_ja: ジェット日本語学校
 category: school
 courses:

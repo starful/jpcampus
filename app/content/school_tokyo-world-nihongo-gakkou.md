@@ -1,64 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-world-nihongo-gakkou",
-  "title": "東京ワールド日本語学校",
-  "category": "school",
-  "tags":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory Available",
-      "Business Japanese",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.6990458, "lng": 139.6994652 },
-  "basic_info":
-    {
-      "name_ja": "東京ワールド日本語学校",
-      "address": "東京都新宿区百人町1-13-24",
-      "capacity": 1752,
-    },
-  "stats": { "international_students": 0, "capacity": 1752 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory Available",
-      "Business Japanese",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1561000,
-      },
-      {
-        "course_name": "進学1.9年コース",
-        "admission_month": "7",
-        "total_fees": 1376500,
-      },
-      {
-        "course_name": "進学1.5年コース",
-        "admission_month": "10",
-        "total_fees": 1192000,
-      },
-      {
-        "course_name": "進学1.3年コース",
-        "admission_month": "1",
-        "total_fees": 1007500,
-      },
-      {
-        "course_name": "進学1年コース",
-        "admission_month": "4",
-        "total_fees": 823000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=131",
-}
+basic_info:
+  address: 東京都新宿区百人町1-13-24
+  capacity: 1752
+  name_en: Tokyo World Japanese Language School
+  name_ja: 東京ワールド日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1561000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1376500
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1192000
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 1007500
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 823000
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Business Japanese
+id: school_tokyo-world-nihongo-gakkou
+layout: school
+location:
+  lat: 35.6990458
+  lng: 139.6994652
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=131
+stats:
+  capacity: 1752
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Business Japanese
+thumbnail: /static/img/pin-school.png
+title: 東京ワールド日本語学校
+tuition: {}
 ---
 
 ## 🏫 School Overview

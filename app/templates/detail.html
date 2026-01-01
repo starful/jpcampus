@@ -40,12 +40,13 @@
 
     <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
         <div class="header-content" style="justify-content: flex-start; max-width: 800px;">
+            <!-- [수정] 클래스 변경 -->
             {% if school.category == 'university' %}
-                <a href="/universities" class="back-link-btn">
+                <a href="/universities" class="cta-btn gray">
                     <i class="fas fa-arrow-left"></i> Back to University List
                 </a>
             {% else %}
-                <a href="/schools" class="back-link-btn">
+                <a href="/schools" class="cta-btn gray">
                     <i class="fas fa-arrow-left"></i> Back to School List
                 </a>
             {% endif %}

@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都文京区千駄木3-33-6 千駄木パークビル
   capacity: 100
+  name_en: LABO Japanese Language Institute
   name_ja: ラボ日本語教育研修所
 category: school
 courses:

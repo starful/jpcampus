@@ -2,6 +2,7 @@
 basic_info:
   address: 栃木県宇都宮市大通り1-2-5
   capacity: 80
+  name_en: International Information Business College
   name_ja: 国際情報ビジネス専門学校
 category: school
 courses:

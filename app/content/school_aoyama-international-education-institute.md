@@ -1,86 +1,63 @@
 ---
-{
-  "layout": "school",
-  "id": "school_aoyama-international-education-institute",
-  "title": "青山国際教育学院",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "University Preparation",
-      "Business Japanese",
-      "Short-Term Courses",
-      "EJU Preparation",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.6674254, "lng": 139.7151324 },
-  "basic_info":
-    {
-      "name_ja": "青山国際教育学院",
-      "address": "東京都港区南青山3-8-40　青山センタービル3F",
-      "capacity": 400,
-    },
-  "stats": { "international_students": 0, "capacity": 400 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "University Preparation",
-      "Business Japanese",
-      "Short-Term Courses",
-      "EJU Preparation",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "国立大学進学課程",
-        "admission_month": "4",
-        "total_fees": 1620000,
-      },
-      {
-        "course_name": "国立大学進学課程",
-        "admission_month": "7",
-        "total_fees": 1465000,
-      },
-      {
-        "course_name": "大学院進学課程",
-        "admission_month": "4",
-        "total_fees": 880000,
-      },
-      {
-        "course_name": "大学専門進学課程",
-        "admission_month": "4",
-        "total_fees": 1660000,
-      },
-      {
-        "course_name": "大学専門進学課程",
-        "admission_month": "7",
-        "total_fees": 1465000,
-      },
-      {
-        "course_name": "大学専門進学課程",
-        "admission_month": "10",
-        "total_fees": 1270000,
-      },
-      {
-        "course_name": "大学専門進学課程",
-        "admission_month": "1",
-        "total_fees": 1075000,
-      },
-      {
-        "course_name": "大学専門進学課程",
-        "admission_month": "4",
-        "total_fees": 880000,
-      },
-      {
-        "course_name": "日本語専攻課程／ビジネス日本語課程(4月入学)",
-        "admission_month": "4,7,10",
-        "total_fees": 880000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=97",
-}
+basic_info:
+  address: 東京都港区南青山3-8-40　青山センタービル3F
+  capacity: 400
+  name_en: Aoyama International Education Institute
+  name_ja: 青山国際教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 国立大学進学課程
+  total_fees: 1620000
+- admission_month: '7'
+  course_name: 国立大学進学課程
+  total_fees: 1465000
+- admission_month: '4'
+  course_name: 大学院進学課程
+  total_fees: 880000
+- admission_month: '4'
+  course_name: 大学専門進学課程
+  total_fees: 1660000
+- admission_month: '7'
+  course_name: 大学専門進学課程
+  total_fees: 1465000
+- admission_month: '10'
+  course_name: 大学専門進学課程
+  total_fees: 1270000
+- admission_month: '1'
+  course_name: 大学専門進学課程
+  total_fees: 1075000
+- admission_month: '4'
+  course_name: 大学専門進学課程
+  total_fees: 880000
+- admission_month: 4,7,10
+  course_name: 日本語専攻課程／ビジネス日本語課程(4月入学)
+  total_fees: 880000
+faculties: []
+features:
+- Dormitory
+- University Preparation
+- Business Japanese
+- Short-Term Courses
+- EJU Preparation
+id: school_aoyama-international-education-institute
+layout: school
+location:
+  lat: 35.6674254
+  lng: 139.7151324
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=97
+stats:
+  capacity: 400
+  international_students: 0
+tags:
+- Dormitory
+- University Preparation
+- Business Japanese
+- Short-Term Courses
+- EJU Preparation
+thumbnail: /static/img/pin-school.png
+title: 青山国際教育学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

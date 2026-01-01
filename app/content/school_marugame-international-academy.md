@@ -1,51 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "school_marugame-international-academy",
-  "title": "丸亀国際学院",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Pathway",
-      "Conversational Japanese",
-      "Business Japanese",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.2887232, "lng": 133.7922561 },
-  "basic_info":
-    {
-      "name_ja": "丸亀国際学院",
-      "address": "香川県丸亀市南条町17-4",
-      "capacity": 80,
-    },
-  "stats": { "international_students": 0, "capacity": 80 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Pathway",
-      "Conversational Japanese",
-      "Business Japanese",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1498500,
-      },
-      {
-        "course_name": "進学1年6か月コース",
-        "admission_month": "10",
-        "total_fees": 1154510,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=600",
-}
+basic_info:
+  address: 香川県丸亀市南条町17-4
+  capacity: 80
+  name_en: Marugame International Academy
+  name_ja: 丸亀国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1498500
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1154510
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversational Japanese
+- Business Japanese
+id: school_marugame-international-academy
+layout: school
+location:
+  lat: 34.2887232
+  lng: 133.7922561
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=600
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversational Japanese
+- Business Japanese
+thumbnail: /static/img/pin-school.png
+title: 丸亀国際学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

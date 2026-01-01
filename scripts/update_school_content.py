@@ -10,7 +10,7 @@ import logging
 load_dotenv()
 CONTENT_DIR = "app/content"
 LOG_DIR = "logs"
-LIMIT = 1
+LIMIT = 10
 
 if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 logging.basicConfig(filename=os.path.join(LOG_DIR, "school_update.log"), level=logging.INFO, format='%(asctime)s - %(message)s', encoding='utf-8')
@@ -29,50 +29,27 @@ def clean_json(text):
 def get_ai_enhancement(school_name, current_data):
     print(f"✍️ Analyzing (Deep): {school_name}")
     
+    # [수정됨] 프롬프트에 'name_en' 요구사항 추가
     prompt = f"""
     You are an expert consultant for international students studying in Japan.
     Analyze the Japanese language school '{school_name}' based on the provided data and write an in-depth, comprehensive guide in ENGLISH.
-    The output must be in Markdown format and follow the structure below precisely.
+    The output must be in a single JSON format.
 
-    **Total length must be between 7000 and 8000 characters.** Be as detailed as possible in each section.
-
-    ---
-
-    ## 🏫 School Overview & Philosophy
-    - Write 3-4 paragraphs. Start with an engaging introduction.
-    - Detail the school's location (e.g., "Located in the vibrant heart of Shinjuku..."), its specific neighborhood vibe, and proximity to major stations.
-    - Explain the school's founding history, educational philosophy, and what makes it unique compared to other schools.
-
-    ## 📚 Courses, Curriculum & Teaching Style
-    - **Course Breakdown Table:** Create a detailed Markdown table with columns for | Course Name | Duration | Target Level | Key Features |.
-    - **Curriculum Details:** For each main course (e.g., General, EJU Prep, Business), write a detailed paragraph explaining the curriculum, class hours, and what students will learn.
-    - **Teaching Methodology:** Describe the school's teaching style. Is it strict and academic? Focused on conversation? Does it use unique materials or technology?
-
-    ## 🌍 Student Body & Campus Life
-    - **Nationality Mix Analysis:** Based on the provided demographics data, write a paragraph analyzing the student environment. For example, "With a significant portion of students from Vietnam and China, the school offers an intensive, focused learning environment..."
-    - **Campus Facilities:** Describe the school's facilities: classrooms, library, student lounge, computer access, etc.
-    - **Extracurricular Activities:** List and describe the cultural activities, events, or clubs offered by the school (e.g., tea ceremony, calligraphy, field trips).
-
-    ## 🎓 University & Career Pathways
-    - **Admission Records:** If data is available, create a Markdown table listing major universities students have entered.
-    - **University Progression Support:** Detail the support system for students aiming for higher education: EJU prep classes, interview practice, academic counseling, university fairs, etc.
-    - **Career Support:** Describe the support for job-seeking students: business Japanese classes, resume writing workshops, interview training, and partnerships with companies.
-
-    ## 🏡 Accommodation & Living Support
-    - **Dormitory Information:** Describe the types of dormitories available (single/shared, school-owned/affiliated), including average monthly cost, distance from school, and facilities.
-    - **Living Assistance:** Explain how the school helps students with essential life setup, such as opening a bank account, resident registration, health insurance, and part-time job searching.
-
-    ## 💰 Tuition, Fees & Scholarships
-    - **Detailed Cost Table:** Create a Markdown table for the first-year costs: | Item | Amount (JPY) |. Include Application Fee, Admission Fee, Tuition, and Other Fees.
-    - **Scholarship Programs:** List and describe available scholarships, including internal (school-offered) and external (JASSO, etc.) scholarships, mentioning eligibility criteria if possible.
+    **The markdown content for 'description_ko' must be between 7000 and 8000 characters.**
 
     ---
+    ### REQUIRED JSON STRUCTURE ###
+    {{
+        "english_slug": "A URL-friendly slug based on the English name.",
+        "name_en": "The official English name of the school. If none exists, provide a proper English translation.",
+        "features": ["An array of key features as strings."],
+        "description_ko": "## 🏫 School Overview & Philosophy\\n- Write 3-4 detailed paragraphs...\\n\\n## 📚 Courses, Curriculum & Teaching Style\\n- Create a Markdown table...\\n\\n## 🌍 Student Body & Campus Life\\n- Analyze nationality mix...\\n\\n## 🎓 University & Career Pathways\\n- Detail support systems...\\n\\n## 🏡 Accommodation & Living Support\\n- Describe dormitory options...\\n\\n## 💰 Tuition, Fees & Scholarships\\n- Create a detailed cost table...",
+        "stats": {{ "international_students": 123, "capacity": 456 }}
+    }}
 
-    [Input Data]
+    ---
+    [Input Data to Analyze]
     {json.dumps(current_data, ensure_ascii=False)}
-
-    [Output Format]
-    Return a JSON object with "english_slug", "features", "description_ko" (containing the detailed Markdown), and "stats".
     """
     
     try:
@@ -89,10 +66,11 @@ def main():
         print(f"❌ {CONTENT_DIR} folder not found.")
         return
 
+    # ID 형식 파일(B275.md 등)을 대상으로 함
     target_files = [f for f in os.listdir(CONTENT_DIR) if re.match(r'^[A-Z0-9].*\.md$', f)]
     
-    print(f"📂 Pending files: {len(target_files)}. Limit: {LIMIT}")
-    logging.info(f"Start processing. Pending: {len(target_files)}")
+    print(f"📂 Pending files for conversion: {len(target_files)}. Batch limit: {LIMIT}")
+    logging.info(f"Start processing new files. Pending: {len(target_files)}")
 
     count = 0
     for filename in target_files:
@@ -116,14 +94,22 @@ def main():
             new_slug = f"school_{raw_slug}" if not raw_slug.startswith("school_") else raw_slug
             new_desc = ai_result.get('description_ko', post.content)
             
+            # 메타데이터 업데이트
             metadata['id'] = new_slug
             metadata['category'] = 'school' 
             metadata['features'] = ai_result.get('features', [])
             metadata['tags'] = metadata['features']
             metadata['thumbnail'] = "/static/img/pin-school.png" 
+            
+            # [수정] basic_info에 name_en 추가
+            if 'basic_info' not in metadata:
+                metadata['basic_info'] = {}
+            metadata['basic_info']['name_en'] = ai_result.get('name_en')
+            
             if not metadata.get('stats'):
                 metadata['stats'] = ai_result.get('stats', {})
 
+            # 새 파일 저장
             new_filename = f"{new_slug}.md"
             new_filepath = os.path.join(CONTENT_DIR, new_filename)
             

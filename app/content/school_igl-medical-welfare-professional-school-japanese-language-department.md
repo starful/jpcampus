@@ -2,6 +2,7 @@
 basic_info:
   address: 広島県広島市安佐南区伴東1-12-18
   capacity: 240
+  name_en: IGL College of Medical and Welfare Japanese Language Department
   name_ja: IGL医療福祉専門学校日本語学科
 category: school
 courses:

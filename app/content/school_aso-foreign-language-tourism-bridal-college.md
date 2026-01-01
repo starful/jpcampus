@@ -2,6 +2,7 @@
 basic_info:
   address: 福岡県福岡市博多区博多駅南1-14-17
   capacity: 280
+  name_en: ASO College of Foreign Languages, Tourism and Bridal
   name_ja: 麻生外語観光＆ブライダル専門学校
 category: school
 courses:

@@ -1,51 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "school_abenonihongogakuin",
-  "title": "阿倍野日本語学院",
-  "category": "school",
-  "tags":
-    [
-      "University Preparation",
-      "Conversation Focus",
-      "Dormitory",
-      "EJU Preparation",
-      "Short-Term Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.6255119, "lng": 135.5154831 },
-  "basic_info":
-    {
-      "name_ja": "阿倍野日本語学院",
-      "address": "大阪府大阪市阿倍野区阪南町4-12-1",
-      "capacity": 220,
-    },
-  "stats": { "international_students": 0, "capacity": 220 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "University Preparation",
-      "Conversation Focus",
-      "Dormitory",
-      "EJU Preparation",
-      "Short-Term Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学1年6か月コース",
-        "admission_month": "10",
-        "total_fees": 1167000,
-      },
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "10",
-        "total_fees": 1545000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=557",
-}
+basic_info:
+  address: 大阪府大阪市阿倍野区阪南町4-12-1
+  capacity: 220
+  name_en: Abeno Japanese Language Institute
+  name_ja: 阿倍野日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1167000
+- admission_month: '10'
+  course_name: 進学2年コース
+  total_fees: 1545000
+faculties: []
+features:
+- University Preparation
+- Conversation Focus
+- Dormitory
+- EJU Preparation
+- Short-Term Courses
+id: school_abenonihongogakuin
+layout: school
+location:
+  lat: 34.6255119
+  lng: 135.5154831
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=557
+stats:
+  capacity: 220
+  international_students: 0
+tags:
+- University Preparation
+- Conversation Focus
+- Dormitory
+- EJU Preparation
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 阿倍野日本語学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

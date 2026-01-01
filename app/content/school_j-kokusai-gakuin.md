@@ -1,73 +1,54 @@
 ---
-{
-  "layout": "school",
-  "id": "school_j-kokusai-gakuin",
-  "title": "J国際学院",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "EJU",
-      "University Preparation",
-      "Conversation Focused",
-      "Short Term Courses",
-      "Science Focused",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.6801975, "lng": 135.4975075 },
-  "basic_info":
-    {
-      "name_ja": "J国際学院",
-      "address": "大阪府大阪市西区立売堀1-1-3",
-      "capacity": 560,
-    },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "EJU",
-      "University Preparation",
-      "Conversation Focused",
-      "Short Term Courses",
-      "Science Focused",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学1年コース",
-        "admission_month": "4",
-        "total_fees": 800000,
-      },
-      {
-        "course_name": "進学1年3か月コース",
-        "admission_month": "1",
-        "total_fees": 980000,
-      },
-      {
-        "course_name": "進学1年6か月コース",
-        "admission_month": "10",
-        "total_fees": 1160000,
-      },
-      {
-        "course_name": "進学1年9か月コース",
-        "admission_month": "7",
-        "total_fees": 1340000,
-      },
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1520000,
-      },
-      {
-        "course_name": "一般1年コース",
-        "admission_month": "4,7,10,1",
-        "total_fees": 800000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=325",
-}
+basic_info:
+  address: 大阪府大阪市西区立売堀1-1-3
+  capacity: 560
+  name_en: J International Academy
+  name_ja: J国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 800000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 980000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1160000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1340000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1520000
+- admission_month: 4,7,10,1
+  course_name: 一般1年コース
+  total_fees: 800000
+faculties: []
+features:
+- Dormitory
+- EJU
+- University Preparation
+- Conversation Focused
+- Short Term Courses
+- Science Focused
+id: school_j-kokusai-gakuin
+layout: school
+location:
+  lat: 34.6801975
+  lng: 135.4975075
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=325
+stats: {}
+tags:
+- Dormitory
+- EJU
+- University Preparation
+- Conversation Focused
+- Short Term Courses
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: J国際学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

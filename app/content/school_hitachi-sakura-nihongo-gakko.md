@@ -2,6 +2,7 @@
 basic_info:
   address: 茨城県日立市鹿島町1-7-6
   capacity: 100
+  name_en: Hitachi Sakura Japanese Language School
   name_ja: 日立さくら日本語学校
 category: school
 courses:

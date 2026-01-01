@@ -2,6 +2,7 @@
 basic_info:
   address: 青森県青森市栄町1-4-8
   capacity: 80
+  name_en: Aomori Japanese Language Academy
   name_ja: あおもり日本語学園
 category: school
 courses:

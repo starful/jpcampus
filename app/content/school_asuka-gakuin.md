@@ -1,68 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_asuka-gakuin",
-  "title": "飛鳥学院",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Pathway",
-      "Conversation Focus",
-      "Short-Term Courses",
-      "Science Focused",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.44512, "lng": 139.6266009 },
-  "basic_info":
-    {
-      "name_ja": "飛鳥学院",
-      "address": "神奈川県横浜市中区日ノ出町1-36",
-      "capacity": 594,
-    },
-  "stats": { "international_students": 0, "capacity": 594 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Pathway",
-      "Conversation Focus",
-      "Short-Term Courses",
-      "Science Focused",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1634000,
-      },
-      {
-        "course_name": "進学1年9ヶ月コース",
-        "admission_month": "7",
-        "total_fees": 1445000,
-      },
-      {
-        "course_name": "進学1年半コース",
-        "admission_month": "10",
-        "total_fees": 1256000,
-      },
-      {
-        "course_name": "進学1年3ヶ月コース",
-        "admission_month": "1",
-        "total_fees": 1067000,
-      },
-      {
-        "course_name": "一般コース",
-        "admission_month": "4",
-        "total_fees": 1634000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=246",
-}
+basic_info:
+  address: 神奈川県横浜市中区日ノ出町1-36
+  capacity: 594
+  name_en: Asuka Academy
+  name_ja: 飛鳥学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1634000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1445000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1256000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 1067000
+- admission_month: '4'
+  course_name: 一般コース
+  total_fees: 1634000
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focus
+- Short-Term Courses
+- Science Focused
+id: school_asuka-gakuin
+layout: school
+location:
+  lat: 35.44512
+  lng: 139.6266009
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=246
+stats:
+  capacity: 594
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focus
+- Short-Term Courses
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: 飛鳥学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

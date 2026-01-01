@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都墨田区両国1-2-3
   capacity: 240
+  name_en: Shurin Japanese Language School
   name_ja: 秀林日本語学校
 category: school
 courses:

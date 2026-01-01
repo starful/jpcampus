@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都豊島区東池袋4-26-10
   capacity: 100
+  name_en: Teikyo Heisei University Affiliated Japanese Language School
   name_ja: 帝京平成大学附属日本語学校
 category: school
 courses:

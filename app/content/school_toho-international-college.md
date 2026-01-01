@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都江戸川区東葛西5-15-2
   capacity: 460
+  name_en: Toho International College
   name_ja: 東方国際学院
 category: school
 courses:

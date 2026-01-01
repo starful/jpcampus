@@ -2,6 +2,7 @@
 basic_info:
   address: 福岡県福岡市南区長住4-2-29
   capacity: 238
+  name_en: Asia Japanese Academy
   name_ja: アジア日本語学院
 category: school
 courses:

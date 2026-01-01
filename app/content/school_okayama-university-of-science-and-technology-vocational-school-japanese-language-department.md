@@ -2,6 +2,7 @@
 basic_info:
   address: 岡山県岡山市北区昭和町8-10
   capacity: 160
+  name_en: Okayama Institute of Science and Technology, Japanese Language Department
   name_ja: 岡山科学技術専門学校日本語学科
 category: school
 courses:

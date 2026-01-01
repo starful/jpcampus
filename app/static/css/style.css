@@ -215,3 +215,9 @@ button { cursor: pointer; border: none; font-family: inherit; }
 
 body > .google-anno-skip, body > .google-anno-sc, body > .goog-te-banner-frame, body > .goog-te-balloon-frame { display: none !important; } .goog-tooltip, #goog-gt-tt, .goog-te-gadget-icon { display: none !important; }
 body { top: 0 !important; }
+
+/* 헤더에 있는 버튼을 위한 스타일 조정 */
+.main-header .cta-btn.gray {
+    padding: 8px 16px; /* 헤더 안에서는 버튼을 조금 작게 */
+    font-size: 0.9rem;
+}

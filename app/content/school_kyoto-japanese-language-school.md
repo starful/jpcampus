@@ -1,55 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kyoto-japanese-language-school",
-  "title": "京都日本語学校",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Admission",
-      "Conversation Focused",
-      "Art Courses",
-      "Design Courses",
-      "Science Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.02638, "lng": 135.7576702 },
-  "basic_info":
-    {
-      "name_ja": "京都日本語学校",
-      "address": "京都府京都市上京区一条通新町東入ル東日野殿町394番地の2",
-      "capacity": 130,
-    },
-  "stats": { "international_students": 0, "capacity": 130 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Admission",
-      "Conversation Focused",
-      "Art Courses",
-      "Design Courses",
-      "Science Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "インテンシブ2年コース",
-        "admission_month": "4",
-        "total_fees": 1668800,
-      },
-      {
-        "course_name": "インテンシブ1.5年コース",
-        "admission_month": "10",
-        "total_fees": 1273600,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=310",
-}
+basic_info:
+  address: 京都府京都市上京区一条通新町東入ル東日野殿町394番地の2
+  capacity: 130
+  name_en: Kyoto Japanese Language School
+  name_ja: 京都日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: インテンシブ2年コース
+  total_fees: 1668800
+- admission_month: '10'
+  course_name: インテンシブ1.5年コース
+  total_fees: 1273600
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Admission
+- Conversation Focused
+- Art Courses
+- Design Courses
+- Science Courses
+id: school_kyoto-japanese-language-school
+layout: school
+location:
+  lat: 35.02638
+  lng: 135.7576702
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=310
+stats:
+  capacity: 130
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Admission
+- Conversation Focused
+- Art Courses
+- Design Courses
+- Science Courses
+thumbnail: /static/img/pin-school.png
+title: 京都日本語学校
+tuition: {}
 ---
 
 ## 🏫 School Overview

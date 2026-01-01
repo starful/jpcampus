@@ -1,69 +1,56 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nihongo-gaku-gakko",
-  "title": "日本語学学校",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "Scholarship",
-      "EJU Preparation",
-      "Science Focus",
-      "University Preparation",
-      "Conversation Focus",
-      "Business Japanese",
-      "Art & Design Focus",
-      "Short-Term Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 33.8563769, "lng": 130.7642517 },
-  "basic_info":
-    {
-      "name_ja": "日本語学学校",
-      "address": "福岡県北九州市八幡西区岸の浦1-13-70",
-      "capacity": 220,
-    },
-  "stats": { "international_students": 0, "capacity": 220 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "Scholarship",
-      "EJU Preparation",
-      "Science Focus",
-      "University Preparation",
-      "Conversation Focus",
-      "Business Japanese",
-      "Art & Design Focus",
-      "Short-Term Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "0",
-        "total_fees": 1474000,
-      },
-      {
-        "course_name": "進学1年9ヶ月コース",
-        "admission_month": "0",
-        "total_fees": 1311500,
-      },
-      {
-        "course_name": "進学1年6ヶ月コース",
-        "admission_month": "0",
-        "total_fees": 1149000,
-      },
-      {
-        "course_name": "進学1年3ヶ月コース",
-        "admission_month": "0",
-        "total_fees": 986500,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=601",
-}
+basic_info:
+  address: 福岡県北九州市八幡西区岸の浦1-13-70
+  capacity: 220
+  name_en: Kyoto Minsai Japanese Language School
+  name_ja: 日本語学学校
+category: school
+courses:
+- admission_month: '0'
+  course_name: 進学2年コース
+  total_fees: 1474000
+- admission_month: '0'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1311500
+- admission_month: '0'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1149000
+- admission_month: '0'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 986500
+faculties: []
+features:
+- Dormitory
+- Scholarship
+- EJU Preparation
+- Science Focus
+- University Preparation
+- Conversation Focus
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+id: school_nihongo-gaku-gakko
+layout: school
+location:
+  lat: 33.8563769
+  lng: 130.7642517
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=601
+stats:
+  capacity: 220
+  international_students: 0
+tags:
+- Dormitory
+- Scholarship
+- EJU Preparation
+- Science Focus
+- University Preparation
+- Conversation Focus
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 日本語学学校
+tuition: {}
 ---
 
 ## 🏫 School Overview

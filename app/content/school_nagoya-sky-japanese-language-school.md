@@ -2,6 +2,7 @@
 basic_info:
   address: 愛知県名古屋市中区新栄1-13-22
   capacity: 262
+  name_en: Nagoya SKY Japanese Language School
   name_ja: 名古屋ＳＫＹ日本語学校
 category: school
 courses:

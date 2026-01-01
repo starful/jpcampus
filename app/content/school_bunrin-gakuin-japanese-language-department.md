@@ -1,61 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_bunrin-gakuin-japanese-language-department",
-  "title": "文林学院 日本語科",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Progression",
-      "Short-Term Courses",
-      "Science Focused",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.6354663, "lng": 135.5103128 },
-  "basic_info":
-    {
-      "name_ja": "文林学院 日本語科",
-      "address": "大阪府大阪市阿倍野区王子町1-5-20",
-      "capacity": 209,
-    },
-  "stats": { "international_students": 0, "capacity": 209 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Progression",
-      "Short-Term Courses",
-      "Science Focused",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1310000,
-      },
-      {
-        "course_name": "進学1年6か月コース",
-        "admission_month": "10",
-        "total_fees": 1000000,
-      },
-      {
-        "course_name": "進学1年コース",
-        "admission_month": "4",
-        "total_fees": 690000,
-      },
-      {
-        "course_name": "進学1年9か月コース",
-        "admission_month": "7",
-        "total_fees": 1155000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=342",
-}
+basic_info:
+  address: 大阪府大阪市阿倍野区王子町1-5-20
+  capacity: 209
+  name_en: Bunrin Gakuin Japanese Language Department
+  name_ja: 文林学院 日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1310000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1000000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 690000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1155000
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Progression
+- Short-Term Courses
+- Science Focused
+id: school_bunrin-gakuin-japanese-language-department
+layout: school
+location:
+  lat: 34.6354663
+  lng: 135.5103128
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=342
+stats:
+  capacity: 209
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Progression
+- Short-Term Courses
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: 文林学院 日本語科
+tuition: {}
 ---
 
 ## 🏫 School Overview

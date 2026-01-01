@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都新宿区新宿2-3-13
   capacity: 174
+  name_en: Shinjuku Gyoen Gakuin Japanese Language School
   name_ja: 新宿御苑学院
 category: school
 courses:

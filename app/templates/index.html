@@ -19,7 +19,7 @@
     <meta property="og:description" content="{{ meta_desc }}">
     <meta property="og:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
     <link rel="icon" href="/static/img/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.8">
+    <link rel="stylesheet" href="/static/css/style.css?v=5.9">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
@@ -96,14 +96,17 @@
                         <div style="position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.9); padding:5px; border-radius:50%; width:32px; height:32px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 5px rgba(0,0,0,0.1);"><img src="/static/img/pin-school.png" style="width:18px;"></div>
                     </div>
                     <div class="card-body">
-                        <h4 style="font-size: 1.1rem; margin-bottom: 8px; font-weight: 700;">{{ item.basic_info.name_ja }}</h4>
-                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 12px;"><i class="fas fa-map-marker-alt" style="color: #e67e22;"></i> {{ item.basic_info.address[:15] }}...</p>
+                        <!-- [수정] 영어 이름 우선 표시 -->
+                        <h4 style="font-size: 1.1rem; margin-bottom: 4px; font-weight: 700;">{{ item.basic_info.name_en or item.basic_info.name_ja }}</h4>
+                        <p style="font-size: 0.8rem; color: #888; margin-bottom: 12px;">{{ item.basic_info.name_ja if item.basic_info.name_en }}</p>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 8px;">
+                            <i class="fas fa-map-marker-alt" style="color: #e67e22;"></i> {{ item.basic_info.address[:15] }}...
+                        </p>
                         {% if item.tuition and item.tuition.yearly_tuition %}<div style="margin-top: auto; padding-top: 10px; border-top: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;"><span style="font-size: 0.85rem; color: #888;">Yearly Tuition</span><span style="font-size: 1rem; color: #e67e22; font-weight: bold;">¥{{ "{:,}".format(item.tuition.yearly_tuition) }}</span></div>{% endif %}
                     </div>
                 </a>
                 {% endfor %}
             </div>
-            <!-- [수정] 버튼 스타일 명시 -->
             <div style="text-align: center; margin-top: 50px;">
                 <a href="/schools" class="cta-btn" style="background-color: #f39c12;">View All Schools &rarr;</a>
             </div>
@@ -123,14 +126,15 @@
                         <div style="position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.9); padding:5px; border-radius:50%; width:32px; height:32px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 5px rgba(0,0,0,0.1);"><img src="/static/img/pin-univ.png" style="width:18px;"></div>
                     </div>
                     <div class="card-body">
-                        <h4 style="font-size: 1.1rem; margin-bottom: 8px; font-weight: 700;">{{ item.basic_info.name_ja }}</h4>
-                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 12px;"><i class="fas fa-map-marker-alt" style="color: #3498db;"></i> {{ item.basic_info.address[:15] }}...</p>
+                        <!-- [수정] 영어 이름 우선 표시 -->
+                        <h4 style="font-size: 1.1rem; margin-bottom: 4px; font-weight: 700;">{{ item.basic_info.name_en or item.basic_info.name_ja }}</h4>
+                        <p style="font-size: 0.8rem; color: #888; margin-bottom: 12px;">{{ item.basic_info.name_ja if item.basic_info.name_en }}</p>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 8px;"><i class="fas fa-map-marker-alt" style="color: #3498db;"></i> {{ item.basic_info.address[:15] }}...</p>
                         {% if item.features %}<div style="margin-top: auto; display: flex; gap: 6px; flex-wrap: wrap;">{% for tag in item.features[:2] %}<span style="font-size: 0.75rem; background: #f0f4f8; color: #555; padding: 4px 10px; border-radius: 20px; font-weight: 500; border: 1px solid #e1e8ed;">{{ tag }}</span>{% endfor %}</div>{% endif %}
                     </div>
                 </a>
                 {% endfor %}
             </div>
-            <!-- [수정] 버튼 스타일 명시 -->
             <div style="text-align: center; margin-top: 50px;">
                 <a href="/universities" class="cta-btn">View All Universities &rarr;</a>
             </div>
@@ -154,7 +158,6 @@
                 </a>
                 {% endfor %}
             </div>
-            <!-- [수정] 버튼 스타일 명시 -->
             <div style="text-align: center; margin-top: 50px;">
                 <a href="/guide" class="cta-btn" style="background-color: #9b59b6;">View All Guides &rarr;</a>
             </div>

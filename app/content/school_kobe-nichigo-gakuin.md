@@ -1,68 +1,55 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kobe-nichigo-gakuin",
-  "title": "神戸日語学院",
-  "category": "school",
-  "tags":
-    [
-      "Conversation",
-      "Higher Education Preparation",
-      "EJU Preparation",
-      "Dormitory",
-      "Private Room",
-      "Scholarship",
-      "Science Stream",
-      "Business Japanese",
-      "Art",
-      "Design",
-      "Short-Term Course",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.7540145, "lng": 135.4122723 },
-  "basic_info":
-    {
-      "name_ja": "神戸日語学院",
-      "address": "兵庫県尼崎市南塚口町１-20-17",
-      "capacity": 140,
-    },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Conversation",
-      "Higher Education Preparation",
-      "EJU Preparation",
-      "Dormitory",
-      "Private Room",
-      "Scholarship",
-      "Science Stream",
-      "Business Japanese",
-      "Art",
-      "Design",
-      "Short-Term Course",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "一般2年コース",
-        "admission_month": "4",
-        "total_fees": 1503000,
-      },
-      {
-        "course_name": "一般1年9か月コース",
-        "admission_month": "7",
-        "total_fees": 1331000,
-      },
-      {
-        "course_name": "一般1年半コース",
-        "admission_month": "10",
-        "total_fees": 1157000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=583",
-}
+basic_info:
+  address: 兵庫県尼崎市南塚口町１-20-17
+  capacity: 140
+  name_en: Kobe Institute of Japanese Language
+  name_ja: 神戸日語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1503000
+- admission_month: '7'
+  course_name: 一般1年9か月コース
+  total_fees: 1331000
+- admission_month: '10'
+  course_name: 一般1年半コース
+  total_fees: 1157000
+faculties: []
+features:
+- Conversation
+- Higher Education Preparation
+- EJU Preparation
+- Dormitory
+- Private Room
+- Scholarship
+- Science Stream
+- Business Japanese
+- Art
+- Design
+- Short-Term Course
+id: school_kobe-nichigo-gakuin
+layout: school
+location:
+  lat: 34.7540145
+  lng: 135.4122723
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=583
+stats: {}
+tags:
+- Conversation
+- Higher Education Preparation
+- EJU Preparation
+- Dormitory
+- Private Room
+- Scholarship
+- Science Stream
+- Business Japanese
+- Art
+- Design
+- Short-Term Course
+thumbnail: /static/img/pin-school.png
+title: 神戸日語学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

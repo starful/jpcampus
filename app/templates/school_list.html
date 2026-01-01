@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} | JP Campus</title>
-    <link rel="stylesheet" href="/static/css/style.css?v=5.9">
+    <link rel="stylesheet" href="/static/css/style.css?v=6.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDJL0618LL"></script>
@@ -24,14 +24,17 @@
     </header>
 
     <main style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
-        <div style="text-align: center; margin-bottom: 50px;">
-            <h1 style="color:#2c3e50; font-weight:800; margin-bottom:10px;">{{ title }}</h1>
-            <p style="color:#666; margin-bottom: 30px;">{{ description }}</p>
-            
-            <!-- [이동됨] Back to Map 버튼 위치 변경 -->
-            <a href="/" class="cta-btn gray">
-                <i class="fas fa-arrow-left"></i> Back to Map
-            </a>
+        <!-- [수정] 제목과 버튼 정렬 변경 -->
+        <div style="margin-bottom: 50px;">
+            <div style="text-align: center;">
+                <h1 style="color:#2c3e50; font-weight:800; margin-bottom:10px;">{{ title }}</h1>
+                <p style="color:#666; margin-bottom: 30px;">{{ description }}</p>
+            </div>
+            <div style="text-align: left;">
+                <a href="/" class="cta-btn">
+                    <i class="fas fa-arrow-left"></i> Back to Map
+                </a>
+            </div>
         </div>
 
         <div class="card-grid">
@@ -49,8 +52,9 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h4 style="margin: 0 0 10px; font-size: 1.1rem; font-weight: 700;">{{ item.basic_info.name_ja }}</h4>
-                    <p style="font-size: 0.85rem; color: #777; margin-bottom: 12px;"><i class="fas fa-map-marker-alt" style="color: #e67e22;"></i> {{ item.basic_info.address }}</p>
+                    <h4 style="font-size: 1.1rem; margin-bottom: 4px; font-weight: 700;">{{ item.basic_info.name_en or item.basic_info.name_ja }}</h4>
+                    <p style="font-size: 0.8rem; color: #888; margin-bottom: 12px;">{{ item.basic_info.name_ja if item.basic_info.name_en }}</p>
+                    <p style="font-size: 0.85rem; color: #777; margin-top: 8px;"><i class="fas fa-map-marker-alt" style="color: #e67e22;"></i> {{ item.basic_info.address }}</p>
                     <div style="margin-top: auto; display: flex; gap: 5px; flex-wrap: wrap;">
                         {% for tag in item.features[:3] %}<span style="font-size: 0.7rem; background: #eee; padding: 3px 8px; border-radius: 4px;">{{ tag }}</span>{% endfor %}
                     </div>

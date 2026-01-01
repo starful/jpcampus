@@ -2,6 +2,7 @@
 basic_info:
   address: 兵庫県神戸市中央区東町116-2
   capacity: 192
+  name_en: Communica Institute
   name_ja: コミュニカ学院
 category: school
 courses:

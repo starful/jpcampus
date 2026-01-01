@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都新宿区高田馬場4-9-9 早稲田予備校13時ホール5F
   capacity: 2240
+  name_en: Human Academy Japanese Language School Tokyo Campus
   name_ja: ヒューマンアカデミー日本語学校東京校
 category: school
 courses:

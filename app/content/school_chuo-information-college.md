@@ -2,6 +2,7 @@
 basic_info:
   address: 埼玉県新座市東北2-33-10
   capacity: 160
+  name_en: Chuo Joho College
   name_ja: 中央情報専門学校
 category: school
 courses:

@@ -2,6 +2,7 @@
 basic_info:
   address: 大阪府大阪市平野区喜連5-2-38
   capacity: 136
+  name_en: Osaka Minami Japanese Language School
   name_ja: 大阪みなみ日本語学校
 category: school
 courses:

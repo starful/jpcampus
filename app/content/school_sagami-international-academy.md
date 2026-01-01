@@ -2,6 +2,7 @@
 basic_info:
   address: 神奈川県相模原市南区旭町8-22
   capacity: 100
+  name_en: Sagami International Academy
   name_ja: 相模国際学院
 category: school
 courses:

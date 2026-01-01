@@ -2,6 +2,7 @@
 basic_info:
   address: 兵庫県神戸市長田区六番町5-6-1
   capacity: 516
+  name_en: Kobe Institute of Foreign Languages Education
   name_ja: 神戸外語教育学院
 category: school
 courses:

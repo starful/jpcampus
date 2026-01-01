@@ -2,6 +2,7 @@
 basic_info:
   address: 沖縄県浦添市仲西1-1-1
   capacity: 675
+  name_en: JSL Nihon Academy
   name_ja: J S L日本アカデミー
 category: school
 courses:

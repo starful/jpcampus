@@ -1,66 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "school_clover-academy-osaka",
-  "title": "クローバー学院",
-  "category": "school",
-  "tags":
-    [
-      "EJU Preparation",
-      "University Advancement",
-      "Scholarships",
-      "Dormitory",
-      "Science Focus",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.677933, "lng": 135.4973859 },
-  "basic_info":
-    {
-      "name_ja": "クローバー学院",
-      "address": "大阪府大阪市西区新町1-2-13　新町ビル4F",
-      "capacity": 232,
-    },
-  "stats": { "international_students": 0, "capacity": 232 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "EJU Preparation",
-      "University Advancement",
-      "Scholarships",
-      "Dormitory",
-      "Science Focus",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "大学進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1440000,
-      },
-      {
-        "course_name": "大学進学1年9ヶ月コース",
-        "admission_month": "7",
-        "total_fees": 1270000,
-      },
-      {
-        "course_name": "大学進学1年半コース",
-        "admission_month": "10",
-        "total_fees": 1110000,
-      },
-      {
-        "course_name": "大学進学1年3ヶ月コース",
-        "admission_month": "1",
-        "total_fees": 950000,
-      },
-      {
-        "course_name": "一般2年コース",
-        "admission_month": "4,10",
-        "total_fees": 1440000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=326",
-}
+basic_info:
+  address: 大阪府大阪市西区新町1-2-13　新町ビル4F
+  capacity: 232
+  name_en: Clover Academy
+  name_ja: クローバー学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1440000
+- admission_month: '7'
+  course_name: 大学進学1年9ヶ月コース
+  total_fees: 1270000
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 1110000
+- admission_month: '1'
+  course_name: 大学進学1年3ヶ月コース
+  total_fees: 950000
+- admission_month: 4,10
+  course_name: 一般2年コース
+  total_fees: 1440000
+faculties: []
+features:
+- EJU Preparation
+- University Advancement
+- Scholarships
+- Dormitory
+- Science Focus
+id: school_clover-academy-osaka
+layout: school
+location:
+  lat: 34.677933
+  lng: 135.4973859
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=326
+stats:
+  capacity: 232
+  international_students: 0
+tags:
+- EJU Preparation
+- University Advancement
+- Scholarships
+- Dormitory
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: クローバー学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

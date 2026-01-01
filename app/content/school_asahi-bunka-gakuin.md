@@ -1,55 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_asahi-bunka-gakuin",
-  "title": "ASAHI文化学院",
-  "category": "school",
-  "tags":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Pathway",
-      "Conversation Focused",
-      "Business Japanese",
-      "Science Focus",
-      "Short-Term Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.1514792, "lng": 136.8909309 },
-  "basic_info":
-    {
-      "name_ja": "ASAHI文化学院",
-      "address": "愛知県名古屋市中川区山王3-10-9",
-      "capacity": 200,
-    },
-  "stats": { "international_students": 0, "capacity": 200 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "Dormitory",
-      "EJU Preparation",
-      "University Pathway",
-      "Conversation Focused",
-      "Business Japanese",
-      "Science Focus",
-      "Short-Term Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "2年進学コース",
-        "admission_month": "4",
-        "total_fees": 1396000,
-      },
-      {
-        "course_name": "1年6ヶ月進学コース",
-        "admission_month": "10",
-        "total_fees": 1096000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=533",
-}
+basic_info:
+  address: 愛知県名古屋市中川区山王3-10-9
+  capacity: 200
+  name_en: Asahi Culture Academy
+  name_ja: ASAHI文化学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2年進学コース
+  total_fees: 1396000
+- admission_month: '10'
+  course_name: 1年6ヶ月進学コース
+  total_fees: 1096000
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focused
+- Business Japanese
+- Science Focus
+- Short-Term Courses
+id: school_asahi-bunka-gakuin
+layout: school
+location:
+  lat: 35.1514792
+  lng: 136.8909309
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=533
+stats:
+  capacity: 200
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focused
+- Business Japanese
+- Science Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: ASAHI文化学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

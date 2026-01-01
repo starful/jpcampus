@@ -2,6 +2,7 @@
 basic_info:
   address: 奈良県奈良市法蓮町7-2
   capacity: 120
+  name_en: Nara Foreign Language Academy
   name_ja: 奈良外語学院
 category: school
 courses:

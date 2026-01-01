@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都中野区新井5-28-4　第5さかえビル
   capacity: 222
+  name_en: TCC Japanese Language School
   name_ja: ＴＣＣ日本語学校
 category: school
 courses:

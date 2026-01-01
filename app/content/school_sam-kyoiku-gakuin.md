@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都新宿区百人町2-1-6
   capacity: 540
+  name_en: Samu Language School
   name_ja: サム教育学院
 category: school
 courses:

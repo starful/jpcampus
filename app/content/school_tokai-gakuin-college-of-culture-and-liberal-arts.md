@@ -2,6 +2,7 @@
 basic_info:
   address: 茨城県取手市井野台1-22-14
   capacity: 100
+  name_en: Tokai Gakuin College of Culture and Liberal Arts
   name_ja: 東海学院文化教養専門学校
 category: school
 courses:

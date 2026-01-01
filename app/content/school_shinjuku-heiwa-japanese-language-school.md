@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都新宿区百人町1-13-14
   capacity: 140
+  name_en: Shinjuku Heiwa Japanese Language School
   name_ja: 新宿平和日本語学校
 category: school
 courses:

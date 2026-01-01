@@ -2,6 +2,7 @@
 basic_info:
   address: 愛知県名古屋市中村区畑江通2-8-3
   capacity: 300
+  name_en: North River Japanese Language School
   name_ja: ノースリバー日本語スクール
 category: school
 courses:

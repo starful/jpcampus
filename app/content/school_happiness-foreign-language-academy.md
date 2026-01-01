@@ -2,6 +2,7 @@
 basic_info:
   address: 愛媛県新居浜市一宮町2-2-16
   capacity: 70
+  name_en: Happiness Foreign Language Academy
   name_ja: はぴねす外語学院
 category: school
 courses:

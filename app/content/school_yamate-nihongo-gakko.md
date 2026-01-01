@@ -1,61 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "school_yamate-nihongo-gakko",
-  "title": "山手日本語学校",
-  "category": "school",
-  "tags":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory",
-      "Conversation Focused",
-      "Business Japanese",
-      "Art & Design",
-      "Short-Term Courses",
-      "Private Rooms",
-      "Scholarships",
-      "Science Focus",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.9059146, "lng": 139.480069 },
-  "basic_info":
-    {
-      "name_ja": "山手日本語学校",
-      "address": "埼玉県川越市脇田本町11-10",
-      "capacity": 340,
-    },
-  "stats": { "international_students": 0, "capacity": 340 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory",
-      "Conversation Focused",
-      "Business Japanese",
-      "Art & Design",
-      "Short-Term Courses",
-      "Private Rooms",
-      "Scholarships",
-      "Science Focus",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学コース（2年）",
-        "admission_month": "4",
-        "total_fees": 1380000,
-      },
-      {
-        "course_name": "進学コース（1.5年）",
-        "admission_month": "10",
-        "total_fees": 1055000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=54",
-}
+basic_info:
+  address: 埼玉県川越市脇田本町11-10
+  capacity: 340
+  name_en: Yamate Japanese Language School
+  name_ja: 山手日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コース（2年）
+  total_fees: 1380000
+- admission_month: '10'
+  course_name: 進学コース（1.5年）
+  total_fees: 1055000
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Dormitory
+- Conversation Focused
+- Business Japanese
+- Art & Design
+- Short-Term Courses
+- Private Rooms
+- Scholarships
+- Science Focus
+id: school_yamate-nihongo-gakko
+layout: school
+location:
+  lat: 35.9059146
+  lng: 139.480069
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=54
+stats:
+  capacity: 340
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory
+- Conversation Focused
+- Business Japanese
+- Art & Design
+- Short-Term Courses
+- Private Rooms
+- Scholarships
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: 山手日本語学校
+tuition: {}
 ---
 
 ## 🏫 School Overview

@@ -1,47 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "school_toshin-language-school",
-  "title": "東進ランゲージスクール",
-  "category": "school",
-  "tags": ["University Preparation", "EJU Preparation", "Science Focused"],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.7152394, "lng": 139.6967414 },
-  "basic_info":
-    {
-      "name_ja": "東進ランゲージスクール",
-      "address": "東京都新宿区高田馬場3-28-1 第六康洋ビル",
-      "capacity": 900,
-    },
-  "stats": { "international_students": 0, "capacity": 900 },
-  "tuition": {},
-  "faculties": [],
-  "features": ["University Preparation", "EJU Preparation", "Science Focused"],
-  "courses":
-    [
-      {
-        "course_name": "進学コース",
-        "admission_month": "1",
-        "total_fees": 890000,
-      },
-      {
-        "course_name": "進学コース",
-        "admission_month": "10",
-        "total_fees": 1052000,
-      },
-      {
-        "course_name": "進学コース",
-        "admission_month": "7",
-        "total_fees": 1214000,
-      },
-      {
-        "course_name": "進学コース",
-        "admission_month": "4",
-        "total_fees": 1376000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=138",
-}
+basic_info:
+  address: 東京都新宿区高田馬場3-28-1 第六康洋ビル
+  capacity: 900
+  name_en: Toshin Language School
+  name_ja: 東進ランゲージスクール
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学コース
+  total_fees: 890000
+- admission_month: '10'
+  course_name: 進学コース
+  total_fees: 1052000
+- admission_month: '7'
+  course_name: 進学コース
+  total_fees: 1214000
+- admission_month: '4'
+  course_name: 進学コース
+  total_fees: 1376000
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Science Focused
+id: school_toshin-language-school
+layout: school
+location:
+  lat: 35.7152394
+  lng: 139.6967414
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=138
+stats:
+  capacity: 900
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: 東進ランゲージスクール
+tuition: {}
 ---
 
 ## 🏫 School Overview

@@ -2,6 +2,7 @@
 basic_info:
   address: 京都府京都市下京区河原町通仏光寺下ル富永町356
   capacity: 194
+  name_en: KAI Japanese Language School
   name_ja: 日本語センター
 category: school
 courses:

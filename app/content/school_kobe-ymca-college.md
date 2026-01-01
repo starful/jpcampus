@@ -1,80 +1,65 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kobe-ymca-college",
-  "title": "神戸YMCA学院専門学校",
-  "category": "school",
-  "tags":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Science Courses",
-      "University Admission",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "Conversation Focused",
-      "Business Japanese",
-      "Art",
-      "Design",
-      "Short-Term Courses",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 34.7009189, "lng": 135.1936115 },
-  "basic_info":
-    {
-      "name_ja": "神戸YMCA学院専門学校",
-      "address": "兵庫県神戸市中央区加納町2-7-11",
-      "capacity": 240,
-    },
-  "stats": { "international_students": 0, "capacity": 240 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Science Courses",
-      "University Admission",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "Conversation Focused",
-      "Business Japanese",
-      "Art",
-      "Design",
-      "Short-Term Courses",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "春期初級コース",
-        "admission_month": "4",
-        "total_fees": 820000,
-      },
-      {
-        "course_name": "春期中上級コース",
-        "admission_month": "4",
-        "total_fees": 820000,
-      },
-      {
-        "course_name": "秋期初級コース",
-        "admission_month": "10",
-        "total_fees": 1170000,
-      },
-      {
-        "course_name": "秋期中上級コース",
-        "admission_month": "10",
-        "total_fees": 1170000,
-      },
-      {
-        "course_name": "2年コース",
-        "admission_month": "4",
-        "total_fees": 1520000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=367",
-}
+basic_info:
+  address: 兵庫県神戸市中央区加納町2-7-11
+  capacity: 240
+  name_en: Kobe YMCA College
+  name_ja: 神戸YMCA学院専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 春期初級コース
+  total_fees: 820000
+- admission_month: '4'
+  course_name: 春期中上級コース
+  total_fees: 820000
+- admission_month: '10'
+  course_name: 秋期初級コース
+  total_fees: 1170000
+- admission_month: '10'
+  course_name: 秋期中上級コース
+  total_fees: 1170000
+- admission_month: '4'
+  course_name: 2年コース
+  total_fees: 1520000
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Science Courses
+- University Admission
+- Dormitory
+- Private Rooms
+- Scholarships
+- Conversation Focused
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+id: school_kobe-ymca-college
+layout: school
+location:
+  lat: 34.7009189
+  lng: 135.1936115
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=367
+stats:
+  capacity: 240
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Science Courses
+- University Admission
+- Dormitory
+- Private Rooms
+- Scholarships
+- Conversation Focused
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 神戸YMCA学院専門学校
+tuition: {}
 ---
 
 ## 🏫 School Overview

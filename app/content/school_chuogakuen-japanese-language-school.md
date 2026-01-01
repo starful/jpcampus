@@ -1,59 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_chuogakuen-japanese-language-school",
-  "title": "中央工学校附属日本語学校",
-  "category": "school",
-  "tags":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory Available",
-      "Science Focused",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.7381196, "lng": 139.7641918 },
-  "basic_info":
-    {
-      "name_ja": "中央工学校附属日本語学校",
-      "address": "東京都北区東田端1-4-8",
-      "capacity": 224,
-    },
-  "stats": { "international_students": 0, "capacity": 224 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory Available",
-      "Science Focused",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学2年コース",
-        "admission_month": "4",
-        "total_fees": 1405000,
-      },
-      {
-        "course_name": "進学1年9カ月コース",
-        "admission_month": "7",
-        "total_fees": 1245000,
-      },
-      {
-        "course_name": "進学1年6カ月コース",
-        "admission_month": "10",
-        "total_fees": 1075000,
-      },
-      {
-        "course_name": "進学1年3カ月コース",
-        "admission_month": "1",
-        "total_fees": 915000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=206",
-}
+basic_info:
+  address: 東京都北区東田端1-4-8
+  capacity: 224
+  name_en: Chuo College of Engineering Japanese Language School
+  name_ja: 中央工学校附属日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1405000
+- admission_month: '7'
+  course_name: 進学1年9カ月コース
+  total_fees: 1245000
+- admission_month: '10'
+  course_name: 進学1年6カ月コース
+  total_fees: 1075000
+- admission_month: '1'
+  course_name: 進学1年3カ月コース
+  total_fees: 915000
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Science Focused
+id: school_chuogakuen-japanese-language-school
+layout: school
+location:
+  lat: 35.7381196
+  lng: 139.7641918
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=206
+stats:
+  capacity: 224
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: 中央工学校附属日本語学校
+tuition: {}
 ---
 
 ## 🏫 School Overview

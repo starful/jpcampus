@@ -2,6 +2,7 @@
 basic_info:
   address: 新潟県新潟市中央区古町通7番町1004番1
   capacity: 100
+  name_en: Kokusai College of Foreign Languages, Tourism and Airline
   name_ja: 国際外語・観光・エアライン専門学校
 category: school
 courses:

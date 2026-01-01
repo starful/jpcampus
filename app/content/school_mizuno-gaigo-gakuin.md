@@ -2,6 +2,7 @@
 basic_info:
   address: 千葉県市川市行徳駅前4-19-14
   capacity: 80
+  name_en: Mizuno Language School
   name_ja: 水野外語学院
 category: school
 courses:

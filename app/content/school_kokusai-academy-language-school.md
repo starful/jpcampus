@@ -2,6 +2,7 @@
 basic_info:
   address: 宮城県仙台市宮城野区榴岡1-5-3
   capacity: 225
+  name_en: Kokusai Academy Language School
   name_ja: 国際アカデミーランゲージスクール
 category: school
 courses:

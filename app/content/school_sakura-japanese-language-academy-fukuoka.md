@@ -2,6 +2,7 @@
 basic_info:
   address: 福岡県糟屋郡新宮町美咲2-17-12
   capacity: 496
+  name_en: Sakura Japanese Language Academy
   name_ja: さくら日本語学院
 category: school
 courses:

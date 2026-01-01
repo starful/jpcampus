@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都新宿区北新宿4-1-1 第三山廣ビル
   capacity: 700
+  name_en: Mitsumine Career Academy Japanese Language Course
   name_ja: ミツミネキャリアアカデミー 日本語コース
 category: school
 courses:

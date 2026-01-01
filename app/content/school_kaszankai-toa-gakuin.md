@@ -1,59 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kaszankai-toa-gakuin",
-  "title": "霞山会 東亜学院",
-  "category": "school",
-  "tags":
-    [
-      "University Preparation",
-      "Dormitory",
-      "EJU Focus",
-      "Science Specialization",
-    ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": { "lat": 35.6694872, "lng": 139.7383188 },
-  "basic_info":
-    {
-      "name_ja": "霞山会 東亜学院",
-      "address": "東京都港区赤坂2-17-47 赤坂霞山ビル 3階",
-      "capacity": 200,
-    },
-  "stats": { "international_students": 0, "capacity": 200 },
-  "tuition": {},
-  "faculties": [],
-  "features":
-    [
-      "University Preparation",
-      "Dormitory",
-      "EJU Focus",
-      "Science Specialization",
-    ],
-  "courses":
-    [
-      {
-        "course_name": "進学コース1年3か月",
-        "admission_month": "1",
-        "total_fees": 1020000,
-      },
-      {
-        "course_name": "進学コース1年6か月",
-        "admission_month": "10",
-        "total_fees": 1210000,
-      },
-      {
-        "course_name": "進学コース1年9か月",
-        "admission_month": "7",
-        "total_fees": 1400000,
-      },
-      {
-        "course_name": "進学コース2年",
-        "admission_month": "4",
-        "total_fees": 1590000,
-      },
-    ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=96",
-}
+basic_info:
+  address: 東京都港区赤坂2-17-47 赤坂霞山ビル 3階
+  capacity: 200
+  name_en: Kazan Society Toa Academy
+  name_ja: 霞山会 東亜学院
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学コース1年3か月
+  total_fees: 1020000
+- admission_month: '10'
+  course_name: 進学コース1年6か月
+  total_fees: 1210000
+- admission_month: '7'
+  course_name: 進学コース1年9か月
+  total_fees: 1400000
+- admission_month: '4'
+  course_name: 進学コース2年
+  total_fees: 1590000
+faculties: []
+features:
+- University Preparation
+- Dormitory
+- EJU Focus
+- Science Specialization
+id: school_kaszankai-toa-gakuin
+layout: school
+location:
+  lat: 35.6694872
+  lng: 139.7383188
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=96
+stats:
+  capacity: 200
+  international_students: 0
+tags:
+- University Preparation
+- Dormitory
+- EJU Focus
+- Science Specialization
+thumbnail: /static/img/pin-school.png
+title: 霞山会 東亜学院
+tuition: {}
 ---
 
 ## 🏫 School Overview

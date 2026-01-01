@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都新宿区新宿1-29-12　KCP本館
   capacity: 880
+  name_en: KCP International Language Institute
   name_ja: ＫＣＰ地球市民日本語学校
 category: school
 courses:

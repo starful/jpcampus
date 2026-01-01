@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都新宿区百人町1-6-21
   capacity: 505
+  name_en: Gyochi Gakuen Japanese Language School
   name_ja: 行知学園日本語学校
 category: school
 courses:

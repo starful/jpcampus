@@ -2,6 +2,7 @@
 basic_info:
   address: 東京都墨田区両国2-10-5
   capacity: 720
+  name_en: MANABI Japanese Language Institute Tokyo Campus
   name_ja: ＭＡＮＡＢＩ外語学院東京校
 category: school
 courses:
