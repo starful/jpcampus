@@ -20,7 +20,7 @@ OUTPUT_DIR = "app/content"
 LOG_DIR = "logs"
 HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt") # [추가] 처리 기록 파일
 
-LIMIT = 10
+LIMIT = 3
 
 # 로깅 및 기록 파일 디렉토리 생성
 if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
