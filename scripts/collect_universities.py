@@ -11,7 +11,7 @@ from google.generativeai.types import GenerationConfig
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
-LIMIT = 10
+LIMIT = 5
 INPUT_CSV = "scripts/file/univ_list_100.csv"
 OUTPUT_DIR = "app/content"
 LOG_DIR = "logs"

@@ -10,7 +10,7 @@ import logging
 load_dotenv()
 CONTENT_DIR = "app/content"
 LOG_DIR = "logs"
-LIMIT = 10
+LIMIT = 15
 
 if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 logging.basicConfig(filename=os.path.join(LOG_DIR, "school_update.log"), level=logging.INFO, format='%(asctime)s - %(message)s', encoding='utf-8')
