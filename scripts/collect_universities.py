@@ -21,7 +21,7 @@ if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
 if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-flash-latest')
 
 def load_history():
     if not os.path.exists(HISTORY_FILE): return set()
