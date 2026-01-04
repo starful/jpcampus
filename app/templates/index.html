@@ -1,175 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDJL0618LL"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-EDJL0618LL');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ meta_title }}</title>
-    <meta name="description" content="{{ meta_desc }}">
-    <link rel="canonical" href="{{ meta_url }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ meta_url }}">
-    <meta property="og:title" content="{{ meta_title }}">
-    <meta property="og:description" content="{{ meta_desc }}">
-    <meta property="og:image" content="{{ request.base_url.scheme }}://{{ request.base_url.netloc }}/static/img/og-image.png">
-    <link rel="icon" href="/static/img/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.9">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
-    <style>.goog-te-banner-frame.skiptranslate { display: none !important; } body { top: 0px !important; } .goog-tooltip { display: none !important; }</style>
-</head>
-<body class="main-layout">
-    
-    <div class="fixed-top-area">
-        <header class="main-header">
-            <div class="header-content">
-                <a href="/" class="logo"><img src="/static/img/logo.png" alt="JP Campus" class="logo-img"></a>
-            </div>
-        </header>
+{% extends "base.html" %}
 
-        <div class="univ-search-panel">
-            <div class="univ-search-container">
-                <i class="fas fa-university"></i>
-                <input type="text" id="univ-search-input" list="university-list" placeholder="Search by University Name (e.g., Waseda)">
-                <button id="univ-search-clear" style="display:none;">&times;</button>
-            </div>
-            <datalist id="university-list">
-                {% for univ in university_list_json %}
-                  {% if univ.name_en %}
-                    <option value="{{ univ.name_en }}">{{ univ.name_ja }}</option>
-                  {% else %}
-                    <option value="{{ univ.name_ja }}"></option>
-                  {% endif %}
-                {% endfor %}
-            </datalist>
-        </div>
+{# --- 메인 콘텐츠 시작 --- #}
+{% block content %}
 
-        <div class="tag-filter-panel">
-            <div class="tag-filter-container">
-                <button class="tag-filter-btn active" data-filter-key="all" title="Show all schools">
-                    All <span class="tag-count">{{ school_count }}</span>
-                </button>
-                {% for tag in tags_with_counts %}
-                <button class="tag-filter-btn" data-filter-key="{{ tag.key }}" title="{{ tag.description }}">
-                    {{ tag.name }} <span class="tag-count">{{ tag.count }}</span>
-                </button>
-                {% endfor %}
-            </div>
-        </div>
-    </div> 
+<!-- 1. 지도 섹션 -->
+<section class="map-section">
+    <div id="map"></div>
+</section>
 
-    <div class="stats-bar-container notranslate" translate="no">
-        <div class="stats-badges">
-            <span class="badge-item badge-blue"><i class="fas fa-building"></i> <strong>{{ school_count }}</strong> Schools Listed</span>
-            <span class="badge-item badge-orange"><i class="fas fa-sync-alt"></i> Updating Weekly</span>
-        </div>
+<!-- 2. 카드 콘텐츠 섹션 -->
+<div class="content-wrapper">
+    <!-- Language Schools -->
+    <div class="section-header">
+        <h2 class="section-title">Language Schools</h2>
+        <a href="/schools" class="view-all">View all schools →</a>
+    </div>
+    <div class="card-grid">
+        {% set school_imgs = [
+            'https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=500', 
+            'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=500', 
+            'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500',
+            'https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?w=500',
+            'https://images.unsplash.com/photo-1577985051167-0d49eec21977?w=500'
+        ] %}
+        {% for item in latest_schools %}
+        <a href="{{ item.link }}" class="card">
+            <div class="card-img" style="background-image: url('{{ school_imgs[loop.index0 % school_imgs|length] }}');">
+                <span class="card-badge" style="color: var(--primary);">School</span>
+            </div>
+            <div class="card-body">
+                <h4>{{ item.basic_info.name_en or item.basic_info.name_ja }}</h4>
+                <div class="card-meta">
+                    <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                    <span>{{ item.basic_info.address.split(' ')[0] if item.basic_info.address else 'Japan' }}</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <span class="card-price">
+                    {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
+                        ¥{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
+                    {% else %}
+                        Contact for Fee
+                    {% endif %}
+                </span>
+                <span style="font-size: 0.75rem; color: var(--text-gray); font-weight: 600;">Yearly</span>
+            </div>
+        </a>
+        {% endfor %}
     </div>
 
-    <section class="map-section">
-        <div class="map-container-inner"><div id="map"></div></div>
-        <div class="map-overlay-info"><i class="fas fa-clock"></i> Last Updated: <span class="highlight">{{ updated_at }}</span></div>
-    </section>
-
-    <div class="floating-container">
-        <div class="floating-box">
-            <h2>Japan Language School Map Search & Compare</h2>
-            <p>Compare schools based on <strong>Location, Tuition, Nationality Ratio, and Admission Records</strong>.</p>
-        </div>
+    <!-- Universities -->
+    <div class="section-header" style="margin-top: 80px;">
+        <h2 class="section-title">Top Universities</h2>
+        <a href="/universities" class="view-all">View all universities →</a>
     </div>
-    
-    {% if latest_schools %}
-    <section class="school-section" style="background-color: #fff; padding: 80px 0; border-top: 1px solid #f0f0f0;">
-        <div class="content-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">🏫 Featured Language Schools</h3>
-            <div class="card-grid">
-                {% for item in latest_schools %}
-                {% set school_imgs = ['https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=500', 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=500', 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500', 'https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?w=500', 'https://images.unsplash.com/photo-1577985051167-0d49eec21977?w=500', 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500', 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500', 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500', 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=500', 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500'] %}
-                <a href="{{ item.link }}" class="card">
-                    <div class="card-img" style="background-image: url('{{ school_imgs[loop.index0 % 10] }}'); background-size: cover; background-position: center;">
-                        <div style="position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.9); padding:5px; border-radius:50%; width:32px; height:32px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 5px rgba(0,0,0,0.1);"><img src="/static/img/pin-school.png" style="width:18px;"></div>
-                    </div>
-                    <div class="card-body">
-                        <!-- [수정] 영어 이름 우선 표시 -->
-                        <h4 style="font-size: 1.1rem; margin-bottom: 4px; font-weight: 700;">{{ item.basic_info.name_en or item.basic_info.name_ja }}</h4>
-                        <p style="font-size: 0.8rem; color: #888; margin-bottom: 12px;">{{ item.basic_info.name_ja if item.basic_info.name_en }}</p>
-                        <p style="font-size: 0.9rem; color: #666; margin-top: 8px;">
-                            <i class="fas fa-map-marker-alt" style="color: #e67e22;"></i> {{ item.basic_info.address[:15] }}...
-                        </p>
-                        {% if item.tuition and item.tuition.yearly_tuition %}<div style="margin-top: auto; padding-top: 10px; border-top: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;"><span style="font-size: 0.85rem; color: #888;">Yearly Tuition</span><span style="font-size: 1rem; color: #e67e22; font-weight: bold;">¥{{ "{:,}".format(item.tuition.yearly_tuition) }}</span></div>{% endif %}
-                    </div>
-                </a>
-                {% endfor %}
+    <div class="card-grid">
+        {% set univ_imgs = [
+            'https://images.unsplash.com/photo-1562774053-701939374585?w=500',
+            'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500',
+            'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=500',
+            'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500',
+            'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500'
+        ] %}
+        {% for item in latest_universities %}
+        <a href="{{ item.link }}" class="card">
+            <div class="card-img" style="background-image: url('{{ univ_imgs[loop.index0 % univ_imgs|length] }}');">
+                <span class="card-badge" style="color: var(--accent);">University</span>
             </div>
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="/schools" class="cta-btn" style="background-color: #f39c12;">View All Schools &rarr;</a>
+            <div class="card-body">
+                <h4>{{ item.basic_info.name_en or item.basic_info.name_ja }}</h4>
+                <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 15px;">Official National/Private Institute</p>
             </div>
-        </div>
-    </section>
-    {% endif %}
+            <div class="card-footer">
+                <span class="card-price" style="color: var(--accent);">Global Programs</span>
+                <span style="font-size: 0.75rem; background: #fff7ed; color: #c2410c; padding: 4px 10px; border-radius: 6px; font-weight: 700;">TOP TIER</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
 
-    {% if latest_universities %}
-    <section class="univ-section" style="background-color: #f9f9f9; padding: 80px 0; border-top: 1px solid #eee;">
-        <div class="content-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">🎓 Featured Universities</h3>
-            <div class="card-grid">
-                {% for item in latest_universities %}
-                {% set univ_imgs = ['https://images.unsplash.com/photo-1562774053-701939374585?w=500', 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500', 'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=500', 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500', 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=500', 'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=500', 'https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=500', 'https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=500', 'https://images.unsplash.com/photo-1525921429624-479b6a26d84d?w=500', 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=500'] %}
-                <a href="{{ item.link }}" class="card">
-                    <div class="card-img" style="background-image: url('{{ univ_imgs[loop.index0 % 10] }}'); background-size: cover; background-position: center;">
-                        <div style="position:absolute; top:10px; right:10px; background:rgba(255,255,255,0.9); padding:5px; border-radius:50%; width:32px; height:32px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 5px rgba(0,0,0,0.1);"><img src="/static/img/pin-univ.png" style="width:18px;"></div>
-                    </div>
-                    <div class="card-body">
-                        <!-- [수정] 영어 이름 우선 표시 -->
-                        <h4 style="font-size: 1.1rem; margin-bottom: 4px; font-weight: 700;">{{ item.basic_info.name_en or item.basic_info.name_ja }}</h4>
-                        <p style="font-size: 0.8rem; color: #888; margin-bottom: 12px;">{{ item.basic_info.name_ja if item.basic_info.name_en }}</p>
-                        <p style="font-size: 0.9rem; color: #666; margin-top: 8px;"><i class="fas fa-map-marker-alt" style="color: #3498db;"></i> {{ item.basic_info.address[:15] }}...</p>
-                        {% if item.features %}<div style="margin-top: auto; display: flex; gap: 6px; flex-wrap: wrap;">{% for tag in item.features[:2] %}<span style="font-size: 0.75rem; background: #f0f4f8; color: #555; padding: 4px 10px; border-radius: 20px; font-weight: 500; border: 1px solid #e1e8ed;">{{ tag }}</span>{% endfor %}</div>{% endif %}
-                    </div>
-                </a>
-                {% endfor %}
+    <!-- Essential Guides (복구) -->
+    <div class="section-header" style="margin-top: 80px;">
+        <h2 class="section-title">Essential Guides</h2>
+        <a href="/guide" class="view-all">All guides →</a>
+    </div>
+    <div class="card-grid">
+        {% for guide in latest_guides %}
+        <a href="{{ guide.link }}" class="card">
+            <div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); height: 180px;"></div>
+            <div class="card-body">
+                <span style="font-size: 0.75rem; color: var(--primary); font-weight: 800; text-transform: uppercase;">{{ guide.category }}</span>
+                <h4 style="margin: 8px 0; font-size: 1.1rem;">{{ guide.title }}</h4>
+                <p style="font-size: 0.85rem; color: var(--text-gray); line-height: 1.6;">{{ guide.description | truncate(80) }}</p>
             </div>
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="/universities" class="cta-btn">View All Universities &rarr;</a>
-            </div>
-        </div>
-    </section>
-    {% endif %}
+        </a>
+        {% endfor %}
+    </div>
+</div>
 
-    {% if latest_guides %}
-    <section class="guide-section" style="background-color: #fff; padding: 80px 0; border-top: 1px solid #eee;">
-        <div class="guide-wrapper" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-            <h3 class="section-title" style="text-align: center; margin-bottom: 40px; font-weight: 800; color: #333;">📚 Essential Guides for Japan</h3>
-            <div class="card-grid">
-                {% for guide in latest_guides %}
-                <a href="{{ guide.link }}" class="card">
-                    <div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); background-size: cover; background-position: center;"></div>
-                    <div class="card-body">
-                        <span style="font-size: 0.8rem; color: #3498db; font-weight: bold; text-transform: uppercase; display:block; margin-bottom:5px;">{{ guide.category }}</span>
-                        <h4 style="margin: 0 0 10px; font-size: 1.15rem; font-weight: 700; color: var(--text-dark);">{{ guide.title }}</h4>
-                        <p style="font-size: 0.95rem; color: #666; line-height: 1.5; margin: 0;">{{ guide.description | truncate(60) }}</p>
-                    </div>
-                </a>
-                {% endfor %}
-            </div>
-            <div style="text-align: center; margin-top: 50px;">
-                <a href="/guide" class="cta-btn" style="background-color: #9b59b6;">View All Guides &rarr;</a>
-            </div>
-        </div>
-    </section>
-    {% endif %}
+{% endblock %}
+{# --- 메인 콘텐츠 끝 --- #}
 
-    <footer class="main-footer"><div class="footer-content"><a href="/" class="footer-logo-link"><img src="/static/img/logo.png" alt="JP Campus" class="footer-logo"></a><div class="footer-links"><a href="/guide">Guide</a><a href="/about">About</a><a href="/policy">Privacy</a><a href="/contact">Contact</a></div><p class="copyright">© 2024 JP Campus. All rights reserved.</p></div></footer>
 
-    <script>const SCHOOLS_DATA = {{ schools_json | safe }};</script>
-    <script src="/static/js/map.js?v=2.8"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
-    <script>(function(){const style=document.createElement('style');style.innerHTML=`.google-anno-skip, .google-anno-sc, .goog-te-banner-frame, .goog-te-balloon-frame { display: none !important; opacity: 0 !important; pointer-events: none !important; } body { top: 0 !important; }`;document.head.appendChild(style);function e(){document.querySelectorAll('.google-anno-skip, .google-anno-sc').forEach(e=>e.remove())}setInterval(e,500);const t=new MutationObserver(e);t.observe(document.body,{childList:!0,subtree:!0})})();</script>
-</body>
-</html>
+{# --- 스크립트 시작 --- #}
+{% block scripts %}
+<script>
+    // 서버 데이터를 JS 변수로 안전하게 전달
+    const SCHOOLS_DATA = {{ schools_json | safe }};
+</script>
+
+<!-- 지도 관련 스크립트 -->
+<script src="/static/js/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
+{% endblock %}
+{# --- 스크립트 끝 --- #}

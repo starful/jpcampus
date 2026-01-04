@@ -1,131 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ meta_title }}</title>
-    <meta name="description" content="{{ meta_desc }}">
-    <link rel="canonical" href="{{ meta_url }}">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="{{ meta_url }}">
-    <meta property="og:title" content="{{ meta_title }}">
-    <meta property="og:description" content="{{ meta_desc }}">
-    <meta property="og:image" content="{{ og_image }}">
-    <link rel="icon" href="/static/img/favicon.ico">
-    <link rel="stylesheet" href="/static/css/style.css?v=5.9">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationalOrganization",
-      "name": "{{ school.basic_info.name_ja }}",
-      "url": "{{ meta_url }}",
-      "address": { "@type": "PostalAddress", "streetAddress": "{{ school.basic_info.address }}", "addressCountry": "JP" },
-      "description": "{{ meta_desc }}"
-    }
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDJL0618LL"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-EDJL0618LL');
-    </script>
-</head>
+{% extends "base.html" %}
 
-<!-- [수정] body 태그에 배경색 직접 지정 -->
-<body class="detail-page" style="padding-top: 80px; background-color: #f4f6f8;">
-
-    <header class="main-header" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
-        <div class="header-content" style="justify-content: flex-start; max-width: 800px;">
-            <!-- [수정] 클래스 변경 -->
-            {% if school.category == 'university' %}
-                <a href="/universities" class="cta-btn gray">
-                    <i class="fas fa-arrow-left"></i> Back to University List
-                </a>
-            {% else %}
-                <a href="/schools" class="cta-btn gray">
-                    <i class="fas fa-arrow-left"></i> Back to School List
-                </a>
-            {% endif %}
-        </div>
+{# 상세 페이지 전용 심플 헤더 #}
+{% block header %}
+<div class="fixed-top-area" style="backdrop-filter: none; background: white;">
+    <header class="main-header" style="justify-content: center; height: 80px;">
+        <a href="/" class="logo"><img src="/static/img/logo.png" alt="JP Campus Logo" class="logo-img"></a>
     </header>
+</div>
+{% endblock %}
 
-    <main class="detail-container">
-        <div class="school-header">
-            <div class="school-category">
-                {{ 'University' if school.category == 'university' else 'Language School' }}
-            </div>
-            <h1>{{ school.basic_info.name_ja }}</h1>
-            {% if school.basic_info.name_en %}
-                <p class="address" style="font-weight: 500; color: #555;">{{ school.basic_info.name_en }}</p>
-            {% endif %}
-            <p class="address"><i class="fas fa-map-marker-alt"></i> {{ school.basic_info.address }}</p>
-        </div>
 
-        <div class="info-grid">
-            <div class="info-card">
-                <div class="icon-box"><i class="fas fa-users"></i></div>
-                <div class="text-box"><span class="label">Capacity</span><span class="value">{{ school.basic_info.capacity if school.basic_info.capacity else 'N/A' }}</span></div>
-            </div>
-            {% if school.stats and school.stats.international_students %}
-            <div class="info-card">
-                <div class="icon-box"><i class="fas fa-globe"></i></div>
-                <div class="text-box"><span class="label">Intl. Students</span><span class="value">{{ school.stats.international_students }}</span></div>
-            </div>
-            {% endif %}
-            <div class="info-card">
-                <div class="icon-box"><i class="fas fa-yen-sign"></i></div>
-                <div class="text-box"><span class="label">Tuition (1st Year)</span><span class="value">{% if school.tuition and school.tuition.yearly_tuition %}¥{{ "{:,}".format(school.tuition.yearly_tuition) }}{% else %}-{% endif %}</span></div>
-            </div>
-        </div>
+{% block content %}
+<main class="detail-container" style="margin-top: 120px;">
 
-        <div class="school-description notranslate" translate="no">
-            {{ content_body | safe }}
-        </div>
+    {# 뒤로가기 버튼: 가이드일 경우 /guide로, 나머지는 각 리스트로 이동 #}
+    <a href="{{ '/guide' if item_type == 'guide' else ('/universities' if item_type == 'university' else '/schools') }}" class="back-to-list-btn">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+        <span>Back to List</span>
+    </a>
 
-        {% if school.features %}
-        <section class="detail-section">
-            <h2><i class="fas fa-star"></i> Features</h2>
-            <ul class="feature-list">
-                {% for feature in school.features %}<li>{{ feature }}</li>{% endfor %}
-            </ul>
-        </section>
+    <div class="detail-header">
+        {# [FIX] item_type에 따라 다른 제목과 정보를 안전하게 표시 #}
+        {% if item_type == 'guide' %}
+            <span class="detail-category">{{ item.get('category', 'Guide') }}</span>
+            <h1 class="detail-title">{{ item.get('title', 'Guide Detail') }}</h1>
+        {% else %}
+            <span class="detail-category">{{ 'University' if item_type == 'university' else 'Language School' }}</span>
+            <h1 class="detail-title">{{ item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ja') }}</h1>
+            <p style="color: var(--text-gray); display: flex; align-items: center; gap: 8px;">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                {{ item.get('basic_info', {}).get('address', 'Address not available') }}
+            </p>
         {% endif %}
-        
-        <div class="cta-area">
-            {% set link = school.basic_info.website if school.category == 'university' else school.source_url %}
-            {% if link %}
-            <a href="{{ link }}" target="_blank" class="cta-btn">Visit Official Website <i class="fas fa-external-link-alt"></i></a>
-            {% else %}
-            <button class="cta-btn" disabled>No Website Available</button>
-            {% endif %}
-        </div>
-    </main>
+    </div>
 
-    <!-- [수정] 푸터를 main 태그 밖으로 이동 -->
-    <footer class="main-footer">
-        <div class="footer-content">
-            <a href="/" class="footer-logo-link"><img src="/static/img/logo.png" alt="JP Campus" class="footer-logo"></a>
-            <div class="footer-links">
-                <a href="/guide">Guide</a><a href="/about">About</a><a href="/policy">Privacy</a><a href="/contact">Contact</a>
+    {# 학교/대학 정보 그리드 #}
+    {% if item_type != 'guide' %}
+    <div class="info-grid">
+        <div class="info-item">
+            <div class="info-label">Capacity</div>
+            <div class="info-value">{{ item.get('basic_info', {}).get('capacity') or 'N/A' }}</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Students</div>
+            <div class="info-value">{{ item.get('stats', {}).get('international_students') or 'N/A' }}</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Yearly Tuition</div>
+            <div class="info-value">
+                {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
+                    ¥{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
+                {% else %}
+                    TBD
+                {% endif %}
             </div>
-            <p class="copyright">© 2024 JP Campus. All rights reserved.</p>
         </div>
-    </footer>
+    </div>
+    {% endif %}
 
-    <script>
-    (function() {
-        const style = document.createElement('style');
-        style.innerHTML = `.google-anno-skip, .google-anno-sc, .goog-te-banner-frame, .goog-te-balloon-frame { display: none !important; opacity: 0 !important; pointer-events: none !important; } body { top: 0 !important; }`;
-        document.head.appendChild(style);
-        function killAnnoyances() { document.querySelectorAll('.google-anno-skip, .google-anno-sc').forEach(el => el.remove()); }
-        setInterval(killAnnoyances, 500); 
-        const observer = new MutationObserver(killAnnoyances);
-        observer.observe(document.body, { childList: true, subtree: true });
-    })();
-    </script>
-</body>
-</html>
+    {# 본문 내용 #}
+    <div class="detail-content">{{ content_body | safe }}</div>
+</main>
+{% endblock %}

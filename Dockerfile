@@ -6,13 +6,15 @@ WORKDIR /code
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 2. 필수 앱 소스만 복사 (scripts, file 등 제외)
+# 2. 필수 앱 소스 복사
+# app 폴더 전체 복사
 COPY app ./app
-COPY build_data.py .
+# [수정] scripts 폴더 전체 복사 (build_data.py가 여기 포함됨)
+COPY scripts ./scripts
 
 # 3. 빌드 시점에 Markdown -> JSON 변환 실행
-# (app/content가 복사되었으므로 실행 가능)
-RUN python build_data.py
+# [수정] 경로 변경 반영
+RUN python scripts/build_data.py
 
 # 4. 실행 설정
 ENV PORT=8080

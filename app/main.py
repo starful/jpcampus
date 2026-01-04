@@ -1,184 +1,178 @@
-from fastapi import FastAPI, Request, HTTPException, Response
+# app/main.py
+
+from fastapi import FastAPI, Request, HTTPException
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse, PlainTextResponse
+from fastapi.responses import HTMLResponse, PlainTextResponse, Response
 import json
 import os
-import re
 import frontmatter
 import markdown
 from dotenv import load_dotenv
 import glob
+from app.utils import calculate_tag_counts
 
+# --- 초기 설정 ---
 load_dotenv()
 
 app = FastAPI()
 
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
-templates = Jinja2Templates(directory="app/templates")
+# 파일 경로를 절대 경로 기준으로 설정
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+CONTENT_DIR = os.path.join(BASE_DIR, "content")
+TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+templates = Jinja2Templates(directory=TEMPLATES_DIR)
+
+# 환경 변수 및 상수
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 DOMAIN = "https://jpcampus.net"
-DATA_FILE = "app/static/json/schools_data.json"
-ADS_TXT_CONTENT = """google.com, pub-8780435268193938, DIRECT, f08c47fec0942fa0"""
+DATA_FILE = os.path.join(STATIC_DIR, "json", "schools_data.json")
+ADS_TXT_CONTENT = "google.com, pub-8780435268193938, DIRECT, f08c47fec0942fa0"
 
-# [수정됨] 태그 툴팁 설명(description) 구체화
-TAG_DEFINITIONS = {
-    'academic': {
-        'name': '🎓 Academic Focus', 
-        'description': 'Filters for schools with EJU prep courses or a strong focus on university admissions.', 
-        'keywords': ["eju", "university", "academic", "進学", "大学"]
-    },
-    'business': {
-        'name': '💼 Business & Job', 
-        'description': 'Filters for schools offering specialized courses for business Japanese or job hunting support.', 
-        'keywords': ["business", "job", "취업", "ビジネス"]
-    },
-    'culture': {
-        'name': '🗣️ Conversation', 
-        'description': 'Filters for schools that emphasize conversational skills and cultural activities, ideal for short-term stays.', 
-        'keywords': ["conversation", "culture", "short-term", "회화", "短期", "문화"]
-    },
-    'affordable': {
-        'name': '💰 Affordable', 
-        'description': 'Filters for schools with a yearly tuition of less than ¥800,000.', 
-        'keywords': []
-    },
-    'international': {
-        'name': '🌏 International', 
-        'description': 'Filters for schools where the largest single nationality group is 60% or less of the total students.', 
-        'keywords': []
-    }
-}
+# --- 안정적인 데이터 로딩 함수 ---
+def load_school_data():
+    if not os.path.exists(DATA_FILE):
+        return [], ""
+    try:
+        with open(DATA_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            schools = data.get('schools', [])
+            updated_at = data.get('last_updated', '')
+            if not isinstance(schools, list):
+                return [], updated_at
+            return schools, updated_at
+    except Exception as e:
+        print(f"Error loading data: {e}")
+        return [], ""
 
-def calculate_tag_counts(schools):
-    counts = {key: 0 for key in TAG_DEFINITIONS}
-    for school in schools:
-        if school.get('category') == 'university': continue
-        features_str = " ".join(school.get('features', [])).lower()
-        for key, definition in TAG_DEFINITIONS.items():
-            if any(kw in features_str for kw in definition['keywords']): counts[key] += 1
-        cost = school.get('tuition', {}).get('yearly_tuition') or school.get('tuition')
-        if isinstance(cost, int) and cost < 800000: counts['affordable'] += 1
-        demo = school.get('stats', {}).get('student_demographics', {})
-        if demo:
-            total_students = sum(filter(None, demo.values()))
-            if total_students > 0:
-                top_nationality_ratio = max(demo.values() or [0]) / total_students
-                if top_nationality_ratio <= 0.6: counts['international'] += 1
-    return [{'key': key, 'name': definition['name'], 'description': definition['description'], 'count': counts[key]} for key, definition in TAG_DEFINITIONS.items()]
+# --- 라우팅 (Routing) ---
 
 @app.get("/ads.txt", response_class=PlainTextResponse)
-async def ads_txt(): return ADS_TXT_CONTENT
+async def ads_txt():
+    return ADS_TXT_CONTENT
 
+# --- [복구됨] 사이트맵 생성 라우트 ---
 @app.get("/sitemap.xml", response_class=PlainTextResponse)
 async def sitemap():
     urls = [f"{DOMAIN}/{path}" for path in ["", "about", "guide", "schools", "universities", "contact", "policy"]]
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            for s in data.get('schools', []): urls.append(f"{DOMAIN}/school/{s['id']}")
-    guide_files = glob.glob(os.path.join("app/content", "guide_*.md"))
+    
+    # 학교 및 대학 URL 추가
+    schools_data, _ = load_school_data()
+    for s in schools_data:
+        if s.get('id'):
+            urls.append(f"{DOMAIN}/school/{s['id']}")
+            
+    # 가이드 URL 추가
+    guide_files = glob.glob(os.path.join(CONTENT_DIR, "guide_*.md"))
     for filepath in guide_files:
         try:
             post = frontmatter.load(filepath)
-            if slug := post.metadata.get('id'): urls.append(f"{DOMAIN}/guide/{slug}")
-        except Exception: pass
-    xml_urls = "".join([f'  <url><loc>{url}</loc><changefreq>weekly</changefreq></url>\n' for url in urls])
-    return Response(content=f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{xml_urls}</urlset>', media_type="application/xml")
+            if slug := post.metadata.get('id'):
+                urls.append(f"{DOMAIN}/guide/{slug}")
+        except Exception:
+            pass
+            
+    xml_urls = "".join([f'<url><loc>{url}</loc><changefreq>weekly</changefreq></url>' for url in urls])
+    return Response(content=f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{xml_urls}</urlset>', media_type="application/xml")
 
 @app.get("/robots.txt", response_class=PlainTextResponse)
-async def robots(): return f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml"
-    
+async def robots():
+    return f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml"
+
+
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request):
-    schools_data = []
-    updated_at = ""
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            schools_data = data.get('schools', [])
-            updated_at = data.get('last_updated', '')
+    schools_data, updated_at = load_school_data()
 
-    school_count = len([s for s in schools_data if s.get('category') != 'university'])
-    meta_desc = f"Compare {school_count} Japanese language schools & universities."
-
-    latest_schools = [s for s in schools_data if s.get('category') != 'university'][:4]
-    latest_universities = [s for s in schools_data if s.get('category') == 'university'][:4]
+    # 메인 화면 표시 건수 6개로 적용
+    latest_schools = [s for s in schools_data if s.get('category') != 'university'][:6]
+    latest_universities = [s for s in schools_data if s.get('category') == 'university'][:6]
     
     tags_with_counts = calculate_tag_counts(schools_data)
-
     university_list = [
         {"name_ja": s.get('basic_info', {}).get('name_ja'), "name_en": s.get('basic_info', {}).get('name_en')}
-        for s in schools_data if s.get('category') == 'university' and s.get('basic_info', {}).get('name_ja')
+        for s in schools_data if s.get('category') == 'university' and s.get('basic_info', {}).get('name_en')
     ]
-
     guides = []
-    guide_files = glob.glob(os.path.join("app/content", "guide_*.md"))
-    guide_files.sort(reverse=True) 
-    for filepath in guide_files[:4]:
+    guide_files = glob.glob(os.path.join(CONTENT_DIR, "guide_*.md"))
+    guide_files.sort(key=os.path.getmtime, reverse=True)
+    for filepath in guide_files[:6]: # 가이드도 6개 표시
         try:
             post = frontmatter.load(filepath)
             meta = post.metadata
-            guides.append({"title": meta.get('title'), "description": meta.get('description'), "category": meta.get('tags', ['Guide'])[0], "link": f"/guide/{meta.get('id')}", "thumbnail": meta.get('thumbnail')})
+            guides.append({
+                "title": meta.get('title', 'Untitled'), "description": meta.get('description', ''),
+                "category": meta.get('category', 'Guide'), "link": f"/guide/{meta.get('id')}",
+                "thumbnail": meta.get('thumbnail', '')
+            })
         except Exception: pass
 
     return templates.TemplateResponse("index.html", {
         "request": request, "schools_json": json.dumps({"schools": schools_data}, ensure_ascii=False),
-        "maps_api_key": GOOGLE_MAPS_API_KEY, "meta_url": f"{DOMAIN}/", "meta_title": "JP Campus - Japanese Language School Map", "meta_desc": meta_desc,
-        "updated_at": updated_at, "school_count": school_count, "latest_schools": latest_schools, "latest_universities": latest_universities, "latest_guides": guides,
+        "maps_api_key": GOOGLE_MAPS_API_KEY, "meta_url": f"{DOMAIN}/", "updated_at": updated_at,
+        "latest_schools": latest_schools, "latest_universities": latest_universities, "latest_guides": guides,
         "tags_with_counts": tags_with_counts, "university_list_json": json.dumps(university_list, ensure_ascii=False)
     })
 
+# (이하 상세 페이지 및 리스트 페이지 라우트는 이전 답변과 동일)
 @app.get("/school/{school_id}", response_class=HTMLResponse)
 async def read_school_detail(request: Request, school_id: str):
-    md_path = f"app/content/{school_id}.md"
-    if not os.path.exists(md_path): raise HTTPException(status_code=404, detail="School not found")
-    with open(md_path, 'r', encoding='utf-8') as f: post = frontmatter.load(f)
-    raw_content = re.sub(r'\n\s*\*\*\s*\n', '\n\n', re.sub(r'-\s*\n\s*\*\*', '- **', re.sub(r'\.\s*\*', '.\n\n*', re.sub(r'\|([^\n]+)\|\s*\|(:?-+:?)\|', r'|\1|\n|\2|', post.content))))
-    content_html = markdown.markdown(raw_content, extensions=['tables', 'fenced_code', 'nl2br', 'sane_lists'])
-    school = post.metadata
-    name_ja = school.get('basic_info', {}).get('name_ja', 'Unknown')
-    name_en = school.get('basic_info', {}).get('name_en', '')
-    page_title = f"{name_en} ({name_ja}) - Tuition & Info | JP Campus" if name_en else f"{name_ja} - Japanese Language School Info | JP Campus"
-    tuition = school.get('tuition', {}).get('yearly_tuition')
-    tuition_str = f"¥{tuition:,}" if isinstance(tuition, int) else "Contact for details"
-    location = school.get('basic_info', {}).get('address', 'Japan')
-    page_desc = f"Comprehensive guide for {name_ja}. Yearly tuition: {tuition_str}. Located in {location}."
-    thumbnail_path = school.get('thumbnail', '/static/img/og-image.png')
-    og_image_url = f"{DOMAIN}{thumbnail_path}" if thumbnail_path.startswith('/') else thumbnail_path
-    return templates.TemplateResponse("detail.html", {"request": request, "school": school, "content_body": content_html, "meta_url": f"{DOMAIN}/school/{school_id}", "meta_title": page_title, "meta_desc": page_desc, "og_image": og_image_url, "maps_api_key": GOOGLE_MAPS_API_KEY})
+    md_path = os.path.join(CONTENT_DIR, f"{school_id}.md")
+    if not os.path.exists(md_path):
+        raise HTTPException(status_code=404, detail="School content file not found")
+    
+    post = frontmatter.load(md_path)
+    content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code', 'nl2br'])
+    item = post.metadata
+    item_type = 'university' if item.get('category') == 'university' else 'school'
+
+    return templates.TemplateResponse("detail.html", { "request": request, "item": item, "item_type": item_type, "content_body": content_html })
+
+@app.get("/guide/{slug}", response_class=HTMLResponse)
+async def guide_detail(request: Request, slug: str):
+    md_path = os.path.join(CONTENT_DIR, f"guide_{slug}.md")
+    if not os.path.exists(md_path):
+        raise HTTPException(status_code=404, detail="Guide content file not found")
+
+    post = frontmatter.load(md_path)
+    content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code', 'nl2br'])
+    item = post.metadata
+
+    return templates.TemplateResponse("detail.html", { "request": request, "item": item, "item_type": "guide", "content_body": content_html })
+
+@app.get("/schools", response_class=HTMLResponse)
+async def school_list(request: Request):
+    schools_data, _ = load_school_data()
+    schools = [s for s in schools_data if s.get('category') != 'university']
+    
+    school_placeholders = ['https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=500', 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500', 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=500']
+    for i, item in enumerate(schools): item['thumbnail'] = school_placeholders[i % len(school_placeholders)]
+    return templates.TemplateResponse("list.html", {"request": request, "items": schools, "item_type": "school", "title": "All Language Schools"})
+
+@app.get("/universities", response_class=HTMLResponse)
+async def university_list(request: Request):
+    schools_data, _ = load_school_data()
+    universities = [s for s in schools_data if s.get('category') == 'university']
+    univ_placeholders = ['https://images.unsplash.com/photo-1562774053-701939374585?w=500', 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500', 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500']
+    for i, item in enumerate(universities): item['thumbnail'] = univ_placeholders[i % len(univ_placeholders)]
+    return templates.TemplateResponse("list.html", {"request": request, "items": universities, "item_type": "university", "title": "All Universities"})
+
 @app.get("/guide", response_class=HTMLResponse)
 async def guide_list_page(request: Request):
     guides = []
-    guide_files = glob.glob(os.path.join("app/content", "guide_*.md"))
-    guide_files.sort(reverse=True)
+    guide_files = glob.glob(os.path.join(CONTENT_DIR, "guide_*.md"))
+    guide_files.sort(key=os.path.getmtime, reverse=True)
     for filepath in guide_files:
         try:
             post = frontmatter.load(filepath)
             meta = post.metadata
-            guides.append({"title": meta.get('title'), "description": meta.get('description'), "category": meta.get('tags', ['Guide'])[0], "link": f"/guide/{meta.get('id')}", "thumbnail": meta.get('thumbnail')})
-        except Exception as e: print(f"Error loading guide: {e}")
-    return templates.TemplateResponse("guide_list.html", {"request": request, "guides": guides, "meta_title": "Essential Guides for Japan - JP Campus", "meta_desc": "Everything you need to know before studying in Japan."})
-@app.get("/guide/{slug}", response_class=HTMLResponse)
-async def guide_detail(request: Request, slug: str):
-    md_path = os.path.join("app/content", f"guide_{slug}.md")
-    if not os.path.exists(md_path): raise HTTPException(status_code=404, detail="Guide not found")
-    with open(md_path, 'r', encoding='utf-8') as f: post = frontmatter.load(f)
-    content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code', 'nl2br', 'sane_lists'])
-    meta = post.metadata
-    og_image_url = meta.get('thumbnail', f"{DOMAIN}/static/img/og-image.png")
-    return templates.TemplateResponse("guide_detail.html", {"request": request, "guide": meta, "content_body": content_html, "meta_title": f"{meta['title']} - JP Campus Guide", "meta_desc": meta.get('description', ''), "meta_url": f"{DOMAIN}/guide/{slug}", "og_image": og_image_url})
-@app.get("/schools", response_class=HTMLResponse)
-async def school_list(request: Request):
-    with open(DATA_FILE, 'r', encoding='utf-8') as f: data = json.load(f)
-    schools = [s for s in data['schools'] if s.get('category') != 'university']
-    return templates.TemplateResponse("school_list.html", {"request": request, "items": schools, "title": "Japanese Language Schools", "description": "Browse all Japanese language schools across Japan."})
-@app.get("/universities", response_class=HTMLResponse)
-async def university_list(request: Request):
-    with open(DATA_FILE, 'r', encoding='utf-8') as f: data = json.load(f)
-    universities = [s for s in data['schools'] if s.get('category') == 'university']
-    return templates.TemplateResponse("school_list.html", {"request": request, "items": universities, "title": "Universities in Japan", "description": "Explore top universities in Japan for international students."})
+            guides.append({ "title": meta.get('title'), "description": meta.get('description'), "category": meta.get('category'), "link": f"/guide/{meta.get('id')}", "thumbnail": meta.get('thumbnail'), "item_type": "guide" })
+        except Exception: pass
+    return templates.TemplateResponse("list.html", {"request": request, "items": guides, "item_type": "guide", "title": "Essential Guides"})
+
 @app.get("/about", response_class=HTMLResponse)
 async def about(request: Request): return templates.TemplateResponse("about.html", {"request": request})
 @app.get("/contact", response_class=HTMLResponse)

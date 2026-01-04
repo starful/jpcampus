@@ -21,13 +21,18 @@ async function initMap() {
     geometry = await google.maps.importLibrary("geometry");
 
     map = new Map(document.getElementById("map"), {
-        zoom: 5, center: { lat: 35.6895, lng: 139.6917 },
-        mapId: "2938bb3f7f034d78a2dbaf56",
-        mapTypeControl: false, streetViewControl: false, fullscreenControl: false
+        zoom: 5, 
+        center: { lat: 35.6895, lng: 139.6917 },
+        // [수정됨] 스크린샷에 있는 새로운 Map ID 적용
+        mapId: "2938bb3f7f034d78c237cb68", 
+        mapTypeControl: false, 
+        streetViewControl: false, 
+        fullscreenControl: false
     });
     infoWindow = new google.maps.InfoWindow(); 
 
     if (typeof SCHOOLS_DATA === 'undefined' || !SCHOOLS_DATA || !SCHOOLS_DATA.schools) {
+        console.warn("⚠️ No school data found or data format is incorrect.");
         allSchoolData = [];
     } else {
         allSchoolData = SCHOOLS_DATA.schools;
@@ -75,7 +80,6 @@ function handleUnivSearch(query) {
 
     const lowerQuery = query.toLowerCase();
     
-    // [수정] 일본어 이름(name_ja)도 검색 조건에 포함
     const targetUniv = allSchoolData.find(s => 
         s.category === 'university' && 
         ( (s.basic_info.name_ja && s.basic_info.name_ja.toLowerCase().includes(lowerQuery)) || 
@@ -121,19 +125,23 @@ function filterSchoolsByKey(key) {
     if (key === 'all') {
         return allSchoolData;
     }
+
     const ACADEMIC_KEYWORDS = ["eju", "university", "academic", "進学", "大学"];
     const BIZ_KEYWORDS = ["business", "job", "취업", "ビジネス"];
     const CULTURE_KEYWORDS = ["conversation", "culture", "short-term", "회화", "短期", "문화"];
-    
+
     return allSchoolData.filter(s => {
-        if (s.category === 'university') return false; 
-        
+        if (s.category === 'university') return false;
+
         const features = (s.features || []).join(" ").toLowerCase();
-        
+
         switch(key) {
-            case 'academic': return ACADEMIC_KEYWORDS.some(kw => features.includes(kw));
-            case 'business': return BIZ_KEYWORDS.some(kw => features.includes(kw));
-            case 'culture': return CULTURE_KEYWORDS.some(kw => features.includes(kw));
+            case 'academic':
+                return ACADEMIC_KEYWORDS.some(kw => features.includes(kw));
+            case 'business':
+                return BIZ_KEYWORDS.some(kw => features.includes(kw));
+            case 'culture':
+                return CULTURE_KEYWORDS.some(kw => features.includes(kw));
             case 'affordable':
                 const cost = s.tuition?.yearly_tuition || s.tuition;
                 return typeof cost === 'number' && cost < 800000;
@@ -144,7 +152,8 @@ function filterSchoolsByKey(key) {
                 if (total === 0) return false;
                 const topRatio = Math.max(...Object.values(demo).map(v => v || 0)) / total;
                 return topRatio <= 0.6;
-            default: return true;
+            default:
+                return true;
         }
     });
 }
@@ -152,20 +161,29 @@ function filterSchoolsByKey(key) {
 function renderMarkers(data) {
     markers.forEach(m => m.map = null);
     markers = [];
-    if (!data || !map || !LatLngBounds || !AdvancedMarkerElement) { return; }
-    
+
+    if (!data || !map || !LatLngBounds || !AdvancedMarkerElement) {
+        console.warn("⚠️ No data to render or maps library not loaded.");
+        return;
+    }
+
     const bounds = new LatLngBounds();
     const parser = new DOMParser();
-    
+
     data.forEach(item => {
         if (!item.location || !item.location.lat) return;
         const position = { lat: item.location.lat, lng: item.location.lng };
+        
         const isUniv = (item.category === 'university');
         const svgString = isUniv ? SVG_UNIV : SVG_SCHOOL;
         const pinContent = parser.parseFromString(svgString, 'image/svg+xml').documentElement;
-        const marker = new AdvancedMarkerElement({ map, position, title: item.basic_info.name_ja, content: pinContent, zIndex: isUniv ? 9999 : 1 });
+        
+        const marker = new AdvancedMarkerElement({
+            map, position, title: item.basic_info.name_ja, content: pinContent, zIndex: isUniv ? 9999 : 1
+        });
         marker.addListener("click", () => openInfoWindow(item, marker));
-        markers.push(marker);
+        
+        markers.push(marker); 
         bounds.extend(position);
     });
     
@@ -180,20 +198,27 @@ function renderMarkers(data) {
 }
 
 function openInfoWindow(school, marker) {
-    const labelColor = school.category === 'university' ? '#3498DB' : '#E67E22'; 
-    const labelText = school.category === 'university' ? 'UNIVERSITY' : 'LANGUAGE SCHOOL';
+    const isUniv = school.category === 'university';
+    const labelColor = isUniv ? 'var(--accent)' : 'var(--primary)';
+    const labelText = isUniv ? 'University' : 'Language School';
+
     const contentString = `
-        <div class="info-window-card">
-            <div class="iw-header" style="border-left: 5px solid ${labelColor}; padding-left:15px; margin-bottom:10px;">
-                <span style="font-size:0.75rem; font-weight:bold; color:${labelColor};">${labelText}</span>
-                <a href="${school.link}" class="iw-title">${school.basic_info.name_ja}</a>
+        <div class="info-window-content">
+            <div class="iw-header">
+                <span class="iw-badge" style="background-color: ${labelColor};">${labelText}</span>
+                <h5 class="iw-title">${school.basic_info.name_en || school.basic_info.name_ja}</h5>
+                <p class="iw-address">${school.basic_info.address || 'Address not available'}</p>
             </div>
-            <div class="iw-body">
-                <div class="iw-row"><i class="fas fa-map-marker-alt iw-icon"></i><span>${school.basic_info.address || 'N/A'}</span></div>
-                ${school.basic_info.capacity ? `<div class="iw-row"><i class="fas fa-users iw-icon"></i><span>Capacity: ${school.basic_info.capacity}</span></div>` : ''}
-                <a href="${school.link}" class="iw-btn" style="background-color: ${labelColor}; color: white;">View Details</a>
-            </div>
+            <a href="${school.link}" class="iw-details-btn">View Details →</a>
         </div>`;
+
+    if (infoWindow) {
+        infoWindow.close();
+    }
+    
     infoWindow.setContent(contentString);
-    infoWindow.open({ anchor: marker, map });
+    infoWindow.open({
+        anchor: marker,
+        map,
+    });
 }

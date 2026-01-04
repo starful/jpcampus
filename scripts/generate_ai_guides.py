@@ -2,29 +2,18 @@ import csv
 import os
 import json
 import time
-import google.generativeai as genai
-from dotenv import load_dotenv
 import logging
 import glob
+from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
 
-# ==========================================
-# [설정]
-# ==========================================
-load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-flash-latest')
+# --- 설정 ---
+setup_logging("guide_gen.log")
+model = setup_gemini()
 
-# 경로 설정
-INPUT_CSV = "scripts/file/guide_topics.csv"
-OUTPUT_DIR = "app/content"
-LOG_DIR = "logs"
-HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt") # [추가] 처리 기록 파일
-
-LIMIT = 3
-
-# 로깅 및 기록 파일 디렉토리 생성
-if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
-logging.basicConfig(filename=os.path.join(LOG_DIR, "guide_gen.log"), level=logging.INFO, format='%(asctime)s - %(message)s')
+INPUT_CSV = os.path.join(DATA_DIR, "guide_topics.csv")
+OUTPUT_DIR = CONTENT_DIR
+HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt")
+LIMIT = 10
 
 THUMBNAILS = {
     "Cost": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
@@ -41,7 +30,6 @@ THUMBNAILS = {
     "default": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500"
 }
 
-# [추가] 기록 관련 함수
 def load_history():
     if not os.path.exists(HISTORY_FILE): return set()
     with open(HISTORY_FILE, "r", encoding="utf-8") as f:
@@ -65,27 +53,15 @@ def generate_content(row):
     The article must be well-structured, informative, and easy to read.
     **Total length must be between 7000 and 8000 characters.**
     ---
-    ### Topic Details ###
-    **Title:** {row['title']}
-    **Core Prompt:** {row['prompt']}
+    Title: {row['title']}
+    Core Prompt: {row['prompt']}
     ---
-    ### Writing Guidelines & Structure ###
-    1.  **Format:** Use standard Markdown. Use `##` for main headings and `###` for subheadings.
-    2.  **Introduction:** Start with an engaging introduction that explains why this topic is important for students.
-    3.  **Main Body:**
-        -   Break down the topic into 3-5 logical main sections using `##` headings.
-        -   Under each main section, use `###` subheadings to provide more detailed points.
-        -   Use bullet points (`-`) or numbered lists (`1.`) for clarity.
-        -   **Include at least two detailed Markdown tables.** For example, comparison tables (Tokyo vs. Osaka), cost breakdown tables, pros and cons, or timelines. Tables are crucial for data visualization.
-    4.  **Tone:** Professional, yet friendly and encouraging. Provide actionable tips and advice.
-    5.  **Conclusion:** End with a summary paragraph that recaps the key takeaways.
-    ---
-    ### YOUR TASK ###
-    Generate ONLY the Markdown body content based on the guidelines above. Do not include the title or any frontmatter.
+    Guidelines: Standard Markdown, 3-5 main sections, bullet points, at least two Markdown tables, friendly tone.
+    Generate ONLY the Markdown body content.
     """
     try:
         response = model.generate_content(prompt)
-        return response.text.replace("```markdown", "").replace("```", "").strip()
+        return clean_json_response(response.text)
     except Exception as e:
         print(f"❌ Error generating {row['slug']}: {e}")
         return None
@@ -94,29 +70,20 @@ def main():
     if not os.path.exists(INPUT_CSV):
         print(f"❌ CSV file not found: {INPUT_CSV}")
         return
-
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
 
     with open(INPUT_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         all_topics = list(reader)
 
-    # [수정] 처리된 목록을 불러오고, 처리할 대상만 필터링
     processed_slugs = load_history()
     topics_to_process = [row for row in all_topics if row['slug'] not in processed_slugs]
     
-    print(f"🚀 Total topics: {len(all_topics)} | Already processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
+    print(f"🚀 Total: {len(all_topics)} | Processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
     
-    # [수정] 기존 파일 삭제 로직 제거
-    # print("🔥 Deleting existing guide files to regenerate...")
-    # ... (삭제 코드 제거됨) ...
-
     count = 0
     for row in topics_to_process:
-        if LIMIT > 0 and count >= LIMIT:
-            print(f"🛑 Limit reached ({LIMIT}). Stopping generation.")
-            break
+        if LIMIT > 0 and count >= LIMIT: break
 
         slug = row['slug']
         filename = f"guide_{slug}.md"
@@ -132,22 +99,16 @@ def main():
                 "description": row['description'], "thumbnail": thumbnail_url,
                 "date": time.strftime("%Y-%m-%d")
             }
-
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write("---\n")
                 f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
                 f.write("\n---\n\n")
                 f.write(content_body)
-            
-            # [추가] 성공 시 기록
             append_history(slug)
-
             print(f"✅ Saved: {filename}")
             logging.info(f"Generated: {filename}")
             count += 1
             time.sleep(3)
-
-    print(f"✨ Job Finished. Newly generated: {count} guide(s).")
 
 if __name__ == "__main__":
     main()
