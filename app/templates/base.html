@@ -6,62 +6,59 @@
     <title>{% block title %}JP Campus - Study in Japan Guide{% endblock %}</title>
     <link rel="stylesheet" href="/static/css/style.css?v=12.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    
-    {# --- [핵심] 구글 애드센스 자동 광고 스크립트 --- #}
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938"
-     crossorigin="anonymous"></script>
-    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
     {% block head_extra %}{% endblock %}
 </head>
 <body>
 
-    {% block header %}
-    <div class="fixed-top-area">
-        <header class="main-header">
-            <a href="/" class="logo">
-                <img src="/static/img/logo.png" alt="JP Campus" class="logo-img">
-            </a>
-            <div class="search-area">
-                <div class="search-bar-wrapper">
-                    <input type="text" id="univ-search-input" class="search-input" list="university-list" placeholder="Search universities...">
-                </div>
-                <datalist id="university-list">
-                    {% if university_list_json %}
-                        {% for univ in university_list_json %}
-                            <option value="{{ univ.name_en }}">{{ univ.name_ja }}</option>
-                        {% endfor %}
-                    {% endif %}
-                </datalist>
+{% block header %}
+<div class="fixed-top-area">
+    <header class="main-header">
+        <a href="/" class="logo"><img src="/static/img/logo.png" alt="JP Campus" class="logo-img"></a>
+        <div class="search-area">
+            <div class="search-bar-wrapper">
+                <input type="text" id="univ-search-input" class="search-input" list="university-list" placeholder="Search universities...">
             </div>
-            <nav class="tag-filter-panel">
-                <button class="tag-filter-btn active" data-filter-key="all" data-tooltip="Show all schools">
-                    <i class="fa-solid fa-school"></i>
-                </button>
-                {% if tags_with_counts %}
-                {% for tag in tags_with_counts %}
-                <button class="tag-filter-btn" data-filter-key="{{ tag.key }}" data-tooltip="{{ tag.description }}">
-                    <span>{{ tag.name.split(' ')[0] }}</span>
-                    <span class="tag-count">{{ tag.count }}</span>
-                </button>
-                {% endfor %}
+            <datalist id="university-list">
+                {% if university_list_json %}
+                    {% for univ in university_list_json %}
+                        <option value="{{ univ.name_en }}">{{ univ.name_ja }}</option>
+                    {% endfor %}
                 {% endif %}
-            </nav>
-        </header>
-    </div>
-    {% endblock %}
-
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-
-    <footer class="main-footer">
-        <div class="footer-links">
-            <a href="/guide">Guide</a> <a href="/about">About</a> <a href="/policy">Privacy</a> <a href="/contact">Contact</a>
+            </datalist>
         </div>
-        <p class="copyright">© 2024 JP Campus · Updated: {{ updated_at }}</p>
-    </footer>
+        <nav class="tag-filter-panel">
+            <button class="tag-filter-btn active" data-filter-key="all" data-tooltip="Show all schools">
+                <i class="fa-solid fa-layer-group"></i> <!-- 전체 보기 아이콘 변경 -->
+            </button>
+            {% if tags_with_counts %}
+            {# [수정] 새로운 필터 데이터를 사용하여 아이콘과 카운트 표시 #}
+            {% for tag in tags_with_counts %}
+            <button class="tag-filter-btn" data-filter-key="{{ tag.key }}" data-tooltip="{{ tag.description }}">
+                <span class="tag-icon">{{ tag.icon }}</span> <!-- 아이콘 표시 -->
+                <span class="tag-count">{{ tag.count }}</span>
+            </button>
+            {% endfor %}
+            {% endif %}
+        </nav>
+    </header>
+</div>
+{% endblock %}
 
-    {% block scripts %}{% endblock %}
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+
+<footer class="main-footer">
+    <div class="footer-links">
+        <a href="/guide">Guide</a> <a href="/about">About</a> <a href="/policy">Privacy</a> <a href="/contact">Contact</a>
+    </div>
+    <p class="copyright">© 2024 JP Campus · Updated: {{ updated_at }}</p>
+</footer>
+
+{% block scripts %}{% endblock %}
 
 </body>
 </html>
