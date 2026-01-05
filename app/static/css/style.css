@@ -11,44 +11,25 @@
     --bg-light: #f8fafc;
     --white: #ffffff;
     --border: #e2e8f0;
-    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    --header-height: 80px; /* 한 줄 헤더 높이 */
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05);
+    --header-height: 80px;
 }
 
 /* --- [2] 전역 스타일 리셋 --- */
-* { 
-    box-sizing: border-box; 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-body { 
-    margin: 0; 
-    padding: 0; 
-    font-family: 'Inter', sans-serif; 
-    background-color: var(--bg-light); 
-    color: var(--text-dark);
-}
-a { 
-    text-decoration: none; 
-    color: inherit; 
-}
-button {
-    cursor: pointer;
-    border: none;
-    background: none;
-    font-family: inherit;
-}
+* { box-sizing: border-box; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { margin: 0; padding: 0; font-family: 'Inter', sans-serif; background-color: var(--bg-light); color: var(--text-dark); }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
 
-/* --- [3] 한 줄 헤더 및 네비게이션 --- */
+/* --- [3] 헤더 및 네비게이션 (디자인 수정) --- */
 .fixed-top-area {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
+    background: var(--white); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 .main-header {
     height: var(--header-height);
@@ -57,238 +38,146 @@ button {
     padding: 0 24px;
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
 }
-.logo-img { 
-    height: 32px; 
-    flex-shrink: 0; 
-}
-.search-area { 
-    flex-grow: 1; 
-    min-width: 150px; 
-    max-width: 500px;
-}
+.logo-img { height: 60px; flex-shrink: 0; }
+.search-area { flex-grow: 1; max-width: 400px; }
 .search-bar-wrapper { 
-    background: #f1f5f9; 
-    border-radius: 12px; 
-    padding: 10px 16px; 
-    border: 1px solid transparent;
+    background: var(--bg-light); 
+    border-radius: 999px;
+    padding: 12px 20px; 
+    border: 1px solid var(--border);
     transition: all 0.2s;
+    box-shadow: var(--shadow-md);
 }
 .search-bar-wrapper:focus-within {
-    background: white;
     border-color: var(--primary);
     box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
 }
-.search-input { 
-    width: 100%; 
-    border: none; 
-    background: transparent; 
-    outline: none; 
-    font-size: 0.95rem;
+.search-input { width: 100%; border: none; background: transparent; outline: none; font-size: 0.95rem; }
+
+/* --- [4] [수정] 필터 컨트롤 및 드롭다운 스타일 --- */
+.filter-controls {
+    display: flex;
+    align-items: center;
+    /* gap 제거 (버튼이 하나만 남으므로) */
 }
 
-/* --- [4] 아이콘 태그 필터 & 툴팁 --- */
-.tag-filter-panel { 
-    display: flex; 
-    align-items: center; 
-    gap: 8px; 
-}
 .tag-filter-btn {
     display: flex;
     align-items: center;
     gap: 8px;
-    height: 44px;
-    padding: 0 16px;
-    border-radius: 12px;
+    height: 48px;
+    padding: 0 24px; /* 내부 여백을 넉넉하게 조정 */
+    border-radius: 999px;
     background: white;
     border: 1px solid var(--border);
-    font-size: 0.85rem;
+    font-size: 0.95rem; /* 폰트 크기 약간 키움 */
     font-weight: 600;
-    color: var(--text-gray);
-    transition: all 0.2s;
-    position: relative; /* 툴팁 기준점 */
-}
-.tag-filter-btn:hover { 
-    background: #f1f5f9;
-    border-color: #cbd5e1;
     color: var(--text-dark);
+    transition: all 0.2s;
+    box-shadow: var(--shadow-md);
+    white-space: nowrap;
+    cursor: pointer;
+    width: auto; /* [중요] 너비 자동 조정 (글자가 안 잘리게 함) */
 }
+
+.tag-filter-btn:hover { 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* 활성화 상태 스타일 */
 .tag-filter-btn.active { 
     background: var(--text-dark); 
     color: white; 
     border-color: var(--text-dark); 
 }
-.tag-filter-btn .tag-icon { font-size: 1rem; }
-.tag-filter-btn .tag-count { 
-    font-size: 0.8rem; 
-    font-weight: 500; 
-    color: #94a3b8;
-    background-color: #f1f5f9;
-    padding: 2px 6px;
-    border-radius: 6px;
-}
-.tag-filter-btn.active .tag-count { 
-    color: #d1d5db; 
-    background-color: #374151;
-}
 
-/* --- [핵심 수정] 툴팁 스타일 --- */
-.tag-filter-btn::after {
-    content: attr(data-tooltip);
-    visibility: hidden;
-    opacity: 0;
+/* [삭제됨] .tag-filter-btn:first-child 관련 원형 스타일 삭제 */
+
+.filter-dropdown { position: relative; }
+
+.dropdown-menu {
+    display: none;
     position: absolute;
-    /* [수정] bottom -> top 으로 변경하여 버튼 아래에 표시 */
-    top: calc(100% + 8px); /* 버튼 높이 100% 아래 + 8px 여백 */
-    left: 50%;
-    transform: translateX(-50%); /* 수평 중앙 정렬 */
-    
-    background: var(--text-dark);
-    color: white;
-    padding: 8px 14px;
-    border-radius: 8px;
-    font-size: 0.8rem;
-    line-height: 1.4;
-    font-weight: 500;
-    white-space: nowrap;
-    transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
-    pointer-events: none;
-    z-index: 10;
-}
-.tag-filter-btn:hover::after {
-    visibility: visible;
-    opacity: 1;
-    transform: translateX(-50%) translateY(4px); /* 살짝 아래로 내려오는 효과 */
-}
-
-
-/* --- [5] 지도 및 메인 콘텐츠 레이아웃 --- */
-.map-section, .detail-container, .content-wrapper {
-    margin-top: var(--header-height);
-}
-.map-section {
-    width: 100%;
-    height: 500px;
-    background-color: #e5e7eb;
-}
-#map { 
-    width: 100%; 
-    height: 100%; 
-}
-.content-wrapper { 
-    max-width: 1400px; 
-    margin: 60px auto; 
-    padding: 0 24px; 
-}
-.section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-}
-.section-title { 
-    font-size: 1.6rem; 
-    font-weight: 800; 
-    margin: 0; 
-}
-.view-all { 
-    color: var(--primary); 
-    font-weight: 700; 
-    font-size: 0.9rem; 
-}
-
-/* --- [6] 카드 스타일 --- */
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 30px;
-}
-.card {
+    top: calc(100% + 12px); /* 간격 약간 띄움 */
+    left: 0; /* 왼쪽 정렬 */
     background: var(--white);
-    border-radius: 20px;
-    overflow: hidden;
+    border-radius: 16px; /* 둥글게 */
+    box-shadow: 0 10px 40px rgba(0,0,0,0.12); /* 그림자 더 진하게 */
     border: 1px solid var(--border);
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover { 
-    transform: translateY(-8px); 
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-}
-.card-img { 
-    width: 100%; 
-    height: 220px; 
-    background-size: cover; 
-    background-position: center; 
-    position: relative; 
-}
-.card-badge {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    padding: 5px 12px;
-    border-radius: 8px;
-    font-size: 0.7rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(5px);
-}
-.card-body { 
-    padding: 24px; 
-    flex-grow: 1; 
-}
-.card-body h4 { 
-    margin: 0 0 10px; 
-    font-size: 1.15rem; 
-    font-weight: 700; 
-    line-height: 1.4; 
-}
-.card-meta { 
-    display: flex; 
-    align-items: center; 
-    gap: 6px; 
-    font-size: 0.85rem; 
-    color: var(--text-gray); 
-    margin-bottom: 20px; 
-}
-.card-footer {
-    padding: 18px 24px;
-    background: #fcfcfc;
-    border-top: 1px solid var(--border);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.card-price { 
-    font-weight: 800; 
-    color: var(--primary); 
-    font-size: 1rem; 
+    width: 260px; /* 너비 고정 */
+    z-index: 1100;
+    padding: 8px;
+    overflow: hidden;
 }
 
-/* --- [7] 상세 페이지 & 리스트 페이지 스타일 --- */
-.detail-container, .list-container {
-    max-width: 1000px;
-    margin: calc(var(--header-height) + 60px) auto 80px;
-    padding: 0 24px;
+/* 드롭다운이 오른쪽 화면을 넘어갈 경우를 대비해 모바일에서는 위치 조정 */
+@media (max-width: 768px) {
+    .dropdown-menu {
+        left: auto;
+        right: 0; /* 모바일에서는 오른쪽 기준 정렬 */
+    }
 }
-.back-to-list-btn {
-    display: inline-flex;
+
+.filter-dropdown.is-open .dropdown-menu { display: block; }
+
+.dropdown-item {
+    display: flex;
     align-items: center;
-    gap: 8px;
-    background: #f1f5f9;
+    padding: 12px 16px;
+    border-radius: 12px;
     color: var(--text-dark);
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 0.9rem;
-    margin-bottom: 24px;
-    transition: background-color 0.2s;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
 }
-.back-to-list-btn:hover { background-color: #e2e8f0; }
 
+.dropdown-item:hover { background-color: var(--bg-light); }
+
+/* 아이콘 정렬 */
+.dropdown-item .tag-icon { 
+    margin-right: 12px; 
+    font-size: 1.1rem; 
+    width: 24px; 
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.dropdown-item .tag-name { flex-grow: 1; font-weight: 500; font-size: 0.95rem; }
+
+.dropdown-item .tag-count { 
+    font-size: 0.8rem; 
+    color: var(--text-gray); 
+    background-color: #f1f5f9; 
+    padding: 4px 10px; 
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+/* --- [5] 이후 모든 스타일은 정상 레이아웃 유지를 위해 복구 --- */
+.map-section, .detail-container, .content-wrapper { margin-top: var(--header-height); }
+.map-section { width: 100%; height: 500px; background-color: #e5e7eb; }
+#map { width: 100%; height: 100%; }
+.content-wrapper { max-width: 1400px; margin: 60px auto; padding: 0 24px; }
+.section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
+.section-title { font-size: 1.6rem; font-weight: 800; margin: 0; }
+.view-all { color: var(--primary); font-weight: 700; font-size: 0.9rem; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
+.card { background: var(--white); border-radius: 20px; overflow: hidden; border: 1px solid var(--border); display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+.card-img { width: 100%; height: 220px; background-size: cover; background-position: center; position: relative; }
+.card-badge { position: absolute; top: 15px; left: 15px; padding: 5px 12px; border-radius: 8px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(5px); }
+.card-body { padding: 24px; flex-grow: 1; }
+.card-body h4 { margin: 0 0 10px; font-size: 1.15rem; font-weight: 700; line-height: 1.4; }
+.card-meta { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-gray); margin-bottom: 20px; }
+.card-footer { padding: 18px 24px; background: #fcfcfc; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+.card-price { font-weight: 800; color: var(--primary); font-size: 1rem; }
+.detail-container, .list-container { max-width: 1000px; margin: calc(var(--header-height) + 60px) auto 80px; padding: 0 24px; }
+.back-to-list-btn { display: inline-flex; align-items: center; gap: 8px; background: #f1f5f9; color: var(--text-dark); padding: 10px 20px; border-radius: 10px; font-weight: 600; font-size: 0.9rem; margin-bottom: 24px; transition: background-color 0.2s; }
+.back-to-list-btn:hover { background-color: #e2e8f0; }
 .detail-header, .list-header { margin-bottom: 40px; }
 .detail-title, .list-title { font-size: 2.5rem; font-weight: 800; margin-bottom: 15px; }
 .detail-category { color: var(--primary); font-weight: 700; text-transform: uppercase; font-size: 0.9rem; display: block; }
@@ -300,8 +189,6 @@ button {
 .detail-content table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 25px 0; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
 .detail-content th { background: #f8fafc; padding: 15px; font-weight: 700; text-align: left; }
 .detail-content td { padding: 15px; border-bottom: 1px solid var(--border); }
-
-/* --- [8] 구글맵 정보창 --- */
 .gm-style-iw-c { padding: 0 !important; border-radius: 16px !important; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12) !important; }
 .gm-style-iw-d { overflow: hidden !important; }
 .info-window-content { padding: 20px; width: 280px; }
@@ -310,31 +197,160 @@ button {
 .iw-header .iw-address { font-size: 0.85rem; color: var(--text-gray); margin: 0 0 16px; }
 .iw-details-btn { display: block; width: 100%; padding: 12px; text-align: center; background-color: var(--primary); color: white; border-radius: 10px; font-weight: 600; transition: background-color 0.2s; }
 .iw-details-btn:hover { background-color: #1d4ed8; }
-
-/* --- [9] 푸터 --- */
-.main-footer { 
-    background: #0f172a; 
-    color: #94a3b8; 
-    padding: 60px 24px; 
-    text-align: center; 
-    font-size: 0.9rem;
-}
+.main-footer { background: #0f172a; color: #94a3b8; padding: 60px 24px; text-align: center; font-size: 0.9rem; }
 .footer-links { margin-bottom: 20px; display: flex; justify-content: center; gap: 30px; }
 .footer-links a { color: #cbd5e1; font-weight: 500; }
 .footer-links a:hover { color: white; }
 
-/* --- [10] 반응형 --- */
+/* --- [10] 반응형 (모바일 중앙 정렬 최적화) --- */
 @media (max-width: 1024px) {
+    /* 태블릿: 기존 로직 유지 (필요시 수정 가능) */
     .main-header { flex-wrap: wrap; height: auto; padding: 15px; }
-    .search-area { width: 100%; order: 3; margin: 10px 0 0; }
-    .tag-filter-panel { order: 2; flex-grow: 1; justify-content: flex-end; }
-    .map-section, .detail-container, .content-wrapper { margin-top: 130px; }
+    .search-area { width: 100%; order: 3; margin-top: 10px; max-width: none; }
+    .logo { order: 1; }
+    .filter-controls { order: 2; flex-grow: 1; justify-content: flex-end; }
+    .map-section, .detail-container, .content-wrapper { margin-top: 140px; }
 }
+
 @media (max-width: 768px) {
-    .main-header { gap: 10px; }
-    .logo-img { display: none; } /* 모바일에서 로고 숨김 */
-    .tag-filter-panel { flex-grow: 0; }
-    .search-area { max-width: 200px; }
-    .card-grid { grid-template-columns: 1fr; }
-    .info-grid { grid-template-columns: 1fr; }
+    /* [수정] 모바일 헤더: 세로 스택 & 중앙 정렬 구조로 변경 */
+    .main-header {
+        flex-direction: column; /* 세로로 배치 */
+        align-items: center;    /* 가로 중앙 정렬 */
+        justify-content: center;
+        padding: 20px 24px;     /* 패딩 조정 */
+        gap: 12px;              /* 요소 간 간격 */
+        height: auto;
+    }
+
+    /* 1. 로고 중앙 정렬 */
+    .logo {
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center; /* 로고 이미지 가운데로 */
+        margin-bottom: 5px;
+    }
+    .logo-img { 
+        height: 48px; /* 로고 크기 유지 */
+    }
+
+    /* 2. 필터 버튼 중앙 정렬 */
+    .filter-controls {
+        order: 2;
+        width: 100%;
+        justify-content: center; /* 버튼 가운데로 */
+        flex-grow: 0;
+    }
+
+    /* 3. 검색창 중앙 정렬 */
+    .search-area {
+        order: 3;
+        width: 100%;
+        margin-top: 0;
+        max-width: none;
+    }
+
+    /* 4. 헤더가 높아진 만큼 본문 상단 여백 확보 */
+    /* 로고+필터+검색창 높이를 고려해 약 200px 정도로 조정 */
+    .map-section, .detail-container, .content-wrapper {
+        margin-top: 210px; 
+    }
+
+    /* 기타 모바일 스타일 */
+    .detail-container, .list-container { padding-left: 16px; padding-right: 16px; }
+    .section-title { font-size: 1.4rem; text-align: center; } /* 제목도 중앙 정렬 */
+    .section-header { justify-content: center; flex-direction: column; gap: 10px; } /* 섹션 헤더도 중앙 정렬 */
+    .detail-title, .list-title { font-size: 2rem; text-align: center; }
+    .card-grid, .info-grid { grid-template-columns: 1fr; }
+}
+/* --- [11] 상세/리스트 페이지 전용 심플 헤더 스타일 --- */
+/* 모바일용 복잡한 설정(세로 배치 등)을 무시하고 강제로 중앙 정렬 */
+.main-header.simple-header {
+    display: flex !important;
+    flex-direction: row !important;     /* 가로 배치 강제 */
+    justify-content: center !important; /* 가로 중앙 정렬 강제 */
+    align-items: center !important;     /* 세로 중앙 정렬 강제 */
+    height: 80px !important;            /* 높이 고정 */
+    padding: 0 24px !important;         /* 패딩 초기화 */
+    gap: 0 !important;
+}
+
+/* 로고 컨테이너 설정 */
+.main-header.simple-header .logo {
+    width: auto !important;             /* 너비 자동 (100% 방지) */
+    margin: 0 !important;               /* 마진 제거 */
+    order: 0 !important;                /* 순서 초기화 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 본문 여백 조정 (심플 헤더일 때는 상단 여백을 줄임) */
+@media (max-width: 768px) {
+    /* 심플 헤더가 있는 페이지의 본문 상단 여백 재조정 */
+    /* (메인 페이지는 210px이지만, 여기는 헤더가 얇으므로 100px 정도면 충분) */
+    .simple-header ~ .content-wrapper,
+    .simple-header ~ .detail-container, 
+    .simple-header ~ .list-container {
+        margin-top: 100px !important;
+    }
+    
+    /* 심플 헤더 사용 시 wrapper(fixed-top-area) 바로 다음 형제 요소들에 적용하기 위해 
+       HTML 구조상 조금 까다로울 수 있으므로, 
+       main 태그에 직접 스타일을 주는 방식이 더 안전할 수 있습니다. 
+       (아래 HTML 수정에서 main 태그 스타일을 직접 조정합니다) */
+}
+
+/* [12] [신규] 지도 커스텀 마커 스타일 */
+.map-marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%; /* 원형 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+    border: 2px solid white; /* 흰색 테두리 */
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+}
+
+/* 마커 아래쪽 뾰족한 부분 (말풍선 꼬리 형태) */
+.map-marker::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid; /* 색상은 JS에서 상속받지 못하므로 아래에서 개별 지정하거나, currentColor 사용 가능 */
+}
+
+/* 대학 마커 (주황색) */
+.map-marker.marker-univ {
+    background-color: var(--accent);
+}
+.map-marker.marker-univ::after {
+    border-top-color: var(--accent);
+}
+
+/* 어학원 마커 (파란색) */
+.map-marker.marker-school {
+    background-color: var(--primary);
+}
+.map-marker.marker-school::after {
+    border-top-color: var(--primary);
+}
+
+/* 마우스 오버 효과 */
+.map-marker:hover {
+    transform: scale(1.1) translateY(-4px); /* 살짝 커지면서 위로 떠오름 */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
 }

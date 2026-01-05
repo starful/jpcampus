@@ -1,26 +1,19 @@
 {% extends "base.html" %}
 
-{# 상세 페이지 전용 심플 헤더 #}
-{% block header %}
-<div class="fixed-top-area" style="backdrop-filter: none; background: white;">
-    <header class="main-header" style="justify-content: center; height: 80px;">
-        <a href="/" class="logo"><img src="/static/img/logo.png" alt="JP Campus Logo" class="logo-img"></a>
-    </header>
-</div>
-{% endblock %}
-
+{# [수정] 헤더 숨김 처리 #}
+{% block header %}{% endblock %}
 
 {% block content %}
-<main class="detail-container" style="margin-top: 120px;">
+{# [수정] 상단 여백 축소 (40px) #}
+<main class="detail-container" style="margin-top: 40px;">
 
-    {# 뒤로가기 버튼: 가이드일 경우 /guide로, 나머지는 각 리스트로 이동 #}
+    {# 뒤로가기 버튼 #}
     <a href="{{ '/guide' if item_type == 'guide' else ('/universities' if item_type == 'university' else '/schools') }}" class="back-to-list-btn">
         <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
         <span>Back to List</span>
     </a>
 
     <div class="detail-header">
-        {# [FIX] item_type에 따라 다른 제목과 정보를 안전하게 표시 #}
         {% if item_type == 'guide' %}
             <span class="detail-category">{{ item.get('category', 'Guide') }}</span>
             <h1 class="detail-title">{{ item.get('title', 'Guide Detail') }}</h1>

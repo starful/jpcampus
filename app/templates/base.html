@@ -15,6 +15,7 @@
 <div class="fixed-top-area">
     <header class="main-header">
         <a href="/" class="logo"><img src="/static/img/logo.png" alt="JP Campus" class="logo-img"></a>
+        
         <div class="search-area">
             <div class="search-bar-wrapper">
                 <input type="text" id="univ-search-input" class="search-input" list="university-list" placeholder="Search universities...">
@@ -27,19 +28,35 @@
                 {% endif %}
             </datalist>
         </div>
-        <nav class="tag-filter-panel">
-            <button class="tag-filter-btn active" data-filter-key="all" data-tooltip="Show all schools">
-                <i class="fa-solid fa-layer-group"></i> <!-- 전체 보기 아이콘 변경 -->
-            </button>
-            {% if tags_with_counts %}
-            {# [수정] 새로운 필터 데이터를 사용하여 아이콘과 카운트 표시 #}
-            {% for tag in tags_with_counts %}
-            <button class="tag-filter-btn" data-filter-key="{{ tag.key }}" data-tooltip="{{ tag.description }}">
-                <span class="tag-icon">{{ tag.icon }}</span> <!-- 아이콘 표시 -->
-                <span class="tag-count">{{ tag.count }}</span>
-            </button>
-            {% endfor %}
-            {% endif %}
+
+        <nav class="filter-controls">
+            <!-- 통합된 드롭다운 필터 -->
+            <div class="filter-dropdown">
+                <!-- 초기 상태: All Schools가 선택된 상태로 표시 -->
+                <button class="tag-filter-btn dropdown-trigger active">
+                    <i class="fa-solid fa-layer-group"></i> <!-- 아이콘 -->
+                    <span class="filter-label" style="margin-left: 8px;">All Schools</span>
+                </button>
+
+                <div class="dropdown-menu">
+                    <!-- 1. [All] 항목을 메뉴 안으로 이동 -->
+                    <a href="#" class="dropdown-item" data-filter-key="all" data-icon='<i class="fa-solid fa-layer-group"></i>' data-name="All Schools">
+                        <span class="tag-icon"><i class="fa-solid fa-layer-group"></i></span>
+                        <span class="tag-name">Show All Schools</span>
+                    </a>
+                    
+                    <!-- 2. 나머지 태그 목록 -->
+                    {% if tags_with_counts %}
+                    {% for tag in tags_with_counts %}
+                        <a href="#" class="dropdown-item" data-filter-key="{{ tag.key }}" data-icon='{{ tag.icon }}' data-name="{{ tag.name }}">
+                            <span class="tag-icon">{{ tag.icon }}</span>
+                            <span class="tag-name">{{ tag.name }}</span>
+                            <span class="tag-count">{{ tag.count }}</span>
+                        </a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
         </nav>
     </header>
 </div>
