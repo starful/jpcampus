@@ -30,7 +30,7 @@ def append_history(name):
 def get_google_coordinates(address):
     if not address: return {"lat": 35.6812, "lng": 139.7671}
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
-    params = {"address": address, "key": GOOGLE_MAPS_API_KEY, "language": "ja"}
+    params = {"address": address, "key": GOOGLE_MAPS_API_KEY, "language": "en"} # 주소 검색도 영어 선호
     try:
         res = requests.get(base_url, params=params)
         data = res.json()
@@ -41,12 +41,36 @@ def get_google_coordinates(address):
     return {"lat": 35.6812, "lng": 139.7671}
 
 def get_university_info(name_ja, name_en):
-    print(f"🏫 AI Analysis (Deep): {name_ja}")
+    print(f"🏫 AI Analysis (Deep - English): {name_ja}")
+    
+    # [수정] 영어로 작성하도록 프롬프트 강력 지정
     prompt = f"""
     You are an expert consultant for international students planning to study in Japan.
-    Analyze the university "{name_ja}" ({name_en}) and write an in-depth, comprehensive guide in ENGLISH.
+    Analyze the university "{name_ja}" ({name_en}) and write an in-depth, comprehensive guide in **ENGLISH**.
+    
     The output must be in Markdown format, follow the structure below precisely, and be **between 7000 and 8000 characters**.
-    (Output JSON format with 'english_slug', 'basic_info', 'stats', 'tuition', 'faculties', 'features', 'description_ko')
+    
+    Required JSON Structure:
+    {{
+        "english_slug": "url-friendly-slug-in-english",
+        "basic_info": {{
+            "name_ja": "{name_ja}",
+            "name_en": "{name_en}",
+            "address": "Official address in English",
+            "capacity": null
+        }},
+        "stats": {{
+            "international_students": 123 (integer approx),
+            "acceptance_rate": "Estimated % string"
+        }},
+        "tuition": {{
+            "admission_fee": 123456 (integer yen),
+            "yearly_tuition": 123456 (integer yen)
+        }},
+        "faculties": ["List", "of", "faculties", "in", "English"],
+        "features": ["Key Feature 1", "Key Feature 2", "EJU Required", "English Program"],
+        "description": "## 🏫 University Overview\\nWrite a detailed introduction in English.\\n\\n## 🎓 Faculties & Departments\\nDescribe faculties in English.\\n\\n## 🌍 International Student Support\\nScholarships, dorms, support in English.\\n\\n## 💰 Tuition & Fees\\nFinancial details in English."
+    }}
     """
     for i in range(3):
         try:
@@ -62,22 +86,34 @@ def get_university_info(name_ja, name_en):
 def save_to_md(data):
     addr = data['basic_info'].get('address')
     coords = get_google_coordinates(addr)
+    
+    # 슬러그 생성 로직
     raw_slug = data.get('english_slug', data['basic_info']['name_en'].replace(" ", "-").lower())
     slug = f"univ_{raw_slug}" if not raw_slug.startswith("univ_") else raw_slug
+    
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
 
     frontmatter_data = {
-        "layout": "school", "id": slug, "title": data['basic_info']['name_ja'], "category": "university",
-        "tags": data.get('features', []), "thumbnail": "/static/img/pin-univ.png", "location": coords,
-        "basic_info": data['basic_info'], "stats": data['stats'], "tuition": data['tuition'],
-        "faculties": data.get('faculties', []), "features": data.get('features', [])
+        "layout": "school", 
+        "id": slug, 
+        "title": data['basic_info']['name_en'], # 제목도 영어로
+        "category": "university",
+        "tags": data.get('features', []), 
+        "thumbnail": "/static/img/pin-univ.png", 
+        "location": coords,
+        "basic_info": data['basic_info'], 
+        "stats": data['stats'], 
+        "tuition": data['tuition'],
+        "faculties": data.get('faculties', []), 
+        "features": data.get('features', [])
     }
 
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write("---\n")
         f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
         f.write("\n---\n\n")
-        f.write(data.get('description_ko', 'No content available.'))
+        # [수정] description 키 사용
+        f.write(data.get('description', 'No content available.'))
     return f"{slug}.md"
 
 def main():

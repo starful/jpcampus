@@ -10,40 +10,39 @@ import logging
 load_dotenv()
 CONTENT_DIR = "app/content"
 LOG_DIR = "logs"
-LIMIT = 15
+LIMIT = 5
 
 if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 logging.basicConfig(filename=os.path.join(LOG_DIR, "school_update.log"), level=logging.INFO, format='%(asctime)s - %(message)s', encoding='utf-8')
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-flash-latest')
+model = genai.GenerativeModel('gemini-2.0-flash') # 모델 버전 업데이트 권장
 
 def clean_json(text):
     text = text.replace("```json", "").replace("```", "").strip()
     start = text.find("{")
     end = text.rfind("}") + 1
     if start != -1 and end != -1: text = text[start:end]
-    text = re.sub(r'[\x00-\x09\x0b-\x1f\x7f]', '', text)
     return text
 
 def get_ai_enhancement(school_name, current_data):
-    print(f"✍️ Analyzing (Deep): {school_name}")
+    print(f"✍️ Analyzing (Deep - English): {school_name}")
     
-    # [수정됨] 프롬프트에 'name_en' 요구사항 추가
+    # [수정] 영어 출력 강제 프롬프트
     prompt = f"""
     You are an expert consultant for international students studying in Japan.
-    Analyze the Japanese language school '{school_name}' based on the provided data and write an in-depth, comprehensive guide in ENGLISH.
+    Analyze the Japanese language school '{school_name}' based on the provided data and write an in-depth, comprehensive guide in **ENGLISH**.
     The output must be in a single JSON format.
 
-    **The markdown content for 'description_ko' must be between 7000 and 8000 characters.**
+    **The markdown content for 'description' must be between 7000 and 8000 characters in ENGLISH.**
 
     ---
     ### REQUIRED JSON STRUCTURE ###
     {{
-        "english_slug": "A URL-friendly slug based on the English name.",
-        "name_en": "The official English name of the school. If none exists, provide a proper English translation.",
-        "features": ["An array of key features as strings."],
-        "description_ko": "## 🏫 School Overview & Philosophy\\n- Write 3-4 detailed paragraphs...\\n\\n## 📚 Courses, Curriculum & Teaching Style\\n- Create a Markdown table...\\n\\n## 🌍 Student Body & Campus Life\\n- Analyze nationality mix...\\n\\n## 🎓 University & Career Pathways\\n- Detail support systems...\\n\\n## 🏡 Accommodation & Living Support\\n- Describe dormitory options...\\n\\n## 💰 Tuition, Fees & Scholarships\\n- Create a detailed cost table...",
+        "english_slug": "url-friendly-slug-in-english",
+        "name_en": "The official English name of the school.",
+        "features": ["Feature 1 in English", "Feature 2 in English"],
+        "description": "## 🏫 School Overview & Philosophy\\n- Write 3-4 detailed paragraphs in English...\\n\\n## 📚 Courses, Curriculum & Teaching Style\\n- Details in English...\\n\\n## 🌍 Student Body & Campus Life\\n- Details in English...\\n\\n## 🎓 University & Career Pathways\\n- Details in English...\\n\\n## 🏡 Accommodation & Living Support\\n- Details in English...\\n\\n## 💰 Tuition, Fees & Scholarships\\n- Create a detailed cost table...",
         "stats": {{ "international_students": 123, "capacity": 456 }}
     }}
 
@@ -66,8 +65,8 @@ def main():
         print(f"❌ {CONTENT_DIR} folder not found.")
         return
 
-    # ID 형식 파일(B275.md 등)을 대상으로 함
-    target_files = [f for f in os.listdir(CONTENT_DIR) if re.match(r'^[A-Z0-9].*\.md$', f)]
+    # ID 형식 파일(B275.md 등) 또는 school_ 접두사가 없는 파일 대상
+    target_files = [f for f in os.listdir(CONTENT_DIR) if re.match(r'^[A-Z0-9].*\.md$', f) or (f.endswith('.md') and not f.startswith('school_') and not f.startswith('univ_') and not f.startswith('guide_'))]
     
     print(f"📂 Pending files for conversion: {len(target_files)}. Batch limit: {LIMIT}")
     logging.info(f"Start processing new files. Pending: {len(target_files)}")
@@ -92,7 +91,8 @@ def main():
 
             raw_slug = ai_result.get('english_slug', str(metadata['id'])).lower()
             new_slug = f"school_{raw_slug}" if not raw_slug.startswith("school_") else raw_slug
-            new_desc = ai_result.get('description_ko', post.content)
+            # [수정] description 키 사용
+            new_desc = ai_result.get('description', post.content)
             
             # 메타데이터 업데이트
             metadata['id'] = new_slug
@@ -101,10 +101,10 @@ def main():
             metadata['tags'] = metadata['features']
             metadata['thumbnail'] = "/static/img/pin-school.png" 
             
-            # [수정] basic_info에 name_en 추가
-            if 'basic_info' not in metadata:
-                metadata['basic_info'] = {}
+            if 'basic_info' not in metadata: metadata['basic_info'] = {}
             metadata['basic_info']['name_en'] = ai_result.get('name_en')
+            # 제목도 영어 이름 우선
+            metadata['title'] = ai_result.get('name_en') 
             
             if not metadata.get('stats'):
                 metadata['stats'] = ai_result.get('stats', {})

@@ -15,6 +15,7 @@ OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt")
 LIMIT = 10
 
+# 썸네일 설정은 기존과 동일
 THUMBNAILS = {
     "Cost": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
     "Budget": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
@@ -46,18 +47,28 @@ def get_thumbnail(category):
     return THUMBNAILS["default"]
 
 def generate_content(row):
-    print(f"🤖 Generating AI Content for: {row['title']}...")
+    print(f"🤖 Generating AI Content (English): {row['title']}...")
+    
+    # [수정] 영어 콘텐츠 생성 프롬프트
     prompt = f"""
     You are an expert author who writes comprehensive guides for international students preparing to study in Japan.
     Write a long-form, detailed blog post in **ENGLISH** based on the topic below.
     The article must be well-structured, informative, and easy to read.
+    
     **Total length must be between 7000 and 8000 characters.**
+    
     ---
-    Title: {row['title']}
+    Topic Title: {row['title']}
     Core Prompt: {row['prompt']}
     ---
-    Guidelines: Standard Markdown, 3-5 main sections, bullet points, at least two Markdown tables, friendly tone.
-    Generate ONLY the Markdown body content.
+    
+    Guidelines: 
+    - Use standard Markdown format.
+    - Create 3-5 main sections with clear headings (##).
+    - Use bullet points and lists where appropriate.
+    - Include at least two Markdown tables for comparisons or data.
+    - Maintain a friendly, encouraging, and professional tone in English.
+    - Generate ONLY the Markdown body content (do not include frontmatter).
     """
     try:
         response = model.generate_content(prompt)
@@ -94,9 +105,13 @@ def main():
         if content_body:
             thumbnail_url = get_thumbnail(row['category'])
             frontmatter_data = {
-                "layout": "guide", "id": slug, "title": row['title'],
-                "category": row['category'], "tags": [row['category']],
-                "description": row['description'], "thumbnail": thumbnail_url,
+                "layout": "guide", 
+                "id": slug, 
+                "title": row['title'], # CSV의 영문 제목 사용
+                "category": row['category'], 
+                "tags": [row['category']],
+                "description": row['description'], 
+                "thumbnail": thumbnail_url,
                 "date": time.strftime("%Y-%m-%d")
             }
             with open(filepath, 'w', encoding='utf-8') as f:
