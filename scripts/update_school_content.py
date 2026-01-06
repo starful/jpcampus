@@ -10,13 +10,13 @@ import logging
 load_dotenv()
 CONTENT_DIR = "app/content"
 LOG_DIR = "logs"
-LIMIT = 5
+LIMIT = 15
 
 if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 logging.basicConfig(filename=os.path.join(LOG_DIR, "school_update.log"), level=logging.INFO, format='%(asctime)s - %(message)s', encoding='utf-8')
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-2.0-flash') # 모델 버전 업데이트 권장
+model = genai.GenerativeModel('gemini-flash-latest') # 모델 버전 업데이트 권장
 
 def clean_json(text):
     text = text.replace("```json", "").replace("```", "").strip()

@@ -31,7 +31,7 @@ def setup_gemini():
     if not api_key:
         raise ValueError("GEMINI_API_KEY is missing in .env")
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel('gemini-2.0-flash')
+    return genai.GenerativeModel('gemini-flash-latest')
 
 # JSON/Markdown 정제 함수
 def clean_json_response(text):

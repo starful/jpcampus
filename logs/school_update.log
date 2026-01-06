@@ -1240,3 +1240,124 @@ violations {
 2026-01-05 21:47:21,282 - Success: C3.md -> school_kouchi-gakuen-second-affiliated-japanese-language-school.md
 2026-01-05 21:47:50,263 - Success: B2.md -> school_yell-gakuen-japanese-language-education-department.md
 2026-01-05 21:48:11,317 - Success: C2.md -> school_higashi-shinjuku-japanese-language-institute.md
+2026-01-06 18:14:09,389 - Start processing new files. Pending: 119
+2026-01-06 18:14:09,578 - AI/Network Error (日本学生支援機構大阪日本語教育センター): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 50.445175022s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2026-01-06 18:15:06,857 - Start processing new files. Pending: 119
+2026-01-06 18:15:07,020 - AI/Network Error (日本学生支援機構大阪日本語教育センター): 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+Please retry in 53.006201064s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 53
+}
+]
+2026-01-06 18:15:34,593 - Start processing new files. Pending: 119
+2026-01-06 18:15:58,508 - Success: A2.md -> school_japan-student-services-organization-osaka-japanese-education-centre.md
+2026-01-06 18:16:29,659 - Success: A5.md -> school_ujs-language-institute-roppongi-tokyo.md
+2026-01-06 18:17:00,613 - Success: B1.md -> school_toyo-language-school-tokyo.md
+2026-01-06 18:17:32,768 - Success: C1.md -> school_jsl-nihon-academy-tokyo-school.md
+2026-01-06 18:17:58,670 - Success: A096.md -> school_midream-japanese-language-school-shinjuku.md
+2026-01-06 18:18:14,356 - Start processing new files. Pending: 114
+2026-01-06 18:18:39,331 - Success: B542.md -> school_tokyo-sanritsu-gakuin-japanese-language-school-suginami.md
+2026-01-06 18:19:05,849 - Success: B793.md -> school_tokyo-ymca-japanese-language-school-expert-guide.md
+2026-01-06 18:19:41,070 - Success: B620.md -> school_tokuyama-college-of-comprehensive-business.md
+2026-01-06 18:24:01,207 - AI/Network Error (学校法人フジ学園専門学校ITカレッジ沖縄): Expecting value: line 1 column 1 (char 0)
+2026-01-06 18:24:28,479 - Success: B671.md -> school_kyoto-reigaku-international-academy-expert-guide.md
+2026-01-06 18:25:03,018 - Success: J028.md -> school_sakura-kotonoha-japanese-language-institute-osaka.md
+2026-01-06 18:25:33,226 - Success: B576.md -> school_nagoya-international-japanese-language-school.md
+2026-01-06 18:26:00,977 - Success: B645.md -> school_alice-gakuen-professional-training-college-kanazawa.md
+2026-01-06 18:26:30,982 - Success: K006.md -> school_shinsekai-japanese-language-school-shinjuku.md
+2026-01-06 18:27:01,176 - Success: B826.md -> school_osaka-frontier-japanese-language-school.md
+2026-01-06 18:27:30,553 - Success: B507.md -> school_kyoto-min-sai-japanese-language-school.md
+2026-01-06 18:27:57,608 - Success: B696.md -> school_nara-sogo-business-college-japanese-language-division.md
+2026-01-06 18:28:28,638 - Success: J008.md -> school_okazaki-japanese-language-school-aichi.md
+2026-01-06 18:28:58,911 - Success: B812.md -> school_fujisan-japanese-language-school-shizuoka.md
+2026-01-06 18:29:31,250 - Success: B600.md -> school_tokyo-nakano-japanese-language-institute.md
+2026-01-06 18:29:57,014 - Success: B422.md -> school_elite-japanese-language-school-shinjuku-tokyo.md
