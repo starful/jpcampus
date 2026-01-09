@@ -6,8 +6,7 @@ import frontmatter
 from datetime import datetime
 import re
 
-# [수정] 스크립트 파일 위치를 기준으로 프로젝트 루트 경로 계산
-# scripts/build_data.py -> 상위(scripts) -> 상위(root)
+# 스크립트 파일 위치를 기준으로 프로젝트 루트 경로 계산
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 절대 경로 설정
@@ -28,10 +27,15 @@ def main():
         print(f"❌ '{CONTENT_DIR}' 폴더가 없습니다.")
         return
 
-    for filename in os.listdir(CONTENT_DIR):
-        if not (filename.startswith('univ_') or filename.startswith('school_')):
-            continue
-            
+    # [수정] 파일 목록을 가져온 후, '수정된 시간(mtime)' 역순(최신순)으로 정렬
+    all_files = [f for f in os.listdir(CONTENT_DIR) if f.startswith('univ_') or f.startswith('school_')]
+    
+    # 여기서 최신순 정렬 (람다 함수를 이용해 파일의 수정 시간을 키로 사용)
+    all_files.sort(key=lambda x: os.path.getmtime(os.path.join(CONTENT_DIR, x)), reverse=True)
+
+    print(f"📂 총 {len(all_files)}개의 파일을 최신순으로 처리합니다.")
+
+    for filename in all_files:
         filepath = os.path.join(CONTENT_DIR, filename)
         
         try:
@@ -67,7 +71,7 @@ def main():
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(final_data, f, ensure_ascii=False)
     
-    print(f"🎉 빌드 완료! 총 {len(schools_list)}개 정제된 데이터 생성됨.")
+    print(f"🎉 빌드 완료! 총 {len(schools_list)}개 데이터가 최신순으로 정렬되었습니다.")
     print(f"📁 저장 경로: {OUTPUT_FILE}")
 
 if __name__ == "__main__":

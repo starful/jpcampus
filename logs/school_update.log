@@ -1377,3 +1377,20 @@ violations {
 2026-01-08 08:32:08,758 - Success: B610.md -> school_ashiya-kokusai-gakuin-osaka-school.md
 2026-01-08 08:32:37,667 - Success: B517.md -> school_ishikawa-gakuen-yokohama-design-college.md
 2026-01-08 08:33:02,107 - Success: B675.md -> school_hitachi-gakuin-mito-ibaraki.md
+2026-01-09 21:41:27,709 - Start processing new files. Pending: 84
+2026-01-09 21:41:53,776 - Success: K016.md -> school_tokyo-international-exchange-college-hachioji.md
+2026-01-09 21:42:24,746 - Success: K007.md -> school_kokusai-jinbun-foreign-language-academy.md
+2026-01-09 21:42:54,080 - Success: B827.md -> school_sanwa-foreign-language-academy-osaka.md
+2026-01-09 21:43:24,092 - Success: B724.md -> school_nagoya-kyoiku-gakuin-inuyama-aichi.md
+2026-01-09 21:43:56,244 - Success: B664.md -> school_senmon-gakko-sakura-kokusai-gengo-gakuin-shimonoseki.md
+2026-01-09 21:44:29,937 - Success: B813.md -> school_higashikawa-international-culture-welfare-college.md
+2026-01-09 21:44:58,504 - Success: B4.md -> school_okinawa-jcs-gakuin.md
+2026-01-09 21:45:29,429 - Success: A044.md -> school_intercult-institute-of-japanese-language.md
+2026-01-09 21:45:59,946 - Success: B1235.md -> school_shogeisha-language-academy-tokyo-art-prep.md
+2026-01-09 21:46:34,400 - Success: A312.md -> school_shizuoka-international-language-academy.md
+2026-01-09 21:47:03,524 - Success: 5048.md -> school_japan-international-polytechnic-college-japanese-language-department.md
+2026-01-09 21:47:30,060 - Success: C4.md -> school_kurume-seminar-vocational-school-fukuoka.md
+2026-01-09 21:47:58,937 - Success: B796.md -> school_hamamatsu-japanese-language-institute.md
+2026-01-09 21:48:43,275 - AI/Network Error (名校教育日本語学校): Extra data: line 15 column 1 (char 18389)
+2026-01-09 21:49:10,307 - Success: B516.md -> school_kokusai-technical-design-automotive-college-tochigi.md
+2026-01-09 21:49:43,283 - Success: B837.md -> school_ashiya-kokusai-gakuin-kobe-school.md
