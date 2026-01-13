@@ -8,3 +8,8 @@ preparation
 mobile-bank
 insurance
 region
+scholarship
+coe-denial
+packing-tech
+bank-comparison
+transport-ic
