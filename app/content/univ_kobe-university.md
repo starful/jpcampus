@@ -1,60 +1,70 @@
 ---
-basic_info:
-  address: 〒657-8501 兵庫県神戸市灘区六甲台町2-1
-  name_en: Kobe University
-  name_ja: 神戸大学
-  website: https://www.kobe-u.ac.jp/
-category: university
-faculties:
-- Faculty of Letters
-- Faculty of Human Development
-- Faculty of Law
-- Faculty of Economics
-- Faculty of Business Administration
-- Faculty of Science
-- Faculty of Medicine
-- Faculty of Engineering
-- Faculty of Agriculture
-- Faculty of Oceanology
-- Faculty of Intercultural Studies
-features:
-- SGU
-- English Program
-- Dormitory
-- Scholarship
-- Exchange Program
-id: univ_kobe-university
-layout: school
-location:
-  lat: 35.6812
-  lng: 139.7671
-stats:
-  acceptance_rate: 20%
-  international_students: 1500
-tags:
-- SGU
-- English Program
-- Dormitory
-- Scholarship
-- Exchange Program
-thumbnail: /static/img/pin-univ.png
-title: 神戸大学
-tuition:
-  admission_fee: 282000
-  yearly_tuition: 535800
+{
+  "basic_info": {
+    "address": "〒657-8501 2-1 Rokkodai-cho, Nada-ku, Kobe, Hyogo Prefecture",
+    "name_en": "Kobe University",
+    "name_ja": "神戸大学",
+    "website": "https://www.kobe-u.ac.jp/"
+  },
+  "category": "university",
+  "faculties": [
+    "Faculty of Letters",
+    "Faculty of Human Development",
+    "Faculty of Law",
+    "Faculty of Economics",
+    "Faculty of Business Administration",
+    "Faculty of Science",
+    "Faculty of Medicine",
+    "Faculty of Engineering",
+    "Faculty of Agriculture",
+    "Faculty of Oceanology",
+    "Faculty of Intercultural Studies"
+  ],
+  "features": [
+    "SGU",
+    "English Program",
+    "Dormitory",
+    "Scholarship",
+    "Exchange Program"
+  ],
+  "id": "univ_kobe-university",
+  "layout": "school",
+  "location": {
+    "lat": 35.6812,
+    "lng": 139.7671
+  },
+  "stats": {
+    "acceptance_rate": "20%",
+    "international_students": 1500
+  },
+  "tags": [
+    "SGU",
+    "English Program",
+    "Dormitory",
+    "Scholarship",
+    "Exchange Program"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Kobe University",
+  "tuition": {
+    "admission_fee": 282000,
+    "yearly_tuition": 535800
+  },
+  "translated": true
+}
 ---
 
-## 🏫 University Overview & Reputation
+## University Overview & Reputation
 
-Kobe University, or 神戸大学 (Kōbe Daigaku), is a prestigious national university situated in the vibrant port city of Kobe, Japan. Founded in 1902 as Kobe Higher Commercial School, it boasts a rich history and a stellar reputation, particularly in the fields of economics, business administration, and law. The university stands as a cornerstone of Japanese higher education, consistently ranking among the top national universities in the country, often appearing in the top 10 nationally. It's considered a leading research university and is also part of the select group of universities chosen for the "Top Global University Project" (SGU), further solidifying its commitment to internationalization.
+Kobe University, or 神戸大学 (Kōbe Daigaku), is a prestigious national university located in the vibrant port city of Kobe, Japan. Founded in 1902 as Kobe Higher Commercial School, it boasts a rich history and an excellent reputation, particularly in the fields of economics, business administration, and law. The university is a cornerstone of Japanese higher education, consistently ranking among the top national universities in the country, often appearing in the top 10 nationally. It is considered a leading research university and is part of the select group of universities chosen for the "Top Global University Project" (SGU), further solidifying its commitment to internationalization.
 
-As one of the original "National Seven Universities," Kobe University carries a significant weight of academic tradition and excellence. Its historical roots in commerce have shaped its strength in business-related disciplines, but it has expanded to encompass a wide range of academic fields, from the humanities and social sciences to natural sciences, medicine, and engineering. The university is highly regarded for its rigorous academic standards, its contribution to cutting-edge research, and the quality of its graduates, who are sought after by leading companies and organizations both domestically and internationally. Its alumni network is extensive and influential, contributing significantly to various sectors of Japanese society and beyond.
+As one of the original "National Seven Universities," Kobe University carries significant academic tradition and excellence. Its historical roots in commerce have shaped its strength in business-related disciplines, but it has expanded to encompass a wide range of academic fields, from the humanities and social sciences to natural sciences, medicine, and engineering. The university is highly regarded for its rigorous academic standards, its contribution to cutting-edge research, and the quality of its graduates, who are sought after by leading companies and organizations both domestically and internationally. Its alumni network is extensive and influential, contributing significantly to various sectors of Japanese society and beyond.
 
 Kobe University's academic philosophy emphasizes the development of well-rounded individuals with a global perspective. The university encourages students to engage in critical thinking, independent research, and collaborative learning. The university is dedicated to creating future leaders capable of addressing complex global challenges through its focus on international collaboration and innovation. Its commitment to fostering a diverse and inclusive learning environment makes it an attractive destination for international students seeking a high-quality education in Japan.
 
-The university's location in the cosmopolitan city of Kobe also contributes to its appeal. Kobe is known for its international atmosphere, its beautiful scenery, and its high quality of life. This creates a stimulating environment for students to learn, grow, and experience Japanese culture. Kobe University provides a comprehensive educational experience that prepares students for success in an increasingly globalized world.
+The university's location in the cosmopolitan city of Kobe also contributes to its appeal. Kobe is known for its international atmosphere, beautiful scenery, and high quality of life. This creates a stimulating environment for students to learn, grow, and experience Japanese culture. Kobe University provides a comprehensive educational experience that prepares students for success in an increasingly globalized world.
 
-## 🎓 Notable Faculties & Signature Programs
+## Notable Faculties & Signature Programs
 
 | Faculty                       | Key Departments                                                                                                                      | Notes                                                                                                                                      |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,19 +84,32 @@ One of Kobe University's most renowned programs is its **Faculty of Economics**.
 
 Another program of particular interest to international students is the **Global Master of Business Administration (Global MBA)** offered by the Graduate School of Business Administration. This program is taught entirely in English and is designed for students who want to develop their business leadership skills and advance their careers in a global environment. The program covers a wide range of business topics, including strategy, marketing, finance, operations, and human resources. It also includes opportunities for students to participate in case studies, simulations, and team projects. The Global MBA program at Kobe University provides a unique opportunity for students to learn from leading faculty members and network with other talented students from around the world. This program directly aligns with the university's SGU (Super Global University) initiative and aims to develop global business professionals.
 
-## 🌍 International Student Admissions & Life
+## International Student Admissions & Life
 
 The application process for international students at Kobe University typically involves several steps. Firstly, prospective students need to carefully review the admission requirements for their desired program, as these can vary depending on the faculty and degree level. Generally, applicants will need to submit academic transcripts, letters of recommendation, a statement of purpose, and standardized test scores.
 
-For undergraduate programs, many applicants will be required to take the **Examination for Japanese University Admission for International Students (EJU)**. This exam assesses Japanese language proficiency, as well as academic skills in subjects like mathematics and science. In addition to the EJU, applicants will also need to demonstrate English language proficiency through either the **TOEFL iBT** or **IELTS Academic** exam. Minimum score requirements vary, but a competitive score is generally expected. Graduate programs often require similar documentation, but may place greater emphasis on research experience and publications. Some programs may also conduct interviews, either in person or via video conferencing, to assess the applicant's suitability for the program.
+For undergraduate programs, many applicants will be required to take the **Examination for Japanese University Admission for International Students (EJU)**. This exam assesses Japanese language proficiency, as well as academic skills in subjects like mathematics and science. In addition to the EJU, applicants will also need to demonstrate English language proficiency through either the **TOEFL iBT** or **IELTS Academic** exam. Minimum score requirements vary, but a competitive score is generally expected. Graduate programs often require similar documentation but may place greater emphasis on research experience and publications. Some programs may also conduct interviews, either in person or via video conferencing, to assess the applicant's suitability for the program.
 
-Kobe University offers several degree programs that are taught entirely in English, catering to international students who may not yet have sufficient Japanese language proficiency. These programs are primarily offered at the graduate level and include the Global MBA, various programs in the Graduate School of International Cooperation Studies, and select programs in science and engineering. While specific program details should be verified on the university's website, the availability of these English-taught programs makes Kobe University a welcoming option for international students. In addition to these degree programs, many faculties offer individual courses in English, allowing international students to customize their academic experience.
+Kobe University offers several degree programs taught entirely in English, catering to international students who may not yet have sufficient Japanese language proficiency. These programs are primarily offered at the graduate level and include the Global MBA, various programs in the Graduate School of International Cooperation Studies, and select programs in science and engineering. While specific program details should be verified on the university's website, the availability of these English-taught programs makes Kobe University a welcoming option for international students. In addition to these degree programs, many faculties offer individual courses in English, allowing international students to customize their academic experience.
 
-Kobe University has a dedicated **International Student Center** that provides a wide range of support services for international students. This center offers assistance with visa applications, housing arrangements, academic advising, and personal counseling. The center also organizes social events and activities to help international students integrate into the university community and experience Japanese culture. Academic advisors are available to help students with course selection, research opportunities, and career planning. Counseling services are also available to provide emotional support and address any challenges that students may face while studying abroad. The university offers a comprehensive support system to ensure that international students have a positive and successful experience at Kobe University.
+Kobe University has a dedicated **International Student Center** that provides a wide range of support services for international students. This center offers assistance with:
 
-With approximately 1500 international students, Kobe University fosters a diverse and multicultural campus environment. There are numerous student clubs and organizations that cater to the interests of international students, including cultural exchange clubs, language clubs, and sports clubs. These clubs provide opportunities for students to connect with others who share their interests and to learn more about Japanese culture. The overall campus atmosphere is welcoming and supportive, with a strong emphasis on international collaboration and understanding.
+*   Visa applications
+*   Housing arrangements
+*   Academic advising
+*   Personal counseling
 
-## 💰 Tuition, Scholarships & Cost of Living
+The center also organizes social events and activities to help international students integrate into the university community and experience Japanese culture. Academic advisors are available to help students with course selection, research opportunities, and career planning. Counseling services are also available to provide emotional support and address any challenges students may face while studying abroad. The university offers a comprehensive support system to ensure that international students have a positive and successful experience at Kobe University.
+
+With approximately 1500 international students, Kobe University fosters a diverse and multicultural campus environment. There are numerous student clubs and organizations that cater to the interests of international students, including:
+
+*   Cultural exchange clubs
+*   Language clubs
+*   Sports clubs
+
+These clubs provide opportunities for students to connect with others who share their interests and to learn more about Japanese culture. The overall campus atmosphere is welcoming and supportive, with a strong emphasis on international collaboration and understanding.
+
+## Tuition, Scholarships & Cost of Living
 
 | Item                     | Amount (JPY) |
 |--------------------------|--------------|
@@ -109,7 +132,7 @@ The cost of living in Kobe is generally considered to be moderate compared to ot
 
 **Total Estimated Monthly Cost of Living:** 80,000 - 150,000 JPY. This is a rough estimate and may vary depending on your lifestyle and spending habits. It is essential to create a detailed budget and track your expenses to manage your finances effectively. Part-time work is an option for students with the appropriate visa, which can help to cover some living expenses.
 
-## 📍 Campus Location & Access
+## Campus Location & Access
 
 Kobe University's main campus, the **Rokkodai Campus**, is located on Mount Rokko, offering stunning views of the city of Kobe and the Seto Inland Sea. The campus is situated in a quiet and scenic residential area, providing a peaceful and conducive learning environment. The surrounding neighborhood is characterized by its mix of traditional Japanese homes and modern apartment buildings. It's a safe and friendly area with easy access to local shops, restaurants, and amenities. While primarily residential, Rokko is only a short bus or train ride from more bustling areas within Kobe.
 

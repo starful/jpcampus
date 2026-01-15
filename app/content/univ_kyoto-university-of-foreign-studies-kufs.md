@@ -41,37 +41,37 @@
     "Located in Japan's Cultural Capital (Kyoto)",
     "EJU Required (Standard International Entry)",
     "Bilingual Education Emphasis"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview
+## University Overview
 
-Kyoto University of Foreign Studies (KUFS), known in Japanese as Kyoto Gaikokugo Daigaku, stands as a distinguished private institution dedicated exclusively to the study of languages, intercultural communication, and international relations. Founded in 1947 and formally chartered in 1959, KUFS is strategically located in Kyoto, Japan’s historical and cultural heart, providing an unparalleled backdrop for students seeking to understand global dynamics through the lens of Japanese tradition and modernity. Unlike many large, multi-disciplinary universities, KUFS maintains a sharp, targeted focus, encapsulated by its educational philosophy: *Pax Mundi per Linguas* (World Peace Through Languages). This mission drives its intensive language programs and commitment to cultivating globally competent citizens equipped with high-level communicative skills and cross-cultural sensitivity.
+Kyoto University of Foreign Studies (KUFS), also known as Kyoto Gaikokugo Daigaku in Japanese, is a prestigious private institution exclusively focused on languages, intercultural communication, and international relations. Established in 1947 and officially chartered in 1959, KUFS enjoys a strategic location in Kyoto, the historical and cultural heart of Japan. This setting provides an exceptional environment for students seeking to understand global dynamics through the perspective of Japanese tradition and modernity. Unlike many large, multi-disciplinary universities, KUFS maintains a clear and focused approach, embodied in its educational philosophy: *Pax Mundi per Linguas* (World Peace Through Languages). This mission drives its intensive language programs and commitment to developing globally competent citizens with advanced communication skills and cross-cultural understanding.
 
-KUFS is organized primarily into two undergraduate schools: the long-established School of Foreign Studies and the newer, innovative Faculty of Global Engagement. The university is renowned not just for the breadth of languages offered—spanning English, Spanish, French, German, Portuguese, Chinese, Korean, Italian, Russian, and Japanese Studies—but also for the depth of cultural immersion provided. The campus environment is notably international, hosting hundreds of exchange and degree-seeking international students, fostering a truly multi-lingual atmosphere that benefits both domestic and foreign learners.
+KUFS is primarily organized into two undergraduate schools: the established School of Foreign Studies and the innovative Faculty of Global Engagement. The university is renowned for both the breadth of languages offered—including English, Spanish, French, German, Portuguese, Chinese, Korean, Italian, and Russian—and the depth of cultural immersion provided. The campus environment is notably international, hosting numerous exchange and degree-seeking international students, fostering a truly multilingual atmosphere that benefits both domestic and foreign learners.
 
-The institution places a particularly high emphasis on practical language application and mandatory or highly encouraged study abroad experiences, distinguishing it from universities where language study is treated purely academically. For international students, enrolling at KUFS offers the unique advantage of studying specialized foreign languages *in* Japan, alongside intensive Japanese language training tailored for academic success. The small class sizes in advanced language courses ensure highly personalized instruction, crucial for achieving true fluency. Furthermore, KUFS leverages its location to integrate traditional Japanese arts, history, and current affairs directly into the curriculum, making it an ideal destination for those who wish to combine deep cultural learning with professional linguistic competence. The overall character of KUFS is one of rigorous academic pursuit balanced with expansive global outlook, making it a cornerstone institution in foreign language education in West Japan. The university constantly updates its curriculum to reflect contemporary global needs, particularly in areas like translation technology, global governance, and media studies, ensuring graduates are prepared for the evolving demands of the 21st-century job market.
+The institution places a strong emphasis on practical language application and mandatory or highly encouraged study abroad experiences, setting it apart from universities where language study is purely academic. For international students, enrolling at KUFS offers the unique advantage of studying specialized foreign languages *in* Japan, along with intensive Japanese language training tailored for academic success. Small class sizes in advanced language courses ensure personalized instruction, essential for achieving true fluency. Furthermore, KUFS integrates traditional Japanese arts, history, and current affairs directly into the curriculum, making it an ideal destination for those who wish to combine deep cultural learning with professional linguistic competence. The overall atmosphere of KUFS is one of rigorous academic pursuit balanced with a broad global outlook, making it a key institution in foreign language education in Western Japan. The university constantly updates its curriculum to reflect contemporary global needs, particularly in areas like translation technology, global governance, and media studies, ensuring graduates are prepared for the evolving demands of the 21st-century job market.
 
+## Faculties & Departments
 
-## 🎓 Faculties & Departments
-
-KUFS offers specialized programs designed to develop professional fluency and cross-cultural expertise. The structure is streamlined, focusing resources primarily on language and international studies. These faculties are designed to provide a comprehensive four-year trajectory, leading from foundational language skills to specialized research and application.
+KUFS offers specialized programs designed to develop professional fluency and cross-cultural expertise. The structure is streamlined, focusing resources primarily on language and international studies. These faculties are designed to provide a comprehensive four-year path, leading from foundational language skills to specialized research and application.
 
 ### School of Foreign Studies (Gaikokugo Gakubu)
 
-This is the core foundation of KUFS, encompassing numerous linguistic specializations. Students typically major in one language while fulfilling core requirements in others. The rigor in this school is exceptionally high, often demanding near-native proficiency by graduation.
+This is the core foundation of KUFS, encompassing numerous linguistic specializations. Students typically major in one language while fulfilling core requirements in others. The standards in this school are exceptionally high, often demanding near-native proficiency by graduation.
 
 **Key Departments include:**
 
-1.  **Department of English Studies:** Focuses on developing advanced competence in English for academic, professional, and literary purposes. Specializations include linguistics, literature, education, and interpreting/translation. The curriculum is heavily focused on practical output, utilizing modern language labs and native-speaker faculty.
-2.  **Department of Spanish Studies:** Reflecting strong ties to Latin America and Spain, this department provides intensive training crucial for international business and diplomatic careers involving the Spanish-speaking world.
-3.  **Department of Chinese Studies & Korean Studies:** These departments address the increasing economic and cultural importance of East Asia, providing not only linguistic mastery but also deep contextual knowledge of modern Chinese and Korean societies.
-4.  **European Language Departments (French, German, Portuguese, Italian, Russian):** Each department offers specialized curriculum focusing on the literature, history, political systems, and contemporary culture pertinent to their respective regions. These programs often feature mandatory short-term or long-term study abroad requirements to ensure genuine cultural immersion.
+*   **Department of English Studies:** Focuses on developing advanced competence in English for academic, professional, and literary purposes. Specializations include linguistics, literature, education, and interpreting/translation. The curriculum is heavily focused on practical output, utilizing modern language labs and native-speaker faculty.
+*   **Department of Spanish Studies:** Reflecting strong ties to Latin America and Spain, this department provides intensive training crucial for international business and diplomatic careers involving the Spanish-speaking world.
+*   **Department of Chinese Studies & Korean Studies:** These departments address the increasing economic and cultural importance of East Asia, providing not only linguistic mastery but also deep contextual knowledge of modern Chinese and Korean societies.
+*   **European Language Departments (French, German, Portuguese, Italian, Russian):** Each department offers a specialized curriculum focusing on the literature, history, political systems, and contemporary culture pertinent to their respective regions. These programs often feature mandatory short-term or long-term study abroad requirements to ensure genuine cultural immersion.
 
 ### Faculty of Global Engagement (Kokusai Koryu Gakubu)
 
-Established to address complex contemporary global issues, this newer faculty emphasizes interdisciplinary learning, combining language skills with studies in international relations, governance, economics, and communication technologies. It aims to train students to be effective leaders in multinational corporations, NGOs, and governmental organizations.
+Established to address complex contemporary global issues, this faculty emphasizes interdisciplinary learning, combining language skills with studies in international relations, governance, economics, and communication technologies. It aims to train students to be effective leaders in multinational corporations, NGOs, and governmental organizations.
 
 **Key Programs:**
 
@@ -80,10 +80,9 @@ Established to address complex contemporary global issues, this newer faculty em
 
 ### Graduate School of Foreign Studies (Gaikokugo Gaku Kenkyuka)
 
-The graduate school offers specialized tracks at the Master’s and Doctoral levels, primarily in English Education, Linguistics, Translation/Interpretation Studies, and specialized area studies (e.g., European Studies, Asian Studies). International students with prior advanced academic backgrounds in these areas find the Master’s program to be rigorous preparation for careers in academia, research, or high-level professional interpretation.
+The graduate school offers specialized tracks at the Master’s and Doctoral levels, primarily in English Education, Linguistics, Translation/Interpretation Studies, and specialized area studies (e.g., European Studies, Asian Studies). International students with prior advanced academic backgrounds in these areas will find the Master’s program to be rigorous preparation for careers in academia, research, or high-level professional interpretation.
 
-
-## 🌍 International Student Support
+## International Student Support
 
 KUFS is highly supportive of its international student population, offering comprehensive services tailored to assist non-native Japanese speakers in navigating academic life and cultural adjustment in Kyoto.
 
@@ -112,10 +111,9 @@ For most continuing students, securing private accommodation in the Saiin or Uky
 *   **Global Career Support:** Dedicated staff assist international graduates in navigating the complex Japanese job market, offering workshops on resume writing (in Japanese and English), interview preparation, and connecting students with companies seeking bilingual and culturally aware candidates.
 *   **Counseling and Mental Health Services:** Confidential counseling services are available to help students deal with academic pressure, cultural shock, and personal issues, ensuring holistic support during their study abroad experience.
 
+## Tuition & Fees
 
-## 💰 Tuition & Fees
-
-Kyoto University of Foreign Studies, as a private institution specializing in language arts and humanities, maintains fees that are competitive within the specialized private university sector in Japan. International students should meticulously plan their budget to account for both academic costs and the cost of living in Kyoto.
+Kyoto University of Foreign Studies, as a private institution specializing in language arts and humanities, maintains fees that are competitive within the specialized private university sector in Japan. International students should carefully plan their budget to account for both academic costs and the cost of living in Kyoto.
 
 **Standard Annual Financial Breakdown (Estimate for Undergraduate Entry):**
 

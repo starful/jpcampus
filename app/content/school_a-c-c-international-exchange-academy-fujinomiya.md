@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "school_a-c-c-international-exchange-academy-fujinomiya",
-  "title": "A.C.C. International Exchange Academy (A.C.C. Kokusai Koryu Gakuen)",
+  "title": "A.C.C. International Exchange Academy",
   "category": "school",
   "tags": [
     "Compulsory or Highly Recommended Dormitory Placement",
@@ -21,7 +21,7 @@
     "name_ja": "Ａ.Ｃ.Ｃ.国際交流学園",
     "address": "静岡県富士宮市大宮町10-9",
     "capacity": 320,
-    "name_en": "A.C.C. International Exchange Academy (A.C.C. Kokusai Koryu Gakuen)"
+    "name_en": "A.C.C. International Exchange Academy"
   },
   "stats": {
     "international_students": 123,
@@ -69,15 +69,16 @@
       "total_fees": 394000
     }
   ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=282"
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=282",
+  "translated": true
 }
 ---
 
 ## 🏫 School Overview & Philosophy
 
-A.C.C. International Exchange Academy (Ａ.Ｃ.Ｃ.国際交流学園) stands as a prominent language institution strategically located in Fujinomiya City, Shizuoka Prefecture. Unlike schools situated in the bustling metropolises of Tokyo or Osaka, A.C.C. offers a distinctly different, yet profoundly enriching, study environment. Fujinomiya, nestled at the base of the iconic Mount Fuji, provides students with clean air, a tranquil atmosphere, and a significantly lower cost of living, facilitating deep immersion and focused academic concentration away from major urban distractions. The school's mission, reflected in the 'International Exchange' (国際交流) component of its name, is not merely to teach the Japanese language, but to foster global citizens equipped not only with linguistic proficiency but also a profound understanding of Japanese culture and academic requirements. With a capacity of 320 students, A.C.C. operates as a medium-sized institution, allowing for personalized attention and strong community bonds, crucial elements often lost in larger language schools. This regional advantage allows A.C.C. to prioritize intensive preparation for higher education while simultaneously ensuring students gain practical conversation skills necessary for daily life and cultural integration.
+A.C.C. International Exchange Academy is a prominent language institution strategically located in Fujinomiya City, Shizuoka Prefecture. Unlike schools situated in the bustling metropolises of Tokyo or Osaka, A.C.C. offers a distinctly different, yet profoundly enriching, study environment. Fujinomiya, nestled at the base of the iconic Mount Fuji, provides students with clean air, a tranquil atmosphere, and a significantly lower cost of living, facilitating deep immersion and focused academic concentration away from major urban distractions. The school's mission, reflected in the 'International Exchange' component of its name, is not merely to teach the Japanese language, but to foster global citizens equipped not only with linguistic proficiency but also a profound understanding of Japanese culture and academic requirements. With a capacity of 320 students, A.C.C. operates as a medium-sized institution, allowing for personalized attention and strong community bonds, crucial elements often lost in larger language schools. This regional advantage allows A.C.C. to prioritize intensive preparation for higher education while simultaneously ensuring students gain practical conversation skills necessary for daily life and cultural integration.
 
-The school’s philosophy hinges on three key pillars: rigorous academic progression (進学), comprehensive practical communication (会話), and specialized career pathway preparation (covering Business, Science, and Art). A.C.C. recognizes that the goals of its international student body are diverse; therefore, its curriculum is highly specialized to cater to specific university entrance requirements. The offering of mandatory or highly recommended dormitory options underscores a commitment to student welfare and immediate integration into a stable living environment, particularly beneficial for those transitioning to life in Japan for the first time. By fostering a nurturing yet academically challenging environment in a scenic regional setting, A.C.C. aims to provide a unique and successful pathway for students aspiring to matriculate into Japan's higher education system.
+The school’s philosophy hinges on three key pillars: rigorous academic progression, comprehensive practical communication, and specialized career pathway preparation (covering Business, Science, and Art). A.C.C. recognizes that the goals of its international student body are diverse; therefore, its curriculum is highly specialized to cater to specific university entrance requirements. The offering of mandatory or highly recommended dormitory options underscores a commitment to student welfare and immediate integration into a stable living environment, particularly beneficial for those transitioning to life in Japan for the first time. By fostering a nurturing yet academically challenging environment in a scenic regional setting, A.C.C. aims to provide a unique and successful pathway for students aspiring to matriculate into Japan's higher education system.
 
 The location itself serves as an invaluable educational asset. While Tokyo offers endless cosmopolitan opportunities, Fujinomiya encourages deeper engagement with local Japanese communities and traditional culture, providing richer conversational practice outside the classroom. The environment is conducive to serious academic work, which aligns perfectly with the school's strong focus on EJU (Examination for Japanese University Admission for International Students) preparation and specialized subject tracks. The combination of focused academic pressure and serene surroundings makes A.C.C. a compelling choice for highly motivated students who are dedicated to achieving N1 proficiency and securing placement in competitive Japanese universities.
 
@@ -89,13 +90,13 @@ A.C.C. International Exchange Academy structures its curriculum around intensity
 
 ### Specialized Progression Tracks
 
-**1. The 'Special Advanced Progression' (本科特別進学) Course:**
+**1. The 'Special Advanced Progression' Course:**
 
-These tracks (available in 1-year and 1-year 3-month durations, starting usually in April and January) are designed for students with high academic potential aiming for top-tier national or public universities requiring high EJU scores and excellent performance in subject interviews and exams. The curriculum goes beyond standard N1 preparation, incorporating advanced critical thinking and specialized academic vocabulary. Classes are intensive, often running for longer hours than standard language courses, focusing heavily on simulated university lectures, advanced essay writing (論述, *ronjutsu*), and subject preparation for EJU.
+These tracks (available in 1-year and 1-year 3-month durations, starting usually in April and January) are designed for students with high academic potential aiming for top-tier national or public universities requiring high EJU scores and excellent performance in subject interviews and exams. The curriculum goes beyond standard N1 preparation, incorporating advanced critical thinking and specialized academic vocabulary. Classes are intensive, often running for longer hours than standard language courses, focusing heavily on simulated university lectures, advanced essay writing (*ronjutsu*), and subject preparation for EJU.
 
-**2. EJU & Subject Preparation (EJU, 이과 - Science Focus):**
+**2. EJU & Subject Preparation (Science Focus):**
 
-A.C.C. places exceptional emphasis on EJU training, offering crucial specialized streams that are often difficult to find combined effectively in regional schools: the Humanities Track and the Science Track (理科). Students pursuing the Science Track receive supplementary instruction in advanced mathematics (Math Course 2), Physics, Chemistry, and Biology—all taught in Japanese. This is a crucial offering, as science subjects require specialized terminology mastery that general language courses cannot provide. Likewise, the Humanities Track focuses on General Studies (総合科目) and advanced preparation for essay writing and logical reasoning, necessary for humanities and social science fields. The goal is not just N1 attainment, but achieving the necessary EJU scores (typically 300+ out of 400 for Japanese) and subject mastery.
+A.C.C. places exceptional emphasis on EJU training, offering crucial specialized streams that are often difficult to find combined effectively in regional schools: the Humanities Track and the Science Track. Students pursuing the Science Track receive supplementary instruction in advanced mathematics (Math Course 2), Physics, Chemistry, and Biology—all taught in Japanese. This is a crucial offering, as science subjects require specialized terminology mastery that general language courses cannot provide. Likewise, the Humanities Track focuses on General Studies and advanced preparation for essay writing and logical reasoning, necessary for humanities and social science fields. The goal is not just N1 attainment, but achieving the necessary EJU scores (typically 300+ out of 400 for Japanese) and subject mastery.
 
 **3. Specialized Non-Academic Tracks (Business, Art & Design):**
 
@@ -103,7 +104,7 @@ The curriculum is robust enough to include pathways for vocational aspirations. 
 
 ### General and Communication Focus
 
-All courses, including the rigorous academic tracks, integrate a strong **Conversation (회화)** component. A.C.C. understands that daily communication and cultural integration are vital. Conversation classes utilize interactive methodologies, role-playing, and frequent engagement with local community resources in Fujinomiya to ensure fluency extends beyond the textbook. The school employs teaching methodologies that transition students rapidly from foundational grammar to functional application, focusing on active participation and real-world utility.
+All courses, including the rigorous academic tracks, integrate a strong **Conversation** component. A.C.C. understands that daily communication and cultural integration are vital. Conversation classes utilize interactive methodologies, role-playing, and frequent engagement with local community resources in Fujinomiya to ensure fluency extends beyond the textbook. The school employs teaching methodologies that transition students rapidly from foundational grammar to functional application, focusing on active participation and real-world utility.
 
 **Course Length Options:**
 
@@ -113,7 +114,7 @@ A.C.C. offers a comprehensive range of course lengths to match visa and academic
 *   **1 Year 9 Months (July start):** Ideal for students requiring intensive language and subject preparation before the fall university application cycle.
 *   **1 Year 6 Months (October start):** A compressed schedule for high-achieving students.
 *   **1 Year 3 Months (January start):** Highly intensive, suitable for students who already possess a foundational level of Japanese (e.g., N4/N3).
-*   **6-Month General Course (April, October start):** Designed for those seeking rapid conversation development, cultural experience, or short-term visa studies (단기).
+*   **6-Month General Course (April, October start):** Designed for those seeking rapid conversation development, cultural experience, or short-term visa studies.
 
 ## 🌍 Student Body & Campus Life
 
@@ -131,7 +132,7 @@ With mandatory or preferred dormitory usage, the school fosters a strong communa
 
 ## 🎓 University & Career Pathways
 
-A.C.C. International Exchange Academy is fundamentally a **progression (進学)**-focused school. Its entire curriculum is geared toward maximizing the chances of students entering competitive Japanese universities, ranging from vocational colleges to highly competitive national universities (國立大學).
+A.C.C. International Exchange Academy is fundamentally a **progression**-focused school. Its entire curriculum is geared toward maximizing the chances of students entering competitive Japanese universities, ranging from vocational colleges to highly competitive national universities.
 
 **EJU Success and University Entrance:**
 
@@ -150,7 +151,7 @@ The progression support system typically includes regular mock interviews, subje
 
 ## 🏡 Accommodation & Living Support
 
-The feature of having a dedicated **Dormitory (기숙사)** is one of A.C.C.’s most significant attractions, particularly for new international students.
+The feature of having a dedicated **Dormitory** is one of A.C.C.’s most significant attractions, particularly for new international students.
 
 **Dormitory Benefits and Structure:**
 

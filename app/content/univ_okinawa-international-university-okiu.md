@@ -41,29 +41,30 @@
     "Strong Regional Engagement and Community Research",
     "EJU Required",
     "Limited English Programs (Primarily Japanese Instruction)"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview
+## University Overview
 
-Okinawa International University (OKIU), affectionately known as Okidai (沖国大), stands as a pivotal institution of higher education in Japan's southernmost prefecture. Established in 1972, immediately following the reversion of Okinawa to Japanese administration, OKIU has developed a distinct academic mission centered on liberal arts, regional development, and peace studies. Its location in Ginowan City, in the central region of the main island, places it adjacent to significant international and geopolitical sites, notably the U.S. Marine Corps Air Station Futenma. This geographical context fundamentally shapes the university’s research priorities and academic dialogue.
+Okinawa International University (OKIU), affectionately known as Okidai (沖国大), is a key institution of higher education located in Okinawa, Japan's southernmost prefecture. Established in 1972, immediately after Okinawa's reversion to Japanese administration, OKIU has developed a distinct academic mission focused on liberal arts, regional development, and peace studies. Situated in Ginowan City, in the central part of Okinawa's main island, the university is close to important international and geopolitical sites, including the U.S. Marine Corps Air Station Futenma. This location significantly influences the university’s research priorities and academic discussions.
 
-### Core Philosophy and Identity
+## Core Philosophy and Identity
 
-OKIU is built on the philosophy of cultivating individuals capable of contributing to the development of a peaceful and prosperous local community while engaging actively in the broader international arena. The curriculum emphasizes critical thinking, comprehensive understanding of social structures, and hands-on engagement with Okinawan culture, history, and pressing contemporary issues, such as environmental sustainability, tourism economics, and the complexities of US-Japan Security arrangements.
+OKIU is founded on the principle of cultivating individuals who can contribute to the development of a peaceful and prosperous local community while actively participating in the international arena. The curriculum emphasizes critical thinking, a comprehensive understanding of social structures, and practical engagement with Okinawan culture, history, and pressing contemporary issues, such as environmental sustainability, tourism economics, and the complexities of US-Japan security arrangements.
 
-Unlike many large mainland universities, OKIU maintains a strong focus on undergraduate teaching and close interaction between students and faculty. Its research institutes—particularly the Institute of Okinawan History and Culture and the Okinawa Kokusai University Research Institute for Security and International Studies—serve as crucial centers for analyzing the unique challenges and opportunities facing the Ryukyu Islands.
+Unlike many large universities on mainland Japan, OKIU maintains a strong focus on undergraduate education and close interaction between students and faculty. Its research institutes, particularly the Institute of Okinawan History and Culture and the Okinawa Kokusai University Research Institute for Security and International Studies, serve as crucial centers for analyzing the unique challenges and opportunities facing the Ryukyu Islands.
 
-For international students, OKIU offers a deeply immersive experience not just into Japanese society, but specifically into the rich, distinct, and historically complex Okinawan culture. While the primary language of instruction is Japanese, the international focus within specific faculties, particularly International Studies, provides a stimulating environment for those interested in East Asian geopolitics, maritime security, and post-war history.
+For international students, OKIU offers a deeply immersive experience, not only into Japanese society but also into the rich, distinct, and historically complex Okinawan culture. While the primary language of instruction is Japanese, the international focus within specific faculties, especially International Studies, provides a stimulating environment for those interested in East Asian geopolitics, maritime security, and post-war history.
 
-### Unique Institutional Environment
+## Unique Institutional Environment
 
-The university's proximity to major US military installations has historically influenced its identity, leading to a strong commitment to peace research and community activism. This context provides unparalleled opportunities for field research and engaging with real-world international issues directly on campus or in the surrounding community. Students benefit from access to primary research materials regarding the US presence, land issues, and local governance, making it an excellent choice for those specializing in political science or international law.
+The university's proximity to major US military installations has historically shaped its identity, leading to a strong commitment to peace research and community activism. This context provides unparalleled opportunities for field research and engagement with real-world international issues directly on campus or in the surrounding community. Students have access to primary research materials regarding the US presence, land issues, and local governance, making it an excellent choice for those specializing in political science or international law.
 
-## 🎓 Faculties & Departments
+## Faculties & Departments
 
-Okinawa International University offers five core faculties, each structured to provide both specialized knowledge and a broad liberal arts foundation. The academic programs are meticulously designed to link theoretical knowledge with the practical demands of the regional and global job market.
+Okinawa International University offers five core faculties, each designed to provide both specialized knowledge and a broad liberal arts foundation. The academic programs are carefully designed to link theoretical knowledge with the practical demands of the regional and global job market.
 
 ### 1. Faculty of Law (法学部)
 
@@ -85,7 +86,7 @@ This faculty prepares students for careers in management, finance, accounting, a
 
 ### 4. Faculty of International Studies (国際文化学部)
 
-Perhaps the most compelling choice for international students, this faculty offers interdisciplinary approaches to understanding global issues, regional conflicts, and cultural exchange. Its proximity to diverse cultures (Japanese, Okinawan, American) makes it an exceptional environment for comparative study.
+This faculty is perhaps the most compelling choice for international students, offering interdisciplinary approaches to understanding global issues, regional conflicts, and cultural exchange. Its proximity to diverse cultures (Japanese, Okinawan, American) makes it an exceptional environment for comparative study.
 
 *   **Department of International Communication:** Focuses on global media, cross-cultural understanding, and the study of English and other foreign languages necessary for international careers.
 *   **Department of Regional Development:** Analyzes social systems, urban planning, and policy-making aimed at improving quality of life and sustainable growth in island communities.
@@ -97,9 +98,9 @@ The Faculty of Humanities is dedicated to preserving and analyzing the unique cu
 *   **Department of Human Culture:** Covers Okinawan history, local languages (Uchināguchi), anthropology, archaeology, and the development of regional arts and philosophy.
 *   **Department of Social Welfare:** Focuses on mental health, community social work, and policy related to supporting vulnerable populations within the unique socio-economic context of Okinawa.
 
-## 🌍 International Student Support
+## International Student Support
 
-OKIU is committed to creating an environment where international students can thrive, though applicants must be prepared for a predominantly Japanese academic environment.
+OKIU is committed to creating an environment where international students can thrive, although applicants must be prepared for a predominantly Japanese academic environment.
 
 ### 1. Admission Requirements and Language Proficiency
 
@@ -111,9 +112,9 @@ OKIU is committed to creating an environment where international students can th
 
 ### 2. Scholarships and Financial Aid
 
-OKIU is proactive in helping international students manage the costs of studying abroad, utilizing both institutional and external funding sources:
+OKIU proactively helps international students manage the costs of studying abroad, utilizing both institutional and external funding sources:
 
-*   **OKIU Special Scholarship for International Students:** This is the most common form of support, offering significant **tuition reduction (often 30% to 50%)** after the first year, contingent upon satisfactory academic performance. The initial year’s fee structure often requires full payment of the admission and tuition fees, with scholarships kicking in from the second year.
+*   **OKIU Special Scholarship for International Students:** This is the most common form of support, offering significant **tuition reduction (often 30% to 50%)** after the first year, contingent upon satisfactory academic performance. The initial year’s fee structure often requires full payment of the admission and tuition fees, with scholarships beginning in the second year.
 *   **JASSO Scholarship:** OKIU assists students in applying for the Japan Student Services Organization (JASSO) Honors Scholarship, which provides a monthly stipend (currently around ¥48,000) for high-achieving, financially needy international students.
 *   **Local Government and Private Foundation Scholarships:** Due to Okinawa's strong regional focus, many local non-profits and cultural organizations offer scholarships specifically targeting students studying Okinawan history, culture, and environmental science. The university’s International Exchange Office provides comprehensive lists and application assistance for these localized opportunities.
 
@@ -126,9 +127,9 @@ While OKIU does not operate large, dedicated international student dormitories, 
 
 **Cultural and Community Integration:** Studying in Okinawa provides a unique experience characterized by a relaxed pace of life, subtropical climate, and distinctive food culture. The university actively encourages participation in traditional Okinawan events, Eisa dancing groups, and community outreach programs, allowing international students to integrate beyond typical campus life.
 
-## 💰 Tuition & Fees
+## Tuition & Fees
 
-The financial commitment required to attend Okinawa International University is generally moderate when compared to premier private institutions in mainland Japan, but detailed financial planning is essential.
+The financial commitment required to attend Okinawa International University is generally moderate compared to premier private institutions on mainland Japan, but detailed financial planning is essential.
 
 ### Breakdown of Fees (Academic Year 2024 Estimates)
 

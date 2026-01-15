@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_shizuoka-university",
-  "title": "静岡大学",
+  "title": "Shizuoka University",
   "category": "university",
   "tags": [
     "EJU Required",
@@ -42,13 +42,14 @@
     "English Program",
     "Dormitory",
     "Scholarship"
-  ]
+  ],
+  "translated": true
 }
 ---
 
 ## 🏫 University Overview
 
-Shizuoka University, while not as widely recognized internationally as some of the top-tier universities in Tokyo or Kyoto, holds a significant position within Japan's national university system. Established in 1949 through the merger of several older institutions, including Shizuoka Normal School, Shizuoka Youth Normal School, Shizuoka Higher School, Hamamatsu College of Technology, and Shizuoka Prefectural College of Agriculture, it has a rich history deeply intertwined with the development of education and technology in the Shizuoka Prefecture. The university strives to be a center of academic excellence rooted in its local community, contributing to both regional and global advancement.
+Shizuoka University, while perhaps not as internationally renowned as some top-tier universities in Tokyo or Kyoto, occupies a significant position within Japan's national university system. Established in 1949 through the amalgamation of several older institutions, including Shizuoka Normal School, Shizuoka Youth Normal School, Shizuoka Higher School, Hamamatsu College of Technology, and Shizuoka Prefectural College of Agriculture, it boasts a rich history deeply interwoven with the development of education and technology in Shizuoka Prefecture. The university aspires to be a center of academic excellence rooted in its local community, contributing to both regional and global advancement.
 
 Shizuoka University is a national university, meaning it is funded and operated by the Japanese government. This distinguishes it from private universities, which often have higher tuition fees. National universities are generally considered to offer a high standard of education at a more affordable cost. Shizuoka University is known for its strong programs in engineering, informatics, and agriculture, reflecting the key industries and characteristics of the Shizuoka region. It is consistently ranked among the top 50 national universities in Japan, and its research output, particularly in areas like optics and tea science, is well-regarded.
 
@@ -56,7 +57,7 @@ Beyond academics, Shizuoka University emphasizes fostering a diverse and inclusi
 
 ## 🎓 Faculties & Signature Programs
 
-**Faculty Breakdown Table:**
+**Faculty Breakdown:**
 
 | Faculty | Key Departments | Notes |
 |---|---|---|
@@ -93,7 +94,7 @@ It's important to note that even if a degree program is not entirely taught in E
 
 ## 💰 Tuition, Scholarships & Cost of Living
 
-**Detailed Cost Table:**
+**Detailed Cost Breakdown:**
 
 | Item | Amount (JPY) |
 |---|---| 
@@ -127,7 +128,7 @@ Total: Approximately 85,000 - 155,000 JPY per month. This is a rough estimate, a
 
 **Main Campus Vibe:** Shizuoka University's main campus is located in Shizuoka City, the capital of Shizuoka Prefecture. The campus is situated in a relatively quiet residential area, providing a peaceful and conducive environment for studying. While not in the heart of a bustling city center, the campus is still easily accessible to shops, restaurants, and other amenities. The surrounding neighborhood has a mix of residential buildings, small businesses, and local shops, creating a friendly and community-oriented atmosphere. The campus itself is spacious and green, with plenty of trees and open spaces, providing a pleasant environment for students to relax and socialize.
 
-**Access Table:**
+**Access Information:**
 
 | From | Route | Time |
 |---|---|---|

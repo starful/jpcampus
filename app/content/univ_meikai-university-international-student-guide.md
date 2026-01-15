@@ -45,21 +45,25 @@
     "EJU Required for standard international admissions (Japanese proficiency essential)",
     "Specialized Dental programs with high national reputation",
     "Active International Exchange Programs"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview
+## University Overview
 
-Meikai University (明海大学) is a dynamic private institution established in 1970, originally founded as the Josai Dental University. While its origins lie in highly specialized professional education, Meikai has expanded significantly into the humanities, social sciences, and hospitality sectors, focusing on cultivating students with a strong international perspective and practical skills essential for the globalized world. The university operates on two primary campuses: the main Urayasu Campus in Chiba Prefecture, which is a modern hub for the humanities, social sciences, and international studies; and the Sakado Campus in Saitama Prefecture, which houses the prestigious Faculty of Dentistry.
+Meikai University (明海大学) is a dynamic private institution established in 1970, initially founded as Josai Dental University. While its origins are in specialized professional education, Meikai has expanded significantly into the humanities, social sciences, and hospitality sectors. The university focuses on cultivating students with a strong international perspective and practical skills essential for the globalized world. It operates on two primary campuses:
 
-Meikai University’s academic philosophy centers on ‘Self-Discovery’ and ‘Practical Learning.’ It aims to nurture individuals capable of thriving in diverse cultural environments. The Urayasu Campus, located near Tokyo Disney Resort and adjacent to the metropolitan areas of Tokyo, provides an excellent environment for students studying business, tourism, economics, and foreign languages, offering ample opportunities for fieldwork, internships, and cultural engagement. The proximity to global business centers and major tourism hubs gives students in the Faculties of Hospitality and Tourism and Real Estate Sciences a distinct advantage in accessing relevant industry placements and networking opportunities. Furthermore, Meikai University places a high emphasis on proficiency in foreign languages, ensuring that graduates are not only experts in their field but also effective communicators on the international stage.
+*   **Urayasu Campus (Chiba Prefecture):** This modern hub houses the humanities, social sciences, and international studies.
+*   **Sakado Campus (Saitama Prefecture):** This campus is home to the prestigious Faculty of Dentistry.
 
-For international applicants, Meikai primarily requires a high level of Japanese proficiency, demonstrated through the Examination for Japanese University Admission for International Students (EJU) and often an internal Japanese language interview. While the institution does not offer extensive English-Taught Programs (ETP) at the undergraduate level, its core mission is centered on facilitating deep integration into Japanese academic and professional life, making it an ideal choice for students committed to mastering the Japanese language and culture.
+Meikai University’s academic philosophy centers on ‘Self-Discovery’ and ‘Practical Learning.’ It aims to nurture individuals capable of thriving in diverse cultural environments. The Urayasu Campus, located near Tokyo Disney Resort and adjacent to Tokyo's metropolitan areas, provides an excellent environment for students studying business, tourism, economics, and foreign languages. It offers ample opportunities for fieldwork, internships, and cultural engagement. The proximity to global business centers and major tourism hubs gives students in the Faculties of Hospitality and Tourism and Real Estate Sciences a distinct advantage in accessing relevant industry placements and networking opportunities. Furthermore, Meikai University places a high emphasis on proficiency in foreign languages, ensuring that graduates are not only experts in their field but also effective communicators on the international stage.
+
+For international applicants, Meikai primarily requires a high level of Japanese proficiency, demonstrated through the Examination for Japanese University Admission for International Students (EJU) and often a Japanese language interview. While the institution does not offer extensive English-Taught Programs (ETP) at the undergraduate level, its core mission is centered on facilitating deep integration into Japanese academic and professional life, making it an ideal choice for students committed to mastering the Japanese language and culture.
 
 Meikai University actively pursues research and education that contributes to societal development, particularly through its unique Faculty of Real Estate Sciences—a pioneering program in Japan—and its long-standing reputation in oral healthcare education. The university’s strong institutional commitment to fostering a diverse and inclusive environment is reflected in its active international student body and numerous exchange partnerships worldwide.
 
-## 🎓 Faculties & Departments
+## Faculties & Departments
 
 Meikai University offers a structured curriculum across five distinct faculties, each designed to provide both specialized knowledge and practical application skills:
 
@@ -83,7 +87,7 @@ Unique among Japanese universities, Meikai’s Faculty of Real Estate Sciences o
 
 Leveraging its location near world-class leisure and entertainment destinations, this faculty is dedicated to training high-quality professionals for the booming Japanese tourism sector. The curriculum covers management skills, service quality, destination marketing, and tourism policy. Practical learning is a cornerstone, with extensive field trips, guest lectures from industry leaders, and required internships in hotels, airlines, and travel agencies. The goal is to produce graduates who can manage international resorts and contribute effectively to Japan’s efforts to attract global visitors, requiring high levels of interpersonal communication and language skills.
 
-## 🌍 International Student Support
+## International Student Support
 
 Meikai University is dedicated to supporting its diverse international student community, recognizing the unique challenges faced when adapting to a new academic and social environment in Japan. Support services span academic guidance, financial aid, and daily life assistance.
 
@@ -103,7 +107,7 @@ While Meikai University has limited dedicated dormitory facilities for the gener
 
 Meikai University's Career Support Center provides focused assistance to international students seeking employment in Japan after graduation. Services include specialized workshops on Japanese job-hunting practices (shukatsu), resume and entry sheet preparation (ES), interview training, and guidance on visa requirements for post-graduate employment. The strong industry connections of the Faculties of Real Estate and Hospitality are frequently utilized to organize job fairs and networking events specifically targeting global roles and companies seeking bilingual talent.
 
-## 💰 Tuition & Fees
+## Tuition & Fees
 
 The tuition structure at Meikai University is standard for a private Japanese institution, but it varies significantly based on the chosen faculty, with Dentistry commanding substantially higher fees due to the intensive lab work, clinical training, and material costs.
 

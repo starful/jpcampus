@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_kyushu-sangyo-university-ksu",
-  "title": "九州産業大学",
+  "title": "Kyushu Sangyo University",
   "category": "university",
   "tags": [
     "Regional Private Leader",
@@ -45,23 +45,24 @@
     "High Job Placement Rate in Kyushu",
     "Significant Tuition Waivers Available",
     "Design and Engineering Focus"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview & Reputation
+## University Overview & Reputation
 
-As a prominent private comprehensive university in Western Japan, Kyushu Sangyo University (KSU) holds a pivotal role in higher education within the Kyushu region, particularly in the vibrant city of Fukuoka. Established in 1960, KSU was founded on the principle of developing practical, industry-ready professionals, emphasizing a strong connection between academic learning and real-world application. While it may not share the global recognition of Tokyo's elite private institutions like Keio or Waseda, KSU is consistently ranked among the leading regional private universities, often grouped with other strong institutions in the area like Fukuoka University, cementing its reputation as a major regional educational powerhouse focusing heavily on vocational excellence and local economic contribution.
+Kyushu Sangyo University (KSU) is a leading private comprehensive university in Western Japan, playing a vital role in higher education within the Kyushu region, particularly in Fukuoka. Established in 1960, KSU was founded on the principle of developing practical, industry-ready professionals, emphasizing a strong connection between academic learning and real-world application. While it may not have the same global recognition as elite private institutions in Tokyo like Keio or Waseda, KSU is consistently ranked among the top regional private universities, often alongside other strong institutions in the area like Fukuoka University. This solidifies its reputation as a major regional educational powerhouse with a strong focus on vocational excellence and local economic contribution.
 
-The university's foundational philosophy centers on ‘Shushoku-ryoku’ (employment strength), reflected in its historically high job placement rates, especially within companies based in Kyushu and Western Japan. This strong career focus attracts students looking for practical skills in fields like Art, Design, and Engineering. KSU's academic reputation is particularly strong in professional fields where its output directly feeds into local industries, such as architecture, media production, and regional business management. Unlike research-heavy national universities, KSU positions itself as an institution dedicated to teaching excellence and fostering immediate career success, making it highly respected among employers in the region.
+The university's core philosophy centers on ‘Shushoku-ryoku’ (employment strength), which is reflected in its historically high job placement rates, especially within companies based in Kyushu and Western Japan. This strong career focus attracts students seeking practical skills in fields such as Art, Design, and Engineering. KSU's academic reputation is particularly strong in professional fields where its output directly supports local industries, such as architecture, media production, and regional business management. Unlike research-intensive national universities, KSU positions itself as an institution dedicated to teaching excellence and fostering immediate career success, making it highly respected among employers in the region.
 
-KSU is classified as a large, comprehensive private university (私立大学, Shiritsu Daigaku). Its academic breadth, covering everything from the fine arts and humanities to advanced engineering and information sciences, distinguishes it as a key institution shaping the future workforce of the Fukuoka economic sphere. The university fosters an inclusive and dynamic learning environment, actively participating in international exchange programs, particularly across Asia, thereby enriching the educational experience and preparing students for the global marketplace while retaining its strong local character and commitment to regional development.
+KSU is classified as a large, comprehensive private university (私立大学, Shiritsu Daigaku). Its broad academic scope, covering everything from fine arts and humanities to advanced engineering and information sciences, distinguishes it as a key institution shaping the future workforce of the Fukuoka economic sphere. The university fosters an inclusive and dynamic learning environment, actively participating in international exchange programs, particularly across Asia. This enriches the educational experience and prepares students for the global marketplace, while retaining its strong local character and commitment to regional development.
 
 ---
 
-## 🎓 Faculties & Signature Programs
+## Faculties & Signature Programs
 
-Kyushu Sangyo University offers a broad spectrum of academic disciplines spread across multiple specialized faculties, ensuring students can find robust programs catering to diverse career aspirations.
+Kyushu Sangyo University offers a wide range of academic disciplines across multiple specialized faculties, ensuring students can find programs that cater to diverse career aspirations.
 
 | Faculty | Key Departments | Notes |
 | :--- | :--- | :--- |
@@ -77,7 +78,7 @@ Kyushu Sangyo University offers a broad spectrum of academic disciplines spread 
 
 **1. The Faculty of Art and Design (芸術学部)**
 
-Kyushu Sangyo University's Faculty of Art and Design is arguably its most prestigious and nationally recognized division. Unlike many other Japanese universities that treat art as a separate, niche field, KSU integrates design education deeply with industrial and commercial application. The program is renowned for its comprehensive approach, spanning traditional fine arts to cutting-edge digital media and industrial design. Specific departments, such as Industrial Design and Environmental Design (Architecture), maintain exceptionally strong ties with regional manufacturing and construction companies, meaning student projects often involve direct collaboration with industry partners. International students find this faculty particularly appealing due to the practical, portfolio-driven nature of the curriculum, which transcends language barriers. Graduates frequently secure high-profile positions in advertising, product development, and architectural firms across Japan.
+Kyushu Sangyo University's Faculty of Art and Design is arguably its most prestigious and nationally recognized division. Unlike many other Japanese universities that treat art as a separate, niche field, KSU deeply integrates design education with industrial and commercial applications. The program is renowned for its comprehensive approach, spanning traditional fine arts to cutting-edge digital media and industrial design. Specific departments, such as Industrial Design and Environmental Design (Architecture), maintain exceptionally strong ties with regional manufacturing and construction companies, meaning student projects often involve direct collaboration with industry partners. International students find this faculty particularly appealing due to the practical, portfolio-driven nature of the curriculum, which transcends language barriers. Graduates frequently secure high-profile positions in advertising, product development, and architectural firms across Japan.
 
 **2. The Department of Civil Engineering (Faculty of Engineering)**
 
@@ -89,31 +90,34 @@ The Faculty of International Studies is designed explicitly to cultivate global 
 
 ---
 
-## 🌍 International Student Admissions & Life
+## International Student Admissions & Life
 
 ### Admissions Process
 
 The admissions process for international students (私費外国人留学生, Shihitsu Gaikokujin Ryugakusei) at Kyushu Sangyo University typically involves a structured, multi-stage evaluation designed to assess both academic capability and Japanese language proficiency.
 
 **1. Japanese Proficiency Requirement (EJU):** Most undergraduate faculties require applicants to submit scores from the Examination for Japanese University Admission for International Students (EJU). Specific subject requirements vary by faculty:
+
 *   *Humanities/Business:* Japanese Language, Japan and the World, and Mathematics (Course 1).
 *   *Engineering/Science:* Japanese Language, Science (Physics/Chemistry/Biology), and Mathematics (Course 2).
-A minimum EJU score, often benchmarked around 250+ for the Japanese language component, is usually necessary, though highly competitive faculties like Art and Design may prioritize the portfolio/interview over marginal differences in EJU score.
 
-**2. English Proficiency:** While high Japanese proficiency is standard, applicants must also demonstrate basic English competency. Scores from TOEFL iBT or IELTS Academic are recommended, especially for those applying to international tracks or aiming to bolster their overall application, although they are not always mandatory outside of specific English-taught programs.
+A minimum EJU score, often benchmarked around 250+ for the Japanese language component, is usually necessary. However, highly competitive faculties like Art and Design may prioritize the portfolio/interview over minor differences in the EJU score.
 
-**3. Secondary Evaluation:** KSU requires applicants to sit for internal examinations and/or participate in interviews. The interview is critical—it assesses motivation, career goals, and the ability to handle university-level study in Japanese. Technical departments often include written exams in relevant fields (e.g., Mathematics or Physics).
+**2. English Proficiency:** While strong Japanese proficiency is standard, applicants must also demonstrate basic English competency. Scores from TOEFL iBT or IELTS Academic are recommended, especially for those applying to international tracks or aiming to strengthen their overall application. However, they are not always mandatory outside of specific English-taught programs.
+
+**3. Secondary Evaluation:** KSU requires applicants to sit for internal examinations and/or participate in interviews. The interview is critical – it assesses motivation, career goals, and the ability to handle university-level study in Japanese. Technical departments often include written exams in relevant fields (e.g., Mathematics or Physics).
 
 ### English-Taught Programs
 
-While KSU is predominantly a Japanese-medium instruction institution, specific departments and tracks offer substantial English instruction or fully English-taught programs to international and domestic students focusing on global engagement.
+While KSU is primarily a Japanese-medium instruction institution, specific departments and tracks offer substantial English instruction or fully English-taught programs to international and domestic students focusing on global engagement.
 
-1.  **Faculty of International Studies – Global Business Program:** While not a 100% English degree, this program provides a significant portion of its core curriculum (specialized business, management, and international finance courses) delivered in English, aiming to make graduates immediately competitive in multinational corporations.
-2.  **Short-term Exchange/Study Abroad:** KSU offers numerous short-term programs (e.g., one semester to one year) in collaboration with its partner institutions where all coursework is conducted in English, focusing on Japanese culture, regional studies, or business fundamentals in Asia. *Prospective students should confirm the current availability of full English-track undergraduate degrees directly with the International Office, as these are often specialized tracks rather than the entire standard curriculum.*
+1.  **Faculty of International Studies – Global Business Program:** While not a 100% English degree, this program delivers a significant portion of its core curriculum (specialized business, management, and international finance courses) in English, aiming to make graduates immediately competitive in multinational corporations.
+2.  **Short-term Exchange/Study Abroad:** KSU offers numerous short-term programs (e.g., one semester to one year) in collaboration with its partner institutions where all coursework is conducted in English, focusing on Japanese culture, regional studies, or business fundamentals in Asia.
+    *Prospective students should confirm the current availability of full English-track undergraduate degrees directly with the International Office, as these are often specialized tracks rather than the entire standard curriculum.*
 
 ### Student Support
 
-KSU provides robust support tailored to the unique needs of international students. The **International Center** acts as the central hub, offering comprehensive services including initial enrollment guidance, visa renewal assistance, and housing referrals (especially for the subsidized international student dormitory).
+KSU provides comprehensive support tailored to the unique needs of international students. The **International Center** acts as the central hub, offering services including initial enrollment guidance, visa renewal assistance, and housing referrals (especially for the subsidized international student dormitory).
 
 Academically, the center provides Japanese language support classes tailored for academic purposes (reading complex texts, presentation skills) and connects students with faculty advisors for major-specific guidance. Furthermore, KSU is proactive in career placement support, offering specialized job-hunting workshops (就職活動, Shūshoku Katsudō) focused on navigating the Japanese employment market, which is particularly beneficial given the university's strong industry connections in Kyushu.
 
@@ -125,7 +129,7 @@ Campus life is vibrant, with over 100 officially recognized student clubs spanni
 
 ---
 
-## 💰 Tuition, Scholarships & Cost of Living
+## Tuition, Scholarships & Cost of Living
 
 ### Detailed Cost Table (First Year Estimate)
 
@@ -163,11 +167,11 @@ Fukuoka City is consistently ranked as one of the most affordable major metropol
 
 ---
 
-## 📍 Campus Location & Access
+## Campus Location & Access
 
 ### Main Campus Vibe
 
-Kyushu Sangyo University operates from a single, expansive main campus located in the **Higashi Ward (東区)** of Fukuoka City. The area surrounding the campus, especially near the closest train station (Kyusandai-mae), has a definitive student-town atmosphere. It is slightly removed from the immediate hustle of the city center (Hakata and Tenjin), offering a quiet, focused environment conducive to study, yet maintaining excellent access to urban amenities.
+Kyushu Sangyo University operates from a single, expansive main campus located in the **Higashi Ward (東区)** of Fukuoka City. The area surrounding the campus, especially near the closest train station (Kyusandai-mae), has a definite student-town atmosphere. It is slightly removed from the immediate hustle of the city center (Hakata and Tenjin), offering a quiet, focused environment conducive to study, yet maintaining excellent access to urban amenities.
 
 The campus itself is modern and comprehensive, featuring specialized design studios, large engineering labs, a central library, and extensive sports facilities. It is located near the Hakata Bay coastline, offering scenic views and a refreshing coastal breeze, making it a highly attractive setting compared to dense inner-city campuses. The neighborhood is filled with affordable eateries, bookstores, and student services, creating a self-contained academic ecosystem.
 

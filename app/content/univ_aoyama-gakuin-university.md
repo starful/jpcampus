@@ -1,57 +1,67 @@
 ---
-basic_info:
-  address: 〒150-8366 東京都渋谷区渋谷4-4-25
-  name_en: Aoyama Gakuin University
-  name_ja: 青山学院大学
-  website: https://www.aoyama.ac.jp/
-category: university
-faculties:
-- School of Letters
-- School of Education
-- School of Economics
-- School of Law
-- School of Business
-- School of International Politics, Economics and Communication
-- School of Science and Engineering
-- School of Social Informatics
-- School of Global Studies and Collaboration
-- School of Cultural and Creative Studies
-features:
-- SGU
-- EJU Required
-- English Program
-- Dormitory
-- Scholarship
-id: univ_aoyama-gakuin-university
-layout: school
-location:
-  lat: 35.6606966
-  lng: 139.7103651
-stats:
-  acceptance_rate: 15%
-  international_students: 800
-tags:
-- SGU
-- EJU Required
-- English Program
-- Dormitory
-- Scholarship
-thumbnail: /static/img/pin-univ.png
-title: 青山学院大学
-tuition:
-  admission_fee: 200000
-  yearly_tuition: 1200000
+{
+  "basic_info": {
+    "address": "〒150-8366 東京都渋谷区渋谷4-4-25",
+    "name_en": "Aoyama Gakuin University",
+    "name_ja": "青山学院大学",
+    "website": "https://www.aoyama.ac.jp/"
+  },
+  "category": "university",
+  "faculties": [
+    "School of Letters",
+    "School of Education",
+    "School of Economics",
+    "School of Law",
+    "School of Business",
+    "School of International Politics, Economics and Communication",
+    "School of Science and Engineering",
+    "School of Social Informatics",
+    "School of Global Studies and Collaboration",
+    "School of Cultural and Creative Studies"
+  ],
+  "features": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "id": "univ_aoyama-gakuin-university",
+  "layout": "school",
+  "location": {
+    "lat": 35.6606966,
+    "lng": 139.7103651
+  },
+  "stats": {
+    "acceptance_rate": "15%",
+    "international_students": 800
+  },
+  "tags": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Aoyama Gakuin University",
+  "tuition": {
+    "admission_fee": 200000,
+    "yearly_tuition": 1200000
+  },
+  "translated": true
+}
 ---
 
-## 🏫 University Overview & Reputation
+## University Overview & Reputation
 
-Aoyama Gakuin University (青山学院大学, Aoyama Gakuin Daigaku), often shortened to Aogaku, is a prestigious private university centrally located in Shibuya, Tokyo. Founded in 1874 by American Methodist missionaries, its origins lie in the establishment of three separate educational institutions that eventually merged to form the university we know today. This historical foundation has imbued Aoyama Gakuin with a strong commitment to Christian values and a global perspective, which continues to shape its educational philosophy.
+Aoyama Gakuin University (青山学院大学, Aoyama Gakuin Daigaku), often shortened to Aogaku, is a prestigious private university centrally located in Shibuya, Tokyo. Founded in 1874 by American Methodist missionaries, its origins lie in the establishment of three separate educational institutions that eventually merged to form the university we know today. This historical foundation has instilled in Aoyama Gakuin a strong commitment to Christian values and a global perspective, which continues to shape its educational philosophy.
 
-Aoyama Gakuin consistently ranks among the top private universities in Japan, often considered within the SGU (Super Global University) project's cohort of institutions striving for enhanced internationalization. Its reputation is particularly strong in fields like business, law, international studies, and communication. The university benefits significantly from its prime location in the fashionable Aoyama district, providing students with unparalleled access to internships, cultural experiences, and networking opportunities. This proximity to the heart of Tokyo's business and cultural scene contributes to Aoyama Gakuin's appeal to both domestic and international students.
+Aoyama Gakuin consistently ranks among the top private universities in Japan and is often included within the SGU (Super Global University) project, a group of institutions striving for enhanced internationalization. It is particularly well-regarded in fields such as business, law, international studies, and communication. The university benefits greatly from its prime location in the fashionable Aoyama district, providing students with unparalleled access to internships, cultural experiences, and networking opportunities. This proximity to the heart of Tokyo's business and cultural scene contributes to Aoyama Gakuin's appeal to both domestic and international students.
 
-The university's commitment to fostering a globalized learning environment is evident through its extensive network of partner institutions around the world. Aoyama Gakuin actively encourages student exchange programs and welcomes international students, offering comprehensive support services to facilitate their academic journey and integration into Japanese society. Aoyama Gakuin University is not just an academic institution; it is a vibrant community that cultivates intellectual curiosity, personal growth, and a strong sense of social responsibility among its students. Its graduates are highly sought after by employers both in Japan and internationally.
+The university's dedication to fostering a globalized learning environment is evident through its extensive network of partner institutions around the world. Aoyama Gakuin actively encourages student exchange programs and welcomes international students, offering comprehensive support services to facilitate their academic journey and integration into Japanese society. Aoyama Gakuin University is not just an academic institution; it is a vibrant community that cultivates intellectual curiosity, personal growth, and a strong sense of social responsibility among its students. Its graduates are highly sought after by employers both in Japan and internationally.
 
-## 🎓 Notable Faculties & Signature Programs
+## Notable Faculties & Signature Programs
 
 Aoyama Gakuin University offers a wide array of undergraduate and graduate programs spanning various disciplines. Each faculty is structured into specialized departments, allowing students to delve deep into their chosen fields of study. The university is particularly renowned for its programs that blend theoretical knowledge with practical application, preparing students for successful careers in their respective industries.
 
@@ -72,7 +82,7 @@ Two of Aoyama Gakuin University's most notable programs are the School of Intern
 
 The School of Global Studies and Collaboration is another program of significant interest to international students. Its interdisciplinary curriculum explores global issues such as sustainable development, human rights, and international security. This program also offers courses taught in English, allowing international students to fully participate in the learning experience. The School emphasizes collaborative learning and encourages students to work together on projects that address real-world challenges. Students have the opportunity to participate in internships and study abroad programs, gaining valuable experience in international settings. The program aims to cultivate future leaders who are committed to making a positive impact on the world.
 
-## 🌍 International Student Admissions & Life
+## International Student Admissions & Life
 
 The application process for international students at Aoyama Gakuin University generally involves submitting academic transcripts, standardized test scores (such as the EJU - Examination for Japanese University Admission for International Students), and English proficiency test scores (TOEFL or IELTS). Specific requirements vary depending on the program of study. For programs taught in Japanese, a strong command of the Japanese language is essential. Some programs may also require an interview, either in person or via video conference. It is crucial to check the specific requirements for each program on the university's official website.
 
@@ -82,7 +92,7 @@ Aoyama Gakuin University provides a range of support services for international 
 
 Aoyama Gakuin University has a vibrant international student community, with approximately 800 international students from various countries. The university has numerous student clubs and organizations, providing international students with opportunities to connect with other students, pursue their interests, and engage in extracurricular activities. The campus atmosphere is generally welcoming and inclusive, with a strong emphasis on intercultural understanding and exchange. The university's location in Shibuya, a cosmopolitan and dynamic area of Tokyo, further enhances the international student experience.
 
-## 💰 Tuition, Scholarships & Cost of Living
+## Tuition, Scholarships & Cost of Living
 
 The cost of attending Aoyama Gakuin University varies depending on the program of study and other factors. The following table provides an estimate of the average first-year costs for international students.
 
@@ -107,7 +117,7 @@ Here's a rough breakdown of a monthly budget:
 *   **Utilities:** 5,000 - 10,000 JPY (electricity, gas, water)
 *   **Personal Expenses:** 10,000 - 30,000 JPY (entertainment, clothing, etc.)
 
-## 📍 Campus Location & Access
+## Campus Location & Access
 
 Aoyama Gakuin University primarily operates out of two campuses: the Aoyama Campus and the Sagamihara Campus. The Aoyama Campus, situated in the heart of Shibuya, Tokyo, serves as the main campus for the majority of undergraduate programs. This location is renowned for its vibrant and fashionable atmosphere, offering students easy access to a wide range of cultural and entertainment venues, as well as internship opportunities with leading businesses and organizations. The Sagamihara Campus, located in Kanagawa Prefecture, provides a more tranquil setting for certain specialized programs.
 

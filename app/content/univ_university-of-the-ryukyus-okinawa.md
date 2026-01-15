@@ -46,31 +46,32 @@
     "EJU Required for Undergraduates",
     "Tuition Fee Exemptions Available",
     "Strong Regional and Ryukyuan Cultural Studies"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview
+## University Overview
 
-The University of the Ryukyus (UoR), established in 1950, stands as the premier national university in Okinawa Prefecture, Japan. Its foundation followed the conclusion of World War II, initially utilizing facilities previously occupied by the U.S. forces, symbolizing a rebirth for the region. UoR serves not only as a crucial center for higher education but also as a hub for research focused specifically on the unique subtropical environment, distinctive culture, and complex history of the Ryukyu Islands.
+The University of the Ryukyus (UoR), established in 1950, is the leading national university in Okinawa Prefecture, Japan. Founded after World War II, it initially utilized facilities previously occupied by U.S. forces, symbolizing a new beginning for the region. UoR is not only a vital center for higher education but also a research hub specifically focused on the unique subtropical environment, distinct culture, and complex history of the Ryukyu Islands.
 
-Strategically located on a picturesque, sprawling campus in Nishihara, overlooking the East China Sea, UoR offers an unparalleled academic experience far removed from the bustling mainland metropolises like Tokyo or Osaka. The environment itself is a living laboratory, particularly valuable for students pursuing marine biology, tropical agriculture, or environmental engineering. The climate is warm and humid, characterized by coral reefs, unique endemic species, and a culture that blends traditional Ryukyuan influences with modern Japanese and American elements.
+Strategically located on a scenic campus in Nishihara, overlooking the East China Sea, UoR provides an unparalleled academic experience far removed from the bustling metropolises of Tokyo or Osaka. The environment itself serves as a living laboratory, particularly valuable for students in marine biology, tropical agriculture, or environmental engineering. The climate is warm and humid, characterized by coral reefs, unique endemic species, and a culture blending traditional Ryukyuan influences with modern Japanese and American elements.
 
-As a National University (Kokuritsu Daigaku), UoR maintains high academic standards while benefiting from government subsidies, resulting in standardized, relatively low tuition fees compared to private institutions. The university is deeply committed to regional development, focusing on solving issues pertinent to island environments, including disaster preparedness, sustainable energy, and public health in remote areas. International students who choose UoR are often drawn by its specialized research opportunities, particularly its strong ties with the UNESCO Chair on Marine and Coastal Environmental Management, making it an exceptional choice for those interested in oceanic and ecological studies.
+As a National University (Kokuritsu Daigaku), UoR maintains high academic standards while benefiting from government subsidies, resulting in standardized and relatively low tuition fees compared to private institutions. The university is deeply committed to regional development, focusing on solving issues relevant to island environments, including disaster preparedness, sustainable energy, and public health in remote areas. International students are often drawn to UoR by its specialized research opportunities, particularly its strong ties with the UNESCO Chair on Marine and Coastal Environmental Management, making it an excellent choice for those interested in oceanic and ecological studies.
 
-UoR's mission is characterized by fostering global citizens capable of contributing to the sustainable development of the region and the world. Its curriculum emphasizes critical thinking, cross-cultural understanding, and practical application, preparing graduates for diverse fields ranging from specialized medical practices specific to tropical diseases to advanced studies in island governance and political science.
+UoR's mission is to foster global citizens who can contribute to the sustainable development of the region and the world. Its curriculum emphasizes critical thinking, cross-cultural understanding, and practical application, preparing graduates for diverse fields, from specialized medical practices addressing tropical diseases to advanced studies in island governance and political science.
 
-### 🌊 Unique Regional Focus and Research Strength
+## Unique Regional Focus and Research Strength
 
-The University of the Ryukyus is internationally recognized for its research in several niche areas:
+The University of the Ryukyus is internationally recognized for its research in specific niche areas:
 
-1.  **Marine Science:** Located adjacent to some of the world's most diverse coral reef systems, UoR’s facilities, including the Tropical Biosphere Research Center, provide essential access for studying coral propagation, oceanography, and the effects of climate change on coastal ecosystems. This makes it a globally competitive choice for graduate-level marine biology and environmental science.
-2.  **Tropical Agriculture:** The Faculty of Agriculture conducts pioneering work on developing high-yield, disease-resistant crops suited to subtropical climates, crucial for food security and regional economic growth. Research includes optimizing cultivation techniques for sugar cane, tropical fruits, and specialized local herbs.
-3.  **Ryukyuan Studies:** UoR is the primary institution dedicated to the preservation and academic study of the distinct Ryukyuan languages, history, traditional arts (like *Eisa* dance and *Bingata* textiles), and political development, offering unique academic pathways not available elsewhere in Japan.
+*   **Marine Science:** Located near some of the world's most diverse coral reef systems, UoR’s facilities, including the Tropical Biosphere Research Center, provide essential access for studying coral propagation, oceanography, and the effects of climate change on coastal ecosystems. This makes it a globally competitive choice for graduate-level marine biology and environmental science.
+*   **Tropical Agriculture:** The Faculty of Agriculture conducts pioneering work on developing high-yield, disease-resistant crops suited to subtropical climates, crucial for food security and regional economic growth. Research includes optimizing cultivation techniques for sugarcane, tropical fruits, and specialized local herbs.
+*   **Ryukyuan Studies:** UoR is the primary institution dedicated to the preservation and academic study of the distinct Ryukyuan languages, history, traditional arts (like *Eisa* dance and *Bingata* textiles), and political development, offering unique academic pathways not available elsewhere in Japan.
 
-## 🎓 Faculties & Departments
+## Faculties & Departments
 
-The University of the Ryukyus offers a comprehensive array of undergraduate and graduate programs across six major faculties, structured to address local needs while maintaining global relevance.
+The University of the Ryukyus offers a comprehensive range of undergraduate and graduate programs across six major faculties, structured to address local needs while maintaining global relevance.
 
 ### Faculty of Law and Letters (Hōbun Gakubu)
 
@@ -78,7 +79,7 @@ This faculty is dedicated to the humanities, social sciences, and regional studi
 
 *   **Law and Political Science:** Focusing on public administration, regional autonomy, and international law, particularly relevant given Okinawa's historical and contemporary security environment.
 *   **Economics:** Emphasizing regional development, tourism management, and resource economics pertinent to island economies.
-*   **Humanities:** Offering deep dives into history, philosophy, culture, and especially the specialized fields of Ryukyuan and Japanese language/literature.
+*   **Humanities:** Offering in-depth studies of history, philosophy, culture, and especially the specialized fields of Ryukyuan and Japanese language/literature.
 
 ### Faculty of Education (Kyōiku Gakubu)
 
@@ -90,7 +91,7 @@ Dedicated to training future educators, this faculty covers all levels of school
 
 ### Faculty of Medicine (Igakubu)
 
-UoR's medical school is highly competitive and crucial for the local healthcare infrastructure. It encompasses both the School of Medicine (six-year program) and the School of Health Sciences (four-year program). Research often focuses on subtropical infectious diseases, geriatric medicine, and community health unique to remote island populations.
+UoR's medical school is highly competitive and crucial for the local healthcare infrastructure. It encompasses both the School of Medicine (six-year program) and the School of Health Sciences (four-year program). Research often focuses on subtropical infectious diseases, geriatric medicine, and community health specific to remote island populations.
 
 *   **School of Medicine:** Standard M.D. program, highly demanding.
 *   **School of Health Sciences:** Nursing, Medical Technology, Physical Therapy, and Occupational Therapy.
@@ -120,13 +121,13 @@ Capitalizing on the subtropical climate, this faculty is a powerhouse for tropic
 *   **Environmental Science and Technology:** Sustainable use of natural resources.
 *   **Regional Agriculture and Economic Studies:** Linking production to market demands and developing robust agricultural economies.
 
-## 🌍 International Student Support
+## International Student Support
 
 The University of the Ryukyus maintains a dedicated International Exchange Center (IEC) to provide comprehensive support for its diverse body of international students, ensuring a smooth transition into both academic life and Okinawan society.
 
 ### Admissions Requirements and Application Process
 
-For undergraduate admission, international students must generally apply through the direct selection process, which is highly competitive. The primary requirement is performance in the **Examination for Japanese University Admission for International Students (EJU)**, specifically in the subjects required by the desired faculty (e.g., Mathematics Course 2, Japan and the World, and Science or Comprehensive Subjects).
+For undergraduate admission, international students generally apply through the direct selection process, which is highly competitive. The primary requirement is performance in the **Examination for Japanese University Admission for International Students (EJU)**, specifically in the subjects required by the desired faculty (e.g., Mathematics Course 2, Japan and the World, and Science or Comprehensive Subjects).
 
 *   **Japanese Language Proficiency:** A strong command of Japanese, typically equivalent to N2 level or higher on the JLPT, is essential for most degree programs, as instruction is primarily conducted in Japanese.
 *   **English Programs:** While UoR is primarily a Japanese-medium institution at the undergraduate level, some graduate schools, particularly in specific engineering and science fields, offer research opportunities and courses conducted partially or entirely in English. Prospective graduate students should directly consult the research supervisor.
@@ -136,7 +137,7 @@ For undergraduate admission, international students must generally apply through
 
 UoR recognizes the challenges international students face in securing immediate accommodation and offers specialized housing options:
 
-*   **International House (Kokusai Kōryū Kaikan):** Located close to the campus, this facility offers single rooms or communal apartments specifically reserved for newly admitted international students and researchers. Spaces are limited and applications must be made well in advance.
+*   **International House (Kokusai Kōryū Kaikan):** Located close to the campus, this facility offers single rooms or communal apartments specifically reserved for newly admitted international students and researchers. Spaces are limited, and applications must be made well in advance.
 *   **Standard Student Dormitories (Gakusei Ryō):** While available, priority often goes to Japanese students, but international students can apply. These dorms offer affordable, basic housing but may require a longer commute.
 *   **Guaranteed Support:** The IEC provides assistance in locating affordable off-campus private apartments, often connecting students with local guarantors, which is a common hurdle in Japan's rental market.
 
@@ -149,17 +150,17 @@ UoR strongly encourages international students to seek financial assistance, and
 3.  **Private Foundation Scholarships:** Numerous local Okinawan and national foundations partner with UoR to offer specialized scholarships, often targeted at students studying environmental science, public health, or regional studies. These are usually highly specialized and competitive, requiring applications after matriculation.
 4.  **UoR-Specific Grants:** Limited emergency funds and small grants may be available to assist students facing unexpected financial hardship.
 
-## 💰 Tuition & Fees
+## Tuition & Fees
 
 The University of the Ryukyus adheres to the standard fee structure mandated for Japanese National Universities, making it a highly cost-effective choice for quality education.
 
 ### Standard Costs (Annual)
 
-| Item | Fee (Japanese Yen) |
-| :--- | :--- |
-| **Admission Fee (Enrollment)** | 282,000 JPY |
-| **Yearly Tuition Fee** | 535,800 JPY |
-| **Total First Year Cost (approx.)** | 817,800 JPY |
+| Item                         | Fee (Japanese Yen) |
+| :--------------------------- | :----------------- |
+| **Admission Fee (Enrollment)** | 282,000 JPY        |
+| **Yearly Tuition Fee**       | 535,800 JPY        |
+| **Total First Year Cost (approx.)**| 817,800 JPY        |
 
 *Note: These fees are subject to minor annual review by the Ministry of Education, Culture, Sports, Science and Technology (MEXT).* The cost of living in Okinawa is generally lower than in major mainland cities like Tokyo or Kyoto, which provides an additional financial benefit to students.
 

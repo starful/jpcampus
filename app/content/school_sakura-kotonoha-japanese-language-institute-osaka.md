@@ -49,11 +49,14 @@
       "total_fees": 1238600
     }
   ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=569"
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=569",
+  "translated": true,
+  "description": "A boutique Japanese language institute in Osaka offering intensive EJU preparation, specialized support for science and engineering students, and guaranteed dormitory accommodation with single room options. Known for its high student-to-teacher ratio and robust scholarship programs.",
+  "name_en": "Sakura Kotonoha Japanese Language Institute"
 }
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
 Sakura Kotonoha Japanese Language Institute is strategically located in Osaka, the heart of the vibrant Kansai region, offering a unique, boutique educational experience highly focused on academic progression. With an exceptionally small capacity of only 80 students, the institute operates on a philosophy that prioritizes quality over quantity, fostering an incredibly close-knit, supportive, and academically rigorous environment. Unlike large, commercial language schools that often host hundreds of students, Sakura Kotonoha leverages its small size to ensure that every student receives highly personalized attention, essential for navigating the complex path toward Japanese higher education, particularly for those targeting competitive university entrance exams (EJU) or graduate schools. The location in Yodogawa Ward provides a balanced setting—convenient access to Osaka's major transportation hubs and academic institutions, yet situated in a local area conducive to focused study and genuine cultural immersion outside the immediate tourist hotspots. This intimate setting allows the school management and teaching staff to monitor the academic progress and general well-being of each international student meticulously, making rapid adjustments to learning plans as needed.
 
@@ -63,12 +66,12 @@ Furthermore, the dedication to providing on-campus or affiliated dormitory optio
 
 In the broader context of Japanese language education in the Kansai region, Sakura Kotonoha fills a crucial niche: a highly specialized preparatory school focusing on rigorous EJU training. Osaka is a major educational center, hosting prestigious institutions such as Osaka University, Kobe University, and Kyoto University, alongside a plethora of excellent private universities. Students at Sakura Kotonoha benefit geographically by being situated near these target schools, facilitating preparatory visits, attending open campuses, and completing application steps. The small capacity ensures that the institute can maintain an unparalleled student-to-counselor ratio, translating into bespoke application guidance—from selecting appropriate faculties to intensive practice for university-specific interview components. This level of customized support is often the determining factor in securing admission to competitive Japanese tertiary institutions, solidifying the institute's position as a premier choice for academically ambitious international students.
 
-## 📚 Courses, Curriculum & Teaching Style
+## Courses, Curriculum & Teaching Style
 
 Sakura Kotonoha offers specialized academic tracks, primarily the **University Progression Course (進学コース)**, structured to align with Japan's university intake cycles. The primary course options include the two standard entry points designed to optimize the preparation timeline for EJU and subsequent application processes:
 
-1.  **2-Year University Progression Course (進学2年コース):** Commencing in April, this is the standard and most comprehensive path, providing 24 months of study. Total fees are ¥1,625,800. This course allows for a steady, gradual build-up from beginner level (N5/N4 equivalent) to the advanced academic level (N1/N2 required for EJU and university). The first year focuses heavily on core language foundation, while the second year shifts predominantly to EJU subject preparation, essay writing (小論文), and interview skills.
-2.  **1 Year 6 Month University Progression Course (進学1年6か月コース):** Commencing in October, ideal for students who already possess a foundational knowledge of Japanese (typically N4 or high N5 equivalent) and require intensive training over a shorter period. Total fees are ¥1,238,600. The curriculum is accelerated, quickly transitioning students into the advanced grammar and subject preparation phases.
+*   **2-Year University Progression Course (進学2年コース):** Commencing in April, this is the standard and most comprehensive path, providing 24 months of study. Total fees are ¥1,625,800. This course allows for a steady, gradual build-up from beginner level (N5/N4 equivalent) to the advanced academic level (N1/N2 required for EJU and university). The first year focuses heavily on core language foundation, while the second year shifts predominantly to EJU subject preparation, essay writing (小論文), and interview skills.
+*   **1 Year 6 Month University Progression Course (進学1年6か月コース):** Commencing in October, ideal for students who already possess a foundational knowledge of Japanese (typically N4 or high N5 equivalent) and require intensive training over a shorter period. Total fees are ¥1,238,600. The curriculum is accelerated, quickly transitioning students into the advanced grammar and subject preparation phases.
 
 The pedagogical approach is defined by the necessity of passing the EJU. The curriculum is therefore segmented into three critical areas:
 
@@ -89,7 +92,7 @@ The pedagogical approach is defined by the necessity of passing the EJU. The cur
 
 The teaching style is highly directive, focused on measurable outcomes, and constantly adapting based on the frequent assessment data derived from mock examinations. The environment encourages intellectual curiosity but demands discipline, recognizing the fierce competition for limited spots in top Japanese universities. Teachers are expected to act as both linguistic guides and academic counselors.
 
-## 🌍 Student Body & Campus Life
+## Student Body & Campus Life
 
 Given the maximum capacity of 80 students, the community at Sakura Kotonoha is exceptionally intimate, which dramatically shapes the campus life experience. This size fosters a level of camaraderie and mutual support among the student body that is often lost in much larger schools. Students are not anonymous; their individual struggles and successes are known to their peers and teachers, creating a shared high-pressure, high-support environment essential for rigorous EJU preparation.
 
@@ -114,7 +117,7 @@ Campus life centers around intensive study. The small facility size likely means
 3.  **Part-Time Work Guidance (Arubaito):** Counseling on finding suitable part-time jobs (within visa restrictions) that do not compromise the rigorous academic schedule. Given the school's intense focus, students are often advised to prioritize study during the initial year.
 4.  **Academic Mental Health:** Recognizing the stress inherent in EJU preparation, the supportive environment ensures that struggling students are identified quickly and provided with the necessary academic and emotional counseling to stay on track. This personalized pastoral care is a hallmark of boutique language institutes.
 
-## 🎓 University & Career Pathways
+## University & Career Pathways
 
 Sakura Kotonoha Japanese Language Institute’s primary objective is not merely language instruction but successful matriculation into Japanese higher education. The entire curriculum and support system are engineered around the EJU timeline and application requirements, making it a specialized university preparatory center.
 
@@ -139,7 +142,7 @@ The Rikei track demands a higher degree of subject mastery and linguistic precis
 
 Due to the small student cohort, the school aims for a near-perfect progression rate, with a focus on quality placements. A successful outcome involves not just entering any university, but gaining admission into a faculty that aligns with the student's long-term career aspirations. Career pathways following graduation typically involve professional roles in engineering, IT, research, manufacturing, or international business, leveraging the combination of technical skills and high-level Japanese proficiency achieved through this preparatory track. The school maintains a vital network of alumni and university contacts to facilitate smooth transitions and offer insights into entrance exam trends and university requirements.
 
-## 🏡 Accommodation & Living Support
+## Accommodation & Living Support
 
 One of the most significant advantages for prospective students is the provision of guaranteed accommodation, specifically featuring affiliated dormitories and the option for single rooms. This eliminates a primary source of stress for new international students.
 
@@ -171,7 +174,7 @@ While tuition is fixed, prospective students must budget carefully for living co
 
 Beyond just accommodation, the institute provides essential transitional support. Upon arrival, students receive assistance with city hall registration, bank account opening, and mobile phone contracts. This level of comprehensive support, enabled by the small student-to-staff ratio, is invaluable for successful assimilation into Japanese life and ensures that administrative distractions do not impede academic performance, which is paramount in an EJU-focused curriculum.
 
-## 💰 Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships
 
 Sakura Kotonoha offers transparent tuition structures based on the length of the course, providing students with a clear financial roadmap toward their academic goals. The costs are competitive for specialized EJU preparatory schools in the Kansai region.
 
@@ -190,7 +193,7 @@ While the input provides the *total* course fees, the structure generally requir
 | **Remaining Tuition/Fees** | ¥720,800 (for remaining 12 months) | ¥333,600 (for remaining 6 months) |
 | **TOTAL COURSE FEE** | **¥1,625,800** | **¥1,238,600** |
 
-*Note: All fees are typically paid in Japanese Yen (JPY). The Remaining Tuition for the 2-Year course would be paid near the end of the first year of study.* (Character Count Check: ~7000 characters reached here, will expand the scholarship section slightly to ensure compliance with the 7000-8000 target and consultative quality.)
+*Note: All fees are typically paid in Japanese Yen (JPY). The Remaining Tuition for the 2-Year course would be paid near the end of the first year of study.*
 
 **Scholarship Programs (奨学金 - Shōgakukin):**
 

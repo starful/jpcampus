@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "school_waseda-edu-japanese-language-school",
-  "title": "早稲田EDU日本語学校",
+  "title": "Waseda EDU Japanese Language School",
   "category": "school",
   "tags": [
     "University Entrance Preparation (Shinagaku)",
@@ -36,122 +36,126 @@
   ],
   "courses": [
     {
-      "course_name": "進学コース・1",
+      "course_name": "University Preparatory Course 1",
       "admission_month": "4",
       "total_fees": 1450000
     },
     {
-      "course_name": "進学コース・2",
+      "course_name": "University Preparatory Course 2",
       "admission_month": "7",
       "total_fees": 1277500
     },
     {
-      "course_name": "進学コース・3",
+      "course_name": "University Preparatory Course 3",
       "admission_month": "10",
       "total_fees": 1105000
     },
     {
-      "course_name": "進学・4",
+      "course_name": "University Preparatory Course 4",
       "admission_month": "1",
       "total_fees": 932500
     }
   ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=139"
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=139",
+  "translated": true
 }
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-와세다EDU일본어학교(早稲田EDU日本語学校)는 그 이름에서 유추할 수 있듯이, 단순한 일본어 학습을 넘어 일본의 명문 대학 및 대학원 진학을 최우선 목표로 삼는 전문 교육 기관입니다. 도쿄의 핵심 교육 중심지 중 하나인 신주쿠구 이치가야(市谷)에 위치하고 있으며, 이는 학생들이 최신 입시 정보를 빠르게 접하고, 주변의 학문적 인프라를 활용하기에 최적의 환경을 제공합니다. 960명에 달하는 대규모 정원은 학교가 체계적이고 광범위한 교육 시스템을 갖추고 있음을 방증하며, 학생 개개인의 높은 학업 성취도를 끌어내기 위한 강력한 커리큘럼을 운영하고 있습니다. 학교의 교육 철학은 '목표 지향적 학습(Goal-Oriented Learning)'에 중점을 두고 있으며, 이는 모든 수업과 관리 시스템이 학생들이 원하는 상위권 대학에 합격할 수 있도록 설계되었음을 의미합니다. 특히 일본 유학시험(EJU) 대비에 특화된 교육 시스템은 이 학교의 가장 큰 강점 중 하나로 꼽힙니다. 학교는 학생들에게 엄격한 학업 규율을 요구하며, 학업 성과를 바탕으로 한 지속적인 피드백과 심화 학습 기회를 제공함으로써, 일본 내에서도 가장 경쟁력 있는 유학생들을 배출하는 요람으로 자리매김하고 있습니다.
+Waseda EDU Japanese Language School, as the name suggests, is a specialized educational institution that prioritizes admission to prestigious Japanese universities and graduate schools over simple Japanese language learning. Located in Ichigaya, Shinjuku, one of Tokyo's core educational centers, it provides students with an optimal environment to quickly access the latest entrance exam information and leverage the surrounding academic infrastructure. With a large capacity of 960 students, the school boasts a systematic and extensive education system and operates a robust curriculum designed to maximize each student's academic achievement. The school's educational philosophy emphasizes 'Goal-Oriented Learning,' meaning that all classes and management systems are designed to help students pass into their desired top-tier universities. In particular, its educational system specialized in preparing for the Examination for Japanese University Admission for International Students (EJU) is considered one of the school's greatest strengths. The school demands strict academic discipline from its students and provides continuous feedback and in-depth learning opportunities based on academic performance, establishing itself as a cradle for producing some of the most competitive international students in Japan.
 
-와세다EDU는 학문적 배경이 견고한 학생들이 모여들기 때문에 캠퍼스 분위기 자체가 매우 학구적이고 치열합니다. 학교는 학생들이 일본어 능력(JLPT N1 이상)을 조기에 완성하는 것은 물론, EJU 과목별 만점을 목표로 할 수 있도록 전폭적인 지원을 아끼지 않습니다. 단순한 언어 습득 기관을 넘어, 일본의 학업 환경에 성공적으로 안착하기 위한 '프리-유니버시티(Pre-University)' 교육을 제공하는 것을 미션으로 삼고 있습니다. 이러한 접근 방식은 특히 이과(理科, 과학 및 공학 계열) 진학을 희망하는 학생들에게 독보적인 이점을 제공하는데, 이는 일본어 학원에서 흔히 제공하기 어려운 전문적인 과학 및 수학 교육을 병행하기 때문입니다. 학교는 단순히 지식을 전달하는 것을 넘어, 일본 대학의 학문적 요구사항을 충족시킬 수 있는 비판적 사고력과 문제 해결 능력을 기르는 데 주력합니다. 이러한 철학 아래, 와세다EDU는 매년 높은 수준의 명문대 합격률을 기록하며 유학생 진학 교육의 선두 주자 역할을 수행하고 있습니다.
+Because students with solid academic backgrounds gather at Waseda EDU, the campus atmosphere itself is very academic and competitive. The school provides full support so that students can complete their Japanese language proficiency (JLPT N1 or higher) early on, as well as aim for perfect scores in each EJU subject. Its mission is to provide 'Pre-University' education to help students successfully settle into the Japanese academic environment, going beyond a simple language acquisition institution. This approach provides unique benefits, especially for students wishing to advance in science and engineering fields (Rika), as it offers specialized science and mathematics education that is often difficult to find in Japanese language schools. The school focuses on developing critical thinking and problem-solving skills that can meet the academic requirements of Japanese universities, going beyond simply conveying knowledge. Under this philosophy, Waseda EDU achieves high acceptance rates to prestigious universities every year, playing a leading role in education for international students.
 
-학교의 행정 지원팀과 교사들은 일본 대학 입시의 복잡성을 이해하고 학생들이 불필요한 시행착오를 겪지 않도록 세심하게 지도합니다. 대규모 인원을 관리하는 동시에 개별 학생의 진로 목표를 파악하기 위해 정기적인 상담 시스템과 성적 추이 분석을 필수적으로 진행합니다. 특히 학생들의 초기 적응을 돕기 위해 일본 생활 및 문화에 대한 기본 교육도 제공하지만, 그 비중은 학업 성취에 비해 낮게 책정되어 있습니다. 와세다EDU는 학생들에게 '성공적인 진학'이라는 명확한 비전을 제시하며, 이를 달성하기 위해 필요한 모든 교육 자원과 환경을 제공하는 데 집중합니다. 이는 결과적으로 학생들이 짧은 유학 기간 동안 최대의 학업 효율을 낼 수 있도록 돕는 구조입니다. 
+The school's administrative support team and teachers understand the complexities of Japanese university entrance exams and carefully guide students to avoid unnecessary trial and error. To manage a large number of students while identifying each student's career goals, regular counseling sessions and analysis of academic performance trends are essential. In particular, basic education on Japanese life and culture is also provided to help students adapt early on, but its importance is set lower compared to academic achievement. Waseda EDU presents students with a clear vision of 'successful admission' and concentrates on providing all the educational resources and environment needed to achieve this. This ultimately helps students maximize their academic efficiency during their short study abroad period.
 
-## 📚 Courses, Curriculum & Teaching Style
+## Courses, Curriculum & Teaching Style
 
-와세다EDU일본어학교의 교육 과정은 철저히 '대학 및 대학원 진학'을 중심으로 설계된 進学コース(진학 코스)가 주력입니다. 입학 시기별로 1년 3개월부터 2년까지의 학습 기간을 제공하며, 학생들은 자신의 학업 계획에 맞춰 최적의 코스를 선택할 수 있습니다. 커리큘럼은 초급 단계부터 철저하게 EJU 대비와 JLPT N1 취득을 목표로 구성됩니다. 일반적인 일본어 학교가 회화 능력 향상에 무게를 둔다면, 와세다EDU는 학술적인 일본어 구사 능력, 즉 논리적인 글쓰기, 전문 용어 이해, 그리고 복잡한 지문을 분석하는 능력을 중점적으로 육성합니다. 
+The curriculum at Waseda EDU Japanese Language School is mainly focused on the 進学コース (University Preparatory Course), which is thoroughly designed around 'admission to universities and graduate schools.' It offers study periods from 1 year and 3 months to 2 years depending on the admission period, and students can choose the optimal course according to their academic plan. The curriculum is structured from the beginner level to thoroughly target EJU preparation and JLPT N1 acquisition. While typical Japanese language schools focus on improving conversational skills, Waseda EDU focuses on fostering academic Japanese proficiency, that is, logical writing, understanding of specialized terms, and the ability to analyze complex texts.
 
-**1. EJU 특화 교육 (EJU Specialized Training):**
-가장 중요한 특징은 EJU 과목별 전문 강사진을 통한 교육 제공입니다. 특히 이과(理科) 진학 희망자를 위한 교육이 매우 체계적입니다. 일반적인 일본어 학교에서는 문과 과목(종합 과목) 대비에 집중하는 경향이 있으나, 와세다EDU는 수학 코스(코스 1/코스 2), 물리, 화학, 생물 등 이과 과목에 대한 심화 학습을 정규 수업 또는 보충 수업 형태로 제공합니다. 이러한 전문 과목 교육은 때로는 학생들의 모국어에 능통한 전문 강사(비일본인)가 투입되어 복잡한 개념을 확실하게 이해시킨 후, 일본어 전문 용어로 전환하는 방식으로 진행되기도 합니다. 이는 학생들이 일본어로 진행되는 대학 강의를 듣기 전, 전공 분야의 기본 지식을 확립하는 데 결정적인 도움을 줍니다. 수업은 단순히 교과서 내용을 암기하는 수준을 넘어, 기출 문제 분석, 예상 문제 풀이, 그리고 시간 관리를 위한 모의고사 형태로 진행되어 실전 감각을 극대화합니다.
+**1. EJU Specialized Training:**
+The most important feature is providing education through specialized instructors for each EJU subject. In particular, education for those wishing to advance in science (理科) is very systematic. While general Japanese language schools tend to focus on preparing for humanities subjects (integrated subjects), Waseda EDU provides in-depth learning for science subjects such as mathematics courses (Course 1/Course 2), physics, chemistry, and biology in the form of regular or supplementary classes. This specialized subject education is sometimes conducted by specialized instructors (non-Japanese) who are fluent in the students' native language, who ensure they fully understand complex concepts before converting them into specialized Japanese terms. This is crucial in helping students establish basic knowledge in their major field before listening to university lectures in Japanese. Classes go beyond simply memorizing textbook content and are conducted in the form of analyzing past questions, solving expected problems, and mock exams for time management to maximize practical skills.
 
-**2. 대학별 맞춤형 지도 (University-Specific Guidance):**
-EJU 점수 확보 이후의 단계, 즉 대학별 본고사 및 면접 대비도 커리큘럼의 핵심입니다. 도쿄대학, 와세다대학, 게이오기주쿠대학 등 최상위권 대학들은 EJU 점수 외에도 소논문(小論文) 작성, 심층 면접, 그리고 포트폴리오 제출 등을 요구합니다. 학교는 이러한 개별 대학의 요구사항에 맞춰 소규모 그룹 코칭을 운영합니다. 소논문 지도는 첨삭 전문 강사가 투입되어 학생의 논리 전개 방식과 문체 교정에 집중하며, 면접 대비는 대학 교수진의 예상 질문을 기반으로 한 롤플레잉과 비디오 피드백을 통해 진행됩니다. 특히 의학/약학/공학 계열 진학 희망자에게 요구되는 높은 수준의 학업 계획서(研究計画書) 작성 및 발표 능력을 배양하는 데도 주력합니다.
+**2. University-Specific Guidance:**
+The stage after securing EJU scores, that is, preparing for individual university entrance exams and interviews, is also at the core of the curriculum. Top-tier universities such as the University of Tokyo, Waseda University, and Keio University require essay writing (小論文), in-depth interviews, and portfolio submissions in addition to EJU scores. The school operates small-group coaching tailored to the requirements of these individual universities. Essay guidance focuses on correcting the student's logical development method and style with the help of specialized instructors, while interview preparation is conducted through role-playing and video feedback based on expected questions from university faculty. In particular, it focuses on cultivating the ability to write and present high-level academic plans (研究計画書) required for those wishing to advance in medicine/pharmacy/engineering fields.
 
-**3. 엄격한 학업 관리 시스템:**
-와세다EDU는 출결 관리와 성적 관리가 매우 엄격하기로 유명합니다. 높은 진학 목표를 달성하기 위해서는 꾸준한 학습 태도가 필수적이라는 철학 아래, 무단 결석이나 지각에 대해서는 강력한 제재가 따릅니다. 정기적인 레벨 테스트와 모의고사 성적을 바탕으로 학생들은 상위반 또는 목표 대학별 특별반에 배치되며, 성적이 부진한 학생들에게는 의무적인 보충 학습(Extra Study Sessions)을 제공하여 학습 격차를 최소화합니다. 이러한 밀착 관리는 학생들이 느슨해지지 않고 학업에 집중할 수 있는 환경을 조성합니다.
+**3. Strict Academic Management System:**
+Waseda EDU is famous for its very strict attendance and grade management. Under the philosophy that a consistent learning attitude is essential to achieving high academic goals, strong sanctions are imposed for unauthorized absences or lateness. Based on regular level tests and mock exam scores, students are placed in upper-level classes or special classes for target universities, and students with poor grades are provided with mandatory Extra Study Sessions to minimize learning gaps. This close management creates an environment where students do not become lax and can concentrate on their studies.
 
-| 코스명 (Course Name) | 입학 시기 (Admission Month) | 학습 기간 (Duration) | 총 납부액 (Total Fees, JPY) | 커리큘럼 특징 (Curriculum Focus) |
+| Course Name | Admission Month | Duration | Total Fees (JPY) | Curriculum Focus |
 | :--- | :--- | :--- | :--- | :--- |
-| 進学コース・1 | 4월 (Spring) | 2년 (24 months) | 1,450,000 | EJU/JLPT N1 기본기부터 최상위권 대학 본고사 대비까지 종합 과정. 이과/문과 심화 수업 선택 가능. |
-| 進学コース・2 | 7월 (Summer) | 1년 9개월 (21 months) | 1,277,500 | 일본어 중급 이상 학생 대상. EJU 집중 대비 시작 시점 조정. 여름 방학 기간을 활용한 고강도 학습. |
-| 進学コース・3 | 10월 (Autumn) | 1년 6개월 (18 months) | 1,105,000 | 중급 이상의 일본어 실력 요구. 1년 내 EJU 및 대학 원서 접수 준비에 돌입하는 압축 과정. |
-| 進学コース・4 | 1월 (Winter) | 1년 3개월 (15 months) | 932,500 | 단기 집중 과정. 이미 일본어 기초가 탄탄하거나, 한국 등 해외 대학 입시 경험이 있는 학생에게 적합. |
+| University Preparatory Course 1 | April (Spring) | 2 years (24 months) | 1,450,000 | Comprehensive course from EJU/JLPT N1 basics to preparation for entrance exams for top-tier universities. Electives available for advanced science/humanities courses. |
+| University Preparatory Course 2 | July (Summer) | 1 year 9 months (21 months) | 1,277,500 | For students with intermediate Japanese or higher. Adjustment of the start time for intensive EJU preparation. High-intensity learning using the summer vacation period. |
+| University Preparatory Course 3 | October (Autumn) | 1 year 6 months (18 months) | 1,105,000 | Requires intermediate Japanese proficiency or higher. Compressed course that starts preparing for the EJU and university applications within one year. |
+| University Preparatory Course 4 | January (Winter) | 1 year 3 months (15 months) | 932,500 | Short-term intensive course. Suitable for students who already have a solid foundation in Japanese or have experience with university entrance exams in Korea or other overseas countries. |
 
-## 🌍 Student Body & Campus Life
+## Student Body & Campus Life
 
-와세다EDU일본어학교는 대규모 정원(960명)을 바탕으로 매우 다양한 국적의 학생들을 수용하고 있지만, 진학 목표가 명확한 학교의 특성상 동아시아권 국가, 특히 한국, 중국, 베트남 출신 학생들이 압도적인 비중을 차지합니다. 이들 국가는 일본 명문 대학 진학에 대한 열의가 높고, EJU 시스템에 대한 이해도가 빠르기 때문에 학교의 학구적인 분위기와 잘 부합합니다. 최근에는 인도네시아, 대만 등 다른 아시아 국가 학생들도 증가하는 추세이나, 진학 실적을 내는 핵심 그룹은 여전히 입시 경쟁이 치열한 국가 출신 학생들입니다.
+Waseda EDU Japanese Language School accepts students of very diverse nationalities based on its large capacity (960 students), but due to the school's characteristic of having clear admission goals, students from East Asian countries, especially Korea, China, and Vietnam, account for an overwhelming proportion. These countries have a high enthusiasm for advancing to prestigious Japanese universities and a quick understanding of the EJU system, so they fit well with the school's academic atmosphere. Recently, the number of students from other Asian countries such as Indonesia and Taiwan has been increasing, but the core group that produces admission results is still students from countries with intense entrance exam competition.
 
-캠퍼스 라이프는 여타 일본어 학교에 비해 학업 중심적이고 강도 높은 것이 특징입니다. 신주쿠라는 지리적 이점을 활용하여 방과 후에도 학생들이 근처 도서관이나 자습실을 이용하기 용이하며, 학교 내부에도 학생들이 자율적으로 학습할 수 있는 공간이 충분히 마련되어 있습니다. 학생들은 서로의 학습 동기가 매우 강하기 때문에 자연스럽게 스터디 그룹을 형성하고 경쟁하며 학업 성과를 극대화하는 경향을 보입니다. 문화 교류 활동이나 지역 사회 봉사 활동과 같은 비교과 활동이 아예 없지는 않으나, 그 비중은 진학 준비에 비해 낮습니다. 이는 학교가 학생들의 시간을 최대한 효율적으로 활용하여 오직 입시 결과에 집중시키려는 의도입니다.
+The campus life is characterized by being more academically focused and intense than other Japanese language schools. Taking advantage of its geographical advantage in Shinjuku, students can easily use nearby libraries or study rooms even after school, and the school also has ample space for students to study autonomously. Because students have very strong learning motivations, they naturally form study groups, compete, and tend to maximize their academic performance. Extracurricular activities such as cultural exchange activities and community service activities are not completely absent, but their importance is lower compared to university preparation. This is because the school intends to have students use their time as efficiently as possible and focus solely on entrance exam results.
 
-학교는 960명의 대규모 학생들을 관리하기 위해 체계화된 행정 시스템을 갖추고 있으며, 학생들의 국적별로 담당 직원을 배정하여 비자 갱신, 보험 처리, 생활 민원 등을 신속하게 처리할 수 있도록 지원합니다. 다만, 분위기가 학업 위주로 돌아가기 때문에, 일본 문화 체험이나 느긋한 교류를 우선시하는 학생들에게는 다소 부담스럽거나 딱딱하게 느껴질 수 있습니다. 와세다EDU의 학생들은 대부분 자신의 미래 진로에 대해 확고한 목표 의식을 가지고 있으며, 캠퍼스 생활은 이러한 목표 달성을 위한 훈련소와 같은 역할을 합니다. 학교는 정기적으로 대학 입시 설명회를 개최하고, 합격 선배들을 초청하여 경험을 공유하는 등, 학생들에게 지속적인 동기 부여와 현실적인 조언을 제공합니다.
+The school has a systematized administrative system to manage 960 large students, and assigns staff in charge for each student's nationality to support visa renewal, insurance processing, and handling of daily life complaints quickly. However, because the atmosphere revolves around academics, it may feel somewhat burdensome or rigid for students who prioritize experiencing Japanese culture or leisurely exchange. Most of Waseda EDU's students have a clear sense of purpose regarding their future careers, and campus life serves as a training ground for achieving these goals. The school regularly holds university entrance exam briefings and invites successful seniors to share their experiences, providing students with continuous motivation and practical advice.
 
-## 🎓 University & Career Pathways
+## University & Career Pathways
 
-와세다EDU일본어학교는 '진학 전문'이라는 타이틀에 걸맞게 일본의 최상위권 국공립 및 사립 대학으로의 진학 실적이 매우 뛰어납니다. 학교는 학생 개개인의 EJU 성적과 내신 성적, 희망 진로를 면밀히 분석하여 가장 현실적이고 성공 가능성이 높은 진학 로드맵을 설계해줍니다. 이 과정은 단순한 정보 제공을 넘어, 성공적인 합격을 위한 전략적 멘토링에 가깝습니다.
+Waseda EDU Japanese Language School boasts outstanding admission results to top-tier national, public, and private universities in Japan, befitting its title of 'admission specialist.' The school meticulously analyzes each student's EJU scores, academic performance, and desired career path to design the most realistic and successful admission roadmap. This process goes beyond simply providing information and is closer to strategic mentoring for successful admission.
 
-**1. 전략적 진학 상담 및 지도:**
-학생들은 입학 초기부터 담임 교사 및 전문 진학 카운슬러와 정기적인 1:1 상담을 받습니다. 상담의 내용은 EJU 과목 선택, 목표 대학군 설정, 그리고 입시 시기에 따른 학습 우선순위 결정에 초점을 맞춥니다. 특히, 이과 계열 학생들의 경우, 도쿄공업대학(現 도쿄과학대학), 오사카대학, 도호쿠대학 등 STEM 분야에서 강점을 가진 대학에 특화된 정보를 제공받습니다. 문과 계열 학생들은 와세다, 게이오, 히토츠바시 등 최상위 사립 및 국립대학의 문학, 경제, 법학부 진학을 목표로 합니다.
+**1. Strategic Admission Counseling and Guidance:**
+Students receive regular 1:1 counseling from their homeroom teachers and specialized career counselors from the beginning of enrollment. The content of the counseling focuses on EJU subject selection, setting target university groups, and determining learning priorities according to the admission period. In particular, students in science fields receive information specialized in universities with strengths in STEM fields, such as the Tokyo Institute of Technology (now Tokyo University of Science), Osaka University, and Tohoku University. Students in humanities fields aim for admission to the faculties of literature, economics, and law at top-tier private and national universities such as Waseda, Keio, and Hitotsubashi.
 
-**2. 소논문 및 연구 계획서 작성의 특화:**
-일본의 상위권 대학은 외국인 특별 전형에서도 소논문이나 연구 계획서를 통해 학생의 학문적 깊이를 평가합니다. 와세다EDU는 이 부분에서 강력한 경쟁력을 갖추고 있습니다. 경험이 풍부한 전문 교사들이 학생의 논리 구조, 학술 용어 사용, 주제 적합성 등을 철저하게 첨삭하고 지도합니다. 대학원 진학을 희망하는 학생(진학 과정에 일부 포함)에게는 지도 교수와의 사전 접촉(아포인팅) 방법부터 연구 주제 설정, 그리고 구두 발표(Presentation) 능력을 집중적으로 교육하여 석사 및 박사 과정 진학 성공률을 높입니다.
+**2. Specialization in Essay and Research Plan Writing:**
+Top-tier universities in Japan evaluate students' academic depth through essays and research plans even in special admission programs for international students. Waseda EDU has a strong competitive edge in this area. Experienced professional teachers thoroughly correct and guide students' logical structure, use of academic terminology, and topic suitability. For students wishing to advance to graduate school (partially included in the university preparatory course), it focuses on teaching methods for contacting the supervising professor in advance (appointing), setting research topics, and intensively educating on oral presentation skills to increase the success rate of advancing to master's and doctoral courses.
 
-**3. 입시 정보의 신속한 제공 및 활용:**
-학교는 최신 일본 대학 입시 트렌드와 각 대학별 전형 변경 사항을 빠르게 수집하고 분석하여 학생들에게 맞춤형 정보를 제공합니다. 매년 대학 관계자들을 초청하여 학교 내부에서 대학 설명회를 개최하고, 합격생들의 데이터베이스를 활용하여 각 대학의 커트라인과 합격 전략을 정밀하게 분석하여 학생들에게 전달합니다. 이러한 데이터 기반의 진학 지도는 학생들의 지원 대학 선정의 정확도를 높이는 데 결정적인 역할을 합니다.
+**3. Prompt Provision and Utilization of Admission Information:**
+The school quickly collects and analyzes the latest Japanese university admission trends and changes in admission procedures for each university and provides students with customized information. It invites university officials every year to hold university information sessions within the school and uses the database of successful applicants to precisely analyze the cut-off scores and admission strategies of each university and convey them to the students. This data-based admission guidance plays a crucial role in increasing the accuracy of students' selection of supporting universities.
 
-**4. 졸업 후 진로 지원:**
-주요 목표는 대학 진학이지만, 대학 졸업 후 일본 내 취업을 염두에 둔 학생들을 위해 일본의 기업 문화와 취업 준비 과정에 대한 기본적인 오리엔테이션도 제공됩니다. 와세다EDU를 졸업한 학생들은 일본 명문 대학에 진학한 후, 현지 취업 시장에서도 경쟁력 있는 인재로 성장하는 경우가 많습니다.
+**4. Career Support After Graduation:**
+The main goal is university admission, but basic orientations on Japanese corporate culture and job preparation processes are also provided for students who are considering finding employment in Japan after graduating from university. Many students who graduate from Waseda EDU advance to prestigious Japanese universities and then grow into competitive human resources in the local job market.
 
-## 🏡 Accommodation & Living Support
+## Accommodation & Living Support
 
-와세다EDU일본어학교는 960명이라는 대규모 학생 수를 수용하기 위해 자체 기숙사 외에도 다수의 전문 기숙사 운영 업체와 제휴를 맺고 광범위한 숙소 옵션을 제공합니다. 신주쿠 이치가야 캠퍼스 인근에는 주거 비용이 높기 때문에, 통학 시간을 고려한 도쿄 외곽 지역과의 제휴 기숙사를 적극적으로 활용합니다.
+To accommodate a large number of 960 students, Waseda EDU Japanese Language School has partnerships with numerous specialized dormitory operators in addition to its own dormitory, providing a wide range of accommodation options. Because residential costs are high near the Ichigaya campus in Shinjuku, it actively utilizes affiliated dormitories in the outer areas of Tokyo, taking commuting time into consideration.
 
-**1. 제휴 기숙사 옵션:**
-대부분의 제휴 기숙사는 안전성과 청결도가 검증된 곳으로, 학교까지 대중교통으로 약 30분에서 60분 이내에 통학 가능한 지역에 위치합니다. 일반적인 옵션은 다음과 같습니다:
-*   **학생 맨션 (Student Mansion):** 개인실(싱글룸)을 제공하며, 개인 욕실 및 주방이 구비된 경우가 많아 독립적인 생활을 선호하는 학생에게 적합합니다.
-*   **교류형 기숙사 (Shared Dormitory):** 2인실 또는 4인실 형태로 운영되며, 공동 주방과 세탁 시설을 사용하여 비용 부담이 상대적으로 적습니다. 다양한 국적의 학생들과의 교류를 통해 일본어 실력을 생활 속에서 향상시키려는 학생들에게 인기가 높습니다.
-*   **초기 정착 지원 옵션:** 입학 직후 몇 달 동안 임시로 거주할 수 있는 단기 숙소도 마련되어 있어, 학생들이 학업에 집중하면서 장기적인 주거지를 찾을 시간을 벌 수 있도록 돕습니다.
+**1. Affiliated Dormitory Options:**
+Most of the affiliated dormitories are located in areas that have been verified for safety and cleanliness and are within approximately 30 to 60 minutes by public transportation to the school. Typical options include:
 
-**2. 초기 정착 지원 서비스:**
-대규모 유학생을 관리하는 학교답게 초기 정착 지원 시스템이 매우 체계적입니다. 여기에는 다음과 같은 필수 서비스가 포함됩니다:
-*   **공항 픽업 서비스:** 입국 당일 지정된 공항에서 학교 또는 기숙사로 이동을 지원합니다.
-*   **행정 절차 지원:** 거주지 등록(주민 등록), 국민 건강 보험 가입, 우체국 및 은행 계좌 개설 등 일본 생활에 필수적인 초기 행정 절차를 학교 직원이 직접 지도하거나 동행하여 지원합니다.
-*   **생활 오리엔테이션:** 일본의 교통, 재활용 규칙, 긴급 상황 대처 방법 등 생활에 필요한 정보를 상세히 교육하여 학생들이 안전하게 적응할 수 있도록 돕습니다.
+*   **Student Mansion:** Provides private rooms (single rooms), and many have private bathrooms and kitchens, making them suitable for students who prefer independent living.
+*   **Shared Dormitory:** Operated in the form of 2-person or 4-person rooms, and the cost burden is relatively low because communal kitchens and laundry facilities are used. It is popular with students who want to improve their Japanese language skills in daily life through exchange with students of various nationalities.
+*   **Initial Settlement Support Option:** Short-term accommodation is also available for students to temporarily reside in for a few months immediately after enrollment, helping them to focus on their studies while finding long-term housing.
 
-**3. 아르바이트 및 주거 정보 제공:**
-학교는 학생 비자 소지자의 아르바이트 규정 준수를 엄격히 지도하며, 학생들이 학업에 지장을 주지 않는 선에서 합법적으로 아르바이트를 찾을 수 있도록 구인 정보 게시판을 운영하거나 관련 정보를 제공합니다. 또한, 기숙사 생활을 마친 후 자가로 이사할 경우를 대비하여 부동산 계약 및 일본의 주거 문화에 대한 조언도 제공합니다.
+**2. Initial Settlement Support Services:**
+As a school that manages a large number of international students, the initial settlement support system is very systematic. This includes the following essential services:
 
-## 💰 Tuition, Fees & Scholarships
+*   **Airport Pick-up Service:** Supports transportation from the designated airport to the school or dormitory on the day of arrival.
+*   **Administrative Procedure Support:** School staff directly guide or accompany students to support essential initial administrative procedures for living in Japan, such as residence registration (resident registration), national health insurance enrollment, and opening post office and bank accounts.
+*   **Life Orientation:** Provides detailed information on information necessary for daily life, such as Japanese transportation, recycling rules, and emergency response methods, to help students adapt safely.
 
-와세다EDU일본어학교의 학비는 신주쿠 지역의 우수한 진학 전문 학교임을 고려할 때, 합리적인 수준으로 책정되어 있습니다. 총 납부액은 입학금, 수업료, 시설비, 교재비 등이 포함된 금액으로, 입학 시기에 따라 학습 기간이 달라지므로 총액에 차이가 발생합니다.
+**3. Providing Information on Part-Time Jobs and Housing:**
+The school strictly guides compliance with the part-time job regulations for student visa holders and operates a job posting board or provides related information so that students can legally find part-time jobs within the limits of not interfering with their studies. In addition, it provides advice on real estate contracts and Japanese housing culture in preparation for moving out on their own after dormitory life.
 
-**1. 코스별 총 비용 분석 (JPY, 2024년 기준 추정치):**
-제시된 총 납부액은 1년차 기준이 아닌, 해당 코스의 전 기간에 해당하는 총 비용일 가능성이 높습니다. (만약 1년차 비용이라면, 일반적인 일본어 학교 대비 매우 고가이므로, 여기서는 총 기간 비용으로 분석합니다.)
+## Tuition, Fees & Scholarships
 
-| 코스명 (Course Name) | 학습 기간 (Duration) | 입학 시기 (Admission Month) | 총 납부액 (Total Fees, JPY) | 월 평균 비용 (Approx.) |
+The tuition fee for Waseda EDU Japanese Language School is set at a reasonable level, considering that it is an excellent university preparatory school in the Shinjuku area. The total payment includes the entrance fee, tuition fee, facility fee, and textbook fee, and the total amount varies depending on the enrollment period because the study period differs.
+
+**1. Analysis of Total Costs by Course (JPY, Estimated as of 2024):**
+The total payment presented is likely to be the total cost for the entire period of the course, not the cost for the first year. (If it is the cost for the first year, it is very expensive compared to general Japanese language schools, so we will analyze it here as the total cost for the total period.)
+
+| Course Name | Duration | Admission Month | Total Fees (JPY) | Average Monthly Cost (Approx.) |
 | :--- | :--- | :--- | :--- | :--- |
-| 進学コース・1 | 24개월 (2년) | 4월 | 1,450,000 | 약 60,417 JPY |
-| 進学コース・2 | 21개월 (1년 9개월) | 7월 | 1,277,500 | 약 60,833 JPY |
-| 進学コース・3 | 18개월 (1년 6개월) | 10월 | 1,105,000 | 약 61,389 JPY |
-| 進学コース・4 | 15개월 (1년 3개월) | 1월 | 932,500 | 약 62,167 JPY |
+| University Preparatory Course 1 | 24 months (2 years) | April | 1,450,000 | Approx. 60,417 JPY |
+| University Preparatory Course 2 | 21 months (1 year 9 months) | July | 1,277,500 | Approx. 60,833 JPY |
+| University Preparatory Course 3 | 18 months (1 year 6 months) | October | 1,105,000 | Approx. 61,389 JPY |
+| University Preparatory Course 4 | 15 months (1 year 3 months) | January | 932,500 | Approx. 62,167 JPY |
 
-*주: 위 총 납부액은 수업료, 입학금, 시설 유지비, 초기 교재비 등이 포함된 금액이며, 정확한 내역은 학교의 공식 입시 요강을 통해 확인해야 합니다. 진학 코스의 특성상 일반 회화 코스보다 추가적인 EJU 과목 보충 수업료가 포함되어 있을 수 있습니다.
+*Note: The above total payment includes tuition fees, entrance fees, facility maintenance fees, initial textbook fees, etc., and the exact details must be confirmed through the school's official admission guidelines. Due to the nature of the university preparatory course, additional EJU subject supplementary lesson fees may be included compared to general conversation courses.
 
-**2. 장학금 제도 (Scholarships):**
-진학 전문 학교로서, 와세다EDU는 학생들의 학업 동기를 고취시키고 경제적 부담을 덜어주기 위해 다양한 내부 및 외부 장학금 제도를 적극적으로 활용합니다. 주요 장학금 유형은 다음과 같습니다:
-*   **성적 우수 장학금 (Academic Excellence Scholarship):** 학교 자체적으로 운영하며, 매 학기 EJU 모의고사 성적, JLPT 취득 여부, 그리고 출석률을 종합적으로 평가하여 상위권 학생들에게 지급됩니다. 이 장학금은 주로 다음 학기 수업료 감면 형태로 제공되어, 학생들의 학습 경쟁을 유도합니다.
-*   **일본 학생 지원 기구 (JASSO) 사비 유학생 학습 장려비:** 일본어 학교에서 가장 흔하게 받을 수 있는 공적 장학금입니다. 엄격한 심사 기준(출석률 90% 이상, 우수한 성적, 경제적 필요성 등)을 통과한 학생들에게 월별 일정 금액(통상 48,000 JPY)이 지급됩니다. 와세다EDU는 높은 성적과 출석률을 유지하는 학생들이 이 장학금을 받을 수 있도록 적극적으로 행정 지원을 합니다.
-*   **대학 진학 합격 장학금:** 와세다EDU 졸업 후 특정 명문 대학(예: 도쿄대, 와세다대 등)에 합격한 학생들을 대상으로 하는 포상성 장학금이 내부적으로 운영될 수 있습니다. 이는 학교의 진학 실적 향상과 학생들의 사기 진작에 기여합니다.
+**2. Scholarship System:**
+As a university preparatory school, Waseda EDU actively utilizes various internal and external scholarship systems to encourage students' academic motivation and reduce their financial burden. The main types of scholarships are as follows:
 
-**3. 기타 유의 사항:**
-총 납부액 외에도 기숙사 비용(월 40,000 JPY~70,000 JPY), 생활비, 교통비 등이 추가로 발생합니다. 특히 신주쿠 지역은 도쿄 내에서도 물가가 높은 편이므로, 예산 계획 시 이를 충분히 고려해야 합니다. 학교는 학생들에게 아르바이트를 통해 생활비를 충당하는 것을 허용하지만, 학업에 지장이 가지 않도록 시간 규정 준수를 엄격하게 관리합니다. 와세다EDU를 선택하는 것은 비용 이상의 가치, 즉 최고 수준의 진학 교육을 구매하는 것임을 인식하는 것이 중요합니다.
+*   **Academic Excellence Scholarship:** Operated by the school itself, it is paid to top students by comprehensively evaluating the EJU mock exam scores, JLPT acquisition status, and attendance rate every semester. This scholarship is mainly provided in the form of tuition fee reduction for the next semester, inducing students' learning competition.
+*   **Japan Student Services Organization (JASSO) Scholarship for Privately Financed International Students:** This is the most common public scholarship that can be received at Japanese language schools. A fixed monthly amount (usually 48,000 JPY) is paid to students who pass strict screening criteria (attendance rate of 90% or higher, excellent grades, economic need, etc.). Waseda EDU actively provides administrative support so that students who maintain high grades and attendance rates can receive this scholarship.
+*   **University Admission Scholarship:** A reward scholarship may be operated internally for students who graduate from Waseda EDU and pass specific prestigious universities (e.g., University of Tokyo, Waseda University, etc.). This contributes to improving the school's admission performance and boosting students' morale.
+
+**3. Other Notes:**
+In addition to the total payment, dormitory fees (40,000 JPY to 70,000 JPY per month), living expenses, and transportation expenses will be incurred. In particular, the Shinjuku area is one of the most expensive areas in Tokyo, so this should be fully considered when planning your budget. The school allows students to cover living expenses through part-time jobs, but strictly manages compliance with time regulations to avoid interfering with their studies. It is important to recognize that choosing Waseda EDU is purchasing value beyond cost, that is, the highest level of university preparatory education.

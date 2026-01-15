@@ -1,57 +1,67 @@
 ---
-basic_info:
-  address: 東京都文京区本郷７丁目３−１
-  name_en: The University of Tokyo
-  name_ja: 東京大学
-  website: https://www.u-tokyo.ac.jp/
-category: university
-faculties:
-- Faculty of Law
-- Faculty of Medicine
-- Faculty of Engineering
-- Faculty of Letters
-- Faculty of Science
-- Faculty of Agriculture
-- Faculty of Economics
-- Faculty of Arts and Sciences
-- Faculty of Education
-- Faculty of Pharmaceutical Sciences
-features:
-- SGU
-- EJU Required
-- English Program
-- Dormitory
-- Scholarship
-id: univ_the-university-of-tokyo
-layout: school
-location:
-  lat: 35.7115533
-  lng: 139.7616856
-stats:
-  acceptance_rate: 20%
-  international_students: 3000
-tags:
-- SGU
-- EJU Required
-- English Program
-- Dormitory
-- Scholarship
-thumbnail: /static/img/pin-univ.png
-title: 東京大学
-tuition:
-  admission_fee: 282000
-  yearly_tuition: 535800
+{
+  "basic_info": {
+    "address": "東京都文京区本郷７丁目３−１",
+    "name_en": "The University of Tokyo",
+    "name_ja": "東京大学",
+    "website": "https://www.u-tokyo.ac.jp/"
+  },
+  "category": "university",
+  "faculties": [
+    "Faculty of Law",
+    "Faculty of Medicine",
+    "Faculty of Engineering",
+    "Faculty of Letters",
+    "Faculty of Science",
+    "Faculty of Agriculture",
+    "Faculty of Economics",
+    "Faculty of Arts and Sciences",
+    "Faculty of Education",
+    "Faculty of Pharmaceutical Sciences"
+  ],
+  "features": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "id": "univ_the-university-of-tokyo",
+  "layout": "school",
+  "location": {
+    "lat": 35.7115533,
+    "lng": 139.7616856
+  },
+  "stats": {
+    "acceptance_rate": "20%",
+    "international_students": 3000
+  },
+  "tags": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "The University of Tokyo",
+  "tuition": {
+    "admission_fee": 282000,
+    "yearly_tuition": 535800
+  },
+  "translated": true
+}
 ---
 
 ## 🏫 University Overview & Reputation
 
-The University of Tokyo (東京大学, Tōkyō Daigaku), often shortened to Todai (東大, Tōdai), stands as a beacon of academic excellence in Japan and on the global stage. Established in 1877 as the nation's first imperial university, it holds a revered position as a top-tier national university, consistently ranked among the world's best. Todai's influence permeates every facet of Japanese society, having nurtured generations of leaders, innovators, and thinkers who have shaped the country's trajectory. Its graduates are highly sought after in various sectors, including government, business, academia, and technology.
+The University of Tokyo (東京大学, Tōkyō Daigaku), often shortened to Todai (東大, Tōdai), is a leading academic institution in Japan and worldwide. Founded in 1877 as Japan's first imperial university, it is a highly esteemed national university, consistently ranked among the best globally. Todai has a significant impact on Japanese society, having educated generations of leaders, innovators, and thinkers. Its graduates are highly sought after in government, business, academia, and technology.
 
-Todai's historical significance is deeply interwoven with Japan's modernization during the Meiji Restoration. As the country embarked on a rapid period of Westernization and industrialization, Todai played a pivotal role in educating the skilled workforce and intellectual elite necessary to drive this transformation. The university adopted a curriculum based on Western models, while simultaneously preserving and promoting Japanese culture and traditions. This unique blend of global perspective and local relevance has remained a defining characteristic of Todai to this day.
+Todai's history is closely linked to Japan's modernization during the Meiji Restoration. As the country rapidly Westernized and industrialized, Todai played a crucial role in training the skilled workforce and intellectual elite needed for this transformation. The university adopted a curriculum based on Western models while preserving and promoting Japanese culture and traditions. This blend of global perspective and local relevance remains a key characteristic of Todai.
 
-The university's reputation is built upon its commitment to rigorous academic standards, cutting-edge research, and a dedication to fostering intellectual curiosity. Todai boasts a distinguished faculty comprised of leading scholars and researchers who are at the forefront of their respective fields. Their groundbreaking work has earned the university numerous accolades, including multiple Nobel Prizes. Furthermore, Todai's extensive network of international collaborations and partnerships allows it to engage in global dialogues and contribute to solving pressing global challenges. The university consistently aims to produce individuals who are not only experts in their fields but also possess critical thinking skills and a strong sense of social responsibility.
+The university's reputation rests on its rigorous academic standards, cutting-edge research, and dedication to fostering intellectual curiosity. Todai has a distinguished faculty of leading scholars and researchers at the forefront of their fields. Their groundbreaking work has earned the university numerous awards, including several Nobel Prizes. Additionally, Todai's extensive network of international collaborations allows it to participate in global discussions and contribute to solving global challenges. The university aims to produce individuals who are not only experts in their fields but also possess critical thinking skills and a strong sense of social responsibility.
 
-Todai fosters a dynamic and stimulating learning environment that encourages students to explore their intellectual passions, challenge conventional wisdom, and develop innovative solutions. The university is renowned for its demanding academic programs, which push students to reach their full potential. The competitive atmosphere, combined with the collaborative spirit of the student body, creates a unique and rewarding educational experience. Todai's commitment to excellence ensures that its graduates are well-prepared to succeed in their chosen careers and make meaningful contributions to society.
+Todai fosters a dynamic learning environment that encourages students to explore their intellectual passions, challenge conventional wisdom, and develop innovative solutions. The university is known for its demanding academic programs, which push students to reach their full potential. The competitive atmosphere, combined with the collaborative spirit of the student body, creates a unique and rewarding educational experience. Todai's commitment to excellence ensures that its graduates are well-prepared to succeed in their chosen careers and make meaningful contributions to society.
 
 ## 🎓 Notable Faculties & Signature Programs
 
@@ -90,9 +100,22 @@ For programs offered entirely in English, such as the EPEE and PEAK programs at 
     *   G30 International Program in Science - Faculty of Science (Specific departments vary)
     *   Various graduate programs within the Faculties of Engineering and Science, depending on the specific laboratory and professor. Contact individual professors to check.
 
-The University of Tokyo's **International Student Support Office (ISSO)** plays a crucial role in assisting international students with various aspects of their academic and personal lives. The ISSO provides information and guidance on visa procedures, housing options, financial aid, and health insurance. They also organize orientation programs, cultural events, and language exchange activities to help international students adjust to life in Japan and connect with the local community. **Academic advising** is available within each faculty and department, where students can consult with professors and advisors regarding their academic progress, course selection, and career planning. **Counseling services** are also available to provide support for students experiencing personal or academic challenges. The ISSO also provides **visa support**, assisting students with the application and renewal of their student visas.
+The University of Tokyo's **International Student Support Office (ISSO)** plays a crucial role in assisting international students with various aspects of their academic and personal lives. The ISSO provides information and guidance on:
 
-The University of Tokyo has a vibrant and diverse international student community, with approximately **3,000 international students** from over 100 countries enrolled in various programs. The university offers a wide range of **student clubs and organizations**, catering to diverse interests and hobbies. These clubs provide opportunities for international students to connect with Japanese students and other international students, participate in extracurricular activities, and explore their passions. The **overall campus atmosphere** is generally welcoming and inclusive, with efforts made to promote intercultural understanding and communication. The university also hosts numerous international events and festivals throughout the year, showcasing the diversity of its student body.
+*   Visa procedures
+*   Housing options
+*   Financial aid
+*   Health insurance
+
+They also organize orientation programs, cultural events, and language exchange activities to help international students adjust to life in Japan and connect with the local community. **Academic advising** is available within each faculty and department, where students can consult with professors and advisors regarding their academic progress, course selection, and career planning. **Counseling services** are also available to provide support for students experiencing personal or academic challenges. The ISSO also provides **visa support**, assisting students with the application and renewal of their student visas.
+
+The University of Tokyo has a vibrant and diverse international student community, with approximately **3,000 international students** from over 100 countries enrolled in various programs. The university offers a wide range of **student clubs and organizations**, catering to diverse interests and hobbies. These clubs provide opportunities for international students to:
+
+*   Connect with Japanese students and other international students
+*   Participate in extracurricular activities
+*   Explore their passions
+
+The **overall campus atmosphere** is generally welcoming and inclusive, with efforts made to promote intercultural understanding and communication. The university also hosts numerous international events and festivals throughout the year, showcasing the diversity of its student body.
 
 ## 💰 Tuition, Scholarships & Cost of Living
 

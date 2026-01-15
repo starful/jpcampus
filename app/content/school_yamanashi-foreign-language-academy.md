@@ -57,25 +57,26 @@
       "total_fees": 1213300
     }
   ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=595"
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=595",
+  "translated": true
 }
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-Yamanashi Foreign Language Academy, located in Kofu City, Yamanashi Prefecture, is a Japanese language school dedicated to providing comprehensive language education and support for international students aspiring to further their academic or professional careers in Japan. With a relatively small capacity of 80 students, the academy fosters a close-knit learning environment where personalized attention and individual guidance are prioritized. The school's philosophy centers around not only equipping students with the necessary Japanese language proficiency but also nurturing their cultural understanding and adaptability to thrive in Japanese society. They aim to be more than just a language school, striving to be a stepping stone for students' future success in Japan.
+Yamanashi Foreign Language Academy, situated in Kofu City, Yamanashi Prefecture, is a Japanese language school committed to delivering comprehensive language education and support to international students who aspire to advance their academic or professional paths in Japan. With a relatively small capacity of 80 students, the academy cultivates a close-knit learning atmosphere where personalized attention and individual guidance are paramount. The school's philosophy revolves around not only equipping students with the necessary Japanese language skills but also fostering their cultural understanding and adaptability to flourish in Japanese society. Their goal is to be more than just a language school, serving as a stepping stone for students' future triumphs in Japan.
 
-The academy prides itself on its holistic approach to language learning, recognizing that fluency encompasses more than just grammatical accuracy. They emphasize practical communication skills, enabling students to confidently engage in everyday conversations and navigate real-world situations. This commitment to practical application is reflected in their curriculum, which incorporates interactive activities, group projects, and opportunities for students to practice their Japanese with native speakers. The school's location in Yamanashi offers a unique advantage, providing students with exposure to a less urbanized, more traditional Japanese environment, fostering a deeper appreciation for Japanese culture and customs.
+The academy prides itself on its holistic approach to language learning, acknowledging that fluency encompasses more than just grammatical accuracy. They emphasize practical communication skills, empowering students to confidently engage in everyday conversations and navigate real-world scenarios. This commitment to practical application is evident in their curriculum, which integrates interactive activities, group projects, and opportunities for students to practice their Japanese with native speakers. The school's location in Yamanashi offers a unique advantage, exposing students to a less urbanized, more traditional Japanese setting, thus nurturing a deeper appreciation for Japanese culture and customs.
 
-Beyond language acquisition, Yamanashi Foreign Language Academy understands the importance of preparing students for higher education in Japan. The school offers specialized courses and support systems designed to help students succeed on the Examination for Japanese University Admission for International Students (EJU). They provide targeted instruction in all EJU subjects, including Japanese language, mathematics, science, and Japan and the World. Furthermore, the academy offers career guidance and counseling services, assisting students in identifying their academic and professional goals and navigating the complex university application process. This dedication to university preparation underscores the school's commitment to ensuring its students' long-term success in Japan.
+Beyond language acquisition, Yamanashi Foreign Language Academy recognizes the significance of preparing students for higher education in Japan. The school provides specialized courses and support systems designed to assist students in excelling on the Examination for Japanese University Admission for International Students (EJU). They offer targeted instruction in all EJU subjects, including Japanese language, mathematics, science, and Japan and the World. Furthermore, the academy provides career guidance and counseling services, aiding students in identifying their academic and professional objectives and navigating the complex university application process. This dedication to university preparation underscores the school's commitment to ensuring its students' long-term success in Japan.
 
-Furthermore, the academy acknowledges that studying abroad can be a significant adjustment for international students. Therefore, they provide comprehensive support services to help students settle in and adapt to their new environment. These services include assistance with visa applications, housing arrangements, and health insurance. The academy also organizes cultural events and excursions to help students explore Japan and connect with other students from diverse backgrounds. By fostering a supportive and inclusive community, Yamanashi Foreign Language Academy aims to create a home away from home for its international students.
+Moreover, the academy acknowledges that studying abroad can present a considerable adjustment for international students. Consequently, they offer comprehensive support services to help students settle in and adapt to their new environment. These services encompass assistance with visa applications, housing arrangements, and health insurance. The academy also organizes cultural events and excursions to help students explore Japan and connect with other students from diverse backgrounds. By fostering a supportive and inclusive community, Yamanashi Foreign Language Academy aspires to create a home away from home for its international students.
 
-## 📚 Courses, Curriculum & Teaching Style
+## Courses, Curriculum & Teaching Style
 
-Yamanashi Foreign Language Academy offers two primary long-term courses designed for students aiming to enter Japanese universities or vocational schools: a 2-year course and a 1-year and 6-month course. The 2-year course starts in April, providing students with the most comprehensive preparation for higher education. The 1-year and 6-month course begins in October and is geared towards students who already possess some foundational knowledge of Japanese or those seeking a more accelerated pathway. Both courses cover a wide range of topics, including grammar, vocabulary, reading comprehension, listening comprehension, speaking, and writing. The curriculum is structured to gradually build students' language proficiency, starting with basic concepts and progressing to more advanced topics.
+Yamanashi Foreign Language Academy offers two primary long-term courses tailored for students aiming to enter Japanese universities or vocational schools: a 2-year course and a 1-year and 6-month course. The 2-year course commences in April, providing students with the most comprehensive preparation for higher education. The 1-year and 6-month course begins in October and is designed for students who already possess some foundational knowledge of Japanese or those seeking a more accelerated pathway. Both courses cover a wide array of topics, including grammar, vocabulary, reading comprehension, listening comprehension, speaking, and writing. The curriculum is structured to progressively build students' language proficiency, starting with basic concepts and advancing to more advanced topics.
 
-A key feature of the academy's curriculum is its emphasis on practical communication skills. Students are actively encouraged to participate in class discussions, role-playing exercises, and group projects to improve their fluency and confidence in speaking Japanese. The school also incorporates real-world materials, such as newspapers, magazines, and television programs, into its lessons to expose students to authentic Japanese language and culture. Furthermore, the academy utilizes a variety of teaching methods, including interactive lectures, multimedia presentations, and hands-on activities, to cater to different learning styles and keep students engaged.
+A key attribute of the academy's curriculum is its emphasis on practical communication skills. Students are actively encouraged to participate in class discussions, role-playing exercises, and group projects to enhance their fluency and confidence in speaking Japanese. The school also incorporates real-world materials, such as newspapers, magazines, and television programs, into its lessons to expose students to authentic Japanese language and culture. Furthermore, the academy utilizes a variety of teaching methods, including interactive lectures, multimedia presentations, and hands-on activities, to cater to different learning styles and maintain student engagement.
 
 The curriculum is not solely focused on general Japanese language proficiency; it also incorporates specialized training for the EJU. The school offers dedicated EJU preparation classes that cover all the subjects tested on the exam, including Japanese language, mathematics, science (physics, chemistry, and biology), and Japan and the World. These classes provide students with targeted instruction, practice tests, and strategies for maximizing their scores on the EJU. Furthermore, the academy offers individualized tutoring and counseling services to help students address their specific academic needs and overcome any challenges they may face.
 
@@ -83,7 +84,7 @@ In addition to the standard Japanese language curriculum and EJU preparation, Ya
 
 The teaching style at Yamanashi Foreign Language Academy is characterized by its student-centered approach. The teachers are highly qualified and experienced in teaching Japanese as a foreign language. They are committed to creating a supportive and encouraging learning environment where students feel comfortable asking questions and expressing their opinions. The teachers also provide personalized feedback and guidance to help students improve their language skills and achieve their academic goals. The small class sizes allow for more individual attention and interaction between teachers and students, fostering a strong sense of community within the classroom.
 
-## 🌍 Student Body & Campus Life
+## Student Body & Campus Life
 
 The student body at Yamanashi Foreign Language Academy is diverse, representing a variety of nationalities and cultural backgrounds. The academy attracts students from across Asia, Europe, and the Americas, creating a truly international learning environment. This diversity provides students with the opportunity to learn about different cultures, exchange ideas, and make friends from around the world. The academy actively promotes intercultural understanding and encourages students to participate in cultural exchange activities.
 
@@ -95,7 +96,7 @@ The academy’s location in Kofu City, Yamanashi Prefecture, offers students a u
 
 To further enhance campus life, the academy also provides various support services to students, ensuring their well-being and overall success. The administrative staff is readily available to assist students with any questions or concerns they may have, providing guidance on matters such as visa renewals, health insurance, and accommodation. The academy also offers counseling services to help students cope with the challenges of adjusting to a new culture and academic environment. By providing a comprehensive network of support, Yamanashi Foreign Language Academy strives to create a safe and nurturing environment where students can thrive.
 
-## 🎓 University & Career Pathways
+## University & Career Pathways
 
 Yamanashi Foreign Language Academy places a strong emphasis on preparing students for university admission in Japan. The curriculum is specifically designed to equip students with the necessary language skills and academic knowledge to succeed on the EJU and other university entrance exams. The academy offers comprehensive EJU preparation courses that cover all the subjects tested on the exam, and provides students with individualized tutoring and counseling to help them address their specific academic needs.
 
@@ -107,21 +108,34 @@ Yamanashi Foreign Language Academy also supports students who are interested in 
 
 By providing comprehensive academic preparation, career guidance, and job search support, Yamanashi Foreign Language Academy empowers students to achieve their academic and professional goals in Japan. The academy's commitment to student success extends beyond the classroom, creating a supportive and nurturing environment where students can thrive and realize their full potential. They understand that their role is not only to teach the Japanese language, but to facilitate the student's journey into higher education and potential career opportunities within Japan.
 
-## 🏡 Accommodation & Living Support
+## Accommodation & Living Support
 
 Yamanashi Foreign Language Academy understands that comfortable and convenient accommodation is crucial for international students to focus on their studies and adjust to their new life in Japan. The school offers on-campus dormitory options, including single rooms, which is a significant advantage for students who value privacy and independence. These dormitories are conveniently located within walking distance of the school, saving students time and transportation costs.
 
-The on-campus dormitories are typically equipped with basic amenities such as a bed, desk, chair, and wardrobe. Some dormitories may also include a private bathroom and kitchenette. The dormitories usually have common areas such as a lounge, kitchen, and laundry room, providing students with opportunities to socialize with each other and share meals. The school also provides regular cleaning and maintenance services to ensure that the dormitories are kept clean and well-maintained.
+The on-campus dormitories are typically equipped with basic amenities such as:
+
+*   Bed
+*   Desk
+*   Chair
+*   Wardrobe
+
+Some dormitories may also include a private bathroom and kitchenette. The dormitories usually have common areas such as a lounge, kitchen, and laundry room, providing students with opportunities to socialize with each other and share meals. The school also provides regular cleaning and maintenance services to ensure that the dormitories are kept clean and well-maintained.
 
 In addition to on-campus dormitories, Yamanashi Foreign Language Academy can also assist students in finding off-campus accommodation, such as apartments or guesthouses. The school has partnerships with local real estate agencies and landlords, and can help students navigate the rental process and find suitable housing options that meet their budget and preferences. The school also provides information on Japanese housing customs and regulations, helping students avoid any misunderstandings or problems.
 
-The academy also offers comprehensive living support services to help students settle in and adapt to their new environment. The school provides assistance with opening a bank account, obtaining a mobile phone, and setting up utilities. They also provide information on local transportation, shopping, and entertainment options. The school staff is readily available to answer any questions or concerns that students may have, and provide guidance on any issues they may encounter.
+The academy also offers comprehensive living support services to help students settle in and adapt to their new environment. The school provides assistance with:
+
+*   Opening a bank account
+*   Obtaining a mobile phone
+*   Setting up utilities
+
+They also provide information on local transportation, shopping, and entertainment options. The school staff is readily available to answer any questions or concerns that students may have, and provide guidance on any issues they may encounter.
 
 Furthermore, Yamanashi Foreign Language Academy recognizes the importance of safety and security for international students. The school provides 24-hour security services in the on-campus dormitories, and works closely with local authorities to ensure the safety and well-being of its students. The school also provides students with information on emergency procedures and safety tips, helping them stay safe and secure during their stay in Japan.
 
 By providing comfortable accommodation options and comprehensive living support services, Yamanashi Foreign Language Academy aims to create a home away from home for its international students. The school understands that a safe and supportive living environment is essential for students to succeed academically and personally.
 
-## 💰 Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships
 
 The tuition and fees for Yamanashi Foreign Language Academy vary depending on the course duration. Here's a breakdown based on the provided data:
 

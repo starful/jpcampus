@@ -1,55 +1,81 @@
 ---
-basic_info:
-  address: 東京都新宿区百人町1-13-14
-  capacity: 140
-  name_en: Shinjuku Heiwa Japanese Language School
-  name_ja: 新宿平和日本語学校
-category: school
-courses:
-- admission_month: '4'
-  course_name: 日本語総合2年コース
-  total_fees: 1558000
-- admission_month: '7'
-  course_name: 日本語総合1年9ヶ月コース
-  total_fees: 1375000
-- admission_month: '10'
-  course_name: 日本語総合1年6ヶ月コース
-  total_fees: 1192000
-- admission_month: '1'
-  course_name: 日本語総合1年3ヶ月コース
-  total_fees: 1009000
-faculties: []
-features:
-- Dormitory
-- University Advancement
-- Conversation Focus
-- EJU Preparation
-id: school_shinjuku-heiwa-japanese-language-school
-layout: school
-location:
-  lat: 35.6996072
-  lng: 139.6991275
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=127
-stats:
-  capacity: 140
-  international_students: 0
-tags:
-- Dormitory
-- University Advancement
-- Conversation Focus
-- EJU Preparation
-thumbnail: /static/img/pin-school.png
-title: 新宿平和日本語学校
-tuition: {}
+{
+  "basic_info": {
+    "address": "東京都新宿区百人町1-13-14",
+    "capacity": 140,
+    "name_en": "Shinjuku Heiwa Japanese Language School",
+    "name_ja": "新宿平和日本語学校",
+    "category": "school",
+    "courses": [
+      {
+        "admission_month": "4",
+        "course_name": "日本語総合2年コース",
+        "total_fees": 1558000
+      },
+      {
+        "admission_month": "7",
+        "course_name": "日本語総合1年9ヶ月コース",
+        "total_fees": 1375000
+      },
+      {
+        "admission_month": "10",
+        "course_name": "日本語総合1年6ヶ月コース",
+        "total_fees": 1192000
+      },
+      {
+        "admission_month": "1",
+        "course_name": "日本語総合1年3ヶ月コース",
+        "total_fees": 1009000
+      }
+    ],
+    "faculties": [],
+    "features": [
+      "Dormitory",
+      "University Advancement",
+      "Conversation Focus",
+      "EJU Preparation"
+    ],
+    "id": "school_shinjuku-heiwa-japanese-language-school",
+    "layout": "school",
+    "location": {
+      "lat": 35.6996072,
+      "lng": 139.6991275
+    },
+    "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=127",
+    "stats": {
+      "capacity": 140,
+      "international_students": 0
+    },
+    "tags": [
+      "Dormitory",
+      "University Advancement",
+      "Conversation Focus",
+      "EJU Preparation"
+    ],
+    "thumbnail": "/static/img/pin-school.png",
+    "title": "Shinjuku Heiwa Japanese Language School",
+    "tuition": {}
+  },
+  "content_body": "## 🏫 School Overview & Philosophy",
+  "translated": true,
+  "description": "Discover Shinjuku Heiwa Japanese Language School in Tokyo: a leading institution for Japanese language education, specializing in university preparation. Explore courses, campus life, and accommodation options.",
+  "features": [
+    "Dormitory",
+    "University Preparation",
+    "Conversation Focused Classes",
+    "EJU Exam Preparation"
+  ],
+  "title": "Shinjuku Heiwa Japanese Language School"
+}
 ---
 
 ## 🏫 School Overview & Philosophy
 
-**Shinjuku Heiwa Japanese Language School (新宿平和日本語学校)** is a well-established Japanese language institution nestled in the bustling and culturally diverse Hyakunincho district of Shinjuku, Tokyo. Since its founding, the school has been dedicated to providing high-quality Japanese language education with a strong emphasis on preparing students for academic success in Japan. Although the metadata indicates a capacity of 140 students, the actual number might vary slightly. The school strives to maintain a focused and supportive learning environment.
+**Shinjuku Heiwa Japanese Language School** is a well-established Japanese language institution nestled in the vibrant and culturally diverse Hyakunincho district of Shinjuku, Tokyo. Since its founding, the school has been dedicated to providing high-quality Japanese language education, with a strong emphasis on preparing students for academic success in Japan. While the metadata indicates a capacity of 140 students, the actual number might vary slightly. The school strives to maintain a focused and supportive learning environment.
 
-Located just a short walk from Shin-Okubo and Okubo stations, the school enjoys a prime location within one of Tokyo's most vibrant neighborhoods. Hyakunincho is renowned for its multicultural atmosphere, particularly its Korean influence, offering students a unique opportunity to experience diverse cultures alongside their Japanese language studies. The area is also replete with affordable eateries, convenience stores, and other essential amenities, making it a practical and convenient location for international students.
+Located just a short walk from Shin-Okubo and Okubo stations, the school enjoys a prime location within one of Tokyo's most lively neighborhoods. Hyakunincho is renowned for its multicultural atmosphere, particularly its Korean influence, offering students a unique opportunity to experience diverse cultures alongside their Japanese language studies. The area also features numerous affordable restaurants, convenience stores, and other essential amenities, making it a practical and convenient location for international students.
 
-Shinjuku Heiwa Japanese Language School’s educational philosophy centers on a holistic approach to language learning. The school recognizes that mastering Japanese requires not only a solid foundation in grammar and vocabulary but also the ability to effectively communicate in real-world situations. The curriculum is carefully designed to integrate these aspects, providing students with the skills and confidence they need to thrive in both academic and social settings. The faculty are experienced and passionate about teaching Japanese as a second language.
+Shinjuku Heiwa Japanese Language School’s educational philosophy centers on a holistic approach to language learning. The school recognizes that mastering Japanese requires not only a solid foundation in grammar and vocabulary but also the ability to communicate effectively in real-world situations. The curriculum is carefully designed to integrate these aspects, providing students with the skills and confidence they need to thrive in both academic and social settings. The faculty are experienced and passionate about teaching Japanese as a second language.
 
 The school’s core mission is to equip students with the necessary language proficiency and cultural understanding to successfully pursue higher education at Japanese universities and graduate schools. To achieve this, Shinjuku Heiwa offers specialized courses and dedicated support for students preparing for the Examination for Japanese University Admission (EJU) and other entrance exams. It is committed to fostering an inclusive and supportive community where students can learn, grow, and achieve their academic aspirations in Japan.
 
@@ -70,7 +96,7 @@ Shinjuku Heiwa Japanese Language School offers comprehensive Japanese language c
 
 **Comprehensive Japanese 1-Year 6-Month Course:** This program strikes a balance between intensive language training and a more relaxed learning environment. The curriculum is designed to provide students with a solid foundation in Japanese while also allowing them time to explore Japanese culture and lifestyle. The teaching style incorporates a variety of methods, including interactive lectures, group discussions, and multimedia resources. EJU preparation is an integral part of the course, with regular practice tests and personalized feedback. The course is a good option for students who want to study in Japan but prefer a less demanding learning pace. It is also suitable for students who are interested in working part-time while studying Japanese.
 
-**Comprehensive Japanese 1-Year 3-Month Course:** This is the most intensive course offered by Shinjuku Heiwa, designed for students who need to rapidly improve their Japanese skills in a short period of time. The curriculum is highly focused on EJU preparation, with a strong emphasis on test-taking techniques and strategies. The teaching style is rigorous and demanding, requiring students to commit to intensive study both inside and outside the classroom. The course is best suited for students who already have a basic understanding of Japanese and who are highly motivated to succeed. While covering fundamental grammar, the course focuses on vocabulary acquisition and refining conversation skills necessary for navigating daily life and university studies.
+**Comprehensive Japanese 1-Year 3-Month Course:** This is the most intensive course offered by Shinjuku Heiwa, designed for students who need to rapidly improve their Japanese skills in a short period. The curriculum is highly focused on EJU preparation, with a strong emphasis on test-taking techniques and strategies. The teaching style is rigorous and demanding, requiring students to commit to intensive study both inside and outside the classroom. The course is best suited for students who already have a basic understanding of Japanese and who are highly motivated to succeed. While covering fundamental grammar, the course focuses on vocabulary acquisition and refining conversation skills necessary for navigating daily life and university studies.
 
 ## 🌍 Student Body & Campus Life
 

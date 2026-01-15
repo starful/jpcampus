@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_kyoto-seika-university-international-guide",
-  "title": "京都精華大学",
+  "title": "Kyoto Seika University",
   "category": "university",
   "tags": [
     "EJU Recommended",
@@ -19,7 +19,7 @@
   "basic_info": {
     "name_ja": "京都精華大学",
     "name_en": "Kyoto Seika University",
-    "address": "〒606-8585 京都府京都市左京区岩倉木野町137",
+    "address": "〒606-8585 Kyoto, Sakyo Ward, Iwakura Kinomotocho 137",
     "website": "https://www.kyoto-seika.ac.jp/"
   },
   "stats": {
@@ -44,21 +44,22 @@
     "Creative Arts Focus",
     "Global Leader in Manga Studies",
     "Robust Scholarship System"
-  ]
+  ],
+  "translated": true
 }
 ---
 
 ## 🏫 University Overview & Reputation
 
-Kyoto Seika University (KSU) stands not among the traditional 'Soukeisen' or 'Jochi' universities, which prioritize law or commerce, but occupies a singular, preeminent position as one of Japan’s most influential and future-forward private institutions specializing in the arts, design, and most notably, manga. Founded in 1968, KSU’s guiding philosophy is deeply rooted in fostering creative individuals who contribute positively to society, prioritizing freedom of expression and intellectual curiosity above rigid academic traditionalism. This commitment has positioned KSU as a powerful, non-traditional educational powerhouse.
+Kyoto Seika University (KSU) is not one of the traditional 'Soukeisen' or 'Jochi' universities, which typically focus on law or commerce. Instead, KSU uniquely excels as one of Japan's most influential and forward-thinking private institutions specializing in the arts, design, and, most notably, manga. Founded in 1968, KSU's core philosophy centers on nurturing creative individuals who positively contribute to society, prioritizing freedom of expression and intellectual curiosity over rigid academic conventions. This commitment has established KSU as a powerful, non-traditional educational leader.
 
-KSU’s academic reputation is virtually unparalleled in the creative sector, particularly worldwide. It is internationally recognized as the birthplace of the world's first dedicated undergraduate program in Manga, an initiative that pioneered the scholarly study and professional training of this cultural phenomenon. This historical move solidified its status as the global epicenter for manga education and research, attracting students and academics from every corner of the world. Within Japan, it is often ranked alongside Musashino Art University and Tama Art University as a top-tier private art institution, distinguished further by its specific focus on contemporary media and digital arts.
+KSU's academic reputation is virtually unmatched in the creative sector, especially on a global scale. It is internationally recognized as the pioneer of the world's first undergraduate program dedicated to Manga, an initiative that revolutionized the academic study and professional training of this cultural art form. This milestone cemented its position as the global epicenter for manga education and research, attracting students and academics from all over the world. Within Japan, it is often ranked alongside Musashino Art University and Tama Art University as a top-tier private art institution, further distinguished by its specific focus on contemporary media and digital arts.
 
-Socially, the university is known for its highly progressive and inclusive atmosphere, often promoting critical thinking about art’s societal role. Unlike many traditional Japanese universities, the campus culture is highly internationalized, reflecting its unique programs and global draw. It is a highly specialized private university, often surpassing its national counterparts in resources and prestige within the niche of visual and media arts. Aspiring artists and designers consider KSU a 'dream school' due to its state-of-the-art facilities, high-profile faculty (including many active professional artists and mangaka), and its location in Kyoto—the cultural and historical heart of Japan.
+Socially, the university is known for its highly progressive and inclusive environment, frequently encouraging critical thinking about the societal role of art. Unlike many traditional Japanese universities, the campus culture is highly internationalized, reflecting its unique programs and global appeal. KSU is a highly specialized private university, often surpassing its national counterparts in resources and prestige within the niche of visual and media arts. Aspiring artists and designers often consider KSU a 'dream school' due to its state-of-the-art facilities, renowned faculty (including many active professional artists and mangaka), and its location in Kyoto—the cultural and historical heart of Japan.
 
 ## 🎓 Faculties & Signature Programs
 
-Kyoto Seika University structures its education around five main faculties, all centered on creative expression and practical application. These faculties are designed to be highly specialized, ensuring students receive focused training in cutting-edge techniques relevant to their future careers. The university maintains a low student-to-faculty ratio, maximizing studio time and personalized feedback—a critical component of art education.
+Kyoto Seika University organizes its education around five main faculties, all focused on creative expression and practical application. These faculties are designed to be highly specialized, ensuring students receive focused training in cutting-edge techniques relevant to their future careers. The university maintains a low student-to-faculty ratio, maximizing studio time and personalized feedback—a critical element of art education.
 
 ### Faculty Breakdown Table
 
@@ -74,11 +75,11 @@ Kyoto Seika University structures its education around five main faculties, all 
 
 #### 1. The Faculty of Manga: Global Manga Education Apex
 
-Kyoto Seika University’s Faculty of Manga is arguably its most famous program and a major magnet for international students. Established in 2000, it set the global standard for academic instruction in manga. The faculty offers intensive, specialized courses ranging from traditional narrative manga (storytelling, character design, inking) to digital animation and experimental comic forms. Students benefit from the presence of numerous professional mangaka serving as instructors, providing unparalleled industry insight and critique. The faculty is closely linked to the Kyoto International Manga Museum (co-managed by KSU), offering students direct access to archival materials, research opportunities, and public engagement events. Prospective international students must prepare not only for rigorous language requirements but also an extremely high-level portfolio demonstrating potential in visual storytelling and draftsmanship. Success in this faculty often leads directly to professional serialization contracts in Japan.
+Kyoto Seika University’s Faculty of Manga is arguably its most famous program and a major draw for international students. Established in 2000, it set the global standard for academic instruction in manga. The faculty offers intensive, specialized courses ranging from traditional narrative manga (storytelling, character design, inking) to digital animation and experimental comic forms. Students benefit from the presence of numerous professional mangaka serving as instructors, providing unparalleled industry insight and critique. The faculty is closely linked to the Kyoto International Manga Museum (co-managed by KSU), offering students direct access to archival materials, research opportunities, and public engagement events. Prospective international students must prepare not only for rigorous language requirements but also an extremely high-level portfolio demonstrating potential in visual storytelling and draftsmanship. Success in this faculty often leads directly to professional serialization contracts in Japan.
 
 #### 2. Faculty of Design: Interdisciplinary and Future-Oriented
 
-The Faculty of Design at KSU moves beyond mere aesthetics, emphasizing design thinking as a tool for solving complex societal problems. The program is noteworthy for its strong interdisciplinary structure, particularly within the Departments of Architecture and Product Design. Unlike many Japanese architecture schools that focus solely on engineering, KSU integrates strong artistic and conceptual training, reflecting global trends in sustainable and human-centered design. International students are attracted to the Visual Design department for its rigorous training in graphic identity, motion graphics, and typography, often with a strong focus on utilizing Japanese visual culture (like traditional crafts and calligraphy) in contemporary global contexts. Projects often involve collaboration with Kyoto-based traditional artisans and modern tech companies, ensuring real-world relevance and exceptional career placement rates.
+The Faculty of Design at KSU goes beyond mere aesthetics, emphasizing design thinking as a tool for solving complex societal problems. The program is noteworthy for its strong interdisciplinary structure, particularly within the Departments of Architecture and Product Design. Unlike many Japanese architecture schools that focus solely on engineering, KSU integrates strong artistic and conceptual training, reflecting global trends in sustainable and human-centered design. International students are drawn to the Visual Design department for its rigorous training in graphic identity, motion graphics, and typography, often with a strong focus on utilizing Japanese visual culture (like traditional crafts and calligraphy) in contemporary global contexts. Projects often involve collaboration with Kyoto-based traditional artisans and modern tech companies, ensuring real-world relevance and exceptional career placement rates.
 
 #### 3. Faculty of Arts (Fine Arts Emphasis)
 
@@ -90,23 +91,23 @@ While manga and design grab the headlines, KSU maintains a robust Faculty of Art
 
 Admission to Kyoto Seika University, especially for international students, is highly specialized and generally requires a strong demonstration of both Japanese proficiency and artistic aptitude. The standard application path involves:
 
-1.  **Japanese Language Proficiency:** While the official standard for most undergraduate arts faculties requires N2 level of the JLPT or equivalent, KSU demands functional fluency given the detailed, discussion-heavy nature of studio critiques and lectures. Many departments *strongly recommend* N1 for a successful academic experience.
-2.  **Examination for Japanese University Admission (EJU):** While many art universities waive EJU for certain programs, KSU often uses EJU scores (Japanese and potentially General Subjects) as part of the screening process, particularly for non-studio faculties like Media Creation or Education. Applicants must confirm specific departmental requirements.
-3.  **Portfolio/Practical Exam:** This is the most critical component. Applicants to Manga, Design, and Arts must submit a highly polished portfolio of original work demonstrating technical skill, conceptual originality, and thematic consistency. For Manga applicants, specific drawing tests or storyboard creation exams are usually mandated. Practical exams may be conducted live or digitally.
-4.  **Interview:** Mandatory for all successful applicants, conducted either in-person or via video conference. The interview assesses motivation, commitment to the specific field of study, conceptual clarity regarding their portfolio, and Japanese communication skills necessary for studio interaction.
-5.  **English Proficiency:** While degrees are taught predominantly in Japanese, evidence of English proficiency (TOEFL/IELTS) may be required depending on the applicant's country of origin, though it is usually secondary to Japanese fluency for degree-seeking students.
+*   **Japanese Language Proficiency:** While the official standard for most undergraduate arts faculties requires N2 level of the JLPT or equivalent, KSU demands functional fluency given the detailed, discussion-heavy nature of studio critiques and lectures. Many departments *strongly recommend* N1 for a successful academic experience.
+*   **Examination for Japanese University Admission (EJU):** While many art universities waive EJU for certain programs, KSU often uses EJU scores (Japanese and potentially General Subjects) as part of the screening process, particularly for non-studio faculties like Media Creation or Education. Applicants must confirm specific departmental requirements.
+*   **Portfolio/Practical Exam:** This is the most critical component. Applicants to Manga, Design, and Arts must submit a highly polished portfolio of original work demonstrating technical skill, conceptual originality, and thematic consistency. For Manga applicants, specific drawing tests or storyboard creation exams are usually mandated. Practical exams may be conducted live or digitally.
+*   **Interview:** Mandatory for all successful applicants, conducted either in-person or via video conference. The interview assesses motivation, commitment to the specific field of study, conceptual clarity regarding their portfolio, and Japanese communication skills necessary for studio interaction.
+*   **English Proficiency:** While degrees are taught predominantly in Japanese, evidence of English proficiency (TOEFL/IELTS) may be required depending on the applicant's country of origin, though it is usually secondary to Japanese fluency for degree-seeking students.
 
 ### English-Taught Programs
 
-It is vital for international applicants to understand that **Kyoto Seika University does not currently offer full undergraduate degree programs taught entirely in English.** The core curriculum in all faculties, including lectures, studio critiques, and major assignments, is conducted in Japanese. However, KSU offers: 
+It is vital for international applicants to understand that **Kyoto Seika University does not currently offer full undergraduate degree programs taught entirely in English.** The core curriculum in all faculties, including lectures, studio critiques, and major assignments, is conducted in Japanese. However, KSU offers:
 
 *   **Extensive Japanese Language Training:** Specialized programs are available for international students to boost their academic Japanese skills, specifically tailored to handle complex artistic and theoretical discussions.
-*   **Exchange Programs:** KSU hosts numerous exchange students through institutional partnerships, allowing short-term study (one semester or one year) where some specialized art instruction might be supplemented with English. 
+*   **Exchange Programs:** KSU hosts numerous exchange students through institutional partnerships, allowing short-term study (one semester or one year) where some specialized art instruction might be supplemented with English.
 *   **Graduate School Access:** At the graduate level, some professors may supervise research and thesis writing in English, depending on their specialty and the student's area of research, but even this requires a foundation in Japanese for core coursework.
 
 ### Student Support
 
-The **International Exchange Office** at KSU provides comprehensive support tailored to the unique needs of artists and designers. Services include: 
+The **International Exchange Office** at KSU provides comprehensive support tailored to the unique needs of artists and designers. Services include:
 
 *   **Visa and Residency Status Assistance:** Guidance on initial visa acquisition, renewals, and necessary administrative paperwork.
 *   **Academic Advising:** Specialized advising that helps international students navigate the complex material demands of studio courses (e.g., finding specialty art supply stores, understanding Japanese materials standards).
@@ -144,7 +145,7 @@ International students at KSU have access to a variety of internal and external 
 
 ### Cost of Living
 
-Kyoto offers a highly attractive balance of cultural richness and moderate cost compared to Tokyo. KSU is located slightly outside the immediate city center, which helps lower rental costs. 
+Kyoto offers a highly attractive balance of cultural richness and moderate cost compared to Tokyo. KSU is located slightly outside the immediate city center, which helps lower rental costs.
 
 *   **Rent:** Average monthly rent for a student apartment (1K/1R) near the university or accessible by the Eizan Line ranges from ¥45,000 to ¥65,000. Sharing accommodations or living slightly further out can lower this cost.
 *   **Food:** Monthly food expenses typically range from ¥30,000 to ¥45,000, benefitting from affordable local markets and student-friendly eateries.

@@ -2,7 +2,8 @@
 {
   "layout": "school",
   "id": "school_kyoto-university",
-  "title": "京都大学",
+  "title": "Kyoto University",
+  "description": "Kyoto University is one of Japan's leading national universities, globally recognized for its research achievements, dedication to the 'Spirit of Freedom,' and its numerous Nobel laureates.",
   "category": "school",
   "tags": [
     "SGU",
@@ -19,7 +20,7 @@
   "basic_info": {
     "name_ja": "京都大学",
     "name_en": "Kyoto University",
-    "address": "京都府京都市左京区吉田本町",
+    "address": "Yoshida-Honmachi, Sakyo Ward, Kyoto",
     "website": "https://www.kyoto-u.ac.jp/"
   },
   "stats": {
@@ -31,16 +32,16 @@
     "yearly_tuition": 535800
   },
   "faculties": [
-    "文学部",
-    "教育学部",
-    "法学部",
-    "経済学部",
-    "理学部",
-    "医学部",
-    "薬学部",
-    "工学部",
-    "農学部",
-    "総合人間学部"
+    "Faculty of Letters",
+    "Faculty of Education",
+    "Faculty of Law",
+    "Faculty of Economics",
+    "Faculty of Science",
+    "Faculty of Medicine",
+    "Faculty of Pharmaceutical Sciences",
+    "Faculty of Engineering",
+    "Faculty of Agriculture",
+    "Faculty of Integrated Human Studies"
   ],
   "features": [
     "SGU",
@@ -48,61 +49,125 @@
     "English Program",
     "Dormitory",
     "Scholarship"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-교토대학교(京都大学, Kyoto University)는 일본을 대표하는 명문 국립대학 중 하나로, 오랜 역사와 깊은 학문적 전통을 자랑합니다. 1897년에 설립된 교토제국대학을 전신으로 하며, 자유로운 학풍과 연구 중심의 교육 철학을 바탕으로 수많은 인재를 배출해왔습니다. 일본 내에서는 도쿄대학교와 함께 최상위권 대학으로 평가받고 있으며, 세계적으로도 뛰어난 연구 성과와 영향력을 인정받고 있습니다. 특히, 기초 과학 분야에서 강점을 보이며, 노벨상 수상자를 다수 배출한 것으로도 유명합니다. 교토대학교는 단순히 지식을 전달하는 것을 넘어, 학생 스스로 생각하고 탐구하는 능력을 키우는 데 중점을 둡니다. 이를 위해 다양한 학문 분야를 융합한 교육 프로그램과 학생들의 자율적인 연구 활동을 적극적으로 지원하고 있습니다.
+Kyoto University stands as one of Japan's foremost national universities, celebrated for its rich history and profound academic heritage. Established in 1897 as Kyoto Imperial University, the institution has gained international acclaim for its remarkable research accomplishments and significant impact on the global stage. It consistently ranks among Japan's top universities, often mentioned alongside the University of Tokyo.
 
-교토대학교는 “자유의 학풍(自由の学風)”을 핵심 가치로 삼고 있습니다. 이는 학생과 교수가 서로 존중하고, 학문의 자유를 최대한 보장하는 것을 의미합니다. 획일적인 교육 방식에서 벗어나, 학생 개개인의 개성과 창의성을 존중하며, 다양한 관점에서 문제를 바라보고 해결할 수 있도록 돕는 것이 교토대학교의 교육 목표입니다. 또한, 국제적인 시각을 갖춘 인재 양성을 위해, 외국 대학과의 교류 프로그램을 활발하게 운영하고 있으며, 영어로 진행되는 강의도 점차 확대하고 있습니다. 교토대학교는 사회적 책임을 다하는 대학으로서, 지역 사회와의 협력을 강화하고 있으며, 환경 문제, 에너지 문제 등 글로벌 이슈 해결에도 적극적으로 참여하고 있습니다. 미래 사회를 이끌어갈 리더를 양성하기 위해 끊임없이 노력하는 대학입니다.
+## Core Principles
 
-교토대학교는 요시다 캠퍼스를 중심으로 여러 캠퍼스를 운영하고 있으며, 아름다운 자연환경과 풍부한 역사 유적을 자랑합니다. 캠퍼스 내에는 다양한 연구 시설과 도서관, 박물관 등이 위치하고 있으며, 학생들의 학습 및 연구 활동을 지원하고 있습니다. 또한, 학생들을 위한 다양한 편의 시설과 동아리 활동 공간도 마련되어 있어, 활기찬 대학 생활을 즐길 수 있습니다. 교토대학교는 단순히 지식을 습득하는 공간을 넘어, 다양한 사람들과 교류하고 성장하며 미래를 준비하는 공간입니다. 전 세계에서 온 다양한 배경의 학생들이 함께 공부하고 연구하며, 서로의 문화를 이해하고 존중하는 경험을 통해 글로벌 리더로서의 역량을 키워나갈 수 있습니다. 교토대학교는 끊임없이 변화하는 사회에 발맞춰 교육 시스템과 연구 환경을 개선하고 있으며, 미래 사회를 선도할 인재 양성을 위해 최선을 다하고 있습니다.
+Kyoto University excels particularly in fundamental sciences and has a distinguished record of producing Nobel laureates. Its educational philosophy revolves around the "Spirit of Freedom" (自由の学風):
 
-교토대학교의 교육 이념은 단순한 지식 전달을 넘어, 학생 스스로 생각하고 탐구하는 능력을 키우는 데 있습니다. 이를 위해 다양한 학문 분야를 융합한 교육 프로그램과 학생들의 자율적인 연구 활동을 적극적으로 지원하고 있습니다. 또한, 국제적인 시각을 갖춘 인재 양성을 위해, 외국 대학과의 교류 프로그램을 활발하게 운영하고 있으며, 영어로 진행되는 강의도 점차 확대하고 있습니다. 교토대학교는 사회적 책임을 다하는 대학으로서, 지역 사회와의 협력을 강화하고 있으며, 환경 문제, 에너지 문제 등 글로벌 이슈 해결에도 적극적으로 참여하고 있습니다. 미래 사회를 이끌어갈 리더를 양성하기 위해 끊임없이 노력하는 대학입니다.
+*   **Academic Freedom:** Fostering mutual respect between students and professors, ensuring ample space for intellectual exploration.
+*   **Research Focus:** Emphasizing the development of students' independent thinking skills and their capacity for self-directed inquiry.
+*   **Interdisciplinary Approach:** Actively promoting educational programs that bridge diverse academic disciplines.
+*   **Global Citizenship:** Implementing robust exchange programs and expanding English-taught courses to cultivate globally aware individuals.
 
-## 📚 Courses, Curriculum & Teaching Style
+The main campus, Yoshida Campus, is set within a picturesque natural environment and supports student life with comprehensive research facilities, libraries, and museums. Kyoto University aspires to be a space where diverse students from around the world can evolve into leaders, equipped to tackle contemporary global challenges like environmental and energy sustainability.
 
-| 학부 (Faculty) | 주요 학과 (Major Departments) | 특징 (Features) | 입학 시험 (Entrance Exam) | 비고 (Remarks) |
-|---|---|---|---|---|
-| 文学部 (Faculty of Letters) | 哲学科 (Department of Philosophy), 史学科 (Department of History), 文学科 (Department of Literature) | 인문학 전반에 대한 깊이 있는 연구, 폭넓은 교양 함양 | EJU, 대학 자체 시험, 면접 | 고전문헌 강독 필수 | 
-| 教育学部 (Faculty of Education) | 教育科学科 (Department of Educational Science), 臨床心理学科 (Department of Clinical Psychology) | 교육 이론 및 실제, 심리학적 접근, 교사 양성 과정 | EJU, 대학 자체 시험, 면접 | 교사 자격증 취득 가능 | 
-| 法学部 (Faculty of Law) | 法律学科 (Department of Law), 政治学科 (Department of Political Science) | 법률 및 정치 이론, 사회 문제 분석, 법조인 양성 | EJU, 대학 자체 시험, 면접 | 법학 연구에 특화 |
-| 経済学部 (Faculty of Economics) | 経済学科 (Department of Economics), 経営学科 (Department of Business Administration) | 경제 이론 및 실제, 경영 전략, 경제 전문가 양성 | EJU, 대학 자체 시험, 면접 | 계량경제학 강조 |
-| 理学部 (Faculty of Science) | 数学科 (Department of Mathematics), 物理学科 (Department of Physics), 化学科 (Department of Chemistry), 生物学科 (Department of Biology), 地球惑星科学科 (Department of Earth and Planetary Sciences) | 기초 과학 연구, 자연 현상 탐구, 과학자 양성 | EJU, 대학 자체 시험, 면접 | 실험 및 연구 중심 |
-| 医学部 (Faculty of Medicine) | 医学科 (Department of Medicine), 看護学科 (Department of Nursing) | 의학 이론 및 임상 실습, 의료 전문가 양성 | EJU, 대학 자체 시험, 면접 | 국가고시 응시 자격 부여 |
-| 薬学部 (Faculty of Pharmaceutical Sciences) | 薬学科 (Department of Pharmacy), 薬科学科 (Department of Pharmaceutical Sciences) | 약학 이론 및 연구, 약사 양성 | EJU, 대학 자체 시험, 면접 | 6년제 (약학과) |
-| 工学部 (Faculty of Engineering) | 機械工学科 (Department of Mechanical Engineering), 電気電子工学科 (Department of Electrical and Electronic Engineering), 情報学科 (Department of Informatics), 建築学科 (Department of Architecture), 土木工学科 (Department of Civil Engineering) | 공학 이론 및 응용, 기술 개발, 엔지니어 양성 | EJU, 대학 자체 시험, 면접 | 실습 및 설계 중심 |
-| 農学部 (Faculty of Agriculture) | 農学科 (Department of Agriculture), 林学科 (Department of Forestry), 水産学科 (Department of Fisheries), 食品生物科学科 (Department of Food and Biological Sciences), 応用生命科学科 (Department of Applied Life Sciences) | 농업, 임업, 수산학, 생명과학 연구, 농업 전문가 양성 | EJU, 대학 자체 시험, 면접 | 실험 및 실습 중심 |
-| 総合人間学部 (Faculty of Integrated Human Studies) | 総合人間学科 (Department of Integrated Human Studies) | 다양한 학문 분야 융합, 사회 문제 해결, 창의적 인재 양성 | EJU, 대학 자체 시험, 면접 | 폭넓은 학문적 탐구 가능 |
+## Courses, Curriculum & Teaching Style
 
-교토대학교의 교육 방식은 주로 강의, 세미나, 실험, 실습 등으로 구성됩니다. 학생들은 자신의 전공 분야에 대한 깊이 있는 지식을 습득하는 것은 물론, 다양한 학문 분야를 융합하여 폭넓은 시각을 갖도록 교육받습니다. 특히, 연구 중심 대학으로서, 학생들의 연구 활동을 적극적으로 지원하고 있으며, 학부생들도 연구 프로젝트에 참여할 수 있는 기회를 제공합니다. 또한, 영어로 진행되는 강의도 점차 확대되고 있어, 외국인 학생들도 학업에 어려움 없이 참여할 수 있습니다.
+Kyoto University delivers a demanding curriculum primarily through lectures, intensive seminars, laboratory work, and hands-on training. The central aim is to ensure that students attain both in-depth expertise in their chosen field and a broad, interdisciplinary understanding.
 
-## 🌍 Student Body & Campus Life
+As a leading research institution, the university strongly encourages undergraduate participation in research projects. Furthermore, to cater to a global student population, the university continually expands its course offerings conducted entirely in English.
 
-교토대학교는 국제적인 대학으로서, 전 세계에서 온 다양한 국적의 학생들이 함께 공부하고 있습니다. 유학생 수는 약 2400명으로, 아시아, 유럽, 아메리카 등 다양한 지역에서 온 학생들이 함께 생활하고 있습니다. 이러한 다양한 문화적 배경을 가진 학생들은 서로 교류하며, 글로벌 시각을 넓히고, 국제적인 감각을 키울 수 있습니다. 캠퍼스 내에는 유학생들을 위한 다양한 지원 프로그램이 마련되어 있으며, 유학생 상담 센터, 언어 학습 지원 프로그램, 문화 교류 행사 등이 운영되고 있습니다.
+## Undergraduate Faculties and Programs
 
-교토대학교의 캠퍼스 라이프는 매우 활기차고 다채롭습니다. 학생들은 다양한 동아리 활동에 참여하며, 자신의 관심 분야를 탐구하고, 새로운 친구들을 만날 수 있습니다. 교토대학교에는 스포츠, 문화, 예술 등 다양한 분야의 동아리가 있으며, 학생들은 자신의 취향에 맞는 동아리를 선택하여 활동할 수 있습니다. 또한, 교토대학교는 다양한 축제와 행사들을 개최하여, 학생들의 캠퍼스 생활을 더욱 풍요롭게 만들어줍니다. 교토대학교의 대표적인 축제로는 11월에 개최되는 11월제가 있으며, 이 축제는 학생들의 다양한 공연과 전시, 먹거리 등으로 가득합니다.
+| Faculty                             | Key Departments                                                 | Focus & Features                                                                                                      | Admissions Requirements                                                                              |
+| ----------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Faculty of Letters**              | Philosophy, History, Literature                                   | In-depth humanities research and comprehensive liberal arts education.                                               | EJU, Internal Exam, Interview (Requires reading classical literature)                                 |
+| **Faculty of Education**            | Educational Science, Clinical Psychology                            | Educational theory, practice, and psychological approaches, including teacher training programs.                     | EJU, Internal Exam, Interview (Eligible for teacher certification)                                   |
+| **Faculty of Law**                  | Law, Political Science                                            | Legal and political theory, analysis of societal issues, specialization in legal research.                            | EJU, Internal Exam, Interview (Aimed at training legal professionals)                                 |
+| **Faculty of Economics**            | Economics, Business Administration                                | Economic theory, management strategy, strong emphasis on Econometrics.                                             | EJU, Internal Exam, Interview (Trains economic experts)                                                |
+| **Faculty of Science**              | Mathematics, Physics, Chemistry, Biology, Earth and Planetary Sciences | Fundamental science research, highly focused on experiments and research.                                           | EJU, Internal Exam, Interview (Trains future scientists)                                                |
+| **Faculty of Medicine**             | Medicine, Nursing                                                 | Medical theory and clinical practice, qualifies graduates for relevant national professional examinations.           | EJU, Internal Exam, Interview (6-year medical program)                                                 |
+| **Faculty of Pharmaceutical Sciences** | Pharmacy, Pharmaceutical Sciences                                   | Pharmaceutical theory and research (Pharmacy is a 6-year program).                                                | EJU, Internal Exam, Interview (Trains pharmacists)                                                   |
+| **Faculty of Engineering**          | Mechanical Engineering, Electrical and Electronic Engineering, Informatics, Architecture, Civil Engineering | Engineering theory and application, focused on practical training and design projects.                               | EJU, Internal Exam, Interview (Trains professional engineers)                                          |
+| **Faculty of Agriculture**          | Agriculture, Forestry, Fisheries, Food and Biological Sciences, Applied Life Sciences | Research in agricultural sciences, forestry, fishery sciences, and biotechnology.                                  | EJU, Internal Exam, Interview (Experiment and practice focused)                                       |
+| **Faculty of Integrated Human Studies** | Integrated Human Studies                                            | Interdisciplinary approach, fusing diverse academic fields to solve complex social problems.                           | EJU, Internal Exam, Interview (Encourages broad academic exploration)                                  |
 
-## 🎓 University & Career Pathways
+## Student Body & Campus Life
 
-교토대학교는 학생들의 성공적인 진로 설계를 위해 다양한 지원 시스템을 운영하고 있습니다. 진로 상담 센터에서는 학생들에게 진로 상담, 이력서 작성, 면접 준비 등 취업 관련 정보를 제공하고 있습니다. 또한, 기업 설명회, 인턴십 프로그램 등을 통해 학생들이 기업과 직접 만날 수 있는 기회를 제공하고 있습니다. 교토대학교 졸업생들은 다양한 분야에서 활약하고 있으며, 기업, 연구소, 정부 기관 등 다양한 분야에서 리더로서 활동하고 있습니다. 교토대학교는 학생들이 자신의 잠재력을 최대한 발휘하여 사회에 기여할 수 있도록 최선을 다해 지원하고 있습니다.
+Kyoto University is a truly international community, cultivating an environment where students from diverse backgrounds converge. With approximately 2,400 international students from Asia, Europe, the Americas, and beyond, the campus offers exceptional opportunities for cross-cultural exchange and the development of global perspectives.
 
-교토대학교는 국내외 유수의 대학들과 협력 관계를 맺고 있으며, 학생들은 교환 학생 프로그램 등을 통해 해외 대학에서 공부할 수 있는 기회를 얻을 수 있습니다. 이를 통해 학생들은 국제적인 감각을 키우고, 다양한 문화를 경험할 수 있습니다. 또한, 교토대학교는 대학원 진학을 희망하는 학생들을 위해 다양한 지원 프로그램을 운영하고 있습니다. 대학원 입학 설명회, 연구실 견학 프로그램 등을 통해 학생들이 대학원 진학에 대한 정보를 얻고, 자신의 연구 분야를 결정하는 데 도움을 주고 있습니다.
+## International Student Support
 
-## 🏡 Accommodation & Living Support
+The university provides comprehensive support services specifically designed for the international community, including:
 
-교토대학교는 유학생들을 위한 다양한 숙소 옵션을 제공합니다. 기숙사는 캠퍼스 내 또는 캠퍼스 근처에 위치하고 있으며, 편리한 생활 환경을 제공합니다. 기숙사에는 싱글룸, 더블룸 등 다양한 형태의 방이 있으며, 가구, 냉장고, 에어컨 등 기본적인 생활 시설이 갖춰져 있습니다. 기숙사 외에도, 교토 시내에는 다양한 아파트와 쉐어하우스가 있으며, 학생들은 자신의 예산과 취향에 맞는 숙소를 선택할 수 있습니다. 교토대학교 국제 교류 센터에서는 유학생들의 숙소 찾기를 지원하고 있으며, 숙소 계약, 이사 등 생활 전반에 대한 상담 서비스를 제공하고 있습니다.
+*   International Student Counseling Centers
+*   Language Learning Support Programs
+*   Cultural Exchange Events
 
-교토대학교는 유학생들이 일본 생활에 잘 적응할 수 있도록 다양한 생활 지원 프로그램을 운영하고 있습니다. 일본어 학습 지원 프로그램, 문화 체험 프로그램, 법률 상담 서비스 등을 제공하고 있으며, 유학생들이 일본 문화에 대한 이해를 높이고, 안전하고 편안한 생활을 할 수 있도록 돕고 있습니다. 또한, 교토대학교에는 유학생회를 비롯한 다양한 유학생 커뮤니티가 있으며, 유학생들은 서로 교류하고 정보를 공유하며, 외로움을 극복하고 즐거운 유학 생활을 할 수 있습니다.
+## Campus Activities
 
-## 💰 Tuition, Fees & Scholarships
+Campus life is vibrant and engaging, encouraging students to participate in numerous club activities encompassing sports, arts, and culture. The university calendar features major student-led events, most notably the **November Festival (11月祭)**, which showcases student performances, exhibitions, and cultural presentations.
 
-| 항목 (Item) | 금액 (Amount) | 비고 (Remarks) |
-|---|---|---|
-| 입학금 (Admission Fee) | 282,000 엔 (JPY) | 입학 시 1회 납부 | 
-| 연간 수업료 (Yearly Tuition) | 535,800 엔 (JPY) | 매년 납부 |
-| 기타 비용 (Other Fees) | 학부 및 학과에 따라 상이 (Varies depending on the faculty and department) | - | 
+## University & Career Pathways
 
-교토대학교는 유학생들을 위한 다양한 장학금 제도를 운영하고 있습니다. 일본 정부 장학금(Monbukagakusho Scholarship), 교토대학교 자체 장학금, 민간 장학금 등 다양한 종류의 장학금이 있으며, 학생들은 자신의 성적과 경제적 상황에 따라 장학금을 신청할 수 있습니다. 장학금 신청 자격, 신청 방법 등 자세한 정보는 교토대학교 홈페이지 또는 국제 교류 센터에서 확인할 수 있습니다. 장학금 외에도, 교토대학교는 학비 감면 제도, 생활비 지원 제도 등 다양한 재정 지원 프로그램을 운영하고 있으며, 학생들이 경제적인 어려움 없이 학업에 집중할 수 있도록 돕고 있습니다.
+Kyoto University is committed to ensuring the career success of its graduates through extensive support systems and global opportunities.
+
+## Career Support
+
+The Career Counseling Center offers a wide range of resources for professional development:
+
+*   Personalized career consultations.
+*   Workshops on resume/CV writing and interview preparation.
+*   Opportunities to connect directly with employers through company presentation sessions and organized internship programs.
+
+Kyoto University graduates are highly sought after and frequently assume leadership positions across various sectors, including major corporations, research institutions, and government organizations.
+
+## Global Opportunities & Further Study
+
+The university maintains strong academic partnerships with prestigious institutions worldwide. Students benefit from comprehensive exchange programs, providing valuable opportunities to study abroad, gain global competence, and experience different cultures.
+
+For students pursuing advanced studies, the university offers tailored support for graduate school admission, including:
+
+*   Graduate School Admissions Information Sessions.
+*   Laboratory and research facility tours to help students define their research path.
+
+## Accommodation & Living Support
+
+Kyoto University provides a variety of safe and convenient housing options for international students, both on and near campus.
+
+## Accommodation Options
+
+*   **University Dormitories:** Dormitories are typically equipped with essential amenities, including furniture, refrigeration, and air conditioning, offering single and double room options.
+*   **Off-Campus Housing:** Students can also choose from a range of private apartments and share houses throughout Kyoto City, catering to varying budgets and preferences.
+
+The Kyoto University International Center plays a vital role in assisting students with their housing needs, offering consultation services related to finding accommodation, understanding lease agreements, and managing relocation logistics.
+
+## Student Welfare and Integration
+
+To ensure international students successfully integrate into Japanese life, the university operates extensive welfare programs:
+
+*   Japanese language support and tutoring.
+*   Organized cultural experience programs.
+*   Legal consultation services.
+
+Students can also connect with various international student communities, such as the International Student Association, providing peer support and opportunities to socialize and share information.
+
+## Tuition, Fees & Scholarships
+
+Kyoto University is dedicated to providing comprehensive financial support to ensure academic focus is prioritized over economic concerns.
+
+## Standard Fees (Per Academic Year)
+
+| Item            | Amount (JPY) | Notes                                     |
+| --------------- | ------------ | ----------------------------------------- |
+| Admission Fee   | 282,000      | One-time payment upon enrollment          |
+| Yearly Tuition  | 535,800      | Paid annually                             |
+| Other Fees      | Varies       | Depends on the specific faculty and department |
+
+## Financial Aid and Scholarships
+
+Kyoto University offers a diverse range of scholarships for international students based on academic merit and financial need:
+
+*   **Government Scholarships:** Including the highly sought-after Japanese Government (Monbukagakusho) Scholarship.
+*   **University Scholarships:** Kyoto University’s own institutional scholarship funds.
+*   **Private Scholarships:** External funding opportunities from private organizations.
+
+In addition to scholarships, the university operates various financial aid mechanisms, such as tuition reduction/exemption schemes and supplementary living expense support programs. Detailed information on eligibility and application procedures can be obtained through the university website or the International Center.

@@ -1,57 +1,67 @@
 ---
-basic_info:
-  address: 京都府京都市左京区吉田本町
-  name_en: Kyoto University
-  name_ja: 京都大学
-  website: https://www.kyoto-u.ac.jp/
-category: university
-faculties:
-- Faculty of Integrated Human Studies
-- Faculty of Letters
-- Faculty of Education
-- Faculty of Law
-- Faculty of Economics
-- Faculty of Science
-- Faculty of Medicine
-- Faculty of Pharmaceutical Sciences
-- Faculty of Engineering
-- Faculty of Agriculture
-features:
-- SGU
-- EJU Required
-- English Program
-- Dormitory
-- Scholarship
-id: univ_kyoto-university
-layout: school
-location:
-  lat: 35.0270496
-  lng: 135.7823155
-stats:
-  acceptance_rate: 13%
-  international_students: 2600
-tags:
-- SGU
-- EJU Required
-- English Program
-- Dormitory
-- Scholarship
-thumbnail: /static/img/pin-univ.png
-title: 京都大学
-tuition:
-  admission_fee: 282000
-  yearly_tuition: 535800
+{
+  "basic_info": {
+    "address": "京都府京都市左京区吉田本町",
+    "name_en": "Kyoto University",
+    "name_ja": "京都大学",
+    "website": "https://www.kyoto-u.ac.jp/"
+  },
+  "category": "university",
+  "faculties": [
+    "Faculty of Integrated Human Studies",
+    "Faculty of Letters",
+    "Faculty of Education",
+    "Faculty of Law",
+    "Faculty of Economics",
+    "Faculty of Science",
+    "Faculty of Medicine",
+    "Faculty of Pharmaceutical Sciences",
+    "Faculty of Engineering",
+    "Faculty of Agriculture"
+  ],
+  "features": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "id": "univ_kyoto-university",
+  "layout": "school",
+  "location": {
+    "lat": 35.0270496,
+    "lng": 135.7823155
+  },
+  "stats": {
+    "acceptance_rate": "13%",
+    "international_students": 2600
+  },
+  "tags": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Kyoto University",
+  "tuition": {
+    "admission_fee": 282000,
+    "yearly_tuition": 535800
+  },
+  "translated": true
+}
 ---
 
-## 🏫 University Overview & Reputation
+## University Overview & Reputation
 
-Kyoto University (京都大学, Kyōto Daigaku), often shortened to Kyodai (京大, Kyōdai), stands as a pillar of academic excellence in Japan. As the second oldest university in the nation and one of the former Imperial Universities, it holds a distinguished position as a national university renowned for its rigorous research, groundbreaking discoveries, and the impressive number of Nobel laureates among its alumni and faculty. Kyoto University consistently secures a place among the top universities worldwide, solidifying its reputation as a leading institution for higher education. Its consistent ranking within the top 50 universities globally attests to its ongoing commitment to innovation and academic rigor.
+Kyoto University (京都大学, Kyōto Daigaku), often shortened to Kyodai (京大, Kyōdai), is a cornerstone of academic excellence in Japan. As the nation's second oldest university and a former Imperial University, it holds a distinguished position as a national university renowned for its rigorous research, groundbreaking discoveries, and the impressive number of Nobel laureates among its alumni and faculty. Kyoto University consistently ranks among the top universities worldwide, solidifying its reputation as a leading institution for higher education. Its consistent ranking within the top 50 universities globally attests to its ongoing commitment to innovation and academic rigor.
 
-Founded in 1897 as Kyoto Imperial University, Kyodai boasts a rich history that predates its formal establishment. Its origins can be traced back to the Chemistry Training Center established in Osaka in 1869. From its inception, the university has played a crucial role in shaping Japan's intellectual landscape, nurturing generations of scholars, leaders, and innovators. A key feature that distinguishes Kyoto University is its strong emphasis on academic freedom and the encouragement of independent thought. This philosophy fosters a vibrant and innovative research environment where both students and faculty are encouraged to challenge conventional wisdom and explore new frontiers of knowledge.
+Founded in 1897 as Kyoto Imperial University, Kyodai has a rich history predating its formal establishment. Its origins trace back to the Chemistry Training Center established in Osaka in 1869. From its inception, the university has played a crucial role in shaping Japan's intellectual landscape, nurturing generations of scholars, leaders, and innovators. A key feature distinguishing Kyoto University is its strong emphasis on academic freedom and the encouragement of independent thought. This philosophy fosters a vibrant and innovative research environment where both students and faculty are encouraged to challenge conventional wisdom and explore new frontiers of knowledge.
 
 Kyoto University's academic philosophy emphasizes the pursuit of groundbreaking research and the cultivation of independent and critical thinking skills. The university's mission is to educate graduates who possess not only in-depth knowledge but also the ability to contribute meaningfully to society through their expertise and innovation. This commitment extends across a wide range of disciplines, from the sciences and technology to the humanities and social sciences. Kyoto University is particularly renowned for its cutting-edge research in areas such as materials science, immunology, and robotics, consistently pushing the boundaries of scientific understanding. The university's unwavering dedication to excellence in both teaching and research makes it a highly desirable destination for students and scholars seeking a world-class education. Kyoto University is a member of the Japanese University Association for National Universities (JANU) and the RU11 group, further highlighting its commitment to collaborative research and academic partnerships.
 
-## 🎓 Notable Faculties & Signature Programs
+## Notable Faculties & Signature Programs
 
 Kyoto University offers a comprehensive range of faculties and graduate schools, spanning diverse academic disciplines. Each faculty is further divided into departments and programs, allowing students to pursue specialized education within their chosen field of study.
 
@@ -72,17 +82,33 @@ One of Kyoto University's most renowned programs is its **Engineering program**.
 
 Another highly regarded program is the **Graduate School of Science**, particularly its departments of Physics and Mathematics. These departments are known for their rigorous curriculum, world-class faculty, and significant contributions to fundamental scientific knowledge. The Department of Physics, for example, conducts research in areas such as particle physics, condensed matter physics, and astrophysics. The Department of Mathematics is equally distinguished, with research focusing on areas such as algebra, geometry, and analysis. Both departments attract top students from around the world and offer a supportive and stimulating environment for advanced study and research. The graduate programs in Science often have research opportunities for international students to participate in, including collaborative projects with top researchers. The departments provide students the option to participate in international conferences and collaborations that allow students to connect with their peers from across the globe.
 
-## 🌍 International Student Admissions & Life
+## International Student Admissions & Life
 
-The application process for international students at Kyoto University generally involves several key steps. Firstly, applicants typically need to demonstrate proficiency in Japanese, often through the Examination for Japanese University Admission for International Students (EJU). However, this requirement may be waived for programs offered entirely in English. Secondly, applicants must submit standardized test scores, such as TOEFL or IELTS, to demonstrate English language proficiency. Specific score requirements vary depending on the program of study. Finally, applicants may be required to participate in interviews, either in person or via video conferencing, to assess their academic background, motivation, and suitability for the program. The application process typically involves submitting transcripts, letters of recommendation, and a statement of purpose outlining the applicant's academic and research interests.
+The application process for international students at Kyoto University generally involves several key steps.
+
+*   Firstly, applicants typically need to demonstrate proficiency in Japanese, often through the Examination for Japanese University Admission for International Students (EJU). However, this requirement may be waived for programs offered entirely in English.
+*   Secondly, applicants must submit standardized test scores, such as TOEFL or IELTS, to demonstrate English language proficiency. Specific score requirements vary depending on the program of study.
+*   Finally, applicants may be required to participate in interviews, either in person or via video conferencing, to assess their academic background, motivation, and suitability for the program.
+
+The application process typically involves submitting transcripts, letters of recommendation, and a statement of purpose outlining the applicant's academic and research interests.
 
 Kyoto University offers several degree programs entirely in English, catering to international students who may not have a strong command of Japanese. These programs are primarily at the graduate level and cover a wide range of disciplines, including engineering, science, agriculture, and economics. For example, the Graduate School of Management offers an MBA program taught entirely in English, designed to equip students with the skills and knowledge necessary for leadership roles in the global business environment. Also, the Graduate School of Global Environmental Studies offers an international course in English focusing on environmental management. These programs provide international students with the opportunity to pursue advanced studies at Kyoto University without the language barrier. For students who wish to improve their Japanese language skills, Kyoto University also offers a variety of Japanese language courses at different proficiency levels.
 
-Kyoto University provides extensive support services for international students to ensure a smooth transition and enriching academic experience. The International Student Affairs Office (ISAO) serves as a central point of contact for international students, offering assistance with visa applications, accommodation arrangements, and other administrative matters. Academic advisors are available to provide guidance on course selection, research opportunities, and career planning. Counseling services are also available to address any personal or academic challenges that international students may face. The university offers comprehensive visa support to ensure that international students can legally reside and study in Japan.
+Kyoto University provides extensive support services for international students to ensure a smooth transition and enriching academic experience.
 
-With approximately 2600 international students from diverse backgrounds, Kyoto University fosters a vibrant and multicultural campus atmosphere. Various student clubs and organizations cater to the interests of international students, providing opportunities for social interaction, cultural exchange, and community engagement. These clubs range from academic societies to sports teams to cultural groups, allowing international students to connect with like-minded individuals and explore their interests. The university also organizes various cultural events and activities throughout the year, providing opportunities for international students to learn about Japanese culture and share their own cultures with the local community. Overall, Kyoto University provides a welcoming and supportive environment for international students, fostering a sense of belonging and community.
+*   The International Student Affairs Office (ISAO) serves as a central point of contact for international students, offering assistance with visa applications, accommodation arrangements, and other administrative matters.
+*   Academic advisors are available to provide guidance on course selection, research opportunities, and career planning.
+*   Counseling services are also available to address any personal or academic challenges that international students may face.
 
-## 💰 Tuition, Scholarships & Cost of Living
+The university offers comprehensive visa support to ensure that international students can legally reside and study in Japan.
+
+With approximately 2600 international students from diverse backgrounds, Kyoto University fosters a vibrant and multicultural campus atmosphere.
+
+*   Various student clubs and organizations cater to the interests of international students, providing opportunities for social interaction, cultural exchange, and community engagement. These clubs range from academic societies to sports teams to cultural groups, allowing international students to connect with like-minded individuals and explore their interests.
+*   The university also organizes various cultural events and activities throughout the year, providing opportunities for international students to learn about Japanese culture and share their own cultures with the local community.
+*   Overall, Kyoto University provides a welcoming and supportive environment for international students, fostering a sense of belonging and community.
+
+## Tuition, Scholarships & Cost of Living
 
 Understanding the financial aspects of studying abroad is crucial. Here's a breakdown of the average first-year costs at Kyoto University:
 
@@ -103,7 +129,7 @@ The cost of living in Kyoto can vary depending on individual lifestyle choices a
 *   **Utilities:** 5,000 - 10,000 JPY
 *   **Personal Expenses:** 10,000 - 20,000 JPY
 
-## 📍 Campus Location & Access
+## Campus Location & Access
 
 Kyoto University's main campus, known as the Yoshida Campus, is located in the Sakyo ward of Kyoto, a city celebrated for its rich cultural heritage and historical significance. The campus is situated in a vibrant neighborhood, surrounded by temples, shrines, gardens, and traditional shops. The surrounding area offers a unique blend of traditional and modern culture, providing international students with ample opportunities to explore and immerse themselves in Japanese culture. The campus itself is known for its beautiful architecture and tranquil atmosphere. Its proximity to other academic institutions and research facilities contributes to a stimulating intellectual environment.
 

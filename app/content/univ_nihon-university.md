@@ -2,52 +2,70 @@
 {
   "layout": "school",
   "id": "univ_nihon-university",
-  "title": "日本大学",
+  "title": "Nihon University",
   "category": "university",
-  "tags": ["EJU Required", "English Program", "Dormitory", "Scholarship"],
+  "tags": [
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
   "thumbnail": "/static/img/pin-univ.png",
-  "location": { "lat": 35.6909869, "lng": 139.7375709 },
-  "basic_info":
-    {
-      "name_ja": "日本大学",
-      "name_en": "Nihon University",
-      "address": "東京都千代田区九段南4-8-24",
-      "website": "https://www.nihon-u.ac.jp/",
-    },
-  "stats": { "international_students": 1500, "acceptance_rate": "30%" },
-  "tuition": { "admission_fee": 200000, "yearly_tuition": 1200000 },
-  "faculties":
-    [
-      "College of Law",
-      "College of Humanities and Sciences",
-      "College of Economics",
-      "College of Commerce",
-      "College of Art",
-      "College of Science and Technology",
-      "College of Industrial Technology",
-      "College of Engineering",
-      "College of Medicine",
-      "College of Dentistry",
-      "College of Bioresource Sciences",
-      "College of Pharmacy",
-      "College of International Relations",
-      "College of Sports Sciences",
-      "College of Risk Management",
-      "College of Global Innovation Studies",
-    ],
-  "features": ["EJU Required", "English Program", "Dormitory", "Scholarship"],
+  "location": {
+    "lat": 35.6909869,
+    "lng": 139.7375709
+  },
+  "basic_info": {
+    "name_ja": "日本大学",
+    "name_en": "Nihon University",
+    "address": "東京都千代田区九段南4-8-24",
+    "website": "https://www.nihon-u.ac.jp/"
+  },
+  "stats": {
+    "international_students": 1500,
+    "acceptance_rate": "30%"
+  },
+  "tuition": {
+    "admission_fee": 200000,
+    "yearly_tuition": 1200000
+  },
+  "faculties": [
+    "College of Law",
+    "College of Humanities and Sciences",
+    "College of Economics",
+    "College of Commerce",
+    "College of Art",
+    "College of Science and Technology",
+    "College of Industrial Technology",
+    "College of Engineering",
+    "College of Medicine",
+    "College of Dentistry",
+    "College of Bioresource Sciences",
+    "College of Pharmacy",
+    "College of International Relations",
+    "College of Sports Sciences",
+    "College of Risk Management",
+    "College of Global Innovation Studies"
+  ],
+  "features": [
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview
+## University Overview
 
-Nihon University (日本大学, Nihon Daigaku), abbreviated as Nichidai (日大), is a private research university located in Tokyo, Japan. Founded in 1889 as Nihon Law School, it is one of Japan's largest universities by enrollment, boasting a comprehensive range of academic disciplines and a sprawling network of campuses across the country. Nichidai is renowned for its diverse academic offerings, extensive alumni network, and strong emphasis on practical skills and career preparation. The university's commitment to fostering well-rounded individuals and contributing to society has solidified its position as a prominent institution in Japanese higher education.
+Nihon University (日本大学, Nihon Daigaku), often abbreviated as Nichidai (日大), is a private research university located in Tokyo, Japan. Founded in 1889 as Nihon Law School, it stands as one of Japan's largest universities in terms of enrollment. It offers a comprehensive range of academic disciplines and boasts a vast network of campuses across the country. Nichidai is known for its diverse academic programs, extensive alumni network, and strong emphasis on practical skills and career preparation. The university's dedication to nurturing well-rounded individuals and contributing to society has solidified its position as a leading institution in Japanese higher education.
 
-Nihon University distinguishes itself through its comprehensive structure, encompassing 16 colleges and numerous graduate schools. This extensive network allows students to explore a wide array of academic interests, from traditional fields like law and literature to cutting-edge disciplines in science and technology. The university's commitment to innovation and research is evident in its state-of-the-art facilities and its dedication to addressing pressing global challenges. Furthermore, Nichidai's emphasis on practical training and career development equips students with the skills and knowledge necessary to thrive in a rapidly changing world.
+Nihon University sets itself apart through its comprehensive structure, which includes 16 colleges and numerous graduate schools. This extensive network allows students to explore a wide variety of academic interests, ranging from traditional fields like law and literature to cutting-edge disciplines in science and technology. The university's commitment to innovation and research is evident in its state-of-the-art facilities and its dedication to addressing critical global challenges. Moreover, Nichidai's focus on practical training and career development equips students with the skills and knowledge needed to succeed in a rapidly evolving world.
 
-The university's history is intertwined with the modernization of Japan. Founded during the Meiji era, Nihon University played a crucial role in educating the professionals who would shape the nation's legal, economic, and technological landscape. Over the years, Nichidai has consistently adapted to the evolving needs of society, expanding its academic offerings and fostering a culture of innovation and intellectual curiosity. The university's enduring commitment to excellence and its dedication to serving the community have earned it a distinguished reputation both within Japan and internationally.
+The university's history is deeply intertwined with the modernization of Japan. Founded during the Meiji era, Nihon University played a crucial role in educating the professionals who would shape the nation's legal, economic, and technological landscape. Over the years, Nichidai has consistently adapted to the changing needs of society, expanding its academic offerings and fostering a culture of innovation and intellectual curiosity. The university's enduring commitment to excellence and its dedication to serving the community have earned it a distinguished reputation both within Japan and internationally.
 
-## 🎓 Faculties & Departments
+## Faculties & Departments
 
 | Faculty/College                      | Description                                                                                                                                                                                             |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,7 +86,7 @@ The university's history is intertwined with the modernization of Japan. Founded
 | College of Risk Management           | Focuses on risk assessment, crisis management, and disaster preparedness. Prepares students for careers in emergency management, security, and insurance.                                               |
 | College of Global Innovation Studies | An interdisciplinary college focusing on innovation, entrepreneurship, and global challenges. Provides students with the skills and knowledge to address complex problems in a rapidly changing world.  |
 
-## 💰 Tuition & Fees
+## Tuition & Fees
 
 Please note that tuition fees can vary depending on the faculty and program. The following table provides a general estimate:
 
@@ -80,17 +98,17 @@ Please note that tuition fees can vary depending on the faculty and program. The
 
 _Note: These are estimates. Please refer to the official Nihon University website for the most up-to-date information._
 
-## 🌍 International Student Support
+## International Student Support
 
-Nihon University provides a range of support services for international students, including:
+Nihon University offers a range of support services for international students, including:
 
-- **Dormitory:** The university offers dormitory accommodations for international students. Housing options and availability vary.
-- **English Programs:** Several colleges offer courses and programs taught in English. Information on specific English-taught programs should be reviewed on each college website.
-- **Career Support:** Career services provide guidance and resources to international students seeking internships and employment opportunities in Japan and abroad.
-- **International Student Support Office:** The university has an International Student Support Office that provides assistance with visa applications, housing, and other practical matters.
-- **Japanese Language Courses:** Language courses are offered to help international students improve their Japanese language skills.
+*   **Dormitory:** The university provides dormitory accommodations for international students. Housing options and availability may vary.
+*   **English Programs:** Several colleges offer courses and programs taught in English. It's important to review specific college websites for information on English-taught programs.
+*   **Career Support:** Career services offer guidance and resources to international students looking for internships and employment opportunities both in Japan and abroad.
+*   **International Student Support Office:** The university's International Student Support Office assists with visa applications, housing, and other practical matters.
+*   **Japanese Language Courses:** Language courses are available to help international students improve their Japanese language skills.
 
-## 📍 Campus Location & Access
+## Campus Location & Access
 
 Nihon University has multiple campuses located throughout Japan. The main campus is located in Tokyo.
 

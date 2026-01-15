@@ -10,6 +10,30 @@
 
 <!-- 2. 카드 콘텐츠 섹션 -->
 <div class="content-wrapper">
+
+    <!-- [신규] Featured Collections (최상단 배치) -->
+    <div class="section-header" style="margin-bottom: 20px;">
+        <h2 class="section-title" style="color: var(--accent); display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-star"></i> Featured Collections
+        </h2>
+    </div>
+    <div class="card-grid" style="margin-bottom: 80px;">
+        {% for guide in featured_guides %}
+        <a href="{{ guide.link }}" class="card" style="border: 2px solid var(--accent);">
+            <div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); height: 200px;">
+                <span class="card-badge" style="background: var(--accent); color: white;">Best Selection</span>
+            </div>
+            <div class="card-body">
+                <h4 style="font-size: 1.2rem; margin-bottom: 10px;">{{ guide.title }}</h4>
+                <p style="font-size: 0.9rem; color: var(--text-gray);">{{ guide.description }}</p>
+            </div>
+            <div class="card-footer" style="background: #fff7ed;">
+                <span style="color: var(--accent); font-weight: 700; font-size: 0.9rem;">View Ranking →</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
     <!-- Language Schools -->
     <div class="section-header">
         <h2 class="section-title">Language Schools</h2>

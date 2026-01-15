@@ -1,53 +1,63 @@
 ---
-basic_info:
-  address: 〒658-8501 兵庫県神戸市東灘区岡本8丁目9番1号
-  name_en: Konan University
-  name_ja: 甲南大学
-  website: https://www.konan-u.ac.jp/
-category: university
-faculties:
-- Faculty of Letters
-- Faculty of Economics
-- Faculty of Business Administration
-- Faculty of Law
-- Faculty of Science and Technology
-- Faculty of Intelligence and Informatics
-- Faculty of Frontiers of Innovative Research in Science and Technology (FIRST)
-- Faculty of Global Communication
-- Faculty of Psychology
-- Faculty of Societal Safety Sciences
-features:
-- Dormitory
-- Scholarship
-- English Program
-id: univ_konan-university
-layout: school
-location:
-  lat: 35.6812
-  lng: 139.7671
-stats:
-  acceptance_rate: 30%
-  international_students: 200
-tags:
-- Dormitory
-- Scholarship
-- English Program
-thumbnail: /static/img/pin-univ.png
-title: 甲南大学
-tuition:
-  admission_fee: 200000
-  yearly_tuition: 1200000
+{
+  "basic_info": {
+    "address": "〒658-8501 兵庫県神戸市東灘区岡本8丁目9番1号",
+    "name_en": "Konan University",
+    "name_ja": "甲南大学",
+    "website": "https://www.konan-u.ac.jp/"
+  },
+  "category": "university",
+  "faculties": [
+    "Faculty of Letters",
+    "Faculty of Economics",
+    "Faculty of Business Administration",
+    "Faculty of Law",
+    "Faculty of Science and Technology",
+    "Faculty of Intelligence and Informatics",
+    "Faculty of Frontiers of Innovative Research in Science and Technology (FIRST)",
+    "Faculty of Global Communication",
+    "Faculty of Psychology",
+    "Faculty of Societal Safety Sciences"
+  ],
+  "features": [
+    "Dormitory",
+    "Scholarship",
+    "English Program"
+  ],
+  "id": "univ_konan-university",
+  "layout": "school",
+  "location": {
+    "lat": 35.6812,
+    "lng": 139.7671
+  },
+  "stats": {
+    "acceptance_rate": "30%",
+    "international_students": 200
+  },
+  "tags": [
+    "Dormitory",
+    "Scholarship",
+    "English Program"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Konan University",
+  "tuition": {
+    "admission_fee": 200000,
+    "yearly_tuition": 1200000
+  },
+  "translated": true
+}
 ---
 
-## 🏫 University Overview & Reputation
+## University Overview & Reputation
 
-Konan University, nestled in the scenic city of Kobe, Japan, is a well-regarded private institution with a legacy spanning over a century. Founded in 1919 by Heisuke Mizushima, a prominent educator and entrepreneur, Konan initially began as a private school, later evolving into a comprehensive university. Known for its commitment to fostering well-rounded individuals, Konan University consistently ranks among the top private universities in the Kansai region. Its emphasis on independent thinking, global awareness, and practical application of knowledge distinguishes it from many other institutions.
+Konan University, situated in the picturesque city of Kobe, Japan, is a respected private institution with over a century of history. Founded in 1919 by Heisuke Mizushima, a distinguished educator and entrepreneur, Konan initially started as a private school before evolving into a comprehensive university. Recognized for its dedication to developing well-rounded individuals, Konan University consistently ranks among the top private universities in the Kansai region. Its emphasis on independent thinking, global awareness, and the practical application of knowledge sets it apart from many other universities.
 
-The university's reputation is built on its strong academic programs, dedicated faculty, and vibrant campus community. Konan University cultivates a learning environment that encourages critical thinking, problem-solving, and cross-cultural understanding. The university prides itself on its small class sizes, allowing for personalized attention and close interaction between students and professors. This close-knit academic atmosphere is a significant draw for both domestic and international students.
+The university's reputation is built upon its strong academic programs, committed faculty, and a lively campus environment. Konan University fosters a learning atmosphere that encourages critical thinking, problem-solving, and cross-cultural understanding. The university prides itself on its small class sizes, which enable personalized attention and close interaction between students and professors. This tight-knit academic setting is a significant attraction for both domestic and international students.
 
-Konan University is not only committed to academic excellence but also to social responsibility. The university actively participates in community outreach programs and encourages its students to engage in volunteer activities. Its commitment to social impact aligns with its mission to educate individuals who can contribute meaningfully to society. The university's alumni network is extensive and influential, with graduates holding prominent positions in various industries and sectors both within Japan and abroad.
+Konan University is not only dedicated to academic excellence but also to social responsibility. The university actively participates in community outreach programs and encourages its students to engage in volunteer activities. Its commitment to social impact aligns with its mission to educate individuals who can contribute meaningfully to society. The university's alumni network is extensive and influential, with graduates holding prominent positions in various industries and sectors both within Japan and abroad.
 
-## 🎓 Notable Faculties & Signature Programs
+## Notable Faculties & Signature Programs
 
 | Faculty                                                                       | Key Departments                                                                                                                                      | Notes                                                                                                                                                                                             |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -62,11 +72,11 @@ Konan University is not only committed to academic excellence but also to social
 | Faculty of Psychology                                                            | Psychology                                                                                                                                       | Provides a comprehensive understanding of human behavior and mental processes. Prepares students for careers in counseling, research, and human resources.                                                    |
 | Faculty of Societal Safety Sciences                                           | Societal Safety Sciences                                                                                                                             | Focuses on risk management, disaster prevention, and community safety. Prepares students for careers in emergency management, public safety, and environmental protection.                                 |
 
-One of Konan University's most notable programs is the **Faculty of Global Communication**. This faculty is specifically designed to foster globally-minded individuals with strong communication skills. It offers courses in intercultural communication, linguistics, and translation, preparing students for careers in international business, diplomacy, and global organizations. Importantly, the Faculty of Global Communication also offers a selection of courses taught entirely in English, making it particularly attractive to international students who may not yet be fluent in Japanese. The program emphasizes practical application of communication skills through simulations, presentations, and group projects. Students also have opportunities to participate in study abroad programs and internships with international organizations.
+One of Konan University's most notable programs is the **Faculty of Global Communication**. This faculty is specifically designed to cultivate globally-minded individuals with strong communication skills. It offers courses in intercultural communication, linguistics, and translation, preparing students for careers in international business, diplomacy, and global organizations. Importantly, the Faculty of Global Communication also offers a selection of courses taught entirely in English, making it particularly attractive to international students who may not yet be fluent in Japanese. The program emphasizes practical application of communication skills through simulations, presentations, and group projects. Students also have opportunities to participate in study abroad programs and internships with international organizations.
 
 The **Faculty of Science and Technology** is also highly regarded, particularly its programs in Intelligent Systems Engineering and Mechatronics Engineering. These programs provide students with a strong foundation in engineering principles and advanced technologies. The faculty boasts state-of-the-art research facilities and fosters close collaboration between students and professors on cutting-edge research projects. These programs are highly competitive and attract students from across Japan and around the world who are interested in pursuing careers in robotics, automation, and other related fields. The curriculum is designed to be rigorous and challenging, but also rewarding, providing students with the skills and knowledge they need to succeed in the rapidly evolving field of technology. While most courses are in Japanese, the faculty is actively working to increase the availability of English-taught courses and research opportunities for international students.
 
-## 🌍 International Student Admissions & Life
+## International Student Admissions & Life
 
 The application process for international students at Konan University typically involves several steps. First, applicants are usually required to submit scores from standardized tests such as the Examination for Japanese University Admission for International Students (EJU) and the TOEFL or IELTS. The specific requirements vary depending on the faculty and program. The EJU is particularly important as it assesses the applicant's Japanese language proficiency and academic abilities. TOEFL or IELTS scores demonstrate English language proficiency, which is crucial for programs with English-taught courses or for students who plan to engage in international research collaborations.
 
@@ -78,7 +88,7 @@ The International Student Office at Konan University provides comprehensive supp
 
 Currently, Konan University has approximately 200 international students from various countries around the world. This diverse student body contributes to a vibrant and multicultural campus atmosphere. The university has a wide range of student clubs and organizations, catering to diverse interests such as sports, music, and cultural activities. These clubs provide opportunities for international students to connect with Japanese students and other international students, fostering friendships and promoting intercultural exchange. The overall campus atmosphere is welcoming and supportive, creating a home away from home for international students.
 
-## 💰 Tuition, Scholarships & Cost of Living
+## Tuition, Scholarships & Cost of Living
 
 | Item                | Amount (JPY) |
 |---------------------|--------------|
@@ -104,7 +114,7 @@ The cost of living in Kobe is generally lower than in Tokyo, but it is still a m
 
 This is a rough estimate, and actual expenses may vary depending on individual spending habits and lifestyle. It is important for international students to plan their budget carefully and explore options for reducing expenses, such as cooking at home and using public transportation.
 
-## 📍 Campus Location & Access
+## Campus Location & Access
 
 Konan University's main campus is located in Okamoto, Higashinada-ku, Kobe, a charming residential area known for its blend of urban convenience and natural beauty. The surrounding neighborhood offers a relaxed and welcoming atmosphere, with tree-lined streets, local shops, and cozy cafes. The campus itself is beautifully landscaped, providing a serene and conducive environment for learning. The area is very safe and is a popular area for students to live in. The Okamoto area offers easy access to the rest of Kobe, Osaka, and Kyoto via public transportation.
 

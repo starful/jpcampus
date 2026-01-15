@@ -1,62 +1,78 @@
 ---
-basic_info:
-  address: 福岡県福岡市博多区博多駅南1-14-17
-  capacity: 280
-  name_en: ASO College of Foreign Languages, Tourism and Bridal
-  name_ja: 麻生外語観光＆ブライダル専門学校
-category: school
-courses:
-- admission_month: '4'
-  course_name: 日本語科
-  total_fees: 750000
-- admission_month: '10'
-  course_name: 日本語科
-  total_fees: 1090000
-- admission_month: '4'
-  course_name: 日本語科
-  total_fees: 1395000
-faculties: []
-features:
-- Further Education Support
-- Conversation-Focused
-- Scholarships
-- Dormitory
-- City Center Location
-- EJU Preparation
-- Short-Term Courses
-id: school_aso-foreign-language-tourism-bridal-college
-layout: school
-location:
-  lat: 33.5837257
-  lng: 130.4216656
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=418
-stats:
-  capacity: 280
-  international_students: 0
-tags:
-- Further Education Support
-- Conversation-Focused
-- Scholarships
-- Dormitory
-- City Center Location
-- EJU Preparation
-- Short-Term Courses
-thumbnail: /static/img/pin-school.png
-title: 麻生外語観光＆ブライダル専門学校
-tuition: {}
+{
+  "basic_info": {
+    "address": "福岡県福岡市博多区博多駅南1-14-17",
+    "capacity": 280,
+    "name_en": "ASO College of Foreign Languages, Tourism and Bridal",
+    "name_ja": "麻生外語観光＆ブライダル専門学校"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "admission_month": "4",
+      "course_name": "日本語科",
+      "total_fees": 750000
+    },
+    {
+      "admission_month": "10",
+      "course_name": "日本語科",
+      "total_fees": 1090000
+    },
+    {
+      "admission_month": "4",
+      "course_name": "日本語科",
+      "total_fees": 1395000
+    }
+  ],
+  "faculties": [],
+  "features": [
+    "Further Education Support",
+    "Conversation-Focused",
+    "Scholarships",
+    "Dormitory",
+    "City Center Location",
+    "EJU Preparation",
+    "Short-Term Courses"
+  ],
+  "id": "school_aso-foreign-language-tourism-bridal-college",
+  "layout": "school",
+  "location": {
+    "lat": 33.5837257,
+    "lng": 130.4216656
+  },
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=418",
+  "stats": {
+    "capacity": 280,
+    "international_students": 0
+  },
+  "tags": [
+    "Further Education Support",
+    "Conversation-Focused",
+    "Scholarships",
+    "Dormitory",
+    "City Center Location",
+    "EJU Preparation",
+    "Short-Term Courses"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "Aso College of Foreign Languages, Tourism and Bridal",
+  "tuition": {},
+  "description": "Aso College of Foreign Languages, Tourism and Bridal is a vocational school in Hakata, Fukuoka, offering Japanese language courses and specialized training for careers in tourism and bridal services. They provide support for further education and EJU preparation.",
+  "translated": true
+}
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-麻生外語観光＆ブライダル専門学校 (Aso Foreign Language, Tourism & Bridal College), often referred to as Aso Gairaigo Kankō & Buraidaru Senmon Gakkō, is a vocational school situated in the bustling heart of Hakata, Fukuoka City. Its prime location offers students unparalleled access to the city's extensive transportation network, vibrant shopping districts, diverse dining options, and rich cultural landscape. The school's proximity to Hakata Station, a major transportation hub, makes it incredibly convenient for students to explore not only Fukuoka but also other parts of Japan.
+Aso College of Foreign Languages, Tourism & Bridal, also known as Aso Gairaigo Kankō & Buraidaru Senmon Gakkō, is a vocational school centrally located in Hakata, Fukuoka City. Its location provides students with easy access to transportation, shopping, dining, and cultural attractions. The school's proximity to Hakata Station, a major transportation hub, offers convenient access to Fukuoka and other parts of Japan.
 
-The school's educational philosophy centers around providing practical, hands-on training and fostering a welcoming and supportive environment for international students. It emphasizes the importance of developing not only linguistic proficiency but also cultural understanding and adaptability. Aso College recognizes that students come from diverse backgrounds with varied goals, whether it's pursuing higher education in Japan, launching a career in the tourism or hospitality industries, or simply enhancing their Japanese language skills for personal enrichment. To that end, the curriculum is designed to be flexible and cater to individual needs.
+The school's philosophy focuses on practical training and a supportive environment for international students. It emphasizes language skills, cultural understanding, and adaptability. Aso College recognizes the diverse backgrounds and goals of its students, whether for higher education, careers in tourism or hospitality, or personal enrichment. The curriculum is designed to be flexible and cater to individual needs.
 
-Aso Foreign Language, Tourism & Bridal College is part of the larger Aso Educational Group, a well-established institution with a long history of providing quality education in Fukuoka. This affiliation provides students with access to a wider network of resources and opportunities, including potential collaborations with other schools within the group. The school's commitment to student success is evident in its comprehensive support services, which range from academic advising to career counseling and assistance with daily life in Japan. Their goal is to equip students with the skills and knowledge necessary to thrive in a globalized world.
+Aso College is part of the Aso Educational Group, known for quality education in Fukuoka. This connection provides access to a wider network of resources and opportunities. The school is committed to student success, offering comprehensive support services from academic advising to career counseling and daily life assistance. Their goal is to prepare students for success in a globalized world.
 
-## 📚 Courses, Curriculum & Teaching Style
+## Courses, Curriculum & Teaching Style
 
-Aso Foreign Language, Tourism & Bridal College primarily offers Japanese Language Courses (日本語科) designed to cater to students at various proficiency levels and with different academic goals. The courses emphasize a balanced approach to language learning, incorporating grammar, vocabulary, reading, writing, listening, and, crucially, speaking skills. The teaching style prioritizes interactive learning and communicative activities, encouraging students to actively participate in class and practice their Japanese in real-life scenarios.
+Aso College primarily offers Japanese Language Courses (日本語科) designed for various proficiency levels and academic goals. The courses balance grammar, vocabulary, reading, writing, listening, and speaking skills. The teaching style prioritizes interactive learning and communicative activities, encouraging active participation and real-life practice.
 
 | Course Name                         | Duration    | Target Level               | Key Features                                                                                                                              |
 | ----------------------------------- | ----------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -64,39 +80,45 @@ Aso Foreign Language, Tourism & Bridal College primarily offers Japanese Languag
 | 日本語科 (Japanese Language Course) | 1.5 Years   | Beginner to Upper-Intermediate | Comprehensive Japanese language training, EJU preparation, university guidance, focus on academic Japanese and advanced communication skills.        |
 | 日本語科 (Japanese Language Course) | 2 Years     | Beginner to Advanced        | Extensive Japanese language training, in-depth EJU preparation, specialized elective courses, career counseling, prepares students for both university and professional opportunities. |
 
-**日本語科 (Japanese Language Course) - 1 Year:** This course, commencing in April, is ideal for students who wish to immerse themselves in the Japanese language and culture for a shorter period. The curriculum focuses on building a solid foundation in grammar and vocabulary while emphasizing practical conversation skills. Students will learn how to communicate effectively in everyday situations and gain a basic understanding of Japanese culture and customs. The teaching style is highly interactive, with a strong emphasis on pair work, group activities, and role-playing. While EJU preparation is not the primary focus, students will gain valuable language skills that can benefit them in future academic pursuits. This course provides a valuable experience for those seeking personal enrichment and language improvement.
+**Japanese Language Course - 1 Year:**
 
-**日本語科 (Japanese Language Course) - 1.5 Years:** This course, starting in October, provides a more in-depth study of the Japanese language and culture. The curriculum covers a wide range of topics, from basic grammar to advanced reading comprehension and writing skills. The course places a significant emphasis on preparing students for the Examination for Japanese University Admission for International Students (EJU). Specific EJU preparation classes are integrated into the curriculum, covering all subject areas tested on the exam. The teaching style is more structured than the 1-year course, with a greater emphasis on academic rigor. Students will also receive guidance on choosing a university and preparing their application materials. This course is suitable for students who are committed to pursuing higher education in Japan and need comprehensive EJU preparation.
+This course, starting in April, is ideal for a short immersion in Japanese language and culture. The curriculum focuses on grammar, vocabulary, and practical conversation. Students learn to communicate effectively in everyday situations and gain a basic understanding of Japanese culture. The teaching style is interactive, with pair work, group activities, and role-playing. While EJU preparation is not the main focus, students gain valuable language skills. This course is beneficial for personal enrichment and language improvement.
 
-**日本語科 (Japanese Language Course) - 2 Years:** The two-year course, beginning in April, is the most comprehensive Japanese language program offered by Aso Foreign Language, Tourism & Bridal College. The curriculum is designed to take students from a beginner level to an advanced level of Japanese proficiency. In addition to the core language skills, students will also have the opportunity to take specialized elective courses in areas such as business Japanese, tourism Japanese, and Japanese culture. The EJU preparation component of this course is particularly thorough, covering all aspects of the exam in detail. The teaching style is highly personalized, with teachers providing individual attention to each student's needs. Students will also receive extensive career counseling and guidance on finding employment in Japan. This course is ideal for students who are serious about mastering the Japanese language and pursuing a successful career in Japan.
+**Japanese Language Course - 1.5 Years:**
 
-## 🌍 Student Body & Campus Life
+This course, starting in October, offers in-depth study of Japanese language and culture. The curriculum covers grammar to advanced reading and writing. It emphasizes preparation for the Examination for Japanese University Admission for International Students (EJU), with integrated EJU preparation classes. The teaching style is more structured, with academic rigor. Students receive guidance on university selection and application. This course is for students committed to higher education in Japan and needing EJU preparation.
 
-While the provided data does not specify the exact number of international students currently enrolled at Aso Foreign Language, Tourism & Bridal College, the school's active promotion of its Japanese language courses and its dedication to providing comprehensive support services for international students suggest a commitment to welcoming and integrating students from around the world. Based on common trends in Japanese language schools, it is likely that the student body is composed of individuals from a variety of countries in Asia, Europe, and the Americas.
+**Japanese Language Course - 2 Years:**
 
-Given its focus on tourism and bridal services, it is plausible that a significant portion of the international student body is comprised of individuals interested in pursuing careers in these industries, either in Japan or in their home countries. The cultural exchange between these students and their Japanese peers is an integral part of the school's educational experience.
+The two-year course, starting in April, is the most comprehensive program at Aso College. The curriculum takes students from beginner to advanced proficiency. In addition to core language skills, students can take electives in business Japanese, tourism Japanese, and Japanese culture. The EJU preparation is thorough. The teaching style is personalized, with individual attention. Students receive career counseling and guidance on finding employment in Japan. This course is ideal for mastering Japanese and pursuing a career in Japan.
 
-Aso Foreign Language, Tourism & Bridal College is located in a modern building equipped with various facilities designed to enhance the learning experience. These facilities typically include:
+## Student Body & Campus Life
 
-*   **Classrooms:** Well-equipped and conducive to interactive learning.
+While the exact number of international students isn't specified, Aso College's active promotion of Japanese language courses and comprehensive support services suggests a commitment to international students. The student body likely includes individuals from Asia, Europe, and the Americas.
+
+Given its focus on tourism and bridal services, many international students are likely interested in careers in these industries in Japan or their home countries. Cultural exchange is an integral part of the school's educational experience.
+
+Aso College is located in a modern building with facilities to enhance learning, including:
+
+*   **Classrooms:** Well-equipped for interactive learning.
 *   **Computer Labs:** Providing access to technology for language learning and research.
-*   **Library:** Offering a collection of Japanese language learning materials, textbooks, and reference books.
+*   **Library:** Offering Japanese language learning materials, textbooks, and reference books.
 *   **Student Lounge:** A comfortable space for students to relax and socialize.
-*   **Counseling Room:** Providing a private space for students to receive academic and personal counseling.
+*   **Counseling Room:** Providing a private space for academic and personal counseling.
 
-Beyond the academic curriculum, Aso College likely offers a range of extracurricular activities to help students immerse themselves in Japanese culture and connect with their classmates. These activities may include:
+Beyond academics, Aso College likely offers extracurricular activities for cultural immersion and connection, such as:
 
 *   **Cultural Events:** Celebrating Japanese festivals and traditions.
 *   **Field Trips:** Visiting historical sites, museums, and other places of interest.
 *   **Language Exchange Programs:** Pairing international students with Japanese students for language practice.
-*   **Sports Clubs:** Offering opportunities to participate in various sports and recreational activities.
+*   **Sports Clubs:** Offering opportunities to participate in sports and recreational activities.
 *   **Volunteer Activities:** Providing opportunities to give back to the local community.
 
-## 🎓 University & Career Pathways
+## University & Career Pathways
 
-Aso Foreign Language, Tourism & Bridal College places strong emphasis on guiding students towards their future academic and professional goals. For students aspiring to enter Japanese universities, the school provides comprehensive support for the EJU and the university application process.
+Aso College emphasizes guiding students towards their academic and professional goals. For students aiming to enter Japanese universities, the school provides comprehensive support for the EJU and the university application process.
 
-While specific university admission records for Aso Foreign Language, Tourism & Bridal College are not provided, the school's focus on EJU preparation and university guidance suggests a track record of successful university placements. Students are typically assisted in:
+While specific university admission records are not provided, the school's focus on EJU preparation and university guidance suggests successful university placements. Students are typically assisted in:
 
 *   **EJU Preparation:** Dedicated classes and practice exams to improve EJU scores.
 *   **University Selection:** Guidance on choosing the right university and program based on academic interests and career goals.
@@ -112,7 +134,7 @@ While specific university admission records for Aso Foreign Language, Tourism & 
 
 (Note: This table is speculative based on location and common university destinations. Actual admissions data would be obtained from the school directly.)
 
-For students seeking employment after graduation, Aso Foreign Language, Tourism & Bridal College offers career counseling and job placement assistance. This may include:
+For students seeking employment after graduation, Aso College offers career counseling and job placement assistance, including:
 
 *   **Resume Writing Workshops:** Helping students create effective resumes that highlight their skills and experience.
 *   **Interview Skills Training:** Providing guidance on how to perform well in job interviews.
@@ -120,17 +142,17 @@ For students seeking employment after graduation, Aso Foreign Language, Tourism 
 *   **Company Visits:** Arranging visits to local companies to provide students with insights into different career paths.
 *   **Networking Events:** Organizing events that allow students to connect with industry professionals.
 
-## 🏡 Accommodation & Living Support
+## Accommodation & Living Support
 
-Aso Foreign Language, Tourism & Bridal College provides on-site dormitory accommodation for international students, offering a convenient and affordable housing option. While specific details regarding the dormitory types, costs, and distances from the school are not provided in the original document, typical dormitory options for language schools in Japan include:
+Aso College provides on-site dormitory accommodation for international students, offering a convenient and affordable housing option. While specific details are not provided, typical dormitory options include:
 
 *   **Single Rooms:** Providing privacy and a dedicated study space.
 *   **Shared Rooms:** Offering a more affordable option and opportunities to interact with other students.
 *   **Apartment-Style Rooms:** Providing more independent living with kitchen and bathroom facilities.
 
-Dormitory costs can vary depending on the type of room, the location, and the amenities offered. It is common for dormitories to include basic furniture, such as a bed, desk, chair, and closet. Some dormitories may also offer communal facilities, such as a kitchen, laundry room, and common area.
+Dormitory costs vary depending on the room type, location, and amenities. Dormitories typically include basic furniture. Some offer communal facilities.
 
-The school also assists international students with initial setup in Japan, which may include:
+The school also assists with initial setup in Japan, including:
 
 *   **Airport Pickup:** Providing transportation from the airport to the dormitory.
 *   **Assistance with Registration:** Helping students complete necessary registration procedures with local authorities.
@@ -138,9 +160,9 @@ The school also assists international students with initial setup in Japan, whic
 *   **Orientation Programs:** Introducing students to Japanese culture and customs and providing practical tips for living in Japan.
 *   **Emergency Support:** Providing 24-hour emergency support in case of any problems or concerns.
 
-## 💰 Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships
 
-The following table outlines the approximate first-year costs for the Japanese Language Course at Aso Foreign Language, Tourism & Bridal College. These costs are based on the provided data and may be subject to change. It is essential to confirm the most up-to-date fees with the school directly.
+The following table outlines approximate first-year costs for the Japanese Language Course at Aso College. Confirm the most up-to-date fees with the school directly.
 
 | Expense                     | Amount (JPY) | Notes                                                                       |
 | --------------------------- | ------------ | --------------------------------------------------------------------------- |
@@ -152,14 +174,14 @@ The following table outlines the approximate first-year costs for the Japanese L
 | Other Expenses (Living Costs)| (Estimate)   | Variable, but budget at least 80,000 - 120,000 JPY per month.                |
 | **Total (Approximate)**     | **2,100,000+**| Highly variable, depends on lifestyle and accommodation choices.              |
 
-Aso Foreign Language, Tourism & Bridal College offers scholarship opportunities to eligible students. These scholarships may be internal (funded by the school) or external (funded by other organizations).
+Aso College offers scholarship opportunities to eligible students, both internal and external.
 
-**Internal Scholarships:** The availability and amount of internal scholarships vary each year. Information about internal scholarships can be obtained directly from the school's admissions office. Factors considered for internal scholarships often include academic performance, attendance, and financial need.
+**Internal Scholarships:** Availability and amount vary each year. Information is available from the admissions office. Factors include academic performance, attendance, and financial need.
 
-**External Scholarships:** International students may also be eligible for external scholarships offered by organizations such as the Japan Student Services Organization (JASSO) and other private foundations. JASSO scholarships are typically awarded based on academic merit and financial need. The school can provide guidance on applying for external scholarships and assist students with the application process. Some common external scholarships include:
+**External Scholarships:** International students may be eligible for external scholarships from JASSO and other foundations. JASSO scholarships are based on academic merit and financial need. The school can provide guidance on applying for external scholarships. Common external scholarships include:
 
-*   **JASSO Scholarship:** Offered by the Japanese government to outstanding international students.
-*   **Rotary Club Scholarship:** Awarded by local Rotary Clubs to students who demonstrate leadership potential.
-*   **Private Foundation Scholarships:** Many private foundations offer scholarships to international students studying in Japan.
+*   **JASSO Scholarship:** Offered by the Japanese government.
+*   **Rotary Club Scholarship:** Awarded by local Rotary Clubs.
+*   **Private Foundation Scholarships:** Many private foundations offer scholarships.
 
-It is essential for prospective students to research scholarship opportunities thoroughly and apply early to maximize their chances of receiving funding. The school's admissions office can provide valuable guidance and support throughout the scholarship application process.
+Research scholarship opportunities and apply early. The school's admissions office can provide guidance and support.

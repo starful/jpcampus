@@ -1,55 +1,72 @@
 ---
-basic_info:
-  address: 大阪府大阪市天王寺区寺田町2-5-19
-  capacity: 176
-  name_en: Nichichu Language Academy
-  name_ja: 日中語学専門学院
-category: school
-courses:
-- admission_month: '1'
-  course_name: 大学進学1年3ヶ月コース
-  total_fees: 925000
-- admission_month: '10'
-  course_name: 大学進学1年半コース
-  total_fees: 1090000
-- admission_month: '7'
-  course_name: 大学進学1年9ヶ月コース
-  total_fees: 1255000
-- admission_month: '4'
-  course_name: 大学進学2年コース
-  total_fees: 1420000
-faculties: []
-features:
-- Dormitory
-- EJU Preparation
-- University Admission Support
-- Conversation Focused
-- Science Course Preparation
-- Scholarships
-id: school_nicchu-language-academy
-layout: school
-location:
-  lat: 34.6491877
-  lng: 135.5242562
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=351
-stats:
-  capacity: 176
-  international_students: 0
-tags:
-- Dormitory
-- EJU Preparation
-- University Admission Support
-- Conversation Focused
-- Science Course Preparation
-- Scholarships
-thumbnail: /static/img/pin-school.png
-title: 日中語学専門学院
-tuition: {}
+{
+  "basic_info": {
+    "address": "大阪府大阪市天王寺区寺田町2-5-19",
+    "capacity": 176,
+    "name_en": "Nichichu Language Academy",
+    "name_ja": "日中語学専門学院"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "admission_month": "1",
+      "course_name": "大学進学1年3ヶ月コース",
+      "total_fees": 925000
+    },
+    {
+      "admission_month": "10",
+      "course_name": "大学進学1年半コース",
+      "total_fees": 1090000
+    },
+    {
+      "admission_month": "7",
+      "course_name": "大学進学1年9ヶ月コース",
+      "total_fees": 1255000
+    },
+    {
+      "admission_month": "4",
+      "course_name": "大学進学2年コース",
+      "total_fees": 1420000
+    }
+  ],
+  "faculties": [],
+  "features": [
+    "Dormitory",
+    "EJU Preparation",
+    "University Admission Support",
+    "Conversation Focused",
+    "Science Course Preparation",
+    "Scholarships"
+  ],
+  "id": "school_nicchu-language-academy",
+  "layout": "school",
+  "location": {
+    "lat": 34.6491877,
+    "lng": 135.5242562
+  },
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=351",
+  "stats": {
+    "capacity": 176,
+    "international_students": 0
+  },
+  "tags": [
+    "Dormitory",
+    "EJU Preparation",
+    "University Admission Support",
+    "Conversation Focused",
+    "Science Course Preparation",
+    "Scholarships"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "Nichichu Language Academy",
+  "tuition": {},
+  "translated": true
+}
 ---
 
 ## 🏫 School Overview
 
-日中語学専門学院 (Nicchu Language Academy) is a Japanese language school located in Osaka, dedicated to providing comprehensive Japanese language education to international students. While its name might suggest a focus solely on Chinese-Japanese language connections, the school’s primary mission is to equip students with the Japanese language skills and academic foundation necessary for successful university admission in Japan. The academy fosters a supportive and encouraging learning environment, emphasizing not only language proficiency but also cultural understanding and personal growth. With a capacity of 176 students, Nicchu Language Academy aims to create a close-knit community where students can thrive academically and personally.
+Nichichu Language Academy is a Japanese language school located in Osaka, dedicated to providing comprehensive Japanese language education to international students. While its name might suggest a focus solely on Chinese-Japanese language connections, the school’s primary mission is to equip students with the Japanese language skills and academic foundation necessary for successful university admission in Japan. The academy fosters a supportive and encouraging learning environment, emphasizing not only language proficiency but also cultural understanding and personal growth. With a capacity of 176 students, Nicchu Language Academy aims to create a close-knit community where students can thrive academically and personally.
 
 ## 📍 Location & Surroundings
 
@@ -73,7 +90,7 @@ Nicchu Language Academy offers a range of courses designed to cater to students 
 
 The academy offers several course lengths to accommodate students starting at different times of the year.
 
-- **University Preparation Courses:** (1 year 3 months, 1 year 6 months, 1 year 9 months, 2 years).
+*   **University Preparation Courses:** (1 year 3 months, 1 year 6 months, 1 year 9 months, 2 years).
 
 **Curriculum Levels:**
 
@@ -86,9 +103,9 @@ The academy offers several course lengths to accommodate students starting at di
 
 **Course Details**
 
-- **EJU Preparation:** Rigorous training for the EJU, covering Japanese language, mathematics, science (physics, chemistry, biology), and Japan and the World. The curriculum is tailored to the specific requirements of the EJU and includes practice exams, mock tests, and personalized feedback.
-- **University Application Support:** Guidance on selecting appropriate universities and faculties, preparing application documents, and practicing for interviews. The academy has experienced counselors who provide individual support to each student throughout the application process.
-- **Science Course Specialization:** Specifically designed to support students planning to study science-related fields (Engineering, Science, Medicine) at university. Includes preparation for EJU science sections and foundational knowledge in relevant scientific disciplines.
+*   **EJU Preparation:** Rigorous training for the EJU, covering Japanese language, mathematics, science (physics, chemistry, biology), and Japan and the World. The curriculum is tailored to the specific requirements of the EJU and includes practice exams, mock tests, and personalized feedback.
+*   **University Application Support:** Guidance on selecting appropriate universities and faculties, preparing application documents, and practicing for interviews. The academy has experienced counselors who provide individual support to each student throughout the application process.
+*   **Science Course Specialization:** Specifically designed to support students planning to study science-related fields (Engineering, Science, Medicine) at university. Includes preparation for EJU science sections and foundational knowledge in relevant scientific disciplines.
 
 While the provided data doesn’t explicitly mention elective classes, it is plausible that the academy offers supplementary lessons or workshops focused on specific areas of interest, such as Japanese culture, business Japanese, or JLPT preparation, to enhance students' overall learning experience.
 
@@ -96,10 +113,10 @@ While the provided data doesn’t explicitly mention elective classes, it is pla
 
 Nicchu Language Academy places a strong emphasis on supporting students' transition to higher education. While specific data on university acceptance rates isn't available, the curriculum is designed to maximize students' chances of success in the EJU and university entrance exams. The academy provides:
 
-- **Individual Counseling:** Experienced counselors offer personalized guidance on university selection, application strategies, and interview preparation.
-- **University Information Sessions:** Regular information sessions are held to provide students with the latest updates on university admission requirements, application deadlines, and scholarship opportunities.
-- **Application Support:** The academy assists students with the preparation of application documents, including personal statements, recommendation letters, and academic transcripts.
-- **Interview Practice:** Mock interviews are conducted to help students develop their communication skills and build confidence in the interview process.
+*   **Individual Counseling:** Experienced counselors offer personalized guidance on university selection, application strategies, and interview preparation.
+*   **University Information Sessions:** Regular information sessions are held to provide students with the latest updates on university admission requirements, application deadlines, and scholarship opportunities.
+*   **Application Support:** The academy assists students with the preparation of application documents, including personal statements, recommendation letters, and academic transcripts.
+*   **Interview Practice:** Mock interviews are conducted to help students develop their communication skills and build confidence in the interview process.
 
 Although the primary focus is on university admission, the academy likely provides some level of support for students seeking part-time employment to help cover their living expenses. This may include assistance with finding suitable job opportunities and guidance on Japanese work culture.
 
@@ -109,11 +126,11 @@ Nicchu Language Academy offers on-site dormitory accommodation for international
 
 **Dormitory Features:**
 
-- Furnished rooms (bed, desk, chair, wardrobe)
-- Shared kitchen facilities
-- Shared bathroom and shower facilities
-- Laundry facilities
-- Wi-Fi access
+*   Furnished rooms (bed, desk, chair, wardrobe)
+*   Shared kitchen facilities
+*   Shared bathroom and shower facilities
+*   Laundry facilities
+*   Wi-Fi access
 
 **Dormitory Fees (Estimated - Specific costs should be confirmed with the school):**
 
@@ -143,11 +160,11 @@ Nicchu Language Academy offers a range of course durations, with tuition fees va
 
 **Fee Components (Typically included in total fees):**
 
-- Application Fee
-- Tuition Fee
-- Facility Fee
-- Textbook Fee
-- Insurance Fee
+*   Application Fee
+*   Tuition Fee
+*   Facility Fee
+*   Textbook Fee
+*   Insurance Fee
 
 **Scholarships:**
 
@@ -161,25 +178,25 @@ The academy typically accepts tuition payments through bank transfer or credit c
 
 **Pros:**
 
-- **Dedicated EJU Preparation:** Comprehensive curriculum specifically designed to prepare students for the Examination for Japanese University Admission for International Students.
-- **University Admission Support:** Experienced counselors provide personalized guidance on university selection, application strategies, and interview preparation.
-- **Dormitory Accommodation:** Convenient and affordable on-site dormitory accommodation minimizes commute time and provides a supportive living environment.
-- **Science Course Specialization:** Specialized curriculum for students planning to study science-related fields at university.
-- **Location:** Situated in a safe and convenient district of Osaka with excellent transportation links and access to amenities.
+*   **Dedicated EJU Preparation:** Comprehensive curriculum specifically designed to prepare students for the Examination for Japanese University Admission for International Students.
+*   **University Admission Support:** Experienced counselors provide personalized guidance on university selection, application strategies, and interview preparation.
+*   **Dormitory Accommodation:** Convenient and affordable on-site dormitory accommodation minimizes commute time and provides a supportive living environment.
+*   **Science Course Specialization:** Specialized curriculum for students planning to study science-related fields at university.
+*   **Location:** Situated in a safe and convenient district of Osaka with excellent transportation links and access to amenities.
 
 **Cons:**
 
-- **Limited Information Online:** Limited publicly available information on specific course content, elective options, and scholarship opportunities. Prospective students should contact the school directly for detailed information.
-- **Focus on University Admission:** While this is a strength for those seeking higher education, students seeking a more general Japanese language learning experience may find the curriculum too specialized.
+*   **Limited Information Online:** Limited publicly available information on specific course content, elective options, and scholarship opportunities. Prospective students should contact the school directly for detailed information.
+*   **Focus on University Admission:** While this is a strength for those seeking higher education, students seeking a more general Japanese language learning experience may find the curriculum too specialized.
 
 **Who is this school for?**
 
 Nicchu Language Academy is ideally suited for international students who:
 
-- Are serious about pursuing higher education in Japan.
-- Require comprehensive EJU preparation.
-- Prefer a structured and supportive learning environment.
-- Value the convenience of on-site dormitory accommodation.
-- Plan to study science-related fields at university.
+*   Are serious about pursuing higher education in Japan.
+*   Require comprehensive EJU preparation.
+*   Prefer a structured and supportive learning environment.
+*   Value the convenience of on-site dormitory accommodation.
+*   Plan to study science-related fields at university.
 
 Students seeking a rigorous and focused program to prepare them for university admission in Japan will find Nicchu Language Academy to be a valuable option. However, it is important to contact the school directly to obtain detailed information about the curriculum, scholarship opportunities, and other relevant details to ensure it aligns with individual needs and goals.

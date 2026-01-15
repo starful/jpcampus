@@ -1,54 +1,70 @@
 ---
-basic_info:
-  address: 広島県広島市中区八丁堀7-11
-  capacity: 300
-  name_en: Hiroshima YMCA College
-  name_ja: 広島ＹＭＣＡ専門学校
-category: school
-courses:
-- admission_month: '4'
-  course_name: 1年コース
-  total_fees: 757500
-- admission_month: '10'
-  course_name: 1年6ヵ月コース
-  total_fees: 1074000
-- admission_month: '4'
-  course_name: 2年コース
-  total_fees: 1390000
-faculties: []
-features:
-- University Preparation
-- EJU Preparation
-- Conversational Japanese
-- Dormitory Available
-- Science Focus
-id: school_hiroshima-ymca-specialized-school
-layout: school
-location:
-  lat: 34.3961859
-  lng: 132.4620773
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=394
-stats:
-  capacity: 300
-  international_students: 0
-tags:
-- University Preparation
-- EJU Preparation
-- Conversational Japanese
-- Dormitory Available
-- Science Focus
-thumbnail: /static/img/pin-school.png
-title: 広島ＹＭＣＡ専門学校
-tuition: {}
+{
+  "basic_info": {
+    "address": "広島県広島市中区八丁堀7-11",
+    "capacity": 300,
+    "name_en": "Hiroshima YMCA College",
+    "name_ja": "広島ＹＭＣＡ専門学校"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "admission_month": "4",
+      "course_name": "1年コース",
+      "total_fees": 757500
+    },
+    {
+      "admission_month": "10",
+      "course_name": "1年6ヵ月コース",
+      "total_fees": 1074000
+    },
+    {
+      "admission_month": "4",
+      "course_name": "2年コース",
+      "total_fees": 1390000
+    }
+  ],
+  "faculties": [],
+  "features": [
+    "University Preparation",
+    "EJU Preparation",
+    "Conversational Japanese",
+    "Dormitory Available",
+    "Science Focus"
+  ],
+  "id": "school_hiroshima-ymca-specialized-school",
+  "layout": "school",
+  "location": {
+    "lat": 34.3961859,
+    "lng": 132.4620773
+  },
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=394",
+  "stats": {
+    "capacity": 300,
+    "international_students": 0
+  },
+  "tags": [
+    "University Preparation",
+    "EJU Preparation",
+    "Conversational Japanese",
+    "Dormitory Available",
+    "Science Focus"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "Hiroshima YMCA College",
+  "tuition": {},
+  "description": "Hiroshima YMCA College offers comprehensive Japanese language programs with a focus on university preparation, EJU test preparation, and conversational Japanese skills. Dormitory is available.",
+  "translated": true
+}
 ---
 
-## 🏫 School Overview
+## School Overview
 
-Hiroshima YMCA Specialized School (広島ＹＭＣＡ専門学校) offers a comprehensive Japanese language education with a focus on preparing international students for higher education in Japan. With a long-standing history rooted in the YMCA's global mission of fostering holistic development, the school emphasizes not only language proficiency but also cultural understanding and personal growth. The campus fosters a welcoming and supportive atmosphere, encouraging students to connect with peers and instructors. They aim to equip students with the necessary skills and knowledge to succeed academically and professionally in Japan.
+Hiroshima YMCA College offers comprehensive Japanese language education, preparing international students for higher education in Japan. Rooted in the YMCA's global mission of holistic development, the school emphasizes language proficiency, cultural understanding, and personal growth. The campus fosters a welcoming and supportive atmosphere, encouraging connections among students and instructors, aiming to equip students with the necessary skills and knowledge for academic and professional success in Japan.
 
-## 📍 Location & Surroundings
+## Location & Surroundings
 
-The school is conveniently located in Hacchobori, a central area of Hiroshima City, Hiroshima Prefecture. This prime location offers easy access to various amenities and transportation options.
+The college is conveniently located in Hacchobori, a central area of Hiroshima City, Hiroshima Prefecture. This prime location offers easy access to various amenities and transportation.
 
 | Location             | Accessibility                             | Notes                                       |
 | -------------------- | ----------------------------------------- | ------------------------------------------- |
@@ -60,9 +76,9 @@ The school is conveniently located in Hacchobori, a central area of Hiroshima Ci
 
 The neighborhood is generally considered safe and well-lit, providing a secure environment for students. Its central location makes it easy to explore Hiroshima City and experience its rich culture and history.
 
-## 🎓 Curriculum & Courses
+## Curriculum & Courses
 
-Hiroshima YMCA Specialized School offers various courses tailored to different learning needs and durations, focusing on both general Japanese proficiency and preparation for the Examination for Japanese University Admission for International Students (EJU).
+Hiroshima YMCA College offers various courses tailored to different learning needs and durations, focusing on general Japanese proficiency and preparation for the Examination for Japanese University Admission for International Students (EJU).
 
 | Course Name     | Duration  | Admission Month | Focus                                                      |
 | --------------- | --------- | --------------- | ---------------------------------------------------------- |
@@ -70,21 +86,21 @@ Hiroshima YMCA Specialized School offers various courses tailored to different l
 | 1.5-Year Course | 1.5 years | October         | Comprehensive language acquisition, EJU preparation.       |
 | 2-Year Course   | 2 years   | April           | Advanced Japanese skills, university-level preparation.    |
 
-The curriculum covers a wide range of topics, including:
+The curriculum covers a wide range of topics:
 
-- **Grammar and Vocabulary:** Building a solid foundation in Japanese grammar and expanding vocabulary.
-- **Reading Comprehension:** Developing the ability to understand and analyze various types of texts.
-- **Listening Comprehension:** Improving listening skills for everyday conversations and academic lectures.
-- **Speaking and Presentation:** Enhancing conversational skills and presentation abilities.
-- **Writing Skills:** Mastering different writing styles, including essays and reports.
-- **EJU Preparation:** Dedicated classes focusing on the EJU syllabus and exam strategies.
-- **Cultural Studies:** Understanding Japanese culture, customs, and society.
+*   **Grammar and Vocabulary:** Building a solid foundation in Japanese grammar and expanding vocabulary.
+*   **Reading Comprehension:** Developing the ability to understand and analyze various types of texts.
+*   **Listening Comprehension:** Improving listening skills for everyday conversations and academic lectures.
+*   **Speaking and Presentation:** Enhancing conversational skills and presentation abilities.
+*   **Writing Skills:** Mastering different writing styles, including essays and reports.
+*   **EJU Preparation:** Dedicated classes focusing on the EJU syllabus and exam strategies.
+*   **Cultural Studies:** Understanding Japanese culture, customs, and society.
 
-The school also offers elective courses, such as:
+The college also offers elective courses, such as:
 
-- **Business Japanese:** Learning Japanese for professional communication.
-- **Japanese Culture:** Exploring various aspects of Japanese culture through hands-on activities.
-- **Science Japanese**: Specific focus on vocabulary and grammar structures used in science disciplines.
+*   **Business Japanese:** Learning Japanese for professional communication.
+*   **Japanese Culture:** Exploring various aspects of Japanese culture through hands-on activities.
+*   **Science Japanese:** Specific focus on vocabulary and grammar structures used in science disciplines.
 
 | Level        | Goal                                         | Expected JLPT Level Upon Completion | Course Examples                                                 |
 | ------------ | -------------------------------------------- | ----------------------------------- | --------------------------------------------------------------- |
@@ -92,23 +108,23 @@ The school also offers elective courses, such as:
 | Intermediate | Conversational fluency, reading simple texts | N3                                  | Complex grammar, reading comprehension, expressing opinions.    |
 | Advanced     | Academic Japanese, EJU preparation           | N2-N1                               | Essay writing, academic lectures, advanced discussions.         |
 
-## 📈 Support for Higher Education & Employment
+## Support for Higher Education & Employment
 
-Hiroshima YMCA Specialized School provides comprehensive support for students aiming to pursue higher education in Japan.
+Hiroshima YMCA College provides comprehensive support for students aiming to pursue higher education in Japan:
 
-- **University Counseling:** Individual consultations with experienced counselors.
-- **EJU Guidance:** Information sessions and workshops on the EJU exam.
-- **Application Assistance:** Support with application procedures and document preparation.
-- **Interview Practice:** Mock interviews to prepare students for university entrance interviews.
-- **School Visits:** Organized visits to various universities and colleges.
+*   **University Counseling:** Individual consultations with experienced counselors.
+*   **EJU Guidance:** Information sessions and workshops on the EJU exam.
+*   **Application Assistance:** Support with application procedures and document preparation.
+*   **Interview Practice:** Mock interviews to prepare students for university entrance interviews.
+*   **School Visits:** Organized visits to various universities and colleges.
 
-The school boasts a strong track record of successful university placements, with graduates gaining admission to prestigious universities across Japan. While specific university acceptance records aren't explicitly detailed, the focus on EJU preparation suggests a good success rate.
+The college boasts a strong track record of successful university placements, with graduates gaining admission to prestigious universities across Japan. While specific university acceptance records aren't explicitly detailed, the focus on EJU preparation suggests a good success rate.
 
 While direct employment support is not the primary focus, the advanced Japanese language skills acquired at the school enhance graduates' employability in various fields.
 
-## 🏠 Accommodation & Facilities
+## Accommodation & Facilities
 
-The school offers dormitory accommodation for international students. Specific details about dormitory types and facilities are limited, but generally YMCA dormitories are known to be clean, safe, and well-maintained.
+The college offers dormitory accommodation for international students. Specific details about dormitory types and facilities are limited, but generally YMCA dormitories are known to be clean, safe, and well-maintained.
 
 | Dormitory Feature | Description                                                                  |
 | ----------------- | ---------------------------------------------------------------------------- |
@@ -126,9 +142,9 @@ While specific dormitory fees are unavailable, generally dormitories in Hiroshim
 | Transportation | 5,000 - 10,000 (estimated)       |
 | **Total**      | **70,000 - 120,000 (estimated)** |
 
-## 💰 Tuition & Scholarships
+## Tuition & Scholarships
 
-The tuition fees for Hiroshima YMCA Specialized School vary depending on the course duration.
+The tuition fees for Hiroshima YMCA College vary depending on the course duration.
 
 | Course Name     | Total Fees (JPY) |
 | --------------- | ---------------- |
@@ -146,27 +162,27 @@ Here's a general breakdown of what tuition typically covers:
 
 While specific details about installment options and available scholarships are not provided, it's recommended to contact the school directly for information on payment plans and financial aid opportunities. The YMCA often has scholarship programs, so inquiring is highly advisable.
 
-## 💡 Summary & Recommendation
+## Summary & Recommendation
 
 **Pros:**
 
-- **Central Location:** Convenient access to transportation and amenities in Hiroshima City.
-- **Comprehensive Curriculum:** Caters to various learning needs and prepares students for higher education.
-- **EJU Focus:** Dedicated preparation for the EJU exam, increasing chances of university acceptance.
-- **YMCA Reputation:** Benefits from the YMCA's global network and commitment to holistic development.
+*   **Central Location:** Convenient access to transportation and amenities in Hiroshima City.
+*   **Comprehensive Curriculum:** Caters to various learning needs and prepares students for higher education.
+*   **EJU Focus:** Dedicated preparation for the EJU exam, increasing chances of university acceptance.
+*   **YMCA Reputation:** Benefits from the YMCA's global network and commitment to holistic development.
 
 **Cons:**
 
-- **Limited Information:** Lack of detailed information on dormitory facilities and scholarship opportunities.
-- **Indirect Employment Support:** Primary focus on university preparation, with limited direct job hunting assistance.
+*   **Limited Information:** Lack of detailed information on dormitory facilities and scholarship opportunities.
+*   **Indirect Employment Support:** Primary focus on university preparation, with limited direct job hunting assistance.
 
 **Who is this school for?**
 
-Hiroshima YMCA Specialized School is ideal for international students who:
+Hiroshima YMCA College is ideal for international students who:
 
-- Aspire to pursue higher education in Japan, particularly in science-related fields.
-- Seek a supportive and welcoming learning environment.
-- Value a comprehensive Japanese language education that goes beyond just language proficiency.
-- Prefer a central location with easy access to amenities.
+*   Aspire to pursue higher education in Japan, particularly in science-related fields.
+*   Seek a supportive and welcoming learning environment.
+*   Value a comprehensive Japanese language education that goes beyond just language proficiency.
+*   Prefer a central location with easy access to amenities.
 
-For students looking to build a strong foundation in Japanese and gain access to Japanese universities, Hiroshima YMCA Specialized School presents a solid option in the vibrant city of Hiroshima.
+For students looking to build a strong foundation in Japanese and gain access to Japanese universities, Hiroshima YMCA College presents a solid option in the vibrant city of Hiroshima.

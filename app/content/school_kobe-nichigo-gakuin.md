@@ -1,64 +1,79 @@
 ---
-basic_info:
-  address: 兵庫県尼崎市南塚口町１-20-17
-  capacity: 140
-  name_en: Kobe Institute of Japanese Language
-  name_ja: 神戸日語学院
-category: school
-courses:
-- admission_month: '4'
-  course_name: 一般2年コース
-  total_fees: 1503000
-- admission_month: '7'
-  course_name: 一般1年9か月コース
-  total_fees: 1331000
-- admission_month: '10'
-  course_name: 一般1年半コース
-  total_fees: 1157000
-faculties: []
-features:
-- Conversation
-- Higher Education Preparation
-- EJU Preparation
-- Dormitory
-- Private Room
-- Scholarship
-- Science Stream
-- Business Japanese
-- Art
-- Design
-- Short-Term Course
-id: school_kobe-nichigo-gakuin
-layout: school
-location:
-  lat: 34.7540145
-  lng: 135.4122723
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=583
-stats: {}
-tags:
-- Conversation
-- Higher Education Preparation
-- EJU Preparation
-- Dormitory
-- Private Room
-- Scholarship
-- Science Stream
-- Business Japanese
-- Art
-- Design
-- Short-Term Course
-thumbnail: /static/img/pin-school.png
-title: 神戸日語学院
-tuition: {}
+{
+  "basic_info": {
+    "address": "兵庫県尼崎市南塚口町１-20-17",
+    "capacity": 140,
+    "name_en": "Kobe Institute of Japanese Language",
+    "name_ja": "神戸日語学院"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "admission_month": "4",
+      "course_name": "General 2-Year Course",
+      "total_fees": 1503000
+    },
+    {
+      "admission_month": "7",
+      "course_name": "General 1 Year 9-Month Course",
+      "total_fees": 1331000
+    },
+    {
+      "admission_month": "10",
+      "course_name": "General 1 Year 6-Month Course",
+      "total_fees": 1157000
+    }
+  ],
+  "faculties": [],
+  "features": [
+    "Conversation",
+    "Higher Education Preparation",
+    "EJU Preparation",
+    "Dormitory",
+    "Private Room",
+    "Scholarship",
+    "Science Stream",
+    "Business Japanese",
+    "Art",
+    "Design",
+    "Short-Term Course"
+  ],
+  "id": "school_kobe-nichigo-gakuin",
+  "layout": "school",
+  "location": {
+    "lat": 34.7540145,
+    "lng": 135.4122723
+  },
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=583",
+  "stats": {},
+  "tags": [
+    "Conversation",
+    "Higher Education Preparation",
+    "EJU Preparation",
+    "Dormitory",
+    "Private Room",
+    "Scholarship",
+    "Science Stream",
+    "Business Japanese",
+    "Art",
+    "Design",
+    "Short-Term Course"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "Kobe Institute of Japanese Language",
+  "tuition": {},
+  "description": "Kobe Institute of Japanese Language offers comprehensive Japanese language education with a focus on university preparation, located in Amagasaki, Hyogo.",
+  "translated": true
+}
 ---
 
 ## 🏫 School Overview
 
-Kobe Nichigo Gakuin, located in Amagasaki, Hyogo Prefecture, is a Japanese language school dedicated to providing international students with a comprehensive and supportive learning environment. While specific details about its founding history and exact philosophical tenets require further research, Kobe Nichigo Gakuin clearly focuses on preparing students for academic advancement and successful integration into Japanese society. The school’s commitment is evident in its diverse curriculum, experienced instructors, and emphasis on both language proficiency and cultural understanding. The atmosphere is reportedly supportive and encouraging, aiming to foster a sense of community among students from various backgrounds. It seems to be particularly strong in assisting students who want to enter universities, particularly with the EJU exam preparation.
+Kobe Institute of Japanese Language, located in Amagasaki, Hyogo Prefecture, is dedicated to providing international students with a comprehensive and supportive learning environment. While its founding history and specific philosophical tenets require further research, the school clearly focuses on preparing students for academic advancement and successful integration into Japanese society. The school’s commitment is evident in its diverse curriculum, experienced instructors, and emphasis on both language proficiency and cultural understanding. The atmosphere is reportedly supportive and encouraging, aiming to foster a sense of community among students from various backgrounds. It seems to be particularly strong in assisting students who want to enter universities, particularly with preparation for the EJU exam.
 
 ## 📍 Location & Surroundings
 
-Located in Amagasaki City, Hyogo Prefecture, Kobe Nichigo Gakuin offers a blend of suburban tranquility and convenient access to major urban centers like Osaka and Kobe. Amagasaki is a relatively safe and comfortable city, ideal for students who prefer a quieter learning environment compared to the bustling city center. The area around the school likely offers essential amenities such as convenience stores (like 7-Eleven, Lawson, FamilyMart), supermarkets, and affordable restaurants within walking distance, contributing to a convenient daily life for international students. More details regarding specific store availablility would benefit prospective students.
+Located in Amagasaki City, Hyogo Prefecture, Kobe Institute of Japanese Language offers a blend of suburban tranquility and convenient access to major urban centers like Osaka and Kobe. Amagasaki is a relatively safe and comfortable city, ideal for students who prefer a quieter learning environment compared to the bustling city center. The area around the school likely offers essential amenities within walking distance, such as convenience stores (like 7-Eleven, Lawson, FamilyMart), supermarkets, and affordable restaurants, contributing to a convenient daily life for international students. More details regarding specific store availability would benefit prospective students.
 
 Here's a table illustrating potential access times to nearby hubs:
 
@@ -72,14 +87,14 @@ _Note: Travel times are estimates and may vary depending on the specific route a
 
 ## 🎓 Curriculum & Courses
 
-Kobe Nichigo Gakuin offers a structured curriculum designed to cater to students with varying levels of Japanese proficiency. The courses are tailored to enhance not only general language skills (reading, writing, listening, speaking) but also to provide focused preparation for the Japanese Language Proficiency Test (JLPT) and the Examination for Japanese University Admission for International Students (EJU). Specific details on teaching methods and instructor qualifications are not provided.
+Kobe Institute of Japanese Language offers a structured curriculum designed to cater to students with varying levels of Japanese proficiency. The courses are tailored to enhance not only general language skills (reading, writing, listening, speaking) but also to provide focused preparation for the Japanese Language Proficiency Test (JLPT) and the Examination for Japanese University Admission for International Students (EJU). Specific details on teaching methods and instructor qualifications are not provided.
 
 The core course structure typically includes:
 
-- **Comprehensive Japanese:** Covering grammar, vocabulary, reading comprehension, and writing skills.
-- **Conversation Practice:** Focused on improving fluency and communication skills.
-- **Listening Comprehension:** Developing the ability to understand spoken Japanese.
-- **JLPT/EJU Preparation:** Targeted exercises and practice tests to prepare students for these important exams.
+*   **Comprehensive Japanese:** Covering grammar, vocabulary, reading comprehension, and writing skills.
+*   **Conversation Practice:** Focused on improving fluency and communication skills.
+*   **Listening Comprehension:** Developing the ability to understand spoken Japanese.
+*   **JLPT/EJU Preparation:** Targeted exercises and practice tests to prepare students for these important exams.
 
 Here's a possible breakdown of the curriculum levels:
 
@@ -93,31 +108,31 @@ Here's a possible breakdown of the curriculum levels:
 
 The available courses include:
 
-- **General 2-Year Course (Admission in April):** A comprehensive course for long-term study.
-- **General 1 Year 9-Month Course (Admission in July):** A slightly shorter course option.
-- **General 1 Year 6-Month Course (Admission in October):** The shortest of the general courses.
+*   **General 2-Year Course (Admission in April):** A comprehensive course for long-term study.
+*   **General 1 Year 9-Month Course (Admission in July):** A slightly shorter course option.
+*   **General 1 Year 6-Month Course (Admission in October):** The shortest of the general courses.
 
 It is also worth noting that the school provides elective classes in:
 
-- **Business Japanese:** For students interested in working in Japan.
-- **Japanese Culture:** For deeper understanding of Japanese society.
-- **Science/Math (EJU preparation):** Targeting students aiming for science-related university programs.
-- **Art and Design (Portfolio Preparation):** Supporting students interested in art and design universities.
+*   **Business Japanese:** For students interested in working in Japan.
+*   **Japanese Culture:** For deeper understanding of Japanese society.
+*   **Science/Math (EJU preparation):** Targeting students aiming for science-related university programs.
+*   **Art and Design (Portfolio Preparation):** Supporting students interested in art and design universities.
 
 ## 📈 Support for Higher Education & Employment
 
-A key strength of Kobe Nichigo Gakuin is its focus on helping students advance to higher education in Japan. The school provides comprehensive support for university applications, including:
+A key strength of Kobe Institute of Japanese Language is its focus on helping students advance to higher education in Japan. The school provides comprehensive support for university applications, including:
 
-- **Individual Counseling:** Personalized guidance on university selection and application procedures.
-- **EJU Preparation:** Intensive courses and practice tests to improve EJU scores.
-- **Interview Practice:** Training on how to answer interview questions effectively.
-- **Guidance on writing personal statements and application essays.**
+*   **Individual Counseling:** Personalized guidance on university selection and application procedures.
+*   **EJU Preparation:** Intensive courses and practice tests to improve EJU scores.
+*   **Interview Practice:** Training on how to answer interview questions effectively.
+*   **Guidance on writing personal statements and application essays.**
 
 While specific details on university acceptance rates and employment statistics are not provided, the school's dedication to academic advancement suggests a track record of successful placements. Further, its connections within the local community are likely used to find career opportunities for graduate students.
 
 ## 🏠 Accommodation & Facilities
 
-Kobe Nichigo Gakuin offers dormitory accommodation to international students, providing a convenient and affordable housing option. A significant advantage is the availability of **private rooms**, ensuring privacy and a comfortable living environment. While the exact distance between the dormitory and the school isn't specified, it is likely within a reasonable commute time, potentially within walking distance or a short train/bus ride. Details concerning nearby amenities (grocery stores, coin laundry etc.) are not provided but could greatly assist prospective students.
+Kobe Institute of Japanese Language offers dormitory accommodation to international students, providing a convenient and affordable housing option. A significant advantage is the availability of **private rooms**, ensuring privacy and a comfortable living environment. While the exact distance between the dormitory and the school isn't specified, it is likely within a reasonable commute time, potentially within walking distance or a short train/bus ride. Details concerning nearby amenities (grocery stores, coin laundry etc.) are not provided but could greatly assist prospective students.
 
 Here's a potential breakdown of dormitory fees (note: These are estimations based on common Japanese language school dormitory costs):
 
@@ -132,7 +147,7 @@ _Note: These are estimated costs. Contact the school directly for accurate and u
 
 ## 💰 Tuition & Scholarships
 
-The tuition fees for Kobe Nichigo Gakuin are competitive and provide good value for the comprehensive education offered. Here's a breakdown of the total fees for each course, as per the information provided:
+The tuition fees for Kobe Institute of Japanese Language are competitive and provide good value for the comprehensive education offered. Here's a breakdown of the total fees for each course, as per the information provided:
 
 | Course                        | Admission Month | Total Fees (JPY) |
 | ----------------------------- | --------------- | ---------------- |
@@ -158,26 +173,26 @@ _Note: These are estimated costs. Contact the school directly for accurate and u
 
 **Pros:**
 
-- Comprehensive curriculum with a focus on JLPT and EJU preparation.
-- Dormitory accommodation with private rooms.
-- Scholarship opportunities for international students.
-- Elective classes in specialized areas like business, science, and art/design.
-- Located in a relatively quiet and safe city with good access to Osaka and Kobe.
+*   Comprehensive curriculum with a focus on JLPT and EJU preparation.
+*   Dormitory accommodation with private rooms.
+*   Scholarship opportunities for international students.
+*   Elective classes in specialized areas like business, science, and art/design.
+*   Located in a relatively quiet and safe city with good access to Osaka and Kobe.
 
 **Cons:**
 
-- Limited information available on specific teaching methodologies and instructor qualifications.
-- Lack of detailed information on university acceptance rates and employment statistics.
-- Dormitory details (commute time, amenities) require further clarification.
-- Specifics regarding installment plans are unavailable.
+*   Limited information available on specific teaching methodologies and instructor qualifications.
+*   Lack of detailed information on university acceptance rates and employment statistics.
+*   Dormitory details (commute time, amenities) require further clarification.
+*   Specifics regarding installment plans are unavailable.
 
 **Who is this school for?**
 
-Kobe Nichigo Gakuin is an excellent choice for international students who:
+Kobe Institute of Japanese Language is an excellent choice for international students who:
 
-- Are serious about pursuing higher education in Japan, particularly in science, art, or design fields.
-- Prefer a quieter, more suburban learning environment compared to larger city centers.
-- Value the availability of private room accommodation.
-- Are seeking a well-rounded Japanese language education with a focus on both academic and practical skills.
+*   Are serious about pursuing higher education in Japan, particularly in science, art, or design fields.
+*   Prefer a quieter, more suburban learning environment compared to larger city centers.
+*   Value the availability of private room accommodation.
+*   Are seeking a well-rounded Japanese language education with a focus on both academic and practical skills.
 
-Overall, Kobe Nichigo Gakuin offers a promising opportunity for international students to learn Japanese and achieve their academic and professional goals in Japan. Further research and direct communication with the school are recommended to gather more specific details and assess whether it aligns with your individual needs and aspirations.
+Overall, Kobe Institute of Japanese Language offers a promising opportunity for international students to learn Japanese and achieve their academic and professional goals in Japan. Further research and direct communication with the school are recommended to gather more specific details and assess whether it aligns with your individual needs and aspirations.

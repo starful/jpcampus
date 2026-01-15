@@ -1,55 +1,68 @@
 ---
-basic_info:
-  address: 京都府京都市伏見区深草塚本町67
-  name_en: Ryukoku University
-  name_ja: 龍谷大学
-  website: https://www.ryukoku.ac.jp/
-category: university
-faculties:
-- Faculty of Letters
-- Faculty of Economics
-- Faculty of Business Administration
-- Faculty of Law
-- Faculty of Science and Technology
-- Faculty of Sociology
-- Faculty of Policy Science
-- Faculty of International Studies
-- Faculty of Agriculture
-- Faculty of Intercultural Communication
-features:
-- English Program
-- Dormitory
-- Scholarship
-- Exchange Program
-id: univ_ryukoku-university
-layout: school
-location:
-  lat: 35.6812
-  lng: 139.7671
-stats:
-  acceptance_rate: 40%
-  international_students: 384
-tags:
-- English Program
-- Dormitory
-- Scholarship
-- Exchange Program
-thumbnail: /static/img/pin-univ.png
-title: 龍谷大学
-tuition:
-  admission_fee: 200000
-  yearly_tuition: 1200000
+{
+  "basic_info": {
+    "address": "京都府京都市伏見区深草塚本町67",
+    "name_en": "Ryukoku University",
+    "name_ja": "龍谷大学",
+    "website": "https://www.ryukoku.ac.jp/"
+  },
+  "category": "university",
+  "faculties": [
+    "Faculty of Letters",
+    "Faculty of Economics",
+    "Faculty of Business Administration",
+    "Faculty of Law",
+    "Faculty of Science and Technology",
+    "Faculty of Sociology",
+    "Faculty of Policy Science",
+    "Faculty of International Studies",
+    "Faculty of Agriculture",
+    "Faculty of Intercultural Communication"
+  ],
+  "features": [
+    "English Program",
+    "Dormitory",
+    "Scholarship",
+    "Exchange Program"
+  ],
+  "id": "univ_ryukoku-university",
+  "layout": "school",
+  "location": {
+    "lat": 35.6812,
+    "lng": 139.7671
+  },
+  "stats": {
+    "acceptance_rate": "40%",
+    "international_students": 384
+  },
+  "tags": [
+    "English Program",
+    "Dormitory",
+    "Scholarship",
+    "Exchange Program"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Ryukoku University",
+  "tuition": {
+    "admission_fee": 200000,
+    "yearly_tuition": 1200000
+  },
+  "description": "Ryukoku University, founded in 1639, is a private university in Kyoto, Japan with a strong tradition in Buddhist studies and a wide range of modern faculties. Known for its commitment to global citizenship and intercultural understanding.",
+  "translated": true
+}
 ---
 
-## 🏫 University Overview & Reputation
+## University Overview & Reputation
 
-Ryukoku University, a venerable institution with roots stretching back to 1639, stands as a testament to Japan's enduring commitment to both tradition and progress. Founded as a Buddhist seminary affiliated with the Jodo Shinshu sect, Ryukoku University has meticulously cultivated a reputation for academic excellence and a deeply ingrained ethical foundation. While originally focused on Buddhist studies, the university has broadened its academic horizons to encompass a diverse range of disciplines, solidifying its position as a comprehensive university. It's often categorized as a well-respected private university, occupying a strong position within the upper tier of private institutions in the Kansai region, particularly Kyoto. Its long history contributes significantly to its esteemed standing and the strong alumni network it has fostered over centuries. Ryukoku University is frequently recognized for its contributions to research, particularly in fields related to humanities, social sciences, and more recently, technological advancements in areas like agriculture and biotechnology.
+Ryukoku University, a respected institution dating back to 1639, demonstrates Japan's enduring commitment to tradition and progress. Established as a Buddhist seminary affiliated with the Jodo Shinshu sect, Ryukoku University has earned a reputation for academic excellence and a strong ethical foundation. While initially focused on Buddhist studies, the university has expanded its academic offerings to encompass a diverse range of disciplines, solidifying its position as a comprehensive university.
 
-The university’s prestige is further enhanced by its commitment to fostering global citizenship and promoting intercultural understanding. This is reflected in its active engagement in international collaborations, exchange programs, and the presence of a vibrant international student community. Ryukoku University consistently strives to provide a supportive and enriching learning environment that prepares students to become responsible and engaged members of a global society. Its dedication to social responsibility is palpable through its numerous outreach programs and research endeavors that directly address pressing societal challenges. Ryukoku University's ability to seamlessly blend its historical legacy with a forward-thinking approach has firmly established it as a highly regarded institution within Japan's higher education landscape.
+It is regarded as a well-respected private university, holding a strong position among the top private institutions in the Kansai region, especially in Kyoto. Its long history contributes to its esteemed standing and the extensive alumni network it has cultivated over centuries. Ryukoku University is frequently recognized for its research contributions, particularly in humanities, social sciences, and, more recently, technological advancements in agriculture and biotechnology.
+
+The university's prestige is further enhanced by its dedication to fostering global citizenship and promoting intercultural understanding. This is reflected in its active engagement in international collaborations, exchange programs, and the presence of a vibrant international student community. Ryukoku University consistently strives to provide a supportive and enriching learning environment that prepares students to become responsible and engaged members of a global society. Its dedication to social responsibility is evident through its numerous outreach programs and research endeavors that directly address pressing societal challenges. Ryukoku University's ability to seamlessly blend its historical legacy with a forward-thinking approach has firmly established it as a highly regarded institution within Japan's higher education landscape.
 
 Ryukoku University operates across two primary campuses: the Fukakusa Campus and the Omiya Campus. The Fukakusa Campus, a more modern facility, serves as the main hub for most faculties, including Letters, Economics, Business Administration, Law, Science and Technology, Sociology, Policy Science, International Studies, and Agriculture. The Omiya Campus, steeped in history, is the original site of the university and currently houses the Faculty of Intercultural Communication. This campus also functions as a significant historical and cultural center, preserving the university's rich heritage. The duality of these campuses allows Ryukoku University to offer a unique learning experience, blending the vibrancy of modern academic facilities with the solemnity of a historical landmark.
 
-## 🎓 Notable Faculties & Signature Programs
+## Notable Faculties & Signature Programs
 
 | Faculty                               | Key Departments                                                                                                                                                              | Notes                                                                                                                            |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -68,7 +81,7 @@ Ryukoku University's **Faculty of International Studies** stands out as a partic
 
 Another program of significant interest, particularly given Ryukoku University's historical roots, is the **Department of Buddhist Studies** within the Faculty of Letters. While primarily taught in Japanese, this department attracts international students interested in delving deeply into the philosophical and historical aspects of Buddhism, particularly Jodo Shinshu Buddhism. The department offers a rigorous academic curriculum that explores Buddhist doctrines, practices, and cultural impact. Students have the opportunity to study ancient texts, engage in philosophical debates, and learn from renowned scholars in the field. Although proficiency in Japanese is generally required for full participation in the program, the department often welcomes visiting scholars and researchers from overseas who are conducting research on Buddhist studies. The unique opportunity to study Buddhism within an institution deeply rooted in its traditions, coupled with access to extensive resources and a network of experts, makes this program a compelling choice for serious scholars of Buddhist thought.
 
-## 🌍 International Student Admissions & Life
+## International Student Admissions & Life
 
 The application process for international students at Ryukoku University generally involves several key steps. Firstly, prospective students typically need to demonstrate Japanese language proficiency, often through the Examination for Japanese University Admission for International Students (EJU). However, this requirement may be waived for programs offered entirely in English, such as those within the Faculty of International Studies. In such cases, proof of English proficiency is required, typically through TOEFL or IELTS scores. Specific score requirements vary by department, so it's essential to check the individual program guidelines. The application package usually includes academic transcripts, a personal statement, letters of recommendation, and a copy of your passport. Some departments may also require an interview, either in person or via video conference, to assess the applicant's suitability for the program. It's strongly recommended that international students begin the application process well in advance of the application deadline to allow ample time for document preparation and visa processing.
 
@@ -78,7 +91,7 @@ The university provides comprehensive support services for international student
 
 Ryukoku University is home to a diverse community of international students, with approximately 384 students from various countries contributing to the vibrant campus atmosphere. Numerous student clubs and organizations cater to a wide range of interests, providing opportunities for international students to connect with local students and engage in extracurricular activities. These clubs range from sports clubs and cultural clubs to academic societies and volunteer organizations. The university actively promotes intercultural exchange and encourages students to participate in events and activities that celebrate diversity. The overall campus atmosphere is welcoming and inclusive, fostering a sense of belonging for international students. The buddy system, which pairs international students with local students, is particularly helpful in facilitating cultural exchange and providing support during the initial adjustment period.
 
-## 💰 Tuition, Scholarships & Cost of Living
+## Tuition, Scholarships & Cost of Living
 
 | Item               | Amount (JPY) |
 |--------------------|--------------|
@@ -107,7 +120,7 @@ The cost of living in Kyoto, where Ryukoku University is located, is generally c
 
 These are just estimates, and your actual expenses may vary depending on your lifestyle and spending habits. It is important to consider purchasing a Japan Rail Pass if you intend to travel extensively within Japan.
 
-## 📍 Campus Location & Access
+## Campus Location & Access
 
 **Fukakusa Campus**
 

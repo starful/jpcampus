@@ -7,7 +7,7 @@
   "tags": [
     "High-Focus Conversational Training (Kaiwa)",
     "Specialized EJU and University Advancement Tracks",
-    "Rare Dedicated Science (Rikei) Preparation Coursework",
+    "Dedicated Science (Rikei) Preparation Coursework",
     "Comprehensive Student Dormitory and Housing Support",
     "Located in the Cosmopolitan Port City of Kobe"
   ],
@@ -31,7 +31,7 @@
   "features": [
     "High-Focus Conversational Training (Kaiwa)",
     "Specialized EJU and University Advancement Tracks",
-    "Rare Dedicated Science (Rikei) Preparation Coursework",
+    "Dedicated Science (Rikei) Preparation Coursework",
     "Comprehensive Student Dormitory and Housing Support",
     "Located in the Cosmopolitan Port City of Kobe"
   ],
@@ -62,95 +62,108 @@
       "total_fees": 1574000
     }
   ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=553"
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=553",
+  "translated": true
 }
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-ECC Japanese Language Institute, Kobe School (ECC日本語学院神戸校) stands as a prominent institution within the globally recognized ECC group, an organization celebrated across Japan for its commitment to high-quality language education since its founding. Located strategically in Kobe, a dynamic, international port city known for its beautiful scenery, historical significance, and manageable cost of living compared to major metropolitan centers like Tokyo or Osaka, the Kobe campus offers a unique and highly supportive learning environment. ECC’s fundamental philosophy revolves around nurturing not just linguistic competence but *total communication ability*. The curriculum is meticulously designed to bridge the gap between textbook knowledge and real-world practical usage, ensuring that students can utilize Japanese effectively in academic, professional, and daily social settings immediately upon graduating. The school’s dedication to quality is underpinned by experienced instructors and a structured methodology that prioritizes student engagement and cultural understanding.
+The ECC Japanese Language Institute, Kobe School (ECC日本語学院神戸校) is a well-regarded institution within the ECC group, a respected organization known throughout Japan for its commitment to high-quality language education since its founding. Located in Kobe, an international port city celebrated for its scenery, history, and lower cost of living compared to Tokyo or Osaka, the Kobe campus offers a supportive learning environment.
 
-With a stated capacity of approximately 150 students, the Kobe School deliberately maintains a smaller, more intimate scale compared to some larger language schools. This size is instrumental in fostering a close-knit academic community where individual attention is the standard, not the exception. The central location in Kobe’s Chuo Ward provides easy access to public transportation, shopping, and cultural landmarks, integrating the student experience seamlessly into the vibrant urban fabric of the city. For international students, this setting is ideal: it provides the excitement and opportunity of a major Japanese city while maintaining a relaxed, welcoming atmosphere conducive to focused study. ECC leverages its national brand recognition to assure students of standardized, high-quality instruction and robust support services, making it a trusted choice for those pursuing serious long-term educational goals in Japan.
+ECC's philosophy centers on developing not only language skills but also *total communication ability*. The curriculum bridges the gap between textbook knowledge and real-world application, enabling students to use Japanese in academic, professional, and social settings upon graduation. This dedication is supported by experienced instructors and a structured methodology that emphasizes student engagement and cultural understanding.
 
-The institute’s core mission is explicitly dual-focused, reflecting the demands of today’s international student body: achieving conversational fluency ('회화' - Kaiwa) and securing placement in prestigious higher education institutions ('진학' - Shingaku). This commitment is evident in the inclusion of specialized features like EJU (Examination for Japanese University Admission) preparation and, notably, a dedicated track for science and engineering students (Rikei). This specialized focus distinguishes ECC Kobe, recognizing the increasing global demand for STEM professionals who also possess advanced Japanese language skills. The overall institutional culture at ECC Kobe is one of professional rigor mixed with personalized pastoral care, ensuring students receive the necessary academic grounding and psychological support to thrive during their often challenging transition to Japanese life.
+With a capacity of approximately 150 students, the Kobe School maintains a smaller scale, fostering a close-knit academic community where individual attention is prioritized. The central location in Kobe’s Chuo Ward provides easy access to transportation, shopping, and cultural landmarks, integrating the student experience into the city. This setting offers international students the excitement of a major Japanese city with a relaxed atmosphere conducive to focused study. ECC's brand recognition assures students of standardized instruction and support services, making it a trusted choice for those pursuing serious educational goals in Japan.
 
-The school’s physical location in Kobe, often dubbed the gateway to Western Japan, further enhances the student experience. Students are positioned within the Kansai region, providing proximity to cultural centers like Kyoto and commercial hubs like Osaka, allowing for diverse travel and networking opportunities. ECC focuses not only on preparing students for tests but also for successful integration into Japanese society and academic life, emphasizing skills such as formal presentation, nuanced communication, and understanding complex social etiquette. The foundational philosophy remains student-centric, aiming to cultivate confident, articulate, and academically prepared individuals ready to meet the challenges of advanced study or professional employment in Japan.
+The institute's mission is dual-focused: achieving conversational fluency (Kaiwa) and securing placement in higher education institutions (Shingaku). This commitment is reflected in specialized features like EJU (Examination for Japanese University Admission) preparation and a dedicated track for science and engineering students (Rikei). This focus distinguishes ECC Kobe, recognizing the global demand for STEM professionals with advanced Japanese skills. The institutional culture combines professional rigor with personalized care, ensuring students receive academic grounding and psychological support during their transition to Japanese life.
 
-## 📚 Courses, Curriculum & Teaching Style
+Kobe's location, often called the gateway to Western Japan, enhances the student experience. Students are positioned within the Kansai region, providing proximity to Kyoto and Osaka, allowing for travel and networking opportunities. ECC focuses on preparing students for tests and for successful integration into Japanese society, emphasizing skills like formal presentation, nuanced communication, and social etiquette. The philosophy is student-centric, aiming to cultivate confident, articulate individuals ready for advanced study or professional employment in Japan.
 
-ECC Japanese Language Institute, Kobe School primarily offers comprehensive, long-term courses (ranging from 1 year to 2 years) designed for students seeking to obtain a student visa and seriously pursue higher education or career tracks in Japan. The curriculum is structured around the principles of intensive immersion and systematic progression through the Japanese Language Proficiency Test (JLPT) levels, while simultaneously building practical application skills.
+## Courses, Curriculum & Teaching Style
+
+ECC Japanese Language Institute, Kobe School offers long-term courses (1 to 2 years) for students seeking a student visa and pursuing higher education or career tracks in Japan. The curriculum is structured around intensive immersion and systematic progression through the Japanese Language Proficiency Test (JLPT) levels, while building practical application skills.
 
 The core offerings are:
-*   **Comprehensive Japanese 2-Year Course (4月 入学):** The maximum preparation period, ideal for beginners targeting top-tier universities.
-*   **Comprehensive Japanese 1 Year 9 Months Course (7月 入学):**
-*   **Comprehensive Japanese 1 Year 6 Months Course (10月 入学):**
-*   **Comprehensive Japanese 1 Year 3 Months Course (1月 入学):**
-*   **Comprehensive Japanese 1-Year Course (4月 入学):** Suitable for those with pre-existing foundational knowledge or those aiming for vocational schools.
+*   **Comprehensive Japanese 2-Year Course (April Enrollment):** Ideal for beginners targeting top universities.
+*   **Comprehensive Japanese 1 Year 9 Months Course (July Enrollment):**
+*   **Comprehensive Japanese 1 Year 6 Months Course (October Enrollment):**
+*   **Comprehensive Japanese 1 Year 3 Months Course (January Enrollment):**
+*   **Comprehensive Japanese 1-Year Course (April Enrollment):** Suitable for those with pre-existing knowledge or aiming for vocational schools.
 
 ### Conversational Focus (Kaiwa Specialization)
-While rigorous academic preparation is paramount, ECC places exceptional emphasis on conversational ability, which is a hallmark feature listed in the input data. Unlike schools that overly prioritize grammar drills and written comprehension, ECC integrates extensive practical speaking exercises into daily lessons. Teaching methodology incorporates task-based learning, role-playing, group discussions, and presentations. Students are actively encouraged to produce Japanese and engage with native speakers from the earliest stages. This focus ensures that students, upon completing their program, are not only grammatically proficient but also fluid and confident when speaking, a crucial requirement for successful university interviews and daily life in Japan.
+
+While academic preparation is vital, ECC emphasizes conversational ability. Unlike schools that prioritize grammar drills, ECC integrates speaking exercises into daily lessons. Teaching methodology incorporates task-based learning, role-playing, group discussions, and presentations. Students are encouraged to produce Japanese and engage with native speakers from the beginning. This ensures students are grammatically proficient and confident when speaking, crucial for university interviews and daily life in Japan.
 
 ### Advanced Academic and EJU Preparation
-The curriculum divides into distinct tracks at the intermediate and advanced levels to cater to varied academic goals. Central to this is the dedicated EJU preparation, which covers all necessary subjects: Japanese as a Foreign Language, Mathematics (Course 1 and Course 2), and General Knowledge (for Humanities students). ECC’s instructional style in these tracks moves beyond rote memorization, focusing on critical thinking and essay writing skills essential for Japanese university entrance exams and essay submissions. Advanced classes simulate actual EJU conditions, providing crucial practice and feedback for timing and strategy.
+
+The curriculum divides into tracks at the intermediate and advanced levels to cater to academic goals. Central to this is dedicated EJU preparation, covering Japanese as a Foreign Language, Mathematics (Course 1 and Course 2), and General Knowledge (for Humanities students). ECC’s instructional style focuses on critical thinking and essay writing skills essential for university entrance exams. Advanced classes simulate actual EJU conditions, providing practice for timing and strategy.
 
 ### Specialized Science Track (Rikei Focus)
-One of the most distinguishing features of the ECC Kobe School is its specific provision for the Science Track ('이과' / Rikei) students. Applying to STEM faculties (Science, Technology, Engineering, Mathematics) in Japan requires specialized vocabulary and specific preparation for the EJU Math Course 2 and the Science module (Physics, Chemistry, Biology). ECC provides targeted instruction in these technical Japanese terms and concepts, taught by instructors familiar with the demands of Japanese technical universities. This specialized support is invaluable for international students, as many language schools only offer generalized humanities preparation. The Rikei track ensures students can effectively handle complex technical texts and successfully navigate highly specialized university entrance processes.
 
-ECC’s teaching staff are not only certified Japanese language instructors but often possess specialized degrees or experience relevant to the academic fields they guide, ensuring high-quality, relevant instruction across all tracks.
+A distinguishing feature of ECC Kobe School is its specific provision for Science Track (Rikei) students. Applying to STEM faculties in Japan requires specialized vocabulary and preparation for the EJU Math Course 2 and the Science module. ECC provides targeted instruction in technical Japanese terms and concepts, taught by instructors familiar with the demands of Japanese technical universities. This support is invaluable for international students, as many language schools only offer generalized humanities preparation. The Rikei track ensures students can handle complex technical texts and navigate university entrance processes.
 
-## 🌍 Student Body & Campus Life
+ECC’s teaching staff are certified Japanese language instructors with specialized degrees or experience relevant to the academic fields they guide, ensuring high-quality instruction across all tracks.
 
-Kobe is a highly attractive destination for international students, contributing to a diverse and cosmopolitan student body at ECC. While specific nationality data may fluctuate, ECC schools generally attract a broad mix of students, particularly strong contingents from East Asia (China, South Korea, Taiwan, Vietnam) and increasingly, students from Western countries, Southeast Asia, and South America. This diverse mix enriches the classroom environment, encouraging students to use Japanese as the necessary lingua franca, thereby accelerating their conversational proficiency.
+## Student Body & Campus Life
 
-Campus life at ECC Kobe is significantly enhanced by the city’s environment. Located near Sannomiya, the central hub of Kobe, students benefit from exceptional convenience for commuting, shopping, and accessing cultural sites. Kobe itself offers a high quality of life with its international atmosphere, historic Kitano district, vibrant harbor area (Harborland), and renowned cuisine (Kobe beef, Western-influenced bakeries). The comparatively smaller student population allows for strong teacher-student relationships and a tight-knit community feel, where peer support is easily cultivated.
+Kobe is an attractive destination for international students, contributing to a diverse student body at ECC. ECC schools attract a broad mix of students, particularly from East Asia (China, South Korea, Taiwan, Vietnam) and increasingly, from Western countries, Southeast Asia, and South America. This mix enriches the classroom environment, encouraging students to use Japanese, accelerating their conversational proficiency.
+
+Campus life at ECC Kobe is enhanced by the city’s environment. Located near Sannomiya, the central hub of Kobe, students benefit from convenience for commuting, shopping, and accessing cultural sites. Kobe offers a high quality of life with its international atmosphere, historic Kitano district, vibrant harbor area, and renowned cuisine. The smaller student population allows for strong teacher-student relationships and a tight-knit community feel.
 
 ### Cultural Integration and Extracurricular Activities
-ECC actively promotes cultural integration to deepen students' understanding of Japan. Extracurricular activities, which are integral to the learning process, typically include:
+
+ECC actively promotes cultural integration to deepen students' understanding of Japan. Extracurricular activities, integral to the learning process, typically include:
 *   Seasonal cultural experiences (e.g., mochi pounding, viewing cherry blossoms).
-*   Visits to local historical sites and museums (e.g., earthquake memorial, unique Kitano architecture).
+*   Visits to local historical sites and museums (e.g., earthquake memorial, Kitano architecture).
 *   Intercultural exchange events with local Japanese university students.
 *   Field trips to nearby cities in the Kansai region (Kyoto, Osaka, Nara) to study history and dialects.
 
-These activities ensure that learning extends beyond the classroom walls, providing practical context for the language skills acquired and fostering successful social acclimatization. Furthermore, the school provides consistent guidance on navigating daily life, including essential procedures like obtaining residency cards, setting up bank accounts, and understanding local customs, ensuring a smooth transition into Japanese society.
+These activities ensure that learning extends beyond the classroom, providing context for language skills and fostering social acclimatization. Furthermore, the school provides guidance on navigating daily life, including procedures like obtaining residency cards, setting up bank accounts, and understanding customs, ensuring a smooth transition into Japanese society.
 
-## 🎓 University & Career Pathways
+## University & Career Pathways
 
-ECC Japanese Language Institute, Kobe School is fundamentally geared towards university advancement, with comprehensive support systems dedicated to securing student placements in highly competitive academic environments. The school’s robust EJU preparation is complemented by expert academic counseling tailored to individual student goals.
+ECC Japanese Language Institute, Kobe School is geared towards university advancement, with support systems dedicated to securing student placements in competitive academic environments. The school’s EJU preparation is complemented by academic counseling tailored to student goals.
 
 ### Higher Education Guidance
-Academic counselors at ECC work one-on-one with students, providing detailed guidance on:
-1.  **Selection of Universities:** Based on EJU scores, student interests, and future career prospects, counselors help narrow down suitable national, public, and elite private universities across Japan (with strong focus on the Kansai region: Kobe University, Osaka University, Kyoto University, Doshisha University, Ritsumeikan University, Kwansei Gakuin University).
-2.  **Application Process Mastery:** Detailed assistance with writing compelling statements of purpose (SOPs), crafting professional resumes, and compiling necessary documentation.
-3.  **Interview Preparation:** Extensive mock interview practice, focusing on the specific demands of Japanese university admissions interviews, which often assess motivation, resilience, and formal Japanese communication (Keigo).
+
+Academic counselors at ECC work one-on-one with students, providing guidance on:
+
+1.  **Selection of Universities:** Counselors help narrow down suitable national, public, and private universities based on EJU scores, student interests, and career prospects (with a focus on the Kansai region: Kobe University, Osaka University, Kyoto University, Doshisha University, Ritsumeikan University, Kwansei Gakuin University).
+2.  **Application Process Mastery:** Assistance with writing statements of purpose (SOPs), crafting resumes, and compiling documentation.
+3.  **Interview Preparation:** Mock interview practice, focusing on the demands of Japanese university admissions interviews, which often assess motivation, resilience, and formal Japanese communication (Keigo).
 
 ### The Advantage of the STEM Track
-The specialized Science/Rikei track provides a critical pathway for students targeting highly selective engineering and scientific programs. ECC’s focus ensures these students are competitive not only in the EJU but also in the secondary application stages, which may require specific technical knowledge demonstrated through interviews or subject-specific secondary exams. This targeted guidance significantly increases the success rate for students aiming for fields where language proficiency and technical understanding must merge seamlessly.
+
+The Science/Rikei track provides a pathway for students targeting engineering and scientific programs. ECC’s focus ensures these students are competitive in the EJU and in the secondary application stages, which may require specific technical knowledge demonstrated through interviews or exams. This guidance increases the success rate for students aiming for fields where language proficiency and technical understanding must merge seamlessly.
 
 ### Transition to Career
-While the primary focus is university placement, ECC also offers transitional support for graduates seeking vocational schools (Senmon Gakkou) or immediate career entry (for advanced speakers). This includes guidance on creating Japanese-style CVs (履歴書, Rirekisho), understanding Japanese corporate culture (Shuushoku Katsudou), and leveraging their advanced conversational skills in job interviews. The school's national network often provides access to information regarding internship and part-time employment opportunities, crucial for practical experience.
 
-## 🏡 Accommodation & Living Support
+While the primary focus is university placement, ECC also offers support for graduates seeking vocational schools or immediate career entry. This includes guidance on creating Japanese-style CVs (Rirekisho), understanding Japanese corporate culture (Shuushoku Katsudou), and leveraging conversational skills in job interviews. The school's network often provides access to information regarding internship and part-time employment opportunities.
 
-The provision of student accommodation ('기숙사' / Kishukusha) is a key feature of the ECC Kobe School, recognizing that securing reliable and safe housing is a top concern for new international students. ECC manages or partners with local providers to offer guaranteed, accessible housing options, removing the immediate stress of apartment hunting in a foreign country.
+## Accommodation & Living Support
+
+The provision of student accommodation is a key feature of the ECC Kobe School. ECC manages or partners with local providers to offer guaranteed housing options, removing the stress of apartment hunting in a foreign country.
 
 ### Accommodation Options
-Accommodation options typically include a range of choices to suit different budgets and preferences:
-*   **School-Managed Dormitories:** Often the most secure and socially integrated option, providing private or shared rooms with common area facilities (kitchen, laundry). These are usually located within a reasonable commuting distance of the school.
+
+Accommodation options typically include:
+*   **School-Managed Dormitories:** Often the most secure and socially integrated option, providing private or shared rooms with common area facilities (kitchen, laundry). These are usually located within commuting distance of the school.
 *   **Partnered Shared Houses (Guesthouses):** A balance between privacy and social interaction, often furnished and equipped for immediate move-in.
-*   **Assisted Apartment Search:** For long-term students or those who prefer independent living, ECC provides guidance on navigating Japanese rental contracts, which can be notoriously complex, assisting with guarantors, deposits (Shikikin), and key money (Reikin).
+*   **Assisted Apartment Search:** For long-term students or those who prefer independent living, ECC provides guidance on navigating Japanese rental contracts, assisting with guarantors, deposits (Shikikin), and key money (Reikin).
 
 ### Comprehensive Daily Life Support
-Beyond housing, ECC provides extensive administrative and pastoral support crucial for student well-being:
-*   **Immigration and Visa Assistance:** Dedicated staff handle all aspects of student visa renewals and necessary documentation submissions to the Immigration Bureau.
+
+Beyond housing, ECC provides administrative and pastoral support:
+*   **Immigration and Visa Assistance:** Dedicated staff handle visa renewals and documentation submissions to the Immigration Bureau.
 *   **Health and Safety:** Guidance on enrolling in Japan’s National Health Insurance scheme and access to local medical facilities. Emergency contact lines and crisis management support are available.
-*   **Part-time Job Guidance (Arubaito):** Assisting students in finding legal part-time employment within the established weekly hour limits. This includes workshops on Japanese work culture and interview skills, ensuring students can supplement their income while adhering to visa regulations. ECC’s reputation often helps connect students with reliable employers in the Kobe area.
+*   **Part-time Job Guidance (Arubaito):** Assisting students in finding legal part-time employment within the established weekly hour limits. This includes workshops on Japanese work culture and interview skills. ECC’s reputation often helps connect students with reliable employers in the Kobe area.
 *   **Counseling Services:** Providing academic and personal counseling to help students manage stress, culture shock, and challenges related to intense academic study.
 
-This holistic support structure ensures that students can focus their energy primarily on their studies, knowing their essential living needs are securely managed by the institution.
+This holistic support structure ensures that students can focus their energy on their studies, knowing their essential living needs are managed by the institution.
 
-## 💰 Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships
 
-The total fees provided in the input data represent the comprehensive cost for the specified enrollment period. ECC Kobe maintains a highly competitive fee structure, reflecting the moderate living expenses of the Kobe area while maintaining the high instructional quality associated with the ECC brand.
+The total fees provided represent the comprehensive cost for the specified enrollment period. ECC Kobe maintains a competitive fee structure, reflecting the moderate living expenses of the Kobe area while maintaining the instructional quality associated with the ECC brand.
 
 Below is a detailed breakdown of the 1-Year Comprehensive Course fee (¥825,500) and extrapolated estimates for standard administrative costs:
 
@@ -177,7 +190,8 @@ Below is a detailed breakdown of the 1-Year Comprehensive Course fee (¥825,500)
 *Observation:* The cost structure demonstrates a slight economy of scale, where longer courses offer a marginally lower annual tuition cost, rewarding students who commit to the full two-year academic track necessary for comprehensive university preparation.
 
 ### Scholarships and Financial Aid
-As a reputable institution highly focused on academic excellence, ECC Kobe actively supports students in applying for various financial aid opportunities. While direct ECC scholarships may vary, the school provides crucial administrative assistance for:
+
+As a reputable institution focused on academic excellence, ECC Kobe actively supports students in applying for various financial aid opportunities. While direct ECC scholarships may vary, the school provides crucial administrative assistance for:
 *   **MEXT (Monbukagakusho) Honors Scholarship:** Provided by the Japanese Ministry of Education, Culture, Sports, Science and Technology, offering monthly stipends to high-achieving language school students.
 *   **JASSO Scholarships:** Financial support administered by the Japan Student Services Organization, often based on academic performance and financial need.
 *   **Local Government and Private Foundation Scholarships:** Guidance on smaller, locally targeted scholarships available specifically to students studying in the Hyogo/Kansai region.

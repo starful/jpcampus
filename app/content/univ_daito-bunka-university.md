@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_daito-bunka-university",
-  "title": "大東文化大学",
+  "title": "Daito Bunka University",
   "category": "university",
   "tags": [
     "EJU Required",
@@ -45,83 +45,109 @@
     "EJU Required",
     "Dormitory",
     "Scholarship"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview
+## University Overview
 
-Daito Bunka University, established in 1923 as Daito Bunka Gakuin and attaining university status in 1949, stands as a prominent private institution in Japan, known for its strong emphasis on humanities, traditional Japanese culture, and international studies. With a foundational philosophy rooted in fostering individuals who contribute to the harmony and development of society, the university has cultivated a unique academic environment that balances historical wisdom with contemporary global perspectives. Its name, "Daito Bunka," signifies "Great East Asian Culture," reflecting its initial mission to research and teach Asian cultures, a legacy that continues to influence its robust programs in fields like Chinese and Indian philosophy, calligraphy, and martial arts.
+Daito Bunka University, established in 1923 as Daito Bunka Gakuin and gaining university status in 1949, is a well-regarded private institution in Japan. It is known for its strong focus on humanities, traditional Japanese culture, and international studies. Grounded in the philosophy of nurturing individuals who contribute to social harmony and progress, the university has developed a unique academic setting that blends historical knowledge with modern global views. The name "Daito Bunka," meaning "Great East Asian Culture," reflects its original purpose of researching and teaching Asian cultures, a mission that still influences its prominent programs in fields like Chinese and Indian philosophy, calligraphy, and martial arts.
 
-Over the decades, Daito Bunka University has grown significantly, expanding its academic offerings to cover a wide spectrum of disciplines, from law and economics to sports science and nursing. It has built a reputation for providing a comprehensive and well-rounded education, preparing students not just with specialized knowledge but also with critical thinking skills, intercultural understanding, and a strong sense of social responsibility. The university is particularly renowned for its Faculty of Foreign Studies, which offers in-depth language and cultural education, and its Faculty of Sports and Health Science, which boasts state-of-the-art facilities and a strong track record in athletic development. While not one of the designated "Top Global Universities" by the Japanese government, Daito Bunka maintains a strong commitment to internationalization, attracting a diverse student body and fostering global academic exchange. The university prides itself on a supportive learning environment, where students can engage with dedicated faculty and participate in a rich variety of extracurricular activities, contributing to a vibrant campus life. Its strong alumni network also plays a crucial role in career development and societal contributions across various sectors in Japan and beyond.
+Over the years, Daito Bunka University has expanded significantly, offering a broad range of academic disciplines from law and economics to sports science and nursing. It has earned a reputation for delivering a comprehensive and well-rounded education, equipping students with specialized knowledge, critical thinking abilities, intercultural understanding, and a strong sense of social responsibility. The university is particularly noted for its Faculty of Foreign Studies, which provides in-depth language and cultural education, and its Faculty of Sports and Health Science, which features advanced facilities and a successful history in athletic development. While not officially designated as one of the "Top Global Universities" by the Japanese government, Daito Bunka is strongly committed to internationalization, attracting a diverse student population and promoting global academic exchange. The university takes pride in its supportive learning environment, where students can interact with dedicated faculty and participate in diverse extracurricular activities, contributing to a dynamic campus life. Its robust alumni network also plays a vital role in career advancement and societal contributions across various sectors in Japan and beyond.
 
-## 🎓 Faculties & Departments
+## Faculties & Departments
 
-Daito Bunka University offers a broad range of undergraduate and graduate programs across its eleven faculties, each designed to provide specialized knowledge and foster critical thinking. The curriculum is regularly updated to reflect societal changes and global trends, ensuring that graduates are well-equipped for future challenges.
+Daito Bunka University offers a wide array of undergraduate and graduate programs through its eleven faculties, each designed to provide specialized knowledge and cultivate critical thinking. The curriculum is regularly updated to reflect societal changes and global trends, ensuring graduates are well-prepared for future challenges.
 
-| Faculty | Major Areas of Study |
-|:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Faculty of Letters              | Japanese Language and Literature, English Language and Literature, Chinese Language and Literature, Education, History and Culture, Calligraphy |
-| Faculty of Economics            | Economics, Modern Business Economics, International Economics |
-| Faculty of Foreign Studies      | English, Chinese, German, French, Korean, International Relations |
-| Faculty of Law                  | Law |
-| Faculty of International Relations | International Relations, International Cultural Exchange |
-| Faculty of Business Administration | Business Administration, Marketing, Accounting, Management Information |
-| Faculty of Sports and Health Science | Sports Science, Health Science, Martial Arts, Physical Education |
-| Faculty of Sociology            | Sociology, Social Welfare, Media Studies, Regional Development |
-| Faculty of Information Science  | Information Science, Computer Science, Data Science |
-| Faculty of Environmental Creation | Environmental Science, Urban Planning, Disaster Prevention |
-| Faculty of Nursing              | Nursing |
+*   Faculty of Letters:
+    *   Japanese Language and Literature
+    *   English Language and Literature
+    *   Chinese Language and Literature
+    *   Education
+    *   History and Culture
+    *   Calligraphy
+*   Faculty of Economics:
+    *   Economics
+    *   Modern Business Economics
+    *   International Economics
+*   Faculty of Foreign Studies:
+    *   English
+    *   Chinese
+    *   German
+    *   French
+    *   Korean
+    *   International Relations
+*   Faculty of Law: 
+    *   Law
+*   Faculty of International Relations:
+    *   International Relations
+    *   International Cultural Exchange
+*   Faculty of Business Administration:
+    *   Business Administration
+    *   Marketing
+    *   Accounting
+    *   Management Information
+*   Faculty of Sports and Health Science:
+    *   Sports Science
+    *   Health Science
+    *   Martial Arts
+    *   Physical Education
+*   Faculty of Sociology:
+    *   Sociology
+    *   Social Welfare
+    *   Media Studies
+    *   Regional Development
+*   Faculty of Information Science:
+    *   Information Science
+    *   Computer Science
+    *   Data Science
+*   Faculty of Environmental Creation:
+    *   Environmental Science
+    *   Urban Planning
+    *   Disaster Prevention
+*   Faculty of Nursing:
+    *   Nursing
 
-## 💰 Tuition & Fees
+## Tuition & Fees
 
-The financial commitment for studying at Daito Bunka University is generally competitive among private universities in Japan. The university strives to provide transparency regarding tuition and fees, which typically consist of an admission fee (one-time payment) and annual tuition, along with other miscellaneous fees.
+The cost of studying at Daito Bunka University is generally competitive with other private universities in Japan. The university aims to be transparent about tuition and fees, which typically include an admission fee (a one-time payment) and annual tuition, as well as other miscellaneous fees.
 
-| Fee Type | Amount (JPY) | Notes |
-|:-------------------|:-------------|:------------------------------------------------------------------------------------------|
-| Admission Fee      | 200,000      | One-time payment, due upon enrollment. |
-| Yearly Tuition     | 1,060,000    | Average annual tuition for undergraduate programs. Varies slightly by faculty (approx. 980,000 - 1,200,000 JPY). |
-| Facility Fee       | 150,000      | Annual fee for facility maintenance and operational costs. |
-| Other Fees         | 50,000       | Includes student insurance, extracurricular activity fees, etc. (approximate annual total). |
-| **Total First Year** | **1,460,000**| **Admission Fee + Yearly Tuition + Facility Fee + Other Fees (approximate total for first year).** |
-| **Total Subsequent Years** | **1,260,000**| **Yearly Tuition + Facility Fee + Other Fees (approximate annual total from second year onwards).** |
+*   **Admission Fee:** Approximately ¥200,000 (One-time payment, due upon enrollment).
+*   **Yearly Tuition:** Approximately ¥1,060,000 (Average annual tuition for undergraduate programs. Varies slightly by faculty, approximately ¥980,000 - ¥1,200,000).
+*   **Facility Fee:** Approximately ¥150,000 (Annual fee for facility maintenance and operational costs).
+*   **Other Fees:** Approximately ¥50,000 (Includes student insurance, extracurricular activity fees, etc. Approximate annual total).
+*   **Total First Year:** Approximately ¥1,460,000 (Admission Fee + Yearly Tuition + Facility Fee + Other Fees).
+*   **Total Subsequent Years:** Approximately ¥1,260,000 (Yearly Tuition + Facility Fee + Other Fees).
 
-*Note: These figures are approximations based on recent academic years and may vary. Prospective students are advised to check the official university website for the most accurate and up-to-date information for their specific program of interest.*
+*Note: These figures are estimates based on recent academic years and are subject to change. Prospective students are advised to consult the official university website for the most accurate and current information regarding their specific program of interest.*
 
-## 🌍 International Student Support
+## International Student Support
 
-Daito Bunka University is dedicated to creating a welcoming and supportive environment for its international student community, which currently numbers around 500 students from various countries. The university recognizes the unique challenges faced by students studying abroad and offers a range of services designed to facilitate their academic success and personal well-being.
+Daito Bunka University is committed to providing a welcoming and supportive environment for its international student community, which currently includes around 500 students from various countries. The university recognizes the unique challenges that international students face and offers several services designed to facilitate their academic success and personal well-being.
 
-**Accommodation:** The university provides subsidized dormitory options for international students, such as the Daito Bunka Gakuen International Student House, located conveniently near its campuses. These dormitories offer affordable and secure living spaces, fostering a sense of community among students from different cultural backgrounds. Assistance is also available for students seeking private accommodation options.
+*   **Accommodation:** The university offers subsidized dormitory options for international students, such as the Daito Bunka Gakuen International Student House, which is conveniently located near its campuses. These dormitories provide affordable and secure living spaces, fostering a sense of community among students from diverse cultural backgrounds. Assistance is also available for students who wish to find private housing.
+*   **Language Support:** While most degree programs are taught in Japanese, the university offers comprehensive Japanese language support courses designed to help international students improve their proficiency for academic purposes and daily life. These courses range from beginner to advanced levels, ensuring students can effectively participate in their studies and integrate into Japanese society.
+*   **Academic & Counseling Support:** International students have access to dedicated advisors and counseling services who can provide assistance with academic advising, course registration, visa procedures, and personal issues. Orientation programs are held regularly to introduce new students to university life, academic expectations, and local customs.
+*   **Career Support:** The university's career services center offers specialized guidance for international students, including workshops on job hunting in Japan, resume writing, interview preparation, and networking opportunities with potential employers. While full English-taught degree programs are not a primary feature, the university aims to equip international graduates with the necessary skills and connections for employment in Japan or their home countries.
+*   **Cultural Exchange & Activities:** Daito Bunka University actively promotes cultural exchange through various events, clubs, and student organizations. International students are encouraged to participate in traditional Japanese cultural activities, local community events, and cross-cultural dialogue sessions, enriching their overall experience and fostering global friendships. Scholarships specifically for international students are also available, based on academic merit and financial need, to further ease their financial burden.
 
-**Language Support:** While most degree programs are conducted in Japanese, the university offers robust Japanese language support courses tailored to international students to help them improve their proficiency for academic purposes and daily life. These courses range from beginner to advanced levels, ensuring students can effectively engage with their studies and integrate into Japanese society.
+## Campus Location & Access
 
-**Academic & Counseling Support:** International students have access to dedicated advisors and counseling services who can assist with academic advising, course registration, visa procedures, and personal concerns. Orientation programs are held regularly to introduce new students to university life, academic expectations, and local customs.
-
-**Career Support:** The university's career services center provides specialized guidance for international students, including workshops on job hunting in Japan, resume writing, interview preparation, and networking opportunities with potential employers. While full English-taught degree programs are not a primary feature, the university strives to equip international graduates with the necessary skills and connections for employment in Japan or their home countries.
-
-**Cultural Exchange & Activities:** Daito Bunka University actively promotes cultural exchange through various events, clubs, and student organizations. International students are encouraged to participate in traditional Japanese cultural activities, local community events, and cross-cultural dialogue sessions, enriching their overall experience and fostering global friendships. Scholarships specifically for international students are also available based on academic merit and financial need, further easing their financial burden.
-
-## 📍 Campus Location & Access
-
-Daito Bunka University operates across two primary campuses, each catering to specific faculties and offering distinct environments. The main Itabashi Campus is situated in Tokyo, providing a vibrant urban setting, while the Higashimatsuyama Campus in Saitama Prefecture offers a more spacious environment, particularly for sports-related studies.
+Daito Bunka University has two main campuses, each serving specific faculties and offering distinct environments. The main Itabashi Campus is located in Tokyo, providing a vibrant urban setting, while the Higashimatsuyama Campus in Saitama Prefecture offers a more spacious environment, especially for sports-related studies.
 
 ### Itabashi Campus (Main Campus)
 
-The Itabashi Campus, located in Tokyo, serves as the main hub for most humanities, social science, and business faculties. It offers modern academic facilities, a comprehensive library, and various student amenities, all within easy reach of central Tokyo.
+The Itabashi Campus, situated in Tokyo, is the central location for most humanities, social science, and business faculties. It features modern academic facilities, a comprehensive library, and various student amenities, all within easy reach of central Tokyo.
 
-| Mode of Transport | Access Details | Travel Time (Approx.) |
-|:-------------------|:----------------------------------------------------------------------------------------------------------------------------------|:----------------------|
-| Train (Toei Mita Line) | Approximately 7-minute walk from Takashimadaira Station (高島平駅). | - |
-| Train (Tobu Tojo Line) | Take a bus from Narimasu Station (成増駅) or Shimo-Akatsuka Station (下赤塚駅) to "Daito Bunka Daigaku Mae" (大東文化大学前). | 15-20 minutes by bus |
-| Bus (Kokusai Kogyo Bus) | Various bus routes connect the campus to surrounding areas and major train stations. | Varies |
+*   **Train (Toei Mita Line):** Approximately a 7-minute walk from Takashimadaira Station (高島平駅).
+*   **Train (Tobu Tojo Line):** Take a bus from Narimasu Station (成増駅) or Shimo-Akatsuka Station (下赤塚駅) to "Daito Bunka Daigaku Mae" (大東文化大学前). (Approximately 15-20 minutes by bus)
+*   **Bus (Kokusai Kogyo Bus):** Various bus routes connect the campus to surrounding areas and major train stations. (Travel time varies).
 
 ### Higashimatsuyama Campus
 
-Located in Higashimatsuyama City, Saitama Prefecture, this campus is home to the Faculty of Sports and Health Science, among others. It boasts extensive sports facilities, including gymnasiums, athletic fields, and training centers, making it an ideal environment for students pursuing sports-related disciplines.
+Located in Higashimatsuyama City, Saitama Prefecture, this campus houses the Faculty of Sports and Health Science, among other departments. It features extensive sports facilities, including gymnasiums, athletic fields, and training centers, making it an ideal environment for students pursuing sports-related disciplines.
 
-| Mode of Transport | Access Details | Travel Time (Approx.) |
-|:-------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
-| Train (Tobu Tojo Line) | Take a bus from Higashimatsuyama Station (東松山駅) to "Daito Bunka Daigaku" (大東文化大学). | 10-15 minutes by bus |
+*   **Train (Tobu Tojo Line):** Take a bus from Higashimatsuyama Station (東松山駅) to "Daito Bunka Daigaku" (大東文化大学). (Approximately 10-15 minutes by bus).
 
 *Note: Public transportation in Japan is highly efficient, and both campuses are well-connected, providing convenient access for students and faculty.*

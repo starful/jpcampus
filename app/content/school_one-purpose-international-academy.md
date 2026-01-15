@@ -1,52 +1,70 @@
 ---
-basic_info:
-  address: 大阪府大阪市都島区大東町3-6-18
-  capacity: 178
-  name_en: One Purpose International Academy
-  name_ja: ワン・パーパス国際学院
-category: school
-courses:
-- admission_month: '4'
-  course_name: 大学進学2年コース
-  total_fees: 1380000
-- admission_month: '10'
-  course_name: 大学進学1年半コース
-  total_fees: 1055000
-- admission_month: '7'
-  course_name: 大学進学1年9ヵ月コース
-  total_fees: 1217500
-- admission_month: '1'
-  course_name: 大学進学1年3ヵ月コース
-  total_fees: 892500
-faculties: []
-features:
-- Dormitory
-- Scholarships
-- EJU Preparation
-- University Admission
-- Business Japanese
-- Short-term Courses
-- Conversational Japanese
-id: school_one-purpose-international-academy
-layout: school
-location:
-  lat: 34.72760590000001
-  lng: 135.5278571
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=321
-stats:
-  capacity: 178
-  international_students: 0
-tags:
-- Dormitory
-- Scholarships
-- EJU Preparation
-- University Admission
-- Business Japanese
-- Short-term Courses
-- Conversational Japanese
-thumbnail: /static/img/pin-school.png
-title: ワン・パーパス国際学院
-tuition: {}
+{
+  "basic_info": {
+    "address": "大阪府大阪市都島区大東町3-6-18",
+    "capacity": 178,
+    "name_en": "One Purpose International Academy",
+    "name_ja": "ワン・パーパス国際学院"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "admission_month": "4",
+      "course_name": "大学進学2年コース",
+      "total_fees": 1380000
+    },
+    {
+      "admission_month": "10",
+      "course_name": "大学進学1年半コース",
+      "total_fees": 1055000
+    },
+    {
+      "admission_month": "7",
+      "course_name": "大学進学1年9ヵ月コース",
+      "total_fees": 1217500
+    },
+    {
+      "admission_month": "1",
+      "course_name": "大学進学1年3ヵ月コース",
+      "total_fees": 892500
+    }
+  ],
+  "faculties": [],
+  "features": [
+    "Dormitory",
+    "Scholarships",
+    "EJU Preparation",
+    "University Admission",
+    "Business Japanese",
+    "Short-term Courses",
+    "Conversational Japanese"
+  ],
+  "id": "school_one-purpose-international-academy",
+  "layout": "school",
+  "location": {
+    "lat": 34.72760590000001,
+    "lng": 135.5278571
+  },
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=321",
+  "stats": {
+    "capacity": 178,
+    "international_students": 0
+  },
+  "tags": [
+    "Dormitory",
+    "Scholarships",
+    "EJU Preparation",
+    "University Admission",
+    "Business Japanese",
+    "Short-term Courses",
+    "Conversational Japanese"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "One Purpose International Academy",
+  "tuition": {},
+  "description": "One Purpose International Academy offers comprehensive Japanese language education in Osaka, Japan. Features include dormitory accommodation, scholarships, and courses for university admission and business Japanese.",
+  "translated": true
+}
 ---
 
 ## 🏫 School Overview
@@ -84,17 +102,17 @@ Here's a breakdown of the course levels offered:
 
 The academy offers the following core courses:
 
-- **University Preparatory Course (2 Years):** Designed for students who need a comprehensive foundation in Japanese and ample time to prepare for university entrance exams. Admission month is April.
-- **University Preparatory Course (1 Year 9 Months):** A slightly accelerated course for students with some prior knowledge of Japanese. Admission month is July.
-- **University Preparatory Course (1 Year 6 Months):** A more intensive course for students with a stronger foundation in Japanese. Admission month is October.
-- **University Preparatory Course (1 Year 3 Months):** The most intensive course, suitable for students with a near-intermediate level of Japanese. Admission month is January.
+*   **University Preparatory Course (2 Years):** Designed for students who need a comprehensive foundation in Japanese and ample time to prepare for university entrance exams. Admission month is April.
+*   **University Preparatory Course (1 Year 9 Months):** A slightly accelerated course for students with some prior knowledge of Japanese. Admission month is July.
+*   **University Preparatory Course (1 Year 6 Months):** A more intensive course for students with a stronger foundation in Japanese. Admission month is October.
+*   **University Preparatory Course (1 Year 3 Months):** The most intensive course, suitable for students with a near-intermediate level of Japanese. Admission month is January.
 
 Beyond the core curriculum, One Purpose International Academy also offers elective classes, including:
 
-- **Business Japanese:** Equips students with the language skills necessary for professional environments in Japan.
-- **EJU Preparation:** Focused tutoring and practice exams specifically targeting the EJU.
-- **Conversational Japanese:** Emphasis on improving fluency and natural communication skills.
-- **Japanese Culture:** A series of lessons that introduce students to many different aspects of Japanese traditional and contemporary culture.
+*   **Business Japanese:** Equips students with the language skills necessary for professional environments in Japan.
+*   **EJU Preparation:** Focused tutoring and practice exams specifically targeting the EJU.
+*   **Conversational Japanese:** Emphasis on improving fluency and natural communication skills.
+*   **Japanese Culture:** A series of lessons that introduce students to many different aspects of Japanese traditional and contemporary culture.
 
 ## 📈 Support for Higher Education & Employment
 
@@ -114,7 +132,7 @@ Here's an estimated breakdown of dormitory fees (Note: exact fees may vary):
 | ------------------ | ------------------------ | --------------------- | ---------------------- | ------------------------------ |
 | On-site Dormitory  | ¥40,000 - ¥60,000        | ¥5,000 - ¥10,000      | 5-10 minutes (walk)    | Shared rooms usually available |
 
-Living in the dormitory allows students to immerse themselves in the Japanese language and culture, and build lasting friendships with classmates. Commuting from the dormitory to the school is extremely convenient, saving students time and transportation costs.
+Living in the dormitory allows students to immerse themselves in the Japanese language and culture and build lasting friendships with classmates. Commuting from the dormitory to the school is extremely convenient, saving students time and transportation costs.
 
 ## 💰 Tuition & Scholarships
 
@@ -137,23 +155,23 @@ One Purpose International Academy offers scholarships to deserving students base
 
 **Pros:**
 
-- Comprehensive Japanese language education with a focus on university preparation.
-- On-site dormitory accommodation for convenient living.
-- Dedicated teachers and a supportive learning environment.
-- Elective courses in Business Japanese and EJU preparation.
-- Located in a safe and convenient area of Osaka.
+*   Comprehensive Japanese language education with a focus on university preparation.
+*   On-site dormitory accommodation for convenient living.
+*   Dedicated teachers and a supportive learning environment.
+*   Elective courses in Business Japanese and EJU preparation.
+*   Located in a safe and convenient area of Osaka.
 
 **Cons:**
 
-- Specific details on university acceptance rates and scholarship amounts are limited.
+*   Specific details on university acceptance rates and scholarship amounts are limited.
 
 **Who is this school for?**
 
 One Purpose International Academy is an ideal choice for international students who:
 
-- Are serious about pursuing higher education in Japan.
-- Prefer a supportive and community-focused learning environment.
-- Value convenient dormitory accommodation.
-- Are interested in learning Business Japanese for future career opportunities.
+*   Are serious about pursuing higher education in Japan.
+*   Prefer a supportive and community-focused learning environment.
+*   Value convenient dormitory accommodation.
+*   Are interested in learning Business Japanese for future career opportunities.
 
 This school provides a solid foundation in the Japanese language and offers tailored support for university entrance exams, making it a worthwhile option for motivated students seeking to achieve their academic goals in Japan.

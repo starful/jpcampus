@@ -1,58 +1,68 @@
 ---
-basic_info:
-  address: 〒169-8050 東京都新宿区戸塚町1-104
-  name_en: Waseda University
-  name_ja: 早稲田大学
-  website: https://www.waseda.jp/
-category: university
-faculties:
-- School of Political Science and Economics
-- School of Law
-- School of Culture, Media and Society
-- School of Humanities and Social Sciences
-- School of Education
-- School of Commerce
-- School of Fundamental Science and Engineering
-- School of Creative Science and Engineering
-- School of Advanced Science and Engineering
-- School of Social Sciences
-- School of Sport Sciences
-- School of International Liberal Studies
-- School of Human Sciences
-features:
-- SGU
-- EJU Required
-- English Program
-- Dormitory
-- Scholarship
-id: univ_waseda-university
-layout: school
-location:
-  lat: 35.709561
-  lng: 139.7211843
-stats:
-  acceptance_rate: 13%
-  international_students: 5700
-tags:
-- SGU
-- EJU Required
-- English Program
-- Dormitory
-- Scholarship
-thumbnail: /static/img/pin-univ.png
-title: 早稲田大学
-tuition:
-  admission_fee: 200000
-  yearly_tuition: 1200000
+{
+  "basic_info": {
+    "address": "〒169-8050 東京都新宿区戸塚町1-104",
+    "name_en": "Waseda University",
+    "name_ja": "早稲田大学",
+    "website": "https://www.waseda.jp/"
+  },
+  "category": "university",
+  "faculties": [
+    "School of Political Science and Economics",
+    "School of Law",
+    "School of Culture, Media and Society",
+    "School of Humanities and Social Sciences",
+    "School of Education",
+    "School of Commerce",
+    "School of Fundamental Science and Engineering",
+    "School of Creative Science and Engineering",
+    "School of Advanced Science and Engineering",
+    "School of Social Sciences",
+    "School of Sport Sciences",
+    "School of International Liberal Studies",
+    "School of Human Sciences"
+  ],
+  "features": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "id": "univ_waseda-university",
+  "layout": "school",
+  "location": {
+    "lat": 35.709561,
+    "lng": 139.7211843
+  },
+  "stats": {
+    "acceptance_rate": "13%",
+    "international_students": 5700
+  },
+  "tags": [
+    "SGU",
+    "EJU Required",
+    "English Program",
+    "Dormitory",
+    "Scholarship"
+  ],
+  "thumbnail": "/static/img/pin-univ.png",
+  "title": "Waseda University",
+  "tuition": {
+    "admission_fee": 200000,
+    "yearly_tuition": 1200000
+  },
+  "translated": true
+}
 ---
 
 ## 🏫 University Overview & Reputation
 
-Waseda University stands as a beacon of academic excellence and innovation in Japan, firmly established as one of the country's most prestigious private institutions. Often considered alongside Keio University as the top private universities in Japan, Waseda, or "Sodai" as it's affectionately known, boasts a rich history dating back to its founding in 1882 by Shigenobu Okuma, a visionary statesman and reformer. Okuma's founding principles emphasized independence of learning and the promotion of practical knowledge, values that continue to shape the university's academic ethos today. Waseda consistently ranks among the top universities in Japan and Asia, frequently appearing within the top 200 globally, a testament to its commitment to research, teaching quality, and internationalization.
+Waseda University is a leading academic and innovative institution in Japan, renowned as one of the nation's most prestigious private universities. Often mentioned alongside Keio University as one of the top private universities, Waseda, also known as "Sodai," has a rich history dating back to its founding in 1882 by Shigenobu Okuma, a visionary statesman and reformer. Okuma's foundational principles emphasized independent learning and practical knowledge, values that continue to shape the university's academic environment. Waseda consistently ranks among the top universities in Japan and Asia, frequently appearing within the top 200 globally, reflecting its commitment to research, teaching quality, and internationalization.
 
-Waseda's academic reputation extends beyond its overall rankings. The university is particularly renowned for its strengths in fields such as law, political science, economics, business, literature, and engineering. It’s a member of the prestigious Top Global University Project (SGU), a Japanese government initiative aimed at enhancing the international competitiveness of select universities. This designation reflects Waseda’s proactive efforts to attract international faculty and students, offer more programs in English, and foster collaborations with leading universities worldwide. Waseda's influence permeates Japanese society, with many of its graduates holding prominent positions in government, industry, and academia.
+Waseda's academic standing extends beyond its overall rankings. The university is particularly well-regarded for its strengths in fields like law, political science, economics, business, literature, and engineering. It is a member of the prestigious Top Global University Project (SGU), a Japanese government initiative to enhance the international competitiveness of select universities. This designation showcases Waseda’s active efforts to attract international faculty and students, offer more programs in English, and collaborate with leading universities worldwide. Waseda's influence is evident throughout Japanese society, with many of its graduates holding prominent positions in government, industry, and academia.
 
-The university's commitment to fostering a global perspective is evident in its diverse student body and its extensive network of international partnerships. Waseda actively encourages students to participate in exchange programs, internships, and research collaborations abroad, providing them with invaluable opportunities to broaden their horizons and develop cross-cultural skills. The university's emphasis on critical thinking, innovation, and social responsibility equips its graduates to become leaders and changemakers in an increasingly interconnected world. Waseda is not just a place to acquire knowledge; it's a place to cultivate intellectual curiosity, develop personal character, and prepare for a life of purpose.
+The university's dedication to fostering a global perspective is reflected in its diverse student body and extensive network of international partnerships. Waseda actively encourages students to participate in exchange programs, internships, and research collaborations abroad, providing valuable opportunities to broaden their perspectives and develop cross-cultural skills. The university's focus on critical thinking, innovation, and social responsibility prepares its graduates to become leaders and changemakers in an increasingly interconnected world. Waseda is more than just a place for acquiring knowledge; it's a place for cultivating intellectual curiosity, developing character, and preparing for a purposeful life.
 
 ## 🎓 Notable Faculties & Signature Programs
 
@@ -72,17 +82,17 @@ The university's commitment to fostering a global perspective is evident in its 
 | School of International Liberal Studies       | International Liberal Studies                                                                                        | Entirely in English                       |
 | School of Human Sciences                      | Human Sciences, Information Sciences                                                                                 |                                           |
 
-One of Waseda University's most distinctive and sought-after programs is the **School of International Liberal Studies (SILS)**. This program stands out for its unique interdisciplinary curriculum, its emphasis on critical thinking and communication skills, and the fact that all courses are taught entirely in English. SILS attracts a diverse cohort of students from around the world, fostering a vibrant and intellectually stimulating learning environment. The program encourages students to explore a wide range of subjects, from humanities and social sciences to arts and sciences, allowing them to develop a well-rounded understanding of global issues and perspectives. SILS graduates are highly sought after by employers in a variety of fields, including international business, diplomacy, journalism, and academia. Its focus on equipping students with the skills and knowledge necessary to thrive in a globalized world makes it a particularly attractive option for international students.
+One of Waseda University's most distinctive and popular programs is the **School of International Liberal Studies (SILS)**. This program is known for its interdisciplinary curriculum, emphasis on critical thinking and communication skills, and the fact that all courses are taught entirely in English. SILS attracts a diverse group of students from around the world, creating a vibrant and intellectually stimulating learning environment. The program encourages students to explore a wide range of subjects, from humanities and social sciences to arts and sciences, allowing them to develop a well-rounded understanding of global issues and perspectives. SILS graduates are highly sought after by employers in various fields, including international business, diplomacy, journalism, and academia. Its focus on equipping students with the skills and knowledge needed to succeed in a globalized world makes it a particularly appealing option for international students.
 
-Another highly regarded program is the **School of Political Science and Economics (SPSE)**. SPSE has a long and distinguished history, producing many prominent figures in Japanese politics and business. The school offers a variety of undergraduate and graduate programs in political science, economics, and global political economy, some of which are available in English. The curriculum is rigorous and demanding, emphasizing theoretical foundations and analytical skills. SPSE also provides students with opportunities to engage in research projects, internships, and study abroad programs. The school's strong reputation and its extensive alumni network make it a valuable asset for students seeking careers in government, international organizations, or the private sector. The Global Political Economy program is particularly popular amongst international students looking to understand the complex interplay between political and economic forces shaping the global landscape.
+Another highly respected program is the **School of Political Science and Economics (SPSE)**. SPSE has a long and distinguished history, producing many prominent figures in Japanese politics and business. The school offers a range of undergraduate and graduate programs in political science, economics, and global political economy, some of which are available in English. The curriculum is rigorous and demanding, emphasizing theoretical foundations and analytical skills. SPSE also provides students with opportunities to participate in research projects, internships, and study abroad programs. The school's strong reputation and extensive alumni network make it a valuable asset for students seeking careers in government, international organizations, or the private sector. The Global Political Economy program is particularly popular among international students interested in understanding the complex interaction between political and economic forces shaping the global landscape.
 
 ## 🌍 International Student Admissions & Life
 
-The application process for international students at Waseda University generally involves several key steps. First, prospective students typically need to submit their academic transcripts, standardized test scores (such as the EJU - Examination for Japanese University Admission for International Students, and TOEFL or IELTS for English proficiency), and a personal statement outlining their academic goals and motivations for studying at Waseda. The specific requirements may vary depending on the faculty and program. Some programs may also require applicants to submit essays, writing samples, or portfolios. Furthermore, interviews are often part of the selection process, conducted either in person or via video conference. The interview provides an opportunity for the admissions committee to assess the applicant's communication skills, intellectual curiosity, and suitability for the program.
+The application process for international students at Waseda University generally involves several key steps. First, prospective students typically need to submit their academic transcripts, standardized test scores (such as the EJU - Examination for Japanese University Admission for International Students, and TOEFL or IELTS for English proficiency), and a personal statement outlining their academic goals and motivations for studying at Waseda. The specific requirements may vary depending on the faculty and program. Some programs may also require applicants to submit essays, writing samples, or portfolios. Furthermore, interviews are often part of the selection process, conducted either in person or via video conference. The interview allows the admissions committee to assess the applicant's communication skills, intellectual curiosity, and suitability for the program.
 
-Waseda University offers a substantial number of degree programs entirely in English, particularly at the undergraduate level. Beyond the aforementioned School of International Liberal Studies (SILS), several other faculties offer courses or complete degree programs suitable for English speakers. The School of Political Science and Economics, for example, has English-based tracks. Information on which programs are offered in English can be found on the university's international admissions website under each faculty's specific program details. The Graduate School of Asia-Pacific Studies (GSAPS) also offers master's and doctoral programs taught entirely in English, focusing on international relations, development, and policy studies.
+Waseda University offers a significant number of degree programs entirely in English, particularly at the undergraduate level. Besides the School of International Liberal Studies (SILS), several other faculties offer courses or complete degree programs suitable for English speakers. The School of Political Science and Economics, for example, has English-based tracks. Information on which programs are offered in English can be found on the university's international admissions website under each faculty's specific program details. The Graduate School of Asia-Pacific Studies (GSAPS) also offers master's and doctoral programs taught entirely in English, focusing on international relations, development, and policy studies.
 
-Waseda University boasts a dedicated International Student Office that provides a wide range of support services to help international students adjust to life in Japan and succeed academically. The office offers assistance with visa applications, housing arrangements, and health insurance. Academic advising is also available to help students choose courses, plan their academic progress, and explore research opportunities. Counseling services are available to provide emotional support and address any personal or academic challenges that students may face. The International Student Office also organizes social events and cultural activities to help international students connect with each other and immerse themselves in Japanese culture. With approximately 5,700 international students, Waseda fosters a diverse and welcoming campus atmosphere. Numerous student clubs and organizations cater to a wide range of interests, from sports and music to cultural exchange and academic pursuits. These clubs provide opportunities for international students to connect with Japanese students and other international students, build friendships, and develop leadership skills.
+Waseda University has a dedicated International Student Office that provides a wide array of support services to help international students adjust to life in Japan and succeed academically. The office offers assistance with visa applications, housing arrangements, and health insurance. Academic advising is also available to help students choose courses, plan their academic progress, and explore research opportunities. Counseling services are available to provide emotional support and address any personal or academic challenges that students may encounter. The International Student Office also organizes social events and cultural activities to help international students connect with each other and immerse themselves in Japanese culture. With approximately 5,700 international students, Waseda fosters a diverse and welcoming campus environment. Numerous student clubs and organizations cater to a wide range of interests, from sports and music to cultural exchange and academic pursuits. These clubs provide opportunities for international students to connect with Japanese students and other international students, build friendships, and develop leadership skills.
 
 ## 💰 Tuition, Scholarships & Cost of Living
 

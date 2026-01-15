@@ -1,54 +1,74 @@
 ---
-basic_info:
-  address: 東京都墨田区両国2-10-5
-  capacity: 720
-  name_en: MANABI Japanese Language Institute Tokyo Campus
-  name_ja: ＭＡＮＡＢＩ外語学院東京校
-category: school
-courses:
-- admission_month: '4'
-  course_name: 進学2年コース
-  total_fees: 1427760
-- admission_month: '7'
-  course_name: 進学1年9か月コース
-  total_fees: 1258740
-- admission_month: '10'
-  course_name: 進学1年6か月コース
-  total_fees: 1089720
-- admission_month: '1'
-  course_name: 進学1年3か月コース
-  total_fees: 920700
-- admission_month: '4'
-  course_name: 進学1年コース
-  total_fees: 818640
-faculties: []
-features:
-- Higher Education Progression
-- EJU Preparation
-- Dormitory Available
-- Short-term Courses
-id: school_manabi-japanese-language-institute-tokyo-school
-layout: school
-location:
-  lat: 35.6940159
-  lng: 139.7913053
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=154
-stats:
-  capacity: 720
-  international_students: 0
-tags:
-- Higher Education Progression
-- EJU Preparation
-- Dormitory Available
-- Short-term Courses
-thumbnail: /static/img/pin-school.png
-title: ＭＡＮＡＢＩ外語学院東京校
-tuition: {}
+{
+  "basic_info": {
+    "address": "東京都墨田区両国2-10-5",
+    "capacity": 720,
+    "name_en": "MANABI Japanese Language Institute Tokyo Campus",
+    "name_ja": "ＭＡＮＡＢＩ外語学院東京校"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "admission_month": "4",
+      "course_name": "進学2年コース",
+      "total_fees": 1427760
+    },
+    {
+      "admission_month": "7",
+      "course_name": "進学1年9か月コース",
+      "total_fees": 1258740
+    },
+    {
+      "admission_month": "10",
+      "course_name": "進学1年6か月コース",
+      "total_fees": 1089720
+    },
+    {
+      "admission_month": "1",
+      "course_name": "進学1年3か月コース",
+      "total_fees": 920700
+    },
+    {
+      "admission_month": "4",
+      "course_name": "進学1年コース",
+      "total_fees": 818640
+    }
+  ],
+  "faculties": [],
+  "features": [
+    "Higher Education Progression",
+    "EJU Preparation",
+    "Dormitory Available",
+    "Short-term Courses"
+  ],
+  "id": "school_manabi-japanese-language-institute-tokyo-school",
+  "layout": "school",
+  "location": {
+    "lat": 35.6940159,
+    "lng": 139.7913053
+  },
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=154",
+  "stats": {
+    "capacity": 720,
+    "international_students": 0
+  },
+  "tags": [
+    "Higher Education Progression",
+    "EJU Preparation",
+    "Dormitory Available",
+    "Short-term Courses"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "MANABI Japanese Language Institute Tokyo Campus",
+  "tuition": {},
+  "translated": true,
+  "description": "Located in Tokyo's Ryogoku district, MANABI Japanese Language Institute Tokyo Campus prepares students for higher education with comprehensive courses and a focus on personalized learning."
+}
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-MANABI Japanese Language Institute Tokyo School (ＭＡＮＡＢＩ外語学院東京校) is a well-established Japanese language institution situated in the vibrant Ryogoku district of Sumida Ward, Tokyo. Ryogoku is renowned as the heart of sumo wrestling, lending a unique cultural atmosphere to the area. Students will find themselves immersed in a traditional yet modern neighborhood, with a blend of historic sites, local shops, and convenient access to the rest of Tokyo. The school's central location provides easy access to public transportation, making it simple to explore the city and its many attractions during their studies.
+MANABI Japanese Language Institute Tokyo Campus is a well-established Japanese language institution situated in the vibrant Ryogoku district of Sumida Ward, Tokyo. Ryogoku is renowned as the heart of sumo wrestling, lending a unique cultural atmosphere to the area. Students will find themselves immersed in a traditional yet modern neighborhood, with a blend of historic sites, local shops, and convenient access to the rest of Tokyo. The school's central location provides easy access to public transportation, making it simple to explore the city and its many attractions during their studies.
 
 The school, with a significant capacity of 720 students, fosters a diverse international learning environment, welcoming students from around the globe who are committed to improving their Japanese language proficiency. MANABI Tokyo's history is rooted in providing quality Japanese language education, with a strong emphasis on preparing students for higher education in Japan. Over the years, it has developed a proven track record of guiding students towards successful enrollment in universities, graduate schools, and vocational colleges.
 
@@ -56,9 +76,9 @@ At the heart of MANABI Tokyo's educational philosophy is a commitment to persona
 
 MANABI Tokyo aims to empower students not only with linguistic proficiency but also with the cultural sensitivity and academic skills necessary to thrive in a Japanese academic setting. They focus on building a solid foundation in grammar, vocabulary, and pronunciation, while simultaneously equipping students with the critical thinking, research, and presentation skills demanded by Japanese universities and colleges. By fostering a holistic approach to language learning, MANABI Tokyo strives to prepare students for success both academically and personally in Japan.
 
-## 📚 Courses, Curriculum & Teaching Style
+## Courses, Curriculum & Teaching Style
 
-MANABI Japanese Language Institute Tokyo School offers a range of comprehensive courses specifically designed to equip students with the necessary Japanese language skills for academic advancement. These courses vary in duration to accommodate different admission cycles and individual learning needs.
+MANABI Japanese Language Institute Tokyo Campus offers a range of comprehensive courses specifically designed to equip students with the necessary Japanese language skills for academic advancement. These courses vary in duration to accommodate different admission cycles and individual learning needs.
 
 | Course Name                       | Duration      | Target Level         | Key Features                                                                                                    |
 | :-------------------------------- | :------------ | :------------------- | :-------------------------------------------------------------------------------------------------------------- |
@@ -78,7 +98,7 @@ MANABI Japanese Language Institute Tokyo School offers a range of comprehensive 
 
 **Higher Education 1-Year Course:** This course balances intensive language learning with EJU preparation. The curriculum covers essential grammar, vocabulary, and kanji, while integrating practical application of these skills in everyday situations. This enables students to use their knowledge in tangible settings, as well as to master the language needed to succeed in higher education. Teachers encourage interactive learning and actively engage with students, creating a comfortable environment for students to ask questions and actively participate. They provide guidance and personalized feedback.
 
-## 🌍 Student Body & Campus Life
+## Student Body & Campus Life
 
 While specific statistics on the current international student nationality mix are unavailable, MANABI Tokyo's large student capacity (720 students) suggests a diverse representation of nationalities. It's reasonable to expect students from various Asian countries (China, Korea, Vietnam, etc.), as well as students from Europe, the Americas, and other parts of the world. The school likely aims to create a multicultural environment that encourages interaction and understanding among students from different backgrounds.
 
@@ -94,7 +114,7 @@ Beyond academics, MANABI Tokyo organizes a variety of extracurricular activities
 
 The school actively fosters a sense of community among students and staff. Counselors are available to provide personal and academic support. The school also encourages students to form clubs and organizations based on their interests, further promoting a sense of belonging and shared purpose.
 
-## 🎓 University & Career Pathways
+## University & Career Pathways
 
 While specific university admission records aren't provided, MANABI Tokyo explicitly focuses on preparing students for higher education in Japan. Therefore, the school likely maintains a strong track record of placing its graduates in reputable universities, graduate schools, and vocational colleges.
 
@@ -119,7 +139,7 @@ While the focus is primarily on higher education progression, MANABI Tokyo also 
 *   **Career counseling:** Counselors can provide guidance on career options and job market trends in Japan.
 *   **Introduction to recruiters:** Connecting students with recruiters who specialize in placing international graduates in Japanese companies.
 
-## 🏡 Accommodation & Living Support
+## Accommodation & Living Support
 
 MANABI Tokyo offers dormitory options for students seeking convenient and affordable accommodation. While specific details about the dormitory types, costs, and distances from the school aren't provided, it is likely that the dormitories offer a range of options to suit different budgets and preferences. These may include:
 
@@ -140,7 +160,7 @@ In addition to providing dormitory accommodation, MANABI Tokyo also assists stud
 
 The school's goal is to make the transition to living and studying in Japan as smooth and stress-free as possible for international students.
 
-## 💰 Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships
 
 Here's a breakdown of estimated first-year costs based on the provided data. Please note these are estimates and should be verified directly with the school for the most accurate figures.
 

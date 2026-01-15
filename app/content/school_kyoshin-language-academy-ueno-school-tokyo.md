@@ -55,123 +55,124 @@
       "total_fees": 970750
     }
   ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=28"
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=28",
+  "translated": true
 }
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-Kyoshin Language Academy Ueno School (KLA Ueno) stands as a highly specialized institution within the extensive Kyoshin educational group, a major player in the Japanese academic landscape known for its commitment to quality instruction and robust student outcomes. Situated in Arakawa Ward, specifically near the convenient hub of Nippori, the Ueno School benefits from a strategic location that balances accessibility to central Tokyo with a relatively calmer, student-friendly environment. Its proximity to Ueno – a significant cultural and academic center known for its museums, parks, and universities – embeds the school within an atmosphere conducive to serious study and cultural immersion. The school's compact capacity of approximately 180 students is a deliberate design choice, allowing KLA Ueno to maintain a high student-to-teacher ratio and offer personalized attention that larger institutions often struggle to provide.
+Kyoshin Language Academy Ueno School (KLA Ueno) is a specialized institution within the Kyoshin educational group, a major player in the Japanese academic landscape recognized for its quality instruction and student outcomes. Located in Arakawa Ward, near Nippori, the Ueno School offers a strategic location with accessibility to central Tokyo and a calmer, student-friendly environment. Its proximity to Ueno – a cultural and academic center – places the school in an atmosphere conducive to serious study and cultural immersion. The school's capacity of approximately 180 students allows KLA Ueno to maintain a high student-to-teacher ratio and offer personalized attention.
 
-The core philosophy of KLA Ueno is unequivocally focused on **Advancement (進学)**. Unlike schools that split focus between career track and academic progression, this campus is dedicated almost exclusively to preparing international students for successful entry into Japanese universities (both undergraduate and graduate) or vocational schools. The curriculum is meticulously structured to ensure students not only achieve the requisite Japanese language proficiency (typically JLPT N1 or strong N2) but also master the specific academic skills demanded by the rigorous Japanese higher education entrance system. This commitment is explicitly evidenced by the prominent inclusion of EJU (Examination for Japanese University Admission for International Students) preparation as a central pillar of its educational offering. The school operates on the principle that structured, goal-oriented learning combined with thorough cultural acclimation is the optimal path for international student success.
+The core philosophy of KLA Ueno is focused on **Advancement (進学)**. This campus is dedicated to preparing international students for entry into Japanese universities (undergraduate and graduate) or vocational schools. The curriculum ensures students achieve the required Japanese language proficiency (JLPT N1 or strong N2) and master the academic skills demanded by the Japanese higher education entrance system. EJU (Examination for Japanese University Admission for International Students) preparation is a central part of its educational offering. The school operates on the principle that structured, goal-oriented learning combined with cultural acclimation is the path for student success.
 
-KLA Ueno serves as an academic bridge, guiding students from diverse linguistic and educational backgrounds through the complexities of Japanese academic life. The institution recognizes that successful advancement requires more than just language skills; it necessitates competence in academic writing, critical thinking in Japanese, presentation abilities, and a deep understanding of Japanese societal norms and institutional expectations. The location in East Nippori, while highly accessible via the Yamanote Line and Keisei Line, also offers a practical, authentic Tokyo living experience, keeping living costs slightly more manageable than those in hyper-central wards like Shinjuku or Shibuya, yet without sacrificing connectivity. This thoughtful combination of rigorous academic focus, experienced support staff, and a conducive environment makes KLA Ueno a formidable choice for ambitious students aiming for top-tier Japanese universities.
+KLA Ueno guides students from diverse backgrounds through the complexities of Japanese academic life. Successful advancement requires competence in academic writing, critical thinking, presentation abilities, and an understanding of Japanese societal norms. The location in East Nippori offers an authentic Tokyo living experience, keeping living costs more manageable than in central wards while maintaining connectivity. This combination of academic focus, experienced staff, and a conducive environment makes KLA Ueno a choice for students aiming for top-tier Japanese universities.
 
-Furthermore, the school leverages the extensive resources and established reputation of the broader Kyoshin Group. This association provides students with access to a vast network of partner universities, up-to-date information on admissions trends, and established guidance mechanisms refined over decades of operating successful preparatory schools in Japan. This organizational stability ensures that the school maintains high standards of instruction and administrative support, offering peace of mind to students and their families who are navigating the complex process of studying abroad. The consistent offering of long-term enrollment options—ranging from the full two-year course to the shorter one-year, three-month track—demonstrates KLA Ueno’s adaptability to various academic schedules while maintaining the singular goal of university placement.
+Furthermore, the school leverages the resources and reputation of the Kyoshin Group, providing access to a network of partner universities, information on admissions trends, and guidance mechanisms refined over decades. This ensures high standards of instruction and support, offering peace of mind to students navigating study abroad. The offering of long-term enrollment options demonstrates KLA Ueno’s adaptability while maintaining the goal of university placement.
 
-## 📚 Courses, Curriculum & Teaching Style
+## Courses, Curriculum & Teaching Style
 
-Kyoshin Language Academy Ueno School offers a streamlined selection of long-term courses, all categorized under the **Advancement Course (進学コース)** umbrella, designed to align with the standard Japanese university application cycle. These courses range from the maximum duration of two years (starting in April) down to specialized one-year, three-month tracks (starting in January). The fixed total fees listed for these courses (e.g., ¥1,507,000 for the 2-year course) emphasize a comprehensive learning package geared entirely toward higher education entry.
+Kyoshin Language Academy Ueno School offers long-term courses under the **Advancement Course (進学コース)** umbrella, designed to align with the Japanese university application cycle. These courses range from two years (starting in April) to one-year, three-month tracks (starting in January). The fixed total fees emphasize a comprehensive learning package geared toward higher education entry.
 
 ### Curriculum Structure and Progression
 
-The curriculum is rigorously structured across six levels, progressing from beginner (N5 equivalent) to advanced academic Japanese (N1+). Initial placement is determined by a comprehensive test and interview upon enrollment. The academic year is divided into distinct phases, each with specific learning objectives:
+The curriculum is structured across six levels, from beginner (N5 equivalent) to advanced academic Japanese (N1+). Initial placement is determined by a test and interview. The academic year is divided into phases, each with learning objectives:
 
-1.  **Fundamental Phase (Beginner/Elementary):** Focuses on mastering basic grammar, vocabulary, daily conversation (N5-N4), and establishing foundational kanji knowledge. This phase ensures students can navigate basic life in Japan.
-2.  **Intermediate Phase (Pre-Intermediate/Intermediate):** Transitions to complex grammatical structures, formal Japanese (Keigo), and developing the ability to express opinions and read authentic, non-simplified texts (N3-N2 level). Introduction to academic reading and note-taking begins here.
-3.  **Advanced Academic Phase (Upper Intermediate/Advanced):** The critical phase for university preparation. The focus shifts heavily toward specialized EJU and JLPT N1 content. Students engage in intensive reading of academic papers, debate, structured essay writing, and complex listening comprehension necessary for lectures.
+*   **Fundamental Phase (Beginner/Elementary):** Mastering basic grammar, vocabulary, daily conversation (N5-N4), and establishing kanji knowledge. Ensures students can navigate basic life in Japan.
+*   **Intermediate Phase (Pre-Intermediate/Intermediate):** Transitions to complex grammatical structures, formal Japanese (Keigo), and developing the ability to express opinions and read authentic texts (N3-N2 level). Introduction to academic reading and note-taking begins.
+*   **Advanced Academic Phase (Upper Intermediate/Advanced):** Focus shifts toward specialized EJU and JLPT N1 content. Students engage in intensive reading of academic papers, debate, essay writing, and complex listening comprehension.
 
 ### EJU and Specialized Preparation
 
-KLA Ueno’s greatest strength is its specialized preparation for the Examination for Japanese University Admission for International Students (EJU). These classes are integrated into the regular timetable, especially for students aiming for undergraduate admission. The EJU preparation extends beyond Japanese language skills to include key subject areas offered entirely in Japanese:
+KLA Ueno’s strength is its specialized preparation for the Examination for Japanese University Admission for International Students (EJU). Classes are integrated into the timetable, especially for students aiming for undergraduate admission. The EJU preparation includes key subject areas offered in Japanese:
 
 *   **General Studies (Sogō Kamoku):** Mandatory for most humanities and social science majors, involving current events, Japanese and world history, geography, and political science.
 *   **Mathematics (Course 1 or 2):** Tailored math instruction for either humanities (Course 1) or science/engineering tracks (Course 2).
 *   **Science (Physics, Chemistry, Biology):** Offered for students targeting STEM fields.
 
-Teaching methods rely heavily on past EJU papers, regular mock examinations administered under strict conditions, and detailed post-test analysis and feedback. The goal is systematic improvement, focusing not just on knowledge acquisition but on test-taking strategies and time management vital for high scores.
+Teaching methods rely on past EJU papers, mock examinations, and post-test analysis and feedback. The goal is improvement, focusing on knowledge acquisition, test-taking strategies, and time management.
 
 ### Teaching Methodology
 
-The teaching style at KLA Ueno is dynamic, utilizing a communicative approach while retaining the necessary rigor for academic preparation. Teachers, who are highly experienced in teaching Japanese as a foreign language and often possess advanced degrees, employ techniques such that include:
+The teaching style at KLA Ueno is dynamic, utilizing a communicative approach while retaining the rigor for academic preparation. Teachers employ techniques that include:
 
 *   **Interactive Learning:** Encouraging student discussions and presentations to build confidence in spontaneous Japanese usage.
-*   **Task-Based Learning:** Assigning projects (e.g., preparing a university research proposal, interviewing a Japanese professional) that necessitate the practical application of learned language and academic skills.
-*   **Flipped Classroom Elements:** Utilizing digital resources and homework preparation to maximize classroom time for discussion, problem-solving, and practical skill training, rather than passive lecturing.
+*   **Task-Based Learning:** Assigning projects that necessitate the practical application of learned language and academic skills.
+*   **Flipped Classroom Elements:** Utilizing digital resources and homework preparation to maximize classroom time for discussion, problem-solving, and practical skill training.
 
-The school’s environment is optimized for serious students, demanding consistent effort and attendance, which are crucial metrics tracked by universities during the application process.
+The school’s environment is optimized for serious students, demanding effort and attendance, which are tracked by universities during the application process.
 
-## 🌍 Student Body & Campus Life
+## Student Body & Campus Life
 
-The student demographic at Kyoshin Language Academy typically reflects the shifting landscape of international students in Japan, drawing a substantial number from East Asia (China, South Korea) and increasingly from Southeast Asia (Vietnam, Nepal, Indonesia, Philippines), as well as South Asia and select Western nations. Given the school's explicit focus on university advancement, the student body tends to be highly motivated, academically focused, and goal-oriented. This shared ambition fosters a competitive yet cooperative learning environment where students encourage each other toward higher entrance examination scores.
+The student demographic at Kyoshin Language Academy typically reflects the landscape of international students in Japan, drawing from East Asia (China, South Korea) and increasingly from Southeast Asia (Vietnam, Nepal, Indonesia, Philippines), as well as South Asia and select Western nations. The student body tends to be motivated, academically focused, and goal-oriented. This fosters a learning environment where students encourage each other toward higher entrance examination scores.
 
 ### Campus Facilities and Location Advantages
 
-The Ueno School, located in a multi-story building (Water KoshI Building, 2nd and 3rd floors) in Arakawa, provides clean, modern, and functional facilities necessary for intensive study. Classrooms are equipped with necessary teaching aids, including audio-visual equipment vital for EJU and JLPT listening practice. While a small-capacity school (180 students), the smaller size ensures that facilities like the self-study area and counseling offices are readily accessible and not overcrowded. The location near Nippori Station and Ueno is highly advantageous, offering:
+The Ueno School, located in a multi-story building in Arakawa, provides clean, modern, and functional facilities. Classrooms are equipped with teaching aids, including audio-visual equipment. The smaller size ensures facilities like the self-study area and counseling offices are accessible. The location near Nippori Station and Ueno offers:
 
-*   **Cultural Immersion:** Direct access to Ueno Park, museums (Tokyo National Museum, National Museum of Nature and Science), and the Tokyo Metropolitan Art Museum, providing rich, easily accessible cultural study opportunities.
-*   **Academic Proximity:** Situated near several major universities and specialized libraries, allowing students to familiarize themselves with the academic atmosphere they aim to enter.
-*   **Convenience:** Nippori is a major interchange, simplifying commutes for both school and part-time work (Arubaito).
+*   **Cultural Immersion:** Direct access to Ueno Park, museums (Tokyo National Museum, National Museum of Nature and Science), and the Tokyo Metropolitan Art Museum, providing cultural study opportunities.
+*   **Academic Proximity:** Situated near universities and specialized libraries, allowing students to familiarize themselves with the academic atmosphere they aim to enter.
+*   **Convenience:** Nippori is a major interchange, simplifying commutes for school and part-time work (Arubaito).
 
 ### Extracurricular Activities and Cultural Acclimation
 
-Kyoshin Language Academy integrates cultural education as a non-negotiable part of its curriculum, understanding that cultural competence is essential for successful integration into Japanese universities. Activities are designed to be educational and relevant:
+Kyoshin Language Academy integrates cultural education as part of its curriculum, understanding that cultural competence is essential for integration into Japanese universities. Activities are designed to be educational and relevant:
 
 *   **Seasonal Events:** Participation in traditional Japanese festivals (Setsubun, Tanabata), and observation of Obon and New Year customs.
 *   **Cultural Workshops:** Hands-on activities such as tea ceremony (Sado), calligraphy (Shodō), or traditional cooking classes.
-*   **University Field Trips:** Organized visits to various university campuses and open houses across the Kanto region, providing students with firsthand experience of the institutions they are researching.
+*   **University Field Trips:** Organized visits to university campuses and open houses across the Kanto region.
 
 ### Welfare and Support Services
 
-Crucially, KLA Ueno provides robust support for daily life and administrative tasks. The administrative team includes multilingual staff capable of assisting with critical needs such as visa renewal procedures, understanding local residency rules, opening bank accounts, and navigating Japan's healthcare system. Given the high academic pressure, the school also emphasizes mental well-being, providing dedicated guidance counselors to help students manage stress, address academic performance anxieties, and offer tailored study advice, ensuring the learning journey remains sustainable and productive.
+KLA Ueno provides support for daily life and administrative tasks. The administrative team includes multilingual staff capable of assisting with visa renewal procedures, understanding local residency rules, opening bank accounts, and navigating Japan's healthcare system. The school also emphasizes mental well-being, providing guidance counselors to help students manage stress, address academic performance anxieties, and offer study advice.
 
-## 🎓 University & Career Pathways
+## University & Career Pathways
 
-KLA Ueno's sole mission is to ensure successful progression to higher education. The process is systematic, beginning almost immediately after a student achieves sufficient intermediate language proficiency.
+KLA Ueno's mission is to ensure progression to higher education. The process is systematic, beginning after a student achieves sufficient intermediate language proficiency.
 
 ### Comprehensive Guidance and Counseling
 
-The school provides specialized university guidance sessions far exceeding basic administrative help. These sessions include:
+The school provides university guidance sessions. These sessions include:
 
-1.  **Individualized Consultation:** Regular, one-on-one meetings with dedicated academic counselors who help students define their academic goals, select appropriate majors (e.g., identifying whether they need EJU Science or Humanities track), and narrow down university choices based on academic level, budget, and location.
-2.  **Application Procedure Mastery:** Detailed instruction on navigating the complex application processes for private and public universities, including understanding pre-screening requirements, necessary documentation, and scholarship application deadlines.
-3.  **Research and Essay Writing:** Intensive workshops focused on developing the specialized Japanese required for drafting research proposals (for graduate school applicants) or persuasive Statement of Purpose essays (志望理由書). This includes training in academic citation methods and formal presentation style.
-4.  **Interview Preparation:** Extensive practice for university entrance interviews, covering standard questions, specialized field inquiries, and demeanor expectations. Mock interviews are conducted by experienced staff, including former university admissions officers, providing realistic feedback on Keigo usage and confidence.
+1.  **Individualized Consultation:** Regular meetings with academic counselors who help students define their academic goals, select majors, and narrow down university choices.
+2.  **Application Procedure Mastery:** Instruction on navigating application processes for private and public universities, including pre-screening requirements, documentation, and scholarship application deadlines.
+3.  **Research and Essay Writing:** Workshops focused on developing the Japanese required for drafting research proposals or Statement of Purpose essays (志望理由書). This includes training in academic citation methods and formal presentation style.
+4.  **Interview Preparation:** Practice for university entrance interviews, covering standard questions, specialized field inquiries, and demeanor expectations. Mock interviews are conducted by experienced staff, including former university admissions officers.
 
 ### EJU Score Optimization and Target Setting
 
-Students are grouped based on target institutions (e.g., highly competitive national universities like Tokyo University or Waseda, vs. strong private universities or vocational colleges). This stratification allows for highly targeted EJU subject instruction and academic tutoring. The Kyoshin network offers valuable insights into the minimum EJU scores and JLPT levels historically accepted by specific Japanese institutions, allowing counselors to set realistic and challenging score targets for each student.
+Students are grouped based on target institutions. This allows for targeted EJU subject instruction and academic tutoring. The Kyoshin network offers insights into the minimum EJU scores and JLPT levels accepted by Japanese institutions, allowing counselors to set score targets for each student.
 
 ### Leveraging the Kyoshin Network
 
-As part of a major educational conglomerate, KLA Ueno often benefits from preferential partnerships or designated recommendation pathways with certain vocational schools (Senmon Gakko) and private universities. While securing a spot at a top national university always relies on stellar EJU performance, these organizational ties can significantly smooth the admissions process for students targeting specific technical or business vocational careers after their language study. Students are actively encouraged to attend information sessions hosted by these partner institutions on the school premises.
+As part of an educational conglomerate, KLA Ueno benefits from partnerships with vocational schools (Senmon Gakko) and private universities. While securing a spot at a top national university relies on EJU performance, these ties can smooth the admissions process for students targeting technical or business vocational careers. Students are encouraged to attend information sessions hosted by partner institutions.
 
-## 🏡 Accommodation & Living Support
+## Accommodation & Living Support
 
-The explicit feature tag **(Dormitory/Accommodation - 기숙사)** highlights KLA Ueno's strong commitment to providing secure and convenient living arrangements, particularly critical for new arrivals in Tokyo.
+The feature tag **(Dormitory/Accommodation - 기숙사)** highlights KLA Ueno's commitment to providing living arrangements.
 
 ### Kyoshin Managed Dormitories
 
-Kyoshin typically partners with established student housing providers or manages its own accommodations near the Ueno/Nippori area. These dormitories are designed specifically for international students and prioritize safety and accessibility. Standard dormitory features generally include:
+Kyoshin partners with student housing providers or manages accommodations near the Ueno/Nippori area. These dormitories are designed for international students and prioritize safety and accessibility. Standard dormitory features include:
 
-*   **Room Types:** Usually single rooms or shared twin rooms, depending on the student’s preference and budget.
-*   **Security:** High-level security systems, often including key-card access, CCTV surveillance, and resident managers (often bilingual or multilingual) to handle emergencies and daily issues.
-*   **Facilities:** Shared common areas, kitchenettes, laundry facilities, high-speed internet access, and dedicated study rooms separate from the student's personal sleeping quarters.
-*   **Location:** Dormitories are typically located within a reasonable commuting distance (30-45 minutes max) of the school via public transport or bicycle.
+*   **Room Types:** Usually single rooms or shared twin rooms.
+*   **Security:** High-level security systems, including key-card access, CCTV surveillance, and resident managers to handle emergencies and daily issues.
+*   **Facilities:** Shared common areas, kitchenettes, laundry facilities, high-speed internet access, and dedicated study rooms.
+*   **Location:** Dormitories are located within commuting distance (30-45 minutes max) of the school via public transport or bicycle.
 
 ### Initial Settling-In Support
 
-The school recognizes the challenges of the first few weeks in Japan. Support is provided for all essential settlement needs, alleviating stress and allowing students to focus on their studies:
+The school recognizes the challenges of the first few weeks in Japan. Support is provided for all essential settlement needs:
 
 *   **Arrival Coordination:** Airport pick-up services and direct transfer to the assigned accommodation.
-*   **Administrative Guidance:** Assistance with completing local municipal registration (Jūminhyō), mandatory enrollment in the National Health Insurance scheme (Kokumin Kenkō Hoken), and setting up utilities.
-*   **Safety and Life Orientation:** Mandatory seminars covering Japanese traffic rules, local emergency protocols (earthquake and fire safety), waste disposal rules, and local customs necessary for maintaining harmony with neighbors.
+*   **Administrative Guidance:** Assistance with completing local municipal registration (Jūminhyō), enrollment in the National Health Insurance scheme (Kokumin Kenkō Hoken), and setting up utilities.
+*   **Safety and Life Orientation:** Seminars covering Japanese traffic rules, emergency protocols (earthquake and fire safety), waste disposal rules, and local customs.
 
-For students who choose not to use the Kyoshin-provided dormitories after the initial term, the school offers advisory services, connecting them with reputable real estate agents specializing in foreigner housing, ensuring they find suitable apartments that meet visa requirements and budget constraints.
+For students who choose not to use the Kyoshin-provided dormitories after the initial term, the school offers advisory services, connecting them with real estate agents specializing in foreigner housing.
 
-## 💰 Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships
 
-The tuition structure at Kyoshin Language Academy Ueno School is presented as a fixed, total fee for the duration of the advancement course. This transparency helps students budget accurately for the entire academic journey. The following table provides a breakdown extrapolated from the 2-year Advancement Course (¥1,507,000 Total), detailing typical first-year expenses, which usually account for a higher proportion due to mandatory entry fees.
+The tuition structure at Kyoshin Language Academy Ueno School is presented as a fixed, total fee for the duration of the advancement course. The following table provides a breakdown extrapolated from the 2-year Advancement Course (¥1,507,000 Total), detailing typical first-year expenses.
 
 ### Detailed Cost Structure (Estimated First Year - April Start)
 
@@ -190,7 +191,7 @@ The tuition structure at Kyoshin Language Academy Ueno School is presented as a 
 
 ### Accommodation Costs (Initial Estimate)
 
-As the school features dormitory support, students should budget for initial accommodation payments, which often require a lump sum for the first 3 to 6 months:
+As the school features dormitory support, students should budget for initial accommodation payments:
 
 | Item | Cost (JPY) | Notes |
 | :--- | :--- | :--- |
@@ -200,10 +201,10 @@ As the school features dormitory support, students should budget for initial acc
 
 ### Scholarship Opportunities
 
-KLA Ueno actively supports its top students in applying for external and internal scholarships, which are crucial for offsetting living expenses or tuition for ambitious students. The primary targets include:
+KLA Ueno supports its top students in applying for external and internal scholarships. The primary targets include:
 
-1.  **Monbukagakusho (MEXT) Honors Scholarship for Privately Financed International Students:** This highly prestigious scholarship provides a monthly stipend (currently around ¥48,000) for a year to outstanding students selected by the school based on high attendance, academic performance, and clear university admission goals. KLA Ueno, being focused on advancement, prioritizes nominating its most successful students for this award.
-2.  **Kyoshin Language Academy Internal Scholarships:** The school often provides its own merit-based scholarships or attendance-based awards (e.g., perfect attendance for one year) as tuition waivers or cash stipends to incentivize dedication and high performance.
-3.  **Local Government/Private Foundation Scholarships:** Guidance counselors assist students in identifying and applying for regional scholarships provided by foundations in the Tokyo area, often requiring strong JLPT or EJU scores and targeted for specific nationalities or academic fields.
+1.  **Monbukagakusho (MEXT) Honors Scholarship for Privately Financed International Students:** This scholarship provides a monthly stipend (currently around ¥48,000) for a year to students selected by the school based on attendance, academic performance, and university admission goals. KLA Ueno prioritizes nominating its most successful students.
+2.  **Kyoshin Language Academy Internal Scholarships:** The school often provides its own merit-based scholarships or attendance-based awards as tuition waivers or cash stipends.
+3.  **Local Government/Private Foundation Scholarships:** Guidance counselors assist students in identifying and applying for regional scholarships, often requiring strong JLPT or EJU scores and targeted for specific nationalities or academic fields.
 
-Students are thoroughly briefed on the strict requirements for maintaining scholarship eligibility, particularly the non-negotiable attendance rate (typically 90% or higher), demonstrating the school's commitment to academic discipline.
+Students are briefed on the requirements for maintaining scholarship eligibility, particularly the attendance rate, demonstrating the school's commitment to academic discipline.

@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_musashino-art-university",
-  "title": "武蔵野美術大学",
+  "title": "Musashino Art University",
   "category": "university",
   "tags": [
     "EJU Required",
@@ -46,21 +46,22 @@
     "English Program",
     "Dormitory",
     "Scholarship"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview & Reputation
+## University Overview & Reputation
 
-Musashino Art University (武蔵野美術大学), often called Musabi, stands as one of Japan's most prestigious and influential private art universities. Unlike institutions competing within the "Soukeisen" framework (Waseda, Keio, etc), Musabi's rivalry lies internally among its own departments and externally with other top art schools like Tama Art University (often sparking friendly yet fierce artistic competition). Musabi consistently ranks among the top art and design universities in Asia, attracting aspiring artists, designers, and creators from around the globe. Its impact on the Japanese and international art scene is undeniable, with alumni holding prominent positions in various creative industries.
+Musashino Art University (武蔵野美術大学), often called Musabi, is one of Japan's most prestigious and influential private art universities. Unlike institutions competing within the "Soukeisen" framework (Waseda, Keio, etc.), Musabi's rivalry is both internal, among its own departments, and external, with other top art schools like Tama Art University (often sparking friendly yet fierce artistic competition). Musabi consistently ranks among the top art and design universities in Asia, attracting aspiring artists, designers, and creators from around the globe. Its impact on the Japanese and international art scene is undeniable, with alumni holding prominent positions in various creative industries.
 
-Founded in 1929 as Teikoku Art School, Musashino Art University has a rich history rooted in fostering creativity and innovation. The university's founding principles emphasize the importance of both technical skill and artistic expression. It provides a comprehensive education that encourages students to explore diverse artistic disciplines and develop their unique creative voices. The university has significantly contributed to Japan's modern art and design landscape throughout its history. The institution prioritizes hands-on learning and critical thinking, pushing students to conceptualize and execute unique artistic visions. 
+Founded in 1929 as Teikoku Art School, Musashino Art University has a rich history of fostering creativity and innovation. The university's founding principles emphasize the importance of both technical skill and artistic expression. It provides a comprehensive education that encourages students to explore diverse artistic disciplines and develop their unique creative voices. The university has significantly contributed to Japan's modern art and design landscape throughout its history. The institution prioritizes hands-on learning and critical thinking, pushing students to conceptualize and execute unique artistic visions.
 
 Musabi enjoys a strong academic reputation for its rigorous curriculum, distinguished faculty, and state-of-the-art facilities. Its graduates are highly sought after by employers in various creative fields, including graphic design, product design, film, fine arts, and architecture. Socially, Musabi fosters a vibrant and collaborative environment where students from diverse backgrounds can connect, share ideas, and inspire one another. The university actively promotes artistic exchange with international institutions and organizes numerous exhibitions, workshops, and symposiums to showcase student and faculty work. It is considered a top-tier private art university in Japan, comparable to Tama Art University, emphasizing practical skills and creative exploration.
 
-## 🎓 Faculties & Signature Programs
+## Faculties & Signature Programs
 
-**Faculty Breakdown Table:**
+**Faculty Breakdown:**
 
 | Faculty | Key Departments | Notes |
 |---|---|---|
@@ -77,13 +78,11 @@ Musabi enjoys a strong academic reputation for its rigorous curriculum, distingu
 
 **Signature Programs:**
 
-The **Department of Visual Communication Design** at Musashino Art University is renowned for its comprehensive curriculum that covers all aspects of visual communication. Students learn graphic design, advertising, typography, branding, and interactive media. The program emphasizes a strong foundation in design principles and communication theory, preparing students to create effective and engaging visual messages. The department boasts a distinguished faculty of experienced designers and industry professionals, and its graduates are highly sought after by leading design firms and advertising agencies.
+*   The **Department of Visual Communication Design** at Musashino Art University is renowned for its comprehensive curriculum that covers all aspects of visual communication. Students learn graphic design, advertising, typography, branding, and interactive media. The program emphasizes a strong foundation in design principles and communication theory, preparing students to create effective and engaging visual messages. The department boasts a distinguished faculty of experienced designers and industry professionals, and its graduates are highly sought after by leading design firms and advertising agencies.
+*   The **Department of Industrial, Interior and Craft Design** stands out for its unique blend of traditional craftsmanship and modern design principles. Students explore various materials and techniques, including wood, metal, ceramics, and textiles, to create functional and aesthetically pleasing products. The program emphasizes user-centered design and sustainable practices, encouraging students to develop innovative solutions that address real-world needs. The department has strong ties to the Japanese manufacturing industry, offering students valuable internship and career opportunities.
+*   Another notable program is the **Department of Film (映像学科)**. It is highly competitive and provides students with comprehensive training in all aspects of filmmaking, from screenwriting and directing to cinematography and editing. The curriculum balances theoretical knowledge with hands-on experience, enabling students to develop their unique cinematic voices. The department has state-of-the-art facilities, including film studios, editing suites, and animation labs, and it hosts numerous film screenings and festivals to showcase student work. Graduates often go on to pursue successful careers in the film industry, working as directors, cinematographers, editors, and animators.
 
-The **Department of Industrial, Interior and Craft Design** stands out for its unique blend of traditional craftsmanship and modern design principles. Students explore various materials and techniques, including wood, metal, ceramics, and textiles, to create functional and aesthetically pleasing products. The program emphasizes user-centered design and sustainable practices, encouraging students to develop innovative solutions that address real-world needs. The department has strong ties to the Japanese manufacturing industry, offering students valuable internship and career opportunities.
-
-Another notable program is the **Department of Film (映像学科)**. It is highly competitive and provides students with comprehensive training in all aspects of filmmaking, from screenwriting and directing to cinematography and editing. The curriculum balances theoretical knowledge with hands-on experience, enabling students to develop their unique cinematic voices. The department has state-of-the-art facilities, including film studios, editing suites, and animation labs, and it hosts numerous film screenings and festivals to showcase student work. Graduates often go on to pursue successful careers in the film industry, working as directors, cinematographers, editors, and animators.
-
-## 🌍 International Student Admissions & Life
+## International Student Admissions & Life
 
 **Admissions Process:**
 
@@ -101,9 +100,9 @@ Musashino Art University provides a range of support services to assist internat
 
 Musashino Art University boasts a vibrant and diverse campus community, with students from all over the world. While the exact number fluctuates, approximately 150 international students are enrolled at the university. The campus is home to numerous student clubs and organizations, covering a wide range of interests, from art and design to music and sports. These clubs provide opportunities for students to connect with like-minded individuals, develop their skills, and participate in extracurricular activities. The university fosters a supportive and inclusive environment where students from diverse backgrounds can thrive and contribute to the university community.
 
-## 💰 Tuition, Scholarships & Cost of Living
+## Tuition, Scholarships & Cost of Living
 
-**Detailed Cost Table:**
+**Detailed Cost Breakdown:**
 
 | Item | Amount (JPY) |
 |---|---|
@@ -122,13 +121,13 @@ Musashino Art University offers several scholarship opportunities for internatio
 
 The cost of living in Kodaira, Tokyo (where Musashino Art University is located) can vary depending on lifestyle and accommodation choices. Rent for a single apartment near the university typically ranges from 70,000 to 120,000 JPY per month. Food expenses can be estimated at around 40,000 to 60,000 JPY per month. Transportation costs, including train and bus fares, can range from 10,000 to 20,000 JPY per month. Other expenses, such as utilities, internet, and personal items, can add up to an additional 20,000 to 40,000 JPY per month. Overall, international students should budget approximately 140,000 to 240,000 JPY per month to cover their living expenses.
 
-## 📍 Campus Location & Access
+## Campus Location & Access
 
-**Main Campus Vibe:**
+**Main Campus Environment:**
 
 Musashino Art University's main campus is located in Kodaira, a suburban city in western Tokyo. Unlike the bustling, hyper-urban image often associated with central Tokyo, Kodaira offers a more relaxed and peaceful environment, conducive to focused study and artistic creation. The surrounding neighborhood is primarily residential, with a mix of houses, apartments, and small businesses catering to the local community. The campus itself is spacious and green, with numerous trees, gardens, and outdoor spaces that provide a tranquil setting for students to unwind and find inspiration. While not as vibrant as central Tokyo, Kodaira offers a comfortable and convenient living environment, with easy access to shops, restaurants, and transportation.
 
-**Access Table:**
+**Access Information:**
 
 | From | Route | Time |
 |---|---|---|

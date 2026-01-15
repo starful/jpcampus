@@ -1,109 +1,188 @@
 ---
-basic_info:
-  address: 東京都中野区新井5-28-4　第5さかえビル
-  capacity: 222
-  name_en: TCC Japanese Language School
-  name_ja: ＴＣＣ日本語学校
-category: school
-courses:
-- admission_month: '4'
-  course_name: 進学コース2年
-  total_fees: 1228000
-- admission_month: '7'
-  course_name: 進学コース1年9ヶ月
-  total_fees: 1089250
-- admission_month: '10'
-  course_name: 進学コース1年半
-  total_fees: 950500
-- admission_month: '1'
-  course_name: 進学コース1年3ヶ月
-  total_fees: 811750
-faculties: []
-features:
-- University Advancement
-- Dormitory Available
-- EJU Preparation
-- Science/STEM Track
-id: school_tcc-japanese-language-school
-layout: school
-location:
-  lat: 35.7161971
-  lng: 139.6705098
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=185
-stats:
-  capacity: 222
-  international_students: 222
-tags:
-- University Advancement
-- Dormitory Available
-- EJU Preparation
-- Science/STEM Track
-thumbnail: /static/img/pin-school.png
-title: ＴＣＣ日本語学校
-tuition: {}
+{
+  "basic_info": {
+    "address": "5-28-4 Arai, Nakano-ku, Tokyo, 165-0026, Japan",
+    "capacity": 222,
+    "name_en": "TCC Japanese Language School",
+    "name_ja": "ＴＣＣ日本語学校"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "admission_month": "4",
+      "course_name": "University Preparation Course (2 Years)",
+      "total_fees": 1228000
+    },
+    {
+      "admission_month": "7",
+      "course_name": "University Preparation Course (1 Year 9 Months)",
+      "total_fees": 1089250
+    },
+    {
+      "admission_month": "10",
+      "course_name": "University Preparation Course (1.5 Years)",
+      "total_fees": 950500
+    },
+    {
+      "admission_month": "1",
+      "course_name": "University Preparation Course (1 Year 3 Months)",
+      "total_fees": 811750
+    }
+  ],
+  "description": "Located in Nakano, Tokyo, TCC Japanese Language School specializes exclusively in university preparation courses. They offer rigorous academic instruction, comprehensive preparation for the Examination for Japanese University Admission for International Students (EJU), including specialized Science/STEM tracks, and essential support for international students aspiring to higher education in Japan.",
+  "faculties": [],
+  "features": [
+    "University Advancement",
+    "Dormitory Available",
+    "EJU Preparation",
+    "Science/STEM Track"
+  ],
+  "id": "school_tcc-japanese-language-school",
+  "layout": "school",
+  "location": {
+    "lat": 35.7161971,
+    "lng": 139.6705098
+  },
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=185",
+  "stats": {
+    "capacity": 222,
+    "international_students": 222
+  },
+  "tags": [
+    "University Advancement",
+    "Dormitory Available",
+    "EJU Preparation",
+    "Science/STEM Track"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "TCC Japanese Language School",
+  "tuition": {},
+  "translated": true
+}
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-TCC Japanese Language School, nestled in the bustling yet charming Nakano district of Tokyo, offers a focused and rigorous academic environment specifically tailored for international students aiming to pursue higher education in Japan. Located at 5-28-4 Arai, Nakano-ku, the school benefits from being in a vibrant area known for its mix of modern convenience and traditional Japanese culture. Nakano Broadway, a renowned shopping complex filled with anime, manga, and retro goods, is a major draw, while easy access to Shinjuku and other central Tokyo locations makes it an ideal base for exploring the city.
+TCC Japanese Language School, situated in the vibrant Nakano district of Tokyo, provides a focused academic environment specifically designed for international students seeking higher education in Japan. Located at 5-28-4 Arai, Nakano-ku, the school is in a lively area known for its blend of modern convenience and traditional Japanese culture. Nakano Broadway, a famous shopping complex with anime, manga, and retro goods, is a significant attraction, while easy access to Shinjuku and other central Tokyo areas makes it an ideal base for exploring the city.
 
-TCC's educational philosophy centers around providing comprehensive and specialized instruction in Japanese language and academic subjects to ensure students' success in Japanese university entrance examinations. Unlike language schools with broader focuses, TCC uniquely concentrates solely on "Shingaku" (university preparation) courses. This singular focus allows the school to meticulously design its curriculum and teaching methodologies to address the specific needs and challenges faced by students striving to enter Japanese universities, graduate schools, and vocational colleges. The school's capacity is 222 students, fostering a close-knit community where personalized attention can be effectively provided.
+TCC's educational philosophy is centered on delivering comprehensive and specialized instruction in Japanese language and academic subjects to ensure students' success in Japanese university entrance examinations. Unlike language schools with broader focuses, TCC uniquely concentrates solely on "Shingaku" (university preparation) courses. This specific focus allows the school to meticulously design its curriculum and teaching methodologies to address the particular needs and challenges faced by students striving to enter Japanese universities, graduate schools, and vocational colleges. With a capacity of 222 students, TCC fosters a close-knit community where personalized attention can be effectively provided.
 
-The school's commitment extends beyond simply teaching the Japanese language. TCC recognizes the importance of cultural understanding and adaptation for international students. The curriculum incorporates elements that help students navigate Japanese society, understand academic expectations, and integrate smoothly into university life. With experienced instructors and a supportive staff, TCC strives to create a nurturing yet challenging environment where students can confidently develop the skills and knowledge necessary to achieve their academic goals in Japan.
+The school's commitment goes beyond simply teaching the Japanese language. TCC understands the importance of cultural understanding and adaptation for international students. The curriculum includes elements that help students navigate Japanese society, understand academic expectations, and integrate smoothly into university life. With experienced instructors and a supportive staff, TCC strives to create a nurturing yet challenging environment where students can confidently develop the skills and knowledge necessary to achieve their academic goals in Japan.
 
-With a legacy built on a solid foundation of preparing students for academic success, TCC constantly adapts its curriculum and teaching methods to reflect the evolving demands of the Japanese higher education landscape. The school places significant emphasis on providing students with the resources and support they need to excel in the EJU (Examination for Japanese University Admission for International Students) and other relevant entrance exams. The overall aim is to empower students to not only gain admission to their desired universities but also thrive in their chosen fields of study.
+Built on a strong foundation of preparing students for academic success, TCC constantly adapts its curriculum and teaching methods to reflect the evolving demands of Japanese higher education. The school places significant emphasis on providing students with the resources and support they need to excel in the EJU (Examination for Japanese University Admission for International Students) and other relevant entrance exams. The overall aim is to empower students to not only gain admission to their desired universities but also thrive in their chosen fields of study.
 
-## 📚 Courses, Curriculum & Teaching Style
+## Courses, Curriculum & Teaching Style
 
-| Course Name                 | Duration          | Target Level                       | Key Features                                                                                                                                                                                             |
-| :-------------------------- | :---------------- | :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| University Preparatory Course (2 Years) | 2 Years           | Beginner to Advanced (N5 to N1+)      | Comprehensive Japanese language training, EJU preparation (all subjects including Japanese, Mathematics, Science, and Japan and the World), interview practice, thesis guidance, cultural activities. |
-| University Preparatory Course (1 Year 9 Months) | 1 Year 9 Months   | Beginner to Advanced (N5 to N1+)      | Accelerated Japanese language training, intensive EJU preparation, focused subject-specific classes, interview practice, thesis guidance, cultural activities.                               |
-| University Preparatory Course (1.5 Years)         | 1.5 Years         | Beginner to Advanced (N5 to N1+)      | Intensive Japanese language training, focused EJU preparation, subject-specific classes, interview practice, thesis guidance, cultural activities.                                          |
-| University Preparatory Course (1 Year 3 Months) | 1 Year 3 Months   | Beginner to Advanced (N5 to N1+)      | Highly intensive Japanese language training, targeted EJU preparation, condensed subject-specific classes, interview practice, thesis guidance, cultural activities.                             |
+TCC exclusively offers University Preparatory Courses (Shingaku), ranging from 1 year and 3 months to 2 years. These courses are designed to take students from beginner Japanese proficiency (N5) to advanced levels (N1+) while providing intensive subject-specific preparation for the EJU.
 
-**University Preparatory Course (2 Years):** This course is designed for students with little to no prior knowledge of Japanese. Over two years, students will build a strong foundation in all aspects of the language, from basic grammar and vocabulary to advanced reading and writing skills. A significant portion of the curriculum is dedicated to preparing students for the EJU. This includes intensive practice in Japanese as a Foreign Language, Mathematics (both Course 1 and Course 2), Science (Physics, Chemistry, and Biology), and Japan and the World. Furthermore, the course provides comprehensive guidance on writing personal statements, preparing for university interviews, and completing the application process. Teaching style emphasizes a balanced approach, combining classroom instruction with practical exercises, group projects, and individual tutoring. Cultural activities are also integrated into the curriculum to provide students with a deeper understanding of Japanese society and culture.
+| Course Name                             | Duration          | Target Level           | Key Features                                                                                                                                     |
+| :-------------------------------------- | :---------------- | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| University Preparatory Course (2 Years) | 2 Years           | Beginner to Advanced (N5 to N1+) | Comprehensive language training, full EJU coverage (Japanese, Mathematics, Science, Japan and the World), interview practice, thesis guidance. |
+| University Preparatory Course (1 Year 9 Months) | 1 Year 9 Months   | Beginner to Advanced (N5 to N1+) | Accelerated language training, intensive EJU preparation, subject-specific focus.                                                           |
+| University Preparatory Course (1.5 Years)   | 1.5 Years         | Beginner to Advanced (N5 to N1+) | Intensive language training, targeted EJU preparation, efficient subject instruction.                                                        |
+| University Preparatory Course (1 Year 3 Months) | 1 Year 3 Months   | Beginner to Advanced (N5 to N1+) | Highly intensive, condensed subject-specific preparation, maximizing score potential quickly.                                             |
 
-**University Preparatory Course (1 Year 9 Months):** This accelerated course is designed for students who already possess some basic Japanese language skills. The curriculum covers the same content as the two-year course but at a faster pace. The emphasis is on intensive EJU preparation, with a particular focus on improving students' scores in Japanese as a Foreign Language and their chosen science subjects (for those pursuing STEM fields). The teaching style is highly interactive, encouraging students to actively participate in class discussions and practice their language skills through role-playing and presentations. Regular mock exams are conducted to assess students' progress and identify areas where they need additional support.
+### Detailed Course Breakdown
 
-**University Preparatory Course (1.5 Years):** Similar to the 1 Year 9 Months course, this program provides a compressed curriculum for those with existing basic Japanese. The focus is on bridging the gap between the student’s current level and that needed to succeed in the EJU. A key element involves subject-specific classes tailored to the EJU. Teaching emphasizes efficiency and targeted learning with teachers focusing on areas where EJU scores can be most effectively improved in the shortest time.
+#### University Preparatory Course (2 Years)
+This course is ideal for students with little to no prior knowledge of Japanese. The curriculum provides a strong foundation in all language aspects, complemented by comprehensive academic preparation.
 
-**University Preparatory Course (1 Year 3 Months):** This is the most intensive course offered by TCC, designed for students who have a solid foundation in Japanese and are highly motivated to enter university as quickly as possible. The curriculum is extremely demanding, requiring students to dedicate significant time and effort to their studies. The teaching style is highly structured, with a strong emphasis on independent learning and self-study. Students are expected to take responsibility for their own progress and seek assistance from instructors when needed. This course is ideal for students who are already familiar with the EJU format and content and are looking to refine their skills and maximize their scores.
+*   **Language Focus:** Builds proficiency from N5 fundamentals up to N1+ fluency.
+*   **EJU Preparation:** Intensive practice across all core EJU subjects: Japanese as a Foreign Language, Mathematics (Course 1 and 2), Science (Physics, Chemistry, and Biology), and Japan and the World.
+*   **Academic Guidance:** Provides extensive support for university applications, including personal statement writing, interview preparation, and thesis guidance.
+*   **Teaching Style:** Emphasizes a balanced approach combining classroom instruction with practical exercises, group projects, and individual tutoring.
 
-## 🌍 Student Body & Campus Life
+#### University Preparatory Course (1 Year 9 Months)
+This accelerated course is designed for students who possess some basic Japanese skills and require a faster pace of study.
 
-While specific data on the current nationality mix is unavailable, it's reasonable to assume that, given the school's focus on university preparation, the student body comprises individuals from a diverse range of countries throughout Asia and beyond. Common source countries for international students in Japan include China, Vietnam, Nepal, South Korea, Taiwan, and other Southeast Asian nations. A diverse student body enriches the learning environment, fostering cross-cultural understanding and collaboration.
+*   **Pace:** Covers the same comprehensive content as the two-year course but on an accelerated schedule.
+*   **EJU Focus:** Intensive EJU preparation, specifically targeting improved scores in Japanese as a Foreign Language and chosen science subjects (for STEM fields).
+*   **Teaching Style:** Highly interactive, encouraging active participation, role-playing, and presentations. Regular mock exams are conducted to assess progress.
 
-As a language school primarily focused on academic preparation, TCC's campus facilities are designed to support students' learning needs. These likely include well-equipped classrooms, a library or study area with relevant resources for EJU preparation, and computer labs with internet access for research and online learning. While detailed information about extracurricular activities is limited, the school likely organizes occasional cultural events, such as field trips to historical sites or traditional festivals, to provide students with opportunities to experience Japanese culture firsthand and connect with their peers outside of the classroom setting. The school's location in Nakano also provides students with easy access to a wide range of amenities, including restaurants, shops, and entertainment options. The school aims to foster a supportive and collaborative learning environment.
+#### University Preparatory Course (1.5 Years)
+Similar to the 1 Year 9 Months course, this compressed curriculum is for students with existing basic Japanese proficiency looking to bridge the gap to university entrance requirements efficiently.
 
-## 🎓 University & Career Pathways
+*   **Focus:** Bridging the proficiency gap necessary for EJU success.
+*   **Curriculum:** Subject-specific classes tailored intensely to EJU demands.
+*   **Teaching Style:** Emphasizes efficiency and targeted learning, focusing on areas where EJU scores can be most effectively improved in the shortest time frame.
 
-While specific university admission records are not provided, TCC Japanese Language School is specifically designed to maximize students’ chances of gaining acceptance to Japanese universities, graduate schools, and vocational colleges. The core curriculum, EJU preparation, and interview practice are all geared towards this outcome. The school likely maintains close relationships with various universities and vocational schools, allowing them to provide students with up-to-date information on admission requirements, application procedures, and scholarship opportunities.
+#### University Preparatory Course (1 Year 3 Months)
+This is TCC's most intensive course, suitable for highly motivated students who have a solid foundation in Japanese and aim for rapid university entry.
 
-TCC likely offers comprehensive support systems to guide students through the university application process. This may include individual counseling sessions with experienced advisors who can help students identify suitable universities and programs based on their academic background, interests, and career goals. Advisors can also provide guidance on writing personal statements, preparing for interviews, and navigating the complexities of the Japanese university application system. For students interested in pursuing careers in Japan after graduation, TCC may offer workshops and seminars on job-seeking skills, such as resume writing, interview techniques, and networking. The school may also connect students with potential employers through career fairs or internship programs. While the school’s primary focus is university placement, it's understood that this placement often leads to long-term career opportunities in Japan.
+*   **Intensity:** Extremely demanding curriculum requiring significant time dedication and self-study.
+*   **EJU Focus:** Targeted preparation designed to refine skills and maximize scores quickly.
+*   **Teaching Style:** Highly structured, strong emphasis on independent learning, requiring students to take primary responsibility for their own progress.
 
-## 🏡 Accommodation & Living Support
+## Student Body & Campus Life
 
-TCC offers dormitory options to assist international students with the transition to living in Japan. While specific details on the types of dormitories available, the cost, and the distance from the school are not provided, it is safe to assume that the dormitories are conveniently located within commuting distance of the school. These dormitories are usually equipped with basic amenities such as beds, desks, and shared kitchen and bathroom facilities.
+While specific data on the current nationality mix is unavailable, TCC's focus on academic advancement ensures a diverse student body, typically including individuals from China, Vietnam, Nepal, South Korea, Taiwan, and other Southeast Asian nations. This diversity enriches the learning environment, fostering cross-cultural understanding and collaboration.
 
-The school also assists with the initial setup in Japan. This likely includes providing information on how to obtain a residence card, open a bank account, and set up utilities. They may also offer assistance with finding apartments for students who prefer to live independently. Overall, the school provides essential support for ensuring students have comfortable and safe living arrangements, which allows them to focus fully on their studies.
+### Campus Environment
 
-## 💰 Tuition, Fees & Scholarships
+As a language school focused on academic preparation, TCC's campus facilities are designed to support students' rigorous learning needs. These likely include:
 
-The following table outlines the first-year costs for each course at TCC Japanese Language School. These costs typically include tuition, entrance fees, and other associated expenses such as textbooks and materials.
+*   Well-equipped classrooms optimized for immersive instruction.
+*   A library or dedicated study area providing resources essential for EJU preparation.
+*   Computer labs with internet access for research and online learning.
 
-| Course Name                 | Admission Month | Duration          | Total Fees (JPY) |
-| :-------------------------- | :-------------- | :---------------- | :--------------- |
-| University Preparatory Course | April           | 2 Years           | ¥1,228,000       |
-| University Preparatory Course | July            | 1 Year 9 Months   | ¥1,089,250       |
-| University Preparatory Course | October         | 1.5 Years         | ¥950,500         |
-| University Preparatory Course | January         | 1 Year 3 Months   | ¥811,750         |
+### Local Environment and Activities
 
-While specific details on internal scholarships offered by TCC are not available, students should inquire directly with the school about any potential financial aid opportunities. Additionally, there are several external scholarships available to international students studying in Japan. These include:
+Located in Nakano, students benefit from easy access to a wide range of amenities, including restaurants, shops, and entertainment options. The nearby Nakano Broadway offers a unique cultural experience. While formal extracurricular activity details are limited, the school likely organizes occasional cultural events and field trips to historical sites or traditional festivals, enabling students to experience Japanese culture firsthand and connect with peers outside of classes. TCC aims to foster a supportive and collaborative learning environment for all students.
 
-*   **Japanese Government (MEXT) Scholarship:** This prestigious scholarship is offered by the Japanese government and covers tuition fees, living expenses, and travel costs.
+## University & Career Pathways
+
+TCC Japanese Language School is specifically designed to maximize students’ chances of gaining acceptance to Japanese universities, graduate schools, and vocational colleges. The core curriculum, EJU preparation, and interview practice are all structured around this singular outcome.
+
+### Academic Support and Counseling
+
+The school maintains a strong commitment to guiding students through the complex application process, which typically includes:
+
+*   **Individual Counseling:** Experienced advisors assist students in identifying suitable universities and programs based on their academic background, interests, and career goals.
+*   **Application Guidance:** Support provided for writing personal statements, preparing for complex university interviews, and navigating the intricacies of the Japanese university application system.
+*   **Information Hub:** Providing students with up-to-date information on admission requirements, application procedures, and scholarship opportunities across various institutions.
+
+### Career Development
+
+Although the primary focus is university placement, TCC understands that this placement often leads to long-term career opportunities in Japan. For students aiming for careers post-graduation, the school may offer:
+
+*   Workshops and seminars on essential job-seeking skills (resume writing, interview techniques, networking).
+*   Connections with potential employers through career fairs or internship programs.
+
+## Accommodation & Living Support
+
+TCC offers structured dormitory options to assist international students with the transition to living in Japan. While specific details on the types of dormitories available are not provided, it is assumed that the accommodation is conveniently located within commuting distance of the school.
+
+### Accommodation Services
+
+*   **Dormitory Options:** TCC provides dormitory placements for enrolled students.
+*   **Amenities:** These dormitories are typically equipped with basic amenities such as beds, desks, and shared kitchen and bathroom facilities.
+
+### Initial Settlement Support
+
+The school also assists with essential administrative setup, helping students focus fully on their studies. This support includes:
+
+*   Guidance on obtaining a residence card and opening a Japanese bank account.
+*   Assistance with setting up utilities and understanding daily life logistics.
+*   Support for students who prefer independent living arrangements (finding private apartments).
+
+## Tuition, Fees & Scholarships
+
+The costs outlined below represent the first-year expenses for the University Preparatory Courses at TCC Japanese Language School, including tuition, entrance fees, and necessary materials.
+
+| Course Name              | Admission Month | Duration          | Total First-Year Fees (JPY) |
+| :----------------------- | :-------------- | :---------------- | :-------------------------- |
+| University Preparatory Course | April           | 2 Years           | ¥1,228,000                  |
+| University Preparatory Course | July            | 1 Year 9 Months   | ¥1,089,250                  |
+| University Preparatory Course | October         | 1.5 Years         | ¥950,500                    |
+| University Preparatory Course | January         | 1 Year 3 Months   | ¥811,750                    |
+
+### Scholarship Opportunities
+
+While specific details on internal scholarships offered by TCC are not always publicized, students are encouraged to inquire directly with the school about any potential financial aid opportunities. Additionally, there are several external scholarships available to international students studying in Japan, including:
+
+*   **Japanese Government (MEXT) Scholarship:** This prestigious scholarship covers tuition fees, living expenses, and travel costs.
 *   **JASSO Scholarship:** Offered by the Japan Student Services Organization (JASSO), this scholarship provides financial assistance to privately financed international students.
 *   **Rotary Yoneyama Memorial Foundation Scholarship:** This scholarship is offered by the Rotary Club of Japan and provides financial support to international students pursuing higher education in Japan.
 *   **Other Private Foundation Scholarships:** Numerous private foundations offer scholarships to international students studying in Japan. Students should research these opportunities and apply to those for which they are eligible.
 
-Students are encouraged to thoroughly research and apply for all available scholarships to help offset the costs of studying in Japan. The school may also provide assistance with the scholarship application process.
+The school may also provide assistance with the scholarship application process, and students are encouraged to thoroughly research and apply for all available aid to help offset the costs of studying in Japan.

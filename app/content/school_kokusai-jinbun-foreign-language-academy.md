@@ -52,7 +52,9 @@
       "total_fees": 1001250
     }
   ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=584"
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=584",
+  "description": "The Kokusai Jinbun Foreign Language Academy is a preparatory institution focused on rigorous academic assimilation for international students seeking entry into Japan’s competitive higher education system. Located in Nakano, Tokyo, the academy offers specialized EJU training and comprehensive support.",
+  "translated": true
 }
 ---
 
@@ -74,9 +76,9 @@ The teaching methodology is intensity-driven and outcome-focused. The curriculum
 
 Central to the program is the **EJU Specialized Training**, which begins in earnest once students reach a mid-to-high intermediate level (N3/N2 equivalent). This training is subdivided into core EJU components:
 
-1.  **Japanese as a Foreign Language:** Intensive focus on the 400-point section, including specialized vocabulary, advanced reading strategies for complex non-fiction texts, and timed practice sessions mimicking the official exam conditions.
-2.  **General Knowledge (総合科目):** Covering Japanese society, politics, history, geography, and economics—subjects critical for university entrance and success in liberal arts programs. Instruction is delivered using Japanese terminology, ensuring students are familiar with the academic lexicon of these fields.
-3.  **Mathematics and Sciences:** For students aiming for STEM or business programs, supplementary classes are offered covering EJU mathematics (Course 1 or 2) and sciences (Physics, Chemistry, Biology), tailored to the level required by their target institutions.
+*   **Japanese as a Foreign Language:** Intensive focus on the 400-point section, including specialized vocabulary, advanced reading strategies for complex non-fiction texts, and timed practice sessions mimicking the official exam conditions.
+*   **General Knowledge (総合科目):** Covering Japanese society, politics, history, geography, and economics—subjects critical for university entrance and success in liberal arts programs. Instruction is delivered using Japanese terminology, ensuring students are familiar with the academic lexicon of these fields.
+*   **Mathematics and Sciences:** For students aiming for STEM or business programs, supplementary classes are offered covering EJU mathematics (Course 1 or 2) and sciences (Physics, Chemistry, Biology), tailored to the level required by their target institutions.
 
 Teaching employs a 'flipped classroom' style where applicable, encouraging proactive learning and discussion, crucial for interview preparation. Regular, high-stakes mock examinations (mogi shiken) are a standard feature, closely simulating the pressure and format of the actual EJU and JLPT exams. Detailed feedback sessions follow these exams, pinpointing individual weaknesses and adjusting personalized study plans. Furthermore, the curriculum dedicates specific time to the art of essay writing (*saku-bun*), a mandatory component for many high-ranking university applications, teaching students how to structure persuasive, logical arguments in academic Japanese. The ultimate goal is to move students swiftly from foundational speakers to candidates capable of achieving high scores (300+ on the EJU Japanese section and N1 certification), ensuring they are competitive applicants for Japan's prestigious public and private universities.
 
@@ -100,9 +102,9 @@ Kokusai Jinbun Foreign Language Academy serves as a critical stepping stone, wit
 
 **Academic Progression Strategy:**
 
-1.  **Target Setting:** From the initial counseling session, students are guided to identify realistic but ambitious target universities, whether prestigious national universities (like Tokyo University, Kyoto University, or Osaka University), leading public universities (like Yokohama National University), or highly competitive private institutions (like Waseda, Keio, or Sophia University).
-2.  **Specialized Guidance:** The faculty provides specific guidance on the application process (shutsu-gan), including navigating the often-complex requirements for different faculties (e.g., science faculties requiring specific EJU math/science combinations versus humanities faculties focusing on the General Knowledge section).
-3.  **Interview and Essay Preparation:** Extensive mock interviews (*mensetsu renshuu*) are conducted, focusing on typical questions regarding academic motivation, future goals, and specific knowledge related to the chosen field. Essay writing preparation is tailored to the demanding standards of *shiken* (entrance examination) essays, focusing on complex argumentation and formal Japanese rhetoric.
+*   **Target Setting:** From the initial counseling session, students are guided to identify realistic but ambitious target universities, whether prestigious national universities (like Tokyo University, Kyoto University, or Osaka University), leading public universities (like Yokohama National University), or highly competitive private institutions (like Waseda, Keio, or Sophia University).
+*   **Specialized Guidance:** The faculty provides specific guidance on the application process (shutsu-gan), including navigating the often-complex requirements for different faculties (e.g., science faculties requiring specific EJU math/science combinations versus humanities faculties focusing on the General Knowledge section).
+*   **Interview and Essay Preparation:** Extensive mock interviews (*mensetsu renshuu*) are conducted, focusing on typical questions regarding academic motivation, future goals, and specific knowledge related to the chosen field. Essay writing preparation is tailored to the demanding standards of *shiken* (entrance examination) essays, focusing on complex argumentation and formal Japanese rhetoric.
 
 Graduates of Kokusai Jinbun are equipped with the linguistic and subject-matter prerequisites to pursue a wide array of degrees, including Economics, Business Administration, International Relations, Law, Engineering, and various fields in the Humanities. The school’s robust academic track record is essential for students hoping to bypass the often-difficult requirement of achieving N1 *before* application, relying instead on a high EJU score and demonstrable academic readiness.
 
@@ -118,9 +120,9 @@ A critical feature distinguishing Kokusai Jinbun Foreign Language Academy is the
 
 The affiliated dormitories are typically located within a reasonable commuting distance from the Nakano campus, ensuring minimal travel time and maximizing valuable study hours. These facilities offer a structured living environment, often including necessary amenities such as basic furniture, Wi-Fi access, and shared common areas. The presence of dormitories directly addresses the often-challenging initial housing market entry in Tokyo, which requires significant upfront costs (key money, deposit, guarantor fees). By offering managed accommodation, the school simplifies the transition.
 
-1.  **Safety and Security:** Dormitories provide a secure living environment supervised by school staff or affiliated management, offering peace of mind to both students and their families.
-2.  **Community Building:** Living in close proximity with peers who share the same academic goals (EJU preparation) fosters a supportive learning community, facilitating late-night study sessions and mutual encouragement.
-3.  **Cost Predictability:** While dormitory fees are separate from tuition, they offer a predictable monthly living expense, helping students manage their overall budget more effectively.
+*   **Safety and Security:** Dormitories provide a secure living environment supervised by school staff or affiliated management, offering peace of mind to both students and their families.
+*   **Community Building:** Living in close proximity with peers who share the same academic goals (EJU preparation) fosters a supportive learning community, facilitating late-night study sessions and mutual encouragement.
+*   **Cost Predictability:** While dormitory fees are separate from tuition, they offer a predictable monthly living expense, helping students manage their overall budget more effectively.
 
 **Comprehensive Living Support:**
 
@@ -159,6 +161,6 @@ International students must factor in additional costs, especially related to th
 
 Kokusai Jinbun actively encourages and supports high-achieving students in applying for various financial aid programs, which are essential for mitigating the costs of living and studying in Tokyo:
 
-1.  **MEXT Honors Scholarship for Privately Financed International Students (JASSO):** High-performing students (based on attendance, grades, and EJU scores) can apply for this highly sought-after monthly stipend, providing significant financial relief.
-2.  **School-Specific Scholarships:** The Academy may offer internal merit-based scholarships rewarding students with exceptional attendance records (often 95%+) and outstanding academic performance on mock exams.
-3.  **Local Government/Private Foundation Scholarships:** Guidance is provided on applying to various smaller scholarships offered by municipal governments or private philanthropic organizations targeting international students in the Nakano/Tokyo region. These scholarships are crucial components of the financial strategy for diligent students seeking to maximize their resources while focusing on university preparation.
+*   **MEXT Honors Scholarship for Privately Financed International Students (JASSO):** High-performing students (based on attendance, grades, and EJU scores) can apply for this highly sought-after monthly stipend, providing significant financial relief.
+*   **School-Specific Scholarships:** The Academy may offer internal merit-based scholarships rewarding students with exceptional attendance records (often 95%+) and outstanding academic performance on mock exams.
+*   **Local Government/Private Foundation Scholarships:** Guidance is provided on applying to various smaller scholarships offered by municipal governments or private philanthropic organizations targeting international students in the Nakano/Tokyo region. These scholarships are crucial components of the financial strategy for diligent students seeking to maximize their resources while focusing on university preparation.

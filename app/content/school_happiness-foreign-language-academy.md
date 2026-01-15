@@ -1,57 +1,71 @@
 ---
-basic_info:
-  address: 愛媛県新居浜市一宮町2-2-16
-  capacity: 70
-  name_en: Happiness Foreign Language Academy
-  name_ja: はぴねす外語学院
-category: school
-courses:
-- admission_month: '4'
-  course_name: 一般コース
-  total_fees: 1168000
-- admission_month: '10'
-  course_name: 一般コース
-  total_fees: 896000
-faculties: []
-features:
-- University Advancement
-- EJU Preparation
-- Dormitory Available
-- Single Rooms
-- Scholarships Available
-- Science/STEM Track
-- Conversation Focus
-- Business Japanese
-- Art & Design Prep
-- Short-term Courses
-id: school_happiness-foreign-language-academy
-layout: school
-location:
-  lat: 33.9587017
-  lng: 133.278203
-source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=509
-stats:
-  capacity: 70
-  international_students: 0
-tags:
-- University Advancement
-- EJU Preparation
-- Dormitory Available
-- Single Rooms
-- Scholarships Available
-- Science/STEM Track
-- Conversation Focus
-- Business Japanese
-- Art & Design Prep
-- Short-term Courses
-thumbnail: /static/img/pin-school.png
-title: はぴねす外語学院
-tuition: {}
+{
+  "basic_info": {
+    "address": "2-2-16 Ichinomiya-cho, Niihama, Ehime Prefecture",
+    "capacity": 70,
+    "name_en": "Happiness Foreign Language Academy",
+    "name_ja": "はぴねす外語学院"
+  },
+  "category": "school",
+  "courses": [
+    {
+      "admission_month": "4",
+      "course_name": "General Course",
+      "total_fees": 1168000
+    },
+    {
+      "admission_month": "10",
+      "course_name": "General Course",
+      "total_fees": 896000
+    }
+  ],
+  "faculties": [],
+  "features": [
+    "University Advancement",
+    "EJU Preparation",
+    "Dormitory Available",
+    "Single Rooms",
+    "Scholarships Available",
+    "Science/STEM Track",
+    "Conversation Focus",
+    "Business Japanese",
+    "Art & Design Prep",
+    "Short-term Courses"
+  ],
+  "id": "school_happiness-foreign-language-academy",
+  "layout": "school",
+  "location": {
+    "lat": 33.9587017,
+    "lng": 133.278203
+  },
+  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=509",
+  "stats": {
+    "capacity": 70,
+    "international_students": 0
+  },
+  "tags": [
+    "University Advancement",
+    "EJU Preparation",
+    "Dormitory Available",
+    "Single Rooms",
+    "Scholarships Available",
+    "Science/STEM Track",
+    "Conversation Focus",
+    "Business Japanese",
+    "Art & Design Prep",
+    "Short-term Courses"
+  ],
+  "thumbnail": "/static/img/pin-school.png",
+  "title": "Happiness Foreign Language Academy",
+  "tuition": {},
+  "description": "Happiness Foreign Language Academy offers personalized Japanese language education in a tranquil setting in Niihama, Ehime. Features include university advancement support, EJU preparation, dormitory with single rooms, and specialized courses.",
+  "translated": true
+}
 ---
 
-## 🏫 School Overview & Philosophy
+## School Overview & Philosophy
 
-Happiness Foreign Language Academy (はぴねす外語学院) offers a unique Japanese language learning experience nestled in the heart of Niihama, Ehime Prefecture, on the island of Shikoku. Unlike larger schools in bustling metropolitan areas, Happiness Foreign Language Academy cultivates a nurturing and intimate learning environment with a maximum capacity of 70 students. This size allows instructors to provide personalized attention and guidance to each student, fostering a strong sense of community and support.
+Happiness Foreign Language Academy offers a unique Japanese language learning experience nestled in the heart of Niihama, Ehime Prefecture, on the island of Shikoku. Unlike larger schools in bustling metropolitan areas, Happiness Foreign Language Academy cultivates a nurturing and intimate learning environment with a maximum capacity of 70 students. This size allows instructors to provide personalized attention and guidance to each student, fostering a strong sense of community and support.
 
 Niihama offers a tranquil and authentic Japanese experience. Students can immerse themselves in the local culture, explore historical sites, and enjoy the natural beauty of the surrounding mountains and coastline. The slower pace of life and lower cost of living compared to major cities makes Niihama an attractive option for students seeking a focused and affordable study experience. The school's location also provides easy access to other parts of Shikoku, allowing for convenient weekend trips and exploration of the region's diverse offerings.
 
@@ -59,19 +73,40 @@ The academy's educational philosophy centers on holistic language acquisition an
 
 Happiness Foreign Language Academy is committed to creating a welcoming and inclusive environment for international students. The school strives to provide comprehensive support services, including accommodation assistance, visa guidance, and cultural orientation, to ensure that students feel comfortable and well-equipped to thrive in their new surroundings. The small class sizes, dedicated instructors, and supportive community contribute to a positive and enriching learning experience, empowering students to achieve their language learning goals and pursue their academic and professional aspirations in Japan.
 
-## 📚 Courses, Curriculum & Teaching Style
+## Courses, Curriculum & Teaching Style
 
 Happiness Foreign Language Academy offers a variety of courses designed to cater to students with diverse learning needs and goals. The core program is the General Course, offered with both April and October intakes. In addition to the General Course, the school provides specialized courses and support for students preparing for university entrance exams, pursuing careers in specific fields, or simply looking to improve their conversational skills.
 
-| Course Name | Duration | Target Level | Key Features |
-| :--- | :--- | :--- | :--- |
-| General Course (April Intake) | 2 Years | Beginner to Advanced | Comprehensive Japanese language training, covering grammar, vocabulary, reading, writing, listening, and speaking. Focus on practical communication skills. Preparation for daily life in Japan. |
-| General Course (October Intake) | 1.5 Years | Beginner to Advanced | Accelerated version of the General Course (April Intake), designed for students who want to complete their language studies in a shorter timeframe. Comprehensive Japanese language training with a focus on practical application. |
-| EJU Preparation Course | Varies | Intermediate to Advanced | Specialized training for the Examination for Japanese University Admission for International Students (EJU). Intensive focus on EJU subjects, including Japanese as a Foreign Language, Mathematics, Science (Physics, Chemistry, Biology), and Japan and the World. |
-| University Preparation Course (Science/STEM) | Varies | Intermediate to Advanced | Tailored support for students aiming to enter science and engineering faculties at Japanese universities. Focus on developing the language skills and academic knowledge required for success in STEM fields. Includes specialized vocabulary and concepts related to science and technology. |
-| University Preparation Course (Art & Design) | Varies | Intermediate to Advanced | Customized support for students pursuing art and design studies at Japanese universities or vocational schools. Includes portfolio preparation, language training relevant to art and design, and guidance on the application process. |
-| Business Japanese Course | Varies | Intermediate to Advanced | Focuses on developing the language skills necessary for professional communication in Japanese business settings. Covers business etiquette, email writing, presentation skills, and industry-specific vocabulary. |
-| Short-Term Intensive Course | Varies (e.g., 1-3 months) | Beginner to Advanced | Designed for students who want to improve their Japanese language skills quickly in a short period of time. Intensive lessons covering all aspects of the language, with a focus on practical communication. |
+Here's a breakdown of the courses offered:
+
+*   **General Course (April Intake):**
+    *   Duration: 2 Years
+    *   Target Level: Beginner to Advanced
+    *   Key Features: Comprehensive Japanese language training, covering grammar, vocabulary, reading, writing, listening, and speaking. Focus on practical communication skills. Preparation for daily life in Japan.
+*   **General Course (October Intake):**
+    *   Duration: 1.5 Years
+    *   Target Level: Beginner to Advanced
+    *   Key Features: Accelerated version of the General Course (April Intake), designed for students who want to complete their language studies in a shorter timeframe. Comprehensive Japanese language training with a focus on practical application.
+*   **EJU Preparation Course:**
+    *   Duration: Varies
+    *   Target Level: Intermediate to Advanced
+    *   Key Features: Specialized training for the Examination for Japanese University Admission for International Students (EJU). Intensive focus on EJU subjects, including Japanese as a Foreign Language, Mathematics, Science (Physics, Chemistry, Biology), and Japan and the World.
+*   **University Preparation Course (Science/STEM):**
+    *   Duration: Varies
+    *   Target Level: Intermediate to Advanced
+    *   Key Features: Tailored support for students aiming to enter science and engineering faculties at Japanese universities. Focus on developing the language skills and academic knowledge required for success in STEM fields. Includes specialized vocabulary and concepts related to science and technology.
+*   **University Preparation Course (Art & Design):**
+    *   Duration: Varies
+    *   Target Level: Intermediate to Advanced
+    *   Key Features: Customized support for students pursuing art and design studies at Japanese universities or vocational schools. Includes portfolio preparation, language training relevant to art and design, and guidance on the application process.
+*   **Business Japanese Course:**
+    *   Duration: Varies
+    *   Target Level: Intermediate to Advanced
+    *   Key Features: Focuses on developing the language skills necessary for professional communication in Japanese business settings. Covers business etiquette, email writing, presentation skills, and industry-specific vocabulary.
+*   **Short-Term Intensive Course:**
+    *   Duration: Varies (e.g., 1-3 months)
+    *   Target Level: Beginner to Advanced
+    *   Key Features: Designed for students who want to improve their Japanese language skills quickly in a short period of time. Intensive lessons covering all aspects of the language, with a focus on practical communication.
 
 **General Course (April & October Intakes):** The General Course is the foundation of the academy's language program. It provides a comprehensive curriculum covering all aspects of the Japanese language, from basic grammar and vocabulary to advanced reading and writing skills. The curriculum is designed to progressively build students' language proficiency, enabling them to communicate effectively in a variety of situations. The teaching style emphasizes interactive learning, with a focus on developing practical communication skills through role-playing, group activities, and real-life scenarios. The course also incorporates cultural elements to help students understand Japanese customs and etiquette.
 
@@ -81,7 +116,7 @@ Happiness Foreign Language Academy offers a variety of courses designed to cater
 
 **University Preparation Course (Art & Design):** This course provides customized support for students pursuing art and design studies at Japanese universities or vocational schools. The curriculum includes portfolio preparation, language training relevant to art and design, and guidance on the application process. The teaching style combines classroom instruction with studio work, allowing students to develop their artistic skills while improving their language proficiency. Students will learn to communicate effectively about their artwork, understand art historical concepts, and navigate the Japanese art world.
 
-## 🌍 Student Body & Campus Life
+## Student Body & Campus Life
 
 While specific data on the current international student body is unavailable, Happiness Foreign Language Academy, with its small class sizes, typically attracts students from diverse backgrounds. The school's focused academic programs, particularly in STEM and Art & Design, appeal to students from various countries seeking specialized preparation for higher education in Japan. Given the location in Ehime Prefecture, the student body likely reflects a mix of nationalities seeking a deeper immersion into regional Japanese culture, potentially including students from East Asia, Southeast Asia, and other parts of the world.
 
@@ -89,19 +124,19 @@ The school, despite its smaller size, is expected to offer essential facilities 
 
 Although specific extracurricular activities are not listed, the school likely organizes events and activities to promote cultural exchange and integration. These could include seasonal celebrations, field trips to local attractions, and opportunities to interact with Japanese students and community members. Niihama itself offers a range of cultural and recreational opportunities, from exploring historical sites and temples to hiking in the surrounding mountains and enjoying local festivals. The school's location in a regional city provides students with ample opportunities to immerse themselves in authentic Japanese culture outside of the classroom. The small size of the school also encourages students to become actively involved in the local community, fostering meaningful connections and enriching their cultural experience.
 
-## 🎓 University & Career Pathways
+## University & Career Pathways
 
 While specific university admission records aren't provided, Happiness Foreign Language Academy emphasizes university preparation, particularly for students aiming for Science/STEM and Art & Design fields. Therefore, the school likely maintains close relationships with universities and vocational schools in the region and across Japan, facilitating student placements.
 
-| University Name | Faculty | Year of Admission |
-|---|---|---|
-| (Hypothetical Example) Ehime University | Engineering | 2023 |
-| (Hypothetical Example) Kagawa University | Economics | 2022 |
-| (Hypothetical Example) Kyoto Institute of Technology | Design | 2023 |
-| (Hypothetical Example) Osaka University | Science | 2024 |
-| (Hypothetical Example) Tama Art University | Fine Arts | 2024 |
+Here are some hypothetical examples of university placements:
 
-*Note: The above table contains hypothetical examples only. Please contact the school directly for accurate university admission records.*
+*   Ehime University - Engineering (2023)
+*   Kagawa University - Economics (2022)
+*   Kyoto Institute of Technology - Design (2023)
+*   Osaka University - Science (2024)
+*   Tama Art University - Fine Arts (2024)
+
+*Note: These are hypothetical examples only. Please contact the school directly for accurate university admission records.*
 
 The school likely offers comprehensive support systems for students planning to pursue higher education in Japan. This includes:
 
@@ -119,7 +154,7 @@ For students seeking employment after graduation, the school may offer the follo
 *   **Internship Opportunities:** Facilitating internships for students to gain practical work experience in Japan.
 *   **Networking Events:** Opportunities to connect with potential employers and industry professionals.
 
-## 🏡 Accommodation & Living Support
+## Accommodation & Living Support
 
 Happiness Foreign Language Academy offers a school dormitory with single rooms, providing international students with a convenient and secure housing option from the moment they arrive in Japan. Single rooms offer privacy and comfort, allowing students to focus on their studies and adjust to their new environment.
 
@@ -141,20 +176,20 @@ In addition to dormitory accommodation, the school likely assists students with 
 *   **Insurance Assistance:** Providing guidance on obtaining health insurance.
 *   **Cultural Orientation:** Offering information and advice on Japanese customs and etiquette.
 
-## 💰 Tuition, Fees & Scholarships
+## Tuition, Fees & Scholarships
 
 The tuition and fees at Happiness Foreign Language Academy vary depending on the course and admission month. The General Course, which is the primary long-term program, has two main intakes per year: April and October.
 
-| Expense | Amount (JPY) | Notes |
-|---|---|---|
-| Tuition (General Course - April Intake) | 1,168,000 | For the full 2-year program. |
-| Tuition (General Course - October Intake) | 896,000 | For the full 1.5-year program. |
-| Application Fee | (Contact School) | Varies, typically around ¥20,000 - ¥30,000. |
-| Admission Fee | (Contact School) | May be included in tuition. |
-| Textbook Fee | (Contact School) | Varies depending on the course and level. |
-| Accommodation (Dormitory) | (Contact School) | Monthly rent varies depending on the room type and amenities. |
-| Health Insurance | (Contact School) | Mandatory national health insurance. |
-| Living Expenses | (Contact School) | Food, transportation, personal expenses. |
+Here's an estimated breakdown of the expenses:
+
+*   Tuition (General Course - April Intake): ¥1,168,000 (For the full 2-year program).
+*   Tuition (General Course - October Intake): ¥896,000 (For the full 1.5-year program).
+*   Application Fee: (Contact School) - Varies, typically around ¥20,000 - ¥30,000.
+*   Admission Fee: (Contact School) - May be included in tuition.
+*   Textbook Fee: (Contact School) - Varies depending on the course and level.
+*   Accommodation (Dormitory): (Contact School) - Monthly rent varies depending on the room type and amenities.
+*   Health Insurance: (Contact School) - Mandatory national health insurance.
+*   Living Expenses: (Contact School) - Food, transportation, personal expenses.
 
 *Note: The amounts listed above are estimates. Please contact the school directly for the most accurate and up-to-date information.*
 

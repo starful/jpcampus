@@ -43,35 +43,64 @@
     "Twin Campus System (Urban Bunkyo and Suburban Hachioji)",
     "EJU Required",
     "Limited English Program Availability (Primarily Japanese Taught)"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview
+## University Overview
 
-Takushoku University (拓殖大学), often abbreviated as "Takudai," possesses a distinguished history dating back to its founding in 1900. Originally established as a preparatory school to foster individuals capable of navigating international contexts, Takushoku has consistently maintained a pioneering spirit focused on cultivating "global citizens." This commitment is reflected in its mission to provide students with the specialized knowledge and cross-cultural acumen necessary to contribute effectively to international society. For prospective international students, Takushoku offers a robust academic environment that balances theoretical depth with strong practical application, particularly in fields related to international commerce, regional studies, and technology.
+Takushoku University, often abbreviated as "Takudai," boasts a distinguished history that began in 1900. Originally founded as a preparatory school to nurture individuals capable of navigating international environments, Takushoku has consistently maintained a pioneering spirit focused on cultivating "global citizens." This commitment is reflected in its mission to equip students with the specialized knowledge and cross-cultural understanding necessary to contribute effectively to international society. For prospective international students, Takushoku offers a robust academic environment that balances theoretical depth with strong practical application, particularly in fields related to international commerce, regional studies, and technology.
 
-Takushoku operates across two distinctive campuses in the Tokyo area. The **Bunkyo Campus**, located in the quiet, academic neighborhood of Kohinata in central Tokyo, serves as the main base for the humanities and social science faculties (Commerce, Political Science and Economics, Foreign Languages, and International Studies). Its urban location is highly advantageous for students seeking easy access to corporate headquarters, government institutions, libraries, and diverse internship opportunities within the world’s largest metropolitan economy. The Bunkyo campus fosters a focused, seminar-style learning environment ideal for deep academic engagement and networking.
+Takushoku operates across two distinct campuses in the Tokyo area:
 
-In contrast, the **Hachioji International Campus** is situated in the western suburbs of Tokyo, offering a modern, spacious environment necessary for technical and large-scale practical education. This campus is the primary home for the Faculty of Engineering and features advanced laboratory facilities and extensive sports complexes. The Hachioji location provides a more traditional, campus-centered university experience, often appealing to students who prefer a quieter suburban setting for focused study and research.
+*   The **Bunkyo Campus**, located in the quiet, academic neighborhood of Kohinata in central Tokyo, serves as the main base for the humanities and social science faculties (Commerce, Political Science and Economics, Foreign Languages, and International Studies). Its urban location offers students easy access to corporate headquarters, government institutions, libraries, and diverse internship opportunities within the world’s largest metropolitan economy. The Bunkyo campus fosters a focused, seminar-style learning environment ideal for deep academic engagement and networking.
+*   The **Hachioji International Campus** is situated in the western suburbs of Tokyo, offering a modern, spacious environment for technical and large-scale practical education. This campus is the primary home for the Faculty of Engineering and features advanced laboratory facilities and extensive sports complexes. The Hachioji location provides a more traditional, campus-centered university experience, often appealing to students who prefer a quieter suburban setting for focused study and research.
 
-Takushoku University places significant emphasis on preparing its graduates for a professional career, both domestically and internationally. The curriculum is designed to integrate academic theory with real-world problem-solving, supported by faculty members who are often veterans of international business, diplomacy, and engineering fields. The university’s strong institutional history and extensive alumni network throughout Asia provide unique opportunities for international students seeking post-graduation employment. The focus on linguistic proficiency, combined with regional expertise, ensures that Takudai graduates possess a highly competitive skill set valued by global employers.
+Takushoku University places significant emphasis on preparing its graduates for professional careers, both domestically and internationally. The curriculum integrates academic theory with real-world problem-solving, supported by faculty members who are often veterans of international business, diplomacy, and engineering. The university’s strong institutional history and extensive alumni network throughout Asia provide unique opportunities for international students seeking post-graduation employment. The focus on linguistic proficiency, combined with regional expertise, ensures that Takudai graduates possess a highly competitive skill set valued by global employers.
 
-## 🎓 Faculties & Departments
+## Faculties & Departments
 
-Takushoku University is organized into five undergraduate faculties, each offering specialized degree programs. Applicants must demonstrate high proficiency in the Japanese language (typically N1 level) as core instruction is conducted primarily in Japanese across all departments, barring limited exchange or special English-track programs not applicable to standard degree seeking students.
+Takushoku University is organized into five undergraduate faculties, each offering specialized degree programs. Applicants must demonstrate high proficiency in the Japanese language (typically N1 level) as core instruction is conducted primarily in Japanese across all departments, barring limited exchange or special English-track programs not applicable to standard degree-seeking students.
 
-**1. Faculty of Commerce (商学部):** Dedicated to modern business education, this faculty aims to produce graduates who can lead in complex, international markets. It features two core departments: the **Department of Commerce** and the **Department of Accounting and Finance**. The curriculum spans international trade mechanisms, e-commerce, market analysis, corporate management, taxation, and financial engineering. International students benefit greatly from the specialized courses on the Japanese economic structure, business ethics, and corporate accounting standards, essential for careers in Asian finance or consulting. Practical coursework and internship placements in Tokyo are highly emphasized.
+**1. Faculty of Commerce:** Dedicated to modern business education, this faculty aims to produce graduates who can lead in complex, international markets. It features two core departments:
 
-**2. Faculty of Political Science and Economics (政経学部):** This historic faculty studies the critical interplay between governance, societal structure, and economic policy. It comprises the **Department of Political Science** and the **Department of Economics**. The Political Science track covers comparative politics, international relations, public administration, and legal frameworks, with specialized focus areas on East Asia. The Economics track explores macro- and micro-economic theory, regional development, and global trade dynamics. Graduates are typically prepared for roles in government, media, NGOs, and economic analysis, utilizing their deep understanding of global socio-political forces.
+*   Department of Commerce
+*   Department of Accounting and Finance
 
-**3. Faculty of Foreign Languages (外国語学部):** Recognizing language as the fundamental tool for international exchange, this faculty provides rigorous training in specific languages coupled with extensive regional cultural studies. Departments include the **Department of English**, **Department of Chinese**, and **Department of Spanish**. Beyond achieving high linguistic proficiency, students delve into translation methodology, literature, and the sociopolitical history of their target regions. The curriculum is specifically structured to produce professionals capable of applying specialized language skills in high-stakes environments, such as international diplomacy, global marketing, and educational exchange programs.
+The curriculum spans international trade mechanisms, e-commerce, market analysis, corporate management, taxation, and financial engineering. International students benefit greatly from the specialized courses on the Japanese economic structure, business ethics, and corporate accounting standards, essential for careers in Asian finance or consulting. Practical coursework and internship placements in Tokyo are highly emphasized.
 
-**4. Faculty of International Studies (国際学部):** This faculty embraces an interdisciplinary approach to understanding and solving complex global issues. It includes the **Department of International Studies** and the **Department of Development Studies**. Coursework integrates perspectives from sociology, anthropology, geography, and international law. Students examine topics such as global migration, environmental policy, sustainable development, and regional conflicts. The Development Studies track specifically prepares students for work in international aid, policy implementation, and grassroots community development, often requiring field research experience facilitated by the university's global network.
+**2. Faculty of Political Science and Economics:** This historic faculty studies the critical interplay between governance, societal structure, and economic policy. It comprises the:
 
-**5. Faculty of Engineering (工学部):** Situated at the Hachioji Campus, this faculty focuses on advancing technology and applied science. It includes the **Department of Electronics and Materials Science**, the **Department of Mechanical Systems Engineering**, and the **Department of Information and Communications Engineering**. Engineering education at Takushoku integrates global scientific principles with specialized Japanese industrial standards and management techniques. The practical curriculum involves extensive lab work, research projects, and collaborations with advanced Japanese manufacturing and tech companies, ensuring graduates are well-versed in the latest technological innovations and ready for immediate professional contribution.
+*   Department of Political Science
+*   Department of Economics
 
-## 🌍 International Student Support
+The Political Science track covers comparative politics, international relations, public administration, and legal frameworks, with specialized focus areas on East Asia. The Economics track explores macro- and micro-economic theory, regional development, and global trade dynamics. Graduates are typically prepared for roles in government, media, NGOs, and economic analysis, utilizing their deep understanding of global socio-political forces.
+
+**3. Faculty of Foreign Languages:** Recognizing language as the fundamental tool for international exchange, this faculty provides rigorous training in specific languages coupled with extensive regional cultural studies. Departments include:
+
+*   Department of English
+*   Department of Chinese
+*   Department of Spanish
+
+Beyond achieving high linguistic proficiency, students delve into translation methodology, literature, and the sociopolitical history of their target regions. The curriculum is specifically structured to produce professionals capable of applying specialized language skills in high-stakes environments, such as international diplomacy, global marketing, and educational exchange programs.
+
+**4. Faculty of International Studies:** This faculty embraces an interdisciplinary approach to understanding and solving complex global issues. It includes the:
+
+*   Department of International Studies
+*   Department of Development Studies
+
+Coursework integrates perspectives from sociology, anthropology, geography, and international law. Students examine topics such as global migration, environmental policy, sustainable development, and regional conflicts. The Development Studies track specifically prepares students for work in international aid, policy implementation, and grassroots community development, often requiring field research experience facilitated by the university's global network.
+
+**5. Faculty of Engineering:** Situated at the Hachioji Campus, this faculty focuses on advancing technology and applied science. It includes the:
+
+*   Department of Electronics and Materials Science
+*   Department of Mechanical Systems Engineering
+*   Department of Information and Communications Engineering
+
+Engineering education at Takushoku integrates global scientific principles with specialized Japanese industrial standards and management techniques. The practical curriculum involves extensive lab work, research projects, and collaborations with advanced Japanese manufacturing and tech companies, ensuring graduates are well-versed in the latest technological innovations and ready for immediate professional contribution.
+
+## International Student Support
 
 Takushoku University maintains a robust support system designed specifically to aid international students in adjusting to academic life in Japan and succeeding professionally. The **International Center** acts as the central point of contact, providing essential guidance on immigration procedures, visa renewal, academic scheduling, and cultural adaptation.
 
@@ -89,7 +118,7 @@ Takushoku University maintains a robust support system designed specifically to 
 *   **Housing Referral Services:** The university assists students in navigating Japan's complicated rental market by connecting them with partnered real estate agencies that waive or simplify the typical guarantor requirement.
 *   **Career and Job Hunting Support:** The Career Support Center offers specialized workshops for international students on the Japanese job hunting process (*shukatsu*). This includes training on traditional Japanese resume formats (rirekisho), mock interviews, guidance on work visa applications, and networking opportunities with companies seeking multilingual talent, making the transition to the professional world smoother for international graduates.
 
-## 💰 Tuition & Fees
+## Tuition & Fees
 
 Takushoku University maintains a transparent fee structure comparable to leading private institutions in the Tokyo region, though costs vary slightly between the humanities/social sciences and the engineering faculty due to specialized equipment needs.
 

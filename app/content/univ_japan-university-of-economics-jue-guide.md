@@ -43,49 +43,50 @@
     "High Ratio of International Students",
     "EJU Required for Standard Admission Tracks",
     "Dedicated Career Support for Foreign Graduates"
-  ]
+  ],
+  "translated": true
 }
 ---
 
-## 🏫 University Overview
+## University Overview
 
-The Japan University of Economics (JUE), known in Japanese as Nihon Keizai Daigaku, stands out as a dynamic private institution highly focused on producing globally competent business leaders and entrepreneurs. Unlike many traditional Japanese universities that maintain a single, rigid location, JUE operates a unique multi-campus system across three major economic hubs: the foundational campus in **Fukuoka** (Kyushu), a strategic campus in **Kobe Sannomiya** (Kansai), and an innovative hub in **Tokyo Shibuya** (Kanto). This geographical dispersion offers international students unparalleled flexibility and exposure to diverse Japanese business environments, from the tech-forward atmosphere of Tokyo to the logistics and trade focus of Kobe, and the historical, culturally rich, yet rapidly growing market of Fukuoka.
+The Japan University of Economics (JUE), also known as Nihon Keizai Daigaku in Japanese, is a dynamic private institution that emphasizes the development of globally competent business leaders and entrepreneurs. Unlike many traditional Japanese universities with a single location, JUE operates a unique multi-campus system across three major economic centers: the main campus in **Fukuoka** (Kyushu), a strategic campus in **Kobe Sannomiya** (Kansai), and an innovative hub in **Tokyo Shibuya** (Kanto). This geographical distribution provides international students with exceptional flexibility and exposure to diverse Japanese business environments, ranging from the tech-driven atmosphere of Tokyo to the logistics and trade focus of Kobe, and the historically and culturally rich, yet rapidly growing market of Fukuoka.
 
-Established with a core mission to nurture practical economic and business skills, JUE’s curriculum is highly career-oriented. It emphasizes real-world application, integrating internships, practical training seminars, and collaboration with regional businesses. The university distinguishes itself by maintaining one of the highest proportions of international students in Japan, particularly attracting students from East and Southeast Asia, fostering a truly international learning atmosphere. This environment is specifically designed for students who not only want to master Japanese language and business culture but also aim to apply these skills directly in the global marketplace upon graduation. JUE is a destination for those seeking robust professional networks and a fast track into the Japanese or Asian job markets.
+Established with the core mission of fostering practical economic and business skills, JUE’s curriculum is strongly career-oriented. It prioritizes real-world application through internships, practical training seminars, and collaborations with regional businesses. The university stands out by maintaining a high percentage of international students, particularly from East and Southeast Asia, which cultivates a truly international learning environment. This environment is specifically tailored for students who want to master Japanese language and business culture and apply these skills directly in the global marketplace after graduation. JUE is an excellent choice for those seeking robust professional networks and a fast track into the Japanese or Asian job markets.
 
-The academic structure is tailored to be responsive to global economic shifts, moving beyond purely theoretical knowledge. While the core disciplines remain economics and management, the expansion into specialized fields like global entrepreneurship and design reflects a commitment to 21st-century skills. The university is particularly proud of its high rate of employment among graduates, a testament to its hands-on approach and intensive career guidance programs.
+The academic structure is designed to be responsive to global economic changes, moving beyond purely theoretical knowledge. While economics and management remain core disciplines, the expansion into specialized fields like global entrepreneurship and design reflects a commitment to 21st-century skills. The university is proud of its high graduate employment rate, a testament to its hands-on approach and extensive career guidance programs.
 
-## 🎓 Faculties & Departments
+## Faculties & Departments
 
-JUE offers a range of undergraduate programs, strategically distributed across its three campuses to maximize regional economic strengths and student interest. While the overarching theme is business and management, the specific focus varies significantly by campus and faculty:
+JUE offers a variety of undergraduate programs, strategically located across its three campuses to leverage regional economic strengths and student interests. While the overarching theme is business and management, the specific focus varies significantly by campus and faculty:
 
 ### Fukuoka Campus (The Main Hub)
 
-1.  **Faculty of Economics:** This foundational faculty provides rigorous training in macro and microeconomics, focusing on policy analysis, financial markets, and the economic structure of Asia. It is essential for students seeking roles in finance, government, or international trade analysis.
-2.  **Faculty of Business Management:** Focused heavily on practical corporate skills, this faculty covers diverse fields such as strategic management, marketing, accounting, and supply chain logistics. A major emphasis is placed on Japanese business practices (Keiei) and cross-cultural management.
-3.  **Faculty of Design:** A unique offering that blends creative thinking with business acumen. Departments within this faculty focus on product design, visual communication, and industrial design management, preparing students to lead creative teams and develop marketable products.
+*   **Faculty of Economics:** This foundational faculty provides rigorous training in macro- and microeconomics, focusing on policy analysis, financial markets, and the economic structure of Asia. It's essential for students seeking roles in finance, government, or international trade analysis.
+*   **Faculty of Business Management:** Focused heavily on practical corporate skills, this faculty covers diverse fields such as strategic management, marketing, accounting, and supply chain logistics. There is a major emphasis on Japanese business practices (Keiei) and cross-cultural management.
+*   **Faculty of Design:** A unique offering that blends creative thinking with business acumen. Departments within this faculty focus on product design, visual communication, and industrial design management, preparing students to lead creative teams and develop marketable products.
 
 ### Kobe Sannomiya Campus
 
-1.  **Faculty of Contemporary Business:** Leveraging Kobe’s historical role as a major port and logistics center, this faculty specializes in modern business administration, international logistics, and regional economic development. The program is tailored for students interested in import/export, global supply chains, and market entry strategies into Japan.
+*   **Faculty of Contemporary Business:** Leveraging Kobe’s historical role as a major port and logistics center, this faculty specializes in modern business administration, international logistics, and regional economic development. The program is tailored for students interested in import/export, global supply chains, and market entry strategies into Japan.
 
 ### Tokyo Shibuya Campus
 
-1.  **Faculty of Global Business and Entrepreneurship:** Situated in the heart of Japan's most competitive business district, this faculty is intensely focused on innovation, venture creation, and digital business strategies. It offers specialized courses in FinTech, startup culture, and global corporate strategy, utilizing the proximity to major international companies and startup accelerators. This environment is ideal for highly ambitious students aiming to launch their own companies or secure positions in multinational corporations based in Tokyo.
+*   **Faculty of Global Business and Entrepreneurship:** Situated in the heart of Japan's most competitive business district, this faculty is intensely focused on innovation, venture creation, and digital business strategies. It offers specialized courses in FinTech, startup culture, and global corporate strategy, utilizing the proximity to major international companies and startup accelerators. This environment is ideal for highly ambitious students aiming to launch their own companies or secure positions in multinational corporations based in Tokyo.
 
-All faculties integrate substantial Japanese language instruction and cultural immersion components, acknowledging that fluency and cultural competence are non-negotiable for success in the Japanese employment market.
+All faculties integrate substantial Japanese language instruction and cultural immersion components, recognizing that fluency and cultural competence are essential for success in the Japanese employment market.
 
-## 🌍 International Student Support
+## International Student Support
 
-Japan University of Economics is renowned for its robust and comprehensive support system tailored specifically for its large international student body. This support spans academic, financial, and residential needs, ensuring a smoother transition and successful academic journey in Japan.
+Japan University of Economics is known for its robust and comprehensive support system tailored specifically for its large international student body. This support covers academic, financial, and residential needs, ensuring a smoother transition and successful academic experience in Japan.
 
 ### Scholarships and Financial Aid
 
-JUE understands the financial commitment required for international study and offers several key internal scholarship programs, often awarded upon successful entrance or based on academic performance after enrollment:
+JUE understands the financial commitment required for international study and offers several key internal scholarship programs, often awarded upon successful admission or based on academic performance after enrollment:
 
-1.  **JUE International Student Scholarship:** A highly sought-after scholarship that often provides significant tuition reduction, potentially covering up to 30% to 50% of the annual tuition fee for high-achieving applicants.
-2.  **Performance-Based Tuition Reduction:** Merit scholarships are often available from the second year onward, rewarding students who maintain exceptionally high GPAs.
-3.  **JASSO and External Scholarships:** JUE actively assists students in applying for external governmental scholarships, most notably the Japan Student Services Organization (JASSO) scholarships, which provide monthly stipends.
+*   **JUE International Student Scholarship:** A highly sought-after scholarship that often provides significant tuition reduction, potentially covering up to 30% to 50% of the annual tuition fee for high-achieving applicants.
+*   **Performance-Based Tuition Reduction:** Merit scholarships are often available from the second year onward, rewarding students who maintain exceptionally high GPAs.
+*   **JASSO and External Scholarships:** JUE actively assists students in applying for external governmental scholarships, most notably the Japan Student Services Organization (JASSO) scholarships, which provide monthly stipends.
 
 ### Residential and Living Support
 
@@ -100,20 +101,20 @@ JUE places significant emphasis on career outcomes. The Career Center offers spe
 *   **Japanese Business Language Training:** Supplementary classes focused on Keigo (polite Japanese) and technical Japanese terminology required for professional settings.
 *   **Visa Support:** Comprehensive support for extending student visas and changing status to work visas upon graduation.
 
-## 💰 Tuition & Fees
+## Tuition & Fees
 
-Studying at Japan University of Economics represents a significant investment, comparable to other high-quality private universities in Japan. However, prospective students should always factor in the strong possibility of securing tuition reduction through the university’s generous scholarship schemes.
+Studying at Japan University of Economics represents a significant investment, comparable to other high-quality private universities in Japan. However, prospective students should always consider the strong possibility of securing tuition reduction through the university’s generous scholarship schemes.
 
 ### Initial Year Expenses (Approximate):
 
-| Item | Amount (JPY) | Details |
-| :--- | :--- | :--- |
-| Admission Fee (Enrollment) | ¥280,000 | A one-time fee due upon enrollment. |
-| Yearly Tuition Fee | ¥1,180,000 | Covers the academic year, often payable in two installments. |
-| Facility Fee | ¥150,000 | Covers maintenance and facility usage. |
-| Other Mandatory Fees (Insurance, Student Association) | ¥40,000 | Varies slightly by faculty. |
-| **Total First Year Cost (Before Scholarships)** | **Approx. ¥1,650,000** | This figure does not include textbook costs or living expenses. |
+| Item                                                | Amount (JPY) | Details                                                                 |
+| :-------------------------------------------------- | :----------- | :---------------------------------------------------------------------- |
+| Admission Fee (Enrollment)                          | ¥280,000     | A one-time fee due upon enrollment.                                     |
+| Yearly Tuition Fee                                  | ¥1,180,000   | Covers the academic year, often payable in two installments.            |
+| Facility Fee                                          | ¥150,000     | Covers maintenance and facility usage.                                  |
+| Other Mandatory Fees (Insurance, Student Association) | ¥40,000      | Varies slightly by faculty.                                             |
+| **Total First Year Cost (Before Scholarships)**        | **Approx. ¥1,650,000** | This figure does not include textbook costs or living expenses.       |
 
 ### Subsequent Years
 
-From the second year onward, the annual cost typically excludes the one-time admission fee, reducing the yearly outlay to approximately ¥1,370,000 before the application of any continued performance-based scholarships. International students are strongly encouraged to achieve academic excellence to qualify for these ongoing financial benefits, significantly mitigating the overall cost of study.
+From the second year onward, the annual cost typically excludes the one-time admission fee, reducing the yearly outlay to approximately ¥1,370,000 before the application of any continued performance-based scholarships. International students are strongly encouraged to achieve academic excellence to qualify for these ongoing financial benefits, significantly reducing the overall cost of study.
