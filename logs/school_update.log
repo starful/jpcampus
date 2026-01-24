@@ -1426,3 +1426,20 @@ violations {
 2026-01-13 20:10:03,952 - Success: J016.md -> school_ecc-japanese-institute-kobe.md
 2026-01-13 20:10:35,300 - Success: B010.md -> school_asia-tomonokai-foreign-language-academy.md
 2026-01-13 20:11:08,054 - Success: B290.md -> school_yokkaichi-japanese-language-school-mie.md
+2026-01-24 18:08:28,993 - Start processing new files. Pending: 45
+2026-01-24 18:08:56,012 - Success: A11.md -> school_meijo-university-nagoya-expert-guide.md
+2026-01-24 18:09:23,749 - Success: A21.md -> school_life-junior-japanese-language-institute-okinawa.md
+2026-01-24 18:09:52,390 - Success: A15.md -> school_shogeisha-language-academy-tokyo-art-prep.md
+2026-01-24 18:10:28,587 - Success: A13.md -> school_marugame-international-academy-kagawa.md
+2026-01-24 18:10:56,248 - Success: A12.md -> school_kokusai-academy-language-school-sendai.md
+2026-01-24 18:11:29,720 - Unexpected Error A22.md: 'id'
+2026-01-24 18:11:53,375 - Success: L013.md -> school_kakegawa-japanese-language-school-shizuoka.md
+2026-01-24 18:12:21,750 - Success: 5047.md -> school_kai-japanese-language-school-shinjuku.md
+2026-01-24 18:16:04,201 - Success: L007.md -> school_nansei-gaku-en-sci-tech-college-naha-okinawa.md
+2026-01-24 18:16:35,844 - Success: A208.md -> school_evergreen-language-school-tokyo-meguro.md
+2026-01-24 18:17:07,745 - Success: B212.md -> school_nippon-gakuin-maebashi-gunma.md
+2026-01-24 18:17:38,114 - Success: J036.md -> school_sunshine-language-school-ikebukuro.md
+2026-01-24 18:18:10,682 - Success: B479.md -> school_intercultural-communication-center-okinawa.md
+2026-01-24 18:18:39,395 - Success: J026.md -> school_trinity-college-hiroshima-medical-welfare.md
+2026-01-24 18:19:11,770 - Success: B020.md -> school_west-coast-japanese-language-school-ota-tokyo.md
+2026-01-24 18:20:01,620 - Success: 5043.md -> school_kyoto-bunka-japanese-language-school.md
