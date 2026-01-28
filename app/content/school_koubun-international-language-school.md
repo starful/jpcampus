@@ -1,61 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_koubun-international-language-school",
-  "title": "Koubun International Language School",
-  "category": "school",
-  "tags": [
-    "University Preparation Focused",
-    "EJU and JLPT Specialized Training",
-    "Mandatory or Recommended Dormitory System",
-    "Science (Rika) and Math Pathway Support",
-    "Art and Design Pathway Specialization",
-    "Business and Advanced Conversation Classes",
-    "High Scholarship Availability",
-    "Small Capacity for Personalized Guidance",
-    "Study Environment in Rural Aichi (Shinshiro)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.952635,
-    "lng": 137.610017
-  },
-  "basic_info": {
-    "name_ja": "コウブンインターナショナル",
-    "address": "愛知県新城市大野字上貝津７441-1615",
-    "capacity": 100,
-    "name_en": "Koubun International Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Preparation Focused",
-    "EJU and JLPT Specialized Training",
-    "Mandatory or Recommended Dormitory System",
-    "Science (Rika) and Math Pathway Support",
-    "Art and Design Pathway Specialization",
-    "Business and Advanced Conversation Classes",
-    "High Scholarship Availability",
-    "Small Capacity for Personalized Guidance",
-    "Study Environment in Rural Aichi (Shinshiro)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1410000
-    },
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1105000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=305",
-  "translated": true,
-  "description": "Koubun International Language School, located in Shinshiro, Aichi, offers focused university preparation in a supportive rural environment. Specializes in EJU and JLPT training with pathways for Science, Art, Business, and more."
-}
+basic_info:
+  address: 愛知県新城市大野字上貝津７441-1615
+  capacity: 100
+  name_en: Koubun International Language School
+  name_ja: コウブンインターナショナル
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1410000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1105000
+description: Koubun International Language School, located in Shinshiro, Aichi, offers
+  focused university preparation in a supportive rural environment. Specializes in
+  EJU and JLPT training with pathways for Science, Art, Business, and more.
+faculties: []
+features:
+- University Preparation Focused
+- EJU and JLPT Specialized Training
+- Mandatory or Recommended Dormitory System
+- Science (Rika) and Math Pathway Support
+- Art and Design Pathway Specialization
+- Business and Advanced Conversation Classes
+- High Scholarship Availability
+- Small Capacity for Personalized Guidance
+- Study Environment in Rural Aichi (Shinshiro)
+id: school_koubun-international-language-school
+lang: en
+layout: school
+location:
+  lat: 34.952635
+  lng: 137.610017
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=305
+stats: {}
+tags:
+- University Preparation Focused
+- EJU and JLPT Specialized Training
+- Mandatory or Recommended Dormitory System
+- Science (Rika) and Math Pathway Support
+- Art and Design Pathway Specialization
+- Business and Advanced Conversation Classes
+- High Scholarship Availability
+- Small Capacity for Personalized Guidance
+- Study Environment in Rural Aichi (Shinshiro)
+thumbnail: /static/img/pin-school.png
+title: Koubun International Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

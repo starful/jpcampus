@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "mobile-bank",
-  "title": "Immediate To-Dos: Resident Registration & Bank",
-  "category": "Settlement",
-  "tags": [
-    "Settlement"
-  ],
-  "description": "Guide to City Hall procedures and banking.",
-  "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-01-01"
-}
+category: Settlement
+date: '2026-01-01'
+description: Guide to City Hall procedures and banking.
+id: mobile-bank
+lang: en
+layout: guide
+tags:
+- Settlement
+thumbnail: https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500
+title: 'Immediate To-Dos: Resident Registration & Bank'
 ---
 
 ## Settling In: Resident Registration, SIM Card, and Your Japanese Bank Account

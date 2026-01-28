@@ -1,52 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "〒658-8501 兵庫県神戸市東灘区岡本8丁目9番1号",
-    "name_en": "Konan University",
-    "name_ja": "甲南大学",
-    "website": "https://www.konan-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Science and Technology",
-    "Faculty of Intelligence and Informatics",
-    "Faculty of Frontiers of Innovative Research in Science and Technology (FIRST)",
-    "Faculty of Global Communication",
-    "Faculty of Psychology",
-    "Faculty of Societal Safety Sciences"
-  ],
-  "features": [
-    "Dormitory",
-    "Scholarship",
-    "English Program"
-  ],
-  "id": "univ_konan-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 200
-  },
-  "tags": [
-    "Dormitory",
-    "Scholarship",
-    "English Program"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Konan University",
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "translated": true
-}
+basic_info:
+  address: 〒658-8501 兵庫県神戸市東灘区岡本8丁目9番1号
+  name_en: Konan University
+  name_ja: 甲南大学
+  website: https://www.konan-u.ac.jp/
+category: university
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Science and Technology
+- Faculty of Intelligence and Informatics
+- Faculty of Frontiers of Innovative Research in Science and Technology (FIRST)
+- Faculty of Global Communication
+- Faculty of Psychology
+- Faculty of Societal Safety Sciences
+features:
+- Dormitory
+- Scholarship
+- English Program
+id: univ_konan-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30%
+  international_students: 200
+tags:
+- Dormitory
+- Scholarship
+- English Program
+thumbnail: /static/img/pin-univ.png
+title: Konan University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview & Reputation

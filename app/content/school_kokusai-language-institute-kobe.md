@@ -1,74 +1,61 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kokusai-language-institute-kobe",
-  "title": "Kokusai Language Institute",
-  "category": "school",
-  "tags": [
-    "Integrated Dormitory Services (Single Rooms Available)",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Comprehensive University and Graduate School Advancement Tracks",
-    "Specialized Preparation for Science/Engineering Majors",
-    "Specialized Preparation for Art and Design Majors",
-    "Advanced Business Japanese and Career Track Training",
-    "Dedicated Scholarship Programs",
-    "Focus on Conversation and Practical Communication Skills",
-    "Flexible Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6680475,
-    "lng": 135.153435
-  },
-  "basic_info": {
-    "name_ja": "国際語学学院",
-    "address": "兵庫県神戸市長田区三番町5-5",
-    "capacity": 528,
-    "name_en": "Kokusai Language Institute"
-  },
-  "stats": {
-    "international_students": 500,
-    "capacity": 528
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Integrated Dormitory Services (Single Rooms Available)",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Comprehensive University and Graduate School Advancement Tracks",
-    "Specialized Preparation for Science/Engineering Majors",
-    "Specialized Preparation for Art and Design Majors",
-    "Advanced Business Japanese and Career Track Training",
-    "Dedicated Scholarship Programs",
-    "Focus on Conversation and Practical Communication Skills",
-    "Flexible Short-Term Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1464800
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1301350
-    },
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1137800
-    },
-    {
-      "course_name": "進学1年3か月コース",
-      "admission_month": "1",
-      "total_fees": 972350
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=364",
-  "description": "Located in Kobe, Kokusai Language Institute offers comprehensive Japanese language education and specialized academic preparation. Features include intensive EJU prep, university advancement tracks, and integrated dormitory services.",
-  "translated": true
-}
+basic_info:
+  address: 兵庫県神戸市長田区三番町5-5
+  capacity: 528
+  name_en: Kokusai Language Institute
+  name_ja: 国際語学学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1464800
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1301350
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1137800
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 972350
+description: Located in Kobe, Kokusai Language Institute offers comprehensive Japanese
+  language education and specialized academic preparation. Features include intensive
+  EJU prep, university advancement tracks, and integrated dormitory services.
+faculties: []
+features:
+- Integrated Dormitory Services (Single Rooms Available)
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Comprehensive University and Graduate School Advancement Tracks
+- Specialized Preparation for Science/Engineering Majors
+- Specialized Preparation for Art and Design Majors
+- Advanced Business Japanese and Career Track Training
+- Dedicated Scholarship Programs
+- Focus on Conversation and Practical Communication Skills
+- Flexible Short-Term Study Options
+id: school_kokusai-language-institute-kobe
+lang: en
+layout: school
+location:
+  lat: 34.6680475
+  lng: 135.153435
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=364
+stats:
+  capacity: 528
+  international_students: 500
+tags:
+- Integrated Dormitory Services (Single Rooms Available)
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Comprehensive University and Graduate School Advancement Tracks
+- Specialized Preparation for Science/Engineering Majors
+- Specialized Preparation for Art and Design Majors
+- Advanced Business Japanese and Career Track Training
+- Dedicated Scholarship Programs
+- Focus on Conversation and Practical Communication Skills
+- Flexible Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Kokusai Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

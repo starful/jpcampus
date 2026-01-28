@@ -1,58 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-metropolitan-university-omu-guide",
-  "title": "Osaka Metropolitan University",
-  "category": "university",
-  "tags": [
-    "Japan's Newest Comprehensive Public University",
-    "Top-Tier Research Institution",
-    "Located in Japan's Second Largest Economic Region (Kansai)",
-    "EJU Required (for most undergraduate programs)",
-    "Growing Portfolio of English-Taught Graduate Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪公立大学",
-    "name_en": "Osaka Metropolitan University",
-    "address": "3-3-138 Sugimoto, Sumiyoshi-ku, Osaka 558-8585, Japan (Sugimoto Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 750,
-    "acceptance_rate": "Approx. 35-40% (Overall)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Literature and Human Sciences",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Sustainable System Science",
-    "Faculty of Urban Management",
-    "Faculty of Medicine",
-    "Faculty of Nursing",
-    "Faculty of Veterinary Science",
-    "Faculty of Human Life Science"
-  ],
-  "features": [
-    "Japan's Newest Comprehensive Public University",
-    "Top-Tier Research Institution",
-    "Located in Japan's Second Largest Economic Region (Kansai)",
-    "EJU Required (for most undergraduate programs)",
-    "Growing Portfolio of English-Taught Graduate Programs"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 3-3-138 Sugimoto, Sumiyoshi-ku, Osaka 558-8585, Japan (Sugimoto Campus)
+  capacity: null
+  name_en: Osaka Metropolitan University
+  name_ja: 大阪公立大学
+category: university
+faculties:
+- Faculty of Literature and Human Sciences
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Sustainable System Science
+- Faculty of Urban Management
+- Faculty of Medicine
+- Faculty of Nursing
+- Faculty of Veterinary Science
+- Faculty of Human Life Science
+features:
+- Japan's Newest Comprehensive Public University
+- Top-Tier Research Institution
+- Located in Japan's Second Largest Economic Region (Kansai)
+- EJU Required (for most undergraduate programs)
+- Growing Portfolio of English-Taught Graduate Programs
+id: univ_osaka-metropolitan-university-omu-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approx. 35-40% (Overall)
+  international_students: 750
+tags:
+- Japan's Newest Comprehensive Public University
+- Top-Tier Research Institution
+- Located in Japan's Second Largest Economic Region (Kansai)
+- EJU Required (for most undergraduate programs)
+- Growing Portfolio of English-Taught Graduate Programs
+thumbnail: /static/img/pin-univ.png
+title: Osaka Metropolitan University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview

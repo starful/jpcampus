@@ -1,70 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県尼崎市南塚口町１-20-17",
-    "capacity": 140,
-    "name_en": "Kobe Institute of Japanese Language",
-    "name_ja": "神戸日語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "General 2-Year Course",
-      "total_fees": 1503000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "General 1 Year 9-Month Course",
-      "total_fees": 1331000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "General 1 Year 6-Month Course",
-      "total_fees": 1157000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Conversation",
-    "Higher Education Preparation",
-    "EJU Preparation",
-    "Dormitory",
-    "Private Room",
-    "Scholarship",
-    "Science Stream",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Course"
-  ],
-  "id": "school_kobe-nichigo-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 34.7540145,
-    "lng": 135.4122723
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=583",
-  "stats": {},
-  "tags": [
-    "Conversation",
-    "Higher Education Preparation",
-    "EJU Preparation",
-    "Dormitory",
-    "Private Room",
-    "Scholarship",
-    "Science Stream",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kobe Institute of Japanese Language",
-  "tuition": {},
-  "description": "Kobe Institute of Japanese Language offers comprehensive Japanese language education with a focus on university preparation, located in Amagasaki, Hyogo.",
-  "translated": true
-}
+basic_info:
+  address: 兵庫県尼崎市南塚口町１-20-17
+  capacity: 140
+  name_en: Kobe Institute of Japanese Language
+  name_ja: 神戸日語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: General 2-Year Course
+  total_fees: 1503000
+- admission_month: '7'
+  course_name: General 1 Year 9-Month Course
+  total_fees: 1331000
+- admission_month: '10'
+  course_name: General 1 Year 6-Month Course
+  total_fees: 1157000
+description: Kobe Institute of Japanese Language offers comprehensive Japanese language
+  education with a focus on university preparation, located in Amagasaki, Hyogo.
+faculties: []
+features:
+- Conversation
+- Higher Education Preparation
+- EJU Preparation
+- Dormitory
+- Private Room
+- Scholarship
+- Science Stream
+- Business Japanese
+- Art
+- Design
+- Short-Term Course
+id: school_kobe-nichigo-gakuin
+lang: en
+layout: school
+location:
+  lat: 34.7540145
+  lng: 135.4122723
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=583
+stats: {}
+tags:
+- Conversation
+- Higher Education Preparation
+- EJU Preparation
+- Dormitory
+- Private Room
+- Scholarship
+- Science Stream
+- Business Japanese
+- Art
+- Design
+- Short-Term Course
+thumbnail: /static/img/pin-school.png
+title: Kobe Institute of Japanese Language
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview

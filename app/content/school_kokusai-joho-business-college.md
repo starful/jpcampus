@@ -1,54 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "1-2-5 Odori, Utsunomiya, Tochigi Prefecture",
-    "capacity": 80,
-    "name_en": "International Information Business College",
-    "name_ja": "国際情報ビジネス専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1315000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 1015000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Advancement Support",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Short-Term Courses"
-  ],
-  "id": "school_kokusai-joho-business-college",
-  "layout": "school",
-  "location": {
-    "lat": 36.5611903,
-    "lng": 139.8900542
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=35",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "University Advancement Support",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "International Information Business College",
-  "tuition": {},
-  "description": "International Information Business College offers comprehensive Japanese language programs and university preparatory courses in Utsunomiya, Tochigi, providing a supportive environment for international students pursuing higher education in Japan.",
-  "translated": true
-}
+basic_info:
+  address: 1-2-5 Odori, Utsunomiya, Tochigi Prefecture
+  capacity: 80
+  name_en: International Information Business College
+  name_ja: 国際情報ビジネス専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1315000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1015000
+description: International Information Business College offers comprehensive Japanese
+  language programs and university preparatory courses in Utsunomiya, Tochigi, providing
+  a supportive environment for international students pursuing higher education in
+  Japan.
+faculties: []
+features:
+- University Advancement Support
+- EJU Preparation
+- Dormitory Available
+- Short-Term Courses
+id: school_kokusai-joho-business-college
+lang: en
+layout: school
+location:
+  lat: 36.5611903
+  lng: 139.8900542
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=35
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- University Advancement Support
+- EJU Preparation
+- Dormitory Available
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: International Information Business College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

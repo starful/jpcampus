@@ -1,54 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-the-ryukyus-okinawa",
-  "title": "University of the Ryukyus",
-  "category": "university",
-  "tags": [
-    "Subtropical Island Location",
-    "Marine Science Research Focus",
-    "National University Status",
-    "EJU Required for Undergraduates",
-    "Tuition Fee Exemptions Available",
-    "Strong Regional and Ryukyuan Cultural Studies"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "琉球大学",
-    "name_en": "University of the Ryukyus",
-    "address": "1 Senbaru, Nishihara-cho, Nakagami-gun, Okinawa 903-0213, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 280,
-    "acceptance_rate": "30-40%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Law and Letters (Humanities and Social Sciences)",
-    "Faculty of Education",
-    "Faculty of Medicine",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "Subtropical Island Location",
-    "Marine Science Research Focus",
-    "National University Status",
-    "EJU Required for Undergraduates",
-    "Tuition Fee Exemptions Available",
-    "Strong Regional and Ryukyuan Cultural Studies"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 1 Senbaru, Nishihara-cho, Nakagami-gun, Okinawa 903-0213, Japan
+  capacity: null
+  name_en: University of the Ryukyus
+  name_ja: 琉球大学
+category: university
+faculties:
+- Faculty of Law and Letters (Humanities and Social Sciences)
+- Faculty of Education
+- Faculty of Medicine
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- Subtropical Island Location
+- Marine Science Research Focus
+- National University Status
+- EJU Required for Undergraduates
+- Tuition Fee Exemptions Available
+- Strong Regional and Ryukyuan Cultural Studies
+id: univ_university-of-the-ryukyus-okinawa
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-40%
+  international_students: 280
+tags:
+- Subtropical Island Location
+- Marine Science Research Focus
+- National University Status
+- EJU Required for Undergraduates
+- Tuition Fee Exemptions Available
+- Strong Regional and Ryukyuan Cultural Studies
+thumbnail: /static/img/pin-univ.png
+title: University of the Ryukyus
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview

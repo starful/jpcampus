@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "packing-tech",
-  "title": "Tech Essentials for Studying in Japan",
-  "category": "Preparation",
-  "tags": [
-    "Preparation"
-  ],
-  "description": "Laptops, adapters, and useful apps to bring.",
-  "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
-  "date": "2026-01-13"
-}
+category: Preparation
+date: '2026-01-13'
+description: Laptops, adapters, and useful apps to bring.
+id: packing-tech
+lang: en
+layout: guide
+tags:
+- Preparation
+thumbnail: https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500
+title: Tech Essentials for Studying in Japan
 ---
 
 # Tech Essentials for Studying in Japan: Your Digital Survival Guide

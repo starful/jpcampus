@@ -1,63 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "school_yell-gakuen-japanese-language-education-department",
-  "title": "Yell Gakuen Japanese Language Education Department",
-  "category": "school",
-  "tags": [
-    "High-Level University Progression Focus (EJU and Entrance Exam Preparation)",
-    "Specialized Tracks (Science, Art/Design, Business Japanese)",
-    "Large Capacity and Central Osaka Location (Namba)",
-    "School-Managed Dormitories with Single Room Options",
-    "Robust Scholarship and Financial Aid Programs",
-    "Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6603803,
-    "lng": 135.5001688
-  },
-  "basic_info": {
-    "name_ja": "エール学園日本語教育学科",
-    "address": "大阪府大阪市浪速区難波中3-13-1",
-    "capacity": 640,
-    "name_en": "Yell Gakuen Japanese Language Education Department"
-  },
-  "stats": {
-    "international_students": 600,
-    "capacity": 640
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Level University Progression Focus (EJU and Entrance Exam Preparation)",
-    "Specialized Tracks (Science, Art/Design, Business Japanese)",
-    "Large Capacity and Central Osaka Location (Namba)",
-    "School-Managed Dormitories with Single Room Options",
-    "Robust Scholarship and Financial Aid Programs",
-    "Short-Term Study Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語教育学科",
-      "admission_month": "10",
-      "total_fees": 1213500
-    },
-    {
-      "course_name": "日本語教育学科",
-      "admission_month": "4",
-      "total_fees": 845000
-    },
-    {
-      "course_name": "日本語教育学科",
-      "admission_month": "4",
-      "total_fees": 1600000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=333",
-  "description": "Yell Gakuen's Japanese Language Education Department, located in central Osaka (Namba), focuses on preparing students for Japanese universities. They offer specialized tracks, school dormitories, and robust scholarships.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市浪速区難波中3-13-1
+  capacity: 640
+  name_en: Yell Gakuen Japanese Language Education Department
+  name_ja: エール学園日本語教育学科
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語教育学科
+  total_fees: 1213500
+- admission_month: '4'
+  course_name: 日本語教育学科
+  total_fees: 845000
+- admission_month: '4'
+  course_name: 日本語教育学科
+  total_fees: 1600000
+description: Yell Gakuen's Japanese Language Education Department, located in central
+  Osaka (Namba), focuses on preparing students for Japanese universities. They offer
+  specialized tracks, school dormitories, and robust scholarships.
+faculties: []
+features:
+- High-Level University Progression Focus (EJU and Entrance Exam Preparation)
+- Specialized Tracks (Science, Art/Design, Business Japanese)
+- Large Capacity and Central Osaka Location (Namba)
+- School-Managed Dormitories with Single Room Options
+- Robust Scholarship and Financial Aid Programs
+- Short-Term Study Options Available
+id: school_yell-gakuen-japanese-language-education-department
+lang: en
+layout: school
+location:
+  lat: 34.6603803
+  lng: 135.5001688
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=333
+stats:
+  capacity: 640
+  international_students: 600
+tags:
+- High-Level University Progression Focus (EJU and Entrance Exam Preparation)
+- Specialized Tracks (Science, Art/Design, Business Japanese)
+- Large Capacity and Central Osaka Location (Namba)
+- School-Managed Dormitories with Single Room Options
+- Robust Scholarship and Financial Aid Programs
+- Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: Yell Gakuen Japanese Language Education Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

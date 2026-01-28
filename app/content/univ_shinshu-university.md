@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shinshu-university",
-  "title": "Shinshu University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "信州大学",
-    "name_en": "Shinshu University",
-    "address": "長野県松本市旭3-1-1",
-    "website": "https://www.shinshu-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 400,
-    "acceptance_rate": "60%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Arts",
-    "Faculty of Education",
-    "Faculty of Economics and Law",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Textile Science and Technology"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 長野県松本市旭3-1-1
+  name_en: Shinshu University
+  name_ja: 信州大学
+  website: https://www.shinshu-u.ac.jp/
+category: university
+faculties:
+- Faculty of Arts
+- Faculty of Education
+- Faculty of Economics and Law
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Textile Science and Technology
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_shinshu-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 60%
+  international_students: 400
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Shinshu University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

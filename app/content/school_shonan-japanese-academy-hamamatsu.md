@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shonan-japanese-academy-hamamatsu",
-  "title": "Shonan Japanese Academy Hamamatsu Campus",
-  "category": "school",
-  "tags": [
-    "Integrated Dormitory Accommodation",
-    "High-Intensity EJU and University Progression Preparation",
-    "Specialized Science Track (Rika) for Engineering Aspirants",
-    "Located in Hamamatsu, Shizuoka Prefecture (Industry Hub)",
-    "Short-Term Study and Cultural Immersion Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7000879,
-    "lng": 137.6924764
-  },
-  "basic_info": {
-    "name_ja": "湘南日本語学園浜松校",
-    "address": "静岡県浜松市中央区入野町6095-1",
-    "capacity": 200,
-    "name_en": "Shonan Japanese Academy Hamamatsu Campus"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Integrated Dormitory Accommodation",
-    "High-Intensity EJU and University Progression Preparation",
-    "Specialized Science Track (Rika) for Engineering Aspirants",
-    "Located in Hamamatsu, Shizuoka Prefecture (Industry Hub)",
-    "Short-Term Study and Cultural Immersion Options"
-  ],
-  "courses": [
-    {
-      "course_name": "一般1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1025000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4",
-      "total_fees": 1340000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=511",
-  "translated": true,
-  "description": "Shonan Japanese Academy Hamamatsu Campus offers intensive EJU preparation, a specialized science track for engineering aspirants, and integrated dormitory accommodation in Hamamatsu, Shizuoka, a major industrial hub."
-}
+basic_info:
+  address: 静岡県浜松市中央区入野町6095-1
+  capacity: 200
+  name_en: Shonan Japanese Academy Hamamatsu Campus
+  name_ja: 湘南日本語学園浜松校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 1025000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1340000
+description: Shonan Japanese Academy Hamamatsu Campus offers intensive EJU preparation,
+  a specialized science track for engineering aspirants, and integrated dormitory
+  accommodation in Hamamatsu, Shizuoka, a major industrial hub.
+faculties: []
+features:
+- Integrated Dormitory Accommodation
+- High-Intensity EJU and University Progression Preparation
+- Specialized Science Track (Rika) for Engineering Aspirants
+- Located in Hamamatsu, Shizuoka Prefecture (Industry Hub)
+- Short-Term Study and Cultural Immersion Options
+id: school_shonan-japanese-academy-hamamatsu
+lang: en
+layout: school
+location:
+  lat: 34.7000879
+  lng: 137.6924764
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=511
+stats: {}
+tags:
+- Integrated Dormitory Accommodation
+- High-Intensity EJU and University Progression Preparation
+- Specialized Science Track (Rika) for Engineering Aspirants
+- Located in Hamamatsu, Shizuoka Prefecture (Industry Hub)
+- Short-Term Study and Cultural Immersion Options
+thumbnail: /static/img/pin-school.png
+title: Shonan Japanese Academy Hamamatsu Campus
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

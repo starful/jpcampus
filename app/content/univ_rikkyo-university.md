@@ -1,57 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_rikkyo-university",
-  "title": "Rikkyo University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.7307392,
-    "lng": 139.7032933
-  },
-  "basic_info": {
-    "name_ja": "立教大学",
-    "name_en": "Rikkyo University",
-    "address": "東京都豊島区西池袋3-34-1",
-    "website": "https://www.rikkyo.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1100,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "faculties": [
-    "College of Arts",
-    "College of Economics",
-    "College of Business Administration",
-    "College of Science",
-    "College of Sociology",
-    "College of Law and Politics",
-    "College of Tourism",
-    "College of Community and Human Services",
-    "College of Intercultural Communication",
-    "College of Psychology",
-    "College of Global Liberal Arts"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 東京都豊島区西池袋3-34-1
+  name_en: Rikkyo University
+  name_ja: 立教大学
+  website: https://www.rikkyo.ac.jp/
+category: university
+faculties:
+- College of Arts
+- College of Economics
+- College of Business Administration
+- College of Science
+- College of Sociology
+- College of Law and Politics
+- College of Tourism
+- College of Community and Human Services
+- College of Intercultural Communication
+- College of Psychology
+- College of Global Liberal Arts
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_rikkyo-university
+lang: en
+layout: school
+location:
+  lat: 35.7307392
+  lng: 139.7032933
+stats:
+  acceptance_rate: 25%
+  international_students: 1100
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Rikkyo University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview

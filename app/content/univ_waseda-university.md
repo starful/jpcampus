@@ -1,59 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "〒169-8050 東京都新宿区戸塚町1-104",
-    "name_en": "Waseda University",
-    "name_ja": "早稲田大学",
-    "website": "https://www.waseda.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Political Science and Economics",
-    "School of Law",
-    "School of Culture, Media and Society",
-    "School of Humanities and Social Sciences",
-    "School of Education",
-    "School of Commerce",
-    "School of Fundamental Science and Engineering",
-    "School of Creative Science and Engineering",
-    "School of Advanced Science and Engineering",
-    "School of Social Sciences",
-    "School of Sport Sciences",
-    "School of International Liberal Studies",
-    "School of Human Sciences"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_waseda-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.709561,
-    "lng": 139.7211843
-  },
-  "stats": {
-    "acceptance_rate": "13%",
-    "international_students": 5700
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Waseda University",
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "translated": true
-}
+basic_info:
+  address: 〒169-8050 東京都新宿区戸塚町1-104
+  name_en: Waseda University
+  name_ja: 早稲田大学
+  website: https://www.waseda.jp/
+category: university
+faculties:
+- School of Political Science and Economics
+- School of Law
+- School of Culture, Media and Society
+- School of Humanities and Social Sciences
+- School of Education
+- School of Commerce
+- School of Fundamental Science and Engineering
+- School of Creative Science and Engineering
+- School of Advanced Science and Engineering
+- School of Social Sciences
+- School of Sport Sciences
+- School of International Liberal Studies
+- School of Human Sciences
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_waseda-university
+lang: en
+layout: school
+location:
+  lat: 35.709561
+  lng: 139.7211843
+stats:
+  acceptance_rate: 13%
+  international_students: 5700
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Waseda University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 🏫 University Overview & Reputation

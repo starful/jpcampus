@@ -1,65 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県広島市安佐南区伴東1-12-18",
-    "capacity": 240,
-    "name_en": "IGL College of Medical and Welfare Japanese Language Department",
-    "name_ja": "IGL医療福祉専門学校日本語学科",
-    "translated": true
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1349000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 1041700
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University/College Prep",
-    "Conversation Focus",
-    "Science Track",
-    "Business Japanese",
-    "Art/Fine Arts Prep",
-    "Design Prep",
-    "Short-term study available"
-  ],
-  "id": "school_igl-medical-welfare-professional-school-japanese-language-department",
-  "layout": "school",
-  "location": {
-    "lat": 34.47127940000001,
-    "lng": 132.4245312
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=396",
-  "stats": {
-    "capacity": 240,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University/College Prep",
-    "Conversation Focus",
-    "Science Track",
-    "Business Japanese",
-    "Art/Fine Arts Prep",
-    "Design Prep",
-    "Short-term study available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "IGL College of Medical and Welfare Japanese Language Department",
-  "tuition": {},
-  "description": "The IGL College of Medical and Welfare Japanese Language Department is located in Hiroshima and offers comprehensive Japanese language education for students aiming for higher education or careers in Japan. They offer courses with specialized tracks like Science, Art, and Design.",
-  "translated": true
-}
+basic_info:
+  address: 広島県広島市安佐南区伴東1-12-18
+  capacity: 240
+  name_en: IGL College of Medical and Welfare Japanese Language Department
+  name_ja: IGL医療福祉専門学校日本語学科
+  translated: true
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1349000
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1041700
+description: The IGL College of Medical and Welfare Japanese Language Department is
+  located in Hiroshima and offers comprehensive Japanese language education for students
+  aiming for higher education or careers in Japan. They offer courses with specialized
+  tracks like Science, Art, and Design.
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University/College Prep
+- Conversation Focus
+- Science Track
+- Business Japanese
+- Art/Fine Arts Prep
+- Design Prep
+- Short-term study available
+id: school_igl-medical-welfare-professional-school-japanese-language-department
+lang: en
+layout: school
+location:
+  lat: 34.47127940000001
+  lng: 132.4245312
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=396
+stats:
+  capacity: 240
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University/College Prep
+- Conversation Focus
+- Science Track
+- Business Japanese
+- Art/Fine Arts Prep
+- Design Prep
+- Short-term study available
+thumbnail: /static/img/pin-school.png
+title: IGL College of Medical and Welfare Japanese Language Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

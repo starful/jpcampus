@@ -1,64 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_fukaya-kokusai-gaigo-gakuin",
-  "title": "Fukaya Kokusai Gaigo Gakuin (Fukaya International Language School)",
-  "category": "school",
-  "tags": [
-    "On-Campus/Affiliated Dormitory",
-    "EJU Preparation Focus",
-    "Comprehensive Higher Education Progression",
-    "Business Japanese and Career Tracks",
-    "Robust Scholarship Opportunities",
-    "Single Room Dormitory Options Available",
-    "Specialized Science Track Preparation (Rikei)",
-    "Strong Conversational Skills Focus",
-    "Art and Design Entrance Exam Preparation",
-    "Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.1943848,
-    "lng": 139.2924845
-  },
-  "basic_info": {
-    "name_ja": "深谷国際外語学院",
-    "address": "埼玉県深谷市稲荷町1-17-16",
-    "capacity": 100,
-    "name_en": "Fukaya Kokusai Gaigo Gakuin (Fukaya International Language School)"
-  },
-  "stats": {
-    "international_students": 90,
-    "capacity": 100
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "On-Campus/Affiliated Dormitory",
-    "EJU Preparation Focus",
-    "Comprehensive Higher Education Progression",
-    "Business Japanese and Career Tracks",
-    "Robust Scholarship Opportunities",
-    "Single Room Dormitory Options Available",
-    "Specialized Science Track Preparation (Rikei)",
-    "Strong Conversational Skills Focus",
-    "Art and Design Entrance Exam Preparation",
-    "Short-Term Study Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1340000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1030000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=556"
-}
+basic_info:
+  address: 埼玉県深谷市稲荷町1-17-16
+  capacity: 100
+  name_en: Fukaya Kokusai Gaigo Gakuin (Fukaya International Language School)
+  name_ja: 深谷国際外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1340000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1030000
+faculties: []
+features:
+- On-Campus/Affiliated Dormitory
+- EJU Preparation Focus
+- Comprehensive Higher Education Progression
+- Business Japanese and Career Tracks
+- Robust Scholarship Opportunities
+- Single Room Dormitory Options Available
+- Specialized Science Track Preparation (Rikei)
+- Strong Conversational Skills Focus
+- Art and Design Entrance Exam Preparation
+- Short-Term Study Programs
+id: school_fukaya-kokusai-gaigo-gakuin
+lang: en
+layout: school
+location:
+  lat: 36.1943848
+  lng: 139.2924845
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=556
+stats:
+  capacity: 100
+  international_students: 90
+tags:
+- On-Campus/Affiliated Dormitory
+- EJU Preparation Focus
+- Comprehensive Higher Education Progression
+- Business Japanese and Career Tracks
+- Robust Scholarship Opportunities
+- Single Room Dormitory Options Available
+- Specialized Science Track Preparation (Rikei)
+- Strong Conversational Skills Focus
+- Art and Design Entrance Exam Preparation
+- Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: Fukaya Kokusai Gaigo Gakuin (Fukaya International Language School)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

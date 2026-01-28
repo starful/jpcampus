@@ -1,55 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yokohama-city-university-ycu-comprehensive-guide",
-  "title": "Yokohama City University",
-  "category": "university",
-  "tags": [
-    "Highly Competitive Public University",
-    "Pioneering Data Science Faculty (established 2018)",
-    "Strong Medical and Life Science Research",
-    "Municipal Focus with Global Reach",
-    "EJU Required for Most Undergraduate Programs",
-    "Strategic Location in Metropolitan Yokohama"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "横浜市立大学",
-    "name_en": "Yokohama City University",
-    "address": "1-1 Kanazawa-Hakkei, Kanazawa-ku, Yokohama, 236-0027, Japan (Main Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 250,
-    "acceptance_rate": "Est. 20%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Relations",
-    "Faculty of Data Science",
-    "Faculty of Economics and Business Administration",
-    "School of Medicine",
-    "Graduate School of Urban Social and Cultural Studies",
-    "Graduate School of International Management",
-    "Graduate School of Medical Life Science"
-  ],
-  "features": [
-    "Highly Competitive Public University",
-    "Pioneering Data Science Faculty (established 2018)",
-    "Strong Medical and Life Science Research",
-    "Municipal Focus with Global Reach",
-    "EJU Required for Most Undergraduate Programs",
-    "Strategic Location in Metropolitan Yokohama"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 1-1 Kanazawa-Hakkei, Kanazawa-ku, Yokohama, 236-0027, Japan (Main Campus)
+  capacity: null
+  name_en: Yokohama City University
+  name_ja: 横浜市立大学
+category: university
+faculties:
+- Faculty of International Relations
+- Faculty of Data Science
+- Faculty of Economics and Business Administration
+- School of Medicine
+- Graduate School of Urban Social and Cultural Studies
+- Graduate School of International Management
+- Graduate School of Medical Life Science
+features:
+- Highly Competitive Public University
+- Pioneering Data Science Faculty (established 2018)
+- Strong Medical and Life Science Research
+- Municipal Focus with Global Reach
+- EJU Required for Most Undergraduate Programs
+- Strategic Location in Metropolitan Yokohama
+id: univ_yokohama-city-university-ycu-comprehensive-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Est. 20%
+  international_students: 250
+tags:
+- Highly Competitive Public University
+- Pioneering Data Science Faculty (established 2018)
+- Strong Medical and Life Science Research
+- Municipal Focus with Global Reach
+- EJU Required for Most Undergraduate Programs
+- Strategic Location in Metropolitan Yokohama
+thumbnail: /static/img/pin-univ.png
+title: Yokohama City University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview

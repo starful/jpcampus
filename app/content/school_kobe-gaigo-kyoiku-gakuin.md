@@ -1,67 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県神戸市長田区六番町5-6-1",
-    "capacity": 516,
-    "name_en": "Kobe Institute of Foreign Languages",
-    "name_ja": "神戸外語教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1462500
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1291875
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1121250
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 950625
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Preparatory Courses",
-    "Conversation Skills",
-    "Short-term Study",
-    "Science Stream (STEM) Prep"
-  ],
-  "id": "school_kobe-gaigo-kyoiku-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 34.6716499,
-    "lng": 135.1532515
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=365",
-  "stats": {
-    "capacity": 516,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Preparatory Courses",
-    "Conversation Skills",
-    "Short-term Study",
-    "Science Stream (STEM) Prep"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kobe Institute of Foreign Languages",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 兵庫県神戸市長田区六番町5-6-1
+  capacity: 516
+  name_en: Kobe Institute of Foreign Languages
+  name_ja: 神戸外語教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1462500
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1291875
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1121250
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 950625
+faculties: []
+features:
+- Dormitory Available
+- EJU Preparation
+- University Preparatory Courses
+- Conversation Skills
+- Short-term Study
+- Science Stream (STEM) Prep
+id: school_kobe-gaigo-kyoiku-gakuin
+lang: en
+layout: school
+location:
+  lat: 34.6716499
+  lng: 135.1532515
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=365
+stats:
+  capacity: 516
+  international_students: 0
+tags:
+- Dormitory Available
+- EJU Preparation
+- University Preparatory Courses
+- Conversation Skills
+- Short-term Study
+- Science Stream (STEM) Prep
+thumbnail: /static/img/pin-school.png
+title: Kobe Institute of Foreign Languages
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

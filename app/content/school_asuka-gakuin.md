@@ -1,73 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "神奈川県横浜市中区日ノ出町1-36",
-    "capacity": 594,
-    "name_en": "Asuka Academy",
-    "name_ja": "飛鳥学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1634000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1445000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1256000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 1067000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般コース",
-      "total_fees": 1634000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focus",
-    "Short-Term Courses",
-    "Science Focused"
-  ],
-  "id": "school_asuka-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 35.44512,
-    "lng": 139.6266009
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=246",
-  "stats": {
-    "capacity": 594,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focus",
-    "Short-Term Courses",
-    "Science Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Asuka Academy",
-  "tuition": {},
-  "translated": true,
-  "description": "Asuka Academy in Yokohama provides international students with a strong foundation in Japanese language and culture, preparing them for academic and professional success in Japan."
-}
+basic_info:
+  address: 神奈川県横浜市中区日ノ出町1-36
+  capacity: 594
+  name_en: Asuka Academy
+  name_ja: 飛鳥学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1634000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1445000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1256000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 1067000
+- admission_month: '4'
+  course_name: 一般コース
+  total_fees: 1634000
+description: Asuka Academy in Yokohama provides international students with a strong
+  foundation in Japanese language and culture, preparing them for academic and professional
+  success in Japan.
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focus
+- Short-Term Courses
+- Science Focused
+id: school_asuka-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.44512
+  lng: 139.6266009
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=246
+stats:
+  capacity: 594
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focus
+- Short-Term Courses
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: Asuka Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

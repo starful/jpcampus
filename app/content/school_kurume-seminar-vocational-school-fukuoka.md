@@ -1,61 +1,59 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kurume-seminar-vocational-school-fukuoka",
-  "title": "Kurume Seminar Vocational School",
-  "category": "school",
-  "tags": [
-    "Accredited Vocational School Status (Senmon Gakko) ensures high academic standards and recognized visa support.",
-    "Intensive preparation for EJU (Examination for Japanese University Admission) and N1/N2 JLPT levels, focused primarily on advanced placement.",
-    "On-campus dormitory availability provides convenient, affordable, and secure living arrangements immediately upon arrival.",
-    "Located in Kurume City, Fukuoka Prefecture, offering a significantly lower cost of living compared to major metropolitan areas.",
-    "Dual pathways curriculum covering both University/Graduate School advancement and specialized Business Japanese proficiency."
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 33.3107028,
-    "lng": 130.5225888
-  },
-  "basic_info": {
-    "name_ja": "専修学校久留米ゼミナール",
-    "address": "福岡県久留米市天神町2-55",
-    "capacity": 280,
-    "name_en": "Kurume Seminar Vocational School"
-  },
-  "stats": {
-    "international_students": 250,
-    "capacity": 280
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Accredited Vocational School Status (Senmon Gakko) ensures high academic standards and recognized visa support.",
-    "Intensive preparation for EJU (Examination for Japanese University Admission) and N1/N2 JLPT levels, focused primarily on advanced placement.",
-    "On-campus dormitory availability provides convenient, affordable, and secure living arrangements immediately upon arrival.",
-    "Located in Kurume City, Fukuoka Prefecture, offering a significantly lower cost of living compared to major metropolitan areas.",
-    "Dual pathways curriculum covering both University/Graduate School advancement and specialized Business Japanese proficiency."
-  ],
-  "courses": [
-    {
-      "course_name": "日本語総合1年コース",
-      "admission_month": "4",
-      "total_fees": 830000
-    },
-    {
-      "course_name": "日本語総合2年コース",
-      "admission_month": "4",
-      "total_fees": 1530000
-    },
-    {
-      "course_name": "日本語総合1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1180000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=613",
-  "description": "Kurume Seminar Vocational School offers intensive Japanese language education with pathways to university, graduate school, and career advancement in Japan.",
-  "translated": true
-}
+basic_info:
+  address: 福岡県久留米市天神町2-55
+  capacity: 280
+  name_en: Kurume Seminar Vocational School
+  name_ja: 専修学校久留米ゼミナール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語総合1年コース
+  total_fees: 830000
+- admission_month: '4'
+  course_name: 日本語総合2年コース
+  total_fees: 1530000
+- admission_month: '10'
+  course_name: 日本語総合1.5年コース
+  total_fees: 1180000
+description: Kurume Seminar Vocational School offers intensive Japanese language education
+  with pathways to university, graduate school, and career advancement in Japan.
+faculties: []
+features:
+- Accredited Vocational School Status (Senmon Gakko) ensures high academic standards
+  and recognized visa support.
+- Intensive preparation for EJU (Examination for Japanese University Admission) and
+  N1/N2 JLPT levels, focused primarily on advanced placement.
+- On-campus dormitory availability provides convenient, affordable, and secure living
+  arrangements immediately upon arrival.
+- Located in Kurume City, Fukuoka Prefecture, offering a significantly lower cost
+  of living compared to major metropolitan areas.
+- Dual pathways curriculum covering both University/Graduate School advancement and
+  specialized Business Japanese proficiency.
+id: school_kurume-seminar-vocational-school-fukuoka
+lang: en
+layout: school
+location:
+  lat: 33.3107028
+  lng: 130.5225888
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=613
+stats:
+  capacity: 280
+  international_students: 250
+tags:
+- Accredited Vocational School Status (Senmon Gakko) ensures high academic standards
+  and recognized visa support.
+- Intensive preparation for EJU (Examination for Japanese University Admission) and
+  N1/N2 JLPT levels, focused primarily on advanced placement.
+- On-campus dormitory availability provides convenient, affordable, and secure living
+  arrangements immediately upon arrival.
+- Located in Kurume City, Fukuoka Prefecture, offering a significantly lower cost
+  of living compared to major metropolitan areas.
+- Dual pathways curriculum covering both University/Graduate School advancement and
+  specialized Business Japanese proficiency.
+thumbnail: /static/img/pin-school.png
+title: Kurume Seminar Vocational School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

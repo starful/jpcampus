@@ -1,59 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ecc-japanese-institute-shinjuku",
-  "title": "ECC Japanese Language Institute, Shinjuku Campus",
-  "category": "school",
-  "tags": [
-    "Part of the renowned ECC education group, ensuring quality pedagogy",
-    "Intensive EJU (Examination for Japanese University Admission) and Higher Education Progression Focus",
-    "Boutique School Environment with high teacher-to-student ratio in Central Shinjuku",
-    "Comprehensive academic counseling for university and graduate school entry",
-    "Exceptional urban connectivity and access to cultural and employment opportunities"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6975726,
-    "lng": 139.6978851
-  },
-  "basic_info": {
-    "name_ja": "ECC日本語学院 新宿校",
-    "address": "東京都新宿区西新宿7-6-4 ECC東京本部ビル1F",
-    "capacity": 100,
-    "name_en": "ECC Japanese Language Institute, Shinjuku Campus"
-  },
-  "stats": {
-    "international_students": 90,
-    "capacity": 100
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Part of the renowned ECC education group, ensuring quality pedagogy",
-    "Intensive EJU (Examination for Japanese University Admission) and Higher Education Progression Focus",
-    "Boutique School Environment with high teacher-to-student ratio in Central Shinjuku",
-    "Comprehensive academic counseling for university and graduate school entry",
-    "Exceptional urban connectivity and access to cultural and employment opportunities"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語総合1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1202750
-    },
-    {
-      "course_name": "日本語総合1年コース",
-      "admission_month": "4,10",
-      "total_fees": 825500
-    },
-    {
-      "course_name": "日本語総合2年コース",
-      "admission_month": "4",
-      "total_fees": 1574000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=574"
-}
+basic_info:
+  address: 東京都新宿区西新宿7-6-4 ECC東京本部ビル1F
+  capacity: 100
+  name_en: ECC Japanese Language Institute, Shinjuku Campus
+  name_ja: ECC日本語学院 新宿校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語総合1年6か月コース
+  total_fees: 1202750
+- admission_month: 4,10
+  course_name: 日本語総合1年コース
+  total_fees: 825500
+- admission_month: '4'
+  course_name: 日本語総合2年コース
+  total_fees: 1574000
+faculties: []
+features:
+- Part of the renowned ECC education group, ensuring quality pedagogy
+- Intensive EJU (Examination for Japanese University Admission) and Higher Education
+  Progression Focus
+- Boutique School Environment with high teacher-to-student ratio in Central Shinjuku
+- Comprehensive academic counseling for university and graduate school entry
+- Exceptional urban connectivity and access to cultural and employment opportunities
+id: school_ecc-japanese-institute-shinjuku
+lang: en
+layout: school
+location:
+  lat: 35.6975726
+  lng: 139.6978851
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=574
+stats:
+  capacity: 100
+  international_students: 90
+tags:
+- Part of the renowned ECC education group, ensuring quality pedagogy
+- Intensive EJU (Examination for Japanese University Admission) and Higher Education
+  Progression Focus
+- Boutique School Environment with high teacher-to-student ratio in Central Shinjuku
+- Comprehensive academic counseling for university and graduate school entry
+- Exceptional urban connectivity and access to cultural and employment opportunities
+thumbnail: /static/img/pin-school.png
+title: ECC Japanese Language Institute, Shinjuku Campus
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

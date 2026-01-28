@@ -1,55 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市伏見区深草塚本町67",
-    "name_en": "Ryukoku University",
-    "name_ja": "龍谷大学",
-    "website": "https://www.ryukoku.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Science and Technology",
-    "Faculty of Sociology",
-    "Faculty of Policy Science",
-    "Faculty of International Studies",
-    "Faculty of Agriculture",
-    "Faculty of Intercultural Communication"
-  ],
-  "features": [
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "id": "univ_ryukoku-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "40%",
-    "international_students": 384
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Ryukoku University",
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "Ryukoku University, founded in 1639, is a private university in Kyoto, Japan with a strong tradition in Buddhist studies and a wide range of modern faculties. Known for its commitment to global citizenship and intercultural understanding.",
-  "translated": true
-}
+basic_info:
+  address: 京都府京都市伏見区深草塚本町67
+  name_en: Ryukoku University
+  name_ja: 龍谷大学
+  website: https://www.ryukoku.ac.jp/
+category: university
+description: Ryukoku University, founded in 1639, is a private university in Kyoto,
+  Japan with a strong tradition in Buddhist studies and a wide range of modern faculties.
+  Known for its commitment to global citizenship and intercultural understanding.
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Science and Technology
+- Faculty of Sociology
+- Faculty of Policy Science
+- Faculty of International Studies
+- Faculty of Agriculture
+- Faculty of Intercultural Communication
+features:
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+id: univ_ryukoku-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40%
+  international_students: 384
+tags:
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+thumbnail: /static/img/pin-univ.png
+title: Ryukoku University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview & Reputation

@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "culture-shock",
-  "title": "Top 10 Culture Shocks for Students in Japan",
-  "category": "Culture",
-  "tags": [
-    "Culture"
-  ],
-  "description": "From trash separation to 'honne' and 'tatemae'.",
-  "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-01-28"
-}
+category: Culture
+date: '2026-01-28'
+description: From trash separation to 'honne' and 'tatemae'.
+id: culture-shock
+lang: en
+layout: guide
+tags:
+- Culture
+thumbnail: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500
+title: Top 10 Culture Shocks for Students in Japan
 ---
 
 # Mastering the Whirlwind: Top 10 Culture Shocks for Students in Japan

@@ -1,65 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_midream-japanese-language-school-shinjuku",
-  "title": "Midream Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Specialized University Progression (EJU Focus)",
-    "Dedicated Fine Arts Preparation Program",
-    "Strategic Location in Shinjuku (Tokyo)",
-    "Flexible Long-term and Short-term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7041144,
-    "lng": 139.699733
-  },
-  "basic_info": {
-    "name_ja": "ミッドリーム日本語学校",
-    "address": "東京都新宿区百人町2-7-11",
-    "capacity": 890,
-    "name_en": "Midream Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized University Progression (EJU Focus)",
-    "Dedicated Fine Arts Preparation Program",
-    "Strategic Location in Shinjuku (Tokyo)",
-    "Flexible Long-term and Short-term Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1436000
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1266000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1096000
-    },
-    {
-      "course_name": "進学1年3か月コース",
-      "admission_month": "1",
-      "total_fees": 926000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4",
-      "total_fees": 1436000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=121",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区百人町2-7-11
+  capacity: 890
+  name_en: Midream Japanese Language School
+  name_ja: ミッドリーム日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1436000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1266000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1096000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 926000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1436000
+faculties: []
+features:
+- Specialized University Progression (EJU Focus)
+- Dedicated Fine Arts Preparation Program
+- Strategic Location in Shinjuku (Tokyo)
+- Flexible Long-term and Short-term Study Options
+id: school_midream-japanese-language-school-shinjuku
+lang: en
+layout: school
+location:
+  lat: 35.7041144
+  lng: 139.699733
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=121
+stats: {}
+tags:
+- Specialized University Progression (EJU Focus)
+- Dedicated Fine Arts Preparation Program
+- Strategic Location in Shinjuku (Tokyo)
+- Flexible Long-term and Short-term Study Options
+thumbnail: /static/img/pin-school.png
+title: Midream Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

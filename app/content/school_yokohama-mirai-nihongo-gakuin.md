@@ -1,63 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "神奈川県横浜市南区六ツ川1-873 東洋物産ビル303",
-    "capacity": 87,
-    "name_en": "Yokohama Mirai Japanese Language Academy",
-    "name_ja": "横浜みらい日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1147500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1510000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "Conversation Focused",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Science Stream",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "id": "school_yokohama-mirai-nihongo-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 35.42413130000001,
-    "lng": 139.5848831
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=619",
-  "stats": {
-    "capacity": 87,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Conversation Focused",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Science Stream",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Yokohama Mirai Japanese Language Academy",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 神奈川県横浜市南区六ツ川1-873 東洋物産ビル303
+  capacity: 87
+  name_en: Yokohama Mirai Japanese Language Academy
+  name_ja: 横浜みらい日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1147500
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1510000
+faculties: []
+features:
+- University Preparation
+- Conversation Focused
+- EJU Preparation
+- Dormitory Available
+- Science Stream
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+id: school_yokohama-mirai-nihongo-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.42413130000001
+  lng: 139.5848831
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=619
+stats:
+  capacity: 87
+  international_students: 0
+tags:
+- University Preparation
+- Conversation Focused
+- EJU Preparation
+- Dormitory Available
+- Science Stream
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Yokohama Mirai Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

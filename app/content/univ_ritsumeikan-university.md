@@ -1,64 +1,56 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ritsumeikan-university",
-  "title": "Ritsumeikan University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required (for most Japanese-taught programs)",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "立命館大学",
-    "name_en": "Ritsumeikan University",
-    "address": "56-1 Tojiin Kitamachi, Kita Ward, Kyoto, 603-8577, Japan (Kinugasa Campus)",
-    "website": "http://www.ritsumei.ac.jp/eng/"
-  },
-  "stats": {
-    "international_students": 2600,
-    "acceptance_rate": "Competitive, varies by faculty"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1280000
-  },
-  "faculties": [
-    "College of Law",
-    "College of Economics",
-    "College of Business Administration",
-    "College of Letters",
-    "College of Image Arts and Sciences",
-    "College of International Relations",
-    "College of Policy Science",
-    "College of Comprehensive Psychology",
-    "College of Sociology",
-    "College of Science and Engineering",
-    "College of Information Science and Engineering",
-    "College of Life Sciences",
-    "College of Pharmaceutical Sciences",
-    "College of Sport and Health Science",
-    "College of Global Liberal Arts (GLA)",
-    "Community and Regional Policy Studies (CRPS)",
-    "College of Gastronomy",
-    "College of Data Science"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required (for most Japanese-taught programs)",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 56-1 Tojiin Kitamachi, Kita Ward, Kyoto, 603-8577, Japan (Kinugasa Campus)
+  name_en: Ritsumeikan University
+  name_ja: 立命館大学
+  website: http://www.ritsumei.ac.jp/eng/
+category: university
+faculties:
+- College of Law
+- College of Economics
+- College of Business Administration
+- College of Letters
+- College of Image Arts and Sciences
+- College of International Relations
+- College of Policy Science
+- College of Comprehensive Psychology
+- College of Sociology
+- College of Science and Engineering
+- College of Information Science and Engineering
+- College of Life Sciences
+- College of Pharmaceutical Sciences
+- College of Sport and Health Science
+- College of Global Liberal Arts (GLA)
+- Community and Regional Policy Studies (CRPS)
+- College of Gastronomy
+- College of Data Science
+features:
+- SGU
+- EJU Required (for most Japanese-taught programs)
+- English Program
+- Dormitory
+- Scholarship
+id: univ_ritsumeikan-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive, varies by faculty
+  international_students: 2600
+tags:
+- SGU
+- EJU Required (for most Japanese-taught programs)
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Ritsumeikan University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1280000
 ---
 
 ## University Overview

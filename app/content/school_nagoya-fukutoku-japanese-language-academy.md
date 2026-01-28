@@ -1,88 +1,76 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中区葵2-14-22",
-    "capacity": 300,
-    "name_en": "Nagoya Futoku Japanese Language Academy",
-    "name_ja": "名古屋福徳日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1330000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.6年コース",
-      "total_fees": 1015000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1.9年コース",
-      "total_fees": 1172500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1.3年コース",
-      "total_fees": 857500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Small Class Sizes",
-    "Ability-Based Classes",
-    "Homeroom Teacher System",
-    "International Exchange",
-    "Japanese Culture",
-    "Lifestyle Guidance",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Focus",
-    "University Pathway",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design",
-    "Short-Term Courses"
-  ],
-  "id": "school_nagoya-fukutoku-japanese-language-academy",
-  "layout": "school",
-  "location": {
-    "lat": 35.1699293,
-    "lng": 136.9259032
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=288",
-  "stats": {
-    "capacity": 300,
-    "international_students": 0
-  },
-  "tags": [
-    "Small Class Sizes",
-    "Ability-Based Classes",
-    "Homeroom Teacher System",
-    "International Exchange",
-    "Japanese Culture",
-    "Lifestyle Guidance",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Focus",
-    "University Pathway",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Nagoya Futoku Japanese Language Academy",
-  "tuition": {},
-  "description": "Nagoya Futoku Japanese Language Academy: A supportive environment in central Nagoya for mastering Japanese, preparing for higher education, and experiencing Japanese culture. Features small class sizes, personalized learning, and comprehensive support services.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市中区葵2-14-22
+  capacity: 300
+  name_en: Nagoya Futoku Japanese Language Academy
+  name_ja: 名古屋福徳日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1330000
+- admission_month: '10'
+  course_name: 進学1.6年コース
+  total_fees: 1015000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1172500
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 857500
+description: 'Nagoya Futoku Japanese Language Academy: A supportive environment in
+  central Nagoya for mastering Japanese, preparing for higher education, and experiencing
+  Japanese culture. Features small class sizes, personalized learning, and comprehensive
+  support services.'
+faculties: []
+features:
+- Small Class Sizes
+- Ability-Based Classes
+- Homeroom Teacher System
+- International Exchange
+- Japanese Culture
+- Lifestyle Guidance
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Focus
+- University Pathway
+- Conversation Practice
+- Business Japanese
+- Art & Design
+- Short-Term Courses
+id: school_nagoya-fukutoku-japanese-language-academy
+lang: en
+layout: school
+location:
+  lat: 35.1699293
+  lng: 136.9259032
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=288
+stats:
+  capacity: 300
+  international_students: 0
+tags:
+- Small Class Sizes
+- Ability-Based Classes
+- Homeroom Teacher System
+- International Exchange
+- Japanese Culture
+- Lifestyle Guidance
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Focus
+- University Pathway
+- Conversation Practice
+- Business Japanese
+- Art & Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Nagoya Futoku Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

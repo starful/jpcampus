@@ -1,68 +1,55 @@
 ---
-{
-  "layout": "school",
-  "id": "school_okinawa-jcs-gakuin",
-  "title": "Okinawa JCS Gakuin",
-  "category": "school",
-  "tags": [
-    "Integrated Dormitory System",
-    "Comprehensive EJU Preparation",
-    "University and Vocational School Advancement Support",
-    "Strong Focus on Practical Conversation Skills",
-    "Flexible Short and Long-Term Course Options",
-    "Located in Naha, Okinawa"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 26.215956,
-    "lng": 127.6752645
-  },
-  "basic_info": {
-    "name_ja": "沖縄JCS学院",
-    "address": "沖縄県那覇市久米2-11-13",
-    "capacity": 150,
-    "name_en": "Okinawa JCS Academy"
-  },
-  "stats": {
-    "international_students": 123,
-    "capacity": 150
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Integrated Dormitory System",
-    "Comprehensive EJU Preparation",
-    "University and Vocational School Advancement Support",
-    "Strong Focus on Practical Conversation Skills",
-    "Flexible Short and Long-Term Course Options",
-    "Located in Naha, Okinawa"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1448392
-    },
-    {
-      "course_name": "進学1.9年コース",
-      "admission_month": "7",
-      "total_fees": 1277764
-    },
-    {
-      "course_name": "進学1.6年コース",
-      "admission_month": "10",
-      "total_fees": 1112104
-    },
-    {
-      "course_name": "実用日本語1年コース",
-      "admission_month": "10",
-      "total_fees": 781696
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=453",
-  "description": "Okinawa JCS Academy is a Japanese language school in Naha, Okinawa, offering a supportive learning environment with comprehensive EJU preparation, an integrated dormitory system, and a strong focus on practical conversation skills.",
-  "translated": true
-}
+basic_info:
+  address: 沖縄県那覇市久米2-11-13
+  capacity: 150
+  name_en: Okinawa JCS Academy
+  name_ja: 沖縄JCS学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1448392
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1277764
+- admission_month: '10'
+  course_name: 進学1.6年コース
+  total_fees: 1112104
+- admission_month: '10'
+  course_name: 実用日本語1年コース
+  total_fees: 781696
+description: Okinawa JCS Academy is a Japanese language school in Naha, Okinawa, offering
+  a supportive learning environment with comprehensive EJU preparation, an integrated
+  dormitory system, and a strong focus on practical conversation skills.
+faculties: []
+features:
+- Integrated Dormitory System
+- Comprehensive EJU Preparation
+- University and Vocational School Advancement Support
+- Strong Focus on Practical Conversation Skills
+- Flexible Short and Long-Term Course Options
+- Located in Naha, Okinawa
+id: school_okinawa-jcs-gakuin
+lang: en
+layout: school
+location:
+  lat: 26.215956
+  lng: 127.6752645
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=453
+stats:
+  capacity: 150
+  international_students: 123
+tags:
+- Integrated Dormitory System
+- Comprehensive EJU Preparation
+- University and Vocational School Advancement Support
+- Strong Focus on Practical Conversation Skills
+- Flexible Short and Long-Term Course Options
+- Located in Naha, Okinawa
+thumbnail: /static/img/pin-school.png
+title: Okinawa JCS Gakuin
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

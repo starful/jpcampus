@@ -1,79 +1,64 @@
 ---
-{
-  "layout": "school",
-  "id": "school_asian-international-center-amagasaki",
-  "title": "Asian International Center",
-  "category": "school",
-  "tags": [
-    "Dormitory Availability",
-    "Scholarship Programs",
-    "EJU Preparation Specialist",
-    "Advanced Education Pathway Focus",
-    "Conversational Skills Training",
-    "Business Japanese Training",
-    "Short-term Study Options",
-    "Specialized Science Track (Rikei)",
-    "Specialized Art/Design Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7458612,
-    "lng": 135.4333301
-  },
-  "basic_info": {
-    "name_ja": "アジアンインターナショナルセンター",
-    "address": "兵庫県尼崎市久々知1-9-8",
-    "capacity": 232,
-    "name_en": "Asian International Center"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 232
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory Availability",
-    "Scholarship Programs",
-    "EJU Preparation Specialist",
-    "Advanced Education Pathway Focus",
-    "Conversational Skills Training",
-    "Business Japanese Training",
-    "Short-term Study Options",
-    "Specialized Science Track (Rikei)",
-    "Specialized Art/Design Track"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年3ヶ月コース",
-      "admission_month": "1",
-      "total_fees": 952000
-    },
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1102000
-    },
-    {
-      "course_name": "進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1269000
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1419000
-    },
-    {
-      "course_name": "特別進学コース",
-      "admission_month": "4",
-      "total_fees": 1419000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=546",
-  "translated": true,
-  "description": "Located in Amagasaki, Hyogo, AIC provides specialized academic pathways to Japanese universities with dormitory availability, scholarship programs and EJU preparation."
-}
+basic_info:
+  address: 兵庫県尼崎市久々知1-9-8
+  capacity: 232
+  name_en: Asian International Center
+  name_ja: アジアンインターナショナルセンター
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 952000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1102000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1269000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1419000
+- admission_month: '4'
+  course_name: 特別進学コース
+  total_fees: 1419000
+description: Located in Amagasaki, Hyogo, AIC provides specialized academic pathways
+  to Japanese universities with dormitory availability, scholarship programs and EJU
+  preparation.
+faculties: []
+features:
+- Dormitory Availability
+- Scholarship Programs
+- EJU Preparation Specialist
+- Advanced Education Pathway Focus
+- Conversational Skills Training
+- Business Japanese Training
+- Short-term Study Options
+- Specialized Science Track (Rikei)
+- Specialized Art/Design Track
+id: school_asian-international-center-amagasaki
+lang: en
+layout: school
+location:
+  lat: 34.7458612
+  lng: 135.4333301
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=546
+stats:
+  capacity: 232
+  international_students: null
+tags:
+- Dormitory Availability
+- Scholarship Programs
+- EJU Preparation Specialist
+- Advanced Education Pathway Focus
+- Conversational Skills Training
+- Business Japanese Training
+- Short-term Study Options
+- Specialized Science Track (Rikei)
+- Specialized Art/Design Track
+thumbnail: /static/img/pin-school.png
+title: Asian International Center
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

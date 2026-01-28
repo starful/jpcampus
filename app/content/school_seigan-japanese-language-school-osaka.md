@@ -1,55 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "school_seigan-japanese-language-school-osaka",
-  "title": "Seigan Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Dormitory Accommodation Provided",
-    "Dedicated EJU and JLPT Preparation Tracks",
-    "High Focus on University and Graduate School Progression",
-    "Balanced Curriculum Emphasizing Conversational Fluency (Kaiwa)",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6114007,
-    "lng": 135.5122697
-  },
-  "basic_info": {
-    "name_ja": "せいがん日本語学校",
-    "address": "大阪府大阪市住吉区長居3-2-9",
-    "capacity": 150,
-    "name_en": "Seigan Japanese Language School"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 150
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory Accommodation Provided",
-    "Dedicated EJU and JLPT Preparation Tracks",
-    "High Focus on University and Graduate School Progression",
-    "Balanced Curriculum Emphasizing Conversational Fluency (Kaiwa)",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語総合2年コース",
-      "admission_month": "10",
-      "total_fees": 1460000
-    },
-    {
-      "course_name": "日本語総合1.5年コース",
-      "admission_month": "4",
-      "total_fees": 1115000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=605",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市住吉区長居3-2-9
+  capacity: 150
+  name_en: Seigan Japanese Language School
+  name_ja: せいがん日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語総合2年コース
+  total_fees: 1460000
+- admission_month: '4'
+  course_name: 日本語総合1.5年コース
+  total_fees: 1115000
+faculties: []
+features:
+- Dormitory Accommodation Provided
+- Dedicated EJU and JLPT Preparation Tracks
+- High Focus on University and Graduate School Progression
+- Balanced Curriculum Emphasizing Conversational Fluency (Kaiwa)
+- Flexible Short-Term Study Options Available
+id: school_seigan-japanese-language-school-osaka
+lang: en
+layout: school
+location:
+  lat: 34.6114007
+  lng: 135.5122697
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=605
+stats:
+  capacity: 150
+  international_students: null
+tags:
+- Dormitory Accommodation Provided
+- Dedicated EJU and JLPT Preparation Tracks
+- High Focus on University and Graduate School Progression
+- Balanced Curriculum Emphasizing Conversational Fluency (Kaiwa)
+- Flexible Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: Seigan Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

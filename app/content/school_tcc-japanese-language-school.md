@@ -1,64 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "5-28-4 Arai, Nakano-ku, Tokyo, 165-0026, Japan",
-    "capacity": 222,
-    "name_en": "TCC Japanese Language School",
-    "name_ja": "ＴＣＣ日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Preparation Course (2 Years)",
-      "total_fees": 1228000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "University Preparation Course (1 Year 9 Months)",
-      "total_fees": 1089250
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Preparation Course (1.5 Years)",
-      "total_fees": 950500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "University Preparation Course (1 Year 3 Months)",
-      "total_fees": 811750
-    }
-  ],
-  "description": "Located in Nakano, Tokyo, TCC Japanese Language School specializes exclusively in university preparation courses. They offer rigorous academic instruction, comprehensive preparation for the Examination for Japanese University Admission for International Students (EJU), including specialized Science/STEM tracks, and essential support for international students aspiring to higher education in Japan.",
-  "faculties": [],
-  "features": [
-    "University Advancement",
-    "Dormitory Available",
-    "EJU Preparation",
-    "Science/STEM Track"
-  ],
-  "id": "school_tcc-japanese-language-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.7161971,
-    "lng": 139.6705098
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=185",
-  "stats": {
-    "capacity": 222,
-    "international_students": 222
-  },
-  "tags": [
-    "University Advancement",
-    "Dormitory Available",
-    "EJU Preparation",
-    "Science/STEM Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "TCC Japanese Language School",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 5-28-4 Arai, Nakano-ku, Tokyo, 165-0026, Japan
+  capacity: 222
+  name_en: TCC Japanese Language School
+  name_ja: ＴＣＣ日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Preparation Course (2 Years)
+  total_fees: 1228000
+- admission_month: '7'
+  course_name: University Preparation Course (1 Year 9 Months)
+  total_fees: 1089250
+- admission_month: '10'
+  course_name: University Preparation Course (1.5 Years)
+  total_fees: 950500
+- admission_month: '1'
+  course_name: University Preparation Course (1 Year 3 Months)
+  total_fees: 811750
+description: Located in Nakano, Tokyo, TCC Japanese Language School specializes exclusively
+  in university preparation courses. They offer rigorous academic instruction, comprehensive
+  preparation for the Examination for Japanese University Admission for International
+  Students (EJU), including specialized Science/STEM tracks, and essential support
+  for international students aspiring to higher education in Japan.
+faculties: []
+features:
+- University Advancement
+- Dormitory Available
+- EJU Preparation
+- Science/STEM Track
+id: school_tcc-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.7161971
+  lng: 139.6705098
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=185
+stats:
+  capacity: 222
+  international_students: 222
+tags:
+- University Advancement
+- Dormitory Available
+- EJU Preparation
+- Science/STEM Track
+thumbnail: /static/img/pin-school.png
+title: TCC Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

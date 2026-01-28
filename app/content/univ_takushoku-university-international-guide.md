@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_takushoku-university-international-guide",
-  "title": "Takushoku University",
-  "category": "university",
-  "tags": [
-    "Centennial Tradition of International Education",
-    "Strong Focus on Asian Languages and Regional Studies",
-    "Twin Campus System (Urban Bunkyo and Suburban Hachioji)",
-    "EJU Required",
-    "Limited English Program Availability (Primarily Japanese Taught)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "拓殖大学",
-    "name_en": "Takushoku University",
-    "address": "3-4-14 Kohinata, Bunkyo-ku, Tokyo 112-8585, Japan (Bunkyo Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 1200,
-    "acceptance_rate": "35%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Commerce",
-    "Faculty of Political Science and Economics",
-    "Faculty of Foreign Languages",
-    "Faculty of International Studies",
-    "Faculty of Engineering"
-  ],
-  "features": [
-    "Centennial Tradition of International Education",
-    "Strong Focus on Asian Languages and Regional Studies",
-    "Twin Campus System (Urban Bunkyo and Suburban Hachioji)",
-    "EJU Required",
-    "Limited English Program Availability (Primarily Japanese Taught)"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 3-4-14 Kohinata, Bunkyo-ku, Tokyo 112-8585, Japan (Bunkyo Campus)
+  capacity: null
+  name_en: Takushoku University
+  name_ja: 拓殖大学
+category: university
+faculties:
+- Faculty of Commerce
+- Faculty of Political Science and Economics
+- Faculty of Foreign Languages
+- Faculty of International Studies
+- Faculty of Engineering
+features:
+- Centennial Tradition of International Education
+- Strong Focus on Asian Languages and Regional Studies
+- Twin Campus System (Urban Bunkyo and Suburban Hachioji)
+- EJU Required
+- Limited English Program Availability (Primarily Japanese Taught)
+id: univ_takushoku-university-international-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35%
+  international_students: 1200
+tags:
+- Centennial Tradition of International Education
+- Strong Focus on Asian Languages and Regional Studies
+- Twin Campus System (Urban Bunkyo and Suburban Hachioji)
+- EJU Required
+- Limited English Program Availability (Primarily Japanese Taught)
+thumbnail: /static/img/pin-univ.png
+title: Takushoku University
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## University Overview

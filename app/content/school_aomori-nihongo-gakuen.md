@@ -1,68 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "1-4-8 Sakae-machi, Aomori City, Aomori Prefecture",
-    "capacity": 80,
-    "name_en": "Aomori Japanese Language Academy",
-    "name_ja": "あおもり日本語学園"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "日本語1年半コース",
-      "total_fees": 965000,
-      "course_name_en": "1.5-Year Japanese Course"
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語2年コース",
-      "total_fees": 1450000,
-      "course_name_en": "2-Year Japanese Course"
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Scholarships",
-    "Private Rooms",
-    "Science Focus",
-    "Business Japanese",
-    "Art & Design Focus",
-    "Short-Term Courses"
-  ],
-  "id": "school_aomori-nihongo-gakuen",
-  "layout": "school",
-  "location": {
-    "lat": 40.824271,
-    "lng": 140.7638932
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=603",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Scholarships",
-    "Private Rooms",
-    "Science Focus",
-    "Business Japanese",
-    "Art & Design Focus",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Aomori Japanese Language Academy",
-  "description": "A Japanese language school in Aomori offering various courses, including university preparation, short-term, and business Japanese courses. Features include a dormitory and scholarship opportunities.",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 1-4-8 Sakae-machi, Aomori City, Aomori Prefecture
+  capacity: 80
+  name_en: Aomori Japanese Language Academy
+  name_ja: あおもり日本語学園
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語1年半コース
+  course_name_en: 1.5-Year Japanese Course
+  total_fees: 965000
+- admission_month: '4'
+  course_name: 日本語2年コース
+  course_name_en: 2-Year Japanese Course
+  total_fees: 1450000
+description: A Japanese language school in Aomori offering various courses, including
+  university preparation, short-term, and business Japanese courses. Features include
+  a dormitory and scholarship opportunities.
+faculties: []
+features:
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Conversational Japanese
+- Scholarships
+- Private Rooms
+- Science Focus
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+id: school_aomori-nihongo-gakuen
+lang: en
+layout: school
+location:
+  lat: 40.824271
+  lng: 140.7638932
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=603
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Conversational Japanese
+- Scholarships
+- Private Rooms
+- Science Focus
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Aomori Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

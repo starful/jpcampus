@@ -1,66 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_japan-international-polytechnic-college-japanese-language-department",
-  "title": "Japan International Polytechnic College - Japanese Language Department",
-  "category": "school",
-  "tags": [
-    "Academic Progression Focus (University & Vocational)",
-    "Specialized EJU Preparation Tracks (Science/Rika)",
-    "Comprehensive Dormitory System and Living Support",
-    "Generous Scholarship and Financial Aid Opportunities",
-    "Dedicated Art and Design Progression Pathway",
-    "Intensive Conversational and Business Japanese Training",
-    "High Capacity for Diverse International Enrollment",
-    "Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.822912,
-    "lng": 139.9127977
-  },
-  "basic_info": {
-    "name_ja": "日本国際工科専門学校日本語科",
-    "address": "千葉県松戸市新松戸3-440",
-    "capacity": 720,
-    "name_en": "Japan International Polytechnic College - Japanese Language Department"
-  },
-  "stats": {
-    "international_students": 720,
-    "capacity": 720
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Academic Progression Focus (University & Vocational)",
-    "Specialized EJU Preparation Tracks (Science/Rika)",
-    "Comprehensive Dormitory System and Living Support",
-    "Generous Scholarship and Financial Aid Opportunities",
-    "Dedicated Art and Design Progression Pathway",
-    "Intensive Conversational and Business Japanese Training",
-    "High Capacity for Diverse International Enrollment",
-    "Short-Term Study Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "1-Year Course",
-      "admission_month": "4",
-      "total_fees": 722000
-    },
-    {
-      "course_name": "1.5-Year Course",
-      "admission_month": "10",
-      "total_fees": 1030500
-    },
-    {
-      "course_name": "2-Year Course",
-      "admission_month": "4",
-      "total_fees": 1339000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=76",
-  "translated": true
-}
+basic_info:
+  address: 千葉県松戸市新松戸3-440
+  capacity: 720
+  name_en: Japan International Polytechnic College - Japanese Language Department
+  name_ja: 日本国際工科専門学校日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 1-Year Course
+  total_fees: 722000
+- admission_month: '10'
+  course_name: 1.5-Year Course
+  total_fees: 1030500
+- admission_month: '4'
+  course_name: 2-Year Course
+  total_fees: 1339000
+faculties: []
+features:
+- Academic Progression Focus (University & Vocational)
+- Specialized EJU Preparation Tracks (Science/Rika)
+- Comprehensive Dormitory System and Living Support
+- Generous Scholarship and Financial Aid Opportunities
+- Dedicated Art and Design Progression Pathway
+- Intensive Conversational and Business Japanese Training
+- High Capacity for Diverse International Enrollment
+- Short-Term Study Options Available
+id: school_japan-international-polytechnic-college-japanese-language-department
+lang: en
+layout: school
+location:
+  lat: 35.822912
+  lng: 139.9127977
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=76
+stats:
+  capacity: 720
+  international_students: 720
+tags:
+- Academic Progression Focus (University & Vocational)
+- Specialized EJU Preparation Tracks (Science/Rika)
+- Comprehensive Dormitory System and Living Support
+- Generous Scholarship and Financial Aid Opportunities
+- Dedicated Art and Design Progression Pathway
+- Intensive Conversational and Business Japanese Training
+- High Capacity for Diverse International Enrollment
+- Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: Japan International Polytechnic College - Japanese Language Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

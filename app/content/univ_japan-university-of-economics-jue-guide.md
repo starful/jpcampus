@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_japan-university-of-economics-jue-guide",
-  "title": "Japan University of Economics",
-  "category": "university",
-  "tags": [
-    "Multi-Campus System (Fukuoka, Kobe, Tokyo)",
-    "Strong Focus on Practical Business and Entrepreneurship",
-    "High Ratio of International Students",
-    "EJU Required for Standard Admission Tracks",
-    "Dedicated Career Support for Foreign Graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "日本経済大学",
-    "name_en": "Japan University of Economics",
-    "address": "Fukuoka Campus (Main): 5-7-1 Kogane, Musashigaoka, Dazaifu, Fukuoka 818-0197, Japan. Other campuses in Kobe Sannomiya and Tokyo Shibuya.",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 2500,
-    "acceptance_rate": "55-60%"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Management",
-    "Faculty of Design",
-    "Faculty of Contemporary Business (Kobe)",
-    "Faculty of Global Business and Entrepreneurship (Tokyo)"
-  ],
-  "features": [
-    "Multi-Campus System (Fukuoka, Kobe, Tokyo)",
-    "Strong Focus on Practical Business and Entrepreneurship",
-    "High Ratio of International Students",
-    "EJU Required for Standard Admission Tracks",
-    "Dedicated Career Support for Foreign Graduates"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 'Fukuoka Campus (Main): 5-7-1 Kogane, Musashigaoka, Dazaifu, Fukuoka 818-0197,
+    Japan. Other campuses in Kobe Sannomiya and Tokyo Shibuya.'
+  capacity: null
+  name_en: Japan University of Economics
+  name_ja: 日本経済大学
+category: university
+faculties:
+- Faculty of Economics
+- Faculty of Business Management
+- Faculty of Design
+- Faculty of Contemporary Business (Kobe)
+- Faculty of Global Business and Entrepreneurship (Tokyo)
+features:
+- Multi-Campus System (Fukuoka, Kobe, Tokyo)
+- Strong Focus on Practical Business and Entrepreneurship
+- High Ratio of International Students
+- EJU Required for Standard Admission Tracks
+- Dedicated Career Support for Foreign Graduates
+id: univ_japan-university-of-economics-jue-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-60%
+  international_students: 2500
+tags:
+- Multi-Campus System (Fukuoka, Kobe, Tokyo)
+- Strong Focus on Practical Business and Entrepreneurship
+- High Ratio of International Students
+- EJU Required for Standard Admission Tracks
+- Dedicated Career Support for Foreign Graduates
+thumbnail: /static/img/pin-univ.png
+title: Japan University of Economics
+translated: true
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1180000
 ---
 
 ## University Overview

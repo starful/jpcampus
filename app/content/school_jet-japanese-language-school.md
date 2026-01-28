@@ -1,93 +1,78 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都北区滝野川7-8-9",
-    "capacity": 150,
-    "name_en": "JET Japanese Language School",
-    "name_ja": "ジェット日本語学校",
-    "category": "school",
-    "courses": [
-      {
-        "admission_month": "4, 10",
-        "course_name": "日本語基礎科",
-        "total_fees": 850000
-      },
-      {
-        "admission_month": "4",
-        "course_name": "日本語進学科A",
-        "total_fees": 970000
-      },
-      {
-        "admission_month": "10",
-        "course_name": "日本語進学科B",
-        "total_fees": 1360000
-      }
-    ],
-    "faculties": [],
-    "features": [
-      "Scholarships",
-      "Dormitory",
-      "Further Education Guidance",
-      "EJU Preparation",
-      "Art Studies",
-      "Design Studies"
-    ],
-    "id": "school_jet-japanese-language-school",
-    "layout": "school",
-    "location": {
-      "lat": 35.7453444,
-      "lng": 139.7206697
-    },
-    "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=207",
-    "stats": {
-      "capacity": 150,
-      "international_students": 0
-    },
-    "tags": [
-      "Scholarships",
-      "Dormitory",
-      "Further Education Guidance",
-      "EJU Preparation",
-      "Art Studies",
-      "Design Studies"
-    ],
-    "thumbnail": "/static/img/pin-school.png",
-    "title": "JET Japanese Language School",
-    "tuition": {}
-  },
-  "title": "JET Japanese Language School",
-  "description": "Learn Japanese at JET Japanese Language School in Tokyo. Offers courses for all levels, from beginner to advanced, with preparation for the EJU and pathways to art and design studies. On-site dormitory available.",
-  "features": [
-    "Scholarships",
-    "Dormitory",
-    "Further Education Guidance",
-    "EJU Preparation",
-    "Art Studies",
-    "Design Studies"
-  ],
-  "id": "school_jet-japanese-language-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.7453444,
-    "lng": 139.7206697
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=207",
-  "stats": {
-    "capacity": 150,
-    "international_students": 0
-  },
-  "tags": [
-    "Scholarships",
-    "Dormitory",
-    "Further Education Guidance",
-    "EJU Preparation",
-    "Art Studies",
-    "Design Studies"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 東京都北区滝野川7-8-9
+  capacity: 150
+  category: school
+  courses:
+  - admission_month: 4, 10
+    course_name: 日本語基礎科
+    total_fees: 850000
+  - admission_month: '4'
+    course_name: 日本語進学科A
+    total_fees: 970000
+  - admission_month: '10'
+    course_name: 日本語進学科B
+    total_fees: 1360000
+  faculties: []
+  features:
+  - Scholarships
+  - Dormitory
+  - Further Education Guidance
+  - EJU Preparation
+  - Art Studies
+  - Design Studies
+  id: school_jet-japanese-language-school
+  layout: school
+  location:
+    lat: 35.7453444
+    lng: 139.7206697
+  name_en: JET Japanese Language School
+  name_ja: ジェット日本語学校
+  source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=207
+  stats:
+    capacity: 150
+    international_students: 0
+  tags:
+  - Scholarships
+  - Dormitory
+  - Further Education Guidance
+  - EJU Preparation
+  - Art Studies
+  - Design Studies
+  thumbnail: /static/img/pin-school.png
+  title: JET Japanese Language School
+  tuition: {}
+description: Learn Japanese at JET Japanese Language School in Tokyo. Offers courses
+  for all levels, from beginner to advanced, with preparation for the EJU and pathways
+  to art and design studies. On-site dormitory available.
+features:
+- Scholarships
+- Dormitory
+- Further Education Guidance
+- EJU Preparation
+- Art Studies
+- Design Studies
+id: school_jet-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.7453444
+  lng: 139.7206697
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=207
+stats:
+  capacity: 150
+  international_students: 0
+tags:
+- Scholarships
+- Dormitory
+- Further Education Guidance
+- EJU Preparation
+- Art Studies
+- Design Studies
+thumbnail: /static/img/pin-school.png
+title: JET Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

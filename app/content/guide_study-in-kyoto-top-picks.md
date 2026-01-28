@@ -1,19 +1,18 @@
 ---
-{
-  "layout": "guide",
-  "id": "study-in-kyoto-top-picks",
-  "title": "Study in Kyoto: Top 3 Schools in Japan's Cultural Capital",
-  "category": "Curated List",
-  "is_featured": true,
-  "tags": [
-    "Ranking",
-    "Recommendation",
-    "General"
-  ],
-  "description": "Our curated selection for Study in Kyoto: Top 3 Schools in Japan's Cultural Capital.",
-  "thumbnail": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500",
-  "date": "2026-01-28"
-}
+category: Curated List
+date: '2026-01-28'
+description: 'Our curated selection for Study in Kyoto: Top 3 Schools in Japan''s
+  Cultural Capital.'
+id: study-in-kyoto-top-picks
+is_featured: true
+lang: en
+layout: guide
+tags:
+- Ranking
+- Recommendation
+- General
+thumbnail: https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500
+title: 'Study in Kyoto: Top 3 Schools in Japan''s Cultural Capital'
 ---
 
 ## Study in Kyoto: Top 3 Schools in Japan's Cultural Capital

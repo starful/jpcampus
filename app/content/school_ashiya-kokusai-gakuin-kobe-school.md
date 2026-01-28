@@ -1,54 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ashiya-kokusai-gakuin-kobe-school",
-  "title": "Ashiya Kokusai Gakuin Kobe School",
-  "category": "school",
-  "tags": [
-    "On-Campus/Affiliated Dormitory Included",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive University Progression Focus",
-    "Extremely Small Class Size for Personalized Learning (Capacity: 60)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7179696,
-    "lng": 135.3087393
-  },
-  "basic_info": {
-    "name_ja": "芦屋国際学院神戸校",
-    "address": "兵庫県芦屋市潮見町7-8",
-    "capacity": 60,
-    "name_en": "Ashiya Kokusai Gakuin Kobe School"
-  },
-  "stats": {
-    "international_students": 55,
-    "capacity": 60
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "On-Campus/Affiliated Dormitory Included",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive University Progression Focus",
-    "Extremely Small Class Size for Personalized Learning (Capacity: 60)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1360000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1053000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=529",
-  "translated": true,
-  "description": "Ashiya Kokusai Gakuin Kobe School offers intensive, personalized EJU preparation in a small class setting with on-campus dormitory options, focusing on university progression."
-}
+basic_info:
+  address: 兵庫県芦屋市潮見町7-8
+  capacity: 60
+  name_en: Ashiya Kokusai Gakuin Kobe School
+  name_ja: 芦屋国際学院神戸校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1360000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1053000
+description: Ashiya Kokusai Gakuin Kobe School offers intensive, personalized EJU
+  preparation in a small class setting with on-campus dormitory options, focusing
+  on university progression.
+faculties: []
+features:
+- On-Campus/Affiliated Dormitory Included
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Intensive University Progression Focus
+- 'Extremely Small Class Size for Personalized Learning (Capacity: 60)'
+id: school_ashiya-kokusai-gakuin-kobe-school
+lang: en
+layout: school
+location:
+  lat: 34.7179696
+  lng: 135.3087393
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=529
+stats:
+  capacity: 60
+  international_students: 55
+tags:
+- On-Campus/Affiliated Dormitory Included
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Intensive University Progression Focus
+- 'Extremely Small Class Size for Personalized Learning (Capacity: 60)'
+thumbnail: /static/img/pin-school.png
+title: Ashiya Kokusai Gakuin Kobe School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

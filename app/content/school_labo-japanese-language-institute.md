@@ -1,69 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都文京区千駄木3-33-6 千駄木パークビル",
-    "capacity": 100,
-    "name_en": "LABO Japanese Language Institute",
-    "name_ja": "ラボ日本語教育研修所"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般2年コース",
-      "total_fees": 1384000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1.3年コース",
-      "total_fees": 895000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.6年コース",
-      "total_fees": 1058000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1.9年コース",
-      "total_fees": 1221000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1384000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Higher Education Prep",
-    "EJU Prep",
-    "Fine Arts",
-    "Design"
-  ],
-  "id": "school_labo-japanese-language-institute",
-  "layout": "school",
-  "location": {
-    "lat": 35.7264989,
-    "lng": 139.7631291
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=107",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Higher Education Prep",
-    "EJU Prep",
-    "Fine Arts",
-    "Design"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "LABO Japanese Language Institute",
-  "tuition": {},
-  "description": "Located in Tokyo's Sendagi district, LABO Japanese Language Institute provides comprehensive Japanese language education with a focus on preparing students for higher education, especially in fine arts and design.",
-  "translated": true
-}
+basic_info:
+  address: 東京都文京区千駄木3-33-6 千駄木パークビル
+  capacity: 100
+  name_en: LABO Japanese Language Institute
+  name_ja: ラボ日本語教育研修所
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: 一般2年コース
+  total_fees: 1384000
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 895000
+- admission_month: '10'
+  course_name: 進学1.6年コース
+  total_fees: 1058000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1221000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1384000
+description: Located in Tokyo's Sendagi district, LABO Japanese Language Institute
+  provides comprehensive Japanese language education with a focus on preparing students
+  for higher education, especially in fine arts and design.
+faculties: []
+features:
+- Higher Education Prep
+- EJU Prep
+- Fine Arts
+- Design
+id: school_labo-japanese-language-institute
+lang: en
+layout: school
+location:
+  lat: 35.7264989
+  lng: 139.7631291
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=107
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Higher Education Prep
+- EJU Prep
+- Fine Arts
+- Design
+thumbnail: /static/img/pin-school.png
+title: LABO Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,54 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kudan-nihon-bunka-kenkyujo-japanese-institute",
-  "title": "Kudan Institute of Japanese Language and Culture",
-  "category": "school",
-  "tags": [
-    "Higher Education Progression (Shingaku) Focus",
-    "Specialized EJU Examination Preparation",
-    "Strong Emphasis on Practical, Daily Conversation Fluency",
-    "Small-Scale, Personalized Learning Environment in Central Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7003295,
-    "lng": 139.7545467
-  },
-  "basic_info": {
-    "name_ja": "九段日本文化研究所日本語学院",
-    "address": "東京都千代田区神田三崎町2-7-10　帝都三崎町ビル",
-    "capacity": 170,
-    "name_en": "Kudan Institute of Japanese Language and Culture"
-  },
-  "stats": {
-    "international_students": 155,
-    "capacity": 170
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Higher Education Progression (Shingaku) Focus",
-    "Specialized EJU Examination Preparation",
-    "Strong Emphasis on Practical, Daily Conversation Fluency",
-    "Small-Scale, Personalized Learning Environment in Central Tokyo"
-  ],
-  "courses": [
-    {
-      "course_name": "一般総合日本語コース",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1550000
-    },
-    {
-      "course_name": "一般会話コース",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1162500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=88",
-  "description": "The Kudan Institute of Japanese Language and Culture, located in central Tokyo, offers personalized Japanese language education with a strong focus on university preparation and practical communication skills.",
-  "translated": true
-}
+basic_info:
+  address: 東京都千代田区神田三崎町2-7-10　帝都三崎町ビル
+  capacity: 170
+  name_en: Kudan Institute of Japanese Language and Culture
+  name_ja: 九段日本文化研究所日本語学院
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: 一般総合日本語コース
+  total_fees: 1550000
+- admission_month: 4,7,10,1
+  course_name: 一般会話コース
+  total_fees: 1162500
+description: The Kudan Institute of Japanese Language and Culture, located in central
+  Tokyo, offers personalized Japanese language education with a strong focus on university
+  preparation and practical communication skills.
+faculties: []
+features:
+- Higher Education Progression (Shingaku) Focus
+- Specialized EJU Examination Preparation
+- Strong Emphasis on Practical, Daily Conversation Fluency
+- Small-Scale, Personalized Learning Environment in Central Tokyo
+id: school_kudan-nihon-bunka-kenkyujo-japanese-institute
+lang: en
+layout: school
+location:
+  lat: 35.7003295
+  lng: 139.7545467
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=88
+stats:
+  capacity: 170
+  international_students: 155
+tags:
+- Higher Education Progression (Shingaku) Focus
+- Specialized EJU Examination Preparation
+- Strong Emphasis on Practical, Daily Conversation Fluency
+- Small-Scale, Personalized Learning Environment in Central Tokyo
+thumbnail: /static/img/pin-school.png
+title: Kudan Institute of Japanese Language and Culture
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

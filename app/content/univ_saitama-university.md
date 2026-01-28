@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_saitama-university",
-  "title": "Saitama University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "埼玉大学",
-    "name_en": "Saitama University",
-    "address": "〒338-8570 埼玉県さいたま市桜区大字下大久保255",
-    "website": "https://www.saitama-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 480,
-    "acceptance_rate": "30-40%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒338-8570 埼玉県さいたま市桜区大字下大久保255
+  name_en: Saitama University
+  name_ja: 埼玉大学
+  website: https://www.saitama-u.ac.jp/
+category: university
+faculties:
+- Faculty of Liberal Arts
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_saitama-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-40%
+  international_students: 480
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Saitama University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview

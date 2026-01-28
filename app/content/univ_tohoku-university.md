@@ -1,56 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tohoku-university",
-  "title": "Tohoku University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 38.2515119,
-    "lng": 140.8753007
-  },
-  "basic_info": {
-    "name_ja": "東北大学",
-    "name_en": "Tohoku University",
-    "address": "宮城県仙台市青葉区片平二丁目1-1",
-    "website": "https://www.tohoku.ac.jp/en/"
-  },
-  "stats": {
-    "international_students": 2344,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Arts and Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "School of Medicine",
-    "School of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 宮城県仙台市青葉区片平二丁目1-1
+  name_en: Tohoku University
+  name_ja: 東北大学
+  website: https://www.tohoku.ac.jp/en/
+category: university
+faculties:
+- Faculty of Arts and Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- School of Medicine
+- School of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_tohoku-university
+lang: en
+layout: school
+location:
+  lat: 38.2515119
+  lng: 140.8753007
+stats:
+  acceptance_rate: 25%
+  international_students: 2344
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Tohoku University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview

@@ -1,68 +1,55 @@
 ---
-{
-  "layout": "school",
-  "id": "school_hitachi-gakuin-mito-ibaraki",
-  "title": "Hitachi Gakuin",
-  "category": "school",
-  "tags": [
-    "Comprehensive University Preparation (EJU/JLPT Focus)",
-    "Specialized Academic Tracks (STEM, Arts & Design, Business Japanese)",
-    "On-Campus Dormitory with Single Room Options Available",
-    "Located in Mito City, providing a Focused and Cost-Effective Study Environment",
-    "Small Class Sizes Ensuring Personalized Academic Attention",
-    "Dedicated Programs for Enhanced Conversational Fluency"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.3392771,
-    "lng": 140.4697384
-  },
-  "basic_info": {
-    "name_ja": "常陸学院",
-    "address": "茨城県水戸市元吉田町1818-4",
-    "capacity": 136,
-    "name_en": "Hitachi Gakuin"
-  },
-  "stats": {
-    "international_students": 136,
-    "capacity": 136
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive University Preparation (EJU/JLPT Focus)",
-    "Specialized Academic Tracks (STEM, Arts & Design, Business Japanese)",
-    "On-Campus Dormitory with Single Room Options Available",
-    "Located in Mito City, providing a Focused and Cost-Effective Study Environment",
-    "Small Class Sizes Ensuring Personalized Academic Attention",
-    "Dedicated Programs for Enhanced Conversational Fluency"
-  ],
-  "courses": [
-    {
-      "course_name": "University Prep 2-Year Course",
-      "admission_month": "4",
-      "total_fees": 1366400
-    },
-    {
-      "course_name": "University Prep 1 Year 9 Month Course",
-      "admission_month": "7",
-      "total_fees": 1203600
-    },
-    {
-      "course_name": "University Prep 1.5-Year Course",
-      "admission_month": "10",
-      "total_fees": 1040800
-    },
-    {
-      "course_name": "University Prep 1 Year 3 Month Course",
-      "admission_month": "1",
-      "total_fees": 878000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=29",
-  "description": "Hitachi Gakuin provides comprehensive university preparation in Mito City, Ibaraki, offering specialized tracks, on-campus dorms, and personalized attention in a focused and cost-effective environment.",
-  "translated": true
-}
+basic_info:
+  address: 茨城県水戸市元吉田町1818-4
+  capacity: 136
+  name_en: Hitachi Gakuin
+  name_ja: 常陸学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Prep 2-Year Course
+  total_fees: 1366400
+- admission_month: '7'
+  course_name: University Prep 1 Year 9 Month Course
+  total_fees: 1203600
+- admission_month: '10'
+  course_name: University Prep 1.5-Year Course
+  total_fees: 1040800
+- admission_month: '1'
+  course_name: University Prep 1 Year 3 Month Course
+  total_fees: 878000
+description: Hitachi Gakuin provides comprehensive university preparation in Mito
+  City, Ibaraki, offering specialized tracks, on-campus dorms, and personalized attention
+  in a focused and cost-effective environment.
+faculties: []
+features:
+- Comprehensive University Preparation (EJU/JLPT Focus)
+- Specialized Academic Tracks (STEM, Arts & Design, Business Japanese)
+- On-Campus Dormitory with Single Room Options Available
+- Located in Mito City, providing a Focused and Cost-Effective Study Environment
+- Small Class Sizes Ensuring Personalized Academic Attention
+- Dedicated Programs for Enhanced Conversational Fluency
+id: school_hitachi-gakuin-mito-ibaraki
+lang: en
+layout: school
+location:
+  lat: 36.3392771
+  lng: 140.4697384
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=29
+stats:
+  capacity: 136
+  international_students: 136
+tags:
+- Comprehensive University Preparation (EJU/JLPT Focus)
+- Specialized Academic Tracks (STEM, Arts & Design, Business Japanese)
+- On-Campus Dormitory with Single Room Options Available
+- Located in Mito City, providing a Focused and Cost-Effective Study Environment
+- Small Class Sizes Ensuring Personalized Academic Attention
+- Dedicated Programs for Enhanced Conversational Fluency
+thumbnail: /static/img/pin-school.png
+title: Hitachi Gakuin
+translated: true
+tuition: {}
 ---
 
 ## School Overview and Philosophy

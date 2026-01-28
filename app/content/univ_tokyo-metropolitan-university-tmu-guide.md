@@ -1,55 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-metropolitan-university-tmu-guide",
-  "title": "Tokyo Metropolitan University",
-  "category": "university",
-  "tags": [
-    "Leading Public University in Tokyo",
-    "Strong Focus on Urban Studies and Systems Design",
-    "Highly Affordable Tuition Rates",
-    "EJU Required (High Score Necessary)",
-    "Limited English Programs (Undergraduate)",
-    "Extensive Tuition Fee Waiver Program"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京都立大学",
-    "name_en": "Tokyo Metropolitan University",
-    "address": "1-1 Minami-Osawa, Hachioji, Tokyo 192-0397, Japan (Minami-Osawa Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 450,
-    "acceptance_rate": "25% (Highly Competitive)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 520800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Law",
-    "Faculty of Economics and Business Administration",
-    "Faculty of Science",
-    "Faculty of Urban Environment Sciences",
-    "Faculty of Systems Design",
-    "Faculty of Health Sciences"
-  ],
-  "features": [
-    "Leading Public University in Tokyo",
-    "Strong Focus on Urban Studies and Systems Design",
-    "Highly Affordable Tuition Rates",
-    "EJU Required (High Score Necessary)",
-    "Limited English Programs (Undergraduate)",
-    "Extensive Tuition Fee Waiver Program"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 1-1 Minami-Osawa, Hachioji, Tokyo 192-0397, Japan (Minami-Osawa Campus)
+  capacity: null
+  name_en: Tokyo Metropolitan University
+  name_ja: 東京都立大学
+category: university
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Law
+- Faculty of Economics and Business Administration
+- Faculty of Science
+- Faculty of Urban Environment Sciences
+- Faculty of Systems Design
+- Faculty of Health Sciences
+features:
+- Leading Public University in Tokyo
+- Strong Focus on Urban Studies and Systems Design
+- Highly Affordable Tuition Rates
+- EJU Required (High Score Necessary)
+- Limited English Programs (Undergraduate)
+- Extensive Tuition Fee Waiver Program
+id: univ_tokyo-metropolitan-university-tmu-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25% (Highly Competitive)
+  international_students: 450
+tags:
+- Leading Public University in Tokyo
+- Strong Focus on Urban Studies and Systems Design
+- Highly Affordable Tuition Rates
+- EJU Required (High Score Necessary)
+- Limited English Programs (Undergraduate)
+- Extensive Tuition Fee Waiver Program
+thumbnail: /static/img/pin-univ.png
+title: Tokyo Metropolitan University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 520800
 ---
 
 ## University Overview

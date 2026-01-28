@@ -1,60 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ken-japanese-language-institute-matsudo",
-  "title": "KEN Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "Comprehensive Higher Education Guidance (EJU focus)",
-    "Mandatory Dormitory Accommodation Options",
-    "Balanced Curriculum Emphasizing Academic and Conversational Skills",
-    "Flexible Course Entry Points (1.5, 1.9, and 2-Year Programs)",
-    "Short-Term Study Visa Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.824966,
-    "lng": 139.9206703
-  },
-  "basic_info": {
-    "name_ja": "KEN日本語学院",
-    "address": "千葉県松戸市新松戸2-20 関ビル",
-    "capacity": 180,
-    "name_en": "KEN Japanese Language Institute"
-  },
-  "stats": {
-    "international_students": 150,
-    "capacity": 180
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive Higher Education Guidance (EJU focus)",
-    "Mandatory Dormitory Accommodation Options",
-    "Balanced Curriculum Emphasizing Academic and Conversational Skills",
-    "Flexible Course Entry Points (1.5, 1.9, and 2-Year Programs)",
-    "Short-Term Study Visa Programs Available"
-  ],
-  "courses": [
-    {
-      "course_name": "一般1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1071180
-    },
-    {
-      "course_name": "一般1.9年コース",
-      "admission_month": "7",
-      "total_fees": 1229690
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4",
-      "total_fees": 1393700
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=77",
-  "translated": true
-}
+basic_info:
+  address: 千葉県松戸市新松戸2-20 関ビル
+  capacity: 180
+  name_en: KEN Japanese Language Institute
+  name_ja: KEN日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 一般1.5年コース
+  total_fees: 1071180
+- admission_month: '7'
+  course_name: 一般1.9年コース
+  total_fees: 1229690
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1393700
+faculties: []
+features:
+- Comprehensive Higher Education Guidance (EJU focus)
+- Mandatory Dormitory Accommodation Options
+- Balanced Curriculum Emphasizing Academic and Conversational Skills
+- Flexible Course Entry Points (1.5, 1.9, and 2-Year Programs)
+- Short-Term Study Visa Programs Available
+id: school_ken-japanese-language-institute-matsudo
+lang: en
+layout: school
+location:
+  lat: 35.824966
+  lng: 139.9206703
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=77
+stats:
+  capacity: 180
+  international_students: 150
+tags:
+- Comprehensive Higher Education Guidance (EJU focus)
+- Mandatory Dormitory Accommodation Options
+- Balanced Curriculum Emphasizing Academic and Conversational Skills
+- Flexible Course Entry Points (1.5, 1.9, and 2-Year Programs)
+- Short-Term Study Visa Programs Available
+thumbnail: /static/img/pin-school.png
+title: KEN Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

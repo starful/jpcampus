@@ -1,52 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都豊島区東池袋4-26-10",
-    "capacity": 100,
-    "name_en": "Teikyo Heisei University Affiliated Japanese Language School",
-    "name_ja": "帝京平成大学附属日本語学校",
-    "id": "school_teikyo-heisei-university-affiliated-japanese-language-school"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "University Preparatory 1.5-Year Course",
-      "total_fees": 1180000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "University Preparatory 2-Year Course",
-      "total_fees": 1550000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Preparation for Higher Education",
-    "EJU Preparation",
-    "Science Course Focus"
-  ],
-  "layout": "school",
-  "location": {
-    "lat": 35.728589,
-    "lng": 139.7181449
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=563",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Preparation for Higher Education",
-    "EJU Preparation",
-    "Science Course Focus"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Teikyo Heisei University Affiliated Japanese Language School",
-  "tuition": {},
-  "description": "Located in Tokyo, Teikyo Heisei University Affiliated Japanese Language School offers comprehensive Japanese language education with a focus on preparing students for higher education in Japan, particularly in science-related fields. The school emphasizes EJU preparation and provides a supportive learning environment.",
-  "translated": true
-}
+basic_info:
+  address: 東京都豊島区東池袋4-26-10
+  capacity: 100
+  id: school_teikyo-heisei-university-affiliated-japanese-language-school
+  name_en: Teikyo Heisei University Affiliated Japanese Language School
+  name_ja: 帝京平成大学附属日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: University Preparatory 1.5-Year Course
+  total_fees: 1180000
+- admission_month: '4'
+  course_name: University Preparatory 2-Year Course
+  total_fees: 1550000
+description: Located in Tokyo, Teikyo Heisei University Affiliated Japanese Language
+  School offers comprehensive Japanese language education with a focus on preparing
+  students for higher education in Japan, particularly in science-related fields.
+  The school emphasizes EJU preparation and provides a supportive learning environment.
+faculties: []
+features:
+- Preparation for Higher Education
+- EJU Preparation
+- Science Course Focus
+lang: en
+layout: school
+location:
+  lat: 35.728589
+  lng: 139.7181449
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=563
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Preparation for Higher Education
+- EJU Preparation
+- Science Course Focus
+thumbnail: /static/img/pin-school.png
+title: Teikyo Heisei University Affiliated Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

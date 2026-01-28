@@ -1,52 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "〒152-8550 東京都目黒区大岡山2-12-1",
-    "name_en": "Tokyo Institute of Technology",
-    "name_ja": "東京工業大学",
-    "website": "https://www.titech.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Science",
-    "School of Engineering",
-    "School of Materials and Chemical Technology",
-    "School of Computing",
-    "School of Environment and Society",
-    "Institute for Liberal Arts"
-  ],
-  "features": [
-    "SGU",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Research-Intensive"
-  ],
-  "id": "univ_tokyo-institute-of-technology",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 1300
-  },
-  "tags": [
-    "SGU",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Research-Intensive"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Tokyo Institute of Technology",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 635400
-  },
-  "translated": true
-}
+basic_info:
+  address: 〒152-8550 東京都目黒区大岡山2-12-1
+  name_en: Tokyo Institute of Technology
+  name_ja: 東京工業大学
+  website: https://www.titech.ac.jp/
+category: university
+faculties:
+- School of Science
+- School of Engineering
+- School of Materials and Chemical Technology
+- School of Computing
+- School of Environment and Society
+- Institute for Liberal Arts
+features:
+- SGU
+- English Program
+- Dormitory
+- Scholarship
+- Research-Intensive
+id: univ_tokyo-institute-of-technology
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20%
+  international_students: 1300
+tags:
+- SGU
+- English Program
+- Dormitory
+- Scholarship
+- Research-Intensive
+thumbnail: /static/img/pin-univ.png
+title: Tokyo Institute of Technology
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 635400
 ---
 
 ## University Overview & Reputation

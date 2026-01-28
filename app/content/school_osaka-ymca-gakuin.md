@@ -1,95 +1,70 @@
 ---
-{
-  "layout": "school",
-  "id": "school_osaka-ymca-gakuin",
-  "title": "Osaka YMCA Gakuin",
-  "category": "school",
-  "tags": [
-    "Specialized University/Graduate School Progression Support",
-    "EJU and Science (Rika) Subject Preparation Tracks",
-    "Strong Focus on Practical Conversation Skills",
-    "Integrated Business, Art, and Design Japanese Curriculum",
-    "On-site and Managed Dormitory Facilities (Single Room Options Available)",
-    "Generous Scholarship Programs",
-    "Flexible Short-term Study Programs",
-    "Established Non-profit Organizational Credibility"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6480463,
-    "lng": 135.5176662
-  },
-  "basic_info": {
-    "name_ja": "大阪YMCA学院",
-    "address": "大阪府大阪市天王寺区南河堀町9-52",
-    "capacity": 500,
-    "name_en": "Osaka YMCA Gakuin"
-  },
-  "stats": {
-    "international_students": 500,
-    "capacity": 500
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized University/Graduate School Progression Support",
-    "EJU and Science (Rika) Subject Preparation Tracks",
-    "Strong Focus on Practical Conversation Skills",
-    "Integrated Business, Art, and Design Japanese Curriculum",
-    "On-site and Managed Dormitory Facilities (Single Room Options Available)",
-    "Generous Scholarship Programs",
-    "Flexible Short-term Study Programs",
-    "Established Non-profit Organizational Credibility"
-  ],
-  "courses": [
-    {
-      "course_name": "進学日本語学科 (1年コース)",
-      "admission_month": "4",
-      "total_fees": 915000
-    },
-    {
-      "course_name": "進学日本語学科 (1.5年コース)",
-      "admission_month": "10",
-      "total_fees": 1312600
-    },
-    {
-      "course_name": "進学日本語学科 (2年コース)",
-      "admission_month": "4",
-      "total_fees": 1710000
-    },
-    {
-      "course_name": "キャリア形成実用日本語学科 (1年午前コース)",
-      "admission_month": "4,7,10,1",
-      "total_fees": 875000
-    },
-    {
-      "course_name": "キャリア形成実用日本語学科 (1.5年午前コース)",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1252600
-    },
-    {
-      "course_name": "キャリア形成実用日本語学科 (2年午前コース)",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1630000
-    },
-    {
-      "course_name": "キャリア形成実用日本語学科 (1年午後コース)",
-      "admission_month": "4,7,10,1",
-      "total_fees": 875000
-    },
-    {
-      "course_name": "キャリア形成実用日本語学科 (1.5年午後コース)",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1252600
-    },
-    {
-      "course_name": "キャリア形成実用日本語学科 (2年午後コース)",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1630000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=330"
-}
+basic_info:
+  address: 大阪府大阪市天王寺区南河堀町9-52
+  capacity: 500
+  name_en: Osaka YMCA Gakuin
+  name_ja: 大阪YMCA学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学日本語学科 (1年コース)
+  total_fees: 915000
+- admission_month: '10'
+  course_name: 進学日本語学科 (1.5年コース)
+  total_fees: 1312600
+- admission_month: '4'
+  course_name: 進学日本語学科 (2年コース)
+  total_fees: 1710000
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (1年午前コース)
+  total_fees: 875000
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (1.5年午前コース)
+  total_fees: 1252600
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (2年午前コース)
+  total_fees: 1630000
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (1年午後コース)
+  total_fees: 875000
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (1.5年午後コース)
+  total_fees: 1252600
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (2年午後コース)
+  total_fees: 1630000
+faculties: []
+features:
+- Specialized University/Graduate School Progression Support
+- EJU and Science (Rika) Subject Preparation Tracks
+- Strong Focus on Practical Conversation Skills
+- Integrated Business, Art, and Design Japanese Curriculum
+- On-site and Managed Dormitory Facilities (Single Room Options Available)
+- Generous Scholarship Programs
+- Flexible Short-term Study Programs
+- Established Non-profit Organizational Credibility
+id: school_osaka-ymca-gakuin
+lang: en
+layout: school
+location:
+  lat: 34.6480463
+  lng: 135.5176662
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=330
+stats:
+  capacity: 500
+  international_students: 500
+tags:
+- Specialized University/Graduate School Progression Support
+- EJU and Science (Rika) Subject Preparation Tracks
+- Strong Focus on Practical Conversation Skills
+- Integrated Business, Art, and Design Japanese Curriculum
+- On-site and Managed Dormitory Facilities (Single Room Options Available)
+- Generous Scholarship Programs
+- Flexible Short-term Study Programs
+- Established Non-profit Organizational Credibility
+thumbnail: /static/img/pin-school.png
+title: Osaka YMCA Gakuin
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -5,6 +5,7 @@ description: Check out our curated list of the Top 5 Budget-Friendly Schools wit
   Dormitories.
 id: top-budget-dormitory-schools
 is_featured: true
+lang: en
 layout: guide
 tags:
 - Ranking

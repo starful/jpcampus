@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "remittance",
-  "title": "Sending Money to Japan: Best Methods & Fees",
-  "category": "Budget",
-  "tags": [
-    "Budget"
-  ],
-  "description": "How to transfer tuition and living funds from abroad.",
-  "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-01-28"
-}
+category: Budget
+date: '2026-01-28'
+description: How to transfer tuition and living funds from abroad.
+id: remittance
+lang: en
+layout: guide
+tags:
+- Budget
+thumbnail: https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500
+title: 'Sending Money to Japan: Best Methods & Fees'
 ---
 
 # Sending Money to Japan: Best Methods, Cheapest Fees, and Fastest Transfers for International Students

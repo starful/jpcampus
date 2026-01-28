@@ -1,54 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nansei-gaku-en-sci-tech-college-naha-okinawa",
-  "title": "Nansei Gakuen Sci-Tech College Naha",
-  "category": "school",
-  "tags": [
-    "Located in Naha, Okinawa, offering a subtropical learning environment.",
-    "Small school capacity (80 students) ensuring highly personalized attention.",
-    "Specialized focus on academic progression (Shin-gaku) for university entrance.",
-    "Intensive preparation for the Examination for Japanese University Admission (EJU).",
-    "School-affiliated dormitory options available for international students."
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 26.230544,
-    "lng": 127.6871944
-  },
-  "basic_info": {
-    "name_ja": "学校法人南星学園サイ・テク・カレッジ那覇",
-    "address": "沖縄県那覇市天久2-1-13",
-    "capacity": 80,
-    "name_en": "Nansei Gakuen Sci-Tech College Naha"
-  },
-  "stats": {
-    "international_students": 80,
-    "capacity": 80
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Located in Naha, Okinawa, offering a subtropical learning environment.",
-    "Small school capacity (80 students) ensuring highly personalized attention.",
-    "Specialized focus on academic progression (Shin-gaku) for university entrance.",
-    "Intensive preparation for the Examination for Japanese University Admission (EJU).",
-    "School-affiliated dormitory options available for international students."
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1005000
-    },
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 700000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=592"
-}
+basic_info:
+  address: 沖縄県那覇市天久2-1-13
+  capacity: 80
+  name_en: Nansei Gakuen Sci-Tech College Naha
+  name_ja: 学校法人南星学園サイ・テク・カレッジ那覇
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1005000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 700000
+faculties: []
+features:
+- Located in Naha, Okinawa, offering a subtropical learning environment.
+- Small school capacity (80 students) ensuring highly personalized attention.
+- Specialized focus on academic progression (Shin-gaku) for university entrance.
+- Intensive preparation for the Examination for Japanese University Admission (EJU).
+- School-affiliated dormitory options available for international students.
+id: school_nansei-gaku-en-sci-tech-college-naha-okinawa
+lang: en
+layout: school
+location:
+  lat: 26.230544
+  lng: 127.6871944
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=592
+stats:
+  capacity: 80
+  international_students: 80
+tags:
+- Located in Naha, Okinawa, offering a subtropical learning environment.
+- Small school capacity (80 students) ensuring highly personalized attention.
+- Specialized focus on academic progression (Shin-gaku) for university entrance.
+- Intensive preparation for the Examination for Japanese University Admission (EJU).
+- School-affiliated dormitory options available for international students.
+thumbnail: /static/img/pin-school.png
+title: Nansei Gakuen Sci-Tech College Naha
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,54 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "香川県丸亀市南条町17-4",
-    "capacity": 80,
-    "name_en": "Marugame International Academy",
-    "name_ja": "丸亀国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1498500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1154510
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dedicated Dormitory Available",
-    "Intensive EJU Preparation",
-    "Clear University Pathway Guidance",
-    "Focus on Practical Conversational Japanese",
-    "Specialized Business Japanese Training"
-  ],
-  "id": "school_marugame-international-academy-kagawa",
-  "layout": "school",
-  "location": {
-    "lat": 34.2887232,
-    "lng": 133.7922561
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=600",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "Dedicated Dormitory Available",
-    "Intensive EJU Preparation",
-    "Clear University Pathway Guidance",
-    "Focus on Practical Conversational Japanese",
-    "Specialized Business Japanese Training"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Marugame International Academy",
-  "tuition": {}
-}
+basic_info:
+  address: 香川県丸亀市南条町17-4
+  capacity: 80
+  name_en: Marugame International Academy
+  name_ja: 丸亀国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1498500
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1154510
+faculties: []
+features:
+- Dedicated Dormitory Available
+- Intensive EJU Preparation
+- Clear University Pathway Guidance
+- Focus on Practical Conversational Japanese
+- Specialized Business Japanese Training
+id: school_marugame-international-academy-kagawa
+lang: en
+layout: school
+location:
+  lat: 34.2887232
+  lng: 133.7922561
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=600
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- Dedicated Dormitory Available
+- Intensive EJU Preparation
+- Clear University Pathway Guidance
+- Focus on Practical Conversational Japanese
+- Specialized Business Japanese Training
+thumbnail: /static/img/pin-school.png
+title: Marugame International Academy
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,55 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_josai-international-university-japan",
-  "title": "Josai International University",
-  "category": "university",
-  "tags": [
-    "Multiple Campuses (Togane, Tokyo Kioicho, Awa)",
-    "High International Student Enrollment (Global Focus)",
-    "Strong Media Studies Program",
-    "EJU Recommended but Not Strictly Required for All Departments",
-    "Specific English-Track Curricula Available",
-    "Mandatory First-Year Dormitory Option for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "城西国際大学",
-    "name_en": "Josai International University",
-    "address": "1 Gumyo, Togane, Chiba 283-8555, Japan (Togane Campus - Main Administrative Hub)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 1850,
-    "acceptance_rate": "45%"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Management and Information Sciences",
-    "Faculty of Media Studies",
-    "Faculty of Tourism",
-    "Faculty of Contemporary Policy Studies",
-    "Faculty of Nursing",
-    "Faculty of Pharmaceutical Sciences"
-  ],
-  "features": [
-    "Multiple Campuses (Togane, Tokyo Kioicho, Awa)",
-    "High International Student Enrollment (Global Focus)",
-    "Strong Media Studies Program",
-    "EJU Recommended but Not Strictly Required for All Departments",
-    "Specific English-Track Curricula Available",
-    "Mandatory First-Year Dormitory Option for International Students"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 1 Gumyo, Togane, Chiba 283-8555, Japan (Togane Campus - Main Administrative
+    Hub)
+  capacity: null
+  name_en: Josai International University
+  name_ja: 城西国際大学
+category: university
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Management and Information Sciences
+- Faculty of Media Studies
+- Faculty of Tourism
+- Faculty of Contemporary Policy Studies
+- Faculty of Nursing
+- Faculty of Pharmaceutical Sciences
+features:
+- Multiple Campuses (Togane, Tokyo Kioicho, Awa)
+- High International Student Enrollment (Global Focus)
+- Strong Media Studies Program
+- EJU Recommended but Not Strictly Required for All Departments
+- Specific English-Track Curricula Available
+- Mandatory First-Year Dormitory Option for International Students
+id: univ_josai-international-university-japan
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45%
+  international_students: 1850
+tags:
+- Multiple Campuses (Togane, Tokyo Kioicho, Awa)
+- High International Student Enrollment (Global Focus)
+- Strong Media Studies Program
+- EJU Recommended but Not Strictly Required for All Departments
+- Specific English-Track Curricula Available
+- Mandatory First-Year Dormitory Option for International Students
+thumbnail: /static/img/pin-univ.png
+title: Josai International University
+translated: true
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1250000
 ---
 
 ## University Overview

@@ -1,61 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kokusai-jinbun-foreign-language-academy",
-  "title": "Kokusai Jinbun Foreign Language Academy",
-  "category": "school",
-  "tags": [
-    "University Preparation Focus",
-    "EJU Specialized Training",
-    "On-Campus or Affiliated Dormitory Available",
-    "Located in Academic Hub of Nakano, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6854237,
-    "lng": 139.6655276
-  },
-  "basic_info": {
-    "name_ja": "国際人文外国語学院",
-    "address": "東京都中野区南台3-26-13",
-    "capacity": 160,
-    "name_en": "Kokusai Jinbun Foreign Language Academy"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Preparation Focus",
-    "EJU Specialized Training",
-    "On-Campus or Affiliated Dormitory Available",
-    "Located in Academic Hub of Nakano, Tokyo"
-  ],
-  "courses": [
-    {
-      "course_name": "大学進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1521000
-    },
-    {
-      "course_name": "大学進学1年9か月ｺｰｽ",
-      "admission_month": "7",
-      "total_fees": 1352750
-    },
-    {
-      "course_name": "大学進学1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1169500
-    },
-    {
-      "course_name": "大学進学1.3年ｺｰｽ",
-      "admission_month": "1",
-      "total_fees": 1001250
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=584",
-  "description": "The Kokusai Jinbun Foreign Language Academy is a preparatory institution focused on rigorous academic assimilation for international students seeking entry into Japan’s competitive higher education system. Located in Nakano, Tokyo, the academy offers specialized EJU training and comprehensive support.",
-  "translated": true
-}
+basic_info:
+  address: 東京都中野区南台3-26-13
+  capacity: 160
+  name_en: Kokusai Jinbun Foreign Language Academy
+  name_ja: 国際人文外国語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1521000
+- admission_month: '7'
+  course_name: 大学進学1年9か月ｺｰｽ
+  total_fees: 1352750
+- admission_month: '10'
+  course_name: 大学進学1.5年コース
+  total_fees: 1169500
+- admission_month: '1'
+  course_name: 大学進学1.3年ｺｰｽ
+  total_fees: 1001250
+description: The Kokusai Jinbun Foreign Language Academy is a preparatory institution
+  focused on rigorous academic assimilation for international students seeking entry
+  into Japan’s competitive higher education system. Located in Nakano, Tokyo, the
+  academy offers specialized EJU training and comprehensive support.
+faculties: []
+features:
+- University Preparation Focus
+- EJU Specialized Training
+- On-Campus or Affiliated Dormitory Available
+- Located in Academic Hub of Nakano, Tokyo
+id: school_kokusai-jinbun-foreign-language-academy
+lang: en
+layout: school
+location:
+  lat: 35.6854237
+  lng: 139.6655276
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=584
+stats: {}
+tags:
+- University Preparation Focus
+- EJU Specialized Training
+- On-Campus or Affiliated Dormitory Available
+- Located in Academic Hub of Nakano, Tokyo
+thumbnail: /static/img/pin-school.png
+title: Kokusai Jinbun Foreign Language Academy
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

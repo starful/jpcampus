@@ -1,62 +1,54 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hokkaido-university",
-  "title": "Hokkaido University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 43.0703209,
-    "lng": 141.3470456
-  },
-  "basic_info": {
-    "name_ja": "北海道大学",
-    "name_en": "Hokkaido University",
-    "address": "〒060-0808 北海道札幌市北区北8条西5丁目",
-    "website": "https://www.hokudai.ac.jp/"
-  },
-  "stats": {
-    "international_students": 2000,
-    "acceptance_rate": "20%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics and Business",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Dental Medicine",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Veterinary Medicine",
-    "Faculty of Fisheries Sciences",
-    "School of Global Environmental Science",
-    "Faculty of Information Science and Technology",
-    "Faculty of Biomedical Science and Engineering",
-    "Faculty of Tourism Sciences"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒060-0808 北海道札幌市北区北8条西5丁目
+  name_en: Hokkaido University
+  name_ja: 北海道大学
+  website: https://www.hokudai.ac.jp/
+category: university
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics and Business
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Dental Medicine
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Veterinary Medicine
+- Faculty of Fisheries Sciences
+- School of Global Environmental Science
+- Faculty of Information Science and Technology
+- Faculty of Biomedical Science and Engineering
+- Faculty of Tourism Sciences
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_hokkaido-university
+lang: en
+layout: school
+location:
+  lat: 43.0703209
+  lng: 141.3470456
+stats:
+  acceptance_rate: 20%
+  international_students: 2000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Hokkaido University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## Overview of Hokkaido University

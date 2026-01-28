@@ -1,59 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-nakano-japanese-language-institute",
-  "title": "Tokyo Nakano Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "Dedicated University and Vocational School Placement Support",
-    "Intensive EJU (Examination for Japanese University Admission) Training",
-    "Specialized Science Stream Curriculum",
-    "Strong Emphasis on Practical Conversational Skills"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6917092,
-    "lng": 139.6786235
-  },
-  "basic_info": {
-    "name_ja": "東京中野日本語学院",
-    "address": "東京都中野区弥生町1-27-3",
-    "capacity": 150,
-    "name_en": "Tokyo Nakano Japanese Language Institute"
-  },
-  "stats": {
-    "international_students": 140,
-    "capacity": 150
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated University and Vocational School Placement Support",
-    "Intensive EJU (Examination for Japanese University Admission) Training",
-    "Specialized Science Stream Curriculum",
-    "Strong Emphasis on Practical Conversational Skills"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語教育進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1423500
-    },
-    {
-      "course_name": "日本語教育進学1.9年コース",
-      "admission_month": "7",
-      "total_fees": 1254750
-    },
-    {
-      "course_name": "日本語教育進学1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1086000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=183",
-  "description": "The Tokyo Nakano Japanese Language Institute offers specialized EJU preparation and a Science Stream curriculum, emphasizing university placement and practical conversational skills.",
-  "translated": true
-}
+basic_info:
+  address: 東京都中野区弥生町1-27-3
+  capacity: 150
+  name_en: Tokyo Nakano Japanese Language Institute
+  name_ja: 東京中野日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語教育進学2年コース
+  total_fees: 1423500
+- admission_month: '7'
+  course_name: 日本語教育進学1.9年コース
+  total_fees: 1254750
+- admission_month: '10'
+  course_name: 日本語教育進学1.5年コース
+  total_fees: 1086000
+description: The Tokyo Nakano Japanese Language Institute offers specialized EJU preparation
+  and a Science Stream curriculum, emphasizing university placement and practical
+  conversational skills.
+faculties: []
+features:
+- Dedicated University and Vocational School Placement Support
+- Intensive EJU (Examination for Japanese University Admission) Training
+- Specialized Science Stream Curriculum
+- Strong Emphasis on Practical Conversational Skills
+id: school_tokyo-nakano-japanese-language-institute
+lang: en
+layout: school
+location:
+  lat: 35.6917092
+  lng: 139.6786235
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=183
+stats:
+  capacity: 150
+  international_students: 140
+tags:
+- Dedicated University and Vocational School Placement Support
+- Intensive EJU (Examination for Japanese University Admission) Training
+- Specialized Science Stream Curriculum
+- Strong Emphasis on Practical Conversational Skills
+thumbnail: /static/img/pin-school.png
+title: Tokyo Nakano Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

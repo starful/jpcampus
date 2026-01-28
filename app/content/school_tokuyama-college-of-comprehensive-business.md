@@ -1,55 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokuyama-college-of-comprehensive-business",
-  "title": "Tokuyama College of Comprehensive Business",
-  "category": "school",
-  "tags": [
-    "On-campus/Affiliated Dormitory Accommodation Available",
-    "Strong Focus on University and Graduate School Entrance Examination (EJU/JLPT)",
-    "Located in Shunan City, Yamaguchi Prefecture (Western Japan)",
-    "Offers Short-Term Study Opportunities alongside Long-Term Academic Tracks",
-    "Integration within a Vocational College Environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.0549818,
-    "lng": 131.8020821
-  },
-  "basic_info": {
-    "name_ja": "徳山総合ビジネス専門学校",
-    "address": "山口県周南市本町2-13",
-    "capacity": 200,
-    "name_en": "Tokuyama College of Comprehensive Business"
-  },
-  "stats": {
-    "international_students": 200,
-    "capacity": 200
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "On-campus/Affiliated Dormitory Accommodation Available",
-    "Strong Focus on University and Graduate School Entrance Examination (EJU/JLPT)",
-    "Located in Shunan City, Yamaguchi Prefecture (Western Japan)",
-    "Offers Short-Term Study Opportunities alongside Long-Term Academic Tracks",
-    "Integration within a Vocational College Environment"
-  ],
-  "courses": [
-    {
-      "course_name": "大学進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 921500
-    },
-    {
-      "course_name": "大学進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1184000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=406",
-  "translated": true
-}
+basic_info:
+  address: 山口県周南市本町2-13
+  capacity: 200
+  name_en: Tokuyama College of Comprehensive Business
+  name_ja: 徳山総合ビジネス専門学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 921500
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1184000
+faculties: []
+features:
+- On-campus/Affiliated Dormitory Accommodation Available
+- Strong Focus on University and Graduate School Entrance Examination (EJU/JLPT)
+- Located in Shunan City, Yamaguchi Prefecture (Western Japan)
+- Offers Short-Term Study Opportunities alongside Long-Term Academic Tracks
+- Integration within a Vocational College Environment
+id: school_tokuyama-college-of-comprehensive-business
+lang: en
+layout: school
+location:
+  lat: 34.0549818
+  lng: 131.8020821
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=406
+stats:
+  capacity: 200
+  international_students: 200
+tags:
+- On-campus/Affiliated Dormitory Accommodation Available
+- Strong Focus on University and Graduate School Entrance Examination (EJU/JLPT)
+- Located in Shunan City, Yamaguchi Prefecture (Western Japan)
+- Offers Short-Term Study Opportunities alongside Long-Term Academic Tracks
+- Integration within a Vocational College Environment
+thumbnail: /static/img/pin-school.png
+title: Tokuyama College of Comprehensive Business
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

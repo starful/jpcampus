@@ -1,59 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_wakayama-ymca-international-welfare-technical-school-japanese-department",
-  "title": "Wakayama YMCA International Welfare Technical School, Japanese Language Department",
-  "category": "school",
-  "tags": [
-    "Dormitory Available",
-    "Strong EJU and Science Track (Rika) Support",
-    "Integrated Conversation Practice",
-    "Affiliation with Welfare/Healthcare Education",
-    "Short-Term Study Options",
-    "YMCA Non-Profit Educational Philosophy"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.2315944,
-    "lng": 135.193656
-  },
-  "basic_info": {
-    "name_ja": "和歌山YMCA国際福祉専門学校日本語科",
-    "address": "和歌山県和歌山市太田1-12-13",
-    "capacity": 120,
-    "name_en": "Wakayama YMCA International Welfare Technical School, Japanese Language Department"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory Available",
-    "Strong EJU and Science Track (Rika) Support",
-    "Integrated Conversation Practice",
-    "Affiliation with Welfare/Healthcare Education",
-    "Short-Term Study Options",
-    "YMCA Non-Profit Educational Philosophy"
-  ],
-  "courses": [
-    {
-      "course_name": "2年コース",
-      "admission_month": "4",
-      "total_fees": 1321000
-    },
-    {
-      "course_name": "1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1020800
-    },
-    {
-      "course_name": "1年コース",
-      "admission_month": "4",
-      "total_fees": 720500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=388",
-  "translated": true
-}
+basic_info:
+  address: 和歌山県和歌山市太田1-12-13
+  capacity: 120
+  name_en: Wakayama YMCA International Welfare Technical School, Japanese Language
+    Department
+  name_ja: 和歌山YMCA国際福祉専門学校日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2年コース
+  total_fees: 1321000
+- admission_month: '10'
+  course_name: 1.5年コース
+  total_fees: 1020800
+- admission_month: '4'
+  course_name: 1年コース
+  total_fees: 720500
+faculties: []
+features:
+- Dormitory Available
+- Strong EJU and Science Track (Rika) Support
+- Integrated Conversation Practice
+- Affiliation with Welfare/Healthcare Education
+- Short-Term Study Options
+- YMCA Non-Profit Educational Philosophy
+id: school_wakayama-ymca-international-welfare-technical-school-japanese-department
+lang: en
+layout: school
+location:
+  lat: 34.2315944
+  lng: 135.193656
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=388
+stats: {}
+tags:
+- Dormitory Available
+- Strong EJU and Science Track (Rika) Support
+- Integrated Conversation Practice
+- Affiliation with Welfare/Healthcare Education
+- Short-Term Study Options
+- YMCA Non-Profit Educational Philosophy
+thumbnail: /static/img/pin-school.png
+title: Wakayama YMCA International Welfare Technical School, Japanese Language Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

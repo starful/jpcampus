@@ -1,67 +1,54 @@
 ---
-{
-  "layout": "school",
-  "id": "school_aishin-international-academy-yokohama",
-  "title": "Aishin International Academy",
-  "category": "school",
-  "tags": [
-    "Small Class Size System (少人数制)",
-    "Intensive Academic and Career Counseling (進路相談)",
-    "Dedicated Student Dormitory Options",
-    "Availability of Private (Single) Rooms",
-    "Scholarship Opportunities for High Achievers",
-    "Specialized EJU (Science and Liberal Arts) Preparation",
-    "Art and Design Portfolio Preparation Track",
-    "Integrated Business Japanese Training",
-    "Short-term Study Visa Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.4480306,
-    "lng": 139.6306946
-  },
-  "basic_info": {
-    "name_ja": "愛心国際学院",
-    "address": "神奈川県横浜市中区野毛町1-29-4",
-    "capacity": 140,
-    "name_en": "Aishin International Academy"
-  },
-  "stats": {
-    "international_students": 140,
-    "capacity": 140
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Small Class Size System (少人数制)",
-    "Intensive Academic and Career Counseling (進路相談)",
-    "Dedicated Student Dormitory Options",
-    "Availability of Private (Single) Rooms",
-    "Scholarship Opportunities for High Achievers",
-    "Specialized EJU (Science and Liberal Arts) Preparation",
-    "Art and Design Portfolio Preparation Track",
-    "Integrated Business Japanese Training",
-    "Short-term Study Visa Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "進学課程1年9ヵ月コース",
-      "admission_month": "7",
-      "total_fees": 1131000
-    },
-    {
-      "course_name": "進学課程2年コース",
-      "admission_month": "4",
-      "total_fees": 1277000
-    },
-    {
-      "course_name": "進学課程1年6ヵ月コース",
-      "admission_month": "10",
-      "total_fees": 979000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=245"
-}
+basic_info:
+  address: 神奈川県横浜市中区野毛町1-29-4
+  capacity: 140
+  name_en: Aishin International Academy
+  name_ja: 愛心国際学院
+category: school
+courses:
+- admission_month: '7'
+  course_name: 進学課程1年9ヵ月コース
+  total_fees: 1131000
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1277000
+- admission_month: '10'
+  course_name: 進学課程1年6ヵ月コース
+  total_fees: 979000
+faculties: []
+features:
+- Small Class Size System (少人数制)
+- Intensive Academic and Career Counseling (進路相談)
+- Dedicated Student Dormitory Options
+- Availability of Private (Single) Rooms
+- Scholarship Opportunities for High Achievers
+- Specialized EJU (Science and Liberal Arts) Preparation
+- Art and Design Portfolio Preparation Track
+- Integrated Business Japanese Training
+- Short-term Study Visa Options Available
+id: school_aishin-international-academy-yokohama
+lang: en
+layout: school
+location:
+  lat: 35.4480306
+  lng: 139.6306946
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=245
+stats:
+  capacity: 140
+  international_students: 140
+tags:
+- Small Class Size System (少人数制)
+- Intensive Academic and Career Counseling (進路相談)
+- Dedicated Student Dormitory Options
+- Availability of Private (Single) Rooms
+- Scholarship Opportunities for High Achievers
+- Specialized EJU (Science and Liberal Arts) Preparation
+- Art and Design Portfolio Preparation Track
+- Integrated Business Japanese Training
+- Short-term Study Visa Options Available
+thumbnail: /static/img/pin-school.png
+title: Aishin International Academy
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

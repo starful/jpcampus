@@ -1,66 +1,63 @@
 ---
-{
-  "layout": "school",
-  "id": "school_human-academy-japanese-language-school-osaka",
-  "title": "Human Academy Japanese Language School Osaka Campus (HAJLS Osaka)",
-  "category": "school",
-  "tags": [
-    "One of Japan's largest and most established language schools, backed by the prestigious Human Academy educational group.",
-    "Comprehensive higher education advancement programs, including specialized tracks for EJU, Science (Rikei), and Art/Design preparation.",
-    "Central location in Osaka (Chuo Ward), offering excellent access to cultural sites, commerce, and part-time employment opportunities.",
-    "Extensive student support infrastructure, including dormitory options with desirable single-room availability and proactive career counseling."
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6802395,
-    "lng": 135.5039039
-  },
-  "basic_info": {
-    "name_ja": "ヒューマンアカデミー日本語学校大阪校",
-    "address": "大阪府大阪市中央区北久宝寺町2-5-9　飛栄創建ビル",
-    "capacity": 1600,
-    "name_en": "Human Academy Japanese Language School Osaka Campus"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "One of Japan's largest and most established language schools, backed by the prestigious Human Academy educational group.",
-    "Comprehensive higher education advancement programs, including specialized tracks for EJU, Science (Rikei), and Art/Design preparation.",
-    "Central location in Osaka (Chuo Ward), offering excellent access to cultural sites, commerce, and part-time employment opportunities.",
-    "Extensive student support infrastructure, including dormitory options with desirable single-room availability and proactive career counseling."
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1402000
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1237550
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1073100
-    },
-    {
-      "course_name": "進学1年3か月コース",
-      "admission_month": "1",
-      "total_fees": 908650
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1402000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=353",
-  "description": "Human Academy Japanese Language School Osaka Campus (HAJLS Osaka) is a leading institution in Kansai, known for its scale and professional framework. Backed by the Human Academy group, it offers specialized knowledge and industry connections. Centrally located in Osaka, it provides convenient access to culture, commerce, and part-time work. Extensive support includes dormitories and career counseling.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市中央区北久宝寺町2-5-9　飛栄創建ビル
+  capacity: 1600
+  name_en: Human Academy Japanese Language School Osaka Campus
+  name_ja: ヒューマンアカデミー日本語学校大阪校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1402000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1237550
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1073100
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 908650
+- admission_month: 4,7,10,1
+  course_name: 一般2年コース
+  total_fees: 1402000
+description: Human Academy Japanese Language School Osaka Campus (HAJLS Osaka) is
+  a leading institution in Kansai, known for its scale and professional framework.
+  Backed by the Human Academy group, it offers specialized knowledge and industry
+  connections. Centrally located in Osaka, it provides convenient access to culture,
+  commerce, and part-time work. Extensive support includes dormitories and career
+  counseling.
+faculties: []
+features:
+- One of Japan's largest and most established language schools, backed by the prestigious
+  Human Academy educational group.
+- Comprehensive higher education advancement programs, including specialized tracks
+  for EJU, Science (Rikei), and Art/Design preparation.
+- Central location in Osaka (Chuo Ward), offering excellent access to cultural sites,
+  commerce, and part-time employment opportunities.
+- Extensive student support infrastructure, including dormitory options with desirable
+  single-room availability and proactive career counseling.
+id: school_human-academy-japanese-language-school-osaka
+lang: en
+layout: school
+location:
+  lat: 34.6802395
+  lng: 135.5039039
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=353
+stats: {}
+tags:
+- One of Japan's largest and most established language schools, backed by the prestigious
+  Human Academy educational group.
+- Comprehensive higher education advancement programs, including specialized tracks
+  for EJU, Science (Rikei), and Art/Design preparation.
+- Central location in Osaka (Chuo Ward), offering excellent access to cultural sites,
+  commerce, and part-time employment opportunities.
+- Extensive student support infrastructure, including dormitory options with desirable
+  single-room availability and proactive career counseling.
+thumbnail: /static/img/pin-school.png
+title: Human Academy Japanese Language School Osaka Campus (HAJLS Osaka)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

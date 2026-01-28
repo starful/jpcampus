@@ -1,54 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-institute-of-technology-kit",
-  "title": "Kyoto Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Highly specialized National University (Kokuritsu Daigaku)",
-    "Pioneer in integrated Design and Engineering education",
-    "World-class research in materials science and textiles",
-    "Located in the historical and cultural center of Kyoto",
-    "EJU Required for most Undergraduate admissions",
-    "Limited English-Taught Programs (primarily Graduate)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都工芸繊維大学",
-    "name_en": "Kyoto Institute of Technology",
-    "address": "Matsugasaki, Sakyo-ku, Kyoto 606-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 350,
-    "acceptance_rate": "25% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Science and Technology",
-    "School of Design and Architecture",
-    "Department of Engineering Science",
-    "Department of Materials Science",
-    "Department of Applied Biology",
-    "Department of Information Science"
-  ],
-  "features": [
-    "Highly specialized National University (Kokuritsu Daigaku)",
-    "Pioneer in integrated Design and Engineering education",
-    "World-class research in materials science and textiles",
-    "Located in the historical and cultural center of Kyoto",
-    "EJU Required for most Undergraduate admissions",
-    "Limited English-Taught Programs (primarily Graduate)"
-  ],
-  "translated": true
-}
+basic_info:
+  address: Matsugasaki, Sakyo-ku, Kyoto 606-8585, Japan
+  capacity: null
+  name_en: Kyoto Institute of Technology
+  name_ja: 京都工芸繊維大学
+category: university
+faculties:
+- School of Science and Technology
+- School of Design and Architecture
+- Department of Engineering Science
+- Department of Materials Science
+- Department of Applied Biology
+- Department of Information Science
+features:
+- Highly specialized National University (Kokuritsu Daigaku)
+- Pioneer in integrated Design and Engineering education
+- World-class research in materials science and textiles
+- Located in the historical and cultural center of Kyoto
+- EJU Required for most Undergraduate admissions
+- Limited English-Taught Programs (primarily Graduate)
+id: univ_kyoto-institute-of-technology-kit
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25% (Estimated)
+  international_students: 350
+tags:
+- Highly specialized National University (Kokuritsu Daigaku)
+- Pioneer in integrated Design and Engineering education
+- World-class research in materials science and textiles
+- Located in the historical and cultural center of Kyoto
+- EJU Required for most Undergraduate admissions
+- Limited English-Taught Programs (primarily Graduate)
+thumbnail: /static/img/pin-univ.png
+title: Kyoto Institute of Technology
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview

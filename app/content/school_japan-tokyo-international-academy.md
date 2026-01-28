@@ -1,60 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_japan-tokyo-international-academy",
-  "title": "Japan Tokyo International Academy",
-  "category": "school",
-  "tags": [
-    "Specialized Curriculum for University and Graduate School Progression",
-    "Dedicated Examination for Japanese University Admission (EJU) Preparation",
-    "On-campus or Partnered Dormitory Accommodation Available",
-    "Flexible Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6953231,
-    "lng": 139.6926962
-  },
-  "basic_info": {
-    "name_ja": "日本東京国際学院",
-    "address": "東京都新宿区西新宿8-11-10 星野ビル",
-    "capacity": 360,
-    "name_en": "Japan Tokyo International Academy"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized Curriculum for University and Graduate School Progression",
-    "Dedicated Examination for Japanese University Admission (EJU) Preparation",
-    "On-campus or Partnered Dormitory Accommodation Available",
-    "Flexible Short-Term Study Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "進学4月コース",
-      "admission_month": "4",
-      "total_fees": 1409700
-    },
-    {
-      "course_name": "進学7月コース",
-      "admission_month": "7",
-      "total_fees": 1248050
-    },
-    {
-      "course_name": "進学10月コース",
-      "admission_month": "10",
-      "total_fees": 1086400
-    },
-    {
-      "course_name": "進学1月コース",
-      "admission_month": "1",
-      "total_fees": 924350
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=555",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区西新宿8-11-10 星野ビル
+  capacity: 360
+  name_en: Japan Tokyo International Academy
+  name_ja: 日本東京国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学4月コース
+  total_fees: 1409700
+- admission_month: '7'
+  course_name: 進学7月コース
+  total_fees: 1248050
+- admission_month: '10'
+  course_name: 進学10月コース
+  total_fees: 1086400
+- admission_month: '1'
+  course_name: 進学1月コース
+  total_fees: 924350
+faculties: []
+features:
+- Specialized Curriculum for University and Graduate School Progression
+- Dedicated Examination for Japanese University Admission (EJU) Preparation
+- On-campus or Partnered Dormitory Accommodation Available
+- Flexible Short-Term Study Programs
+id: school_japan-tokyo-international-academy
+lang: en
+layout: school
+location:
+  lat: 35.6953231
+  lng: 139.6926962
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=555
+stats: {}
+tags:
+- Specialized Curriculum for University and Graduate School Progression
+- Dedicated Examination for Japanese University Admission (EJU) Preparation
+- On-campus or Partnered Dormitory Accommodation Available
+- Flexible Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: Japan Tokyo International Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

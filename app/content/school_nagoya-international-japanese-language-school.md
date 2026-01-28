@@ -1,59 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nagoya-international-japanese-language-school",
-  "title": "Nagoya International Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Dedicated Pathways for Higher Education Advancement (University, Graduate School, Vocational College)",
-    "Specialized Tracks for Science (Rikei) and Humanities (Bunkei) EJU Preparation",
-    "Comprehensive Support for Art and Design University Admissions (Portfolio & Theory)",
-    "School-Managed Dormitory Options Available (Including Single Rooms)",
-    "Focus on Practical Communication Skills and Business Japanese",
-    "JASSO/Private Scholarship Opportunities for High-Achieving Students",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.1547989,
-    "lng": 136.9236757
-  },
-  "basic_info": {
-    "name_ja": "名古屋国際日本語学校",
-    "address": "愛知県名古屋市昭和区狭間町3-6",
-    "capacity": 158,
-    "name_en": "Nagoya International Japanese Language School"
-  },
-  "stats": {
-    "international_students": 150,
-    "capacity": 158
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Pathways for Higher Education Advancement (University, Graduate School, Vocational College)",
-    "Specialized Tracks for Science (Rikei) and Humanities (Bunkei) EJU Preparation",
-    "Comprehensive Support for Art and Design University Admissions (Portfolio & Theory)",
-    "School-Managed Dormitory Options Available (Including Single Rooms)",
-    "Focus on Practical Communication Skills and Business Japanese",
-    "JASSO/Private Scholarship Opportunities for High-Achieving Students",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "大学進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1217500
-    },
-    {
-      "course_name": "大学進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1366000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=298",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市昭和区狭間町3-6
+  capacity: 158
+  name_en: Nagoya International Japanese Language School
+  name_ja: 名古屋国際日本語学校
+category: school
+courses:
+- admission_month: '7'
+  course_name: 大学進学1年9ヶ月コース
+  total_fees: 1217500
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1366000
+faculties: []
+features:
+- Dedicated Pathways for Higher Education Advancement (University, Graduate School,
+  Vocational College)
+- Specialized Tracks for Science (Rikei) and Humanities (Bunkei) EJU Preparation
+- Comprehensive Support for Art and Design University Admissions (Portfolio & Theory)
+- School-Managed Dormitory Options Available (Including Single Rooms)
+- Focus on Practical Communication Skills and Business Japanese
+- JASSO/Private Scholarship Opportunities for High-Achieving Students
+- Flexible Short-Term Study Options Available
+id: school_nagoya-international-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.1547989
+  lng: 136.9236757
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=298
+stats:
+  capacity: 158
+  international_students: 150
+tags:
+- Dedicated Pathways for Higher Education Advancement (University, Graduate School,
+  Vocational College)
+- Specialized Tracks for Science (Rikei) and Humanities (Bunkei) EJU Preparation
+- Comprehensive Support for Art and Design University Admissions (Portfolio & Theory)
+- School-Managed Dormitory Options Available (Including Single Rooms)
+- Focus on Practical Communication Skills and Business Japanese
+- JASSO/Private Scholarship Opportunities for High-Achieving Students
+- Flexible Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: Nagoya International Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,66 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区百人町2-1-6",
-    "capacity": 540,
-    "name_en": "Samu Education Academy",
-    "name_ja": "サム教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1402400
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1236550
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1070700
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 904850
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Science Courses",
-    "Higher Education Guidance",
-    "Short-Term Courses"
-  ],
-  "id": "school_sam-kyoiku-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 35.7017033,
-    "lng": 139.7017375
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=123",
-  "stats": {
-    "capacity": 540,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Science Courses",
-    "Higher Education Guidance",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Samu Education Academy",
-  "tuition": {},
-  "translated": true,
-  "description": "Located in Shinjuku, Tokyo, Samu Education Academy prepares international students for Japanese universities with courses focusing on language, EJU prep, and science. Features include university guidance and short-term options."
-}
+basic_info:
+  address: 東京都新宿区百人町2-1-6
+  capacity: 540
+  name_en: Samu Education Academy
+  name_ja: サム教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1402400
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1236550
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1070700
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 904850
+description: Located in Shinjuku, Tokyo, Samu Education Academy prepares international
+  students for Japanese universities with courses focusing on language, EJU prep,
+  and science. Features include university guidance and short-term options.
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Science Courses
+- Higher Education Guidance
+- Short-Term Courses
+id: school_sam-kyoiku-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.7017033
+  lng: 139.7017375
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=123
+stats:
+  capacity: 540
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Science Courses
+- Higher Education Guidance
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Samu Education Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

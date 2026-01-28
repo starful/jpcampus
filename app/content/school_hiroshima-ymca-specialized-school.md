@@ -1,61 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県広島市中区八丁堀7-11",
-    "capacity": 300,
-    "name_en": "Hiroshima YMCA College",
-    "name_ja": "広島ＹＭＣＡ専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "1年コース",
-      "total_fees": 757500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1年6ヵ月コース",
-      "total_fees": 1074000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "2年コース",
-      "total_fees": 1390000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Dormitory Available",
-    "Science Focus"
-  ],
-  "id": "school_hiroshima-ymca-specialized-school",
-  "layout": "school",
-  "location": {
-    "lat": 34.3961859,
-    "lng": 132.4620773
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=394",
-  "stats": {
-    "capacity": 300,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Dormitory Available",
-    "Science Focus"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Hiroshima YMCA College",
-  "tuition": {},
-  "description": "Hiroshima YMCA College offers comprehensive Japanese language programs with a focus on university preparation, EJU test preparation, and conversational Japanese skills. Dormitory is available.",
-  "translated": true
-}
+basic_info:
+  address: 広島県広島市中区八丁堀7-11
+  capacity: 300
+  name_en: Hiroshima YMCA College
+  name_ja: 広島ＹＭＣＡ専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 1年コース
+  total_fees: 757500
+- admission_month: '10'
+  course_name: 1年6ヵ月コース
+  total_fees: 1074000
+- admission_month: '4'
+  course_name: 2年コース
+  total_fees: 1390000
+description: Hiroshima YMCA College offers comprehensive Japanese language programs
+  with a focus on university preparation, EJU test preparation, and conversational
+  Japanese skills. Dormitory is available.
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Conversational Japanese
+- Dormitory Available
+- Science Focus
+id: school_hiroshima-ymca-specialized-school
+lang: en
+layout: school
+location:
+  lat: 34.3961859
+  lng: 132.4620773
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=394
+stats:
+  capacity: 300
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Conversational Japanese
+- Dormitory Available
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: Hiroshima YMCA College
+translated: true
+tuition: {}
 ---
 
 ## School Overview

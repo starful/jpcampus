@@ -1,57 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-kogakuin-japanese-language-school",
-  "title": "Tokyo Kogakuin Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Intensive Preparation for University and Graduate School Admission (Shingaku)",
-    "Specialized EJU (Examination for Japanese University Admission) Curriculum",
-    "Dedicated STEM (Science and Engineering) Pathway Support",
-    "Central Tokyo Location (Shibuya Ward)",
-    "Small School Capacity Fostering Personalized Guidance"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6856811,
-    "lng": 139.7043018
-  },
-  "basic_info": {
-    "name_ja": "東京工学院日本語学校",
-    "address": "東京都渋谷区千駄ヶ谷5-30-16",
-    "capacity": 100,
-    "name_en": "Tokyo Kogakuin Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Intensive Preparation for University and Graduate School Admission (Shingaku)",
-    "Specialized EJU (Examination for Japanese University Admission) Curriculum",
-    "Dedicated STEM (Science and Engineering) Pathway Support",
-    "Central Tokyo Location (Shibuya Ward)",
-    "Small School Capacity Fostering Personalized Guidance"
-  ],
-  "courses": [
-    {
-      "course_name": "国際日本語科",
-      "admission_month": "4",
-      "total_fees": 660000
-    },
-    {
-      "course_name": "国際日本語専科",
-      "admission_month": "10",
-      "total_fees": 945000
-    },
-    {
-      "course_name": "国際日本語専科",
-      "admission_month": "4",
-      "total_fees": 1230000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=175",
-  "translated": true
-}
+basic_info:
+  address: 東京都渋谷区千駄ヶ谷5-30-16
+  capacity: 100
+  name_en: Tokyo Kogakuin Japanese Language School
+  name_ja: 東京工学院日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 国際日本語科
+  total_fees: 660000
+- admission_month: '10'
+  course_name: 国際日本語専科
+  total_fees: 945000
+- admission_month: '4'
+  course_name: 国際日本語専科
+  total_fees: 1230000
+faculties: []
+features:
+- Intensive Preparation for University and Graduate School Admission (Shingaku)
+- Specialized EJU (Examination for Japanese University Admission) Curriculum
+- Dedicated STEM (Science and Engineering) Pathway Support
+- Central Tokyo Location (Shibuya Ward)
+- Small School Capacity Fostering Personalized Guidance
+id: school_tokyo-kogakuin-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.6856811
+  lng: 139.7043018
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=175
+stats: {}
+tags:
+- Intensive Preparation for University and Graduate School Admission (Shingaku)
+- Specialized EJU (Examination for Japanese University Admission) Curriculum
+- Dedicated STEM (Science and Engineering) Pathway Support
+- Central Tokyo Location (Shibuya Ward)
+- Small School Capacity Fostering Personalized Guidance
+thumbnail: /static/img/pin-school.png
+title: Tokyo Kogakuin Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

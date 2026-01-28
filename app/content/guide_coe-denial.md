@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "coe-denial",
-  "title": "My COE was Denied: What to Do Next?",
-  "category": "Visa",
-  "tags": [
-    "Visa"
-  ],
-  "description": "Understanding COE denial reasons and how to re-apply.",
-  "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-01-13"
-}
+category: Visa
+date: '2026-01-13'
+description: Understanding COE denial reasons and how to re-apply.
+id: coe-denial
+lang: en
+layout: guide
+tags:
+- Visa
+thumbnail: https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500
+title: 'My COE was Denied: What to Do Next?'
 ---
 
 # My COE was Denied: What to Do Next? A Comprehensive Guide to Re-application

@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "insurance",
-  "title": "National Health Insurance & Exemptions",
-  "category": "Insurance",
-  "tags": [
-    "Insurance"
-  ],
-  "description": "How to apply for fee reduction and use hospitals.",
-  "thumbnail": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500",
-  "date": "2026-01-01"
-}
+category: Insurance
+date: '2026-01-01'
+description: How to apply for fee reduction and use hospitals.
+id: insurance
+lang: en
+layout: guide
+tags:
+- Insurance
+thumbnail: https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=500
+title: National Health Insurance & Exemptions
 ---
 
 Studying abroad in Japan is an incredibly rewarding experience, filled with new cultural discoveries, delicious food, and academic growth. However, navigating the intricacies of a new healthcare system can be daunting. Understanding Japan's National Health Insurance (NHI) system is crucial for international students to ensure they have access to affordable and reliable healthcare during their stay. This guide will walk you through everything you need to know about NHI, including how to enroll, how to apply for a premium reduction if you have limited income, and what to expect when you need to see a doctor. Knowing your healthcare options will provide peace of mind and allow you to focus on your studies and enjoy your time in Japan.

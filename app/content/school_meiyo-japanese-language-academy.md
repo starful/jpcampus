@@ -1,72 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "千葉県柏市泉町17-1",
-    "capacity": 280,
-    "name_en": "Meiyu Japanese Language Academy",
-    "name_ja": "明友日本語学院",
-    "location": {
-      "lat": 35.854525,
-      "lng": 139.9670156
-    }
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1074600,
-      "translated_course_name": "University Prep 1.5-Year Course"
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1404000,
-      "translated_course_name": "University Prep 2-Year Course"
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1.3年コース",
-      "total_fees": 909900,
-      "translated_course_name": "University Prep 1.3-Year Course"
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1.9年コース",
-      "total_fees": 1239300,
-      "translated_course_name": "University Prep 1.9-Year Course"
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Science Focus"
-  ],
-  "id": "school_meiyo-japanese-language-academy",
-  "layout": "school",
-  "location": {
-    "lat": 35.854525,
-    "lng": 139.9670156
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=83",
-  "stats": {
-    "capacity": 280,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Science Focus"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Meiyu Japanese Language Academy",
-  "description": "Located in Kashiwa, Chiba, Meiyu Japanese Language Academy offers comprehensive Japanese language education, focusing on university preparation, especially in science. Features dormitory accommodation and EJU support.",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 千葉県柏市泉町17-1
+  capacity: 280
+  location:
+    lat: 35.854525
+    lng: 139.9670156
+  name_en: Meiyu Japanese Language Academy
+  name_ja: 明友日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1074600
+  translated_course_name: University Prep 1.5-Year Course
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1404000
+  translated_course_name: University Prep 2-Year Course
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 909900
+  translated_course_name: University Prep 1.3-Year Course
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1239300
+  translated_course_name: University Prep 1.9-Year Course
+description: Located in Kashiwa, Chiba, Meiyu Japanese Language Academy offers comprehensive
+  Japanese language education, focusing on university preparation, especially in science.
+  Features dormitory accommodation and EJU support.
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Science Focus
+id: school_meiyo-japanese-language-academy
+lang: en
+layout: school
+location:
+  lat: 35.854525
+  lng: 139.9670156
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=83
+stats:
+  capacity: 280
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: Meiyu Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

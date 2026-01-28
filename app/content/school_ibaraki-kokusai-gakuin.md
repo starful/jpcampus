@@ -1,56 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ibaraki-kokusai-gakuin",
-  "title": "Ibaraki Kokusai Gakuin (Ibaraki International Academy)",
-  "category": "school",
-  "tags": [
-    "On-campus/Affiliated Dormitory Provided",
-    "Dedicated EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive Higher Education Pathway Guidance",
-    "Focus on Practical Business Japanese Skills",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.3727781,
-    "lng": 140.4746556
-  },
-  "basic_info": {
-    "name_ja": "茨城国際学院",
-    "address": "茨城県水戸市宮町2-3-37 藤岡ビル4F",
-    "capacity": 74,
-    "name_en": "Ibaraki Kokusai Gakuin (Ibaraki International Academy)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "On-campus/Affiliated Dormitory Provided",
-    "Dedicated EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive Higher Education Pathway Guidance",
-    "Focus on Practical Business Japanese Skills",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年9月コース",
-      "admission_month": "7",
-      "total_fees": 1105000
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1250000
-    },
-    {
-      "course_name": "進学1年6月コース",
-      "admission_month": "10",
-      "total_fees": 960000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=30"
-}
+basic_info:
+  address: 茨城県水戸市宮町2-3-37 藤岡ビル4F
+  capacity: 74
+  name_en: Ibaraki Kokusai Gakuin (Ibaraki International Academy)
+  name_ja: 茨城国際学院
+category: school
+courses:
+- admission_month: '7'
+  course_name: 進学1年9月コース
+  total_fees: 1105000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1250000
+- admission_month: '10'
+  course_name: 進学1年6月コース
+  total_fees: 960000
+faculties: []
+features:
+- On-campus/Affiliated Dormitory Provided
+- Dedicated EJU (Examination for Japanese University Admission) Preparation
+- Intensive Higher Education Pathway Guidance
+- Focus on Practical Business Japanese Skills
+- Flexible Short-Term Study Options Available
+id: school_ibaraki-kokusai-gakuin
+lang: en
+layout: school
+location:
+  lat: 36.3727781
+  lng: 140.4746556
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=30
+stats: {}
+tags:
+- On-campus/Affiliated Dormitory Provided
+- Dedicated EJU (Examination for Japanese University Admission) Preparation
+- Intensive Higher Education Pathway Guidance
+- Focus on Practical Business Japanese Skills
+- Flexible Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: Ibaraki Kokusai Gakuin (Ibaraki International Academy)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

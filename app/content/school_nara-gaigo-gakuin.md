@@ -1,67 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "7-2 Hōren-chō, Nara-shi, Nara-ken",
-    "capacity": 120,
-    "name_en": "Nara Foreign Language Academy",
-    "name_ja": "奈良外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "General 2-Year Course",
-      "total_fees": 1480000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "General 1.5-Year Course",
-      "total_fees": 1140000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "Private Room",
-    "Scholarship",
-    "EJU Preparation",
-    "Science Course Focus",
-    "University Preparation",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art Studies",
-    "Design Studies",
-    "Short-Term Course"
-  ],
-  "id": "school_nara-gaigo-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 34.6890115,
-    "lng": 135.8258508
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=609",
-  "stats": {
-    "capacity": 120,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Private Room",
-    "Scholarship",
-    "EJU Preparation",
-    "Science Course Focus",
-    "University Preparation",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art Studies",
-    "Design Studies",
-    "Short-Term Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Nara Foreign Language Academy",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 7-2 Hōren-chō, Nara-shi, Nara-ken
+  capacity: 120
+  name_en: Nara Foreign Language Academy
+  name_ja: 奈良外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: General 2-Year Course
+  total_fees: 1480000
+- admission_month: '10'
+  course_name: General 1.5-Year Course
+  total_fees: 1140000
+faculties: []
+features:
+- Dormitory
+- Private Room
+- Scholarship
+- EJU Preparation
+- Science Course Focus
+- University Preparation
+- Conversational Japanese
+- Business Japanese
+- Art Studies
+- Design Studies
+- Short-Term Course
+id: school_nara-gaigo-gakuin
+lang: en
+layout: school
+location:
+  lat: 34.6890115
+  lng: 135.8258508
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=609
+stats:
+  capacity: 120
+  international_students: 0
+tags:
+- Dormitory
+- Private Room
+- Scholarship
+- EJU Preparation
+- Science Course Focus
+- University Preparation
+- Conversational Japanese
+- Business Japanese
+- Art Studies
+- Design Studies
+- Short-Term Course
+thumbnail: /static/img/pin-school.png
+title: Nara Foreign Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

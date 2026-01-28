@@ -1,77 +1,58 @@
 ---
-{
-  "layout": "school",
-  "id": "school_a-c-c-international-exchange-academy-fujinomiya",
-  "title": "A.C.C. International Exchange Academy",
-  "category": "school",
-  "tags": [
-    "Compulsory or Highly Recommended Dormitory Placement",
-    "Specialized EJU Preparation (Science and Humanities Tracks)",
-    "Dedicated Curriculum for Art, Design, and Business Progression",
-    "Located in Fujinomiya, Shizuoka (Near Mt. Fuji) for focused study",
-    "High-Intensity 'Special Advanced Progression' Courses",
-    "Flexible Short-Term and Conversation Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.2240876,
-    "lng": 138.6132254
-  },
-  "basic_info": {
-    "name_ja": "Ａ.Ｃ.Ｃ.国際交流学園",
-    "address": "静岡県富士宮市大宮町10-9",
-    "capacity": 320,
-    "name_en": "A.C.C. International Exchange Academy"
-  },
-  "stats": {
-    "international_students": 123,
-    "capacity": 320
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Compulsory or Highly Recommended Dormitory Placement",
-    "Specialized EJU Preparation (Science and Humanities Tracks)",
-    "Dedicated Curriculum for Art, Design, and Business Progression",
-    "Located in Fujinomiya, Shizuoka (Near Mt. Fuji) for focused study",
-    "High-Intensity 'Special Advanced Progression' Courses",
-    "Flexible Short-Term and Conversation Programs Available"
-  ],
-  "courses": [
-    {
-      "course_name": "本科特別進学1年コース",
-      "admission_month": "4",
-      "total_fees": 718000
-    },
-    {
-      "course_name": "本科特別進学1年3ヶ月コース",
-      "admission_month": "1",
-      "total_fees": 878750
-    },
-    {
-      "course_name": "本科進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1044500
-    },
-    {
-      "course_name": "本科進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1205250
-    },
-    {
-      "course_name": "本科進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1366000
-    },
-    {
-      "course_name": "本科一般6ヶ月コース",
-      "admission_month": "4, 10",
-      "total_fees": 394000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=282",
-  "translated": true
-}
+basic_info:
+  address: 静岡県富士宮市大宮町10-9
+  capacity: 320
+  name_en: A.C.C. International Exchange Academy
+  name_ja: Ａ.Ｃ.Ｃ.国際交流学園
+category: school
+courses:
+- admission_month: '4'
+  course_name: 本科特別進学1年コース
+  total_fees: 718000
+- admission_month: '1'
+  course_name: 本科特別進学1年3ヶ月コース
+  total_fees: 878750
+- admission_month: '10'
+  course_name: 本科進学1年6ヶ月コース
+  total_fees: 1044500
+- admission_month: '7'
+  course_name: 本科進学1年9ヶ月コース
+  total_fees: 1205250
+- admission_month: '4'
+  course_name: 本科進学2年コース
+  total_fees: 1366000
+- admission_month: 4, 10
+  course_name: 本科一般6ヶ月コース
+  total_fees: 394000
+faculties: []
+features:
+- Compulsory or Highly Recommended Dormitory Placement
+- Specialized EJU Preparation (Science and Humanities Tracks)
+- Dedicated Curriculum for Art, Design, and Business Progression
+- Located in Fujinomiya, Shizuoka (Near Mt. Fuji) for focused study
+- High-Intensity 'Special Advanced Progression' Courses
+- Flexible Short-Term and Conversation Programs Available
+id: school_a-c-c-international-exchange-academy-fujinomiya
+lang: en
+layout: school
+location:
+  lat: 35.2240876
+  lng: 138.6132254
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=282
+stats:
+  capacity: 320
+  international_students: 123
+tags:
+- Compulsory or Highly Recommended Dormitory Placement
+- Specialized EJU Preparation (Science and Humanities Tracks)
+- Dedicated Curriculum for Art, Design, and Business Progression
+- Located in Fujinomiya, Shizuoka (Near Mt. Fuji) for focused study
+- High-Intensity 'Special Advanced Progression' Courses
+- Flexible Short-Term and Conversation Programs Available
+thumbnail: /static/img/pin-school.png
+title: A.C.C. International Exchange Academy
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

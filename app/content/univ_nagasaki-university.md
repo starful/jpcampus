@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagasaki-university",
-  "title": "Nagasaki University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "長崎大学",
-    "name_en": "Nagasaki University",
-    "address": "1-14 Bunkyo-machi, Nagasaki 852-8521, Japan",
-    "website": "https://www.nagasaki-u.ac.jp/en/"
-  },
-  "stats": {
-    "international_students": 782,
-    "acceptance_rate": "30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 817800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Fisheries",
-    "Faculty of Environmental Sciences",
-    "Faculty of Global Humanities and Social Sciences",
-    "School of Medicine",
-    "School of Dentistry"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 1-14 Bunkyo-machi, Nagasaki 852-8521, Japan
+  name_en: Nagasaki University
+  name_ja: 長崎大学
+  website: https://www.nagasaki-u.ac.jp/en/
+category: university
+faculties:
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Fisheries
+- Faculty of Environmental Sciences
+- Faculty of Global Humanities and Social Sciences
+- School of Medicine
+- School of Dentistry
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_nagasaki-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30%
+  international_students: 782
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Nagasaki University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 817800
 ---
 
 ## University Overview & Reputation

@@ -1,64 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shogeisha-language-academy-tokyo-art-prep",
-  "title": "Shogeisha Language Academy",
-  "category": "school",
-  "tags": [
-    "Highly Specialized Art University Preparation (Bijutsu Kei Shingaku)",
-    "Small Class Environment and Personalized Mentorship",
-    "On-Campus or Affiliated Dormitory Options",
-    "Integrated EJU and Japanese Proficiency Training",
-    "Prime Tokyo Location for Art Exploration (Nishi-Nippori)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7305149,
-    "lng": 139.772706
-  },
-  "basic_info": {
-    "name_ja": "尚藝舎言語学院",
-    "address": "東京都荒川区西日暮里2-12-5 尚藝舎ビル",
-    "capacity": 80,
-    "name_en": "Shogeisha Language Academy"
-  },
-  "stats": {
-    "international_students": 0,
-    "capacity": 80
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Highly Specialized Art University Preparation (Bijutsu Kei Shingaku)",
-    "Small Class Environment and Personalized Mentorship",
-    "On-Campus or Affiliated Dormitory Options",
-    "Integrated EJU and Japanese Proficiency Training",
-    "Prime Tokyo Location for Art Exploration (Nishi-Nippori)"
-  ],
-  "courses": [
-    {
-      "course_name": "美術系進学2年課程",
-      "admission_month": "4",
-      "total_fees": 2300000
-    },
-    {
-      "course_name": "美術系進学1年9か月課程",
-      "admission_month": "7",
-      "total_fees": 2042500
-    },
-    {
-      "course_name": "美術系進学1年6か月課程",
-      "admission_month": "10",
-      "total_fees": 1785000
-    },
-    {
-      "course_name": "美術系進学1年課程",
-      "admission_month": "4",
-      "total_fees": 1260000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=589"
-}
+basic_info:
+  address: 東京都荒川区西日暮里2-12-5 尚藝舎ビル
+  capacity: 80
+  name_en: Shogeisha Language Academy
+  name_ja: 尚藝舎言語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 美術系進学2年課程
+  total_fees: 2300000
+- admission_month: '7'
+  course_name: 美術系進学1年9か月課程
+  total_fees: 2042500
+- admission_month: '10'
+  course_name: 美術系進学1年6か月課程
+  total_fees: 1785000
+- admission_month: '4'
+  course_name: 美術系進学1年課程
+  total_fees: 1260000
+faculties: []
+features:
+- Highly Specialized Art University Preparation (Bijutsu Kei Shingaku)
+- Small Class Environment and Personalized Mentorship
+- On-Campus or Affiliated Dormitory Options
+- Integrated EJU and Japanese Proficiency Training
+- Prime Tokyo Location for Art Exploration (Nishi-Nippori)
+id: school_shogeisha-language-academy-tokyo-art-prep
+lang: en
+layout: school
+location:
+  lat: 35.7305149
+  lng: 139.772706
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=589
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- Highly Specialized Art University Preparation (Bijutsu Kei Shingaku)
+- Small Class Environment and Personalized Mentorship
+- On-Campus or Affiliated Dormitory Options
+- Integrated EJU and Japanese Proficiency Training
+- Prime Tokyo Location for Art Exploration (Nishi-Nippori)
+thumbnail: /static/img/pin-school.png
+title: Shogeisha Language Academy
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

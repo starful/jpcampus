@@ -1,56 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県岩倉市稲荷町羽根14-10",
-    "capacity": 150,
-    "name_en": "Aichi Kotonoha Academy",
-    "name_ja": "あいちコトノハ学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1470000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1150000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Conversational Japanese",
-    "Short-Term Courses"
-  ],
-  "id": "school_aichi-kotonoha-academy",
-  "layout": "school",
-  "location": {
-    "lat": 35.2665989,
-    "lng": 136.8736841
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=545",
-  "stats": {
-    "capacity": 150,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Conversational Japanese",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Aichi Kotonoha Academy",
-  "tuition": {},
-  "description": "Aichi Kotonoha Academy provides high-quality Japanese language education in Aichi Prefecture, focusing on university preparation, EJU, and practical conversational skills.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県岩倉市稲荷町羽根14-10
+  capacity: 150
+  name_en: Aichi Kotonoha Academy
+  name_ja: あいちコトノハ学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1470000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1150000
+description: Aichi Kotonoha Academy provides high-quality Japanese language education
+  in Aichi Prefecture, focusing on university preparation, EJU, and practical conversational
+  skills.
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Conversational Japanese
+- Short-Term Courses
+id: school_aichi-kotonoha-academy
+lang: en
+layout: school
+location:
+  lat: 35.2665989
+  lng: 136.8736841
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=545
+stats:
+  capacity: 150
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Conversational Japanese
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Aichi Kotonoha Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

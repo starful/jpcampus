@@ -1,68 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市生野区巽東3-14-6",
-    "capacity": 100,
-    "name_en": "Himawari Osaka Japanese Language School",
-    "name_ja": "ひまわり大阪日本語学園"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1119250
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1463000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Private Rooms",
-    "Scholarships",
-    "Science Focus",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art Focus",
-    "Design Focus",
-    "Short-Term Courses"
-  ],
-  "id": "school_himawari-osaka-nihongo-gakuen",
-  "layout": "school",
-  "location": {
-    "lat": 34.6524506,
-    "lng": 135.5611634
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=610",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Private Rooms",
-    "Scholarships",
-    "Science Focus",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art Focus",
-    "Design Focus",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Himawari Osaka Japanese Language School",
-  "tuition": {},
-  "description": "Himawari Osaka Japanese Language School is located in Osaka and offers courses to prepare students for university and vocational school. They also have short-term courses and focus on conversational and business Japanese.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市生野区巽東3-14-6
+  capacity: 100
+  name_en: Himawari Osaka Japanese Language School
+  name_ja: ひまわり大阪日本語学園
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1119250
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1463000
+description: Himawari Osaka Japanese Language School is located in Osaka and offers
+  courses to prepare students for university and vocational school. They also have
+  short-term courses and focus on conversational and business Japanese.
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Private Rooms
+- Scholarships
+- Science Focus
+- Conversational Japanese
+- Business Japanese
+- Art Focus
+- Design Focus
+- Short-Term Courses
+id: school_himawari-osaka-nihongo-gakuen
+lang: en
+layout: school
+location:
+  lat: 34.6524506
+  lng: 135.5611634
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=610
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Private Rooms
+- Scholarships
+- Science Focus
+- Conversational Japanese
+- Business Japanese
+- Art Focus
+- Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Himawari Osaka Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview

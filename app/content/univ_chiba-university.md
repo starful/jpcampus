@@ -1,57 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "〒263-8522 千葉県千葉市稲毛区弥生町1-33",
-    "name_en": "Chiba University",
-    "name_ja": "千葉大学",
-    "website": "https://www.chiba-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Law and Economics",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Horticulture",
-    "Faculty of Medicine",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Nursing",
-    "Faculty of Education",
-    "Faculty of Global and Interdisciplinary Studies"
-  ],
-  "features": [
-    "Super Global University (SGU) participant",
-    "EJU Required for most undergraduate programs",
-    "Offers English-taught programs",
-    "Dormitory available for international students",
-    "Scholarship opportunities"
-  ],
-  "id": "univ_chiba-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 1200
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Chiba University",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 817800
-  },
-  "translated": true,
-  "description": "Chiba University, a leading national university in Chiba Prefecture, Japan, offers a wide range of academic disciplines and a strong commitment to internationalization through its SGU program and English-taught courses."
-}
+basic_info:
+  address: 〒263-8522 千葉県千葉市稲毛区弥生町1-33
+  name_en: Chiba University
+  name_ja: 千葉大学
+  website: https://www.chiba-u.ac.jp/
+category: university
+description: Chiba University, a leading national university in Chiba Prefecture,
+  Japan, offers a wide range of academic disciplines and a strong commitment to internationalization
+  through its SGU program and English-taught courses.
+faculties:
+- Faculty of Letters
+- Faculty of Law and Economics
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Horticulture
+- Faculty of Medicine
+- Faculty of Pharmaceutical Sciences
+- Faculty of Nursing
+- Faculty of Education
+- Faculty of Global and Interdisciplinary Studies
+features:
+- Super Global University (SGU) participant
+- EJU Required for most undergraduate programs
+- Offers English-taught programs
+- Dormitory available for international students
+- Scholarship opportunities
+id: univ_chiba-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25%
+  international_students: 1200
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Chiba University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 817800
 ---
 
 ## University Overview & Reputation

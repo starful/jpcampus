@@ -1,70 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ecc-japanese-institute-kobe",
-  "title": "ECC Japanese Language Institute, Kobe School",
-  "category": "school",
-  "tags": [
-    "High-Focus Conversational Training (Kaiwa)",
-    "Specialized EJU and University Advancement Tracks",
-    "Dedicated Science (Rikei) Preparation Coursework",
-    "Comprehensive Student Dormitory and Housing Support",
-    "Located in the Cosmopolitan Port City of Kobe"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6958238,
-    "lng": 135.1949181
-  },
-  "basic_info": {
-    "name_ja": "ECC日本語学院神戸校",
-    "address": "兵庫県神戸市中央区琴ノ緒町5-5-6",
-    "capacity": 150,
-    "name_en": "ECC Japanese Language Institute, Kobe School"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 150
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Focus Conversational Training (Kaiwa)",
-    "Specialized EJU and University Advancement Tracks",
-    "Dedicated Science (Rikei) Preparation Coursework",
-    "Comprehensive Student Dormitory and Housing Support",
-    "Located in the Cosmopolitan Port City of Kobe"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語総合1年コース",
-      "admission_month": "4",
-      "total_fees": 825500
-    },
-    {
-      "course_name": "日本語総合1年3か月コース",
-      "admission_month": "1",
-      "total_fees": 1017125
-    },
-    {
-      "course_name": "日本語総合1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1202750
-    },
-    {
-      "course_name": "日本語総合1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1388375
-    },
-    {
-      "course_name": "日本語総合2年コース",
-      "admission_month": "4",
-      "total_fees": 1574000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=553",
-  "translated": true
-}
+basic_info:
+  address: 兵庫県神戸市中央区琴ノ緒町5-5-6
+  capacity: 150
+  name_en: ECC Japanese Language Institute, Kobe School
+  name_ja: ECC日本語学院神戸校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語総合1年コース
+  total_fees: 825500
+- admission_month: '1'
+  course_name: 日本語総合1年3か月コース
+  total_fees: 1017125
+- admission_month: '10'
+  course_name: 日本語総合1年6か月コース
+  total_fees: 1202750
+- admission_month: '7'
+  course_name: 日本語総合1年9か月コース
+  total_fees: 1388375
+- admission_month: '4'
+  course_name: 日本語総合2年コース
+  total_fees: 1574000
+faculties: []
+features:
+- High-Focus Conversational Training (Kaiwa)
+- Specialized EJU and University Advancement Tracks
+- Dedicated Science (Rikei) Preparation Coursework
+- Comprehensive Student Dormitory and Housing Support
+- Located in the Cosmopolitan Port City of Kobe
+id: school_ecc-japanese-institute-kobe
+lang: en
+layout: school
+location:
+  lat: 34.6958238
+  lng: 135.1949181
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=553
+stats:
+  capacity: 150
+  international_students: null
+tags:
+- High-Focus Conversational Training (Kaiwa)
+- Specialized EJU and University Advancement Tracks
+- Dedicated Science (Rikei) Preparation Coursework
+- Comprehensive Student Dormitory and Housing Support
+- Located in the Cosmopolitan Port City of Kobe
+thumbnail: /static/img/pin-school.png
+title: ECC Japanese Language Institute, Kobe School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

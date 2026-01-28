@@ -1,49 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-university-foreign-studies-tufs-guide",
-  "title": "Tokyo University of Foreign Studies",
-  "category": "university",
-  "tags": [
-    "Japan's premier institution for specialized language and area studies",
-    "Curriculum focuses on 27 different languages and their associated cultures",
-    "High degree of international exchange (over 100 partner institutions)",
-    "EJU Required (for most undergraduate admissions)",
-    "Limited English-Taught Programs at the undergraduate level; primary instruction is Japanese."
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京外国語大学",
-    "name_en": "Tokyo University of Foreign Studies",
-    "address": "3-11-1 Asahi-cho, Fuchu-shi, Tokyo 183-8534, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 650,
-    "acceptance_rate": "18% - 25% (Highly Competitive)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Language and Culture Studies",
-    "School of International and Area Studies",
-    "School of Japan Studies (Graduate Level)",
-    "Institute of Global Studies"
-  ],
-  "features": [
-    "Japan's premier institution for specialized language and area studies",
-    "Curriculum focuses on 27 different languages and their associated cultures",
-    "High degree of international exchange (over 100 partner institutions)",
-    "EJU Required (for most undergraduate admissions)",
-    "Limited English-Taught Programs at the undergraduate level; primary instruction is Japanese."
-  ]
-}
+basic_info:
+  address: 3-11-1 Asahi-cho, Fuchu-shi, Tokyo 183-8534, Japan
+  capacity: null
+  name_en: Tokyo University of Foreign Studies
+  name_ja: 東京外国語大学
+category: university
+faculties:
+- School of Language and Culture Studies
+- School of International and Area Studies
+- School of Japan Studies (Graduate Level)
+- Institute of Global Studies
+features:
+- Japan's premier institution for specialized language and area studies
+- Curriculum focuses on 27 different languages and their associated cultures
+- High degree of international exchange (over 100 partner institutions)
+- EJU Required (for most undergraduate admissions)
+- Limited English-Taught Programs at the undergraduate level; primary instruction
+  is Japanese.
+id: univ_tokyo-university-foreign-studies-tufs-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 18% - 25% (Highly Competitive)
+  international_students: 650
+tags:
+- Japan's premier institution for specialized language and area studies
+- Curriculum focuses on 27 different languages and their associated cultures
+- High degree of international exchange (over 100 partner institutions)
+- EJU Required (for most undergraduate admissions)
+- Limited English-Taught Programs at the undergraduate level; primary instruction
+  is Japanese.
+thumbnail: /static/img/pin-univ.png
+title: Tokyo University of Foreign Studies
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

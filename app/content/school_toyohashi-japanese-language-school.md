@@ -1,53 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "school_toyohashi-japanese-language-school",
-  "title": "Toyohashi Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Comprehensive Higher Education Advancement Tracks (EJU, Science, Art/Design)",
-    "Guaranteed Student Dormitory Accommodation",
-    "Extensive Scholarship and Financial Aid Programs",
-    "Specialized Business and Practical Conversation Training",
-    "Located in Toyohashi, Aichi Prefecture (Lower Cost of Living)",
-    "Flexible Long-Term (1.5 & 2 Years) and Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7682069,
-    "lng": 137.3901256
-  },
-  "basic_info": {
-    "name_ja": "豊橋日本語学校",
-    "address": "愛知県豊橋市八町通1-18",
-    "capacity": 337,
-    "name_en": "Toyohashi Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive Higher Education Advancement Tracks (EJU, Science, Art/Design)",
-    "Guaranteed Student Dormitory Accommodation",
-    "Extensive Scholarship and Financial Aid Programs",
-    "Specialized Business and Practical Conversation Training",
-    "Located in Toyohashi, Aichi Prefecture (Lower Cost of Living)",
-    "Flexible Long-Term (1.5 & 2 Years) and Short-Term Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コース（1年6ヶ月）",
-      "admission_month": "10",
-      "total_fees": 935000
-    },
-    {
-      "course_name": "進学コース（2年）",
-      "admission_month": "4",
-      "total_fees": 1220000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=549"
-}
+basic_info:
+  address: 愛知県豊橋市八町通1-18
+  capacity: 337
+  name_en: Toyohashi Japanese Language School
+  name_ja: 豊橋日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学コース（1年6ヶ月）
+  total_fees: 935000
+- admission_month: '4'
+  course_name: 進学コース（2年）
+  total_fees: 1220000
+faculties: []
+features:
+- Comprehensive Higher Education Advancement Tracks (EJU, Science, Art/Design)
+- Guaranteed Student Dormitory Accommodation
+- Extensive Scholarship and Financial Aid Programs
+- Specialized Business and Practical Conversation Training
+- Located in Toyohashi, Aichi Prefecture (Lower Cost of Living)
+- Flexible Long-Term (1.5 & 2 Years) and Short-Term Study Options
+id: school_toyohashi-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 34.7682069
+  lng: 137.3901256
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=549
+stats: {}
+tags:
+- Comprehensive Higher Education Advancement Tracks (EJU, Science, Art/Design)
+- Guaranteed Student Dormitory Accommodation
+- Extensive Scholarship and Financial Aid Programs
+- Specialized Business and Practical Conversation Training
+- Located in Toyohashi, Aichi Prefecture (Lower Cost of Living)
+- Flexible Long-Term (1.5 & 2 Years) and Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Toyohashi Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

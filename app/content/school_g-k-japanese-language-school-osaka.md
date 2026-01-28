@@ -1,56 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_g-k-japanese-language-school-osaka",
-  "title": "GK Japanese Language School",
-  "category": "school",
-  "tags": [
-    "On-campus or Affiliated Dormitory Options",
-    "Comprehensive EJU and University Entrance Preparation",
-    "Dedicated Higher Education and Vocational School Track",
-    "Specialized Business Japanese and Professional Communication Training",
-    "Intensive Conversation and Practical Skills Focus",
-    "Flexible Short-Term Study and Cultural Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6242472,
-    "lng": 135.4776531
-  },
-  "basic_info": {
-    "name_ja": "GK日本語学校",
-    "address": "大阪府大阪市住之江区北加賀屋3-4-7",
-    "capacity": 100,
-    "name_en": "GK Japanese Language School"
-  },
-  "stats": {
-    "international_students": 100,
-    "capacity": 100
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "On-campus or Affiliated Dormitory Options",
-    "Comprehensive EJU and University Entrance Preparation",
-    "Dedicated Higher Education and Vocational School Track",
-    "Specialized Business Japanese and Professional Communication Training",
-    "Intensive Conversation and Practical Skills Focus",
-    "Flexible Short-Term Study and Cultural Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1274900
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1674200
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=612"
-}
+basic_info:
+  address: 大阪府大阪市住之江区北加賀屋3-4-7
+  capacity: 100
+  name_en: GK Japanese Language School
+  name_ja: GK日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1274900
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1674200
+faculties: []
+features:
+- On-campus or Affiliated Dormitory Options
+- Comprehensive EJU and University Entrance Preparation
+- Dedicated Higher Education and Vocational School Track
+- Specialized Business Japanese and Professional Communication Training
+- Intensive Conversation and Practical Skills Focus
+- Flexible Short-Term Study and Cultural Programs
+id: school_g-k-japanese-language-school-osaka
+lang: en
+layout: school
+location:
+  lat: 34.6242472
+  lng: 135.4776531
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=612
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- On-campus or Affiliated Dormitory Options
+- Comprehensive EJU and University Entrance Preparation
+- Dedicated Higher Education and Vocational School Track
+- Specialized Business Japanese and Professional Communication Training
+- Intensive Conversation and Practical Skills Focus
+- Flexible Short-Term Study and Cultural Programs
+thumbnail: /static/img/pin-school.png
+title: GK Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

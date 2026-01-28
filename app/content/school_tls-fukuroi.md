@@ -1,65 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県袋井市上山梨1579-1",
-    "capacity": 150,
-    "name_en": "TLS Fukuroi",
-    "name_ja": "TLS袋井"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1104700
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1265700
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1425400
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Advancement to Higher Education",
-    "Daily Life Support",
-    "Job Hunting Support",
-    "Cultural Experiences",
-    "Japanese Customs",
-    "EJU Preparation",
-    "Dormitory"
-  ],
-  "id": "school_tls-fukuroi",
-  "layout": "school",
-  "location": {
-    "lat": 34.7914311,
-    "lng": 137.902376
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=536",
-  "stats": {
-    "capacity": 150,
-    "international_students": 0
-  },
-  "tags": [
-    "Advancement to Higher Education",
-    "Daily Life Support",
-    "Job Hunting Support",
-    "Cultural Experiences",
-    "Japanese Customs",
-    "EJU Preparation",
-    "Dormitory"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "TLS Fukuroi",
-  "tuition": {},
-  "translated": true,
-  "description": "TLS Fukuroi offers comprehensive Japanese language education, preparing students for higher education and daily life in Japan. Features include university preparation, cultural experiences, job hunting support, and dormitory accommodations."
-}
+basic_info:
+  address: 静岡県袋井市上山梨1579-1
+  capacity: 150
+  name_en: TLS Fukuroi
+  name_ja: TLS袋井
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1104700
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1265700
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1425400
+description: TLS Fukuroi offers comprehensive Japanese language education, preparing
+  students for higher education and daily life in Japan. Features include university
+  preparation, cultural experiences, job hunting support, and dormitory accommodations.
+faculties: []
+features:
+- Advancement to Higher Education
+- Daily Life Support
+- Job Hunting Support
+- Cultural Experiences
+- Japanese Customs
+- EJU Preparation
+- Dormitory
+id: school_tls-fukuroi
+lang: en
+layout: school
+location:
+  lat: 34.7914311
+  lng: 137.902376
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=536
+stats:
+  capacity: 150
+  international_students: 0
+tags:
+- Advancement to Higher Education
+- Daily Life Support
+- Job Hunting Support
+- Cultural Experiences
+- Japanese Customs
+- EJU Preparation
+- Dormitory
+thumbnail: /static/img/pin-school.png
+title: TLS Fukuroi
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview

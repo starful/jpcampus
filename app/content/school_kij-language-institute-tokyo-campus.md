@@ -1,64 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kij-language-institute-tokyo-campus",
-  "title": "KIJ Language Institute, Tokyo Campus",
-  "category": "school",
-  "tags": [
-    "Specialized EJU Preparation for University Progression",
-    "Dedicated Science (Rikei) Track Curriculum",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Generous Merit-Based Scholarship System",
-    "Small Class Sizes and Personalized Academic Guidance"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.73094,
-    "lng": 139.7603363
-  },
-  "basic_info": {
-    "name_ja": "ＫＩＪ語学院東京校",
-    "address": "東京都文京区千駄木4-1-16-107",
-    "capacity": 150,
-    "name_en": "KIJ Language Institute, Tokyo Campus"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 150
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized EJU Preparation for University Progression",
-    "Dedicated Science (Rikei) Track Curriculum",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Generous Merit-Based Scholarship System",
-    "Small Class Sizes and Personalized Academic Guidance"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1555900
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1187840
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1371890
-    },
-    {
-      "course_name": "進学1年3か月コース",
-      "admission_month": "1",
-      "total_fees": 996330
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=507"
-}
+basic_info:
+  address: 東京都文京区千駄木4-1-16-107
+  capacity: 150
+  name_en: KIJ Language Institute, Tokyo Campus
+  name_ja: ＫＩＪ語学院東京校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1555900
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1187840
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1371890
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 996330
+faculties: []
+features:
+- Specialized EJU Preparation for University Progression
+- Dedicated Science (Rikei) Track Curriculum
+- On-Campus or Affiliated Dormitory Accommodation
+- Generous Merit-Based Scholarship System
+- Small Class Sizes and Personalized Academic Guidance
+id: school_kij-language-institute-tokyo-campus
+lang: en
+layout: school
+location:
+  lat: 35.73094
+  lng: 139.7603363
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=507
+stats:
+  capacity: 150
+  international_students: null
+tags:
+- Specialized EJU Preparation for University Progression
+- Dedicated Science (Rikei) Track Curriculum
+- On-Campus or Affiliated Dormitory Accommodation
+- Generous Merit-Based Scholarship System
+- Small Class Sizes and Personalized Academic Guidance
+thumbnail: /static/img/pin-school.png
+title: KIJ Language Institute, Tokyo Campus
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "career-path",
-  "title": "Language School to University vs. Vocational School",
-  "category": "Selection",
-  "tags": [
-    "Selection"
-  ],
-  "description": "Choosing the right path after language studies.",
-  "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-01-28"
-}
+category: Selection
+date: '2026-01-28'
+description: Choosing the right path after language studies.
+id: career-path
+lang: en
+layout: guide
+tags:
+- Selection
+thumbnail: https://images.unsplash.com/photo-1528164344705-47542687000d?w=500
+title: Language School to University vs. Vocational School
 ---
 
 # From Language Learner to Professional: Navigating the Crossroads After Japanese Language School

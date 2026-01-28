@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "preparation",
-  "title": "Pre-departure Checklist: What to Pack",
-  "category": "Preparation",
-  "tags": [
-    "Preparation"
-  ],
-  "description": "Must-bring items like Hanko and documents.",
-  "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500",
-  "date": "2026-01-01"
-}
+category: Preparation
+date: '2026-01-01'
+description: Must-bring items like Hanko and documents.
+id: preparation
+lang: en
+layout: guide
+tags:
+- Preparation
+thumbnail: https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500
+title: 'Pre-departure Checklist: What to Pack'
 ---
 
 Embarking on your study abroad adventure in Japan is an exciting step! But before you can immerse yourself in Japanese culture, master the language, and excel in your studies, you need to pack. Packing smart is crucial for a smooth transition. This guide provides a comprehensive pre-departure checklist to ensure you have everything you need for a successful start to your Japanese student life. Careful preparation will save you time, money, and stress upon arrival, allowing you to focus on what truly matters: your education and experiencing Japan!

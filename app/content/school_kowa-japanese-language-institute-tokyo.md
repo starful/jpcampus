@@ -1,60 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kowa-japanese-language-institute-tokyo",
-  "title": "Kowa Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "Specialist focus on University and Higher Education Preparation",
-    "Dedicated, intensive training for the Examination for Japanese University Admission (EJU)",
-    "Affiliated or On-Campus Dormitory options for smooth transition",
-    "Strategic location in the quiet, residential Ota Ward, Tokyo",
-    "Small to Mid-Sized institution fostering personalized student attention and support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.5836745,
-    "lng": 139.7204992
-  },
-  "basic_info": {
-    "name_ja": "興和日本語学院",
-    "address": "東京都大田区山王3-45-28",
-    "capacity": 180,
-    "name_en": "Kowa Japanese Language Institute"
-  },
-  "stats": {
-    "international_students": 150,
-    "capacity": 180
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialist focus on University and Higher Education Preparation",
-    "Dedicated, intensive training for the Examination for Japanese University Admission (EJU)",
-    "Affiliated or On-Campus Dormitory options for smooth transition",
-    "Strategic location in the quiet, residential Ota Ward, Tokyo",
-    "Small to Mid-Sized institution fostering personalized student attention and support"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1383800
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1220450
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1057100
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=251",
-  "translated": true
-}
+basic_info:
+  address: 東京都大田区山王3-45-28
+  capacity: 180
+  name_en: Kowa Japanese Language Institute
+  name_ja: 興和日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1383800
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1220450
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1057100
+faculties: []
+features:
+- Specialist focus on University and Higher Education Preparation
+- Dedicated, intensive training for the Examination for Japanese University Admission
+  (EJU)
+- Affiliated or On-Campus Dormitory options for smooth transition
+- Strategic location in the quiet, residential Ota Ward, Tokyo
+- Small to Mid-Sized institution fostering personalized student attention and support
+id: school_kowa-japanese-language-institute-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.5836745
+  lng: 139.7204992
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=251
+stats:
+  capacity: 180
+  international_students: 150
+tags:
+- Specialist focus on University and Higher Education Preparation
+- Dedicated, intensive training for the Examination for Japanese University Admission
+  (EJU)
+- Affiliated or On-Campus Dormitory options for smooth transition
+- Strategic location in the quiet, residential Ota Ward, Tokyo
+- Small to Mid-Sized institution fostering personalized student attention and support
+thumbnail: /static/img/pin-school.png
+title: Kowa Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

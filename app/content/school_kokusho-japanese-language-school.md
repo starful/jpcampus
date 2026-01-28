@@ -1,78 +1,60 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kokusho-japanese-language-school",
-  "title": "Kokusho Japanese Language School",
-  "category": "school",
-  "tags": [
-    "High-Intensity University Progression Focus (Shingaku)",
-    "Specialized Art and Design University Entrance Preparation",
-    "Comprehensive EJU and JLPT Preparation Courses",
-    "Large-Scale Tokyo Institution (High Capacity)",
-    "Convenient Location in Northern Tokyo (Itabashi Ward)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7763411,
-    "lng": 139.691145
-  },
-  "basic_info": {
-    "name_ja": "国書日本語学校",
-    "address": "東京都板橋区志村2-10-5",
-    "capacity": 788,
-    "name_en": "Kokusho Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Intensity University Progression Focus (Shingaku)",
-    "Specialized Art and Design University Entrance Preparation",
-    "Comprehensive EJU and JLPT Preparation Courses",
-    "Large-Scale Tokyo Institution (High Capacity)",
-    "Convenient Location in Northern Tokyo (Itabashi Ward)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コース",
-      "admission_month": "4",
-      "total_fees": 880000
-    },
-    {
-      "course_name": "進学コース",
-      "admission_month": "1",
-      "total_fees": 1083300
-    },
-    {
-      "course_name": "進学コース",
-      "admission_month": "10",
-      "total_fees": 1285800
-    },
-    {
-      "course_name": "進学コース",
-      "admission_month": "7",
-      "total_fees": 1487900
-    },
-    {
-      "course_name": "進学コース",
-      "admission_month": "4",
-      "total_fees": 1690000
-    },
-    {
-      "course_name": "一般コース",
-      "admission_month": "1,7",
-      "total_fees": 880000
-    },
-    {
-      "course_name": "一般コース",
-      "admission_month": "4,10",
-      "total_fees": 1690000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=214",
-  "description": "Kokusho Japanese Language School is a large Tokyo-based institution known for its intensive university preparation courses, specialized art and design programs, and comprehensive EJU/JLPT support.",
-  "translated": true
-}
+basic_info:
+  address: 東京都板橋区志村2-10-5
+  capacity: 788
+  name_en: Kokusho Japanese Language School
+  name_ja: 国書日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コース
+  total_fees: 880000
+- admission_month: '1'
+  course_name: 進学コース
+  total_fees: 1083300
+- admission_month: '10'
+  course_name: 進学コース
+  total_fees: 1285800
+- admission_month: '7'
+  course_name: 進学コース
+  total_fees: 1487900
+- admission_month: '4'
+  course_name: 進学コース
+  total_fees: 1690000
+- admission_month: 1,7
+  course_name: 一般コース
+  total_fees: 880000
+- admission_month: 4,10
+  course_name: 一般コース
+  total_fees: 1690000
+description: Kokusho Japanese Language School is a large Tokyo-based institution known
+  for its intensive university preparation courses, specialized art and design programs,
+  and comprehensive EJU/JLPT support.
+faculties: []
+features:
+- High-Intensity University Progression Focus (Shingaku)
+- Specialized Art and Design University Entrance Preparation
+- Comprehensive EJU and JLPT Preparation Courses
+- Large-Scale Tokyo Institution (High Capacity)
+- Convenient Location in Northern Tokyo (Itabashi Ward)
+id: school_kokusho-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.7763411
+  lng: 139.691145
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=214
+stats: {}
+tags:
+- High-Intensity University Progression Focus (Shingaku)
+- Specialized Art and Design University Entrance Preparation
+- Comprehensive EJU and JLPT Preparation Courses
+- Large-Scale Tokyo Institution (High Capacity)
+- Convenient Location in Northern Tokyo (Itabashi Ward)
+thumbnail: /static/img/pin-school.png
+title: Kokusho Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

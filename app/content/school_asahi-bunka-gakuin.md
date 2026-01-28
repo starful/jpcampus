@@ -1,60 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中川区山王3-10-9",
-    "capacity": 200,
-    "name_en": "Asahi Culture Academy",
-    "name_ja": "ASAHI文化学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2年進学コース",
-      "total_fees": 1396000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1年6ヶ月進学コース",
-      "total_fees": 1096000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focused",
-    "Business Japanese",
-    "Science Focus",
-    "Short-Term Courses"
-  ],
-  "id": "school_asahi-bunka-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 35.1514792,
-    "lng": 136.8909309
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=533",
-  "stats": {
-    "capacity": 200,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focused",
-    "Business Japanese",
-    "Science Focus",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Asahi Culture Academy",
-  "tuition": {},
-  "description": "Asahi Culture Academy in Nagoya provides comprehensive Japanese language education for international students, focusing on university preparation and career advancement in Japan. Features include dormitory accommodation, EJU preparation, and business Japanese courses.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市中川区山王3-10-9
+  capacity: 200
+  name_en: Asahi Culture Academy
+  name_ja: ASAHI文化学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2年進学コース
+  total_fees: 1396000
+- admission_month: '10'
+  course_name: 1年6ヶ月進学コース
+  total_fees: 1096000
+description: Asahi Culture Academy in Nagoya provides comprehensive Japanese language
+  education for international students, focusing on university preparation and career
+  advancement in Japan. Features include dormitory accommodation, EJU preparation,
+  and business Japanese courses.
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focused
+- Business Japanese
+- Science Focus
+- Short-Term Courses
+id: school_asahi-bunka-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.1514792
+  lng: 136.8909309
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=533
+stats:
+  capacity: 200
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focused
+- Business Japanese
+- Science Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Asahi Culture Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

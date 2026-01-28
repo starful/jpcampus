@@ -1,53 +1,42 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県静岡市葵区瀬名3-47-3",
-    "capacity": 180,
-    "name_en": "Shizuoka International School",
-    "name_ja": "静岡インターナショナルスクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "大学進学1年半コース",
-      "total_fees": 1062000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1362000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Admission Support",
-    "Conversational Japanese"
-  ],
-  "id": "school_shizuoka-international-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.0184789,
-    "lng": 138.4244595
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=278",
-  "stats": {
-    "capacity": 180,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Admission Support",
-    "Conversational Japanese"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Shizuoka International School",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 静岡県静岡市葵区瀬名3-47-3
+  capacity: 180
+  name_en: Shizuoka International School
+  name_ja: 静岡インターナショナルスクール
+category: school
+courses:
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 1062000
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1362000
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Admission Support
+- Conversational Japanese
+id: school_shizuoka-international-school
+lang: en
+layout: school
+location:
+  lat: 35.0184789
+  lng: 138.4244595
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=278
+stats:
+  capacity: 180
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Admission Support
+- Conversational Japanese
+thumbnail: /static/img/pin-school.png
+title: Shizuoka International School
+translated: true
+tuition: {}
 ---
 
 ## School Overview

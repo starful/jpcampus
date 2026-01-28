@@ -1,58 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_meiji-university",
-  "title": "Meiji University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6986273,
-    "lng": 139.7618814
-  },
-  "basic_info": {
-    "name_ja": "明治大学",
-    "name_en": "Meiji University",
-    "address": "東京都千代田区神田駿河台1-1",
-    "website": "https://www.meiji.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1500,
-    "acceptance_rate": "17%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "faculties": [
-    "School of Law",
-    "School of Commerce",
-    "School of Political Science and Economics",
-    "School of Literature",
-    "School of Science and Technology",
-    "School of Agriculture",
-    "School of Business Administration",
-    "School of Information and Communication",
-    "School of Global Japanese Studies",
-    "School of Interdisciplinary Mathematical Sciences",
-    "School of Global Governance",
-    "School of Comprehensive Mathematical Sciences"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 東京都千代田区神田駿河台1-1
+  name_en: Meiji University
+  name_ja: 明治大学
+  website: https://www.meiji.ac.jp/
+category: university
+faculties:
+- School of Law
+- School of Commerce
+- School of Political Science and Economics
+- School of Literature
+- School of Science and Technology
+- School of Agriculture
+- School of Business Administration
+- School of Information and Communication
+- School of Global Japanese Studies
+- School of Interdisciplinary Mathematical Sciences
+- School of Global Governance
+- School of Comprehensive Mathematical Sciences
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_meiji-university
+lang: en
+layout: school
+location:
+  lat: 35.6986273
+  lng: 139.7618814
+stats:
+  acceptance_rate: 17%
+  international_students: 1500
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Meiji University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview

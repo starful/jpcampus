@@ -1,57 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kansai-university",
-  "title": "Kansai University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "関西大学",
-    "name_en": "Kansai University",
-    "address": "3-3-35 Yamate-cho, Suita-shi, Osaka 564-8680, Japan",
-    "website": "https://www.kansai-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1043,
-    "acceptance_rate": "Highly competitive, varies significantly by faculty and program."
-  },
-  "tuition": {
-    "admission_fee": 270000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Business and Commerce",
-    "Faculty of Sociology",
-    "Faculty of Policy Studies",
-    "Faculty of Foreign Language Studies",
-    "Faculty of Health and Well-being",
-    "Faculty of Informatics",
-    "Faculty of Safety Science",
-    "Faculty of Engineering Science",
-    "Faculty of Environmental and Urban Engineering",
-    "Faculty of Chemistry, Materials and Bioengineering"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 3-3-35 Yamate-cho, Suita-shi, Osaka 564-8680, Japan
+  name_en: Kansai University
+  name_ja: 関西大学
+  website: https://www.kansai-u.ac.jp/
+category: university
+faculties:
+- Faculty of Law
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Business and Commerce
+- Faculty of Sociology
+- Faculty of Policy Studies
+- Faculty of Foreign Language Studies
+- Faculty of Health and Well-being
+- Faculty of Informatics
+- Faculty of Safety Science
+- Faculty of Engineering Science
+- Faculty of Environmental and Urban Engineering
+- Faculty of Chemistry, Materials and Bioengineering
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_kansai-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Highly competitive, varies significantly by faculty and program.
+  international_students: 1043
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Kansai University
+translated: true
+tuition:
+  admission_fee: 270000
+  yearly_tuition: 1100000
 ---
 
 ## University Overview

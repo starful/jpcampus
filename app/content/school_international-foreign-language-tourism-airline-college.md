@@ -1,56 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "新潟県新潟市中央区古町通7番町1004番1",
-    "capacity": 100,
-    "name_en": "International College of Foreign Languages, Tourism, and Airline",
-    "name_ja": "国際外語・観光・エアライン専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2-Year Japanese Language Course",
-      "total_fees": 1345000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "1.5-Year Japanese Language Course",
-      "total_fees": 1035000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Support",
-    "Higher Education Progression",
-    "Conversation Focus",
-    "Short-term Programs"
-  ],
-  "id": "school_international-foreign-language-tourism-airline-college",
-  "layout": "school",
-  "location": {
-    "lat": 37.9232245,
-    "lng": 139.0452561
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=554",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Support",
-    "Higher Education Progression",
-    "Conversation Focus",
-    "Short-term Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "International College of Foreign Languages, Tourism, and Airline",
-  "tuition": {},
-  "description": "The International College of Foreign Languages, Tourism, and Airline is a vocational school located in Niigata City, offering Japanese language courses and career training in tourism and airline industries.",
-  "translated": true
-}
+basic_info:
+  address: 新潟県新潟市中央区古町通7番町1004番1
+  capacity: 100
+  name_en: International College of Foreign Languages, Tourism, and Airline
+  name_ja: 国際外語・観光・エアライン専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2-Year Japanese Language Course
+  total_fees: 1345000
+- admission_month: '4'
+  course_name: 1.5-Year Japanese Language Course
+  total_fees: 1035000
+description: The International College of Foreign Languages, Tourism, and Airline
+  is a vocational school located in Niigata City, offering Japanese language courses
+  and career training in tourism and airline industries.
+faculties: []
+features:
+- Dormitory
+- EJU Support
+- Higher Education Progression
+- Conversation Focus
+- Short-term Programs
+id: school_international-foreign-language-tourism-airline-college
+lang: en
+layout: school
+location:
+  lat: 37.9232245
+  lng: 139.0452561
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=554
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Dormitory
+- EJU Support
+- Higher Education Progression
+- Conversation Focus
+- Short-term Programs
+thumbnail: /static/img/pin-school.png
+title: International College of Foreign Languages, Tourism, and Airline
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

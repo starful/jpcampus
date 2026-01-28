@@ -1,64 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "school_jasso-tokyo-japanese-language-education-center",
-  "title": "JASSO Tokyo Japanese Language Education Center (Japan Student Services Organization)",
-  "category": "school",
-  "tags": [
-    "Government-Affiliated Public Institution (JASSO/MEXT)",
-    "Exclusive focus on Academic Progression (University/Graduate School)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Guaranteed, Affordable Dormitory Accommodation",
-    "Dedicated Science/STEM Track (理科/Rika) Curriculum"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7035345,
-    "lng": 139.6893789
-  },
-  "basic_info": {
-    "name_ja": "日本学生支援機構東京日本語教育センター",
-    "address": "東京都新宿区北新宿3-22-7",
-    "capacity": 380,
-    "name_en": "JASSO Tokyo Japanese Language Education Center (Japan Student Services Organization)"
-  },
-  "stats": {
-    "international_students": 380,
-    "capacity": 380
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Government-Affiliated Public Institution (JASSO/MEXT)",
-    "Exclusive focus on Academic Progression (University/Graduate School)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Guaranteed, Affordable Dormitory Accommodation",
-    "Dedicated Science/STEM Track (理科/Rika) Curriculum"
-  ],
-  "courses": [
-    {
-      "course_name": "大学院等進学課程1年コース",
-      "admission_month": "4",
-      "total_fees": 822867
-    },
-    {
-      "course_name": "大学院等進学課程1年半コース",
-      "admission_month": "10",
-      "total_fees": 1192337
-    },
-    {
-      "course_name": "進学課程1年コース",
-      "admission_month": "4",
-      "total_fees": 822867
-    },
-    {
-      "course_name": "進学課程1年半コース",
-      "admission_month": "10",
-      "total_fees": 1192337
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=128"
-}
+basic_info:
+  address: 東京都新宿区北新宿3-22-7
+  capacity: 380
+  name_en: JASSO Tokyo Japanese Language Education Center (Japan Student Services
+    Organization)
+  name_ja: 日本学生支援機構東京日本語教育センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学院等進学課程1年コース
+  total_fees: 822867
+- admission_month: '10'
+  course_name: 大学院等進学課程1年半コース
+  total_fees: 1192337
+- admission_month: '4'
+  course_name: 進学課程1年コース
+  total_fees: 822867
+- admission_month: '10'
+  course_name: 進学課程1年半コース
+  total_fees: 1192337
+faculties: []
+features:
+- Government-Affiliated Public Institution (JASSO/MEXT)
+- Exclusive focus on Academic Progression (University/Graduate School)
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Guaranteed, Affordable Dormitory Accommodation
+- Dedicated Science/STEM Track (理科/Rika) Curriculum
+id: school_jasso-tokyo-japanese-language-education-center
+lang: en
+layout: school
+location:
+  lat: 35.7035345
+  lng: 139.6893789
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=128
+stats:
+  capacity: 380
+  international_students: 380
+tags:
+- Government-Affiliated Public Institution (JASSO/MEXT)
+- Exclusive focus on Academic Progression (University/Graduate School)
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Guaranteed, Affordable Dormitory Accommodation
+- Dedicated Science/STEM Track (理科/Rika) Curriculum
+thumbnail: /static/img/pin-school.png
+title: JASSO Tokyo Japanese Language Education Center (Japan Student Services Organization)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

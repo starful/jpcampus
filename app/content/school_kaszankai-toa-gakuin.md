@@ -1,64 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都港区赤坂2-17-47 赤坂霞山ビル 3階",
-    "capacity": 200,
-    "name_en": "Kazan Society Toa Academy",
-    "name_ja": "霞山会 東亜学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "進学コース1年3か月",
-      "total_fees": 1020000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コース1年6か月",
-      "total_fees": 1210000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学コース1年9か月",
-      "total_fees": 1400000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学コース2年",
-      "total_fees": 1590000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Focus",
-    "Science Specialization"
-  ],
-  "id": "school_kaszankai-toa-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 35.6694872,
-    "lng": 139.7383188
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=96",
-  "stats": {
-    "capacity": 200,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Focus",
-    "Science Specialization"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kazan Society Toa Academy",
-  "tuition": {},
-  "description": "Kazan Society Toa Academy is a Japanese language school in Tokyo focused on university preparation, offering a supportive environment and specialized science programs.",
-  "translated": true
-}
+basic_info:
+  address: 東京都港区赤坂2-17-47 赤坂霞山ビル 3階
+  capacity: 200
+  name_en: Kazan Society Toa Academy
+  name_ja: 霞山会 東亜学院
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学コース1年3か月
+  total_fees: 1020000
+- admission_month: '10'
+  course_name: 進学コース1年6か月
+  total_fees: 1210000
+- admission_month: '7'
+  course_name: 進学コース1年9か月
+  total_fees: 1400000
+- admission_month: '4'
+  course_name: 進学コース2年
+  total_fees: 1590000
+description: Kazan Society Toa Academy is a Japanese language school in Tokyo focused
+  on university preparation, offering a supportive environment and specialized science
+  programs.
+faculties: []
+features:
+- University Preparation
+- Dormitory
+- EJU Focus
+- Science Specialization
+id: school_kaszankai-toa-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.6694872
+  lng: 139.7383188
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=96
+stats:
+  capacity: 200
+  international_students: 0
+tags:
+- University Preparation
+- Dormitory
+- EJU Focus
+- Science Specialization
+thumbnail: /static/img/pin-school.png
+title: Kazan Society Toa Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

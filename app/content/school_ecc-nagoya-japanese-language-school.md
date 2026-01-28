@@ -1,77 +1,62 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ecc-nagoya-japanese-language-school",
-  "title": "ECC Japanese Language Institute Nagoya School",
-  "category": "school",
-  "tags": [
-    "Conversation",
-    "University Preparation",
-    "EJU Preparation",
-    "Scholarships",
-    "Dormitory",
-    "Private Room",
-    "Science",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.1442182,
-    "lng": 136.8995483
-  },
-  "basic_info": {
-    "name_ja": "ＥＣＣ日本語学院名古屋校",
-    "address": "愛知県名古屋市中区金山1-16-16",
-    "capacity": 240,
-    "name_en": "ECC Japanese Language Institute Nagoya School"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 240
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Conversation",
-    "University Preparation",
-    "EJU Preparation",
-    "Scholarships",
-    "Dormitory",
-    "Private Room",
-    "Science",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語総合2年コース",
-      "admission_month": "4",
-      "total_fees": 1574000
-    },
-    {
-      "course_name": "日本語総合1年9月コース",
-      "admission_month": "7",
-      "total_fees": 1387875
-    },
-    {
-      "course_name": "日本語総合1年6月コース",
-      "admission_month": "10",
-      "total_fees": 1202750
-    },
-    {
-      "course_name": "日本語総合1年コース",
-      "admission_month": "4,10",
-      "total_fees": 825500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=296",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市中区金山1-16-16
+  capacity: 240
+  name_en: ECC Japanese Language Institute Nagoya School
+  name_ja: ＥＣＣ日本語学院名古屋校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語総合2年コース
+  total_fees: 1574000
+- admission_month: '7'
+  course_name: 日本語総合1年9月コース
+  total_fees: 1387875
+- admission_month: '10'
+  course_name: 日本語総合1年6月コース
+  total_fees: 1202750
+- admission_month: 4,10
+  course_name: 日本語総合1年コース
+  total_fees: 825500
+faculties: []
+features:
+- Conversation
+- University Preparation
+- EJU Preparation
+- Scholarships
+- Dormitory
+- Private Room
+- Science
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+id: school_ecc-nagoya-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.1442182
+  lng: 136.8995483
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=296
+stats:
+  capacity: 240
+  international_students: null
+tags:
+- Conversation
+- University Preparation
+- EJU Preparation
+- Scholarships
+- Dormitory
+- Private Room
+- Science
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: ECC Japanese Language Institute Nagoya School
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_riche-no-mori-japanese-language-school-hakodate",
-  "title": "Riche no Mori Japanese Language School, Hakodate Campus",
-  "category": "school",
-  "tags": [
-    "Dedicated Student Dormitory Available",
-    "EJU and University Entrance Exam Preparation",
-    "Focus on Higher Education Progression",
-    "Strong Emphasis on Practical Conversational Skills",
-    "Short-Term Study Options Provided"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 41.7718913,
-    "lng": 140.7389217
-  },
-  "basic_info": {
-    "name_ja": "理知の杜日本語学校函館校",
-    "address": "北海道函館市千歳町3-2",
-    "capacity": 100,
-    "name_en": "Riche no Mori Japanese Language School, Hakodate Campus"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Student Dormitory Available",
-    "EJU and University Entrance Exam Preparation",
-    "Focus on Higher Education Progression",
-    "Strong Emphasis on Practical Conversational Skills",
-    "Short-Term Study Options Provided"
-  ],
-  "courses": [
-    {
-      "course_name": "2-Year University Advancement Course",
-      "admission_month": "4",
-      "total_fees": 1240000
-    },
-    {
-      "course_name": "1.5-Year University Advancement Course",
-      "admission_month": "10",
-      "total_fees": 950000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=573",
-  "description": "Riche no Mori Japanese Language School in Hakodate, Hokkaido, offers focused education for higher education in Japan, emphasizing practical language skills and intellectual discipline within a nurturing environment.",
-  "translated": true
-}
+basic_info:
+  address: 北海道函館市千歳町3-2
+  capacity: 100
+  name_en: Riche no Mori Japanese Language School, Hakodate Campus
+  name_ja: 理知の杜日本語学校函館校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2-Year University Advancement Course
+  total_fees: 1240000
+- admission_month: '10'
+  course_name: 1.5-Year University Advancement Course
+  total_fees: 950000
+description: Riche no Mori Japanese Language School in Hakodate, Hokkaido, offers
+  focused education for higher education in Japan, emphasizing practical language
+  skills and intellectual discipline within a nurturing environment.
+faculties: []
+features:
+- Dedicated Student Dormitory Available
+- EJU and University Entrance Exam Preparation
+- Focus on Higher Education Progression
+- Strong Emphasis on Practical Conversational Skills
+- Short-Term Study Options Provided
+id: school_riche-no-mori-japanese-language-school-hakodate
+lang: en
+layout: school
+location:
+  lat: 41.7718913
+  lng: 140.7389217
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=573
+stats: {}
+tags:
+- Dedicated Student Dormitory Available
+- EJU and University Entrance Exam Preparation
+- Focus on Higher Education Progression
+- Strong Emphasis on Practical Conversational Skills
+- Short-Term Study Options Provided
+thumbnail: /static/img/pin-school.png
+title: Riche no Mori Japanese Language School, Hakodate Campus
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,51 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kakegawa-japanese-language-school-shizuoka",
-  "title": "Kakegawa Japanese Language School (Kakegawa Nihongo Gakko)",
-  "category": "school",
-  "tags": [
-    "Specialized EJU & Science Track Preparation",
-    "Small Class Sizes (Boutique Setting)",
-    "Mandatory Conversational Fluency Emphasis",
-    "Affordable Living in Shizuoka Prefecture",
-    "Guaranteed Dormitory Placement"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7648021,
-    "lng": 138.0156149
-  },
-  "basic_info": {
-    "name_ja": "掛川日本語学校",
-    "address": "静岡県掛川市南2-3-3",
-    "capacity": 120,
-    "name_en": "Kakegawa Japanese Language School (Kakegawa Nihongo Gakko)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized EJU & Science Track Preparation",
-    "Small Class Sizes (Boutique Setting)",
-    "Mandatory Conversational Fluency Emphasis",
-    "Affordable Living in Shizuoka Prefecture",
-    "Guaranteed Dormitory Placement"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1340000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "10",
-      "total_fees": 1340000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=602"
-}
+basic_info:
+  address: 静岡県掛川市南2-3-3
+  capacity: 120
+  name_en: Kakegawa Japanese Language School (Kakegawa Nihongo Gakko)
+  name_ja: 掛川日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1340000
+- admission_month: '10'
+  course_name: 一般2年コース
+  total_fees: 1340000
+faculties: []
+features:
+- Specialized EJU & Science Track Preparation
+- Small Class Sizes (Boutique Setting)
+- Mandatory Conversational Fluency Emphasis
+- Affordable Living in Shizuoka Prefecture
+- Guaranteed Dormitory Placement
+id: school_kakegawa-japanese-language-school-shizuoka
+lang: en
+layout: school
+location:
+  lat: 34.7648021
+  lng: 138.0156149
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=602
+stats: {}
+tags:
+- Specialized EJU & Science Track Preparation
+- Small Class Sizes (Boutique Setting)
+- Mandatory Conversational Fluency Emphasis
+- Affordable Living in Shizuoka Prefecture
+- Guaranteed Dormitory Placement
+thumbnail: /static/img/pin-school.png
+title: Kakegawa Japanese Language School (Kakegawa Nihongo Gakko)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

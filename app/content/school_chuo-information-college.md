@@ -1,68 +1,60 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県新座市東北2-33-10",
-    "capacity": 160,
-    "name_en": "Chuo Information College",
-    "name_ja": "中央情報専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語本科進学2年",
-      "total_fees": 1352000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語本科進学1年6月",
-      "total_fees": 1044000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Further Education",
-    "EJU Preparation",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "Science Focus",
-    "University Advancement",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art & Design",
-    "Short-term Courses"
-  ],
-  "id": "school_chuo-information-college",
-  "layout": "school",
-  "location": {
-    "lat": 35.8206626,
-    "lng": 139.5769213
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=59",
-  "stats": {
-    "capacity": 160,
-    "international_students": 0
-  },
-  "tags": [
-    "Further Education",
-    "EJU Preparation",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "Science Focus",
-    "University Advancement",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art & Design",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Chuo Information College",
-  "tuition": {},
-  "description": "Chuo Information College is a vocational school located in Niiza City, Saitama, specializing in Japanese language education for international students. They offer comprehensive courses and support for university advancement, especially in science and engineering.",
-  "translated": true
-}
+basic_info:
+  address: 埼玉県新座市東北2-33-10
+  capacity: 160
+  name_en: Chuo Information College
+  name_ja: 中央情報専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語本科進学2年
+  total_fees: 1352000
+- admission_month: '10'
+  course_name: 日本語本科進学1年6月
+  total_fees: 1044000
+description: Chuo Information College is a vocational school located in Niiza City,
+  Saitama, specializing in Japanese language education for international students.
+  They offer comprehensive courses and support for university advancement, especially
+  in science and engineering.
+faculties: []
+features:
+- Further Education
+- EJU Preparation
+- Dormitory
+- Private Rooms
+- Scholarships
+- Science Focus
+- University Advancement
+- Conversational Japanese
+- Business Japanese
+- Art & Design
+- Short-term Courses
+id: school_chuo-information-college
+lang: en
+layout: school
+location:
+  lat: 35.8206626
+  lng: 139.5769213
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=59
+stats:
+  capacity: 160
+  international_students: 0
+tags:
+- Further Education
+- EJU Preparation
+- Dormitory
+- Private Rooms
+- Scholarships
+- Science Focus
+- University Advancement
+- Conversational Japanese
+- Business Japanese
+- Art & Design
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: Chuo Information College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

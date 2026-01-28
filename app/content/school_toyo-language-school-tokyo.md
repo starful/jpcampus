@@ -1,72 +1,58 @@
 ---
-{
-  "layout": "school",
-  "id": "school_toyo-language-school-tokyo",
-  "title": "Toyo Language School",
-  "category": "school",
-  "tags": [
-    "High-Capacity Institution (700 students)",
-    "Strong Academic Advancement Focus",
-    "Mandatory Dormitory Options Available",
-    "Specialized EJU & Graduate School Preparation",
-    "Dedicated Art and Design Pathway Programs",
-    "Multiple Entry Points (4, 7, 10, 1 month)",
-    "Located in Tokyo (Edogawa Ward)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.658852,
-    "lng": 139.8592806
-  },
-  "basic_info": {
-    "name_ja": "東洋言語学院",
-    "address": "東京都江戸川区西葛西7-6-3",
-    "capacity": 700,
-    "name_en": "Toyo Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Capacity Institution (700 students)",
-    "Strong Academic Advancement Focus",
-    "Mandatory Dormitory Options Available",
-    "Specialized EJU & Graduate School Preparation",
-    "Dedicated Art and Design Pathway Programs",
-    "Multiple Entry Points (4, 7, 10, 1 month)",
-    "Located in Tokyo (Edogawa Ward)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学課程2年コース",
-      "admission_month": "4",
-      "total_fees": 1512000
-    },
-    {
-      "course_name": "進学課程1.9年コース",
-      "admission_month": "7",
-      "total_fees": 1338000
-    },
-    {
-      "course_name": "進学課程1.6年コース",
-      "admission_month": "10",
-      "total_fees": 1164000
-    },
-    {
-      "course_name": "進学課程1.3年コース",
-      "admission_month": "1",
-      "total_fees": 990000
-    },
-    {
-      "course_name": "進学課程1年コース",
-      "admission_month": "4",
-      "total_fees": 816000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=228",
-  "description": "Toyo Language School is a high-capacity language institution in Tokyo focused on academic advancement, offering specialized EJU and graduate school preparation, along with mandatory dormitory options and a dedicated art and design pathway.",
-  "translated": true
-}
+basic_info:
+  address: 東京都江戸川区西葛西7-6-3
+  capacity: 700
+  name_en: Toyo Language School
+  name_ja: 東洋言語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1512000
+- admission_month: '7'
+  course_name: 進学課程1.9年コース
+  total_fees: 1338000
+- admission_month: '10'
+  course_name: 進学課程1.6年コース
+  total_fees: 1164000
+- admission_month: '1'
+  course_name: 進学課程1.3年コース
+  total_fees: 990000
+- admission_month: '4'
+  course_name: 進学課程1年コース
+  total_fees: 816000
+description: Toyo Language School is a high-capacity language institution in Tokyo
+  focused on academic advancement, offering specialized EJU and graduate school preparation,
+  along with mandatory dormitory options and a dedicated art and design pathway.
+faculties: []
+features:
+- High-Capacity Institution (700 students)
+- Strong Academic Advancement Focus
+- Mandatory Dormitory Options Available
+- Specialized EJU & Graduate School Preparation
+- Dedicated Art and Design Pathway Programs
+- Multiple Entry Points (4, 7, 10, 1 month)
+- Located in Tokyo (Edogawa Ward)
+id: school_toyo-language-school-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.658852
+  lng: 139.8592806
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=228
+stats: {}
+tags:
+- High-Capacity Institution (700 students)
+- Strong Academic Advancement Focus
+- Mandatory Dormitory Options Available
+- Specialized EJU & Graduate School Preparation
+- Dedicated Art and Design Pathway Programs
+- Multiple Entry Points (4, 7, 10, 1 month)
+- Located in Tokyo (Edogawa Ward)
+thumbnail: /static/img/pin-school.png
+title: Toyo Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

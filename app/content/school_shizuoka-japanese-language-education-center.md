@@ -1,60 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shizuoka-japanese-language-education-center",
-  "title": "Shizuoka Japanese Language Education Center",
-  "category": "school",
-  "tags": [
-    "Specialized Higher Education Advancement Track (進学)",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Dedicated Support for Science and Engineering (STEM) Majors",
-    "Emphasis on Practical Conversational Skills (会話)",
-    "On-Campus or Affiliated Dormitory Accommodation Provided",
-    "Short-Term Study Options Available",
-    "Merit and Performance-Based Scholarship Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.9775117,
-    "lng": 138.3984849
-  },
-  "basic_info": {
-    "name_ja": "静岡日本語教育センター",
-    "address": "静岡県静岡市葵区横田町11-6",
-    "capacity": 200,
-    "name_en": "Shizuoka Japanese Language Education Center"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized Higher Education Advancement Track (進学)",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Dedicated Support for Science and Engineering (STEM) Majors",
-    "Emphasis on Practical Conversational Skills (会話)",
-    "On-Campus or Affiliated Dormitory Accommodation Provided",
-    "Short-Term Study Options Available",
-    "Merit and Performance-Based Scholarship Opportunities"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 614800
-    },
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 879200
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1141600
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=277"
-}
+basic_info:
+  address: 静岡県静岡市葵区横田町11-6
+  capacity: 200
+  name_en: Shizuoka Japanese Language Education Center
+  name_ja: 静岡日本語教育センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 614800
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 879200
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1141600
+faculties: []
+features:
+- Specialized Higher Education Advancement Track (進学)
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Dedicated Support for Science and Engineering (STEM) Majors
+- Emphasis on Practical Conversational Skills (会話)
+- On-Campus or Affiliated Dormitory Accommodation Provided
+- Short-Term Study Options Available
+- Merit and Performance-Based Scholarship Opportunities
+id: school_shizuoka-japanese-language-education-center
+lang: en
+layout: school
+location:
+  lat: 34.9775117
+  lng: 138.3984849
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=277
+stats: {}
+tags:
+- Specialized Higher Education Advancement Track (進学)
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Dedicated Support for Science and Engineering (STEM) Majors
+- Emphasis on Practical Conversational Skills (会話)
+- On-Campus or Affiliated Dormitory Accommodation Provided
+- Short-Term Study Options Available
+- Merit and Performance-Based Scholarship Opportunities
+thumbnail: /static/img/pin-school.png
+title: Shizuoka Japanese Language Education Center
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

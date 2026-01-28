@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-electro-communications-uec-guide",
-  "title": "The University of Electro-Communications",
-  "category": "university",
-  "tags": [
-    "Specialized National University (Science & Technology)",
-    "Global Leader in Telecommunications, AI, and Robotics Research",
-    "Located in the Western Tokyo Metropolitan Area (Chofu)",
-    "Strong Collaboration with Japanese IT and Electronics Industry",
-    "EJU Required for most undergraduate tracks (Japanese proficiency is essential)",
-    "Select English-Taught Graduate Programs (e.g., GSC Program)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "電気通信大学",
-    "name_en": "The University of Electro-Communications",
-    "address": "1-5-1 Chofugaoka, Chofu, Tokyo 182-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 650,
-    "acceptance_rate": "Highly Competitive (Est. 25%)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "College of Informatics and Engineering (Undergraduate)",
-    "Graduate School of Informatics and Engineering",
-    "Graduate School of Advanced Technology and Science (Interdisciplinary)"
-  ],
-  "features": [
-    "Specialized National University (Science & Technology)",
-    "Global Leader in Telecommunications, AI, and Robotics Research",
-    "Located in the Western Tokyo Metropolitan Area (Chofu)",
-    "Strong Collaboration with Japanese IT and Electronics Industry",
-    "EJU Required for most undergraduate tracks (Japanese proficiency is essential)",
-    "Select English-Taught Graduate Programs (e.g., GSC Program)"
-  ]
-}
+basic_info:
+  address: 1-5-1 Chofugaoka, Chofu, Tokyo 182-8585, Japan
+  capacity: null
+  name_en: The University of Electro-Communications
+  name_ja: 電気通信大学
+category: university
+faculties:
+- College of Informatics and Engineering (Undergraduate)
+- Graduate School of Informatics and Engineering
+- Graduate School of Advanced Technology and Science (Interdisciplinary)
+features:
+- Specialized National University (Science & Technology)
+- Global Leader in Telecommunications, AI, and Robotics Research
+- Located in the Western Tokyo Metropolitan Area (Chofu)
+- Strong Collaboration with Japanese IT and Electronics Industry
+- EJU Required for most undergraduate tracks (Japanese proficiency is essential)
+- Select English-Taught Graduate Programs (e.g., GSC Program)
+id: univ_university-of-electro-communications-uec-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Highly Competitive (Est. 25%)
+  international_students: 650
+tags:
+- Specialized National University (Science & Technology)
+- Global Leader in Telecommunications, AI, and Robotics Research
+- Located in the Western Tokyo Metropolitan Area (Chofu)
+- Strong Collaboration with Japanese IT and Electronics Industry
+- EJU Required for most undergraduate tracks (Japanese proficiency is essential)
+- Select English-Taught Graduate Programs (e.g., GSC Program)
+thumbnail: /static/img/pin-univ.png
+title: The University of Electro-Communications
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

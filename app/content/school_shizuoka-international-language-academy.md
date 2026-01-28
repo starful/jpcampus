@@ -1,57 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shizuoka-international-language-academy",
-  "title": "Shizuoka International Language Academy (SILA)",
-  "category": "school",
-  "tags": [
-    "Comprehensive University & Vocational Advancement Pathways",
-    "Specialized EJU Preparation Tracks (Science/Liberal Arts)",
-    "Guaranteed Student Dormitory Accommodation",
-    "Dedicated Focus on Art, Design, and Business Japanese",
-    "Extensive Internal and External Scholarship Opportunities",
-    "Located in Shizuoka Prefecture, offering a focused study environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7310147,
-    "lng": 137.918748
-  },
-  "basic_info": {
-    "name_ja": "静岡国際言語学院",
-    "address": "静岡県袋井市諸井2331-1",
-    "capacity": 180,
-    "name_en": "Shizuoka International Language Academy"
-  },
-  "stats": {
-    "international_students": 160,
-    "capacity": 180
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive University & Vocational Advancement Pathways",
-    "Specialized EJU Preparation Tracks (Science/Liberal Arts)",
-    "Guaranteed Student Dormitory Accommodation",
-    "Dedicated Focus on Art, Design, and Business Japanese",
-    "Extensive Internal and External Scholarship Opportunities",
-    "Located in Shizuoka Prefecture, offering a focused study environment"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1246000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "10",
-      "total_fees": 1246000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=283",
-  "translated": true
-}
+basic_info:
+  address: 静岡県袋井市諸井2331-1
+  capacity: 180
+  name_en: Shizuoka International Language Academy
+  name_ja: 静岡国際言語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1246000
+- admission_month: '10'
+  course_name: 一般2年コース
+  total_fees: 1246000
+faculties: []
+features:
+- Comprehensive University & Vocational Advancement Pathways
+- Specialized EJU Preparation Tracks (Science/Liberal Arts)
+- Guaranteed Student Dormitory Accommodation
+- Dedicated Focus on Art, Design, and Business Japanese
+- Extensive Internal and External Scholarship Opportunities
+- Located in Shizuoka Prefecture, offering a focused study environment
+id: school_shizuoka-international-language-academy
+lang: en
+layout: school
+location:
+  lat: 34.7310147
+  lng: 137.918748
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=283
+stats:
+  capacity: 180
+  international_students: 160
+tags:
+- Comprehensive University & Vocational Advancement Pathways
+- Specialized EJU Preparation Tracks (Science/Liberal Arts)
+- Guaranteed Student Dormitory Accommodation
+- Dedicated Focus on Art, Design, and Business Japanese
+- Extensive Internal and External Scholarship Opportunities
+- Located in Shizuoka Prefecture, offering a focused study environment
+thumbnail: /static/img/pin-school.png
+title: Shizuoka International Language Academy (SILA)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

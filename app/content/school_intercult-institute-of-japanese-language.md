@@ -1,67 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "school_intercult-institute-of-japanese-language",
-  "title": "Intercultural Institute of Japanese Language (Intercult)",
-  "category": "school",
-  "tags": [
-    "Dedicated Focus on University and Graduate School Progression",
-    "Intensive Preparation for the Examination for Japanese University Admission (EJU)",
-    "Prime Location in Taito Ward, Tokyo",
-    "Availability of Dedicated Student Dormitory Facilities",
-    "Comprehensive Academic Counseling and Application Support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7036865,
-    "lng": 139.7805685
-  },
-  "basic_info": {
-    "name_ja": "インターカルト日本語学校",
-    "address": "東京都台東区台東2-20-9",
-    "capacity": 600,
-    "name_en": "Intercultural Institute of Japanese Language (Intercult)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Focus on University and Graduate School Progression",
-    "Intensive Preparation for the Examination for Japanese University Admission (EJU)",
-    "Prime Location in Taito Ward, Tokyo",
-    "Availability of Dedicated Student Dormitory Facilities",
-    "Comprehensive Academic Counseling and Application Support"
-  ],
-  "courses": [
-    {
-      "course_name": "Comprehensive University Progression Course (2-Year)",
-      "admission_month": "4",
-      "total_fees": 1890000
-    },
-    {
-      "course_name": "Comprehensive University Progression Course (1 Year, 9 Months)",
-      "admission_month": "7",
-      "total_fees": 1676150
-    },
-    {
-      "course_name": "Comprehensive University Progression Course (1 Year, 6 Months)",
-      "admission_month": "10",
-      "total_fees": 1432600
-    },
-    {
-      "course_name": "Comprehensive University Progression Course (1 Year, 3 Months)",
-      "admission_month": "1",
-      "total_fees": 1218350
-    },
-    {
-      "course_name": "Comprehensive University Progression Course (1 Year)",
-      "admission_month": "4",
-      "total_fees": 989000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=146",
-  "translated": true
-}
+basic_info:
+  address: 東京都台東区台東2-20-9
+  capacity: 600
+  name_en: Intercultural Institute of Japanese Language (Intercult)
+  name_ja: インターカルト日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: Comprehensive University Progression Course (2-Year)
+  total_fees: 1890000
+- admission_month: '7'
+  course_name: Comprehensive University Progression Course (1 Year, 9 Months)
+  total_fees: 1676150
+- admission_month: '10'
+  course_name: Comprehensive University Progression Course (1 Year, 6 Months)
+  total_fees: 1432600
+- admission_month: '1'
+  course_name: Comprehensive University Progression Course (1 Year, 3 Months)
+  total_fees: 1218350
+- admission_month: '4'
+  course_name: Comprehensive University Progression Course (1 Year)
+  total_fees: 989000
+faculties: []
+features:
+- Dedicated Focus on University and Graduate School Progression
+- Intensive Preparation for the Examination for Japanese University Admission (EJU)
+- Prime Location in Taito Ward, Tokyo
+- Availability of Dedicated Student Dormitory Facilities
+- Comprehensive Academic Counseling and Application Support
+id: school_intercult-institute-of-japanese-language
+lang: en
+layout: school
+location:
+  lat: 35.7036865
+  lng: 139.7805685
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=146
+stats: {}
+tags:
+- Dedicated Focus on University and Graduate School Progression
+- Intensive Preparation for the Examination for Japanese University Admission (EJU)
+- Prime Location in Taito Ward, Tokyo
+- Availability of Dedicated Student Dormitory Facilities
+- Comprehensive Academic Counseling and Application Support
+thumbnail: /static/img/pin-school.png
+title: Intercultural Institute of Japanese Language (Intercult)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

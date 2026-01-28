@@ -1,65 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ashiya-kokusai-gakuin-osaka-school",
-  "title": "Ashiya Kokusai Gakuin Osaka School",
-  "category": "school",
-  "tags": [
-    "Comprehensive University Progression Focus (進学)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Guaranteed Dormitory Options for Stable Start (기숙사)",
-    "Emphasis on Practical Conversational Fluency (회화)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6512129,
-    "lng": 135.5227097
-  },
-  "basic_info": {
-    "name_ja": "芦屋国際学院大阪校",
-    "address": "大阪府大阪市天王寺区寺田町1-7-1",
-    "capacity": 300,
-    "name_en": "Ashiya Kokusai Gakuin Osaka School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive University Progression Focus",
-    "Specialized EJU Preparation",
-    "Guaranteed Dormitory Options",
-    "Emphasis on Practical Conversational Fluency"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1.3年コース",
-      "admission_month": "1",
-      "total_fees": 873000
-    },
-    {
-      "course_name": "進学1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1027000
-    },
-    {
-      "course_name": "進学1年9ヵ月コース",
-      "admission_month": "7",
-      "total_fees": 1180000
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1334000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "1",
-      "total_fees": 1334000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=329",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市天王寺区寺田町1-7-1
+  capacity: 300
+  name_en: Ashiya Kokusai Gakuin Osaka School
+  name_ja: 芦屋国際学院大阪校
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 873000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1027000
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1180000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1334000
+- admission_month: '1'
+  course_name: 一般2年コース
+  total_fees: 1334000
+faculties: []
+features:
+- Comprehensive University Progression Focus
+- Specialized EJU Preparation
+- Guaranteed Dormitory Options
+- Emphasis on Practical Conversational Fluency
+id: school_ashiya-kokusai-gakuin-osaka-school
+lang: en
+layout: school
+location:
+  lat: 34.6512129
+  lng: 135.5227097
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=329
+stats: {}
+tags:
+- Comprehensive University Progression Focus (進学)
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Guaranteed Dormitory Options for Stable Start (기숙사)
+- Emphasis on Practical Conversational Fluency (회화)
+thumbnail: /static/img/pin-school.png
+title: Ashiya Kokusai Gakuin Osaka School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

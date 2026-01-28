@@ -1,63 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kyoshin-language-academy-ueno-school-tokyo",
-  "title": "Kyoshin Language Academy Ueno School",
-  "category": "school",
-  "tags": [
-    "Exclusive focus on higher education advancement (University/Graduate School)",
-    "Dedicated EJU (Examination for Japanese University Admission) preparation tracks",
-    "Availability of comprehensive student dormitory and accommodation support",
-    "Located in the culturally rich and academically significant Ueno/Nippori area of Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7276855,
-    "lng": 139.7727359
-  },
-  "basic_info": {
-    "name_ja": "京進ランゲージアカデミー上野校",
-    "address": "東京都荒川区東日暮里5-50-8 水越ビル2階,3階",
-    "capacity": 180,
-    "name_en": "Kyoshin Language Academy Ueno School"
-  },
-  "stats": {
-    "international_students": 180,
-    "capacity": 180
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Exclusive focus on higher education advancement (University/Graduate School)",
-    "Dedicated EJU (Examination for Japanese University Admission) preparation tracks",
-    "Availability of comprehensive student dormitory and accommodation support",
-    "Located in the culturally rich and academically significant Ueno/Nippori area of Tokyo"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1507000
-    },
-    {
-      "course_name": "進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1328250
-    },
-    {
-      "course_name": "進学1年6ヵ月コース",
-      "admission_month": "10",
-      "total_fees": 1149500
-    },
-    {
-      "course_name": "進学1年3ヵ月コース",
-      "admission_month": "1",
-      "total_fees": 970750
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=28",
-  "translated": true
-}
+basic_info:
+  address: 東京都荒川区東日暮里5-50-8 水越ビル2階,3階
+  capacity: 180
+  name_en: Kyoshin Language Academy Ueno School
+  name_ja: 京進ランゲージアカデミー上野校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1507000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1328250
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1149500
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 970750
+faculties: []
+features:
+- Exclusive focus on higher education advancement (University/Graduate School)
+- Dedicated EJU (Examination for Japanese University Admission) preparation tracks
+- Availability of comprehensive student dormitory and accommodation support
+- Located in the culturally rich and academically significant Ueno/Nippori area of
+  Tokyo
+id: school_kyoshin-language-academy-ueno-school-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.7276855
+  lng: 139.7727359
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=28
+stats:
+  capacity: 180
+  international_students: 180
+tags:
+- Exclusive focus on higher education advancement (University/Graduate School)
+- Dedicated EJU (Examination for Japanese University Admission) preparation tracks
+- Availability of comprehensive student dormitory and accommodation support
+- Located in the culturally rich and academically significant Ueno/Nippori area of
+  Tokyo
+thumbnail: /static/img/pin-school.png
+title: Kyoshin Language Academy Ueno School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

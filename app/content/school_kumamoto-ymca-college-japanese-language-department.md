@@ -1,72 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "熊本県熊本市中央区段山本町4-1",
-    "capacity": 140,
-    "name_en": "Kumamoto YMCA College Japanese Language Department",
-    "name_ja": "熊本YMCA学院日本語科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1090000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1420000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Small Class Sizes",
-    "Homework Support",
-    "Conversation Focused",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Course Support",
-    "University Pathway",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design Focus",
-    "Short-Term Courses"
-  ],
-  "id": "school_kumamoto-ymca-college-japanese-language-department",
-  "layout": "school",
-  "location": {
-    "lat": 32.8064167,
-    "lng": 130.6952676
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=448",
-  "stats": {
-    "capacity": 140,
-    "international_students": 0
-  },
-  "tags": [
-    "Small Class Sizes",
-    "Homework Support",
-    "Conversation Focused",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Course Support",
-    "University Pathway",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design Focus",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kumamoto YMCA College Japanese Language Department",
-  "tuition": {},
-  "description": "A Japanese language school in Kumamoto offering courses for students aiming to enter Japanese universities, with a focus on small class sizes and personalized support.",
-  "translated": true
-}
+basic_info:
+  address: 熊本県熊本市中央区段山本町4-1
+  capacity: 140
+  name_en: Kumamoto YMCA College Japanese Language Department
+  name_ja: 熊本YMCA学院日本語科
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1090000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1420000
+description: A Japanese language school in Kumamoto offering courses for students
+  aiming to enter Japanese universities, with a focus on small class sizes and personalized
+  support.
+faculties: []
+features:
+- Small Class Sizes
+- Homework Support
+- Conversation Focused
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Course Support
+- University Pathway
+- Conversation Practice
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+id: school_kumamoto-ymca-college-japanese-language-department
+lang: en
+layout: school
+location:
+  lat: 32.8064167
+  lng: 130.6952676
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=448
+stats:
+  capacity: 140
+  international_students: 0
+tags:
+- Small Class Sizes
+- Homework Support
+- Conversation Focused
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Course Support
+- University Pathway
+- Conversation Practice
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Kumamoto YMCA College Japanese Language Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview

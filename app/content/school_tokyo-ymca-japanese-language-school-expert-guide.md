@@ -1,56 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-ymca-japanese-language-school-expert-guide",
-  "title": "Tokyo YMCA Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Dedicated Preparation for EJU (Examination for Japanese University Admission)",
-    "Strong Focus on Academic Progression (Shingaku) to Japanese Universities",
-    "Affiliated with the Global Non-Profit YMCA, ensuring ethical and holistic education",
-    "Small School Capacity fostering intensive, personalized learning environments",
-    "Comprehensive Student Support and Pastoral Care Network"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6671287,
-    "lng": 139.8162446
-  },
-  "basic_info": {
-    "name_ja": "東京YMCAにほんご学院",
-    "address": "東京都江東区東陽2-2-15",
-    "capacity": 156,
-    "name_en": "Tokyo YMCA Japanese Language School"
-  },
-  "stats": {
-    "international_students": 156,
-    "capacity": 156
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Preparation for EJU (Examination for Japanese University Admission)",
-    "Strong Focus on Academic Progression (Shingaku) to Japanese Universities",
-    "Affiliated with the Global Non-Profit YMCA, ensuring ethical and holistic education",
-    "Small School Capacity fostering intensive, personalized learning environments",
-    "Comprehensive Student Support and Pastoral Care Network"
-  ],
-  "courses": [
-    {
-      "course_name": "一般1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1045000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4",
-      "total_fees": 1360000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=460",
-  "description": "Learn Japanese in a supportive, community-focused environment at the Tokyo YMCA Japanese Language School. Benefit from dedicated EJU preparation, personalized guidance, and a strong focus on academic advancement to Japanese universities.",
-  "translated": true
-}
+basic_info:
+  address: 東京都江東区東陽2-2-15
+  capacity: 156
+  name_en: Tokyo YMCA Japanese Language School
+  name_ja: 東京YMCAにほんご学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 1045000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1360000
+description: Learn Japanese in a supportive, community-focused environment at the
+  Tokyo YMCA Japanese Language School. Benefit from dedicated EJU preparation, personalized
+  guidance, and a strong focus on academic advancement to Japanese universities.
+faculties: []
+features:
+- Dedicated Preparation for EJU (Examination for Japanese University Admission)
+- Strong Focus on Academic Progression (Shingaku) to Japanese Universities
+- Affiliated with the Global Non-Profit YMCA, ensuring ethical and holistic education
+- Small School Capacity fostering intensive, personalized learning environments
+- Comprehensive Student Support and Pastoral Care Network
+id: school_tokyo-ymca-japanese-language-school-expert-guide
+lang: en
+layout: school
+location:
+  lat: 35.6671287
+  lng: 139.8162446
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=460
+stats:
+  capacity: 156
+  international_students: 156
+tags:
+- Dedicated Preparation for EJU (Examination for Japanese University Admission)
+- Strong Focus on Academic Progression (Shingaku) to Japanese Universities
+- Affiliated with the Global Non-Profit YMCA, ensuring ethical and holistic education
+- Small School Capacity fostering intensive, personalized learning environments
+- Comprehensive Student Support and Pastoral Care Network
+thumbnail: /static/img/pin-school.png
+title: Tokyo YMCA Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

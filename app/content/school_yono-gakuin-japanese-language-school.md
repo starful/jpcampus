@@ -1,70 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県さいたま市大宮区吉敷町4-78",
-    "capacity": 300,
-    "name_en": "Yono Gakuin Japanese Language School",
-    "name_ja": "与野学院 日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "総合1年6か月コース",
-      "total_fees": 1101400
-    },
-    {
-      "admission_month": "7",
-      "course_name": "総合1年9か月コース",
-      "total_fees": 1270700
-    },
-    {
-      "admission_month": "4",
-      "course_name": "総合2年コース",
-      "total_fees": 1435800
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focused",
-    "Scholarships",
-    "Private Rooms",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "id": "school_yono-gakuin-japanese-language-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.8961307,
-    "lng": 139.6362829
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=48",
-  "stats": {
-    "capacity": 300,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focused",
-    "Scholarships",
-    "Private Rooms",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Yono Gakuin Japanese Language School",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 埼玉県さいたま市大宮区吉敷町4-78
+  capacity: 300
+  name_en: Yono Gakuin Japanese Language School
+  name_ja: 与野学院 日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 総合1年6か月コース
+  total_fees: 1101400
+- admission_month: '7'
+  course_name: 総合1年9か月コース
+  total_fees: 1270700
+- admission_month: '4'
+  course_name: 総合2年コース
+  total_fees: 1435800
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focused
+- Scholarships
+- Private Rooms
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-Term Courses
+id: school_yono-gakuin-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.8961307
+  lng: 139.6362829
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=48
+stats:
+  capacity: 300
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focused
+- Scholarships
+- Private Rooms
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Yono Gakuin Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview

@@ -1,72 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "千葉県市川市行徳駅前4-19-14",
-    "capacity": 80,
-    "name_en": "Mizuno Language School",
-    "name_ja": "水野外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1160000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9月コース",
-      "total_fees": 1030000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6月コース",
-      "total_fees": 900000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3月コース",
-      "total_fees": 770000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Advancement",
-    "Conversation Focus",
-    "STEM Track",
-    "Business Japanese",
-    "Art & Design",
-    "Short-term Study"
-  ],
-  "id": "school_mizuno-gaigo-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 35.6782349,
-    "lng": 139.9147436
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=71",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Advancement",
-    "Conversation Focus",
-    "STEM Track",
-    "Business Japanese",
-    "Art & Design",
-    "Short-term Study"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Mizuno Language School",
-  "tuition": {},
-  "description": "Mizuno Language School in Ichikawa City, Chiba, prepares international students for Japanese universities with personalized attention and comprehensive EJU preparation.",
-  "translated": true
-}
+basic_info:
+  address: 千葉県市川市行徳駅前4-19-14
+  capacity: 80
+  name_en: Mizuno Language School
+  name_ja: 水野外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1160000
+- admission_month: '7'
+  course_name: 進学1年9月コース
+  total_fees: 1030000
+- admission_month: '10'
+  course_name: 進学1年6月コース
+  total_fees: 900000
+- admission_month: '1'
+  course_name: 進学1年3月コース
+  total_fees: 770000
+description: Mizuno Language School in Ichikawa City, Chiba, prepares international
+  students for Japanese universities with personalized attention and comprehensive
+  EJU preparation.
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Advancement
+- Conversation Focus
+- STEM Track
+- Business Japanese
+- Art & Design
+- Short-term Study
+id: school_mizuno-gaigo-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.6782349
+  lng: 139.9147436
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=71
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Advancement
+- Conversation Focus
+- STEM Track
+- Business Japanese
+- Art & Design
+- Short-term Study
+thumbnail: /static/img/pin-school.png
+title: Mizuno Language School
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-university-of-arts-guide",
-  "title": "Osaka University of Arts",
-  "category": "university",
-  "tags": [
-    "EJU Required (Japanese-Taught)",
-    "Portfolio Review",
-    "Suburban Campus",
-    "Arts Focus",
-    "Scholarship Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪芸術大学",
-    "name_en": "Osaka University of Arts",
-    "address": "〒585-8555 大阪府南河内郡河南町東山469",
-    "website": "http://www.osaka-geidai.ac.jp/"
-  },
-  "stats": {
-    "international_students": 350,
-    "acceptance_rate": "Highly competitive for select programs (Approx. 20-30% overall)"
-  },
-  "tuition": {
-    "admission_fee": 330000,
-    "yearly_tuition": 1780000
-  },
-  "faculties": [
-    "Faculty of Arts",
-    "Faculty of Design",
-    "Faculty of Performing Arts",
-    "Faculty of Literary Arts",
-    "Faculty of Architectural Design"
-  ],
-  "features": [
-    "EJU Required (Japanese-Taught)",
-    "Portfolio Review",
-    "Suburban Campus",
-    "Arts Focus",
-    "Scholarship Opportunities"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒585-8555 大阪府南河内郡河南町東山469
+  name_en: Osaka University of Arts
+  name_ja: 大阪芸術大学
+  website: http://www.osaka-geidai.ac.jp/
+category: university
+faculties:
+- Faculty of Arts
+- Faculty of Design
+- Faculty of Performing Arts
+- Faculty of Literary Arts
+- Faculty of Architectural Design
+features:
+- EJU Required (Japanese-Taught)
+- Portfolio Review
+- Suburban Campus
+- Arts Focus
+- Scholarship Opportunities
+id: univ_osaka-university-of-arts-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Highly competitive for select programs (Approx. 20-30% overall)
+  international_students: 350
+tags:
+- EJU Required (Japanese-Taught)
+- Portfolio Review
+- Suburban Campus
+- Arts Focus
+- Scholarship Opportunities
+thumbnail: /static/img/pin-univ.png
+title: Osaka University of Arts
+translated: true
+tuition:
+  admission_fee: 330000
+  yearly_tuition: 1780000
 ---
 
 ## University Overview & Reputation

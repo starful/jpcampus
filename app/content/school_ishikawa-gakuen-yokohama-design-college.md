@@ -1,62 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ishikawa-gakuen-yokohama-design-college",
-  "title": "Ishikawa Gakuen Yokohama Design College (Japanese Language Department)",
-  "category": "school",
-  "tags": [
-    "Specialized focus on Art, Design, and Advanced University Preparation",
-    "Comprehensive EJU preparation including Science (Rika) track support",
-    "On-campus/Affiliated Dormitory Accommodation available",
-    "Integrated curriculum for portfolio development and vocational art studies",
-    "Strategic location in Yokohama for cultural and academic immersion",
-    "Scholarship programs for high-achieving advancement students"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.4566628,
-    "lng": 139.6187842
-  },
-  "basic_info": {
-    "name_ja": "学校法人石川学園横浜デザイン学院",
-    "address": "神奈川県横浜市西区中央1-33-6",
-    "capacity": 240,
-    "name_en": "Ishikawa Gakuen Yokohama Design College (Japanese Language Department)"
-  },
-  "stats": {
-    "international_students": 240,
-    "capacity": 240
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized focus on Art, Design, and Advanced University Preparation",
-    "Comprehensive EJU preparation including Science (Rika) track support",
-    "On-campus/Affiliated Dormitory Accommodation available",
-    "Integrated curriculum for portfolio development and vocational art studies",
-    "Strategic location in Yokohama for cultural and academic immersion",
-    "Scholarship programs for high-achieving advancement students"
-  ],
-  "courses": [
-    {
-      "course_name": "進学課程2年コース",
-      "admission_month": "4",
-      "total_fees": 1455000
-    },
-    {
-      "course_name": "進学課程1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1116000
-    },
-    {
-      "course_name": "進学課程1年コース",
-      "admission_month": "4,10",
-      "total_fees": 785000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=243",
-  "translated": true
-}
+basic_info:
+  address: 神奈川県横浜市西区中央1-33-6
+  capacity: 240
+  name_en: Ishikawa Gakuen Yokohama Design College (Japanese Language Department)
+  name_ja: 学校法人石川学園横浜デザイン学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1455000
+- admission_month: '10'
+  course_name: 進学課程1.5年コース
+  total_fees: 1116000
+- admission_month: 4,10
+  course_name: 進学課程1年コース
+  total_fees: 785000
+faculties: []
+features:
+- Specialized focus on Art, Design, and Advanced University Preparation
+- Comprehensive EJU preparation including Science (Rika) track support
+- On-campus/Affiliated Dormitory Accommodation available
+- Integrated curriculum for portfolio development and vocational art studies
+- Strategic location in Yokohama for cultural and academic immersion
+- Scholarship programs for high-achieving advancement students
+id: school_ishikawa-gakuen-yokohama-design-college
+lang: en
+layout: school
+location:
+  lat: 35.4566628
+  lng: 139.6187842
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=243
+stats:
+  capacity: 240
+  international_students: 240
+tags:
+- Specialized focus on Art, Design, and Advanced University Preparation
+- Comprehensive EJU preparation including Science (Rika) track support
+- On-campus/Affiliated Dormitory Accommodation available
+- Integrated curriculum for portfolio development and vocational art studies
+- Strategic location in Yokohama for cultural and academic immersion
+- Scholarship programs for high-achieving advancement students
+thumbnail: /static/img/pin-school.png
+title: Ishikawa Gakuen Yokohama Design College (Japanese Language Department)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

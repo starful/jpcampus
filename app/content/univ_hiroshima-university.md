@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県東広島市鏡山一丁目7番1号",
-    "name_en": "Hiroshima University",
-    "name_ja": "広島大学",
-    "website": "https://www.hiroshima-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Integrated Arts and Sciences",
-    "Letters",
-    "Education",
-    "Law",
-    "Economics",
-    "Science",
-    "Medicine",
-    "Dentistry",
-    "Pharmaceutical Sciences",
-    "Engineering",
-    "Applied Biological Science",
-    "Informatics and Data Science"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_hiroshima-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "35%",
-    "international_students": 1200
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Hiroshima University",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "translated": true
-}
+basic_info:
+  address: 広島県東広島市鏡山一丁目7番1号
+  name_en: Hiroshima University
+  name_ja: 広島大学
+  website: https://www.hiroshima-u.ac.jp/
+category: university
+faculties:
+- Integrated Arts and Sciences
+- Letters
+- Education
+- Law
+- Economics
+- Science
+- Medicine
+- Dentistry
+- Pharmaceutical Sciences
+- Engineering
+- Applied Biological Science
+- Informatics and Data Science
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_hiroshima-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35%
+  international_students: 1200
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Hiroshima University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview & Reputation

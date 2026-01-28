@@ -1,54 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_alice-gakuen-professional-training-college-kanazawa",
-  "title": "Alice Gakuen Language Institute & Professional Training College",
-  "category": "school",
-  "tags": [
-    "Located in historic Kanazawa (Ishikawa Prefecture)",
-    "Guaranteed on-campus housing with single room options available",
-    "Specialized EJU preparation including rare Science/STEM tracks",
-    "Dedicated progression pathways for Art, Design, and Business careers",
-    "Professional Training College (Senmon Gakko) status offering high-level vocational integration",
-    "Focus on conversational fluency and practical Japanese application"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.5319061,
-    "lng": 136.6416028
-  },
-  "basic_info": {
-    "name_ja": "専門学校アリス学園",
-    "address": "石川県金沢市円光寺本町8-50",
-    "capacity": 200,
-    "name_en": "Alice Gakuen Language Institute & Professional Training College"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Located in historic Kanazawa (Ishikawa Prefecture)",
-    "Guaranteed on-campus housing with single room options available",
-    "Specialized EJU preparation including rare Science/STEM tracks",
-    "Dedicated progression pathways for Art, Design, and Business careers",
-    "Professional Training College (Senmon Gakko) status offering high-level vocational integration",
-    "Focus on conversational fluency and practical Japanese application"
-  ],
-  "courses": [
-    {
-      "course_name": "1年半コース",
-      "admission_month": "10",
-      "total_fees": 1000000
-    },
-    {
-      "course_name": "2年コース",
-      "admission_month": "4",
-      "total_fees": 1290000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=262",
-  "translated": true
-}
+basic_info:
+  address: 石川県金沢市円光寺本町8-50
+  capacity: 200
+  name_en: Alice Gakuen Language Institute & Professional Training College
+  name_ja: 専門学校アリス学園
+category: school
+courses:
+- admission_month: '10'
+  course_name: 1年半コース
+  total_fees: 1000000
+- admission_month: '4'
+  course_name: 2年コース
+  total_fees: 1290000
+faculties: []
+features:
+- Located in historic Kanazawa (Ishikawa Prefecture)
+- Guaranteed on-campus housing with single room options available
+- Specialized EJU preparation including rare Science/STEM tracks
+- Dedicated progression pathways for Art, Design, and Business careers
+- Professional Training College (Senmon Gakko) status offering high-level vocational
+  integration
+- Focus on conversational fluency and practical Japanese application
+id: school_alice-gakuen-professional-training-college-kanazawa
+lang: en
+layout: school
+location:
+  lat: 36.5319061
+  lng: 136.6416028
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=262
+stats: {}
+tags:
+- Located in historic Kanazawa (Ishikawa Prefecture)
+- Guaranteed on-campus housing with single room options available
+- Specialized EJU preparation including rare Science/STEM tracks
+- Dedicated progression pathways for Art, Design, and Business careers
+- Professional Training College (Senmon Gakko) status offering high-level vocational
+  integration
+- Focus on conversational fluency and practical Japanese application
+thumbnail: /static/img/pin-school.png
+title: Alice Gakuen Language Institute & Professional Training College
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

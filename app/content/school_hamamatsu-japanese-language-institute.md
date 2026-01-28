@@ -1,53 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_hamamatsu-japanese-language-institute",
-  "title": "Hamamatsu Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "Specialized Academic Tracks (Science/Rikei and Art/Design preparation)",
-    "Mandatory Dormitory Accommodation with Single Room Options Available",
-    "Comprehensive EJU and University Entrance Examination Countermeasures",
-    "Focus on Practical Business Japanese and High-Level Conversation Skills",
-    "Located in Hamamatsu City, Shizuoka Prefecture (a key industrial and manufacturing hub)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7069725,
-    "lng": 137.7407754
-  },
-  "basic_info": {
-    "name_ja": "浜松日本語学院",
-    "address": "静岡県浜松市中央区中央3-10-8",
-    "capacity": 505,
-    "name_en": "Hamamatsu Japanese Language Institute"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized Academic Tracks (Science/Rikei and Art/Design preparation)",
-    "Mandatory Dormitory Accommodation with Single Room Options Available",
-    "Comprehensive EJU and University Entrance Examination Countermeasures",
-    "Focus on Practical Business Japanese and High-Level Conversation Skills",
-    "Located in Hamamatsu City, Shizuoka Prefecture (a key industrial and manufacturing hub)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1406100
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1106100
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=463",
-  "translated": true,
-  "description": "Located in Hamamatsu City, Shizuoka, this institute offers specialized academic tracks, mandatory dormitory accommodation, EJU countermeasures, and practical business Japanese training."
-}
+basic_info:
+  address: 静岡県浜松市中央区中央3-10-8
+  capacity: 505
+  name_en: Hamamatsu Japanese Language Institute
+  name_ja: 浜松日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1406100
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1106100
+description: Located in Hamamatsu City, Shizuoka, this institute offers specialized
+  academic tracks, mandatory dormitory accommodation, EJU countermeasures, and practical
+  business Japanese training.
+faculties: []
+features:
+- Specialized Academic Tracks (Science/Rikei and Art/Design preparation)
+- Mandatory Dormitory Accommodation with Single Room Options Available
+- Comprehensive EJU and University Entrance Examination Countermeasures
+- Focus on Practical Business Japanese and High-Level Conversation Skills
+- Located in Hamamatsu City, Shizuoka Prefecture (a key industrial and manufacturing
+  hub)
+id: school_hamamatsu-japanese-language-institute
+lang: en
+layout: school
+location:
+  lat: 34.7069725
+  lng: 137.7407754
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=463
+stats: {}
+tags:
+- Specialized Academic Tracks (Science/Rikei and Art/Design preparation)
+- Mandatory Dormitory Accommodation with Single Room Options Available
+- Comprehensive EJU and University Entrance Examination Countermeasures
+- Focus on Practical Business Japanese and High-Level Conversation Skills
+- Located in Hamamatsu City, Shizuoka Prefecture (a key industrial and manufacturing
+  hub)
+thumbnail: /static/img/pin-school.png
+title: Hamamatsu Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

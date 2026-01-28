@@ -1,58 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nichi-a-foreign-language-institute-okinawa",
-  "title": "Nichi-A Foreign Language Institute",
-  "category": "school",
-  "tags": [
-    "Located in Naha, Okinawa (Subtropical Environment)",
-    "Strong University & Graduate School Progression Focus (EJU Prep)",
-    "Specialized Tracks (Science, Art & Design, Business Japanese)",
-    "Comprehensive Dormitory Options, Including Single Rooms",
-    "Generous Scholarship Opportunities",
-    "Short-Term/Conversation Courses Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 26.214808,
-    "lng": 127.7002349
-  },
-  "basic_info": {
-    "name_ja": "日亜外語学院",
-    "address": "沖縄県那覇市松川1-1-1",
-    "capacity": 240,
-    "name_en": "Nichi-A Foreign Language Institute"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Located in Naha, Okinawa (Subtropical Environment)",
-    "Strong University & Graduate School Progression Focus (EJU Prep)",
-    "Specialized Tracks (Science, Art & Design, Business Japanese)",
-    "Comprehensive Dormitory Options, Including Single Rooms",
-    "Generous Scholarship Opportunities",
-    "Short-Term/Conversation Courses Available"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コースＡ　1年コース",
-      "admission_month": "4",
-      "total_fees": 896500
-    },
-    {
-      "course_name": "進学コースＢ　1年半コース",
-      "admission_month": "10",
-      "total_fees": 1204000
-    },
-    {
-      "course_name": "進学コースＣ　2年コース",
-      "admission_month": "4",
-      "total_fees": 1433000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=456"
-}
+basic_info:
+  address: 沖縄県那覇市松川1-1-1
+  capacity: 240
+  name_en: Nichi-A Foreign Language Institute
+  name_ja: 日亜外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コースＡ　1年コース
+  total_fees: 896500
+- admission_month: '10'
+  course_name: 進学コースＢ　1年半コース
+  total_fees: 1204000
+- admission_month: '4'
+  course_name: 進学コースＣ　2年コース
+  total_fees: 1433000
+faculties: []
+features:
+- Located in Naha, Okinawa (Subtropical Environment)
+- Strong University & Graduate School Progression Focus (EJU Prep)
+- Specialized Tracks (Science, Art & Design, Business Japanese)
+- Comprehensive Dormitory Options, Including Single Rooms
+- Generous Scholarship Opportunities
+- Short-Term/Conversation Courses Available
+id: school_nichi-a-foreign-language-institute-okinawa
+lang: en
+layout: school
+location:
+  lat: 26.214808
+  lng: 127.7002349
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=456
+stats: {}
+tags:
+- Located in Naha, Okinawa (Subtropical Environment)
+- Strong University & Graduate School Progression Focus (EJU Prep)
+- Specialized Tracks (Science, Art & Design, Business Japanese)
+- Comprehensive Dormitory Options, Including Single Rooms
+- Generous Scholarship Opportunities
+- Short-Term/Conversation Courses Available
+thumbnail: /static/img/pin-school.png
+title: Nichi-A Foreign Language Institute
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,19 +1,17 @@
 ---
-{
-  "layout": "guide",
-  "id": "best-schools-for-design-arts",
-  "title": "Best 4 Schools for Animation, Manga, and Design",
-  "category": "Curated List",
-  "is_featured": true,
-  "tags": [
-    "Ranking",
-    "Recommendation",
-    "Design"
-  ],
-  "description": "Our curated selection for Best 4 Schools for Animation, Manga, and Design.",
-  "thumbnail": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=500",
-  "date": "2026-01-28"
-}
+category: Curated List
+date: '2026-01-28'
+description: Our curated selection for Best 4 Schools for Animation, Manga, and Design.
+id: best-schools-for-design-arts
+is_featured: true
+lang: en
+layout: guide
+tags:
+- Ranking
+- Recommendation
+- Design
+thumbnail: https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=500
+title: Best 4 Schools for Animation, Manga, and Design
 ---
 
 # Best 4 Schools for Animation, Manga, and Design Progression

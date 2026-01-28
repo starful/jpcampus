@@ -1,66 +1,56 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-international-foreign-language-academy",
-  "title": "Tokyo International Foreign Language Academy",
-  "category": "school",
-  "tags": [
-    "Dormitory provided",
-    "Strong focus on university and vocational advancement (Shin-gaku)",
-    "Specialized EJU (Examination for Japanese University Admission for International Students) preparation",
-    "Dedicated Science/STEM track preparation",
-    "Unique Caregiver/Nursing pathway courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.65901340000001,
-    "lng": 139.332989
-  },
-  "basic_info": {
-    "name_ja": "東京国際外語学院",
-    "address": "東京都八王子市南町5-8",
-    "capacity": 100,
-    "name_en": "Tokyo International Foreign Language Academy"
-  },
-  "stats": {
-    "international_students": 100,
-    "capacity": 100
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory provided",
-    "Strong focus on university and vocational advancement (Shin-gaku)",
-    "Specialized EJU (Examination for Japanese University Admission for International Students) preparation",
-    "Dedicated Science/STEM track preparation",
-    "Unique Caregiver/Nursing pathway courses"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1481600
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1146600
-    },
-    {
-      "course_name": "介護1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1146600
-    },
-    {
-      "course_name": "介護1年コース",
-      "admission_month": "4",
-      "total_fees": 781600
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=532",
-  "description": "Tokyo International Foreign Language Academy offers specialized courses focused on university and vocational advancement, with unique pathways in STEM and Caregiving. Located in Hachioji, Tokyo, the academy provides a conducive learning environment with dormitory options and comprehensive student support.",
-  "translated": true
-}
+basic_info:
+  address: 東京都八王子市南町5-8
+  capacity: 100
+  name_en: Tokyo International Foreign Language Academy
+  name_ja: 東京国際外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1481600
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1146600
+- admission_month: '10'
+  course_name: 介護1年6か月コース
+  total_fees: 1146600
+- admission_month: '4'
+  course_name: 介護1年コース
+  total_fees: 781600
+description: Tokyo International Foreign Language Academy offers specialized courses
+  focused on university and vocational advancement, with unique pathways in STEM and
+  Caregiving. Located in Hachioji, Tokyo, the academy provides a conducive learning
+  environment with dormitory options and comprehensive student support.
+faculties: []
+features:
+- Dormitory provided
+- Strong focus on university and vocational advancement (Shin-gaku)
+- Specialized EJU (Examination for Japanese University Admission for International
+  Students) preparation
+- Dedicated Science/STEM track preparation
+- Unique Caregiver/Nursing pathway courses
+id: school_tokyo-international-foreign-language-academy
+lang: en
+layout: school
+location:
+  lat: 35.65901340000001
+  lng: 139.332989
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=532
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- Dormitory provided
+- Strong focus on university and vocational advancement (Shin-gaku)
+- Specialized EJU (Examination for Japanese University Admission for International
+  Students) preparation
+- Dedicated Science/STEM track preparation
+- Unique Caregiver/Nursing pathway courses
+thumbnail: /static/img/pin-school.png
+title: Tokyo International Foreign Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,71 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市西区新町1-2-13　新町ビル4F",
-    "capacity": 232,
-    "name_en": "Clover Academy",
-    "name_ja": "クローバー学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1440000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "大学進学1年9ヶ月コース",
-      "total_fees": 1270000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "大学進学1年半コース",
-      "total_fees": 1110000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "大学進学1年3ヶ月コース",
-      "total_fees": 950000
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "一般2年コース",
-      "total_fees": 1440000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "EJU Preparation",
-    "University Advancement",
-    "Scholarships",
-    "Dormitory",
-    "Science Focus"
-  ],
-  "id": "school_clover-academy-osaka",
-  "layout": "school",
-  "location": {
-    "lat": 34.677933,
-    "lng": 135.4973859
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=326",
-  "stats": {
-    "capacity": 232,
-    "international_students": 0
-  },
-  "tags": [
-    "EJU Preparation",
-    "University Advancement",
-    "Scholarships",
-    "Dormitory",
-    "Science Focus"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Clover Academy",
-  "tuition": {},
-  "description": "Clover Academy in Osaka provides comprehensive Japanese language education for international students, focusing on university admissions and future careers in Japan, with specialized courses and strong science program support.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市西区新町1-2-13　新町ビル4F
+  capacity: 232
+  name_en: Clover Academy
+  name_ja: クローバー学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1440000
+- admission_month: '7'
+  course_name: 大学進学1年9ヶ月コース
+  total_fees: 1270000
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 1110000
+- admission_month: '1'
+  course_name: 大学進学1年3ヶ月コース
+  total_fees: 950000
+- admission_month: 4,10
+  course_name: 一般2年コース
+  total_fees: 1440000
+description: Clover Academy in Osaka provides comprehensive Japanese language education
+  for international students, focusing on university admissions and future careers
+  in Japan, with specialized courses and strong science program support.
+faculties: []
+features:
+- EJU Preparation
+- University Advancement
+- Scholarships
+- Dormitory
+- Science Focus
+id: school_clover-academy-osaka
+lang: en
+layout: school
+location:
+  lat: 34.677933
+  lng: 135.4973859
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=326
+stats:
+  capacity: 232
+  international_students: 0
+tags:
+- EJU Preparation
+- University Advancement
+- Scholarships
+- Dormitory
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: Clover Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

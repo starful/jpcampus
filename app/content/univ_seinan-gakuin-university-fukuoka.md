@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seinan-gakuin-university-fukuoka",
-  "title": "Seinan Gakuin University",
-  "category": "university",
-  "tags": [
-    "Top Regional Private University",
-    "Christian Foundation",
-    "EJU Preferred",
-    "Fukuoka Location (Low Cost of Living)",
-    "Robust International Exchange"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "西南学院大学",
-    "name_en": "Seinan Gakuin University",
-    "address": "〒814-8511 福岡県福岡市早良区西新6丁目2-92",
-    "website": "https://www.seinan-gu.ac.jp/"
-  },
-  "stats": {
-    "international_students": 650,
-    "acceptance_rate": "Highly competitive (Varies by Faculty)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Theology",
-    "Literature",
-    "Commerce",
-    "Economics",
-    "Law",
-    "Human Sciences",
-    "International Studies"
-  ],
-  "features": [
-    "Top Regional Private University",
-    "Christian Foundation",
-    "EJU Preferred",
-    "Fukuoka Location (Low Cost of Living)",
-    "Robust International Exchange"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒814-8511 福岡県福岡市早良区西新6丁目2-92
+  name_en: Seinan Gakuin University
+  name_ja: 西南学院大学
+  website: https://www.seinan-gu.ac.jp/
+category: university
+faculties:
+- Theology
+- Literature
+- Commerce
+- Economics
+- Law
+- Human Sciences
+- International Studies
+features:
+- Top Regional Private University
+- Christian Foundation
+- EJU Preferred
+- Fukuoka Location (Low Cost of Living)
+- Robust International Exchange
+id: univ_seinan-gakuin-university-fukuoka
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Highly competitive (Varies by Faculty)
+  international_students: 650
+tags:
+- Top Regional Private University
+- Christian Foundation
+- EJU Preferred
+- Fukuoka Location (Low Cost of Living)
+- Robust International Exchange
+thumbnail: /static/img/pin-univ.png
+title: Seinan Gakuin University
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview & Reputation

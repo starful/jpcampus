@@ -1,50 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "school_elite-japanese-language-school-shinjuku-tokyo",
-  "title": "Elite Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Dedicated Higher Education Advancement Program (EJU Preparation)",
-    "Robust Internal and External Scholarship Opportunities",
-    "School-Affiliated Dormitory and Accommodation Support",
-    "Prime Location in Shinjuku, Tokyo",
-    "Quarterly Intake Flexibility (April, July, October, January)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6968313,
-    "lng": 139.7013503
-  },
-  "basic_info": {
-    "name_ja": "エリート日本語学校",
-    "address": "東京都新宿区歌舞伎町2-44-1 東京都健康プラザハイジア12階",
-    "capacity": 1000,
-    "name_en": "Elite Japanese Language School"
-  },
-  "stats": {
-    "international_students": 950,
-    "capacity": 1000
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Higher Education Advancement Program (EJU Preparation)",
-    "Robust Internal and External Scholarship Opportunities",
-    "School-Affiliated Dormitory and Accommodation Support",
-    "Prime Location in Shinjuku, Tokyo",
-    "Quarterly Intake Flexibility (April, July, October, January)"
-  ],
-  "courses": [
-    {
-      "course_name": "General 2-Year Course",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1507000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=125",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区歌舞伎町2-44-1 東京都健康プラザハイジア12階
+  capacity: 1000
+  name_en: Elite Japanese Language School
+  name_ja: エリート日本語学校
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: General 2-Year Course
+  total_fees: 1507000
+faculties: []
+features:
+- Dedicated Higher Education Advancement Program (EJU Preparation)
+- Robust Internal and External Scholarship Opportunities
+- School-Affiliated Dormitory and Accommodation Support
+- Prime Location in Shinjuku, Tokyo
+- Quarterly Intake Flexibility (April, July, October, January)
+id: school_elite-japanese-language-school-shinjuku-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.6968313
+  lng: 139.7013503
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=125
+stats:
+  capacity: 1000
+  international_students: 950
+tags:
+- Dedicated Higher Education Advancement Program (EJU Preparation)
+- Robust Internal and External Scholarship Opportunities
+- School-Affiliated Dormitory and Accommodation Support
+- Prime Location in Shinjuku, Tokyo
+- Quarterly Intake Flexibility (April, July, October, January)
+thumbnail: /static/img/pin-school.png
+title: Elite Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

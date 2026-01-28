@@ -1,64 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "school_higashi-shinjuku-japanese-language-institute",
-  "title": "Higashi Shinjuku Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "Higher Education Advancement",
-    "Small Class Sizes",
-    "Dormitory Accommodation",
-    "EJU Preparation Support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7009145,
-    "lng": 139.7106059
-  },
-  "basic_info": {
-    "name_ja": "東新宿日本語学院",
-    "address": "東京都新宿区新宿7-18-7",
-    "capacity": 286,
-    "name_en": "Higashi Shinjuku Japanese Language Institute"
-  },
-  "stats": {
-    "international_students": 270,
-    "capacity": 286
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Higher Education Advancement",
-    "Small Class Sizes",
-    "Dormitory Accommodation",
-    "EJU Preparation Support"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1698000
-    },
-    {
-      "course_name": "進学1年9ヵ月コース",
-      "admission_month": "7",
-      "total_fees": 1507000
-    },
-    {
-      "course_name": "進学1年6ヵ月コース",
-      "admission_month": "10",
-      "total_fees": 1317000
-    },
-    {
-      "course_name": "進学1年3ヵ月コース",
-      "admission_month": "1",
-      "total_fees": 1104500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=105",
-  "description": "Located in Shinjuku, Tokyo, Higashi Shinjuku Japanese Language Institute offers comprehensive Japanese language education focused on preparing students for higher education. Features include small class sizes, dormitory accommodation, and EJU preparation support.",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区新宿7-18-7
+  capacity: 286
+  name_en: Higashi Shinjuku Japanese Language Institute
+  name_ja: 東新宿日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1698000
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1507000
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1317000
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 1104500
+description: Located in Shinjuku, Tokyo, Higashi Shinjuku Japanese Language Institute
+  offers comprehensive Japanese language education focused on preparing students for
+  higher education. Features include small class sizes, dormitory accommodation, and
+  EJU preparation support.
+faculties: []
+features:
+- Higher Education Advancement
+- Small Class Sizes
+- Dormitory Accommodation
+- EJU Preparation Support
+id: school_higashi-shinjuku-japanese-language-institute
+lang: en
+layout: school
+location:
+  lat: 35.7009145
+  lng: 139.7106059
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=105
+stats:
+  capacity: 286
+  international_students: 270
+tags:
+- Higher Education Advancement
+- Small Class Sizes
+- Dormitory Accommodation
+- EJU Preparation Support
+thumbnail: /static/img/pin-school.png
+title: Higashi Shinjuku Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

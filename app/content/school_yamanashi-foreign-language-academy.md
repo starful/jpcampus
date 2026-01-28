@@ -1,65 +1,54 @@
 ---
-{
-  "layout": "school",
-  "id": "school_yamanashi-foreign-language-academy",
-  "title": "Yamanashi Foreign Language Academy",
-  "category": "school",
-  "tags": [
-    "University Preparation Focus",
-    "Conversation Practice Emphasis",
-    "On-Campus Dormitory Available",
-    "Single Room Dormitory Option",
-    "Scholarship Opportunities",
-    "EJU Preparation",
-    "Science/STEM Track Support",
-    "Business Japanese",
-    "Art & Design Track Support",
-    "Short-Term Study Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6772321,
-    "lng": 138.5727122
-  },
-  "basic_info": {
-    "name_ja": "山梨外語学院",
-    "address": "山梨県甲府市武田4-1-29",
-    "capacity": 80,
-    "name_en": "Yamanashi Foreign Language Academy"
-  },
-  "stats": {
-    "international_students": 75,
-    "capacity": 80
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Preparation Focus",
-    "Conversation Practice Emphasis",
-    "On-Campus Dormitory Available",
-    "Single Room Dormitory Option",
-    "Scholarship Opportunities",
-    "EJU Preparation",
-    "Science/STEM Track Support",
-    "Business Japanese",
-    "Art & Design Track Support",
-    "Short-Term Study Available"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1590600
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1213300
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=595",
-  "translated": true
-}
+basic_info:
+  address: 山梨県甲府市武田4-1-29
+  capacity: 80
+  name_en: Yamanashi Foreign Language Academy
+  name_ja: 山梨外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1590600
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1213300
+faculties: []
+features:
+- University Preparation Focus
+- Conversation Practice Emphasis
+- On-Campus Dormitory Available
+- Single Room Dormitory Option
+- Scholarship Opportunities
+- EJU Preparation
+- Science/STEM Track Support
+- Business Japanese
+- Art & Design Track Support
+- Short-Term Study Available
+id: school_yamanashi-foreign-language-academy
+lang: en
+layout: school
+location:
+  lat: 35.6772321
+  lng: 138.5727122
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=595
+stats:
+  capacity: 80
+  international_students: 75
+tags:
+- University Preparation Focus
+- Conversation Practice Emphasis
+- On-Campus Dormitory Available
+- Single Room Dormitory Option
+- Scholarship Opportunities
+- EJU Preparation
+- Science/STEM Track Support
+- Business Japanese
+- Art & Design Track Support
+- Short-Term Study Available
+thumbnail: /static/img/pin-school.png
+title: Yamanashi Foreign Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

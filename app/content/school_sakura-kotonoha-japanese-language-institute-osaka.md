@@ -1,59 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "school_sakura-kotonoha-japanese-language-institute-osaka",
-  "title": "Sakura Kotonoha Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "Dormitory Accommodation Guaranteed",
-    "Intensive EJU (University Entrance Exam) Preparation",
-    "Specialized Rikei (Science and Engineering) Track Support",
-    "High Student-to-Teacher Ratio due to Boutique Size",
-    "Single Room Options Available in Housing",
-    "Robust Scholarship Programs for High Achievers"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7246981,
-    "lng": 135.4912363
-  },
-  "basic_info": {
-    "name_ja": "桜ことのは日本語学院",
-    "address": "大阪府大阪市淀川区木川東2-8-11",
-    "capacity": 80,
-    "name_en": "Sakura Kotonoha Japanese Language Institute"
-  },
-  "stats": {
-    "international_students": 75,
-    "capacity": 80
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory Accommodation Guaranteed",
-    "Intensive EJU (University Entrance Exam) Preparation",
-    "Specialized Rikei (Science and Engineering) Track Support",
-    "High Student-to-Teacher Ratio due to Boutique Size",
-    "Single Room Options Available in Housing",
-    "Robust Scholarship Programs for High Achievers"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1625800
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1238600
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=569",
-  "translated": true,
-  "description": "A boutique Japanese language institute in Osaka offering intensive EJU preparation, specialized support for science and engineering students, and guaranteed dormitory accommodation with single room options. Known for its high student-to-teacher ratio and robust scholarship programs.",
-  "name_en": "Sakura Kotonoha Japanese Language Institute"
-}
+basic_info:
+  address: 大阪府大阪市淀川区木川東2-8-11
+  capacity: 80
+  name_en: Sakura Kotonoha Japanese Language Institute
+  name_ja: 桜ことのは日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1625800
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1238600
+description: A boutique Japanese language institute in Osaka offering intensive EJU
+  preparation, specialized support for science and engineering students, and guaranteed
+  dormitory accommodation with single room options. Known for its high student-to-teacher
+  ratio and robust scholarship programs.
+faculties: []
+features:
+- Dormitory Accommodation Guaranteed
+- Intensive EJU (University Entrance Exam) Preparation
+- Specialized Rikei (Science and Engineering) Track Support
+- High Student-to-Teacher Ratio due to Boutique Size
+- Single Room Options Available in Housing
+- Robust Scholarship Programs for High Achievers
+id: school_sakura-kotonoha-japanese-language-institute-osaka
+lang: en
+layout: school
+location:
+  lat: 34.7246981
+  lng: 135.4912363
+name_en: Sakura Kotonoha Japanese Language Institute
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=569
+stats:
+  capacity: 80
+  international_students: 75
+tags:
+- Dormitory Accommodation Guaranteed
+- Intensive EJU (University Entrance Exam) Preparation
+- Specialized Rikei (Science and Engineering) Track Support
+- High Student-to-Teacher Ratio due to Boutique Size
+- Single Room Options Available in Housing
+- Robust Scholarship Programs for High Achievers
+thumbnail: /static/img/pin-school.png
+title: Sakura Kotonoha Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

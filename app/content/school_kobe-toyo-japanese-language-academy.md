@@ -1,96 +1,75 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県神戸市中央区北長狭通4-5-7",
-    "capacity": 520,
-    "name_en": "Kobe Toyo Japanese Language Academy",
-    "name_ja": "神戸東洋日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "春コースⅠ",
-      "total_fees": 720000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "春コースⅡ",
-      "total_fees": 1360000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "夏コースⅠ",
-      "total_fees": 720000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "夏コースⅡ",
-      "total_fees": 1201000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "秋コースⅠ",
-      "total_fees": 720000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "秋コースⅡ",
-      "total_fees": 1040000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "冬コースⅠ",
-      "total_fees": 720000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "冬コースⅡ",
-      "total_fees": 881000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "Scholarships",
-    "EJU",
-    "Science",
-    "University Preparation",
-    "Conversation",
-    "Business",
-    "Art",
-    "Design",
-    "Short-Term"
-  ],
-  "id": "school_kobe-toyo-japanese-language-academy",
-  "layout": "school",
-  "location": {
-    "lat": 34.6910859,
-    "lng": 135.187186
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=372",
-  "stats": {
-    "capacity": 520,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Scholarships",
-    "EJU",
-    "Science",
-    "University Preparation",
-    "Conversation",
-    "Business",
-    "Art",
-    "Design",
-    "Short-Term"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kobe Toyo Japanese Language Academy",
-  "tuition": {},
-  "description": "Learn Japanese in Kobe at Kobe Toyo Japanese Language Academy. Offers comprehensive Japanese language education, university preparation, and a supportive learning environment.",
-  "translated": true
-}
+basic_info:
+  address: 兵庫県神戸市中央区北長狭通4-5-7
+  capacity: 520
+  name_en: Kobe Toyo Japanese Language Academy
+  name_ja: 神戸東洋日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 春コースⅠ
+  total_fees: 720000
+- admission_month: '4'
+  course_name: 春コースⅡ
+  total_fees: 1360000
+- admission_month: '7'
+  course_name: 夏コースⅠ
+  total_fees: 720000
+- admission_month: '7'
+  course_name: 夏コースⅡ
+  total_fees: 1201000
+- admission_month: '10'
+  course_name: 秋コースⅠ
+  total_fees: 720000
+- admission_month: '10'
+  course_name: 秋コースⅡ
+  total_fees: 1040000
+- admission_month: '1'
+  course_name: 冬コースⅠ
+  total_fees: 720000
+- admission_month: '1'
+  course_name: 冬コースⅡ
+  total_fees: 881000
+description: Learn Japanese in Kobe at Kobe Toyo Japanese Language Academy. Offers
+  comprehensive Japanese language education, university preparation, and a supportive
+  learning environment.
+faculties: []
+features:
+- Dormitory
+- Scholarships
+- EJU
+- Science
+- University Preparation
+- Conversation
+- Business
+- Art
+- Design
+- Short-Term
+id: school_kobe-toyo-japanese-language-academy
+lang: en
+layout: school
+location:
+  lat: 34.6910859
+  lng: 135.187186
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=372
+stats:
+  capacity: 520
+  international_students: 0
+tags:
+- Dormitory
+- Scholarships
+- EJU
+- Science
+- University Preparation
+- Conversation
+- Business
+- Art
+- Design
+- Short-Term
+thumbnail: /static/img/pin-school.png
+title: Kobe Toyo Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

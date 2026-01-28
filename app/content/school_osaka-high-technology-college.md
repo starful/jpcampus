@@ -1,68 +1,58 @@
 ---
-{
-  "layout": "school",
-  "id": "school_osaka-high-technology-college",
-  "title": "Osaka High Technology College",
-  "category": "school",
-  "tags": [
-    "Advancement to Higher Education",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Dormitory",
-    "Single Room Dormitory",
-    "Scholarships",
-    "Science Courses",
-    "Business Courses",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.73491509999999,
-    "lng": 135.5008132
-  },
-  "basic_info": {
-    "name_ja": "大阪ハイテクノロジー専門学校",
-    "address": "大阪府大阪市淀川区宮原1-2-43",
-    "capacity": 80,
-    "name_en": "Osaka High Technology College"
-  },
-  "stats": {
-    "international_students": 123,
-    "capacity": 80
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Advancement to Higher Education",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Dormitory",
-    "Single Room Dormitory",
-    "Scholarships",
-    "Science Courses",
-    "Business Courses",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 745000
-    },
-    {
-      "course_name": "進学1年6ヵ月コース",
-      "admission_month": "10",
-      "total_fees": 965000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=346",
-  "description": "Osaka High Technology College: Your gateway to higher education in Japan. Comprehensive programs for EJU preparation and university advancement.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市淀川区宮原1-2-43
+  capacity: 80
+  name_en: Osaka High Technology College
+  name_ja: 大阪ハイテクノロジー専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 745000
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 965000
+description: 'Osaka High Technology College: Your gateway to higher education in Japan.
+  Comprehensive programs for EJU preparation and university advancement.'
+faculties: []
+features:
+- Advancement to Higher Education
+- EJU Preparation
+- Conversational Japanese
+- Dormitory
+- Single Room Dormitory
+- Scholarships
+- Science Courses
+- Business Courses
+- Art Courses
+- Design Courses
+- Short-Term Courses
+id: school_osaka-high-technology-college
+lang: en
+layout: school
+location:
+  lat: 34.73491509999999
+  lng: 135.5008132
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=346
+stats:
+  capacity: 80
+  international_students: 123
+tags:
+- Advancement to Higher Education
+- EJU Preparation
+- Conversational Japanese
+- Dormitory
+- Single Room Dormitory
+- Scholarships
+- Science Courses
+- Business Courses
+- Art Courses
+- Design Courses
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Osaka High Technology College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

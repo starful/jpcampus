@@ -1,54 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kokusai-technical-design-automotive-college-tochigi",
-  "title": "Kokusai Technical Design and Automotive Vocational College (Japanese Language Department)",
-  "category": "school",
-  "tags": [
-    "Integrated Technical and Language Training",
-    "Strong Focus on EJU and Science Track Progression",
-    "On-Campus or Affiliated Dormitory Available",
-    "Direct Pipeline to Automotive and Technical Design Careers",
-    "Boutique School Environment in Tochigi Prefecture",
-    "Short-term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.3046683,
-    "lng": 139.802367
-  },
-  "basic_info": {
-    "name_ja": "国際テクニカルデザイン・自動車専門学校",
-    "address": "栃木県小山市三峯1-10-21",
-    "capacity": 80,
-    "name_en": "Kokusai Technical Design and Automotive Vocational College (Japanese Language Department)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Integrated Technical and Language Training",
-    "Strong Focus on EJU and Science Track Progression",
-    "On-Campus or Affiliated Dormitory Available",
-    "Direct Pipeline to Automotive and Technical Design Careers",
-    "Boutique School Environment in Tochigi Prefecture",
-    "Short-term Study Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1040000
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1340000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=42",
-  "translated": true
-}
+basic_info:
+  address: 栃木県小山市三峯1-10-21
+  capacity: 80
+  name_en: Kokusai Technical Design and Automotive Vocational College (Japanese Language
+    Department)
+  name_ja: 国際テクニカルデザイン・自動車専門学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1040000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1340000
+faculties: []
+features:
+- Integrated Technical and Language Training
+- Strong Focus on EJU and Science Track Progression
+- On-Campus or Affiliated Dormitory Available
+- Direct Pipeline to Automotive and Technical Design Careers
+- Boutique School Environment in Tochigi Prefecture
+- Short-term Study Options Available
+id: school_kokusai-technical-design-automotive-college-tochigi
+lang: en
+layout: school
+location:
+  lat: 36.3046683
+  lng: 139.802367
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=42
+stats: {}
+tags:
+- Integrated Technical and Language Training
+- Strong Focus on EJU and Science Track Progression
+- On-Campus or Affiliated Dormitory Available
+- Direct Pipeline to Automotive and Technical Design Careers
+- Boutique School Environment in Tochigi Prefecture
+- Short-term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: Kokusai Technical Design and Automotive Vocational College (Japanese Language
+  Department)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

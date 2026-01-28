@@ -1,62 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "school_trinity-college-hiroshima-medical-welfare",
-  "title": "Trinity College Hiroshima Medical and Welfare Vocational School (Japanese Language Department)",
-  "category": "school",
-  "tags": [
-    "Integrated Learning Environment within a Vocational School",
-    "Specialized Preparation for Medical and Welfare Careers",
-    "Comprehensive EJU and University Entrance Examination Support",
-    "Availability of Dedicated School Dormitories (Single Room Options)",
-    "Curriculum Supporting Science, Art, and Business Tracks",
-    "Generous Scholarship and Financial Aid Programs",
-    "Highly Personalized Instruction Due to Small Capacity",
-    "Targeted Caregiving/Welfare Progression Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.3968878,
-    "lng": 132.469504
-  },
-  "basic_info": {
-    "name_ja": "トリニティカレッジ広島医療福祉専門学校",
-    "address": "広島県広島市中区上幟町8-18",
-    "capacity": 80,
-    "name_en": "Trinity College Hiroshima Medical and Welfare Vocational School (Japanese Language Department)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Integrated Learning Environment within a Vocational School",
-    "Specialized Preparation for Medical and Welfare Careers",
-    "Comprehensive EJU and University Entrance Examination Support",
-    "Availability of Dedicated School Dormitories (Single Room Options)",
-    "Curriculum Supporting Science, Art, and Business Tracks",
-    "Generous Scholarship and Financial Aid Programs",
-    "Highly Personalized Instruction Due to Small Capacity",
-    "Targeted Caregiving/Welfare Progression Course"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1635000
-    },
-    {
-      "course_name": "進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1255000
-    },
-    {
-      "course_name": "介護進学コース",
-      "admission_month": "4",
-      "total_fees": 875000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=565"
-}
+basic_info:
+  address: 広島県広島市中区上幟町8-18
+  capacity: 80
+  name_en: Trinity College Hiroshima Medical and Welfare Vocational School (Japanese
+    Language Department)
+  name_ja: トリニティカレッジ広島医療福祉専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1635000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1255000
+- admission_month: '4'
+  course_name: 介護進学コース
+  total_fees: 875000
+faculties: []
+features:
+- Integrated Learning Environment within a Vocational School
+- Specialized Preparation for Medical and Welfare Careers
+- Comprehensive EJU and University Entrance Examination Support
+- Availability of Dedicated School Dormitories (Single Room Options)
+- Curriculum Supporting Science, Art, and Business Tracks
+- Generous Scholarship and Financial Aid Programs
+- Highly Personalized Instruction Due to Small Capacity
+- Targeted Caregiving/Welfare Progression Course
+id: school_trinity-college-hiroshima-medical-welfare
+lang: en
+layout: school
+location:
+  lat: 34.3968878
+  lng: 132.469504
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=565
+stats: {}
+tags:
+- Integrated Learning Environment within a Vocational School
+- Specialized Preparation for Medical and Welfare Careers
+- Comprehensive EJU and University Entrance Examination Support
+- Availability of Dedicated School Dormitories (Single Room Options)
+- Curriculum Supporting Science, Art, and Business Tracks
+- Generous Scholarship and Financial Aid Programs
+- Highly Personalized Instruction Due to Small Capacity
+- Targeted Caregiving/Welfare Progression Course
+thumbnail: /static/img/pin-school.png
+title: Trinity College Hiroshima Medical and Welfare Vocational School (Japanese Language
+  Department)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

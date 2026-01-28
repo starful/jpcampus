@@ -1,61 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nara-sogo-business-college-japanese-language-division",
-  "title": "Nara Sogo Business College (Japanese Language Division)",
-  "category": "school",
-  "tags": [
-    "Comprehensive University Preparation",
-    "Specialized EJU (Examination for Japanese University Admission) Support",
-    "On-Campus Dormitory Facilities Available",
-    "Focus on Practical Conversation and Business Japanese",
-    "Exclusive Scholarship Programs",
-    "Accommodation Options Including Single Rooms",
-    "Specialized Tracks for Science, Art, and Design Majors",
-    "Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6890115,
-    "lng": 135.8258508
-  },
-  "basic_info": {
-    "name_ja": "奈良総合ビジネス専門学校",
-    "address": "奈良県奈良市法蓮町7-2",
-    "capacity": 180,
-    "name_en": "Nara Sogo Business College (Japanese Language Division)"
-  },
-  "stats": {
-    "international_students": 150,
-    "capacity": 180
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive University Preparation",
-    "Specialized EJU (Examination for Japanese University Admission) Support",
-    "On-Campus Dormitory Facilities Available",
-    "Focus on Practical Conversation and Business Japanese",
-    "Exclusive Scholarship Programs",
-    "Accommodation Options Including Single Rooms",
-    "Specialized Tracks for Science, Art, and Design Majors",
-    "Short-Term Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "University Preparation 2-Year Course",
-      "admission_month": "4",
-      "total_fees": 1540000
-    },
-    {
-      "course_name": "University Preparation 1.5-Year Course",
-      "admission_month": "10",
-      "total_fees": 1195000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=383",
-  "translated": true
-}
+basic_info:
+  address: 奈良県奈良市法蓮町7-2
+  capacity: 180
+  name_en: Nara Sogo Business College (Japanese Language Division)
+  name_ja: 奈良総合ビジネス専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Preparation 2-Year Course
+  total_fees: 1540000
+- admission_month: '10'
+  course_name: University Preparation 1.5-Year Course
+  total_fees: 1195000
+faculties: []
+features:
+- Comprehensive University Preparation
+- Specialized EJU (Examination for Japanese University Admission) Support
+- On-Campus Dormitory Facilities Available
+- Focus on Practical Conversation and Business Japanese
+- Exclusive Scholarship Programs
+- Accommodation Options Including Single Rooms
+- Specialized Tracks for Science, Art, and Design Majors
+- Short-Term Study Options
+id: school_nara-sogo-business-college-japanese-language-division
+lang: en
+layout: school
+location:
+  lat: 34.6890115
+  lng: 135.8258508
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=383
+stats:
+  capacity: 180
+  international_students: 150
+tags:
+- Comprehensive University Preparation
+- Specialized EJU (Examination for Japanese University Admission) Support
+- On-Campus Dormitory Facilities Available
+- Focus on Practical Conversation and Business Japanese
+- Exclusive Scholarship Programs
+- Accommodation Options Including Single Rooms
+- Specialized Tracks for Science, Art, and Design Majors
+- Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Nara Sogo Business College (Japanese Language Division)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

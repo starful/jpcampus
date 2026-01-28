@@ -1,61 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_west-coast-japanese-language-school-ota-tokyo",
-  "title": "West Coast Japanese Language School (ウエストコースト語学院)",
-  "category": "school",
-  "tags": [
-    "High-Intensity University and Graduate School Advancement Focus",
-    "Specialized Preparation for EJU Science (Rikei) Track",
-    "Small School Capacity (120) Ensuring Personalized Attention",
-    "Career Pathway Option via the Specific Skills Employment Course",
-    "Strategic Location in Residential Ota-ku, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.5804865,
-    "lng": 139.6835401
-  },
-  "basic_info": {
-    "name_ja": "ウエストコースト語学院",
-    "address": "東京都大田区東嶺町35-13",
-    "capacity": 120,
-    "name_en": "West Coast Japanese Language School (ウエストコースト語学院)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Intensity University and Graduate School Advancement Focus",
-    "Specialized Preparation for EJU Science (Rikei) Track",
-    "Small School Capacity (120) Ensuring Personalized Attention",
-    "Career Pathway Option via the Specific Skills Employment Course",
-    "Strategic Location in Residential Ota-ku, Tokyo"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1539000
-    },
-    {
-      "course_name": "進学1年9ヵ月コース",
-      "admission_month": "7",
-      "total_fees": 1357500
-    },
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1176000
-    },
-    {
-      "course_name": "特定技能就職1年コース",
-      "admission_month": "4",
-      "total_fees": 822500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=166"
-}
+basic_info:
+  address: 東京都大田区東嶺町35-13
+  capacity: 120
+  name_en: West Coast Japanese Language School (ウエストコースト語学院)
+  name_ja: ウエストコースト語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1539000
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1357500
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1176000
+- admission_month: '4'
+  course_name: 特定技能就職1年コース
+  total_fees: 822500
+faculties: []
+features:
+- High-Intensity University and Graduate School Advancement Focus
+- Specialized Preparation for EJU Science (Rikei) Track
+- Small School Capacity (120) Ensuring Personalized Attention
+- Career Pathway Option via the Specific Skills Employment Course
+- Strategic Location in Residential Ota-ku, Tokyo
+id: school_west-coast-japanese-language-school-ota-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.5804865
+  lng: 139.6835401
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=166
+stats: {}
+tags:
+- High-Intensity University and Graduate School Advancement Focus
+- Specialized Preparation for EJU Science (Rikei) Track
+- Small School Capacity (120) Ensuring Personalized Attention
+- Career Pathway Option via the Specific Skills Employment Course
+- Strategic Location in Residential Ota-ku, Tokyo
+thumbnail: /static/img/pin-school.png
+title: West Coast Japanese Language School (ウエストコースト語学院)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ritsumeikan-asia-pacific-university-apu",
-  "title": "Ritsumeikan Asia Pacific University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "English Program",
-    "Dormitory Guaranteed First Year",
-    "High Scholarship Rate",
-    "EJU Optional"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "立命館アジア太平洋大学",
-    "name_en": "Ritsumeikan Asia Pacific University",
-    "address": "大分県別府市十文字原1-1",
-    "website": "https://www.apu.ac.jp/"
-  },
-  "stats": {
-    "international_students": 3200,
-    "acceptance_rate": "25% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1300000
-  },
-  "faculties": [
-    "College of Asia Pacific Studies (APS)",
-    "College of International Management (APM)",
-    "College of Sustainability and Tourism (ST)",
-    "College of Asia Pacific Culture and Society (CS)"
-  ],
-  "features": [
-    "SGU",
-    "English Program",
-    "Dormitory Guaranteed First Year",
-    "High Scholarship Rate",
-    "EJU Optional"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 大分県別府市十文字原1-1
+  name_en: Ritsumeikan Asia Pacific University
+  name_ja: 立命館アジア太平洋大学
+  website: https://www.apu.ac.jp/
+category: university
+faculties:
+- College of Asia Pacific Studies (APS)
+- College of International Management (APM)
+- College of Sustainability and Tourism (ST)
+- College of Asia Pacific Culture and Society (CS)
+features:
+- SGU
+- English Program
+- Dormitory Guaranteed First Year
+- High Scholarship Rate
+- EJU Optional
+id: univ_ritsumeikan-asia-pacific-university-apu
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25% (Estimated)
+  international_students: 3200
+tags:
+- SGU
+- English Program
+- Dormitory Guaranteed First Year
+- High Scholarship Rate
+- EJU Optional
+thumbnail: /static/img/pin-univ.png
+title: Ritsumeikan Asia Pacific University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1300000
 ---
 
 ## University Overview & Reputation

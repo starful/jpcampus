@@ -1,76 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "沖縄県浦添市仲西1-1-1",
-    "capacity": 675,
-    "name_en": "JSL Nihon Academy",
-    "name_ja": "J S L日本アカデミー"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学A",
-      "total_fees": 830000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学B",
-      "total_fees": 1355000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学C",
-      "total_fees": 1180000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学D",
-      "total_fees": 1005000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "Scholarship",
-    "EJU Preparation",
-    "Science Courses",
-    "University Pathway",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-term Courses"
-  ],
-  "id": "school_j-s-l-nihon-academy",
-  "layout": "school",
-  "location": {
-    "lat": 26.2493949,
-    "lng": 127.7004683
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=458",
-  "stats": {
-    "capacity": 675,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Scholarship",
-    "EJU Preparation",
-    "Science Courses",
-    "University Pathway",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "JSL Nihon Academy",
-  "tuition": {},
-  "description": "JSL Nihon Academy in Okinawa offers a unique learning environment for international students, providing comprehensive support for university entrance, cultural immersion, and career development.",
-  "translated": true
-}
+basic_info:
+  address: 沖縄県浦添市仲西1-1-1
+  capacity: 675
+  name_en: JSL Nihon Academy
+  name_ja: J S L日本アカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学A
+  total_fees: 830000
+- admission_month: '7'
+  course_name: 進学B
+  total_fees: 1355000
+- admission_month: '10'
+  course_name: 進学C
+  total_fees: 1180000
+- admission_month: '1'
+  course_name: 進学D
+  total_fees: 1005000
+description: JSL Nihon Academy in Okinawa offers a unique learning environment for
+  international students, providing comprehensive support for university entrance,
+  cultural immersion, and career development.
+faculties: []
+features:
+- Dormitory
+- Scholarship
+- EJU Preparation
+- Science Courses
+- University Pathway
+- Conversational Japanese
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-term Courses
+id: school_j-s-l-nihon-academy
+lang: en
+layout: school
+location:
+  lat: 26.2493949
+  lng: 127.7004683
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=458
+stats:
+  capacity: 675
+  international_students: 0
+tags:
+- Dormitory
+- Scholarship
+- EJU Preparation
+- Science Courses
+- University Pathway
+- Conversational Japanese
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: JSL Nihon Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

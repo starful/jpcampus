@@ -1,60 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_okayama-gaigo-gakuin-japanese-school",
-  "title": "Okayama Gaigo Gakuin (Okayama Foreign Language Institute)",
-  "category": "school",
-  "tags": [
-    "Comprehensive University Preparation (EJU, STEM, Art/Design)",
-    "Dedicated Job Hunting and Business Japanese Track",
-    "Extensive Personal and Academic Counseling Support",
-    "On-Campus Dormitory Facilities with Single Room Options",
-    "Focus on Japanese Culture and Regional Immersion",
-    "Scholarship Opportunities Available",
-    "Flexible Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6536574,
-    "lng": 133.9302368
-  },
-  "basic_info": {
-    "name_ja": "岡山外語学院",
-    "address": "岡山県岡山市北区舟橋町2-10",
-    "capacity": 400,
-    "name_en": "Okayama Gaigo Gakuin (Okayama Foreign Language Institute)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive University Preparation (EJU, STEM, Art/Design)",
-    "Dedicated Job Hunting and Business Japanese Track",
-    "Extensive Personal and Academic Counseling Support",
-    "On-Campus Dormitory Facilities with Single Room Options",
-    "Focus on Japanese Culture and Regional Immersion",
-    "Scholarship Opportunities Available",
-    "Flexible Short-Term Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1555000
-    },
-    {
-      "course_name": "進学1年6ヵ月コース",
-      "admission_month": "10",
-      "total_fees": 1196500
-    },
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 838000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=393"
-}
+basic_info:
+  address: 岡山県岡山市北区舟橋町2-10
+  capacity: 400
+  name_en: Okayama Gaigo Gakuin (Okayama Foreign Language Institute)
+  name_ja: 岡山外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1555000
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1196500
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 838000
+faculties: []
+features:
+- Comprehensive University Preparation (EJU, STEM, Art/Design)
+- Dedicated Job Hunting and Business Japanese Track
+- Extensive Personal and Academic Counseling Support
+- On-Campus Dormitory Facilities with Single Room Options
+- Focus on Japanese Culture and Regional Immersion
+- Scholarship Opportunities Available
+- Flexible Short-Term Study Options
+id: school_okayama-gaigo-gakuin-japanese-school
+lang: en
+layout: school
+location:
+  lat: 34.6536574
+  lng: 133.9302368
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=393
+stats: {}
+tags:
+- Comprehensive University Preparation (EJU, STEM, Art/Design)
+- Dedicated Job Hunting and Business Japanese Track
+- Extensive Personal and Academic Counseling Support
+- On-Campus Dormitory Facilities with Single Room Options
+- Focus on Japanese Culture and Regional Immersion
+- Scholarship Opportunities Available
+- Flexible Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Okayama Gaigo Gakuin (Okayama Foreign Language Institute)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

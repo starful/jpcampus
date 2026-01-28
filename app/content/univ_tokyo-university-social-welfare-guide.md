@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-university-social-welfare-guide",
-  "title": "Tokyo University of Social Welfare",
-  "category": "university",
-  "tags": [
-    "Specialized focus on social welfare, psychology, and education",
-    "Strong emphasis on practical training and professional certification pathways",
-    "Multiple urban campuses (Ikebukuro, Oji, Nagoya, Isesaki)",
-    "EJU Recommended for General Admissions",
-    "Primarily Japanese Medium Instruction"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京福祉大学",
-    "name_en": "Tokyo University of Social Welfare",
-    "address": "3-39-22 Higashi-Ikebukuro, Toshima-ku, Tokyo 170-8432, Japan (Ikebukuro Main Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 1200,
-    "acceptance_rate": "45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 230000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Social Welfare",
-    "Faculty of Child Development and Education",
-    "Faculty of Psychology",
-    "Faculty of Education",
-    "Faculty of Business Management"
-  ],
-  "features": [
-    "Specialized focus on social welfare, psychology, and education",
-    "Strong emphasis on practical training and professional certification pathways",
-    "Multiple urban campuses (Ikebukuro, Oji, Nagoya, Isesaki)",
-    "EJU Recommended for General Admissions",
-    "Primarily Japanese Medium Instruction"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 3-39-22 Higashi-Ikebukuro, Toshima-ku, Tokyo 170-8432, Japan (Ikebukuro
+    Main Campus)
+  capacity: null
+  name_en: Tokyo University of Social Welfare
+  name_ja: 東京福祉大学
+category: university
+faculties:
+- Faculty of Social Welfare
+- Faculty of Child Development and Education
+- Faculty of Psychology
+- Faculty of Education
+- Faculty of Business Management
+features:
+- Specialized focus on social welfare, psychology, and education
+- Strong emphasis on practical training and professional certification pathways
+- Multiple urban campuses (Ikebukuro, Oji, Nagoya, Isesaki)
+- EJU Recommended for General Admissions
+- Primarily Japanese Medium Instruction
+id: univ_tokyo-university-social-welfare-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45% (Estimated)
+  international_students: 1200
+tags:
+- Specialized focus on social welfare, psychology, and education
+- Strong emphasis on practical training and professional certification pathways
+- Multiple urban campuses (Ikebukuro, Oji, Nagoya, Isesaki)
+- EJU Recommended for General Admissions
+- Primarily Japanese Medium Instruction
+thumbnail: /static/img/pin-univ.png
+title: Tokyo University of Social Welfare
+translated: true
+tuition:
+  admission_fee: 230000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

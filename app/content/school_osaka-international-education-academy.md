@@ -1,58 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_osaka-international-education-academy",
-  "title": "Osaka International Education Academy",
-  "category": "school",
-  "tags": [
-    "Strong University Progression Focus (EJU)",
-    "On-Campus or Affiliated Dormitory Options",
-    "Scholarship Programs Available",
-    "Offers Short-term Courses",
-    "Relatively Small Class Capacity (240 students)",
-    "Located in Osaka, with excellent transport links"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6812538,
-    "lng": 135.4679997
-  },
-  "basic_info": {
-    "name_ja": "大阪国際教育学院",
-    "address": "大阪府大阪市此花区西九条1-29-2",
-    "capacity": 240,
-    "name_en": "Osaka International Education Academy"
-  },
-  "stats": {
-    "international_students": 200,
-    "capacity": 240
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Strong University Progression Focus (EJU)",
-    "On-Campus or Affiliated Dormitory Options",
-    "Scholarship Programs Available",
-    "Offers Short-term Courses",
-    "Relatively Small Class Capacity (240 students)",
-    "Located in Osaka, with excellent transport links"
-  ],
-  "courses": [
-    {
-      "course_name": "一般1年コース",
-      "admission_month": "7,10,1",
-      "total_fees": 790000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4,10",
-      "total_fees": 1470000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=323",
-  "translated": true,
-  "description": "Osaka International Education Academy is a Japanese language school located in Osaka, offering strong university progression focus, dormitory options, and scholarships."
-}
+basic_info:
+  address: 大阪府大阪市此花区西九条1-29-2
+  capacity: 240
+  name_en: Osaka International Education Academy
+  name_ja: 大阪国際教育学院
+category: school
+courses:
+- admission_month: 7,10,1
+  course_name: 一般1年コース
+  total_fees: 790000
+- admission_month: 4,10
+  course_name: 一般2年コース
+  total_fees: 1470000
+description: Osaka International Education Academy is a Japanese language school located
+  in Osaka, offering strong university progression focus, dormitory options, and scholarships.
+faculties: []
+features:
+- Strong University Progression Focus (EJU)
+- On-Campus or Affiliated Dormitory Options
+- Scholarship Programs Available
+- Offers Short-term Courses
+- Relatively Small Class Capacity (240 students)
+- Located in Osaka, with excellent transport links
+id: school_osaka-international-education-academy
+lang: en
+layout: school
+location:
+  lat: 34.6812538
+  lng: 135.4679997
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=323
+stats:
+  capacity: 240
+  international_students: 200
+tags:
+- Strong University Progression Focus (EJU)
+- On-Campus or Affiliated Dormitory Options
+- Scholarship Programs Available
+- Offers Short-term Courses
+- Relatively Small Class Capacity (240 students)
+- Located in Osaka, with excellent transport links
+thumbnail: /static/img/pin-school.png
+title: Osaka International Education Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

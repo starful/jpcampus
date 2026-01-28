@@ -1,119 +1,87 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都世田谷区経堂5-38-20 CSSビル3階",
-    "capacity": 172,
-    "name_en": "Aoyama School of Japanese Language",
-    "name_ja": "青山スクールオブジャパニーズ",
-    "category": "school",
-    "courses": [
-      {
-        "admission_month": "4",
-        "course_name": "進学2年コース",
-        "total_fees": 1518400
-      },
-      {
-        "admission_month": "7",
-        "course_name": "進学1年9ヵ月コース",
-        "total_fees": 1335475
-      },
-      {
-        "admission_month": "10",
-        "course_name": "進学1年6ヵ月コース",
-        "total_fees": 1152550
-      },
-      {
-        "admission_month": "1",
-        "course_name": "進学1年3ヵ月コース",
-        "total_fees": 969625
-      },
-      {
-        "admission_month": "4",
-        "course_name": "進学1年コース",
-        "total_fees": 786700
-      }
-    ],
-    "faculties": [],
-    "features": [
-      "University Preparation",
-      "Dormitory",
-      "EJU"
-    ],
-    "id": "school_aoyama-school-of-japanese",
-    "layout": "school",
-    "location": {
-      "lat": 35.6490694,
-      "lng": 139.6304422
-    },
-    "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=178",
-    "stats": {
-      "capacity": 172,
-      "international_students": 0
-    },
-    "tags": [
-      "進学",
-      "기숙사",
-      "EJU"
-    ],
-    "thumbnail": "/static/img/pin-school.png",
-    "title": "Aoyama School of Japanese Language",
-    "tuition": {}
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1518400
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヵ月コース",
-      "total_fees": 1335475
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 1152550
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヵ月コース",
-      "total_fees": 969625
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 786700
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "Dormitory",
-    "EJU"
-  ],
-  "id": "school_aoyama-school-of-japanese",
-  "layout": "school",
-  "location": {
-    "lat": 35.6490694,
-    "lng": 139.6304422
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=178",
-  "stats": {
-    "capacity": 172,
-    "international_students": 0
-  },
-  "tags": [
-    "進学",
-    "기숙사",
-    "EJU"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Aoyama School of Japanese Language",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 東京都世田谷区経堂5-38-20 CSSビル3階
+  capacity: 172
+  category: school
+  courses:
+  - admission_month: '4'
+    course_name: 進学2年コース
+    total_fees: 1518400
+  - admission_month: '7'
+    course_name: 進学1年9ヵ月コース
+    total_fees: 1335475
+  - admission_month: '10'
+    course_name: 進学1年6ヵ月コース
+    total_fees: 1152550
+  - admission_month: '1'
+    course_name: 進学1年3ヵ月コース
+    total_fees: 969625
+  - admission_month: '4'
+    course_name: 進学1年コース
+    total_fees: 786700
+  faculties: []
+  features:
+  - University Preparation
+  - Dormitory
+  - EJU
+  id: school_aoyama-school-of-japanese
+  layout: school
+  location:
+    lat: 35.6490694
+    lng: 139.6304422
+  name_en: Aoyama School of Japanese Language
+  name_ja: 青山スクールオブジャパニーズ
+  source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=178
+  stats:
+    capacity: 172
+    international_students: 0
+  tags:
+  - 進学
+  - 기숙사
+  - EJU
+  thumbnail: /static/img/pin-school.png
+  title: Aoyama School of Japanese Language
+  tuition: {}
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1518400
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1335475
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1152550
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 969625
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 786700
+faculties: []
+features:
+- University Preparation
+- Dormitory
+- EJU
+id: school_aoyama-school-of-japanese
+lang: en
+layout: school
+location:
+  lat: 35.6490694
+  lng: 139.6304422
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=178
+stats:
+  capacity: 172
+  international_students: 0
+tags:
+- 進学
+- 기숙사
+- EJU
+thumbnail: /static/img/pin-school.png
+title: Aoyama School of Japanese Language
+translated: true
+tuition: {}
 ---
 
 ## School Overview

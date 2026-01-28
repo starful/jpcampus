@@ -1,67 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kokusai-academy-japanese-language-institute",
-  "title": "Kokusai Academy Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "University Admission Focus",
-    "EJU Preparation",
-    "Dormitory Provided",
-    "Short-term Study Options",
-    "Business Japanese",
-    "Prime Tokyo Location (Ikebukuro)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7348296,
-    "lng": 139.7057883
-  },
-  "basic_info": {
-    "name_ja": "国際アカデミー日本語学院",
-    "address": "東京都豊島区池袋3-28-1",
-    "capacity": 180,
-    "name_en": "Kokusai Academy Japanese Language Institute"
-  },
-  "stats": {
-    "international_students": 165,
-    "capacity": 180
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Admission Focus",
-    "EJU Preparation",
-    "Dormitory Provided",
-    "Short-term Study Options",
-    "Business Japanese",
-    "Prime Tokyo Location (Ikebukuro)"
-  ],
-  "courses": [
-    {
-      "course_name": "Advanced Studies 2-Year Course",
-      "admission_month": "4",
-      "total_fees": 1323840
-    },
-    {
-      "course_name": "Advanced Studies 1 Year 9-Month Course",
-      "admission_month": "7",
-      "total_fees": 1171560
-    },
-    {
-      "course_name": "Advanced Studies 1 Year 6-Month Course",
-      "admission_month": "10",
-      "total_fees": 1014280
-    },
-    {
-      "course_name": "Advanced Studies 1 Year 3-Month Course",
-      "admission_month": "1",
-      "total_fees": 862000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=197",
-  "translated": true
-}
+basic_info:
+  address: 東京都豊島区池袋3-28-1
+  capacity: 180
+  name_en: Kokusai Academy Japanese Language Institute
+  name_ja: 国際アカデミー日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: Advanced Studies 2-Year Course
+  total_fees: 1323840
+- admission_month: '7'
+  course_name: Advanced Studies 1 Year 9-Month Course
+  total_fees: 1171560
+- admission_month: '10'
+  course_name: Advanced Studies 1 Year 6-Month Course
+  total_fees: 1014280
+- admission_month: '1'
+  course_name: Advanced Studies 1 Year 3-Month Course
+  total_fees: 862000
+faculties: []
+features:
+- University Admission Focus
+- EJU Preparation
+- Dormitory Provided
+- Short-term Study Options
+- Business Japanese
+- Prime Tokyo Location (Ikebukuro)
+id: school_kokusai-academy-japanese-language-institute
+lang: en
+layout: school
+location:
+  lat: 35.7348296
+  lng: 139.7057883
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=197
+stats:
+  capacity: 180
+  international_students: 165
+tags:
+- University Admission Focus
+- EJU Preparation
+- Dormitory Provided
+- Short-term Study Options
+- Business Japanese
+- Prime Tokyo Location (Ikebukuro)
+thumbnail: /static/img/pin-school.png
+title: Kokusai Academy Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,51 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "school_sakura-chiba-japanese-language-school-abiko",
-  "title": "Sakura Chiba Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Highly specialized University Preparation (EJU, STEM, Art/Design)",
-    "Strong emphasis on practical conversational fluency (Kaiwa)",
-    "Comprehensive accommodation support with single room options available",
-    "Business Japanese and Short-Term study options",
-    "Scholarship programs for high-achieving students"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.8741826,
-    "lng": 140.0456221
-  },
-  "basic_info": {
-    "name_ja": "さくら千葉日本語学校",
-    "address": "千葉県我孫子市柴崎台4-4-14",
-    "capacity": 192,
-    "name_en": "Sakura Chiba Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Highly specialized University Preparation (EJU, STEM, Art/Design)",
-    "Strong emphasis on practical conversational fluency (Kaiwa)",
-    "Comprehensive accommodation support with single room options available",
-    "Business Japanese and Short-Term study options",
-    "Scholarship programs for high-achieving students"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1729400
-    },
-    {
-      "course_name": "進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1316300
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=607"
-}
+basic_info:
+  address: 千葉県我孫子市柴崎台4-4-14
+  capacity: 192
+  name_en: Sakura Chiba Japanese Language School
+  name_ja: さくら千葉日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1729400
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1316300
+faculties: []
+features:
+- Highly specialized University Preparation (EJU, STEM, Art/Design)
+- Strong emphasis on practical conversational fluency (Kaiwa)
+- Comprehensive accommodation support with single room options available
+- Business Japanese and Short-Term study options
+- Scholarship programs for high-achieving students
+id: school_sakura-chiba-japanese-language-school-abiko
+lang: en
+layout: school
+location:
+  lat: 35.8741826
+  lng: 140.0456221
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=607
+stats: {}
+tags:
+- Highly specialized University Preparation (EJU, STEM, Art/Design)
+- Strong emphasis on practical conversational fluency (Kaiwa)
+- Comprehensive accommodation support with single room options available
+- Business Japanese and Short-Term study options
+- Scholarship programs for high-achieving students
+thumbnail: /static/img/pin-school.png
+title: Sakura Chiba Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

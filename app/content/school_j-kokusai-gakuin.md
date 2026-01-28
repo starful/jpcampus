@@ -1,75 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市西区立売堀1-1-3",
-    "capacity": 560,
-    "name_en": "J International Academy",
-    "name_ja": "J国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 800000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 980000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1160000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1340000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1520000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般1年コース",
-      "total_fees": 800000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU",
-    "University Preparation",
-    "Conversation Focused",
-    "Short Term Courses",
-    "Science Focused"
-  ],
-  "id": "school_j-kokusai-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 34.6801975,
-    "lng": 135.4975075
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=325",
-  "stats": {},
-  "tags": [
-    "Dormitory",
-    "EJU",
-    "University Preparation",
-    "Conversation Focused",
-    "Short Term Courses",
-    "Science Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "J International Academy",
-  "tuition": {},
-  "description": "J International Academy, located in Osaka, offers various Japanese language courses, including university preparation and general courses. Features include dormitory accommodation and a focus on EJU preparation.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市西区立売堀1-1-3
+  capacity: 560
+  name_en: J International Academy
+  name_ja: J国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 800000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 980000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1160000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1340000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1520000
+- admission_month: 4,7,10,1
+  course_name: 一般1年コース
+  total_fees: 800000
+description: J International Academy, located in Osaka, offers various Japanese language
+  courses, including university preparation and general courses. Features include
+  dormitory accommodation and a focus on EJU preparation.
+faculties: []
+features:
+- Dormitory
+- EJU
+- University Preparation
+- Conversation Focused
+- Short Term Courses
+- Science Focused
+id: school_j-kokusai-gakuin
+lang: en
+layout: school
+location:
+  lat: 34.6801975
+  lng: 135.4975075
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=325
+stats: {}
+tags:
+- Dormitory
+- EJU
+- University Preparation
+- Conversation Focused
+- Short Term Courses
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: J International Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview

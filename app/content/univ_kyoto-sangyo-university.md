@@ -1,55 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-sangyo-university",
-  "title": "Kyoto Sangyo University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English-Taught Courses",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都産業大学",
-    "name_en": "Kyoto Sangyo University",
-    "address": "〒603-8555 京都府京都市北区上賀茂本山",
-    "website": "https://www.kyoto-su.ac.jp/"
-  },
-  "stats": {
-    "international_students": 369,
-    "acceptance_rate": "Competitive, varies by faculty and entrance exam type"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1020000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Contemporary Sociology",
-    "Faculty of International Relations",
-    "Faculty of Cultural Studies",
-    "Faculty of Foreign Studies",
-    "Faculty of Science",
-    "Faculty of Computer Science and Engineering",
-    "Faculty of Life Sciences",
-    "Faculty of Architecture"
-  ],
-  "features": [
-    "EJU Required",
-    "English-Taught Courses",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒603-8555 京都府京都市北区上賀茂本山
+  name_en: Kyoto Sangyo University
+  name_ja: 京都産業大学
+  website: https://www.kyoto-su.ac.jp/
+category: university
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Contemporary Sociology
+- Faculty of International Relations
+- Faculty of Cultural Studies
+- Faculty of Foreign Studies
+- Faculty of Science
+- Faculty of Computer Science and Engineering
+- Faculty of Life Sciences
+- Faculty of Architecture
+features:
+- EJU Required
+- English-Taught Courses
+- Dormitory
+- Scholarship
+id: univ_kyoto-sangyo-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive, varies by faculty and entrance exam type
+  international_students: 369
+tags:
+- EJU Required
+- English-Taught Courses
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Kyoto Sangyo University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1020000
 ---
 
 ## University Overview

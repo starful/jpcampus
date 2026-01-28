@@ -1,73 +1,60 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kyoto-min-sai-japanese-language-school",
-  "title": "Kyoto Min-Sai Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Dedicated Dormitory/Accommodation Support",
-    "High-level EJU (Examination for Japanese University Admission for International Students) Preparation",
-    "Specialized Science Track Support (Rika)",
-    "Intensive University and Graduate School Progression Counseling",
-    "Focus on Practical Conversational Fluency",
-    "Flexible Short-Term and General Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.9990854,
-    "lng": 135.7164451
-  },
-  "basic_info": {
-    "name_ja": "京都民際日本語学校",
-    "address": "京都府京都市右京区西京極北大入町69",
-    "capacity": 542,
-    "name_en": "Kyoto Min-Sai Japanese Language School"
-  },
-  "stats": {
-    "international_students": 450,
-    "capacity": 542
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Dormitory/Accommodation Support",
-    "High-level EJU (Examination for Japanese University Admission for International Students) Preparation",
-    "Specialized Science Track Support (Rika)",
-    "Intensive University and Graduate School Progression Counseling",
-    "Focus on Practical Conversational Fluency",
-    "Flexible Short-Term and General Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コース Ⅳ",
-      "admission_month": "1",
-      "total_fees": 1052775
-    },
-    {
-      "course_name": "進学コース Ⅲ",
-      "admission_month": "10",
-      "total_fees": 1430525
-    },
-    {
-      "course_name": "進学コース Ⅱ",
-      "admission_month": "7",
-      "total_fees": 1430525
-    },
-    {
-      "course_name": "進学コース Ⅰ",
-      "admission_month": "4",
-      "total_fees": 1619200
-    },
-    {
-      "course_name": "一般コース Ⅰ・Ⅱ・Ⅲ・Ⅳ",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1619200
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=317",
-  "description": "Kyoto Min-Sai Japanese Language School offers comprehensive Japanese language education with a focus on university preparation, including specialized tracks for EJU and practical conversation skills.",
-  "translated": true
-}
+basic_info:
+  address: 京都府京都市右京区西京極北大入町69
+  capacity: 542
+  name_en: Kyoto Min-Sai Japanese Language School
+  name_ja: 京都民際日本語学校
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学コース Ⅳ
+  total_fees: 1052775
+- admission_month: '10'
+  course_name: 進学コース Ⅲ
+  total_fees: 1430525
+- admission_month: '7'
+  course_name: 進学コース Ⅱ
+  total_fees: 1430525
+- admission_month: '4'
+  course_name: 進学コース Ⅰ
+  total_fees: 1619200
+- admission_month: 4,7,10,1
+  course_name: 一般コース Ⅰ・Ⅱ・Ⅲ・Ⅳ
+  total_fees: 1619200
+description: Kyoto Min-Sai Japanese Language School offers comprehensive Japanese
+  language education with a focus on university preparation, including specialized
+  tracks for EJU and practical conversation skills.
+faculties: []
+features:
+- Dedicated Dormitory/Accommodation Support
+- High-level EJU (Examination for Japanese University Admission for International
+  Students) Preparation
+- Specialized Science Track Support (Rika)
+- Intensive University and Graduate School Progression Counseling
+- Focus on Practical Conversational Fluency
+- Flexible Short-Term and General Study Options
+id: school_kyoto-min-sai-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 34.9990854
+  lng: 135.7164451
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=317
+stats:
+  capacity: 542
+  international_students: 450
+tags:
+- Dedicated Dormitory/Accommodation Support
+- High-level EJU (Examination for Japanese University Admission for International
+  Students) Preparation
+- Specialized Science Track Support (Rika)
+- Intensive University and Graduate School Progression Counseling
+- Focus on Practical Conversational Fluency
+- Flexible Short-Term and General Study Options
+thumbnail: /static/img/pin-school.png
+title: Kyoto Min-Sai Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

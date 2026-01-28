@@ -1,57 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toyo-university",
-  "title": "Toyo University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.7233128,
-    "lng": 139.7500289
-  },
-  "basic_info": {
-    "name_ja": "東洋大学",
-    "name_en": "Toyo University",
-    "address": "〒112-8606 東京都文京区白山5-28-20",
-    "website": "https://www.toyo.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1700,
-    "acceptance_rate": "40%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Sociology",
-    "Faculty of Science and Engineering",
-    "Faculty of Life Sciences",
-    "Faculty of Human Life Design",
-    "Faculty of Information Networking for Innovation",
-    "Faculty of Global and Regional Studies",
-    "Faculty of Design for Well-being"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒112-8606 東京都文京区白山5-28-20
+  name_en: Toyo University
+  name_ja: 東洋大学
+  website: https://www.toyo.ac.jp/
+category: university
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Sociology
+- Faculty of Science and Engineering
+- Faculty of Life Sciences
+- Faculty of Human Life Design
+- Faculty of Information Networking for Innovation
+- Faculty of Global and Regional Studies
+- Faculty of Design for Well-being
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_toyo-university
+lang: en
+layout: school
+location:
+  lat: 35.7233128
+  lng: 139.7500289
+stats:
+  acceptance_rate: 40%
+  international_students: 1700
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Toyo University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview

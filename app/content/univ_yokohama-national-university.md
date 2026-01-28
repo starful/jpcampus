@@ -1,48 +1,42 @@
 ---
-{
-  "basic_info": {
-    "address": "〒240-8501 神奈川県横浜市保土ケ谷区常盤台79-1",
-    "name_en": "Yokohama National University",
-    "name_ja": "横浜国立大学",
-    "website": "https://www.ynu.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Engineering Science",
-    "Faculty of Urban Sciences"
-  ],
-  "features": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_yokohama-national-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 900
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Yokohama National University",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 817800
-  },
-  "description": "Explore Yokohama National University, a top-ranked Japanese university offering diverse programs in English, dormitories, and scholarships. Learn about its faculties, international student life, and more.",
-  "translated": true
-}
+basic_info:
+  address: 〒240-8501 神奈川県横浜市保土ケ谷区常盤台79-1
+  name_en: Yokohama National University
+  name_ja: 横浜国立大学
+  website: https://www.ynu.ac.jp/
+category: university
+description: Explore Yokohama National University, a top-ranked Japanese university
+  offering diverse programs in English, dormitories, and scholarships. Learn about
+  its faculties, international student life, and more.
+faculties:
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Engineering Science
+- Faculty of Urban Sciences
+features:
+- English Program
+- Dormitory
+- Scholarship
+id: univ_yokohama-national-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30%
+  international_students: 900
+tags:
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Yokohama National University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 817800
 ---
 
 ## 🏫 University Overview & Reputation

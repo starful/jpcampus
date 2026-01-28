@@ -1,72 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区北新宿4-1-1 第三山廣ビル",
-    "capacity": 700,
-    "name_en": "Mitsumine Career Academy Japanese Language Course",
-    "name_ja": "ミツミネキャリアアカデミー 日本語コース"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1420000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヵ月コース",
-      "total_fees": 1259500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 1096000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヵ月コース",
-      "total_fees": 931000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 760000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1420000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Support",
-    "Dormitory Available"
-  ],
-  "id": "school_mitsumine-career-academy-japanese-course",
-  "layout": "school",
-  "location": {
-    "lat": 35.7042413,
-    "lng": 139.6944427
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=130",
-  "stats": {
-    "capacity": 700,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Support",
-    "Dormitory Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Mitsumine Career Academy Japanese Language Course",
-  "tuition": {},
-  "description": "Located in Tokyo's Shinjuku district, Mitsumine Career Academy Japanese Language Course offers comprehensive Japanese language education with a focus on university preparation and career advancement. They offer various courses suitable for different levels and goals.",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区北新宿4-1-1 第三山廣ビル
+  capacity: 700
+  name_en: Mitsumine Career Academy Japanese Language Course
+  name_ja: ミツミネキャリアアカデミー 日本語コース
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1420000
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1259500
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1096000
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 931000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 760000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1420000
+description: Located in Tokyo's Shinjuku district, Mitsumine Career Academy Japanese
+  Language Course offers comprehensive Japanese language education with a focus on
+  university preparation and career advancement. They offer various courses suitable
+  for different levels and goals.
+faculties: []
+features:
+- University Preparation
+- EJU Support
+- Dormitory Available
+id: school_mitsumine-career-academy-japanese-course
+lang: en
+layout: school
+location:
+  lat: 35.7042413
+  lng: 139.6944427
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=130
+stats:
+  capacity: 700
+  international_students: 0
+tags:
+- University Preparation
+- EJU Support
+- Dormitory Available
+thumbnail: /static/img/pin-school.png
+title: Mitsumine Career Academy Japanese Language Course
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

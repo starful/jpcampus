@@ -1,57 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_yokkaichi-japanese-language-school-mie",
-  "title": "Yokkaichi Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Specialized University and Graduate School Progression",
-    "Dedicated EJU and JLPT Preparation Courses",
-    "Comprehensive On-site Dormitory Facilities (Single Rooms Available)",
-    "Specific Academic Tracks (Science, Liberal Arts, Art & Design)",
-    "Focus on Conversational Fluency and Practical Business Japanese",
-    "Generous Scholarship Opportunities",
-    "Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.9702415,
-    "lng": 136.6199148
-  },
-  "basic_info": {
-    "name_ja": "四日市日本語学校",
-    "address": "三重県四日市市西新地13-13",
-    "capacity": 180,
-    "name_en": "Yokkaichi Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized University and Graduate School Progression",
-    "Dedicated EJU and JLPT Preparation Courses",
-    "Comprehensive On-site Dormitory Facilities (Single Rooms Available)",
-    "Specific Academic Tracks (Science, Liberal Arts, Art & Design)",
-    "Focus on Conversational Fluency and Practical Business Japanese",
-    "Generous Scholarship Opportunities",
-    "Short-Term Study Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "進学Ⅱコース",
-      "admission_month": "4",
-      "total_fees": 1355000
-    },
-    {
-      "course_name": "進学Ⅰコース",
-      "admission_month": "10",
-      "total_fees": 1045000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=307",
-  "description": "Yokkaichi Japanese Language School offers specialized university preparation in a focused academic environment with comprehensive support and unique regional advantages.",
-  "translated": true
-}
+basic_info:
+  address: 三重県四日市市西新地13-13
+  capacity: 180
+  name_en: Yokkaichi Japanese Language School
+  name_ja: 四日市日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学Ⅱコース
+  total_fees: 1355000
+- admission_month: '10'
+  course_name: 進学Ⅰコース
+  total_fees: 1045000
+description: Yokkaichi Japanese Language School offers specialized university preparation
+  in a focused academic environment with comprehensive support and unique regional
+  advantages.
+faculties: []
+features:
+- Specialized University and Graduate School Progression
+- Dedicated EJU and JLPT Preparation Courses
+- Comprehensive On-site Dormitory Facilities (Single Rooms Available)
+- Specific Academic Tracks (Science, Liberal Arts, Art & Design)
+- Focus on Conversational Fluency and Practical Business Japanese
+- Generous Scholarship Opportunities
+- Short-Term Study Programs
+id: school_yokkaichi-japanese-language-school-mie
+lang: en
+layout: school
+location:
+  lat: 34.9702415
+  lng: 136.6199148
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=307
+stats: {}
+tags:
+- Specialized University and Graduate School Progression
+- Dedicated EJU and JLPT Preparation Courses
+- Comprehensive On-site Dormitory Facilities (Single Rooms Available)
+- Specific Academic Tracks (Science, Liberal Arts, Art & Design)
+- Focus on Conversational Fluency and Practical Business Japanese
+- Generous Scholarship Opportunities
+- Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: Yokkaichi Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "school_it-college-okinawa-japanese-program",
-  "title": "Fuji Gakuen IT College Okinawa (Japanese Language Division)",
-  "category": "school",
-  "tags": [
-    "Integrated Dormitory Facilities",
-    "EJU Preparation and Higher Education Guidance",
-    "Specialized Japanese Business Curriculum",
-    "Pathway to Vocational IT Studies",
-    "Focus on Practical Conversation Skills"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 26.2106907,
-    "lng": 127.68611
-  },
-  "basic_info": {
-    "name_ja": "学校法人フジ学園専門学校ITカレッジ沖縄",
-    "address": "沖縄県那覇市樋川1-1-77",
-    "capacity": 60,
-    "name_en": "Fuji Gakuen IT College Okinawa (Japanese Language Division)"
-  },
-  "stats": {
-    "international_students": 55,
-    "capacity": 60
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Integrated Dormitory Facilities",
-    "EJU Preparation and Higher Education Guidance",
-    "Specialized Japanese Business Curriculum",
-    "Pathway to Vocational IT Studies",
-    "Focus on Practical Conversation Skills"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語ビジネスコース",
-      "admission_month": "4",
-      "total_fees": 1585000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=599",
-  "description": "Fuji Gakuen IT College Okinawa offers a specialized Japanese language program focused on business and IT, providing a pathway to vocational studies and careers in Japan.",
-  "translated": true
-}
+basic_info:
+  address: 沖縄県那覇市樋川1-1-77
+  capacity: 60
+  name_en: Fuji Gakuen IT College Okinawa (Japanese Language Division)
+  name_ja: 学校法人フジ学園専門学校ITカレッジ沖縄
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語ビジネスコース
+  total_fees: 1585000
+description: Fuji Gakuen IT College Okinawa offers a specialized Japanese language
+  program focused on business and IT, providing a pathway to vocational studies and
+  careers in Japan.
+faculties: []
+features:
+- Integrated Dormitory Facilities
+- EJU Preparation and Higher Education Guidance
+- Specialized Japanese Business Curriculum
+- Pathway to Vocational IT Studies
+- Focus on Practical Conversation Skills
+id: school_it-college-okinawa-japanese-program
+lang: en
+layout: school
+location:
+  lat: 26.2106907
+  lng: 127.68611
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=599
+stats:
+  capacity: 60
+  international_students: 55
+tags:
+- Integrated Dormitory Facilities
+- EJU Preparation and Higher Education Guidance
+- Specialized Japanese Business Curriculum
+- Pathway to Vocational IT Studies
+- Focus on Practical Conversation Skills
+thumbnail: /static/img/pin-school.png
+title: Fuji Gakuen IT College Okinawa (Japanese Language Division)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

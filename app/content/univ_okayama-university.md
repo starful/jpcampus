@@ -1,58 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okayama-university",
-  "title": "Okayama University",
-  "category": "university",
-  "tags": [
-    "National University",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡山大学",
-    "name_en": "Okayama University",
-    "address": "3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan",
-    "website": "https://www.okayama-u.ac.jp/index_e.html"
-  },
-  "stats": {
-    "international_students": 847,
-    "acceptance_rate": "Varies by Faculty (approximately 20-40%)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Discovery Program for Global Learners"
-  ],
-  "features": [
-    "National University",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "description": "Okayama University is a prominent national university in Japan, known for its comprehensive faculties, research focus, and commitment to global education. It offers several English-taught programs and extensive support for international students.",
-  "translated": true
-}
+basic_info:
+  address: 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan
+  name_en: Okayama University
+  name_ja: 岡山大学
+  website: https://www.okayama-u.ac.jp/index_e.html
+category: university
+description: Okayama University is a prominent national university in Japan, known
+  for its comprehensive faculties, research focus, and commitment to global education.
+  It offers several English-taught programs and extensive support for international
+  students.
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+- Discovery Program for Global Learners
+features:
+- National University
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_okayama-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Varies by Faculty (approximately 20-40%)
+  international_students: 847
+tags:
+- National University
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Okayama University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

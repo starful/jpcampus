@@ -1,56 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "〒150-8366 東京都渋谷区渋谷4-4-25",
-    "name_en": "Aoyama Gakuin University",
-    "name_ja": "青山学院大学",
-    "website": "https://www.aoyama.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Letters",
-    "School of Education",
-    "School of Economics",
-    "School of Law",
-    "School of Business",
-    "School of International Politics, Economics and Communication",
-    "School of Science and Engineering",
-    "School of Social Informatics",
-    "School of Global Studies and Collaboration",
-    "School of Cultural and Creative Studies"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_aoyama-gakuin-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6606966,
-    "lng": 139.7103651
-  },
-  "stats": {
-    "acceptance_rate": "15%",
-    "international_students": 800
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Aoyama Gakuin University",
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "translated": true
-}
+basic_info:
+  address: 〒150-8366 東京都渋谷区渋谷4-4-25
+  name_en: Aoyama Gakuin University
+  name_ja: 青山学院大学
+  website: https://www.aoyama.ac.jp/
+category: university
+faculties:
+- School of Letters
+- School of Education
+- School of Economics
+- School of Law
+- School of Business
+- School of International Politics, Economics and Communication
+- School of Science and Engineering
+- School of Social Informatics
+- School of Global Studies and Collaboration
+- School of Cultural and Creative Studies
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_aoyama-gakuin-university
+lang: en
+layout: school
+location:
+  lat: 35.6606966
+  lng: 139.7103651
+stats:
+  acceptance_rate: 15%
+  international_students: 800
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Aoyama Gakuin University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview & Reputation

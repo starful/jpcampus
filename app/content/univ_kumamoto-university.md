@@ -1,56 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kumamoto-university",
-  "title": "Kumamoto University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "熊本大学",
-    "name_en": "Kumamoto University",
-    "address": "〒860-8555 熊本県熊本市中央区黒髪2丁目40番1号",
-    "website": "https://www.kumamoto-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 465,
-    "acceptance_rate": "30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Pharmacy",
-    "Faculty of Engineering",
-    "Graduate School of Social and Cultural Sciences",
-    "Graduate School of Science and Technology",
-    "Graduate School of Health Sciences",
-    "Graduate School of Medical Sciences"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "description": "Kumamoto University is a well-respected national university in Japan, known for its strong research programs in engineering, medicine, and pharmaceutical sciences. It offers a welcoming environment for international students with various support services and scholarship opportunities.",
-  "translated": true
-}
+basic_info:
+  address: 〒860-8555 熊本県熊本市中央区黒髪2丁目40番1号
+  name_en: Kumamoto University
+  name_ja: 熊本大学
+  website: https://www.kumamoto-u.ac.jp/
+category: university
+description: Kumamoto University is a well-respected national university in Japan,
+  known for its strong research programs in engineering, medicine, and pharmaceutical
+  sciences. It offers a welcoming environment for international students with various
+  support services and scholarship opportunities.
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Pharmacy
+- Faculty of Engineering
+- Graduate School of Social and Cultural Sciences
+- Graduate School of Science and Technology
+- Graduate School of Health Sciences
+- Graduate School of Medical Sciences
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_kumamoto-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30%
+  international_students: 465
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Kumamoto University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

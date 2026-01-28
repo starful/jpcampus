@@ -1,62 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_fujisan-japanese-language-school-shizuoka",
-  "title": "Fujisan Japanese Language School",
-  "category": "school",
-  "tags": [
-    "On-campus/Affiliated Dormitory Accommodation",
-    "Specialized EJU Preparation",
-    "Dedicated Higher Education Advancement Track",
-    "Strong Focus on Conversational Proficiency",
-    "Exclusive Science (Rika/Ika) Stream for STEM Applicants",
-    "Flexible Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.1489411,
-    "lng": 138.6553956
-  },
-  "basic_info": {
-    "name_ja": "富士山日本語学校",
-    "address": "静岡県富士市横割1-6-16",
-    "capacity": 160,
-    "name_en": "Fujisan Japanese Language School"
-  },
-  "stats": {
-    "international_students": 160,
-    "capacity": 160
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "On-campus/Affiliated Dormitory Accommodation",
-    "Specialized EJU Preparation",
-    "Dedicated Higher Education Advancement Track",
-    "Strong Focus on Conversational Proficiency",
-    "Exclusive Science (Rika/Ika) Stream for STEM Applicants",
-    "Flexible Short-Term Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "一般1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1070000
-    },
-    {
-      "course_name": "一般1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 930000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4",
-      "total_fees": 1210000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=498",
-  "translated": true
-}
+basic_info:
+  address: 静岡県富士市横割1-6-16
+  capacity: 160
+  name_en: Fujisan Japanese Language School
+  name_ja: 富士山日本語学校
+category: school
+courses:
+- admission_month: '7'
+  course_name: 一般1年9か月コース
+  total_fees: 1070000
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 930000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1210000
+faculties: []
+features:
+- On-campus/Affiliated Dormitory Accommodation
+- Specialized EJU Preparation
+- Dedicated Higher Education Advancement Track
+- Strong Focus on Conversational Proficiency
+- Exclusive Science (Rika/Ika) Stream for STEM Applicants
+- Flexible Short-Term Study Options
+id: school_fujisan-japanese-language-school-shizuoka
+lang: en
+layout: school
+location:
+  lat: 35.1489411
+  lng: 138.6553956
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=498
+stats:
+  capacity: 160
+  international_students: 160
+tags:
+- On-campus/Affiliated Dormitory Accommodation
+- Specialized EJU Preparation
+- Dedicated Higher Education Advancement Track
+- Strong Focus on Conversational Proficiency
+- Exclusive Science (Rika/Ika) Stream for STEM Applicants
+- Flexible Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Fujisan Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

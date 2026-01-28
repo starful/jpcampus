@@ -1,70 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "福岡県糟屋郡新宮町美咲2-17-12",
-    "capacity": 496,
-    "name_en": "Sakura Japanese Language Academy",
-    "name_ja": "さくら日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学Aコース",
-      "total_fees": 1510000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学Bコース",
-      "total_fees": 1345000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学Cコース",
-      "total_fees": 1180000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学Dコース",
-      "total_fees": 1015000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学Eコース",
-      "total_fees": 850000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Short-term Courses"
-  ],
-  "id": "school_sakura-japanese-language-academy-fukuoka",
-  "layout": "school",
-  "location": {
-    "lat": 33.7019817,
-    "lng": 130.4401957
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=438",
-  "stats": {
-    "capacity": 496,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Sakura Japanese Language Academy",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 福岡県糟屋郡新宮町美咲2-17-12
+  capacity: 496
+  name_en: Sakura Japanese Language Academy
+  name_ja: さくら日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学Aコース
+  total_fees: 1510000
+- admission_month: '7'
+  course_name: 進学Bコース
+  total_fees: 1345000
+- admission_month: '10'
+  course_name: 進学Cコース
+  total_fees: 1180000
+- admission_month: '1'
+  course_name: 進学Dコース
+  total_fees: 1015000
+- admission_month: '4'
+  course_name: 進学Eコース
+  total_fees: 850000
+faculties: []
+features:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Support
+- Conversation-focused Classes
+- Short-term Courses
+id: school_sakura-japanese-language-academy-fukuoka
+lang: en
+layout: school
+location:
+  lat: 33.7019817
+  lng: 130.4401957
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=438
+stats:
+  capacity: 496
+  international_students: 0
+tags:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Support
+- Conversation-focused Classes
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: Sakura Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,56 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chuo-university",
-  "title": "Chuo University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Career Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6421784,
-    "lng": 139.4045451
-  },
-  "basic_info": {
-    "name_ja": "中央大学",
-    "name_en": "Chuo University",
-    "address": "〒192-0393 東京都八王子市東中野742-1",
-    "website": "https://www.chuo-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1200,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1300000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Commerce",
-    "Faculty of Letters",
-    "Faculty of Science and Engineering",
-    "Faculty of Policy Studies",
-    "Faculty of Global Informatics",
-    "Faculty of Global Management",
-    "Faculty of International Management",
-    "Law School"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Career Support"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒192-0393 東京都八王子市東中野742-1
+  name_en: Chuo University
+  name_ja: 中央大学
+  website: https://www.chuo-u.ac.jp/
+category: university
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Commerce
+- Faculty of Letters
+- Faculty of Science and Engineering
+- Faculty of Policy Studies
+- Faculty of Global Informatics
+- Faculty of Global Management
+- Faculty of International Management
+- Law School
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Career Support
+id: univ_chuo-university
+lang: en
+layout: school
+location:
+  lat: 35.6421784
+  lng: 139.4045451
+stats:
+  acceptance_rate: 25%
+  international_students: 1200
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Career Support
+thumbnail: /static/img/pin-univ.png
+title: Chuo University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1300000
 ---
 
 ## University Overview

@@ -1,85 +1,66 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市平野区長吉長原西2-2-12",
-    "capacity": 244,
-    "name_en": "Osaka Japanese Language Academy",
-    "name_ja": "大阪日本語アカデミー"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1440000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1270000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1100000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 930000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 760000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般1年コース",
-      "total_fees": 760000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory Available",
-    "Single Rooms in Dorm",
-    "Scholarship Programs",
-    "EJU Preparation",
-    "Science Stream Support",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Business Japanese",
-    "Art & Design University Prep",
-    "Short-term Study Options"
-  ],
-  "id": "school_osaka-japanese-language-academy",
-  "layout": "school",
-  "location": {
-    "lat": 34.6060524,
-    "lng": 135.567036
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=495",
-  "stats": {
-    "capacity": 244,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "Single Rooms in Dorm",
-    "Scholarship Programs",
-    "EJU Preparation",
-    "Science Stream Support",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Business Japanese",
-    "Art & Design University Prep",
-    "Short-term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Osaka Japanese Language Academy",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市平野区長吉長原西2-2-12
+  capacity: 244
+  name_en: Osaka Japanese Language Academy
+  name_ja: 大阪日本語アカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1440000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1270000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1100000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 930000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 760000
+- admission_month: '4'
+  course_name: 一般1年コース
+  total_fees: 760000
+faculties: []
+features:
+- Dormitory Available
+- Single Rooms in Dorm
+- Scholarship Programs
+- EJU Preparation
+- Science Stream Support
+- University Advancement Support
+- Conversation-focused Classes
+- Business Japanese
+- Art & Design University Prep
+- Short-term Study Options
+id: school_osaka-japanese-language-academy
+lang: en
+layout: school
+location:
+  lat: 34.6060524
+  lng: 135.567036
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=495
+stats:
+  capacity: 244
+  international_students: 0
+tags:
+- Dormitory Available
+- Single Rooms in Dorm
+- Scholarship Programs
+- EJU Preparation
+- Science Stream Support
+- University Advancement Support
+- Conversation-focused Classes
+- Business Japanese
+- Art & Design University Prep
+- Short-term Study Options
+thumbnail: /static/img/pin-school.png
+title: Osaka Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

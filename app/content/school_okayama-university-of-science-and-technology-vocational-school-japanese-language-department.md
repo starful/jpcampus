@@ -1,56 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "岡山県岡山市北区昭和町8-10",
-    "capacity": 160,
-    "name_en": "Okayama Institute of Science and Technology Japanese Language Department",
-    "name_ja": "岡山科学技術専門学校日本語学科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1333000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1026000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Conversation Skills",
-    "Short-term Courses"
-  ],
-  "id": "school_okayama-university-of-science-and-technology-vocational-school-japanese-language-department",
-  "layout": "school",
-  "location": {
-    "lat": 34.6632034,
-    "lng": 133.9120432
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=391",
-  "stats": {
-    "capacity": 160,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Conversation Skills",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Okayama Institute of Science and Technology Japanese Language Department",
-  "tuition": {},
-  "description": "Located in Okayama, this school offers comprehensive Japanese language education with a focus on university preparation, dormitory accommodation, and EJU exam training.",
-  "translated": true
-}
+basic_info:
+  address: 岡山県岡山市北区昭和町8-10
+  capacity: 160
+  name_en: Okayama Institute of Science and Technology Japanese Language Department
+  name_ja: 岡山科学技術専門学校日本語学科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1333000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1026000
+description: Located in Okayama, this school offers comprehensive Japanese language
+  education with a focus on university preparation, dormitory accommodation, and EJU
+  exam training.
+faculties: []
+features:
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Conversation Skills
+- Short-term Courses
+id: school_okayama-university-of-science-and-technology-vocational-school-japanese-language-department
+lang: en
+layout: school
+location:
+  lat: 34.6632034
+  lng: 133.9120432
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=391
+stats:
+  capacity: 160
+  international_students: 0
+tags:
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Conversation Skills
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: Okayama Institute of Science and Technology Japanese Language Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

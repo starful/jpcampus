@@ -1,60 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_senmon-gakko-sakura-kokusai-gengo-gakuin-shimonoseki",
-  "title": "Sakura International Language Institute Professional Training College",
-  "category": "school",
-  "tags": [
-    "Located in Shimonoseki, offering lower living costs than major cities.",
-    "Comprehensive academic tracks specializing in EJU, Science (STEM), Art, and Design.",
-    "High-quality dormitory options including private single rooms.",
-    "Small-to-medium school capacity (200), ensuring personalized academic guidance.",
-    "Flexible course durations (1.5 to 2 years) catering to different entry terms."
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 33.9520242,
-    "lng": 130.9225263
-  },
-  "basic_info": {
-    "name_ja": "専門学校さくら国際言語学院",
-    "address": "山口県下関市竹崎町3-5-19",
-    "capacity": 200,
-    "name_en": "Sakura International Language Institute Professional Training College"
-  },
-  "stats": {
-    "international_students": 200,
-    "capacity": 200
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Located in Shimonoseki, offering lower living costs than major cities.",
-    "Comprehensive academic tracks specializing in EJU, Science (STEM), Art, and Design.",
-    "High-quality dormitory options including private single rooms.",
-    "Small-to-medium school capacity (200), ensuring personalized academic guidance.",
-    "Flexible course durations (1.5 to 2 years) catering to different entry terms."
-  ],
-  "courses": [
-    {
-      "course_name": "進学ｺｰｽA",
-      "admission_month": "4",
-      "total_fees": 1360000
-    },
-    {
-      "course_name": "進学ｺｰｽB",
-      "admission_month": "7",
-      "total_fees": 1197500
-    },
-    {
-      "course_name": "進学ｺｰｽC",
-      "admission_month": "10",
-      "total_fees": 1035000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=404",
-  "translated": true
-}
+basic_info:
+  address: 山口県下関市竹崎町3-5-19
+  capacity: 200
+  name_en: Sakura International Language Institute Professional Training College
+  name_ja: 専門学校さくら国際言語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学ｺｰｽA
+  total_fees: 1360000
+- admission_month: '7'
+  course_name: 進学ｺｰｽB
+  total_fees: 1197500
+- admission_month: '10'
+  course_name: 進学ｺｰｽC
+  total_fees: 1035000
+faculties: []
+features:
+- Located in Shimonoseki, offering lower living costs than major cities.
+- Comprehensive academic tracks specializing in EJU, Science (STEM), Art, and Design.
+- High-quality dormitory options including private single rooms.
+- Small-to-medium school capacity (200), ensuring personalized academic guidance.
+- Flexible course durations (1.5 to 2 years) catering to different entry terms.
+id: school_senmon-gakko-sakura-kokusai-gengo-gakuin-shimonoseki
+lang: en
+layout: school
+location:
+  lat: 33.9520242
+  lng: 130.9225263
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=404
+stats:
+  capacity: 200
+  international_students: 200
+tags:
+- Located in Shimonoseki, offering lower living costs than major cities.
+- Comprehensive academic tracks specializing in EJU, Science (STEM), Art, and Design.
+- High-quality dormitory options including private single rooms.
+- Small-to-medium school capacity (200), ensuring personalized academic guidance.
+- Flexible course durations (1.5 to 2 years) catering to different entry terms.
+thumbnail: /static/img/pin-school.png
+title: Sakura International Language Institute Professional Training College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

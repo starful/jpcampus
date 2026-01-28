@@ -1,56 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_intercultural-communication-center-okinawa",
-  "title": "Intercultural Communication Center Affiliated Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Located in the unique subtropical environment of Okinawa",
-    "Extremely small student capacity ensuring highly personalized education (Capacity: 48)",
-    "Dedicated academic tracks focusing on EJU preparation and university entrance",
-    "Provision of on-site or affiliated dormitory facilities for hassle-free settling",
-    "Offers both long-term academic and flexible short-term study options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 26.2606923,
-    "lng": 127.761073
-  },
-  "basic_info": {
-    "name_ja": "異文化間コミュニケーションセンター附属日本語学校",
-    "address": "沖縄県宜野湾市長田4-13-8",
-    "capacity": 48,
-    "name_en": "Intercultural Communication Center Affiliated Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Located in the unique subtropical environment of Okinawa",
-    "Extremely small student capacity ensuring highly personalized education (Capacity: 48)",
-    "Dedicated academic tracks focusing on EJU preparation and university entrance",
-    "Provision of on-site or affiliated dormitory facilities for hassle-free settling",
-    "Offers both long-term academic and flexible short-term study options"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語一般コース",
-      "admission_month": "10",
-      "total_fees": 891000
-    },
-    {
-      "course_name": "大学進学7月",
-      "admission_month": "7",
-      "total_fees": 1386000
-    },
-    {
-      "course_name": "大学進学4月",
-      "admission_month": "4",
-      "total_fees": 891000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=502"
-}
+basic_info:
+  address: 沖縄県宜野湾市長田4-13-8
+  capacity: 48
+  name_en: Intercultural Communication Center Affiliated Japanese Language School
+  name_ja: 異文化間コミュニケーションセンター附属日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語一般コース
+  total_fees: 891000
+- admission_month: '7'
+  course_name: 大学進学7月
+  total_fees: 1386000
+- admission_month: '4'
+  course_name: 大学進学4月
+  total_fees: 891000
+faculties: []
+features:
+- Located in the unique subtropical environment of Okinawa
+- 'Extremely small student capacity ensuring highly personalized education (Capacity:
+  48)'
+- Dedicated academic tracks focusing on EJU preparation and university entrance
+- Provision of on-site or affiliated dormitory facilities for hassle-free settling
+- Offers both long-term academic and flexible short-term study options
+id: school_intercultural-communication-center-okinawa
+lang: en
+layout: school
+location:
+  lat: 26.2606923
+  lng: 127.761073
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=502
+stats: {}
+tags:
+- Located in the unique subtropical environment of Okinawa
+- 'Extremely small student capacity ensuring highly personalized education (Capacity:
+  48)'
+- Dedicated academic tracks focusing on EJU preparation and university entrance
+- Provision of on-site or affiliated dormitory facilities for hassle-free settling
+- Offers both long-term academic and flexible short-term study options
+thumbnail: /static/img/pin-school.png
+title: Intercultural Communication Center Affiliated Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

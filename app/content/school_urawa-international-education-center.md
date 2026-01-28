@@ -1,78 +1,70 @@
 ---
-{
-  "layout": "school",
-  "id": "school_urawa-international-education-center",
-  "title": "Urawa International Education Center",
-  "category": "school",
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Preparation",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Science Course",
-    "Scholarships",
-    "Private Rooms",
-    "Art Course",
-    "Design Course",
-    "Short-Term Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.8604569,
-    "lng": 139.6670929
-  },
-  "basic_info": {
-    "name_ja": "浦和国際教育センター",
-    "address": "埼玉県さいたま市浦和区前地3-16-7",
-    "capacity": 206,
-    "name_en": "Urawa International Education Center"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 206
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Preparation",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Science Course",
-    "Scholarships",
-    "Private Rooms",
-    "Art Course",
-    "Design Course",
-    "Short-Term Course"
-  ],
-  "courses": [
-    {
-      "course_name": "進学準備2年コース",
-      "admission_month": "4",
-      "total_fees": 1400000
-    },
-    {
-      "course_name": "進学準備1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1237500
-    },
-    {
-      "course_name": "進学準備1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1075000
-    },
-    {
-      "course_name": "進学準備1年3ヶ月コース",
-      "admission_month": "1",
-      "total_fees": 912500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=51",
-  "description": "Urawa International Education Center is a Japanese language school located in Urawa-ku, Saitama City, Saitama Prefecture, aiming to help students successfully enter Japanese universities and adapt to Japanese society. Beyond language education, it focuses on providing customized education programs that maximize each student's potential. Students can pursue their dreams with a systematic curriculum, experienced instructors, and a comfortable learning environment. The school respects students' diverse backgrounds and learning goals and is committed to supporting their growth as global talents.",
-  "translated": true
-}
+basic_info:
+  address: 埼玉県さいたま市浦和区前地3-16-7
+  capacity: 206
+  name_en: Urawa International Education Center
+  name_ja: 浦和国際教育センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学準備2年コース
+  total_fees: 1400000
+- admission_month: '7'
+  course_name: 進学準備1年9ヶ月コース
+  total_fees: 1237500
+- admission_month: '10'
+  course_name: 進学準備1年6ヶ月コース
+  total_fees: 1075000
+- admission_month: '1'
+  course_name: 進学準備1年3ヶ月コース
+  total_fees: 912500
+description: Urawa International Education Center is a Japanese language school located
+  in Urawa-ku, Saitama City, Saitama Prefecture, aiming to help students successfully
+  enter Japanese universities and adapt to Japanese society. Beyond language education,
+  it focuses on providing customized education programs that maximize each student's
+  potential. Students can pursue their dreams with a systematic curriculum, experienced
+  instructors, and a comfortable learning environment. The school respects students'
+  diverse backgrounds and learning goals and is committed to supporting their growth
+  as global talents.
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Preparation
+- Conversational Japanese
+- Business Japanese
+- Science Course
+- Scholarships
+- Private Rooms
+- Art Course
+- Design Course
+- Short-Term Course
+id: school_urawa-international-education-center
+lang: en
+layout: school
+location:
+  lat: 35.8604569
+  lng: 139.6670929
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=51
+stats:
+  capacity: 206
+  international_students: null
+tags:
+- Dormitory
+- EJU Preparation
+- University Preparation
+- Conversational Japanese
+- Business Japanese
+- Science Course
+- Scholarships
+- Private Rooms
+- Art Course
+- Design Course
+- Short-Term Course
+thumbnail: /static/img/pin-school.png
+title: Urawa International Education Center
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

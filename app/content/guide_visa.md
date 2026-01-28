@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "visa",
-  "title": "Student Visa Application Guide (A to Z)",
-  "category": "Visa",
-  "tags": [
-    "Visa"
-  ],
-  "description": "Step-by-step guide from COE to Visa issuance.",
-  "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-01-01"
-}
+category: Visa
+date: '2026-01-01'
+description: Step-by-step guide from COE to Visa issuance.
+id: visa
+lang: en
+layout: guide
+tags:
+- Visa
+thumbnail: https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500
+title: Student Visa Application Guide (A to Z)
 ---
 
 Embarking on a journey to study in Japan is an exciting and life-changing experience. However, navigating the visa application process can seem daunting. This comprehensive guide will walk you through each step, from applying to a school to finally receiving your student visa, with a specific focus on the April intake. Let's demystify the process and set you on the path to your Japanese academic adventure!

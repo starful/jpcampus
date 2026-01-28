@@ -1,60 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_doshisha-university",
-  "title": "Doshisha University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "同志社大学",
-    "name_en": "Doshisha University",
-    "address": "〒602-8580 京都市上京区今出川通烏丸東入",
-    "website": "https://www.doshisha.ac.jp/en/"
-  },
-  "stats": {
-    "international_students": 1180,
-    "acceptance_rate": "Approximately 25-35%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 958000
-  },
-  "faculties": [
-    "Faculty of Theology",
-    "Faculty of Letters",
-    "Faculty of Social Studies",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Commerce",
-    "Faculty of Policy Studies",
-    "Faculty of Global Studies",
-    "Faculty of Science and Engineering",
-    "Faculty of Life and Medical Sciences",
-    "Faculty of Health and Sports Science",
-    "Faculty of Psychology",
-    "Faculty of Culture and Information Science",
-    "Institute for the Liberal Arts"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒602-8580 京都市上京区今出川通烏丸東入
+  name_en: Doshisha University
+  name_ja: 同志社大学
+  website: https://www.doshisha.ac.jp/en/
+category: university
+faculties:
+- Faculty of Theology
+- Faculty of Letters
+- Faculty of Social Studies
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Commerce
+- Faculty of Policy Studies
+- Faculty of Global Studies
+- Faculty of Science and Engineering
+- Faculty of Life and Medical Sciences
+- Faculty of Health and Sports Science
+- Faculty of Psychology
+- Faculty of Culture and Information Science
+- Institute for the Liberal Arts
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_doshisha-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 25-35%
+  international_students: 1180
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Doshisha University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 958000
 ---
 
 ## University Overview

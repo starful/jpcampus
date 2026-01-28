@@ -1,57 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "8-22 Asahi-cho, Minami-ku, Sagamihara, Kanagawa Prefecture",
-    "capacity": 100,
-    "name_en": "Sagami International Academy",
-    "name_ja": "相模国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Prep Course I",
-      "total_fees": 1551000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Prep Course II",
-      "total_fees": 1182500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Short-term Courses Available",
-    "Science Stream Prep"
-  ],
-  "id": "school_sagami-international-academy",
-  "layout": "school",
-  "location": {
-    "lat": 35.5275876,
-    "lng": 139.4283028
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=518",
-  "stats": {
-    "capacity": 100,
-    "international_students": 100
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Short-term Courses Available",
-    "Science Stream Prep"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Sagami International Academy",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 8-22 Asahi-cho, Minami-ku, Sagamihara, Kanagawa Prefecture
+  capacity: 100
+  name_en: Sagami International Academy
+  name_ja: 相模国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Prep Course I
+  total_fees: 1551000
+- admission_month: '10'
+  course_name: University Prep Course II
+  total_fees: 1182500
+faculties: []
+features:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Support
+- Conversation-focused Classes
+- Short-term Courses Available
+- Science Stream Prep
+id: school_sagami-international-academy
+lang: en
+layout: school
+location:
+  lat: 35.5275876
+  lng: 139.4283028
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=518
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Support
+- Conversation-focused Classes
+- Short-term Courses Available
+- Science Stream Prep
+thumbnail: /static/img/pin-school.png
+title: Sagami International Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

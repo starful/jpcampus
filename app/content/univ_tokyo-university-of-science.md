@@ -1,55 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区神楽坂1-3",
-    "name_en": "Tokyo University of Science",
-    "name_ja": "東京理科大学",
-    "website": "https://www.tus.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Science and Technology",
-    "Faculty of Engineering",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Science",
-    "Faculty of Industrial Science and Technology",
-    "Faculty of Advanced Engineering",
-    "Graduate School of Science and Technology",
-    "Graduate School of Engineering",
-    "Graduate School of Pharmaceutical Sciences",
-    "Graduate School of Science",
-    "Graduate School of Industrial Science and Technology",
-    "Graduate School of Advanced Engineering",
-    "Graduate School of Innovation Studies"
-  ],
-  "features": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_tokyo-university-of-science",
-  "layout": "school",
-  "location": {
-    "lat": 35.7011702,
-    "lng": 139.7432783
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 700
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Tokyo University of Science",
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1600000
-  },
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区神楽坂1-3
+  name_en: Tokyo University of Science
+  name_ja: 東京理科大学
+  website: https://www.tus.ac.jp/
+category: university
+faculties:
+- Faculty of Science and Technology
+- Faculty of Engineering
+- Faculty of Pharmaceutical Sciences
+- Faculty of Science
+- Faculty of Industrial Science and Technology
+- Faculty of Advanced Engineering
+- Graduate School of Science and Technology
+- Graduate School of Engineering
+- Graduate School of Pharmaceutical Sciences
+- Graduate School of Science
+- Graduate School of Industrial Science and Technology
+- Graduate School of Advanced Engineering
+- Graduate School of Innovation Studies
+features:
+- English Program
+- Dormitory
+- Scholarship
+id: univ_tokyo-university-of-science
+lang: en
+layout: school
+location:
+  lat: 35.7011702
+  lng: 139.7432783
+stats:
+  acceptance_rate: 30%
+  international_students: 700
+tags:
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Tokyo University of Science
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1600000
 ---
 
 ## 🏫 University Overview & Reputation

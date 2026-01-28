@@ -1,58 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_daiwa-academy-osaka",
-  "title": "Daiwa Academy",
-  "category": "school",
-  "tags": [
-    "Advanced University Entrance Focus (EJU/Specialized Tracks)",
-    "Comprehensive Student Accommodation (Dormitory and Private Rooms Available)",
-    "Specialized Tracks for Science (Rikei), Art/Design, and Business Japanese",
-    "Located in Osaka Prefecture (Sakai City)",
-    "Offers Short-Term Study Programs",
-    "Robust Scholarship and Financial Aid Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.5807655,
-    "lng": 135.4715373
-  },
-  "basic_info": {
-    "name_ja": "ダイワアカデミー",
-    "address": "大阪府堺市堺区熊野町西3丁2-6",
-    "capacity": 300,
-    "name_en": "Daiwa Academy"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Advanced University Entrance Focus (EJU/Specialized Tracks)",
-    "Comprehensive Student Accommodation (Dormitory and Private Rooms Available)",
-    "Specialized Tracks for Science (Rikei), Art/Design, and Business Japanese",
-    "Located in Osaka Prefecture (Sakai City)",
-    "Offers Short-Term Study Programs",
-    "Robust Scholarship and Financial Aid Opportunities"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1335000
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1175000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1020000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=355"
-}
+basic_info:
+  address: 大阪府堺市堺区熊野町西3丁2-6
+  capacity: 300
+  name_en: Daiwa Academy
+  name_ja: ダイワアカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1335000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1175000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1020000
+faculties: []
+features:
+- Advanced University Entrance Focus (EJU/Specialized Tracks)
+- Comprehensive Student Accommodation (Dormitory and Private Rooms Available)
+- Specialized Tracks for Science (Rikei), Art/Design, and Business Japanese
+- Located in Osaka Prefecture (Sakai City)
+- Offers Short-Term Study Programs
+- Robust Scholarship and Financial Aid Opportunities
+id: school_daiwa-academy-osaka
+lang: en
+layout: school
+location:
+  lat: 34.5807655
+  lng: 135.4715373
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=355
+stats: {}
+tags:
+- Advanced University Entrance Focus (EJU/Specialized Tracks)
+- Comprehensive Student Accommodation (Dormitory and Private Rooms Available)
+- Specialized Tracks for Science (Rikei), Art/Design, and Business Japanese
+- Located in Osaka Prefecture (Sakai City)
+- Offers Short-Term Study Programs
+- Robust Scholarship and Financial Aid Opportunities
+thumbnail: /static/img/pin-school.png
+title: Daiwa Academy
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

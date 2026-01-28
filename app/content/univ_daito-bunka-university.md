@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_daito-bunka-university",
-  "title": "Daito Bunka University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大東文化大学",
-    "name_en": "Daito Bunka University",
-    "address": "東京都板橋区高島平1-9-1",
-    "website": "https://www.daito.ac.jp/"
-  },
-  "stats": {
-    "international_students": 500,
-    "acceptance_rate": "Competitive"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1060000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Foreign Studies",
-    "Faculty of Law",
-    "Faculty of International Relations",
-    "Faculty of Business Administration",
-    "Faculty of Sports and Health Science",
-    "Faculty of Sociology",
-    "Faculty of Information Science",
-    "Faculty of Environmental Creation",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 東京都板橋区高島平1-9-1
+  name_en: Daito Bunka University
+  name_ja: 大東文化大学
+  website: https://www.daito.ac.jp/
+category: university
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Foreign Studies
+- Faculty of Law
+- Faculty of International Relations
+- Faculty of Business Administration
+- Faculty of Sports and Health Science
+- Faculty of Sociology
+- Faculty of Information Science
+- Faculty of Environmental Creation
+- Faculty of Nursing
+features:
+- EJU Required
+- Dormitory
+- Scholarship
+id: univ_daito-bunka-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive
+  international_students: 500
+tags:
+- EJU Required
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Daito Bunka University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1060000
 ---
 
 ## University Overview

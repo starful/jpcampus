@@ -1,57 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_asia-house-umikaze-japanese-language-academy-osaka",
-  "title": "Asia House Attached Umikaze Japanese Language Academy",
-  "category": "school",
-  "tags": [
-    "Dedicated Dormitory Accommodation Available",
-    "Comprehensive Scholarship System",
-    "Intensive EJU Preparation Focus",
-    "Strong Higher Education Progression Support",
-    "Short-term Study Options (Inferred)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.66446,
-    "lng": 135.5406099
-  },
-  "basic_info": {
-    "name_ja": "アジアハウス附属海風日本語学舎",
-    "address": "大阪府大阪市生野区中川西1-5-7",
-    "capacity": 100,
-    "name_en": "Asia House Attached Umikaze Japanese Language Academy"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Dormitory Accommodation Available",
-    "Comprehensive Scholarship System",
-    "Intensive EJU Preparation Focus",
-    "Strong Higher Education Progression Support",
-    "Short-term Study Options (Inferred)"
-  ],
-  "courses": [
-    {
-      "course_name": "2-Year University Prep Course",
-      "admission_month": "10",
-      "total_fees": 1138000
-    },
-    {
-      "course_name": "2-Year University Prep Course",
-      "admission_month": "4",
-      "total_fees": 1490000
-    },
-    {
-      "course_name": "1.75-Year University Prep Course",
-      "admission_month": "7",
-      "total_fees": 1316500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=341",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市生野区中川西1-5-7
+  capacity: 100
+  name_en: Asia House Attached Umikaze Japanese Language Academy
+  name_ja: アジアハウス附属海風日本語学舎
+category: school
+courses:
+- admission_month: '10'
+  course_name: 2-Year University Prep Course
+  total_fees: 1138000
+- admission_month: '4'
+  course_name: 2-Year University Prep Course
+  total_fees: 1490000
+- admission_month: '7'
+  course_name: 1.75-Year University Prep Course
+  total_fees: 1316500
+faculties: []
+features:
+- Dedicated Dormitory Accommodation Available
+- Comprehensive Scholarship System
+- Intensive EJU Preparation Focus
+- Strong Higher Education Progression Support
+- Short-term Study Options (Inferred)
+id: school_asia-house-umikaze-japanese-language-academy-osaka
+lang: en
+layout: school
+location:
+  lat: 34.66446
+  lng: 135.5406099
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=341
+stats: {}
+tags:
+- Dedicated Dormitory Accommodation Available
+- Comprehensive Scholarship System
+- Intensive EJU Preparation Focus
+- Strong Higher Education Progression Support
+- Short-term Study Options (Inferred)
+thumbnail: /static/img/pin-school.png
+title: Asia House Attached Umikaze Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

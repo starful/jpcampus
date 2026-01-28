@@ -1,79 +1,61 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区新宿1-29-12　KCP本館",
-    "capacity": 880,
-    "name_en": "KCP International Japanese Language School",
-    "name_ja": "ＫＣＰ地球市民日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "特別進学課程2年コース",
-      "total_fees": 1496000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "特別進学課程1年半コース",
-      "total_fees": 1142000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般進学課程2年コース",
-      "total_fees": 1496000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "一般進学課程1年半コース",
-      "total_fees": 1142000
-    },
-    {
-      "admission_month": "4, 1",
-      "course_name": "総合日本語課程2年コース",
-      "total_fees": 1280000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "総合日本語課程1年9か月コース",
-      "total_fees": 1130000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "総合日本語課程1年半コース",
-      "total_fees": 980000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Science Stream Support",
-    "Dormitory Available"
-  ],
-  "id": "school_kcp-international-language-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.690589,
-    "lng": 139.713131
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=104",
-  "stats": {
-    "capacity": 880,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Science Stream Support",
-    "Dormitory Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "KCP International Japanese Language School",
-  "tuition": {},
-  "description": "KCP International Japanese Language School, located in Shinjuku, Tokyo, offers comprehensive Japanese language education with a focus on university preparation and global citizenship. Features include EJU preparation, science stream support, and dormitory availability.",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区新宿1-29-12　KCP本館
+  capacity: 880
+  name_en: KCP International Japanese Language School
+  name_ja: ＫＣＰ地球市民日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 特別進学課程2年コース
+  total_fees: 1496000
+- admission_month: '10'
+  course_name: 特別進学課程1年半コース
+  total_fees: 1142000
+- admission_month: '4'
+  course_name: 一般進学課程2年コース
+  total_fees: 1496000
+- admission_month: '10'
+  course_name: 一般進学課程1年半コース
+  total_fees: 1142000
+- admission_month: 4, 1
+  course_name: 総合日本語課程2年コース
+  total_fees: 1280000
+- admission_month: '7'
+  course_name: 総合日本語課程1年9か月コース
+  total_fees: 1130000
+- admission_month: '10'
+  course_name: 総合日本語課程1年半コース
+  total_fees: 980000
+description: KCP International Japanese Language School, located in Shinjuku, Tokyo,
+  offers comprehensive Japanese language education with a focus on university preparation
+  and global citizenship. Features include EJU preparation, science stream support,
+  and dormitory availability.
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Science Stream Support
+- Dormitory Available
+id: school_kcp-international-language-school
+lang: en
+layout: school
+location:
+  lat: 35.690589
+  lng: 139.713131
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=104
+stats:
+  capacity: 880
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Science Stream Support
+- Dormitory Available
+thumbnail: /static/img/pin-school.png
+title: KCP International Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

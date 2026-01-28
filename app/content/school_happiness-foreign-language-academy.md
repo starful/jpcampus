@@ -1,66 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "2-2-16 Ichinomiya-cho, Niihama, Ehime Prefecture",
-    "capacity": 70,
-    "name_en": "Happiness Foreign Language Academy",
-    "name_ja": "はぴねす外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "General Course",
-      "total_fees": 1168000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "General Course",
-      "total_fees": 896000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Advancement",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Single Rooms",
-    "Scholarships Available",
-    "Science/STEM Track",
-    "Conversation Focus",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term Courses"
-  ],
-  "id": "school_happiness-foreign-language-academy",
-  "layout": "school",
-  "location": {
-    "lat": 33.9587017,
-    "lng": 133.278203
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=509",
-  "stats": {
-    "capacity": 70,
-    "international_students": 0
-  },
-  "tags": [
-    "University Advancement",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Single Rooms",
-    "Scholarships Available",
-    "Science/STEM Track",
-    "Conversation Focus",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Happiness Foreign Language Academy",
-  "tuition": {},
-  "description": "Happiness Foreign Language Academy offers personalized Japanese language education in a tranquil setting in Niihama, Ehime. Features include university advancement support, EJU preparation, dormitory with single rooms, and specialized courses.",
-  "translated": true
-}
+basic_info:
+  address: 2-2-16 Ichinomiya-cho, Niihama, Ehime Prefecture
+  capacity: 70
+  name_en: Happiness Foreign Language Academy
+  name_ja: はぴねす外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: General Course
+  total_fees: 1168000
+- admission_month: '10'
+  course_name: General Course
+  total_fees: 896000
+description: Happiness Foreign Language Academy offers personalized Japanese language
+  education in a tranquil setting in Niihama, Ehime. Features include university advancement
+  support, EJU preparation, dormitory with single rooms, and specialized courses.
+faculties: []
+features:
+- University Advancement
+- EJU Preparation
+- Dormitory Available
+- Single Rooms
+- Scholarships Available
+- Science/STEM Track
+- Conversation Focus
+- Business Japanese
+- Art & Design Prep
+- Short-term Courses
+id: school_happiness-foreign-language-academy
+lang: en
+layout: school
+location:
+  lat: 33.9587017
+  lng: 133.278203
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=509
+stats:
+  capacity: 70
+  international_students: 0
+tags:
+- University Advancement
+- EJU Preparation
+- Dormitory Available
+- Single Rooms
+- Scholarships Available
+- Science/STEM Track
+- Conversation Focus
+- Business Japanese
+- Art & Design Prep
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: Happiness Foreign Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

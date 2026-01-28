@@ -1,49 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kyoto-bunka-japanese-language-school",
-  "title": "Kyoto Bunka Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Specialized Art & Design Preparation",
-    "Comprehensive EJU Pathway",
-    "Guaranteed Dormitory Accommodation",
-    "Located in Kyoto's Academic Hub",
-    "Generous Scholarship Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.0367754,
-    "lng": 135.7927255
-  },
-  "basic_info": {
-    "name_ja": "京都文化日本語学校",
-    "address": "京都府京都市左京区北白川瓜生山2-116",
-    "capacity": 320,
-    "name_en": "Kyoto Bunka Japanese Language School"
-  },
-  "stats": {
-    "international_students": 288,
-    "capacity": 320
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized Art & Design Preparation",
-    "Comprehensive EJU Pathway",
-    "Guaranteed Dormitory Accommodation",
-    "Located in Kyoto's Academic Hub",
-    "Generous Scholarship Opportunities"
-  ],
-  "courses": [
-    {
-      "course_name": "総合日本語学科",
-      "admission_month": "4,10",
-      "total_fees": 1608000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=313"
-}
+basic_info:
+  address: 京都府京都市左京区北白川瓜生山2-116
+  capacity: 320
+  name_en: Kyoto Bunka Japanese Language School
+  name_ja: 京都文化日本語学校
+category: school
+courses:
+- admission_month: 4,10
+  course_name: 総合日本語学科
+  total_fees: 1608000
+faculties: []
+features:
+- Specialized Art & Design Preparation
+- Comprehensive EJU Pathway
+- Guaranteed Dormitory Accommodation
+- Located in Kyoto's Academic Hub
+- Generous Scholarship Opportunities
+id: school_kyoto-bunka-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.0367754
+  lng: 135.7927255
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=313
+stats:
+  capacity: 320
+  international_students: 288
+tags:
+- Specialized Art & Design Preparation
+- Comprehensive EJU Pathway
+- Guaranteed Dormitory Accommodation
+- Located in Kyoto's Academic Hub
+- Generous Scholarship Opportunities
+thumbnail: /static/img/pin-school.png
+title: Kyoto Bunka Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

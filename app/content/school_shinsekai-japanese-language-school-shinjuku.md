@@ -1,53 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shinsekai-japanese-language-school-shinjuku",
-  "title": "Shinsekai Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Intensive Academic Progression Focus (University/Graduate School)",
-    "Guaranteed Dormitory Accommodation Support",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7041296,
-    "lng": 139.6995464
-  },
-  "basic_info": {
-    "name_ja": "新世界語学院",
-    "address": "東京都新宿区百人町2-7-9 STKビル2F",
-    "capacity": 180,
-    "name_en": "Shinsekai Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Intensive Academic Progression Focus (University/Graduate School)",
-    "Guaranteed Dormitory Accommodation Support",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1460000
-    },
-    {
-      "course_name": "進学1.9年コース",
-      "admission_month": "7",
-      "total_fees": 1295000
-    },
-    {
-      "course_name": "進学1.6年コース",
-      "admission_month": "10",
-      "total_fees": 1130000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=566",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区百人町2-7-9 STKビル2F
+  capacity: 180
+  name_en: Shinsekai Japanese Language School
+  name_ja: 新世界語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1460000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1295000
+- admission_month: '10'
+  course_name: 進学1.6年コース
+  total_fees: 1130000
+faculties: []
+features:
+- Intensive Academic Progression Focus (University/Graduate School)
+- Guaranteed Dormitory Accommodation Support
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+id: school_shinsekai-japanese-language-school-shinjuku
+lang: en
+layout: school
+location:
+  lat: 35.7041296
+  lng: 139.6995464
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=566
+stats: {}
+tags:
+- Intensive Academic Progression Focus (University/Graduate School)
+- Guaranteed Dormitory Accommodation Support
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+thumbnail: /static/img/pin-school.png
+title: Shinsekai Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

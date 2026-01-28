@@ -1,68 +1,60 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市阿倍野区丸山通1-6-3",
-    "capacity": 336,
-    "name_en": "Seifu Information Engineering Academy, Japanese Language Department",
-    "name_ja": "清風情報工科学院日本語科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2-Year Japanese Language Course",
-      "total_fees": 1448000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1.5-Year Japanese Language Course",
-      "total_fees": 1111000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Exam Preparation",
-    "Dormitory",
-    "Vocational School Preparation",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art & Design Focus",
-    "Short-term Courses",
-    "Scholarships Available",
-    "Private Dorm Rooms",
-    "Science Focused"
-  ],
-  "id": "school_seifu-jouhou-kougakuin-senmon-gakkou-nihongo-ka",
-  "layout": "school",
-  "location": {
-    "lat": 34.6364928,
-    "lng": 135.5097676
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=343",
-  "stats": {
-    "capacity": 336,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Exam Preparation",
-    "Dormitory",
-    "Vocational School Preparation",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art & Design Focus",
-    "Short-term Courses",
-    "Scholarships Available",
-    "Private Dorm Rooms",
-    "Science Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Seifu Information Engineering Academy, Japanese Language Department",
-  "tuition": {},
-  "description": "Learn Japanese at Seifu Information Engineering Academy in Osaka. Offers comprehensive Japanese language education with courses preparing students for university, vocational school, and the EJU exam. Features include dormitory, scholarships, and specialized focuses like Business Japanese and Art & Design.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市阿倍野区丸山通1-6-3
+  capacity: 336
+  name_en: Seifu Information Engineering Academy, Japanese Language Department
+  name_ja: 清風情報工科学院日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2-Year Japanese Language Course
+  total_fees: 1448000
+- admission_month: '10'
+  course_name: 1.5-Year Japanese Language Course
+  total_fees: 1111000
+description: Learn Japanese at Seifu Information Engineering Academy in Osaka. Offers
+  comprehensive Japanese language education with courses preparing students for university,
+  vocational school, and the EJU exam. Features include dormitory, scholarships, and
+  specialized focuses like Business Japanese and Art & Design.
+faculties: []
+features:
+- University Preparation
+- EJU Exam Preparation
+- Dormitory
+- Vocational School Preparation
+- Conversation Focused
+- Business Japanese
+- Art & Design Focus
+- Short-term Courses
+- Scholarships Available
+- Private Dorm Rooms
+- Science Focused
+id: school_seifu-jouhou-kougakuin-senmon-gakkou-nihongo-ka
+lang: en
+layout: school
+location:
+  lat: 34.6364928
+  lng: 135.5097676
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=343
+stats:
+  capacity: 336
+  international_students: 0
+tags:
+- University Preparation
+- EJU Exam Preparation
+- Dormitory
+- Vocational School Preparation
+- Conversation Focused
+- Business Japanese
+- Art & Design Focus
+- Short-term Courses
+- Scholarships Available
+- Private Dorm Rooms
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: Seifu Information Engineering Academy, Japanese Language Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

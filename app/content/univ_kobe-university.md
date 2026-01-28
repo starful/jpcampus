@@ -1,57 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "〒657-8501 2-1 Rokkodai-cho, Nada-ku, Kobe, Hyogo Prefecture",
-    "name_en": "Kobe University",
-    "name_ja": "神戸大学",
-    "website": "https://www.kobe-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Human Development",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Oceanology",
-    "Faculty of Intercultural Studies"
-  ],
-  "features": [
-    "SGU",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "id": "univ_kobe-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 1500
-  },
-  "tags": [
-    "SGU",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Kobe University",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "translated": true
-}
+basic_info:
+  address: 〒657-8501 2-1 Rokkodai-cho, Nada-ku, Kobe, Hyogo Prefecture
+  name_en: Kobe University
+  name_ja: 神戸大学
+  website: https://www.kobe-u.ac.jp/
+category: university
+faculties:
+- Faculty of Letters
+- Faculty of Human Development
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Oceanology
+- Faculty of Intercultural Studies
+features:
+- SGU
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+id: univ_kobe-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20%
+  international_students: 1500
+tags:
+- SGU
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+thumbnail: /static/img/pin-univ.png
+title: Kobe University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

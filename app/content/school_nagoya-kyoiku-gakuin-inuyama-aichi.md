@@ -1,72 +1,59 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nagoya-kyoiku-gakuin-inuyama-aichi",
-  "title": "Nagoya Kyoiku Gakuin",
-  "category": "school",
-  "tags": [
-    "High-Intensity University Progression Focus",
-    "Specialized EJU (Science, Liberal Arts) Preparation",
-    "On-Campus/Affiliated Dormitory with Single Room Options",
-    "Dedicated Support for Art and Design University Entry",
-    "Specialized STEM (Science, Technology, Engineering, Math) Track",
-    "Business Japanese and Practical Conversation Classes",
-    "Comprehensive Scholarship Programs",
-    "Flexible Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.3802859,
-    "lng": 136.9385302
-  },
-  "basic_info": {
-    "name_ja": "名古屋教育学院",
-    "address": "愛知県犬山市大字犬山字西古券77-12",
-    "capacity": 300,
-    "name_en": "Nagoya Education Academy"
-  },
-  "stats": {
-    "international_students": 285,
-    "capacity": 300
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Intensity University Progression Focus",
-    "Specialized EJU (Science, Liberal Arts) Preparation",
-    "On-Campus/Affiliated Dormitory with Single Room Options",
-    "Dedicated Support for Art and Design University Entry",
-    "Specialized STEM (Science, Technology, Engineering, Math) Track",
-    "Business Japanese and Practical Conversation Classes",
-    "Comprehensive Scholarship Programs",
-    "Flexible Short-Term Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1425000
-    },
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1095000
-    },
-    {
-      "course_name": "進学1年3か月コース",
-      "admission_month": "1",
-      "total_fees": 930000
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1260000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=303",
-  "description": "Nagoya Education Academy is a Japanese language school specializing in preparing students for higher education in Japan, offering intensive academic support, on-campus dormitories, and specialized EJU preparation.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県犬山市大字犬山字西古券77-12
+  capacity: 300
+  name_en: Nagoya Education Academy
+  name_ja: 名古屋教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1425000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1095000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 930000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1260000
+description: Nagoya Education Academy is a Japanese language school specializing in
+  preparing students for higher education in Japan, offering intensive academic support,
+  on-campus dormitories, and specialized EJU preparation.
+faculties: []
+features:
+- High-Intensity University Progression Focus
+- Specialized EJU (Science, Liberal Arts) Preparation
+- On-Campus/Affiliated Dormitory with Single Room Options
+- Dedicated Support for Art and Design University Entry
+- Specialized STEM (Science, Technology, Engineering, Math) Track
+- Business Japanese and Practical Conversation Classes
+- Comprehensive Scholarship Programs
+- Flexible Short-Term Study Options
+id: school_nagoya-kyoiku-gakuin-inuyama-aichi
+lang: en
+layout: school
+location:
+  lat: 35.3802859
+  lng: 136.9385302
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=303
+stats:
+  capacity: 300
+  international_students: 285
+tags:
+- High-Intensity University Progression Focus
+- Specialized EJU (Science, Liberal Arts) Preparation
+- On-Campus/Affiliated Dormitory with Single Room Options
+- Dedicated Support for Art and Design University Entry
+- Specialized STEM (Science, Technology, Engineering, Math) Track
+- Business Japanese and Practical Conversation Classes
+- Comprehensive Scholarship Programs
+- Flexible Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Nagoya Kyoiku Gakuin
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

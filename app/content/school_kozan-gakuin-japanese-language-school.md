@@ -1,72 +1,59 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kozan-gakuin-japanese-language-school",
-  "title": "Kozan Gakuin Japanese Language School",
-  "category": "school",
-  "tags": [
-    "University Preparation Focus",
-    "EJU Specialized Training",
-    "Dormitory Available (Single Room Option)",
-    "Scholarship System",
-    "Specialized Tracks (Science, Art, Business)",
-    "Conversation/Practical Japanese Emphasis",
-    "Short-Term Study Option",
-    "Located in Nagoya (Aichi Prefecture)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.165976,
-    "lng": 136.9097542
-  },
-  "basic_info": {
-    "name_ja": "上山学院日本語学校",
-    "address": "愛知県名古屋市中区栄4-16-29",
-    "capacity": 168,
-    "name_en": "Kozan Gakuin Japanese Language School"
-  },
-  "stats": {
-    "international_students": 123,
-    "capacity": 168
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Preparation Focus",
-    "EJU Specialized Training",
-    "Dormitory Available (Single Room Option)",
-    "Scholarship System",
-    "Specialized Tracks (Science, Art, Business)",
-    "Conversation/Practical Japanese Emphasis",
-    "Short-Term Study Option",
-    "Located in Nagoya (Aichi Prefecture)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学Aコース",
-      "admission_month": "4",
-      "total_fees": 1547600
-    },
-    {
-      "course_name": "進学Bコース",
-      "admission_month": "7",
-      "total_fees": 1362900
-    },
-    {
-      "course_name": "進学Cコース",
-      "admission_month": "10",
-      "total_fees": 1178200
-    },
-    {
-      "course_name": "進学Dコース",
-      "admission_month": "1",
-      "total_fees": 993500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=295",
-  "description": "Located in Nagoya, Aichi Prefecture, Kozan Gakuin Japanese Language School focuses on preparing international students for higher education in Japan, offering specialized tracks and personalized support.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市中区栄4-16-29
+  capacity: 168
+  name_en: Kozan Gakuin Japanese Language School
+  name_ja: 上山学院日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学Aコース
+  total_fees: 1547600
+- admission_month: '7'
+  course_name: 進学Bコース
+  total_fees: 1362900
+- admission_month: '10'
+  course_name: 進学Cコース
+  total_fees: 1178200
+- admission_month: '1'
+  course_name: 進学Dコース
+  total_fees: 993500
+description: Located in Nagoya, Aichi Prefecture, Kozan Gakuin Japanese Language School
+  focuses on preparing international students for higher education in Japan, offering
+  specialized tracks and personalized support.
+faculties: []
+features:
+- University Preparation Focus
+- EJU Specialized Training
+- Dormitory Available (Single Room Option)
+- Scholarship System
+- Specialized Tracks (Science, Art, Business)
+- Conversation/Practical Japanese Emphasis
+- Short-Term Study Option
+- Located in Nagoya (Aichi Prefecture)
+id: school_kozan-gakuin-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.165976
+  lng: 136.9097542
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=295
+stats:
+  capacity: 168
+  international_students: 123
+tags:
+- University Preparation Focus
+- EJU Specialized Training
+- Dormitory Available (Single Room Option)
+- Scholarship System
+- Specialized Tracks (Science, Art, Business)
+- Conversation/Practical Japanese Emphasis
+- Short-Term Study Option
+- Located in Nagoya (Aichi Prefecture)
+thumbnail: /static/img/pin-school.png
+title: Kozan Gakuin Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

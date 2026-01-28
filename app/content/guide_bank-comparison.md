@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "bank-comparison",
-  "title": "Choosing a Bank in Japan: Yucho vs Megabanks",
-  "category": "Settlement",
-  "tags": [
-    "Settlement"
-  ],
-  "description": "A comparison of Japan Post Bank, MUFG, SMBC, and Mizuho.",
-  "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-01-13"
-}
+category: Settlement
+date: '2026-01-13'
+description: A comparison of Japan Post Bank, MUFG, SMBC, and Mizuho.
+id: bank-comparison
+lang: en
+layout: guide
+tags:
+- Settlement
+thumbnail: https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500
+title: 'Choosing a Bank in Japan: Yucho vs Megabanks'
 ---
 
 # Choosing a Bank in Japan: Yucho vs Megabanks – A Comprehensive Guide for International Students

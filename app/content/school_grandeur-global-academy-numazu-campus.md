@@ -1,57 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "school_grandeur-global-academy-numazu-campus",
-  "title": "Grandeur Global Academy Numazu Campus",
-  "category": "school",
-  "tags": [
-    "Specialized EJU & University Entrance Preparation",
-    "Dedicated Academic Tracks (Science, Art & Design)",
-    "Guaranteed Accommodation (Dormitory with Single Rooms)",
-    "Robust Scholarship and Financial Aid Programs",
-    "Comprehensive Business Japanese Training",
-    "Short-Term and Cultural Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.1099287,
-    "lng": 138.8610422
-  },
-  "basic_info": {
-    "name_ja": "Grandeur Global Academy 沼津校",
-    "address": "静岡県沼津市高島本町12-22",
-    "capacity": 240,
-    "name_en": "Grandeur Global Academy Numazu Campus"
-  },
-  "stats": {
-    "international_students": 190,
-    "capacity": 240
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized EJU & University Entrance Preparation",
-    "Dedicated Academic Tracks (Science, Art & Design)",
-    "Guaranteed Accommodation (Dormitory with Single Rooms)",
-    "Robust Scholarship and Financial Aid Programs",
-    "Comprehensive Business Japanese Training",
-    "Short-Term and Cultural Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1284000
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1657000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=594",
-  "translated": true
-}
+basic_info:
+  address: 静岡県沼津市高島本町12-22
+  capacity: 240
+  name_en: Grandeur Global Academy Numazu Campus
+  name_ja: Grandeur Global Academy 沼津校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1284000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1657000
+faculties: []
+features:
+- Specialized EJU & University Entrance Preparation
+- Dedicated Academic Tracks (Science, Art & Design)
+- Guaranteed Accommodation (Dormitory with Single Rooms)
+- Robust Scholarship and Financial Aid Programs
+- Comprehensive Business Japanese Training
+- Short-Term and Cultural Study Options
+id: school_grandeur-global-academy-numazu-campus
+lang: en
+layout: school
+location:
+  lat: 35.1099287
+  lng: 138.8610422
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=594
+stats:
+  capacity: 240
+  international_students: 190
+tags:
+- Specialized EJU & University Entrance Preparation
+- Dedicated Academic Tracks (Science, Art & Design)
+- Guaranteed Accommodation (Dormitory with Single Rooms)
+- Robust Scholarship and Financial Aid Programs
+- Comprehensive Business Japanese Training
+- Short-Term and Cultural Study Options
+thumbnail: /static/img/pin-school.png
+title: Grandeur Global Academy Numazu Campus
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,72 +1,56 @@
 ---
-{
-  "layout": "school",
-  "id": "school_st-mary-japanese-language-institute-utsunomiya",
-  "title": "St. Mary Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "Located in Utsunomiya, Tochigi Prefecture, offering a balanced, regional lifestyle.",
-    "Specialized tracks for Art and Design university admission.",
-    "Comprehensive preparation for the Examination for Japanese University Admission (EJU).",
-    "On-campus or affiliated dormitory accommodation guaranteed.",
-    "Dedicated curriculum for Business Japanese and practical communication skills."
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.5600154,
-    "lng": 139.8957013
-  },
-  "basic_info": {
-    "name_ja": "セントメリー日本語学院",
-    "address": "栃木県宇都宮市大通り4-2-10",
-    "capacity": 350,
-    "name_en": "St. Mary Japanese Language Institute"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Located in Utsunomiya, Tochigi Prefecture, offering a balanced, regional lifestyle.",
-    "Specialized tracks for Art and Design university admission.",
-    "Comprehensive preparation for the Examination for Japanese University Admission (EJU).",
-    "On-campus or affiliated dormitory accommodation guaranteed.",
-    "Dedicated curriculum for Business Japanese and practical communication skills."
-  ],
-  "courses": [
-    {
-      "course_name": "準備教育課程Bコース",
-      "admission_month": "10",
-      "total_fees": 1152500
-    },
-    {
-      "course_name": "準備教育課程Aコース",
-      "admission_month": "4",
-      "total_fees": 1452500
-    },
-    {
-      "course_name": "進学Aコース",
-      "admission_month": "1",
-      "total_fees": 900000
-    },
-    {
-      "course_name": "進学Bコース",
-      "admission_month": "4",
-      "total_fees": 1350000
-    },
-    {
-      "course_name": "進学Cコース",
-      "admission_month": "7",
-      "total_fees": 1200000
-    },
-    {
-      "course_name": "進学Dコース",
-      "admission_month": "10",
-      "total_fees": 1050000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=34",
-  "translated": true
-}
+basic_info:
+  address: 栃木県宇都宮市大通り4-2-10
+  capacity: 350
+  name_en: St. Mary Japanese Language Institute
+  name_ja: セントメリー日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 準備教育課程Bコース
+  total_fees: 1152500
+- admission_month: '4'
+  course_name: 準備教育課程Aコース
+  total_fees: 1452500
+- admission_month: '1'
+  course_name: 進学Aコース
+  total_fees: 900000
+- admission_month: '4'
+  course_name: 進学Bコース
+  total_fees: 1350000
+- admission_month: '7'
+  course_name: 進学Cコース
+  total_fees: 1200000
+- admission_month: '10'
+  course_name: 進学Dコース
+  total_fees: 1050000
+faculties: []
+features:
+- Located in Utsunomiya, Tochigi Prefecture, offering a balanced, regional lifestyle.
+- Specialized tracks for Art and Design university admission.
+- Comprehensive preparation for the Examination for Japanese University Admission
+  (EJU).
+- On-campus or affiliated dormitory accommodation guaranteed.
+- Dedicated curriculum for Business Japanese and practical communication skills.
+id: school_st-mary-japanese-language-institute-utsunomiya
+lang: en
+layout: school
+location:
+  lat: 36.5600154
+  lng: 139.8957013
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=34
+stats: {}
+tags:
+- Located in Utsunomiya, Tochigi Prefecture, offering a balanced, regional lifestyle.
+- Specialized tracks for Art and Design university admission.
+- Comprehensive preparation for the Examination for Japanese University Admission
+  (EJU).
+- On-campus or affiliated dormitory accommodation guaranteed.
+- Dedicated curriculum for Business Japanese and practical communication skills.
+thumbnail: /static/img/pin-school.png
+title: St. Mary Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

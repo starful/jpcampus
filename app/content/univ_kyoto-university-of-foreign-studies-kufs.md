@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-university-of-foreign-studies-kufs",
-  "title": "Kyoto University of Foreign Studies",
-  "category": "university",
-  "tags": [
-    "Dedicated Language Focus",
-    "Extensive Study Abroad Programs (300+ Partners)",
-    "Located in Japan's Cultural Capital (Kyoto)",
-    "EJU Required (Standard International Entry)",
-    "Bilingual Education Emphasis"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都外国語大学",
-    "name_en": "Kyoto University of Foreign Studies",
-    "address": "6 Kasame-cho, Saiin, Ukyo-ku, Kyoto 615-8558, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 550,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "School of Foreign Studies (Undergraduate)",
-    "Faculty of Global Engagement (Undergraduate)",
-    "Graduate School of Foreign Studies"
-  ],
-  "features": [
-    "Dedicated Language Focus",
-    "Extensive Study Abroad Programs (300+ Partners)",
-    "Located in Japan's Cultural Capital (Kyoto)",
-    "EJU Required (Standard International Entry)",
-    "Bilingual Education Emphasis"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 6 Kasame-cho, Saiin, Ukyo-ku, Kyoto 615-8558, Japan
+  capacity: null
+  name_en: Kyoto University of Foreign Studies
+  name_ja: 京都外国語大学
+category: university
+faculties:
+- School of Foreign Studies (Undergraduate)
+- Faculty of Global Engagement (Undergraduate)
+- Graduate School of Foreign Studies
+features:
+- Dedicated Language Focus
+- Extensive Study Abroad Programs (300+ Partners)
+- Located in Japan's Cultural Capital (Kyoto)
+- EJU Required (Standard International Entry)
+- Bilingual Education Emphasis
+id: univ_kyoto-university-of-foreign-studies-kufs
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 550
+tags:
+- Dedicated Language Focus
+- Extensive Study Abroad Programs (300+ Partners)
+- Located in Japan's Cultural Capital (Kyoto)
+- EJU Required (Standard International Entry)
+- Bilingual Education Emphasis
+thumbnail: /static/img/pin-univ.png
+title: Kyoto University of Foreign Studies
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## University Overview

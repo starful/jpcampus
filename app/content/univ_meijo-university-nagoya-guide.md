@@ -1,57 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_meijo-university-nagoya-guide",
-  "title": "Meijo University",
-  "category": "university",
-  "tags": [
-    "Prominent private university in the Chubu region (Nagoya)",
-    "Nationally renowned programs in Science, Technology, and Pharmacy",
-    "Recipient institution of Nobel Prizes in Physics (via affiliated researchers)",
-    "Extensive industry connections, particularly in automotive and manufacturing sectors",
-    "EJU Required",
-    "Limited English Program (Mainly Japanese-taught degrees)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名城大学",
-    "name_en": "Meijo University",
-    "address": "1-501 Shiogamaguchi, Tempaku Ward, Nagoya, Aichi 468-8502, Japan (Tempaku Campus)",
-    "capacity": "Approx. 22,000 students"
-  },
-  "stats": {
-    "international_students": 550,
-    "acceptance_rate": "45%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Business Administration",
-    "Faculty of Economics",
-    "Faculty of Science and Technology",
-    "Faculty of Pharmacy",
-    "Faculty of Agricultural Sciences",
-    "Faculty of Humanities",
-    "Faculty of Urban Science",
-    "Faculty of Foreign Studies",
-    "Faculty of Education"
-  ],
-  "features": [
-    "Prominent private university in the Chubu region (Nagoya)",
-    "Nationally renowned programs in Science, Technology, and Pharmacy",
-    "Recipient institution of Nobel Prizes in Physics (via affiliated researchers)",
-    "Extensive industry connections, particularly in automotive and manufacturing sectors",
-    "EJU Required",
-    "Limited English Program (Mainly Japanese-taught degrees)"
-  ]
-}
+basic_info:
+  address: 1-501 Shiogamaguchi, Tempaku Ward, Nagoya, Aichi 468-8502, Japan (Tempaku
+    Campus)
+  capacity: Approx. 22,000 students
+  name_en: Meijo University
+  name_ja: 名城大学
+category: university
+faculties:
+- Faculty of Law
+- Faculty of Business Administration
+- Faculty of Economics
+- Faculty of Science and Technology
+- Faculty of Pharmacy
+- Faculty of Agricultural Sciences
+- Faculty of Humanities
+- Faculty of Urban Science
+- Faculty of Foreign Studies
+- Faculty of Education
+features:
+- Prominent private university in the Chubu region (Nagoya)
+- Nationally renowned programs in Science, Technology, and Pharmacy
+- Recipient institution of Nobel Prizes in Physics (via affiliated researchers)
+- Extensive industry connections, particularly in automotive and manufacturing sectors
+- EJU Required
+- Limited English Program (Mainly Japanese-taught degrees)
+id: univ_meijo-university-nagoya-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45%
+  international_students: 550
+tags:
+- Prominent private university in the Chubu region (Nagoya)
+- Nationally renowned programs in Science, Technology, and Pharmacy
+- Recipient institution of Nobel Prizes in Physics (via affiliated researchers)
+- Extensive industry connections, particularly in automotive and manufacturing sectors
+- EJU Required
+- Limited English Program (Mainly Japanese-taught degrees)
+thumbnail: /static/img/pin-univ.png
+title: Meijo University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1250000
 ---
 
 ## 🏫 University Overview

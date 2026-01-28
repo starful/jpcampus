@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "transport-ic",
-  "title": "Suica vs PASMO: Japan's IC Cards Explained",
-  "category": "Settlement",
-  "tags": [
-    "Settlement"
-  ],
-  "description": "How to get and use rechargeable transport cards.",
-  "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-01-13"
-}
+category: Settlement
+date: '2026-01-13'
+description: How to get and use rechargeable transport cards.
+id: transport-ic
+lang: en
+layout: guide
+tags:
+- Settlement
+thumbnail: https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500
+title: 'Suica vs PASMO: Japan''s IC Cards Explained'
 ---
 
 # Suica vs PASMO: Navigating Japan’s Seamless IC Card System

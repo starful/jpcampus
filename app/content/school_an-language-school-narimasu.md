@@ -1,67 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都板橋区成増3-10-4",
-    "capacity": 320,
-    "name_en": "AN Language School Narimasu Campus",
-    "name_ja": "アン・ランゲージ・スクール成増校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1349760
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1038720
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1194240
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 883200
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Near Train Station",
-    "Excellent Living Convenience",
-    "Personalized University Guidance"
-  ],
-  "id": "school_an-language-school-narimasu",
-  "layout": "school",
-  "location": {
-    "lat": 35.7782191,
-    "lng": 139.6340977
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=216",
-  "stats": {
-    "capacity": 320,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Near Train Station",
-    "Excellent Living Convenience",
-    "Personalized University Guidance"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "AN Language School Narimasu Campus",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 東京都板橋区成増3-10-4
+  capacity: 320
+  name_en: AN Language School Narimasu Campus
+  name_ja: アン・ランゲージ・スクール成増校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1349760
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1038720
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1194240
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 883200
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Near Train Station
+- Excellent Living Convenience
+- Personalized University Guidance
+id: school_an-language-school-narimasu
+lang: en
+layout: school
+location:
+  lat: 35.7782191
+  lng: 139.6340977
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=216
+stats:
+  capacity: 320
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Near Train Station
+- Excellent Living Convenience
+- Personalized University Guidance
+thumbnail: /static/img/pin-school.png
+title: AN Language School Narimasu Campus
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

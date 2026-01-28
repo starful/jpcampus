@@ -1,62 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_japan-student-services-organization-osaka-japanese-education-centre",
-  "title": "Japan Student Services Organization Osaka Japanese Education Centre",
-  "category": "school",
-  "tags": [
-    "Official JASSO Institution",
-    "High University Placement Rate (National/Public Focus)",
-    "On-Campus Dormitory Available",
-    "Extensive Scholarship System",
-    "Advanced EJU Preparation",
-    "Specialized Tracks (Science, Humanities, Art/Design)",
-    "Business and Conversation Skills Training",
-    "Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6605285,
-    "lng": 135.5175726
-  },
-  "basic_info": {
-    "name_ja": "日本学生支援機構大阪日本語教育センター",
-    "address": "大阪府大阪市天王寺区上本町8-3-13",
-    "capacity": 365,
-    "name_en": "Japan Student Services Organization Osaka Japanese Education Centre"
-  },
-  "stats": {
-    "international_students": 365,
-    "capacity": 365
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Official JASSO Institution",
-    "High University Placement Rate (National/Public Focus)",
-    "On-Campus Dormitory Available",
-    "Extensive Scholarship System",
-    "Advanced EJU Preparation",
-    "Specialized Tracks (Science, Humanities, Art/Design)",
-    "Business and Conversation Skills Training",
-    "Short-Term Study Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学課程1年コース",
-      "admission_month": "4",
-      "total_fees": 822867
-    },
-    {
-      "course_name": "進学課程1年半コース",
-      "admission_month": "10",
-      "total_fees": 1192337
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=327",
-  "description": "JASSO Osaka: Your direct pathway to top Japanese universities. Benefit from government-backed education, extensive scholarships, and specialized EJU preparation for national and public university success.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市天王寺区上本町8-3-13
+  capacity: 365
+  name_en: Japan Student Services Organization Osaka Japanese Education Centre
+  name_ja: 日本学生支援機構大阪日本語教育センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学課程1年コース
+  total_fees: 822867
+- admission_month: '10'
+  course_name: 進学課程1年半コース
+  total_fees: 1192337
+description: 'JASSO Osaka: Your direct pathway to top Japanese universities. Benefit
+  from government-backed education, extensive scholarships, and specialized EJU preparation
+  for national and public university success.'
+faculties: []
+features:
+- Official JASSO Institution
+- High University Placement Rate (National/Public Focus)
+- On-Campus Dormitory Available
+- Extensive Scholarship System
+- Advanced EJU Preparation
+- Specialized Tracks (Science, Humanities, Art/Design)
+- Business and Conversation Skills Training
+- Short-Term Study Options
+id: school_japan-student-services-organization-osaka-japanese-education-centre
+lang: en
+layout: school
+location:
+  lat: 34.6605285
+  lng: 135.5175726
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=327
+stats:
+  capacity: 365
+  international_students: 365
+tags:
+- Official JASSO Institution
+- High University Placement Rate (National/Public Focus)
+- On-Campus Dormitory Available
+- Extensive Scholarship System
+- Advanced EJU Preparation
+- Specialized Tracks (Science, Humanities, Art/Design)
+- Business and Conversation Skills Training
+- Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Japan Student Services Organization Osaka Japanese Education Centre
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-university-of-agriculture-and-technology-tuat",
-  "title": "Tokyo University of Agriculture and Technology (TUAT)",
-  "category": "university",
-  "tags": [
-    "Leading Specialized National University in Agri-Tech",
-    "Exceptional Research Output per Student",
-    "Strong Industry-Academia Collaboration (Monozukuri)",
-    "EJU Required for Undergraduate Japanese Programs",
-    "English Program Availability (Primarily Graduate Level)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京農工大学",
-    "name_en": "Tokyo University of Agriculture and Technology (TUAT)",
-    "address": "3-5-8 Saiwai-cho, Fuchu, Tokyo 183-8509, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 550,
-    "acceptance_rate": "35% (Highly Competitive)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Agriculture",
-    "Faculty of Engineering",
-    "Graduate School of Agriculture (Master's and Doctoral Programs)",
-    "Graduate School of Engineering (Master's and Doctoral Programs)",
-    "Graduate School of Technology Management (MOT)",
-    "United Graduate School of Agricultural Science"
-  ],
-  "features": [
-    "Leading Specialized National University in Agri-Tech",
-    "Exceptional Research Output per Student",
-    "Strong Industry-Academia Collaboration (Monozukuri)",
-    "EJU Required for Undergraduate Japanese Programs",
-    "English Program Availability (Primarily Graduate Level)"
-  ]
-}
+basic_info:
+  address: 3-5-8 Saiwai-cho, Fuchu, Tokyo 183-8509, Japan
+  capacity: null
+  name_en: Tokyo University of Agriculture and Technology (TUAT)
+  name_ja: 東京農工大学
+category: university
+faculties:
+- Faculty of Agriculture
+- Faculty of Engineering
+- Graduate School of Agriculture (Master's and Doctoral Programs)
+- Graduate School of Engineering (Master's and Doctoral Programs)
+- Graduate School of Technology Management (MOT)
+- United Graduate School of Agricultural Science
+features:
+- Leading Specialized National University in Agri-Tech
+- Exceptional Research Output per Student
+- Strong Industry-Academia Collaboration (Monozukuri)
+- EJU Required for Undergraduate Japanese Programs
+- English Program Availability (Primarily Graduate Level)
+id: univ_tokyo-university-of-agriculture-and-technology-tuat
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35% (Highly Competitive)
+  international_students: 550
+tags:
+- Leading Specialized National University in Agri-Tech
+- Exceptional Research Output per Student
+- Strong Industry-Academia Collaboration (Monozukuri)
+- EJU Required for Undergraduate Japanese Programs
+- English Program Availability (Primarily Graduate Level)
+thumbnail: /static/img/pin-univ.png
+title: Tokyo University of Agriculture and Technology (TUAT)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

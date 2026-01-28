@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "housing",
-  "title": "Dorm vs Share House vs Apartment",
-  "category": "Housing",
-  "tags": [
-    "Housing"
-  ],
-  "description": "Pros and cons of housing types and initial costs.",
-  "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-01-01"
-}
+category: Housing
+date: '2026-01-01'
+description: Pros and cons of housing types and initial costs.
+id: housing
+lang: en
+layout: guide
+tags:
+- Housing
+thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
+title: Dorm vs Share House vs Apartment
 ---
 
 ## Finding Your Home Away From Home: A Guide to Housing Options for International Students in Japan

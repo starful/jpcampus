@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "rent-guarantor",
-  "title": "The Guarantor System for Renting in Japan",
-  "category": "Housing",
-  "tags": [
-    "Housing"
-  ],
-  "description": "What is a guarantor company and how to use it.",
-  "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-01-28"
-}
+category: Housing
+date: '2026-01-28'
+description: What is a guarantor company and how to use it.
+id: rent-guarantor
+lang: en
+layout: guide
+tags:
+- Housing
+thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
+title: The Guarantor System for Renting in Japan
 ---
 
 # The Non-Negotiable Step: Navigating Japan’s Guarantor System for International Students

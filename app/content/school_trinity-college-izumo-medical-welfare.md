@@ -1,73 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "島根県出雲市西新町3-23-1",
-    "capacity": 60,
-    "name_en": "Trinity College Izumo Medical and Welfare Vocational School",
-    "name_ja": "トリニティカレッジ出雲医療福祉専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "介護進学コース",
-      "total_fees": 865000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語進学2年コース",
-      "total_fees": 1615000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語進学1.5年コース",
-      "total_fees": 1240000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "Private Room",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Focused",
-    "University Advancement",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "id": "school_trinity-college-izumo-medical-welfare",
-  "layout": "school",
-  "location": {
-    "lat": 35.332186,
-    "lng": 132.722255
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=552",
-  "stats": {
-    "capacity": 60,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Private Room",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Focused",
-    "University Advancement",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Trinity College Izumo Medical and Welfare Vocational School",
-  "tuition": {},
-  "description": "Trinity College Izumo Medical and Welfare Vocational School is located in Izumo, Shimane. It offers courses to prepare international students for higher education in Japan, particularly for those interested in medical and welfare fields. Features include on-campus dormitories, scholarships, and EJU preparation.",
-  "translated": true
-}
+basic_info:
+  address: 島根県出雲市西新町3-23-1
+  capacity: 60
+  name_en: Trinity College Izumo Medical and Welfare Vocational School
+  name_ja: トリニティカレッジ出雲医療福祉専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 介護進学コース
+  total_fees: 865000
+- admission_month: '4'
+  course_name: 日本語進学2年コース
+  total_fees: 1615000
+- admission_month: '10'
+  course_name: 日本語進学1.5年コース
+  total_fees: 1240000
+description: Trinity College Izumo Medical and Welfare Vocational School is located
+  in Izumo, Shimane. It offers courses to prepare international students for higher
+  education in Japan, particularly for those interested in medical and welfare fields.
+  Features include on-campus dormitories, scholarships, and EJU preparation.
+faculties: []
+features:
+- Dormitory
+- Private Room
+- Scholarships
+- EJU Preparation
+- Science Focused
+- University Advancement
+- Conversational Japanese
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+id: school_trinity-college-izumo-medical-welfare
+lang: en
+layout: school
+location:
+  lat: 35.332186
+  lng: 132.722255
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=552
+stats:
+  capacity: 60
+  international_students: 0
+tags:
+- Dormitory
+- Private Room
+- Scholarships
+- EJU Preparation
+- Science Focused
+- University Advancement
+- Conversational Japanese
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Trinity College Izumo Medical and Welfare Vocational School
+translated: true
+tuition: {}
 ---
 
 ## School Overview

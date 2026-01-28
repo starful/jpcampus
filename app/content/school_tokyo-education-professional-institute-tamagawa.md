@@ -1,58 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-education-professional-institute-tamagawa",
-  "title": "Tokyo Education Professional Institute, Tamagawa Campus (T.E.P.I.)",
-  "category": "school",
-  "tags": [
-    "Dedicated Higher Education Pathway Guidance (Shingaku)",
-    "Small School Capacity Ensuring Personalized Attention",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Flexible Entry Periods (April, July, October) tailored for optimal university preparation"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.57255910000001,
-    "lng": 139.6882858
-  },
-  "basic_info": {
-    "name_ja": "東京教育専門学院・多摩川校",
-    "address": "東京都大田区千鳥3-9-6",
-    "capacity": 80,
-    "name_en": "Tokyo Education Professional Institute, Tamagawa Campus (T.E.P.I.)"
-  },
-  "stats": {
-    "international_students": 75,
-    "capacity": 80
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Higher Education Pathway Guidance (Shingaku)",
-    "Small School Capacity Ensuring Personalized Attention",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Flexible Entry Periods (April, July, October) tailored for optimal university preparation"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 940000
-    },
-    {
-      "course_name": "進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1075000
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1210000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=167",
-  "translated": true
-}
+basic_info:
+  address: 東京都大田区千鳥3-9-6
+  capacity: 80
+  name_en: Tokyo Education Professional Institute, Tamagawa Campus (T.E.P.I.)
+  name_ja: 東京教育専門学院・多摩川校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 940000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1075000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1210000
+faculties: []
+features:
+- Dedicated Higher Education Pathway Guidance (Shingaku)
+- Small School Capacity Ensuring Personalized Attention
+- On-Campus or Affiliated Dormitory Accommodation
+- Flexible Entry Periods (April, July, October) tailored for optimal university preparation
+id: school_tokyo-education-professional-institute-tamagawa
+lang: en
+layout: school
+location:
+  lat: 35.57255910000001
+  lng: 139.6882858
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=167
+stats:
+  capacity: 80
+  international_students: 75
+tags:
+- Dedicated Higher Education Pathway Guidance (Shingaku)
+- Small School Capacity Ensuring Personalized Attention
+- On-Campus or Affiliated Dormitory Accommodation
+- Flexible Entry Periods (April, July, October) tailored for optimal university preparation
+thumbnail: /static/img/pin-school.png
+title: Tokyo Education Professional Institute, Tamagawa Campus (T.E.P.I.)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

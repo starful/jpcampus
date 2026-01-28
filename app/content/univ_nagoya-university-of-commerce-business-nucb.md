@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-university-of-commerce-business-nucb",
-  "title": "Nagoya University of Commerce & Business",
-  "category": "university",
-  "tags": [
-    "Internationally Accredited (AACSB, AMBA, EQUIS - Triple Crown for Graduate School)",
-    "Pioneering Case Method Education in Japan",
-    "High Ratio of International Faculty",
-    "Strong focus on practical business skills and sustainability (PRME)",
-    "EJU Required (for Japanese Track)",
-    "English Program (Global BBA)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋商科大学",
-    "name_en": "Nagoya University of Commerce & Business",
-    "address": "4-4 Sagamine, Komenogi, Nisshin, Aichi 470-0193, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 210,
-    "acceptance_rate": "40% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1450000
-  },
-  "faculties": [
-    "Faculty of Management (Business Administration)",
-    "Faculty of Commerce",
-    "Faculty of Economics",
-    "Faculty of Communication",
-    "Global BBA Program (Undergraduate)"
-  ],
-  "features": [
-    "Internationally Accredited (AACSB, AMBA, EQUIS - Triple Crown for Graduate School)",
-    "Pioneering Case Method Education in Japan",
-    "High Ratio of International Faculty",
-    "Strong focus on practical business skills and sustainability (PRME)",
-    "EJU Required (for Japanese Track)",
-    "English Program (Global BBA)"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 4-4 Sagamine, Komenogi, Nisshin, Aichi 470-0193, Japan
+  capacity: null
+  name_en: Nagoya University of Commerce & Business
+  name_ja: 名古屋商科大学
+category: university
+faculties:
+- Faculty of Management (Business Administration)
+- Faculty of Commerce
+- Faculty of Economics
+- Faculty of Communication
+- Global BBA Program (Undergraduate)
+features:
+- Internationally Accredited (AACSB, AMBA, EQUIS - Triple Crown for Graduate School)
+- Pioneering Case Method Education in Japan
+- High Ratio of International Faculty
+- Strong focus on practical business skills and sustainability (PRME)
+- EJU Required (for Japanese Track)
+- English Program (Global BBA)
+id: univ_nagoya-university-of-commerce-business-nucb
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40% (Estimated)
+  international_students: 210
+tags:
+- Internationally Accredited (AACSB, AMBA, EQUIS - Triple Crown for Graduate School)
+- Pioneering Case Method Education in Japan
+- High Ratio of International Faculty
+- Strong focus on practical business skills and sustainability (PRME)
+- EJU Required (for Japanese Track)
+- English Program (Global BBA)
+thumbnail: /static/img/pin-univ.png
+title: Nagoya University of Commerce & Business
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1450000
 ---
 
 ## University Overview

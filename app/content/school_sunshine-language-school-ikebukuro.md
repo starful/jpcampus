@@ -1,62 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_sunshine-language-school-ikebukuro",
-  "title": "Sunshine Language School",
-  "category": "school",
-  "tags": [
-    "Intensive Academic Advancement (進学) Focus",
-    "School-Managed Dormitory Options",
-    "Generous Scholarship Opportunities",
-    "Specialized EJU (University Entrance Exam) Preparation"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.735879,
-    "lng": 139.7115415
-  },
-  "basic_info": {
-    "name_ja": "サンシャインランゲージスクール",
-    "address": "東京都豊島区池袋1-7-18",
-    "capacity": 150,
-    "name_en": "Sunshine Language School"
-  },
-  "stats": {
-    "international_students": 150,
-    "capacity": 150
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Intensive Academic Advancement (進学) Focus",
-    "School-Managed Dormitory Options",
-    "Generous Scholarship Opportunities",
-    "Specialized EJU (University Entrance Exam) Preparation"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1619000
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1426000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1234000
-    },
-    {
-      "course_name": "進学1年3か月コース",
-      "admission_month": "1",
-      "total_fees": 1041000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=577"
-}
+basic_info:
+  address: 東京都豊島区池袋1-7-18
+  capacity: 150
+  name_en: Sunshine Language School
+  name_ja: サンシャインランゲージスクール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1619000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1426000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1234000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 1041000
+faculties: []
+features:
+- Intensive Academic Advancement (進学) Focus
+- School-Managed Dormitory Options
+- Generous Scholarship Opportunities
+- Specialized EJU (University Entrance Exam) Preparation
+id: school_sunshine-language-school-ikebukuro
+lang: en
+layout: school
+location:
+  lat: 35.735879
+  lng: 139.7115415
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=577
+stats:
+  capacity: 150
+  international_students: 150
+tags:
+- Intensive Academic Advancement (進学) Focus
+- School-Managed Dormitory Options
+- Generous Scholarship Opportunities
+- Specialized EJU (University Entrance Exam) Preparation
+thumbnail: /static/img/pin-school.png
+title: Sunshine Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

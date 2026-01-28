@@ -5,6 +5,7 @@ description: Check out our curated list of the 3 Best Art Universities in Japan 
   Foreigners.
 id: best-3-art-universities
 is_featured: true
+lang: en
 layout: guide
 tags:
 - Ranking

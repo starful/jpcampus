@@ -1,56 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市左京区吉田本町",
-    "name_en": "Kyoto University",
-    "name_ja": "京都大学",
-    "website": "https://www.kyoto-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Integrated Human Studies",
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_kyoto-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.0270496,
-    "lng": 135.7823155
-  },
-  "stats": {
-    "acceptance_rate": "13%",
-    "international_students": 2600
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Kyoto University",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "translated": true
-}
+basic_info:
+  address: 京都府京都市左京区吉田本町
+  name_en: Kyoto University
+  name_ja: 京都大学
+  website: https://www.kyoto-u.ac.jp/
+category: university
+faculties:
+- Faculty of Integrated Human Studies
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_kyoto-university
+lang: en
+layout: school
+location:
+  lat: 35.0270496
+  lng: 135.7823155
+stats:
+  acceptance_rate: 13%
+  international_students: 2600
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Kyoto University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

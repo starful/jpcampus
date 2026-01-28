@@ -1,60 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nihon-university",
-  "title": "Nihon University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6909869,
-    "lng": 139.7375709
-  },
-  "basic_info": {
-    "name_ja": "日本大学",
-    "name_en": "Nihon University",
-    "address": "東京都千代田区九段南4-8-24",
-    "website": "https://www.nihon-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1500,
-    "acceptance_rate": "30%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "faculties": [
-    "College of Law",
-    "College of Humanities and Sciences",
-    "College of Economics",
-    "College of Commerce",
-    "College of Art",
-    "College of Science and Technology",
-    "College of Industrial Technology",
-    "College of Engineering",
-    "College of Medicine",
-    "College of Dentistry",
-    "College of Bioresource Sciences",
-    "College of Pharmacy",
-    "College of International Relations",
-    "College of Sports Sciences",
-    "College of Risk Management",
-    "College of Global Innovation Studies"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 東京都千代田区九段南4-8-24
+  name_en: Nihon University
+  name_ja: 日本大学
+  website: https://www.nihon-u.ac.jp/
+category: university
+faculties:
+- College of Law
+- College of Humanities and Sciences
+- College of Economics
+- College of Commerce
+- College of Art
+- College of Science and Technology
+- College of Industrial Technology
+- College of Engineering
+- College of Medicine
+- College of Dentistry
+- College of Bioresource Sciences
+- College of Pharmacy
+- College of International Relations
+- College of Sports Sciences
+- College of Risk Management
+- College of Global Innovation Studies
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_nihon-university
+lang: en
+layout: school
+location:
+  lat: 35.6909869
+  lng: 139.7375709
+stats:
+  acceptance_rate: 30%
+  international_students: 1500
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Nihon University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview

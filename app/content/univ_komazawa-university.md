@@ -1,53 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_komazawa-university",
-  "title": "Komazawa University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Japanese Language Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "駒澤大学",
-    "name_en": "Komazawa University",
-    "address": "1-23-1 Komazawa, Setagaya-ku, Tokyo 154-8525, Japan",
-    "website": "https://www.komazawa-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 400,
-    "acceptance_rate": "Competitive (Not officially published)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Buddhist Studies",
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of Business Administration",
-    "Faculty of Global Media Studies",
-    "Faculty of Medical and Health Sciences",
-    "Faculty of Psychology"
-  ],
-  "features": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Japanese Language Support"
-  ],
-  "description": "Komazawa University is a private university in Tokyo with a long history rooted in Zen Buddhist philosophy. It offers a wide range of faculties and strong support for international students.",
-  "translated": true
-}
+basic_info:
+  address: 1-23-1 Komazawa, Setagaya-ku, Tokyo 154-8525, Japan
+  name_en: Komazawa University
+  name_ja: 駒澤大学
+  website: https://www.komazawa-u.ac.jp/
+category: university
+description: Komazawa University is a private university in Tokyo with a long history
+  rooted in Zen Buddhist philosophy. It offers a wide range of faculties and strong
+  support for international students.
+faculties:
+- Faculty of Buddhist Studies
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Law
+- Faculty of Business Administration
+- Faculty of Global Media Studies
+- Faculty of Medical and Health Sciences
+- Faculty of Psychology
+features:
+- EJU Required
+- Dormitory
+- Scholarship
+- Japanese Language Support
+id: univ_komazawa-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive (Not officially published)
+  international_students: 400
+tags:
+- EJU Required
+- Dormitory
+- Scholarship
+- Japanese Language Support
+thumbnail: /static/img/pin-univ.png
+title: Komazawa University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## University Overview

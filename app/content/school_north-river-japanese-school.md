@@ -1,76 +1,64 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中村区畑江通2-8-3",
-    "capacity": 300,
-    "name_en": "North River Japanese Language School",
-    "name_ja": "ノースリバー日本語スクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2年進学コース",
-      "total_fees": 1214150
-    },
-    {
-      "admission_month": "7",
-      "course_name": "1年9か月進学コース",
-      "total_fees": 1077150
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1年6か月進学コース",
-      "total_fees": 938150
-    },
-    {
-      "admission_month": "1",
-      "course_name": "1年3か月進学コース",
-      "total_fees": 794150
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparatory",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Scholarships Available",
-    "Single Rooms Available",
-    "Science Stream Support",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term Courses"
-  ],
-  "id": "school_north-river-japanese-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.1578036,
-    "lng": 136.8679573
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=291",
-  "stats": {
-    "capacity": 300,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparatory",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Scholarships Available",
-    "Single Rooms Available",
-    "Science Stream Support",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "North River Japanese Language School",
-  "tuition": {},
-  "description": "North River Japanese Language School, located in Nagoya, offers comprehensive Japanese language education with a focus on university preparation. Features include dormitory availability, scholarship opportunities, and specialized courses like Business Japanese and Art & Design Prep.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市中村区畑江通2-8-3
+  capacity: 300
+  name_en: North River Japanese Language School
+  name_ja: ノースリバー日本語スクール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2年進学コース
+  total_fees: 1214150
+- admission_month: '7'
+  course_name: 1年9か月進学コース
+  total_fees: 1077150
+- admission_month: '10'
+  course_name: 1年6か月進学コース
+  total_fees: 938150
+- admission_month: '1'
+  course_name: 1年3か月進学コース
+  total_fees: 794150
+description: North River Japanese Language School, located in Nagoya, offers comprehensive
+  Japanese language education with a focus on university preparation. Features include
+  dormitory availability, scholarship opportunities, and specialized courses like
+  Business Japanese and Art & Design Prep.
+faculties: []
+features:
+- University Preparatory
+- EJU Preparation
+- Dormitory Available
+- Scholarships Available
+- Single Rooms Available
+- Science Stream Support
+- Conversation Practice
+- Business Japanese
+- Art & Design Prep
+- Short-term Courses
+id: school_north-river-japanese-school
+lang: en
+layout: school
+location:
+  lat: 35.1578036
+  lng: 136.8679573
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=291
+stats:
+  capacity: 300
+  international_students: 0
+tags:
+- University Preparatory
+- EJU Preparation
+- Dormitory Available
+- Scholarships Available
+- Single Rooms Available
+- Science Stream Support
+- Conversation Practice
+- Business Japanese
+- Art & Design Prep
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: North River Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

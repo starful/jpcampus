@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "sim-card-guide",
-  "title": "Best SIM Card & Mobile Plans for Students",
-  "category": "Settlement",
-  "tags": [
-    "Settlement"
-  ],
-  "description": "Comparing major carriers, sub-brands, and MVNOs.",
-  "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-01-28"
-}
+category: Settlement
+date: '2026-01-28'
+description: Comparing major carriers, sub-brands, and MVNOs.
+id: sim-card-guide
+lang: en
+layout: guide
+tags:
+- Settlement
+thumbnail: https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500
+title: Best SIM Card & Mobile Plans for Students
 ---
 
 # The Essential Guide to SIM Cards and Mobile Plans for International Students in Japan

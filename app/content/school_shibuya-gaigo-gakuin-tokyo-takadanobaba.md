@@ -1,51 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shibuya-gaigo-gakuin-tokyo-takadanobaba",
-  "title": "Shibuya Gaigo Gakuin",
-  "category": "school",
-  "tags": [
-    "Located in the academic hub of Takadanobaba, Shinjuku",
-    "Specialist focus on EJU (Examination for Japanese University Admission) preparation",
-    "High success rate for progression to prestigious universities and graduate schools",
-    "Flexible short-term study options available year-round",
-    "Comprehensive academic and visa support services"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7118505,
-    "lng": 139.7040013
-  },
-  "basic_info": {
-    "name_ja": "渋谷外語学院",
-    "address": "東京都新宿区高田馬場1-34-6　八光ビル2F、3F",
-    "capacity": 460,
-    "name_en": "Shibuya Gaigo Gakuin"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Located in the academic hub of Takadanobaba, Shinjuku",
-    "Specialist focus on EJU (Examination for Japanese University Admission) preparation",
-    "High success rate for progression to prestigious universities and graduate schools",
-    "Flexible short-term study options available year-round",
-    "Comprehensive academic and visa support services"
-  ],
-  "courses": [
-    {
-      "course_name": "総合1年コース",
-      "admission_month": "10",
-      "total_fees": 773500
-    },
-    {
-      "course_name": "総合2年コース",
-      "admission_month": "7,10,1",
-      "total_fees": 1470500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=593"
-}
+basic_info:
+  address: 東京都新宿区高田馬場1-34-6　八光ビル2F、3F
+  capacity: 460
+  name_en: Shibuya Gaigo Gakuin
+  name_ja: 渋谷外語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 総合1年コース
+  total_fees: 773500
+- admission_month: 7,10,1
+  course_name: 総合2年コース
+  total_fees: 1470500
+faculties: []
+features:
+- Located in the academic hub of Takadanobaba, Shinjuku
+- Specialist focus on EJU (Examination for Japanese University Admission) preparation
+- High success rate for progression to prestigious universities and graduate schools
+- Flexible short-term study options available year-round
+- Comprehensive academic and visa support services
+id: school_shibuya-gaigo-gakuin-tokyo-takadanobaba
+lang: en
+layout: school
+location:
+  lat: 35.7118505
+  lng: 139.7040013
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=593
+stats: {}
+tags:
+- Located in the academic hub of Takadanobaba, Shinjuku
+- Specialist focus on EJU (Examination for Japanese University Admission) preparation
+- High success rate for progression to prestigious universities and graduate schools
+- Flexible short-term study options available year-round
+- Comprehensive academic and visa support services
+thumbnail: /static/img/pin-school.png
+title: Shibuya Gaigo Gakuin
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

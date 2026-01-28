@@ -1,72 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区百人町1-13-14",
-    "capacity": 140,
-    "name_en": "Shinjuku Heiwa Japanese Language School",
-    "name_ja": "新宿平和日本語学校",
-    "category": "school",
-    "courses": [
-      {
-        "admission_month": "4",
-        "course_name": "日本語総合2年コース",
-        "total_fees": 1558000
-      },
-      {
-        "admission_month": "7",
-        "course_name": "日本語総合1年9ヶ月コース",
-        "total_fees": 1375000
-      },
-      {
-        "admission_month": "10",
-        "course_name": "日本語総合1年6ヶ月コース",
-        "total_fees": 1192000
-      },
-      {
-        "admission_month": "1",
-        "course_name": "日本語総合1年3ヶ月コース",
-        "total_fees": 1009000
-      }
-    ],
-    "faculties": [],
-    "features": [
-      "Dormitory",
-      "University Advancement",
-      "Conversation Focus",
-      "EJU Preparation"
-    ],
-    "id": "school_shinjuku-heiwa-japanese-language-school",
-    "layout": "school",
-    "location": {
-      "lat": 35.6996072,
-      "lng": 139.6991275
-    },
-    "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=127",
-    "stats": {
-      "capacity": 140,
-      "international_students": 0
-    },
-    "tags": [
-      "Dormitory",
-      "University Advancement",
-      "Conversation Focus",
-      "EJU Preparation"
-    ],
-    "thumbnail": "/static/img/pin-school.png",
-    "title": "Shinjuku Heiwa Japanese Language School",
-    "tuition": {}
-  },
-  "content_body": "## 🏫 School Overview & Philosophy",
-  "translated": true,
-  "description": "Discover Shinjuku Heiwa Japanese Language School in Tokyo: a leading institution for Japanese language education, specializing in university preparation. Explore courses, campus life, and accommodation options.",
-  "features": [
-    "Dormitory",
-    "University Preparation",
-    "Conversation Focused Classes",
-    "EJU Exam Preparation"
-  ],
-  "title": "Shinjuku Heiwa Japanese Language School"
-}
+basic_info:
+  address: 東京都新宿区百人町1-13-14
+  capacity: 140
+  category: school
+  courses:
+  - admission_month: '4'
+    course_name: 日本語総合2年コース
+    total_fees: 1558000
+  - admission_month: '7'
+    course_name: 日本語総合1年9ヶ月コース
+    total_fees: 1375000
+  - admission_month: '10'
+    course_name: 日本語総合1年6ヶ月コース
+    total_fees: 1192000
+  - admission_month: '1'
+    course_name: 日本語総合1年3ヶ月コース
+    total_fees: 1009000
+  faculties: []
+  features:
+  - Dormitory
+  - University Advancement
+  - Conversation Focus
+  - EJU Preparation
+  id: school_shinjuku-heiwa-japanese-language-school
+  layout: school
+  location:
+    lat: 35.6996072
+    lng: 139.6991275
+  name_en: Shinjuku Heiwa Japanese Language School
+  name_ja: 新宿平和日本語学校
+  source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=127
+  stats:
+    capacity: 140
+    international_students: 0
+  tags:
+  - Dormitory
+  - University Advancement
+  - Conversation Focus
+  - EJU Preparation
+  thumbnail: /static/img/pin-school.png
+  title: Shinjuku Heiwa Japanese Language School
+  tuition: {}
+content_body: "## \U0001F3EB School Overview & Philosophy"
+description: 'Discover Shinjuku Heiwa Japanese Language School in Tokyo: a leading
+  institution for Japanese language education, specializing in university preparation.
+  Explore courses, campus life, and accommodation options.'
+features:
+- Dormitory
+- University Preparation
+- Conversation Focused Classes
+- EJU Exam Preparation
+lang: en
+title: Shinjuku Heiwa Japanese Language School
+translated: true
 ---
 
 ## 🏫 School Overview & Philosophy

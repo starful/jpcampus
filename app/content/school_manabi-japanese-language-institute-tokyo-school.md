@@ -1,69 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都墨田区両国2-10-5",
-    "capacity": 720,
-    "name_en": "MANABI Japanese Language Institute Tokyo Campus",
-    "name_ja": "ＭＡＮＡＢＩ外語学院東京校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1427760
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1258740
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1089720
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 920700
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 818640
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Higher Education Progression",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Short-term Courses"
-  ],
-  "id": "school_manabi-japanese-language-institute-tokyo-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.6940159,
-    "lng": 139.7913053
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=154",
-  "stats": {
-    "capacity": 720,
-    "international_students": 0
-  },
-  "tags": [
-    "Higher Education Progression",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "MANABI Japanese Language Institute Tokyo Campus",
-  "tuition": {},
-  "translated": true,
-  "description": "Located in Tokyo's Ryogoku district, MANABI Japanese Language Institute Tokyo Campus prepares students for higher education with comprehensive courses and a focus on personalized learning."
-}
+basic_info:
+  address: 東京都墨田区両国2-10-5
+  capacity: 720
+  name_en: MANABI Japanese Language Institute Tokyo Campus
+  name_ja: ＭＡＮＡＢＩ外語学院東京校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1427760
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1258740
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1089720
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 920700
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 818640
+description: Located in Tokyo's Ryogoku district, MANABI Japanese Language Institute
+  Tokyo Campus prepares students for higher education with comprehensive courses and
+  a focus on personalized learning.
+faculties: []
+features:
+- Higher Education Progression
+- EJU Preparation
+- Dormitory Available
+- Short-term Courses
+id: school_manabi-japanese-language-institute-tokyo-school
+lang: en
+layout: school
+location:
+  lat: 35.6940159
+  lng: 139.7913053
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=154
+stats:
+  capacity: 720
+  international_students: 0
+tags:
+- Higher Education Progression
+- EJU Preparation
+- Dormitory Available
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: MANABI Japanese Language Institute Tokyo Campus
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

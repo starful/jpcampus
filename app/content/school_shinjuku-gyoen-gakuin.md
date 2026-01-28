@@ -1,63 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区新宿2-3-13",
-    "capacity": 174,
-    "name_en": "Shinjuku Gyoen Gakuin",
-    "name_ja": "新宿御苑学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "一月期生",
-      "total_fees": 966000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "四月期生",
-      "total_fees": 1482000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "七月期生",
-      "total_fees": 1327000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "十月期生",
-      "total_fees": 1146000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Advancement",
-    "Small Class Sizes",
-    "Dormitory Available",
-    "EJU Preparation"
-  ],
-  "id": "school_shinjuku-gyoen-gakuin",
-  "layout": "school",
-  "location": {
-    "lat": 35.68910839999999,
-    "lng": 139.7081169
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=103",
-  "stats": {
-    "capacity": 174,
-    "international_students": 0
-  },
-  "tags": [
-    "University Advancement",
-    "Small Class Sizes",
-    "Dormitory Available",
-    "EJU Preparation"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Shinjuku Gyoen Gakuin",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区新宿2-3-13
+  capacity: 174
+  name_en: Shinjuku Gyoen Gakuin
+  name_ja: 新宿御苑学院
+category: school
+courses:
+- admission_month: '1'
+  course_name: 一月期生
+  total_fees: 966000
+- admission_month: '4'
+  course_name: 四月期生
+  total_fees: 1482000
+- admission_month: '7'
+  course_name: 七月期生
+  total_fees: 1327000
+- admission_month: '10'
+  course_name: 十月期生
+  total_fees: 1146000
+faculties: []
+features:
+- University Advancement
+- Small Class Sizes
+- Dormitory Available
+- EJU Preparation
+id: school_shinjuku-gyoen-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.68910839999999
+  lng: 139.7081169
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=103
+stats:
+  capacity: 174
+  international_students: 0
+tags:
+- University Advancement
+- Small Class Sizes
+- Dormitory Available
+- EJU Preparation
+thumbnail: /static/img/pin-school.png
+title: Shinjuku Gyoen Gakuin
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

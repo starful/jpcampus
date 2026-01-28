@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_senshu-university",
-  "title": "Senshu University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Career Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "専修大学",
-    "name_en": "Senshu University",
-    "address": "2-1-1 Higashi-Mita, Tama-ku, Kawasaki-shi, Kanagawa 214-8580, Japan (Ikuta Campus)",
-    "website": "https://www.senshu-u.ac.jp/english/"
-  },
-  "stats": {
-    "international_students": 600,
-    "acceptance_rate": "Competitive"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1000000
-  },
-  "faculties": [
-    "School of Economics",
-    "School of Law",
-    "School of Business Administration",
-    "School of Humanities",
-    "School of Commerce",
-    "School of Network and Information",
-    "School of International Cultural Relations",
-    "School of Human Development"
-  ],
-  "features": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Career Support"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 2-1-1 Higashi-Mita, Tama-ku, Kawasaki-shi, Kanagawa 214-8580, Japan (Ikuta
+    Campus)
+  name_en: Senshu University
+  name_ja: 専修大学
+  website: https://www.senshu-u.ac.jp/english/
+category: university
+faculties:
+- School of Economics
+- School of Law
+- School of Business Administration
+- School of Humanities
+- School of Commerce
+- School of Network and Information
+- School of International Cultural Relations
+- School of Human Development
+features:
+- EJU Required
+- Dormitory
+- Scholarship
+- Career Support
+id: univ_senshu-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive
+  international_students: 600
+tags:
+- EJU Required
+- Dormitory
+- Scholarship
+- Career Support
+thumbnail: /static/img/pin-univ.png
+title: Senshu University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1000000
 ---
 
 ## University Overview

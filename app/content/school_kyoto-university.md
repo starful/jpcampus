@@ -1,57 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kyoto-university",
-  "title": "Kyoto University",
-  "description": "Kyoto University is one of Japan's leading national universities, globally recognized for its research achievements, dedication to the 'Spirit of Freedom,' and its numerous Nobel laureates.",
-  "category": "school",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.0270496,
-    "lng": 135.7823155
-  },
-  "basic_info": {
-    "name_ja": "京都大学",
-    "name_en": "Kyoto University",
-    "address": "Yoshida-Honmachi, Sakyo Ward, Kyoto",
-    "website": "https://www.kyoto-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 2400,
-    "acceptance_rate": "15%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Integrated Human Studies"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: Yoshida-Honmachi, Sakyo Ward, Kyoto
+  name_en: Kyoto University
+  name_ja: 京都大学
+  website: https://www.kyoto-u.ac.jp/
+category: school
+description: Kyoto University is one of Japan's leading national universities, globally
+  recognized for its research achievements, dedication to the 'Spirit of Freedom,'
+  and its numerous Nobel laureates.
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Integrated Human Studies
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: school_kyoto-university
+lang: en
+layout: school
+location:
+  lat: 35.0270496
+  lng: 135.7823155
+stats:
+  acceptance_rate: 15%
+  international_students: 2400
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-school.png
+title: Kyoto University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## School Overview & Philosophy

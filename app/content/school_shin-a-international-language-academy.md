@@ -1,80 +1,63 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shin-a-international-language-academy",
-  "title": "Shin-A International Language Academy",
-  "category": "school",
-  "tags": [
-    "School-Affiliated Dormitory Options",
-    "EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive University Advancement Focus",
-    "Scholarship Opportunities Available",
-    "Specialized Science Track Support (Rikei)",
-    "Single Room Dormitory Availability",
-    "Emphasis on Practical Conversational Japanese",
-    "Business Japanese and Career Training",
-    "Dedicated Art and Design Track Preparation",
-    "Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.5727734,
-    "lng": 135.4843729
-  },
-  "basic_info": {
-    "name_ja": "新亜国際語言学院",
-    "address": "大阪府堺市堺区榎元町1-1-6",
-    "capacity": 130,
-    "name_en": "Shin-A International Language Academy"
-  },
-  "stats": {
-    "international_students": 130,
-    "capacity": 130
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "School-Affiliated Dormitory Options",
-    "EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive University Advancement Focus",
-    "Scholarship Opportunities Available",
-    "Specialized Science Track Support (Rikei)",
-    "Single Room Dormitory Availability",
-    "Emphasis on Practical Conversational Japanese",
-    "Business Japanese and Career Training",
-    "Dedicated Art and Design Track Preparation",
-    "Short-Term Study Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1473200
-    },
-    {
-      "course_name": "進学1年9ヵ月コース",
-      "admission_month": "7",
-      "total_fees": 1299850
-    },
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1126500
-    },
-    {
-      "course_name": "進学1年3ヵ月コース",
-      "admission_month": "1",
-      "total_fees": 953150
-    },
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 779800
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=354",
-  "translated": true
-}
+basic_info:
+  address: 大阪府堺市堺区榎元町1-1-6
+  capacity: 130
+  name_en: Shin-A International Language Academy
+  name_ja: 新亜国際語言学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1473200
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1299850
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1126500
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 953150
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 779800
+faculties: []
+features:
+- School-Affiliated Dormitory Options
+- EJU (Examination for Japanese University Admission) Preparation
+- Intensive University Advancement Focus
+- Scholarship Opportunities Available
+- Specialized Science Track Support (Rikei)
+- Single Room Dormitory Availability
+- Emphasis on Practical Conversational Japanese
+- Business Japanese and Career Training
+- Dedicated Art and Design Track Preparation
+- Short-Term Study Programs
+id: school_shin-a-international-language-academy
+lang: en
+layout: school
+location:
+  lat: 34.5727734
+  lng: 135.4843729
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=354
+stats:
+  capacity: 130
+  international_students: 130
+tags:
+- School-Affiliated Dormitory Options
+- EJU (Examination for Japanese University Admission) Preparation
+- Intensive University Advancement Focus
+- Scholarship Opportunities Available
+- Specialized Science Track Support (Rikei)
+- Single Room Dormitory Availability
+- Emphasis on Practical Conversational Japanese
+- Business Japanese and Career Training
+- Dedicated Art and Design Track Preparation
+- Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: Shin-A International Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

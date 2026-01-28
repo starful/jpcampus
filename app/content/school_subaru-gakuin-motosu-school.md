@@ -1,61 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "school_subaru-gakuin-motosu-school",
-  "title": "Subaru Gakuin Motosu School",
-  "category": "school",
-  "tags": [
-    "Intensive University and Graduate School Preparation",
-    "On-site Dormitory Facilities",
-    "Guaranteed Single Room Dormitory Options",
-    "Targeted EJU Preparation (Liberal Arts and STEM)",
-    "Specialized Tracks (Art, Design, Business Japanese)",
-    "Focus on Conversation and Practical Japanese",
-    "Scholarship Opportunities",
-    "Located in Gifu Prefecture (Lower cost of living)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.4347003,
-    "lng": 136.6762112
-  },
-  "basic_info": {
-    "name_ja": "スバル学院本巣校",
-    "address": "岐阜県本巣市上真桑1963番地",
-    "capacity": 160,
-    "name_en": "Subaru Gakuin Motosu School"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 160
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Intensive University and Graduate School Preparation",
-    "On-site Dormitory Facilities",
-    "Guaranteed Single Room Dormitory Options",
-    "Targeted EJU Preparation (Liberal Arts and STEM)",
-    "Specialized Tracks (Art, Design, Business Japanese)",
-    "Focus on Conversation and Practical Japanese",
-    "Scholarship Opportunities",
-    "Located in Gifu Prefecture (Lower cost of living)"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1510000
-    },
-    {
-      "course_name": "日本語進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1150000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=276",
-  "translated": true
-}
+basic_info:
+  address: 岐阜県本巣市上真桑1963番地
+  capacity: 160
+  name_en: Subaru Gakuin Motosu School
+  name_ja: スバル学院本巣校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語進学2年コース
+  total_fees: 1510000
+- admission_month: '10'
+  course_name: 日本語進学1年6か月コース
+  total_fees: 1150000
+faculties: []
+features:
+- Intensive University and Graduate School Preparation
+- On-site Dormitory Facilities
+- Guaranteed Single Room Dormitory Options
+- Targeted EJU Preparation (Liberal Arts and STEM)
+- Specialized Tracks (Art, Design, Business Japanese)
+- Focus on Conversation and Practical Japanese
+- Scholarship Opportunities
+- Located in Gifu Prefecture (Lower cost of living)
+id: school_subaru-gakuin-motosu-school
+lang: en
+layout: school
+location:
+  lat: 35.4347003
+  lng: 136.6762112
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=276
+stats:
+  capacity: 160
+  international_students: null
+tags:
+- Intensive University and Graduate School Preparation
+- On-site Dormitory Facilities
+- Guaranteed Single Room Dormitory Options
+- Targeted EJU Preparation (Liberal Arts and STEM)
+- Specialized Tracks (Art, Design, Business Japanese)
+- Focus on Conversation and Practical Japanese
+- Scholarship Opportunities
+- Located in Gifu Prefecture (Lower cost of living)
+thumbnail: /static/img/pin-school.png
+title: Subaru Gakuin Motosu School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

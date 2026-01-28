@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_j-f-oberlin-university-international-guide",
-  "title": "J.F. Oberlin University",
-  "category": "university",
-  "tags": [
-    "Comprehensive Liberal Arts Education (Gakugun System)",
-    "Specialized Aviation Management Program",
-    "EJU Required (for Japanese Track)",
-    "Limited English Track Programs (Global Studies)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桜美林大学",
-    "name_en": "J.F. Oberlin University",
-    "address": "3758 Tokiwa-cho, Machida-shi, Tokyo 194-0294, Japan (Machida Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 1200,
-    "acceptance_rate": "50-65%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "College of Arts and Sciences (Liberal Arts)",
-    "College of Business Management",
-    "College of Health and Welfare",
-    "College of Global Communication",
-    "College of Aviation Management",
-    "College of Education and Social Innovation",
-    "College of Performing and Visual Arts"
-  ],
-  "features": [
-    "Comprehensive Liberal Arts Education (Gakugun System)",
-    "Specialized Aviation Management Program",
-    "EJU Required (for Japanese Track)",
-    "Limited English Track Programs (Global Studies)"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 3758 Tokiwa-cho, Machida-shi, Tokyo 194-0294, Japan (Machida Campus)
+  capacity: null
+  name_en: J.F. Oberlin University
+  name_ja: 桜美林大学
+category: university
+faculties:
+- College of Arts and Sciences (Liberal Arts)
+- College of Business Management
+- College of Health and Welfare
+- College of Global Communication
+- College of Aviation Management
+- College of Education and Social Innovation
+- College of Performing and Visual Arts
+features:
+- Comprehensive Liberal Arts Education (Gakugun System)
+- Specialized Aviation Management Program
+- EJU Required (for Japanese Track)
+- Limited English Track Programs (Global Studies)
+id: univ_j-f-oberlin-university-international-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 50-65%
+  international_students: 1200
+tags:
+- Comprehensive Liberal Arts Education (Gakugun System)
+- Specialized Aviation Management Program
+- EJU Required (for Japanese Track)
+- Limited English Track Programs (Global Studies)
+thumbnail: /static/img/pin-univ.png
+title: J.F. Oberlin University
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## University Overview

@@ -1,65 +1,54 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kokusai-nihongo-gakuin",
-  "title": "Kokusai Nihongo Gakuin (International Japanese Language Institute)",
-  "category": "school",
-  "tags": [
-    "University Progression Focused",
-    "EJU and JLPT Specialized Training",
-    "Exceptional Support for STEM (Science) Track Applicants",
-    "Premium Central Tokyo Location (Nihonbashi)",
-    "Small School Capacity for Personalized Guidance",
-    "Highly Structured Academic Curriculum"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6852133,
-    "lng": 139.7908609
-  },
-  "basic_info": {
-    "name_ja": "国際日本語学院",
-    "address": "東京都中央区日本橋浜町3-36-4",
-    "capacity": 180,
-    "name_en": "Kokusai Nihongo Gakuin"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Progression Focused",
-    "EJU and JLPT Specialized Training",
-    "Exceptional Support for STEM (Science) Track Applicants",
-    "Premium Central Tokyo Location (Nihonbashi)",
-    "Small School Capacity for Personalized Guidance",
-    "Highly Structured Academic Curriculum"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1300000
-    },
-    {
-      "course_name": "進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1147500
-    },
-    {
-      "course_name": "進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 993000
-    },
-    {
-      "course_name": "進学1年3ヶ月コース",
-      "admission_month": "1",
-      "total_fees": 842500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=91",
-  "description": "Kokusai Nihongo Gakuin is a specialized Japanese language school in central Tokyo (Nihonbashi) focused on preparing students for university and graduate school entrance. They offer intensive EJU and JLPT training with personalized guidance and STEM support.",
-  "translated": true
-}
+basic_info:
+  address: 東京都中央区日本橋浜町3-36-4
+  capacity: 180
+  name_en: Kokusai Nihongo Gakuin
+  name_ja: 国際日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1300000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1147500
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 993000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 842500
+description: Kokusai Nihongo Gakuin is a specialized Japanese language school in central
+  Tokyo (Nihonbashi) focused on preparing students for university and graduate school
+  entrance. They offer intensive EJU and JLPT training with personalized guidance
+  and STEM support.
+faculties: []
+features:
+- University Progression Focused
+- EJU and JLPT Specialized Training
+- Exceptional Support for STEM (Science) Track Applicants
+- Premium Central Tokyo Location (Nihonbashi)
+- Small School Capacity for Personalized Guidance
+- Highly Structured Academic Curriculum
+id: school_kokusai-nihongo-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.6852133
+  lng: 139.7908609
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=91
+stats: {}
+tags:
+- University Progression Focused
+- EJU and JLPT Specialized Training
+- Exceptional Support for STEM (Science) Track Applicants
+- Premium Central Tokyo Location (Nihonbashi)
+- Small School Capacity for Personalized Guidance
+- Highly Structured Academic Curriculum
+thumbnail: /static/img/pin-school.png
+title: Kokusai Nihongo Gakuin (International Japanese Language Institute)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

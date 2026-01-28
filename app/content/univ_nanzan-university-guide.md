@@ -1,57 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nanzan-university-guide",
-  "title": "Nanzan University",
-  "category": "university",
-  "tags": [
-    "Regional Top Private University",
-    "Catholic Affiliation",
-    "EJU Required (for most programs)",
-    "English Degree Program (GALS)",
-    "Strong Foreign Language Focus",
-    "Located in Nagoya"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "南山大学",
-    "name_en": "Nanzan University",
-    "address": "466-8673 Aichi, Nagoya, Showa Ward, Gokenyacho 27-1",
-    "website": "https://www.nanzan-u.ac.jp/english/"
-  },
-  "stats": {
-    "international_students": 650,
-    "acceptance_rate": "Competitive (Varies by Faculty)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "Humanities",
-    "Foreign Studies",
-    "Economics",
-    "Business Administration",
-    "Law",
-    "Policy Studies",
-    "Global Liberal Studies (GALS)",
-    "Science and Technology"
-  ],
-  "features": [
-    "Regional Top Private University",
-    "Catholic Affiliation",
-    "EJU Required (for most programs)",
-    "English Degree Program (GALS)",
-    "Strong Foreign Language Focus",
-    "Located in Nagoya"
-  ],
-  "description": "Nanzan University, a leading private university in the Chubu region of Japan, offering a strong international focus, particularly known for its foreign studies and GALS program.",
-  "translated": true
-}
+basic_info:
+  address: 466-8673 Aichi, Nagoya, Showa Ward, Gokenyacho 27-1
+  name_en: Nanzan University
+  name_ja: 南山大学
+  website: https://www.nanzan-u.ac.jp/english/
+category: university
+description: Nanzan University, a leading private university in the Chubu region of
+  Japan, offering a strong international focus, particularly known for its foreign
+  studies and GALS program.
+faculties:
+- Humanities
+- Foreign Studies
+- Economics
+- Business Administration
+- Law
+- Policy Studies
+- Global Liberal Studies (GALS)
+- Science and Technology
+features:
+- Regional Top Private University
+- Catholic Affiliation
+- EJU Required (for most programs)
+- English Degree Program (GALS)
+- Strong Foreign Language Focus
+- Located in Nagoya
+id: univ_nanzan-university-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive (Varies by Faculty)
+  international_students: 650
+tags:
+- Regional Top Private University
+- Catholic Affiliation
+- EJU Required (for most programs)
+- English Degree Program (GALS)
+- Strong Foreign Language Focus
+- Located in Nagoya
+thumbnail: /static/img/pin-univ.png
+title: Nanzan University
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1250000
 ---
 
 ## University Overview & Reputation

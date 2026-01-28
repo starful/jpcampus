@@ -1,62 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kyoto-reigaku-international-academy-expert-guide",
-  "title": "Kyoto Reigaku International Academy",
-  "category": "school",
-  "tags": [
-    "Specialized University Preparation (Shingaku)",
-    "Dedicated EJU and Science/Art Track Support",
-    "Mandatory Single-Room Dormitory Options for Maximum Focus",
-    "Located in the Cultural and Academic Hub of Kyoto",
-    "Small Student Capacity Ensuring Personalized Attention",
-    "Robust Scholarship and Financial Aid Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.9422923,
-    "lng": 135.7617884
-  },
-  "basic_info": {
-    "name_ja": "京都励学国際学院",
-    "address": "京都府京都市伏見区上板橋町513",
-    "capacity": 120,
-    "name_en": "Kyoto Reigaku International Academy"
-  },
-  "stats": {
-    "international_students": 120,
-    "capacity": 120
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized University Preparation (Shingaku)",
-    "Dedicated EJU and Science/Art Track Support",
-    "Mandatory Single-Room Dormitory Options for Maximum Focus",
-    "Located in the Cultural and Academic Hub of Kyoto",
-    "Small Student Capacity Ensuring Personalized Attention",
-    "Robust Scholarship and Financial Aid Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コースⅠ",
-      "admission_month": "4",
-      "total_fees": 1370000
-    },
-    {
-      "course_name": "進学コースⅡ",
-      "admission_month": "10",
-      "total_fees": 1045000
-    },
-    {
-      "course_name": "進学コースⅢ",
-      "admission_month": "7",
-      "total_fees": 1207500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=319",
-  "translated": true
-}
+basic_info:
+  address: 京都府京都市伏見区上板橋町513
+  capacity: 120
+  name_en: Kyoto Reigaku International Academy
+  name_ja: 京都励学国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コースⅠ
+  total_fees: 1370000
+- admission_month: '10'
+  course_name: 進学コースⅡ
+  total_fees: 1045000
+- admission_month: '7'
+  course_name: 進学コースⅢ
+  total_fees: 1207500
+faculties: []
+features:
+- Specialized University Preparation (Shingaku)
+- Dedicated EJU and Science/Art Track Support
+- Mandatory Single-Room Dormitory Options for Maximum Focus
+- Located in the Cultural and Academic Hub of Kyoto
+- Small Student Capacity Ensuring Personalized Attention
+- Robust Scholarship and Financial Aid Programs
+id: school_kyoto-reigaku-international-academy-expert-guide
+lang: en
+layout: school
+location:
+  lat: 34.9422923
+  lng: 135.7617884
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=319
+stats:
+  capacity: 120
+  international_students: 120
+tags:
+- Specialized University Preparation (Shingaku)
+- Dedicated EJU and Science/Art Track Support
+- Mandatory Single-Room Dormitory Options for Maximum Focus
+- Located in the Cultural and Academic Hub of Kyoto
+- Small Student Capacity Ensuring Personalized Attention
+- Robust Scholarship and Financial Aid Programs
+thumbnail: /static/img/pin-school.png
+title: Kyoto Reigaku International Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

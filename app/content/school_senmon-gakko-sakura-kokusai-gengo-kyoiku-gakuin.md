@@ -1,62 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_senmon-gakko-sakura-kokusai-gengo-kyoiku-gakuin",
-  "title": "Sakura International Language Education College",
-  "category": "school",
-  "tags": [
-    "Comprehensive Progression Tracks (EJU, Science, Art, Business)",
-    "Dormitory Accommodation Guaranteed",
-    "Scholarship Opportunities",
-    "Located in Scenic Hagi, Yamaguchi Prefecture",
-    "Specialized Training College (Senmon Gakko) Structure",
-    "Short-term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.41646,
-    "lng": 131.409392
-  },
-  "basic_info": {
-    "name_ja": "専門学校さくら国際言語教育学院",
-    "address": "山口県萩市大字椿東3000-10",
-    "capacity": 120,
-    "name_en": "Sakura International Language Education College"
-  },
-  "stats": {
-    "international_students": 0,
-    "capacity": 120
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive Progression Tracks (EJU, Science, Art, Business)",
-    "Dormitory Accommodation Guaranteed",
-    "Scholarship Opportunities",
-    "Located in Scenic Hagi, Yamaguchi Prefecture",
-    "Specialized Training College (Senmon Gakko) Structure",
-    "Short-term Study Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コースA",
-      "admission_month": "4",
-      "total_fees": 1360000
-    },
-    {
-      "course_name": "進学コースB",
-      "admission_month": "7",
-      "total_fees": 1197500
-    },
-    {
-      "course_name": "進学コースC",
-      "admission_month": "10",
-      "total_fees": 1035000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=405",
-  "translated": true
-}
+basic_info:
+  address: 山口県萩市大字椿東3000-10
+  capacity: 120
+  name_en: Sakura International Language Education College
+  name_ja: 専門学校さくら国際言語教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コースA
+  total_fees: 1360000
+- admission_month: '7'
+  course_name: 進学コースB
+  total_fees: 1197500
+- admission_month: '10'
+  course_name: 進学コースC
+  total_fees: 1035000
+faculties: []
+features:
+- Comprehensive Progression Tracks (EJU, Science, Art, Business)
+- Dormitory Accommodation Guaranteed
+- Scholarship Opportunities
+- Located in Scenic Hagi, Yamaguchi Prefecture
+- Specialized Training College (Senmon Gakko) Structure
+- Short-term Study Options Available
+id: school_senmon-gakko-sakura-kokusai-gengo-kyoiku-gakuin
+lang: en
+layout: school
+location:
+  lat: 34.41646
+  lng: 131.409392
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=405
+stats:
+  capacity: 120
+  international_students: 0
+tags:
+- Comprehensive Progression Tracks (EJU, Science, Art, Business)
+- Dormitory Accommodation Guaranteed
+- Scholarship Opportunities
+- Located in Scenic Hagi, Yamaguchi Prefecture
+- Specialized Training College (Senmon Gakko) Structure
+- Short-term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: Sakura International Language Education College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

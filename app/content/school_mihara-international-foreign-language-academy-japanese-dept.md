@@ -1,59 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_mihara-international-foreign-language-academy-japanese-dept",
-  "title": "Mihara International Foreign Language Academy (Japanese Department)",
-  "category": "school",
-  "tags": [
-    "Integrated Student Dormitory (Accommodation Guarantee)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Dedicated Higher Education Progression Support",
-    "Emphasis on Practical Conversation and Communication Skills",
-    "Flexible Short-Term Study Options",
-    "Located in the Chugoku Region (Hiroshima Prefecture)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.3903297,
-    "lng": 133.0746919
-  },
-  "basic_info": {
-    "name_ja": "三原国際外語学院日本語科",
-    "address": "広島県三原市宮沖5-8-15",
-    "capacity": 120,
-    "name_en": "Mihara International Foreign Language Academy (Japanese Department)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Integrated Student Dormitory (Accommodation Guarantee)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Dedicated Higher Education Progression Support",
-    "Emphasis on Practical Conversation and Communication Skills",
-    "Flexible Short-Term Study Options",
-    "Located in the Chugoku Region (Hiroshima Prefecture)"
-  ],
-  "courses": [
-    {
-      "course_name": "基礎1年コース",
-      "admission_month": "4",
-      "total_fees": 675000
-    },
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 675000
-    },
-    {
-      "course_name": "進学1.5年コース",
-      "admission_month": "10",
-      "total_fees": 955000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=398",
-  "translated": true
-}
+basic_info:
+  address: 広島県三原市宮沖5-8-15
+  capacity: 120
+  name_en: Mihara International Foreign Language Academy (Japanese Department)
+  name_ja: 三原国際外語学院日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 基礎1年コース
+  total_fees: 675000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 675000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 955000
+faculties: []
+features:
+- Integrated Student Dormitory (Accommodation Guarantee)
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Dedicated Higher Education Progression Support
+- Emphasis on Practical Conversation and Communication Skills
+- Flexible Short-Term Study Options
+- Located in the Chugoku Region (Hiroshima Prefecture)
+id: school_mihara-international-foreign-language-academy-japanese-dept
+lang: en
+layout: school
+location:
+  lat: 34.3903297
+  lng: 133.0746919
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=398
+stats: {}
+tags:
+- Integrated Student Dormitory (Accommodation Guarantee)
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Dedicated Higher Education Progression Support
+- Emphasis on Practical Conversation and Communication Skills
+- Flexible Short-Term Study Options
+- Located in the Chugoku Region (Hiroshima Prefecture)
+thumbnail: /static/img/pin-school.png
+title: Mihara International Foreign Language Academy (Japanese Department)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

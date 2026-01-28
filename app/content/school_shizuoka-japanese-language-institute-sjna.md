@@ -1,51 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shizuoka-japanese-language-institute-sjna",
-  "title": "Shizuoka Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "Comprehensive University and Vocational School Preparation (EJU Focus)",
-    "Specialized STEM (Science) and Art/Design Tracks",
-    "On-Campus Dormitory Options, including Single Rooms",
-    "Robust Scholarship and Financial Aid Programs",
-    "Advanced Business and Conversational Japanese Training"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.983189,
-    "lng": 138.4068806
-  },
-  "basic_info": {
-    "name_ja": "静岡日本語学院",
-    "address": "静岡県静岡市葵区宮前町110-11",
-    "capacity": 225,
-    "name_en": "Shizuoka Japanese Language Institute"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive University and Vocational School Preparation (EJU Focus)",
-    "Specialized STEM (Science) and Art/Design Tracks",
-    "On-Campus Dormitory Options, including Single Rooms",
-    "Robust Scholarship and Financial Aid Programs",
-    "Advanced Business and Conversational Japanese Training"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1442000
-    },
-    {
-      "course_name": "進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1112000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=604"
-}
+basic_info:
+  address: 静岡県静岡市葵区宮前町110-11
+  capacity: 225
+  name_en: Shizuoka Japanese Language Institute
+  name_ja: 静岡日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1442000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1112000
+faculties: []
+features:
+- Comprehensive University and Vocational School Preparation (EJU Focus)
+- Specialized STEM (Science) and Art/Design Tracks
+- On-Campus Dormitory Options, including Single Rooms
+- Robust Scholarship and Financial Aid Programs
+- Advanced Business and Conversational Japanese Training
+id: school_shizuoka-japanese-language-institute-sjna
+lang: en
+layout: school
+location:
+  lat: 34.983189
+  lng: 138.4068806
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=604
+stats: {}
+tags:
+- Comprehensive University and Vocational School Preparation (EJU Focus)
+- Specialized STEM (Science) and Art/Design Tracks
+- On-Campus Dormitory Options, including Single Rooms
+- Robust Scholarship and Financial Aid Programs
+- Advanced Business and Conversational Japanese Training
+thumbnail: /static/img/pin-school.png
+title: Shizuoka Japanese Language Institute
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

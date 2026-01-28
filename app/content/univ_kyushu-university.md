@@ -1,60 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyushu-university",
-  "title": "Kyushu University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 33.6227692,
-    "lng": 130.4253123
-  },
-  "basic_info": {
-    "name_ja": "九州大学",
-    "name_en": "Kyushu University",
-    "address": "福岡県福岡市東区箱崎６丁目１０−１",
-    "website": "https://www.kyushu-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 2500,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Art and Science",
-    "School of Interdisciplinary Science and Innovation",
-    "Faculty of Design",
-    "Faculty of Information Science and Electrical Engineering"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 福岡県福岡市東区箱崎６丁目１０−１
+  name_en: Kyushu University
+  name_ja: 九州大学
+  website: https://www.kyushu-u.ac.jp/
+category: university
+faculties:
+- Faculty of Humanities
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Art and Science
+- School of Interdisciplinary Science and Innovation
+- Faculty of Design
+- Faculty of Information Science and Electrical Engineering
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_kyushu-university
+lang: en
+layout: school
+location:
+  lat: 33.6227692
+  lng: 130.4253123
+stats:
+  acceptance_rate: 25%
+  international_students: 2500
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Kyushu University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

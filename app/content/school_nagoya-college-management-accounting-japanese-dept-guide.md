@@ -1,65 +1,56 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nagoya-college-management-accounting-japanese-dept-guide",
-  "title": "Nagoya College of Management and Accounting, Japanese Language Department",
-  "category": "school",
-  "tags": [
-    "Strong Focus on Higher Education Progression (Shin-gaku)",
-    "Small Class Sizes for Personalized Attention",
-    "Integrated Learning Environment within a Vocational College (Senmon Gakko)",
-    "Comprehensive Progression Tracks (EJU, Science, Business, Art/Design)",
-    "Eligibility for 'Senmonshi' (Specialist Degree Title) upon graduation and specialized study",
-    "School-managed Dormitory Options Available",
-    "Availability of Single Room Dormitory Units",
-    "Emphasis on Practical Conversational Skills (Kaiwa)",
-    "Generous Scholarship Opportunities",
-    "Short-Term Study Opportunities Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.1685769,
-    "lng": 136.9423278
-  },
-  "basic_info": {
-    "name_ja": "名古屋経営会計専門学校日本語科",
-    "address": "愛知県名古屋市千種区仲田2-17-5",
-    "capacity": 320,
-    "name_en": "Nagoya College of Management and Accounting, Japanese Language Department"
-  },
-  "stats": {
-    "international_students": 0,
-    "capacity": 320
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Strong Focus on Higher Education Progression (Shin-gaku)",
-    "Small Class Sizes for Personalized Attention",
-    "Integrated Learning Environment within a Vocational College (Senmon Gakko)",
-    "Comprehensive Progression Tracks (EJU, Science, Business, Art/Design)",
-    "Eligibility for 'Senmonshi' (Specialist Degree Title) upon graduation and specialized study",
-    "School-managed Dormitory Options Available",
-    "Availability of Single Room Dormitory Units",
-    "Emphasis on Practical Conversational Skills (Kaiwa)",
-    "Generous Scholarship Opportunities",
-    "Short-Term Study Opportunities Available"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語科2年コース",
-      "admission_month": "4",
-      "total_fees": 1639000
-    },
-    {
-      "course_name": "日本語科1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1249000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=284",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市千種区仲田2-17-5
+  capacity: 320
+  name_en: Nagoya College of Management and Accounting, Japanese Language Department
+  name_ja: 名古屋経営会計専門学校日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語科2年コース
+  total_fees: 1639000
+- admission_month: '10'
+  course_name: 日本語科1.5年コース
+  total_fees: 1249000
+faculties: []
+features:
+- Strong Focus on Higher Education Progression (Shin-gaku)
+- Small Class Sizes for Personalized Attention
+- Integrated Learning Environment within a Vocational College (Senmon Gakko)
+- Comprehensive Progression Tracks (EJU, Science, Business, Art/Design)
+- Eligibility for 'Senmonshi' (Specialist Degree Title) upon graduation and specialized
+  study
+- School-managed Dormitory Options Available
+- Availability of Single Room Dormitory Units
+- Emphasis on Practical Conversational Skills (Kaiwa)
+- Generous Scholarship Opportunities
+- Short-Term Study Opportunities Available
+id: school_nagoya-college-management-accounting-japanese-dept-guide
+lang: en
+layout: school
+location:
+  lat: 35.1685769
+  lng: 136.9423278
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=284
+stats:
+  capacity: 320
+  international_students: 0
+tags:
+- Strong Focus on Higher Education Progression (Shin-gaku)
+- Small Class Sizes for Personalized Attention
+- Integrated Learning Environment within a Vocational College (Senmon Gakko)
+- Comprehensive Progression Tracks (EJU, Science, Business, Art/Design)
+- Eligibility for 'Senmonshi' (Specialist Degree Title) upon graduation and specialized
+  study
+- School-managed Dormitory Options Available
+- Availability of Single Room Dormitory Units
+- Emphasis on Practical Conversational Skills (Kaiwa)
+- Generous Scholarship Opportunities
+- Short-Term Study Opportunities Available
+thumbnail: /static/img/pin-school.png
+title: Nagoya College of Management and Accounting, Japanese Language Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

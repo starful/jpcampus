@@ -5,6 +5,7 @@ description: Check out our curated list of the Top 5 Language Schools in Tokyo f
   University Prep.
 id: top-5-university-prep-tokyo
 is_featured: true
+lang: en
 layout: guide
 tags:
 - Ranking

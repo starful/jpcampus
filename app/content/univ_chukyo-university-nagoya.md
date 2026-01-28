@@ -1,56 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chukyo-university-nagoya",
-  "title": "Chukyo University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "Regional Top Tier",
-    "Strong Sports Science",
-    "Scholarship",
-    "High Employment Rate"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "中京大学",
-    "name_en": "Chukyo University",
-    "address": "愛知県名古屋市昭和区八事本町101-2",
-    "website": "https://www.chukyo-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 450,
-    "acceptance_rate": "Competitive"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "Law",
-    "Economics",
-    "Business Administration",
-    "Letters",
-    "Global Studies",
-    "Psychology",
-    "Sports Science",
-    "Information Science",
-    "Engineering"
-  ],
-  "features": [
-    "EJU Required",
-    "Regional Top Tier",
-    "Strong Sports Science",
-    "Scholarship",
-    "High Employment Rate"
-  ],
-  "description": "Chukyo University, located in Nagoya, is a regionally prestigious private university known for its strong focus on career-oriented education, particularly in Sports Science, Psychology, and Business Administration. Renowned for its high graduate employment rates and commitment to developing well-rounded individuals, it offers a supportive environment for international students.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市昭和区八事本町101-2
+  name_en: Chukyo University
+  name_ja: 中京大学
+  website: https://www.chukyo-u.ac.jp/
+category: university
+description: Chukyo University, located in Nagoya, is a regionally prestigious private
+  university known for its strong focus on career-oriented education, particularly
+  in Sports Science, Psychology, and Business Administration. Renowned for its high
+  graduate employment rates and commitment to developing well-rounded individuals,
+  it offers a supportive environment for international students.
+faculties:
+- Law
+- Economics
+- Business Administration
+- Letters
+- Global Studies
+- Psychology
+- Sports Science
+- Information Science
+- Engineering
+features:
+- EJU Required
+- Regional Top Tier
+- Strong Sports Science
+- Scholarship
+- High Employment Rate
+id: univ_chukyo-university-nagoya
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive
+  international_students: 450
+tags:
+- EJU Required
+- Regional Top Tier
+- Strong Sports Science
+- Scholarship
+- High Employment Rate
+thumbnail: /static/img/pin-univ.png
+title: Chukyo University
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1250000
 ---
 
 ## University Overview & Reputation

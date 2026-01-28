@@ -1,54 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kokushikan-university",
-  "title": "Kokushikan University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Limited English-taught courses",
-    "Japanese Language Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "国士舘大学",
-    "name_en": "Kokushikan University",
-    "address": "〒154-8515 東京都世田谷区世田谷4-28-1",
-    "website": "https://www.kokushikan.ac.jp/"
-  },
-  "stats": {
-    "international_students": 431,
-    "acceptance_rate": "Highly competitive, approximately 35-45% depending on faculty and entrance exam."
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1000000
-  },
-  "faculties": [
-    "Faculty of Political Science and Economics",
-    "Faculty of Physical Education",
-    "Faculty of Science and Engineering",
-    "Faculty of Law",
-    "Faculty of Letters",
-    "Faculty of Business Administration",
-    "Faculty of Contemporary Business",
-    "Faculty of 21st Century Asia"
-  ],
-  "features": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Limited English-taught courses",
-    "Japanese Language Support"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒154-8515 東京都世田谷区世田谷4-28-1
+  name_en: Kokushikan University
+  name_ja: 国士舘大学
+  website: https://www.kokushikan.ac.jp/
+category: university
+faculties:
+- Faculty of Political Science and Economics
+- Faculty of Physical Education
+- Faculty of Science and Engineering
+- Faculty of Law
+- Faculty of Letters
+- Faculty of Business Administration
+- Faculty of Contemporary Business
+- Faculty of 21st Century Asia
+features:
+- EJU Required
+- Dormitory
+- Scholarship
+- Limited English-taught courses
+- Japanese Language Support
+id: univ_kokushikan-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Highly competitive, approximately 35-45% depending on faculty and
+    entrance exam.
+  international_students: 431
+tags:
+- EJU Required
+- Dormitory
+- Scholarship
+- Limited English-taught courses
+- Japanese Language Support
+thumbnail: /static/img/pin-univ.png
+title: Kokushikan University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1000000
 ---
 
 ## University Overview

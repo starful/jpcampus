@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okinawa-international-university-okiu",
-  "title": "Okinawa International University",
-  "category": "university",
-  "tags": [
-    "Focus on Okinawan History and US-Japan Relations",
-    "Strong Regional Engagement and Community Research",
-    "EJU Required",
-    "Limited English Programs (Primarily Japanese Instruction)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "沖縄国際大学",
-    "name_en": "Okinawa International University",
-    "address": "2-6-1 Ginowan, Ginowan City, Okinawa 901-2701, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 130,
-    "acceptance_rate": "45%"
-  },
-  "tuition": {
-    "admission_fee": 220000,
-    "yearly_tuition": 750000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration (Commerce)",
-    "Faculty of International Studies",
-    "Faculty of Humanities"
-  ],
-  "features": [
-    "Focus on Okinawan History and US-Japan Relations",
-    "Strong Regional Engagement and Community Research",
-    "EJU Required",
-    "Limited English Programs (Primarily Japanese Instruction)"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 2-6-1 Ginowan, Ginowan City, Okinawa 901-2701, Japan
+  capacity: null
+  name_en: Okinawa International University
+  name_ja: 沖縄国際大学
+category: university
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration (Commerce)
+- Faculty of International Studies
+- Faculty of Humanities
+features:
+- Focus on Okinawan History and US-Japan Relations
+- Strong Regional Engagement and Community Research
+- EJU Required
+- Limited English Programs (Primarily Japanese Instruction)
+id: univ_okinawa-international-university-okiu
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45%
+  international_students: 130
+tags:
+- Focus on Okinawan History and US-Japan Relations
+- Strong Regional Engagement and Community Research
+- EJU Required
+- Limited English Programs (Primarily Japanese Instruction)
+thumbnail: /static/img/pin-univ.png
+title: Okinawa International University
+translated: true
+tuition:
+  admission_fee: 220000
+  yearly_tuition: 750000
 ---
 
 ## University Overview

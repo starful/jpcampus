@@ -1,57 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_toyama-international-academy",
-  "title": "Toyama International Academy (富山国際学院)",
-  "category": "school",
-  "tags": [
-    "High-Level University and Vocational School Preparation (進学 Focus)",
-    "Specialized EJU (Examination for Japanese University Admission) Training",
-    "Focus on Specialized Tracks: Science/STEM, Humanities, and Art/Design",
-    "Small Capacity (60 students) ensuring Personalized Instruction",
-    "Dedicated Dormitory Management with Single Room Options (1인실)",
-    "Comprehensive Scholarship System Support",
-    "Opportunity for Short-Term (단기) Study Programs",
-    "Integration of Japanese Culture and Current Affairs (日本文化・日本事情)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.6967121,
-    "lng": 137.2071978
-  },
-  "basic_info": {
-    "name_ja": "富山国際学院",
-    "address": "富山県富山市芝園町2-5-13 織田ビル",
-    "capacity": 60,
-    "name_en": "Toyama International Academy (富山国際学院)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Level University and Vocational School Preparation (進学 Focus)",
-    "Specialized EJU (Examination for Japanese University Admission) Training",
-    "Focus on Specialized Tracks: Science/STEM, Humanities, and Art/Design",
-    "Small Capacity (60 students) ensuring Personalized Instruction",
-    "Dedicated Dormitory Management with Single Room Options (1인실)",
-    "Comprehensive Scholarship System Support",
-    "Opportunity for Short-Term (단기) Study Programs",
-    "Integration of Japanese Culture and Current Affairs (日本文化・日本事情)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1.5年コース",
-      "admission_month": "10",
-      "total_fees": 994800
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1296000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=260"
-}
+basic_info:
+  address: 富山県富山市芝園町2-5-13 織田ビル
+  capacity: 60
+  name_en: Toyama International Academy (富山国際学院)
+  name_ja: 富山国際学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 994800
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1296000
+faculties: []
+features:
+- High-Level University and Vocational School Preparation (進学 Focus)
+- Specialized EJU (Examination for Japanese University Admission) Training
+- 'Focus on Specialized Tracks: Science/STEM, Humanities, and Art/Design'
+- Small Capacity (60 students) ensuring Personalized Instruction
+- Dedicated Dormitory Management with Single Room Options (1인실)
+- Comprehensive Scholarship System Support
+- Opportunity for Short-Term (단기) Study Programs
+- Integration of Japanese Culture and Current Affairs (日本文化・日本事情)
+id: school_toyama-international-academy
+lang: en
+layout: school
+location:
+  lat: 36.6967121
+  lng: 137.2071978
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=260
+stats: {}
+tags:
+- High-Level University and Vocational School Preparation (進学 Focus)
+- Specialized EJU (Examination for Japanese University Admission) Training
+- 'Focus on Specialized Tracks: Science/STEM, Humanities, and Art/Design'
+- Small Capacity (60 students) ensuring Personalized Instruction
+- Dedicated Dormitory Management with Single Room Options (1인실)
+- Comprehensive Scholarship System Support
+- Opportunity for Short-Term (단기) Study Programs
+- Integration of Japanese Culture and Current Affairs (日本文化・日本事情)
+thumbnail: /static/img/pin-school.png
+title: Toyama International Academy (富山国際学院)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

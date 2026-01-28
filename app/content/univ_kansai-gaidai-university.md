@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kansai-gaidai-university",
-  "title": "Kansai Gaidai University",
-  "category": "university",
-  "tags": [
-    "Extensive Exchange Program Network (Over 300 Partner Institutions)",
-    "Strong Emphasis on English and Cross-Cultural Communication",
-    "Dedicated English-Taught Programs (Asian Studies Program - ASP)",
-    "Mandatory Study Abroad for Many Degree Programs",
-    "EJU Required for Most Undergraduate Programs",
-    "Located in the Kyoto-Osaka-Kobe Metropolitan Area"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "関西外国語大学",
-    "name_en": "Kansai Gaidai University",
-    "address": "1-16-1 Kitakatahoko-cho, Hirakata City, Osaka 573-1001, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 850,
-    "acceptance_rate": "Approx. 50%"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "Faculty of Foreign Studies",
-    "Faculty of Intercultural Communication",
-    "Faculty of Global Engagement",
-    "Junior College Division (Foreign Language)"
-  ],
-  "features": [
-    "Extensive Exchange Program Network (Over 300 Partner Institutions)",
-    "Strong Emphasis on English and Cross-Cultural Communication",
-    "Dedicated English-Taught Programs (Asian Studies Program - ASP)",
-    "Mandatory Study Abroad for Many Degree Programs",
-    "EJU Required for Most Undergraduate Programs",
-    "Located in the Kyoto-Osaka-Kobe Metropolitan Area"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 1-16-1 Kitakatahoko-cho, Hirakata City, Osaka 573-1001, Japan
+  capacity: null
+  name_en: Kansai Gaidai University
+  name_ja: 関西外国語大学
+category: university
+faculties:
+- Faculty of Foreign Studies
+- Faculty of Intercultural Communication
+- Faculty of Global Engagement
+- Junior College Division (Foreign Language)
+features:
+- Extensive Exchange Program Network (Over 300 Partner Institutions)
+- Strong Emphasis on English and Cross-Cultural Communication
+- Dedicated English-Taught Programs (Asian Studies Program - ASP)
+- Mandatory Study Abroad for Many Degree Programs
+- EJU Required for Most Undergraduate Programs
+- Located in the Kyoto-Osaka-Kobe Metropolitan Area
+id: univ_kansai-gaidai-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approx. 50%
+  international_students: 850
+tags:
+- Extensive Exchange Program Network (Over 300 Partner Institutions)
+- Strong Emphasis on English and Cross-Cultural Communication
+- Dedicated English-Taught Programs (Asian Studies Program - ASP)
+- Mandatory Study Abroad for Many Degree Programs
+- EJU Required for Most Undergraduate Programs
+- Located in the Kyoto-Osaka-Kobe Metropolitan Area
+thumbnail: /static/img/pin-univ.png
+title: Kansai Gaidai University
+translated: true
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1350000
 ---
 
 ## University Overview

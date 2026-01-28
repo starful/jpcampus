@@ -1,49 +1,41 @@
 ---
-{
-  "basic_info": {
-    "address": "〒171-8588 1-5-1 Mejiro, Toshima-ku, Tokyo",
-    "name_en": "Gakushuin University",
-    "name_ja": "学習院大学",
-    "website": "https://www.gakushuin.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Letters",
-    "Faculty of Science",
-    "Faculty of International Social Sciences"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_gakushuin-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.7187521,
-    "lng": 139.7088396
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 250
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Gakushuin University",
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "translated": true
-}
+basic_info:
+  address: 〒171-8588 1-5-1 Mejiro, Toshima-ku, Tokyo
+  name_en: Gakushuin University
+  name_ja: 学習院大学
+  website: https://www.gakushuin.ac.jp/
+category: university
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Letters
+- Faculty of Science
+- Faculty of International Social Sciences
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_gakushuin-university
+lang: en
+layout: school
+location:
+  lat: 35.7187521
+  lng: 139.7088396
+stats:
+  acceptance_rate: 25%
+  international_students: 250
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Gakushuin University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview & Reputation

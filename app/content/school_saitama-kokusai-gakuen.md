@@ -1,64 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_saitama-kokusai-gakuen",
-  "title": "Saitama International Academy",
-  "category": "school",
-  "tags": [
-    "Strong University Advancement Focus (EJU Preparation)",
-    "Specialized Academic Tracks (STEM, Art, Business)",
-    "Guaranteed On-Campus or Affiliated Dormitory Facilities",
-    "Comprehensive Scholarship and Financial Aid Programs",
-    "Located in Kumagaya City, offering a balanced study environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.1373121,
-    "lng": 139.3875631
-  },
-  "basic_info": {
-    "name_ja": "埼玉国際学園",
-    "address": "埼玉県熊谷市桜木町2-101",
-    "capacity": 240,
-    "name_en": "Saitama International Academy"
-  },
-  "stats": {
-    "international_students": 240,
-    "capacity": 240
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Strong University Advancement Focus (EJU Preparation)",
-    "Specialized Academic Tracks (STEM, Art, Business)",
-    "Guaranteed On-Campus or Affiliated Dormitory Facilities",
-    "Comprehensive Scholarship and Financial Aid Programs",
-    "Located in Kumagaya City, offering a balanced study environment"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語科2年",
-      "admission_month": "4",
-      "total_fees": 1550000
-    },
-    {
-      "course_name": "日本語科1年9か月",
-      "admission_month": "7",
-      "total_fees": 1372500
-    },
-    {
-      "course_name": "日本語科1年6か月",
-      "admission_month": "10",
-      "total_fees": 1195000
-    },
-    {
-      "course_name": "日本語科1年3か月",
-      "admission_month": "1",
-      "total_fees": 1012500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=55"
-}
+basic_info:
+  address: 埼玉県熊谷市桜木町2-101
+  capacity: 240
+  name_en: Saitama International Academy
+  name_ja: 埼玉国際学園
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語科2年
+  total_fees: 1550000
+- admission_month: '7'
+  course_name: 日本語科1年9か月
+  total_fees: 1372500
+- admission_month: '10'
+  course_name: 日本語科1年6か月
+  total_fees: 1195000
+- admission_month: '1'
+  course_name: 日本語科1年3か月
+  total_fees: 1012500
+faculties: []
+features:
+- Strong University Advancement Focus (EJU Preparation)
+- Specialized Academic Tracks (STEM, Art, Business)
+- Guaranteed On-Campus or Affiliated Dormitory Facilities
+- Comprehensive Scholarship and Financial Aid Programs
+- Located in Kumagaya City, offering a balanced study environment
+id: school_saitama-kokusai-gakuen
+lang: en
+layout: school
+location:
+  lat: 36.1373121
+  lng: 139.3875631
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=55
+stats:
+  capacity: 240
+  international_students: 240
+tags:
+- Strong University Advancement Focus (EJU Preparation)
+- Specialized Academic Tracks (STEM, Art, Business)
+- Guaranteed On-Campus or Affiliated Dormitory Facilities
+- Comprehensive Scholarship and Financial Aid Programs
+- Located in Kumagaya City, offering a balanced study environment
+thumbnail: /static/img/pin-school.png
+title: Saitama International Academy
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,70 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_ujs-language-institute-roppongi-tokyo",
-  "title": "UJS Language Institute",
-  "category": "school",
-  "tags": [
-    "Elite Academic Progression Focus (Shingaku)",
-    "Specialist in EJU and JLPT Preparation",
-    "Located in Prime Central Tokyo (Roppongi)",
-    "Emphasis on High Conversational Fluency",
-    "Intimate Learning Environment (Small Class Capacity)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6631,
-    "lng": 139.7366066
-  },
-  "basic_info": {
-    "name_ja": "UJS Language Institute",
-    "address": "東京都港区六本木3-3-29",
-    "capacity": 320,
-    "name_en": "UJS Language Institute"
-  },
-  "stats": {
-    "international_students": 300,
-    "capacity": 320
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Elite Academic Progression Focus (Shingaku)",
-    "Specialist in EJU and JLPT Preparation",
-    "Located in Prime Central Tokyo (Roppongi)",
-    "Emphasis on High Conversational Fluency",
-    "Intimate Learning Environment (Small Class Capacity)"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1460000
-    },
-    {
-      "course_name": "日本語進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1285000
-    },
-    {
-      "course_name": "日本語進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1120000
-    },
-    {
-      "course_name": "日本語進学1年3ヶ月コース",
-      "admission_month": "1",
-      "total_fees": 950000
-    },
-    {
-      "course_name": "日本語進学1年コース",
-      "admission_month": "4",
-      "total_fees": 780000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=94",
-  "translated": true
-}
+basic_info:
+  address: 東京都港区六本木3-3-29
+  capacity: 320
+  name_en: UJS Language Institute
+  name_ja: UJS Language Institute
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語進学2年コース
+  total_fees: 1460000
+- admission_month: '7'
+  course_name: 日本語進学1年9ヶ月コース
+  total_fees: 1285000
+- admission_month: '10'
+  course_name: 日本語進学1年6ヶ月コース
+  total_fees: 1120000
+- admission_month: '1'
+  course_name: 日本語進学1年3ヶ月コース
+  total_fees: 950000
+- admission_month: '4'
+  course_name: 日本語進学1年コース
+  total_fees: 780000
+faculties: []
+features:
+- Elite Academic Progression Focus (Shingaku)
+- Specialist in EJU and JLPT Preparation
+- Located in Prime Central Tokyo (Roppongi)
+- Emphasis on High Conversational Fluency
+- Intimate Learning Environment (Small Class Capacity)
+id: school_ujs-language-institute-roppongi-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.6631
+  lng: 139.7366066
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=94
+stats:
+  capacity: 320
+  international_students: 300
+tags:
+- Elite Academic Progression Focus (Shingaku)
+- Specialist in EJU and JLPT Preparation
+- Located in Prime Central Tokyo (Roppongi)
+- Emphasis on High Conversational Fluency
+- Intimate Learning Environment (Small Class Capacity)
+thumbnail: /static/img/pin-school.png
+title: UJS Language Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

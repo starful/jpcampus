@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-university-of-the-arts",
-  "title": "Tokyo University of the Arts",
-  "category": "university",
-  "tags": [
-    "National University",
-    "EJU Required",
-    "Scholarship",
-    "Dormitory"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京藝術大学",
-    "name_en": "Tokyo University of the Arts",
-    "address": "〒110-8714 東京都台東区上野公園12-8",
-    "website": "https://www.geidai.ac.jp/"
-  },
-  "stats": {
-    "international_students": 150,
-    "acceptance_rate": "8%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Fine Arts",
-    "Faculty of Music",
-    "Graduate School of Film and New Media"
-  ],
-  "features": [
-    "National University",
-    "EJU Required",
-    "Scholarship",
-    "Dormitory"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒110-8714 東京都台東区上野公園12-8
+  name_en: Tokyo University of the Arts
+  name_ja: 東京藝術大学
+  website: https://www.geidai.ac.jp/
+category: university
+faculties:
+- Faculty of Fine Arts
+- Faculty of Music
+- Graduate School of Film and New Media
+features:
+- National University
+- EJU Required
+- Scholarship
+- Dormitory
+id: univ_tokyo-university-of-the-arts
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 8%
+  international_students: 150
+tags:
+- National University
+- EJU Required
+- Scholarship
+- Dormitory
+thumbnail: /static/img/pin-univ.png
+title: Tokyo University of the Arts
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

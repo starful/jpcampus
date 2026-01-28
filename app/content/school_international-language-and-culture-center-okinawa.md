@@ -1,79 +1,63 @@
 ---
-{
-  "layout": "school",
-  "id": "school_international-language-and-culture-center-okinawa",
-  "title": "International Language and Culture Center Affiliated Japanese Language School",
-  "category": "school",
-  "tags": [
-    "High focus on practical conversation skills",
-    "Specialized tracks for Business, Art, and Design fields",
-    "Located in the unique cultural hub of Naha, Okinawa",
-    "Comprehensive short-term study options",
-    "Guaranteed on-campus dormitory accommodation",
-    "Availability of private single rooms for enhanced focus",
-    "Robust scholarship programs available",
-    "Dedicated EJU (Examination for Japanese University Admission) preparation",
-    "Specific support for Science and Engineering pathways (Rikei)",
-    "Strong emphasis on higher education and vocational progression"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 26.1984221,
-    "lng": 127.6692623
-  },
-  "basic_info": {
-    "name_ja": "国際言語文化センター附属日本語学校",
-    "address": "沖縄県那覇市田原1-4-1　サンヒルズ田原2F",
-    "capacity": 220,
-    "name_en": "International Language and Culture Center Affiliated Japanese Language School"
-  },
-  "stats": {
-    "international_students": 150,
-    "capacity": 220
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High focus on practical conversation skills",
-    "Specialized tracks for Business, Art, and Design fields",
-    "Located in the unique cultural hub of Naha, Okinawa",
-    "Comprehensive short-term study options",
-    "Guaranteed on-campus dormitory accommodation",
-    "Availability of private single rooms for enhanced focus",
-    "Robust scholarship programs available",
-    "Dedicated EJU (Examination for Japanese University Admission) preparation",
-    "Specific support for Science and Engineering pathways (Rikei)",
-    "Strong emphasis on higher education and vocational progression"
-  ],
-  "courses": [
-    {
-      "course_name": "一般1年コース",
-      "admission_month": "4",
-      "total_fees": 774000
-    },
-    {
-      "course_name": "一般1年3か月コース",
-      "admission_month": "1",
-      "total_fees": 939000
-    },
-    {
-      "course_name": "一般1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1104000
-    },
-    {
-      "course_name": "一般1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1269000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4",
-      "total_fees": 1434000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=455"
-}
+basic_info:
+  address: 沖縄県那覇市田原1-4-1　サンヒルズ田原2F
+  capacity: 220
+  name_en: International Language and Culture Center Affiliated Japanese Language
+    School
+  name_ja: 国際言語文化センター附属日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 一般1年コース
+  total_fees: 774000
+- admission_month: '1'
+  course_name: 一般1年3か月コース
+  total_fees: 939000
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 1104000
+- admission_month: '7'
+  course_name: 一般1年9か月コース
+  total_fees: 1269000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1434000
+faculties: []
+features:
+- High focus on practical conversation skills
+- Specialized tracks for Business, Art, and Design fields
+- Located in the unique cultural hub of Naha, Okinawa
+- Comprehensive short-term study options
+- Guaranteed on-campus dormitory accommodation
+- Availability of private single rooms for enhanced focus
+- Robust scholarship programs available
+- Dedicated EJU (Examination for Japanese University Admission) preparation
+- Specific support for Science and Engineering pathways (Rikei)
+- Strong emphasis on higher education and vocational progression
+id: school_international-language-and-culture-center-okinawa
+lang: en
+layout: school
+location:
+  lat: 26.1984221
+  lng: 127.6692623
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=455
+stats:
+  capacity: 220
+  international_students: 150
+tags:
+- High focus on practical conversation skills
+- Specialized tracks for Business, Art, and Design fields
+- Located in the unique cultural hub of Naha, Okinawa
+- Comprehensive short-term study options
+- Guaranteed on-campus dormitory accommodation
+- Availability of private single rooms for enhanced focus
+- Robust scholarship programs available
+- Dedicated EJU (Examination for Japanese University Admission) preparation
+- Specific support for Science and Engineering pathways (Rikei)
+- Strong emphasis on higher education and vocational progression
+thumbnail: /static/img/pin-school.png
+title: International Language and Culture Center Affiliated Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

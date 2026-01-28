@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-seika-university-international-guide",
-  "title": "Kyoto Seika University",
-  "category": "university",
-  "tags": [
-    "EJU Recommended",
-    "Portfolio Required",
-    "Creative Arts Focus",
-    "Global Leader in Manga Studies",
-    "Robust Scholarship System"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都精華大学",
-    "name_en": "Kyoto Seika University",
-    "address": "〒606-8585 Kyoto, Sakyo Ward, Iwakura Kinomotocho 137",
-    "website": "https://www.kyoto-seika.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1000,
-    "acceptance_rate": "Highly competitive in specific faculties (e.g., Manga)",
-    "enrollment_total": 4500
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1450000
-  },
-  "faculties": [
-    "Faculty of Manga",
-    "Faculty of Design",
-    "Faculty of Arts",
-    "Faculty of Media Creation",
-    "Faculty of Education"
-  ],
-  "features": [
-    "EJU Recommended",
-    "Portfolio Required",
-    "Creative Arts Focus",
-    "Global Leader in Manga Studies",
-    "Robust Scholarship System"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒606-8585 Kyoto, Sakyo Ward, Iwakura Kinomotocho 137
+  name_en: Kyoto Seika University
+  name_ja: 京都精華大学
+  website: https://www.kyoto-seika.ac.jp/
+category: university
+faculties:
+- Faculty of Manga
+- Faculty of Design
+- Faculty of Arts
+- Faculty of Media Creation
+- Faculty of Education
+features:
+- EJU Recommended
+- Portfolio Required
+- Creative Arts Focus
+- Global Leader in Manga Studies
+- Robust Scholarship System
+id: univ_kyoto-seika-university-international-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Highly competitive in specific faculties (e.g., Manga)
+  enrollment_total: 4500
+  international_students: 1000
+tags:
+- EJU Recommended
+- Portfolio Required
+- Creative Arts Focus
+- Global Leader in Manga Studies
+- Robust Scholarship System
+thumbnail: /static/img/pin-univ.png
+title: Kyoto Seika University
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1450000
 ---
 
 ## 🏫 University Overview & Reputation

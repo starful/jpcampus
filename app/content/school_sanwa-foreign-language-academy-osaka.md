@@ -1,65 +1,56 @@
 ---
-{
-  "layout": "school",
-  "id": "school_sanwa-foreign-language-academy-osaka",
-  "title": "SANWA Foreign Language Academy",
-  "category": "school",
-  "tags": [
-    "Dormitory accommodation provided",
-    "Comprehensive EJU (Examination for Japanese University Admission for International Students) preparation",
-    "Dedicated university and graduate school progression tracks (Shingaku)",
-    "Strong focus on practical conversational skills (Kaiwa)",
-    "Robust internal and external scholarship opportunities",
-    "Availability of single-room housing options",
-    "Specialized Science Track (Rikei) preparation",
-    "Advanced Business Japanese and career training",
-    "Art and Design university entrance support",
-    "Flexible short-term study options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6319337,
-    "lng": 135.5460016
-  },
-  "basic_info": {
-    "name_ja": "SANWA外国語学院",
-    "address": "大阪府大阪市平野区平野馬場2-3-31",
-    "capacity": 85,
-    "name_en": "SANWA Foreign Language Academy"
-  },
-  "stats": {
-    "international_students": 85,
-    "capacity": 85
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory accommodation provided",
-    "Comprehensive EJU (Examination for Japanese University Admission for International Students) preparation",
-    "Dedicated university and graduate school progression tracks (Shingaku)",
-    "Strong focus on practical conversational skills (Kaiwa)",
-    "Robust internal and external scholarship opportunities",
-    "Availability of single-room housing options",
-    "Specialized Science Track (Rikei) preparation",
-    "Advanced Business Japanese and career training",
-    "Art and Design university entrance support",
-    "Flexible short-term study options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1394000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1074000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=516",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市平野区平野馬場2-3-31
+  capacity: 85
+  name_en: SANWA Foreign Language Academy
+  name_ja: SANWA外国語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1394000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1074000
+faculties: []
+features:
+- Dormitory accommodation provided
+- Comprehensive EJU (Examination for Japanese University Admission for International
+  Students) preparation
+- Dedicated university and graduate school progression tracks (Shingaku)
+- Strong focus on practical conversational skills (Kaiwa)
+- Robust internal and external scholarship opportunities
+- Availability of single-room housing options
+- Specialized Science Track (Rikei) preparation
+- Advanced Business Japanese and career training
+- Art and Design university entrance support
+- Flexible short-term study options
+id: school_sanwa-foreign-language-academy-osaka
+lang: en
+layout: school
+location:
+  lat: 34.6319337
+  lng: 135.5460016
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=516
+stats:
+  capacity: 85
+  international_students: 85
+tags:
+- Dormitory accommodation provided
+- Comprehensive EJU (Examination for Japanese University Admission for International
+  Students) preparation
+- Dedicated university and graduate school progression tracks (Shingaku)
+- Strong focus on practical conversational skills (Kaiwa)
+- Robust internal and external scholarship opportunities
+- Availability of single-room housing options
+- Specialized Science Track (Rikei) preparation
+- Advanced Business Japanese and career training
+- Art and Design university entrance support
+- Flexible short-term study options
+thumbnail: /static/img/pin-school.png
+title: SANWA Foreign Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

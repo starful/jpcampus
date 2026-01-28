@@ -1,56 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市下京区河原町通仏光寺下ル富永町356",
-    "capacity": 194,
-    "name_en": "KAI Japanese Language School",
-    "name_ja": "日本語センター"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語集中2年コース",
-      "total_fees": 1460160
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語集中1年半コース",
-      "total_fees": 1116720
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Higher Education Prep",
-    "EJU Support",
-    "Conversation Skills",
-    "Dormitory",
-    "Science Stream (STEM)"
-  ],
-  "id": "school_nihongo-center",
-  "layout": "school",
-  "location": {
-    "lat": 35.0010056,
-    "lng": 135.7678526
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=315",
-  "stats": {
-    "capacity": 194,
-    "international_students": 0
-  },
-  "tags": [
-    "Higher Education Prep",
-    "EJU Support",
-    "Conversation Skills",
-    "Dormitory",
-    "Science Stream (STEM)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "KAI Japanese Language School",
-  "tuition": {},
-  "description": "Located in Kyoto's Kawaramachi district, KAI Japanese Language School specializes in preparing international students for higher education, offering comprehensive language training and EJU support, including a Science Stream option.",
-  "translated": true
-}
+basic_info:
+  address: 京都府京都市下京区河原町通仏光寺下ル富永町356
+  capacity: 194
+  name_en: KAI Japanese Language School
+  name_ja: 日本語センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語集中2年コース
+  total_fees: 1460160
+- admission_month: '10'
+  course_name: 日本語集中1年半コース
+  total_fees: 1116720
+description: Located in Kyoto's Kawaramachi district, KAI Japanese Language School
+  specializes in preparing international students for higher education, offering comprehensive
+  language training and EJU support, including a Science Stream option.
+faculties: []
+features:
+- Higher Education Prep
+- EJU Support
+- Conversation Skills
+- Dormitory
+- Science Stream (STEM)
+id: school_nihongo-center
+lang: en
+layout: school
+location:
+  lat: 35.0010056
+  lng: 135.7678526
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=315
+stats:
+  capacity: 194
+  international_students: 0
+tags:
+- Higher Education Prep
+- EJU Support
+- Conversation Skills
+- Dormitory
+- Science Stream (STEM)
+thumbnail: /static/img/pin-school.png
+title: KAI Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

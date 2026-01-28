@@ -1,75 +1,60 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kij-language-academy",
-  "title": "KIJ Language Academy",
-  "category": "school",
-  "tags": [
-    "Scholarships",
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Science Course",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art Course",
-    "Design Course",
-    "Short-Term Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.667686,
-    "lng": 135.1661889
-  },
-  "basic_info": {
-    "name_ja": "ＫＩＪ語学院",
-    "address": "兵庫県神戸市兵庫区浜崎通3-7",
-    "capacity": 510,
-    "name_en": "KIJ Language Academy"
-  },
-  "stats": {
-    "international_students": 123,
-    "capacity": 456
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Scholarships",
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Science Course",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art Course",
-    "Design Course",
-    "Short-Term Course"
-  ],
-  "courses": [
-    {
-      "course_name": "University Preparation 2-Year Course",
-      "admission_month": "4",
-      "total_fees": 1434960
-    },
-    {
-      "course_name": "University Preparation 1.5-Year Course",
-      "admission_month": "10",
-      "total_fees": 1097470
-    },
-    {
-      "course_name": "University Preparation 1.75-Year Course",
-      "admission_month": "7",
-      "total_fees": 1265980
-    },
-    {
-      "course_name": "University Preparation 1.25-Year Course",
-      "admission_month": "1",
-      "total_fees": 920990
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=361",
-  "translated": true
-}
+basic_info:
+  address: 兵庫県神戸市兵庫区浜崎通3-7
+  capacity: 510
+  name_en: KIJ Language Academy
+  name_ja: ＫＩＪ語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Preparation 2-Year Course
+  total_fees: 1434960
+- admission_month: '10'
+  course_name: University Preparation 1.5-Year Course
+  total_fees: 1097470
+- admission_month: '7'
+  course_name: University Preparation 1.75-Year Course
+  total_fees: 1265980
+- admission_month: '1'
+  course_name: University Preparation 1.25-Year Course
+  total_fees: 920990
+faculties: []
+features:
+- Scholarships
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Science Course
+- Conversation Focused
+- Business Japanese
+- Art Course
+- Design Course
+- Short-Term Course
+id: school_kij-language-academy
+lang: en
+layout: school
+location:
+  lat: 34.667686
+  lng: 135.1661889
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=361
+stats:
+  capacity: 456
+  international_students: 123
+tags:
+- Scholarships
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Science Course
+- Conversation Focused
+- Business Japanese
+- Art Course
+- Design Course
+- Short-Term Course
+thumbnail: /static/img/pin-school.png
+title: KIJ Language Academy
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

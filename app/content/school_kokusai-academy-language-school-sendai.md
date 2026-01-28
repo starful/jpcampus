@@ -1,59 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "宮城県仙台市宮城野区榴岡1-5-3",
-    "capacity": 225,
-    "name_en": "Kokusai Academy Language School",
-    "name_ja": "国際アカデミーランゲージスクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1575000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1390500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1206000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Strategic Location in Sendai (Tohoku Region)",
-    "Dedicated EJU and University Advancement Tracks",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Curriculum includes Specialized Business Japanese Training",
-    "Active Scholarship Opportunities for High Performers"
-  ],
-  "id": "school_kokusai-academy-language-school-sendai",
-  "layout": "school",
-  "location": {
-    "lat": 38.2577568,
-    "lng": 140.8836868
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=611",
-  "stats": {
-    "capacity": 225,
-    "international_students": 0
-  },
-  "tags": [
-    "Strategic Location in Sendai (Tohoku Region)",
-    "Dedicated EJU and University Advancement Tracks",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Curriculum includes Specialized Business Japanese Training",
-    "Active Scholarship Opportunities for High Performers"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kokusai Academy Language School",
-  "tuition": {}
-}
+basic_info:
+  address: 宮城県仙台市宮城野区榴岡1-5-3
+  capacity: 225
+  name_en: Kokusai Academy Language School
+  name_ja: 国際アカデミーランゲージスクール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1575000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1390500
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1206000
+faculties: []
+features:
+- Strategic Location in Sendai (Tohoku Region)
+- Dedicated EJU and University Advancement Tracks
+- On-Campus or Affiliated Dormitory Accommodation
+- Curriculum includes Specialized Business Japanese Training
+- Active Scholarship Opportunities for High Performers
+id: school_kokusai-academy-language-school-sendai
+lang: en
+layout: school
+location:
+  lat: 38.2577568
+  lng: 140.8836868
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=611
+stats:
+  capacity: 225
+  international_students: 0
+tags:
+- Strategic Location in Sendai (Tohoku Region)
+- Dedicated EJU and University Advancement Tracks
+- On-Campus or Affiliated Dormitory Accommodation
+- Curriculum includes Specialized Business Japanese Training
+- Active Scholarship Opportunities for High Performers
+thumbnail: /static/img/pin-school.png
+title: Kokusai Academy Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

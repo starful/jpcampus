@@ -1,73 +1,64 @@
 ---
-{
-  "layout": "school",
-  "id": "school_isi-language-school-osaka",
-  "title": "ISI Language School Osaka",
-  "category": "school",
-  "tags": [
-    "Dormitory",
-    "Private Room",
-    "Scholarship",
-    "EJU Preparation",
-    "Science Courses",
-    "University Pathway",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.6754737,
-    "lng": 135.5021618
-  },
-  "basic_info": {
-    "name_ja": "ISIランゲージスクール大阪校",
-    "address": "大阪府大阪市中央区南船場3-5-8 オーク心斎橋ビル5階",
-    "capacity": 480,
-    "name_en": "ISI Language School Osaka"
-  },
-  "stats": {
-    "international_students": 123,
-    "capacity": 480
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "Private Room",
-    "Scholarship",
-    "EJU Preparation",
-    "Science Courses",
-    "University Pathway",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "courses": [
-    {
-      "course_name": "進学課程2年コース",
-      "admission_month": "4",
-      "total_fees": 1691000
-    },
-    {
-      "course_name": "進学課程1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1492000
-    },
-    {
-      "course_name": "進学課程1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1293000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=224",
-  "description": "ISI Language School Osaka aims to improve students' Japanese language skills and deepen their understanding of Japanese culture. It offers optimized educational programs to meet various needs, including those for higher education, employment, and cultural experiences. The school supports intensive learning in specific fields such as science, art, and design.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市中央区南船場3-5-8 オーク心斎橋ビル5階
+  capacity: 480
+  name_en: ISI Language School Osaka
+  name_ja: ISIランゲージスクール大阪校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1691000
+- admission_month: '7'
+  course_name: 進学課程1年9か月コース
+  total_fees: 1492000
+- admission_month: '10'
+  course_name: 進学課程1年6か月コース
+  total_fees: 1293000
+description: ISI Language School Osaka aims to improve students' Japanese language
+  skills and deepen their understanding of Japanese culture. It offers optimized educational
+  programs to meet various needs, including those for higher education, employment,
+  and cultural experiences. The school supports intensive learning in specific fields
+  such as science, art, and design.
+faculties: []
+features:
+- Dormitory
+- Private Room
+- Scholarship
+- EJU Preparation
+- Science Courses
+- University Pathway
+- Conversation Focused
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-Term Courses
+id: school_isi-language-school-osaka
+lang: en
+layout: school
+location:
+  lat: 34.6754737
+  lng: 135.5021618
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=224
+stats:
+  capacity: 480
+  international_students: 123
+tags:
+- Dormitory
+- Private Room
+- Scholarship
+- EJU Preparation
+- Science Courses
+- University Pathway
+- Conversation Focused
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: ISI Language School Osaka
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview and Philosophy

@@ -1,57 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_zero-japanese-language-school-amagasaki",
-  "title": "ZERO Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Specialized EJU Preparation Tracks (Science, Art/Design)",
-    "Strong Focus on Practical Conversation Skills",
-    "On-site Accommodation Options with Private Single Rooms",
-    "Intensive University and Vocational School Placement Guidance",
-    "Small School Capacity for Personalized Instruction (Max 100 students)",
-    "Scholarship and Financial Aid Availability",
-    "Business Japanese Language Training",
-    "Flexible Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.7232847,
-    "lng": 135.4090112
-  },
-  "basic_info": {
-    "name_ja": "ZERO日本語学校",
-    "address": "兵庫県尼崎市西難波町4-6-26 ZEROビル2Ｆ",
-    "capacity": 100,
-    "name_en": "ZERO Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized EJU Preparation Tracks (Science, Art/Design)",
-    "Strong Focus on Practical Conversation Skills",
-    "On-site Accommodation Options with Private Single Rooms",
-    "Intensive University and Vocational School Placement Guidance",
-    "Small School Capacity for Personalized Instruction (Max 100 students)",
-    "Scholarship and Financial Aid Availability",
-    "Business Japanese Language Training",
-    "Flexible Short-Term Study Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "大学・専門学校進学2年課程(A1)",
-      "admission_month": "4",
-      "total_fees": 1698400
-    },
-    {
-      "course_name": "大学・専門学校進学2年課程(A2)",
-      "admission_month": "4",
-      "total_fees": 1698400
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=590"
-}
+basic_info:
+  address: 兵庫県尼崎市西難波町4-6-26 ZEROビル2Ｆ
+  capacity: 100
+  name_en: ZERO Japanese Language School
+  name_ja: ZERO日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学・専門学校進学2年課程(A1)
+  total_fees: 1698400
+- admission_month: '4'
+  course_name: 大学・専門学校進学2年課程(A2)
+  total_fees: 1698400
+faculties: []
+features:
+- Specialized EJU Preparation Tracks (Science, Art/Design)
+- Strong Focus on Practical Conversation Skills
+- On-site Accommodation Options with Private Single Rooms
+- Intensive University and Vocational School Placement Guidance
+- Small School Capacity for Personalized Instruction (Max 100 students)
+- Scholarship and Financial Aid Availability
+- Business Japanese Language Training
+- Flexible Short-Term Study Programs
+id: school_zero-japanese-language-school-amagasaki
+lang: en
+layout: school
+location:
+  lat: 34.7232847
+  lng: 135.4090112
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=590
+stats: {}
+tags:
+- Specialized EJU Preparation Tracks (Science, Art/Design)
+- Strong Focus on Practical Conversation Skills
+- On-site Accommodation Options with Private Single Rooms
+- Intensive University and Vocational School Placement Guidance
+- Small School Capacity for Personalized Instruction (Max 100 students)
+- Scholarship and Financial Aid Availability
+- Business Japanese Language Training
+- Flexible Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: ZERO Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

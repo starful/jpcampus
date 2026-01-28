@@ -1,71 +1,65 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nagoya-university",
-  "title": "Nagoya University",
-  "category": "school",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.155816,
-    "lng": 136.9648909
-  },
-  "basic_info": {
-    "name_ja": "名古屋大学",
-    "name_en": "Nagoya University",
-    "address": "〒464-8601 愛知県名古屋市千種区不老町",
-    "website": "https://www.nagoya-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 2357,
-    "acceptance_rate": "30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "文学部",
-    "教育学部",
-    "法学部",
-    "経済学部",
-    "情報学部",
-    "理学部",
-    "医学部",
-    "工学部",
-    "農学部",
-    "国際開発研究科",
-    "多元数理科学研究科",
-    "情報科学研究科",
-    "生命農学研究科",
-    "環境学研究科",
-    "創薬科学研究科",
-    "国際言語文化研究科",
-    "法学研究科",
-    "経済学研究科",
-    "医学系研究科",
-    "工学研究科",
-    "理学研究科",
-    "高等教育研究科"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "translated": true,
-  "description": "Nagoya University is a leading national university in Japan, renowned for its research and academic excellence. It offers a wide range of programs and support services for international students."
-}
+basic_info:
+  address: 〒464-8601 愛知県名古屋市千種区不老町
+  name_en: Nagoya University
+  name_ja: 名古屋大学
+  website: https://www.nagoya-u.ac.jp/
+category: school
+description: Nagoya University is a leading national university in Japan, renowned
+  for its research and academic excellence. It offers a wide range of programs and
+  support services for international students.
+faculties:
+- 文学部
+- 教育学部
+- 法学部
+- 経済学部
+- 情報学部
+- 理学部
+- 医学部
+- 工学部
+- 農学部
+- 国際開発研究科
+- 多元数理科学研究科
+- 情報科学研究科
+- 生命農学研究科
+- 環境学研究科
+- 創薬科学研究科
+- 国際言語文化研究科
+- 法学研究科
+- 経済学研究科
+- 医学系研究科
+- 工学研究科
+- 理学研究科
+- 高等教育研究科
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+id: school_nagoya-university
+lang: en
+layout: school
+location:
+  lat: 35.155816
+  lng: 136.9648909
+stats:
+  acceptance_rate: 30%
+  international_students: 2357
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+thumbnail: /static/img/pin-school.png
+title: Nagoya University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## School Overview

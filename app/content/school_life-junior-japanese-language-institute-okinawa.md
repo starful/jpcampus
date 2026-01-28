@@ -1,52 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "school_life-junior-japanese-language-institute-okinawa",
-  "title": "Life Junior Japanese Language Institute",
-  "category": "school",
-  "tags": [
-    "On-campus/Affiliated Dormitory Accommodation",
-    "Intensive Preparation for the Examination for Japanese University Admission (EJU)",
-    "Strong Focus on Higher Education Advancement (Shingaku)",
-    "Flexible Short-term Study Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 26.20964,
-    "lng": 127.6927055
-  },
-  "basic_info": {
-    "name_ja": "ライフジュニア日本語学院",
-    "address": "沖縄県那覇市寄宮1-8-50",
-    "capacity": 220,
-    "name_en": "Life Junior Japanese Language Institute"
-  },
-  "stats": {
-    "international_students": 195,
-    "capacity": 220
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "On-campus/Affiliated Dormitory Accommodation",
-    "Intensive Preparation for the Examination for Japanese University Admission (EJU)",
-    "Strong Focus on Higher Education Advancement (Shingaku)",
-    "Flexible Short-term Study Programs Available"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語進学1.5年コース",
-      "admission_month": "10",
-      "total_fees": 1214800
-    },
-    {
-      "course_name": "日本語進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1572000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=586"
-}
+basic_info:
+  address: 沖縄県那覇市寄宮1-8-50
+  capacity: 220
+  name_en: Life Junior Japanese Language Institute
+  name_ja: ライフジュニア日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語進学1.5年コース
+  total_fees: 1214800
+- admission_month: '4'
+  course_name: 日本語進学2年コース
+  total_fees: 1572000
+faculties: []
+features:
+- On-campus/Affiliated Dormitory Accommodation
+- Intensive Preparation for the Examination for Japanese University Admission (EJU)
+- Strong Focus on Higher Education Advancement (Shingaku)
+- Flexible Short-term Study Programs Available
+id: school_life-junior-japanese-language-institute-okinawa
+lang: en
+layout: school
+location:
+  lat: 26.20964
+  lng: 127.6927055
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=586
+stats:
+  capacity: 220
+  international_students: 195
+tags:
+- On-campus/Affiliated Dormitory Accommodation
+- Intensive Preparation for the Examination for Japanese University Admission (EJU)
+- Strong Focus on Higher Education Advancement (Shingaku)
+- Flexible Short-term Study Programs Available
+thumbnail: /static/img/pin-school.png
+title: Life Junior Japanese Language Institute
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

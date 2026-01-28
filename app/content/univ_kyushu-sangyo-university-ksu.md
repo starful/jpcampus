@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyushu-sangyo-university-ksu",
-  "title": "Kyushu Sangyo University",
-  "category": "university",
-  "tags": [
-    "Regional Private Leader",
-    "Strong EJU Focus",
-    "High Job Placement Rate in Kyushu",
-    "Significant Tuition Waivers Available",
-    "Design and Engineering Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "九州産業大学",
-    "name_en": "Kyushu Sangyo University",
-    "address": "〒813-8503 福岡県福岡市東区松香台２丁目３−１",
-    "website": "https://www.kyusan-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 350,
-    "acceptance_rate": "Not Publicly Disclosed (Estimated 30%-40%)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Art and Design",
-    "Engineering",
-    "Economics",
-    "Commerce",
-    "International Studies",
-    "Management",
-    "Life Science"
-  ],
-  "features": [
-    "Regional Private Leader",
-    "Strong EJU Focus",
-    "High Job Placement Rate in Kyushu",
-    "Significant Tuition Waivers Available",
-    "Design and Engineering Focus"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒813-8503 福岡県福岡市東区松香台２丁目３−１
+  name_en: Kyushu Sangyo University
+  name_ja: 九州産業大学
+  website: https://www.kyusan-u.ac.jp/
+category: university
+faculties:
+- Art and Design
+- Engineering
+- Economics
+- Commerce
+- International Studies
+- Management
+- Life Science
+features:
+- Regional Private Leader
+- Strong EJU Focus
+- High Job Placement Rate in Kyushu
+- Significant Tuition Waivers Available
+- Design and Engineering Focus
+id: univ_kyushu-sangyo-university-ksu
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Not Publicly Disclosed (Estimated 30%-40%)
+  international_students: 350
+tags:
+- Regional Private Leader
+- Strong EJU Focus
+- High Job Placement Rate in Kyushu
+- Significant Tuition Waivers Available
+- Design and Engineering Focus
+thumbnail: /static/img/pin-univ.png
+title: Kyushu Sangyo University
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## University Overview & Reputation

@@ -1,61 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "school_richi-no-mori-japanese-language-school-sendai",
-  "title": "Richi no Mori Japanese Language School, Sendai Campus",
-  "category": "school",
-  "tags": [
-    "Dedicated Dormitory Options (including Single Rooms)",
-    "Strong University & Vocational Progression Focus (Shin-gaku)",
-    "Specialized EJU Preparation Classes",
-    "Science (Rikei) and Art/Design Specific Tracks",
-    "Business Japanese and Professional Communication Training",
-    "Comprehensive Scholarship Programs",
-    "Emphasis on Practical Conversation Skills",
-    "Short-term Study Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 38.2675554,
-    "lng": 140.8443022
-  },
-  "basic_info": {
-    "name_ja": "理知の杜日本語学校仙台校",
-    "address": "宮城県仙台市青葉区角五郎2-5-4",
-    "capacity": 100,
-    "name_en": "Richi no Mori Japanese Language School, Sendai Campus"
-  },
-  "stats": {
-    "international_students": 95,
-    "capacity": 100
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Dormitory Options (including Single Rooms)",
-    "Strong University & Vocational Progression Focus (Shin-gaku)",
-    "Specialized EJU Preparation Classes",
-    "Science (Rikei) and Art/Design Specific Tracks",
-    "Business Japanese and Professional Communication Training",
-    "Comprehensive Scholarship Programs",
-    "Emphasis on Practical Conversation Skills",
-    "Short-term Study Programs Available"
-  ],
-  "courses": [
-    {
-      "course_name": "Progression Course (2 Years)",
-      "admission_month": "4",
-      "total_fees": 1360000
-    },
-    {
-      "course_name": "Progression Course (1 Year 6 Months)",
-      "admission_month": "10",
-      "total_fees": 1050000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=570",
-  "translated": true
-}
+basic_info:
+  address: 宮城県仙台市青葉区角五郎2-5-4
+  capacity: 100
+  name_en: Richi no Mori Japanese Language School, Sendai Campus
+  name_ja: 理知の杜日本語学校仙台校
+category: school
+courses:
+- admission_month: '4'
+  course_name: Progression Course (2 Years)
+  total_fees: 1360000
+- admission_month: '10'
+  course_name: Progression Course (1 Year 6 Months)
+  total_fees: 1050000
+faculties: []
+features:
+- Dedicated Dormitory Options (including Single Rooms)
+- Strong University & Vocational Progression Focus (Shin-gaku)
+- Specialized EJU Preparation Classes
+- Science (Rikei) and Art/Design Specific Tracks
+- Business Japanese and Professional Communication Training
+- Comprehensive Scholarship Programs
+- Emphasis on Practical Conversation Skills
+- Short-term Study Programs Available
+id: school_richi-no-mori-japanese-language-school-sendai
+lang: en
+layout: school
+location:
+  lat: 38.2675554
+  lng: 140.8443022
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=570
+stats:
+  capacity: 100
+  international_students: 95
+tags:
+- Dedicated Dormitory Options (including Single Rooms)
+- Strong University & Vocational Progression Focus (Shin-gaku)
+- Specialized EJU Preparation Classes
+- Science (Rikei) and Art/Design Specific Tracks
+- Business Japanese and Professional Communication Training
+- Comprehensive Scholarship Programs
+- Emphasis on Practical Conversation Skills
+- Short-term Study Programs Available
+thumbnail: /static/img/pin-school.png
+title: Richi no Mori Japanese Language School, Sendai Campus
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

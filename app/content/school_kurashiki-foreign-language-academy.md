@@ -1,53 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kurashiki-foreign-language-academy",
-  "title": "Kurashiki Foreign Language Academy",
-  "category": "school",
-  "tags": [
-    "Specialized University Progression (EJU, Science, Arts & Design Tracks)",
-    "Comprehensive On-Campus Accommodation Options (Including Single Rooms)",
-    "Ideal Study Environment in the Historical City of Kurashiki, Okayama",
-    "Focus on Practical Conversation and Advanced Business Japanese"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.5990621,
-    "lng": 133.7645322
-  },
-  "basic_info": {
-    "name_ja": "倉敷外語学院",
-    "address": "岡山県倉敷市阿知3-10-33",
-    "capacity": 500,
-    "name_en": "Kurashiki Foreign Language Academy"
-  },
-  "stats": {
-    "international_students": 450,
-    "capacity": 500
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized University Progression (EJU, Science, Arts & Design Tracks)",
-    "Comprehensive On-Campus Accommodation Options (Including Single Rooms)",
-    "Ideal Study Environment in the Historical City of Kurashiki, Okayama",
-    "Focus on Practical Conversation and Advanced Business Japanese"
-  ],
-  "courses": [
-    {
-      "course_name": "University Progression 2-Year Course",
-      "admission_month": "4",
-      "total_fees": 1412000
-    },
-    {
-      "course_name": "University Progression 1.5-Year Course",
-      "admission_month": "10",
-      "total_fees": 1082000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=466",
-  "translated": true
-}
+basic_info:
+  address: 岡山県倉敷市阿知3-10-33
+  capacity: 500
+  name_en: Kurashiki Foreign Language Academy
+  name_ja: 倉敷外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Progression 2-Year Course
+  total_fees: 1412000
+- admission_month: '10'
+  course_name: University Progression 1.5-Year Course
+  total_fees: 1082000
+faculties: []
+features:
+- Specialized University Progression (EJU, Science, Arts & Design Tracks)
+- Comprehensive On-Campus Accommodation Options (Including Single Rooms)
+- Ideal Study Environment in the Historical City of Kurashiki, Okayama
+- Focus on Practical Conversation and Advanced Business Japanese
+id: school_kurashiki-foreign-language-academy
+lang: en
+layout: school
+location:
+  lat: 34.5990621
+  lng: 133.7645322
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=466
+stats:
+  capacity: 500
+  international_students: 450
+tags:
+- Specialized University Progression (EJU, Science, Arts & Design Tracks)
+- Comprehensive On-Campus Accommodation Options (Including Single Rooms)
+- Ideal Study Environment in the Historical City of Kurashiki, Okayama
+- Focus on Practical Conversation and Advanced Business Japanese
+thumbnail: /static/img/pin-school.png
+title: Kurashiki Foreign Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

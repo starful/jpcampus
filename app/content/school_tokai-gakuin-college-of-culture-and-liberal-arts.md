@@ -1,56 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "茨城県取手市井野台1-22-14",
-    "capacity": 100,
-    "name_en": "Tokai Gakuin College of Culture and Liberal Arts",
-    "name_ja": "東海学院文化教養専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "10月入学コース",
-      "total_fees": 990000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "4月入学コース",
-      "total_fees": 1280000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "Higher Education Support",
-    "Conversation-focused Classes",
-    "Short-term Study Options"
-  ],
-  "id": "school_tokai-gakuin-college-of-culture-and-liberal-arts",
-  "layout": "school",
-  "location": {
-    "lat": 35.9016862,
-    "lng": 140.0696198
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=540",
-  "stats": {
-    "capacity": 100,
-    "international_students": 100
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "Higher Education Support",
-    "Conversation-focused Classes",
-    "Short-term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Tokai Gakuin College of Culture and Liberal Arts",
-  "tuition": {},
-  "translated": true,
-  "description": "Tokai Gakuin College of Culture and Liberal Arts offers international students a pathway to higher education in Japan with a supportive environment, EJU preparation, conversation skills, and comprehensive guidance."
-}
+basic_info:
+  address: 茨城県取手市井野台1-22-14
+  capacity: 100
+  name_en: Tokai Gakuin College of Culture and Liberal Arts
+  name_ja: 東海学院文化教養専門学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 10月入学コース
+  total_fees: 990000
+- admission_month: '4'
+  course_name: 4月入学コース
+  total_fees: 1280000
+description: Tokai Gakuin College of Culture and Liberal Arts offers international
+  students a pathway to higher education in Japan with a supportive environment, EJU
+  preparation, conversation skills, and comprehensive guidance.
+faculties: []
+features:
+- Dormitory Available
+- EJU Preparation
+- Higher Education Support
+- Conversation-focused Classes
+- Short-term Study Options
+id: school_tokai-gakuin-college-of-culture-and-liberal-arts
+lang: en
+layout: school
+location:
+  lat: 35.9016862
+  lng: 140.0696198
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=540
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- Dormitory Available
+- EJU Preparation
+- Higher Education Support
+- Conversation-focused Classes
+- Short-term Study Options
+thumbnail: /static/img/pin-school.png
+title: Tokai Gakuin College of Culture and Liberal Arts
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,70 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-international-exchange-college-hachioji",
-  "title": "Tokyo International Exchange College",
-  "category": "school",
-  "tags": [
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Comprehensive University and Graduate School Advancement Support",
-    "Guaranteed Student Dormitory Options Available",
-    "Focus on Intercultural Communication and Exchange",
-    "Dedicated Job Hunting and Employment Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6582375,
-    "lng": 139.3135062
-  },
-  "basic_info": {
-    "name_ja": "東京国際交流学院",
-    "address": "東京都八王子市千人町2-3-16",
-    "capacity": 480,
-    "name_en": "Tokyo International Exchange College"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 480
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Comprehensive University and Graduate School Advancement Support",
-    "Guaranteed Student Dormitory Options Available",
-    "Focus on Intercultural Communication and Exchange",
-    "Dedicated Job Hunting and Employment Track"
-  ],
-  "courses": [
-    {
-      "course_name": "Job Hunting 2-Year Course",
-      "admission_month": "4",
-      "total_fees": 1522000
-    },
-    {
-      "course_name": "University Advancement 2-Year Course",
-      "admission_month": "4",
-      "total_fees": 1522000
-    },
-    {
-      "course_name": "University Advancement 1 Year 9 Months Course",
-      "admission_month": "7",
-      "total_fees": 1339000
-    },
-    {
-      "course_name": "University Advancement 1 Year 6 Months Course",
-      "admission_month": "10",
-      "total_fees": 1162500
-    },
-    {
-      "course_name": "University Advancement 1 Year 3 Months Course",
-      "admission_month": "1",
-      "total_fees": 979500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=614",
-  "translated": true
-}
+basic_info:
+  address: 東京都八王子市千人町2-3-16
+  capacity: 480
+  name_en: Tokyo International Exchange College
+  name_ja: 東京国際交流学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: Job Hunting 2-Year Course
+  total_fees: 1522000
+- admission_month: '4'
+  course_name: University Advancement 2-Year Course
+  total_fees: 1522000
+- admission_month: '7'
+  course_name: University Advancement 1 Year 9 Months Course
+  total_fees: 1339000
+- admission_month: '10'
+  course_name: University Advancement 1 Year 6 Months Course
+  total_fees: 1162500
+- admission_month: '1'
+  course_name: University Advancement 1 Year 3 Months Course
+  total_fees: 979500
+faculties: []
+features:
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Comprehensive University and Graduate School Advancement Support
+- Guaranteed Student Dormitory Options Available
+- Focus on Intercultural Communication and Exchange
+- Dedicated Job Hunting and Employment Track
+id: school_tokyo-international-exchange-college-hachioji
+lang: en
+layout: school
+location:
+  lat: 35.6582375
+  lng: 139.3135062
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=614
+stats:
+  capacity: 480
+  international_students: null
+tags:
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Comprehensive University and Graduate School Advancement Support
+- Guaranteed Student Dormitory Options Available
+- Focus on Intercultural Communication and Exchange
+- Dedicated Job Hunting and Employment Track
+thumbnail: /static/img/pin-school.png
+title: Tokyo International Exchange College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

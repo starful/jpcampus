@@ -1,62 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_meikou-education-japanese-language-school",
-  "title": "Meikou Education Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Higher Education Progression Focus",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Dedicated STEM (Science and Engineering) Track and Guidance",
-    "Strategic Location in Central Tokyo (Taito Ward)",
-    "Comprehensive Support for Competitive University Admissions"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7137832,
-    "lng": 139.7819525
-  },
-  "basic_info": {
-    "name_ja": "名校教育日本語学校",
-    "address": "東京都台東区東上野5-15-2 TSSビル",
-    "capacity": 225,
-    "name_en": "Meikou Education Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Higher Education Progression Focus",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Dedicated STEM (Science and Engineering) Track and Guidance",
-    "Strategic Location in Central Tokyo (Taito Ward)",
-    "Comprehensive Support for Competitive University Admissions"
-  ],
-  "courses": [
-    {
-      "course_name": "Progression Course (1 Year 3 Months)",
-      "admission_month": "1",
-      "total_fees": 1015000
-    },
-    {
-      "course_name": "Progression Course (1 Year 6 Months)",
-      "admission_month": "10",
-      "total_fees": 1210000
-    },
-    {
-      "course_name": "Progression Course (1 Year 9 Months)",
-      "admission_month": "7",
-      "total_fees": 1405000
-    },
-    {
-      "course_name": "Progression Course (2 Years)",
-      "admission_month": "4",
-      "total_fees": 1600000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=558",
-  "translated": true
-}
+basic_info:
+  address: 東京都台東区東上野5-15-2 TSSビル
+  capacity: 225
+  name_en: Meikou Education Japanese Language School
+  name_ja: 名校教育日本語学校
+category: school
+courses:
+- admission_month: '1'
+  course_name: Progression Course (1 Year 3 Months)
+  total_fees: 1015000
+- admission_month: '10'
+  course_name: Progression Course (1 Year 6 Months)
+  total_fees: 1210000
+- admission_month: '7'
+  course_name: Progression Course (1 Year 9 Months)
+  total_fees: 1405000
+- admission_month: '4'
+  course_name: Progression Course (2 Years)
+  total_fees: 1600000
+faculties: []
+features:
+- Higher Education Progression Focus
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Dedicated STEM (Science and Engineering) Track and Guidance
+- Strategic Location in Central Tokyo (Taito Ward)
+- Comprehensive Support for Competitive University Admissions
+id: school_meikou-education-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.7137832
+  lng: 139.7819525
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=558
+stats: {}
+tags:
+- Higher Education Progression Focus
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Dedicated STEM (Science and Engineering) Track and Guidance
+- Strategic Location in Central Tokyo (Taito Ward)
+- Comprehensive Support for Competitive University Admissions
+thumbnail: /static/img/pin-school.png
+title: Meikou Education Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

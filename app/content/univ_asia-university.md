@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_asia-university",
-  "title": "Asia University",
-  "category": "university",
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "亜細亜大学",
-    "name_en": "Asia University",
-    "address": "〒180-8629 東京都武蔵野市境5-8",
-    "website": "https://www.asia-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 200,
-    "acceptance_rate": "Not publicly disclosed; generally competitive."
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of International Relations",
-    "Faculty of Urban Innovation"
-  ],
-  "features": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒180-8629 東京都武蔵野市境5-8
+  name_en: Asia University
+  name_ja: 亜細亜大学
+  website: https://www.asia-u.ac.jp/
+category: university
+faculties:
+- Faculty of Business Administration
+- Faculty of Economics
+- Faculty of Law
+- Faculty of International Relations
+- Faculty of Urban Innovation
+features:
+- English Program
+- Dormitory
+- Scholarship
+id: univ_asia-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Not publicly disclosed; generally competitive.
+  international_students: 200
+tags:
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Asia University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## University Overview

@@ -1,71 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区高田馬場4-9-9 早稲田予備校13時ホール5F",
-    "capacity": 2240,
-    "name_en": "Human Academy Japanese Language School, Tokyo Campus",
-    "name_ja": "ヒューマンアカデミー日本語学校東京校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "进学2年コース",
-      "total_fees": 1337200
-    },
-    {
-      "admission_month": "7",
-      "course_name": "进学1年9か月コース",
-      "total_fees": 1180850
-    },
-    {
-      "admission_month": "10",
-      "course_name": "进学1年6か月コース",
-      "total_fees": 1024500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "进学1年3か月コース",
-      "total_fees": 868100
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般2年コース",
-      "total_fees": 1337200
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Conversation Focus",
-    "Business Japanese",
-    "Short-term Courses"
-  ],
-  "id": "school_human-academy-japanese-language-school-tokyo",
-  "layout": "school",
-  "location": {
-    "lat": 35.7133076,
-    "lng": 139.7024913
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=140",
-  "stats": {
-    "capacity": 2240,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Conversation Focus",
-    "Business Japanese",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Human Academy Japanese Language School, Tokyo Campus",
-  "tuition": {},
-  "description": "Human Academy Japanese Language School, Tokyo Campus is a well-known institution in Tokyo's academic hub of Takadanobaba. Part of the Human Group, it offers comprehensive Japanese language education for international students, preparing them for higher education in Japan.",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区高田馬場4-9-9 早稲田予備校13時ホール5F
+  capacity: 2240
+  name_en: Human Academy Japanese Language School, Tokyo Campus
+  name_ja: ヒューマンアカデミー日本語学校東京校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 进学2年コース
+  total_fees: 1337200
+- admission_month: '7'
+  course_name: 进学1年9か月コース
+  total_fees: 1180850
+- admission_month: '10'
+  course_name: 进学1年6か月コース
+  total_fees: 1024500
+- admission_month: '1'
+  course_name: 进学1年3か月コース
+  total_fees: 868100
+- admission_month: 4,7,10,1
+  course_name: 一般2年コース
+  total_fees: 1337200
+description: Human Academy Japanese Language School, Tokyo Campus is a well-known
+  institution in Tokyo's academic hub of Takadanobaba. Part of the Human Group, it
+  offers comprehensive Japanese language education for international students, preparing
+  them for higher education in Japan.
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Conversation Focus
+- Business Japanese
+- Short-term Courses
+id: school_human-academy-japanese-language-school-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.7133076
+  lng: 139.7024913
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=140
+stats:
+  capacity: 2240
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Conversation Focus
+- Business Japanese
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: Human Academy Japanese Language School, Tokyo Campus
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_meikai-university-international-student-guide",
-  "title": "Meikai University",
-  "category": "university",
-  "tags": [
-    "Strong focus on International Communication and Language proficiency",
-    "Japan's premier program in Real Estate Sciences and Urban Development",
-    "High-tech Urayasu campus near Tokyo Disney Resort",
-    "EJU Required for standard international admissions (Japanese proficiency essential)",
-    "Specialized Dental programs with high national reputation",
-    "Active International Exchange Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "明海大学",
-    "name_en": "Meikai University",
-    "address": "1 Akemi, Urayasu, Chiba 279-8550, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "48-52%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "Faculty of Dentistry",
-    "Faculty of Applied Foreign Languages",
-    "Faculty of Economics",
-    "Faculty of Real Estate Sciences",
-    "Faculty of Hospitality and Tourism"
-  ],
-  "features": [
-    "Strong focus on International Communication and Language proficiency",
-    "Japan's premier program in Real Estate Sciences and Urban Development",
-    "High-tech Urayasu campus near Tokyo Disney Resort",
-    "EJU Required for standard international admissions (Japanese proficiency essential)",
-    "Specialized Dental programs with high national reputation",
-    "Active International Exchange Programs"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 1 Akemi, Urayasu, Chiba 279-8550, Japan
+  capacity: null
+  name_en: Meikai University
+  name_ja: 明海大学
+category: university
+faculties:
+- Faculty of Dentistry
+- Faculty of Applied Foreign Languages
+- Faculty of Economics
+- Faculty of Real Estate Sciences
+- Faculty of Hospitality and Tourism
+features:
+- Strong focus on International Communication and Language proficiency
+- Japan's premier program in Real Estate Sciences and Urban Development
+- High-tech Urayasu campus near Tokyo Disney Resort
+- EJU Required for standard international admissions (Japanese proficiency essential)
+- Specialized Dental programs with high national reputation
+- Active International Exchange Programs
+id: univ_meikai-university-international-student-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 48-52%
+  international_students: 320
+tags:
+- Strong focus on International Communication and Language proficiency
+- Japan's premier program in Real Estate Sciences and Urban Development
+- High-tech Urayasu campus near Tokyo Disney Resort
+- EJU Required for standard international admissions (Japanese proficiency essential)
+- Specialized Dental programs with high national reputation
+- Active International Exchange Programs
+thumbnail: /static/img/pin-univ.png
+title: Meikai University
+translated: true
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1250000
 ---
 
 ## University Overview

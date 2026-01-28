@@ -1,62 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "school_chiba-kokusai-gakuin",
-  "title": "Chiba Kokusai Gakuin (Chiba International Academy)",
-  "category": "school",
-  "tags": [
-    "Focused University Entrance Preparation (EJU/JLPT N1)",
-    "Specialized Science and Art/Design Pathways",
-    "On-Campus Dormitory featuring Guaranteed Single Rooms",
-    "Small School Environment (Capacity: 94) Ensuring Personalized Attention",
-    "Comprehensive Scholarship and Financial Aid Programs",
-    "Proximity to Tokyo with Lower Living Costs (Located in Kashiwa)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.8293615,
-    "lng": 139.9749549
-  },
-  "basic_info": {
-    "name_ja": "千葉国際学院",
-    "address": "千葉県柏市加賀3-18-12",
-    "capacity": 94,
-    "name_en": "Chiba International Academy"
-  },
-  "stats": {
-    "international_students": 85,
-    "capacity": 94
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Focused University Entrance Preparation (EJU/JLPT N1)",
-    "Specialized Science and Art/Design Pathways",
-    "On-Campus Dormitory featuring Guaranteed Single Rooms",
-    "Small School Environment (Capacity: 94) Ensuring Personalized Attention",
-    "Comprehensive Scholarship and Financial Aid Programs",
-    "Proximity to Tokyo with Lower Living Costs (Located in Kashiwa)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1017500
-    },
-    {
-      "course_name": "進学1年9ヵ月コース",
-      "admission_month": "7",
-      "total_fees": 1175250
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1333000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=81",
-  "translated": true
-}
+basic_info:
+  address: 千葉県柏市加賀3-18-12
+  capacity: 94
+  name_en: Chiba International Academy
+  name_ja: 千葉国際学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1017500
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1175250
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1333000
+faculties: []
+features:
+- Focused University Entrance Preparation (EJU/JLPT N1)
+- Specialized Science and Art/Design Pathways
+- On-Campus Dormitory featuring Guaranteed Single Rooms
+- 'Small School Environment (Capacity: 94) Ensuring Personalized Attention'
+- Comprehensive Scholarship and Financial Aid Programs
+- Proximity to Tokyo with Lower Living Costs (Located in Kashiwa)
+id: school_chiba-kokusai-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.8293615
+  lng: 139.9749549
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=81
+stats:
+  capacity: 94
+  international_students: 85
+tags:
+- Focused University Entrance Preparation (EJU/JLPT N1)
+- Specialized Science and Art/Design Pathways
+- On-Campus Dormitory featuring Guaranteed Single Rooms
+- 'Small School Environment (Capacity: 94) Ensuring Personalized Attention'
+- Comprehensive Scholarship and Financial Aid Programs
+- Proximity to Tokyo with Lower Living Costs (Located in Kashiwa)
+thumbnail: /static/img/pin-school.png
+title: Chiba Kokusai Gakuin (Chiba International Academy)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,54 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kyoritsu-japanese-language-school-tokyo",
-  "title": "Kyoritsu Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Intensive University Preparatory Focus (Shin-gaku)",
-    "Specialized EJU & JLPT Training",
-    "Small Class Capacity (Maximum 100 Students)",
-    "Prime Academic Location in Bunkyo Ward, Tokyo",
-    "Highly Personalized Guidance for Higher Education Entry"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7060739,
-    "lng": 139.7648522
-  },
-  "basic_info": {
-    "name_ja": "共立日本語学校",
-    "address": "東京都文京区湯島2-20-4",
-    "capacity": 100,
-    "name_en": "Kyoritsu Japanese Language School"
-  },
-  "stats": {
-    "international_students": 95,
-    "capacity": 100
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Intensive University Preparatory Focus (Shin-gaku)",
-    "Specialized EJU & JLPT Training",
-    "Small Class Capacity (Maximum 100 Students)",
-    "Prime Academic Location in Bunkyo Ward, Tokyo",
-    "Highly Personalized Guidance for Higher Education Entry"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1255000
-    },
-    {
-      "course_name": "2年コース",
-      "admission_month": "4",
-      "total_fees": 1640000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=585"
-}
+basic_info:
+  address: 東京都文京区湯島2-20-4
+  capacity: 100
+  name_en: Kyoritsu Japanese Language School
+  name_ja: 共立日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1255000
+- admission_month: '4'
+  course_name: 2年コース
+  total_fees: 1640000
+faculties: []
+features:
+- Intensive University Preparatory Focus (Shin-gaku)
+- Specialized EJU & JLPT Training
+- Small Class Capacity (Maximum 100 Students)
+- Prime Academic Location in Bunkyo Ward, Tokyo
+- Highly Personalized Guidance for Higher Education Entry
+id: school_kyoritsu-japanese-language-school-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.7060739
+  lng: 139.7648522
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=585
+stats:
+  capacity: 100
+  international_students: 95
+tags:
+- Intensive University Preparatory Focus (Shin-gaku)
+- Specialized EJU & JLPT Training
+- Small Class Capacity (Maximum 100 Students)
+- Prime Academic Location in Bunkyo Ward, Tokyo
+- Highly Personalized Guidance for Higher Education Entry
+thumbnail: /static/img/pin-school.png
+title: Kyoritsu Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,60 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市平野区喜連5-2-38",
-    "capacity": 136,
-    "name_en": "Osaka Minami Japanese Language School",
-    "name_ja": "大阪みなみ日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1380000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1222500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1055000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Focus",
-    "Short-term Courses",
-    "Science Stream Support"
-  ],
-  "id": "school_osaka-minami-japanese-language-school",
-  "layout": "school",
-  "location": {
-    "lat": 34.613996,
-    "lng": 135.5545347
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=347",
-  "stats": {
-    "capacity": 136,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Focus",
-    "Short-term Courses",
-    "Science Stream Support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Osaka Minami Japanese Language School",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市平野区喜連5-2-38
+  capacity: 136
+  name_en: Osaka Minami Japanese Language School
+  name_ja: 大阪みなみ日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1380000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1222500
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1055000
+faculties: []
+features:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Focus
+- Short-term Courses
+- Science Stream Support
+id: school_osaka-minami-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 34.613996
+  lng: 135.5545347
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=347
+stats:
+  capacity: 136
+  international_students: 0
+tags:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Focus
+- Short-term Courses
+- Science Stream Support
+thumbnail: /static/img/pin-school.png
+title: Osaka Minami Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

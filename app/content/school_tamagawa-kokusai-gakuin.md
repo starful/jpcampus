@@ -1,66 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tamagawa-kokusai-gakuin",
-  "title": "Tamagawa Kokusai Gakuin (TKG)",
-  "category": "school",
-  "tags": [
-    "Dormitory Accommodation Available",
-    "Strong Focus on University Advancement",
-    "EJU and JLPT Preparation Courses",
-    "Located in Taito Ward, Tokyo (Asakusabashi)",
-    "Structured Long-Term Advancement Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7009109,
-    "lng": 139.7836321
-  },
-  "basic_info": {
-    "name_ja": "玉川国際学院",
-    "address": "東京都台東区浅草橋5-15-10　玉川国際ビル",
-    "capacity": 400,
-    "name_en": "Tamagawa International Academy"
-  },
-  "stats": {
-    "international_students": 360,
-    "capacity": 400
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory Accommodation Available",
-    "Strong Focus on University Advancement",
-    "EJU and JLPT Preparation Courses",
-    "Located in Taito Ward, Tokyo (Asakusabashi)",
-    "Structured Long-Term Advancement Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1358000
-    },
-    {
-      "course_name": "進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1197000
-    },
-    {
-      "course_name": "進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1044000
-    },
-    {
-      "course_name": "進学1年3ヶ月コース",
-      "admission_month": "1",
-      "total_fees": 901500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=151",
-  "description": "Tamagawa International Academy (TKG) is a language school located in Asakusabashi, Tokyo, specializing in university preparation with dormitory options. It offers EJU and JLPT prep courses and structured advancement programs.",
-  "translated": true
-}
+basic_info:
+  address: 東京都台東区浅草橋5-15-10　玉川国際ビル
+  capacity: 400
+  name_en: Tamagawa International Academy
+  name_ja: 玉川国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1358000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1197000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1044000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 901500
+description: Tamagawa International Academy (TKG) is a language school located in
+  Asakusabashi, Tokyo, specializing in university preparation with dormitory options.
+  It offers EJU and JLPT prep courses and structured advancement programs.
+faculties: []
+features:
+- Dormitory Accommodation Available
+- Strong Focus on University Advancement
+- EJU and JLPT Preparation Courses
+- Located in Taito Ward, Tokyo (Asakusabashi)
+- Structured Long-Term Advancement Programs
+id: school_tamagawa-kokusai-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.7009109
+  lng: 139.7836321
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=151
+stats:
+  capacity: 400
+  international_students: 360
+tags:
+- Dormitory Accommodation Available
+- Strong Focus on University Advancement
+- EJU and JLPT Preparation Courses
+- Located in Taito Ward, Tokyo (Asakusabashi)
+- Structured Long-Term Advancement Programs
+thumbnail: /static/img/pin-school.png
+title: Tamagawa Kokusai Gakuin (TKG)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

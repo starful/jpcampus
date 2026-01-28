@@ -1,63 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_shinjuku-japanese-language-institute",
-  "title": "Shinjuku Japanese Language Institute (SNG)",
-  "category": "school",
-  "tags": [
-    "On-campus/Affiliated Dormitory Options Available",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation Tracks",
-    "Strong Focus on University and Graduate School Progression",
-    "Located in Takadanobaba, Tokyo's Major Student District"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.712533,
-    "lng": 139.7079775
-  },
-  "basic_info": {
-    "name_ja": "新宿日本語学校",
-    "address": "東京都新宿区高田馬場2-9-7",
-    "capacity": 720,
-    "name_en": "Shinjuku Japanese Language Institute (SNG)"
-  },
-  "stats": {
-    "international_students": 650,
-    "capacity": 720
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "On-campus/Affiliated Dormitory Options Available",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation Tracks",
-    "Strong Focus on University and Graduate School Progression",
-    "Located in Takadanobaba, Tokyo's Major Student District"
-  ],
-  "courses": [
-    {
-      "course_name": "Japanese Language Course 1",
-      "admission_month": "4",
-      "total_fees": 825000
-    },
-    {
-      "course_name": "Japanese Language Course 2",
-      "admission_month": "10",
-      "total_fees": 1205000
-    },
-    {
-      "course_name": "Japanese Language Course 3",
-      "admission_month": "4",
-      "total_fees": 1570000
-    },
-    {
-      "course_name": "Japanese Language Course 4",
-      "admission_month": "1,7",
-      "total_fees": 825000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=132",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区高田馬場2-9-7
+  capacity: 720
+  name_en: Shinjuku Japanese Language Institute (SNG)
+  name_ja: 新宿日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: Japanese Language Course 1
+  total_fees: 825000
+- admission_month: '10'
+  course_name: Japanese Language Course 2
+  total_fees: 1205000
+- admission_month: '4'
+  course_name: Japanese Language Course 3
+  total_fees: 1570000
+- admission_month: 1,7
+  course_name: Japanese Language Course 4
+  total_fees: 825000
+faculties: []
+features:
+- On-campus/Affiliated Dormitory Options Available
+- Specialized EJU (Examination for Japanese University Admission) Preparation Tracks
+- Strong Focus on University and Graduate School Progression
+- Located in Takadanobaba, Tokyo's Major Student District
+id: school_shinjuku-japanese-language-institute
+lang: en
+layout: school
+location:
+  lat: 35.712533
+  lng: 139.7079775
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=132
+stats:
+  capacity: 720
+  international_students: 650
+tags:
+- On-campus/Affiliated Dormitory Options Available
+- Specialized EJU (Examination for Japanese University Admission) Preparation Tracks
+- Strong Focus on University and Graduate School Progression
+- Located in Takadanobaba, Tokyo's Major Student District
+thumbnail: /static/img/pin-school.png
+title: Shinjuku Japanese Language Institute (SNG)
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

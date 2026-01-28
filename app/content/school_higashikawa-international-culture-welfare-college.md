@@ -1,58 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_higashikawa-international-culture-welfare-college",
-  "title": "Higashikawa International Culture and Welfare College",
-  "category": "school",
-  "tags": [
-    "Comprehensive Dormitory System",
-    "Dedicated EJU and University Entrance Exam Preparation",
-    "Specialized Tracks (Science, Art & Design, Business)",
-    "Strong Emphasis on Conversational Fluency",
-    "Availability of Scholarships and Financial Aid",
-    "Single Room Accommodation Options",
-    "Located in Scenic Hokkaido (Higashikawa Town)",
-    "Short-Term Study Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 43.7013995,
-    "lng": 142.5434911
-  },
-  "basic_info": {
-    "name_ja": "東川国際文化福祉専門学校",
-    "address": "北海道上川郡東川町進化台",
-    "capacity": 200,
-    "name_en": "Higashikawa International Culture and Welfare College"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive Dormitory System",
-    "Dedicated EJU and University Entrance Exam Preparation",
-    "Specialized Tracks (Science, Art & Design, Business)",
-    "Strong Emphasis on Conversational Fluency",
-    "Availability of Scholarships and Financial Aid",
-    "Single Room Accommodation Options",
-    "Located in Scenic Hokkaido (Higashikawa Town)",
-    "Short-Term Study Programs Available"
-  ],
-  "courses": [
-    {
-      "course_name": "General",
-      "admission_month": "4",
-      "total_fees": 1220000
-    },
-    {
-      "course_name": "General",
-      "admission_month": "0",
-      "total_fees": 1600000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=499",
-  "translated": true
-}
+basic_info:
+  address: 北海道上川郡東川町進化台
+  capacity: 200
+  name_en: Higashikawa International Culture and Welfare College
+  name_ja: 東川国際文化福祉専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: General
+  total_fees: 1220000
+- admission_month: '0'
+  course_name: General
+  total_fees: 1600000
+faculties: []
+features:
+- Comprehensive Dormitory System
+- Dedicated EJU and University Entrance Exam Preparation
+- Specialized Tracks (Science, Art & Design, Business)
+- Strong Emphasis on Conversational Fluency
+- Availability of Scholarships and Financial Aid
+- Single Room Accommodation Options
+- Located in Scenic Hokkaido (Higashikawa Town)
+- Short-Term Study Programs Available
+id: school_higashikawa-international-culture-welfare-college
+lang: en
+layout: school
+location:
+  lat: 43.7013995
+  lng: 142.5434911
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=499
+stats: {}
+tags:
+- Comprehensive Dormitory System
+- Dedicated EJU and University Entrance Exam Preparation
+- Specialized Tracks (Science, Art & Design, Business)
+- Strong Emphasis on Conversational Fluency
+- Availability of Scholarships and Financial Aid
+- Single Room Accommodation Options
+- Located in Scenic Hokkaido (Higashikawa Town)
+- Short-Term Study Programs Available
+thumbnail: /static/img/pin-school.png
+title: Higashikawa International Culture and Welfare College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

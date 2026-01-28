@@ -1,63 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-international-japanese-institute-shinjuku",
-  "title": "Tokyo International Japanese Language Academy",
-  "category": "school",
-  "tags": [
-    "University Progression Focus",
-    "EJU Preparation Expertise",
-    "Dedicated Student Dormitory Support",
-    "Prime Location in Shinjuku, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6902165,
-    "lng": 139.7082301
-  },
-  "basic_info": {
-    "name_ja": "東京国際日本語学院",
-    "address": "東京都新宿区新宿2-13-6",
-    "capacity": 450,
-    "name_en": "Tokyo International Japanese Language Academy"
-  },
-  "stats": {
-    "international_students": 380,
-    "capacity": 450
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Progression Focus",
-    "EJU Preparation Expertise",
-    "Dedicated Student Dormitory Support",
-    "Prime Location in Shinjuku, Tokyo"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コース",
-      "admission_month": "10",
-      "total_fees": 1090000
-    },
-    {
-      "course_name": "進学コース",
-      "admission_month": "4",
-      "total_fees": 1400000
-    },
-    {
-      "course_name": "一般コース",
-      "admission_month": "1",
-      "total_fees": 1400000
-    },
-    {
-      "course_name": "一般コース",
-      "admission_month": "7",
-      "total_fees": 1400000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=102",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区新宿2-13-6
+  capacity: 450
+  name_en: Tokyo International Japanese Language Academy
+  name_ja: 東京国際日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学コース
+  total_fees: 1090000
+- admission_month: '4'
+  course_name: 進学コース
+  total_fees: 1400000
+- admission_month: '1'
+  course_name: 一般コース
+  total_fees: 1400000
+- admission_month: '7'
+  course_name: 一般コース
+  total_fees: 1400000
+faculties: []
+features:
+- University Progression Focus
+- EJU Preparation Expertise
+- Dedicated Student Dormitory Support
+- Prime Location in Shinjuku, Tokyo
+id: school_tokyo-international-japanese-institute-shinjuku
+lang: en
+layout: school
+location:
+  lat: 35.6902165
+  lng: 139.7082301
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=102
+stats:
+  capacity: 450
+  international_students: 380
+tags:
+- University Progression Focus
+- EJU Preparation Expertise
+- Dedicated Student Dormitory Support
+- Prime Location in Shinjuku, Tokyo
+thumbnail: /static/img/pin-school.png
+title: Tokyo International Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

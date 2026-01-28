@@ -1,72 +1,55 @@
 ---
-{
-  "layout": "school",
-  "id": "school_arms-japanese-language-school-nagoya-analysis",
-  "title": "ARMS Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Comprehensive University & Graduate School Advancement Support",
-    "Specialized Tracks (Science, Art & Design, Business)",
-    "Dormitory Accommodation with Single Room Options",
-    "Extensive Scholarship and Financial Aid Opportunities",
-    "Strong Focus on EJU and JLPT Examination Preparation",
-    "Flexible Course Lengths including Short-Term Enrollment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.1492949,
-    "lng": 136.9016468
-  },
-  "basic_info": {
-    "name_ja": "ＡＲＭＳ日本語学校",
-    "address": "愛知県名古屋市中区伊勢山1-5-25",
-    "capacity": 240,
-    "name_en": "ARMS Japanese Language School"
-  },
-  "stats": {
-    "international_students": 200,
-    "capacity": 240
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive University & Graduate School Advancement Support",
-    "Specialized Tracks (Science, Art & Design, Business)",
-    "Dormitory Accommodation with Single Room Options",
-    "Extensive Scholarship and Financial Aid Opportunities",
-    "Strong Focus on EJU and JLPT Examination Preparation",
-    "Flexible Course Lengths including Short-Term Enrollment"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1078000
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1408000
-    },
-    {
-      "course_name": "一般1年コース",
-      "admission_month": "4",
-      "total_fees": 759000
-    },
-    {
-      "course_name": "一般1年半コース",
-      "admission_month": "10",
-      "total_fees": 1078000
-    },
-    {
-      "course_name": "一般2年コース",
-      "admission_month": "4",
-      "total_fees": 1408000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=297",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市中区伊勢山1-5-25
+  capacity: 240
+  name_en: ARMS Japanese Language School
+  name_ja: ＡＲＭＳ日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1078000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1408000
+- admission_month: '4'
+  course_name: 一般1年コース
+  total_fees: 759000
+- admission_month: '10'
+  course_name: 一般1年半コース
+  total_fees: 1078000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1408000
+faculties: []
+features:
+- Comprehensive University & Graduate School Advancement Support
+- Specialized Tracks (Science, Art & Design, Business)
+- Dormitory Accommodation with Single Room Options
+- Extensive Scholarship and Financial Aid Opportunities
+- Strong Focus on EJU and JLPT Examination Preparation
+- Flexible Course Lengths including Short-Term Enrollment
+id: school_arms-japanese-language-school-nagoya-analysis
+lang: en
+layout: school
+location:
+  lat: 35.1492949
+  lng: 136.9016468
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=297
+stats:
+  capacity: 240
+  international_students: 200
+tags:
+- Comprehensive University & Graduate School Advancement Support
+- Specialized Tracks (Science, Art & Design, Business)
+- Dormitory Accommodation with Single Room Options
+- Extensive Scholarship and Financial Aid Opportunities
+- Strong Focus on EJU and JLPT Examination Preparation
+- Flexible Course Lengths including Short-Term Enrollment
+thumbnail: /static/img/pin-school.png
+title: ARMS Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,67 +1,60 @@
 ---
-{
-  "layout": "school",
-  "id": "school_yoshida-japanese-language-academy",
-  "title": "Yoshida Japanese Language Academy",
-  "category": "school",
-  "tags": [
-    "University Preparation",
-    "EJU Exam Preparation",
-    "Science Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.71234889999999,
-    "lng": 139.7181931
-  },
-  "basic_info": {
-    "name_ja": "ヨシダ日本語学院",
-    "address": "東京都新宿区西早稲田1-23-14",
-    "capacity": 240,
-    "name_en": "Yoshida Japanese Language Academy"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 240
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Exam Preparation",
-    "Science Focused"
-  ],
-  "courses": [
-    {
-      "course_name": "日本語一般課程",
-      "admission_month": "4,7,10,1",
-      "total_fees": 1491000
-    },
-    {
-      "course_name": "進学課程2年コース",
-      "admission_month": "4",
-      "total_fees": 1491000
-    },
-    {
-      "course_name": "進学課程1年9ヵ月コース",
-      "admission_month": "7",
-      "total_fees": 1320000
-    },
-    {
-      "course_name": "進学課程1年6ヵ月コース",
-      "admission_month": "10",
-      "total_fees": 1149000
-    },
-    {
-      "course_name": "進学課程1年3ヵ月コース",
-      "admission_month": "1",
-      "total_fees": 978000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=116",
-  "description": "Yoshida Japanese Language Academy, located in Nishi-Waseda, Shinjuku, Tokyo, is a Japanese language institution for students aiming to enter university. With a long history and tradition, it excels in tailored educational programs, particularly for science-related university admissions. The academy aims to provide comprehensive support for the overall preparation needed for Japanese university entrance exams, not just improving language skills. It assists students in succeeding in their university aspirations through EJU (Examination for Japanese University Admission) preparation, personalized interview and essay guidance for each university, and academic advising. It also strives for small-group classes to provide careful guidance tailored to each student's learning progress and needs, creating an active classroom atmosphere that encourages students' active participation.",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区西早稲田1-23-14
+  capacity: 240
+  name_en: Yoshida Japanese Language Academy
+  name_ja: ヨシダ日本語学院
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: 日本語一般課程
+  total_fees: 1491000
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1491000
+- admission_month: '7'
+  course_name: 進学課程1年9ヵ月コース
+  total_fees: 1320000
+- admission_month: '10'
+  course_name: 進学課程1年6ヵ月コース
+  total_fees: 1149000
+- admission_month: '1'
+  course_name: 進学課程1年3ヵ月コース
+  total_fees: 978000
+description: Yoshida Japanese Language Academy, located in Nishi-Waseda, Shinjuku,
+  Tokyo, is a Japanese language institution for students aiming to enter university.
+  With a long history and tradition, it excels in tailored educational programs, particularly
+  for science-related university admissions. The academy aims to provide comprehensive
+  support for the overall preparation needed for Japanese university entrance exams,
+  not just improving language skills. It assists students in succeeding in their university
+  aspirations through EJU (Examination for Japanese University Admission) preparation,
+  personalized interview and essay guidance for each university, and academic advising.
+  It also strives for small-group classes to provide careful guidance tailored to
+  each student's learning progress and needs, creating an active classroom atmosphere
+  that encourages students' active participation.
+faculties: []
+features:
+- University Preparation
+- EJU Exam Preparation
+- Science Focused
+id: school_yoshida-japanese-language-academy
+lang: en
+layout: school
+location:
+  lat: 35.71234889999999
+  lng: 139.7181931
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=116
+stats:
+  capacity: 240
+  international_students: null
+tags:
+- University Preparation
+- EJU Exam Preparation
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: Yoshida Japanese Language Academy
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

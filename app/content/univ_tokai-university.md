@@ -1,61 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokai-university",
-  "title": "Tokai University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東海大学",
-    "name_en": "Tokai University",
-    "address": "4-1-1 Kitakaname, Hiratsuka, Kanagawa 259-1292, Japan",
-    "website": "https://www.u-tokai.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1700,
-    "acceptance_rate": "Moderately competitive (overall average approx. 30-40%)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "faculties": [
-    "School of Letters",
-    "School of Culture and Studies",
-    "School of Law",
-    "School of Political Science and Economics",
-    "School of Business Administration",
-    "School of International Studies",
-    "School of Science",
-    "School of Information Science and Technology",
-    "School of Engineering",
-    "School of Marine Science and Technology",
-    "School of Medical Technology",
-    "School of Health Sciences",
-    "School of Sport and Health Science",
-    "School of Industrial Administration",
-    "School of Art and Design",
-    "School of Global Studies",
-    "School of Tourism"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 4-1-1 Kitakaname, Hiratsuka, Kanagawa 259-1292, Japan
+  name_en: Tokai University
+  name_ja: 東海大学
+  website: https://www.u-tokai.ac.jp/
+category: university
+faculties:
+- School of Letters
+- School of Culture and Studies
+- School of Law
+- School of Political Science and Economics
+- School of Business Administration
+- School of International Studies
+- School of Science
+- School of Information Science and Technology
+- School of Engineering
+- School of Marine Science and Technology
+- School of Medical Technology
+- School of Health Sciences
+- School of Sport and Health Science
+- School of Industrial Administration
+- School of Art and Design
+- School of Global Studies
+- School of Tourism
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_tokai-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Moderately competitive (overall average approx. 30-40%)
+  international_students: 1700
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Tokai University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview

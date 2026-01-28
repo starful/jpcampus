@@ -1,71 +1,61 @@
 ---
-{
-  "basic_info": {
-    "address": "福岡県福岡市南区長住4-2-29",
-    "capacity": 238,
-    "name_en": "Asia Japanese Academy",
-    "name_ja": "アジア日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1410000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 1090000
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "一般1年コース",
-      "total_fees": 770000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "Scholarship",
-    "EJU Prep",
-    "University Prep",
-    "Conversation",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term",
-    "Single Room Dormitory",
-    "Science/STEM Track"
-  ],
-  "id": "school_asia-japanese-academy",
-  "layout": "school",
-  "location": {
-    "lat": 33.5466431,
-    "lng": 130.3963906
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=429",
-  "stats": {
-    "capacity": 238,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Scholarship",
-    "EJU Prep",
-    "University Prep",
-    "Conversation",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term",
-    "Single Room Dormitory",
-    "Science/STEM Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Asia Japanese Academy",
-  "tuition": {},
-  "description": "Asia Japanese Academy in Fukuoka offers comprehensive Japanese language education with a focus on university preparation and cultural understanding. Features include dormitory options, scholarships, and specialized tracks like EJU prep and business Japanese.",
-  "translated": true
-}
+basic_info:
+  address: 福岡県福岡市南区長住4-2-29
+  capacity: 238
+  name_en: Asia Japanese Academy
+  name_ja: アジア日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1410000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1090000
+- admission_month: 4,10
+  course_name: 一般1年コース
+  total_fees: 770000
+description: Asia Japanese Academy in Fukuoka offers comprehensive Japanese language
+  education with a focus on university preparation and cultural understanding. Features
+  include dormitory options, scholarships, and specialized tracks like EJU prep and
+  business Japanese.
+faculties: []
+features:
+- Dormitory
+- Scholarship
+- EJU Prep
+- University Prep
+- Conversation
+- Business Japanese
+- Art & Design Prep
+- Short-term
+- Single Room Dormitory
+- Science/STEM Track
+id: school_asia-japanese-academy
+lang: en
+layout: school
+location:
+  lat: 33.5466431
+  lng: 130.3963906
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=429
+stats:
+  capacity: 238
+  international_students: 0
+tags:
+- Dormitory
+- Scholarship
+- EJU Prep
+- University Prep
+- Conversation
+- Business Japanese
+- Art & Design Prep
+- Short-term
+- Single Room Dormitory
+- Science/STEM Track
+thumbnail: /static/img/pin-school.png
+title: Asia Japanese Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

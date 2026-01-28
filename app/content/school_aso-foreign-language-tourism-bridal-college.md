@@ -1,65 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "福岡県福岡市博多区博多駅南1-14-17",
-    "capacity": 280,
-    "name_en": "ASO College of Foreign Languages, Tourism and Bridal",
-    "name_ja": "麻生外語観光＆ブライダル専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語科",
-      "total_fees": 750000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語科",
-      "total_fees": 1090000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語科",
-      "total_fees": 1395000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Further Education Support",
-    "Conversation-Focused",
-    "Scholarships",
-    "Dormitory",
-    "City Center Location",
-    "EJU Preparation",
-    "Short-Term Courses"
-  ],
-  "id": "school_aso-foreign-language-tourism-bridal-college",
-  "layout": "school",
-  "location": {
-    "lat": 33.5837257,
-    "lng": 130.4216656
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=418",
-  "stats": {
-    "capacity": 280,
-    "international_students": 0
-  },
-  "tags": [
-    "Further Education Support",
-    "Conversation-Focused",
-    "Scholarships",
-    "Dormitory",
-    "City Center Location",
-    "EJU Preparation",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Aso College of Foreign Languages, Tourism and Bridal",
-  "tuition": {},
-  "description": "Aso College of Foreign Languages, Tourism and Bridal is a vocational school in Hakata, Fukuoka, offering Japanese language courses and specialized training for careers in tourism and bridal services. They provide support for further education and EJU preparation.",
-  "translated": true
-}
+basic_info:
+  address: 福岡県福岡市博多区博多駅南1-14-17
+  capacity: 280
+  name_en: ASO College of Foreign Languages, Tourism and Bridal
+  name_ja: 麻生外語観光＆ブライダル専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語科
+  total_fees: 750000
+- admission_month: '10'
+  course_name: 日本語科
+  total_fees: 1090000
+- admission_month: '4'
+  course_name: 日本語科
+  total_fees: 1395000
+description: Aso College of Foreign Languages, Tourism and Bridal is a vocational
+  school in Hakata, Fukuoka, offering Japanese language courses and specialized training
+  for careers in tourism and bridal services. They provide support for further education
+  and EJU preparation.
+faculties: []
+features:
+- Further Education Support
+- Conversation-Focused
+- Scholarships
+- Dormitory
+- City Center Location
+- EJU Preparation
+- Short-Term Courses
+id: school_aso-foreign-language-tourism-bridal-college
+lang: en
+layout: school
+location:
+  lat: 33.5837257
+  lng: 130.4216656
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=418
+stats:
+  capacity: 280
+  international_students: 0
+tags:
+- Further Education Support
+- Conversation-Focused
+- Scholarships
+- Dormitory
+- City Center Location
+- EJU Preparation
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Aso College of Foreign Languages, Tourism and Bridal
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

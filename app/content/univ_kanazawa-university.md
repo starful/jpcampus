@@ -1,52 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanazawa-university",
-  "title": "Kanazawa University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金沢大学",
-    "name_en": "Kanazawa University",
-    "address": "〒920-1192 Kanazawa, Kakuma-machi",
-    "website": "https://www.kanazawa-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 693,
-    "acceptance_rate": "30-40%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "College of Human and Social Sciences",
-    "College of Law",
-    "College of Economics",
-    "College of Science and Engineering",
-    "College of Medicine",
-    "College of Pharmacy",
-    "College of Health Sciences"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "description": "Kanazawa University, a leading national university in Ishikawa Prefecture, offers a wide range of programs, including English-taught options and scholarships, making it an attractive destination for international students.",
-  "translated": true
-}
+basic_info:
+  address: 〒920-1192 Kanazawa, Kakuma-machi
+  name_en: Kanazawa University
+  name_ja: 金沢大学
+  website: https://www.kanazawa-u.ac.jp/
+category: university
+description: Kanazawa University, a leading national university in Ishikawa Prefecture,
+  offers a wide range of programs, including English-taught options and scholarships,
+  making it an attractive destination for international students.
+faculties:
+- College of Human and Social Sciences
+- College of Law
+- College of Economics
+- College of Science and Engineering
+- College of Medicine
+- College of Pharmacy
+- College of Health Sciences
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_kanazawa-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-40%
+  international_students: 693
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Kanazawa University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

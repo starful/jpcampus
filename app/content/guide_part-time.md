@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "part-time",
-  "title": "Part-time Jobs in Japan: Guide & Wages",
-  "category": "Part-time",
-  "tags": [
-    "Part-time"
-  ],
-  "description": "Rules",
-  "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-01-01"
-}
+category: Part-time
+date: '2026-01-01'
+description: Rules
+id: part-time
+lang: en
+layout: guide
+tags:
+- Part-time
+thumbnail: https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500
+title: 'Part-time Jobs in Japan: Guide & Wages'
 ---
 
 Navigating the financial landscape as an international student in Japan can be challenging. While Japan offers a rich cultural experience and world-class education, the cost of living, especially in major cities, can be significant. One of the most common ways international students supplement their income and gain valuable experiences is through part-time jobs. Understanding the earning potential of these jobs – specifically, the wages you can expect – is crucial for budgeting and making informed decisions about your student life in Japan. This guide will provide a comprehensive overview of part-time job wages in Japan for international students, helping you plan your finances effectively and make the most of your time studying abroad.

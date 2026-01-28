@@ -1,58 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "茨城県取手市戸頭1142-1",
-    "capacity": 100,
-    "name_en": "Tsukuba Smile Japanese Language School",
-    "name_ja": "日本語学校つくばスマイル"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1170000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1032500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半6か月コース",
-      "total_fees": 895000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "Higher Education Progression",
-    "Short-term Courses"
-  ],
-  "id": "school_nihongo-gakko-tsukuba-smile",
-  "layout": "school",
-  "location": {
-    "lat": 35.920848,
-    "lng": 140.0034302
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=33",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "Higher Education Progression",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Tsukuba Smile Japanese Language School",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 茨城県取手市戸頭1142-1
+  capacity: 100
+  name_en: Tsukuba Smile Japanese Language School
+  name_ja: 日本語学校つくばスマイル
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1170000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1032500
+- admission_month: '10'
+  course_name: 進学1年半6か月コース
+  total_fees: 895000
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- Higher Education Progression
+- Short-term Courses
+id: school_nihongo-gakko-tsukuba-smile
+lang: en
+layout: school
+location:
+  lat: 35.920848
+  lng: 140.0034302
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=33
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- Higher Education Progression
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: Tsukuba Smile Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

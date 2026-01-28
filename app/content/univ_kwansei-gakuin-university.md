@@ -1,59 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kwansei-gakuin-university",
-  "title": "Kwansei Gakuin University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "関西学院大学",
-    "name_en": "Kwansei Gakuin University",
-    "address": "〒662-8501 兵庫県西宮市上ケ原一番町1-1",
-    "website": "https://www.kwansei.ac.jp/"
-  },
-  "stats": {
-    "international_students": 957,
-    "acceptance_rate": "Competitive, varies by faculty"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "faculties": [
-    "School of Theology",
-    "School of Humanities",
-    "School of Sociology",
-    "School of Law",
-    "School of Policy Studies",
-    "School of Economics",
-    "School of Business Administration",
-    "School of Human Welfare Studies",
-    "School of Education",
-    "School of International Studies",
-    "School of Science and Technology",
-    "School of Bioscience and Chemistry",
-    "School of Informatics",
-    "School of Architecture",
-    "School of Integrated Liberal Arts"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒662-8501 兵庫県西宮市上ケ原一番町1-1
+  name_en: Kwansei Gakuin University
+  name_ja: 関西学院大学
+  website: https://www.kwansei.ac.jp/
+category: university
+faculties:
+- School of Theology
+- School of Humanities
+- School of Sociology
+- School of Law
+- School of Policy Studies
+- School of Economics
+- School of Business Administration
+- School of Human Welfare Studies
+- School of Education
+- School of International Studies
+- School of Science and Technology
+- School of Bioscience and Chemistry
+- School of Informatics
+- School of Architecture
+- School of Integrated Liberal Arts
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_kwansei-gakuin-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive, varies by faculty
+  international_students: 957
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Kwansei Gakuin University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview

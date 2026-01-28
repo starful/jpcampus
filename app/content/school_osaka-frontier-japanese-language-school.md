@@ -1,55 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "school_osaka-frontier-japanese-language-school",
-  "title": "Osaka Frontier Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Dedicated EJU and University Entrance Examination Preparation",
-    "Comprehensive On-Campus or Partnered Housing Available (Dormitory)",
-    "Focused Advanced Pathway Guidance (Shin-gaku)",
-    "Emphasis on Practical Conversational Skills and Communication",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.5871599,
-    "lng": 135.4773018
-  },
-  "basic_info": {
-    "name_ja": "大阪フロンティア日本語学校",
-    "address": "大阪府堺市堺区海山町1-1-2",
-    "capacity": 99,
-    "name_en": "Osaka Frontier Japanese Language School"
-  },
-  "stats": {
-    "international_students": 90,
-    "capacity": 99
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated EJU and University Entrance Examination Preparation",
-    "Comprehensive On-Campus or Partnered Housing Available (Dormitory)",
-    "Focused Advanced Pathway Guidance (Shin-gaku)",
-    "Emphasis on Practical Conversational Skills and Communication",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1310000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1000000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=515",
-  "translated": true
-}
+basic_info:
+  address: 大阪府堺市堺区海山町1-1-2
+  capacity: 99
+  name_en: Osaka Frontier Japanese Language School
+  name_ja: 大阪フロンティア日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1310000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1000000
+faculties: []
+features:
+- Dedicated EJU and University Entrance Examination Preparation
+- Comprehensive On-Campus or Partnered Housing Available (Dormitory)
+- Focused Advanced Pathway Guidance (Shin-gaku)
+- Emphasis on Practical Conversational Skills and Communication
+- Flexible Short-Term Study Options Available
+id: school_osaka-frontier-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 34.5871599
+  lng: 135.4773018
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=515
+stats:
+  capacity: 99
+  international_students: 90
+tags:
+- Dedicated EJU and University Entrance Examination Preparation
+- Comprehensive On-Campus or Partnered Housing Available (Dormitory)
+- Focused Advanced Pathway Guidance (Shin-gaku)
+- Emphasis on Practical Conversational Skills and Communication
+- Flexible Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: Osaka Frontier Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

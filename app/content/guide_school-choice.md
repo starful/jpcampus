@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "school-choice",
-  "title": "5 Criteria for Choosing a Language School",
-  "category": "Selection",
-  "tags": [
-    "Selection"
-  ],
-  "description": "How to pick the right school based on your goals.",
-  "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-01-01"
-}
+category: Selection
+date: '2026-01-01'
+description: How to pick the right school based on your goals.
+id: school-choice
+lang: en
+layout: guide
+tags:
+- Selection
+thumbnail: https://images.unsplash.com/photo-1528164344705-47542687000d?w=500
+title: 5 Criteria for Choosing a Language School
 ---
 
 Navigating the world of Japanese language schools can feel overwhelming, especially when you're planning to study abroad. With so many options available, how do you choose the right one for you? The key is to identify your specific needs and priorities. This guide will walk you through five crucial criteria to consider when selecting a Japanese language school, helping you make an informed decision and set yourself up for success in your Japanese language journey.

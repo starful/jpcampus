@@ -1,60 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府東大阪市小若江3-4-1",
-    "name_en": "Kindai University",
-    "name_ja": "近畿大学",
-    "website": "https://www.kindai.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Science and Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Medicine",
-    "Faculty of Pharmacy",
-    "Faculty of Literature, Arts and Cultural Studies",
-    "Faculty of Biology-Oriented Science and Technology",
-    "Faculty of Engineering Science",
-    "Faculty of Architecture",
-    "Faculty of International Studies",
-    "Faculty of Informatics",
-    "Faculty of Comprehensive Social Sciences",
-    "Faculty of Nursing",
-    "Faculty of Food and Nutrition",
-    "Faculty of Regional Design"
-  ],
-  "features": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_kindai-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "35%",
-    "international_students": 1200
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Kindai University",
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "Explore Kindai University, a leading private institution in Japan renowned for its academic excellence, innovative research, and commitment to global perspectives. Discover its diverse faculties, English programs, international student support, and more.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府東大阪市小若江3-4-1
+  name_en: Kindai University
+  name_ja: 近畿大学
+  website: https://www.kindai.ac.jp/
+category: university
+description: Explore Kindai University, a leading private institution in Japan renowned
+  for its academic excellence, innovative research, and commitment to global perspectives.
+  Discover its diverse faculties, English programs, international student support,
+  and more.
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Science and Engineering
+- Faculty of Agriculture
+- Faculty of Medicine
+- Faculty of Pharmacy
+- Faculty of Literature, Arts and Cultural Studies
+- Faculty of Biology-Oriented Science and Technology
+- Faculty of Engineering Science
+- Faculty of Architecture
+- Faculty of International Studies
+- Faculty of Informatics
+- Faculty of Comprehensive Social Sciences
+- Faculty of Nursing
+- Faculty of Food and Nutrition
+- Faculty of Regional Design
+features:
+- English Program
+- Dormitory
+- Scholarship
+id: univ_kindai-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35%
+  international_students: 1200
+tags:
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Kindai University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview & Reputation

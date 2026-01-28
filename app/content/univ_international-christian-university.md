@@ -1,48 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_international-christian-university",
-  "title": "International Christian University",
-  "category": "university",
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Liberal Arts Education",
-    "Bilingual Environment"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6874807,
-    "lng": 139.5297309
-  },
-  "basic_info": {
-    "name_ja": "国際基督教大学",
-    "name_en": "International Christian University",
-    "address": "3-10-2 Osawa, Mitaka, Tokyo 181-8585, Japan",
-    "website": "https://www.icu.ac.jp/"
-  },
-  "stats": {
-    "international_students": 300,
-    "acceptance_rate": "15%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1700000
-  },
-  "faculties": [
-    "College of Liberal Arts"
-  ],
-  "features": [
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Liberal Arts Education",
-    "Bilingual Environment"
-  ],
-  "translated": true,
-  "description": "International Christian University (ICU) is a renowned private liberal arts university in Tokyo, known for its bilingual education and diverse student body. Discover its history, programs, tuition, and international student support."
-}
+basic_info:
+  address: 3-10-2 Osawa, Mitaka, Tokyo 181-8585, Japan
+  name_en: International Christian University
+  name_ja: 国際基督教大学
+  website: https://www.icu.ac.jp/
+category: university
+description: International Christian University (ICU) is a renowned private liberal
+  arts university in Tokyo, known for its bilingual education and diverse student
+  body. Discover its history, programs, tuition, and international student support.
+faculties:
+- College of Liberal Arts
+features:
+- English Program
+- Dormitory
+- Scholarship
+- Liberal Arts Education
+- Bilingual Environment
+id: univ_international-christian-university
+lang: en
+layout: school
+location:
+  lat: 35.6874807
+  lng: 139.5297309
+stats:
+  acceptance_rate: 15%
+  international_students: 300
+tags:
+- English Program
+- Dormitory
+- Scholarship
+- Liberal Arts Education
+- Bilingual Environment
+thumbnail: /static/img/pin-univ.png
+title: International Christian University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1700000
 ---
 
 ## University Overview

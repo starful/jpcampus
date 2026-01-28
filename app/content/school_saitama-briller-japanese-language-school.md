@@ -1,60 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "school_saitama-briller-japanese-language-school",
-  "title": "Saitama Briller Japanese Language School",
-  "category": "school",
-  "tags": [
-    "University and Vocational School Advancement Focus (進学)",
-    "Dedicated Job Hunting and Career Support (就職)",
-    "Active Cultural Exchange Programs and Local Integration (交流会)",
-    "Guaranteed Dormitory Housing, including Single Room Options (1人室)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation, including Science Tracks (EJU, 理科)",
-    "Focused Preparation for Art, Design, and Creative Pathways (美術, デザイン)",
-    "Comprehensive Scholarship Program (奨学金)",
-    "Short-Term and Intensive Conversational Courses (短期, 会話)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.8514016,
-    "lng": 139.4164522
-  },
-  "basic_info": {
-    "name_ja": "埼玉ブリエ日本語学校",
-    "address": "埼玉県狭山市富士見1-14-15",
-    "capacity": 120,
-    "name_en": "Saitama Briller Japanese Language School"
-  },
-  "stats": {
-    "international_students": 120,
-    "capacity": 120
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University and Vocational School Advancement Focus (進学)",
-    "Dedicated Job Hunting and Career Support (就職)",
-    "Active Cultural Exchange Programs and Local Integration (交流会)",
-    "Guaranteed Dormitory Housing, including Single Room Options (1人室)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation, including Science Tracks (EJU, 理科)",
-    "Focused Preparation for Art, Design, and Creative Pathways (美術, デザイン)",
-    "Comprehensive Scholarship Program (奨学金)",
-    "Short-Term and Intensive Conversational Courses (短期, 会話)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1536800
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1172300
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=567"
-}
+basic_info:
+  address: 埼玉県狭山市富士見1-14-15
+  capacity: 120
+  name_en: Saitama Briller Japanese Language School
+  name_ja: 埼玉ブリエ日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1536800
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1172300
+faculties: []
+features:
+- University and Vocational School Advancement Focus (進学)
+- Dedicated Job Hunting and Career Support (就職)
+- Active Cultural Exchange Programs and Local Integration (交流会)
+- Guaranteed Dormitory Housing, including Single Room Options (1人室)
+- Specialized EJU (Examination for Japanese University Admission) Preparation, including
+  Science Tracks (EJU, 理科)
+- Focused Preparation for Art, Design, and Creative Pathways (美術, デザイン)
+- Comprehensive Scholarship Program (奨学金)
+- Short-Term and Intensive Conversational Courses (短期, 会話)
+id: school_saitama-briller-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.8514016
+  lng: 139.4164522
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=567
+stats:
+  capacity: 120
+  international_students: 120
+tags:
+- University and Vocational School Advancement Focus (進学)
+- Dedicated Job Hunting and Career Support (就職)
+- Active Cultural Exchange Programs and Local Integration (交流会)
+- Guaranteed Dormitory Housing, including Single Room Options (1人室)
+- Specialized EJU (Examination for Japanese University Admission) Preparation, including
+  Science Tracks (EJU, 理科)
+- Focused Preparation for Art, Design, and Creative Pathways (美術, デザイン)
+- Comprehensive Scholarship Program (奨学金)
+- Short-Term and Intensive Conversational Courses (短期, 会話)
+thumbnail: /static/img/pin-school.png
+title: Saitama Briller Japanese Language School
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,60 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_teikyo-university",
-  "title": "Teikyo University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Programs",
-    "Dormitory",
-    "Scholarship",
-    "Practical Learning Focus",
-    "Comprehensive University"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "帝京大学",
-    "name_en": "Teikyo University",
-    "address": "2-11-1 Kaga, Itabashi-ku, Tokyo 173-8605, Japan",
-    "website": "https://www.teikyo-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 2000,
-    "acceptance_rate": "Varies by faculty, generally competitive"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1000000
-  },
-  "faculties": [
-    "Faculty of Medicine",
-    "Faculty of Pharma-Science",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Letters",
-    "Faculty of Science and Engineering",
-    "Faculty of Medical Technology",
-    "Faculty of Health Care",
-    "Faculty of Education",
-    "Faculty of Liberal Arts (Tsukuba)",
-    "Faculty of Fukuoka Medical Technology",
-    "Faculty of Applied Science (Utsunomiya)"
-  ],
-  "features": [
-    "EJU Required",
-    "English Programs",
-    "Dormitory",
-    "Scholarship",
-    "Practical Learning Focus",
-    "Comprehensive University"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 2-11-1 Kaga, Itabashi-ku, Tokyo 173-8605, Japan
+  name_en: Teikyo University
+  name_ja: 帝京大学
+  website: https://www.teikyo-u.ac.jp/
+category: university
+faculties:
+- Faculty of Medicine
+- Faculty of Pharma-Science
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Letters
+- Faculty of Science and Engineering
+- Faculty of Medical Technology
+- Faculty of Health Care
+- Faculty of Education
+- Faculty of Liberal Arts (Tsukuba)
+- Faculty of Fukuoka Medical Technology
+- Faculty of Applied Science (Utsunomiya)
+features:
+- EJU Required
+- English Programs
+- Dormitory
+- Scholarship
+- Practical Learning Focus
+- Comprehensive University
+id: univ_teikyo-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Varies by faculty, generally competitive
+  international_students: 2000
+tags:
+- EJU Required
+- English Programs
+- Dormitory
+- Scholarship
+- Practical Learning Focus
+- Comprehensive University
+thumbnail: /static/img/pin-univ.png
+title: Teikyo University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1000000
 ---
 
 ## University Overview

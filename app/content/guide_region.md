@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "region",
-  "title": "Tokyo vs Osaka vs Rural Areas",
-  "category": "Region",
-  "tags": [
-    "Region"
-  ],
-  "description": "Comparison of lifestyle",
-  "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-01-01"
-}
+category: Region
+date: '2026-01-01'
+description: Comparison of lifestyle
+id: region
+lang: en
+layout: guide
+tags:
+- Region
+thumbnail: https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500
+title: Tokyo vs Osaka vs Rural Areas
 ---
 
 ## Tokyo vs. Osaka vs. Rural Japan: A Cost-Conscious Guide for International Students

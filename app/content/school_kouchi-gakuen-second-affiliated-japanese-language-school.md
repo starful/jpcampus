@@ -1,60 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kouchi-gakuen-second-affiliated-japanese-language-school",
-  "title": "Kouchi Gakuen Second Affiliated Japanese Language School",
-  "category": "school",
-  "tags": [
-    "Intensive University Entrance Preparation",
-    "Specialized EJU and Science Track Curriculum",
-    "On-campus or Partner Dormitory Available",
-    "Located in Tokyo (Suginami Ward)",
-    "High Academic Standards and Rigorous Study Environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6689244,
-    "lng": 139.6349281
-  },
-  "basic_info": {
-    "name_ja": "行知学園第二附属日本語学校",
-    "address": "東京都杉並区下高井戸2-10-3 プラザ・ローヤル5ビル 2階",
-    "capacity": 480,
-    "name_en": "Kouchi Gakuen Second Affiliated Japanese Language School"
-  },
-  "stats": {
-    "international_students": 450,
-    "capacity": 480
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Intensive University Entrance Preparation",
-    "Specialized EJU and Science Track Curriculum",
-    "On-campus or Partner Dormitory Available",
-    "Located in Tokyo (Suginami Ward)",
-    "High Academic Standards and Rigorous Study Environment"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 890000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1305000
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1700000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=527",
-  "translated": true
-}
+basic_info:
+  address: 東京都杉並区下高井戸2-10-3 プラザ・ローヤル5ビル 2階
+  capacity: 480
+  name_en: Kouchi Gakuen Second Affiliated Japanese Language School
+  name_ja: 行知学園第二附属日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 890000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1305000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1700000
+faculties: []
+features:
+- Intensive University Entrance Preparation
+- Specialized EJU and Science Track Curriculum
+- On-campus or Partner Dormitory Available
+- Located in Tokyo (Suginami Ward)
+- High Academic Standards and Rigorous Study Environment
+id: school_kouchi-gakuen-second-affiliated-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.6689244
+  lng: 139.6349281
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=527
+stats:
+  capacity: 480
+  international_students: 450
+tags:
+- Intensive University Entrance Preparation
+- Specialized EJU and Science Track Curriculum
+- On-campus or Partner Dormitory Available
+- Located in Tokyo (Suginami Ward)
+- High Academic Standards and Rigorous Study Environment
+thumbnail: /static/img/pin-school.png
+title: Kouchi Gakuen Second Affiliated Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

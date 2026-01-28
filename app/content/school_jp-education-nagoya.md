@@ -1,60 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_jp-education-nagoya",
-  "title": "JP Education (JPエデュケーション)",
-  "category": "school",
-  "tags": [
-    "Dormitory Accommodation Guaranteed",
-    "Specialized Art and Design University Preparation",
-    "Intensive Business Japanese & Career Track",
-    "Comprehensive EJU and Higher Education Placement Support",
-    "Generous Scholarship Opportunities",
-    "Located in Nagoya (Aichi Prefecture) – Lower Cost of Living",
-    "Small School Setting ensuring Personalized Attention"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.1725934,
-    "lng": 136.8681417
-  },
-  "basic_info": {
-    "name_ja": "JPエデュケーション",
-    "address": "愛知県名古屋市中村区大秋町4-70-1",
-    "capacity": 100,
-    "name_en": "JP Education (JPエデュケーション)"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory Accommodation Guaranteed",
-    "Specialized Art and Design University Preparation",
-    "Intensive Business Japanese & Career Track",
-    "Comprehensive EJU and Higher Education Placement Support",
-    "Generous Scholarship Opportunities",
-    "Located in Nagoya (Aichi Prefecture) – Lower Cost of Living",
-    "Small School Setting ensuring Personalized Attention"
-  ],
-  "courses": [
-    {
-      "course_name": "一般1年コース",
-      "admission_month": "4",
-      "total_fees": 840000
-    },
-    {
-      "course_name": "日本語2年コース",
-      "admission_month": "4",
-      "total_fees": 1600000
-    },
-    {
-      "course_name": "日本語1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1220000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=580"
-}
+basic_info:
+  address: 愛知県名古屋市中村区大秋町4-70-1
+  capacity: 100
+  name_en: JP Education (JPエデュケーション)
+  name_ja: JPエデュケーション
+category: school
+courses:
+- admission_month: '4'
+  course_name: 一般1年コース
+  total_fees: 840000
+- admission_month: '4'
+  course_name: 日本語2年コース
+  total_fees: 1600000
+- admission_month: '10'
+  course_name: 日本語1年6ヶ月コース
+  total_fees: 1220000
+faculties: []
+features:
+- Dormitory Accommodation Guaranteed
+- Specialized Art and Design University Preparation
+- Intensive Business Japanese & Career Track
+- Comprehensive EJU and Higher Education Placement Support
+- Generous Scholarship Opportunities
+- Located in Nagoya (Aichi Prefecture) – Lower Cost of Living
+- Small School Setting ensuring Personalized Attention
+id: school_jp-education-nagoya
+lang: en
+layout: school
+location:
+  lat: 35.1725934
+  lng: 136.8681417
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=580
+stats: {}
+tags:
+- Dormitory Accommodation Guaranteed
+- Specialized Art and Design University Preparation
+- Intensive Business Japanese & Career Track
+- Comprehensive EJU and Higher Education Placement Support
+- Generous Scholarship Opportunities
+- Located in Nagoya (Aichi Prefecture) – Lower Cost of Living
+- Small School Setting ensuring Personalized Attention
+thumbnail: /static/img/pin-school.png
+title: JP Education (JPエデュケーション)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "scholarship",
-  "title": "Scholarships for Language School Students",
-  "category": "Budget",
-  "tags": [
-    "Budget"
-  ],
-  "description": "Guide to finding and applying for scholarships in Japan.",
-  "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-01-13"
-}
+category: Budget
+date: '2026-01-13'
+description: Guide to finding and applying for scholarships in Japan.
+id: scholarship
+lang: en
+layout: guide
+tags:
+- Budget
+thumbnail: https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500
+title: Scholarships for Language School Students
 ---
 
 # Scholarships for Language School Students: Your Essential Guide to Funding Your Japanese Dream

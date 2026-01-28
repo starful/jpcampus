@@ -1,70 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市都島区大東町3-6-18",
-    "capacity": 178,
-    "name_en": "One Purpose International Academy",
-    "name_ja": "ワン・パーパス国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1380000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "大学進学1年半コース",
-      "total_fees": 1055000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "大学進学1年9ヵ月コース",
-      "total_fees": 1217500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "大学進学1年3ヵ月コース",
-      "total_fees": 892500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "Scholarships",
-    "EJU Preparation",
-    "University Admission",
-    "Business Japanese",
-    "Short-term Courses",
-    "Conversational Japanese"
-  ],
-  "id": "school_one-purpose-international-academy",
-  "layout": "school",
-  "location": {
-    "lat": 34.72760590000001,
-    "lng": 135.5278571
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=321",
-  "stats": {
-    "capacity": 178,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Scholarships",
-    "EJU Preparation",
-    "University Admission",
-    "Business Japanese",
-    "Short-term Courses",
-    "Conversational Japanese"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "One Purpose International Academy",
-  "tuition": {},
-  "description": "One Purpose International Academy offers comprehensive Japanese language education in Osaka, Japan. Features include dormitory accommodation, scholarships, and courses for university admission and business Japanese.",
-  "translated": true
-}
+basic_info:
+  address: 大阪府大阪市都島区大東町3-6-18
+  capacity: 178
+  name_en: One Purpose International Academy
+  name_ja: ワン・パーパス国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1380000
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 1055000
+- admission_month: '7'
+  course_name: 大学進学1年9ヵ月コース
+  total_fees: 1217500
+- admission_month: '1'
+  course_name: 大学進学1年3ヵ月コース
+  total_fees: 892500
+description: One Purpose International Academy offers comprehensive Japanese language
+  education in Osaka, Japan. Features include dormitory accommodation, scholarships,
+  and courses for university admission and business Japanese.
+faculties: []
+features:
+- Dormitory
+- Scholarships
+- EJU Preparation
+- University Admission
+- Business Japanese
+- Short-term Courses
+- Conversational Japanese
+id: school_one-purpose-international-academy
+lang: en
+layout: school
+location:
+  lat: 34.72760590000001
+  lng: 135.5278571
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=321
+stats:
+  capacity: 178
+  international_students: 0
+tags:
+- Dormitory
+- Scholarships
+- EJU Preparation
+- University Admission
+- Business Japanese
+- Short-term Courses
+- Conversational Japanese
+thumbnail: /static/img/pin-school.png
+title: One Purpose International Academy
+translated: true
+tuition: {}
 ---
 
 ## 🏫 School Overview

@@ -1,64 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-sanritsu-gakuin-japanese-language-school-suginami",
-  "title": "Tokyo Sanritsu Gakuin",
-  "category": "school",
-  "tags": [
-    "Dedicated Academic Progression Support",
-    "Comprehensive EJU Examination Preparation",
-    "Mandatory and Dedicated Student Dormitory Facilities",
-    "Balanced Comprehensive Japanese Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6716763,
-    "lng": 139.613773
-  },
-  "basic_info": {
-    "name_ja": "東京三立学院",
-    "address": "東京都杉並区上高井戸1-3-14",
-    "capacity": 420,
-    "name_en": "Tokyo Sanritsu Gakuin"
-  },
-  "stats": {
-    "international_students": 400,
-    "capacity": 420
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Academic Progression Support",
-    "Comprehensive EJU Examination Preparation",
-    "Mandatory and Dedicated Student Dormitory Facilities",
-    "Balanced Comprehensive Japanese Courses"
-  ],
-  "courses": [
-    {
-      "course_name": "総合2年コース",
-      "admission_month": "4",
-      "total_fees": 1482000
-    },
-    {
-      "course_name": "総合1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1308000
-    },
-    {
-      "course_name": "総合1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1134000
-    },
-    {
-      "course_name": "総合1年3ヶ月コース",
-      "admission_month": "1",
-      "total_fees": 960000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=190",
-  "description": "Tokyo Sanritsu Gakuin offers comprehensive Japanese language education with a strong focus on academic progression, EJU preparation, and structured student life through dedicated dormitory facilities.",
-  "translated": true
-}
+basic_info:
+  address: 東京都杉並区上高井戸1-3-14
+  capacity: 420
+  name_en: Tokyo Sanritsu Gakuin
+  name_ja: 東京三立学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 総合2年コース
+  total_fees: 1482000
+- admission_month: '7'
+  course_name: 総合1年9ヶ月コース
+  total_fees: 1308000
+- admission_month: '10'
+  course_name: 総合1年6ヶ月コース
+  total_fees: 1134000
+- admission_month: '1'
+  course_name: 総合1年3ヶ月コース
+  total_fees: 960000
+description: Tokyo Sanritsu Gakuin offers comprehensive Japanese language education
+  with a strong focus on academic progression, EJU preparation, and structured student
+  life through dedicated dormitory facilities.
+faculties: []
+features:
+- Dedicated Academic Progression Support
+- Comprehensive EJU Examination Preparation
+- Mandatory and Dedicated Student Dormitory Facilities
+- Balanced Comprehensive Japanese Courses
+id: school_tokyo-sanritsu-gakuin-japanese-language-school-suginami
+lang: en
+layout: school
+location:
+  lat: 35.6716763
+  lng: 139.613773
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=190
+stats:
+  capacity: 420
+  international_students: 400
+tags:
+- Dedicated Academic Progression Support
+- Comprehensive EJU Examination Preparation
+- Mandatory and Dedicated Student Dormitory Facilities
+- Balanced Comprehensive Japanese Courses
+thumbnail: /static/img/pin-school.png
+title: Tokyo Sanritsu Gakuin
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

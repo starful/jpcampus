@@ -1,55 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_meijo-university-nagoya-expert-guide",
-  "title": "Meijo University",
-  "category": "school",
-  "tags": [
-    "Designated Comprehensive Private University in Nagoya",
-    "Extreme Strength in STEM, Pharmacy, and Agricultural Sciences",
-    "Affiliation with Nobel Prize Research and Advanced Technology",
-    "EJU (Examination for Japanese University Admission) is Mandatory for Entry",
-    "Robust Industry Connections in the Chubu Region (Manufacturing/Tech)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名城大学",
-    "name_en": "Meijo University",
-    "address": "〒468-8502 愛知県名古屋市天白区塩釜口1丁目501",
-    "website": "https://www.meijo-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 550,
-    "acceptance_rate": "Data Not Public (Estimated Highly Competitive)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Law",
-    "Business Administration",
-    "Economics",
-    "Policy Studies",
-    "Foreign Studies",
-    "Education",
-    "Science and Technology",
-    "Agricultural Sciences",
-    "Pharmacy",
-    "Urban Science"
-  ],
-  "features": [
-    "Designated Comprehensive Private University in Nagoya",
-    "Extreme Strength in STEM, Pharmacy, and Agricultural Sciences",
-    "Affiliation with Nobel Prize Research and Advanced Technology",
-    "EJU (Examination for Japanese University Admission) is Mandatory for Entry",
-    "Robust Industry Connections in the Chubu Region (Manufacturing/Tech)"
-  ]
-}
+basic_info:
+  address: 〒468-8502 愛知県名古屋市天白区塩釜口1丁目501
+  name_en: Meijo University
+  name_ja: 名城大学
+  website: https://www.meijo-u.ac.jp/
+category: school
+faculties:
+- Law
+- Business Administration
+- Economics
+- Policy Studies
+- Foreign Studies
+- Education
+- Science and Technology
+- Agricultural Sciences
+- Pharmacy
+- Urban Science
+features:
+- Designated Comprehensive Private University in Nagoya
+- Extreme Strength in STEM, Pharmacy, and Agricultural Sciences
+- Affiliation with Nobel Prize Research and Advanced Technology
+- EJU (Examination for Japanese University Admission) is Mandatory for Entry
+- Robust Industry Connections in the Chubu Region (Manufacturing/Tech)
+id: school_meijo-university-nagoya-expert-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Data Not Public (Estimated Highly Competitive)
+  international_students: 550
+tags:
+- Designated Comprehensive Private University in Nagoya
+- Extreme Strength in STEM, Pharmacy, and Agricultural Sciences
+- Affiliation with Nobel Prize Research and Advanced Technology
+- EJU (Examination for Japanese University Admission) is Mandatory for Entry
+- Robust Industry Connections in the Chubu Region (Manufacturing/Tech)
+thumbnail: /static/img/pin-school.png
+title: Meijo University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 School Overview & Philosophy

@@ -1,56 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都文京区本郷７丁目３−１",
-    "name_en": "The University of Tokyo",
-    "name_ja": "東京大学",
-    "website": "https://www.u-tokyo.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Letters",
-    "Faculty of Science",
-    "Faculty of Agriculture",
-    "Faculty of Economics",
-    "Faculty of Arts and Sciences",
-    "Faculty of Education",
-    "Faculty of Pharmaceutical Sciences"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_the-university-of-tokyo",
-  "layout": "school",
-  "location": {
-    "lat": 35.7115533,
-    "lng": 139.7616856
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 3000
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "The University of Tokyo",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "translated": true
-}
+basic_info:
+  address: 東京都文京区本郷７丁目３−１
+  name_en: The University of Tokyo
+  name_ja: 東京大学
+  website: https://www.u-tokyo.ac.jp/
+category: university
+faculties:
+- Faculty of Law
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Letters
+- Faculty of Science
+- Faculty of Agriculture
+- Faculty of Economics
+- Faculty of Arts and Sciences
+- Faculty of Education
+- Faculty of Pharmaceutical Sciences
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_the-university-of-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.7115533
+  lng: 139.7616856
+stats:
+  acceptance_rate: 20%
+  international_students: 3000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: The University of Tokyo
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview & Reputation

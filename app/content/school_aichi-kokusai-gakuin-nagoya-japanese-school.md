@@ -1,56 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_aichi-kokusai-gakuin-nagoya-japanese-school",
-  "title": "Aichi Kokusai Gakuin (Aichi International Academy)",
-  "category": "school",
-  "tags": [
-    "High-level EJU and University Entrance Preparation",
-    "Specialized Science, Business, and Art/Design Tracks",
-    "On-site Dormitory Options including Single Rooms",
-    "Comprehensive Scholarship System",
-    "Located in Japan's major industrial and educational hub: Nagoya",
-    "Flexible Short-term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.1643363,
-    "lng": 136.9163875
-  },
-  "basic_info": {
-    "name_ja": "愛知国際学院",
-    "address": "愛知県名古屋市中区新栄1-30-3",
-    "capacity": 394,
-    "name_en": "Aichi Kokusai Gakuin (Aichi International Academy)"
-  },
-  "stats": {
-    "international_students": 394,
-    "capacity": 394
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-level EJU and University Entrance Preparation",
-    "Specialized Science, Business, and Art/Design Tracks",
-    "On-site Dormitory Options including Single Rooms",
-    "Comprehensive Scholarship System",
-    "Located in Japan's major industrial and educational hub: Nagoya",
-    "Flexible Short-term Study Programs"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1329000
-    },
-    {
-      "course_name": "進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 1024000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=294"
-}
+basic_info:
+  address: 愛知県名古屋市中区新栄1-30-3
+  capacity: 394
+  name_en: Aichi Kokusai Gakuin (Aichi International Academy)
+  name_ja: 愛知国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1329000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1024000
+faculties: []
+features:
+- High-level EJU and University Entrance Preparation
+- Specialized Science, Business, and Art/Design Tracks
+- On-site Dormitory Options including Single Rooms
+- Comprehensive Scholarship System
+- 'Located in Japan''s major industrial and educational hub: Nagoya'
+- Flexible Short-term Study Programs
+id: school_aichi-kokusai-gakuin-nagoya-japanese-school
+lang: en
+layout: school
+location:
+  lat: 35.1643363
+  lng: 136.9163875
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=294
+stats:
+  capacity: 394
+  international_students: 394
+tags:
+- High-level EJU and University Entrance Preparation
+- Specialized Science, Business, and Art/Design Tracks
+- On-site Dormitory Options including Single Rooms
+- Comprehensive Scholarship System
+- 'Located in Japan''s major industrial and educational hub: Nagoya'
+- Flexible Short-term Study Programs
+thumbnail: /static/img/pin-school.png
+title: Aichi Kokusai Gakuin (Aichi International Academy)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

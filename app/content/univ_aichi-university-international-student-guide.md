@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-university-international-student-guide",
-  "title": "Aichi University",
-  "category": "university",
-  "tags": [
-    "Strong Focus on China Studies and East Asian Relations",
-    "Dual Campus System (Urban Nagoya and Traditional Toyohashi)",
-    "Comprehensive Scholarship System for Privately Funded Students",
-    "EJU Required for Primary Admission Tracks",
-    "High Enrollment in Specialized Language and International Exchange Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知大学",
-    "name_en": "Aichi University",
-    "address": "4-60-6 Hiraike-cho, Nakamura-ku, Nagoya-shi, Aichi 453-8701, Japan (Nagoya Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 550,
-    "acceptance_rate": "35-40%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Contemporary China Studies",
-    "Faculty of International Communication",
-    "Faculty of Literature",
-    "Faculty of Regional Policy",
-    "Faculty of Education"
-  ],
-  "features": [
-    "Strong Focus on China Studies and East Asian Relations",
-    "Dual Campus System (Urban Nagoya and Traditional Toyohashi)",
-    "Comprehensive Scholarship System for Privately Funded Students",
-    "EJU Required for Primary Admission Tracks",
-    "High Enrollment in Specialized Language and International Exchange Programs"
-  ]
-}
+basic_info:
+  address: 4-60-6 Hiraike-cho, Nakamura-ku, Nagoya-shi, Aichi 453-8701, Japan (Nagoya
+    Campus)
+  capacity: null
+  name_en: Aichi University
+  name_ja: 愛知大学
+category: university
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Contemporary China Studies
+- Faculty of International Communication
+- Faculty of Literature
+- Faculty of Regional Policy
+- Faculty of Education
+features:
+- Strong Focus on China Studies and East Asian Relations
+- Dual Campus System (Urban Nagoya and Traditional Toyohashi)
+- Comprehensive Scholarship System for Privately Funded Students
+- EJU Required for Primary Admission Tracks
+- High Enrollment in Specialized Language and International Exchange Programs
+id: univ_aichi-university-international-student-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-40%
+  international_students: 550
+tags:
+- Strong Focus on China Studies and East Asian Relations
+- Dual Campus System (Urban Nagoya and Traditional Toyohashi)
+- Comprehensive Scholarship System for Privately Funded Students
+- EJU Required for Primary Admission Tracks
+- High Enrollment in Specialized Language and International Exchange Programs
+thumbnail: /static/img/pin-univ.png
+title: Aichi University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

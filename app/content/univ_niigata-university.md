@@ -1,56 +1,51 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_niigata-university",
-  "title": "Niigata University: A Comprehensive National University",
-  "category": "university",
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟大学",
-    "name_en": "Niigata University",
-    "address": "8050 Ikarashi 2-no-cho, Nishi-ku, Niigata City, Niigata Prefecture 950-2181",
-    "website": "https://www.niigata-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 610,
-    "acceptance_rate": "Varies by Faculty"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Medicine",
-    "Faculty of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Regional Sciences"
-  ],
-  "features": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true,
-  "description": "Niigata University is a comprehensive national university in Niigata Prefecture, Japan, offering a wide range of faculties and programs. Known for its research and contributions to the local environment and economy, it provides a diverse and inclusive environment for international students."
-}
+basic_info:
+  address: 8050 Ikarashi 2-no-cho, Nishi-ku, Niigata City, Niigata Prefecture 950-2181
+  name_en: Niigata University
+  name_ja: 新潟大学
+  website: https://www.niigata-u.ac.jp/
+category: university
+description: Niigata University is a comprehensive national university in Niigata
+  Prefecture, Japan, offering a wide range of faculties and programs. Known for its
+  research and contributions to the local environment and economy, it provides a diverse
+  and inclusive environment for international students.
+faculties:
+- Faculty of Humanities
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Medicine
+- Faculty of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Regional Sciences
+features:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_niigata-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Varies by Faculty
+  international_students: 610
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 'Niigata University: A Comprehensive National University'
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

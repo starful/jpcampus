@@ -1,68 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "116-2 Higashimachi, Chuo-ku, Kobe, Hyogo Prefecture",
-    "capacity": 192,
-    "name_en": "Communica Institute",
-    "name_ja": "コミュニカ学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "Comprehensive Japanese Course (April Start)",
-      "total_fees": 1960200
-    },
-    {
-      "admission_month": "7",
-      "course_name": "Comprehensive Japanese Course (July Start)",
-      "total_fees": 1960200
-    },
-    {
-      "admission_month": "10",
-      "course_name": "Comprehensive Japanese Course (October Start)",
-      "total_fees": 1960200
-    },
-    {
-      "admission_month": "1",
-      "course_name": "Comprehensive Japanese Course (January Start)",
-      "total_fees": 1960200
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "Higher Education Support",
-    "Conversation-focused Curriculum",
-    "Short-term Study Options",
-    "Science/STEM Track Support"
-  ],
-  "id": "school_communica-institute",
-  "layout": "school",
-  "location": {
-    "lat": 34.6887544,
-    "lng": 135.1951957
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=371",
-  "stats": {
-    "capacity": 192,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "Higher Education Support",
-    "Conversation-focused Curriculum",
-    "Short-term Study Options",
-    "Science/STEM Track Support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Communica Institute",
-  "tuition": {},
-  "description": "Communica Institute, located in Kobe, offers comprehensive Japanese language education for international students aiming for academic success in Japan. They provide EJU prep, STEM support and conversation focused learning.",
-  "translated": true
-}
+basic_info:
+  address: 116-2 Higashimachi, Chuo-ku, Kobe, Hyogo Prefecture
+  capacity: 192
+  name_en: Communica Institute
+  name_ja: コミュニカ学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: Comprehensive Japanese Course (April Start)
+  total_fees: 1960200
+- admission_month: '7'
+  course_name: Comprehensive Japanese Course (July Start)
+  total_fees: 1960200
+- admission_month: '10'
+  course_name: Comprehensive Japanese Course (October Start)
+  total_fees: 1960200
+- admission_month: '1'
+  course_name: Comprehensive Japanese Course (January Start)
+  total_fees: 1960200
+description: Communica Institute, located in Kobe, offers comprehensive Japanese language
+  education for international students aiming for academic success in Japan. They
+  provide EJU prep, STEM support and conversation focused learning.
+faculties: []
+features:
+- Dormitory Available
+- EJU Preparation
+- Higher Education Support
+- Conversation-focused Curriculum
+- Short-term Study Options
+- Science/STEM Track Support
+id: school_communica-institute
+lang: en
+layout: school
+location:
+  lat: 34.6887544
+  lng: 135.1951957
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=371
+stats:
+  capacity: 192
+  international_students: 0
+tags:
+- Dormitory Available
+- EJU Preparation
+- Higher Education Support
+- Conversation-focused Curriculum
+- Short-term Study Options
+- Science/STEM Track Support
+thumbnail: /static/img/pin-school.png
+title: Communica Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

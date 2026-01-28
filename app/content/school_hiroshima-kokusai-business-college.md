@@ -1,71 +1,60 @@
 ---
-{
-  "layout": "school",
-  "id": "school_hiroshima-kokusai-business-college",
-  "title": "Hiroshima Kokusai Business College",
-  "category": "school",
-  "tags": [
-    "Dormitory available",
-    "EJU preparation support",
-    "Strong university progression focus",
-    "Business Japanese specialized track",
-    "Short-term study options",
-    "Single room accommodation available",
-    "Scholarship programs",
-    "Science stream progression support",
-    "Conversation-focused classes",
-    "Art and Design progression support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.4853978,
-    "lng": 133.3655533
-  },
-  "basic_info": {
-    "name_ja": "専門学校広島国際ビジネスカレッジ",
-    "address": "広島県福山市霞町1-2-3",
-    "capacity": 260,
-    "name_en": "Hiroshima Kokusai Business College"
-  },
-  "stats": {
-    "international_students": 200,
-    "capacity": 260
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dormitory available",
-    "EJU preparation support",
-    "Strong university progression focus",
-    "Business Japanese specialized track",
-    "Short-term study options",
-    "Single room accommodation available",
-    "Scholarship programs",
-    "Science stream progression support",
-    "Conversation-focused classes",
-    "Art and Design progression support"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1200000
-    },
-    {
-      "course_name": "進学1.5年コース",
-      "admission_month": "10",
-      "total_fees": 980000
-    },
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 660000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=402",
-  "description": "Hiroshima Kokusai Business College (HKBC) offers practical business Japanese and university preparatory courses in Fukuyama, Hiroshima. Strong support for EJU and unique science/art tracks.",
-  "translated": true
-}
+basic_info:
+  address: 広島県福山市霞町1-2-3
+  capacity: 260
+  name_en: Hiroshima Kokusai Business College
+  name_ja: 専門学校広島国際ビジネスカレッジ
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1200000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 980000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 660000
+description: Hiroshima Kokusai Business College (HKBC) offers practical business Japanese
+  and university preparatory courses in Fukuyama, Hiroshima. Strong support for EJU
+  and unique science/art tracks.
+faculties: []
+features:
+- Dormitory available
+- EJU preparation support
+- Strong university progression focus
+- Business Japanese specialized track
+- Short-term study options
+- Single room accommodation available
+- Scholarship programs
+- Science stream progression support
+- Conversation-focused classes
+- Art and Design progression support
+id: school_hiroshima-kokusai-business-college
+lang: en
+layout: school
+location:
+  lat: 34.4853978
+  lng: 133.3655533
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=402
+stats:
+  capacity: 260
+  international_students: 200
+tags:
+- Dormitory available
+- EJU preparation support
+- Strong university progression focus
+- Business Japanese specialized track
+- Short-term study options
+- Single room accommodation available
+- Scholarship programs
+- Science stream progression support
+- Conversation-focused classes
+- Art and Design progression support
+thumbnail: /static/img/pin-school.png
+title: Hiroshima Kokusai Business College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

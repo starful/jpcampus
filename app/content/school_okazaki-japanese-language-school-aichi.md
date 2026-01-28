@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "school_okazaki-japanese-language-school-aichi",
-  "title": "Okazaki Japanese Language School",
-  "category": "school",
-  "tags": [
-    "High-Focus Academic Progression (Shin-gaku) Curriculum",
-    "Specialized EJU and Entrance Exam Preparation Tracks (Science, Humanities, Art/Design)",
-    "Comprehensive Student Dormitory Management and Support",
-    "Robust Scholarship and Financial Aid Opportunities",
-    "Strong Conversational and Business Japanese Integration"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 34.9581363,
-    "lng": 137.1634787
-  },
-  "basic_info": {
-    "name_ja": "岡崎日本語学校",
-    "address": "愛知県岡崎市康生通西1-1",
-    "capacity": 225,
-    "name_en": "Okazaki Japanese Language School"
-  },
-  "stats": {},
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Focus Academic Progression (Shin-gaku) Curriculum",
-    "Specialized EJU and Entrance Exam Preparation Tracks (Science, Humanities, Art/Design)",
-    "Comprehensive Student Dormitory Management and Support",
-    "Robust Scholarship and Financial Aid Opportunities",
-    "Strong Conversational and Business Japanese Integration"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コース（1年6か月）",
-      "admission_month": "10",
-      "total_fees": 950000
-    },
-    {
-      "course_name": "進学コース（2年）",
-      "admission_month": "4",
-      "total_fees": 1240000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=542",
-  "description": "Okazaki Japanese Language School offers specialized EJU prep and academic support in Aichi Prefecture, preparing students for top universities and vocational schools with comprehensive dormitory options and robust financial aid.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県岡崎市康生通西1-1
+  capacity: 225
+  name_en: Okazaki Japanese Language School
+  name_ja: 岡崎日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学コース（1年6か月）
+  total_fees: 950000
+- admission_month: '4'
+  course_name: 進学コース（2年）
+  total_fees: 1240000
+description: Okazaki Japanese Language School offers specialized EJU prep and academic
+  support in Aichi Prefecture, preparing students for top universities and vocational
+  schools with comprehensive dormitory options and robust financial aid.
+faculties: []
+features:
+- High-Focus Academic Progression (Shin-gaku) Curriculum
+- Specialized EJU and Entrance Exam Preparation Tracks (Science, Humanities, Art/Design)
+- Comprehensive Student Dormitory Management and Support
+- Robust Scholarship and Financial Aid Opportunities
+- Strong Conversational and Business Japanese Integration
+id: school_okazaki-japanese-language-school-aichi
+lang: en
+layout: school
+location:
+  lat: 34.9581363
+  lng: 137.1634787
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=542
+stats: {}
+tags:
+- High-Focus Academic Progression (Shin-gaku) Curriculum
+- Specialized EJU and Entrance Exam Preparation Tracks (Science, Humanities, Art/Design)
+- Comprehensive Student Dormitory Management and Support
+- Robust Scholarship and Financial Aid Opportunities
+- Strong Conversational and Business Japanese Integration
+thumbnail: /static/img/pin-school.png
+title: Okazaki Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

@@ -1,114 +1,88 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都北区東田端1-4-8",
-    "capacity": 224,
-    "name_en": "Chuo College of Engineering Japanese Language School",
-    "name_ja": "中央工学校附属日本語学校",
-    "category": "school",
-    "courses": [
-      {
-        "admission_month": "4",
-        "course_name": "進学2年コース",
-        "total_fees": 1405000
-      },
-      {
-        "admission_month": "7",
-        "course_name": "進学1年9カ月コース",
-        "total_fees": 1245000
-      },
-      {
-        "admission_month": "10",
-        "course_name": "進学1年6カ月コース",
-        "total_fees": 1075000
-      },
-      {
-        "admission_month": "1",
-        "course_name": "進学1年3カ月コース",
-        "total_fees": 915000
-      }
-    ],
-    "faculties": [],
-    "features": [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory Available",
-      "Science Focused"
-    ],
-    "id": "school_chuogakuen-japanese-language-school",
-    "layout": "school",
-    "location": {
-      "lat": 35.7381196,
-      "lng": 139.7641918
-    },
-    "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=206",
-    "stats": {
-      "capacity": 224,
-      "international_students": 0
-    },
-    "tags": [
-      "University Preparation",
-      "EJU Preparation",
-      "Dormitory Available",
-      "Science Focused"
-    ],
-    "thumbnail": "/static/img/pin-school.png",
-    "title": "Chuo College of Engineering Japanese Language School",
-    "tuition": {}
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Preparation 2-Year Course",
-      "total_fees": 1405000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "University Preparation 1 Year 9-Month Course",
-      "total_fees": 1245000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Preparation 1 Year 6-Month Course",
-      "total_fees": 1075000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "University Preparation 1 Year 3-Month Course",
-      "total_fees": 915000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Science Focused"
-  ],
-  "id": "school_chuogakuen-japanese-language-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.7381196,
-    "lng": 139.7641918
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=206",
-  "stats": {
-    "capacity": 224,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Science Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Chuo College of Engineering Japanese Language School",
-  "tuition": {},
-  "description": "Provides comprehensive Japanese language education for international students aiming for higher education in Japan, especially in science and engineering. Offers strong academic support and a nurturing environment.",
-  "translated": true
-}
+basic_info:
+  address: 東京都北区東田端1-4-8
+  capacity: 224
+  category: school
+  courses:
+  - admission_month: '4'
+    course_name: 進学2年コース
+    total_fees: 1405000
+  - admission_month: '7'
+    course_name: 進学1年9カ月コース
+    total_fees: 1245000
+  - admission_month: '10'
+    course_name: 進学1年6カ月コース
+    total_fees: 1075000
+  - admission_month: '1'
+    course_name: 進学1年3カ月コース
+    total_fees: 915000
+  faculties: []
+  features:
+  - University Preparation
+  - EJU Preparation
+  - Dormitory Available
+  - Science Focused
+  id: school_chuogakuen-japanese-language-school
+  layout: school
+  location:
+    lat: 35.7381196
+    lng: 139.7641918
+  name_en: Chuo College of Engineering Japanese Language School
+  name_ja: 中央工学校附属日本語学校
+  source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=206
+  stats:
+    capacity: 224
+    international_students: 0
+  tags:
+  - University Preparation
+  - EJU Preparation
+  - Dormitory Available
+  - Science Focused
+  thumbnail: /static/img/pin-school.png
+  title: Chuo College of Engineering Japanese Language School
+  tuition: {}
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Preparation 2-Year Course
+  total_fees: 1405000
+- admission_month: '7'
+  course_name: University Preparation 1 Year 9-Month Course
+  total_fees: 1245000
+- admission_month: '10'
+  course_name: University Preparation 1 Year 6-Month Course
+  total_fees: 1075000
+- admission_month: '1'
+  course_name: University Preparation 1 Year 3-Month Course
+  total_fees: 915000
+description: Provides comprehensive Japanese language education for international
+  students aiming for higher education in Japan, especially in science and engineering.
+  Offers strong academic support and a nurturing environment.
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Science Focused
+id: school_chuogakuen-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.7381196
+  lng: 139.7641918
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=206
+stats:
+  capacity: 224
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: Chuo College of Engineering Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview

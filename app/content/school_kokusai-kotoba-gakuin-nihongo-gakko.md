@@ -1,63 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県静岡市駿河区八幡3丁目2-28",
-    "capacity": 280,
-    "name_en": "Kokusai Kotoba Gakuin Japanese Language School",
-    "name_ja": "国際ことば学院日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "General Course",
-      "total_fees": 1210000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "General Course",
-      "total_fees": 1070000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "General Course",
-      "total_fees": 930000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Preparation",
-    "Conversational Japanese",
-    "Short-Term Courses",
-    "Science-Focused"
-  ],
-  "id": "school_kokusai-kotoba-gakuin-nihongo-gakko",
-  "layout": "school",
-  "location": {
-    "lat": 34.9679751,
-    "lng": 138.3958658
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=279",
-  "stats": {
-    "capacity": 280,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Preparation",
-    "Conversational Japanese",
-    "Short-Term Courses",
-    "Science-Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kokusai Kotoba Gakuin Japanese Language School",
-  "tuition": {},
-  "description": "Located in Shizuoka City, Kokusai Kotoba Gakuin offers comprehensive Japanese language education, focusing on university preparation and EJU exam success, with convenient dormitory options.",
-  "translated": true
-}
+basic_info:
+  address: 静岡県静岡市駿河区八幡3丁目2-28
+  capacity: 280
+  name_en: Kokusai Kotoba Gakuin Japanese Language School
+  name_ja: 国際ことば学院日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: General Course
+  total_fees: 1210000
+- admission_month: '7'
+  course_name: General Course
+  total_fees: 1070000
+- admission_month: '10'
+  course_name: General Course
+  total_fees: 930000
+description: Located in Shizuoka City, Kokusai Kotoba Gakuin offers comprehensive
+  Japanese language education, focusing on university preparation and EJU exam success,
+  with convenient dormitory options.
+faculties: []
+features:
+- Dormitory
+- EJU Preparation
+- University Preparation
+- Conversational Japanese
+- Short-Term Courses
+- Science-Focused
+id: school_kokusai-kotoba-gakuin-nihongo-gakko
+lang: en
+layout: school
+location:
+  lat: 34.9679751
+  lng: 138.3958658
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=279
+stats:
+  capacity: 280
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Preparation
+- Conversational Japanese
+- Short-Term Courses
+- Science-Focused
+thumbnail: /static/img/pin-school.png
+title: Kokusai Kotoba Gakuin Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview

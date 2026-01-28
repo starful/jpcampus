@@ -1,62 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "school_evergreen-language-school-tokyo-meguro",
-  "title": "Evergreen Language School (エヴァグリーンランゲージスクール)",
-  "category": "school",
-  "tags": [
-    "Specialized Higher Education Track (Shingaku Focus)",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Boutique School Environment with Highly Personalized Attention",
-    "Prime Location in Meguro, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6391451,
-    "lng": 139.6924982
-  },
-  "basic_info": {
-    "name_ja": "エヴァグリーンランゲージスクール",
-    "address": "東京都目黒区祐天寺1-21-18",
-    "capacity": 80,
-    "name_en": "Evergreen Language School (エヴァグリーンランゲージスクール)"
-  },
-  "stats": {
-    "international_students": 80,
-    "capacity": 80
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Specialized Higher Education Track (Shingaku Focus)",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Boutique School Environment with Highly Personalized Attention",
-    "Prime Location in Meguro, Tokyo"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コースA",
-      "admission_month": "4",
-      "total_fees": 1477760
-    },
-    {
-      "course_name": "進学コースB",
-      "admission_month": "10",
-      "total_fees": 1138760
-    },
-    {
-      "course_name": "進学コースC",
-      "admission_month": "7",
-      "total_fees": 1315760
-    },
-    {
-      "course_name": "一般コース",
-      "admission_month": "10",
-      "total_fees": 1477760
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=164"
-}
+basic_info:
+  address: 東京都目黒区祐天寺1-21-18
+  capacity: 80
+  name_en: Evergreen Language School (エヴァグリーンランゲージスクール)
+  name_ja: エヴァグリーンランゲージスクール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コースA
+  total_fees: 1477760
+- admission_month: '10'
+  course_name: 進学コースB
+  total_fees: 1138760
+- admission_month: '7'
+  course_name: 進学コースC
+  total_fees: 1315760
+- admission_month: '10'
+  course_name: 一般コース
+  total_fees: 1477760
+faculties: []
+features:
+- Specialized Higher Education Track (Shingaku Focus)
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Boutique School Environment with Highly Personalized Attention
+- Prime Location in Meguro, Tokyo
+id: school_evergreen-language-school-tokyo-meguro
+lang: en
+layout: school
+location:
+  lat: 35.6391451
+  lng: 139.6924982
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=164
+stats:
+  capacity: 80
+  international_students: 80
+tags:
+- Specialized Higher Education Track (Shingaku Focus)
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Boutique School Environment with Highly Personalized Attention
+- Prime Location in Meguro, Tokyo
+thumbnail: /static/img/pin-school.png
+title: Evergreen Language School (エヴァグリーンランゲージスクール)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

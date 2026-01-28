@@ -1,55 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "school_gakuto-academy-tokyo-eju-prep",
-  "title": "Gakuto Academy",
-  "category": "school",
-  "tags": [
-    "Intensive EJU Preparation",
-    "Higher Education Progression Focused Curriculum",
-    "Small School Environment (Capacity 100)",
-    "Tokyo Location (Sumida Ward)",
-    "Personalized Academic Advising"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6900897,
-    "lng": 139.8041361
-  },
-  "basic_info": {
-    "name_ja": "学東アカデミー",
-    "address": "東京都墨田区立川3-1-15",
-    "capacity": 100,
-    "name_en": "Gakuto Academy"
-  },
-  "stats": {
-    "international_students": 100,
-    "capacity": 100
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Intensive EJU Preparation",
-    "Higher Education Progression Focused Curriculum",
-    "Small School Environment (Capacity 100)",
-    "Tokyo Location (Sumida Ward)",
-    "Personalized Academic Advising"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1660000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1291000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=608",
-  "translated": true
-}
+basic_info:
+  address: 東京都墨田区立川3-1-15
+  capacity: 100
+  name_en: Gakuto Academy
+  name_ja: 学東アカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1660000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1291000
+faculties: []
+features:
+- Intensive EJU Preparation
+- Higher Education Progression Focused Curriculum
+- Small School Environment (Capacity 100)
+- Tokyo Location (Sumida Ward)
+- Personalized Academic Advising
+id: school_gakuto-academy-tokyo-eju-prep
+lang: en
+layout: school
+location:
+  lat: 35.6900897
+  lng: 139.8041361
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=608
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- Intensive EJU Preparation
+- Higher Education Progression Focused Curriculum
+- Small School Environment (Capacity 100)
+- Tokyo Location (Sumida Ward)
+- Personalized Academic Advising
+thumbnail: /static/img/pin-school.png
+title: Gakuto Academy
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

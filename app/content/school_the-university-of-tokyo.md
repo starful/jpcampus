@@ -1,63 +1,56 @@
 ---
-{
-  "layout": "school",
-  "id": "school_the-university-of-tokyo",
-  "title": "The University of Tokyo",
-  "category": "school",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Global Campus Initiatives"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7115533,
-    "lng": 139.7616856
-  },
-  "basic_info": {
-    "name_ja": "東京大学",
-    "name_en": "The University of Tokyo",
-    "address": "東京都文京区本郷7-3-1",
-    "website": "https://www.u-tokyo.ac.jp/"
-  },
-  "stats": {
-    "international_students": 3700,
-    "acceptance_rate": "20%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "法学部 (School of Law)",
-    "経済学部 (School of Economics)",
-    "文学部 (School of Letters)",
-    "理学部 (School of Science)",
-    "工学部 (School of Engineering)",
-    "医学部 (School of Medicine)",
-    "農学部 (School of Agriculture)",
-    "薬学部 (School of Pharmaceutical Sciences)",
-    "教育学部 (Faculty of Education)",
-    "教養学部 (College of Arts and Sciences)",
-    "総合文化研究科 (Graduate School of Arts and Sciences)",
-    "公共政策大学院 (Graduate School of Public Policy)",
-    "情報学環・学際情報学府 (Interfaculty Initiative in Information Studies)",
-    "新領域創成科学研究科 (Graduate School of Frontier Sciences)"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Global Campus Initiatives"
-  ],
-  "description": "An overview of The University of Tokyo, its philosophy, courses, campus life, and career pathways.",
-  "translated": true
-}
+basic_info:
+  address: 東京都文京区本郷7-3-1
+  name_en: The University of Tokyo
+  name_ja: 東京大学
+  website: https://www.u-tokyo.ac.jp/
+category: school
+description: An overview of The University of Tokyo, its philosophy, courses, campus
+  life, and career pathways.
+faculties:
+- 法学部 (School of Law)
+- 経済学部 (School of Economics)
+- 文学部 (School of Letters)
+- 理学部 (School of Science)
+- 工学部 (School of Engineering)
+- 医学部 (School of Medicine)
+- 農学部 (School of Agriculture)
+- 薬学部 (School of Pharmaceutical Sciences)
+- 教育学部 (Faculty of Education)
+- 教養学部 (College of Arts and Sciences)
+- 総合文化研究科 (Graduate School of Arts and Sciences)
+- 公共政策大学院 (Graduate School of Public Policy)
+- 情報学環・学際情報学府 (Interfaculty Initiative in Information Studies)
+- 新領域創成科学研究科 (Graduate School of Frontier Sciences)
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Global Campus Initiatives
+id: school_the-university-of-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.7115533
+  lng: 139.7616856
+stats:
+  acceptance_rate: 20%
+  international_students: 3700
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Global Campus Initiatives
+thumbnail: /static/img/pin-school.png
+title: The University of Tokyo
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 School Overview & Philosophy

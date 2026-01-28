@@ -1,56 +1,77 @@
 ---
-{
-  "layout": "school",
-  "id": "school_kokusai-art-design-college-japanese-course-koriyama",
-  "title": "Japanese Language Department at the International College of Art and Design",
-  "category": "school",
-  "tags": [
-    "Integrated Pathway into Art, Design, and Creative Vocational Careers",
-    "Mandatory, High-Support Dormitory Living System",
-    "Comprehensive Preparation for EJU (STEM, Humanities) and University Entry",
-    "Curriculum Focused on Both Advanced Academic Japanese and Practical Business Communication",
-    "Strategic Location in Koriyama (Fukushima) offering Low Cost of Living and Focused Study Environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 37.394035,
-    "lng": 140.3903332
-  },
-  "basic_info": {
-    "name_ja": "国際アート＆デザイン大学校日本語科",
-    "address": "福島県郡山市方八町2-4-1",
-    "capacity": 200,
-    "name_en": "International College of Art and Design, Japanese Language Department"
-  },
-  "stats": {
-    "international_students": 150,
-    "capacity": 200
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Integrated Pathway into Art, Design, and Creative Vocational Careers",
-    "Mandatory, High-Support Dormitory Living System",
-    "Comprehensive Preparation for EJU (STEM, Humanities) and University Entry",
-    "Curriculum Focused on Both Advanced Academic Japanese and Practical Business Communication",
-    "Strategic Location in Koriyama (Fukushima) offering Low Cost of Living and Focused Study Environment"
-  ],
-  "courses": [
-    {
-      "course_name": "2-Year University Prep Course",
-      "admission_month": "4",
-      "total_fees": 1435000
-    },
-    {
-      "course_name": "1.5-Year University Prep Course",
-      "admission_month": "10",
-      "total_fees": 1115000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=530",
-  "description": "The Japanese Language Department at the International College of Art and Design (国際アート＆デザイン大学校日本語科) is uniquely positioned, differing significantly from typical Japanese language schools in urban areas. Located in Koriyama City, Fukushima Prefecture, it is affiliated with a distinguished vocational college specializing in creative fields like animation, manga, game design, visual arts, and design. This close connection is a defining characteristic, shifting the focus from general language instruction to a specialized, practical pathway for international students seeking higher education, particularly in the arts. Students aren't simply learning a language; they're immersed in a creative academic environment, preparing for enrollment in specialized fields at the college or other universities. Koriyama offers a focused, supportive, and affordable alternative to Tokyo or Osaka, allowing students to concentrate on mastering Japanese and preparing for academic examinations. Koriyama, a key economic and cultural center in Tohoku, balances urban amenities with a tranquil study environment. The school leverages its location to build community ties and a structured support system, including mandatory dormitory living for safety, stability, and academic focus. With approximately 200 students, individualized attention is a priority. The goal is to develop well-rounded students capable of navigating Japan's academic and professional landscape with specialized linguistic skills tailored to creative and technical industries. Linguistic ability is applied to career aspirations, bridging communicative Japanese with academic writing, technical terminology (for Art, Design, STEM, or Business tracks), and professional interaction. Located within an active vocational campus, students gain early exposure to the Japanese academic environment, fostering networking with Japanese students and faculty. The focus is on achieving N1 or N2 proficiency and mastering vocabulary for EJU success and vocational course completion, emphasizing conversation and business communication. This context appeals to students with clear goals, especially those aiming for vocational colleges or universities in creative arts, technology, or technical subjects (美術/デザイン/アート and 理科/STEM). The institution nurtures international talent, providing tools and cultural adaptation for success in Japan's higher education system. A holistic support system covers accommodation, counseling, and career guidance, reflecting a commitment to student success.",
-  "translated": true
-}
+basic_info:
+  address: 福島県郡山市方八町2-4-1
+  capacity: 200
+  name_en: International College of Art and Design, Japanese Language Department
+  name_ja: 国際アート＆デザイン大学校日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2-Year University Prep Course
+  total_fees: 1435000
+- admission_month: '10'
+  course_name: 1.5-Year University Prep Course
+  total_fees: 1115000
+description: The Japanese Language Department at the International College of Art
+  and Design (国際アート＆デザイン大学校日本語科) is uniquely positioned, differing significantly from
+  typical Japanese language schools in urban areas. Located in Koriyama City, Fukushima
+  Prefecture, it is affiliated with a distinguished vocational college specializing
+  in creative fields like animation, manga, game design, visual arts, and design.
+  This close connection is a defining characteristic, shifting the focus from general
+  language instruction to a specialized, practical pathway for international students
+  seeking higher education, particularly in the arts. Students aren't simply learning
+  a language; they're immersed in a creative academic environment, preparing for enrollment
+  in specialized fields at the college or other universities. Koriyama offers a focused,
+  supportive, and affordable alternative to Tokyo or Osaka, allowing students to concentrate
+  on mastering Japanese and preparing for academic examinations. Koriyama, a key economic
+  and cultural center in Tohoku, balances urban amenities with a tranquil study environment.
+  The school leverages its location to build community ties and a structured support
+  system, including mandatory dormitory living for safety, stability, and academic
+  focus. With approximately 200 students, individualized attention is a priority.
+  The goal is to develop well-rounded students capable of navigating Japan's academic
+  and professional landscape with specialized linguistic skills tailored to creative
+  and technical industries. Linguistic ability is applied to career aspirations, bridging
+  communicative Japanese with academic writing, technical terminology (for Art, Design,
+  STEM, or Business tracks), and professional interaction. Located within an active
+  vocational campus, students gain early exposure to the Japanese academic environment,
+  fostering networking with Japanese students and faculty. The focus is on achieving
+  N1 or N2 proficiency and mastering vocabulary for EJU success and vocational course
+  completion, emphasizing conversation and business communication. This context appeals
+  to students with clear goals, especially those aiming for vocational colleges or
+  universities in creative arts, technology, or technical subjects (美術/デザイン/アート and
+  理科/STEM). The institution nurtures international talent, providing tools and cultural
+  adaptation for success in Japan's higher education system. A holistic support system
+  covers accommodation, counseling, and career guidance, reflecting a commitment to
+  student success.
+faculties: []
+features:
+- Integrated Pathway into Art, Design, and Creative Vocational Careers
+- Mandatory, High-Support Dormitory Living System
+- Comprehensive Preparation for EJU (STEM, Humanities) and University Entry
+- Curriculum Focused on Both Advanced Academic Japanese and Practical Business Communication
+- Strategic Location in Koriyama (Fukushima) offering Low Cost of Living and Focused
+  Study Environment
+id: school_kokusai-art-design-college-japanese-course-koriyama
+lang: en
+layout: school
+location:
+  lat: 37.394035
+  lng: 140.3903332
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=530
+stats:
+  capacity: 200
+  international_students: 150
+tags:
+- Integrated Pathway into Art, Design, and Creative Vocational Careers
+- Mandatory, High-Support Dormitory Living System
+- Comprehensive Preparation for EJU (STEM, Humanities) and University Entry
+- Curriculum Focused on Both Advanced Academic Japanese and Practical Business Communication
+- Strategic Location in Koriyama (Fukushima) offering Low Cost of Living and Focused
+  Study Environment
+thumbnail: /static/img/pin-school.png
+title: Japanese Language Department at the International College of Art and Design
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

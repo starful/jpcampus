@@ -1,58 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-university",
-  "title": "Osaka University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 34.8171478,
-    "lng": 135.5227115
-  },
-  "basic_info": {
-    "name_ja": "大阪大学",
-    "name_en": "Osaka University",
-    "address": "〒565-0871 大阪府吹田市山田丘1-1",
-    "website": "https://www.osaka-u.ac.jp/en"
-  },
-  "stats": {
-    "international_students": 3000,
-    "acceptance_rate": "15%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Letters",
-    "Human Sciences",
-    "Foreign Studies",
-    "Law",
-    "Economics",
-    "Science",
-    "Medicine",
-    "Dentistry",
-    "Pharmaceutical Sciences",
-    "Engineering",
-    "Engineering Science",
-    "Agriculture"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒565-0871 大阪府吹田市山田丘1-1
+  name_en: Osaka University
+  name_ja: 大阪大学
+  website: https://www.osaka-u.ac.jp/en
+category: university
+faculties:
+- Letters
+- Human Sciences
+- Foreign Studies
+- Law
+- Economics
+- Science
+- Medicine
+- Dentistry
+- Pharmaceutical Sciences
+- Engineering
+- Engineering Science
+- Agriculture
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_osaka-university
+lang: en
+layout: school
+location:
+  lat: 34.8171478
+  lng: 135.5227115
+stats:
+  acceptance_rate: 15%
+  international_students: 3000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Osaka University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview

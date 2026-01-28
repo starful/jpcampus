@@ -1,58 +1,52 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_keio-university",
-  "title": "Keio University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6492141,
-    "lng": 139.7418255
-  },
-  "basic_info": {
-    "name_ja": "慶應義塾大学",
-    "name_en": "Keio University",
-    "address": "東京都港区三田2-15-45",
-    "website": "https://www.keio.ac.jp/"
-  },
-  "stats": {
-    "international_students": 2000,
-    "acceptance_rate": "10%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of Business and Commerce",
-    "School of Medicine",
-    "Faculty of Science and Technology",
-    "Faculty of Policy Management",
-    "Faculty of Environment and Information Studies",
-    "Faculty of Nursing and Medical Care",
-    "Faculty of Pharmacy",
-    "Global Information Studies (GIGA)"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true,
-  "description": "Keio University, located in Tokyo, is Japan's oldest private institution of higher learning. Known for its strong alumni network and global initiatives, Keio offers diverse faculties and comprehensive support for international students."
-}
+basic_info:
+  address: 東京都港区三田2-15-45
+  name_en: Keio University
+  name_ja: 慶應義塾大学
+  website: https://www.keio.ac.jp/
+category: university
+description: Keio University, located in Tokyo, is Japan's oldest private institution
+  of higher learning. Known for its strong alumni network and global initiatives,
+  Keio offers diverse faculties and comprehensive support for international students.
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Law
+- Faculty of Business and Commerce
+- School of Medicine
+- Faculty of Science and Technology
+- Faculty of Policy Management
+- Faculty of Environment and Information Studies
+- Faculty of Nursing and Medical Care
+- Faculty of Pharmacy
+- Global Information Studies (GIGA)
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_keio-university
+lang: en
+layout: school
+location:
+  lat: 35.6492141
+  lng: 139.7418255
+stats:
+  acceptance_rate: 10%
+  international_students: 2000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Keio University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview

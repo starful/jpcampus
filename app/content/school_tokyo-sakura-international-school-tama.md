@@ -1,66 +1,53 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-sakura-international-school-tama",
-  "title": "Tokyo Sakura International School",
-  "category": "school",
-  "tags": [
-    "Comprehensive Higher Education Progression Support (EJU/JLPT)",
-    "Specialized Fine Arts/Art University Preparation Track",
-    "Mandatory Conversation and Practical Japanese Skills Training",
-    "On-campus or Managed Dormitory Accommodation",
-    "Personalized Guidance due to Small Class Capacity"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6457915,
-    "lng": 139.452618
-  },
-  "basic_info": {
-    "name_ja": "Tokyo Sakura International School",
-    "address": "東京都多摩市関戸5-3-11",
-    "capacity": 150,
-    "name_en": "Tokyo Sakura International School"
-  },
-  "stats": {
-    "international_students": null,
-    "capacity": 150
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Comprehensive Higher Education Progression Support (EJU/JLPT)",
-    "Specialized Fine Arts/Art University Preparation Track",
-    "Mandatory Conversation and Practical Japanese Skills Training",
-    "On-campus or Managed Dormitory Accommodation",
-    "Personalized Guidance due to Small Class Capacity"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1529000
-    },
-    {
-      "course_name": "進学1年9か月コース",
-      "admission_month": "7",
-      "total_fees": 1344750
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1160500
-    },
-    {
-      "course_name": "一般1年6か月コース",
-      "admission_month": "10",
-      "total_fees": 1160500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=606",
-  "translated": true,
-  "description": "Tokyo Sakura International School, located in a tranquil suburban area of Tokyo, offers comprehensive support for higher education progression, including specialized art university preparation and personalized guidance in small classes."
-}
+basic_info:
+  address: 東京都多摩市関戸5-3-11
+  capacity: 150
+  name_en: Tokyo Sakura International School
+  name_ja: Tokyo Sakura International School
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1529000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1344750
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1160500
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 1160500
+description: Tokyo Sakura International School, located in a tranquil suburban area
+  of Tokyo, offers comprehensive support for higher education progression, including
+  specialized art university preparation and personalized guidance in small classes.
+faculties: []
+features:
+- Comprehensive Higher Education Progression Support (EJU/JLPT)
+- Specialized Fine Arts/Art University Preparation Track
+- Mandatory Conversation and Practical Japanese Skills Training
+- On-campus or Managed Dormitory Accommodation
+- Personalized Guidance due to Small Class Capacity
+id: school_tokyo-sakura-international-school-tama
+lang: en
+layout: school
+location:
+  lat: 35.6457915
+  lng: 139.452618
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=606
+stats:
+  capacity: 150
+  international_students: null
+tags:
+- Comprehensive Higher Education Progression Support (EJU/JLPT)
+- Specialized Fine Arts/Art University Preparation Track
+- Mandatory Conversation and Practical Japanese Skills Training
+- On-campus or Managed Dormitory Accommodation
+- Personalized Guidance due to Small Class Capacity
+thumbnail: /static/img/pin-school.png
+title: Tokyo Sakura International School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

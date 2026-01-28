@@ -1,91 +1,68 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都港区南青山3-8-40　青山センタービル3F",
-    "capacity": 400,
-    "name_en": "Aoyama International Education Institute",
-    "name_ja": "青山国際教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "National University Advancement Course",
-      "total_fees": 1620000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "National University Advancement Course",
-      "total_fees": 1465000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "Graduate School Advancement Course",
-      "total_fees": 880000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "University/Vocational School Advancement Course",
-      "total_fees": 1660000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "University/Vocational School Advancement Course",
-      "total_fees": 1465000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University/Vocational School Advancement Course",
-      "total_fees": 1270000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "University/Vocational School Advancement Course",
-      "total_fees": 1075000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "University/Vocational School Advancement Course",
-      "total_fees": 880000
-    },
-    {
-      "admission_month": "4,7,10",
-      "course_name": "Japanese Language Course/Business Japanese Course (April Enrollment)",
-      "total_fees": 880000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "Dormitory",
-    "University Preparation",
-    "Business Japanese",
-    "Short-Term Courses",
-    "EJU Preparation"
-  ],
-  "id": "school_aoyama-international-education-institute",
-  "layout": "school",
-  "location": {
-    "lat": 35.6674254,
-    "lng": 139.7151324
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=97",
-  "stats": {
-    "capacity": 400,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "University Preparation",
-    "Business Japanese",
-    "Short-Term Courses",
-    "EJU Preparation"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Aoyama International Education Institute",
-  "tuition": {},
-  "description": "Aoyama International Education Institute is dedicated to providing high-quality Japanese language education to international students in a supportive learning environment, preparing them for success in Japanese universities and the global workforce.",
-  "translated": true
-}
+basic_info:
+  address: 東京都港区南青山3-8-40　青山センタービル3F
+  capacity: 400
+  name_en: Aoyama International Education Institute
+  name_ja: 青山国際教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: National University Advancement Course
+  total_fees: 1620000
+- admission_month: '7'
+  course_name: National University Advancement Course
+  total_fees: 1465000
+- admission_month: '4'
+  course_name: Graduate School Advancement Course
+  total_fees: 880000
+- admission_month: '4'
+  course_name: University/Vocational School Advancement Course
+  total_fees: 1660000
+- admission_month: '7'
+  course_name: University/Vocational School Advancement Course
+  total_fees: 1465000
+- admission_month: '10'
+  course_name: University/Vocational School Advancement Course
+  total_fees: 1270000
+- admission_month: '1'
+  course_name: University/Vocational School Advancement Course
+  total_fees: 1075000
+- admission_month: '4'
+  course_name: University/Vocational School Advancement Course
+  total_fees: 880000
+- admission_month: 4,7,10
+  course_name: Japanese Language Course/Business Japanese Course (April Enrollment)
+  total_fees: 880000
+description: Aoyama International Education Institute is dedicated to providing high-quality
+  Japanese language education to international students in a supportive learning environment,
+  preparing them for success in Japanese universities and the global workforce.
+faculties: []
+features:
+- Dormitory
+- University Preparation
+- Business Japanese
+- Short-Term Courses
+- EJU Preparation
+id: school_aoyama-international-education-institute
+lang: en
+layout: school
+location:
+  lat: 35.6674254
+  lng: 139.7151324
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=97
+stats:
+  capacity: 400
+  international_students: 0
+tags:
+- Dormitory
+- University Preparation
+- Business Japanese
+- Short-Term Courses
+- EJU Preparation
+thumbnail: /static/img/pin-school.png
+title: Aoyama International Education Institute
+translated: true
+tuition: {}
 ---
 
 ## School Overview

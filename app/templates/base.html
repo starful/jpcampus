@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ 'ko' if current_lang == 'kr' else 'en' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}JP Campus - Study in Japan Guide{% endblock %}</title>
-    <!-- [신규] Google Analytics 태그 추가 (모든 페이지 공통 적용) -->
+    <title>{% block title %}JP Campus - {{ ui.essential_guides if current_lang == 'kr' else 'Study in Japan Guide' }}{% endblock %}</title>
+    
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDJL0618LL"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-EDJL0618LL');
     </script>
+    
     <link rel="stylesheet" href="/static/css/style.css?v=12.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
@@ -23,11 +24,11 @@
 {% block header %}
 <div class="fixed-top-area">
     <header class="main-header">
-        <a href="/" class="logo"><img src="/static/img/logo.png" alt="JP Campus" class="logo-img"></a>
+        <a href="/?lang={{ current_lang }}" class="logo"><img src="/static/img/logo.png" alt="JP Campus" class="logo-img"></a>
         
         <div class="search-area">
             <div class="search-bar-wrapper">
-                <input type="text" id="univ-search-input" class="search-input" list="university-list" placeholder="Search universities...">
+                <input type="text" id="univ-search-input" class="search-input" list="university-list" placeholder="{{ ui.search_placeholder }}">
             </div>
             <datalist id="university-list">
                 {% if university_list_json %}
@@ -41,17 +42,16 @@
         <nav class="filter-controls">
             <!-- 통합된 드롭다운 필터 -->
             <div class="filter-dropdown">
-                <!-- 초기 상태: All Schools가 선택된 상태로 표시 -->
                 <button class="tag-filter-btn dropdown-trigger active">
-                    <i class="fa-solid fa-layer-group"></i> <!-- 아이콘 -->
-                    <span class="filter-label" style="margin-left: 8px;">All Schools</span>
+                    <i class="fa-solid fa-layer-group"></i> 
+                    <span class="filter-label" style="margin-left: 8px;">{{ ui.all_schools }}</span>
                 </button>
 
                 <div class="dropdown-menu">
-                    <!-- 1. [All] 항목을 메뉴 안으로 이동 -->
-                    <a href="#" class="dropdown-item" data-filter-key="all" data-icon='<i class="fa-solid fa-layer-group"></i>' data-name="All Schools">
+                    <!-- 1. [All] 항목 -->
+                    <a href="#" class="dropdown-item" data-filter-key="all" data-icon='<i class="fa-solid fa-layer-group"></i>' data-name="{{ ui.all_schools }}">
                         <span class="tag-icon"><i class="fa-solid fa-layer-group"></i></span>
-                        <span class="tag-name">Show All Schools</span>
+                        <span class="tag-name">{{ ui.all_schools }}</span>
                     </a>
                     
                     <!-- 2. 나머지 태그 목록 -->
@@ -66,22 +66,36 @@
                     {% endif %}
                 </div>
             </div>
+
+            <!-- 3. 언어 전환 버튼 -->
+            <div class="lang-switcher" style="margin-left: 8px;">
+                {% if current_lang == 'kr' %}
+                    <a href="?lang=en" class="tag-filter-btn" style="padding: 0 12px; width: auto; font-weight: 800;">🇺🇸 EN</a>
+                {% else %}
+                    <a href="?lang=kr" class="tag-filter-btn" style="padding: 0 12px; width: auto; font-weight: 800;">🇰🇷 KR</a>
+                {% endif %}
+            </div>
         </nav>
     </header>
 </div>
 {% endblock %}
 
-
 <main>
     {% block content %}{% endblock %}
 </main>
 
-
 <footer class="main-footer">
     <div class="footer-links">
-        <a href="/guide">Guide</a> <a href="/about">About</a> <a href="/policy">Privacy</a> <a href="/contact">Contact</a>
+        {# 푸터 링크도 언어 설정을 유지하도록 ?lang= 파라미터 추가 #}
+        <a href="/guide?lang={{ current_lang }}">{{ ui.essential_guides }}</a> 
+        <a href="/about?lang={{ current_lang }}">About</a> 
+        <a href="/policy?lang={{ current_lang }}">Privacy</a> 
+        <a href="/contact?lang={{ current_lang }}">Contact</a>
     </div>
-    <p class="copyright">© 2024 JP Campus · Updated: {{ updated_at }}</p>
+    <p class="copyright">
+        © 2024 JP Campus · 
+        {{ '업데이트' if current_lang == 'kr' else 'Updated' }}: {{ updated_at }}
+    </p>
 </footer>
 
 {% block scripts %}{% endblock %}

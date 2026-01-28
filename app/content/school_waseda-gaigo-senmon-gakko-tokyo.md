@@ -1,56 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "school_waseda-gaigo-senmon-gakko-tokyo",
-  "title": "Waseda Foreign Language College",
-  "category": "school",
-  "tags": [
-    "High-Intensity University Progression Focus (Shingaku)",
-    "Dedicated Preparation for EJU and JLPT N1",
-    "On-Campus or Affiliated Dormitory Support",
-    "Prime Academic Location in Takadanobaba, Shinjuku",
-    "Small Class Sizes (Low student capacity for personalized attention)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7109921,
-    "lng": 139.7050119
-  },
-  "basic_info": {
-    "name_ja": "早稲田外語専門学校",
-    "address": "東京都新宿区高田馬場1-23-9",
-    "capacity": 160,
-    "name_en": "Waseda Foreign Language College"
-  },
-  "stats": {
-    "international_students": 160,
-    "capacity": 160
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Intensity University Progression Focus (Shingaku)",
-    "Dedicated Preparation for EJU and JLPT N1",
-    "On-Campus or Affiliated Dormitory Support",
-    "Prime Academic Location in Takadanobaba, Shinjuku",
-    "Small Class Sizes (Low student capacity for personalized attention)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学コース1年",
-      "admission_month": "4",
-      "total_fees": 730000
-    },
-    {
-      "course_name": "進学コース1年半",
-      "admission_month": "10",
-      "total_fees": 1045000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=141",
-  "description": "Waseda Foreign Language College is a specialized Japanese language institution in Tokyo focused on preparing international students for university and graduate school. Located in Takadanobaba, Shinjuku, it offers intensive courses, dormitory support, and personalized guidance for EJU and JLPT N1 success.",
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区高田馬場1-23-9
+  capacity: 160
+  name_en: Waseda Foreign Language College
+  name_ja: 早稲田外語専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コース1年
+  total_fees: 730000
+- admission_month: '10'
+  course_name: 進学コース1年半
+  total_fees: 1045000
+description: Waseda Foreign Language College is a specialized Japanese language institution
+  in Tokyo focused on preparing international students for university and graduate
+  school. Located in Takadanobaba, Shinjuku, it offers intensive courses, dormitory
+  support, and personalized guidance for EJU and JLPT N1 success.
+faculties: []
+features:
+- High-Intensity University Progression Focus (Shingaku)
+- Dedicated Preparation for EJU and JLPT N1
+- On-Campus or Affiliated Dormitory Support
+- Prime Academic Location in Takadanobaba, Shinjuku
+- Small Class Sizes (Low student capacity for personalized attention)
+id: school_waseda-gaigo-senmon-gakko-tokyo
+lang: en
+layout: school
+location:
+  lat: 35.7109921
+  lng: 139.7050119
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=141
+stats:
+  capacity: 160
+  international_students: 160
+tags:
+- High-Intensity University Progression Focus (Shingaku)
+- Dedicated Preparation for EJU and JLPT N1
+- On-Campus or Affiliated Dormitory Support
+- Prime Academic Location in Takadanobaba, Shinjuku
+- Small Class Sizes (Low student capacity for personalized attention)
+thumbnail: /static/img/pin-school.png
+title: Waseda Foreign Language College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

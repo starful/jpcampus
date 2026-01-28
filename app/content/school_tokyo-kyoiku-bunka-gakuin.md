@@ -1,68 +1,54 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-kyoiku-bunka-gakuin",
-  "title": "Tokyo Kyoiku Bunka Gakuin",
-  "category": "school",
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Art",
-    "Design",
-    "Painting",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7152719,
-    "lng": 139.7059162
-  },
-  "basic_info": {
-    "name_ja": "東京教育文化学院",
-    "address": "東京都豊島区高田3-15-14",
-    "capacity": 325,
-    "name_en": "Tokyo Kyoiku Bunka Gakuin"
-  },
-  "stats": {
-    "international_students": 123,
-    "capacity": 325
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Art",
-    "Design",
-    "Painting",
-    "Short-Term Courses"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1604000
-    },
-    {
-      "course_name": "進学1.9年コース",
-      "admission_month": "7",
-      "total_fees": 1417000
-    },
-    {
-      "course_name": "進学1年半コース",
-      "admission_month": "10",
-      "total_fees": 1224500
-    },
-    {
-      "course_name": "進学1.3年コース",
-      "admission_month": "1",
-      "total_fees": 1035300
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=596",
-  "description": "Tokyo Kyoiku Bunka Gakuin is a Japanese language school in Tokyo offering comprehensive university preparation, EJU courses, and specialized art programs.",
-  "translated": true
-}
+basic_info:
+  address: 東京都豊島区高田3-15-14
+  capacity: 325
+  name_en: Tokyo Kyoiku Bunka Gakuin
+  name_ja: 東京教育文化学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1604000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1417000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1224500
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 1035300
+description: Tokyo Kyoiku Bunka Gakuin is a Japanese language school in Tokyo offering
+  comprehensive university preparation, EJU courses, and specialized art programs.
+faculties: []
+features:
+- University Preparation
+- EJU Preparation
+- Art
+- Design
+- Painting
+- Short-Term Courses
+id: school_tokyo-kyoiku-bunka-gakuin
+lang: en
+layout: school
+location:
+  lat: 35.7152719
+  lng: 139.7059162
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=596
+stats:
+  capacity: 325
+  international_students: 123
+tags:
+- University Preparation
+- EJU Preparation
+- Art
+- Design
+- Painting
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Tokyo Kyoiku Bunka Gakuin
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

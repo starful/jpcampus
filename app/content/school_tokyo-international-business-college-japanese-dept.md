@@ -1,53 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "school_tokyo-international-business-college-japanese-dept",
-  "title": "Tokyo International Business College, Japanese Language Department",
-  "category": "school",
-  "tags": [
-    "Higher Education Advancement Focus",
-    "EJU Preparation",
-    "Dormitory Provided",
-    "Conversation and Speaking Skills Emphasis"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6990301,
-    "lng": 139.7877541
-  },
-  "basic_info": {
-    "name_ja": "専門学校東京国際ビジネスカレッジ日本語学科",
-    "address": "東京都台東区柳橋2-7-5",
-    "capacity": 200,
-    "name_en": "Tokyo International Business College, Japanese Language Department"
-  },
-  "stats": {
-    "international_students": 190,
-    "capacity": 200
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Focus on Higher Education Advancement",
-    "EJU Preparation",
-    "Dormitory Provided",
-    "Emphasis on Conversation and Speaking Skills"
-  ],
-  "courses": [
-    {
-      "course_name": "Japanese Language Department",
-      "admission_month": "4",
-      "total_fees": 1570000
-    },
-    {
-      "course_name": "Japanese Language Department",
-      "admission_month": "10",
-      "total_fees": 1570000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=150",
-  "translated": true
-}
+basic_info:
+  address: 東京都台東区柳橋2-7-5
+  capacity: 200
+  name_en: Tokyo International Business College, Japanese Language Department
+  name_ja: 専門学校東京国際ビジネスカレッジ日本語学科
+category: school
+courses:
+- admission_month: '4'
+  course_name: Japanese Language Department
+  total_fees: 1570000
+- admission_month: '10'
+  course_name: Japanese Language Department
+  total_fees: 1570000
+faculties: []
+features:
+- Focus on Higher Education Advancement
+- EJU Preparation
+- Dormitory Provided
+- Emphasis on Conversation and Speaking Skills
+id: school_tokyo-international-business-college-japanese-dept
+lang: en
+layout: school
+location:
+  lat: 35.6990301
+  lng: 139.7877541
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=150
+stats:
+  capacity: 200
+  international_students: 190
+tags:
+- Higher Education Advancement Focus
+- EJU Preparation
+- Dormitory Provided
+- Conversation and Speaking Skills Emphasis
+thumbnail: /static/img/pin-school.png
+title: Tokyo International Business College, Japanese Language Department
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

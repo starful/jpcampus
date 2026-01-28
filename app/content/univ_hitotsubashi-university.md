@@ -1,51 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "〒186-8601 東京都国立市中2-1",
-    "name_en": "Hitotsubashi University",
-    "name_ja": "一橋大学",
-    "website": "https://www.hit-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Commerce",
-    "School of Economics",
-    "School of Law",
-    "School of Social Sciences",
-    "School of Cultural and Social Studies"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_hitotsubashi-university",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "15%",
-    "international_students": 300
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "Hitotsubashi University",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "translated": true
-}
+basic_info:
+  address: 〒186-8601 東京都国立市中2-1
+  name_en: Hitotsubashi University
+  name_ja: 一橋大学
+  website: https://www.hit-u.ac.jp/
+category: university
+faculties:
+- School of Commerce
+- School of Economics
+- School of Law
+- School of Social Sciences
+- School of Cultural and Social Studies
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_hitotsubashi-university
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15%
+  international_students: 300
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Hitotsubashi University
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview & Reputation

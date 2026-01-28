@@ -1,76 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中区新栄1-13-22",
-    "capacity": 262,
-    "name_en": "Nagoya SKY Japanese Language School",
-    "name_ja": "名古屋ＳＫＹ日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2年進学コース",
-      "total_fees": 1410000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "1年9か月進学コース",
-      "total_fees": 1242500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1年6か月進学コース",
-      "total_fees": 1075000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "1年3か月進学コース",
-      "total_fees": 907500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "EJU Preparation",
-    "University Advancement Support",
-    "Dormitory Available",
-    "Single Rooms",
-    "Scholarships",
-    "Science Stream Prep",
-    "Conversation Focus",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term Courses"
-  ],
-  "id": "school_nagoya-sky-japanese-language-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.166941,
-    "lng": 136.9164621
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=286",
-  "stats": {
-    "capacity": 262,
-    "international_students": 0
-  },
-  "tags": [
-    "EJU Preparation",
-    "University Advancement Support",
-    "Dormitory Available",
-    "Single Rooms",
-    "Scholarships",
-    "Science Stream Prep",
-    "Conversation Focus",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Nagoya SKY Japanese Language School",
-  "tuition": {},
-  "description": "Nagoya SKY Japanese Language School provides a supportive environment for international students aiming for higher education in Japan, offering comprehensive language training, EJU preparation, and university counseling.",
-  "translated": true
-}
+basic_info:
+  address: 愛知県名古屋市中区新栄1-13-22
+  capacity: 262
+  name_en: Nagoya SKY Japanese Language School
+  name_ja: 名古屋ＳＫＹ日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2年進学コース
+  total_fees: 1410000
+- admission_month: '7'
+  course_name: 1年9か月進学コース
+  total_fees: 1242500
+- admission_month: '10'
+  course_name: 1年6か月進学コース
+  total_fees: 1075000
+- admission_month: '1'
+  course_name: 1年3か月進学コース
+  total_fees: 907500
+description: Nagoya SKY Japanese Language School provides a supportive environment
+  for international students aiming for higher education in Japan, offering comprehensive
+  language training, EJU preparation, and university counseling.
+faculties: []
+features:
+- EJU Preparation
+- University Advancement Support
+- Dormitory Available
+- Single Rooms
+- Scholarships
+- Science Stream Prep
+- Conversation Focus
+- Business Japanese
+- Art & Design Prep
+- Short-term Courses
+id: school_nagoya-sky-japanese-language-school
+lang: en
+layout: school
+location:
+  lat: 35.166941
+  lng: 136.9164621
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=286
+stats:
+  capacity: 262
+  international_students: 0
+tags:
+- EJU Preparation
+- University Advancement Support
+- Dormitory Available
+- Single Rooms
+- Scholarships
+- Science Stream Prep
+- Conversation Focus
+- Business Japanese
+- Art & Design Prep
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: Nagoya SKY Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

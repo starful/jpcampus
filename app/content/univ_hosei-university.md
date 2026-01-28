@@ -1,58 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hosei-university",
-  "title": "Hosei University",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6958744,
-    "lng": 139.7408827
-  },
-  "basic_info": {
-    "name_ja": "法政大学",
-    "name_en": "Hosei University",
-    "address": "〒102-8160 東京都千代田区富士見2-17-1",
-    "website": "https://www.hosei.ac.jp/"
-  },
-  "stats": {
-    "international_students": 1500,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Social Sciences",
-    "Faculty of Business Administration",
-    "Faculty of Science and Engineering",
-    "Faculty of Humanity and Environment",
-    "Faculty of Global and Interdisciplinary Studies",
-    "Faculty of Sport and Health Studies",
-    "Faculty of Information Science and Technology",
-    "Faculty of Design Engineering",
-    "College of Sustainability Systems Science"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒102-8160 東京都千代田区富士見2-17-1
+  name_en: Hosei University
+  name_ja: 法政大学
+  website: https://www.hosei.ac.jp/
+category: university
+faculties:
+- Faculty of Law
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Social Sciences
+- Faculty of Business Administration
+- Faculty of Science and Engineering
+- Faculty of Humanity and Environment
+- Faculty of Global and Interdisciplinary Studies
+- Faculty of Sport and Health Studies
+- Faculty of Information Science and Technology
+- Faculty of Design Engineering
+- College of Sustainability Systems Science
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_hosei-university
+lang: en
+layout: school
+location:
+  lat: 35.6958744
+  lng: 139.7408827
+stats:
+  acceptance_rate: 25%
+  international_students: 1500
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: Hosei University
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## University Overview

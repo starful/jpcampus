@@ -1,16 +1,14 @@
 ---
-{
-  "layout": "guide",
-  "id": "bicycle-rules",
-  "title": "Bicycle Rules & Registration in Japan",
-  "category": "Culture",
-  "tags": [
-    "Culture"
-  ],
-  "description": "Guide to buying, registering, and legally riding a bike.",
-  "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-01-28"
-}
+category: Culture
+date: '2026-01-28'
+description: Guide to buying, registering, and legally riding a bike.
+id: bicycle-rules
+lang: en
+layout: guide
+tags:
+- Culture
+thumbnail: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500
+title: Bicycle Rules & Registration in Japan
 ---
 
 # The Essential Wheels: A Comprehensive Guide to Bicycle Rules and Registration for International Students in Japan

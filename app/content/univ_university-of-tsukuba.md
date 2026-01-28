@@ -1,56 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-tsukuba",
-  "title": "University of Tsukuba",
-  "category": "university",
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "筑波大学",
-    "name_en": "University of Tsukuba",
-    "address": "〒305-8577 1-1-1 Tennodai, Tsukuba, Ibaraki",
-    "website": "https://www.tsukuba.ac.jp/"
-  },
-  "stats": {
-    "international_students": 2000,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "College of Humanities and Social Sciences",
-    "College of Human Sciences",
-    "College of Engineering Sciences",
-    "College of Natural Sciences",
-    "College of Information Science",
-    "College of Life and Environmental Sciences",
-    "School of Medicine",
-    "School of Health Sciences",
-    "School of Art and Design",
-    "School of Physical Education"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒305-8577 1-1-1 Tennodai, Tsukuba, Ibaraki
+  name_en: University of Tsukuba
+  name_ja: 筑波大学
+  website: https://www.tsukuba.ac.jp/
+category: university
+faculties:
+- College of Humanities and Social Sciences
+- College of Human Sciences
+- College of Engineering Sciences
+- College of Natural Sciences
+- College of Information Science
+- College of Life and Environmental Sciences
+- School of Medicine
+- School of Health Sciences
+- School of Art and Design
+- School of Physical Education
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_university-of-tsukuba
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25%
+  international_students: 2000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: University of Tsukuba
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## University Overview

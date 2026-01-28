@@ -1,53 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "school_bunka-foreign-language-college",
-  "title": "Bunka Foreign Language College",
-  "category": "school",
-  "tags": [
-    "Dedicated Academic Advancement Focus",
-    "Expert EJU Examination Preparation",
-    "On-Campus or Affiliated Dormitory Support",
-    "Prime Location in Shibuya, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.6855325,
-    "lng": 139.6936686
-  },
-  "basic_info": {
-    "name_ja": "文化外国語専門学校",
-    "address": "東京都渋谷区代々木3-22-1",
-    "capacity": 280,
-    "name_en": "Bunka Foreign Language College"
-  },
-  "stats": {
-    "international_students": 280,
-    "capacity": 280
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Dedicated Academic Advancement Focus",
-    "Expert EJU Examination Preparation",
-    "On-Campus or Affiliated Dormitory Support",
-    "Prime Location in Shibuya, Tokyo"
-  ],
-  "courses": [
-    {
-      "course_name": "Japanese Language Advancement Course (April Term)",
-      "admission_month": "4",
-      "total_fees": 1113300
-    },
-    {
-      "course_name": "Japanese Language Advancement Course (October Term)",
-      "admission_month": "10",
-      "total_fees": 1597000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=179",
-  "translated": true
-}
+basic_info:
+  address: 東京都渋谷区代々木3-22-1
+  capacity: 280
+  name_en: Bunka Foreign Language College
+  name_ja: 文化外国語専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: Japanese Language Advancement Course (April Term)
+  total_fees: 1113300
+- admission_month: '10'
+  course_name: Japanese Language Advancement Course (October Term)
+  total_fees: 1597000
+faculties: []
+features:
+- Dedicated Academic Advancement Focus
+- Expert EJU Examination Preparation
+- On-Campus or Affiliated Dormitory Support
+- Prime Location in Shibuya, Tokyo
+id: school_bunka-foreign-language-college
+lang: en
+layout: school
+location:
+  lat: 35.6855325
+  lng: 139.6936686
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=179
+stats:
+  capacity: 280
+  international_students: 280
+tags:
+- Dedicated Academic Advancement Focus
+- Expert EJU Examination Preparation
+- On-Campus or Affiliated Dormitory Support
+- Prime Location in Shibuya, Tokyo
+thumbnail: /static/img/pin-school.png
+title: Bunka Foreign Language College
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

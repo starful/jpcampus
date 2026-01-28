@@ -1,49 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nitchu-gakuin-tokyo-academic-progression",
-  "title": "Nitchu Gakuin (Japan-China Institute)",
-  "category": "school",
-  "tags": [
-    "High-Level University and Graduate School Progression Support",
-    "Specialized EJU (Examination for Japanese University Admission) Focus",
-    "Dedicated STEM (Science and Engineering) Subject Training",
-    "Small Class Size and Highly Personalized Instruction (Capacity: 120)",
-    "Prime Location in Tokyo's Academic Hub (Bunkyo Ward)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7040382,
-    "lng": 139.7477265
-  },
-  "basic_info": {
-    "name_ja": "日中学院",
-    "address": "東京都文京区後楽1-5-3",
-    "capacity": 120,
-    "name_en": "Nitchu Gakuin (Japan-China Institute)"
-  },
-  "stats": {
-    "international_students": 120,
-    "capacity": 120
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "High-Level University and Graduate School Progression Support",
-    "Specialized EJU (Examination for Japanese University Admission) Focus",
-    "Dedicated STEM (Science and Engineering) Subject Training",
-    "Small Class Size and Highly Personalized Instruction (Capacity: 120)",
-    "Prime Location in Tokyo's Academic Hub (Bunkyo Ward)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1501000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=142"
-}
+basic_info:
+  address: 東京都文京区後楽1-5-3
+  capacity: 120
+  name_en: Nitchu Gakuin (Japan-China Institute)
+  name_ja: 日中学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1501000
+faculties: []
+features:
+- High-Level University and Graduate School Progression Support
+- Specialized EJU (Examination for Japanese University Admission) Focus
+- Dedicated STEM (Science and Engineering) Subject Training
+- 'Small Class Size and Highly Personalized Instruction (Capacity: 120)'
+- Prime Location in Tokyo's Academic Hub (Bunkyo Ward)
+id: school_nitchu-gakuin-tokyo-academic-progression
+lang: en
+layout: school
+location:
+  lat: 35.7040382
+  lng: 139.7477265
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=142
+stats:
+  capacity: 120
+  international_students: 120
+tags:
+- High-Level University and Graduate School Progression Support
+- Specialized EJU (Examination for Japanese University Admission) Focus
+- Dedicated STEM (Science and Engineering) Subject Training
+- 'Small Class Size and Highly Personalized Instruction (Capacity: 120)'
+- Prime Location in Tokyo's Academic Hub (Bunkyo Ward)
+thumbnail: /static/img/pin-school.png
+title: Nitchu Gakuin (Japan-China Institute)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy

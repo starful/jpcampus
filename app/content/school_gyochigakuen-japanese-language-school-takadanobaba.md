@@ -1,67 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区高田馬場2-13-2 JMFビル4階",
-    "capacity": 270,
-    "name_en": "Gyochi Gakuen Japanese Language School Takadanobaba Campus",
-    "name_ja": "行知学園日本語学校高田馬場校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 979000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1870000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1666500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1435000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 1232000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "University Preparation",
-    "EJU Focused",
-    "Dormitory Available",
-    "Comprehensive Curriculum",
-    "Experienced Instructors"
-  ],
-  "id": "school_gyochigakuen-japanese-language-school-takadanobaba",
-  "layout": "school",
-  "location": {
-    "lat": 35.7122838,
-    "lng": 139.7075319
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=597",
-  "stats": {},
-  "tags": [
-    "University Preparation",
-    "EJU Focused",
-    "Dormitory Available",
-    "Comprehensive Curriculum",
-    "Experienced Instructors"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Gyochi Gakuen Japanese Language School Takadanobaba Campus",
-  "tuition": {},
-  "translated": true
-}
+basic_info:
+  address: 東京都新宿区高田馬場2-13-2 JMFビル4階
+  capacity: 270
+  name_en: Gyochi Gakuen Japanese Language School Takadanobaba Campus
+  name_ja: 行知学園日本語学校高田馬場校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 979000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1870000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1666500
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1435000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 1232000
+faculties: []
+features:
+- University Preparation
+- EJU Focused
+- Dormitory Available
+- Comprehensive Curriculum
+- Experienced Instructors
+id: school_gyochigakuen-japanese-language-school-takadanobaba
+lang: en
+layout: school
+location:
+  lat: 35.7122838
+  lng: 139.7075319
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=597
+stats: {}
+tags:
+- University Preparation
+- EJU Focused
+- Dormitory Available
+- Comprehensive Curriculum
+- Experienced Instructors
+thumbnail: /static/img/pin-school.png
+title: Gyochi Gakuen Japanese Language School Takadanobaba Campus
+translated: true
+tuition: {}
 ---
 
 ## School Overview

@@ -1,58 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukuoka-university-guide",
-  "title": "Fukuoka University",
-  "category": "university",
-  "tags": [
-    "Large Comprehensive Private University",
-    "Leading Institution in Kyushu",
-    "EJU Required (for most programs)",
-    "Strong Medical and Engineering Faculties",
-    "Affordable City Living",
-    "Comprehensive Scholarship System"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福岡大学",
-    "name_en": "Fukuoka University",
-    "address": "〒814-0180 福岡県福岡市城南区七隈8丁目19-1",
-    "website": "https://www.fukuoka-u.ac.jp/"
-  },
-  "stats": {
-    "international_students": 550,
-    "acceptance_rate": "Varies Widely (Estimated 20-35% for general admission)"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1300000
-  },
-  "faculties": [
-    "Humanities",
-    "Law",
-    "Economics",
-    "Commerce",
-    "Science",
-    "Engineering",
-    "Medicine",
-    "Pharmaceutical Sciences",
-    "Sports Science",
-    "Nursing"
-  ],
-  "features": [
-    "Large Comprehensive Private University",
-    "Leading Institution in Kyushu",
-    "EJU Required (for most programs)",
-    "Strong Medical and Engineering Faculties",
-    "Affordable City Living",
-    "Comprehensive Scholarship System"
-  ],
-  "translated": true
-}
+basic_info:
+  address: 〒814-0180 福岡県福岡市城南区七隈8丁目19-1
+  name_en: Fukuoka University
+  name_ja: 福岡大学
+  website: https://www.fukuoka-u.ac.jp/
+category: university
+faculties:
+- Humanities
+- Law
+- Economics
+- Commerce
+- Science
+- Engineering
+- Medicine
+- Pharmaceutical Sciences
+- Sports Science
+- Nursing
+features:
+- Large Comprehensive Private University
+- Leading Institution in Kyushu
+- EJU Required (for most programs)
+- Strong Medical and Engineering Faculties
+- Affordable City Living
+- Comprehensive Scholarship System
+id: univ_fukuoka-university-guide
+lang: en
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Varies Widely (Estimated 20-35% for general admission)
+  international_students: 550
+tags:
+- Large Comprehensive Private University
+- Leading Institution in Kyushu
+- EJU Required (for most programs)
+- Strong Medical and Engineering Faculties
+- Affordable City Living
+- Comprehensive Scholarship System
+thumbnail: /static/img/pin-univ.png
+title: Fukuoka University
+translated: true
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1300000
 ---
 
 ## University Overview & Reputation

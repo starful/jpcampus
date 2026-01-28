@@ -1,55 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "school_jsl-nihon-academy-tokyo-school",
-  "title": "JSL Nihon Academy Tokyo School",
-  "category": "school",
-  "tags": [
-    "University Entrance Preparation Focus",
-    "Specialized EJU (Examination for Japanese University Admission) Training",
-    "Flexible Short-Term Study Options",
-    "Intimate Learning Environment (Max 100 Students)",
-    "Prime Central Tokyo Location (Asakusabashi)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 35.7009273,
-    "lng": 139.783979
-  },
-  "basic_info": {
-    "name_ja": "ＪＳＬ日本アカデミー東京校",
-    "address": "東京都台東区浅草橋3-8-5 5F",
-    "capacity": 100,
-    "name_en": "JSL Nihon Academy Tokyo School"
-  },
-  "stats": {
-    "international_students": 90,
-    "capacity": 100
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "University Entrance Preparation Focus",
-    "Specialized EJU (Examination for Japanese University Admission) Training",
-    "Flexible Short-Term Study Options",
-    "Intimate Learning Environment (Max 100 Students)",
-    "Prime Central Tokyo Location (Asakusabashi)"
-  ],
-  "courses": [
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1530000
-    },
-    {
-      "course_name": "進学1年6か月コース",
-      "admission_month": "4",
-      "total_fees": 1180000
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=581",
-  "translated": true
-}
+basic_info:
+  address: 東京都台東区浅草橋3-8-5 5F
+  capacity: 100
+  name_en: JSL Nihon Academy Tokyo School
+  name_ja: ＪＳＬ日本アカデミー東京校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1530000
+- admission_month: '4'
+  course_name: 進学1年6か月コース
+  total_fees: 1180000
+faculties: []
+features:
+- University Entrance Preparation Focus
+- Specialized EJU (Examination for Japanese University Admission) Training
+- Flexible Short-Term Study Options
+- Intimate Learning Environment (Max 100 Students)
+- Prime Central Tokyo Location (Asakusabashi)
+id: school_jsl-nihon-academy-tokyo-school
+lang: en
+layout: school
+location:
+  lat: 35.7009273
+  lng: 139.783979
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=581
+stats:
+  capacity: 100
+  international_students: 90
+tags:
+- University Entrance Preparation Focus
+- Specialized EJU (Examination for Japanese University Admission) Training
+- Flexible Short-Term Study Options
+- Intimate Learning Environment (Max 100 Students)
+- Prime Central Tokyo Location (Asakusabashi)
+thumbnail: /static/img/pin-school.png
+title: JSL Nihon Academy Tokyo School
+translated: true
+tuition: {}
 ---
 
 ## School Overview & Philosophy

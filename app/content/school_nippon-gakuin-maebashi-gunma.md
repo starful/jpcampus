@@ -1,73 +1,56 @@
 ---
-{
-  "layout": "school",
-  "id": "school_nippon-gakuin-maebashi-gunma",
-  "title": "NIPPON Gakuin (NIPPON Japanese Language Institute)",
-  "category": "school",
-  "tags": [
-    "Large Capacity Institution (Highly Resourced)",
-    "Dedicated Higher Education Progression Tracks (EJU Focused)",
-    "Comprehensive Dormitory System Available",
-    "Robust Scholarship Programs",
-    "Practical Conversation and Communication Training",
-    "Specialized Business Japanese Modules",
-    "Flexible Long and Short-Term Enrollment Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "location": {
-    "lat": 36.3879524,
-    "lng": 139.0600333
-  },
-  "basic_info": {
-    "name_ja": "NIPPON語学院",
-    "address": "群馬県前橋市大手町1-8-3",
-    "capacity": 967,
-    "name_en": "NIPPON Gakuin (NIPPON Japanese Language Institute)"
-  },
-  "stats": {
-    "international_students": 900,
-    "capacity": 967
-  },
-  "tuition": {},
-  "faculties": [],
-  "features": [
-    "Large Capacity Institution (Highly Resourced)",
-    "Dedicated Higher Education Progression Tracks (EJU Focused)",
-    "Comprehensive Dormitory System Available",
-    "Robust Scholarship Programs",
-    "Practical Conversation and Communication Training",
-    "Specialized Business Japanese Modules",
-    "Flexible Long and Short-Term Enrollment Options"
-  ],
-  "courses": [
-    {
-      "course_name": "進学1年コース",
-      "admission_month": "4",
-      "total_fees": 667000
-    },
-    {
-      "course_name": "進学1年6ヶ月コース",
-      "admission_month": "10",
-      "total_fees": 958750
-    },
-    {
-      "course_name": "進学1年3ヶ月コース",
-      "admission_month": "1",
-      "total_fees": 812875
-    },
-    {
-      "course_name": "進学1年9ヶ月コース",
-      "admission_month": "7",
-      "total_fees": 1104625
-    },
-    {
-      "course_name": "進学2年コース",
-      "admission_month": "4",
-      "total_fees": 1250500
-    }
-  ],
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=44"
-}
+basic_info:
+  address: 群馬県前橋市大手町1-8-3
+  capacity: 967
+  name_en: NIPPON Gakuin (NIPPON Japanese Language Institute)
+  name_ja: NIPPON語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 667000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 958750
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 812875
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1104625
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1250500
+faculties: []
+features:
+- Large Capacity Institution (Highly Resourced)
+- Dedicated Higher Education Progression Tracks (EJU Focused)
+- Comprehensive Dormitory System Available
+- Robust Scholarship Programs
+- Practical Conversation and Communication Training
+- Specialized Business Japanese Modules
+- Flexible Long and Short-Term Enrollment Options
+id: school_nippon-gakuin-maebashi-gunma
+lang: en
+layout: school
+location:
+  lat: 36.3879524
+  lng: 139.0600333
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=44
+stats:
+  capacity: 967
+  international_students: 900
+tags:
+- Large Capacity Institution (Highly Resourced)
+- Dedicated Higher Education Progression Tracks (EJU Focused)
+- Comprehensive Dormitory System Available
+- Robust Scholarship Programs
+- Practical Conversation and Communication Training
+- Specialized Business Japanese Modules
+- Flexible Long and Short-Term Enrollment Options
+thumbnail: /static/img/pin-school.png
+title: NIPPON Gakuin (NIPPON Japanese Language Institute)
+tuition: {}
 ---
 
 ## 🏫 School Overview & Philosophy
