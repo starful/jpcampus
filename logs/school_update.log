@@ -1443,3 +1443,38 @@ violations {
 2026-01-24 18:18:39,395 - Success: J026.md -> school_trinity-college-hiroshima-medical-welfare.md
 2026-01-24 18:19:11,770 - Success: B020.md -> school_west-coast-japanese-language-school-ota-tokyo.md
 2026-01-24 18:20:01,620 - Success: 5043.md -> school_kyoto-bunka-japanese-language-school.md
+2026-01-28 09:52:26,683 - Start processing new files. Pending: 30
+2026-01-28 09:52:52,701 - Unexpected Error A22.md: 'id'
+2026-01-28 09:53:17,776 - Success: L023.md -> school_tsubasa-international-academy-chiba.md
+2026-01-28 09:53:45,626 - Success: B376.md -> school_toyama-international-academy.md
+2026-01-28 09:57:40,978 - AI/Network Error (茨城国際学院): Expecting value: line 1 column 1 (char 0)
+2026-01-28 09:58:09,615 - AI/Network Error (さくら千葉日本語学校): Extra data: line 14 column 1 (char 19193)
+2026-01-28 09:58:35,228 - Success: B294.md -> school_international-language-and-culture-center-okinawa.md
+2026-01-28 09:59:00,952 - Success: B005.md -> school_aichi-kokusai-gakuin-nagoya-japanese-school.md
+2026-01-28 09:59:27,130 - Success: B114.md -> school_osaka-ymca-gakuin.md
+2026-01-28 09:59:58,160 - Success: L006.md -> school_zero-japanese-language-school-amagasaki.md
+2026-01-28 10:00:27,240 - Success: B054.md -> school_saitama-kokusai-gakuen.md
+2026-01-28 10:00:55,605 - Success: 5052.md -> school_nitchu-gakuin-tokyo-academic-progression.md
+2026-01-28 10:01:25,079 - Success: J037.md -> school_jp-education-nagoya.md
+2026-01-28 10:01:54,587 - Success: B538.md -> school_aishin-international-academy-yokohama.md
+2026-01-28 10:02:25,103 - Success: B478.md -> school_nichi-a-foreign-language-institute-okinawa.md
+2026-01-28 10:02:54,288 - Success: B819.md -> school_kij-language-institute-tokyo-campus.md
+2026-01-28 10:03:22,857 - Success: B528.md -> school_okayama-business-college-japanese-language-department.md
+2026-01-28 10:03:55,626 - Success: J027.md -> school_saitama-briller-japanese-language-school.md
+2026-01-28 10:04:26,036 - Success: J013.md -> school_toyohashi-japanese-language-school.md
+2026-01-28 10:16:53,951 - Start processing new files. Pending: 14
+2026-01-28 10:17:15,787 - Success: B267.md -> school_ibaraki-kokusai-gakuin.md
+2026-01-28 10:17:47,406 - Success: L017.md -> school_sakura-chiba-japanese-language-school-abiko.md
+2026-01-28 10:21:06,283 - Start processing new files. Pending: 12
+2026-01-28 10:21:36,734 - Success: L022.md -> school_g-k-japanese-language-school-osaka.md
+2026-01-28 10:23:55,155 - AI/Network Error (埼玉日本語学校): Expecting ',' delimiter: line 12 column 4 (char 61756)
+2026-01-28 10:24:24,736 - Success: L016.md -> school_shizuoka-japanese-language-institute-sjna.md
+2026-01-28 10:24:59,040 - Success: B035.md -> school_shizuoka-japanese-language-education-center.md
+2026-01-28 10:25:34,266 - Success: L002.md -> school_kyoritsu-japanese-language-school-tokyo.md
+2026-01-28 10:26:04,371 - Success: B363.md -> school_okayama-gaigo-gakuin-japanese-school.md
+2026-01-28 10:26:33,965 - Success: J033.md -> school_ecc-japanese-institute-shinjuku.md
+2026-01-28 10:27:03,660 - Success: K009.md -> school_shibuya-gaigo-gakuin-tokyo-takadanobaba.md
+2026-01-28 10:27:32,845 - Success: B689.md -> school_daiwa-academy-osaka.md
+2026-01-28 10:28:05,613 - Success: J017.md -> school_fukaya-kokusai-gaigo-gakuin.md
+2026-01-28 10:31:53,690 - AI/Network Error (NIPPON文化学院): Expecting value: line 1 column 1 (char 0)
+2026-01-28 10:32:19,463 - Success: 5017.md -> school_jasso-tokyo-japanese-language-education-center.md

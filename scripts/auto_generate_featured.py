@@ -15,34 +15,43 @@ SCHOOLS_JSON = os.path.join(os.path.dirname(DATA_DIR), "app", "static", "json", 
 
 # [자동 생성할 주제 목록]
 # 원하는 주제를 여기에 계속 추가하면 AI가 알아서 글을 씁니다.
+# [새로운 TOPICS 목록]
 TOPICS = [
+    # 1. [취업/비즈니스] 도쿄에서 취업하기 가장 좋은 학교
     {
-        "slug": "top-5-university-prep-tokyo",
-        "title": "Top 5 Language Schools in Tokyo for University Prep",
-        "criteria": {"category": "school", "tag": "academic", "region": "東京都"},
+        "slug": "best-business-schools-tokyo",
+        "title": "Top 5 Schools in Tokyo for Finding a Job in Japan",
+        "criteria": {
+            "category": "school", 
+            "tag": "business",  # 비즈니스/취업 태그
+            "region": "東京都"   # 도쿄 지역
+        },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500"
+        "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500" # 오피스 빌딩 이미지
     },
+
+    # 2. [지역/문화] 교토: 일본의 전통 속에서 공부하기
     {
-        "slug": "best-3-art-universities",
-        "title": "3 Best Art Universities in Japan for Foreigners",
-        "criteria": {"category": "university", "tag": "Art"}, 
+        "slug": "study-in-kyoto-top-picks",
+        "title": "Study in Kyoto: Top 3 Schools in Japan's Cultural Capital",
+        "criteria": {
+            "category": "school", 
+            "region": "京都" # 교토 지역 (주소에 '京都' 포함)
+        },
         "count": 3,
-        "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500"
+        "thumbnail": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500" # 교토 거리 이미지
     },
+
+    # 3. [전공/특기] 애니메이션 & 디자인 유학 추천 (학교/대학 혼합 검색)
     {
-        "slug": "top-budget-dormitory-schools",
-        "title": "Top 5 Budget-Friendly Schools with Dormitories",
-        "criteria": {"category": "school", "tag": "dormitory"},
-        "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=500"
-    },
-    {
-        "slug": "best-business-japanese-osaka",
-        "title": "Best Schools in Osaka for Employment & Business Japanese",
-        "criteria": {"category": "school", "tag": "business", "region": "大阪府"},
+        "slug": "best-schools-for-design-arts",
+        "title": "Best 4 Schools for Animation, Manga, and Design",
+        "criteria": {
+            "category": "school", # 혹은 university로 변경 가능
+            "tag": "Design"       # 특징에 Design, Art, Manga 등이 포함된 학교
+        },
         "count": 4,
-        "thumbnail": "https://images.unsplash.com/photo-1590552515252-3a5a1bce712d?w=500"
+        "thumbnail": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=500" # 만화/애니메이션 관련 이미지
     }
 ]
 

@@ -13,7 +13,7 @@ model = setup_gemini()
 INPUT_CSV = os.path.join(DATA_DIR, "guide_topics.csv")
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt")
-LIMIT = 5
+LIMIT = 6
 
 # 썸네일 설정은 기존과 동일
 THUMBNAILS = {

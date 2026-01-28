@@ -10,7 +10,7 @@ from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, C
 setup_logging("univ_gen.log")
 model = setup_gemini()
 
-LIMIT = 5
+LIMIT = 6
 INPUT_CSV = os.path.join(DATA_DIR, "univ_list_100.csv")
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "univ_processed_history.txt")
