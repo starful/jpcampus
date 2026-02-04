@@ -304,3 +304,7 @@ async def about(request: Request): return templates.TemplateResponse("about.html
 async def contact(request: Request): return templates.TemplateResponse("contact.html", {"request": request})
 @app.get("/policy", response_class=HTMLResponse)
 async def policy(request: Request): return templates.TemplateResponse("policy.html", {"request": request})
+@app.get("/favicon.ico", include_in_schema=False)
+async def favicon():
+    # static/img 폴더에 있는 logo.png를 favicon으로 반환
+    return FileResponse(os.path.join(STATIC_DIR, "img", "logo.png"))
