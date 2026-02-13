@@ -19,3 +19,17 @@ career-path
 sim-card-guide
 remittance
 bicycle-rules
+conbini-hacks
+eju-subjects
+jlpt-levels
+temp-jobs
+medical-guide
+ward-office
+trash-sorting
+job-hunting
+resume-jp
+interview-etiquette
+tokyo-neighborhoods
+osaka-neighborhoods
+hokkaido-fukuoka
+yucho-bank-deepdive

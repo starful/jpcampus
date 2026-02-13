@@ -4,13 +4,16 @@ import os
 import time
 import requests
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.generativeai.types import GenerationConfig
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
 
+# --- 설정 ---
 setup_logging("univ_gen.log")
 model = setup_gemini()
 
-LIMIT = 6
+LIMIT = 50
+MAX_WORKERS = 5  # 동시에 처리할 개수 (Gemini 유료 계정은 10~20, 무료는 2~5 권장)
 INPUT_CSV = os.path.join(DATA_DIR, "univ_list_100.csv")
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "univ_processed_history.txt")
@@ -30,9 +33,9 @@ def append_history(name):
 def get_google_coordinates(address):
     if not address: return {"lat": 35.6812, "lng": 139.7671}
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
-    params = {"address": address, "key": GOOGLE_MAPS_API_KEY, "language": "en"} # 주소 검색도 영어 선호
+    params = {"address": address, "key": GOOGLE_MAPS_API_KEY, "language": "en"}
     try:
-        res = requests.get(base_url, params=params)
+        res = requests.get(base_url, params=params, timeout=5) # 타임아웃 설정
         data = res.json()
         if data['status'] == 'OK':
             loc = data['results'][0]['geometry']['location']
@@ -41,9 +44,7 @@ def get_google_coordinates(address):
     return {"lat": 35.6812, "lng": 139.7671}
 
 def get_university_info(name_ja, name_en):
-    print(f"🏫 AI Analysis (Deep - English): {name_ja}")
-    
-    # [수정] 영어로 작성하도록 프롬프트 강력 지정
+    # 멀티스레딩 시 출력이 섞이지 않도록 간단하게 출력
     prompt = f"""
     You are an expert consultant for international students planning to study in Japan.
     Analyze the university "{name_ja}" ({name_en}) and write an in-depth, comprehensive guide in **ENGLISH**.
@@ -60,16 +61,16 @@ def get_university_info(name_ja, name_en):
             "capacity": null
         }},
         "stats": {{
-            "international_students": 123 (integer approx),
+            "international_students": 123,
             "acceptance_rate": "Estimated % string"
         }},
         "tuition": {{
-            "admission_fee": 123456 (integer yen),
-            "yearly_tuition": 123456 (integer yen)
+            "admission_fee": 123456,
+            "yearly_tuition": 123456
         }},
-        "faculties": ["List", "of", "faculties", "in", "English"],
-        "features": ["Key Feature 1", "Key Feature 2", "EJU Required", "English Program"],
-        "description": "## 🏫 University Overview\\nWrite a detailed introduction in English.\\n\\n## 🎓 Faculties & Departments\\nDescribe faculties in English.\\n\\n## 🌍 International Student Support\\nScholarships, dorms, support in English.\\n\\n## 💰 Tuition & Fees\\nFinancial details in English."
+        "faculties": ["List", "of", "faculties"],
+        "features": ["Key Feature 1", "Key Feature 2"],
+        "description": "## 🏫 University Overview\\n...long text..."
     }}
     """
     for i in range(3):
@@ -79,24 +80,32 @@ def get_university_info(name_ja, name_en):
             )
             return json.loads(clean_json_response(res.text))
         except Exception as e:
-            print(f"   ⚠️ Retry ({i+1}/3)... {e}")
-            time.sleep(5)
+            # 429 Error (Rate Limit) 발생 시 대기 후 재시도
+            if "429" in str(e):
+                time.sleep(10 * (i + 1))
+            else:
+                time.sleep(2)
     return None
 
-def save_to_md(data):
+def process_university(univ):
+    """한 대학교를 처리하는 독립적인 작업 단위"""
+    name_ja = univ['name_ja']
+    name_en = univ['name_en']
+    
+    data = get_university_info(name_ja, name_en)
+    if not data:
+        return f"❌ Failed: {name_ja}"
+
     addr = data['basic_info'].get('address')
     coords = get_google_coordinates(addr)
     
-    # 슬러그 생성 로직
-    raw_slug = data.get('english_slug', data['basic_info']['name_en'].replace(" ", "-").lower())
+    raw_slug = data.get('english_slug', name_en.replace(" ", "-").lower())
     slug = f"univ_{raw_slug}" if not raw_slug.startswith("univ_") else raw_slug
     
-    filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
-
     frontmatter_data = {
         "layout": "school", 
         "id": slug, 
-        "title": data['basic_info']['name_en'], # 제목도 영어로
+        "title": data['basic_info']['name_en'],
         "category": "university",
         "tags": data.get('features', []), 
         "thumbnail": "/static/img/pin-univ.png", 
@@ -108,13 +117,15 @@ def save_to_md(data):
         "features": data.get('features', [])
     }
 
+    filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write("---\n")
         f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
         f.write("\n---\n\n")
-        # [수정] description 키 사용
         f.write(data.get('description', 'No content available.'))
-    return f"{slug}.md"
+    
+    append_history(name_ja)
+    return f"✅ Saved: {slug}.md"
 
 def main():
     if not os.path.exists(INPUT_CSV):
@@ -129,18 +140,22 @@ def main():
             if row['name_ja'] not in processed_list:
                 univ_list.append(row)
             
-    print(f"🚀 Total Universities: {len(univ_list)} | Processed: {len(processed_list)} | Target: {LIMIT}")
+    univ_list = univ_list[:LIMIT] # 처리할 개수 제한
+    print(f"🚀 Total Universities to process: {len(univ_list)} | Workers: {MAX_WORKERS}")
 
-    count = 0
-    for univ in tqdm(univ_list):
-        if LIMIT > 0 and count >= LIMIT: break
-        data = get_university_info(univ['name_ja'], univ['name_en'])
-        if data:
-            filename = save_to_md(data)
-            append_history(univ['name_ja'])
-            print(f"   ✅ Saved: {filename}")
-            count += 1
-            time.sleep(3)
+    # --- 멀티스레딩 처리 부분 ---
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        # 작업 등록
+        future_to_univ = {executor.submit(process_university, univ): univ for univ in univ_list}
+        
+        # tqdm으로 진행률 표시
+        for future in tqdm(as_completed(future_to_univ), total=len(univ_list)):
+            univ = future_to_univ[future]
+            try:
+                result = future.result()
+                # print(result) # 필요시 결과 출력
+            except Exception as e:
+                print(f"⚠️ {univ['name_ja']} generated an exception: {e}")
 
 if __name__ == "__main__":
     main()

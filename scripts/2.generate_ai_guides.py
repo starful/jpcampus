@@ -4,6 +4,8 @@ import json
 import time
 import logging
 import glob
+from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
 
 # --- 설정 ---
@@ -13,9 +15,10 @@ model = setup_gemini()
 INPUT_CSV = os.path.join(DATA_DIR, "guide_topics.csv")
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt")
-LIMIT = 6
 
-# 썸네일 설정은 기존과 동일
+LIMIT = 12        # 한 번 실행 시 생성할 최대 개수
+MAX_WORKERS = 3    # 동시에 작성할 가이드 수 (긴 텍스트 생성이므로 2~4 권장)
+
 THUMBNAILS = {
     "Cost": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
     "Budget": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
@@ -37,6 +40,7 @@ def load_history():
         return set(line.strip() for line in f)
 
 def append_history(slug):
+    # 멀티스레드 환경에서 파일 쓰기 시 안전을 위해 간단한 에러 방지
     with open(HISTORY_FILE, "a", encoding="utf-8") as f:
         f.write(f"{slug}\n")
 
@@ -47,9 +51,7 @@ def get_thumbnail(category):
     return THUMBNAILS["default"]
 
 def generate_content(row):
-    print(f"🤖 Generating AI Content (English): {row['title']}...")
-    
-    # [수정] 영어 콘텐츠 생성 프롬프트
+    # 긴 문장 생성이므로 타임아웃 및 재시도 로직 강화
     prompt = f"""
     You are an expert author who writes comprehensive guides for international students preparing to study in Japan.
     Write a long-form, detailed blog post in **ENGLISH** based on the topic below.
@@ -70,12 +72,47 @@ def generate_content(row):
     - Maintain a friendly, encouraging, and professional tone in English.
     - Generate ONLY the Markdown body content (do not include frontmatter).
     """
-    try:
-        response = model.generate_content(prompt)
-        return clean_json_response(response.text)
-    except Exception as e:
-        print(f"❌ Error generating {row['slug']}: {e}")
-        return None
+    for i in range(3):
+        try:
+            response = model.generate_content(prompt)
+            return clean_json_response(response.text)
+        except Exception as e:
+            if "429" in str(e): # 할당량 초과 시 대기
+                time.sleep(15 * (i + 1))
+            else:
+                time.sleep(5)
+    return None
+
+def process_topic(row):
+    """한 개의 주제를 생성하고 파일로 저장하는 단위 작업"""
+    slug = row['slug']
+    filename = f"guide_{slug}.md"
+    filepath = os.path.join(OUTPUT_DIR, filename)
+
+    content_body = generate_content(row)
+    
+    if content_body:
+        thumbnail_url = get_thumbnail(row['category'])
+        frontmatter_data = {
+            "layout": "guide", 
+            "id": slug, 
+            "title": row['title'],
+            "category": row['category'], 
+            "tags": [row['category']],
+            "description": row['description'], 
+            "thumbnail": thumbnail_url,
+            "date": time.strftime("%Y-%m-%d")
+        }
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write("---\n")
+            f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
+            f.write("\n---\n\n")
+            f.write(content_body)
+        
+        append_history(slug)
+        return f"✅ Success: {filename}"
+    else:
+        return f"❌ Failed: {slug}"
 
 def main():
     if not os.path.exists(INPUT_CSV):
@@ -89,41 +126,25 @@ def main():
 
     processed_slugs = load_history()
     topics_to_process = [row for row in all_topics if row['slug'] not in processed_slugs]
+    topics_to_process = topics_to_process[:LIMIT]
     
     print(f"🚀 Total: {len(all_topics)} | Processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
-    
-    count = 0
-    for row in topics_to_process:
-        if LIMIT > 0 and count >= LIMIT: break
+    print(f"⚡ Running with {MAX_WORKERS} workers...")
 
-        slug = row['slug']
-        filename = f"guide_{slug}.md"
-        filepath = os.path.join(OUTPUT_DIR, filename)
-
-        content_body = generate_content(row)
+    # --- 멀티스레딩 적용 ---
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_to_topic = {executor.submit(process_topic, row): row for row in topics_to_process}
         
-        if content_body:
-            thumbnail_url = get_thumbnail(row['category'])
-            frontmatter_data = {
-                "layout": "guide", 
-                "id": slug, 
-                "title": row['title'], # CSV의 영문 제목 사용
-                "category": row['category'], 
-                "tags": [row['category']],
-                "description": row['description'], 
-                "thumbnail": thumbnail_url,
-                "date": time.strftime("%Y-%m-%d")
-            }
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write("---\n")
-                f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
-                f.write("\n---\n\n")
-                f.write(content_body)
-            append_history(slug)
-            print(f"✅ Saved: {filename}")
-            logging.info(f"Generated: {filename}")
-            count += 1
-            time.sleep(3)
+        for future in tqdm(as_completed(future_to_topic), total=len(topics_to_process)):
+            row = future_to_topic[future]
+            try:
+                result = future.result()
+                # 로깅 시스템 활용
+                logging.info(result)
+            except Exception as e:
+                logging.error(f"Error in {row['slug']}: {e}")
+
+    print("\n🎉 Generation finished.")
 
 if __name__ == "__main__":
     main()
