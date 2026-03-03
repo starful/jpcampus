@@ -33,3 +33,15 @@ tokyo-neighborhoods
 osaka-neighborhoods
 hokkaido-fukuoka
 yucho-bank-deepdive
+pension-exemption
+my-number-card
+apartment-initial-costs
+internet-setup
+utilities-setup
+furniture-sourcing
+train-pass
+shinkansen-deals
+100-yen-stores
+academic-calendar
+supermarket-discounts
+golden-week
