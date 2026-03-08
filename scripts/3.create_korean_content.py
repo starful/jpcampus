@@ -21,7 +21,7 @@ if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY is missing in .env")
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash')
+model = genai.GenerativeModel('gemini-flash-latest')
 
 def clean_json_response(text):
     text = text.replace("```json", "").replace("```", "").strip()
