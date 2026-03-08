@@ -53,5 +53,85 @@
 
     {# 본문 내용 #}
     <div class="detail-content">{{ content_body | safe }}</div>
+
+    {# [신규] 좋아요/싫어요 컨테이너 #}
+    <div class="reaction-container">
+        <button id="btn-like" class="reaction-btn" onclick="toggleReaction('like')">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <span id="count-like">0</span>
+        </button>
+        <button id="btn-dislike" class="reaction-btn" onclick="toggleReaction('dislike')">
+            <i class="fa-solid fa-thumbs-down"></i>
+            <span id="count-dislike">0</span>
+        </button>
+    </div>
+
 </main>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const itemSlug = "{{ item.get('id') }}"; // 현재 페이지의 slug
+
+    // 페이지 로드 시 초기 데이터 가져오기
+    document.addEventListener("DOMContentLoaded", async () => {
+        try {
+            const res = await fetch(`/api/reactions/${itemSlug}`);
+            const data = await res.json();
+            
+            document.getElementById("count-like").innerText = data.likes || 0;
+            document.getElementById("count-dislike").innerText = data.dislikes || 0;
+
+            // 로컬 스토리지를 확인하여 이전에 내가 누른 버튼 상태 복원 (UX 개선)
+            const myReaction = localStorage.getItem(`reaction_${itemSlug}`);
+            if (myReaction === 'like') {
+                document.getElementById("btn-like").classList.add("active-like");
+            } else if (myReaction === 'dislike') {
+                document.getElementById("btn-dislike").classList.add("active-dislike");
+            }
+        } catch (error) {
+            console.error("Failed to load reactions:", error);
+        }
+    });
+
+    // 버튼 클릭 시 처리
+    async function toggleReaction(type) {
+        // 더블 클릭 방지 시각적 피드백
+        const btnLike = document.getElementById("btn-like");
+        const btnDislike = document.getElementById("btn-dislike");
+        btnLike.style.pointerEvents = 'none';
+        btnDislike.style.pointerEvents = 'none';
+
+        try {
+            const res = await fetch(`/api/${type}/${itemSlug}`, { method: 'POST' });
+            const data = await res.json();
+
+            if (data.status === "success") {
+                // 숫자 업데이트
+                document.getElementById("count-like").innerText = data.likes;
+                document.getElementById("count-dislike").innerText = data.dislikes;
+
+                // UI 클래스 및 로컬 스토리지 초기화
+                btnLike.classList.remove("active-like");
+                btnDislike.classList.remove("active-dislike");
+                localStorage.removeItem(`reaction_${itemSlug}`);
+
+                // Action이 추가(또는 변경)된 경우 클래스와 로컬스토리지 재설정
+                if (data.current_type === "like") {
+                    btnLike.classList.add("active-like");
+                    localStorage.setItem(`reaction_${itemSlug}`, "like");
+                } else if (data.current_type === "dislike") {
+                    btnDislike.classList.add("active-dislike");
+                    localStorage.setItem(`reaction_${itemSlug}`, "dislike");
+                }
+            }
+        } catch (error) {
+            console.error("Failed to post reaction:", error);
+        } finally {
+            // 클릭 잠금 해제
+            btnLike.style.pointerEvents = 'auto';
+            btnDislike.style.pointerEvents = 'auto';
+        }
+    }
+</script>
 {% endblock %}

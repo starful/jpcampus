@@ -21,7 +21,7 @@ body { margin: 0; padding: 0; font-family: 'Inter', sans-serif; background-color
 a { text-decoration: none; color: inherit; }
 button { cursor: pointer; border: none; background: none; font-family: inherit; }
 
-/* --- [3] 헤더 및 네비게이션 (디자인 수정) --- */
+/* --- [3] 헤더 및 네비게이션 --- */
 .fixed-top-area {
     position: fixed;
     top: 0;
@@ -56,11 +56,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .search-input { width: 100%; border: none; background: transparent; outline: none; font-size: 0.95rem; }
 
-/* --- [4] [수정] 필터 컨트롤 및 드롭다운 스타일 --- */
+/* --- [4] 필터 컨트롤 및 드롭다운 스타일 --- */
 .filter-controls {
     display: flex;
     align-items: center;
-    /* gap 제거 (버튼이 하나만 남으므로) */
 }
 
 .tag-filter-btn {
@@ -68,18 +67,18 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     align-items: center;
     gap: 8px;
     height: 48px;
-    padding: 0 24px; /* 내부 여백을 넉넉하게 조정 */
+    padding: 0 24px; 
     border-radius: 999px;
     background: white;
     border: 1px solid var(--border);
-    font-size: 0.95rem; /* 폰트 크기 약간 키움 */
+    font-size: 0.95rem; 
     font-weight: 600;
     color: var(--text-dark);
     transition: all 0.2s;
     box-shadow: var(--shadow-md);
     white-space: nowrap;
     cursor: pointer;
-    width: auto; /* [중요] 너비 자동 조정 (글자가 안 잘리게 함) */
+    width: auto; 
 }
 
 .tag-filter-btn:hover { 
@@ -87,37 +86,33 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
 
-/* 활성화 상태 스타일 */
 .tag-filter-btn.active { 
     background: var(--text-dark); 
     color: white; 
     border-color: var(--text-dark); 
 }
 
-/* [삭제됨] .tag-filter-btn:first-child 관련 원형 스타일 삭제 */
-
 .filter-dropdown { position: relative; }
 
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: calc(100% + 12px); /* 간격 약간 띄움 */
-    left: 0; /* 왼쪽 정렬 */
+    top: calc(100% + 12px);
+    left: 0; 
     background: var(--white);
-    border-radius: 16px; /* 둥글게 */
-    box-shadow: 0 10px 40px rgba(0,0,0,0.12); /* 그림자 더 진하게 */
+    border-radius: 16px; 
+    box-shadow: 0 10px 40px rgba(0,0,0,0.12); 
     border: 1px solid var(--border);
-    width: 260px; /* 너비 고정 */
+    width: 260px; 
     z-index: 1100;
     padding: 8px;
     overflow: hidden;
 }
 
-/* 드롭다운이 오른쪽 화면을 넘어갈 경우를 대비해 모바일에서는 위치 조정 */
 @media (max-width: 768px) {
     .dropdown-menu {
         left: auto;
-        right: 0; /* 모바일에서는 오른쪽 기준 정렬 */
+        right: 0; 
     }
 }
 
@@ -136,7 +131,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .dropdown-item:hover { background-color: var(--bg-light); }
 
-/* 아이콘 정렬 */
 .dropdown-item .tag-icon { 
     margin-right: 12px; 
     font-size: 1.1rem; 
@@ -157,7 +151,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     font-weight: 600;
 }
 
-/* --- [5] 이후 모든 스타일은 정상 레이아웃 유지를 위해 복구 --- */
+/* --- [5] 이후 레이아웃 스타일 --- */
 .map-section, .detail-container, .content-wrapper { margin-top: var(--header-height); }
 .map-section { width: 100%; height: 500px; background-color: #e5e7eb; }
 #map { width: 100%; height: 100%; }
@@ -204,7 +198,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* --- [10] 반응형 (모바일 중앙 정렬 최적화) --- */
 @media (max-width: 1024px) {
-    /* 태블릿: 기존 로직 유지 (필요시 수정 가능) */
     .main-header { flex-wrap: wrap; height: auto; padding: 15px; }
     .search-area { width: 100%; order: 3; margin-top: 10px; max-width: none; }
     .logo { order: 1; }
@@ -213,96 +206,61 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 @media (max-width: 768px) {
-    /* [수정] 모바일 헤더: 세로 스택 & 중앙 정렬 구조로 변경 */
     .main-header {
-        flex-direction: column; /* 세로로 배치 */
-        align-items: center;    /* 가로 중앙 정렬 */
+        flex-direction: column; 
+        align-items: center;    
         justify-content: center;
-        padding: 20px 24px;     /* 패딩 조정 */
-        gap: 12px;              /* 요소 간 간격 */
+        padding: 20px 24px;     
+        gap: 12px;              
         height: auto;
     }
-
-    /* 1. 로고 중앙 정렬 */
     .logo {
         order: 1;
         width: 100%;
         display: flex;
-        justify-content: center; /* 로고 이미지 가운데로 */
+        justify-content: center; 
         margin-bottom: 5px;
     }
-    .logo-img { 
-        height: 48px; /* 로고 크기 유지 */
-    }
-
-    /* 2. 필터 버튼 중앙 정렬 */
-    .filter-controls {
-        order: 2;
-        width: 100%;
-        justify-content: center; /* 버튼 가운데로 */
-        flex-grow: 0;
-    }
-
-    /* 3. 검색창 중앙 정렬 */
-    .search-area {
-        order: 3;
-        width: 100%;
-        margin-top: 0;
-        max-width: none;
-    }
-
-    /* 4. 헤더가 높아진 만큼 본문 상단 여백 확보 */
-    /* 로고+필터+검색창 높이를 고려해 약 200px 정도로 조정 */
-    .map-section, .detail-container, .content-wrapper {
-        margin-top: 210px; 
-    }
-
-    /* 기타 모바일 스타일 */
+    .logo-img { height: 48px; }
+    .filter-controls { order: 2; width: 100%; justify-content: center; flex-grow: 0; }
+    .search-area { order: 3; width: 100%; margin-top: 0; max-width: none; }
+    .map-section, .detail-container, .content-wrapper { margin-top: 210px; }
     .detail-container, .list-container { padding-left: 16px; padding-right: 16px; }
-    .section-title { font-size: 1.4rem; text-align: center; } /* 제목도 중앙 정렬 */
-    .section-header { justify-content: center; flex-direction: column; gap: 10px; } /* 섹션 헤더도 중앙 정렬 */
+    .section-title { font-size: 1.4rem; text-align: center; } 
+    .section-header { justify-content: center; flex-direction: column; gap: 10px; } 
     .detail-title, .list-title { font-size: 2rem; text-align: center; }
     .card-grid, .info-grid { grid-template-columns: 1fr; }
 }
+
 /* --- [11] 상세/리스트 페이지 전용 심플 헤더 스타일 --- */
-/* 모바일용 복잡한 설정(세로 배치 등)을 무시하고 강제로 중앙 정렬 */
 .main-header.simple-header {
     display: flex !important;
-    flex-direction: row !important;     /* 가로 배치 강제 */
-    justify-content: center !important; /* 가로 중앙 정렬 강제 */
-    align-items: center !important;     /* 세로 중앙 정렬 강제 */
-    height: 80px !important;            /* 높이 고정 */
-    padding: 0 24px !important;         /* 패딩 초기화 */
+    flex-direction: row !important;     
+    justify-content: center !important; 
+    align-items: center !important;     
+    height: 80px !important;            
+    padding: 0 24px !important;         
     gap: 0 !important;
 }
 
-/* 로고 컨테이너 설정 */
 .main-header.simple-header .logo {
-    width: auto !important;             /* 너비 자동 (100% 방지) */
-    margin: 0 !important;               /* 마진 제거 */
-    order: 0 !important;                /* 순서 초기화 */
+    width: auto !important;             
+    margin: 0 !important;               
+    order: 0 !important;                
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* 본문 여백 조정 (심플 헤더일 때는 상단 여백을 줄임) */
 @media (max-width: 768px) {
-    /* 심플 헤더가 있는 페이지의 본문 상단 여백 재조정 */
-    /* (메인 페이지는 210px이지만, 여기는 헤더가 얇으므로 100px 정도면 충분) */
     .simple-header ~ .content-wrapper,
     .simple-header ~ .detail-container, 
     .simple-header ~ .list-container {
         margin-top: 100px !important;
     }
-    
-    /* 심플 헤더 사용 시 wrapper(fixed-top-area) 바로 다음 형제 요소들에 적용하기 위해 
-       HTML 구조상 조금 까다로울 수 있으므로, 
-       main 태그에 직접 스타일을 주는 방식이 더 안전할 수 있습니다. 
-       (아래 HTML 수정에서 main 태그 스타일을 직접 조정합니다) */
 }
 
-/* [12] [신규] 지도 커스텀 마커 스타일 */
+/* --- [12] 지도 커스텀 마커 스타일 --- */
 .map-marker {
     display: flex;
     align-items: center;
@@ -310,9 +268,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     width: 40px;
     height: 40px;
     background-color: white;
-    border-radius: 50%; /* 원형 */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
-    border: 2px solid white; /* 흰색 테두리 */
+    border-radius: 50%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    border: 2px solid white; 
     font-size: 1.1rem;
     color: white;
     cursor: pointer;
@@ -320,7 +278,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     position: relative;
 }
 
-/* 마커 아래쪽 뾰족한 부분 (말풍선 꼬리 형태) */
 .map-marker::after {
     content: '';
     position: absolute;
@@ -329,28 +286,82 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     transform: translateX(-50%);
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 8px solid; /* 색상은 JS에서 상속받지 못하므로 아래에서 개별 지정하거나, currentColor 사용 가능 */
+    border-top: 8px solid; 
 }
 
-/* 대학 마커 (주황색) */
-.map-marker.marker-univ {
-    background-color: var(--accent);
-}
-.map-marker.marker-univ::after {
-    border-top-color: var(--accent);
+.map-marker.marker-univ { background-color: var(--accent); }
+.map-marker.marker-univ::after { border-top-color: var(--accent); }
+.map-marker.marker-school { background-color: var(--primary); }
+.map-marker.marker-school::after { border-top-color: var(--primary); }
+
+.map-marker:hover {
+    transform: scale(1.1) translateY(-4px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
 }
 
-/* 어학원 마커 (파란색) */
-.map-marker.marker-school {
-    background-color: var(--primary);
+/* --- [13] [신규] 리액션 (좋아요/싫어요) 스타일 --- */
+.reaction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid var(--border);
 }
-.map-marker.marker-school::after {
-    border-top-color: var(--primary);
+
+.reaction-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 28px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background-color: var(--white);
+    color: var(--text-gray);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.reaction-btn i {
+    font-size: 1.25rem;
+    transition: transform 0.2s ease;
 }
 
 /* 마우스 오버 효과 */
-.map-marker:hover {
-    transform: scale(1.1) translateY(-4px); /* 살짝 커지면서 위로 떠오름 */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
+.reaction-btn:hover {
+    background-color: var(--bg-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.reaction-btn:hover i {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+/* 활성화(클릭됨) 상태: 좋아요 */
+.reaction-btn.active-like {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+}
+
+.reaction-btn.active-like:hover {
+    background-color: #1d4ed8; 
+}
+
+/* 활성화(클릭됨) 상태: 싫어요 */
+.reaction-btn.active-dislike {
+    background-color: #f43f5e; 
+    color: var(--white);
+    border-color: #f43f5e;
+}
+
+.reaction-btn.active-dislike:hover {
+    background-color: #e11d48; 
 }
