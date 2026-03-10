@@ -17,41 +17,76 @@ SCHOOLS_JSON = os.path.join(os.path.dirname(DATA_DIR), "app", "static", "json", 
 # 원하는 주제를 여기에 계속 추가하면 AI가 알아서 글을 씁니다.
 # [새로운 TOPICS 목록]
 TOPICS = [
-    # 1. [취업/비즈니스] 도쿄에서 취업하기 가장 좋은 학교
+    # 1.[대학 진학/EJU] 명문대 진학을 위한 EJU 대비 최우수 학교
     {
-        "slug": "best-business-schools-tokyo",
-        "title": "Top 5 Schools in Tokyo for Finding a Job in Japan",
+        "slug": "top-eju-prep-schools",
+        "title": "Top 5 Schools for EJU and University Preparation in Japan",
         "criteria": {
             "category": "school", 
-            "tag": "business",  # 비즈니스/취업 태그
-            "region": "東京都"   # 도쿄 지역
+            "tag": "eju"  # features에 EJU가 포함된 학교
         },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500" # 오피스 빌딩 이미지
+        "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500" # 대학 캠퍼스/학업 이미지
     },
 
-    # 2. [지역/문화] 교토: 일본의 전통 속에서 공부하기
+    # 2. [단기 연수/회화] 회화와 일본 문화 체험에 집중하기 좋은 학교
     {
-        "slug": "study-in-kyoto-top-picks",
-        "title": "Study in Kyoto: Top 3 Schools in Japan's Cultural Capital",
+        "slug": "best-short-term-conversation-schools",
+        "title": "Best 4 Schools for Short-Term Study and Conversational Japanese",
         "criteria": {
             "category": "school", 
-            "region": "京都" # 교토 지역 (주소에 '京都' 포함)
-        },
-        "count": 3,
-        "thumbnail": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500" # 교토 거리 이미지
-    },
-
-    # 3. [전공/특기] 애니메이션 & 디자인 유학 추천 (학교/대학 혼합 검색)
-    {
-        "slug": "best-schools-for-design-arts",
-        "title": "Best 4 Schools for Animation, Manga, and Design",
-        "criteria": {
-            "category": "school", # 혹은 university로 변경 가능
-            "tag": "Design"       # 특징에 Design, Art, Manga 등이 포함된 학교
+            "tag": "conversation" # features에 conversation 포함
         },
         "count": 4,
-        "thumbnail": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=500" # 만화/애니메이션 관련 이미지
+        "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500" # 일본 전통/문화 이미지
+    },
+
+    # 3.[비용 절감/가성비] 물가가 저렴하고 살기 좋은 오사카 지역 학교
+    {
+        "slug": "affordable-schools-in-osaka",
+        "title": "Study in Kansai: Top 4 Language Schools in Osaka",
+        "criteria": {
+            "category": "school", 
+            "region": "大阪府" # 오사카 주소 포함
+        },
+        "count": 4,
+        "thumbnail": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=500" # 오사카 도톤보리 이미지
+    },
+
+    # 4. [주거/안정성] 도착하자마자 입주 가능한 기숙사 완비 학교
+    {
+        "slug": "best-schools-with-dormitories",
+        "title": "Stress-Free Relocation: Top 5 Schools with Guaranteed Dormitories",
+        "criteria": {
+            "category": "school", 
+            "tag": "dormitory" # features에 기숙사 관련 키워드 포함
+        },
+        "count": 5,
+        "thumbnail": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=500" # 깔끔한 방/숙소 이미지
+    },
+
+    # 5. [지역/자연] 도쿄를 벗어나 여유롭게 공부하는 후쿠오카 & 홋카이도
+    {
+        "slug": "study-in-regional-japan",
+        "title": "Escape the Crowds: Top 4 Schools in Fukuoka and Hokkaido",
+        "criteria": {
+            "category": "school", 
+            "tag": "short-term" # 단기 연수나 지역 특색을 살린 학교들 위주로 필터링
+        },
+        "count": 4,
+        "thumbnail": "https://images.unsplash.com/photo-1610312278520-bcc893a3ff1d?w=500" # 자연, 일본의 평화로운 풍경
+    },
+
+    # 6.[대학교/영어 트랙] 일본어를 몰라도 입학할 수 있는 글로벌 영어 프로그램 대학
+    {
+        "slug": "english-taught-universities-japan",
+        "title": "No Japanese Needed: Top 5 Universities with English Degree Programs",
+        "criteria": {
+            "category": "university", 
+            "tag": "english" # 대학 데이터 중 영어 프로그램(SGU) 제공 학교
+        },
+        "count": 5,
+        "thumbnail": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500" # 글로벌 대학교 이미지
     }
 ]
 
