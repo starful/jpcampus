@@ -40,16 +40,11 @@
         <a href="/schools?lang={{ current_lang }}" class="view-all">{{ ui.view_all_schools }}</a>
     </div>
     <div class="card-grid">
-        {% set school_imgs = [
-            'https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=500', 
-            'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=500', 
-            'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500',
-            'https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?w=500',
-            'https://images.unsplash.com/photo-1577985051167-0d49eec21977?w=500'
-        ] %}
+        {% set school_imgs = [ '...', '...' ] %}
         {% for item in latest_schools %}
         <a href="{{ item.link }}" class="card">
-            <div class="card-img" style="background-image: url('{{ school_imgs[loop.index0 % school_imgs|length] }}');">
+            <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
+            <div class="card-img" style="background-image: url('{{ item.thumbnail }}');">
                 <span class="card-badge" style="color: var(--primary);">{{ ui.school_badge }}</span>
             </div>
             <div class="card-body">
@@ -80,16 +75,11 @@
         <a href="/universities?lang={{ current_lang }}" class="view-all">{{ ui.view_all_univs }}</a>
     </div>
     <div class="card-grid">
-        {% set univ_imgs = [
-            'https://images.unsplash.com/photo-1562774053-701939374585?w=500',
-            'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500',
-            'https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=500',
-            'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500',
-            'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500'
-        ] %}
+        {% set univ_imgs = [ '...', '...' ] %}
         {% for item in latest_universities %}
         <a href="{{ item.link }}" class="card">
-            <div class="card-img" style="background-image: url('{{ univ_imgs[loop.index0 % univ_imgs|length] }}');">
+            <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
+            <div class="card-img" style="background-image: url('{{ item.thumbnail }}');">
                 <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
             </div>
             <div class="card-body">
