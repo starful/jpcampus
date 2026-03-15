@@ -455,6 +455,7 @@ async def read_root(request: Request, lang: str = Query("en")):
         "schools_json": json.dumps({"schools": schools_data}, ensure_ascii=False),
         "maps_api_key": GOOGLE_MAPS_API_KEY, 
         "updated_at": updated_at,
+        "total_schools": len(schools_data), # <--- [신규] 이 줄을 추가해 주세요!
         "featured_guides": featured_guides, 
         "latest_schools": latest_schools, 
         "latest_universities": latest_universities, 

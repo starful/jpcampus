@@ -11,6 +11,32 @@
 <!-- 2. 카드 콘텐츠 섹션 -->
 <div class="content-wrapper">
 
+    <!-- [신규] 통계 배지 배너 (Stats Banner) -->
+    <div class="stats-banner">
+        <div class="stat-pill">
+            <i class="fa-solid fa-building-columns"></i>
+            <span>
+                <strong class="stat-highlight">{{ total_schools }}</strong> 
+                {{ 'Schools Listed' if current_lang == 'en' else '개 학교 등록됨' }}
+            </span>
+        </div>
+        <div class="stat-pill">
+            <i class="fa-regular fa-calendar-check"></i>
+            <span>
+                {{ 'Last Updated:' if current_lang == 'en' else '최근 업데이트:' }} 
+                <strong class="stat-highlight" style="margin-left:4px;">{{ updated_at }}</strong>
+            </span>
+        </div>
+        <div class="stat-pill highlight-pill">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <span>
+                <strong class="stat-highlight">
+                    {{ 'Updating Weekly' if current_lang == 'en' else '매주 업데이트 중' }}
+                </strong>
+            </span>
+        </div>
+    </div>
+
     <!-- [수정] Featured Collections (최상단 배치) -->
     <div class="section-header" style="margin-bottom: 20px;">
         <h2 class="section-title" style="color: var(--accent); display: flex; align-items: center; gap: 10px;">
