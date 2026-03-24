@@ -12,7 +12,7 @@ from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, C
 setup_logging("univ_gen.log")
 model = setup_gemini()
 
-LIMIT = 50
+LIMIT = 20
 MAX_WORKERS = 5  # 동시에 처리할 개수 (Gemini 유료 계정은 10~20, 무료는 2~5 권장)
 INPUT_CSV = os.path.join(DATA_DIR, "univ_list_100.csv")
 OUTPUT_DIR = CONTENT_DIR
