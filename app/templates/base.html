@@ -42,7 +42,6 @@
         </div>
 
         <nav class="filter-controls">
-            <!-- 통합된 드롭다운 필터 -->
             <div class="filter-dropdown">
                 <button class="tag-filter-btn dropdown-trigger active">
                     <i class="fa-solid fa-layer-group"></i> 
@@ -50,13 +49,11 @@
                 </button>
 
                 <div class="dropdown-menu">
-                    <!-- 1. [All] 항목 -->
                     <a href="#" class="dropdown-item" data-filter-key="all" data-icon='<i class="fa-solid fa-layer-group"></i>' data-name="{{ ui.all_schools }}">
                         <span class="tag-icon"><i class="fa-solid fa-layer-group"></i></span>
                         <span class="tag-name">{{ ui.all_schools }}</span>
                     </a>
                     
-                    <!-- 2. 나머지 태그 목록 -->
                     {% if tags_with_counts %}
                     {% for tag in tags_with_counts %}
                         <a href="#" class="dropdown-item" data-filter-key="{{ tag.key }}" data-icon='{{ tag.icon }}' data-name="{{ tag.name }}">
@@ -69,7 +66,6 @@
                 </div>
             </div>
 
-            <!-- 3. 언어 전환 버튼 -->
             <div class="lang-switcher" style="margin-left: 8px;">
                 {% if current_lang == 'kr' %}
                     <a href="?lang=en" class="tag-filter-btn" style="padding: 0 12px; width: auto; font-weight: 800;">🇺🇸 EN</a>
@@ -87,8 +83,32 @@
 </main>
 
 <footer class="main-footer">
+    <!-- [신규 추가] 패밀리 사이트 배너 섹션 -->
+    <div class="family-sites-container" style="margin-bottom: 50px; padding: 0 24px;">
+        <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700;">
+            {{ '일본 생활 더 알아보기' if current_lang == 'kr' else 'Explore More of Japan' }}
+        </p>
+        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+            <!-- OK Ramen 배너 -->
+            <a href="https://okramen.net/" target="_blank" rel="noopener" class="stat-pill" style="text-decoration: none; border-color: #334155; background-color: #1e293b; padding: 12px 24px; transition: all 0.3s ease;">
+                <span style="font-size: 1.2rem; margin-right: 8px;">🍜</span>
+                <div style="text-align: left;">
+                    <div style="font-size: 0.9rem; font-weight: 800; color: white;">OK Ramen</div>
+                    <div style="font-size: 0.7rem; color: #94a3b8;">{{ '일본 라멘 맛집 가이드' if current_lang == 'kr' else 'Japan Ramen Guide' }}</div>
+                </div>
+            </a>
+            <!-- OK Onsen 배너 -->
+            <a href="https://okonsen.net/" target="_blank" rel="noopener" class="stat-pill" style="text-decoration: none; border-color: #334155; background-color: #1e293b; padding: 12px 24px; transition: all 0.3s ease;">
+                <span style="font-size: 1.2rem; margin-right: 8px;">♨️</span>
+                <div style="text-align: left;">
+                    <div style="font-size: 0.9rem; font-weight: 800; color: white;">OK Onsen</div>
+                    <div style="font-size: 0.7rem; color: #94a3b8;">{{ '온천 & 료칸 완벽 가이드' if current_lang == 'kr' else 'Onsen & Ryokan Guide' }}</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
     <div class="footer-links">
-        {# 푸터 링크도 언어 설정을 유지하도록 ?lang= 파라미터 추가 #}
         <a href="/guide?lang={{ current_lang }}">{{ ui.essential_guides }}</a> 
         <a href="/about?lang={{ current_lang }}">About</a> 
         <a href="/policy?lang={{ current_lang }}">Privacy</a> 
@@ -101,6 +121,25 @@
 </footer>
 
 {% block scripts %}{% endblock %}
+
+<!-- 드롭다운 제어 스크립트 (기존 기능 유지) -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const dropdown = document.querySelector('.filter-dropdown');
+    const trigger = document.querySelector('.dropdown-trigger');
+    
+    if(trigger) {
+        trigger.addEventListener('click', function(e) {
+            e.stopPropagation();
+            dropdown.classList.toggle('is-open');
+        });
+    }
+
+    document.addEventListener('click', function() {
+        if(dropdown) dropdown.classList.remove('is-open');
+    });
+});
+</script>
 
 </body>
 </html>
