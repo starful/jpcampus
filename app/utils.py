@@ -79,17 +79,21 @@ UNIV_THUMBNAILS =[
     "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500", "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500",
     "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=500", "https://images.unsplash.com/photo-1562774053-701939374585?w=500",
     "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=500", "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=500",
-    "https://images.unsplash.com/photo-1541336318489-083c7d277b8e?w=500",
     "https://images.unsplash.com/photo-1584697964190-7383cbee8277?w=500", "https://images.unsplash.com/photo-1511629091441-ee46146481b6?w=500",
     "https://images.unsplash.com/photo-1573894998033-c0cef4ed722b?w=500", "https://images.unsplash.com/photo-1485893086445-ed75865251e0?w=500",
     "https://images.unsplash.com/photo-1568038479111-87bf80659645?w=500", "https://images.unsplash.com/photo-1542621334-a254cf47733d?w=500",
-    "https://images.unsplash.com/photo-1497634763913-2ea08bf9de5d?w=500", "https://images.unsplash.com/photo-1500088139251-37350df3c1ad?w=500",
-    "https://images.unsplash.com/photo-1547699326-3d895d9acd30?w=500", "https://images.unsplash.com/photo-1530785602389-07594beb8b73?w=500",
+    "https://images.unsplash.com/photo-1500088139251-37350df3c1ad?w=500",
+    "https://images.unsplash.com/photo-1547699326-3d895d9acd30?w=500", 
     "https://images.unsplash.com/photo-1612310480588-061aad90bb64?w=500",
-    "https://images.unsplash.com/photo-1596207891316-24e52f534cb3?w=500",
-    "https://images.unsplash.com/photo-1558223602-0e2ff17571db?w=500",
-    "https://images.unsplash.com/photo-1566374971846-5b4819c962b1?w=500",
-    "https://images.unsplash.com/photo-1590895315572-c51323ca7369?w=500"
+    "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=600", "https://images.unsplash.com/photo-1562774053-701939374585?w=600",
+    "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=600", "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600",
+    "https://images.unsplash.com/photo-1541336318489-083c7d277b8e?w=600", 
+    "https://images.unsplash.com/photo-1511629091441-ee46146481b6?w=600",
+    "https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?w=600", "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?w=600",
+    "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600",
+    "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=600",
+    "https://images.unsplash.com/photo-1527891751199-7225231a68dd?w=600"
+
 ]
 
 SCHOOL_THUMBNAILS =[
@@ -119,12 +123,12 @@ GUIDE_THUMBNAILS =[
     "https://images.unsplash.com/photo-1580167227251-be70f01b0c51?w=500", "https://images.unsplash.com/photo-1684526688489-b08cbd8e1848?w=500",
     "https://images.unsplash.com/photo-1603491543570-f7df3c9a12c1?w=500", "https://images.unsplash.com/photo-1563089145-599997674d42?w=500",
     "https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=500", "https://images.unsplash.com/photo-1560972550-aba3456b5564?w=500",
-    "https://images.unsplash.com/photo-1580477371971-91fc2a9a4899?w=500", "https://images.unsplash.com/photo-1548630435-998a2cbbff67?w=500",
+    "https://images.unsplash.com/photo-1548630435-998a2cbbff67?w=500",
     "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=500", "https://images.unsplash.com/photo-1558471250-385a4b04941e?w=500",
     "https://images.unsplash.com/photo-1526127230111-0197afe94d72?w=500", "https://images.unsplash.com/photo-1557409518-691ebcd96038?w=500",
     "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?w=500", "https://images.unsplash.com/photo-1551322120-c697cf88fbdc?w=500",
     "https://images.unsplash.com/photo-1573655349936-de6bed86f839?w=500", "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?w=500",
-    "https://images.unsplash.com/photo-1503899036084-c55cdd94dd10?w=500", "https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=500",
+    "https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=500",
     "https://images.unsplash.com/photo-1524413840847-05c04c1f964b?w=500", "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=500"
 ]
 # =========================================================================
