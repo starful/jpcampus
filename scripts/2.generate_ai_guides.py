@@ -77,8 +77,9 @@ def generate_content(row):
             response = model.generate_content(prompt)
             return clean_json_response(response.text)
         except Exception as e:
-            if "429" in str(e): # 할당량 초과 시 대기
-                time.sleep(15 * (i + 1))
+            print(f"⚠️ Error details: {e}") # 에러 내용을 직접 출력해서 확인
+            if "429" in str(e): 
+                time.sleep(30 * (i + 1)) # 대기 시간을 더 늘림 (30초, 60초...)
             else:
                 time.sleep(5)
     return None
