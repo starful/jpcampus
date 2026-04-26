@@ -1,12 +1,21 @@
 steps:
-  # 1. Docker Pull (캐시 활용)
+  # 1. SEO Guard (배포 전 필수 검사)
+  - name: 'python:3.11-slim'
+    id: 'seo-guard'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - 'pip install --no-cache-dir -r requirements.txt && python scripts/seo_guard.py'
+    waitFor: ['-']
+
+  # 2. Docker Pull (캐시 활용)
   - name: 'gcr.io/cloud-builders/docker'
     id: 'docker-pull'
     entrypoint: 'bash'
     args: ['-c', 'docker pull us-central1-docker.pkg.dev/$PROJECT_ID/jpcampus/jpcampus:latest || exit 0']
-    waitFor: ['-'] 
+    waitFor: ['seo-guard'] 
 
-  # 2. Docker Build
+  # 3. Docker Build
   - name: 'gcr.io/cloud-builders/docker'
     id: 'docker-build'
     args: [
@@ -17,13 +26,13 @@ steps:
     ]
     waitFor: ['docker-pull'] 
 
-  # 3. Docker Push
+  # 4. Docker Push
   - name: 'gcr.io/cloud-builders/docker'
     id: 'docker-push'
     args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/jpcampus/jpcampus:latest']
     waitFor: ['docker-build'] 
 
-  # 4. Deploy to Cloud Run (여기가 수정됨!)
+  # 5. Deploy to Cloud Run (여기가 수정됨!)
   # [중요] 이미지를 'gcr.io/cloud-builders/gcloud'로 변경해야 합니다.
   - name: 'gcr.io/cloud-builders/gcloud'
     id: 'deploy'

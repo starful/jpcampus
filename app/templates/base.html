@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    {% if canonical_url %}
+    <link rel="canonical" href="{{ canonical_url }}">
+    {% endif %}
     
     <title>{% block title %}JP Campus - {{ ui.essential_guides if current_lang == 'kr' else 'Study in Japan Guide' }}{% endblock %}</title>
     

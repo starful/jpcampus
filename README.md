@@ -96,6 +96,13 @@ uvicorn app.main:app --reload
 ```
 Visit: `http://127.0.0.1:8000`
 
+### 6. SEO Safety Check (Recommended Before Deploy)
+Run a smoke check to prevent accidental indexing regressions (canonical/noindex/robots/sitemap):
+
+```bash
+python scripts/seo_guard.py
+```
+
 ## ☁️ Deployment
 
 This project is configured for **Google Cloud Run**.

@@ -8,6 +8,7 @@ import os
 import frontmatter
 import markdown
 from dotenv import load_dotenv
+from datetime import datetime
 
 # 분리된 유틸 및 API 라우터 임포트
 from app.utils import (
@@ -27,6 +28,13 @@ templates = Jinja2Templates(directory=TEMPLATES_DIR)
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 DOMAIN = "https://jpcampus.net"
 ADS_TXT_CONTENT = "google.com, pub-8780435268193938, DIRECT, f08c47fec0942fa0"
+
+
+def build_canonical_url(path: str, lang: str | None = None) -> str:
+    canonical = f"{DOMAIN}{path}"
+    if lang == "kr":
+        return f"{canonical}?lang=kr"
+    return canonical
 
 # 좋아요/싫어요 API 연결
 app.include_router(reactions_router, prefix="/api")
@@ -107,7 +115,8 @@ async def read_root(request: Request, lang: str = Query("en")):
         "tags_with_counts": tags_with_counts, 
         "university_list_json": json.dumps(university_list, ensure_ascii=False),
         "current_lang": lang,
-        "ui": ui 
+        "ui": ui,
+        "canonical_url": build_canonical_url("/", lang)
     })
 
 @app.get("/school/{school_id}", response_class=HTMLResponse)
@@ -128,7 +137,8 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
     # [수정] 최신 문법 적용
     return templates.TemplateResponse(request, "detail.html", { 
         "item": item, "item_type": item_type, 
-        "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang) 
+        "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang),
+        "canonical_url": build_canonical_url(f"/school/{school_id}", lang)
     })
 
 @app.get("/guide/{slug}", response_class=HTMLResponse)
@@ -148,7 +158,8 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
     # [수정] 최신 문법 적용
     return templates.TemplateResponse(request, "detail.html", { 
         "item": item, "item_type": "guide", 
-        "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang) 
+        "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang),
+        "canonical_url": build_canonical_url(f"/guide/{slug}", lang)
     })
 
 @app.get("/schools", response_class=HTMLResponse)
@@ -160,7 +171,8 @@ async def school_list(request: Request, lang: str = Query("en")):
     return templates.TemplateResponse(request, "list.html", {
         "items": schools, "item_type": "school", 
         "title": "All Language Schools" if lang == 'en' else "일본어학교 목록",
-        "current_lang": lang, "ui": get_ui_text(lang) 
+        "current_lang": lang, "ui": get_ui_text(lang),
+        "canonical_url": build_canonical_url("/schools", lang)
     })
 
 @app.get("/universities", response_class=HTMLResponse)
@@ -172,7 +184,8 @@ async def university_list(request: Request, lang: str = Query("en")):
     return templates.TemplateResponse(request, "list.html", {
         "items": universities, "item_type": "university", 
         "title": "All Universities" if lang == 'en' else "일본 대학 목록",
-        "current_lang": lang, "ui": get_ui_text(lang) 
+        "current_lang": lang, "ui": get_ui_text(lang),
+        "canonical_url": build_canonical_url("/universities", lang)
     })
 
 @app.get("/guide", response_class=HTMLResponse)
@@ -183,20 +196,31 @@ async def guide_list_page(request: Request, lang: str = Query("en")):
     return templates.TemplateResponse(request, "list.html", {
         "items": guides, "item_type": "guide", 
         "title": "Essential Guides" if lang == 'en' else "유학 가이드",
-        "current_lang": lang, "ui": get_ui_text(lang) 
+        "current_lang": lang, "ui": get_ui_text(lang),
+        "canonical_url": build_canonical_url("/guide", lang)
     })
 
 @app.get("/about", response_class=HTMLResponse)
-async def about(request: Request): 
-    return templates.TemplateResponse(request, "about.html", {})
+async def about(request: Request, lang: str = Query("en")):
+    return templates.TemplateResponse(request, "about.html", {
+        "canonical_url": build_canonical_url("/about", lang),
+        "current_lang": lang,
+    })
 
 @app.get("/contact", response_class=HTMLResponse)
-async def contact(request: Request): 
-    return templates.TemplateResponse(request, "contact.html", {})
+async def contact(request: Request, lang: str = Query("en")):
+    return templates.TemplateResponse(request, "contact.html", {
+        "canonical_url": build_canonical_url("/contact", lang),
+        "current_lang": lang,
+    })
 
 @app.get("/policy", response_class=HTMLResponse)
-async def policy(request: Request): 
-    return templates.TemplateResponse(request, "policy.html", {})
+async def policy(request: Request, lang: str = Query("en")):
+    return templates.TemplateResponse(request, "policy.html", {
+        "canonical_url": build_canonical_url("/policy", lang),
+        "current_lang": lang,
+        "updated_at": datetime.utcnow().strftime("%Y-%m-%d"),
+    })
 
 @app.get("/favicon.ico", include_in_schema=False)
 async def favicon(): return FileResponse(os.path.join(STATIC_DIR, "img", "logo.png"))

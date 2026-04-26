@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ 'ko' if current_lang == 'kr' else 'en' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - JP Campus</title>
     <meta name="description" content="Read the Privacy Policy of JP Campus regarding data collection, usage, cookies, and user rights.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="{{ canonical_url }}">
     <link rel="stylesheet" href="/static/css/style.css">
     <style>
         .policy-container { max-width: 900px; margin: 60px auto; padding: 0 20px; }
