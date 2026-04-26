@@ -11,6 +11,31 @@
 <!-- 2. 카드 콘텐츠 섹션 -->
 <div class="content-wrapper">
 
+    <!-- Quick Actions -->
+    <div class="quick-actions" aria-label="Quick actions">
+        <a href="/schools?lang={{ current_lang }}" class="quick-action-btn">
+            <i class="fa-solid fa-school"></i>
+            <span>{{ 'Find Schools' if current_lang == 'en' else '학교 찾기' }}</span>
+        </a>
+        <a href="/universities?lang={{ current_lang }}" class="quick-action-btn">
+            <i class="fa-solid fa-building-columns"></i>
+            <span>{{ 'Find Universities' if current_lang == 'en' else '대학 찾기' }}</span>
+        </a>
+        <a href="/guide?lang={{ current_lang }}" class="quick-action-btn">
+            <i class="fa-solid fa-book-open"></i>
+            <span>{{ 'Read Guides' if current_lang == 'en' else '가이드 보기' }}</span>
+        </a>
+    </div>
+
+    <!-- Quick Filter Chips -->
+    <div class="quick-filter-chips" aria-label="Quick filters">
+        <button type="button" class="quick-filter-chip" data-filter-key="all">{{ ui.all_schools }}</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="tokyo">Tokyo</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="osaka">Osaka</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="dormitory">{{ 'Dormitory' if current_lang == 'en' else '기숙사' }}</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="academic">{{ 'University Prep' if current_lang == 'en' else '진학 준비' }}</button>
+    </div>
+
     <!-- [신규] 통계 배지 배너 (Stats Banner) -->
     <div class="stats-banner">
         <div class="stat-pill">

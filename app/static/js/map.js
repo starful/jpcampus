@@ -64,6 +64,21 @@ function bindEvents() {
             }
         });
     }
+
+    const quickFilterChips = document.querySelectorAll('.quick-filter-chip');
+    if (quickFilterChips.length > 0) {
+        quickFilterChips.forEach(chip => {
+            chip.addEventListener('click', () => {
+                const key = chip.dataset.filterKey || "all";
+                const filteredSchools = filterSchoolsByKey(key);
+                currentFilteredData = filteredSchools;
+                renderMarkers(filteredSchools);
+
+                quickFilterChips.forEach(c => c.classList.remove('is-active'));
+                chip.classList.add('is-active');
+            });
+        });
+    }
     
     // (기존의 별도 '전체 보기' 버튼 이벤트 리스너는 삭제됨)
 
@@ -142,6 +157,13 @@ function handleTagFilterClick(event) {
     const filteredSchools = filterSchoolsByKey(filterKey);
     currentFilteredData = filteredSchools;
     renderMarkers(filteredSchools);
+
+    const quickFilterChips = document.querySelectorAll('.quick-filter-chip');
+    if (quickFilterChips.length > 0) {
+        quickFilterChips.forEach(c => {
+            c.classList.toggle('is-active', c.dataset.filterKey === filterKey);
+        });
+    }
 }
 
 // --- [4] 필터링 로직 (기존 유지) ---

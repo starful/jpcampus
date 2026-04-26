@@ -54,6 +54,21 @@
     {# 본문 내용 #}
     <div class="detail-content">{{ content_body | safe }}</div>
 
+    <div class="detail-cta-panel">
+        <a href="/schools?lang={{ current_lang }}" class="detail-cta-btn">
+            <i class="fa-solid fa-list-check"></i>
+            <span>{{ 'Compare Schools' if current_lang == 'en' else '학교 비교하기' }}</span>
+        </a>
+        <a href="/guide?lang={{ current_lang }}" class="detail-cta-btn">
+            <i class="fa-solid fa-compass"></i>
+            <span>{{ 'See Related Guides' if current_lang == 'en' else '연관 가이드 보기' }}</span>
+        </a>
+        <a href="/contact?lang={{ current_lang }}" class="detail-cta-btn">
+            <i class="fa-solid fa-envelope"></i>
+            <span>{{ 'Contact Us' if current_lang == 'en' else '문의하기' }}</span>
+        </a>
+    </div>
+
     {% if related_schools %}
     <div class="section-header" style="margin-top: 56px;">
         <h2 class="section-title">{{ 'Related Schools' if current_lang == 'en' else '연관 학교' }}</h2>
