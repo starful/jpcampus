@@ -7,22 +7,31 @@
     {% if canonical_url %}
     <link rel="canonical" href="{{ canonical_url }}">
     {% endif %}
+    {% if hreflang_urls %}
+    <link rel="alternate" hreflang="en" href="{{ hreflang_urls['en'] }}">
+    <link rel="alternate" hreflang="ko" href="{{ hreflang_urls['ko'] }}">
+    <link rel="alternate" hreflang="x-default" href="{{ hreflang_urls['x-default'] }}">
+    {% endif %}
     
     <title>{% block title %}JP Campus - {{ ui.essential_guides if current_lang == 'kr' else 'Study in Japan Guide' }}{% endblock %}</title>
     
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDJL0618LL"></script>
+    {% if ga_measurement_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-EDJL0618LL');
+      gtag('config', '{{ ga_measurement_id }}');
     </script>
+    {% endif %}
     
     <link rel="stylesheet" href="/static/css/style.css?v=12.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="icon" href="/static/img/logo.png" type="image/png">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8780435268193938" crossorigin="anonymous"></script>
+    {% if adsense_client_id %}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense_client_id }}" crossorigin="anonymous"></script>
+    {% endif %}
     {% block head_extra %}{% endblock %}
 </head>
 <body>

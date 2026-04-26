@@ -224,12 +224,33 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .logo-img { height: 48px; }
     .filter-controls { order: 2; width: 100%; justify-content: center; flex-grow: 0; }
     .search-area { order: 3; width: 100%; margin-top: 0; max-width: none; }
-    .map-section, .detail-container, .content-wrapper { margin-top: 210px; }
+    .map-section, .detail-container, .content-wrapper { margin-top: 190px; }
+    .map-section { height: 380px; }
     .detail-container, .list-container { padding-left: 16px; padding-right: 16px; }
     .section-title { font-size: 1.4rem; text-align: center; } 
     .section-header { justify-content: center; flex-direction: column; gap: 10px; } 
     .detail-title, .list-title { font-size: 2rem; text-align: center; }
     .card-grid, .info-grid { grid-template-columns: 1fr; }
+    .card { border-radius: 16px; }
+    .card-body, .card-footer { padding-left: 16px; padding-right: 16px; }
+    .footer-links { flex-wrap: wrap; gap: 14px 20px; }
+    .family-sites-container { padding: 0 !important; margin-bottom: 30px !important; }
+    .reaction-container { flex-wrap: wrap; gap: 10px; margin-top: 40px; }
+    .reaction-btn { width: 100%; max-width: 240px; }
+    .stats-banner { justify-content: center; }
+    .stat-pill { width: 100%; justify-content: center; text-align: center; }
+}
+
+@media (max-width: 480px) {
+    .main-header { padding: 14px 12px; }
+    .logo-img { height: 40px; }
+    .search-bar-wrapper { padding: 10px 14px; }
+    .tag-filter-btn { height: 42px; padding: 0 14px; font-size: 0.85rem; }
+    .map-section, .detail-container, .content-wrapper { margin-top: 170px; }
+    .map-section { height: 320px; }
+    .content-wrapper { padding: 0 12px; }
+    .section-title { font-size: 1.2rem; }
+    .detail-title, .list-title { font-size: 1.6rem; }
 }
 
 /* --- [11] 상세/리스트 페이지 전용 심플 헤더 스타일 --- */

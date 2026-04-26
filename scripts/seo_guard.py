@@ -24,6 +24,7 @@ if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
 from app.main import app, DOMAIN
+from app.utils import load_school_data, load_guides
 
 
 @dataclass
@@ -97,6 +98,46 @@ def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
 
         passed.append(CheckResult(True, f"{path}: HTML SEO checks passed"))
 
+    schools, _ = load_school_data("en")
+    school_samples = [s.get("id") for s in schools if s.get("id")][:3]
+    guide_samples = []
+    for guide in load_guides("en"):
+        slug = guide.get("link", "").split("/")[-1].split("?")[0]
+        if slug:
+            guide_samples.append(slug)
+        if len(guide_samples) >= 3:
+            break
+
+    for school_id in school_samples:
+        detail_path = f"/school/{school_id}"
+        res = client.get(detail_path)
+        if res.status_code != 200:
+            failed.append(CheckResult(False, f"{detail_path}: expected 200, got {res.status_code}"))
+            continue
+        canonical = _extract_canonical(res.text)
+        expected = f"{DOMAIN}{detail_path}"
+        if canonical != expected:
+            failed.append(CheckResult(False, f"{detail_path}: canonical mismatch"))
+        elif _has_noindex(res.text):
+            failed.append(CheckResult(False, f"{detail_path}: noindex detected"))
+        else:
+            passed.append(CheckResult(True, f"{detail_path}: detail SEO checks passed"))
+
+    for slug in guide_samples:
+        detail_path = f"/guide/{slug}"
+        res = client.get(detail_path)
+        if res.status_code != 200:
+            failed.append(CheckResult(False, f"{detail_path}: expected 200, got {res.status_code}"))
+            continue
+        canonical = _extract_canonical(res.text)
+        expected = f"{DOMAIN}{detail_path}"
+        if canonical != expected:
+            failed.append(CheckResult(False, f"{detail_path}: canonical mismatch"))
+        elif _has_noindex(res.text):
+            failed.append(CheckResult(False, f"{detail_path}: noindex detected"))
+        else:
+            passed.append(CheckResult(True, f"{detail_path}: detail SEO checks passed"))
+
     robots = client.get("/robots.txt")
     if robots.status_code != 200:
         failed.append(CheckResult(False, f"/robots.txt: expected 200, got {robots.status_code}"))
@@ -116,10 +157,22 @@ def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
         body = sitemap.text
         if "<urlset" not in body or "<loc>" not in body:
             failed.append(CheckResult(False, "/sitemap.xml: missing urlset/loc tags"))
+        elif "<lastmod>" not in body:
+            failed.append(CheckResult(False, "/sitemap.xml: missing lastmod tags"))
+        elif 'hreflang="en"' not in body or 'hreflang="ko"' not in body:
+            failed.append(CheckResult(False, "/sitemap.xml: missing hreflang alternates"))
         elif "http://127.0.0.1" in body or "localhost" in body:
             failed.append(CheckResult(False, "/sitemap.xml: found localhost URL"))
         else:
             passed.append(CheckResult(True, "/sitemap.xml: checks passed"))
+
+    redirect_res = client.get("/privacy", follow_redirects=False)
+    if redirect_res.status_code != 301:
+        failed.append(CheckResult(False, "/privacy: expected 301 legacy redirect"))
+    elif redirect_res.headers.get("location") != "/policy":
+        failed.append(CheckResult(False, "/privacy: redirect target mismatch"))
+    else:
+        passed.append(CheckResult(True, "/privacy: legacy redirect checks passed"))
 
     return passed, failed
 
