@@ -350,6 +350,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .detail-cta-panel { grid-template-columns: 1fr; }
     .compare-bar {
         bottom: max(96px, env(safe-area-inset-bottom));
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
         width: calc(100% - 12px);
         flex-direction: column;
         align-items: stretch;
@@ -562,11 +565,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 .compare-bar {
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 20px;
+    left: auto;
+    transform: none;
     bottom: max(88px, env(safe-area-inset-bottom));
     z-index: 2147483000;
-    width: min(760px, calc(100% - 24px));
+    width: min(420px, calc(100% - 24px));
     background: #0f172a;
     color: #e2e8f0;
     border-radius: 12px;
