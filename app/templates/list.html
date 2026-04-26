@@ -21,7 +21,8 @@
     <div class="card-grid">
         {% for item in items %}
         <a href="{{ item.link }}" class="card">
-            <div class="card-img" style="background-image: url('{{ item.thumbnail }}');">
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.title or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--primary);">{{ 'Guide' if item.item_type == 'guide' else item.category | capitalize }}</span>
             </div>
             <div class="card-body">

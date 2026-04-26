@@ -46,7 +46,8 @@
     <div class="card-grid" style="margin-bottom: 80px;">
         {% for guide in featured_guides %}
         <a href="{{ guide.link }}" class="card" style="border: 2px solid var(--accent);">
-            <div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); height: 200px;">
+            <div class="card-img" style="height: 200px;">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="background: var(--accent); color: white;">{{ ui.best_selection }}</span>
             </div>
             <div class="card-body">
@@ -70,7 +71,8 @@
         {% for item in latest_schools %}
         <a href="{{ item.link }}" class="card">
             <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
-            <div class="card-img" style="background-image: url('{{ item.thumbnail }}');">
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--primary);">{{ ui.school_badge }}</span>
             </div>
             <div class="card-body">
@@ -105,7 +107,8 @@
         {% for item in latest_universities %}
         <a href="{{ item.link }}" class="card">
             <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
-            <div class="card-img" style="background-image: url('{{ item.thumbnail }}');">
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
             </div>
             <div class="card-body">
@@ -128,7 +131,9 @@
     <div class="card-grid">
         {% for guide in latest_guides %}
         <a href="{{ guide.link }}" class="card">
-            <div class="card-img" style="background-image: url('{{ guide.thumbnail }}'); height: 180px;"></div>
+            <div class="card-img" style="height: 180px;">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+            </div>
             <div class="card-body">
                 <span style="font-size: 0.75rem; color: var(--primary); font-weight: 800; text-transform: uppercase;">{{ guide.category }}</span>
                 <h4 style="margin: 8px 0; font-size: 1.1rem;">{{ guide.title }}</h4>

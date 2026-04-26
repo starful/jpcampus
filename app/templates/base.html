@@ -13,7 +13,8 @@
     <link rel="alternate" hreflang="x-default" href="{{ hreflang_urls['x-default'] }}">
     {% endif %}
     
-    <title>{% block title %}JP Campus - {{ ui.essential_guides if current_lang == 'kr' else 'Study in Japan Guide' }}{% endblock %}</title>
+    <title>{% block title %}{{ meta_title or ('JP Campus - ' ~ (ui.essential_guides if current_lang == 'kr' else 'Study in Japan Guide')) }}{% endblock %}</title>
+    <meta name="description" content="{{ meta_description or 'JP Campus helps international students choose schools and universities in Japan.' }}">
     
     <!-- Google Analytics -->
     {% if ga_measurement_id %}

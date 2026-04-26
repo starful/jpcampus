@@ -103,6 +103,16 @@ Checks include:
 python -m unittest tests.test_routes
 ```
 
+### CTR meta copy optimization (optional)
+
+```bash
+# Preview changes
+python scripts/optimize_meta_copy.py --dry-run
+
+# Apply to guide frontmatter
+python scripts/optimize_meta_copy.py --apply
+```
+
 ## 📈 Longtail Growth Starter (20 Pages)
 
 Generate a starter batch of 20 longtail guides from a curated topic seed:

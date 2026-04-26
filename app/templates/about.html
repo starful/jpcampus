@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - JP Campus</title>
-    <meta name="description" content="Learn about JP Campus, our mission to simplify studying in Japan, and how we use data to help international students find their perfect school.">
+    <title>{{ meta_title or 'About Us - JP Campus' }}</title>
+    <meta name="description" content="{{ meta_description or 'Learn about JP Campus, our mission to simplify studying in Japan, and how we use data to help international students find their perfect school.' }}">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="{{ canonical_url }}">
     {% if hreflang_urls %}

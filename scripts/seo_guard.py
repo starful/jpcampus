@@ -54,6 +54,16 @@ def _has_noindex(html: str) -> bool:
     )
 
 
+def _has_meta_description(html: str) -> bool:
+    return bool(
+        re.search(
+            r'<meta[^>]+name=["\']description["\'][^>]+content=["\'][^"\']+["\']',
+            html,
+            flags=re.IGNORECASE,
+        )
+    )
+
+
 def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
     client = TestClient(app)
     passed: list[CheckResult] = []
@@ -94,6 +104,9 @@ def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
             continue
         if _has_noindex(html):
             failed.append(CheckResult(False, f"{path}: noindex detected in robots meta"))
+            continue
+        if not _has_meta_description(html):
+            failed.append(CheckResult(False, f"{path}: meta description missing"))
             continue
 
         passed.append(CheckResult(True, f"{path}: HTML SEO checks passed"))

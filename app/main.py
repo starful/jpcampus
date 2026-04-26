@@ -99,6 +99,84 @@ def _redirect_target(path: str) -> str | None:
     return target
 
 
+def build_meta_title(raw_title: str, lang: str = "en", suffix: str = "JP Campus") -> str:
+    year = datetime.now(timezone.utc).strftime("%Y")
+    base = f"[{year}] {raw_title}"
+    title = f"{base} | {suffix}"
+    return title[:68]
+
+
+def build_meta_description(raw_description: str, fallback: str) -> str:
+    text = (raw_description or "").strip() or fallback
+    if len(text) <= 155:
+        return text
+    return f"{text[:152].rstrip()}..."
+
+
+def pick_related_guides(item: dict, item_type: str, lang: str, limit: int = 4) -> list[dict]:
+    guides = load_guides(lang)
+    source_text = ""
+    if item_type == "guide":
+        source_text = f"{item.get('title', '')} {item.get('description', '')}".lower()
+    else:
+        basic = item.get("basic_info", {}) or {}
+        source_text = f"{basic.get('name_en', '')} {basic.get('address', '')}".lower()
+
+    city_keywords = ["tokyo", "osaka", "kyoto", "nagoya", "fukuoka", "hokkaido", "japan"]
+    matched = [kw for kw in city_keywords if kw in source_text]
+    related = []
+    for guide in guides:
+        guide_text = f"{guide.get('title', '')} {guide.get('description', '')}".lower()
+        if any(kw in guide_text for kw in matched):
+            related.append(guide)
+    if len(related) < limit:
+        existing_links = {g.get("link") for g in related}
+        for guide in guides:
+            if guide.get("link") not in existing_links:
+                related.append(guide)
+            if len(related) >= limit:
+                break
+    return related[:limit]
+
+
+def pick_related_schools(item: dict, lang: str, limit: int = 4) -> list[dict]:
+    schools, _ = load_school_data(lang)
+    source_text = f"{item.get('title', '')} {item.get('description', '')}".lower()
+    wants_university = "university" in source_text or "eju" in source_text
+    wants_school = "language school" in source_text or "jlpt" in source_text
+    city_keywords = ["東京", "大阪", "京都", "名古屋", "福岡", "tokyo", "osaka", "kyoto", "nagoya", "fukuoka"]
+
+    related = []
+    for school in schools:
+        basic = school.get("basic_info", {}) or {}
+        address = basic.get("address", "")
+        address_lower = address.lower()
+        category = school.get("category")
+
+        if wants_university and category != "university":
+            continue
+        if wants_school and category == "university":
+            continue
+        if any(kw in source_text for kw in ["tokyo", "東京"]) and not ("tokyo" in address_lower or "東京都" in address):
+            continue
+        if any(kw in source_text for kw in ["osaka", "大阪"]) and not ("osaka" in address_lower or "大阪府" in address):
+            continue
+
+        if any(kw in source_text for kw in city_keywords):
+            related.append(school)
+        if len(related) >= limit:
+            break
+
+    if len(related) < limit:
+        for school in schools:
+            if school not in related:
+                related.append(school)
+            if len(related) >= limit:
+                break
+
+    return assign_thumbnails(related[:limit], "university" if wants_university else "school")
+
+
 @app.middleware("http")
 async def legacy_redirect_middleware(request: Request, call_next):
     response = await call_next(request)
@@ -243,6 +321,11 @@ async def read_root(request: Request, lang: str = Query("en")):
         "ui": ui,
         "canonical_url": build_canonical_url("/", lang),
         "hreflang_urls": build_hreflang_urls("/"),
+        "meta_title": build_meta_title("Study in Japan: Schools, Universities, Essential Guides", lang),
+        "meta_description": build_meta_description(
+            "Find Japanese language schools and universities with practical student guides.",
+            "Find Japanese language schools and universities with practical student guides."
+        ),
     })
 
 @app.get("/school/{school_id}", response_class=HTMLResponse)
@@ -267,6 +350,15 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "canonical_url": build_canonical_url(f"/school/{school_id}", lang),
         "hreflang_urls": build_hreflang_urls(f"/school/{school_id}"),
         "updated_at": default_updated_at(),
+        "related_guides": pick_related_guides(item, item_type, lang),
+        "meta_title": build_meta_title(
+            item.get("basic_info", {}).get("name_en") or item.get("basic_info", {}).get("name_ja") or "School Guide",
+            lang
+        ),
+        "meta_description": build_meta_description(
+            item.get("basic_info", {}).get("address", ""),
+            "Compare school details, tuition clues, and student-ready preparation tips."
+        ),
     })
 
 @app.get("/guide/{slug}", response_class=HTMLResponse)
@@ -290,6 +382,13 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "canonical_url": build_canonical_url(f"/guide/{slug}", lang),
         "hreflang_urls": build_hreflang_urls(f"/guide/{slug}"),
         "updated_at": default_updated_at(),
+        "related_schools": pick_related_schools(item, lang),
+        "related_guides": pick_related_guides(item, "guide", lang),
+        "meta_title": build_meta_title(item.get("title", "Study in Japan Guide"), lang),
+        "meta_description": build_meta_description(
+            item.get("description", ""),
+            "Actionable study-in-Japan guide with practical decisions and student checklists."
+        ),
     })
 
 @app.get("/schools", response_class=HTMLResponse)
@@ -306,6 +405,11 @@ async def school_list(request: Request, lang: str = Query("en")):
         "canonical_url": build_canonical_url("/schools", lang),
         "hreflang_urls": build_hreflang_urls("/schools"),
         "updated_at": default_updated_at(),
+        "meta_title": build_meta_title("All Language Schools in Japan", lang),
+        "meta_description": build_meta_description(
+            "Compare language schools by city, tuition, and student lifestyle fit.",
+            "Compare language schools by city, tuition, and student lifestyle fit."
+        ),
     })
 
 @app.get("/universities", response_class=HTMLResponse)
@@ -322,6 +426,11 @@ async def university_list(request: Request, lang: str = Query("en")):
         "canonical_url": build_canonical_url("/universities", lang),
         "hreflang_urls": build_hreflang_urls("/universities"),
         "updated_at": default_updated_at(),
+        "meta_title": build_meta_title("Universities in Japan for International Students", lang),
+        "meta_description": build_meta_description(
+            "Find university options in Japan with practical comparisons and prep guidance.",
+            "Find university options in Japan with practical comparisons and prep guidance."
+        ),
     })
 
 @app.get("/guide", response_class=HTMLResponse)
@@ -337,6 +446,11 @@ async def guide_list_page(request: Request, lang: str = Query("en")):
         "canonical_url": build_canonical_url("/guide", lang),
         "hreflang_urls": build_hreflang_urls("/guide"),
         "updated_at": default_updated_at(),
+        "meta_title": build_meta_title("Essential Japan Study Guides", lang),
+        "meta_description": build_meta_description(
+            "Read practical guides on costs, housing, visas, and student life in Japan.",
+            "Read practical guides on costs, housing, visas, and student life in Japan."
+        ),
     })
 
 @app.get("/about", response_class=HTMLResponse)
@@ -346,6 +460,11 @@ async def about(request: Request, lang: str = Query("en")):
         "current_lang": lang,
         "hreflang_urls": build_hreflang_urls("/about"),
         "updated_at": default_updated_at(),
+        "meta_title": build_meta_title("About JP Campus", lang),
+        "meta_description": build_meta_description(
+            "Learn how JP Campus helps international students choose schools in Japan.",
+            "Learn how JP Campus helps international students choose schools in Japan."
+        ),
     })
 
 @app.get("/contact", response_class=HTMLResponse)
@@ -355,6 +474,11 @@ async def contact(request: Request, lang: str = Query("en")):
         "current_lang": lang,
         "hreflang_urls": build_hreflang_urls("/contact"),
         "updated_at": default_updated_at(),
+        "meta_title": build_meta_title("Contact JP Campus", lang),
+        "meta_description": build_meta_description(
+            "Contact JP Campus for corrections, feedback, or collaboration.",
+            "Contact JP Campus for corrections, feedback, or collaboration."
+        ),
     })
 
 @app.get("/policy", response_class=HTMLResponse)
@@ -364,6 +488,11 @@ async def policy(request: Request, lang: str = Query("en")):
         "current_lang": lang,
         "hreflang_urls": build_hreflang_urls("/policy"),
         "updated_at": default_updated_at(),
+        "meta_title": build_meta_title("Privacy Policy", lang),
+        "meta_description": build_meta_description(
+            "Read how JP Campus handles privacy, cookies, and data usage.",
+            "Read how JP Campus handles privacy, cookies, and data usage."
+        ),
     })
 
 @app.get("/favicon.ico", include_in_schema=False)

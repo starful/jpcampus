@@ -54,6 +54,52 @@
     {# 본문 내용 #}
     <div class="detail-content">{{ content_body | safe }}</div>
 
+    {% if related_schools %}
+    <div class="section-header" style="margin-top: 56px;">
+        <h2 class="section-title">{{ 'Related Schools' if current_lang == 'en' else '연관 학교' }}</h2>
+    </div>
+    <div class="card-grid">
+        {% for school in related_schools %}
+        <a href="{{ school.link }}" class="card">
+            <div class="card-img">
+                <img src="{{ school.thumbnail }}" alt="{{ school.basic_info.name_display or school.basic_info.name_en or school.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
+                <span class="card-badge" style="color: var(--primary);">
+                    {{ 'University' if school.category == 'university' else 'School' }}
+                </span>
+            </div>
+            <div class="card-body">
+                <h4>{{ school.basic_info.name_display or school.basic_info.name_en or school.basic_info.name_ja }}</h4>
+                <div class="card-meta">
+                    <span>{{ school.basic_info.address or 'Japan' }}</span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if related_guides %}
+    <div class="section-header" style="margin-top: 56px;">
+        <h2 class="section-title">{{ 'Related Guides' if current_lang == 'en' else '연관 가이드' }}</h2>
+    </div>
+    <div class="card-grid">
+        {% for guide in related_guides %}
+        <a href="{{ guide.link }}" class="card">
+            <div class="card-img" style="height: 180px;">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+                <span class="card-badge" style="color: var(--accent);">{{ guide.category }}</span>
+            </div>
+            <div class="card-body">
+                <h4>{{ guide.title }}</h4>
+                <div class="card-meta">
+                    <span>{{ guide.description | truncate(110) }}</span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
     {# [신규] 좋아요/싫어요 컨테이너 #}
     <div class="reaction-container">
         <button id="btn-like" class="reaction-btn" onclick="toggleReaction('like')">
