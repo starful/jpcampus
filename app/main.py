@@ -316,7 +316,7 @@ async def read_root(request: Request, lang: str = Query("en")):
         "latest_universities": latest_universities, 
         "latest_guides":[g for g in all_guides if g not in featured_guides][:6],
         "tags_with_counts": tags_with_counts, 
-        "university_list_json": json.dumps(university_list, ensure_ascii=False),
+        "university_list_json": university_list,
         "current_lang": lang,
         "ui": ui,
         "canonical_url": build_canonical_url("/", lang),

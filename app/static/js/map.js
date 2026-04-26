@@ -4,6 +4,7 @@ let map;
 let allSchoolData = [];
 let markers = [];
 let infoWindow;
+let currentFilteredData = [];
 
 // --- [1] 초기화 함수 ---
 async function initMap() {
@@ -27,6 +28,7 @@ async function initMap() {
     infoWindow = new google.maps.InfoWindow({ minWidth: 280, disableAutoPan: true });
 
     allSchoolData = SCHOOLS_DATA.schools || [];
+    currentFilteredData = allSchoolData;
     bindEvents();
     renderMarkers(allSchoolData);
 }
@@ -67,18 +69,56 @@ function bindEvents() {
 
     // 검색창 이벤트 (기존 유지)
     const univSearchInput = document.getElementById('univ-search-input');
+    const clearBtn = document.getElementById('search-clear-btn');
     if (univSearchInput) {
-        univSearchInput.addEventListener('change', (e) => {
-            const val = e.target.value;
-            const found = allSchoolData.find(s => 
-                (s.basic_info.name_en === val) || (s.basic_info.name_ja === val)
-            );
+        const runSearch = () => {
+            const keyword = (univSearchInput.value || "").trim().toLowerCase();
+            if (!keyword) {
+                if (currentFilteredData.length) {
+                    renderMarkers(currentFilteredData);
+                } else {
+                    renderMarkers(allSchoolData);
+                }
+                return;
+            }
+
+            const pool = currentFilteredData.length ? currentFilteredData : allSchoolData;
+            const found = pool.find(s => {
+                const b = s.basic_info || {};
+                const candidates = [b.name_en, b.name_ja, b.name_display, s.id]
+                    .filter(Boolean)
+                    .map(v => String(v).toLowerCase());
+                return candidates.some(v => v.includes(keyword));
+            });
+
             if (found && found.location) {
                 map.setCenter(found.location);
-                map.setZoom(15);
-                // 해당 마커 찾아 클릭 트리거 (선택 사항)
+                map.setZoom(14);
+                const marker = markers.find(m => {
+                    const title = (m.title || "").toLowerCase();
+                    return title === ((found.basic_info?.name_en || found.basic_info?.name_ja || "").toLowerCase());
+                });
+                if (marker) {
+                    openInfoWindow(found, marker);
+                }
+            }
+        };
+
+        univSearchInput.addEventListener('change', runSearch);
+        univSearchInput.addEventListener('keydown', (e) => {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                runSearch();
             }
         });
+
+        if (clearBtn) {
+            clearBtn.addEventListener('click', () => {
+                univSearchInput.value = "";
+                renderMarkers(currentFilteredData.length ? currentFilteredData : allSchoolData);
+                univSearchInput.focus();
+            });
+        }
     }
 }
 
@@ -100,6 +140,7 @@ function handleTagFilterClick(event) {
     
     // 필터링 로직 수행
     const filteredSchools = filterSchoolsByKey(filterKey);
+    currentFilteredData = filteredSchools;
     renderMarkers(filteredSchools);
 }
 
@@ -116,7 +157,10 @@ function filterSchoolsByKey(key) {
     return allSchoolData.filter(school => {
         if (school.category === 'university') return false;
 
-        const features = (school.features || []).join(" ").toLowerCase();
+        const rawFeatures = school.features;
+        const features = Array.isArray(rawFeatures)
+            ? rawFeatures.join(" ").toLowerCase()
+            : String(rawFeatures || "").toLowerCase();
         const address = school.basic_info?.address || '';
         const capacity = school.basic_info?.capacity;
 
@@ -177,11 +221,6 @@ function renderMarkers(data) {
         markers.push(marker);
         bounds.extend(item.location);
     });
-
-    // 지도 줌/중심 조정 로직 (기존 유지)
-    const dropdownTrigger = document.querySelector('.dropdown-trigger');
-    // 처음 로딩 시(trigger가 없거나) 또는 필터가 적용된 경우에만 줌 조정
-    const isFiltered = dropdownTrigger && !dropdownTrigger.innerHTML.includes('Filters');
 
     if (markers.length > 0) {
         if (data.length === allSchoolData.length) {

@@ -45,11 +45,15 @@
         <div class="search-area">
             <div class="search-bar-wrapper">
                 <input type="text" id="univ-search-input" class="search-input" list="university-list" placeholder="{{ ui.search_placeholder }}">
+                <button type="button" class="search-clear-btn" id="search-clear-btn" aria-label="Clear search">×</button>
             </div>
             <datalist id="university-list">
                 {% if university_list_json %}
                     {% for univ in university_list_json %}
-                        <option value="{{ univ.name_en }}">{{ univ.name_ja }}</option>
+                        <option value="{{ univ.name_en }}">{{ univ.name_ja }}{% if univ.name_ja %} / {% endif %}{{ univ.name_en }}</option>
+                        {% if univ.name_ja and univ.name_ja != univ.name_en %}
+                        <option value="{{ univ.name_ja }}">{{ univ.name_ja }} / {{ univ.name_en }}</option>
+                        {% endif %}
                     {% endfor %}
                 {% endif %}
             </datalist>
@@ -135,25 +139,6 @@
 </footer>
 
 {% block scripts %}{% endblock %}
-
-<!-- 드롭다운 제어 스크립트 (기존 기능 유지) -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const dropdown = document.querySelector('.filter-dropdown');
-    const trigger = document.querySelector('.dropdown-trigger');
-    
-    if(trigger) {
-        trigger.addEventListener('click', function(e) {
-            e.stopPropagation();
-            dropdown.classList.toggle('is-open');
-        });
-    }
-
-    document.addEventListener('click', function() {
-        if(dropdown) dropdown.classList.remove('is-open');
-    });
-});
-</script>
 
 </body>
 </html>

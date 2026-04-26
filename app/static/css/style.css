@@ -49,12 +49,27 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     border: 1px solid var(--border);
     transition: all 0.2s;
     box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 .search-bar-wrapper:focus-within {
     border-color: var(--primary);
     box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
 }
 .search-input { width: 100%; border: none; background: transparent; outline: none; font-size: 0.95rem; }
+.search-clear-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+    background: #e2e8f0;
+    color: #334155;
+    font-size: 16px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* --- [4] 필터 컨트롤 및 드롭다운 스타일 --- */
 .filter-controls {
@@ -203,7 +218,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .search-area { width: 100%; order: 3; margin-top: 10px; max-width: none; }
     .logo { order: 1; }
     .filter-controls { order: 2; flex-grow: 1; justify-content: flex-end; }
-    .map-section, .detail-container, .content-wrapper { margin-top: 140px; }
+    .map-section, .detail-container, .content-wrapper { margin-top: 132px; }
 }
 
 @media (max-width: 768px) {
@@ -225,7 +240,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .logo-img { height: 48px; }
     .filter-controls { order: 2; width: 100%; justify-content: center; flex-grow: 0; }
     .search-area { order: 3; width: 100%; margin-top: 0; max-width: none; }
-    .map-section, .detail-container, .content-wrapper { margin-top: 190px; }
+    .map-section, .detail-container, .content-wrapper { margin-top: 176px; }
     .map-section { height: 380px; }
     .detail-container, .list-container { padding-left: 16px; padding-right: 16px; }
     .section-title { font-size: 1.4rem; text-align: center; } 
@@ -248,7 +263,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .logo-img { height: 40px; }
     .search-bar-wrapper { padding: 10px 14px; }
     .tag-filter-btn { height: 42px; padding: 0 14px; font-size: 0.85rem; }
-    .map-section, .detail-container, .content-wrapper { margin-top: 170px; }
+    .map-section, .detail-container, .content-wrapper { margin-top: 160px; }
     .map-section { height: 320px; }
     .content-wrapper { padding: 0 12px; }
     .section-title { font-size: 1.2rem; }
