@@ -349,7 +349,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .stat-pill { width: 100%; justify-content: center; text-align: center; }
     .detail-cta-panel { grid-template-columns: 1fr; }
     .compare-bar {
-        bottom: 10px;
+        bottom: max(96px, env(safe-area-inset-bottom));
         width: calc(100% - 12px);
         flex-direction: column;
         align-items: stretch;
@@ -564,8 +564,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 20px;
-    z-index: 1300;
+    bottom: max(88px, env(safe-area-inset-bottom));
+    z-index: 2147483000;
     width: min(760px, calc(100% - 24px));
     background: #0f172a;
     color: #e2e8f0;
