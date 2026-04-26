@@ -34,6 +34,7 @@ async function initMap() {
     bindEvents();
     bindCardInteractions();
     renderMarkers(allSchoolData);
+    bootstrapCompareFromQuery();
     syncCompareUI();
 }
 
@@ -372,6 +373,26 @@ function toggleCompareItem(id) {
     setCompareItems(next);
     syncCompareUI();
     trackEvent("compare_toggle", id);
+}
+
+function bootstrapCompareFromQuery() {
+    const params = new URLSearchParams(window.location.search);
+    const addCompareId = params.get("add_compare");
+    if (!addCompareId) return;
+
+    const ids = getCompareItems();
+    if (!ids.includes(addCompareId)) {
+        const next = ids.length >= 3
+            ? [...ids.slice(1), addCompareId]
+            : [...ids, addCompareId];
+        setCompareItems(next);
+        trackEvent("compare_add_from_detail", addCompareId);
+    }
+
+    params.delete("add_compare");
+    const nextQuery = params.toString();
+    const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ""}${window.location.hash || ""}`;
+    window.history.replaceState({}, "", nextUrl);
 }
 
 function syncCompareUI() {

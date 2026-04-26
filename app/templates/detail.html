@@ -55,7 +55,7 @@
     <div class="detail-content">{{ content_body | safe }}</div>
 
     <div class="detail-cta-panel">
-        <a href="/schools?lang={{ current_lang }}" class="detail-cta-btn" data-track="detail_cta" data-track-label="compare_schools">
+        <a href="{{ '/?lang=' ~ current_lang ~ '&add_compare=' ~ item.get('id') if item_type != 'guide' else '/?lang=' ~ current_lang }}" class="detail-cta-btn" data-track="detail_cta" data-track-label="compare_schools">
             <i class="fa-solid fa-list-check"></i>
             <span>{{ 'Compare Schools' if current_lang == 'en' else '학교 비교하기' }}</span>
         </a>
