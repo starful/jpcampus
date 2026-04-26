@@ -140,5 +140,19 @@
 
 {% block scripts %}{% endblock %}
 
+<script>
+document.addEventListener("click", function(event) {
+    const target = event.target.closest("[data-track]");
+    if (!target) return;
+    if (typeof window.gtag !== "function") return;
+    const action = target.getAttribute("data-track");
+    const label = target.getAttribute("data-track-label") || target.getAttribute("href") || "";
+    window.gtag("event", action, {
+        event_category: "engagement",
+        event_label: label
+    });
+});
+</script>
+
 </body>
 </html>

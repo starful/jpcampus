@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block header %}{% endblock %}
+
+{% block content %}
+<main class="content-wrapper" style="margin-top: 40px;">
+    <a href="/?lang={{ current_lang }}" class="back-to-list-btn" style="margin-bottom: 20px;">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path></svg>
+        <span>{{ 'Back to Map' if current_lang == 'en' else '지도로 돌아가기' }}</span>
+    </a>
+
+    <div class="section-header" style="margin-bottom: 14px;">
+        <h1 class="section-title">{{ title }}</h1>
+    </div>
+    <p style="color: var(--text-gray); margin-bottom: 24px;">{{ description }}</p>
+
+    <div class="card-grid">
+        {% for item in items %}
+        <article class="card">
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
+            </div>
+            <div class="card-body">
+                <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}</h4>
+                <div class="card-meta">
+                    <span>{{ item.basic_info.address or 'Japan' }}</span>
+                </div>
+                <div class="compare-spec-row">
+                    <span>{{ 'Category' if current_lang == 'en' else '구분' }}</span>
+                    <strong>{{ 'University' if item.category == 'university' else 'Language School' }}</strong>
+                </div>
+                <div class="compare-spec-row">
+                    <span>{{ 'Capacity' if current_lang == 'en' else '정원' }}</span>
+                    <strong>{{ item.basic_info.capacity or 'N/A' }}</strong>
+                </div>
+                <div class="compare-spec-row">
+                    <span>{{ 'Yearly Tuition' if current_lang == 'en' else '연간 학비' }}</span>
+                    <strong>
+                        {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
+                            ¥{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
+                        {% else %}
+                            N/A
+                        {% endif %}
+                    </strong>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="{{ item.link }}" class="compare-detail-link">{{ 'View Details' if current_lang == 'en' else '상세 보기' }}</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</main>
+{% endblock %}

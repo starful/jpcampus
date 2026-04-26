@@ -5,6 +5,8 @@ let allSchoolData = [];
 let markers = [];
 let infoWindow;
 let currentFilteredData = [];
+let markerById = {};
+const COMPARE_KEY = "jp_compare_ids_v1";
 
 // --- [1] 초기화 함수 ---
 async function initMap() {
@@ -30,7 +32,9 @@ async function initMap() {
     allSchoolData = SCHOOLS_DATA.schools || [];
     currentFilteredData = allSchoolData;
     bindEvents();
+    bindCardInteractions();
     renderMarkers(allSchoolData);
+    syncCompareUI();
 }
 
 // --- [2] [수정] 이벤트 바인딩 함수 ---
@@ -73,6 +77,7 @@ function bindEvents() {
                 const filteredSchools = filterSchoolsByKey(key);
                 currentFilteredData = filteredSchools;
                 renderMarkers(filteredSchools);
+                trackEvent('quick_filter', key);
 
                 quickFilterChips.forEach(c => c.classList.remove('is-active'));
                 chip.classList.add('is-active');
@@ -135,6 +140,15 @@ function bindEvents() {
             });
         }
     }
+
+    const compareClearBtn = document.getElementById("compare-clear-btn");
+    if (compareClearBtn) {
+        compareClearBtn.addEventListener("click", () => {
+            localStorage.removeItem(COMPARE_KEY);
+            syncCompareUI();
+            trackEvent("compare_clear", "clear");
+        });
+    }
 }
 
 // --- [3] [수정] 필터 버튼 클릭 핸들러 ---
@@ -157,6 +171,7 @@ function handleTagFilterClick(event) {
     const filteredSchools = filterSchoolsByKey(filterKey);
     currentFilteredData = filteredSchools;
     renderMarkers(filteredSchools);
+    trackEvent('dropdown_filter', filterKey);
 
     const quickFilterChips = document.querySelectorAll('.quick-filter-chip');
     if (quickFilterChips.length > 0) {
@@ -164,6 +179,24 @@ function handleTagFilterClick(event) {
             c.classList.toggle('is-active', c.dataset.filterKey === filterKey);
         });
     }
+}
+
+function bindCardInteractions() {
+    const cards = document.querySelectorAll('.school-card[data-school-id]');
+    cards.forEach(card => {
+        const schoolId = card.dataset.schoolId;
+        card.addEventListener('mouseenter', () => highlightMarkerById(schoolId, true));
+        card.addEventListener('mouseleave', () => highlightMarkerById(schoolId, false));
+    });
+
+    const compareButtons = document.querySelectorAll('.compare-toggle-btn[data-compare-id]');
+    compareButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            toggleCompareItem(button.dataset.compareId);
+        });
+    });
 }
 
 // --- [4] 필터링 로직 (기존 유지) ---
@@ -206,6 +239,7 @@ function renderMarkers(data) {
     // 기존 마커 제거
     markers.forEach(m => m.map = null);
     markers = [];
+    markerById = {};
 
     if (!data || !map || !window.AdvancedMarkerElement) {
         return;
@@ -241,6 +275,9 @@ function renderMarkers(data) {
 
         marker.addListener("click", () => openInfoWindow(item, marker));
         markers.push(marker);
+        if (item.id) {
+            markerById[item.id] = marker;
+        }
         bounds.extend(item.location);
     });
 
@@ -283,4 +320,87 @@ function openInfoWindow(school, marker) {
         </div>`);
     
     infoWindow.open({ anchor: marker, map });
+    highlightCardBySchoolId(school.id);
+    highlightMarkerById(school.id, true);
+    setTimeout(() => highlightMarkerById(school.id, false), 1400);
+    trackEvent("marker_click", school.id || "unknown");
+}
+
+function highlightCardBySchoolId(schoolId) {
+    if (!schoolId) return;
+    const card = document.querySelector(`.school-card[data-school-id="${schoolId}"]`);
+    if (!card) return;
+    card.classList.add("is-highlighted");
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    setTimeout(() => card.classList.remove("is-highlighted"), 1600);
+}
+
+function highlightMarkerById(schoolId, isActive) {
+    const marker = markerById[schoolId];
+    if (!marker || !marker.content) return;
+    marker.content.classList.toggle("map-marker-active", !!isActive);
+}
+
+function getCompareItems() {
+    try {
+        const raw = localStorage.getItem(COMPARE_KEY);
+        if (!raw) return [];
+        const parsed = JSON.parse(raw);
+        return Array.isArray(parsed) ? parsed : [];
+    } catch (_) {
+        return [];
+    }
+}
+
+function setCompareItems(ids) {
+    localStorage.setItem(COMPARE_KEY, JSON.stringify(ids));
+}
+
+function toggleCompareItem(id) {
+    if (!id) return;
+    const items = getCompareItems();
+    const exists = items.includes(id);
+    let next = items;
+    if (exists) {
+        next = items.filter(v => v !== id);
+    } else {
+        if (items.length >= 3) {
+            next = items.slice(1);
+        }
+        next = [...next, id];
+    }
+    setCompareItems(next);
+    syncCompareUI();
+    trackEvent("compare_toggle", id);
+}
+
+function syncCompareUI() {
+    const ids = getCompareItems();
+    const countEl = document.getElementById("compare-count");
+    const barEl = document.getElementById("compare-bar");
+    const openBtn = document.getElementById("compare-open-btn");
+    if (countEl) countEl.textContent = String(ids.length);
+    if (barEl) {
+        barEl.classList.toggle("is-hidden", ids.length === 0);
+    }
+    if (openBtn) {
+        const query = ids.join(",");
+        openBtn.href = query ? `/compare?ids=${encodeURIComponent(query)}` : "/compare";
+    }
+    document.querySelectorAll('.compare-toggle-btn[data-compare-id]').forEach(btn => {
+        const selected = ids.includes(btn.dataset.compareId);
+        btn.classList.toggle("is-selected", selected);
+        const defaultLabel = btn.dataset.labelDefault || "Compare +";
+        const selectedLabel = btn.dataset.labelSelected || "Compared";
+        btn.textContent = selected ? selectedLabel : defaultLabel;
+    });
+}
+
+function trackEvent(action, label) {
+    if (typeof window.gtag === "function") {
+        window.gtag("event", action, {
+            event_category: "ux_interaction",
+            event_label: label || ""
+        });
+    }
 }

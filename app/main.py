@@ -453,6 +453,33 @@ async def guide_list_page(request: Request, lang: str = Query("en")):
         ),
     })
 
+@app.get("/compare", response_class=HTMLResponse)
+async def compare_page(request: Request, ids: str = Query(""), lang: str = Query("en")):
+    schools_data, _ = load_school_data(lang)
+    id_list = [v.strip() for v in ids.split(",") if v.strip()]
+    selected = [item for item in schools_data if item.get("id") in id_list]
+
+    if len(selected) < 3:
+        fallback = [item for item in schools_data if item.get("id") not in {s.get("id") for s in selected}]
+        selected.extend(fallback[: max(0, 3 - len(selected))])
+
+    selected = assign_thumbnails(selected, "school")
+    return templates.TemplateResponse(request, "compare.html", {
+        "items": selected[:3],
+        "current_lang": lang,
+        "ui": get_ui_text(lang),
+        "title": "School Comparison" if lang == "en" else "학교 비교",
+        "description": "Compare tuition, location, and fit in one view." if lang == "en" else "학비, 위치, 특성을 한 화면에서 비교하세요.",
+        "canonical_url": build_canonical_url("/compare", lang),
+        "hreflang_urls": build_hreflang_urls("/compare"),
+        "updated_at": default_updated_at(),
+        "meta_title": build_meta_title("Compare Schools in Japan", lang),
+        "meta_description": build_meta_description(
+            "Compare selected schools and universities side by side.",
+            "Compare selected schools and universities side by side."
+        ),
+    })
+
 @app.get("/about", response_class=HTMLResponse)
 async def about(request: Request, lang: str = Query("en")):
     return templates.TemplateResponse(request, "about.html", {

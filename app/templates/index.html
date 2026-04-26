@@ -13,15 +13,15 @@
 
     <!-- Quick Actions -->
     <div class="quick-actions" aria-label="Quick actions">
-        <a href="/schools?lang={{ current_lang }}" class="quick-action-btn">
+        <a href="/schools?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="schools">
             <i class="fa-solid fa-school"></i>
             <span>{{ 'Find Schools' if current_lang == 'en' else '학교 찾기' }}</span>
         </a>
-        <a href="/universities?lang={{ current_lang }}" class="quick-action-btn">
+        <a href="/universities?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="universities">
             <i class="fa-solid fa-building-columns"></i>
             <span>{{ 'Find Universities' if current_lang == 'en' else '대학 찾기' }}</span>
         </a>
-        <a href="/guide?lang={{ current_lang }}" class="quick-action-btn">
+        <a href="/guide?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="guides">
             <i class="fa-solid fa-book-open"></i>
             <span>{{ 'Read Guides' if current_lang == 'en' else '가이드 보기' }}</span>
         </a>
@@ -29,11 +29,11 @@
 
     <!-- Quick Filter Chips -->
     <div class="quick-filter-chips" aria-label="Quick filters">
-        <button type="button" class="quick-filter-chip" data-filter-key="all">{{ ui.all_schools }}</button>
-        <button type="button" class="quick-filter-chip" data-filter-key="tokyo">Tokyo</button>
-        <button type="button" class="quick-filter-chip" data-filter-key="osaka">Osaka</button>
-        <button type="button" class="quick-filter-chip" data-filter-key="dormitory">{{ 'Dormitory' if current_lang == 'en' else '기숙사' }}</button>
-        <button type="button" class="quick-filter-chip" data-filter-key="academic">{{ 'University Prep' if current_lang == 'en' else '진학 준비' }}</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="all" data-track="quick_filter" data-track-label="all">{{ ui.all_schools }}</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="tokyo" data-track="quick_filter" data-track-label="tokyo">Tokyo</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="osaka" data-track="quick_filter" data-track-label="osaka">Osaka</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="dormitory" data-track="quick_filter" data-track-label="dormitory">{{ 'Dormitory' if current_lang == 'en' else '기숙사' }}</button>
+        <button type="button" class="quick-filter-chip" data-filter-key="academic" data-track="quick_filter" data-track-label="academic">{{ 'University Prep' if current_lang == 'en' else '진학 준비' }}</button>
     </div>
 
     <!-- [신규] 통계 배지 배너 (Stats Banner) -->
@@ -94,13 +94,16 @@
     <div class="card-grid">
         {% set school_imgs = [ '...', '...' ] %}
         {% for item in latest_schools %}
-        <a href="{{ item.link }}" class="card">
+        <a href="{{ item.link }}" class="card school-card" data-school-id="{{ item.id }}" data-track="school_card" data-track-label="{{ item.id }}">
             <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--primary);">{{ ui.school_badge }}</span>
             </div>
             <div class="card-body">
+                <button type="button" class="compare-toggle-btn" data-compare-id="{{ item.id }}" data-compare-type="school" data-label-default="{{ 'Compare +' if current_lang == 'en' else '비교 +' }}" data-label-selected="{{ 'Compared' if current_lang == 'en' else '비교됨' }}">
+                    {{ 'Compare +' if current_lang == 'en' else '비교 +' }}
+                </button>
                 {# [중요] name_display(한국어이름)가 있으면 우선 출력 #}
                 <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}</h4>
                 <div class="card-meta">
@@ -130,13 +133,16 @@
     <div class="card-grid">
         {% set univ_imgs = [ '...', '...' ] %}
         {% for item in latest_universities %}
-        <a href="{{ item.link }}" class="card">
+        <a href="{{ item.link }}" class="card school-card" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
             <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
             </div>
             <div class="card-body">
+                <button type="button" class="compare-toggle-btn" data-compare-id="{{ item.id }}" data-compare-type="university" data-label-default="{{ 'Compare +' if current_lang == 'en' else '비교 +' }}" data-label-selected="{{ 'Compared' if current_lang == 'en' else '비교됨' }}">
+                    {{ 'Compare +' if current_lang == 'en' else '비교 +' }}
+                </button>
                 <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}</h4>
                 <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 15px;">{{ ui.national_private }}</p>
             </div>
@@ -166,6 +172,17 @@
             </div>
         </a>
         {% endfor %}
+    </div>
+</div>
+
+<div id="compare-bar" class="compare-bar is-hidden">
+    <div class="compare-bar-text">
+        <strong>{{ 'Compare List' if current_lang == 'en' else '비교 목록' }}</strong>
+        <span id="compare-count">0</span>/3
+    </div>
+    <div class="compare-bar-actions">
+        <button type="button" id="compare-clear-btn" class="compare-clear-btn">{{ 'Clear' if current_lang == 'en' else '초기화' }}</button>
+        <a id="compare-open-btn" href="/compare" class="compare-open-btn">{{ 'Compare now' if current_lang == 'en' else '지금 비교' }}</a>
     </div>
 </div>
 
