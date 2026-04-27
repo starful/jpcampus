@@ -46,7 +46,8 @@ steps:
       - '--platform=managed'
       - '--allow-unauthenticated'
       - '--port=8080'
-      - '--set-env-vars=GCS_BUCKET_NAME=jpcampus,GOOGLE_MAPS_API_KEY=${_GOOGLE_MAPS_API_KEY}'
+      - '--set-env-vars=GCS_BUCKET_NAME=jpcampus'
+      - '--set-secrets=GOOGLE_MAPS_API_KEY=JPCAMPUS_GOOGLE_MAPS_API_KEY:latest'
     waitFor: ['docker-push'] 
 
 images:
