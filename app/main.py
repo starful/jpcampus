@@ -321,10 +321,10 @@ async def read_root(request: Request, lang: str = Query("en")):
         "ui": ui,
         "canonical_url": build_canonical_url("/", lang),
         "hreflang_urls": build_hreflang_urls("/"),
-        "meta_title": build_meta_title("Study in Japan: Schools, Universities, Essential Guides", lang),
+        "meta_title": build_meta_title("JP Campus 2026: Study in Japan Schools, Universities, and Guides", lang),
         "meta_description": build_meta_description(
-            "Find Japanese language schools and universities with practical student guides.",
-            "Find Japanese language schools and universities with practical student guides."
+            "JP Campus helps international students compare language schools and universities in Japan with practical admissions, cost, and visa guides.",
+            "JP Campus helps international students compare language schools and universities in Japan with practical admissions, cost, and visa guides."
         ),
     })
 
@@ -352,11 +352,14 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "updated_at": default_updated_at(),
         "related_guides": pick_related_guides(item, item_type, lang),
         "meta_title": build_meta_title(
-            item.get("basic_info", {}).get("name_en") or item.get("basic_info", {}).get("name_ja") or "School Guide",
-            lang
+            item.get("title")
+            or item.get("basic_info", {}).get("name_en")
+            or item.get("basic_info", {}).get("name_ja")
+            or "School Guide",
+            lang,
         ),
         "meta_description": build_meta_description(
-            item.get("basic_info", {}).get("address", ""),
+            item.get("description", ""),
             "Compare school details, tuition clues, and student-ready preparation tips."
         ),
     })

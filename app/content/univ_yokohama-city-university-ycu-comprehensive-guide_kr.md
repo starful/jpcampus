@@ -44,13 +44,13 @@
     "Strategic Location in Metropolitan Yokohama"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "요코하마 시립대학교 (Yokohama City University) 안내",
+  "title": "요코하마시립대(YCU) 유학 가이드 2026: 입시요건·학비·EJU 전략",
   "translated": true,
   "tuition": {
     "admission_fee": 282000,
     "yearly_tuition": 535800
   },
-  "description": "요코하마 시립대학교 (YCU)는 일본 요코하마에 위치한 명문 공립 대학입니다. YCU의 위치, 캠퍼스 생활, 학부, 국제 학생 지원 및 학비에 대한 종합적인 안내를 제공합니다."
+  "description": "요코하마시립대 진학을 준비하는 유학생을 위한 2026 실전 가이드입니다. 입시요건, 학비, EJU, 캠퍼스 생활 정보를 정리했습니다."
 }
 ---
 

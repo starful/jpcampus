@@ -36,11 +36,12 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: Musashino Art University
+title: "Musashino Art University Guide 2026: Entry Requirements, Portfolio, Tuition"
 translated: true
 tuition:
   admission_fee: 300000
   yearly_tuition: 1800000
+description: "Plan your MAU application with a 2026-ready guide to portfolio standards, admission requirements, tuition, and student life for internationals."
 ---
 
 ## University Overview & Reputation

@@ -42,11 +42,12 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: Nihon University
+title: "Nihon University Guide 2026: Admission Routes, Tuition, Campus Life for Internationals"
 translated: true
 tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
+description: "Use this 2026 guide to compare Nihon University admission pathways, tuition expectations, and practical campus-life tips for international students."
 ---
 
 ## University Overview

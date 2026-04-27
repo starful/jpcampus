@@ -40,12 +40,12 @@
     "Select English-Taught Graduate Programs (e.g., GSC Program)"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "전기통신대학교 (UEC)",
+  "title": "전기통신대(UEC) 유학 가이드 2026: 공학·컴공 입시·연구실·학비",
   "tuition": {
     "admission_fee": 282000,
     "yearly_tuition": 535800
   },
-  "description": "전기통신대학교(UEC)는 정보학, 공학, 기술 분야에 특화된 일본 국립대학입니다. AI, 로봇공학, 통신 분야에서 높은 명성을 얻고 있습니다."
+  "description": "전기통신대 공학/컴공 진학을 준비하는 유학생을 위한 2026 가이드입니다. 입시, 연구실 선택, 학비 정보를 제공합니다."
 }
 ---
 

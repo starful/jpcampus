@@ -37,11 +37,12 @@ tags:
 - EJU Required for Most Undergraduate Programs
 - Strategic Location in Metropolitan Yokohama
 thumbnail: /static/img/pin-univ.png
-title: Yokohama City University
+title: "Yokohama City University (YCU) Guide 2026: Admission, Tuition, EJU, International Student Tips"
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+description: "A practical 2026 guide to Yokohama City University for international students covering admission requirements, tuition, EJU strategy, and campus life."
 ---
 
 ## University Overview

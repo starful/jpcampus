@@ -43,13 +43,13 @@
     "Scholarship"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "무사시노 미술대학교",
+  "title": "무사시노미술대 유학 가이드 2026: 지원요건·포트폴리오·학비",
   "translated": true,
   "tuition": {
     "admission_fee": 300000,
     "yearly_tuition": 1800000
   },
-  "description": "일본 최고의 명문 사립 미술 대학 중 하나인 무사시노 미술대학교에 대해 알아보세요. 학과, 입학 정보, 캠퍼스 생활 등 유용한 정보를 제공합니다."
+  "description": "무사시노미술대 지원을 위한 2026 실전 가이드입니다. 지원요건, 포트폴리오 준비, 학비, 유학생 생활 포인트를 정리했습니다."
 }
 ---
 

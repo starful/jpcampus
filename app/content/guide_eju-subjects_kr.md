@@ -2,12 +2,12 @@
 {
   "layout": "guide",
   "id": "eju-subjects",
-  "title": "대학교 진학을 위한 EJU 과목 심층 분석",
+  "title": "EJU 과목 선택 가이드 2026: 수학·과학·일본유학과세계 전략",
   "category": "Exam",
   "tags": [
     "Exam"
   ],
-  "description": "일본유학과 세계, 과학, 수학 과목 전략.",
+  "description": "EJU 과목 선택과 점수 전략을 2026 기준으로 정리했습니다. 수학·과학·일본유학과세계 준비법과 대학별 대응 팁을 제공합니다.",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
   "date": "2026-02-13",
   "lang": "kr"

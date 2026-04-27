@@ -49,13 +49,13 @@
     "Scholarship"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "니혼대학교",
+  "title": "니혼대 유학 가이드 2026: 지원 경로·학비·캠퍼스 생활",
   "translated": true,
   "tuition": {
     "admission_fee": 200000,
     "yearly_tuition": 1200000
   },
-  "description": "니혼대학교는 도쿄에 위치한 일본 최대 규모의 사립 연구 대학 중 하나입니다. 다양한 학문 분야와 폭넓은 캠퍼스 네트워크를 자랑합니다."
+  "description": "니혼대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 지원 경로, 학비, 캠퍼스 생활 정보를 한 번에 정리했습니다."
 }
 ---
 

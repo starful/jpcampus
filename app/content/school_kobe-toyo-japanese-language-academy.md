@@ -67,7 +67,7 @@ tags:
 - Design
 - Short-Term
 thumbnail: /static/img/pin-school.png
-title: Kobe Toyo Japanese Language Academy
+title: "Kobe Toyo Japanese Language Academy Guide 2026: Courses, Tuition, University Prep"
 translated: true
 tuition: {}
 ---

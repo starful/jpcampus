@@ -40,13 +40,13 @@
     "Scholarship Opportunities"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "오사카 예술대학교",
+  "title": "오사카예술대 유학 가이드 2026: 포트폴리오·입시·학비·취업",
   "translated": true,
   "tuition": {
     "admission_fee": 330000,
     "yearly_tuition": 1780000
   },
-  "description": "오사카 예술대학교는 간사이 지역 최고의 종합 예술 대학으로, 일본의 창작 산업에서 높은 명성을 얻고 있습니다. 다양한 예술 분야에서 실무 중심의 교육을 제공하며, 국제 학생에게 다양한 기회를 제공합니다."
+  "description": "오사카예술대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 포트폴리오, 입시절차, 학비, 진로 정보를 담았습니다."
 }
 ---
 

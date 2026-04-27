@@ -1,14 +1,14 @@
 ---
 category: Housing
 date: '2026-01-01'
-description: Pros and cons of housing types and initial costs.
+description: "Compare dorms, share houses, and apartments in Japan with real startup costs, monthly budgets, contract risks, and move-in tips for international students."
 id: housing
 lang: en
 layout: guide
 tags:
 - Housing
 thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
-title: Dorm vs Share House vs Apartment
+title: "Japan Student Housing Guide 2026: Dorm vs Share House vs Apartment (Cost & Contract)"
 ---
 
 ## Finding Your Home Away From Home: A Guide to Housing Options for International Students in Japan

@@ -49,13 +49,13 @@
     "Scholarship"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "큐슈대학교",
+  "title": "규슈대 유학 가이드 2026: 유학생 입시·학비·장학금 전략",
   "translated": true,
   "tuition": {
     "admission_fee": 282000,
     "yearly_tuition": 535800
   },
-  "description": "일본 후쿠오카에 위치한 명문 국립대학교, 큐슈대학교에 대해 알아보세요. 다양한 학부 및 국제학생 지원 정보를 제공합니다."
+  "description": "규슈대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 입시 경로, 학비 계획, 장학금 전략을 정리했습니다."
 }
 ---
 

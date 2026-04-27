@@ -2,12 +2,12 @@
 {
   "layout": "guide",
   "id": "eju-subjects",
-  "title": "Deep Dive into EJU Subjects for University",
+  "title": "EJU Subjects Guide 2026: Math, Science, Japan & the World Study Strategy",
   "category": "Exam",
   "tags": [
     "Exam"
   ],
-  "description": "Strategies for Japan and the World, Science, and Math.",
+  "description": "Master EJU subject selection and scoring with a clear 2026 strategy for Math, Science, and Japan & the World, including university-fit planning.",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
   "date": "2026-02-13"
 }

@@ -7,7 +7,7 @@
     "website": "https://www.kindai.ac.jp/"
   },
   "category": "university",
-  "description": "일본의 명문 사립 대학인 긴키대학교를 탐험해보세요. 뛰어난 학문적 성과, 혁신적인 연구, 글로벌 관점에 대한 헌신으로 유명합니다. 다양한 학부, 영어 프로그램, 유학생 지원 등을 알아보세요.",
+  "description": "긴키대 진학을 고민하는 유학생을 위한 2026 가이드입니다. 인기 학과, 지원요건, 학비, 학교 선택 포인트를 다룹니다.",
   "faculties": [
     "Faculty of Law",
     "Faculty of Economics",
@@ -49,7 +49,7 @@
     "Scholarship"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "긴키대학교 (Kindai University)",
+  "title": "긴키대(킨다이) 유학 가이드 2026: 인기학과·입시·학비",
   "translated": true,
   "tuition": {
     "admission_fee": 200000,

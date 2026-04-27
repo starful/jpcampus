@@ -2,7 +2,7 @@
 {
   "category": "Housing",
   "date": "2026-01-01",
-  "description": "다양한 주거 형태의 장단점과 초기 비용에 대한 안내입니다.",
+  "description": "일본 유학생이 꼭 알아야 할 기숙사, 쉐어하우스, 원룸의 초기비용·월세·계약 리스크를 2026 기준으로 비교 정리했습니다.",
   "id": "housing",
   "lang": "kr",
   "layout": "guide",
@@ -10,7 +10,7 @@
     "Housing"
   ],
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "title": "기숙사 vs 쉐어하우스 vs 아파트",
+  "title": "일본 유학생 주거 완벽 비교 2026: 기숙사·쉐어하우스·원룸 비용/계약",
   "features": [
     "다양한 주거 옵션 비교",
     "초기 비용 및 월세 정보",

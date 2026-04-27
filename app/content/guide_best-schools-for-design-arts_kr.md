@@ -2,7 +2,7 @@
 {
   "category": "Curated List",
   "date": "2026-01-28",
-  "description": "애니메이션, 만화, 디자인 분야 최고의 학교 4곳을 엄선하여 추천해 드립니다.",
+  "description": "디자인·미술 유학을 준비하는 유학생을 위해 2026 기준 추천 4개 학교를 입시, 포트폴리오, 진로 관점에서 비교했습니다.",
   "id": "best-schools-for-design-arts",
   "is_featured": true,
   "lang": "kr",
@@ -13,7 +13,7 @@
     "Design"
   ],
   "thumbnail": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=500",
-  "title": "애니메이션, 만화, 디자인 분야 최고의 학교 4곳",
+  "title": "일본 디자인·미술 유학 추천 2026: 유학생을 위한 4개 학교 비교",
   "basic_info": {
     "name_en": "Best 4 Schools for Animation, Manga, and Design"
   }

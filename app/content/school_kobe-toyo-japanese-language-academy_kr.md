@@ -49,7 +49,7 @@
       "total_fees": 881000
     }
   ],
-  "description": "고베 토요 일본어 학원에서 일본어를 배워보세요. 종합적인 일본어 교육, 대학 진학 준비, 그리고 든든한 학습 환경을 제공합니다.",
+  "description": "고베동양일본어학원의 2026 코스 구성, 학비, 대학진학 준비 강점을 유학생 관점에서 정리한 가이드입니다.",
   "faculties": [],
   "features": [
     "기숙사",
@@ -88,7 +88,7 @@
     "Short-Term"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "고베 토요 일본어 학원",
+  "title": "고베동양일본어학원 가이드 2026: 코스·학비·대학진학 준비",
   "translated": true,
   "tuition": {}
 }
