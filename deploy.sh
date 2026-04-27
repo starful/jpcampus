@@ -177,6 +177,6 @@ echo -e "${BOLD}${GREEN}  🎉 JPCampus 작업 완료${NC}"
 echo -e "  ⏱️  총 소요 시간  : $(( ELAPSED / 60 ))분 $(( ELAPSED % 60 ))초"
 echo -e "  🌐 사이트 주소   : ${SITE_DOMAIN}"
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
+if [[ "$OSTYPE" == "darwin"* ]] && [[ "${AUTO_REGISTER_RUN:-0}" != "1" ]]; then
     osascript -e 'display notification "JPCampus 배포 스크립트 완료" with title "Deploy"' 2>/dev/null || true
 fi
