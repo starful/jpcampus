@@ -103,24 +103,32 @@
 <footer class="main-footer">
     <!-- [신규 추가] 패밀리 사이트 배너 섹션 -->
     <div class="family-sites-container" style="margin-bottom: 50px; padding: 0 24px;">
-        <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700;">
+        <p style="font-size: 0.72rem; color: #94a3b8; margin-bottom: 18px; text-transform: uppercase; letter-spacing: 2px; font-weight: 700;">
             {{ '일본 생활 더 알아보기' if current_lang == 'kr' else 'Explore More of Japan' }}
         </p>
-        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-            <!-- OK Ramen 배너 -->
-            <a href="https://okramen.net/" target="_blank" rel="noopener" class="stat-pill" style="text-decoration: none; border-color: #334155; background-color: #1e293b; padding: 12px 24px; transition: all 0.3s ease;">
-                <span style="font-size: 1.2rem; margin-right: 8px;">🍜</span>
-                <div style="text-align: left;">
-                    <div style="font-size: 0.9rem; font-weight: 800; color: white;">OK Ramen</div>
-                    <div style="font-size: 0.7rem; color: #94a3b8;">{{ '일본 라멘 맛집 가이드' if current_lang == 'kr' else 'Japan Ramen Guide' }}</div>
+        <div class="family-sites-row" style="display: flex; justify-content: center; align-items: stretch; gap: 14px; flex-wrap: wrap;">
+            <!-- OK Ramen -->
+            <a href="https://okramen.net/" target="_blank" rel="noopener noreferrer" class="family-site-card stat-pill" style="display: flex; align-items: center; text-decoration: none; border: 1px solid #334155; border-radius: 12px; background-color: #1e293b; padding: 14px 22px; min-width: 200px; max-width: 280px; flex: 1 1 200px; transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;">
+                <span style="font-size: 1.35rem; margin-right: 12px; line-height: 1;" aria-hidden="true">🍜</span>
+                <div style="text-align: left; min-width: 0;">
+                    <div style="font-size: 0.95rem; font-weight: 800; color: #fff; letter-spacing: -0.02em;">OK Ramen</div>
+                    <div style="font-size: 0.72rem; color: #94a3b8; margin-top: 2px; line-height: 1.35;">{{ '일본 라멘 맛집 가이드' if current_lang == 'kr' else 'Japan Ramen Guide' }}</div>
                 </div>
             </a>
-            <!-- OK Onsen 배너 -->
-            <a href="https://okonsen.net/" target="_blank" rel="noopener" class="stat-pill" style="text-decoration: none; border-color: #334155; background-color: #1e293b; padding: 12px 24px; transition: all 0.3s ease;">
-                <span style="font-size: 1.2rem; margin-right: 8px;">♨️</span>
-                <div style="text-align: left;">
-                    <div style="font-size: 0.9rem; font-weight: 800; color: white;">OK Onsen</div>
-                    <div style="font-size: 0.7rem; color: #94a3b8;">{{ '온천 & 료칸 완벽 가이드' if current_lang == 'kr' else 'Onsen & Ryokan Guide' }}</div>
+            <!-- OK Onsen -->
+            <a href="https://okonsen.net/" target="_blank" rel="noopener noreferrer" class="family-site-card stat-pill" style="display: flex; align-items: center; text-decoration: none; border: 1px solid #334155; border-radius: 12px; background-color: #1e293b; padding: 14px 22px; min-width: 200px; max-width: 280px; flex: 1 1 200px; transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;">
+                <span style="font-size: 1.35rem; margin-right: 12px; line-height: 1;" aria-hidden="true">♨️</span>
+                <div style="text-align: left; min-width: 0;">
+                    <div style="font-size: 0.95rem; font-weight: 800; color: #fff; letter-spacing: -0.02em;">OK Onsen</div>
+                    <div style="font-size: 0.72rem; color: #94a3b8; margin-top: 2px; line-height: 1.35;">{{ '온천 & 료칸 완벽 가이드' if current_lang == 'kr' else 'Onsen & Ryokan Guide' }}</div>
+                </div>
+            </a>
+            <!-- OKCaddie -->
+            <a href="https://okcaddie.net/" target="_blank" rel="noopener noreferrer" class="family-site-card stat-pill" style="display: flex; align-items: center; text-decoration: none; border: 1px solid #334155; border-radius: 12px; background-color: #1e293b; padding: 14px 22px; min-width: 200px; max-width: 280px; flex: 1 1 200px; transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;">
+                <span style="font-size: 1.35rem; margin-right: 12px; line-height: 1;" aria-hidden="true">⛳</span>
+                <div style="text-align: left; min-width: 0;">
+                    <div style="font-size: 0.95rem; font-weight: 800; color: #fff; letter-spacing: -0.02em;">OKCaddie</div>
+                    <div style="font-size: 0.72rem; color: #94a3b8; margin-top: 2px; line-height: 1.35;">{{ '일본 골프장 지도 & 가이드' if current_lang == 'kr' else 'Japan Golf Course Map' }}</div>
                 </div>
             </a>
         </div>

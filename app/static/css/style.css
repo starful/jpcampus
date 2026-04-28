@@ -302,6 +302,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .footer-links a { color: #cbd5e1; font-weight: 500; }
 .footer-links a:hover { color: white; }
 
+.family-site-card:hover {
+    transform: translateY(-2px);
+    border-color: #475569 !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+}
+
 /* --- [10] 반응형 (모바일 중앙 정렬 최적화) --- */
 @media (max-width: 1024px) {
     .main-header { flex-wrap: wrap; height: auto; padding: 15px; }
