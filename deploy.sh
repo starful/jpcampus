@@ -137,7 +137,7 @@ done
 
 cd "$PROJECT_ROOT"
 START_TIME=$SECONDS
-clear
+if [ -t 1 ]; then clear; fi
 
 print_info "Mode: $MODE"
 print_info "Site: $SITE_DOMAIN"
