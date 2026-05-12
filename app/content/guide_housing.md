@@ -1,19 +1,19 @@
 ---
 category: Housing
 date: '2026-01-01'
-description: "Compare dorms, share houses, and apartments in Japan with real startup costs, monthly budgets, contract risks, and move-in tips for international students."
+description: "Dorms, share houses, and private apartments in Japan compared: key money, deposits, monthly rent, contract risks, and a move-in checklist for international students."
 id: housing
 lang: en
 layout: guide
 tags:
 - Housing
 thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
-title: "Japan Student Housing Guide 2026: Dorm vs Share House vs Apartment (Cost & Contract)"
+title: "Japan Housing: Dorms, Share House, Apartment"
 ---
 
-## Finding Your Home Away From Home: A Guide to Housing Options for International Students in Japan
+## Japan housing for international students: dorms, share houses, and apartments
 
-Choosing where to live is one of the most important decisions you'll make as an international student in Japan. Your living situation will directly impact your budget, social life, and overall experience. Luckily, you have several options: school dormitories, share houses, and private apartments. Each comes with its own set of advantages and disadvantages, and the best choice for you will depend on your individual needs and preferences. This guide will break down each option, covering initial costs, monthly rent, pros, and cons, helping you make an informed decision and start your Japanese adventure on the right foot.
+Choosing housing in Japan affects your budget, commute, and daily stress. Most students pick **school dormitories (ryo)**, **share houses**, or **private apartments**—this guide compares **upfront costs**, **monthly rent**, **contracts**, and **tradeoffs** so you can choose confidently.
 
 ## School Dormitories: A Convenient Starting Point
 

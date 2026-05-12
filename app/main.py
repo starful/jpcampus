@@ -118,20 +118,6 @@ _HIGH_CTR_GUIDE_SLUGS = frozenset({"coe-denial", "university-clubs"})
 
 # 저CTR·고노출 위주 SERP 메타만 덮어씀 (slug, "en"|"kr").
 _GUIDE_SERP_OVERRIDES: dict[tuple[str, str], dict[str, str]] = {
-    ("housing", "en"): {
-        "title": "Japan Student Housing: Dorms vs Share House vs Apartment (2026 Costs)",
-        "description": (
-            "Compare dorm, share house, and private apartments in Japan: deposits, key money, "
-            "monthly rent, contract risks, and a move-in checklist for international students."
-        ),
-    },
-    ("housing", "kr"): {
-        "title": "일본 유학 주거 비교: 기숙사·쉐어하우스·원룸 비용·계약 체크리스트",
-        "description": (
-            "기숙사·쉐어하우스·원룸의 초기비용·월세·계약 유의사항을 비교하고, 유학생에게 맞는 "
-            "선택 기준을 한눈에 정리했습니다."
-        ),
-    },
     ("amazon-prime-student", "en"): {
         "title": "Amazon Prime Student Japan: Price, Benefits & Eligibility (2026)",
         "description": (
