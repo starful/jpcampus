@@ -3,6 +3,12 @@
 {# [수정] 헤더 숨김 처리 #}
 {% block header %}{% endblock %}
 
+{% block head_extra %}
+{% if faq_json_ld %}
+<script type="application/ld+json">{{ faq_json_ld|safe }}</script>
+{% endif %}
+{% endblock %}
+
 {% block content %}
 {# [수정] 상단 여백 축소 (40px) #}
 <main class="detail-container" style="margin-top: 40px;">
