@@ -36,13 +36,19 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: "Musashino Art University Guide 2026: Entry Requirements, Portfolio, Tuition"
+title: Musashino Art University (MAU) 2026 Admission Guide
 translated: true
 tuition:
   admission_fee: 300000
   yearly_tuition: 1800000
-description: "Plan your MAU application with a 2026-ready guide to portfolio standards, admission requirements, tuition, and student life for internationals."
+description: Your ultimate guide to entering Musashino Art University (MAU) in 2026.
+  Discover crucial details on international admissions, portfolio requirements, exams,
+  and tuition fees.
+seo_title: 'Musashino Art University 2026: Entry & Portfolio | jpcampus'
+seo_description: Master your Musashino Art University (MAU) 2026 application. Get
+  expert tips on portfolio requirements, international admissions, tuition, and exams.
 ---
+
 
 ## University Overview & Reputation
 

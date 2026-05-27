@@ -103,19 +103,8 @@ git_push_changes() {
 
 deploy_cloud_run() {
     print_step "STEP E  |  Cloud Build 배포"
-    set -a
-    source ".env"
-    set +a
-
-    if [ -n "${GOOGLE_MAPS_API_KEY:-}" ]; then
-        gcloud builds submit \
-          --config=cloudbuild.yaml \
-          --project "$GCP_PROJECT_ID" \
-          --substitutions="_GOOGLE_MAPS_API_KEY=${GOOGLE_MAPS_API_KEY}"
-    else
-        print_warn "GOOGLE_MAPS_API_KEY 없음, substitutions 없이 배포 진행"
-        gcloud builds submit --config=cloudbuild.yaml --project "$GCP_PROJECT_ID"
-    fi
+    # Maps API 키는 cloudbuild.yaml → Secret Manager (JPCAMPUS_GOOGLE_MAPS_API_KEY) 로 주입
+    gcloud builds submit --config=cloudbuild.yaml --project "$GCP_PROJECT_ID"
     print_ok "Cloud Build 배포 완료"
 }
 
