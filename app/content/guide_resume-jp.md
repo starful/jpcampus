@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "resume-jp",
-  "title": "Writing a Japanese Resume ('Rirekisho')",
+  "title": "How to Write a Japanese Resume (Rirekisho): Complete Guide",
   "category": "Career",
   "tags": [
     "Career"
   ],
-  "description": "Guide to the standard format and key sections.",
+  "description": "A comprehensive, step-by-step guide to mastering the Japanese resume (Rirekisho), featuring standard formats, section-by-section tips, and common mistakes to avoid.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-02-13"
+  "date": "2026-02-13",
+  "seo_title": "How to Write a Japanese Resume (Rirekisho) | 2026 Guide",
+  "seo_description": "Step-by-step guide to writing a perfect Japanese resume (Rirekisho). Learn standard formatting, key sections, and tips to land your dream job in Japan."
 }
 ---
+
 
 # Mastering the Japanese Resume: A Comprehensive Guide to the 'Rirekisho'
 
