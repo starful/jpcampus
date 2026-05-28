@@ -10,7 +10,7 @@ layout: guide
 tags:
 - Ranking
 - Recommendation
-thumbnail: https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500
+thumbnail: https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=1200
 title: Top 5 Tokyo Language Schools for Japanese University Prep
 seo_title: Top 5 Tokyo Language Schools for University Prep | JP Campus
 seo_description: Want to enter a Japanese university? Discover the top 5 language

@@ -33,6 +33,17 @@
         {% endif %}
     </div>
 
+    {% if item_type == 'guide' and item.get('thumbnail') %}
+    <figure class="detail-guide-hero">
+        <img
+            src="{{ item.get('thumbnail') }}"
+            alt="{{ item.get('title', 'Guide thumbnail') }}"
+            loading="eager"
+            decoding="async"
+        >
+    </figure>
+    {% endif %}
+
     {# 학교/대학 정보 그리드 #}
     {% if item_type != 'guide' %}
     <div class="info-grid">
