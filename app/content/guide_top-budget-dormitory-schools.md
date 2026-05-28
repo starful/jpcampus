@@ -1,8 +1,8 @@
 ---
 category: Curated List
 date: '2026-01-15'
-description: Check out our curated list of the Top 5 Budget-Friendly Schools with
-  Dormitories.
+description: Want to study in Japan without breaking the bank? Explore our top 5 budget-friendly
+  schools with cheap, safe dormitories. Read our 2026 guide!
 id: top-budget-dormitory-schools
 is_featured: true
 lang: en
@@ -11,8 +11,12 @@ tags:
 - Ranking
 - Recommendation
 thumbnail: https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=500
-title: Top 5 Budget-Friendly Schools with Dormitories
+title: Top 5 Budget-Friendly Schools in Japan with Dormitories (2026)
+seo_title: Top 5 Budget-Friendly Schools in Japan with Dorms (2026) | JP Campus
+seo_description: Want to study in Japan without breaking the bank? Explore our top
+  5 budget-friendly schools with cheap, safe dormitories. Read our 2026 guide!
 ---
+
 
 # Top 5 Budget-Friendly Schools with Dormitories
 

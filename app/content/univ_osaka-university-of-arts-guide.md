@@ -33,13 +33,18 @@ tags:
 - Arts Focus
 - Scholarship Opportunities
 thumbnail: /static/img/pin-univ.png
-title: "Osaka University of Arts Guide 2026: Portfolio, Admission, Tuition, Career Path"
+title: 'Osaka University of Arts 2026: Complete International Student Guide'
 translated: true
 tuition:
   admission_fee: 330000
   yearly_tuition: 1780000
-description: "A 2026 international student guide to Osaka University of Arts with portfolio prep, admission flow, tuition planning, and career outcomes."
+description: Your complete 2026 guide to Osaka University of Arts. Learn portfolio
+  requirements, admission steps, tuition, and insider tips for international students.
+seo_title: 'Osaka University of Arts 2026: Portfolio & Admission Guide'
+seo_description: Your complete 2026 guide to Osaka University of Arts. Learn portfolio
+  requirements, admission steps, tuition, and insider tips for international students.
 ---
+
 
 ## University Overview & Reputation
 

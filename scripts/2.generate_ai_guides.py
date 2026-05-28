@@ -16,7 +16,13 @@ INPUT_CSV = os.path.join(DATA_DIR, "guide_topics.csv")
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "guide_processed_history.txt")
 
-LIMIT = 12        # 한 번 실행 시 생성할 최대 개수
+def _guide_batch_limit() -> int:
+    raw = os.getenv("GUIDE_LIMIT", "3").strip()
+    try:
+        n = int(raw)
+    except ValueError:
+        n = 3
+    return 3 if n <= 0 else n
 MAX_WORKERS = 3    # 동시에 작성할 가이드 수 (긴 텍스트 생성이므로 2~4 권장)
 
 THUMBNAILS = {
@@ -127,7 +133,7 @@ def main():
 
     processed_slugs = load_history()
     topics_to_process = [row for row in all_topics if row['slug'] not in processed_slugs]
-    topics_to_process = topics_to_process[:LIMIT]
+    topics_to_process = topics_to_process[: _guide_batch_limit()]
     
     print(f"🚀 Total: {len(all_topics)} | Processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
     print(f"⚡ Running with {MAX_WORKERS} workers...")

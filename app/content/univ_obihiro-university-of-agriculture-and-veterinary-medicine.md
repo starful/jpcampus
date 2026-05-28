@@ -40,9 +40,13 @@
     "Joint Veterinary Program with Hokkaido University",
     "Located in the Tokachi region, Japan's primary food production hub",
     "Home to the National Research Center for Protozoan Diseases"
-  ]
+  ],
+  "description": "Compare Obihiro University of Agriculture and Veterinary Medicine tuition, admissions, and program details for 2026 international students.",
+  "seo_title": "Obihiro University of Agriculture & Veterinary Medicine 2026",
+  "seo_description": "Thinking of studying in Japan? Find 2026 tuition fees, admission requirements, and student guides for Obihiro University of Agriculture & Vet Medicine."
 }
 ---
+
 
 ## 🏫 University Overview
 

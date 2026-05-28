@@ -47,12 +47,14 @@ translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-description: Apply to Kyushu University in 2026! Your complete guide to international
-  admission requirements, English programs, tuition, and scholarships.
-seo_title: 'Kyushu University 2026: Admission & Tuition Guide | JPCampus'
-seo_description: Apply to Kyushu University in 2026! Your complete guide to international
-  admission requirements, English-taught programs, tuition, and scholarships.
+description: Your complete guide to international admission at Kyushu University.
+  Learn about English-taught programs, tuition fees, scholarships, and application
+  requirements.
+seo_title: 'Kyushu University: 2026 International Admission Guide | JP Campus'
+seo_description: Get the 2026 Kyushu University international admission guide. Learn
+  about English-taught programs, tuition, scholarships, and application steps.
 ---
+
 
 
 ## 🏫 University Overview
