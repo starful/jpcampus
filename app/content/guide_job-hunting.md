@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "job-hunting",
-  "title": "'Shukatsu': The Japanese Job-Hunting Process",
+  "title": "Shukatsu Guide 2026: Master Japanese Job-Hunting",
   "category": "Career",
   "tags": [
     "Career"
   ],
-  "description": "Understanding entry sheets, SPI tests, and group interviews.",
+  "description": "Navigate the complex Japanese job-hunting process (Shukatsu). From entry sheets to SPI tests and interviews, we guide you step-by-step to career success.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-02-13"
+  "date": "2026-02-13",
+  "seo_title": "Shukatsu 2026: How to Get a Job in Japan | JP Campus",
+  "seo_description": "Master Shukatsu in Japan. Learn how to ace entry sheets, pass SPI tests, and nail interviews with our step-by-step Japanese job-hunting guide."
 }
 ---
+
 
 # 'Shukatsu': Navigating the Unique Japanese Job-Hunting Process
 

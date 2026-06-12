@@ -31,12 +31,18 @@ tags:
 - EJU Required
 - Limited English Programs (Primarily Japanese Instruction)
 thumbnail: /static/img/pin-univ.png
-title: Okinawa International University
+title: Okinawa International University (OKIU)
 translated: true
 tuition:
   admission_fee: 220000
   yearly_tuition: 750000
+description: Explore Okinawa International University (OKIU). Find 2026 tuition, admission
+  requirements, scholarships, and student reviews.
+seo_title: 'Okinawa International Univ. (OKIU): 2026 Guide | JP Campus'
+seo_description: Plan your study at Okinawa International University. Get official
+  2026 tuition fees, admission requirements, scholarships, and student reviews.
 ---
+
 
 ## University Overview
 

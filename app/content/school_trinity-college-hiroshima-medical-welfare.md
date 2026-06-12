@@ -44,10 +44,16 @@ tags:
 - Highly Personalized Instruction Due to Small Capacity
 - Targeted Caregiving/Welfare Progression Course
 thumbnail: /static/img/pin-school.png
-title: Trinity College Hiroshima Medical and Welfare Vocational School (Japanese Language
-  Department)
+title: Trinity College Hiroshima Medical and Welfare Vocational School (2026)
 tuition: {}
+description: Explore Trinity College Hiroshima Medical & Welfare Vocational School.
+  Find 2026 Japanese course tuition, requirements, and admission info on JP Campus.
+seo_title: Trinity College Hiroshima Medical & Welfare Vocational School (2026) |
+  JP Campus
+seo_description: Explore Trinity College Hiroshima Medical & Welfare Vocational School.
+  Find 2026 Japanese course tuition, requirements, and admission info on JP Campus.
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

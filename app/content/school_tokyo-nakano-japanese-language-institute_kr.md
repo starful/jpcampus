@@ -24,7 +24,7 @@
       "total_fees": 1086000
     }
   ],
-  "description": "동경 나카노 일본어학원은 EJU 시험 대비와 이공계 커리큘럼을 전문적으로 제공하며, 대학 진학 및 실용적인 회화 능력 향상에 중점을 두고 있습니다.",
+  "description": "동경 나카노 일본어학원의 2026년 최신 학비, EJU 및 이공계 대학 진학 특화 커리큘럼, 추천 유학 코스 정보를 JP Campus에서 쉽고 빠르게 비교해 보세요!",
   "faculties": [],
   "features": [
     "체계적인 대학 및 전문학교 진학 지원",
@@ -51,11 +51,14 @@
     "Strong Emphasis on Practical Conversational Skills"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "동경 나카노 일본어학원",
+  "title": "동경 나카노 일본어학원 (Tokyo Nakano Japanese Language Institute)",
   "translated": true,
-  "tuition": {}
+  "tuition": {},
+  "seo_title": "동경 나카노 일본어학원(도쿄) 학비·EJU 이공계 진학 정보 | JP Campus",
+  "seo_description": "[2026 모집] 동경 나카노 일본어학원(도쿄 나카노 일본어학교)의 학비, EJU 시험 대비, 이공계 대학 진학 코스 및 생생한 유학 후기를 JP Campus에서 확인해 보세요!"
 }
 ---
+
 
 ## 학교 개요 및 철학
 

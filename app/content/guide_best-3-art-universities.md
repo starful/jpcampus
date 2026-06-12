@@ -1,8 +1,9 @@
 ---
 category: Curated List
 date: '2026-01-15'
-description: Check out our curated list of the 3 Best Art Universities in Japan for
-  Foreigners.
+description: Discover the top 3 art universities in Japan for international students.
+  Learn about English-taught creative programs, portfolio requirements, and how to
+  apply.
 id: best-3-art-universities
 is_featured: true
 lang: en
@@ -11,8 +12,12 @@ tags:
 - Ranking
 - Recommendation
 thumbnail: https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500
-title: 3 Best Art Universities in Japan for Foreigners
+title: Top 3 Art Universities in Japan for International Students (2026)
+seo_title: Top 3 Art Universities in Japan for International Students
+seo_description: Want to study art in Japan? Discover the top 3 art universities for
+  international students, including English programs, portfolios, and admissions.
 ---
+
 
 ### 3 Best Art Universities in Japan for Foreigners
 

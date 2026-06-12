@@ -36,10 +36,16 @@ tags:
 - EJU Preparation
 - Short-Term Courses
 thumbnail: /static/img/pin-school.png
-title: Abeno Japanese Language School
+title: Abeno Japanese Language School (Osaka)
 translated: true
 tuition: {}
+description: An in-depth guide to Abeno Japanese Language School in Osaka, featuring
+  updated 2026 tuition fees, course options, admission requirements, and student reviews.
+seo_title: 'Abeno Japanese Language School (Osaka): 2026 Fees | JP Campus'
+seo_description: Planning to study in Osaka? Get Abeno Japanese Language School's
+  2026 tuition fees, courses, visa requirements, and honest student reviews.
 ---
+
 
 ## School Overview
 

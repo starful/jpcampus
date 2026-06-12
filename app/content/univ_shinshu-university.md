@@ -34,12 +34,18 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: Shinshu University
+title: 'Shinshu University 2026: Admissions, Tuition & Guide'
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+description: Discover Shinshu University. Get updated 2026 info on international student
+  admissions, tuition fees, scholarships, and campus life on JP Campus.
+seo_title: 'Shinshu University 2026: Admissions, Tuition & Guide | JP Campus'
+seo_description: Discover Shinshu University. Get updated 2026 info on international
+  student admissions, tuition fees, scholarships, and campus life on JP Campus.
 ---
+
 
 ## University Overview & Reputation
 

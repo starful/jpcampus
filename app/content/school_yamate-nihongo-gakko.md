@@ -46,10 +46,16 @@ tags:
 - Scholarships
 - Science Focus
 thumbnail: /static/img/pin-school.png
-title: Yamate Japanese Language School
+title: Yamate Japanese Language School (Saitama)
 translated: true
 tuition: {}
+description: Complete guide to Yamate Japanese Language School in Saitama. Explore
+  tuition fees, course details, admission requirements, and student reviews.
+seo_title: Yamate Japanese Language School (Saitama) | Tuition & Admission
+seo_description: Learn about Yamate Japanese Language School in Saitama. Find tuition
+  fees, visa requirements, courses, and student reviews on JP Campus.
 ---
+
 
 ## School Overview
 

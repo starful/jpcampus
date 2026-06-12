@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_otaru-university-of-commerce-guide",
-  "title": "Otaru University of Commerce",
+  "title": "Otaru University of Commerce: 2026 Guide for International Students",
   "category": "university",
   "tags": [
     "Japan's only national university specializing in commerce",
@@ -41,9 +41,13 @@
     "Historical legacy since 1910",
     "Exceptional graduate employment rates",
     "Scenic campus overlooking the Sea of Japan"
-  ]
+  ],
+  "description": "Planning to study at Otaru University of Commerce? Find official tuition fees, admission requirements, and campus life guides for international students.",
+  "seo_title": "Otaru University of Commerce Guide: Tuition & Admissions | JP Campus",
+  "seo_description": "Planning to study at Otaru University of Commerce? Find official tuition fees, admission requirements, and campus life guides for international students."
 }
 ---
+
 
 ## 🏫 University Overview
 

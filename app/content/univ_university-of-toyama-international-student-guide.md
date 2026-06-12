@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_university-of-toyama-international-student-guide",
-  "title": "University of Toyama",
+  "title": "University of Toyama International Student Guide",
   "category": "university",
   "tags": [
     "World-Class Pharmacy and Drug Discovery Research",
@@ -45,9 +45,13 @@
     "Strategic Industry-Academia Collaboration in Aluminum and Manufacturing",
     "Comprehensive National University with 9 Specialized Faculties",
     "Unique Sustainable Design Faculty focusing on Environmental Harmony"
-  ]
+  ],
+  "description": "Explore the comprehensive guide for international students at the University of Toyama. Find details on tuition, admissions, scholarships, and student life.",
+  "seo_title": "University of Toyama International Student Guide 2026 | JP Campus",
+  "seo_description": "Your complete 2026 guide to the University of Toyama. Learn about tuition fees, admission requirements, scholarships, and student life in Japan."
 }
 ---
+
 
 ## 🏫 University Overview: The Jewel of the Hokuriku Region
 

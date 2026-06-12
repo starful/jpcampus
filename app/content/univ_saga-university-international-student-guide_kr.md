@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_saga-university-international-student-guide",
-  "title": "사가 대학교",
+  "title": "사가대학교 외국인 유학생 가이드",
   "category": "university",
   "tags": [
     "Unique Art and Regional Design Program",
@@ -43,10 +43,13 @@
     "사가 대학교 학술 교류 프로그램 (SPACE)",
     "지역 산업과의 강력한 연계"
   ],
-  "description": "규슈 사가현에 위치한 사가 대학교에 대한 종합 안내입니다. 프로그램, 학비, 캠퍼스 생활, 입학 정보 등을 자세히 알아보세요.",
-  "lang": "kr"
+  "description": "일본 국립 사가대학교(Saga University)의 2026년 외국인 유학생 입학 정보, 학비, 장학금, 추천 학부 및 캠퍼스 생활을 담은 종합 유학 가이드입니다.",
+  "lang": "kr",
+  "seo_title": "[2026] 사가대학교 유학 가이드: 국립대 학비·입학·장학금 | JP Campus",
+  "seo_description": "일본 국립 사가대학교(Saga University)의 2026년 외국인 유학생 입학 가이드. 학비 감면, 장학금 혜택, 학부 정보 및 캠퍼스 생활을 확인해 보세요."
 }
 ---
+
 
 ## 🏫 대학교 개요: 규슈 지식의 관문
 

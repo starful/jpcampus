@@ -30,9 +30,8 @@ courses:
 - admission_month: '1'
   course_name: 冬コースⅡ
   total_fees: 881000
-description: Learn Japanese in the beautiful port city of Kobe. Kobe Toyo Japanese
-  Language Academy offers top-tier EJU/JLPT preparation, higher education pathways,
-  and comprehensive student support.
+description: Apply to Kobe Toyo Japanese Language Academy for 2026. Find courses,
+  tuition fees, student reviews, and visa support for your study in Kobe, Japan.
 faculties: []
 features:
 - Dormitory
@@ -70,10 +69,11 @@ thumbnail: /static/img/pin-school.png
 title: Kobe Toyo Japanese Language Academy
 translated: true
 tuition: {}
-seo_title: 'Kobe Toyo Japanese Language Academy: 2026 Fees & Courses'
-seo_description: Looking to study in Kobe? Check 2026 tuition fees, courses, and student
-  reviews for Kobe Toyo Japanese Language Academy. Get free support on JPCampus!
+seo_title: Kobe Toyo Japanese Language Academy | 2026 Admission & Fees
+seo_description: Apply to Kobe Toyo Japanese Language Academy for 2026. Find courses,
+  tuition fees, student reviews, and visa support for your study in Kobe, Japan.
 ---
+
 
 
 ## School Overview

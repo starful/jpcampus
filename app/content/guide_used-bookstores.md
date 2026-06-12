@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "used-bookstores",
-  "title": "Saving on Textbooks: A Guide to Used Bookstores",
+  "title": "How to Find Cheap Textbooks in Japan: A Guide to Used Bookstores",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Finding cheap books at Book Off and other stores.",
+  "description": "Learn how to save money on university textbooks in Japan. Discover the best secondhand bookstores, online shops, and cheap English book resources.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-03-15"
+  "date": "2026-03-15",
+  "seo_title": "Cheap Textbooks in Japan: Best Used Bookstores Guide",
+  "seo_description": "Looking for cheap textbooks in Japan? Discover the best used bookstores like Book Off and online shops to save money on university books."
 }
 ---
+
 
 # Saving on Textbooks: A Comprehensive Guide to Used Bookstores for International Students in Japan
 

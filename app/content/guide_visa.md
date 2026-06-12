@@ -1,15 +1,20 @@
 ---
 category: Visa
 date: '2026-01-01'
-description: Step-by-step guide from COE to Visa issuance.
+description: How to get a Japan student visa in 2026. Step-by-step guide to COE requirements,
+  application documents, and Japanese embassy procedures.
 id: visa
 lang: en
 layout: guide
 tags:
 - Visa
 thumbnail: https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500
-title: Student Visa Application Guide (A to Z)
+title: Japan Student Visa Application Guide (COE to Visa)
+seo_title: 'Japan Student Visa Guide 2026: Step-by-Step | JP Campus'
+seo_description: How to get a Japan student visa in 2026. Step-by-step guide to COE
+  requirements, application documents, and Japanese embassy procedures.
 ---
+
 
 Embarking on a journey to study in Japan is an exciting and life-changing experience. However, navigating the visa application process can seem daunting. This comprehensive guide will walk you through each step, from applying to a school to finally receiving your student visa, with a specific focus on the April intake. Let's demystify the process and set you on the path to your Japanese academic adventure!
 

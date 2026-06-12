@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "part-time-tax",
-  "title": "Taxes and the '1.03 Million Yen Wall'",
+  "title": "Japan Part-Time Job Tax: Understanding the 1.03 Million Yen Limit",
   "category": "Part-time",
   "tags": [
     "Part-time"
   ],
-  "description": "Understanding income tax for your part-time job.",
+  "description": "A complete guide to part-time job taxes in Japan. Learn how the 1.03 million yen income tax limit works for international students and foreign residents.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-03-10"
+  "date": "2026-03-10",
+  "seo_title": "Japan Part-Time Job Tax: 1.03 Million Yen Limit Explained | JP Campus",
+  "seo_description": "Confused by Japan's 1.03 million yen tax limit? Learn how income tax affects your part-time job (arubaito) and how to manage your earnings."
 }
 ---
+
 
 # Navigating the '1.03 Million Yen Wall': A Comprehensive Tax Guide for International Students in Japan
 

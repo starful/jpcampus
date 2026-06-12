@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_tezukayama-university-nara-comprehensive-guide",
-  "title": "Tezukayama University",
+  "title": "Tezukayama University (Nara) | 2026 Admission & Tuition Guide",
   "category": "university",
   "tags": [
     "Rich Historical Location in Nara",
@@ -44,9 +44,13 @@
     "Top-tier Psychology and Counseling Programs",
     "Extensive Support for International Student Integration",
     "Proximity to Osaka and Kyoto Cultural Hubs"
-  ]
+  ],
+  "description": "Explore Tezukayama University in Nara. Find 2026 tuition fees, campus life, and admission requirements for international students.",
+  "seo_title": "Tezukayama University (Nara) | 2026 Guide for International Students",
+  "seo_description": "Explore Tezukayama University in Nara. Find 2026 tuition fees, campus life, and admission requirements for international students."
 }
 ---
+
 
 ## 🏫 University Overview: A Heritage of Excellence in Nara
 

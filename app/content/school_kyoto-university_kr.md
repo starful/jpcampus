@@ -7,7 +7,7 @@
     "website": "https://www.kyoto-u.ac.jp/"
   },
   "category": "school",
-  "description": "교토대학교는 일본을 대표하는 국립 대학 중 하나이며, 뛰어난 연구 성과, '자유의 정신'에 대한 헌신, 그리고 수많은 노벨상 수상자를 배출한 것으로 세계적으로 인정받고 있습니다.",
+  "description": "2026년 교토대학교 유학을 준비하시나요? 교토대의 학부 정보, 학비, EJU 입시 요강, 장학금 등 입학에 필요한 최신 가이드를 JP Campus에서 확인해 보세요!",
   "faculties": [
     "Faculty of Letters",
     "Faculty of Education",
@@ -46,14 +46,17 @@
     "Scholarship"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "교토대학교",
+  "title": "교토대학교 입학 및 학부 정보 (2026)",
   "translated": true,
   "tuition": {
     "admission_fee": 282000,
     "yearly_tuition": 535800
-  }
+  },
+  "seo_title": "교토대학교 입학 가이드 2026: 학부, 학비, 유학 정보 | JP Campus",
+  "seo_description": "2026년 교토대학교 유학을 준비하시나요? 교토대의 학부 정보, 학비, EJU 입시 요강, 장학금 등 입학에 필요한 최신 가이드를 JP Campus에서 확인해 보세요!"
 }
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -46,15 +46,18 @@
     "Scholarship"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "릿쿄 대학교",
+  "title": "릿쿄 대학교 (Rikkyo University) 입학 및 학부 정보",
   "translated": true,
   "tuition": {
     "admission_fee": 200000,
     "yearly_tuition": 1200000
   },
-  "description": "도쿄에 위치한 릿쿄 대학교 (立教大学)에 대한 정보입니다. 다양한 학부, 국제 학생 지원, 캠퍼스 위치 등을 확인하세요."
+  "description": "도쿄 명문 MARCH 릿쿄 대학교(立教大学)의 2026년도 최신 입학 정보, 학부 소개, 학비, EJU 외국인 유학생 전형 등 합격을 위한 필수 가이드를 제공합니다.",
+  "seo_title": "[2026] 릿쿄 대학교 입시 요강: 학부, 학비, EJU 유학 가이드 | JP Campus",
+  "seo_description": "도쿄 명문 MARCH 릿쿄 대학교(立教大学)의 2026년도 최신 입학 정보, 학부 소개, 학비, EJU 외국인 유학생 전형 등 합격을 위한 필수 가이드를 제공합니다."
 }
 ---
+
 
 ## 대학교 개요
 

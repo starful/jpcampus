@@ -5,9 +5,8 @@ basic_info:
   name_ja: 上智大学
   website: https://www.sophia.ac.jp/
 category: university
-description: Explore Sophia University, a prestigious, internationally-focused private
-  university in Tokyo. Learn about its global programs, faculties, scholarships, and
-  campus life.
+description: An ultimate guide to studying at Sophia University in Tokyo. Check out
+  English-taught programs, fees, scholarships, and international admissions.
 faculties:
 - Faculty of Theology
 - Faculty of Philosophy
@@ -40,12 +39,16 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: Sophia University
+title: 'Sophia University: 2026 English Programs & Admissions Guide'
 translated: true
 tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
+seo_title: 'Sophia University Tokyo: 2026 English Programs & Admissions'
+seo_description: Planning to study at Sophia University? Discover English-taught programs,
+  tuition fees, scholarships, and 2026 international student admission guides.
 ---
+
 
 ## University Overview & Reputation
 

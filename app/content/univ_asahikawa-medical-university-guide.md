@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_asahikawa-medical-university-guide",
-  "title": "Asahikawa Medical University",
+  "title": "Asahikawa Medical University: 2026 Admission & Tuition Guide",
   "category": "university",
   "tags": [
     "Global Leader in Telemedicine and Remote Healthcare",
@@ -39,9 +39,13 @@
     "Specialized Research in Cold-Climate Medicine",
     "State-of-the-Art University Hospital Facilities",
     "High National Examination Passing Rates for Medical Licenses"
-  ]
+  ],
+  "description": "A comprehensive guide to Asahikawa Medical University for international students, covering 2026 tuition fees, admission requirements, and campus life.",
+  "seo_title": "Asahikawa Medical University Guide 2026: Tuition & Admission",
+  "seo_description": "Plan your study at Asahikawa Medical University. Get updated 2026 tuition fees, admission requirements, and guides for international medical students."
 }
 ---
+
 
 ## 🏫 University Overview
 Asahikawa Medical University (AMU), or *Asahikawa Ika Daigaku*, stands as a prestigious national institution located in the heart of Hokkaido, Japan's northernmost prefecture. Established in 1973, it was founded with the mission of improving regional medical care and advancing medical science. Today, it is recognized not only as a vital healthcare hub for northern Japan but as a world-class center for medical research and education. For international students, AMU offers a unique environment where cutting-edge technology meets a rigorous academic culture, all set against the breathtaking natural backdrop of Asahikawa, the city of rivers and snow.

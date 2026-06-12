@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "school-festivals",
-  "title": "'Bunkasai': A Guide to Japanese School Festivals",
+  "title": "Bunkasai: The Ultimate Guide to Japanese School Festivals",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "What they are and why you should visit one.",
+  "description": "Discover the vibrant world of Japanese school festivals (Bunkasai), from anime-like atmospheres to cultural food stalls, and learn how you can visit one.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-03-10",
+  "seo_title": "Japanese School Festivals (Bunkasai) Guide: How to Visit",
+  "seo_description": "Want to experience a real Japanese school festival? Discover what Bunkasai is, what to expect, and how foreigners can actually visit one!"
 }
 ---
+
 
 # 'Bunkasai': A Comprehensive Guide to Japanese School Festivals
 

@@ -1,15 +1,20 @@
 ---
 category: Housing
 date: '2026-01-01'
-description: "Dorms, share houses, and private apartments in Japan compared: key money, deposits, monthly rent, contract risks, and a move-in checklist for international students."
+description: Compare dorms, share houses, and private apartments in Japan. Learn about
+  key money, upfront costs, and how to rent as an international student.
 id: housing
 lang: en
 layout: guide
 tags:
 - Housing
 thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
-title: "Japan Housing: Dorms, Share House, Apartment"
+title: 'Japan Housing Guide: Dorms, Share Houses & Apartments'
+seo_title: 'Japan Housing Guide: Find Apartments, Share Houses & Dorms'
+seo_description: Confused by Japan's rental system? Compare dorms, share houses, and
+  apartments. Avoid hidden costs and find your perfect home easily.
 ---
+
 
 ## Japan housing for international students: dorms, share houses, and apartments
 

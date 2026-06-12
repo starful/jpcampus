@@ -47,7 +47,13 @@ thumbnail: /static/img/pin-school.png
 title: Kobe Institute of Foreign Languages
 translated: true
 tuition: {}
+description: Explore Kobe Institute of Foreign Languages. Find 2026 tuition fees,
+  course details, admission guides, and student reviews to study Japanese in Kobe.
+seo_title: 'Kobe Institute of Foreign Languages: Tuition & Admission | JP Campus'
+seo_description: Explore Kobe Institute of Foreign Languages. Find 2026 tuition fees,
+  course details, admission guides, and student reviews to study Japanese in Kobe.
 ---
+
 
 ## School Overview & Philosophy
 

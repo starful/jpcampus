@@ -38,7 +38,13 @@ tags:
 thumbnail: /static/img/pin-school.png
 title: Toyohashi Japanese Language School
 tuition: {}
+description: Explore Toyohashi Japanese Language School in Aichi. Find 2026 tuition
+  fees, courses, application requirements, and student reviews on JP Campus.
+seo_title: 'Toyohashi Japanese Language School: 2026 Admission | JP Campus'
+seo_description: Explore Toyohashi Japanese Language School in Aichi. Find 2026 tuition
+  fees, courses, application requirements, and student reviews on JP Campus.
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

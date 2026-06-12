@@ -46,7 +46,14 @@ tags:
 thumbnail: /static/img/pin-school.png
 title: Saitama Briller Japanese Language School
 tuition: {}
+description: Learn about Saitama Briller Japanese Language School. Find tuition fees,
+  course details, admission requirements, and student reviews on JP Campus.
+seo_title: 'Saitama Briller Japanese Language School: Tuition & Reviews'
+seo_description: Thinking of studying in Saitama? Explore Saitama Briller Japanese
+  Language School's tuition, courses, admission guidelines, and student life on JP
+  Campus.
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

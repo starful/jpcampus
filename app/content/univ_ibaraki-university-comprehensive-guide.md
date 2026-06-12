@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_ibaraki-university-comprehensive-guide",
-  "title": "Ibaraki University",
+  "title": "Ibaraki University: Guide to Tuition, Programs & Admission",
   "category": "university",
   "tags": [
     "Leading research in Quantum Beam Science and Sustainability",
@@ -41,9 +41,13 @@
     "Strong industrial links with global companies like Hitachi, Ltd.",
     "Strategic location offering a balance between urban access and natural beauty",
     "Comprehensive international student support through the J-PALS program"
-  ]
+  ],
+  "description": "An ultimate guide to Ibaraki University. Explore admission requirements, tuition fees, scholarships, and campus life for international students in Japan.",
+  "seo_title": "Ibaraki University Guide 2026: Tuition & Admissions | JP Campus",
+  "seo_description": "Planning to study at Ibaraki University? Explore tuition fees, admission requirements, English programs, and scholarships for international students."
 }
 ---
+
 
 ## 🏫 University Overview
 Ibaraki University (茨城大学), often abbreviated as "Ibadai," is a distinguished national university located in Ibaraki Prefecture, just north of Tokyo. Established in 1949 through the integration of several regional colleges, it has evolved into a comprehensive research institution that plays a pivotal role in Japan’s intellectual and industrial landscape. The university is spread across three main campuses—Mito, Hitachi, and Ami—each specializing in distinct academic disciplines that leverage the unique geographical and economic strengths of the region.
