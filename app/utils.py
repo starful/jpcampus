@@ -156,6 +156,12 @@ def get_ui_text(lang):
             "view_all_schools": "모든 학교 보기 →", "view_all_univs": "모든 대학교 보기 →",
             "reaction_title": "이 페이지가 도움이 되었나요?",
             "reaction_subtitle": "피드백은 콘텐츠 개선에 활용합니다",
+            "share_label": "이 페이지 공유하기",
+            "share_copy": "링크 복사",
+            "share_copied": "복사됨!",
+            "share_hint": "X 공유는 미리보기 전용 /card/ URL을 사용합니다. 이미지가 안 보이면 ",
+            "share_hint_link": "카드 페이지",
+            "share_hint_tail": "를 새 탭에서 연 뒤 X 버튼으로 공유하세요.",
         }
     return {
         "featured_title": "Featured Collections", "best_selection": "Best Selection", "view_ranking": "View Ranking →",
@@ -167,6 +173,12 @@ def get_ui_text(lang):
         "view_all_schools": "View all schools →", "view_all_univs": "View all universities →",
         "reaction_title": "Was this page helpful?",
         "reaction_subtitle": "Your feedback helps us improve our guides",
+        "share_label": "Share this page",
+        "share_copy": "Copy link",
+        "share_copied": "Copied!",
+        "share_hint": "X shares use the /card/ preview URL. If the image is missing, ",
+        "share_hint_link": "open the card page",
+        "share_hint_tail": ", then share again via the X button.",
     }
 
 def load_school_data(lang="en"):
