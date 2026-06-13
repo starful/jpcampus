@@ -82,34 +82,11 @@
 </main>
 
 <footer class="main-footer">
-    <div class="family-sites-section">
-        <p class="family-sites-label">
-            {{ '일본 생활 더 알아보기' if current_lang == 'kr' else 'Explore More of Japan' }}
-        </p>
-        <div class="family-sites-row">
-            <a href="https://okramen.net/" target="_blank" rel="noopener noreferrer" class="family-site-card">
-                <span class="family-site-card-emoji" aria-hidden="true">🍜</span>
-                <div class="family-site-card-text">
-                    <div class="family-site-card-name">OK Ramen</div>
-                    <div class="family-site-card-desc">{{ '일본 라멘 맛집 가이드' if current_lang == 'kr' else 'Japan Ramen Guide' }}</div>
-                </div>
-            </a>
-            <a href="https://okonsen.net/" target="_blank" rel="noopener noreferrer" class="family-site-card">
-                <span class="family-site-card-emoji" aria-hidden="true">♨️</span>
-                <div class="family-site-card-text">
-                    <div class="family-site-card-name">OK Onsen</div>
-                    <div class="family-site-card-desc">{{ '온천 & 료칸 완벽 가이드' if current_lang == 'kr' else 'Onsen & Ryokan Guide' }}</div>
-                </div>
-            </a>
-            <a href="https://okcaddie.net/" target="_blank" rel="noopener noreferrer" class="family-site-card">
-                <span class="family-site-card-emoji" aria-hidden="true">⛳</span>
-                <div class="family-site-card-text">
-                    <div class="family-site-card-name">OKCaddie</div>
-                    <div class="family-site-card-desc">{{ '일본 골프장 지도 & 가이드' if current_lang == 'kr' else 'Japan Golf Course Map' }}</div>
-                </div>
-            </a>
-        </div>
-    </div>
+    {% set fc = inject_family_context(FAMILY_SITE_ID, current_lang|default('en')) %}
+    {% set family_sites = fc.family_sites %}
+    {% set family_section_title = fc.family_section_title %}
+    {% set family_lang = fc.family_lang %}
+    {% include 'partials/family_sites.html' %}
 
     {% set stats = site_stats(current_lang|default('en')) %}
     <div class="footer-stats stats-banner">

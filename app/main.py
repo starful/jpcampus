@@ -27,6 +27,9 @@ from app.social_share import (
     resolve_thumbnail_url,
     share_context,
 )
+from app.family_sites import cross_links_for, inject_family_context
+
+FAMILY_SITE_ID = "jpcampus"
 
 load_dotenv()
 app = FastAPI()
@@ -35,9 +38,24 @@ if not os.path.exists(CONTENT_DIR): os.makedirs(CONTENT_DIR)
 
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 templates = Jinja2Templates(directory=TEMPLATES_DIR)
+templates.env.globals["inject_family_context"] = inject_family_context
+templates.env.globals["FAMILY_SITE_ID"] = FAMILY_SITE_ID
 
-GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
+def _campus_address(item: dict) -> str | None:
+    basic = item.get("basic_info") or {}
+    return basic.get("address") or item.get("address")
+
+
+def _detail_cross_links(lang: str, item: dict | None = None, categories: list | None = None):
+    address = _campus_address(item) if item else None
+    return cross_links_for(
+        FAMILY_SITE_ID,
+        lang,
+        address=address,
+        categories=categories,
+    )
 DOMAIN = os.getenv("SITE_DOMAIN", "https://jpcampus.net").rstrip("/")
+GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 ADS_TXT_CONTENT = os.getenv(
     "ADS_TXT_CONTENT",
     "google.com, pub-8780435268193938, DIRECT, f08c47fec0942fa0"
@@ -546,6 +564,8 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
             "Compare school details, tuition clues, and student-ready preparation tips."
         ),
         "faq_json_ld": None,
+        "cross_site_links": _detail_cross_links(lang, item),
+        **inject_family_context(FAMILY_SITE_ID, lang),
         **ctx,
     })
 
@@ -583,6 +603,8 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
             "Actionable study-in-Japan guide with practical decisions and student checklists."
         ),
         "faq_json_ld": _guide_faq_json_ld(slug, lang),
+        "cross_site_links": _detail_cross_links(lang, item),
+        **inject_family_context(FAMILY_SITE_ID, lang),
         **ctx,
     })
 
