@@ -34,13 +34,14 @@ class ShareBarTests(unittest.TestCase):
     def test_social_card_page(self):
         response = self.client.get("/card/guide/housing")
         self.assertEqual(response.status_code, 200)
-        self.assertIn(f'property="og:url" content="{DOMAIN}/card/guide/housing"', response.text)
+        self.assertIn(f'property="og:url" content="{DOMAIN}/card/guide/housing?sc=2"', response.text)
 
-    def test_social_image_endpoint(self):
+    def test_social_image_served_from_static(self):
         response = self.client.get("/social/guide-housing.jpg")
         self.assertEqual(response.status_code, 200)
         self.assertTrue(response.headers["content-type"].startswith("image/jpeg"))
         self.assertGreater(len(response.content), 1000)
+        self.assertEqual(response.headers.get("cache-control"), "public, max-age=604800")
 
     def test_social_image_head(self):
         response = self.client.head("/social/guide-housing.jpg")

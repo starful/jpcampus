@@ -718,6 +718,15 @@ async def policy(request: Request, lang: str = Query("en")):
     })
 
 
+def _static_social_path(image_key: str) -> str | None:
+    path = os.path.join(STATIC_DIR, "social", f"{image_key}.jpg")
+    return path if os.path.isfile(path) else None
+
+
+def _social_image_headers() -> dict[str, str]:
+    return {"Cache-Control": "public, max-age=604800"}
+
+
 def _render_social_image(kind: str, identifier: str, lang: str) -> Response:
     if kind == "school":
         item, item_type = load_school_item(identifier, lang)
@@ -726,11 +735,14 @@ def _render_social_image(kind: str, identifier: str, lang: str) -> Response:
         item = load_guide_item(identifier, lang)
         source = resolve_thumbnail_url(DOMAIN, item, "guide", guide_slug=identifier)
     data = fetch_social_jpeg(source)
-    return Response(content=data, media_type="image/jpeg", headers={"Cache-Control": "public, max-age=86400"})
+    return Response(content=data, media_type="image/jpeg", headers=_social_image_headers())
 
 
 @app.api_route("/social/{image_key}.jpg", methods=["GET", "HEAD"])
 async def social_image(image_key: str, lang: str = Query("en")):
+    static_path = _static_social_path(image_key)
+    if static_path:
+        return FileResponse(static_path, media_type="image/jpeg", headers=_social_image_headers())
     if image_key.startswith("guide-"):
         return _render_social_image("guide", image_key[6:], lang)
     return _render_social_image("school", image_key, lang)

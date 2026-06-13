@@ -12,6 +12,9 @@ import frontmatter
 
 from app.utils import CONTENT_DIR, GUIDE_THUMBNAILS, assign_thumbnails
 
+SOCIAL_CARD_VERSION = "2"
+_FETCH_UA = "JPCampus/1.0 (+https://jpcampus.net)"
+
 
 def social_image_path(kind: str, identifier: str) -> str:
     if kind == "guide":
@@ -32,8 +35,11 @@ def detail_page_path(kind: str, identifier: str, lang: str) -> str:
 
 
 def card_page_path(kind: str, identifier: str, lang: str) -> str:
-    path = f"/card/{kind}/{identifier}"
-    return f"{path}?lang=kr" if lang == "kr" else path
+    params = {"sc": SOCIAL_CARD_VERSION}
+    if lang == "kr":
+        params["lang"] = "kr"
+    query = "&".join(f"{key}={value}" for key, value in params.items())
+    return f"/card/{kind}/{identifier}?{query}"
 
 
 def share_context(domain: str, kind: str, identifier: str, title: str, lang: str) -> dict:
@@ -112,12 +118,13 @@ def load_guide_item(slug: str, lang: str) -> dict:
 
 def jpeg_bytes(img) -> bytes:
     buf = io.BytesIO()
-    img.save(buf, format="JPEG", quality=78, optimize=True, progressive=True)
+    img.save(buf, format="JPEG", quality=88, optimize=True)
     return buf.getvalue()
 
 
 def fetch_social_jpeg(source_url: str) -> bytes:
-    with urllib.request.urlopen(source_url, timeout=15) as resp:
+    req = urllib.request.Request(source_url, headers={"User-Agent": _FETCH_UA})
+    with urllib.request.urlopen(req, timeout=20) as resp:
         raw = resp.read()
         if not raw:
             raise ValueError("empty image")
@@ -128,3 +135,9 @@ def fetch_social_jpeg(source_url: str) -> bytes:
         return jpeg_bytes(ImageOps.fit(img, (1200, 630), Image.Resampling.LANCZOS))
     except Exception:
         return raw
+
+
+def static_social_image_key(kind: str, identifier: str) -> str:
+    if kind == "guide":
+        return "guide-" + re.sub(r"[^a-z0-9_-]", "", identifier.lower())
+    return re.sub(r"[^a-z0-9_-]", "", identifier.lower())
