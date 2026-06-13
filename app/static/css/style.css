@@ -3,16 +3,19 @@
 
 /* --- [1] 기본 및 루트 변수 --- */
 :root {
-    --primary: #2563eb;
+    --primary: #1e40af;
+    --primary-hover: #1d4ed8;
     --primary-light: #eff6ff;
-    --accent: #f97316;
+    --accent: #ea580c;
+    --accent-hover: #c2410c;
+    --accent-light: #fff7ed;
     --text-dark: #0f172a;
     --text-gray: #64748b;
     --bg-light: #f8fafc;
     --white: #ffffff;
     --border: #e2e8f0;
     --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05);
-    --header-height: 80px;
+    --header-height: 90px;
 }
 
 /* --- [2] 전역 스타일 리셋 --- */
@@ -21,54 +24,138 @@ body { margin: 0; padding: 0; font-family: 'Inter', sans-serif; background-color
 a { text-decoration: none; color: inherit; }
 button { cursor: pointer; border: none; background: none; font-family: inherit; }
 
-/* --- [3] 헤더 및 네비게이션 --- */
-.fixed-top-area {
-    position: fixed;
+/* --- [3] OKOnsen-style header --- */
+.site-header {
+    position: sticky;
     top: 0;
-    left: 0;
-    width: 100%;
     z-index: 1000;
-    background: var(--white); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
-.main-header {
-    height: var(--header-height);
-    max-width: 1600px;
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 24px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
+    padding: 10px 20px;
+    box-sizing: border-box;
 }
-.logo-img { height: 60px; flex-shrink: 0; }
-.search-area { flex-grow: 1; max-width: 400px; }
-.search-bar-wrapper { 
-    background: var(--bg-light); 
-    border-radius: 999px;
-    padding: 12px 20px; 
-    border: 1px solid var(--border);
-    transition: all 0.2s;
-    box-shadow: var(--shadow-md);
-    display: flex;
-    align-items: center;
-    gap: 8px;
+
+.header-left { justify-self: start; }
+.logo-wrapper { justify-self: center; display: flex; align-items: center; }
+.header-right { justify-self: end; }
+
+.logo-img {
+    height: 64px;
+    width: auto;
+    display: block;
 }
-.search-bar-wrapper:focus-within {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
-}
-.search-input { width: 100%; border: none; background: transparent; outline: none; font-size: 0.95rem; }
-.search-clear-btn {
-    width: 24px;
-    height: 24px;
-    border-radius: 999px;
-    background: #e2e8f0;
-    color: #334155;
-    font-size: 16px;
-    line-height: 1;
+
+.nav-guide-link {
+    font-weight: 700;
+    color: #444;
+    font-size: 0.95rem;
     display: inline-flex;
     align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+.nav-guide-link:hover { color: var(--accent); }
+
+.lang-selector { display: flex; gap: 8px; }
+.lang-btn {
+    padding: 5px 15px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #999;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.lang-btn.active {
+    background: var(--text-dark);
+    color: #fff;
+    border-color: var(--text-dark);
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.25);
+}
+
+.top-filter-bar {
+    width: 100%;
+    background: #fff;
+    padding: 10px 0 14px;
+    border-top: 1px solid #f2f2f2;
+}
+
+.theme-filter-buttons {
+    display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 12px;
+    scroll-snap-type: x proximity;
+}
+.theme-filter-buttons::-webkit-scrollbar { display: none; }
+
+.theme-button {
+    padding: 7px 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #555;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+.filter-emoji { font-size: 0.95rem; line-height: 1; }
+.filter-label { line-height: 1.1; }
+.theme-button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+.theme-button.active {
+    background: var(--text-dark);
+    color: #fff;
+    border-color: var(--text-dark);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
+}
+.count-badge {
+    background: #eee;
+    color: #666;
+    font-size: 0.65rem;
+    padding: 1px 6px;
+    border-radius: 10px;
+    font-weight: 800;
+    min-width: 1.25em;
+    text-align: center;
+}
+.theme-button.active .count-badge {
+    background: rgba(255, 255, 255, 0.25);
+    color: #fff;
+}
+
+/* legacy header (detail pages hide header block) */
+.fixed-top-area {
+    display: none;
+}
+.main-header {
+    display: none;
 }
 
 /* --- [4] 필터 컨트롤 및 드롭다운 스타일 --- */
@@ -167,8 +254,22 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 /* --- [5] 이후 레이아웃 스타일 --- */
-.map-section, .detail-container, .content-wrapper { margin-top: var(--header-height); }
-.map-section { width: 100%; height: 500px; background-color: #e5e7eb; }
+.school-card.is-filter-hidden,
+.card-grid.is-filter-empty,
+.section-header.is-filter-empty {
+    display: none !important;
+}
+.map-section {
+    width: 100%;
+    height: 50vh;
+    min-height: 400px;
+    background: #e5e7eb;
+}
+.content-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 28px 20px 48px;
+}
 #map { width: 100%; height: 100%; }
 .content-wrapper { max-width: 1400px; margin: 60px auto; padding: 0 24px; }
 .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
@@ -213,6 +314,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     color: #fff;
     border-color: var(--text-dark);
 }
+
 .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
 .card { background: var(--white); border-radius: 20px; overflow: hidden; border: 1px solid var(--border); display: flex; flex-direction: column; transition: transform 0.3s ease, box-shadow 0.3s ease; content-visibility: auto; contain-intrinsic-size: 430px; }
 .card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
@@ -228,7 +330,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .card-meta { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-gray); margin-bottom: 20px; }
 .card-footer { padding: 18px 24px; background: #fcfcfc; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
 .card-price { font-weight: 800; color: var(--primary); font-size: 1rem; }
-.detail-container, .list-container { max-width: 1000px; margin: calc(var(--header-height) + 60px) auto 80px; padding: 0 24px; }
+.detail-container, .list-container { max-width: 1000px; margin: 32px auto 80px; padding: 0 24px; }
 .back-to-list-btn { display: inline-flex; align-items: center; gap: 8px; background: #f1f5f9; color: var(--text-dark); padding: 10px 20px; border-radius: 10px; font-weight: 600; font-size: 0.9rem; margin-bottom: 24px; transition: background-color 0.2s; }
 .back-to-list-btn:hover { background-color: #e2e8f0; }
 .detail-header, .list-header { margin-bottom: 40px; }
@@ -281,48 +383,38 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .iw-header .iw-title { font-size: 1.1rem; font-weight: 700; color: var(--text-dark); margin: 0 0 6px; }
 .iw-header .iw-address { font-size: 0.85rem; color: var(--text-gray); margin: 0 0 16px; }
 .iw-details-btn { display: block; width: 100%; padding: 12px; text-align: center; background-color: var(--primary); color: white; border-radius: 10px; font-weight: 600; transition: background-color 0.2s; }
-.iw-details-btn:hover { background-color: #1d4ed8; }
-.main-footer { background: #0f172a; color: #94a3b8; padding: 60px 24px; text-align: center; font-size: 0.9rem; }
+.iw-details-btn:hover { background-color: var(--primary-hover); }
+.main-footer { background: #0f172a; color: #94a3b8; padding: 48px 24px 40px; text-align: center; font-size: 0.9rem; }
+.footer-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+.footer-stats .stat-pill { margin: 0; }
 .footer-links { margin-bottom: 20px; display: flex; justify-content: center; gap: 30px; }
 .footer-links a { color: #cbd5e1; font-weight: 500; }
 .footer-links a:hover { color: white; }
 
-.family-site-card:hover {
-    transform: translateY(-2px);
-    border-color: #475569 !important;
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
-}
-
-/* --- [10] 반응형 (모바일 중앙 정렬 최적화) --- */
-@media (max-width: 1024px) {
-    .main-header { flex-wrap: wrap; height: auto; padding: 15px; }
-    .search-area { width: 100%; order: 3; margin-top: 10px; max-width: none; }
-    .logo { order: 1; }
-    .filter-controls { order: 2; flex-grow: 1; justify-content: flex-end; }
-    .map-section, .detail-container, .content-wrapper { margin-top: 132px; }
-}
-
+/* --- [10] 반응형 --- */
 @media (max-width: 768px) {
-    .main-header {
-        flex-direction: column; 
-        align-items: center;    
-        justify-content: center;
-        padding: 20px 24px;     
-        gap: 12px;              
-        height: auto;
+    .header-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 8px;
     }
-    .logo {
-        order: 1;
-        width: 100%;
-        display: flex;
-        justify-content: center; 
-        margin-bottom: 5px;
-    }
-    .logo-img { height: 48px; }
-    .filter-controls { order: 2; width: 100%; justify-content: center; flex-grow: 0; }
-    .search-area { order: 3; width: 100%; margin-top: 0; max-width: none; }
-    .map-section, .detail-container, .content-wrapper { margin-top: 176px; }
-    .map-section { height: 380px; }
+    .header-left { grid-column: 1; grid-row: 1; }
+    .header-right { grid-column: 2; grid-row: 1; justify-self: end; }
+    .logo-wrapper { grid-column: 1 / -1; grid-row: 2; justify-self: center; }
+    .logo-img { height: 52px; }
+    .nav-guide-link { font-size: 0.85rem; }
+    .map-section { min-height: 340px; height: 45vh; }
+    .top-filter-bar { padding: 6px 0 8px; }
+    .theme-filter-buttons { justify-content: flex-start; gap: 6px; padding: 0 8px; }
+    .theme-button { padding: 5px 9px; font-size: 0.72rem; gap: 3px; }
+    .filter-emoji { font-size: 0.85rem; }
+    .count-badge { font-size: 0.58rem; padding: 1px 5px; min-width: 1.1em; }
     .detail-container, .list-container { padding-left: 16px; padding-right: 16px; }
     .section-title { font-size: 1.4rem; text-align: center; } 
     .section-header { justify-content: center; flex-direction: column; gap: 10px; } 
@@ -333,24 +425,19 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .card-body, .card-footer { padding-left: 16px; padding-right: 16px; }
     .card-img { height: 200px; }
     .footer-links { flex-wrap: wrap; gap: 14px 20px; }
-    .family-sites-container { padding: 0 !important; margin-bottom: 30px !important; }
-    .reaction-container { flex-wrap: wrap; gap: 12px; }
-    .reaction-panel { margin-top: 36px; padding: 24px 20px 28px; }
-    .reaction-panel-title { font-size: 1.15rem; }
-    .reaction-btn { min-width: 0; flex: 1 1 120px; max-width: 200px; padding: 12px 20px; }
     .stats-banner { justify-content: center; }
     .stat-pill { width: 100%; justify-content: center; text-align: center; }
     .detail-cta-panel { grid-template-columns: 1fr; }
+    .reaction-panel { margin-top: 36px; padding: 24px 20px 28px; }
+    .reaction-panel-title { font-size: 1.15rem; }
+    .reaction-container { gap: 12px; }
+    .reaction-btn { min-width: 0; flex: 1 1 120px; max-width: 200px; padding: 12px 20px; }
 }
 
 @media (max-width: 480px) {
-    .main-header { padding: 14px 12px; }
-    .logo-img { height: 40px; }
-    .search-bar-wrapper { padding: 10px 14px; }
-    .tag-filter-btn { height: 42px; padding: 0 14px; font-size: 0.85rem; }
-    .map-section, .detail-container, .content-wrapper { margin-top: 160px; }
-    .map-section { height: 320px; }
-    .content-wrapper { padding: 0 12px; }
+    .logo-img { height: 44px; }
+    .map-section { min-height: 300px; height: 40vh; }
+    .content-wrapper { padding: 0 12px 32px; }
     .section-title { font-size: 1.2rem; }
     .detail-title, .list-title { font-size: 1.6rem; }
 }
@@ -383,7 +470,28 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     }
 }
 
-/* --- [12] 지도 커스텀 마커 스타일 --- */
+/* --- [12] 지도 커스텀 마커 (OKOnsen photo style) --- */
+.marker-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-color: var(--primary);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.marker-icon:hover {
+    transform: scale(1.15) translateY(-4px);
+    z-index: 999;
+}
+.marker-icon.map-marker-active {
+    transform: scale(1.2) translateY(-4px);
+    box-shadow: 0 0 0 3px var(--accent), 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
 .map-marker {
     display: flex;
     align-items: center;
@@ -434,9 +542,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     margin-bottom: 8px;
     padding: 28px 32px 32px;
     border-radius: 20px;
-    border: 1px solid rgba(37, 99, 235, 0.14);
-    background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
-    box-shadow: 0 8px 28px rgba(37, 99, 235, 0.08);
+    border: 1px solid rgba(0, 71, 160, 0.14);
+    background: linear-gradient(180deg, #f0f6ff 0%, #ffffff 100%);
+    box-shadow: 0 8px 28px rgba(0, 71, 160, 0.08);
     text-align: center;
 }
 
@@ -526,7 +634,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     margin: 48px 0 12px;
     padding: 18px 22px;
     background: linear-gradient(180deg, var(--primary-light) 0%, var(--white) 100%);
-    border: 1px solid rgba(37, 99, 235, 0.18);
+    border: 1px solid rgba(0, 71, 160, 0.18);
     border-radius: 16px;
     box-shadow: var(--shadow-md);
 }
@@ -626,19 +734,79 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 
 /* 숫자/날짜 하이라이트 색상 */
 .stat-highlight {
-    color: #f59e0b; /* 오렌지/옐로우 포인트 */
+    color: var(--accent);
     font-weight: 800;
     margin-right: 4px;
 }
 
-/* 마지막 배지 (Updating Weekly) 특별 스타일 */
 .stat-pill.highlight-pill {
-    border-color: #f59e0b; 
-    background-color: rgba(245, 158, 11, 0.1);
+    border-color: var(--accent);
+    background-color: var(--accent-light);
 }
 
 .stat-pill.highlight-pill i, 
 .stat-pill.highlight-pill .stat-highlight {
-    color: #f59e0b;
+    color: var(--accent);
     margin: 0;
+}
+
+/* --- JP Campus: Explore Japan family sites --- */
+.family-sites-section {
+    max-width: 960px;
+    margin: 0 auto 40px;
+    padding: 0 12px;
+}
+.family-sites-label {
+    margin: 0 0 18px;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #94a3b8;
+    text-align: center;
+}
+.family-sites-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.family-site-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 200px;
+    max-width: 280px;
+    flex: 1 1 200px;
+    padding: 14px 22px;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    background-color: #1e293b;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.family-site-card-emoji {
+    font-size: 1.35rem;
+    line-height: 1;
+}
+.family-site-card-text { min-width: 0; text-align: left; }
+.family-site-card-name {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.02em;
+}
+.family-site-card-desc {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    margin-top: 2px;
+    line-height: 1.35;
+}
+
+.family-site-card:hover {
+    transform: translateY(-2px);
+    border-color: #475569;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
 }

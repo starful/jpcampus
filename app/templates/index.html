@@ -1,68 +1,47 @@
 {% extends "base.html" %}
 
-{# --- 메인 콘텐츠 시작 --- #}
+{% block map_filters %}
+<div class="top-filter-bar" aria-label="Map filters">
+    <div class="theme-filter-buttons">
+        {% for f in quick_filters %}
+        <button type="button"
+            class="theme-button{% if loop.first %} active{% endif %}"
+            data-filter-key="{{ f.key }}"
+            data-track="quick_filter"
+            data-track-label="{{ f.key }}"
+            title="{{ f.label }}">
+            <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
+            <span class="filter-label">{{ f.label }}</span>
+            <span class="count-badge" id="count-{{ f.key }}">0</span>
+        </button>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
 {% block content %}
 
-<!-- 1. 지도 섹션 -->
 <section class="map-section">
     <div id="map"></div>
 </section>
 
-<!-- 2. 카드 콘텐츠 섹션 -->
 <div class="content-wrapper">
 
-    <!-- Quick Actions -->
     <div class="quick-actions" aria-label="Quick actions">
         <a href="/schools?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="schools">
             <i class="fa-solid fa-school"></i>
-            <span>{{ 'Find Schools' if current_lang == 'en' else '학교 찾기' }}</span>
+            <span>{{ ui.find_schools }}</span>
         </a>
         <a href="/universities?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="universities">
             <i class="fa-solid fa-building-columns"></i>
-            <span>{{ 'Find Universities' if current_lang == 'en' else '대학 찾기' }}</span>
+            <span>{{ ui.find_universities }}</span>
         </a>
         <a href="/guide?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="guides">
             <i class="fa-solid fa-book-open"></i>
-            <span>{{ 'Read Guides' if current_lang == 'en' else '가이드 보기' }}</span>
+            <span>{{ ui.read_guides }}</span>
         </a>
     </div>
 
-    <!-- Quick Filter Chips -->
-    <div class="quick-filter-chips" aria-label="Quick filters">
-        <button type="button" class="quick-filter-chip" data-filter-key="all" data-track="quick_filter" data-track-label="all">{{ ui.all_schools }}</button>
-        <button type="button" class="quick-filter-chip" data-filter-key="tokyo" data-track="quick_filter" data-track-label="tokyo">Tokyo</button>
-        <button type="button" class="quick-filter-chip" data-filter-key="osaka" data-track="quick_filter" data-track-label="osaka">Osaka</button>
-        <button type="button" class="quick-filter-chip" data-filter-key="dormitory" data-track="quick_filter" data-track-label="dormitory">{{ 'Dormitory' if current_lang == 'en' else '기숙사' }}</button>
-        <button type="button" class="quick-filter-chip" data-filter-key="academic" data-track="quick_filter" data-track-label="academic">{{ 'University Prep' if current_lang == 'en' else '진학 준비' }}</button>
-    </div>
-
-    <!-- [신규] 통계 배지 배너 (Stats Banner) -->
-    <div class="stats-banner">
-        <div class="stat-pill">
-            <i class="fa-solid fa-building-columns"></i>
-            <span>
-                <strong class="stat-highlight">{{ total_schools }}</strong> 
-                {{ 'Schools Listed' if current_lang == 'en' else '개 학교 등록됨' }}
-            </span>
-        </div>
-        <div class="stat-pill">
-            <i class="fa-regular fa-calendar-check"></i>
-            <span>
-                {{ 'Last Updated:' if current_lang == 'en' else '최근 업데이트:' }} 
-                <strong class="stat-highlight" style="margin-left:4px;">{{ updated_at }}</strong>
-            </span>
-        </div>
-        <div class="stat-pill highlight-pill">
-            <i class="fa-solid fa-arrows-rotate"></i>
-            <span>
-                <strong class="stat-highlight">
-                    {{ 'Updating Weekly' if current_lang == 'en' else '매주 업데이트 중' }}
-                </strong>
-            </span>
-        </div>
-    </div>
-
-    <!-- [수정] Featured Collections (최상단 배치) -->
     <div class="section-header" style="margin-bottom: 20px;">
         <h2 class="section-title" style="color: var(--accent); display: flex; align-items: center; gap: 10px;">
             <i class="fa-solid fa-star"></i> {{ ui.featured_title }}
@@ -79,23 +58,20 @@
                 <h4 style="font-size: 1.2rem; margin-bottom: 10px;">{{ guide.title }}</h4>
                 <p style="font-size: 0.9rem; color: var(--text-gray);">{{ guide.description }}</p>
             </div>
-            <div class="card-footer" style="background: #fff7ed;">
+            <div class="card-footer" style="background: var(--accent-light);">
                 <span style="color: var(--accent); font-weight: 700; font-size: 0.9rem;">{{ ui.view_ranking }}</span>
             </div>
         </a>
         {% endfor %}
     </div>
 
-    <!-- [수정] Language Schools -->
     <div class="section-header">
         <h2 class="section-title">{{ ui.language_schools }}</h2>
         <a href="/schools?lang={{ current_lang }}" class="view-all">{{ ui.view_all_schools }}</a>
     </div>
     <div class="card-grid">
-        {% set school_imgs = [ '...', '...' ] %}
         {% for item in latest_schools %}
         <a href="{{ item.link }}" class="card school-card" data-school-id="{{ item.id }}" data-track="school_card" data-track-label="{{ item.id }}">
-            <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--primary);">{{ ui.school_badge }}</span>
@@ -121,16 +97,13 @@
         {% endfor %}
     </div>
 
-    <!-- [수정] Universities -->
     <div class="section-header" style="margin-top: 80px;">
         <h2 class="section-title">{{ ui.top_universities }}</h2>
         <a href="/universities?lang={{ current_lang }}" class="view-all">{{ ui.view_all_univs }}</a>
     </div>
     <div class="card-grid">
-        {% set univ_imgs = [ '...', '...' ] %}
         {% for item in latest_universities %}
         <a href="{{ item.link }}" class="card school-card" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
-            <!-- 파이썬에서 만들어준 고유 썸네일 사용 -->
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
                 <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
@@ -141,13 +114,12 @@
             </div>
             <div class="card-footer">
                 <span class="card-price" style="color: var(--accent);">{{ ui.global_programs }}</span>
-                <span style="font-size: 0.75rem; background: #fff7ed; color: #c2410c; padding: 4px 10px; border-radius: 6px; font-weight: 700;">TOP TIER</span>
+                <span style="font-size: 0.75rem; background: var(--accent-light); color: #c2410c; padding: 4px 10px; border-radius: 6px; font-weight: 700;">TOP TIER</span>
             </div>
         </a>
         {% endfor %}
     </div>
 
-    <!-- [수정] Essential Guides -->
     <div class="section-header" style="margin-top: 80px;">
         <h2 class="section-title">{{ ui.essential_guides }}</h2>
         <a href="/guide?lang={{ current_lang }}" class="view-all">{{ ui.view_all }}</a>
@@ -169,18 +141,12 @@
 </div>
 
 {% endblock %}
-{# --- 메인 콘텐츠 끝 --- #}
 
-
-{# --- 스크립트 시작 --- #}
 {% block scripts %}
 <script>
-    // 서버 데이터를 JS 변수로 안전하게 전달
     const SCHOOLS_DATA = {{ schools_json | safe }};
 </script>
-
-<!-- 지도 관련 스크립트 -->
-<script src="/static/js/map.js?v=4"></script>
+<script src="/static/js/filters.js?v=3"></script>
+<script src="/static/js/map.js?v=10"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
 {% endblock %}
-{# --- 스크립트 끝 --- #}

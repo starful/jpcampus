@@ -14,7 +14,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 # 분리된 유틸 및 API 라우터 임포트
 from app.utils import (
-    calculate_tag_counts, assign_thumbnails, get_ui_text, 
+    calculate_tag_counts, assign_thumbnails, get_ui_text, get_quick_filters,
     load_school_data, load_guides, STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
 )
 from app.reactions import router as reactions_router
@@ -63,6 +63,7 @@ def load_redirect_map() -> dict[str, str]:
 REDIRECT_MAP = load_redirect_map()
 templates.env.globals["ga_measurement_id"] = GA_MEASUREMENT_ID
 templates.env.globals["adsense_client_id"] = ADSENSE_CLIENT_ID
+templates.env.globals["site_url"] = DOMAIN
 
 
 def build_canonical_url(path: str, lang: str | None = None) -> str:
@@ -83,6 +84,17 @@ def build_hreflang_urls(path: str) -> dict[str, str]:
 def default_updated_at() -> str:
     _, updated_at = load_school_data("en")
     return updated_at or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def site_stats(lang: str = "en") -> dict[str, int | str]:
+    schools, updated_at = load_school_data(lang)
+    return {
+        "total_schools": len(schools),
+        "updated_at": updated_at or default_updated_at(),
+    }
+
+
+templates.env.globals["site_stats"] = site_stats
 
 
 def content_lastmod(*filenames: str) -> str:
@@ -472,6 +484,7 @@ async def read_root(request: Request, lang: str = Query("en")):
         "university_list_json": university_list,
         "current_lang": lang,
         "ui": ui,
+        "quick_filters": get_quick_filters(lang),
         "canonical_url": build_canonical_url("/", lang),
         "hreflang_urls": build_hreflang_urls("/"),
         "meta_title": build_meta_title(
@@ -768,5 +781,39 @@ async def guide_social_card(request: Request, slug: str, lang: str = Query("en")
         **ctx,
     })
 
-@app.get("/favicon.ico", include_in_schema=False)
-async def favicon(): return FileResponse(os.path.join(STATIC_DIR, "img", "logo.png"))
+@app.api_route("/favicon.ico", methods=["GET", "HEAD"], include_in_schema=False)
+async def favicon():
+    return FileResponse(os.path.join(STATIC_DIR, "img", "favicon.ico"))
+
+
+@app.api_route("/favicon-32x32.png", methods=["GET", "HEAD"], include_in_schema=False)
+async def favicon_32():
+    return FileResponse(os.path.join(STATIC_DIR, "img", "favicon-32x32.png"))
+
+
+@app.api_route("/favicon-48x48.png", methods=["GET", "HEAD"], include_in_schema=False)
+async def favicon_48():
+    return FileResponse(os.path.join(STATIC_DIR, "img", "favicon-48x48.png"))
+
+
+@app.api_route("/apple-touch-icon.png", methods=["GET", "HEAD"], include_in_schema=False)
+async def apple_touch_icon():
+    return FileResponse(os.path.join(STATIC_DIR, "img", "apple-touch-icon.png"))
+
+
+@app.api_route("/android-chrome-192x192.png", methods=["GET", "HEAD"], include_in_schema=False)
+async def android_chrome_192():
+    return FileResponse(os.path.join(STATIC_DIR, "img", "android-chrome-192x192.png"))
+
+
+@app.api_route("/android-chrome-512x512.png", methods=["GET", "HEAD"], include_in_schema=False)
+async def android_chrome_512():
+    return FileResponse(os.path.join(STATIC_DIR, "img", "android-chrome-512x512.png"))
+
+
+@app.api_route("/site.webmanifest", methods=["GET", "HEAD"], include_in_schema=False)
+async def site_webmanifest():
+    return FileResponse(
+        os.path.join(STATIC_DIR, "site.webmanifest"),
+        media_type="application/manifest+json",
+    )

@@ -56,6 +56,18 @@ class RouteSmokeTests(unittest.TestCase):
         self.assertIn("share-bar", guide_response.text)
         self.assertIn("count-like", school_response.text)
 
+    def test_favicon_and_manifest_routes_exist(self):
+        for path in [
+            "/favicon.ico",
+            "/favicon-32x32.png",
+            "/favicon-48x48.png",
+            "/apple-touch-icon.png",
+            "/site.webmanifest",
+        ]:
+            with self.subTest(path=path):
+                response = self.client.get(path)
+                self.assertEqual(response.status_code, 200)
+
 
 if __name__ == "__main__":
     unittest.main()

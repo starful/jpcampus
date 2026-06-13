@@ -64,6 +64,19 @@ def calculate_tag_counts(schools):
     ]
     return [tag for tag in results if tag['count'] >= 5]
 
+def get_quick_filters(lang="en"):
+    ui = get_ui_text(lang)
+    return [
+        {"key": "all", "icon": "📍", "label": ui["filter_all"]},
+        {"key": "tokyo", "icon": "🏙️", "label": ui["filter_tokyo"]},
+        {"key": "osaka", "icon": "🏯", "label": ui["filter_osaka"]},
+        {"key": "dormitory", "icon": "🏠", "label": ui["filter_dormitory"]},
+        {"key": "academic", "icon": "🎓", "label": ui["filter_academic"]},
+        {"key": "university", "icon": "🏛️", "label": ui["filter_universities"]},
+        {"key": "major_city", "icon": "🌇", "label": ui["filter_other_cities"]},
+        {"key": "size_medium", "icon": "📊", "label": ui["filter_medium"]},
+    ]
+
 def get_client_ip(request: Request):
     try:
         x_forwarded_for = request.headers.get("X-Forwarded-For")
@@ -154,6 +167,11 @@ def get_ui_text(lang):
             "all_schools": "모든 학교", "back_to_map": "지도로 돌아가기", "back_to_list": "목록으로 돌아가기",
             "global_programs": "글로벌 프로그램", "national_private": "공식 국공립/사립 기관",
             "view_all_schools": "모든 학교 보기 →", "view_all_univs": "모든 대학교 보기 →",
+            "find_schools": "학교 찾기", "find_universities": "대학 찾기", "read_guides": "가이드 보기",
+            "filter_all": "전체", "filter_tokyo": "도쿄", "filter_osaka": "오사카", "filter_dormitory": "기숙사",
+            "filter_academic": "진학", "filter_universities": "대학", "filter_other_cities": "기타 도시",
+            "filter_medium": "중형",
+            "schools_listed": "개 학교 등록됨", "last_updated": "최근 업데이트:", "updating_weekly": "매주 업데이트 중",
             "reaction_title": "이 페이지가 도움이 되었나요?",
             "reaction_subtitle": "피드백은 콘텐츠 개선에 활용합니다",
             "share_label": "이 페이지 공유하기",
@@ -171,6 +189,11 @@ def get_ui_text(lang):
         "all_schools": "All Schools", "back_to_map": "Back to Map", "back_to_list": "Back to List",
         "global_programs": "Global Programs", "national_private": "Official National/Private Institute",
         "view_all_schools": "View all schools →", "view_all_univs": "View all universities →",
+        "find_schools": "Find Schools", "find_universities": "Find Universities", "read_guides": "Read Guides",
+        "filter_all": "All", "filter_tokyo": "Tokyo", "filter_osaka": "Osaka", "filter_dormitory": "Dorm",
+        "filter_academic": "Prep", "filter_universities": "Univ", "filter_other_cities": "Other Cities",
+        "filter_medium": "Mid",
+        "schools_listed": "Schools Listed", "last_updated": "Last Updated:", "updating_weekly": "Updating Weekly",
         "reaction_title": "Was this page helpful?",
         "reaction_subtitle": "Your feedback helps us improve our guides",
         "share_label": "Share this page",
