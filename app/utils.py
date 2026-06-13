@@ -153,7 +153,9 @@ def get_ui_text(lang):
             "contact_fee": "학비 문의", "yearly": "연간", "search_placeholder": "대학교 검색...",
             "all_schools": "모든 학교", "back_to_map": "지도로 돌아가기", "back_to_list": "목록으로 돌아가기",
             "global_programs": "글로벌 프로그램", "national_private": "공식 국공립/사립 기관",
-            "view_all_schools": "모든 학교 보기 →", "view_all_univs": "모든 대학교 보기 →"
+            "view_all_schools": "모든 학교 보기 →", "view_all_univs": "모든 대학교 보기 →",
+            "reaction_title": "이 페이지가 도움이 되었나요?",
+            "reaction_subtitle": "피드백은 콘텐츠 개선에 활용합니다",
         }
     return {
         "featured_title": "Featured Collections", "best_selection": "Best Selection", "view_ranking": "View Ranking →",
@@ -162,7 +164,9 @@ def get_ui_text(lang):
         "contact_fee": "Contact for Fee", "yearly": "Yearly", "search_placeholder": "Search universities...",
         "all_schools": "All Schools", "back_to_map": "Back to Map", "back_to_list": "Back to List",
         "global_programs": "Global Programs", "national_private": "Official National/Private Institute",
-        "view_all_schools": "View all schools →", "view_all_univs": "View all universities →"
+        "view_all_schools": "View all schools →", "view_all_univs": "View all universities →",
+        "reaction_title": "Was this page helpful?",
+        "reaction_subtitle": "Your feedback helps us improve our guides",
     }
 
 def load_school_data(lang="en"):

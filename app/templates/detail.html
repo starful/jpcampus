@@ -86,6 +86,21 @@
         </a>
     </div>
 
+    <section class="reaction-panel" aria-label="Page feedback">
+        <p class="reaction-panel-title">{{ ui.reaction_title }}</p>
+        <p class="reaction-panel-subtitle">{{ ui.reaction_subtitle }}</p>
+        <div class="reaction-container">
+            <button id="btn-like" class="reaction-btn" type="button" onclick="toggleReaction('like')" aria-label="Like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span id="count-like">0</span>
+            </button>
+            <button id="btn-dislike" class="reaction-btn" type="button" onclick="toggleReaction('dislike')" aria-label="Dislike">
+                <i class="fa-solid fa-thumbs-down"></i>
+                <span id="count-dislike">0</span>
+            </button>
+        </div>
+    </section>
+
     {% if related_schools %}
     <div class="section-header" style="margin-top: 56px;">
         <h2 class="section-title">{{ 'Related Schools' if current_lang == 'en' else '연관 학교' }}</h2>
@@ -131,18 +146,6 @@
         {% endfor %}
     </div>
     {% endif %}
-
-    {# [신규] 좋아요/싫어요 컨테이너 #}
-    <div class="reaction-container">
-        <button id="btn-like" class="reaction-btn" onclick="toggleReaction('like')">
-            <i class="fa-solid fa-thumbs-up"></i>
-            <span id="count-like">0</span>
-        </button>
-        <button id="btn-dislike" class="reaction-btn" onclick="toggleReaction('dislike')">
-            <i class="fa-solid fa-thumbs-down"></i>
-            <span id="count-dislike">0</span>
-        </button>
-    </div>
 
 </main>
 {% endblock %}

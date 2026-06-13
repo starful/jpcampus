@@ -362,8 +362,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .card-img { height: 200px; }
     .footer-links { flex-wrap: wrap; gap: 14px 20px; }
     .family-sites-container { padding: 0 !important; margin-bottom: 30px !important; }
-    .reaction-container { flex-wrap: wrap; gap: 10px; margin-top: 40px; }
-    .reaction-btn { width: 100%; max-width: 240px; }
+    .reaction-container { flex-wrap: wrap; gap: 12px; }
+    .reaction-panel { margin-top: 36px; padding: 24px 20px 28px; }
+    .reaction-panel-title { font-size: 1.15rem; }
+    .reaction-btn { min-width: 0; flex: 1 1 120px; max-width: 200px; padding: 12px 20px; }
     .stats-banner { justify-content: center; }
     .stat-pill { width: 100%; justify-content: center; text-align: center; }
     .detail-cta-panel { grid-template-columns: 1fr; }
@@ -470,36 +472,60 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     z-index: 1200;
 }
 
-/* --- [13] [신규] 리액션 (좋아요/싫어요) 스타일 --- */
+/* --- [13] 리액션 (좋아요/싫어요) --- */
+.reaction-panel {
+    margin-top: 48px;
+    margin-bottom: 8px;
+    padding: 28px 32px 32px;
+    border-radius: 20px;
+    border: 1px solid rgba(37, 99, 235, 0.14);
+    background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+    box-shadow: 0 8px 28px rgba(37, 99, 235, 0.08);
+    text-align: center;
+}
+
+.reaction-panel-title {
+    margin: 0 0 8px;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text-dark, #0f172a);
+    letter-spacing: -0.02em;
+}
+
+.reaction-panel-subtitle {
+    margin: 0 0 22px;
+    font-size: 0.95rem;
+    color: var(--text-gray);
+}
+
 .reaction-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    margin-top: 60px;
-    padding-top: 30px;
-    border-top: 1px solid var(--border);
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .reaction-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding: 12px 28px;
+    gap: 10px;
+    min-width: 140px;
+    padding: 14px 32px;
     border-radius: 999px;
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
     background-color: var(--white);
     color: var(--text-gray);
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.15rem;
+    font-weight: 700;
     cursor: pointer;
     transition: all 0.2s ease;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
 }
 
 .reaction-btn i {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     transition: transform 0.2s ease;
 }
 
