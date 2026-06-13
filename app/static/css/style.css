@@ -225,24 +225,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     outline: 3px solid #f59e0b;
     transform: translateY(-4px);
 }
-.compare-toggle-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    background: #fff;
-    color: var(--text-gray);
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 6px 10px;
-    margin-bottom: 10px;
-}
-.compare-toggle-btn.is-selected {
-    background: #0f172a;
-    color: #fff;
-    border-color: #0f172a;
-}
 .card-meta { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-gray); margin-bottom: 20px; }
 .card-footer { padding: 18px 24px; background: #fcfcfc; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
 .card-price { font-weight: 800; color: var(--primary); font-size: 1rem; }
@@ -275,7 +257,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .detail-content td { padding: 15px; border-bottom: 1px solid var(--border); }
 .detail-cta-panel {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
     margin-top: 30px;
 }
@@ -292,16 +274,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     font-size: 0.9rem;
     color: var(--text-dark);
 }
-.compare-spec-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
-    padding: 7px 0;
-    border-bottom: 1px dashed var(--border);
-    font-size: 0.86rem;
-}
-.compare-spec-row strong { font-size: 0.88rem; }
 .gm-style-iw-c { padding: 0 !important; border-radius: 16px !important; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12) !important; }
 .gm-style-iw-d { overflow: hidden !important; }
 .info-window-content { padding: 20px; width: 280px; }
@@ -369,22 +341,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .stats-banner { justify-content: center; }
     .stat-pill { width: 100%; justify-content: center; text-align: center; }
     .detail-cta-panel { grid-template-columns: 1fr; }
-    .compare-bar {
-        bottom: max(96px, env(safe-area-inset-bottom));
-        right: auto;
-        left: 50%;
-        transform: translateX(-50%);
-        width: calc(100% - 12px);
-        flex-direction: column;
-        align-items: stretch;
-    }
-    .compare-bar-actions {
-        width: 100%;
-    }
-    .compare-clear-btn, .compare-open-btn {
-        flex: 1;
-        text-align: center;
-    }
 }
 
 @media (max-width: 480px) {
@@ -685,49 +641,4 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .stat-pill.highlight-pill .stat-highlight {
     color: #f59e0b;
     margin: 0;
-}
-
-.compare-bar {
-    position: fixed;
-    right: 20px;
-    left: auto;
-    transform: none;
-    bottom: max(88px, env(safe-area-inset-bottom));
-    z-index: 2147483000;
-    width: min(420px, calc(100% - 24px));
-    background: #0f172a;
-    color: #e2e8f0;
-    border-radius: 12px;
-    padding: 12px 14px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
-}
-.compare-bar.is-hidden { display: none; }
-.compare-bar-text { font-size: 0.9rem; display: inline-flex; gap: 6px; align-items: baseline; }
-.compare-bar-actions { display: inline-flex; gap: 8px; }
-.compare-clear-btn, .compare-open-btn {
-    border: 1px solid #334155;
-    background: #1e293b;
-    color: #fff;
-    border-radius: 8px;
-    padding: 8px 12px;
-    font-size: 0.82rem;
-    font-weight: 700;
-}
-.compare-open-btn { background: #2563eb; border-color: #2563eb; }
-.compare-detail-link {
-    display: inline-flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #2563eb;
-    background: #2563eb;
-    color: #fff;
-    border-radius: 8px;
-    padding: 8px 12px;
-    font-size: 0.82rem;
-    font-weight: 700;
 }

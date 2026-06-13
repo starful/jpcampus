@@ -101,10 +101,6 @@
                 <span class="card-badge" style="color: var(--primary);">{{ ui.school_badge }}</span>
             </div>
             <div class="card-body">
-                <button type="button" class="compare-toggle-btn" data-compare-id="{{ item.id }}" data-compare-type="school" data-label-default="{{ 'Compare +' if current_lang == 'en' else '비교 +' }}" data-label-selected="{{ 'Compared' if current_lang == 'en' else '비교됨' }}">
-                    {{ 'Compare +' if current_lang == 'en' else '비교 +' }}
-                </button>
-                {# [중요] name_display(한국어이름)가 있으면 우선 출력 #}
                 <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}</h4>
                 <div class="card-meta">
                     <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
@@ -140,9 +136,6 @@
                 <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
             </div>
             <div class="card-body">
-                <button type="button" class="compare-toggle-btn" data-compare-id="{{ item.id }}" data-compare-type="university" data-label-default="{{ 'Compare +' if current_lang == 'en' else '비교 +' }}" data-label-selected="{{ 'Compared' if current_lang == 'en' else '비교됨' }}">
-                    {{ 'Compare +' if current_lang == 'en' else '비교 +' }}
-                </button>
                 <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}</h4>
                 <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 15px;">{{ ui.national_private }}</p>
             </div>
@@ -172,17 +165,6 @@
             </div>
         </a>
         {% endfor %}
-    </div>
-</div>
-
-<div id="compare-bar" class="compare-bar is-hidden">
-    <div class="compare-bar-text">
-        <strong>{{ 'Compare List' if current_lang == 'en' else '비교 목록' }}</strong>
-        <span id="compare-count">0</span>/3
-    </div>
-    <div class="compare-bar-actions">
-        <button type="button" id="compare-clear-btn" class="compare-clear-btn">{{ 'Clear' if current_lang == 'en' else '초기화' }}</button>
-        <a id="compare-open-btn" href="/compare" class="compare-open-btn">{{ 'Compare now' if current_lang == 'en' else '지금 비교' }}</a>
     </div>
 </div>
 

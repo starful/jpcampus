@@ -6,7 +6,6 @@ let markers = [];
 let infoWindow;
 let currentFilteredData = [];
 let markerById = {};
-const COMPARE_KEY = "jp_compare_ids_v1";
 
 // --- [1] 초기화 함수 ---
 async function initMap() {
@@ -34,8 +33,6 @@ async function initMap() {
     bindEvents();
     bindCardInteractions();
     renderMarkers(allSchoolData);
-    bootstrapCompareFromQuery();
-    syncCompareUI();
 }
 
 // --- [2] [수정] 이벤트 바인딩 함수 ---
@@ -141,15 +138,6 @@ function bindEvents() {
             });
         }
     }
-
-    const compareClearBtn = document.getElementById("compare-clear-btn");
-    if (compareClearBtn) {
-        compareClearBtn.addEventListener("click", () => {
-            localStorage.removeItem(COMPARE_KEY);
-            syncCompareUI();
-            trackEvent("compare_clear", "clear");
-        });
-    }
 }
 
 // --- [3] [수정] 필터 버튼 클릭 핸들러 ---
@@ -188,15 +176,6 @@ function bindCardInteractions() {
         const schoolId = card.dataset.schoolId;
         card.addEventListener('mouseenter', () => highlightMarkerById(schoolId, true));
         card.addEventListener('mouseleave', () => highlightMarkerById(schoolId, false));
-    });
-
-    const compareButtons = document.querySelectorAll('.compare-toggle-btn[data-compare-id]');
-    compareButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            toggleCompareItem(button.dataset.compareId);
-        });
     });
 }
 
@@ -340,81 +319,6 @@ function highlightMarkerById(schoolId, isActive) {
     const marker = markerById[schoolId];
     if (!marker || !marker.content) return;
     marker.content.classList.toggle("map-marker-active", !!isActive);
-}
-
-function getCompareItems() {
-    try {
-        const raw = localStorage.getItem(COMPARE_KEY);
-        if (!raw) return [];
-        const parsed = JSON.parse(raw);
-        return Array.isArray(parsed) ? parsed : [];
-    } catch (_) {
-        return [];
-    }
-}
-
-function setCompareItems(ids) {
-    localStorage.setItem(COMPARE_KEY, JSON.stringify(ids));
-}
-
-function toggleCompareItem(id) {
-    if (!id) return;
-    const items = getCompareItems();
-    const exists = items.includes(id);
-    let next = items;
-    if (exists) {
-        next = items.filter(v => v !== id);
-    } else {
-        if (items.length >= 3) {
-            next = items.slice(1);
-        }
-        next = [...next, id];
-    }
-    setCompareItems(next);
-    syncCompareUI();
-    trackEvent("compare_toggle", id);
-}
-
-function bootstrapCompareFromQuery() {
-    const params = new URLSearchParams(window.location.search);
-    const addCompareId = params.get("add_compare");
-    if (!addCompareId) return;
-
-    const ids = getCompareItems();
-    if (!ids.includes(addCompareId)) {
-        const next = ids.length >= 3
-            ? [...ids.slice(1), addCompareId]
-            : [...ids, addCompareId];
-        setCompareItems(next);
-        trackEvent("compare_add_from_detail", addCompareId);
-    }
-
-    params.delete("add_compare");
-    const nextQuery = params.toString();
-    const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ""}${window.location.hash || ""}`;
-    window.history.replaceState({}, "", nextUrl);
-}
-
-function syncCompareUI() {
-    const ids = getCompareItems();
-    const countEl = document.getElementById("compare-count");
-    const barEl = document.getElementById("compare-bar");
-    const openBtn = document.getElementById("compare-open-btn");
-    if (countEl) countEl.textContent = String(ids.length);
-    if (barEl) {
-        barEl.classList.toggle("is-hidden", ids.length === 0);
-    }
-    if (openBtn) {
-        const query = ids.join(",");
-        openBtn.href = query ? `/compare?ids=${encodeURIComponent(query)}` : "/compare";
-    }
-    document.querySelectorAll('.compare-toggle-btn[data-compare-id]').forEach(btn => {
-        const selected = ids.includes(btn.dataset.compareId);
-        btn.classList.toggle("is-selected", selected);
-        const defaultLabel = btn.dataset.labelDefault || "Compare +";
-        const selectedLabel = btn.dataset.labelSelected || "Compared";
-        btn.textContent = selected ? selectedLabel : defaultLabel;
-    });
 }
 
 function trackEvent(action, label) {
