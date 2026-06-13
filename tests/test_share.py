@@ -42,6 +42,18 @@ class ShareBarTests(unittest.TestCase):
         self.assertTrue(response.headers["content-type"].startswith("image/jpeg"))
         self.assertGreater(len(response.content), 1000)
 
+    def test_social_image_head(self):
+        response = self.client.head("/social/guide-housing.jpg")
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(response.headers["content-type"].startswith("image/jpeg"))
+        self.assertEqual(response.content, b"")
+
+    def test_social_card_head(self):
+        response = self.client.head("/card/guide/housing")
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("text/html", response.headers["content-type"])
+        self.assertEqual(response.content, b"")
+
 
 if __name__ == "__main__":
     unittest.main()

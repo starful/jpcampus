@@ -729,14 +729,14 @@ def _render_social_image(kind: str, identifier: str, lang: str) -> Response:
     return Response(content=data, media_type="image/jpeg", headers={"Cache-Control": "public, max-age=86400"})
 
 
-@app.get("/social/{image_key}.jpg")
+@app.api_route("/social/{image_key}.jpg", methods=["GET", "HEAD"])
 async def social_image(image_key: str, lang: str = Query("en")):
     if image_key.startswith("guide-"):
         return _render_social_image("guide", image_key[6:], lang)
     return _render_social_image("school", image_key, lang)
 
 
-@app.get("/card/school/{school_id}", response_class=HTMLResponse)
+@app.api_route("/card/school/{school_id}", methods=["GET", "HEAD"], response_class=HTMLResponse)
 async def school_social_card(request: Request, school_id: str, lang: str = Query("en")):
     item, item_type = load_school_item(school_id, lang)
     title = (
@@ -762,7 +762,7 @@ async def school_social_card(request: Request, school_id: str, lang: str = Query
     })
 
 
-@app.get("/card/guide/{slug}", response_class=HTMLResponse)
+@app.api_route("/card/guide/{slug}", methods=["GET", "HEAD"], response_class=HTMLResponse)
 async def guide_social_card(request: Request, slug: str, lang: str = Query("en")):
     item = load_guide_item(slug, lang)
     title_raw, desc_raw = _apply_guide_serp_overrides(slug, lang, item)
