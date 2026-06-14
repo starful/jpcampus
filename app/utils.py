@@ -185,6 +185,32 @@ def get_ui_text(lang):
             "share_hint": "X 공유는 미리보기 전용 /card/ URL을 사용합니다. 이미지가 안 보이면 ",
             "share_hint_link": "카드 페이지",
             "share_hint_tail": "를 새 탭에서 연 뒤 X 버튼으로 공유하세요.",
+            "category": "구분", "capacity": "정원", "yearly_tuition": "연간 학비", "view_details": "상세 보기",
+            "students": "유학생 수", "language_school": "어학원", "university": "대학교", "guide_badge": "가이드",
+            "compare_header": "비교",
+            "compare_add": "+ 비교",
+            "compare_added": "✓ 비교 중",
+            "compare_selected": "개 선택",
+            "compare_clear": "초기화",
+            "compare_now": "비교하기",
+            "compare_title": "학교 비교",
+            "compare_desc": "최대 3개 학교를 선택해 학비·지역·특징을 나란히 비교하세요.",
+            "compare_table_title": "나란히 비교",
+            "compare_schools_compared": "개 학교 비교 중",
+            "compare_need_more": "한 곳 더 추가하세요",
+            "compare_pick_schools": "목록에서 2~3개 학교를 선택하세요",
+            "compare_empty_html": "비교하려면 목록에서 <strong>2개 이상</strong>의 학교를 선택하세요.",
+            "compare_remove": "제거",
+            "compare_row_type": "구분",
+            "compare_row_city": "도시",
+            "compare_row_fees": "학비",
+            "compare_row_features": "특징",
+            "compare_toast_added": "비교 목록에 추가했습니다 ✓",
+            "compare_toast_removed": "비교 목록에서 제거했습니다",
+            "compare_toast_max": "최대 3개 — 하나를 제거하세요",
+            "compare_toast_cleared": "비교 목록을 초기화했습니다",
+            "meta_compare_title": "학교 비교 | JP Campus",
+            "meta_compare_desc": "일본어 어학원·대학을 최대 3개까지 나란히 비교하세요. 학비·정원·유학생 수·특징을 한눈에 확인합니다.",
         }
     return {
         "featured_title": "Featured Collections", "best_selection": "Best Selection", "view_ranking": "View Ranking →",
@@ -207,7 +233,61 @@ def get_ui_text(lang):
         "share_hint": "X shares use the /card/ preview URL. If the image is missing, ",
         "share_hint_link": "open the card page",
         "share_hint_tail": ", then share again via the X button.",
+        "category": "Category", "capacity": "Capacity", "yearly_tuition": "Yearly Tuition", "view_details": "View Details",
+        "students": "Students", "language_school": "Language School", "university": "University", "guide_badge": "Guide",
+        "compare_header": "Compare",
+        "compare_add": "+ Compare",
+        "compare_added": "✓ Comparing",
+        "compare_selected": "selected",
+        "compare_clear": "Clear",
+        "compare_now": "Compare now",
+        "compare_title": "School Compare",
+        "compare_desc": "Select up to 3 schools or universities to compare fees, location, and features side by side.",
+        "compare_table_title": "Side-by-side comparison",
+        "compare_schools_compared": "schools compared",
+        "compare_need_more": "add one more",
+        "compare_pick_schools": "Pick 2–3 schools from the list for a meaningful comparison",
+        "compare_empty_html": "Select at least <strong>2 schools</strong> from the list to see a comparison.",
+        "compare_remove": "Remove",
+        "compare_row_type": "Type",
+        "compare_row_city": "City",
+        "compare_row_fees": "Tuition / fees",
+        "compare_row_features": "Features",
+        "compare_toast_added": "Added to compare ✓",
+        "compare_toast_removed": "Removed from compare",
+        "compare_toast_max": "Max 3 schools — remove one first",
+        "compare_toast_cleared": "Compare list cleared",
+        "meta_compare_title": "Compare Schools | JP Campus",
+        "meta_compare_desc": "Compare up to 3 Japanese language schools or universities side by side — fees, capacity, international students, and features.",
     }
+
+def compare_city(item: dict) -> str:
+    address = item.get("basic_info", {}).get("address", "")
+    if not address:
+        return "—"
+    return address.split(",")[0].strip()
+
+def compare_fee_value(item: dict) -> int | None:
+    tuition = item.get("tuition") or {}
+    value = tuition.get("yearly_tuition")
+    return value if isinstance(value, (int, float)) else None
+
+def compare_fee_label(item: dict, lang: str) -> str | None:
+    value = compare_fee_value(item)
+    if value is None:
+        return None
+    suffix = " <small>(yearly)</small>" if item.get("category") == "university" else " <small>(yearly tuition)</small>"
+    return f"¥{int(value):,}{suffix}"
+
+def prepare_compare_items(items: list[dict], lang: str) -> list[dict]:
+    prepared = []
+    for item in items:
+        row = dict(item)
+        row["compare_city"] = compare_city(item)
+        row["compare_fee_value"] = compare_fee_value(item)
+        row["compare_fee_label"] = compare_fee_label(item, lang)
+        prepared.append(row)
+    return prepared
 
 def load_school_data(lang="en"):
     filename = "schools_data_kr.json" if lang == "kr" else "schools_data.json"

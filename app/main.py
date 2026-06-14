@@ -15,7 +15,8 @@ from xml.sax.saxutils import escape as xml_escape
 # 분리된 유틸 및 API 라우터 임포트
 from app.utils import (
     calculate_tag_counts, assign_thumbnails, get_ui_text, get_quick_filters,
-    load_school_data, load_guides, STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
+    load_school_data, load_guides, prepare_compare_items, compare_fee_value,
+    STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
 )
 from app.content_new import enrich_items
 from app.reactions import router as reactions_router
@@ -413,7 +414,7 @@ async def sitemap():
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     add_entry("/", today, "daily", "1.0")
-    for page in ["/about", "/guide", "/schools", "/universities", "/contact", "/policy"]:
+    for page in ["/about", "/guide", "/schools", "/universities", "/contact", "/policy", "/compare"]:
         add_entry(page, today, "weekly", "0.8")
 
     schools_en, _ = load_school_data("en")
@@ -685,6 +686,41 @@ async def guide_list_page(request: Request, lang: str = Query("en")):
         "meta_description": build_meta_description(
             "Read practical guides on costs, housing, visas, and student life in Japan.",
             "Read practical guides on costs, housing, visas, and student life in Japan."
+        ),
+    })
+
+@app.get("/compare", response_class=HTMLResponse)
+async def compare_page(request: Request, ids: str = "", lang: str = Query("en")):
+    schools_data, _ = load_school_data(lang)
+    school_by_id = {s["id"]: s for s in schools_data if s.get("id")}
+    id_list = [value.strip() for value in ids.split(",") if value.strip()][:3]
+
+    selected = []
+    for school_id in id_list:
+        item = school_by_id.get(school_id)
+        if not item:
+            continue
+        item_type = "university" if item.get("category") == "university" else "school"
+        assign_thumbnails([item], item_type)
+        selected.append(item)
+
+    fee_values = [compare_fee_value(item) for item in selected]
+    fee_values = [value for value in fee_values if value is not None]
+    min_fee = min(fee_values) if fee_values else None
+
+    ui = get_ui_text(lang)
+    return templates.TemplateResponse(request, "compare.html", {
+        "selected": prepare_compare_items(selected, lang),
+        "min_fee": min_fee,
+        "current_lang": lang,
+        "ui": ui,
+        "canonical_url": build_canonical_url("/compare", lang),
+        "hreflang_urls": build_hreflang_urls("/compare"),
+        "updated_at": default_updated_at(),
+        "meta_title": build_meta_title(ui["meta_compare_title"], lang),
+        "meta_description": build_meta_description(
+            ui["meta_compare_desc"],
+            "Compare Japanese language schools and universities side by side on JP Campus.",
         ),
     })
 
