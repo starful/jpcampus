@@ -17,6 +17,7 @@ from app.utils import (
     calculate_tag_counts, assign_thumbnails, get_ui_text, get_quick_filters,
     load_school_data, load_guides, STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
 )
+from app.content_new import enrich_items
 from app.reactions import router as reactions_router
 from app.social_share import (
     card_page_path,
@@ -470,12 +471,16 @@ async def read_root(request: Request, lang: str = Query("en")):
     all_guides = load_guides(lang)
     ui = get_ui_text(lang)
 
-    featured_guides =[g for g in all_guides if g.get('is_featured')]
-    if not featured_guides: featured_guides = all_guides[:6]
-    else: featured_guides = featured_guides[:6]
+    featured_candidates = [g for g in all_guides if g.get('is_featured')]
+    if not featured_candidates:
+        featured_candidates = all_guides[:6]
+    else:
+        featured_candidates = featured_candidates[:6]
+    featured_guides = enrich_items(featured_candidates)
+    featured_links = {g["link"] for g in featured_guides}
 
-    latest_schools = assign_thumbnails([s for s in schools_data if s.get('category') != 'university'][:6], "school")
-    latest_universities = assign_thumbnails([s for s in schools_data if s.get('category') == 'university'][:6], "university")
+    latest_schools = enrich_items(assign_thumbnails([s for s in schools_data if s.get('category') != 'university'][:6], "school"))
+    latest_universities = enrich_items(assign_thumbnails([s for s in schools_data if s.get('category') == 'university'][:6], "university"))
     tags_with_counts = calculate_tag_counts(schools_data)
     
     # [방어 로직] basic_info가 없는 불량 데이터를 완벽하게 커버
@@ -497,7 +502,7 @@ async def read_root(request: Request, lang: str = Query("en")):
         "featured_guides": featured_guides, 
         "latest_schools": latest_schools, 
         "latest_universities": latest_universities, 
-        "latest_guides":[g for g in all_guides if g not in featured_guides][:6],
+        "latest_guides": enrich_items([g for g in all_guides if g["link"] not in featured_links][:6]),
         "tags_with_counts": tags_with_counts, 
         "university_list_json": university_list,
         "current_lang": lang,

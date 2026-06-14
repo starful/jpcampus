@@ -3,6 +3,11 @@ import json
 import os
 import glob
 import hashlib
+
+try:
+    from .content_new import enrich_item
+except ImportError:
+    from content_new import enrich_item
 import frontmatter
 from fastapi import Request
 
@@ -238,15 +243,16 @@ def load_guides(lang="en"):
                 hash_val = int(hashlib.md5(guide_id.encode('utf-8')).hexdigest(), 16)
                 safe_thumbnail = GUIDE_THUMBNAILS[hash_val % len(GUIDE_THUMBNAILS)]
 
-            guides.append({
+            guides.append(enrich_item({
                 "title": meta.get('title', 'Untitled'), 
                 "description": meta.get('description', ''),
                 "category": meta.get('category', 'Guide'), 
                 "link": f"/guide/{guide_id}?lang={lang}",
                 "thumbnail": safe_thumbnail,
                 "item_type": "guide",
-                "is_featured": meta.get('is_featured', False)
-            })
+                "is_featured": meta.get('is_featured', False),
+                "published": str(meta.get('date', '')),
+            }))
         except Exception:
             pass
     return guides
