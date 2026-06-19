@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_nara-womens-university-guide",
-  "title": "Nara Women's University",
+  "title": "Nara Women's University Guide for International Students",
   "category": "university",
   "tags": [
     "National University Status",
@@ -44,9 +44,13 @@
     "EJU and JLPT Required",
     "High Faculty-to-Student Ratio",
     "Located in the Heart of Ancient Nara"
-  ]
+  ],
+  "description": "Explore Nara Women's University: admission guidelines, tuition fees, academic programs, and essential tips for international students.",
+  "seo_title": "Nara Women's University Guide: Admission & Tuition | JP Campus",
+  "seo_description": "Plan your study at Nara Women's University. Find tuition fees, admission requirements, and guides for international students in Japan."
 }
 ---
+
 
 ## 🏫 University Overview
 

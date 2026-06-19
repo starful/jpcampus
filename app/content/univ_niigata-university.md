@@ -5,10 +5,8 @@ basic_info:
   name_ja: 新潟大学
   website: https://www.niigata-u.ac.jp/
 category: university
-description: Niigata University is a comprehensive national university in Niigata
-  Prefecture, Japan, offering a wide range of faculties and programs. Known for its
-  research and contributions to the local environment and economy, it provides a diverse
-  and inclusive environment for international students.
+description: Discover Niigata University's academic programs, rankings, admission
+  requirements, and campus life for international students looking to study in Japan.
 faculties:
 - Faculty of Humanities
 - Faculty of Education
@@ -41,12 +39,16 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: 'Niigata University: A Comprehensive National University'
+title: 'Niigata University: Complete Guide for International Students'
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+seo_title: 'Niigata University Guide: Programs, Admissions & Ranking | JP'
+seo_description: Explore Niigata University's programs, rankings, and admission guides
+  for international students. Plan your study in Japan with JP Campus.
 ---
+
 
 ## University Overview & Reputation
 

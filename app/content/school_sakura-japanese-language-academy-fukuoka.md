@@ -45,10 +45,16 @@ tags:
 - Conversation-focused Classes
 - Short-term Courses
 thumbnail: /static/img/pin-school.png
-title: Sakura Japanese Language Academy
+title: Sakura Japanese Language Academy Fukuoka
 translated: true
 tuition: {}
+description: Learn about Sakura Japanese Language Academy in Fukuoka. Explore 2026
+  tuition fees, courses, admission requirements, and student reviews.
+seo_title: Sakura Japanese Language Academy Fukuoka | 2026 Fees & Reviews
+seo_description: Want to study in Fukuoka? Explore Sakura Japanese Language Academy's
+  2026 tuition, courses, visa application guidelines, and student reviews.
 ---
+
 
 ## School Overview & Philosophy
 

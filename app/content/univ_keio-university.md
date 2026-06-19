@@ -5,9 +5,8 @@ basic_info:
   name_ja: 慶應義塾大学
   website: https://www.keio.ac.jp/
 category: university
-description: Keio University, located in Tokyo, is Japan's oldest private institution
-  of higher learning. Known for its strong alumni network and global initiatives,
-  Keio offers diverse faculties and comprehensive support for international students.
+description: Complete guide to Keio University. Learn about English-taught programs,
+  campus life, admissions, and tuition fees for international students.
 faculties:
 - Faculty of Letters
 - Faculty of Economics
@@ -47,7 +46,11 @@ translated: true
 tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
+seo_title: 'Keio University Guide: Admissions, Programs & Fees | JP Campus'
+seo_description: Explore Keio University in Tokyo. Find comprehensive info on admissions,
+  English programs, tuition, and support for international students on JP Campus.
 ---
+
 
 ## University Overview
 

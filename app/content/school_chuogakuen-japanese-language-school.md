@@ -55,9 +55,9 @@ courses:
 - admission_month: '1'
   course_name: University Preparation 1 Year 3-Month Course
   total_fees: 915000
-description: Provides comprehensive Japanese language education for international
-  students aiming for higher education in Japan, especially in science and engineering.
-  Offers strong academic support and a nurturing environment.
+description: Learn Japanese at Chuo College of Engineering Japanese Language School
+  in Tokyo. Explore courses, tuition, and direct pathways to top engineering vocational
+  schools.
 faculties: []
 features:
 - University Preparation
@@ -83,7 +83,11 @@ thumbnail: /static/img/pin-school.png
 title: Chuo College of Engineering Japanese Language School
 translated: true
 tuition: {}
+seo_title: Chuo College of Engineering Japanese Language School | JP Campus
+seo_description: Study in Tokyo at Chuo College of Engineering Japanese Language School.
+  Perfect for science, engineering & vocational pathways in Japan. View 2026 info!
 ---
+
 
 ## School Overview
 

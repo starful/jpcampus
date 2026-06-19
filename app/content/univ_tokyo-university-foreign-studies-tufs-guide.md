@@ -34,11 +34,17 @@ tags:
 - Limited English-Taught Programs at the undergraduate level; primary instruction
   is Japanese.
 thumbnail: /static/img/pin-univ.png
-title: Tokyo University of Foreign Studies
+title: Tokyo University of Foreign Studies (TUFS) Guide
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+description: Explore Tokyo University of Foreign Studies (TUFS). Get essential information
+  on tuition fees, international admissions, English programs, and student life.
+seo_title: Tokyo University of Foreign Studies (TUFS) Guide | JP Campus
+seo_description: Discover Tokyo University of Foreign Studies (TUFS). Your guide to
+  international admissions, tuition fees, English-taught programs, and campus life.
 ---
+
 
 ## 🏫 University Overview
 

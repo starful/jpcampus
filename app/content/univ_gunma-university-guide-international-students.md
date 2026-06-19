@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_gunma-university-guide-international-students",
-  "title": "Gunma University",
+  "title": "Gunma University Guide for International Students",
   "category": "university",
   "tags": [
     "World-class Heavy Ion Medical Center",
@@ -40,9 +40,13 @@
     "Strong ties with Subaru and regional manufacturing hubs",
     "Comprehensive G-Course for global leadership",
     "High employment rate for international graduates"
-  ]
+  ],
+  "description": "Thinking of studying at Gunma University? Explore our complete guide on international student admissions, tuition fees, courses, and life in Japan.",
+  "seo_title": "Gunma University: Guide for International Students | JPCampus",
+  "seo_description": "Thinking of studying at Gunma University? Explore our complete guide on international student admissions, tuition fees, courses, and life in Japan."
 }
 ---
+
 
 ## 🏫 University Overview: A Hub of Innovation and Tradition
 

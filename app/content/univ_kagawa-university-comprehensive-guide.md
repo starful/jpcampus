@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_kagawa-university-comprehensive-guide",
-  "title": "Kagawa University",
+  "title": "Kagawa University: Comprehensive Guide for International Students",
   "category": "university",
   "tags": [
     "World-leader in Rare Sugar (Izumoring) research",
@@ -42,9 +42,13 @@
     "Unique 'Engineering and Design' integrated curriculum",
     "Strong ties to the Setouchi regional revitalization and art projects",
     "Cost-effective living in Takamatsu, the 'Gateway to Shikoku'"
-  ]
+  ],
+  "description": "Your complete guide to studying at Kagawa University. Find tuition fees, admission requirements, available programs, and student life details.",
+  "seo_title": "Kagawa University: Complete Guide to Tuition & Admissions | JP Campus",
+  "seo_description": "Planning to study at Kagawa University? Check out tuition fees, admission requirements, programs, and campus life in our complete guide."
 }
 ---
+
 
 ## 🏫 University Overview
 

@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "gift-giving-culture",
-  "title": "'Omiyage': The Culture of Gift-Giving in Japan",
+  "title": "Mastering Japanese Gift-Giving Culture: An 'Omiyage' Guide for Students",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "Understanding the importance of souvenir gifts.",
+  "description": "Navigating gift-giving in Japan can be tricky. This guide covers the essential rules of 'omiyage' culture, etiquette, and what gifts to give as an international student.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-15"
+  "date": "2026-03-15",
+  "seo_title": "Japanese Gift-Giving Etiquette: Omiyage Guide for Students",
+  "seo_description": "Learn the essential rules of Japanese gift-giving culture. Discover what omiyage is, how to choose gifts, and proper etiquette for students in Japan."
 }
 ---
+
 
 # Mastering the Art of 'Omiyage': A Guide to Gift-Giving for International Students in Japan
 

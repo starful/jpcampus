@@ -40,16 +40,17 @@
     "Select English-Taught Graduate Programs (e.g., GSC Program)"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "전기통신대학교(UEC) 유학 가이드: 일본 국립대 컴공·공학 입시, 학비 | JP Campus",
+  "title": "[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공 입시, 학비 | JP Campus",
   "tuition": {
     "admission_fee": 282000,
     "yearly_tuition": 535800
   },
-  "description": "일본 명문 국립대 전기통신대학교(UEC, 전통대) 유학을 준비하시나요? 컴퓨터공학 및 이공계열 입시 전형(EJU), 학비, 연구실 선택 등 합격에 필요한 필수 정보를 총정리했습니다.",
-  "seo_title": "전기통신대학교(UEC) 유학 가이드: 일본 국립대 컴공·공학 입시, 학비 | JP Campus",
-  "seo_description": "일본 명문 국립대 전기통신대학교(UEC, 전통대) 유학을 준비하시나요? 컴퓨터공학 및 이공계열 입시 전형(EJU), 학비, 연구실 선택 등 합격에 필요한 필수 정보를 총정리했습니다."
+  "description": "일본 국립대 컴퓨터공학 유학의 명문, 전기통신대학교(전통대/UEC) 입시 가이드! EJU 전형, 학비, 장학금 및 취업 전망까지 합격을 위한 필수 정보를 정리했습니다.",
+  "seo_title": "[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공 입시, 학비 | JP Campus",
+  "seo_description": "일본 국립대 컴퓨터공학 유학의 명문, 전기통신대학교(전통대/UEC) 입시 가이드! EJU 전형, 학비, 장학금 및 취업 전망까지 합격을 위한 필수 정보를 정리했습니다."
 }
 ---
+
 
 
 ## 🏫 학교 개요

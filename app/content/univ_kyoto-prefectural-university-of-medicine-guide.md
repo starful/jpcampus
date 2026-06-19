@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_kyoto-prefectural-university-of-medicine-guide",
-  "title": "Kyoto Prefectural University of Medicine",
+  "title": "Kyoto Prefectural University of Medicine (2026 Guide)",
   "category": "university",
   "tags": [
     "Established in 1872 with over 150 years of history",
@@ -41,9 +41,13 @@
     "Strategic location adjacent to the Kyoto Imperial Palace and Kamo River",
     "Exceptional clinical training at the University Hospital",
     "Pioneering research in oncology, cardiovascular medicine, and neuroscience"
-  ]
+  ],
+  "description": "Explore Kyoto Prefectural University of Medicine. Find 2026 admission guidelines, tuition fees, and helpful resources for international students.",
+  "seo_title": "Kyoto Prefectural University of Medicine 2026 | JP Campus",
+  "seo_description": "Your complete 2026 guide to Kyoto Prefectural University of Medicine. Get details on admission requirements, tuition, and living costs in Japan."
 }
 ---
+
 
 ## 🏫 University Overview
 

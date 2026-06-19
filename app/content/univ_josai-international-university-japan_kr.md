@@ -44,15 +44,18 @@
     "Mandatory First-Year Dormitory Option for International Students"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "조사이 국제대학교",
-  "description": "글로벌 역량과 실무 지식을 겸비한 인재 양성에 힘쓰는 조사이 국제대학교에 대해 알아보세요.",
+  "title": "조사이국제대학교(JIU) 2026 입학 가이드: 학부, 학비, 일본 유학 | JP Campus",
+  "description": "2026년도 조사이국제대학교(JIU) 입학의 모든 것! 인기 학부, 학비, 유학생 장학금, 캠퍼스 생활 등 일본 유학 준비에 꼭 필요한 정보를 JP Campus에서 확인하세요.",
   "translated": true,
   "tuition": {
     "admission_fee": 280000,
     "yearly_tuition": 1250000
-  }
+  },
+  "seo_title": "조사이국제대학교(JIU) 2026 입학 가이드: 학부, 학비, 일본 유학 | JP Campus",
+  "seo_description": "2026년도 조사이국제대학교(JIU) 입학의 모든 것! 인기 학부, 학비, 유학생 장학금, 캠퍼스 생활 등 일본 유학 준비에 꼭 필요한 정보를 JP Campus에서 확인하세요."
 }
 ---
+
 
 ## 대학교 개요
 

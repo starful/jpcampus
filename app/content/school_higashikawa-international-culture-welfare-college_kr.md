@@ -50,11 +50,15 @@
     "Short-Term Study Programs Available"
   ],
   "thumbnail": "/static/img/pin-school.png",
-  "title": "히가시카와 국제문화복지전문학교",
+  "title": "[2026] 히가시카와 국제문화복지전문학교 - 학비 및 입학 가이드",
   "translated": true,
-  "tuition": {}
+  "tuition": {},
+  "description": "히가시카와 국제문화복지전문학교의 2026년 최신 학비, 개설 코스, 유학생 혜택 정보를 JP Campus에서 확인하고 일본 유학을 준비하세요.",
+  "seo_title": "[2026] 히가시카와 국제문화복지전문학교 학비·입학 정보 | JP Campus",
+  "seo_description": "2026년 히가시카와 국제문화복지전문학교 입학을 위한 학비, 코스, 유학생 혜택 정보를 확인하세요. JP Campus에서 일본 유학 준비를 시작할 수 있습니다."
 }
 ---
+
 
 ## 학교 개요 및 철학
 

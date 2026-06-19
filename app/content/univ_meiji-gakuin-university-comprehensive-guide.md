@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_meiji-gakuin-university-comprehensive-guide",
-  "title": "Meiji Gakuin University",
+  "title": "Meiji Gakuin University: Complete Guide for International Students",
   "category": "university",
   "tags": [
     "Founded by James Curtis Hepburn",
@@ -44,9 +44,13 @@
     "Historic Shirokane Campus",
     "Renowned Global and Transcultural Studies program",
     "Strong Christian Liberal Arts Tradition"
-  ]
+  ],
+  "description": "An ultimate guide to Meiji Gakuin University. Learn about academic programs, tuition fees, campus life, and admissions for international students.",
+  "seo_title": "Meiji Gakuin University Guide: Tuition & Admissions | JP Campus",
+  "seo_description": "Discover Meiji Gakuin University. Get reliable details on tuition, admission requirements, English programs, and rankings for international students."
 }
 ---
+
 
 ## 🏫 University Overview
 Meiji Gakuin University (MGU) stands as one of Japan’s most prestigious and historic private liberal arts institutions. Founded in 1863 by Dr. James Curtis Hepburn—the missionary and physician famous for creating the Hepburn Romanization system for the Japanese language—the university is deeply rooted in Christian principles. Its educational philosophy is encapsulated in the motto, "Do for Others." This isn't just a catchy phrase; it is the guiding light for the university’s curriculum, volunteering initiatives, and international exchange programs. With campuses in the heart of Tokyo (Shirokane) and the scenic hills of Yokohama, MGU offers a unique blend of historical charm and modern academic rigor. For international students, it represents a gateway to Japanese society that prioritizes social responsibility and global citizenship over mere rote learning.

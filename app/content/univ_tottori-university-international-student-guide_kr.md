@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_tottori-university-international-student-guide",
-  "title": "돗토리 대학교",
+  "title": "[2026] 돗토리 대학교 유학 가이드: 입학 전형, 학비, 학부 | JP Campus",
   "category": "university",
   "tags": [
     "World-leading Arid Land Research Center (ALRC)",
@@ -41,10 +41,13 @@
     "공학 및 농업 졸업생의 높은 취업률",
     "지역 사회 통합 지역 개발에 중점"
   ],
-  "description": "돗토리 대학교는 일본 산인 지역에 위치한 명문 국립 대학교입니다. 특히 농업 과학, 건조지 연구, 의학 혁신 분야에서 두각을 나타내고 있습니다.",
-  "lang": "kr"
+  "description": "돗토리 대학교 외국인 유학생 입학 가이드. 학부 및 학과 소개, 학비, 장학금 혜택, 2026년도 입시 요강 및 EJU 유학 정보를 JP Campus에서 확인하세요!",
+  "lang": "kr",
+  "seo_title": "[2026] 돗토리 대학교 유학 가이드: 입학 전형, 학비, 학부 | JP Campus",
+  "seo_description": "돗토리 대학교 외국인 유학생 입학 가이드. 학부 및 학과 소개, 학비, 장학금 혜택, 2026년도 입시 요강 및 EJU 유학 정보를 JP Campus에서 확인하세요!"
 }
 ---
+
 
 ## 🏫 대학교 개요
 
