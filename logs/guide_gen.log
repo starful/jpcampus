@@ -172,3 +172,6 @@
 2026-05-30 10:04:05,410 - ❌ Failed: dentist-visit-jp
 2026-05-30 10:04:05,602 - ❌ Failed: over-the-counter-meds
 2026-05-30 10:04:05,751 - ❌ Failed: glasses-jins-zoff
+2026-06-19 10:13:36,298 - ✅ Success: guide_over-the-counter-meds.md
+2026-06-19 10:13:49,377 - ✅ Success: guide_dentist-visit-jp.md
+2026-06-19 10:13:52,063 - ✅ Success: guide_glasses-jins-zoff.md
