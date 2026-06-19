@@ -39,12 +39,13 @@ translated: true
 tuition:
   admission_fee: 230000
   yearly_tuition: 1050000
-description: Thinking of studying at Tokyo University of Social Welfare? Explore 2026
-  tuition fees, admission requirements, and expert tips for international students.
-seo_title: 'Tokyo University of Social Welfare: 2026 Fees & Admission Guide'
-seo_description: Thinking of studying at Tokyo University of Social Welfare? Explore
-  2026 tuition fees, admission requirements, and expert tips for international students.
+description: A comprehensive guide to Tokyo University of Social Welfare (TUSW) for
+  international students, covering 2026 tuition, admissions, and campus life.
+seo_title: 'Tokyo University of Social Welfare: 2026 Guide | jpcampus'
+seo_description: Planning to study at Tokyo University of Social Welfare? Check 2026
+  tuition, entry requirements & application tips for international students.
 ---
+
 
 
 

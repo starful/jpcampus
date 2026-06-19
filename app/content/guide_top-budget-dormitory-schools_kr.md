@@ -2,7 +2,7 @@
 {
   "category": "Curated List",
   "date": "2026-01-15",
-  "description": "기숙사가 있는 가성비 좋은 학교 Top 5를 엄선하여 소개합니다.",
+  "description": "유학 비용과 주거비를 동시에 해결하는 가성비 최고의 기숙사 학교 Top 5를 소개합니다. 학비가 저렴하고 안전한 추천 학교 정보를 지금 바로 확인해 보세요.",
   "id": "top-budget-dormitory-schools",
   "is_featured": true,
   "lang": "kr",
@@ -12,7 +12,7 @@
     "Recommendation"
   ],
   "thumbnail": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=500",
-  "title": "기숙사가 있는 가성비 좋은 학교 Top 5",
+  "title": "학비 걱정 없는 기숙사형 가성비 학교 Top 5",
   "features": [
     "엄선된 학교 목록",
     "기숙사 완비",
@@ -20,9 +20,12 @@
   ],
   "basic_info": {
     "name_en": "Top 5 Budget-Friendly Schools with Dormitories"
-  }
+  },
+  "seo_title": "학비 걱정 끝! 기숙사 있는 가성비 추천 학교 Top 5 (2026) | JP Campus",
+  "seo_description": "유학 비용과 주거비를 동시에 해결하는 가성비 최고의 기숙사 학교 Top 5를 소개합니다. 학비가 저렴하고 안전한 추천 학교를 JP Campus에서 확인해 보세요!"
 }
 ---
+
 
 # 기숙사가 있는 가성비 좋은 학교 Top 5
 

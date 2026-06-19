@@ -2,7 +2,7 @@
 {
   "layout": "school",
   "id": "univ_chubu-university-international-student-guide",
-  "title": "Chubu University",
+  "title": "Chubu University International Student Guide",
   "category": "university",
   "tags": [
     "Industrial Powerhouse Connection",
@@ -44,9 +44,13 @@
     "Comprehensive Research Facilities",
     "International Exchange Programs",
     "Multidisciplinary Campus Culture"
-  ]
+  ],
+  "description": "Your complete guide to studying at Chubu University. Discover 2026 admission requirements, tuition fees, available scholarships, and international student support.",
+  "seo_title": "Chubu University 2026: International Student Guide | JP Campus",
+  "seo_description": "Explore Chubu University's 2026 guide for international students. Find accurate details on tuition, admissions, scholarships, and how to apply."
 }
 ---
+
 
 ## 🏫 University Overview
 

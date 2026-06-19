@@ -42,17 +42,18 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: Kyushu University 2026 International Admission Guide
+title: 'Kyushu University: 2026 International Admission Guide'
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-description: Discover Kyushu University's 2026 international admission requirements,
-  English-taught programs, tuition fees, and scholarship options. Apply now!
-seo_title: Kyushu University 2026 International Admission Guide | JPCampus
-seo_description: Discover Kyushu University's 2026 international admission requirements,
-  English-taught programs, tuition fees, and scholarship options. Apply now!
+description: Your ultimate resource for Kyushu University's 2026 intake. Discover
+  English-taught courses, tuition costs, scholarships, and admission requirements.
+seo_title: 'Kyushu University 2026 Admissions: English Programs | JP Campus'
+seo_description: Apply to Kyushu University in 2026. Explore English-taught programs,
+  tuition fees, scholarships, and admission requirements on JP Campus.
 ---
+
 
 
 

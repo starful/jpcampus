@@ -36,12 +36,13 @@ translated: true
 tuition:
   admission_fee: 220000
   yearly_tuition: 750000
-description: Explore Okinawa International University (OKIU). Find 2026 tuition, admission
-  requirements, scholarships, and student reviews.
-seo_title: 'Okinawa International Univ. (OKIU): 2026 Guide | JP Campus'
-seo_description: Plan your study at Okinawa International University. Get official
-  2026 tuition fees, admission requirements, scholarships, and student reviews.
+description: An all-in-one guide to Okinawa International University (OKIU) for international
+  students, featuring 2026 admission details, tuition fees, and scholarship opportunities.
+seo_title: Okinawa International University (OKIU) 2026 Guide | JP Campus
+seo_description: Want to study in Japan? Explore Okinawa International University
+  (OKIU). Find 2026 tuition, admission, and scholarships for international students.
 ---
+
 
 
 ## University Overview

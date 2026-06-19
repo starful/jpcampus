@@ -38,12 +38,13 @@ translated: true
 tuition:
   admission_fee: 330000
   yearly_tuition: 1780000
-description: Dreaming of Osaka University of Arts? Master your 2026 application with
-  our guide to portfolio requirements, tuition, and admission steps.
-seo_title: 'How to Get Into Osaka University of Arts: 2026 Guide | JPCampus'
-seo_description: Dreaming of Osaka University of Arts? Master your 2026 application
-  with our guide to portfolio requirements, tuition, and admission steps.
+description: Your ultimate guide to entering Osaka University of Arts in 2026. Learn
+  about portfolio rules, tuition fees, and admission steps for international students.
+seo_title: 'Osaka University of Arts: 2026 Admission Guide | jpcampus'
+seo_description: Want to study at Osaka University of Arts? Discover 2026 admission
+  requirements, portfolio tips, tuition, and how to apply successfully.
 ---
+
 
 
 

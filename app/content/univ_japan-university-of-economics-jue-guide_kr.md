@@ -40,15 +40,18 @@
     "Dedicated Career Support for Foreign Graduates"
   ],
   "thumbnail": "/static/img/pin-univ.png",
-  "title": "일본경제대학교 (Japan University of Economics)",
+  "title": "일본경제대학교 (Japan University of Economics) 입학 가이드",
   "translated": true,
   "tuition": {
     "admission_fee": 280000,
     "yearly_tuition": 1180000
   },
-  "description": "일본경제대학교(JUE)는 후쿠오카, 고베, 도쿄에 캠퍼스를 둔 실무 중심의 경제 및 경영 교육을 제공하는 사립대학교입니다. 국제학생 비율이 높고, 졸업 후 취업 지원이 잘 되어 있습니다."
+  "description": "일본경제대학교(JUE)의 캠퍼스별 특징, 학비, 유학생 장학 혜택 및 취업 지원 등 2026학년도 최신 입학 정보를 한눈에 확인해 보세요.",
+  "seo_title": "[2026] 일본경제대학교 입학 가이드: 학비, 장학금, 외국인 전형 | JP Campus",
+  "seo_description": "2026 일본경제대학교(JUE) 입학의 모든 것! 도쿄·후쿠오카 캠퍼스 특징, 학비, 장학금 혜택 및 외국인 특별전형 정보를 JP Campus에서 확인하세요."
 }
 ---
+
 
 ## 대학교 개요
 

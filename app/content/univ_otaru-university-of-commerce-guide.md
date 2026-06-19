@@ -42,11 +42,12 @@
     "Exceptional graduate employment rates",
     "Scenic campus overlooking the Sea of Japan"
   ],
-  "description": "Planning to study at Otaru University of Commerce? Find official tuition fees, admission requirements, and campus life guides for international students.",
-  "seo_title": "Otaru University of Commerce Guide: Tuition & Admissions | JP Campus",
-  "seo_description": "Planning to study at Otaru University of Commerce? Find official tuition fees, admission requirements, and campus life guides for international students."
+  "description": "Planning to study at Otaru University of Commerce? Find the latest 2026 info on admissions, tuition fees, scholarships, and student life in Japan.",
+  "seo_title": "Otaru University of Commerce 2026: Admission & Fees Guide",
+  "seo_description": "Planning to study at Otaru University of Commerce? Find the latest 2026 info on admissions, tuition fees, scholarships, and student life in Japan."
 }
 ---
+
 
 
 ## 🏫 University Overview
