@@ -127,7 +127,7 @@ def main():
         return
     if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
 
-    with open(INPUT_CSV, 'r', encoding='utf-8') as f:
+    with open(INPUT_CSV, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         all_topics = list(reader)
 
