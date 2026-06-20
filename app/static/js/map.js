@@ -102,10 +102,26 @@ function renderMarkers(data) {
     if (zoom < 5) map.setZoom(5);
 }
 
+function getCompareLabels() {
+    const cfg = window.JPCAMPUS_COMPARE || {};
+    return {
+        default: cfg.labelDefault || "+ Compare",
+        selected: cfg.labelSelected || "✓ Comparing",
+    };
+}
+
+function getCompareButtonLabel(id) {
+    const labels = getCompareLabels();
+    const ids = window.JPCampusCompare?.getCompareItems?.() || [];
+    return ids.includes(id) ? labels.selected : labels.default;
+}
+
 function openInfoWindow(school, marker) {
     const isUniv = school.category === 'university';
     const labelColor = isUniv ? 'var(--accent)' : 'var(--primary)';
     const labelText = isUniv ? 'University' : 'Language School';
+    const compareLabels = getCompareLabels();
+    const compareLabel = getCompareButtonLabel(school.id);
 
     if (infoWindow) infoWindow.close();
 
@@ -116,7 +132,10 @@ function openInfoWindow(school, marker) {
                 <h5 class="iw-title">${school.basic_info.name_en || school.basic_info.name_ja}</h5>
                 <p class="iw-address">${school.basic_info.address || 'Address not available'}</p>
             </div>
-            <a href="${school.link}" class="iw-details-btn">View Details →</a>
+            <div class="iw-actions">
+                <button type="button" class="compare-toggle-btn iw-compare-btn" data-compare-id="${school.id}" data-label-default="${compareLabels.default}" data-label-selected="${compareLabels.selected}" aria-pressed="false">${compareLabel}</button>
+                <a href="${school.link}" class="iw-details-btn">View Details →</a>
+            </div>
         </div>`);
 
     infoWindow.open({ anchor: marker, map });

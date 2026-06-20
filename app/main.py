@@ -16,6 +16,7 @@ from xml.sax.saxutils import escape as xml_escape
 from app.utils import (
     calculate_tag_counts, assign_thumbnails, get_ui_text, get_quick_filters,
     load_school_data, load_guides, prepare_compare_items, compare_fee_value,
+    build_compare_export,
     STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
 )
 from app.content_new import enrich_items
@@ -321,6 +322,30 @@ def pick_related_guides(item: dict, item_type: str, lang: str, limit: int = 4) -
                 related.append(guide)
             if len(related) >= limit:
                 break
+    return related[:limit]
+
+
+def pick_compare_guides(selected: list[dict], lang: str, limit: int = 4) -> list[dict]:
+    if not selected:
+        return []
+    related: list[dict] = []
+    seen: set[str] = set()
+    for item in selected:
+        item_type = "university" if item.get("category") == "university" else "school"
+        for guide in pick_related_guides(item, item_type, lang, limit=2):
+            link = guide.get("link")
+            if link and link not in seen:
+                seen.add(link)
+                related.append(guide)
+            if len(related) >= limit:
+                return related[:limit]
+    for guide in load_guides(lang):
+        link = guide.get("link")
+        if link and link not in seen:
+            seen.add(link)
+            related.append(guide)
+        if len(related) >= limit:
+            break
     return related[:limit]
 
 
@@ -709,9 +734,12 @@ async def compare_page(request: Request, ids: str = "", lang: str = Query("en"))
     min_fee = min(fee_values) if fee_values else None
 
     ui = get_ui_text(lang)
+    prepared = prepare_compare_items(selected, lang)
     return templates.TemplateResponse(request, "compare.html", {
-        "selected": prepare_compare_items(selected, lang),
+        "selected": prepared,
         "min_fee": min_fee,
+        "related_guides": pick_compare_guides(prepared, lang),
+        "compare_export": build_compare_export(prepared, lang, "JP Campus"),
         "current_lang": lang,
         "ui": ui,
         "canonical_url": build_canonical_url("/compare", lang),
