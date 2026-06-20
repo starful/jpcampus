@@ -14,7 +14,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 # 분리된 유틸 및 API 라우터 임포트
 from app.utils import (
-    calculate_tag_counts, assign_thumbnails, get_ui_text, get_quick_filters,
+    calculate_tag_counts, assign_thumbnails, get_ui_text, get_type_filters, get_region_filters,
     load_school_data, load_guides, prepare_compare_items, compare_fee_value,
     build_compare_export,
     STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
@@ -533,7 +533,8 @@ async def read_root(request: Request, lang: str = Query("en")):
         "university_list_json": university_list,
         "current_lang": lang,
         "ui": ui,
-        "quick_filters": get_quick_filters(lang),
+        "type_filters": get_type_filters(lang),
+        "region_filters": get_region_filters(lang),
         "canonical_url": build_canonical_url("/", lang),
         "hreflang_urls": build_hreflang_urls("/"),
         "meta_title": build_meta_title(

@@ -24,7 +24,9 @@ TAG_DEFINITIONS = {
     'culture': {'name': 'Conversation', 'icon': '🗣️', 'description': 'Schools emphasizing conversational skills and cultural activities.', 'keywords':["conversation", "culture", "short-term", "회화", "短期", "문화"]},
     'tokyo': {'name': 'Tokyo', 'icon': '🏙️', 'description': 'Schools located in the Tokyo area.'},
     'osaka': {'name': 'Osaka', 'icon': '🏯', 'description': 'Schools located in the Osaka area.'},
-    'major_city': {'name': 'Cities', 'icon': '🌇', 'description': 'Schools in other major cities (e.g., Fukuoka, Nagoya).'},
+    'nagoya': {'name': 'Nagoya', 'icon': '🚃', 'description': 'Schools in the Nagoya / Aichi area.'},
+    'kyoto': {'name': 'Kyoto', 'icon': '⛩️', 'description': 'Schools in the Kyoto area.'},
+    'major_city': {'name': 'Cities', 'icon': '🌇', 'description': 'Schools in other major cities (e.g., Fukuoka, Sapporo).'},
     'size_small': {'name': 'Small', 'icon': '🧑‍🏫', 'description': 'Small-sized schools (Capacity: ~150 students).'},
     'size_medium': {'name': 'Medium', 'icon': '👨‍👩‍👧‍👦', 'description': 'Medium-sized schools (Capacity: 151-500 students).'},
     'dormitory': {'name': 'Dormitory', 'icon': '🏠', 'description': 'Schools that offer dormitory options.'},
@@ -52,8 +54,14 @@ def calculate_tag_counts(schools):
 
         b_info = school.get('basic_info') or {}
         address = b_info.get('address') or ''
-        if '東京都' in address: counts['tokyo'] += 1
-        elif '大阪府' in address: counts['osaka'] += 1
+        if '東京都' in address:
+            counts['tokyo'] += 1
+        elif '大阪府' in address:
+            counts['osaka'] += 1
+        elif ('名古屋' in address or '愛知' in address):
+            counts['nagoya'] += 1
+        elif '京都' in address:
+            counts['kyoto'] += 1
         elif any(city in address for city in MAJOR_CITIES): counts['major_city'] += 1
         
         capacity = b_info.get('capacity')
@@ -69,18 +77,31 @@ def calculate_tag_counts(schools):
     ]
     return [tag for tag in results if tag['count'] >= 5]
 
-def get_quick_filters(lang="en"):
+def get_type_filters(lang="en"):
     ui = get_ui_text(lang)
     return [
         {"key": "all", "icon": "📍", "label": ui["filter_all"]},
-        {"key": "tokyo", "icon": "🏙️", "label": ui["filter_tokyo"]},
-        {"key": "osaka", "icon": "🏯", "label": ui["filter_osaka"]},
         {"key": "dormitory", "icon": "🏠", "label": ui["filter_dormitory"]},
         {"key": "academic", "icon": "🎓", "label": ui["filter_academic"]},
         {"key": "university", "icon": "🏛️", "label": ui["filter_universities"]},
-        {"key": "major_city", "icon": "🌇", "label": ui["filter_other_cities"]},
         {"key": "size_medium", "icon": "📊", "label": ui["filter_medium"]},
     ]
+
+
+def get_region_filters(lang="en"):
+    ui = get_ui_text(lang)
+    return [
+        {"key": "all", "icon": "🌏", "label": ui["filter_all_regions"]},
+        {"key": "tokyo", "icon": "🏙️", "label": ui["filter_tokyo"]},
+        {"key": "osaka", "icon": "🏯", "label": ui["filter_osaka"]},
+        {"key": "nagoya", "icon": "🚃", "label": ui["filter_nagoya"]},
+        {"key": "kyoto", "icon": "⛩️", "label": ui["filter_kyoto"]},
+        {"key": "major_city", "icon": "🌇", "label": ui["filter_other_cities"]},
+    ]
+
+
+def get_quick_filters(lang="en"):
+    return get_type_filters(lang) + get_region_filters(lang)[1:]
 
 def get_client_ip(request: Request):
     try:
@@ -173,9 +194,11 @@ def get_ui_text(lang):
             "global_programs": "글로벌 프로그램", "national_private": "공식 국공립/사립 기관",
             "view_all_schools": "모든 학교 보기 →", "view_all_univs": "모든 대학교 보기 →",
             "find_schools": "학교 찾기", "find_universities": "대학 찾기", "read_guides": "가이드 보기",
-            "filter_all": "전체", "filter_tokyo": "도쿄", "filter_osaka": "오사카", "filter_dormitory": "기숙사",
+            "filter_all": "전체", "filter_tokyo": "도쿄", "filter_osaka": "오사카", "filter_nagoya": "나고야", "filter_kyoto": "교토",
+            "filter_dormitory": "기숙사",
             "filter_academic": "진학", "filter_universities": "대학", "filter_other_cities": "기타 도시",
-            "filter_medium": "중형",
+            "filter_medium": "중형", "filter_all_regions": "전 지역",
+            "filter_row_type": "유형", "filter_row_region": "지역",
             "schools_listed": "개 학교 등록됨", "last_updated": "최근 업데이트:", "updating_weekly": "매주 업데이트 중",
             "reaction_title": "이 페이지가 도움이 되었나요?",
             "reaction_subtitle": "피드백은 콘텐츠 개선에 활용합니다",
@@ -225,9 +248,11 @@ def get_ui_text(lang):
         "global_programs": "Global Programs", "national_private": "Official National/Private Institute",
         "view_all_schools": "View all schools →", "view_all_univs": "View all universities →",
         "find_schools": "Find Schools", "find_universities": "Find Universities", "read_guides": "Read Guides",
-        "filter_all": "All", "filter_tokyo": "Tokyo", "filter_osaka": "Osaka", "filter_dormitory": "Dorm",
+        "filter_all": "All", "filter_tokyo": "Tokyo", "filter_osaka": "Osaka", "filter_nagoya": "Nagoya", "filter_kyoto": "Kyoto",
+        "filter_dormitory": "Dorm",
         "filter_academic": "Prep", "filter_universities": "Univ", "filter_other_cities": "Other Cities",
-        "filter_medium": "Mid",
+        "filter_medium": "Mid", "filter_all_regions": "All areas",
+        "filter_row_type": "Type", "filter_row_region": "Region",
         "schools_listed": "Schools Listed", "last_updated": "Last Updated:", "updating_weekly": "Updating Weekly",
         "reaction_title": "Was this page helpful?",
         "reaction_subtitle": "Your feedback helps us improve our guides",
