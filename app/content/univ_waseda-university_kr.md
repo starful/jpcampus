@@ -1,61 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "〒169-8050 東京都新宿区戸塚町1-104",
-    "name_en": "Waseda University",
-    "name_ja": "早稲田大学",
-    "website": "https://www.waseda.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Political Science and Economics",
-    "School of Law",
-    "School of Culture, Media and Society",
-    "School of Humanities and Social Sciences",
-    "School of Education",
-    "School of Commerce",
-    "School of Fundamental Science and Engineering",
-    "School of Creative Science and Engineering",
-    "School of Advanced Science and Engineering",
-    "School of Social Sciences",
-    "School of Sport Sciences",
-    "School of International Liberal Studies",
-    "School of Human Sciences"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_waseda-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.709561,
-    "lng": 139.7211843
-  },
-  "stats": {
-    "acceptance_rate": "13%",
-    "international_students": 5700
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "와세다 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "일본을 대표하는 명문 사립대학교, 와세다 대학교에 대해 알아보세요. 다양한 학부, 국제적인 프로그램, 입학 정보 등을 제공합니다."
-}
+basic_info:
+  address: 〒169-8050 東京都新宿区戸塚町1-104
+  name_en: Waseda University
+  name_ja: 早稲田大学
+  website: https://www.waseda.jp/
+category: university
+date: '2026-02-13'
+description: 일본을 대표하는 명문 사립대학교, 와세다 대학교에 대해 알아보세요. 다양한 학부, 국제적인 프로그램, 입학 정보 등을 제공합니다.
+faculties:
+- School of Political Science and Economics
+- School of Law
+- School of Culture, Media and Society
+- School of Humanities and Social Sciences
+- School of Education
+- School of Commerce
+- School of Fundamental Science and Engineering
+- School of Creative Science and Engineering
+- School of Advanced Science and Engineering
+- School of Social Sciences
+- School of Sport Sciences
+- School of International Liberal Studies
+- School of Human Sciences
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_waseda-university
+lang: kr
+layout: school
+location:
+  lat: 35.709561
+  lng: 139.7211843
+stats:
+  acceptance_rate: 13%
+  international_students: 5700
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 와세다 대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 🏫 학교 소개 및 명성

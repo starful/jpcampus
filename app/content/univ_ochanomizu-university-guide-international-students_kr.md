@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ochanomizu-university-guide-international-students",
-  "title": "오차노미즈 여자대학교",
-  "category": "university",
-  "tags": [
-    "Japan's Top National Women's University",
-    "Strategic Location in Central Tokyo (Bunkyo)",
-    "Small Class Sizes and Personalized Mentorship",
-    "EJU and JLPT N1 Recommended",
-    "Comprehensive Scholarship Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "お茶の水女子大学",
-    "name_en": "Ochanomizu University",
-    "address": "2-1-1 Otsuka, Bunkyo-ku, Tokyo 112-8610, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 542,
-    "acceptance_rate": "20-25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters and Education",
-    "Faculty of Science",
-    "Faculty of Human Life and Environmental Sciences",
-    "Faculty of Interdisciplinary Data Science",
-    "Graduate School of Humanities and Sciences"
-  ],
-  "features": [
-    "일본 최고의 국립 여자 대학교",
-    "도쿄 중심부 (분쿄구)의 전략적 위치",
-    "소규모 학급과 개인별 멘토링",
-    "EJU 및 JLPT N1 권장",
-    "종합 장학 프로그램"
-  ],
-  "description": "오차노미즈 여자대학교에 대한 안내입니다. 도쿄 중심부에 위치한 명문 국립 여자대학교로, 국제 학생들을 위한 다양한 지원 프로그램을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-1 Otsuka, Bunkyo-ku, Tokyo 112-8610, Japan
+  capacity: null
+  name_en: Ochanomizu University
+  name_ja: お茶の水女子大学
+category: university
+date: '2026-02-13'
+description: 오차노미즈 여자대학교에 대한 안내입니다. 도쿄 중심부에 위치한 명문 국립 여자대학교로, 국제 학생들을 위한 다양한 지원 프로그램을
+  제공합니다.
+faculties:
+- Faculty of Letters and Education
+- Faculty of Science
+- Faculty of Human Life and Environmental Sciences
+- Faculty of Interdisciplinary Data Science
+- Graduate School of Humanities and Sciences
+features:
+- 일본 최고의 국립 여자 대학교
+- 도쿄 중심부 (분쿄구)의 전략적 위치
+- 소규모 학급과 개인별 멘토링
+- EJU 및 JLPT N1 권장
+- 종합 장학 프로그램
+id: univ_ochanomizu-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20-25%
+  international_students: 542
+tags:
+- Japan's Top National Women's University
+- Strategic Location in Central Tokyo (Bunkyo)
+- Small Class Sizes and Personalized Mentorship
+- EJU and JLPT N1 Recommended
+- Comprehensive Scholarship Programs
+thumbnail: /static/img/pin-univ.png
+title: 오차노미즈 여자대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

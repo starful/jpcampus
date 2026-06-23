@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukuoka-womens-university-guide",
-  "title": "후쿠오카 여자대학교",
-  "category": "university",
-  "tags": [
-    "First public women's university in Japan",
-    "Mandatory on-campus residential education (Nadeshiko Dormitory)",
-    "Global leadership focus for female professionals",
-    "Strategic location in Fukuoka, Japan's startup hub"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福岡女子大学",
-    "name_en": "Fukuoka Women's University",
-    "address": "1-1-1 Kasumigaoka, Higashi-ku, Fukuoka City, Fukuoka, 813-8529 Japan",
-    "capacity": "Approx. 1,000 undergraduate students"
-  },
-  "stats": {
-    "international_students": 125,
-    "acceptance_rate": "Estimated 25-35% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "International College of Arts and Sciences",
-    "Department of International Liberal Arts",
-    "Department of Environmental Science",
-    "Department of Food and Health Science"
-  ],
-  "features": [
-    "일본 최초의 공립 여자대학교",
-    "의무적인 기숙사 생활 (나데시코 기숙사)",
-    "여성 전문가를 위한 글로벌 리더십 집중 교육",
-    "일본 스타트업 허브인 후쿠오카의 전략적 위치"
-  ],
-  "lang": "kr",
-  "description": "후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다. 나데시코 기숙사에서의 의무적인 기숙사 생활, 다양한 국제 교류 프로그램, 그리고 후쿠오카라는 매력적인 도시에서의 생활이 특별한 경험을 선사합니다.",
-  "og_description": "후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다.",
-  "meta_description": "후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다."
-}
+basic_info:
+  address: 1-1-1 Kasumigaoka, Higashi-ku, Fukuoka City, Fukuoka, 813-8529 Japan
+  capacity: Approx. 1,000 undergraduate students
+  name_en: Fukuoka Women's University
+  name_ja: 福岡女子大学
+category: university
+date: '2026-03-03'
+description: 후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다. 나데시코 기숙사에서의 의무적인
+  기숙사 생활, 다양한 국제 교류 프로그램, 그리고 후쿠오카라는 매력적인 도시에서의 생활이 특별한 경험을 선사합니다.
+faculties:
+- International College of Arts and Sciences
+- Department of International Liberal Arts
+- Department of Environmental Science
+- Department of Food and Health Science
+features:
+- 일본 최초의 공립 여자대학교
+- 의무적인 기숙사 생활 (나데시코 기숙사)
+- 여성 전문가를 위한 글로벌 리더십 집중 교육
+- 일본 스타트업 허브인 후쿠오카의 전략적 위치
+id: univ_fukuoka-womens-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+meta_description: 후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다.
+og_description: 후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다.
+stats:
+  acceptance_rate: Estimated 25-35% for International Applicants
+  international_students: 125
+tags:
+- First public women's university in Japan
+- Mandatory on-campus residential education (Nadeshiko Dormitory)
+- Global leadership focus for female professionals
+- Strategic location in Fukuoka, Japan's startup hub
+thumbnail: /static/img/pin-univ.png
+title: 후쿠오카 여자대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 빛나는 역사와 전통

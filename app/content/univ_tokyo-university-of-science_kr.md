@@ -1,57 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区神楽坂1-3",
-    "name_en": "Tokyo University of Science",
-    "name_ja": "東京理科大学",
-    "website": "https://www.tus.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Science and Technology",
-    "Faculty of Engineering",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Science",
-    "Faculty of Industrial Science and Technology",
-    "Faculty of Advanced Engineering",
-    "Graduate School of Science and Technology",
-    "Graduate School of Engineering",
-    "Graduate School of Pharmaceutical Sciences",
-    "Graduate School of Science",
-    "Graduate School of Industrial Science and Technology",
-    "Graduate School of Advanced Engineering",
-    "Graduate School of Innovation Studies"
-  ],
-  "features": [
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_tokyo-university-of-science",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7011702,
-    "lng": 139.7432783
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 700
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도쿄 이과대학 (Tokyo University of Science)",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1600000
-  },
-  "description": "도쿄 이과대학은 일본의 과학 기술 발전에 깊이 관여하고 있는 명문 사립 대학입니다. 영어 프로그램, 기숙사, 장학금 등의 혜택을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区神楽坂1-3
+  name_en: Tokyo University of Science
+  name_ja: 東京理科大学
+  website: https://www.tus.ac.jp/
+category: university
+date: '2026-01-28'
+description: 도쿄 이과대학은 일본의 과학 기술 발전에 깊이 관여하고 있는 명문 사립 대학입니다. 영어 프로그램, 기숙사, 장학금 등의 혜택을
+  제공합니다.
+faculties:
+- Faculty of Science and Technology
+- Faculty of Engineering
+- Faculty of Pharmaceutical Sciences
+- Faculty of Science
+- Faculty of Industrial Science and Technology
+- Faculty of Advanced Engineering
+- Graduate School of Science and Technology
+- Graduate School of Engineering
+- Graduate School of Pharmaceutical Sciences
+- Graduate School of Science
+- Graduate School of Industrial Science and Technology
+- Graduate School of Advanced Engineering
+- Graduate School of Innovation Studies
+features:
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_tokyo-university-of-science
+lang: kr
+layout: school
+location:
+  lat: 35.7011702
+  lng: 139.7432783
+stats:
+  acceptance_rate: 30%
+  international_students: 700
+tags:
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 도쿄 이과대학 (Tokyo University of Science)
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1600000
 ---
 
 ## 🏫 대학 개요 및 명성

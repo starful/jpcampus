@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_akita-university-comprehensive-guide-international-students",
-  "title": "Akita University",
-  "category": "university",
-  "tags": [
-    "Japan's leading institution for Resource and Earth Sciences",
-    "High employment rate for graduates in domestic and international industries",
-    "Affordable living costs and safe, tranquil northern environment",
-    "State-of-the-art research facilities in mining and medical technology"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "秋田大学",
-    "name_en": "Akita University",
-    "address": "1-1 Tegata Gakuen-machi, Akita City, Akita Prefecture 010-8502, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 240,
-    "acceptance_rate": "Estimated 25% to 35% depending on faculty"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Resource Sciences",
-    "Faculty of Education and Human Studies",
-    "Faculty of Medicine",
-    "Faculty of Engineering Science"
-  ],
-  "features": [
-    "Japan's leading institution for Resource and Earth Sciences",
-    "High employment rate for graduates in domestic and international industries",
-    "Affordable living costs and safe, tranquil northern environment",
-    "State-of-the-art research facilities in mining and medical technology"
-  ]
-}
+basic_info:
+  address: 1-1 Tegata Gakuen-machi, Akita City, Akita Prefecture 010-8502, Japan
+  capacity: null
+  name_en: Akita University
+  name_ja: 秋田大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of International Resource Sciences
+- Faculty of Education and Human Studies
+- Faculty of Medicine
+- Faculty of Engineering Science
+features:
+- Japan's leading institution for Resource and Earth Sciences
+- High employment rate for graduates in domestic and international industries
+- Affordable living costs and safe, tranquil northern environment
+- State-of-the-art research facilities in mining and medical technology
+id: univ_akita-university-comprehensive-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 25% to 35% depending on faculty
+  international_students: 240
+tags:
+- Japan's leading institution for Resource and Earth Sciences
+- High employment rate for graduates in domestic and international industries
+- Affordable living costs and safe, tranquil northern environment
+- State-of-the-art research facilities in mining and medical technology
+thumbnail: /static/img/pin-univ.png
+title: Akita University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

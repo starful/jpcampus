@@ -12,6 +12,7 @@ courses:
 - admission_month: '0'
   course_name: General
   total_fees: 1600000
+date: '2026-01-28'
 faculties: []
 features:
 - Comprehensive Dormitory System

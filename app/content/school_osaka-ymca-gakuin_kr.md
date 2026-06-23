@@ -1,97 +1,72 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市天王寺区南河堀町9-52",
-    "capacity": 500,
-    "name_en": "Osaka YMCA Gakuin",
-    "name_ja": "大阪YMCA学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学日本語学科 (1年コース)",
-      "total_fees": 915000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学日本語学科 (1.5年コース)",
-      "total_fees": 1312600
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学日本語学科 (2年コース)",
-      "total_fees": 1710000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "キャリア形成実用日本語学科 (1年午前コース)",
-      "total_fees": 875000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "キャリア形成実用日本語学科 (1.5年午前コース)",
-      "total_fees": 1252600
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "キャリア形成実用日本語学科 (2年午前コース)",
-      "total_fees": 1630000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "キャリア形成実用日本語学科 (1年午後コース)",
-      "total_fees": 875000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "キャリア形成実用日本語学科 (1.5年午後コース)",
-      "total_fees": 1252600
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "キャリア形成実用日本語学科 (2年午後コース)",
-      "total_fees": 1630000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "특화된 대학/대학원 진학 지원",
-    "EJU 및 이과(리카) 과목 준비 트랙",
-    "실용적인 회화 능력에 집중",
-    "통합 비즈니스, 미술, 디자인 일본어 커리큘럼",
-    "학교 운영 및 관리 기숙사 시설 (1인실 옵션 이용 가능)",
-    "다양한 장학금 프로그램",
-    "유연한 단기 유학 프로그램",
-    "공인된 비영리 기관의 신뢰성"
-  ],
-  "id": "school_osaka-ymca-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6480463,
-    "lng": 135.5176662
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=330",
-  "stats": {
-    "capacity": 500,
-    "international_students": 500
-  },
-  "tags": [
-    "Specialized University/Graduate School Progression Support",
-    "EJU and Science (Rika) Subject Preparation Tracks",
-    "Strong Focus on Practical Conversation Skills",
-    "Integrated Business, Art, and Design Japanese Curriculum",
-    "On-site and Managed Dormitory Facilities (Single Room Options Available)",
-    "Generous Scholarship Programs",
-    "Flexible Short-term Study Programs",
-    "Established Non-profit Organizational Credibility"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오사카 YMCA 학원",
-  "tuition": {},
-  "description": "오사카 YMCA 학원은 YMCA의 교육 철학을 바탕으로, 대학 진학 및 커리어 개발을 위한 실용적인 일본어 교육을 제공합니다."
-}
+basic_info:
+  address: 大阪府大阪市天王寺区南河堀町9-52
+  capacity: 500
+  name_en: Osaka YMCA Gakuin
+  name_ja: 大阪YMCA学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学日本語学科 (1年コース)
+  total_fees: 915000
+- admission_month: '10'
+  course_name: 進学日本語学科 (1.5年コース)
+  total_fees: 1312600
+- admission_month: '4'
+  course_name: 進学日本語学科 (2年コース)
+  total_fees: 1710000
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (1年午前コース)
+  total_fees: 875000
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (1.5年午前コース)
+  total_fees: 1252600
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (2年午前コース)
+  total_fees: 1630000
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (1年午後コース)
+  total_fees: 875000
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (1.5年午後コース)
+  total_fees: 1252600
+- admission_month: 4,7,10,1
+  course_name: キャリア形成実用日本語学科 (2年午後コース)
+  total_fees: 1630000
+date: '2026-01-28'
+description: 오사카 YMCA 학원은 YMCA의 교육 철학을 바탕으로, 대학 진학 및 커리어 개발을 위한 실용적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 특화된 대학/대학원 진학 지원
+- EJU 및 이과(리카) 과목 준비 트랙
+- 실용적인 회화 능력에 집중
+- 통합 비즈니스, 미술, 디자인 일본어 커리큘럼
+- 학교 운영 및 관리 기숙사 시설 (1인실 옵션 이용 가능)
+- 다양한 장학금 프로그램
+- 유연한 단기 유학 프로그램
+- 공인된 비영리 기관의 신뢰성
+id: school_osaka-ymca-gakuin
+lang: kr
+layout: school
+location:
+  lat: 34.6480463
+  lng: 135.5176662
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=330
+stats:
+  capacity: 500
+  international_students: 500
+tags:
+- Specialized University/Graduate School Progression Support
+- EJU and Science (Rika) Subject Preparation Tracks
+- Strong Focus on Practical Conversation Skills
+- Integrated Business, Art, and Design Japanese Curriculum
+- On-site and Managed Dormitory Facilities (Single Room Options Available)
+- Generous Scholarship Programs
+- Flexible Short-term Study Programs
+- Established Non-profit Organizational Credibility
+thumbnail: /static/img/pin-school.png
+title: 오사카 YMCA 학원
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

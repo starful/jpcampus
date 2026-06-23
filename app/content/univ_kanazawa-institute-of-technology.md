@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanazawa-institute-of-technology",
-  "title": "Kanazawa Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Project Design (PD) Curriculum",
-    "Yume-Kobo (Dream Workshop) Facilities",
-    "Top-tier Employment Rate in Japan",
-    "CDIO International Framework Member"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金沢工業大学",
-    "name_en": "Kanazawa Institute of Technology",
-    "address": "7-1 Ohgigaoka, Nonoichi, Ishikawa 921-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 118,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1515000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Informatics and Human Communication",
-    "Faculty of Architecture",
-    "Faculty of Bioscience and Chemistry"
-  ],
-  "features": [
-    "Project Design (PD) Curriculum",
-    "Yume-Kobo (Dream Workshop) Facilities",
-    "Top-tier Employment Rate in Japan",
-    "CDIO International Framework Member"
-  ]
-}
+basic_info:
+  address: 7-1 Ohgigaoka, Nonoichi, Ishikawa 921-8501, Japan
+  capacity: null
+  name_en: Kanazawa Institute of Technology
+  name_ja: 金沢工業大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Engineering
+- Faculty of Informatics and Human Communication
+- Faculty of Architecture
+- Faculty of Bioscience and Chemistry
+features:
+- Project Design (PD) Curriculum
+- Yume-Kobo (Dream Workshop) Facilities
+- Top-tier Employment Rate in Japan
+- CDIO International Framework Member
+id: univ_kanazawa-institute-of-technology
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 118
+tags:
+- Project Design (PD) Curriculum
+- Yume-Kobo (Dream Workshop) Facilities
+- Top-tier Employment Rate in Japan
+- CDIO International Framework Member
+thumbnail: /static/img/pin-univ.png
+title: Kanazawa Institute of Technology
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1515000
 ---
 
 ## 🏫 University Overview

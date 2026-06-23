@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学2年コース
   total_fees: 1362000
+date: '2026-01-28'
 faculties: []
 features:
 - Dormitory

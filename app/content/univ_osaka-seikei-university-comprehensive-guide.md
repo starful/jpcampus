@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-seikei-university-comprehensive-guide",
-  "title": "Osaka Seikei University",
-  "category": "university",
-  "tags": [
-    "Practical Experience-Based Learning",
-    "Extensive Career Support",
-    "Strategic Location in Osaka",
-    "Multidisciplinary Research Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪成蹊大学",
-    "name_en": "Osaka Seikei University",
-    "address": "3-5-30 Aikawa, Higashiyodogawa-ku, Osaka, 533-0007, Japan",
-    "capacity": 5200
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Art and Design",
-    "Faculty of Education",
-    "Faculty of Data Science",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Practical Experience-Based Learning",
-    "Extensive Career Support",
-    "Strategic Location in Osaka",
-    "Multidisciplinary Research Opportunities"
-  ]
-}
+basic_info:
+  address: 3-5-30 Aikawa, Higashiyodogawa-ku, Osaka, 533-0007, Japan
+  capacity: 5200
+  name_en: Osaka Seikei University
+  name_ja: 大阪成蹊大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Management
+- Faculty of Art and Design
+- Faculty of Education
+- Faculty of Data Science
+- Faculty of Nursing
+features:
+- Practical Experience-Based Learning
+- Extensive Career Support
+- Strategic Location in Osaka
+- Multidisciplinary Research Opportunities
+id: univ_osaka-seikei-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 165
+tags:
+- Practical Experience-Based Learning
+- Extensive Career Support
+- Strategic Location in Osaka
+- Multidisciplinary Research Opportunities
+thumbnail: /static/img/pin-univ.png
+title: Osaka Seikei University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

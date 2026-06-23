@@ -1,55 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "1-2-5 Odori, Utsunomiya, Tochigi Prefecture",
-    "capacity": 80,
-    "name_en": "International Information Business College",
-    "name_ja": "国際情報ビジネス専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1315000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 1015000
-    }
-  ],
-  "description": "International Information Business College는 도치기현 우츠노미야에 위치하고 있으며, 일본 대학 진학을 희망하는 국제 학생들에게 종합적인 일본어 프로그램과 대학 준비 과정을 제공하여 든든한 지원 환경을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 지원",
-    "EJU 시험 대비",
-    "기숙사 이용 가능",
-    "단기 코스"
-  ],
-  "id": "school_kokusai-joho-business-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.5611903,
-    "lng": 139.8900542
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=35",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "University Advancement Support",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "International Information Business College",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 1-2-5 Odori, Utsunomiya, Tochigi Prefecture
+  capacity: 80
+  name_en: International Information Business College
+  name_ja: 国際情報ビジネス専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1315000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1015000
+date: '2026-01-28'
+description: International Information Business College는 도치기현 우츠노미야에 위치하고 있으며, 일본
+  대학 진학을 희망하는 국제 학생들에게 종합적인 일본어 프로그램과 대학 준비 과정을 제공하여 든든한 지원 환경을 제공합니다.
+faculties: []
+features:
+- 대학 진학 지원
+- EJU 시험 대비
+- 기숙사 이용 가능
+- 단기 코스
+id: school_kokusai-joho-business-college
+lang: kr
+layout: school
+location:
+  lat: 36.5611903
+  lng: 139.8900542
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=35
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- University Advancement Support
+- EJU Preparation
+- Dormitory Available
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: International Information Business College
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

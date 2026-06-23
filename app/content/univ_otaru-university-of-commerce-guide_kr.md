@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_otaru-university-of-commerce-guide",
-  "title": "오타루 상과대학 (Otaru University of Commerce)",
-  "category": "university",
-  "tags": [
-    "일본 유일의 상업 전문 국립대학",
-    "1910년부터 이어져 온 역사적인 유산",
-    "뛰어난 졸업생 취업률",
-    "일본해를 조망하는 아름다운 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "小樽商科大学",
-    "name_en": "Otaru University of Commerce",
-    "address": "3-5-21 Midori, Otaru, Hokkaido 047-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "22-28%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "상학부",
-    "경제학과",
-    "상학과",
-    "법학과",
-    "정보이공학과"
-  ],
-  "features": [
-    "일본 유일의 상업 전문 국립대학",
-    "1910년부터 이어져 온 역사적인 유산",
-    "뛰어난 졸업생 취업률",
-    "일본해를 조망하는 아름다운 캠퍼스"
-  ],
-  "description": "오타루 상과대학은 홋카이도 오타루시에 위치한 명문 국립대학입니다. 상업 및 사회 과학 분야에 특화된 교육을 제공하며, 탁월한 취업률과 아름다운 캠퍼스를 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-5-21 Midori, Otaru, Hokkaido 047-8501, Japan
+  capacity: null
+  name_en: Otaru University of Commerce
+  name_ja: 小樽商科大学
+category: university
+date: '2026-02-13'
+description: 오타루 상과대학은 홋카이도 오타루시에 위치한 명문 국립대학입니다. 상업 및 사회 과학 분야에 특화된 교육을 제공하며, 탁월한
+  취업률과 아름다운 캠퍼스를 자랑합니다.
+faculties:
+- 상학부
+- 경제학과
+- 상학과
+- 법학과
+- 정보이공학과
+features:
+- 일본 유일의 상업 전문 국립대학
+- 1910년부터 이어져 온 역사적인 유산
+- 뛰어난 졸업생 취업률
+- 일본해를 조망하는 아름다운 캠퍼스
+id: univ_otaru-university-of-commerce-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22-28%
+  international_students: 115
+tags:
+- 일본 유일의 상업 전문 국립대학
+- 1910년부터 이어져 온 역사적인 유산
+- 뛰어난 졸업생 취업률
+- 일본해를 조망하는 아름다운 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 오타루 상과대학 (Otaru University of Commerce)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

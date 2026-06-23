@@ -1,51 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都文京区後楽1-5-3",
-    "capacity": 120,
-    "name_en": "Nitchu Gakuin (Japan-China Institute)",
-    "name_ja": "日中学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1501000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "최상위 대학 및 대학원 진학 지원",
-    "EJU(일본유학시험) 집중 특화",
-    "STEM(과학 및 공학) 과목 전문 교육",
-    "소규모 학급 및 고도의 맞춤형 교육 (정원: 120명)",
-    "도쿄 학문의 중심지(분쿄구)의 최적의 위치"
-  ],
-  "id": "school_nitchu-gakuin-tokyo-academic-progression",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7040382,
-    "lng": 139.7477265
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=142",
-  "stats": {
-    "capacity": 120,
-    "international_students": 120
-  },
-  "tags": [
-    "High-Level University and Graduate School Progression Support",
-    "Specialized EJU (Examination for Japanese University Admission) Focus",
-    "Dedicated STEM (Science and Engineering) Subject Training",
-    "Small Class Size and Highly Personalized Instruction (Capacity: 120)",
-    "Prime Location in Tokyo's Academic Hub (Bunkyo Ward)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "닛츄 가쿠인 (일중학원)",
-  "description": "도쿄 분쿄구에 위치한 닛츄 가쿠인은 일본 명문 대학 및 대학원 진학을 위한 집중적인 EJU 시험 준비 및 STEM 교육을 제공하는 일본어 학교입니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 東京都文京区後楽1-5-3
+  capacity: 120
+  name_en: Nitchu Gakuin (Japan-China Institute)
+  name_ja: 日中学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1501000
+date: '2026-01-28'
+description: 도쿄 분쿄구에 위치한 닛츄 가쿠인은 일본 명문 대학 및 대학원 진학을 위한 집중적인 EJU 시험 준비 및 STEM 교육을 제공하는
+  일본어 학교입니다.
+faculties: []
+features:
+- 최상위 대학 및 대학원 진학 지원
+- EJU(일본유학시험) 집중 특화
+- STEM(과학 및 공학) 과목 전문 교육
+- '소규모 학급 및 고도의 맞춤형 교육 (정원: 120명)'
+- 도쿄 학문의 중심지(분쿄구)의 최적의 위치
+id: school_nitchu-gakuin-tokyo-academic-progression
+lang: kr
+layout: school
+location:
+  lat: 35.7040382
+  lng: 139.7477265
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=142
+stats:
+  capacity: 120
+  international_students: 120
+tags:
+- High-Level University and Graduate School Progression Support
+- Specialized EJU (Examination for Japanese University Admission) Focus
+- Dedicated STEM (Science and Engineering) Subject Training
+- 'Small Class Size and Highly Personalized Instruction (Capacity: 120)'
+- Prime Location in Tokyo's Academic Hub (Bunkyo Ward)
+thumbnail: /static/img/pin-school.png
+title: 닛츄 가쿠인 (일중학원)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

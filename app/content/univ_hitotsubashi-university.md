@@ -5,6 +5,7 @@ basic_info:
   name_ja: 一橋大学
   website: https://www.hit-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - School of Commerce
 - School of Economics

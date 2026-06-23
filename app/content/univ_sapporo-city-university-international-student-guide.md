@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sapporo-city-university-international-student-guide",
-  "title": "Sapporo City University",
-  "category": "university",
-  "tags": [
-    "Interdisciplinary Design + Nursing (D+N) Collaboration",
-    "Stunning Geijutsu-no-mori (Art Forest) Campus Location",
-    "Regional Contribution and Industry-Academic Cooperation",
-    "High Faculty-to-Student Ratio for Personalized Learning"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "札幌市立大学",
-    "name_en": "Sapporo City University",
-    "address": "1-1-1 Geijutsu-no-mori, Minami-ku, Sapporo, Hokkaido 005-0864, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "22% - 28%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Design",
-    "School of Nursing",
-    "Graduate School of Design",
-    "Graduate School of Nursing"
-  ],
-  "features": [
-    "Interdisciplinary Design + Nursing (D+N) Collaboration",
-    "Stunning Geijutsu-no-mori (Art Forest) Campus Location",
-    "Regional Contribution and Industry-Academic Cooperation",
-    "High Faculty-to-Student Ratio for Personalized Learning"
-  ]
-}
+basic_info:
+  address: 1-1-1 Geijutsu-no-mori, Minami-ku, Sapporo, Hokkaido 005-0864, Japan
+  capacity: 1200
+  name_en: Sapporo City University
+  name_ja: 札幌市立大学
+category: university
+date: '2026-02-13'
+faculties:
+- School of Design
+- School of Nursing
+- Graduate School of Design
+- Graduate School of Nursing
+features:
+- Interdisciplinary Design + Nursing (D+N) Collaboration
+- Stunning Geijutsu-no-mori (Art Forest) Campus Location
+- Regional Contribution and Industry-Academic Cooperation
+- High Faculty-to-Student Ratio for Personalized Learning
+id: univ_sapporo-city-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22% - 28%
+  international_students: 15
+tags:
+- Interdisciplinary Design + Nursing (D+N) Collaboration
+- Stunning Geijutsu-no-mori (Art Forest) Campus Location
+- Regional Contribution and Industry-Academic Cooperation
+- High Faculty-to-Student Ratio for Personalized Learning
+thumbnail: /static/img/pin-univ.png
+title: Sapporo City University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Spirit of Sapporo City University

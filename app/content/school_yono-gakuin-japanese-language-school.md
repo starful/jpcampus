@@ -15,6 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 総合2年コース
   total_fees: 1435800
+date: '2026-01-28'
 faculties: []
 features:
 - Dormitory

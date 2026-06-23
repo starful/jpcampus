@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1436000
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized University Progression (EJU Focus)

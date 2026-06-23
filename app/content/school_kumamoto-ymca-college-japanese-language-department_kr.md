@@ -1,73 +1,62 @@
 ---
-{
-  "basic_info": {
-    "address": "熊本県熊本市中央区段山本町4-1",
-    "capacity": 140,
-    "name_en": "Kumamoto YMCA College Japanese Language Department",
-    "name_ja": "熊本YMCA学院日本語科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1090000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1420000
-    }
-  ],
-  "description": "구마모토에 위치한 일본어 학교로, 소규모 학급과 맞춤형 지원을 통해 일본 대학 진학을 목표로 하는 학생들을 위한 과정을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "소규모 학급",
-    "숙제 지원",
-    "회화 중심",
-    "기숙사",
-    "개인실",
-    "장학금",
-    "EJU 준비",
-    "이과 과정 지원",
-    "대학 진학 과정",
-    "회화 연습",
-    "비즈니스 일본어",
-    "미술 & 디자인 중심",
-    "단기 코스"
-  ],
-  "id": "school_kumamoto-ymca-college-japanese-language-department",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 32.8064167,
-    "lng": 130.6952676
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=448",
-  "stats": {
-    "capacity": 140,
-    "international_students": 0
-  },
-  "tags": [
-    "Small Class Sizes",
-    "Homework Support",
-    "Conversation Focused",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Course Support",
-    "University Pathway",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design Focus",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "구마모토 YMCA 학원 일본어학과",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 熊本県熊本市中央区段山本町4-1
+  capacity: 140
+  name_en: Kumamoto YMCA College Japanese Language Department
+  name_ja: 熊本YMCA学院日本語科
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1090000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1420000
+date: '2026-01-28'
+description: 구마모토에 위치한 일본어 학교로, 소규모 학급과 맞춤형 지원을 통해 일본 대학 진학을 목표로 하는 학생들을 위한 과정을 제공합니다.
+faculties: []
+features:
+- 소규모 학급
+- 숙제 지원
+- 회화 중심
+- 기숙사
+- 개인실
+- 장학금
+- EJU 준비
+- 이과 과정 지원
+- 대학 진학 과정
+- 회화 연습
+- 비즈니스 일본어
+- 미술 & 디자인 중심
+- 단기 코스
+id: school_kumamoto-ymca-college-japanese-language-department
+lang: kr
+layout: school
+location:
+  lat: 32.8064167
+  lng: 130.6952676
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=448
+stats:
+  capacity: 140
+  international_students: 0
+tags:
+- Small Class Sizes
+- Homework Support
+- Conversation Focused
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Course Support
+- University Pathway
+- Conversation Practice
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 구마모토 YMCA 학원 일본어학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

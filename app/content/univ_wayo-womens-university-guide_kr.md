@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_wayo-womens-university-guide",
-  "title": "와요여자대학교 (Wayo Women's University)",
-  "description": "도쿄 근교에 위치한 역사 깊은 와요여자대학교의 학부 정보, 학비, 장학 제도 및 외국인 유학생을 위한 입시 가이드를 제공합니다.",
-  "category": "university",
-  "tags": [
-    "1897년 설립된 전통의 명문",
-    "실무 능력 및 여성 자립 중심",
-    "도쿄 도심까지 20분 거리",
-    "높은 졸업생 취업률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "和洋女子大学",
-    "name_en": "Wayo Women's University",
-    "address": "2-3-1 Konodai, Ichikawa, Chiba 272-8533, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 85,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Global Studies",
-    "Faculty of Human Ecology",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "1897년부터 이어져 온 깊은 역사와 전통",
-    "실무 능력 배양과 여성의 자립에 집중한 교육",
-    "도쿄 도심까지 20분 거리의 우수한 접근성",
-    "졸업생들의 압도적으로 높은 취업률"
-  ],
-  "lang": "kr",
-  "seo_title": "[2026] 와요여자대학교 유학 가이드: 학부, 학비, 입시 정보 | JP Campus",
-  "seo_description": "2026학년도 와요여자대학교(와요여대) 입학 및 유학 가이드. 개설 학부, 학비, 장학금 혜택 및 외국인 유학생 특별 전형 정보를 확인하세요."
-}
+basic_info:
+  address: 2-3-1 Konodai, Ichikawa, Chiba 272-8533, Japan
+  capacity: 2500
+  name_en: Wayo Women's University
+  name_ja: 和洋女子大学
+category: university
+date: '2026-06-19'
+description: 도쿄 근교에 위치한 역사 깊은 와요여자대학교의 학부 정보, 학비, 장학 제도 및 외국인 유학생을 위한 입시 가이드를 제공합니다.
+faculties:
+- Faculty of Humanities
+- Faculty of Global Studies
+- Faculty of Human Ecology
+- Faculty of Nursing
+features:
+- 1897년부터 이어져 온 깊은 역사와 전통
+- 실무 능력 배양과 여성의 자립에 집중한 교육
+- 도쿄 도심까지 20분 거리의 우수한 접근성
+- 졸업생들의 압도적으로 높은 취업률
+id: univ_wayo-womens-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 2026학년도 와요여자대학교(와요여대) 입학 및 유학 가이드. 개설 학부, 학비, 장학금 혜택 및 외국인 유학생 특별
+  전형 정보를 확인하세요.
+seo_title: '[2026] 와요여자대학교 유학 가이드: 학부, 학비, 입시 정보 | JP Campus'
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 85
+tags:
+- 1897년 설립된 전통의 명문
+- 실무 능력 및 여성 자립 중심
+- 도쿄 도심까지 20분 거리
+- 높은 졸업생 취업률
+thumbnail: /static/img/pin-univ.png
+title: 와요여자대학교 (Wayo Women's University)
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
-
 
 ## 🏫 대학 개요
 

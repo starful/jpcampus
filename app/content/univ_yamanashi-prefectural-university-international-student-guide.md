@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamanashi-prefectural-university-international-student-guide",
-  "title": "Yamanashi Prefectural University",
-  "category": "university",
-  "tags": [
-    "Community-Rooted Learning",
-    "Globalized Public Curriculum",
-    "Small-Scale Intensive Education",
-    "High Professional Exam Success Rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山梨県立大学",
-    "name_en": "Yamanashi Prefectural University",
-    "address": "5-11-1 Iida, Kofu, Yamanashi 400-0035, Japan",
-    "capacity": 1350
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "25-35% (Estimated for International Tracks)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Policy Management",
-    "Faculty of Human and Social Services",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Community-Rooted Learning",
-    "Globalized Public Curriculum",
-    "Small-Scale Intensive Education",
-    "High Professional Exam Success Rates"
-  ]
-}
+basic_info:
+  address: 5-11-1 Iida, Kofu, Yamanashi 400-0035, Japan
+  capacity: 1350
+  name_en: Yamanashi Prefectural University
+  name_ja: 山梨県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of International Policy Management
+- Faculty of Human and Social Services
+- Faculty of Nursing
+features:
+- Community-Rooted Learning
+- Globalized Public Curriculum
+- Small-Scale Intensive Education
+- High Professional Exam Success Rates
+id: univ_yamanashi-prefectural-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (Estimated for International Tracks)
+  international_students: 42
+tags:
+- Community-Rooted Learning
+- Globalized Public Curriculum
+- Small-Scale Intensive Education
+- High Professional Exam Success Rates
+thumbnail: /static/img/pin-univ.png
+title: Yamanashi Prefectural University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

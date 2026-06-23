@@ -5,6 +5,9 @@ basic_info:
   name_en: Tokyo University of Foreign Studies
   name_ja: 東京外国語大学
 category: university
+date: '2026-06-19'
+description: Explore Tokyo University of Foreign Studies (TUFS). Get essential information
+  on tuition fees, international admissions, English programs, and student life.
 faculties:
 - School of Language and Culture Studies
 - School of International and Area Studies
@@ -23,6 +26,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
+seo_description: Discover Tokyo University of Foreign Studies (TUFS). Your guide to
+  international admissions, tuition fees, English-taught programs, and campus life.
+seo_title: Tokyo University of Foreign Studies (TUFS) Guide | JP Campus
 stats:
   acceptance_rate: 18% - 25% (Highly Competitive)
   international_students: 650
@@ -38,13 +44,7 @@ title: Tokyo University of Foreign Studies (TUFS) Guide
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-description: Explore Tokyo University of Foreign Studies (TUFS). Get essential information
-  on tuition fees, international admissions, English programs, and student life.
-seo_title: Tokyo University of Foreign Studies (TUFS) Guide | JP Campus
-seo_description: Discover Tokyo University of Foreign Studies (TUFS). Your guide to
-  international admissions, tuition fees, English-taught programs, and campus life.
 ---
-
 
 ## 🏫 University Overview
 

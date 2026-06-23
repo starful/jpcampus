@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_wakayama-medical-university-international-student-guide",
-  "title": "와카야마현립 의과대학교",
-  "category": "university",
-  "tags": [
-    "간사이 지역의 선도적인 공립 의료 기관",
-    "높은 의사 및 간호사 국가고시 합격률",
-    "캠퍼스와 통합된 최첨단 대학 병원",
-    "지역 사회 기반 의학과 전문 연구에 대한 강력한 집중"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "和歌山県立医科大学",
-    "name_en": "Wakayama Medical University",
-    "address": "811-1 Kimiidera, Wakayama City, Wakayama Prefecture 641-8509, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 12,
-    "acceptance_rate": "10-15%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "의학부",
-    "간호학부",
-    "약학부"
-  ],
-  "features": [
-    "간사이 지역의 선도적인 공립 의료 기관",
-    "높은 의사 및 간호사 국가고시 합격률",
-    "캠퍼스와 통합된 최첨단 대학 병원",
-    "지역 사회 기반 의학과 전문 연구에 대한 강력한 집중"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 811-1 Kimiidera, Wakayama City, Wakayama Prefecture 641-8509, Japan
+  capacity: null
+  name_en: Wakayama Medical University
+  name_ja: 和歌山県立医科大学
+category: university
+date: '2026-03-03'
+faculties:
+- 의학부
+- 간호학부
+- 약학부
+features:
+- 간사이 지역의 선도적인 공립 의료 기관
+- 높은 의사 및 간호사 국가고시 합격률
+- 캠퍼스와 통합된 최첨단 대학 병원
+- 지역 사회 기반 의학과 전문 연구에 대한 강력한 집중
+id: univ_wakayama-medical-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 10-15%
+  international_students: 12
+tags:
+- 간사이 지역의 선도적인 공립 의료 기관
+- 높은 의사 및 간호사 국가고시 합격률
+- 캠퍼스와 통합된 최첨단 대학 병원
+- 지역 사회 기반 의학과 전문 연구에 대한 강력한 집중
+thumbnail: /static/img/pin-univ.png
+title: 와카야마현립 의과대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

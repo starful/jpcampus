@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_musashi-university-comprehensive-guide-for-international-students",
-  "title": "무사시 대학교",
-  "category": "university",
-  "tags": [
-    "소규모 세미나 교육 (Zemi) 1학년부터 시작",
-    "런던 대학교 병행 학위 프로그램 (PDP)",
-    "글로벌 데이터 과학 (GDS) 통합 커리큘럼",
-    "무사시 커뮤니케이션 빌리지 (MCV) 언어 교환"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "武蔵大学",
-    "name_en": "Musashi University",
-    "address": "1-26-1 Toyotamakami, Nerima-ku, Tokyo 176-8534, Japan",
-    "capacity": 4800
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "22% - 28% (일반 평균)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "경제학부",
-    "인문학부",
-    "사회학부",
-    "국제사회학부"
-  ],
-  "features": [
-    "소규모 세미나 교육 (Zemi) 1학년부터 시작",
-    "런던 대학교 병행 학위 프로그램 (PDP)",
-    "글로벌 데이터 과학 (GDS) 통합 커리큘럼",
-    "무사시 커뮤니케이션 빌리지 (MCV) 언어 교환"
-  ],
-  "description": "무사시 대학교: 도쿄 네리마구에 위치한 명문 소규모 사립대학교입니다. 1학년부터 시작하는 세미나, 런던 대학교 병행 학위 프로그램 (PDP) 등을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-26-1 Toyotamakami, Nerima-ku, Tokyo 176-8534, Japan
+  capacity: 4800
+  name_en: Musashi University
+  name_ja: 武蔵大学
+category: university
+date: '2026-02-13'
+description: '무사시 대학교: 도쿄 네리마구에 위치한 명문 소규모 사립대학교입니다. 1학년부터 시작하는 세미나, 런던 대학교 병행 학위
+  프로그램 (PDP) 등을 제공합니다.'
+faculties:
+- 경제학부
+- 인문학부
+- 사회학부
+- 국제사회학부
+features:
+- 소규모 세미나 교육 (Zemi) 1학년부터 시작
+- 런던 대학교 병행 학위 프로그램 (PDP)
+- 글로벌 데이터 과학 (GDS) 통합 커리큘럼
+- 무사시 커뮤니케이션 빌리지 (MCV) 언어 교환
+id: univ_musashi-university-comprehensive-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22% - 28% (일반 평균)
+  international_students: 165
+tags:
+- 소규모 세미나 교육 (Zemi) 1학년부터 시작
+- 런던 대학교 병행 학위 프로그램 (PDP)
+- 글로벌 데이터 과학 (GDS) 통합 커리큘럼
+- 무사시 커뮤니케이션 빌리지 (MCV) 언어 교환
+thumbnail: /static/img/pin-univ.png
+title: 무사시 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 학교 개요: '무사시' 철학

@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chiba-institute-of-technology-guide",
-  "title": "지바 공업대학교 (Chiba Institute of Technology)",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "일본에서 가장 오래된 사립 공과대학교",
-    "fuRo의 세계적인 로봇 공학 연구",
-    "최첨단 행성 탐사 연구 센터(PERC)",
-    "유학생을 위한 높은 취업률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "description": "일본에서 가장 오래된 사립 공과대학교로, 세계적인 로봇 공학 연구와 최첨단 행성 탐사 기술을 자랑하며 높은 취업률을 기록하고 있는 명문 기술 대학입니다.",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "千葉工業大学",
-    "name_en": "Chiba Institute of Technology",
-    "address": "2-17-1 Tsudanuma, Narashino, Chiba 275-0016, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 214,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1615000
-  },
-  "faculties": [
-    "공학부",
-    "창조공학부",
-    "선진공학부",
-    "정보과학부",
-    "사회시스템과학부"
-  ],
-  "features": [
-    "일본에서 가장 오래된 사립 공과대학교",
-    "fuRo의 세계적인 로봇 공학 연구",
-    "최첨단 행성 탐사 연구 센터(PERC)",
-    "유학생을 위한 높은 취업률"
-  ]
-}
+basic_info:
+  address: 2-17-1 Tsudanuma, Narashino, Chiba 275-0016, Japan
+  capacity: null
+  name_en: Chiba Institute of Technology
+  name_ja: 千葉工業大学
+category: university
+date: '2026-03-08'
+description: 일본에서 가장 오래된 사립 공과대학교로, 세계적인 로봇 공학 연구와 최첨단 행성 탐사 기술을 자랑하며 높은 취업률을 기록하고
+  있는 명문 기술 대학입니다.
+faculties:
+- 공학부
+- 창조공학부
+- 선진공학부
+- 정보과학부
+- 사회시스템과학부
+features:
+- 일본에서 가장 오래된 사립 공과대학교
+- fuRo의 세계적인 로봇 공학 연구
+- 최첨단 행성 탐사 연구 센터(PERC)
+- 유학생을 위한 높은 취업률
+id: univ_chiba-institute-of-technology-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 214
+tags:
+- 일본에서 가장 오래된 사립 공과대학교
+- fuRo의 세계적인 로봇 공학 연구
+- 최첨단 행성 탐사 연구 센터(PERC)
+- 유학생을 위한 높은 취업률
+thumbnail: /static/img/pin-univ.png
+title: 지바 공업대학교 (Chiba Institute of Technology)
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1615000
 ---
 
 ## 🏫 대학 개요: 혁신의 역사

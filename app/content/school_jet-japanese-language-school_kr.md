@@ -1,94 +1,78 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都北区滝野川7-8-9",
-    "capacity": 150,
-    "category": "school",
-    "courses": [
-      {
-        "admission_month": "4, 10",
-        "course_name": "日本語基礎科",
-        "total_fees": 850000
-      },
-      {
-        "admission_month": "4",
-        "course_name": "日本語進学科A",
-        "total_fees": 970000
-      },
-      {
-        "admission_month": "10",
-        "course_name": "日本語進学科B",
-        "total_fees": 1360000
-      }
-    ],
-    "faculties": [],
-    "features": [
-      "Scholarships",
-      "Dormitory",
-      "Further Education Guidance",
-      "EJU Preparation",
-      "Art Studies",
-      "Design Studies"
-    ],
-    "id": "school_jet-japanese-language-school",
-    "layout": "school",
-    "location": {
-      "lat": 35.7453444,
-      "lng": 139.7206697
-    },
-    "name_en": "JET Japanese Language School",
-    "name_ja": "ジェット日本語学校",
-    "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=207",
-    "stats": {
-      "capacity": 150,
-      "international_students": 0
-    },
-    "tags": [
-      "Scholarships",
-      "Dormitory",
-      "Further Education Guidance",
-      "EJU Preparation",
-      "Art Studies",
-      "Design Studies"
-    ],
-    "thumbnail": "/static/img/pin-school.png",
-    "title": "JET 일본어학교",
-    "tuition": {}
-  },
-  "description": "도쿄에 위치한 JET 일본어학교에서 일본어를 배워보세요. 초급부터 고급까지 모든 레벨의 학생들을 위한 코스를 제공하며, EJU 시험 준비 및 미술, 디자인 분야 학습 경로를 지원합니다. 학교 내 기숙사 이용 가능합니다.",
-  "features": [
-    "장학금",
-    "기숙사",
-    "진학 지도",
-    "EJU 준비",
-    "미술 학습",
-    "디자인 학습"
-  ],
-  "id": "school_jet-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7453444,
-    "lng": 139.7206697
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=207",
-  "stats": {
-    "capacity": 150,
-    "international_students": 0
-  },
-  "tags": [
-    "Scholarships",
-    "Dormitory",
-    "Further Education Guidance",
-    "EJU Preparation",
-    "Art Studies",
-    "Design Studies"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "JET 일본어학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都北区滝野川7-8-9
+  capacity: 150
+  category: school
+  courses:
+  - admission_month: 4, 10
+    course_name: 日本語基礎科
+    total_fees: 850000
+  - admission_month: '4'
+    course_name: 日本語進学科A
+    total_fees: 970000
+  - admission_month: '10'
+    course_name: 日本語進学科B
+    total_fees: 1360000
+  faculties: []
+  features:
+  - Scholarships
+  - Dormitory
+  - Further Education Guidance
+  - EJU Preparation
+  - Art Studies
+  - Design Studies
+  id: school_jet-japanese-language-school
+  layout: school
+  location:
+    lat: 35.7453444
+    lng: 139.7206697
+  name_en: JET Japanese Language School
+  name_ja: ジェット日本語学校
+  source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=207
+  stats:
+    capacity: 150
+    international_students: 0
+  tags:
+  - Scholarships
+  - Dormitory
+  - Further Education Guidance
+  - EJU Preparation
+  - Art Studies
+  - Design Studies
+  thumbnail: /static/img/pin-school.png
+  title: JET 일본어학교
+  tuition: {}
+date: '2026-01-28'
+description: 도쿄에 위치한 JET 일본어학교에서 일본어를 배워보세요. 초급부터 고급까지 모든 레벨의 학생들을 위한 코스를 제공하며, EJU
+  시험 준비 및 미술, 디자인 분야 학습 경로를 지원합니다. 학교 내 기숙사 이용 가능합니다.
+features:
+- 장학금
+- 기숙사
+- 진학 지도
+- EJU 준비
+- 미술 학습
+- 디자인 학습
+id: school_jet-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.7453444
+  lng: 139.7206697
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=207
+stats:
+  capacity: 150
+  international_students: 0
+tags:
+- Scholarships
+- Dormitory
+- Further Education Guidance
+- EJU Preparation
+- Art Studies
+- Design Studies
+thumbnail: /static/img/pin-school.png
+title: JET 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

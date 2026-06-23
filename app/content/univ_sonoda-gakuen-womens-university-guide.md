@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sonoda-gakuen-womens-university-guide",
-  "title": "Sonoda Gakuen Women's University",
-  "category": "university",
-  "tags": [
-    "Community-Rooted Learning (Sonoda-ism)",
-    "Strong Vocational Certification Rates",
-    "Elite Athletics Programs",
-    "Personalized Support for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "園田学園女子大学",
-    "name_en": "Sonoda Gakuen Women's University",
-    "address": "7-29-1 Minamitsukaguchi-cho, Amagasaki, Hyogo 661-8520, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "65-75% (Varies by program)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Human Development",
-    "Faculty of Health and Welfare",
-    "Department of Childhood Education",
-    "Department of Food and Nutrition",
-    "Department of Human Health",
-    "Department of Nursing"
-  ],
-  "features": [
-    "Community-Rooted Learning (Sonoda-ism)",
-    "Strong Vocational Certification Rates",
-    "Elite Athletics Programs",
-    "Personalized Support for International Students"
-  ]
-}
+basic_info:
+  address: 7-29-1 Minamitsukaguchi-cho, Amagasaki, Hyogo 661-8520, Japan
+  capacity: null
+  name_en: Sonoda Gakuen Women's University
+  name_ja: 園田学園女子大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Human Development
+- Faculty of Health and Welfare
+- Department of Childhood Education
+- Department of Food and Nutrition
+- Department of Human Health
+- Department of Nursing
+features:
+- Community-Rooted Learning (Sonoda-ism)
+- Strong Vocational Certification Rates
+- Elite Athletics Programs
+- Personalized Support for International Students
+id: univ_sonoda-gakuen-womens-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (Varies by program)
+  international_students: 45
+tags:
+- Community-Rooted Learning (Sonoda-ism)
+- Strong Vocational Certification Rates
+- Elite Athletics Programs
+- Personalized Support for International Students
+thumbnail: /static/img/pin-univ.png
+title: Sonoda Gakuen Women's University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

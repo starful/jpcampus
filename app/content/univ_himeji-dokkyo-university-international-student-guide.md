@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_himeji-dokkyo-university-international-student-guide",
-  "title": "Himeji Dokkyo University",
-  "category": "university",
-  "tags": [
-    "Specialized Healthcare and Medical Focus",
-    "Located in the Historic Castle City of Himeji",
-    "Comprehensive Japanese Language Support",
-    "Strong Ties to the Local Medical Industry"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "姫路獨協大学",
-    "name_en": "Himeji Dokkyo University",
-    "address": "7-2-1 Kamiozawa, Himeji-shi, Hyogo 670-8524, Japan",
-    "capacity": 2400
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Health Sciences",
-    "Faculty of Nursing",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Medical Technology",
-    "Faculty of Human Social Sciences"
-  ],
-  "features": [
-    "Specialized Healthcare and Medical Focus",
-    "Located in the Historic Castle City of Himeji",
-    "Comprehensive Japanese Language Support",
-    "Strong Ties to the Local Medical Industry"
-  ]
-}
+basic_info:
+  address: 7-2-1 Kamiozawa, Himeji-shi, Hyogo 670-8524, Japan
+  capacity: 2400
+  name_en: Himeji Dokkyo University
+  name_ja: 姫路獨協大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Health Sciences
+- Faculty of Nursing
+- Faculty of Pharmaceutical Sciences
+- Faculty of Medical Technology
+- Faculty of Human Social Sciences
+features:
+- Specialized Healthcare and Medical Focus
+- Located in the Historic Castle City of Himeji
+- Comprehensive Japanese Language Support
+- Strong Ties to the Local Medical Industry
+id: univ_himeji-dokkyo-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 165
+tags:
+- Specialized Healthcare and Medical Focus
+- Located in the Historic Castle City of Himeji
+- Comprehensive Japanese Language Support
+- Strong Ties to the Local Medical Industry
+thumbnail: /static/img/pin-univ.png
+title: Himeji Dokkyo University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 University Overview: The Gateway to Professional Success in Hyogo

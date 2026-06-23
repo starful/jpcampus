@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ashikaga-university-comprehensive-guide",
-  "title": "아시카가 대학교 (Ashikaga University) 가이드",
-  "description": "토치기현 아시카가시에 위치한 아시카가 대학교는 재생 에너지 연구와 공학 및 간호학 분야에서 실무 중심의 교육을 제공하는 명문 사립대학교입니다. 높은 취업률과 유학생 지원 시스템을 갖추고 있어 일본 내 취업을 희망하는 학생들에게 최적의 선택지입니다.",
-  "category": "university",
-  "tags": [
-    "Pioneer in Renewable Energy Research",
-    "High Employment Rate in Japanese Engineering Firms",
-    "Specialized Support for International Students",
-    "Located in a Historic and Safe Educational City"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "足利大学",
-    "name_en": "Ashikaga University",
-    "address": "268-1 Ohama-cho, Ashikaga-shi, Tochigi 326-8558, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "재생 에너지 연구의 선구자",
-    "일본 공학계 기업의 높은 취업률",
-    "유학생을 위한 맞춤형 지원 시스템",
-    "역사 깊고 안전한 교육 도시 아시카가 위치"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 268-1 Ohama-cho, Ashikaga-shi, Tochigi 326-8558, Japan
+  capacity: null
+  name_en: Ashikaga University
+  name_ja: 足利大学
+category: university
+date: '2026-03-24'
+description: 토치기현 아시카가시에 위치한 아시카가 대학교는 재생 에너지 연구와 공학 및 간호학 분야에서 실무 중심의 교육을 제공하는 명문
+  사립대학교입니다. 높은 취업률과 유학생 지원 시스템을 갖추고 있어 일본 내 취업을 희망하는 학생들에게 최적의 선택지입니다.
+faculties:
+- Faculty of Engineering
+- Faculty of Nursing
+features:
+- 재생 에너지 연구의 선구자
+- 일본 공학계 기업의 높은 취업률
+- 유학생을 위한 맞춤형 지원 시스템
+- 역사 깊고 안전한 교육 도시 아시카가 위치
+id: univ_ashikaga-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 320
+tags:
+- Pioneer in Renewable Energy Research
+- High Employment Rate in Japanese Engineering Firms
+- Specialized Support for International Students
+- Located in a Historic and Safe Educational City
+thumbnail: /static/img/pin-univ.png
+title: 아시카가 대학교 (Ashikaga University) 가이드
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1250000
 ---
 
 ## 🏫 대학 개요

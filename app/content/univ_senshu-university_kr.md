@@ -1,53 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "2-1-1 Higashi-Mita, Tama-ku, Kawasaki-shi, Kanagawa 214-8580, Japan (Ikuta Campus)",
-    "name_en": "Senshu University",
-    "name_ja": "専修大学",
-    "website": "https://www.senshu-u.ac.jp/english/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Economics",
-    "School of Law",
-    "School of Business Administration",
-    "School of Humanities",
-    "School of Commerce",
-    "School of Network and Information",
-    "School of International Cultural Relations",
-    "School of Human Development"
-  ],
-  "features": [
-    "EJU 필수",
-    "기숙사",
-    "장학금",
-    "취업 지원"
-  ],
-  "id": "univ_senshu-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "Competitive",
-    "international_students": 600
-  },
-  "tags": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Career Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "센슈대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1000000
-  }
-}
+basic_info:
+  address: 2-1-1 Higashi-Mita, Tama-ku, Kawasaki-shi, Kanagawa 214-8580, Japan (Ikuta
+    Campus)
+  name_en: Senshu University
+  name_ja: 専修大学
+  website: https://www.senshu-u.ac.jp/english/
+category: university
+date: '2026-01-28'
+faculties:
+- School of Economics
+- School of Law
+- School of Business Administration
+- School of Humanities
+- School of Commerce
+- School of Network and Information
+- School of International Cultural Relations
+- School of Human Development
+features:
+- EJU 필수
+- 기숙사
+- 장학금
+- 취업 지원
+id: univ_senshu-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive
+  international_students: 600
+tags:
+- EJU Required
+- Dormitory
+- Scholarship
+- Career Support
+thumbnail: /static/img/pin-univ.png
+title: 센슈대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1000000
 ---
 
 ## 학교 소개

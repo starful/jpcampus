@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gifu-pharmaceutical-university",
-  "title": "기후약과대학",
-  "category": "university",
-  "tags": [
-    "일본에서 가장 오래되고 명망 있는 공립 약학 대학 중 하나",
-    "신약 개발 및 임상 약학 분야의 선구적인 연구",
-    "강력한 지역 산업 연계 및 높은 국가 약사 시험 합격률",
-    "독특한 '그린 약학' 교육 철학"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岐阜薬科大学",
-    "name_en": "Gifu Pharmaceutical University",
-    "address": "1-25-4 Daigaku-nishi, Gifu City, Gifu 501-1196, Japan",
-    "capacity": 850
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "18%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "약학과 (6년 과정)",
-    "약과학과 (4년 과정)",
-    "약학연구과"
-  ],
-  "features": [
-    "일본에서 가장 오래되고 명망 있는 공립 약학 대학 중 하나",
-    "신약 개발 및 임상 약학 분야의 선구적인 연구",
-    "강력한 지역 산업 연계 및 높은 국가 약사 시험 합격률",
-    "독특한 '그린 약학' 교육 철학"
-  ],
-  "description": "기후현 기후시에 위치한 명문 공립 약학대학인 기후약과대학에 대해 알아보세요. 뛰어난 연구, 실용적인 교육 및 글로벌 네트워크를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-25-4 Daigaku-nishi, Gifu City, Gifu 501-1196, Japan
+  capacity: 850
+  name_en: Gifu Pharmaceutical University
+  name_ja: 岐阜薬科大学
+category: university
+date: '2026-03-03'
+description: 기후현 기후시에 위치한 명문 공립 약학대학인 기후약과대학에 대해 알아보세요. 뛰어난 연구, 실용적인 교육 및 글로벌 네트워크를
+  제공합니다.
+faculties:
+- 약학과 (6년 과정)
+- 약과학과 (4년 과정)
+- 약학연구과
+features:
+- 일본에서 가장 오래되고 명망 있는 공립 약학 대학 중 하나
+- 신약 개발 및 임상 약학 분야의 선구적인 연구
+- 강력한 지역 산업 연계 및 높은 국가 약사 시험 합격률
+- 독특한 '그린 약학' 교육 철학
+id: univ_gifu-pharmaceutical-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 18%
+  international_students: 15
+tags:
+- 일본에서 가장 오래되고 명망 있는 공립 약학 대학 중 하나
+- 신약 개발 및 임상 약학 분야의 선구적인 연구
+- 강력한 지역 산업 연계 및 높은 국가 약사 시험 합격률
+- 독특한 '그린 약학' 교육 철학
+thumbnail: /static/img/pin-univ.png
+title: 기후약과대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

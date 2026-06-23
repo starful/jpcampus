@@ -5,6 +5,7 @@ basic_info:
   name_ja: 亜細亜大学
   website: https://www.asia-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Business Administration
 - Faculty of Economics

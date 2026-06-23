@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nihon-fukushi-university-comprehensive-guide",
-  "title": "일본복지대학교 (니혼후쿠시대학교)",
-  "description": "일본 최초의 사회복지 전문 대학인 일본복지대학교(NFU)를 소개합니다. 아이치현에 위치한 4개의 캠퍼스에서 지역사회 발전과 의료 복지 분야의 글로벌 인재로 성장해 보세요.",
-  "category": "university",
-  "tags": [
-    "일본 최초의 사회복지 전문 대학",
-    "글로컬(Global + Local) 커뮤니티 개발 중심",
-    "사회 서비스 및 의료 행정 분야 최상위권 취업률",
-    "아이치현 내 전문 시설을 갖춘 다수 캠퍼스 운영"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "日本福祉大学",
-    "name_en": "Nihon Fukushi University",
-    "address": "35-6 Eguchi, Mihama-cho, Chita-gun, Aichi 470-3233, Japan",
-    "capacity": "전체 학생 수 약 12,500명"
-  },
-  "stats": {
-    "international_students": 385,
-    "acceptance_rate": "55-65% (학부별 상이)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "사회복지학부",
-    "건강사회복지학부",
-    "보건과학부",
-    "아동발달학부",
-    "스포츠과학부",
-    "경제학부",
-    "국제학부",
-    "간호학부"
-  ],
-  "features": [
-    "일본 최초의 사회복지 전문 대학",
-    "글로컬(Global + Local) 커뮤니티 개발 중심",
-    "사회 서비스 및 의료 행정 분야 최상위권 취업률",
-    "아이치현 내 전문 시설을 갖춘 다수 캠퍼스 운영"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 35-6 Eguchi, Mihama-cho, Chita-gun, Aichi 470-3233, Japan
+  capacity: 전체 학생 수 약 12,500명
+  name_en: Nihon Fukushi University
+  name_ja: 日本福祉大学
+category: university
+date: '2026-04-04'
+description: 일본 최초의 사회복지 전문 대학인 일본복지대학교(NFU)를 소개합니다. 아이치현에 위치한 4개의 캠퍼스에서 지역사회 발전과
+  의료 복지 분야의 글로벌 인재로 성장해 보세요.
+faculties:
+- 사회복지학부
+- 건강사회복지학부
+- 보건과학부
+- 아동발달학부
+- 스포츠과학부
+- 경제학부
+- 국제학부
+- 간호학부
+features:
+- 일본 최초의 사회복지 전문 대학
+- 글로컬(Global + Local) 커뮤니티 개발 중심
+- 사회 서비스 및 의료 행정 분야 최상위권 취업률
+- 아이치현 내 전문 시설을 갖춘 다수 캠퍼스 운영
+id: univ_nihon-fukushi-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65% (학부별 상이)
+  international_students: 385
+tags:
+- 일본 최초의 사회복지 전문 대학
+- 글로컬(Global + Local) 커뮤니티 개발 중심
+- 사회 서비스 및 의료 행정 분야 최상위권 취업률
+- 아이치현 내 전문 시설을 갖춘 다수 캠퍼스 운영
+thumbnail: /static/img/pin-univ.png
+title: 일본복지대학교 (니혼후쿠시대학교)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: 일본 사회복지의 개척자

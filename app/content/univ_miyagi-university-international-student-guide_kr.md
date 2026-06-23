@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_miyagi-university-international-student-guide",
-  "title": "미야기 대학",
-  "category": "university",
-  "tags": [
-    "Interdisciplinary Project-Based Learning",
-    "Advanced Research in Food Resource Innovation",
-    "Community-Centric Health and Nursing Programs",
-    "Modernist Architecture and High-Tech Facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宮城大学",
-    "name_en": "Miyagi University",
-    "address": "1-1 Gakuen, Taiwa-cho, Kurokawa-gun, Miyagi Prefecture 981-3298, Japan",
-    "capacity": 1750
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "28% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Nursing",
-    "School of Project Design",
-    "School of Food, Agricultural and Environmental Sciences"
-  ],
-  "features": [
-    "학제간 프로젝트 기반 학습",
-    "식량 자원 혁신에 대한 고급 연구",
-    "지역사회 중심의 건강 및 간호 프로그램",
-    "모더니즘 건축 및 첨단 시설"
-  ],
-  "description": "미야기 대학은 실용적인 과학 접근 방식과 지역 사회 참여를 강조하는 미야기현의 명문 공립 대학입니다. 프로젝트 디자인, 식품 과학, 간호 분야에서 혁신적인 교육을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Gakuen, Taiwa-cho, Kurokawa-gun, Miyagi Prefecture 981-3298, Japan
+  capacity: 1750
+  name_en: Miyagi University
+  name_ja: 宮城大学
+category: university
+date: '2026-03-03'
+description: 미야기 대학은 실용적인 과학 접근 방식과 지역 사회 참여를 강조하는 미야기현의 명문 공립 대학입니다. 프로젝트 디자인, 식품
+  과학, 간호 분야에서 혁신적인 교육을 제공합니다.
+faculties:
+- School of Nursing
+- School of Project Design
+- School of Food, Agricultural and Environmental Sciences
+features:
+- 학제간 프로젝트 기반 학습
+- 식량 자원 혁신에 대한 고급 연구
+- 지역사회 중심의 건강 및 간호 프로그램
+- 모더니즘 건축 및 첨단 시설
+id: univ_miyagi-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 28% (Estimated)
+  international_students: 42
+tags:
+- Interdisciplinary Project-Based Learning
+- Advanced Research in Food Resource Innovation
+- Community-Centric Health and Nursing Programs
+- Modernist Architecture and High-Tech Facilities
+thumbnail: /static/img/pin-univ.png
+title: 미야기 대학
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

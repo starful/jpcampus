@@ -1,56 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tezukayama-university-nara-comprehensive-guide",
-  "title": "Tezukayama University (Nara) | 2026 Admission & Tuition Guide",
-  "category": "university",
-  "tags": [
-    "Rich Historical Location in Nara",
-    "Strong Practical Learning and Employability Focus",
-    "Top-tier Psychology and Counseling Programs",
-    "Extensive Support for International Student Integration",
-    "Proximity to Osaka and Kyoto Cultural Hubs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "帝塚山大学",
-    "name_en": "Tezukayama University",
-    "address": "7-1-1 Tezukayama, Nara City, Nara Prefecture, 631-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Psychology",
-    "Faculty of Contemporary Life"
-  ],
-  "features": [
-    "Rich Historical Location in Nara",
-    "Strong Practical Learning and Employability Focus",
-    "Top-tier Psychology and Counseling Programs",
-    "Extensive Support for International Student Integration",
-    "Proximity to Osaka and Kyoto Cultural Hubs"
-  ],
-  "description": "Explore Tezukayama University in Nara. Find 2026 tuition fees, campus life, and admission requirements for international students.",
-  "seo_title": "Tezukayama University (Nara) | 2026 Guide for International Students",
-  "seo_description": "Explore Tezukayama University in Nara. Find 2026 tuition fees, campus life, and admission requirements for international students."
-}
+basic_info:
+  address: 7-1-1 Tezukayama, Nara City, Nara Prefecture, 631-8501, Japan
+  capacity: null
+  name_en: Tezukayama University
+  name_ja: 帝塚山大学
+category: university
+date: '2026-06-12'
+description: Explore Tezukayama University in Nara. Find 2026 tuition fees, campus
+  life, and admission requirements for international students.
+faculties:
+- Faculty of Humanities
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Psychology
+- Faculty of Contemporary Life
+features:
+- Rich Historical Location in Nara
+- Strong Practical Learning and Employability Focus
+- Top-tier Psychology and Counseling Programs
+- Extensive Support for International Student Integration
+- Proximity to Osaka and Kyoto Cultural Hubs
+id: univ_tezukayama-university-nara-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Explore Tezukayama University in Nara. Find 2026 tuition fees, campus
+  life, and admission requirements for international students.
+seo_title: Tezukayama University (Nara) | 2026 Guide for International Students
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 165
+tags:
+- Rich Historical Location in Nara
+- Strong Practical Learning and Employability Focus
+- Top-tier Psychology and Counseling Programs
+- Extensive Support for International Student Integration
+- Proximity to Osaka and Kyoto Cultural Hubs
+thumbnail: /static/img/pin-univ.png
+title: Tezukayama University (Nara) | 2026 Admission & Tuition Guide
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
-
 
 ## 🏫 University Overview: A Heritage of Excellence in Nara
 

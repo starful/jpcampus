@@ -1,46 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shizuoka-sangyo-university-guide-for-international-students",
-  "title": "Shizuoka Sangyo University",
-  "category": "university",
-  "tags": [
-    "Strong industry-university collaboration",
-    "Renowned sports management programs",
-    "Practical career support focused on local Shizuoka companies",
-    "Dedicated Japanese language support for international students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "静岡産業大学",
-    "name_en": "Shizuoka Sangyo University",
-    "address": "1572-1 Ohkubo, Iwata-shi, Shizuoka 438-0043 (Iwata Campus) / 4-1-1 Surugadai, Fujieda-shi, Shizuoka 426-8668 (Fujieda Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Sport and Health Science",
-    "Department of Psychology and Management"
-  ],
-  "features": [
-    "Strong industry-university collaboration",
-    "Renowned sports management programs",
-    "Practical career support focused on local Shizuoka companies",
-    "Dedicated Japanese language support for international students"
-  ]
-}
+basic_info:
+  address: 1572-1 Ohkubo, Iwata-shi, Shizuoka 438-0043 (Iwata Campus) / 4-1-1 Surugadai,
+    Fujieda-shi, Shizuoka 426-8668 (Fujieda Campus)
+  capacity: null
+  name_en: Shizuoka Sangyo University
+  name_ja: 静岡産業大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Management
+- Faculty of Sport and Health Science
+- Department of Psychology and Management
+features:
+- Strong industry-university collaboration
+- Renowned sports management programs
+- Practical career support focused on local Shizuoka companies
+- Dedicated Japanese language support for international students
+id: univ_shizuoka-sangyo-university-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 185
+tags:
+- Strong industry-university collaboration
+- Renowned sports management programs
+- Practical career support focused on local Shizuoka companies
+- Dedicated Japanese language support for international students
+thumbnail: /static/img/pin-univ.png
+title: Shizuoka Sangyo University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview: The Bridge Between Academia and Industry

@@ -1,57 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-toyama-international-student-guide",
-  "title": "University of Toyama International Student Guide",
-  "category": "university",
-  "tags": [
-    "World-Class Pharmacy and Drug Discovery Research",
-    "Strategic Industry-Academia Collaboration in Aluminum and Manufacturing",
-    "Comprehensive National University with 9 Specialized Faculties",
-    "Unique Sustainable Design Faculty focusing on Environmental Harmony"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "富山大学",
-    "name_en": "University of Toyama",
-    "address": "3190 Gofuku, Toyama-shi, Toyama 930-8555, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 382,
-    "acceptance_rate": "25-35% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Humanities",
-    "Education",
-    "Economics",
-    "Science",
-    "Engineering",
-    "Medicine",
-    "Pharmacy and Pharmaceutical Sciences",
-    "Art and Design",
-    "Sustainable Design"
-  ],
-  "features": [
-    "World-Class Pharmacy and Drug Discovery Research",
-    "Strategic Industry-Academia Collaboration in Aluminum and Manufacturing",
-    "Comprehensive National University with 9 Specialized Faculties",
-    "Unique Sustainable Design Faculty focusing on Environmental Harmony"
-  ],
-  "description": "Explore the comprehensive guide for international students at the University of Toyama. Find details on tuition, admissions, scholarships, and student life.",
-  "seo_title": "University of Toyama International Student Guide 2026 | JP Campus",
-  "seo_description": "Your complete 2026 guide to the University of Toyama. Learn about tuition fees, admission requirements, scholarships, and student life in Japan."
-}
+basic_info:
+  address: 3190 Gofuku, Toyama-shi, Toyama 930-8555, Japan
+  capacity: null
+  name_en: University of Toyama
+  name_ja: 富山大学
+category: university
+date: '2026-06-12'
+description: Explore the comprehensive guide for international students at the University
+  of Toyama. Find details on tuition, admissions, scholarships, and student life.
+faculties:
+- Humanities
+- Education
+- Economics
+- Science
+- Engineering
+- Medicine
+- Pharmacy and Pharmaceutical Sciences
+- Art and Design
+- Sustainable Design
+features:
+- World-Class Pharmacy and Drug Discovery Research
+- Strategic Industry-Academia Collaboration in Aluminum and Manufacturing
+- Comprehensive National University with 9 Specialized Faculties
+- Unique Sustainable Design Faculty focusing on Environmental Harmony
+id: univ_university-of-toyama-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Your complete 2026 guide to the University of Toyama. Learn about
+  tuition fees, admission requirements, scholarships, and student life in Japan.
+seo_title: University of Toyama International Student Guide 2026 | JP Campus
+stats:
+  acceptance_rate: 25-35% (Estimated)
+  international_students: 382
+tags:
+- World-Class Pharmacy and Drug Discovery Research
+- Strategic Industry-Academia Collaboration in Aluminum and Manufacturing
+- Comprehensive National University with 9 Specialized Faculties
+- Unique Sustainable Design Faculty focusing on Environmental Harmony
+thumbnail: /static/img/pin-univ.png
+title: University of Toyama International Student Guide
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 University Overview: The Jewel of the Hokuriku Region
 

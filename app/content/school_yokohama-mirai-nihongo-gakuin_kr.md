@@ -1,65 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "神奈川県横浜市南区六ツ川1-873 東洋物産ビル303",
-    "capacity": 87,
-    "name_en": "Yokohama Mirai Japanese Language Academy",
-    "name_ja": "横浜みらい日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1147500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1510000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "회화 중심",
-    "EJU 준비",
-    "기숙사 이용 가능",
-    "이과 계열",
-    "비즈니스 일본어",
-    "미술",
-    "디자인",
-    "단기 코스"
-  ],
-  "id": "school_yokohama-mirai-nihongo-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.42413130000001,
-    "lng": 139.5848831
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=619",
-  "stats": {
-    "capacity": 87,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Conversation Focused",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Science Stream",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "요코하마 미라이 일본어 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "요코하마 미라이 일본어 학원은 일본 유학을 희망하는 학생들을 위한 효과적인 학습 환경을 제공합니다. 대학 진학 및 실용적인 일본어 능력 향상을 목표로 합니다."
-}
+basic_info:
+  address: 神奈川県横浜市南区六ツ川1-873 東洋物産ビル303
+  capacity: 87
+  name_en: Yokohama Mirai Japanese Language Academy
+  name_ja: 横浜みらい日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1147500
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1510000
+date: '2026-02-13'
+description: 요코하마 미라이 일본어 학원은 일본 유학을 희망하는 학생들을 위한 효과적인 학습 환경을 제공합니다. 대학 진학 및 실용적인
+  일본어 능력 향상을 목표로 합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- 회화 중심
+- EJU 준비
+- 기숙사 이용 가능
+- 이과 계열
+- 비즈니스 일본어
+- 미술
+- 디자인
+- 단기 코스
+id: school_yokohama-mirai-nihongo-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.42413130000001
+  lng: 139.5848831
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=619
+stats:
+  capacity: 87
+  international_students: 0
+tags:
+- University Preparation
+- Conversation Focused
+- EJU Preparation
+- Dormitory Available
+- Science Stream
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 요코하마 미라이 일본어 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

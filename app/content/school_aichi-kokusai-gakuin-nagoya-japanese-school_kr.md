@@ -1,58 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中区新栄1-30-3",
-    "capacity": 394,
-    "name_en": "Aichi Kokusai Gakuin (Aichi International Academy)",
-    "name_ja": "愛知国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1329000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1024000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "EJU 및 대학 입시 고득점 대비",
-    "특화된 이공계, 비즈니스, 미술/디자인 트랙 제공",
-    "1인실 포함, 기숙사 옵션 제공",
-    "종합 장학금 제도 운영",
-    "일본 주요 산업 및 교육 중심지 나고야에 위치",
-    "유연한 단기 어학 연수 프로그램"
-  ],
-  "id": "school_aichi-kokusai-gakuin-nagoya-japanese-school",
-  "layout": "school",
-  "location": {
-    "lat": 35.1643363,
-    "lng": 136.9163875
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=294",
-  "stats": {
-    "capacity": 394,
-    "international_students": 394
-  },
-  "tags": [
-    "High-level EJU and University Entrance Preparation",
-    "Specialized Science, Business, and Art/Design Tracks",
-    "On-site Dormitory Options including Single Rooms",
-    "Comprehensive Scholarship System",
-    "Located in Japan's major industrial and educational hub: Nagoya",
-    "Flexible Short-term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아이치 국제학원 (Aichi International Academy)",
-  "tuition": {},
-  "description": "아이치현 나고야에 위치한 아이치 국제학원은 일본 대학 진학을 희망하는 유학생들을 위한 최고의 교육 기관입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 愛知県名古屋市中区新栄1-30-3
+  capacity: 394
+  name_en: Aichi Kokusai Gakuin (Aichi International Academy)
+  name_ja: 愛知国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1329000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1024000
+date: '2026-01-28'
+description: 아이치현 나고야에 위치한 아이치 국제학원은 일본 대학 진학을 희망하는 유학생들을 위한 최고의 교육 기관입니다.
+faculties: []
+features:
+- EJU 및 대학 입시 고득점 대비
+- 특화된 이공계, 비즈니스, 미술/디자인 트랙 제공
+- 1인실 포함, 기숙사 옵션 제공
+- 종합 장학금 제도 운영
+- 일본 주요 산업 및 교육 중심지 나고야에 위치
+- 유연한 단기 어학 연수 프로그램
+id: school_aichi-kokusai-gakuin-nagoya-japanese-school
+lang: kr
+layout: school
+location:
+  lat: 35.1643363
+  lng: 136.9163875
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=294
+stats:
+  capacity: 394
+  international_students: 394
+tags:
+- High-level EJU and University Entrance Preparation
+- Specialized Science, Business, and Art/Design Tracks
+- On-site Dormitory Options including Single Rooms
+- Comprehensive Scholarship System
+- 'Located in Japan''s major industrial and educational hub: Nagoya'
+- Flexible Short-term Study Programs
+thumbnail: /static/img/pin-school.png
+title: 아이치 국제학원 (Aichi International Academy)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-university-of-economics-guide",
-  "title": "히로시마 경제대학교",
-  "category": "university",
-  "tags": [
-    "코도칸(Koudokan) 프로젝트 중심 학습 이니셔티브",
-    "비즈니스 및 경제학 특화 교육",
-    "히로시마 지역 산업과의 강력한 연계",
-    "외국인 유학생을 위한 체계적인 일본어 학습 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島経済大学",
-    "name_en": "Hiroshima University of Economics",
-    "address": "5-37-1 Gion, Asaminami-ku, Hiroshima, 731-0192, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Department of Economics",
-    "Department of Management",
-    "Department of Business Administration",
-    "Department of Media and Business",
-    "Department of Sports Management"
-  ],
-  "features": [
-    "코도칸(Koudokan) 프로젝트 중심 학습 이니셔티브",
-    "비즈니스 및 경제학 특화 교육",
-    "히로시마 지역 산업과의 강력한 연계",
-    "외국인 유학생을 위한 체계적인 일본어 학습 지원"
-  ],
-  "lang": "kr",
-  "description": "서일본 비즈니스 및 실무 교육의 중심지로서, 경제와 경영 분야에 특화된 커리큘럼과 강력한 지역 산업 연계, 그리고 유학생을 위한 세심한 지원을 제공하는 히로시마 경제대학교를 소개합니다."
-}
+basic_info:
+  address: 5-37-1 Gion, Asaminami-ku, Hiroshima, 731-0192, Japan
+  capacity: null
+  name_en: Hiroshima University of Economics
+  name_ja: 広島経済大学
+category: university
+date: '2026-03-15'
+description: 서일본 비즈니스 및 실무 교육의 중심지로서, 경제와 경영 분야에 특화된 커리큘럼과 강력한 지역 산업 연계, 그리고 유학생을
+  위한 세심한 지원을 제공하는 히로시마 경제대학교를 소개합니다.
+faculties:
+- Department of Economics
+- Department of Management
+- Department of Business Administration
+- Department of Media and Business
+- Department of Sports Management
+features:
+- 코도칸(Koudokan) 프로젝트 중심 학습 이니셔티브
+- 비즈니스 및 경제학 특화 교육
+- 히로시마 지역 산업과의 강력한 연계
+- 외국인 유학생을 위한 체계적인 일본어 학습 지원
+id: univ_hiroshima-university-of-economics-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 145
+tags:
+- 코도칸(Koudokan) 프로젝트 중심 학습 이니셔티브
+- 비즈니스 및 경제학 특화 교육
+- 히로시마 지역 산업과의 강력한 연계
+- 외국인 유학생을 위한 체계적인 일본어 학습 지원
+thumbnail: /static/img/pin-univ.png
+title: 히로시마 경제대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요: 서일본 실무 비즈니스 교육의 정점

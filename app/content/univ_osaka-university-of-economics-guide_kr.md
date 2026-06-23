@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-university-of-economics-guide",
-  "title": "오사카경제대학교",
-  "description": "오사카경제대학교(OUE)는 '인간력'과 '실학'을 중심으로 간사이 지역에서 압도적인 취업 실적을 자랑하는 경제·경영 특화 사립 대학입니다. 1학년부터 시작되는 소수 정예 세미나 시스템을 통해 유학생들에게도 밀착형 교육과 풍부한 지원을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "실천적 경제학 및 인간력(人間力) 함양 중점",
-    "1학년부터 시작되는 소수 정예 세미나(제미) 시스템",
-    "간사이 지역 내 탁월한 취업 실적",
-    "현대적인 시설을 갖춘 오사카 도심 내 전략적 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪経済大学",
-    "name_en": "Osaka University of Economics",
-    "address": "2-2-8 Osumi, Higashiyodogawa-ku, Osaka, 533-8533, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 182,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "경제학부",
-    "경영학부",
-    "정보사회학부",
-    "인간과학부"
-  ],
-  "features": [
-    "실천적 경제학 및 인간력(人間力) 함양 중점",
-    "1학년부터 시작되는 소수 정예 세미나(제미) 시스템",
-    "간사이 지역 내 탁월한 취업 실적",
-    "현대적인 시설을 갖춘 오사카 도심 내 전략적 위치"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-2-8 Osumi, Higashiyodogawa-ku, Osaka, 533-8533, Japan
+  capacity: null
+  name_en: Osaka University of Economics
+  name_ja: 大阪経済大学
+category: university
+date: '2026-03-15'
+description: 오사카경제대학교(OUE)는 '인간력'과 '실학'을 중심으로 간사이 지역에서 압도적인 취업 실적을 자랑하는 경제·경영 특화 사립
+  대학입니다. 1학년부터 시작되는 소수 정예 세미나 시스템을 통해 유학생들에게도 밀착형 교육과 풍부한 지원을 제공합니다.
+faculties:
+- 경제학부
+- 경영학부
+- 정보사회학부
+- 인간과학부
+features:
+- 실천적 경제학 및 인간력(人間力) 함양 중점
+- 1학년부터 시작되는 소수 정예 세미나(제미) 시스템
+- 간사이 지역 내 탁월한 취업 실적
+- 현대적인 시설을 갖춘 오사카 도심 내 전략적 위치
+id: univ_osaka-university-of-economics-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 182
+tags:
+- 실천적 경제학 및 인간력(人間力) 함양 중점
+- 1학년부터 시작되는 소수 정예 세미나(제미) 시스템
+- 간사이 지역 내 탁월한 취업 실적
+- 현대적인 시설을 갖춘 오사카 도심 내 전략적 위치
+thumbnail: /static/img/pin-univ.png
+title: 오사카경제대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요: 오사카 실용 학문의 중심

@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sanno-university-comprehensive-guide-for-international-students",
-  "title": "산노능률대학교: 실무 중심 교육과 압도적인 취업률을 자랑하는 일본 경영 대학 가이드",
-  "description": "일본 내 액티브 러닝의 선구자이자 높은 취업률을 자랑하는 산노능률대학교의 학부 정보, 캠퍼스 라이프, 장학금 및 입학 가이드를 확인해 보세요.",
-  "category": "university",
-  "lang": "kr",
-  "tags": [
-    "액티브 러닝 및 PBL 선구자",
-    "사립 경영계열 대학 최상위권 취업률",
-    "일본 주요 대기업과의 강력한 네트워크",
-    "도쿄 지유가오카 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "産業能率大学",
-    "name_en": "Sanno University",
-    "address": "6-39-15 Todoroki, Setagaya-ku, Tokyo 158-8630, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "Estimated 35% - 45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Information Management"
-  ],
-  "features": [
-    "액티브 러닝 및 PBL(프로젝트 기반 학습)의 선구자",
-    "사립 경영계열 대학 중 최상위권 취업률",
-    "일본 주요 대기업과의 강력한 파트너십",
-    "도쿄 지유가오카의 뛰어난 입지 조건"
-  ]
-}
+basic_info:
+  address: 6-39-15 Todoroki, Setagaya-ku, Tokyo 158-8630, Japan
+  capacity: null
+  name_en: Sanno University
+  name_ja: 産業能率大学
+category: university
+date: '2026-03-15'
+description: 일본 내 액티브 러닝의 선구자이자 높은 취업률을 자랑하는 산노능률대학교의 학부 정보, 캠퍼스 라이프, 장학금 및 입학 가이드를
+  확인해 보세요.
+faculties:
+- Faculty of Management
+- Faculty of Information Management
+features:
+- 액티브 러닝 및 PBL(프로젝트 기반 학습)의 선구자
+- 사립 경영계열 대학 중 최상위권 취업률
+- 일본 주요 대기업과의 강력한 파트너십
+- 도쿄 지유가오카의 뛰어난 입지 조건
+id: univ_sanno-university-comprehensive-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 35% - 45%
+  international_students: 245
+tags:
+- 액티브 러닝 및 PBL 선구자
+- 사립 경영계열 대학 최상위권 취업률
+- 일본 주요 대기업과의 강력한 네트워크
+- 도쿄 지유가오카 위치
+thumbnail: /static/img/pin-univ.png
+title: '산노능률대학교: 실무 중심 교육과 압도적인 취업률을 자랑하는 일본 경영 대학 가이드'
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 대학 개요: 산노의 유산

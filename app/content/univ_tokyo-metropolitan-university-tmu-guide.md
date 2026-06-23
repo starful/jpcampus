@@ -5,6 +5,7 @@ basic_info:
   name_en: Tokyo Metropolitan University
   name_ja: 東京都立大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Humanities and Social Sciences
 - Faculty of Law

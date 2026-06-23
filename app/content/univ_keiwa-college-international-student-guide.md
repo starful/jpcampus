@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_keiwa-college-international-student-guide",
-  "title": "Keiwa College",
-  "category": "university",
-  "tags": [
-    "Small-group education with personalized mentoring",
-    "Christian-based Liberal Arts philosophy",
-    "High employment rate in Niigata and Tokyo",
-    "Extensive Japanese language support for foreigners"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "敬和学園大学",
-    "name_en": "Keiwa College",
-    "address": "1270 Kumanodo, Shibata, Niigata 957-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "85%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 780000
-  },
-  "faculties": [
-    "Department of English and Intercultural Studies",
-    "Department of Symbiotic Society",
-    "Department of Information Media"
-  ],
-  "features": [
-    "Small-group education with personalized mentoring",
-    "Christian-based Liberal Arts philosophy",
-    "High employment rate in Niigata and Tokyo",
-    "Extensive Japanese language support for foreigners"
-  ]
-}
+basic_info:
+  address: 1270 Kumanodo, Shibata, Niigata 957-8585, Japan
+  capacity: null
+  name_en: Keiwa College
+  name_ja: 敬和学園大学
+category: university
+date: '2026-03-24'
+faculties:
+- Department of English and Intercultural Studies
+- Department of Symbiotic Society
+- Department of Information Media
+features:
+- Small-group education with personalized mentoring
+- Christian-based Liberal Arts philosophy
+- High employment rate in Niigata and Tokyo
+- Extensive Japanese language support for foreigners
+id: univ_keiwa-college-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 85%
+  international_students: 115
+tags:
+- Small-group education with personalized mentoring
+- Christian-based Liberal Arts philosophy
+- High employment rate in Niigata and Tokyo
+- Extensive Japanese language support for foreigners
+thumbnail: /static/img/pin-univ.png
+title: Keiwa College
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 780000
 ---
 
 ## 🏫 University Overview: The Keiwa Spirit

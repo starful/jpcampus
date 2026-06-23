@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yokkaichi-university-guide",
-  "title": "욧카이치 대학교",
-  "description": "일본 미에현의 공업 중심지에 위치한 욧카이치 대학교는 지역 활성화와 환경 및 정보 과학 분야에 특화된 실무 중심의 사립 대학교입니다.",
-  "category": "university",
-  "tags": [
-    "Regional revitalization focus",
-    "Pioneering environmental research in an eco-city",
-    "Strong ties with local Tokai industrial hub",
-    "Highly supportive international student center"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "四日市大学",
-    "name_en": "Yokkaichi University",
-    "address": "1200 Kayacho, Yokkaichi, Mie 512-8512, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 284,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 780000
-  },
-  "faculties": [
-    "Faculty of Policy Management",
-    "Faculty of Environmental and Information Sciences"
-  ],
-  "features": [
-    "지역 활성화 및 재생 중심 교육",
-    "에코 시티(Eco-City)에서의 선도적인 환경 연구",
-    "토카이 지역 산업 허브와의 강력한 네트워크",
-    "외국인 유학생을 위한 체계적인 지원 센터"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1200 Kayacho, Yokkaichi, Mie 512-8512, Japan
+  capacity: null
+  name_en: Yokkaichi University
+  name_ja: 四日市大学
+category: university
+date: '2026-04-04'
+description: 일본 미에현의 공업 중심지에 위치한 욧카이치 대학교는 지역 활성화와 환경 및 정보 과학 분야에 특화된 실무 중심의 사립 대학교입니다.
+faculties:
+- Faculty of Policy Management
+- Faculty of Environmental and Information Sciences
+features:
+- 지역 활성화 및 재생 중심 교육
+- 에코 시티(Eco-City)에서의 선도적인 환경 연구
+- 토카이 지역 산업 허브와의 강력한 네트워크
+- 외국인 유학생을 위한 체계적인 지원 센터
+id: univ_yokkaichi-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 284
+tags:
+- Regional revitalization focus
+- Pioneering environmental research in an eco-city
+- Strong ties with local Tokai industrial hub
+- Highly supportive international student center
+thumbnail: /static/img/pin-univ.png
+title: 욧카이치 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 780000
 ---
 
 ## 🏫 대학 개요

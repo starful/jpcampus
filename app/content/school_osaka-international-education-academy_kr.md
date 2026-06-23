@@ -1,59 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市此花区西九条1-29-2",
-    "capacity": 240,
-    "name_en": "Osaka International Education Academy",
-    "name_ja": "大阪国際教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "7,10,1",
-      "course_name": "一般1年コース",
-      "total_fees": 790000
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "一般2年コース",
-      "total_fees": 1470000
-    }
-  ],
-  "description": "오사카에 위치한 Osaka International Education Academy는 대학 진학에 특화된 일본어 학교로, 기숙사 옵션과 장학금을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "탄탄한 대학 진학 중심 (EJU)",
-    "교내 또는 제휴 기숙사 옵션",
-    "장학금 프로그램 제공",
-    "단기 코스 제공",
-    "비교적 작은 학급 규모 (240명)",
-    "오사카에 위치, 훌륭한 교통 연결"
-  ],
-  "id": "school_osaka-international-education-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6812538,
-    "lng": 135.4679997
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=323",
-  "stats": {
-    "capacity": 240,
-    "international_students": 200
-  },
-  "tags": [
-    "Strong University Progression Focus (EJU)",
-    "On-Campus or Affiliated Dormitory Options",
-    "Scholarship Programs Available",
-    "Offers Short-term Courses",
-    "Relatively Small Class Capacity (240 students)",
-    "Located in Osaka, with excellent transport links"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Osaka International Education Academy",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市此花区西九条1-29-2
+  capacity: 240
+  name_en: Osaka International Education Academy
+  name_ja: 大阪国際教育学院
+category: school
+courses:
+- admission_month: 7,10,1
+  course_name: 一般1年コース
+  total_fees: 790000
+- admission_month: 4,10
+  course_name: 一般2年コース
+  total_fees: 1470000
+date: '2026-01-28'
+description: 오사카에 위치한 Osaka International Education Academy는 대학 진학에 특화된 일본어 학교로, 기숙사
+  옵션과 장학금을 제공합니다.
+faculties: []
+features:
+- 탄탄한 대학 진학 중심 (EJU)
+- 교내 또는 제휴 기숙사 옵션
+- 장학금 프로그램 제공
+- 단기 코스 제공
+- 비교적 작은 학급 규모 (240명)
+- 오사카에 위치, 훌륭한 교통 연결
+id: school_osaka-international-education-academy
+lang: kr
+layout: school
+location:
+  lat: 34.6812538
+  lng: 135.4679997
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=323
+stats:
+  capacity: 240
+  international_students: 200
+tags:
+- Strong University Progression Focus (EJU)
+- On-Campus or Affiliated Dormitory Options
+- Scholarship Programs Available
+- Offers Short-term Courses
+- Relatively Small Class Capacity (240 students)
+- Located in Osaka, with excellent transport links
+thumbnail: /static/img/pin-school.png
+title: Osaka International Education Academy
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

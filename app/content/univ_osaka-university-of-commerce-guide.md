@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-university-of-commerce-guide",
-  "title": "Osaka University of Commerce",
-  "category": "university",
-  "tags": [
-    "Expertise in Entrepreneurship and SME Management",
-    "Home to the unique Research Institute for Amusement Industry",
-    "Strong employment support with a focus on practical skills",
-    "Strategic location in Higashiosaka, a hub of Japanese manufacturing"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪商業大学",
-    "name_en": "Osaka University of Commerce",
-    "address": "4-1-10 Mikunigaoka, Higashiosaka-shi, Osaka 577-8505, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 210,
-    "acceptance_rate": "45-55% (Varies by entrance examination type)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of Economics"
-  ],
-  "features": [
-    "Expertise in Entrepreneurship and SME Management",
-    "Home to the unique Research Institute for Amusement Industry",
-    "Strong employment support with a focus on practical skills",
-    "Strategic location in Higashiosaka, a hub of Japanese manufacturing"
-  ]
-}
+basic_info:
+  address: 4-1-10 Mikunigaoka, Higashiosaka-shi, Osaka 577-8505, Japan
+  capacity: null
+  name_en: Osaka University of Commerce
+  name_ja: 大阪商業大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Business Administration
+- Faculty of Economics
+features:
+- Expertise in Entrepreneurship and SME Management
+- Home to the unique Research Institute for Amusement Industry
+- Strong employment support with a focus on practical skills
+- Strategic location in Higashiosaka, a hub of Japanese manufacturing
+id: univ_osaka-university-of-commerce-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Varies by entrance examination type)
+  international_students: 210
+tags:
+- Expertise in Entrepreneurship and SME Management
+- Home to the unique Research Institute for Amusement Industry
+- Strong employment support with a focus on practical skills
+- Strategic location in Higashiosaka, a hub of Japanese manufacturing
+thumbnail: /static/img/pin-univ.png
+title: Osaka University of Commerce
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

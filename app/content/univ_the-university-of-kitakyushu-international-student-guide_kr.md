@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_the-university-of-kitakyushu-international-student-guide",
-  "title": "기타큐슈 시립 대학교",
-  "category": "university",
-  "tags": [
-    "Top-tier Public University in Kyushu",
-    "Strong Language and Foreign Study Programs",
-    "Eco-friendly Research Focus at Hibikino Campus",
-    "Highly Affordable Tuition and Low Cost of Living"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北九州市立大学",
-    "name_en": "The University of Kitakyushu",
-    "address": "4-2-1 Kitagawa, Kokuraminami-ku, Kitakyushu, Fukuoka 802-8577, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Foreign Studies",
-    "Faculty of Economics and Business Administration",
-    "Faculty of Humanities",
-    "Faculty of Law",
-    "Faculty of Environmental Engineering",
-    "School of Regional Strategy"
-  ],
-  "features": [
-    "큐슈 지역 최상위 공립 대학교",
-    "강력한 어학 및 해외 유학 프로그램",
-    "히비키노 캠퍼스의 친환경 연구 집중",
-    "매우 저렴한 학비와 낮은 생활비"
-  ],
-  "description": "기타큐슈 시립 대학교는 큐슈 지역의 명문 공립 대학교입니다. 어학, 해외 유학 프로그램이 강하며, 특히 히비키노 캠퍼스는 친환경 연구에 집중하고 있습니다. 저렴한 학비와 생활비 또한 장점입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 4-2-1 Kitagawa, Kokuraminami-ku, Kitakyushu, Fukuoka 802-8577, Japan
+  capacity: null
+  name_en: The University of Kitakyushu
+  name_ja: 北九州市立大学
+category: university
+date: '2026-03-03'
+description: 기타큐슈 시립 대학교는 큐슈 지역의 명문 공립 대학교입니다. 어학, 해외 유학 프로그램이 강하며, 특히 히비키노 캠퍼스는 친환경
+  연구에 집중하고 있습니다. 저렴한 학비와 생활비 또한 장점입니다.
+faculties:
+- Faculty of Foreign Studies
+- Faculty of Economics and Business Administration
+- Faculty of Humanities
+- Faculty of Law
+- Faculty of Environmental Engineering
+- School of Regional Strategy
+features:
+- 큐슈 지역 최상위 공립 대학교
+- 강력한 어학 및 해외 유학 프로그램
+- 히비키노 캠퍼스의 친환경 연구 집중
+- 매우 저렴한 학비와 낮은 생활비
+id: univ_the-university-of-kitakyushu-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 185
+tags:
+- Top-tier Public University in Kyushu
+- Strong Language and Foreign Study Programs
+- Eco-friendly Research Focus at Hibikino Campus
+- Highly Affordable Tuition and Low Cost of Living
+thumbnail: /static/img/pin-univ.png
+title: 기타큐슈 시립 대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_momoyama-gakuin-university-international-student-guide",
-  "title": "모모야마 가쿠인 대학교",
-  "description": "서일본의 명문 사립 리버럴 아츠 대학인 모모야마 가쿠인 대학교(세인트 앤드류 대학교)의 유학생 가이드입니다. 오사카에서의 대학 생활, 혁신적인 비즈니스 교육, 장학금 및 취업 지원 혜택을 확인해 보세요.",
-  "category": "university",
-  "tags": [
-    "Christian Educational Foundation (Anglican/Episcopal)",
-    "State-of-the-art i-Lounge for International Exchange",
-    "Strong Career Support in the Kansai Region",
-    "Innovative Business Design Campus in Central Osaka (Abeno)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桃山学院大学",
-    "name_en": "Momoyama Gakuin University",
-    "address": "1-1 Manabino, Izumi, Osaka 594-1198, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 215,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of Economics",
-    "Faculty of Sociology",
-    "Faculty of Law",
-    "Faculty of Letters",
-    "Faculty of International Studies and Regional Development",
-    "Faculty of Business Design"
-  ],
-  "features": [
-    "기독교 정신(성공회)에 기반한 교육 재단",
-    "국제 교류를 위한 최첨단 i-Lounge 운영",
-    "간사이 지역 내 강력한 취업 지원 체계",
-    "오사카 시내(아베노)의 혁신적인 비즈니스 디자인 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Manabino, Izumi, Osaka 594-1198, Japan
+  capacity: null
+  name_en: Momoyama Gakuin University
+  name_ja: 桃山学院大学
+category: university
+date: '2026-03-15'
+description: 서일본의 명문 사립 리버럴 아츠 대학인 모모야마 가쿠인 대학교(세인트 앤드류 대학교)의 유학생 가이드입니다. 오사카에서의 대학
+  생활, 혁신적인 비즈니스 교육, 장학금 및 취업 지원 혜택을 확인해 보세요.
+faculties:
+- Faculty of Business Administration
+- Faculty of Economics
+- Faculty of Sociology
+- Faculty of Law
+- Faculty of Letters
+- Faculty of International Studies and Regional Development
+- Faculty of Business Design
+features:
+- 기독교 정신(성공회)에 기반한 교육 재단
+- 국제 교류를 위한 최첨단 i-Lounge 운영
+- 간사이 지역 내 강력한 취업 지원 체계
+- 오사카 시내(아베노)의 혁신적인 비즈니스 디자인 캠퍼스
+id: univ_momoyama-gakuin-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 215
+tags:
+- Christian Educational Foundation (Anglican/Episcopal)
+- State-of-the-art i-Lounge for International Exchange
+- Strong Career Support in the Kansai Region
+- Innovative Business Design Campus in Central Osaka (Abeno)
+thumbnail: /static/img/pin-univ.png
+title: 모모야마 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 대학 개요

@@ -1,65 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都杉並区上高井戸1-3-14",
-    "capacity": 420,
-    "name_en": "Tokyo Sanritsu Gakuin",
-    "name_ja": "東京三立学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "総合2年コース",
-      "total_fees": 1482000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "総合1年9ヶ月コース",
-      "total_fees": 1308000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "総合1年6ヶ月コース",
-      "total_fees": 1134000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "総合1年3ヶ月コース",
-      "total_fees": 960000
-    }
-  ],
-  "description": "도쿄 삼립 학원은 체계적인 기숙사 시설을 통해 학업 발전, EJU 시험 준비, 구조화된 학생 생활에 중점을 둔 종합적인 일본어 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "체계적인 학업 발전 지원",
-    "종합적인 EJU 시험 준비",
-    "필수 및 전용 학생 기숙사 시설",
-    "균형 잡힌 종합 일본어 코스"
-  ],
-  "id": "school_tokyo-sanritsu-gakuin-japanese-language-school-suginami",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6716763,
-    "lng": 139.613773
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=190",
-  "stats": {
-    "capacity": 420,
-    "international_students": 400
-  },
-  "tags": [
-    "Dedicated Academic Progression Support",
-    "Comprehensive EJU Examination Preparation",
-    "Mandatory and Dedicated Student Dormitory Facilities",
-    "Balanced Comprehensive Japanese Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "도쿄 삼립 학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都杉並区上高井戸1-3-14
+  capacity: 420
+  name_en: Tokyo Sanritsu Gakuin
+  name_ja: 東京三立学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 総合2年コース
+  total_fees: 1482000
+- admission_month: '7'
+  course_name: 総合1年9ヶ月コース
+  total_fees: 1308000
+- admission_month: '10'
+  course_name: 総合1年6ヶ月コース
+  total_fees: 1134000
+- admission_month: '1'
+  course_name: 総合1年3ヶ月コース
+  total_fees: 960000
+date: '2026-02-13'
+description: 도쿄 삼립 학원은 체계적인 기숙사 시설을 통해 학업 발전, EJU 시험 준비, 구조화된 학생 생활에 중점을 둔 종합적인 일본어
+  교육을 제공합니다.
+faculties: []
+features:
+- 체계적인 학업 발전 지원
+- 종합적인 EJU 시험 준비
+- 필수 및 전용 학생 기숙사 시설
+- 균형 잡힌 종합 일본어 코스
+id: school_tokyo-sanritsu-gakuin-japanese-language-school-suginami
+lang: kr
+layout: school
+location:
+  lat: 35.6716763
+  lng: 139.613773
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=190
+stats:
+  capacity: 420
+  international_students: 400
+tags:
+- Dedicated Academic Progression Support
+- Comprehensive EJU Examination Preparation
+- Mandatory and Dedicated Student Dormitory Facilities
+- Balanced Comprehensive Japanese Courses
+thumbnail: /static/img/pin-school.png
+title: 도쿄 삼립 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

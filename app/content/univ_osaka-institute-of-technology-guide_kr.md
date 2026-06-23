@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-institute-of-technology-guide",
-  "title": "오사카 공업대학 (Osaka Institute of Technology)",
-  "category": "university",
-  "tags": [
-    "실무 중심 교육",
-    "일본 유일 지식재산학부",
-    "우메다 도심형 캠퍼스",
-    "높은 취업률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪工業大学",
-    "name_en": "Osaka Institute of Technology",
-    "address": "5-16-1 Omiya, Asahi-ku, Osaka 535-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "30-40%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1420000
-  },
-  "faculties": [
-    "공학부",
-    "로봇공학 및 디자인학부",
-    "정보과학부",
-    "지식재산학부"
-  ],
-  "features": [
-    "실무 및 산업 연계 중심의 교육",
-    "일본 유일의 지식재산학부 운영",
-    "우메다 중심가에 위치한 전략적 도시형 캠퍼스",
-    "압도적으로 높은 졸업생 취업률"
-  ],
-  "description": "실무 중심의 공학 교육과 압도적인 취업률을 자랑하며, 일본 유일의 지식재산학부를 보유한 오사카 공업대학을 소개합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 5-16-1 Omiya, Asahi-ku, Osaka 535-8585, Japan
+  capacity: null
+  name_en: Osaka Institute of Technology
+  name_ja: 大阪工業大学
+category: university
+date: '2026-03-15'
+description: 실무 중심의 공학 교육과 압도적인 취업률을 자랑하며, 일본 유일의 지식재산학부를 보유한 오사카 공업대학을 소개합니다.
+faculties:
+- 공학부
+- 로봇공학 및 디자인학부
+- 정보과학부
+- 지식재산학부
+features:
+- 실무 및 산업 연계 중심의 교육
+- 일본 유일의 지식재산학부 운영
+- 우메다 중심가에 위치한 전략적 도시형 캠퍼스
+- 압도적으로 높은 졸업생 취업률
+id: univ_osaka-institute-of-technology-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-40%
+  international_students: 185
+tags:
+- 실무 중심 교육
+- 일본 유일 지식재산학부
+- 우메다 도심형 캠퍼스
+- 높은 취업률
+thumbnail: /static/img/pin-univ.png
+title: 오사카 공업대학 (Osaka Institute of Technology)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1420000
 ---
 
 ## 🏫 대학 개요: 실무형 공학의 강자

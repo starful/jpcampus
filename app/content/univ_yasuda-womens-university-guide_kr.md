@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yasuda-womens-university-guide",
-  "title": "야스다 여자대학교",
-  "description": "히로시마의 전통 있는 명문 사립 여자 대학교, 야스다 여자대학교의 교육 철학과 학부 정보, 높은 취업률을 확인해보세요.",
-  "category": "university",
-  "tags": [
-    "'유하고 강하게(柔しく剛く)'라는 교육 철학",
-    "졸업생 취업률 99%라는 경이로운 실적",
-    "2023년 신설된 최첨단 디지털 비즈니스 학부",
-    "교육 과정에 포함된 철저한 매너 및 에티켓 교육"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "安田女子大学",
-    "name_en": "Yasuda Women's University",
-    "address": "히로시마현 히로시마시 아사미나미구 야스히가시 6-18-1 (우편번호 731-0153)",
-    "capacity": "약 5,100명 (전체 학생 수)"
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "45-55% (히로시마 지역 사립대 추세를 바탕으로 한 추정치)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "문학부",
-    "교육학부",
-    "심리학부",
-    "현대비즈니스학부",
-    "약학부",
-    "간호학부",
-    "보건복지학부",
-    "디지털비즈니스학부"
-  ],
-  "features": [
-    "'유하고 강하게(柔しく剛く)'라는 교육 철학",
-    "졸업생 취업률 99%라는 경이로운 실적",
-    "2023년 신설된 최첨단 디지털 비즈니스 학부",
-    "교육 과정에 포함된 철저한 매너 및 에티켓 교육"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 히로시마현 히로시마시 아사미나미구 야스히가시 6-18-1 (우편번호 731-0153)
+  capacity: 약 5,100명 (전체 학생 수)
+  name_en: Yasuda Women's University
+  name_ja: 安田女子大学
+category: university
+date: '2026-03-15'
+description: 히로시마의 전통 있는 명문 사립 여자 대학교, 야스다 여자대학교의 교육 철학과 학부 정보, 높은 취업률을 확인해보세요.
+faculties:
+- 문학부
+- 교육학부
+- 심리학부
+- 현대비즈니스학부
+- 약학부
+- 간호학부
+- 보건복지학부
+- 디지털비즈니스학부
+features:
+- '''유하고 강하게(柔しく剛く)''라는 교육 철학'
+- 졸업생 취업률 99%라는 경이로운 실적
+- 2023년 신설된 최첨단 디지털 비즈니스 학부
+- 교육 과정에 포함된 철저한 매너 및 에티켓 교육
+id: univ_yasuda-womens-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (히로시마 지역 사립대 추세를 바탕으로 한 추정치)
+  international_students: 45
+tags:
+- '''유하고 강하게(柔しく剛く)''라는 교육 철학'
+- 졸업생 취업률 99%라는 경이로운 실적
+- 2023년 신설된 최첨단 디지털 비즈니스 학부
+- 교육 과정에 포함된 철저한 매너 및 에티켓 교육
+thumbnail: /static/img/pin-univ.png
+title: 야스다 여자대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

@@ -1,48 +1,41 @@
 ---
-{
-  "basic_info": {
-    "address": "3-15-34 Kaminoge, Setagaya-ku, Tokyo 154-8526",
-    "name_en": "Tama Art University",
-    "name_ja": "多摩美術大学",
-    "website": "https://www.tamabi.ac.jp/"
-  },
-  "category": "university",
-  "description": "타마 미술대학은 도쿄에 위치한 명문 예술 대학으로, 다양한 미술 및 디자인 프로그램을 제공합니다. 영어 프로그램, 기숙사, 장학금 등 유학생을 위한 다양한 지원을 제공합니다.",
-  "faculties": [
-    "Faculty of Art and Design",
-    "Graduate School of Art and Design"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_tama-art-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 130
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "타마 미술대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1700000
-  }
-}
+basic_info:
+  address: 3-15-34 Kaminoge, Setagaya-ku, Tokyo 154-8526
+  name_en: Tama Art University
+  name_ja: 多摩美術大学
+  website: https://www.tamabi.ac.jp/
+category: university
+date: '2026-01-28'
+description: 타마 미술대학은 도쿄에 위치한 명문 예술 대학으로, 다양한 미술 및 디자인 프로그램을 제공합니다. 영어 프로그램, 기숙사,
+  장학금 등 유학생을 위한 다양한 지원을 제공합니다.
+faculties:
+- Faculty of Art and Design
+- Graduate School of Art and Design
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_tama-art-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20%
+  international_students: 130
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 타마 미술대학
+translated: true
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1700000
 ---
 
 ## 개요

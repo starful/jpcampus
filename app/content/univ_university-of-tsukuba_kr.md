@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "〒305-8577 1-1-1 Tennodai, Tsukuba, Ibaraki",
-    "name_en": "University of Tsukuba",
-    "name_ja": "筑波大学",
-    "website": "https://www.tsukuba.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "College of Humanities and Social Sciences",
-    "College of Human Sciences",
-    "College of Engineering Sciences",
-    "College of Natural Sciences",
-    "College of Information Science",
-    "College of Life and Environmental Sciences",
-    "School of Medicine",
-    "School of Health Sciences",
-    "School of Art and Design",
-    "School of Physical Education"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_university-of-tsukuba",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 2000
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "쓰쿠바 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "쓰쿠바 과학 도시에 위치한, 연구 중심의 종합 국립대학교인 쓰쿠바 대학교에 대해 알아보세요."
-}
+basic_info:
+  address: 〒305-8577 1-1-1 Tennodai, Tsukuba, Ibaraki
+  name_en: University of Tsukuba
+  name_ja: 筑波大学
+  website: https://www.tsukuba.ac.jp/
+category: university
+date: '2026-01-28'
+description: 쓰쿠바 과학 도시에 위치한, 연구 중심의 종합 국립대학교인 쓰쿠바 대학교에 대해 알아보세요.
+faculties:
+- College of Humanities and Social Sciences
+- College of Human Sciences
+- College of Engineering Sciences
+- College of Natural Sciences
+- College of Information Science
+- College of Life and Environmental Sciences
+- School of Medicine
+- School of Health Sciences
+- School of Art and Design
+- School of Physical Education
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_university-of-tsukuba
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25%
+  international_students: 2000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 쓰쿠바 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요

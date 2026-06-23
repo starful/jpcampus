@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hamamatsu-gakuin-university-guide-international-students",
-  "title": "Hamamatsu Gakuin University",
-  "category": "university",
-  "tags": [
-    "Localized Community-Based Learning",
-    "High Employment Rate in Shizuoka Industry",
-    "Generous International Student Tuition Reductions",
-    "Small-Group Seminar Style Education"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "浜松学院大学",
-    "name_en": "Hamamatsu Gakuin University",
-    "address": "2-3-1 Nunohashi, Chuo-ku, Hamamatsu-shi, Shizuoka 432-8012, Japan",
-    "capacity": 450
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 740000
-  },
-  "faculties": [
-    "Faculty of Contemporary Communication",
-    "Department of Regional Communication",
-    "Department of Childhood Education and Care"
-  ],
-  "features": [
-    "Localized Community-Based Learning",
-    "High Employment Rate in Shizuoka Industry",
-    "Generous International Student Tuition Reductions",
-    "Small-Group Seminar Style Education"
-  ]
-}
+basic_info:
+  address: 2-3-1 Nunohashi, Chuo-ku, Hamamatsu-shi, Shizuoka 432-8012, Japan
+  capacity: 450
+  name_en: Hamamatsu Gakuin University
+  name_ja: 浜松学院大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Contemporary Communication
+- Department of Regional Communication
+- Department of Childhood Education and Care
+features:
+- Localized Community-Based Learning
+- High Employment Rate in Shizuoka Industry
+- Generous International Student Tuition Reductions
+- Small-Group Seminar Style Education
+id: univ_hamamatsu-gakuin-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 145
+tags:
+- Localized Community-Based Learning
+- High Employment Rate in Shizuoka Industry
+- Generous International Student Tuition Reductions
+- Small-Group Seminar Style Education
+thumbnail: /static/img/pin-univ.png
+title: Hamamatsu Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 740000
 ---
 
 ## 🏫 University Overview: The Gateway to Central Japan

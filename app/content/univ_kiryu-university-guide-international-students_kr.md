@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kiryu-university-guide-international-students",
-  "title": "키류 대학교 (Kiryu University)",
-  "category": "university",
-  "tags": [
-    "높은 의료계 국가 자격증 합격률",
-    "소수 정예 수업 및 맞춤형 취업 지도",
-    "군마현 지역 사회와의 강력한 연계",
-    "예술 및 조리 전문 단기대학 과정 운영"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桐生大学",
-    "name_en": "Kiryu University",
-    "address": "606-7 Azami, Kasakake-machi, Midori-shi, Gunma 379-2311, Japan",
-    "capacity": 480
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "70-80%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1550000
-  },
-  "faculties": [
-    "보건의료학부",
-    "단기대학부 아트·디자인학과",
-    "단기대학부 조리·제과전공"
-  ],
-  "features": [
-    "높은 의료계 국가 자격증 합격률",
-    "소수 정예 수업 및 맞춤형 취업 지도",
-    "군마현 지역 사회와의 강력한 연계",
-    "예술 및 조리 전문 단기대학 과정 운영"
-  ],
-  "description": "군마현에 위치한 키류 대학교는 실무 중심의 교육을 통해 보건의료, 예술, 조리 분야의 전문가를 양성합니다. 높은 국가 자격증 합격률과 소수 정예의 밀착형 지도가 강점입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 606-7 Azami, Kasakake-machi, Midori-shi, Gunma 379-2311, Japan
+  capacity: 480
+  name_en: Kiryu University
+  name_ja: 桐生大学
+category: university
+date: '2026-03-24'
+description: 군마현에 위치한 키류 대학교는 실무 중심의 교육을 통해 보건의료, 예술, 조리 분야의 전문가를 양성합니다. 높은 국가 자격증
+  합격률과 소수 정예의 밀착형 지도가 강점입니다.
+faculties:
+- 보건의료학부
+- 단기대학부 아트·디자인학과
+- 단기대학부 조리·제과전공
+features:
+- 높은 의료계 국가 자격증 합격률
+- 소수 정예 수업 및 맞춤형 취업 지도
+- 군마현 지역 사회와의 강력한 연계
+- 예술 및 조리 전문 단기대학 과정 운영
+id: univ_kiryu-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 70-80%
+  international_students: 45
+tags:
+- 높은 의료계 국가 자격증 합격률
+- 소수 정예 수업 및 맞춤형 취업 지도
+- 군마현 지역 사회와의 강력한 연계
+- 예술 및 조리 전문 단기대학 과정 운영
+thumbnail: /static/img/pin-univ.png
+title: 키류 대학교 (Kiryu University)
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1550000
 ---
 
 ## 🏫 대학 개요: 실무 전문가로 가는 관문

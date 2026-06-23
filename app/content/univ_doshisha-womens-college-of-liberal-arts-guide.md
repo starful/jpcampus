@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_doshisha-womens-college-of-liberal-arts-guide",
-  "title": "Doshisha Women's College of Liberal Arts",
-  "category": "university",
-  "tags": [
-    "Christian Principles of Education",
-    "Liberal Arts Tradition",
-    "Strong Kyoto Heritage",
-    "High Employment Success Rate"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "同志社女子大学",
-    "name_en": "Doshisha Women's College of Liberal Arts",
-    "address": "Teramachi Nishi-iru, Imadegawa-dori, Kamigyo-ku, Kyoto 602-0893, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 92,
-    "acceptance_rate": "45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Faculty of Contemporary Social Studies",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Nursing",
-    "Faculty of Culture and Representation",
-    "Faculty of Music"
-  ],
-  "features": [
-    "Christian Principles of Education",
-    "Liberal Arts Tradition",
-    "Strong Kyoto Heritage",
-    "High Employment Success Rate"
-  ]
-}
+basic_info:
+  address: Teramachi Nishi-iru, Imadegawa-dori, Kamigyo-ku, Kyoto 602-0893, Japan
+  capacity: null
+  name_en: Doshisha Women's College of Liberal Arts
+  name_ja: 同志社女子大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Liberal Arts
+- Faculty of Contemporary Social Studies
+- Faculty of Pharmaceutical Sciences
+- Faculty of Nursing
+- Faculty of Culture and Representation
+- Faculty of Music
+features:
+- Christian Principles of Education
+- Liberal Arts Tradition
+- Strong Kyoto Heritage
+- High Employment Success Rate
+id: univ_doshisha-womens-college-of-liberal-arts-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45%
+  international_students: 92
+tags:
+- Christian Principles of Education
+- Liberal Arts Tradition
+- Strong Kyoto Heritage
+- High Employment Success Rate
+thumbnail: /static/img/pin-univ.png
+title: Doshisha Women's College of Liberal Arts
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

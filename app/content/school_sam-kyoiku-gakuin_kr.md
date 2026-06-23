@@ -1,67 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区百人町2-1-6",
-    "capacity": 540,
-    "name_en": "Samu Education Academy",
-    "name_ja": "サム教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1402400
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1236550
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1070700
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 904850
-    }
-  ],
-  "description": "도쿄 신주쿠에 위치한 사무 교육학원은 어학, EJU 시험 준비, 이공계 과목을 중심으로 일본 대학 진학을 희망하는 외국인 유학생들을 위한 교육을 제공합니다. 대학 진학 지도 및 단기 코스 등의 특징이 있습니다.",
-  "faculties": [],
-  "features": [
-    "대학 입시 준비",
-    "EJU 시험 준비",
-    "이공계 과목",
-    "고등 교육 지도",
-    "단기 코스"
-  ],
-  "id": "school_sam-kyoiku-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7017033,
-    "lng": 139.7017375
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=123",
-  "stats": {
-    "capacity": 540,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Science Courses",
-    "Higher Education Guidance",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Samu Education Academy",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区百人町2-1-6
+  capacity: 540
+  name_en: Samu Education Academy
+  name_ja: サム教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1402400
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1236550
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1070700
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 904850
+date: '2026-01-28'
+description: 도쿄 신주쿠에 위치한 사무 교육학원은 어학, EJU 시험 준비, 이공계 과목을 중심으로 일본 대학 진학을 희망하는 외국인 유학생들을
+  위한 교육을 제공합니다. 대학 진학 지도 및 단기 코스 등의 특징이 있습니다.
+faculties: []
+features:
+- 대학 입시 준비
+- EJU 시험 준비
+- 이공계 과목
+- 고등 교육 지도
+- 단기 코스
+id: school_sam-kyoiku-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.7017033
+  lng: 139.7017375
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=123
+stats:
+  capacity: 540
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Science Courses
+- Higher Education Guidance
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Samu Education Academy
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

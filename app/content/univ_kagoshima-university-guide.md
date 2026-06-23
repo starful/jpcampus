@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kagoshima-university-guide",
-  "title": "Kagoshima University",
-  "category": "university",
-  "tags": [
-    "Leading institution in Tropical and Marine Sciences",
-    "Unique Joint Faculty of Veterinary Medicine",
-    "Strategic proximity to Japan's space centers",
-    "Strong focus on the 'Spirit of Enterprise' and local revitalization"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鹿児島大学",
-    "name_en": "Kagoshima University",
-    "address": "1-21-24 Korimoto, Kagoshima City, Kagoshima, 890-8580, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Law, Economics and the Humanities",
-    "Faculty of Education",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Dentistry",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Fisheries",
-    "Joint Faculty of Veterinary Medicine"
-  ],
-  "features": [
-    "Leading institution in Tropical and Marine Sciences",
-    "Unique Joint Faculty of Veterinary Medicine",
-    "Strategic proximity to Japan's space centers",
-    "Strong focus on the 'Spirit of Enterprise' and local revitalization"
-  ]
-}
+basic_info:
+  address: 1-21-24 Korimoto, Kagoshima City, Kagoshima, 890-8580, Japan
+  capacity: null
+  name_en: Kagoshima University
+  name_ja: 鹿児島大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Law, Economics and the Humanities
+- Faculty of Education
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Dentistry
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Fisheries
+- Joint Faculty of Veterinary Medicine
+features:
+- Leading institution in Tropical and Marine Sciences
+- Unique Joint Faculty of Veterinary Medicine
+- Strategic proximity to Japan's space centers
+- Strong focus on the 'Spirit of Enterprise' and local revitalization
+id: univ_kagoshima-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 320
+tags:
+- Leading institution in Tropical and Marine Sciences
+- Unique Joint Faculty of Veterinary Medicine
+- Strategic proximity to Japan's space centers
+- Strong focus on the 'Spirit of Enterprise' and local revitalization
+thumbnail: /static/img/pin-univ.png
+title: Kagoshima University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Southern Gateway to Japanese Excellence

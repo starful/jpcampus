@@ -1,64 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都豊島区西池袋3-34-1",
-    "name_en": "Rikkyo University",
-    "name_ja": "立教大学",
-    "website": "https://www.rikkyo.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "College of Arts",
-    "College of Economics",
-    "College of Business Administration",
-    "College of Science",
-    "College of Sociology",
-    "College of Law and Politics",
-    "College of Tourism",
-    "College of Community and Human Services",
-    "College of Intercultural Communication",
-    "College of Psychology",
-    "College of Global Liberal Arts"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_rikkyo-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7307392,
-    "lng": 139.7032933
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 1100
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "릿쿄 대학교 (Rikkyo University) 입학 및 학부 정보",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "도쿄 명문 MARCH 릿쿄 대학교의 2026년도 최신 입학 정보, 학부 소개, 학비, EJU 외국인 유학생 전형 등 합격을 위한 필수 가이드를 제공합니다.",
-  "seo_title": "릿쿄 대학교 2026 입학 가이드: EJU 전형·학부·학비 | JP Campus",
-  "seo_description": "2026년 릿쿄 대학교(立教大学) 유학 준비! EJU 외국인 유학생 전형, 학부 소개, 학비 및 장학금 등 합격에 필요한 필수 정보를 제공합니다."
-}
+basic_info:
+  address: 東京都豊島区西池袋3-34-1
+  name_en: Rikkyo University
+  name_ja: 立教大学
+  website: https://www.rikkyo.ac.jp/
+category: university
+date: '2026-06-19'
+description: 도쿄 명문 MARCH 릿쿄 대학교의 2026년도 최신 입학 정보, 학부 소개, 학비, EJU 외국인 유학생 전형 등 합격을
+  위한 필수 가이드를 제공합니다.
+faculties:
+- College of Arts
+- College of Economics
+- College of Business Administration
+- College of Science
+- College of Sociology
+- College of Law and Politics
+- College of Tourism
+- College of Community and Human Services
+- College of Intercultural Communication
+- College of Psychology
+- College of Global Liberal Arts
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_rikkyo-university
+lang: kr
+layout: school
+location:
+  lat: 35.7307392
+  lng: 139.7032933
+seo_description: 2026년 릿쿄 대학교(立教大学) 유학 준비! EJU 외국인 유학생 전형, 학부 소개, 학비 및 장학금 등 합격에 필요한
+  필수 정보를 제공합니다.
+seo_title: '릿쿄 대학교 2026 입학 가이드: EJU 전형·학부·학비 | JP Campus'
+stats:
+  acceptance_rate: 25%
+  international_students: 1100
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 릿쿄 대학교 (Rikkyo University) 입학 및 학부 정보
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
-
-
 
 ## 대학교 개요
 

@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-sangyo-university-guide",
-  "title": "Osaka Sangyo University",
-  "category": "university",
-  "tags": [
-    "World-Class Solar Car Project",
-    "Practical Industry-Linked Education",
-    "Extensive Career Support for International Students",
-    "Modern Sports Facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪産業大学",
-    "name_en": "Osaka Sangyo University",
-    "address": "3-1-1 Nakagaito, Daito-shi, Osaka, 574-8530, Japan",
-    "capacity": 8500
-  },
-  "stats": {
-    "international_students": 750,
-    "acceptance_rate": "45-65% (Varies by department)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Business Administration",
-    "Faculty of Economics",
-    "Faculty of Design",
-    "Faculty of International Studies",
-    "Faculty of Sports and Health Sciences"
-  ],
-  "features": [
-    "World-Class Solar Car Project",
-    "Practical Industry-Linked Education",
-    "Extensive Career Support for International Students",
-    "Modern Sports Facilities"
-  ]
-}
+basic_info:
+  address: 3-1-1 Nakagaito, Daito-shi, Osaka, 574-8530, Japan
+  capacity: 8500
+  name_en: Osaka Sangyo University
+  name_ja: 大阪産業大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Engineering
+- Faculty of Business Administration
+- Faculty of Economics
+- Faculty of Design
+- Faculty of International Studies
+- Faculty of Sports and Health Sciences
+features:
+- World-Class Solar Car Project
+- Practical Industry-Linked Education
+- Extensive Career Support for International Students
+- Modern Sports Facilities
+id: univ_osaka-sangyo-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-65% (Varies by department)
+  international_students: 750
+tags:
+- World-Class Solar Car Project
+- Practical Industry-Linked Education
+- Extensive Career Support for International Students
+- Modern Sports Facilities
+thumbnail: /static/img/pin-univ.png
+title: Osaka Sangyo University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

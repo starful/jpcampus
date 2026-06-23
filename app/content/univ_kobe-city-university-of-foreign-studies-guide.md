@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-city-university-of-foreign-studies-guide",
-  "title": "Kobe City University of Foreign Studies",
-  "category": "university",
-  "tags": [
-    "Small-group intensive language education",
-    "Public university tuition with high prestige",
-    "Specialized interpreting and translation courses",
-    "Located in Gakuen-toshi university district"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸市外国語大学",
-    "name_en": "Kobe City University of Foreign Studies",
-    "address": "9-1, Gakuen-higashimachi, Nishi-ku, Kobe, Hyogo 651-2187, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 160,
-    "acceptance_rate": "25-30% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Department of English",
-    "Department of Russian",
-    "Department of Chinese",
-    "Department of Spanish",
-    "Department of International Relations"
-  ],
-  "features": [
-    "Small-group intensive language education",
-    "Public university tuition with high prestige",
-    "Specialized interpreting and translation courses",
-    "Located in Gakuen-toshi university district"
-  ]
-}
+basic_info:
+  address: 9-1, Gakuen-higashimachi, Nishi-ku, Kobe, Hyogo 651-2187, Japan
+  capacity: null
+  name_en: Kobe City University of Foreign Studies
+  name_ja: 神戸市外国語大学
+category: university
+date: '2026-03-03'
+faculties:
+- Department of English
+- Department of Russian
+- Department of Chinese
+- Department of Spanish
+- Department of International Relations
+features:
+- Small-group intensive language education
+- Public university tuition with high prestige
+- Specialized interpreting and translation courses
+- Located in Gakuen-toshi university district
+id: univ_kobe-city-university-of-foreign-studies-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30% (Estimated for International Applicants)
+  international_students: 160
+tags:
+- Small-group intensive language education
+- Public university tuition with high prestige
+- Specialized interpreting and translation courses
+- Located in Gakuen-toshi university district
+thumbnail: /static/img/pin-univ.png
+title: Kobe City University of Foreign Studies
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

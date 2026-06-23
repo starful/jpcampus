@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-shukutoku-university-international-student-guide",
-  "title": "아이치 슈쿠토쿠 대학",
-  "category": "university",
-  "tags": [
-    "'차이를 인정하고 공생하는' 교육 철학",
-    "나고야 지역 산업체와의 강력한 파트너십",
-    "명성 높은 일본어 일본문화 교육 센터(CJLC)",
-    "자연과 도시가 어우러진 듀얼 캠퍼스 시스템"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知淑徳大学",
-    "name_en": "Aichi Shukutoku University",
-    "address": "9-1 Kanabo, Nagakute-shi, Aichi 480-1197, Japan",
-    "capacity": 8950
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "문학부",
-    "인간정보학부",
-    "심리학부",
-    "창조미디어학부",
-    "글로벌 컬처·커뮤니케이션 학부",
-    "비즈니스학부",
-    "보건의료학부",
-    "복지공학부",
-    "커뮤니케이션학부"
-  ],
-  "features": [
-    "'차이를 인정하고 공생하는' 교육 철학",
-    "나고야 지역 산업체와의 강력한 파트너십",
-    "명성 높은 일본어 일본문화 교육 센터(CJLC)",
-    "자연과 도시가 어우러진 듀얼 캠퍼스 시스템"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 9-1 Kanabo, Nagakute-shi, Aichi 480-1197, Japan
+  capacity: 8950
+  name_en: Aichi Shukutoku University
+  name_ja: 愛知淑徳大学
+category: university
+date: '2026-03-15'
+faculties:
+- 문학부
+- 인간정보학부
+- 심리학부
+- 창조미디어학부
+- 글로벌 컬처·커뮤니케이션 학부
+- 비즈니스학부
+- 보건의료학부
+- 복지공학부
+- 커뮤니케이션학부
+features:
+- '''차이를 인정하고 공생하는'' 교육 철학'
+- 나고야 지역 산업체와의 강력한 파트너십
+- 명성 높은 일본어 일본문화 교육 센터(CJLC)
+- 자연과 도시가 어우러진 듀얼 캠퍼스 시스템
+id: univ_aichi-shukutoku-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 185
+tags:
+- '''차이를 인정하고 공생하는'' 교육 철학'
+- 나고야 지역 산업체와의 강력한 파트너십
+- 명성 높은 일본어 일본문화 교육 센터(CJLC)
+- 자연과 도시가 어우러진 듀얼 캠퍼스 시스템
+thumbnail: /static/img/pin-univ.png
+title: 아이치 슈쿠토쿠 대학
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: '차이를 함께 살아가는' 정신

@@ -1,57 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "〒860-8555 熊本県熊本市中央区黒髪2丁目40番1号",
-    "name_en": "Kumamoto University",
-    "name_ja": "熊本大学",
-    "website": "https://www.kumamoto-u.ac.jp/"
-  },
-  "category": "university",
-  "description": "구마모토 대학교는 일본의 명망 있는 국립 대학으로, 특히 공학, 의학, 약학 분야의 강력한 연구 프로그램으로 잘 알려져 있습니다. 다양한 지원 서비스와 장학금 기회를 통해 유학생들에게 환영받는 환경을 제공합니다.",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Pharmacy",
-    "Faculty of Engineering",
-    "Graduate School of Social and Cultural Sciences",
-    "Graduate School of Science and Technology",
-    "Graduate School of Health Sciences",
-    "Graduate School of Medical Sciences"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_kumamoto-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 465
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "구마모토 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 〒860-8555 熊本県熊本市中央区黒髪2丁目40番1号
+  name_en: Kumamoto University
+  name_ja: 熊本大学
+  website: https://www.kumamoto-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 구마모토 대학교는 일본의 명망 있는 국립 대학으로, 특히 공학, 의학, 약학 분야의 강력한 연구 프로그램으로 잘 알려져 있습니다.
+  다양한 지원 서비스와 장학금 기회를 통해 유학생들에게 환영받는 환경을 제공합니다.
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Pharmacy
+- Faculty of Engineering
+- Graduate School of Social and Cultural Sciences
+- Graduate School of Science and Technology
+- Graduate School of Health Sciences
+- Graduate School of Medical Sciences
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_kumamoto-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30%
+  international_students: 465
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 구마모토 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요 및 명성

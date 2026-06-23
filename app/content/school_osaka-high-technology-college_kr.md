@@ -1,69 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市淀川区宮原1-2-43",
-    "capacity": 80,
-    "name_en": "Osaka High Technology College",
-    "name_ja": "大阪ハイテクノロジー専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 745000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 965000
-    }
-  ],
-  "description": "오사카 하이 테크놀로지 전문학교: 일본 고등 교육으로 가는 관문. EJU 준비 및 대학 진학을 위한 종합적인 프로그램을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "고등 교육 진학",
-    "EJU 준비",
-    "회화 일본어",
-    "기숙사",
-    "1인실 기숙사",
-    "장학금",
-    "이공계 코스",
-    "비즈니스 코스",
-    "미술 코스",
-    "디자인 코스",
-    "단기 코스"
-  ],
-  "id": "school_osaka-high-technology-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.73491509999999,
-    "lng": 135.5008132
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=346",
-  "stats": {
-    "capacity": 80,
-    "international_students": 123
-  },
-  "tags": [
-    "Advancement to Higher Education",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Dormitory",
-    "Single Room Dormitory",
-    "Scholarships",
-    "Science Courses",
-    "Business Courses",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오사카 하이 테크놀로지 전문학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市淀川区宮原1-2-43
+  capacity: 80
+  name_en: Osaka High Technology College
+  name_ja: 大阪ハイテクノロジー専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 745000
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 965000
+date: '2026-01-28'
+description: '오사카 하이 테크놀로지 전문학교: 일본 고등 교육으로 가는 관문. EJU 준비 및 대학 진학을 위한 종합적인 프로그램을 제공합니다.'
+faculties: []
+features:
+- 고등 교육 진학
+- EJU 준비
+- 회화 일본어
+- 기숙사
+- 1인실 기숙사
+- 장학금
+- 이공계 코스
+- 비즈니스 코스
+- 미술 코스
+- 디자인 코스
+- 단기 코스
+id: school_osaka-high-technology-college
+lang: kr
+layout: school
+location:
+  lat: 34.73491509999999
+  lng: 135.5008132
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=346
+stats:
+  capacity: 80
+  international_students: 123
+tags:
+- Advancement to Higher Education
+- EJU Preparation
+- Conversational Japanese
+- Dormitory
+- Single Room Dormitory
+- Scholarships
+- Science Courses
+- Business Courses
+- Art Courses
+- Design Courses
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 오사카 하이 테크놀로지 전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

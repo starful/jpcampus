@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-gakuin-university",
-  "title": "Aichi Gakuin University",
-  "category": "university",
-  "tags": [
-    "Zen-based Holistic Education (Soto Zen Buddhism)",
-    "Strategically Located Urban and Suburban Campuses",
-    "Top-tier Dental and Medical Professional Schools",
-    "Exceptional Job Placement Rates in the Chubu Region"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知学院大学",
-    "name_en": "Aichi Gakuin University",
-    "address": "12 Araike, Iwasaki-cho, Nisshin-shi, Aichi 470-0195, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "42%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Psychological Counseling",
-    "Faculty of Health and Social Services",
-    "Faculty of Commerce",
-    "Faculty of Management",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of Policy Studies",
-    "Faculty of Dentistry",
-    "Faculty of Pharmacy"
-  ],
-  "features": [
-    "Zen-based Holistic Education (Soto Zen Buddhism)",
-    "Strategically Located Urban and Suburban Campuses",
-    "Top-tier Dental and Medical Professional Schools",
-    "Exceptional Job Placement Rates in the Chubu Region"
-  ]
-}
+basic_info:
+  address: 12 Araike, Iwasaki-cho, Nisshin-shi, Aichi 470-0195, Japan
+  capacity: null
+  name_en: Aichi Gakuin University
+  name_ja: 愛知学院大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Letters
+- Faculty of Psychological Counseling
+- Faculty of Health and Social Services
+- Faculty of Commerce
+- Faculty of Management
+- Faculty of Economics
+- Faculty of Law
+- Faculty of Policy Studies
+- Faculty of Dentistry
+- Faculty of Pharmacy
+features:
+- Zen-based Holistic Education (Soto Zen Buddhism)
+- Strategically Located Urban and Suburban Campuses
+- Top-tier Dental and Medical Professional Schools
+- Exceptional Job Placement Rates in the Chubu Region
+id: univ_aichi-gakuin-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 42%
+  international_students: 185
+tags:
+- Zen-based Holistic Education (Soto Zen Buddhism)
+- Strategically Located Urban and Suburban Campuses
+- Top-tier Dental and Medical Professional Schools
+- Exceptional Job Placement Rates in the Chubu Region
+thumbnail: /static/img/pin-univ.png
+title: Aichi Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

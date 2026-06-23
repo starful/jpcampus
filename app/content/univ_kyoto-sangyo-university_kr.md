@@ -1,57 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "〒603-8555 京都府京都市北区上賀茂本山",
-    "name_en": "Kyoto Sangyo University",
-    "name_ja": "京都産業大学",
-    "website": "https://www.kyoto-su.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Contemporary Sociology",
-    "Faculty of International Relations",
-    "Faculty of Cultural Studies",
-    "Faculty of Foreign Studies",
-    "Faculty of Science",
-    "Faculty of Computer Science and Engineering",
-    "Faculty of Life Sciences",
-    "Faculty of Architecture"
-  ],
-  "features": [
-    "EJU Required",
-    "English-Taught Courses",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_kyoto-sangyo-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "Competitive, varies by faculty and entrance exam type",
-    "international_students": 369
-  },
-  "tags": [
-    "EJU Required",
-    "English-Taught Courses",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "교토 산업대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1020000
-  },
-  "description": "교토에 위치한 명문 사립대학교, 교토 산업대학교에 대해 알아보세요. 다양한 학부와 국제 학생 지원 프로그램 정보를 제공합니다."
-}
+basic_info:
+  address: 〒603-8555 京都府京都市北区上賀茂本山
+  name_en: Kyoto Sangyo University
+  name_ja: 京都産業大学
+  website: https://www.kyoto-su.ac.jp/
+category: university
+date: '2026-01-28'
+description: 교토에 위치한 명문 사립대학교, 교토 산업대학교에 대해 알아보세요. 다양한 학부와 국제 학생 지원 프로그램 정보를 제공합니다.
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Contemporary Sociology
+- Faculty of International Relations
+- Faculty of Cultural Studies
+- Faculty of Foreign Studies
+- Faculty of Science
+- Faculty of Computer Science and Engineering
+- Faculty of Life Sciences
+- Faculty of Architecture
+features:
+- EJU Required
+- English-Taught Courses
+- Dormitory
+- Scholarship
+id: univ_kyoto-sangyo-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive, varies by faculty and entrance exam type
+  international_students: 369
+tags:
+- EJU Required
+- English-Taught Courses
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 교토 산업대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1020000
 ---
 
 ## 학교 소개

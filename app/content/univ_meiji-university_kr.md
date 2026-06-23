@@ -1,60 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都千代田区神田駿河台1-1",
-    "name_en": "Meiji University",
-    "name_ja": "明治大学",
-    "website": "https://www.meiji.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Law",
-    "School of Commerce",
-    "School of Political Science and Economics",
-    "School of Literature",
-    "School of Science and Technology",
-    "School of Agriculture",
-    "School of Business Administration",
-    "School of Information and Communication",
-    "School of Global Japanese Studies",
-    "School of Interdisciplinary Mathematical Sciences",
-    "School of Global Governance",
-    "School of Comprehensive Mathematical Sciences"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필요",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_meiji-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6986273,
-    "lng": 139.7618814
-  },
-  "stats": {
-    "acceptance_rate": "17%",
-    "international_students": 1500
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "메이지 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "메이지 대학교는 도쿄에 위치한 명문 사립 대학교입니다. 다양한 학부와 국제 학생 지원 프로그램을 제공합니다."
-}
+basic_info:
+  address: 東京都千代田区神田駿河台1-1
+  name_en: Meiji University
+  name_ja: 明治大学
+  website: https://www.meiji.ac.jp/
+category: university
+date: '2026-01-28'
+description: 메이지 대학교는 도쿄에 위치한 명문 사립 대학교입니다. 다양한 학부와 국제 학생 지원 프로그램을 제공합니다.
+faculties:
+- School of Law
+- School of Commerce
+- School of Political Science and Economics
+- School of Literature
+- School of Science and Technology
+- School of Agriculture
+- School of Business Administration
+- School of Information and Communication
+- School of Global Japanese Studies
+- School of Interdisciplinary Mathematical Sciences
+- School of Global Governance
+- School of Comprehensive Mathematical Sciences
+features:
+- SGU
+- EJU 필요
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_meiji-university
+lang: kr
+layout: school
+location:
+  lat: 35.6986273
+  lng: 139.7618814
+stats:
+  acceptance_rate: 17%
+  international_students: 1500
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 메이지 대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학교 개요

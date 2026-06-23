@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-denki-university-tdu-international-student-guide",
-  "title": "Tokyo Denki University",
-  "category": "university",
-  "tags": [
-    "Practical Skill-Based Education",
-    "Extremely High Graduate Employment Rate",
-    "Strong Ties with Industrial Sectors",
-    "State-of-the-Art Research Laboratories"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京電機大学",
-    "name_en": "Tokyo Denki University",
-    "address": "5 Senju Asahi-cho, Adachi-ku, Tokyo 120-8551, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 380,
-    "acceptance_rate": "40-50%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1280000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Systems Design and Engineering",
-    "Faculty of Future Science",
-    "Faculty of Science and Engineering",
-    "Faculty of Science and Engineering for Future Societies"
-  ],
-  "features": [
-    "Practical Skill-Based Education",
-    "Extremely High Graduate Employment Rate",
-    "Strong Ties with Industrial Sectors",
-    "State-of-the-Art Research Laboratories"
-  ]
-}
+basic_info:
+  address: 5 Senju Asahi-cho, Adachi-ku, Tokyo 120-8551, Japan
+  capacity: null
+  name_en: Tokyo Denki University
+  name_ja: 東京電機大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Engineering
+- Faculty of Systems Design and Engineering
+- Faculty of Future Science
+- Faculty of Science and Engineering
+- Faculty of Science and Engineering for Future Societies
+features:
+- Practical Skill-Based Education
+- Extremely High Graduate Employment Rate
+- Strong Ties with Industrial Sectors
+- State-of-the-Art Research Laboratories
+id: univ_tokyo-denki-university-tdu-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-50%
+  international_students: 380
+tags:
+- Practical Skill-Based Education
+- Extremely High Graduate Employment Rate
+- Strong Ties with Industrial Sectors
+- State-of-the-Art Research Laboratories
+thumbnail: /static/img/pin-univ.png
+title: Tokyo Denki University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1280000
 ---
 
 ## 🏫 University Overview: The Denki Spirit

@@ -5,6 +5,9 @@ basic_info:
   name_ja: 信州大学
   website: https://www.shinshu-u.ac.jp/
 category: university
+date: '2026-06-12'
+description: Discover Shinshu University. Get updated 2026 info on international student
+  admissions, tuition fees, scholarships, and campus life on JP Campus.
 faculties:
 - Faculty of Arts
 - Faculty of Education
@@ -25,6 +28,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
+seo_description: Discover Shinshu University. Get updated 2026 info on international
+  student admissions, tuition fees, scholarships, and campus life on JP Campus.
+seo_title: 'Shinshu University 2026: Admissions, Tuition & Guide | JP Campus'
 stats:
   acceptance_rate: 60%
   international_students: 400
@@ -39,13 +45,7 @@ translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-description: Discover Shinshu University. Get updated 2026 info on international student
-  admissions, tuition fees, scholarships, and campus life on JP Campus.
-seo_title: 'Shinshu University 2026: Admissions, Tuition & Guide | JP Campus'
-seo_description: Discover Shinshu University. Get updated 2026 info on international
-  student admissions, tuition fees, scholarships, and campus life on JP Campus.
 ---
-
 
 ## University Overview & Reputation
 

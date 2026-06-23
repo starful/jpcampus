@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tezukayama-university-nara-comprehensive-guide",
-  "title": "테즈카야마 대학교: 나라의 전통과 실무 교육이 공존하는 곳",
-  "category": "university",
-  "tags": [
-    "나라의 풍부한 역사적 입지",
-    "강력한 실무 중심 교육 및 취업 지원",
-    "최고 수준의 심리학 및 상담 프로그램",
-    "외국인 유학생을 위한 체계적인 적응 지원",
-    "오사카 및 교토와 인접한 지리적 이점"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "帝塚山大学",
-    "name_en": "Tezukayama University",
-    "address": "7-1-1 Tezukayama, Nara City, Nara Prefecture, 631-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "인문학부",
-    "법학부",
-    "경제학부",
-    "경영학부",
-    "심리학부",
-    "현대생활학부"
-  ],
-  "features": [
-    "나라의 풍부한 역사적 입지",
-    "강력한 실무 중심 교육 및 취업 지원",
-    "최고 수준의 심리학 및 상담 프로그램",
-    "외국인 유학생을 위한 체계적인 적응 지원",
-    "오사카 및 교토와 인접한 지리적 이점"
-  ],
-  "lang": "kr",
-  "description": "일본의 고도(古都) 나라에 위치한 테즈카야마 대학교는 전통적인 가치와 현대적인 실무 교육을 결합한 커리큘럼을 제공합니다. 6개의 전문 학부와 유학생을 위한 꼼꼼한 지원 시스템을 갖춘 이 대학은 일본 내 성공적인 취업을 꿈꾸는 학생들에게 최적의 선택지입니다."
-}
+basic_info:
+  address: 7-1-1 Tezukayama, Nara City, Nara Prefecture, 631-8501, Japan
+  capacity: null
+  name_en: Tezukayama University
+  name_ja: 帝塚山大学
+category: university
+date: '2026-03-15'
+description: 일본의 고도(古都) 나라에 위치한 테즈카야마 대학교는 전통적인 가치와 현대적인 실무 교육을 결합한 커리큘럼을 제공합니다. 6개의
+  전문 학부와 유학생을 위한 꼼꼼한 지원 시스템을 갖춘 이 대학은 일본 내 성공적인 취업을 꿈꾸는 학생들에게 최적의 선택지입니다.
+faculties:
+- 인문학부
+- 법학부
+- 경제학부
+- 경영학부
+- 심리학부
+- 현대생활학부
+features:
+- 나라의 풍부한 역사적 입지
+- 강력한 실무 중심 교육 및 취업 지원
+- 최고 수준의 심리학 및 상담 프로그램
+- 외국인 유학생을 위한 체계적인 적응 지원
+- 오사카 및 교토와 인접한 지리적 이점
+id: univ_tezukayama-university-nara-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 165
+tags:
+- 나라의 풍부한 역사적 입지
+- 강력한 실무 중심 교육 및 취업 지원
+- 최고 수준의 심리학 및 상담 프로그램
+- 외국인 유학생을 위한 체계적인 적응 지원
+- 오사카 및 교토와 인접한 지리적 이점
+thumbnail: /static/img/pin-univ.png
+title: '테즈카야마 대학교: 나라의 전통과 실무 교육이 공존하는 곳'
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요: 나라의 전통과 우수성을 잇는 교육의 장

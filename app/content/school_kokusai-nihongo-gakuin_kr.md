@@ -1,66 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都中央区日本橋浜町3-36-4",
-    "capacity": 180,
-    "name_en": "Kokusai Nihongo Gakuin",
-    "name_ja": "国際日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1300000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1147500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 993000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 842500
-    }
-  ],
-  "description": "국제일본어학원은 도쿄 중심부(니혼바시)에 위치한 일본어 전문 학교로, 대학 및 대학원 입학을 위한 학생 준비에 집중하고 있습니다. 맞춤형 지침 및 STEM 지원과 함께 집중적인 EJU 및 JLPT 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 집중",
-    "EJU 및 JLPT 전문 훈련",
-    "STEM(과학) 분야 지원자를 위한 탁월한 지원",
-    "프리미엄 도쿄 중심부 위치 (니혼바시)",
-    "개인 맞춤형 지도를 위한 소규모 학교 규모",
-    "체계적인 학업 커리큘럼"
-  ],
-  "id": "school_kokusai-nihongo-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6852133,
-    "lng": 139.7908609
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=91",
-  "stats": {},
-  "tags": [
-    "University Progression Focused",
-    "EJU and JLPT Specialized Training",
-    "Exceptional Support for STEM (Science) Track Applicants",
-    "Premium Central Tokyo Location (Nihonbashi)",
-    "Small School Capacity for Personalized Guidance",
-    "Highly Structured Academic Curriculum"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "국제일본어학원 (International Japanese Language Institute)",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都中央区日本橋浜町3-36-4
+  capacity: 180
+  name_en: Kokusai Nihongo Gakuin
+  name_ja: 国際日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1300000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1147500
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 993000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 842500
+date: '2026-01-28'
+description: 국제일본어학원은 도쿄 중심부(니혼바시)에 위치한 일본어 전문 학교로, 대학 및 대학원 입학을 위한 학생 준비에 집중하고 있습니다.
+  맞춤형 지침 및 STEM 지원과 함께 집중적인 EJU 및 JLPT 교육을 제공합니다.
+faculties: []
+features:
+- 대학 진학 집중
+- EJU 및 JLPT 전문 훈련
+- STEM(과학) 분야 지원자를 위한 탁월한 지원
+- 프리미엄 도쿄 중심부 위치 (니혼바시)
+- 개인 맞춤형 지도를 위한 소규모 학교 규모
+- 체계적인 학업 커리큘럼
+id: school_kokusai-nihongo-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.6852133
+  lng: 139.7908609
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=91
+stats: {}
+tags:
+- University Progression Focused
+- EJU and JLPT Specialized Training
+- Exceptional Support for STEM (Science) Track Applicants
+- Premium Central Tokyo Location (Nihonbashi)
+- Small School Capacity for Personalized Guidance
+- Highly Structured Academic Curriculum
+thumbnail: /static/img/pin-school.png
+title: 국제일본어학원 (International Japanese Language Institute)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

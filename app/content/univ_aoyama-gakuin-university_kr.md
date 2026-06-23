@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "〒150-8366 東京都渋谷区渋谷4-4-25",
-    "name_en": "Aoyama Gakuin University",
-    "name_ja": "青山学院大学",
-    "website": "https://www.aoyama.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Letters",
-    "School of Education",
-    "School of Economics",
-    "School of Law",
-    "School of Business",
-    "School of International Politics, Economics and Communication",
-    "School of Science and Engineering",
-    "School of Social Informatics",
-    "School of Global Studies and Collaboration",
-    "School of Cultural and Creative Studies"
-  ],
-  "features": [
-    "SGU 대학",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_aoyama-gakuin-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6606966,
-    "lng": 139.7103651
-  },
-  "stats": {
-    "acceptance_rate": "15%",
-    "international_students": 800
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "아오야마 가쿠인 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "도쿄 시부야 중심부에 위치한 명문 사립대학, 아오야마 가쿠인 대학에 대해 알아보세요."
-}
+basic_info:
+  address: 〒150-8366 東京都渋谷区渋谷4-4-25
+  name_en: Aoyama Gakuin University
+  name_ja: 青山学院大学
+  website: https://www.aoyama.ac.jp/
+category: university
+date: '2026-01-28'
+description: 도쿄 시부야 중심부에 위치한 명문 사립대학, 아오야마 가쿠인 대학에 대해 알아보세요.
+faculties:
+- School of Letters
+- School of Education
+- School of Economics
+- School of Law
+- School of Business
+- School of International Politics, Economics and Communication
+- School of Science and Engineering
+- School of Social Informatics
+- School of Global Studies and Collaboration
+- School of Cultural and Creative Studies
+features:
+- SGU 대학
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_aoyama-gakuin-university
+lang: kr
+layout: school
+location:
+  lat: 35.6606966
+  lng: 139.7103651
+stats:
+  acceptance_rate: 15%
+  international_students: 800
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 아오야마 가쿠인 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요 및 명성

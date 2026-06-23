@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kitami-institute-of-technology-international-student-guide",
-  "title": "Kitami Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Northernmost National Engineering University in Japan",
-    "World-Class Research in Cold Region Science and Methane Hydrates",
-    "Consistently High Employment Rate for Graduates (Near 100%)",
-    "Highly Affordable Living Costs compared to Major Japanese Cities",
-    "Strong Local Industry Ties in Agriculture and Smart Technology"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北見工業大学",
-    "name_en": "Kitami Institute of Technology",
-    "address": "165 Koen-cho, Kitami, Hokkaido 090-8507, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "35-40% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Earth, Energy and Environmental Engineering",
-    "School of Regional Innovation and Social Design Engineering",
-    "Graduate School of Engineering"
-  ],
-  "features": [
-    "Northernmost National Engineering University in Japan",
-    "World-Class Research in Cold Region Science and Methane Hydrates",
-    "Consistently High Employment Rate for Graduates (Near 100%)",
-    "Highly Affordable Living Costs compared to Major Japanese Cities",
-    "Strong Local Industry Ties in Agriculture and Smart Technology"
-  ]
-}
+basic_info:
+  address: 165 Koen-cho, Kitami, Hokkaido 090-8507, Japan
+  capacity: null
+  name_en: Kitami Institute of Technology
+  name_ja: 北見工業大学
+category: university
+date: '2026-02-13'
+faculties:
+- School of Earth, Energy and Environmental Engineering
+- School of Regional Innovation and Social Design Engineering
+- Graduate School of Engineering
+features:
+- Northernmost National Engineering University in Japan
+- World-Class Research in Cold Region Science and Methane Hydrates
+- Consistently High Employment Rate for Graduates (Near 100%)
+- Highly Affordable Living Costs compared to Major Japanese Cities
+- Strong Local Industry Ties in Agriculture and Smart Technology
+id: univ_kitami-institute-of-technology-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-40% (Estimated for International Applicants)
+  international_students: 115
+tags:
+- Northernmost National Engineering University in Japan
+- World-Class Research in Cold Region Science and Methane Hydrates
+- Consistently High Employment Rate for Graduates (Near 100%)
+- Highly Affordable Living Costs compared to Major Japanese Cities
+- Strong Local Industry Ties in Agriculture and Smart Technology
+thumbnail: /static/img/pin-univ.png
+title: Kitami Institute of Technology
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Northern Frontier of Innovation

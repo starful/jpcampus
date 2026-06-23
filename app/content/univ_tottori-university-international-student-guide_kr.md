@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tottori-university-international-student-guide",
-  "title": "[2026] 돗토리 대학교 유학 가이드: 입학 전형, 학비, 학부 | JP Campus",
-  "category": "university",
-  "tags": [
-    "World-leading Arid Land Research Center (ALRC)",
-    "Exceptionally low cost of living compared to Tokyo/Osaka",
-    "High job placement rates for engineering and agriculture graduates",
-    "Strong focus on community-integrated regional development"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鳥取大学",
-    "name_en": "Tottori University",
-    "address": "4-101 Koyama-cho Minami, Tottori-shi, Tottori 680-8550, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 242,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Regional Sciences",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "세계적인 건조지 연구 센터 (ALRC)",
-    "도쿄/오사카에 비해 현저히 낮은 생활비",
-    "공학 및 농업 졸업생의 높은 취업률",
-    "지역 사회 통합 지역 개발에 중점"
-  ],
-  "description": "돗토리 대학교 외국인 유학생 입학 가이드. 학부 및 학과 소개, 학비, 장학금 혜택, 2026년도 입시 요강 및 EJU 유학 정보를 JP Campus에서 확인하세요!",
-  "lang": "kr",
-  "seo_title": "[2026] 돗토리 대학교 유학 가이드: 입학 전형, 학비, 학부 | JP Campus",
-  "seo_description": "돗토리 대학교 외국인 유학생 입학 가이드. 학부 및 학과 소개, 학비, 장학금 혜택, 2026년도 입시 요강 및 EJU 유학 정보를 JP Campus에서 확인하세요!"
-}
+basic_info:
+  address: 4-101 Koyama-cho Minami, Tottori-shi, Tottori 680-8550, Japan
+  capacity: null
+  name_en: Tottori University
+  name_ja: 鳥取大学
+category: university
+date: '2026-06-19'
+description: 돗토리 대학교 외국인 유학생 입학 가이드. 학부 및 학과 소개, 학비, 장학금 혜택, 2026년도 입시 요강 및 EJU 유학
+  정보를 JP Campus에서 확인하세요!
+faculties:
+- Faculty of Regional Sciences
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- 세계적인 건조지 연구 센터 (ALRC)
+- 도쿄/오사카에 비해 현저히 낮은 생활비
+- 공학 및 농업 졸업생의 높은 취업률
+- 지역 사회 통합 지역 개발에 중점
+id: univ_tottori-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 돗토리 대학교 외국인 유학생 입학 가이드. 학부 및 학과 소개, 학비, 장학금 혜택, 2026년도 입시 요강 및 EJU
+  유학 정보를 JP Campus에서 확인하세요!
+seo_title: '[2026] 돗토리 대학교 유학 가이드: 입학 전형, 학비, 학부 | JP Campus'
+stats:
+  acceptance_rate: 25-30%
+  international_students: 242
+tags:
+- World-leading Arid Land Research Center (ALRC)
+- Exceptionally low cost of living compared to Tokyo/Osaka
+- High job placement rates for engineering and agriculture graduates
+- Strong focus on community-integrated regional development
+thumbnail: /static/img/pin-univ.png
+title: '[2026] 돗토리 대학교 유학 가이드: 입학 전형, 학비, 학부 | JP Campus'
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 대학교 개요
 

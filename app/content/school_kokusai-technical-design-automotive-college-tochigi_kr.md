@@ -1,56 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "栃木県小山市三峯1-10-21",
-    "capacity": 80,
-    "name_en": "Kokusai Technical Design and Automotive Vocational College (Japanese Language Department)",
-    "name_ja": "国際テクニカルデザイン・自動車専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 1040000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1340000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "통합 기술 및 어학 훈련",
-    "EJU 및 이공계 진학 집중 지원",
-    "교내 또는 제휴 기숙사 이용 가능",
-    "자동차 및 기술 디자인 분야 진출 용이",
-    "도치기현의 소규모 학교 환경",
-    "단기 연수 옵션 제공"
-  ],
-  "id": "school_kokusai-technical-design-automotive-college-tochigi",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.3046683,
-    "lng": 139.802367
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=42",
-  "stats": {},
-  "tags": [
-    "Integrated Technical and Language Training",
-    "Strong Focus on EJU and Science Track Progression",
-    "On-Campus or Affiliated Dormitory Available",
-    "Direct Pipeline to Automotive and Technical Design Careers",
-    "Boutique School Environment in Tochigi Prefecture",
-    "Short-term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "국제 테크니컬 디자인 자동차 전문학교 (일본어학과)",
-  "translated": true,
-  "tuition": {},
-  "description": "국제 테크니컬 디자인 자동차 전문학교 일본어학과는 기술 및 공학 분야 진학을 희망하는 유학생을 위한 맞춤형 일본어 교육을 제공합니다."
-}
+basic_info:
+  address: 栃木県小山市三峯1-10-21
+  capacity: 80
+  name_en: Kokusai Technical Design and Automotive Vocational College (Japanese Language
+    Department)
+  name_ja: 国際テクニカルデザイン・自動車専門学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1040000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1340000
+date: '2026-01-28'
+description: 국제 테크니컬 디자인 자동차 전문학교 일본어학과는 기술 및 공학 분야 진학을 희망하는 유학생을 위한 맞춤형 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 통합 기술 및 어학 훈련
+- EJU 및 이공계 진학 집중 지원
+- 교내 또는 제휴 기숙사 이용 가능
+- 자동차 및 기술 디자인 분야 진출 용이
+- 도치기현의 소규모 학교 환경
+- 단기 연수 옵션 제공
+id: school_kokusai-technical-design-automotive-college-tochigi
+lang: kr
+layout: school
+location:
+  lat: 36.3046683
+  lng: 139.802367
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=42
+stats: {}
+tags:
+- Integrated Technical and Language Training
+- Strong Focus on EJU and Science Track Progression
+- On-Campus or Affiliated Dormitory Available
+- Direct Pipeline to Automotive and Technical Design Careers
+- Boutique School Environment in Tochigi Prefecture
+- Short-term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: 국제 테크니컬 디자인 자동차 전문학교 (일본어학과)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

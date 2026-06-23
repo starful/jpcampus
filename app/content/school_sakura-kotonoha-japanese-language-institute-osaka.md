@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1238600
+date: '2026-01-28'
 description: A boutique Japanese language institute in Osaka offering intensive EJU
   preparation, specialized support for science and engineering students, and guaranteed
   dormitory accommodation with single room options. Known for its high student-to-teacher

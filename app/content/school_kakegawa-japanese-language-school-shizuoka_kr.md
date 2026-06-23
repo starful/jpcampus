@@ -1,53 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県掛川市南2-3-3",
-    "capacity": 120,
-    "name_en": "Kakegawa Japanese Language School (Kakegawa Nihongo Gakko)",
-    "name_ja": "掛川日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1340000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "一般2年コース",
-      "total_fees": 1340000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "EJU 및 이과 과정 집중 준비",
-    "소규모 학급 (부티크 환경)",
-    "필수 회화 능력 강조",
-    "시즈오카현의 저렴한 생활비",
-    "기숙사 입주 보장"
-  ],
-  "id": "school_kakegawa-japanese-language-school-shizuoka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7648021,
-    "lng": 138.0156149
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=602",
-  "stats": {},
-  "tags": [
-    "Specialized EJU & Science Track Preparation",
-    "Small Class Sizes (Boutique Setting)",
-    "Mandatory Conversational Fluency Emphasis",
-    "Affordable Living in Shizuoka Prefecture",
-    "Guaranteed Dormitory Placement"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "가케가와 일본어 학교 (Kakegawa Nihongo Gakko)",
-  "tuition": {},
-  "description": "시즈오카현 가케가와시에 위치한 가케가와 일본어학교는 학업 발전과 실용적인 유창성에 중점을 둔 독특한 학습 환경을 제공합니다."
-}
+basic_info:
+  address: 静岡県掛川市南2-3-3
+  capacity: 120
+  name_en: Kakegawa Japanese Language School (Kakegawa Nihongo Gakko)
+  name_ja: 掛川日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1340000
+- admission_month: '10'
+  course_name: 一般2年コース
+  total_fees: 1340000
+date: '2026-01-28'
+description: 시즈오카현 가케가와시에 위치한 가케가와 일본어학교는 학업 발전과 실용적인 유창성에 중점을 둔 독특한 학습 환경을 제공합니다.
+faculties: []
+features:
+- EJU 및 이과 과정 집중 준비
+- 소규모 학급 (부티크 환경)
+- 필수 회화 능력 강조
+- 시즈오카현의 저렴한 생활비
+- 기숙사 입주 보장
+id: school_kakegawa-japanese-language-school-shizuoka
+lang: kr
+layout: school
+location:
+  lat: 34.7648021
+  lng: 138.0156149
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=602
+stats: {}
+tags:
+- Specialized EJU & Science Track Preparation
+- Small Class Sizes (Boutique Setting)
+- Mandatory Conversational Fluency Emphasis
+- Affordable Living in Shizuoka Prefecture
+- Guaranteed Dormitory Placement
+thumbnail: /static/img/pin-school.png
+title: 가케가와 일본어 학교 (Kakegawa Nihongo Gakko)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

@@ -1,54 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県岡崎市康生通西1-1",
-    "capacity": 225,
-    "name_en": "Okazaki Japanese Language School",
-    "name_ja": "岡崎日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学コース（1年6か月）",
-      "total_fees": 950000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学コース（2年）",
-      "total_fees": 1240000
-    }
-  ],
-  "description": "오카자키 일본어 학교는 아이치현에 위치해 있으며, 전문적인 EJU 대비 및 학업 지원을 제공하여 학생들이 명문 대학 및 전문학교에 진학할 수 있도록 돕습니다. 종합적인 기숙사 옵션과 든든한 재정 지원도 제공합니다.",
-  "faculties": [],
-  "features": [
-    "높은 수준의 진학 중심 커리큘럼",
-    "특화된 EJU 및 입학 시험 대비 과정 (이과, 문과, 미술/디자인)",
-    "종합적인 학생 기숙사 관리 및 지원",
-    "든든한 장학금 및 재정 지원 기회",
-    "실용적인 회화 및 비즈니스 일본어 통합"
-  ],
-  "id": "school_okazaki-japanese-language-school-aichi",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.9581363,
-    "lng": 137.1634787
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=542",
-  "stats": {},
-  "tags": [
-    "High-Focus Academic Progression (Shin-gaku) Curriculum",
-    "Specialized EJU and Entrance Exam Preparation Tracks (Science, Humanities, Art/Design)",
-    "Comprehensive Student Dormitory Management and Support",
-    "Robust Scholarship and Financial Aid Opportunities",
-    "Strong Conversational and Business Japanese Integration"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오카자키 일본어 학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県岡崎市康生通西1-1
+  capacity: 225
+  name_en: Okazaki Japanese Language School
+  name_ja: 岡崎日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学コース（1年6か月）
+  total_fees: 950000
+- admission_month: '4'
+  course_name: 進学コース（2年）
+  total_fees: 1240000
+date: '2026-01-28'
+description: 오카자키 일본어 학교는 아이치현에 위치해 있으며, 전문적인 EJU 대비 및 학업 지원을 제공하여 학생들이 명문 대학 및 전문학교에
+  진학할 수 있도록 돕습니다. 종합적인 기숙사 옵션과 든든한 재정 지원도 제공합니다.
+faculties: []
+features:
+- 높은 수준의 진학 중심 커리큘럼
+- 특화된 EJU 및 입학 시험 대비 과정 (이과, 문과, 미술/디자인)
+- 종합적인 학생 기숙사 관리 및 지원
+- 든든한 장학금 및 재정 지원 기회
+- 실용적인 회화 및 비즈니스 일본어 통합
+id: school_okazaki-japanese-language-school-aichi
+lang: kr
+layout: school
+location:
+  lat: 34.9581363
+  lng: 137.1634787
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=542
+stats: {}
+tags:
+- High-Focus Academic Progression (Shin-gaku) Curriculum
+- Specialized EJU and Entrance Exam Preparation Tracks (Science, Humanities, Art/Design)
+- Comprehensive Student Dormitory Management and Support
+- Robust Scholarship and Financial Aid Opportunities
+- Strong Conversational and Business Japanese Integration
+thumbnail: /static/img/pin-school.png
+title: 오카자키 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kagawa-prefectural-university-of-health-sciences",
-  "title": "Kagawa Prefectural University of Health Sciences",
-  "category": "university",
-  "tags": [
-    "High National Examination Pass Rate",
-    "Regional Public University Status",
-    "Cutting-edge Clinical Simulation Center",
-    "Close-knit Student-Faculty Community",
-    "Focus on Community-Based Healthcare"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "香川県立保健医療大学",
-    "name_en": "Kagawa Prefectural University of Health Sciences",
-    "address": "281-1 Hara, Mure-cho, Takamatsu, Kagawa 761-0123, Japan",
-    "capacity": 480
-  },
-  "stats": {
-    "international_students": 2,
-    "acceptance_rate": "18%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Health Sciences",
-    "Department of Nursing",
-    "Department of Clinical Laboratory Science",
-    "Graduate School of Health Sciences"
-  ],
-  "features": [
-    "High National Examination Pass Rate",
-    "Regional Public University Status",
-    "Cutting-edge Clinical Simulation Center",
-    "Close-knit Student-Faculty Community",
-    "Focus on Community-Based Healthcare"
-  ]
-}
+basic_info:
+  address: 281-1 Hara, Mure-cho, Takamatsu, Kagawa 761-0123, Japan
+  capacity: 480
+  name_en: Kagawa Prefectural University of Health Sciences
+  name_ja: 香川県立保健医療大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Health Sciences
+- Department of Nursing
+- Department of Clinical Laboratory Science
+- Graduate School of Health Sciences
+features:
+- High National Examination Pass Rate
+- Regional Public University Status
+- Cutting-edge Clinical Simulation Center
+- Close-knit Student-Faculty Community
+- Focus on Community-Based Healthcare
+id: univ_kagawa-prefectural-university-of-health-sciences
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 18%
+  international_students: 2
+tags:
+- High National Examination Pass Rate
+- Regional Public University Status
+- Cutting-edge Clinical Simulation Center
+- Close-knit Student-Faculty Community
+- Focus on Community-Based Healthcare
+thumbnail: /static/img/pin-univ.png
+title: Kagawa Prefectural University of Health Sciences
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

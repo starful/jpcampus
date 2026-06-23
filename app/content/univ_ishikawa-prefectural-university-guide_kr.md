@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ishikawa-prefectural-university-guide",
-  "title": "이시카와현립대학",
-  "category": "university",
-  "tags": [
-    "발효 및 식품 생명공학 분야의 선도적인 연구 중심지",
-    "농업 과학 분야의 실용적이고 현장 중심적인 교육 과정",
-    "지역 이시카와 산업 및 사토야마 운동과의 강력한 연계",
-    "실습 학습을 위한 최첨단 현장 과학 센터"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "石川県立大学",
-    "name_en": "Ishikawa Prefectural University",
-    "address": "1-308 Suematsu, Nonoichi, Ishikawa 921-8836, Japan",
-    "capacity": 850
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Bioresources and Environmental Sciences",
-    "Department of Bioresource Science",
-    "Department of Food Science",
-    "Department of Environmental Science",
-    "Graduate School of Bioresource and Environmental Sciences"
-  ],
-  "features": [
-    "발효 및 식품 생명공학 분야의 선도적인 연구 중심지",
-    "농업 과학 분야의 실용적이고 현장 중심적인 교육 과정",
-    "지역 이시카와 산업 및 사토야마 운동과의 강력한 연계",
-    "실습 학습을 위한 최첨단 현장 과학 센터"
-  ],
-  "description": "발효 및 식품 생명공학 분야의 선도적인 연구 중심지인 이시카와현립대학에 대한 소개입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-308 Suematsu, Nonoichi, Ishikawa 921-8836, Japan
+  capacity: 850
+  name_en: Ishikawa Prefectural University
+  name_ja: 石川県立大学
+category: university
+date: '2026-03-03'
+description: 발효 및 식품 생명공학 분야의 선도적인 연구 중심지인 이시카와현립대학에 대한 소개입니다.
+faculties:
+- Faculty of Bioresources and Environmental Sciences
+- Department of Bioresource Science
+- Department of Food Science
+- Department of Environmental Science
+- Graduate School of Bioresource and Environmental Sciences
+features:
+- 발효 및 식품 생명공학 분야의 선도적인 연구 중심지
+- 농업 과학 분야의 실용적이고 현장 중심적인 교육 과정
+- 지역 이시카와 산업 및 사토야마 운동과의 강력한 연계
+- 실습 학습을 위한 최첨단 현장 과학 센터
+id: univ_ishikawa-prefectural-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 15
+tags:
+- 발효 및 식품 생명공학 분야의 선도적인 연구 중심지
+- 농업 과학 분야의 실용적이고 현장 중심적인 교육 과정
+- 지역 이시카와 산업 및 사토야마 운동과의 강력한 연계
+- 실습 학습을 위한 최첨단 현장 과학 센터
+thumbnail: /static/img/pin-univ.png
+title: 이시카와현립대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 바이오 혁신을 위한 전문 허브

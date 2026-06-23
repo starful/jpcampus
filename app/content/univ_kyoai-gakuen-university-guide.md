@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoai-gakuen-university-guide",
-  "title": "Kyoai Gakuen University",
-  "category": "university",
-  "tags": [
-    "Glocal Leader Development",
-    "Highly Personalized Career Support",
-    "Interdisciplinary Curriculum",
-    "Strong Regional Community Ties"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "共愛学園前橋国際大学",
-    "name_en": "Kyoai Gakuen University",
-    "address": "1154-4 Koya-machi, Maebashi, Gunma 379-2192, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 135,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of International Studies",
-    "English Studies Course",
-    "International Studies Course",
-    "Business Management Course",
-    "Information and Media Course",
-    "Psychology and Social Studies Course"
-  ],
-  "features": [
-    "Glocal Leader Development",
-    "Highly Personalized Career Support",
-    "Interdisciplinary Curriculum",
-    "Strong Regional Community Ties"
-  ]
-}
+basic_info:
+  address: 1154-4 Koya-machi, Maebashi, Gunma 379-2192, Japan
+  capacity: 1200
+  name_en: Kyoai Gakuen University
+  name_ja: 共愛学園前橋国際大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of International Studies
+- English Studies Course
+- International Studies Course
+- Business Management Course
+- Information and Media Course
+- Psychology and Social Studies Course
+features:
+- Glocal Leader Development
+- Highly Personalized Career Support
+- Interdisciplinary Curriculum
+- Strong Regional Community Ties
+id: univ_kyoai-gakuen-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 135
+tags:
+- Glocal Leader Development
+- Highly Personalized Career Support
+- Interdisciplinary Curriculum
+- Strong Regional Community Ties
+thumbnail: /static/img/pin-univ.png
+title: Kyoai Gakuen University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview: The 'Glocal' Pioneer

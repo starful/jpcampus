@@ -1,54 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_otaru-university-of-commerce-guide",
-  "title": "Otaru University of Commerce: 2026 Guide for International Students",
-  "category": "university",
-  "tags": [
-    "Japan's only national university specializing in commerce",
-    "Historical legacy since 1910",
-    "Exceptional graduate employment rates",
-    "Scenic campus overlooking the Sea of Japan"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "小樽商科大学",
-    "name_en": "Otaru University of Commerce",
-    "address": "3-5-21 Midori, Otaru, Hokkaido 047-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "22-28%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Commerce",
-    "Department of Economics",
-    "Department of Commerce",
-    "Department of Law",
-    "Department of Information and Management Science"
-  ],
-  "features": [
-    "Japan's only national university specializing in commerce",
-    "Historical legacy since 1910",
-    "Exceptional graduate employment rates",
-    "Scenic campus overlooking the Sea of Japan"
-  ],
-  "description": "Planning to study at Otaru University of Commerce? Find the latest 2026 info on admissions, tuition fees, scholarships, and student life in Japan.",
-  "seo_title": "Otaru University of Commerce 2026: Admission & Fees Guide",
-  "seo_description": "Planning to study at Otaru University of Commerce? Find the latest 2026 info on admissions, tuition fees, scholarships, and student life in Japan."
-}
+basic_info:
+  address: 3-5-21 Midori, Otaru, Hokkaido 047-8501, Japan
+  capacity: null
+  name_en: Otaru University of Commerce
+  name_ja: 小樽商科大学
+category: university
+date: '2026-06-19'
+description: Planning to study at Otaru University of Commerce? Find the latest 2026
+  info on admissions, tuition fees, scholarships, and student life in Japan.
+faculties:
+- Faculty of Commerce
+- Department of Economics
+- Department of Commerce
+- Department of Law
+- Department of Information and Management Science
+features:
+- Japan's only national university specializing in commerce
+- Historical legacy since 1910
+- Exceptional graduate employment rates
+- Scenic campus overlooking the Sea of Japan
+id: univ_otaru-university-of-commerce-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Planning to study at Otaru University of Commerce? Find the latest
+  2026 info on admissions, tuition fees, scholarships, and student life in Japan.
+seo_title: 'Otaru University of Commerce 2026: Admission & Fees Guide'
+stats:
+  acceptance_rate: 22-28%
+  international_students: 115
+tags:
+- Japan's only national university specializing in commerce
+- Historical legacy since 1910
+- Exceptional graduate employment rates
+- Scenic campus overlooking the Sea of Japan
+thumbnail: /static/img/pin-univ.png
+title: 'Otaru University of Commerce: 2026 Guide for International Students'
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
-
 
 ## 🏫 University Overview
 

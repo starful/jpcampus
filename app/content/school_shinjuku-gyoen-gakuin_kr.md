@@ -1,65 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区新宿2-3-13",
-    "capacity": 174,
-    "name_en": "Shinjuku Gyoen Gakuin",
-    "name_ja": "新宿御苑学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "一月期生",
-      "total_fees": 966000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "四月期生",
-      "total_fees": 1482000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "七月期生",
-      "total_fees": 1327000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "十月期生",
-      "total_fees": 1146000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학",
-    "소규모 학급",
-    "기숙사 이용 가능",
-    "EJU 시험 대비"
-  ],
-  "id": "school_shinjuku-gyoen-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.68910839999999,
-    "lng": 139.7081169
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=103",
-  "stats": {
-    "capacity": 174,
-    "international_students": 0
-  },
-  "tags": [
-    "University Advancement",
-    "Small Class Sizes",
-    "Dormitory Available",
-    "EJU Preparation"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "신주쿠 교엔 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "활기 넘치는 신주쿠에 위치한 신주쿠 교엔 학원은 대학 진학을 목표로 하는 학생들에게 최적의 일본어 교육을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区新宿2-3-13
+  capacity: 174
+  name_en: Shinjuku Gyoen Gakuin
+  name_ja: 新宿御苑学院
+category: school
+courses:
+- admission_month: '1'
+  course_name: 一月期生
+  total_fees: 966000
+- admission_month: '4'
+  course_name: 四月期生
+  total_fees: 1482000
+- admission_month: '7'
+  course_name: 七月期生
+  total_fees: 1327000
+- admission_month: '10'
+  course_name: 十月期生
+  total_fees: 1146000
+date: '2026-01-28'
+description: 활기 넘치는 신주쿠에 위치한 신주쿠 교엔 학원은 대학 진학을 목표로 하는 학생들에게 최적의 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 대학 진학
+- 소규모 학급
+- 기숙사 이용 가능
+- EJU 시험 대비
+id: school_shinjuku-gyoen-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.68910839999999
+  lng: 139.7081169
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=103
+stats:
+  capacity: 174
+  international_students: 0
+tags:
+- University Advancement
+- Small Class Sizes
+- Dormitory Available
+- EJU Preparation
+thumbnail: /static/img/pin-school.png
+title: 신주쿠 교엔 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

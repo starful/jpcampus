@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-womans-christian-university-guide",
-  "title": "도쿄 여자 대학교 (Tokyo Woman's Christian University)",
-  "category": "university",
-  "tags": [
-    "Historical Liberal Arts Tradition",
-    "Antonin Raymond Campus Architecture",
-    "EJU and JLPT Required for International Students",
-    "Strong Career Support for Women",
-    "Proximity to Kichijoji (Voted Best Neighborhood)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京女子大学",
-    "name_en": "Tokyo Woman's Christian University",
-    "address": "2-6-1 Zempukuji, Suginami-ku, Tokyo 167-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 75,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Arts and Science"
-  ],
-  "features": [
-    "역사 깊은 리버럴 아츠 전통",
-    "안톤 레이몬드의 캠퍼스 건축",
-    "유학생을 위한 EJU 및 JLPT 필수",
-    "여성을 위한 강력한 취업 지원",
-    "기치조지 인접 (최고의 동네로 선정)"
-  ],
-  "lang": "kr",
-  "description": "도쿄 여자 대학교 (Tokyo Woman's Christian University)는 일본의 명문 사립 여자 대학교 중 하나입니다. 유학생을 위한 다양한 지원과 독특한 교육 모델을 제공합니다."
-}
+basic_info:
+  address: 2-6-1 Zempukuji, Suginami-ku, Tokyo 167-8585, Japan
+  capacity: null
+  name_en: Tokyo Woman's Christian University
+  name_ja: 東京女子大学
+category: university
+date: '2026-02-13'
+description: 도쿄 여자 대학교 (Tokyo Woman's Christian University)는 일본의 명문 사립 여자 대학교 중 하나입니다.
+  유학생을 위한 다양한 지원과 독특한 교육 모델을 제공합니다.
+faculties:
+- Faculty of Arts and Science
+features:
+- 역사 깊은 리버럴 아츠 전통
+- 안톤 레이몬드의 캠퍼스 건축
+- 유학생을 위한 EJU 및 JLPT 필수
+- 여성을 위한 강력한 취업 지원
+- 기치조지 인접 (최고의 동네로 선정)
+id: univ_tokyo-womans-christian-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 75
+tags:
+- Historical Liberal Arts Tradition
+- Antonin Raymond Campus Architecture
+- EJU and JLPT Required for International Students
+- Strong Career Support for Women
+- Proximity to Kichijoji (Voted Best Neighborhood)
+thumbnail: /static/img/pin-univ.png
+title: 도쿄 여자 대학교 (Tokyo Woman's Christian University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학교 개요

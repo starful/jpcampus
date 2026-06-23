@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sakushin-gakuin-university-guide",
-  "title": "Sakushin Gakuin University",
-  "category": "university",
-  "tags": [
-    "Strong Regional Business Networks",
-    "Advanced Psychological Research Facilities",
-    "Inclusive Small-Class Teaching Model",
-    "Comprehensive Career Support for International Graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "作新学院大学",
-    "name_en": "Sakushin Gakuin University",
-    "address": "908 Takebayashimachi, Utsunomiya, Tochigi 321-3236, Japan",
-    "capacity": 1500
-  },
-  "stats": {
-    "international_students": 68,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Human Culture",
-    "Graduate School of Management",
-    "Graduate School of Psychology"
-  ],
-  "features": [
-    "Strong Regional Business Networks",
-    "Advanced Psychological Research Facilities",
-    "Inclusive Small-Class Teaching Model",
-    "Comprehensive Career Support for International Graduates"
-  ]
-}
+basic_info:
+  address: 908 Takebayashimachi, Utsunomiya, Tochigi 321-3236, Japan
+  capacity: 1500
+  name_en: Sakushin Gakuin University
+  name_ja: 作新学院大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Management
+- Faculty of Human Culture
+- Graduate School of Management
+- Graduate School of Psychology
+features:
+- Strong Regional Business Networks
+- Advanced Psychological Research Facilities
+- Inclusive Small-Class Teaching Model
+- Comprehensive Career Support for International Graduates
+id: univ_sakushin-gakuin-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 68
+tags:
+- Strong Regional Business Networks
+- Advanced Psychological Research Facilities
+- Inclusive Small-Class Teaching Model
+- Comprehensive Career Support for International Graduates
+thumbnail: /static/img/pin-univ.png
+title: Sakushin Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview: The Spirit of Sakushin

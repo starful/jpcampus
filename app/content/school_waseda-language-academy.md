@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学課程1年3か月コース
   total_fees: 997700
+date: '2026-01-28'
 faculties: []
 features:
 - 'Primary mission: High-level academic advancement (University/Graduate School entry)'

@@ -5,6 +5,7 @@ basic_info:
   name_ja: 名古屋大学
   website: https://www.nagoya-u.ac.jp/
 category: school
+date: '2026-01-28'
 description: Nagoya University is a leading national university in Japan, renowned
   for its research and academic excellence. It offers a wide range of programs and
   support services for international students.

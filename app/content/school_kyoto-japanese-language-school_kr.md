@@ -1,60 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市上京区一条通新町東入ル東日野殿町394番地の2",
-    "capacity": 130,
-    "name_en": "Kyoto Japanese Language School",
-    "name_ja": "京都日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "インテンシブ2年コース",
-      "total_fees": 1668800
-    },
-    {
-      "admission_month": "10",
-      "course_name": "インテンシブ1.5年コース",
-      "total_fees": 1273600
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "대학 진학",
-    "회화 중심",
-    "미술 코스",
-    "디자인 코스",
-    "과학 코스"
-  ],
-  "id": "school_kyoto-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.02638,
-    "lng": 135.7576702
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=310",
-  "stats": {
-    "capacity": 130,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Admission",
-    "Conversation Focused",
-    "Art Courses",
-    "Design Courses",
-    "Science Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "교토 일본어 학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 京都府京都市上京区一条通新町東入ル東日野殿町394番地の2
+  capacity: 130
+  name_en: Kyoto Japanese Language School
+  name_ja: 京都日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: インテンシブ2年コース
+  total_fees: 1668800
+- admission_month: '10'
+  course_name: インテンシブ1.5年コース
+  total_fees: 1273600
+date: '2026-01-28'
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 대학 진학
+- 회화 중심
+- 미술 코스
+- 디자인 코스
+- 과학 코스
+id: school_kyoto-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.02638
+  lng: 135.7576702
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=310
+stats:
+  capacity: 130
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Admission
+- Conversation Focused
+- Art Courses
+- Design Courses
+- Science Courses
+thumbnail: /static/img/pin-school.png
+title: 교토 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

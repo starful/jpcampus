@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_dokkyo-university-international-students-guide",
-  "title": "독쿄대학교",
-  "category": "university",
-  "tags": [
-    "명문 '언어 대학'으로서의 위상",
-    "Intercultural Collaboration Zone (ICZ) 운영",
-    "독일 및 유럽 연구에 대한 강력한 집중",
-    "도쿄 근교의 편리한 소카 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "獨協大学",
-    "name_en": "Dokkyo University",
-    "address": "1-1 Gakuen-cho, Soka-shi, Saitama 340-0042, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 880000
-  },
-  "faculties": [
-    "외국어학부",
-    "국제교양학부",
-    "경제학부",
-    "법학부"
-  ],
-  "features": [
-    "명문 '언어 대학'으로서의 위상",
-    "Intercultural Collaboration Zone (ICZ) 운영",
-    "독일 및 유럽 연구에 대한 강력한 집중",
-    "도쿄 근교의 편리한 소카 캠퍼스"
-  ],
-  "description": "사이타마현 소카시에 위치한 독쿄대학교는 언어 교육 및 국제 연구 분야에서 일본 최고의 사립 대학 중 하나로 널리 알려져 있습니다. 국제 학생들을 위한 다양한 지원 시스템과 독특한 학습 환경을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Gakuen-cho, Soka-shi, Saitama 340-0042, Japan
+  capacity: null
+  name_en: Dokkyo University
+  name_ja: 獨協大学
+category: university
+date: '2026-02-13'
+description: 사이타마현 소카시에 위치한 독쿄대학교는 언어 교육 및 국제 연구 분야에서 일본 최고의 사립 대학 중 하나로 널리 알려져 있습니다.
+  국제 학생들을 위한 다양한 지원 시스템과 독특한 학습 환경을 제공합니다.
+faculties:
+- 외국어학부
+- 국제교양학부
+- 경제학부
+- 법학부
+features:
+- 명문 '언어 대학'으로서의 위상
+- Intercultural Collaboration Zone (ICZ) 운영
+- 독일 및 유럽 연구에 대한 강력한 집중
+- 도쿄 근교의 편리한 소카 캠퍼스
+id: univ_dokkyo-university-international-students-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 185
+tags:
+- 명문 '언어 대학'으로서의 위상
+- Intercultural Collaboration Zone (ICZ) 운영
+- 독일 및 유럽 연구에 대한 강력한 집중
+- 도쿄 근교의 편리한 소카 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 독쿄대학교
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 880000
 ---
 
 ## 🏫 학교 개요

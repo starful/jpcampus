@@ -1,55 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-hyogo-comprehensive-guide",
-  "title": "효고현립대학교 (University of Hyogo)",
-  "category": "university",
-  "tags": [
-    "국립대학교의 명성",
-    "다양한 멀티 캠퍼스 시스템",
-    "영어 진행 글로벌 비즈니스 코스 (GBC)",
-    "전략적인 산학 협력",
-    "세계적인 연구 시설 (SPring-8) 근접"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "兵庫県立大学",
-    "name_en": "University of Hyogo",
-    "address": "8-2-1 Gakuen-nishi-machi, Nishi-ku, Kobe-shi, Hyogo 651-2197, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 382,
-    "acceptance_rate": "20-30% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Economics",
-    "School of Business Administration",
-    "School of Engineering",
-    "School of Science",
-    "School of Nursing Art and Science",
-    "School of Human Science and Environment",
-    "School of Social Information Science",
-    "School of Global Business"
-  ],
-  "features": [
-    "국립대학교의 명성",
-    "다양한 멀티 캠퍼스 시스템",
-    "영어 진행 글로벌 비즈니스 코스 (GBC)",
-    "전략적인 산학 협력",
-    "세계적인 연구 시설 (SPring-8) 근접"
-  ],
-  "description": "효고현립대학교는 고베 상과대학, 히메지 공업대학, 효고 간호 예술 과학 대학의 통합으로 설립된 명문 공립 대학입니다. 영어로 진행되는 GBC 과정과 다양한 캠퍼스, 뛰어난 연구 시설을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 8-2-1 Gakuen-nishi-machi, Nishi-ku, Kobe-shi, Hyogo 651-2197, Japan
+  capacity: null
+  name_en: University of Hyogo
+  name_ja: 兵庫県立大学
+category: university
+date: '2026-03-03'
+description: 효고현립대학교는 고베 상과대학, 히메지 공업대학, 효고 간호 예술 과학 대학의 통합으로 설립된 명문 공립 대학입니다. 영어로
+  진행되는 GBC 과정과 다양한 캠퍼스, 뛰어난 연구 시설을 자랑합니다.
+faculties:
+- School of Economics
+- School of Business Administration
+- School of Engineering
+- School of Science
+- School of Nursing Art and Science
+- School of Human Science and Environment
+- School of Social Information Science
+- School of Global Business
+features:
+- 국립대학교의 명성
+- 다양한 멀티 캠퍼스 시스템
+- 영어 진행 글로벌 비즈니스 코스 (GBC)
+- 전략적인 산학 협력
+- 세계적인 연구 시설 (SPring-8) 근접
+id: univ_university-of-hyogo-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20-30% (Estimated)
+  international_students: 382
+tags:
+- 국립대학교의 명성
+- 다양한 멀티 캠퍼스 시스템
+- 영어 진행 글로벌 비즈니스 코스 (GBC)
+- 전략적인 산학 협력
+- 세계적인 연구 시설 (SPring-8) 근접
+thumbnail: /static/img/pin-univ.png
+title: 효고현립대학교 (University of Hyogo)
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요

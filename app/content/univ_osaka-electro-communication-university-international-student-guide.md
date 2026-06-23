@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-electro-communication-university-international-student-guide",
-  "title": "Osaka Electro-Communication University",
-  "category": "university",
-  "tags": [
-    "Pioneer in Game Industry Education",
-    "Practical Hands-on Technical Training",
-    "High Graduate Employment Rate in Manufacturing",
-    "Cutting-edge Electronic Research Facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪電気通信大学",
-    "name_en": "Osaka Electro-Communication University",
-    "address": "18-8 Hatsucho, Neyagawa, Osaka 572-8530, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 342,
-    "acceptance_rate": "45-60% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1280000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Information Science and Arts",
-    "Faculty of Medical Science",
-    "Faculty of Digital Games",
-    "Faculty of Health Science",
-    "Faculty of Asset Management"
-  ],
-  "features": [
-    "Pioneer in Game Industry Education",
-    "Practical Hands-on Technical Training",
-    "High Graduate Employment Rate in Manufacturing",
-    "Cutting-edge Electronic Research Facilities"
-  ]
-}
+basic_info:
+  address: 18-8 Hatsucho, Neyagawa, Osaka 572-8530, Japan
+  capacity: null
+  name_en: Osaka Electro-Communication University
+  name_ja: 大阪電気通信大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Engineering
+- Faculty of Information Science and Arts
+- Faculty of Medical Science
+- Faculty of Digital Games
+- Faculty of Health Science
+- Faculty of Asset Management
+features:
+- Pioneer in Game Industry Education
+- Practical Hands-on Technical Training
+- High Graduate Employment Rate in Manufacturing
+- Cutting-edge Electronic Research Facilities
+id: univ_osaka-electro-communication-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-60% (Estimated)
+  international_students: 342
+tags:
+- Pioneer in Game Industry Education
+- Practical Hands-on Technical Training
+- High Graduate Employment Rate in Manufacturing
+- Cutting-edge Electronic Research Facilities
+thumbnail: /static/img/pin-univ.png
+title: Osaka Electro-Communication University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1280000
 ---
 
 ## 🏫 University Overview

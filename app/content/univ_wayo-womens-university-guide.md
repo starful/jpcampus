@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_wayo-womens-university-guide",
-  "title": "Wayo Women's University",
-  "category": "university",
-  "tags": [
-    "Historical legacy since 1897",
-    "Strong focus on practical skills and women's independence",
-    "Excellent proximity to Tokyo (20 mins to central Tokyo)",
-    "High employment rate for female graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "和洋女子大学",
-    "name_en": "Wayo Women's University",
-    "address": "2-3-1 Konodai, Ichikawa, Chiba 272-8533, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 85,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Global Studies",
-    "Faculty of Human Ecology",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Historical legacy since 1897",
-    "Strong focus on practical skills and women's independence",
-    "Excellent proximity to Tokyo (20 mins to central Tokyo)",
-    "High employment rate for female graduates"
-  ]
-}
+basic_info:
+  address: 2-3-1 Konodai, Ichikawa, Chiba 272-8533, Japan
+  capacity: 2500
+  name_en: Wayo Women's University
+  name_ja: 和洋女子大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Humanities
+- Faculty of Global Studies
+- Faculty of Human Ecology
+- Faculty of Nursing
+features:
+- Historical legacy since 1897
+- Strong focus on practical skills and women's independence
+- Excellent proximity to Tokyo (20 mins to central Tokyo)
+- High employment rate for female graduates
+id: univ_wayo-womens-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 85
+tags:
+- Historical legacy since 1897
+- Strong focus on practical skills and women's independence
+- Excellent proximity to Tokyo (20 mins to central Tokyo)
+- High employment rate for female graduates
+thumbnail: /static/img/pin-univ.png
+title: Wayo Women's University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

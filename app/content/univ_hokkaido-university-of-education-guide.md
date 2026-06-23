@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hokkaido-university-of-education-guide",
-  "title": "Hokkaido University of Education",
-  "category": "university",
-  "tags": [
-    "Unique Five-Campus System across Hokkaido",
-    "Top-tier Teacher Training and Certification",
-    "Specialized Faculty for International Regional Studies in Hakodate",
-    "Affordable National University Tuition Rates",
-    "Extensive Support for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北海道教育大学",
-    "name_en": "Hokkaido University of Education",
-    "address": "5-3-1 Ainosato, Kita-ku, Sapporo, Hokkaido 002-8501, Japan",
-    "capacity": "5,500 students"
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "22-28% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education (Sapporo Campus)",
-    "Faculty of Education (Asahikawa Campus)",
-    "Faculty of Education (Kushiro Campus)",
-    "Faculty of International Regional Studies (Hakodate Campus)",
-    "Faculty of Arts and Sports (Iwamizawa Campus)"
-  ],
-  "features": [
-    "Unique Five-Campus System across Hokkaido",
-    "Top-tier Teacher Training and Certification",
-    "Specialized Faculty for International Regional Studies in Hakodate",
-    "Affordable National University Tuition Rates",
-    "Extensive Support for International Students"
-  ]
-}
+basic_info:
+  address: 5-3-1 Ainosato, Kita-ku, Sapporo, Hokkaido 002-8501, Japan
+  capacity: 5,500 students
+  name_en: Hokkaido University of Education
+  name_ja: 北海道教育大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Education (Sapporo Campus)
+- Faculty of Education (Asahikawa Campus)
+- Faculty of Education (Kushiro Campus)
+- Faculty of International Regional Studies (Hakodate Campus)
+- Faculty of Arts and Sports (Iwamizawa Campus)
+features:
+- Unique Five-Campus System across Hokkaido
+- Top-tier Teacher Training and Certification
+- Specialized Faculty for International Regional Studies in Hakodate
+- Affordable National University Tuition Rates
+- Extensive Support for International Students
+id: univ_hokkaido-university-of-education-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22-28% (Estimated)
+  international_students: 185
+tags:
+- Unique Five-Campus System across Hokkaido
+- Top-tier Teacher Training and Certification
+- Specialized Faculty for International Regional Studies in Hakodate
+- Affordable National University Tuition Rates
+- Extensive Support for International Students
+thumbnail: /static/img/pin-univ.png
+title: Hokkaido University of Education
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

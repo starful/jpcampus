@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-nagasaki-guide",
-  "title": "나가사키 현립 대학교",
-  "category": "university",
-  "tags": [
-    "일본 최초의 정보 보안 학과",
-    "듀얼 캠퍼스 전략 (사세보 및 나가요)",
-    "강력한 지역 산업 파트너십",
-    "포괄적인 학비 감면 프로그램"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "長崎県立大学",
-    "name_en": "University of Nagasaki",
-    "address": "123 Kawashimo-cho, Sasebo, Nagasaki 858-8580, Japan (Sasebo Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 92,
-    "acceptance_rate": "Estimated 35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Regional Creation",
-    "Faculty of International Relations",
-    "Faculty of Information Policy",
-    "Faculty of Nursing and Nutrition"
-  ],
-  "features": [
-    "일본 최초의 정보 보안 학과",
-    "듀얼 캠퍼스 전략 (사세보 및 나가요)",
-    "강력한 지역 산업 파트너십",
-    "포괄적인 학비 감면 프로그램"
-  ],
-  "description": "나가사키 현립 대학교는 아름답고 역사적인 나가사키현에 위치한 명문 공립 대학입니다. 실용적인 교육과 지역 혁신의 중심지로, 국제 학생들에게 특별한 기회를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 123 Kawashimo-cho, Sasebo, Nagasaki 858-8580, Japan (Sasebo Campus)
+  capacity: null
+  name_en: University of Nagasaki
+  name_ja: 長崎県立大学
+category: university
+date: '2026-03-03'
+description: 나가사키 현립 대학교는 아름답고 역사적인 나가사키현에 위치한 명문 공립 대학입니다. 실용적인 교육과 지역 혁신의 중심지로,
+  국제 학생들에게 특별한 기회를 제공합니다.
+faculties:
+- Faculty of Management
+- Faculty of Regional Creation
+- Faculty of International Relations
+- Faculty of Information Policy
+- Faculty of Nursing and Nutrition
+features:
+- 일본 최초의 정보 보안 학과
+- 듀얼 캠퍼스 전략 (사세보 및 나가요)
+- 강력한 지역 산업 파트너십
+- 포괄적인 학비 감면 프로그램
+id: univ_university-of-nagasaki-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 35%
+  international_students: 92
+tags:
+- 일본 최초의 정보 보안 학과
+- 듀얼 캠퍼스 전략 (사세보 및 나가요)
+- 강력한 지역 산업 파트너십
+- 포괄적인 학비 감면 프로그램
+thumbnail: /static/img/pin-univ.png
+title: 나가사키 현립 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요

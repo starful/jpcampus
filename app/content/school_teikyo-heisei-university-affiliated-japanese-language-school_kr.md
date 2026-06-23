@@ -1,53 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都豊島区東池袋4-26-10",
-    "capacity": 100,
-    "id": "school_teikyo-heisei-university-affiliated-japanese-language-school",
-    "name_en": "Teikyo Heisei University Affiliated Japanese Language School",
-    "name_ja": "帝京平成大学附属日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "University Preparatory 1.5-Year Course",
-      "total_fees": 1180000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "University Preparatory 2-Year Course",
-      "total_fees": 1550000
-    }
-  ],
-  "description": "도쿄에 위치한 테이쿄 헤이세이 대학 부속 일본어학교는 일본, 특히 이공계 분야의 고등 교육을 준비하는 학생들에게 종합적인 일본어 교육을 제공합니다. EJU 시험 준비에 중점을 두고 있으며, 학생들에게 든든한 학습 환경을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "고등 교육 준비",
-    "EJU 시험 준비",
-    "이공계 코스 집중"
-  ],
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.728589,
-    "lng": 139.7181449
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=563",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Preparation for Higher Education",
-    "EJU Preparation",
-    "Science Course Focus"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "테이쿄 헤이세이 대학 부속 일본어학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都豊島区東池袋4-26-10
+  capacity: 100
+  id: school_teikyo-heisei-university-affiliated-japanese-language-school
+  name_en: Teikyo Heisei University Affiliated Japanese Language School
+  name_ja: 帝京平成大学附属日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: University Preparatory 1.5-Year Course
+  total_fees: 1180000
+- admission_month: '4'
+  course_name: University Preparatory 2-Year Course
+  total_fees: 1550000
+date: '2026-01-28'
+description: 도쿄에 위치한 테이쿄 헤이세이 대학 부속 일본어학교는 일본, 특히 이공계 분야의 고등 교육을 준비하는 학생들에게 종합적인 일본어
+  교육을 제공합니다. EJU 시험 준비에 중점을 두고 있으며, 학생들에게 든든한 학습 환경을 제공합니다.
+faculties: []
+features:
+- 고등 교육 준비
+- EJU 시험 준비
+- 이공계 코스 집중
+lang: kr
+layout: school
+location:
+  lat: 35.728589
+  lng: 139.7181449
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=563
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Preparation for Higher Education
+- EJU Preparation
+- Science Course Focus
+thumbnail: /static/img/pin-school.png
+title: 테이쿄 헤이세이 대학 부속 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

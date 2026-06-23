@@ -1,65 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区高田馬場2-9-7",
-    "capacity": 720,
-    "name_en": "Shinjuku Japanese Language Institute (SNG)",
-    "name_ja": "新宿日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "Japanese Language Course 1",
-      "total_fees": 825000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "Japanese Language Course 2",
-      "total_fees": 1205000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "Japanese Language Course 3",
-      "total_fees": 1570000
-    },
-    {
-      "admission_month": "1,7",
-      "course_name": "Japanese Language Course 4",
-      "total_fees": 825000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 또는 제휴 숙소 옵션 제공",
-    "EJU(일본유학시험) 집중 대비 과정",
-    "대학 및 대학원 진학에 강점",
-    "도쿄의 주요 학생 지구인 다카다노바바에 위치"
-  ],
-  "id": "school_shinjuku-japanese-language-institute",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.712533,
-    "lng": 139.7079775
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=132",
-  "stats": {
-    "capacity": 720,
-    "international_students": 650
-  },
-  "tags": [
-    "On-campus/Affiliated Dormitory Options Available",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation Tracks",
-    "Strong Focus on University and Graduate School Progression",
-    "Located in Takadanobaba, Tokyo's Major Student District"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "신주쿠 일본어 학교 (SNG)",
-  "translated": true,
-  "tuition": {},
-  "description": "신주쿠 일본어 학교 (SNG)는 도쿄의 활기 넘치는 학생 지구에 위치한 명성 높은 일본어 교육 기관입니다. 대학 및 대학원 진학을 위한 체계적인 커리큘럼과 다양한 학생 지원 서비스를 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区高田馬場2-9-7
+  capacity: 720
+  name_en: Shinjuku Japanese Language Institute (SNG)
+  name_ja: 新宿日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: Japanese Language Course 1
+  total_fees: 825000
+- admission_month: '10'
+  course_name: Japanese Language Course 2
+  total_fees: 1205000
+- admission_month: '4'
+  course_name: Japanese Language Course 3
+  total_fees: 1570000
+- admission_month: 1,7
+  course_name: Japanese Language Course 4
+  total_fees: 825000
+date: '2026-01-28'
+description: 신주쿠 일본어 학교 (SNG)는 도쿄의 활기 넘치는 학생 지구에 위치한 명성 높은 일본어 교육 기관입니다. 대학 및 대학원
+  진학을 위한 체계적인 커리큘럼과 다양한 학생 지원 서비스를 제공합니다.
+faculties: []
+features:
+- 기숙사 또는 제휴 숙소 옵션 제공
+- EJU(일본유학시험) 집중 대비 과정
+- 대학 및 대학원 진학에 강점
+- 도쿄의 주요 학생 지구인 다카다노바바에 위치
+id: school_shinjuku-japanese-language-institute
+lang: kr
+layout: school
+location:
+  lat: 35.712533
+  lng: 139.7079775
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=132
+stats:
+  capacity: 720
+  international_students: 650
+tags:
+- On-campus/Affiliated Dormitory Options Available
+- Specialized EJU (Examination for Japanese University Admission) Preparation Tracks
+- Strong Focus on University and Graduate School Progression
+- Located in Takadanobaba, Tokyo's Major Student District
+thumbnail: /static/img/pin-school.png
+title: 신주쿠 일본어 학교 (SNG)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

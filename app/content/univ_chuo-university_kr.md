@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "〒192-0393 東京都八王子市東中野742-1",
-    "name_en": "Chuo University",
-    "name_ja": "中央大学",
-    "website": "https://www.chuo-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Commerce",
-    "Faculty of Letters",
-    "Faculty of Science and Engineering",
-    "Faculty of Policy Studies",
-    "Faculty of Global Informatics",
-    "Faculty of Global Management",
-    "Faculty of International Management",
-    "Law School"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금",
-    "취업 지원"
-  ],
-  "id": "univ_chuo-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6421784,
-    "lng": 139.4045451
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 1200
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Career Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "주오대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1300000
-  },
-  "description": "일본 도쿄에 위치한 명문 사립 연구 대학, 주오대학교에 대해 알아보세요. 법학, 경제학 등 다양한 분야에서 뛰어난 교육을 제공합니다."
-}
+basic_info:
+  address: 〒192-0393 東京都八王子市東中野742-1
+  name_en: Chuo University
+  name_ja: 中央大学
+  website: https://www.chuo-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 일본 도쿄에 위치한 명문 사립 연구 대학, 주오대학교에 대해 알아보세요. 법학, 경제학 등 다양한 분야에서 뛰어난 교육을 제공합니다.
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Commerce
+- Faculty of Letters
+- Faculty of Science and Engineering
+- Faculty of Policy Studies
+- Faculty of Global Informatics
+- Faculty of Global Management
+- Faculty of International Management
+- Law School
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+- 취업 지원
+id: univ_chuo-university
+lang: kr
+layout: school
+location:
+  lat: 35.6421784
+  lng: 139.4045451
+stats:
+  acceptance_rate: 25%
+  international_students: 1200
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Career Support
+thumbnail: /static/img/pin-univ.png
+title: 주오대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1300000
 ---
 
 ## 학교 개요

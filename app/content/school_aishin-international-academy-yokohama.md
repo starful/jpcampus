@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学課程1年6ヵ月コース
   total_fees: 979000
+date: '2026-01-28'
 faculties: []
 features:
 - Small Class Size System (少人数制)

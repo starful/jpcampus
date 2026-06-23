@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okinawa-prefectural-university-of-arts",
-  "title": "오키나와 현립 예술대학",
-  "category": "university",
-  "tags": [
-    "류큐 전통 문화에 특화된 집중",
-    "유네스코 세계 문화 유산 근접 (슈리 성)",
-    "독특한 '빙가타' 염색 및 류큐 음악 전공",
-    "높은 교수 대 학생 비율의 소규모 수업"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "沖縄県立芸術大学",
-    "name_en": "Okinawa Prefectural University of Arts",
-    "address": "1-4 Shuri-tonokura-cho, Naha-shi, Okinawa, 903-8602, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 38,
-    "acceptance_rate": "22% (경쟁이 치열한 실기 시험)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "미술 공예 학부",
-    "음악 학부",
-    "조형 예술 대학원",
-    "음악 대학원",
-    "문화 예술 경영 대학원"
-  ],
-  "features": [
-    "류큐 전통 문화에 특화된 집중",
-    "유네스코 세계 문화 유산 근접 (슈리 성)",
-    "독특한 '빙가타' 염색 및 류큐 음악 전공",
-    "높은 교수 대 학생 비율의 소규모 수업"
-  ],
-  "description": "류큐 전통 문화에 깊이 뿌리내린 오키나와 현립 예술대학에 대해 알아보세요. 독특한 예술 프로그램과 국제 학생을 위한 이점을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-4 Shuri-tonokura-cho, Naha-shi, Okinawa, 903-8602, Japan
+  capacity: null
+  name_en: Okinawa Prefectural University of Arts
+  name_ja: 沖縄県立芸術大学
+category: university
+date: '2026-03-03'
+description: 류큐 전통 문화에 깊이 뿌리내린 오키나와 현립 예술대학에 대해 알아보세요. 독특한 예술 프로그램과 국제 학생을 위한 이점을
+  제공합니다.
+faculties:
+- 미술 공예 학부
+- 음악 학부
+- 조형 예술 대학원
+- 음악 대학원
+- 문화 예술 경영 대학원
+features:
+- 류큐 전통 문화에 특화된 집중
+- 유네스코 세계 문화 유산 근접 (슈리 성)
+- 독특한 '빙가타' 염색 및 류큐 음악 전공
+- 높은 교수 대 학생 비율의 소규모 수업
+id: univ_okinawa-prefectural-university-of-arts
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22% (경쟁이 치열한 실기 시험)
+  international_students: 38
+tags:
+- 류큐 전통 문화에 특화된 집중
+- 유네스코 세계 문화 유산 근접 (슈리 성)
+- 독특한 '빙가타' 염색 및 류큐 음악 전공
+- 높은 교수 대 학생 비율의 소규모 수업
+thumbnail: /static/img/pin-univ.png
+title: 오키나와 현립 예술대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 류큐의 혼

@@ -1,54 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "〒813-8503 福岡県福岡市東区松香台２丁目３−１",
-    "name_en": "Kyushu Sangyo University",
-    "name_ja": "九州産業大学",
-    "website": "https://www.kyusan-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Art and Design",
-    "Engineering",
-    "Economics",
-    "Commerce",
-    "International Studies",
-    "Management",
-    "Life Science"
-  ],
-  "features": [
-    "지역 사립 명문",
-    "EJU 집중 지원",
-    "규슈 지역 높은 취업률",
-    " substantial 수업료 감면 혜택",
-    "디자인 및 공학 집중"
-  ],
-  "id": "univ_kyushu-sangyo-university-ksu",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "공개되지 않음 (30%-40%로 추정)",
-    "international_students": 350
-  },
-  "tags": [
-    "Regional Private Leader",
-    "Strong EJU Focus",
-    "High Job Placement Rate in Kyushu",
-    "Significant Tuition Waivers Available",
-    "Design and Engineering Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "규슈산업대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  }
-}
+basic_info:
+  address: 〒813-8503 福岡県福岡市東区松香台２丁目３−１
+  name_en: Kyushu Sangyo University
+  name_ja: 九州産業大学
+  website: https://www.kyusan-u.ac.jp/
+category: university
+date: '2026-01-28'
+faculties:
+- Art and Design
+- Engineering
+- Economics
+- Commerce
+- International Studies
+- Management
+- Life Science
+features:
+- 지역 사립 명문
+- EJU 집중 지원
+- 규슈 지역 높은 취업률
+- ' substantial 수업료 감면 혜택'
+- 디자인 및 공학 집중
+id: univ_kyushu-sangyo-university-ksu
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 공개되지 않음 (30%-40%로 추정)
+  international_students: 350
+tags:
+- Regional Private Leader
+- Strong EJU Focus
+- High Job Placement Rate in Kyushu
+- Significant Tuition Waivers Available
+- Design and Engineering Focus
+thumbnail: /static/img/pin-univ.png
+title: 규슈산업대학교
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 대학 개요 및 명성

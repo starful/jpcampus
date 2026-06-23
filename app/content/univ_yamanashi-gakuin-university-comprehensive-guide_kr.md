@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamanashi-gakuin-university-comprehensive-guide",
-  "title": "야마나시 가쿠인 대학교",
-  "description": "도쿄 근교 야마나시현에 위치한 야마나시 가쿠인 대학교는 100% 영어로 진행되는 iCLA(국제 자유전공 학부)와 세계적인 수준의 스포츠 시설, 그리고 유학생을 위한 파격적인 장학금 혜택을 제공하는 명문 사립 대학입니다.",
-  "category": "university",
-  "tags": [
-    "iCLA: 100% 영어로 진행되는 리베럴 아츠 커리큘럼",
-    "올림픽 수준의 시설을 갖춘 최상위권 스포츠 명문 대학",
-    "전 세계 50개국 이상에서 온 다양한 국적의 유학생 구성",
-    "유학생을 위한 파격적인 장학금 제도 (수업료 최대 100% 면제)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山梨学院大学",
-    "name_en": "Yamanashi Gakuin University",
-    "address": "2-4-5 Sakaori, Kofu, Yamanashi 400-8575, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 1150,
-    "acceptance_rate": "Estimated 45-60%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1390000
-  },
-  "faculties": [
-    "Law",
-    "Business Administration",
-    "Health and Nutrition",
-    "Sport Science",
-    "International College of Liberal Arts (iCLA)"
-  ],
-  "features": [
-    "iCLA: 100% 영어로 진행되는 리베럴 아츠 커리큘럼",
-    "올림픽 수준의 시설을 갖춘 최상위권 스포츠 명문 대학",
-    "전 세계 50개국 이상에서 온 다양한 국적의 유학생 구성",
-    "유학생을 위한 파격적인 장학금 제도 (수업료 최대 100% 면제)"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-4-5 Sakaori, Kofu, Yamanashi 400-8575, Japan
+  capacity: null
+  name_en: Yamanashi Gakuin University
+  name_ja: 山梨学院大学
+category: university
+date: '2026-03-08'
+description: 도쿄 근교 야마나시현에 위치한 야마나시 가쿠인 대학교는 100% 영어로 진행되는 iCLA(국제 자유전공 학부)와 세계적인 수준의
+  스포츠 시설, 그리고 유학생을 위한 파격적인 장학금 혜택을 제공하는 명문 사립 대학입니다.
+faculties:
+- Law
+- Business Administration
+- Health and Nutrition
+- Sport Science
+- International College of Liberal Arts (iCLA)
+features:
+- 'iCLA: 100% 영어로 진행되는 리베럴 아츠 커리큘럼'
+- 올림픽 수준의 시설을 갖춘 최상위권 스포츠 명문 대학
+- 전 세계 50개국 이상에서 온 다양한 국적의 유학생 구성
+- 유학생을 위한 파격적인 장학금 제도 (수업료 최대 100% 면제)
+id: univ_yamanashi-gakuin-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-60%
+  international_students: 1150
+tags:
+- 'iCLA: 100% 영어로 진행되는 리베럴 아츠 커리큘럼'
+- 올림픽 수준의 시설을 갖춘 최상위권 스포츠 명문 대학
+- 전 세계 50개국 이상에서 온 다양한 국적의 유학생 구성
+- 유학생을 위한 파격적인 장학금 제도 (수업료 최대 100% 면제)
+thumbnail: /static/img/pin-univ.png
+title: 야마나시 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1390000
 ---
 
 ## 🏫 대학 개요

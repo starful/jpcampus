@@ -1,61 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区西新宿7-6-4 ECC東京本部ビル1F",
-    "capacity": 100,
-    "name_en": "ECC Japanese Language Institute, Shinjuku Campus",
-    "name_ja": "ECC日本語学院 新宿校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "日本語総合1年6か月コース",
-      "total_fees": 1202750
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "日本語総合1年コース",
-      "total_fees": 825500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語総合2年コース",
-      "total_fees": 1574000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "명성 높은 ECC 교육 그룹의 일원으로, 수준 높은 교육 제공을 보장합니다.",
-    "EJU(일본유학시험) 및 상위 교육 과정 진학에 집중합니다.",
-    "신주쿠 중심부에 위치한 소규모 학교로, 교사 대 학생 비율이 높습니다.",
-    "대학 및 대학원 입학을 위한 종합적인 학업 상담을 제공합니다.",
-    "뛰어난 도시 연결성과 문화 및 취업 기회에 대한 접근성을 제공합니다."
-  ],
-  "id": "school_ecc-japanese-institute-shinjuku",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6975726,
-    "lng": 139.6978851
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=574",
-  "stats": {
-    "capacity": 100,
-    "international_students": 90
-  },
-  "tags": [
-    "Part of the renowned ECC education group, ensuring quality pedagogy",
-    "Intensive EJU (Examination for Japanese University Admission) and Higher Education Progression Focus",
-    "Boutique School Environment with high teacher-to-student ratio in Central Shinjuku",
-    "Comprehensive academic counseling for university and graduate school entry",
-    "Exceptional urban connectivity and access to cultural and employment opportunities"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "ECC 일본어학원, 신주쿠 캠퍼스",
-  "tuition": {},
-  "description": "ECC 일본어학원 신주쿠 캠퍼스는 일본 대학 진학을 목표하는 유학생들에게 최적의 교육 환경을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区西新宿7-6-4 ECC東京本部ビル1F
+  capacity: 100
+  name_en: ECC Japanese Language Institute, Shinjuku Campus
+  name_ja: ECC日本語学院 新宿校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語総合1年6か月コース
+  total_fees: 1202750
+- admission_month: 4,10
+  course_name: 日本語総合1年コース
+  total_fees: 825500
+- admission_month: '4'
+  course_name: 日本語総合2年コース
+  total_fees: 1574000
+date: '2026-01-28'
+description: ECC 일본어학원 신주쿠 캠퍼스는 일본 대학 진학을 목표하는 유학생들에게 최적의 교육 환경을 제공합니다.
+faculties: []
+features:
+- 명성 높은 ECC 교육 그룹의 일원으로, 수준 높은 교육 제공을 보장합니다.
+- EJU(일본유학시험) 및 상위 교육 과정 진학에 집중합니다.
+- 신주쿠 중심부에 위치한 소규모 학교로, 교사 대 학생 비율이 높습니다.
+- 대학 및 대학원 입학을 위한 종합적인 학업 상담을 제공합니다.
+- 뛰어난 도시 연결성과 문화 및 취업 기회에 대한 접근성을 제공합니다.
+id: school_ecc-japanese-institute-shinjuku
+lang: kr
+layout: school
+location:
+  lat: 35.6975726
+  lng: 139.6978851
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=574
+stats:
+  capacity: 100
+  international_students: 90
+tags:
+- Part of the renowned ECC education group, ensuring quality pedagogy
+- Intensive EJU (Examination for Japanese University Admission) and Higher Education
+  Progression Focus
+- Boutique School Environment with high teacher-to-student ratio in Central Shinjuku
+- Comprehensive academic counseling for university and graduate school entry
+- Exceptional urban connectivity and access to cultural and employment opportunities
+thumbnail: /static/img/pin-school.png
+title: ECC 일본어학원, 신주쿠 캠퍼스
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

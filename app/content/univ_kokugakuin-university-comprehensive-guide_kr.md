@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kokugakuin-university-comprehensive-guide",
-  "title": "고쿠가쿠인 대학교 (Kokugakuin University)",
-  "category": "university",
-  "tags": [
-    "일본에서 신도학을 제공하는 단 두 곳의 대학 중 하나",
-    "도쿄 문화의 중심지 시부야에 위치",
-    "일본 고전 및 역사 분야에서 140년 이상의 역사",
-    "국가급 고고학적 보물이 있는 유명한 교내 박물관"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "国学院大学",
-    "name_en": "Kokugakuin University",
-    "address": "4-10-28 Higashi, Shibuya-ku, Tokyo 150-8440, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 158,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 240000,
-    "yearly_tuition": 1287000
-  },
-  "faculties": [
-    "문학부",
-    "신도문화학부",
-    "법학부",
-    "경제학부",
-    "인간개발학부",
-    "관광커뮤니티개발학부"
-  ],
-  "features": [
-    "일본에서 신도학을 제공하는 단 두 곳의 대학 중 하나",
-    "도쿄 문화의 중심지 시부야에 위치",
-    "일본 고전 및 역사 분야에서 140년 이상의 역사",
-    "국가급 고고학적 보물이 있는 유명한 교내 박물관"
-  ],
-  "description": "고쿠가쿠인 대학교는 일본 문화, 역사, 신도 신앙의 수호자로서 140년 이상의 역사를 가진 명문 사립 대학입니다. 시부야 중심부에서 일본 전통을 깊이 있게 경험할 수 있는 특별한 기회를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 4-10-28 Higashi, Shibuya-ku, Tokyo 150-8440, Japan
+  capacity: null
+  name_en: Kokugakuin University
+  name_ja: 国学院大学
+category: university
+date: '2026-02-13'
+description: 고쿠가쿠인 대학교는 일본 문화, 역사, 신도 신앙의 수호자로서 140년 이상의 역사를 가진 명문 사립 대학입니다. 시부야 중심부에서
+  일본 전통을 깊이 있게 경험할 수 있는 특별한 기회를 제공합니다.
+faculties:
+- 문학부
+- 신도문화학부
+- 법학부
+- 경제학부
+- 인간개발학부
+- 관광커뮤니티개발학부
+features:
+- 일본에서 신도학을 제공하는 단 두 곳의 대학 중 하나
+- 도쿄 문화의 중심지 시부야에 위치
+- 일본 고전 및 역사 분야에서 140년 이상의 역사
+- 국가급 고고학적 보물이 있는 유명한 교내 박물관
+id: univ_kokugakuin-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 158
+tags:
+- 일본에서 신도학을 제공하는 단 두 곳의 대학 중 하나
+- 도쿄 문화의 중심지 시부야에 위치
+- 일본 고전 및 역사 분야에서 140년 이상의 역사
+- 국가급 고고학적 보물이 있는 유명한 교내 박물관
+thumbnail: /static/img/pin-univ.png
+title: 고쿠가쿠인 대학교 (Kokugakuin University)
+tuition:
+  admission_fee: 240000
+  yearly_tuition: 1287000
 ---
 
 ## 🏫 대학교 개요: 일본 문화유산의 정신

@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 996330
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized EJU Preparation for University Progression

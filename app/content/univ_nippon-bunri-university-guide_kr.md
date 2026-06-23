@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nippon-bunri-university-guide",
-  "title": "니폰분리대학교 (Nippon Bunri University)",
-  "description": "일본 규슈 오이타현에 위치한 니폰분리대학교는 항공우주, 공학, 보건 분야의 전문 교육과 높은 취업률을 자랑하는 실무 중심의 명문 사립 대학입니다.",
-  "category": "university",
-  "tags": [
-    "항공우주 및 항공공학 특성화 프로그램",
-    "졸업 후 높은 취업률",
-    "실무 중심의 산업 현장 실습",
-    "체계적인 유학생 지원 시스템"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "日本文理大学",
-    "name_en": "Nippon Bunri University",
-    "address": "1727 Ichigi, Oita City, Oita Prefecture 870-0397, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "공학부",
-    "보건마네지먼트학부"
-  ],
-  "features": [
-    "항공우주 및 항공공학 특성화 프로그램",
-    "졸업 후 높은 취업률",
-    "실무 중심의 산업 현장 실습",
-    "체계적인 유학생 지원 시스템"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1727 Ichigi, Oita City, Oita Prefecture 870-0397, Japan
+  capacity: 2500
+  name_en: Nippon Bunri University
+  name_ja: 日本文理大学
+category: university
+date: '2026-03-15'
+description: 일본 규슈 오이타현에 위치한 니폰분리대학교는 항공우주, 공학, 보건 분야의 전문 교육과 높은 취업률을 자랑하는 실무 중심의
+  명문 사립 대학입니다.
+faculties:
+- 공학부
+- 보건마네지먼트학부
+features:
+- 항공우주 및 항공공학 특성화 프로그램
+- 졸업 후 높은 취업률
+- 실무 중심의 산업 현장 실습
+- 체계적인 유학생 지원 시스템
+id: univ_nippon-bunri-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 320
+tags:
+- 항공우주 및 항공공학 특성화 프로그램
+- 졸업 후 높은 취업률
+- 실무 중심의 산업 현장 실습
+- 체계적인 유학생 지원 시스템
+thumbnail: /static/img/pin-univ.png
+title: 니폰분리대학교 (Nippon Bunri University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: 니폰분리대학교(NBU)의 정신

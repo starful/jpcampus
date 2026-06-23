@@ -1,77 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都江戸川区東葛西5-15-2",
-    "capacity": 460,
-    "name_en": "Toho International College",
-    "name_ja": "東方国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1263600
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1115100
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 966600
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 818100
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 669600
-    },
-    {
-      "admission_month": "4, 10",
-      "course_name": "一般1年コース",
-      "total_fees": 669600
-    }
-  ],
-  "description": "Toho International College는 도쿄에서 종합적인 일본어 교육과 대학 진학 준비 과정을 지원적인 환경에서 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "대학 준비",
-    "EJU 준비",
-    "이과 스트림",
-    "단기 유학"
-  ],
-  "id": "school_toho-international-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6643687,
-    "lng": 139.8753345
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=226",
-  "stats": {
-    "capacity": 460,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "University Prep",
-    "EJU Prep",
-    "Science Stream",
-    "Short-term Study"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Toho International College",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都江戸川区東葛西5-15-2
+  capacity: 460
+  name_en: Toho International College
+  name_ja: 東方国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1263600
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1115100
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 966600
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 818100
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 669600
+- admission_month: 4, 10
+  course_name: 一般1年コース
+  total_fees: 669600
+date: '2026-01-28'
+description: Toho International College는 도쿄에서 종합적인 일본어 교육과 대학 진학 준비 과정을 지원적인 환경에서
+  제공합니다.
+faculties: []
+features:
+- 기숙사
+- 대학 준비
+- EJU 준비
+- 이과 스트림
+- 단기 유학
+id: school_toho-international-college
+lang: kr
+layout: school
+location:
+  lat: 35.6643687
+  lng: 139.8753345
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=226
+stats:
+  capacity: 460
+  international_students: 0
+tags:
+- Dormitory
+- University Prep
+- EJU Prep
+- Science Stream
+- Short-term Study
+thumbnail: /static/img/pin-school.png
+title: Toho International College
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

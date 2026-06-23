@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市左京区吉田本町",
-    "name_en": "Kyoto University",
-    "name_ja": "京都大学",
-    "website": "https://www.kyoto-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Integrated Human Studies",
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_kyoto-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.0270496,
-    "lng": 135.7823155
-  },
-  "stats": {
-    "acceptance_rate": "13%",
-    "international_students": 2600
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "교토대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "일본 교토에 위치한 명문 국립대학, 교토대학교에 대한 상세 정보입니다. 입학 정보, 학비, 장학금, 캠퍼스 생활 등을 확인하세요."
-}
+basic_info:
+  address: 京都府京都市左京区吉田本町
+  name_en: Kyoto University
+  name_ja: 京都大学
+  website: https://www.kyoto-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 일본 교토에 위치한 명문 국립대학, 교토대학교에 대한 상세 정보입니다. 입학 정보, 학비, 장학금, 캠퍼스 생활 등을 확인하세요.
+faculties:
+- Faculty of Integrated Human Studies
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_kyoto-university
+lang: kr
+layout: school
+location:
+  lat: 35.0270496
+  lng: 135.7823155
+stats:
+  acceptance_rate: 13%
+  international_students: 2600
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 교토대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학 개요 및 명성

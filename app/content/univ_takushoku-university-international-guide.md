@@ -5,6 +5,7 @@ basic_info:
   name_en: Takushoku University
   name_ja: 拓殖大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Commerce
 - Faculty of Political Science and Economics

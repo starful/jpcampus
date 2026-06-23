@@ -5,6 +5,7 @@ basic_info:
   name_ja: 青山学院大学
   website: https://www.aoyama.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - School of Letters
 - School of Education

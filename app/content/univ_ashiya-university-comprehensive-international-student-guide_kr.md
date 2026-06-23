@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ashiya-university-comprehensive-international-student-guide",
-  "title": "아시야 대학교 (Ashiya University)",
-  "description": "일본 최고의 부촌 록쿠록쿠소에 위치한 아시야 대학교는 소수 정예 교육과 임상심리, 아동교육 분야에서 탁월한 강점을 가진 사립 대학입니다.",
-  "category": "university",
-  "tags": [
-    "교수 대 학생 비율이 높은 소수 정예 교육",
-    "일본 최고의 부촌 록쿠록쿠소 위치",
-    "임상심리학 및 아동교육학 특화",
-    "유학생을 위한 맞춤형 취업 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "芦屋大学",
-    "name_en": "Ashiya University",
-    "address": "13-22 Rokurokusocho, Ashiya, Hyogo 659-0011, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 95,
-    "acceptance_rate": "75-80%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Clinical Education",
-    "Department of Child Education",
-    "Department of Clinical Education",
-    "Graduate School of Education"
-  ],
-  "features": [
-    "교수 대 학생 비율이 높은 소수 정예 교육",
-    "일본 최고의 부촌 록쿠록쿠소 위치",
-    "임상심리학 및 아동교육학 특화",
-    "유학생을 위한 맞춤형 취업 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 13-22 Rokurokusocho, Ashiya, Hyogo 659-0011, Japan
+  capacity: 1200
+  name_en: Ashiya University
+  name_ja: 芦屋大学
+category: university
+date: '2026-04-19'
+description: 일본 최고의 부촌 록쿠록쿠소에 위치한 아시야 대학교는 소수 정예 교육과 임상심리, 아동교육 분야에서 탁월한 강점을 가진 사립
+  대학입니다.
+faculties:
+- Faculty of Clinical Education
+- Department of Child Education
+- Department of Clinical Education
+- Graduate School of Education
+features:
+- 교수 대 학생 비율이 높은 소수 정예 교육
+- 일본 최고의 부촌 록쿠록쿠소 위치
+- 임상심리학 및 아동교육학 특화
+- 유학생을 위한 맞춤형 취업 지원
+id: univ_ashiya-university-comprehensive-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-80%
+  international_students: 95
+tags:
+- 교수 대 학생 비율이 높은 소수 정예 교육
+- 일본 최고의 부촌 록쿠록쿠소 위치
+- 임상심리학 및 아동교육학 특화
+- 유학생을 위한 맞춤형 취업 지원
+thumbnail: /static/img/pin-univ.png
+title: 아시야 대학교 (Ashiya University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 대학 개요

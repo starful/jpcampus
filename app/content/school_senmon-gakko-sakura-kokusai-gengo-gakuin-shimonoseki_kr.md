@@ -1,62 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "山口県下関市竹崎町3-5-19",
-    "capacity": 200,
-    "name_en": "Sakura International Language Institute Professional Training College",
-    "name_ja": "専門学校さくら国際言語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学ｺｰｽA",
-      "total_fees": 1360000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学ｺｰｽB",
-      "total_fees": 1197500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学ｺｰｽC",
-      "total_fees": 1035000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "주요 도시보다 생활비가 저렴한 시모노세키에 위치해 있습니다.",
-    "EJU, 이과(STEM), 미술, 디자인을 전문으로 하는 종합적인 학업 트랙을 제공합니다.",
-    "개인 싱글룸을 포함한 높은 수준의 기숙사 옵션을 제공합니다.",
-    "중소 규모 학교 (200명 정원)로, 맞춤형 학업 지도가 가능합니다.",
-    "다양한 입학 시기에 맞춰 1.5년에서 2년까지 유연한 코스 기간을 제공합니다."
-  ],
-  "id": "school_senmon-gakko-sakura-kokusai-gengo-gakuin-shimonoseki",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 33.9520242,
-    "lng": 130.9225263
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=404",
-  "stats": {
-    "capacity": 200,
-    "international_students": 200
-  },
-  "tags": [
-    "Located in Shimonoseki, offering lower living costs than major cities.",
-    "Comprehensive academic tracks specializing in EJU, Science (STEM), Art, and Design.",
-    "High-quality dormitory options including private single rooms.",
-    "Small-to-medium school capacity (200), ensuring personalized academic guidance.",
-    "Flexible course durations (1.5 to 2 years) catering to different entry terms."
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "사쿠라 국제언어학원 전문학교",
-  "translated": true,
-  "tuition": {},
-  "description": "사쿠라 국제언어학원 전문학교는 시모노세키에 위치하여 저렴한 생활비, EJU, STEM, 미술, 디자인 등 다양한 전문 학업 트랙을 제공하는 일본 유학 전문학교입니다."
-}
+basic_info:
+  address: 山口県下関市竹崎町3-5-19
+  capacity: 200
+  name_en: Sakura International Language Institute Professional Training College
+  name_ja: 専門学校さくら国際言語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学ｺｰｽA
+  total_fees: 1360000
+- admission_month: '7'
+  course_name: 進学ｺｰｽB
+  total_fees: 1197500
+- admission_month: '10'
+  course_name: 進学ｺｰｽC
+  total_fees: 1035000
+date: '2026-01-28'
+description: 사쿠라 국제언어학원 전문학교는 시모노세키에 위치하여 저렴한 생활비, EJU, STEM, 미술, 디자인 등 다양한 전문 학업
+  트랙을 제공하는 일본 유학 전문학교입니다.
+faculties: []
+features:
+- 주요 도시보다 생활비가 저렴한 시모노세키에 위치해 있습니다.
+- EJU, 이과(STEM), 미술, 디자인을 전문으로 하는 종합적인 학업 트랙을 제공합니다.
+- 개인 싱글룸을 포함한 높은 수준의 기숙사 옵션을 제공합니다.
+- 중소 규모 학교 (200명 정원)로, 맞춤형 학업 지도가 가능합니다.
+- 다양한 입학 시기에 맞춰 1.5년에서 2년까지 유연한 코스 기간을 제공합니다.
+id: school_senmon-gakko-sakura-kokusai-gengo-gakuin-shimonoseki
+lang: kr
+layout: school
+location:
+  lat: 33.9520242
+  lng: 130.9225263
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=404
+stats:
+  capacity: 200
+  international_students: 200
+tags:
+- Located in Shimonoseki, offering lower living costs than major cities.
+- Comprehensive academic tracks specializing in EJU, Science (STEM), Art, and Design.
+- High-quality dormitory options including private single rooms.
+- Small-to-medium school capacity (200), ensuring personalized academic guidance.
+- Flexible course durations (1.5 to 2 years) catering to different entry terms.
+thumbnail: /static/img/pin-school.png
+title: 사쿠라 국제언어학원 전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

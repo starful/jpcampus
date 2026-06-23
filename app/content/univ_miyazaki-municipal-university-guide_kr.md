@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_miyazaki-municipal-university-guide",
-  "title": "미야자키 공립대학교",
-  "category": "university",
-  "tags": [
-    "Liberal Arts Focused Curriculum",
-    "High Faculty-to-Student Ratio",
-    "Extensive Global Exchange Partnerships",
-    "Community-Rooted Learning Environment",
-    "Affordable Public University Tuition"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宮崎公立大学",
-    "name_en": "Miyazaki Municipal University",
-    "address": "1-1-2 Funatsuka, Miyazaki City, Miyazaki Prefecture 880-8520, Japan",
-    "capacity": 800
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "Competitive (approx. 25-35%)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities (Department of International Culture)"
-  ],
-  "features": [
-    "교양 중심 교육 과정",
-    "높은 교수 대 학생 비율",
-    "광범위한 국제 교환 프로그램",
-    "지역사회 기반 학습 환경",
-    "저렴한 공립 대학 등록금"
-  ],
-  "description": "미야자키 공립대학교는 규슈 미야자키시에 위치한 명문 공립 대학입니다. 국제적인 시각과 지역 사회와의 연계를 강조하는 교양 교육을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1-2 Funatsuka, Miyazaki City, Miyazaki Prefecture 880-8520, Japan
+  capacity: 800
+  name_en: Miyazaki Municipal University
+  name_ja: 宮崎公立大学
+category: university
+date: '2026-03-03'
+description: 미야자키 공립대학교는 규슈 미야자키시에 위치한 명문 공립 대학입니다. 국제적인 시각과 지역 사회와의 연계를 강조하는 교양 교육을
+  제공합니다.
+faculties:
+- Faculty of Humanities (Department of International Culture)
+features:
+- 교양 중심 교육 과정
+- 높은 교수 대 학생 비율
+- 광범위한 국제 교환 프로그램
+- 지역사회 기반 학습 환경
+- 저렴한 공립 대학 등록금
+id: univ_miyazaki-municipal-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive (approx. 25-35%)
+  international_students: 25
+tags:
+- Liberal Arts Focused Curriculum
+- High Faculty-to-Student Ratio
+- Extensive Global Exchange Partnerships
+- Community-Rooted Learning Environment
+- Affordable Public University Tuition
+thumbnail: /static/img/pin-univ.png
+title: 미야자키 공립대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

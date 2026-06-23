@@ -5,6 +5,9 @@ basic_info:
   name_ja: 日本大学
   website: https://www.nihon-u.ac.jp/
 category: university
+date: '2026-04-27'
+description: Use this 2026 guide to compare Nihon University admission pathways, tuition
+  expectations, and practical campus-life tips for international students.
 faculties:
 - College of Law
 - College of Humanities and Sciences
@@ -42,12 +45,11 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: "Nihon University Guide 2026: Admission Routes, Tuition, Campus Life for Internationals"
+title: 'Nihon University Guide 2026: Admission Routes, Tuition, Campus Life for Internationals'
 translated: true
 tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
-description: "Use this 2026 guide to compare Nihon University admission pathways, tuition expectations, and practical campus-life tips for international students."
 ---
 
 ## University Overview

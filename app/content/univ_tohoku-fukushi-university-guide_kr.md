@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tohoku-fukushi-university-guide",
-  "title": "도호쿠 복지대학교 (Tohoku Fukushi University)",
-  "description": "일본 사회복지 및 보건 의료 분야의 명문, 도호쿠 복지대학교의 학부 정보와 입시 가이드, 스포츠 프로그램 및 장학금 혜택을 확인해 보세요.",
-  "category": "university",
-  "tags": [
-    "일본 최고의 사회복지 전문 교육기관",
-    "MLB 및 PGA 스타를 배출한 전설적인 스포츠 프로그램",
-    "자비(慈悲)를 강조하는 불교 정신 기반의 교육",
-    "의료 및 노인 복지 시설과의 강력한 연계망"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東北福祉大学",
-    "name_en": "Tohoku Fukushi University",
-    "address": "1-8-1 Kunimi, Aoba-ku, Sendai, Miyagi 981-8522, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "종합복지학부",
-    "종합경영학부",
-    "교육학부",
-    "건강과학부"
-  ],
-  "features": [
-    "일본 최고의 사회복지 전문 교육기관",
-    "MLB 및 PGA 스타를 배출한 전설적인 스포츠 프로그램",
-    "자비(慈悲)를 강조하는 불교 정신 기반의 교육",
-    "의료 및 노인 복지 시설과의 강력한 연계망"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-8-1 Kunimi, Aoba-ku, Sendai, Miyagi 981-8522, Japan
+  capacity: null
+  name_en: Tohoku Fukushi University
+  name_ja: 東北福祉大学
+category: university
+date: '2026-03-08'
+description: 일본 사회복지 및 보건 의료 분야의 명문, 도호쿠 복지대학교의 학부 정보와 입시 가이드, 스포츠 프로그램 및 장학금 혜택을
+  확인해 보세요.
+faculties:
+- 종합복지학부
+- 종합경영학부
+- 교육학부
+- 건강과학부
+features:
+- 일본 최고의 사회복지 전문 교육기관
+- MLB 및 PGA 스타를 배출한 전설적인 스포츠 프로그램
+- 자비(慈悲)를 강조하는 불교 정신 기반의 교육
+- 의료 및 노인 복지 시설과의 강력한 연계망
+id: univ_tohoku-fukushi-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 145
+tags:
+- 일본 최고의 사회복지 전문 교육기관
+- MLB 및 PGA 스타를 배출한 전설적인 스포츠 프로그램
+- 자비(慈悲)를 강조하는 불교 정신 기반의 교육
+- 의료 및 노인 복지 시설과의 강력한 연계망
+thumbnail: /static/img/pin-univ.png
+title: 도호쿠 복지대학교 (Tohoku Fukushi University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

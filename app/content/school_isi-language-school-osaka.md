@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学課程1年6か月コース
   total_fees: 1293000
+date: '2026-01-28'
 description: ISI Language School Osaka aims to improve students' Japanese language
   skills and deepen their understanding of Japanese culture. It offers optimized educational
   programs to meet various needs, including those for higher education, employment,

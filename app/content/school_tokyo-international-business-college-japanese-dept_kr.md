@@ -1,55 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都台東区柳橋2-7-5",
-    "capacity": 200,
-    "name_en": "Tokyo International Business College, Japanese Language Department",
-    "name_ja": "専門学校東京国際ビジネスカレッジ日本語学科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "Japanese Language Department",
-      "total_fees": 1570000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "Japanese Language Department",
-      "total_fees": 1570000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 중심",
-    "EJU 시험 대비",
-    "기숙사 제공",
-    "회화 및 스피킹 능력 강화"
-  ],
-  "id": "school_tokyo-international-business-college-japanese-dept",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6990301,
-    "lng": 139.7877541
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=150",
-  "stats": {
-    "capacity": 200,
-    "international_students": 190
-  },
-  "tags": [
-    "Higher Education Advancement Focus",
-    "EJU Preparation",
-    "Dormitory Provided",
-    "Conversation and Speaking Skills Emphasis"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "동경국제비즈니스카レッジ 일본어학과",
-  "translated": true,
-  "tuition": {},
-  "description": "대학 진학 및 취업을 위한 체계적인 일본어 교육, EJU 시험 대비, 기숙사 제공, 회화 중심 수업을 제공하는 동경국제비즈니스카レッジ 일본어학과입니다."
-}
+basic_info:
+  address: 東京都台東区柳橋2-7-5
+  capacity: 200
+  name_en: Tokyo International Business College, Japanese Language Department
+  name_ja: 専門学校東京国際ビジネスカレッジ日本語学科
+category: school
+courses:
+- admission_month: '4'
+  course_name: Japanese Language Department
+  total_fees: 1570000
+- admission_month: '10'
+  course_name: Japanese Language Department
+  total_fees: 1570000
+date: '2026-01-28'
+description: 대학 진학 및 취업을 위한 체계적인 일본어 교육, EJU 시험 대비, 기숙사 제공, 회화 중심 수업을 제공하는 동경국제비즈니스카レッジ
+  일본어학과입니다.
+faculties: []
+features:
+- 대학 진학 중심
+- EJU 시험 대비
+- 기숙사 제공
+- 회화 및 스피킹 능력 강화
+id: school_tokyo-international-business-college-japanese-dept
+lang: kr
+layout: school
+location:
+  lat: 35.6990301
+  lng: 139.7877541
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=150
+stats:
+  capacity: 200
+  international_students: 190
+tags:
+- Higher Education Advancement Focus
+- EJU Preparation
+- Dormitory Provided
+- Conversation and Speaking Skills Emphasis
+thumbnail: /static/img/pin-school.png
+title: 동경국제비즈니스카レッジ 일본어학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 이념

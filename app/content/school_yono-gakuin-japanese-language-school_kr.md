@@ -1,71 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県さいたま市大宮区吉敷町4-78",
-    "capacity": 300,
-    "name_en": "Yono Gakuin Japanese Language School",
-    "name_ja": "与野学院 日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "総合1年6か月コース",
-      "total_fees": 1101400
-    },
-    {
-      "admission_month": "7",
-      "course_name": "総合1年9か月コース",
-      "total_fees": 1270700
-    },
-    {
-      "admission_month": "4",
-      "course_name": "総合2年コース",
-      "total_fees": 1435800
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "대학 진학",
-    "회화 중심",
-    "장학금",
-    "개인실",
-    "비즈니스 일본어",
-    "미술 코스",
-    "디자인 코스",
-    "단기 코스"
-  ],
-  "id": "school_yono-gakuin-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.8961307,
-    "lng": 139.6362829
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=48",
-  "stats": {
-    "capacity": 300,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focused",
-    "Scholarships",
-    "Private Rooms",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "요노가쿠인 일본어학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 埼玉県さいたま市大宮区吉敷町4-78
+  capacity: 300
+  name_en: Yono Gakuin Japanese Language School
+  name_ja: 与野学院 日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 総合1年6か月コース
+  total_fees: 1101400
+- admission_month: '7'
+  course_name: 総合1年9か月コース
+  total_fees: 1270700
+- admission_month: '4'
+  course_name: 総合2年コース
+  total_fees: 1435800
+date: '2026-01-28'
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 대학 진학
+- 회화 중심
+- 장학금
+- 개인실
+- 비즈니스 일본어
+- 미술 코스
+- 디자인 코스
+- 단기 코스
+id: school_yono-gakuin-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.8961307
+  lng: 139.6362829
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=48
+stats:
+  capacity: 300
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focused
+- Scholarships
+- Private Rooms
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 요노가쿠인 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

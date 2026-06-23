@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_momoyama-gakuin-university-international-student-guide",
-  "title": "Momoyama Gakuin University",
-  "category": "university",
-  "tags": [
-    "Christian Educational Foundation (Anglican/Episcopal)",
-    "State-of-the-art i-Lounge for International Exchange",
-    "Strong Career Support in the Kansai Region",
-    "Innovative Business Design Campus in Central Osaka (Abeno)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桃山学院大学",
-    "name_en": "Momoyama Gakuin University",
-    "address": "1-1 Manabino, Izumi, Osaka 594-1198, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 215,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of Economics",
-    "Faculty of Sociology",
-    "Faculty of Law",
-    "Faculty of Letters",
-    "Faculty of International Studies and Regional Development",
-    "Faculty of Business Design"
-  ],
-  "features": [
-    "Christian Educational Foundation (Anglican/Episcopal)",
-    "State-of-the-art i-Lounge for International Exchange",
-    "Strong Career Support in the Kansai Region",
-    "Innovative Business Design Campus in Central Osaka (Abeno)"
-  ]
-}
+basic_info:
+  address: 1-1 Manabino, Izumi, Osaka 594-1198, Japan
+  capacity: null
+  name_en: Momoyama Gakuin University
+  name_ja: 桃山学院大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Business Administration
+- Faculty of Economics
+- Faculty of Sociology
+- Faculty of Law
+- Faculty of Letters
+- Faculty of International Studies and Regional Development
+- Faculty of Business Design
+features:
+- Christian Educational Foundation (Anglican/Episcopal)
+- State-of-the-art i-Lounge for International Exchange
+- Strong Career Support in the Kansai Region
+- Innovative Business Design Campus in Central Osaka (Abeno)
+id: univ_momoyama-gakuin-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 215
+tags:
+- Christian Educational Foundation (Anglican/Episcopal)
+- State-of-the-art i-Lounge for International Exchange
+- Strong Career Support in the Kansai Region
+- Innovative Business Design Campus in Central Osaka (Abeno)
+thumbnail: /static/img/pin-univ.png
+title: Momoyama Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 University Overview

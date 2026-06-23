@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-tachibana-university-comprehensive-guide",
-  "title": "Kyoto Tachibana University",
-  "category": "university",
-  "tags": [
-    "Cross-disciplinary Learning (Inter-departmental collaboration)",
-    "State-of-the-art Faculty of Engineering with a focus on AI and Data Science",
-    "Strong local ties in Kyoto providing unique cultural and historical research opportunities",
-    "High employment rate for international graduates in Japanese domestic companies"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都橘大学",
-    "name_en": "Kyoto Tachibana University",
-    "address": "34 Yamada-cho, Oyadano, Yamashina-ku, Kyoto 607-8175, Japan",
-    "capacity": 5800
-  },
-  "stats": {
-    "international_students": 150,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of International Studies",
-    "Faculty of Developmental Education",
-    "Faculty of Health Sciences",
-    "Faculty of Nursing",
-    "Faculty of Economics",
-    "Faculty of Management",
-    "Faculty of Engineering"
-  ],
-  "features": [
-    "Cross-disciplinary Learning (Inter-departmental collaboration)",
-    "State-of-the-art Faculty of Engineering with a focus on AI and Data Science",
-    "Strong local ties in Kyoto providing unique cultural and historical research opportunities",
-    "High employment rate for international graduates in Japanese domestic companies"
-  ]
-}
+basic_info:
+  address: 34 Yamada-cho, Oyadano, Yamashina-ku, Kyoto 607-8175, Japan
+  capacity: 5800
+  name_en: Kyoto Tachibana University
+  name_ja: 京都橘大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Humanities
+- Faculty of International Studies
+- Faculty of Developmental Education
+- Faculty of Health Sciences
+- Faculty of Nursing
+- Faculty of Economics
+- Faculty of Management
+- Faculty of Engineering
+features:
+- Cross-disciplinary Learning (Inter-departmental collaboration)
+- State-of-the-art Faculty of Engineering with a focus on AI and Data Science
+- Strong local ties in Kyoto providing unique cultural and historical research opportunities
+- High employment rate for international graduates in Japanese domestic companies
+id: univ_kyoto-tachibana-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 150
+tags:
+- Cross-disciplinary Learning (Inter-departmental collaboration)
+- State-of-the-art Faculty of Engineering with a focus on AI and Data Science
+- Strong local ties in Kyoto providing unique cultural and historical research opportunities
+- High employment rate for international graduates in Japanese domestic companies
+thumbnail: /static/img/pin-univ.png
+title: Kyoto Tachibana University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-city-university-guide",
-  "title": "Hiroshima City University",
-  "category": "university",
-  "tags": [
-    "World-class Hiroshima Peace Institute (HPI)",
-    "Strong emphasis on the synergy between Art and Technology",
-    "Small-group education with a low student-to-faculty ratio",
-    "Strategic focus on Peace, Information, and Global Culture"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島市立大学",
-    "name_en": "Hiroshima City University",
-    "address": "3-4-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3194, Japan",
-    "capacity": 2100
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "15-25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Studies",
-    "Faculty of Information Sciences",
-    "Faculty of Arts",
-    "Graduate School of International Studies",
-    "Graduate School of Information Sciences",
-    "Graduate School of Arts"
-  ],
-  "features": [
-    "World-class Hiroshima Peace Institute (HPI)",
-    "Strong emphasis on the synergy between Art and Technology",
-    "Small-group education with a low student-to-faculty ratio",
-    "Strategic focus on Peace, Information, and Global Culture"
-  ]
-}
+basic_info:
+  address: 3-4-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3194, Japan
+  capacity: 2100
+  name_en: Hiroshima City University
+  name_ja: 広島市立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of International Studies
+- Faculty of Information Sciences
+- Faculty of Arts
+- Graduate School of International Studies
+- Graduate School of Information Sciences
+- Graduate School of Arts
+features:
+- World-class Hiroshima Peace Institute (HPI)
+- Strong emphasis on the synergy between Art and Technology
+- Small-group education with a low student-to-faculty ratio
+- Strategic focus on Peace, Information, and Global Culture
+id: univ_hiroshima-city-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25%
+  international_students: 115
+tags:
+- World-class Hiroshima Peace Institute (HPI)
+- Strong emphasis on the synergy between Art and Technology
+- Small-group education with a low student-to-faculty ratio
+- Strategic focus on Peace, Information, and Global Culture
+thumbnail: /static/img/pin-univ.png
+title: Hiroshima City University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Spirit of Hiroshima

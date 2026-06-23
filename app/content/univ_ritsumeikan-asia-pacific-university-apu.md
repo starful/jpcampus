@@ -5,6 +5,7 @@ basic_info:
   name_ja: 立命館アジア太平洋大学
   website: https://www.apu.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - College of Asia Pacific Studies (APS)
 - College of International Management (APM)

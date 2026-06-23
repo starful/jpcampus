@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_surugadai-university-guide-international-students",
-  "title": "Surugadai University",
-  "category": "university",
-  "tags": [
-    "Breathtaking natural campus environment often used for TV filming",
-    "Comprehensive career support backed by the Sundai Educational Group",
-    "Specialized Japanese language and culture support for international students",
-    "High success rate in public service and competitive corporate employment"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "駿河台大学",
-    "name_en": "Surugadai University",
-    "address": "698 Azu, Hanno, Saitama 357-8555, Japan",
-    "capacity": 4500
-  },
-  "stats": {
-    "international_students": 284,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics and Management",
-    "Faculty of Media and Information Resources",
-    "Faculty of Modern Culture",
-    "Faculty of Psychology"
-  ],
-  "features": [
-    "Breathtaking natural campus environment often used for TV filming",
-    "Comprehensive career support backed by the Sundai Educational Group",
-    "Specialized Japanese language and culture support for international students",
-    "High success rate in public service and competitive corporate employment"
-  ]
-}
+basic_info:
+  address: 698 Azu, Hanno, Saitama 357-8555, Japan
+  capacity: 4500
+  name_en: Surugadai University
+  name_ja: 駿河台大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Law
+- Faculty of Economics and Management
+- Faculty of Media and Information Resources
+- Faculty of Modern Culture
+- Faculty of Psychology
+features:
+- Breathtaking natural campus environment often used for TV filming
+- Comprehensive career support backed by the Sundai Educational Group
+- Specialized Japanese language and culture support for international students
+- High success rate in public service and competitive corporate employment
+id: univ_surugadai-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 284
+tags:
+- Breathtaking natural campus environment often used for TV filming
+- Comprehensive career support backed by the Sundai Educational Group
+- Specialized Japanese language and culture support for international students
+- High success rate in public service and competitive corporate employment
+thumbnail: /static/img/pin-univ.png
+title: Surugadai University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview: A Heritage of Academic Excellence

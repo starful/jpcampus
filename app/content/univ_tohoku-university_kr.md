@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "宮城県仙台市青葉区片平二丁目1-1",
-    "name_en": "Tohoku University",
-    "name_ja": "東北大学",
-    "website": "https://www.tohoku.ac.jp/en/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Arts and Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "School of Medicine",
-    "School of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_tohoku-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 38.2515119,
-    "lng": 140.8753007
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 2344
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도호쿠 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "일본 미야기현 센다이에 위치한 도호쿠 대학교는 뛰어난 연구와 혁신에 대한 헌신으로 유명한 일본 최고의 국립 대학 중 하나입니다."
-}
+basic_info:
+  address: 宮城県仙台市青葉区片平二丁目1-1
+  name_en: Tohoku University
+  name_ja: 東北大学
+  website: https://www.tohoku.ac.jp/en/
+category: university
+date: '2026-01-28'
+description: 일본 미야기현 센다이에 위치한 도호쿠 대학교는 뛰어난 연구와 혁신에 대한 헌신으로 유명한 일본 최고의 국립 대학 중 하나입니다.
+faculties:
+- Faculty of Arts and Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- School of Medicine
+- School of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_tohoku-university
+lang: kr
+layout: school
+location:
+  lat: 38.2515119
+  lng: 140.8753007
+stats:
+  acceptance_rate: 25%
+  international_students: 2344
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 도호쿠 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요

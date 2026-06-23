@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-niigata-prefecture",
-  "title": "University of Niigata Prefecture",
-  "category": "university",
-  "tags": [
-    "Small-group intensive language education",
-    "Strong focus on Northeast Asian relations",
-    "High employment rate in both local and global sectors",
-    "Integration of regional revitalization and international perspectives"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟県立大学",
-    "name_en": "University of Niigata Prefecture",
-    "address": "4-3-1 Ebigase, Higashi-ku, Niigata-shi, Niigata 950-8680, Japan",
-    "capacity": "Approx. 1,150 total undergraduate students"
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "25-35% (Varies by faculty and entry track)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Studies and Regional Development",
-    "Faculty of Human Life Studies",
-    "Faculty of International Economic Studies"
-  ],
-  "features": [
-    "Small-group intensive language education",
-    "Strong focus on Northeast Asian relations",
-    "High employment rate in both local and global sectors",
-    "Integration of regional revitalization and international perspectives"
-  ]
-}
+basic_info:
+  address: 4-3-1 Ebigase, Higashi-ku, Niigata-shi, Niigata 950-8680, Japan
+  capacity: Approx. 1,150 total undergraduate students
+  name_en: University of Niigata Prefecture
+  name_ja: 新潟県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of International Studies and Regional Development
+- Faculty of Human Life Studies
+- Faculty of International Economic Studies
+features:
+- Small-group intensive language education
+- Strong focus on Northeast Asian relations
+- High employment rate in both local and global sectors
+- Integration of regional revitalization and international perspectives
+id: univ_university-of-niigata-prefecture
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (Varies by faculty and entry track)
+  international_students: 65
+tags:
+- Small-group intensive language education
+- Strong focus on Northeast Asian relations
+- High employment rate in both local and global sectors
+- Integration of regional revitalization and international perspectives
+thumbnail: /static/img/pin-univ.png
+title: University of Niigata Prefecture
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

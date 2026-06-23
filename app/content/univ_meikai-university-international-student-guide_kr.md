@@ -1,55 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "1 Akemi, Urayasu, Chiba 279-8550, Japan",
-    "capacity": null,
-    "name_en": "Meikai University",
-    "name_ja": "明海大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Dentistry",
-    "Faculty of Applied Foreign Languages",
-    "Faculty of Economics",
-    "Faculty of Real Estate Sciences",
-    "Faculty of Hospitality and Tourism"
-  ],
-  "features": [
-    "국제 커뮤니케이션 및 어학 능력에 대한 강력한 집중",
-    "부동산 과학 및 도시 개발 분야의 일본 최고 프로그램",
-    "도쿄 디즈니 리조트 근처의 첨단 우라야스 캠퍼스",
-    "표준 국제 학생 입학 시 EJU 필수 (일본어 능력 필수)",
-    "높은 국가적 명성을 지닌 전문 치과 프로그램",
-    "활발한 국제 교류 프로그램"
-  ],
-  "id": "univ_meikai-university-international-student-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "48-52%",
-    "international_students": 320
-  },
-  "tags": [
-    "Strong focus on International Communication and Language proficiency",
-    "Japan's premier program in Real Estate Sciences and Urban Development",
-    "High-tech Urayasu campus near Tokyo Disney Resort",
-    "EJU Required for standard international admissions (Japanese proficiency essential)",
-    "Specialized Dental programs with high national reputation",
-    "Active International Exchange Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "메이카이 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1250000
-  },
-  "description": "메이카이 대학(明海大学)은 국제적인 관점과 실용적인 기술을 강조하는 일본의 사립 대학입니다. 치학, 외국어, 경제학, 부동산 과학, 관광학 분야에서 다양한 프로그램을 제공합니다."
-}
+basic_info:
+  address: 1 Akemi, Urayasu, Chiba 279-8550, Japan
+  capacity: null
+  name_en: Meikai University
+  name_ja: 明海大学
+category: university
+date: '2026-01-28'
+description: 메이카이 대학(明海大学)은 국제적인 관점과 실용적인 기술을 강조하는 일본의 사립 대학입니다. 치학, 외국어, 경제학, 부동산
+  과학, 관광학 분야에서 다양한 프로그램을 제공합니다.
+faculties:
+- Faculty of Dentistry
+- Faculty of Applied Foreign Languages
+- Faculty of Economics
+- Faculty of Real Estate Sciences
+- Faculty of Hospitality and Tourism
+features:
+- 국제 커뮤니케이션 및 어학 능력에 대한 강력한 집중
+- 부동산 과학 및 도시 개발 분야의 일본 최고 프로그램
+- 도쿄 디즈니 리조트 근처의 첨단 우라야스 캠퍼스
+- 표준 국제 학생 입학 시 EJU 필수 (일본어 능력 필수)
+- 높은 국가적 명성을 지닌 전문 치과 프로그램
+- 활발한 국제 교류 프로그램
+id: univ_meikai-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 48-52%
+  international_students: 320
+tags:
+- Strong focus on International Communication and Language proficiency
+- Japan's premier program in Real Estate Sciences and Urban Development
+- High-tech Urayasu campus near Tokyo Disney Resort
+- EJU Required for standard international admissions (Japanese proficiency essential)
+- Specialized Dental programs with high national reputation
+- Active International Exchange Programs
+thumbnail: /static/img/pin-univ.png
+title: 메이카이 대학
+translated: true
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1250000
 ---
 
 ## 대학 개요

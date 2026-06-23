@@ -1,54 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県浜松市中央区中央3-10-8",
-    "capacity": 505,
-    "name_en": "Hamamatsu Japanese Language Institute",
-    "name_ja": "浜松日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1406100
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1106100
-    }
-  ],
-  "description": "시즈오카현 하마마쓰시에 위치한 이 어학원은 특화된 학업 트랙, 기숙사 의무 숙박, EJU 대책, 실용적인 비즈니스 일본어 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "특화된 학업 트랙 (이과/리케이 및 미술/디자인 준비)",
-    "싱글룸 옵션이 제공되는 기숙사 의무 숙박",
-    "종합적인 EJU 및 대학 입시 대책",
-    "실용적인 비즈니스 일본어 및 고급 회화 기술에 중점",
-    "시즈오카현 하마마쓰시에 위치 (주요 산업 및 제조 중심지)"
-  ],
-  "id": "school_hamamatsu-japanese-language-institute",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7069725,
-    "lng": 137.7407754
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=463",
-  "stats": {},
-  "tags": [
-    "Specialized Academic Tracks (Science/Rikei and Art/Design preparation)",
-    "Mandatory Dormitory Accommodation with Single Room Options Available",
-    "Comprehensive EJU and University Entrance Examination Countermeasures",
-    "Focus on Practical Business Japanese and High-Level Conversation Skills",
-    "Located in Hamamatsu City, Shizuoka Prefecture (a key industrial and manufacturing hub)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "하마마쓰 일본어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 静岡県浜松市中央区中央3-10-8
+  capacity: 505
+  name_en: Hamamatsu Japanese Language Institute
+  name_ja: 浜松日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1406100
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1106100
+date: '2026-01-28'
+description: 시즈오카현 하마마쓰시에 위치한 이 어학원은 특화된 학업 트랙, 기숙사 의무 숙박, EJU 대책, 실용적인 비즈니스 일본어 교육을
+  제공합니다.
+faculties: []
+features:
+- 특화된 학업 트랙 (이과/리케이 및 미술/디자인 준비)
+- 싱글룸 옵션이 제공되는 기숙사 의무 숙박
+- 종합적인 EJU 및 대학 입시 대책
+- 실용적인 비즈니스 일본어 및 고급 회화 기술에 중점
+- 시즈오카현 하마마쓰시에 위치 (주요 산업 및 제조 중심지)
+id: school_hamamatsu-japanese-language-institute
+lang: kr
+layout: school
+location:
+  lat: 34.7069725
+  lng: 137.7407754
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=463
+stats: {}
+tags:
+- Specialized Academic Tracks (Science/Rikei and Art/Design preparation)
+- Mandatory Dormitory Accommodation with Single Room Options Available
+- Comprehensive EJU and University Entrance Examination Countermeasures
+- Focus on Practical Business Japanese and High-Level Conversation Skills
+- Located in Hamamatsu City, Shizuoka Prefecture (a key industrial and manufacturing
+  hub)
+thumbnail: /static/img/pin-school.png
+title: 하마마쓰 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_the-university-of-tokushima-guide",
-  "title": "도쿠시마 대학교",
-  "category": "university",
-  "tags": [
-    "Home of Nobel Laureate Shuji Nakamura (Blue LED research)",
-    "Global leader in Post-LED Photonics research",
-    "Exceptional Medical and Dental programs in Shikoku",
-    "Strong ties with local high-tech industries like Nichia Corporation"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "徳島大学",
-    "name_en": "The University of Tokushima",
-    "address": "2-24 Shinkura-cho, Tokushima-shi, Tokushima 770-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 254,
-    "acceptance_rate": "30-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Integrated Arts and Sciences",
-    "Faculty of Medicine",
-    "Faculty of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Science and Technology",
-    "Faculty of Bioscience and Bioindustry"
-  ],
-  "features": [
-    "노벨상 수상자 슈지 나카무라 배출 (청색 LED 연구)",
-    "Post-LED 광자 연구 분야의 글로벌 리더",
-    "시코쿠 지역 최고의 의학 및 치의학 프로그램",
-    "니치아(Nichia Corporation)와 같은 지역 첨단 기술 산업과의 강력한 유대"
-  ],
-  "description": "도쿠시마 대학교는 과학, 기술, 의료 분야에서 뛰어난 명성을 얻고 있는 시코쿠 섬의 명문 국립 대학입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2-24 Shinkura-cho, Tokushima-shi, Tokushima 770-8501, Japan
+  capacity: null
+  name_en: The University of Tokushima
+  name_ja: 徳島大学
+category: university
+date: '2026-02-13'
+description: 도쿠시마 대학교는 과학, 기술, 의료 분야에서 뛰어난 명성을 얻고 있는 시코쿠 섬의 명문 국립 대학입니다.
+faculties:
+- Faculty of Integrated Arts and Sciences
+- Faculty of Medicine
+- Faculty of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Science and Technology
+- Faculty of Bioscience and Bioindustry
+features:
+- 노벨상 수상자 슈지 나카무라 배출 (청색 LED 연구)
+- Post-LED 광자 연구 분야의 글로벌 리더
+- 시코쿠 지역 최고의 의학 및 치의학 프로그램
+- 니치아(Nichia Corporation)와 같은 지역 첨단 기술 산업과의 강력한 유대
+id: univ_the-university-of-tokushima-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-35%
+  international_students: 254
+tags:
+- Home of Nobel Laureate Shuji Nakamura (Blue LED research)
+- Global leader in Post-LED Photonics research
+- Exceptional Medical and Dental programs in Shikoku
+- Strong ties with local high-tech industries like Nichia Corporation
+thumbnail: /static/img/pin-univ.png
+title: 도쿠시마 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

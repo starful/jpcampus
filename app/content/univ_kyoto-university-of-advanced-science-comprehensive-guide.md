@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-university-of-advanced-science-comprehensive-guide",
-  "title": "Kyoto University of Advanced Science",
-  "category": "university",
-  "tags": [
-    "All-English Engineering Program (Undergraduate & Graduate)",
-    "Strong Industry Ties with Nidec and Global Tech Firms",
-    "Practical Capstone Project Curriculum",
-    "Intensive Japanese Language Support for Career Integration"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都先端科学大学",
-    "name_en": "Kyoto University of Advanced Science",
-    "address": "18 Uzumasa Yamanomoto-cho, Ukyo-ku, Kyoto 615-8577, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 550,
-    "acceptance_rate": "Estimated 30-40% for International Engineering Program"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1600000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Economics and Business Administration",
-    "Faculty of Humanities",
-    "Faculty of Bioenvironmental Sciences",
-    "Faculty of Health and Medical Sciences"
-  ],
-  "features": [
-    "All-English Engineering Program (Undergraduate & Graduate)",
-    "Strong Industry Ties with Nidec and Global Tech Firms",
-    "Practical Capstone Project Curriculum",
-    "Intensive Japanese Language Support for Career Integration"
-  ]
-}
+basic_info:
+  address: 18 Uzumasa Yamanomoto-cho, Ukyo-ku, Kyoto 615-8577, Japan
+  capacity: null
+  name_en: Kyoto University of Advanced Science
+  name_ja: 京都先端科学大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Engineering
+- Faculty of Economics and Business Administration
+- Faculty of Humanities
+- Faculty of Bioenvironmental Sciences
+- Faculty of Health and Medical Sciences
+features:
+- All-English Engineering Program (Undergraduate & Graduate)
+- Strong Industry Ties with Nidec and Global Tech Firms
+- Practical Capstone Project Curriculum
+- Intensive Japanese Language Support for Career Integration
+id: univ_kyoto-university-of-advanced-science-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 30-40% for International Engineering Program
+  international_students: 550
+tags:
+- All-English Engineering Program (Undergraduate & Graduate)
+- Strong Industry Ties with Nidec and Global Tech Firms
+- Practical Capstone Project Curriculum
+- Intensive Japanese Language Support for Career Integration
+thumbnail: /static/img/pin-univ.png
+title: Kyoto University of Advanced Science
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1600000
 ---
 
 ## 🏫 University Overview: The Evolution of KUAS

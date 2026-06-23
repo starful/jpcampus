@@ -1,58 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "〒606-8585 Kyoto, Sakyo Ward, Iwakura Kinomotocho 137",
-    "name_en": "Kyoto Seika University",
-    "name_ja": "京都精華大学",
-    "website": "https://www.kyoto-seika.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Manga",
-    "Faculty of Design",
-    "Faculty of Arts",
-    "Faculty of Media Creation",
-    "Faculty of Education"
-  ],
-  "features": [
-    "EJU 추천",
-    "포트폴리오 필수",
-    "창작 예술 중심",
-    "만화 연구 분야의 글로벌 리더",
-    "탄탄한 장학금 제도"
-  ],
-  "id": "univ_kyoto-seika-university-international-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "특정 학부 (예: 만화 학부)는 경쟁률이 매우 높음",
-    "enrollment_total": 4500,
-    "international_students": 1000
-  },
-  "tags": [
-    "EJU 추천",
-    "포트폴리오 필수",
-    "창작 예술 중심",
-    "만화 연구 분야의 글로벌 리더",
-    "탄탄한 장학금 제도"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "[2026] 교토 세이카 대학 유학 및 외국인 입시 가이드",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1450000
-  },
-  "description": "교토 세이카 대학 2026학년도 외국인 유학생 입시 요강, 만화·디자인·예술 학부 정보, 학비 및 장학금 혜택 등 일본 미술 유학을 위한 필수 가이드를 확인하세요!",
-  "seo_title": "[2026] 교토 세이카 대학 유학 및 외국인 입시 가이드 | JP Campus",
-  "seo_description": "교토 세이카 대학 2026학년도 외국인 유학생 입시 요강, 만화·디자인·예술 학부 정보, 학비 및 장학금 혜택 등 일본 미술 유학을 위한 필수 가이드를 확인하세요!"
-}
+basic_info:
+  address: 〒606-8585 Kyoto, Sakyo Ward, Iwakura Kinomotocho 137
+  name_en: Kyoto Seika University
+  name_ja: 京都精華大学
+  website: https://www.kyoto-seika.ac.jp/
+category: university
+date: '2026-06-12'
+description: 교토 세이카 대학 2026학년도 외국인 유학생 입시 요강, 만화·디자인·예술 학부 정보, 학비 및 장학금 혜택 등 일본 미술
+  유학을 위한 필수 가이드를 확인하세요!
+faculties:
+- Faculty of Manga
+- Faculty of Design
+- Faculty of Arts
+- Faculty of Media Creation
+- Faculty of Education
+features:
+- EJU 추천
+- 포트폴리오 필수
+- 창작 예술 중심
+- 만화 연구 분야의 글로벌 리더
+- 탄탄한 장학금 제도
+id: univ_kyoto-seika-university-international-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 교토 세이카 대학 2026학년도 외국인 유학생 입시 요강, 만화·디자인·예술 학부 정보, 학비 및 장학금 혜택 등 일본
+  미술 유학을 위한 필수 가이드를 확인하세요!
+seo_title: '[2026] 교토 세이카 대학 유학 및 외국인 입시 가이드 | JP Campus'
+stats:
+  acceptance_rate: '특정 학부 (예: 만화 학부)는 경쟁률이 매우 높음'
+  enrollment_total: 4500
+  international_students: 1000
+tags:
+- EJU 추천
+- 포트폴리오 필수
+- 창작 예술 중심
+- 만화 연구 분야의 글로벌 리더
+- 탄탄한 장학금 제도
+thumbnail: /static/img/pin-univ.png
+title: '[2026] 교토 세이카 대학 유학 및 외국인 입시 가이드'
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1450000
 ---
-
 
 ## 🏫 대학 개요 및 명성
 

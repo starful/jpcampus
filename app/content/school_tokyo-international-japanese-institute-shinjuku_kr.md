@@ -1,65 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区新宿2-13-6",
-    "capacity": 450,
-    "name_en": "Tokyo International Japanese Language Academy",
-    "name_ja": "東京国際日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学コース",
-      "total_fees": 1090000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学コース",
-      "total_fees": 1400000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "一般コース",
-      "total_fees": 1400000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "一般コース",
-      "total_fees": 1400000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학교 진학 집중",
-    "EJU 시험 대비 전문성",
-    "전용 학생 기숙사 지원",
-    "도쿄 신주쿠의 중심지에 위치"
-  ],
-  "id": "school_tokyo-international-japanese-institute-shinjuku",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6902165,
-    "lng": 139.7082301
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=102",
-  "stats": {
-    "capacity": 450,
-    "international_students": 380
-  },
-  "tags": [
-    "University Progression Focus",
-    "EJU Preparation Expertise",
-    "Dedicated Student Dormitory Support",
-    "Prime Location in Shinjuku, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "동경국제일본어학원",
-  "translated": true,
-  "tuition": {},
-  "description": "도쿄 신주쿠에 위치한 동경국제일본어학원은 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다. EJU 시험 대비에 특화된 커리큘럼과 학생 기숙사 지원을 통해 성공적인 일본 유학을 지원합니다."
-}
+basic_info:
+  address: 東京都新宿区新宿2-13-6
+  capacity: 450
+  name_en: Tokyo International Japanese Language Academy
+  name_ja: 東京国際日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学コース
+  total_fees: 1090000
+- admission_month: '4'
+  course_name: 進学コース
+  total_fees: 1400000
+- admission_month: '1'
+  course_name: 一般コース
+  total_fees: 1400000
+- admission_month: '7'
+  course_name: 一般コース
+  total_fees: 1400000
+date: '2026-01-28'
+description: 도쿄 신주쿠에 위치한 동경국제일본어학원은 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다. EJU 시험 대비에
+  특화된 커리큘럼과 학생 기숙사 지원을 통해 성공적인 일본 유학을 지원합니다.
+faculties: []
+features:
+- 대학교 진학 집중
+- EJU 시험 대비 전문성
+- 전용 학생 기숙사 지원
+- 도쿄 신주쿠의 중심지에 위치
+id: school_tokyo-international-japanese-institute-shinjuku
+lang: kr
+layout: school
+location:
+  lat: 35.6902165
+  lng: 139.7082301
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=102
+stats:
+  capacity: 450
+  international_students: 380
+tags:
+- University Progression Focus
+- EJU Preparation Expertise
+- Dedicated Student Dormitory Support
+- Prime Location in Shinjuku, Tokyo
+thumbnail: /static/img/pin-school.png
+title: 동경국제일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 이념

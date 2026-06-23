@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gifu-shotoku-gakuen-university-comprehensive-guide",
-  "title": "Gifu Shotoku Gakuen University",
-  "category": "university",
-  "tags": [
-    "One of the highest teacher employment rates in Japan",
-    "Buddhist educational philosophy based on 'The Spirit of Harmony'",
-    "Advanced practical training and simulation centers for Nursing and Education",
-    "Strategic location providing a peaceful study environment with easy access to Nagoya"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岐阜聖徳学園大学",
-    "name_en": "Gifu Shotoku Gakuen University",
-    "address": "1-38 Nakauzura, Gifu City, Gifu Prefecture, 500-8288, Japan",
-    "capacity": 3800
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Foreign Studies",
-    "Faculty of Economics and Information",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "One of the highest teacher employment rates in Japan",
-    "Buddhist educational philosophy based on 'The Spirit of Harmony'",
-    "Advanced practical training and simulation centers for Nursing and Education",
-    "Strategic location providing a peaceful study environment with easy access to Nagoya"
-  ]
-}
+basic_info:
+  address: 1-38 Nakauzura, Gifu City, Gifu Prefecture, 500-8288, Japan
+  capacity: 3800
+  name_en: Gifu Shotoku Gakuen University
+  name_ja: 岐阜聖徳学園大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Education
+- Faculty of Foreign Studies
+- Faculty of Economics and Information
+- Faculty of Nursing
+features:
+- One of the highest teacher employment rates in Japan
+- Buddhist educational philosophy based on 'The Spirit of Harmony'
+- Advanced practical training and simulation centers for Nursing and Education
+- Strategic location providing a peaceful study environment with easy access to Nagoya
+id: univ_gifu-shotoku-gakuen-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 65
+tags:
+- One of the highest teacher employment rates in Japan
+- Buddhist educational philosophy based on 'The Spirit of Harmony'
+- Advanced practical training and simulation centers for Nursing and Education
+- Strategic location providing a peaceful study environment with easy access to Nagoya
+thumbnail: /static/img/pin-univ.png
+title: Gifu Shotoku Gakuen University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

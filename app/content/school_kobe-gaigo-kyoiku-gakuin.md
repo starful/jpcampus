@@ -18,6 +18,9 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 950625
+date: '2026-06-12'
+description: Explore Kobe Institute of Foreign Languages. Find 2026 tuition fees,
+  course details, admission guides, and student reviews to study Japanese in Kobe.
 faculties: []
 features:
 - Dormitory Available
@@ -32,6 +35,9 @@ layout: school
 location:
   lat: 34.6716499
   lng: 135.1532515
+seo_description: Explore Kobe Institute of Foreign Languages. Find 2026 tuition fees,
+  course details, admission guides, and student reviews to study Japanese in Kobe.
+seo_title: 'Kobe Institute of Foreign Languages: Tuition & Admission | JP Campus'
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=365
 stats:
   capacity: 516
@@ -47,13 +53,7 @@ thumbnail: /static/img/pin-school.png
 title: Kobe Institute of Foreign Languages
 translated: true
 tuition: {}
-description: Explore Kobe Institute of Foreign Languages. Find 2026 tuition fees,
-  course details, admission guides, and student reviews to study Japanese in Kobe.
-seo_title: 'Kobe Institute of Foreign Languages: Tuition & Admission | JP Campus'
-seo_description: Explore Kobe Institute of Foreign Languages. Find 2026 tuition fees,
-  course details, admission guides, and student reviews to study Japanese in Kobe.
 ---
-
 
 ## School Overview & Philosophy
 

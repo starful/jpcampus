@@ -1,63 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "宮城県仙台市青葉区角五郎2-5-4",
-    "capacity": 100,
-    "name_en": "Richi no Mori Japanese Language School, Sendai Campus",
-    "name_ja": "理知の杜日本語学校仙台校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "Progression Course (2 Years)",
-      "total_fees": 1360000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "Progression Course (1 Year 6 Months)",
-      "total_fees": 1050000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "전용 기숙사 옵션 (1인실 포함)",
-    "대학 및 전문학교 진학 중심 (신가쿠)",
-    "EJU 전문 대비 수업",
-    "이과(Rikei) 및 미술/디자인 특화 트랙",
-    "비즈니스 일본어 및 전문 커뮤니케이션 교육",
-    "종합 장학금 프로그램",
-    "실용적인 회화 능력 강조",
-    "단기 연수 프로그램 이용 가능"
-  ],
-  "id": "school_richi-no-mori-japanese-language-school-sendai",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 38.2675554,
-    "lng": 140.8443022
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=570",
-  "stats": {
-    "capacity": 100,
-    "international_students": 95
-  },
-  "tags": [
-    "Dedicated Dormitory Options (including Single Rooms)",
-    "Strong University & Vocational Progression Focus (Shin-gaku)",
-    "Specialized EJU Preparation Classes",
-    "Science (Rikei) and Art/Design Specific Tracks",
-    "Business Japanese and Professional Communication Training",
-    "Comprehensive Scholarship Programs",
-    "Emphasis on Practical Conversation Skills",
-    "Short-term Study Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "리치노모리 일본어학교 센다이 캠퍼스",
-  "translated": true,
-  "tuition": {},
-  "description": "일본 대학 진학 및 취업을 위한 전문 교육 기관, 리치노모리 일본어학교 센다이 캠퍼스를 소개합니다. 센다이에서 집중적인 학습 환경과 저렴한 생활비를 누리세요."
-}
+basic_info:
+  address: 宮城県仙台市青葉区角五郎2-5-4
+  capacity: 100
+  name_en: Richi no Mori Japanese Language School, Sendai Campus
+  name_ja: 理知の杜日本語学校仙台校
+category: school
+courses:
+- admission_month: '4'
+  course_name: Progression Course (2 Years)
+  total_fees: 1360000
+- admission_month: '10'
+  course_name: Progression Course (1 Year 6 Months)
+  total_fees: 1050000
+date: '2026-01-28'
+description: 일본 대학 진학 및 취업을 위한 전문 교육 기관, 리치노모리 일본어학교 센다이 캠퍼스를 소개합니다. 센다이에서 집중적인 학습
+  환경과 저렴한 생활비를 누리세요.
+faculties: []
+features:
+- 전용 기숙사 옵션 (1인실 포함)
+- 대학 및 전문학교 진학 중심 (신가쿠)
+- EJU 전문 대비 수업
+- 이과(Rikei) 및 미술/디자인 특화 트랙
+- 비즈니스 일본어 및 전문 커뮤니케이션 교육
+- 종합 장학금 프로그램
+- 실용적인 회화 능력 강조
+- 단기 연수 프로그램 이용 가능
+id: school_richi-no-mori-japanese-language-school-sendai
+lang: kr
+layout: school
+location:
+  lat: 38.2675554
+  lng: 140.8443022
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=570
+stats:
+  capacity: 100
+  international_students: 95
+tags:
+- Dedicated Dormitory Options (including Single Rooms)
+- Strong University & Vocational Progression Focus (Shin-gaku)
+- Specialized EJU Preparation Classes
+- Science (Rikei) and Art/Design Specific Tracks
+- Business Japanese and Professional Communication Training
+- Comprehensive Scholarship Programs
+- Emphasis on Practical Conversation Skills
+- Short-term Study Programs Available
+thumbnail: /static/img/pin-school.png
+title: 리치노모리 일본어학교 센다이 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

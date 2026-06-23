@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_takasaki-city-university-of-economics-comprehensive-guide",
-  "title": "다카사키 경제대학교",
-  "category": "university",
-  "tags": [
-    "Public University Prestige",
-    "Pioneer in Regional Policy Studies",
-    "Exceptional Civil Service Placement",
-    "Affordable Living in Gunma Prefecture",
-    "Intensive Seminar-Based Learning"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "高崎経済大学",
-    "name_en": "Takasaki City University of Economics",
-    "address": "1300 Kaminamiemachi, Takasaki, Gunma 370-0801, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 135,
-    "acceptance_rate": "Approximately 22-28%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Regional Policy"
-  ],
-  "features": [
-    "공립 대학교의 명성",
-    "지역 정책 연구의 선구자",
-    "뛰어난 공무원 배출",
-    "저렴한 군마현 생활비",
-    "집중적인 세미나 중심 학습"
-  ],
-  "description": "다카사키 경제대학교는 경제 및 지역 개발 분야에 특화된 명문 공립 대학입니다. 저렴한 학비와 뛰어난 취업률을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1300 Kaminamiemachi, Takasaki, Gunma 370-0801, Japan
+  capacity: null
+  name_en: Takasaki City University of Economics
+  name_ja: 高崎経済大学
+category: university
+date: '2026-03-03'
+description: 다카사키 경제대학교는 경제 및 지역 개발 분야에 특화된 명문 공립 대학입니다. 저렴한 학비와 뛰어난 취업률을 자랑합니다.
+faculties:
+- Faculty of Economics
+- Faculty of Regional Policy
+features:
+- 공립 대학교의 명성
+- 지역 정책 연구의 선구자
+- 뛰어난 공무원 배출
+- 저렴한 군마현 생활비
+- 집중적인 세미나 중심 학습
+id: univ_takasaki-city-university-of-economics-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 22-28%
+  international_students: 135
+tags:
+- Public University Prestige
+- Pioneer in Regional Policy Studies
+- Exceptional Civil Service Placement
+- Affordable Living in Gunma Prefecture
+- Intensive Seminar-Based Learning
+thumbnail: /static/img/pin-univ.png
+title: 다카사키 경제대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

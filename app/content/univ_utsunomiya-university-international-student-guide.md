@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_utsunomiya-university-international-student-guide",
-  "title": "Utsunomiya University",
-  "category": "university",
-  "tags": [
-    "World-Class Optical Research Center (CORE)",
-    "Pioneer in Regional Design and Revitalization",
-    "Highly Specialized Agricultural Research (Tochigi Strawberry Science)",
-    "Strong Ties with Local Industry and Manufacturing"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宇都宮大学",
-    "name_en": "Utsunomiya University",
-    "address": "350 Mine-machi, Utsunomiya-shi, Tochigi 321-8505, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 240,
-    "acceptance_rate": "35% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Data Science",
-    "Faculty of International Studies",
-    "Faculty of Education",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "World-Class Optical Research Center (CORE)",
-    "Pioneer in Regional Design and Revitalization",
-    "Highly Specialized Agricultural Research (Tochigi Strawberry Science)",
-    "Strong Ties with Local Industry and Manufacturing"
-  ]
-}
+basic_info:
+  address: 350 Mine-machi, Utsunomiya-shi, Tochigi 321-8505, Japan
+  capacity: null
+  name_en: Utsunomiya University
+  name_ja: 宇都宮大学
+category: university
+date: '2026-02-13'
+faculties:
+- School of Data Science
+- Faculty of International Studies
+- Faculty of Education
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- World-Class Optical Research Center (CORE)
+- Pioneer in Regional Design and Revitalization
+- Highly Specialized Agricultural Research (Tochigi Strawberry Science)
+- Strong Ties with Local Industry and Manufacturing
+id: univ_utsunomiya-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35% (Estimated)
+  international_students: 240
+tags:
+- World-Class Optical Research Center (CORE)
+- Pioneer in Regional Design and Revitalization
+- Highly Specialized Agricultural Research (Tochigi Strawberry Science)
+- Strong Ties with Local Industry and Manufacturing
+thumbnail: /static/img/pin-univ.png
+title: Utsunomiya University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Gateway to Excellence in Tochigi

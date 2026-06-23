@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seikei-university-guide-international-students",
-  "title": "Seikei University",
-  "category": "university",
-  "tags": [
-    "Integrated Campus in Kichijoji",
-    "Strong Historical Ties to the Mitsubishi Group",
-    "Futuristic 'Planet' Library Pods",
-    "Focus on Small-Group Seminar Education"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "成蹊大学",
-    "name_en": "Seikei University",
-    "address": "3-3-1 Kichijoji-kitamachi, Musashino-shi, Tokyo 180-8633, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "Estimated 20-30% for International Admissions"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of Literature",
-    "Faculty of Science and Technology",
-    "Faculty of Business"
-  ],
-  "features": [
-    "Integrated Campus in Kichijoji",
-    "Strong Historical Ties to the Mitsubishi Group",
-    "Futuristic 'Planet' Library Pods",
-    "Focus on Small-Group Seminar Education"
-  ]
-}
+basic_info:
+  address: 3-3-1 Kichijoji-kitamachi, Musashino-shi, Tokyo 180-8633, Japan
+  capacity: null
+  name_en: Seikei University
+  name_ja: 成蹊大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Economics
+- Faculty of Law
+- Faculty of Literature
+- Faculty of Science and Technology
+- Faculty of Business
+features:
+- Integrated Campus in Kichijoji
+- Strong Historical Ties to the Mitsubishi Group
+- Futuristic 'Planet' Library Pods
+- Focus on Small-Group Seminar Education
+id: univ_seikei-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 20-30% for International Admissions
+  international_students: 320
+tags:
+- Integrated Campus in Kichijoji
+- Strong Historical Ties to the Mitsubishi Group
+- Futuristic 'Planet' Library Pods
+- Focus on Small-Group Seminar Education
+thumbnail: /static/img/pin-univ.png
+title: Seikei University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

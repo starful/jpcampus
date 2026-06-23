@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.5年コース
   total_fees: 1045000
+date: '2026-01-28'
 faculties: []
 features:
 - Comprehensive preparation for higher education (進学)

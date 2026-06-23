@@ -1,54 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "〒152-8550 東京都目黒区大岡山2-12-1",
-    "name_en": "Tokyo Institute of Technology",
-    "name_ja": "東京工業大学",
-    "website": "https://www.titech.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Science",
-    "School of Engineering",
-    "School of Materials and Chemical Technology",
-    "School of Computing",
-    "School of Environment and Society",
-    "Institute for Liberal Arts"
-  ],
-  "features": [
-    "SGU",
-    "영어 프로그램",
-    "기숙사",
-    "장학금",
-    "연구 중심"
-  ],
-  "id": "univ_tokyo-institute-of-technology",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 1300
-  },
-  "tags": [
-    "SGU",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Research-Intensive"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도쿄 공업 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 635400
-  },
-  "description": "일본 최고의 과학 기술 대학 중 하나인 도쿄 공업 대학에 대해 알아보세요. 영어 프로그램, 학비, 기숙사 정보 등을 제공합니다."
-}
+basic_info:
+  address: 〒152-8550 東京都目黒区大岡山2-12-1
+  name_en: Tokyo Institute of Technology
+  name_ja: 東京工業大学
+  website: https://www.titech.ac.jp/
+category: university
+date: '2026-01-28'
+description: 일본 최고의 과학 기술 대학 중 하나인 도쿄 공업 대학에 대해 알아보세요. 영어 프로그램, 학비, 기숙사 정보 등을 제공합니다.
+faculties:
+- School of Science
+- School of Engineering
+- School of Materials and Chemical Technology
+- School of Computing
+- School of Environment and Society
+- Institute for Liberal Arts
+features:
+- SGU
+- 영어 프로그램
+- 기숙사
+- 장학금
+- 연구 중심
+id: univ_tokyo-institute-of-technology
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20%
+  international_students: 1300
+tags:
+- SGU
+- English Program
+- Dormitory
+- Scholarship
+- Research-Intensive
+thumbnail: /static/img/pin-univ.png
+title: 도쿄 공업 대학
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 635400
 ---
 
 ## 대학 개요 및 명성

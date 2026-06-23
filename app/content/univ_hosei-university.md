@@ -5,6 +5,7 @@ basic_info:
   name_ja: 法政大学
   website: https://www.hosei.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Law
 - Faculty of Letters

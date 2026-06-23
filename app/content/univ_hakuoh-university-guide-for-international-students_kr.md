@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hakuoh-university-guide-for-international-students",
-  "title": "하쿠오 대학교 (Hakuoh University)",
-  "description": "탁월한 취업 지원과 실무 중심 교육으로 유명한 하쿠오 대학교는 도쿄 인근의 편리한 위치와 저렴한 생활비를 자랑하는 일본의 명문 사립대학교입니다.",
-  "category": "university",
-  "tags": [
-    "탁월한 커리어 지원 및 높은 취업률",
-    "강력한 스포츠 문화 (유명 농구부)",
-    "도쿄 접근성이 뛰어난 오야마역 인근의 전략적 위치",
-    "공무원 및 교원 임용 시험 특화 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "白鴎大学",
-    "name_en": "Hakuoh University",
-    "address": "1117 Daigyoji, Oyama-shi, Tochigi, 323-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "약 45-55% (추정)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 800000
-  },
-  "faculties": [
-    "경영학부",
-    "법학부",
-    "교육학부"
-  ],
-  "features": [
-    "탁월한 커리어 지원 및 높은 취업률",
-    "강력한 스포츠 문화 (유명 농구부)",
-    "도쿄 접근성이 뛰어난 오야마역 인근의 전략적 위치",
-    "공무원 및 교원 임용 시험 특화 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1117 Daigyoji, Oyama-shi, Tochigi, 323-8585, Japan
+  capacity: null
+  name_en: Hakuoh University
+  name_ja: 白鴎大学
+category: university
+date: '2026-03-15'
+description: 탁월한 취업 지원과 실무 중심 교육으로 유명한 하쿠오 대학교는 도쿄 인근의 편리한 위치와 저렴한 생활비를 자랑하는 일본의 명문
+  사립대학교입니다.
+faculties:
+- 경영학부
+- 법학부
+- 교육학부
+features:
+- 탁월한 커리어 지원 및 높은 취업률
+- 강력한 스포츠 문화 (유명 농구부)
+- 도쿄 접근성이 뛰어난 오야마역 인근의 전략적 위치
+- 공무원 및 교원 임용 시험 특화 지원
+id: univ_hakuoh-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 약 45-55% (추정)
+  international_students: 145
+tags:
+- 탁월한 커리어 지원 및 높은 취업률
+- 강력한 스포츠 문화 (유명 농구부)
+- 도쿄 접근성이 뛰어난 오야마역 인근의 전략적 위치
+- 공무원 및 교원 임용 시험 특화 지원
+thumbnail: /static/img/pin-univ.png
+title: 하쿠오 대학교 (Hakuoh University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 800000
 ---
 
 ## 🏫 대학 개요

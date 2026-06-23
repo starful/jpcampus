@@ -1,52 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "沖縄県那覇市樋川1-1-77",
-    "capacity": 60,
-    "name_en": "Fuji Gakuen IT College Okinawa (Japanese Language Division)",
-    "name_ja": "学校法人フジ学園専門学校ITカレッジ沖縄"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語ビジネスコース",
-      "total_fees": 1585000
-    }
-  ],
-  "description": "후지 학원 IT 칼리지 오키나와는 비즈니스 및 IT에 중점을 둔 전문적인 일본어 프로그램을 제공하여, 일본에서의 직업 연구 및 커리어를 위한 길을 열어줍니다.",
-  "faculties": [],
-  "features": [
-    "통합 기숙사 시설",
-    "EJU 준비 및 고등 교육 지도",
-    "전문적인 일본 비즈니스 커리큘럼",
-    "직업 IT 연구로의 진학",
-    "실용적인 회화 기술에 중점"
-  ],
-  "id": "school_it-college-okinawa-japanese-program",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 26.2106907,
-    "lng": 127.68611
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=599",
-  "stats": {
-    "capacity": 60,
-    "international_students": 55
-  },
-  "tags": [
-    "Integrated Dormitory Facilities",
-    "EJU Preparation and Higher Education Guidance",
-    "Specialized Japanese Business Curriculum",
-    "Pathway to Vocational IT Studies",
-    "Focus on Practical Conversation Skills"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "후지 학원 IT 칼리지 오키나와 (일본어 과정)",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 沖縄県那覇市樋川1-1-77
+  capacity: 60
+  name_en: Fuji Gakuen IT College Okinawa (Japanese Language Division)
+  name_ja: 学校法人フジ学園専門学校ITカレッジ沖縄
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語ビジネスコース
+  total_fees: 1585000
+date: '2026-01-28'
+description: 후지 학원 IT 칼리지 오키나와는 비즈니스 및 IT에 중점을 둔 전문적인 일본어 프로그램을 제공하여, 일본에서의 직업 연구
+  및 커리어를 위한 길을 열어줍니다.
+faculties: []
+features:
+- 통합 기숙사 시설
+- EJU 준비 및 고등 교육 지도
+- 전문적인 일본 비즈니스 커리큘럼
+- 직업 IT 연구로의 진학
+- 실용적인 회화 기술에 중점
+id: school_it-college-okinawa-japanese-program
+lang: kr
+layout: school
+location:
+  lat: 26.2106907
+  lng: 127.68611
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=599
+stats:
+  capacity: 60
+  international_students: 55
+tags:
+- Integrated Dormitory Facilities
+- EJU Preparation and Higher Education Guidance
+- Specialized Japanese Business Curriculum
+- Pathway to Vocational IT Studies
+- Focus on Practical Conversation Skills
+thumbnail: /static/img/pin-school.png
+title: 후지 학원 IT 칼리지 오키나와 (일본어 과정)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

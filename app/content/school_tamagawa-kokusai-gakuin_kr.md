@@ -1,67 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都台東区浅草橋5-15-10　玉川国際ビル",
-    "capacity": 400,
-    "name_en": "Tamagawa International Academy",
-    "name_ja": "玉川国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1358000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1197000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1044000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 901500
-    }
-  ],
-  "description": "玉川国際学院(TKG)은 도쿄 아사쿠사바시에 위치한 어학교로, 기숙사 옵션을 제공하며 대학 진학을 전문으로 합니다. EJU 및 JLPT 대비 강좌와 체계적인 진학 프로그램을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "대학 진학에 강력한 집중",
-    "EJU 및 JLPT 대비 강좌",
-    "도쿄도 다이토구 (아사쿠사바시) 위치",
-    "체계적인 장기 진학 프로그램"
-  ],
-  "id": "school_tamagawa-kokusai-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7009109,
-    "lng": 139.7836321
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=151",
-  "stats": {
-    "capacity": 400,
-    "international_students": 360
-  },
-  "tags": [
-    "Dormitory Accommodation Available",
-    "Strong Focus on University Advancement",
-    "EJU and JLPT Preparation Courses",
-    "Located in Taito Ward, Tokyo (Asakusabashi)",
-    "Structured Long-Term Advancement Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "다마가와 국제학원 (TKG)",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都台東区浅草橋5-15-10　玉川国際ビル
+  capacity: 400
+  name_en: Tamagawa International Academy
+  name_ja: 玉川国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1358000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1197000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1044000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 901500
+date: '2026-01-28'
+description: 玉川国際学院(TKG)은 도쿄 아사쿠사바시에 위치한 어학교로, 기숙사 옵션을 제공하며 대학 진학을 전문으로 합니다. EJU 및
+  JLPT 대비 강좌와 체계적인 진학 프로그램을 제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- 대학 진학에 강력한 집중
+- EJU 및 JLPT 대비 강좌
+- 도쿄도 다이토구 (아사쿠사바시) 위치
+- 체계적인 장기 진학 프로그램
+id: school_tamagawa-kokusai-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.7009109
+  lng: 139.7836321
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=151
+stats:
+  capacity: 400
+  international_students: 360
+tags:
+- Dormitory Accommodation Available
+- Strong Focus on University Advancement
+- EJU and JLPT Preparation Courses
+- Located in Taito Ward, Tokyo (Asakusabashi)
+- Structured Long-Term Advancement Programs
+thumbnail: /static/img/pin-school.png
+title: 다마가와 국제학원 (TKG)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

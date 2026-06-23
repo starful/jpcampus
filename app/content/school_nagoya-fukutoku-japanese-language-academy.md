@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1.3年コース
   total_fees: 857500
+date: '2026-01-28'
 description: 'Nagoya Futoku Japanese Language Academy: A supportive environment in
   central Nagoya for mastering Japanese, preparing for higher education, and experiencing
   Japanese culture. Features small class sizes, personalized learning, and comprehensive

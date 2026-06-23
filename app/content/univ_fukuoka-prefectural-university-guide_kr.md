@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukuoka-prefectural-university-guide",
-  "title": "후쿠오카 현립 대학",
-  "category": "university",
-  "tags": [
-    "사회 복지 및 보건 과학 분야의 최고 기관",
-    "높은 국가 전문 자격 시험 합격률",
-    "소규모 학급과 맞춤형 학업 지도",
-    "후쿠오카 지역 사회 연구와의 깊은 통합"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福岡県立大学",
-    "name_en": "Fukuoka Prefectural University",
-    "address": "4395 Ita, Tagawa City, Fukuoka Prefecture 827-0002, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "종합 인간 과학부",
-    "간호학부"
-  ],
-  "features": [
-    "사회 복지 및 보건 과학 분야의 최고 기관",
-    "높은 국가 전문 자격 시험 합격률",
-    "소규모 학급과 맞춤형 학업 지도",
-    "후쿠오카 지역 사회 연구와의 깊은 통합"
-  ],
-  "description": "후쿠오카 현립 대학은 사회 복지 및 보건 과학 분야에서 명성이 높은 공립 대학입니다. 전문적인 학업 지도와 지역 사회와의 깊은 연계를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 4395 Ita, Tagawa City, Fukuoka Prefecture 827-0002, Japan
+  capacity: null
+  name_en: Fukuoka Prefectural University
+  name_ja: 福岡県立大学
+category: university
+date: '2026-03-03'
+description: 후쿠오카 현립 대학은 사회 복지 및 보건 과학 분야에서 명성이 높은 공립 대학입니다. 전문적인 학업 지도와 지역 사회와의 깊은
+  연계를 제공합니다.
+faculties:
+- 종합 인간 과학부
+- 간호학부
+features:
+- 사회 복지 및 보건 과학 분야의 최고 기관
+- 높은 국가 전문 자격 시험 합격률
+- 소규모 학급과 맞춤형 학업 지도
+- 후쿠오카 지역 사회 연구와의 깊은 통합
+id: univ_fukuoka-prefectural-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 15
+tags:
+- 사회 복지 및 보건 과학 분야의 최고 기관
+- 높은 국가 전문 자격 시험 합격률
+- 소규모 학급과 맞춤형 학업 지도
+- 후쿠오카 지역 사회 연구와의 깊은 통합
+thumbnail: /static/img/pin-univ.png
+title: 후쿠오카 현립 대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

@@ -1,54 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "1-23-1 Komazawa, Setagaya-ku, Tokyo 154-8525, Japan",
-    "name_en": "Komazawa University",
-    "name_ja": "駒澤大学",
-    "website": "https://www.komazawa-u.ac.jp/"
-  },
-  "category": "university",
-  "description": "고마자와 대학교는 도쿄에 위치한 사립 대학으로, 젠 불교 철학에 깊은 뿌리를 두고 있습니다. 다양한 학부와 국제 학생을 위한 강력한 지원을 제공합니다.",
-  "faculties": [
-    "Faculty of Buddhist Studies",
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of Business Administration",
-    "Faculty of Global Media Studies",
-    "Faculty of Medical and Health Sciences",
-    "Faculty of Psychology"
-  ],
-  "features": [
-    "EJU 필수",
-    "기숙사 제공",
-    "장학금 제도",
-    "일본어 학습 지원"
-  ],
-  "id": "univ_komazawa-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "경쟁률 높음 (공식 발표되지 않음)",
-    "international_students": 400
-  },
-  "tags": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Japanese Language Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "고마자와 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  }
-}
+basic_info:
+  address: 1-23-1 Komazawa, Setagaya-ku, Tokyo 154-8525, Japan
+  name_en: Komazawa University
+  name_ja: 駒澤大学
+  website: https://www.komazawa-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 고마자와 대학교는 도쿄에 위치한 사립 대학으로, 젠 불교 철학에 깊은 뿌리를 두고 있습니다. 다양한 학부와 국제 학생을 위한
+  강력한 지원을 제공합니다.
+faculties:
+- Faculty of Buddhist Studies
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Law
+- Faculty of Business Administration
+- Faculty of Global Media Studies
+- Faculty of Medical and Health Sciences
+- Faculty of Psychology
+features:
+- EJU 필수
+- 기숙사 제공
+- 장학금 제도
+- 일본어 학습 지원
+id: univ_komazawa-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 경쟁률 높음 (공식 발표되지 않음)
+  international_students: 400
+tags:
+- EJU Required
+- Dormitory
+- Scholarship
+- Japanese Language Support
+thumbnail: /static/img/pin-univ.png
+title: 고마자와 대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 학교 소개

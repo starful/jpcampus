@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1384000
+date: '2026-01-28'
 description: Located in Tokyo's Sendagi district, LABO Japanese Language Institute
   provides comprehensive Japanese language education with a focus on preparing students
   for higher education, especially in fine arts and design.

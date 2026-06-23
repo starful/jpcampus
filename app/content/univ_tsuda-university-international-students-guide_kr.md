@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tsuda-university-international-students-guide",
-  "title": "쓰다 쥬쿠 대학교",
-  "category": "university",
-  "tags": [
-    "Pioneer of Women's Higher Education",
-    "Small-group Intensive English Programs",
-    "EJU and JLPT N1 Recommended",
-    "High Employment Rate for Women",
-    "Global Leadership Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "津田塾大学",
-    "name_en": "Tsuda University",
-    "address": "2-1-1 Tsuda-machi, Kodaira-shi, Tokyo 187-8577, Japan",
-    "capacity": 3150
-  },
-  "stats": {
-    "international_students": 75,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Faculty of Policy Studies",
-    "Graduate School of Literary Studies",
-    "Graduate School of International and Cultural Studies",
-    "Graduate School of Science"
-  ],
-  "features": [
-    "여성 고등 교육의 선구자",
-    "소규모 집중 영어 프로그램",
-    "EJU 및 JLPT N1 추천",
-    "여성의 높은 취업률",
-    "글로벌 리더십 집중"
-  ],
-  "description": "쓰다 쥬쿠 대학교는 일본의 명문 여자 대학교 중 하나입니다. 국제 학생들을 위한 다양한 지원 시스템과 높은 취업률을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-1 Tsuda-machi, Kodaira-shi, Tokyo 187-8577, Japan
+  capacity: 3150
+  name_en: Tsuda University
+  name_ja: 津田塾大学
+category: university
+date: '2026-02-13'
+description: 쓰다 쥬쿠 대학교는 일본의 명문 여자 대학교 중 하나입니다. 국제 학생들을 위한 다양한 지원 시스템과 높은 취업률을 자랑합니다.
+faculties:
+- Faculty of Liberal Arts
+- Faculty of Policy Studies
+- Graduate School of Literary Studies
+- Graduate School of International and Cultural Studies
+- Graduate School of Science
+features:
+- 여성 고등 교육의 선구자
+- 소규모 집중 영어 프로그램
+- EJU 및 JLPT N1 추천
+- 여성의 높은 취업률
+- 글로벌 리더십 집중
+id: univ_tsuda-university-international-students-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 75
+tags:
+- Pioneer of Women's Higher Education
+- Small-group Intensive English Programs
+- EJU and JLPT N1 Recommended
+- High Employment Rate for Women
+- Global Leadership Focus
+thumbnail: /static/img/pin-univ.png
+title: 쓰다 쥬쿠 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 대학교 개요

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yokohama-college-of-commerce-guide",
-  "title": "Yokohama College of Commerce",
-  "category": "university",
-  "tags": [
-    "Practical Business Focus",
-    "Strong Tourism Industry Ties",
-    "Strategic Location in Yokohama Port City",
-    "Specialized International Student Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "横浜商科大学",
-    "name_en": "Yokohama College of Commerce",
-    "address": "4-11-1 Higashiterao, Tsurumi-ku, Yokohama, Kanagawa 230-8577, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 250,
-    "acceptance_rate": "75% - 85%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Commerce",
-    "Department of Commerce",
-    "Department of Tourism Management",
-    "Department of Management Information"
-  ],
-  "features": [
-    "Practical Business Focus",
-    "Strong Tourism Industry Ties",
-    "Strategic Location in Yokohama Port City",
-    "Specialized International Student Support"
-  ]
-}
+basic_info:
+  address: 4-11-1 Higashiterao, Tsurumi-ku, Yokohama, Kanagawa 230-8577, Japan
+  capacity: null
+  name_en: Yokohama College of Commerce
+  name_ja: 横浜商科大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Commerce
+- Department of Commerce
+- Department of Tourism Management
+- Department of Management Information
+features:
+- Practical Business Focus
+- Strong Tourism Industry Ties
+- Strategic Location in Yokohama Port City
+- Specialized International Student Support
+id: univ_yokohama-college-of-commerce-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75% - 85%
+  international_students: 250
+tags:
+- Practical Business Focus
+- Strong Tourism Industry Ties
+- Strategic Location in Yokohama Port City
+- Specialized International Student Support
+thumbnail: /static/img/pin-univ.png
+title: Yokohama College of Commerce
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview: The Gateway to Business in Japan

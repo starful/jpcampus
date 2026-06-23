@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kumamoto-gakuen-university-comprehensive-guide",
-  "title": "구마모토 가쿠엔 대학교 (Kumamoto Gakuen University)",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "지역 비즈니스 및 상업 분야와의 강력한 협력 관계",
-    "외국인 유학생을 위한 전문적인 일본어 및 일본 문화 지원",
-    "낮은 생활비로 높은 삶의 질을 누릴 수 있는 구마모토시 위치",
-    "구마모토의 확장되는 반도체 허브(TSMC 영향)와 인접"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "熊本学園大学",
-    "name_en": "Kumamoto Gakuen University",
-    "address": "2-5-1 Oe, Chuo-ku, Kumamoto City, Kumamoto 862-8680, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 750000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Commerce",
-    "Faculty of Foreign Languages",
-    "Faculty of Social Welfare"
-  ],
-  "features": [
-    "지역 비즈니스 및 상업 분야와의 강력한 협력 관계",
-    "외국인 유학생을 위한 전문적인 일본어 및 일본 문화 지원",
-    "낮은 생활비로 높은 삶의 질을 누릴 수 있는 구마모토시 위치",
-    "구마모토의 확장되는 반도체 허브(TSMC 영향)와 인접"
-  ],
-  "description": "구마모토 가쿠엔 대학교는 80년 이상의 역사를 가진 규슈 지역의 명문 사립 대학으로, 경제, 경영, 사회복지 등 다양한 분야에서 실무 중심의 교육을 제공하며 유학생을 위한 체계적인 지원 시스템을 갖추고 있습니다."
-}
+basic_info:
+  address: 2-5-1 Oe, Chuo-ku, Kumamoto City, Kumamoto 862-8680, Japan
+  capacity: null
+  name_en: Kumamoto Gakuen University
+  name_ja: 熊本学園大学
+category: university
+date: '2026-03-15'
+description: 구마모토 가쿠엔 대학교는 80년 이상의 역사를 가진 규슈 지역의 명문 사립 대학으로, 경제, 경영, 사회복지 등 다양한 분야에서
+  실무 중심의 교육을 제공하며 유학생을 위한 체계적인 지원 시스템을 갖추고 있습니다.
+faculties:
+- Faculty of Economics
+- Faculty of Commerce
+- Faculty of Foreign Languages
+- Faculty of Social Welfare
+features:
+- 지역 비즈니스 및 상업 분야와의 강력한 협력 관계
+- 외국인 유학생을 위한 전문적인 일본어 및 일본 문화 지원
+- 낮은 생활비로 높은 삶의 질을 누릴 수 있는 구마모토시 위치
+- 구마모토의 확장되는 반도체 허브(TSMC 영향)와 인접
+id: univ_kumamoto-gakuen-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 165
+tags:
+- 지역 비즈니스 및 상업 분야와의 강력한 협력 관계
+- 외국인 유학생을 위한 전문적인 일본어 및 일본 문화 지원
+- 낮은 생활비로 높은 삶의 질을 누릴 수 있는 구마모토시 위치
+- 구마모토의 확장되는 반도체 허브(TSMC 영향)와 인접
+thumbnail: /static/img/pin-univ.png
+title: 구마모토 가쿠엔 대학교 (Kumamoto Gakuen University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 750000
 ---
 
 ## 🏫 대학 개요

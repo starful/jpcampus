@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_obihiro-university-of-agriculture-and-veterinary-medicine",
-  "title": "오비히로 축산대학교",
-  "category": "university",
-  "tags": [
-    "일본 유일의 농축산 수의학 전문 국립대학",
-    "홋카이도 대학과의 공동 수의학 프로그램 운영",
-    "일본의 주요 식량 생산 기지인 도카치 지역에 위치",
-    "원생동물 질병 연구 센터 소재"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "帯広畜産大学",
-    "name_en": "Obihiro University of Agriculture and Veterinary Medicine",
-    "address": "Inada-cho, Obihiro, Hokkaido 080-8555, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 58,
-    "acceptance_rate": "15-25% (수의학과의 경우 경쟁률 매우 높음)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "농업과학부",
-    "수의학과",
-    "축산 및 농업학과",
-    "축산농학대학원"
-  ],
-  "features": [
-    "일본 유일의 농축산 수의학 전문 국립대학",
-    "홋카이도 대학과의 공동 수의학 프로그램 운영",
-    "일본의 주요 식량 생산 기지인 도카치 지역에 위치",
-    "원생동물 질병 연구 센터 소재"
-  ],
-  "description": "홋카이도에 위치한 오비히로 축산대학교는 일본 유일의 농축산 수의학 전문 국립대학입니다. 도카치 지역의 풍부한 자연 환경과 실용적인 교육을 통해 세계적인 전문가를 양성합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: Inada-cho, Obihiro, Hokkaido 080-8555, Japan
+  capacity: null
+  name_en: Obihiro University of Agriculture and Veterinary Medicine
+  name_ja: 帯広畜産大学
+category: university
+date: '2026-02-13'
+description: 홋카이도에 위치한 오비히로 축산대학교는 일본 유일의 농축산 수의학 전문 국립대학입니다. 도카치 지역의 풍부한 자연 환경과 실용적인
+  교육을 통해 세계적인 전문가를 양성합니다.
+faculties:
+- 농업과학부
+- 수의학과
+- 축산 및 농업학과
+- 축산농학대학원
+features:
+- 일본 유일의 농축산 수의학 전문 국립대학
+- 홋카이도 대학과의 공동 수의학 프로그램 운영
+- 일본의 주요 식량 생산 기지인 도카치 지역에 위치
+- 원생동물 질병 연구 센터 소재
+id: univ_obihiro-university-of-agriculture-and-veterinary-medicine
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (수의학과의 경우 경쟁률 매우 높음)
+  international_students: 58
+tags:
+- 일본 유일의 농축산 수의학 전문 국립대학
+- 홋카이도 대학과의 공동 수의학 프로그램 운영
+- 일본의 주요 식량 생산 기지인 도카치 지역에 위치
+- 원생동물 질병 연구 센터 소재
+thumbnail: /static/img/pin-univ.png
+title: 오비히로 축산대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 소개

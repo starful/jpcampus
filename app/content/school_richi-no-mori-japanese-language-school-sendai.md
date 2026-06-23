@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Progression Course (1 Year 6 Months)
   total_fees: 1050000
+date: '2026-01-28'
 faculties: []
 features:
 - Dedicated Dormitory Options (including Single Rooms)

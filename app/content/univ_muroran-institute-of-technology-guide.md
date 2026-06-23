@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_muroran-institute-of-technology-guide",
-  "title": "Muroran Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Leading National Engineering University",
-    "Strong Aerospace and Materials Research",
-    "High Employment Rate in Major Corporations",
-    "Affordable Living Costs in Hokkaido",
-    "Specialized Glocal Education System"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "室蘭工業大学",
-    "name_en": "Muroran Institute of Technology",
-    "address": "27-1 Mizumoto-cho, Muroran, Hokkaido 050-8585, Japan",
-    "capacity": "Approximately 3,300 students"
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Department of Creation Engineering",
-    "Department of System Design Engineering",
-    "Graduate School of Engineering"
-  ],
-  "features": [
-    "Leading National Engineering University",
-    "Strong Aerospace and Materials Research",
-    "High Employment Rate in Major Corporations",
-    "Affordable Living Costs in Hokkaido",
-    "Specialized Glocal Education System"
-  ]
-}
+basic_info:
+  address: 27-1 Mizumoto-cho, Muroran, Hokkaido 050-8585, Japan
+  capacity: Approximately 3,300 students
+  name_en: Muroran Institute of Technology
+  name_ja: 室蘭工業大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Engineering
+- Department of Creation Engineering
+- Department of System Design Engineering
+- Graduate School of Engineering
+features:
+- Leading National Engineering University
+- Strong Aerospace and Materials Research
+- High Employment Rate in Major Corporations
+- Affordable Living Costs in Hokkaido
+- Specialized Glocal Education System
+id: univ_muroran-institute-of-technology-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 185
+tags:
+- Leading National Engineering University
+- Strong Aerospace and Materials Research
+- High Employment Rate in Major Corporations
+- Affordable Living Costs in Hokkaido
+- Specialized Glocal Education System
+thumbnail: /static/img/pin-univ.png
+title: Muroran Institute of Technology
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

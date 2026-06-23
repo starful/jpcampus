@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toyama-prefectural-university-guide",
-  "title": "Toyama Prefectural University",
-  "category": "university",
-  "tags": [
-    "Located in the Pharmaceutical Capital of Japan",
-    "State-of-the-art Manufacturing (Monozukuri) Facilities",
-    "Extremely High Employment Rate (Nearly 100%)",
-    "Strong Ties with Regional High-Tech Industries"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "富山県立大学",
-    "name_en": "Toyama Prefectural University",
-    "address": "5180 Kurokawa, Imizu, Toyama 939-0398, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Located in the Pharmaceutical Capital of Japan",
-    "State-of-the-art Manufacturing (Monozukuri) Facilities",
-    "Extremely High Employment Rate (Nearly 100%)",
-    "Strong Ties with Regional High-Tech Industries"
-  ]
-}
+basic_info:
+  address: 5180 Kurokawa, Imizu, Toyama 939-0398, Japan
+  capacity: null
+  name_en: Toyama Prefectural University
+  name_ja: 富山県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Engineering
+- Faculty of Nursing
+features:
+- Located in the Pharmaceutical Capital of Japan
+- State-of-the-art Manufacturing (Monozukuri) Facilities
+- Extremely High Employment Rate (Nearly 100%)
+- Strong Ties with Regional High-Tech Industries
+id: univ_toyama-prefectural-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 45
+tags:
+- Located in the Pharmaceutical Capital of Japan
+- State-of-the-art Manufacturing (Monozukuri) Facilities
+- Extremely High Employment Rate (Nearly 100%)
+- Strong Ties with Regional High-Tech Industries
+thumbnail: /static/img/pin-univ.png
+title: Toyama Prefectural University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Gateway to Japanese Engineering Excellence

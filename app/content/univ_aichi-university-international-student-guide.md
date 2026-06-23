@@ -6,6 +6,7 @@ basic_info:
   name_en: Aichi University
   name_ja: 愛知大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Law
 - Faculty of Economics

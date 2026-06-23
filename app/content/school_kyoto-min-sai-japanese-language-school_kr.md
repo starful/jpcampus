@@ -1,74 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市右京区西京極北大入町69",
-    "capacity": 542,
-    "name_en": "Kyoto Min-Sai Japanese Language School",
-    "name_ja": "京都民際日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "進学コース Ⅳ",
-      "total_fees": 1052775
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コース Ⅲ",
-      "total_fees": 1430525
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学コース Ⅱ",
-      "total_fees": 1430525
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学コース Ⅰ",
-      "total_fees": 1619200
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般コース Ⅰ・Ⅱ・Ⅲ・Ⅳ",
-      "total_fees": 1619200
-    }
-  ],
-  "description": "교토 민사이 일본어 학교는 대학 진학 준비에 중점을 둔 종합적인 일본어 교육을 제공하며, EJU 시험과 실용적인 회화 능력 향상을 위한 특별 트랙을 운영합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사/숙소 지원",
-    "EJU (일본 유학 시험) 고득점 대비",
-    "이과 특화 트랙 지원 (Rika)",
-    "집중적인 대학 및 대학원 진학 상담",
-    "실용적인 회화 능력 향상에 집중",
-    "유연한 단기 및 일반 학습 옵션"
-  ],
-  "id": "school_kyoto-min-sai-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.9990854,
-    "lng": 135.7164451
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=317",
-  "stats": {
-    "capacity": 542,
-    "international_students": 450
-  },
-  "tags": [
-    "Dedicated Dormitory/Accommodation Support",
-    "High-level EJU (Examination for Japanese University Admission for International Students) Preparation",
-    "Specialized Science Track Support (Rika)",
-    "Intensive University and Graduate School Progression Counseling",
-    "Focus on Practical Conversational Fluency",
-    "Flexible Short-Term and General Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "교토 민사이 일본어 학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 京都府京都市右京区西京極北大入町69
+  capacity: 542
+  name_en: Kyoto Min-Sai Japanese Language School
+  name_ja: 京都民際日本語学校
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学コース Ⅳ
+  total_fees: 1052775
+- admission_month: '10'
+  course_name: 進学コース Ⅲ
+  total_fees: 1430525
+- admission_month: '7'
+  course_name: 進学コース Ⅱ
+  total_fees: 1430525
+- admission_month: '4'
+  course_name: 進学コース Ⅰ
+  total_fees: 1619200
+- admission_month: 4,7,10,1
+  course_name: 一般コース Ⅰ・Ⅱ・Ⅲ・Ⅳ
+  total_fees: 1619200
+date: '2026-01-28'
+description: 교토 민사이 일본어 학교는 대학 진학 준비에 중점을 둔 종합적인 일본어 교육을 제공하며, EJU 시험과 실용적인 회화 능력
+  향상을 위한 특별 트랙을 운영합니다.
+faculties: []
+features:
+- 기숙사/숙소 지원
+- EJU (일본 유학 시험) 고득점 대비
+- 이과 특화 트랙 지원 (Rika)
+- 집중적인 대학 및 대학원 진학 상담
+- 실용적인 회화 능력 향상에 집중
+- 유연한 단기 및 일반 학습 옵션
+id: school_kyoto-min-sai-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 34.9990854
+  lng: 135.7164451
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=317
+stats:
+  capacity: 542
+  international_students: 450
+tags:
+- Dedicated Dormitory/Accommodation Support
+- High-level EJU (Examination for Japanese University Admission for International
+  Students) Preparation
+- Specialized Science Track Support (Rika)
+- Intensive University and Graduate School Progression Counseling
+- Focus on Practical Conversational Fluency
+- Flexible Short-Term and General Study Options
+thumbnail: /static/img/pin-school.png
+title: 교토 민사이 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

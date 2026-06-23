@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_jin-ai-university-guide",
-  "title": "진아이 대학교 (Jin-ai University)",
-  "description": "후쿠이현의 아름다운 자연 속에 자리 잡은 진아이 대학교는 불교의 '인애(仁愛)' 정신을 바탕으로 심리학, 커뮤니케이션, 간호학 분야에서 따뜻한 인성을 갖춘 전문 인력을 양성합니다.",
-  "category": "university",
-  "tags": [
-    "불교 교육 철학",
-    "후쿠이현 내 높은 취업률",
-    "임상심리 전문 교육",
-    "지역 사회 밀착형 대학"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "仁愛大学",
-    "name_en": "Jin-ai University",
-    "address": "3-1-1 Ohama-cho, Echizen-shi, Fukui, 915-8586, Japan",
-    "capacity": 1500
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "72%"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "인간학부",
-    "간호학부",
-    "심리학과",
-    "커뮤니케이션학과",
-    "건강영양학과",
-    "아동학과"
-  ],
-  "features": [
-    "불교 정신에 기반한 인성 교육",
-    "후쿠이현 내 압도적인 취업 실적",
-    "임상심리 분야의 전문적인 커리큘럼",
-    "지역 사회와 밀착된 실무 중심 교육"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 3-1-1 Ohama-cho, Echizen-shi, Fukui, 915-8586, Japan
+  capacity: 1500
+  name_en: Jin-ai University
+  name_ja: 仁愛大学
+category: university
+date: '2026-03-24'
+description: 후쿠이현의 아름다운 자연 속에 자리 잡은 진아이 대학교는 불교의 '인애(仁愛)' 정신을 바탕으로 심리학, 커뮤니케이션, 간호학
+  분야에서 따뜻한 인성을 갖춘 전문 인력을 양성합니다.
+faculties:
+- 인간학부
+- 간호학부
+- 심리학과
+- 커뮤니케이션학과
+- 건강영양학과
+- 아동학과
+features:
+- 불교 정신에 기반한 인성 교육
+- 후쿠이현 내 압도적인 취업 실적
+- 임상심리 분야의 전문적인 커리큘럼
+- 지역 사회와 밀착된 실무 중심 교육
+id: univ_jin-ai-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 72%
+  international_students: 15
+tags:
+- 불교 교육 철학
+- 후쿠이현 내 높은 취업률
+- 임상심리 전문 교육
+- 지역 사회 밀착형 대학
+thumbnail: /static/img/pin-univ.png
+title: 진아이 대학교 (Jin-ai University)
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 대학 개요

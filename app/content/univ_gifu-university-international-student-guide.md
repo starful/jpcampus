@@ -1,48 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gifu-university-international-student-guide",
-  "title": "Gifu University",
-  "category": "university",
-  "tags": [
-    "Part of the Tokai National Higher Education and Research System (merged with Nagoya University)",
-    "Global Leader in Life Sciences and Applied Biological Research",
-    "High Graduate Employment Rate in Major Japanese Industries",
-    "Low Cost of Living with Comprehensive Student Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岐阜大学",
-    "name_en": "Gifu University",
-    "address": "1-1 Yanagido, Gifu City, Gifu Prefecture 501-1193, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 582,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Regional Studies",
-    "School of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Applied Biological Sciences"
-  ],
-  "features": [
-    "Part of the Tokai National Higher Education and Research System (merged with Nagoya University)",
-    "Global Leader in Life Sciences and Applied Biological Research",
-    "High Graduate Employment Rate in Major Japanese Industries",
-    "Low Cost of Living with Comprehensive Student Support"
-  ]
-}
+basic_info:
+  address: 1-1 Yanagido, Gifu City, Gifu Prefecture 501-1193, Japan
+  capacity: null
+  name_en: Gifu University
+  name_ja: 岐阜大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Education
+- Faculty of Regional Studies
+- School of Medicine
+- Faculty of Engineering
+- Faculty of Applied Biological Sciences
+features:
+- Part of the Tokai National Higher Education and Research System (merged with Nagoya
+  University)
+- Global Leader in Life Sciences and Applied Biological Research
+- High Graduate Employment Rate in Major Japanese Industries
+- Low Cost of Living with Comprehensive Student Support
+id: univ_gifu-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 582
+tags:
+- Part of the Tokai National Higher Education and Research System (merged with Nagoya
+  University)
+- Global Leader in Life Sciences and Applied Biological Research
+- High Graduate Employment Rate in Major Japanese Industries
+- Low Cost of Living with Comprehensive Student Support
+thumbnail: /static/img/pin-univ.png
+title: Gifu University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Heart of Central Japan

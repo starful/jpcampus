@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヶ月コース
   total_fees: 842500
+date: '2026-01-28'
 description: Kokusai Nihongo Gakuin is a specialized Japanese language school in central
   Tokyo (Nihonbashi) focused on preparing students for university and graduate school
   entrance. They offer intensive EJU and JLPT training with personalized guidance

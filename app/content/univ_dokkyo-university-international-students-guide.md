@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_dokkyo-university-international-students-guide",
-  "title": "Dokkyo University",
-  "category": "university",
-  "tags": [
-    "Renowned 'University of Languages' status",
-    "Intercultural Collaboration Zone (ICZ)",
-    "Strong focus on German and European studies",
-    "Convenient Soka campus near Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "獨協大学",
-    "name_en": "Dokkyo University",
-    "address": "1-1 Gakuen-cho, Soka-shi, Saitama 340-0042, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 880000
-  },
-  "faculties": [
-    "Faculty of Foreign Languages",
-    "Faculty of International Liberal Arts",
-    "Faculty of Economics",
-    "Faculty of Law"
-  ],
-  "features": [
-    "Renowned 'University of Languages' status",
-    "Intercultural Collaboration Zone (ICZ)",
-    "Strong focus on German and European studies",
-    "Convenient Soka campus near Tokyo"
-  ]
-}
+basic_info:
+  address: 1-1 Gakuen-cho, Soka-shi, Saitama 340-0042, Japan
+  capacity: null
+  name_en: Dokkyo University
+  name_ja: 獨協大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Foreign Languages
+- Faculty of International Liberal Arts
+- Faculty of Economics
+- Faculty of Law
+features:
+- Renowned 'University of Languages' status
+- Intercultural Collaboration Zone (ICZ)
+- Strong focus on German and European studies
+- Convenient Soka campus near Tokyo
+id: univ_dokkyo-university-international-students-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 185
+tags:
+- Renowned 'University of Languages' status
+- Intercultural Collaboration Zone (ICZ)
+- Strong focus on German and European studies
+- Convenient Soka campus near Tokyo
+thumbnail: /static/img/pin-univ.png
+title: Dokkyo University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 880000
 ---
 
 ## 🏫 University Overview

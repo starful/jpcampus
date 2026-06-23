@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-gakuin-university-comprehensive-guide",
-  "title": "Nagoya Gakuin University",
-  "category": "university",
-  "tags": [
-    "Strong Protestant Christian Foundation",
-    "Urban Campuses in the Heart of Nagoya",
-    "Extensive Global Exchange Network",
-    "High Graduate Employment Rate in the Tokai Region"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋学院大学",
-    "name_en": "Nagoya Gakuin University",
-    "address": "1-25 Atsuta-nishimachi, Atsuta-ku, Nagoya, Aichi 456-8612, Japan",
-    "capacity": 6200
-  },
-  "stats": {
-    "international_students": 195,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Commerce",
-    "Faculty of Law",
-    "Faculty of Foreign Studies",
-    "Faculty of International Culture",
-    "Faculty of Health and Sports",
-    "Faculty of Rehabilitation"
-  ],
-  "features": [
-    "Strong Protestant Christian Foundation",
-    "Urban Campuses in the Heart of Nagoya",
-    "Extensive Global Exchange Network",
-    "High Graduate Employment Rate in the Tokai Region"
-  ]
-}
+basic_info:
+  address: 1-25 Atsuta-nishimachi, Atsuta-ku, Nagoya, Aichi 456-8612, Japan
+  capacity: 6200
+  name_en: Nagoya Gakuin University
+  name_ja: 名古屋学院大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Commerce
+- Faculty of Law
+- Faculty of Foreign Studies
+- Faculty of International Culture
+- Faculty of Health and Sports
+- Faculty of Rehabilitation
+features:
+- Strong Protestant Christian Foundation
+- Urban Campuses in the Heart of Nagoya
+- Extensive Global Exchange Network
+- High Graduate Employment Rate in the Tokai Region
+id: univ_nagoya-gakuin-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 195
+tags:
+- Strong Protestant Christian Foundation
+- Urban Campuses in the Heart of Nagoya
+- Extensive Global Exchange Network
+- High Graduate Employment Rate in the Tokai Region
+thumbnail: /static/img/pin-univ.png
+title: Nagoya Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview

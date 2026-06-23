@@ -1,62 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都大田区山王3-45-28",
-    "capacity": 180,
-    "name_en": "Kowa Japanese Language Institute",
-    "name_ja": "興和日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1383800
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1220450
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1057100
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 및 고등 교육 준비에 특화",
-    "일본 대학 입학 시험(EJU)을 위한 집중 훈련",
-    "원활한 전환을 위한 제휴 또는 캠퍼스 내 기숙사 옵션",
-    "조용하고 주거적인 도쿄 오타구의 전략적 위치",
-    "개인화된 학생 관리 및 지원을 육성하는 중소 규모의 기관"
-  ],
-  "id": "school_kowa-japanese-language-institute-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.5836745,
-    "lng": 139.7204992
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=251",
-  "stats": {
-    "capacity": 180,
-    "international_students": 150
-  },
-  "tags": [
-    "Specialist focus on University and Higher Education Preparation",
-    "Dedicated, intensive training for the Examination for Japanese University Admission (EJU)",
-    "Affiliated or On-Campus Dormitory options for smooth transition",
-    "Strategic location in the quiet, residential Ota Ward, Tokyo",
-    "Small to Mid-Sized institution fostering personalized student attention and support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "코와 일본어 학교",
-  "description": "도쿄 오타구에 위치한 코와 일본어학교는 대학 진학을 목표로 하는 학생들을 위한 집중적인 교육을 제공합니다. EJU 시험 준비, 소규모 학급, 기숙사 옵션 등을 제공합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都大田区山王3-45-28
+  capacity: 180
+  name_en: Kowa Japanese Language Institute
+  name_ja: 興和日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1383800
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1220450
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1057100
+date: '2026-01-28'
+description: 도쿄 오타구에 위치한 코와 일본어학교는 대학 진학을 목표로 하는 학생들을 위한 집중적인 교육을 제공합니다. EJU 시험 준비,
+  소규모 학급, 기숙사 옵션 등을 제공합니다.
+faculties: []
+features:
+- 대학 및 고등 교육 준비에 특화
+- 일본 대학 입학 시험(EJU)을 위한 집중 훈련
+- 원활한 전환을 위한 제휴 또는 캠퍼스 내 기숙사 옵션
+- 조용하고 주거적인 도쿄 오타구의 전략적 위치
+- 개인화된 학생 관리 및 지원을 육성하는 중소 규모의 기관
+id: school_kowa-japanese-language-institute-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.5836745
+  lng: 139.7204992
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=251
+stats:
+  capacity: 180
+  international_students: 150
+tags:
+- Specialist focus on University and Higher Education Preparation
+- Dedicated, intensive training for the Examination for Japanese University Admission
+  (EJU)
+- Affiliated or On-Campus Dormitory options for smooth transition
+- Strategic location in the quiet, residential Ota Ward, Tokyo
+- Small to Mid-Sized institution fostering personalized student attention and support
+thumbnail: /static/img/pin-school.png
+title: 코와 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

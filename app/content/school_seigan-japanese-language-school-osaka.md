@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語総合1.5年コース
   total_fees: 1115000
+date: '2026-01-28'
 faculties: []
 features:
 - Dormitory Accommodation Provided

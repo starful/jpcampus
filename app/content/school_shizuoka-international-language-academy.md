@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 一般2年コース
   total_fees: 1246000
+date: '2026-01-28'
 faculties: []
 features:
 - Comprehensive University & Vocational Advancement Pathways

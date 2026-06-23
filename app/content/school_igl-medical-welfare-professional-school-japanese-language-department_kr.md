@@ -1,66 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県広島市安佐南区伴東1-12-18",
-    "capacity": 240,
-    "name_en": "IGL College of Medical and Welfare Japanese Language Department",
-    "name_ja": "IGL医療福祉専門学校日本語学科",
-    "translated": true
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1349000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 1041700
-    }
-  ],
-  "description": "IGL 의료복지전문학교 일본어학과는 히로시마에 위치하고 있으며, 일본에서의 고등 교육 또는 취업을 목표로 하는 학생들을 위한 종합적인 일본어 교육을 제공합니다. 이 학교는 이공계, 미술, 디자인과 같은 전문 트랙의 코스를 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "대학/전문대 진학 준비",
-    "회화 중심",
-    "이공계 트랙",
-    "비즈니스 일본어",
-    "미술/순수미술 준비",
-    "디자인 준비",
-    "단기 유학 가능"
-  ],
-  "id": "school_igl-medical-welfare-professional-school-japanese-language-department",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.47127940000001,
-    "lng": 132.4245312
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=396",
-  "stats": {
-    "capacity": 240,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University/College Prep",
-    "Conversation Focus",
-    "Science Track",
-    "Business Japanese",
-    "Art/Fine Arts Prep",
-    "Design Prep",
-    "Short-term study available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "IGL 의료복지전문학교 일본어학과",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 広島県広島市安佐南区伴東1-12-18
+  capacity: 240
+  name_en: IGL College of Medical and Welfare Japanese Language Department
+  name_ja: IGL医療福祉専門学校日本語学科
+  translated: true
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1349000
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1041700
+date: '2026-01-28'
+description: IGL 의료복지전문학교 일본어학과는 히로시마에 위치하고 있으며, 일본에서의 고등 교육 또는 취업을 목표로 하는 학생들을 위한
+  종합적인 일본어 교육을 제공합니다. 이 학교는 이공계, 미술, 디자인과 같은 전문 트랙의 코스를 제공합니다.
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 대학/전문대 진학 준비
+- 회화 중심
+- 이공계 트랙
+- 비즈니스 일본어
+- 미술/순수미술 준비
+- 디자인 준비
+- 단기 유학 가능
+id: school_igl-medical-welfare-professional-school-japanese-language-department
+lang: kr
+layout: school
+location:
+  lat: 34.47127940000001
+  lng: 132.4245312
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=396
+stats:
+  capacity: 240
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University/College Prep
+- Conversation Focus
+- Science Track
+- Business Japanese
+- Art/Fine Arts Prep
+- Design Prep
+- Short-term study available
+thumbnail: /static/img/pin-school.png
+title: IGL 의료복지전문학교 일본어학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

@@ -1,68 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区西早稲田1-23-14",
-    "capacity": 240,
-    "name_en": "Yoshida Japanese Language Academy",
-    "name_ja": "ヨシダ日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "日本語一般課程",
-      "total_fees": 1491000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学課程2年コース",
-      "total_fees": 1491000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学課程1年9ヵ月コース",
-      "total_fees": 1320000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学課程1年6ヵ月コース",
-      "total_fees": 1149000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学課程1年3ヵ月コース",
-      "total_fees": 978000
-    }
-  ],
-  "description": "요시다 일본어학원은 도쿄 신주쿠구 니시-와세다에 위치하고 있으며, 대학 진학을 목표로 하는 학생들을 위한 일본어 교육 기관입니다. 오랜 역사와 전통을 자랑하며, 특히 이공계 대학 입시를 위한 맞춤형 교육 프로그램에 강점을 가지고 있습니다. 어학 능력 향상뿐만 아니라 일본 대학 입시에 필요한 전반적인 준비를 종합적으로 지원하는 것을 목표로 합니다. EJU(일본유학시험) 준비, 각 대학별 맞춤형 면접 및 소논문 지도, 학업 상담 등을 통해 학생들이 대학 진학의 꿈을 이룰 수 있도록 돕습니다. 또한 소규모 그룹 수업을 통해 학생 개개인의 학습 진도와 필요에 맞춘 세심한 지도를 제공하여, 학생들이 적극적으로 참여할 수 있는 활발한 교실 분위기를 조성하고자 노력합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 시험 준비",
-    "이공계 집중"
-  ],
-  "id": "school_yoshida-japanese-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.71234889999999,
-    "lng": 139.7181931
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=116",
-  "stats": {
-    "capacity": 240,
-    "international_students": null
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Exam Preparation",
-    "Science Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "요시다 일본어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区西早稲田1-23-14
+  capacity: 240
+  name_en: Yoshida Japanese Language Academy
+  name_ja: ヨシダ日本語学院
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: 日本語一般課程
+  total_fees: 1491000
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1491000
+- admission_month: '7'
+  course_name: 進学課程1年9ヵ月コース
+  total_fees: 1320000
+- admission_month: '10'
+  course_name: 進学課程1年6ヵ月コース
+  total_fees: 1149000
+- admission_month: '1'
+  course_name: 進学課程1年3ヵ月コース
+  total_fees: 978000
+date: '2026-01-28'
+description: 요시다 일본어학원은 도쿄 신주쿠구 니시-와세다에 위치하고 있으며, 대학 진학을 목표로 하는 학생들을 위한 일본어 교육 기관입니다.
+  오랜 역사와 전통을 자랑하며, 특히 이공계 대학 입시를 위한 맞춤형 교육 프로그램에 강점을 가지고 있습니다. 어학 능력 향상뿐만 아니라 일본 대학
+  입시에 필요한 전반적인 준비를 종합적으로 지원하는 것을 목표로 합니다. EJU(일본유학시험) 준비, 각 대학별 맞춤형 면접 및 소논문 지도, 학업
+  상담 등을 통해 학생들이 대학 진학의 꿈을 이룰 수 있도록 돕습니다. 또한 소규모 그룹 수업을 통해 학생 개개인의 학습 진도와 필요에 맞춘 세심한
+  지도를 제공하여, 학생들이 적극적으로 참여할 수 있는 활발한 교실 분위기를 조성하고자 노력합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 시험 준비
+- 이공계 집중
+id: school_yoshida-japanese-language-academy
+lang: kr
+layout: school
+location:
+  lat: 35.71234889999999
+  lng: 139.7181931
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=116
+stats:
+  capacity: 240
+  international_students: null
+tags:
+- University Preparation
+- EJU Exam Preparation
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: 요시다 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

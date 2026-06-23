@@ -1,59 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "〒657-8501 2-1 Rokkodai-cho, Nada-ku, Kobe, Hyogo Prefecture",
-    "name_en": "Kobe University",
-    "name_ja": "神戸大学",
-    "website": "https://www.kobe-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Human Development",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Oceanology",
-    "Faculty of Intercultural Studies"
-  ],
-  "features": [
-    "SGU",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "id": "univ_kobe-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 1500
-  },
-  "tags": [
-    "SGU",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "고베 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "일본 고베에 위치한 명문 국립대학교, 고베 대학교에 대한 상세 정보입니다. 입학 정보, 학비, 장학금, 캠퍼스 생활 등에 대한 유용한 정보를 확인하세요."
-}
+basic_info:
+  address: 〒657-8501 2-1 Rokkodai-cho, Nada-ku, Kobe, Hyogo Prefecture
+  name_en: Kobe University
+  name_ja: 神戸大学
+  website: https://www.kobe-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 일본 고베에 위치한 명문 국립대학교, 고베 대학교에 대한 상세 정보입니다. 입학 정보, 학비, 장학금, 캠퍼스 생활 등에 대한
+  유용한 정보를 확인하세요.
+faculties:
+- Faculty of Letters
+- Faculty of Human Development
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Oceanology
+- Faculty of Intercultural Studies
+features:
+- SGU
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+id: univ_kobe-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20%
+  international_students: 1500
+tags:
+- SGU
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+thumbnail: /static/img/pin-univ.png
+title: 고베 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요 및 명성

@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ibaraki-university-comprehensive-guide",
-  "title": "Ibaraki University: Guide to Tuition, Programs & Admission",
-  "category": "university",
-  "tags": [
-    "Leading research in Quantum Beam Science and Sustainability",
-    "Strong industrial links with global companies like Hitachi, Ltd.",
-    "Strategic location offering a balance between urban access and natural beauty",
-    "Comprehensive international student support through the J-PALS program"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "茨城大学",
-    "name_en": "Ibaraki University",
-    "address": "2-1-1 Bunkyo, Mito, Ibaraki 310-8512, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 365,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "Leading research in Quantum Beam Science and Sustainability",
-    "Strong industrial links with global companies like Hitachi, Ltd.",
-    "Strategic location offering a balance between urban access and natural beauty",
-    "Comprehensive international student support through the J-PALS program"
-  ],
-  "description": "An ultimate guide to Ibaraki University. Explore admission requirements, tuition fees, scholarships, and campus life for international students in Japan.",
-  "seo_title": "Ibaraki University Guide 2026: Tuition & Admissions | JP Campus",
-  "seo_description": "Planning to study at Ibaraki University? Explore tuition fees, admission requirements, English programs, and scholarships for international students."
-}
+basic_info:
+  address: 2-1-1 Bunkyo, Mito, Ibaraki 310-8512, Japan
+  capacity: null
+  name_en: Ibaraki University
+  name_ja: 茨城大学
+category: university
+date: '2026-06-12'
+description: An ultimate guide to Ibaraki University. Explore admission requirements,
+  tuition fees, scholarships, and campus life for international students in Japan.
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- Leading research in Quantum Beam Science and Sustainability
+- Strong industrial links with global companies like Hitachi, Ltd.
+- Strategic location offering a balance between urban access and natural beauty
+- Comprehensive international student support through the J-PALS program
+id: univ_ibaraki-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Planning to study at Ibaraki University? Explore tuition fees, admission
+  requirements, English programs, and scholarships for international students.
+seo_title: 'Ibaraki University Guide 2026: Tuition & Admissions | JP Campus'
+stats:
+  acceptance_rate: 25-35%
+  international_students: 365
+tags:
+- Leading research in Quantum Beam Science and Sustainability
+- Strong industrial links with global companies like Hitachi, Ltd.
+- Strategic location offering a balance between urban access and natural beauty
+- Comprehensive international student support through the J-PALS program
+thumbnail: /static/img/pin-univ.png
+title: 'Ibaraki University: Guide to Tuition, Programs & Admission'
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 University Overview
 Ibaraki University (茨城大学), often abbreviated as "Ibadai," is a distinguished national university located in Ibaraki Prefecture, just north of Tokyo. Established in 1949 through the integration of several regional colleges, it has evolved into a comprehensive research institution that plays a pivotal role in Japan’s intellectual and industrial landscape. The university is spread across three main campuses—Mito, Hitachi, and Ami—each specializing in distinct academic disciplines that leverage the unique geographical and economic strengths of the region.

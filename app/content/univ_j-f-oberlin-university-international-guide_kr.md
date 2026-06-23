@@ -1,52 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "3758 Tokiwa-cho, Machida-shi, Tokyo 194-0294, Japan (Machida Campus)",
-    "capacity": null,
-    "name_en": "J.F. Oberlin University",
-    "name_ja": "桜美林大学"
-  },
-  "category": "university",
-  "faculties": [
-    "College of Arts and Sciences (Liberal Arts)",
-    "College of Business Management",
-    "College of Health and Welfare",
-    "College of Global Communication",
-    "College of Aviation Management",
-    "College of Education and Social Innovation",
-    "College of Performing and Visual Arts"
-  ],
-  "features": [
-    "종합 교양 교육 (학군 시스템)",
-    "특화된 항공 경영 프로그램",
-    "EJU 필수 (일본어 트랙)",
-    "제한적인 영어 트랙 프로그램 (글로벌 스터디)"
-  ],
-  "id": "univ_j-f-oberlin-university-international-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "50-65%",
-    "international_students": 1200
-  },
-  "tags": [
-    "Comprehensive Liberal Arts Education (Gakugun System)",
-    "Specialized Aviation Management Program",
-    "EJU Required (for Japanese Track)",
-    "Limited English Track Programs (Global Studies)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "J.F. 오베린 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  }
-}
+basic_info:
+  address: 3758 Tokiwa-cho, Machida-shi, Tokyo 194-0294, Japan (Machida Campus)
+  capacity: null
+  name_en: J.F. Oberlin University
+  name_ja: 桜美林大学
+category: university
+date: '2026-01-28'
+faculties:
+- College of Arts and Sciences (Liberal Arts)
+- College of Business Management
+- College of Health and Welfare
+- College of Global Communication
+- College of Aviation Management
+- College of Education and Social Innovation
+- College of Performing and Visual Arts
+features:
+- 종합 교양 교육 (학군 시스템)
+- 특화된 항공 경영 프로그램
+- EJU 필수 (일본어 트랙)
+- 제한적인 영어 트랙 프로그램 (글로벌 스터디)
+id: univ_j-f-oberlin-university-international-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 50-65%
+  international_students: 1200
+tags:
+- Comprehensive Liberal Arts Education (Gakugun System)
+- Specialized Aviation Management Program
+- EJU Required (for Japanese Track)
+- Limited English Track Programs (Global Studies)
+thumbnail: /static/img/pin-univ.png
+title: J.F. 오베린 대학교
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 대학교 개요

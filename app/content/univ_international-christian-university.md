@@ -5,6 +5,7 @@ basic_info:
   name_ja: 国際基督教大学
   website: https://www.icu.ac.jp/
 category: university
+date: '2026-01-28'
 description: International Christian University (ICU) is a renowned private liberal
   arts university in Tokyo, known for its bilingual education and diverse student
   body. Discover its history, programs, tuition, and international student support.

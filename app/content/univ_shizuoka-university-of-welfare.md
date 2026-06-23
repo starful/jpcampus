@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shizuoka-university-of-welfare",
-  "title": "Shizuoka University of Welfare",
-  "category": "university",
-  "tags": [
-    "Specialized Career Support for Social Workers",
-    "High Professional Certification Pass Rates",
-    "Community-Integrated Learning in Yaizu",
-    "Dedicated International Student Tutoring"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "静岡福祉大学",
-    "name_en": "Shizuoka University of Welfare",
-    "address": "5-1-1 Honmachi, Yaizu, Shizuoka 425-8611, Japan",
-    "capacity": 850
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Social Welfare",
-    "Faculty of Child Education",
-    "Department of Health and Psychology"
-  ],
-  "features": [
-    "Specialized Career Support for Social Workers",
-    "High Professional Certification Pass Rates",
-    "Community-Integrated Learning in Yaizu",
-    "Dedicated International Student Tutoring"
-  ]
-}
+basic_info:
+  address: 5-1-1 Honmachi, Yaizu, Shizuoka 425-8611, Japan
+  capacity: 850
+  name_en: Shizuoka University of Welfare
+  name_ja: 静岡福祉大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Social Welfare
+- Faculty of Child Education
+- Department of Health and Psychology
+features:
+- Specialized Career Support for Social Workers
+- High Professional Certification Pass Rates
+- Community-Integrated Learning in Yaizu
+- Dedicated International Student Tutoring
+id: univ_shizuoka-university-of-welfare
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 45
+tags:
+- Specialized Career Support for Social Workers
+- High Professional Certification Pass Rates
+- Community-Integrated Learning in Yaizu
+- Dedicated International Student Tutoring
+thumbnail: /static/img/pin-univ.png
+title: Shizuoka University of Welfare
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview: The Heart of Community Care

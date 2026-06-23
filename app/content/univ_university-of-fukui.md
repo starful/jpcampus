@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-fukui",
-  "title": "University of Fukui",
-  "category": "university",
-  "tags": [
-    "No. 1 Employment Rate among National Universities",
-    "World-Class Research in Fiber Engineering and Nuclear Power",
-    "Comprehensive Support System for International Students",
-    "Safe and Cost-Effective Living Environment"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福井大学",
-    "name_en": "University of Fukui",
-    "address": "3-9-1 Bunkyo, Fukui-shi, Fukui, 910-8507, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 204,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Medical Sciences",
-    "Faculty of Engineering",
-    "School of Global and Community Studies"
-  ],
-  "features": [
-    "No. 1 Employment Rate among National Universities",
-    "World-Class Research in Fiber Engineering and Nuclear Power",
-    "Comprehensive Support System for International Students",
-    "Safe and Cost-Effective Living Environment"
-  ]
-}
+basic_info:
+  address: 3-9-1 Bunkyo, Fukui-shi, Fukui, 910-8507, Japan
+  capacity: null
+  name_en: University of Fukui
+  name_ja: 福井大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Education
+- Faculty of Medical Sciences
+- Faculty of Engineering
+- School of Global and Community Studies
+features:
+- No. 1 Employment Rate among National Universities
+- World-Class Research in Fiber Engineering and Nuclear Power
+- Comprehensive Support System for International Students
+- Safe and Cost-Effective Living Environment
+id: univ_university-of-fukui
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 204
+tags:
+- No. 1 Employment Rate among National Universities
+- World-Class Research in Fiber Engineering and Nuclear Power
+- Comprehensive Support System for International Students
+- Safe and Cost-Effective Living Environment
+thumbnail: /static/img/pin-univ.png
+title: University of Fukui
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

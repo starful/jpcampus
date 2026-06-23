@@ -1,62 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市平野区喜連5-2-38",
-    "capacity": 136,
-    "name_en": "Osaka Minami Japanese Language School",
-    "name_ja": "大阪みなみ日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1380000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1222500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1055000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "EJU 시험 대비",
-    "대학 진학 중심",
-    "단기 코스",
-    "이과 스트림 지원"
-  ],
-  "id": "school_osaka-minami-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.613996,
-    "lng": 135.5545347
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=347",
-  "stats": {
-    "capacity": 136,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Focus",
-    "Short-term Courses",
-    "Science Stream Support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오사카 미나미 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "오사카 미나미 일본어 학교는 일본 유학을 목표하는 학생들을 위한 최고의 선택입니다. 대학 진학을 위한 체계적인 커리큘럼과 지원을 제공합니다."
-}
+basic_info:
+  address: 大阪府大阪市平野区喜連5-2-38
+  capacity: 136
+  name_en: Osaka Minami Japanese Language School
+  name_ja: 大阪みなみ日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1380000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1222500
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1055000
+date: '2026-01-28'
+description: 오사카 미나미 일본어 학교는 일본 유학을 목표하는 학생들을 위한 최고의 선택입니다. 대학 진학을 위한 체계적인 커리큘럼과 지원을
+  제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- EJU 시험 대비
+- 대학 진학 중심
+- 단기 코스
+- 이과 스트림 지원
+id: school_osaka-minami-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 34.613996
+  lng: 135.5545347
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=347
+stats:
+  capacity: 136
+  international_students: 0
+tags:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Focus
+- Short-term Courses
+- Science Stream Support
+thumbnail: /static/img/pin-school.png
+title: 오사카 미나미 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

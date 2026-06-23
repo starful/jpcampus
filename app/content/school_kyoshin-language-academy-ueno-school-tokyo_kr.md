@@ -1,65 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都荒川区東日暮里5-50-8 水越ビル2階,3階",
-    "capacity": 180,
-    "name_en": "Kyoshin Language Academy Ueno School",
-    "name_ja": "京進ランゲージアカデミー上野校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1507000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1328250
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 1149500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヵ月コース",
-      "total_fees": 970750
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "고등 교육 진학 (대학교/대학원) 집중",
-    "EJU (일본유학시험) 집중 대비 과정",
-    "종합적인 학생 기숙사 및 숙박 지원 제공",
-    "도쿄의 문화적, 학문적으로 중요한 지역인 우에노/닛포리에 위치"
-  ],
-  "id": "school_kyoshin-language-academy-ueno-school-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7276855,
-    "lng": 139.7727359
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=28",
-  "stats": {
-    "capacity": 180,
-    "international_students": 180
-  },
-  "tags": [
-    "Exclusive focus on higher education advancement (University/Graduate School)",
-    "Dedicated EJU (Examination for Japanese University Admission) preparation tracks",
-    "Availability of comprehensive student dormitory and accommodation support",
-    "Located in the culturally rich and academically significant Ueno/Nippori area of Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "교신 랭귀지 아카데미 우에노 캠퍼스",
-  "translated": true,
-  "tuition": {},
-  "description": "교신 랭귀지 아카데미 우에노 캠퍼스는 일본 대학/대학원 진학을 위한 최적의 선택입니다. 체계적인 EJU 대비, 숙소 지원, 도쿄 우에노/닛포리 지역의 편리한 위치를 제공합니다."
-}
+basic_info:
+  address: 東京都荒川区東日暮里5-50-8 水越ビル2階,3階
+  capacity: 180
+  name_en: Kyoshin Language Academy Ueno School
+  name_ja: 京進ランゲージアカデミー上野校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1507000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1328250
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1149500
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 970750
+date: '2026-01-28'
+description: 교신 랭귀지 아카데미 우에노 캠퍼스는 일본 대학/대학원 진학을 위한 최적의 선택입니다. 체계적인 EJU 대비, 숙소 지원,
+  도쿄 우에노/닛포리 지역의 편리한 위치를 제공합니다.
+faculties: []
+features:
+- 고등 교육 진학 (대학교/대학원) 집중
+- EJU (일본유학시험) 집중 대비 과정
+- 종합적인 학생 기숙사 및 숙박 지원 제공
+- 도쿄의 문화적, 학문적으로 중요한 지역인 우에노/닛포리에 위치
+id: school_kyoshin-language-academy-ueno-school-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.7276855
+  lng: 139.7727359
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=28
+stats:
+  capacity: 180
+  international_students: 180
+tags:
+- Exclusive focus on higher education advancement (University/Graduate School)
+- Dedicated EJU (Examination for Japanese University Admission) preparation tracks
+- Availability of comprehensive student dormitory and accommodation support
+- Located in the culturally rich and academically significant Ueno/Nippori area of
+  Tokyo
+thumbnail: /static/img/pin-school.png
+title: 교신 랭귀지 아카데미 우에노 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

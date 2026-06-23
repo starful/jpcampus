@@ -15,6 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学4月
   total_fees: 891000
+date: '2026-01-28'
 faculties: []
 features:
 - Located in the unique subtropical environment of Okinawa

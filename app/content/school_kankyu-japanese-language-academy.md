@@ -263,6 +263,7 @@ content_body: "## \U0001F3EB School Overview & Philosophy\n\nKankyu Japanese Lan
   research available scholarship options and carefully review the eligibility requirements
   and application deadlines for each scholarship. Early application is always advisable,
   as scholarship funding is often limited."
+date: '2026-01-28'
 description: Located in Sendai, Kankyu Japanese Language Academy offers comprehensive
   Japanese language education for international students, preparing them for universities
   in Japan with courses in EJU preparation, STEM, and Art & Design.

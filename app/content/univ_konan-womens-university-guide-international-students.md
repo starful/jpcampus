@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_konan-womens-university-guide-international-students",
-  "title": "Konan Women's University",
-  "category": "university",
-  "tags": [
-    "Stunning Architecture by Togo Murano",
-    "Exceptional Career Support for Women",
-    "High National Exam Pass Rates for Nursing",
-    "Kobe-based Education with Global Perspective"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "甲南女子大学",
-    "name_en": "Konan Women's University",
-    "address": "6-2-23 Morikita-machi, Higashinada-ku, Kobe, Hyogo 658-0001, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 980000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Human Sciences",
-    "Faculty of Nursing and Rehabilitation",
-    "Faculty of Global Culture and Liberal Arts"
-  ],
-  "features": [
-    "Stunning Architecture by Togo Murano",
-    "Exceptional Career Support for Women",
-    "High National Exam Pass Rates for Nursing",
-    "Kobe-based Education with Global Perspective"
-  ]
-}
+basic_info:
+  address: 6-2-23 Morikita-machi, Higashinada-ku, Kobe, Hyogo 658-0001, Japan
+  capacity: null
+  name_en: Konan Women's University
+  name_ja: 甲南女子大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Letters
+- Faculty of Human Sciences
+- Faculty of Nursing and Rehabilitation
+- Faculty of Global Culture and Liberal Arts
+features:
+- Stunning Architecture by Togo Murano
+- Exceptional Career Support for Women
+- High National Exam Pass Rates for Nursing
+- Kobe-based Education with Global Perspective
+id: univ_konan-womens-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 45
+tags:
+- Stunning Architecture by Togo Murano
+- Exceptional Career Support for Women
+- High National Exam Pass Rates for Nursing
+- Kobe-based Education with Global Perspective
+thumbnail: /static/img/pin-univ.png
+title: Konan Women's University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 980000
 ---
 
 ## 🏫 University Overview: The Legacy of Konan Women’s University

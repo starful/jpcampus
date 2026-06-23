@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shibaura-institute-of-technology-sit-guide-international-students",
-  "title": "시바우라 공업대학 (Shibaura Institute of Technology)",
-  "category": "university",
-  "tags": [
-    "Top Global University Project (Type B) Recipient",
-    "Pioneering Innovative Global Program (IGP) in English",
-    "Extremely High Graduate Employment Rate (near 100%)",
-    "Cutting-edge Urban and Suburban Campus Facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "芝浦工業大学",
-    "name_en": "Shibaura Institute of Technology",
-    "address": "3-9-14 Shibaura, Minato-ku, Tokyo 108-8548, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 1100,
-    "acceptance_rate": "15-25% (Highly competitive for global programs)"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1600000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Systems Science and Engineering",
-    "Faculty of Engineering and Design",
-    "Faculty of Architecture",
-    "Graduate School of Science and Engineering"
-  ],
-  "features": [
-    "Top Global University Project (Type B) 수상",
-    "선구적인 혁신 글로벌 프로그램 (IGP) 영어 과정",
-    "매우 높은 졸업생 취업률 (100%에 가까움)",
-    "최첨단 도시 및 교외 캠퍼스 시설"
-  ],
-  "description": "일본 최고의 사립 공과대학 중 하나인 시바우라 공업대학에 대해 알아보세요. 혁신적인 글로벌 프로그램, 높은 취업률, 최첨단 시설을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-9-14 Shibaura, Minato-ku, Tokyo 108-8548, Japan
+  capacity: null
+  name_en: Shibaura Institute of Technology
+  name_ja: 芝浦工業大学
+category: university
+date: '2026-02-13'
+description: 일본 최고의 사립 공과대학 중 하나인 시바우라 공업대학에 대해 알아보세요. 혁신적인 글로벌 프로그램, 높은 취업률, 최첨단
+  시설을 자랑합니다.
+faculties:
+- Faculty of Engineering
+- Faculty of Systems Science and Engineering
+- Faculty of Engineering and Design
+- Faculty of Architecture
+- Graduate School of Science and Engineering
+features:
+- Top Global University Project (Type B) 수상
+- 선구적인 혁신 글로벌 프로그램 (IGP) 영어 과정
+- 매우 높은 졸업생 취업률 (100%에 가까움)
+- 최첨단 도시 및 교외 캠퍼스 시설
+id: univ_shibaura-institute-of-technology-sit-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (Highly competitive for global programs)
+  international_students: 1100
+tags:
+- Top Global University Project (Type B) Recipient
+- Pioneering Innovative Global Program (IGP) in English
+- Extremely High Graduate Employment Rate (near 100%)
+- Cutting-edge Urban and Suburban Campus Facilities
+thumbnail: /static/img/pin-univ.png
+title: 시바우라 공업대학 (Shibaura Institute of Technology)
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1600000
 ---
 
 ## 🏫 대학 개요: 일본 사립 공학 교육의 정점

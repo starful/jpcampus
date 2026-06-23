@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-prefectural-university-of-medicine-guide",
-  "title": "교토부립의과대학교",
-  "category": "university",
-  "tags": [
-    "1872년에 설립되어 150년 이상의 역사를 자랑합니다.",
-    "일본에서 가장 오래되고 명망 있는 의과 대학 중 하나입니다.",
-    "교토 고쇼 및 가모 강과 인접한 전략적 위치",
-    "대학 병원에서 뛰어난 임상 교육 제공",
-    "종양학, 심혈관 의학 및 신경 과학 분야의 선구적인 연구"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都府立医科大学",
-    "name_en": "Kyoto Prefectural University of Medicine",
-    "address": "465 Kajii-cho, Kawaramachi-Hirokoji, Kamigyo-ku, Kyoto 602-8566, Japan",
-    "capacity": 107
-  },
-  "stats": {
-    "international_students": 38,
-    "acceptance_rate": "5-8%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "의학부",
-    "간호학부",
-    "의학연구과"
-  ],
-  "features": [
-    "1872년에 설립되어 150년 이상의 역사를 자랑합니다.",
-    "일본에서 가장 오래되고 명망 있는 의과 대학 중 하나입니다.",
-    "교토 고쇼 및 가모 강과 인접한 전략적 위치",
-    "대학 병원에서 뛰어난 임상 교육 제공",
-    "종양학, 심혈관 의학 및 신경 과학 분야의 선구적인 연구"
-  ],
-  "description": "150년 이상의 역사를 자랑하는 교토부립의과대학교에 대한 종합 안내입니다. 뛰어난 임상 교육, 선구적인 연구, 그리고 아름다운 교토에서의 생활을 경험해 보세요.",
-  "lang": "kr"
-}
+basic_info:
+  address: 465 Kajii-cho, Kawaramachi-Hirokoji, Kamigyo-ku, Kyoto 602-8566, Japan
+  capacity: 107
+  name_en: Kyoto Prefectural University of Medicine
+  name_ja: 京都府立医科大学
+category: university
+date: '2026-03-03'
+description: 150년 이상의 역사를 자랑하는 교토부립의과대학교에 대한 종합 안내입니다. 뛰어난 임상 교육, 선구적인 연구, 그리고 아름다운
+  교토에서의 생활을 경험해 보세요.
+faculties:
+- 의학부
+- 간호학부
+- 의학연구과
+features:
+- 1872년에 설립되어 150년 이상의 역사를 자랑합니다.
+- 일본에서 가장 오래되고 명망 있는 의과 대학 중 하나입니다.
+- 교토 고쇼 및 가모 강과 인접한 전략적 위치
+- 대학 병원에서 뛰어난 임상 교육 제공
+- 종양학, 심혈관 의학 및 신경 과학 분야의 선구적인 연구
+id: univ_kyoto-prefectural-university-of-medicine-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 5-8%
+  international_students: 38
+tags:
+- 1872년에 설립되어 150년 이상의 역사를 자랑합니다.
+- 일본에서 가장 오래되고 명망 있는 의과 대학 중 하나입니다.
+- 교토 고쇼 및 가모 강과 인접한 전략적 위치
+- 대학 병원에서 뛰어난 임상 교육 제공
+- 종양학, 심혈관 의학 및 신경 과학 분야의 선구적인 연구
+thumbnail: /static/img/pin-univ.png
+title: 교토부립의과대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

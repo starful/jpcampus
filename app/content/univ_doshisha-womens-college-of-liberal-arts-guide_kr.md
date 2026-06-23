@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_doshisha-womens-college-of-liberal-arts-guide",
-  "title": "도시샤 여자대학교 (Doshisha Women's College of Liberal Arts)",
-  "category": "university",
-  "tags": [
-    "기독교 교육 원칙",
-    "리버럴 아츠 전통",
-    "유구한 교토의 전통",
-    "높은 취업 성공률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "同志社女子大学",
-    "name_en": "Doshisha Women's College of Liberal Arts",
-    "address": "Teramachi Nishi-iru, Imadegawa-dori, Kamigyo-ku, Kyoto 602-0893, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 92,
-    "acceptance_rate": "45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "학예학부",
-    "현대사회학부",
-    "약학부",
-    "간호학부",
-    "표상문화학부",
-    "음악학부"
-  ],
-  "features": [
-    "기독교 정신에 기반한 전인 교육",
-    "교양과 실무를 겸비한 리버럴 아츠 전통",
-    "교토의 역사적 중심지에 위치한 캠퍼스",
-    "졸업생들의 압도적인 취업 성공률"
-  ],
-  "lang": "kr",
-  "description": "일본 교토의 역사와 전통을 자랑하는 도시샤 여자대학교는 기독교 정신과 리버럴 아츠 교육을 통해 글로벌 시대를 이끌어갈 여성 인재를 양성하는 명문 사립 여자대학교입니다."
-}
+basic_info:
+  address: Teramachi Nishi-iru, Imadegawa-dori, Kamigyo-ku, Kyoto 602-0893, Japan
+  capacity: null
+  name_en: Doshisha Women's College of Liberal Arts
+  name_ja: 同志社女子大学
+category: university
+date: '2026-03-15'
+description: 일본 교토의 역사와 전통을 자랑하는 도시샤 여자대학교는 기독교 정신과 리버럴 아츠 교육을 통해 글로벌 시대를 이끌어갈 여성
+  인재를 양성하는 명문 사립 여자대학교입니다.
+faculties:
+- 학예학부
+- 현대사회학부
+- 약학부
+- 간호학부
+- 표상문화학부
+- 음악학부
+features:
+- 기독교 정신에 기반한 전인 교육
+- 교양과 실무를 겸비한 리버럴 아츠 전통
+- 교토의 역사적 중심지에 위치한 캠퍼스
+- 졸업생들의 압도적인 취업 성공률
+id: univ_doshisha-womens-college-of-liberal-arts-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45%
+  international_students: 92
+tags:
+- 기독교 교육 원칙
+- 리버럴 아츠 전통
+- 유구한 교토의 전통
+- 높은 취업 성공률
+thumbnail: /static/img/pin-univ.png
+title: 도시샤 여자대학교 (Doshisha Women's College of Liberal Arts)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 학교 개요

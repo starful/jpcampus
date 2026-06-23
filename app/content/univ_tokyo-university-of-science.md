@@ -5,6 +5,7 @@ basic_info:
   name_ja: 東京理科大学
   website: https://www.tus.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Science and Technology
 - Faculty of Engineering

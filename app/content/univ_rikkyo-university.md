@@ -5,6 +5,7 @@ basic_info:
   name_ja: 立教大学
   website: https://www.rikkyo.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - College of Arts
 - College of Economics

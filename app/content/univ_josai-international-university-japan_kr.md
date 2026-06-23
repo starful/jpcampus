@@ -1,61 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "1 Gumyo, Togane, Chiba 283-8555, Japan (Togane Campus - Main Administrative Hub)",
-    "capacity": null,
-    "name_en": "Josai International University",
-    "name_ja": "城西国際大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Management and Information Sciences",
-    "Faculty of Media Studies",
-    "Faculty of Tourism",
-    "Faculty of Contemporary Policy Studies",
-    "Faculty of Nursing",
-    "Faculty of Pharmaceutical Sciences"
-  ],
-  "features": [
-    "여러 캠퍼스 (도카네, 도쿄 기오이초, 아와)",
-    "높은 국제 학생 등록률 (글로벌 중심)",
-    "강력한 미디어학 프로그램",
-    "EJU 권장 (필수 아님)",
-    "특정 영어 트랙 커리큘럼 제공",
-    "국제 학생을 위한 의무적인 1학년 기숙사 옵션"
-  ],
-  "id": "univ_josai-international-university-japan",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "45%",
-    "international_students": 1850
-  },
-  "tags": [
-    "Multiple Campuses (Togane, Tokyo Kioicho, Awa)",
-    "High International Student Enrollment (Global Focus)",
-    "Strong Media Studies Program",
-    "EJU Recommended but Not Strictly Required for All Departments",
-    "Specific English-Track Curricula Available",
-    "Mandatory First-Year Dormitory Option for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "조사이국제대학교(JIU) 2026 입학 가이드: 학부, 학비, 일본 유학 | JP Campus",
-  "description": "2026년도 조사이국제대학교(JIU) 입학의 모든 것! 인기 학부, 학비, 유학생 장학금, 캠퍼스 생활 등 일본 유학 준비에 꼭 필요한 정보를 JP Campus에서 확인하세요.",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1250000
-  },
-  "seo_title": "조사이국제대학교(JIU) 2026 입학 가이드: 학부, 학비, 일본 유학 | JP Campus",
-  "seo_description": "2026년도 조사이국제대학교(JIU) 입학의 모든 것! 인기 학부, 학비, 유학생 장학금, 캠퍼스 생활 등 일본 유학 준비에 꼭 필요한 정보를 JP Campus에서 확인하세요."
-}
+basic_info:
+  address: 1 Gumyo, Togane, Chiba 283-8555, Japan (Togane Campus - Main Administrative
+    Hub)
+  capacity: null
+  name_en: Josai International University
+  name_ja: 城西国際大学
+category: university
+date: '2026-06-19'
+description: 2026년도 조사이국제대학교(JIU) 입학의 모든 것! 인기 학부, 학비, 유학생 장학금, 캠퍼스 생활 등 일본 유학 준비에
+  꼭 필요한 정보를 JP Campus에서 확인하세요.
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Management and Information Sciences
+- Faculty of Media Studies
+- Faculty of Tourism
+- Faculty of Contemporary Policy Studies
+- Faculty of Nursing
+- Faculty of Pharmaceutical Sciences
+features:
+- 여러 캠퍼스 (도카네, 도쿄 기오이초, 아와)
+- 높은 국제 학생 등록률 (글로벌 중심)
+- 강력한 미디어학 프로그램
+- EJU 권장 (필수 아님)
+- 특정 영어 트랙 커리큘럼 제공
+- 국제 학생을 위한 의무적인 1학년 기숙사 옵션
+id: univ_josai-international-university-japan
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 2026년도 조사이국제대학교(JIU) 입학의 모든 것! 인기 학부, 학비, 유학생 장학금, 캠퍼스 생활 등 일본 유학
+  준비에 꼭 필요한 정보를 JP Campus에서 확인하세요.
+seo_title: '조사이국제대학교(JIU) 2026 입학 가이드: 학부, 학비, 일본 유학 | JP Campus'
+stats:
+  acceptance_rate: 45%
+  international_students: 1850
+tags:
+- Multiple Campuses (Togane, Tokyo Kioicho, Awa)
+- High International Student Enrollment (Global Focus)
+- Strong Media Studies Program
+- EJU Recommended but Not Strictly Required for All Departments
+- Specific English-Track Curricula Available
+- Mandatory First-Year Dormitory Option for International Students
+thumbnail: /static/img/pin-univ.png
+title: '조사이국제대학교(JIU) 2026 입학 가이드: 학부, 학비, 일본 유학 | JP Campus'
+translated: true
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1250000
 ---
-
 
 ## 대학교 개요
 

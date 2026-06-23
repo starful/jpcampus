@@ -1,55 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県芦屋市潮見町7-8",
-    "capacity": 60,
-    "name_en": "Ashiya Kokusai Gakuin Kobe School",
-    "name_ja": "芦屋国際学院神戸校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1360000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1053000
-    }
-  ],
-  "description": "아시야 국제학원 고베교는 소규모 학급에서 기숙사 옵션을 제공하며, 대학 진학에 집중하여 집중적이고 개인 맞춤화된 EJU 대비를 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 포함 (또는 제휴 기숙사)",
-    "EJU(일본유학시험) 전문 대비",
-    "집중적인 대학 진학 중심",
-    "개인 맞춤형 학습을 위한 매우 작은 학급 규모 (정원: 60명)"
-  ],
-  "id": "school_ashiya-kokusai-gakuin-kobe-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7179696,
-    "lng": 135.3087393
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=529",
-  "stats": {
-    "capacity": 60,
-    "international_students": 55
-  },
-  "tags": [
-    "On-Campus/Affiliated Dormitory Included",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive University Progression Focus",
-    "Extremely Small Class Size for Personalized Learning (Capacity: 60)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아시야 국제학원 고베교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 兵庫県芦屋市潮見町7-8
+  capacity: 60
+  name_en: Ashiya Kokusai Gakuin Kobe School
+  name_ja: 芦屋国際学院神戸校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1360000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1053000
+date: '2026-01-28'
+description: 아시야 국제학원 고베교는 소규모 학급에서 기숙사 옵션을 제공하며, 대학 진학에 집중하여 집중적이고 개인 맞춤화된 EJU 대비를
+  제공합니다.
+faculties: []
+features:
+- 기숙사 포함 (또는 제휴 기숙사)
+- EJU(일본유학시험) 전문 대비
+- 집중적인 대학 진학 중심
+- '개인 맞춤형 학습을 위한 매우 작은 학급 규모 (정원: 60명)'
+id: school_ashiya-kokusai-gakuin-kobe-school
+lang: kr
+layout: school
+location:
+  lat: 34.7179696
+  lng: 135.3087393
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=529
+stats:
+  capacity: 60
+  international_students: 55
+tags:
+- On-Campus/Affiliated Dormitory Included
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Intensive University Progression Focus
+- 'Extremely Small Class Size for Personalized Learning (Capacity: 60)'
+thumbnail: /static/img/pin-school.png
+title: 아시야 국제학원 고베교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

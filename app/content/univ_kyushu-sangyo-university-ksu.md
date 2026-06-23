@@ -5,6 +5,7 @@ basic_info:
   name_ja: 九州産業大学
   website: https://www.kyusan-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Art and Design
 - Engineering

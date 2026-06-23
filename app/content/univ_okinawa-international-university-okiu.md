@@ -5,6 +5,9 @@ basic_info:
   name_en: Okinawa International University
   name_ja: 沖縄国際大学
 category: university
+date: '2026-06-19'
+description: An all-in-one guide to Okinawa International University (OKIU) for international
+  students, featuring 2026 admission details, tuition fees, and scholarship opportunities.
 faculties:
 - Faculty of Law
 - Faculty of Economics
@@ -22,6 +25,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
+seo_description: Want to study in Japan? Explore Okinawa International University
+  (OKIU). Find 2026 tuition, admission, and scholarships for international students.
+seo_title: Okinawa International University (OKIU) 2026 Guide | JP Campus
 stats:
   acceptance_rate: 45%
   international_students: 130
@@ -36,14 +42,7 @@ translated: true
 tuition:
   admission_fee: 220000
   yearly_tuition: 750000
-description: An all-in-one guide to Okinawa International University (OKIU) for international
-  students, featuring 2026 admission details, tuition fees, and scholarship opportunities.
-seo_title: Okinawa International University (OKIU) 2026 Guide | JP Campus
-seo_description: Want to study in Japan? Explore Okinawa International University
-  (OKIU). Find 2026 tuition, admission, and scholarships for international students.
 ---
-
-
 
 ## University Overview
 

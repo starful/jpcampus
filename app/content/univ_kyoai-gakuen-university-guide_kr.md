@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoai-gakuen-university-guide",
-  "title": "쿄아이학원 마에바시 국제대학교",
-  "category": "university",
-  "tags": [
-    "글로컬 리더 양성",
-    "초개인화된 커리어 지원",
-    "학제간 융합 커리큘럼",
-    "강력한 지역 사회 네트워크"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "共愛学園前橋国際大学",
-    "name_en": "Kyoai Gakuen University",
-    "address": "1154-4 Koya-machi, Maebashi, Gunma 379-2192, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 135,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "국제학부",
-    "영어 코스",
-    "국제 코스",
-    "경영 코스",
-    "정보 미디어 코스",
-    "심리 사회 코스"
-  ],
-  "features": [
-    "글로컬(Glocal) 리더 양성",
-    "초개인화된 밀착형 커리어 지원",
-    "학문 간 경계를 넘나드는 융합 커리큘럼",
-    "지역 사회와의 강력한 파트너십"
-  ],
-  "lang": "kr",
-  "description": "일본 군마현 마에바시에 위치한 쿄아이학원 마에바시 국제대학교는 지역 사회와 세계를 잇는 '글로컬' 인재 양성의 선두주자입니다. 소규모 정예 교육과 강력한 취업 지원을 통해 일본 내에서도 높은 평가를 받고 있습니다."
-}
+basic_info:
+  address: 1154-4 Koya-machi, Maebashi, Gunma 379-2192, Japan
+  capacity: 1200
+  name_en: Kyoai Gakuen University
+  name_ja: 共愛学園前橋国際大学
+category: university
+date: '2026-03-24'
+description: 일본 군마현 마에바시에 위치한 쿄아이학원 마에바시 국제대학교는 지역 사회와 세계를 잇는 '글로컬' 인재 양성의 선두주자입니다.
+  소규모 정예 교육과 강력한 취업 지원을 통해 일본 내에서도 높은 평가를 받고 있습니다.
+faculties:
+- 국제학부
+- 영어 코스
+- 국제 코스
+- 경영 코스
+- 정보 미디어 코스
+- 심리 사회 코스
+features:
+- 글로컬(Glocal) 리더 양성
+- 초개인화된 밀착형 커리어 지원
+- 학문 간 경계를 넘나드는 융합 커리큘럼
+- 지역 사회와의 강력한 파트너십
+id: univ_kyoai-gakuen-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 135
+tags:
+- 글로컬 리더 양성
+- 초개인화된 커리어 지원
+- 학제간 융합 커리큘럼
+- 강력한 지역 사회 네트워크
+thumbnail: /static/img/pin-univ.png
+title: 쿄아이학원 마에바시 국제대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요: '글로컬(Glocal)' 교육의 선구자

@@ -5,6 +5,7 @@ basic_info:
   name_ja: 東北大学
   website: https://www.tohoku.ac.jp/en/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Arts and Letters
 - Faculty of Education

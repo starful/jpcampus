@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_the-university-of-shiga-prefecture-guide",
-  "title": "시가현립대학교",
-  "category": "university",
-  "tags": [
-    "Unique Human-Environmental Centric Philosophy",
-    "Award-Winning Architectural Campus Design",
-    "Direct Research Access to Lake Biwa",
-    "Small-Group Seminar-Based Education"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "滋賀県立大学",
-    "name_en": "The University of Shiga Prefecture",
-    "address": "2500 Hassaka-cho, Hikone, Shiga 522-8533, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 62,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Environmental Science",
-    "School of Engineering",
-    "School of Human Cultures",
-    "School of Nursing"
-  ],
-  "features": [
-    "독특한 인간-환경 중심 철학",
-    "수상 경력에 빛나는 건축 캠퍼스 디자인",
-    "비와호 직접 연구 접근성",
-    "소규모 세미나 기반 교육"
-  ],
-  "description": "시가현 히코네시에 위치한 시가현립대학교는 자연과 사람과의 조화를 추구하는 명문 공립 대학입니다. 독특한 교육 철학과 아름다운 캠퍼스, 비와호 연구 접근성을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2500 Hassaka-cho, Hikone, Shiga 522-8533, Japan
+  capacity: null
+  name_en: The University of Shiga Prefecture
+  name_ja: 滋賀県立大学
+category: university
+date: '2026-03-03'
+description: 시가현 히코네시에 위치한 시가현립대학교는 자연과 사람과의 조화를 추구하는 명문 공립 대학입니다. 독특한 교육 철학과 아름다운
+  캠퍼스, 비와호 연구 접근성을 자랑합니다.
+faculties:
+- School of Environmental Science
+- School of Engineering
+- School of Human Cultures
+- School of Nursing
+features:
+- 독특한 인간-환경 중심 철학
+- 수상 경력에 빛나는 건축 캠퍼스 디자인
+- 비와호 직접 연구 접근성
+- 소규모 세미나 기반 교육
+id: univ_the-university-of-shiga-prefecture-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 62
+tags:
+- Unique Human-Environmental Centric Philosophy
+- Award-Winning Architectural Campus Design
+- Direct Research Access to Lake Biwa
+- Small-Group Seminar-Based Education
+thumbnail: /static/img/pin-univ.png
+title: 시가현립대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

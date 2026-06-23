@@ -1,75 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区信濃町34 トーシン信濃町駅前ビル4,5,6階",
-    "capacity": 1080,
-    "name_en": "Tokyo Central Japanese Language Institute",
-    "name_ja": "東京中央日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 1000450
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1187000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1373550
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1560000
-    },
-    {
-      "admission_month": "4,7,10",
-      "course_name": "一般1年コース",
-      "total_fees": 813000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般2年コース",
-      "total_fees": 1560000
-    }
-  ],
-  "description": "도쿄 중심부에 위치한 Tokyo Central Japanese Language Institute (TCJ)는 종합적인 일본어 교육을 제공하며, 특히 대학 진학 준비와 학업적 우수성에 중점을 두고 있습니다. 다양한 학습 목표와 수준에 맞는 다양한 코스를 제공하며, 광범위한 학생 지원 서비스를 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 준비",
-    "기숙사 이용 가능",
-    "STEM 트랙"
-  ],
-  "id": "school_tokyo-chuo-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6800875,
-    "lng": 139.7201001
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=176",
-  "stats": {
-    "capacity": 1080,
-    "international_students": 0
-  },
-  "tags": [
-    "University Prep",
-    "EJU Prep",
-    "Dormitory Available",
-    "STEM Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Tokyo Central Japanese Language Institute",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区信濃町34 トーシン信濃町駅前ビル4,5,6階
+  capacity: 1080
+  name_en: Tokyo Central Japanese Language Institute
+  name_ja: 東京中央日本語学院
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 1000450
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1187000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1373550
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1560000
+- admission_month: 4,7,10
+  course_name: 一般1年コース
+  total_fees: 813000
+- admission_month: 4,7,10,1
+  course_name: 一般2年コース
+  total_fees: 1560000
+date: '2026-01-28'
+description: 도쿄 중심부에 위치한 Tokyo Central Japanese Language Institute (TCJ)는 종합적인 일본어
+  교육을 제공하며, 특히 대학 진학 준비와 학업적 우수성에 중점을 두고 있습니다. 다양한 학습 목표와 수준에 맞는 다양한 코스를 제공하며, 광범위한
+  학생 지원 서비스를 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 준비
+- 기숙사 이용 가능
+- STEM 트랙
+id: school_tokyo-chuo-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.6800875
+  lng: 139.7201001
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=176
+stats:
+  capacity: 1080
+  international_students: 0
+tags:
+- University Prep
+- EJU Prep
+- Dormitory Available
+- STEM Track
+thumbnail: /static/img/pin-school.png
+title: Tokyo Central Japanese Language Institute
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

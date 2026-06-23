@@ -1,69 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "116-2 Higashimachi, Chuo-ku, Kobe, Hyogo Prefecture",
-    "capacity": 192,
-    "name_en": "Communica Institute",
-    "name_ja": "コミュニカ学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "Comprehensive Japanese Course (April Start)",
-      "total_fees": 1960200
-    },
-    {
-      "admission_month": "7",
-      "course_name": "Comprehensive Japanese Course (July Start)",
-      "total_fees": 1960200
-    },
-    {
-      "admission_month": "10",
-      "course_name": "Comprehensive Japanese Course (October Start)",
-      "total_fees": 1960200
-    },
-    {
-      "admission_month": "1",
-      "course_name": "Comprehensive Japanese Course (January Start)",
-      "total_fees": 1960200
-    }
-  ],
-  "description": "고베에 위치한 커뮤니카 학원은 일본에서의 학업 성공을 목표로 하는 국제 학생들에게 종합적인 일본어 교육을 제공합니다. EJU 시험 준비, STEM 분야 지원, 회화 중심 학습을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "EJU 시험 준비",
-    "고등 교육 지원",
-    "회화 중심 커리큘럼",
-    "단기 유학 옵션",
-    "과학/STEM 트랙 지원"
-  ],
-  "id": "school_communica-institute",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6887544,
-    "lng": 135.1951957
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=371",
-  "stats": {
-    "capacity": 192,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "Higher Education Support",
-    "Conversation-focused Curriculum",
-    "Short-term Study Options",
-    "Science/STEM Track Support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "커뮤니카 학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 116-2 Higashimachi, Chuo-ku, Kobe, Hyogo Prefecture
+  capacity: 192
+  name_en: Communica Institute
+  name_ja: コミュニカ学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: Comprehensive Japanese Course (April Start)
+  total_fees: 1960200
+- admission_month: '7'
+  course_name: Comprehensive Japanese Course (July Start)
+  total_fees: 1960200
+- admission_month: '10'
+  course_name: Comprehensive Japanese Course (October Start)
+  total_fees: 1960200
+- admission_month: '1'
+  course_name: Comprehensive Japanese Course (January Start)
+  total_fees: 1960200
+date: '2026-01-28'
+description: 고베에 위치한 커뮤니카 학원은 일본에서의 학업 성공을 목표로 하는 국제 학생들에게 종합적인 일본어 교육을 제공합니다. EJU
+  시험 준비, STEM 분야 지원, 회화 중심 학습을 제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- EJU 시험 준비
+- 고등 교육 지원
+- 회화 중심 커리큘럼
+- 단기 유학 옵션
+- 과학/STEM 트랙 지원
+id: school_communica-institute
+lang: kr
+layout: school
+location:
+  lat: 34.6887544
+  lng: 135.1951957
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=371
+stats:
+  capacity: 192
+  international_students: 0
+tags:
+- Dormitory Available
+- EJU Preparation
+- Higher Education Support
+- Conversation-focused Curriculum
+- Short-term Study Options
+- Science/STEM Track Support
+thumbnail: /static/img/pin-school.png
+title: 커뮤니카 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

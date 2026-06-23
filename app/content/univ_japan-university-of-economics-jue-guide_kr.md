@@ -1,57 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "후쿠오카 캠퍼스 (본교): 〒818-0197 일본 후쿠오카현 다자이후시 무사시가오카 5-7-1 코가네. 고베 산노미야 및 도쿄 시부야에도 캠퍼스 위치.",
-    "capacity": null,
-    "name_en": "Japan University of Economics",
-    "name_ja": "日本経済大学"
-  },
-  "category": "university",
-  "faculties": [
-    "경제학부",
-    "경영학부",
-    "디자인학부",
-    "현대비즈니스학부 (고베)",
-    "글로벌 비즈니스 및 기업가정신 학부 (도쿄)"
-  ],
-  "features": [
-    "멀티 캠퍼스 시스템 (후쿠오카, 고베, 도쿄)",
-    "실무 중심의 비즈니스 및 기업가 정신 교육",
-    "높은 국제 학생 비율",
-    "표준 입학 과정에 EJU 필요",
-    "외국인 졸업생을 위한 맞춤형 취업 지원"
-  ],
-  "id": "univ_japan-university-of-economics-jue-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "55-60%",
-    "international_students": 2500
-  },
-  "tags": [
-    "Multi-Campus System (Fukuoka, Kobe, Tokyo)",
-    "Strong Focus on Practical Business and Entrepreneurship",
-    "High Ratio of International Students",
-    "EJU Required for Standard Admission Tracks",
-    "Dedicated Career Support for Foreign Graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "일본경제대학교 (Japan University of Economics) 입학 가이드",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1180000
-  },
-  "description": "일본경제대학교(JUE)의 캠퍼스별 특징, 학비, 유학생 장학 혜택 및 취업 지원 등 2026학년도 최신 입학 정보를 한눈에 확인해 보세요.",
-  "seo_title": "[2026] 일본경제대학교 입학 가이드: 학비, 장학금, 외국인 전형 | JP Campus",
-  "seo_description": "2026 일본경제대학교(JUE) 입학의 모든 것! 도쿄·후쿠오카 캠퍼스 특징, 학비, 장학금 혜택 및 외국인 특별전형 정보를 JP Campus에서 확인하세요."
-}
+basic_info:
+  address: '후쿠오카 캠퍼스 (본교): 〒818-0197 일본 후쿠오카현 다자이후시 무사시가오카 5-7-1 코가네. 고베 산노미야 및 도쿄
+    시부야에도 캠퍼스 위치.'
+  capacity: null
+  name_en: Japan University of Economics
+  name_ja: 日本経済大学
+category: university
+date: '2026-06-19'
+description: 일본경제대학교(JUE)의 캠퍼스별 특징, 학비, 유학생 장학 혜택 및 취업 지원 등 2026학년도 최신 입학 정보를 한눈에
+  확인해 보세요.
+faculties:
+- 경제학부
+- 경영학부
+- 디자인학부
+- 현대비즈니스학부 (고베)
+- 글로벌 비즈니스 및 기업가정신 학부 (도쿄)
+features:
+- 멀티 캠퍼스 시스템 (후쿠오카, 고베, 도쿄)
+- 실무 중심의 비즈니스 및 기업가 정신 교육
+- 높은 국제 학생 비율
+- 표준 입학 과정에 EJU 필요
+- 외국인 졸업생을 위한 맞춤형 취업 지원
+id: univ_japan-university-of-economics-jue-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 2026 일본경제대학교(JUE) 입학의 모든 것! 도쿄·후쿠오카 캠퍼스 특징, 학비, 장학금 혜택 및 외국인 특별전형
+  정보를 JP Campus에서 확인하세요.
+seo_title: '[2026] 일본경제대학교 입학 가이드: 학비, 장학금, 외국인 전형 | JP Campus'
+stats:
+  acceptance_rate: 55-60%
+  international_students: 2500
+tags:
+- Multi-Campus System (Fukuoka, Kobe, Tokyo)
+- Strong Focus on Practical Business and Entrepreneurship
+- High Ratio of International Students
+- EJU Required for Standard Admission Tracks
+- Dedicated Career Support for Foreign Graduates
+thumbnail: /static/img/pin-univ.png
+title: 일본경제대학교 (Japan University of Economics) 입학 가이드
+translated: true
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1180000
 ---
-
 
 ## 대학교 개요
 

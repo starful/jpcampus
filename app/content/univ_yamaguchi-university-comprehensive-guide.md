@@ -1,52 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamaguchi-university-comprehensive-guide",
-  "title": "Yamaguchi University",
-  "category": "university",
-  "tags": [
-    "Established historical roots dating back to 1815 (Yamaguchi Kodo)",
-    "Strong interdisciplinary programs through the Faculty of Global and Science Studies",
-    "One of Japan's top-tier Joint Veterinary Medicine programs",
-    "Strategic location between the industrial hubs of Ube and the cultural center of Yamaguchi City"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山口大学",
-    "name_en": "Yamaguchi University",
-    "address": "1677-1 Yoshida, Yamaguchi City, Yamaguchi Prefecture 753-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 560,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Joint Faculty of Veterinary Medicine",
-    "Faculty of Global and Science Studies"
-  ],
-  "features": [
-    "Established historical roots dating back to 1815 (Yamaguchi Kodo)",
-    "Strong interdisciplinary programs through the Faculty of Global and Science Studies",
-    "One of Japan's top-tier Joint Veterinary Medicine programs",
-    "Strategic location between the industrial hubs of Ube and the cultural center of Yamaguchi City"
-  ]
-}
+basic_info:
+  address: 1677-1 Yoshida, Yamaguchi City, Yamaguchi Prefecture 753-8511, Japan
+  capacity: null
+  name_en: Yamaguchi University
+  name_ja: 山口大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Humanities
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+- Joint Faculty of Veterinary Medicine
+- Faculty of Global and Science Studies
+features:
+- Established historical roots dating back to 1815 (Yamaguchi Kodo)
+- Strong interdisciplinary programs through the Faculty of Global and Science Studies
+- One of Japan's top-tier Joint Veterinary Medicine programs
+- Strategic location between the industrial hubs of Ube and the cultural center of
+  Yamaguchi City
+id: univ_yamaguchi-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 560
+tags:
+- Established historical roots dating back to 1815 (Yamaguchi Kodo)
+- Strong interdisciplinary programs through the Faculty of Global and Science Studies
+- One of Japan's top-tier Joint Veterinary Medicine programs
+- Strategic location between the industrial hubs of Ube and the cultural center of
+  Yamaguchi City
+thumbnail: /static/img/pin-univ.png
+title: Yamaguchi University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Spirit of Discovery and Innovation

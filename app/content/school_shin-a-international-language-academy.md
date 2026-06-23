@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 779800
+date: '2026-01-28'
 faculties: []
 features:
 - School-Affiliated Dormitory Options

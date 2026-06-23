@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_asahi-university-international-student-guide",
-  "title": "Asahi University",
-  "category": "university",
-  "tags": [
-    "Nationally Ranked Dental Program",
-    "Dedicated Japanese Language Course (Bekka)",
-    "Affordable Gifu Living Standards",
-    "Strong Career Placement in Local Industries"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "朝日大学",
-    "name_en": "Asahi University",
-    "address": "1851 Hozumi, Mizuho, Gifu 501-0296, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 180,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "School of Dentistry",
-    "School of Business",
-    "School of Law",
-    "School of Health Sciences"
-  ],
-  "features": [
-    "Nationally Ranked Dental Program",
-    "Dedicated Japanese Language Course (Bekka)",
-    "Affordable Gifu Living Standards",
-    "Strong Career Placement in Local Industries"
-  ]
-}
+basic_info:
+  address: 1851 Hozumi, Mizuho, Gifu 501-0296, Japan
+  capacity: 3500
+  name_en: Asahi University
+  name_ja: 朝日大学
+category: university
+date: '2026-03-15'
+faculties:
+- School of Dentistry
+- School of Business
+- School of Law
+- School of Health Sciences
+features:
+- Nationally Ranked Dental Program
+- Dedicated Japanese Language Course (Bekka)
+- Affordable Gifu Living Standards
+- Strong Career Placement in Local Industries
+id: univ_asahi-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 180
+tags:
+- Nationally Ranked Dental Program
+- Dedicated Japanese Language Course (Bekka)
+- Affordable Gifu Living Standards
+- Strong Career Placement in Local Industries
+thumbnail: /static/img/pin-univ.png
+title: Asahi University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview: The Gateway to Gifu

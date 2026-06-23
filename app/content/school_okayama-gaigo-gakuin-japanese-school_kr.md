@@ -1,62 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "岡山県岡山市北区舟橋町2-10",
-    "capacity": 400,
-    "name_en": "Okayama Gaigo Gakuin (Okayama Foreign Language Institute)",
-    "name_ja": "岡山外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1555000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 1196500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 838000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합적인 대학 입시 준비 (EJU, STEM, 미술/디자인)",
-    "취업 및 비즈니스 일본어 집중 과정",
-    "맞춤형 개인 및 학업 상담 지원",
-    "교내 기숙사 시설 (1인실 옵션 제공)",
-    "일본 문화 및 지역 몰입 교육",
-    "장학금 기회 제공",
-    "유연한 단기 연수 옵션"
-  ],
-  "id": "school_okayama-gaigo-gakuin-japanese-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6536574,
-    "lng": 133.9302368
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=393",
-  "stats": {},
-  "tags": [
-    "Comprehensive University Preparation (EJU, STEM, Art/Design)",
-    "Dedicated Job Hunting and Business Japanese Track",
-    "Extensive Personal and Academic Counseling Support",
-    "On-Campus Dormitory Facilities with Single Room Options",
-    "Focus on Japanese Culture and Regional Immersion",
-    "Scholarship Opportunities Available",
-    "Flexible Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오카야마 외어학원 (Okayama Foreign Language Institute)",
-  "tuition": {},
-  "description": "오카야마 외어학원은 일본 유학을 희망하는 학생들을 위한 전문 교육 기관입니다. 대학 진학 및 취업을 위한 다양한 과정을 제공하며, 맞춤형 상담과 지원을 통해 학생들의 성공적인 일본 생활을 돕습니다."
-}
+basic_info:
+  address: 岡山県岡山市北区舟橋町2-10
+  capacity: 400
+  name_en: Okayama Gaigo Gakuin (Okayama Foreign Language Institute)
+  name_ja: 岡山外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1555000
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1196500
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 838000
+date: '2026-01-28'
+description: 오카야마 외어학원은 일본 유학을 희망하는 학생들을 위한 전문 교육 기관입니다. 대학 진학 및 취업을 위한 다양한 과정을 제공하며,
+  맞춤형 상담과 지원을 통해 학생들의 성공적인 일본 생활을 돕습니다.
+faculties: []
+features:
+- 종합적인 대학 입시 준비 (EJU, STEM, 미술/디자인)
+- 취업 및 비즈니스 일본어 집중 과정
+- 맞춤형 개인 및 학업 상담 지원
+- 교내 기숙사 시설 (1인실 옵션 제공)
+- 일본 문화 및 지역 몰입 교육
+- 장학금 기회 제공
+- 유연한 단기 연수 옵션
+id: school_okayama-gaigo-gakuin-japanese-school
+lang: kr
+layout: school
+location:
+  lat: 34.6536574
+  lng: 133.9302368
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=393
+stats: {}
+tags:
+- Comprehensive University Preparation (EJU, STEM, Art/Design)
+- Dedicated Job Hunting and Business Japanese Track
+- Extensive Personal and Academic Counseling Support
+- On-Campus Dormitory Facilities with Single Room Options
+- Focus on Japanese Culture and Regional Immersion
+- Scholarship Opportunities Available
+- Flexible Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: 오카야마 외어학원 (Okayama Foreign Language Institute)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

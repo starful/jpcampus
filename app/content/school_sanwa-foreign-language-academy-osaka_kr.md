@@ -1,67 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市平野区平野馬場2-3-31",
-    "capacity": 85,
-    "name_en": "SANWA Foreign Language Academy",
-    "name_ja": "SANWA外国語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1394000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1074000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 숙소 제공",
-    "종합적인 EJU (일본 유학 시험) 준비",
-    "대학 및 대학원 진학 집중 트랙 (신가쿠)",
-    "실용적인 회화 능력 강화 (카이와)",
-    "다양한 교내외 장학금 기회",
-    "1인실 주거 옵션 제공",
-    "특화된 이공계 (Rikei) 준비 과정",
-    "고급 비즈니스 일본어 및 취업 훈련",
-    "미술 및 디자인 대학 입시 지원",
-    "유연한 단기 학습 옵션"
-  ],
-  "id": "school_sanwa-foreign-language-academy-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6319337,
-    "lng": 135.5460016
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=516",
-  "stats": {
-    "capacity": 85,
-    "international_students": 85
-  },
-  "tags": [
-    "Dormitory accommodation provided",
-    "Comprehensive EJU (Examination for Japanese University Admission for International Students) preparation",
-    "Dedicated university and graduate school progression tracks (Shingaku)",
-    "Strong focus on practical conversational skills (Kaiwa)",
-    "Robust internal and external scholarship opportunities",
-    "Availability of single-room housing options",
-    "Specialized Science Track (Rikei) preparation",
-    "Advanced Business Japanese and career training",
-    "Art and Design university entrance support",
-    "Flexible short-term study options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "SANWA 외국어 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "오사카에 위치한 SANWA 외국어 학원은 소규모 정예 교육을 지향하며, 학생 개개인의 목표에 맞춘 맞춤형 학습 환경을 제공합니다. 대학, 대학원 진학 및 취업을 위한 실용적인 일본어 교육을 제공합니다."
-}
+basic_info:
+  address: 大阪府大阪市平野区平野馬場2-3-31
+  capacity: 85
+  name_en: SANWA Foreign Language Academy
+  name_ja: SANWA外国語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1394000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1074000
+date: '2026-01-28'
+description: 오사카에 위치한 SANWA 외국어 학원은 소규모 정예 교육을 지향하며, 학생 개개인의 목표에 맞춘 맞춤형 학습 환경을 제공합니다.
+  대학, 대학원 진학 및 취업을 위한 실용적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 기숙사 숙소 제공
+- 종합적인 EJU (일본 유학 시험) 준비
+- 대학 및 대학원 진학 집중 트랙 (신가쿠)
+- 실용적인 회화 능력 강화 (카이와)
+- 다양한 교내외 장학금 기회
+- 1인실 주거 옵션 제공
+- 특화된 이공계 (Rikei) 준비 과정
+- 고급 비즈니스 일본어 및 취업 훈련
+- 미술 및 디자인 대학 입시 지원
+- 유연한 단기 학습 옵션
+id: school_sanwa-foreign-language-academy-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.6319337
+  lng: 135.5460016
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=516
+stats:
+  capacity: 85
+  international_students: 85
+tags:
+- Dormitory accommodation provided
+- Comprehensive EJU (Examination for Japanese University Admission for International
+  Students) preparation
+- Dedicated university and graduate school progression tracks (Shingaku)
+- Strong focus on practical conversational skills (Kaiwa)
+- Robust internal and external scholarship opportunities
+- Availability of single-room housing options
+- Specialized Science Track (Rikei) preparation
+- Advanced Business Japanese and career training
+- Art and Design university entrance support
+- Flexible short-term study options
+thumbnail: /static/img/pin-school.png
+title: SANWA 외국어 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

@@ -5,6 +5,7 @@ basic_info:
   name_ja: 東京工業大学
   website: https://www.titech.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - School of Science
 - School of Engineering

@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sapporo-medical-university-international-student-guide",
-  "title": "삿포로 의과대학교",
-  "category": "university",
-  "tags": [
-    "선구적인 암 연구소",
-    "최첨단 대학 병원",
-    "지역 사회 의학과 농촌 의료에 대한 강력한 집중",
-    "개인 맞춤형 임상 교육을 위한 낮은 학생 대 교수 비율"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "札幌医科大学",
-    "name_en": "Sapporo Medical University",
-    "address": "South 1, West 17, Chuo-ku, Sapporo, Hokkaido 060-8556, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 32,
-    "acceptance_rate": "12-18% (추정치)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "의학부",
-    "보건과학부 (간호학, 물리 치료학, 작업 치료학)",
-    "의학 대학원",
-    "보건과학 대학원"
-  ],
-  "features": [
-    "선구적인 암 연구소",
-    "최첨단 대학 병원",
-    "지역 사회 의학과 농촌 의료에 대한 강력한 집중",
-    "개인 맞춤형 임상 교육을 위한 낮은 학생 대 교수 비율"
-  ],
-  "description": "삿포로 의과대학교는 홋카이도 삿포로에 위치한 명문 공립 대학입니다. 암 연구, 지역 사회 의학, 첨단 의료 분야에서 뛰어난 성과를 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: South 1, West 17, Chuo-ku, Sapporo, Hokkaido 060-8556, Japan
+  capacity: null
+  name_en: Sapporo Medical University
+  name_ja: 札幌医科大学
+category: university
+date: '2026-02-13'
+description: 삿포로 의과대학교는 홋카이도 삿포로에 위치한 명문 공립 대학입니다. 암 연구, 지역 사회 의학, 첨단 의료 분야에서 뛰어난
+  성과를 자랑합니다.
+faculties:
+- 의학부
+- 보건과학부 (간호학, 물리 치료학, 작업 치료학)
+- 의학 대학원
+- 보건과학 대학원
+features:
+- 선구적인 암 연구소
+- 최첨단 대학 병원
+- 지역 사회 의학과 농촌 의료에 대한 강력한 집중
+- 개인 맞춤형 임상 교육을 위한 낮은 학생 대 교수 비율
+id: univ_sapporo-medical-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 12-18% (추정치)
+  international_students: 32
+tags:
+- 선구적인 암 연구소
+- 최첨단 대학 병원
+- 지역 사회 의학과 농촌 의료에 대한 강력한 집중
+- 개인 맞춤형 임상 교육을 위한 낮은 학생 대 교수 비율
+thumbnail: /static/img/pin-univ.png
+title: 삿포로 의과대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: Comprehensive Japanese Course (January Start)
   total_fees: 1960200
+date: '2026-01-28'
 description: Communica Institute, located in Kobe, offers comprehensive Japanese language
   education for international students aiming for academic success in Japan. They
   provide EJU prep, STEM support and conversation focused learning.

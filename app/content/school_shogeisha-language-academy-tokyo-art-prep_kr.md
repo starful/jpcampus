@@ -1,66 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都荒川区西日暮里2-12-5 尚藝舎ビル",
-    "capacity": 80,
-    "name_en": "Shogeisha Language Academy",
-    "name_ja": "尚藝舎言語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "美術系進学2年課程",
-      "total_fees": 2300000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "美術系進学1年9か月課程",
-      "total_fees": 2042500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "美術系進学1年6か月課程",
-      "total_fees": 1785000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "美術系進学1年課程",
-      "total_fees": 1260000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "미술 대학 진학 집중 준비 과정 (Bijutsu Kei Shingaku)",
-    "소규모 학급 환경 및 개인별 멘토링",
-    "학교 또는 제휴 기숙사 옵션 제공",
-    "EJU 및 일본어 능력 시험 통합 훈련",
-    "미술 탐구를 위한 최적의 도쿄 위치 (니시닛포리)"
-  ],
-  "id": "school_shogeisha-language-academy-tokyo-art-prep",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7305149,
-    "lng": 139.772706
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=589",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "Highly Specialized Art University Preparation (Bijutsu Kei Shingaku)",
-    "Small Class Environment and Personalized Mentorship",
-    "On-Campus or Affiliated Dormitory Options",
-    "Integrated EJU and Japanese Proficiency Training",
-    "Prime Tokyo Location for Art Exploration (Nishi-Nippori)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "쇼게이샤 랭귀지 아카데미",
-  "tuition": {},
-  "description": "미술 대학 진학을 위한 전문 어학원, 쇼게이샤 랭귀지 아카데미에 대해 알아보세요."
-}
+basic_info:
+  address: 東京都荒川区西日暮里2-12-5 尚藝舎ビル
+  capacity: 80
+  name_en: Shogeisha Language Academy
+  name_ja: 尚藝舎言語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 美術系進学2年課程
+  total_fees: 2300000
+- admission_month: '7'
+  course_name: 美術系進学1年9か月課程
+  total_fees: 2042500
+- admission_month: '10'
+  course_name: 美術系進学1年6か月課程
+  total_fees: 1785000
+- admission_month: '4'
+  course_name: 美術系進学1年課程
+  total_fees: 1260000
+date: '2026-01-28'
+description: 미술 대학 진학을 위한 전문 어학원, 쇼게이샤 랭귀지 아카데미에 대해 알아보세요.
+faculties: []
+features:
+- 미술 대학 진학 집중 준비 과정 (Bijutsu Kei Shingaku)
+- 소규모 학급 환경 및 개인별 멘토링
+- 학교 또는 제휴 기숙사 옵션 제공
+- EJU 및 일본어 능력 시험 통합 훈련
+- 미술 탐구를 위한 최적의 도쿄 위치 (니시닛포리)
+id: school_shogeisha-language-academy-tokyo-art-prep
+lang: kr
+layout: school
+location:
+  lat: 35.7305149
+  lng: 139.772706
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=589
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- Highly Specialized Art University Preparation (Bijutsu Kei Shingaku)
+- Small Class Environment and Personalized Mentorship
+- On-Campus or Affiliated Dormitory Options
+- Integrated EJU and Japanese Proficiency Training
+- Prime Tokyo Location for Art Exploration (Nishi-Nippori)
+thumbnail: /static/img/pin-school.png
+title: 쇼게이샤 랭귀지 아카데미
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

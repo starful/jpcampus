@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_miyazaki-municipal-university-guide",
-  "title": "Miyazaki Municipal University",
-  "category": "university",
-  "tags": [
-    "Liberal Arts Focused Curriculum",
-    "High Faculty-to-Student Ratio",
-    "Extensive Global Exchange Partnerships",
-    "Community-Rooted Learning Environment",
-    "Affordable Public University Tuition"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宮崎公立大学",
-    "name_en": "Miyazaki Municipal University",
-    "address": "1-1-2 Funatsuka, Miyazaki City, Miyazaki Prefecture 880-8520, Japan",
-    "capacity": 800
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "Competitive (approx. 25-35%)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities (Department of International Culture)"
-  ],
-  "features": [
-    "Liberal Arts Focused Curriculum",
-    "High Faculty-to-Student Ratio",
-    "Extensive Global Exchange Partnerships",
-    "Community-Rooted Learning Environment",
-    "Affordable Public University Tuition"
-  ]
-}
+basic_info:
+  address: 1-1-2 Funatsuka, Miyazaki City, Miyazaki Prefecture 880-8520, Japan
+  capacity: 800
+  name_en: Miyazaki Municipal University
+  name_ja: 宮崎公立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Humanities (Department of International Culture)
+features:
+- Liberal Arts Focused Curriculum
+- High Faculty-to-Student Ratio
+- Extensive Global Exchange Partnerships
+- Community-Rooted Learning Environment
+- Affordable Public University Tuition
+id: univ_miyazaki-municipal-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive (approx. 25-35%)
+  international_students: 25
+tags:
+- Liberal Arts Focused Curriculum
+- High Faculty-to-Student Ratio
+- Extensive Global Exchange Partnerships
+- Community-Rooted Learning Environment
+- Affordable Public University Tuition
+thumbnail: /static/img/pin-univ.png
+title: Miyazaki Municipal University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

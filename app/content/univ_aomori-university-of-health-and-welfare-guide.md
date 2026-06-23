@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aomori-university-of-health-and-welfare-guide",
-  "title": "Aomori University of Health and Welfare",
-  "category": "university",
-  "tags": [
-    "Interprofessional Education (IPE) curriculum",
-    "High national examination pass rates",
-    "Strong focus on regional health and longevity",
-    "State-of-the-art rehabilitation facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "青森県立保健大学",
-    "name_en": "Aomori University of Health and Welfare",
-    "address": "58-1 Mase, Hamadate, Aomori-shi, Aomori 030-8505, Japan",
-    "capacity": 210
-  },
-  "stats": {
-    "international_students": 3,
-    "acceptance_rate": "25% (Highly competitive due to regional public status)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Department of Nursing",
-    "Department of Physical Therapy",
-    "Department of Occupational Therapy",
-    "Department of Social Welfare",
-    "Department of Health and Nutrition"
-  ],
-  "features": [
-    "Interprofessional Education (IPE) curriculum",
-    "High national examination pass rates",
-    "Strong focus on regional health and longevity",
-    "State-of-the-art rehabilitation facilities"
-  ]
-}
+basic_info:
+  address: 58-1 Mase, Hamadate, Aomori-shi, Aomori 030-8505, Japan
+  capacity: 210
+  name_en: Aomori University of Health and Welfare
+  name_ja: 青森県立保健大学
+category: university
+date: '2026-03-03'
+faculties:
+- Department of Nursing
+- Department of Physical Therapy
+- Department of Occupational Therapy
+- Department of Social Welfare
+- Department of Health and Nutrition
+features:
+- Interprofessional Education (IPE) curriculum
+- High national examination pass rates
+- Strong focus on regional health and longevity
+- State-of-the-art rehabilitation facilities
+id: univ_aomori-university-of-health-and-welfare-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25% (Highly competitive due to regional public status)
+  international_students: 3
+tags:
+- Interprofessional Education (IPE) curriculum
+- High national examination pass rates
+- Strong focus on regional health and longevity
+- State-of-the-art rehabilitation facilities
+thumbnail: /static/img/pin-univ.png
+title: Aomori University of Health and Welfare
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: A Pillar of Health in Northern Japan

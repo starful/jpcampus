@@ -5,6 +5,7 @@ basic_info:
   name_ja: 大阪大学
   website: https://www.osaka-u.ac.jp/en
 category: university
+date: '2026-01-28'
 faculties:
 - Letters
 - Human Sciences

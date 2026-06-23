@@ -1,51 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "6 Kasame-cho, Saiin, Ukyo-ku, Kyoto 615-8558, Japan",
-    "capacity": null,
-    "name_en": "Kyoto University of Foreign Studies",
-    "name_ja": "京都外国語大学"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Foreign Studies (Undergraduate)",
-    "Faculty of Global Engagement (Undergraduate)",
-    "Graduate School of Foreign Studies"
-  ],
-  "features": [
-    "특화된 언어 중심 교육",
-    "광범위한 해외 유학 프로그램 (300개 이상의 파트너)",
-    "일본 문화의 중심지 (교토)에 위치",
-    "EJU 필수 (표준 국제 학생 입학)",
-    "이중 언어 교육 강조"
-  ],
-  "id": "univ_kyoto-university-of-foreign-studies-kufs",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "45-55%",
-    "international_students": 550
-  },
-  "tags": [
-    "Dedicated Language Focus",
-    "Extensive Study Abroad Programs (300+ Partners)",
-    "Located in Japan's Cultural Capital (Kyoto)",
-    "EJU Required (Standard International Entry)",
-    "Bilingual Education Emphasis"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "교토 외국어 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "description": "교토에 위치한 교토 외국어 대학교는 언어, 문화 간 커뮤니케이션, 국제 관계에 특화된 명문 사립 대학입니다. 다양한 언어 프로그램과 해외 유학 기회를 제공합니다."
-}
+basic_info:
+  address: 6 Kasame-cho, Saiin, Ukyo-ku, Kyoto 615-8558, Japan
+  capacity: null
+  name_en: Kyoto University of Foreign Studies
+  name_ja: 京都外国語大学
+category: university
+date: '2026-01-28'
+description: 교토에 위치한 교토 외국어 대학교는 언어, 문화 간 커뮤니케이션, 국제 관계에 특화된 명문 사립 대학입니다. 다양한 언어 프로그램과
+  해외 유학 기회를 제공합니다.
+faculties:
+- School of Foreign Studies (Undergraduate)
+- Faculty of Global Engagement (Undergraduate)
+- Graduate School of Foreign Studies
+features:
+- 특화된 언어 중심 교육
+- 광범위한 해외 유학 프로그램 (300개 이상의 파트너)
+- 일본 문화의 중심지 (교토)에 위치
+- EJU 필수 (표준 국제 학생 입학)
+- 이중 언어 교육 강조
+id: univ_kyoto-university-of-foreign-studies-kufs
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 550
+tags:
+- Dedicated Language Focus
+- Extensive Study Abroad Programs (300+ Partners)
+- Located in Japan's Cultural Capital (Kyoto)
+- EJU Required (Standard International Entry)
+- Bilingual Education Emphasis
+thumbnail: /static/img/pin-univ.png
+title: 교토 외국어 대학교
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 학교 소개

@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hokkai-gakuen-university-international-student-guide",
-  "title": "Hokkai Gakuen University",
-  "category": "university",
-  "tags": [
-    "Oldest and largest private university in Hokkaido",
-    "Unrivaled employment rate within Hokkaido local government",
-    "Unique Second Department (Evening Division) for working students",
-    "Central Sapporo location with direct subway access"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北海学園大学",
-    "name_en": "Hokkai Gakuen University",
-    "address": "4-1-40 Asahimachi, Toyohira-ku, Sapporo, Hokkaido 062-8605, Japan",
-    "capacity": "Approximately 8,000 total students"
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "Estimated 45-55% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Humanities",
-    "Faculty of Engineering"
-  ],
-  "features": [
-    "Oldest and largest private university in Hokkaido",
-    "Unrivaled employment rate within Hokkaido local government",
-    "Unique Second Department (Evening Division) for working students",
-    "Central Sapporo location with direct subway access"
-  ]
-}
+basic_info:
+  address: 4-1-40 Asahimachi, Toyohira-ku, Sapporo, Hokkaido 062-8605, Japan
+  capacity: Approximately 8,000 total students
+  name_en: Hokkai Gakuen University
+  name_ja: 北海学園大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Humanities
+- Faculty of Engineering
+features:
+- Oldest and largest private university in Hokkaido
+- Unrivaled employment rate within Hokkaido local government
+- Unique Second Department (Evening Division) for working students
+- Central Sapporo location with direct subway access
+id: univ_hokkai-gakuen-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55% for international applicants
+  international_students: 42
+tags:
+- Oldest and largest private university in Hokkaido
+- Unrivaled employment rate within Hokkaido local government
+- Unique Second Department (Evening Division) for working students
+- Central Sapporo location with direct subway access
+thumbnail: /static/img/pin-univ.png
+title: Hokkai Gakuen University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 University Overview

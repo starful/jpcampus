@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shitennoji-university-international-student-guide",
-  "title": "Shitennoji University",
-  "category": "university",
-  "tags": [
-    "1,400-Year Buddhist Heritage",
-    "Strong Teacher Training Programs",
-    "High Graduate Employment Rate",
-    "Global Exchange Center Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "四天王寺大学",
-    "name_en": "Shitennoji University",
-    "address": "3-2-1 Gakuenmae, Habikino, Osaka 583-8501, Japan",
-    "capacity": 4500
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Education",
-    "Faculty of Management",
-    "Faculty of Nursing",
-    "Faculty of Humanities and Social Sciences",
-    "Junior College Division"
-  ],
-  "features": [
-    "1,400-Year Buddhist Heritage",
-    "Strong Teacher Training Programs",
-    "High Graduate Employment Rate",
-    "Global Exchange Center Support"
-  ]
-}
+basic_info:
+  address: 3-2-1 Gakuenmae, Habikino, Osaka 583-8501, Japan
+  capacity: 4500
+  name_en: Shitennoji University
+  name_ja: 四天王寺大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Humanities
+- Faculty of Education
+- Faculty of Management
+- Faculty of Nursing
+- Faculty of Humanities and Social Sciences
+- Junior College Division
+features:
+- 1,400-Year Buddhist Heritage
+- Strong Teacher Training Programs
+- High Graduate Employment Rate
+- Global Exchange Center Support
+id: univ_shitennoji-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 65
+tags:
+- 1,400-Year Buddhist Heritage
+- Strong Teacher Training Programs
+- High Graduate Employment Rate
+- Global Exchange Center Support
+thumbnail: /static/img/pin-univ.png
+title: Shitennoji University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

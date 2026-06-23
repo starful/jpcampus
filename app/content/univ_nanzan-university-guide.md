@@ -5,6 +5,7 @@ basic_info:
   name_ja: 南山大学
   website: https://www.nanzan-u.ac.jp/english/
 category: university
+date: '2026-01-28'
 description: Nanzan University, a leading private university in the Chubu region of
   Japan, offering a strong international focus, particularly known for its foreign
   studies and GALS program.

@@ -15,6 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 国際日本語専科
   total_fees: 1230000
+date: '2026-01-28'
 faculties: []
 features:
 - Intensive Preparation for University and Graduate School Admission (Shingaku)

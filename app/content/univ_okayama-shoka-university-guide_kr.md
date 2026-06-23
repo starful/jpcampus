@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okayama-shoka-university-guide",
-  "title": "오카야마 상과대학교 (Okayama Shoka University)",
-  "description": "실무 중심의 비즈니스 교육과 강력한 유학생 취업 지원 시스템을 갖춘 오카야마 상과대학교를 소개합니다.",
-  "category": "university",
-  "lang": "kr",
-  "tags": [
-    "실무 중심의 경상 교육",
-    "강력한 유학생 취업 지원",
-    "햇살의 고장 오카야마의 전략적 위치",
-    "활발한 산학 협력"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡山商科大学",
-    "name_en": "Okayama Shoka University",
-    "address": "2-10-1 Tsushima-Kyomachi, Kita-ku, Okayama-shi, Okayama 700-8601, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 342,
-    "acceptance_rate": "75-85%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 740000
-  },
-  "faculties": [
-    "법학부",
-    "경제학부",
-    "경영학부"
-  ],
-  "features": [
-    "실무 중심의 경상 교육",
-    "강력한 유학생 취업 지원",
-    "햇살의 고장 오카야마의 전략적 위치",
-    "활발한 산학 협력"
-  ]
-}
+basic_info:
+  address: 2-10-1 Tsushima-Kyomachi, Kita-ku, Okayama-shi, Okayama 700-8601, Japan
+  capacity: null
+  name_en: Okayama Shoka University
+  name_ja: 岡山商科大学
+category: university
+date: '2026-04-19'
+description: 실무 중심의 비즈니스 교육과 강력한 유학생 취업 지원 시스템을 갖춘 오카야마 상과대학교를 소개합니다.
+faculties:
+- 법학부
+- 경제학부
+- 경영학부
+features:
+- 실무 중심의 경상 교육
+- 강력한 유학생 취업 지원
+- 햇살의 고장 오카야마의 전략적 위치
+- 활발한 산학 협력
+id: univ_okayama-shoka-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-85%
+  international_students: 342
+tags:
+- 실무 중심의 경상 교육
+- 강력한 유학생 취업 지원
+- 햇살의 고장 오카야마의 전략적 위치
+- 활발한 산학 협력
+thumbnail: /static/img/pin-univ.png
+title: 오카야마 상과대학교 (Okayama Shoka University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 740000
 ---
 
 ## 🏫 대학 개요

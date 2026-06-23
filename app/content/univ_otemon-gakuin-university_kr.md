@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_otemon-gakuin-university",
-  "title": "오테몬가쿠인 대학교",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "혁신적인 'WIL' (Work-Is-Learning) 교육 철학",
-    "수상을 통해 입증된 이바라키 소지지 캠퍼스의 현대적 건축미",
-    "지역사회 및 산업체와의 긴밀한 협력 네트워크",
-    "일본 취업 시장을 겨냥한 전략적인 커리어 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "追手門学院大学",
-    "name_en": "Otemon Gakuin University",
-    "address": "2-1-15 Nishiai, Ibaraki-shi, Osaka 567-8502, Japan",
-    "capacity": 7850
-  },
-  "stats": {
-    "international_students": 215,
-    "acceptance_rate": "40-45% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1280000
-  },
-  "faculties": [
-    "경제학부",
-    "경영학부",
-    "지역창생학부",
-    "사회학부",
-    "심리학부",
-    "국제학부",
-    "법학부"
-  ],
-  "features": [
-    "혁신적인 'WIL' (Work-Is-Learning) 교육 철학",
-    "수상을 통해 입증된 이바라키 소지지 캠퍼스의 현대적 건축미",
-    "지역사회 및 산업체와의 긴밀한 협력 네트워크",
-    "일본 취업 시장을 겨냥한 전략적인 커리어 지원"
-  ],
-  "description": "오사카의 전통과 혁신이 공존하는 오테몬가쿠인 대학교에서 실무 중심의 'WIL' 교육과 최첨단 캠퍼스 라이프를 경험해 보세요."
-}
+basic_info:
+  address: 2-1-15 Nishiai, Ibaraki-shi, Osaka 567-8502, Japan
+  capacity: 7850
+  name_en: Otemon Gakuin University
+  name_ja: 追手門学院大学
+category: university
+date: '2026-04-19'
+description: 오사카의 전통과 혁신이 공존하는 오테몬가쿠인 대학교에서 실무 중심의 'WIL' 교육과 최첨단 캠퍼스 라이프를 경험해 보세요.
+faculties:
+- 경제학부
+- 경영학부
+- 지역창생학부
+- 사회학부
+- 심리학부
+- 국제학부
+- 법학부
+features:
+- 혁신적인 'WIL' (Work-Is-Learning) 교육 철학
+- 수상을 통해 입증된 이바라키 소지지 캠퍼스의 현대적 건축미
+- 지역사회 및 산업체와의 긴밀한 협력 네트워크
+- 일본 취업 시장을 겨냥한 전략적인 커리어 지원
+id: univ_otemon-gakuin-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-45% (Estimated for International Applicants)
+  international_students: 215
+tags:
+- 혁신적인 'WIL' (Work-Is-Learning) 교육 철학
+- 수상을 통해 입증된 이바라키 소지지 캠퍼스의 현대적 건축미
+- 지역사회 및 산업체와의 긴밀한 협력 네트워크
+- 일본 취업 시장을 겨냥한 전략적인 커리어 지원
+thumbnail: /static/img/pin-univ.png
+title: 오테몬가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1280000
 ---
 
 ## 🏫 대학 개요

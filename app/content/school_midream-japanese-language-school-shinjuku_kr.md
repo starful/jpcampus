@@ -1,67 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区百人町2-7-11",
-    "capacity": 890,
-    "name_en": "Midream Japanese Language School",
-    "name_ja": "ミッドリーム日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1436000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1266000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1096000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 926000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1436000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 전문 (EJU 집중)",
-    "미술 대학 진학 집중 프로그램",
-    "신주쿠(도쿄) 중심에 위치",
-    "장/단기 유연한 학습 옵션"
-  ],
-  "id": "school_midream-japanese-language-school-shinjuku",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7041144,
-    "lng": 139.699733
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=121",
-  "stats": {},
-  "tags": [
-    "Specialized University Progression (EJU Focus)",
-    "Dedicated Fine Arts Preparation Program",
-    "Strategic Location in Shinjuku (Tokyo)",
-    "Flexible Long-term and Short-term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "미드림 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "미드림 일본어 학교는 도쿄 신주쿠에 위치한 대학 진학 전문 일본어 학교입니다. EJU 시험 준비, 미술 대학 진학 프로그램 등 다양한 학습 옵션을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区百人町2-7-11
+  capacity: 890
+  name_en: Midream Japanese Language School
+  name_ja: ミッドリーム日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1436000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1266000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1096000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 926000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1436000
+date: '2026-01-28'
+description: 미드림 일본어 학교는 도쿄 신주쿠에 위치한 대학 진학 전문 일본어 학교입니다. EJU 시험 준비, 미술 대학 진학 프로그램
+  등 다양한 학습 옵션을 제공합니다.
+faculties: []
+features:
+- 대학 진학 전문 (EJU 집중)
+- 미술 대학 진학 집중 프로그램
+- 신주쿠(도쿄) 중심에 위치
+- 장/단기 유연한 학습 옵션
+id: school_midream-japanese-language-school-shinjuku
+lang: kr
+layout: school
+location:
+  lat: 35.7041144
+  lng: 139.699733
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=121
+stats: {}
+tags:
+- Specialized University Progression (EJU Focus)
+- Dedicated Fine Arts Preparation Program
+- Strategic Location in Shinjuku (Tokyo)
+- Flexible Long-term and Short-term Study Options
+thumbnail: /static/img/pin-school.png
+title: 미드림 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,47 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_akita-prefectural-university-guide",
-  "title": "아키타현립대학교",
-  "category": "university",
-  "tags": [
-    "생명공학 및 공학 분야의 최고 수준 연구 시설",
-    "개인별 지도를 보장하는 우수한 교수 대 학생 비율",
-    "추운 지역 기술 및 지속 가능한 농업에 대한 전략적 집중",
-    "아름다운 아키타현의 저렴한 생활비"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "秋田県立大学",
-    "name_en": "Akita Prefectural University",
-    "address": "84-4 Ebinokuchi, Tsuchiya, Yurihonjo-shi, Akita 015-0055, Japan (Honjo Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "시스템과학기술학부",
-    "생물자원과학부"
-  ],
-  "features": [
-    "생명공학 및 공학 분야의 최고 수준 연구 시설",
-    "개인별 지도를 보장하는 우수한 교수 대 학생 비율",
-    "추운 지역 기술 및 지속 가능한 농업에 대한 전략적 집중",
-    "아름다운 아키타현의 저렴한 생활비"
-  ],
-  "description": "아키타현립대학교는 시스템 공학 및 생명 과학 분야에서 높은 연구 수준으로 빠르게 명성을 얻고 있는 명문 공립 대학입니다. 수준 높은 연구 시설, 훌륭한 교수진 비율, 저렴한 생활비 등 유학을 고려하는 학생들에게 매력적인 선택지입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 84-4 Ebinokuchi, Tsuchiya, Yurihonjo-shi, Akita 015-0055, Japan (Honjo
+    Campus)
+  capacity: null
+  name_en: Akita Prefectural University
+  name_ja: 秋田県立大学
+category: university
+date: '2026-03-03'
+description: 아키타현립대학교는 시스템 공학 및 생명 과학 분야에서 높은 연구 수준으로 빠르게 명성을 얻고 있는 명문 공립 대학입니다. 수준
+  높은 연구 시설, 훌륭한 교수진 비율, 저렴한 생활비 등 유학을 고려하는 학생들에게 매력적인 선택지입니다.
+faculties:
+- 시스템과학기술학부
+- 생물자원과학부
+features:
+- 생명공학 및 공학 분야의 최고 수준 연구 시설
+- 개인별 지도를 보장하는 우수한 교수 대 학생 비율
+- 추운 지역 기술 및 지속 가능한 농업에 대한 전략적 집중
+- 아름다운 아키타현의 저렴한 생활비
+id: univ_akita-prefectural-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 35
+tags:
+- 생명공학 및 공학 분야의 최고 수준 연구 시설
+- 개인별 지도를 보장하는 우수한 교수 대 학생 비율
+- 추운 지역 기술 및 지속 가능한 농업에 대한 전략적 집중
+- 아름다운 아키타현의 저렴한 생활비
+thumbnail: /static/img/pin-univ.png
+title: 아키타현립대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

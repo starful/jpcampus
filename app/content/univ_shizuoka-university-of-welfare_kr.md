@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shizuoka-university-of-welfare",
-  "title": "시즈오카 복지대학교",
-  "description": "일본 시즈오카현 야이즈시에 위치한 사회복지 및 아동 교육 특화 대학으로, 높은 국가 자격증 합격률과 충실한 유학생 지원을 자랑합니다.",
-  "category": "university",
-  "tags": [
-    "사회복지사 전문 커리어 지원",
-    "높은 국가 자격증 합격률",
-    "야이즈시 지역 밀착형 학습",
-    "유학생 전담 튜터링 시스템"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "静岡福祉大学",
-    "name_en": "Shizuoka University of Welfare",
-    "address": "5-1-1 Honmachi, Yaizu, Shizuoka 425-8611, Japan",
-    "capacity": 850
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "사회복지학부",
-    "아동교육학부",
-    "건강심리학과"
-  ],
-  "features": [
-    "사회복지사 전문 커리어 지원",
-    "높은 국가 자격증 합격률",
-    "야이즈시 지역 밀착형 학습",
-    "유학생 전담 튜터링 시스템"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 5-1-1 Honmachi, Yaizu, Shizuoka 425-8611, Japan
+  capacity: 850
+  name_en: Shizuoka University of Welfare
+  name_ja: 静岡福祉大学
+category: university
+date: '2026-04-04'
+description: 일본 시즈오카현 야이즈시에 위치한 사회복지 및 아동 교육 특화 대학으로, 높은 국가 자격증 합격률과 충실한 유학생 지원을 자랑합니다.
+faculties:
+- 사회복지학부
+- 아동교육학부
+- 건강심리학과
+features:
+- 사회복지사 전문 커리어 지원
+- 높은 국가 자격증 합격률
+- 야이즈시 지역 밀착형 학습
+- 유학생 전담 튜터링 시스템
+id: univ_shizuoka-university-of-welfare
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 45
+tags:
+- 사회복지사 전문 커리어 지원
+- 높은 국가 자격증 합격률
+- 야이즈시 지역 밀착형 학습
+- 유학생 전담 튜터링 시스템
+thumbnail: /static/img/pin-univ.png
+title: 시즈오카 복지대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요: 지역 사회 케어의 중심

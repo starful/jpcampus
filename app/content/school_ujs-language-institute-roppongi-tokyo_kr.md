@@ -1,72 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都港区六本木3-3-29",
-    "capacity": 320,
-    "name_en": "UJS Language Institute",
-    "name_ja": "UJS Language Institute"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語進学2年コース",
-      "total_fees": 1460000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "日本語進学1年9ヶ月コース",
-      "total_fees": 1285000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語進学1年6ヶ月コース",
-      "total_fees": 1120000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "日本語進学1年3ヶ月コース",
-      "total_fees": 950000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語進学1年コース",
-      "total_fees": 780000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "엘리트 학업 진학 집중 (신가쿠)",
-    "EJU 및 JLPT 시험 전문",
-    "도쿄 중심부의 핵심 지역 (롯폰기) 위치",
-    "높은 수준의 회화 능력 강조",
-    "친밀한 학습 환경 (소규모 학급)"
-  ],
-  "id": "school_ujs-language-institute-roppongi-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6631,
-    "lng": 139.7366066
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=94",
-  "stats": {
-    "capacity": 320,
-    "international_students": 300
-  },
-  "tags": [
-    "Elite Academic Progression Focus (Shingaku)",
-    "Specialist in EJU and JLPT Preparation",
-    "Located in Prime Central Tokyo (Roppongi)",
-    "Emphasis on High Conversational Fluency",
-    "Intimate Learning Environment (Small Class Capacity)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "UJS 랭귀지 인스티튜트",
-  "translated": true,
-  "tuition": {},
-  "description": "롯폰기에 위치한 UJS 랭귀지 인스티튜트는 대학 진학을 위한 집중적인 일본어 교육을 제공합니다. 소규모 학급과 EJU 및 JLPT 시험 전문성을 갖추고 있습니다."
-}
+basic_info:
+  address: 東京都港区六本木3-3-29
+  capacity: 320
+  name_en: UJS Language Institute
+  name_ja: UJS Language Institute
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語進学2年コース
+  total_fees: 1460000
+- admission_month: '7'
+  course_name: 日本語進学1年9ヶ月コース
+  total_fees: 1285000
+- admission_month: '10'
+  course_name: 日本語進学1年6ヶ月コース
+  total_fees: 1120000
+- admission_month: '1'
+  course_name: 日本語進学1年3ヶ月コース
+  total_fees: 950000
+- admission_month: '4'
+  course_name: 日本語進学1年コース
+  total_fees: 780000
+date: '2026-01-28'
+description: 롯폰기에 위치한 UJS 랭귀지 인스티튜트는 대학 진학을 위한 집중적인 일본어 교육을 제공합니다. 소규모 학급과 EJU 및 JLPT
+  시험 전문성을 갖추고 있습니다.
+faculties: []
+features:
+- 엘리트 학업 진학 집중 (신가쿠)
+- EJU 및 JLPT 시험 전문
+- 도쿄 중심부의 핵심 지역 (롯폰기) 위치
+- 높은 수준의 회화 능력 강조
+- 친밀한 학습 환경 (소규모 학급)
+id: school_ujs-language-institute-roppongi-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.6631
+  lng: 139.7366066
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=94
+stats:
+  capacity: 320
+  international_students: 300
+tags:
+- Elite Academic Progression Focus (Shingaku)
+- Specialist in EJU and JLPT Preparation
+- Located in Prime Central Tokyo (Roppongi)
+- Emphasis on High Conversational Fluency
+- Intimate Learning Environment (Small Class Capacity)
+thumbnail: /static/img/pin-school.png
+title: UJS 랭귀지 인스티튜트
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

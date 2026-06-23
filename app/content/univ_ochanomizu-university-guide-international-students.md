@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ochanomizu-university-guide-international-students",
-  "title": "Ochanomizu University",
-  "category": "university",
-  "tags": [
-    "Japan's Top National Women's University",
-    "Strategic Location in Central Tokyo (Bunkyo)",
-    "Small Class Sizes and Personalized Mentorship",
-    "EJU and JLPT N1 Recommended",
-    "Comprehensive Scholarship Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "お茶の水女子大学",
-    "name_en": "Ochanomizu University",
-    "address": "2-1-1 Otsuka, Bunkyo-ku, Tokyo 112-8610, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 542,
-    "acceptance_rate": "20-25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters and Education",
-    "Faculty of Science",
-    "Faculty of Human Life and Environmental Sciences",
-    "Faculty of Interdisciplinary Data Science",
-    "Graduate School of Humanities and Sciences"
-  ],
-  "features": [
-    "Japan's Top National Women's University",
-    "Strategic Location in Central Tokyo (Bunkyo)",
-    "Small Class Sizes and Personalized Mentorship",
-    "EJU and JLPT N1 Recommended",
-    "Comprehensive Scholarship Programs"
-  ]
-}
+basic_info:
+  address: 2-1-1 Otsuka, Bunkyo-ku, Tokyo 112-8610, Japan
+  capacity: null
+  name_en: Ochanomizu University
+  name_ja: お茶の水女子大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Letters and Education
+- Faculty of Science
+- Faculty of Human Life and Environmental Sciences
+- Faculty of Interdisciplinary Data Science
+- Graduate School of Humanities and Sciences
+features:
+- Japan's Top National Women's University
+- Strategic Location in Central Tokyo (Bunkyo)
+- Small Class Sizes and Personalized Mentorship
+- EJU and JLPT N1 Recommended
+- Comprehensive Scholarship Programs
+id: univ_ochanomizu-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20-25%
+  international_students: 542
+tags:
+- Japan's Top National Women's University
+- Strategic Location in Central Tokyo (Bunkyo)
+- Small Class Sizes and Personalized Mentorship
+- EJU and JLPT N1 Recommended
+- Comprehensive Scholarship Programs
+thumbnail: /static/img/pin-univ.png
+title: Ochanomizu University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

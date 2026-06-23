@@ -1,71 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県尼崎市南塚口町１-20-17",
-    "capacity": 140,
-    "name_en": "Kobe Institute of Japanese Language",
-    "name_ja": "神戸日語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "General 2-Year Course",
-      "total_fees": 1503000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "General 1 Year 9-Month Course",
-      "total_fees": 1331000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "General 1 Year 6-Month Course",
-      "total_fees": 1157000
-    }
-  ],
-  "description": "효고현 아마가사키시에 위치한 고베 일본어학원은 대학 진학을 목표로 하는 학생들에게 종합적인 일본어 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "회화",
-    "고등 교육 준비",
-    "EJU 준비",
-    "기숙사",
-    "개인실",
-    "장학금",
-    "이과 계열",
-    "비즈니스 일본어",
-    "미술",
-    "디자인",
-    "단기 코스"
-  ],
-  "id": "school_kobe-nichigo-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7540145,
-    "lng": 135.4122723
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=583",
-  "stats": {},
-  "tags": [
-    "Conversation",
-    "Higher Education Preparation",
-    "EJU Preparation",
-    "Dormitory",
-    "Private Room",
-    "Scholarship",
-    "Science Stream",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "고베 일본어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 兵庫県尼崎市南塚口町１-20-17
+  capacity: 140
+  name_en: Kobe Institute of Japanese Language
+  name_ja: 神戸日語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: General 2-Year Course
+  total_fees: 1503000
+- admission_month: '7'
+  course_name: General 1 Year 9-Month Course
+  total_fees: 1331000
+- admission_month: '10'
+  course_name: General 1 Year 6-Month Course
+  total_fees: 1157000
+date: '2026-01-28'
+description: 효고현 아마가사키시에 위치한 고베 일본어학원은 대학 진학을 목표로 하는 학생들에게 종합적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 회화
+- 고등 교육 준비
+- EJU 준비
+- 기숙사
+- 개인실
+- 장학금
+- 이과 계열
+- 비즈니스 일본어
+- 미술
+- 디자인
+- 단기 코스
+id: school_kobe-nichigo-gakuin
+lang: kr
+layout: school
+location:
+  lat: 34.7540145
+  lng: 135.4122723
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=583
+stats: {}
+tags:
+- Conversation
+- Higher Education Preparation
+- EJU Preparation
+- Dormitory
+- Private Room
+- Scholarship
+- Science Stream
+- Business Japanese
+- Art
+- Design
+- Short-Term Course
+thumbnail: /static/img/pin-school.png
+title: 고베 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요

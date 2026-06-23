@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-sangyo-university-guide",
-  "title": "오사카 산업 대학교",
-  "description": "오사카부 다이토시에 위치한 오사카 산업 대학교는 '실전적 산업 교육'을 모토로 하는 명문 사립 대학입니다. 세계적인 수준의 솔라카 프로젝트와 강력한 산학 협력을 통해 실무에 강한 인재를 양성하고 있습니다.",
-  "category": "university",
-  "tags": [
-    "세계적 수준의 솔라카 프로젝트",
-    "실무 중심의 산학 협력 교육",
-    "유학생을 위한 충실한 취업 지원",
-    "최신식 스포츠 시설"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪産業大学",
-    "name_en": "Osaka Sangyo University",
-    "address": "3-1-1 Nakagaito, Daito-shi, Osaka, 574-8530, Japan",
-    "capacity": 8500
-  },
-  "stats": {
-    "international_students": 750,
-    "acceptance_rate": "45-65% (학과에 따라 상이함)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "공학부",
-    "경영학부",
-    "경제학부",
-    "디자인학부",
-    "국제학부",
-    "스포츠건강과학부"
-  ],
-  "features": [
-    "세계적 수준의 솔라카 프로젝트",
-    "실무 중심의 산학 협력 교육",
-    "유학생을 위한 충실한 취업 지원",
-    "최신식 스포츠 시설"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 3-1-1 Nakagaito, Daito-shi, Osaka, 574-8530, Japan
+  capacity: 8500
+  name_en: Osaka Sangyo University
+  name_ja: 大阪産業大学
+category: university
+date: '2026-03-15'
+description: 오사카부 다이토시에 위치한 오사카 산업 대학교는 '실전적 산업 교육'을 모토로 하는 명문 사립 대학입니다. 세계적인 수준의
+  솔라카 프로젝트와 강력한 산학 협력을 통해 실무에 강한 인재를 양성하고 있습니다.
+faculties:
+- 공학부
+- 경영학부
+- 경제학부
+- 디자인학부
+- 국제학부
+- 스포츠건강과학부
+features:
+- 세계적 수준의 솔라카 프로젝트
+- 실무 중심의 산학 협력 교육
+- 유학생을 위한 충실한 취업 지원
+- 최신식 스포츠 시설
+id: univ_osaka-sangyo-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-65% (학과에 따라 상이함)
+  international_students: 750
+tags:
+- 세계적 수준의 솔라카 프로젝트
+- 실무 중심의 산학 협력 교육
+- 유학생을 위한 충실한 취업 지원
+- 최신식 스포츠 시설
+thumbnail: /static/img/pin-univ.png
+title: 오사카 산업 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

@@ -5,6 +5,7 @@ basic_info:
   name_en: Kyoto Institute of Technology
   name_ja: 京都工芸繊維大学
 category: university
+date: '2026-01-28'
 faculties:
 - School of Science and Technology
 - School of Design and Architecture

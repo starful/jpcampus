@@ -18,6 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コース2年
   total_fees: 1590000
+date: '2026-01-28'
 description: Kazan Society Toa Academy is a Japanese language school in Tokyo focused
   on university preparation, offering a supportive environment and specialized science
   programs.

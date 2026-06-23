@@ -1,60 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市淀川区木川東2-8-11",
-    "capacity": 80,
-    "name_en": "Sakura Kotonoha Japanese Language Institute",
-    "name_ja": "桜ことのは日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1625800
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1238600
-    }
-  ],
-  "description": "오사카에 위치한 사립 일본어 학교로, 집중적인 EJU 시험 준비, 이공계 학생들을 위한 전문적인 지원, 싱글룸 옵션을 포함한 기숙사 숙박 보장을 제공합니다. 높은 학생 대 교사 비율과 탄탄한 장학금 제도로 유명합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 숙박 보장",
-    "집중적인 EJU(일본유학시험) 준비",
-    "특화된 이공계 트랙 지원",
-    "소규모로 인한 높은 학생 대 교사 비율",
-    "싱글룸 옵션 제공",
-    "우수 학생을 위한 탄탄한 장학금 제도"
-  ],
-  "id": "school_sakura-kotonoha-japanese-language-institute-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7246981,
-    "lng": 135.4912363
-  },
-  "name_en": "Sakura Kotonoha Japanese Language Institute",
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=569",
-  "stats": {
-    "capacity": 80,
-    "international_students": 75
-  },
-  "tags": [
-    "Dormitory Accommodation Guaranteed",
-    "Intensive EJU (University Entrance Exam) Preparation",
-    "Specialized Rikei (Science and Engineering) Track Support",
-    "High Student-to-Teacher Ratio due to Boutique Size",
-    "Single Room Options Available in Housing",
-    "Robust Scholarship Programs for High Achievers"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Sakura Kotonoha 일본어 학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市淀川区木川東2-8-11
+  capacity: 80
+  name_en: Sakura Kotonoha Japanese Language Institute
+  name_ja: 桜ことのは日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1625800
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1238600
+date: '2026-01-28'
+description: 오사카에 위치한 사립 일본어 학교로, 집중적인 EJU 시험 준비, 이공계 학생들을 위한 전문적인 지원, 싱글룸 옵션을 포함한
+  기숙사 숙박 보장을 제공합니다. 높은 학생 대 교사 비율과 탄탄한 장학금 제도로 유명합니다.
+faculties: []
+features:
+- 기숙사 숙박 보장
+- 집중적인 EJU(일본유학시험) 준비
+- 특화된 이공계 트랙 지원
+- 소규모로 인한 높은 학생 대 교사 비율
+- 싱글룸 옵션 제공
+- 우수 학생을 위한 탄탄한 장학금 제도
+id: school_sakura-kotonoha-japanese-language-institute-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.7246981
+  lng: 135.4912363
+name_en: Sakura Kotonoha Japanese Language Institute
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=569
+stats:
+  capacity: 80
+  international_students: 75
+tags:
+- Dormitory Accommodation Guaranteed
+- Intensive EJU (University Entrance Exam) Preparation
+- Specialized Rikei (Science and Engineering) Track Support
+- High Student-to-Teacher Ratio due to Boutique Size
+- Single Room Options Available in Housing
+- Robust Scholarship Programs for High Achievers
+thumbnail: /static/img/pin-school.png
+title: Sakura Kotonoha 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

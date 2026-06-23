@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toyama-university-of-international-studies-guide",
-  "title": "Toyama University of International Studies",
-  "category": "university",
-  "tags": [
-    "Glocal Education (Global + Local)",
-    "Strong Focus on ICT and Digital Transformation",
-    "Practical Tourism and Hospitality Training",
-    "Generous International Student Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "富山国際大学",
-    "name_en": "Toyama University of International Studies",
-    "address": "65-1 Higashikuromaki, Toyama-shi, Toyama 930-1292, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 730000
-  },
-  "faculties": [
-    "Faculty of Contemporary Social Studies",
-    "Department of Contemporary Social Studies",
-    "Department of Tourism and Hospitality"
-  ],
-  "features": [
-    "Glocal Education (Global + Local)",
-    "Strong Focus on ICT and Digital Transformation",
-    "Practical Tourism and Hospitality Training",
-    "Generous International Student Support"
-  ]
-}
+basic_info:
+  address: 65-1 Higashikuromaki, Toyama-shi, Toyama 930-1292, Japan
+  capacity: null
+  name_en: Toyama University of International Studies
+  name_ja: 富山国際大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Contemporary Social Studies
+- Department of Contemporary Social Studies
+- Department of Tourism and Hospitality
+features:
+- Glocal Education (Global + Local)
+- Strong Focus on ICT and Digital Transformation
+- Practical Tourism and Hospitality Training
+- Generous International Student Support
+id: univ_toyama-university-of-international-studies-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 245
+tags:
+- Glocal Education (Global + Local)
+- Strong Focus on ICT and Digital Transformation
+- Practical Tourism and Hospitality Training
+- Generous International Student Support
+thumbnail: /static/img/pin-univ.png
+title: Toyama University of International Studies
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 730000
 ---
 
 ## 🏫 University Overview

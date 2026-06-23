@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語本科進学1年6月
   total_fees: 1044000
+date: '2026-01-28'
 description: Chuo Information College is a vocational school located in Niiza City,
   Saitama, specializing in Japanese language education for international students.
   They offer comprehensive courses and support for university advancement, especially

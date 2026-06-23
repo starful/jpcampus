@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sojo-university-comprehensive-guide",
-  "title": "Sojo University",
-  "category": "university",
-  "tags": [
-    "Sojo International Learning Center (SILC)",
-    "Strong Ties to Kyushu's Semiconductor Industry",
-    "Unique Aerospace and Pilot Training Program",
-    "Entrepreneurship and Startup Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "崇城大学",
-    "name_en": "Sojo University",
-    "address": "4-22-1 Ikeda, Nishi-ku, Kumamoto-shi, Kumamoto 860-0082, Japan",
-    "capacity": "3800 total students"
-  },
-  "stats": {
-    "international_students": 160,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1360000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Computer and Media Sciences",
-    "Faculty of Biotechnology and Life Science",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Art and Design"
-  ],
-  "features": [
-    "Sojo International Learning Center (SILC)",
-    "Strong Ties to Kyushu's Semiconductor Industry",
-    "Unique Aerospace and Pilot Training Program",
-    "Entrepreneurship and Startup Support"
-  ]
-}
+basic_info:
+  address: 4-22-1 Ikeda, Nishi-ku, Kumamoto-shi, Kumamoto 860-0082, Japan
+  capacity: 3800 total students
+  name_en: Sojo University
+  name_ja: 崇城大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Engineering
+- Faculty of Computer and Media Sciences
+- Faculty of Biotechnology and Life Science
+- Faculty of Pharmaceutical Sciences
+- Faculty of Art and Design
+features:
+- Sojo International Learning Center (SILC)
+- Strong Ties to Kyushu's Semiconductor Industry
+- Unique Aerospace and Pilot Training Program
+- Entrepreneurship and Startup Support
+id: univ_sojo-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 160
+tags:
+- Sojo International Learning Center (SILC)
+- Strong Ties to Kyushu's Semiconductor Industry
+- Unique Aerospace and Pilot Training Program
+- Entrepreneurship and Startup Support
+thumbnail: /static/img/pin-univ.png
+title: Sojo University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1360000
 ---
 
 ## 🏫 University Overview

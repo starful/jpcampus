@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-university-of-foreign-studies-comprehensive-guide",
-  "title": "나고야 외국어대학교",
-  "description": "일본 중부 지역을 대표하는 외국어 및 국제학 교육의 중심지인 나고야 외국어대학교(NUFS)를 소개합니다. 4:1 소수 정예 수업인 PUT 시스템과 강력한 글로벌 취업 지원이 특징입니다.",
-  "category": "university",
-  "tags": [
-    "4:1 학생-교수 비율의 PUT 시스템",
-    "전 세계 100개 이상의 자매결연 대학",
-    "고도로 전문화된 언어 몰입 환경",
-    "항공사 및 글로벌 무역 분야의 높은 취업률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋外国語大学",
-    "name_en": "Nagoya University of Foreign Studies",
-    "address": "57 Takenoyama, Iwasaki-cho, Nisshin-shi, Aichi, 470-0197, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 285,
-    "acceptance_rate": "35-45% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1170000
-  },
-  "faculties": [
-    "School of Foreign Languages",
-    "School of Contemporary International Studies",
-    "School of World Liberal Arts",
-    "School of Global Governance and Collaboration"
-  ],
-  "features": [
-    "4:1 학생-교수 비율의 PUT(Power-up Tutorial) 시스템",
-    "전 세계 100개 이상의 자매결연 대학 보유",
-    "고도로 전문화된 언어 몰입 교육 환경",
-    "항공 및 글로벌 무역 분야의 강력한 취업 실적"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 57 Takenoyama, Iwasaki-cho, Nisshin-shi, Aichi, 470-0197, Japan
+  capacity: null
+  name_en: Nagoya University of Foreign Studies
+  name_ja: 名古屋外国語大学
+category: university
+date: '2026-03-15'
+description: 일본 중부 지역을 대표하는 외국어 및 국제학 교육의 중심지인 나고야 외국어대학교(NUFS)를 소개합니다. 4:1 소수 정예
+  수업인 PUT 시스템과 강력한 글로벌 취업 지원이 특징입니다.
+faculties:
+- School of Foreign Languages
+- School of Contemporary International Studies
+- School of World Liberal Arts
+- School of Global Governance and Collaboration
+features:
+- 4:1 학생-교수 비율의 PUT(Power-up Tutorial) 시스템
+- 전 세계 100개 이상의 자매결연 대학 보유
+- 고도로 전문화된 언어 몰입 교육 환경
+- 항공 및 글로벌 무역 분야의 강력한 취업 실적
+id: univ_nagoya-university-of-foreign-studies-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated for International Applicants)
+  international_students: 285
+tags:
+- 4:1 학생-교수 비율의 PUT 시스템
+- 전 세계 100개 이상의 자매결연 대학
+- 고도로 전문화된 언어 몰입 환경
+- 항공사 및 글로벌 무역 분야의 높은 취업률
+thumbnail: /static/img/pin-univ.png
+title: 나고야 외국어대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1170000
 ---
 
 ## 🏫 대학 개요

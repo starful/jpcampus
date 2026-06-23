@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamagata-university-international-student-guide",
-  "title": "야마가타 대학교",
-  "category": "university",
-  "tags": [
-    "Global leader in Organic Electronics and 3D printing research",
-    "Third largest national university in the Tohoku region",
-    "Unique multi-campus system specializing in different research fields",
-    "High employment rate for international graduates in Japanese industry"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山形大学",
-    "name_en": "Yamagata University",
-    "address": "1-4-12 Kojirakawa-machi, Yamagata-shi, Yamagata, 990-8560, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 250,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education, Art and Science",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "유기 전자 및 3D 프린팅 연구 분야의 글로벌 리더",
-    "도호쿠 지역에서 세 번째로 큰 국립 대학",
-    "다양한 연구 분야를 전문으로 하는 독특한 멀티 캠퍼스 시스템",
-    "일본 산업 분야에서 국제 졸업생의 높은 취업률"
-  ],
-  "description": "야마가타 대학교는 도호쿠 지역의 아름다운 야마가타 현에 위치한 명문 국립 대학입니다. 유기 전자 분야의 선두 주자이며, 국제 학생들에게 훌륭한 지원을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-4-12 Kojirakawa-machi, Yamagata-shi, Yamagata, 990-8560, Japan
+  capacity: null
+  name_en: Yamagata University
+  name_ja: 山形大学
+category: university
+date: '2026-02-13'
+description: 야마가타 대학교는 도호쿠 지역의 아름다운 야마가타 현에 위치한 명문 국립 대학입니다. 유기 전자 분야의 선두 주자이며, 국제
+  학생들에게 훌륭한 지원을 제공합니다.
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education, Art and Science
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- 유기 전자 및 3D 프린팅 연구 분야의 글로벌 리더
+- 도호쿠 지역에서 세 번째로 큰 국립 대학
+- 다양한 연구 분야를 전문으로 하는 독특한 멀티 캠퍼스 시스템
+- 일본 산업 분야에서 국제 졸업생의 높은 취업률
+id: univ_yamagata-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 250
+tags:
+- Global leader in Organic Electronics and 3D printing research
+- Third largest national university in the Tohoku region
+- Unique multi-campus system specializing in different research fields
+- High employment rate for international graduates in Japanese industry
+thumbnail: /static/img/pin-univ.png
+title: 야마가타 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 야마가타 대학교 (YU)

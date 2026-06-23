@@ -1,69 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県神戸市長田区六番町5-6-1",
-    "capacity": 516,
-    "name_en": "Kobe Institute of Foreign Languages",
-    "name_ja": "神戸外語教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1462500
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1291875
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1121250
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 950625
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "EJU 시험 대비",
-    "대학교 준비 과정",
-    "회화 능력 향상",
-    "단기 유학",
-    "이공계 (STEM) 준비"
-  ],
-  "id": "school_kobe-gaigo-kyoiku-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6716499,
-    "lng": 135.1532515
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=365",
-  "stats": {
-    "capacity": 516,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Preparatory Courses",
-    "Conversation Skills",
-    "Short-term Study",
-    "Science Stream (STEM) Prep"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "고베외어교육학원",
-  "translated": true,
-  "tuition": {},
-  "description": "고베외어교육학원은 일본 대학 진학을 목표로 하는 유학생들을 위한 집중적인 학습 환경을 제공합니다."
-}
+basic_info:
+  address: 兵庫県神戸市長田区六番町5-6-1
+  capacity: 516
+  name_en: Kobe Institute of Foreign Languages
+  name_ja: 神戸外語教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1462500
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1291875
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1121250
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 950625
+date: '2026-01-28'
+description: 고베외어교육학원은 일본 대학 진학을 목표로 하는 유학생들을 위한 집중적인 학습 환경을 제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- EJU 시험 대비
+- 대학교 준비 과정
+- 회화 능력 향상
+- 단기 유학
+- 이공계 (STEM) 준비
+id: school_kobe-gaigo-kyoiku-gakuin
+lang: kr
+layout: school
+location:
+  lat: 34.6716499
+  lng: 135.1532515
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=365
+stats:
+  capacity: 516
+  international_students: 0
+tags:
+- Dormitory Available
+- EJU Preparation
+- University Preparatory Courses
+- Conversation Skills
+- Short-term Study
+- Science Stream (STEM) Prep
+thumbnail: /static/img/pin-school.png
+title: 고베외어교육학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

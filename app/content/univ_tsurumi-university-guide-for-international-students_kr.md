@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tsurumi-university-guide-for-international-students",
-  "title": "쓰루미 대학 (Tsurumi University)",
-  "description": "요코하마에 위치한 쓰루미 대학은 세계적 수준의 치학부와 깊이 있는 인문학 교육을 자랑하며, 불교의 선(禪) 정신을 바탕으로 인격 형성과 전문 지식을 동시에 함양할 수 있는 명문 사립대학교입니다.",
-  "category": "university",
-  "tags": [
-    "World-class School of Dental Medicine",
-    "Buddhist Foundation (Soto Zen)",
-    "Renowned Research Library",
-    "Department of Cultural Properties Conservation",
-    "Strategic Location in Yokohama"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鶴見大学",
-    "name_en": "Tsurumi University",
-    "address": "2-1-3 Tsurumi, Tsurumi-ku, Yokohama, Kanagawa 230-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 52,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "School of Dental Medicine",
-    "Faculty of Literature",
-    "Junior College"
-  ],
-  "features": [
-    "세계적 수준의 치학부",
-    "불교(조동종) 정신 기반의 교육",
-    "방대한 장서를 보유한 연구 도서관",
-    "문화재 보존수복 및 고고학 특화",
-    "요코하마의 뛰어난 접근성"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-3 Tsurumi, Tsurumi-ku, Yokohama, Kanagawa 230-8501, Japan
+  capacity: null
+  name_en: Tsurumi University
+  name_ja: 鶴見大学
+category: university
+date: '2026-03-15'
+description: 요코하마에 위치한 쓰루미 대학은 세계적 수준의 치학부와 깊이 있는 인문학 교육을 자랑하며, 불교의 선(禪) 정신을 바탕으로
+  인격 형성과 전문 지식을 동시에 함양할 수 있는 명문 사립대학교입니다.
+faculties:
+- School of Dental Medicine
+- Faculty of Literature
+- Junior College
+features:
+- 세계적 수준의 치학부
+- 불교(조동종) 정신 기반의 교육
+- 방대한 장서를 보유한 연구 도서관
+- 문화재 보존수복 및 고고학 특화
+- 요코하마의 뛰어난 접근성
+id: univ_tsurumi-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 52
+tags:
+- World-class School of Dental Medicine
+- Buddhist Foundation (Soto Zen)
+- Renowned Research Library
+- Department of Cultural Properties Conservation
+- Strategic Location in Yokohama
+thumbnail: /static/img/pin-univ.png
+title: 쓰루미 대학 (Tsurumi University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요

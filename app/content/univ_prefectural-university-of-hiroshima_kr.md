@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_prefectural-university-of-hiroshima",
-  "title": "현립 히로시마 대학",
-  "category": "university",
-  "tags": [
-    "Practical and Regional-Focused Curriculum",
-    "Strong Support for Healthcare License Exams",
-    "Strategic Industry Partnerships with Local Corporations",
-    "Multidisciplinary Research Opportunities Across Three Campuses"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "県立広島大学",
-    "name_en": "Prefectural University of Hiroshima",
-    "address": "1-1-71 Ujina-higashi, Minami-ku, Hiroshima City, Hiroshima, 734-8558, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 92,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Regional Business and Economics",
-    "Bioresource Sciences",
-    "Health and Welfare",
-    "Graduate School of Management (HBMS)",
-    "Graduate School of Comprehensive Scientific Research"
-  ],
-  "features": [
-    "실용적이고 지역 중심적인 커리큘럼",
-    "보건 의료 면허 시험에 대한 강력한 지원",
-    "지역 기업과의 전략적 산업 파트너십",
-    "세 개의 캠퍼스에서 다학제적 연구 기회"
-  ],
-  "description": "히로시마 현립 대학은 실용적이고 지역 사회 중심적인 교육을 제공하는 공립 대학입니다. 지역 개발의 핵심 동력으로서의 역할을 수행하고 있습니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1-71 Ujina-higashi, Minami-ku, Hiroshima City, Hiroshima, 734-8558, Japan
+  capacity: 2500
+  name_en: Prefectural University of Hiroshima
+  name_ja: 県立広島大学
+category: university
+date: '2026-03-03'
+description: 히로시마 현립 대학은 실용적이고 지역 사회 중심적인 교육을 제공하는 공립 대학입니다. 지역 개발의 핵심 동력으로서의 역할을
+  수행하고 있습니다.
+faculties:
+- Regional Business and Economics
+- Bioresource Sciences
+- Health and Welfare
+- Graduate School of Management (HBMS)
+- Graduate School of Comprehensive Scientific Research
+features:
+- 실용적이고 지역 중심적인 커리큘럼
+- 보건 의료 면허 시험에 대한 강력한 지원
+- 지역 기업과의 전략적 산업 파트너십
+- 세 개의 캠퍼스에서 다학제적 연구 기회
+id: univ_prefectural-university-of-hiroshima
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25%
+  international_students: 92
+tags:
+- Practical and Regional-Focused Curriculum
+- Strong Support for Healthcare License Exams
+- Strategic Industry Partnerships with Local Corporations
+- Multidisciplinary Research Opportunities Across Three Campuses
+thumbnail: /static/img/pin-univ.png
+title: 현립 히로시마 대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

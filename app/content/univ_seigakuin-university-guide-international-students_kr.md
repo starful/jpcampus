@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seigakuin-university-guide-international-students",
-  "title": "세이가쿠인 대학교 (Seigakuin University)",
-  "category": "university",
-  "tags": [
-    "기독교 정신 기반의 리버럴 아츠 교육",
-    "높은 외국인 유학생 비율",
-    "개인별 맞춤형 취업 지원",
-    "안전하고 물가가 저렴한 사이타마 소재"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "聖学院大学",
-    "name_en": "Seigakuin University",
-    "address": "일본 사이타마현 아게오시 토자키 1-1 (362-8585)",
-    "capacity": "총 학생 수 약 2,500명"
-  },
-  "stats": {
-    "international_students": 465,
-    "acceptance_rate": "60% - 70% (유학생 전형 추정치)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 832000
-  },
-  "faculties": [
-    "정치경제학부",
-    "인문학부",
-    "심리복지학부"
-  ],
-  "features": [
-    "기독교 정신 기반의 리버럴 아츠 교육",
-    "높은 외국인 유학생 비율",
-    "개인별 맞춤형 취업 지원",
-    "안전하고 물가가 저렴한 사이타마 소재"
-  ],
-  "lang": "kr",
-  "description": "세이가쿠인 대학교는 기독교 정신의 리버럴 아츠 교육과 높은 외국인 유학생 비율을 자랑하며, 사이타마의 안전하고 합리적인 환경에서 개인별 맞춤형 커리어 지원을 제공하는 대학교입니다."
-}
+basic_info:
+  address: 일본 사이타마현 아게오시 토자키 1-1 (362-8585)
+  capacity: 총 학생 수 약 2,500명
+  name_en: Seigakuin University
+  name_ja: 聖学院大学
+category: university
+date: '2026-03-08'
+description: 세이가쿠인 대학교는 기독교 정신의 리버럴 아츠 교육과 높은 외국인 유학생 비율을 자랑하며, 사이타마의 안전하고 합리적인 환경에서
+  개인별 맞춤형 커리어 지원을 제공하는 대학교입니다.
+faculties:
+- 정치경제학부
+- 인문학부
+- 심리복지학부
+features:
+- 기독교 정신 기반의 리버럴 아츠 교육
+- 높은 외국인 유학생 비율
+- 개인별 맞춤형 취업 지원
+- 안전하고 물가가 저렴한 사이타마 소재
+id: univ_seigakuin-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 60% - 70% (유학생 전형 추정치)
+  international_students: 465
+tags:
+- 기독교 정신 기반의 리버럴 아츠 교육
+- 높은 외국인 유학생 비율
+- 개인별 맞춤형 취업 지원
+- 안전하고 물가가 저렴한 사이타마 소재
+thumbnail: /static/img/pin-univ.png
+title: 세이가쿠인 대학교 (Seigakuin University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 832000
 ---
 
 ## 🏫 대학 개요

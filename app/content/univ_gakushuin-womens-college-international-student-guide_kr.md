@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gakushuin-womens-college-international-student-guide",
-  "title": "가쿠슈인 여자대학",
-  "category": "university",
-  "tags": [
-    "Prestige and Connection to the Imperial Family",
-    "Upcoming Merger with Gakushuin University (2026)",
-    "f-Campus Credit Exchange with Waseda and Rikkyo",
-    "Comprehensive Japanese Traditional Arts Curriculum",
-    "Strategic Shinjuku Location"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "学習院女子大学",
-    "name_en": "Gakushuin Women's College",
-    "address": "3-20-1 Toyama, Shinjuku-ku, Tokyo 162-8650, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 75,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 860000
-  },
-  "faculties": [
-    "Faculty of International Studies",
-    "Department of Japanese Studies",
-    "Department of Intercultural Studies",
-    "Department of English Communication"
-  ],
-  "features": [
-    "황실과의 인맥 및 명성",
-    "2026년 가쿠슈인 대학과의 합병 예정",
-    "와세다, 릿쿄 대학과의 f-Campus 학점 교류",
-    "종합적인 일본 전통 예술 커리큘럼",
-    "신주쿠의 전략적 위치"
-  ],
-  "description": "도쿄 중심부에 위치한 명문 사립 여자대학, 가쿠슈인 여자대학에 대해 알아보세요. 2026년 가쿠슈인 대학과의 합병 예정입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-20-1 Toyama, Shinjuku-ku, Tokyo 162-8650, Japan
+  capacity: null
+  name_en: Gakushuin Women's College
+  name_ja: 学習院女子大学
+category: university
+date: '2026-02-13'
+description: 도쿄 중심부에 위치한 명문 사립 여자대학, 가쿠슈인 여자대학에 대해 알아보세요. 2026년 가쿠슈인 대학과의 합병 예정입니다.
+faculties:
+- Faculty of International Studies
+- Department of Japanese Studies
+- Department of Intercultural Studies
+- Department of English Communication
+features:
+- 황실과의 인맥 및 명성
+- 2026년 가쿠슈인 대학과의 합병 예정
+- 와세다, 릿쿄 대학과의 f-Campus 학점 교류
+- 종합적인 일본 전통 예술 커리큘럼
+- 신주쿠의 전략적 위치
+id: univ_gakushuin-womens-college-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 75
+tags:
+- Prestige and Connection to the Imperial Family
+- Upcoming Merger with Gakushuin University (2026)
+- f-Campus Credit Exchange with Waseda and Rikkyo
+- Comprehensive Japanese Traditional Arts Curriculum
+- Strategic Shinjuku Location
+thumbnail: /static/img/pin-univ.png
+title: 가쿠슈인 여자대학
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 860000
 ---
 
 ## 🏫 학교 소개

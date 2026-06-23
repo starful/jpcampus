@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-womens-university-comprehensive-guide",
-  "title": "교토여자대학교 (Kyoto Women's University)",
-  "description": "일본 교토의 역사적인 히가시야마 지구에 위치한 교토여자대학교는 전통적인 불교 정신과 현대적인 혁신이 공존하는 명문 여자대학교입니다. 높은 취업률과 전문적인 교육 과정을 자랑합니다.",
-  "category": "university",
-  "tags": [
-    "역사적인 불교 정신 (정토진종) 기반",
-    "일본 최고 수준의 가사학부",
-    "교토 히가시야마 문화 지구 위치",
-    "여성 데이터사이언스학부의 선구자",
-    "일본 내 압도적인 취업률 기록"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都女子大学",
-    "name_en": "Kyoto Women's University",
-    "address": "35 Kitahiyoshi-cho, Imakumano, Higashiyama-ku, Kyoto 605-8501, Japan",
-    "capacity": 6200
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "문학부",
-    "발달교육학부",
-    "가사학부",
-    "현대사회학부",
-    "법학부",
-    "데이터사이언스학부"
-  ],
-  "features": [
-    "역사적인 불교 정신 (정토진종) 기반",
-    "일본 최고 수준의 가사학부",
-    "교토 히가시야마 문화 지구 위치",
-    "여성 데이터사이언스학부의 선구자",
-    "일본 내 압도적인 취업률 기록"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 35 Kitahiyoshi-cho, Imakumano, Higashiyama-ku, Kyoto 605-8501, Japan
+  capacity: 6200
+  name_en: Kyoto Women's University
+  name_ja: 京都女子大学
+category: university
+date: '2026-03-15'
+description: 일본 교토의 역사적인 히가시야마 지구에 위치한 교토여자대학교는 전통적인 불교 정신과 현대적인 혁신이 공존하는 명문 여자대학교입니다.
+  높은 취업률과 전문적인 교육 과정을 자랑합니다.
+faculties:
+- 문학부
+- 발달교육학부
+- 가사학부
+- 현대사회학부
+- 법학부
+- 데이터사이언스학부
+features:
+- 역사적인 불교 정신 (정토진종) 기반
+- 일본 최고 수준의 가사학부
+- 교토 히가시야마 문화 지구 위치
+- 여성 데이터사이언스학부의 선구자
+- 일본 내 압도적인 취업률 기록
+id: univ_kyoto-womens-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 145
+tags:
+- 역사적인 불교 정신 (정토진종) 기반
+- 일본 최고 수준의 가사학부
+- 교토 히가시야마 문화 지구 위치
+- 여성 데이터사이언스학부의 선구자
+- 일본 내 압도적인 취업률 기록
+thumbnail: /static/img/pin-univ.png
+title: 교토여자대학교 (Kyoto Women's University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요

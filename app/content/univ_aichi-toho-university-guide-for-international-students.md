@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-toho-university-guide-for-international-students",
-  "title": "Aichi Toho University",
-  "category": "university",
-  "tags": [
-    "Small-group education and personalized mentoring",
-    "Strong connections with Nagoya's local industries",
-    "Comprehensive career support for international students",
-    "Modern campus located in a safe residential area of Nagoya"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知東邦大学",
-    "name_en": "Aichi Toho University",
-    "address": "3-11 Heiwagaoka, Meito-ku, Nagoya, Aichi 465-8515, Japan",
-    "capacity": 1600
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "Approx. 65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 980000
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Human Development",
-    "Faculty of Education and Psychology"
-  ],
-  "features": [
-    "Small-group education and personalized mentoring",
-    "Strong connections with Nagoya's local industries",
-    "Comprehensive career support for international students",
-    "Modern campus located in a safe residential area of Nagoya"
-  ]
-}
+basic_info:
+  address: 3-11 Heiwagaoka, Meito-ku, Nagoya, Aichi 465-8515, Japan
+  capacity: 1600
+  name_en: Aichi Toho University
+  name_ja: 愛知東邦大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Management
+- Faculty of Human Development
+- Faculty of Education and Psychology
+features:
+- Small-group education and personalized mentoring
+- Strong connections with Nagoya's local industries
+- Comprehensive career support for international students
+- Modern campus located in a safe residential area of Nagoya
+id: univ_aichi-toho-university-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approx. 65-75%
+  international_students: 115
+tags:
+- Small-group education and personalized mentoring
+- Strong connections with Nagoya's local industries
+- Comprehensive career support for international students
+- Modern campus located in a safe residential area of Nagoya
+thumbnail: /static/img/pin-univ.png
+title: Aichi Toho University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 980000
 ---
 
 ## 🏫 University Overview: The Spirit of Aichi Toho University

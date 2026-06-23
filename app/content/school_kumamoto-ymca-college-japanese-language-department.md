@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1420000
+date: '2026-01-28'
 description: A Japanese language school in Kumamoto offering courses for students
   aiming to enter Japanese universities, with a focus on small class sizes and personalized
   support.

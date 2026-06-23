@@ -1,55 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "1-14 Bunkyo-machi, Nagasaki 852-8521, Japan",
-    "name_en": "Nagasaki University",
-    "name_ja": "長崎大学",
-    "website": "https://www.nagasaki-u.ac.jp/en/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Fisheries",
-    "Faculty of Environmental Sciences",
-    "Faculty of Global Humanities and Social Sciences",
-    "School of Medicine",
-    "School of Dentistry"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_nagasaki-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 782
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "나가사키 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 817800
-  },
-  "description": "나가사키 대학교는 일본 나가사키에 위치한 명문 국립대학교입니다. 다양한 학부와 국제적인 프로그램을 제공합니다."
-}
+basic_info:
+  address: 1-14 Bunkyo-machi, Nagasaki 852-8521, Japan
+  name_en: Nagasaki University
+  name_ja: 長崎大学
+  website: https://www.nagasaki-u.ac.jp/en/
+category: university
+date: '2026-01-28'
+description: 나가사키 대학교는 일본 나가사키에 위치한 명문 국립대학교입니다. 다양한 학부와 국제적인 프로그램을 제공합니다.
+faculties:
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Fisheries
+- Faculty of Environmental Sciences
+- Faculty of Global Humanities and Social Sciences
+- School of Medicine
+- School of Dentistry
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_nagasaki-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30%
+  international_students: 782
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 나가사키 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 817800
 ---
 
 ## 대학교 개요 및 명성

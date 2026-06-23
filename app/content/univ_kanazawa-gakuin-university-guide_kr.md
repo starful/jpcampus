@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanazawa-gakuin-university-guide",
-  "title": "가나자와 가쿠인 대학교",
-  "category": "university",
-  "tags": [
-    "일본 전국 수준의 스포츠 프로그램",
-    "가나자와 문화유산과의 밀접한 연계",
-    "강력한 지역 기업 취업 네트워크",
-    "외국인 유학생을 위한 파격적인 학비 감면"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金沢学院大学",
-    "name_en": "Kanazawa Gakuin University",
-    "address": "10 Sue-machi, Kanazawa, Ishikawa 920-1392, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "경제경영학부",
-    "문학부",
-    "교육학부",
-    "스포츠과학부",
-    "예술학부",
-    "건강메디컬학부"
-  ],
-  "features": [
-    "일본 전국 수준의 스포츠 프로그램",
-    "가나자와 문화유산과의 밀접한 연계",
-    "강력한 지역 기업 취업 네트워크",
-    "외국인 유학생을 위한 파격적인 학비 감면"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 10 Sue-machi, Kanazawa, Ishikawa 920-1392, Japan
+  capacity: 3500
+  name_en: Kanazawa Gakuin University
+  name_ja: 金沢学院大学
+category: university
+date: '2026-03-24'
+faculties:
+- 경제경영학부
+- 문학부
+- 교육학부
+- 스포츠과학부
+- 예술학부
+- 건강메디컬학부
+features:
+- 일본 전국 수준의 스포츠 프로그램
+- 가나자와 문화유산과의 밀접한 연계
+- 강력한 지역 기업 취업 네트워크
+- 외국인 유학생을 위한 파격적인 학비 감면
+id: univ_kanazawa-gakuin-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 145
+tags:
+- 일본 전국 수준의 스포츠 프로그램
+- 가나자와 문화유산과의 밀접한 연계
+- 강력한 지역 기업 취업 네트워크
+- 외국인 유학생을 위한 파격적인 학비 감면
+thumbnail: /static/img/pin-univ.png
+title: 가나자와 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 학교 개요

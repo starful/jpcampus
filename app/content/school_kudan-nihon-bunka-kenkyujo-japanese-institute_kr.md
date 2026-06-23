@@ -1,55 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都千代田区神田三崎町2-7-10　帝都三崎町ビル",
-    "capacity": 170,
-    "name_en": "Kudan Institute of Japanese Language and Culture",
-    "name_ja": "九段日本文化研究所日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般総合日本語コース",
-      "total_fees": 1550000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般会話コース",
-      "total_fees": 1162500
-    }
-  ],
-  "description": "도쿄 중심부에 위치한 구단 일본문화연구소는 대학 진학 준비와 실용적인 의사 소통 능력 향상에 중점을 둔 맞춤형 일본어 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 (신가쿠) 집중",
-    "EJU 시험 전문 대비",
-    "실용적인 일상 회화 능력에 대한 강력한 강조",
-    "도쿄 중심부의 소규모 맞춤형 학습 환경"
-  ],
-  "id": "school_kudan-nihon-bunka-kenkyujo-japanese-institute",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7003295,
-    "lng": 139.7545467
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=88",
-  "stats": {
-    "capacity": 170,
-    "international_students": 155
-  },
-  "tags": [
-    "Higher Education Progression (Shingaku) Focus",
-    "Specialized EJU Examination Preparation",
-    "Strong Emphasis on Practical, Daily Conversation Fluency",
-    "Small-Scale, Personalized Learning Environment in Central Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "구단 일본문화연구소 일본어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都千代田区神田三崎町2-7-10　帝都三崎町ビル
+  capacity: 170
+  name_en: Kudan Institute of Japanese Language and Culture
+  name_ja: 九段日本文化研究所日本語学院
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: 一般総合日本語コース
+  total_fees: 1550000
+- admission_month: 4,7,10,1
+  course_name: 一般会話コース
+  total_fees: 1162500
+date: '2026-01-28'
+description: 도쿄 중심부에 위치한 구단 일본문화연구소는 대학 진학 준비와 실용적인 의사 소통 능력 향상에 중점을 둔 맞춤형 일본어 교육을
+  제공합니다.
+faculties: []
+features:
+- 대학 진학 (신가쿠) 집중
+- EJU 시험 전문 대비
+- 실용적인 일상 회화 능력에 대한 강력한 강조
+- 도쿄 중심부의 소규모 맞춤형 학습 환경
+id: school_kudan-nihon-bunka-kenkyujo-japanese-institute
+lang: kr
+layout: school
+location:
+  lat: 35.7003295
+  lng: 139.7545467
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=88
+stats:
+  capacity: 170
+  international_students: 155
+tags:
+- Higher Education Progression (Shingaku) Focus
+- Specialized EJU Examination Preparation
+- Strong Emphasis on Practical, Daily Conversation Fluency
+- Small-Scale, Personalized Learning Environment in Central Tokyo
+thumbnail: /static/img/pin-school.png
+title: 구단 일본문화연구소 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

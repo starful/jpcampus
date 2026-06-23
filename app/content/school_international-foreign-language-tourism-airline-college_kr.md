@@ -1,57 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "新潟県新潟市中央区古町通7番町1004番1",
-    "capacity": 100,
-    "name_en": "International College of Foreign Languages, Tourism, and Airline",
-    "name_ja": "国際外語・観光・エアライン専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2-Year Japanese Language Course",
-      "total_fees": 1345000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "1.5-Year Japanese Language Course",
-      "total_fees": 1035000
-    }
-  ],
-  "description": "국제외국어・관광・에어라인 전문학교는 니가타시에 위치한 전문학교로, 일본어 과정과 관광 및 항공 산업 분야의 커리어 훈련을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 지원",
-    "상위 교육기관 진학",
-    "회화 중심",
-    "단기 프로그램"
-  ],
-  "id": "school_international-foreign-language-tourism-airline-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 37.9232245,
-    "lng": 139.0452561
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=554",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Support",
-    "Higher Education Progression",
-    "Conversation Focus",
-    "Short-term Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "국제외국어・관광・에어라인 전문학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 新潟県新潟市中央区古町通7番町1004番1
+  capacity: 100
+  name_en: International College of Foreign Languages, Tourism, and Airline
+  name_ja: 国際外語・観光・エアライン専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2-Year Japanese Language Course
+  total_fees: 1345000
+- admission_month: '4'
+  course_name: 1.5-Year Japanese Language Course
+  total_fees: 1035000
+date: '2026-02-13'
+description: 국제외국어・관광・에어라인 전문학교는 니가타시에 위치한 전문학교로, 일본어 과정과 관광 및 항공 산업 분야의 커리어 훈련을 제공합니다.
+faculties: []
+features:
+- 기숙사
+- EJU 지원
+- 상위 교육기관 진학
+- 회화 중심
+- 단기 프로그램
+id: school_international-foreign-language-tourism-airline-college
+lang: kr
+layout: school
+location:
+  lat: 37.9232245
+  lng: 139.0452561
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=554
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Dormitory
+- EJU Support
+- Higher Education Progression
+- Conversation Focus
+- Short-term Programs
+thumbnail: /static/img/pin-school.png
+title: 국제외국어・관광・에어라인 전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

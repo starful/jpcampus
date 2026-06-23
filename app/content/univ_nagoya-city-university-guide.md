@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-city-university-guide",
-  "title": "Nagoya City University",
-  "category": "university",
-  "tags": [
-    "Top-tier Medical and Pharmaceutical programs in Japan",
-    "Affordable public university tuition rates",
-    "Strategically located in Japan's industrial heartland",
-    "High employment rate with strong regional industry ties",
-    "Personalized support through a specialized Global Exchange Center"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋市立大学",
-    "name_en": "Nagoya City University",
-    "address": "1 Kawasumi, Mizuho-cho, Mizuho-ku, Nagoya, Aichi 467-8601, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "15-25% (Highly competitive depending on faculty)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Medicine",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Economics",
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Design and Architecture",
-    "Faculty of Nursing",
-    "Faculty of Science",
-    "Faculty of Data Science"
-  ],
-  "features": [
-    "Top-tier Medical and Pharmaceutical programs in Japan",
-    "Affordable public university tuition rates",
-    "Strategically located in Japan's industrial heartland",
-    "High employment rate with strong regional industry ties",
-    "Personalized support through a specialized Global Exchange Center"
-  ]
-}
+basic_info:
+  address: 1 Kawasumi, Mizuho-cho, Mizuho-ku, Nagoya, Aichi 467-8601, Japan
+  capacity: null
+  name_en: Nagoya City University
+  name_ja: 名古屋市立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Medicine
+- Faculty of Pharmaceutical Sciences
+- Faculty of Economics
+- Faculty of Humanities and Social Sciences
+- Faculty of Design and Architecture
+- Faculty of Nursing
+- Faculty of Science
+- Faculty of Data Science
+features:
+- Top-tier Medical and Pharmaceutical programs in Japan
+- Affordable public university tuition rates
+- Strategically located in Japan's industrial heartland
+- High employment rate with strong regional industry ties
+- Personalized support through a specialized Global Exchange Center
+id: univ_nagoya-city-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (Highly competitive depending on faculty)
+  international_students: 185
+tags:
+- Top-tier Medical and Pharmaceutical programs in Japan
+- Affordable public university tuition rates
+- Strategically located in Japan's industrial heartland
+- High employment rate with strong regional industry ties
+- Personalized support through a specialized Global Exchange Center
+thumbnail: /static/img/pin-univ.png
+title: Nagoya City University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

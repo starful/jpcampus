@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 日本語科1年3か月
   total_fees: 1012500
+date: '2026-01-28'
 faculties: []
 features:
 - Strong University Advancement Focus (EJU Preparation)

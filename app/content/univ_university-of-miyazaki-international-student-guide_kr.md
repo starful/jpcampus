@@ -1,50 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-miyazaki-international-student-guide",
-  "title": "미야자키 대학교",
-  "category": "university",
-  "tags": [
-    "농업 및 생명과학 연구 분야의 글로벌 리더",
-    "학제간 '지역 혁신' 프로그램",
-    "저렴한 생활비와 아열대 기후",
-    "유학생 취업을 위한 종합적인 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宮崎大学",
-    "name_en": "University of Miyazaki",
-    "address": "1-1 Gakuen Kibanadai-nishi, Miyazaki City, Miyazaki Prefecture, 889-2192, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 240,
-    "acceptance_rate": "25-35% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "사범대학",
-    "의과대학",
-    "공학부",
-    "농학부",
-    "지역혁신학부"
-  ],
-  "features": [
-    "농업 및 생명과학 연구 분야의 글로벌 리더",
-    "학제간 '지역 혁신' 프로그램",
-    "저렴한 생활비와 아열대 기후",
-    "유학생 취업을 위한 종합적인 지원"
-  ],
-  "description": "미야자키 대학교는 규슈의 아름다운 자연 속에서 학문적 우수성을 추구하는 국립대학교입니다. 농업, 공학, 의학 등 다양한 분야에서 국제적인 경쟁력을 갖추고 있으며, 유학생을 위한 따뜻한 지원 시스템을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Gakuen Kibanadai-nishi, Miyazaki City, Miyazaki Prefecture, 889-2192,
+    Japan
+  capacity: null
+  name_en: University of Miyazaki
+  name_ja: 宮崎大学
+category: university
+date: '2026-02-13'
+description: 미야자키 대학교는 규슈의 아름다운 자연 속에서 학문적 우수성을 추구하는 국립대학교입니다. 농업, 공학, 의학 등 다양한 분야에서
+  국제적인 경쟁력을 갖추고 있으며, 유학생을 위한 따뜻한 지원 시스템을 제공합니다.
+faculties:
+- 사범대학
+- 의과대학
+- 공학부
+- 농학부
+- 지역혁신학부
+features:
+- 농업 및 생명과학 연구 분야의 글로벌 리더
+- 학제간 '지역 혁신' 프로그램
+- 저렴한 생활비와 아열대 기후
+- 유학생 취업을 위한 종합적인 지원
+id: univ_university-of-miyazaki-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (Estimated)
+  international_students: 240
+tags:
+- 농업 및 생명과학 연구 분야의 글로벌 리더
+- 학제간 '지역 혁신' 프로그램
+- 저렴한 생활비와 아열대 기후
+- 유학생 취업을 위한 종합적인 지원
+thumbnail: /static/img/pin-univ.png
+title: 미야자키 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요: 학문적 우수성을 향한 햇살 가득한 관문

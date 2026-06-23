@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_the-university-of-shiga-prefecture-guide",
-  "title": "The University of Shiga Prefecture",
-  "category": "university",
-  "tags": [
-    "Unique Human-Environmental Centric Philosophy",
-    "Award-Winning Architectural Campus Design",
-    "Direct Research Access to Lake Biwa",
-    "Small-Group Seminar-Based Education"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "滋賀県立大学",
-    "name_en": "The University of Shiga Prefecture",
-    "address": "2500 Hassaka-cho, Hikone, Shiga 522-8533, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 62,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Environmental Science",
-    "School of Engineering",
-    "School of Human Cultures",
-    "School of Nursing"
-  ],
-  "features": [
-    "Unique Human-Environmental Centric Philosophy",
-    "Award-Winning Architectural Campus Design",
-    "Direct Research Access to Lake Biwa",
-    "Small-Group Seminar-Based Education"
-  ]
-}
+basic_info:
+  address: 2500 Hassaka-cho, Hikone, Shiga 522-8533, Japan
+  capacity: null
+  name_en: The University of Shiga Prefecture
+  name_ja: 滋賀県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Environmental Science
+- School of Engineering
+- School of Human Cultures
+- School of Nursing
+features:
+- Unique Human-Environmental Centric Philosophy
+- Award-Winning Architectural Campus Design
+- Direct Research Access to Lake Biwa
+- Small-Group Seminar-Based Education
+id: univ_the-university-of-shiga-prefecture-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 62
+tags:
+- Unique Human-Environmental Centric Philosophy
+- Award-Winning Architectural Campus Design
+- Direct Research Access to Lake Biwa
+- Small-Group Seminar-Based Education
+thumbnail: /static/img/pin-univ.png
+title: The University of Shiga Prefecture
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

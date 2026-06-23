@@ -66,10 +66,19 @@
         }
     }
 
+    function sortByPublishedDesc(items) {
+        return items.slice().sort((a, b) => {
+            const da = String(a.published || "").slice(0, 10);
+            const db = String(b.published || "").slice(0, 10);
+            if (da !== db) return db.localeCompare(da);
+            return String(a.id || "").localeCompare(String(b.id || ""));
+        });
+    }
+
     function computeFilteredData(typeKey = currentTypeFilter, regionKey = currentRegionFilter) {
-        return allSchoolData.filter((school) => (
+        return sortByPublishedDesc(allSchoolData.filter((school) => (
             matchesType(school, typeKey) && matchesRegion(school, regionKey)
-        ));
+        )));
     }
 
     function countForAxis(axis, key) {
@@ -139,7 +148,7 @@
 
     function bootstrap() {
         if (typeof SCHOOLS_DATA !== "undefined") {
-            allSchoolData = SCHOOLS_DATA.schools || [];
+            allSchoolData = sortByPublishedDesc(SCHOOLS_DATA.schools || []);
         }
         updateFilterCounts();
         applyFilters();

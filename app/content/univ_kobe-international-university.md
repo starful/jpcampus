@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-international-university",
-  "title": "Kobe International University",
-  "category": "university",
-  "tags": [
-    "Globalized Campus Environment",
-    "Specialized Tourism & Hospitality Programs",
-    "Christian Values & Holistic Education",
-    "Scenic Waterfront Campus on Rokko Island"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸国際大学",
-    "name_en": "Kobe International University",
-    "address": "9-1-10 Koyo-cho Naka, Higashinada-ku, Kobe, Hyogo 658-0032, Japan",
-    "capacity": 2100
-  },
-  "stats": {
-    "international_students": 580,
-    "acceptance_rate": "55-60%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 830000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Rehabilitation"
-  ],
-  "features": [
-    "Globalized Campus Environment",
-    "Specialized Tourism & Hospitality Programs",
-    "Christian Values & Holistic Education",
-    "Scenic Waterfront Campus on Rokko Island"
-  ]
-}
+basic_info:
+  address: 9-1-10 Koyo-cho Naka, Higashinada-ku, Kobe, Hyogo 658-0032, Japan
+  capacity: 2100
+  name_en: Kobe International University
+  name_ja: 神戸国際大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Economics
+- Faculty of Rehabilitation
+features:
+- Globalized Campus Environment
+- Specialized Tourism & Hospitality Programs
+- Christian Values & Holistic Education
+- Scenic Waterfront Campus on Rokko Island
+id: univ_kobe-international-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-60%
+  international_students: 580
+tags:
+- Globalized Campus Environment
+- Specialized Tourism & Hospitality Programs
+- Christian Values & Holistic Education
+- Scenic Waterfront Campus on Rokko Island
+thumbnail: /static/img/pin-univ.png
+title: Kobe International University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 830000
 ---
 
 ## 🏫 University Overview

@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukui-prefectural-university-guide",
-  "title": "후쿠이 현립 대학교",
-  "category": "university",
-  "tags": [
-    "일본 유일의 공룡 고생물학 전문 학부",
-    "해양 과학 및 생명 공학에 대한 강력한 집중",
-    "높은 교수 대 학생 비율의 소규모 수업",
-    "저렴한 공립 대학 등록금 및 농촌 생활비"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福井県立大学",
-    "name_en": "Fukui Prefectural University",
-    "address": "4-1-1 Kenjojima, Matsuoka, Eiheiji-cho, Yoshida-gun, Fukui 910-1195, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 62,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Nursing and Social Welfare",
-    "Faculty of Biotechnology",
-    "Faculty of Marine Science",
-    "Faculty of Dinosaur Paleontology"
-  ],
-  "features": [
-    "일본 유일의 공룡 고생물학 전문 학부",
-    "해양 과학 및 생명 공학에 대한 강력한 집중",
-    "높은 교수 대 학생 비율의 소규모 수업",
-    "저렴한 공립 대학 등록금 및 농촌 생활비"
-  ],
-  "description": "후쿠이 현립 대학교: 공룡 고생물학, 해양 과학, 지역 혁신에 특화된 일본의 숨겨진 보석 같은 대학교입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 4-1-1 Kenjojima, Matsuoka, Eiheiji-cho, Yoshida-gun, Fukui 910-1195, Japan
+  capacity: null
+  name_en: Fukui Prefectural University
+  name_ja: 福井県立大学
+category: university
+date: '2026-03-03'
+description: '후쿠이 현립 대학교: 공룡 고생물학, 해양 과학, 지역 혁신에 특화된 일본의 숨겨진 보석 같은 대학교입니다.'
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Nursing and Social Welfare
+- Faculty of Biotechnology
+- Faculty of Marine Science
+- Faculty of Dinosaur Paleontology
+features:
+- 일본 유일의 공룡 고생물학 전문 학부
+- 해양 과학 및 생명 공학에 대한 강력한 집중
+- 높은 교수 대 학생 비율의 소규모 수업
+- 저렴한 공립 대학 등록금 및 농촌 생활비
+id: univ_fukui-prefectural-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 62
+tags:
+- 일본 유일의 공룡 고생물학 전문 학부
+- 해양 과학 및 생명 공학에 대한 강력한 집중
+- 높은 교수 대 학생 비율의 소규모 수업
+- 저렴한 공립 대학 등록금 및 농촌 생활비
+thumbnail: /static/img/pin-univ.png
+title: 후쿠이 현립 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요: 농촌 혁신의 탁월함

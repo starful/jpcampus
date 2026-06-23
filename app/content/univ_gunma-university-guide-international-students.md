@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gunma-university-guide-international-students",
-  "title": "Gunma University Guide for International Students",
-  "category": "university",
-  "tags": [
-    "World-class Heavy Ion Medical Center",
-    "Strong ties with Subaru and regional manufacturing hubs",
-    "Comprehensive G-Course for global leadership",
-    "High employment rate for international graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "群馬大学",
-    "name_en": "Gunma University",
-    "address": "4-2 Aramaki-machi, Maebashi, Gunma 371-8510, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 280,
-    "acceptance_rate": "Estimated 25-35% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Informatics",
-    "Faculty of Medicine",
-    "School of Science and Technology"
-  ],
-  "features": [
-    "World-class Heavy Ion Medical Center",
-    "Strong ties with Subaru and regional manufacturing hubs",
-    "Comprehensive G-Course for global leadership",
-    "High employment rate for international graduates"
-  ],
-  "description": "Thinking of studying at Gunma University? Explore our complete guide on international student admissions, tuition fees, courses, and life in Japan.",
-  "seo_title": "Gunma University: Guide for International Students | JPCampus",
-  "seo_description": "Thinking of studying at Gunma University? Explore our complete guide on international student admissions, tuition fees, courses, and life in Japan."
-}
+basic_info:
+  address: 4-2 Aramaki-machi, Maebashi, Gunma 371-8510, Japan
+  capacity: null
+  name_en: Gunma University
+  name_ja: 群馬大学
+category: university
+date: '2026-06-19'
+description: Thinking of studying at Gunma University? Explore our complete guide
+  on international student admissions, tuition fees, courses, and life in Japan.
+faculties:
+- Faculty of Education
+- Faculty of Informatics
+- Faculty of Medicine
+- School of Science and Technology
+features:
+- World-class Heavy Ion Medical Center
+- Strong ties with Subaru and regional manufacturing hubs
+- Comprehensive G-Course for global leadership
+- High employment rate for international graduates
+id: univ_gunma-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Thinking of studying at Gunma University? Explore our complete guide
+  on international student admissions, tuition fees, courses, and life in Japan.
+seo_title: 'Gunma University: Guide for International Students | JPCampus'
+stats:
+  acceptance_rate: Estimated 25-35% for international applicants
+  international_students: 280
+tags:
+- World-class Heavy Ion Medical Center
+- Strong ties with Subaru and regional manufacturing hubs
+- Comprehensive G-Course for global leadership
+- High employment rate for international graduates
+thumbnail: /static/img/pin-univ.png
+title: Gunma University Guide for International Students
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 University Overview: A Hub of Innovation and Tradition
 

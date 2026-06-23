@@ -5,6 +5,7 @@ basic_info:
   name_ja: 神戸大学
   website: https://www.kobe-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Letters
 - Faculty of Human Development

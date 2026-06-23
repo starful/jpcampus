@@ -1,63 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都大田区東嶺町35-13",
-    "capacity": 120,
-    "name_en": "West Coast Japanese Language School (ウエストコースト語学院)",
-    "name_ja": "ウエストコースト語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1539000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヵ月コース",
-      "total_fees": 1357500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1176000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "特定技能就職1年コース",
-      "total_fees": 822500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "고강도 대학 및 대학원 진학 집중",
-    "EJU 이과 (Rikei) 트랙 전문 준비",
-    "소규모 학교 (120명)로 개인별 맞춤 지도 보장",
-    "특정 기술 취업 코스를 통한 커리어 경로 옵션",
-    "도쿄 오타구의 주거 지역에 위치한 전략적 위치"
-  ],
-  "id": "school_west-coast-japanese-language-school-ota-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.5804865,
-    "lng": 139.6835401
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=166",
-  "stats": {},
-  "tags": [
-    "High-Intensity University and Graduate School Advancement Focus",
-    "Specialized Preparation for EJU Science (Rikei) Track",
-    "Small School Capacity (120) Ensuring Personalized Attention",
-    "Career Pathway Option via the Specific Skills Employment Course",
-    "Strategic Location in Residential Ota-ku, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "웨스트 코스트 일본어 학교 (ウエストコースト語学院)",
-  "tuition": {},
-  "description": "도쿄 오타구에 위치한 웨스트 코스트 일본어 학교는 소규모 정원과 맞춤형 지도를 통해 대학 및 대학원 진학을 위한 집중적인 교육을 제공합니다."
-}
+basic_info:
+  address: 東京都大田区東嶺町35-13
+  capacity: 120
+  name_en: West Coast Japanese Language School (ウエストコースト語学院)
+  name_ja: ウエストコースト語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1539000
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1357500
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1176000
+- admission_month: '4'
+  course_name: 特定技能就職1年コース
+  total_fees: 822500
+date: '2026-01-28'
+description: 도쿄 오타구에 위치한 웨스트 코스트 일본어 학교는 소규모 정원과 맞춤형 지도를 통해 대학 및 대학원 진학을 위한 집중적인 교육을
+  제공합니다.
+faculties: []
+features:
+- 고강도 대학 및 대학원 진학 집중
+- EJU 이과 (Rikei) 트랙 전문 준비
+- 소규모 학교 (120명)로 개인별 맞춤 지도 보장
+- 특정 기술 취업 코스를 통한 커리어 경로 옵션
+- 도쿄 오타구의 주거 지역에 위치한 전략적 위치
+id: school_west-coast-japanese-language-school-ota-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.5804865
+  lng: 139.6835401
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=166
+stats: {}
+tags:
+- High-Intensity University and Graduate School Advancement Focus
+- Specialized Preparation for EJU Science (Rikei) Track
+- Small School Capacity (120) Ensuring Personalized Attention
+- Career Pathway Option via the Specific Skills Employment Course
+- Strategic Location in Residential Ota-ku, Tokyo
+thumbnail: /static/img/pin-school.png
+title: 웨스트 코스트 일본어 학교 (ウエストコースト語学院)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

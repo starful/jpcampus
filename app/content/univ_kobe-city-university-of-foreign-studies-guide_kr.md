@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-city-university-of-foreign-studies-guide",
-  "title": "고베시 외국어 대학교",
-  "category": "university",
-  "tags": [
-    "Small-group intensive language education",
-    "Public university tuition with high prestige",
-    "Specialized interpreting and translation courses",
-    "Located in Gakuen-toshi university district"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸市外国語大学",
-    "name_en": "Kobe City University of Foreign Studies",
-    "address": "9-1, Gakuen-higashimachi, Nishi-ku, Kobe, Hyogo 651-2187, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 160,
-    "acceptance_rate": "25-30% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Department of English",
-    "Department of Russian",
-    "Department of Chinese",
-    "Department of Spanish",
-    "Department of International Relations"
-  ],
-  "features": [
-    "소규모 집중 어학 교육",
-    "높은 명성의 국립 대학 등록금",
-    "특화된 통역 및 번역 과정",
-    "학원도시 대학 지구에 위치"
-  ],
-  "description": "고베시 외국어 대학교(KCUFS)는 외국어 학습과 국제 교류에 중점을 둔 명문 국립 대학입니다. 소규모 그룹 교육과 다양한 국제 프로그램을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 9-1, Gakuen-higashimachi, Nishi-ku, Kobe, Hyogo 651-2187, Japan
+  capacity: null
+  name_en: Kobe City University of Foreign Studies
+  name_ja: 神戸市外国語大学
+category: university
+date: '2026-03-03'
+description: 고베시 외국어 대학교(KCUFS)는 외국어 학습과 국제 교류에 중점을 둔 명문 국립 대학입니다. 소규모 그룹 교육과 다양한
+  국제 프로그램을 제공합니다.
+faculties:
+- Department of English
+- Department of Russian
+- Department of Chinese
+- Department of Spanish
+- Department of International Relations
+features:
+- 소규모 집중 어학 교육
+- 높은 명성의 국립 대학 등록금
+- 특화된 통역 및 번역 과정
+- 학원도시 대학 지구에 위치
+id: univ_kobe-city-university-of-foreign-studies-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30% (Estimated for International Applicants)
+  international_students: 160
+tags:
+- Small-group intensive language education
+- Public university tuition with high prestige
+- Specialized interpreting and translation courses
+- Located in Gakuen-toshi university district
+thumbnail: /static/img/pin-univ.png
+title: 고베시 외국어 대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

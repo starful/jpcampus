@@ -1,54 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "沖縄県那覇市寄宮1-8-50",
-    "capacity": 220,
-    "name_en": "Life Junior Japanese Language Institute",
-    "name_ja": "ライフジュニア日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "日本語進学1.5年コース",
-      "total_fees": 1214800
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語進学2年コース",
-      "total_fees": 1572000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 또는 제휴 숙소 제공",
-    "일본 대학 입학 시험(EJU) 집중 대비",
-    "고등 교육 진학에 강력한 집중 (신가쿠)",
-    "유연한 단기 학습 프로그램 이용 가능"
-  ],
-  "id": "school_life-junior-japanese-language-institute-okinawa",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 26.20964,
-    "lng": 127.6927055
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=586",
-  "stats": {
-    "capacity": 220,
-    "international_students": 195
-  },
-  "tags": [
-    "On-campus/Affiliated Dormitory Accommodation",
-    "Intensive Preparation for the Examination for Japanese University Admission (EJU)",
-    "Strong Focus on Higher Education Advancement (Shingaku)",
-    "Flexible Short-term Study Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Life Junior 일본어학원",
-  "description": "오키나와 나하에 위치한 Life Junior 일본어학원은 일본 대학 진학을 위한 집중적인 준비를 제공하며, 류큐 제도의 풍부한 문화와 아열대 기후를 즐길 수 있는 독특한 학습 환경을 제공합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 沖縄県那覇市寄宮1-8-50
+  capacity: 220
+  name_en: Life Junior Japanese Language Institute
+  name_ja: ライフジュニア日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語進学1.5年コース
+  total_fees: 1214800
+- admission_month: '4'
+  course_name: 日本語進学2年コース
+  total_fees: 1572000
+date: '2026-01-28'
+description: 오키나와 나하에 위치한 Life Junior 일본어학원은 일본 대학 진학을 위한 집중적인 준비를 제공하며, 류큐 제도의 풍부한
+  문화와 아열대 기후를 즐길 수 있는 독특한 학습 환경을 제공합니다.
+faculties: []
+features:
+- 기숙사 또는 제휴 숙소 제공
+- 일본 대학 입학 시험(EJU) 집중 대비
+- 고등 교육 진학에 강력한 집중 (신가쿠)
+- 유연한 단기 학습 프로그램 이용 가능
+id: school_life-junior-japanese-language-institute-okinawa
+lang: kr
+layout: school
+location:
+  lat: 26.20964
+  lng: 127.6927055
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=586
+stats:
+  capacity: 220
+  international_students: 195
+tags:
+- On-campus/Affiliated Dormitory Accommodation
+- Intensive Preparation for the Examination for Japanese University Admission (EJU)
+- Strong Focus on Higher Education Advancement (Shingaku)
+- Flexible Short-term Study Programs Available
+thumbnail: /static/img/pin-school.png
+title: Life Junior 일본어학원
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

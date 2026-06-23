@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_matsuyama-university-comprehensive-guide",
-  "title": "마츠야마 대학교 - 시코쿠 지역 최고의 취업 강자",
-  "description": "100년 전통의 마츠야마 대학교는 시코쿠 지역 취업률 1위를 자랑하는 명문 사립대학입니다. 저렴한 생활비와 충실한 유학생 지원 제도, 지역 사회와의 강력한 네트워크를 갖춘 마츠야마 대학교를 소개합니다.",
-  "category": "university",
-  "tags": [
-    "100년 전통의 학문적 우수성",
-    "시코쿠 지역 내 압도적인 취업 경쟁력",
-    "에히메 대학과 인접한 도심형 콤팩트 캠퍼스",
-    "유학생을 위한 매우 저렴한 물가와 생활비"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "松山大学",
-    "name_en": "Matsuyama University",
-    "address": "4-2 Bunkyo-cho, Matsuyama, Ehime 790-8578, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 50,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 810000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Humanities",
-    "Faculty of Pharmaceutical Sciences"
-  ],
-  "features": [
-    "100년 전통의 학문적 우수성",
-    "시코쿠 지역 내 압도적인 취업 경쟁력",
-    "에히메 대학과 인접한 도심형 콤팩트 캠퍼스",
-    "유학생을 위한 매우 저렴한 물가와 생활비"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4-2 Bunkyo-cho, Matsuyama, Ehime 790-8578, Japan
+  capacity: null
+  name_en: Matsuyama University
+  name_ja: 松山大学
+category: university
+date: '2026-03-15'
+description: 100년 전통의 마츠야마 대학교는 시코쿠 지역 취업률 1위를 자랑하는 명문 사립대학입니다. 저렴한 생활비와 충실한 유학생 지원
+  제도, 지역 사회와의 강력한 네트워크를 갖춘 마츠야마 대학교를 소개합니다.
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Humanities
+- Faculty of Pharmaceutical Sciences
+features:
+- 100년 전통의 학문적 우수성
+- 시코쿠 지역 내 압도적인 취업 경쟁력
+- 에히메 대학과 인접한 도심형 콤팩트 캠퍼스
+- 유학생을 위한 매우 저렴한 물가와 생활비
+id: univ_matsuyama-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 50
+tags:
+- 100년 전통의 학문적 우수성
+- 시코쿠 지역 내 압도적인 취업 경쟁력
+- 에히메 대학과 인접한 도심형 콤팩트 캠퍼스
+- 유학생을 위한 매우 저렴한 물가와 생활비
+thumbnail: /static/img/pin-univ.png
+title: 마츠야마 대학교 - 시코쿠 지역 최고의 취업 강자
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 810000
 ---
 
 ## 🏫 대학 개요

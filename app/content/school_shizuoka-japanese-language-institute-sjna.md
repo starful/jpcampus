@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヶ月コース
   total_fees: 1112000
+date: '2026-01-28'
 faculties: []
 features:
 - Comprehensive University and Vocational School Preparation (EJU Focus)

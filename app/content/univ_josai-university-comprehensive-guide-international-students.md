@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_josai-university-comprehensive-guide-international-students",
-  "title": "Josai University",
-  "category": "university",
-  "tags": [
-    "Renowned Pharmaceutical Science Program",
-    "Strategic Global Network with Central European Universities",
-    "Strong Local Community Integration and Practical Policy Research",
-    "Mizuta Memorial Museum of Art and Cultural Integration"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "城西大学",
-    "name_en": "Josai University",
-    "address": "1-1 Keyakidai, Sakado-shi, Saitama 350-0295, Japan",
-    "capacity": 7500
-  },
-  "stats": {
-    "international_students": 650,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Pharmacy",
-    "Faculty of Science",
-    "Faculty of Economics",
-    "Faculty of Contemporary Policy Studies",
-    "Faculty of Business Administration"
-  ],
-  "features": [
-    "Renowned Pharmaceutical Science Program",
-    "Strategic Global Network with Central European Universities",
-    "Strong Local Community Integration and Practical Policy Research",
-    "Mizuta Memorial Museum of Art and Cultural Integration"
-  ]
-}
+basic_info:
+  address: 1-1 Keyakidai, Sakado-shi, Saitama 350-0295, Japan
+  capacity: 7500
+  name_en: Josai University
+  name_ja: 城西大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Pharmacy
+- Faculty of Science
+- Faculty of Economics
+- Faculty of Contemporary Policy Studies
+- Faculty of Business Administration
+features:
+- Renowned Pharmaceutical Science Program
+- Strategic Global Network with Central European Universities
+- Strong Local Community Integration and Practical Policy Research
+- Mizuta Memorial Museum of Art and Cultural Integration
+id: univ_josai-university-comprehensive-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 650
+tags:
+- Renowned Pharmaceutical Science Program
+- Strategic Global Network with Central European Universities
+- Strong Local Community Integration and Practical Policy Research
+- Mizuta Memorial Museum of Art and Cultural Integration
+thumbnail: /static/img/pin-univ.png
+title: Josai University
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview

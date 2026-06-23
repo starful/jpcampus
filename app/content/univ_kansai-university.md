@@ -5,6 +5,7 @@ basic_info:
   name_ja: 関西大学
   website: https://www.kansai-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Law
 - Faculty of Letters

@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyushu-dental-university-comprehensive-guide",
-  "title": "큐슈 치과 대학 (Kyushu Dental University)",
-  "category": "university",
-  "tags": [
-    "Public University Status (Low Tuition)",
-    "Over 100 Years of Academic History",
-    "High National Dental Exam Pass Rates",
-    "Advanced University Hospital Integration"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "九州歯科大学",
-    "name_en": "Kyushu Dental University",
-    "address": "2-6-1 Manazuru, Kokurakita-ku, Kitakyushu, Fukuoka 803-8580, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 12,
-    "acceptance_rate": "15-20% (Highly Competitive)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Dentistry",
-    "School of Oral Health Sciences",
-    "Graduate School of Dental Science"
-  ],
-  "features": [
-    "국립 대학 (저렴한 학비)",
-    "100년 이상의 역사",
-    "높은 국가고시 합격률",
-    "선진적인 대학 병원 연계"
-  ],
-  "description": "큐슈 치과 대학 (Kyushu Dental University)에 대한 종합 안내입니다. 학비, 입학 요건, 학과, 시설 등을 자세히 알아보세요.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2-6-1 Manazuru, Kokurakita-ku, Kitakyushu, Fukuoka 803-8580, Japan
+  capacity: null
+  name_en: Kyushu Dental University
+  name_ja: 九州歯科大学
+category: university
+date: '2026-03-03'
+description: 큐슈 치과 대학 (Kyushu Dental University)에 대한 종합 안내입니다. 학비, 입학 요건, 학과, 시설 등을
+  자세히 알아보세요.
+faculties:
+- School of Dentistry
+- School of Oral Health Sciences
+- Graduate School of Dental Science
+features:
+- 국립 대학 (저렴한 학비)
+- 100년 이상의 역사
+- 높은 국가고시 합격률
+- 선진적인 대학 병원 연계
+id: univ_kyushu-dental-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-20% (Highly Competitive)
+  international_students: 12
+tags:
+- Public University Status (Low Tuition)
+- Over 100 Years of Academic History
+- High National Dental Exam Pass Rates
+- Advanced University Hospital Integration
+thumbnail: /static/img/pin-univ.png
+title: 큐슈 치과 대학 (Kyushu Dental University)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

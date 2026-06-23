@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hamamatsu-gakuin-university-guide-international-students",
-  "title": "하마마츠 가쿠인 대학교",
-  "description": "시즈오카현 하마마츠시에 위치한 하마마츠 가쿠인 대학교는 지역 사회와 밀착된 실무 교육과 높은 취업률을 자랑하는 사립 대학입니다. 외국인 유학생을 위한 풍부한 학비 감면 혜택과 소수 정예 교육 환경을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "지역 밀착형 학습",
-    "시즈오카 지역 산업 높은 취업률",
-    "풍부한 유학생 학비 감면",
-    "소수 정예 세미나 교육"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "浜松学院大学",
-    "name_en": "Hamamatsu Gakuin University",
-    "address": "2-3-1 Nunohashi, Chuo-ku, Hamamatsu-shi, Shizuoka 432-8012, Japan",
-    "capacity": 450
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 740000
-  },
-  "faculties": [
-    "현대 커뮤니케이션 학부",
-    "지역 커뮤니케이션 학과",
-    "유아 교육 학과"
-  ],
-  "features": [
-    "지역 사회 기반의 밀착형 학습",
-    "시즈오카 지역 산업계의 높은 취업률",
-    "외국인 유학생을 위한 풍부한 학비 감면 혜택",
-    "소수 정예 세미나 방식의 교육"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-3-1 Nunohashi, Chuo-ku, Hamamatsu-shi, Shizuoka 432-8012, Japan
+  capacity: 450
+  name_en: Hamamatsu Gakuin University
+  name_ja: 浜松学院大学
+category: university
+date: '2026-04-04'
+description: 시즈오카현 하마마츠시에 위치한 하마마츠 가쿠인 대학교는 지역 사회와 밀착된 실무 교육과 높은 취업률을 자랑하는 사립 대학입니다.
+  외국인 유학생을 위한 풍부한 학비 감면 혜택과 소수 정예 교육 환경을 제공합니다.
+faculties:
+- 현대 커뮤니케이션 학부
+- 지역 커뮤니케이션 학과
+- 유아 교육 학과
+features:
+- 지역 사회 기반의 밀착형 학습
+- 시즈오카 지역 산업계의 높은 취업률
+- 외국인 유학생을 위한 풍부한 학비 감면 혜택
+- 소수 정예 세미나 방식의 교육
+id: univ_hamamatsu-gakuin-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 145
+tags:
+- 지역 밀착형 학습
+- 시즈오카 지역 산업 높은 취업률
+- 풍부한 유학생 학비 감면
+- 소수 정예 세미나 교육
+thumbnail: /static/img/pin-univ.png
+title: 하마마츠 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 740000
 ---
 
 ## 🏫 대학 개요: 일본 중부 지역으로 가는 관문

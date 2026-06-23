@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kitami-institute-of-technology-international-student-guide",
-  "title": "기타미 공업 대학",
-  "category": "university",
-  "tags": [
-    "Northernmost National Engineering University in Japan",
-    "World-Class Research in Cold Region Science and Methane Hydrates",
-    "Consistently High Employment Rate for Graduates (Near 100%)",
-    "Highly Affordable Living Costs compared to Major Japanese Cities",
-    "Strong Local Industry Ties in Agriculture and Smart Technology"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北見工業大学",
-    "name_en": "Kitami Institute of Technology",
-    "address": "165 Koen-cho, Kitami, Hokkaido 090-8507, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "35-40% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Earth, Energy and Environmental Engineering",
-    "School of Regional Innovation and Social Design Engineering",
-    "Graduate School of Engineering"
-  ],
-  "features": [
-    "일본 최북단 국립 공업 대학",
-    "한랭 지역 과학 및 메탄 하이드레이트 분야의 세계적 수준 연구",
-    "졸업생의 꾸준히 높은 취업률 (거의 100 %)",
-    "일본 주요 도시에 비해 매우 저렴한 생활비",
-    "농업 및 스마트 기술 분야의 강력한 지역 산업 연계"
-  ],
-  "description": "기타미 공업 대학 (KIT)은 홋카이도에 위치한 일본 최북단의 국립 공업 대학입니다. 한랭 지역 과학 및 공학 분야에서 독보적인 강점을 가지고 있습니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 165 Koen-cho, Kitami, Hokkaido 090-8507, Japan
+  capacity: null
+  name_en: Kitami Institute of Technology
+  name_ja: 北見工業大学
+category: university
+date: '2026-02-13'
+description: 기타미 공업 대학 (KIT)은 홋카이도에 위치한 일본 최북단의 국립 공업 대학입니다. 한랭 지역 과학 및 공학 분야에서 독보적인
+  강점을 가지고 있습니다.
+faculties:
+- School of Earth, Energy and Environmental Engineering
+- School of Regional Innovation and Social Design Engineering
+- Graduate School of Engineering
+features:
+- 일본 최북단 국립 공업 대학
+- 한랭 지역 과학 및 메탄 하이드레이트 분야의 세계적 수준 연구
+- 졸업생의 꾸준히 높은 취업률 (거의 100 %)
+- 일본 주요 도시에 비해 매우 저렴한 생활비
+- 농업 및 스마트 기술 분야의 강력한 지역 산업 연계
+id: univ_kitami-institute-of-technology-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-40% (Estimated for International Applicants)
+  international_students: 115
+tags:
+- Northernmost National Engineering University in Japan
+- World-Class Research in Cold Region Science and Methane Hydrates
+- Consistently High Employment Rate for Graduates (Near 100%)
+- Highly Affordable Living Costs compared to Major Japanese Cities
+- Strong Local Industry Ties in Agriculture and Smart Technology
+thumbnail: /static/img/pin-univ.png
+title: 기타미 공업 대학
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 혁신의 최전선, 북쪽 변경에서 시작하다

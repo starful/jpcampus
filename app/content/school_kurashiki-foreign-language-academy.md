@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: University Progression 1.5-Year Course
   total_fees: 1082000
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized University Progression (EJU, Science, Arts & Design Tracks)

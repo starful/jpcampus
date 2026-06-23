@@ -18,6 +18,7 @@ courses:
 - admission_month: '7'
   course_name: 進学1年9か月コース
   total_fees: 1260000
+date: '2026-01-28'
 description: Nagoya Education Academy is a Japanese language school specializing in
   preparing students for higher education in Japan, offering intensive academic support,
   on-campus dormitories, and specialized EJU preparation.

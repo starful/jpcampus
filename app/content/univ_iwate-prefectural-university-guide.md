@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_iwate-prefectural-university-guide",
-  "title": "Iwate Prefectural University",
-  "category": "university",
-  "tags": [
-    "Specialized Software and IT Hub in Northern Japan",
-    "High Graduate Employment Rate (Over 95%)",
-    "Strong Regional Integration and Community Care Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岩手県立大学",
-    "name_en": "Iwate Prefectural University",
-    "address": "152-52 Sugo, Takizawa, Iwate 020-0693, Japan",
-    "capacity": 2350
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Nursing",
-    "Faculty of Social Welfare",
-    "Faculty of Software and Information Science",
-    "Faculty of Policy Studies"
-  ],
-  "features": [
-    "Specialized Software and IT Hub in Northern Japan",
-    "High Graduate Employment Rate (Over 95%)",
-    "Strong Regional Integration and Community Care Focus"
-  ]
-}
+basic_info:
+  address: 152-52 Sugo, Takizawa, Iwate 020-0693, Japan
+  capacity: 2350
+  name_en: Iwate Prefectural University
+  name_ja: 岩手県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Nursing
+- Faculty of Social Welfare
+- Faculty of Software and Information Science
+- Faculty of Policy Studies
+features:
+- Specialized Software and IT Hub in Northern Japan
+- High Graduate Employment Rate (Over 95%)
+- Strong Regional Integration and Community Care Focus
+id: univ_iwate-prefectural-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 45
+tags:
+- Specialized Software and IT Hub in Northern Japan
+- High Graduate Employment Rate (Over 95%)
+- Strong Regional Integration and Community Care Focus
+thumbnail: /static/img/pin-univ.png
+title: Iwate Prefectural University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-prefectural-university-international-student-guide",
-  "title": "Kyoto Prefectural University",
-  "category": "university",
-  "tags": [
-    "Prestigious Public Institution in the Heart of Kyoto",
-    "Exceptionately Small Class Sizes and Research Groups",
-    "Adjacent to the Kyoto Botanical Gardens and Kamo River",
-    "Strong Focus on Regional Revitalization and Kyoto Studies"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都府立大学",
-    "name_en": "Kyoto Prefectural University",
-    "address": "1-5 Nakaragi-cho, Shimogamo, Sakyo-ku, Kyoto, 606-8522, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 48,
-    "acceptance_rate": "25-30% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Public Policy",
-    "Faculty of Life and Environmental Sciences"
-  ],
-  "features": [
-    "Prestigious Public Institution in the Heart of Kyoto",
-    "Exceptionately Small Class Sizes and Research Groups",
-    "Adjacent to the Kyoto Botanical Gardens and Kamo River",
-    "Strong Focus on Regional Revitalization and Kyoto Studies"
-  ]
-}
+basic_info:
+  address: 1-5 Nakaragi-cho, Shimogamo, Sakyo-ku, Kyoto, 606-8522, Japan
+  capacity: null
+  name_en: Kyoto Prefectural University
+  name_ja: 京都府立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Letters
+- Faculty of Public Policy
+- Faculty of Life and Environmental Sciences
+features:
+- Prestigious Public Institution in the Heart of Kyoto
+- Exceptionately Small Class Sizes and Research Groups
+- Adjacent to the Kyoto Botanical Gardens and Kamo River
+- Strong Focus on Regional Revitalization and Kyoto Studies
+id: univ_kyoto-prefectural-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30% (Estimated)
+  international_students: 48
+tags:
+- Prestigious Public Institution in the Heart of Kyoto
+- Exceptionately Small Class Sizes and Research Groups
+- Adjacent to the Kyoto Botanical Gardens and Kamo River
+- Strong Focus on Regional Revitalization and Kyoto Studies
+thumbnail: /static/img/pin-univ.png
+title: Kyoto Prefectural University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

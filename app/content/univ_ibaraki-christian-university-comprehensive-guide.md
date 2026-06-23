@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ibaraki-christian-university-comprehensive-guide",
-  "title": "Ibaraki Christian University",
-  "category": "university",
-  "tags": [
-    "Christian educational philosophy based on 'Love and Service'",
-    "Strong local community ties in Hitachi City",
-    "State-of-the-art facilities for Nursing and Childhood Education",
-    "Small-group seminar-style learning"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "茨城キリスト教大学",
-    "name_en": "Ibaraki Christian University",
-    "address": "6-11-1 Omika-cho, Hitachi-shi, Ibaraki 319-1295, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "70-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Literature",
-    "Faculty of Lifestyle Studies",
-    "Faculty of Nursing",
-    "Faculty of Management"
-  ],
-  "features": [
-    "Christian educational philosophy based on 'Love and Service'",
-    "Strong local community ties in Hitachi City",
-    "State-of-the-art facilities for Nursing and Childhood Education",
-    "Small-group seminar-style learning"
-  ]
-}
+basic_info:
+  address: 6-11-1 Omika-cho, Hitachi-shi, Ibaraki 319-1295, Japan
+  capacity: null
+  name_en: Ibaraki Christian University
+  name_ja: 茨城キリスト教大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Literature
+- Faculty of Lifestyle Studies
+- Faculty of Nursing
+- Faculty of Management
+features:
+- Christian educational philosophy based on 'Love and Service'
+- Strong local community ties in Hitachi City
+- State-of-the-art facilities for Nursing and Childhood Education
+- Small-group seminar-style learning
+id: univ_ibaraki-christian-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 70-75%
+  international_students: 45
+tags:
+- Christian educational philosophy based on 'Love and Service'
+- Strong local community ties in Hitachi City
+- State-of-the-art facilities for Nursing and Childhood Education
+- Small-group seminar-style learning
+thumbnail: /static/img/pin-univ.png
+title: Ibaraki Christian University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview: The Spirit of Love and Service

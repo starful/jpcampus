@@ -1,64 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "〒060-0808 北海道札幌市北区北8条西5丁目",
-    "name_en": "Hokkaido University",
-    "name_ja": "北海道大学",
-    "website": "https://www.hokudai.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics and Business",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Dental Medicine",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Veterinary Medicine",
-    "Faculty of Fisheries Sciences",
-    "School of Global Environmental Science",
-    "Faculty of Information Science and Technology",
-    "Faculty of Biomedical Science and Engineering",
-    "Faculty of Tourism Sciences"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_hokkaido-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 43.0703209,
-    "lng": 141.3470456
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 2000
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "홋카이도 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "홋카이도 삿포로에 위치한 명문 국립대학인 홋카이도 대학교에 대해 알아보세요. 다양한 학부 및 국제 학생 지원 정보를 제공합니다."
-}
+basic_info:
+  address: 〒060-0808 北海道札幌市北区北8条西5丁目
+  name_en: Hokkaido University
+  name_ja: 北海道大学
+  website: https://www.hokudai.ac.jp/
+category: university
+date: '2026-01-28'
+description: 홋카이도 삿포로에 위치한 명문 국립대학인 홋카이도 대학교에 대해 알아보세요. 다양한 학부 및 국제 학생 지원 정보를 제공합니다.
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics and Business
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Dental Medicine
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Veterinary Medicine
+- Faculty of Fisheries Sciences
+- School of Global Environmental Science
+- Faculty of Information Science and Technology
+- Faculty of Biomedical Science and Engineering
+- Faculty of Tourism Sciences
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_hokkaido-university
+lang: kr
+layout: school
+location:
+  lat: 43.0703209
+  lng: 141.3470456
+stats:
+  acceptance_rate: 20%
+  international_students: 2000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 홋카이도 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 홋카이도 대학교 개요

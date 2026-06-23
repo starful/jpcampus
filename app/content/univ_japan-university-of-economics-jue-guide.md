@@ -6,6 +6,7 @@ basic_info:
   name_en: Japan University of Economics
   name_ja: 日本経済大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Economics
 - Faculty of Business Management

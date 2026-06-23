@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_bukkyo-university-international-student-guide",
-  "title": "Bukkyo University",
-  "category": "university",
-  "tags": [
-    "Preeminent Teacher Training Programs",
-    "Strong Roots in Buddhist Humanism",
-    "Located in the Heart of Kyoto's Heritage",
-    "Renowned Social Welfare Research"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "佛教大学",
-    "name_en": "Bukkyo University",
-    "address": "96, Kitamurasakino-cho, Murasakino, Kita-ku, Kyoto 603-8301, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 142,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Social Welfare",
-    "Faculty of Sociology",
-    "Faculty of Policy Studies",
-    "Faculty of Health Sciences"
-  ],
-  "features": [
-    "Preeminent Teacher Training Programs",
-    "Strong Roots in Buddhist Humanism",
-    "Located in the Heart of Kyoto's Heritage",
-    "Renowned Social Welfare Research"
-  ]
-}
+basic_info:
+  address: 96, Kitamurasakino-cho, Murasakino, Kita-ku, Kyoto 603-8301, Japan
+  capacity: null
+  name_en: Bukkyo University
+  name_ja: 佛教大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Social Welfare
+- Faculty of Sociology
+- Faculty of Policy Studies
+- Faculty of Health Sciences
+features:
+- Preeminent Teacher Training Programs
+- Strong Roots in Buddhist Humanism
+- Located in the Heart of Kyoto's Heritage
+- Renowned Social Welfare Research
+id: univ_bukkyo-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 142
+tags:
+- Preeminent Teacher Training Programs
+- Strong Roots in Buddhist Humanism
+- Located in the Heart of Kyoto's Heritage
+- Renowned Social Welfare Research
+thumbnail: /static/img/pin-univ.png
+title: Bukkyo University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Heart of Buddhist Humanism

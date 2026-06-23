@@ -18,6 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コース
   total_fees: 1376000
+date: '2026-01-28'
 faculties: []
 features:
 - University Preparation

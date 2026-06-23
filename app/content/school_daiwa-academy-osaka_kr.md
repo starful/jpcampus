@@ -1,60 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府堺市堺区熊野町西3丁2-6",
-    "capacity": 300,
-    "name_en": "Daiwa Academy",
-    "name_ja": "ダイワアカデミー"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1335000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1175000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1020000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 입시 집중 과정 (EJU/특화 트랙)",
-    "종합적인 학생 숙소 제공 (기숙사 및 개인실 이용 가능)",
-    "이과 (Rikei), 미술/디자인, 비즈니스 일본어 특화 트랙",
-    "오사카부 사카이시에 위치",
-    "단기 어학 연수 프로그램 제공",
-    "다양한 장학금 및 재정 지원 기회"
-  ],
-  "id": "school_daiwa-academy-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.5807655,
-    "lng": 135.4715373
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=355",
-  "stats": {},
-  "tags": [
-    "Advanced University Entrance Focus (EJU/Specialized Tracks)",
-    "Comprehensive Student Accommodation (Dormitory and Private Rooms Available)",
-    "Specialized Tracks for Science (Rikei), Art/Design, and Business Japanese",
-    "Located in Osaka Prefecture (Sakai City)",
-    "Offers Short-Term Study Programs",
-    "Robust Scholarship and Financial Aid Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "다이와 아카데미",
-  "description": "오사카 사카이시에 위치한 다이와 아카데미는 일본 대학 진학을 위한 집중적인 일본어 교육 기관입니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府堺市堺区熊野町西3丁2-6
+  capacity: 300
+  name_en: Daiwa Academy
+  name_ja: ダイワアカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1335000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1175000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1020000
+date: '2026-01-28'
+description: 오사카 사카이시에 위치한 다이와 아카데미는 일본 대학 진학을 위한 집중적인 일본어 교육 기관입니다.
+faculties: []
+features:
+- 대학 입시 집중 과정 (EJU/특화 트랙)
+- 종합적인 학생 숙소 제공 (기숙사 및 개인실 이용 가능)
+- 이과 (Rikei), 미술/디자인, 비즈니스 일본어 특화 트랙
+- 오사카부 사카이시에 위치
+- 단기 어학 연수 프로그램 제공
+- 다양한 장학금 및 재정 지원 기회
+id: school_daiwa-academy-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.5807655
+  lng: 135.4715373
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=355
+stats: {}
+tags:
+- Advanced University Entrance Focus (EJU/Specialized Tracks)
+- Comprehensive Student Accommodation (Dormitory and Private Rooms Available)
+- Specialized Tracks for Science (Rikei), Art/Design, and Business Japanese
+- Located in Osaka Prefecture (Sakai City)
+- Offers Short-Term Study Programs
+- Robust Scholarship and Financial Aid Opportunities
+thumbnail: /static/img/pin-school.png
+title: 다이와 아카데미
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

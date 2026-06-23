@@ -1,53 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "3-4-14 Kohinata, Bunkyo-ku, Tokyo 112-8585, Japan (Bunkyo Campus)",
-    "capacity": null,
-    "name_en": "Takushoku University",
-    "name_ja": "拓殖大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Commerce",
-    "Faculty of Political Science and Economics",
-    "Faculty of Foreign Languages",
-    "Faculty of International Studies",
-    "Faculty of Engineering"
-  ],
-  "features": [
-    "국제 교육의 오랜 전통",
-    "아시아 언어 및 지역 연구에 대한 강력한 집중",
-    "트윈 캠퍼스 시스템 (도심 분쿄 및 교외 하치오지)",
-    "EJU 필수",
-    "제한적인 영어 프로그램 (주로 일본어 강의)"
-  ],
-  "id": "univ_takushoku-university-international-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "35%",
-    "international_students": 1200
-  },
-  "tags": [
-    "Centennial Tradition of International Education",
-    "Strong Focus on Asian Languages and Regional Studies",
-    "Twin Campus System (Urban Bunkyo and Suburban Hachioji)",
-    "EJU Required",
-    "Limited English Program Availability (Primarily Japanese Taught)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "다쿠쇼쿠 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "description": "국제 교육의 오랜 전통을 자랑하는 다쿠쇼쿠 대학교는 아시아 언어 및 지역 연구에 대한 집중적인 교육을 제공합니다. 도쿄의 분쿄 캠퍼스와 하치오지 캠퍼스를 통해 다양한 학습 환경을 경험할 수 있습니다."
-}
+basic_info:
+  address: 3-4-14 Kohinata, Bunkyo-ku, Tokyo 112-8585, Japan (Bunkyo Campus)
+  capacity: null
+  name_en: Takushoku University
+  name_ja: 拓殖大学
+category: university
+date: '2026-01-28'
+description: 국제 교육의 오랜 전통을 자랑하는 다쿠쇼쿠 대학교는 아시아 언어 및 지역 연구에 대한 집중적인 교육을 제공합니다. 도쿄의 분쿄
+  캠퍼스와 하치오지 캠퍼스를 통해 다양한 학습 환경을 경험할 수 있습니다.
+faculties:
+- Faculty of Commerce
+- Faculty of Political Science and Economics
+- Faculty of Foreign Languages
+- Faculty of International Studies
+- Faculty of Engineering
+features:
+- 국제 교육의 오랜 전통
+- 아시아 언어 및 지역 연구에 대한 강력한 집중
+- 트윈 캠퍼스 시스템 (도심 분쿄 및 교외 하치오지)
+- EJU 필수
+- 제한적인 영어 프로그램 (주로 일본어 강의)
+id: univ_takushoku-university-international-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35%
+  international_students: 1200
+tags:
+- Centennial Tradition of International Education
+- Strong Focus on Asian Languages and Regional Studies
+- Twin Campus System (Urban Bunkyo and Suburban Hachioji)
+- EJU Required
+- Limited English Program Availability (Primarily Japanese Taught)
+thumbnail: /static/img/pin-univ.png
+title: 다쿠쇼쿠 대학교
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 학교 개요

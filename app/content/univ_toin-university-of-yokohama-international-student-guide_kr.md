@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toin-university-of-yokohama-international-student-guide",
-  "title": "토인요코하마대학교 (Toin University of Yokohama)",
-  "description": "실무 중심의 법학, 의공학, 스포츠 과학 교육으로 정평이 난 토인요코하마대학교의 유학생 가이드입니다. 학부 정보부터 입시, 장학금, 취업 전망까지 확인해 보세요.",
-  "category": "university",
-  "tags": [
-    "우수한 스포츠 프로그램 및 스포츠 과학 시설",
-    "공무원 및 법조계 진출을 위한 실무 법학 교육",
-    "임상공학사 양성을 위한 전문 의공학 교육",
-    "비판적 사고를 강조하는 액티브 러닝 커리큘럼"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桐蔭横浜大学",
-    "name_en": "Toin University of Yokohama",
-    "address": "1614 Kuroganecho, Aoba Ward, Yokohama, Kanagawa 225-8503, Japan",
-    "capacity": 4200
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "Approx. 60-70% (Varies by faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "법학부",
-    "의공학부",
-    "스포츠건강과학부",
-    "현대교양학부"
-  ],
-  "features": [
-    "우수한 스포츠 프로그램 및 스포츠 과학 시설",
-    "공무원 및 법조계 진출을 위한 실무 법학 교육",
-    "임상공학사 양성을 위한 전문 의공학 교육",
-    "비판적 사고를 강조하는 액티브 러닝 커리큘럼"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1614 Kuroganecho, Aoba Ward, Yokohama, Kanagawa 225-8503, Japan
+  capacity: 4200
+  name_en: Toin University of Yokohama
+  name_ja: 桐蔭横浜大学
+category: university
+date: '2026-03-24'
+description: 실무 중심의 법학, 의공학, 스포츠 과학 교육으로 정평이 난 토인요코하마대학교의 유학생 가이드입니다. 학부 정보부터 입시,
+  장학금, 취업 전망까지 확인해 보세요.
+faculties:
+- 법학부
+- 의공학부
+- 스포츠건강과학부
+- 현대교양학부
+features:
+- 우수한 스포츠 프로그램 및 스포츠 과학 시설
+- 공무원 및 법조계 진출을 위한 실무 법학 교육
+- 임상공학사 양성을 위한 전문 의공학 교육
+- 비판적 사고를 강조하는 액티브 러닝 커리큘럼
+id: univ_toin-university-of-yokohama-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approx. 60-70% (Varies by faculty)
+  international_students: 165
+tags:
+- 우수한 스포츠 프로그램 및 스포츠 과학 시설
+- 공무원 및 법조계 진출을 위한 실무 법학 교육
+- 임상공학사 양성을 위한 전문 의공학 교육
+- 비판적 사고를 강조하는 액티브 러닝 커리큘럼
+thumbnail: /static/img/pin-univ.png
+title: 토인요코하마대학교 (Toin University of Yokohama)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

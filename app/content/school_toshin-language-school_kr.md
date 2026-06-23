@@ -1,63 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区高田馬場3-28-1 第六康洋ビル",
-    "capacity": 900,
-    "name_en": "Toshin Language School",
-    "name_ja": "東進ランゲージスクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "進学コース",
-      "total_fees": 890000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進학コース",
-      "total_fees": 1052000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進학コース",
-      "total_fees": 1214000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進학コース",
-      "total_fees": 1376000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 대비",
-    "이과 계열 특화"
-  ],
-  "id": "school_toshin-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7152394,
-    "lng": 139.6967414
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=138",
-  "stats": {
-    "capacity": 900,
-    "international_students": 0
-  },
-  "tags": [
-    "대학 진학 준비",
-    "EJU 대비",
-    "이과 계열 특화"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "토신 랭귀지 스쿨 (Toshin Language School)",
-  "description": "도쿄 타카다노바바에 위치한 토신 랭귀지 스쿨은 이공계 대학 진학 및 EJU 대비에 특화된 일본어 교육 기관입니다. 전문적인 진학 지도와 학생 맞춤형 서포트를 제공합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区高田馬場3-28-1 第六康洋ビル
+  capacity: 900
+  name_en: Toshin Language School
+  name_ja: 東進ランゲージスクール
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学コース
+  total_fees: 890000
+- admission_month: '10'
+  course_name: 進학コース
+  total_fees: 1052000
+- admission_month: '7'
+  course_name: 進학コース
+  total_fees: 1214000
+- admission_month: '4'
+  course_name: 進학コース
+  total_fees: 1376000
+date: '2026-03-08'
+description: 도쿄 타카다노바바에 위치한 토신 랭귀지 스쿨은 이공계 대학 진학 및 EJU 대비에 특화된 일본어 교육 기관입니다. 전문적인
+  진학 지도와 학생 맞춤형 서포트를 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 대비
+- 이과 계열 특화
+id: school_toshin-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.7152394
+  lng: 139.6967414
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=138
+stats:
+  capacity: 900
+  international_students: 0
+tags:
+- 대학 진학 준비
+- EJU 대비
+- 이과 계열 특화
+thumbnail: /static/img/pin-school.png
+title: 토신 랭귀지 스쿨 (Toshin Language School)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

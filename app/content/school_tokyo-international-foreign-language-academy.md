@@ -18,6 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 介護1年コース
   total_fees: 781600
+date: '2026-01-28'
 description: Tokyo International Foreign Language Academy offers specialized courses
   focused on university and vocational advancement, with unique pathways in STEM and
   Caregiving. Located in Hachioji, Tokyo, the academy provides a conducive learning

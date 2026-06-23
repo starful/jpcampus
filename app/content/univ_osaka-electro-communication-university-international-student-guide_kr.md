@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-electro-communication-university-international-student-guide",
-  "title": "오사카 전기통신대학교",
-  "description": "게임 교육의 선구자이자 실무 중심의 기술 교육을 제공하는 오사카 전기통신대학교(OECU)는 높은 취업률과 최첨단 연구 시설을 자랑하는 간사이 지역의 명문 IT·공학 특화 대학교입니다.",
-  "category": "university",
-  "tags": [
-    "게임 산업 교육의 선구자",
-    "실습 중심의 기술 교육",
-    "제조업 분야의 높은 취업률",
-    "최첨단 전자 공학 연구 시설"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪電気通信大学",
-    "name_en": "Osaka Electro-Communication University",
-    "address": "18-8 Hatsucho, Neyagawa, Osaka 572-8530, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 342,
-    "acceptance_rate": "45-60% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1280000
-  },
-  "faculties": [
-    "공학부",
-    "정보통신공학부",
-    "의료건강과학부",
-    "종합정보학부 (디지털게임학과 포함)",
-    "건강과학부",
-    "자산관리전공"
-  ],
-  "features": [
-    "게임 산업 교육의 선구자",
-    "실습 중심의 실무 기술 교육",
-    "제조업 및 IT 분야의 높은 졸업생 취업률",
-    "최첨단 전자 및 디지털 미디어 연구 시설"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 18-8 Hatsucho, Neyagawa, Osaka 572-8530, Japan
+  capacity: null
+  name_en: Osaka Electro-Communication University
+  name_ja: 大阪電気通信大学
+category: university
+date: '2026-04-19'
+description: 게임 교육의 선구자이자 실무 중심의 기술 교육을 제공하는 오사카 전기통신대학교(OECU)는 높은 취업률과 최첨단 연구 시설을
+  자랑하는 간사이 지역의 명문 IT·공학 특화 대학교입니다.
+faculties:
+- 공학부
+- 정보통신공학부
+- 의료건강과학부
+- 종합정보학부 (디지털게임학과 포함)
+- 건강과학부
+- 자산관리전공
+features:
+- 게임 산업 교육의 선구자
+- 실습 중심의 실무 기술 교육
+- 제조업 및 IT 분야의 높은 졸업생 취업률
+- 최첨단 전자 및 디지털 미디어 연구 시설
+id: univ_osaka-electro-communication-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-60% (Estimated)
+  international_students: 342
+tags:
+- 게임 산업 교육의 선구자
+- 실습 중심의 기술 교육
+- 제조업 분야의 높은 취업률
+- 최첨단 전자 공학 연구 시설
+thumbnail: /static/img/pin-univ.png
+title: 오사카 전기통신대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1280000
 ---
 
 ## 🏫 대학 개요

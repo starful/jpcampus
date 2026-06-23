@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-university-of-art-and-design-kyobi",
-  "title": "교토미술공예대학 (KYOBI)",
-  "description": "교토의 전통 장인 정신과 현대적 디자인 및 건축 기술을 결합하여, 일본의 '모노즈쿠리' 정신을 이어가는 예술 및 디자인 전문 대학입니다.",
-  "category": "university",
-  "tags": [
-    "일본 전통 공예와 현대 건축의 융합",
-    "1급 건축사 자격 취득 특화 프로그램",
-    "교토의 유서 깊은 히가시야마 지구 내 위치",
-    "도제식 교육 기반의 실무 밀착형 멘토링"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都美術工芸大学",
-    "name_en": "Kyoto University of Art and Design",
-    "address": "737-1 Kawabata-cho, Higashiyama-ku, Kyoto, 605-0991, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "40-50%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "건축학부",
-    "건축디자인학과",
-    "건축 코스",
-    "인테리어 디자인 코스",
-    "비주얼 디자인 코스",
-    "전통 공예 코스"
-  ],
-  "features": [
-    "일본 전통 공예와 현대 건축의 융합",
-    "1급 건축사 자격 취득 특화 프로그램",
-    "교토 히가시야마의 문화적 중심지에 위치한 캠퍼스",
-    "장인 정신을 전수하는 소수 정예 도제식 멘토링"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 737-1 Kawabata-cho, Higashiyama-ku, Kyoto, 605-0991, Japan
+  capacity: 1200
+  name_en: Kyoto University of Art and Design
+  name_ja: 京都美術工芸大学
+category: university
+date: '2026-04-04'
+description: 교토의 전통 장인 정신과 현대적 디자인 및 건축 기술을 결합하여, 일본의 '모노즈쿠리' 정신을 이어가는 예술 및 디자인 전문
+  대학입니다.
+faculties:
+- 건축학부
+- 건축디자인학과
+- 건축 코스
+- 인테리어 디자인 코스
+- 비주얼 디자인 코스
+- 전통 공예 코스
+features:
+- 일본 전통 공예와 현대 건축의 융합
+- 1급 건축사 자격 취득 특화 프로그램
+- 교토 히가시야마의 문화적 중심지에 위치한 캠퍼스
+- 장인 정신을 전수하는 소수 정예 도제식 멘토링
+id: univ_kyoto-university-of-art-and-design-kyobi
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-50%
+  international_students: 115
+tags:
+- 일본 전통 공예와 현대 건축의 융합
+- 1급 건축사 자격 취득 특화 프로그램
+- 교토의 유서 깊은 히가시야마 지구 내 위치
+- 도제식 교육 기반의 실무 밀착형 멘토링
+thumbnail: /static/img/pin-univ.png
+title: 교토미술공예대학 (KYOBI)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 대학 개요

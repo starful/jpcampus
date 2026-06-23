@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gakushuin-womens-college-international-student-guide",
-  "title": "Gakushuin Women's College",
-  "category": "university",
-  "tags": [
-    "Prestige and Connection to the Imperial Family",
-    "Upcoming Merger with Gakushuin University (2026)",
-    "f-Campus Credit Exchange with Waseda and Rikkyo",
-    "Comprehensive Japanese Traditional Arts Curriculum",
-    "Strategic Shinjuku Location"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "学習院女子大学",
-    "name_en": "Gakushuin Women's College",
-    "address": "3-20-1 Toyama, Shinjuku-ku, Tokyo 162-8650, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 75,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 860000
-  },
-  "faculties": [
-    "Faculty of International Studies",
-    "Department of Japanese Studies",
-    "Department of Intercultural Studies",
-    "Department of English Communication"
-  ],
-  "features": [
-    "Prestige and Connection to the Imperial Family",
-    "Upcoming Merger with Gakushuin University (2026)",
-    "f-Campus Credit Exchange with Waseda and Rikkyo",
-    "Comprehensive Japanese Traditional Arts Curriculum",
-    "Strategic Shinjuku Location"
-  ]
-}
+basic_info:
+  address: 3-20-1 Toyama, Shinjuku-ku, Tokyo 162-8650, Japan
+  capacity: null
+  name_en: Gakushuin Women's College
+  name_ja: 学習院女子大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of International Studies
+- Department of Japanese Studies
+- Department of Intercultural Studies
+- Department of English Communication
+features:
+- Prestige and Connection to the Imperial Family
+- Upcoming Merger with Gakushuin University (2026)
+- f-Campus Credit Exchange with Waseda and Rikkyo
+- Comprehensive Japanese Traditional Arts Curriculum
+- Strategic Shinjuku Location
+id: univ_gakushuin-womens-college-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 75
+tags:
+- Prestige and Connection to the Imperial Family
+- Upcoming Merger with Gakushuin University (2026)
+- f-Campus Credit Exchange with Waseda and Rikkyo
+- Comprehensive Japanese Traditional Arts Curriculum
+- Strategic Shinjuku Location
+thumbnail: /static/img/pin-univ.png
+title: Gakushuin Women's College
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 860000
 ---
 
 ## 🏫 University Overview

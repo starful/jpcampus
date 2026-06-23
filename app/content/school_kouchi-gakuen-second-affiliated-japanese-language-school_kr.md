@@ -1,62 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都杉並区下高井戸2-10-3 プラザ・ローヤル5ビル 2階",
-    "capacity": 480,
-    "name_en": "Kouchi Gakuen Second Affiliated Japanese Language School",
-    "name_ja": "行知学園第二附属日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 890000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1305000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1700000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "집중적인 대학 입시 준비",
-    "특화된 EJU 및 이과 과정 커리큘럼",
-    "캠퍼스 내 또는 제휴 기숙사 이용 가능",
-    "도쿄 스기나미구에 위치",
-    "높은 학업 수준과 엄격한 학습 환경"
-  ],
-  "id": "school_kouchi-gakuen-second-affiliated-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6689244,
-    "lng": 139.6349281
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=527",
-  "stats": {
-    "capacity": 480,
-    "international_students": 450
-  },
-  "tags": [
-    "Intensive University Entrance Preparation",
-    "Specialized EJU and Science Track Curriculum",
-    "On-campus or Partner Dormitory Available",
-    "Located in Tokyo (Suginami Ward)",
-    "High Academic Standards and Rigorous Study Environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "코우치 학원 제2부속 일본어학교",
-  "description": "도쿄 스기나미구에 위치한 코우치 학원 제2부속 일본어학교는 대학 입시를 위한 집중적인 교육을 제공합니다. EJU 시험 및 이과 과정에 특화된 커리큘럼과 기숙사를 제공합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都杉並区下高井戸2-10-3 プラザ・ローヤル5ビル 2階
+  capacity: 480
+  name_en: Kouchi Gakuen Second Affiliated Japanese Language School
+  name_ja: 行知学園第二附属日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 890000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1305000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1700000
+date: '2026-01-28'
+description: 도쿄 스기나미구에 위치한 코우치 학원 제2부속 일본어학교는 대학 입시를 위한 집중적인 교육을 제공합니다. EJU 시험 및 이과
+  과정에 특화된 커리큘럼과 기숙사를 제공합니다.
+faculties: []
+features:
+- 집중적인 대학 입시 준비
+- 특화된 EJU 및 이과 과정 커리큘럼
+- 캠퍼스 내 또는 제휴 기숙사 이용 가능
+- 도쿄 스기나미구에 위치
+- 높은 학업 수준과 엄격한 학습 환경
+id: school_kouchi-gakuen-second-affiliated-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.6689244
+  lng: 139.6349281
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=527
+stats:
+  capacity: 480
+  international_students: 450
+tags:
+- Intensive University Entrance Preparation
+- Specialized EJU and Science Track Curriculum
+- On-campus or Partner Dormitory Available
+- Located in Tokyo (Suginami Ward)
+- High Academic Standards and Rigorous Study Environment
+thumbnail: /static/img/pin-school.png
+title: 코우치 학원 제2부속 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

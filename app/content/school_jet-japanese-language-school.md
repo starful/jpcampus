@@ -42,6 +42,7 @@ basic_info:
   thumbnail: /static/img/pin-school.png
   title: JET Japanese Language School
   tuition: {}
+date: '2026-01-28'
 description: Learn Japanese at JET Japanese Language School in Tokyo. Offers courses
   for all levels, from beginner to advanced, with preparation for the EJU and pathways
   to art and design studies. On-site dormitory available.

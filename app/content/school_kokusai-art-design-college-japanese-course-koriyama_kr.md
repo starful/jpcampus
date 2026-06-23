@@ -1,57 +1,60 @@
 ---
-{
-  "basic_info": {
-    "address": "福島県郡山市方八町2-4-1",
-    "capacity": 200,
-    "name_en": "International College of Art and Design, Japanese Language Department",
-    "name_ja": "国際アート＆デザイン大学校日本語科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2-Year University Prep Course",
-      "total_fees": 1435000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1.5-Year University Prep Course",
-      "total_fees": 1115000
-    }
-  ],
-  "description": "국제아트＆디자인대학 일본어학과는 도시 지역의 일반적인 일본어 학교와는 차별화된 독특한 위치에 있습니다. 후쿠시마현 코리야마시에 위치하며, 애니메이션, 만화, 게임 디자인, 시각 예술 및 디자인과 같은 창의적인 분야를 전문으로 하는 명문 전문학교와 제휴하고 있습니다. 이러한 긴밀한 연계는 일반적인 언어 교육에서 예술 분야의 고등 교육을 추구하는 유학생을 위한 전문적이고 실질적인 경로로 초점을 전환하는 핵심적인 특징입니다. 학생들은 단순히 언어를 배우는 것이 아니라 창의적인 학문 환경에 몰입하여 대학 또는 다른 대학의 특정 분야 입학을 준비합니다. 코리야마는 도쿄나 오사카에 비해 집중적이고 지원적이며 저렴한 대안을 제공하여 학생들이 일본어 실력 향상과 학업 시험 준비에 집중할 수 있도록 합니다. 도호쿠의 주요 경제 및 문화 중심지인 코리야마는 도시의 편의 시설과 조용한 학습 환경의 균형을 이룹니다. 학교는 지역 사회와의 유대감과 안전, 안정성 및 학업 집중을 위한 의무 기숙사 생활을 포함한 체계적인 지원 시스템을 구축하기 위해 지리적 이점을 활용합니다. 약 200명의 학생으로 구성되어 있으며, 개별적인 관심이 우선 순위입니다. 목표는 창의적이고 기술적인 산업에 맞춰진 전문적인 언어 능력을 갖춘 일본의 학문적, 직업적 환경을 자신 있게 탐색할 수 있는 균형 잡힌 학생을 육성하는 것입니다. 언어 능력은 직업적 열망에 적용되어 의사 소통 일본어와 학문적 글쓰기, 기술 용어 (미술, 디자인, STEM 또는 비즈니스 트랙), 전문적인 상호 작용을 연결합니다. 활발한 전문 캠퍼스 내에 위치하여 학생들이 일본 학문 환경에 조기에 노출되어 일본 학생 및 교수진과의 네트워킹을 촉진합니다. 초점은 N1 또는 N2 숙달과 EJU 성공 및 직업 과정 완료를 위한 어휘 숙달에 있으며, 대화와 비즈니스 커뮤니케이션을 강조합니다. 이 맥락은 명확한 목표, 특히 창의 예술, 기술 또는 기술 과목 (미술 / 디자인 / 아트 및 이과 / STEM)의 전문 대학이나 대학을 목표로하는 학생들에게 어필합니다. 이 기관은 국제적인 인재를 육성하고 일본의 고등 교육 시스템에서 성공하기 위한 도구와 문화적 적응을 제공합니다. 전체적인 지원 시스템은 숙박 시설, 상담 및 진로 지도를 포함하며 학생의 성공에 대한 헌신을 반영합니다.",
-  "faculties": [],
-  "features": [
-    "미술, 디자인 및 창의적인 직업 분야로의 통합 경로",
-    "필수적인 고지원 기숙사 생활 시스템",
-    "EJU (STEM, 인문학) 및 대학 입학을 위한 종합적인 준비",
-    "고급 학문 일본어 및 실용적인 비즈니스 커뮤니케이션에 중점을 둔 커리큘럼",
-    "저렴한 생활비와 집중적인 학습 환경을 제공하는 코리야마 (후쿠시마)의 전략적 위치"
-  ],
-  "id": "school_kokusai-art-design-college-japanese-course-koriyama",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 37.394035,
-    "lng": 140.3903332
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=530",
-  "stats": {
-    "capacity": 200,
-    "international_students": 150
-  },
-  "tags": [
-    "Integrated Pathway into Art, Design, and Creative Vocational Careers",
-    "Mandatory, High-Support Dormitory Living System",
-    "Comprehensive Preparation for EJU (STEM, Humanities) and University Entry",
-    "Curriculum Focused on Both Advanced Academic Japanese and Practical Business Communication",
-    "Strategic Location in Koriyama (Fukushima) offering Low Cost of Living and Focused Study Environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "국제아트＆디자인대학 일본어학과",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 福島県郡山市方八町2-4-1
+  capacity: 200
+  name_en: International College of Art and Design, Japanese Language Department
+  name_ja: 国際アート＆デザイン大学校日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2-Year University Prep Course
+  total_fees: 1435000
+- admission_month: '10'
+  course_name: 1.5-Year University Prep Course
+  total_fees: 1115000
+date: '2026-01-28'
+description: 국제아트＆디자인대학 일본어학과는 도시 지역의 일반적인 일본어 학교와는 차별화된 독특한 위치에 있습니다. 후쿠시마현 코리야마시에
+  위치하며, 애니메이션, 만화, 게임 디자인, 시각 예술 및 디자인과 같은 창의적인 분야를 전문으로 하는 명문 전문학교와 제휴하고 있습니다. 이러한
+  긴밀한 연계는 일반적인 언어 교육에서 예술 분야의 고등 교육을 추구하는 유학생을 위한 전문적이고 실질적인 경로로 초점을 전환하는 핵심적인 특징입니다.
+  학생들은 단순히 언어를 배우는 것이 아니라 창의적인 학문 환경에 몰입하여 대학 또는 다른 대학의 특정 분야 입학을 준비합니다. 코리야마는 도쿄나
+  오사카에 비해 집중적이고 지원적이며 저렴한 대안을 제공하여 학생들이 일본어 실력 향상과 학업 시험 준비에 집중할 수 있도록 합니다. 도호쿠의 주요
+  경제 및 문화 중심지인 코리야마는 도시의 편의 시설과 조용한 학습 환경의 균형을 이룹니다. 학교는 지역 사회와의 유대감과 안전, 안정성 및 학업
+  집중을 위한 의무 기숙사 생활을 포함한 체계적인 지원 시스템을 구축하기 위해 지리적 이점을 활용합니다. 약 200명의 학생으로 구성되어 있으며,
+  개별적인 관심이 우선 순위입니다. 목표는 창의적이고 기술적인 산업에 맞춰진 전문적인 언어 능력을 갖춘 일본의 학문적, 직업적 환경을 자신 있게
+  탐색할 수 있는 균형 잡힌 학생을 육성하는 것입니다. 언어 능력은 직업적 열망에 적용되어 의사 소통 일본어와 학문적 글쓰기, 기술 용어 (미술,
+  디자인, STEM 또는 비즈니스 트랙), 전문적인 상호 작용을 연결합니다. 활발한 전문 캠퍼스 내에 위치하여 학생들이 일본 학문 환경에 조기에
+  노출되어 일본 학생 및 교수진과의 네트워킹을 촉진합니다. 초점은 N1 또는 N2 숙달과 EJU 성공 및 직업 과정 완료를 위한 어휘 숙달에 있으며,
+  대화와 비즈니스 커뮤니케이션을 강조합니다. 이 맥락은 명확한 목표, 특히 창의 예술, 기술 또는 기술 과목 (미술 / 디자인 / 아트 및 이과
+  / STEM)의 전문 대학이나 대학을 목표로하는 학생들에게 어필합니다. 이 기관은 국제적인 인재를 육성하고 일본의 고등 교육 시스템에서 성공하기
+  위한 도구와 문화적 적응을 제공합니다. 전체적인 지원 시스템은 숙박 시설, 상담 및 진로 지도를 포함하며 학생의 성공에 대한 헌신을 반영합니다.
+faculties: []
+features:
+- 미술, 디자인 및 창의적인 직업 분야로의 통합 경로
+- 필수적인 고지원 기숙사 생활 시스템
+- EJU (STEM, 인문학) 및 대학 입학을 위한 종합적인 준비
+- 고급 학문 일본어 및 실용적인 비즈니스 커뮤니케이션에 중점을 둔 커리큘럼
+- 저렴한 생활비와 집중적인 학습 환경을 제공하는 코리야마 (후쿠시마)의 전략적 위치
+id: school_kokusai-art-design-college-japanese-course-koriyama
+lang: kr
+layout: school
+location:
+  lat: 37.394035
+  lng: 140.3903332
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=530
+stats:
+  capacity: 200
+  international_students: 150
+tags:
+- Integrated Pathway into Art, Design, and Creative Vocational Careers
+- Mandatory, High-Support Dormitory Living System
+- Comprehensive Preparation for EJU (STEM, Humanities) and University Entry
+- Curriculum Focused on Both Advanced Academic Japanese and Practical Business Communication
+- Strategic Location in Koriyama (Fukushima) offering Low Cost of Living and Focused
+  Study Environment
+thumbnail: /static/img/pin-school.png
+title: 국제아트＆디자인대학 일본어학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

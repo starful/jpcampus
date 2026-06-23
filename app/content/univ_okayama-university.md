@@ -5,6 +5,7 @@ basic_info:
   name_ja: 岡山大学
   website: https://www.okayama-u.ac.jp/index_e.html
 category: university
+date: '2026-01-28'
 description: Okayama University is a prominent national university in Japan, known
   for its comprehensive faculties, research focus, and commitment to global education.
   It offers several English-taught programs and extensive support for international

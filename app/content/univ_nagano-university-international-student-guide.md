@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagano-university-international-student-guide",
-  "title": "Nagano University",
-  "category": "university",
-  "tags": [
-    "Public University Status (since 2017)",
-    "Regional Contribution Focus",
-    "High Social Worker Certification Pass Rates",
-    "Beautiful Shinshu Natural Setting"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "長野大学",
-    "name_en": "Nagano University",
-    "address": "658-1 Shimonogo, Ueda-shi, Nagano 386-1298, Japan",
-    "capacity": "Approx. 1,600 total students"
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "35-45% (Estimated for International Track)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Social Welfare",
-    "Faculty of Environment and Tourism",
-    "Faculty of Enterprise Information"
-  ],
-  "features": [
-    "Public University Status (since 2017)",
-    "Regional Contribution Focus",
-    "High Social Worker Certification Pass Rates",
-    "Beautiful Shinshu Natural Setting"
-  ]
-}
+basic_info:
+  address: 658-1 Shimonogo, Ueda-shi, Nagano 386-1298, Japan
+  capacity: Approx. 1,600 total students
+  name_en: Nagano University
+  name_ja: 長野大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Social Welfare
+- Faculty of Environment and Tourism
+- Faculty of Enterprise Information
+features:
+- Public University Status (since 2017)
+- Regional Contribution Focus
+- High Social Worker Certification Pass Rates
+- Beautiful Shinshu Natural Setting
+id: univ_nagano-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated for International Track)
+  international_students: 42
+tags:
+- Public University Status (since 2017)
+- Regional Contribution Focus
+- High Social Worker Certification Pass Rates
+- Beautiful Shinshu Natural Setting
+thumbnail: /static/img/pin-univ.png
+title: Nagano University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

@@ -24,6 +24,7 @@ courses:
 - admission_month: '10'
   course_name: 進学Dコース
   total_fees: 1050000
+date: '2026-01-28'
 faculties: []
 features:
 - Located in Utsunomiya, Tochigi Prefecture, offering a balanced, regional lifestyle.

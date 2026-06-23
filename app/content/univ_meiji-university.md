@@ -5,6 +5,7 @@ basic_info:
   name_ja: 明治大学
   website: https://www.meiji.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - School of Law
 - School of Commerce

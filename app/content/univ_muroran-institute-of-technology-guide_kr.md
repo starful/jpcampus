@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_muroran-institute-of-technology-guide",
-  "title": "무로란 공업대학교",
-  "category": "university",
-  "tags": [
-    "Leading National Engineering University",
-    "Strong Aerospace and Materials Research",
-    "High Employment Rate in Major Corporations",
-    "Affordable Living Costs in Hokkaido",
-    "Specialized Glocal Education System"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "室蘭工業大学",
-    "name_en": "Muroran Institute of Technology",
-    "address": "27-1 Mizumoto-cho, Muroran, Hokkaido 050-8585, Japan",
-    "capacity": "Approximately 3,300 students"
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Department of Creation Engineering",
-    "Department of System Design Engineering",
-    "Graduate School of Engineering"
-  ],
-  "features": [
-    "선도적인 국립 공과 대학",
-    "강력한 항공우주 및 재료 연구",
-    "주요 기업의 높은 취업률",
-    "홋카이도의 저렴한 생활비",
-    "특화된 글로컬 교육 시스템"
-  ],
-  "description": "무로란 공업대학교는 홋카이도 무로란에 위치한 명문 국립 공과 대학입니다. 항공우주, 재료 연구, 높은 취업률이 특징이며, 저렴한 생활비와 특화된 글로컬 교육 시스템을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 27-1 Mizumoto-cho, Muroran, Hokkaido 050-8585, Japan
+  capacity: Approximately 3,300 students
+  name_en: Muroran Institute of Technology
+  name_ja: 室蘭工業大学
+category: university
+date: '2026-02-13'
+description: 무로란 공업대학교는 홋카이도 무로란에 위치한 명문 국립 공과 대학입니다. 항공우주, 재료 연구, 높은 취업률이 특징이며, 저렴한
+  생활비와 특화된 글로컬 교육 시스템을 제공합니다.
+faculties:
+- Faculty of Engineering
+- Department of Creation Engineering
+- Department of System Design Engineering
+- Graduate School of Engineering
+features:
+- 선도적인 국립 공과 대학
+- 강력한 항공우주 및 재료 연구
+- 주요 기업의 높은 취업률
+- 홋카이도의 저렴한 생활비
+- 특화된 글로컬 교육 시스템
+id: univ_muroran-institute-of-technology-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 185
+tags:
+- Leading National Engineering University
+- Strong Aerospace and Materials Research
+- High Employment Rate in Major Corporations
+- Affordable Living Costs in Hokkaido
+- Specialized Glocal Education System
+thumbnail: /static/img/pin-univ.png
+title: 무로란 공업대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

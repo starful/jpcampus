@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gifu-shotoku-gakuen-university-comprehensive-guide",
-  "title": "기후 쇼토쿠 가쿠엔 대학교",
-  "description": "일본 내 최고 수준의 교사 임용률과 '화(和)의 정신'을 바탕으로 한 인성 교육을 실천하는 기후 쇼토쿠 가쿠엔 대학교의 종합 가이드입니다. 교육, 간호, 외국어, 경제정보 분야의 전문적인 커리큘럼을 확인해 보세요.",
-  "category": "university",
-  "tags": [
-    "일본 내 최고 수준의 교사 임용률",
-    "화(和)의 정신에 기반한 불교 교육 철학",
-    "간호 및 교육 실습을 위한 최첨단 시뮬레이션 센터",
-    "나고야 접근성이 좋은 평화로운 학습 환경"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岐阜聖徳学園大学",
-    "name_en": "Gifu Shotoku Gakuen University",
-    "address": "1-38 Nakauzura, Gifu City, Gifu Prefecture, 500-8288, Japan",
-    "capacity": 3800
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Foreign Studies",
-    "Faculty of Economics and Information",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "일본 내 최고 수준의 교사 임용률",
-    "화(和)의 정신에 기반한 불교 교육 철학",
-    "간호 및 교육 학부를 위한 최첨단 실습 및 시뮬레이션 센터",
-    "나고야와 인접하면서도 평화로운 학습 환경을 제공하는 전략적 위치"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-38 Nakauzura, Gifu City, Gifu Prefecture, 500-8288, Japan
+  capacity: 3800
+  name_en: Gifu Shotoku Gakuen University
+  name_ja: 岐阜聖徳学園大学
+category: university
+date: '2026-04-04'
+description: 일본 내 최고 수준의 교사 임용률과 '화(和)의 정신'을 바탕으로 한 인성 교육을 실천하는 기후 쇼토쿠 가쿠엔 대학교의 종합
+  가이드입니다. 교육, 간호, 외국어, 경제정보 분야의 전문적인 커리큘럼을 확인해 보세요.
+faculties:
+- Faculty of Education
+- Faculty of Foreign Studies
+- Faculty of Economics and Information
+- Faculty of Nursing
+features:
+- 일본 내 최고 수준의 교사 임용률
+- 화(和)의 정신에 기반한 불교 교육 철학
+- 간호 및 교육 학부를 위한 최첨단 실습 및 시뮬레이션 센터
+- 나고야와 인접하면서도 평화로운 학습 환경을 제공하는 전략적 위치
+id: univ_gifu-shotoku-gakuen-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 65
+tags:
+- 일본 내 최고 수준의 교사 임용률
+- 화(和)의 정신에 기반한 불교 교육 철학
+- 간호 및 교육 실습을 위한 최첨단 시뮬레이션 센터
+- 나고야 접근성이 좋은 평화로운 학습 환경
+thumbnail: /static/img/pin-univ.png
+title: 기후 쇼토쿠 가쿠엔 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

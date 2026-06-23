@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-denki-university-tdu-international-student-guide",
-  "title": "도쿄전기대학 (Tokyo Denki University)",
-  "category": "university",
-  "tags": [
-    "Practical Skill-Based Education",
-    "Extremely High Graduate Employment Rate",
-    "Strong Ties with Industrial Sectors",
-    "State-of-the-Art Research Laboratories"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京電機大学",
-    "name_en": "Tokyo Denki University",
-    "address": "5 Senju Asahi-cho, Adachi-ku, Tokyo 120-8551, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 380,
-    "acceptance_rate": "40-50%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1280000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Systems Design and Engineering",
-    "Faculty of Future Science",
-    "Faculty of Science and Engineering",
-    "Faculty of Science and Engineering for Future Societies"
-  ],
-  "features": [
-    "실무 중심 교육",
-    "매우 높은 졸업생 취업률",
-    "산업 분야와의 강력한 연계",
-    "최첨단 연구 시설"
-  ],
-  "description": "도쿄전기대학 (Tokyo Denki University)은 실무 중심 교육과 높은 취업률을 자랑하는 일본의 명문 사립 이공계 대학입니다. 국제 학생을 위한 상세 정보를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 5 Senju Asahi-cho, Adachi-ku, Tokyo 120-8551, Japan
+  capacity: null
+  name_en: Tokyo Denki University
+  name_ja: 東京電機大学
+category: university
+date: '2026-02-13'
+description: 도쿄전기대학 (Tokyo Denki University)은 실무 중심 교육과 높은 취업률을 자랑하는 일본의 명문 사립 이공계
+  대학입니다. 국제 학생을 위한 상세 정보를 제공합니다.
+faculties:
+- Faculty of Engineering
+- Faculty of Systems Design and Engineering
+- Faculty of Future Science
+- Faculty of Science and Engineering
+- Faculty of Science and Engineering for Future Societies
+features:
+- 실무 중심 교육
+- 매우 높은 졸업생 취업률
+- 산업 분야와의 강력한 연계
+- 최첨단 연구 시설
+id: univ_tokyo-denki-university-tdu-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-50%
+  international_students: 380
+tags:
+- Practical Skill-Based Education
+- Extremely High Graduate Employment Rate
+- Strong Ties with Industrial Sectors
+- State-of-the-Art Research Laboratories
+thumbnail: /static/img/pin-univ.png
+title: 도쿄전기대학 (Tokyo Denki University)
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1280000
 ---
 
 ## 🏫 대학 개요: 덴키 정신

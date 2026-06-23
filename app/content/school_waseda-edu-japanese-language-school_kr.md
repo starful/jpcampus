@@ -1,66 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区市谷砂土原町2-7 TK第一ビル2F",
-    "capacity": 960,
-    "name_en": "Waseda EDU Japanese Language School",
-    "name_ja": "早稲田EDU日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Preparatory Course 1",
-      "total_fees": 1450000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "University Preparatory Course 2",
-      "total_fees": 1277500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Preparatory Course 3",
-      "total_fees": 1105000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "University Preparatory Course 4",
-      "total_fees": 932500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 준비 (신가쿠)",
-    "EJU 특화 훈련",
-    "이공계 특화 (이과/의학)",
-    "대규모 학교 (최대 960명)",
-    "도쿄 신주쿠 위치",
-    "집중적인 학업 커리큘럼"
-  ],
-  "id": "school_waseda-edu-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6956105,
-    "lng": 139.7358832
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=139",
-  "stats": {},
-  "tags": [
-    "University Entrance Preparation (Shinagaku)",
-    "EJU Specialized Training",
-    "Strong Focus on Science and Engineering (Rika/Igaku)",
-    "High Capacity Institution (Maximum 960 students)",
-    "Located in Shinjuku, Tokyo",
-    "Intensive Academic Curriculum"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Waseda EDU 일본어학교",
-  "description": "명문대 진학을 목표로 하는 학생들을 위한 와세다 EDU 일본어학교에 대해 알아보세요. EJU 특화 교육, 이공계 집중 코스 등 다양한 정보를 제공합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区市谷砂土原町2-7 TK第一ビル2F
+  capacity: 960
+  name_en: Waseda EDU Japanese Language School
+  name_ja: 早稲田EDU日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Preparatory Course 1
+  total_fees: 1450000
+- admission_month: '7'
+  course_name: University Preparatory Course 2
+  total_fees: 1277500
+- admission_month: '10'
+  course_name: University Preparatory Course 3
+  total_fees: 1105000
+- admission_month: '1'
+  course_name: University Preparatory Course 4
+  total_fees: 932500
+date: '2026-01-28'
+description: 명문대 진학을 목표로 하는 학생들을 위한 와세다 EDU 일본어학교에 대해 알아보세요. EJU 특화 교육, 이공계 집중 코스
+  등 다양한 정보를 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비 (신가쿠)
+- EJU 특화 훈련
+- 이공계 특화 (이과/의학)
+- 대규모 학교 (최대 960명)
+- 도쿄 신주쿠 위치
+- 집중적인 학업 커리큘럼
+id: school_waseda-edu-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.6956105
+  lng: 139.7358832
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=139
+stats: {}
+tags:
+- University Entrance Preparation (Shinagaku)
+- EJU Specialized Training
+- Strong Focus on Science and Engineering (Rika/Igaku)
+- High Capacity Institution (Maximum 960 students)
+- Located in Shinjuku, Tokyo
+- Intensive Academic Curriculum
+thumbnail: /static/img/pin-school.png
+title: Waseda EDU 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,77 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県神戸市兵庫区浜崎通3-7",
-    "capacity": 510,
-    "name_en": "KIJ Language Academy",
-    "name_ja": "ＫＩＪ語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Preparation 2-Year Course",
-      "total_fees": 1434960
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Preparation 1.5-Year Course",
-      "total_fees": 1097470
-    },
-    {
-      "admission_month": "7",
-      "course_name": "University Preparation 1.75-Year Course",
-      "total_fees": 1265980
-    },
-    {
-      "admission_month": "1",
-      "course_name": "University Preparation 1.25-Year Course",
-      "total_fees": 920990
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "장학금 제도",
-    "대학 진학 준비",
-    "기숙사",
-    "EJU 준비",
-    "이과 과정",
-    "회화 중심",
-    "비즈니스 일본어",
-    "미술 과정",
-    "디자인 과정",
-    "단기 코스"
-  ],
-  "id": "school_kij-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.667686,
-    "lng": 135.1661889
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=361",
-  "stats": {
-    "capacity": 456,
-    "international_students": 123
-  },
-  "tags": [
-    "Scholarships",
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Science Course",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art Course",
-    "Design Course",
-    "Short-Term Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "KIJ 랭귀지 아카데미",
-  "translated": true,
-  "tuition": {},
-  "description": "효고현 고베에 위치한 KIJ 랭귀지 아카데미는 학생들의 다양한 목표 달성을 위한 맞춤형 교육을 제공합니다. 어학 능력 습득은 물론, 일본 사회와 문화에 대한 깊은 이해를 돕고 일본에서의 성공적인 유학 생활을 지원합니다."
-}
+basic_info:
+  address: 兵庫県神戸市兵庫区浜崎通3-7
+  capacity: 510
+  name_en: KIJ Language Academy
+  name_ja: ＫＩＪ語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Preparation 2-Year Course
+  total_fees: 1434960
+- admission_month: '10'
+  course_name: University Preparation 1.5-Year Course
+  total_fees: 1097470
+- admission_month: '7'
+  course_name: University Preparation 1.75-Year Course
+  total_fees: 1265980
+- admission_month: '1'
+  course_name: University Preparation 1.25-Year Course
+  total_fees: 920990
+date: '2026-02-13'
+description: 효고현 고베에 위치한 KIJ 랭귀지 아카데미는 학생들의 다양한 목표 달성을 위한 맞춤형 교육을 제공합니다. 어학 능력 습득은
+  물론, 일본 사회와 문화에 대한 깊은 이해를 돕고 일본에서의 성공적인 유학 생활을 지원합니다.
+faculties: []
+features:
+- 장학금 제도
+- 대학 진학 준비
+- 기숙사
+- EJU 준비
+- 이과 과정
+- 회화 중심
+- 비즈니스 일본어
+- 미술 과정
+- 디자인 과정
+- 단기 코스
+id: school_kij-language-academy
+lang: kr
+layout: school
+location:
+  lat: 34.667686
+  lng: 135.1661889
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=361
+stats:
+  capacity: 456
+  international_students: 123
+tags:
+- Scholarships
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Science Course
+- Conversation Focused
+- Business Japanese
+- Art Course
+- Design Course
+- Short-Term Course
+thumbnail: /static/img/pin-school.png
+title: KIJ 랭귀지 아카데미
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

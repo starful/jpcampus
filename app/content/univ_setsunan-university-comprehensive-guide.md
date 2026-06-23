@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_setsunan-university-comprehensive-guide",
-  "title": "Setsunan University",
-  "category": "university",
-  "tags": [
-    "Comprehensive private university with 8 diverse faculties",
-    "Practical, industry-aligned education through Josho Gakuen network",
-    "State-of-the-art Faculty of Agriculture in the Kansai region",
-    "Strong career support with high employment rates in Japan"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "摂南大学",
-    "name_en": "Setsunan University",
-    "address": "17-8 Ikeda Nakamachi, Neyagawa, Osaka 572-8508, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Foreign Studies",
-    "Faculty of Science and Engineering",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Nursing",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "Comprehensive private university with 8 diverse faculties",
-    "Practical, industry-aligned education through Josho Gakuen network",
-    "State-of-the-art Faculty of Agriculture in the Kansai region",
-    "Strong career support with high employment rates in Japan"
-  ]
-}
+basic_info:
+  address: 17-8 Ikeda Nakamachi, Neyagawa, Osaka 572-8508, Japan
+  capacity: null
+  name_en: Setsunan University
+  name_ja: 摂南大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Foreign Studies
+- Faculty of Science and Engineering
+- Faculty of Pharmaceutical Sciences
+- Faculty of Nursing
+- Faculty of Agriculture
+features:
+- Comprehensive private university with 8 diverse faculties
+- Practical, industry-aligned education through Josho Gakuen network
+- State-of-the-art Faculty of Agriculture in the Kansai region
+- Strong career support with high employment rates in Japan
+id: univ_setsunan-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 185
+tags:
+- Comprehensive private university with 8 diverse faculties
+- Practical, industry-aligned education through Josho Gakuen network
+- State-of-the-art Faculty of Agriculture in the Kansai region
+- Strong career support with high employment rates in Japan
+thumbnail: /static/img/pin-univ.png
+title: Setsunan University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Spirit of Setsunan

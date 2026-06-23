@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学コースC
   total_fees: 1035000
+date: '2026-01-28'
 faculties: []
 features:
 - Comprehensive Progression Tracks (EJU, Science, Art, Business)

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_iwate-university-comprehensive-guide-international-students",
-  "title": "Iwate University",
-  "category": "university",
-  "tags": [
-    "Historically prestigious Agriculture faculty",
-    "Pioneer in Regional Reconstruction and Disaster Science",
-    "Joint Veterinary Medicine program with Tokyo University of Agriculture and Technology",
-    "Low cost of living and high quality of life in Morioka"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岩手大学",
-    "name_en": "Iwate University",
-    "address": "3-18-8 Ueda, Morioka, Iwate 020-8550, Japan",
-    "capacity": 5500
-  },
-  "stats": {
-    "international_students": 230,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education",
-    "Faculty of Science and Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "Historically prestigious Agriculture faculty",
-    "Pioneer in Regional Reconstruction and Disaster Science",
-    "Joint Veterinary Medicine program with Tokyo University of Agriculture and Technology",
-    "Low cost of living and high quality of life in Morioka"
-  ]
-}
+basic_info:
+  address: 3-18-8 Ueda, Morioka, Iwate 020-8550, Japan
+  capacity: 5500
+  name_en: Iwate University
+  name_ja: 岩手大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education
+- Faculty of Science and Engineering
+- Faculty of Agriculture
+features:
+- Historically prestigious Agriculture faculty
+- Pioneer in Regional Reconstruction and Disaster Science
+- Joint Veterinary Medicine program with Tokyo University of Agriculture and Technology
+- Low cost of living and high quality of life in Morioka
+id: univ_iwate-university-comprehensive-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 230
+tags:
+- Historically prestigious Agriculture faculty
+- Pioneer in Regional Reconstruction and Disaster Science
+- Joint Veterinary Medicine program with Tokyo University of Agriculture and Technology
+- Low cost of living and high quality of life in Morioka
+thumbnail: /static/img/pin-univ.png
+title: Iwate University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

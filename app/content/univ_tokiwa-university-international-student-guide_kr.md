@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokiwa-university-international-student-guide",
-  "title": "도키와 대학교 (Tokiwa University)",
-  "description": "이바라키현 미토시에 위치한 도키와 대학교는 실천적인 교육과 지역 사회와의 연계를 중시하는 종합 사립대학입니다. 심리학, 인간과학, 간호학, 정책학 분야의 전문적인 커리큘럼과 외국인 유학생을 위한 충실한 지원 시스템을 갖추고 있습니다.",
-  "category": "university",
-  "tags": [
-    "Comprehensive Community-Based Learning",
-    "Strong Local Industry Connections in Ibaraki",
-    "Rich History dating back to 1909",
-    "High Professional Qualification Success Rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "常磐大学",
-    "name_en": "Tokiwa University",
-    "address": "1-430-1 Miwa, Mito, Ibaraki 310-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 62,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Human Science",
-    "Faculty of Applied Psychology",
-    "Faculty of Comprehensive Policy",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "지역 사회 기반의 포괄적인 학습 프로그램",
-    "이바라키현 내 지역 산업과의 강력한 협력 관계",
-    "1909년부터 이어져 온 깊은 역사와 전통",
-    "높은 전문 자격증 취득률 및 합격률"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-430-1 Miwa, Mito, Ibaraki 310-8585, Japan
+  capacity: null
+  name_en: Tokiwa University
+  name_ja: 常磐大学
+category: university
+date: '2026-03-24'
+description: 이바라키현 미토시에 위치한 도키와 대학교는 실천적인 교육과 지역 사회와의 연계를 중시하는 종합 사립대학입니다. 심리학, 인간과학,
+  간호학, 정책학 분야의 전문적인 커리큘럼과 외국인 유학생을 위한 충실한 지원 시스템을 갖추고 있습니다.
+faculties:
+- Faculty of Human Science
+- Faculty of Applied Psychology
+- Faculty of Comprehensive Policy
+- Faculty of Nursing
+features:
+- 지역 사회 기반의 포괄적인 학습 프로그램
+- 이바라키현 내 지역 산업과의 강력한 협력 관계
+- 1909년부터 이어져 온 깊은 역사와 전통
+- 높은 전문 자격증 취득률 및 합격률
+id: univ_tokiwa-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 62
+tags:
+- Comprehensive Community-Based Learning
+- Strong Local Industry Connections in Ibaraki
+- Rich History dating back to 1909
+- High Professional Qualification Success Rates
+thumbnail: /static/img/pin-univ.png
+title: 도키와 대학교 (Tokiwa University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요

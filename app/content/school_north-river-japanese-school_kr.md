@@ -1,77 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中村区畑江通2-8-3",
-    "capacity": 300,
-    "name_en": "North River Japanese Language School",
-    "name_ja": "ノースリバー日本語スクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2년진학코스",
-      "total_fees": 1214150
-    },
-    {
-      "admission_month": "7",
-      "course_name": "1년9개월진학코스",
-      "total_fees": 1077150
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1년6개월진학코스",
-      "total_fees": 938150
-    },
-    {
-      "admission_month": "1",
-      "course_name": "1년3개월진학코스",
-      "total_fees": 794150
-    }
-  ],
-  "description": "나고야에 위치한 North River 일본어학교는 대학 진학을 위한 종합적인 일본어 교육을 제공합니다. 기숙사 이용 가능, 장학금 기회, 비즈니스 일본어 및 미술 디자인 준비반과 같은 전문 과정이 특징입니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 준비",
-    "기숙사 이용 가능",
-    "장학금 이용 가능",
-    "1인실 이용 가능",
-    "이과 스트림 지원",
-    "회화 연습",
-    "비즈니스 일본어",
-    "미술 디자인 준비",
-    "단기 코스"
-  ],
-  "id": "school_north-river-japanese-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.1578036,
-    "lng": 136.8679573
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=291",
-  "stats": {
-    "capacity": 300,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparatory",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Scholarships Available",
-    "Single Rooms Available",
-    "Science Stream Support",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "North River 일본어학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県名古屋市中村区畑江通2-8-3
+  capacity: 300
+  name_en: North River Japanese Language School
+  name_ja: ノースリバー日本語スクール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2년진학코스
+  total_fees: 1214150
+- admission_month: '7'
+  course_name: 1년9개월진학코스
+  total_fees: 1077150
+- admission_month: '10'
+  course_name: 1년6개월진학코스
+  total_fees: 938150
+- admission_month: '1'
+  course_name: 1년3개월진학코스
+  total_fees: 794150
+date: '2026-01-28'
+description: 나고야에 위치한 North River 일본어학교는 대학 진학을 위한 종합적인 일본어 교육을 제공합니다. 기숙사 이용 가능,
+  장학금 기회, 비즈니스 일본어 및 미술 디자인 준비반과 같은 전문 과정이 특징입니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 준비
+- 기숙사 이용 가능
+- 장학금 이용 가능
+- 1인실 이용 가능
+- 이과 스트림 지원
+- 회화 연습
+- 비즈니스 일본어
+- 미술 디자인 준비
+- 단기 코스
+id: school_north-river-japanese-school
+lang: kr
+layout: school
+location:
+  lat: 35.1578036
+  lng: 136.8679573
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=291
+stats:
+  capacity: 300
+  international_students: 0
+tags:
+- University Preparatory
+- EJU Preparation
+- Dormitory Available
+- Scholarships Available
+- Single Rooms Available
+- Science Stream Support
+- Conversation Practice
+- Business Japanese
+- Art & Design Prep
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: North River 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

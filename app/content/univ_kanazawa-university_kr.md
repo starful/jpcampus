@@ -1,53 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "〒920-1192 Kanazawa, Kakuma-machi",
-    "name_en": "Kanazawa University",
-    "name_ja": "金沢大学",
-    "website": "https://www.kanazawa-u.ac.jp/"
-  },
-  "category": "university",
-  "description": "이시카와현의 대표적인 국립 대학인 가나자와 대학은 다양한 영어 강의 프로그램과 장학금을 제공하여 유학생들에게 매력적인 선택지입니다.",
-  "faculties": [
-    "인간사회학역",
-    "법학역",
-    "경제학역",
-    "이공학역",
-    "의학역",
-    "약학역",
-    "보건학역"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_kanazawa-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "30-40%",
-    "international_students": 693
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "가나자와 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 〒920-1192 Kanazawa, Kakuma-machi
+  name_en: Kanazawa University
+  name_ja: 金沢大学
+  website: https://www.kanazawa-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 이시카와현의 대표적인 국립 대학인 가나자와 대학은 다양한 영어 강의 프로그램과 장학금을 제공하여 유학생들에게 매력적인 선택지입니다.
+faculties:
+- 인간사회학역
+- 법학역
+- 경제학역
+- 이공학역
+- 의학역
+- 약학역
+- 보건학역
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_kanazawa-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-40%
+  international_students: 693
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 가나자와 대학
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학 개요 및 명성

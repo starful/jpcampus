@@ -1,59 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "〒112-8606 東京都文京区白山5-28-20",
-    "name_en": "Toyo University",
-    "name_ja": "東洋大学",
-    "website": "https://www.toyo.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Sociology",
-    "Faculty of Science and Engineering",
-    "Faculty of Life Sciences",
-    "Faculty of Human Life Design",
-    "Faculty of Information Networking for Innovation",
-    "Faculty of Global and Regional Studies",
-    "Faculty of Design for Well-being"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_toyo-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7233128,
-    "lng": 139.7500289
-  },
-  "stats": {
-    "acceptance_rate": "40%",
-    "international_students": 1700
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도요 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "도쿄에 위치한 도요 대학은 철학자 이노우에 엔료에 의해 1887년에 설립된 명문 사립 대학입니다. 다양한 학부 및 대학원 프로그램을 제공하며, 국제 교류 프로그램과 학생들의 독립적인 사고 및 문제 해결 능력 함양에 힘쓰고 있습니다."
-}
+basic_info:
+  address: 〒112-8606 東京都文京区白山5-28-20
+  name_en: Toyo University
+  name_ja: 東洋大学
+  website: https://www.toyo.ac.jp/
+category: university
+date: '2026-01-28'
+description: 도쿄에 위치한 도요 대학은 철학자 이노우에 엔료에 의해 1887년에 설립된 명문 사립 대학입니다. 다양한 학부 및 대학원 프로그램을
+  제공하며, 국제 교류 프로그램과 학생들의 독립적인 사고 및 문제 해결 능력 함양에 힘쓰고 있습니다.
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Sociology
+- Faculty of Science and Engineering
+- Faculty of Life Sciences
+- Faculty of Human Life Design
+- Faculty of Information Networking for Innovation
+- Faculty of Global and Regional Studies
+- Faculty of Design for Well-being
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_toyo-university
+lang: kr
+layout: school
+location:
+  lat: 35.7233128
+  lng: 139.7500289
+stats:
+  acceptance_rate: 40%
+  international_students: 1700
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 도요 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요

@@ -1,57 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "8050 Ikarashi 2-no-cho, Nishi-ku, Niigata City, Niigata Prefecture 950-2181",
-    "name_en": "Niigata University",
-    "name_ja": "新潟大学",
-    "website": "https://www.niigata-u.ac.jp/"
-  },
-  "category": "university",
-  "description": "니가타 대학교는 일본 니가타현에 위치한 종합 국립대학교로, 다양한 학부와 프로그램을 제공합니다. 연구 및 지역 환경과 경제에 대한 기여로 잘 알려져 있으며, 국제 학생들에게 다양하고 포용적인 환경을 제공합니다.",
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Medicine",
-    "Faculty of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Regional Sciences"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_niigata-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "학부별 상이",
-    "international_students": 610
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "니가타 대학교: 종합 국립대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 8050 Ikarashi 2-no-cho, Nishi-ku, Niigata City, Niigata Prefecture 950-2181
+  name_en: Niigata University
+  name_ja: 新潟大学
+  website: https://www.niigata-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 니가타 대학교는 일본 니가타현에 위치한 종합 국립대학교로, 다양한 학부와 프로그램을 제공합니다. 연구 및 지역 환경과 경제에
+  대한 기여로 잘 알려져 있으며, 국제 학생들에게 다양하고 포용적인 환경을 제공합니다.
+faculties:
+- Faculty of Humanities
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Medicine
+- Faculty of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Regional Sciences
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_niigata-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 학부별 상이
+  international_students: 610
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: '니가타 대학교: 종합 국립대학교'
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요 및 명성

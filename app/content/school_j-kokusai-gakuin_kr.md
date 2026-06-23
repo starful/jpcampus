@@ -1,76 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市西区立売堀1-1-3",
-    "capacity": 560,
-    "name_en": "J International Academy",
-    "name_ja": "J国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 800000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 980000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1160000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1340000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1520000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般1年コース",
-      "total_fees": 800000
-    }
-  ],
-  "description": "오사카에 위치한 J International Academy는 대학 진학 준비 과정 및 일반 과정 등 다양한 일본어 과정을 제공합니다. 기숙사 시설과 EJU 시험 준비에 중점을 두고 있습니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU",
-    "대학 진학 준비",
-    "회화 중심",
-    "단기 코스",
-    "과학 중심"
-  ],
-  "id": "school_j-kokusai-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6801975,
-    "lng": 135.4975075
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=325",
-  "stats": {},
-  "tags": [
-    "Dormitory",
-    "EJU",
-    "University Preparation",
-    "Conversation Focused",
-    "Short Term Courses",
-    "Science Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "J International Academy",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市西区立売堀1-1-3
+  capacity: 560
+  name_en: J International Academy
+  name_ja: J国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 800000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 980000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1160000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1340000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1520000
+- admission_month: 4,7,10,1
+  course_name: 一般1年コース
+  total_fees: 800000
+date: '2026-01-28'
+description: 오사카에 위치한 J International Academy는 대학 진학 준비 과정 및 일반 과정 등 다양한 일본어 과정을 제공합니다.
+  기숙사 시설과 EJU 시험 준비에 중점을 두고 있습니다.
+faculties: []
+features:
+- 기숙사
+- EJU
+- 대학 진학 준비
+- 회화 중심
+- 단기 코스
+- 과학 중심
+id: school_j-kokusai-gakuin
+lang: kr
+layout: school
+location:
+  lat: 34.6801975
+  lng: 135.4975075
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=325
+stats: {}
+tags:
+- Dormitory
+- EJU
+- University Preparation
+- Conversation Focused
+- Short Term Courses
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: J International Academy
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

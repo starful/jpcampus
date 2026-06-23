@@ -1,56 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "石川県金沢市円光寺本町8-50",
-    "capacity": 200,
-    "name_en": "Alice Gakuen Language Institute & Professional Training College",
-    "name_ja": "専門学校アリス学園"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "1年半コース",
-      "total_fees": 1000000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "2年コース",
-      "total_fees": 1290000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "역사적인 가나자와(이시카와현)에 위치",
-    "캠퍼스 내 기숙사 보장 (1인실 옵션 제공)",
-    "희귀한 과학/STEM 트랙을 포함한 전문적인 EJU 대비",
-    "미술, 디자인 및 비즈니스 분야의 진로 개발 경로 제공",
-    "전문학교(Senmon Gakko)로서 높은 수준의 직업 통합 제공",
-    "회화 능력 향상 및 실용적인 일본어 활용에 집중"
-  ],
-  "id": "school_alice-gakuen-professional-training-college-kanazawa",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.5319061,
-    "lng": 136.6416028
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=262",
-  "stats": {},
-  "tags": [
-    "Located in historic Kanazawa (Ishikawa Prefecture)",
-    "Guaranteed on-campus housing with single room options available",
-    "Specialized EJU preparation including rare Science/STEM tracks",
-    "Dedicated progression pathways for Art, Design, and Business careers",
-    "Professional Training College (Senmon Gakko) status offering high-level vocational integration",
-    "Focus on conversational fluency and practical Japanese application"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Alice Gakuen Language Institute & Professional Training College",
-  "translated": true,
-  "tuition": {},
-  "description": "앨리스 학원 어학원 및 전문학교는 일본어 교육 기관이자 전문학교로서, 가나자와에 위치하여 역사, 예술, 문화적 유산이 풍부한 지역에서 생활하며, 도쿄나 오사카보다 저렴한 생활비를 누릴 수 있는 기회를 제공합니다."
-}
+basic_info:
+  address: 石川県金沢市円光寺本町8-50
+  capacity: 200
+  name_en: Alice Gakuen Language Institute & Professional Training College
+  name_ja: 専門学校アリス学園
+category: school
+courses:
+- admission_month: '10'
+  course_name: 1年半コース
+  total_fees: 1000000
+- admission_month: '4'
+  course_name: 2年コース
+  total_fees: 1290000
+date: '2026-01-28'
+description: 앨리스 학원 어학원 및 전문학교는 일본어 교육 기관이자 전문학교로서, 가나자와에 위치하여 역사, 예술, 문화적 유산이 풍부한
+  지역에서 생활하며, 도쿄나 오사카보다 저렴한 생활비를 누릴 수 있는 기회를 제공합니다.
+faculties: []
+features:
+- 역사적인 가나자와(이시카와현)에 위치
+- 캠퍼스 내 기숙사 보장 (1인실 옵션 제공)
+- 희귀한 과학/STEM 트랙을 포함한 전문적인 EJU 대비
+- 미술, 디자인 및 비즈니스 분야의 진로 개발 경로 제공
+- 전문학교(Senmon Gakko)로서 높은 수준의 직업 통합 제공
+- 회화 능력 향상 및 실용적인 일본어 활용에 집중
+id: school_alice-gakuen-professional-training-college-kanazawa
+lang: kr
+layout: school
+location:
+  lat: 36.5319061
+  lng: 136.6416028
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=262
+stats: {}
+tags:
+- Located in historic Kanazawa (Ishikawa Prefecture)
+- Guaranteed on-campus housing with single room options available
+- Specialized EJU preparation including rare Science/STEM tracks
+- Dedicated progression pathways for Art, Design, and Business careers
+- Professional Training College (Senmon Gakko) status offering high-level vocational
+  integration
+- Focus on conversational fluency and practical Japanese application
+thumbnail: /static/img/pin-school.png
+title: Alice Gakuen Language Institute & Professional Training College
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

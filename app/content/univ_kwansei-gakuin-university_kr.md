@@ -1,61 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "〒662-8501 兵庫県西宮市上ケ原一番町1-1",
-    "name_en": "Kwansei Gakuin University",
-    "name_ja": "関西学院大学",
-    "website": "https://www.kwansei.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Theology",
-    "School of Humanities",
-    "School of Sociology",
-    "School of Law",
-    "School of Policy Studies",
-    "School of Economics",
-    "School of Business Administration",
-    "School of Human Welfare Studies",
-    "School of Education",
-    "School of International Studies",
-    "School of Science and Technology",
-    "School of Bioscience and Chemistry",
-    "School of Informatics",
-    "School of Architecture",
-    "School of Integrated Liberal Arts"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_kwansei-gakuin-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "경쟁률 높음, 학부별 상이",
-    "international_students": 957
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "간세이 가쿠인 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "간세이 가쿠인 대학은 유서 깊은 역사와 국제적인 인재 양성에 헌신하는 명문 사립 종합 대학입니다. 다양한 학부와 폭넓은 국제 교류 프로그램을 제공합니다."
-}
+basic_info:
+  address: 〒662-8501 兵庫県西宮市上ケ原一番町1-1
+  name_en: Kwansei Gakuin University
+  name_ja: 関西学院大学
+  website: https://www.kwansei.ac.jp/
+category: university
+date: '2026-01-28'
+description: 간세이 가쿠인 대학은 유서 깊은 역사와 국제적인 인재 양성에 헌신하는 명문 사립 종합 대학입니다. 다양한 학부와 폭넓은 국제
+  교류 프로그램을 제공합니다.
+faculties:
+- School of Theology
+- School of Humanities
+- School of Sociology
+- School of Law
+- School of Policy Studies
+- School of Economics
+- School of Business Administration
+- School of Human Welfare Studies
+- School of Education
+- School of International Studies
+- School of Science and Technology
+- School of Bioscience and Chemistry
+- School of Informatics
+- School of Architecture
+- School of Integrated Liberal Arts
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_kwansei-gakuin-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 경쟁률 높음, 학부별 상이
+  international_students: 957
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 간세이 가쿠인 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요

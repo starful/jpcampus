@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shujitsu-university-international-student-guide",
-  "title": "Shujitsu University",
-  "category": "university",
-  "tags": [
-    "Centuries-old legacy of 'Deeds, not Words'",
-    "Strategic location in the 'Land of Sunshine' Okayama",
-    "Strong focus on regional revitalization and practical business skills",
-    "High success rate in national certification exams"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "就実大学",
-    "name_en": "Shujitsu University",
-    "address": "1-1-1 Nishigawara, Naka-ku, Okayama-shi, Okayama 703-8516, Japan",
-    "capacity": 2800
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "45-55% (Varies by faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Education",
-    "Faculty of Business Administration",
-    "Faculty of Pharmacy"
-  ],
-  "features": [
-    "Centuries-old legacy of 'Deeds, not Words'",
-    "Strategic location in the 'Land of Sunshine' Okayama",
-    "Strong focus on regional revitalization and practical business skills",
-    "High success rate in national certification exams"
-  ]
-}
+basic_info:
+  address: 1-1-1 Nishigawara, Naka-ku, Okayama-shi, Okayama 703-8516, Japan
+  capacity: 2800
+  name_en: Shujitsu University
+  name_ja: 就実大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Humanities
+- Faculty of Education
+- Faculty of Business Administration
+- Faculty of Pharmacy
+features:
+- Centuries-old legacy of 'Deeds, not Words'
+- Strategic location in the 'Land of Sunshine' Okayama
+- Strong focus on regional revitalization and practical business skills
+- High success rate in national certification exams
+id: univ_shujitsu-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Varies by faculty)
+  international_students: 45
+tags:
+- Centuries-old legacy of 'Deeds, not Words'
+- Strategic location in the 'Land of Sunshine' Okayama
+- Strong focus on regional revitalization and practical business skills
+- High success rate in national certification exams
+thumbnail: /static/img/pin-univ.png
+title: Shujitsu University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Shujitsu Legacy

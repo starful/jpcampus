@@ -5,6 +5,7 @@ basic_info:
   name_ja: 立命館大学
   website: http://www.ritsumei.ac.jp/eng/
 category: university
+date: '2026-01-28'
 faculties:
 - College of Law
 - College of Economics

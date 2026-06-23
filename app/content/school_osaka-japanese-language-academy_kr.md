@@ -1,87 +1,68 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市平野区長吉長原西2-2-12",
-    "capacity": 244,
-    "name_en": "Osaka Japanese Language Academy",
-    "name_ja": "大阪日本語アカデミー"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1440000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1270000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1100000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 930000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 760000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般1年コース",
-      "total_fees": 760000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "기숙사 1인실",
-    "장학금 프로그램",
-    "EJU 대비",
-    "이과 스트림 지원",
-    "대학 진학 지원",
-    "회화 중심 수업",
-    "비즈니스 일본어",
-    "미술 & 디자인 대학 준비",
-    "단기 학습 옵션"
-  ],
-  "id": "school_osaka-japanese-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6060524,
-    "lng": 135.567036
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=495",
-  "stats": {
-    "capacity": 244,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "Single Rooms in Dorm",
-    "Scholarship Programs",
-    "EJU Preparation",
-    "Science Stream Support",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Business Japanese",
-    "Art & Design University Prep",
-    "Short-term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오사카 일본어 아카데미",
-  "translated": true,
-  "tuition": {},
-  "description": "오사카 일본어 아카데미는 오사카의 히라노구에 위치하고 있으며, 평화롭고 집중적인 학습 환경을 제공합니다."
-}
+basic_info:
+  address: 大阪府大阪市平野区長吉長原西2-2-12
+  capacity: 244
+  name_en: Osaka Japanese Language Academy
+  name_ja: 大阪日本語アカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1440000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1270000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1100000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 930000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 760000
+- admission_month: '4'
+  course_name: 一般1年コース
+  total_fees: 760000
+date: '2026-01-28'
+description: 오사카 일본어 아카데미는 오사카의 히라노구에 위치하고 있으며, 평화롭고 집중적인 학습 환경을 제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- 기숙사 1인실
+- 장학금 프로그램
+- EJU 대비
+- 이과 스트림 지원
+- 대학 진학 지원
+- 회화 중심 수업
+- 비즈니스 일본어
+- 미술 & 디자인 대학 준비
+- 단기 학습 옵션
+id: school_osaka-japanese-language-academy
+lang: kr
+layout: school
+location:
+  lat: 34.6060524
+  lng: 135.567036
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=495
+stats:
+  capacity: 244
+  international_students: 0
+tags:
+- Dormitory Available
+- Single Rooms in Dorm
+- Scholarship Programs
+- EJU Preparation
+- Science Stream Support
+- University Advancement Support
+- Conversation-focused Classes
+- Business Japanese
+- Art & Design University Prep
+- Short-term Study Options
+thumbnail: /static/img/pin-school.png
+title: 오사카 일본어 아카데미
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

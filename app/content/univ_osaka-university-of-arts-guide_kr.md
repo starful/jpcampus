@@ -1,53 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "〒585-8555 大阪府南河内郡河南町東山469",
-    "name_en": "Osaka University of Arts",
-    "name_ja": "大阪芸術大学",
-    "website": "http://www.osaka-geidai.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Arts",
-    "Faculty of Design",
-    "Faculty of Performing Arts",
-    "Faculty of Literary Arts",
-    "Faculty of Architectural Design"
-  ],
-  "features": [
-    "EJU 필수 (일본어 수업)",
-    "포트폴리오 심사",
-    "교외 캠퍼스",
-    "예술 중심",
-    "장학금 기회"
-  ],
-  "id": "univ_osaka-university-of-arts-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "일부 프로그램은 경쟁률이 매우 높음 (전체 약 20-30%)",
-    "international_students": 350
-  },
-  "tags": [
-    "EJU Required (Japanese-Taught)",
-    "Portfolio Review",
-    "Suburban Campus",
-    "Arts Focus",
-    "Scholarship Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "오사카예술대 유학 가이드 2026: 포트폴리오·입시·학비·취업",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 330000,
-    "yearly_tuition": 1780000
-  },
-  "description": "오사카예술대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 포트폴리오, 입시절차, 학비, 진로 정보를 담았습니다."
-}
+basic_info:
+  address: 〒585-8555 大阪府南河内郡河南町東山469
+  name_en: Osaka University of Arts
+  name_ja: 大阪芸術大学
+  website: http://www.osaka-geidai.ac.jp/
+category: university
+date: '2026-04-27'
+description: 오사카예술대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 포트폴리오, 입시절차, 학비, 진로 정보를 담았습니다.
+faculties:
+- Faculty of Arts
+- Faculty of Design
+- Faculty of Performing Arts
+- Faculty of Literary Arts
+- Faculty of Architectural Design
+features:
+- EJU 필수 (일본어 수업)
+- 포트폴리오 심사
+- 교외 캠퍼스
+- 예술 중심
+- 장학금 기회
+id: univ_osaka-university-of-arts-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 일부 프로그램은 경쟁률이 매우 높음 (전체 약 20-30%)
+  international_students: 350
+tags:
+- EJU Required (Japanese-Taught)
+- Portfolio Review
+- Suburban Campus
+- Arts Focus
+- Scholarship Opportunities
+thumbnail: /static/img/pin-univ.png
+title: '오사카예술대 유학 가이드 2026: 포트폴리오·입시·학비·취업'
+translated: true
+tuition:
+  admission_fee: 330000
+  yearly_tuition: 1780000
 ---
 
 ## 대학 개요 및 명성

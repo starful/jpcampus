@@ -9,6 +9,7 @@ courses:
 - admission_month: 4,10
   course_name: 総合日本語学科
   total_fees: 1608000
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized Art & Design Preparation

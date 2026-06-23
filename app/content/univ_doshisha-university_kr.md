@@ -1,62 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "〒602-8580 京都市上京区今出川通烏丸東入",
-    "name_en": "Doshisha University",
-    "name_ja": "同志社大学",
-    "website": "https://www.doshisha.ac.jp/en/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Theology",
-    "Faculty of Letters",
-    "Faculty of Social Studies",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Commerce",
-    "Faculty of Policy Studies",
-    "Faculty of Global Studies",
-    "Faculty of Science and Engineering",
-    "Faculty of Life and Medical Sciences",
-    "Faculty of Health and Sports Science",
-    "Faculty of Psychology",
-    "Faculty of Culture and Information Science",
-    "Institute for the Liberal Arts"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_doshisha-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "Approximately 25-35%",
-    "international_students": 1180
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도시샤 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 958000
-  },
-  "description": "교토에 위치한 도시샤 대학교는 일본 최고의 사립 대학 중 하나입니다. 기독교 정신과 자유로운 학문 교육을 기반으로 설립되었으며, 다양한 학문 분야에서 뛰어난 프로그램을 제공합니다."
-}
+basic_info:
+  address: 〒602-8580 京都市上京区今出川通烏丸東入
+  name_en: Doshisha University
+  name_ja: 同志社大学
+  website: https://www.doshisha.ac.jp/en/
+category: university
+date: '2026-01-28'
+description: 교토에 위치한 도시샤 대학교는 일본 최고의 사립 대학 중 하나입니다. 기독교 정신과 자유로운 학문 교육을 기반으로 설립되었으며,
+  다양한 학문 분야에서 뛰어난 프로그램을 제공합니다.
+faculties:
+- Faculty of Theology
+- Faculty of Letters
+- Faculty of Social Studies
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Commerce
+- Faculty of Policy Studies
+- Faculty of Global Studies
+- Faculty of Science and Engineering
+- Faculty of Life and Medical Sciences
+- Faculty of Health and Sports Science
+- Faculty of Psychology
+- Faculty of Culture and Information Science
+- Institute for the Liberal Arts
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_doshisha-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 25-35%
+  international_students: 1180
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 도시샤 대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 958000
 ---
 
 ## 대학 개요

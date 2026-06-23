@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ohtani-university-kyoto-international-student-guide",
-  "title": "오타니 대학교 (Ohtani University)",
-  "description": "교토의 역사적 중심지에서 수백 년의 전통을 이어온 오타니 대학교는 불교 정신을 바탕으로 깊이 있는 인문학적 통찰과 자기 성찰을 제공하는 명문 사립 대학입니다.",
-  "category": "university",
-  "tags": [
-    "정토진종의 수백 년 전통",
-    "산스크리트어 및 불교 문헌 연구의 세계적 거점",
-    "교토의 문화적 중심지 위치",
-    "소수 정예 밀착형 교육 시스템"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大谷大学",
-    "name_en": "Ohtani University",
-    "address": "22 Koyama-Kazusa-cho, Kita-ku, Kyoto 603-8143, Japan",
-    "capacity": "총 정원 약 3,800명"
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "55-65% (전공별 상이)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1080000
-  },
-  "faculties": [
-    "불교학부",
-    "문학부",
-    "사회학부",
-    "교육학부"
-  ],
-  "features": [
-    "신불교(정토진종)의 수백 년에 걸친 역사적 유산",
-    "산스크리트어 및 희귀 불교 문헌 연구의 세계적 중심지",
-    "일본의 전통문화가 살아 숨 쉬는 교토 중심부에 위치",
-    "낮은 교수 1인당 학생 비율을 통한 세심한 개별 지도"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 22 Koyama-Kazusa-cho, Kita-ku, Kyoto 603-8143, Japan
+  capacity: 총 정원 약 3,800명
+  name_en: Ohtani University
+  name_ja: 大谷大学
+category: university
+date: '2026-03-15'
+description: 교토의 역사적 중심지에서 수백 년의 전통을 이어온 오타니 대학교는 불교 정신을 바탕으로 깊이 있는 인문학적 통찰과 자기 성찰을
+  제공하는 명문 사립 대학입니다.
+faculties:
+- 불교학부
+- 문학부
+- 사회학부
+- 교육학부
+features:
+- 신불교(정토진종)의 수백 년에 걸친 역사적 유산
+- 산스크리트어 및 희귀 불교 문헌 연구의 세계적 중심지
+- 일본의 전통문화가 살아 숨 쉬는 교토 중심부에 위치
+- 낮은 교수 1인당 학생 비율을 통한 세심한 개별 지도
+id: univ_ohtani-university-kyoto-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65% (전공별 상이)
+  international_students: 145
+tags:
+- 정토진종의 수백 년 전통
+- 산스크리트어 및 불교 문헌 연구의 세계적 거점
+- 교토의 문화적 중심지 위치
+- 소수 정예 밀착형 교육 시스템
+thumbnail: /static/img/pin-univ.png
+title: 오타니 대학교 (Ohtani University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1080000
 ---
 
 ## 🏫 대학 개요

@@ -1,67 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "2-2-16 Ichinomiya-cho, Niihama, Ehime Prefecture",
-    "capacity": 70,
-    "name_en": "Happiness Foreign Language Academy",
-    "name_ja": "はぴねす外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "General Course",
-      "total_fees": 1168000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "General Course",
-      "total_fees": 896000
-    }
-  ],
-  "description": "Happiness Foreign Language Academy는 에히메현 니이하마의 조용한 환경에서 맞춤형 일본어 교육을 제공합니다. 대학 진학 지원, EJU 준비, 1인실 기숙사, 특별 코스 등이 특징입니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 지원",
-    "EJU 시험 준비",
-    "기숙사 이용 가능",
-    "1인실",
-    "장학금 이용 가능",
-    "이공계 트랙",
-    "회화 중심",
-    "비즈니스 일본어",
-    "미술 & 디자인 준비",
-    "단기 코스"
-  ],
-  "id": "school_happiness-foreign-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 33.9587017,
-    "lng": 133.278203
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=509",
-  "stats": {
-    "capacity": 70,
-    "international_students": 0
-  },
-  "tags": [
-    "University Advancement",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Single Rooms",
-    "Scholarships Available",
-    "Science/STEM Track",
-    "Conversation Focus",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Happiness 외어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 2-2-16 Ichinomiya-cho, Niihama, Ehime Prefecture
+  capacity: 70
+  name_en: Happiness Foreign Language Academy
+  name_ja: はぴねす外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: General Course
+  total_fees: 1168000
+- admission_month: '10'
+  course_name: General Course
+  total_fees: 896000
+date: '2026-01-28'
+description: Happiness Foreign Language Academy는 에히메현 니이하마의 조용한 환경에서 맞춤형 일본어 교육을 제공합니다.
+  대학 진학 지원, EJU 준비, 1인실 기숙사, 특별 코스 등이 특징입니다.
+faculties: []
+features:
+- 대학 진학 지원
+- EJU 시험 준비
+- 기숙사 이용 가능
+- 1인실
+- 장학금 이용 가능
+- 이공계 트랙
+- 회화 중심
+- 비즈니스 일본어
+- 미술 & 디자인 준비
+- 단기 코스
+id: school_happiness-foreign-language-academy
+lang: kr
+layout: school
+location:
+  lat: 33.9587017
+  lng: 133.278203
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=509
+stats:
+  capacity: 70
+  international_students: 0
+tags:
+- University Advancement
+- EJU Preparation
+- Dormitory Available
+- Single Rooms
+- Scholarships Available
+- Science/STEM Track
+- Conversation Focus
+- Business Japanese
+- Art & Design Prep
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: Happiness 외어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

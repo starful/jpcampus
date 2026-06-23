@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ohtani-university-kyoto-international-student-guide",
-  "title": "Ohtani University",
-  "category": "university",
-  "tags": [
-    "Centuries-old heritage in Shin Buddhism",
-    "Premier research center for Sanskrit and rare Buddhist texts",
-    "Located in the cultural heart of Kyoto",
-    "Personalized support with low student-to-teacher ratios"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大谷大学",
-    "name_en": "Ohtani University",
-    "address": "22 Koyama-Kazusa-cho, Kita-ku, Kyoto 603-8143, Japan",
-    "capacity": "3,800 Total Students"
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "55-65% (Variable by program)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1080000
-  },
-  "faculties": [
-    "Faculty of Buddhist Studies",
-    "Faculty of Letters",
-    "Faculty of Sociology",
-    "Faculty of Education"
-  ],
-  "features": [
-    "Centuries-old heritage in Shin Buddhism",
-    "Premier research center for Sanskrit and rare Buddhist texts",
-    "Located in the cultural heart of Kyoto",
-    "Personalized support with low student-to-teacher ratios"
-  ]
-}
+basic_info:
+  address: 22 Koyama-Kazusa-cho, Kita-ku, Kyoto 603-8143, Japan
+  capacity: 3,800 Total Students
+  name_en: Ohtani University
+  name_ja: 大谷大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Buddhist Studies
+- Faculty of Letters
+- Faculty of Sociology
+- Faculty of Education
+features:
+- Centuries-old heritage in Shin Buddhism
+- Premier research center for Sanskrit and rare Buddhist texts
+- Located in the cultural heart of Kyoto
+- Personalized support with low student-to-teacher ratios
+id: univ_ohtani-university-kyoto-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65% (Variable by program)
+  international_students: 145
+tags:
+- Centuries-old heritage in Shin Buddhism
+- Premier research center for Sanskrit and rare Buddhist texts
+- Located in the cultural heart of Kyoto
+- Personalized support with low student-to-teacher ratios
+thumbnail: /static/img/pin-univ.png
+title: Ohtani University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1080000
 ---
 
 ## 🏫 University Overview

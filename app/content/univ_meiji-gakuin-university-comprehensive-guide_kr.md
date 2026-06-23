@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_meiji-gakuin-university-comprehensive-guide",
-  "title": "메이지 가쿠인 대학 (明治学院大学)",
-  "category": "university",
-  "tags": [
-    "제임스 커티스 헵번 설립",
-    "교육 모토: 다른 사람을 위해 (Do for Others)",
-    "역사적인 시로카네 캠퍼스",
-    "명성 높은 글로벌 및 트랜스컬쳐럴 연구 프로그램",
-    "강력한 기독교적 교양 전통"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "明治学院大学",
-    "name_en": "Meiji Gakuin University",
-    "address": "1-2-37 Shirokanedai, Minato-ku, Tokyo 108-8636, Japan",
-    "capacity": 12000
-  },
-  "stats": {
-    "international_students": 350,
-    "acceptance_rate": "25-35% (유학생 기준 추정)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "문학부",
-    "경제학부",
-    "사회학부",
-    "법학부",
-    "국제학부",
-    "심리학부"
-  ],
-  "features": [
-    "제임스 커티스 헵번 설립",
-    "교육 모토: 다른 사람을 위해 (Do for Others)",
-    "역사적인 시로카네 캠퍼스",
-    "명성 높은 글로벌 및 트랜스컬쳐럴 연구 프로그램",
-    "강력한 기독교적 교양 전통"
-  ],
-  "description": "메이지 가쿠인 대학: 역사와 전통을 자랑하는 일본의 명문 사립 교양 대학입니다. 국제적인 환경과 사회적 책임감을 강조하는 교육을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-2-37 Shirokanedai, Minato-ku, Tokyo 108-8636, Japan
+  capacity: 12000
+  name_en: Meiji Gakuin University
+  name_ja: 明治学院大学
+category: university
+date: '2026-02-13'
+description: '메이지 가쿠인 대학: 역사와 전통을 자랑하는 일본의 명문 사립 교양 대학입니다. 국제적인 환경과 사회적 책임감을 강조하는
+  교육을 제공합니다.'
+faculties:
+- 문학부
+- 경제학부
+- 사회학부
+- 법학부
+- 국제학부
+- 심리학부
+features:
+- 제임스 커티스 헵번 설립
+- '교육 모토: 다른 사람을 위해 (Do for Others)'
+- 역사적인 시로카네 캠퍼스
+- 명성 높은 글로벌 및 트랜스컬쳐럴 연구 프로그램
+- 강력한 기독교적 교양 전통
+id: univ_meiji-gakuin-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (유학생 기준 추정)
+  international_students: 350
+tags:
+- 제임스 커티스 헵번 설립
+- '교육 모토: 다른 사람을 위해 (Do for Others)'
+- 역사적인 시로카네 캠퍼스
+- 명성 높은 글로벌 및 트랜스컬쳐럴 연구 프로그램
+- 강력한 기독교적 교양 전통
+thumbnail: /static/img/pin-univ.png
+title: 메이지 가쿠인 대학 (明治学院大学)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

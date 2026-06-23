@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_the-university-of-aizu-guide-international-students",
-  "title": "아이즈 대학교",
-  "category": "university",
-  "tags": [
-    "일본 최초의 컴퓨터 과학 전문 대학",
-    "교수진의 약 40%가 국제적인 구성원",
-    "최상위 글로벌 랭킹 (THE 세계 대학 랭킹)",
-    "첨단 우주 정보 및 AI 연구 센터",
-    "100% 컴퓨터 활용 능력 교육 모델"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "会津大学",
-    "name_en": "The University of Aizu",
-    "address": "Tsuruga, Ikki-machi, Aizuwakamatsu City, Fukushima, 965-8580, Japan",
-    "capacity": 1100
-  },
-  "stats": {
-    "international_students": 190,
-    "acceptance_rate": "25.5%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 520800
-  },
-  "faculties": [
-    "School of Computer Science and Engineering",
-    "Graduate School of Computer Science and Engineering"
-  ],
-  "features": [
-    "일본 최초의 컴퓨터 과학 전문 대학",
-    "교수진의 약 40%가 국제적인 구성원",
-    "최상위 글로벌 랭킹 (THE 세계 대학 랭킹)",
-    "첨단 우주 정보 및 AI 연구 센터",
-    "100% 컴퓨터 활용 능력 교육 모델"
-  ],
-  "description": "아이즈 대학교는 일본 최초의 컴퓨터 과학 전문 대학입니다. 국제적인 교수진과 최첨단 연구 시설을 갖춘 아이즈 대학교에서 미래를 설계하세요.",
-  "lang": "kr"
-}
+basic_info:
+  address: Tsuruga, Ikki-machi, Aizuwakamatsu City, Fukushima, 965-8580, Japan
+  capacity: 1100
+  name_en: The University of Aizu
+  name_ja: 会津大学
+category: university
+date: '2026-03-03'
+description: 아이즈 대학교는 일본 최초의 컴퓨터 과학 전문 대학입니다. 국제적인 교수진과 최첨단 연구 시설을 갖춘 아이즈 대학교에서 미래를
+  설계하세요.
+faculties:
+- School of Computer Science and Engineering
+- Graduate School of Computer Science and Engineering
+features:
+- 일본 최초의 컴퓨터 과학 전문 대학
+- 교수진의 약 40%가 국제적인 구성원
+- 최상위 글로벌 랭킹 (THE 세계 대학 랭킹)
+- 첨단 우주 정보 및 AI 연구 센터
+- 100% 컴퓨터 활용 능력 교육 모델
+id: univ_the-university-of-aizu-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25.5%
+  international_students: 190
+tags:
+- 일본 최초의 컴퓨터 과학 전문 대학
+- 교수진의 약 40%가 국제적인 구성원
+- 최상위 글로벌 랭킹 (THE 세계 대학 랭킹)
+- 첨단 우주 정보 및 AI 연구 센터
+- 100% 컴퓨터 활용 능력 교육 모델
+thumbnail: /static/img/pin-univ.png
+title: 아이즈 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 520800
 ---
 
 ## 🏫 대학 개요

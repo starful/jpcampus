@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-koka-womens-university-international-student-guide",
-  "title": "교토광화여자대학교",
-  "description": "일본의 문화 수도 교토에 위치한 교토광화여자대학교는 불교 정신을 바탕으로 보건의료, 심리, 교육 분야에서 전문성을 갖춘 여성 인재를 양성하는 유서 깊은 대학입니다.",
-  "category": "university",
-  "tags": [
-    "정토진종 교육 철학",
-    "여성을 위한 종합 커리어 지원",
-    "보건의료 및 국가 자격증 특화",
-    "아라시야마 및 시조 인근 교토 중심지"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都光華女子大学",
-    "name_en": "Kyoto Koka Women's University",
-    "address": "38 Kadono-cho, Nishikyogoku, Ukyo-ku, Kyoto 615-0882, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "보건과학부",
-    "심리학부",
-    "어린이교육학부",
-    "인문학부"
-  ],
-  "features": [
-    "정토진종의 교육 철학을 바탕으로 한 인성 교육",
-    "여성 리더십과 자립을 강조하는 종합 커리어 지원",
-    "간호, 영양, 물리치료 등 의료 보건 분야의 높은 국가 자격증 합격률",
-    "관광과 전통문화의 중심지 교토 우쿄구에 위치한 쾌적한 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 38 Kadono-cho, Nishikyogoku, Ukyo-ku, Kyoto 615-0882, Japan
+  capacity: null
+  name_en: Kyoto Koka Women's University
+  name_ja: 京都光華女子大学
+category: university
+date: '2026-04-04'
+description: 일본의 문화 수도 교토에 위치한 교토광화여자대학교는 불교 정신을 바탕으로 보건의료, 심리, 교육 분야에서 전문성을 갖춘 여성
+  인재를 양성하는 유서 깊은 대학입니다.
+faculties:
+- 보건과학부
+- 심리학부
+- 어린이교육학부
+- 인문학부
+features:
+- 정토진종의 교육 철학을 바탕으로 한 인성 교육
+- 여성 리더십과 자립을 강조하는 종합 커리어 지원
+- 간호, 영양, 물리치료 등 의료 보건 분야의 높은 국가 자격증 합격률
+- 관광과 전통문화의 중심지 교토 우쿄구에 위치한 쾌적한 캠퍼스
+id: univ_kyoto-koka-womens-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 65
+tags:
+- 정토진종 교육 철학
+- 여성을 위한 종합 커리어 지원
+- 보건의료 및 국가 자격증 특화
+- 아라시야마 및 시조 인근 교토 중심지
+thumbnail: /static/img/pin-univ.png
+title: 교토광화여자대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 대학 개요

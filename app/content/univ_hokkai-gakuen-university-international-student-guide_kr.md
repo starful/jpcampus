@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hokkai-gakuen-university-international-student-guide",
-  "title": "홋카이학원대학교",
-  "category": "university",
-  "tags": [
-    "홋카이도에서 가장 오래되고 큰 사립대학교",
-    "홋카이도 지방 정부 내 압도적인 취업률",
-    "직장인을 위한 특별한 제2부 (야간 학부) 운영",
-    "지하철 직결, 삿포로 중심부에 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北海学園大学",
-    "name_en": "Hokkai Gakuen University",
-    "address": "4-1-40 Asahimachi, Toyohira-ku, Sapporo, Hokkaido 062-8605, Japan",
-    "capacity": "총 학생수 약 8,000명"
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "유학생 합격률 약 45-55% 추정"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "경제학부",
-    "경영학부",
-    "법학부",
-    "인문학부",
-    "공학부"
-  ],
-  "features": [
-    "홋카이도에서 가장 오래되고 큰 사립대학교",
-    "홋카이도 지방 정부 내 압도적인 취업률",
-    "직장인을 위한 특별한 제2부 (야간 학부) 운영",
-    "지하철 직결, 삿포로 중심부에 위치"
-  ],
-  "description": "홋카이학원대학교는 홋카이도 삿포로에 위치한 명문 사립대학교입니다. 유학생을 위한 다양한 지원과 홋카이도 지역 사회와의 긴밀한 연계가 특징입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 4-1-40 Asahimachi, Toyohira-ku, Sapporo, Hokkaido 062-8605, Japan
+  capacity: 총 학생수 약 8,000명
+  name_en: Hokkai Gakuen University
+  name_ja: 北海学園大学
+category: university
+date: '2026-03-03'
+description: 홋카이학원대학교는 홋카이도 삿포로에 위치한 명문 사립대학교입니다. 유학생을 위한 다양한 지원과 홋카이도 지역 사회와의 긴밀한
+  연계가 특징입니다.
+faculties:
+- 경제학부
+- 경영학부
+- 법학부
+- 인문학부
+- 공학부
+features:
+- 홋카이도에서 가장 오래되고 큰 사립대학교
+- 홋카이도 지방 정부 내 압도적인 취업률
+- 직장인을 위한 특별한 제2부 (야간 학부) 운영
+- 지하철 직결, 삿포로 중심부에 위치
+id: univ_hokkai-gakuen-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 유학생 합격률 약 45-55% 추정
+  international_students: 42
+tags:
+- 홋카이도에서 가장 오래되고 큰 사립대학교
+- 홋카이도 지방 정부 내 압도적인 취업률
+- 직장인을 위한 특별한 제2부 (야간 학부) 운영
+- 지하철 직결, 삿포로 중심부에 위치
+thumbnail: /static/img/pin-univ.png
+title: 홋카이학원대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 대학교 개요

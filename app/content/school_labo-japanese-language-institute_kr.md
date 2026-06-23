@@ -1,70 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都文京区千駄木3-33-6 千駄木パークビル",
-    "capacity": 100,
-    "name_en": "LABO Japanese Language Institute",
-    "name_ja": "ラボ日本語教育研修所"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般2年コース",
-      "total_fees": 1384000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1.3年コース",
-      "total_fees": 895000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.6年コース",
-      "total_fees": 1058000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1.9年コース",
-      "total_fees": 1221000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1384000
-    }
-  ],
-  "description": "LABO 일본어 교육 연수소는 도쿄의 센다기 지역에 위치하고 있으며, 특히 미술 및 디자인 분야의 고등 교육 진학을 목표로 하는 학생들을 위해 종합적인 일본어 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "고등 교육 준비",
-    "EJU 준비",
-    "미술",
-    "디자인"
-  ],
-  "id": "school_labo-japanese-language-institute",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7264989,
-    "lng": 139.7631291
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=107",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Higher Education Prep",
-    "EJU Prep",
-    "Fine Arts",
-    "Design"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "LABO 일본어 교육 연수소",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都文京区千駄木3-33-6 千駄木パークビル
+  capacity: 100
+  name_en: LABO Japanese Language Institute
+  name_ja: ラボ日本語教育研修所
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: 一般2年コース
+  total_fees: 1384000
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 895000
+- admission_month: '10'
+  course_name: 進学1.6年コース
+  total_fees: 1058000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1221000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1384000
+date: '2026-01-28'
+description: LABO 일본어 교육 연수소는 도쿄의 센다기 지역에 위치하고 있으며, 특히 미술 및 디자인 분야의 고등 교육 진학을 목표로
+  하는 학생들을 위해 종합적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 고등 교육 준비
+- EJU 준비
+- 미술
+- 디자인
+id: school_labo-japanese-language-institute
+lang: kr
+layout: school
+location:
+  lat: 35.7264989
+  lng: 139.7631291
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=107
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Higher Education Prep
+- EJU Prep
+- Fine Arts
+- Design
+thumbnail: /static/img/pin-school.png
+title: LABO 일본어 교육 연수소
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

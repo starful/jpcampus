@@ -1,73 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県犬山市大字犬山字西古券77-12",
-    "capacity": 300,
-    "name_en": "Nagoya Education Academy",
-    "name_ja": "名古屋教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1425000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1095000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 930000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1260000
-    }
-  ],
-  "description": "나고야 교육 아카데미는 일본 대학 진학을 전문으로 하는 일본어 학교입니다. 집중적인 학업 지원, 교내 기숙사, 특화된 EJU 시험 대비반을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "고강도 대학 진학 집중 과정",
-    "특화된 EJU (이과, 문과) 시험 대비",
-    "교내/제휴 기숙사 (1인실 옵션 제공)",
-    "미술 및 디자인 대학 입시 집중 지원",
-    "특화된 STEM (과학, 기술, 공학, 수학) 트랙",
-    "비즈니스 일본어 및 실용 회화 수업",
-    "종합 장학금 프로그램",
-    "유연한 단기 연수 옵션"
-  ],
-  "id": "school_nagoya-kyoiku-gakuin-inuyama-aichi",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.3802859,
-    "lng": 136.9385302
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=303",
-  "stats": {
-    "capacity": 300,
-    "international_students": 285
-  },
-  "tags": [
-    "High-Intensity University Progression Focus",
-    "Specialized EJU (Science, Liberal Arts) Preparation",
-    "On-Campus/Affiliated Dormitory with Single Room Options",
-    "Dedicated Support for Art and Design University Entry",
-    "Specialized STEM (Science, Technology, Engineering, Math) Track",
-    "Business Japanese and Practical Conversation Classes",
-    "Comprehensive Scholarship Programs",
-    "Flexible Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "나고야 교육 학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県犬山市大字犬山字西古券77-12
+  capacity: 300
+  name_en: Nagoya Education Academy
+  name_ja: 名古屋教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1425000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1095000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 930000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1260000
+date: '2026-01-28'
+description: 나고야 교육 아카데미는 일본 대학 진학을 전문으로 하는 일본어 학교입니다. 집중적인 학업 지원, 교내 기숙사, 특화된 EJU
+  시험 대비반을 제공합니다.
+faculties: []
+features:
+- 고강도 대학 진학 집중 과정
+- 특화된 EJU (이과, 문과) 시험 대비
+- 교내/제휴 기숙사 (1인실 옵션 제공)
+- 미술 및 디자인 대학 입시 집중 지원
+- 특화된 STEM (과학, 기술, 공학, 수학) 트랙
+- 비즈니스 일본어 및 실용 회화 수업
+- 종합 장학금 프로그램
+- 유연한 단기 연수 옵션
+id: school_nagoya-kyoiku-gakuin-inuyama-aichi
+lang: kr
+layout: school
+location:
+  lat: 35.3802859
+  lng: 136.9385302
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=303
+stats:
+  capacity: 300
+  international_students: 285
+tags:
+- High-Intensity University Progression Focus
+- Specialized EJU (Science, Liberal Arts) Preparation
+- On-Campus/Affiliated Dormitory with Single Room Options
+- Dedicated Support for Art and Design University Entry
+- Specialized STEM (Science, Technology, Engineering, Math) Track
+- Business Japanese and Practical Conversation Classes
+- Comprehensive Scholarship Programs
+- Flexible Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: 나고야 교육 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

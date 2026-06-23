@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamagata-university-international-student-guide",
-  "title": "Yamagata University",
-  "category": "university",
-  "tags": [
-    "Global leader in Organic Electronics and 3D printing research",
-    "Third largest national university in the Tohoku region",
-    "Unique multi-campus system specializing in different research fields",
-    "High employment rate for international graduates in Japanese industry"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山形大学",
-    "name_en": "Yamagata University",
-    "address": "1-4-12 Kojirakawa-machi, Yamagata-shi, Yamagata, 990-8560, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 250,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education, Art and Science",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "Global leader in Organic Electronics and 3D printing research",
-    "Third largest national university in the Tohoku region",
-    "Unique multi-campus system specializing in different research fields",
-    "High employment rate for international graduates in Japanese industry"
-  ]
-}
+basic_info:
+  address: 1-4-12 Kojirakawa-machi, Yamagata-shi, Yamagata, 990-8560, Japan
+  capacity: null
+  name_en: Yamagata University
+  name_ja: 山形大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education, Art and Science
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- Global leader in Organic Electronics and 3D printing research
+- Third largest national university in the Tohoku region
+- Unique multi-campus system specializing in different research fields
+- High employment rate for international graduates in Japanese industry
+id: univ_yamagata-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 250
+tags:
+- Global leader in Organic Electronics and 3D printing research
+- Third largest national university in the Tohoku region
+- Unique multi-campus system specializing in different research fields
+- High employment rate for international graduates in Japanese industry
+thumbnail: /static/img/pin-univ.png
+title: Yamagata University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: Yamagata University (YU)

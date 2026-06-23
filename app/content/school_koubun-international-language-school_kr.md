@@ -1,62 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県新城市大野字上貝津７441-1615",
-    "capacity": 100,
-    "name_en": "Koubun International Language School",
-    "name_ja": "コウブンインターナショナル"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1410000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1105000
-    }
-  ],
-  "description": "아이치현 신시로에 위치한 코분 인터내셔널 랭귀지 스쿨은 지원적인 시골 환경에서 집중적인 대학 입시 준비를 제공합니다. EJU 및 JLPT 특화 트레이닝을 제공하며, 이공계, 예술, 비즈니스 등 다양한 분야로 진학할 수 있도록 지원합니다.",
-  "faculties": [],
-  "features": [
-    "대학 입시 집중",
-    "EJU 및 JLPT 특화 트레이닝",
-    "필수 또는 추천 기숙사 시스템",
-    "이과 (리카) 및 수학 Pathway 지원",
-    "미술 및 디자인 Pathway 특화",
-    "비즈니스 및 고급 회화 수업",
-    "높은 장학금 수혜율",
-    "소규모 정원으로 개인 맞춤형 지도",
-    "아이치현 신시로의 시골 학습 환경"
-  ],
-  "id": "school_koubun-international-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.952635,
-    "lng": 137.610017
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=305",
-  "stats": {},
-  "tags": [
-    "University Preparation Focused",
-    "EJU and JLPT Specialized Training",
-    "Mandatory or Recommended Dormitory System",
-    "Science (Rika) and Math Pathway Support",
-    "Art and Design Pathway Specialization",
-    "Business and Advanced Conversation Classes",
-    "High Scholarship Availability",
-    "Small Capacity for Personalized Guidance",
-    "Study Environment in Rural Aichi (Shinshiro)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "코분 인터내셔널 랭귀지 스쿨",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県新城市大野字上貝津７441-1615
+  capacity: 100
+  name_en: Koubun International Language School
+  name_ja: コウブンインターナショナル
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1410000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1105000
+date: '2026-01-28'
+description: 아이치현 신시로에 위치한 코분 인터내셔널 랭귀지 스쿨은 지원적인 시골 환경에서 집중적인 대학 입시 준비를 제공합니다. EJU
+  및 JLPT 특화 트레이닝을 제공하며, 이공계, 예술, 비즈니스 등 다양한 분야로 진학할 수 있도록 지원합니다.
+faculties: []
+features:
+- 대학 입시 집중
+- EJU 및 JLPT 특화 트레이닝
+- 필수 또는 추천 기숙사 시스템
+- 이과 (리카) 및 수학 Pathway 지원
+- 미술 및 디자인 Pathway 특화
+- 비즈니스 및 고급 회화 수업
+- 높은 장학금 수혜율
+- 소규모 정원으로 개인 맞춤형 지도
+- 아이치현 신시로의 시골 학습 환경
+id: school_koubun-international-language-school
+lang: kr
+layout: school
+location:
+  lat: 34.952635
+  lng: 137.610017
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=305
+stats: {}
+tags:
+- University Preparation Focused
+- EJU and JLPT Specialized Training
+- Mandatory or Recommended Dormitory System
+- Science (Rika) and Math Pathway Support
+- Art and Design Pathway Specialization
+- Business and Advanced Conversation Classes
+- High Scholarship Availability
+- Small Capacity for Personalized Guidance
+- Study Environment in Rural Aichi (Shinshiro)
+thumbnail: /static/img/pin-school.png
+title: 코분 인터내셔널 랭귀지 스쿨
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

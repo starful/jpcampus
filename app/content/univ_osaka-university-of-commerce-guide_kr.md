@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-university-of-commerce-guide",
-  "title": "오사카 상업대학교 (Osaka University of Commerce)",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "창업 및 중소기업 경영 분야의 전문성",
-    "일본 유일의 어뮤즈먼트 산업 연구소 보유",
-    "실무 능력 중심의 강력한 취업 지원",
-    "일본 제조업의 중심지, 히가시오사카의 전략적 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪商業大学",
-    "name_en": "Osaka University of Commerce",
-    "address": "4-1-10 Mikunigaoka, Higashiosaka-shi, Osaka 577-8505, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 210,
-    "acceptance_rate": "45-55% (Varies by entrance examination type)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "경영학부",
-    "경제학부"
-  ],
-  "features": [
-    "창업 및 중소기업 경영 분야의 전문성",
-    "일본 유일의 어뮤즈먼트 산업 연구소 보유",
-    "실무 능력 중심의 강력한 취업 지원",
-    "일본 제조업의 중심지, 히가시오사카의 전략적 위치"
-  ],
-  "description": "오사카 상업대학교(OUC)는 '세상에 도움이 되는 인재 양성'을 건학 이념으로 하며, 실무 중심의 경상 계열 교육과 강력한 취업 지원을 통해 일본 비즈니스 현장에서 활약할 전문가를 배출하는 명문 사립대학교입니다."
-}
+basic_info:
+  address: 4-1-10 Mikunigaoka, Higashiosaka-shi, Osaka 577-8505, Japan
+  capacity: null
+  name_en: Osaka University of Commerce
+  name_ja: 大阪商業大学
+category: university
+date: '2026-03-15'
+description: 오사카 상업대학교(OUC)는 '세상에 도움이 되는 인재 양성'을 건학 이념으로 하며, 실무 중심의 경상 계열 교육과 강력한
+  취업 지원을 통해 일본 비즈니스 현장에서 활약할 전문가를 배출하는 명문 사립대학교입니다.
+faculties:
+- 경영학부
+- 경제학부
+features:
+- 창업 및 중소기업 경영 분야의 전문성
+- 일본 유일의 어뮤즈먼트 산업 연구소 보유
+- 실무 능력 중심의 강력한 취업 지원
+- 일본 제조업의 중심지, 히가시오사카의 전략적 위치
+id: univ_osaka-university-of-commerce-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Varies by entrance examination type)
+  international_students: 210
+tags:
+- 창업 및 중소기업 경영 분야의 전문성
+- 일본 유일의 어뮤즈먼트 산업 연구소 보유
+- 실무 능력 중심의 강력한 취업 지원
+- 일본 제조업의 중심지, 히가시오사카의 전략적 위치
+thumbnail: /static/img/pin-univ.png
+title: 오사카 상업대학교 (Osaka University of Commerce)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

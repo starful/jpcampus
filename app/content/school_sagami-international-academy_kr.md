@@ -1,59 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "8-22 Asahi-cho, Minami-ku, Sagamihara, Kanagawa Prefecture",
-    "capacity": 100,
-    "name_en": "Sagami International Academy",
-    "name_ja": "相模国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Prep Course I",
-      "total_fees": 1551000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Prep Course II",
-      "total_fees": 1182500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "EJU 시험 준비",
-    "대학 진학 지원",
-    "회화 중심 수업",
-    "단기 코스 이용 가능",
-    "이공계 스트림 준비"
-  ],
-  "id": "school_sagami-international-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.5275876,
-    "lng": 139.4283028
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=518",
-  "stats": {
-    "capacity": 100,
-    "international_students": 100
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Short-term Courses Available",
-    "Science Stream Prep"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "사가미 국제学院",
-  "translated": true,
-  "tuition": {},
-  "description": "사가미 국제学院는 가나가와현 사가미하라시에 위치한 일본어 학교입니다. 대학 진학을 위한 맞춤형 커리큘럼을 제공합니다."
-}
+basic_info:
+  address: 8-22 Asahi-cho, Minami-ku, Sagamihara, Kanagawa Prefecture
+  capacity: 100
+  name_en: Sagami International Academy
+  name_ja: 相模国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Prep Course I
+  total_fees: 1551000
+- admission_month: '10'
+  course_name: University Prep Course II
+  total_fees: 1182500
+date: '2026-01-28'
+description: 사가미 국제学院는 가나가와현 사가미하라시에 위치한 일본어 학교입니다. 대학 진학을 위한 맞춤형 커리큘럼을 제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- EJU 시험 준비
+- 대학 진학 지원
+- 회화 중심 수업
+- 단기 코스 이용 가능
+- 이공계 스트림 준비
+id: school_sagami-international-academy
+lang: kr
+layout: school
+location:
+  lat: 35.5275876
+  lng: 139.4283028
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=518
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Support
+- Conversation-focused Classes
+- Short-term Courses Available
+- Science Stream Prep
+thumbnail: /static/img/pin-school.png
+title: 사가미 국제学院
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

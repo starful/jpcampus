@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都文京区本郷７丁目３−１",
-    "name_en": "The University of Tokyo",
-    "name_ja": "東京大学",
-    "website": "https://www.u-tokyo.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Letters",
-    "Faculty of Science",
-    "Faculty of Agriculture",
-    "Faculty of Economics",
-    "Faculty of Arts and Sciences",
-    "Faculty of Education",
-    "Faculty of Pharmaceutical Sciences"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_the-university-of-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7115533,
-    "lng": 139.7616856
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 3000
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도쿄대학교",
-  "description": "일본 최고의 명문 대학, 도쿄대학교에 대해 알아보세요. 학부, 프로그램, 입학 정보 등을 제공합니다.",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 東京都文京区本郷７丁目３−１
+  name_en: The University of Tokyo
+  name_ja: 東京大学
+  website: https://www.u-tokyo.ac.jp/
+category: university
+date: '2026-01-28'
+description: 일본 최고의 명문 대학, 도쿄대학교에 대해 알아보세요. 학부, 프로그램, 입학 정보 등을 제공합니다.
+faculties:
+- Faculty of Law
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Letters
+- Faculty of Science
+- Faculty of Agriculture
+- Faculty of Economics
+- Faculty of Arts and Sciences
+- Faculty of Education
+- Faculty of Pharmaceutical Sciences
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_the-university-of-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.7115533
+  lng: 139.7616856
+stats:
+  acceptance_rate: 20%
+  international_students: 3000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 도쿄대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요 및 명성

@@ -1,59 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan",
-    "name_en": "Okayama University",
-    "name_ja": "岡山大学",
-    "website": "https://www.okayama-u.ac.jp/index_e.html"
-  },
-  "category": "university",
-  "description": "오카야마 대학교는 일본의 명문 국립 대학으로, 종합적인 학부, 연구 중심, 그리고 글로벌 교육에 대한 헌신으로 잘 알려져 있습니다. 다양한 영어 강의 프로그램과 유학생을 위한 폭넓은 지원을 제공합니다.",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Discovery Program for Global Learners"
-  ],
-  "features": [
-    "국립대학",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_okayama-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "학부별로 상이 (대략 20-40%)",
-    "international_students": 847
-  },
-  "tags": [
-    "National University",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "오카야마 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan
+  name_en: Okayama University
+  name_ja: 岡山大学
+  website: https://www.okayama-u.ac.jp/index_e.html
+category: university
+date: '2026-01-28'
+description: 오카야마 대학교는 일본의 명문 국립 대학으로, 종합적인 학부, 연구 중심, 그리고 글로벌 교육에 대한 헌신으로 잘 알려져 있습니다.
+  다양한 영어 강의 프로그램과 유학생을 위한 폭넓은 지원을 제공합니다.
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Engineering
+- Faculty of Agriculture
+- Discovery Program for Global Learners
+features:
+- 국립대학
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_okayama-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 학부별로 상이 (대략 20-40%)
+  international_students: 847
+tags:
+- National University
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 오카야마 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요 및 명성

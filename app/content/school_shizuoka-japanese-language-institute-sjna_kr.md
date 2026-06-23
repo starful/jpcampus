@@ -1,53 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県静岡市葵区宮前町110-11",
-    "capacity": 225,
-    "name_en": "Shizuoka Japanese Language Institute",
-    "name_ja": "静岡日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1442000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1112000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합적인 대학 및 전문학교 진학 준비 (EJU 집중)",
-    "특화된 STEM(과학) 및 미술/디자인 트랙",
-    "싱글룸을 포함한 교내 기숙사 옵션",
-    "탄탄한 장학금 및 재정 지원 프로그램",
-    "고급 비즈니스 및 회화 일본어 훈련"
-  ],
-  "id": "school_shizuoka-japanese-language-institute-sjna",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.983189,
-    "lng": 138.4068806
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=604",
-  "stats": {},
-  "tags": [
-    "Comprehensive University and Vocational School Preparation (EJU Focus)",
-    "Specialized STEM (Science) and Art/Design Tracks",
-    "On-Campus Dormitory Options, including Single Rooms",
-    "Robust Scholarship and Financial Aid Programs",
-    "Advanced Business and Conversational Japanese Training"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "시즈오카 일본어 학원",
-  "tuition": {},
-  "description": "시즈오카 일본어 학원은 도쿄와 나고야 사이에 위치하여, 안전하고 아름다운 환경에서 저렴한 비용으로 공부할 수 있는 기회를 제공합니다. 대학 및 전문학교 진학을 위한 맞춤형 지원을 제공합니다."
-}
+basic_info:
+  address: 静岡県静岡市葵区宮前町110-11
+  capacity: 225
+  name_en: Shizuoka Japanese Language Institute
+  name_ja: 静岡日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1442000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1112000
+date: '2026-01-28'
+description: 시즈오카 일본어 학원은 도쿄와 나고야 사이에 위치하여, 안전하고 아름다운 환경에서 저렴한 비용으로 공부할 수 있는 기회를 제공합니다.
+  대학 및 전문학교 진학을 위한 맞춤형 지원을 제공합니다.
+faculties: []
+features:
+- 종합적인 대학 및 전문학교 진학 준비 (EJU 집중)
+- 특화된 STEM(과학) 및 미술/디자인 트랙
+- 싱글룸을 포함한 교내 기숙사 옵션
+- 탄탄한 장학금 및 재정 지원 프로그램
+- 고급 비즈니스 및 회화 일본어 훈련
+id: school_shizuoka-japanese-language-institute-sjna
+lang: kr
+layout: school
+location:
+  lat: 34.983189
+  lng: 138.4068806
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=604
+stats: {}
+tags:
+- Comprehensive University and Vocational School Preparation (EJU Focus)
+- Specialized STEM (Science) and Art/Design Tracks
+- On-Campus Dormitory Options, including Single Rooms
+- Robust Scholarship and Financial Aid Programs
+- Advanced Business and Conversational Japanese Training
+thumbnail: /static/img/pin-school.png
+title: 시즈오카 일본어 학원
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

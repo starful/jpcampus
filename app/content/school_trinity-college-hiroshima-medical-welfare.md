@@ -16,6 +16,9 @@ courses:
 - admission_month: '4'
   course_name: 介護進学コース
   total_fees: 875000
+date: '2026-06-12'
+description: Explore Trinity College Hiroshima Medical & Welfare Vocational School.
+  Find 2026 Japanese course tuition, requirements, and admission info on JP Campus.
 faculties: []
 features:
 - Integrated Learning Environment within a Vocational School
@@ -32,6 +35,10 @@ layout: school
 location:
   lat: 34.3968878
   lng: 132.469504
+seo_description: Explore Trinity College Hiroshima Medical & Welfare Vocational School.
+  Find 2026 Japanese course tuition, requirements, and admission info on JP Campus.
+seo_title: Trinity College Hiroshima Medical & Welfare Vocational School (2026) |
+  JP Campus
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=565
 stats: {}
 tags:
@@ -46,14 +53,7 @@ tags:
 thumbnail: /static/img/pin-school.png
 title: Trinity College Hiroshima Medical and Welfare Vocational School (2026)
 tuition: {}
-description: Explore Trinity College Hiroshima Medical & Welfare Vocational School.
-  Find 2026 Japanese course tuition, requirements, and admission info on JP Campus.
-seo_title: Trinity College Hiroshima Medical & Welfare Vocational School (2026) |
-  JP Campus
-seo_description: Explore Trinity College Hiroshima Medical & Welfare Vocational School.
-  Find 2026 Japanese course tuition, requirements, and admission info on JP Campus.
 ---
-
 
 ## 🏫 School Overview & Philosophy
 

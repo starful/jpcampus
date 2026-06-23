@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_utsunomiya-university-international-student-guide",
-  "title": "우츠노미야 대학교",
-  "category": "university",
-  "tags": [
-    "World-Class Optical Research Center (CORE)",
-    "Pioneer in Regional Design and Revitalization",
-    "Highly Specialized Agricultural Research (Tochigi Strawberry Science)",
-    "Strong Ties with Local Industry and Manufacturing"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宇都宮大学",
-    "name_en": "Utsunomiya University",
-    "address": "350 Mine-machi, Utsunomiya-shi, Tochigi 321-8505, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 240,
-    "acceptance_rate": "35% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Data Science",
-    "Faculty of International Studies",
-    "Faculty of Education",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "세계적인 광학 연구 센터 (CORE)",
-    "지역 디자인 및 활성화 선구자",
-    "고도로 전문화된 농업 연구 (토치기 딸기 과학)",
-    "지역 산업 및 제조업과의 강력한 연계"
-  ],
-  "description": "토치기현에 위치한 우츠노미야 대학교는 세계적 수준의 광학 연구, 지역 디자인, 딸기 과학, 그리고 지역 산업과의 강력한 연계를 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 350 Mine-machi, Utsunomiya-shi, Tochigi 321-8505, Japan
+  capacity: null
+  name_en: Utsunomiya University
+  name_ja: 宇都宮大学
+category: university
+date: '2026-02-13'
+description: 토치기현에 위치한 우츠노미야 대학교는 세계적 수준의 광학 연구, 지역 디자인, 딸기 과학, 그리고 지역 산업과의 강력한 연계를
+  자랑합니다.
+faculties:
+- School of Data Science
+- Faculty of International Studies
+- Faculty of Education
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- 세계적인 광학 연구 센터 (CORE)
+- 지역 디자인 및 활성화 선구자
+- 고도로 전문화된 농업 연구 (토치기 딸기 과학)
+- 지역 산업 및 제조업과의 강력한 연계
+id: univ_utsunomiya-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35% (Estimated)
+  international_students: 240
+tags:
+- World-Class Optical Research Center (CORE)
+- Pioneer in Regional Design and Revitalization
+- Highly Specialized Agricultural Research (Tochigi Strawberry Science)
+- Strong Ties with Local Industry and Manufacturing
+thumbnail: /static/img/pin-univ.png
+title: 우츠노미야 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 소개: 토치기현 우수성의 관문

@@ -1,65 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区新宿7-18-7",
-    "capacity": 286,
-    "name_en": "Higashi Shinjuku Japanese Language Institute",
-    "name_ja": "東新宿日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1698000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヵ月コース",
-      "total_fees": 1507000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 1317000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヵ月コース",
-      "total_fees": 1104500
-    }
-  ],
-  "description": "도쿄 신주쿠에 위치한 히가시 신주쿠 일본어학원은 학생들이 고등 교육을 받을 수 있도록 종합적인 일본어 교육을 제공합니다. 소규모 학급, 기숙사 숙박 시설, EJU 준비 지원 등의 특징이 있습니다.",
-  "faculties": [],
-  "features": [
-    "고등 교육 진학",
-    "소규모 학급",
-    "기숙사 숙박 시설",
-    "EJU 준비 지원"
-  ],
-  "id": "school_higashi-shinjuku-japanese-language-institute",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7009145,
-    "lng": 139.7106059
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=105",
-  "stats": {
-    "capacity": 286,
-    "international_students": 270
-  },
-  "tags": [
-    "Higher Education Advancement",
-    "Small Class Sizes",
-    "Dormitory Accommodation",
-    "EJU Preparation Support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "히가시 신주쿠 일본어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区新宿7-18-7
+  capacity: 286
+  name_en: Higashi Shinjuku Japanese Language Institute
+  name_ja: 東新宿日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1698000
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1507000
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1317000
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 1104500
+date: '2026-01-28'
+description: 도쿄 신주쿠에 위치한 히가시 신주쿠 일본어학원은 학생들이 고등 교육을 받을 수 있도록 종합적인 일본어 교육을 제공합니다. 소규모
+  학급, 기숙사 숙박 시설, EJU 준비 지원 등의 특징이 있습니다.
+faculties: []
+features:
+- 고등 교육 진학
+- 소규모 학급
+- 기숙사 숙박 시설
+- EJU 준비 지원
+id: school_higashi-shinjuku-japanese-language-institute
+lang: kr
+layout: school
+location:
+  lat: 35.7009145
+  lng: 139.7106059
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=105
+stats:
+  capacity: 286
+  international_students: 270
+tags:
+- Higher Education Advancement
+- Small Class Sizes
+- Dormitory Accommodation
+- EJU Preparation Support
+thumbnail: /static/img/pin-school.png
+title: 히가시 신주쿠 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

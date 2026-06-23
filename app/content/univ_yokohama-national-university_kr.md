@@ -1,49 +1,42 @@
 ---
-{
-  "basic_info": {
-    "address": "〒240-8501 神奈川県横浜市保土ケ谷区常盤台79-1",
-    "name_en": "Yokohama National University",
-    "name_ja": "横浜国立大学",
-    "website": "https://www.ynu.ac.jp/"
-  },
-  "category": "university",
-  "description": "요코하마 국립대학교를 탐험해보세요. 다양한 영어 프로그램, 기숙사, 장학금을 제공하는 일본 최고의 대학입니다. 학부, 국제 학생 생활 등에 대해 알아보세요.",
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Engineering Science",
-    "Faculty of Urban Sciences"
-  ],
-  "features": [
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_yokohama-national-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 900
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "요코하마 국립대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 817800
-  }
-}
+basic_info:
+  address: 〒240-8501 神奈川県横浜市保土ケ谷区常盤台79-1
+  name_en: Yokohama National University
+  name_ja: 横浜国立大学
+  website: https://www.ynu.ac.jp/
+category: university
+date: '2026-01-28'
+description: 요코하마 국립대학교를 탐험해보세요. 다양한 영어 프로그램, 기숙사, 장학금을 제공하는 일본 최고의 대학입니다. 학부, 국제
+  학생 생활 등에 대해 알아보세요.
+faculties:
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Engineering Science
+- Faculty of Urban Sciences
+features:
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_yokohama-national-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30%
+  international_students: 900
+tags:
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 요코하마 국립대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 817800
 ---
 
 ## 🏫 대학교 개요 및 명성

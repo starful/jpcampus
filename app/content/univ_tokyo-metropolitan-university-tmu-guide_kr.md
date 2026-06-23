@@ -1,57 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "1-1 Minami-Osawa, Hachioji, Tokyo 192-0397, Japan (Minami-Osawa Campus)",
-    "capacity": null,
-    "name_en": "Tokyo Metropolitan University",
-    "name_ja": "東京都立大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Law",
-    "Faculty of Economics and Business Administration",
-    "Faculty of Science",
-    "Faculty of Urban Environment Sciences",
-    "Faculty of Systems Design",
-    "Faculty of Health Sciences"
-  ],
-  "features": [
-    "도쿄의 주요 공립 대학",
-    "도시 연구 및 시스템 디자인에 대한 강력한 집중",
-    "매우 저렴한 학비",
-    "EJU 필수 (높은 점수 필요)",
-    "제한된 영어 프로그램 (학부)",
-    "광범위한 수업료 면제 프로그램"
-  ],
-  "id": "univ_tokyo-metropolitan-university-tmu-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "25% (매우 경쟁적)",
-    "international_students": 450
-  },
-  "tags": [
-    "Leading Public University in Tokyo",
-    "Strong Focus on Urban Studies and Systems Design",
-    "Highly Affordable Tuition Rates",
-    "EJU Required (High Score Necessary)",
-    "Limited English Programs (Undergraduate)",
-    "Extensive Tuition Fee Waiver Program"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도쿄 도립대학교",
-  "description": "도쿄 도립대학교 (TMU)는 도시 연구, 시스템 디자인 및 저렴한 학비로 유명한 도쿄의 주요 공립 대학입니다. 유학생을 위한 정보와 지원 서비스를 확인하세요.",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 520800
-  }
-}
+basic_info:
+  address: 1-1 Minami-Osawa, Hachioji, Tokyo 192-0397, Japan (Minami-Osawa Campus)
+  capacity: null
+  name_en: Tokyo Metropolitan University
+  name_ja: 東京都立大学
+category: university
+date: '2026-01-28'
+description: 도쿄 도립대학교 (TMU)는 도시 연구, 시스템 디자인 및 저렴한 학비로 유명한 도쿄의 주요 공립 대학입니다. 유학생을 위한
+  정보와 지원 서비스를 확인하세요.
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Law
+- Faculty of Economics and Business Administration
+- Faculty of Science
+- Faculty of Urban Environment Sciences
+- Faculty of Systems Design
+- Faculty of Health Sciences
+features:
+- 도쿄의 주요 공립 대학
+- 도시 연구 및 시스템 디자인에 대한 강력한 집중
+- 매우 저렴한 학비
+- EJU 필수 (높은 점수 필요)
+- 제한된 영어 프로그램 (학부)
+- 광범위한 수업료 면제 프로그램
+id: univ_tokyo-metropolitan-university-tmu-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25% (매우 경쟁적)
+  international_students: 450
+tags:
+- Leading Public University in Tokyo
+- Strong Focus on Urban Studies and Systems Design
+- Highly Affordable Tuition Rates
+- EJU Required (High Score Necessary)
+- Limited English Programs (Undergraduate)
+- Extensive Tuition Fee Waiver Program
+thumbnail: /static/img/pin-univ.png
+title: 도쿄 도립대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 520800
 ---
 
 ## 대학 개요

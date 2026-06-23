@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamagata-prefectural-university-of-health-sciences-guide",
-  "title": "Yamagata Prefectural University of Health Sciences",
-  "category": "university",
-  "tags": [
-    "Consistently high national exam pass rates for medical licenses",
-    "Small-group education with a focus on regional medical contribution",
-    "Affordable public university tuition with regional benefits",
-    "State-of-the-art medical simulation and rehabilitation labs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山形県立保健医療大学",
-    "name_en": "Yamagata Prefectural University of Health Sciences",
-    "address": "260 Kamiyanagi, Yamagata-shi, Yamagata 990-2212, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 5,
-    "acceptance_rate": "15-20%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Health Sciences",
-    "Department of Nursing",
-    "Department of Physical Therapy",
-    "Department of Occupational Therapy",
-    "Graduate School of Health Sciences"
-  ],
-  "features": [
-    "Consistently high national exam pass rates for medical licenses",
-    "Small-group education with a focus on regional medical contribution",
-    "Affordable public university tuition with regional benefits",
-    "State-of-the-art medical simulation and rehabilitation labs"
-  ]
-}
+basic_info:
+  address: 260 Kamiyanagi, Yamagata-shi, Yamagata 990-2212, Japan
+  capacity: null
+  name_en: Yamagata Prefectural University of Health Sciences
+  name_ja: 山形県立保健医療大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Health Sciences
+- Department of Nursing
+- Department of Physical Therapy
+- Department of Occupational Therapy
+- Graduate School of Health Sciences
+features:
+- Consistently high national exam pass rates for medical licenses
+- Small-group education with a focus on regional medical contribution
+- Affordable public university tuition with regional benefits
+- State-of-the-art medical simulation and rehabilitation labs
+id: univ_yamagata-prefectural-university-of-health-sciences-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-20%
+  international_students: 5
+tags:
+- Consistently high national exam pass rates for medical licenses
+- Small-group education with a focus on regional medical contribution
+- Affordable public university tuition with regional benefits
+- State-of-the-art medical simulation and rehabilitation labs
+thumbnail: /static/img/pin-univ.png
+title: Yamagata Prefectural University of Health Sciences
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

@@ -1,63 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "奈良県奈良市法蓮町7-2",
-    "capacity": 180,
-    "name_en": "Nara Sogo Business College (Japanese Language Division)",
-    "name_ja": "奈良総合ビジネス専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Preparation 2-Year Course",
-      "total_fees": 1540000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Preparation 1.5-Year Course",
-      "total_fees": 1195000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합적인 대학 진학 준비",
-    "EJU (일본유학시험) 특화 지원",
-    "교내 기숙사 시설 이용 가능",
-    "실용적인 회화 및 비즈니스 일본어 집중",
-    "독점 장학금 프로그램",
-    "1인실 포함 다양한 숙박 옵션",
-    "이공계, 미술, 디자인 전공 특화 트랙",
-    "단기 유학 옵션"
-  ],
-  "id": "school_nara-sogo-business-college-japanese-language-division",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6890115,
-    "lng": 135.8258508
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=383",
-  "stats": {
-    "capacity": 180,
-    "international_students": 150
-  },
-  "tags": [
-    "Comprehensive University Preparation",
-    "Specialized EJU (Examination for Japanese University Admission) Support",
-    "On-Campus Dormitory Facilities Available",
-    "Focus on Practical Conversation and Business Japanese",
-    "Exclusive Scholarship Programs",
-    "Accommodation Options Including Single Rooms",
-    "Specialized Tracks for Science, Art, and Design Majors",
-    "Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "나라종합비즈니스전문학교 (일본어학과)",
-  "description": "나라에 위치한 나라종합비즈니스전문학교 일본어학과는 대학 진학을 위한 집중적인 EJU 준비 및 맞춤형 커리큘럼을 제공합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 奈良県奈良市法蓮町7-2
+  capacity: 180
+  name_en: Nara Sogo Business College (Japanese Language Division)
+  name_ja: 奈良総合ビジネス専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Preparation 2-Year Course
+  total_fees: 1540000
+- admission_month: '10'
+  course_name: University Preparation 1.5-Year Course
+  total_fees: 1195000
+date: '2026-01-28'
+description: 나라에 위치한 나라종합비즈니스전문학교 일본어학과는 대학 진학을 위한 집중적인 EJU 준비 및 맞춤형 커리큘럼을 제공합니다.
+faculties: []
+features:
+- 종합적인 대학 진학 준비
+- EJU (일본유학시험) 특화 지원
+- 교내 기숙사 시설 이용 가능
+- 실용적인 회화 및 비즈니스 일본어 집중
+- 독점 장학금 프로그램
+- 1인실 포함 다양한 숙박 옵션
+- 이공계, 미술, 디자인 전공 특화 트랙
+- 단기 유학 옵션
+id: school_nara-sogo-business-college-japanese-language-division
+lang: kr
+layout: school
+location:
+  lat: 34.6890115
+  lng: 135.8258508
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=383
+stats:
+  capacity: 180
+  international_students: 150
+tags:
+- Comprehensive University Preparation
+- Specialized EJU (Examination for Japanese University Admission) Support
+- On-Campus Dormitory Facilities Available
+- Focus on Practical Conversation and Business Japanese
+- Exclusive Scholarship Programs
+- Accommodation Options Including Single Rooms
+- Specialized Tracks for Science, Art, and Design Majors
+- Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: 나라종합비즈니스전문학교 (일본어학과)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

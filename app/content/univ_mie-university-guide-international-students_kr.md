@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_mie-university-guide-international-students",
-  "title": "미에 대학교 (Mie University)",
-  "category": "university",
-  "tags": [
-    "Green Campus with ISO 14001 Certification",
-    "World-Leading International Ninja Research Center",
-    "Strong Ties to Regional Industry (Automotive and Logistics)",
-    "Comprehensive Coastal Campus with University Hospital"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "三重大学",
-    "name_en": "Mie University",
-    "address": "1577 Kurimamachiya-cho, Tsu City, Mie Prefecture 514-8507, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Humanities, Law and Economics",
-    "Education",
-    "Medicine",
-    "Engineering",
-    "Bioresources"
-  ],
-  "features": [
-    "ISO 14001 인증을 받은 친환경 캠퍼스",
-    "세계적인 국제 닌자 연구 센터",
-    "지역 산업(자동차 및 물류)과의 강력한 연계",
-    "대학 병원을 갖춘 종합 해안 캠퍼스"
-  ],
-  "description": "미에현 츠시에 위치한 미에 대학교는 환경 친화적인 캠퍼스와 독특한 학문 분야로 유명합니다. 국제 닌자 연구 센터와 지역 산업과의 강력한 연계는 특별한 강점입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1577 Kurimamachiya-cho, Tsu City, Mie Prefecture 514-8507, Japan
+  capacity: null
+  name_en: Mie University
+  name_ja: 三重大学
+category: university
+date: '2026-02-13'
+description: 미에현 츠시에 위치한 미에 대학교는 환경 친화적인 캠퍼스와 독특한 학문 분야로 유명합니다. 국제 닌자 연구 센터와 지역 산업과의
+  강력한 연계는 특별한 강점입니다.
+faculties:
+- Humanities, Law and Economics
+- Education
+- Medicine
+- Engineering
+- Bioresources
+features:
+- ISO 14001 인증을 받은 친환경 캠퍼스
+- 세계적인 국제 닌자 연구 센터
+- 지역 산업(자동차 및 물류)과의 강력한 연계
+- 대학 병원을 갖춘 종합 해안 캠퍼스
+id: univ_mie-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 320
+tags:
+- Green Campus with ISO 14001 Certification
+- World-Leading International Ninja Research Center
+- Strong Ties to Regional Industry (Automotive and Logistics)
+- Comprehensive Coastal Campus with University Hospital
+thumbnail: /static/img/pin-univ.png
+title: 미에 대학교 (Mie University)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

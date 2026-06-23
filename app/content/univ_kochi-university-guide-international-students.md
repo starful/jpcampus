@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kochi-university-guide-international-students",
-  "title": "Kochi University",
-  "category": "university",
-  "tags": [
-    "World-class Marine and Subtropical Agriculture Research",
-    "First-in-Japan Faculty of Regional Collaboration",
-    "Strategic Focus on Disaster Prevention and Kuroshio Science",
-    "Highly Affordable Living Costs in a Nature-Rich Environment"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "高知大学",
-    "name_en": "Kochi University",
-    "address": "2-5-1 Akebono-cho, Kochi-shi, Kochi, 780-8520, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 178,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education",
-    "Faculty of Science and Technology",
-    "Medical School",
-    "Faculty of Agriculture and Marine Science",
-    "Faculty of Regional Collaboration"
-  ],
-  "features": [
-    "World-class Marine and Subtropical Agriculture Research",
-    "First-in-Japan Faculty of Regional Collaboration",
-    "Strategic Focus on Disaster Prevention and Kuroshio Science",
-    "Highly Affordable Living Costs in a Nature-Rich Environment"
-  ]
-}
+basic_info:
+  address: 2-5-1 Akebono-cho, Kochi-shi, Kochi, 780-8520, Japan
+  capacity: null
+  name_en: Kochi University
+  name_ja: 高知大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education
+- Faculty of Science and Technology
+- Medical School
+- Faculty of Agriculture and Marine Science
+- Faculty of Regional Collaboration
+features:
+- World-class Marine and Subtropical Agriculture Research
+- First-in-Japan Faculty of Regional Collaboration
+- Strategic Focus on Disaster Prevention and Kuroshio Science
+- Highly Affordable Living Costs in a Nature-Rich Environment
+id: univ_kochi-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 178
+tags:
+- World-class Marine and Subtropical Agriculture Research
+- First-in-Japan Faculty of Regional Collaboration
+- Strategic Focus on Disaster Prevention and Kuroshio Science
+- Highly Affordable Living Costs in a Nature-Rich Environment
+thumbnail: /static/img/pin-univ.png
+title: Kochi University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

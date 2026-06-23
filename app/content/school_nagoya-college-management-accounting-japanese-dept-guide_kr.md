@@ -1,67 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市千種区仲田2-17-5",
-    "capacity": 320,
-    "name_en": "Nagoya College of Management and Accounting, Japanese Language Department",
-    "name_ja": "名古屋経営会計専門学校日本語科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語科2年コース",
-      "total_fees": 1639000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語科1.5年コース",
-      "total_fees": 1249000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 중심의 교육 (신가쿠)",
-    "소규모 학급으로 개인별 맞춤 지도",
-    "전문학교 내 통합 학습 환경",
-    "종합적인 진학 트랙 (EJU, 이학, 비즈니스, 미술/디자인)",
-    "졸업 및 전문 과정 이수 시 '전문사' 자격 취득 가능",
-    "학교 운영 기숙사 이용 가능",
-    "1인실 기숙사 유닛 이용 가능",
-    "실용적인 회화 능력 강조",
-    "풍부한 장학금 기회",
-    "단기 연수 기회 제공"
-  ],
-  "id": "school_nagoya-college-management-accounting-japanese-dept-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.1685769,
-    "lng": 136.9423278
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=284",
-  "stats": {
-    "capacity": 320,
-    "international_students": 0
-  },
-  "tags": [
-    "Strong Focus on Higher Education Progression (Shin-gaku)",
-    "Small Class Sizes for Personalized Attention",
-    "Integrated Learning Environment within a Vocational College (Senmon Gakko)",
-    "Comprehensive Progression Tracks (EJU, Science, Business, Art/Design)",
-    "Eligibility for 'Senmonshi' (Specialist Degree Title) upon graduation and specialized study",
-    "School-managed Dormitory Options Available",
-    "Availability of Single Room Dormitory Units",
-    "Emphasis on Practical Conversational Skills (Kaiwa)",
-    "Generous Scholarship Opportunities",
-    "Short-Term Study Opportunities Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "나고야 경영회계 전문학교 일본어학과",
-  "description": "나고야 경영회계 전문학교 일본어학과는 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다. 전문학교 내 통합 학습 환경, 소규모 학급, 체계적인 커리큘럼을 통해 일본어 능력 향상과 성공적인 유학 생활을 지원합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県名古屋市千種区仲田2-17-5
+  capacity: 320
+  name_en: Nagoya College of Management and Accounting, Japanese Language Department
+  name_ja: 名古屋経営会計専門学校日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語科2年コース
+  total_fees: 1639000
+- admission_month: '10'
+  course_name: 日本語科1.5年コース
+  total_fees: 1249000
+date: '2026-01-28'
+description: 나고야 경영회계 전문학교 일본어학과는 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다. 전문학교 내 통합 학습
+  환경, 소규모 학급, 체계적인 커리큘럼을 통해 일본어 능력 향상과 성공적인 유학 생활을 지원합니다.
+faculties: []
+features:
+- 대학 진학 중심의 교육 (신가쿠)
+- 소규모 학급으로 개인별 맞춤 지도
+- 전문학교 내 통합 학습 환경
+- 종합적인 진학 트랙 (EJU, 이학, 비즈니스, 미술/디자인)
+- 졸업 및 전문 과정 이수 시 '전문사' 자격 취득 가능
+- 학교 운영 기숙사 이용 가능
+- 1인실 기숙사 유닛 이용 가능
+- 실용적인 회화 능력 강조
+- 풍부한 장학금 기회
+- 단기 연수 기회 제공
+id: school_nagoya-college-management-accounting-japanese-dept-guide
+lang: kr
+layout: school
+location:
+  lat: 35.1685769
+  lng: 136.9423278
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=284
+stats:
+  capacity: 320
+  international_students: 0
+tags:
+- Strong Focus on Higher Education Progression (Shin-gaku)
+- Small Class Sizes for Personalized Attention
+- Integrated Learning Environment within a Vocational College (Senmon Gakko)
+- Comprehensive Progression Tracks (EJU, Science, Business, Art/Design)
+- Eligibility for 'Senmonshi' (Specialist Degree Title) upon graduation and specialized
+  study
+- School-managed Dormitory Options Available
+- Availability of Single Room Dormitory Units
+- Emphasis on Practical Conversational Skills (Kaiwa)
+- Generous Scholarship Opportunities
+- Short-Term Study Opportunities Available
+thumbnail: /static/img/pin-school.png
+title: 나고야 경영회계 전문학교 일본어학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

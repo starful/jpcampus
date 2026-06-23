@@ -1,74 +1,62 @@
 ---
-{
-  "basic_info": {
-    "address": "島根県出雲市西新町3-23-1",
-    "capacity": 60,
-    "name_en": "Trinity College Izumo Medical and Welfare Vocational School",
-    "name_ja": "トリニティカレッジ出雲医療福祉専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "介護進学コース",
-      "total_fees": 865000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語進学2年コース",
-      "total_fees": 1615000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語進学1.5年コース",
-      "total_fees": 1240000
-    }
-  ],
-  "description": "트리니티 칼리지 이즈모 의료복지전문학교는 시마네현 이즈모시에 위치하고 있습니다. 이 학교는 일본의 고등 교육, 특히 의료 및 복지 분야에 관심 있는 유학생들을 위한 준비 과정을 제공합니다. 캠퍼스 내 기숙사, 장학금, EJU 준비반 등의 특징을 가지고 있습니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "개인실",
-    "장학금",
-    "EJU 준비",
-    "과학 중심",
-    "대학 진학",
-    "회화 일본어",
-    "비즈니스 일본어",
-    "미술",
-    "디자인",
-    "단기 코스"
-  ],
-  "id": "school_trinity-college-izumo-medical-welfare",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.332186,
-    "lng": 132.722255
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=552",
-  "stats": {
-    "capacity": 60,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Private Room",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Focused",
-    "University Advancement",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "트리니티 칼리지 이즈모 의료복지전문학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 島根県出雲市西新町3-23-1
+  capacity: 60
+  name_en: Trinity College Izumo Medical and Welfare Vocational School
+  name_ja: トリニティカレッジ出雲医療福祉専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 介護進学コース
+  total_fees: 865000
+- admission_month: '4'
+  course_name: 日本語進学2年コース
+  total_fees: 1615000
+- admission_month: '10'
+  course_name: 日本語進学1.5年コース
+  total_fees: 1240000
+date: '2026-01-28'
+description: 트리니티 칼리지 이즈모 의료복지전문학교는 시마네현 이즈모시에 위치하고 있습니다. 이 학교는 일본의 고등 교육, 특히 의료 및
+  복지 분야에 관심 있는 유학생들을 위한 준비 과정을 제공합니다. 캠퍼스 내 기숙사, 장학금, EJU 준비반 등의 특징을 가지고 있습니다.
+faculties: []
+features:
+- 기숙사
+- 개인실
+- 장학금
+- EJU 준비
+- 과학 중심
+- 대학 진학
+- 회화 일본어
+- 비즈니스 일본어
+- 미술
+- 디자인
+- 단기 코스
+id: school_trinity-college-izumo-medical-welfare
+lang: kr
+layout: school
+location:
+  lat: 35.332186
+  lng: 132.722255
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=552
+stats:
+  capacity: 60
+  international_students: 0
+tags:
+- Dormitory
+- Private Room
+- Scholarships
+- EJU Preparation
+- Science Focused
+- University Advancement
+- Conversational Japanese
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 트리니티 칼리지 이즈모 의료복지전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 1.5-Year Japanese Language Course
   total_fees: 1035000
+date: '2026-01-28'
 description: The International College of Foreign Languages, Tourism, and Airline
   is a vocational school located in Niigata City, offering Japanese language courses
   and career training in tourism and airline industries.

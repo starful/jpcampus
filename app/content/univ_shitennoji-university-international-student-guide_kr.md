@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shitennoji-university-international-student-guide",
-  "title": "시텐노지 대학교 (Shitennoji University)",
-  "description": "1,400년의 유구한 역사와 쇼토쿠 태자의 '화(和)'의 정신을 계승하며, 높은 취업률과 탄탄한 유학생 지원 시스템을 갖춘 오사카의 명문 사립대학교입니다.",
-  "category": "university",
-  "tags": [
-    "1,400년 역사의 불교 유산",
-    "탄탄한 교원 양성 프로그램",
-    "높은 졸업생 취업률",
-    "국제교류센터의 체계적인 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "四天王寺大学",
-    "name_en": "Shitennoji University",
-    "address": "3-2-1 Gakuenmae, Habikino, Osaka 583-8501, Japan",
-    "capacity": 4500
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Education",
-    "Faculty of Management",
-    "Faculty of Nursing",
-    "Faculty of Humanities and Social Sciences",
-    "Junior College Division"
-  ],
-  "features": [
-    "1,400년 역사의 불교 유산",
-    "탄탄한 교원 양성 프로그램",
-    "높은 졸업생 취업률",
-    "국제교류센터의 체계적인 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 3-2-1 Gakuenmae, Habikino, Osaka 583-8501, Japan
+  capacity: 4500
+  name_en: Shitennoji University
+  name_ja: 四天王寺大学
+category: university
+date: '2026-04-19'
+description: 1,400년의 유구한 역사와 쇼토쿠 태자의 '화(和)'의 정신을 계승하며, 높은 취업률과 탄탄한 유학생 지원 시스템을 갖춘
+  오사카의 명문 사립대학교입니다.
+faculties:
+- Faculty of Humanities
+- Faculty of Education
+- Faculty of Management
+- Faculty of Nursing
+- Faculty of Humanities and Social Sciences
+- Junior College Division
+features:
+- 1,400년 역사의 불교 유산
+- 탄탄한 교원 양성 프로그램
+- 높은 졸업생 취업률
+- 국제교류센터의 체계적인 지원
+id: univ_shitennoji-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 65
+tags:
+- 1,400년 역사의 불교 유산
+- 탄탄한 교원 양성 프로그램
+- 높은 졸업생 취업률
+- 국제교류센터의 체계적인 지원
+thumbnail: /static/img/pin-univ.png
+title: 시텐노지 대학교 (Shitennoji University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

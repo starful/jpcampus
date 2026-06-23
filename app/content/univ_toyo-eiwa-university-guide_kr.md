@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toyo-eiwa-university-guide",
-  "title": "도요에이와여학원대학",
-  "category": "university",
-  "tags": [
-    "기독교 정신의 리버럴 아츠 교육",
-    "여성을 위한 특화된 취업 지원",
-    "요코하마의 자연 친화적 캠퍼스",
-    "소수 정예 밀착 지도"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東洋英和女学院大学",
-    "name_en": "Toyo Eiwa University",
-    "address": "32-1 Miho-cho, Midori-ku, Yokohama, Kanagawa 226-0015, Japan",
-    "capacity": 1800
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "인간과학부",
-    "국제사회학부"
-  ],
-  "features": [
-    "기독교 정신에 기반한 리버럴 아츠 교육",
-    "여성을 위한 전문적인 취업 지원 시스템",
-    "요코하마의 아름답고 평온한 녹색 캠퍼스",
-    "교수진과 학생 간의 긴밀한 소통이 가능한 소수 정예 교육"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 32-1 Miho-cho, Midori-ku, Yokohama, Kanagawa 226-0015, Japan
+  capacity: 1800
+  name_en: Toyo Eiwa University
+  name_ja: 東洋英和女学院大学
+category: university
+date: '2026-03-24'
+faculties:
+- 인간과학부
+- 국제사회학부
+features:
+- 기독교 정신에 기반한 리버럴 아츠 교육
+- 여성을 위한 전문적인 취업 지원 시스템
+- 요코하마의 아름답고 평온한 녹색 캠퍼스
+- 교수진과 학생 간의 긴밀한 소통이 가능한 소수 정예 교육
+id: univ_toyo-eiwa-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 65
+tags:
+- 기독교 정신의 리버럴 아츠 교육
+- 여성을 위한 특화된 취업 지원
+- 요코하마의 자연 친화적 캠퍼스
+- 소수 정예 밀착 지도
+thumbnail: /static/img/pin-univ.png
+title: 도요에이와여학원대학
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: 전통과 역사를 자랑하는 도요에이와여학원대학

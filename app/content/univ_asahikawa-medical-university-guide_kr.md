@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_asahikawa-medical-university-guide",
-  "title": "아사히카와 의과대학교",
-  "category": "university",
-  "tags": [
-    "Global Leader in Telemedicine and Remote Healthcare",
-    "Specialized Research in Cold-Climate Medicine",
-    "State-of-the-Art University Hospital Facilities",
-    "High National Examination Passing Rates for Medical Licenses"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "旭川医科大学",
-    "name_en": "Asahikawa Medical University",
-    "address": "2-1-1-1 Midorigaoka Higashi, Asahikawa, Hokkaido 078-8510, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 38,
-    "acceptance_rate": "12%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Medicine",
-    "School of Nursing",
-    "Graduate School of Medicine"
-  ],
-  "features": [
-    "원격 의료 및 원격 건강 관리 분야의 글로벌 리더",
-    "한랭 기후 의학 전문 연구",
-    "최첨단 대학 병원 시설",
-    "높은 의사 면허 국가 시험 합격률"
-  ],
-  "description": "아사히카와 의과대학교는 홋카이도에 위치한 국립 의과대학입니다. 원격 의료 분야의 선두 주자이며, 한랭 기후 의학 연구에 특화되어 있습니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-1-1 Midorigaoka Higashi, Asahikawa, Hokkaido 078-8510, Japan
+  capacity: null
+  name_en: Asahikawa Medical University
+  name_ja: 旭川医科大学
+category: university
+date: '2026-02-13'
+description: 아사히카와 의과대학교는 홋카이도에 위치한 국립 의과대학입니다. 원격 의료 분야의 선두 주자이며, 한랭 기후 의학 연구에 특화되어
+  있습니다.
+faculties:
+- School of Medicine
+- School of Nursing
+- Graduate School of Medicine
+features:
+- 원격 의료 및 원격 건강 관리 분야의 글로벌 리더
+- 한랭 기후 의학 전문 연구
+- 최첨단 대학 병원 시설
+- 높은 의사 면허 국가 시험 합격률
+id: univ_asahikawa-medical-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 12%
+  international_students: 38
+tags:
+- Global Leader in Telemedicine and Remote Healthcare
+- Specialized Research in Cold-Climate Medicine
+- State-of-the-Art University Hospital Facilities
+- High National Examination Passing Rates for Medical Licenses
+thumbnail: /static/img/pin-univ.png
+title: 아사히카와 의과대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

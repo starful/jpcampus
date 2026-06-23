@@ -1,59 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都港区三田2-15-45",
-    "name_en": "Keio University",
-    "name_ja": "慶應義塾大学",
-    "website": "https://www.keio.ac.jp/"
-  },
-  "category": "university",
-  "description": "도쿄에 위치한 게이오대학교는 일본에서 가장 오래된 사립 고등 교육 기관입니다. 강력한 동문 네트워크와 글로벌 이니셔티브로 잘 알려져 있으며, 다양한 학부와 국제 학생을 위한 종합적인 지원을 제공합니다.",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of Business and Commerce",
-    "School of Medicine",
-    "Faculty of Science and Technology",
-    "Faculty of Policy Management",
-    "Faculty of Environment and Information Studies",
-    "Faculty of Nursing and Medical Care",
-    "Faculty of Pharmacy",
-    "Global Information Studies (GIGA)"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_keio-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6492141,
-    "lng": 139.7418255
-  },
-  "stats": {
-    "acceptance_rate": "10%",
-    "international_students": 2000
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "게이오대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  }
-}
+basic_info:
+  address: 東京都港区三田2-15-45
+  name_en: Keio University
+  name_ja: 慶應義塾大学
+  website: https://www.keio.ac.jp/
+category: university
+date: '2026-01-28'
+description: 도쿄에 위치한 게이오대학교는 일본에서 가장 오래된 사립 고등 교육 기관입니다. 강력한 동문 네트워크와 글로벌 이니셔티브로 잘
+  알려져 있으며, 다양한 학부와 국제 학생을 위한 종합적인 지원을 제공합니다.
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Law
+- Faculty of Business and Commerce
+- School of Medicine
+- Faculty of Science and Technology
+- Faculty of Policy Management
+- Faculty of Environment and Information Studies
+- Faculty of Nursing and Medical Care
+- Faculty of Pharmacy
+- Global Information Studies (GIGA)
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_keio-university
+lang: kr
+layout: school
+location:
+  lat: 35.6492141
+  lng: 139.7418255
+stats:
+  acceptance_rate: 10%
+  international_students: 2000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 게이오대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학교 개요

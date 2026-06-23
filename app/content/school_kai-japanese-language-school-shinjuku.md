@@ -12,6 +12,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 日本語総合コース午後クラス
   total_fees: 1640000
+date: '2026-01-28'
 faculties: []
 features:
 - High-level Conversational Competency Focus (The KAI Method)

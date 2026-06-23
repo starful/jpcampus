@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-marketing-and-distribution-sciences-guide",
-  "title": "유통과학대학교 (University of Marketing and Distribution Sciences)",
-  "lang": "kr",
-  "category": "university",
-  "description": "일본 유통 업계의 전설적인 인물인 나카우치 이사오가 설립한 유통과학대학교는 고베에 위치한 실무 중심 명문 대학입니다. 마케팅, 물류, 비즈니스 분야에서 압도적인 전문성을 자랑하며 유학생을 위한 체계적인 취업 지원을 제공합니다.",
-  "tags": [
-    "다이에이 그룹 창업자 설립",
-    "마케팅 및 유통 물류 특화",
-    "높은 유학생 취업률",
-    "고베 학원도시 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "流通科学大学",
-    "name_en": "University of Marketing and Distribution Sciences",
-    "address": "3-1, Gakuen-nishimachi, Nishi-ku, Kobe-shi, Hyogo, 651-2188, Japan",
-    "capacity": "약 4,500명 (총 학생 수)"
-  },
-  "stats": {
-    "international_students": 782,
-    "acceptance_rate": "55-65% (유학생 전형 추정치)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "유통마케팅학부",
-    "상학부",
-    "경제학부",
-    "인간사회학부"
-  ],
-  "features": [
-    "다이에이(Daiei) 그룹 창업자 나카우치 이사오 설립",
-    "마케팅 및 소매 물류 분야에 특화된 커리큘럼",
-    "일본 내 유학생 취업률이 매우 높음",
-    "고베의 교육 중심지인 '학원도시'에 위치한 현대적인 캠퍼스"
-  ]
-}
+basic_info:
+  address: 3-1, Gakuen-nishimachi, Nishi-ku, Kobe-shi, Hyogo, 651-2188, Japan
+  capacity: 약 4,500명 (총 학생 수)
+  name_en: University of Marketing and Distribution Sciences
+  name_ja: 流通科学大学
+category: university
+date: '2026-04-19'
+description: 일본 유통 업계의 전설적인 인물인 나카우치 이사오가 설립한 유통과학대학교는 고베에 위치한 실무 중심 명문 대학입니다. 마케팅,
+  물류, 비즈니스 분야에서 압도적인 전문성을 자랑하며 유학생을 위한 체계적인 취업 지원을 제공합니다.
+faculties:
+- 유통마케팅학부
+- 상학부
+- 경제학부
+- 인간사회학부
+features:
+- 다이에이(Daiei) 그룹 창업자 나카우치 이사오 설립
+- 마케팅 및 소매 물류 분야에 특화된 커리큘럼
+- 일본 내 유학생 취업률이 매우 높음
+- 고베의 교육 중심지인 '학원도시'에 위치한 현대적인 캠퍼스
+id: univ_university-of-marketing-and-distribution-sciences-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65% (유학생 전형 추정치)
+  international_students: 782
+tags:
+- 다이에이 그룹 창업자 설립
+- 마케팅 및 유통 물류 특화
+- 높은 유학생 취업률
+- 고베 학원도시 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 유통과학대학교 (University of Marketing and Distribution Sciences)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요: '류카(Ryuka)'의 정신

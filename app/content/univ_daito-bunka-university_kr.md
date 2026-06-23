@@ -1,55 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都板橋区高島平1-9-1",
-    "name_en": "Daito Bunka University",
-    "name_ja": "大東文化大学",
-    "website": "https://www.daito.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Foreign Studies",
-    "Faculty of Law",
-    "Faculty of International Relations",
-    "Faculty of Business Administration",
-    "Faculty of Sports and Health Science",
-    "Faculty of Sociology",
-    "Faculty of Information Science",
-    "Faculty of Environmental Creation",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "EJU 필수",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_daito-bunka-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "Competitive",
-    "international_students": 500
-  },
-  "tags": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "다이토 문화 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1060000
-  },
-  "description": "인문학, 일본 전통 문화, 국제 연구에 강점을 가진 다이토 문화 대학교에 대해 알아보세요. EJU, 기숙사, 장학금 정보 제공."
-}
+basic_info:
+  address: 東京都板橋区高島平1-9-1
+  name_en: Daito Bunka University
+  name_ja: 大東文化大学
+  website: https://www.daito.ac.jp/
+category: university
+date: '2026-01-28'
+description: 인문학, 일본 전통 문화, 국제 연구에 강점을 가진 다이토 문화 대학교에 대해 알아보세요. EJU, 기숙사, 장학금 정보 제공.
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Foreign Studies
+- Faculty of Law
+- Faculty of International Relations
+- Faculty of Business Administration
+- Faculty of Sports and Health Science
+- Faculty of Sociology
+- Faculty of Information Science
+- Faculty of Environmental Creation
+- Faculty of Nursing
+features:
+- EJU 필수
+- 기숙사
+- 장학금
+id: univ_daito-bunka-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive
+  international_students: 500
+tags:
+- EJU Required
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 다이토 문화 대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1060000
 ---
 
 ## 대학교 개요

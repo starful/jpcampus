@@ -15,6 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コースＣ　2年コース
   total_fees: 1433000
+date: '2026-01-28'
 faculties: []
 features:
 - Located in Naha, Okinawa (Subtropical Environment)

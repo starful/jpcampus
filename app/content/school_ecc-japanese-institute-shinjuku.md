@@ -15,6 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語総合2年コース
   total_fees: 1574000
+date: '2026-01-28'
 faculties: []
 features:
 - Part of the renowned ECC education group, ensuring quality pedagogy

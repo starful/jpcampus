@@ -1,54 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-toyama-international-student-guide",
-  "title": "도야마 대학교",
-  "category": "university",
-  "tags": [
-    "World-Class Pharmacy and Drug Discovery Research",
-    "Strategic Industry-Academia Collaboration in Aluminum and Manufacturing",
-    "Comprehensive National University with 9 Specialized Faculties",
-    "Unique Sustainable Design Faculty focusing on Environmental Harmony"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "富山大学",
-    "name_en": "University of Toyama",
-    "address": "3190 Gofuku, Toyama-shi, Toyama 930-8555, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 382,
-    "acceptance_rate": "25-35% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Humanities",
-    "Education",
-    "Economics",
-    "Science",
-    "Engineering",
-    "Medicine",
-    "Pharmacy and Pharmaceutical Sciences",
-    "Art and Design",
-    "Sustainable Design"
-  ],
-  "features": [
-    "세계적인 수준의 약학 및 신약 개발 연구",
-    "알루미늄 및 제조 분야의 전략적 산학 협력",
-    "9개의 특화된 학부를 갖춘 종합 국립 대학",
-    "환경 조화를 중시하는 독창적인 지속 가능한 디자인 학부"
-  ],
-  "description": "도야마 대학교는 일본 호쿠리쿠 지역의 보석 같은 존재입니다. 수준 높은 학업 환경과 독특한 연구 기회를 제공하는 국립 대학입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3190 Gofuku, Toyama-shi, Toyama 930-8555, Japan
+  capacity: null
+  name_en: University of Toyama
+  name_ja: 富山大学
+category: university
+date: '2026-02-13'
+description: 도야마 대학교는 일본 호쿠리쿠 지역의 보석 같은 존재입니다. 수준 높은 학업 환경과 독특한 연구 기회를 제공하는 국립 대학입니다.
+faculties:
+- Humanities
+- Education
+- Economics
+- Science
+- Engineering
+- Medicine
+- Pharmacy and Pharmaceutical Sciences
+- Art and Design
+- Sustainable Design
+features:
+- 세계적인 수준의 약학 및 신약 개발 연구
+- 알루미늄 및 제조 분야의 전략적 산학 협력
+- 9개의 특화된 학부를 갖춘 종합 국립 대학
+- 환경 조화를 중시하는 독창적인 지속 가능한 디자인 학부
+id: univ_university-of-toyama-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (Estimated)
+  international_students: 382
+tags:
+- World-Class Pharmacy and Drug Discovery Research
+- Strategic Industry-Academia Collaboration in Aluminum and Manufacturing
+- Comprehensive National University with 9 Specialized Faculties
+- Unique Sustainable Design Faculty focusing on Environmental Harmony
+thumbnail: /static/img/pin-univ.png
+title: 도야마 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 소개: 호쿠리쿠 지방의 보석

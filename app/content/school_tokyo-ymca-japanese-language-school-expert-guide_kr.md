@@ -1,57 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都江東区東陽2-2-15",
-    "capacity": 156,
-    "name_en": "Tokyo YMCA Japanese Language School",
-    "name_ja": "東京YMCAにほんご学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "一般1年6か月コース",
-      "total_fees": 1045000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1360000
-    }
-  ],
-  "description": "도쿄 YMCA 일본어 학교에서 지원적이고 커뮤니티 중심적인 환경에서 일본어를 배우세요. 헌신적인 EJU 준비, 맞춤형 지도, 일본 대학으로의 학업 발전에 대한 강력한 집중을 통해 혜택을 누리세요.",
-  "faculties": [],
-  "features": [
-    "EJU(일본 대학 입학 시험)를 위한 헌신적인 준비",
-    "일본 대학으로의 강력한 학업 발전(신가쿠)에 집중",
-    "윤리적이고 전체적인 교육을 보장하는 글로벌 비영리 YMCA와 제휴",
-    "집중적이고 개인화된 학습 환경을 조성하는 소규모 학교 규모",
-    "종합적인 학생 지원 및 생활 지원 네트워크"
-  ],
-  "id": "school_tokyo-ymca-japanese-language-school-expert-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6671287,
-    "lng": 139.8162446
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=460",
-  "stats": {
-    "capacity": 156,
-    "international_students": 156
-  },
-  "tags": [
-    "Dedicated Preparation for EJU (Examination for Japanese University Admission)",
-    "Strong Focus on Academic Progression (Shingaku) to Japanese Universities",
-    "Affiliated with the Global Non-Profit YMCA, ensuring ethical and holistic education",
-    "Small School Capacity fostering intensive, personalized learning environments",
-    "Comprehensive Student Support and Pastoral Care Network"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "도쿄 YMCA 일본어 학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都江東区東陽2-2-15
+  capacity: 156
+  name_en: Tokyo YMCA Japanese Language School
+  name_ja: 東京YMCAにほんご学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 1045000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1360000
+date: '2026-01-28'
+description: 도쿄 YMCA 일본어 학교에서 지원적이고 커뮤니티 중심적인 환경에서 일본어를 배우세요. 헌신적인 EJU 준비, 맞춤형 지도,
+  일본 대학으로의 학업 발전에 대한 강력한 집중을 통해 혜택을 누리세요.
+faculties: []
+features:
+- EJU(일본 대학 입학 시험)를 위한 헌신적인 준비
+- 일본 대학으로의 강력한 학업 발전(신가쿠)에 집중
+- 윤리적이고 전체적인 교육을 보장하는 글로벌 비영리 YMCA와 제휴
+- 집중적이고 개인화된 학습 환경을 조성하는 소규모 학교 규모
+- 종합적인 학생 지원 및 생활 지원 네트워크
+id: school_tokyo-ymca-japanese-language-school-expert-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6671287
+  lng: 139.8162446
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=460
+stats:
+  capacity: 156
+  international_students: 156
+tags:
+- Dedicated Preparation for EJU (Examination for Japanese University Admission)
+- Strong Focus on Academic Progression (Shingaku) to Japanese Universities
+- Affiliated with the Global Non-Profit YMCA, ensuring ethical and holistic education
+- Small School Capacity fostering intensive, personalized learning environments
+- Comprehensive Student Support and Pastoral Care Network
+thumbnail: /static/img/pin-school.png
+title: 도쿄 YMCA 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

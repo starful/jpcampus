@@ -1,46 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagaoka-university-international-student-guide",
-  "title": "나가오카 대학 (Nagaoka University)",
-  "description": "니가타현 나가오카시에 위치한 나가오카 대학은 지역 경영 특화 교육과 밀착형 제미 시스템을 통해 높은 취업률을 자랑하는 지역 거점 대학입니다.",
-  "category": "university",
-  "tags": [
-    "지역 경영 특화 교육",
-    "밀착형 세미나(제미) 학습 시스템",
-    "지역 기업 취업 지원 강점",
-    "니가타현의 저렴한 생활비"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "長岡大学",
-    "name_en": "Nagaoka University",
-    "address": "80-8 Gokurakuji-machi, Nagaoka-shi, Niigata 940-0828, Japan",
-    "capacity": 550
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 740000
-  },
-  "faculties": [
-    "경제경영학부"
-  ],
-  "features": [
-    "지역 경영 특화 교육",
-    "밀착형 세미나(제미) 학습 시스템",
-    "지역 기업 취업 지원 강점",
-    "니가타현의 저렴한 생활비"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 80-8 Gokurakuji-machi, Nagaoka-shi, Niigata 940-0828, Japan
+  capacity: 550
+  name_en: Nagaoka University
+  name_ja: 長岡大学
+category: university
+date: '2026-03-24'
+description: 니가타현 나가오카시에 위치한 나가오카 대학은 지역 경영 특화 교육과 밀착형 제미 시스템을 통해 높은 취업률을 자랑하는 지역
+  거점 대학입니다.
+faculties:
+- 경제경영학부
+features:
+- 지역 경영 특화 교육
+- 밀착형 세미나(제미) 학습 시스템
+- 지역 기업 취업 지원 강점
+- 니가타현의 저렴한 생활비
+id: univ_nagaoka-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 115
+tags:
+- 지역 경영 특화 교육
+- 밀착형 세미나(제미) 학습 시스템
+- 지역 기업 취업 지원 강점
+- 니가타현의 저렴한 생활비
+thumbnail: /static/img/pin-univ.png
+title: 나가오카 대학 (Nagaoka University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 740000
 ---
 
 ## 🏫 학교 개요: 지역 활성화의 중심지

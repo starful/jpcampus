@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_niigata-university-of-international-and-information-studies",
-  "title": "Niigata University of International and Information Studies",
-  "category": "university",
-  "tags": [
-    "Comprehensive IT and Business Integration",
-    "Global Perspectives with Local Roots",
-    "Intensive Japanese Language Support",
-    "High Graduate Employment Rate"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟国際情報大学",
-    "name_en": "Niigata University of International and Information Studies",
-    "address": "3-1-1 Mizukino, Nishi-ku, Niigata City, Niigata 950-2292, Japan",
-    "capacity": 2000
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Information Systems",
-    "Faculty of International Studies"
-  ],
-  "features": [
-    "Comprehensive IT and Business Integration",
-    "Global Perspectives with Local Roots",
-    "Intensive Japanese Language Support",
-    "High Graduate Employment Rate"
-  ]
-}
+basic_info:
+  address: 3-1-1 Mizukino, Nishi-ku, Niigata City, Niigata 950-2292, Japan
+  capacity: 2000
+  name_en: Niigata University of International and Information Studies
+  name_ja: 新潟国際情報大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Information Systems
+- Faculty of International Studies
+features:
+- Comprehensive IT and Business Integration
+- Global Perspectives with Local Roots
+- Intensive Japanese Language Support
+- High Graduate Employment Rate
+id: univ_niigata-university-of-international-and-information-studies
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 115
+tags:
+- Comprehensive IT and Business Integration
+- Global Perspectives with Local Roots
+- Intensive Japanese Language Support
+- High Graduate Employment Rate
+thumbnail: /static/img/pin-univ.png
+title: Niigata University of International and Information Studies
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

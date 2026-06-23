@@ -1,64 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都文京区本郷7-3-1",
-    "name_en": "The University of Tokyo",
-    "name_ja": "東京大学",
-    "website": "https://www.u-tokyo.ac.jp/"
-  },
-  "category": "school",
-  "description": "도쿄대학교에 대한 개요, 교육 철학, 과정, 캠퍼스 생활 및 진로에 대한 정보입니다.",
-  "faculties": [
-    "法学部 (School of Law)",
-    "経済学部 (School of Economics)",
-    "文学部 (School of Letters)",
-    "理学部 (School of Science)",
-    "工学部 (School of Engineering)",
-    "医学部 (School of Medicine)",
-    "農学部 (School of Agriculture)",
-    "薬学部 (School of Pharmaceutical Sciences)",
-    "教育学部 (Faculty of Education)",
-    "教養学部 (College of Arts and Sciences)",
-    "総合文化研究科 (Graduate School of Arts and Sciences)",
-    "公共政策大学院 (Graduate School of Public Policy)",
-    "情報学環・学際情報学府 (Interfaculty Initiative in Information Studies)",
-    "新領域創成科学研究科 (Graduate School of Frontier Sciences)"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금",
-    "글로벌 캠퍼스 이니셔티브"
-  ],
-  "id": "school_the-university-of-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7115533,
-    "lng": 139.7616856
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 3700
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Global Campus Initiatives"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "도쿄대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 東京都文京区本郷7-3-1
+  name_en: The University of Tokyo
+  name_ja: 東京大学
+  website: https://www.u-tokyo.ac.jp/
+category: school
+date: '2026-01-28'
+description: 도쿄대학교에 대한 개요, 교육 철학, 과정, 캠퍼스 생활 및 진로에 대한 정보입니다.
+faculties:
+- 法学部 (School of Law)
+- 経済学部 (School of Economics)
+- 文学部 (School of Letters)
+- 理学部 (School of Science)
+- 工学部 (School of Engineering)
+- 医学部 (School of Medicine)
+- 農学部 (School of Agriculture)
+- 薬学部 (School of Pharmaceutical Sciences)
+- 教育学部 (Faculty of Education)
+- 教養学部 (College of Arts and Sciences)
+- 総合文化研究科 (Graduate School of Arts and Sciences)
+- 公共政策大学院 (Graduate School of Public Policy)
+- 情報学環・学際情報学府 (Interfaculty Initiative in Information Studies)
+- 新領域創成科学研究科 (Graduate School of Frontier Sciences)
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+- 글로벌 캠퍼스 이니셔티브
+id: school_the-university-of-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.7115533
+  lng: 139.7616856
+stats:
+  acceptance_rate: 20%
+  international_students: 3700
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Global Campus Initiatives
+thumbnail: /static/img/pin-school.png
+title: 도쿄대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요 및 철학

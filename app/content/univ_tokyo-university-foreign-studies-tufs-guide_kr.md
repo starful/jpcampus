@@ -1,51 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "3-11-1 Asahi-cho, Fuchu-shi, Tokyo 183-8534, Japan",
-    "capacity": null,
-    "name_en": "Tokyo University of Foreign Studies",
-    "name_ja": "東京外国語大学"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Language and Culture Studies",
-    "School of International and Area Studies",
-    "School of Japan Studies (Graduate Level)",
-    "Institute of Global Studies"
-  ],
-  "features": [
-    "일본 최고의 외국어 및 지역 연구 전문 교육 기관",
-    "27개 다양한 언어와 관련 문화에 초점을 맞춘 교육 과정",
-    "높은 수준의 국제 교류 (100개 이상의 협력 기관)",
-    "EJU 필수 (대부분의 학부 입학)",
-    "학부 과정에서 영어 강의 프로그램은 제한적이며, 주요 강의는 일본어로 진행됩니다."
-  ],
-  "id": "univ_tokyo-university-foreign-studies-tufs-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "18% - 25% (매우 경쟁적)",
-    "international_students": 650
-  },
-  "tags": [
-    "Japan's premier institution for specialized language and area studies",
-    "Curriculum focuses on 27 different languages and their associated cultures",
-    "High degree of international exchange (over 100 partner institutions)",
-    "EJU Required (for most undergraduate admissions)",
-    "Limited English-Taught Programs at the undergraduate level; primary instruction is Japanese."
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도쿄 외국어 대학교",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "일본 최고의 외국어 및 지역 연구 대학인 도쿄 외국어 대학교에 대한 안내입니다."
-}
+basic_info:
+  address: 3-11-1 Asahi-cho, Fuchu-shi, Tokyo 183-8534, Japan
+  capacity: null
+  name_en: Tokyo University of Foreign Studies
+  name_ja: 東京外国語大学
+category: university
+date: '2026-01-28'
+description: 일본 최고의 외국어 및 지역 연구 대학인 도쿄 외국어 대학교에 대한 안내입니다.
+faculties:
+- School of Language and Culture Studies
+- School of International and Area Studies
+- School of Japan Studies (Graduate Level)
+- Institute of Global Studies
+features:
+- 일본 최고의 외국어 및 지역 연구 전문 교육 기관
+- 27개 다양한 언어와 관련 문화에 초점을 맞춘 교육 과정
+- 높은 수준의 국제 교류 (100개 이상의 협력 기관)
+- EJU 필수 (대부분의 학부 입학)
+- 학부 과정에서 영어 강의 프로그램은 제한적이며, 주요 강의는 일본어로 진행됩니다.
+id: univ_tokyo-university-foreign-studies-tufs-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 18% - 25% (매우 경쟁적)
+  international_students: 650
+tags:
+- Japan's premier institution for specialized language and area studies
+- Curriculum focuses on 27 different languages and their associated cultures
+- High degree of international exchange (over 100 partner institutions)
+- EJU Required (for most undergraduate admissions)
+- Limited English-Taught Programs at the undergraduate level; primary instruction
+  is Japanese.
+thumbnail: /static/img/pin-univ.png
+title: 도쿄 외국어 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

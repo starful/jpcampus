@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_obihiro-university-of-agriculture-and-veterinary-medicine",
-  "title": "Obihiro University of Agriculture and Veterinary Medicine",
-  "category": "university",
-  "tags": [
-    "Only national university in Japan specializing in agriculture and veterinary medicine",
-    "Joint Veterinary Program with Hokkaido University",
-    "Located in the Tokachi region, Japan's primary food production hub",
-    "Home to the National Research Center for Protozoan Diseases"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "帯広畜産大学",
-    "name_en": "Obihiro University of Agriculture and Veterinary Medicine",
-    "address": "Inada-cho, Obihiro, Hokkaido 080-8555, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 58,
-    "acceptance_rate": "15-25% (Highly competitive for Veterinary Medicine)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Agriculture",
-    "Department of Veterinary Medicine",
-    "Department of Animal Science and Agriculture",
-    "Graduate School of Animal Science and Agriculture"
-  ],
-  "features": [
-    "Only national university in Japan specializing in agriculture and veterinary medicine",
-    "Joint Veterinary Program with Hokkaido University",
-    "Located in the Tokachi region, Japan's primary food production hub",
-    "Home to the National Research Center for Protozoan Diseases"
-  ],
-  "description": "Compare Obihiro University of Agriculture and Veterinary Medicine tuition, admissions, and program details for 2026 international students.",
-  "seo_title": "Obihiro University of Agriculture & Veterinary Medicine 2026",
-  "seo_description": "Thinking of studying in Japan? Find 2026 tuition fees, admission requirements, and student guides for Obihiro University of Agriculture & Vet Medicine."
-}
+basic_info:
+  address: Inada-cho, Obihiro, Hokkaido 080-8555, Japan
+  capacity: null
+  name_en: Obihiro University of Agriculture and Veterinary Medicine
+  name_ja: 帯広畜産大学
+category: university
+date: '2026-05-28'
+description: Compare Obihiro University of Agriculture and Veterinary Medicine tuition,
+  admissions, and program details for 2026 international students.
+faculties:
+- School of Agriculture
+- Department of Veterinary Medicine
+- Department of Animal Science and Agriculture
+- Graduate School of Animal Science and Agriculture
+features:
+- Only national university in Japan specializing in agriculture and veterinary medicine
+- Joint Veterinary Program with Hokkaido University
+- Located in the Tokachi region, Japan's primary food production hub
+- Home to the National Research Center for Protozoan Diseases
+id: univ_obihiro-university-of-agriculture-and-veterinary-medicine
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Thinking of studying in Japan? Find 2026 tuition fees, admission
+  requirements, and student guides for Obihiro University of Agriculture & Vet Medicine.
+seo_title: Obihiro University of Agriculture & Veterinary Medicine 2026
+stats:
+  acceptance_rate: 15-25% (Highly competitive for Veterinary Medicine)
+  international_students: 58
+tags:
+- Only national university in Japan specializing in agriculture and veterinary medicine
+- Joint Veterinary Program with Hokkaido University
+- Located in the Tokachi region, Japan's primary food production hub
+- Home to the National Research Center for Protozoan Diseases
+thumbnail: /static/img/pin-univ.png
+title: Obihiro University of Agriculture and Veterinary Medicine
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 University Overview
 

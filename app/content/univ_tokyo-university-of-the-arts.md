@@ -5,6 +5,7 @@ basic_info:
   name_ja: 東京藝術大学
   website: https://www.geidai.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Fine Arts
 - Faculty of Music

@@ -21,6 +21,7 @@ courses:
 - admission_month: '1'
   course_name: 一般2年コース
   total_fees: 1334000
+date: '2026-01-28'
 faculties: []
 features:
 - Comprehensive University Progression Focus

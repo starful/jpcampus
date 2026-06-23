@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chubu-gakuin-university",
-  "title": "주부 가쿠인 대학교",
-  "description": "일본 기후현에 위치한 사회복지 및 경영 분야 강점의 사립 대학으로, '봉사' 정신을 바탕으로 한 충실한 유학생 지원과 높은 국가고시 합격률을 자랑합니다.",
-  "category": "university",
-  "tags": [
-    "'봉사(To Serve)' 정신에 기반한 강력한 기독교 교육 이념",
-    "사회복지 및 간호 분야 지역 내 최고 수준의 국가고시 합격률",
-    "유학생을 위한 일본어 별과(Bekka) 교육과정 운영",
-    "기후현 지역 사회 및 제조업계와의 밀접한 협력 관계"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "中部学院大学",
-    "name_en": "Chubu Gakuin University",
-    "address": "2-1 Kirigaoka, Seki-shi, Gifu 501-3993, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 150,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "사회복지학부",
-    "경영학부",
-    "간호학부",
-    "재활학부",
-    "교육학부"
-  ],
-  "features": [
-    "'봉사(To Serve)' 정신에 기반한 강력한 기독교 교육 이념",
-    "사회복지 및 간호 분야 지역 내 최고 수준의 국가고시 합격률",
-    "유학생을 위한 일본어 별과(Bekka) 교육과정 운영",
-    "기후현 지역 사회 및 제조업계와의 밀접한 협력 관계"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1 Kirigaoka, Seki-shi, Gifu 501-3993, Japan
+  capacity: null
+  name_en: Chubu Gakuin University
+  name_ja: 中部学院大学
+category: university
+date: '2026-04-04'
+description: 일본 기후현에 위치한 사회복지 및 경영 분야 강점의 사립 대학으로, '봉사' 정신을 바탕으로 한 충실한 유학생 지원과 높은
+  국가고시 합격률을 자랑합니다.
+faculties:
+- 사회복지학부
+- 경영학부
+- 간호학부
+- 재활학부
+- 교육학부
+features:
+- '''봉사(To Serve)'' 정신에 기반한 강력한 기독교 교육 이념'
+- 사회복지 및 간호 분야 지역 내 최고 수준의 국가고시 합격률
+- 유학생을 위한 일본어 별과(Bekka) 교육과정 운영
+- 기후현 지역 사회 및 제조업계와의 밀접한 협력 관계
+id: univ_chubu-gakuin-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 150
+tags:
+- '''봉사(To Serve)'' 정신에 기반한 강력한 기독교 교육 이념'
+- 사회복지 및 간호 분야 지역 내 최고 수준의 국가고시 합격률
+- 유학생을 위한 일본어 별과(Bekka) 교육과정 운영
+- 기후현 지역 사회 및 제조업계와의 밀접한 협력 관계
+thumbnail: /static/img/pin-univ.png
+title: 주부 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요

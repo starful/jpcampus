@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-university-of-advanced-science-comprehensive-guide",
-  "title": "교토첨단과학대학교(KUAS) 종합 가이드",
-  "description": "세계적인 전동기 기업 니덱(Nidec)의 전폭적인 지원을 바탕으로, 100% 영어 공학 교육과 실무 중심 커리큘럼을 제공하는 교토첨단과학대학교를 소개합니다.",
-  "category": "university",
-  "tags": [
-    "학부 및 대학원 전 과정 영어 공학 프로그램",
-    "니덱(Nidec) 및 글로벌 기술 기업과의 강력한 산학 협력",
-    "실무 중심의 캡스톤 프로젝트 커리큘럼",
-    "일본 취업을 위한 집중 일본어 교육 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都先端과학大学",
-    "name_en": "Kyoto University of Advanced Science",
-    "address": "18 Uzumasa Yamanomoto-cho, Ukyo-ku, Kyoto 615-8577, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 550,
-    "acceptance_rate": "Estimated 30-40% for International Engineering Program"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1600000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Economics and Business Administration",
-    "Faculty of Humanities",
-    "Faculty of Bioenvironmental Sciences",
-    "Faculty of Health and Medical Sciences"
-  ],
-  "features": [
-    "학부 및 대학원 전 과정 영어 공학 프로그램 제공",
-    "니덱(Nidec) 및 글로벌 기술 기업과의 강력한 산학 협력",
-    "실무 중심의 캡스톤 프로젝트 커리큘럼",
-    "성공적인 취업을 위한 집중 일본어 교육 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 18 Uzumasa Yamanomoto-cho, Ukyo-ku, Kyoto 615-8577, Japan
+  capacity: null
+  name_en: Kyoto University of Advanced Science
+  name_ja: 京都先端과학大学
+category: university
+date: '2026-04-04'
+description: 세계적인 전동기 기업 니덱(Nidec)의 전폭적인 지원을 바탕으로, 100% 영어 공학 교육과 실무 중심 커리큘럼을 제공하는
+  교토첨단과학대학교를 소개합니다.
+faculties:
+- Faculty of Engineering
+- Faculty of Economics and Business Administration
+- Faculty of Humanities
+- Faculty of Bioenvironmental Sciences
+- Faculty of Health and Medical Sciences
+features:
+- 학부 및 대학원 전 과정 영어 공학 프로그램 제공
+- 니덱(Nidec) 및 글로벌 기술 기업과의 강력한 산학 협력
+- 실무 중심의 캡스톤 프로젝트 커리큘럼
+- 성공적인 취업을 위한 집중 일본어 교육 지원
+id: univ_kyoto-university-of-advanced-science-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 30-40% for International Engineering Program
+  international_students: 550
+tags:
+- 학부 및 대학원 전 과정 영어 공학 프로그램
+- 니덱(Nidec) 및 글로벌 기술 기업과의 강력한 산학 협력
+- 실무 중심의 캡스톤 프로젝트 커리큘럼
+- 일본 취업을 위한 집중 일본어 교육 지원
+thumbnail: /static/img/pin-univ.png
+title: 교토첨단과학대학교(KUAS) 종합 가이드
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1600000
 ---
 
 ## 🏫 대학 개요: 교토첨단과학대학교(KUAS)의 진화

@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-city-university-of-arts-guide",
-  "title": "교토시립예술대학교",
-  "category": "university",
-  "tags": [
-    "Oldest Public Arts University in Japan",
-    "Brand New Campus near Kyoto Station",
-    "Elite Small-Group Education Style",
-    "Strong Ties to Traditional Kyoto Craftsmanship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都市立芸術大学",
-    "name_en": "Kyoto City University of Arts",
-    "address": "57-1 Shimotsumaya-cho, Shimogyo-ku, Kyoto 600-8206, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 55,
-    "acceptance_rate": "Estimated 8-12% depending on department"
-  },
-  "tuition": {
-    "admission_fee": 482000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Fine Arts",
-    "Faculty of Music",
-    "Graduate School of Arts"
-  ],
-  "features": [
-    "일본에서 가장 오래된 공립 예술 대학교",
-    "교토역 근처의 최신 캠퍼스",
-    "엘리트 소규모 교육 방식",
-    "교토의 전통 공예와 강력한 연계"
-  ],
-  "description": "일본 교토에 위치한 교토시립예술대학교에 대한 안내입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 57-1 Shimotsumaya-cho, Shimogyo-ku, Kyoto 600-8206, Japan
+  capacity: null
+  name_en: Kyoto City University of Arts
+  name_ja: 京都市立芸術大学
+category: university
+date: '2026-03-03'
+description: 일본 교토에 위치한 교토시립예술대학교에 대한 안내입니다.
+faculties:
+- Faculty of Fine Arts
+- Faculty of Music
+- Graduate School of Arts
+features:
+- 일본에서 가장 오래된 공립 예술 대학교
+- 교토역 근처의 최신 캠퍼스
+- 엘리트 소규모 교육 방식
+- 교토의 전통 공예와 강력한 연계
+id: univ_kyoto-city-university-of-arts-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 8-12% depending on department
+  international_students: 55
+tags:
+- Oldest Public Arts University in Japan
+- Brand New Campus near Kyoto Station
+- Elite Small-Group Education Style
+- Strong Ties to Traditional Kyoto Craftsmanship
+thumbnail: /static/img/pin-univ.png
+title: 교토시립예술대학교
+tuition:
+  admission_fee: 482000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

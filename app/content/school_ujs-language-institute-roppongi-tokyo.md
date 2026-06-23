@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語進学1年コース
   total_fees: 780000
+date: '2026-01-28'
 faculties: []
 features:
 - Elite Academic Progression Focus (Shingaku)

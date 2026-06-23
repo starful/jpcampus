@@ -1,69 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都豊島区高田3-15-14",
-    "capacity": 325,
-    "name_en": "Tokyo Kyoiku Bunka Gakuin",
-    "name_ja": "東京教育文化学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1604000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1.9年コース",
-      "total_fees": 1417000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1224500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1.3年コース",
-      "total_fees": 1035300
-    }
-  ],
-  "description": "Tokyo Kyoiku Bunka Gakuin은 도쿄에 위치한 일본어 학교로, 종합적인 대학 진학 준비, EJU 코스, 그리고 특화된 미술 프로그램을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 준비",
-    "미술",
-    "디자인",
-    "회화",
-    "단기 코스"
-  ],
-  "id": "school_tokyo-kyoiku-bunka-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7152719,
-    "lng": 139.7059162
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=596",
-  "stats": {
-    "capacity": 325,
-    "international_students": 123
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Art",
-    "Design",
-    "Painting",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Tokyo Kyoiku Bunka Gakuin",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都豊島区高田3-15-14
+  capacity: 325
+  name_en: Tokyo Kyoiku Bunka Gakuin
+  name_ja: 東京教育文化学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1604000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1417000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1224500
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 1035300
+date: '2026-01-28'
+description: Tokyo Kyoiku Bunka Gakuin은 도쿄에 위치한 일본어 학교로, 종합적인 대학 진학 준비, EJU 코스, 그리고
+  특화된 미술 프로그램을 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 준비
+- 미술
+- 디자인
+- 회화
+- 단기 코스
+id: school_tokyo-kyoiku-bunka-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.7152719
+  lng: 139.7059162
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=596
+stats:
+  capacity: 325
+  international_students: 123
+tags:
+- University Preparation
+- EJU Preparation
+- Art
+- Design
+- Painting
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Tokyo Kyoiku Bunka Gakuin
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_beppu-university-international-student-guide",
-  "title": "Beppu University",
-  "category": "university",
-  "tags": [
-    "Renowned Fermentation Science Department",
-    "Pioneer in Manga and Japanese Pop Culture Studies",
-    "Strong Historical Preservation and Cultural Assets Program",
-    "Supportive Japanese Language Course (JLC) for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "別府大学",
-    "name_en": "Beppu University",
-    "address": "827-11 Kita-Ishigaki, Beppu, Oita 874-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 750000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Food and Nutrition",
-    "Faculty of International Studies",
-    "Graduate School of Literature"
-  ],
-  "features": [
-    "Renowned Fermentation Science Department",
-    "Pioneer in Manga and Japanese Pop Culture Studies",
-    "Strong Historical Preservation and Cultural Assets Program",
-    "Supportive Japanese Language Course (JLC) for International Students"
-  ]
-}
+basic_info:
+  address: 827-11 Kita-Ishigaki, Beppu, Oita 874-8501, Japan
+  capacity: null
+  name_en: Beppu University
+  name_ja: 別府大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Letters
+- Faculty of Food and Nutrition
+- Faculty of International Studies
+- Graduate School of Literature
+features:
+- Renowned Fermentation Science Department
+- Pioneer in Manga and Japanese Pop Culture Studies
+- Strong Historical Preservation and Cultural Assets Program
+- Supportive Japanese Language Course (JLC) for International Students
+id: univ_beppu-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 320
+tags:
+- Renowned Fermentation Science Department
+- Pioneer in Manga and Japanese Pop Culture Studies
+- Strong Historical Preservation and Cultural Assets Program
+- Supportive Japanese Language Course (JLC) for International Students
+thumbnail: /static/img/pin-univ.png
+title: Beppu University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 750000
 ---
 
 ## 🏫 University Overview: The Heritage of Beppu University

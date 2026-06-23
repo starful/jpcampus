@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ohka-gakuen-university-guide-international-students",
-  "title": "오카학원대학교 (Ohka Gakuen University)",
-  "description": "일본 중부 지역 최고의 아동 교육 및 보육 프로그램을 자랑하며, 소수 정예 밀착 지원을 통해 높은 취업률을 실현하는 명문 여자대학교입니다.",
-  "category": "university",
-  "tags": [
-    "중부 지역 최고 수준의 아동 및 보육 교육",
-    "소수 정예 밀착형 커리어 지원",
-    "아이치현 내 압도적인 취업률",
-    "여학생을 위한 안전하고 세심한 환경"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桜花学園大学",
-    "name_en": "Ohka Gakuen University",
-    "address": "12-11 Takegahana, Sakae-cho, Toyoake-shi, Aichi 470-1193, Japan",
-    "capacity": 1150
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "학예학부 아동학과",
-    "인문학부",
-    "대학원 인간문화연구과"
-  ],
-  "features": [
-    "일본 중부 지역 최고 수준의 아동 교육 및 보육 프로그램",
-    "소수 정예 밀착형 커리어 지원",
-    "아이치현 및 중부 지역 내 압도적인 취업률",
-    "여학생을 위한 안전하고 세심한 교육 환경"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 12-11 Takegahana, Sakae-cho, Toyoake-shi, Aichi 470-1193, Japan
+  capacity: 1150
+  name_en: Ohka Gakuen University
+  name_ja: 桜花学園大学
+category: university
+date: '2026-04-04'
+description: 일본 중부 지역 최고의 아동 교육 및 보육 프로그램을 자랑하며, 소수 정예 밀착 지원을 통해 높은 취업률을 실현하는 명문 여자대학교입니다.
+faculties:
+- 학예학부 아동학과
+- 인문학부
+- 대학원 인간문화연구과
+features:
+- 일본 중부 지역 최고 수준의 아동 교육 및 보육 프로그램
+- 소수 정예 밀착형 커리어 지원
+- 아이치현 및 중부 지역 내 압도적인 취업률
+- 여학생을 위한 안전하고 세심한 교육 환경
+id: univ_ohka-gakuen-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 35
+tags:
+- 중부 지역 최고 수준의 아동 및 보육 교육
+- 소수 정예 밀착형 커리어 지원
+- 아이치현 내 압도적인 취업률
+- 여학생을 위한 안전하고 세심한 환경
+thumbnail: /static/img/pin-univ.png
+title: 오카학원대학교 (Ohka Gakuen University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요

@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okayama-shoka-university-guide",
-  "title": "Okayama Shoka University",
-  "category": "university",
-  "tags": [
-    "Practical Business Education",
-    "Strong Support for International Student Careers",
-    "Strategic Location in the 'Land of Sunshine'",
-    "Active Industry-Academia Collaborations"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡山商科大学",
-    "name_en": "Okayama Shoka University",
-    "address": "2-10-1 Tsushima-Kyomachi, Kita-ku, Okayama-shi, Okayama 700-8601, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 342,
-    "acceptance_rate": "75-85%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 740000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration"
-  ],
-  "features": [
-    "Practical Business Education",
-    "Strong Support for International Student Careers",
-    "Strategic Location in the 'Land of Sunshine'",
-    "Active Industry-Academia Collaborations"
-  ]
-}
+basic_info:
+  address: 2-10-1 Tsushima-Kyomachi, Kita-ku, Okayama-shi, Okayama 700-8601, Japan
+  capacity: null
+  name_en: Okayama Shoka University
+  name_ja: 岡山商科大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+features:
+- Practical Business Education
+- Strong Support for International Student Careers
+- Strategic Location in the 'Land of Sunshine'
+- Active Industry-Academia Collaborations
+id: univ_okayama-shoka-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-85%
+  international_students: 342
+tags:
+- Practical Business Education
+- Strong Support for International Student Careers
+- Strategic Location in the 'Land of Sunshine'
+- Active Industry-Academia Collaborations
+thumbnail: /static/img/pin-univ.png
+title: Okayama Shoka University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 740000
 ---
 
 ## 🏫 University Overview

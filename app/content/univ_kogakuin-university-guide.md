@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kogakuin-university-guide",
-  "title": "Kogakuin University",
-  "category": "university",
-  "tags": [
-    "Skyscraper Campus in Shinjuku",
-    "One of Japan's Oldest Private Technical Universities",
-    "Renowned Architecture Program",
-    "High Employment Rate in Major Tech Firms"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "工学院大学",
-    "name_en": "Kogakuin University",
-    "address": "1-24-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 163-8677, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 210,
-    "acceptance_rate": "35-45% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1540000
-  },
-  "faculties": [
-    "Faculty of Advanced Engineering",
-    "Faculty of Engineering",
-    "Faculty of Architecture",
-    "Faculty of Informatics"
-  ],
-  "features": [
-    "Skyscraper Campus in Shinjuku",
-    "One of Japan's Oldest Private Technical Universities",
-    "Renowned Architecture Program",
-    "High Employment Rate in Major Tech Firms"
-  ]
-}
+basic_info:
+  address: 1-24-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 163-8677, Japan
+  capacity: null
+  name_en: Kogakuin University
+  name_ja: 工学院大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Advanced Engineering
+- Faculty of Engineering
+- Faculty of Architecture
+- Faculty of Informatics
+features:
+- Skyscraper Campus in Shinjuku
+- One of Japan's Oldest Private Technical Universities
+- Renowned Architecture Program
+- High Employment Rate in Major Tech Firms
+id: univ_kogakuin-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated for International Applicants)
+  international_students: 210
+tags:
+- Skyscraper Campus in Shinjuku
+- One of Japan's Oldest Private Technical Universities
+- Renowned Architecture Program
+- High Employment Rate in Major Tech Firms
+thumbnail: /static/img/pin-univ.png
+title: Kogakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1540000
 ---
 
 ## 🏫 University Overview: A Legacy of Engineering Excellence

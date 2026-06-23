@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1463000
+date: '2026-01-28'
 description: Himawari Osaka Japanese Language School is located in Osaka and offers
   courses to prepare students for university and vocational school. They also have
   short-term courses and focus on conversational and business Japanese.

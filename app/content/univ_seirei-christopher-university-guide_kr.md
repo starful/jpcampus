@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seirei-christopher-university-guide",
-  "title": "세이레이 크리스토퍼 대학교 (Seirei Christopher University)",
-  "category": "university",
-  "tags": [
-    "이웃 사랑의 기독교 정신",
-    "일본 국가 고시 합격률 최상위권",
-    "부속 병원 및 의료 네트워크 연계",
-    "보건·의료·복지 특성화"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "聖隷クリストファー大学",
-    "name_en": "Seirei Christopher University",
-    "address": "3453 Mikatagahara-cho, Chuo-ku, Hamamatsu, Shizuoka 433-8558, Japan",
-    "capacity": "2,050"
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1550000
-  },
-  "faculties": [
-    "간호학부",
-    "재활학부",
-    "사회복지학부"
-  ],
-  "features": [
-    "이웃 사랑의 기독교 정신에 기반한 교육",
-    "일본 국가 고시 합격률 최상위권 유지",
-    "대규모 의료 복지 네트워크와의 임상 연계",
-    "보건 및 의료 분야에 최적화된 전문 커리큘럼"
-  ],
-  "lang": "kr",
-  "description": "일본 시즈오카현 하마마쓰시에 위치한 세이레이 크리스토퍼 대학교는 보건, 의료, 복지 분야에 특화된 명문 사립대학교입니다. 높은 국가 고시 합격률과 실무 중심의 교육 환경을 제공합니다."
-}
+basic_info:
+  address: 3453 Mikatagahara-cho, Chuo-ku, Hamamatsu, Shizuoka 433-8558, Japan
+  capacity: 2,050
+  name_en: Seirei Christopher University
+  name_ja: 聖隷クリストファー大学
+category: university
+date: '2026-04-04'
+description: 일본 시즈오카현 하마마쓰시에 위치한 세이레이 크리스토퍼 대학교는 보건, 의료, 복지 분야에 특화된 명문 사립대학교입니다. 높은
+  국가 고시 합격률과 실무 중심의 교육 환경을 제공합니다.
+faculties:
+- 간호학부
+- 재활학부
+- 사회복지학부
+features:
+- 이웃 사랑의 기독교 정신에 기반한 교육
+- 일본 국가 고시 합격률 최상위권 유지
+- 대규모 의료 복지 네트워크와의 임상 연계
+- 보건 및 의료 분야에 최적화된 전문 커리큘럼
+id: univ_seirei-christopher-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 35
+tags:
+- 이웃 사랑의 기독교 정신
+- 일본 국가 고시 합격률 최상위권
+- 부속 병원 및 의료 네트워크 연계
+- 보건·의료·복지 특성화
+thumbnail: /static/img/pin-univ.png
+title: 세이레이 크리스토퍼 대학교 (Seirei Christopher University)
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1550000
 ---
 
 ## 🏫 대학교 개요

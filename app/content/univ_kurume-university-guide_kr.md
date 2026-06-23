@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kurume-university-guide",
-  "title": "구루메 대학교",
-  "description": "후쿠오카현 구루메시에 위치한 구루메 대학교는 100년 가까운 역사를 자랑하는 규슈의 명문 사립대학교입니다. 의학부의 강력한 전통과 더불어 인문, 법학, 경제 등 다양한 분야에서 글로벌 인재를 양성하고 있습니다.",
-  "category": "university",
-  "tags": [
-    "Elite Medical Heritage",
-    "Regional Economic Powerhouse",
-    "Comprehensive Student Support",
-    "Strategic Location in Kyushu"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "久留米大学",
-    "name_en": "Kurume University",
-    "address": "67 Asahimachi, Kurume, Fukuoka 830-0011, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "35-45% (Varies by Faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Medicine",
-    "Faculty of Literature",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Commerce",
-    "Faculty of Human Health"
-  ],
-  "features": [
-    "엘리트 의료 전통",
-    "지역 경제의 중심지",
-    "포괄적인 학생 지원",
-    "규슈의 전략적 요충지"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 67 Asahimachi, Kurume, Fukuoka 830-0011, Japan
+  capacity: null
+  name_en: Kurume University
+  name_ja: 久留米大学
+category: university
+date: '2026-03-15'
+description: 후쿠오카현 구루메시에 위치한 구루메 대학교는 100년 가까운 역사를 자랑하는 규슈의 명문 사립대학교입니다. 의학부의 강력한
+  전통과 더불어 인문, 법학, 경제 등 다양한 분야에서 글로벌 인재를 양성하고 있습니다.
+faculties:
+- Faculty of Medicine
+- Faculty of Literature
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Commerce
+- Faculty of Human Health
+features:
+- 엘리트 의료 전통
+- 지역 경제의 중심지
+- 포괄적인 학생 지원
+- 규슈의 전략적 요충지
+id: univ_kurume-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Varies by Faculty)
+  international_students: 185
+tags:
+- Elite Medical Heritage
+- Regional Economic Powerhouse
+- Comprehensive Student Support
+- Strategic Location in Kyushu
+thumbnail: /static/img/pin-univ.png
+title: 구루메 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

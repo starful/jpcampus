@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_japan-womens-university-international-student-guide",
-  "title": "Japan Women's University",
-  "category": "university",
-  "tags": [
-    "Oldest private women's university in Japan",
-    "Integrated Mejiro Campus in central Tokyo",
-    "Member of the f-Campus credit exchange system",
-    "Renowned Home Economics and Science programs",
-    "Exceptional employment rate and career support for women"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "日本女子大学",
-    "name_en": "Japan Women's University",
-    "address": "2-8-1 Mejirodai, Bunkyo-ku, Tokyo 112-8681, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 950000
-  },
-  "faculties": [
-    "Faculty of Home Economics",
-    "Faculty of Humanities",
-    "Faculty of Integrated Arts and Social Sciences",
-    "Faculty of Science",
-    "Faculty of International Studies"
-  ],
-  "features": [
-    "Oldest private women's university in Japan",
-    "Integrated Mejiro Campus in central Tokyo",
-    "Member of the f-Campus credit exchange system",
-    "Renowned Home Economics and Science programs",
-    "Exceptional employment rate and career support for women"
-  ]
-}
+basic_info:
+  address: 2-8-1 Mejirodai, Bunkyo-ku, Tokyo 112-8681, Japan
+  capacity: null
+  name_en: Japan Women's University
+  name_ja: 日本女子大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Home Economics
+- Faculty of Humanities
+- Faculty of Integrated Arts and Social Sciences
+- Faculty of Science
+- Faculty of International Studies
+features:
+- Oldest private women's university in Japan
+- Integrated Mejiro Campus in central Tokyo
+- Member of the f-Campus credit exchange system
+- Renowned Home Economics and Science programs
+- Exceptional employment rate and career support for women
+id: univ_japan-womens-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 165
+tags:
+- Oldest private women's university in Japan
+- Integrated Mejiro Campus in central Tokyo
+- Member of the f-Campus credit exchange system
+- Renowned Home Economics and Science programs
+- Exceptional employment rate and career support for women
+thumbnail: /static/img/pin-univ.png
+title: Japan Women's University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 950000
 ---
 
 ## 🏫 University Overview

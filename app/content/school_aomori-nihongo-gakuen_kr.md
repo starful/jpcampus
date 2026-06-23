@@ -1,69 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "1-4-8 Sakae-machi, Aomori City, Aomori Prefecture",
-    "capacity": 80,
-    "name_en": "Aomori Japanese Language Academy",
-    "name_ja": "あおもり日本語学園"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "日本語1年半コース",
-      "course_name_en": "1.5-Year Japanese Course",
-      "total_fees": 965000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語2年コース",
-      "course_name_en": "2-Year Japanese Course",
-      "total_fees": 1450000
-    }
-  ],
-  "description": "아오모리에 위치한 일본어 학교로, 대학 진학 준비, 단기 코스, 비즈니스 일본어 코스 등 다양한 과정을 제공합니다. 기숙사 및 장학금 기회 등의 특징이 있습니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "기숙사",
-    "EJU 준비",
-    "회화 일본어",
-    "장학금",
-    "개인실",
-    "이과 집중",
-    "비즈니스 일본어",
-    "미술 & 디자인 집중",
-    "단기 코스"
-  ],
-  "id": "school_aomori-nihongo-gakuen",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 40.824271,
-    "lng": 140.7638932
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=603",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Scholarships",
-    "Private Rooms",
-    "Science Focus",
-    "Business Japanese",
-    "Art & Design Focus",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아오모리 일본어 학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 1-4-8 Sakae-machi, Aomori City, Aomori Prefecture
+  capacity: 80
+  name_en: Aomori Japanese Language Academy
+  name_ja: あおもり日本語学園
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語1年半コース
+  course_name_en: 1.5-Year Japanese Course
+  total_fees: 965000
+- admission_month: '4'
+  course_name: 日本語2年コース
+  course_name_en: 2-Year Japanese Course
+  total_fees: 1450000
+date: '2026-01-28'
+description: 아오모리에 위치한 일본어 학교로, 대학 진학 준비, 단기 코스, 비즈니스 일본어 코스 등 다양한 과정을 제공합니다. 기숙사
+  및 장학금 기회 등의 특징이 있습니다.
+faculties: []
+features:
+- 대학 진학 준비
+- 기숙사
+- EJU 준비
+- 회화 일본어
+- 장학금
+- 개인실
+- 이과 집중
+- 비즈니스 일본어
+- 미술 & 디자인 집중
+- 단기 코스
+id: school_aomori-nihongo-gakuen
+lang: kr
+layout: school
+location:
+  lat: 40.824271
+  lng: 140.7638932
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=603
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Conversational Japanese
+- Scholarships
+- Private Rooms
+- Science Focus
+- Business Japanese
+- Art & Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 아오모리 일본어 학원
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

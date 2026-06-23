@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tezukayama-gakuin-university",
-  "title": "Tezukayama Gakuin University",
-  "category": "university",
-  "tags": [
-    "Prestigious Kansai Heritage",
-    "Renowned Psychology Department",
-    "Strong Food and Nutrition Sciences",
-    "Personalized Small-Class Education"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "帝塚山学院大学",
-    "name_en": "Tezukayama Gakuin University",
-    "address": "2-1-1 Risacho, Minami-ku, Sakai, Osaka 590-0113, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 85,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Faculty of Psychology",
-    "Faculty of Food and Health",
-    "Graduate School of Human Sciences"
-  ],
-  "features": [
-    "Prestigious Kansai Heritage",
-    "Renowned Psychology Department",
-    "Strong Food and Nutrition Sciences",
-    "Personalized Small-Class Education"
-  ]
-}
+basic_info:
+  address: 2-1-1 Risacho, Minami-ku, Sakai, Osaka 590-0113, Japan
+  capacity: null
+  name_en: Tezukayama Gakuin University
+  name_ja: 帝塚山学院大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Liberal Arts
+- Faculty of Psychology
+- Faculty of Food and Health
+- Graduate School of Human Sciences
+features:
+- Prestigious Kansai Heritage
+- Renowned Psychology Department
+- Strong Food and Nutrition Sciences
+- Personalized Small-Class Education
+id: univ_tezukayama-gakuin-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 85
+tags:
+- Prestigious Kansai Heritage
+- Renowned Psychology Department
+- Strong Food and Nutrition Sciences
+- Personalized Small-Class Education
+thumbnail: /static/img/pin-univ.png
+title: Tezukayama Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

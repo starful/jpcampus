@@ -1,52 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "〒338-8570 埼玉県さいたま市桜区大字下大久保255",
-    "name_en": "Saitama University",
-    "name_ja": "埼玉大学",
-    "website": "https://www.saitama-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_saitama-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "30-40%",
-    "international_students": 480
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "사이타마 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "사이타마현에 위치한 국립대학으로, 공학, 이학, 교육 분야에서 강점을 보입니다. 합리적인 학비와 다양한 장학금 기회를 제공합니다."
-}
+basic_info:
+  address: 〒338-8570 埼玉県さいたま市桜区大字下大久保255
+  name_en: Saitama University
+  name_ja: 埼玉大学
+  website: https://www.saitama-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 사이타마현에 위치한 국립대학으로, 공학, 이학, 교육 분야에서 강점을 보입니다. 합리적인 학비와 다양한 장학금 기회를 제공합니다.
+faculties:
+- Faculty of Liberal Arts
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_saitama-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-40%
+  international_students: 480
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 사이타마 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학 개요

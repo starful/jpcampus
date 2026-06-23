@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kinjo-gakuin-university-guide",
-  "title": "Kinjo Gakuin University",
-  "category": "university",
-  "tags": [
-    "Top-tier private women's university in the Tokai region",
-    "Founded on Protestant Christian principles",
-    "Exceptional employment support and career placement records",
-    "Strong focus on 'Omotenashi' and refined global etiquette"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金城学院大学",
-    "name_en": "Kinjo Gakuin University",
-    "address": "2-1723 Omori, Moriyama-ku, Nagoya, Aichi 463-8521, Japan",
-    "capacity": "Approx. 5,300 students"
-  },
-  "stats": {
-    "international_students": 52,
-    "acceptance_rate": "40-50% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Literature",
-    "Faculty of Human Sciences",
-    "Faculty of Global Studies",
-    "Faculty of International Information Studies",
-    "Faculty of Life Studies",
-    "Faculty of Pharmacy"
-  ],
-  "features": [
-    "Top-tier private women's university in the Tokai region",
-    "Founded on Protestant Christian principles",
-    "Exceptional employment support and career placement records",
-    "Strong focus on 'Omotenashi' and refined global etiquette"
-  ]
-}
+basic_info:
+  address: 2-1723 Omori, Moriyama-ku, Nagoya, Aichi 463-8521, Japan
+  capacity: Approx. 5,300 students
+  name_en: Kinjo Gakuin University
+  name_ja: 金城学院大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Literature
+- Faculty of Human Sciences
+- Faculty of Global Studies
+- Faculty of International Information Studies
+- Faculty of Life Studies
+- Faculty of Pharmacy
+features:
+- Top-tier private women's university in the Tokai region
+- Founded on Protestant Christian principles
+- Exceptional employment support and career placement records
+- Strong focus on 'Omotenashi' and refined global etiquette
+id: univ_kinjo-gakuin-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-50% for international applicants
+  international_students: 52
+tags:
+- Top-tier private women's university in the Tokai region
+- Founded on Protestant Christian principles
+- Exceptional employment support and career placement records
+- Strong focus on 'Omotenashi' and refined global etiquette
+thumbnail: /static/img/pin-univ.png
+title: Kinjo Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 University Overview: The Prestige of Kinjo Gakuin

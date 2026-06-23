@@ -1,75 +1,61 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県神戸市長田区三番町5-5",
-    "capacity": 528,
-    "name_en": "Kokusai Language Institute",
-    "name_ja": "国際語学学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1464800
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1301350
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1137800
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 972350
-    }
-  ],
-  "description": "고베에 위치한 국제어학원은 종합적인 일본어 교육과 전문적인 학업 준비를 제공합니다. 집중 EJU 준비, 대학 진학 트랙, 통합 기숙사 서비스 등의 특징을 갖추고 있습니다.",
-  "faculties": [],
-  "features": [
-    "통합 기숙사 서비스 (1인실 이용 가능)",
-    "집중 EJU (일본 대학 입학 시험) 준비",
-    "종합적인 대학 및 대학원 진학 트랙",
-    "이공계 전공 특화 준비",
-    "미술 디자인 전공 특화 준비",
-    "고급 비즈니스 일본어 및 커리어 트랙 훈련",
-    "전용 장학 프로그램",
-    "회화 및 실용적인 의사소통 기술에 집중",
-    "유연한 단기 학습 옵션"
-  ],
-  "id": "school_kokusai-language-institute-kobe",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6680475,
-    "lng": 135.153435
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=364",
-  "stats": {
-    "capacity": 528,
-    "international_students": 500
-  },
-  "tags": [
-    "Integrated Dormitory Services (Single Rooms Available)",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Comprehensive University and Graduate School Advancement Tracks",
-    "Specialized Preparation for Science/Engineering Majors",
-    "Specialized Preparation for Art and Design Majors",
-    "Advanced Business Japanese and Career Track Training",
-    "Dedicated Scholarship Programs",
-    "Focus on Conversation and Practical Communication Skills",
-    "Flexible Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kokusai Language Institute",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 兵庫県神戸市長田区三番町5-5
+  capacity: 528
+  name_en: Kokusai Language Institute
+  name_ja: 国際語学学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1464800
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1301350
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1137800
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 972350
+date: '2026-01-28'
+description: 고베에 위치한 국제어학원은 종합적인 일본어 교육과 전문적인 학업 준비를 제공합니다. 집중 EJU 준비, 대학 진학 트랙, 통합
+  기숙사 서비스 등의 특징을 갖추고 있습니다.
+faculties: []
+features:
+- 통합 기숙사 서비스 (1인실 이용 가능)
+- 집중 EJU (일본 대학 입학 시험) 준비
+- 종합적인 대학 및 대학원 진학 트랙
+- 이공계 전공 특화 준비
+- 미술 디자인 전공 특화 준비
+- 고급 비즈니스 일본어 및 커리어 트랙 훈련
+- 전용 장학 프로그램
+- 회화 및 실용적인 의사소통 기술에 집중
+- 유연한 단기 학습 옵션
+id: school_kokusai-language-institute-kobe
+lang: kr
+layout: school
+location:
+  lat: 34.6680475
+  lng: 135.153435
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=364
+stats:
+  capacity: 528
+  international_students: 500
+tags:
+- Integrated Dormitory Services (Single Rooms Available)
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Comprehensive University and Graduate School Advancement Tracks
+- Specialized Preparation for Science/Engineering Majors
+- Specialized Preparation for Art and Design Majors
+- Advanced Business Japanese and Career Track Training
+- Dedicated Scholarship Programs
+- Focus on Conversation and Practical Communication Skills
+- Flexible Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Kokusai Language Institute
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

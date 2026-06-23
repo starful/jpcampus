@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_meio-university-okinawa-guide",
-  "title": "메이오 대학교 (名桜大学)",
-  "category": "university",
-  "tags": [
-    "오키나와 유일의 공립 대학교",
-    "관광 및 국제 교류에 강점",
-    "유네스코 세계유산 얀바루 지역에 위치",
-    "도쿄/오사카 대비 저렴한 생활비"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名桜大学",
-    "name_en": "Meio University",
-    "address": "1220-1 Biimata, Nago, Okinawa 905-8585, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 135,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "인문학부",
-    "보건과학부",
-    "국제문화연구대학원",
-    "간호학대학원"
-  ],
-  "features": [
-    "오키나와 유일의 공립 대학교",
-    "관광 및 국제 교류에 강점",
-    "유네스코 세계유산 얀바루 지역에 위치",
-    "도쿄/오사카 대비 저렴한 생활비"
-  ],
-  "description": "오키나와 나고시에 위치한 메이오 대학교는 아름다운 자연 환경과 함께 독특한 학문적 경험을 제공합니다. 관광, 국제 문화, 스포츠 건강 과학 분야에서 특히 두각을 나타내며, 저렴한 학비로 높은 수준의 교육을 받을 수 있는 기회입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1220-1 Biimata, Nago, Okinawa 905-8585, Japan
+  capacity: 2500
+  name_en: Meio University
+  name_ja: 名桜大学
+category: university
+date: '2026-03-03'
+description: 오키나와 나고시에 위치한 메이오 대학교는 아름다운 자연 환경과 함께 독특한 학문적 경험을 제공합니다. 관광, 국제 문화, 스포츠
+  건강 과학 분야에서 특히 두각을 나타내며, 저렴한 학비로 높은 수준의 교육을 받을 수 있는 기회입니다.
+faculties:
+- 인문학부
+- 보건과학부
+- 국제문화연구대학원
+- 간호학대학원
+features:
+- 오키나와 유일의 공립 대학교
+- 관광 및 국제 교류에 강점
+- 유네스코 세계유산 얀바루 지역에 위치
+- 도쿄/오사카 대비 저렴한 생활비
+id: univ_meio-university-okinawa-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 135
+tags:
+- 오키나와 유일의 공립 대학교
+- 관광 및 국제 교류에 강점
+- 유네스코 세계유산 얀바루 지역에 위치
+- 도쿄/오사카 대비 저렴한 생활비
+thumbnail: /static/img/pin-univ.png
+title: 메이오 대학교 (名桜大学)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

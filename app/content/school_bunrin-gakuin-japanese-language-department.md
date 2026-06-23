@@ -142,6 +142,7 @@ content_body: "## \U0001F3EB Bunrin Gakuin Japanese Language Department Overview
   for science-minded students. However, potential students should proactively contact
   the school to gather complete information regarding its facilities, curriculum,
   and financial aid options."
+date: '2026-01-28'
 lang: en
 translated: true
 ---

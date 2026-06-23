@@ -18,6 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 美術系進学1年課程
   total_fees: 1260000
+date: '2026-01-28'
 faculties: []
 features:
 - Highly Specialized Art University Preparation (Bijutsu Kei Shingaku)

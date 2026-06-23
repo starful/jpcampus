@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanagawa-university-of-human-services",
-  "title": "가나가와현립보건복지대학교",
-  "category": "university",
-  "tags": [
-    "전문직간 교육(IPE) 특화",
-    "바다를 굽어보는 최첨단 요코스카 캠퍼스",
-    "헬스케어 기술에 집중하는 혁신적인 헬스케어혁신스쿨(SHI)",
-    "든든한 정부 지원과 높은 국가고시 합격률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神奈川県立保健福祉大学",
-    "name_en": "Kanagawa University of Human Services",
-    "address": "1-10-1 Heiseicho, Yokosuka, Kanagawa 238-8522, Japan",
-    "capacity": 1050
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "보건복지학부",
-    "간호학과",
-    "영양학과",
-    "사회복지학과",
-    "재활학과 (물리치료/작업치료)",
-    "보건복지학 대학원",
-    "헬스케어혁신스쿨(SHI)"
-  ],
-  "features": [
-    "전문직간 교육(IPE) 특화",
-    "바다를 굽어보는 최첨단 요코스카 캠퍼스",
-    "헬스케어 기술에 집중하는 혁신적인 헬스케어혁신스쿨(SHI)",
-    "든든한 정부 지원과 높은 국가고시 합격률"
-  ],
-  "description": "가나가와현립보건복지대학교는 전문직간 교육(IPE)에 특화된 일본 명문 공립 대학입니다. 요코스카의 아름다운 캠퍼스와 헬스케어혁신스쿨(SHI)을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-10-1 Heiseicho, Yokosuka, Kanagawa 238-8522, Japan
+  capacity: 1050
+  name_en: Kanagawa University of Human Services
+  name_ja: 神奈川県立保健福祉大学
+category: university
+date: '2026-03-03'
+description: 가나가와현립보건복지대학교는 전문직간 교육(IPE)에 특화된 일본 명문 공립 대학입니다. 요코스카의 아름다운 캠퍼스와 헬스케어혁신스쿨(SHI)을
+  자랑합니다.
+faculties:
+- 보건복지학부
+- 간호학과
+- 영양학과
+- 사회복지학과
+- 재활학과 (물리치료/작업치료)
+- 보건복지학 대학원
+- 헬스케어혁신스쿨(SHI)
+features:
+- 전문직간 교육(IPE) 특화
+- 바다를 굽어보는 최첨단 요코스카 캠퍼스
+- 헬스케어 기술에 집중하는 혁신적인 헬스케어혁신스쿨(SHI)
+- 든든한 정부 지원과 높은 국가고시 합격률
+id: univ_kanagawa-university-of-human-services
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25%
+  international_students: 15
+tags:
+- 전문직간 교육(IPE) 특화
+- 바다를 굽어보는 최첨단 요코스카 캠퍼스
+- 헬스케어 기술에 집중하는 혁신적인 헬스케어혁신스쿨(SHI)
+- 든든한 정부 지원과 높은 국가고시 합격률
+thumbnail: /static/img/pin-univ.png
+title: 가나가와현립보건복지대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 소개

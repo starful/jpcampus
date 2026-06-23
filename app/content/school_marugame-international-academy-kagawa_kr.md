@@ -1,56 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "香川県丸亀市南条町17-4",
-    "capacity": 80,
-    "name_en": "Marugame International Academy",
-    "name_ja": "丸亀国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1498500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1154510
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "EJU 집중 대비",
-    "명확한 대학 진학 지도",
-    "실용적인 회화 일본어 중심",
-    "특화된 비즈니스 일본어 훈련"
-  ],
-  "id": "school_marugame-international-academy-kagawa",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.2887232,
-    "lng": 133.7922561
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=600",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "Dedicated Dormitory Available",
-    "Intensive EJU Preparation",
-    "Clear University Pathway Guidance",
-    "Focus on Practical Conversational Japanese",
-    "Specialized Business Japanese Training"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "마루가메 국제 아카데미",
-  "description": "가가와현 마루가메시에 위치한 마루가메 국제 아카데미에 대한 상세 정보입니다. 학교 개요, 커리큘럼, 캠퍼스 생활 및 입학 정보를 확인하세요.",
-  "tuition": {}
-}
+basic_info:
+  address: 香川県丸亀市南条町17-4
+  capacity: 80
+  name_en: Marugame International Academy
+  name_ja: 丸亀国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1498500
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1154510
+date: '2026-01-28'
+description: 가가와현 마루가메시에 위치한 마루가메 국제 아카데미에 대한 상세 정보입니다. 학교 개요, 커리큘럼, 캠퍼스 생활 및 입학 정보를
+  확인하세요.
+faculties: []
+features:
+- 기숙사 이용 가능
+- EJU 집중 대비
+- 명확한 대학 진학 지도
+- 실용적인 회화 일본어 중심
+- 특화된 비즈니스 일본어 훈련
+id: school_marugame-international-academy-kagawa
+lang: kr
+layout: school
+location:
+  lat: 34.2887232
+  lng: 133.7922561
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=600
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- Dedicated Dormitory Available
+- Intensive EJU Preparation
+- Clear University Pathway Guidance
+- Focus on Practical Conversational Japanese
+- Specialized Business Japanese Training
+thumbnail: /static/img/pin-school.png
+title: 마루가메 국제 아카데미
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

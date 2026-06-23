@@ -1,60 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "茨城県取手市戸頭1142-1",
-    "capacity": 100,
-    "name_en": "Tsukuba Smile Japanese Language School",
-    "name_ja": "日本語学校つくばスマイル"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1170000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1032500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半6か月コース",
-      "total_fees": 895000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "고등 교육 진학",
-    "단기 코스"
-  ],
-  "id": "school_nihongo-gakko-tsukuba-smile",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.920848,
-    "lng": 140.0034302
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=33",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "Higher Education Progression",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "츠쿠바 스마일 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "츠쿠바 스마일 일본어 학교는 이바라키현 토리데시에 위치하고 있으며, 유학생을 위한 맞춤형 지원과 고등 교육 진학 지도를 제공합니다."
-}
+basic_info:
+  address: 茨城県取手市戸頭1142-1
+  capacity: 100
+  name_en: Tsukuba Smile Japanese Language School
+  name_ja: 日本語学校つくばスマイル
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1170000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1032500
+- admission_month: '10'
+  course_name: 進学1年半6か月コース
+  total_fees: 895000
+date: '2026-01-28'
+description: 츠쿠바 스마일 일본어 학교는 이바라키현 토리데시에 위치하고 있으며, 유학생을 위한 맞춤형 지원과 고등 교육 진학 지도를 제공합니다.
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 고등 교육 진학
+- 단기 코스
+id: school_nihongo-gakko-tsukuba-smile
+lang: kr
+layout: school
+location:
+  lat: 35.920848
+  lng: 140.0034302
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=33
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- Higher Education Progression
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: 츠쿠바 스마일 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

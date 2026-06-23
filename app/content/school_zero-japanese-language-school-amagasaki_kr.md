@@ -1,59 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県尼崎市西難波町4-6-26 ZEROビル2Ｆ",
-    "capacity": 100,
-    "name_en": "ZERO Japanese Language School",
-    "name_ja": "ZERO日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "大学・専門学校進学2年課程(A1)",
-      "total_fees": 1698400
-    },
-    {
-      "admission_month": "4",
-      "course_name": "大学・専門学校進学2年課程(A2)",
-      "total_fees": 1698400
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "EJU(일본유학시험) 특화 준비 과정 (이과, 미술/디자인)",
-    "실용적인 회화 능력 강화",
-    "개인 싱글룸 기숙사 옵션 제공",
-    "대학 및 전문학교 진학 집중 지도",
-    "소규모 정원 (최대 100명) 으로 개인별 맞춤 교육",
-    "장학금 및 재정 지원 가능",
-    "비즈니스 일본어 교육",
-    "유연한 단기 연수 프로그램"
-  ],
-  "id": "school_zero-japanese-language-school-amagasaki",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7232847,
-    "lng": 135.4090112
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=590",
-  "stats": {},
-  "tags": [
-    "Specialized EJU Preparation Tracks (Science, Art/Design)",
-    "Strong Focus on Practical Conversation Skills",
-    "On-site Accommodation Options with Private Single Rooms",
-    "Intensive University and Vocational School Placement Guidance",
-    "Small School Capacity for Personalized Instruction (Max 100 students)",
-    "Scholarship and Financial Aid Availability",
-    "Business Japanese Language Training",
-    "Flexible Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "ZERO 일본어학교",
-  "description": "효고현 아마가사키에 위치한 ZERO 일본어학교는 EJU 시험 준비와 개인 맞춤형 교육을 제공합니다. 소규모 정원으로 학생 한 명 한 명에게 집중적인 지원을 제공하며, 대학 및 전문학교 진학을 위한 최적의 환경을 제공합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 兵庫県尼崎市西難波町4-6-26 ZEROビル2Ｆ
+  capacity: 100
+  name_en: ZERO Japanese Language School
+  name_ja: ZERO日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学・専門学校進学2年課程(A1)
+  total_fees: 1698400
+- admission_month: '4'
+  course_name: 大学・専門学校進学2年課程(A2)
+  total_fees: 1698400
+date: '2026-01-28'
+description: 효고현 아마가사키에 위치한 ZERO 일본어학교는 EJU 시험 준비와 개인 맞춤형 교육을 제공합니다. 소규모 정원으로 학생 한
+  명 한 명에게 집중적인 지원을 제공하며, 대학 및 전문학교 진학을 위한 최적의 환경을 제공합니다.
+faculties: []
+features:
+- EJU(일본유학시험) 특화 준비 과정 (이과, 미술/디자인)
+- 실용적인 회화 능력 강화
+- 개인 싱글룸 기숙사 옵션 제공
+- 대학 및 전문학교 진학 집중 지도
+- 소규모 정원 (최대 100명) 으로 개인별 맞춤 교육
+- 장학금 및 재정 지원 가능
+- 비즈니스 일본어 교육
+- 유연한 단기 연수 프로그램
+id: school_zero-japanese-language-school-amagasaki
+lang: kr
+layout: school
+location:
+  lat: 34.7232847
+  lng: 135.4090112
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=590
+stats: {}
+tags:
+- Specialized EJU Preparation Tracks (Science, Art/Design)
+- Strong Focus on Practical Conversation Skills
+- On-site Accommodation Options with Private Single Rooms
+- Intensive University and Vocational School Placement Guidance
+- Small School Capacity for Personalized Instruction (Max 100 students)
+- Scholarship and Financial Aid Availability
+- Business Japanese Language Training
+- Flexible Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: ZERO 일본어학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

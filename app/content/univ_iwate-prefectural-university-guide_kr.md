@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_iwate-prefectural-university-guide",
-  "title": "이와테현립대학교",
-  "category": "university",
-  "tags": [
-    "Specialized Software and IT Hub in Northern Japan",
-    "High Graduate Employment Rate (Over 95%)",
-    "Strong Regional Integration and Community Care Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岩手県立大学",
-    "name_en": "Iwate Prefectural University",
-    "address": "152-52 Sugo, Takizawa, Iwate 020-0693, Japan",
-    "capacity": 2350
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Nursing",
-    "Faculty of Social Welfare",
-    "Faculty of Software and Information Science",
-    "Faculty of Policy Studies"
-  ],
-  "features": [
-    "일본 북부의 특화된 소프트웨어 및 IT 허브",
-    "높은 졸업생 취업률 (95% 이상)",
-    "강력한 지역 통합 및 커뮤니티 케어 중심"
-  ],
-  "description": "이와테현립대학교는 일본 북부의 IT 및 사회 복지 분야를 선도하는 공립 대학입니다. 높은 취업률과 지역사회와의 긴밀한 연계가 특징입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 152-52 Sugo, Takizawa, Iwate 020-0693, Japan
+  capacity: 2350
+  name_en: Iwate Prefectural University
+  name_ja: 岩手県立大学
+category: university
+date: '2026-03-03'
+description: 이와테현립대학교는 일본 북부의 IT 및 사회 복지 분야를 선도하는 공립 대학입니다. 높은 취업률과 지역사회와의 긴밀한 연계가
+  특징입니다.
+faculties:
+- Faculty of Nursing
+- Faculty of Social Welfare
+- Faculty of Software and Information Science
+- Faculty of Policy Studies
+features:
+- 일본 북부의 특화된 소프트웨어 및 IT 허브
+- 높은 졸업생 취업률 (95% 이상)
+- 강력한 지역 통합 및 커뮤니티 케어 중심
+id: univ_iwate-prefectural-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 45
+tags:
+- Specialized Software and IT Hub in Northern Japan
+- High Graduate Employment Rate (Over 95%)
+- Strong Regional Integration and Community Care Focus
+thumbnail: /static/img/pin-univ.png
+title: 이와테현립대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

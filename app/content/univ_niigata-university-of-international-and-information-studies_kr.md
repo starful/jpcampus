@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_niigata-university-of-international-and-information-studies",
-  "title": "니가타 국제정보대학",
-  "description": "IT 기술과 국제적 감각을 동시에 갖춘 인재를 양성하는 니가타현의 명문 사립 대학으로, 높은 취업률과 저렴한 생활비가 장점입니다.",
-  "category": "university",
-  "tags": [
-    "Comprehensive IT and Business Integration",
-    "Global Perspectives with Local Roots",
-    "Intensive Japanese Language Support",
-    "High Graduate Employment Rate"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟国際情報大学",
-    "name_en": "Niigata University of International and Information Studies",
-    "address": "3-1-1 Mizukino, Nishi-ku, Niigata City, Niigata 950-2292, Japan",
-    "capacity": 2000
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Information Systems",
-    "Faculty of International Studies"
-  ],
-  "features": [
-    "IT와 비즈니스의 통합적 교육",
-    "지역에 기반을 둔 글로벌 시각",
-    "집중적인 일본어 학습 지원",
-    "높은 졸업생 취업률"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 3-1-1 Mizukino, Nishi-ku, Niigata City, Niigata 950-2292, Japan
+  capacity: 2000
+  name_en: Niigata University of International and Information Studies
+  name_ja: 新潟国際情報大学
+category: university
+date: '2026-03-08'
+description: IT 기술과 국제적 감각을 동시에 갖춘 인재를 양성하는 니가타현의 명문 사립 대학으로, 높은 취업률과 저렴한 생활비가 장점입니다.
+faculties:
+- Faculty of Information Systems
+- Faculty of International Studies
+features:
+- IT와 비즈니스의 통합적 교육
+- 지역에 기반을 둔 글로벌 시각
+- 집중적인 일본어 학습 지원
+- 높은 졸업생 취업률
+id: univ_niigata-university-of-international-and-information-studies
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 115
+tags:
+- Comprehensive IT and Business Integration
+- Global Perspectives with Local Roots
+- Intensive Japanese Language Support
+- High Graduate Employment Rate
+thumbnail: /static/img/pin-univ.png
+title: 니가타 국제정보대학
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

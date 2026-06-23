@@ -1,72 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "福岡県糟屋郡新宮町美咲2-17-12",
-    "capacity": 496,
-    "name_en": "Sakura Japanese Language Academy",
-    "name_ja": "さくら日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学Aコース",
-      "total_fees": 1510000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学Bコース",
-      "total_fees": 1345000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学Cコース",
-      "total_fees": 1180000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学Dコース",
-      "total_fees": 1015000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学Eコース",
-      "total_fees": 850000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "EJU 준비",
-    "대학 진학 지원",
-    "회화 중심 수업",
-    "단기 코스"
-  ],
-  "id": "school_sakura-japanese-language-academy-fukuoka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 33.7019817,
-    "lng": 130.4401957
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=438",
-  "stats": {
-    "capacity": 496,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "University Advancement Support",
-    "Conversation-focused Classes",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "사쿠라 일본어학원",
-  "translated": true,
-  "tuition": {},
-  "description": "후쿠오카현 신구마치에 위치한 사쿠라 일본어학원은 국제 학생들의 학업 목표 달성을 지원하는 명문 교육 기관입니다."
-}
+basic_info:
+  address: 福岡県糟屋郡新宮町美咲2-17-12
+  capacity: 496
+  name_en: Sakura Japanese Language Academy
+  name_ja: さくら日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学Aコース
+  total_fees: 1510000
+- admission_month: '7'
+  course_name: 進学Bコース
+  total_fees: 1345000
+- admission_month: '10'
+  course_name: 進学Cコース
+  total_fees: 1180000
+- admission_month: '1'
+  course_name: 進学Dコース
+  total_fees: 1015000
+- admission_month: '4'
+  course_name: 進学Eコース
+  total_fees: 850000
+date: '2026-01-28'
+description: 후쿠오카현 신구마치에 위치한 사쿠라 일본어학원은 국제 학생들의 학업 목표 달성을 지원하는 명문 교육 기관입니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- EJU 준비
+- 대학 진학 지원
+- 회화 중심 수업
+- 단기 코스
+id: school_sakura-japanese-language-academy-fukuoka
+lang: kr
+layout: school
+location:
+  lat: 33.7019817
+  lng: 130.4401957
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=438
+stats:
+  capacity: 496
+  international_students: 0
+tags:
+- Dormitory Available
+- EJU Preparation
+- University Advancement Support
+- Conversation-focused Classes
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: 사쿠라 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_mie-prefectural-college-of-nursing",
-  "title": "미에현립 간호대학",
-  "category": "university",
-  "tags": [
-    "Disaster Nursing Specialization",
-    "Top-tier National Exam Pass Rates",
-    "State-of-the-Art Clinical Simulation Center",
-    "Strong Community Health Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "三重県立看護大学",
-    "name_en": "Mie Prefectural College of Nursing",
-    "address": "1-1-1 Yumegaoka, Tsu, Mie 514-0116, Japan",
-    "capacity": "450 students total"
-  },
-  "stats": {
-    "international_students": 2,
-    "acceptance_rate": "15-25%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Nursing",
-    "Graduate School of Nursing"
-  ],
-  "features": [
-    "재해 간호 전문화",
-    "최상위 국가고시 합격률",
-    "최첨단 임상 시뮬레이션 센터",
-    "강력한 지역사회 보건 집중"
-  ],
-  "description": "미에현립 간호대학은 높은 수준의 기술과 윤리 의식을 갖춘 간호 전문가를 양성하는 데 주력하는 일본 중부의 명문 의료 교육 기관입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1-1 Yumegaoka, Tsu, Mie 514-0116, Japan
+  capacity: 450 students total
+  name_en: Mie Prefectural College of Nursing
+  name_ja: 三重県立看護大学
+category: university
+date: '2026-03-03'
+description: 미에현립 간호대학은 높은 수준의 기술과 윤리 의식을 갖춘 간호 전문가를 양성하는 데 주력하는 일본 중부의 명문 의료 교육 기관입니다.
+faculties:
+- Faculty of Nursing
+- Graduate School of Nursing
+features:
+- 재해 간호 전문화
+- 최상위 국가고시 합격률
+- 최첨단 임상 시뮬레이션 센터
+- 강력한 지역사회 보건 집중
+id: univ_mie-prefectural-college-of-nursing
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25%
+  international_students: 2
+tags:
+- Disaster Nursing Specialization
+- Top-tier National Exam Pass Rates
+- State-of-the-Art Clinical Simulation Center
+- Strong Community Health Focus
+thumbnail: /static/img/pin-univ.png
+title: 미에현립 간호대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 헬스케어 교육의 탁월함

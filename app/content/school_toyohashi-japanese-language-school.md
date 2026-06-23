@@ -12,6 +12,9 @@ courses:
 - admission_month: '4'
   course_name: 進学コース（2年）
   total_fees: 1220000
+date: '2026-06-12'
+description: Explore Toyohashi Japanese Language School in Aichi. Find 2026 tuition
+  fees, courses, application requirements, and student reviews on JP Campus.
 faculties: []
 features:
 - Comprehensive Higher Education Advancement Tracks (EJU, Science, Art/Design)
@@ -26,6 +29,9 @@ layout: school
 location:
   lat: 34.7682069
   lng: 137.3901256
+seo_description: Explore Toyohashi Japanese Language School in Aichi. Find 2026 tuition
+  fees, courses, application requirements, and student reviews on JP Campus.
+seo_title: 'Toyohashi Japanese Language School: 2026 Admission | JP Campus'
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=549
 stats: {}
 tags:
@@ -38,13 +44,7 @@ tags:
 thumbnail: /static/img/pin-school.png
 title: Toyohashi Japanese Language School
 tuition: {}
-description: Explore Toyohashi Japanese Language School in Aichi. Find 2026 tuition
-  fees, courses, application requirements, and student reviews on JP Campus.
-seo_title: 'Toyohashi Japanese Language School: 2026 Admission | JP Campus'
-seo_description: Explore Toyohashi Japanese Language School in Aichi. Find 2026 tuition
-  fees, courses, application requirements, and student reviews on JP Campus.
 ---
-
 
 ## 🏫 School Overview & Philosophy
 

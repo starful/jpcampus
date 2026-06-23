@@ -1,57 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区高田馬場1-23-9",
-    "capacity": 160,
-    "name_en": "Waseda Foreign Language College",
-    "name_ja": "早稲田外語専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学コース1年",
-      "total_fees": 730000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コース1年半",
-      "total_fees": 1045000
-    }
-  ],
-  "description": "Waseda Foreign Language College는 도쿄에 위치한 일본어 전문 교육기관으로, 외국인 학생들이 대학 및 대학원 진학을 준비하는 데 중점을 두고 있습니다. 신주쿠의 다카다노바바에 위치하여 집중 코스, 기숙사 지원, EJU 및 JLPT N1 성공을 위한 맞춤형 지도를 제공합니다.",
-  "faculties": [],
-  "features": [
-    "고강도 대학 진학 집중 교육 (신가쿠)",
-    "EJU 및 JLPT N1 집중 준비",
-    "교내 또는 제휴 기숙사 지원",
-    "신주쿠 다카다노바바의 최적의 학업 위치",
-    "소규모 학급 (개인별 맞춤 지도 제공을 위한 낮은 학생 정원)"
-  ],
-  "id": "school_waseda-gaigo-senmon-gakko-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7109921,
-    "lng": 139.7050119
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=141",
-  "stats": {
-    "capacity": 160,
-    "international_students": 160
-  },
-  "tags": [
-    "High-Intensity University Progression Focus (Shingaku)",
-    "Dedicated Preparation for EJU and JLPT N1",
-    "On-Campus or Affiliated Dormitory Support",
-    "Prime Academic Location in Takadanobaba, Shinjuku",
-    "Small Class Sizes (Low student capacity for personalized attention)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Waseda Foreign Language College",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区高田馬場1-23-9
+  capacity: 160
+  name_en: Waseda Foreign Language College
+  name_ja: 早稲田外語専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コース1年
+  total_fees: 730000
+- admission_month: '10'
+  course_name: 進学コース1年半
+  total_fees: 1045000
+date: '2026-02-13'
+description: Waseda Foreign Language College는 도쿄에 위치한 일본어 전문 교육기관으로, 외국인 학생들이 대학 및
+  대학원 진학을 준비하는 데 중점을 두고 있습니다. 신주쿠의 다카다노바바에 위치하여 집중 코스, 기숙사 지원, EJU 및 JLPT N1 성공을 위한
+  맞춤형 지도를 제공합니다.
+faculties: []
+features:
+- 고강도 대학 진학 집중 교육 (신가쿠)
+- EJU 및 JLPT N1 집중 준비
+- 교내 또는 제휴 기숙사 지원
+- 신주쿠 다카다노바바의 최적의 학업 위치
+- 소규모 학급 (개인별 맞춤 지도 제공을 위한 낮은 학생 정원)
+id: school_waseda-gaigo-senmon-gakko-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.7109921
+  lng: 139.7050119
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=141
+stats:
+  capacity: 160
+  international_students: 160
+tags:
+- High-Intensity University Progression Focus (Shingaku)
+- Dedicated Preparation for EJU and JLPT N1
+- On-Campus or Affiliated Dormitory Support
+- Prime Academic Location in Takadanobaba, Shinjuku
+- Small Class Sizes (Low student capacity for personalized attention)
+thumbnail: /static/img/pin-school.png
+title: Waseda Foreign Language College
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

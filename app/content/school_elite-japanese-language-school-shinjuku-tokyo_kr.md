@@ -1,52 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区歌舞伎町2-44-1 東京都健康プラザハイジア12階",
-    "capacity": 1000,
-    "name_en": "Elite Japanese Language School",
-    "name_ja": "エリート日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "General 2-Year Course",
-      "total_fees": 1507000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "체계적인 대학 진학 프로그램 (EJU 대비)",
-    "풍부한 교내외 장학금 기회",
-    "학교 제휴 기숙사 및 숙박 지원",
-    "도쿄 신주쿠의 최적의 위치",
-    "분기별 입학 가능 (4월, 7월, 10월, 1월)"
-  ],
-  "id": "school_elite-japanese-language-school-shinjuku-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6968313,
-    "lng": 139.7013503
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=125",
-  "stats": {
-    "capacity": 1000,
-    "international_students": 950
-  },
-  "tags": [
-    "Dedicated Higher Education Advancement Program (EJU Preparation)",
-    "Robust Internal and External Scholarship Opportunities",
-    "School-Affiliated Dormitory and Accommodation Support",
-    "Prime Location in Shinjuku, Tokyo",
-    "Quarterly Intake Flexibility (April, July, October, January)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "엘리트 일본어학교",
-  "description": "도쿄 신주쿠에 위치한 엘리트 일본어학교는 대학 진학을 위한 집중적인 일본어 교육을 제공합니다. EJU 대비 프로그램, 다양한 장학금 기회, 기숙사 지원 등 유학생을 위한 최적의 환경을 제공합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区歌舞伎町2-44-1 東京都健康プラザハイジア12階
+  capacity: 1000
+  name_en: Elite Japanese Language School
+  name_ja: エリート日本語学校
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: General 2-Year Course
+  total_fees: 1507000
+date: '2026-01-28'
+description: 도쿄 신주쿠에 위치한 엘리트 일본어학교는 대학 진학을 위한 집중적인 일본어 교육을 제공합니다. EJU 대비 프로그램, 다양한
+  장학금 기회, 기숙사 지원 등 유학생을 위한 최적의 환경을 제공합니다.
+faculties: []
+features:
+- 체계적인 대학 진학 프로그램 (EJU 대비)
+- 풍부한 교내외 장학금 기회
+- 학교 제휴 기숙사 및 숙박 지원
+- 도쿄 신주쿠의 최적의 위치
+- 분기별 입학 가능 (4월, 7월, 10월, 1월)
+id: school_elite-japanese-language-school-shinjuku-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.6968313
+  lng: 139.7013503
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=125
+stats:
+  capacity: 1000
+  international_students: 950
+tags:
+- Dedicated Higher Education Advancement Program (EJU Preparation)
+- Robust Internal and External Scholarship Opportunities
+- School-Affiliated Dormitory and Accommodation Support
+- Prime Location in Shinjuku, Tokyo
+- Quarterly Intake Flexibility (April, July, October, January)
+thumbnail: /static/img/pin-school.png
+title: 엘리트 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 이념

@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukui-university-of-technology-guide",
-  "title": "후쿠이 공업대학교 (Fukui University of Technology)",
-  "description": "일본 내 행복지수 1위 지역에 위치한 후쿠이 공업대학교는 99%의 높은 취업률과 첨단 공학 연구를 자랑하는 명문 사립 기술 대학입니다.",
-  "category": "university",
-  "tags": [
-    "첨단 항공우주 및 위성 통신 연구",
-    "졸업생 취업률 99% 달성",
-    "일본 내 행복지수 1위 후쿠이현 소재",
-    "유학생을 위한 맞춤형 일본어 지원 프로그램"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福井工業大学",
-    "name_en": "Fukui University of Technology",
-    "address": "3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "60-70% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1300000
-  },
-  "faculties": [
-    "공학부",
-    "환경정보학부",
-    "스포츠건강과학부"
-  ],
-  "features": [
-    "첨단 항공우주 및 위성 통신 연구",
-    "졸업생 취업률 99% 달성",
-    "일본 내 행복지수 1위 후쿠이현 소재",
-    "유학생을 위한 맞춤형 일본어 지원 프로그램"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan
+  capacity: null
+  name_en: Fukui University of Technology
+  name_ja: 福井工業大学
+category: university
+date: '2026-03-24'
+description: 일본 내 행복지수 1위 지역에 위치한 후쿠이 공업대학교는 99%의 높은 취업률과 첨단 공학 연구를 자랑하는 명문 사립 기술
+  대학입니다.
+faculties:
+- 공학부
+- 환경정보학부
+- 스포츠건강과학부
+features:
+- 첨단 항공우주 및 위성 통신 연구
+- 졸업생 취업률 99% 달성
+- 일본 내 행복지수 1위 후쿠이현 소재
+- 유학생을 위한 맞춤형 일본어 지원 프로그램
+id: univ_fukui-university-of-technology-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 60-70% (Estimated for International Applicants)
+  international_students: 165
+tags:
+- 첨단 항공우주 및 위성 통신 연구
+- 졸업생 취업률 99% 달성
+- 일본 내 행복지수 1위 후쿠이현 소재
+- 유학생을 위한 맞춤형 일본어 지원 프로그램
+thumbnail: /static/img/pin-univ.png
+title: 후쿠이 공업대학교 (Fukui University of Technology)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1300000
 ---
 
 ## 🏫 학교 개요

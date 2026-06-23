@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tsukuba-international-university-guide",
-  "title": "Tsukuba International University",
-  "category": "university",
-  "tags": [
-    "Specialized Healthcare Training",
-    "High National Examination Pass Rates",
-    "Proximity to Tsukuba Science City",
-    "Hands-on Clinical Practice"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "つくば国際大学",
-    "name_en": "Tsukuba International University",
-    "address": "6-20-1 Manabe, Tsuchiura, Ibaraki 300-0051, Japan",
-    "capacity": 2400
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "Faculty of Health Sciences",
-    "Faculty of Medical Technology",
-    "Faculty of Health and Welfare"
-  ],
-  "features": [
-    "Specialized Healthcare Training",
-    "High National Examination Pass Rates",
-    "Proximity to Tsukuba Science City",
-    "Hands-on Clinical Practice"
-  ]
-}
+basic_info:
+  address: 6-20-1 Manabe, Tsuchiura, Ibaraki 300-0051, Japan
+  capacity: 2400
+  name_en: Tsukuba International University
+  name_ja: つくば国際大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Health Sciences
+- Faculty of Medical Technology
+- Faculty of Health and Welfare
+features:
+- Specialized Healthcare Training
+- High National Examination Pass Rates
+- Proximity to Tsukuba Science City
+- Hands-on Clinical Practice
+id: univ_tsukuba-international-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 45
+tags:
+- Specialized Healthcare Training
+- High National Examination Pass Rates
+- Proximity to Tsukuba Science City
+- Hands-on Clinical Practice
+thumbnail: /static/img/pin-univ.png
+title: Tsukuba International University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 University Overview

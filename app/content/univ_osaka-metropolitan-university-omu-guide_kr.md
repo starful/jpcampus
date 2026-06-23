@@ -1,59 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "3-3-138 Sugimoto, Sumiyoshi-ku, Osaka 558-8585, Japan (Sugimoto Campus)",
-    "capacity": null,
-    "name_en": "Osaka Metropolitan University",
-    "name_ja": "大阪公立大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Literature and Human Sciences",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Sustainable System Science",
-    "Faculty of Urban Management",
-    "Faculty of Medicine",
-    "Faculty of Nursing",
-    "Faculty of Veterinary Science",
-    "Faculty of Human Life Science"
-  ],
-  "features": [
-    "일본 최신 종합 공립 대학",
-    "최상위 연구 기관",
-    "일본 제2의 경제 지역 (간사이)에 위치",
-    "EJU 필수 (대부분의 학부 프로그램)",
-    "영어 강의 대학원 프로그램 증가 추세"
-  ],
-  "id": "univ_osaka-metropolitan-university-omu-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "약 35-40% (전체)",
-    "international_students": 750
-  },
-  "tags": [
-    "Japan's Newest Comprehensive Public University",
-    "Top-Tier Research Institution",
-    "Located in Japan's Second Largest Economic Region (Kansai)",
-    "EJU Required (for most undergraduate programs)",
-    "Growing Portfolio of English-Taught Graduate Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "오사카 공립 대학교 (Osaka Metropolitan University)",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 3-3-138 Sugimoto, Sumiyoshi-ku, Osaka 558-8585, Japan (Sugimoto Campus)
+  capacity: null
+  name_en: Osaka Metropolitan University
+  name_ja: 大阪公立大学
+category: university
+date: '2026-01-28'
+faculties:
+- Faculty of Literature and Human Sciences
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Sustainable System Science
+- Faculty of Urban Management
+- Faculty of Medicine
+- Faculty of Nursing
+- Faculty of Veterinary Science
+- Faculty of Human Life Science
+features:
+- 일본 최신 종합 공립 대학
+- 최상위 연구 기관
+- 일본 제2의 경제 지역 (간사이)에 위치
+- EJU 필수 (대부분의 학부 프로그램)
+- 영어 강의 대학원 프로그램 증가 추세
+id: univ_osaka-metropolitan-university-omu-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 약 35-40% (전체)
+  international_students: 750
+tags:
+- Japan's Newest Comprehensive Public University
+- Top-Tier Research Institution
+- Located in Japan's Second Largest Economic Region (Kansai)
+- EJU Required (for most undergraduate programs)
+- Growing Portfolio of English-Taught Graduate Programs
+thumbnail: /static/img/pin-univ.png
+title: 오사카 공립 대학교 (Osaka Metropolitan University)
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요

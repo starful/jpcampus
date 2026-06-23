@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukushima-university-comprehensive-guide",
-  "title": "후쿠시마 대학교 (Fukushima University)",
-  "category": "university",
-  "tags": [
-    "독특한 학군(Gakugun) 시스템",
-    "환경 및 방사능 연구 분야의 글로벌 리더",
-    "강력한 지역 사회 통합 및 재해 복구 중심",
-    "저렴한 생활비와 포괄적인 국제 학생 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福島大学",
-    "name_en": "Fukushima University",
-    "address": "1 Kanayagawa, Fukushima City, Fukushima Prefecture 960-1296, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 142,
-    "acceptance_rate": "25-35% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Human Development and Culture",
-    "Faculty of Administration and Social Sciences",
-    "Faculty of Economics and Business Administration",
-    "Faculty of Symbiotic Systems Science",
-    "Faculty of Food and Agricultural Sciences"
-  ],
-  "features": [
-    "독특한 학군(Gakugun) 시스템",
-    "환경 및 방사능 연구 분야의 글로벌 리더",
-    "강력한 지역 사회 통합 및 재해 복구 중심",
-    "저렴한 생활비와 포괄적인 국제 학생 지원"
-  ],
-  "description": "후쿠시마 대학교는 도호쿠 지역의 고등 교육의 중심으로, 독특한 학군 시스템, 환경 및 방사능 연구 분야의 선도적인 역할, 지역 사회 통합 및 재해 복구에 대한 강한 의지를 가지고 있습니다. 유학생에게는 학문적 엄격함과 실제 사회적 영향력이 만나는 특별한 환경을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1 Kanayagawa, Fukushima City, Fukushima Prefecture 960-1296, Japan
+  capacity: null
+  name_en: Fukushima University
+  name_ja: 福島大学
+category: university
+date: '2026-02-13'
+description: 후쿠시마 대학교는 도호쿠 지역의 고등 교육의 중심으로, 독특한 학군 시스템, 환경 및 방사능 연구 분야의 선도적인 역할, 지역
+  사회 통합 및 재해 복구에 대한 강한 의지를 가지고 있습니다. 유학생에게는 학문적 엄격함과 실제 사회적 영향력이 만나는 특별한 환경을 제공합니다.
+faculties:
+- Faculty of Human Development and Culture
+- Faculty of Administration and Social Sciences
+- Faculty of Economics and Business Administration
+- Faculty of Symbiotic Systems Science
+- Faculty of Food and Agricultural Sciences
+features:
+- 독특한 학군(Gakugun) 시스템
+- 환경 및 방사능 연구 분야의 글로벌 리더
+- 강력한 지역 사회 통합 및 재해 복구 중심
+- 저렴한 생활비와 포괄적인 국제 학생 지원
+id: univ_fukushima-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (Estimated)
+  international_students: 142
+tags:
+- 독특한 학군(Gakugun) 시스템
+- 환경 및 방사능 연구 분야의 글로벌 리더
+- 강력한 지역 사회 통합 및 재해 복구 중심
+- 저렴한 생활비와 포괄적인 국제 학생 지원
+thumbnail: /static/img/pin-univ.png
+title: 후쿠시마 대학교 (Fukushima University)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

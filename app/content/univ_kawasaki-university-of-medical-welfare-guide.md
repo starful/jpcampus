@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kawasaki-university-of-medical-welfare-guide",
-  "title": "Kawasaki University of Medical Welfare",
-  "category": "university",
-  "tags": [
-    "Integrated training with Kawasaki Medical School Hospital",
-    "Pioneer in Medical Welfare education in Japan",
-    "Exceptional National Examination pass rates",
-    "Interprofessional Education (IPE) focus",
-    "Strategic location in the historic city of Kurashiki"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "川崎医療福祉大学",
-    "name_en": "Kawasaki University of Medical Welfare",
-    "address": "577 Matsushima, Kurashiki, Okayama 701-0193, Japan",
-    "capacity": 4500
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "50-60%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Medical Welfare",
-    "Faculty of Health Sciences",
-    "Faculty of Rehabilitation",
-    "Faculty of Health and Sports Management",
-    "Faculty of Medical IT"
-  ],
-  "features": [
-    "Integrated training with Kawasaki Medical School Hospital",
-    "Pioneer in Medical Welfare education in Japan",
-    "Exceptional National Examination pass rates",
-    "Interprofessional Education (IPE) focus",
-    "Strategic location in the historic city of Kurashiki"
-  ]
-}
+basic_info:
+  address: 577 Matsushima, Kurashiki, Okayama 701-0193, Japan
+  capacity: 4500
+  name_en: Kawasaki University of Medical Welfare
+  name_ja: 川崎医療福祉大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Medical Welfare
+- Faculty of Health Sciences
+- Faculty of Rehabilitation
+- Faculty of Health and Sports Management
+- Faculty of Medical IT
+features:
+- Integrated training with Kawasaki Medical School Hospital
+- Pioneer in Medical Welfare education in Japan
+- Exceptional National Examination pass rates
+- Interprofessional Education (IPE) focus
+- Strategic location in the historic city of Kurashiki
+id: univ_kawasaki-university-of-medical-welfare-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 50-60%
+  international_students: 25
+tags:
+- Integrated training with Kawasaki Medical School Hospital
+- Pioneer in Medical Welfare education in Japan
+- Exceptional National Examination pass rates
+- Interprofessional Education (IPE) focus
+- Strategic location in the historic city of Kurashiki
+thumbnail: /static/img/pin-univ.png
+title: Kawasaki University of Medical Welfare
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 University Overview

@@ -1,56 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "〒187-8505 東京都小平市小川町1-736",
-    "name_en": "Musashino Art University",
-    "name_ja": "武蔵野美術大学",
-    "website": "https://www.musabi.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "油絵学科 (Department of Oil Painting)",
-    "彫刻学科 (Department of Sculpture)",
-    "視覚伝達デザイン学科 (Department of Visual Communication Design)",
-    "工芸工業デザイン学科 (Department of Industrial, Interior and Craft Design)",
-    "空間演出デザイン学科 (Department of Scenography Design, Fashion Design and Architecture)",
-    "建築学科 (Department of Architecture)",
-    "基礎デザイン学科 (Department of Science of Design)",
-    "映像学科 (Department of Film)",
-    "デザイン情報学科 (Department of Design Informatics)",
-    "芸術文化学科 (Department of Art and Culture)"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_musashino-art-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 150
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "무사시노미술대 유학 가이드 2026: 지원요건·포트폴리오·학비",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1800000
-  },
-  "description": "무사시노미술대 지원을 위한 2026 실전 가이드입니다. 지원요건, 포트폴리오 준비, 학비, 유학생 생활 포인트를 정리했습니다."
-}
+basic_info:
+  address: 〒187-8505 東京都小平市小川町1-736
+  name_en: Musashino Art University
+  name_ja: 武蔵野美術大学
+  website: https://www.musabi.ac.jp/
+category: university
+date: '2026-04-27'
+description: 무사시노미술대 지원을 위한 2026 실전 가이드입니다. 지원요건, 포트폴리오 준비, 학비, 유학생 생활 포인트를 정리했습니다.
+faculties:
+- 油絵学科 (Department of Oil Painting)
+- 彫刻学科 (Department of Sculpture)
+- 視覚伝達デザイン学科 (Department of Visual Communication Design)
+- 工芸工業デザイン学科 (Department of Industrial, Interior and Craft Design)
+- 空間演出デザイン学科 (Department of Scenography Design, Fashion Design and Architecture)
+- 建築学科 (Department of Architecture)
+- 基礎デザイン学科 (Department of Science of Design)
+- 映像学科 (Department of Film)
+- デザイン情報学科 (Department of Design Informatics)
+- 芸術文化学科 (Department of Art and Culture)
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_musashino-art-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20%
+  international_students: 150
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: '무사시노미술대 유학 가이드 2026: 지원요건·포트폴리오·학비'
+translated: true
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1800000
 ---
 
 ## 대학 개요 및 명성

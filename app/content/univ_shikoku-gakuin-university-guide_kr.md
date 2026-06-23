@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shikoku-gakuin-university-guide",
-  "title": "시코쿠 가쿠인 대학교 (Shikoku Gakuin University)",
-  "description": "카가와현 젠츠지시에 위치한 기독교 정신 기반의 리버럴 아츠 대학으로, 독자적인 전공-부전공 제도와 일본 내 선구적인 공연예술 및 사회복지 프로그램을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "Unique Major-Minor System",
-    "Strong Christian Ethics and Social Welfare Focus",
-    "Pioneering Performing Arts (Theater) Program",
-    "Historic Campus in Zentsuji City"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "四国学院大学",
-    "name_en": "Shikoku Gakuin University",
-    "address": "3-2-1 Bunkyo-cho, Zentsuji-shi, Kagawa 765-8505, Japan",
-    "capacity": 2200
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Department of Social Welfare",
-    "Department of Education",
-    "Department of Psychology",
-    "Department of International Liberal Arts",
-    "Department of Performing Arts"
-  ],
-  "features": [
-    "독자적인 주전공-부전공 제도",
-    "강한 기독교 윤리관과 사회복지 특성화",
-    "일본 내 선구적인 공연예술(연극) 프로그램",
-    "젠츠지시의 역사적인 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 3-2-1 Bunkyo-cho, Zentsuji-shi, Kagawa 765-8505, Japan
+  capacity: 2200
+  name_en: Shikoku Gakuin University
+  name_ja: 四国学院大学
+category: university
+date: '2026-03-15'
+description: 카가와현 젠츠지시에 위치한 기독교 정신 기반의 리버럴 아츠 대학으로, 독자적인 전공-부전공 제도와 일본 내 선구적인 공연예술
+  및 사회복지 프로그램을 제공합니다.
+faculties:
+- Faculty of Liberal Arts
+- Department of Social Welfare
+- Department of Education
+- Department of Psychology
+- Department of International Liberal Arts
+- Department of Performing Arts
+features:
+- 독자적인 주전공-부전공 제도
+- 강한 기독교 윤리관과 사회복지 특성화
+- 일본 내 선구적인 공연예술(연극) 프로그램
+- 젠츠지시의 역사적인 캠퍼스
+id: univ_shikoku-gakuin-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 45
+tags:
+- Unique Major-Minor System
+- Strong Christian Ethics and Social Welfare Focus
+- Pioneering Performing Arts (Theater) Program
+- Historic Campus in Zentsuji City
+thumbnail: /static/img/pin-univ.png
+title: 시코쿠 가쿠인 대학교 (Shikoku Gakuin University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요

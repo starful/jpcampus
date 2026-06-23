@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_saitama-institute-of-technology-guide",
-  "title": "Saitama Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Pioneer in Autonomous Driving Research",
-    "Monozukuri-focused Practical Education",
-    "High Job Placement Rate in Kanto Region",
-    "Dedicated Japanese Language Support for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "埼玉工業大学",
-    "name_en": "Saitama Institute of Technology",
-    "address": "1690 Fusaiji, Fukaya-shi, Saitama 369-0293, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "Estimated 45-55% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Human and Social Studies",
-    "Graduate School of Engineering",
-    "Graduate School of Human and Social Studies"
-  ],
-  "features": [
-    "Pioneer in Autonomous Driving Research",
-    "Monozukuri-focused Practical Education",
-    "High Job Placement Rate in Kanto Region",
-    "Dedicated Japanese Language Support for International Students"
-  ]
-}
+basic_info:
+  address: 1690 Fusaiji, Fukaya-shi, Saitama 369-0293, Japan
+  capacity: 2500
+  name_en: Saitama Institute of Technology
+  name_ja: 埼玉工業大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Engineering
+- Faculty of Human and Social Studies
+- Graduate School of Engineering
+- Graduate School of Human and Social Studies
+features:
+- Pioneer in Autonomous Driving Research
+- Monozukuri-focused Practical Education
+- High Job Placement Rate in Kanto Region
+- Dedicated Japanese Language Support for International Students
+id: univ_saitama-institute-of-technology-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55% for International Applicants
+  international_students: 320
+tags:
+- Pioneer in Autonomous Driving Research
+- Monozukuri-focused Practical Education
+- High Job Placement Rate in Kanto Region
+- Dedicated Japanese Language Support for International Students
+thumbnail: /static/img/pin-univ.png
+title: Saitama Institute of Technology
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1250000
 ---
 
 ## 🏫 University Overview: The Gateway to Technical Excellence

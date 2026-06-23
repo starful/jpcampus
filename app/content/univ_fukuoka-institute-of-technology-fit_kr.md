@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukuoka-institute-of-technology-fit",
-  "title": "후쿠오카 공업대학교 (FIT)",
-  "category": "university",
-  "tags": [
-    "전국 상위권의 취업률",
-    "최첨단 디지털 및 로봇 공학 시설",
-    "후쿠오카의 성장하는 테크 허브에 위치",
-    "유학생을 위한 체계적인 지원 시스템"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福岡工業大学",
-    "name_en": "Fukuoka Institute of Technology",
-    "address": "3-30-1 Wajiro-higashi, Higashi-ku, Fukuoka-shi, Fukuoka 811-0295, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 192,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 220000,
-    "yearly_tuition": 1385000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Information Science",
-    "Faculty of Socio-Environmental Studies"
-  ],
-  "features": [
-    "전국 상위권의 취업률 보장",
-    "최첨단 디지털 및 로봇 공학 실습 환경",
-    "후쿠오카 테크 허브와 인접한 최적의 입지",
-    "외국인 유학생 전담 지원 프로그램"
-  ],
-  "description": "후쿠오카 공업대학교(FIT)는 일본 규슈 지역의 기술 혁신을 선도하는 명문 사립 공과대학입니다. 압도적인 취업률과 실무 중심의 교육 과정, 그리고 유학생을 위한 세심한 지원 체계를 갖추고 있어 일본 내 취업을 희망하는 학생들에게 최고의 선택지 중 하나입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-30-1 Wajiro-higashi, Higashi-ku, Fukuoka-shi, Fukuoka 811-0295, Japan
+  capacity: null
+  name_en: Fukuoka Institute of Technology
+  name_ja: 福岡工業大学
+category: university
+date: '2026-03-15'
+description: 후쿠오카 공업대학교(FIT)는 일본 규슈 지역의 기술 혁신을 선도하는 명문 사립 공과대학입니다. 압도적인 취업률과 실무 중심의
+  교육 과정, 그리고 유학생을 위한 세심한 지원 체계를 갖추고 있어 일본 내 취업을 희망하는 학생들에게 최고의 선택지 중 하나입니다.
+faculties:
+- Faculty of Engineering
+- Faculty of Information Science
+- Faculty of Socio-Environmental Studies
+features:
+- 전국 상위권의 취업률 보장
+- 최첨단 디지털 및 로봇 공학 실습 환경
+- 후쿠오카 테크 허브와 인접한 최적의 입지
+- 외국인 유학생 전담 지원 프로그램
+id: univ_fukuoka-institute-of-technology-fit
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 192
+tags:
+- 전국 상위권의 취업률
+- 최첨단 디지털 및 로봇 공학 시설
+- 후쿠오카의 성장하는 테크 허브에 위치
+- 유학생을 위한 체계적인 지원 시스템
+thumbnail: /static/img/pin-univ.png
+title: 후쿠오카 공업대학교 (FIT)
+tuition:
+  admission_fee: 220000
+  yearly_tuition: 1385000
 ---
 
 ## 🏫 학교 개요

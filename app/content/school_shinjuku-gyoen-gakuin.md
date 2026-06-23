@@ -18,6 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 十月期生
   total_fees: 1146000
+date: '2026-01-28'
 faculties: []
 features:
 - University Advancement

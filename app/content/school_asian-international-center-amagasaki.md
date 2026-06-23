@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 特別進学コース
   total_fees: 1419000
+date: '2026-01-28'
 description: Located in Amagasaki, Hyogo, AIC provides specialized academic pathways
   to Japanese universities with dormitory availability, scholarship programs and EJU
   preparation.

@@ -1,67 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市中央区北久宝寺町2-5-9　飛栄創建ビル",
-    "capacity": 1600,
-    "name_en": "Human Academy Japanese Language School Osaka Campus",
-    "name_ja": "ヒューマンアカデミー日本語学校大阪校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1402000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1237550
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1073100
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 908650
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般2年コース",
-      "total_fees": 1402000
-    }
-  ],
-  "description": "Human Academy 일본어학교 오사카 캠퍼스(HAJLS Osaka)는 간사이 지역을 대표하는 교육 기관으로, 그 규모와 전문적인 교육 시스템으로 잘 알려져 있습니다. Human Academy 그룹의 지원을 받아, 전문 지식과 업계 네트워크를 제공합니다. 오사카 중심부에 위치하여 문화, 상업 시설 및 아르바이트 기회에 쉽게 접근할 수 있습니다. 기숙사 및 진로 상담을 포함한 광범위한 지원을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "명문 Human Academy 교육 그룹의 지원을 받는 일본 최대 규모의 어학 학교 중 하나입니다.",
-    "EJU, 이과(Rikei), 미술/디자인 준비를 위한 전문 트랙을 포함한 포괄적인 고등 교육 진학 프로그램을 제공합니다.",
-    "오사카 중심부(주오구)에 위치하여 문화 유적지, 상업 시설 및 아르바이트 기회에 대한 접근성이 뛰어납니다.",
-    "쾌적한 1인실 기숙사 옵션과 적극적인 진로 상담을 포함한 광범위한 학생 지원 인프라를 갖추고 있습니다."
-  ],
-  "id": "school_human-academy-japanese-language-school-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6802395,
-    "lng": 135.5039039
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=353",
-  "stats": {},
-  "tags": [
-    "One of Japan's largest and most established language schools, backed by the prestigious Human Academy educational group.",
-    "Comprehensive higher education advancement programs, including specialized tracks for EJU, Science (Rikei), and Art/Design preparation.",
-    "Central location in Osaka (Chuo Ward), offering excellent access to cultural sites, commerce, and part-time employment opportunities.",
-    "Extensive student support infrastructure, including dormitory options with desirable single-room availability and proactive career counseling."
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Human Academy 일본어학교 오사카 캠퍼스 (HAJLS Osaka)",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市中央区北久宝寺町2-5-9　飛栄創建ビル
+  capacity: 1600
+  name_en: Human Academy Japanese Language School Osaka Campus
+  name_ja: ヒューマンアカデミー日本語学校大阪校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1402000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1237550
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1073100
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 908650
+- admission_month: 4,7,10,1
+  course_name: 一般2年コース
+  total_fees: 1402000
+date: '2026-01-28'
+description: Human Academy 일본어학교 오사카 캠퍼스(HAJLS Osaka)는 간사이 지역을 대표하는 교육 기관으로, 그 규모와
+  전문적인 교육 시스템으로 잘 알려져 있습니다. Human Academy 그룹의 지원을 받아, 전문 지식과 업계 네트워크를 제공합니다. 오사카 중심부에
+  위치하여 문화, 상업 시설 및 아르바이트 기회에 쉽게 접근할 수 있습니다. 기숙사 및 진로 상담을 포함한 광범위한 지원을 제공합니다.
+faculties: []
+features:
+- 명문 Human Academy 교육 그룹의 지원을 받는 일본 최대 규모의 어학 학교 중 하나입니다.
+- EJU, 이과(Rikei), 미술/디자인 준비를 위한 전문 트랙을 포함한 포괄적인 고등 교육 진학 프로그램을 제공합니다.
+- 오사카 중심부(주오구)에 위치하여 문화 유적지, 상업 시설 및 아르바이트 기회에 대한 접근성이 뛰어납니다.
+- 쾌적한 1인실 기숙사 옵션과 적극적인 진로 상담을 포함한 광범위한 학생 지원 인프라를 갖추고 있습니다.
+id: school_human-academy-japanese-language-school-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.6802395
+  lng: 135.5039039
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=353
+stats: {}
+tags:
+- One of Japan's largest and most established language schools, backed by the prestigious
+  Human Academy educational group.
+- Comprehensive higher education advancement programs, including specialized tracks
+  for EJU, Science (Rikei), and Art/Design preparation.
+- Central location in Osaka (Chuo Ward), offering excellent access to cultural sites,
+  commerce, and part-time employment opportunities.
+- Extensive student support infrastructure, including dormitory options with desirable
+  single-room availability and proactive career counseling.
+thumbnail: /static/img/pin-school.png
+title: Human Academy 일본어학교 오사카 캠퍼스 (HAJLS Osaka)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yokohama-college-of-commerce-guide",
-  "title": "요코하마 상과대학교 가이드",
-  "description": "실무 중심의 비즈니스 교육과 요코하마라는 전략적 위치를 활용하여 일본 내 취업에 강점을 가진 요코하마 상과대학교를 소개합니다.",
-  "category": "university",
-  "tags": [
-    "실무 비즈니스 중심",
-    "관광 산업 협력",
-    "요코하마 항구 도시 위치",
-    "유학생 맞춤형 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "横浜商科大学",
-    "name_en": "Yokohama College of Commerce",
-    "address": "4-11-1 Higashiterao, Tsurumi-ku, Yokohama, Kanagawa 230-8577, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 250,
-    "acceptance_rate": "75% - 85%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "상학부",
-    "상학과",
-    "관광경영학과",
-    "경영정보학과"
-  ],
-  "features": [
-    "실무 중심의 비즈니스 교육",
-    "관광 산업과의 강력한 네트워크",
-    "항구 도시 요코하마의 전략적 위치",
-    "유학생을 위한 전문적인 지원 체계"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4-11-1 Higashiterao, Tsurumi-ku, Yokohama, Kanagawa 230-8577, Japan
+  capacity: null
+  name_en: Yokohama College of Commerce
+  name_ja: 横浜商科大学
+category: university
+date: '2026-03-24'
+description: 실무 중심의 비즈니스 교육과 요코하마라는 전략적 위치를 활용하여 일본 내 취업에 강점을 가진 요코하마 상과대학교를 소개합니다.
+faculties:
+- 상학부
+- 상학과
+- 관광경영학과
+- 경영정보학과
+features:
+- 실무 중심의 비즈니스 교육
+- 관광 산업과의 강력한 네트워크
+- 항구 도시 요코하마의 전략적 위치
+- 유학생을 위한 전문적인 지원 체계
+id: univ_yokohama-college-of-commerce-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75% - 85%
+  international_students: 250
+tags:
+- 실무 비즈니스 중심
+- 관광 산업 협력
+- 요코하마 항구 도시 위치
+- 유학생 맞춤형 지원
+thumbnail: /static/img/pin-univ.png
+title: 요코하마 상과대학교 가이드
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요: 일본 비즈니스 세계로 가는 관문

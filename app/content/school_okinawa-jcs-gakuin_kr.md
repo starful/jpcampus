@@ -1,69 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "沖縄県那覇市久米2-11-13",
-    "capacity": 150,
-    "name_en": "Okinawa JCS Academy",
-    "name_ja": "沖縄JCS学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1448392
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1.9年コース",
-      "total_fees": 1277764
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.6年コース",
-      "total_fees": 1112104
-    },
-    {
-      "admission_month": "10",
-      "course_name": "実用日本語1年コース",
-      "total_fees": 781696
-    }
-  ],
-  "description": "오키나와 JCS 어학원은 오키나와 나하에 위치한 일본어 학교로, 종합적인 EJU 시험 준비, 통합 기숙사 시스템, 실용적인 회화 기술에 중점을 둔 학습 환경을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "통합 기숙사 시스템",
-    "종합적인 EJU 시험 준비",
-    "대학 및 전문학교 진학 지원",
-    "실용적인 회화 기술에 집중",
-    "유연한 단기 및 장기 코스 옵션",
-    "오키나와 나하에 위치"
-  ],
-  "id": "school_okinawa-jcs-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 26.215956,
-    "lng": 127.6752645
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=453",
-  "stats": {
-    "capacity": 150,
-    "international_students": 123
-  },
-  "tags": [
-    "Integrated Dormitory System",
-    "Comprehensive EJU Preparation",
-    "University and Vocational School Advancement Support",
-    "Strong Focus on Practical Conversation Skills",
-    "Flexible Short and Long-Term Course Options",
-    "Located in Naha, Okinawa"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오키나와 JCS 어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 沖縄県那覇市久米2-11-13
+  capacity: 150
+  name_en: Okinawa JCS Academy
+  name_ja: 沖縄JCS学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1448392
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1277764
+- admission_month: '10'
+  course_name: 進学1.6年コース
+  total_fees: 1112104
+- admission_month: '10'
+  course_name: 実用日本語1年コース
+  total_fees: 781696
+date: '2026-01-28'
+description: 오키나와 JCS 어학원은 오키나와 나하에 위치한 일본어 학교로, 종합적인 EJU 시험 준비, 통합 기숙사 시스템, 실용적인
+  회화 기술에 중점을 둔 학습 환경을 제공합니다.
+faculties: []
+features:
+- 통합 기숙사 시스템
+- 종합적인 EJU 시험 준비
+- 대학 및 전문학교 진학 지원
+- 실용적인 회화 기술에 집중
+- 유연한 단기 및 장기 코스 옵션
+- 오키나와 나하에 위치
+id: school_okinawa-jcs-gakuin
+lang: kr
+layout: school
+location:
+  lat: 26.215956
+  lng: 127.6752645
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=453
+stats:
+  capacity: 150
+  international_students: 123
+tags:
+- Integrated Dormitory System
+- Comprehensive EJU Preparation
+- University and Vocational School Advancement Support
+- Strong Focus on Practical Conversation Skills
+- Flexible Short and Long-Term Course Options
+- Located in Naha, Okinawa
+thumbnail: /static/img/pin-school.png
+title: 오키나와 JCS 어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

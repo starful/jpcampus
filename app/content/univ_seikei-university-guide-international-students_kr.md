@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seikei-university-guide-international-students",
-  "title": "세이케이 대학교 (成蹊大学)",
-  "category": "university",
-  "tags": [
-    "기치조지에 위치한 통합 캠퍼스",
-    "미쓰비시 그룹과의 강력한 역사적 연계",
-    "미래지향적인 '플래닛' 도서관 포드",
-    "소규모 세미나 교육 중심"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "成蹊大学",
-    "name_en": "Seikei University",
-    "address": "3-3-1 Kichijoji-kitamachi, Musashino-shi, Tokyo 180-8633, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "국제 학생 입학: 약 20-30% 추정"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "경제학부",
-    "법학부",
-    "문학부",
-    "이공학부",
-    "경영학부"
-  ],
-  "features": [
-    "기치조지에 위치한 통합 캠퍼스",
-    "미쓰비시 그룹과의 강력한 역사적 연계",
-    "미래지향적인 '플래닛' 도서관 포드",
-    "소규모 세미나 교육 중심"
-  ],
-  "description": "도쿄 무사시노에 위치한 세이케이 대학교는 일본의 명문 사립 대학 중 하나입니다. 국제 학생들에게 전통적인 일본 학문적 엄격함과 현대적인 국제적 분위기를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-3-1 Kichijoji-kitamachi, Musashino-shi, Tokyo 180-8633, Japan
+  capacity: null
+  name_en: Seikei University
+  name_ja: 成蹊大学
+category: university
+date: '2026-02-13'
+description: 도쿄 무사시노에 위치한 세이케이 대학교는 일본의 명문 사립 대학 중 하나입니다. 국제 학생들에게 전통적인 일본 학문적 엄격함과
+  현대적인 국제적 분위기를 제공합니다.
+faculties:
+- 경제학부
+- 법학부
+- 문학부
+- 이공학부
+- 경영학부
+features:
+- 기치조지에 위치한 통합 캠퍼스
+- 미쓰비시 그룹과의 강력한 역사적 연계
+- 미래지향적인 '플래닛' 도서관 포드
+- 소규모 세미나 교육 중심
+id: univ_seikei-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: '국제 학생 입학: 약 20-30% 추정'
+  international_students: 320
+tags:
+- 기치조지에 위치한 통합 캠퍼스
+- 미쓰비시 그룹과의 강력한 역사적 연계
+- 미래지향적인 '플래닛' 도서관 포드
+- 소규모 세미나 교육 중심
+thumbnail: /static/img/pin-univ.png
+title: 세이케이 대학교 (成蹊大学)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학교 개요

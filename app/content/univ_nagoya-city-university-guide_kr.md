@@ -1,55 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-city-university-guide",
-  "title": "나고야 시립대학교",
-  "category": "university",
-  "tags": [
-    "일본 최고 수준의 의학 및 약학 프로그램",
-    "저렴한 공립 대학 등록금",
-    "일본 산업 중심지에 전략적으로 위치",
-    "탄탄한 지역 산업 연계로 높은 취업률",
-    "글로벌 교류 센터를 통한 맞춤형 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋市立大学",
-    "name_en": "Nagoya City University",
-    "address": "1 Kawasumi, Mizuho-cho, Mizuho-ku, Nagoya, Aichi 467-8601, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "15-25% (학과에 따라 경쟁률이 매우 높음)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "의학부",
-    "약학부",
-    "경제학부",
-    "인문사회학부",
-    "디자인・건축학부",
-    "간호학부",
-    "이학부",
-    "데이터사이언스학부"
-  ],
-  "features": [
-    "일본 최고 수준의 의학 및 약학 프로그램",
-    "저렴한 공립 대학 등록금",
-    "일본 산업 중심지에 전략적으로 위치",
-    "탄탄한 지역 산업 연계로 높은 취업률",
-    "글로벌 교류 센터를 통한 맞춤형 지원"
-  ],
-  "description": "나고야 시립대학교는 일본 아이치현 나고야에 위치한 명문 공립 대학입니다. 의학, 약학 분야에서 특히 강세를 보이며, 경제, 디자인, 데이터 사이언스 등 다양한 분야에서 우수한 교육을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1 Kawasumi, Mizuho-cho, Mizuho-ku, Nagoya, Aichi 467-8601, Japan
+  capacity: null
+  name_en: Nagoya City University
+  name_ja: 名古屋市立大学
+category: university
+date: '2026-03-03'
+description: 나고야 시립대학교는 일본 아이치현 나고야에 위치한 명문 공립 대학입니다. 의학, 약학 분야에서 특히 강세를 보이며, 경제,
+  디자인, 데이터 사이언스 등 다양한 분야에서 우수한 교육을 제공합니다.
+faculties:
+- 의학부
+- 약학부
+- 경제학부
+- 인문사회학부
+- 디자인・건축학부
+- 간호학부
+- 이학부
+- 데이터사이언스학부
+features:
+- 일본 최고 수준의 의학 및 약학 프로그램
+- 저렴한 공립 대학 등록금
+- 일본 산업 중심지에 전략적으로 위치
+- 탄탄한 지역 산업 연계로 높은 취업률
+- 글로벌 교류 센터를 통한 맞춤형 지원
+id: univ_nagoya-city-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (학과에 따라 경쟁률이 매우 높음)
+  international_students: 185
+tags:
+- 일본 최고 수준의 의학 및 약학 프로그램
+- 저렴한 공립 대학 등록금
+- 일본 산업 중심지에 전략적으로 위치
+- 탄탄한 지역 산업 연계로 높은 취업률
+- 글로벌 교류 센터를 통한 맞춤형 지원
+thumbnail: /static/img/pin-univ.png
+title: 나고야 시립대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

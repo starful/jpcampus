@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ferris-university-guide-for-international-students",
-  "title": "페리스 여학원 대학",
-  "description": "일본 최초의 근대 여성 교육 기관으로서 150년 이상의 역사를 자랑하며, '타인을 위하여'라는 기독교적 가치를 바탕으로 음악 및 글로벌 인재를 양성하는 요코하마의 명문 여자대학교입니다.",
-  "category": "university",
-  "tags": [
-    "일본 최초의 근대 여성 교육 기관",
-    "'타인을 위하여'라는 기독교적 가치 중시",
-    "명성 높은 음악 및 글로벌 학부 프로그램",
-    "요코하마의 아름다운 교외 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "フェリス女学院大学",
-    "name_en": "Ferris University",
-    "address": "4-5-3 Ryokuen, Izumi-ku, Yokohama, Kanagawa 245-8650, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "문학부",
-    "국제교류학부",
-    "음악학부"
-  ],
-  "features": [
-    "일본 최초의 근대 여성 교육 기관",
-    "'타인을 위하여'라는 기독교적 가치 중시",
-    "명성 높은 음악 및 글로벌 학부 프로그램",
-    "요코하마의 아름다운 교외 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4-5-3 Ryokuen, Izumi-ku, Yokohama, Kanagawa 245-8650, Japan
+  capacity: null
+  name_en: Ferris University
+  name_ja: フェリス女学院大学
+category: university
+date: '2026-03-08'
+description: 일본 최초의 근대 여성 교육 기관으로서 150년 이상의 역사를 자랑하며, '타인을 위하여'라는 기독교적 가치를 바탕으로 음악
+  및 글로벌 인재를 양성하는 요코하마의 명문 여자대학교입니다.
+faculties:
+- 문학부
+- 국제교류학부
+- 음악학부
+features:
+- 일본 최초의 근대 여성 교육 기관
+- '''타인을 위하여''라는 기독교적 가치 중시'
+- 명성 높은 음악 및 글로벌 학부 프로그램
+- 요코하마의 아름다운 교외 캠퍼스
+id: univ_ferris-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 65
+tags:
+- 일본 최초의 근대 여성 교육 기관
+- '''타인을 위하여''라는 기독교적 가치 중시'
+- 명성 높은 음악 및 글로벌 학부 프로그램
+- 요코하마의 아름다운 교외 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 페리스 여학원 대학
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

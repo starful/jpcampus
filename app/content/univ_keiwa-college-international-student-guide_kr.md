@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_keiwa-college-international-student-guide",
-  "title": "케이와 학원 대학 (Keiwa College)",
-  "description": "니가타현 시바타시에 위치한 케이와 학원 대학은 기독교 정신을 바탕으로 한 소수 정예 리버럴 아츠 교육을 제공합니다. 유학생을 위한 세심한 지원과 높은 취업 실적을 자랑하는 대학입니다.",
-  "category": "university",
-  "tags": [
-    "소수 정예 교육과 개별 멘토링",
-    "기독교 정신에 기반한 리버럴 아츠 교육",
-    "니가타 및 도쿄 지역 내 높은 취업률",
-    "유학생을 위한 충실한 일본어 학습 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "敬和学園大学",
-    "name_en": "Keiwa College",
-    "address": "1270 Kumanodo, Shibata, Niigata 957-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "85%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 780000
-  },
-  "faculties": [
-    "영어문화커뮤니케이션학과",
-    "공생사회학과",
-    "정보미디어학과"
-  ],
-  "features": [
-    "소수 정예 교육과 개별 멘토링",
-    "기독교 정신에 기반한 리버럴 아츠 교육",
-    "니가타 및 도쿄 지역 내 높은 취업률",
-    "유학생을 위한 충실한 일본어 학습 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1270 Kumanodo, Shibata, Niigata 957-8585, Japan
+  capacity: null
+  name_en: Keiwa College
+  name_ja: 敬和学園大学
+category: university
+date: '2026-03-24'
+description: 니가타현 시바타시에 위치한 케이와 학원 대학은 기독교 정신을 바탕으로 한 소수 정예 리버럴 아츠 교육을 제공합니다. 유학생을
+  위한 세심한 지원과 높은 취업 실적을 자랑하는 대학입니다.
+faculties:
+- 영어문화커뮤니케이션학과
+- 공생사회학과
+- 정보미디어학과
+features:
+- 소수 정예 교육과 개별 멘토링
+- 기독교 정신에 기반한 리버럴 아츠 교육
+- 니가타 및 도쿄 지역 내 높은 취업률
+- 유학생을 위한 충실한 일본어 학습 지원
+id: univ_keiwa-college-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 85%
+  international_students: 115
+tags:
+- 소수 정예 교육과 개별 멘토링
+- 기독교 정신에 기반한 리버럴 아츠 교육
+- 니가타 및 도쿄 지역 내 높은 취업률
+- 유학생을 위한 충실한 일본어 학습 지원
+thumbnail: /static/img/pin-univ.png
+title: 케이와 학원 대학 (Keiwa College)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 780000
 ---
 
 ## 🏫 대학 개요: 케이와 정신 (The Keiwa Spirit)

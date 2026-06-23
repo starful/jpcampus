@@ -15,6 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 660000
+date: '2026-01-28'
 description: Hiroshima Kokusai Business College (HKBC) offers practical business Japanese
   and university preparatory courses in Fukuyama, Hiroshima. Strong support for EJU
   and unique science/art tracks.

@@ -1,65 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都港区赤坂2-17-47 赤坂霞山ビル 3階",
-    "capacity": 200,
-    "name_en": "Kazan Society Toa Academy",
-    "name_ja": "霞山会 東亜学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "진학 코스 1년 3개월",
-      "total_fees": 1020000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "진학 코스 1년 6개월",
-      "total_fees": 1210000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "진학 코스 1년 9개월",
-      "total_fees": 1400000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "진학 코스 2년",
-      "total_fees": 1590000
-    }
-  ],
-  "description": "카잔 소사이어티 토아 아카데미는 도쿄에 위치한 일본어 학교로, 대학 진학 준비에 중점을 두고 있으며, 지원적인 환경과 특화된 과학 프로그램을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "기숙사",
-    "EJU 집중",
-    "과학 특화"
-  ],
-  "id": "school_kaszankai-toa-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6694872,
-    "lng": 139.7383188
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=96",
-  "stats": {
-    "capacity": 200,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Focus",
-    "Science Specialization"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "카잔 소사이어티 토아 아카데미",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都港区赤坂2-17-47 赤坂霞山ビル 3階
+  capacity: 200
+  name_en: Kazan Society Toa Academy
+  name_ja: 霞山会 東亜学院
+category: school
+courses:
+- admission_month: '1'
+  course_name: 진학 코스 1년 3개월
+  total_fees: 1020000
+- admission_month: '10'
+  course_name: 진학 코스 1년 6개월
+  total_fees: 1210000
+- admission_month: '7'
+  course_name: 진학 코스 1년 9개월
+  total_fees: 1400000
+- admission_month: '4'
+  course_name: 진학 코스 2년
+  total_fees: 1590000
+date: '2026-01-28'
+description: 카잔 소사이어티 토아 아카데미는 도쿄에 위치한 일본어 학교로, 대학 진학 준비에 중점을 두고 있으며, 지원적인 환경과 특화된
+  과학 프로그램을 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- 기숙사
+- EJU 집중
+- 과학 특화
+id: school_kaszankai-toa-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.6694872
+  lng: 139.7383188
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=96
+stats:
+  capacity: 200
+  international_students: 0
+tags:
+- University Preparation
+- Dormitory
+- EJU Focus
+- Science Specialization
+thumbnail: /static/img/pin-school.png
+title: 카잔 소사이어티 토아 아카데미
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

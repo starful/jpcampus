@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanazawa-institute-of-technology",
-  "title": "가나자와 공업대학교 (Kanazawa Institute of Technology)",
-  "description": "실무 중심의 프로젝트 디자인 교육과 압도적인 취업률을 자랑하는 일본 최고의 사립 공과대학교입니다.",
-  "category": "university",
-  "tags": [
-    "Project Design (PD) Curriculum",
-    "Yume-Kobo (Dream Workshop) Facilities",
-    "Top-tier Employment Rate in Japan",
-    "CDIO International Framework Member"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金沢工業大学",
-    "name_en": "Kanazawa Institute of Technology",
-    "address": "7-1 Ohgigaoka, Nonoichi, Ishikawa 921-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 118,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1515000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Informatics and Human Communication",
-    "Faculty of Architecture",
-    "Faculty of Bioscience and Chemistry"
-  ],
-  "features": [
-    "혁신적인 프로젝트 디자인(PD) 교육과정",
-    "24시간 개방형 제작 공간 '유메코보(꿈의 공방)'",
-    "일본 내 최상위권의 취업률(99% 이상)",
-    "세계적인 공학 교육 프레임워크 CDIO 멤버"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 7-1 Ohgigaoka, Nonoichi, Ishikawa 921-8501, Japan
+  capacity: null
+  name_en: Kanazawa Institute of Technology
+  name_ja: 金沢工業大学
+category: university
+date: '2026-03-08'
+description: 실무 중심의 프로젝트 디자인 교육과 압도적인 취업률을 자랑하는 일본 최고의 사립 공과대학교입니다.
+faculties:
+- Faculty of Engineering
+- Faculty of Informatics and Human Communication
+- Faculty of Architecture
+- Faculty of Bioscience and Chemistry
+features:
+- 혁신적인 프로젝트 디자인(PD) 교육과정
+- 24시간 개방형 제작 공간 '유메코보(꿈의 공방)'
+- 일본 내 최상위권의 취업률(99% 이상)
+- 세계적인 공학 교육 프레임워크 CDIO 멤버
+id: univ_kanazawa-institute-of-technology
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 118
+tags:
+- Project Design (PD) Curriculum
+- Yume-Kobo (Dream Workshop) Facilities
+- Top-tier Employment Rate in Japan
+- CDIO International Framework Member
+thumbnail: /static/img/pin-univ.png
+title: 가나자와 공업대학교 (Kanazawa Institute of Technology)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1515000
 ---
 
 ## 🏫 대학 개요

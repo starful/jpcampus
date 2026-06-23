@@ -1,64 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県広島市中区上幟町8-18",
-    "capacity": 80,
-    "name_en": "Trinity College Hiroshima Medical and Welfare Vocational School (Japanese Language Department)",
-    "name_ja": "トリニティカレッジ広島医療福祉専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1635000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1255000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "介護進学コース",
-      "total_fees": 875000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "전문학교 내 통합 학습 환경",
-    "의료 및 복지 분야 진출을 위한 전문적인 준비",
-    "종합적인 EJU 및 대학 입시 지원",
-    "학교 전용 기숙사 이용 가능 (1인실 옵션)",
-    "이과, 예술, 비즈니스 트랙을 지원하는 커리큘럼",
-    "넉넉한 장학금 및 재정 지원 프로그램",
-    "소규모 정원으로 인한 고도의 맞춤형 교육",
-    "맞춤형 간병/복지 진학 코스"
-  ],
-  "id": "school_trinity-college-hiroshima-medical-welfare",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.3968878,
-    "lng": 132.469504
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=565",
-  "stats": {},
-  "tags": [
-    "Integrated Learning Environment within a Vocational School",
-    "Specialized Preparation for Medical and Welfare Careers",
-    "Comprehensive EJU and University Entrance Examination Support",
-    "Availability of Dedicated School Dormitories (Single Room Options)",
-    "Curriculum Supporting Science, Art, and Business Tracks",
-    "Generous Scholarship and Financial Aid Programs",
-    "Highly Personalized Instruction Due to Small Capacity",
-    "Targeted Caregiving/Welfare Progression Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "트리니티 컬리지 히로시마 의료복지 전문학교 (일본어학과)",
-  "description": "히로시마에 위치한 트리니티 컬리지 의료복지 전문학교 일본어학과는 의료 및 복지 분야 진출을 희망하는 유학생을 위한 전문적인 일본어 교육을 제공합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 広島県広島市中区上幟町8-18
+  capacity: 80
+  name_en: Trinity College Hiroshima Medical and Welfare Vocational School (Japanese
+    Language Department)
+  name_ja: トリニティカレッジ広島医療福祉専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1635000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1255000
+- admission_month: '4'
+  course_name: 介護進学コース
+  total_fees: 875000
+date: '2026-01-28'
+description: 히로시마에 위치한 트리니티 컬리지 의료복지 전문학교 일본어학과는 의료 및 복지 분야 진출을 희망하는 유학생을 위한 전문적인
+  일본어 교육을 제공합니다.
+faculties: []
+features:
+- 전문학교 내 통합 학습 환경
+- 의료 및 복지 분야 진출을 위한 전문적인 준비
+- 종합적인 EJU 및 대학 입시 지원
+- 학교 전용 기숙사 이용 가능 (1인실 옵션)
+- 이과, 예술, 비즈니스 트랙을 지원하는 커리큘럼
+- 넉넉한 장학금 및 재정 지원 프로그램
+- 소규모 정원으로 인한 고도의 맞춤형 교육
+- 맞춤형 간병/복지 진학 코스
+id: school_trinity-college-hiroshima-medical-welfare
+lang: kr
+layout: school
+location:
+  lat: 34.3968878
+  lng: 132.469504
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=565
+stats: {}
+tags:
+- Integrated Learning Environment within a Vocational School
+- Specialized Preparation for Medical and Welfare Careers
+- Comprehensive EJU and University Entrance Examination Support
+- Availability of Dedicated School Dormitories (Single Room Options)
+- Curriculum Supporting Science, Art, and Business Tracks
+- Generous Scholarship and Financial Aid Programs
+- Highly Personalized Instruction Due to Small Capacity
+- Targeted Caregiving/Welfare Progression Course
+thumbnail: /static/img/pin-school.png
+title: 트리니티 컬리지 히로시마 의료복지 전문학교 (일본어학과)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

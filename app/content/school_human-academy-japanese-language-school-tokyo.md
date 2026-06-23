@@ -21,6 +21,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般2年コース
   total_fees: 1337200
+date: '2026-01-28'
 description: Human Academy Japanese Language School, Tokyo Campus is a well-known
   institution in Tokyo's academic hub of Takadanobaba. Part of the Human Group, it
   offers comprehensive Japanese language education for international students, preparing

@@ -6,6 +6,7 @@ basic_info:
   name_en: Meijo University
   name_ja: 名城大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Law
 - Faculty of Business Administration

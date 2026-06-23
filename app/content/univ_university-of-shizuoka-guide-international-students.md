@@ -1,48 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-shizuoka-guide-international-students",
-  "title": "University of Shizuoka",
-  "category": "university",
-  "tags": [
-    "Ranked as a top-tier public university for Pharmaceutical Sciences in Japan.",
-    "Unique research focus on green tea and functional foods due to Shizuoka's local industry.",
-    "Beautiful campus architecture inspired by the surrounding landscape near Mount Fuji.",
-    "Highly affordable tuition with significant discounts for Shizuoka Prefecture residents."
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "静岡県立大学",
-    "name_en": "University of Shizuoka",
-    "address": "52-1 Yada, Suruga-ku, Shizuoka City, Shizuoka Prefecture, 422-8526, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 110,
-    "acceptance_rate": "15-25% (Varies by faculty)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Pharmaceutical Sciences",
-    "School of Food and Nutritional Sciences",
-    "School of International Relations",
-    "School of Management and Information",
-    "School of Nursing"
-  ],
-  "features": [
-    "Ranked as a top-tier public university for Pharmaceutical Sciences in Japan.",
-    "Unique research focus on green tea and functional foods due to Shizuoka's local industry.",
-    "Beautiful campus architecture inspired by the surrounding landscape near Mount Fuji.",
-    "Highly affordable tuition with significant discounts for Shizuoka Prefecture residents."
-  ]
-}
+basic_info:
+  address: 52-1 Yada, Suruga-ku, Shizuoka City, Shizuoka Prefecture, 422-8526, Japan
+  capacity: 3500
+  name_en: University of Shizuoka
+  name_ja: 静岡県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Pharmaceutical Sciences
+- School of Food and Nutritional Sciences
+- School of International Relations
+- School of Management and Information
+- School of Nursing
+features:
+- Ranked as a top-tier public university for Pharmaceutical Sciences in Japan.
+- Unique research focus on green tea and functional foods due to Shizuoka's local
+  industry.
+- Beautiful campus architecture inspired by the surrounding landscape near Mount Fuji.
+- Highly affordable tuition with significant discounts for Shizuoka Prefecture residents.
+id: univ_university-of-shizuoka-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (Varies by faculty)
+  international_students: 110
+tags:
+- Ranked as a top-tier public university for Pharmaceutical Sciences in Japan.
+- Unique research focus on green tea and functional foods due to Shizuoka's local
+  industry.
+- Beautiful campus architecture inspired by the surrounding landscape near Mount Fuji.
+- Highly affordable tuition with significant discounts for Shizuoka Prefecture residents.
+thumbnail: /static/img/pin-univ.png
+title: University of Shizuoka
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The University of Shizuoka

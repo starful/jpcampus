@@ -6,6 +6,7 @@ basic_info:
   name_en: Josai International University
   name_ja: 城西国際大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Humanities and Social Sciences
 - Faculty of Management and Information Sciences

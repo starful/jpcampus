@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_niigata-university-of-management",
-  "title": "Niigata University of Management",
-  "category": "university",
-  "tags": [
-    "Specialized in practical regional management and sports business",
-    "Strong tuition reduction programs for international students",
-    "Intimate campus environment with high faculty-to-student interaction",
-    "Focus on local industry integration in Niigata Prefecture"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟経営大学",
-    "name_en": "Niigata University of Management",
-    "address": "2909-2 Kibogaoka, Kamo, Niigata 959-1322, Japan",
-    "capacity": 550
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 740000
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Department of Management",
-    "Course of Sports Management",
-    "Course of Tourism and Regional Management",
-    "Course of Business Management",
-    "Course of Information and Media"
-  ],
-  "features": [
-    "Specialized in practical regional management and sports business",
-    "Strong tuition reduction programs for international students",
-    "Intimate campus environment with high faculty-to-student interaction",
-    "Focus on local industry integration in Niigata Prefecture"
-  ]
-}
+basic_info:
+  address: 2909-2 Kibogaoka, Kamo, Niigata 959-1322, Japan
+  capacity: 550
+  name_en: Niigata University of Management
+  name_ja: 新潟経営大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Management
+- Department of Management
+- Course of Sports Management
+- Course of Tourism and Regional Management
+- Course of Business Management
+- Course of Information and Media
+features:
+- Specialized in practical regional management and sports business
+- Strong tuition reduction programs for international students
+- Intimate campus environment with high faculty-to-student interaction
+- Focus on local industry integration in Niigata Prefecture
+id: univ_niigata-university-of-management
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 145
+tags:
+- Specialized in practical regional management and sports business
+- Strong tuition reduction programs for international students
+- Intimate campus environment with high faculty-to-student interaction
+- Focus on local industry integration in Niigata Prefecture
+thumbnail: /static/img/pin-univ.png
+title: Niigata University of Management
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 740000
 ---
 
 ## 🏫 University Overview

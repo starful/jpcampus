@@ -5,6 +5,7 @@ basic_info:
   name_ja: 熊本大学
   website: https://www.kumamoto-u.ac.jp/
 category: university
+date: '2026-01-28'
 description: Kumamoto University is a well-respected national university in Japan,
   known for its strong research programs in engineering, medicine, and pharmaceutical
   sciences. It offers a welcoming environment for international students with various

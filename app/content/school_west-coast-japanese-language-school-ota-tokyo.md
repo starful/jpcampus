@@ -18,6 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 特定技能就職1年コース
   total_fees: 822500
+date: '2026-01-28'
 faculties: []
 features:
 - High-Intensity University and Graduate School Advancement Focus

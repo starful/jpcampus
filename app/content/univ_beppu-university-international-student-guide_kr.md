@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_beppu-university-international-student-guide",
-  "title": "벳푸대학 (Beppu University)",
-  "description": "100년 이상의 역사를 자랑하는 벳푸대학은 발효식품학, 만화학, 문화재 보존 등 일본 내에서도 독보적인 특성화 학과를 보유한 유서 깊은 대학입니다.",
-  "category": "university",
-  "tags": [
-    "유명한 발효식품학부",
-    "만화 및 일본 대중문화 연구의 선구자",
-    "우수한 역사 보존 및 문화재 관련 프로그램",
-    "유학생을 위한 체계적인 일본어 별과(JLC) 운영"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "別府大学",
-    "name_en": "Beppu University",
-    "address": "827-11 Kita-Ishigaki, Beppu, Oita 874-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 750000
-  },
-  "faculties": [
-    "문학부",
-    "식품영양학부",
-    "국제학부",
-    "문학연구과 (대학원)"
-  ],
-  "features": [
-    "유명한 발효식품학부",
-    "만화 및 일본 대중문화 연구의 선구자",
-    "우수한 역사 보존 및 문화재 관련 프로그램",
-    "유학생을 위한 체계적인 일본어 별과(JLC) 운영"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 827-11 Kita-Ishigaki, Beppu, Oita 874-8501, Japan
+  capacity: null
+  name_en: Beppu University
+  name_ja: 別府大学
+category: university
+date: '2026-03-15'
+description: 100년 이상의 역사를 자랑하는 벳푸대학은 발효식품학, 만화학, 문화재 보존 등 일본 내에서도 독보적인 특성화 학과를 보유한
+  유서 깊은 대학입니다.
+faculties:
+- 문학부
+- 식품영양학부
+- 국제학부
+- 문학연구과 (대학원)
+features:
+- 유명한 발효식품학부
+- 만화 및 일본 대중문화 연구의 선구자
+- 우수한 역사 보존 및 문화재 관련 프로그램
+- 유학생을 위한 체계적인 일본어 별과(JLC) 운영
+id: univ_beppu-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 320
+tags:
+- 유명한 발효식품학부
+- 만화 및 일본 대중문화 연구의 선구자
+- 우수한 역사 보존 및 문화재 관련 프로그램
+- 유학생을 위한 체계적인 일본어 별과(JLC) 운영
+thumbnail: /static/img/pin-univ.png
+title: 벳푸대학 (Beppu University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 750000
 ---
 
 ## 🏫 대학 개요: 벳푸대학의 유산

@@ -1,73 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中区栄4-16-29",
-    "capacity": 168,
-    "name_en": "Kozan Gakuin Japanese Language School",
-    "name_ja": "上山学院日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学Aコース",
-      "total_fees": 1547600
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学Bコース",
-      "total_fees": 1362900
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学Cコース",
-      "total_fees": 1178200
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学Dコース",
-      "total_fees": 993500
-    }
-  ],
-  "description": "아이치현 나고야에 위치한 코잔 학원 일본어학교는 유학생들이 일본의 고등 교육 기관에 진학할 수 있도록 전문적인 트랙과 맞춤형 지원을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 집중 과정",
-    "EJU 전문 훈련",
-    "기숙사 이용 가능 (1인실 옵션)",
-    "장학금 제도",
-    "특화 트랙 (이학, 미술, 비즈니스)",
-    "회화/실용 일본어 강조",
-    "단기 학습 옵션",
-    "나고야 (아이치현) 위치"
-  ],
-  "id": "school_kozan-gakuin-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.165976,
-    "lng": 136.9097542
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=295",
-  "stats": {
-    "capacity": 168,
-    "international_students": 123
-  },
-  "tags": [
-    "University Preparation Focus",
-    "EJU Specialized Training",
-    "Dormitory Available (Single Room Option)",
-    "Scholarship System",
-    "Specialized Tracks (Science, Art, Business)",
-    "Conversation/Practical Japanese Emphasis",
-    "Short-Term Study Option",
-    "Located in Nagoya (Aichi Prefecture)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "코잔 학원 일본어학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県名古屋市中区栄4-16-29
+  capacity: 168
+  name_en: Kozan Gakuin Japanese Language School
+  name_ja: 上山学院日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学Aコース
+  total_fees: 1547600
+- admission_month: '7'
+  course_name: 進学Bコース
+  total_fees: 1362900
+- admission_month: '10'
+  course_name: 進学Cコース
+  total_fees: 1178200
+- admission_month: '1'
+  course_name: 進学Dコース
+  total_fees: 993500
+date: '2026-01-28'
+description: 아이치현 나고야에 위치한 코잔 학원 일본어학교는 유학생들이 일본의 고등 교육 기관에 진학할 수 있도록 전문적인 트랙과 맞춤형
+  지원을 제공합니다.
+faculties: []
+features:
+- 대학 진학 집중 과정
+- EJU 전문 훈련
+- 기숙사 이용 가능 (1인실 옵션)
+- 장학금 제도
+- 특화 트랙 (이학, 미술, 비즈니스)
+- 회화/실용 일본어 강조
+- 단기 학습 옵션
+- 나고야 (아이치현) 위치
+id: school_kozan-gakuin-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.165976
+  lng: 136.9097542
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=295
+stats:
+  capacity: 168
+  international_students: 123
+tags:
+- University Preparation Focus
+- EJU Specialized Training
+- Dormitory Available (Single Room Option)
+- Scholarship System
+- Specialized Tracks (Science, Art, Business)
+- Conversation/Practical Japanese Emphasis
+- Short-Term Study Option
+- Located in Nagoya (Aichi Prefecture)
+thumbnail: /static/img/pin-school.png
+title: 코잔 학원 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 이념

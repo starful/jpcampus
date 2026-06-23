@@ -1,58 +1,50 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanto-gakuin-university",
-  "title": "간토 가쿠인 대학",
-  "category": "university",
-  "tags": [
-    "Christian Baptist Educational Values",
-    "Innovative Kannai Campus (Urban Learning Hub)",
-    "Strong Practical and Vocational Focus",
-    "Strategic Location in Yokohama",
-    "High Graduate Employment Rates",
-    "Comprehensive Support for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "関東学院大学",
-    "name_en": "Kanto Gakuin University",
-    "address": "1-50-1 Mutsuura-higashi, Kanazawa-ku, Yokohama, Kanagawa 236-8501, Japan",
-    "capacity": 11000
-  },
-  "stats": {
-    "international_students": 420,
-    "acceptance_rate": "45-55% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Humanities",
-    "Faculty of Intercultural Studies",
-    "Faculty of Science and Engineering",
-    "Faculty of Architecture and Environmental Design",
-    "Faculty of Nursing",
-    "Faculty of Education"
-  ],
-  "features": [
-    "기독교 침례교 교육 가치",
-    "혁신적인 간나이 캠퍼스 (도시 학습 허브)",
-    "강력한 실무 및 직업 중심",
-    "요코하마의 전략적 위치",
-    "높은 졸업생 취업률",
-    "유학생을 위한 종합적인 지원"
-  ],
-  "lang": "kr",
-  "description": "기독교 정신을 바탕으로 설립된 간토 가쿠인 대학은 요코하마에 위치하며, 실용적인 교육과 높은 취업률을 자랑하는 명문 사립 대학입니다."
-}
+basic_info:
+  address: 1-50-1 Mutsuura-higashi, Kanazawa-ku, Yokohama, Kanagawa 236-8501, Japan
+  capacity: 11000
+  name_en: Kanto Gakuin University
+  name_ja: 関東学院大学
+category: university
+date: '2026-02-13'
+description: 기독교 정신을 바탕으로 설립된 간토 가쿠인 대학은 요코하마에 위치하며, 실용적인 교육과 높은 취업률을 자랑하는 명문 사립 대학입니다.
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Humanities
+- Faculty of Intercultural Studies
+- Faculty of Science and Engineering
+- Faculty of Architecture and Environmental Design
+- Faculty of Nursing
+- Faculty of Education
+features:
+- 기독교 침례교 교육 가치
+- 혁신적인 간나이 캠퍼스 (도시 학습 허브)
+- 강력한 실무 및 직업 중심
+- 요코하마의 전략적 위치
+- 높은 졸업생 취업률
+- 유학생을 위한 종합적인 지원
+id: univ_kanto-gakuin-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Estimated)
+  international_students: 420
+tags:
+- Christian Baptist Educational Values
+- Innovative Kannai Campus (Urban Learning Hub)
+- Strong Practical and Vocational Focus
+- Strategic Location in Yokohama
+- High Graduate Employment Rates
+- Comprehensive Support for International Students
+thumbnail: /static/img/pin-univ.png
+title: 간토 가쿠인 대학
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

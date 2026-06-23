@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 818640
+date: '2026-01-28'
 description: Located in Tokyo's Ryogoku district, MANABI Japanese Language Institute
   Tokyo Campus prepares students for higher education with comprehensive courses and
   a focus on personalized learning.

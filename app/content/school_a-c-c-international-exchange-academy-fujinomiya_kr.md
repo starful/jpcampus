@@ -1,79 +1,61 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県富士宮市大宮町10-9",
-    "capacity": 320,
-    "name_en": "A.C.C. International Exchange Academy",
-    "name_ja": "Ａ.Ｃ.Ｃ.国際交流学園"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "本科特別進学1年コース",
-      "total_fees": 718000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "本科特別進学1年3ヶ月コース",
-      "total_fees": 878750
-    },
-    {
-      "admission_month": "10",
-      "course_name": "本科進学1年6ヶ月コース",
-      "total_fees": 1044500
-    },
-    {
-      "admission_month": "7",
-      "course_name": "本科進学1年9ヶ月コース",
-      "total_fees": 1205250
-    },
-    {
-      "admission_month": "4",
-      "course_name": "本科進学2年コース",
-      "total_fees": 1366000
-    },
-    {
-      "admission_month": "4, 10",
-      "course_name": "本科一般6ヶ月コース",
-      "total_fees": 394000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 의무 또는 적극 권장",
-    "EJU 특화 준비 과정 (이과 및 문과)",
-    "미술, 디자인 및 비즈니스 진학을 위한 맞춤 커리큘럼",
-    "시즈오카현 후지노미야 위치 (후지산 인근), 집중 학습에 용이",
-    "고강도 '특별 심화 진학' 코스",
-    "단기 및 회화 프로그램 이용 가능"
-  ],
-  "id": "school_a-c-c-international-exchange-academy-fujinomiya",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.2240876,
-    "lng": 138.6132254
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=282",
-  "stats": {
-    "capacity": 320,
-    "international_students": 123
-  },
-  "tags": [
-    "Compulsory or Highly Recommended Dormitory Placement",
-    "Specialized EJU Preparation (Science and Humanities Tracks)",
-    "Dedicated Curriculum for Art, Design, and Business Progression",
-    "Located in Fujinomiya, Shizuoka (Near Mt. Fuji) for focused study",
-    "High-Intensity 'Special Advanced Progression' Courses",
-    "Flexible Short-Term and Conversation Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "A.C.C. 국제교류학원",
-  "translated": true,
-  "tuition": {},
-  "description": "A.C.C. 국제교류학원은 시즈오카현 후지노미야시에 위치한 일본어 학교입니다. EJU 시험 준비와 대학 진학에 특화된 커리큘럼을 제공합니다."
-}
+basic_info:
+  address: 静岡県富士宮市大宮町10-9
+  capacity: 320
+  name_en: A.C.C. International Exchange Academy
+  name_ja: Ａ.Ｃ.Ｃ.国際交流学園
+category: school
+courses:
+- admission_month: '4'
+  course_name: 本科特別進学1年コース
+  total_fees: 718000
+- admission_month: '1'
+  course_name: 本科特別進学1年3ヶ月コース
+  total_fees: 878750
+- admission_month: '10'
+  course_name: 本科進学1年6ヶ月コース
+  total_fees: 1044500
+- admission_month: '7'
+  course_name: 本科進学1年9ヶ月コース
+  total_fees: 1205250
+- admission_month: '4'
+  course_name: 本科進学2年コース
+  total_fees: 1366000
+- admission_month: 4, 10
+  course_name: 本科一般6ヶ月コース
+  total_fees: 394000
+date: '2026-01-28'
+description: A.C.C. 국제교류학원은 시즈오카현 후지노미야시에 위치한 일본어 학교입니다. EJU 시험 준비와 대학 진학에 특화된 커리큘럼을
+  제공합니다.
+faculties: []
+features:
+- 기숙사 의무 또는 적극 권장
+- EJU 특화 준비 과정 (이과 및 문과)
+- 미술, 디자인 및 비즈니스 진학을 위한 맞춤 커리큘럼
+- 시즈오카현 후지노미야 위치 (후지산 인근), 집중 학습에 용이
+- 고강도 '특별 심화 진학' 코스
+- 단기 및 회화 프로그램 이용 가능
+id: school_a-c-c-international-exchange-academy-fujinomiya
+lang: kr
+layout: school
+location:
+  lat: 35.2240876
+  lng: 138.6132254
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=282
+stats:
+  capacity: 320
+  international_students: 123
+tags:
+- Compulsory or Highly Recommended Dormitory Placement
+- Specialized EJU Preparation (Science and Humanities Tracks)
+- Dedicated Curriculum for Art, Design, and Business Progression
+- Located in Fujinomiya, Shizuoka (Near Mt. Fuji) for focused study
+- High-Intensity 'Special Advanced Progression' Courses
+- Flexible Short-Term and Conversation Programs Available
+thumbnail: /static/img/pin-school.png
+title: A.C.C. 국제교류학원
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

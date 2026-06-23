@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-institute-of-technology-guide",
-  "title": "Osaka Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Practical Industry-Aligned Education",
-    "Japan's Only Faculty of Intellectual Property",
-    "Strategic Urban Campus in Umeda",
-    "Exceptional Employment Rate for Graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪工業大学",
-    "name_en": "Osaka Institute of Technology",
-    "address": "5-16-1 Omiya, Asahi-ku, Osaka 535-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "30-40%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1420000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Robotics and Design",
-    "Faculty of Information Science and Technology",
-    "Faculty of Intellectual Property"
-  ],
-  "features": [
-    "Practical Industry-Aligned Education",
-    "Japan's Only Faculty of Intellectual Property",
-    "Strategic Urban Campus in Umeda",
-    "Exceptional Employment Rate for Graduates"
-  ]
-}
+basic_info:
+  address: 5-16-1 Omiya, Asahi-ku, Osaka 535-8585, Japan
+  capacity: null
+  name_en: Osaka Institute of Technology
+  name_ja: 大阪工業大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Engineering
+- Faculty of Robotics and Design
+- Faculty of Information Science and Technology
+- Faculty of Intellectual Property
+features:
+- Practical Industry-Aligned Education
+- Japan's Only Faculty of Intellectual Property
+- Strategic Urban Campus in Umeda
+- Exceptional Employment Rate for Graduates
+id: univ_osaka-institute-of-technology-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-40%
+  international_students: 185
+tags:
+- Practical Industry-Aligned Education
+- Japan's Only Faculty of Intellectual Property
+- Strategic Urban Campus in Umeda
+- Exceptional Employment Rate for Graduates
+thumbnail: /static/img/pin-univ.png
+title: Osaka Institute of Technology
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1420000
 ---
 
 ## 🏫 University Overview: The Powerhouse of Practical Engineering

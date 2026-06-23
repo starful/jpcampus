@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_prefectural-university-of-hiroshima",
-  "title": "Prefectural University of Hiroshima",
-  "category": "university",
-  "tags": [
-    "Practical and Regional-Focused Curriculum",
-    "Strong Support for Healthcare License Exams",
-    "Strategic Industry Partnerships with Local Corporations",
-    "Multidisciplinary Research Opportunities Across Three Campuses"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "県立広島大学",
-    "name_en": "Prefectural University of Hiroshima",
-    "address": "1-1-71 Ujina-higashi, Minami-ku, Hiroshima City, Hiroshima, 734-8558, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 92,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Regional Business and Economics",
-    "Bioresource Sciences",
-    "Health and Welfare",
-    "Graduate School of Management (HBMS)",
-    "Graduate School of Comprehensive Scientific Research"
-  ],
-  "features": [
-    "Practical and Regional-Focused Curriculum",
-    "Strong Support for Healthcare License Exams",
-    "Strategic Industry Partnerships with Local Corporations",
-    "Multidisciplinary Research Opportunities Across Three Campuses"
-  ]
-}
+basic_info:
+  address: 1-1-71 Ujina-higashi, Minami-ku, Hiroshima City, Hiroshima, 734-8558, Japan
+  capacity: 2500
+  name_en: Prefectural University of Hiroshima
+  name_ja: 県立広島大学
+category: university
+date: '2026-03-03'
+faculties:
+- Regional Business and Economics
+- Bioresource Sciences
+- Health and Welfare
+- Graduate School of Management (HBMS)
+- Graduate School of Comprehensive Scientific Research
+features:
+- Practical and Regional-Focused Curriculum
+- Strong Support for Healthcare License Exams
+- Strategic Industry Partnerships with Local Corporations
+- Multidisciplinary Research Opportunities Across Three Campuses
+id: univ_prefectural-university-of-hiroshima
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25%
+  international_students: 92
+tags:
+- Practical and Regional-Focused Curriculum
+- Strong Support for Healthcare License Exams
+- Strategic Industry Partnerships with Local Corporations
+- Multidisciplinary Research Opportunities Across Three Campuses
+thumbnail: /static/img/pin-univ.png
+title: Prefectural University of Hiroshima
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

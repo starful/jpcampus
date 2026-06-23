@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-university-of-art-and-design-kyobi",
-  "title": "Kyoto University of Art and Design",
-  "category": "university",
-  "tags": [
-    "Integration of Traditional Japanese Crafts and Modern Architecture",
-    "Specialized First-Class Architect Licensing Program",
-    "Prime Location in Kyoto’s Historic Higashiyama District",
-    "Hands-on Master-Apprentice Style Mentorship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都美術工芸大学",
-    "name_en": "Kyoto University of Art and Design",
-    "address": "737-1 Kawabata-cho, Higashiyama-ku, Kyoto, 605-0991, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "40-50%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "Faculty of Architecture and Design",
-    "Department of Architecture and Design",
-    "Architecture Course",
-    "Interior Design Course",
-    "Visual Design Course",
-    "Traditional Crafts Course"
-  ],
-  "features": [
-    "Integration of Traditional Japanese Crafts and Modern Architecture",
-    "Specialized First-Class Architect Licensing Program",
-    "Prime Location in Kyoto’s Historic Higashiyama District",
-    "Hands-on Master-Apprentice Style Mentorship"
-  ]
-}
+basic_info:
+  address: 737-1 Kawabata-cho, Higashiyama-ku, Kyoto, 605-0991, Japan
+  capacity: 1200
+  name_en: Kyoto University of Art and Design
+  name_ja: 京都美術工芸大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Architecture and Design
+- Department of Architecture and Design
+- Architecture Course
+- Interior Design Course
+- Visual Design Course
+- Traditional Crafts Course
+features:
+- Integration of Traditional Japanese Crafts and Modern Architecture
+- Specialized First-Class Architect Licensing Program
+- Prime Location in Kyoto’s Historic Higashiyama District
+- Hands-on Master-Apprentice Style Mentorship
+id: univ_kyoto-university-of-art-and-design-kyobi
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-50%
+  international_students: 115
+tags:
+- Integration of Traditional Japanese Crafts and Modern Architecture
+- Specialized First-Class Architect Licensing Program
+- Prime Location in Kyoto’s Historic Higashiyama District
+- Hands-on Master-Apprentice Style Mentorship
+thumbnail: /static/img/pin-univ.png
+title: Kyoto University of Art and Design
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 University Overview

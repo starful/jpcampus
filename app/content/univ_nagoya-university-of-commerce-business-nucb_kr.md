@@ -1,55 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "4-4 Sagamine, Komenogi, Nisshin, Aichi 470-0193, Japan",
-    "capacity": null,
-    "name_en": "Nagoya University of Commerce & Business",
-    "name_ja": "名古屋商科大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Management (Business Administration)",
-    "Faculty of Commerce",
-    "Faculty of Economics",
-    "Faculty of Communication",
-    "Global BBA Program (Undergraduate)"
-  ],
-  "features": [
-    "국제 인증 획득 (AACSB, AMBA, EQUIS - 대학원 Triple Crown)",
-    "일본 내 케이스 메소드 교육 선구자",
-    "높은 국제 교수진 비율",
-    "실용적인 비즈니스 기술 및 지속 가능성에 중점 (PRME)",
-    "EJU 필수 (일본어 트랙)",
-    "영어 프로그램 (Global BBA)"
-  ],
-  "id": "univ_nagoya-university-of-commerce-business-nucb",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "40% (추정)",
-    "international_students": 210
-  },
-  "tags": [
-    "Internationally Accredited (AACSB, AMBA, EQUIS - Triple Crown for Graduate School)",
-    "Pioneering Case Method Education in Japan",
-    "High Ratio of International Faculty",
-    "Strong focus on practical business skills and sustainability (PRME)",
-    "EJU Required (for Japanese Track)",
-    "English Program (Global BBA)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "나고야 상과대학 (Nagoya University of Commerce & Business)",
-  "description": "국제적인 인증을 받은 일본 나고야 상과대학 (NUCB)의 경영 및 비즈니스 프로그램을 알아보세요. 영어 BBA 프로그램 및 장학금 정보가 제공됩니다.",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1450000
-  }
-}
+basic_info:
+  address: 4-4 Sagamine, Komenogi, Nisshin, Aichi 470-0193, Japan
+  capacity: null
+  name_en: Nagoya University of Commerce & Business
+  name_ja: 名古屋商科大学
+category: university
+date: '2026-01-28'
+description: 국제적인 인증을 받은 일본 나고야 상과대학 (NUCB)의 경영 및 비즈니스 프로그램을 알아보세요. 영어 BBA 프로그램 및
+  장학금 정보가 제공됩니다.
+faculties:
+- Faculty of Management (Business Administration)
+- Faculty of Commerce
+- Faculty of Economics
+- Faculty of Communication
+- Global BBA Program (Undergraduate)
+features:
+- 국제 인증 획득 (AACSB, AMBA, EQUIS - 대학원 Triple Crown)
+- 일본 내 케이스 메소드 교육 선구자
+- 높은 국제 교수진 비율
+- 실용적인 비즈니스 기술 및 지속 가능성에 중점 (PRME)
+- EJU 필수 (일본어 트랙)
+- 영어 프로그램 (Global BBA)
+id: univ_nagoya-university-of-commerce-business-nucb
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40% (추정)
+  international_students: 210
+tags:
+- Internationally Accredited (AACSB, AMBA, EQUIS - Triple Crown for Graduate School)
+- Pioneering Case Method Education in Japan
+- High Ratio of International Faculty
+- Strong focus on practical business skills and sustainability (PRME)
+- EJU Required (for Japanese Track)
+- English Program (Global BBA)
+thumbnail: /static/img/pin-univ.png
+title: 나고야 상과대학 (Nagoya University of Commerce & Business)
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1450000
 ---
 
 ## 대학 개요

@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_otemon-gakuin-university",
-  "title": "Otemon Gakuin University",
-  "category": "university",
-  "tags": [
-    "Innovative 'WIL' (Work-Is-Learning) Educational Philosophy",
-    "Award-winning Ibaraki Sojiji Campus Architecture",
-    "Hyper-focused Regional and Industrial Collaboration",
-    "Strategic Career Support for the Japanese Job Market"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "追手門学院大学",
-    "name_en": "Otemon Gakuin University",
-    "address": "2-1-15 Nishiai, Ibaraki-shi, Osaka 567-8502, Japan",
-    "capacity": 7850
-  },
-  "stats": {
-    "international_students": 215,
-    "acceptance_rate": "40-45% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1280000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Management",
-    "Faculty of Regional Development",
-    "Faculty of Sociology",
-    "Faculty of Psychology",
-    "Faculty of International Studies",
-    "Faculty of Law"
-  ],
-  "features": [
-    "Innovative 'WIL' (Work-Is-Learning) Educational Philosophy",
-    "Award-winning Ibaraki Sojiji Campus Architecture",
-    "Hyper-focused Regional and Industrial Collaboration",
-    "Strategic Career Support for the Japanese Job Market"
-  ]
-}
+basic_info:
+  address: 2-1-15 Nishiai, Ibaraki-shi, Osaka 567-8502, Japan
+  capacity: 7850
+  name_en: Otemon Gakuin University
+  name_ja: 追手門学院大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Economics
+- Faculty of Management
+- Faculty of Regional Development
+- Faculty of Sociology
+- Faculty of Psychology
+- Faculty of International Studies
+- Faculty of Law
+features:
+- Innovative 'WIL' (Work-Is-Learning) Educational Philosophy
+- Award-winning Ibaraki Sojiji Campus Architecture
+- Hyper-focused Regional and Industrial Collaboration
+- Strategic Career Support for the Japanese Job Market
+id: univ_otemon-gakuin-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-45% (Estimated for International Applicants)
+  international_students: 215
+tags:
+- Innovative 'WIL' (Work-Is-Learning) Educational Philosophy
+- Award-winning Ibaraki Sojiji Campus Architecture
+- Hyper-focused Regional and Industrial Collaboration
+- Strategic Career Support for the Japanese Job Market
+thumbnail: /static/img/pin-univ.png
+title: Otemon Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1280000
 ---
 
 ## 🏫 University Overview

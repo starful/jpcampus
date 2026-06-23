@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanda-university-of-international-studies",
-  "title": "Kanda University of International Studies",
-  "category": "university",
-  "tags": [
-    "Self-Access Learning Center (SALC)",
-    "Multilingual Communication Center (MULC)",
-    "Global Liberal Arts Faculty",
-    "British Hills Immersion Center",
-    "Exceptional Career Support in Aviation and Hospitality"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神田外語大学",
-    "name_en": "Kanda University of International Studies",
-    "address": "1-4-1 Wakaba, Mihama-ku, Chiba City, Chiba 261-0014, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "35-45% (Varies by department and entry track)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1210000
-  },
-  "faculties": [
-    "Faculty of Foreign Languages",
-    "Faculty of Global Liberal Arts"
-  ],
-  "features": [
-    "Self-Access Learning Center (SALC)",
-    "Multilingual Communication Center (MULC)",
-    "Global Liberal Arts Faculty",
-    "British Hills Immersion Center",
-    "Exceptional Career Support in Aviation and Hospitality"
-  ]
-}
+basic_info:
+  address: 1-4-1 Wakaba, Mihama-ku, Chiba City, Chiba 261-0014, Japan
+  capacity: null
+  name_en: Kanda University of International Studies
+  name_ja: 神田外語大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Foreign Languages
+- Faculty of Global Liberal Arts
+features:
+- Self-Access Learning Center (SALC)
+- Multilingual Communication Center (MULC)
+- Global Liberal Arts Faculty
+- British Hills Immersion Center
+- Exceptional Career Support in Aviation and Hospitality
+id: univ_kanda-university-of-international-studies
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Varies by department and entry track)
+  international_students: 165
+tags:
+- Self-Access Learning Center (SALC)
+- Multilingual Communication Center (MULC)
+- Global Liberal Arts Faculty
+- British Hills Immersion Center
+- Exceptional Career Support in Aviation and Hospitality
+thumbnail: /static/img/pin-univ.png
+title: Kanda University of International Studies
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1210000
 ---
 
 ## 🏫 University Overview

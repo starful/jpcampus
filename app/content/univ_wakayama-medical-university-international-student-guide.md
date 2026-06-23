@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_wakayama-medical-university-international-student-guide",
-  "title": "Wakayama Medical University",
-  "category": "university",
-  "tags": [
-    "Leading public medical institution in the Kansai region",
-    "High national examination pass rates for doctors and nurses",
-    "State-of-the-art University Hospital integrated with the campus",
-    "Strong focus on community-based medicine and specialized research"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "和歌山県立医科大学",
-    "name_en": "Wakayama Medical University",
-    "address": "811-1 Kimiidera, Wakayama City, Wakayama Prefecture 641-8509, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 12,
-    "acceptance_rate": "10-15%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Medicine",
-    "School of Nursing",
-    "School of Pharmaceutical Sciences"
-  ],
-  "features": [
-    "Leading public medical institution in the Kansai region",
-    "High national examination pass rates for doctors and nurses",
-    "State-of-the-art University Hospital integrated with the campus",
-    "Strong focus on community-based medicine and specialized research"
-  ]
-}
+basic_info:
+  address: 811-1 Kimiidera, Wakayama City, Wakayama Prefecture 641-8509, Japan
+  capacity: null
+  name_en: Wakayama Medical University
+  name_ja: 和歌山県立医科大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Medicine
+- School of Nursing
+- School of Pharmaceutical Sciences
+features:
+- Leading public medical institution in the Kansai region
+- High national examination pass rates for doctors and nurses
+- State-of-the-art University Hospital integrated with the campus
+- Strong focus on community-based medicine and specialized research
+id: univ_wakayama-medical-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 10-15%
+  international_students: 12
+tags:
+- Leading public medical institution in the Kansai region
+- High national examination pass rates for doctors and nurses
+- State-of-the-art University Hospital integrated with the campus
+- Strong focus on community-based medicine and specialized research
+thumbnail: /static/img/pin-univ.png
+title: Wakayama Medical University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

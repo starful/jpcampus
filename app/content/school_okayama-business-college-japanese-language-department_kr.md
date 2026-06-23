@@ -1,62 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "岡山県岡山市北区岩田町2-11",
-    "capacity": 280,
-    "name_en": "Okayama Business College - Japanese Language Department",
-    "name_ja": "専門学校岡山ビジネスカレッジ日本語学科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1360000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 1045000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학을 위한 종합적인 준비 (進学)",
-    "일본 예절 및 실용적인 생활 습관 강조 (マナー教育)",
-    "이과 및 문과 트랙을 위한 전문적인 EJU 준비 수업",
-    "싱글룸 옵션을 갖춘 캠퍼스 내 기숙사 제공 (1인실)",
-    "비즈니스, 회화, 미술, 디자인 일본어 기술 통합",
-    "전용 자습실 및 학생 홀 이용 가능",
-    "우수 학생을 위한 다양한 장학금 기회 제공",
-    "단기 어학 연수 옵션 제공"
-  ],
-  "id": "school_okayama-business-college-japanese-language-department",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6694809,
-    "lng": 133.9212328
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=390",
-  "stats": {
-    "capacity": 280,
-    "international_students": 200
-  },
-  "tags": [
-    "Comprehensive preparation for higher education (進学)",
-    "Strong emphasis on Japanese manners and practical lifestyle habits (マナー教育)",
-    "Specialized EJU preparation classes for Science and Humanities tracks",
-    "On-site dormitory accommodation with single-room options (1인실)",
-    "Integration of Business, Conversation, Art, and Design Japanese skills",
-    "Availability of dedicated self-study rooms and student halls",
-    "Various scholarship opportunities for excellent students",
-    "Short-term study options available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Okayama Business College - 일본어학과",
-  "tuition": {},
-  "description": "오카야마 비즈니스 칼리지 일본어학과는 대학 진학을 위한 체계적인 준비와 일본 문화 적응을 돕는 교육을 제공합니다. 자세한 정보와 커리큘럼을 확인하세요."
-}
+basic_info:
+  address: 岡山県岡山市北区岩田町2-11
+  capacity: 280
+  name_en: Okayama Business College - Japanese Language Department
+  name_ja: 専門学校岡山ビジネスカレッジ日本語学科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1360000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1045000
+date: '2026-01-28'
+description: 오카야마 비즈니스 칼리지 일본어학과는 대학 진학을 위한 체계적인 준비와 일본 문화 적응을 돕는 교육을 제공합니다. 자세한 정보와
+  커리큘럼을 확인하세요.
+faculties: []
+features:
+- 대학 진학을 위한 종합적인 준비 (進学)
+- 일본 예절 및 실용적인 생활 습관 강조 (マナー教育)
+- 이과 및 문과 트랙을 위한 전문적인 EJU 준비 수업
+- 싱글룸 옵션을 갖춘 캠퍼스 내 기숙사 제공 (1인실)
+- 비즈니스, 회화, 미술, 디자인 일본어 기술 통합
+- 전용 자습실 및 학생 홀 이용 가능
+- 우수 학생을 위한 다양한 장학금 기회 제공
+- 단기 어학 연수 옵션 제공
+id: school_okayama-business-college-japanese-language-department
+lang: kr
+layout: school
+location:
+  lat: 34.6694809
+  lng: 133.9212328
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=390
+stats:
+  capacity: 280
+  international_students: 200
+tags:
+- Comprehensive preparation for higher education (進学)
+- Strong emphasis on Japanese manners and practical lifestyle habits (マナー教育)
+- Specialized EJU preparation classes for Science and Humanities tracks
+- On-site dormitory accommodation with single-room options (1인실)
+- Integration of Business, Conversation, Art, and Design Japanese skills
+- Availability of dedicated self-study rooms and student halls
+- Various scholarship opportunities for excellent students
+- Short-term study options available
+thumbnail: /static/img/pin-school.png
+title: Okayama Business College - 일본어학과
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

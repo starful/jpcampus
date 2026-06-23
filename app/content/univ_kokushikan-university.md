@@ -5,6 +5,7 @@ basic_info:
   name_ja: 国士舘大学
   website: https://www.kokushikan.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Political Science and Economics
 - Faculty of Physical Education

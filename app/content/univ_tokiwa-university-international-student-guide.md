@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokiwa-university-international-student-guide",
-  "title": "Tokiwa University",
-  "category": "university",
-  "tags": [
-    "Comprehensive Community-Based Learning",
-    "Strong Local Industry Connections in Ibaraki",
-    "Rich History dating back to 1909",
-    "High Professional Qualification Success Rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "常磐大学",
-    "name_en": "Tokiwa University",
-    "address": "1-430-1 Miwa, Mito, Ibaraki 310-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 62,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Human Science",
-    "Faculty of Applied Psychology",
-    "Faculty of Comprehensive Policy",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Comprehensive Community-Based Learning",
-    "Strong Local Industry Connections in Ibaraki",
-    "Rich History dating back to 1909",
-    "High Professional Qualification Success Rates"
-  ]
-}
+basic_info:
+  address: 1-430-1 Miwa, Mito, Ibaraki 310-8585, Japan
+  capacity: null
+  name_en: Tokiwa University
+  name_ja: 常磐大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Human Science
+- Faculty of Applied Psychology
+- Faculty of Comprehensive Policy
+- Faculty of Nursing
+features:
+- Comprehensive Community-Based Learning
+- Strong Local Industry Connections in Ibaraki
+- Rich History dating back to 1909
+- High Professional Qualification Success Rates
+id: univ_tokiwa-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 62
+tags:
+- Comprehensive Community-Based Learning
+- Strong Local Industry Connections in Ibaraki
+- Rich History dating back to 1909
+- High Professional Qualification Success Rates
+thumbnail: /static/img/pin-univ.png
+title: Tokiwa University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview

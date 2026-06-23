@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hirosaki-university-comprehensive-guide",
-  "title": "Hirosaki University",
-  "category": "university",
-  "tags": [
-    "Leading regional national university in Northern Japan",
-    "World-renowned research in Apple science and agricultural technology",
-    "Strong focus on Renewable Energy and Environmental Sciences",
-    "Highly affordable cost of living compared to major Japanese metropolises"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "弘前大学",
-    "name_en": "Hirosaki University",
-    "address": "1 Bunkyo-cho, Hirosaki, Aomori 036-8560, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 195,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education",
-    "School of Medicine",
-    "Faculty of Science and Technology",
-    "Faculty of Agriculture and Life Science"
-  ],
-  "features": [
-    "Leading regional national university in Northern Japan",
-    "World-renowned research in Apple science and agricultural technology",
-    "Strong focus on Renewable Energy and Environmental Sciences",
-    "Highly affordable cost of living compared to major Japanese metropolises"
-  ]
-}
+basic_info:
+  address: 1 Bunkyo-cho, Hirosaki, Aomori 036-8560, Japan
+  capacity: null
+  name_en: Hirosaki University
+  name_ja: 弘前大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education
+- School of Medicine
+- Faculty of Science and Technology
+- Faculty of Agriculture and Life Science
+features:
+- Leading regional national university in Northern Japan
+- World-renowned research in Apple science and agricultural technology
+- Strong focus on Renewable Energy and Environmental Sciences
+- Highly affordable cost of living compared to major Japanese metropolises
+id: univ_hirosaki-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 195
+tags:
+- Leading regional national university in Northern Japan
+- World-renowned research in Apple science and agricultural technology
+- Strong focus on Renewable Energy and Environmental Sciences
+- Highly affordable cost of living compared to major Japanese metropolises
+thumbnail: /static/img/pin-univ.png
+title: Hirosaki University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

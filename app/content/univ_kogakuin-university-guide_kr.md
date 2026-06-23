@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kogakuin-university-guide",
-  "title": "工学院大学 (고가쿠인 대학)",
-  "category": "university",
-  "tags": [
-    "신주쿠의 고층 캠퍼스",
-    "일본에서 가장 오래된 사립 공과 대학 중 하나",
-    "유명한 건축학 프로그램",
-    "주요 기술 기업의 높은 취업률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "工学院大学",
-    "name_en": "Kogakuin University",
-    "address": "1-24-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 163-8677, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 210,
-    "acceptance_rate": "35-45% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1540000
-  },
-  "faculties": [
-    "첨단 공학부",
-    "공학부",
-    "건축학부",
-    "정보학부"
-  ],
-  "features": [
-    "신주쿠의 고층 캠퍼스",
-    "일본에서 가장 오래된 사립 공과 대학 중 하나",
-    "유명한 건축학 프로그램",
-    "주요 기술 기업의 높은 취업률"
-  ],
-  "description": "고가쿠인 대학은 1887년에 설립된 일본에서 가장 오래되고 명망 있는 사립 공과 대학 중 하나입니다. 신주쿠에 위치한 고층 캠퍼스와 높은 취업률이 특징입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-24-2 Nishi-Shinjuku, Shinjuku-ku, Tokyo 163-8677, Japan
+  capacity: null
+  name_en: Kogakuin University
+  name_ja: 工学院大学
+category: university
+date: '2026-02-13'
+description: 고가쿠인 대학은 1887년에 설립된 일본에서 가장 오래되고 명망 있는 사립 공과 대학 중 하나입니다. 신주쿠에 위치한 고층
+  캠퍼스와 높은 취업률이 특징입니다.
+faculties:
+- 첨단 공학부
+- 공학부
+- 건축학부
+- 정보학부
+features:
+- 신주쿠의 고층 캠퍼스
+- 일본에서 가장 오래된 사립 공과 대학 중 하나
+- 유명한 건축학 프로그램
+- 주요 기술 기업의 높은 취업률
+id: univ_kogakuin-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated for International Applicants)
+  international_students: 210
+tags:
+- 신주쿠의 고층 캠퍼스
+- 일본에서 가장 오래된 사립 공과 대학 중 하나
+- 유명한 건축학 프로그램
+- 주요 기술 기업의 높은 취업률
+thumbnail: /static/img/pin-univ.png
+title: 工学院大学 (고가쿠인 대학)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1540000
 ---
 
 ## 🏫 대학 개요: 공학 우수성의 역사

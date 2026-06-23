@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okazaki-womens-university-junior-college-guide",
-  "title": "Okazaki Women's University / Okazaki Women's Junior College",
-  "category": "university",
-  "tags": [
-    "Specialized Childcare Education",
-    "High Employment Rate in Teaching",
-    "Close-knit Community Culture",
-    "Practical Business Training"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡崎女子大学",
-    "name_en": "Okazaki Women's University / Okazaki Women's Junior College",
-    "address": "1-1 Naka-machi, Okazaki-shi, Aichi 444-0015, Japan",
-    "capacity": 600
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Children's Studies",
-    "Department of Early Childhood Education (Junior College)",
-    "Department of Contemporary Business (Junior College)"
-  ],
-  "features": [
-    "Specialized Childcare Education",
-    "High Employment Rate in Teaching",
-    "Close-knit Community Culture",
-    "Practical Business Training"
-  ]
-}
+basic_info:
+  address: 1-1 Naka-machi, Okazaki-shi, Aichi 444-0015, Japan
+  capacity: 600
+  name_en: Okazaki Women's University / Okazaki Women's Junior College
+  name_ja: 岡崎女子大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Children's Studies
+- Department of Early Childhood Education (Junior College)
+- Department of Contemporary Business (Junior College)
+features:
+- Specialized Childcare Education
+- High Employment Rate in Teaching
+- Close-knit Community Culture
+- Practical Business Training
+id: univ_okazaki-womens-university-junior-college-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 15
+tags:
+- Specialized Childcare Education
+- High Employment Rate in Teaching
+- Close-knit Community Culture
+- Practical Business Training
+thumbnail: /static/img/pin-univ.png
+title: Okazaki Women's University / Okazaki Women's Junior College
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview

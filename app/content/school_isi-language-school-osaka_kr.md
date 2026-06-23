@@ -1,74 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市中央区南船場3-5-8 オーク心斎橋ビル5階",
-    "capacity": 480,
-    "name_en": "ISI Language School Osaka",
-    "name_ja": "ISIランゲージスクール大阪校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学課程2年コース",
-      "total_fees": 1691000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学課程1年9か月コース",
-      "total_fees": 1492000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学課程1年6か月コース",
-      "total_fees": 1293000
-    }
-  ],
-  "description": "ISI 랭귀지 스쿨 오사카는 학생들의 일본어 능력 향상과 일본 문화에 대한 깊은 이해를 목표로 합니다. 대학 진학, 취업, 문화 체험 등 다양한 요구를 충족시키기 위해 최적화된 교육 프로그램을 제공합니다. 특히 과학, 예술, 디자인 등 특정 분야에 대한 심도 있는 학습을 지원합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "개인실",
-    "장학금",
-    "EJU 준비",
-    "과학 과정",
-    "대학교 진학",
-    "회화 중심",
-    "비즈니스 일본어",
-    "미술 과정",
-    "디자인 과정",
-    "단기 코스"
-  ],
-  "id": "school_isi-language-school-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6754737,
-    "lng": 135.5021618
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=224",
-  "stats": {
-    "capacity": 480,
-    "international_students": 123
-  },
-  "tags": [
-    "Dormitory",
-    "Private Room",
-    "Scholarship",
-    "EJU Preparation",
-    "Science Courses",
-    "University Pathway",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "ISI 랭귀지 스쿨 오사카",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市中央区南船場3-5-8 オーク心斎橋ビル5階
+  capacity: 480
+  name_en: ISI Language School Osaka
+  name_ja: ISIランゲージスクール大阪校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1691000
+- admission_month: '7'
+  course_name: 進学課程1年9か月コース
+  total_fees: 1492000
+- admission_month: '10'
+  course_name: 進学課程1年6か月コース
+  total_fees: 1293000
+date: '2026-01-28'
+description: ISI 랭귀지 스쿨 오사카는 학생들의 일본어 능력 향상과 일본 문화에 대한 깊은 이해를 목표로 합니다. 대학 진학, 취업,
+  문화 체험 등 다양한 요구를 충족시키기 위해 최적화된 교육 프로그램을 제공합니다. 특히 과학, 예술, 디자인 등 특정 분야에 대한 심도 있는 학습을
+  지원합니다.
+faculties: []
+features:
+- 기숙사
+- 개인실
+- 장학금
+- EJU 준비
+- 과학 과정
+- 대학교 진학
+- 회화 중심
+- 비즈니스 일본어
+- 미술 과정
+- 디자인 과정
+- 단기 코스
+id: school_isi-language-school-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.6754737
+  lng: 135.5021618
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=224
+stats:
+  capacity: 480
+  international_students: 123
+tags:
+- Dormitory
+- Private Room
+- Scholarship
+- EJU Preparation
+- Science Courses
+- University Pathway
+- Conversation Focused
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: ISI 랭귀지 스쿨 오사카
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

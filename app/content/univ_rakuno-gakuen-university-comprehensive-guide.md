@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_rakuno-gakuen-university-comprehensive-guide",
-  "title": "Rakuno Gakuen University",
-  "category": "university",
-  "tags": [
-    "Largest private veterinary school campus in Japan",
-    "Unique Christian 'San-ai' (Three Loves) educational philosophy",
-    "On-campus working dairy farm and processing plant",
-    "Located in the heart of Hokkaido, Japan's agricultural hub",
-    "Top-tier research in animal health and sustainable farming"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "酪農学園大学",
-    "name_en": "Rakuno Gakuen University",
-    "address": "582 Bunkyodai-Midorimachi, Ebetsu, Hokkaido 069-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "Estimated 30-45% (Varies significantly by faculty)"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "School of Veterinary Medicine",
-    "School of Agriculture, Food and Environmental Sciences"
-  ],
-  "features": [
-    "Largest private veterinary school campus in Japan",
-    "Unique Christian 'San-ai' (Three Loves) educational philosophy",
-    "On-campus working dairy farm and processing plant",
-    "Located in the heart of Hokkaido, Japan's agricultural hub",
-    "Top-tier research in animal health and sustainable farming"
-  ]
-}
+basic_info:
+  address: 582 Bunkyodai-Midorimachi, Ebetsu, Hokkaido 069-8501, Japan
+  capacity: null
+  name_en: Rakuno Gakuen University
+  name_ja: 酪農学園大学
+category: university
+date: '2026-03-08'
+faculties:
+- School of Veterinary Medicine
+- School of Agriculture, Food and Environmental Sciences
+features:
+- Largest private veterinary school campus in Japan
+- Unique Christian 'San-ai' (Three Loves) educational philosophy
+- On-campus working dairy farm and processing plant
+- Located in the heart of Hokkaido, Japan's agricultural hub
+- Top-tier research in animal health and sustainable farming
+id: univ_rakuno-gakuen-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 30-45% (Varies significantly by faculty)
+  international_students: 35
+tags:
+- Largest private veterinary school campus in Japan
+- Unique Christian 'San-ai' (Three Loves) educational philosophy
+- On-campus working dairy farm and processing plant
+- Located in the heart of Hokkaido, Japan's agricultural hub
+- Top-tier research in animal health and sustainable farming
+thumbnail: /static/img/pin-univ.png
+title: Rakuno Gakuen University
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 University Overview

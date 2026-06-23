@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamaguchi-prefectural-university-guide",
-  "title": "야마구치 현립 대학교",
-  "category": "university",
-  "tags": [
-    "Community-Focused Research",
-    "Strong Support for International Exchange",
-    "Human Ecology Philosophy",
-    "High Employment Rate in Public Sectors"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山口県立大学",
-    "name_en": "Yamaguchi Prefectural University",
-    "address": "3-2-1 Sakurabatake, Yamaguchi-shi, Yamaguchi 753-8502, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 54,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Social Welfare",
-    "Faculty of Nursing and Human Nutrition"
-  ],
-  "features": [
-    "지역 사회 중심 연구",
-    "국제 교류 적극 지원",
-    "인간 생태학 철학",
-    "공공 부문 높은 취업률"
-  ],
-  "description": "야마구치현에 위치한 야마구치 현립 대학교에 대한 안내입니다. 지역사회 연계 연구, 강력한 국제 교류 지원, 인간 생태학 철학을 특징으로 합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-2-1 Sakurabatake, Yamaguchi-shi, Yamaguchi 753-8502, Japan
+  capacity: null
+  name_en: Yamaguchi Prefectural University
+  name_ja: 山口県立大学
+category: university
+date: '2026-03-03'
+description: 야마구치현에 위치한 야마구치 현립 대학교에 대한 안내입니다. 지역사회 연계 연구, 강력한 국제 교류 지원, 인간 생태학 철학을
+  특징으로 합니다.
+faculties:
+- Faculty of Humanities
+- Faculty of Social Welfare
+- Faculty of Nursing and Human Nutrition
+features:
+- 지역 사회 중심 연구
+- 국제 교류 적극 지원
+- 인간 생태학 철학
+- 공공 부문 높은 취업률
+id: univ_yamaguchi-prefectural-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 54
+tags:
+- Community-Focused Research
+- Strong Support for International Exchange
+- Human Ecology Philosophy
+- High Employment Rate in Public Sectors
+thumbnail: /static/img/pin-univ.png
+title: 야마구치 현립 대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

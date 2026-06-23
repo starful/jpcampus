@@ -1,136 +1,127 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県神戸市中央区加納町2-7-11",
-    "capacity": 240,
-    "category": "school",
-    "courses": [
-      {
-        "admission_month": "4",
-        "course_name": "Spring Beginner Course",
-        "total_fees": 820000
-      },
-      {
-        "admission_month": "4",
-        "course_name": "Spring Intermediate/Advanced Course",
-        "total_fees": 820000
-      },
-      {
-        "admission_month": "10",
-        "course_name": "Autumn Beginner Course",
-        "total_fees": 1170000
-      },
-      {
-        "admission_month": "10",
-        "course_name": "Autumn Intermediate/Advanced Course",
-        "total_fees": 1170000
-      },
-      {
-        "admission_month": "4",
-        "course_name": "2-Year Course",
-        "total_fees": 1520000
-      }
-    ],
-    "faculties": [],
-    "features": [
-      "University Preparation",
-      "EJU Preparation",
-      "Science Courses",
-      "University Admission",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "Conversation Focused",
-      "Business Japanese",
-      "Art",
-      "Design",
-      "Short-Term Courses"
-    ],
-    "id": "school_kobe-ymca-college",
-    "layout": "school",
-    "location": {
-      "lat": 34.7009189,
-      "lng": 135.1936115
-    },
-    "name_en": "Kobe YMCA College of Professional Studies",
-    "name_ja": "神戸YMCA学院専門学校",
-    "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=367",
-    "stats": {
-      "capacity": 240,
-      "international_students": 0
-    },
-    "tags": [
-      "University Preparation",
-      "EJU Preparation",
-      "Science Courses",
-      "University Admission",
-      "Dormitory",
-      "Private Rooms",
-      "Scholarships",
-      "Conversation Focused",
-      "Business Japanese",
-      "Art",
-      "Design",
-      "Short-Term Courses"
-    ],
-    "thumbnail": "/static/img/pin-school.png",
-    "title": "Kobe YMCA College of Professional Studies",
-    "tuition": {}
-  },
-  "content_body": "## 🏫 School Overview\n\nKobe YMCA College of Professional Studies has a long-standing tradition of providing quality Japanese language education to international students. As part of the global YMCA network, the school emphasizes holistic development, focusing not only on language acquisition but also on cultural understanding and personal growth. The campus atmosphere is generally described as welcoming and supportive, with a diverse student body from various countries, fostering a vibrant international learning environment. The school's mission is to empower students with the Japanese language skills and cultural knowledge needed to succeed in their academic or professional pursuits in Japan.",
-  "description": "Kobe YMCA College of Professional Studies offers comprehensive Japanese language programs with a focus on university preparation, practical communication, and cultural understanding in the heart of Kobe.",
-  "features": [
-    "University Preparation",
-    "EJU Preparation",
-    "Science Courses",
-    "University Admission",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "id": "school_kobe-ymca-college",
-  "lang": "kr",
-  "layout": "school",
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=367",
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Science Courses",
-    "University Admission",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Kobe YMCA College of Professional Studies",
-  "translated": true,
-  "title_kr": "고베 YMCA College of Professional Studies",
-  "description_kr": "고베 YMCA College of Professional Studies는 고베 중심부에서 대학 진학 준비, 실용적인 의사 소통 및 문화 이해에 중점을 둔 종합적인 일본어 프로그램을 제공합니다.",
-  "features_kr": [
-    "대학 준비",
-    "EJU 준비",
-    "이과 과정",
-    "대학 입학",
-    "기숙사",
-    "개인실",
-    "장학금",
-    "회화 중심",
-    "비즈니스 일본어",
-    "미술",
-    "디자인",
-    "단기 코스"
-  ]
-}
+basic_info:
+  address: 兵庫県神戸市中央区加納町2-7-11
+  capacity: 240
+  category: school
+  courses:
+  - admission_month: '4'
+    course_name: Spring Beginner Course
+    total_fees: 820000
+  - admission_month: '4'
+    course_name: Spring Intermediate/Advanced Course
+    total_fees: 820000
+  - admission_month: '10'
+    course_name: Autumn Beginner Course
+    total_fees: 1170000
+  - admission_month: '10'
+    course_name: Autumn Intermediate/Advanced Course
+    total_fees: 1170000
+  - admission_month: '4'
+    course_name: 2-Year Course
+    total_fees: 1520000
+  faculties: []
+  features:
+  - University Preparation
+  - EJU Preparation
+  - Science Courses
+  - University Admission
+  - Dormitory
+  - Private Rooms
+  - Scholarships
+  - Conversation Focused
+  - Business Japanese
+  - Art
+  - Design
+  - Short-Term Courses
+  id: school_kobe-ymca-college
+  layout: school
+  location:
+    lat: 34.7009189
+    lng: 135.1936115
+  name_en: Kobe YMCA College of Professional Studies
+  name_ja: 神戸YMCA学院専門学校
+  source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=367
+  stats:
+    capacity: 240
+    international_students: 0
+  tags:
+  - University Preparation
+  - EJU Preparation
+  - Science Courses
+  - University Admission
+  - Dormitory
+  - Private Rooms
+  - Scholarships
+  - Conversation Focused
+  - Business Japanese
+  - Art
+  - Design
+  - Short-Term Courses
+  thumbnail: /static/img/pin-school.png
+  title: Kobe YMCA College of Professional Studies
+  tuition: {}
+content_body: "## \U0001F3EB School Overview\n\nKobe YMCA College of Professional
+  Studies has a long-standing tradition of providing quality Japanese language education
+  to international students. As part of the global YMCA network, the school emphasizes
+  holistic development, focusing not only on language acquisition but also on cultural
+  understanding and personal growth. The campus atmosphere is generally described
+  as welcoming and supportive, with a diverse student body from various countries,
+  fostering a vibrant international learning environment. The school's mission is
+  to empower students with the Japanese language skills and cultural knowledge needed
+  to succeed in their academic or professional pursuits in Japan."
+date: '2026-02-13'
+description: Kobe YMCA College of Professional Studies offers comprehensive Japanese
+  language programs with a focus on university preparation, practical communication,
+  and cultural understanding in the heart of Kobe.
+description_kr: 고베 YMCA College of Professional Studies는 고베 중심부에서 대학 진학 준비, 실용적인 의사
+  소통 및 문화 이해에 중점을 둔 종합적인 일본어 프로그램을 제공합니다.
+features:
+- University Preparation
+- EJU Preparation
+- Science Courses
+- University Admission
+- Dormitory
+- Private Rooms
+- Scholarships
+- Conversation Focused
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+features_kr:
+- 대학 준비
+- EJU 준비
+- 이과 과정
+- 대학 입학
+- 기숙사
+- 개인실
+- 장학금
+- 회화 중심
+- 비즈니스 일본어
+- 미술
+- 디자인
+- 단기 코스
+id: school_kobe-ymca-college
+lang: kr
+layout: school
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=367
+tags:
+- University Preparation
+- EJU Preparation
+- Science Courses
+- University Admission
+- Dormitory
+- Private Rooms
+- Scholarships
+- Conversation Focused
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: Kobe YMCA College of Professional Studies
+title_kr: 고베 YMCA College of Professional Studies
+translated: true
 ---
 
 ## 🏫 학교 소개

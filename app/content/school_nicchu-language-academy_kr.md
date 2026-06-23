@@ -1,69 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市天王寺区寺田町2-5-19",
-    "capacity": 176,
-    "name_en": "Nichichu Language Academy",
-    "name_ja": "日中語学専門学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "大学進学1年3ヶ月コース",
-      "total_fees": 925000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "大学進学1年半コース",
-      "total_fees": 1090000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "大学進学1年9ヶ月コース",
-      "total_fees": 1255000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1420000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "대학 입시 지원",
-    "회화 중심",
-    "이과 과정 준비",
-    "장학금"
-  ],
-  "id": "school_nicchu-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6491877,
-    "lng": 135.5242562
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=351",
-  "stats": {
-    "capacity": 176,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Admission Support",
-    "Conversation Focused",
-    "Science Course Preparation",
-    "Scholarships"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "닛츄 일본어학원",
-  "translated": true,
-  "tuition": {},
-  "description": "오사카에 위치한 닛츄 일본어학원은 국제 학생들에게 종합적인 일본어 교육을 제공합니다. 대학 입시를 위한 체계적인 준비 과정을 제공하는 것이 특징입니다."
-}
+basic_info:
+  address: 大阪府大阪市天王寺区寺田町2-5-19
+  capacity: 176
+  name_en: Nichichu Language Academy
+  name_ja: 日中語学専門学院
+category: school
+courses:
+- admission_month: '1'
+  course_name: 大学進学1年3ヶ月コース
+  total_fees: 925000
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 1090000
+- admission_month: '7'
+  course_name: 大学進学1年9ヶ月コース
+  total_fees: 1255000
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1420000
+date: '2026-01-28'
+description: 오사카에 위치한 닛츄 일본어학원은 국제 학생들에게 종합적인 일본어 교육을 제공합니다. 대학 입시를 위한 체계적인 준비 과정을
+  제공하는 것이 특징입니다.
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 대학 입시 지원
+- 회화 중심
+- 이과 과정 준비
+- 장학금
+id: school_nicchu-language-academy
+lang: kr
+layout: school
+location:
+  lat: 34.6491877
+  lng: 135.5242562
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=351
+stats:
+  capacity: 176
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Admission Support
+- Conversation Focused
+- Science Course Preparation
+- Scholarships
+thumbnail: /static/img/pin-school.png
+title: 닛츄 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요

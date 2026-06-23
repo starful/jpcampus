@@ -1,92 +1,68 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都港区南青山3-8-40　青山センタービル3F",
-    "capacity": 400,
-    "name_en": "Aoyama International Education Institute",
-    "name_ja": "青山国際教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "국립대학 진학 코스",
-      "total_fees": 1620000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "국립대학 진학 코스",
-      "total_fees": 1465000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "대학원 진학 코스",
-      "total_fees": 880000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "대학/전문학교 진학 코스",
-      "total_fees": 1660000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "대학/전문학교 진학 코스",
-      "total_fees": 1465000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "대학/전문학교 진학 코스",
-      "total_fees": 1270000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "대학/전문학교 진학 코스",
-      "total_fees": 1075000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "대학/전문학교 진학 코스",
-      "total_fees": 880000
-    },
-    {
-      "admission_month": "4,7,10",
-      "course_name": "일본어 과정/비즈니스 일본어 과정 (4월 입학)",
-      "total_fees": 880000
-    }
-  ],
-  "description": "아오야마 국제교육학원은 도쿄 중심부에 위치하여 유학생들에게 수준 높은 일본어 교육과 체계적인 학습 환경을 제공합니다. 일본 대학 진학 및 글로벌 인재 양성을 목표로 학생들의 성공적인 일본 생활을 지원합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 완비",
-    "대학 진학 준비",
-    "비즈니스 일본어",
-    "단기 과정",
-    "EJU 대비"
-  ],
-  "id": "school_aoyama-international-education-institute",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6674254,
-    "lng": 139.7151324
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=97",
-  "stats": {
-    "capacity": 400,
-    "international_students": 0
-  },
-  "tags": [
-    "기숙사 완비",
-    "대학 진학 준비",
-    "비즈니스 일본어",
-    "단기 과정",
-    "EJU 대비"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아오야마 국제교육학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都港区南青山3-8-40　青山センタービル3F
+  capacity: 400
+  name_en: Aoyama International Education Institute
+  name_ja: 青山国際教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 국립대학 진학 코스
+  total_fees: 1620000
+- admission_month: '7'
+  course_name: 국립대학 진학 코스
+  total_fees: 1465000
+- admission_month: '4'
+  course_name: 대학원 진학 코스
+  total_fees: 880000
+- admission_month: '4'
+  course_name: 대학/전문학교 진학 코스
+  total_fees: 1660000
+- admission_month: '7'
+  course_name: 대학/전문학교 진학 코스
+  total_fees: 1465000
+- admission_month: '10'
+  course_name: 대학/전문학교 진학 코스
+  total_fees: 1270000
+- admission_month: '1'
+  course_name: 대학/전문학교 진학 코스
+  total_fees: 1075000
+- admission_month: '4'
+  course_name: 대학/전문학교 진학 코스
+  total_fees: 880000
+- admission_month: 4,7,10
+  course_name: 일본어 과정/비즈니스 일본어 과정 (4월 입학)
+  total_fees: 880000
+date: '2026-03-08'
+description: 아오야마 국제교육학원은 도쿄 중심부에 위치하여 유학생들에게 수준 높은 일본어 교육과 체계적인 학습 환경을 제공합니다. 일본
+  대학 진학 및 글로벌 인재 양성을 목표로 학생들의 성공적인 일본 생활을 지원합니다.
+faculties: []
+features:
+- 기숙사 완비
+- 대학 진학 준비
+- 비즈니스 일본어
+- 단기 과정
+- EJU 대비
+id: school_aoyama-international-education-institute
+lang: kr
+layout: school
+location:
+  lat: 35.6674254
+  lng: 139.7151324
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=97
+stats:
+  capacity: 400
+  international_students: 0
+tags:
+- 기숙사 완비
+- 대학 진학 준비
+- 비즈니스 일본어
+- 단기 과정
+- EJU 대비
+thumbnail: /static/img/pin-school.png
+title: 아오야마 국제교육학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

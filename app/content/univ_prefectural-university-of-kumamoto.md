@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_prefectural-university-of-kumamoto",
-  "title": "Prefectural University of Kumamoto",
-  "category": "university",
-  "tags": [
-    "Regional-Focus Research",
-    "High Post-Graduation Employment Rate",
-    "Sustainable Environmental Studies",
-    "Interdisciplinary Administrative Education"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "熊本県立大学",
-    "name_en": "Prefectural University of Kumamoto",
-    "address": "3-1-100 Tsukide, Higashi-ku, Kumamoto City, Kumamoto, 862-8502, Japan",
-    "capacity": 2200
-  },
-  "stats": {
-    "international_students": 55,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Literature",
-    "Faculty of Environmental and Symbiotic Sciences",
-    "Faculty of Administrative Studies"
-  ],
-  "features": [
-    "Regional-Focus Research",
-    "High Post-Graduation Employment Rate",
-    "Sustainable Environmental Studies",
-    "Interdisciplinary Administrative Education"
-  ]
-}
+basic_info:
+  address: 3-1-100 Tsukide, Higashi-ku, Kumamoto City, Kumamoto, 862-8502, Japan
+  capacity: 2200
+  name_en: Prefectural University of Kumamoto
+  name_ja: 熊本県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Literature
+- Faculty of Environmental and Symbiotic Sciences
+- Faculty of Administrative Studies
+features:
+- Regional-Focus Research
+- High Post-Graduation Employment Rate
+- Sustainable Environmental Studies
+- Interdisciplinary Administrative Education
+id: univ_prefectural-university-of-kumamoto
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 55
+tags:
+- Regional-Focus Research
+- High Post-Graduation Employment Rate
+- Sustainable Environmental Studies
+- Interdisciplinary Administrative Education
+thumbnail: /static/img/pin-univ.png
+title: Prefectural University of Kumamoto
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

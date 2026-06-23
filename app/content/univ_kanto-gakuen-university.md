@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanto-gakuen-university",
-  "title": "Kanto Gakuen University",
-  "category": "university",
-  "tags": [
-    "Specialized International Student Support System",
-    "Strategic Location in Ota, Gunma (Industrial Hub)",
-    "Practical Regional Revitalization Curriculum",
-    "Strong Career Support in Manufacturing and Service Industries"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "関東学園大学",
-    "name_en": "Kanto Gakuen University",
-    "address": "200 Fujiagu-cho, Ota-shi, Gunma 373-8515, Japan",
-    "capacity": 1000
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "Faculty of Economics (Department of Economics)",
-    "Faculty of Economics (Department of Business Administration)"
-  ],
-  "features": [
-    "Specialized International Student Support System",
-    "Strategic Location in Ota, Gunma (Industrial Hub)",
-    "Practical Regional Revitalization Curriculum",
-    "Strong Career Support in Manufacturing and Service Industries"
-  ]
-}
+basic_info:
+  address: 200 Fujiagu-cho, Ota-shi, Gunma 373-8515, Japan
+  capacity: 1000
+  name_en: Kanto Gakuen University
+  name_ja: 関東学園大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Economics (Department of Economics)
+- Faculty of Economics (Department of Business Administration)
+features:
+- Specialized International Student Support System
+- Strategic Location in Ota, Gunma (Industrial Hub)
+- Practical Regional Revitalization Curriculum
+- Strong Career Support in Manufacturing and Service Industries
+id: univ_kanto-gakuen-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 145
+tags:
+- Specialized International Student Support System
+- Strategic Location in Ota, Gunma (Industrial Hub)
+- Practical Regional Revitalization Curriculum
+- Strong Career Support in Manufacturing and Service Industries
+thumbnail: /static/img/pin-univ.png
+title: Kanto Gakuen University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 University Overview: The Gateway to Regional Excellence

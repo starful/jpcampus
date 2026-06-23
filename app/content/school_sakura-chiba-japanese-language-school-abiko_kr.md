@@ -1,53 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "千葉県我孫子市柴崎台4-4-14",
-    "capacity": 192,
-    "name_en": "Sakura Chiba Japanese Language School",
-    "name_ja": "さくら千葉日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1729400
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1316300
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "고도의 전문적인 대학 진학 준비 (EJU, STEM, 미술/디자인)",
-    "실용적인 회화 능력 향상에 집중 (Kaiwa)",
-    "싱글룸 옵션을 포함한 종합적인 숙박 지원",
-    "비즈니스 일본어 및 단기 학습 옵션",
-    "우수 학생을 위한 장학금 프로그램"
-  ],
-  "id": "school_sakura-chiba-japanese-language-school-abiko",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.8741826,
-    "lng": 140.0456221
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=607",
-  "stats": {},
-  "tags": [
-    "Highly specialized University Preparation (EJU, STEM, Art/Design)",
-    "Strong emphasis on practical conversational fluency (Kaiwa)",
-    "Comprehensive accommodation support with single room options available",
-    "Business Japanese and Short-Term study options",
-    "Scholarship programs for high-achieving students"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "사쿠라 치바 일본어학교",
-  "description": "치바현 아비코시에 위치한 사쿠라 치바 일본어학교는 대학 진학을 위한 전문적인 교육과 실용적인 일본어 능력을 키울 수 있는 환경을 제공합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 千葉県我孫子市柴崎台4-4-14
+  capacity: 192
+  name_en: Sakura Chiba Japanese Language School
+  name_ja: さくら千葉日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1729400
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1316300
+date: '2026-01-28'
+description: 치바현 아비코시에 위치한 사쿠라 치바 일본어학교는 대학 진학을 위한 전문적인 교육과 실용적인 일본어 능력을 키울 수 있는 환경을
+  제공합니다.
+faculties: []
+features:
+- 고도의 전문적인 대학 진학 준비 (EJU, STEM, 미술/디자인)
+- 실용적인 회화 능력 향상에 집중 (Kaiwa)
+- 싱글룸 옵션을 포함한 종합적인 숙박 지원
+- 비즈니스 일본어 및 단기 학습 옵션
+- 우수 학생을 위한 장학금 프로그램
+id: school_sakura-chiba-japanese-language-school-abiko
+lang: kr
+layout: school
+location:
+  lat: 35.8741826
+  lng: 140.0456221
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=607
+stats: {}
+tags:
+- Highly specialized University Preparation (EJU, STEM, Art/Design)
+- Strong emphasis on practical conversational fluency (Kaiwa)
+- Comprehensive accommodation support with single room options available
+- Business Japanese and Short-Term study options
+- Scholarship programs for high-achieving students
+thumbnail: /static/img/pin-school.png
+title: 사쿠라 치바 일본어학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

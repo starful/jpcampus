@@ -5,6 +5,7 @@ basic_info:
   name_ja: 新潟大学
   website: https://www.niigata-u.ac.jp/
 category: university
+date: '2026-06-19'
 description: Discover Niigata University's academic programs, rankings, admission
   requirements, and campus life for international students looking to study in Japan.
 faculties:
@@ -30,6 +31,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
+seo_description: Explore Niigata University's programs, rankings, and admission guides
+  for international students. Plan your study in Japan with JP Campus.
+seo_title: 'Niigata University Guide: Programs, Admissions & Ranking | JP'
 stats:
   acceptance_rate: Varies by Faculty
   international_students: 610
@@ -44,11 +48,7 @@ translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-seo_title: 'Niigata University Guide: Programs, Admissions & Ranking | JP'
-seo_description: Explore Niigata University's programs, rankings, and admission guides
-  for international students. Plan your study in Japan with JP Campus.
 ---
-
 
 ## University Overview & Reputation
 

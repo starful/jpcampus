@@ -1,76 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "岡山県岡山市北区蕃山町3-10",
-    "capacity": 225,
-    "name_en": "Osafune Japanese Language Academy",
-    "name_ja": "長船日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "ベーシックコース",
-      "total_fees": 1063500
-    },
-    {
-      "admission_month": "7",
-      "course_name": "スタンダードコース",
-      "total_fees": 1209500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "アドバンスドコース",
-      "total_fees": 1351500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "국제 교류",
-    "기숙사",
-    "개인실",
-    "장학금",
-    "EJU 준비",
-    "이공계 집중",
-    "대학 입시 지원",
-    "회화 연습",
-    "비즈니스 일본어",
-    "미술/디자인 집중",
-    "단기 코스"
-  ],
-  "id": "school_osafune-japanese-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6680558,
-    "lng": 133.926566
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=392",
-  "stats": {
-    "capacity": 225,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "International Exchange",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Focus",
-    "University Admission Support",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art/Design Focus",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오사후네 일본어 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "오카야마현에 위치한 오사후네 일본어 학원은 일본 대학 진학을 목표로 하는 유학생에게 종합적인 일본어 교육을 제공합니다."
-}
+basic_info:
+  address: 岡山県岡山市北区蕃山町3-10
+  capacity: 225
+  name_en: Osafune Japanese Language Academy
+  name_ja: 長船日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: ベーシックコース
+  total_fees: 1063500
+- admission_month: '7'
+  course_name: スタンダードコース
+  total_fees: 1209500
+- admission_month: '4'
+  course_name: アドバンスドコース
+  total_fees: 1351500
+date: '2026-01-28'
+description: 오카야마현에 위치한 오사후네 일본어 학원은 일본 대학 진학을 목표로 하는 유학생에게 종합적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- 국제 교류
+- 기숙사
+- 개인실
+- 장학금
+- EJU 준비
+- 이공계 집중
+- 대학 입시 지원
+- 회화 연습
+- 비즈니스 일본어
+- 미술/디자인 집중
+- 단기 코스
+id: school_osafune-japanese-language-academy
+lang: kr
+layout: school
+location:
+  lat: 34.6680558
+  lng: 133.926566
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=392
+stats:
+  capacity: 225
+  international_students: 0
+tags:
+- University Preparation
+- International Exchange
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Focus
+- University Admission Support
+- Conversation Practice
+- Business Japanese
+- Art/Design Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 오사후네 일본어 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

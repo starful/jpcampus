@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_takasaki-city-university-of-economics-comprehensive-guide",
-  "title": "Takasaki City University of Economics",
-  "category": "university",
-  "tags": [
-    "Public University Prestige",
-    "Pioneer in Regional Policy Studies",
-    "Exceptional Civil Service Placement",
-    "Affordable Living in Gunma Prefecture",
-    "Intensive Seminar-Based Learning"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "高崎経済大学",
-    "name_en": "Takasaki City University of Economics",
-    "address": "1300 Kaminamiemachi, Takasaki, Gunma 370-0801, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 135,
-    "acceptance_rate": "Approximately 22-28%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Regional Policy"
-  ],
-  "features": [
-    "Public University Prestige",
-    "Pioneer in Regional Policy Studies",
-    "Exceptional Civil Service Placement",
-    "Affordable Living in Gunma Prefecture",
-    "Intensive Seminar-Based Learning"
-  ]
-}
+basic_info:
+  address: 1300 Kaminamiemachi, Takasaki, Gunma 370-0801, Japan
+  capacity: null
+  name_en: Takasaki City University of Economics
+  name_ja: 高崎経済大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Economics
+- Faculty of Regional Policy
+features:
+- Public University Prestige
+- Pioneer in Regional Policy Studies
+- Exceptional Civil Service Placement
+- Affordable Living in Gunma Prefecture
+- Intensive Seminar-Based Learning
+id: univ_takasaki-city-university-of-economics-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 22-28%
+  international_students: 135
+tags:
+- Public University Prestige
+- Pioneer in Regional Policy Studies
+- Exceptional Civil Service Placement
+- Affordable Living in Gunma Prefecture
+- Intensive Seminar-Based Learning
+thumbnail: /static/img/pin-univ.png
+title: Takasaki City University of Economics
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

@@ -1,62 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "2-11-1 Kaga, Itabashi-ku, Tokyo 173-8605, Japan",
-    "name_en": "Teikyo University",
-    "name_ja": "帝京大学",
-    "website": "https://www.teikyo-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Medicine",
-    "Faculty of Pharma-Science",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Letters",
-    "Faculty of Science and Engineering",
-    "Faculty of Medical Technology",
-    "Faculty of Health Care",
-    "Faculty of Education",
-    "Faculty of Liberal Arts (Tsukuba)",
-    "Faculty of Fukuoka Medical Technology",
-    "Faculty of Applied Science (Utsunomiya)"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금",
-    "실용적인 학습 중심",
-    "종합 대학"
-  ],
-  "id": "univ_teikyo-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "학부별로 상이하며, 일반적으로 경쟁률이 높음",
-    "international_students": 2000
-  },
-  "tags": [
-    "EJU Required",
-    "English Programs",
-    "Dormitory",
-    "Scholarship",
-    "Practical Learning Focus",
-    "Comprehensive University"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "테이쿄 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1000000
-  },
-  "description": "테이쿄 대학은 도쿄 이타바시에 위치한 종합 사립 대학입니다. 다양한 학문 분야와 국제적인 학습 환경을 제공합니다."
-}
+basic_info:
+  address: 2-11-1 Kaga, Itabashi-ku, Tokyo 173-8605, Japan
+  name_en: Teikyo University
+  name_ja: 帝京大学
+  website: https://www.teikyo-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 테이쿄 대학은 도쿄 이타바시에 위치한 종합 사립 대학입니다. 다양한 학문 분야와 국제적인 학습 환경을 제공합니다.
+faculties:
+- Faculty of Medicine
+- Faculty of Pharma-Science
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Letters
+- Faculty of Science and Engineering
+- Faculty of Medical Technology
+- Faculty of Health Care
+- Faculty of Education
+- Faculty of Liberal Arts (Tsukuba)
+- Faculty of Fukuoka Medical Technology
+- Faculty of Applied Science (Utsunomiya)
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+- 실용적인 학습 중심
+- 종합 대학
+id: univ_teikyo-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 학부별로 상이하며, 일반적으로 경쟁률이 높음
+  international_students: 2000
+tags:
+- EJU Required
+- English Programs
+- Dormitory
+- Scholarship
+- Practical Learning Focus
+- Comprehensive University
+thumbnail: /static/img/pin-univ.png
+title: 테이쿄 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1000000
 ---
 
 ## 대학 개요

@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gunma-prefectural-womens-university",
-  "title": "Gunma Prefectural Women's University",
-  "category": "university",
-  "tags": [
-    "Small-group education with high faculty-to-student ratio",
-    "Unique specializations in Aesthetics and Art History",
-    "Affordable public university tuition rates",
-    "Strong local community engagement and employment support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "群馬県立女子大学",
-    "name_en": "Gunma Prefectural Women's University",
-    "address": "1395-1 Kaminote, Tamamura-machi, Sawa-gun, Gunma 370-1193, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Literature",
-    "Faculty of International Communication"
-  ],
-  "features": [
-    "Small-group education with high faculty-to-student ratio",
-    "Unique specializations in Aesthetics and Art History",
-    "Affordable public university tuition rates",
-    "Strong local community engagement and employment support"
-  ]
-}
+basic_info:
+  address: 1395-1 Kaminote, Tamamura-machi, Sawa-gun, Gunma 370-1193, Japan
+  capacity: null
+  name_en: Gunma Prefectural Women's University
+  name_ja: 群馬県立女子大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Literature
+- Faculty of International Communication
+features:
+- Small-group education with high faculty-to-student ratio
+- Unique specializations in Aesthetics and Art History
+- Affordable public university tuition rates
+- Strong local community engagement and employment support
+id: univ_gunma-prefectural-womens-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 35
+tags:
+- Small-group education with high faculty-to-student ratio
+- Unique specializations in Aesthetics and Art History
+- Affordable public university tuition rates
+- Strong local community engagement and employment support
+thumbnail: /static/img/pin-univ.png
+title: Gunma Prefectural Women's University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

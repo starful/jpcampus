@@ -1,62 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "4-1-1 Kitakaname, Hiratsuka, Kanagawa 259-1292, Japan",
-    "name_en": "Tokai University",
-    "name_ja": "東海大学",
-    "website": "https://www.u-tokai.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Letters",
-    "School of Culture and Studies",
-    "School of Law",
-    "School of Political Science and Economics",
-    "School of Business Administration",
-    "School of International Studies",
-    "School of Science",
-    "School of Information Science and Technology",
-    "School of Engineering",
-    "School of Marine Science and Technology",
-    "School of Medical Technology",
-    "School of Health Sciences",
-    "School of Sport and Health Science",
-    "School of Industrial Administration",
-    "School of Art and Design",
-    "School of Global Studies",
-    "School of Tourism"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_tokai-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "보통 수준의 경쟁률 (전체 평균 약 30-40%)",
-    "international_students": 1700
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도카이 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  }
-}
+basic_info:
+  address: 4-1-1 Kitakaname, Hiratsuka, Kanagawa 259-1292, Japan
+  name_en: Tokai University
+  name_ja: 東海大学
+  website: https://www.u-tokai.ac.jp/
+category: university
+date: '2026-01-28'
+faculties:
+- School of Letters
+- School of Culture and Studies
+- School of Law
+- School of Political Science and Economics
+- School of Business Administration
+- School of International Studies
+- School of Science
+- School of Information Science and Technology
+- School of Engineering
+- School of Marine Science and Technology
+- School of Medical Technology
+- School of Health Sciences
+- School of Sport and Health Science
+- School of Industrial Administration
+- School of Art and Design
+- School of Global Studies
+- School of Tourism
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_tokai-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 보통 수준의 경쟁률 (전체 평균 약 30-40%)
+  international_students: 1700
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 도카이 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요

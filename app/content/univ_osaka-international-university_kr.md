@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-international-university",
-  "title": "오사카 국제 대학교 (Osaka International University)",
-  "description": "글로벌 시민 양성을 목표로 하는 오사카 국제 대학교는 강력한 취업 지원과 밀착형 멘토링을 통해 유학생들이 일본 사회에 성공적으로 안착할 수 있도록 돕습니다.",
-  "category": "university",
-  "tags": [
-    "글로벌 캠퍼스 문화",
-    "집중 일본어 별과 프로그램 (베카)",
-    "외국인 졸업생을 위한 강력한 취업 지원",
-    "간사이 지역의 중심부에 위치",
-    "맞춤형 학업 멘토링"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪国際大学",
-    "name_en": "Osaka International University",
-    "address": "6-21-57 Tohda-cho, Moriguchi-shi, Osaka, 570-8555, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 385,
-    "acceptance_rate": "65-75% (International Selection)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "경영학부",
-    "국제학부",
-    "인간과학부",
-    "국제교양학과",
-    "심리학과",
-    "스포츠건강과학과"
-  ],
-  "features": [
-    "글로벌 캠퍼스 문화",
-    "집중 일본어 별과 프로그램 (베카)",
-    "외국인 졸업생을 위한 강력한 취업 지원",
-    "간사이 지역의 중심부에 위치",
-    "맞춤형 학업 멘토링"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 6-21-57 Tohda-cho, Moriguchi-shi, Osaka, 570-8555, Japan
+  capacity: null
+  name_en: Osaka International University
+  name_ja: 大阪国際大学
+category: university
+date: '2026-04-19'
+description: 글로벌 시민 양성을 목표로 하는 오사카 국제 대학교는 강력한 취업 지원과 밀착형 멘토링을 통해 유학생들이 일본 사회에 성공적으로
+  안착할 수 있도록 돕습니다.
+faculties:
+- 경영학부
+- 국제학부
+- 인간과학부
+- 국제교양학과
+- 심리학과
+- 스포츠건강과학과
+features:
+- 글로벌 캠퍼스 문화
+- 집중 일본어 별과 프로그램 (베카)
+- 외국인 졸업생을 위한 강력한 취업 지원
+- 간사이 지역의 중심부에 위치
+- 맞춤형 학업 멘토링
+id: univ_osaka-international-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (International Selection)
+  international_students: 385
+tags:
+- 글로벌 캠퍼스 문화
+- 집중 일본어 별과 프로그램 (베카)
+- 외국인 졸업생을 위한 강력한 취업 지원
+- 간사이 지역의 중심부에 위치
+- 맞춤형 학업 멘토링
+thumbnail: /static/img/pin-univ.png
+title: 오사카 국제 대학교 (Osaka International University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

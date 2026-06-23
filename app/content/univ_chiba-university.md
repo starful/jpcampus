@@ -5,6 +5,7 @@ basic_info:
   name_ja: 千葉大学
   website: https://www.chiba-u.ac.jp/
 category: university
+date: '2026-01-28'
 description: Chiba University, a leading national university in Chiba Prefecture,
   Japan, offers a wide range of academic disciplines and a strong commitment to internationalization
   through its SGU program and English-taught courses.

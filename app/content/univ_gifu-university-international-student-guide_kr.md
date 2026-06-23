@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gifu-university-international-student-guide",
-  "title": "기후 대학 (Gifu University)",
-  "category": "university",
-  "tags": [
-    "Part of the Tokai National Higher Education and Research System (merged with Nagoya University)",
-    "Global Leader in Life Sciences and Applied Biological Research",
-    "High Graduate Employment Rate in Major Japanese Industries",
-    "Low Cost of Living with Comprehensive Student Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岐阜大学",
-    "name_en": "Gifu University",
-    "address": "1-1 Yanagido, Gifu City, Gifu Prefecture 501-1193, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 582,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Regional Studies",
-    "School of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Applied Biological Sciences"
-  ],
-  "features": [
-    "도카이 국립고등교육연구 시스템의 일부 (나고야 대학과 통합)",
-    "생명과학 및 응용생물학 연구 분야의 글로벌 리더",
-    "주요 일본 산업 분야에서 높은 졸업생 취업률",
-    "종합적인 학생 지원과 저렴한 생활비"
-  ],
-  "description": "기후현 기후시에 위치한 기후 대학은 도카이 국립고등교육연구 시스템의 일부로서, 뛰어난 연구 환경과 학생 지원을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Yanagido, Gifu City, Gifu Prefecture 501-1193, Japan
+  capacity: null
+  name_en: Gifu University
+  name_ja: 岐阜大学
+category: university
+date: '2026-02-13'
+description: 기후현 기후시에 위치한 기후 대학은 도카이 국립고등교육연구 시스템의 일부로서, 뛰어난 연구 환경과 학생 지원을 제공합니다.
+faculties:
+- Faculty of Education
+- Faculty of Regional Studies
+- School of Medicine
+- Faculty of Engineering
+- Faculty of Applied Biological Sciences
+features:
+- 도카이 국립고등교육연구 시스템의 일부 (나고야 대학과 통합)
+- 생명과학 및 응용생물학 연구 분야의 글로벌 리더
+- 주요 일본 산업 분야에서 높은 졸업생 취업률
+- 종합적인 학생 지원과 저렴한 생활비
+id: univ_gifu-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 582
+tags:
+- Part of the Tokai National Higher Education and Research System (merged with Nagoya
+  University)
+- Global Leader in Life Sciences and Applied Biological Research
+- High Graduate Employment Rate in Major Japanese Industries
+- Low Cost of Living with Comprehensive Student Support
+thumbnail: /static/img/pin-univ.png
+title: 기후 대학 (Gifu University)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 일본 중심부의 심장

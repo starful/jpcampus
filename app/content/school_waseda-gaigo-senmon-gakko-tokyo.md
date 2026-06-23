@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学コース1年半
   total_fees: 1045000
+date: '2026-01-28'
 description: Waseda Foreign Language College is a specialized Japanese language institution
   in Tokyo focused on preparing international students for university and graduate
   school. Located in Takadanobaba, Shinjuku, it offers intensive courses, dormitory

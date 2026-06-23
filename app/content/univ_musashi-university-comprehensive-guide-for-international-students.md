@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_musashi-university-comprehensive-guide-for-international-students",
-  "title": "Musashi University",
-  "category": "university",
-  "tags": [
-    "Small-group Seminar Education (Zemi) from 1st Year",
-    "University of London Parallel Degree Program (PDP)",
-    "Global Data Science (GDS) Integrated Curriculum",
-    "Musashi Communication Village (MCV) for Language Exchange"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "武蔵大学",
-    "name_en": "Musashi University",
-    "address": "1-26-1 Toyotamakami, Nerima-ku, Tokyo 176-8534, Japan",
-    "capacity": 4800
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "22% - 28% (General Average)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Humanities",
-    "Faculty of Sociology",
-    "Faculty of International Social Studies"
-  ],
-  "features": [
-    "Small-group Seminar Education (Zemi) from 1st Year",
-    "University of London Parallel Degree Program (PDP)",
-    "Global Data Science (GDS) Integrated Curriculum",
-    "Musashi Communication Village (MCV) for Language Exchange"
-  ]
-}
+basic_info:
+  address: 1-26-1 Toyotamakami, Nerima-ku, Tokyo 176-8534, Japan
+  capacity: 4800
+  name_en: Musashi University
+  name_ja: 武蔵大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Economics
+- Faculty of Humanities
+- Faculty of Sociology
+- Faculty of International Social Studies
+features:
+- Small-group Seminar Education (Zemi) from 1st Year
+- University of London Parallel Degree Program (PDP)
+- Global Data Science (GDS) Integrated Curriculum
+- Musashi Communication Village (MCV) for Language Exchange
+id: univ_musashi-university-comprehensive-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22% - 28% (General Average)
+  international_students: 165
+tags:
+- Small-group Seminar Education (Zemi) from 1st Year
+- University of London Parallel Degree Program (PDP)
+- Global Data Science (GDS) Integrated Curriculum
+- Musashi Communication Village (MCV) for Language Exchange
+thumbnail: /static/img/pin-univ.png
+title: Musashi University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 University Overview: The 'Musashi' Philosophy

@@ -1,58 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "466-8673 아이치현 나고야시 쇼와구 고켄야초 27-1",
-    "name_en": "Nanzan University",
-    "name_ja": "南山大学",
-    "website": "https://www.nanzan-u.ac.jp/english/"
-  },
-  "category": "university",
-  "description": "난잔대학교는 일본 주부 지방의 명문 사립대학교로, 특히 외국어 연구와 GALS 프로그램으로 잘 알려져 있으며, 강력한 국제적 초점을 제공합니다.",
-  "faculties": [
-    "Humanities",
-    "Foreign Studies",
-    "Economics",
-    "Business Administration",
-    "Law",
-    "Policy Studies",
-    "Global Liberal Studies (GALS)",
-    "Science and Technology"
-  ],
-  "features": [
-    "주부 지역 최고 사립 대학교",
-    "가톨릭 계열",
-    "EJU 필수 (대부분의 프로그램)",
-    "영어 학위 프로그램 (GALS)",
-    "강력한 외국어 중심",
-    "나고야에 위치"
-  ],
-  "id": "univ_nanzan-university-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "경쟁률 높음 (학부별 상이)",
-    "international_students": 650
-  },
-  "tags": [
-    "Regional Top Private University",
-    "Catholic Affiliation",
-    "EJU Required (for most programs)",
-    "English Degree Program (GALS)",
-    "Strong Foreign Language Focus",
-    "Located in Nagoya"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "난잔대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1250000
-  }
-}
+basic_info:
+  address: 466-8673 아이치현 나고야시 쇼와구 고켄야초 27-1
+  name_en: Nanzan University
+  name_ja: 南山大学
+  website: https://www.nanzan-u.ac.jp/english/
+category: university
+date: '2026-01-28'
+description: 난잔대학교는 일본 주부 지방의 명문 사립대학교로, 특히 외국어 연구와 GALS 프로그램으로 잘 알려져 있으며, 강력한 국제적
+  초점을 제공합니다.
+faculties:
+- Humanities
+- Foreign Studies
+- Economics
+- Business Administration
+- Law
+- Policy Studies
+- Global Liberal Studies (GALS)
+- Science and Technology
+features:
+- 주부 지역 최고 사립 대학교
+- 가톨릭 계열
+- EJU 필수 (대부분의 프로그램)
+- 영어 학위 프로그램 (GALS)
+- 강력한 외국어 중심
+- 나고야에 위치
+id: univ_nanzan-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 경쟁률 높음 (학부별 상이)
+  international_students: 650
+tags:
+- Regional Top Private University
+- Catholic Affiliation
+- EJU Required (for most programs)
+- English Degree Program (GALS)
+- Strong Foreign Language Focus
+- Located in Nagoya
+thumbnail: /static/img/pin-univ.png
+title: 난잔대학교
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1250000
 ---
 
 ## 대학교 개요 및 명성

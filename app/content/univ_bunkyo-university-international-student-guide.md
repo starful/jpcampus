@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_bunkyo-university-international-student-guide",
-  "title": "Bunkyo University",
-  "category": "university",
-  "tags": [
-    "Japan's leading private university for teacher training and placement.",
-    "Unique 'Human Love' (Ningen-ai) educational philosophy.",
-    "Specialized support systems for international student career hunting.",
-    "Strategic campus locations spanning Saitama, Kanagawa, and Tokyo."
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "文教大学",
-    "name_en": "Bunkyo University",
-    "address": "3337 Minami-Ogishima, Koshigaya-shi, Saitama 343-8511, Japan",
-    "capacity": 8500
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "45% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 960000
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Human Sciences",
-    "Faculty of Literature",
-    "Faculty of Informatics",
-    "Faculty of Health and Nutrition",
-    "Faculty of International Studies",
-    "Faculty of Business Administration"
-  ],
-  "features": [
-    "Japan's leading private university for teacher training and placement.",
-    "Unique 'Human Love' (Ningen-ai) educational philosophy.",
-    "Specialized support systems for international student career hunting.",
-    "Strategic campus locations spanning Saitama, Kanagawa, and Tokyo."
-  ]
-}
+basic_info:
+  address: 3337 Minami-Ogishima, Koshigaya-shi, Saitama 343-8511, Japan
+  capacity: 8500
+  name_en: Bunkyo University
+  name_ja: 文教大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Education
+- Faculty of Human Sciences
+- Faculty of Literature
+- Faculty of Informatics
+- Faculty of Health and Nutrition
+- Faculty of International Studies
+- Faculty of Business Administration
+features:
+- Japan's leading private university for teacher training and placement.
+- Unique 'Human Love' (Ningen-ai) educational philosophy.
+- Specialized support systems for international student career hunting.
+- Strategic campus locations spanning Saitama, Kanagawa, and Tokyo.
+id: univ_bunkyo-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45% (Estimated for International Applicants)
+  international_students: 165
+tags:
+- Japan's leading private university for teacher training and placement.
+- Unique 'Human Love' (Ningen-ai) educational philosophy.
+- Specialized support systems for international student career hunting.
+- Strategic campus locations spanning Saitama, Kanagawa, and Tokyo.
+thumbnail: /static/img/pin-univ.png
+title: Bunkyo University
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 960000
 ---
 
 ## 🏫 University Overview: The Spirit of Human Love

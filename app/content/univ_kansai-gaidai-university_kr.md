@@ -1,54 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "1-16-1 Kitakatahoko-cho, Hirakata City, Osaka 573-1001, Japan",
-    "capacity": null,
-    "name_en": "Kansai Gaidai University",
-    "name_ja": "関西外国語大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Foreign Studies",
-    "Faculty of Intercultural Communication",
-    "Faculty of Global Engagement",
-    "Junior College Division (Foreign Language)"
-  ],
-  "features": [
-    "광범위한 교환 프로그램 네트워크 (300개 이상의 파트너 기관)",
-    "영어 및 교차 문화 커뮤니케이션에 대한 강력한 강조",
-    "전용 영어 강의 프로그램 (아시아 연구 프로그램 - ASP)",
-    "많은 학위 프로그램에 대한 의무적 해외 유학",
-    "대부분의 학부 프로그램에 EJU 필요",
-    "교토-오사카-고베 대도시 지역에 위치"
-  ],
-  "id": "univ_kansai-gaidai-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "Approx. 50%",
-    "international_students": 850
-  },
-  "tags": [
-    "Extensive Exchange Program Network (Over 300 Partner Institutions)",
-    "Strong Emphasis on English and Cross-Cultural Communication",
-    "Dedicated English-Taught Programs (Asian Studies Program - ASP)",
-    "Mandatory Study Abroad for Many Degree Programs",
-    "EJU Required for Most Undergraduate Programs",
-    "Located in the Kyoto-Osaka-Kobe Metropolitan Area"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "간사이 외국어 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1350000
-  },
-  "description": "간사이 외국어 대학교는 외국어 교육과 국제 연구 분야에서 선도적인 일본 사립 대학교입니다."
-}
+basic_info:
+  address: 1-16-1 Kitakatahoko-cho, Hirakata City, Osaka 573-1001, Japan
+  capacity: null
+  name_en: Kansai Gaidai University
+  name_ja: 関西外国語大学
+category: university
+date: '2026-01-28'
+description: 간사이 외국어 대학교는 외국어 교육과 국제 연구 분야에서 선도적인 일본 사립 대학교입니다.
+faculties:
+- Faculty of Foreign Studies
+- Faculty of Intercultural Communication
+- Faculty of Global Engagement
+- Junior College Division (Foreign Language)
+features:
+- 광범위한 교환 프로그램 네트워크 (300개 이상의 파트너 기관)
+- 영어 및 교차 문화 커뮤니케이션에 대한 강력한 강조
+- 전용 영어 강의 프로그램 (아시아 연구 프로그램 - ASP)
+- 많은 학위 프로그램에 대한 의무적 해외 유학
+- 대부분의 학부 프로그램에 EJU 필요
+- 교토-오사카-고베 대도시 지역에 위치
+id: univ_kansai-gaidai-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approx. 50%
+  international_students: 850
+tags:
+- Extensive Exchange Program Network (Over 300 Partner Institutions)
+- Strong Emphasis on English and Cross-Cultural Communication
+- Dedicated English-Taught Programs (Asian Studies Program - ASP)
+- Mandatory Study Abroad for Many Degree Programs
+- EJU Required for Most Undergraduate Programs
+- Located in the Kyoto-Osaka-Kobe Metropolitan Area
+thumbnail: /static/img/pin-univ.png
+title: 간사이 외국어 대학교
+translated: true
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1350000
 ---
 
 ## 대학교 개요

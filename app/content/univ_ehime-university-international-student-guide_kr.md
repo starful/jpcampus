@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ehime-university-international-student-guide",
-  "title": "에히메 대학교",
-  "category": "university",
-  "tags": [
-    "세계적인 지오다이나믹스 연구 센터 (GRC)",
-    "지역 활성화 및 산업 협력에 집중",
-    "일본에서 가장 살기 좋고 저렴한 도시 중 하나인 마쓰야마에 위치",
-    "단백질 과학 및 해양 환경 연구 분야의 고급 연구"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛媛大学",
-    "name_en": "Ehime University",
-    "address": "3 Bunkyo-cho, Matsuyama, Ehime 790-8577, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "법문학부",
-    "교육학부",
-    "이학부",
-    "의학부",
-    "공학부",
-    "농학부",
-    "협동지역혁신학부"
-  ],
-  "features": [
-    "세계적인 지오다이나믹스 연구 센터 (GRC)",
-    "지역 활성화 및 산업 협력에 집중",
-    "일본에서 가장 살기 좋고 저렴한 도시 중 하나인 마쓰야마에 위치",
-    "단백질 과학 및 해양 환경 연구 분야의 고급 연구"
-  ],
-  "description": "에히메 대학교는 시코쿠 섬에서 가장 큰 도시인 마쓰야마에 위치한 선도적인 국립 대학입니다. 세계적인 수준의 연구 시설과 경제적인 생활 환경을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3 Bunkyo-cho, Matsuyama, Ehime 790-8577, Japan
+  capacity: null
+  name_en: Ehime University
+  name_ja: 愛媛大学
+category: university
+date: '2026-02-13'
+description: 에히메 대학교는 시코쿠 섬에서 가장 큰 도시인 마쓰야마에 위치한 선도적인 국립 대학입니다. 세계적인 수준의 연구 시설과 경제적인
+  생활 환경을 제공합니다.
+faculties:
+- 법문학부
+- 교육학부
+- 이학부
+- 의학부
+- 공학부
+- 농학부
+- 협동지역혁신학부
+features:
+- 세계적인 지오다이나믹스 연구 센터 (GRC)
+- 지역 활성화 및 산업 협력에 집중
+- 일본에서 가장 살기 좋고 저렴한 도시 중 하나인 마쓰야마에 위치
+- 단백질 과학 및 해양 환경 연구 분야의 고급 연구
+id: univ_ehime-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 320
+tags:
+- 세계적인 지오다이나믹스 연구 센터 (GRC)
+- 지역 활성화 및 산업 협력에 집중
+- 일본에서 가장 살기 좋고 저렴한 도시 중 하나인 마쓰야마에 위치
+- 단백질 과학 및 해양 환경 연구 분야의 고급 연구
+thumbnail: /static/img/pin-univ.png
+title: 에히메 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

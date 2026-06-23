@@ -1,66 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都文京区千駄木4-1-16-107",
-    "capacity": 150,
-    "name_en": "KIJ Language Institute, Tokyo Campus",
-    "name_ja": "ＫＩＪ語学院東京校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1555900
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1187840
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1371890
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 996330
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학을 위한 전문적인 EJU 준비",
-    "특화된 이공계 트랙 커리큘럼",
-    "캠퍼스 내 또는 제휴 기숙사 숙박 제공",
-    "넉넉한 성적 기반 장학금 제도",
-    "소규모 학급 및 개인 맞춤형 학업 지도"
-  ],
-  "id": "school_kij-language-institute-tokyo-campus",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.73094,
-    "lng": 139.7603363
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=507",
-  "stats": {
-    "capacity": 150,
-    "international_students": null
-  },
-  "tags": [
-    "Specialized EJU Preparation for University Progression",
-    "Dedicated Science (Rikei) Track Curriculum",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Generous Merit-Based Scholarship System",
-    "Small Class Sizes and Personalized Academic Guidance"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "KIJ 랭귀지 인스티튜트, 도쿄 캠퍼스",
-  "tuition": {},
-  "description": "KIJ 랭귀지 인스티튜트 도쿄 캠퍼스는 대학 진학을 목표로 하는 학생들을 위한 전문 어학원입니다."
-}
+basic_info:
+  address: 東京都文京区千駄木4-1-16-107
+  capacity: 150
+  name_en: KIJ Language Institute, Tokyo Campus
+  name_ja: ＫＩＪ語学院東京校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1555900
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1187840
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1371890
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 996330
+date: '2026-01-28'
+description: KIJ 랭귀지 인스티튜트 도쿄 캠퍼스는 대학 진학을 목표로 하는 학생들을 위한 전문 어학원입니다.
+faculties: []
+features:
+- 대학 진학을 위한 전문적인 EJU 준비
+- 특화된 이공계 트랙 커리큘럼
+- 캠퍼스 내 또는 제휴 기숙사 숙박 제공
+- 넉넉한 성적 기반 장학금 제도
+- 소규모 학급 및 개인 맞춤형 학업 지도
+id: school_kij-language-institute-tokyo-campus
+lang: kr
+layout: school
+location:
+  lat: 35.73094
+  lng: 139.7603363
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=507
+stats:
+  capacity: 150
+  international_students: null
+tags:
+- Specialized EJU Preparation for University Progression
+- Dedicated Science (Rikei) Track Curriculum
+- On-Campus or Affiliated Dormitory Accommodation
+- Generous Merit-Based Scholarship System
+- Small Class Sizes and Personalized Academic Guidance
+thumbnail: /static/img/pin-school.png
+title: KIJ 랭귀지 인스티튜트, 도쿄 캠퍼스
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

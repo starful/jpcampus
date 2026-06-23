@@ -5,6 +5,7 @@ basic_info:
   name_ja: 北海道大学
   website: https://www.hokudai.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Letters
 - Faculty of Education

@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_otemae-university-guide-for-international-students",
-  "title": "오테마에 대학교 (Otemae University)",
-  "description": "오사카와 고베 사이의 전략적 요충지에 위치한 오테마에 대학교는 유연한 리버럴 아츠 교육과 강력한 취업 지원, 외국인 유학생을 위한 풍부한 장학 혜택을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "리버럴 아츠 교육 시스템",
-    "외국인 유학생 수업료 감면",
-    "오사카·고베 사이의 우수한 입지",
-    "강력한 일본 내 취업 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大手前大学",
-    "name_en": "Otemae University",
-    "address": "6-42 Okada-yama, Nishinomiya, Hyogo 662-8505, Japan",
-    "capacity": 5200
-  },
-  "stats": {
-    "international_students": 380,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 240000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "글로벌 비즈니스 학부",
-    "건축·디자인 학부",
-    "국제학부",
-    "보건의료학부",
-    "간호학부",
-    "임상심리대학원"
-  ],
-  "features": [
-    "리버럴 아츠 교육 시스템",
-    "외국인 유학생 대상 특별 수업료 감면 혜택",
-    "오사카와 고베 사이의 전략적 위치",
-    "강력한 일본 내 취업 지원 프로그램"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 6-42 Okada-yama, Nishinomiya, Hyogo 662-8505, Japan
+  capacity: 5200
+  name_en: Otemae University
+  name_ja: 大手前大学
+category: university
+date: '2026-04-19'
+description: 오사카와 고베 사이의 전략적 요충지에 위치한 오테마에 대학교는 유연한 리버럴 아츠 교육과 강력한 취업 지원, 외국인 유학생을
+  위한 풍부한 장학 혜택을 제공합니다.
+faculties:
+- 글로벌 비즈니스 학부
+- 건축·디자인 학부
+- 국제학부
+- 보건의료학부
+- 간호학부
+- 임상심리대학원
+features:
+- 리버럴 아츠 교육 시스템
+- 외국인 유학생 대상 특별 수업료 감면 혜택
+- 오사카와 고베 사이의 전략적 위치
+- 강력한 일본 내 취업 지원 프로그램
+id: univ_otemae-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 380
+tags:
+- 리버럴 아츠 교육 시스템
+- 외국인 유학생 수업료 감면
+- 오사카·고베 사이의 우수한 입지
+- 강력한 일본 내 취업 지원
+thumbnail: /static/img/pin-univ.png
+title: 오테마에 대학교 (Otemae University)
+tuition:
+  admission_fee: 240000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

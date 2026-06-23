@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_himeji-dokkyo-university-international-student-guide",
-  "title": "히메지 독쿄 대학교 (Himeji Dokkyo University)",
-  "description": "효고현 히메지시에 위치한 히메지 독쿄 대학교는 보건 의료와 인문 사회 과학 분야에 특화된 명문 사립 대학입니다. 유서 깊은 히메지성을 배경으로 전문적인 교육과 충실한 유학생 지원 프로그램을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "Specialized Healthcare and Medical Focus",
-    "Located in the Historic Castle City of Himeji",
-    "Comprehensive Japanese Language Support",
-    "Strong Ties to the Local Medical Industry"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "姫路獨協大学",
-    "name_en": "Himeji Dokkyo University",
-    "address": "7-2-1 Kamiozawa, Himeji-shi, Hyogo 670-8524, Japan",
-    "capacity": 2400
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Health Sciences",
-    "Faculty of Nursing",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Medical Technology",
-    "Faculty of Human Social Sciences"
-  ],
-  "features": [
-    "보건 및 의료 분야 특성화 교육",
-    "유서 깊은 성곽 도시 히메지에 위치",
-    "충실한 일본어 학습 지원 체계",
-    "지역 의료 산업과의 강력한 연계"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 7-2-1 Kamiozawa, Himeji-shi, Hyogo 670-8524, Japan
+  capacity: 2400
+  name_en: Himeji Dokkyo University
+  name_ja: 姫路獨協大学
+category: university
+date: '2026-04-19'
+description: 효고현 히메지시에 위치한 히메지 독쿄 대학교는 보건 의료와 인문 사회 과학 분야에 특화된 명문 사립 대학입니다. 유서 깊은
+  히메지성을 배경으로 전문적인 교육과 충실한 유학생 지원 프로그램을 제공합니다.
+faculties:
+- Faculty of Health Sciences
+- Faculty of Nursing
+- Faculty of Pharmaceutical Sciences
+- Faculty of Medical Technology
+- Faculty of Human Social Sciences
+features:
+- 보건 및 의료 분야 특성화 교육
+- 유서 깊은 성곽 도시 히메지에 위치
+- 충실한 일본어 학습 지원 체계
+- 지역 의료 산업과의 강력한 연계
+id: univ_himeji-dokkyo-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 165
+tags:
+- Specialized Healthcare and Medical Focus
+- Located in the Historic Castle City of Himeji
+- Comprehensive Japanese Language Support
+- Strong Ties to the Local Medical Industry
+thumbnail: /static/img/pin-univ.png
+title: 히메지 독쿄 대학교 (Himeji Dokkyo University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 대학 개요: 효고현에서 전문적인 성공으로 가는 관문

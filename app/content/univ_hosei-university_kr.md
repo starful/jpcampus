@@ -1,60 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "〒102-8160 東京都千代田区富士見2-17-1",
-    "name_en": "Hosei University",
-    "name_ja": "法政大学",
-    "website": "https://www.hosei.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Social Sciences",
-    "Faculty of Business Administration",
-    "Faculty of Science and Engineering",
-    "Faculty of Humanity and Environment",
-    "Faculty of Global and Interdisciplinary Studies",
-    "Faculty of Sport and Health Studies",
-    "Faculty of Information Science and Technology",
-    "Faculty of Design Engineering",
-    "College of Sustainability Systems Science"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_hosei-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6958744,
-    "lng": 139.7408827
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 1500
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "호세이 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "도쿄에 위치한 명문 사립 대학, 호세이 대학에 대해 알아보세요. 다양한 학부 및 국제 학생 지원 프로그램 정보를 제공합니다."
-}
+basic_info:
+  address: 〒102-8160 東京都千代田区富士見2-17-1
+  name_en: Hosei University
+  name_ja: 法政大学
+  website: https://www.hosei.ac.jp/
+category: university
+date: '2026-01-28'
+description: 도쿄에 위치한 명문 사립 대학, 호세이 대학에 대해 알아보세요. 다양한 학부 및 국제 학생 지원 프로그램 정보를 제공합니다.
+faculties:
+- Faculty of Law
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Social Sciences
+- Faculty of Business Administration
+- Faculty of Science and Engineering
+- Faculty of Humanity and Environment
+- Faculty of Global and Interdisciplinary Studies
+- Faculty of Sport and Health Studies
+- Faculty of Information Science and Technology
+- Faculty of Design Engineering
+- College of Sustainability Systems Science
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_hosei-university
+lang: kr
+layout: school
+location:
+  lat: 35.6958744
+  lng: 139.7408827
+stats:
+  acceptance_rate: 25%
+  international_students: 1500
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 호세이 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요

@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-institute-of-technology-international-student-guide",
-  "title": "히로시마 공업대학교",
-  "description": "99% 이상의 압도적인 취업률을 자랑하며, 마쓰다 등 일본 주요 제조업체와 긴밀한 네트워크를 가진 실무 중심의 명문 사립 공과대학교입니다.",
-  "category": "university",
-  "tags": [
-    "99% 이상의 압도적인 취업률",
-    "마쓰다 등 주요 제조업체와의 강력한 협력",
-    "HIT Nexus 등 최첨단 교육 시설",
-    "실무 중심의 공학 교육"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島工業大学",
-    "name_en": "Hiroshima Institute of Technology",
-    "address": "2-1-1 Miyake, Saeki-ku, Hiroshima-shi, Hiroshima 731-5193, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "45% - 55% (일본 사립 공과대학 추세에 따른 추정치)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1395000
-  },
-  "faculties": [
-    "공학부",
-    "정보학부",
-    "환경학부",
-    "생명학부"
-  ],
-  "features": [
-    "99% 이상의 졸업생 취업률 달성",
-    "마쓰다(Mazda) 등 지역 주요 제조업체와의 강력한 연계",
-    "HIT Nexus 학습 센터를 포함한 최첨단 교육 시설 완비",
-    "사회 공헌에 기반한 실용적인 핸즈온(Hands-on) 공학 교육"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-1 Miyake, Saeki-ku, Hiroshima-shi, Hiroshima 731-5193, Japan
+  capacity: null
+  name_en: Hiroshima Institute of Technology
+  name_ja: 広島工業大学
+category: university
+date: '2026-03-15'
+description: 99% 이상의 압도적인 취업률을 자랑하며, 마쓰다 등 일본 주요 제조업체와 긴밀한 네트워크를 가진 실무 중심의 명문 사립 공과대학교입니다.
+faculties:
+- 공학부
+- 정보학부
+- 환경학부
+- 생명학부
+features:
+- 99% 이상의 졸업생 취업률 달성
+- 마쓰다(Mazda) 등 지역 주요 제조업체와의 강력한 연계
+- HIT Nexus 학습 센터를 포함한 최첨단 교육 시설 완비
+- 사회 공헌에 기반한 실용적인 핸즈온(Hands-on) 공학 교육
+id: univ_hiroshima-institute-of-technology-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45% - 55% (일본 사립 공과대학 추세에 따른 추정치)
+  international_students: 42
+tags:
+- 99% 이상의 압도적인 취업률
+- 마쓰다 등 주요 제조업체와의 강력한 협력
+- HIT Nexus 등 최첨단 교육 시설
+- 실무 중심의 공학 교육
+thumbnail: /static/img/pin-univ.png
+title: 히로시마 공업대학교
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1395000
 ---
 
 ## 🏫 대학 개요: 히로시마의 혁신 정신

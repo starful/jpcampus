@@ -5,6 +5,7 @@ basic_info:
   name_en: Kansai Gaidai University
   name_ja: 関西外国語大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Foreign Studies
 - Faculty of Intercultural Communication

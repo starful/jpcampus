@@ -1,77 +1,63 @@
 ---
-{
-  "basic_info": {
-    "address": "沖縄県浦添市仲西1-1-1",
-    "capacity": 675,
-    "name_en": "JSL Nihon Academy",
-    "name_ja": "J S L日本アカデミー"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学A",
-      "total_fees": 830000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学B",
-      "total_fees": 1355000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学C",
-      "total_fees": 1180000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学D",
-      "total_fees": 1005000
-    }
-  ],
-  "description": "오키나와에 위치한 JSL Nihon Academy는 국제 학생들에게 특별한 학습 환경을 제공하며, 대학 입학, 문화 체험, 그리고 커리어 개발을 위한 종합적인 지원을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "장학금",
-    "EJU 준비",
-    "이과 과정",
-    "대학 진학 과정",
-    "회화 일본어",
-    "비즈니스 일본어",
-    "미술 과정",
-    "디자인 과정",
-    "단기 코스"
-  ],
-  "id": "school_j-s-l-nihon-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 26.2493949,
-    "lng": 127.7004683
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=458",
-  "stats": {
-    "capacity": 675,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Scholarship",
-    "EJU Preparation",
-    "Science Courses",
-    "University Pathway",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "JSL Nihon Academy",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 沖縄県浦添市仲西1-1-1
+  capacity: 675
+  name_en: JSL Nihon Academy
+  name_ja: J S L日本アカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学A
+  total_fees: 830000
+- admission_month: '7'
+  course_name: 進学B
+  total_fees: 1355000
+- admission_month: '10'
+  course_name: 進学C
+  total_fees: 1180000
+- admission_month: '1'
+  course_name: 進学D
+  total_fees: 1005000
+date: '2026-01-28'
+description: 오키나와에 위치한 JSL Nihon Academy는 국제 학생들에게 특별한 학습 환경을 제공하며, 대학 입학, 문화 체험,
+  그리고 커리어 개발을 위한 종합적인 지원을 제공합니다.
+faculties: []
+features:
+- 기숙사
+- 장학금
+- EJU 준비
+- 이과 과정
+- 대학 진학 과정
+- 회화 일본어
+- 비즈니스 일본어
+- 미술 과정
+- 디자인 과정
+- 단기 코스
+id: school_j-s-l-nihon-academy
+lang: kr
+layout: school
+location:
+  lat: 26.2493949
+  lng: 127.7004683
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=458
+stats:
+  capacity: 675
+  international_students: 0
+tags:
+- Dormitory
+- Scholarship
+- EJU Preparation
+- Science Courses
+- University Pathway
+- Conversational Japanese
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: JSL Nihon Academy
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

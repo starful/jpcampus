@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_meio-university-okinawa-guide",
-  "title": "Meio University",
-  "category": "university",
-  "tags": [
-    "Unique Public University status in Okinawa",
-    "Strong focus on Tourism and International Exchange",
-    "Location in the UNESCO World Heritage Yanbaru region",
-    "Affordable living costs compared to Tokyo/Osaka"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名桜大学",
-    "name_en": "Meio University",
-    "address": "1220-1 Biimata, Nago, Okinawa 905-8585, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 135,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Liberal Arts",
-    "School of Health Sciences",
-    "Graduate School of International Cultural Studies",
-    "Graduate School of Nursing"
-  ],
-  "features": [
-    "Unique Public University status in Okinawa",
-    "Strong focus on Tourism and International Exchange",
-    "Location in the UNESCO World Heritage Yanbaru region",
-    "Affordable living costs compared to Tokyo/Osaka"
-  ]
-}
+basic_info:
+  address: 1220-1 Biimata, Nago, Okinawa 905-8585, Japan
+  capacity: 2500
+  name_en: Meio University
+  name_ja: 名桜大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Liberal Arts
+- School of Health Sciences
+- Graduate School of International Cultural Studies
+- Graduate School of Nursing
+features:
+- Unique Public University status in Okinawa
+- Strong focus on Tourism and International Exchange
+- Location in the UNESCO World Heritage Yanbaru region
+- Affordable living costs compared to Tokyo/Osaka
+id: univ_meio-university-okinawa-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 135
+tags:
+- Unique Public University status in Okinawa
+- Strong focus on Tourism and International Exchange
+- Location in the UNESCO World Heritage Yanbaru region
+- Affordable living costs compared to Tokyo/Osaka
+thumbnail: /static/img/pin-univ.png
+title: Meio University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

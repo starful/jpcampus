@@ -1,57 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "山口県周南市本町2-13",
-    "capacity": 200,
-    "name_en": "Tokuyama College of Comprehensive Business",
-    "name_ja": "徳山総合ビジネス専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "大学進学1年半コース",
-      "total_fees": 921500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1184000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 또는 제휴 숙소 이용 가능",
-    "대학 및 대학원 입시 (EJU/JLPT) 집중 대비",
-    "야마구치현 슈난시에 위치 (서일본)",
-    "장기 학업 과정과 함께 단기 학습 기회 제공",
-    "전문학교 환경 내 통합"
-  ],
-  "id": "school_tokuyama-college-of-comprehensive-business",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.0549818,
-    "lng": 131.8020821
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=406",
-  "stats": {
-    "capacity": 200,
-    "international_students": 200
-  },
-  "tags": [
-    "On-campus/Affiliated Dormitory Accommodation Available",
-    "Strong Focus on University and Graduate School Entrance Examination (EJU/JLPT)",
-    "Located in Shunan City, Yamaguchi Prefecture (Western Japan)",
-    "Offers Short-Term Study Opportunities alongside Long-Term Academic Tracks",
-    "Integration within a Vocational College Environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "도쿠야마 종합 비즈니스 전문학교",
-  "translated": true,
-  "tuition": {},
-  "description": "야마구치현 슈난시에 위치한 도쿠야마 종합 비즈니스 전문학교는 대학 및 대학원 진학을 위한 맞춤형 일본어 교육을 제공합니다. 기숙사, EJU/JLPT 집중 대비, 단기 학습 기회 등 다양한 특징을 갖추고 있습니다."
-}
+basic_info:
+  address: 山口県周南市本町2-13
+  capacity: 200
+  name_en: Tokuyama College of Comprehensive Business
+  name_ja: 徳山総合ビジネス専門学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 921500
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1184000
+date: '2026-01-28'
+description: 야마구치현 슈난시에 위치한 도쿠야마 종합 비즈니스 전문학교는 대학 및 대학원 진학을 위한 맞춤형 일본어 교육을 제공합니다.
+  기숙사, EJU/JLPT 집중 대비, 단기 학습 기회 등 다양한 특징을 갖추고 있습니다.
+faculties: []
+features:
+- 기숙사 또는 제휴 숙소 이용 가능
+- 대학 및 대학원 입시 (EJU/JLPT) 집중 대비
+- 야마구치현 슈난시에 위치 (서일본)
+- 장기 학업 과정과 함께 단기 학습 기회 제공
+- 전문학교 환경 내 통합
+id: school_tokuyama-college-of-comprehensive-business
+lang: kr
+layout: school
+location:
+  lat: 34.0549818
+  lng: 131.8020821
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=406
+stats:
+  capacity: 200
+  international_students: 200
+tags:
+- On-campus/Affiliated Dormitory Accommodation Available
+- Strong Focus on University and Graduate School Entrance Examination (EJU/JLPT)
+- Located in Shunan City, Yamaguchi Prefecture (Western Japan)
+- Offers Short-Term Study Opportunities alongside Long-Term Academic Tracks
+- Integration within a Vocational College Environment
+thumbnail: /static/img/pin-school.png
+title: 도쿠야마 종합 비즈니스 전문학교
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

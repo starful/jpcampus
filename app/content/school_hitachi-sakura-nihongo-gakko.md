@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般1年コース
   total_fees: 770500
+date: '2026-01-28'
 faculties: []
 features:
 - Dormitory

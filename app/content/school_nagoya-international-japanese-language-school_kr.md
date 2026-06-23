@@ -1,61 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市昭和区狭間町3-6",
-    "capacity": 158,
-    "name_en": "Nagoya International Japanese Language School",
-    "name_ja": "名古屋国際日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "7",
-      "course_name": "大学進学1年9ヶ月コース",
-      "total_fees": 1217500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1366000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "고등 교육 진학을 위한 맞춤형 과정 (대학교, 대학원, 전문대학)",
-    "이과 (Rikei) 및 문과 (Bunkei) EJU 시험 대비 전문 트랙",
-    "미술 및 디자인 대학 입시를 위한 종합적인 지원 (포트폴리오 & 이론)",
-    "학교에서 관리하는 기숙사 옵션 이용 가능 (1인실 포함)",
-    "실용적인 의사소통 능력 및 비즈니스 일본어에 집중",
-    "우수한 학생들을 위한 JASSO/사설 장학금 기회",
-    "단기 학습 옵션 이용 가능"
-  ],
-  "id": "school_nagoya-international-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.1547989,
-    "lng": 136.9236757
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=298",
-  "stats": {
-    "capacity": 158,
-    "international_students": 150
-  },
-  "tags": [
-    "Dedicated Pathways for Higher Education Advancement (University, Graduate School, Vocational College)",
-    "Specialized Tracks for Science (Rikei) and Humanities (Bunkei) EJU Preparation",
-    "Comprehensive Support for Art and Design University Admissions (Portfolio & Theory)",
-    "School-Managed Dormitory Options Available (Including Single Rooms)",
-    "Focus on Practical Communication Skills and Business Japanese",
-    "JASSO/Private Scholarship Opportunities for High-Achieving Students",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "나고야 국제 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "아이치현 나고야에 위치한 나고야 국제 일본어 학교는 고등 교육에 집중하는 교육 기관입니다. 대학 진학, EJU 시험 대비, 포트폴리오 준비 등을 위한 다양한 과정을 제공합니다."
-}
+basic_info:
+  address: 愛知県名古屋市昭和区狭間町3-6
+  capacity: 158
+  name_en: Nagoya International Japanese Language School
+  name_ja: 名古屋国際日本語学校
+category: school
+courses:
+- admission_month: '7'
+  course_name: 大学進学1年9ヶ月コース
+  total_fees: 1217500
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1366000
+date: '2026-01-28'
+description: 아이치현 나고야에 위치한 나고야 국제 일본어 학교는 고등 교육에 집중하는 교육 기관입니다. 대학 진학, EJU 시험 대비,
+  포트폴리오 준비 등을 위한 다양한 과정을 제공합니다.
+faculties: []
+features:
+- 고등 교육 진학을 위한 맞춤형 과정 (대학교, 대학원, 전문대학)
+- 이과 (Rikei) 및 문과 (Bunkei) EJU 시험 대비 전문 트랙
+- 미술 및 디자인 대학 입시를 위한 종합적인 지원 (포트폴리오 & 이론)
+- 학교에서 관리하는 기숙사 옵션 이용 가능 (1인실 포함)
+- 실용적인 의사소통 능력 및 비즈니스 일본어에 집중
+- 우수한 학생들을 위한 JASSO/사설 장학금 기회
+- 단기 학습 옵션 이용 가능
+id: school_nagoya-international-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.1547989
+  lng: 136.9236757
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=298
+stats:
+  capacity: 158
+  international_students: 150
+tags:
+- Dedicated Pathways for Higher Education Advancement (University, Graduate School,
+  Vocational College)
+- Specialized Tracks for Science (Rikei) and Humanities (Bunkei) EJU Preparation
+- Comprehensive Support for Art and Design University Admissions (Portfolio & Theory)
+- School-Managed Dormitory Options Available (Including Single Rooms)
+- Focus on Practical Communication Skills and Business Japanese
+- JASSO/Private Scholarship Opportunities for High-Achieving Students
+- Flexible Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: 나고야 국제 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

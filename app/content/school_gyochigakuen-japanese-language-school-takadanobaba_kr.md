@@ -1,69 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区高田馬場2-13-2 JMFビル4階",
-    "capacity": 270,
-    "name_en": "Gyochi Gakuen Japanese Language School Takadanobaba Campus",
-    "name_ja": "行知学園日本語学校高田馬場校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 979000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1870000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1666500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 1435000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 1232000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 집중",
-    "기숙사 이용 가능",
-    "종합적인 커리큘럼",
-    "경험이 풍부한 강사진"
-  ],
-  "id": "school_gyochigakuen-japanese-language-school-takadanobaba",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7122838,
-    "lng": 139.7075319
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=597",
-  "stats": {},
-  "tags": [
-    "University Preparation",
-    "EJU Focused",
-    "Dormitory Available",
-    "Comprehensive Curriculum",
-    "Experienced Instructors"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "교치학원 일본어학교 다카다노바바 캠퍼스",
-  "translated": true,
-  "tuition": {},
-  "description": "교치학원 일본어학교 다카다노바바 캠퍼스는 수준 높은 일본어 교육을 제공하는 곳으로, 일본 대학 진학을 목표하는 학생들에게 최적의 환경을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区高田馬場2-13-2 JMFビル4階
+  capacity: 270
+  name_en: Gyochi Gakuen Japanese Language School Takadanobaba Campus
+  name_ja: 行知学園日本語学校高田馬場校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 979000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1870000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1666500
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 1435000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 1232000
+date: '2026-01-28'
+description: 교치학원 일본어학교 다카다노바바 캠퍼스는 수준 높은 일본어 교육을 제공하는 곳으로, 일본 대학 진학을 목표하는 학생들에게 최적의
+  환경을 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 집중
+- 기숙사 이용 가능
+- 종합적인 커리큘럼
+- 경험이 풍부한 강사진
+id: school_gyochigakuen-japanese-language-school-takadanobaba
+lang: kr
+layout: school
+location:
+  lat: 35.7122838
+  lng: 139.7075319
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=597
+stats: {}
+tags:
+- University Preparation
+- EJU Focused
+- Dormitory Available
+- Comprehensive Curriculum
+- Experienced Instructors
+thumbnail: /static/img/pin-school.png
+title: 교치학원 일본어학교 다카다노바바 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

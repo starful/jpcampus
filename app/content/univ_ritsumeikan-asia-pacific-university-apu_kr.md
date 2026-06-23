@@ -1,52 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "大分県別府市十文字原1-1",
-    "name_en": "Ritsumeikan Asia Pacific University",
-    "name_ja": "立命館アジア太平洋大学",
-    "website": "https://www.apu.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "College of Asia Pacific Studies (APS)",
-    "College of International Management (APM)",
-    "College of Sustainability and Tourism (ST)",
-    "College of Asia Pacific Culture and Society (CS)"
-  ],
-  "features": [
-    "SGU",
-    "영어 프로그램",
-    "첫 해 기숙사 보장",
-    "높은 장학금 수혜율",
-    "EJU 선택 사항"
-  ],
-  "id": "univ_ritsumeikan-asia-pacific-university-apu",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "25% (추정)",
-    "international_students": 3200
-  },
-  "tags": [
-    "SGU",
-    "English Program",
-    "Dormitory Guaranteed First Year",
-    "High Scholarship Rate",
-    "EJU Optional"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "리츠메이칸 아시아 태평양 대학교 (APU)",
-  "description": "일본 벳푸에 위치한 국제적인 대학, 리츠메이칸 아시아 태평양 대학교에 대해 알아보세요. 영어 프로그램, 높은 장학금 혜택, 다양한 문화 교류 기회를 제공합니다.",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1300000
-  }
-}
+basic_info:
+  address: 大分県別府市十文字原1-1
+  name_en: Ritsumeikan Asia Pacific University
+  name_ja: 立命館アジア太平洋大学
+  website: https://www.apu.ac.jp/
+category: university
+date: '2026-01-28'
+description: 일본 벳푸에 위치한 국제적인 대학, 리츠메이칸 아시아 태평양 대학교에 대해 알아보세요. 영어 프로그램, 높은 장학금 혜택,
+  다양한 문화 교류 기회를 제공합니다.
+faculties:
+- College of Asia Pacific Studies (APS)
+- College of International Management (APM)
+- College of Sustainability and Tourism (ST)
+- College of Asia Pacific Culture and Society (CS)
+features:
+- SGU
+- 영어 프로그램
+- 첫 해 기숙사 보장
+- 높은 장학금 수혜율
+- EJU 선택 사항
+id: univ_ritsumeikan-asia-pacific-university-apu
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25% (추정)
+  international_students: 3200
+tags:
+- SGU
+- English Program
+- Dormitory Guaranteed First Year
+- High Scholarship Rate
+- EJU Optional
+thumbnail: /static/img/pin-univ.png
+title: 리츠메이칸 아시아 태평양 대학교 (APU)
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1300000
 ---
 
 ## 대학 개요 및 명성

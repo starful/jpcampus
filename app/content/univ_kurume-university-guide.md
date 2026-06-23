@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kurume-university-guide",
-  "title": "Kurume University",
-  "category": "university",
-  "tags": [
-    "Elite Medical Heritage",
-    "Regional Economic Powerhouse",
-    "Comprehensive Student Support",
-    "Strategic Location in Kyushu"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "久留米大学",
-    "name_en": "Kurume University",
-    "address": "67 Asahimachi, Kurume, Fukuoka 830-0011, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "35-45% (Varies by Faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Medicine",
-    "Faculty of Literature",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Commerce",
-    "Faculty of Human Health"
-  ],
-  "features": [
-    "Elite Medical Heritage",
-    "Regional Economic Powerhouse",
-    "Comprehensive Student Support",
-    "Strategic Location in Kyushu"
-  ]
-}
+basic_info:
+  address: 67 Asahimachi, Kurume, Fukuoka 830-0011, Japan
+  capacity: null
+  name_en: Kurume University
+  name_ja: 久留米大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Medicine
+- Faculty of Literature
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Commerce
+- Faculty of Human Health
+features:
+- Elite Medical Heritage
+- Regional Economic Powerhouse
+- Comprehensive Student Support
+- Strategic Location in Kyushu
+id: univ_kurume-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Varies by Faculty)
+  international_students: 185
+tags:
+- Elite Medical Heritage
+- Regional Economic Powerhouse
+- Comprehensive Student Support
+- Strategic Location in Kyushu
+thumbnail: /static/img/pin-univ.png
+title: Kurume University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

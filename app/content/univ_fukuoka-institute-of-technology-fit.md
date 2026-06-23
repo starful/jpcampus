@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukuoka-institute-of-technology-fit",
-  "title": "Fukuoka Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Nationally Ranked for Employment Rates",
-    "State-of-the-Art Digital and Robotic Facilities",
-    "Prime Location in Fukuoka's Growing Tech Hub",
-    "Comprehensive Support for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福岡工業大学",
-    "name_en": "Fukuoka Institute of Technology",
-    "address": "3-30-1 Wajiro-higashi, Higashi-ku, Fukuoka-shi, Fukuoka 811-0295, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 192,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 220000,
-    "yearly_tuition": 1385000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Information Science",
-    "Faculty of Socio-Environmental Studies"
-  ],
-  "features": [
-    "Nationally Ranked for Employment Rates",
-    "State-of-the-Art Digital and Robotic Facilities",
-    "Prime Location in Fukuoka's Growing Tech Hub",
-    "Comprehensive Support for International Students"
-  ]
-}
+basic_info:
+  address: 3-30-1 Wajiro-higashi, Higashi-ku, Fukuoka-shi, Fukuoka 811-0295, Japan
+  capacity: null
+  name_en: Fukuoka Institute of Technology
+  name_ja: 福岡工業大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Engineering
+- Faculty of Information Science
+- Faculty of Socio-Environmental Studies
+features:
+- Nationally Ranked for Employment Rates
+- State-of-the-Art Digital and Robotic Facilities
+- Prime Location in Fukuoka's Growing Tech Hub
+- Comprehensive Support for International Students
+id: univ_fukuoka-institute-of-technology-fit
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 192
+tags:
+- Nationally Ranked for Employment Rates
+- State-of-the-Art Digital and Robotic Facilities
+- Prime Location in Fukuoka's Growing Tech Hub
+- Comprehensive Support for International Students
+thumbnail: /static/img/pin-univ.png
+title: Fukuoka Institute of Technology
+tuition:
+  admission_fee: 220000
+  yearly_tuition: 1385000
 ---
 
 ## 🏫 University Overview

@@ -1,70 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区百人町1-13-24",
-    "capacity": 1752,
-    "name_en": "Tokyo World Japanese Language School",
-    "name_ja": "東京ワールド日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1561000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1.9年コース",
-      "total_fees": 1376500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 1192000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1.3年コース",
-      "total_fees": 1007500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 823000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 시험 준비",
-    "기숙사 이용 가능",
-    "비즈니스 일본어"
-  ],
-  "id": "school_tokyo-world-nihongo-gakkou",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6990458,
-    "lng": 139.6994652
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=131",
-  "stats": {
-    "capacity": 1752,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Business Japanese"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "도쿄 월드 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "도쿄 신주쿠에 위치한 도쿄 월드 일본어 학교는 유학생들에게 종합적인 일본어 교육을 제공합니다. 대학 진학 및 EJU 시험 준비에 특화되어 있습니다."
-}
+basic_info:
+  address: 東京都新宿区百人町1-13-24
+  capacity: 1752
+  name_en: Tokyo World Japanese Language School
+  name_ja: 東京ワールド日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1561000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1376500
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1192000
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 1007500
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 823000
+date: '2026-01-28'
+description: 도쿄 신주쿠에 위치한 도쿄 월드 일본어 학교는 유학생들에게 종합적인 일본어 교육을 제공합니다. 대학 진학 및 EJU 시험 준비에
+  특화되어 있습니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 시험 준비
+- 기숙사 이용 가능
+- 비즈니스 일본어
+id: school_tokyo-world-nihongo-gakkou
+lang: kr
+layout: school
+location:
+  lat: 35.6990458
+  lng: 139.6994652
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=131
+stats:
+  capacity: 1752
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Business Japanese
+thumbnail: /static/img/pin-school.png
+title: 도쿄 월드 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

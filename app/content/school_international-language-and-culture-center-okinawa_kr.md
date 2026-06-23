@@ -1,81 +1,66 @@
 ---
-{
-  "basic_info": {
-    "address": "沖縄県那覇市田原1-4-1　サンヒルズ田原2F",
-    "capacity": 220,
-    "name_en": "International Language and Culture Center Affiliated Japanese Language School",
-    "name_ja": "国際言語文化センター附属日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "一般1年コース",
-      "total_fees": 774000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "一般1年3か月コース",
-      "total_fees": 939000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "一般1年6か月コース",
-      "total_fees": 1104000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "一般1年9か月コース",
-      "total_fees": 1269000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1434000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "실용적인 회화 능력에 집중",
-    "비즈니스, 미술, 디자인 분야의 전문 트랙 제공",
-    "오키나와 나하의 독특한 문화 중심지에 위치",
-    "종합적인 단기 학습 옵션 제공",
-    "캠퍼스 내 기숙사 보장",
-    "향상된 집중을 위한 개인 싱글룸 제공",
-    "다양한 장학금 프로그램 이용 가능",
-    "EJU(일본 대학 입학 시험) 집중 대비",
-    "이공계 진학을 위한 특별 지원",
-    "고등 교육 및 직업 발전을 위한 강력한 지원"
-  ],
-  "id": "school_international-language-and-culture-center-okinawa",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 26.1984221,
-    "lng": 127.6692623
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=455",
-  "stats": {
-    "capacity": 220,
-    "international_students": 150
-  },
-  "tags": [
-    "High focus on practical conversation skills",
-    "Specialized tracks for Business, Art, and Design fields",
-    "Located in the unique cultural hub of Naha, Okinawa",
-    "Comprehensive short-term study options",
-    "Guaranteed on-campus dormitory accommodation",
-    "Availability of private single rooms for enhanced focus",
-    "Robust scholarship programs available",
-    "Dedicated EJU (Examination for Japanese University Admission) preparation",
-    "Specific support for Science and Engineering pathways (Rikei)",
-    "Strong emphasis on higher education and vocational progression"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "International Language and Culture Center 부속 일본어 학교",
-  "description": "오키나와 나하에 위치한 International Language and Culture Center 부속 일본어 학교에 대해 알아보세요. 실용적인 회화, 전문 트랙, 기숙사, 장학금 등 다양한 혜택을 제공합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 沖縄県那覇市田原1-4-1　サンヒルズ田原2F
+  capacity: 220
+  name_en: International Language and Culture Center Affiliated Japanese Language
+    School
+  name_ja: 国際言語文化センター附属日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 一般1年コース
+  total_fees: 774000
+- admission_month: '1'
+  course_name: 一般1年3か月コース
+  total_fees: 939000
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 1104000
+- admission_month: '7'
+  course_name: 一般1年9か月コース
+  total_fees: 1269000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1434000
+date: '2026-01-28'
+description: 오키나와 나하에 위치한 International Language and Culture Center 부속 일본어 학교에 대해
+  알아보세요. 실용적인 회화, 전문 트랙, 기숙사, 장학금 등 다양한 혜택을 제공합니다.
+faculties: []
+features:
+- 실용적인 회화 능력에 집중
+- 비즈니스, 미술, 디자인 분야의 전문 트랙 제공
+- 오키나와 나하의 독특한 문화 중심지에 위치
+- 종합적인 단기 학습 옵션 제공
+- 캠퍼스 내 기숙사 보장
+- 향상된 집중을 위한 개인 싱글룸 제공
+- 다양한 장학금 프로그램 이용 가능
+- EJU(일본 대학 입학 시험) 집중 대비
+- 이공계 진학을 위한 특별 지원
+- 고등 교육 및 직업 발전을 위한 강력한 지원
+id: school_international-language-and-culture-center-okinawa
+lang: kr
+layout: school
+location:
+  lat: 26.1984221
+  lng: 127.6692623
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=455
+stats:
+  capacity: 220
+  international_students: 150
+tags:
+- High focus on practical conversation skills
+- Specialized tracks for Business, Art, and Design fields
+- Located in the unique cultural hub of Naha, Okinawa
+- Comprehensive short-term study options
+- Guaranteed on-campus dormitory accommodation
+- Availability of private single rooms for enhanced focus
+- Robust scholarship programs available
+- Dedicated EJU (Examination for Japanese University Admission) preparation
+- Specific support for Science and Engineering pathways (Rikei)
+- Strong emphasis on higher education and vocational progression
+thumbnail: /static/img/pin-school.png
+title: International Language and Culture Center 부속 일본어 학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

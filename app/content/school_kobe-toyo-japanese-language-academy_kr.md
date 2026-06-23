@@ -1,97 +1,74 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県神戸市中央区北長狭通4-5-7",
-    "capacity": 520,
-    "name_en": "Kobe Toyo Japanese Language Academy",
-    "name_ja": "神戸東洋日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "春コースⅠ",
-      "total_fees": 720000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "春コースⅡ",
-      "total_fees": 1360000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "夏コースⅠ",
-      "total_fees": 720000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "夏コースⅡ",
-      "total_fees": 1201000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "秋コースⅠ",
-      "total_fees": 720000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "秋コースⅡ",
-      "total_fees": 1040000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "冬コースⅠ",
-      "total_fees": 720000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "冬コースⅡ",
-      "total_fees": 881000
-    }
-  ],
-  "description": "고베동양일본어학원의 2026 코스 구성, 학비, 대학진학 준비 강점을 유학생 관점에서 정리한 가이드입니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "장학금",
-    "EJU",
-    "이학",
-    "대학 준비",
-    "회화",
-    "비즈니스",
-    "미술",
-    "디자인",
-    "단기 코스"
-  ],
-  "id": "school_kobe-toyo-japanese-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6910859,
-    "lng": 135.187186
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=372",
-  "stats": {
-    "capacity": 520,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Scholarships",
-    "EJU",
-    "Science",
-    "University Preparation",
-    "Conversation",
-    "Business",
-    "Art",
-    "Design",
-    "Short-Term"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "고베동양일본어학원 가이드 2026: 코스·학비·대학진학 준비",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 兵庫県神戸市中央区北長狭通4-5-7
+  capacity: 520
+  name_en: Kobe Toyo Japanese Language Academy
+  name_ja: 神戸東洋日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 春コースⅠ
+  total_fees: 720000
+- admission_month: '4'
+  course_name: 春コースⅡ
+  total_fees: 1360000
+- admission_month: '7'
+  course_name: 夏コースⅠ
+  total_fees: 720000
+- admission_month: '7'
+  course_name: 夏コースⅡ
+  total_fees: 1201000
+- admission_month: '10'
+  course_name: 秋コースⅠ
+  total_fees: 720000
+- admission_month: '10'
+  course_name: 秋コースⅡ
+  total_fees: 1040000
+- admission_month: '1'
+  course_name: 冬コースⅠ
+  total_fees: 720000
+- admission_month: '1'
+  course_name: 冬コースⅡ
+  total_fees: 881000
+date: '2026-04-27'
+description: 고베동양일본어학원의 2026 코스 구성, 학비, 대학진학 준비 강점을 유학생 관점에서 정리한 가이드입니다.
+faculties: []
+features:
+- 기숙사
+- 장학금
+- EJU
+- 이학
+- 대학 준비
+- 회화
+- 비즈니스
+- 미술
+- 디자인
+- 단기 코스
+id: school_kobe-toyo-japanese-language-academy
+lang: kr
+layout: school
+location:
+  lat: 34.6910859
+  lng: 135.187186
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=372
+stats:
+  capacity: 520
+  international_students: 0
+tags:
+- Dormitory
+- Scholarships
+- EJU
+- Science
+- University Preparation
+- Conversation
+- Business
+- Art
+- Design
+- Short-Term
+thumbnail: /static/img/pin-school.png
+title: '고베동양일본어학원 가이드 2026: 코스·학비·대학진학 준비'
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

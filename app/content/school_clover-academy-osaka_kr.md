@@ -1,72 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市西区新町1-2-13　新町ビル4F",
-    "capacity": 232,
-    "name_en": "Clover Academy",
-    "name_ja": "クローバー学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1440000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "大学進学1年9ヶ月コース",
-      "total_fees": 1270000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "大学進学1年半コース",
-      "total_fees": 1110000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "大学進学1年3ヶ月コース",
-      "total_fees": 950000
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "一般2年コース",
-      "total_fees": 1440000
-    }
-  ],
-  "description": "오사카에 위치한 클로버 어학원은 국제 학생들에게 종합적인 일본어 교육을 제공하며, 일본 대학 입시와 미래의 커리어를 위한 전문 코스와 강력한 이공계 프로그램 지원에 집중합니다.",
-  "faculties": [],
-  "features": [
-    "EJU 준비",
-    "대학 진학",
-    "장학금",
-    "기숙사",
-    "이공계 특화"
-  ],
-  "id": "school_clover-academy-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.677933,
-    "lng": 135.4973859
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=326",
-  "stats": {
-    "capacity": 232,
-    "international_students": 0
-  },
-  "tags": [
-    "EJU Preparation",
-    "University Advancement",
-    "Scholarships",
-    "Dormitory",
-    "Science Focus"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "클로버 어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市西区新町1-2-13　新町ビル4F
+  capacity: 232
+  name_en: Clover Academy
+  name_ja: クローバー学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1440000
+- admission_month: '7'
+  course_name: 大学進学1年9ヶ月コース
+  total_fees: 1270000
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 1110000
+- admission_month: '1'
+  course_name: 大学進学1年3ヶ月コース
+  total_fees: 950000
+- admission_month: 4,10
+  course_name: 一般2年コース
+  total_fees: 1440000
+date: '2026-01-28'
+description: 오사카에 위치한 클로버 어학원은 국제 학생들에게 종합적인 일본어 교육을 제공하며, 일본 대학 입시와 미래의 커리어를 위한 전문
+  코스와 강력한 이공계 프로그램 지원에 집중합니다.
+faculties: []
+features:
+- EJU 준비
+- 대학 진학
+- 장학금
+- 기숙사
+- 이공계 특화
+id: school_clover-academy-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.677933
+  lng: 135.4973859
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=326
+stats:
+  capacity: 232
+  international_students: 0
+tags:
+- EJU Preparation
+- University Advancement
+- Scholarships
+- Dormitory
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: 클로버 어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

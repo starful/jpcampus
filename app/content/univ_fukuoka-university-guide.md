@@ -5,6 +5,7 @@ basic_info:
   name_ja: 福岡大学
   website: https://www.fukuoka-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Humanities
 - Law

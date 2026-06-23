@@ -5,6 +5,7 @@ basic_info:
   name_en: J.F. Oberlin University
   name_ja: 桜美林大学
 category: university
+date: '2026-01-28'
 faculties:
 - College of Arts and Sciences (Liberal Arts)
 - College of Business Management

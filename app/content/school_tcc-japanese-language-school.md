@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparation Course (1 Year 3 Months)
   total_fees: 811750
+date: '2026-01-28'
 description: Located in Nakano, Tokyo, TCC Japanese Language School specializes exclusively
   in university preparation courses. They offer rigorous academic instruction, comprehensive
   preparation for the Examination for Japanese University Admission for International

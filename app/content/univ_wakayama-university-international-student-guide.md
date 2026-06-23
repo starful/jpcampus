@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_wakayama-university-international-student-guide",
-  "title": "Wakayama University",
-  "category": "university",
-  "tags": [
-    "First Faculty of Tourism in a Japanese National University",
-    "UN Tourism (formerly UNWTO) TedQual Certification",
-    "Interdisciplinary Research in Systems Engineering",
-    "Proximity to Kansai International Airport and Osaka"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "和歌山大学",
-    "name_en": "Wakayama University",
-    "address": "930 Sakaedani, Wakayama City, Wakayama Prefecture 640-8510, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 198,
-    "acceptance_rate": "22-28%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Systems Engineering",
-    "Faculty of Tourism"
-  ],
-  "features": [
-    "First Faculty of Tourism in a Japanese National University",
-    "UN Tourism (formerly UNWTO) TedQual Certification",
-    "Interdisciplinary Research in Systems Engineering",
-    "Proximity to Kansai International Airport and Osaka"
-  ]
-}
+basic_info:
+  address: 930 Sakaedani, Wakayama City, Wakayama Prefecture 640-8510, Japan
+  capacity: null
+  name_en: Wakayama University
+  name_ja: 和歌山大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Systems Engineering
+- Faculty of Tourism
+features:
+- First Faculty of Tourism in a Japanese National University
+- UN Tourism (formerly UNWTO) TedQual Certification
+- Interdisciplinary Research in Systems Engineering
+- Proximity to Kansai International Airport and Osaka
+id: univ_wakayama-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22-28%
+  international_students: 198
+tags:
+- First Faculty of Tourism in a Japanese National University
+- UN Tourism (formerly UNWTO) TedQual Certification
+- Interdisciplinary Research in Systems Engineering
+- Proximity to Kansai International Airport and Osaka
+thumbnail: /static/img/pin-univ.png
+title: Wakayama University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

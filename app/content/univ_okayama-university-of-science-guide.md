@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okayama-university-of-science-guide",
-  "title": "Okayama University of Science",
-  "category": "university",
-  "tags": [
-    "World-class Dinosaur Research Institute",
-    "Top-tier research facilities in private science education",
-    "Dedicated global support for international students",
-    "High employment rate for science and engineering graduates",
-    "Beautiful hillside campus overlooking Okayama City"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡山理科大学",
-    "name_en": "Okayama University of Science",
-    "address": "1-1 Ridai-cho, Kita-ku, Okayama-shi, Okayama, 700-0005, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 450,
-    "acceptance_rate": "Estimated 45-60% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 220000,
-    "yearly_tuition": 1450000
-  },
-  "faculties": [
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Informatics",
-    "Faculty of Biosphere-Geosphere Science",
-    "Faculty of Education",
-    "Faculty of Management",
-    "Faculty of Veterinary Medicine"
-  ],
-  "features": [
-    "World-class Dinosaur Research Institute",
-    "Top-tier research facilities in private science education",
-    "Dedicated global support for international students",
-    "High employment rate for science and engineering graduates",
-    "Beautiful hillside campus overlooking Okayama City"
-  ]
-}
+basic_info:
+  address: 1-1 Ridai-cho, Kita-ku, Okayama-shi, Okayama, 700-0005, Japan
+  capacity: null
+  name_en: Okayama University of Science
+  name_ja: 岡山理科大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Informatics
+- Faculty of Biosphere-Geosphere Science
+- Faculty of Education
+- Faculty of Management
+- Faculty of Veterinary Medicine
+features:
+- World-class Dinosaur Research Institute
+- Top-tier research facilities in private science education
+- Dedicated global support for international students
+- High employment rate for science and engineering graduates
+- Beautiful hillside campus overlooking Okayama City
+id: univ_okayama-university-of-science-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-60% for International Applicants
+  international_students: 450
+tags:
+- World-class Dinosaur Research Institute
+- Top-tier research facilities in private science education
+- Dedicated global support for international students
+- High employment rate for science and engineering graduates
+- Beautiful hillside campus overlooking Okayama City
+thumbnail: /static/img/pin-univ.png
+title: Okayama University of Science
+tuition:
+  admission_fee: 220000
+  yearly_tuition: 1450000
 ---
 
 ## 🏫 University Overview

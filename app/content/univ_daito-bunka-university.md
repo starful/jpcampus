@@ -5,6 +5,7 @@ basic_info:
   name_ja: 大東文化大学
   website: https://www.daito.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Letters
 - Faculty of Economics

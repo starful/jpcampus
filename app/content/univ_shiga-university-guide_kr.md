@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shiga-university-guide",
-  "title": "시가 대학 (Shiga University)",
-  "category": "university",
-  "tags": [
-    "일본 최초의 데이터 사이언스 학부",
-    "경제학 분야의 역사적인 명성 (히코네 고등 상업학교의 유산)",
-    "비와호 근처의 아름다운 캠퍼스",
-    "주요 기업과의 강력한 산학 협력"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "滋賀大学",
-    "name_en": "Shiga University",
-    "address": "1-1-1 Banba, Hikone, Shiga 522-8522, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 285,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "경제학부",
-    "데이터 사이언스 학부",
-    "교육학부"
-  ],
-  "features": [
-    "일본 최초의 데이터 사이언스 학부",
-    "경제학 분야의 역사적인 명성 (히코네 고등 상업학교의 유산)",
-    "비와호 근처의 아름다운 캠퍼스",
-    "주요 기업과의 강력한 산학 협력"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1-1 Banba, Hikone, Shiga 522-8522, Japan
+  capacity: null
+  name_en: Shiga University
+  name_ja: 滋賀大学
+category: university
+date: '2026-02-13'
+faculties:
+- 경제학부
+- 데이터 사이언스 학부
+- 교육학부
+features:
+- 일본 최초의 데이터 사이언스 학부
+- 경제학 분야의 역사적인 명성 (히코네 고등 상업학교의 유산)
+- 비와호 근처의 아름다운 캠퍼스
+- 주요 기업과의 강력한 산학 협력
+id: univ_shiga-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 285
+tags:
+- 일본 최초의 데이터 사이언스 학부
+- 경제학 분야의 역사적인 명성 (히코네 고등 상업학교의 유산)
+- 비와호 근처의 아름다운 캠퍼스
+- 주요 기업과의 강력한 산학 협력
+thumbnail: /static/img/pin-univ.png
+title: 시가 대학 (Shiga University)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

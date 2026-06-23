@@ -1,46 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shiga-university-of-medical-science-comprehensive-guide",
-  "title": "Shiga University of Medical Science",
-  "category": "university",
-  "tags": [
-    "World-class Research Center for Animal Life Science (RCALS)",
-    "Pioneering Molecular Neuroscience Research Center",
-    "Strong focus on regional healthcare integration and community medicine",
-    "Strategic proximity to Kyoto, offering a peaceful study environment with metropolitan access"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "滋賀医科大学",
-    "name_en": "Shiga University of Medical Science",
-    "address": "Seta Tsukinowa-cho, Otsu, Shiga 520-2192, Japan",
-    "capacity": 1130
-  },
-  "stats": {
-    "international_students": 54,
-    "acceptance_rate": "5-10%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Medicine - School of Medicine",
-    "Faculty of Medicine - School of Nursing",
-    "Graduate School of Medicine (Master's and Doctoral Programs)"
-  ],
-  "features": [
-    "World-class Research Center for Animal Life Science (RCALS)",
-    "Pioneering Molecular Neuroscience Research Center",
-    "Strong focus on regional healthcare integration and community medicine",
-    "Strategic proximity to Kyoto, offering a peaceful study environment with metropolitan access"
-  ]
-}
+basic_info:
+  address: Seta Tsukinowa-cho, Otsu, Shiga 520-2192, Japan
+  capacity: 1130
+  name_en: Shiga University of Medical Science
+  name_ja: 滋賀医科大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Medicine - School of Medicine
+- Faculty of Medicine - School of Nursing
+- Graduate School of Medicine (Master's and Doctoral Programs)
+features:
+- World-class Research Center for Animal Life Science (RCALS)
+- Pioneering Molecular Neuroscience Research Center
+- Strong focus on regional healthcare integration and community medicine
+- Strategic proximity to Kyoto, offering a peaceful study environment with metropolitan
+  access
+id: univ_shiga-university-of-medical-science-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 5-10%
+  international_students: 54
+tags:
+- World-class Research Center for Animal Life Science (RCALS)
+- Pioneering Molecular Neuroscience Research Center
+- Strong focus on regional healthcare integration and community medicine
+- Strategic proximity to Kyoto, offering a peaceful study environment with metropolitan
+  access
+thumbnail: /static/img/pin-univ.png
+title: Shiga University of Medical Science
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

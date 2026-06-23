@@ -1,64 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都目黒区祐天寺1-21-18",
-    "capacity": 80,
-    "name_en": "Evergreen Language School (エヴァグリーンランゲージスクール)",
-    "name_ja": "エヴァグリーンランゲージスクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学コースA",
-      "total_fees": 1477760
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コースB",
-      "total_fees": 1138760
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学コースC",
-      "total_fees": 1315760
-    },
-    {
-      "admission_month": "10",
-      "course_name": "一般コース",
-      "total_fees": 1477760
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "특화된 대학 진학 트랙 (Shingaku 집중)",
-    "집중적인 EJU (일본 대학 입학 시험) 준비",
-    "매우 개인화된 맞춤형 지도가 제공되는 부티크 학교 환경",
-    "도쿄 메구로의 최적의 위치"
-  ],
-  "id": "school_evergreen-language-school-tokyo-meguro",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6391451,
-    "lng": 139.6924982
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=164",
-  "stats": {
-    "capacity": 80,
-    "international_students": 80
-  },
-  "tags": [
-    "Specialized Higher Education Track (Shingaku Focus)",
-    "Intensive EJU (Examination for Japanese University Admission) Preparation",
-    "Boutique School Environment with Highly Personalized Attention",
-    "Prime Location in Meguro, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "에버그린 랭귀지 스쿨 (エヴァグリーンランゲージスクール)",
-  "tuition": {},
-  "description": "에버그린 랭귀지 스쿨은 도쿄 메구로에 위치한 소규모 집중 일본어 학교입니다. 대학 진학을 목표로 하는 학생들에게 맞춤형 교육과 집중적인 EJU 시험 준비를 제공합니다."
-}
+basic_info:
+  address: 東京都目黒区祐天寺1-21-18
+  capacity: 80
+  name_en: Evergreen Language School (エヴァグリーンランゲージスクール)
+  name_ja: エヴァグリーンランゲージスクール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コースA
+  total_fees: 1477760
+- admission_month: '10'
+  course_name: 進学コースB
+  total_fees: 1138760
+- admission_month: '7'
+  course_name: 進学コースC
+  total_fees: 1315760
+- admission_month: '10'
+  course_name: 一般コース
+  total_fees: 1477760
+date: '2026-01-28'
+description: 에버그린 랭귀지 스쿨은 도쿄 메구로에 위치한 소규모 집중 일본어 학교입니다. 대학 진학을 목표로 하는 학생들에게 맞춤형 교육과
+  집중적인 EJU 시험 준비를 제공합니다.
+faculties: []
+features:
+- 특화된 대학 진학 트랙 (Shingaku 집중)
+- 집중적인 EJU (일본 대학 입학 시험) 준비
+- 매우 개인화된 맞춤형 지도가 제공되는 부티크 학교 환경
+- 도쿄 메구로의 최적의 위치
+id: school_evergreen-language-school-tokyo-meguro
+lang: kr
+layout: school
+location:
+  lat: 35.6391451
+  lng: 139.6924982
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=164
+stats:
+  capacity: 80
+  international_students: 80
+tags:
+- Specialized Higher Education Track (Shingaku Focus)
+- Intensive EJU (Examination for Japanese University Admission) Preparation
+- Boutique School Environment with Highly Personalized Attention
+- Prime Location in Meguro, Tokyo
+thumbnail: /static/img/pin-school.png
+title: 에버그린 랭귀지 스쿨 (エヴァグリーンランゲージスクール)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

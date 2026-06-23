@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 1.5-Year University Prep Course
   total_fees: 1115000
+date: '2026-01-28'
 description: The Japanese Language Department at the International College of Art
   and Design (国際アート＆デザイン大学校日本語科) is uniquely positioned, differing significantly from
   typical Japanese language schools in urban areas. Located in Koriyama City, Fukushima

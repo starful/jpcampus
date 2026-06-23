@@ -1,57 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "茨城県取手市井野台1-22-14",
-    "capacity": 100,
-    "name_en": "Tokai Gakuin College of Culture and Liberal Arts",
-    "name_ja": "東海学院文化教養専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "10월 입학 코스",
-      "total_fees": 990000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "4월 입학 코스",
-      "total_fees": 1280000
-    }
-  ],
-  "description": "東海学院文化教養専門学校는 국제 학생들이 일본에서 고등 교육을 받을 수 있도록 지원적인 환경, EJU 준비, 회화 기술 및 종합적인 지도를 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "EJU 준비",
-    "고등 교육 지원",
-    "회화 중심 수업",
-    "단기 유학 옵션"
-  ],
-  "id": "school_tokai-gakuin-college-of-culture-and-liberal-arts",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.9016862,
-    "lng": 140.0696198
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=540",
-  "stats": {
-    "capacity": 100,
-    "international_students": 100
-  },
-  "tags": [
-    "Dormitory Available",
-    "EJU Preparation",
-    "Higher Education Support",
-    "Conversation-focused Classes",
-    "Short-term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "東海学院文化教養専門学校",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 茨城県取手市井野台1-22-14
+  capacity: 100
+  name_en: Tokai Gakuin College of Culture and Liberal Arts
+  name_ja: 東海学院文化教養専門学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 10월 입학 코스
+  total_fees: 990000
+- admission_month: '4'
+  course_name: 4월 입학 코스
+  total_fees: 1280000
+date: '2026-01-28'
+description: 東海学院文化教養専門学校는 국제 학생들이 일본에서 고등 교육을 받을 수 있도록 지원적인 환경, EJU 준비, 회화 기술 및 종합적인
+  지도를 제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- EJU 준비
+- 고등 교육 지원
+- 회화 중심 수업
+- 단기 유학 옵션
+id: school_tokai-gakuin-college-of-culture-and-liberal-arts
+lang: kr
+layout: school
+location:
+  lat: 35.9016862
+  lng: 140.0696198
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=540
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- Dormitory Available
+- EJU Preparation
+- Higher Education Support
+- Conversation-focused Classes
+- Short-term Study Options
+thumbnail: /static/img/pin-school.png
+title: 東海学院文化教養専門学校
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

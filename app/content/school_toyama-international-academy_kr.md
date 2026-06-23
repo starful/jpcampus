@@ -1,59 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "富山県富山市芝園町2-5-13 織田ビル",
-    "capacity": 60,
-    "name_en": "Toyama International Academy (富山国際学院)",
-    "name_ja": "富山国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 994800
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1296000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 및 전문학교 진학 집중 대비",
-    "EJU(일본유학시험) 전문 트레이닝",
-    "특화 트랙 운영: 이공계(Science/STEM), 인문계, 미술/디자인",
-    "소규모 정원 (60명)으로 개인별 맞춤 교육",
-    "전용 기숙사 운영 (1인실 옵션)",
-    "종합적인 장학금 시스템 지원",
-    "단기 유학 프로그램 기회 제공",
-    "일본 문화 및 시사 (日本文化・日本事情) 통합 교육"
-  ],
-  "id": "school_toyama-international-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.6967121,
-    "lng": 137.2071978
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=260",
-  "stats": {},
-  "tags": [
-    "High-Level University and Vocational School Preparation (進学 Focus)",
-    "Specialized EJU (Examination for Japanese University Admission) Training",
-    "Focus on Specialized Tracks: Science/STEM, Humanities, and Art/Design",
-    "Small Capacity (60 students) ensuring Personalized Instruction",
-    "Dedicated Dormitory Management with Single Room Options (1인실)",
-    "Comprehensive Scholarship System Support",
-    "Opportunity for Short-Term (단기) Study Programs",
-    "Integration of Japanese Culture and Current Affairs (日本文化・日本事情)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Toyama International Academy (富山国際学院)",
-  "description": "도야마 국제학원은 소규모 정예 교육을 통해 대학 및 전문학교 진학을 위한 맞춤형 커리큘럼을 제공합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 富山県富山市芝園町2-5-13 織田ビル
+  capacity: 60
+  name_en: Toyama International Academy (富山国際学院)
+  name_ja: 富山国際学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 994800
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1296000
+date: '2026-01-28'
+description: 도야마 국제학원은 소규모 정예 교육을 통해 대학 및 전문학교 진학을 위한 맞춤형 커리큘럼을 제공합니다.
+faculties: []
+features:
+- 대학 및 전문학교 진학 집중 대비
+- EJU(일본유학시험) 전문 트레이닝
+- '특화 트랙 운영: 이공계(Science/STEM), 인문계, 미술/디자인'
+- 소규모 정원 (60명)으로 개인별 맞춤 교육
+- 전용 기숙사 운영 (1인실 옵션)
+- 종합적인 장학금 시스템 지원
+- 단기 유학 프로그램 기회 제공
+- 일본 문화 및 시사 (日本文化・日本事情) 통합 교육
+id: school_toyama-international-academy
+lang: kr
+layout: school
+location:
+  lat: 36.6967121
+  lng: 137.2071978
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=260
+stats: {}
+tags:
+- High-Level University and Vocational School Preparation (進学 Focus)
+- Specialized EJU (Examination for Japanese University Admission) Training
+- 'Focus on Specialized Tracks: Science/STEM, Humanities, and Art/Design'
+- Small Capacity (60 students) ensuring Personalized Instruction
+- Dedicated Dormitory Management with Single Room Options (1인실)
+- Comprehensive Scholarship System Support
+- Opportunity for Short-Term (단기) Study Programs
+- Integration of Japanese Culture and Current Affairs (日本文化・日本事情)
+thumbnail: /static/img/pin-school.png
+title: Toyama International Academy (富山国際学院)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

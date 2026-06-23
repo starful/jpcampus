@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chubu-university-international-student-guide",
-  "title": "주부 대학교 (Chubu University)",
-  "description": "일본 최대의 산업 중심지인 아이치현에 위치한 주부 대학교는 8개 학부를 보유한 대규모 종합대학으로, 실무 중심의 교육과 강력한 취업 네트워크, 최첨단 연구 환경을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "Industrial Powerhouse Connection",
-    "Comprehensive Research Facilities",
-    "International Exchange Programs",
-    "Multidisciplinary Campus Culture"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "中部大学",
-    "name_en": "Chubu University",
-    "address": "1200 Matsumoto-cho, Kasugai-shi, Aichi 487-8501, Japan",
-    "capacity": 11000
-  },
-  "stats": {
-    "international_students": 280,
-    "acceptance_rate": "40-50%"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "공학부",
-    "경영정보학부",
-    "국제관계학부",
-    "인문학부",
-    "응용생물학부",
-    "생명건강과학부",
-    "현대교육학부",
-    "이공학부"
-  ],
-  "features": [
-    "산업 중심지와의 강력한 네트워크",
-    "최첨단 종합 연구 시설",
-    "활발한 국제 교류 프로그램",
-    "융합 학문 중심의 캠퍼스 문화"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1200 Matsumoto-cho, Kasugai-shi, Aichi 487-8501, Japan
+  capacity: 11000
+  name_en: Chubu University
+  name_ja: 中部大学
+category: university
+date: '2026-03-15'
+description: 일본 최대의 산업 중심지인 아이치현에 위치한 주부 대학교는 8개 학부를 보유한 대규모 종합대학으로, 실무 중심의 교육과 강력한
+  취업 네트워크, 최첨단 연구 환경을 제공합니다.
+faculties:
+- 공학부
+- 경영정보학부
+- 국제관계학부
+- 인문학부
+- 응용생물학부
+- 생명건강과학부
+- 현대교육학부
+- 이공학부
+features:
+- 산업 중심지와의 강력한 네트워크
+- 최첨단 종합 연구 시설
+- 활발한 국제 교류 프로그램
+- 융합 학문 중심의 캠퍼스 문화
+id: univ_chubu-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-50%
+  international_students: 280
+tags:
+- Industrial Powerhouse Connection
+- Comprehensive Research Facilities
+- International Exchange Programs
+- Multidisciplinary Campus Culture
+thumbnail: /static/img/pin-univ.png
+title: 주부 대학교 (Chubu University)
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 대학 개요

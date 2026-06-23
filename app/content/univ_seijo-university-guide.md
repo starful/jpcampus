@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seijo-university-guide",
-  "title": "Seijo University",
-  "category": "university",
-  "tags": [
-    "Small-class education (Zemi-style learning)",
-    "Prestigious location in Setagaya, Tokyo",
-    "Rich heritage in Folklore and Cultural Studies",
-    "Strong connections to media and creative industries"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "成城大学",
-    "name_en": "Seijo University",
-    "address": "6-1-20 Seijo, Setagaya-ku, Tokyo 157-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Arts and Literature",
-    "Faculty of Law",
-    "Faculty of Social Innovation"
-  ],
-  "features": [
-    "Small-class education (Zemi-style learning)",
-    "Prestigious location in Setagaya, Tokyo",
-    "Rich heritage in Folklore and Cultural Studies",
-    "Strong connections to media and creative industries"
-  ]
-}
+basic_info:
+  address: 6-1-20 Seijo, Setagaya-ku, Tokyo 157-8511, Japan
+  capacity: null
+  name_en: Seijo University
+  name_ja: 成城大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Economics
+- Faculty of Arts and Literature
+- Faculty of Law
+- Faculty of Social Innovation
+features:
+- Small-class education (Zemi-style learning)
+- Prestigious location in Setagaya, Tokyo
+- Rich heritage in Folklore and Cultural Studies
+- Strong connections to media and creative industries
+id: univ_seijo-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 145
+tags:
+- Small-class education (Zemi-style learning)
+- Prestigious location in Setagaya, Tokyo
+- Rich heritage in Folklore and Cultural Studies
+- Strong connections to media and creative industries
+thumbnail: /static/img/pin-univ.png
+title: Seijo University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Elegance of Seijo University

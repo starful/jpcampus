@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Prep 1 Year 3 Month Course
   total_fees: 878000
+date: '2026-01-28'
 description: Hitachi Gakuin provides comprehensive university preparation in Mito
   City, Ibaraki, offering specialized tracks, on-campus dorms, and personalized attention
   in a focused and cost-effective environment.

@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 1年3か月進学コース
   total_fees: 794150
+date: '2026-01-28'
 description: North River Japanese Language School, located in Nagoya, offers comprehensive
   Japanese language education with a focus on university preparation. Features include
   dormitory availability, scholarship opportunities, and specialized courses like

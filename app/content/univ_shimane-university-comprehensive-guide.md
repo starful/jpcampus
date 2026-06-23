@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shimane-university-comprehensive-guide",
-  "title": "Shimane University",
-  "category": "university",
-  "tags": [
-    "Next-Generation TATARA Project for Metallurgy",
-    "Strong regional ties in San-in Region",
-    "Comprehensive Support for International Students",
-    "Breathtaking landscapes of Matsue and Izumo",
-    "High Research Output in Environmental Conservation"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "島根大学",
-    "name_en": "Shimane University",
-    "address": "1060 Nishikawatsu-cho, Matsue, Shimane 690-8504, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Law and Literature",
-    "Faculty of Education",
-    "Faculty of Medicine",
-    "Interdisciplinary Faculty of Science and Engineering",
-    "Faculty of Life and Environmental Sciences",
-    "Faculty of Human Sciences"
-  ],
-  "features": [
-    "Next-Generation TATARA Project for Metallurgy",
-    "Strong regional ties in San-in Region",
-    "Comprehensive Support for International Students",
-    "Breathtaking landscapes of Matsue and Izumo",
-    "High Research Output in Environmental Conservation"
-  ]
-}
+basic_info:
+  address: 1060 Nishikawatsu-cho, Matsue, Shimane 690-8504, Japan
+  capacity: null
+  name_en: Shimane University
+  name_ja: 島根大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Law and Literature
+- Faculty of Education
+- Faculty of Medicine
+- Interdisciplinary Faculty of Science and Engineering
+- Faculty of Life and Environmental Sciences
+- Faculty of Human Sciences
+features:
+- Next-Generation TATARA Project for Metallurgy
+- Strong regional ties in San-in Region
+- Comprehensive Support for International Students
+- Breathtaking landscapes of Matsue and Izumo
+- High Research Output in Environmental Conservation
+id: univ_shimane-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 245
+tags:
+- Next-Generation TATARA Project for Metallurgy
+- Strong regional ties in San-in Region
+- Comprehensive Support for International Students
+- Breathtaking landscapes of Matsue and Izumo
+- High Research Output in Environmental Conservation
+thumbnail: /static/img/pin-univ.png
+title: Shimane University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

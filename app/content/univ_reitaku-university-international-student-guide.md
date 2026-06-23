@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_reitaku-university-international-student-guide",
-  "title": "Reitaku University",
-  "category": "university",
-  "tags": [
-    "Small-group seminar education (Zemi system)",
-    "Strong focus on moral science and ethics (Moralogy)",
-    "High international student ratio with a diverse global campus",
-    "Integrated Global Dormitory for cross-cultural living"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "麗澤大学",
-    "name_en": "Reitaku University",
-    "address": "2-1-1 Hikarigaoka, Kashiwa-shi, Chiba, 277-8686, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 450,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 230000,
-    "yearly_tuition": 870000
-  },
-  "faculties": [
-    "Faculty of Foreign Studies",
-    "Faculty of Economics and Business Administration",
-    "Faculty of International Studies",
-    "Faculty of Psychology"
-  ],
-  "features": [
-    "Small-group seminar education (Zemi system)",
-    "Strong focus on moral science and ethics (Moralogy)",
-    "High international student ratio with a diverse global campus",
-    "Integrated Global Dormitory for cross-cultural living"
-  ]
-}
+basic_info:
+  address: 2-1-1 Hikarigaoka, Kashiwa-shi, Chiba, 277-8686, Japan
+  capacity: null
+  name_en: Reitaku University
+  name_ja: 麗澤大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Foreign Studies
+- Faculty of Economics and Business Administration
+- Faculty of International Studies
+- Faculty of Psychology
+features:
+- Small-group seminar education (Zemi system)
+- Strong focus on moral science and ethics (Moralogy)
+- High international student ratio with a diverse global campus
+- Integrated Global Dormitory for cross-cultural living
+id: univ_reitaku-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 450
+tags:
+- Small-group seminar education (Zemi system)
+- Strong focus on moral science and ethics (Moralogy)
+- High international student ratio with a diverse global campus
+- Integrated Global Dormitory for cross-cultural living
+thumbnail: /static/img/pin-univ.png
+title: Reitaku University
+tuition:
+  admission_fee: 230000
+  yearly_tuition: 870000
 ---
 
 ## 🏫 University Overview

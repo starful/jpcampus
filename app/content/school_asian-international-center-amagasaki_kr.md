@@ -1,80 +1,64 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県尼崎市久々知1-9-8",
-    "capacity": 232,
-    "name_en": "Asian International Center",
-    "name_ja": "アジアンインターナショナルセンター"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "진학 1년 3개월 코스",
-      "total_fees": 952000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "진학 1년 반 코스",
-      "total_fees": 1102000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "진학 1년 9개월 코스",
-      "total_fees": 1269000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "진학 2년 코스",
-      "total_fees": 1419000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "특별 진학 코스",
-      "total_fees": 1419000
-    }
-  ],
-  "description": "효고현 아마가사키에 위치한 AIC는 기숙사, 장학금 프로그램 및 EJU 대비를 통해 일본 대학 진학을 위한 전문적인 아카데믹 과정을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "장학금 프로그램",
-    "EJU 대비 전문가",
-    "고등 교육 과정 집중",
-    "회화 능력 훈련",
-    "비즈니스 일본어 훈련",
-    "단기 학습 옵션",
-    "특화된 이과 트랙 (Rikei)",
-    "특화된 미술/디자인 트랙"
-  ],
-  "id": "school_asian-international-center-amagasaki",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7458612,
-    "lng": 135.4333301
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=546",
-  "stats": {
-    "capacity": 232,
-    "international_students": null
-  },
-  "tags": [
-    "Dormitory Availability",
-    "Scholarship Programs",
-    "EJU Preparation Specialist",
-    "Advanced Education Pathway Focus",
-    "Conversational Skills Training",
-    "Business Japanese Training",
-    "Short-term Study Options",
-    "Specialized Science Track (Rikei)",
-    "Specialized Art/Design Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아시안 인터내셔널 센터",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 兵庫県尼崎市久々知1-9-8
+  capacity: 232
+  name_en: Asian International Center
+  name_ja: アジアンインターナショナルセンター
+category: school
+courses:
+- admission_month: '1'
+  course_name: 진학 1년 3개월 코스
+  total_fees: 952000
+- admission_month: '10'
+  course_name: 진학 1년 반 코스
+  total_fees: 1102000
+- admission_month: '7'
+  course_name: 진학 1년 9개월 코스
+  total_fees: 1269000
+- admission_month: '4'
+  course_name: 진학 2년 코스
+  total_fees: 1419000
+- admission_month: '4'
+  course_name: 특별 진학 코스
+  total_fees: 1419000
+date: '2026-01-28'
+description: 효고현 아마가사키에 위치한 AIC는 기숙사, 장학금 프로그램 및 EJU 대비를 통해 일본 대학 진학을 위한 전문적인 아카데믹
+  과정을 제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- 장학금 프로그램
+- EJU 대비 전문가
+- 고등 교육 과정 집중
+- 회화 능력 훈련
+- 비즈니스 일본어 훈련
+- 단기 학습 옵션
+- 특화된 이과 트랙 (Rikei)
+- 특화된 미술/디자인 트랙
+id: school_asian-international-center-amagasaki
+lang: kr
+layout: school
+location:
+  lat: 34.7458612
+  lng: 135.4333301
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=546
+stats:
+  capacity: 232
+  international_students: null
+tags:
+- Dormitory Availability
+- Scholarship Programs
+- EJU Preparation Specialist
+- Advanced Education Pathway Focus
+- Conversational Skills Training
+- Business Japanese Training
+- Short-term Study Options
+- Specialized Science Track (Rikei)
+- Specialized Art/Design Track
+thumbnail: /static/img/pin-school.png
+title: 아시안 인터내셔널 센터
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

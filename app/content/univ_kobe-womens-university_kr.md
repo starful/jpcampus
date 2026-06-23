@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-womens-university",
-  "title": "고베여자대학교",
-  "category": "university",
-  "tags": [
-    "전통 학문 및 가정과학 특화",
-    "간호·영양 분야 국가 자격증 취득 강점",
-    "세토 내해가 내려다보이는 역사적인 언덕 위 캠퍼스",
-    "교수와 학생 간의 유대감을 중시하는 소수 정예 교육"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸女子大学",
-    "name_en": "Kobe Women's University",
-    "address": "2-1, Higashisuma Aoyama, Suma-ku, Kobe-shi, Hyogo, 654-8585, Japan",
-    "capacity": 3800
-  },
-  "stats": {
-    "international_students": 32,
-    "acceptance_rate": "50-60% (학부별 상이)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1320000
-  },
-  "faculties": [
-    "문학부",
-    "가정학부",
-    "건강복지학부",
-    "간호학부"
-  ],
-  "features": [
-    "전통 학문 및 가정과학에 특화된 전문 교육",
-    "간호 및 영양 분야 국가 자격증 취득의 높은 실적",
-    "세토 내해의 파노라마 뷰를 자랑하는 역사적인 언덕 위 캠퍼스",
-    "교수와 학생 간의 긴밀한 유대감을 형성하는 소수 정예 교육"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1, Higashisuma Aoyama, Suma-ku, Kobe-shi, Hyogo, 654-8585, Japan
+  capacity: 3800
+  name_en: Kobe Women's University
+  name_ja: 神戸女子大学
+category: university
+date: '2026-03-15'
+faculties:
+- 문학부
+- 가정학부
+- 건강복지학부
+- 간호학부
+features:
+- 전통 학문 및 가정과학에 특화된 전문 교육
+- 간호 및 영양 분야 국가 자격증 취득의 높은 실적
+- 세토 내해의 파노라마 뷰를 자랑하는 역사적인 언덕 위 캠퍼스
+- 교수와 학생 간의 긴밀한 유대감을 형성하는 소수 정예 교육
+id: univ_kobe-womens-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 50-60% (학부별 상이)
+  international_students: 32
+tags:
+- 전통 학문 및 가정과학 특화
+- 간호·영양 분야 국가 자격증 취득 강점
+- 세토 내해가 내려다보이는 역사적인 언덕 위 캠퍼스
+- 교수와 학생 간의 유대감을 중시하는 소수 정예 교육
+thumbnail: /static/img/pin-univ.png
+title: 고베여자대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1320000
 ---
 
 ## 🏫 대학 개요

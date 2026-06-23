@@ -5,6 +5,7 @@ basic_info:
   name_ja: 東京大学
   website: https://www.u-tokyo.ac.jp/
 category: school
+date: '2026-01-28'
 description: An overview of The University of Tokyo, its philosophy, courses, campus
   life, and career pathways.
 faculties:

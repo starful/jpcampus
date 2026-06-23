@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shikoku-gakuin-university-guide",
-  "title": "Shikoku Gakuin University",
-  "category": "university",
-  "tags": [
-    "Unique Major-Minor System",
-    "Strong Christian Ethics and Social Welfare Focus",
-    "Pioneering Performing Arts (Theater) Program",
-    "Historic Campus in Zentsuji City"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "四国学院大学",
-    "name_en": "Shikoku Gakuin University",
-    "address": "3-2-1 Bunkyo-cho, Zentsuji-shi, Kagawa 765-8505, Japan",
-    "capacity": 2200
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Department of Social Welfare",
-    "Department of Education",
-    "Department of Psychology",
-    "Department of International Liberal Arts",
-    "Department of Performing Arts"
-  ],
-  "features": [
-    "Unique Major-Minor System",
-    "Strong Christian Ethics and Social Welfare Focus",
-    "Pioneering Performing Arts (Theater) Program",
-    "Historic Campus in Zentsuji City"
-  ]
-}
+basic_info:
+  address: 3-2-1 Bunkyo-cho, Zentsuji-shi, Kagawa 765-8505, Japan
+  capacity: 2200
+  name_en: Shikoku Gakuin University
+  name_ja: 四国学院大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Liberal Arts
+- Department of Social Welfare
+- Department of Education
+- Department of Psychology
+- Department of International Liberal Arts
+- Department of Performing Arts
+features:
+- Unique Major-Minor System
+- Strong Christian Ethics and Social Welfare Focus
+- Pioneering Performing Arts (Theater) Program
+- Historic Campus in Zentsuji City
+id: univ_shikoku-gakuin-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 45
+tags:
+- Unique Major-Minor System
+- Strong Christian Ethics and Social Welfare Focus
+- Pioneering Performing Arts (Theater) Program
+- Historic Campus in Zentsuji City
+thumbnail: /static/img/pin-univ.png
+title: Shikoku Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview

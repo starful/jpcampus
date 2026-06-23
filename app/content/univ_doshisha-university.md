@@ -5,6 +5,7 @@ basic_info:
   name_ja: 同志社大学
   website: https://www.doshisha.ac.jp/en/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Theology
 - Faculty of Letters

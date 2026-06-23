@@ -1,67 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県川越市脇田本町11-10",
-    "capacity": 340,
-    "name_en": "Yamate Japanese Language School",
-    "name_ja": "山手日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学コース（2年）",
-      "total_fees": 1380000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コース（1.5年）",
-      "total_fees": 1055000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학교 진학 준비",
-    "EJU 시험 준비",
-    "기숙사",
-    "회화 중심",
-    "비즈니스 일본어",
-    "미술 & 디자인",
-    "단기 코스",
-    "개인실",
-    "장학금",
-    "과학 중심"
-  ],
-  "id": "school_yamate-nihongo-gakko",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.9059146,
-    "lng": 139.480069
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=54",
-  "stats": {
-    "capacity": 340,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory",
-    "Conversation Focused",
-    "Business Japanese",
-    "Art & Design",
-    "Short-Term Courses",
-    "Private Rooms",
-    "Scholarships",
-    "Science Focus"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "야마테 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "사이타마현 카와고에시에 위치한 야마테 일본어 학교는 국제 학생들에게 양질의 일본어 교육을 제공합니다. 대학 진학 및 일본에서의 미래 커리어를 위한 학생들을 위한 종합적인 커리큘럼과 지원 서비스를 제공합니다."
-}
+basic_info:
+  address: 埼玉県川越市脇田本町11-10
+  capacity: 340
+  name_en: Yamate Japanese Language School
+  name_ja: 山手日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コース（2年）
+  total_fees: 1380000
+- admission_month: '10'
+  course_name: 進学コース（1.5年）
+  total_fees: 1055000
+date: '2026-01-28'
+description: 사이타마현 카와고에시에 위치한 야마테 일본어 학교는 국제 학생들에게 양질의 일본어 교육을 제공합니다. 대학 진학 및 일본에서의
+  미래 커리어를 위한 학생들을 위한 종합적인 커리큘럼과 지원 서비스를 제공합니다.
+faculties: []
+features:
+- 대학교 진학 준비
+- EJU 시험 준비
+- 기숙사
+- 회화 중심
+- 비즈니스 일본어
+- 미술 & 디자인
+- 단기 코스
+- 개인실
+- 장학금
+- 과학 중심
+id: school_yamate-nihongo-gakko
+lang: kr
+layout: school
+location:
+  lat: 35.9059146
+  lng: 139.480069
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=54
+stats:
+  capacity: 340
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory
+- Conversation Focused
+- Business Japanese
+- Art & Design
+- Short-Term Courses
+- Private Rooms
+- Scholarships
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: 야마테 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

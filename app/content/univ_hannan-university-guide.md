@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hannan-university-guide",
-  "title": "Hannan University",
-  "category": "university",
-  "tags": [
-    "Practical Business-Oriented Education (Jitsugaku)",
-    "Pioneer in Distribution and Logistics Studies",
-    "Extensive Kansai-based Career Placement Network",
-    "Renowned Athletic Programs and Soccer Club"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "阪南大学",
-    "name_en": "Hannan University",
-    "address": "5-4-33 Amami-higashi, Matsubara-shi, Osaka 580-8502, Japan",
-    "capacity": 5500
-  },
-  "stats": {
-    "international_students": 195,
-    "acceptance_rate": "55-65% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 940000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Distribution and Logistics",
-    "Faculty of International Communication",
-    "Faculty of International Tourism"
-  ],
-  "features": [
-    "Practical Business-Oriented Education (Jitsugaku)",
-    "Pioneer in Distribution and Logistics Studies",
-    "Extensive Kansai-based Career Placement Network",
-    "Renowned Athletic Programs and Soccer Club"
-  ]
-}
+basic_info:
+  address: 5-4-33 Amami-higashi, Matsubara-shi, Osaka 580-8502, Japan
+  capacity: 5500
+  name_en: Hannan University
+  name_ja: 阪南大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Distribution and Logistics
+- Faculty of International Communication
+- Faculty of International Tourism
+features:
+- Practical Business-Oriented Education (Jitsugaku)
+- Pioneer in Distribution and Logistics Studies
+- Extensive Kansai-based Career Placement Network
+- Renowned Athletic Programs and Soccer Club
+id: univ_hannan-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65% (Estimated for International Applicants)
+  international_students: 195
+tags:
+- Practical Business-Oriented Education (Jitsugaku)
+- Pioneer in Distribution and Logistics Studies
+- Extensive Kansai-based Career Placement Network
+- Renowned Athletic Programs and Soccer Club
+thumbnail: /static/img/pin-univ.png
+title: Hannan University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 940000
 ---
 
 ## 🏫 University Overview

@@ -1,59 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "1-501 Shiogamaguchi, Tempaku Ward, Nagoya, Aichi 468-8502, Japan (Tempaku Campus)",
-    "capacity": "Approx. 22,000 students",
-    "name_en": "Meijo University",
-    "name_ja": "名城大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Business Administration",
-    "Faculty of Economics",
-    "Faculty of Science and Technology",
-    "Faculty of Pharmacy",
-    "Faculty of Agricultural Sciences",
-    "Faculty of Humanities",
-    "Faculty of Urban Science",
-    "Faculty of Foreign Studies",
-    "Faculty of Education"
-  ],
-  "features": [
-    "주부(츄부) 지역(나고야)의 명문 사립 대학교",
-    "과학, 기술, 약학 분야에서 전국적으로 인정받는 프로그램",
-    "노벨 물리학상 수상 (관련 연구진)",
-    "특히 자동차 및 제조 분야에서 광범위한 산업 연계",
-    "EJU 필수",
-    "제한적인 영어 프로그램 (주로 일본어 강의 학위 과정)"
-  ],
-  "id": "univ_meijo-university-nagoya-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "45%",
-    "international_students": 550
-  },
-  "tags": [
-    "Prominent private university in the Chubu region (Nagoya)",
-    "Nationally renowned programs in Science, Technology, and Pharmacy",
-    "Recipient institution of Nobel Prizes in Physics (via affiliated researchers)",
-    "Extensive industry connections, particularly in automotive and manufacturing sectors",
-    "EJU Required",
-    "Limited English Program (Mainly Japanese-taught degrees)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "메이조 대학교",
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1250000
-  },
-  "description": "나고야에 위치한 메이조 대학교는 과학, 기술, 약학 분야에서 강세를 보이는 명문 사립 대학입니다. EJU 시험이 필요하며, 국제 학생 지원 시스템을 제공합니다."
-}
+basic_info:
+  address: 1-501 Shiogamaguchi, Tempaku Ward, Nagoya, Aichi 468-8502, Japan (Tempaku
+    Campus)
+  capacity: Approx. 22,000 students
+  name_en: Meijo University
+  name_ja: 名城大学
+category: university
+date: '2026-01-28'
+description: 나고야에 위치한 메이조 대학교는 과학, 기술, 약학 분야에서 강세를 보이는 명문 사립 대학입니다. EJU 시험이 필요하며,
+  국제 학생 지원 시스템을 제공합니다.
+faculties:
+- Faculty of Law
+- Faculty of Business Administration
+- Faculty of Economics
+- Faculty of Science and Technology
+- Faculty of Pharmacy
+- Faculty of Agricultural Sciences
+- Faculty of Humanities
+- Faculty of Urban Science
+- Faculty of Foreign Studies
+- Faculty of Education
+features:
+- 주부(츄부) 지역(나고야)의 명문 사립 대학교
+- 과학, 기술, 약학 분야에서 전국적으로 인정받는 프로그램
+- 노벨 물리학상 수상 (관련 연구진)
+- 특히 자동차 및 제조 분야에서 광범위한 산업 연계
+- EJU 필수
+- 제한적인 영어 프로그램 (주로 일본어 강의 학위 과정)
+id: univ_meijo-university-nagoya-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45%
+  international_students: 550
+tags:
+- Prominent private university in the Chubu region (Nagoya)
+- Nationally renowned programs in Science, Technology, and Pharmacy
+- Recipient institution of Nobel Prizes in Physics (via affiliated researchers)
+- Extensive industry connections, particularly in automotive and manufacturing sectors
+- EJU Required
+- Limited English Program (Mainly Japanese-taught degrees)
+thumbnail: /static/img/pin-univ.png
+title: 메이조 대학교
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1250000
 ---
 
 ## 🏫 대학교 개요

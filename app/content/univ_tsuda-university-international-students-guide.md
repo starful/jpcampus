@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tsuda-university-international-students-guide",
-  "title": "Tsuda University",
-  "category": "university",
-  "tags": [
-    "Pioneer of Women's Higher Education",
-    "Small-group Intensive English Programs",
-    "EJU and JLPT N1 Recommended",
-    "High Employment Rate for Women",
-    "Global Leadership Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "津田塾大学",
-    "name_en": "Tsuda University",
-    "address": "2-1-1 Tsuda-machi, Kodaira-shi, Tokyo 187-8577, Japan",
-    "capacity": 3150
-  },
-  "stats": {
-    "international_students": 75,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Faculty of Policy Studies",
-    "Graduate School of Literary Studies",
-    "Graduate School of International and Cultural Studies",
-    "Graduate School of Science"
-  ],
-  "features": [
-    "Pioneer of Women's Higher Education",
-    "Small-group Intensive English Programs",
-    "EJU and JLPT N1 Recommended",
-    "High Employment Rate for Women",
-    "Global Leadership Focus"
-  ]
-}
+basic_info:
+  address: 2-1-1 Tsuda-machi, Kodaira-shi, Tokyo 187-8577, Japan
+  capacity: 3150
+  name_en: Tsuda University
+  name_ja: 津田塾大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Liberal Arts
+- Faculty of Policy Studies
+- Graduate School of Literary Studies
+- Graduate School of International and Cultural Studies
+- Graduate School of Science
+features:
+- Pioneer of Women's Higher Education
+- Small-group Intensive English Programs
+- EJU and JLPT N1 Recommended
+- High Employment Rate for Women
+- Global Leadership Focus
+id: univ_tsuda-university-international-students-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 75
+tags:
+- Pioneer of Women's Higher Education
+- Small-group Intensive English Programs
+- EJU and JLPT N1 Recommended
+- High Employment Rate for Women
+- Global Leadership Focus
+thumbnail: /static/img/pin-univ.png
+title: Tsuda University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 University Overview

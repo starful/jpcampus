@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ehime-prefectural-university-of-health-sciences-guide",
-  "title": "Ehime Prefectural University of Health Sciences",
-  "category": "university",
-  "tags": [
-    "High National Licensing Pass Rates",
-    "Small-Group Specialized Training",
-    "Strong Local Hospital Partnerships",
-    "Affordable Prefectural Tuition Rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛媛県立医療技術大学",
-    "name_en": "Ehime Prefectural University of Health Sciences",
-    "address": "543 Tobe-cho, Iyo-gun, Ehime 791-2101, Japan",
-    "capacity": "600 students (undergraduate and graduate total)"
-  },
-  "stats": {
-    "international_students": 2,
-    "acceptance_rate": "22%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Department of Nursing",
-    "Department of Medical Technology",
-    "Graduate School of Health Sciences"
-  ],
-  "features": [
-    "High National Licensing Pass Rates",
-    "Small-Group Specialized Training",
-    "Strong Local Hospital Partnerships",
-    "Affordable Prefectural Tuition Rates"
-  ]
-}
+basic_info:
+  address: 543 Tobe-cho, Iyo-gun, Ehime 791-2101, Japan
+  capacity: 600 students (undergraduate and graduate total)
+  name_en: Ehime Prefectural University of Health Sciences
+  name_ja: 愛媛県立医療技術大学
+category: university
+date: '2026-03-03'
+faculties:
+- Department of Nursing
+- Department of Medical Technology
+- Graduate School of Health Sciences
+features:
+- High National Licensing Pass Rates
+- Small-Group Specialized Training
+- Strong Local Hospital Partnerships
+- Affordable Prefectural Tuition Rates
+id: univ_ehime-prefectural-university-of-health-sciences-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22%
+  international_students: 2
+tags:
+- High National Licensing Pass Rates
+- Small-Group Specialized Training
+- Strong Local Hospital Partnerships
+- Affordable Prefectural Tuition Rates
+thumbnail: /static/img/pin-univ.png
+title: Ehime Prefectural University of Health Sciences
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Gateway to Healthcare in Shikoku

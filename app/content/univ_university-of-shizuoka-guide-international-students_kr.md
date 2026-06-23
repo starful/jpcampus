@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-shizuoka-guide-international-students",
-  "title": "시즈오카현립대학교 (University of Shizuoka)",
-  "category": "university",
-  "tags": [
-    "일본 약학 분야 최상위권 공립 대학으로 평가받고 있습니다.",
-    "시즈오카 지역 산업의 특징을 살려 녹차와 기능성 식품에 대한 독창적인 연구를 진행합니다.",
-    "후지산 인근의 아름다운 경관에서 영감을 받은 아름다운 캠퍼스 건축을 자랑합니다.",
-    "저렴한 학비와 시즈오카현 거주민을 위한 상당한 할인 혜택을 제공합니다."
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "静岡県立大学",
-    "name_en": "University of Shizuoka",
-    "address": "52-1 Yada, Suruga-ku, Shizuoka City, Shizuoka Prefecture, 422-8526, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 110,
-    "acceptance_rate": "15-25% (학과별로 상이)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "약학부",
-    "식품영양과학부",
-    "국제관계학부",
-    "경영정보학부",
-    "간호학부"
-  ],
-  "features": [
-    "일본 약학 분야 최상위권 공립 대학으로 평가받고 있습니다.",
-    "시즈오카 지역 산업의 특징을 살려 녹차와 기능성 식품에 대한 독창적인 연구를 진행합니다.",
-    "후지산 인근의 아름다운 경관에서 영감을 받은 아름다운 캠퍼스 건축을 자랑합니다.",
-    "저렴한 학비와 시즈오카현 거주민을 위한 상당한 할인 혜택을 제공합니다."
-  ],
-  "description": "시즈오카현립대학교는 약학, 식품영양학, 국제관계학 등 다양한 분야에서 뛰어난 교육을 제공하는 일본의 명문 공립대학교입니다. 아름다운 캠퍼스와 저렴한 학비는 유학생에게 매력적인 선택지가 될 것입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 52-1 Yada, Suruga-ku, Shizuoka City, Shizuoka Prefecture, 422-8526, Japan
+  capacity: 3500
+  name_en: University of Shizuoka
+  name_ja: 静岡県立大学
+category: university
+date: '2026-03-03'
+description: 시즈오카현립대학교는 약학, 식품영양학, 국제관계학 등 다양한 분야에서 뛰어난 교육을 제공하는 일본의 명문 공립대학교입니다.
+  아름다운 캠퍼스와 저렴한 학비는 유학생에게 매력적인 선택지가 될 것입니다.
+faculties:
+- 약학부
+- 식품영양과학부
+- 국제관계학부
+- 경영정보학부
+- 간호학부
+features:
+- 일본 약학 분야 최상위권 공립 대학으로 평가받고 있습니다.
+- 시즈오카 지역 산업의 특징을 살려 녹차와 기능성 식품에 대한 독창적인 연구를 진행합니다.
+- 후지산 인근의 아름다운 경관에서 영감을 받은 아름다운 캠퍼스 건축을 자랑합니다.
+- 저렴한 학비와 시즈오카현 거주민을 위한 상당한 할인 혜택을 제공합니다.
+id: univ_university-of-shizuoka-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (학과별로 상이)
+  international_students: 110
+tags:
+- 일본 약학 분야 최상위권 공립 대학으로 평가받고 있습니다.
+- 시즈오카 지역 산업의 특징을 살려 녹차와 기능성 식품에 대한 독창적인 연구를 진행합니다.
+- 후지산 인근의 아름다운 경관에서 영감을 받은 아름다운 캠퍼스 건축을 자랑합니다.
+- 저렴한 학비와 시즈오카현 거주민을 위한 상당한 할인 혜택을 제공합니다.
+thumbnail: /static/img/pin-univ.png
+title: 시즈오카현립대학교 (University of Shizuoka)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요: 시즈오카현립대학교

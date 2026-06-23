@@ -1,72 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "兵庫県神戸市中央区琴ノ緒町5-5-6",
-    "capacity": 150,
-    "name_en": "ECC Japanese Language Institute, Kobe School",
-    "name_ja": "ECC日本語学院神戸校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語総合1年コース",
-      "total_fees": 825500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "日本語総合1年3か月コース",
-      "total_fees": 1017125
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語総合1年6か月コース",
-      "total_fees": 1202750
-    },
-    {
-      "admission_month": "7",
-      "course_name": "日本語総合1年9か月コース",
-      "total_fees": 1388375
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語総合2年コース",
-      "total_fees": 1574000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "회화 중심 교육 (Kaiwa)",
-    "EJU 및 대학 진학 집중 트랙",
-    "이공계 (Rikei) 특화 과정",
-    "종합적인 학생 기숙사 및 주거 지원",
-    "국제적인 항구 도시 고베에 위치"
-  ],
-  "id": "school_ecc-japanese-institute-kobe",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6958238,
-    "lng": 135.1949181
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=553",
-  "stats": {
-    "capacity": 150,
-    "international_students": null
-  },
-  "tags": [
-    "High-Focus Conversational Training (Kaiwa)",
-    "Specialized EJU and University Advancement Tracks",
-    "Dedicated Science (Rikei) Preparation Coursework",
-    "Comprehensive Student Dormitory and Housing Support",
-    "Located in the Cosmopolitan Port City of Kobe"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "ECC 일본어학원 고베교",
-  "translated": true,
-  "tuition": {},
-  "description": "ECC 일본어학원 고베교는 회화 중심 교육, EJU 및 대학 진학 집중 트랙, 이공계 특화 과정, 주거 지원 등 다양한 장점을 제공합니다. 국제적인 도시 고베에서 일본 유학을 시작하세요."
-}
+basic_info:
+  address: 兵庫県神戸市中央区琴ノ緒町5-5-6
+  capacity: 150
+  name_en: ECC Japanese Language Institute, Kobe School
+  name_ja: ECC日本語学院神戸校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語総合1年コース
+  total_fees: 825500
+- admission_month: '1'
+  course_name: 日本語総合1年3か月コース
+  total_fees: 1017125
+- admission_month: '10'
+  course_name: 日本語総合1年6か月コース
+  total_fees: 1202750
+- admission_month: '7'
+  course_name: 日本語総合1年9か月コース
+  total_fees: 1388375
+- admission_month: '4'
+  course_name: 日本語総合2年コース
+  total_fees: 1574000
+date: '2026-01-28'
+description: ECC 일본어학원 고베교는 회화 중심 교육, EJU 및 대학 진학 집중 트랙, 이공계 특화 과정, 주거 지원 등 다양한 장점을
+  제공합니다. 국제적인 도시 고베에서 일본 유학을 시작하세요.
+faculties: []
+features:
+- 회화 중심 교육 (Kaiwa)
+- EJU 및 대학 진학 집중 트랙
+- 이공계 (Rikei) 특화 과정
+- 종합적인 학생 기숙사 및 주거 지원
+- 국제적인 항구 도시 고베에 위치
+id: school_ecc-japanese-institute-kobe
+lang: kr
+layout: school
+location:
+  lat: 34.6958238
+  lng: 135.1949181
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=553
+stats:
+  capacity: 150
+  international_students: null
+tags:
+- High-Focus Conversational Training (Kaiwa)
+- Specialized EJU and University Advancement Tracks
+- Dedicated Science (Rikei) Preparation Coursework
+- Comprehensive Student Dormitory and Housing Support
+- Located in the Cosmopolitan Port City of Kobe
+thumbnail: /static/img/pin-school.png
+title: ECC 일본어학원 고베교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

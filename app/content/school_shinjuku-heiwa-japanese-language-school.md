@@ -42,6 +42,7 @@ basic_info:
   title: Shinjuku Heiwa Japanese Language School
   tuition: {}
 content_body: "## \U0001F3EB School Overview & Philosophy"
+date: '2026-01-28'
 description: 'Discover Shinjuku Heiwa Japanese Language School in Tokyo: a leading
   institution for Japanese language education, specializing in university preparation.
   Explore courses, campus life, and accommodation options.'

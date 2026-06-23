@@ -1,64 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県静岡市駿河区八幡3丁目2-28",
-    "capacity": 280,
-    "name_en": "Kokusai Kotoba Gakuin Japanese Language School",
-    "name_ja": "国際ことば学院日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "General Course",
-      "total_fees": 1210000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "General Course",
-      "total_fees": 1070000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "General Course",
-      "total_fees": 930000
-    }
-  ],
-  "description": "시즈오카시에 위치한 국제 코토바 학원은 종합적인 일본어 교육을 제공하며, 특히 대학 진학 준비 및 EJU 시험 성공에 중점을 두고 있습니다. 편리한 기숙사 옵션도 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 시험 준비",
-    "대학 진학 준비",
-    "회화 중심 일본어",
-    "단기 코스",
-    "이과 중심"
-  ],
-  "id": "school_kokusai-kotoba-gakuin-nihongo-gakko",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.9679751,
-    "lng": 138.3958658
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=279",
-  "stats": {
-    "capacity": 280,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Preparation",
-    "Conversational Japanese",
-    "Short-Term Courses",
-    "Science-Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "국제 코토바 학원 일본어 학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 静岡県静岡市駿河区八幡3丁目2-28
+  capacity: 280
+  name_en: Kokusai Kotoba Gakuin Japanese Language School
+  name_ja: 国際ことば学院日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: General Course
+  total_fees: 1210000
+- admission_month: '7'
+  course_name: General Course
+  total_fees: 1070000
+- admission_month: '10'
+  course_name: General Course
+  total_fees: 930000
+date: '2026-01-28'
+description: 시즈오카시에 위치한 국제 코토바 학원은 종합적인 일본어 교육을 제공하며, 특히 대학 진학 준비 및 EJU 시험 성공에 중점을
+  두고 있습니다. 편리한 기숙사 옵션도 제공합니다.
+faculties: []
+features:
+- 기숙사
+- EJU 시험 준비
+- 대학 진학 준비
+- 회화 중심 일본어
+- 단기 코스
+- 이과 중심
+id: school_kokusai-kotoba-gakuin-nihongo-gakko
+lang: kr
+layout: school
+location:
+  lat: 34.9679751
+  lng: 138.3958658
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=279
+stats:
+  capacity: 280
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Preparation
+- Conversational Japanese
+- Short-Term Courses
+- Science-Focused
+thumbnail: /static/img/pin-school.png
+title: 국제 코토바 학원 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

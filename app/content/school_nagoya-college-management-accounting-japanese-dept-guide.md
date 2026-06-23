@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語科1.5年コース
   total_fees: 1249000
+date: '2026-01-28'
 faculties: []
 features:
 - Strong Focus on Higher Education Progression (Shin-gaku)

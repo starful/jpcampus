@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Japanese Language Advancement Course (October Term)
   total_fees: 1597000
+date: '2026-01-28'
 faculties: []
 features:
 - Dedicated Academic Advancement Focus

@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shiga-university-guide",
-  "title": "Shiga University",
-  "category": "university",
-  "tags": [
-    "First Faculty of Data Science in Japan",
-    "Historic Prestige in Economics (Legacy of Hikone Higher Commercial School)",
-    "Scenic Campuses near Lake Biwa",
-    "Strong Industry-Academic Partnerships with Major Corporations"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "滋賀大学",
-    "name_en": "Shiga University",
-    "address": "1-1-1 Banba, Hikone, Shiga 522-8522, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 285,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Data Science",
-    "Faculty of Education"
-  ],
-  "features": [
-    "First Faculty of Data Science in Japan",
-    "Historic Prestige in Economics (Legacy of Hikone Higher Commercial School)",
-    "Scenic Campuses near Lake Biwa",
-    "Strong Industry-Academic Partnerships with Major Corporations"
-  ]
-}
+basic_info:
+  address: 1-1-1 Banba, Hikone, Shiga 522-8522, Japan
+  capacity: null
+  name_en: Shiga University
+  name_ja: 滋賀大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Economics
+- Faculty of Data Science
+- Faculty of Education
+features:
+- First Faculty of Data Science in Japan
+- Historic Prestige in Economics (Legacy of Hikone Higher Commercial School)
+- Scenic Campuses near Lake Biwa
+- Strong Industry-Academic Partnerships with Major Corporations
+id: univ_shiga-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 285
+tags:
+- First Faculty of Data Science in Japan
+- Historic Prestige in Economics (Legacy of Hikone Higher Commercial School)
+- Scenic Campuses near Lake Biwa
+- Strong Industry-Academic Partnerships with Major Corporations
+thumbnail: /static/img/pin-univ.png
+title: Shiga University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

@@ -1,54 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県浜松市中央区入野町6095-1",
-    "capacity": 200,
-    "name_en": "Shonan Japanese Academy Hamamatsu Campus",
-    "name_ja": "湘南日本語学園浜松校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "一般1年6か月コース",
-      "total_fees": 1025000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1340000
-    }
-  ],
-  "description": "쇼난 일본어학교 하마마츠 캠퍼스는 집중적인 EJU 시험 준비, 공학 지망생을 위한 특화된 이과 트랙, 그리고 시즈오카현 하마마츠의 주요 산업 중심지에 위치한 통합 기숙사 숙소를 제공합니다.",
-  "faculties": [],
-  "features": [
-    "통합 기숙사 숙소 제공",
-    "고강도 EJU 및 대학 진학 준비",
-    "공학 지망생을 위한 특화된 이과 (Rika) 트랙",
-    "시즈오카현 하마마츠 (산업 중심지)에 위치",
-    "단기 어학 연수 및 문화 체험 옵션"
-  ],
-  "id": "school_shonan-japanese-academy-hamamatsu",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7000879,
-    "lng": 137.6924764
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=511",
-  "stats": {},
-  "tags": [
-    "Integrated Dormitory Accommodation",
-    "High-Intensity EJU and University Progression Preparation",
-    "Specialized Science Track (Rika) for Engineering Aspirants",
-    "Located in Hamamatsu, Shizuoka Prefecture (Industry Hub)",
-    "Short-Term Study and Cultural Immersion Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "쇼난 일본어학교 하마마츠 캠퍼스",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 静岡県浜松市中央区入野町6095-1
+  capacity: 200
+  name_en: Shonan Japanese Academy Hamamatsu Campus
+  name_ja: 湘南日本語学園浜松校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 1025000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1340000
+date: '2026-01-28'
+description: 쇼난 일본어학교 하마마츠 캠퍼스는 집중적인 EJU 시험 준비, 공학 지망생을 위한 특화된 이과 트랙, 그리고 시즈오카현 하마마츠의
+  주요 산업 중심지에 위치한 통합 기숙사 숙소를 제공합니다.
+faculties: []
+features:
+- 통합 기숙사 숙소 제공
+- 고강도 EJU 및 대학 진학 준비
+- 공학 지망생을 위한 특화된 이과 (Rika) 트랙
+- 시즈오카현 하마마츠 (산업 중심지)에 위치
+- 단기 어학 연수 및 문화 체험 옵션
+id: school_shonan-japanese-academy-hamamatsu
+lang: kr
+layout: school
+location:
+  lat: 34.7000879
+  lng: 137.6924764
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=511
+stats: {}
+tags:
+- Integrated Dormitory Accommodation
+- High-Intensity EJU and University Progression Preparation
+- Specialized Science Track (Rika) for Engineering Aspirants
+- Located in Hamamatsu, Shizuoka Prefecture (Industry Hub)
+- Short-Term Study and Cultural Immersion Options
+thumbnail: /static/img/pin-school.png
+title: 쇼난 일본어학교 하마마츠 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

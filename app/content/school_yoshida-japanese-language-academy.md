@@ -21,6 +21,7 @@ courses:
 - admission_month: '1'
   course_name: 進学課程1年3ヵ月コース
   total_fees: 978000
+date: '2026-01-28'
 description: Yoshida Japanese Language Academy, located in Nishi-Waseda, Shinjuku,
   Tokyo, is a Japanese language institution for students aiming to enter university.
   With a long history and tradition, it excels in tailored educational programs, particularly

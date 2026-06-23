@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-college-guide-international-students",
-  "title": "고베 여학원 대학 (Kobe College)",
-  "description": "1875년에 설립된 일본의 유서 깊은 사립 여자 대학으로, 기독교 리버럴 아츠 교육과 아름다운 보리스 설계 캠퍼스를 자랑하며 소수 정예 교육을 통해 글로벌 인재를 양성합니다.",
-  "category": "university",
-  "tags": [
-    "유서 깊은 보리스(Vories) 설계 캠퍼스 (국가 중요문화재)",
-    "영어 교육을 중심으로 한 강력한 기독교 리버럴 아츠 전통",
-    "여성을 위한 소규모 수업 및 맞춤형 멘토링",
-    "19세기부터 시작된 국제 교류 프로그램의 선구자"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸女学院大学",
-    "name_en": "Kobe College",
-    "address": "4-1 Okadayama, Nishinomiya, Hyogo 662-8505, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "45-55% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Music",
-    "Faculty of Human Sciences"
-  ],
-  "features": [
-    "유서 깊은 보리스(Vories) 설계 캠퍼스 (국가 중요문화재)",
-    "영어 교육을 중심으로 한 강력한 기독교 리버럴 아츠 전통",
-    "여성을 위한 소규모 수업 및 맞춤형 멘토링",
-    "19세기부터 시작된 국제 교류 프로그램의 선구자"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4-1 Okadayama, Nishinomiya, Hyogo 662-8505, Japan
+  capacity: null
+  name_en: Kobe College
+  name_ja: 神戸女学院大学
+category: university
+date: '2026-03-15'
+description: 1875년에 설립된 일본의 유서 깊은 사립 여자 대학으로, 기독교 리버럴 아츠 교육과 아름다운 보리스 설계 캠퍼스를 자랑하며
+  소수 정예 교육을 통해 글로벌 인재를 양성합니다.
+faculties:
+- Faculty of Letters
+- Faculty of Music
+- Faculty of Human Sciences
+features:
+- 유서 깊은 보리스(Vories) 설계 캠퍼스 (국가 중요문화재)
+- 영어 교육을 중심으로 한 강력한 기독교 리버럴 아츠 전통
+- 여성을 위한 소규모 수업 및 맞춤형 멘토링
+- 19세기부터 시작된 국제 교류 프로그램의 선구자
+id: univ_kobe-college-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Estimated for International Applicants)
+  international_students: 25
+tags:
+- 유서 깊은 보리스(Vories) 설계 캠퍼스 (국가 중요문화재)
+- 영어 교육을 중심으로 한 강력한 기독교 리버럴 아츠 전통
+- 여성을 위한 소규모 수업 및 맞춤형 멘토링
+- 19세기부터 시작된 국제 교류 프로그램의 선구자
+thumbnail: /static/img/pin-univ.png
+title: 고베 여학원 대학 (Kobe College)
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 대학 개요

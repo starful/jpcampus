@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ferris-university-guide-for-international-students",
-  "title": "Ferris University",
-  "category": "university",
-  "tags": [
-    "Japan's first modern educational institution for women",
-    "Strong focus on 'For Others' Christian values",
-    "Prestigious Music and Global Studies programs",
-    "Beautiful suburban campus in Yokohama"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "フェリス女学院大学",
-    "name_en": "Ferris University",
-    "address": "4-5-3 Ryokuen, Izumi-ku, Yokohama, Kanagawa 245-8650, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Global and Intercultural Studies",
-    "Faculty of Music"
-  ],
-  "features": [
-    "Japan's first modern educational institution for women",
-    "Strong focus on 'For Others' Christian values",
-    "Prestigious Music and Global Studies programs",
-    "Beautiful suburban campus in Yokohama"
-  ]
-}
+basic_info:
+  address: 4-5-3 Ryokuen, Izumi-ku, Yokohama, Kanagawa 245-8650, Japan
+  capacity: null
+  name_en: Ferris University
+  name_ja: フェリス女学院大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Letters
+- Faculty of Global and Intercultural Studies
+- Faculty of Music
+features:
+- Japan's first modern educational institution for women
+- Strong focus on 'For Others' Christian values
+- Prestigious Music and Global Studies programs
+- Beautiful suburban campus in Yokohama
+id: univ_ferris-university-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 65
+tags:
+- Japan's first modern educational institution for women
+- Strong focus on 'For Others' Christian values
+- Prestigious Music and Global Studies programs
+- Beautiful suburban campus in Yokohama
+thumbnail: /static/img/pin-univ.png
+title: Ferris University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

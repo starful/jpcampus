@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_jobu-university-international-student-guide",
-  "title": "Jobu University",
-  "category": "university",
-  "tags": [
-    "Renowned Sports Management Programs",
-    "Affordable Living in Gunma Prefecture",
-    "Strong Ties to Regional Industries",
-    "Supportive Japanese Language Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "上武大学",
-    "name_en": "Jobu University",
-    "address": "270-1 Toyozuka-machi, Isesaki-shi, Gunma 372-8588, Japan",
-    "capacity": "Approximately 2,500 students"
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "75-85% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Renowned Sports Management Programs",
-    "Affordable Living in Gunma Prefecture",
-    "Strong Ties to Regional Industries",
-    "Supportive Japanese Language Support"
-  ]
-}
+basic_info:
+  address: 270-1 Toyozuka-machi, Isesaki-shi, Gunma 372-8588, Japan
+  capacity: Approximately 2,500 students
+  name_en: Jobu University
+  name_ja: 上武大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Business Administration
+- Faculty of Nursing
+features:
+- Renowned Sports Management Programs
+- Affordable Living in Gunma Prefecture
+- Strong Ties to Regional Industries
+- Supportive Japanese Language Support
+id: univ_jobu-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-85% (Estimated for International Applicants)
+  international_students: 185
+tags:
+- Renowned Sports Management Programs
+- Affordable Living in Gunma Prefecture
+- Strong Ties to Regional Industries
+- Supportive Japanese Language Support
+thumbnail: /static/img/pin-univ.png
+title: Jobu University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Spirit of 'Zenshin'

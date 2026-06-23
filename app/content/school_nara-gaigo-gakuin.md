@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: General 1.5-Year Course
   total_fees: 1140000
+date: '2026-01-28'
 faculties: []
 features:
 - Dormitory

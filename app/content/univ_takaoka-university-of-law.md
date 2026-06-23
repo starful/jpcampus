@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_takaoka-university-of-law",
-  "title": "Takaoka University of Law",
-  "category": "university",
-  "tags": [
-    "Hokuriku Region's First Private Law University",
-    "Intensive Civil Service Exam Preparation",
-    "Small Class Sizes and Personalized Mentorship",
-    "Affordable Living Costs in Toyama Prefecture"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "高岡法科大学",
-    "name_en": "Takaoka University of Law",
-    "address": "4-1 Toide-Machi, Takaoka-shi, Toyama 939-1193, Japan",
-    "capacity": "150 students per year"
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "65-75% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 720000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Department of Law"
-  ],
-  "features": [
-    "Hokuriku Region's First Private Law University",
-    "Intensive Civil Service Exam Preparation",
-    "Small Class Sizes and Personalized Mentorship",
-    "Affordable Living Costs in Toyama Prefecture"
-  ]
-}
+basic_info:
+  address: 4-1 Toide-Machi, Takaoka-shi, Toyama 939-1193, Japan
+  capacity: 150 students per year
+  name_en: Takaoka University of Law
+  name_ja: 高岡法科大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Law
+- Department of Law
+features:
+- Hokuriku Region's First Private Law University
+- Intensive Civil Service Exam Preparation
+- Small Class Sizes and Personalized Mentorship
+- Affordable Living Costs in Toyama Prefecture
+id: univ_takaoka-university-of-law
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (Estimated)
+  international_students: 15
+tags:
+- Hokuriku Region's First Private Law University
+- Intensive Civil Service Exam Preparation
+- Small Class Sizes and Personalized Mentorship
+- Affordable Living Costs in Toyama Prefecture
+thumbnail: /static/img/pin-univ.png
+title: Takaoka University of Law
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 720000
 ---
 
 ## 🏫 University Overview: A Specialized Hub for Legal Studies

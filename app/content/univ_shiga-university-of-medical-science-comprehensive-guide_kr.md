@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shiga-university-of-medical-science-comprehensive-guide",
-  "title": "시가 의과대학교",
-  "category": "university",
-  "tags": [
-    "World-class Research Center for Animal Life Science (RCALS)",
-    "Pioneering Molecular Neuroscience Research Center",
-    "Strong focus on regional healthcare integration and community medicine",
-    "Strategic proximity to Kyoto, offering a peaceful study environment with metropolitan access"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "滋賀医科大学",
-    "name_en": "Shiga University of Medical Science",
-    "address": "Seta Tsukinowa-cho, Otsu, Shiga 520-2192, Japan",
-    "capacity": 1130
-  },
-  "stats": {
-    "international_students": 54,
-    "acceptance_rate": "5-10%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Medicine - School of Medicine",
-    "Faculty of Medicine - School of Nursing",
-    "Graduate School of Medicine (Master's and Doctoral Programs)"
-  ],
-  "features": [
-    "세계적 수준의 동물 생명 과학 연구 센터(RCALS)",
-    "선구적인 분자 신경 과학 연구 센터",
-    "지역 의료 통합 및 지역 사회 의학에 대한 강력한 집중",
-    "교토와 전략적 인접성, 수도권 접근성과 평화로운 학습 환경 제공"
-  ],
-  "description": "시가 의과대학교는 일본의 대표적인 국립 의과 대학입니다. 의학, 간호학 분야의 뛰어난 연구 성과와 수준 높은 교육을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: Seta Tsukinowa-cho, Otsu, Shiga 520-2192, Japan
+  capacity: 1130
+  name_en: Shiga University of Medical Science
+  name_ja: 滋賀医科大学
+category: university
+date: '2026-02-13'
+description: 시가 의과대학교는 일본의 대표적인 국립 의과 대학입니다. 의학, 간호학 분야의 뛰어난 연구 성과와 수준 높은 교육을 제공합니다.
+faculties:
+- Faculty of Medicine - School of Medicine
+- Faculty of Medicine - School of Nursing
+- Graduate School of Medicine (Master's and Doctoral Programs)
+features:
+- 세계적 수준의 동물 생명 과학 연구 센터(RCALS)
+- 선구적인 분자 신경 과학 연구 센터
+- 지역 의료 통합 및 지역 사회 의학에 대한 강력한 집중
+- 교토와 전략적 인접성, 수도권 접근성과 평화로운 학습 환경 제공
+id: univ_shiga-university-of-medical-science-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 5-10%
+  international_students: 54
+tags:
+- World-class Research Center for Animal Life Science (RCALS)
+- Pioneering Molecular Neuroscience Research Center
+- Strong focus on regional healthcare integration and community medicine
+- Strategic proximity to Kyoto, offering a peaceful study environment with metropolitan
+  access
+thumbnail: /static/img/pin-univ.png
+title: 시가 의과대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 소개

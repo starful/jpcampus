@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学準備1年3ヶ月コース
   total_fees: 912500
+date: '2026-01-28'
 description: Urawa International Education Center is a Japanese language school located
   in Urawa-ku, Saitama City, Saitama Prefecture, aiming to help students successfully
   enter Japanese universities and adapt to Japanese society. Beyond language education,

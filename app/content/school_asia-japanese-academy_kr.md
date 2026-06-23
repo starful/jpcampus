@@ -1,72 +1,60 @@
 ---
-{
-  "basic_info": {
-    "address": "福岡県福岡市南区長住4-2-29",
-    "capacity": 238,
-    "name_en": "Asia Japanese Academy",
-    "name_ja": "アジア日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1410000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 1090000
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "一般1年コース",
-      "total_fees": 770000
-    }
-  ],
-  "description": "후쿠오카에 위치한 Asia Japanese Academy는 대학 진학 준비와 문화 이해에 중점을 둔 종합적인 일본어 교육을 제공합니다. 기숙사 옵션, 장학금, EJU 준비반, 비즈니스 일본어와 같은 특별 트랙을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "장학금",
-    "EJU 대비",
-    "대학 진학 준비",
-    "회화",
-    "비즈니스 일본어",
-    "미술 디자인 준비",
-    "단기 코스",
-    "1인실 기숙사",
-    "이공계 트랙"
-  ],
-  "id": "school_asia-japanese-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 33.5466431,
-    "lng": 130.3963906
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=429",
-  "stats": {
-    "capacity": 238,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "Scholarship",
-    "EJU Prep",
-    "University Prep",
-    "Conversation",
-    "Business Japanese",
-    "Art & Design Prep",
-    "Short-term",
-    "Single Room Dormitory",
-    "Science/STEM Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Asia Japanese Academy",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 福岡県福岡市南区長住4-2-29
+  capacity: 238
+  name_en: Asia Japanese Academy
+  name_ja: アジア日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1410000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1090000
+- admission_month: 4,10
+  course_name: 一般1年コース
+  total_fees: 770000
+date: '2026-01-28'
+description: 후쿠오카에 위치한 Asia Japanese Academy는 대학 진학 준비와 문화 이해에 중점을 둔 종합적인 일본어 교육을
+  제공합니다. 기숙사 옵션, 장학금, EJU 준비반, 비즈니스 일본어와 같은 특별 트랙을 제공합니다.
+faculties: []
+features:
+- 기숙사
+- 장학금
+- EJU 대비
+- 대학 진학 준비
+- 회화
+- 비즈니스 일본어
+- 미술 디자인 준비
+- 단기 코스
+- 1인실 기숙사
+- 이공계 트랙
+id: school_asia-japanese-academy
+lang: kr
+layout: school
+location:
+  lat: 33.5466431
+  lng: 130.3963906
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=429
+stats:
+  capacity: 238
+  international_students: 0
+tags:
+- Dormitory
+- Scholarship
+- EJU Prep
+- University Prep
+- Conversation
+- Business Japanese
+- Art & Design Prep
+- Short-term
+- Single Room Dormitory
+- Science/STEM Track
+thumbnail: /static/img/pin-school.png
+title: Asia Japanese Academy
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

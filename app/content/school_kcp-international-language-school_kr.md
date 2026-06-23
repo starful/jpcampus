@@ -1,80 +1,60 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区新宿1-29-12　KCP本館",
-    "capacity": 880,
-    "name_en": "KCP International Japanese Language School",
-    "name_ja": "ＫＣＰ地球市民日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "特別進学課程2年コース",
-      "total_fees": 1496000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "特別進学課程1年半コース",
-      "total_fees": 1142000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般進学課程2年コース",
-      "total_fees": 1496000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "一般進学課程1年半コース",
-      "total_fees": 1142000
-    },
-    {
-      "admission_month": "4, 1",
-      "course_name": "総合日本語課程2年コース",
-      "total_fees": 1280000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "総合日本語課程1年9か月コース",
-      "total_fees": 1130000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "総合日本語課程1年半コース",
-      "total_fees": 980000
-    }
-  ],
-  "description": "KCP International Japanese Language School은 도쿄 신주쿠에 위치하고 있으며, 대학 진학 준비 및 글로벌 시민 의식 함양에 중점을 둔 종합적인 일본어 교육을 제공합니다. EJU 준비, 이공계 지원, 기숙사 이용 가능 등의 특징이 있습니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 준비",
-    "이공계 지원",
-    "기숙사 이용 가능"
-  ],
-  "id": "school_kcp-international-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.690589,
-    "lng": 139.713131
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=104",
-  "stats": {
-    "capacity": 880,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Science Stream Support",
-    "Dormitory Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "KCP International Japanese Language School",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区新宿1-29-12　KCP本館
+  capacity: 880
+  name_en: KCP International Japanese Language School
+  name_ja: ＫＣＰ地球市民日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 特別進学課程2年コース
+  total_fees: 1496000
+- admission_month: '10'
+  course_name: 特別進学課程1年半コース
+  total_fees: 1142000
+- admission_month: '4'
+  course_name: 一般進学課程2年コース
+  total_fees: 1496000
+- admission_month: '10'
+  course_name: 一般進学課程1年半コース
+  total_fees: 1142000
+- admission_month: 4, 1
+  course_name: 総合日本語課程2年コース
+  total_fees: 1280000
+- admission_month: '7'
+  course_name: 総合日本語課程1年9か月コース
+  total_fees: 1130000
+- admission_month: '10'
+  course_name: 総合日本語課程1年半コース
+  total_fees: 980000
+date: '2026-01-28'
+description: KCP International Japanese Language School은 도쿄 신주쿠에 위치하고 있으며, 대학 진학 준비
+  및 글로벌 시민 의식 함양에 중점을 둔 종합적인 일본어 교육을 제공합니다. EJU 준비, 이공계 지원, 기숙사 이용 가능 등의 특징이 있습니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 준비
+- 이공계 지원
+- 기숙사 이용 가능
+id: school_kcp-international-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.690589
+  lng: 139.713131
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=104
+stats:
+  capacity: 880
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Science Stream Support
+- Dormitory Available
+thumbnail: /static/img/pin-school.png
+title: KCP International Japanese Language School
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,51 +1,44 @@
 ---
-{
-  "basic_info": {
-    "address": "2-6-1 Ginowan, Ginowan City, Okinawa 901-2701, Japan",
-    "capacity": null,
-    "name_en": "Okinawa International University",
-    "name_ja": "沖縄国際大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration (Commerce)",
-    "Faculty of International Studies",
-    "Faculty of Humanities"
-  ],
-  "features": [
-    "오키나와 역사 및 미-일 관계 집중 연구",
-    "강력한 지역 참여 및 커뮤니티 연구",
-    "EJU 필수",
-    "제한적인 영어 프로그램 (주로 일본어 수업)"
-  ],
-  "id": "univ_okinawa-international-university-okiu",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "45%",
-    "international_students": 130
-  },
-  "tags": [
-    "Focus on Okinawan History and US-Japan Relations",
-    "Strong Regional Engagement and Community Research",
-    "EJU Required",
-    "Limited English Programs (Primarily Japanese Instruction)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "오키나와 국제대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 220000,
-    "yearly_tuition": 750000
-  },
-  "description": "오키나와 국제대학교(OKIU)는 오키나와현에 위치한 주요 고등 교육 기관입니다. 지역 개발, 평화 연구 및 오키나와 문화에 대한 심도 있는 연구를 제공합니다."
-}
+basic_info:
+  address: 2-6-1 Ginowan, Ginowan City, Okinawa 901-2701, Japan
+  capacity: null
+  name_en: Okinawa International University
+  name_ja: 沖縄国際大学
+category: university
+date: '2026-01-28'
+description: 오키나와 국제대학교(OKIU)는 오키나와현에 위치한 주요 고등 교육 기관입니다. 지역 개발, 평화 연구 및 오키나와 문화에
+  대한 심도 있는 연구를 제공합니다.
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration (Commerce)
+- Faculty of International Studies
+- Faculty of Humanities
+features:
+- 오키나와 역사 및 미-일 관계 집중 연구
+- 강력한 지역 참여 및 커뮤니티 연구
+- EJU 필수
+- 제한적인 영어 프로그램 (주로 일본어 수업)
+id: univ_okinawa-international-university-okiu
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45%
+  international_students: 130
+tags:
+- Focus on Okinawan History and US-Japan Relations
+- Strong Regional Engagement and Community Research
+- EJU Required
+- Limited English Programs (Primarily Japanese Instruction)
+thumbnail: /static/img/pin-univ.png
+title: 오키나와 국제대학교
+translated: true
+tuition:
+  admission_fee: 220000
+  yearly_tuition: 750000
 ---
 
 ## 대학 개요

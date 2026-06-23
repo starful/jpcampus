@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hokusei-gakuen-university-guide-for-international-students",
-  "title": "호쿠세이 학원 대학",
-  "category": "university",
-  "tags": [
-    "탄탄한 개신교 기독교 교육 재단",
-    "북해도 최고 수준의 사회복지 프로그램",
-    "뛰어난 국제 교환 학생 지원 시스템",
-    "삿포로의 아름다운 현대적인 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北星学園大学",
-    "name_en": "Hokusei Gakuen University",
-    "address": "2-1-1 Oyachi-nishi, Atsubetsu-ku, Sapporo, Hokkaido 004-8631, Japan",
-    "capacity": 4500
-  },
-  "stats": {
-    "international_students": 160,
-    "acceptance_rate": "Approximately 40-50%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 880000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Economics",
-    "Faculty of Social Welfare",
-    "Junior College (English/Life Design)",
-    "Graduate School of Humanities",
-    "Graduate School of Economics",
-    "Graduate School of Social Welfare"
-  ],
-  "features": [
-    "탄탄한 개신교 기독교 교육 재단",
-    "북해도 최고 수준의 사회복지 프로그램",
-    "뛰어난 국제 교환 학생 지원 시스템",
-    "삿포로의 아름다운 현대적인 캠퍼스"
-  ],
-  "description": "홋카이도 삿포로에 위치한 호쿠세이 학원 대학은 130년 이상의 역사를 가진 명문 사립 대학입니다. 국제 학생들을 위한 따뜻하고 지지적인 분위기와 훌륭한 학업 환경을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-1 Oyachi-nishi, Atsubetsu-ku, Sapporo, Hokkaido 004-8631, Japan
+  capacity: 4500
+  name_en: Hokusei Gakuen University
+  name_ja: 北星学園大学
+category: university
+date: '2026-03-03'
+description: 홋카이도 삿포로에 위치한 호쿠세이 학원 대학은 130년 이상의 역사를 가진 명문 사립 대학입니다. 국제 학생들을 위한 따뜻하고
+  지지적인 분위기와 훌륭한 학업 환경을 제공합니다.
+faculties:
+- Faculty of Humanities
+- Faculty of Economics
+- Faculty of Social Welfare
+- Junior College (English/Life Design)
+- Graduate School of Humanities
+- Graduate School of Economics
+- Graduate School of Social Welfare
+features:
+- 탄탄한 개신교 기독교 교육 재단
+- 북해도 최고 수준의 사회복지 프로그램
+- 뛰어난 국제 교환 학생 지원 시스템
+- 삿포로의 아름다운 현대적인 캠퍼스
+id: univ_hokusei-gakuen-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 40-50%
+  international_students: 160
+tags:
+- 탄탄한 개신교 기독교 교육 재단
+- 북해도 최고 수준의 사회복지 프로그램
+- 뛰어난 국제 교환 학생 지원 시스템
+- 삿포로의 아름다운 현대적인 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 호쿠세이 학원 대학
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 880000
 ---
 
 ## 🏫 대학 개요: 홋카이도의 북극성

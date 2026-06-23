@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tohoku-gakuin-university-comprehensive-guide",
-  "title": "도호쿠 가쿠인 대학교",
-  "description": "도호쿠 지역 최대 규모의 사립 대학인 도호쿠 가쿠인 대학교의 학부 구성, 최신 이츠츠바시 캠퍼스 시설, 외국인 유학생 지원 제도 및 강력한 지역 취업 네트워크를 소개하는 종합 가이드입니다.",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "도호쿠 지역 최대 사립 대학",
-    "기독교 교육 기반",
-    "이츠츠바시 캠퍼스",
-    "강력한 지역 취업"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東北学院大学",
-    "name_en": "Tohoku Gakuin University",
-    "address": "1-3-1 Tsuchitoi, Aoba-ku, Sendai, Miyagi 980-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "Approximately 45-55% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "문학부",
-    "경제학부",
-    "경영학부",
-    "법학부",
-    "공학부",
-    "교양학부",
-    "지역종합학부",
-    "정보학부"
-  ],
-  "features": [
-    "도호쿠 지역 최대 규모의 사립 대학교",
-    "기독교 정신(개신교)에 기반한 확고한 교육 철학",
-    "최첨단 시설을 갖춘 도심형 이츠츠바시 캠퍼스",
-    "지역 내 강력한 동문 네트워크를 통한 뛰어난 취업률"
-  ]
-}
+basic_info:
+  address: 1-3-1 Tsuchitoi, Aoba-ku, Sendai, Miyagi 980-8511, Japan
+  capacity: null
+  name_en: Tohoku Gakuin University
+  name_ja: 東北学院大学
+category: university
+date: '2026-03-08'
+description: 도호쿠 지역 최대 규모의 사립 대학인 도호쿠 가쿠인 대학교의 학부 구성, 최신 이츠츠바시 캠퍼스 시설, 외국인 유학생 지원
+  제도 및 강력한 지역 취업 네트워크를 소개하는 종합 가이드입니다.
+faculties:
+- 문학부
+- 경제학부
+- 경영학부
+- 법학부
+- 공학부
+- 교양학부
+- 지역종합학부
+- 정보학부
+features:
+- 도호쿠 지역 최대 규모의 사립 대학교
+- 기독교 정신(개신교)에 기반한 확고한 교육 철학
+- 최첨단 시설을 갖춘 도심형 이츠츠바시 캠퍼스
+- 지역 내 강력한 동문 네트워크를 통한 뛰어난 취업률
+id: univ_tohoku-gakuin-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 45-55% for International Applicants
+  international_students: 145
+tags:
+- 도호쿠 지역 최대 사립 대학
+- 기독교 교육 기반
+- 이츠츠바시 캠퍼스
+- 강력한 지역 취업
+thumbnail: /static/img/pin-univ.png
+title: 도호쿠 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 대학 개요

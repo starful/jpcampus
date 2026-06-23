@@ -1,45 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_national-institute-of-fitness-and-sports-in-kanoya-guide",
-  "title": "National Institute of Fitness and Sports in Kanoya",
-  "category": "university",
-  "tags": [
-    "Japan's only national university dedicated solely to physical education and sports science",
-    "World-class Sports Performance Laboratory (SPL) with cutting-edge motion capture technology",
-    "Unique Budo (Martial Arts) course offering specialized training in Kendo and Judo",
-    "Strong collaboration with the Japan High Performance Sport Center"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鹿屋体育大学",
-    "name_en": "National Institute of Fitness and Sports in Kanoya",
-    "address": "1 Shiromizu-cho, Kanoya, Kagoshima 891-2393, Japan",
-    "capacity": 800
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "15-25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Physical Education",
-    "Graduate School of Physical Education"
-  ],
-  "features": [
-    "Japan's only national university dedicated solely to physical education and sports science",
-    "World-class Sports Performance Laboratory (SPL) with cutting-edge motion capture technology",
-    "Unique Budo (Martial Arts) course offering specialized training in Kendo and Judo",
-    "Strong collaboration with the Japan High Performance Sport Center"
-  ]
-}
+basic_info:
+  address: 1 Shiromizu-cho, Kanoya, Kagoshima 891-2393, Japan
+  capacity: 800
+  name_en: National Institute of Fitness and Sports in Kanoya
+  name_ja: 鹿屋体育大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Physical Education
+- Graduate School of Physical Education
+features:
+- Japan's only national university dedicated solely to physical education and sports
+  science
+- World-class Sports Performance Laboratory (SPL) with cutting-edge motion capture
+  technology
+- Unique Budo (Martial Arts) course offering specialized training in Kendo and Judo
+- Strong collaboration with the Japan High Performance Sport Center
+id: univ_national-institute-of-fitness-and-sports-in-kanoya-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25%
+  international_students: 25
+tags:
+- Japan's only national university dedicated solely to physical education and sports
+  science
+- World-class Sports Performance Laboratory (SPL) with cutting-edge motion capture
+  technology
+- Unique Budo (Martial Arts) course offering specialized training in Kendo and Judo
+- Strong collaboration with the Japan High Performance Sport Center
+thumbnail: /static/img/pin-univ.png
+title: National Institute of Fitness and Sports in Kanoya
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Pinnacle of Sports Science in Japan

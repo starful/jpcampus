@@ -1,69 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県新座市東北2-33-10",
-    "capacity": 160,
-    "name_en": "Chuo Information College",
-    "name_ja": "中央情報専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語本科進学2年",
-      "total_fees": 1352000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語本科進学1年6月",
-      "total_fees": 1044000
-    }
-  ],
-  "description": "中央정보전문학교는 사이타마현 니자시에 위치한 전문학교로, 유학생을 위한 일본어 교육을 전문으로 합니다. 특히 이공계 대학 진학을 위한 종합적인 코스와 지원을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "진학",
-    "EJU 준비",
-    "기숙사",
-    "개인실",
-    "장학금",
-    "이공계 특화",
-    "대학 진학",
-    "회화 일본어",
-    "비즈니스 일본어",
-    "미술 & 디자인",
-    "단기 코스"
-  ],
-  "id": "school_chuo-information-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.8206626,
-    "lng": 139.5769213
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=59",
-  "stats": {
-    "capacity": 160,
-    "international_students": 0
-  },
-  "tags": [
-    "Further Education",
-    "EJU Preparation",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "Science Focus",
-    "University Advancement",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Art & Design",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "중앙정보전문학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 埼玉県新座市東北2-33-10
+  capacity: 160
+  name_en: Chuo Information College
+  name_ja: 中央情報専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語本科進学2年
+  total_fees: 1352000
+- admission_month: '10'
+  course_name: 日本語本科進学1年6月
+  total_fees: 1044000
+date: '2026-01-28'
+description: 中央정보전문학교는 사이타마현 니자시에 위치한 전문학교로, 유학생을 위한 일본어 교육을 전문으로 합니다. 특히 이공계 대학 진학을
+  위한 종합적인 코스와 지원을 제공합니다.
+faculties: []
+features:
+- 진학
+- EJU 준비
+- 기숙사
+- 개인실
+- 장학금
+- 이공계 특화
+- 대학 진학
+- 회화 일본어
+- 비즈니스 일본어
+- 미술 & 디자인
+- 단기 코스
+id: school_chuo-information-college
+lang: kr
+layout: school
+location:
+  lat: 35.8206626
+  lng: 139.5769213
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=59
+stats:
+  capacity: 160
+  international_students: 0
+tags:
+- Further Education
+- EJU Preparation
+- Dormitory
+- Private Rooms
+- Scholarships
+- Science Focus
+- University Advancement
+- Conversational Japanese
+- Business Japanese
+- Art & Design
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: 중앙정보전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年半コース
   total_fees: 1055000
+date: '2026-01-28'
 faculties: []
 features:
 - Dormitory Available

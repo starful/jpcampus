@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語1年6ヶ月コース
   total_fees: 1220000
+date: '2026-01-28'
 faculties: []
 features:
 - Dormitory Accommodation Guaranteed

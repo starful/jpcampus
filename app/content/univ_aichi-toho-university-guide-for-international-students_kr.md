@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-toho-university-guide-for-international-students",
-  "title": "아이치 토호 대학교",
-  "description": "나고야에 위치한 아이치 토호 대학교는 소수 정예 교육과 지역 산업과의 강력한 연계를 통해 유학생들의 일본 내 성공적인 취업과 성장을 지원합니다.",
-  "category": "university",
-  "tags": [
-    "소수 정예 교육 및 맞춤형 멘토링",
-    "나고야 지역 산업과의 강력한 연계",
-    "외국인 유학생을 위한 체계적인 커리어 지원",
-    "나고야의 안전한 주거 지역에 위치한 현대적인 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知東邦大学",
-    "name_en": "Aichi Toho University",
-    "address": "3-11 Heiwagaoka, Meito-ku, Nagoya, Aichi 465-8515, Japan",
-    "capacity": 1600
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "Approx. 65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 980000
-  },
-  "faculties": [
-    "경영학부",
-    "인간발달학부",
-    "교육심리학부"
-  ],
-  "features": [
-    "소수 정예 교육 및 맞춤형 멘토링",
-    "나고야 지역 산업과의 강력한 연계",
-    "외국인 유학생을 위한 체계적인 커리어 지원",
-    "나고야의 안전한 주거 지역에 위치한 현대적인 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 3-11 Heiwagaoka, Meito-ku, Nagoya, Aichi 465-8515, Japan
+  capacity: 1600
+  name_en: Aichi Toho University
+  name_ja: 愛知東邦大学
+category: university
+date: '2026-04-04'
+description: 나고야에 위치한 아이치 토호 대학교는 소수 정예 교육과 지역 산업과의 강력한 연계를 통해 유학생들의 일본 내 성공적인 취업과
+  성장을 지원합니다.
+faculties:
+- 경영학부
+- 인간발달학부
+- 교육심리학부
+features:
+- 소수 정예 교육 및 맞춤형 멘토링
+- 나고야 지역 산업과의 강력한 연계
+- 외국인 유학생을 위한 체계적인 커리어 지원
+- 나고야의 안전한 주거 지역에 위치한 현대적인 캠퍼스
+id: univ_aichi-toho-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approx. 65-75%
+  international_students: 115
+tags:
+- 소수 정예 교육 및 맞춤형 멘토링
+- 나고야 지역 산업과의 강력한 연계
+- 외국인 유학생을 위한 체계적인 커리어 지원
+- 나고야의 안전한 주거 지역에 위치한 현대적인 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 아이치 토호 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 980000
 ---
 
 ## 🏫 대학 개요: 아이치 토호 대학교의 정신

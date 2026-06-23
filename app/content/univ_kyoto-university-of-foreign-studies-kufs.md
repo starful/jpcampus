@@ -5,6 +5,7 @@ basic_info:
   name_en: Kyoto University of Foreign Studies
   name_ja: 京都外国語大学
 category: university
+date: '2026-01-28'
 faculties:
 - School of Foreign Studies (Undergraduate)
 - Faculty of Global Engagement (Undergraduate)

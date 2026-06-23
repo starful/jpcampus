@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tenri-university-guide-international-students",
-  "title": "텐리대학교 (Tenri University)",
-  "description": "일본 역사의 중심지인 나라현에 위치한 텐리대학교는 세계적인 유도 명문이자 일본 최초의 사립 외국어 학교로서의 전통을 자랑하는 명문 사립 대학입니다.",
-  "category": "university",
-  "tags": [
-    "세계적인 유도 및 스포츠 명문",
-    "일본 최초의 사립 외국어 학교 전통",
-    "천리교의 인도주의적 가치 기반 교육",
-    "역사적인 종교 도시에서의 저렴한 생활비"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "天理大学",
-    "name_en": "Tenri University",
-    "address": "1050 Somanouchi-cho, Tenri, Nara 632-8510, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "55% (Department dependent)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "인문학부",
-    "국제학부",
-    "체육학부",
-    "보건학부"
-  ],
-  "features": [
-    "세계적인 유도 및 스포츠 명문 대학",
-    "일본 최초의 사립 외국어 학교라는 역사적 전통",
-    "천리교의 인도주의적 가치에 기반한 인격 교육",
-    "조용하고 안전한 종교 도시에서의 저렴한 생활비"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1050 Somanouchi-cho, Tenri, Nara 632-8510, Japan
+  capacity: 3500
+  name_en: Tenri University
+  name_ja: 天理大学
+category: university
+date: '2026-03-15'
+description: 일본 역사의 중심지인 나라현에 위치한 텐리대학교는 세계적인 유도 명문이자 일본 최초의 사립 외국어 학교로서의 전통을 자랑하는
+  명문 사립 대학입니다.
+faculties:
+- 인문학부
+- 국제학부
+- 체육학부
+- 보건학부
+features:
+- 세계적인 유도 및 스포츠 명문 대학
+- 일본 최초의 사립 외국어 학교라는 역사적 전통
+- 천리교의 인도주의적 가치에 기반한 인격 교육
+- 조용하고 안전한 종교 도시에서의 저렴한 생활비
+id: univ_tenri-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55% (Department dependent)
+  international_students: 245
+tags:
+- 세계적인 유도 및 스포츠 명문
+- 일본 최초의 사립 외국어 학교 전통
+- 천리교의 인도주의적 가치 기반 교육
+- 역사적인 종교 도시에서의 저렴한 생활비
+thumbnail: /static/img/pin-univ.png
+title: 텐리대학교 (Tenri University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요

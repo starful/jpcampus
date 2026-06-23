@@ -1,67 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "山梨県甲府市武田4-1-29",
-    "capacity": 80,
-    "name_en": "Yamanashi Foreign Language Academy",
-    "name_ja": "山梨外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1590600
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1213300
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 준비 집중",
-    "회화 연습 강조",
-    "캠퍼스 내 기숙사 이용 가능",
-    "1인실 기숙사 옵션",
-    "장학금 기회",
-    "EJU 시험 준비",
-    "과학/STEM 트랙 지원",
-    "비즈니스 일본어",
-    "미술 & 디자인 트랙 지원",
-    "단기 유학 가능"
-  ],
-  "id": "school_yamanashi-foreign-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6772321,
-    "lng": 138.5727122
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=595",
-  "stats": {
-    "capacity": 80,
-    "international_students": 75
-  },
-  "tags": [
-    "University Preparation Focus",
-    "Conversation Practice Emphasis",
-    "On-Campus Dormitory Available",
-    "Single Room Dormitory Option",
-    "Scholarship Opportunities",
-    "EJU Preparation",
-    "Science/STEM Track Support",
-    "Business Japanese",
-    "Art & Design Track Support",
-    "Short-Term Study Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "야마나시 외국어 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "야마나시현 고후시에 위치한 야마나시 외국어 학원은 일본에서 학업 또는 전문 분야에서 성공하고자 하는 국제 학생들에게 종합적인 어학 교육과 지원을 제공합니다."
-}
+basic_info:
+  address: 山梨県甲府市武田4-1-29
+  capacity: 80
+  name_en: Yamanashi Foreign Language Academy
+  name_ja: 山梨外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1590600
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1213300
+date: '2026-01-28'
+description: 야마나시현 고후시에 위치한 야마나시 외국어 학원은 일본에서 학업 또는 전문 분야에서 성공하고자 하는 국제 학생들에게 종합적인
+  어학 교육과 지원을 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비 집중
+- 회화 연습 강조
+- 캠퍼스 내 기숙사 이용 가능
+- 1인실 기숙사 옵션
+- 장학금 기회
+- EJU 시험 준비
+- 과학/STEM 트랙 지원
+- 비즈니스 일본어
+- 미술 & 디자인 트랙 지원
+- 단기 유학 가능
+id: school_yamanashi-foreign-language-academy
+lang: kr
+layout: school
+location:
+  lat: 35.6772321
+  lng: 138.5727122
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=595
+stats:
+  capacity: 80
+  international_students: 75
+tags:
+- University Preparation Focus
+- Conversation Practice Emphasis
+- On-Campus Dormitory Available
+- Single Room Dormitory Option
+- Scholarship Opportunities
+- EJU Preparation
+- Science/STEM Track Support
+- Business Japanese
+- Art & Design Track Support
+- Short-Term Study Available
+thumbnail: /static/img/pin-school.png
+title: 야마나시 외국어 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

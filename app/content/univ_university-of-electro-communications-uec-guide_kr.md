@@ -1,57 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "1-5-1 Chofugaoka, Chofu, Tokyo 182-8585, Japan",
-    "capacity": null,
-    "name_en": "The University of Electro-Communications",
-    "name_ja": "電気通信大学"
-  },
-  "category": "university",
-  "faculties": [
-    "College of Informatics and Engineering (Undergraduate)",
-    "Graduate School of Informatics and Engineering",
-    "Graduate School of Advanced Technology and Science (Interdisciplinary)"
-  ],
-  "features": [
-    "과학기술 전문 국립대학",
-    "통신, AI, 로봇 연구 분야의 글로벌 리더",
-    "도쿄 서부 수도권 (초후)에 위치",
-    "일본 IT 및 전자 산업과의 강력한 협력",
-    "대부분의 학부 과정에서 EJU 필요 (일본어 능력 필수)",
-    "일부 영어 강의 대학원 프로그램 (예: GSC 프로그램)"
-  ],
-  "id": "univ_university-of-electro-communications-uec-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "높은 경쟁률 (약 25% 추정)",
-    "international_students": 650
-  },
-  "tags": [
-    "Specialized National University (Science & Technology)",
-    "Global Leader in Telecommunications, AI, and Robotics Research",
-    "Located in the Western Tokyo Metropolitan Area (Chofu)",
-    "Strong Collaboration with Japanese IT and Electronics Industry",
-    "EJU Required for most undergraduate tracks (Japanese proficiency is essential)",
-    "Select English-Taught Graduate Programs (e.g., GSC Program)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공 입시, 학비 | JP Campus",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "일본 국립대 컴퓨터공학 유학의 명문, 전기통신대학교(전통대/UEC) 입시 가이드! EJU 전형, 학비, 장학금 및 취업 전망까지 합격을 위한 필수 정보를 정리했습니다.",
-  "seo_title": "[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공 입시, 학비 | JP Campus",
-  "seo_description": "일본 국립대 컴퓨터공학 유학의 명문, 전기통신대학교(전통대/UEC) 입시 가이드! EJU 전형, 학비, 장학금 및 취업 전망까지 합격을 위한 필수 정보를 정리했습니다."
-}
+basic_info:
+  address: 1-5-1 Chofugaoka, Chofu, Tokyo 182-8585, Japan
+  capacity: null
+  name_en: The University of Electro-Communications
+  name_ja: 電気通信大学
+category: university
+date: '2026-06-19'
+description: 일본 국립대 컴퓨터공학 유학의 명문, 전기통신대학교(전통대/UEC) 입시 가이드! EJU 전형, 학비, 장학금 및 취업 전망까지
+  합격을 위한 필수 정보를 정리했습니다.
+faculties:
+- College of Informatics and Engineering (Undergraduate)
+- Graduate School of Informatics and Engineering
+- Graduate School of Advanced Technology and Science (Interdisciplinary)
+features:
+- 과학기술 전문 국립대학
+- 통신, AI, 로봇 연구 분야의 글로벌 리더
+- 도쿄 서부 수도권 (초후)에 위치
+- 일본 IT 및 전자 산업과의 강력한 협력
+- 대부분의 학부 과정에서 EJU 필요 (일본어 능력 필수)
+- '일부 영어 강의 대학원 프로그램 (예: GSC 프로그램)'
+id: univ_university-of-electro-communications-uec-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 일본 국립대 컴퓨터공학 유학의 명문, 전기통신대학교(전통대/UEC) 입시 가이드! EJU 전형, 학비, 장학금 및 취업
+  전망까지 합격을 위한 필수 정보를 정리했습니다.
+seo_title: '[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공 입시, 학비 | JP Campus'
+stats:
+  acceptance_rate: 높은 경쟁률 (약 25% 추정)
+  international_students: 650
+tags:
+- Specialized National University (Science & Technology)
+- Global Leader in Telecommunications, AI, and Robotics Research
+- Located in the Western Tokyo Metropolitan Area (Chofu)
+- Strong Collaboration with Japanese IT and Electronics Industry
+- EJU Required for most undergraduate tracks (Japanese proficiency is essential)
+- Select English-Taught Graduate Programs (e.g., GSC Program)
+thumbnail: /static/img/pin-univ.png
+title: '[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공 입시, 학비 | JP Campus'
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
-
 
 ## 🏫 학교 개요
 

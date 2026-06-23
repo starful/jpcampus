@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yokkaichi-university-guide",
-  "title": "Yokkaichi University",
-  "category": "university",
-  "tags": [
-    "Regional revitalization focus",
-    "Pioneering environmental research in an eco-city",
-    "Strong ties with local Tokai industrial hub",
-    "Highly supportive international student center"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "四日市大学",
-    "name_en": "Yokkaichi University",
-    "address": "1200 Kayacho, Yokkaichi, Mie 512-8512, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 284,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 780000
-  },
-  "faculties": [
-    "Faculty of Policy Management",
-    "Faculty of Environmental and Information Sciences"
-  ],
-  "features": [
-    "Regional revitalization focus",
-    "Pioneering environmental research in an eco-city",
-    "Strong ties with local Tokai industrial hub",
-    "Highly supportive international student center"
-  ]
-}
+basic_info:
+  address: 1200 Kayacho, Yokkaichi, Mie 512-8512, Japan
+  capacity: null
+  name_en: Yokkaichi University
+  name_ja: 四日市大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Policy Management
+- Faculty of Environmental and Information Sciences
+features:
+- Regional revitalization focus
+- Pioneering environmental research in an eco-city
+- Strong ties with local Tokai industrial hub
+- Highly supportive international student center
+id: univ_yokkaichi-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 284
+tags:
+- Regional revitalization focus
+- Pioneering environmental research in an eco-city
+- Strong ties with local Tokai industrial hub
+- Highly supportive international student center
+thumbnail: /static/img/pin-univ.png
+title: Yokkaichi University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 780000
 ---
 
 ## 🏫 University Overview

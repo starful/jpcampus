@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_dokkyo-medical-university-guide",
-  "title": "독쿄 의과대학교 (Dokkyo Medical University)",
-  "description": "일본 토치기현에 위치한 독쿄 의과대학교는 '인간 중심의 의학'을 바탕으로 한 우수한 교육과 일본 최대 수준의 병원 네트워크를 자랑하는 명문 사립 의과대학교입니다.",
-  "category": "university",
-  "tags": [
-    "일본 최대 규모의 대학 병원 네트워크 중 하나",
-    "인간 중심 의학을 강조하는 교육 철학",
-    "최첨단 임상 시뮬레이션 센터 보유",
-    "토치기현의 평온하고 안전한 학습 환경"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "獨協医科大学",
-    "name_en": "Dokkyo Medical University",
-    "address": "880 Kitakobayashi, Mibu, Shimotsuga District, Tochigi 321-0293, Japan",
-    "capacity": 1150
-  },
-  "stats": {
-    "international_students": 18,
-    "acceptance_rate": "8%"
-  },
-  "tuition": {
-    "admission_fee": 1000000,
-    "yearly_tuition": 3700000
-  },
-  "faculties": [
-    "Faculty of Medicine",
-    "Faculty of Nursing",
-    "Graduate School of Medicine",
-    "Graduate School of Nursing"
-  ],
-  "features": [
-    "일본 최대 규모의 대학 병원 네트워크 중 하나",
-    "인간 중심 의학을 강조하는 교육 철학",
-    "최첨단 임상 시뮬레이션 센터 보유",
-    "토치기현의 평온하고 안전한 학습 환경"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 880 Kitakobayashi, Mibu, Shimotsuga District, Tochigi 321-0293, Japan
+  capacity: 1150
+  name_en: Dokkyo Medical University
+  name_ja: 獨協医科大学
+category: university
+date: '2026-03-15'
+description: 일본 토치기현에 위치한 독쿄 의과대학교는 '인간 중심의 의학'을 바탕으로 한 우수한 교육과 일본 최대 수준의 병원 네트워크를
+  자랑하는 명문 사립 의과대학교입니다.
+faculties:
+- Faculty of Medicine
+- Faculty of Nursing
+- Graduate School of Medicine
+- Graduate School of Nursing
+features:
+- 일본 최대 규모의 대학 병원 네트워크 중 하나
+- 인간 중심 의학을 강조하는 교육 철학
+- 최첨단 임상 시뮬레이션 센터 보유
+- 토치기현의 평온하고 안전한 학습 환경
+id: univ_dokkyo-medical-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 8%
+  international_students: 18
+tags:
+- 일본 최대 규모의 대학 병원 네트워크 중 하나
+- 인간 중심 의학을 강조하는 교육 철학
+- 최첨단 임상 시뮬레이션 센터 보유
+- 토치기현의 평온하고 안전한 학습 환경
+thumbnail: /static/img/pin-univ.png
+title: 독쿄 의과대학교 (Dokkyo Medical University)
+tuition:
+  admission_fee: 1000000
+  yearly_tuition: 3700000
 ---
 
 ## 🏫 학교 개요

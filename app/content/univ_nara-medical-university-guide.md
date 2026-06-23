@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nara-medical-university-guide",
-  "title": "Nara Medical University",
-  "category": "university",
-  "tags": [
-    "World-class Research in Transfusion Medicine",
-    "Integration of Smart City Technology with Healthcare",
-    "Highly specialized Cancer Center",
-    "Location in the historic heart of Japan (Asuka/Kashihara)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "奈良県立医科大学",
-    "name_en": "Nara Medical University",
-    "address": "840 Shijo-cho, Kashihara, Nara 634-8521, Japan",
-    "capacity": 1100
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "5-10%"
-  },
-  "tuition": {
-    "admission_fee": 564000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Medicine",
-    "School of Medicine",
-    "School of Nursing",
-    "Graduate School of Medicine",
-    "Graduate School of Nursing"
-  ],
-  "features": [
-    "World-class Research in Transfusion Medicine",
-    "Integration of Smart City Technology with Healthcare",
-    "Highly specialized Cancer Center",
-    "Location in the historic heart of Japan (Asuka/Kashihara)"
-  ]
-}
+basic_info:
+  address: 840 Shijo-cho, Kashihara, Nara 634-8521, Japan
+  capacity: 1100
+  name_en: Nara Medical University
+  name_ja: 奈良県立医科大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Medicine
+- School of Medicine
+- School of Nursing
+- Graduate School of Medicine
+- Graduate School of Nursing
+features:
+- World-class Research in Transfusion Medicine
+- Integration of Smart City Technology with Healthcare
+- Highly specialized Cancer Center
+- Location in the historic heart of Japan (Asuka/Kashihara)
+id: univ_nara-medical-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 5-10%
+  international_students: 15
+tags:
+- World-class Research in Transfusion Medicine
+- Integration of Smart City Technology with Healthcare
+- Highly specialized Cancer Center
+- Location in the historic heart of Japan (Asuka/Kashihara)
+thumbnail: /static/img/pin-univ.png
+title: Nara Medical University
+tuition:
+  admission_fee: 564000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

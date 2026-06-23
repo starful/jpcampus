@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-shinwa-university-guide",
-  "title": "고베 신와 대학교",
-  "description": "교육학 및 심리학 분야에서 전통을 자랑하는 고베 신와 대학교는 2023년 남녀공학으로 새롭게 전환하며, 학생 한 명 한 명에게 집중하는 세심한 교육 환경과 강력한 취업 지원을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "교원 양성 및 교육학 전문성",
-    "2023년 남녀공학 전환",
-    "지역 사회와의 강력한 연계",
-    "유학생을 위한 맞춤형 커리어 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸親和大学",
-    "name_en": "Kobe Shinwa University",
-    "address": "7-13-1 Suzurandai-kitamachi, Kita-ku, Kobe, Hyogo 651-1111, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 85,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "교육학부",
-    "심리·사회복지학부",
-    "문학부",
-    "국제학부",
-    "단기대학부"
-  ],
-  "features": [
-    "교원 양성 및 교육학 분야의 뛰어난 전문성",
-    "2023년 남녀공학 전환을 통한 새로운 도약",
-    "지역 사회와 연계된 실전형 교육 프로그램",
-    "유학생 맞춤형 1:1 진로 및 취업 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 7-13-1 Suzurandai-kitamachi, Kita-ku, Kobe, Hyogo 651-1111, Japan
+  capacity: null
+  name_en: Kobe Shinwa University
+  name_ja: 神戸親和大学
+category: university
+date: '2026-04-19'
+description: 교육학 및 심리학 분야에서 전통을 자랑하는 고베 신와 대학교는 2023년 남녀공학으로 새롭게 전환하며, 학생 한 명 한 명에게
+  집중하는 세심한 교육 환경과 강력한 취업 지원을 제공합니다.
+faculties:
+- 교육학부
+- 심리·사회복지학부
+- 문학부
+- 국제학부
+- 단기대학부
+features:
+- 교원 양성 및 교육학 분야의 뛰어난 전문성
+- 2023년 남녀공학 전환을 통한 새로운 도약
+- 지역 사회와 연계된 실전형 교육 프로그램
+- 유학생 맞춤형 1:1 진로 및 취업 지원
+id: univ_kobe-shinwa-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 85
+tags:
+- 교원 양성 및 교육학 전문성
+- 2023년 남녀공학 전환
+- 지역 사회와의 강력한 연계
+- 유학생을 위한 맞춤형 커리어 지원
+thumbnail: /static/img/pin-univ.png
+title: 고베 신와 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 대학 개요

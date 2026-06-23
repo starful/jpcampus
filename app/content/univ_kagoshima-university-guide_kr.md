@@ -1,54 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kagoshima-university-guide",
-  "title": "가고시마 대학교",
-  "category": "university",
-  "tags": [
-    "열대 및 해양 과학 분야 선도 기관",
-    "독특한 수의학 공동 학부",
-    "일본 우주 센터와 전략적 근접성",
-    "'기업가 정신'과 지역 활성화에 대한 강력한 집중"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鹿児島大学",
-    "name_en": "Kagoshima University",
-    "address": "1-21-24 Korimoto, Kagoshima City, Kagoshima, 890-8580, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "법문학부",
-    "교육학부",
-    "이학부",
-    "의학부",
-    "치학부",
-    "공학부",
-    "농학부",
-    "수산학부",
-    "수의학 공동 학부"
-  ],
-  "features": [
-    "열대 및 해양 과학 분야 선도 기관",
-    "독특한 수의학 공동 학부",
-    "일본 우주 센터와 전략적 근접성",
-    "'기업가 정신'과 지역 활성화에 대한 강력한 집중"
-  ],
-  "description": "규슈 최남단 가고시마에 위치한 국립 가고시마 대학교에 대한 안내입니다. 열대 해양 과학, 수산학, 농업, 우주 과학 분야에서 두각을 나타내며, 국제 학생들에게 훌륭한 학업 환경과 독특한 문화 경험을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-21-24 Korimoto, Kagoshima City, Kagoshima, 890-8580, Japan
+  capacity: null
+  name_en: Kagoshima University
+  name_ja: 鹿児島大学
+category: university
+date: '2026-02-13'
+description: 규슈 최남단 가고시마에 위치한 국립 가고시마 대학교에 대한 안내입니다. 열대 해양 과학, 수산학, 농업, 우주 과학 분야에서
+  두각을 나타내며, 국제 학생들에게 훌륭한 학업 환경과 독특한 문화 경험을 제공합니다.
+faculties:
+- 법문학부
+- 교육학부
+- 이학부
+- 의학부
+- 치학부
+- 공학부
+- 농학부
+- 수산학부
+- 수의학 공동 학부
+features:
+- 열대 및 해양 과학 분야 선도 기관
+- 독특한 수의학 공동 학부
+- 일본 우주 센터와 전략적 근접성
+- '''기업가 정신''과 지역 활성화에 대한 강력한 집중'
+id: univ_kagoshima-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 320
+tags:
+- 열대 및 해양 과학 분야 선도 기관
+- 독특한 수의학 공동 학부
+- 일본 우주 센터와 전략적 근접성
+- '''기업가 정신''과 지역 활성화에 대한 강력한 집중'
+thumbnail: /static/img/pin-univ.png
+title: 가고시마 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 소개: 일본 우수성의 남쪽 관문

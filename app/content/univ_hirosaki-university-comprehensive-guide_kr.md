@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hirosaki-university-comprehensive-guide",
-  "title": "히로사키 대학교",
-  "category": "university",
-  "tags": [
-    "Leading regional national university in Northern Japan",
-    "World-renowned research in Apple science and agricultural technology",
-    "Strong focus on Renewable Energy and Environmental Sciences",
-    "Highly affordable cost of living compared to major Japanese metropolises"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "弘前大学",
-    "name_en": "Hirosaki University",
-    "address": "1 Bunkyo-cho, Hirosaki, Aomori 036-8560, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 195,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education",
-    "School of Medicine",
-    "Faculty of Science and Technology",
-    "Faculty of Agriculture and Life Science"
-  ],
-  "features": [
-    "일본 북부 지역을 선도하는 국립 대학",
-    "사과 과학 및 농업 기술 분야에서 세계적으로 인정받는 연구",
-    "신재생 에너지 및 환경 과학에 대한 강력한 집중",
-    "일본 주요 대도시에 비해 매우 저렴한 생활비"
-  ],
-  "description": "아오모리현에 위치한 히로사키 대학교는 일본의 명문 국립 대학 중 하나입니다. 사과 연구, 신재생에너지, 저렴한 생활비 등이 특징입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1 Bunkyo-cho, Hirosaki, Aomori 036-8560, Japan
+  capacity: null
+  name_en: Hirosaki University
+  name_ja: 弘前大学
+category: university
+date: '2026-02-13'
+description: 아오모리현에 위치한 히로사키 대학교는 일본의 명문 국립 대학 중 하나입니다. 사과 연구, 신재생에너지, 저렴한 생활비 등이
+  특징입니다.
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education
+- School of Medicine
+- Faculty of Science and Technology
+- Faculty of Agriculture and Life Science
+features:
+- 일본 북부 지역을 선도하는 국립 대학
+- 사과 과학 및 농업 기술 분야에서 세계적으로 인정받는 연구
+- 신재생 에너지 및 환경 과학에 대한 강력한 집중
+- 일본 주요 대도시에 비해 매우 저렴한 생활비
+id: univ_hirosaki-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 195
+tags:
+- Leading regional national university in Northern Japan
+- World-renowned research in Apple science and agricultural technology
+- Strong focus on Renewable Energy and Environmental Sciences
+- Highly affordable cost of living compared to major Japanese metropolises
+thumbnail: /static/img/pin-univ.png
+title: 히로사키 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

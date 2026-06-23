@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_josai-university-comprehensive-guide-international-students",
-  "title": "조사이대학교 (Josai University) 종합 가이드",
-  "description": "약학 및 이공계 분야의 강력한 전문성과 중부 유럽과의 독자적인 글로벌 네트워크를 자랑하는 조사이대학교를 소개합니다.",
-  "category": "university",
-  "tags": [
-    "명성 높은 약학 프로그램",
-    "중부 유럽 대학들과의 전략적 글로벌 네트워크",
-    "강력한 지역 사회 연계 및 실무 정책 연구",
-    "미즈타 기념 미술관을 통한 문화 통합"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "城西大学",
-    "name_en": "Josai University",
-    "address": "1-1 Keyakidai, Sakado-shi, Saitama 350-0295, Japan",
-    "capacity": 7500
-  },
-  "stats": {
-    "international_students": 650,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "약학부",
-    "이학부",
-    "경제학부",
-    "현대정책학부",
-    "경영학부"
-  ],
-  "features": [
-    "명성 높은 약학 프로그램",
-    "중부 유럽 대학들과의 전략적 글로벌 네트워크",
-    "강력한 지역 사회 연계 및 실무 정책 연구",
-    "미즈타 기념 미술관을 통한 문화 통합"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Keyakidai, Sakado-shi, Saitama 350-0295, Japan
+  capacity: 7500
+  name_en: Josai University
+  name_ja: 城西大学
+category: university
+date: '2026-03-08'
+description: 약학 및 이공계 분야의 강력한 전문성과 중부 유럽과의 독자적인 글로벌 네트워크를 자랑하는 조사이대학교를 소개합니다.
+faculties:
+- 약학부
+- 이학부
+- 경제학부
+- 현대정책학부
+- 경영학부
+features:
+- 명성 높은 약학 프로그램
+- 중부 유럽 대학들과의 전략적 글로벌 네트워크
+- 강력한 지역 사회 연계 및 실무 정책 연구
+- 미즈타 기념 미술관을 통한 문화 통합
+id: univ_josai-university-comprehensive-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 650
+tags:
+- 명성 높은 약학 프로그램
+- 중부 유럽 대학들과의 전략적 글로벌 네트워크
+- 강력한 지역 사회 연계 및 실무 정책 연구
+- 미즈타 기념 미술관을 통한 문화 통합
+thumbnail: /static/img/pin-univ.png
+title: 조사이대학교 (Josai University) 종합 가이드
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요

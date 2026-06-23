@@ -5,6 +5,7 @@ basic_info:
   name_ja: 東京大学
   website: https://www.u-tokyo.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Law
 - Faculty of Medicine

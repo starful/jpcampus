@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gunma-university-of-health-and-welfare",
-  "title": "Gunma University of Health and Welfare",
-  "category": "university",
-  "tags": [
-    "Integrated Healthcare and Welfare Education",
-    "Exceptional National License Pass Rates",
-    "Community-Rooted Practical Training",
-    "Small Class Sizes and Personalized Mentorship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "群馬医療福祉大学",
-    "name_en": "Gunma University of Health and Welfare",
-    "address": "606-7 Aramaki-machi, Maebashi, Gunma 371-0044, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 22,
-    "acceptance_rate": "72%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Social Welfare",
-    "Faculty of Nursing",
-    "Faculty of Rehabilitation"
-  ],
-  "features": [
-    "Integrated Healthcare and Welfare Education",
-    "Exceptional National License Pass Rates",
-    "Community-Rooted Practical Training",
-    "Small Class Sizes and Personalized Mentorship"
-  ]
-}
+basic_info:
+  address: 606-7 Aramaki-machi, Maebashi, Gunma 371-0044, Japan
+  capacity: null
+  name_en: Gunma University of Health and Welfare
+  name_ja: 群馬医療福祉大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Social Welfare
+- Faculty of Nursing
+- Faculty of Rehabilitation
+features:
+- Integrated Healthcare and Welfare Education
+- Exceptional National License Pass Rates
+- Community-Rooted Practical Training
+- Small Class Sizes and Personalized Mentorship
+id: univ_gunma-university-of-health-and-welfare
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 72%
+  international_students: 22
+tags:
+- Integrated Healthcare and Welfare Education
+- Exceptional National License Pass Rates
+- Community-Rooted Practical Training
+- Small Class Sizes and Personalized Mentorship
+thumbnail: /static/img/pin-univ.png
+title: Gunma University of Health and Welfare
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

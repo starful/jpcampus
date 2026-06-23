@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chiba-university-of-commerce-guide",
-  "title": "치바상과대학교 (Chiba University of Commerce)",
-  "description": "일본 최초의 RE100 대학으로서 실무 중심의 비즈니스 교육과 강력한 취업 지원 시스템을 갖춘 치바상과대학교를 소개합니다. 도쿄 도심과 인접한 뛰어난 접근성과 유학생을 위한 탄탄한 지원 정책을 확인해 보세요.",
-  "category": "university",
-  "tags": [
-    "일본 최초의 RE100 대학",
-    "실무 중심 비즈니스 교육",
-    "강력한 취업 지원 및 높은 취업률",
-    "도쿄 도심 인근의 전략적 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "千葉商科大学",
-    "name_en": "Chiba University of Commerce",
-    "address": "1-3-1 Konodai, Ichikawa-shi, Chiba, 272-8512, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 542,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Commerce and Economics",
-    "Faculty of Economics",
-    "Faculty of Policy Studies",
-    "Faculty of Service Management",
-    "Faculty of Human and Social Studies"
-  ],
-  "features": [
-    "일본 최초의 RE100 대학",
-    "실무 중심의 비즈니스 교육",
-    "강력한 커리어 지원 및 높은 취업률",
-    "도쿄 도심과 가까운 전략적 위치"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-3-1 Konodai, Ichikawa-shi, Chiba, 272-8512, Japan
+  capacity: null
+  name_en: Chiba University of Commerce
+  name_ja: 千葉商科大学
+category: university
+date: '2026-03-08'
+description: 일본 최초의 RE100 대학으로서 실무 중심의 비즈니스 교육과 강력한 취업 지원 시스템을 갖춘 치바상과대학교를 소개합니다.
+  도쿄 도심과 인접한 뛰어난 접근성과 유학생을 위한 탄탄한 지원 정책을 확인해 보세요.
+faculties:
+- Faculty of Commerce and Economics
+- Faculty of Economics
+- Faculty of Policy Studies
+- Faculty of Service Management
+- Faculty of Human and Social Studies
+features:
+- 일본 최초의 RE100 대학
+- 실무 중심의 비즈니스 교육
+- 강력한 커리어 지원 및 높은 취업률
+- 도쿄 도심과 가까운 전략적 위치
+id: univ_chiba-university-of-commerce-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 542
+tags:
+- 일본 최초의 RE100 대학
+- 실무 중심 비즈니스 교육
+- 강력한 취업 지원 및 높은 취업률
+- 도쿄 도심 인근의 전략적 위치
+thumbnail: /static/img/pin-univ.png
+title: 치바상과대학교 (Chiba University of Commerce)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요

@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-shinwa-university-guide",
-  "title": "Kobe Shinwa University",
-  "category": "university",
-  "tags": [
-    "Expertise in Teacher Training and Pedagogy",
-    "Transitioned to Co-educational in 2023",
-    "Strong Local Community Integration",
-    "Personalized Career Support for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸親和大学",
-    "name_en": "Kobe Shinwa University",
-    "address": "7-13-1 Suzurandai-kitamachi, Kita-ku, Kobe, Hyogo 651-1111, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 85,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Psychology and Social Welfare",
-    "Faculty of Literature",
-    "Faculty of International Studies",
-    "Faculty of Junior College"
-  ],
-  "features": [
-    "Expertise in Teacher Training and Pedagogy",
-    "Transitioned to Co-educational in 2023",
-    "Strong Local Community Integration",
-    "Personalized Career Support for International Students"
-  ]
-}
+basic_info:
+  address: 7-13-1 Suzurandai-kitamachi, Kita-ku, Kobe, Hyogo 651-1111, Japan
+  capacity: null
+  name_en: Kobe Shinwa University
+  name_ja: 神戸親和大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Education
+- Faculty of Psychology and Social Welfare
+- Faculty of Literature
+- Faculty of International Studies
+- Faculty of Junior College
+features:
+- Expertise in Teacher Training and Pedagogy
+- Transitioned to Co-educational in 2023
+- Strong Local Community Integration
+- Personalized Career Support for International Students
+id: univ_kobe-shinwa-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 85
+tags:
+- Expertise in Teacher Training and Pedagogy
+- Transitioned to Co-educational in 2023
+- Strong Local Community Integration
+- Personalized Career Support for International Students
+thumbnail: /static/img/pin-univ.png
+title: Kobe Shinwa University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 University Overview

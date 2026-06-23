@@ -1,69 +1,57 @@
 ---
-{
-  "basic_info": {
-    "address": "神奈川県横浜市中区野毛町1-29-4",
-    "capacity": 140,
-    "name_en": "Aishin International Academy",
-    "name_ja": "愛心国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "7",
-      "course_name": "진학 과정 1년 9개월 코스",
-      "total_fees": 1131000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "진학 과정 2년 코스",
-      "total_fees": 1277000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "진학 과정 1년 6개월 코스",
-      "total_fees": 979000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "소규모 학급 시스템 (少人数制)",
-    "집중적인 진학 및 진로 상담 (進路相談)",
-    "전용 학생 기숙사 옵션",
-    "개인(싱글) 룸 이용 가능",
-    "우수 학생 장학금 기회",
-    "EJU (이과/문과) 특화 준비",
-    "미술 디자인 포트폴리오 준비반",
-    "통합 비즈니스 일본어 훈련",
-    "단기 유학 비자 옵션 이용 가능"
-  ],
-  "id": "school_aishin-international-academy-yokohama",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.4480306,
-    "lng": 139.6306946
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=245",
-  "stats": {
-    "capacity": 140,
-    "international_students": 140
-  },
-  "tags": [
-    "Small Class Size System (少人数制)",
-    "Intensive Academic and Career Counseling (進路相談)",
-    "Dedicated Student Dormitory Options",
-    "Availability of Private (Single) Rooms",
-    "Scholarship Opportunities for High Achievers",
-    "Specialized EJU (Science and Liberal Arts) Preparation",
-    "Art and Design Portfolio Preparation Track",
-    "Integrated Business Japanese Training",
-    "Short-term Study Visa Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아이신 국제学院",
-  "tuition": {},
-  "description": "요코하마에 위치한 아이신 국제学院은 소규모 학급과 EJU 집중 대비반으로 유명합니다. 대학 진학을 목표로 하는 학생들에게 맞춤형 지원을 제공합니다."
-}
+basic_info:
+  address: 神奈川県横浜市中区野毛町1-29-4
+  capacity: 140
+  name_en: Aishin International Academy
+  name_ja: 愛心国際学院
+category: school
+courses:
+- admission_month: '7'
+  course_name: 진학 과정 1년 9개월 코스
+  total_fees: 1131000
+- admission_month: '4'
+  course_name: 진학 과정 2년 코스
+  total_fees: 1277000
+- admission_month: '10'
+  course_name: 진학 과정 1년 6개월 코스
+  total_fees: 979000
+date: '2026-01-28'
+description: 요코하마에 위치한 아이신 국제学院은 소규모 학급과 EJU 집중 대비반으로 유명합니다. 대학 진학을 목표로 하는 학생들에게 맞춤형
+  지원을 제공합니다.
+faculties: []
+features:
+- 소규모 학급 시스템 (少人数制)
+- 집중적인 진학 및 진로 상담 (進路相談)
+- 전용 학생 기숙사 옵션
+- 개인(싱글) 룸 이용 가능
+- 우수 학생 장학금 기회
+- EJU (이과/문과) 특화 준비
+- 미술 디자인 포트폴리오 준비반
+- 통합 비즈니스 일본어 훈련
+- 단기 유학 비자 옵션 이용 가능
+id: school_aishin-international-academy-yokohama
+lang: kr
+layout: school
+location:
+  lat: 35.4480306
+  lng: 139.6306946
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=245
+stats:
+  capacity: 140
+  international_students: 140
+tags:
+- Small Class Size System (少人数制)
+- Intensive Academic and Career Counseling (進路相談)
+- Dedicated Student Dormitory Options
+- Availability of Private (Single) Rooms
+- Scholarship Opportunities for High Achievers
+- Specialized EJU (Science and Liberal Arts) Preparation
+- Art and Design Portfolio Preparation Track
+- Integrated Business Japanese Training
+- Short-term Study Visa Options Available
+thumbnail: /static/img/pin-school.png
+title: 아이신 국제学院
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

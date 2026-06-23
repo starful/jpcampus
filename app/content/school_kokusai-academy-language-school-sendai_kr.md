@@ -1,61 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "宮城県仙台市宮城野区榴岡1-5-3",
-    "capacity": 225,
-    "name_en": "Kokusai Academy Language School",
-    "name_ja": "国際アカデミーランゲージスクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1575000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1390500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1206000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "센다이(도호쿠 지역)의 전략적 위치",
-    "EJU 및 대학 진학 집중 트랙",
-    "교내 또는 제휴 기숙사 숙박 시설",
-    "비즈니스 일본어 전문 훈련을 포함하는 커리큘럼",
-    "우수 학생을 위한 적극적인 장학금 기회"
-  ],
-  "id": "school_kokusai-academy-language-school-sendai",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 38.2577568,
-    "lng": 140.8836868
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=611",
-  "stats": {
-    "capacity": 225,
-    "international_students": 0
-  },
-  "tags": [
-    "Strategic Location in Sendai (Tohoku Region)",
-    "Dedicated EJU and University Advancement Tracks",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Curriculum includes Specialized Business Japanese Training",
-    "Active Scholarship Opportunities for High Performers"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "국제 아카데미 랭귀지 스쿨",
-  "description": "센다이에 위치한 국제 아카데미 랭귀지 스쿨은 대학 진학 및 취업 준비에 중점을 둔 종합적인 일본어 교육을 제공합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 宮城県仙台市宮城野区榴岡1-5-3
+  capacity: 225
+  name_en: Kokusai Academy Language School
+  name_ja: 国際アカデミーランゲージスクール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1575000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1390500
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1206000
+date: '2026-01-28'
+description: 센다이에 위치한 국제 아카데미 랭귀지 스쿨은 대학 진학 및 취업 준비에 중점을 둔 종합적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 센다이(도호쿠 지역)의 전략적 위치
+- EJU 및 대학 진학 집중 트랙
+- 교내 또는 제휴 기숙사 숙박 시설
+- 비즈니스 일본어 전문 훈련을 포함하는 커리큘럼
+- 우수 학생을 위한 적극적인 장학금 기회
+id: school_kokusai-academy-language-school-sendai
+lang: kr
+layout: school
+location:
+  lat: 38.2577568
+  lng: 140.8836868
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=611
+stats:
+  capacity: 225
+  international_students: 0
+tags:
+- Strategic Location in Sendai (Tohoku Region)
+- Dedicated EJU and University Advancement Tracks
+- On-Campus or Affiliated Dormitory Accommodation
+- Curriculum includes Specialized Business Japanese Training
+- Active Scholarship Opportunities for High Performers
+thumbnail: /static/img/pin-school.png
+title: 국제 아카데미 랭귀지 스쿨
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

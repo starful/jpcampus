@@ -1,61 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中川区山王3-10-9",
-    "capacity": 200,
-    "name_en": "Asahi Culture Academy",
-    "name_ja": "ASAHI文化学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2年進学コース",
-      "total_fees": 1396000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1年6ヶ月進学コース",
-      "total_fees": 1096000
-    }
-  ],
-  "description": "나고야에 위치한 아사히 문화 학원은 국제 학생들에게 종합적인 일본어 교육을 제공하며, 일본에서의 대학 진학 및 취업을 위한 준비에 중점을 둡니다. 기숙사, EJU 시험 준비, 비즈니스 일본어 강좌 등의 특징을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "대학 진학 과정",
-    "회화 중심",
-    "비즈니스 일본어",
-    "이공계 특화",
-    "단기 코스"
-  ],
-  "id": "school_asahi-bunka-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.1514792,
-    "lng": 136.8909309
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=533",
-  "stats": {
-    "capacity": 200,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focused",
-    "Business Japanese",
-    "Science Focus",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아사히 문화 학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県名古屋市中川区山王3-10-9
+  capacity: 200
+  name_en: Asahi Culture Academy
+  name_ja: ASAHI文化学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2年進学コース
+  total_fees: 1396000
+- admission_month: '10'
+  course_name: 1年6ヶ月進学コース
+  total_fees: 1096000
+date: '2026-01-28'
+description: 나고야에 위치한 아사히 문화 학원은 국제 학생들에게 종합적인 일본어 교육을 제공하며, 일본에서의 대학 진학 및 취업을 위한
+  준비에 중점을 둡니다. 기숙사, EJU 시험 준비, 비즈니스 일본어 강좌 등의 특징을 제공합니다.
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 대학 진학 과정
+- 회화 중심
+- 비즈니스 일본어
+- 이공계 특화
+- 단기 코스
+id: school_asahi-bunka-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.1514792
+  lng: 136.8909309
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=533
+stats:
+  capacity: 200
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focused
+- Business Japanese
+- Science Focus
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 아사히 문화 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

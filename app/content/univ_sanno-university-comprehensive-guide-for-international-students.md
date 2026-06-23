@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sanno-university-comprehensive-guide-for-international-students",
-  "title": "Sanno University",
-  "category": "university",
-  "tags": [
-    "Pioneering Active Learning and PBL (Project Based Learning)",
-    "Top-tier Employment Rate among Private Business Schools",
-    "Strong Links with Major Japanese Corporations",
-    "Prime Location in Jiyugaoka, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "産業能率大学",
-    "name_en": "Sanno University",
-    "address": "6-39-15 Todoroki, Setagaya-ku, Tokyo 158-8630, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "Estimated 35% - 45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Information Management"
-  ],
-  "features": [
-    "Pioneering Active Learning and PBL (Project Based Learning)",
-    "Top-tier Employment Rate among Private Business Schools",
-    "Strong Links with Major Japanese Corporations",
-    "Prime Location in Jiyugaoka, Tokyo"
-  ]
-}
+basic_info:
+  address: 6-39-15 Todoroki, Setagaya-ku, Tokyo 158-8630, Japan
+  capacity: null
+  name_en: Sanno University
+  name_ja: 産業能率大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Management
+- Faculty of Information Management
+features:
+- Pioneering Active Learning and PBL (Project Based Learning)
+- Top-tier Employment Rate among Private Business Schools
+- Strong Links with Major Japanese Corporations
+- Prime Location in Jiyugaoka, Tokyo
+id: univ_sanno-university-comprehensive-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 35% - 45%
+  international_students: 245
+tags:
+- Pioneering Active Learning and PBL (Project Based Learning)
+- Top-tier Employment Rate among Private Business Schools
+- Strong Links with Major Japanese Corporations
+- Prime Location in Jiyugaoka, Tokyo
+thumbnail: /static/img/pin-univ.png
+title: Sanno University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 University Overview: The Sanno Legacy

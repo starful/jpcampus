@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: Comprehensive University Progression Course (1 Year)
   total_fees: 989000
+date: '2026-01-28'
 faculties: []
 features:
 - Dedicated Focus on University and Graduate School Progression

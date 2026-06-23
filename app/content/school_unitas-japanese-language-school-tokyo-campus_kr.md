@@ -1,69 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区大久保2-2-9 22山京ビル3Ｆ",
-    "capacity": 840,
-    "name_en": "UNITAS Japanese Language School, Tokyo Campus",
-    "name_ja": "ユニタス日本語学校東京校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 992500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1185500
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1372500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1560000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1560000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 및 대학원 진학 집중 대비 (신가쿠)",
-    "EJU (일본유학시험) 및 JLPT (일본어능력시험) 집중 훈련",
-    "높은 수용력과 다양한 국적의 학생 구성",
-    "신주쿠 신오쿠보의 중심가에 위치 (도쿄의 중심)",
-    "풍부한 장학금 기회 및 재정 지원"
-  ],
-  "id": "school_unitas-japanese-language-school-tokyo-campus",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7027498,
-    "lng": 139.7086461
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=118",
-  "stats": {},
-  "tags": [
-    "Intensive University and Graduate School Preparation (Shingaku)",
-    "Dedicated EJU (Examination for Japanese University Admission) and JLPT (Japanese Language Proficiency Test) Training",
-    "High Capacity and Diverse International Student Body",
-    "Prime Location in Shin-Okubo, Shinjuku (Tokyo's Core)",
-    "Generous Scholarship Opportunities and Financial Aid"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "UNITAS 일본어학교, 도쿄 캠퍼스",
-  "translated": true,
-  "tuition": {},
-  "description": "UNITAS 일본어학교 도쿄 캠퍼스는 명문 대학 진학을 위한 체계적인 커리큘럼과 다양한 국적의 학생들이 함께하는 국제적인 학습 환경을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区大久保2-2-9 22山京ビル3Ｆ
+  capacity: 840
+  name_en: UNITAS Japanese Language School, Tokyo Campus
+  name_ja: ユニタス日本語学校東京校
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 992500
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1185500
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1372500
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1560000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1560000
+date: '2026-01-28'
+description: UNITAS 일본어학교 도쿄 캠퍼스는 명문 대학 진학을 위한 체계적인 커리큘럼과 다양한 국적의 학생들이 함께하는 국제적인 학습
+  환경을 제공합니다.
+faculties: []
+features:
+- 대학 및 대학원 진학 집중 대비 (신가쿠)
+- EJU (일본유학시험) 및 JLPT (일본어능력시험) 집중 훈련
+- 높은 수용력과 다양한 국적의 학생 구성
+- 신주쿠 신오쿠보의 중심가에 위치 (도쿄의 중심)
+- 풍부한 장학금 기회 및 재정 지원
+id: school_unitas-japanese-language-school-tokyo-campus
+lang: kr
+layout: school
+location:
+  lat: 35.7027498
+  lng: 139.7086461
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=118
+stats: {}
+tags:
+- Intensive University and Graduate School Preparation (Shingaku)
+- Dedicated EJU (Examination for Japanese University Admission) and JLPT (Japanese
+  Language Proficiency Test) Training
+- High Capacity and Diverse International Student Body
+- Prime Location in Shin-Okubo, Shinjuku (Tokyo's Core)
+- Generous Scholarship Opportunities and Financial Aid
+thumbnail: /static/img/pin-school.png
+title: UNITAS 일본어학교, 도쿄 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

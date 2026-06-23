@@ -1,56 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanto-gakuin-university",
-  "title": "Kanto Gakuin University",
-  "category": "university",
-  "tags": [
-    "Christian Baptist Educational Values",
-    "Innovative Kannai Campus (Urban Learning Hub)",
-    "Strong Practical and Vocational Focus",
-    "Strategic Location in Yokohama",
-    "High Graduate Employment Rates",
-    "Comprehensive Support for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "関東学院大学",
-    "name_en": "Kanto Gakuin University",
-    "address": "1-50-1 Mutsuura-higashi, Kanazawa-ku, Yokohama, Kanagawa 236-8501, Japan",
-    "capacity": 11000
-  },
-  "stats": {
-    "international_students": 420,
-    "acceptance_rate": "45-55% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Humanities",
-    "Faculty of Intercultural Studies",
-    "Faculty of Science and Engineering",
-    "Faculty of Architecture and Environmental Design",
-    "Faculty of Nursing",
-    "Faculty of Education"
-  ],
-  "features": [
-    "Christian Baptist Educational Values",
-    "Innovative Kannai Campus (Urban Learning Hub)",
-    "Strong Practical and Vocational Focus",
-    "Strategic Location in Yokohama",
-    "High Graduate Employment Rates",
-    "Comprehensive Support for International Students"
-  ]
-}
+basic_info:
+  address: 1-50-1 Mutsuura-higashi, Kanazawa-ku, Yokohama, Kanagawa 236-8501, Japan
+  capacity: 11000
+  name_en: Kanto Gakuin University
+  name_ja: 関東学院大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Humanities
+- Faculty of Intercultural Studies
+- Faculty of Science and Engineering
+- Faculty of Architecture and Environmental Design
+- Faculty of Nursing
+- Faculty of Education
+features:
+- Christian Baptist Educational Values
+- Innovative Kannai Campus (Urban Learning Hub)
+- Strong Practical and Vocational Focus
+- Strategic Location in Yokohama
+- High Graduate Employment Rates
+- Comprehensive Support for International Students
+id: univ_kanto-gakuin-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Estimated)
+  international_students: 420
+tags:
+- Christian Baptist Educational Values
+- Innovative Kannai Campus (Urban Learning Hub)
+- Strong Practical and Vocational Focus
+- Strategic Location in Yokohama
+- High Graduate Employment Rates
+- Comprehensive Support for International Students
+thumbnail: /static/img/pin-univ.png
+title: Kanto Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

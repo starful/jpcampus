@@ -12,6 +12,9 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1172300
+date: '2026-06-12'
+description: Learn about Saitama Briller Japanese Language School. Find tuition fees,
+  course details, admission requirements, and student reviews on JP Campus.
 faculties: []
 features:
 - University and Vocational School Advancement Focus (進学)
@@ -29,6 +32,10 @@ layout: school
 location:
   lat: 35.8514016
   lng: 139.4164522
+seo_description: Thinking of studying in Saitama? Explore Saitama Briller Japanese
+  Language School's tuition, courses, admission guidelines, and student life on JP
+  Campus.
+seo_title: 'Saitama Briller Japanese Language School: Tuition & Reviews'
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=567
 stats:
   capacity: 120
@@ -46,14 +53,7 @@ tags:
 thumbnail: /static/img/pin-school.png
 title: Saitama Briller Japanese Language School
 tuition: {}
-description: Learn about Saitama Briller Japanese Language School. Find tuition fees,
-  course details, admission requirements, and student reviews on JP Campus.
-seo_title: 'Saitama Briller Japanese Language School: Tuition & Reviews'
-seo_description: Thinking of studying in Saitama? Explore Saitama Briller Japanese
-  Language School's tuition, courses, admission guidelines, and student life on JP
-  Campus.
 ---
-
 
 ## 🏫 School Overview & Philosophy
 

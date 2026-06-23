@@ -1,46 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_akita-international-university-aiu-guide",
-  "title": "Akita International University",
-  "category": "university",
-  "tags": [
-    "All-English Curriculum",
-    "Mandatory One-Year Study Abroad",
-    "24/7 Open Library",
-    "Mandatory Freshman Dormitory Life",
-    "High Employment Rate in Global Companies"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "国際教養大学",
-    "name_en": "Akita International University",
-    "address": "193-2 Okutsubakidai, Yuwa Tsubakigawa, Akita City, Akita Prefecture 010-1292, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 200,
-    "acceptance_rate": "15-25% (Highly Competitive)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 696000
-  },
-  "faculties": [
-    "Faculty of International Liberal Arts"
-  ],
-  "features": [
-    "All-English Curriculum",
-    "Mandatory One-Year Study Abroad",
-    "24/7 Open Library",
-    "Mandatory Freshman Dormitory Life",
-    "High Employment Rate in Global Companies"
-  ]
-}
+basic_info:
+  address: 193-2 Okutsubakidai, Yuwa Tsubakigawa, Akita City, Akita Prefecture 010-1292,
+    Japan
+  capacity: null
+  name_en: Akita International University
+  name_ja: 国際教養大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of International Liberal Arts
+features:
+- All-English Curriculum
+- Mandatory One-Year Study Abroad
+- 24/7 Open Library
+- Mandatory Freshman Dormitory Life
+- High Employment Rate in Global Companies
+id: univ_akita-international-university-aiu-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (Highly Competitive)
+  international_students: 200
+tags:
+- All-English Curriculum
+- Mandatory One-Year Study Abroad
+- 24/7 Open Library
+- Mandatory Freshman Dormitory Life
+- High Employment Rate in Global Companies
+thumbnail: /static/img/pin-univ.png
+title: Akita International University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 696000
 ---
 
 ## 🏫 University Overview: The AIU Revolution

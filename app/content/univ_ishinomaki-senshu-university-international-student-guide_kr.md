@@ -1,53 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ishinomaki-senshu-university-international-student-guide",
-  "title": "이시노마키 센슈 대학교 외국인 유학생 가이드 (2026년 최신)",
-  "description": "2026학년도 이시노마키 센슈 대학교 외국인 유학생 입시 요강 및 학비 감면, 장학금, 편입학 정보를 한눈에 확인하세요.",
-  "category": "university",
-  "tags": [
-    "지역 사회와의 강력한 연계",
-    "도쿄 명문 센슈 대학교 부속교",
-    "재해 후 지역 공동체 재생 특화 교육",
-    "이공학 계열의 우수한 실습 시설"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "石巻専修大学",
-    "name_en": "Ishinomaki Senshu University",
-    "address": "1 Shin-Mishiro, Ishinomaki-shi, Miyagi 986-8580, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "Approx. 65-75% for qualified international applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "경영학부",
-    "이공학부",
-    "인간학부"
-  ],
-  "features": [
-    "지역 사회와의 강력한 연계",
-    "도쿄 명문 센슈 대학교 부속교",
-    "재해 후 지역 공동체 재생 특화 교육",
-    "이공학 계열의 우수한 실습 시설"
-  ],
-  "lang": "kr",
-  "seo_title": "2026 이시노마키 센슈 대학교 유학생 입시 가이드 (학비 감면) | JP Campus",
-  "seo_description": "2026학년도 이시노마키 센슈 대학교 외국인 유학생 모집요강! 학비 감면 혜택, 장학금 제도, 학부별 입시 및 편입학 정보까지 합격 핵심 정보를 JP Campus에서 지금 확인하세요."
-}
+basic_info:
+  address: 1 Shin-Mishiro, Ishinomaki-shi, Miyagi 986-8580, Japan
+  capacity: null
+  name_en: Ishinomaki Senshu University
+  name_ja: 石巻専修大学
+category: university
+date: '2026-06-19'
+description: 2026학년도 이시노마키 센슈 대학교 외국인 유학생 입시 요강 및 학비 감면, 장학금, 편입학 정보를 한눈에 확인하세요.
+faculties:
+- 경영학부
+- 이공학부
+- 인간학부
+features:
+- 지역 사회와의 강력한 연계
+- 도쿄 명문 센슈 대학교 부속교
+- 재해 후 지역 공동체 재생 특화 교육
+- 이공학 계열의 우수한 실습 시설
+id: univ_ishinomaki-senshu-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 2026학년도 이시노마키 센슈 대학교 외국인 유학생 모집요강! 학비 감면 혜택, 장학금 제도, 학부별 입시 및 편입학
+  정보까지 합격 핵심 정보를 JP Campus에서 지금 확인하세요.
+seo_title: 2026 이시노마키 센슈 대학교 유학생 입시 가이드 (학비 감면) | JP Campus
+stats:
+  acceptance_rate: Approx. 65-75% for qualified international applicants
+  international_students: 115
+tags:
+- 지역 사회와의 강력한 연계
+- 도쿄 명문 센슈 대학교 부속교
+- 재해 후 지역 공동체 재생 특화 교육
+- 이공학 계열의 우수한 실습 시설
+thumbnail: /static/img/pin-univ.png
+title: 이시노마키 센슈 대학교 외국인 유학생 가이드 (2026년 최신)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
-
-
 
 ## 🏫 대학 개요: 일본 북부 교육의 관문
 

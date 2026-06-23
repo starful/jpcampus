@@ -18,6 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 一般コース
   total_fees: 1477760
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized Higher Education Track (Shingaku Focus)

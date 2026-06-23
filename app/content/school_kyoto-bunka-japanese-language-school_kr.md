@@ -1,51 +1,42 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市左京区北白川瓜生山2-116",
-    "capacity": 320,
-    "name_en": "Kyoto Bunka Japanese Language School",
-    "name_ja": "京都文化日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4,10",
-      "course_name": "総合日本語学科",
-      "total_fees": 1608000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "미술 & 디자인 특화 준비 과정",
-    "종합적인 EJU 과정",
-    "기숙사 보장",
-    "교토 학술 중심지에 위치",
-    "풍부한 장학금 기회"
-  ],
-  "id": "school_kyoto-bunka-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.0367754,
-    "lng": 135.7927255
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=313",
-  "stats": {
-    "capacity": 320,
-    "international_students": 288
-  },
-  "tags": [
-    "Specialized Art & Design Preparation",
-    "Comprehensive EJU Pathway",
-    "Guaranteed Dormitory Accommodation",
-    "Located in Kyoto's Academic Hub",
-    "Generous Scholarship Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "교토 문화 일본어 학교",
-  "tuition": {},
-  "description": "교토 문화 일본어 학교는 교토의 중심부에 위치하여 미술 및 디자인 분야 진학을 희망하는 학생들에게 최적의 환경을 제공합니다."
-}
+basic_info:
+  address: 京都府京都市左京区北白川瓜生山2-116
+  capacity: 320
+  name_en: Kyoto Bunka Japanese Language School
+  name_ja: 京都文化日本語学校
+category: school
+courses:
+- admission_month: 4,10
+  course_name: 総合日本語学科
+  total_fees: 1608000
+date: '2026-01-28'
+description: 교토 문화 일본어 학교는 교토의 중심부에 위치하여 미술 및 디자인 분야 진학을 희망하는 학생들에게 최적의 환경을 제공합니다.
+faculties: []
+features:
+- 미술 & 디자인 특화 준비 과정
+- 종합적인 EJU 과정
+- 기숙사 보장
+- 교토 학술 중심지에 위치
+- 풍부한 장학금 기회
+id: school_kyoto-bunka-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.0367754
+  lng: 135.7927255
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=313
+stats:
+  capacity: 320
+  international_students: 288
+tags:
+- Specialized Art & Design Preparation
+- Comprehensive EJU Pathway
+- Guaranteed Dormitory Accommodation
+- Located in Kyoto's Academic Hub
+- Generous Scholarship Opportunities
+thumbnail: /static/img/pin-school.png
+title: 교토 문화 일본어 학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

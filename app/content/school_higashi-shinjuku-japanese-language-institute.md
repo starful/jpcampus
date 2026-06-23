@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヵ月コース
   total_fees: 1104500
+date: '2026-01-28'
 description: Located in Shinjuku, Tokyo, Higashi Shinjuku Japanese Language Institute
   offers comprehensive Japanese language education focused on preparing students for
   higher education. Features include small class sizes, dormitory accommodation, and

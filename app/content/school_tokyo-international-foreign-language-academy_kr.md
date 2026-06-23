@@ -1,67 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都八王子市南町5-8",
-    "capacity": 100,
-    "name_en": "Tokyo International Foreign Language Academy",
-    "name_ja": "東京国際外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1481600
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1146600
-    },
-    {
-      "admission_month": "10",
-      "course_name": "介護1年6か月コース",
-      "total_fees": 1146600
-    },
-    {
-      "admission_month": "4",
-      "course_name": "介護1年コース",
-      "total_fees": 781600
-    }
-  ],
-  "description": "東京국제외어학원은 대학 및 전문학교 진학에 특화된 과정을 제공하며, STEM 및 간병 분야에서 독자적인 진로를 제공합니다. 도쿄 하치오지에 위치한 이 어학원은 기숙사 옵션과 종합적인 학생 지원을 통해 쾌적한 학습 환경을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 제공",
-    "대학 및 전문학교 진학에 강력한 초점 (신가쿠)",
-    "EJU (일본유학시험) 집중 준비",
-    "특화된 과학/STEM 분야 트랙 준비",
-    "독창적인 간병/간호 과정"
-  ],
-  "id": "school_tokyo-international-foreign-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.65901340000001,
-    "lng": 139.332989
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=532",
-  "stats": {
-    "capacity": 100,
-    "international_students": 100
-  },
-  "tags": [
-    "Dormitory provided",
-    "Strong focus on university and vocational advancement (Shin-gaku)",
-    "Specialized EJU (Examination for Japanese University Admission for International Students) preparation",
-    "Dedicated Science/STEM track preparation",
-    "Unique Caregiver/Nursing pathway courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "東京국제외어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都八王子市南町5-8
+  capacity: 100
+  name_en: Tokyo International Foreign Language Academy
+  name_ja: 東京国際外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1481600
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1146600
+- admission_month: '10'
+  course_name: 介護1年6か月コース
+  total_fees: 1146600
+- admission_month: '4'
+  course_name: 介護1年コース
+  total_fees: 781600
+date: '2026-01-28'
+description: 東京국제외어학원은 대학 및 전문학교 진학에 특화된 과정을 제공하며, STEM 및 간병 분야에서 독자적인 진로를 제공합니다.
+  도쿄 하치오지에 위치한 이 어학원은 기숙사 옵션과 종합적인 학생 지원을 통해 쾌적한 학습 환경을 제공합니다.
+faculties: []
+features:
+- 기숙사 제공
+- 대학 및 전문학교 진학에 강력한 초점 (신가쿠)
+- EJU (일본유학시험) 집중 준비
+- 특화된 과학/STEM 분야 트랙 준비
+- 독창적인 간병/간호 과정
+id: school_tokyo-international-foreign-language-academy
+lang: kr
+layout: school
+location:
+  lat: 35.65901340000001
+  lng: 139.332989
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=532
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- Dormitory provided
+- Strong focus on university and vocational advancement (Shin-gaku)
+- Specialized EJU (Examination for Japanese University Admission for International
+  Students) preparation
+- Dedicated Science/STEM track preparation
+- Unique Caregiver/Nursing pathway courses
+thumbnail: /static/img/pin-school.png
+title: 東京국제외어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

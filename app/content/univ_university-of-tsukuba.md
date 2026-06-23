@@ -5,6 +5,7 @@ basic_info:
   name_ja: 筑波大学
   website: https://www.tsukuba.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - College of Humanities and Social Sciences
 - College of Human Sciences

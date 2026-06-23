@@ -5,6 +5,7 @@ basic_info:
   name_ja: 京都産業大学
   website: https://www.kyoto-su.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Economics
 - Faculty of Business Administration

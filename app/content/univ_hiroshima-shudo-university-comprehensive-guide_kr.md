@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-shudo-university-comprehensive-guide",
-  "title": "히로시마 슈도 대학 (Hiroshima Shudo University)",
-  "description": "300년의 역사를 자랑하는 히로시마 슈도 대학은 일본 중국·시코쿠 지역을 대표하는 명문 사립대학으로, 뛰어난 취업 실적과 체계적인 유학생 지원 시스템을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "중국·시코쿠 지역의 명문 사립대",
-    "1725년 '강학관'에 뿌리를 둔 깊은 역사",
-    "지역 산업계와의 강력한 네트워크 및 높은 취업률",
-    "유학생을 위한 학비 감면 및 장학금 제도"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島修道大学",
-    "name_en": "Hiroshima Shudo University",
-    "address": "1-1-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3195, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 158,
-    "acceptance_rate": "45-55% (International Category)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 880000
-  },
-  "faculties": [
-    "상학부",
-    "인문학부",
-    "법학부",
-    "경제과학부",
-    "인간환경학부",
-    "건강과학부",
-    "국제학부"
-  ],
-  "features": [
-    "중국·시코쿠 지역을 대표하는 명문 사립대학교",
-    "1725년 설립된 히로시마번의 학문소 '강학관'에 뿌리를 둔 전통",
-    "지역 산업계와의 강력한 네트워크를 통한 높은 취업률",
-    "외국인 유학생을 위한 풍부한 학비 감면 및 장학금 제도"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3195, Japan
+  capacity: null
+  name_en: Hiroshima Shudo University
+  name_ja: 広島修道大学
+category: university
+date: '2026-03-15'
+description: 300년의 역사를 자랑하는 히로시마 슈도 대학은 일본 중국·시코쿠 지역을 대표하는 명문 사립대학으로, 뛰어난 취업 실적과 체계적인
+  유학생 지원 시스템을 제공합니다.
+faculties:
+- 상학부
+- 인문학부
+- 법학부
+- 경제과학부
+- 인간환경학부
+- 건강과학부
+- 국제학부
+features:
+- 중국·시코쿠 지역을 대표하는 명문 사립대학교
+- 1725년 설립된 히로시마번의 학문소 '강학관'에 뿌리를 둔 전통
+- 지역 산업계와의 강력한 네트워크를 통한 높은 취업률
+- 외국인 유학생을 위한 풍부한 학비 감면 및 장학금 제도
+id: univ_hiroshima-shudo-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (International Category)
+  international_students: 158
+tags:
+- 중국·시코쿠 지역의 명문 사립대
+- 1725년 '강학관'에 뿌리를 둔 깊은 역사
+- 지역 산업계와의 강력한 네트워크 및 높은 취업률
+- 유학생을 위한 학비 감면 및 장학금 제도
+thumbnail: /static/img/pin-univ.png
+title: 히로시마 슈도 대학 (Hiroshima Shudo University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 880000
 ---
 
 ## 🏫 대학 개요

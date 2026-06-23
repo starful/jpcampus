@@ -1,50 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamagata-prefectural-university-of-health-sciences-guide",
-  "title": "야마가타현립보건의료대학",
-  "category": "university",
-  "tags": [
-    "의료 면허 국가 시험 합격률 꾸준히 높음",
-    "지역 의료 기여에 중점을 둔 소규모 교육",
-    "지역 혜택이 있는 저렴한 공립 대학 등록금",
-    "최첨단 의료 시뮬레이션 및 재활 연구소"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山形県立保健医療大学",
-    "name_en": "Yamagata Prefectural University of Health Sciences",
-    "address": "260 Kamiyanagi, Yamagata-shi, Yamagata 990-2212, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 5,
-    "acceptance_rate": "15-20%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Health Sciences",
-    "Department of Nursing",
-    "Department of Physical Therapy",
-    "Department of Occupational Therapy",
-    "Graduate School of Health Sciences"
-  ],
-  "features": [
-    "의료 면허 국가 시험 합격률 꾸준히 높음",
-    "지역 의료 기여에 중점을 둔 소규모 교육",
-    "지역 혜택이 있는 저렴한 공립 대학 등록금",
-    "최첨단 의료 시뮬레이션 및 재활 연구소"
-  ],
-  "description": "야마가타현립보건의료대학은 도호쿠 지역에 위치한 명문 공립 대학입니다. 높은 수준의 의료 전문가를 양성하여 지역 및 세계 사회의 건강과 복지에 기여하는 것을 목표로 설립되었습니다. 수준 높은 일본 의료 커리큘럼과 야마가타현의 풍부한 문화와 아름다운 자연을 경험할 수 있는 특별한 기회를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 260 Kamiyanagi, Yamagata-shi, Yamagata 990-2212, Japan
+  capacity: null
+  name_en: Yamagata Prefectural University of Health Sciences
+  name_ja: 山形県立保健医療大学
+category: university
+date: '2026-03-03'
+description: 야마가타현립보건의료대학은 도호쿠 지역에 위치한 명문 공립 대학입니다. 높은 수준의 의료 전문가를 양성하여 지역 및 세계 사회의
+  건강과 복지에 기여하는 것을 목표로 설립되었습니다. 수준 높은 일본 의료 커리큘럼과 야마가타현의 풍부한 문화와 아름다운 자연을 경험할 수 있는
+  특별한 기회를 제공합니다.
+faculties:
+- Faculty of Health Sciences
+- Department of Nursing
+- Department of Physical Therapy
+- Department of Occupational Therapy
+- Graduate School of Health Sciences
+features:
+- 의료 면허 국가 시험 합격률 꾸준히 높음
+- 지역 의료 기여에 중점을 둔 소규모 교육
+- 지역 혜택이 있는 저렴한 공립 대학 등록금
+- 최첨단 의료 시뮬레이션 및 재활 연구소
+id: univ_yamagata-prefectural-university-of-health-sciences-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-20%
+  international_students: 5
+tags:
+- 의료 면허 국가 시험 합격률 꾸준히 높음
+- 지역 의료 기여에 중점을 둔 소규모 교육
+- 지역 혜택이 있는 저렴한 공립 대학 등록금
+- 최첨단 의료 시뮬레이션 및 재활 연구소
+thumbnail: /static/img/pin-univ.png
+title: 야마가타현립보건의료대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

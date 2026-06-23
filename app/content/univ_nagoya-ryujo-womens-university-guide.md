@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-ryujo-womens-university-guide",
-  "title": "Nagoya Ryujo Women's University",
-  "category": "university",
-  "tags": [
-    "Specialized in Early Childhood Education and Care",
-    "Anglican/Episcopal Christian Educational Philosophy",
-    "Extremely High Employment Rate for Educators",
-    "Small-Group Instruction and Personalized Mentorship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋柳城女子大学",
-    "name_en": "Nagoya Ryujo Women's University",
-    "address": "4-21-1 Shioiri-cho, Mizuho-ku, Nagoya, Aichi 467-0853, Japan",
-    "capacity": 400
-  },
-  "stats": {
-    "international_students": 5,
-    "acceptance_rate": "75-85%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1340000
-  },
-  "faculties": [
-    "Faculty of Childhood Development",
-    "Department of Childhood Development"
-  ],
-  "features": [
-    "Specialized in Early Childhood Education and Care",
-    "Anglican/Episcopal Christian Educational Philosophy",
-    "Extremely High Employment Rate for Educators",
-    "Small-Group Instruction and Personalized Mentorship"
-  ]
-}
+basic_info:
+  address: 4-21-1 Shioiri-cho, Mizuho-ku, Nagoya, Aichi 467-0853, Japan
+  capacity: 400
+  name_en: Nagoya Ryujo Women's University
+  name_ja: 名古屋柳城女子大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Childhood Development
+- Department of Childhood Development
+features:
+- Specialized in Early Childhood Education and Care
+- Anglican/Episcopal Christian Educational Philosophy
+- Extremely High Employment Rate for Educators
+- Small-Group Instruction and Personalized Mentorship
+id: univ_nagoya-ryujo-womens-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-85%
+  international_students: 5
+tags:
+- Specialized in Early Childhood Education and Care
+- Anglican/Episcopal Christian Educational Philosophy
+- Extremely High Employment Rate for Educators
+- Small-Group Instruction and Personalized Mentorship
+thumbnail: /static/img/pin-univ.png
+title: Nagoya Ryujo Women's University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1340000
 ---
 
 ## 🏫 University Overview

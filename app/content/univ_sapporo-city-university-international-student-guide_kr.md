@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sapporo-city-university-international-student-guide",
-  "title": "삿포로 시립대학교",
-  "category": "university",
-  "tags": [
-    "학제적 디자인 + 간호학 (D+N) 협력",
-    "아름다운 예술의 숲 캠퍼스",
-    "지역사회 기여 및 산학 협력",
-    "높은 교수 대 학생 비율의 맞춤형 학습"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "札幌市立大学",
-    "name_en": "Sapporo City University",
-    "address": "1-1-1 Geijutsu-no-mori, Minami-ku, Sapporo, Hokkaido 005-0864, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "22% - 28%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Design",
-    "School of Nursing",
-    "Graduate School of Design",
-    "Graduate School of Nursing"
-  ],
-  "features": [
-    "학제적 디자인 + 간호학 (D+N) 협력",
-    "아름다운 예술의 숲 캠퍼스 위치",
-    "지역사회 기여 및 산학 협력",
-    "높은 교수 대 학생 비율의 맞춤형 학습"
-  ],
-  "description": "삿포로 시립대학교는 디자인과 간호학의 융합을 추구하는 공립 종합대학교입니다. 훌륭한 교육 시설과 지역사회 연계 프로그램을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1-1 Geijutsu-no-mori, Minami-ku, Sapporo, Hokkaido 005-0864, Japan
+  capacity: 1200
+  name_en: Sapporo City University
+  name_ja: 札幌市立大学
+category: university
+date: '2026-02-13'
+description: 삿포로 시립대학교는 디자인과 간호학의 융합을 추구하는 공립 종합대학교입니다. 훌륭한 교육 시설과 지역사회 연계 프로그램을 제공합니다.
+faculties:
+- School of Design
+- School of Nursing
+- Graduate School of Design
+- Graduate School of Nursing
+features:
+- 학제적 디자인 + 간호학 (D+N) 협력
+- 아름다운 예술의 숲 캠퍼스 위치
+- 지역사회 기여 및 산학 협력
+- 높은 교수 대 학생 비율의 맞춤형 학습
+id: univ_sapporo-city-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22% - 28%
+  international_students: 15
+tags:
+- 학제적 디자인 + 간호학 (D+N) 협력
+- 아름다운 예술의 숲 캠퍼스
+- 지역사회 기여 및 산학 협력
+- 높은 교수 대 학생 비율의 맞춤형 학습
+thumbnail: /static/img/pin-univ.png
+title: 삿포로 시립대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 삿포로 시립대학교의 정신

@@ -1,64 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市浪速区難波中3-13-1",
-    "capacity": 640,
-    "name_en": "Yell Gakuen Japanese Language Education Department",
-    "name_ja": "エール学園日本語教育学科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "日本語教育学科",
-      "total_fees": 1213500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語教育学科",
-      "total_fees": 845000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語教育学科",
-      "total_fees": 1600000
-    }
-  ],
-  "description": "오사카 중심부(난바)에 위치한 에ール(Yell) 학원 일본어 교육학과는 일본 대학 진학을 위한 학생들을 집중적으로 교육합니다. 특화된 트랙, 학교 기숙사 및 풍부한 장학금 제도를 제공합니다.",
-  "faculties": [],
-  "features": [
-    "높은 수준의 대학 진학 집중 (EJU 및 입시 준비)",
-    "특화 트랙 (이학, 미술/디자인, 비즈니스 일본어)",
-    "넓은 수용 규모와 오사카 중심부 위치 (난바)",
-    "학교 운영 기숙사 (1인실 옵션 제공)",
-    "풍부한 장학금 및 재정 지원 프로그램",
-    "단기 유학 옵션 제공"
-  ],
-  "id": "school_yell-gakuen-japanese-language-education-department",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6603803,
-    "lng": 135.5001688
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=333",
-  "stats": {
-    "capacity": 640,
-    "international_students": 600
-  },
-  "tags": [
-    "High-Level University Progression Focus (EJU and Entrance Exam Preparation)",
-    "Specialized Tracks (Science, Art/Design, Business Japanese)",
-    "Large Capacity and Central Osaka Location (Namba)",
-    "School-Managed Dormitories with Single Room Options",
-    "Robust Scholarship and Financial Aid Programs",
-    "Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "에ール(Yell) 학원 일본어 교육학과",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市浪速区難波中3-13-1
+  capacity: 640
+  name_en: Yell Gakuen Japanese Language Education Department
+  name_ja: エール学園日本語教育学科
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語教育学科
+  total_fees: 1213500
+- admission_month: '4'
+  course_name: 日本語教育学科
+  total_fees: 845000
+- admission_month: '4'
+  course_name: 日本語教育学科
+  total_fees: 1600000
+date: '2026-01-28'
+description: 오사카 중심부(난바)에 위치한 에ール(Yell) 학원 일본어 교육학과는 일본 대학 진학을 위한 학생들을 집중적으로 교육합니다.
+  특화된 트랙, 학교 기숙사 및 풍부한 장학금 제도를 제공합니다.
+faculties: []
+features:
+- 높은 수준의 대학 진학 집중 (EJU 및 입시 준비)
+- 특화 트랙 (이학, 미술/디자인, 비즈니스 일본어)
+- 넓은 수용 규모와 오사카 중심부 위치 (난바)
+- 학교 운영 기숙사 (1인실 옵션 제공)
+- 풍부한 장학금 및 재정 지원 프로그램
+- 단기 유학 옵션 제공
+id: school_yell-gakuen-japanese-language-education-department
+lang: kr
+layout: school
+location:
+  lat: 34.6603803
+  lng: 135.5001688
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=333
+stats:
+  capacity: 640
+  international_students: 600
+tags:
+- High-Level University Progression Focus (EJU and Entrance Exam Preparation)
+- Specialized Tracks (Science, Art/Design, Business Japanese)
+- Large Capacity and Central Osaka Location (Namba)
+- School-Managed Dormitories with Single Room Options
+- Robust Scholarship and Financial Aid Programs
+- Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: 에ール(Yell) 학원 일본어 교육학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

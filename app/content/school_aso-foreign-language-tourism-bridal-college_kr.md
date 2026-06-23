@@ -1,66 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "福岡県福岡市博多区博多駅南1-14-17",
-    "capacity": 280,
-    "name_en": "ASO College of Foreign Languages, Tourism and Bridal",
-    "name_ja": "麻生外語観光＆ブライダル専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語科",
-      "total_fees": 750000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語科",
-      "total_fees": 1090000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語科",
-      "total_fees": 1395000
-    }
-  ],
-  "description": "아소 외어 관광 & 브라이달 전문학교는 후쿠오카 하카타에 위치한 전문학교로, 일본어 과정과 관광 및 웨딩 서비스 분야의 전문적인 직업 훈련을 제공합니다. 상급 학교 진학 및 EJU 시험 준비를 위한 지원도 제공하고 있습니다.",
-  "faculties": [],
-  "features": [
-    "상급 학교 진학 지원",
-    "회화 중심",
-    "장학금",
-    "기숙사",
-    "도심 위치",
-    "EJU 시험 대비",
-    "단기 코스"
-  ],
-  "id": "school_aso-foreign-language-tourism-bridal-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 33.5837257,
-    "lng": 130.4216656
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=418",
-  "stats": {
-    "capacity": 280,
-    "international_students": 0
-  },
-  "tags": [
-    "Further Education Support",
-    "Conversation-Focused",
-    "Scholarships",
-    "Dormitory",
-    "City Center Location",
-    "EJU Preparation",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아소 외어 관광 & 브라이달 전문학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 福岡県福岡市博多区博多駅南1-14-17
+  capacity: 280
+  name_en: ASO College of Foreign Languages, Tourism and Bridal
+  name_ja: 麻生外語観光＆ブライダル専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語科
+  total_fees: 750000
+- admission_month: '10'
+  course_name: 日本語科
+  total_fees: 1090000
+- admission_month: '4'
+  course_name: 日本語科
+  total_fees: 1395000
+date: '2026-01-28'
+description: 아소 외어 관광 & 브라이달 전문학교는 후쿠오카 하카타에 위치한 전문학교로, 일본어 과정과 관광 및 웨딩 서비스 분야의 전문적인
+  직업 훈련을 제공합니다. 상급 학교 진학 및 EJU 시험 준비를 위한 지원도 제공하고 있습니다.
+faculties: []
+features:
+- 상급 학교 진학 지원
+- 회화 중심
+- 장학금
+- 기숙사
+- 도심 위치
+- EJU 시험 대비
+- 단기 코스
+id: school_aso-foreign-language-tourism-bridal-college
+lang: kr
+layout: school
+location:
+  lat: 33.5837257
+  lng: 130.4216656
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=418
+stats:
+  capacity: 280
+  international_students: 0
+tags:
+- Further Education Support
+- Conversation-Focused
+- Scholarships
+- Dormitory
+- City Center Location
+- EJU Preparation
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 아소 외어 관광 & 브라이달 전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

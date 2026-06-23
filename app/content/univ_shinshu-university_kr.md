@@ -1,54 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "長野県松本市旭3-1-1",
-    "name_en": "Shinshu University",
-    "name_ja": "信州大学",
-    "website": "https://www.shinshu-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Arts",
-    "Faculty of Education",
-    "Faculty of Economics and Law",
-    "Faculty of Science",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Textile Science and Technology"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_shinshu-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "60%",
-    "international_students": 400
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "신슈대학교",
-  "description": "일본 알프스의 심장부에 위치한 신슈대학교에 대한 소개입니다. 다양한 학부, 영어 프로그램, 장학금 기회 등에 대해 알아보세요.",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 長野県松本市旭3-1-1
+  name_en: Shinshu University
+  name_ja: 信州大学
+  website: https://www.shinshu-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 일본 알프스의 심장부에 위치한 신슈대학교에 대한 소개입니다. 다양한 학부, 영어 프로그램, 장학금 기회 등에 대해 알아보세요.
+faculties:
+- Faculty of Arts
+- Faculty of Education
+- Faculty of Economics and Law
+- Faculty of Science
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Textile Science and Technology
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_shinshu-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 60%
+  international_students: 400
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 신슈대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요 및 명성

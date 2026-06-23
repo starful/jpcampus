@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gifu-pharmaceutical-university",
-  "title": "Gifu Pharmaceutical University",
-  "category": "university",
-  "tags": [
-    "One of Japan's oldest and most prestigious public pharmaceutical universities",
-    "Pioneering research in drug discovery and clinical pharmacy",
-    "Strong local industry ties and high national pharmacist exam pass rates",
-    "Unique 'Green Pharmacy' educational philosophy"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岐阜薬科大学",
-    "name_en": "Gifu Pharmaceutical University",
-    "address": "1-25-4 Daigaku-nishi, Gifu City, Gifu 501-1196, Japan",
-    "capacity": 850
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "18%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Pharmacy (6-year program)",
-    "Faculty of Pharmaceutical Sciences (4-year program)",
-    "Graduate School of Pharmaceutical Sciences"
-  ],
-  "features": [
-    "One of Japan's oldest and most prestigious public pharmaceutical universities",
-    "Pioneering research in drug discovery and clinical pharmacy",
-    "Strong local industry ties and high national pharmacist exam pass rates",
-    "Unique 'Green Pharmacy' educational philosophy"
-  ]
-}
+basic_info:
+  address: 1-25-4 Daigaku-nishi, Gifu City, Gifu 501-1196, Japan
+  capacity: 850
+  name_en: Gifu Pharmaceutical University
+  name_ja: 岐阜薬科大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Pharmacy (6-year program)
+- Faculty of Pharmaceutical Sciences (4-year program)
+- Graduate School of Pharmaceutical Sciences
+features:
+- One of Japan's oldest and most prestigious public pharmaceutical universities
+- Pioneering research in drug discovery and clinical pharmacy
+- Strong local industry ties and high national pharmacist exam pass rates
+- Unique 'Green Pharmacy' educational philosophy
+id: univ_gifu-pharmaceutical-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 18%
+  international_students: 15
+tags:
+- One of Japan's oldest and most prestigious public pharmaceutical universities
+- Pioneering research in drug discovery and clinical pharmacy
+- Strong local industry ties and high national pharmacist exam pass rates
+- Unique 'Green Pharmacy' educational philosophy
+thumbnail: /static/img/pin-univ.png
+title: Gifu Pharmaceutical University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

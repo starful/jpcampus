@@ -1,59 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都渋谷区千駄ヶ谷5-30-16",
-    "capacity": 100,
-    "name_en": "Tokyo Kogakuin Japanese Language School",
-    "name_ja": "東京工学院日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "국제일본어과",
-      "total_fees": 660000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "국제일본어전과",
-      "total_fees": 945000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "국제일본어전과",
-      "total_fees": 1230000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 및 대학원 진학을 위한 집중 대비 (진학)",
-    "EJU(일본유학시험) 특화 커리큘럼",
-    "이공계 진학을 위한 전용 서포트",
-    "도쿄 중심부 시부야구 위치",
-    "소수 정예 정원으로 밀착형 개별 지도"
-  ],
-  "id": "school_tokyo-kogakuin-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6856811,
-    "lng": 139.7043018
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=175",
-  "stats": {},
-  "tags": [
-    "대학 및 대학원 진학 대비",
-    "EJU 특화 커리큘럼",
-    "이공계 진학 지원",
-    "시부야구",
-    "소수정예"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "도쿄 공학원 일본어학교",
-  "description": "도쿄 시부야구에 위치한 진학 전문 일본어학교로, 소수 정예 시스템과 강력한 이공계 진학 서포트를 통해 일본 명문대 합격을 지원합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都渋谷区千駄ヶ谷5-30-16
+  capacity: 100
+  name_en: Tokyo Kogakuin Japanese Language School
+  name_ja: 東京工学院日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 국제일본어과
+  total_fees: 660000
+- admission_month: '10'
+  course_name: 국제일본어전과
+  total_fees: 945000
+- admission_month: '4'
+  course_name: 국제일본어전과
+  total_fees: 1230000
+date: '2026-03-08'
+description: 도쿄 시부야구에 위치한 진학 전문 일본어학교로, 소수 정예 시스템과 강력한 이공계 진학 서포트를 통해 일본 명문대 합격을 지원합니다.
+faculties: []
+features:
+- 대학 및 대학원 진학을 위한 집중 대비 (진학)
+- EJU(일본유학시험) 특화 커리큘럼
+- 이공계 진학을 위한 전용 서포트
+- 도쿄 중심부 시부야구 위치
+- 소수 정예 정원으로 밀착형 개별 지도
+id: school_tokyo-kogakuin-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.6856811
+  lng: 139.7043018
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=175
+stats: {}
+tags:
+- 대학 및 대학원 진학 대비
+- EJU 특화 커리큘럼
+- 이공계 진학 지원
+- 시부야구
+- 소수정예
+thumbnail: /static/img/pin-school.png
+title: 도쿄 공학원 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

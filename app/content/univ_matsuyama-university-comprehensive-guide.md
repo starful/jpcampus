@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_matsuyama-university-comprehensive-guide",
-  "title": "Matsuyama University",
-  "category": "university",
-  "tags": [
-    "100-Year Heritage of Academic Excellence",
-    "Dominant Employment Powerhouse in Shikoku Region",
-    "Compact Urban Campus Adjacent to Ehime University",
-    "Exceptionally Low Cost of Living for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "松山大学",
-    "name_en": "Matsuyama University",
-    "address": "4-2 Bunkyo-cho, Matsuyama, Ehime 790-8578, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 50,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 810000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Humanities",
-    "Faculty of Pharmaceutical Sciences"
-  ],
-  "features": [
-    "100-Year Heritage of Academic Excellence",
-    "Dominant Employment Powerhouse in Shikoku Region",
-    "Compact Urban Campus Adjacent to Ehime University",
-    "Exceptionally Low Cost of Living for International Students"
-  ]
-}
+basic_info:
+  address: 4-2 Bunkyo-cho, Matsuyama, Ehime 790-8578, Japan
+  capacity: null
+  name_en: Matsuyama University
+  name_ja: 松山大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Humanities
+- Faculty of Pharmaceutical Sciences
+features:
+- 100-Year Heritage of Academic Excellence
+- Dominant Employment Powerhouse in Shikoku Region
+- Compact Urban Campus Adjacent to Ehime University
+- Exceptionally Low Cost of Living for International Students
+id: univ_matsuyama-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 50
+tags:
+- 100-Year Heritage of Academic Excellence
+- Dominant Employment Powerhouse in Shikoku Region
+- Compact Urban Campus Adjacent to Ehime University
+- Exceptionally Low Cost of Living for International Students
+thumbnail: /static/img/pin-univ.png
+title: Matsuyama University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 810000
 ---
 
 ## 🏫 University Overview

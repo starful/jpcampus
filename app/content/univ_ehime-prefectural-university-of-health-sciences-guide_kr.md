@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ehime-prefectural-university-of-health-sciences-guide",
-  "title": "에히메현립 의료기술대학",
-  "category": "university",
-  "tags": [
-    "높은 국가고시 합격률",
-    "소규모 전문 교육",
-    "강력한 지역 병원과의 협력",
-    "합리적인 현립 등록금"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛媛県立医療技術大学",
-    "name_en": "Ehime Prefectural University of Health Sciences",
-    "address": "543 Tobe-cho, Iyo-gun, Ehime 791-2101, Japan",
-    "capacity": "600 students (undergraduate and graduate total)"
-  },
-  "stats": {
-    "international_students": 2,
-    "acceptance_rate": "22%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "간호학과",
-    "의료기술학과",
-    "보건과학대학원"
-  ],
-  "features": [
-    "높은 국가고시 합격률",
-    "소규모 전문 교육",
-    "강력한 지역 병원과의 협력",
-    "합리적인 현립 등록금"
-  ],
-  "description": "에히메현립 의료기술대학은 시코쿠 지역 의료 전문가 양성의 관문입니다. 높은 국가고시 합격률, 소규모 전문 교육, 강력한 지역 병원과의 협력을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 543 Tobe-cho, Iyo-gun, Ehime 791-2101, Japan
+  capacity: 600 students (undergraduate and graduate total)
+  name_en: Ehime Prefectural University of Health Sciences
+  name_ja: 愛媛県立医療技術大学
+category: university
+date: '2026-03-03'
+description: 에히메현립 의료기술대학은 시코쿠 지역 의료 전문가 양성의 관문입니다. 높은 국가고시 합격률, 소규모 전문 교육, 강력한 지역
+  병원과의 협력을 자랑합니다.
+faculties:
+- 간호학과
+- 의료기술학과
+- 보건과학대학원
+features:
+- 높은 국가고시 합격률
+- 소규모 전문 교육
+- 강력한 지역 병원과의 협력
+- 합리적인 현립 등록금
+id: univ_ehime-prefectural-university-of-health-sciences-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22%
+  international_students: 2
+tags:
+- 높은 국가고시 합격률
+- 소규모 전문 교육
+- 강력한 지역 병원과의 협력
+- 합리적인 현립 등록금
+thumbnail: /static/img/pin-univ.png
+title: 에히메현립 의료기술대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 시코쿠 의료의 관문

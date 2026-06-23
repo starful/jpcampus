@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tohoku-institute-of-technology-guide",
-  "title": "도호쿠 공업대학",
-  "description": "도호쿠 지역의 기술 혁신과 부흥을 이끄는 실무 중심의 공과대학, 도호쿠 공업대학을 소개합니다.",
-  "category": "university",
-  "tags": [
-    "재해 복구 및 복원력 있는 디자인 특화 교육",
-    "도호쿠 및 간토 지역 내 높은 취업 성공률",
-    "창의적 디자인과 실용 공학을 결합한 독특한 커리큘럼"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東北工業大学",
-    "name_en": "Tohoku Institute of Technology",
-    "address": "35-1 Yagiyama-kasumicho, Taihaku-ku, Sendai, Miyagi 982-8577, Japan",
-    "capacity": "3,650 students"
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "공학부",
-    "건축학부",
-    "라이프 디자인학부"
-  ],
-  "features": [
-    "재해 복구 및 복원력 있는 디자인 특화 교육",
-    "도호쿠 및 간토 지역 내 높은 취업 성공률",
-    "창의적 디자인과 실용 공학을 결합한 독특한 커리큘럼"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 35-1 Yagiyama-kasumicho, Taihaku-ku, Sendai, Miyagi 982-8577, Japan
+  capacity: 3,650 students
+  name_en: Tohoku Institute of Technology
+  name_ja: 東北工業大学
+category: university
+date: '2026-03-08'
+description: 도호쿠 지역의 기술 혁신과 부흥을 이끄는 실무 중심의 공과대학, 도호쿠 공업대학을 소개합니다.
+faculties:
+- 공학부
+- 건축학부
+- 라이프 디자인학부
+features:
+- 재해 복구 및 복원력 있는 디자인 특화 교육
+- 도호쿠 및 간토 지역 내 높은 취업 성공률
+- 창의적 디자인과 실용 공학을 결합한 독특한 커리큘럼
+id: univ_tohoku-institute-of-technology-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 65
+tags:
+- 재해 복구 및 복원력 있는 디자인 특화 교육
+- 도호쿠 및 간토 지역 내 높은 취업 성공률
+- 창의적 디자인과 실용 공학을 결합한 독특한 커리큘럼
+thumbnail: /static/img/pin-univ.png
+title: 도호쿠 공업대학
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 대학 개요

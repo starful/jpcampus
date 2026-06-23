@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hakuoh-university-guide-for-international-students",
-  "title": "Hakuoh University",
-  "category": "university",
-  "tags": [
-    "Exceptional Career Support and High Employment Rates",
-    "Strong Sports Culture (Famous Basketball Program)",
-    "Strategic Location near Oyama Station with easy access to Tokyo",
-    "Specialized Civil Service and Teacher Examination Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "白鴎大学",
-    "name_en": "Hakuoh University",
-    "address": "1117 Daigyoji, Oyama-shi, Tochigi, 323-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 800000
-  },
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Education"
-  ],
-  "features": [
-    "Exceptional Career Support and High Employment Rates",
-    "Strong Sports Culture (Famous Basketball Program)",
-    "Strategic Location near Oyama Station with easy access to Tokyo",
-    "Specialized Civil Service and Teacher Examination Support"
-  ]
-}
+basic_info:
+  address: 1117 Daigyoji, Oyama-shi, Tochigi, 323-8585, Japan
+  capacity: null
+  name_en: Hakuoh University
+  name_ja: 白鴎大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Education
+features:
+- Exceptional Career Support and High Employment Rates
+- Strong Sports Culture (Famous Basketball Program)
+- Strategic Location near Oyama Station with easy access to Tokyo
+- Specialized Civil Service and Teacher Examination Support
+id: univ_hakuoh-university-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 145
+tags:
+- Exceptional Career Support and High Employment Rates
+- Strong Sports Culture (Famous Basketball Program)
+- Strategic Location near Oyama Station with easy access to Tokyo
+- Specialized Civil Service and Teacher Examination Support
+thumbnail: /static/img/pin-univ.png
+title: Hakuoh University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 800000
 ---
 
 ## 🏫 University Overview

@@ -1,64 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県富士市横割1-6-16",
-    "capacity": 160,
-    "name_en": "Fujisan Japanese Language School",
-    "name_ja": "富士山日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "7",
-      "course_name": "一般1年9か月コース",
-      "total_fees": 1070000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "一般1年6か月コース",
-      "total_fees": 930000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1210000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "캠퍼스 내/제휴 기숙사 숙박",
-    "EJU(일본유학시험) 특화 준비",
-    "체계적인 고등 교육 진학 트랙",
-    "회화 능력 향상에 집중",
-    "STEM 지원자를 위한 이과(리카/이카) 특화 과정",
-    "유연한 단기 연수 옵션"
-  ],
-  "id": "school_fujisan-japanese-language-school-shizuoka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.1489411,
-    "lng": 138.6553956
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=498",
-  "stats": {
-    "capacity": 160,
-    "international_students": 160
-  },
-  "tags": [
-    "On-campus/Affiliated Dormitory Accommodation",
-    "Specialized EJU Preparation",
-    "Dedicated Higher Education Advancement Track",
-    "Strong Focus on Conversational Proficiency",
-    "Exclusive Science (Rika/Ika) Stream for STEM Applicants",
-    "Flexible Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "후지산 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "시즈오카현 후지시에 위치한 후지산 일본어 학교는 집중적인 어학 습득과 일본 고등 교육 진학을 위한 견고한 경로를 제공합니다."
-}
+basic_info:
+  address: 静岡県富士市横割1-6-16
+  capacity: 160
+  name_en: Fujisan Japanese Language School
+  name_ja: 富士山日本語学校
+category: school
+courses:
+- admission_month: '7'
+  course_name: 一般1年9か月コース
+  total_fees: 1070000
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 930000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1210000
+date: '2026-01-28'
+description: 시즈오카현 후지시에 위치한 후지산 일본어 학교는 집중적인 어학 습득과 일본 고등 교육 진학을 위한 견고한 경로를 제공합니다.
+faculties: []
+features:
+- 캠퍼스 내/제휴 기숙사 숙박
+- EJU(일본유학시험) 특화 준비
+- 체계적인 고등 교육 진학 트랙
+- 회화 능력 향상에 집중
+- STEM 지원자를 위한 이과(리카/이카) 특화 과정
+- 유연한 단기 연수 옵션
+id: school_fujisan-japanese-language-school-shizuoka
+lang: kr
+layout: school
+location:
+  lat: 35.1489411
+  lng: 138.6553956
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=498
+stats:
+  capacity: 160
+  international_students: 160
+tags:
+- On-campus/Affiliated Dormitory Accommodation
+- Specialized EJU Preparation
+- Dedicated Higher Education Advancement Track
+- Strong Focus on Conversational Proficiency
+- Exclusive Science (Rika/Ika) Stream for STEM Applicants
+- Flexible Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: 후지산 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

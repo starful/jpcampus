@@ -1,54 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_international-university-of-health-and-welfare-iuhw-guide",
-  "title": "국제의료복지대학교 (IUHW)",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "일본 사립 의대 중 최저 수준의 학비",
-    "영어로 진행되는 폭넓은 의학 교육 커리큘럼",
-    "IUHW 부속 병원에서의 세계적 수준의 임상 실습",
-    "외국인 유학생을 위한 강력한 장학금 제도"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "国際医療福祉大学",
-    "name_en": "International University of Health and Welfare",
-    "address": "2600-1 Kitakamura, Otawara-shi, Tochigi 324-8501, Japan",
-    "capacity": 9800
-  },
-  "stats": {
-    "international_students": 562,
-    "acceptance_rate": "15-20% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 1500000,
-    "yearly_tuition": 2800000
-  },
-  "faculties": [
-    "의학부",
-    "약학부",
-    "간호학부",
-    "물리치료학부",
-    "작업치료학부",
-    "언어청각학부",
-    "시기능료학부",
-    "보건과학부",
-    "심리학부",
-    "의료복지학부"
-  ],
-  "features": [
-    "일본 사립 의대 중 최저 수준의 학비",
-    "영어로 진행되는 폭넓은 의학 교육 커리큘럼",
-    "IUHW 부속 병원에서의 세계적 수준의 임상 실습",
-    "외국인 유학생을 위한 강력한 장학금 제도"
-  ]
-}
+basic_info:
+  address: 2600-1 Kitakamura, Otawara-shi, Tochigi 324-8501, Japan
+  capacity: 9800
+  name_en: International University of Health and Welfare
+  name_ja: 国際医療福祉大学
+category: university
+date: '2026-03-15'
+faculties:
+- 의학부
+- 약학부
+- 간호학부
+- 물리치료학부
+- 작업치료학부
+- 언어청각학부
+- 시기능료학부
+- 보건과학부
+- 심리학부
+- 의료복지학부
+features:
+- 일본 사립 의대 중 최저 수준의 학비
+- 영어로 진행되는 폭넓은 의학 교육 커리큘럼
+- IUHW 부속 병원에서의 세계적 수준의 임상 실습
+- 외국인 유학생을 위한 강력한 장학금 제도
+id: univ_international-university-of-health-and-welfare-iuhw-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-20% (Estimated)
+  international_students: 562
+tags:
+- 일본 사립 의대 중 최저 수준의 학비
+- 영어로 진행되는 폭넓은 의학 교육 커리큘럼
+- IUHW 부속 병원에서의 세계적 수준의 임상 실습
+- 외국인 유학생을 위한 강력한 장학금 제도
+thumbnail: /static/img/pin-univ.png
+title: 국제의료복지대학교 (IUHW)
+tuition:
+  admission_fee: 1500000
+  yearly_tuition: 2800000
 ---
 
 ## 🏫 대학 개요: 일본 의료 교육의 선구자

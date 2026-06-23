@@ -1,69 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都北区王子2-23-1 王子亜細亜ビル",
-    "capacity": 420,
-    "name_en": "Asia Tomonokai Foreign Language Academy",
-    "name_ja": "亜細亜友之会外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1534000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1354000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1176000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 996000
-    },
-    {
-      "admission_month": "4,7,10",
-      "course_name": "一般1年コース",
-      "total_fees": 816000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "즉각적이고 안전한 정착을 위한 기숙사 시설 완비",
-    "대학 및 대학원 진학 집중 코스 (Shin-gaku)",
-    "EJU (일본유학시험) 전문 트레이닝",
-    "특화된 이공계 (Rika Focus) 트랙 지원"
-  ],
-  "id": "school_asia-tomonokai-foreign-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7583826,
-    "lng": 139.7376829
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=202",
-  "stats": {
-    "capacity": 420,
-    "international_students": 378
-  },
-  "tags": [
-    "On-site Dormitory Facilities for immediate and secure settlement",
-    "Intensive University and Graduate School Preparation tracks (Shin-gaku)",
-    "Specialized EJU (Examination for Japanese University Admission) Training",
-    "Dedicated Science and STEM Track Support (Rika Focus)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아시아 토모노카이 외국어 학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都北区王子2-23-1 王子亜細亜ビル
+  capacity: 420
+  name_en: Asia Tomonokai Foreign Language Academy
+  name_ja: 亜細亜友之会外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1534000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1354000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1176000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 996000
+- admission_month: 4,7,10
+  course_name: 一般1年コース
+  total_fees: 816000
+date: '2026-01-28'
+faculties: []
+features:
+- 즉각적이고 안전한 정착을 위한 기숙사 시설 완비
+- 대학 및 대학원 진학 집중 코스 (Shin-gaku)
+- EJU (일본유학시험) 전문 트레이닝
+- 특화된 이공계 (Rika Focus) 트랙 지원
+id: school_asia-tomonokai-foreign-language-academy
+lang: kr
+layout: school
+location:
+  lat: 35.7583826
+  lng: 139.7376829
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=202
+stats:
+  capacity: 420
+  international_students: 378
+tags:
+- On-site Dormitory Facilities for immediate and secure settlement
+- Intensive University and Graduate School Preparation tracks (Shin-gaku)
+- Specialized EJU (Examination for Japanese University Admission) Training
+- Dedicated Science and STEM Track Support (Rika Focus)
+thumbnail: /static/img/pin-school.png
+title: 아시아 토모노카이 외국어 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

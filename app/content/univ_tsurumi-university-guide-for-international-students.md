@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tsurumi-university-guide-for-international-students",
-  "title": "Tsurumi University",
-  "category": "university",
-  "tags": [
-    "World-class School of Dental Medicine",
-    "Buddhist Foundation (Soto Zen)",
-    "Renowned Research Library",
-    "Department of Cultural Properties Conservation",
-    "Strategic Location in Yokohama"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鶴見大学",
-    "name_en": "Tsurumi University",
-    "address": "2-1-3 Tsurumi, Tsurumi-ku, Yokohama, Kanagawa 230-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 52,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "School of Dental Medicine",
-    "Faculty of Literature",
-    "Junior College"
-  ],
-  "features": [
-    "World-class School of Dental Medicine",
-    "Buddhist Foundation (Soto Zen)",
-    "Renowned Research Library",
-    "Department of Cultural Properties Conservation",
-    "Strategic Location in Yokohama"
-  ]
-}
+basic_info:
+  address: 2-1-3 Tsurumi, Tsurumi-ku, Yokohama, Kanagawa 230-8501, Japan
+  capacity: null
+  name_en: Tsurumi University
+  name_ja: 鶴見大学
+category: university
+date: '2026-03-15'
+faculties:
+- School of Dental Medicine
+- Faculty of Literature
+- Junior College
+features:
+- World-class School of Dental Medicine
+- Buddhist Foundation (Soto Zen)
+- Renowned Research Library
+- Department of Cultural Properties Conservation
+- Strategic Location in Yokohama
+id: univ_tsurumi-university-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 52
+tags:
+- World-class School of Dental Medicine
+- Buddhist Foundation (Soto Zen)
+- Renowned Research Library
+- Department of Cultural Properties Conservation
+- Strategic Location in Yokohama
+thumbnail: /static/img/pin-univ.png
+title: Tsurumi University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview

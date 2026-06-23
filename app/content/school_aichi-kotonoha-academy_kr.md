@@ -1,57 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県岩倉市稲荷町羽根14-10",
-    "capacity": 150,
-    "name_en": "Aichi Kotonoha Academy",
-    "name_ja": "あいちコトノハ学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1470000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1150000
-    }
-  ],
-  "description": "아이치 코토노하学院는 아이치현에서 수준 높은 일본어 교육을 제공하며, 대학 진학 준비, EJU 시험, 실용적인 회화 능력 향상에 중점을 두고 있습니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 시험 준비",
-    "기숙사 이용 가능",
-    "회화 중심 일본어",
-    "단기 코스"
-  ],
-  "id": "school_aichi-kotonoha-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.2665989,
-    "lng": 136.8736841
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=545",
-  "stats": {
-    "capacity": 150,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Dormitory Available",
-    "Conversational Japanese",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아이치 코토노하学院",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県岩倉市稲荷町羽根14-10
+  capacity: 150
+  name_en: Aichi Kotonoha Academy
+  name_ja: あいちコトノハ学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1470000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1150000
+date: '2026-01-28'
+description: 아이치 코토노하学院는 아이치현에서 수준 높은 일본어 교육을 제공하며, 대학 진학 준비, EJU 시험, 실용적인 회화 능력 향상에
+  중점을 두고 있습니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 시험 준비
+- 기숙사 이용 가능
+- 회화 중심 일본어
+- 단기 코스
+id: school_aichi-kotonoha-academy
+lang: kr
+layout: school
+location:
+  lat: 35.2665989
+  lng: 136.8736841
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=545
+stats:
+  capacity: 150
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Dormitory Available
+- Conversational Japanese
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 아이치 코토노하学院
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

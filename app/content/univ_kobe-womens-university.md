@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-womens-university",
-  "title": "Kobe Women's University",
-  "category": "university",
-  "tags": [
-    "Specialized focus on traditional and domestic sciences",
-    "Strong track record for national licensing in nursing and nutrition",
-    "Historic hillside campus with panoramic views of the Seto Inland Sea",
-    "Small-group education fostering close student-professor relationships"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸女子大学",
-    "name_en": "Kobe Women's University",
-    "address": "2-1, Higashisuma Aoyama, Suma-ku, Kobe-shi, Hyogo, 654-8585, Japan",
-    "capacity": 3800
-  },
-  "stats": {
-    "international_students": 32,
-    "acceptance_rate": "50-60% (Varies by Faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1320000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Home Economics",
-    "Faculty of Health and Welfare",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Specialized focus on traditional and domestic sciences",
-    "Strong track record for national licensing in nursing and nutrition",
-    "Historic hillside campus with panoramic views of the Seto Inland Sea",
-    "Small-group education fostering close student-professor relationships"
-  ]
-}
+basic_info:
+  address: 2-1, Higashisuma Aoyama, Suma-ku, Kobe-shi, Hyogo, 654-8585, Japan
+  capacity: 3800
+  name_en: Kobe Women's University
+  name_ja: 神戸女子大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Letters
+- Faculty of Home Economics
+- Faculty of Health and Welfare
+- Faculty of Nursing
+features:
+- Specialized focus on traditional and domestic sciences
+- Strong track record for national licensing in nursing and nutrition
+- Historic hillside campus with panoramic views of the Seto Inland Sea
+- Small-group education fostering close student-professor relationships
+id: univ_kobe-womens-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 50-60% (Varies by Faculty)
+  international_students: 32
+tags:
+- Specialized focus on traditional and domestic sciences
+- Strong track record for national licensing in nursing and nutrition
+- Historic hillside campus with panoramic views of the Seto Inland Sea
+- Small-group education fostering close student-professor relationships
+thumbnail: /static/img/pin-univ.png
+title: Kobe Women's University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1320000
 ---
 
 ## 🏫 University Overview

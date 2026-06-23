@@ -5,6 +5,7 @@ basic_info:
   name_en: Meikai University
   name_ja: 明海大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Dentistry
 - Faculty of Applied Foreign Languages

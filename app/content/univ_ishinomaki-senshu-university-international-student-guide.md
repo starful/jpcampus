@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ishinomaki-senshu-university-international-student-guide",
-  "title": "Ishinomaki Senshu University",
-  "category": "university",
-  "tags": [
-    "Strong Regional Integration",
-    "Affiliation with the prestigious Senshu University in Tokyo",
-    "Specialized focus on post-disaster community revitalization",
-    "Excellent hands-on laboratory facilities for Science and Engineering"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "石巻専修大学",
-    "name_en": "Ishinomaki Senshu University",
-    "address": "1 Shin-Mishiro, Ishinomaki-shi, Miyagi 986-8580, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "Approx. 65-75% for qualified international applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of Science and Engineering",
-    "Faculty of Human Sciences"
-  ],
-  "features": [
-    "Strong Regional Integration",
-    "Affiliation with the prestigious Senshu University in Tokyo",
-    "Specialized focus on post-disaster community revitalization",
-    "Excellent hands-on laboratory facilities for Science and Engineering"
-  ]
-}
+basic_info:
+  address: 1 Shin-Mishiro, Ishinomaki-shi, Miyagi 986-8580, Japan
+  capacity: null
+  name_en: Ishinomaki Senshu University
+  name_ja: 石巻専修大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Business Administration
+- Faculty of Science and Engineering
+- Faculty of Human Sciences
+features:
+- Strong Regional Integration
+- Affiliation with the prestigious Senshu University in Tokyo
+- Specialized focus on post-disaster community revitalization
+- Excellent hands-on laboratory facilities for Science and Engineering
+id: univ_ishinomaki-senshu-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approx. 65-75% for qualified international applicants
+  international_students: 115
+tags:
+- Strong Regional Integration
+- Affiliation with the prestigious Senshu University in Tokyo
+- Specialized focus on post-disaster community revitalization
+- Excellent hands-on laboratory facilities for Science and Engineering
+thumbnail: /static/img/pin-univ.png
+title: Ishinomaki Senshu University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 University Overview: The Gateway to Northern Japan

@@ -1,61 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "和歌山県和歌山市太田1-12-13",
-    "capacity": 120,
-    "name_en": "Wakayama YMCA International Welfare Technical School, Japanese Language Department",
-    "name_ja": "和歌山YMCA国際福祉専門学校日本語科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2년 코스",
-      "total_fees": 1321000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1.5년 코스",
-      "total_fees": 1020800
-    },
-    {
-      "admission_month": "4",
-      "course_name": "1년 코스",
-      "total_fees": 720500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "강력한 EJU 및 이과(리카) 트랙 지원",
-    "통합 회화 연습",
-    "복지/의료 교육 연계",
-    "단기 연수 옵션",
-    "YMCA 비영리 교육 철학"
-  ],
-  "id": "school_wakayama-ymca-international-welfare-technical-school-japanese-department",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.2315944,
-    "lng": 135.193656
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=388",
-  "stats": {},
-  "tags": [
-    "Dormitory Available",
-    "Strong EJU and Science Track (Rika) Support",
-    "Integrated Conversation Practice",
-    "Affiliation with Welfare/Healthcare Education",
-    "Short-Term Study Options",
-    "YMCA Non-Profit Educational Philosophy"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "와카야마 YMCA 국제 복지 전문학교 일본어학과",
-  "translated": true,
-  "tuition": {},
-  "description": "와카야마 YMCA 국제 복지 전문학교 일본어학과는 YMCA의 윤리적, 공동체적 가치와 통합된 일본어 교육을 제공합니다. EJU 시험과 이과 트랙에 대한 강력한 지원을 제공합니다."
-}
+basic_info:
+  address: 和歌山県和歌山市太田1-12-13
+  capacity: 120
+  name_en: Wakayama YMCA International Welfare Technical School, Japanese Language
+    Department
+  name_ja: 和歌山YMCA国際福祉専門学校日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2년 코스
+  total_fees: 1321000
+- admission_month: '10'
+  course_name: 1.5년 코스
+  total_fees: 1020800
+- admission_month: '4'
+  course_name: 1년 코스
+  total_fees: 720500
+date: '2026-01-28'
+description: 와카야마 YMCA 국제 복지 전문학교 일본어학과는 YMCA의 윤리적, 공동체적 가치와 통합된 일본어 교육을 제공합니다. EJU
+  시험과 이과 트랙에 대한 강력한 지원을 제공합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- 강력한 EJU 및 이과(리카) 트랙 지원
+- 통합 회화 연습
+- 복지/의료 교육 연계
+- 단기 연수 옵션
+- YMCA 비영리 교육 철학
+id: school_wakayama-ymca-international-welfare-technical-school-japanese-department
+lang: kr
+layout: school
+location:
+  lat: 34.2315944
+  lng: 135.193656
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=388
+stats: {}
+tags:
+- Dormitory Available
+- Strong EJU and Science Track (Rika) Support
+- Integrated Conversation Practice
+- Affiliation with Welfare/Healthcare Education
+- Short-Term Study Options
+- YMCA Non-Profit Educational Philosophy
+thumbnail: /static/img/pin-school.png
+title: 와카야마 YMCA 국제 복지 전문학교 일본어학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ishikawa-prefectural-university-guide",
-  "title": "Ishikawa Prefectural University",
-  "category": "university",
-  "tags": [
-    "Leading research center for fermentation and food biotechnology",
-    "Practical, field-based curriculum in agricultural science",
-    "Strong ties with local Ishikawa industries and the Satoyama movement",
-    "State-of-the-art Field Science Center for hands-on learning"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "石川県立大学",
-    "name_en": "Ishikawa Prefectural University",
-    "address": "1-308 Suematsu, Nonoichi, Ishikawa 921-8836, Japan",
-    "capacity": 850
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Bioresources and Environmental Sciences",
-    "Department of Bioresource Science",
-    "Department of Food Science",
-    "Department of Environmental Science",
-    "Graduate School of Bioresource and Environmental Sciences"
-  ],
-  "features": [
-    "Leading research center for fermentation and food biotechnology",
-    "Practical, field-based curriculum in agricultural science",
-    "Strong ties with local Ishikawa industries and the Satoyama movement",
-    "State-of-the-art Field Science Center for hands-on learning"
-  ]
-}
+basic_info:
+  address: 1-308 Suematsu, Nonoichi, Ishikawa 921-8836, Japan
+  capacity: 850
+  name_en: Ishikawa Prefectural University
+  name_ja: 石川県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Bioresources and Environmental Sciences
+- Department of Bioresource Science
+- Department of Food Science
+- Department of Environmental Science
+- Graduate School of Bioresource and Environmental Sciences
+features:
+- Leading research center for fermentation and food biotechnology
+- Practical, field-based curriculum in agricultural science
+- Strong ties with local Ishikawa industries and the Satoyama movement
+- State-of-the-art Field Science Center for hands-on learning
+id: univ_ishikawa-prefectural-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 15
+tags:
+- Leading research center for fermentation and food biotechnology
+- Practical, field-based curriculum in agricultural science
+- Strong ties with local Ishikawa industries and the Satoyama movement
+- State-of-the-art Field Science Center for hands-on learning
+thumbnail: /static/img/pin-univ.png
+title: Ishikawa Prefectural University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: A Specialized Hub for Bio-Innovation

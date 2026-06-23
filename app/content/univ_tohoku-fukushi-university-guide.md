@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tohoku-fukushi-university-guide",
-  "title": "Tohoku Fukushi University",
-  "category": "university",
-  "tags": [
-    "Premier institution for Social Welfare in Japan",
-    "Legendary sports programs producing MLB and PGA stars",
-    "Buddhist-rooted education emphasizing compassion (Jihi)",
-    "Strong integration with medical and elderly care facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東北福祉大学",
-    "name_en": "Tohoku Fukushi University",
-    "address": "1-8-1 Kunimi, Aoba-ku, Sendai, Miyagi 981-8522, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Social Welfare",
-    "Faculty of Comprehensive Management",
-    "Faculty of Education",
-    "Faculty of Health Sciences"
-  ],
-  "features": [
-    "Premier institution for Social Welfare in Japan",
-    "Legendary sports programs producing MLB and PGA stars",
-    "Buddhist-rooted education emphasizing compassion (Jihi)",
-    "Strong integration with medical and elderly care facilities"
-  ]
-}
+basic_info:
+  address: 1-8-1 Kunimi, Aoba-ku, Sendai, Miyagi 981-8522, Japan
+  capacity: null
+  name_en: Tohoku Fukushi University
+  name_ja: 東北福祉大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Social Welfare
+- Faculty of Comprehensive Management
+- Faculty of Education
+- Faculty of Health Sciences
+features:
+- Premier institution for Social Welfare in Japan
+- Legendary sports programs producing MLB and PGA stars
+- Buddhist-rooted education emphasizing compassion (Jihi)
+- Strong integration with medical and elderly care facilities
+id: univ_tohoku-fukushi-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 145
+tags:
+- Premier institution for Social Welfare in Japan
+- Legendary sports programs producing MLB and PGA stars
+- Buddhist-rooted education emphasizing compassion (Jihi)
+- Strong integration with medical and elderly care facilities
+thumbnail: /static/img/pin-univ.png
+title: Tohoku Fukushi University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

@@ -1,75 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "群馬県前橋市大手町1-8-3",
-    "capacity": 967,
-    "name_en": "NIPPON Gakuin (NIPPON Japanese Language Institute)",
-    "name_ja": "NIPPON語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 667000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 958750
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 812875
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1104625
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1250500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대규모 기관 (풍부한 자원)",
-    "체계적인 고등 교육 진학 트랙 (EJU 집중)",
-    "종합적인 기숙사 시스템 이용 가능",
-    "탄탄한 장학금 프로그램",
-    "실용적인 회화 및 커뮤니케이션 훈련",
-    "특화된 비즈니스 일본어 모듈",
-    "유연한 장단기 등록 옵션"
-  ],
-  "id": "school_nippon-gakuin-maebashi-gunma",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.3879524,
-    "lng": 139.0600333
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=44",
-  "stats": {
-    "capacity": 967,
-    "international_students": 900
-  },
-  "tags": [
-    "Large Capacity Institution (Highly Resourced)",
-    "Dedicated Higher Education Progression Tracks (EJU Focused)",
-    "Comprehensive Dormitory System Available",
-    "Robust Scholarship Programs",
-    "Practical Conversation and Communication Training",
-    "Specialized Business Japanese Modules",
-    "Flexible Long and Short-Term Enrollment Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "NIPPON 어학원 (NIPPON Japanese Language Institute)",
-  "description": "군마현 마에바시에 위치한 NIPPON 어학원은 체계적인 커리큘럼과 다양한 지원 시스템을 제공하는 일본어 학교입니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 群馬県前橋市大手町1-8-3
+  capacity: 967
+  name_en: NIPPON Gakuin (NIPPON Japanese Language Institute)
+  name_ja: NIPPON語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 667000
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 958750
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 812875
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1104625
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1250500
+date: '2026-02-13'
+description: 군마현 마에바시에 위치한 NIPPON 어학원은 체계적인 커리큘럼과 다양한 지원 시스템을 제공하는 일본어 학교입니다.
+faculties: []
+features:
+- 대규모 기관 (풍부한 자원)
+- 체계적인 고등 교육 진학 트랙 (EJU 집중)
+- 종합적인 기숙사 시스템 이용 가능
+- 탄탄한 장학금 프로그램
+- 실용적인 회화 및 커뮤니케이션 훈련
+- 특화된 비즈니스 일본어 모듈
+- 유연한 장단기 등록 옵션
+id: school_nippon-gakuin-maebashi-gunma
+lang: kr
+layout: school
+location:
+  lat: 36.3879524
+  lng: 139.0600333
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=44
+stats:
+  capacity: 967
+  international_students: 900
+tags:
+- Large Capacity Institution (Highly Resourced)
+- Dedicated Higher Education Progression Tracks (EJU Focused)
+- Comprehensive Dormitory System Available
+- Robust Scholarship Programs
+- Practical Conversation and Communication Training
+- Specialized Business Japanese Modules
+- Flexible Long and Short-Term Enrollment Options
+thumbnail: /static/img/pin-school.png
+title: NIPPON 어학원 (NIPPON Japanese Language Institute)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

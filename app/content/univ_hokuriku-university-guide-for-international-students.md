@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hokuriku-university-guide-for-international-students",
-  "title": "Hokuriku University",
-  "category": "university",
-  "tags": [
-    "Renowned Faculty of Pharmacy with high national exam pass rates",
-    "Strong focus on East Asian international exchange and global business",
-    "Generous tuition reduction scholarships for international students",
-    "Located in Kanazawa, a city famous for its history and affordable living"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北陸大学",
-    "name_en": "Hokuriku University",
-    "address": "1-1 Taiyogaoka, Kanazawa, Ishikawa 920-1180, Japan",
-    "capacity": "Approx. 2,500 total students"
-  },
-  "stats": {
-    "international_students": 450,
-    "acceptance_rate": "Estimated 45-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Pharmacy",
-    "Faculty of Health Sciences",
-    "Faculty of Economic Management",
-    "Faculty of International Communication"
-  ],
-  "features": [
-    "Renowned Faculty of Pharmacy with high national exam pass rates",
-    "Strong focus on East Asian international exchange and global business",
-    "Generous tuition reduction scholarships for international students",
-    "Located in Kanazawa, a city famous for its history and affordable living"
-  ]
-}
+basic_info:
+  address: 1-1 Taiyogaoka, Kanazawa, Ishikawa 920-1180, Japan
+  capacity: Approx. 2,500 total students
+  name_en: Hokuriku University
+  name_ja: 北陸大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Pharmacy
+- Faculty of Health Sciences
+- Faculty of Economic Management
+- Faculty of International Communication
+features:
+- Renowned Faculty of Pharmacy with high national exam pass rates
+- Strong focus on East Asian international exchange and global business
+- Generous tuition reduction scholarships for international students
+- Located in Kanazawa, a city famous for its history and affordable living
+id: univ_hokuriku-university-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-65%
+  international_students: 450
+tags:
+- Renowned Faculty of Pharmacy with high national exam pass rates
+- Strong focus on East Asian international exchange and global business
+- Generous tuition reduction scholarships for international students
+- Located in Kanazawa, a city famous for its history and affordable living
+thumbnail: /static/img/pin-univ.png
+title: Hokuriku University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview: The Gateway to Professional Excellence in Kanazawa

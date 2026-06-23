@@ -1,54 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "〒814-8511 福岡県福岡市早良区西新6丁目2-92",
-    "name_en": "Seinan Gakuin University",
-    "name_ja": "西南学院大学",
-    "website": "https://www.seinan-gu.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Theology",
-    "Literature",
-    "Commerce",
-    "Economics",
-    "Law",
-    "Human Sciences",
-    "International Studies"
-  ],
-  "features": [
-    "지역 최고 사립 대학",
-    "기독교 재단",
-    "EJU 우대",
-    "후쿠오카 위치 (저렴한 생활비)",
-    "탄탄한 국제 교류"
-  ],
-  "id": "univ_seinan-gakuin-university-fukuoka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "매우 경쟁적 (학부별로 다름)",
-    "international_students": 650
-  },
-  "tags": [
-    "Top Regional Private University",
-    "Christian Foundation",
-    "EJU Preferred",
-    "Fukuoka Location (Low Cost of Living)",
-    "Robust International Exchange"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "세이난 가쿠인 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  }
-}
+basic_info:
+  address: 〒814-8511 福岡県福岡市早良区西新6丁目2-92
+  name_en: Seinan Gakuin University
+  name_ja: 西南学院大学
+  website: https://www.seinan-gu.ac.jp/
+category: university
+date: '2026-01-28'
+faculties:
+- Theology
+- Literature
+- Commerce
+- Economics
+- Law
+- Human Sciences
+- International Studies
+features:
+- 지역 최고 사립 대학
+- 기독교 재단
+- EJU 우대
+- 후쿠오카 위치 (저렴한 생활비)
+- 탄탄한 국제 교류
+id: univ_seinan-gakuin-university-fukuoka
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 매우 경쟁적 (학부별로 다름)
+  international_students: 650
+tags:
+- Top Regional Private University
+- Christian Foundation
+- EJU Preferred
+- Fukuoka Location (Low Cost of Living)
+- Robust International Exchange
+thumbnail: /static/img/pin-univ.png
+title: 세이난 가쿠인 대학
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요 및 명성

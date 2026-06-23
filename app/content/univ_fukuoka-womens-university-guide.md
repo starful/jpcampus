@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukuoka-womens-university-guide",
-  "title": "Fukuoka Women's University",
-  "category": "university",
-  "tags": [
-    "First public women's university in Japan",
-    "Mandatory on-campus residential education (Nadeshiko Dormitory)",
-    "Global leadership focus for female professionals",
-    "Strategic location in Fukuoka, Japan's startup hub"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福岡女子大学",
-    "name_en": "Fukuoka Women's University",
-    "address": "1-1-1 Kasumigaoka, Higashi-ku, Fukuoka City, Fukuoka, 813-8529 Japan",
-    "capacity": "Approx. 1,000 undergraduate students"
-  },
-  "stats": {
-    "international_students": 125,
-    "acceptance_rate": "Estimated 25-35% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "International College of Arts and Sciences",
-    "Department of International Liberal Arts",
-    "Department of Environmental Science",
-    "Department of Food and Health Science"
-  ],
-  "features": [
-    "First public women's university in Japan",
-    "Mandatory on-campus residential education (Nadeshiko Dormitory)",
-    "Global leadership focus for female professionals",
-    "Strategic location in Fukuoka, Japan's startup hub"
-  ]
-}
+basic_info:
+  address: 1-1-1 Kasumigaoka, Higashi-ku, Fukuoka City, Fukuoka, 813-8529 Japan
+  capacity: Approx. 1,000 undergraduate students
+  name_en: Fukuoka Women's University
+  name_ja: 福岡女子大学
+category: university
+date: '2026-03-03'
+faculties:
+- International College of Arts and Sciences
+- Department of International Liberal Arts
+- Department of Environmental Science
+- Department of Food and Health Science
+features:
+- First public women's university in Japan
+- Mandatory on-campus residential education (Nadeshiko Dormitory)
+- Global leadership focus for female professionals
+- Strategic location in Fukuoka, Japan's startup hub
+id: univ_fukuoka-womens-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 25-35% for International Applicants
+  international_students: 125
+tags:
+- First public women's university in Japan
+- Mandatory on-campus residential education (Nadeshiko Dormitory)
+- Global leadership focus for female professionals
+- Strategic location in Fukuoka, Japan's startup hub
+thumbnail: /static/img/pin-univ.png
+title: Fukuoka Women's University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: A Legacy of Excellence

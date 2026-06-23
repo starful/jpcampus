@@ -5,6 +5,7 @@ basic_info:
   name_ja: 甲南大学
   website: https://www.konan-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Letters
 - Faculty of Economics

@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aino-university-international-student-guide",
-  "title": "Aino University",
-  "category": "university",
-  "tags": [
-    "Specialized Medical & Healthcare Focus",
-    "Direct Link to Aino Hospital Group",
-    "High National Examination Pass Rates",
-    "Strategic Location in the Kyoto-Osaka Corridor"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "藍野大学",
-    "name_en": "Aino University",
-    "address": "4-5-41 Higashiohda, Ibaraki, Osaka 567-0012, Japan",
-    "capacity": 840
-  },
-  "stats": {
-    "international_students": 6,
-    "acceptance_rate": "62%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1550000
-  },
-  "faculties": [
-    "Faculty of Health Care Sciences",
-    "Department of Nursing",
-    "Department of Physical Therapy",
-    "Department of Occupational Therapy",
-    "Department of Clinical Engineering"
-  ],
-  "features": [
-    "Specialized Medical & Healthcare Focus",
-    "Direct Link to Aino Hospital Group",
-    "High National Examination Pass Rates",
-    "Strategic Location in the Kyoto-Osaka Corridor"
-  ]
-}
+basic_info:
+  address: 4-5-41 Higashiohda, Ibaraki, Osaka 567-0012, Japan
+  capacity: 840
+  name_en: Aino University
+  name_ja: 藍野大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Health Care Sciences
+- Department of Nursing
+- Department of Physical Therapy
+- Department of Occupational Therapy
+- Department of Clinical Engineering
+features:
+- Specialized Medical & Healthcare Focus
+- Direct Link to Aino Hospital Group
+- High National Examination Pass Rates
+- Strategic Location in the Kyoto-Osaka Corridor
+id: univ_aino-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 62%
+  international_students: 6
+tags:
+- Specialized Medical & Healthcare Focus
+- Direct Link to Aino Hospital Group
+- High National Examination Pass Rates
+- Strategic Location in the Kyoto-Osaka Corridor
+thumbnail: /static/img/pin-univ.png
+title: Aino University
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1550000
 ---
 
 ## 🏫 University Overview

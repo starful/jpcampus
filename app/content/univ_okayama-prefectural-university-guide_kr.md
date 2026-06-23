@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okayama-prefectural-university-guide",
-  "title": "오카야마 현립 대학교",
-  "category": "university",
-  "tags": [
-    "Human-Centric Research Philosophy",
-    "Strong Regional Industry Ties",
-    "Advanced Design and Engineering Integration",
-    "Tranquil Campus in Historic Soja City"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡山県立大学",
-    "name_en": "Okayama Prefectural University",
-    "address": "111 Kuboki, Soja-shi, Okayama 719-1197, Japan",
-    "capacity": 1600
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Health and Welfare Science",
-    "Faculty of Computer Science and Systems Engineering",
-    "Faculty of Design"
-  ],
-  "features": [
-    "인간 중심 연구 철학",
-    "강력한 지역 산업 연계",
-    "첨단 디자인 및 엔지니어링 통합",
-    "역사적인 소자시에 위치한 조용한 캠퍼스"
-  ],
-  "description": "오카야마 현립 대학교(OPU)는 인간, 자연, 기술의 조화를 중시하는 오카야마현 소자시에 위치한 명문 공립 대학입니다. 헬스케어, 엔지니어링, 디자인 분야에서 뛰어난 교육을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 111 Kuboki, Soja-shi, Okayama 719-1197, Japan
+  capacity: 1600
+  name_en: Okayama Prefectural University
+  name_ja: 岡山県立大学
+category: university
+date: '2026-03-03'
+description: 오카야마 현립 대학교(OPU)는 인간, 자연, 기술의 조화를 중시하는 오카야마현 소자시에 위치한 명문 공립 대학입니다. 헬스케어,
+  엔지니어링, 디자인 분야에서 뛰어난 교육을 제공합니다.
+faculties:
+- Faculty of Health and Welfare Science
+- Faculty of Computer Science and Systems Engineering
+- Faculty of Design
+features:
+- 인간 중심 연구 철학
+- 강력한 지역 산업 연계
+- 첨단 디자인 및 엔지니어링 통합
+- 역사적인 소자시에 위치한 조용한 캠퍼스
+id: univ_okayama-prefectural-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 42
+tags:
+- Human-Centric Research Philosophy
+- Strong Regional Industry Ties
+- Advanced Design and Engineering Integration
+- Tranquil Campus in Historic Soja City
+thumbnail: /static/img/pin-univ.png
+title: 오카야마 현립 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toyama-prefectural-university-guide",
-  "title": "도야마 현립 대학교",
-  "category": "university",
-  "tags": [
-    "Located in the Pharmaceutical Capital of Japan",
-    "State-of-the-art Manufacturing (Monozukuri) Facilities",
-    "Extremely High Employment Rate (Nearly 100%)",
-    "Strong Ties with Regional High-Tech Industries"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "富山県立大学",
-    "name_en": "Toyama Prefectural University",
-    "address": "5180 Kurokawa, Imizu, Toyama 939-0398, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "일본 제약 산업의 중심지에 위치",
-    "최첨단 제조 (모노즈쿠리) 시설",
-    "매우 높은 취업률 (거의 100%)",
-    "지역 하이테크 산업과의 강력한 연계"
-  ],
-  "description": "도야마 현립 대학교 (TPU)는 일본 호쿠리쿠 지역의 뛰어난 공학 교육의 중심지입니다. 높은 취업률과 지역 산업과의 긴밀한 연계를 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 5180 Kurokawa, Imizu, Toyama 939-0398, Japan
+  capacity: null
+  name_en: Toyama Prefectural University
+  name_ja: 富山県立大学
+category: university
+date: '2026-03-03'
+description: 도야마 현립 대학교 (TPU)는 일본 호쿠리쿠 지역의 뛰어난 공학 교육의 중심지입니다. 높은 취업률과 지역 산업과의 긴밀한
+  연계를 자랑합니다.
+faculties:
+- Faculty of Engineering
+- Faculty of Nursing
+features:
+- 일본 제약 산업의 중심지에 위치
+- 최첨단 제조 (모노즈쿠리) 시설
+- 매우 높은 취업률 (거의 100%)
+- 지역 하이테크 산업과의 강력한 연계
+id: univ_toyama-prefectural-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 45
+tags:
+- Located in the Pharmaceutical Capital of Japan
+- State-of-the-art Manufacturing (Monozukuri) Facilities
+- Extremely High Employment Rate (Nearly 100%)
+- Strong Ties with Regional High-Tech Industries
+thumbnail: /static/img/pin-univ.png
+title: 도야마 현립 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 일본 공학 우수성을 향한 관문

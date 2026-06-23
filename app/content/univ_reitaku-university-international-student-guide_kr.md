@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_reitaku-university-international-student-guide",
-  "title": "레이타쿠 대학교 (Reitaku University)",
-  "description": "치바현 가시와시에 위치한 레이타쿠 대학교는 소규모 세미나 교육과 글로벌 환경, 그리고 인성 교육을 중시하는 학풍으로 잘 알려진 명문 사립대학교입니다.",
-  "category": "university",
-  "tags": [
-    "소규모 세미나 교육 (제미 시스템)",
-    "도덕 과학 및 윤리(모럴로지) 강조",
-    "높은 외국인 유학생 비율",
-    "통합형 글로벌 기숙사"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "麗澤大学",
-    "name_en": "Reitaku University",
-    "address": "2-1-1 Hikarigaoka, Kashiwa-shi, Chiba, 277-8686, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 450,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 230000,
-    "yearly_tuition": 870000
-  },
-  "faculties": [
-    "Faculty of Foreign Studies",
-    "Faculty of Economics and Business Administration",
-    "Faculty of International Studies",
-    "Faculty of Psychology"
-  ],
-  "features": [
-    "소규모 세미나 교육 (제미 시스템)",
-    "도덕 과학 및 윤리(모럴로지) 중심 교육",
-    "높은 외국인 유학생 비율과 다채로운 글로벌 캠퍼스",
-    "이문화 교류가 가능한 통합형 글로벌 기숙사"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-1 Hikarigaoka, Kashiwa-shi, Chiba, 277-8686, Japan
+  capacity: null
+  name_en: Reitaku University
+  name_ja: 麗澤大学
+category: university
+date: '2026-03-08'
+description: 치바현 가시와시에 위치한 레이타쿠 대학교는 소규모 세미나 교육과 글로벌 환경, 그리고 인성 교육을 중시하는 학풍으로 잘 알려진
+  명문 사립대학교입니다.
+faculties:
+- Faculty of Foreign Studies
+- Faculty of Economics and Business Administration
+- Faculty of International Studies
+- Faculty of Psychology
+features:
+- 소규모 세미나 교육 (제미 시스템)
+- 도덕 과학 및 윤리(모럴로지) 중심 교육
+- 높은 외국인 유학생 비율과 다채로운 글로벌 캠퍼스
+- 이문화 교류가 가능한 통합형 글로벌 기숙사
+id: univ_reitaku-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 450
+tags:
+- 소규모 세미나 교육 (제미 시스템)
+- 도덕 과학 및 윤리(모럴로지) 강조
+- 높은 외국인 유학생 비율
+- 통합형 글로벌 기숙사
+thumbnail: /static/img/pin-univ.png
+title: 레이타쿠 대학교 (Reitaku University)
+tuition:
+  admission_fee: 230000
+  yearly_tuition: 870000
 ---
 
 ## 🏫 대학 개요

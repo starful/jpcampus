@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年半コース
   total_fees: 1105000
+date: '2026-01-28'
 description: Koubun International Language School, located in Shinshiro, Aichi, offers
   focused university preparation in a supportive rural environment. Specializes in
   EJU and JLPT training with pathways for Science, Art, Business, and more.

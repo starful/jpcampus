@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tenri-university-guide-international-students",
-  "title": "Tenri University",
-  "category": "university",
-  "tags": [
-    "World-renowned Judo and Sports heritage",
-    "First private foreign language school in Japan heritage",
-    "Deeply rooted in Tenrikyo humanitarian values",
-    "Affordable living in a historic religious city"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "天理大学",
-    "name_en": "Tenri University",
-    "address": "1050 Somanouchi-cho, Tenri, Nara 632-8510, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "55% (Department dependent)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of International Studies",
-    "Faculty of Physical Education",
-    "Faculty of Health Care"
-  ],
-  "features": [
-    "World-renowned Judo and Sports heritage",
-    "First private foreign language school in Japan heritage",
-    "Deeply rooted in Tenrikyo humanitarian values",
-    "Affordable living in a historic religious city"
-  ]
-}
+basic_info:
+  address: 1050 Somanouchi-cho, Tenri, Nara 632-8510, Japan
+  capacity: 3500
+  name_en: Tenri University
+  name_ja: 天理大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Humanities
+- Faculty of International Studies
+- Faculty of Physical Education
+- Faculty of Health Care
+features:
+- World-renowned Judo and Sports heritage
+- First private foreign language school in Japan heritage
+- Deeply rooted in Tenrikyo humanitarian values
+- Affordable living in a historic religious city
+id: univ_tenri-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55% (Department dependent)
+  international_students: 245
+tags:
+- World-renowned Judo and Sports heritage
+- First private foreign language school in Japan heritage
+- Deeply rooted in Tenrikyo humanitarian values
+- Affordable living in a historic religious city
+thumbnail: /static/img/pin-univ.png
+title: Tenri University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview

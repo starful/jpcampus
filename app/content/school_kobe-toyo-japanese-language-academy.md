@@ -30,6 +30,7 @@ courses:
 - admission_month: '1'
   course_name: 冬コースⅡ
   total_fees: 881000
+date: '2026-06-19'
 description: Explore Kobe Toyo Japanese Language Academy. Find updated 2026 tuition
   fees, courses, student reviews, and step-by-step visa support on JP Campus.
 faculties: []
@@ -50,6 +51,9 @@ layout: school
 location:
   lat: 34.6910859
   lng: 135.187186
+seo_description: Study in Kobe! Find 2026 tuition, courses, and reviews for Kobe Toyo
+  Japanese Language Academy. Get free visa support and apply online via JP Campus.
+seo_title: Kobe Toyo Japanese Language Academy | 2026 Admission & Fees
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=372
 stats:
   capacity: 520
@@ -69,13 +73,7 @@ thumbnail: /static/img/pin-school.png
 title: Kobe Toyo Japanese Language Academy
 translated: true
 tuition: {}
-seo_title: Kobe Toyo Japanese Language Academy | 2026 Admission & Fees
-seo_description: Study in Kobe! Find 2026 tuition, courses, and reviews for Kobe Toyo
-  Japanese Language Academy. Get free visa support and apply online via JP Campus.
 ---
-
-
-
 
 ## School Overview
 

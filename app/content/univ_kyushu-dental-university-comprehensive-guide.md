@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyushu-dental-university-comprehensive-guide",
-  "title": "Kyushu Dental University",
-  "category": "university",
-  "tags": [
-    "Public University Status (Low Tuition)",
-    "Over 100 Years of Academic History",
-    "High National Dental Exam Pass Rates",
-    "Advanced University Hospital Integration"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "九州歯科大学",
-    "name_en": "Kyushu Dental University",
-    "address": "2-6-1 Manazuru, Kokurakita-ku, Kitakyushu, Fukuoka 803-8580, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 12,
-    "acceptance_rate": "15-20% (Highly Competitive)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Dentistry",
-    "School of Oral Health Sciences",
-    "Graduate School of Dental Science"
-  ],
-  "features": [
-    "Public University Status (Low Tuition)",
-    "Over 100 Years of Academic History",
-    "High National Dental Exam Pass Rates",
-    "Advanced University Hospital Integration"
-  ]
-}
+basic_info:
+  address: 2-6-1 Manazuru, Kokurakita-ku, Kitakyushu, Fukuoka 803-8580, Japan
+  capacity: null
+  name_en: Kyushu Dental University
+  name_ja: 九州歯科大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Dentistry
+- School of Oral Health Sciences
+- Graduate School of Dental Science
+features:
+- Public University Status (Low Tuition)
+- Over 100 Years of Academic History
+- High National Dental Exam Pass Rates
+- Advanced University Hospital Integration
+id: univ_kyushu-dental-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-20% (Highly Competitive)
+  international_students: 12
+tags:
+- Public University Status (Low Tuition)
+- Over 100 Years of Academic History
+- High National Dental Exam Pass Rates
+- Advanced University Hospital Integration
+thumbnail: /static/img/pin-univ.png
+title: Kyushu Dental University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tottori-university-international-student-guide",
-  "title": "Tottori University",
-  "category": "university",
-  "tags": [
-    "World-leading Arid Land Research Center (ALRC)",
-    "Exceptionally low cost of living compared to Tokyo/Osaka",
-    "High job placement rates for engineering and agriculture graduates",
-    "Strong focus on community-integrated regional development"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鳥取大学",
-    "name_en": "Tottori University",
-    "address": "4-101 Koyama-cho Minami, Tottori-shi, Tottori 680-8550, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 242,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Regional Sciences",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "World-leading Arid Land Research Center (ALRC)",
-    "Exceptionally low cost of living compared to Tokyo/Osaka",
-    "High job placement rates for engineering and agriculture graduates",
-    "Strong focus on community-integrated regional development"
-  ]
-}
+basic_info:
+  address: 4-101 Koyama-cho Minami, Tottori-shi, Tottori 680-8550, Japan
+  capacity: null
+  name_en: Tottori University
+  name_ja: 鳥取大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Regional Sciences
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- World-leading Arid Land Research Center (ALRC)
+- Exceptionally low cost of living compared to Tokyo/Osaka
+- High job placement rates for engineering and agriculture graduates
+- Strong focus on community-integrated regional development
+id: univ_tottori-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 242
+tags:
+- World-leading Arid Land Research Center (ALRC)
+- Exceptionally low cost of living compared to Tokyo/Osaka
+- High job placement rates for engineering and agriculture graduates
+- Strong focus on community-integrated regional development
+thumbnail: /static/img/pin-univ.png
+title: Tottori University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

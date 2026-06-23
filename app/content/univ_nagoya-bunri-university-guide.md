@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-bunri-university-guide",
-  "title": "Nagoya Bunri University",
-  "category": "university",
-  "tags": [
-    "Specialized focus on the intersection of technology and health sciences.",
-    "State-of-the-art multimedia facilities and recording studios.",
-    "Strong employment support in the Chubu economic region.",
-    "Generous tuition reduction schemes for international applicants."
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋文理大学",
-    "name_en": "Nagoya Bunri University",
-    "address": "302-1 Maeda, Inazawa-cho, Inazawa, Aichi 492-8520, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "65-75% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Information Media",
-    "Faculty of Health and Nutrition",
-    "Department of Food and Dietetics (Junior College Division)"
-  ],
-  "features": [
-    "Specialized focus on the intersection of technology and health sciences.",
-    "State-of-the-art multimedia facilities and recording studios.",
-    "Strong employment support in the Chubu economic region.",
-    "Generous tuition reduction schemes for international applicants."
-  ]
-}
+basic_info:
+  address: 302-1 Maeda, Inazawa-cho, Inazawa, Aichi 492-8520, Japan
+  capacity: 1200
+  name_en: Nagoya Bunri University
+  name_ja: 名古屋文理大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Information Media
+- Faculty of Health and Nutrition
+- Department of Food and Dietetics (Junior College Division)
+features:
+- Specialized focus on the intersection of technology and health sciences.
+- State-of-the-art multimedia facilities and recording studios.
+- Strong employment support in the Chubu economic region.
+- Generous tuition reduction schemes for international applicants.
+id: univ_nagoya-bunri-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (Estimated)
+  international_students: 145
+tags:
+- Specialized focus on the intersection of technology and health sciences.
+- State-of-the-art multimedia facilities and recording studios.
+- Strong employment support in the Chubu economic region.
+- Generous tuition reduction schemes for international applicants.
+thumbnail: /static/img/pin-univ.png
+title: Nagoya Bunri University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

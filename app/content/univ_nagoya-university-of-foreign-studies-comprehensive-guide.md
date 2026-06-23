@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-university-of-foreign-studies-comprehensive-guide",
-  "title": "Nagoya University of Foreign Studies",
-  "category": "university",
-  "tags": [
-    "PUT (Power-up Tutorial) System with 4:1 student-teacher ratio",
-    "Over 100 partner universities worldwide",
-    "Highly specialized language immersion environment",
-    "Strong career placement in aviation and global trade"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋外国語大学",
-    "name_en": "Nagoya University of Foreign Studies",
-    "address": "57 Takenoyama, Iwasaki-cho, Nisshin-shi, Aichi, 470-0197, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 285,
-    "acceptance_rate": "35-45% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1170000
-  },
-  "faculties": [
-    "School of Foreign Languages",
-    "School of Contemporary International Studies",
-    "School of World Liberal Arts",
-    "School of Global Governance and Collaboration"
-  ],
-  "features": [
-    "PUT (Power-up Tutorial) System with 4:1 student-teacher ratio",
-    "Over 100 partner universities worldwide",
-    "Highly specialized language immersion environment",
-    "Strong career placement in aviation and global trade"
-  ]
-}
+basic_info:
+  address: 57 Takenoyama, Iwasaki-cho, Nisshin-shi, Aichi, 470-0197, Japan
+  capacity: null
+  name_en: Nagoya University of Foreign Studies
+  name_ja: 名古屋外国語大学
+category: university
+date: '2026-03-15'
+faculties:
+- School of Foreign Languages
+- School of Contemporary International Studies
+- School of World Liberal Arts
+- School of Global Governance and Collaboration
+features:
+- PUT (Power-up Tutorial) System with 4:1 student-teacher ratio
+- Over 100 partner universities worldwide
+- Highly specialized language immersion environment
+- Strong career placement in aviation and global trade
+id: univ_nagoya-university-of-foreign-studies-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated for International Applicants)
+  international_students: 285
+tags:
+- PUT (Power-up Tutorial) System with 4:1 student-teacher ratio
+- Over 100 partner universities worldwide
+- Highly specialized language immersion environment
+- Strong career placement in aviation and global trade
+thumbnail: /static/img/pin-univ.png
+title: Nagoya University of Foreign Studies
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1170000
 ---
 
 ## 🏫 University Overview

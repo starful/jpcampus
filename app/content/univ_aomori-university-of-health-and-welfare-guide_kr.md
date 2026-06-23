@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aomori-university-of-health-and-welfare-guide",
-  "title": "아오모리현립보건대학",
-  "category": "university",
-  "tags": [
-    "IPE(Interprofessional Education) 교육과정",
-    "높은 국가고시 합격률",
-    "지역 보건 및 장수에 대한 강력한 집중",
-    "최첨단 재활 시설"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "青森県立保健大学",
-    "name_en": "Aomori University of Health and Welfare",
-    "address": "58-1 Mase, Hamadate, Aomori-shi, Aomori 030-8505, Japan",
-    "capacity": 210
-  },
-  "stats": {
-    "international_students": 3,
-    "acceptance_rate": "25% (지역 공립 대학으로서 경쟁률이 매우 높음)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "간호학과",
-    "물리치료학과",
-    "작업치료학과",
-    "사회복지학과",
-    "건강영양학과"
-  ],
-  "features": [
-    "IPE(Interprofessional Education) 교육과정",
-    "높은 국가고시 합격률",
-    "지역 보건 및 장수에 대한 강력한 집중",
-    "최첨단 재활 시설"
-  ],
-  "description": "아오모리현에 위치한 아오모리현립보건대학은 보건 및 복지 분야의 인재 양성에 힘쓰고 있습니다. IPE 교육과정, 높은 국가고시 합격률, 지역 사회와의 연계가 특징입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 58-1 Mase, Hamadate, Aomori-shi, Aomori 030-8505, Japan
+  capacity: 210
+  name_en: Aomori University of Health and Welfare
+  name_ja: 青森県立保健大学
+category: university
+date: '2026-03-03'
+description: 아오모리현에 위치한 아오모리현립보건대학은 보건 및 복지 분야의 인재 양성에 힘쓰고 있습니다. IPE 교육과정, 높은 국가고시
+  합격률, 지역 사회와의 연계가 특징입니다.
+faculties:
+- 간호학과
+- 물리치료학과
+- 작업치료학과
+- 사회복지학과
+- 건강영양학과
+features:
+- IPE(Interprofessional Education) 교육과정
+- 높은 국가고시 합격률
+- 지역 보건 및 장수에 대한 강력한 집중
+- 최첨단 재활 시설
+id: univ_aomori-university-of-health-and-welfare-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25% (지역 공립 대학으로서 경쟁률이 매우 높음)
+  international_students: 3
+tags:
+- IPE(Interprofessional Education) 교육과정
+- 높은 국가고시 합격률
+- 지역 보건 및 장수에 대한 강력한 집중
+- 최첨단 재활 시설
+thumbnail: /static/img/pin-univ.png
+title: 아오모리현립보건대학
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 일본 북부 보건의 핵심

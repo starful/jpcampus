@@ -1,57 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_mukogawa-womens-university",
-  "title": "무코가와 여자대학교",
-  "description": "일본 최대 규모의 사립 여대 중 하나로, 12개 학부와 강력한 취업 지원 시스템, 미국 스포캔의 해외 캠퍼스를 갖춘 종합 대학교입니다.",
-  "category": "university",
-  "tags": [
-    "일본 최대 규모의 사립 여자대학교 중 하나",
-    "미국 스포캔 전용 캠퍼스 등 강력한 글로벌 교육",
-    "압도적인 취업률과 체계적인 커리어 개발 지원",
-    "역사적 건축물에서 배우는 독창적인 건축학 프로그램"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "武庫川女子大学",
-    "name_en": "Mukogawa Women's University",
-    "address": "6-46 Ikebiraki-cho, Nishinomiya, Hyogo 663-8558, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 92,
-    "acceptance_rate": "35.5%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "문학부",
-    "교육학부",
-    "건강·스포츠과학부",
-    "생활환경학부",
-    "음악학부",
-    "약학부",
-    "간호학부",
-    "경영학부",
-    "건축학부",
-    "사회정보학부",
-    "심리·사회복지학부",
-    "식품영양과학부"
-  ],
-  "features": [
-    "일본 최대 규모의 사립 여자대학교 중 하나",
-    "미국 스포캔에 전용 캠퍼스를 보유한 강력한 글로벌 교육",
-    "우수한 취업률과 전문적인 커리어 지원 서비스",
-    "역사적 랜드마크에서 진행되는 독보적인 건축학 프로그램"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 6-46 Ikebiraki-cho, Nishinomiya, Hyogo 663-8558, Japan
+  capacity: null
+  name_en: Mukogawa Women's University
+  name_ja: 武庫川女子大学
+category: university
+date: '2026-03-15'
+description: 일본 최대 규모의 사립 여대 중 하나로, 12개 학부와 강력한 취업 지원 시스템, 미국 스포캔의 해외 캠퍼스를 갖춘 종합 대학교입니다.
+faculties:
+- 문학부
+- 교육학부
+- 건강·스포츠과학부
+- 생활환경학부
+- 음악학부
+- 약학부
+- 간호학부
+- 경영학부
+- 건축학부
+- 사회정보학부
+- 심리·사회복지학부
+- 식품영양과학부
+features:
+- 일본 최대 규모의 사립 여자대학교 중 하나
+- 미국 스포캔에 전용 캠퍼스를 보유한 강력한 글로벌 교육
+- 우수한 취업률과 전문적인 커리어 지원 서비스
+- 역사적 랜드마크에서 진행되는 독보적인 건축학 프로그램
+id: univ_mukogawa-womens-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35.5%
+  international_students: 92
+tags:
+- 일본 최대 규모의 사립 여자대학교 중 하나
+- 미국 스포캔 전용 캠퍼스 등 강력한 글로벌 교육
+- 압도적인 취업률과 체계적인 커리어 개발 지원
+- 역사적 건축물에서 배우는 독창적인 건축학 프로그램
+thumbnail: /static/img/pin-univ.png
+title: 무코가와 여자대학교
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: 일본 여성 교육의 정점

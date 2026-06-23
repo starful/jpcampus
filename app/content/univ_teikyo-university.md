@@ -5,6 +5,7 @@ basic_info:
   name_ja: 帝京大学
   website: https://www.teikyo-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Medicine
 - Faculty of Pharma-Science

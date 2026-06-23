@@ -5,6 +5,7 @@ basic_info:
   name_ja: 西南学院大学
   website: https://www.seinan-gu.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Theology
 - Literature

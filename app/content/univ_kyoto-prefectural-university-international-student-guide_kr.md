@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-prefectural-university-international-student-guide",
-  "title": "교토부립대학교",
-  "category": "university",
-  "tags": [
-    "교토 중심부에 위치한 명문 공립 기관",
-    "매우 적은 학급 규모와 연구 그룹",
-    "교토 식물원 및 가모 강 인접",
-    "지역 활성화 및 교토 연구에 중점"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都府立大学",
-    "name_en": "Kyoto Prefectural University",
-    "address": "1-5 Nakaragi-cho, Shimogamo, Sakyo-ku, Kyoto, 606-8522, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 48,
-    "acceptance_rate": "25-30% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Public Policy",
-    "Faculty of Life and Environmental Sciences"
-  ],
-  "features": [
-    "교토 중심부에 위치한 명문 공립 기관",
-    "매우 적은 학급 규모와 연구 그룹",
-    "교토 식물원 및 가모 강 인접",
-    "지역 활성화 및 교토 연구에 중점"
-  ],
-  "description": "교토부립대학교는 교토의 중심부에 위치한 명문 공립 대학입니다. 소규모 학급, 교토 연구 집중, 아름다운 캠퍼스 환경을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-5 Nakaragi-cho, Shimogamo, Sakyo-ku, Kyoto, 606-8522, Japan
+  capacity: null
+  name_en: Kyoto Prefectural University
+  name_ja: 京都府立大学
+category: university
+date: '2026-03-03'
+description: 교토부립대학교는 교토의 중심부에 위치한 명문 공립 대학입니다. 소규모 학급, 교토 연구 집중, 아름다운 캠퍼스 환경을 자랑합니다.
+faculties:
+- Faculty of Letters
+- Faculty of Public Policy
+- Faculty of Life and Environmental Sciences
+features:
+- 교토 중심부에 위치한 명문 공립 기관
+- 매우 적은 학급 규모와 연구 그룹
+- 교토 식물원 및 가모 강 인접
+- 지역 활성화 및 교토 연구에 중점
+id: univ_kyoto-prefectural-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30% (Estimated)
+  international_students: 48
+tags:
+- 교토 중심부에 위치한 명문 공립 기관
+- 매우 적은 학급 규모와 연구 그룹
+- 교토 식물원 및 가모 강 인접
+- 지역 활성화 및 교토 연구에 중점
+thumbnail: /static/img/pin-univ.png
+title: 교토부립대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

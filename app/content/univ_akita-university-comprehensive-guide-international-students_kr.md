@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_akita-university-comprehensive-guide-international-students",
-  "title": "아키타 대학교",
-  "category": "university",
-  "tags": [
-    "Japan's leading institution for Resource and Earth Sciences",
-    "High employment rate for graduates in domestic and international industries",
-    "Affordable living costs and safe, tranquil northern environment",
-    "State-of-the-art research facilities in mining and medical technology"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "秋田大学",
-    "name_en": "Akita University",
-    "address": "1-1 Tegata Gakuen-machi, Akita City, Akita Prefecture 010-8502, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 240,
-    "acceptance_rate": "Estimated 25% to 35% depending on faculty"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Resource Sciences",
-    "Faculty of Education and Human Studies",
-    "Faculty of Medicine",
-    "Faculty of Engineering Science"
-  ],
-  "features": [
-    "자원 및 지구 과학 분야의 일본 최고 기관",
-    "국내외 산업에서 졸업생의 높은 취업률",
-    "저렴한 생활비와 안전하고 조용한 북부 환경",
-    "광업 및 의료 기술 분야의 최첨단 연구 시설"
-  ],
-  "description": "아키타 대학교는 일본 도호쿠 지방에 위치한 명문 국립대학교입니다. 특히 자원 과학 분야에서 뛰어난 연구 성과를 자랑합니다. 유학생을 위한 지원 시스템과 저렴한 생활비, 안전한 환경을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Tegata Gakuen-machi, Akita City, Akita Prefecture 010-8502, Japan
+  capacity: null
+  name_en: Akita University
+  name_ja: 秋田大学
+category: university
+date: '2026-02-13'
+description: 아키타 대학교는 일본 도호쿠 지방에 위치한 명문 국립대학교입니다. 특히 자원 과학 분야에서 뛰어난 연구 성과를 자랑합니다.
+  유학생을 위한 지원 시스템과 저렴한 생활비, 안전한 환경을 제공합니다.
+faculties:
+- Faculty of International Resource Sciences
+- Faculty of Education and Human Studies
+- Faculty of Medicine
+- Faculty of Engineering Science
+features:
+- 자원 및 지구 과학 분야의 일본 최고 기관
+- 국내외 산업에서 졸업생의 높은 취업률
+- 저렴한 생활비와 안전하고 조용한 북부 환경
+- 광업 및 의료 기술 분야의 최첨단 연구 시설
+id: univ_akita-university-comprehensive-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 25% to 35% depending on faculty
+  international_students: 240
+tags:
+- Japan's leading institution for Resource and Earth Sciences
+- High employment rate for graduates in domestic and international industries
+- Affordable living costs and safe, tranquil northern environment
+- State-of-the-art research facilities in mining and medical technology
+thumbnail: /static/img/pin-univ.png
+title: 아키타 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparatory Course 4
   total_fees: 932500
+date: '2026-01-28'
 faculties: []
 features:
 - University Entrance Preparation (Shinagaku)

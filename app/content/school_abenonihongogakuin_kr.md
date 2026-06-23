@@ -1,57 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市阿倍野区阪南町4-12-1",
-    "capacity": 220,
-    "name_en": "Abeno Japanese Language School",
-    "name_ja": "阿倍野日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "University Prep 1.5 Year Course",
-      "total_fees": 1167000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Prep 2 Year Course",
-      "total_fees": 1545000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학교 진학 준비",
-    "회화 중심",
-    "기숙사",
-    "EJU 준비",
-    "단기 코스"
-  ],
-  "id": "school_abenonihongogakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6255119,
-    "lng": 135.5154831
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=557",
-  "stats": {
-    "capacity": 220,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Conversation Focus",
-    "Dormitory",
-    "EJU Preparation",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아베노 일본어 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "오사카에 위치한 아베노 일본어 학원은 외국인 학생들에게 종합적인 어학 교육과 일본에서의 학업 및 전문적인 목표를 위한 강력한 지원을 제공합니다."
-}
+basic_info:
+  address: 大阪府大阪市阿倍野区阪南町4-12-1
+  capacity: 220
+  name_en: Abeno Japanese Language School
+  name_ja: 阿倍野日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: University Prep 1.5 Year Course
+  total_fees: 1167000
+- admission_month: '10'
+  course_name: University Prep 2 Year Course
+  total_fees: 1545000
+date: '2026-01-28'
+description: 오사카에 위치한 아베노 일본어 학원은 외국인 학생들에게 종합적인 어학 교육과 일본에서의 학업 및 전문적인 목표를 위한 강력한
+  지원을 제공합니다.
+faculties: []
+features:
+- 대학교 진학 준비
+- 회화 중심
+- 기숙사
+- EJU 준비
+- 단기 코스
+id: school_abenonihongogakuin
+lang: kr
+layout: school
+location:
+  lat: 34.6255119
+  lng: 135.5154831
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=557
+stats:
+  capacity: 220
+  international_students: 0
+tags:
+- University Preparation
+- Conversation Focus
+- Dormitory
+- EJU Preparation
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 아베노 일본어 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

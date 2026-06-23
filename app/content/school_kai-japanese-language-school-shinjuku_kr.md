@@ -1,54 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区大久保1-15-18　みゆきビル3F",
-    "capacity": 280,
-    "name_en": "KAI Japanese Language School",
-    "name_ja": "カイ日本語スクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "日本語総合コース午前クラス",
-      "total_fees": 1640000
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "日本語総合コース午後クラス",
-      "total_fees": 1640000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "회화 능력 향상에 집중 (KAI Method)",
-    "EJU 및 대학 진학 맞춤형 트랙 제공",
-    "신주쿠 중심지 (오쿠보 지역) 위치",
-    "소규모 학급으로 개인별 맞춤 지도"
-  ],
-  "id": "school_kai-japanese-language-school-shinjuku",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7009965,
-    "lng": 139.7037021
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=117",
-  "stats": {
-    "capacity": 280,
-    "international_students": 280
-  },
-  "tags": [
-    "High-level Conversational Competency Focus (The KAI Method)",
-    "Dedicated EJU and Higher Education Preparation Tracks",
-    "Central Shinjuku Location (Okubo Area)",
-    "Small-to-Medium Class Sizes for Personalized Attention"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "KAI 일본어 학교",
-  "tuition": {},
-  "description": "신주쿠에 위치한 KAI 일본어 학교는 회화 능력 향상과 대학 진학을 위한 맞춤형 프로그램을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区大久保1-15-18　みゆきビル3F
+  capacity: 280
+  name_en: KAI Japanese Language School
+  name_ja: カイ日本語スクール
+category: school
+courses:
+- admission_month: 4,7,10,1
+  course_name: 日本語総合コース午前クラス
+  total_fees: 1640000
+- admission_month: 4,7,10,1
+  course_name: 日本語総合コース午後クラス
+  total_fees: 1640000
+date: '2026-01-28'
+description: 신주쿠에 위치한 KAI 일본어 학교는 회화 능력 향상과 대학 진학을 위한 맞춤형 프로그램을 제공합니다.
+faculties: []
+features:
+- 회화 능력 향상에 집중 (KAI Method)
+- EJU 및 대학 진학 맞춤형 트랙 제공
+- 신주쿠 중심지 (오쿠보 지역) 위치
+- 소규모 학급으로 개인별 맞춤 지도
+id: school_kai-japanese-language-school-shinjuku
+lang: kr
+layout: school
+location:
+  lat: 35.7009965
+  lng: 139.7037021
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=117
+stats:
+  capacity: 280
+  international_students: 280
+tags:
+- High-level Conversational Competency Focus (The KAI Method)
+- Dedicated EJU and Higher Education Preparation Tracks
+- Central Shinjuku Location (Okubo Area)
+- Small-to-Medium Class Sizes for Personalized Attention
+thumbnail: /static/img/pin-school.png
+title: KAI 일본어 학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

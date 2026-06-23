@@ -1,84 +1,68 @@
 ---
-{
-  "basic_info": {
-    "address": "茨城県日立市鹿島町1-7-6",
-    "capacity": 100,
-    "name_en": "Hitachi Sakura Japanese Language School",
-    "name_ja": "日立さくら日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1355500
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1200500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1045500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 910500
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般1年コース",
-      "total_fees": 770500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "대학/전문학교 진학 준비",
-    "회화 일본어",
-    "장학금",
-    "개인실",
-    "이과 코스",
-    "비즈니스 일본어",
-    "미술 코스",
-    "디자인 코스",
-    "단기 코스"
-  ],
-  "id": "school_hitachi-sakura-nihongo-gakko",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.5958637,
-    "lng": 140.6511588
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=535",
-  "stats": {
-    "capacity": 100,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University/Vocational School Preparation",
-    "Conversational Japanese",
-    "Scholarships",
-    "Private Rooms",
-    "Science Courses",
-    "Business Japanese",
-    "Art Courses",
-    "Design Courses",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "히타치 사쿠라 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "자연이 아름다운 이바라키현 히타치시에 위치한 히타치 사쿠라 일본어 학교는, 대학/전문학교 진학 및 회화, 비즈니스 일본어 등 다양한 코스를 제공합니다."
-}
+basic_info:
+  address: 茨城県日立市鹿島町1-7-6
+  capacity: 100
+  name_en: Hitachi Sakura Japanese Language School
+  name_ja: 日立さくら日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1355500
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1200500
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1045500
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 910500
+- admission_month: '4'
+  course_name: 一般1年コース
+  total_fees: 770500
+date: '2026-01-28'
+description: 자연이 아름다운 이바라키현 히타치시에 위치한 히타치 사쿠라 일본어 학교는, 대학/전문학교 진학 및 회화, 비즈니스 일본어 등
+  다양한 코스를 제공합니다.
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 대학/전문학교 진학 준비
+- 회화 일본어
+- 장학금
+- 개인실
+- 이과 코스
+- 비즈니스 일본어
+- 미술 코스
+- 디자인 코스
+- 단기 코스
+id: school_hitachi-sakura-nihongo-gakko
+lang: kr
+layout: school
+location:
+  lat: 36.5958637
+  lng: 140.6511588
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=535
+stats:
+  capacity: 100
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University/Vocational School Preparation
+- Conversational Japanese
+- Scholarships
+- Private Rooms
+- Science Courses
+- Business Japanese
+- Art Courses
+- Design Courses
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 히타치 사쿠라 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

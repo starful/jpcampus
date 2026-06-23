@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6月コース
   total_fees: 960000
+date: '2026-01-28'
 faculties: []
 features:
 - On-campus/Affiliated Dormitory Provided

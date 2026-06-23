@@ -18,6 +18,7 @@ courses:
 - admission_month: '4'
   course_name: Progression Course (2 Years)
   total_fees: 1600000
+date: '2026-01-28'
 faculties: []
 features:
 - Higher Education Progression Focus

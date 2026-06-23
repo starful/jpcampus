@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sojo-university-comprehensive-guide",
-  "title": "소조 대학교 (Sojo University) 종합 안내서",
-  "description": "구마모토에 위치한 소조 대학교는 반도체, 항공우주, 바이오 기술 분야에서 혁신을 선도하는 일본의 대표적인 사립 공과대학교입니다.",
-  "category": "university",
-  "tags": [
-    "소조 국제 학습 센터 (SILC)",
-    "규슈 반도체 산업과의 강력한 연계",
-    "독보적인 항공우주 및 조종사 양성 프로그램",
-    "창업 및 스타트업 지원 체계"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "崇城大学",
-    "name_en": "Sojo University",
-    "address": "4-22-1 Ikeda, Nishi-ku, Kumamoto-shi, Kumamoto 860-0082, Japan",
-    "capacity": "총 학생수 3,800명"
-  },
-  "stats": {
-    "international_students": 160,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1360000
-  },
-  "faculties": [
-    "공학부",
-    "정보학부",
-    "생물생명학부",
-    "약학부",
-    "예술학부"
-  ],
-  "features": [
-    "소조 국제 학습 센터 (SILC)",
-    "규슈 반도체 산업과의 강력한 연계",
-    "독보적인 항공우주 및 조종사 양성 프로그램",
-    "창업 및 스타트업 지원 체계"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4-22-1 Ikeda, Nishi-ku, Kumamoto-shi, Kumamoto 860-0082, Japan
+  capacity: 총 학생수 3,800명
+  name_en: Sojo University
+  name_ja: 崇城大学
+category: university
+date: '2026-03-15'
+description: 구마모토에 위치한 소조 대학교는 반도체, 항공우주, 바이오 기술 분야에서 혁신을 선도하는 일본의 대표적인 사립 공과대학교입니다.
+faculties:
+- 공학부
+- 정보학부
+- 생물생명학부
+- 약학부
+- 예술학부
+features:
+- 소조 국제 학습 센터 (SILC)
+- 규슈 반도체 산업과의 강력한 연계
+- 독보적인 항공우주 및 조종사 양성 프로그램
+- 창업 및 스타트업 지원 체계
+id: univ_sojo-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 160
+tags:
+- 소조 국제 학습 센터 (SILC)
+- 규슈 반도체 산업과의 강력한 연계
+- 독보적인 항공우주 및 조종사 양성 프로그램
+- 창업 및 스타트업 지원 체계
+thumbnail: /static/img/pin-univ.png
+title: 소조 대학교 (Sojo University) 종합 안내서
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1360000
 ---
 
 ## 🏫 대학 개요

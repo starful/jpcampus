@@ -1,64 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都豊島区池袋1-7-18",
-    "capacity": 150,
-    "name_en": "Sunshine Language School",
-    "name_ja": "サンシャインランゲージスクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1619000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1426000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1234000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3か月コース",
-      "total_fees": 1041000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "집중적인 대학 진학 준비",
-    "학교 운영 기숙사 제공",
-    "풍부한 장학금 기회",
-    "EJU (일본유학시험) 특화 준비"
-  ],
-  "id": "school_sunshine-language-school-ikebukuro",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.735879,
-    "lng": 139.7115415
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=577",
-  "stats": {
-    "capacity": 150,
-    "international_students": 150
-  },
-  "tags": [
-    "Intensive Academic Advancement (進学) Focus",
-    "School-Managed Dormitory Options",
-    "Generous Scholarship Opportunities",
-    "Specialized EJU (University Entrance Exam) Preparation"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "선샤인 랭귀지 스쿨",
-  "tuition": {},
-  "description": "도쿄 이케부쿠로에 위치한 선샤인 랭귀지 스쿨은 대학 진학을 위한 집중적인 커리큘럼과 다양한 장학금, 학교 운영 기숙사를 제공합니다. EJU 시험 준비에 특화되어 있습니다."
-}
+basic_info:
+  address: 東京都豊島区池袋1-7-18
+  capacity: 150
+  name_en: Sunshine Language School
+  name_ja: サンシャインランゲージスクール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1619000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1426000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1234000
+- admission_month: '1'
+  course_name: 進学1年3か月コース
+  total_fees: 1041000
+date: '2026-01-28'
+description: 도쿄 이케부쿠로에 위치한 선샤인 랭귀지 스쿨은 대학 진학을 위한 집중적인 커리큘럼과 다양한 장학금, 학교 운영 기숙사를 제공합니다.
+  EJU 시험 준비에 특화되어 있습니다.
+faculties: []
+features:
+- 집중적인 대학 진학 준비
+- 학교 운영 기숙사 제공
+- 풍부한 장학금 기회
+- EJU (일본유학시험) 특화 준비
+id: school_sunshine-language-school-ikebukuro
+lang: kr
+layout: school
+location:
+  lat: 35.735879
+  lng: 139.7115415
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=577
+stats:
+  capacity: 150
+  international_students: 150
+tags:
+- Intensive Academic Advancement (進学) Focus
+- School-Managed Dormitory Options
+- Generous Scholarship Opportunities
+- Specialized EJU (University Entrance Exam) Preparation
+thumbnail: /static/img/pin-school.png
+title: 선샤인 랭귀지 스쿨
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: General 1 Year 6-Month Course
   total_fees: 1157000
+date: '2026-01-28'
 description: Kobe Institute of Japanese Language offers comprehensive Japanese language
   education with a focus on university preparation, located in Amagasaki, Hyogo.
 faculties: []

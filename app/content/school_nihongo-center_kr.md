@@ -1,57 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市下京区河原町通仏光寺下ル富永町356",
-    "capacity": 194,
-    "name_en": "KAI Japanese Language School",
-    "name_ja": "日本語センター"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語集中2年コース",
-      "total_fees": 1460160
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語集中1年半コース",
-      "total_fees": 1116720
-    }
-  ],
-  "description": "KAI 일본어 학교는 교토의 가와라마치 지역에 위치하고 있으며, 유학생들이 일본의 고등 교육 기관에 진학할 수 있도록 돕는 데 특화되어 있습니다. 종합적인 언어 교육과 EJU (일본유학시험) 지원, 그리고 이공계 (Science Stream) 옵션까지 제공합니다.",
-  "faculties": [],
-  "features": [
-    "고등 교육 준비",
-    "EJU (일본유학시험) 지원",
-    "회화 능력 향상",
-    "기숙사",
-    "이공계 (STEM) 특화 과정"
-  ],
-  "id": "school_nihongo-center",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.0010056,
-    "lng": 135.7678526
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=315",
-  "stats": {
-    "capacity": 194,
-    "international_students": 0
-  },
-  "tags": [
-    "Higher Education Prep",
-    "EJU Support",
-    "Conversation Skills",
-    "Dormitory",
-    "Science Stream (STEM)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "KAI 일본어 학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 京都府京都市下京区河原町通仏光寺下ル富永町356
+  capacity: 194
+  name_en: KAI Japanese Language School
+  name_ja: 日本語センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語集中2年コース
+  total_fees: 1460160
+- admission_month: '10'
+  course_name: 日本語集中1年半コース
+  total_fees: 1116720
+date: '2026-01-28'
+description: KAI 일본어 학교는 교토의 가와라마치 지역에 위치하고 있으며, 유학생들이 일본의 고등 교육 기관에 진학할 수 있도록 돕는
+  데 특화되어 있습니다. 종합적인 언어 교육과 EJU (일본유학시험) 지원, 그리고 이공계 (Science Stream) 옵션까지 제공합니다.
+faculties: []
+features:
+- 고등 교육 준비
+- EJU (일본유학시험) 지원
+- 회화 능력 향상
+- 기숙사
+- 이공계 (STEM) 특화 과정
+id: school_nihongo-center
+lang: kr
+layout: school
+location:
+  lat: 35.0010056
+  lng: 135.7678526
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=315
+stats:
+  capacity: 194
+  international_students: 0
+tags:
+- Higher Education Prep
+- EJU Support
+- Conversation Skills
+- Dormitory
+- Science Stream (STEM)
+thumbnail: /static/img/pin-school.png
+title: KAI 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

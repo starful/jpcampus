@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_future-university-hakodate-international-student-guide",
-  "title": "미래대학교 하코다테",
-  "category": "university",
-  "tags": [
-    "Innovative Project-Based Learning (PBL) curriculum",
-    "Award-winning open-space campus design",
-    "Strong focus on Human-Computer Interaction and AI",
-    "High employment rate in major Japanese tech firms"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "公立はこだて未来大学",
-    "name_en": "Future University Hakodate",
-    "address": "116-2 Kamedanakano-cho, Hakodate, Hokkaido 041-8655, Japan",
-    "capacity": 1100
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "25-30% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Systems Information Science",
-    "Department of Media Architecture",
-    "Department of Complex and Intelligent Systems",
-    "Graduate School of Systems Information Science"
-  ],
-  "features": [
-    "혁신적인 프로젝트 기반 학습 (PBL) 커리큘럼",
-    "수상 경력에 빛나는 개방형 캠퍼스 디자인",
-    "인간-컴퓨터 상호작용 및 AI에 대한 강력한 집중",
-    "주요 일본 기술 기업의 높은 취업률"
-  ],
-  "description": "미래대학교 하코다테 (Future University Hakodate)는 홋카이도 하코다테에 위치한 공립대학교입니다. 혁신적인 교육 방식과 아름다운 캠퍼스를 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 116-2 Kamedanakano-cho, Hakodate, Hokkaido 041-8655, Japan
+  capacity: 1100
+  name_en: Future University Hakodate
+  name_ja: 公立はこだて未来大学
+category: university
+date: '2026-02-13'
+description: 미래대학교 하코다테 (Future University Hakodate)는 홋카이도 하코다테에 위치한 공립대학교입니다. 혁신적인
+  교육 방식과 아름다운 캠퍼스를 자랑합니다.
+faculties:
+- School of Systems Information Science
+- Department of Media Architecture
+- Department of Complex and Intelligent Systems
+- Graduate School of Systems Information Science
+features:
+- 혁신적인 프로젝트 기반 학습 (PBL) 커리큘럼
+- 수상 경력에 빛나는 개방형 캠퍼스 디자인
+- 인간-컴퓨터 상호작용 및 AI에 대한 강력한 집중
+- 주요 일본 기술 기업의 높은 취업률
+id: univ_future-university-hakodate-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30% (Estimated)
+  international_students: 25
+tags:
+- Innovative Project-Based Learning (PBL) curriculum
+- Award-winning open-space campus design
+- Strong focus on Human-Computer Interaction and AI
+- High employment rate in major Japanese tech firms
+thumbnail: /static/img/pin-univ.png
+title: 미래대학교 하코다테
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요: 정보 과학의 미래를 만나다

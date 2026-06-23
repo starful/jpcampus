@@ -1,64 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "山口県萩市大字椿東3000-10",
-    "capacity": 120,
-    "name_en": "Sakura International Language Education College",
-    "name_ja": "専門学校さくら国際言語教育学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学コースA",
-      "total_fees": 1360000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学コースB",
-      "total_fees": 1197500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コースC",
-      "total_fees": 1035000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합적인 진학 트랙 (EJU, 이학, 미술, 비즈니스)",
-    "기숙사 숙박 보장",
-    "장학금 기회",
-    "야마구치현의 아름다운 하기시에 위치",
-    "전문학교 체제",
-    "단기 유학 옵션 제공"
-  ],
-  "id": "school_senmon-gakko-sakura-kokusai-gengo-kyoiku-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.41646,
-    "lng": 131.409392
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=405",
-  "stats": {
-    "capacity": 120,
-    "international_students": 0
-  },
-  "tags": [
-    "Comprehensive Progression Tracks (EJU, Science, Art, Business)",
-    "Dormitory Accommodation Guaranteed",
-    "Scholarship Opportunities",
-    "Located in Scenic Hagi, Yamaguchi Prefecture",
-    "Specialized Training College (Senmon Gakko) Structure",
-    "Short-term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "사쿠라 국제 언어 교육 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "사쿠라 국제 언어 교육 학원은 일본 야마구치현 하기시에 위치한 전문학교입니다. 종합적인 진학 트랙, 기숙사, 장학금 기회 등을 제공합니다."
-}
+basic_info:
+  address: 山口県萩市大字椿東3000-10
+  capacity: 120
+  name_en: Sakura International Language Education College
+  name_ja: 専門学校さくら国際言語教育学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コースA
+  total_fees: 1360000
+- admission_month: '7'
+  course_name: 進学コースB
+  total_fees: 1197500
+- admission_month: '10'
+  course_name: 進学コースC
+  total_fees: 1035000
+date: '2026-01-28'
+description: 사쿠라 국제 언어 교육 학원은 일본 야마구치현 하기시에 위치한 전문학교입니다. 종합적인 진학 트랙, 기숙사, 장학금 기회 등을
+  제공합니다.
+faculties: []
+features:
+- 종합적인 진학 트랙 (EJU, 이학, 미술, 비즈니스)
+- 기숙사 숙박 보장
+- 장학금 기회
+- 야마구치현의 아름다운 하기시에 위치
+- 전문학교 체제
+- 단기 유학 옵션 제공
+id: school_senmon-gakko-sakura-kokusai-gengo-kyoiku-gakuin
+lang: kr
+layout: school
+location:
+  lat: 34.41646
+  lng: 131.409392
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=405
+stats:
+  capacity: 120
+  international_students: 0
+tags:
+- Comprehensive Progression Tracks (EJU, Science, Art, Business)
+- Dormitory Accommodation Guaranteed
+- Scholarship Opportunities
+- Located in Scenic Hagi, Yamaguchi Prefecture
+- Specialized Training College (Senmon Gakko) Structure
+- Short-term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: 사쿠라 국제 언어 교육 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

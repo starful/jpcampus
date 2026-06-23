@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_national-institute-of-fitness-and-sports-in-kanoya-guide",
-  "title": "가노야 체육대학 (National Institute of Fitness and Sports in Kanoya)",
-  "description": "일본 유일의 국립 체육 대학, 가노야 체육대학에 대한 완벽 가이드입니다. 스포츠 과학 연구, 무도 훈련, 엘리트 시설, 입학 정보 등을 한국 학생들을 위해 소개합니다.",
-  "category": "university",
-  "tags": [
-    "일본 유일의 체육 및 스포츠 과학 전문 국립 대학",
-    "최첨단 모션 캡처 기술을 갖춘 세계적인 스포츠 퍼포먼스 연구소 (SPL)",
-    "검도 및 유도 전문 훈련을 제공하는 독특한 무도 (武道) 과정",
-    "일본 하이 퍼포먼스 스포츠 센터와의 강력한 협력"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鹿屋体育大学",
-    "name_en": "National Institute of Fitness and Sports in Kanoya",
-    "address": "1 Shiromizu-cho, Kanoya, Kagoshima 891-2393, Japan",
-    "capacity": 800
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "15-25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "체육학부",
-    "체육대학원"
-  ],
-  "features": [
-    "일본 유일의 체육 및 스포츠 과학 전문 국립 대학",
-    "최첨단 모션 캡처 기술을 갖춘 세계적인 스포츠 퍼포먼스 연구소 (SPL)",
-    "검도 및 유도 전문 훈련을 제공하는 독특한 무도 (武道) 과정",
-    "일본 하이 퍼포먼스 스포츠 센터와의 강력한 협력"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1 Shiromizu-cho, Kanoya, Kagoshima 891-2393, Japan
+  capacity: 800
+  name_en: National Institute of Fitness and Sports in Kanoya
+  name_ja: 鹿屋体育大学
+category: university
+date: '2026-02-13'
+description: 일본 유일의 국립 체육 대학, 가노야 체육대학에 대한 완벽 가이드입니다. 스포츠 과학 연구, 무도 훈련, 엘리트 시설, 입학
+  정보 등을 한국 학생들을 위해 소개합니다.
+faculties:
+- 체육학부
+- 체육대학원
+features:
+- 일본 유일의 체육 및 스포츠 과학 전문 국립 대학
+- 최첨단 모션 캡처 기술을 갖춘 세계적인 스포츠 퍼포먼스 연구소 (SPL)
+- 검도 및 유도 전문 훈련을 제공하는 독특한 무도 (武道) 과정
+- 일본 하이 퍼포먼스 스포츠 센터와의 강력한 협력
+id: univ_national-institute-of-fitness-and-sports-in-kanoya-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25%
+  international_students: 25
+tags:
+- 일본 유일의 체육 및 스포츠 과학 전문 국립 대학
+- 최첨단 모션 캡처 기술을 갖춘 세계적인 스포츠 퍼포먼스 연구소 (SPL)
+- 검도 및 유도 전문 훈련을 제공하는 독특한 무도 (武道) 과정
+- 일본 하이 퍼포먼스 스포츠 센터와의 강력한 협력
+thumbnail: /static/img/pin-univ.png
+title: 가노야 체육대학 (National Institute of Fitness and Sports in Kanoya)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 일본 스포츠 과학의 정점

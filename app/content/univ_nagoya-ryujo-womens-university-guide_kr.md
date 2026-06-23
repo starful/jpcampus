@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-ryujo-womens-university-guide",
-  "title": "나고야 류죠 여자대학 (Nagoya Ryujo Women's University)",
-  "description": "120년 이상의 역사를 가진 유아교육의 명문, 나고야 류죠 여자대학을 소개합니다. 높은 취업률과 소수 정예 교육을 통해 일본 내 전문 보육사와 유치원 교사를 양성합니다.",
-  "category": "university",
-  "tags": [
-    "유아교육 및 보육 특화",
-    "성공회 기독교 교육 철학",
-    "교육 분야의 압도적 취업률",
-    "소수 정예 및 개별 맞춤형 지도"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋柳城女子大学",
-    "name_en": "Nagoya Ryujo Women's University",
-    "address": "4-21-1 Shioiri-cho, Mizuho-ku, Nagoya, Aichi 467-0853, Japan",
-    "capacity": 400
-  },
-  "stats": {
-    "international_students": 5,
-    "acceptance_rate": "75-85%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1340000
-  },
-  "faculties": [
-    "어린이발달학부",
-    "어린이발달학과"
-  ],
-  "features": [
-    "유아교육 및 보육 특화 대학",
-    "성공회 기독교 정신에 기반한 교육 철학",
-    "교육 분야의 압도적으로 높은 취업률",
-    "소수 정예 수업 및 개별 맞춤형 지도"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4-21-1 Shioiri-cho, Mizuho-ku, Nagoya, Aichi 467-0853, Japan
+  capacity: 400
+  name_en: Nagoya Ryujo Women's University
+  name_ja: 名古屋柳城女子大学
+category: university
+date: '2026-04-04'
+description: 120년 이상의 역사를 가진 유아교육의 명문, 나고야 류죠 여자대학을 소개합니다. 높은 취업률과 소수 정예 교육을 통해 일본
+  내 전문 보육사와 유치원 교사를 양성합니다.
+faculties:
+- 어린이발달학부
+- 어린이발달학과
+features:
+- 유아교육 및 보육 특화 대학
+- 성공회 기독교 정신에 기반한 교육 철학
+- 교육 분야의 압도적으로 높은 취업률
+- 소수 정예 수업 및 개별 맞춤형 지도
+id: univ_nagoya-ryujo-womens-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-85%
+  international_students: 5
+tags:
+- 유아교육 및 보육 특화
+- 성공회 기독교 교육 철학
+- 교육 분야의 압도적 취업률
+- 소수 정예 및 개별 맞춤형 지도
+thumbnail: /static/img/pin-univ.png
+title: 나고야 류죠 여자대학 (Nagoya Ryujo Women's University)
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1340000
 ---
 
 ## 🏫 대학 개요

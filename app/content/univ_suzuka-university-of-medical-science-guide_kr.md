@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_suzuka-university-of-medical-science-guide",
-  "title": "스즈카 의료과학대학교",
-  "category": "university",
-  "tags": [
-    "일본 최초의 의료과학 대학",
-    "매우 높은 국가 고시 합격률",
-    "첨단 의료 영상 및 로봇 기술",
-    "해안가 경관의 긴밀한 커뮤니티"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鈴鹿医療과학대학",
-    "name_en": "Suzuka University of Medical Science",
-    "address": "1001-1 Kishioka-cho, Suzuka-shi, Mie 510-0293, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 32,
-    "acceptance_rate": "55-60%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1650000
-  },
-  "faculties": [
-    "보건학부",
-    "의료공학부",
-    "약학부",
-    "간호학부"
-  ],
-  "features": [
-    "일본 최초의 의료과학 전문 4년제 대학교",
-    "일본 국가 고시에서 매우 높은 합격률 기록",
-    "첨단 의료 영상 장비 및 로봇 공학 기술 교육",
-    "해안가와 인접한 아름다운 환경 및 가족 같은 학풍"
-  ],
-  "description": "일본 최초의 의료과학 전문 대학교로, 높은 국가 고시 합격률과 첨단 의료 시설을 갖춘 스즈카 의료과학대학교를 소개합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1001-1 Kishioka-cho, Suzuka-shi, Mie 510-0293, Japan
+  capacity: 3500
+  name_en: Suzuka University of Medical Science
+  name_ja: 鈴鹿医療과학대학
+category: university
+date: '2026-04-04'
+description: 일본 최초의 의료과학 전문 대학교로, 높은 국가 고시 합격률과 첨단 의료 시설을 갖춘 스즈카 의료과학대학교를 소개합니다.
+faculties:
+- 보건학부
+- 의료공학부
+- 약학부
+- 간호학부
+features:
+- 일본 최초의 의료과학 전문 4년제 대학교
+- 일본 국가 고시에서 매우 높은 합격률 기록
+- 첨단 의료 영상 장비 및 로봇 공학 기술 교육
+- 해안가와 인접한 아름다운 환경 및 가족 같은 학풍
+id: univ_suzuka-university-of-medical-science-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-60%
+  international_students: 32
+tags:
+- 일본 최초의 의료과학 대학
+- 매우 높은 국가 고시 합격률
+- 첨단 의료 영상 및 로봇 기술
+- 해안가 경관의 긴밀한 커뮤니티
+thumbnail: /static/img/pin-univ.png
+title: 스즈카 의료과학대학교
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1650000
 ---
 
 ## 🏫 대학 개요

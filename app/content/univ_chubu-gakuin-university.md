@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chubu-gakuin-university",
-  "title": "Chubu Gakuin University",
-  "category": "university",
-  "tags": [
-    "Strong Christian educational foundation based on the spirit of 'To Serve'",
-    "Highest national exam passing rates for Social Welfare and Nursing in the region",
-    "Integrated Japanese Language program (Bekka) for international students",
-    "Close ties with the local Gifu community and manufacturing industry"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "中部学院大学",
-    "name_en": "Chubu Gakuin University",
-    "address": "2-1 Kirigaoka, Seki-shi, Gifu 501-3993, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 150,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Social Welfare",
-    "Faculty of Business Administration",
-    "Faculty of Nursing",
-    "Faculty of Rehabilitation",
-    "Faculty of Education"
-  ],
-  "features": [
-    "Strong Christian educational foundation based on the spirit of 'To Serve'",
-    "Highest national exam passing rates for Social Welfare and Nursing in the region",
-    "Integrated Japanese Language program (Bekka) for international students",
-    "Close ties with the local Gifu community and manufacturing industry"
-  ]
-}
+basic_info:
+  address: 2-1 Kirigaoka, Seki-shi, Gifu 501-3993, Japan
+  capacity: null
+  name_en: Chubu Gakuin University
+  name_ja: 中部学院大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Social Welfare
+- Faculty of Business Administration
+- Faculty of Nursing
+- Faculty of Rehabilitation
+- Faculty of Education
+features:
+- Strong Christian educational foundation based on the spirit of 'To Serve'
+- Highest national exam passing rates for Social Welfare and Nursing in the region
+- Integrated Japanese Language program (Bekka) for international students
+- Close ties with the local Gifu community and manufacturing industry
+id: univ_chubu-gakuin-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 150
+tags:
+- Strong Christian educational foundation based on the spirit of 'To Serve'
+- Highest national exam passing rates for Social Welfare and Nursing in the region
+- Integrated Japanese Language program (Bekka) for international students
+- Close ties with the local Gifu community and manufacturing industry
+thumbnail: /static/img/pin-univ.png
+title: Chubu Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview

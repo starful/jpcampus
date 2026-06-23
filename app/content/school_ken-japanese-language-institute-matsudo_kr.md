@@ -1,62 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "千葉県松戸市新松戸2-20 関ビル",
-    "capacity": 180,
-    "name_en": "KEN Japanese Language Institute",
-    "name_ja": "KEN日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "一般1.5年コース",
-      "total_fees": 1071180
-    },
-    {
-      "admission_month": "7",
-      "course_name": "一般1.9年コース",
-      "total_fees": 1229690
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1393700
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합적인 대학 진학 지도 (EJU 집중)",
-    "기숙사 의무 숙박 옵션",
-    "균형 잡힌 커리큘럼으로 학업 및 회화 능력 강조",
-    "유연한 코스 시작 시점 (1.5년, 1.9년, 2년 프로그램)",
-    "단기 유학 비자 프로그램 이용 가능"
-  ],
-  "id": "school_ken-japanese-language-institute-matsudo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.824966,
-    "lng": 139.9206703
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=77",
-  "stats": {
-    "capacity": 180,
-    "international_students": 150
-  },
-  "tags": [
-    "Comprehensive Higher Education Guidance (EJU focus)",
-    "Mandatory Dormitory Accommodation Options",
-    "Balanced Curriculum Emphasizing Academic and Conversational Skills",
-    "Flexible Course Entry Points (1.5, 1.9, and 2-Year Programs)",
-    "Short-Term Study Visa Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "KEN 일본어학원",
-  "translated": true,
-  "tuition": {},
-  "description": "치바현 마츠도시에 위치한 KEN 일본어학원은 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다. EJU 시험 준비에 특화된 커리큘럼과 기숙사 의무 숙박 제도를 통해 학생들의 성공적인 일본 유학 생활을 지원합니다."
-}
+basic_info:
+  address: 千葉県松戸市新松戸2-20 関ビル
+  capacity: 180
+  name_en: KEN Japanese Language Institute
+  name_ja: KEN日本語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 一般1.5年コース
+  total_fees: 1071180
+- admission_month: '7'
+  course_name: 一般1.9年コース
+  total_fees: 1229690
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1393700
+date: '2026-01-28'
+description: 치바현 마츠도시에 위치한 KEN 일본어학원은 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다. EJU 시험 준비에
+  특화된 커리큘럼과 기숙사 의무 숙박 제도를 통해 학생들의 성공적인 일본 유학 생활을 지원합니다.
+faculties: []
+features:
+- 종합적인 대학 진학 지도 (EJU 집중)
+- 기숙사 의무 숙박 옵션
+- 균형 잡힌 커리큘럼으로 학업 및 회화 능력 강조
+- 유연한 코스 시작 시점 (1.5년, 1.9년, 2년 프로그램)
+- 단기 유학 비자 프로그램 이용 가능
+id: school_ken-japanese-language-institute-matsudo
+lang: kr
+layout: school
+location:
+  lat: 35.824966
+  lng: 139.9206703
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=77
+stats:
+  capacity: 180
+  international_students: 150
+tags:
+- Comprehensive Higher Education Guidance (EJU focus)
+- Mandatory Dormitory Accommodation Options
+- Balanced Curriculum Emphasizing Academic and Conversational Skills
+- Flexible Course Entry Points (1.5, 1.9, and 2-Year Programs)
+- Short-Term Study Visa Programs Available
+thumbnail: /static/img/pin-school.png
+title: KEN 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

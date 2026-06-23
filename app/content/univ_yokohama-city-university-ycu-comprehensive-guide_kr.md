@@ -1,57 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "1-1 Kanazawa-Hakkei, Kanazawa-ku, Yokohama, 236-0027, Japan (Main Campus)",
-    "capacity": null,
-    "name_en": "Yokohama City University",
-    "name_ja": "横浜市立大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of International Relations",
-    "Faculty of Data Science",
-    "Faculty of Economics and Business Administration",
-    "School of Medicine",
-    "Graduate School of Urban Social and Cultural Studies",
-    "Graduate School of International Management",
-    "Graduate School of Medical Life Science"
-  ],
-  "features": [
-    "높은 경쟁률의 공립 대학",
-    "선구적인 데이터 과학 학부 (2018년 설립)",
-    "강력한 의학 및 생명 과학 연구",
-    "지방 정부의 지원과 국제적인 영향력",
-    "대부분의 학부 프로그램에서 EJU 필요",
-    "요코하마의 주요 위치"
-  ],
-  "id": "univ_yokohama-city-university-ycu-comprehensive-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "Est. 20%",
-    "international_students": 250
-  },
-  "tags": [
-    "Highly Competitive Public University",
-    "Pioneering Data Science Faculty (established 2018)",
-    "Strong Medical and Life Science Research",
-    "Municipal Focus with Global Reach",
-    "EJU Required for Most Undergraduate Programs",
-    "Strategic Location in Metropolitan Yokohama"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "요코하마시립대(YCU) 유학 가이드 2026: 입시요건·학비·EJU 전략",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "요코하마시립대 진학을 준비하는 유학생을 위한 2026 실전 가이드입니다. 입시요건, 학비, EJU, 캠퍼스 생활 정보를 정리했습니다."
-}
+basic_info:
+  address: 1-1 Kanazawa-Hakkei, Kanazawa-ku, Yokohama, 236-0027, Japan (Main Campus)
+  capacity: null
+  name_en: Yokohama City University
+  name_ja: 横浜市立大学
+category: university
+date: '2026-04-27'
+description: 요코하마시립대 진학을 준비하는 유학생을 위한 2026 실전 가이드입니다. 입시요건, 학비, EJU, 캠퍼스 생활 정보를 정리했습니다.
+faculties:
+- Faculty of International Relations
+- Faculty of Data Science
+- Faculty of Economics and Business Administration
+- School of Medicine
+- Graduate School of Urban Social and Cultural Studies
+- Graduate School of International Management
+- Graduate School of Medical Life Science
+features:
+- 높은 경쟁률의 공립 대학
+- 선구적인 데이터 과학 학부 (2018년 설립)
+- 강력한 의학 및 생명 과학 연구
+- 지방 정부의 지원과 국제적인 영향력
+- 대부분의 학부 프로그램에서 EJU 필요
+- 요코하마의 주요 위치
+id: univ_yokohama-city-university-ycu-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Est. 20%
+  international_students: 250
+tags:
+- Highly Competitive Public University
+- Pioneering Data Science Faculty (established 2018)
+- Strong Medical and Life Science Research
+- Municipal Focus with Global Reach
+- EJU Required for Most Undergraduate Programs
+- Strategic Location in Metropolitan Yokohama
+thumbnail: /static/img/pin-univ.png
+title: '요코하마시립대(YCU) 유학 가이드 2026: 입시요건·학비·EJU 전략'
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학교 개요

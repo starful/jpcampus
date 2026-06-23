@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_mie-university-guide-international-students",
-  "title": "Mie University",
-  "category": "university",
-  "tags": [
-    "Green Campus with ISO 14001 Certification",
-    "World-Leading International Ninja Research Center",
-    "Strong Ties to Regional Industry (Automotive and Logistics)",
-    "Comprehensive Coastal Campus with University Hospital"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "三重大学",
-    "name_en": "Mie University",
-    "address": "1577 Kurimamachiya-cho, Tsu City, Mie Prefecture 514-8507, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Humanities, Law and Economics",
-    "Education",
-    "Medicine",
-    "Engineering",
-    "Bioresources"
-  ],
-  "features": [
-    "Green Campus with ISO 14001 Certification",
-    "World-Leading International Ninja Research Center",
-    "Strong Ties to Regional Industry (Automotive and Logistics)",
-    "Comprehensive Coastal Campus with University Hospital"
-  ]
-}
+basic_info:
+  address: 1577 Kurimamachiya-cho, Tsu City, Mie Prefecture 514-8507, Japan
+  capacity: null
+  name_en: Mie University
+  name_ja: 三重大学
+category: university
+date: '2026-02-13'
+faculties:
+- Humanities, Law and Economics
+- Education
+- Medicine
+- Engineering
+- Bioresources
+features:
+- Green Campus with ISO 14001 Certification
+- World-Leading International Ninja Research Center
+- Strong Ties to Regional Industry (Automotive and Logistics)
+- Comprehensive Coastal Campus with University Hospital
+id: univ_mie-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 320
+tags:
+- Green Campus with ISO 14001 Certification
+- World-Leading International Ninja Research Center
+- Strong Ties to Regional Industry (Automotive and Logistics)
+- Comprehensive Coastal Campus with University Hospital
+thumbnail: /static/img/pin-univ.png
+title: Mie University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

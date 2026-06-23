@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語進学1.5年コース
   total_fees: 1240000
+date: '2026-01-28'
 description: Trinity College Izumo Medical and Welfare Vocational School is located
   in Izumo, Shimane. It offers courses to prepare international students for higher
   education in Japan, particularly for those interested in medical and welfare fields.

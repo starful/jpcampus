@@ -18,6 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 一般1年6か月コース
   total_fees: 1160500
+date: '2026-01-28'
 description: Tokyo Sakura International School, located in a tranquil suburban area
   of Tokyo, offers comprehensive support for higher education progression, including
   specialized art university preparation and personalized guidance in small classes.

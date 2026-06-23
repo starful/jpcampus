@@ -1,63 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市天王寺区上本町8-3-13",
-    "capacity": 365,
-    "name_en": "Japan Student Services Organization Osaka Japanese Education Centre",
-    "name_ja": "日本学生支援機構大阪日本語教育センター"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学課程1年コース",
-      "total_fees": 822867
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学課程1年半コース",
-      "total_fees": 1192337
-    }
-  ],
-  "description": "JASSO 오사카: 일본 명문 대학으로 가는 확실한 길. 정부 지원 교육, 풍부한 장학금, 국립/공립 대학 성공을 위한 전문적인 EJU 대비 혜택을 누리세요.",
-  "faculties": [],
-  "features": [
-    "JASSO 공식 기관",
-    "높은 대학 진학률 (국립/공립 중심)",
-    "캠퍼스 내 기숙사 이용 가능",
-    "풍부한 장학금 제도",
-    "심화된 EJU 준비",
-    "특화된 트랙 (이공계, 인문사회계, 미술/디자인계)",
-    "비즈니스 및 회화 능력 훈련",
-    "단기 유학 옵션"
-  ],
-  "id": "school_japan-student-services-organization-osaka-japanese-education-centre",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6605285,
-    "lng": 135.5175726
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=327",
-  "stats": {
-    "capacity": 365,
-    "international_students": 365
-  },
-  "tags": [
-    "Official JASSO Institution",
-    "High University Placement Rate (National/Public Focus)",
-    "On-Campus Dormitory Available",
-    "Extensive Scholarship System",
-    "Advanced EJU Preparation",
-    "Specialized Tracks (Science, Humanities, Art/Design)",
-    "Business and Conversation Skills Training",
-    "Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Japan Student Services Organization 오사카 일본어 교육 센터",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市天王寺区上本町8-3-13
+  capacity: 365
+  name_en: Japan Student Services Organization Osaka Japanese Education Centre
+  name_ja: 日本学生支援機構大阪日本語教育センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学課程1年コース
+  total_fees: 822867
+- admission_month: '10'
+  course_name: 進学課程1年半コース
+  total_fees: 1192337
+date: '2026-01-28'
+description: 'JASSO 오사카: 일본 명문 대학으로 가는 확실한 길. 정부 지원 교육, 풍부한 장학금, 국립/공립 대학 성공을 위한 전문적인
+  EJU 대비 혜택을 누리세요.'
+faculties: []
+features:
+- JASSO 공식 기관
+- 높은 대학 진학률 (국립/공립 중심)
+- 캠퍼스 내 기숙사 이용 가능
+- 풍부한 장학금 제도
+- 심화된 EJU 준비
+- 특화된 트랙 (이공계, 인문사회계, 미술/디자인계)
+- 비즈니스 및 회화 능력 훈련
+- 단기 유학 옵션
+id: school_japan-student-services-organization-osaka-japanese-education-centre
+lang: kr
+layout: school
+location:
+  lat: 34.6605285
+  lng: 135.5175726
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=327
+stats:
+  capacity: 365
+  international_students: 365
+tags:
+- Official JASSO Institution
+- High University Placement Rate (National/Public Focus)
+- On-Campus Dormitory Available
+- Extensive Scholarship System
+- Advanced EJU Preparation
+- Specialized Tracks (Science, Humanities, Art/Design)
+- Business and Conversation Skills Training
+- Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: Japan Student Services Organization 오사카 일본어 교육 센터
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

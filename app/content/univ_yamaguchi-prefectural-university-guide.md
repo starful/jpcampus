@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamaguchi-prefectural-university-guide",
-  "title": "Yamaguchi Prefectural University",
-  "category": "university",
-  "tags": [
-    "Community-Focused Research",
-    "Strong Support for International Exchange",
-    "Human Ecology Philosophy",
-    "High Employment Rate in Public Sectors"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山口県立大学",
-    "name_en": "Yamaguchi Prefectural University",
-    "address": "3-2-1 Sakurabatake, Yamaguchi-shi, Yamaguchi 753-8502, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 54,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Social Welfare",
-    "Faculty of Nursing and Human Nutrition"
-  ],
-  "features": [
-    "Community-Focused Research",
-    "Strong Support for International Exchange",
-    "Human Ecology Philosophy",
-    "High Employment Rate in Public Sectors"
-  ]
-}
+basic_info:
+  address: 3-2-1 Sakurabatake, Yamaguchi-shi, Yamaguchi 753-8502, Japan
+  capacity: null
+  name_en: Yamaguchi Prefectural University
+  name_ja: 山口県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Humanities
+- Faculty of Social Welfare
+- Faculty of Nursing and Human Nutrition
+features:
+- Community-Focused Research
+- Strong Support for International Exchange
+- Human Ecology Philosophy
+- High Employment Rate in Public Sectors
+id: univ_yamaguchi-prefectural-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 54
+tags:
+- Community-Focused Research
+- Strong Support for International Exchange
+- Human Ecology Philosophy
+- High Employment Rate in Public Sectors
+thumbnail: /static/img/pin-univ.png
+title: Yamaguchi Prefectural University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

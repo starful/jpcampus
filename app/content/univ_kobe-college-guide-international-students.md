@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-college-guide-international-students",
-  "title": "Kobe College",
-  "category": "university",
-  "tags": [
-    "Historic Vories-designed campus (National Important Cultural Property)",
-    "Strong Christian liberal arts tradition with a focus on English education",
-    "Small-class sizes and personalized mentorship for women",
-    "Pioneer in international exchange programs since the 19th century"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸女学院大学",
-    "name_en": "Kobe College",
-    "address": "4-1 Okadayama, Nishinomiya, Hyogo 662-8505, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "45-55% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Music",
-    "Faculty of Human Sciences"
-  ],
-  "features": [
-    "Historic Vories-designed campus (National Important Cultural Property)",
-    "Strong Christian liberal arts tradition with a focus on English education",
-    "Small-class sizes and personalized mentorship for women",
-    "Pioneer in international exchange programs since the 19th century"
-  ]
-}
+basic_info:
+  address: 4-1 Okadayama, Nishinomiya, Hyogo 662-8505, Japan
+  capacity: null
+  name_en: Kobe College
+  name_ja: 神戸女学院大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Letters
+- Faculty of Music
+- Faculty of Human Sciences
+features:
+- Historic Vories-designed campus (National Important Cultural Property)
+- Strong Christian liberal arts tradition with a focus on English education
+- Small-class sizes and personalized mentorship for women
+- Pioneer in international exchange programs since the 19th century
+id: univ_kobe-college-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Estimated for International Applicants)
+  international_students: 25
+tags:
+- Historic Vories-designed campus (National Important Cultural Property)
+- Strong Christian liberal arts tradition with a focus on English education
+- Small-class sizes and personalized mentorship for women
+- Pioneer in international exchange programs since the 19th century
+thumbnail: /static/img/pin-univ.png
+title: Kobe College
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 University Overview

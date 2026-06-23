@@ -1,55 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県豊橋市八町通1-18",
-    "capacity": 337,
-    "name_en": "Toyohashi Japanese Language School",
-    "name_ja": "豊橋日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学コース（1年6ヶ月）",
-      "total_fees": 935000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学コース（2年）",
-      "total_fees": 1220000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합적인 고등 교육 진학 트랙 (EJU, 이과, 미술/디자인)",
-    "학생 기숙사 보장",
-    "다양한 장학금 및 재정 지원 프로그램",
-    "특화된 비즈니스 및 실용 회화 훈련",
-    "아이치현 토요하시에 위치 (저렴한 생활비)",
-    "유연한 장기 (1.5년 & 2년) 및 단기 학습 옵션"
-  ],
-  "id": "school_toyohashi-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7682069,
-    "lng": 137.3901256
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=549",
-  "stats": {},
-  "tags": [
-    "Comprehensive Higher Education Advancement Tracks (EJU, Science, Art/Design)",
-    "Guaranteed Student Dormitory Accommodation",
-    "Extensive Scholarship and Financial Aid Programs",
-    "Specialized Business and Practical Conversation Training",
-    "Located in Toyohashi, Aichi Prefecture (Lower Cost of Living)",
-    "Flexible Long-Term (1.5 & 2 Years) and Short-Term Study Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "토요하시 일본어 학교",
-  "tuition": {},
-  "description": "아이치현 토요하시에 위치한 토요하시 일본어 학교는 대학 진학을 위한 체계적인 커리큘럼과 다양한 장학금 혜택을 제공합니다. 자세한 정보를 확인하세요."
-}
+basic_info:
+  address: 愛知県豊橋市八町通1-18
+  capacity: 337
+  name_en: Toyohashi Japanese Language School
+  name_ja: 豊橋日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学コース（1年6ヶ月）
+  total_fees: 935000
+- admission_month: '4'
+  course_name: 進学コース（2年）
+  total_fees: 1220000
+date: '2026-01-28'
+description: 아이치현 토요하시에 위치한 토요하시 일본어 학교는 대학 진학을 위한 체계적인 커리큘럼과 다양한 장학금 혜택을 제공합니다. 자세한
+  정보를 확인하세요.
+faculties: []
+features:
+- 종합적인 고등 교육 진학 트랙 (EJU, 이과, 미술/디자인)
+- 학생 기숙사 보장
+- 다양한 장학금 및 재정 지원 프로그램
+- 특화된 비즈니스 및 실용 회화 훈련
+- 아이치현 토요하시에 위치 (저렴한 생활비)
+- 유연한 장기 (1.5년 & 2년) 및 단기 학습 옵션
+id: school_toyohashi-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 34.7682069
+  lng: 137.3901256
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=549
+stats: {}
+tags:
+- Comprehensive Higher Education Advancement Tracks (EJU, Science, Art/Design)
+- Guaranteed Student Dormitory Accommodation
+- Extensive Scholarship and Financial Aid Programs
+- Specialized Business and Practical Conversation Training
+- Located in Toyohashi, Aichi Prefecture (Lower Cost of Living)
+- Flexible Long-Term (1.5 & 2 Years) and Short-Term Study Options
+thumbnail: /static/img/pin-school.png
+title: 토요하시 일본어 학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

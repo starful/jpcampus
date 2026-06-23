@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okazaki-womens-university-junior-college-guide",
-  "title": "오카자키 여자대학교 / 오카자키 여자단기대학",
-  "category": "university",
-  "tags": [
-    "보육 교육 특화",
-    "높은 교직 취업률",
-    "친밀한 커뮤니티 문화",
-    "실무 중심 비즈니스 교육"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡崎女子大学",
-    "name_en": "Okazaki Women's University / Okazaki Women's Junior College",
-    "address": "1-1 Naka-machi, Okazaki-shi, Aichi 444-0015, Japan",
-    "capacity": 600
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "아동학부",
-    "유아교육과 (단기대학)",
-    "현대비즈니스과 (단기대학)"
-  ],
-  "features": [
-    "보육 및 유아 교육 분야의 전문성",
-    "높은 교사 임용 및 취업률",
-    "가족 같은 친밀한 교육 환경",
-    "실무 중심의 비즈니스 트레이닝"
-  ],
-  "lang": "kr",
-  "description": "아이치현 오카자키시에 위치한 오카자키 여자대학교는 보육, 교육 및 비즈니스 분야에서 여성 전문가를 양성하는 명문 교육기관으로, 높은 취업률과 세심한 학생 지원 시스템을 자랑합니다."
-}
+basic_info:
+  address: 1-1 Naka-machi, Okazaki-shi, Aichi 444-0015, Japan
+  capacity: 600
+  name_en: Okazaki Women's University / Okazaki Women's Junior College
+  name_ja: 岡崎女子大学
+category: university
+date: '2026-04-04'
+description: 아이치현 오카자키시에 위치한 오카자키 여자대학교는 보육, 교육 및 비즈니스 분야에서 여성 전문가를 양성하는 명문 교육기관으로,
+  높은 취업률과 세심한 학생 지원 시스템을 자랑합니다.
+faculties:
+- 아동학부
+- 유아교육과 (단기대학)
+- 현대비즈니스과 (단기대학)
+features:
+- 보육 및 유아 교육 분야의 전문성
+- 높은 교사 임용 및 취업률
+- 가족 같은 친밀한 교육 환경
+- 실무 중심의 비즈니스 트레이닝
+id: univ_okazaki-womens-university-junior-college-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 15
+tags:
+- 보육 교육 특화
+- 높은 교직 취업률
+- 친밀한 커뮤니티 문화
+- 실무 중심 비즈니스 교육
+thumbnail: /static/img/pin-univ.png
+title: 오카자키 여자대학교 / 오카자키 여자단기대학
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 학교 개요

@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparation 1.25-Year Course
   total_fees: 920990
+date: '2026-01-28'
 faculties: []
 features:
 - Scholarships

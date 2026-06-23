@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-city-university-international-student-guide",
-  "title": "Tokyo City University",
-  "category": "university",
-  "tags": [
-    "Strong affiliation with the Tokyu Group",
-    "Ranked highly for employment and career support",
-    "TCU Australia Program (TAP) for international exposure",
-    "Specialized focus on Sustainable Development Goals (SDGs)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京都市大学",
-    "name_en": "Tokyo City University",
-    "address": "1-28-1 Tamazutsumi, Setagaya-ku, Tokyo 158-8557, Japan",
-    "capacity": 7500
-  },
-  "stats": {
-    "international_students": 485,
-    "acceptance_rate": "35-40%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1560000
-  },
-  "faculties": [
-    "Faculty of Science and Engineering",
-    "Faculty of Architecture and Urban Design",
-    "Faculty of Informatics",
-    "Faculty of Environmental Studies",
-    "Faculty of Media Studies",
-    "Faculty of Design Strategy",
-    "Faculty of Health Sciences",
-    "Faculty of Human Life Sciences"
-  ],
-  "features": [
-    "Strong affiliation with the Tokyu Group",
-    "Ranked highly for employment and career support",
-    "TCU Australia Program (TAP) for international exposure",
-    "Specialized focus on Sustainable Development Goals (SDGs)"
-  ]
-}
+basic_info:
+  address: 1-28-1 Tamazutsumi, Setagaya-ku, Tokyo 158-8557, Japan
+  capacity: 7500
+  name_en: Tokyo City University
+  name_ja: 東京都市大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Science and Engineering
+- Faculty of Architecture and Urban Design
+- Faculty of Informatics
+- Faculty of Environmental Studies
+- Faculty of Media Studies
+- Faculty of Design Strategy
+- Faculty of Health Sciences
+- Faculty of Human Life Sciences
+features:
+- Strong affiliation with the Tokyu Group
+- Ranked highly for employment and career support
+- TCU Australia Program (TAP) for international exposure
+- Specialized focus on Sustainable Development Goals (SDGs)
+id: univ_tokyo-city-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-40%
+  international_students: 485
+tags:
+- Strong affiliation with the Tokyu Group
+- Ranked highly for employment and career support
+- TCU Australia Program (TAP) for international exposure
+- Specialized focus on Sustainable Development Goals (SDGs)
+thumbnail: /static/img/pin-univ.png
+title: Tokyo City University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1560000
 ---
 
 ## 🏫 University Overview: The Legacy of Tokyo City University

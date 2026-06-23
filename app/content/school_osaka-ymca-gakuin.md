@@ -33,6 +33,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: キャリア形成実用日本語学科 (2年午後コース)
   total_fees: 1630000
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized University/Graduate School Progression Support

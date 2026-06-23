@@ -1,61 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府東大阪市小若江3-4-1",
-    "name_en": "Kindai University",
-    "name_ja": "近畿大学",
-    "website": "https://www.kindai.ac.jp/"
-  },
-  "category": "university",
-  "description": "긴키대 진학을 고민하는 유학생을 위한 2026 가이드입니다. 인기 학과, 지원요건, 학비, 학교 선택 포인트를 다룹니다.",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Science and Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Medicine",
-    "Faculty of Pharmacy",
-    "Faculty of Literature, Arts and Cultural Studies",
-    "Faculty of Biology-Oriented Science and Technology",
-    "Faculty of Engineering Science",
-    "Faculty of Architecture",
-    "Faculty of International Studies",
-    "Faculty of Informatics",
-    "Faculty of Comprehensive Social Sciences",
-    "Faculty of Nursing",
-    "Faculty of Food and Nutrition",
-    "Faculty of Regional Design"
-  ],
-  "features": [
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_kindai-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "35%",
-    "international_students": 1200
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "긴키대(킨다이) 유학 가이드 2026: 인기학과·입시·학비",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  }
-}
+basic_info:
+  address: 大阪府東大阪市小若江3-4-1
+  name_en: Kindai University
+  name_ja: 近畿大学
+  website: https://www.kindai.ac.jp/
+category: university
+date: '2026-04-27'
+description: 긴키대 진학을 고민하는 유학생을 위한 2026 가이드입니다. 인기 학과, 지원요건, 학비, 학교 선택 포인트를 다룹니다.
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Science and Engineering
+- Faculty of Agriculture
+- Faculty of Medicine
+- Faculty of Pharmacy
+- Faculty of Literature, Arts and Cultural Studies
+- Faculty of Biology-Oriented Science and Technology
+- Faculty of Engineering Science
+- Faculty of Architecture
+- Faculty of International Studies
+- Faculty of Informatics
+- Faculty of Comprehensive Social Sciences
+- Faculty of Nursing
+- Faculty of Food and Nutrition
+- Faculty of Regional Design
+features:
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_kindai-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35%
+  international_students: 1200
+tags:
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: '긴키대(킨다이) 유학 가이드 2026: 인기학과·입시·학비'
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요 및 명성

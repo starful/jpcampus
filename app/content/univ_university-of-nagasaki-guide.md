@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-nagasaki-guide",
-  "title": "University of Nagasaki",
-  "category": "university",
-  "tags": [
-    "Japan's First Information Security Department",
-    "Dual-Campus Strategy (Sasebo and Nagayo)",
-    "Strong Regional Industry Partnerships",
-    "Comprehensive Tuition Waiver Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "長崎県立大学",
-    "name_en": "University of Nagasaki",
-    "address": "123 Kawashimo-cho, Sasebo, Nagasaki 858-8580, Japan (Sasebo Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 92,
-    "acceptance_rate": "Estimated 35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Regional Creation",
-    "Faculty of International Relations",
-    "Faculty of Information Policy",
-    "Faculty of Nursing and Nutrition"
-  ],
-  "features": [
-    "Japan's First Information Security Department",
-    "Dual-Campus Strategy (Sasebo and Nagayo)",
-    "Strong Regional Industry Partnerships",
-    "Comprehensive Tuition Waiver Programs"
-  ]
-}
+basic_info:
+  address: 123 Kawashimo-cho, Sasebo, Nagasaki 858-8580, Japan (Sasebo Campus)
+  capacity: null
+  name_en: University of Nagasaki
+  name_ja: 長崎県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Management
+- Faculty of Regional Creation
+- Faculty of International Relations
+- Faculty of Information Policy
+- Faculty of Nursing and Nutrition
+features:
+- Japan's First Information Security Department
+- Dual-Campus Strategy (Sasebo and Nagayo)
+- Strong Regional Industry Partnerships
+- Comprehensive Tuition Waiver Programs
+id: univ_university-of-nagasaki-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 35%
+  international_students: 92
+tags:
+- Japan's First Information Security Department
+- Dual-Campus Strategy (Sasebo and Nagayo)
+- Strong Regional Industry Partnerships
+- Comprehensive Tuition Waiver Programs
+thumbnail: /static/img/pin-univ.png
+title: University of Nagasaki
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

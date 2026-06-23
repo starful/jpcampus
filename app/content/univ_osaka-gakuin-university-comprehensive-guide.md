@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-gakuin-university-comprehensive-guide",
-  "title": "Osaka Gakuin University",
-  "category": "university",
-  "tags": [
-    "Practical Business-Oriented Education",
-    "Strong Global Exchange Partnerships",
-    "The 'I-Chat Lounge' for Cultural Exchange",
-    "Strategic Location in Suita, Osaka",
-    "Comprehensive Career Support System"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪学院大学",
-    "name_en": "Osaka Gakuin University",
-    "address": "2-36-1 Kishibe-Minami, Suita, Osaka 564-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 280,
-    "acceptance_rate": "65-75% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1080000
-  },
-  "faculties": [
-    "Faculty of Commerce",
-    "Faculty of Business Administration",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of Foreign Languages",
-    "Faculty of International Studies",
-    "Faculty of Informatics"
-  ],
-  "features": [
-    "Practical Business-Oriented Education",
-    "Strong Global Exchange Partnerships",
-    "The 'I-Chat Lounge' for Cultural Exchange",
-    "Strategic Location in Suita, Osaka",
-    "Comprehensive Career Support System"
-  ]
-}
+basic_info:
+  address: 2-36-1 Kishibe-Minami, Suita, Osaka 564-8511, Japan
+  capacity: null
+  name_en: Osaka Gakuin University
+  name_ja: 大阪学院大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Commerce
+- Faculty of Business Administration
+- Faculty of Economics
+- Faculty of Law
+- Faculty of Foreign Languages
+- Faculty of International Studies
+- Faculty of Informatics
+features:
+- Practical Business-Oriented Education
+- Strong Global Exchange Partnerships
+- The 'I-Chat Lounge' for Cultural Exchange
+- Strategic Location in Suita, Osaka
+- Comprehensive Career Support System
+id: univ_osaka-gakuin-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (Estimated)
+  international_students: 280
+tags:
+- Practical Business-Oriented Education
+- Strong Global Exchange Partnerships
+- The 'I-Chat Lounge' for Cultural Exchange
+- Strategic Location in Suita, Osaka
+- Comprehensive Career Support System
+thumbnail: /static/img/pin-univ.png
+title: Osaka Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1080000
 ---
 
 ## 🏫 University Overview

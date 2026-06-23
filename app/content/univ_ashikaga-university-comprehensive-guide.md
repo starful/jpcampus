@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ashikaga-university-comprehensive-guide",
-  "title": "Ashikaga University",
-  "category": "university",
-  "tags": [
-    "Pioneer in Renewable Energy Research",
-    "High Employment Rate in Japanese Engineering Firms",
-    "Specialized Support for International Students",
-    "Located in a Historic and Safe Educational City"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "足利大学",
-    "name_en": "Ashikaga University",
-    "address": "268-1 Ohama-cho, Ashikaga-shi, Tochigi 326-8558, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Pioneer in Renewable Energy Research",
-    "High Employment Rate in Japanese Engineering Firms",
-    "Specialized Support for International Students",
-    "Located in a Historic and Safe Educational City"
-  ]
-}
+basic_info:
+  address: 268-1 Ohama-cho, Ashikaga-shi, Tochigi 326-8558, Japan
+  capacity: null
+  name_en: Ashikaga University
+  name_ja: 足利大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Engineering
+- Faculty of Nursing
+features:
+- Pioneer in Renewable Energy Research
+- High Employment Rate in Japanese Engineering Firms
+- Specialized Support for International Students
+- Located in a Historic and Safe Educational City
+id: univ_ashikaga-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 320
+tags:
+- Pioneer in Renewable Energy Research
+- High Employment Rate in Japanese Engineering Firms
+- Specialized Support for International Students
+- Located in a Historic and Safe Educational City
+thumbnail: /static/img/pin-univ.png
+title: Ashikaga University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1250000
 ---
 
 ## 🏫 University Overview

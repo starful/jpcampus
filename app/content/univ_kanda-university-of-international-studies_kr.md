@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanda-university-of-international-studies",
-  "title": "칸다외국어대학교",
-  "category": "university",
-  "tags": [
-    "자기주도 학습 센터 (SALC)",
-    "다국어 커뮤니케이션 센터 (MULC)",
-    "글로벌 자유전공학부",
-    "브리티시 힐즈(British Hills) 몰입형 교육",
-    "항공 및 호스피탈리티 분야의 압도적인 취업 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神田外語大学",
-    "name_en": "Kanda University of International Studies",
-    "address": "1-4-1 Wakaba, Mihama-ku, Chiba City, Chiba 261-0014, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "35-45% (Varies by department and entry track)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1210000
-  },
-  "faculties": [
-    "외국어학부",
-    "글로벌 자유전공학부"
-  ],
-  "features": [
-    "자기주도 학습 센터 (SALC)",
-    "다국어 커뮤니케이션 센터 (MULC)",
-    "글로벌 자유전공학부",
-    "브리티시 힐즈(British Hills) 몰입형 교육",
-    "항공 및 호스피탈리티 분야의 압도적인 취업 지원"
-  ],
-  "description": "일본 지바현 마쿠하리에 위치한 칸다외국어대학교는 실무 중심의 언어 교육과 혁신적인 자기주도 학습 환경으로 유명한 일본의 명문 사립 대학입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-4-1 Wakaba, Mihama-ku, Chiba City, Chiba 261-0014, Japan
+  capacity: null
+  name_en: Kanda University of International Studies
+  name_ja: 神田外語大学
+category: university
+date: '2026-03-08'
+description: 일본 지바현 마쿠하리에 위치한 칸다외국어대학교는 실무 중심의 언어 교육과 혁신적인 자기주도 학습 환경으로 유명한 일본의 명문
+  사립 대학입니다.
+faculties:
+- 외국어학부
+- 글로벌 자유전공학부
+features:
+- 자기주도 학습 센터 (SALC)
+- 다국어 커뮤니케이션 센터 (MULC)
+- 글로벌 자유전공학부
+- 브리티시 힐즈(British Hills) 몰입형 교육
+- 항공 및 호스피탈리티 분야의 압도적인 취업 지원
+id: univ_kanda-university-of-international-studies
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Varies by department and entry track)
+  international_students: 165
+tags:
+- 자기주도 학습 센터 (SALC)
+- 다국어 커뮤니케이션 센터 (MULC)
+- 글로벌 자유전공학부
+- 브리티시 힐즈(British Hills) 몰입형 교육
+- 항공 및 호스피탈리티 분야의 압도적인 취업 지원
+thumbnail: /static/img/pin-univ.png
+title: 칸다외국어대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1210000
 ---
 
 ## 🏫 대학 개요

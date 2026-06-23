@@ -1,74 +1,58 @@
 ---
-{
-  "basic_info": {
-    "address": "神奈川県横浜市中区日ノ出町1-36",
-    "capacity": 594,
-    "name_en": "Asuka Academy",
-    "name_ja": "飛鳥学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1634000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1445000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1256000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヶ月コース",
-      "total_fees": 1067000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般コース",
-      "total_fees": 1634000
-    }
-  ],
-  "description": "요코하마에 위치한 아스카 어학원은 국제 학생들이 일본어와 문화에 대한 탄탄한 기반을 다져 일본에서의 학업 및 직업적 성공을 준비할 수 있도록 돕습니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비반",
-    "대학 진학 과정",
-    "회화 중심",
-    "단기 코스",
-    "이과 집중"
-  ],
-  "id": "school_asuka-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.44512,
-    "lng": 139.6266009
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=246",
-  "stats": {
-    "capacity": 594,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Pathway",
-    "Conversation Focus",
-    "Short-Term Courses",
-    "Science Focused"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아스카 어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 神奈川県横浜市中区日ノ出町1-36
+  capacity: 594
+  name_en: Asuka Academy
+  name_ja: 飛鳥学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1634000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1445000
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1256000
+- admission_month: '1'
+  course_name: 進学1年3ヶ月コース
+  total_fees: 1067000
+- admission_month: '4'
+  course_name: 一般コース
+  total_fees: 1634000
+date: '2026-01-28'
+description: 요코하마에 위치한 아스카 어학원은 국제 학생들이 일본어와 문화에 대한 탄탄한 기반을 다져 일본에서의 학업 및 직업적 성공을
+  준비할 수 있도록 돕습니다.
+faculties: []
+features:
+- 기숙사
+- EJU 준비반
+- 대학 진학 과정
+- 회화 중심
+- 단기 코스
+- 이과 집중
+id: school_asuka-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.44512
+  lng: 139.6266009
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=246
+stats:
+  capacity: 594
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Pathway
+- Conversation Focus
+- Short-Term Courses
+- Science Focused
+thumbnail: /static/img/pin-school.png
+title: 아스카 어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

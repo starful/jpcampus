@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-fukui",
-  "title": "후쿠이 대학 (University of Fukui)",
-  "category": "university",
-  "tags": [
-    "국립대학 취업률 1위",
-    "세계적인 수준의 섬유 공학 및 원자력 연구",
-    "유학생을 위한 종합적인 지원 시스템",
-    "안전하고 경제적인 생활 환경"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福井大学",
-    "name_en": "University of Fukui",
-    "address": "3-9-1 Bunkyo, Fukui-shi, Fukui, 910-8507, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 204,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Medical Sciences",
-    "Faculty of Engineering",
-    "School of Global and Community Studies"
-  ],
-  "features": [
-    "국립대학 취업률 1위",
-    "세계적인 수준의 섬유 공학 및 원자력 연구",
-    "유학생을 위한 종합적인 지원 시스템",
-    "안전하고 경제적인 생활 환경"
-  ],
-  "description": "후쿠이 대학은 높은 취업률, 섬유 공학 및 원자력 분야의 세계적인 연구, 유학생 지원 시스템, 안전하고 경제적인 생활 환경을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-9-1 Bunkyo, Fukui-shi, Fukui, 910-8507, Japan
+  capacity: null
+  name_en: University of Fukui
+  name_ja: 福井大学
+category: university
+date: '2026-02-13'
+description: 후쿠이 대학은 높은 취업률, 섬유 공학 및 원자력 분야의 세계적인 연구, 유학생 지원 시스템, 안전하고 경제적인 생활 환경을
+  자랑합니다.
+faculties:
+- Faculty of Education
+- Faculty of Medical Sciences
+- Faculty of Engineering
+- School of Global and Community Studies
+features:
+- 국립대학 취업률 1위
+- 세계적인 수준의 섬유 공학 및 원자력 연구
+- 유학생을 위한 종합적인 지원 시스템
+- 안전하고 경제적인 생활 환경
+id: univ_university-of-fukui
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 204
+tags:
+- 국립대학 취업률 1위
+- 세계적인 수준의 섬유 공학 및 원자력 연구
+- 유학생을 위한 종합적인 지원 시스템
+- 안전하고 경제적인 생활 환경
+thumbnail: /static/img/pin-univ.png
+title: 후쿠이 대학 (University of Fukui)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

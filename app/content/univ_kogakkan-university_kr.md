@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kogakkan-university",
-  "lang": "kr",
-  "title": "코가칸 대학교",
-  "description": "일본의 정신적 고향인 이세(Ise)에 위치하여 신도(神道)와 일본 전통문화를 깊이 있게 연구하며, 우수한 교원을 양성하는 코가칸 대학교입니다.",
-  "category": "university",
-  "tags": [
-    "신도(神道) 연구를 전문으로 하는 일본 내 단 두 곳뿐인 대학교 중 하나",
-    "일본의 정신적 고향인 이세(Ise) 시에 위치",
-    "우수한 교원 양성 프로그램 및 전통 문화 보존에 특화",
-    "일본 전통 문화와 예절에 대한 깊이 있는 몰입 경험"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "皇學館大学",
-    "name_en": "Kogakkan University",
-    "address": "1704 Kushimoto-cho, Ise-shi, Mie 516-8555, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Contemporary Social Studies"
-  ],
-  "features": [
-    "신도(神道) 연구를 전문으로 하는 일본 내 단 두 곳뿐인 대학교 중 하나",
-    "일본의 정신적 고향인 이세(Ise) 시에 위치",
-    "우수한 교원 양성 프로그램 및 전통 문화 보존에 특화",
-    "일본 전통 문화와 예절에 대한 깊이 있는 몰입 경험"
-  ]
-}
+basic_info:
+  address: 1704 Kushimoto-cho, Ise-shi, Mie 516-8555, Japan
+  capacity: null
+  name_en: Kogakkan University
+  name_ja: 皇學館大学
+category: university
+date: '2026-03-15'
+description: 일본의 정신적 고향인 이세(Ise)에 위치하여 신도(神道)와 일본 전통문화를 깊이 있게 연구하며, 우수한 교원을 양성하는 코가칸
+  대학교입니다.
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Contemporary Social Studies
+features:
+- 신도(神道) 연구를 전문으로 하는 일본 내 단 두 곳뿐인 대학교 중 하나
+- 일본의 정신적 고향인 이세(Ise) 시에 위치
+- 우수한 교원 양성 프로그램 및 전통 문화 보존에 특화
+- 일본 전통 문화와 예절에 대한 깊이 있는 몰입 경험
+id: univ_kogakkan-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 25
+tags:
+- 신도(神道) 연구를 전문으로 하는 일본 내 단 두 곳뿐인 대학교 중 하나
+- 일본의 정신적 고향인 이세(Ise) 시에 위치
+- 우수한 교원 양성 프로그램 및 전통 문화 보존에 특화
+- 일본 전통 문화와 예절에 대한 깊이 있는 몰입 경험
+thumbnail: /static/img/pin-univ.png
+title: 코가칸 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 대학 개요: 일본 교육의 정신적 지주

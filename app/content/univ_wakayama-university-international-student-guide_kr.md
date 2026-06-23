@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_wakayama-university-international-student-guide",
-  "title": "와카야마 대학교",
-  "category": "university",
-  "tags": [
-    "First Faculty of Tourism in a Japanese National University",
-    "UN Tourism (formerly UNWTO) TedQual Certification",
-    "Interdisciplinary Research in Systems Engineering",
-    "Proximity to Kansai International Airport and Osaka"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "和歌山大学",
-    "name_en": "Wakayama University",
-    "address": "930 Sakaedani, Wakayama City, Wakayama Prefecture 640-8510, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 198,
-    "acceptance_rate": "22-28%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Systems Engineering",
-    "Faculty of Tourism"
-  ],
-  "features": [
-    "일본 국립 대학 최초의 관광 학부",
-    "UN Tourism (구 UNWTO) TedQual 인증",
-    "시스템 공학 분야의 학제간 연구",
-    "간사이 국제 공항 및 오사카와 근접"
-  ],
-  "lang": "kr",
-  "description": "와카야마 대학교는 간사이 지역의 아름다운 와카야마현에 위치한 명문 국립 대학입니다. 관광 학부와 시스템 공학 분야에서 뛰어난 강점을 가지고 있습니다."
-}
+basic_info:
+  address: 930 Sakaedani, Wakayama City, Wakayama Prefecture 640-8510, Japan
+  capacity: null
+  name_en: Wakayama University
+  name_ja: 和歌山大学
+category: university
+date: '2026-02-13'
+description: 와카야마 대학교는 간사이 지역의 아름다운 와카야마현에 위치한 명문 국립 대학입니다. 관광 학부와 시스템 공학 분야에서 뛰어난
+  강점을 가지고 있습니다.
+faculties:
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Systems Engineering
+- Faculty of Tourism
+features:
+- 일본 국립 대학 최초의 관광 학부
+- UN Tourism (구 UNWTO) TedQual 인증
+- 시스템 공학 분야의 학제간 연구
+- 간사이 국제 공항 및 오사카와 근접
+id: univ_wakayama-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22-28%
+  international_students: 198
+tags:
+- First Faculty of Tourism in a Japanese National University
+- UN Tourism (formerly UNWTO) TedQual Certification
+- Interdisciplinary Research in Systems Engineering
+- Proximity to Kansai International Airport and Osaka
+thumbnail: /static/img/pin-univ.png
+title: 와카야마 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요

@@ -1,73 +1,59 @@
 ---
-{
-  "basic_info": {
-    "address": "千葉県市川市行徳駅前4-19-14",
-    "capacity": 80,
-    "name_en": "Mizuno Language School",
-    "name_ja": "水野外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1160000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9月コース",
-      "total_fees": 1030000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6月コース",
-      "total_fees": 900000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3月コース",
-      "total_fees": 770000
-    }
-  ],
-  "description": "미즈노외어학원은 치바현 이치카와시에 위치하고 있으며, 국제 학생들에게 맞춤형 지도와 종합적인 EJU 시험 준비를 제공하여 일본 대학 진학을 돕습니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 시험 준비",
-    "대학 진학",
-    "회화 중심",
-    "STEM 트랙",
-    "비즈니스 일본어",
-    "미술 & 디자인",
-    "단기 연수"
-  ],
-  "id": "school_mizuno-gaigo-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6782349,
-    "lng": 139.9147436
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=71",
-  "stats": {
-    "capacity": 80,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Advancement",
-    "Conversation Focus",
-    "STEM Track",
-    "Business Japanese",
-    "Art & Design",
-    "Short-term Study"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "미즈노외어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 千葉県市川市行徳駅前4-19-14
+  capacity: 80
+  name_en: Mizuno Language School
+  name_ja: 水野外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1160000
+- admission_month: '7'
+  course_name: 進学1年9月コース
+  total_fees: 1030000
+- admission_month: '10'
+  course_name: 進学1年6月コース
+  total_fees: 900000
+- admission_month: '1'
+  course_name: 進学1年3月コース
+  total_fees: 770000
+date: '2026-01-28'
+description: 미즈노외어학원은 치바현 이치카와시에 위치하고 있으며, 국제 학생들에게 맞춤형 지도와 종합적인 EJU 시험 준비를 제공하여 일본
+  대학 진학을 돕습니다.
+faculties: []
+features:
+- 기숙사
+- EJU 시험 준비
+- 대학 진학
+- 회화 중심
+- STEM 트랙
+- 비즈니스 일본어
+- 미술 & 디자인
+- 단기 연수
+id: school_mizuno-gaigo-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.6782349
+  lng: 139.9147436
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=71
+stats:
+  capacity: 80
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Advancement
+- Conversation Focus
+- STEM Track
+- Business Japanese
+- Art & Design
+- Short-term Study
+thumbnail: /static/img/pin-school.png
+title: 미즈노외어학원
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

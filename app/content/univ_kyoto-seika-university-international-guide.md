@@ -5,6 +5,7 @@ basic_info:
   name_ja: 京都精華大学
   website: https://www.kyoto-seika.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Manga
 - Faculty of Design

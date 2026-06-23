@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: Advanced Studies 1 Year 3-Month Course
   total_fees: 862000
+date: '2026-01-28'
 faculties: []
 features:
 - University Admission Focus

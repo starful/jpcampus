@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-gakuin-university-international-students-guide",
-  "title": "Kobe Gakuin University",
-  "category": "university",
-  "tags": [
-    "Stunning Waterfront Campus in Port Island",
-    "Nationally Recognized Disaster Prevention (BOSAI) Programs",
-    "Strong Career Support in the Kansai Region",
-    "Comprehensive Faculty of Global Communication"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸学院大学",
-    "name_en": "Kobe Gakuin University",
-    "address": "518 Arise, Ikawadani-cho, Nishi-ku, Kobe, Hyogo 651-2180, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 254,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Law",
-    "Economics",
-    "Business Administration",
-    "Humanities and Sciences",
-    "Psychology",
-    "Contemporary Social Studies",
-    "Global Communication",
-    "Rehabilitation",
-    "Nutrition",
-    "Pharmaceutical Sciences"
-  ],
-  "features": [
-    "Stunning Waterfront Campus in Port Island",
-    "Nationally Recognized Disaster Prevention (BOSAI) Programs",
-    "Strong Career Support in the Kansai Region",
-    "Comprehensive Faculty of Global Communication"
-  ]
-}
+basic_info:
+  address: 518 Arise, Ikawadani-cho, Nishi-ku, Kobe, Hyogo 651-2180, Japan
+  capacity: null
+  name_en: Kobe Gakuin University
+  name_ja: 神戸学院大学
+category: university
+date: '2026-04-19'
+faculties:
+- Law
+- Economics
+- Business Administration
+- Humanities and Sciences
+- Psychology
+- Contemporary Social Studies
+- Global Communication
+- Rehabilitation
+- Nutrition
+- Pharmaceutical Sciences
+features:
+- Stunning Waterfront Campus in Port Island
+- Nationally Recognized Disaster Prevention (BOSAI) Programs
+- Strong Career Support in the Kansai Region
+- Comprehensive Faculty of Global Communication
+id: univ_kobe-gakuin-university-international-students-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 254
+tags:
+- Stunning Waterfront Campus in Port Island
+- Nationally Recognized Disaster Prevention (BOSAI) Programs
+- Strong Career Support in the Kansai Region
+- Comprehensive Faculty of Global Communication
+thumbnail: /static/img/pin-univ.png
+title: Kobe Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

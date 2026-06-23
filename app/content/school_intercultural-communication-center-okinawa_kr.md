@@ -1,58 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "沖縄県宜野湾市長田4-13-8",
-    "capacity": 48,
-    "name_en": "Intercultural Communication Center Affiliated Japanese Language School",
-    "name_ja": "異文化間コミュニケーションセンター附属日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "日本語一般コース",
-      "total_fees": 891000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "大学進学7月",
-      "total_fees": 1386000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "大学進学4月",
-      "total_fees": 891000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "오키나와의 독특한 아열대 환경에 위치",
-    "매우 적은 학생 정원으로 고도의 맞춤형 교육 보장 (정원: 48명)",
-    "EJU 시험 준비 및 대학 입학에 집중된 맞춤형 학습 트랙 제공",
-    "편안한 정착을 위한 교내 또는 제휴 기숙사 시설 제공",
-    "장기 학업 과정과 유연한 단기 학습 옵션 모두 제공"
-  ],
-  "id": "school_intercultural-communication-center-okinawa",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 26.2606923,
-    "lng": 127.761073
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=502",
-  "stats": {},
-  "tags": [
-    "Located in the unique subtropical environment of Okinawa",
-    "Extremely small student capacity ensuring highly personalized education (Capacity: 48)",
-    "Dedicated academic tracks focusing on EJU preparation and university entrance",
-    "Provision of on-site or affiliated dormitory facilities for hassle-free settling",
-    "Offers both long-term academic and flexible short-term study options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "인터컬쳐럴 커뮤니케이션 센터 부속 일본어 학교",
-  "tuition": {},
-  "description": "오키나와에 위치한 소규모 정예 일본어 학교로, 대학 진학을 목표하는 학생들에게 맞춤형 교육과 체계적인 EJU 준비를 제공합니다."
-}
+basic_info:
+  address: 沖縄県宜野湾市長田4-13-8
+  capacity: 48
+  name_en: Intercultural Communication Center Affiliated Japanese Language School
+  name_ja: 異文化間コミュニケーションセンター附属日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語一般コース
+  total_fees: 891000
+- admission_month: '7'
+  course_name: 大学進学7月
+  total_fees: 1386000
+- admission_month: '4'
+  course_name: 大学進学4月
+  total_fees: 891000
+date: '2026-01-28'
+description: 오키나와에 위치한 소규모 정예 일본어 학교로, 대학 진학을 목표하는 학생들에게 맞춤형 교육과 체계적인 EJU 준비를 제공합니다.
+faculties: []
+features:
+- 오키나와의 독특한 아열대 환경에 위치
+- '매우 적은 학생 정원으로 고도의 맞춤형 교육 보장 (정원: 48명)'
+- EJU 시험 준비 및 대학 입학에 집중된 맞춤형 학습 트랙 제공
+- 편안한 정착을 위한 교내 또는 제휴 기숙사 시설 제공
+- 장기 학업 과정과 유연한 단기 학습 옵션 모두 제공
+id: school_intercultural-communication-center-okinawa
+lang: kr
+layout: school
+location:
+  lat: 26.2606923
+  lng: 127.761073
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=502
+stats: {}
+tags:
+- Located in the unique subtropical environment of Okinawa
+- 'Extremely small student capacity ensuring highly personalized education (Capacity:
+  48)'
+- Dedicated academic tracks focusing on EJU preparation and university entrance
+- Provision of on-site or affiliated dormitory facilities for hassle-free settling
+- Offers both long-term academic and flexible short-term study options
+thumbnail: /static/img/pin-school.png
+title: 인터컬쳐럴 커뮤니케이션 센터 부속 일본어 학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

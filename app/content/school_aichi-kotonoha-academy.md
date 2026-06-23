@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1150000
+date: '2026-01-28'
 description: Aichi Kotonoha Academy provides high-quality Japanese language education
   in Aichi Prefecture, focusing on university preparation, EJU, and practical conversational
   skills.

@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nippon-bunri-university-guide",
-  "title": "Nippon Bunri University",
-  "category": "university",
-  "tags": [
-    "Specialized Aerospace and Aeronautics Program",
-    "High Post-Graduation Employment Rates",
-    "Hands-on Industrial Training",
-    "Comprehensive International Student Support Systems"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "日本文理大学",
-    "name_en": "Nippon Bunri University",
-    "address": "1727 Ichigi, Oita City, Oita Prefecture 870-0397, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Health and Management"
-  ],
-  "features": [
-    "Specialized Aerospace and Aeronautics Program",
-    "High Post-Graduation Employment Rates",
-    "Hands-on Industrial Training",
-    "Comprehensive International Student Support Systems"
-  ]
-}
+basic_info:
+  address: 1727 Ichigi, Oita City, Oita Prefecture 870-0397, Japan
+  capacity: 2500
+  name_en: Nippon Bunri University
+  name_ja: 日本文理大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Engineering
+- Faculty of Health and Management
+features:
+- Specialized Aerospace and Aeronautics Program
+- High Post-Graduation Employment Rates
+- Hands-on Industrial Training
+- Comprehensive International Student Support Systems
+id: univ_nippon-bunri-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 320
+tags:
+- Specialized Aerospace and Aeronautics Program
+- High Post-Graduation Employment Rates
+- Hands-on Industrial Training
+- Comprehensive International Student Support Systems
+thumbnail: /static/img/pin-univ.png
+title: Nippon Bunri University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Spirit of Nippon Bunri University (NBU)

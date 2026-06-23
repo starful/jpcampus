@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okinawa-prefectural-university-of-arts",
-  "title": "Okinawa Prefectural University of Arts",
-  "category": "university",
-  "tags": [
-    "Specialized focus on Ryukyuan Traditional Culture",
-    "UNESCO World Heritage Site proximity (Shuri Castle)",
-    "Unique 'Bingata' Dyeing and Ryukyuan Music majors",
-    "Small class sizes with high faculty-to-student ratios"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "沖縄県立芸術大学",
-    "name_en": "Okinawa Prefectural University of Arts",
-    "address": "1-4 Shuri-tonokura-cho, Naha-shi, Okinawa, 903-8602, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 38,
-    "acceptance_rate": "22% (Highly competitive practical exams)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Arts and Crafts",
-    "Faculty of Music",
-    "Graduate School of Formative Arts",
-    "Graduate School of Music",
-    "Graduate School of Cultural and Artistic Management"
-  ],
-  "features": [
-    "Specialized focus on Ryukyuan Traditional Culture",
-    "UNESCO World Heritage Site proximity (Shuri Castle)",
-    "Unique 'Bingata' Dyeing and Ryukyuan Music majors",
-    "Small class sizes with high faculty-to-student ratios"
-  ]
-}
+basic_info:
+  address: 1-4 Shuri-tonokura-cho, Naha-shi, Okinawa, 903-8602, Japan
+  capacity: null
+  name_en: Okinawa Prefectural University of Arts
+  name_ja: 沖縄県立芸術大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Arts and Crafts
+- Faculty of Music
+- Graduate School of Formative Arts
+- Graduate School of Music
+- Graduate School of Cultural and Artistic Management
+features:
+- Specialized focus on Ryukyuan Traditional Culture
+- UNESCO World Heritage Site proximity (Shuri Castle)
+- Unique 'Bingata' Dyeing and Ryukyuan Music majors
+- Small class sizes with high faculty-to-student ratios
+id: univ_okinawa-prefectural-university-of-arts
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22% (Highly competitive practical exams)
+  international_students: 38
+tags:
+- Specialized focus on Ryukyuan Traditional Culture
+- UNESCO World Heritage Site proximity (Shuri Castle)
+- Unique 'Bingata' Dyeing and Ryukyuan Music majors
+- Small class sizes with high faculty-to-student ratios
+thumbnail: /static/img/pin-univ.png
+title: Okinawa Prefectural University of Arts
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Soul of Ryukyu

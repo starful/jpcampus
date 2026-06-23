@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamanashi-gakuin-university-comprehensive-guide",
-  "title": "Yamanashi Gakuin University",
-  "category": "university",
-  "tags": [
-    "iCLA: A 100% English-taught Liberal Arts program",
-    "Top-tier Sports University with Olympic-level facilities",
-    "Diverse international student body representing over 50 countries",
-    "Generous scholarship system for international students (up to 100% tuition waiver)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山梨学院大学",
-    "name_en": "Yamanashi Gakuin University",
-    "address": "2-4-5 Sakaori, Kofu, Yamanashi 400-8575, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 1150,
-    "acceptance_rate": "Estimated 45-60%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1390000
-  },
-  "faculties": [
-    "Law",
-    "Business Administration",
-    "Health and Nutrition",
-    "Sport Science",
-    "International College of Liberal Arts (iCLA)"
-  ],
-  "features": [
-    "iCLA: A 100% English-taught Liberal Arts program",
-    "Top-tier Sports University with Olympic-level facilities",
-    "Diverse international student body representing over 50 countries",
-    "Generous scholarship system for international students (up to 100% tuition waiver)"
-  ]
-}
+basic_info:
+  address: 2-4-5 Sakaori, Kofu, Yamanashi 400-8575, Japan
+  capacity: null
+  name_en: Yamanashi Gakuin University
+  name_ja: 山梨学院大学
+category: university
+date: '2026-03-08'
+faculties:
+- Law
+- Business Administration
+- Health and Nutrition
+- Sport Science
+- International College of Liberal Arts (iCLA)
+features:
+- 'iCLA: A 100% English-taught Liberal Arts program'
+- Top-tier Sports University with Olympic-level facilities
+- Diverse international student body representing over 50 countries
+- Generous scholarship system for international students (up to 100% tuition waiver)
+id: univ_yamanashi-gakuin-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-60%
+  international_students: 1150
+tags:
+- 'iCLA: A 100% English-taught Liberal Arts program'
+- Top-tier Sports University with Olympic-level facilities
+- Diverse international student body representing over 50 countries
+- Generous scholarship system for international students (up to 100% tuition waiver)
+thumbnail: /static/img/pin-univ.png
+title: Yamanashi Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1390000
 ---
 
 ## 🏫 University Overview

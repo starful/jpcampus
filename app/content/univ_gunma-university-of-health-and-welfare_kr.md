@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gunma-university-of-health-and-welfare",
-  "title": "군마의료복지대학교",
-  "description": "보건, 의료, 복지 분야의 전문 인재를 양성하는 일본 군마현의 명문 사립대학교로, 높은 국가 고시 합격률과 지역사회 기반의 실습 교육을 자랑합니다.",
-  "category": "university",
-  "tags": [
-    "보건의료 및 복지 통합 교육",
-    "높은 국가 고시 합격률",
-    "지역사회 기반의 실습 중심 교육",
-    "소수 정예 및 개별 맞춤형 지도"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "群馬医療福祉大学",
-    "name_en": "Gunma University of Health and Welfare",
-    "address": "606-7 Aramaki-machi, Maebashi, Gunma 371-0044, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 22,
-    "acceptance_rate": "72%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "사회복지학부",
-    "간호학부",
-    "재활학부"
-  ],
-  "features": [
-    "보건의료 및 복지 통합 교육",
-    "높은 국가 고시 합격률",
-    "지역사회 기반의 실습 중심 교육",
-    "소수 정예 및 개별 맞춤형 지도"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 606-7 Aramaki-machi, Maebashi, Gunma 371-0044, Japan
+  capacity: null
+  name_en: Gunma University of Health and Welfare
+  name_ja: 群馬医療福祉大学
+category: university
+date: '2026-03-08'
+description: 보건, 의료, 복지 분야의 전문 인재를 양성하는 일본 군마현의 명문 사립대학교로, 높은 국가 고시 합격률과 지역사회 기반의
+  실습 교육을 자랑합니다.
+faculties:
+- 사회복지학부
+- 간호학부
+- 재활학부
+features:
+- 보건의료 및 복지 통합 교육
+- 높은 국가 고시 합격률
+- 지역사회 기반의 실습 중심 교육
+- 소수 정예 및 개별 맞춤형 지도
+id: univ_gunma-university-of-health-and-welfare
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 72%
+  international_students: 22
+tags:
+- 보건의료 및 복지 통합 교육
+- 높은 국가 고시 합격률
+- 지역사회 기반의 실습 중심 교육
+- 소수 정예 및 개별 맞춤형 지도
+thumbnail: /static/img/pin-univ.png
+title: 군마의료복지대학교
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 학교 개요

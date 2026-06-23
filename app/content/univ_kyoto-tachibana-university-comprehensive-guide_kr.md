@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-tachibana-university-comprehensive-guide",
-  "title": "교토 타치바나 대학교",
-  "description": "교토의 전통과 최첨단 기술이 공존하는 교토 타치바나 대학교의 학부 정보, 입시 가이드 및 유학생을 위한 풍부한 지원 혜택을 확인해 보세요.",
-  "category": "university",
-  "tags": [
-    "학제간 융합 학습 (학부 간 협력 시스템)",
-    "AI 및 데이터 사이언스 중심의 최첨단 공학부",
-    "교토와의 강한 지역적 유대를 통한 독창적인 문화 및 역사 연구 기회",
-    "일본 내 기업 취업률이 높은 외국인 유학생 지원 체계"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都橘大学",
-    "name_en": "Kyoto Tachibana University",
-    "address": "34 Yamada-cho, Oyadano, Yamashina-ku, Kyoto 607-8175, Japan",
-    "capacity": 5800
-  },
-  "stats": {
-    "international_students": 150,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of International Studies",
-    "Faculty of Developmental Education",
-    "Faculty of Health Sciences",
-    "Faculty of Nursing",
-    "Faculty of Economics",
-    "Faculty of Management",
-    "Faculty of Engineering"
-  ],
-  "features": [
-    "학제간 융합 학습 (학부 간 협력 시스템)",
-    "AI 및 데이터 사이언스 중심의 최첨단 공학부",
-    "교토와의 강한 지역적 유대를 통한 독창적인 문화 및 역사 연구 기회",
-    "일본 내 기업 취업률이 높은 외국인 유학생 지원 체계"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 34 Yamada-cho, Oyadano, Yamashina-ku, Kyoto 607-8175, Japan
+  capacity: 5800
+  name_en: Kyoto Tachibana University
+  name_ja: 京都橘大学
+category: university
+date: '2026-03-15'
+description: 교토의 전통과 최첨단 기술이 공존하는 교토 타치바나 대학교의 학부 정보, 입시 가이드 및 유학생을 위한 풍부한 지원 혜택을
+  확인해 보세요.
+faculties:
+- Faculty of Humanities
+- Faculty of International Studies
+- Faculty of Developmental Education
+- Faculty of Health Sciences
+- Faculty of Nursing
+- Faculty of Economics
+- Faculty of Management
+- Faculty of Engineering
+features:
+- 학제간 융합 학습 (학부 간 협력 시스템)
+- AI 및 데이터 사이언스 중심의 최첨단 공학부
+- 교토와의 강한 지역적 유대를 통한 독창적인 문화 및 역사 연구 기회
+- 일본 내 기업 취업률이 높은 외국인 유학생 지원 체계
+id: univ_kyoto-tachibana-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 150
+tags:
+- 학제간 융합 학습 (학부 간 협력 시스템)
+- AI 및 데이터 사이언스 중심의 최첨단 공학부
+- 교토와의 강한 지역적 유대를 통한 독창적인 문화 및 역사 연구 기회
+- 일본 내 기업 취업률이 높은 외국인 유학생 지원 체계
+thumbnail: /static/img/pin-univ.png
+title: 교토 타치바나 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kokugakuin-university-comprehensive-guide",
-  "title": "Kokugakuin University",
-  "category": "university",
-  "tags": [
-    "One of only two universities in Japan offering Shinto Studies",
-    "Located in the heart of Shibuya, Tokyo's cultural center",
-    "Over 140 years of history in Japanese classics and history",
-    "Renowned on-campus museum with national-level archaeological treasures"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "国学院大学",
-    "name_en": "Kokugakuin University",
-    "address": "4-10-28 Higashi, Shibuya-ku, Tokyo 150-8440, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 158,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 240000,
-    "yearly_tuition": 1287000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Shinto Culture",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Human Development",
-    "Faculty of Tourism and Community Development"
-  ],
-  "features": [
-    "One of only two universities in Japan offering Shinto Studies",
-    "Located in the heart of Shibuya, Tokyo's cultural center",
-    "Over 140 years of history in Japanese classics and history",
-    "Renowned on-campus museum with national-level archaeological treasures"
-  ]
-}
+basic_info:
+  address: 4-10-28 Higashi, Shibuya-ku, Tokyo 150-8440, Japan
+  capacity: null
+  name_en: Kokugakuin University
+  name_ja: 国学院大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Letters
+- Faculty of Shinto Culture
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Human Development
+- Faculty of Tourism and Community Development
+features:
+- One of only two universities in Japan offering Shinto Studies
+- Located in the heart of Shibuya, Tokyo's cultural center
+- Over 140 years of history in Japanese classics and history
+- Renowned on-campus museum with national-level archaeological treasures
+id: univ_kokugakuin-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 158
+tags:
+- One of only two universities in Japan offering Shinto Studies
+- Located in the heart of Shibuya, Tokyo's cultural center
+- Over 140 years of history in Japanese classics and history
+- Renowned on-campus museum with national-level archaeological treasures
+thumbnail: /static/img/pin-univ.png
+title: Kokugakuin University
+tuition:
+  admission_fee: 240000
+  yearly_tuition: 1287000
 ---
 
 ## 🏫 University Overview: The Soul of Japanese Heritage

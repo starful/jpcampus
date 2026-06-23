@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 一般2年コース
   total_fees: 1340000
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized EJU & Science Track Preparation

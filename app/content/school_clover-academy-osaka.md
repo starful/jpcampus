@@ -21,6 +21,7 @@ courses:
 - admission_month: 4,10
   course_name: 一般2年コース
   total_fees: 1440000
+date: '2026-01-28'
 description: Clover Academy in Osaka provides comprehensive Japanese language education
   for international students, focusing on university admissions and future careers
   in Japan, with specialized courses and strong science program support.

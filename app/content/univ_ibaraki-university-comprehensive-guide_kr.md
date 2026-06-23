@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ibaraki-university-comprehensive-guide",
-  "title": "이바라키 대학교",
-  "category": "university",
-  "tags": [
-    "양자 빔 과학 및 지속 가능성의 선도적인 연구",
-    "히타치(Hitachi, Ltd.)와 같은 글로벌 기업과의 강력한 산업 연계",
-    "도시 접근성과 자연의 아름다움 사이의 균형을 제공하는 전략적 위치",
-    "J-PALS 프로그램을 통한 종합적인 국제 학생 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "茨城大学",
-    "name_en": "Ibaraki University",
-    "address": "2-1-1 Bunkyo, Mito, Ibaraki 310-8512, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 365,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "인문사회과학부",
-    "교육학부",
-    "이학부",
-    "공학부",
-    "농학부"
-  ],
-  "features": [
-    "양자 빔 과학 및 지속 가능성의 선도적인 연구",
-    "히타치(Hitachi, Ltd.)와 같은 글로벌 기업과의 강력한 산업 연계",
-    "도시 접근성과 자연의 아름다움 사이의 균형을 제공하는 전략적 위치",
-    "J-PALS 프로그램을 통한 종합적인 국제 학생 지원"
-  ],
-  "description": "이바라키 대학교는 도쿄 바로 북쪽에 위치한 이바라키 현의 저명한 국립 대학교입니다. 양자 빔 과학, 지속 가능성, 그리고 히타치(Hitachi, Ltd.)와 같은 주요 기업과의 강력한 산업 연계 분야에서 뛰어난 연구를 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-1 Bunkyo, Mito, Ibaraki 310-8512, Japan
+  capacity: null
+  name_en: Ibaraki University
+  name_ja: 茨城大学
+category: university
+date: '2026-02-13'
+description: 이바라키 대학교는 도쿄 바로 북쪽에 위치한 이바라키 현의 저명한 국립 대학교입니다. 양자 빔 과학, 지속 가능성, 그리고 히타치(Hitachi,
+  Ltd.)와 같은 주요 기업과의 강력한 산업 연계 분야에서 뛰어난 연구를 자랑합니다.
+faculties:
+- 인문사회과학부
+- 교육학부
+- 이학부
+- 공학부
+- 농학부
+features:
+- 양자 빔 과학 및 지속 가능성의 선도적인 연구
+- 히타치(Hitachi, Ltd.)와 같은 글로벌 기업과의 강력한 산업 연계
+- 도시 접근성과 자연의 아름다움 사이의 균형을 제공하는 전략적 위치
+- J-PALS 프로그램을 통한 종합적인 국제 학생 지원
+id: univ_ibaraki-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 365
+tags:
+- 양자 빔 과학 및 지속 가능성의 선도적인 연구
+- 히타치(Hitachi, Ltd.)와 같은 글로벌 기업과의 강력한 산업 연계
+- 도시 접근성과 자연의 아름다움 사이의 균형을 제공하는 전략적 위치
+- J-PALS 프로그램을 통한 종합적인 국제 학생 지원
+thumbnail: /static/img/pin-univ.png
+title: 이바라키 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

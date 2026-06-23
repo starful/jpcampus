@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hokuriku-university-guide-for-international-students",
-  "title": "호쿠리쿠 대학 (Hokuriku University)",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "국가고시 합격률이 높은 명문 약학부",
-    "동아시아 국제 교류 및 글로벌 비즈니스 특화",
-    "유학생을 위한 풍부한 학비 감면 장학금",
-    "역사적인 도시이자 물가가 저렴한 가나자와 위치"
-  ],
-  "description": "일본 가나자와에 위치한 호쿠리쿠 대학은 높은 약사 고시 합격률과 강력한 국제 교류 네트워크를 자랑하는 종합 사립대학입니다. 유학생 지원 제도와 합리적인 생활 환경으로 한국 학생들에게 매력적인 선택지입니다.",
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北陸大学",
-    "name_en": "Hokuriku University",
-    "address": "1-1 Taiyogaoka, Kanazawa, Ishikawa 920-1180, Japan",
-    "capacity": "약 2,500명 (전체 학생수)"
-  },
-  "stats": {
-    "international_students": 450,
-    "acceptance_rate": "Estimated 45-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "약학부",
-    "의료보건학부",
-    "경제경영학부",
-    "국제커뮤니케이션학부"
-  ],
-  "features": [
-    "국가고시 합격률이 높은 명문 약학부",
-    "동아시아 국제 교류 및 글로벌 비즈니스에 강력한 중점",
-    "유학생을 위한 풍부한 학비 감면 장학 제도",
-    "역사와 전통, 저렴한 물가를 자랑하는 가나자와에 위치"
-  ]
-}
+basic_info:
+  address: 1-1 Taiyogaoka, Kanazawa, Ishikawa 920-1180, Japan
+  capacity: 약 2,500명 (전체 학생수)
+  name_en: Hokuriku University
+  name_ja: 北陸大学
+category: university
+date: '2026-03-15'
+description: 일본 가나자와에 위치한 호쿠리쿠 대학은 높은 약사 고시 합격률과 강력한 국제 교류 네트워크를 자랑하는 종합 사립대학입니다.
+  유학생 지원 제도와 합리적인 생활 환경으로 한국 학생들에게 매력적인 선택지입니다.
+faculties:
+- 약학부
+- 의료보건학부
+- 경제경영학부
+- 국제커뮤니케이션학부
+features:
+- 국가고시 합격률이 높은 명문 약학부
+- 동아시아 국제 교류 및 글로벌 비즈니스에 강력한 중점
+- 유학생을 위한 풍부한 학비 감면 장학 제도
+- 역사와 전통, 저렴한 물가를 자랑하는 가나자와에 위치
+id: univ_hokuriku-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-65%
+  international_students: 450
+tags:
+- 국가고시 합격률이 높은 명문 약학부
+- 동아시아 국제 교류 및 글로벌 비즈니스 특화
+- 유학생을 위한 풍부한 학비 감면 장학금
+- 역사적인 도시이자 물가가 저렴한 가나자와 위치
+thumbnail: /static/img/pin-univ.png
+title: 호쿠리쿠 대학 (Hokuriku University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요: 가나자와에서 시작하는 전문성의 관문

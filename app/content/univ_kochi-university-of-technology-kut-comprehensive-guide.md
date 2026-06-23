@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kochi-university-of-technology-kut-comprehensive-guide",
-  "title": "Kochi University of Technology",
-  "category": "university",
-  "tags": [
-    "World-class Research Facilities",
-    "Special Scholarship Program (SSP) for PhD Students",
-    "Award-winning Campus Architecture",
-    "High Faculty-to-Student Ratio"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "高知工科大学",
-    "name_en": "Kochi University of Technology",
-    "address": "185 Miyanokuchi, Tosayamada-cho, Kami-shi, Kochi 782-8502, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 220,
-    "acceptance_rate": "15-20% for International Programs"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Systems Engineering",
-    "Environmental Science and Engineering",
-    "Informatics",
-    "Economics and Management"
-  ],
-  "features": [
-    "World-class Research Facilities",
-    "Special Scholarship Program (SSP) for PhD Students",
-    "Award-winning Campus Architecture",
-    "High Faculty-to-Student Ratio"
-  ]
-}
+basic_info:
+  address: 185 Miyanokuchi, Tosayamada-cho, Kami-shi, Kochi 782-8502, Japan
+  capacity: null
+  name_en: Kochi University of Technology
+  name_ja: 高知工科大学
+category: university
+date: '2026-03-03'
+faculties:
+- Systems Engineering
+- Environmental Science and Engineering
+- Informatics
+- Economics and Management
+features:
+- World-class Research Facilities
+- Special Scholarship Program (SSP) for PhD Students
+- Award-winning Campus Architecture
+- High Faculty-to-Student Ratio
+id: univ_kochi-university-of-technology-kut-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-20% for International Programs
+  international_students: 220
+tags:
+- World-class Research Facilities
+- Special Scholarship Program (SSP) for PhD Students
+- Award-winning Campus Architecture
+- High Faculty-to-Student Ratio
+thumbnail: /static/img/pin-univ.png
+title: Kochi University of Technology
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Jewel of Shikoku

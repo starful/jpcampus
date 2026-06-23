@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kochi-university-of-technology-kut-comprehensive-guide",
-  "title": "고치공과대학교 (KUT) 종합 가이드: 일본 시코쿠의 혁신적인 연구 중심 대학",
-  "category": "university",
-  "tags": [
-    "세계적 수준의 연구 시설",
-    "박사 과정 특별 장학금(SSP)",
-    "수상 경력의 캠퍼스 건축",
-    "높은 교수 대 학생 비율"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "高知工科大学",
-    "name_en": "Kochi University of Technology",
-    "address": "185 Miyanokuchi, Tosayamada-cho, Kami-shi, Kochi 782-8502, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 220,
-    "acceptance_rate": "15-20% for International Programs"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "시스템공학부",
-    "환경이공학부",
-    "정보학부",
-    "경제매니지먼트학부"
-  ],
-  "features": [
-    "세계적인 수준의 연구 시설 보유",
-    "박사 과정생을 위한 파격적인 특별 장학 프로그램(SSP)",
-    "수상 경력에 빛나는 현대적이고 아름다운 캠퍼스",
-    "교수 1인당 학생 비율이 낮은 밀착형 교육"
-  ],
-  "description": "세계적 수준의 연구 시설과 혁신적인 교육 환경을 자랑하는 시코쿠의 명문, 고치공과대학교(KUT)의 학비, 장학금 및 캠퍼스 생활 정보를 확인하세요.",
-  "lang": "kr"
-}
+basic_info:
+  address: 185 Miyanokuchi, Tosayamada-cho, Kami-shi, Kochi 782-8502, Japan
+  capacity: null
+  name_en: Kochi University of Technology
+  name_ja: 高知工科大学
+category: university
+date: '2026-03-08'
+description: 세계적 수준의 연구 시설과 혁신적인 교육 환경을 자랑하는 시코쿠의 명문, 고치공과대학교(KUT)의 학비, 장학금 및 캠퍼스
+  생활 정보를 확인하세요.
+faculties:
+- 시스템공학부
+- 환경이공학부
+- 정보학부
+- 경제매니지먼트학부
+features:
+- 세계적인 수준의 연구 시설 보유
+- 박사 과정생을 위한 파격적인 특별 장학 프로그램(SSP)
+- 수상 경력에 빛나는 현대적이고 아름다운 캠퍼스
+- 교수 1인당 학생 비율이 낮은 밀착형 교육
+id: univ_kochi-university-of-technology-kut-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-20% for International Programs
+  international_students: 220
+tags:
+- 세계적 수준의 연구 시설
+- 박사 과정 특별 장학금(SSP)
+- 수상 경력의 캠퍼스 건축
+- 높은 교수 대 학생 비율
+thumbnail: /static/img/pin-univ.png
+title: '고치공과대학교 (KUT) 종합 가이드: 일본 시코쿠의 혁신적인 연구 중심 대학'
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 시코쿠의 숨겨진 보석

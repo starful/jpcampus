@@ -1,66 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区北新宿3-22-7",
-    "capacity": 380,
-    "name_en": "JASSO Tokyo Japanese Language Education Center (Japan Student Services Organization)",
-    "name_ja": "日本学生支援機構東京日本語教育センター"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "大学院等進学課程1年コース",
-      "total_fees": 822867
-    },
-    {
-      "admission_month": "10",
-      "course_name": "大学院等進学課程1年半コース",
-      "total_fees": 1192337
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学課程1年コース",
-      "total_fees": 822867
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学課程1年半コース",
-      "total_fees": 1192337
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "정부 산하 공공 기관 (JASSO/MEXT)",
-    "대학/대학원 진학에 특화",
-    "EJU (일본유학시험) 전문 대비",
-    "기숙사 보장 및 저렴한 숙박비",
-    "이과/STEM (이공계) 특화 과정"
-  ],
-  "id": "school_jasso-tokyo-japanese-language-education-center",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7035345,
-    "lng": 139.6893789
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=128",
-  "stats": {
-    "capacity": 380,
-    "international_students": 380
-  },
-  "tags": [
-    "Government-Affiliated Public Institution (JASSO/MEXT)",
-    "Exclusive focus on Academic Progression (University/Graduate School)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Guaranteed, Affordable Dormitory Accommodation",
-    "Dedicated Science/STEM Track (理科/Rika) Curriculum"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "JASSO 동경 일본어 교육 센터 (일본학생지원기구)",
-  "tuition": {},
-  "description": "JASSO (일본학생지원기구)에서 운영하는 동경 일본어 교육 센터에 대해 자세히 알아보세요. 대학/대학원 진학을 위한 최적의 교육 환경을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区北新宿3-22-7
+  capacity: 380
+  name_en: JASSO Tokyo Japanese Language Education Center (Japan Student Services
+    Organization)
+  name_ja: 日本学生支援機構東京日本語教育センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学院等進学課程1年コース
+  total_fees: 822867
+- admission_month: '10'
+  course_name: 大学院等進学課程1年半コース
+  total_fees: 1192337
+- admission_month: '4'
+  course_name: 進学課程1年コース
+  total_fees: 822867
+- admission_month: '10'
+  course_name: 進学課程1年半コース
+  total_fees: 1192337
+date: '2026-01-28'
+description: JASSO (일본학생지원기구)에서 운영하는 동경 일본어 교육 센터에 대해 자세히 알아보세요. 대학/대학원 진학을 위한 최적의
+  교육 환경을 제공합니다.
+faculties: []
+features:
+- 정부 산하 공공 기관 (JASSO/MEXT)
+- 대학/대학원 진학에 특화
+- EJU (일본유학시험) 전문 대비
+- 기숙사 보장 및 저렴한 숙박비
+- 이과/STEM (이공계) 특화 과정
+id: school_jasso-tokyo-japanese-language-education-center
+lang: kr
+layout: school
+location:
+  lat: 35.7035345
+  lng: 139.6893789
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=128
+stats:
+  capacity: 380
+  international_students: 380
+tags:
+- Government-Affiliated Public Institution (JASSO/MEXT)
+- Exclusive focus on Academic Progression (University/Graduate School)
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Guaranteed, Affordable Dormitory Accommodation
+- Dedicated Science/STEM Track (理科/Rika) Curriculum
+thumbnail: /static/img/pin-school.png
+title: JASSO 동경 일본어 교육 센터 (일본학생지원기구)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

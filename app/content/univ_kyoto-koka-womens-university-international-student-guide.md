@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-koka-womens-university-international-student-guide",
-  "title": "Kyoto Koka Women's University",
-  "category": "university",
-  "tags": [
-    "Shin Buddhist Educational Philosophy",
-    "Comprehensive Career Support for Women",
-    "Strong Focus on Healthcare and National Licenses",
-    "Prime Kyoto Location Near Arashiyama and Shijo"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都光華女子大学",
-    "name_en": "Kyoto Koka Women's University",
-    "address": "38 Kadono-cho, Nishikyogoku, Ukyo-ku, Kyoto 615-0882, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Health Science",
-    "Faculty of Psychology",
-    "Faculty of Children's Education",
-    "Faculty of Humanities"
-  ],
-  "features": [
-    "Shin Buddhist Educational Philosophy",
-    "Comprehensive Career Support for Women",
-    "Strong Focus on Healthcare and National Licenses",
-    "Prime Kyoto Location Near Arashiyama and Shijo"
-  ]
-}
+basic_info:
+  address: 38 Kadono-cho, Nishikyogoku, Ukyo-ku, Kyoto 615-0882, Japan
+  capacity: null
+  name_en: Kyoto Koka Women's University
+  name_ja: 京都光華女子大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Health Science
+- Faculty of Psychology
+- Faculty of Children's Education
+- Faculty of Humanities
+features:
+- Shin Buddhist Educational Philosophy
+- Comprehensive Career Support for Women
+- Strong Focus on Healthcare and National Licenses
+- Prime Kyoto Location Near Arashiyama and Shijo
+id: univ_kyoto-koka-womens-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 65
+tags:
+- Shin Buddhist Educational Philosophy
+- Comprehensive Career Support for Women
+- Strong Focus on Healthcare and National Licenses
+- Prime Kyoto Location Near Arashiyama and Shijo
+thumbnail: /static/img/pin-univ.png
+title: Kyoto Koka Women's University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 University Overview

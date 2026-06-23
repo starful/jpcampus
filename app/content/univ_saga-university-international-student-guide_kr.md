@@ -1,55 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_saga-university-international-student-guide",
-  "title": "사가대학교 외국인 유학생 가이드",
-  "category": "university",
-  "tags": [
-    "Unique Art and Regional Design Program",
-    "High-level Medical and Cancer Research",
-    "Saga University Program for Academic Exchange (SPACE)",
-    "Strong Ties with Regional Industry"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "佐賀大学",
-    "name_en": "Saga University",
-    "address": "1 Honjo-machi, Saga City, Saga Prefecture, 840-8502, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 284,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Art and Regional Design",
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Science and Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Medicine"
-  ],
-  "features": [
-    "독특한 예술 및 지역 디자인 프로그램",
-    "최고 수준의 의학 및 암 연구",
-    "사가 대학교 학술 교류 프로그램 (SPACE)",
-    "지역 산업과의 강력한 연계"
-  ],
-  "description": "일본 국립 사가대학교(Saga University)의 2026년 외국인 유학생 입학 정보, 학비, 장학금, 추천 학부 및 캠퍼스 생활을 담은 종합 유학 가이드입니다.",
-  "lang": "kr",
-  "seo_title": "[2026] 사가대학교 유학 가이드: 국립대 학비·입학·장학금 | JP Campus",
-  "seo_description": "일본 국립 사가대학교(Saga University)의 2026년 외국인 유학생 입학 가이드. 학비 감면, 장학금 혜택, 학부 정보 및 캠퍼스 생활을 확인해 보세요."
-}
+basic_info:
+  address: 1 Honjo-machi, Saga City, Saga Prefecture, 840-8502, Japan
+  capacity: null
+  name_en: Saga University
+  name_ja: 佐賀大学
+category: university
+date: '2026-06-12'
+description: 일본 국립 사가대학교(Saga University)의 2026년 외국인 유학생 입학 정보, 학비, 장학금, 추천 학부 및 캠퍼스
+  생활을 담은 종합 유학 가이드입니다.
+faculties:
+- Faculty of Art and Regional Design
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Science and Engineering
+- Faculty of Agriculture
+- Faculty of Medicine
+features:
+- 독특한 예술 및 지역 디자인 프로그램
+- 최고 수준의 의학 및 암 연구
+- 사가 대학교 학술 교류 프로그램 (SPACE)
+- 지역 산업과의 강력한 연계
+id: univ_saga-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 일본 국립 사가대학교(Saga University)의 2026년 외국인 유학생 입학 가이드. 학비 감면, 장학금 혜택,
+  학부 정보 및 캠퍼스 생활을 확인해 보세요.
+seo_title: '[2026] 사가대학교 유학 가이드: 국립대 학비·입학·장학금 | JP Campus'
+stats:
+  acceptance_rate: 25-35%
+  international_students: 284
+tags:
+- Unique Art and Regional Design Program
+- High-level Medical and Cancer Research
+- Saga University Program for Academic Exchange (SPACE)
+- Strong Ties with Regional Industry
+thumbnail: /static/img/pin-univ.png
+title: 사가대학교 외국인 유학생 가이드
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 대학교 개요: 규슈 지식의 관문
 

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kinjo-university-ishikawa-guide",
-  "title": "Kinjo University",
-  "category": "university",
-  "tags": [
-    "Top-tier National Exam Support",
-    "Professional Medical and Welfare Training",
-    "Located in the Scenic Ishikawa Prefecture",
-    "Strong Ties to Local Healthcare Providers"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金城大学",
-    "name_en": "Kinjo University",
-    "address": "1200 Kasama-machi, Hakusan-shi, Ishikawa 924-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "Faculty of Social Work",
-    "Faculty of Health Sciences",
-    "Faculty of Nursing",
-    "Junior College Division (Art, Child Education, Business)"
-  ],
-  "features": [
-    "Top-tier National Exam Support",
-    "Professional Medical and Welfare Training",
-    "Located in the Scenic Ishikawa Prefecture",
-    "Strong Ties to Local Healthcare Providers"
-  ]
-}
+basic_info:
+  address: 1200 Kasama-machi, Hakusan-shi, Ishikawa 924-8511, Japan
+  capacity: null
+  name_en: Kinjo University
+  name_ja: 金城大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Social Work
+- Faculty of Health Sciences
+- Faculty of Nursing
+- Junior College Division (Art, Child Education, Business)
+features:
+- Top-tier National Exam Support
+- Professional Medical and Welfare Training
+- Located in the Scenic Ishikawa Prefecture
+- Strong Ties to Local Healthcare Providers
+id: univ_kinjo-university-ishikawa-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 45
+tags:
+- Top-tier National Exam Support
+- Professional Medical and Welfare Training
+- Located in the Scenic Ishikawa Prefecture
+- Strong Ties to Local Healthcare Providers
+thumbnail: /static/img/pin-univ.png
+title: Kinjo University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 University Overview: The Heart of Welfare and Health in Ishikawa

@@ -1,55 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県静岡市葵区瀬名3-47-3",
-    "capacity": 180,
-    "name_en": "Shizuoka International School",
-    "name_ja": "静岡インターナショナルスクール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "大学進学1年半コース",
-      "total_fees": 1062000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1362000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "대학 입시 지원",
-    "회화 위주 일본어"
-  ],
-  "id": "school_shizuoka-international-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.0184789,
-    "lng": 138.4244595
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=278",
-  "stats": {
-    "capacity": 180,
-    "international_students": 0
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Admission Support",
-    "Conversational Japanese"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "시즈오카 인터내셔널 스쿨",
-  "translated": true,
-  "tuition": {},
-  "description": "시즈오카현 시즈오카시에 위치한 시즈오카 인터내셔널 스쿨은 일본 대학 진학을 목표로 하는 국제 학생들을 위한 학교입니다. EJU 시험 준비 및 대학 입시 지원에 특화된 커리큘럼을 제공합니다."
-}
+basic_info:
+  address: 静岡県静岡市葵区瀬名3-47-3
+  capacity: 180
+  name_en: Shizuoka International School
+  name_ja: 静岡インターナショナルスクール
+category: school
+courses:
+- admission_month: '10'
+  course_name: 大学進学1年半コース
+  total_fees: 1062000
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1362000
+date: '2026-01-28'
+description: 시즈오카현 시즈오카시에 위치한 시즈오카 인터내셔널 스쿨은 일본 대학 진학을 목표로 하는 국제 학생들을 위한 학교입니다. EJU
+  시험 준비 및 대학 입시 지원에 특화된 커리큘럼을 제공합니다.
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 대학 입시 지원
+- 회화 위주 일본어
+id: school_shizuoka-international-school
+lang: kr
+layout: school
+location:
+  lat: 35.0184789
+  lng: 138.4244595
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=278
+stats:
+  capacity: 180
+  international_students: 0
+tags:
+- Dormitory
+- EJU Preparation
+- University Admission Support
+- Conversational Japanese
+thumbnail: /static/img/pin-school.png
+title: 시즈오카 인터내셔널 스쿨
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

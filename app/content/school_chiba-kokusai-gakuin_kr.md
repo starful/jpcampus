@@ -1,64 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "千葉県柏市加賀3-18-12",
-    "capacity": 94,
-    "name_en": "Chiba International Academy",
-    "name_ja": "千葉国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1017500
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヵ月コース",
-      "total_fees": 1175250
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1333000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "집중적인 대학 입시 준비 (EJU/JLPT N1)",
-    "특화된 이공계 및 미술/디자인 과정",
-    "싱글룸 기숙사 제공",
-    "소규모 학교 환경 (정원 94명)으로 개인별 맞춤 지도",
-    "종합적인 장학금 및 재정 지원 프로그램",
-    "도쿄 근교, 저렴한 생활비 (가시와시 위치)"
-  ],
-  "id": "school_chiba-kokusai-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.8293615,
-    "lng": 139.9749549
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=81",
-  "stats": {
-    "capacity": 94,
-    "international_students": 85
-  },
-  "tags": [
-    "Focused University Entrance Preparation (EJU/JLPT N1)",
-    "Specialized Science and Art/Design Pathways",
-    "On-Campus Dormitory featuring Guaranteed Single Rooms",
-    "Small School Environment (Capacity: 94) Ensuring Personalized Attention",
-    "Comprehensive Scholarship and Financial Aid Programs",
-    "Proximity to Tokyo with Lower Living Costs (Located in Kashiwa)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "치바 국제학원 (Chiba Kokusai Gakuin)",
-  "translated": true,
-  "tuition": {},
-  "description": "치바현 가시와시에 위치한 치바 국제학원은 소규모 집중 환경에서 수준 높은 학업 준비를 원하는 유학생에게 매력적인 선택지입니다."
-}
+basic_info:
+  address: 千葉県柏市加賀3-18-12
+  capacity: 94
+  name_en: Chiba International Academy
+  name_ja: 千葉国際学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1017500
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1175250
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1333000
+date: '2026-01-28'
+description: 치바현 가시와시에 위치한 치바 국제학원은 소규모 집중 환경에서 수준 높은 학업 준비를 원하는 유학생에게 매력적인 선택지입니다.
+faculties: []
+features:
+- 집중적인 대학 입시 준비 (EJU/JLPT N1)
+- 특화된 이공계 및 미술/디자인 과정
+- 싱글룸 기숙사 제공
+- 소규모 학교 환경 (정원 94명)으로 개인별 맞춤 지도
+- 종합적인 장학금 및 재정 지원 프로그램
+- 도쿄 근교, 저렴한 생활비 (가시와시 위치)
+id: school_chiba-kokusai-gakuin
+lang: kr
+layout: school
+location:
+  lat: 35.8293615
+  lng: 139.9749549
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=81
+stats:
+  capacity: 94
+  international_students: 85
+tags:
+- Focused University Entrance Preparation (EJU/JLPT N1)
+- Specialized Science and Art/Design Pathways
+- On-Campus Dormitory featuring Guaranteed Single Rooms
+- 'Small School Environment (Capacity: 94) Ensuring Personalized Attention'
+- Comprehensive Scholarship and Financial Aid Programs
+- Proximity to Tokyo with Lower Living Costs (Located in Kashiwa)
+thumbnail: /static/img/pin-school.png
+title: 치바 국제학원 (Chiba Kokusai Gakuin)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

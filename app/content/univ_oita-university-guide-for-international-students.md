@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_oita-university-guide-for-international-students",
-  "title": "Oita University",
-  "category": "university",
-  "tags": [
-    "Specialized Regional Research Initiatives",
-    "Affordable Cost of Living in the 'Onsen Capital'",
-    "Strong Support System for International Students",
-    "Cutting-edge Medical and Engineering Synergy"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大分大学",
-    "name_en": "Oita University",
-    "address": "700 Dannoharu, Oita City, Oita Prefecture 870-1192, Japan",
-    "capacity": 5600
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Economics",
-    "Faculty of Medicine",
-    "Faculty of Science and Technology",
-    "Faculty of Welfare and Health Science"
-  ],
-  "features": [
-    "Specialized Regional Research Initiatives",
-    "Affordable Cost of Living in the 'Onsen Capital'",
-    "Strong Support System for International Students",
-    "Cutting-edge Medical and Engineering Synergy"
-  ]
-}
+basic_info:
+  address: 700 Dannoharu, Oita City, Oita Prefecture 870-1192, Japan
+  capacity: 5600
+  name_en: Oita University
+  name_ja: 大分大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Education
+- Faculty of Economics
+- Faculty of Medicine
+- Faculty of Science and Technology
+- Faculty of Welfare and Health Science
+features:
+- Specialized Regional Research Initiatives
+- Affordable Cost of Living in the 'Onsen Capital'
+- Strong Support System for International Students
+- Cutting-edge Medical and Engineering Synergy
+id: univ_oita-university-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 245
+tags:
+- Specialized Regional Research Initiatives
+- Affordable Cost of Living in the 'Onsen Capital'
+- Strong Support System for International Students
+- Cutting-edge Medical and Engineering Synergy
+thumbnail: /static/img/pin-univ.png
+title: Oita University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Gateway to Kyushu’s Academic Excellence

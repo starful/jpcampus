@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_konan-womens-university-guide-international-students",
-  "title": "고난여자대학교",
-  "category": "university",
-  "lang": "kr",
-  "tags": [
-    "무라노 도고의 아름다운 건축",
-    "여성을 위한 탁월한 취업 지원",
-    "간호학부 국가고시 높은 합격률",
-    "고베의 글로벌 교육 환경"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "甲南女子大学",
-    "name_en": "Konan Women's University",
-    "address": "6-2-23 Morikita-machi, Higashinada-ku, Kobe, Hyogo 658-0001, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 980000
-  },
-  "faculties": [
-    "문학부",
-    "인간과학부",
-    "간호리하빌리테이션학부",
-    "글로벌문화자유전공학부"
-  ],
-  "features": [
-    "무라노 도고가 설계한 아름다운 캠퍼스 건축물",
-    "여성을 위한 탁월한 취업 지원 프로그램",
-    "간호사 국가시험의 높은 합격률",
-    "고베를 거점으로 한 글로벌 시각의 교육"
-  ],
-  "description": "일본 고베의 아름다운 풍경 속에 위치한 고난여자대학교는 전통과 현대적 커리큘럼이 조화를 이룬 명문 여자대학교입니다. 무라노 도고의 건축 미학과 더불어 높은 취업률과 전문적인 교육 환경을 제공합니다."
-}
+basic_info:
+  address: 6-2-23 Morikita-machi, Higashinada-ku, Kobe, Hyogo 658-0001, Japan
+  capacity: null
+  name_en: Konan Women's University
+  name_ja: 甲南女子大学
+category: university
+date: '2026-03-15'
+description: 일본 고베의 아름다운 풍경 속에 위치한 고난여자대학교는 전통과 현대적 커리큘럼이 조화를 이룬 명문 여자대학교입니다. 무라노
+  도고의 건축 미학과 더불어 높은 취업률과 전문적인 교육 환경을 제공합니다.
+faculties:
+- 문학부
+- 인간과학부
+- 간호리하빌리테이션학부
+- 글로벌문화자유전공학부
+features:
+- 무라노 도고가 설계한 아름다운 캠퍼스 건축물
+- 여성을 위한 탁월한 취업 지원 프로그램
+- 간호사 국가시험의 높은 합격률
+- 고베를 거점으로 한 글로벌 시각의 교육
+id: univ_konan-womens-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 45
+tags:
+- 무라노 도고의 아름다운 건축
+- 여성을 위한 탁월한 취업 지원
+- 간호학부 국가고시 높은 합격률
+- 고베의 글로벌 교육 환경
+thumbnail: /static/img/pin-univ.png
+title: 고난여자대학교
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 980000
 ---
 
 ## 🏫 대학 개요: 고난여자대학교의 유산

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_future-university-hakodate-international-student-guide",
-  "title": "Future University Hakodate",
-  "category": "university",
-  "tags": [
-    "Innovative Project-Based Learning (PBL) curriculum",
-    "Award-winning open-space campus design",
-    "Strong focus on Human-Computer Interaction and AI",
-    "High employment rate in major Japanese tech firms"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "公立はこだて未来大学",
-    "name_en": "Future University Hakodate",
-    "address": "116-2 Kamedanakano-cho, Hakodate, Hokkaido 041-8655, Japan",
-    "capacity": 1100
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "25-30% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Systems Information Science",
-    "Department of Media Architecture",
-    "Department of Complex and Intelligent Systems",
-    "Graduate School of Systems Information Science"
-  ],
-  "features": [
-    "Innovative Project-Based Learning (PBL) curriculum",
-    "Award-winning open-space campus design",
-    "Strong focus on Human-Computer Interaction and AI",
-    "High employment rate in major Japanese tech firms"
-  ]
-}
+basic_info:
+  address: 116-2 Kamedanakano-cho, Hakodate, Hokkaido 041-8655, Japan
+  capacity: 1100
+  name_en: Future University Hakodate
+  name_ja: 公立はこだて未来大学
+category: university
+date: '2026-02-13'
+faculties:
+- School of Systems Information Science
+- Department of Media Architecture
+- Department of Complex and Intelligent Systems
+- Graduate School of Systems Information Science
+features:
+- Innovative Project-Based Learning (PBL) curriculum
+- Award-winning open-space campus design
+- Strong focus on Human-Computer Interaction and AI
+- High employment rate in major Japanese tech firms
+id: univ_future-university-hakodate-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30% (Estimated)
+  international_students: 25
+tags:
+- Innovative Project-Based Learning (PBL) curriculum
+- Award-winning open-space campus design
+- Strong focus on Human-Computer Interaction and AI
+- High employment rate in major Japanese tech firms
+thumbnail: /static/img/pin-univ.png
+title: Future University Hakodate
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Future of Information Science

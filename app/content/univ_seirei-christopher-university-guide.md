@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seirei-christopher-university-guide",
-  "title": "Seirei Christopher University",
-  "category": "university",
-  "tags": [
-    "Neighborly Love Christian Philosophy",
-    "Highest National Licensing Pass Rates",
-    "On-site Hospital Integration",
-    "Specialized Healthcare Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "聖隷クリストファー大学",
-    "name_en": "Seirei Christopher University",
-    "address": "3453 Mikatagahara-cho, Chuo-ku, Hamamatsu, Shizuoka 433-8558, Japan",
-    "capacity": "2,050"
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1550000
-  },
-  "faculties": [
-    "School of Nursing",
-    "School of Rehabilitation",
-    "School of Social Work"
-  ],
-  "features": [
-    "Neighborly Love Christian Philosophy",
-    "Highest National Licensing Pass Rates",
-    "On-site Hospital Integration",
-    "Specialized Healthcare Focus"
-  ]
-}
+basic_info:
+  address: 3453 Mikatagahara-cho, Chuo-ku, Hamamatsu, Shizuoka 433-8558, Japan
+  capacity: 2,050
+  name_en: Seirei Christopher University
+  name_ja: 聖隷クリストファー大学
+category: university
+date: '2026-04-04'
+faculties:
+- School of Nursing
+- School of Rehabilitation
+- School of Social Work
+features:
+- Neighborly Love Christian Philosophy
+- Highest National Licensing Pass Rates
+- On-site Hospital Integration
+- Specialized Healthcare Focus
+id: univ_seirei-christopher-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 35
+tags:
+- Neighborly Love Christian Philosophy
+- Highest National Licensing Pass Rates
+- On-site Hospital Integration
+- Specialized Healthcare Focus
+thumbnail: /static/img/pin-univ.png
+title: Seirei Christopher University
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1550000
 ---
 
 ## 🏫 University Overview

@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-shudo-university-comprehensive-guide",
-  "title": "Hiroshima Shudo University",
-  "category": "university",
-  "tags": [
-    "Premier private university in the Chugoku/Shikoku region",
-    "Historic roots dating back to the 1725 Kogakkan",
-    "Strong local industry networking and high job placement rate",
-    "Comprehensive tuition reduction and scholarship system for international students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島修道大学",
-    "name_en": "Hiroshima Shudo University",
-    "address": "1-1-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3195, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 158,
-    "acceptance_rate": "45-55% (International Category)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 880000
-  },
-  "faculties": [
-    "Faculty of Commercial Sciences",
-    "Faculty of Humanities and Human Sciences",
-    "Faculty of Law",
-    "Faculty of Economic Sciences",
-    "Faculty of Human Environmental Studies",
-    "Faculty of Health Sciences",
-    "Faculty of International Studies"
-  ],
-  "features": [
-    "Premier private university in the Chugoku/Shikoku region",
-    "Historic roots dating back to the 1725 Kogakkan",
-    "Strong local industry networking and high job placement rate",
-    "Comprehensive tuition reduction and scholarship system for international students"
-  ]
-}
+basic_info:
+  address: 1-1-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3195, Japan
+  capacity: null
+  name_en: Hiroshima Shudo University
+  name_ja: 広島修道大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Commercial Sciences
+- Faculty of Humanities and Human Sciences
+- Faculty of Law
+- Faculty of Economic Sciences
+- Faculty of Human Environmental Studies
+- Faculty of Health Sciences
+- Faculty of International Studies
+features:
+- Premier private university in the Chugoku/Shikoku region
+- Historic roots dating back to the 1725 Kogakkan
+- Strong local industry networking and high job placement rate
+- Comprehensive tuition reduction and scholarship system for international students
+id: univ_hiroshima-shudo-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (International Category)
+  international_students: 158
+tags:
+- Premier private university in the Chugoku/Shikoku region
+- Historic roots dating back to the 1725 Kogakkan
+- Strong local industry networking and high job placement rate
+- Comprehensive tuition reduction and scholarship system for international students
+thumbnail: /static/img/pin-univ.png
+title: Hiroshima Shudo University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 880000
 ---
 
 ## 🏫 University Overview

@@ -1,65 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "5-28-4 Arai, Nakano-ku, Tokyo, 165-0026, Japan",
-    "capacity": 222,
-    "name_en": "TCC Japanese Language School",
-    "name_ja": "ＴＣＣ日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Preparation Course (2 Years)",
-      "total_fees": 1228000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "University Preparation Course (1 Year 9 Months)",
-      "total_fees": 1089250
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Preparation Course (1.5 Years)",
-      "total_fees": 950500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "University Preparation Course (1 Year 3 Months)",
-      "total_fees": 811750
-    }
-  ],
-  "description": "도쿄 나카노에 위치한 TCC 일본어학교는 대학 진학 준비 과정만을 전문적으로 제공합니다. 철저한 학업 지도, 이과/STEM 트랙을 포함한 일본유학시험(EJU) 종합 대비, 그리고 일본에서 고등 교육을 희망하는 유학생을 위한 필수적인 지원을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학",
-    "기숙사 이용 가능",
-    "EJU 대비",
-    "이과/STEM 트랙"
-  ],
-  "id": "school_tcc-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7161971,
-    "lng": 139.6705098
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=185",
-  "stats": {
-    "capacity": 222,
-    "international_students": 222
-  },
-  "tags": [
-    "University Advancement",
-    "Dormitory Available",
-    "EJU Preparation",
-    "Science/STEM Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "TCC 일본어학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 5-28-4 Arai, Nakano-ku, Tokyo, 165-0026, Japan
+  capacity: 222
+  name_en: TCC Japanese Language School
+  name_ja: ＴＣＣ日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Preparation Course (2 Years)
+  total_fees: 1228000
+- admission_month: '7'
+  course_name: University Preparation Course (1 Year 9 Months)
+  total_fees: 1089250
+- admission_month: '10'
+  course_name: University Preparation Course (1.5 Years)
+  total_fees: 950500
+- admission_month: '1'
+  course_name: University Preparation Course (1 Year 3 Months)
+  total_fees: 811750
+date: '2026-01-28'
+description: 도쿄 나카노에 위치한 TCC 일본어학교는 대학 진학 준비 과정만을 전문적으로 제공합니다. 철저한 학업 지도, 이과/STEM
+  트랙을 포함한 일본유학시험(EJU) 종합 대비, 그리고 일본에서 고등 교육을 희망하는 유학생을 위한 필수적인 지원을 제공합니다.
+faculties: []
+features:
+- 대학 진학
+- 기숙사 이용 가능
+- EJU 대비
+- 이과/STEM 트랙
+id: school_tcc-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.7161971
+  lng: 139.6705098
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=185
+stats:
+  capacity: 222
+  international_students: 222
+tags:
+- University Advancement
+- Dormitory Available
+- EJU Preparation
+- Science/STEM Track
+thumbnail: /static/img/pin-school.png
+title: TCC 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

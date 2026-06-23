@@ -1,60 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "〒565-0871 大阪府吹田市山田丘1-1",
-    "name_en": "Osaka University",
-    "name_ja": "大阪大学",
-    "website": "https://www.osaka-u.ac.jp/en"
-  },
-  "category": "university",
-  "faculties": [
-    "Letters",
-    "Human Sciences",
-    "Foreign Studies",
-    "Law",
-    "Economics",
-    "Science",
-    "Medicine",
-    "Dentistry",
-    "Pharmaceutical Sciences",
-    "Engineering",
-    "Engineering Science",
-    "Agriculture"
-  ],
-  "features": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "id": "univ_osaka-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.8171478,
-    "lng": 135.5227115
-  },
-  "stats": {
-    "acceptance_rate": "15%",
-    "international_students": 3000
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "오사카 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "일본 오사카에 위치한 명문 국립 종합대학교, 오사카 대학교에 대해 알아보세요. 학부, 학비, 국제학생 지원 정보 등을 제공합니다."
-}
+basic_info:
+  address: 〒565-0871 大阪府吹田市山田丘1-1
+  name_en: Osaka University
+  name_ja: 大阪大学
+  website: https://www.osaka-u.ac.jp/en
+category: university
+date: '2026-01-28'
+description: 일본 오사카에 위치한 명문 국립 종합대학교, 오사카 대학교에 대해 알아보세요. 학부, 학비, 국제학생 지원 정보 등을 제공합니다.
+faculties:
+- Letters
+- Human Sciences
+- Foreign Studies
+- Law
+- Economics
+- Science
+- Medicine
+- Dentistry
+- Pharmaceutical Sciences
+- Engineering
+- Engineering Science
+- Agriculture
+features:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+id: univ_osaka-university
+lang: kr
+layout: school
+location:
+  lat: 34.8171478
+  lng: 135.5227115
+stats:
+  acceptance_rate: 15%
+  international_students: 3000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 오사카 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학 개요

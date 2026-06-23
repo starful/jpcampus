@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1296000
+date: '2026-01-28'
 faculties: []
 features:
 - High-Level University and Vocational School Preparation (進学 Focus)

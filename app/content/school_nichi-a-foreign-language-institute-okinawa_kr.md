@@ -1,60 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "沖縄県那覇市松川1-1-1",
-    "capacity": 240,
-    "name_en": "Nichi-A Foreign Language Institute",
-    "name_ja": "日亜外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学コースＡ　1年コース",
-      "total_fees": 896500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コースＢ　1年半コース",
-      "total_fees": 1204000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学コースＣ　2年コース",
-      "total_fees": 1433000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "오키나와 나하에 위치 (아열대 기후)",
-    "대학 및 대학원 진학에 강력한 집중 (EJU 대비)",
-    "특화된 트랙 (이학, 미술 & 디자인, 비즈니스 일본어)",
-    "싱글룸을 포함한 다양한 기숙사 옵션",
-    "풍부한 장학금 기회",
-    "단기/회화 코스 이용 가능"
-  ],
-  "id": "school_nichi-a-foreign-language-institute-okinawa",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 26.214808,
-    "lng": 127.7002349
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=456",
-  "stats": {},
-  "tags": [
-    "Located in Naha, Okinawa (Subtropical Environment)",
-    "Strong University & Graduate School Progression Focus (EJU Prep)",
-    "Specialized Tracks (Science, Art & Design, Business Japanese)",
-    "Comprehensive Dormitory Options, Including Single Rooms",
-    "Generous Scholarship Opportunities",
-    "Short-Term/Conversation Courses Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Nichi-A 외국어 학원",
-  "description": "오키나와 나하에 위치한 Nichi-A 외국어 학원은 대학 및 대학원 진학을 위한 집중적인 일본어 교육을 제공합니다. 다양한 코스와 장학금, 편리한 기숙사를 확인하세요.",
-  "tuition": {}
-}
+basic_info:
+  address: 沖縄県那覇市松川1-1-1
+  capacity: 240
+  name_en: Nichi-A Foreign Language Institute
+  name_ja: 日亜外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コースＡ　1年コース
+  total_fees: 896500
+- admission_month: '10'
+  course_name: 進学コースＢ　1年半コース
+  total_fees: 1204000
+- admission_month: '4'
+  course_name: 進学コースＣ　2年コース
+  total_fees: 1433000
+date: '2026-01-28'
+description: 오키나와 나하에 위치한 Nichi-A 외국어 학원은 대학 및 대학원 진학을 위한 집중적인 일본어 교육을 제공합니다. 다양한
+  코스와 장학금, 편리한 기숙사를 확인하세요.
+faculties: []
+features:
+- 오키나와 나하에 위치 (아열대 기후)
+- 대학 및 대학원 진학에 강력한 집중 (EJU 대비)
+- 특화된 트랙 (이학, 미술 & 디자인, 비즈니스 일본어)
+- 싱글룸을 포함한 다양한 기숙사 옵션
+- 풍부한 장학금 기회
+- 단기/회화 코스 이용 가능
+id: school_nichi-a-foreign-language-institute-okinawa
+lang: kr
+layout: school
+location:
+  lat: 26.214808
+  lng: 127.7002349
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=456
+stats: {}
+tags:
+- Located in Naha, Okinawa (Subtropical Environment)
+- Strong University & Graduate School Progression Focus (EJU Prep)
+- Specialized Tracks (Science, Art & Design, Business Japanese)
+- Comprehensive Dormitory Options, Including Single Rooms
+- Generous Scholarship Opportunities
+- Short-Term/Conversation Courses Available
+thumbnail: /static/img/pin-school.png
+title: Nichi-A 외국어 학원
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

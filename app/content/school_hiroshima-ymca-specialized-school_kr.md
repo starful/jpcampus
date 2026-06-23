@@ -1,62 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県広島市中区八丁堀7-11",
-    "capacity": 300,
-    "name_en": "Hiroshima YMCA College",
-    "name_ja": "広島ＹＭＣＡ専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "1년 코스",
-      "total_fees": 757500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1년 6개월 코스",
-      "total_fees": 1074000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "2년 코스",
-      "total_fees": 1390000
-    }
-  ],
-  "description": "히로시마 YMCA 전문학교는 대학 진학 준비, EJU 시험 준비, 회화 능력 향상에 중점을 둔 종합적인 일본어 프로그램을 제공합니다. 기숙사 이용이 가능합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 시험 준비",
-    "회화 중심 일본어",
-    "기숙사 이용 가능",
-    "과학 집중 과정"
-  ],
-  "id": "school_hiroshima-ymca-specialized-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.3961859,
-    "lng": 132.4620773
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=394",
-  "stats": {
-    "capacity": 300,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Conversational Japanese",
-    "Dormitory Available",
-    "Science Focus"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "히로시마 YMCA 전문학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 広島県広島市中区八丁堀7-11
+  capacity: 300
+  name_en: Hiroshima YMCA College
+  name_ja: 広島ＹＭＣＡ専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 1년 코스
+  total_fees: 757500
+- admission_month: '10'
+  course_name: 1년 6개월 코스
+  total_fees: 1074000
+- admission_month: '4'
+  course_name: 2년 코스
+  total_fees: 1390000
+date: '2026-01-28'
+description: 히로시마 YMCA 전문학교는 대학 진학 준비, EJU 시험 준비, 회화 능력 향상에 중점을 둔 종합적인 일본어 프로그램을 제공합니다.
+  기숙사 이용이 가능합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 시험 준비
+- 회화 중심 일본어
+- 기숙사 이용 가능
+- 과학 집중 과정
+id: school_hiroshima-ymca-specialized-school
+lang: kr
+layout: school
+location:
+  lat: 34.3961859
+  lng: 132.4620773
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=394
+stats:
+  capacity: 300
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Conversational Japanese
+- Dormitory Available
+- Science Focus
+thumbnail: /static/img/pin-school.png
+title: 히로시마 YMCA 전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

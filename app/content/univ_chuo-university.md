@@ -5,6 +5,7 @@ basic_info:
   name_ja: 中央大学
   website: https://www.chuo-u.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Law
 - Faculty of Economics

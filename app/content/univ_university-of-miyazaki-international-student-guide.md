@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-miyazaki-international-student-guide",
-  "title": "University of Miyazaki",
-  "category": "university",
-  "tags": [
-    "Global leader in Agricultural and Life Sciences research",
-    "Interdisciplinary 'Regional Innovation' programs",
-    "Subtropical climate with affordable cost of living",
-    "Comprehensive support for international student employment"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宮崎大学",
-    "name_en": "University of Miyazaki",
-    "address": "1-1 Gakuen Kibanadai-nishi, Miyazaki City, Miyazaki Prefecture, 889-2192, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 240,
-    "acceptance_rate": "25-35% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Regional Innovation"
-  ],
-  "features": [
-    "Global leader in Agricultural and Life Sciences research",
-    "Interdisciplinary 'Regional Innovation' programs",
-    "Subtropical climate with affordable cost of living",
-    "Comprehensive support for international student employment"
-  ]
-}
+basic_info:
+  address: 1-1 Gakuen Kibanadai-nishi, Miyazaki City, Miyazaki Prefecture, 889-2192,
+    Japan
+  capacity: null
+  name_en: University of Miyazaki
+  name_ja: 宮崎大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Education
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Regional Innovation
+features:
+- Global leader in Agricultural and Life Sciences research
+- Interdisciplinary 'Regional Innovation' programs
+- Subtropical climate with affordable cost of living
+- Comprehensive support for international student employment
+id: univ_university-of-miyazaki-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (Estimated)
+  international_students: 240
+tags:
+- Global leader in Agricultural and Life Sciences research
+- Interdisciplinary 'Regional Innovation' programs
+- Subtropical climate with affordable cost of living
+- Comprehensive support for international student employment
+thumbnail: /static/img/pin-univ.png
+title: University of Miyazaki
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Sunshine Gateway to Academic Excellence

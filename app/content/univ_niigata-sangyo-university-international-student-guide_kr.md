@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_niigata-sangyo-university-international-student-guide",
-  "title": "니가타 산업대학교 (Niigata Sangyo University)",
-  "description": "니가타현 가시와자키시에 위치한 경제학 특화 대학으로, 압도적으로 높은 외국인 유학생 비율과 저렴한 생활비, 그리고 지역 사회와 연계된 강력한 취업 지원을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "Exceptionally high international student ratio",
-    "Strong local community and industry ties",
-    "Affordable rural living costs",
-    "Specialized support for JLPT and career placement"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟産業大学",
-    "name_en": "Niigata Sangyo University",
-    "address": "4730 Karuishi, Kashiwazaki-shi, Niigata 945-1393, Japan",
-    "capacity": 840
-  },
-  "stats": {
-    "international_students": 420,
-    "acceptance_rate": "75-85% (International Stream)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 710000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Department of Economics and Business Administration",
-    "Department of Cultural Economy"
-  ],
-  "features": [
-    "압도적으로 높은 외국인 유학생 비율",
-    "강력한 지역 사회 및 산업체와의 네트워크",
-    "합리적이고 저렴한 지방 생활비",
-    "JLPT 및 취업 지원 전문 프로그램 운영"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4730 Karuishi, Kashiwazaki-shi, Niigata 945-1393, Japan
+  capacity: 840
+  name_en: Niigata Sangyo University
+  name_ja: 新潟産業大学
+category: university
+date: '2026-03-24'
+description: 니가타현 가시와자키시에 위치한 경제학 특화 대학으로, 압도적으로 높은 외국인 유학생 비율과 저렴한 생활비, 그리고 지역 사회와
+  연계된 강력한 취업 지원을 제공합니다.
+faculties:
+- Faculty of Economics
+- Department of Economics and Business Administration
+- Department of Cultural Economy
+features:
+- 압도적으로 높은 외국인 유학생 비율
+- 강력한 지역 사회 및 산업체와의 네트워크
+- 합리적이고 저렴한 지방 생활비
+- JLPT 및 취업 지원 전문 프로그램 운영
+id: univ_niigata-sangyo-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-85% (International Stream)
+  international_students: 420
+tags:
+- Exceptionally high international student ratio
+- Strong local community and industry ties
+- Affordable rural living costs
+- Specialized support for JLPT and career placement
+thumbnail: /static/img/pin-univ.png
+title: 니가타 산업대학교 (Niigata Sangyo University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 710000
 ---
 
 ## 🏫 대학 개요: 지역 활성화의 관문

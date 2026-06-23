@@ -1,53 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "3-5-8 Saiwai-cho, Fuchu, Tokyo 183-8509, Japan",
-    "capacity": null,
-    "name_en": "Tokyo University of Agriculture and Technology (TUAT)",
-    "name_ja": "東京農工大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Agriculture",
-    "Faculty of Engineering",
-    "Graduate School of Agriculture (Master's and Doctoral Programs)",
-    "Graduate School of Engineering (Master's and Doctoral Programs)",
-    "Graduate School of Technology Management (MOT)",
-    "United Graduate School of Agricultural Science"
-  ],
-  "features": [
-    "농업 기술 분야의 선도적인 특화 국립 대학",
-    "학생 당 뛰어난 연구 성과",
-    "강력한 산학 협력 (모노즈쿠리)",
-    "학부 일본어 프로그램에 EJU 필요",
-    "영어 프로그램 이용 가능 (주로 대학원 과정)"
-  ],
-  "id": "univ_tokyo-university-of-agriculture-and-technology-tuat",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "35% (매우 경쟁률 높음)",
-    "international_students": 550
-  },
-  "tags": [
-    "Leading Specialized National University in Agri-Tech",
-    "Exceptional Research Output per Student",
-    "Strong Industry-Academia Collaboration (Monozukuri)",
-    "EJU Required for Undergraduate Japanese Programs",
-    "English Program Availability (Primarily Graduate Level)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "도쿄 농공 대학 (TUAT)",
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "도쿄 농공 대학(TUAT)은 농업 및 공학 분야에 특화된 일본의 명문 국립 대학입니다. 뛰어난 연구 성과와 산학 협력으로 유명하며, 국제 학생들을 위한 다양한 지원 프로그램을 제공합니다."
-}
+basic_info:
+  address: 3-5-8 Saiwai-cho, Fuchu, Tokyo 183-8509, Japan
+  capacity: null
+  name_en: Tokyo University of Agriculture and Technology (TUAT)
+  name_ja: 東京農工大学
+category: university
+date: '2026-01-28'
+description: 도쿄 농공 대학(TUAT)은 농업 및 공학 분야에 특화된 일본의 명문 국립 대학입니다. 뛰어난 연구 성과와 산학 협력으로 유명하며,
+  국제 학생들을 위한 다양한 지원 프로그램을 제공합니다.
+faculties:
+- Faculty of Agriculture
+- Faculty of Engineering
+- Graduate School of Agriculture (Master's and Doctoral Programs)
+- Graduate School of Engineering (Master's and Doctoral Programs)
+- Graduate School of Technology Management (MOT)
+- United Graduate School of Agricultural Science
+features:
+- 농업 기술 분야의 선도적인 특화 국립 대학
+- 학생 당 뛰어난 연구 성과
+- 강력한 산학 협력 (모노즈쿠리)
+- 학부 일본어 프로그램에 EJU 필요
+- 영어 프로그램 이용 가능 (주로 대학원 과정)
+id: univ_tokyo-university-of-agriculture-and-technology-tuat
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35% (매우 경쟁률 높음)
+  international_students: 550
+tags:
+- Leading Specialized National University in Agri-Tech
+- Exceptional Research Output per Student
+- Strong Industry-Academia Collaboration (Monozukuri)
+- EJU Required for Undergraduate Japanese Programs
+- English Program Availability (Primarily Graduate Level)
+thumbnail: /static/img/pin-univ.png
+title: 도쿄 농공 대학 (TUAT)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

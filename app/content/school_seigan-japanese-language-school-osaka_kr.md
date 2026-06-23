@@ -1,57 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市住吉区長居3-2-9",
-    "capacity": 150,
-    "name_en": "Seigan Japanese Language School",
-    "name_ja": "せいがん日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "日本語総合2年コース",
-      "total_fees": 1460000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語総合1.5年コース",
-      "total_fees": 1115000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 제공",
-    "EJU 및 JLPT 집중 준비 과정",
-    "대학 및 대학원 진학에 높은 집중",
-    "회화 능력 (Kaiwa)을 강조하는 균형 잡힌 커리큘럼",
-    "단기 학습 옵션 제공"
-  ],
-  "id": "school_seigan-japanese-language-school-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6114007,
-    "lng": 135.5122697
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=605",
-  "stats": {
-    "capacity": 150,
-    "international_students": null
-  },
-  "tags": [
-    "Dormitory Accommodation Provided",
-    "Dedicated EJU and JLPT Preparation Tracks",
-    "High Focus on University and Graduate School Progression",
-    "Balanced Curriculum Emphasizing Conversational Fluency (Kaiwa)",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "세이간 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "오사카 스미요시구에 위치한 세이간 일본어 학교는 일본 고등 교육 진학을 위한 국제 학생들을 위한 교육 기관입니다."
-}
+basic_info:
+  address: 大阪府大阪市住吉区長居3-2-9
+  capacity: 150
+  name_en: Seigan Japanese Language School
+  name_ja: せいがん日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 日本語総合2年コース
+  total_fees: 1460000
+- admission_month: '4'
+  course_name: 日本語総合1.5年コース
+  total_fees: 1115000
+date: '2026-01-28'
+description: 오사카 스미요시구에 위치한 세이간 일본어 학교는 일본 고등 교육 진학을 위한 국제 학생들을 위한 교육 기관입니다.
+faculties: []
+features:
+- 기숙사 제공
+- EJU 및 JLPT 집중 준비 과정
+- 대학 및 대학원 진학에 높은 집중
+- 회화 능력 (Kaiwa)을 강조하는 균형 잡힌 커리큘럼
+- 단기 학습 옵션 제공
+id: school_seigan-japanese-language-school-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.6114007
+  lng: 135.5122697
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=605
+stats:
+  capacity: 150
+  international_students: null
+tags:
+- Dormitory Accommodation Provided
+- Dedicated EJU and JLPT Preparation Tracks
+- High Focus on University and Graduate School Progression
+- Balanced Curriculum Emphasizing Conversational Fluency (Kaiwa)
+- Flexible Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: 세이간 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_showa-womens-university-complete-guide-for-international-students",
-  "title": "쇼와 여자 대학교 (Showa Women's University)",
-  "category": "university",
-  "tags": [
-    "템플 대학교 일본 캠퍼스(TUJ)와 공동 캠퍼스 운영",
-    "일본 여자 대학교 취업률 1위",
-    "쇼와 보스턴에서 의무 또는 적극 권장되는 해외 유학 프로그램",
-    "활기 넘치는 도쿄의 산겐자야 지역에 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "昭和女子大学",
-    "name_en": "Showa Women's University",
-    "address": "1-7-57 Taishido, Setagaya-ku, Tokyo 154-8533, Japan",
-    "capacity": "학부 및 대학원생 약 6,000명"
-  },
-  "stats": {
-    "international_students": 285,
-    "acceptance_rate": "국제 학생 지원자의 경우 약 45-55%로 추정"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "국제학부",
-    "인문문화학부",
-    "비즈니스디자인학부",
-    "글로벌비즈니스학부",
-    "환경과학디자인학부",
-    "건강과학부"
-  ],
-  "features": [
-    "템플 대학교 일본 캠퍼스(TUJ)와 공동 캠퍼스 운영",
-    "일본 여자 대학교 취업률 1위",
-    "쇼와 보스턴에서 의무 또는 적극 권장되는 해외 유학 프로그램",
-    "활기 넘치는 도쿄의 산겐자야 지역에 위치"
-  ],
-  "description": "도쿄에 위치한 쇼와 여자 대학교에 대한 완벽한 가이드입니다. 국제 학생들을 위한 입학 정보, 학부 프로그램, 캠퍼스 생활 등을 자세히 알아보세요.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-7-57 Taishido, Setagaya-ku, Tokyo 154-8533, Japan
+  capacity: 학부 및 대학원생 약 6,000명
+  name_en: Showa Women's University
+  name_ja: 昭和女子大学
+category: university
+date: '2026-02-13'
+description: 도쿄에 위치한 쇼와 여자 대학교에 대한 완벽한 가이드입니다. 국제 학생들을 위한 입학 정보, 학부 프로그램, 캠퍼스 생활 등을
+  자세히 알아보세요.
+faculties:
+- 국제학부
+- 인문문화학부
+- 비즈니스디자인학부
+- 글로벌비즈니스학부
+- 환경과학디자인학부
+- 건강과학부
+features:
+- 템플 대학교 일본 캠퍼스(TUJ)와 공동 캠퍼스 운영
+- 일본 여자 대학교 취업률 1위
+- 쇼와 보스턴에서 의무 또는 적극 권장되는 해외 유학 프로그램
+- 활기 넘치는 도쿄의 산겐자야 지역에 위치
+id: univ_showa-womens-university-complete-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 국제 학생 지원자의 경우 약 45-55%로 추정
+  international_students: 285
+tags:
+- 템플 대학교 일본 캠퍼스(TUJ)와 공동 캠퍼스 운영
+- 일본 여자 대학교 취업률 1위
+- 쇼와 보스턴에서 의무 또는 적극 권장되는 해외 유학 프로그램
+- 활기 넘치는 도쿄의 산겐자야 지역에 위치
+thumbnail: /static/img/pin-univ.png
+title: 쇼와 여자 대학교 (Showa Women's University)
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학교 개요: 도쿄 여자 교육의 정점

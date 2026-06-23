@@ -1,62 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都中野区南台3-26-13",
-    "capacity": 160,
-    "name_en": "Kokusai Jinbun Foreign Language Academy",
-    "name_ja": "国際人文外国語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "大学進学2年コース",
-      "total_fees": 1521000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "大学進学1年9か月ｺｰｽ",
-      "total_fees": 1352750
-    },
-    {
-      "admission_month": "10",
-      "course_name": "大学進学1.5年コース",
-      "total_fees": 1169500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "大学進学1.3年ｺｰｽ",
-      "total_fees": 1001250
-    }
-  ],
-  "description": "국제인문외국어학원은 일본의 경쟁적인 고등 교육 시스템으로 진학하려는 유학생을 위한 철저한 학업 적응에 중점을 둔 예비 교육 기관입니다. 도쿄 나카노에 위치한 이 학원은 전문적인 EJU 훈련과 종합적인 지원을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 집중 과정",
-    "EJU 전문 훈련",
-    "캠퍼스 내 또는 제휴 기숙사 이용 가능",
-    "도쿄 나카노의 학술 중심지에 위치"
-  ],
-  "id": "school_kokusai-jinbun-foreign-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6854237,
-    "lng": 139.6655276
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=584",
-  "stats": {},
-  "tags": [
-    "University Preparation Focus",
-    "EJU Specialized Training",
-    "On-Campus or Affiliated Dormitory Available",
-    "Located in Academic Hub of Nakano, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "국제인문외국어학원",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都中野区南台3-26-13
+  capacity: 160
+  name_en: Kokusai Jinbun Foreign Language Academy
+  name_ja: 国際人文外国語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 大学進学2年コース
+  total_fees: 1521000
+- admission_month: '7'
+  course_name: 大学進学1年9か月ｺｰｽ
+  total_fees: 1352750
+- admission_month: '10'
+  course_name: 大学進学1.5年コース
+  total_fees: 1169500
+- admission_month: '1'
+  course_name: 大学進学1.3年ｺｰｽ
+  total_fees: 1001250
+date: '2026-01-28'
+description: 국제인문외국어학원은 일본의 경쟁적인 고등 교육 시스템으로 진학하려는 유학생을 위한 철저한 학업 적응에 중점을 둔 예비 교육
+  기관입니다. 도쿄 나카노에 위치한 이 학원은 전문적인 EJU 훈련과 종합적인 지원을 제공합니다.
+faculties: []
+features:
+- 대학 진학 집중 과정
+- EJU 전문 훈련
+- 캠퍼스 내 또는 제휴 기숙사 이용 가능
+- 도쿄 나카노의 학술 중심지에 위치
+id: school_kokusai-jinbun-foreign-language-academy
+lang: kr
+layout: school
+location:
+  lat: 35.6854237
+  lng: 139.6655276
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=584
+stats: {}
+tags:
+- University Preparation Focus
+- EJU Specialized Training
+- On-Campus or Affiliated Dormitory Available
+- Located in Academic Hub of Nakano, Tokyo
+thumbnail: /static/img/pin-school.png
+title: 국제인문외국어학원
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

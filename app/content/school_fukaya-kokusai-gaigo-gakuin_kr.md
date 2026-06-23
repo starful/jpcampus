@@ -1,65 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県深谷市稲荷町1-17-16",
-    "capacity": 100,
-    "name_en": "Fukaya Kokusai Gaigo Gakuin (Fukaya International Language School)",
-    "name_ja": "深谷国際外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1340000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1030000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "캠퍼스 내/제휴 기숙사",
-    "EJU 시험 준비 집중",
-    "종합적인 고등 교육 진학",
-    "비즈니스 일본어 및 커리어 트랙",
-    "다양한 장학금 기회",
-    "1인실 기숙사 옵션 이용 가능",
-    "특화된 이공계 트랙 준비",
-    "강력한 회화 능력 집중",
-    "미술 디자인 입시 준비",
-    "단기 어학 연수 프로그램"
-  ],
-  "id": "school_fukaya-kokusai-gaigo-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.1943848,
-    "lng": 139.2924845
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=556",
-  "stats": {
-    "capacity": 100,
-    "international_students": 90
-  },
-  "tags": [
-    "On-Campus/Affiliated Dormitory",
-    "EJU Preparation Focus",
-    "Comprehensive Higher Education Progression",
-    "Business Japanese and Career Tracks",
-    "Robust Scholarship Opportunities",
-    "Single Room Dormitory Options Available",
-    "Specialized Science Track Preparation (Rikei)",
-    "Strong Conversational Skills Focus",
-    "Art and Design Entrance Exam Preparation",
-    "Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "후카야 국제외어학원 (Fukaya International Language School)",
-  "tuition": {}
-}
+basic_info:
+  address: 埼玉県深谷市稲荷町1-17-16
+  capacity: 100
+  name_en: Fukaya Kokusai Gaigo Gakuin (Fukaya International Language School)
+  name_ja: 深谷国際外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1340000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1030000
+date: '2026-01-28'
+faculties: []
+features:
+- 캠퍼스 내/제휴 기숙사
+- EJU 시험 준비 집중
+- 종합적인 고등 교육 진학
+- 비즈니스 일본어 및 커리어 트랙
+- 다양한 장학금 기회
+- 1인실 기숙사 옵션 이용 가능
+- 특화된 이공계 트랙 준비
+- 강력한 회화 능력 집중
+- 미술 디자인 입시 준비
+- 단기 어학 연수 프로그램
+id: school_fukaya-kokusai-gaigo-gakuin
+lang: kr
+layout: school
+location:
+  lat: 36.1943848
+  lng: 139.2924845
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=556
+stats:
+  capacity: 100
+  international_students: 90
+tags:
+- On-Campus/Affiliated Dormitory
+- EJU Preparation Focus
+- Comprehensive Higher Education Progression
+- Business Japanese and Career Tracks
+- Robust Scholarship Opportunities
+- Single Room Dormitory Options Available
+- Specialized Science Track Preparation (Rikei)
+- Strong Conversational Skills Focus
+- Art and Design Entrance Exam Preparation
+- Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: 후카야 국제외어학원 (Fukaya International Language School)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

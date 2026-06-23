@@ -280,6 +280,7 @@ content_body: '## School Overview
   school directly to obtain detailed information on course offerings, admission requirements,
   scholarship opportunities, and accommodation options. Contacting the school and
   potentially scheduling a virtual tour can provide a clearer picture of what it offers.'
+date: '2026-01-28'
 lang: en
 translated: true
 ---

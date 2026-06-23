@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagano-university-international-student-guide",
-  "title": "나가노 대학 (Nagano University)",
-  "category": "university",
-  "tags": [
-    "국립대학 법인 전환 (2017년 이후)",
-    "지역사회 공헌 중심",
-    "높은 사회복지사 합격률",
-    "아름다운 신슈 자연 환경"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "長野大学",
-    "name_en": "Nagano University",
-    "address": "658-1 Shimonogo, Ueda-shi, Nagano 386-1298, Japan",
-    "capacity": "총 학생수 약 1,600명"
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "35-45% (국제학생 트랙 기준 추정)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "사회복지학부",
-    "환경관광학부",
-    "기업정보학부"
-  ],
-  "features": [
-    "국립대학 법인 전환 (2017년 이후)",
-    "지역사회 공헌 중심",
-    "높은 사회복지사 합격률",
-    "아름다운 신슈 자연 환경"
-  ],
-  "description": "나가노현 우에다시에 위치한 나가노 대학은 지역사회에 기여하는 것을 목표로 하는 국립 대학입니다. 사회복지, 환경관광, 기업정보 분야에서 특화된 교육을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 658-1 Shimonogo, Ueda-shi, Nagano 386-1298, Japan
+  capacity: 총 학생수 약 1,600명
+  name_en: Nagano University
+  name_ja: 長野大学
+category: university
+date: '2026-03-03'
+description: 나가노현 우에다시에 위치한 나가노 대학은 지역사회에 기여하는 것을 목표로 하는 국립 대학입니다. 사회복지, 환경관광, 기업정보
+  분야에서 특화된 교육을 제공합니다.
+faculties:
+- 사회복지학부
+- 환경관광학부
+- 기업정보학부
+features:
+- 국립대학 법인 전환 (2017년 이후)
+- 지역사회 공헌 중심
+- 높은 사회복지사 합격률
+- 아름다운 신슈 자연 환경
+id: univ_nagano-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (국제학생 트랙 기준 추정)
+  international_students: 42
+tags:
+- 국립대학 법인 전환 (2017년 이후)
+- 지역사회 공헌 중심
+- 높은 사회복지사 합격률
+- 아름다운 신슈 자연 환경
+thumbnail: /static/img/pin-univ.png
+title: 나가노 대학 (Nagano University)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

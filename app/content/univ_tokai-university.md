@@ -5,6 +5,7 @@ basic_info:
   name_ja: 東海大学
   website: https://www.u-tokai.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - School of Letters
 - School of Culture and Studies

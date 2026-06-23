@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_otemae-university-guide-for-international-students",
-  "title": "Otemae University",
-  "category": "university",
-  "tags": [
-    "Liberal Arts Education System",
-    "Special Tuition Reduction for International Students",
-    "Strategic Location between Osaka and Kobe",
-    "Strong Career Support for Employment in Japan"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大手前大学",
-    "name_en": "Otemae University",
-    "address": "6-42 Okada-yama, Nishinomiya, Hyogo 662-8505, Japan",
-    "capacity": 5200
-  },
-  "stats": {
-    "international_students": 380,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 240000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Global Business",
-    "Faculty of Architecture and Design",
-    "Faculty of International Studies",
-    "Faculty of Health Science",
-    "Faculty of Nursing",
-    "Graduate School of Clinical Psychology"
-  ],
-  "features": [
-    "Liberal Arts Education System",
-    "Special Tuition Reduction for International Students",
-    "Strategic Location between Osaka and Kobe",
-    "Strong Career Support for Employment in Japan"
-  ]
-}
+basic_info:
+  address: 6-42 Okada-yama, Nishinomiya, Hyogo 662-8505, Japan
+  capacity: 5200
+  name_en: Otemae University
+  name_ja: 大手前大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Global Business
+- Faculty of Architecture and Design
+- Faculty of International Studies
+- Faculty of Health Science
+- Faculty of Nursing
+- Graduate School of Clinical Psychology
+features:
+- Liberal Arts Education System
+- Special Tuition Reduction for International Students
+- Strategic Location between Osaka and Kobe
+- Strong Career Support for Employment in Japan
+id: univ_otemae-university-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 380
+tags:
+- Liberal Arts Education System
+- Special Tuition Reduction for International Students
+- Strategic Location between Osaka and Kobe
+- Strong Career Support for Employment in Japan
+thumbnail: /static/img/pin-univ.png
+title: Otemae University
+tuition:
+  admission_fee: 240000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

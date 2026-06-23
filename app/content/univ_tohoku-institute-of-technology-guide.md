@@ -1,44 +1,36 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tohoku-institute-of-technology-guide",
-  "title": "Tohoku Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Specialized focus on post-disaster reconstruction and resilient design",
-    "High employment success rate within the Tohoku and Kanto regions",
-    "Unique curriculum blending creative design with practical engineering"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東北工業大学",
-    "name_en": "Tohoku Institute of Technology",
-    "address": "35-1 Yagiyama-kasumicho, Taihaku-ku, Sendai, Miyagi 982-8577, Japan",
-    "capacity": "3,650 students"
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Architecture and Design",
-    "Faculty of Life and Environmental Sciences"
-  ],
-  "features": [
-    "Specialized focus on post-disaster reconstruction and resilient design",
-    "High employment success rate within the Tohoku and Kanto regions",
-    "Unique curriculum blending creative design with practical engineering"
-  ]
-}
+basic_info:
+  address: 35-1 Yagiyama-kasumicho, Taihaku-ku, Sendai, Miyagi 982-8577, Japan
+  capacity: 3,650 students
+  name_en: Tohoku Institute of Technology
+  name_ja: 東北工業大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Engineering
+- Faculty of Architecture and Design
+- Faculty of Life and Environmental Sciences
+features:
+- Specialized focus on post-disaster reconstruction and resilient design
+- High employment success rate within the Tohoku and Kanto regions
+- Unique curriculum blending creative design with practical engineering
+id: univ_tohoku-institute-of-technology-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 65
+tags:
+- Specialized focus on post-disaster reconstruction and resilient design
+- High employment success rate within the Tohoku and Kanto regions
+- Unique curriculum blending creative design with practical engineering
+thumbnail: /static/img/pin-univ.png
+title: Tohoku Institute of Technology
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 University Overview

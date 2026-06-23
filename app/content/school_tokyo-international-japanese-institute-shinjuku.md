@@ -18,6 +18,7 @@ courses:
 - admission_month: '7'
   course_name: 一般コース
   total_fees: 1400000
+date: '2026-01-28'
 faculties: []
 features:
 - University Progression Focus

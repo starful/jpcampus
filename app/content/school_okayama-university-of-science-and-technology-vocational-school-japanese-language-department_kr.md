@@ -1,57 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "岡山県岡山市北区昭和町8-10",
-    "capacity": 160,
-    "name_en": "Okayama Institute of Science and Technology Japanese Language Department",
-    "name_ja": "岡山科学技術専門学校日本語学科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1333000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1026000
-    }
-  ],
-  "description": "오카야마에 위치한 이 학교는 대학 진학 준비, 기숙사, EJU 시험 대비에 중점을 둔 종합적인 일본어 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "기숙사",
-    "EJU 시험 준비",
-    "회화 능력",
-    "단기 코스"
-  ],
-  "id": "school_okayama-university-of-science-and-technology-vocational-school-japanese-language-department",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6632034,
-    "lng": 133.9120432
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=391",
-  "stats": {
-    "capacity": 160,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "Dormitory",
-    "EJU Preparation",
-    "Conversation Skills",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오카야마 이공과 대학 일본어학과",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 岡山県岡山市北区昭和町8-10
+  capacity: 160
+  name_en: Okayama Institute of Science and Technology Japanese Language Department
+  name_ja: 岡山科学技術専門学校日本語学科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1333000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1026000
+date: '2026-01-28'
+description: 오카야마에 위치한 이 학교는 대학 진학 준비, 기숙사, EJU 시험 대비에 중점을 둔 종합적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- 기숙사
+- EJU 시험 준비
+- 회화 능력
+- 단기 코스
+id: school_okayama-university-of-science-and-technology-vocational-school-japanese-language-department
+lang: kr
+layout: school
+location:
+  lat: 34.6632034
+  lng: 133.9120432
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=391
+stats:
+  capacity: 160
+  international_students: 0
+tags:
+- University Preparation
+- Dormitory
+- EJU Preparation
+- Conversation Skills
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: 오카야마 이공과 대학 일본어학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

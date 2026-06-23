@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_niigata-university-of-management",
-  "title": "니가타 경영대학교",
-  "description": "니가타현 가모시에 위치한 실무 중심의 경영 전문 대학으로, 스포츠 경영 및 지역 관리 특성화 교육과 유학생을 위한 파격적인 학비 감면 혜택을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "지역 경영 및 스포츠 비즈니스 실무 특성화",
-    "유학생을 위한 강력한 학비 감면 제도",
-    "교수진과 학생 간의 밀착형 교육 환경",
-    "니가타현 지역 산업과의 긴밀한 연계"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟経営大学",
-    "name_en": "Niigata University of Management",
-    "address": "2909-2 Kibogaoka, Kamo, Niigata 959-1322, Japan",
-    "capacity": 550
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 740000
-  },
-  "faculties": [
-    "경영학부",
-    "경영학과",
-    "스포츠 경영 코스",
-    "관광·지역 경영 코스",
-    "기업 경영 코스",
-    "정보·미디어 코스"
-  ],
-  "features": [
-    "지역 경영 및 스포츠 비즈니스 실무 특성화",
-    "유학생을 위한 강력한 학비 감면 제도",
-    "교수진과 학생 간의 밀착형 교육 환경",
-    "니가타현 지역 산업과의 긴밀한 연계"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2909-2 Kibogaoka, Kamo, Niigata 959-1322, Japan
+  capacity: 550
+  name_en: Niigata University of Management
+  name_ja: 新潟経営大学
+category: university
+date: '2026-03-15'
+description: 니가타현 가모시에 위치한 실무 중심의 경영 전문 대학으로, 스포츠 경영 및 지역 관리 특성화 교육과 유학생을 위한 파격적인
+  학비 감면 혜택을 제공합니다.
+faculties:
+- 경영학부
+- 경영학과
+- 스포츠 경영 코스
+- 관광·지역 경영 코스
+- 기업 경영 코스
+- 정보·미디어 코스
+features:
+- 지역 경영 및 스포츠 비즈니스 실무 특성화
+- 유학생을 위한 강력한 학비 감면 제도
+- 교수진과 학생 간의 밀착형 교육 환경
+- 니가타현 지역 산업과의 긴밀한 연계
+id: univ_niigata-university-of-management
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 145
+tags:
+- 지역 경영 및 스포츠 비즈니스 실무 특성화
+- 유학생을 위한 강력한 학비 감면 제도
+- 교수진과 학생 간의 밀착형 교육 환경
+- 니가타현 지역 산업과의 긴밀한 연계
+thumbnail: /static/img/pin-univ.png
+title: 니가타 경영대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 740000
 ---
 
 ## 🏫 대학 개요

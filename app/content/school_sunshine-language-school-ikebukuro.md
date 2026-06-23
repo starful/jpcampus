@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 1041000
+date: '2026-01-28'
 faculties: []
 features:
 - Intensive Academic Advancement (進学) Focus

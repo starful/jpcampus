@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_dokkyo-medical-university-guide",
-  "title": "Dokkyo Medical University",
-  "category": "university",
-  "tags": [
-    "One of Japan's largest university hospital networks",
-    "Strong emphasis on 'Humanistic Medicine'",
-    "State-of-the-art clinical simulation centers",
-    "Located in the serene and safe environment of Tochigi"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "獨協医科大学",
-    "name_en": "Dokkyo Medical University",
-    "address": "880 Kitakobayashi, Mibu, Shimotsuga District, Tochigi 321-0293, Japan",
-    "capacity": 1150
-  },
-  "stats": {
-    "international_students": 18,
-    "acceptance_rate": "8%"
-  },
-  "tuition": {
-    "admission_fee": 1000000,
-    "yearly_tuition": 3700000
-  },
-  "faculties": [
-    "Faculty of Medicine",
-    "Faculty of Nursing",
-    "Graduate School of Medicine",
-    "Graduate School of Nursing"
-  ],
-  "features": [
-    "One of Japan's largest university hospital networks",
-    "Strong emphasis on 'Humanistic Medicine'",
-    "State-of-the-art clinical simulation centers",
-    "Located in the serene and safe environment of Tochigi"
-  ]
-}
+basic_info:
+  address: 880 Kitakobayashi, Mibu, Shimotsuga District, Tochigi 321-0293, Japan
+  capacity: 1150
+  name_en: Dokkyo Medical University
+  name_ja: 獨協医科大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Medicine
+- Faculty of Nursing
+- Graduate School of Medicine
+- Graduate School of Nursing
+features:
+- One of Japan's largest university hospital networks
+- Strong emphasis on 'Humanistic Medicine'
+- State-of-the-art clinical simulation centers
+- Located in the serene and safe environment of Tochigi
+id: univ_dokkyo-medical-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 8%
+  international_students: 18
+tags:
+- One of Japan's largest university hospital networks
+- Strong emphasis on 'Humanistic Medicine'
+- State-of-the-art clinical simulation centers
+- Located in the serene and safe environment of Tochigi
+thumbnail: /static/img/pin-univ.png
+title: Dokkyo Medical University
+tuition:
+  admission_fee: 1000000
+  yearly_tuition: 3700000
 ---
 
 ## 🏫 University Overview

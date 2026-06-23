@@ -5,6 +5,7 @@ basic_info:
   name_ja: 京都大学
   website: https://www.kyoto-u.ac.jp/
 category: school
+date: '2026-01-28'
 description: Kyoto University is one of Japan's leading national universities, globally
   recognized for its research achievements, dedication to the 'Spirit of Freedom,'
   and its numerous Nobel laureates.

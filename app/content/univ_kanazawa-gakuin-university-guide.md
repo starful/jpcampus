@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanazawa-gakuin-university-guide",
-  "title": "Kanazawa Gakuin University",
-  "category": "university",
-  "tags": [
-    "Nationally Renowned Sports Programs",
-    "Deep Integration with Kanazawa's Cultural Heritage",
-    "Strong Regional Employment Connections",
-    "Significant Tuition Reduction for International Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金沢学院大学",
-    "name_en": "Kanazawa Gakuin University",
-    "address": "10 Sue-machi, Kanazawa, Ishikawa 920-1392, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Economic Management",
-    "Faculty of Humanities",
-    "Faculty of Education",
-    "Faculty of Sport Science",
-    "Faculty of Art",
-    "Faculty of Health and Medical Sciences"
-  ],
-  "features": [
-    "Nationally Renowned Sports Programs",
-    "Deep Integration with Kanazawa's Cultural Heritage",
-    "Strong Regional Employment Connections",
-    "Significant Tuition Reduction for International Students"
-  ]
-}
+basic_info:
+  address: 10 Sue-machi, Kanazawa, Ishikawa 920-1392, Japan
+  capacity: 3500
+  name_en: Kanazawa Gakuin University
+  name_ja: 金沢学院大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Economic Management
+- Faculty of Humanities
+- Faculty of Education
+- Faculty of Sport Science
+- Faculty of Art
+- Faculty of Health and Medical Sciences
+features:
+- Nationally Renowned Sports Programs
+- Deep Integration with Kanazawa's Cultural Heritage
+- Strong Regional Employment Connections
+- Significant Tuition Reduction for International Students
+id: univ_kanazawa-gakuin-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 145
+tags:
+- Nationally Renowned Sports Programs
+- Deep Integration with Kanazawa's Cultural Heritage
+- Strong Regional Employment Connections
+- Significant Tuition Reduction for International Students
+thumbnail: /static/img/pin-univ.png
+title: Kanazawa Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview

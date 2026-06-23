@@ -1,58 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "〒263-8522 千葉県千葉市稲毛区弥生町1-33",
-    "name_en": "Chiba University",
-    "name_ja": "千葉大学",
-    "website": "https://www.chiba-u.ac.jp/"
-  },
-  "category": "university",
-  "description": "일본 치바현에 위치한 명문 국립대학인 치바대학교는 폭넓은 학문 분야를 제공하며, SGU 프로그램 및 영어 강의를 통해 국제화를 적극적으로 추진하고 있습니다.",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Law and Economics",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Horticulture",
-    "Faculty of Medicine",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Nursing",
-    "Faculty of Education",
-    "Faculty of Global and Interdisciplinary Studies"
-  ],
-  "features": [
-    "슈퍼 글로벌 대학(SGU) 참여",
-    "대부분의 학부 과정에서 EJU 요구",
-    "영어 강의 제공",
-    "유학생 기숙사 이용 가능",
-    "장학금 기회 제공"
-  ],
-  "id": "univ_chiba-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 1200
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "치바대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 817800
-  }
-}
+basic_info:
+  address: 〒263-8522 千葉県千葉市稲毛区弥生町1-33
+  name_en: Chiba University
+  name_ja: 千葉大学
+  website: https://www.chiba-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 일본 치바현에 위치한 명문 국립대학인 치바대학교는 폭넓은 학문 분야를 제공하며, SGU 프로그램 및 영어 강의를 통해 국제화를
+  적극적으로 추진하고 있습니다.
+faculties:
+- Faculty of Letters
+- Faculty of Law and Economics
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Horticulture
+- Faculty of Medicine
+- Faculty of Pharmaceutical Sciences
+- Faculty of Nursing
+- Faculty of Education
+- Faculty of Global and Interdisciplinary Studies
+features:
+- 슈퍼 글로벌 대학(SGU) 참여
+- 대부분의 학부 과정에서 EJU 요구
+- 영어 강의 제공
+- 유학생 기숙사 이용 가능
+- 장학금 기회 제공
+id: univ_chiba-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25%
+  international_students: 1200
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 치바대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 817800
 ---
 
 ## 대학 개요 및 명성

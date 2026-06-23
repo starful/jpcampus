@@ -1,63 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "岐阜県本巣市上真桑1963番地",
-    "capacity": 160,
-    "name_en": "Subaru Gakuin Motosu School",
-    "name_ja": "スバル学院本巣校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語進学2年コース",
-      "total_fees": 1510000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語進学1年6か月コース",
-      "total_fees": 1150000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 및 대학원 집중 준비 과정",
-    "학교 내 기숙사 시설 완비",
-    "1인실 기숙사 보장 옵션 제공",
-    "EJU (문과 및 이과) 맞춤형 준비",
-    "특화 트랙 (미술, 디자인, 비즈니스 일본어)",
-    "회화 및 실용 일본어 중심 교육",
-    "장학금 기회 제공",
-    "기후현 위치 (낮은 생활비)"
-  ],
-  "id": "school_subaru-gakuin-motosu-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.4347003,
-    "lng": 136.6762112
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=276",
-  "stats": {
-    "capacity": 160,
-    "international_students": null
-  },
-  "tags": [
-    "Intensive University and Graduate School Preparation",
-    "On-site Dormitory Facilities",
-    "Guaranteed Single Room Dormitory Options",
-    "Targeted EJU Preparation (Liberal Arts and STEM)",
-    "Specialized Tracks (Art, Design, Business Japanese)",
-    "Focus on Conversation and Practical Japanese",
-    "Scholarship Opportunities",
-    "Located in Gifu Prefecture (Lower cost of living)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "스바루 학원 모토스 캠퍼스",
-  "translated": true,
-  "tuition": {},
-  "description": "기후현에 위치한 스바루 학원 모토스 캠퍼스는 일본 대학 및 대학원 진학을 목표로 하는 유학생을 위한 일본어 교육을 제공합니다."
-}
+basic_info:
+  address: 岐阜県本巣市上真桑1963番地
+  capacity: 160
+  name_en: Subaru Gakuin Motosu School
+  name_ja: スバル学院本巣校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語進学2年コース
+  total_fees: 1510000
+- admission_month: '10'
+  course_name: 日本語進学1年6か月コース
+  total_fees: 1150000
+date: '2026-01-28'
+description: 기후현에 위치한 스바루 학원 모토스 캠퍼스는 일본 대학 및 대학원 진학을 목표로 하는 유학생을 위한 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 대학 및 대학원 집중 준비 과정
+- 학교 내 기숙사 시설 완비
+- 1인실 기숙사 보장 옵션 제공
+- EJU (문과 및 이과) 맞춤형 준비
+- 특화 트랙 (미술, 디자인, 비즈니스 일본어)
+- 회화 및 실용 일본어 중심 교육
+- 장학금 기회 제공
+- 기후현 위치 (낮은 생활비)
+id: school_subaru-gakuin-motosu-school
+lang: kr
+layout: school
+location:
+  lat: 35.4347003
+  lng: 136.6762112
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=276
+stats:
+  capacity: 160
+  international_students: null
+tags:
+- Intensive University and Graduate School Preparation
+- On-site Dormitory Facilities
+- Guaranteed Single Room Dormitory Options
+- Targeted EJU Preparation (Liberal Arts and STEM)
+- Specialized Tracks (Art, Design, Business Japanese)
+- Focus on Conversation and Practical Japanese
+- Scholarship Opportunities
+- Located in Gifu Prefecture (Lower cost of living)
+thumbnail: /static/img/pin-school.png
+title: 스바루 학원 모토스 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

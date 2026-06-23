@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukui-university-of-technology-guide",
-  "title": "Fukui University of Technology",
-  "category": "university",
-  "tags": [
-    "Advanced Aerospace and Satellite Communication Research",
-    "Exceptional 99% Employment Rate for Graduates",
-    "Located in Japan's 'Happiest' Prefecture",
-    "Specialized Japanese Language Support Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福井工業大学",
-    "name_en": "Fukui University of Technology",
-    "address": "3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "60-70% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1300000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Environmental and Information Sciences",
-    "Faculty of Sports and Health Sciences"
-  ],
-  "features": [
-    "Advanced Aerospace and Satellite Communication Research",
-    "Exceptional 99% Employment Rate for Graduates",
-    "Located in Japan's 'Happiest' Prefecture",
-    "Specialized Japanese Language Support Programs"
-  ]
-}
+basic_info:
+  address: 3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan
+  capacity: null
+  name_en: Fukui University of Technology
+  name_ja: 福井工業大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Engineering
+- Faculty of Environmental and Information Sciences
+- Faculty of Sports and Health Sciences
+features:
+- Advanced Aerospace and Satellite Communication Research
+- Exceptional 99% Employment Rate for Graduates
+- Located in Japan's 'Happiest' Prefecture
+- Specialized Japanese Language Support Programs
+id: univ_fukui-university-of-technology-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 60-70% (Estimated for International Applicants)
+  international_students: 165
+tags:
+- Advanced Aerospace and Satellite Communication Research
+- Exceptional 99% Employment Rate for Graduates
+- Located in Japan's 'Happiest' Prefecture
+- Specialized Japanese Language Support Programs
+thumbnail: /static/img/pin-univ.png
+title: Fukui University of Technology
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1300000
 ---
 
 ## 🏫 University Overview

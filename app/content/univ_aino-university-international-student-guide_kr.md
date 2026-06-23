@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aino-university-international-student-guide",
-  "title": "아이노대학교 (Aino University)",
-  "description": "오사카부 이바라키시에 위치한 의료 및 보건 특화 대학으로, 아이노 병원 그룹과의 긴밀한 연계를 통해 높은 국가시험 합격률과 압도적인 취업률을 자랑합니다.",
-  "category": "university",
-  "tags": [
-    "의료 및 보건 계열 특화 교육",
-    "아이노 병원 그룹과의 직접적인 연계",
-    "높은 국가시험 합격률",
-    "교토와 오사카 사이의 전략적 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "藍野大学",
-    "name_en": "Aino University",
-    "address": "4-5-41 Higashiohda, Ibaraki, Osaka 567-0012, Japan",
-    "capacity": 840
-  },
-  "stats": {
-    "international_students": 6,
-    "acceptance_rate": "62%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1550000
-  },
-  "faculties": [
-    "의료보건학부",
-    "간호학과",
-    "물리치료학과",
-    "작업치료학과",
-    "임상공학과"
-  ],
-  "features": [
-    "의료 및 보건 계열 특화 교육",
-    "아이노 병원 그룹과의 직접적인 연계",
-    "높은 국가시험 합격률",
-    "교토와 오사카 사이의 전략적 위치"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4-5-41 Higashiohda, Ibaraki, Osaka 567-0012, Japan
+  capacity: 840
+  name_en: Aino University
+  name_ja: 藍野大学
+category: university
+date: '2026-04-19'
+description: 오사카부 이바라키시에 위치한 의료 및 보건 특화 대학으로, 아이노 병원 그룹과의 긴밀한 연계를 통해 높은 국가시험 합격률과
+  압도적인 취업률을 자랑합니다.
+faculties:
+- 의료보건학부
+- 간호학과
+- 물리치료학과
+- 작업치료학과
+- 임상공학과
+features:
+- 의료 및 보건 계열 특화 교육
+- 아이노 병원 그룹과의 직접적인 연계
+- 높은 국가시험 합격률
+- 교토와 오사카 사이의 전략적 위치
+id: univ_aino-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 62%
+  international_students: 6
+tags:
+- 의료 및 보건 계열 특화 교육
+- 아이노 병원 그룹과의 직접적인 연계
+- 높은 국가시험 합격률
+- 교토와 오사카 사이의 전략적 위치
+thumbnail: /static/img/pin-univ.png
+title: 아이노대학교 (Aino University)
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1550000
 ---
 
 ## 🏫 대학 개요

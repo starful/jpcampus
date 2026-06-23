@@ -5,6 +5,7 @@ basic_info:
   name_ja: 名城大学
   website: https://www.meijo-u.ac.jp/
 category: school
+date: '2026-01-28'
 faculties:
 - Law
 - Business Administration

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sapporo-medical-university-international-student-guide",
-  "title": "Sapporo Medical University",
-  "category": "university",
-  "tags": [
-    "Pioneering Cancer Research Institute",
-    "Highly Advanced University Hospital",
-    "Strong focus on Community Medicine and Rural Healthcare",
-    "Small student-to-faculty ratio for personalized clinical training"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "札幌医科大学",
-    "name_en": "Sapporo Medical University",
-    "address": "South 1, West 17, Chuo-ku, Sapporo, Hokkaido 060-8556, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 32,
-    "acceptance_rate": "12-18% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Medicine",
-    "School of Health Sciences (Nursing, Physical Therapy, Occupational Therapy)",
-    "Graduate School of Medicine",
-    "Graduate School of Health Sciences"
-  ],
-  "features": [
-    "Pioneering Cancer Research Institute",
-    "Highly Advanced University Hospital",
-    "Strong focus on Community Medicine and Rural Healthcare",
-    "Small student-to-faculty ratio for personalized clinical training"
-  ]
-}
+basic_info:
+  address: South 1, West 17, Chuo-ku, Sapporo, Hokkaido 060-8556, Japan
+  capacity: null
+  name_en: Sapporo Medical University
+  name_ja: 札幌医科大学
+category: university
+date: '2026-02-13'
+faculties:
+- School of Medicine
+- School of Health Sciences (Nursing, Physical Therapy, Occupational Therapy)
+- Graduate School of Medicine
+- Graduate School of Health Sciences
+features:
+- Pioneering Cancer Research Institute
+- Highly Advanced University Hospital
+- Strong focus on Community Medicine and Rural Healthcare
+- Small student-to-faculty ratio for personalized clinical training
+id: univ_sapporo-medical-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 12-18% (Estimated)
+  international_students: 32
+tags:
+- Pioneering Cancer Research Institute
+- Highly Advanced University Hospital
+- Strong focus on Community Medicine and Rural Healthcare
+- Small student-to-faculty ratio for personalized clinical training
+thumbnail: /static/img/pin-univ.png
+title: Sapporo Medical University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

@@ -1,56 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_meiji-gakuin-university-comprehensive-guide",
-  "title": "Meiji Gakuin University: Complete Guide for International Students",
-  "category": "university",
-  "tags": [
-    "Founded by James Curtis Hepburn",
-    "Educational Motto: Do for Others",
-    "Historic Shirokane Campus",
-    "Renowned Global and Transcultural Studies program",
-    "Strong Christian Liberal Arts Tradition"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "明治学院大学",
-    "name_en": "Meiji Gakuin University",
-    "address": "1-2-37 Shirokanedai, Minato-ku, Tokyo 108-8636, Japan",
-    "capacity": 12000
-  },
-  "stats": {
-    "international_students": 350,
-    "acceptance_rate": "25-35% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Sociology",
-    "Faculty of Law",
-    "Faculty of International Studies",
-    "Faculty of Psychology"
-  ],
-  "features": [
-    "Founded by James Curtis Hepburn",
-    "Educational Motto: Do for Others",
-    "Historic Shirokane Campus",
-    "Renowned Global and Transcultural Studies program",
-    "Strong Christian Liberal Arts Tradition"
-  ],
-  "description": "An ultimate guide to Meiji Gakuin University. Learn about academic programs, tuition fees, campus life, and admissions for international students.",
-  "seo_title": "Meiji Gakuin University Guide: Tuition & Admissions | JP Campus",
-  "seo_description": "Discover Meiji Gakuin University. Get reliable details on tuition, admission requirements, English programs, and rankings for international students."
-}
+basic_info:
+  address: 1-2-37 Shirokanedai, Minato-ku, Tokyo 108-8636, Japan
+  capacity: 12000
+  name_en: Meiji Gakuin University
+  name_ja: 明治学院大学
+category: university
+date: '2026-06-19'
+description: An ultimate guide to Meiji Gakuin University. Learn about academic programs,
+  tuition fees, campus life, and admissions for international students.
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Sociology
+- Faculty of Law
+- Faculty of International Studies
+- Faculty of Psychology
+features:
+- Founded by James Curtis Hepburn
+- 'Educational Motto: Do for Others'
+- Historic Shirokane Campus
+- Renowned Global and Transcultural Studies program
+- Strong Christian Liberal Arts Tradition
+id: univ_meiji-gakuin-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Discover Meiji Gakuin University. Get reliable details on tuition,
+  admission requirements, English programs, and rankings for international students.
+seo_title: 'Meiji Gakuin University Guide: Tuition & Admissions | JP Campus'
+stats:
+  acceptance_rate: 25-35% (Estimated for International Applicants)
+  international_students: 350
+tags:
+- Founded by James Curtis Hepburn
+- 'Educational Motto: Do for Others'
+- Historic Shirokane Campus
+- Renowned Global and Transcultural Studies program
+- Strong Christian Liberal Arts Tradition
+thumbnail: /static/img/pin-univ.png
+title: 'Meiji Gakuin University: Complete Guide for International Students'
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
-
 
 ## 🏫 University Overview
 Meiji Gakuin University (MGU) stands as one of Japan’s most prestigious and historic private liberal arts institutions. Founded in 1863 by Dr. James Curtis Hepburn—the missionary and physician famous for creating the Hepburn Romanization system for the Japanese language—the university is deeply rooted in Christian principles. Its educational philosophy is encapsulated in the motto, "Do for Others." This isn't just a catchy phrase; it is the guiding light for the university’s curriculum, volunteering initiatives, and international exchange programs. With campuses in the heart of Tokyo (Shirokane) and the scenic hills of Yokohama, MGU offers a unique blend of historical charm and modern academic rigor. For international students, it represents a gateway to Japanese society that prioritizes social responsibility and global citizenship over mere rote learning.

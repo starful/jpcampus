@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toin-university-of-yokohama-international-student-guide",
-  "title": "Toin University of Yokohama",
-  "category": "university",
-  "tags": [
-    "Renowned Athletic Programs and Sports Science Facilities",
-    "Practical Law Education Focused on Public Service and Legal Careers",
-    "Specialized Biomedical Engineering Training for Clinical Engineers",
-    "Active Learning Curriculum Emphasizing Critical Thinking"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桐蔭横浜大学",
-    "name_en": "Toin University of Yokohama",
-    "address": "1614 Kuroganecho, Aoba Ward, Yokohama, Kanagawa 225-8503, Japan",
-    "capacity": 4200
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "Approx. 60-70% (Varies by faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Biomedical Engineering",
-    "Faculty of Sport and Health Science",
-    "Faculty of Contemporary Liberal Arts"
-  ],
-  "features": [
-    "Renowned Athletic Programs and Sports Science Facilities",
-    "Practical Law Education Focused on Public Service and Legal Careers",
-    "Specialized Biomedical Engineering Training for Clinical Engineers",
-    "Active Learning Curriculum Emphasizing Critical Thinking"
-  ]
-}
+basic_info:
+  address: 1614 Kuroganecho, Aoba Ward, Yokohama, Kanagawa 225-8503, Japan
+  capacity: 4200
+  name_en: Toin University of Yokohama
+  name_ja: 桐蔭横浜大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Law
+- Faculty of Biomedical Engineering
+- Faculty of Sport and Health Science
+- Faculty of Contemporary Liberal Arts
+features:
+- Renowned Athletic Programs and Sports Science Facilities
+- Practical Law Education Focused on Public Service and Legal Careers
+- Specialized Biomedical Engineering Training for Clinical Engineers
+- Active Learning Curriculum Emphasizing Critical Thinking
+id: univ_toin-university-of-yokohama-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approx. 60-70% (Varies by faculty)
+  international_students: 165
+tags:
+- Renowned Athletic Programs and Sports Science Facilities
+- Practical Law Education Focused on Public Service and Legal Careers
+- Specialized Biomedical Engineering Training for Clinical Engineers
+- Active Learning Curriculum Emphasizing Critical Thinking
+thumbnail: /static/img/pin-univ.png
+title: Toin University of Yokohama
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

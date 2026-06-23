@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukui-prefectural-university-guide",
-  "title": "Fukui Prefectural University",
-  "category": "university",
-  "tags": [
-    "Japan's only dedicated Faculty of Dinosaur Paleontology",
-    "Strong focus on Marine Science and Biotechnology",
-    "Small class sizes with high faculty-to-student ratios",
-    "Affordable public university tuition and rural living costs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福井県立大学",
-    "name_en": "Fukui Prefectural University",
-    "address": "4-1-1 Kenjojima, Matsuoka, Eiheiji-cho, Yoshida-gun, Fukui 910-1195, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 62,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Nursing and Social Welfare",
-    "Faculty of Biotechnology",
-    "Faculty of Marine Science",
-    "Faculty of Dinosaur Paleontology"
-  ],
-  "features": [
-    "Japan's only dedicated Faculty of Dinosaur Paleontology",
-    "Strong focus on Marine Science and Biotechnology",
-    "Small class sizes with high faculty-to-student ratios",
-    "Affordable public university tuition and rural living costs"
-  ]
-}
+basic_info:
+  address: 4-1-1 Kenjojima, Matsuoka, Eiheiji-cho, Yoshida-gun, Fukui 910-1195, Japan
+  capacity: null
+  name_en: Fukui Prefectural University
+  name_ja: 福井県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Nursing and Social Welfare
+- Faculty of Biotechnology
+- Faculty of Marine Science
+- Faculty of Dinosaur Paleontology
+features:
+- Japan's only dedicated Faculty of Dinosaur Paleontology
+- Strong focus on Marine Science and Biotechnology
+- Small class sizes with high faculty-to-student ratios
+- Affordable public university tuition and rural living costs
+id: univ_fukui-prefectural-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 62
+tags:
+- Japan's only dedicated Faculty of Dinosaur Paleontology
+- Strong focus on Marine Science and Biotechnology
+- Small class sizes with high faculty-to-student ratios
+- Affordable public university tuition and rural living costs
+thumbnail: /static/img/pin-univ.png
+title: Fukui Prefectural University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: Excellence in Rural Innovation

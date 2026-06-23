@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-institute-of-technology-international-student-guide",
-  "title": "Hiroshima Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Exceptionally high employment rate (99%+) for graduates",
-    "Strong regional ties with major manufacturers like Mazda",
-    "Cutting-edge facilities including the HIT Nexus learning center",
-    "Practical, hands-on engineering education rooted in social contribution"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島工業大学",
-    "name_en": "Hiroshima Institute of Technology",
-    "address": "2-1-1 Miyake, Saeki-ku, Hiroshima-shi, Hiroshima 731-5193, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "45% - 55% (Estimated based on private technical university trends)"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1395000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Applied Information Technology",
-    "Faculty of Environmental Studies",
-    "Faculty of Life Sciences"
-  ],
-  "features": [
-    "Exceptionally high employment rate (99%+) for graduates",
-    "Strong regional ties with major manufacturers like Mazda",
-    "Cutting-edge facilities including the HIT Nexus learning center",
-    "Practical, hands-on engineering education rooted in social contribution"
-  ]
-}
+basic_info:
+  address: 2-1-1 Miyake, Saeki-ku, Hiroshima-shi, Hiroshima 731-5193, Japan
+  capacity: null
+  name_en: Hiroshima Institute of Technology
+  name_ja: 広島工業大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Engineering
+- Faculty of Applied Information Technology
+- Faculty of Environmental Studies
+- Faculty of Life Sciences
+features:
+- Exceptionally high employment rate (99%+) for graduates
+- Strong regional ties with major manufacturers like Mazda
+- Cutting-edge facilities including the HIT Nexus learning center
+- Practical, hands-on engineering education rooted in social contribution
+id: univ_hiroshima-institute-of-technology-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45% - 55% (Estimated based on private technical university trends)
+  international_students: 42
+tags:
+- Exceptionally high employment rate (99%+) for graduates
+- Strong regional ties with major manufacturers like Mazda
+- Cutting-edge facilities including the HIT Nexus learning center
+- Practical, hands-on engineering education rooted in social contribution
+thumbnail: /static/img/pin-univ.png
+title: Hiroshima Institute of Technology
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1395000
 ---
 
 ## 🏫 University Overview: The Spirit of Innovation in Hiroshima

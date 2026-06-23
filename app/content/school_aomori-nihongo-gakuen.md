@@ -14,6 +14,7 @@ courses:
   course_name: 日本語2年コース
   course_name_en: 2-Year Japanese Course
   total_fees: 1450000
+date: '2026-01-28'
 description: A Japanese language school in Aomori offering various courses, including
   university preparation, short-term, and business Japanese courses. Features include
   a dormitory and scholarship opportunities.

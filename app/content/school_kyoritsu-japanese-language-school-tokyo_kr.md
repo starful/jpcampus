@@ -1,56 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都文京区湯島2-20-4",
-    "capacity": 100,
-    "name_en": "Kyoritsu Japanese Language School",
-    "name_ja": "共立日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1255000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "2年コース",
-      "total_fees": 1640000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 집중 대비 (Shin-gaku)",
-    "EJU & JLPT 전문 트레이닝",
-    "소규모 학급 (최대 100명 정원)",
-    "도쿄 분쿄구의 우수한 학군 위치",
-    "고등 교육 진학을 위한 맞춤형 지도"
-  ],
-  "id": "school_kyoritsu-japanese-language-school-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7060739,
-    "lng": 139.7648522
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=585",
-  "stats": {
-    "capacity": 100,
-    "international_students": 95
-  },
-  "tags": [
-    "Intensive University Preparatory Focus (Shin-gaku)",
-    "Specialized EJU & JLPT Training",
-    "Small Class Capacity (Maximum 100 Students)",
-    "Prime Academic Location in Bunkyo Ward, Tokyo",
-    "Highly Personalized Guidance for Higher Education Entry"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "교리츠 일본어 학교",
-  "description": "도쿄 분쿄구에 위치한 교리츠 일본어 학교는 소규모 정예 교육을 통해 대학 진학을 집중적으로 대비하는 전문 학교입니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 東京都文京区湯島2-20-4
+  capacity: 100
+  name_en: Kyoritsu Japanese Language School
+  name_ja: 共立日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1255000
+- admission_month: '4'
+  course_name: 2年コース
+  total_fees: 1640000
+date: '2026-01-28'
+description: 도쿄 분쿄구에 위치한 교리츠 일본어 학교는 소규모 정예 교육을 통해 대학 진학을 집중적으로 대비하는 전문 학교입니다.
+faculties: []
+features:
+- 대학 진학 집중 대비 (Shin-gaku)
+- EJU & JLPT 전문 트레이닝
+- 소규모 학급 (최대 100명 정원)
+- 도쿄 분쿄구의 우수한 학군 위치
+- 고등 교육 진학을 위한 맞춤형 지도
+id: school_kyoritsu-japanese-language-school-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.7060739
+  lng: 139.7648522
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=585
+stats:
+  capacity: 100
+  international_students: 95
+tags:
+- Intensive University Preparatory Focus (Shin-gaku)
+- Specialized EJU & JLPT Training
+- Small Class Capacity (Maximum 100 Students)
+- Prime Academic Location in Bunkyo Ward, Tokyo
+- Highly Personalized Guidance for Higher Education Entry
+thumbnail: /static/img/pin-school.png
+title: 교리츠 일본어 학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

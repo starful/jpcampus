@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_iwate-university-comprehensive-guide-international-students",
-  "title": "이와테 대학 (Iwate University)",
-  "category": "university",
-  "tags": [
-    "역사적으로 권위 있는 농학부",
-    "지역 재건 및 재해 과학 분야의 선구자",
-    "도쿄 농공대학과의 공동 수의학 프로그램",
-    "모리오카의 저렴한 생활비와 높은 삶의 질"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岩手大学",
-    "name_en": "Iwate University",
-    "address": "3-18-8 Ueda, Morioka, Iwate 020-8550, Japan",
-    "capacity": 5500
-  },
-  "stats": {
-    "international_students": 230,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "인문사회과학부",
-    "교육학부",
-    "이학공학부",
-    "농학부"
-  ],
-  "features": [
-    "역사적으로 권위 있는 농학부",
-    "지역 재건 및 재해 과학 분야의 선구자",
-    "도쿄 농공대학과의 공동 수의학 프로그램",
-    "모리오카의 저렴한 생활비와 높은 삶의 질"
-  ],
-  "description": "이와테 대학은 일본 북부 (도호쿠 지역) 모리오카 시 중심부에 위치한 명문 국립 대학입니다. 유학생을 위한 종합 안내입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-18-8 Ueda, Morioka, Iwate 020-8550, Japan
+  capacity: 5500
+  name_en: Iwate University
+  name_ja: 岩手大学
+category: university
+date: '2026-02-13'
+description: 이와테 대학은 일본 북부 (도호쿠 지역) 모리오카 시 중심부에 위치한 명문 국립 대학입니다. 유학생을 위한 종합 안내입니다.
+faculties:
+- 인문사회과학부
+- 교육학부
+- 이학공학부
+- 농학부
+features:
+- 역사적으로 권위 있는 농학부
+- 지역 재건 및 재해 과학 분야의 선구자
+- 도쿄 농공대학과의 공동 수의학 프로그램
+- 모리오카의 저렴한 생활비와 높은 삶의 질
+id: univ_iwate-university-comprehensive-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 230
+tags:
+- 역사적으로 권위 있는 농학부
+- 지역 재건 및 재해 과학 분야의 선구자
+- 도쿄 농공대학과의 공동 수의학 프로그램
+- 모리오카의 저렴한 생활비와 높은 삶의 질
+thumbnail: /static/img/pin-univ.png
+title: 이와테 대학 (Iwate University)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

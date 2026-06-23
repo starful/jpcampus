@@ -5,6 +5,7 @@ basic_info:
   name_ja: 静岡大学
   website: https://www.shizuoka.ac.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Humanities and Social Sciences
 - Faculty of Education

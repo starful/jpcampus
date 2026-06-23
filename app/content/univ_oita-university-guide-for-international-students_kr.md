@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_oita-university-guide-for-international-students",
-  "title": "오이타 대학교",
-  "category": "university",
-  "tags": [
-    "특화된 지역 연구 이니셔티브",
-    "'온천 수도'의 저렴한 생활비",
-    "유학생을 위한 강력한 지원 시스템",
-    "최첨단 의학 및 엔지니어링 시너지"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大分大学",
-    "name_en": "Oita University",
-    "address": "700 Dannoharu, Oita City, Oita Prefecture 870-1192, Japan",
-    "capacity": 5600
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "교육학부",
-    "경제학부",
-    "의학부",
-    "이공학부",
-    "복지건강과학부"
-  ],
-  "features": [
-    "특화된 지역 연구 이니셔티브",
-    "'온천 수도'의 저렴한 생활비",
-    "유학생을 위한 강력한 지원 시스템",
-    "최첨단 의학 및 엔지니어링 시너지"
-  ],
-  "description": "규슈의 학문적 우수성을 향한 관문, 오이타 대학교에 대해 알아보세요. 저렴한 생활비, 강력한 유학생 지원, 그리고 혁신적인 연구 기회를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 700 Dannoharu, Oita City, Oita Prefecture 870-1192, Japan
+  capacity: 5600
+  name_en: Oita University
+  name_ja: 大分大学
+category: university
+date: '2026-02-13'
+description: 규슈의 학문적 우수성을 향한 관문, 오이타 대학교에 대해 알아보세요. 저렴한 생활비, 강력한 유학생 지원, 그리고 혁신적인
+  연구 기회를 제공합니다.
+faculties:
+- 교육학부
+- 경제학부
+- 의학부
+- 이공학부
+- 복지건강과학부
+features:
+- 특화된 지역 연구 이니셔티브
+- '''온천 수도''의 저렴한 생활비'
+- 유학생을 위한 강력한 지원 시스템
+- 최첨단 의학 및 엔지니어링 시너지
+id: univ_oita-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 245
+tags:
+- 특화된 지역 연구 이니셔티브
+- '''온천 수도''의 저렴한 생활비'
+- 유학생을 위한 강력한 지원 시스템
+- 최첨단 의학 및 엔지니어링 시너지
+thumbnail: /static/img/pin-univ.png
+title: 오이타 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요: 규슈 학문적 우수성의 관문

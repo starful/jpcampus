@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 1年3か月進学コース
   total_fees: 907500
+date: '2026-01-28'
 description: Nagoya SKY Japanese Language School provides a supportive environment
   for international students aiming for higher education in Japan, offering comprehensive
   language training, EJU preparation, and university counseling.

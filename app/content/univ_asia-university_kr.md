@@ -1,49 +1,42 @@
 ---
-{
-  "basic_info": {
-    "address": "〒180-8629 東京都武蔵野市境5-8",
-    "name_en": "Asia University",
-    "name_ja": "亜細亜大学",
-    "website": "https://www.asia-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of International Relations",
-    "Faculty of Urban Innovation"
-  ],
-  "features": [
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_asia-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "공식적으로 공개되지 않았지만, 일반적으로 경쟁률이 높습니다.",
-    "international_students": 200
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "아시아 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "description": "도쿄 무사시노에 위치한 아시아 대학은 글로벌 관점과 실무 능력을 키우는 데 주력하는 명문 사립 대학입니다. 영어 프로그램, 기숙사, 장학금 등 다양한 혜택을 제공합니다."
-}
+basic_info:
+  address: 〒180-8629 東京都武蔵野市境5-8
+  name_en: Asia University
+  name_ja: 亜細亜大学
+  website: https://www.asia-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 도쿄 무사시노에 위치한 아시아 대학은 글로벌 관점과 실무 능력을 키우는 데 주력하는 명문 사립 대학입니다. 영어 프로그램,
+  기숙사, 장학금 등 다양한 혜택을 제공합니다.
+faculties:
+- Faculty of Business Administration
+- Faculty of Economics
+- Faculty of Law
+- Faculty of International Relations
+- Faculty of Urban Innovation
+features:
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_asia-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 공식적으로 공개되지 않았지만, 일반적으로 경쟁률이 높습니다.
+  international_students: 200
+tags:
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 아시아 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 대학 소개

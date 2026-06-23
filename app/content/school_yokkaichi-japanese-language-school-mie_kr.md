@@ -1,58 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "三重県四日市市西新地13-13",
-    "capacity": 180,
-    "name_en": "Yokkaichi Japanese Language School",
-    "name_ja": "四日市日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学Ⅱコース",
-      "total_fees": 1355000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学Ⅰコース",
-      "total_fees": 1045000
-    }
-  ],
-  "description": "욧카이치 일본어학교는 체계적인 지원과 특별한 지역적 이점을 바탕으로 집중적인 학업 환경에서 특화된 대학 진학 준비 과정을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "특화된 대학 및 대학원 진학 과정",
-    "EJU 및 JLPT 집중 대비 과정",
-    "종합적인 교내 기숙사 시설 (1인실 이용 가능)",
-    "특정 학문 분야 트랙 (이학, 인문학, 미술 디자인)",
-    "회화 능력 향상 및 실용적인 비즈니스 일본어 집중 교육",
-    "풍부한 장학금 기회",
-    "단기 연수 프로그램"
-  ],
-  "id": "school_yokkaichi-japanese-language-school-mie",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.9702415,
-    "lng": 136.6199148
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=307",
-  "stats": {},
-  "tags": [
-    "Specialized University and Graduate School Progression",
-    "Dedicated EJU and JLPT Preparation Courses",
-    "Comprehensive On-site Dormitory Facilities (Single Rooms Available)",
-    "Specific Academic Tracks (Science, Liberal Arts, Art & Design)",
-    "Focus on Conversational Fluency and Practical Business Japanese",
-    "Generous Scholarship Opportunities",
-    "Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "욧카이치 일본어학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 三重県四日市市西新地13-13
+  capacity: 180
+  name_en: Yokkaichi Japanese Language School
+  name_ja: 四日市日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学Ⅱコース
+  total_fees: 1355000
+- admission_month: '10'
+  course_name: 進学Ⅰコース
+  total_fees: 1045000
+date: '2026-01-28'
+description: 욧카이치 일본어학교는 체계적인 지원과 특별한 지역적 이점을 바탕으로 집중적인 학업 환경에서 특화된 대학 진학 준비 과정을 제공합니다.
+faculties: []
+features:
+- 특화된 대학 및 대학원 진학 과정
+- EJU 및 JLPT 집중 대비 과정
+- 종합적인 교내 기숙사 시설 (1인실 이용 가능)
+- 특정 학문 분야 트랙 (이학, 인문학, 미술 디자인)
+- 회화 능력 향상 및 실용적인 비즈니스 일본어 집중 교육
+- 풍부한 장학금 기회
+- 단기 연수 프로그램
+id: school_yokkaichi-japanese-language-school-mie
+lang: kr
+layout: school
+location:
+  lat: 34.9702415
+  lng: 136.6199148
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=307
+stats: {}
+tags:
+- Specialized University and Graduate School Progression
+- Dedicated EJU and JLPT Preparation Courses
+- Comprehensive On-site Dormitory Facilities (Single Rooms Available)
+- Specific Academic Tracks (Science, Liberal Arts, Art & Design)
+- Focus on Conversational Fluency and Practical Business Japanese
+- Generous Scholarship Opportunities
+- Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: 욧카이치 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

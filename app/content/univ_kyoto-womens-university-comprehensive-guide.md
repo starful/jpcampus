@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-womens-university-comprehensive-guide",
-  "title": "Kyoto Women's University",
-  "category": "university",
-  "tags": [
-    "Historic Buddhist Foundation (Shin Buddhism)",
-    "Prestigious Home Economics Program",
-    "Located in the Higashiyama Cultural District",
-    "Pioneering Women's Data Science Faculty",
-    "Exceptional Job Placement Rate in Japan"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都女子大学",
-    "name_en": "Kyoto Women's University",
-    "address": "35 Kitahiyoshi-cho, Imakumano, Higashiyama-ku, Kyoto 605-8501, Japan",
-    "capacity": 6200
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Literature",
-    "Faculty of Developmental Education",
-    "Faculty of Home Economics",
-    "Faculty of Modern Society",
-    "Faculty of Law",
-    "Faculty of Data Science"
-  ],
-  "features": [
-    "Historic Buddhist Foundation (Shin Buddhism)",
-    "Prestigious Home Economics Program",
-    "Located in the Higashiyama Cultural District",
-    "Pioneering Women's Data Science Faculty",
-    "Exceptional Job Placement Rate in Japan"
-  ]
-}
+basic_info:
+  address: 35 Kitahiyoshi-cho, Imakumano, Higashiyama-ku, Kyoto 605-8501, Japan
+  capacity: 6200
+  name_en: Kyoto Women's University
+  name_ja: 京都女子大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Literature
+- Faculty of Developmental Education
+- Faculty of Home Economics
+- Faculty of Modern Society
+- Faculty of Law
+- Faculty of Data Science
+features:
+- Historic Buddhist Foundation (Shin Buddhism)
+- Prestigious Home Economics Program
+- Located in the Higashiyama Cultural District
+- Pioneering Women's Data Science Faculty
+- Exceptional Job Placement Rate in Japan
+id: univ_kyoto-womens-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 145
+tags:
+- Historic Buddhist Foundation (Shin Buddhism)
+- Prestigious Home Economics Program
+- Located in the Higashiyama Cultural District
+- Pioneering Women's Data Science Faculty
+- Exceptional Job Placement Rate in Japan
+thumbnail: /static/img/pin-univ.png
+title: Kyoto Women's University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview

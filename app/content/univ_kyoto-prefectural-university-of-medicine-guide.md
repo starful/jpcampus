@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyoto-prefectural-university-of-medicine-guide",
-  "title": "Kyoto Prefectural University of Medicine (2026 Guide)",
-  "category": "university",
-  "tags": [
-    "Established in 1872 with over 150 years of history",
-    "One of Japan's oldest and most prestigious medical institutions",
-    "Strategic location adjacent to the Kyoto Imperial Palace and Kamo River",
-    "Exceptional clinical training at the University Hospital",
-    "Pioneering research in oncology, cardiovascular medicine, and neuroscience"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "京都府立医科大学",
-    "name_en": "Kyoto Prefectural University of Medicine",
-    "address": "465 Kajii-cho, Kawaramachi-Hirokoji, Kamigyo-ku, Kyoto 602-8566, Japan",
-    "capacity": 107
-  },
-  "stats": {
-    "international_students": 38,
-    "acceptance_rate": "5-8%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Medicine",
-    "School of Nursing",
-    "Graduate School of Medical Science"
-  ],
-  "features": [
-    "Established in 1872 with over 150 years of history",
-    "One of Japan's oldest and most prestigious medical institutions",
-    "Strategic location adjacent to the Kyoto Imperial Palace and Kamo River",
-    "Exceptional clinical training at the University Hospital",
-    "Pioneering research in oncology, cardiovascular medicine, and neuroscience"
-  ],
-  "description": "Explore Kyoto Prefectural University of Medicine. Find 2026 admission guidelines, tuition fees, and helpful resources for international students.",
-  "seo_title": "Kyoto Prefectural University of Medicine 2026 | JP Campus",
-  "seo_description": "Your complete 2026 guide to Kyoto Prefectural University of Medicine. Get details on admission requirements, tuition, and living costs in Japan."
-}
+basic_info:
+  address: 465 Kajii-cho, Kawaramachi-Hirokoji, Kamigyo-ku, Kyoto 602-8566, Japan
+  capacity: 107
+  name_en: Kyoto Prefectural University of Medicine
+  name_ja: 京都府立医科大学
+category: university
+date: '2026-06-19'
+description: Explore Kyoto Prefectural University of Medicine. Find 2026 admission
+  guidelines, tuition fees, and helpful resources for international students.
+faculties:
+- School of Medicine
+- School of Nursing
+- Graduate School of Medical Science
+features:
+- Established in 1872 with over 150 years of history
+- One of Japan's oldest and most prestigious medical institutions
+- Strategic location adjacent to the Kyoto Imperial Palace and Kamo River
+- Exceptional clinical training at the University Hospital
+- Pioneering research in oncology, cardiovascular medicine, and neuroscience
+id: univ_kyoto-prefectural-university-of-medicine-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Your complete 2026 guide to Kyoto Prefectural University of Medicine.
+  Get details on admission requirements, tuition, and living costs in Japan.
+seo_title: Kyoto Prefectural University of Medicine 2026 | JP Campus
+stats:
+  acceptance_rate: 5-8%
+  international_students: 38
+tags:
+- Established in 1872 with over 150 years of history
+- One of Japan's oldest and most prestigious medical institutions
+- Strategic location adjacent to the Kyoto Imperial Palace and Kamo River
+- Exceptional clinical training at the University Hospital
+- Pioneering research in oncology, cardiovascular medicine, and neuroscience
+thumbnail: /static/img/pin-univ.png
+title: Kyoto Prefectural University of Medicine (2026 Guide)
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 University Overview
 

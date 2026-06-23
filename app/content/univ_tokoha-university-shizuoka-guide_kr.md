@@ -1,54 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokoha-university-shizuoka-guide",
-  "title": "토코하 대학교",
-  "description": "시즈오카현 최대 규모의 사립 종합대학으로, 지역 사회와의 긴밀한 연계와 높은 취업률, 그리고 수준 높은 교사 양성 및 보건 의료 프로그램을 자랑하는 토코하 대학교를 소개합니다.",
-  "category": "university",
-  "tags": [
-    "시즈오카현 최대 사립대",
-    "지역 사회 연계 및 취업 강점",
-    "멀티 캠퍼스 시스템",
-    "교사 양성 및 보건 의료 특화"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "常葉大学",
-    "name_en": "Tokoha University",
-    "address": "6-1 Yayoi-cho, Suruga-ku, Shizuoka-shi, Shizuoka 422-8581, Japan",
-    "capacity": "총 학생 수 약 7,500명"
-  },
-  "stats": {
-    "international_students": 142,
-    "acceptance_rate": "45-55% (유학생 전형 기준 추정치)"
-  },
-  "tuition": {
-    "admission_fee": 240000,
-    "yearly_tuition": 880000
-  },
-  "faculties": [
-    "교육학부",
-    "외국어학부",
-    "법학부",
-    "경제학부",
-    "경영학부",
-    "사회복지학부",
-    "보건의료학부",
-    "간호학부",
-    "건강영양학부"
-  ],
-  "features": [
-    "시즈오카현 최대 규모의 사립 대학교",
-    "지역 사회 연계 및 취업 지원 강화",
-    "전문화된 학습 환경을 제공하는 멀티 캠퍼스 시스템",
-    "최상위권 교사 양성 및 보건 의료 프로그램"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 6-1 Yayoi-cho, Suruga-ku, Shizuoka-shi, Shizuoka 422-8581, Japan
+  capacity: 총 학생 수 약 7,500명
+  name_en: Tokoha University
+  name_ja: 常葉大学
+category: university
+date: '2026-04-04'
+description: 시즈오카현 최대 규모의 사립 종합대학으로, 지역 사회와의 긴밀한 연계와 높은 취업률, 그리고 수준 높은 교사 양성 및 보건
+  의료 프로그램을 자랑하는 토코하 대학교를 소개합니다.
+faculties:
+- 교육학부
+- 외국어학부
+- 법학부
+- 경제학부
+- 경영학부
+- 사회복지학부
+- 보건의료학부
+- 간호학부
+- 건강영양학부
+features:
+- 시즈오카현 최대 규모의 사립 대학교
+- 지역 사회 연계 및 취업 지원 강화
+- 전문화된 학습 환경을 제공하는 멀티 캠퍼스 시스템
+- 최상위권 교사 양성 및 보건 의료 프로그램
+id: univ_tokoha-university-shizuoka-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (유학생 전형 기준 추정치)
+  international_students: 142
+tags:
+- 시즈오카현 최대 사립대
+- 지역 사회 연계 및 취업 강점
+- 멀티 캠퍼스 시스템
+- 교사 양성 및 보건 의료 특화
+thumbnail: /static/img/pin-univ.png
+title: 토코하 대학교
+tuition:
+  admission_fee: 240000
+  yearly_tuition: 880000
 ---
 
 ## 🏫 대학 개요

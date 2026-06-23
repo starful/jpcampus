@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_mie-prefectural-college-of-nursing",
-  "title": "Mie Prefectural College of Nursing",
-  "category": "university",
-  "tags": [
-    "Disaster Nursing Specialization",
-    "Top-tier National Exam Pass Rates",
-    "State-of-the-Art Clinical Simulation Center",
-    "Strong Community Health Focus"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "三重県立看護大学",
-    "name_en": "Mie Prefectural College of Nursing",
-    "address": "1-1-1 Yumegaoka, Tsu, Mie 514-0116, Japan",
-    "capacity": "450 students total"
-  },
-  "stats": {
-    "international_students": 2,
-    "acceptance_rate": "15-25%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Nursing",
-    "Graduate School of Nursing"
-  ],
-  "features": [
-    "Disaster Nursing Specialization",
-    "Top-tier National Exam Pass Rates",
-    "State-of-the-Art Clinical Simulation Center",
-    "Strong Community Health Focus"
-  ]
-}
+basic_info:
+  address: 1-1-1 Yumegaoka, Tsu, Mie 514-0116, Japan
+  capacity: 450 students total
+  name_en: Mie Prefectural College of Nursing
+  name_ja: 三重県立看護大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Nursing
+- Graduate School of Nursing
+features:
+- Disaster Nursing Specialization
+- Top-tier National Exam Pass Rates
+- State-of-the-Art Clinical Simulation Center
+- Strong Community Health Focus
+id: univ_mie-prefectural-college-of-nursing
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25%
+  international_students: 2
+tags:
+- Disaster Nursing Specialization
+- Top-tier National Exam Pass Rates
+- State-of-the-Art Clinical Simulation Center
+- Strong Community Health Focus
+thumbnail: /static/img/pin-univ.png
+title: Mie Prefectural College of Nursing
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: Excellence in Healthcare Education

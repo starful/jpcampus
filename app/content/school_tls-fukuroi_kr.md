@@ -1,66 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県袋井市上山梨1579-1",
-    "capacity": 150,
-    "name_en": "TLS Fukuroi",
-    "name_ja": "TLS袋井"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1104700
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1265700
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1425400
-    }
-  ],
-  "description": "TLS 후쿠로이는 일본에서의 고등 교육과 일상생활을 위해 학생들을 준비시키는 종합적인 일본어 교육을 제공합니다. 대학 진학 준비, 문화 체험, 취업 지원 및 기숙사 숙박 등의 특징이 있습니다.",
-  "faculties": [],
-  "features": [
-    "고등 교육 진학",
-    "일상 생활 지원",
-    "취업 지원",
-    "문화 체험",
-    "일본 관습",
-    "EJU 준비",
-    "기숙사"
-  ],
-  "id": "school_tls-fukuroi",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7914311,
-    "lng": 137.902376
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=536",
-  "stats": {
-    "capacity": 150,
-    "international_students": 0
-  },
-  "tags": [
-    "Advancement to Higher Education",
-    "Daily Life Support",
-    "Job Hunting Support",
-    "Cultural Experiences",
-    "Japanese Customs",
-    "EJU Preparation",
-    "Dormitory"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "TLS 후쿠로이",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 静岡県袋井市上山梨1579-1
+  capacity: 150
+  name_en: TLS Fukuroi
+  name_ja: TLS袋井
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1104700
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1265700
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1425400
+date: '2026-01-28'
+description: TLS 후쿠로이는 일본에서의 고등 교육과 일상생활을 위해 학생들을 준비시키는 종합적인 일본어 교육을 제공합니다. 대학 진학
+  준비, 문화 체험, 취업 지원 및 기숙사 숙박 등의 특징이 있습니다.
+faculties: []
+features:
+- 고등 교육 진학
+- 일상 생활 지원
+- 취업 지원
+- 문화 체험
+- 일본 관습
+- EJU 준비
+- 기숙사
+id: school_tls-fukuroi
+lang: kr
+layout: school
+location:
+  lat: 34.7914311
+  lng: 137.902376
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=536
+stats:
+  capacity: 150
+  international_students: 0
+tags:
+- Advancement to Higher Education
+- Daily Life Support
+- Job Hunting Support
+- Cultural Experiences
+- Japanese Customs
+- EJU Preparation
+- Dormitory
+thumbnail: /static/img/pin-school.png
+title: TLS 후쿠로이
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요

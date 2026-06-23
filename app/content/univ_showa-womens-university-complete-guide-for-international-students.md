@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_showa-womens-university-complete-guide-for-international-students",
-  "title": "Showa Women's University",
-  "category": "university",
-  "tags": [
-    "Joint campus with Temple University Japan (TUJ)",
-    "Ranked #1 for employment rate among women's universities in Japan",
-    "Mandatory or highly encouraged study abroad programs at Showa Boston",
-    "Located in the vibrant Sangenjaya district of Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "昭和女子大学",
-    "name_en": "Showa Women's University",
-    "address": "1-7-57 Taishido, Setagaya-ku, Tokyo 154-8533, Japan",
-    "capacity": "Approximately 6,000 undergraduate and graduate students"
-  },
-  "stats": {
-    "international_students": 285,
-    "acceptance_rate": "Estimated 45-55% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of International Studies",
-    "Faculty of Humanities and Culture",
-    "Faculty of Business and Design",
-    "Faculty of Global Business",
-    "Faculty of Environmental Science and Design",
-    "Faculty of Health Sciences"
-  ],
-  "features": [
-    "Joint campus with Temple University Japan (TUJ)",
-    "Ranked #1 for employment rate among women's universities in Japan",
-    "Mandatory or highly encouraged study abroad programs at Showa Boston",
-    "Located in the vibrant Sangenjaya district of Tokyo"
-  ]
-}
+basic_info:
+  address: 1-7-57 Taishido, Setagaya-ku, Tokyo 154-8533, Japan
+  capacity: Approximately 6,000 undergraduate and graduate students
+  name_en: Showa Women's University
+  name_ja: 昭和女子大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of International Studies
+- Faculty of Humanities and Culture
+- Faculty of Business and Design
+- Faculty of Global Business
+- Faculty of Environmental Science and Design
+- Faculty of Health Sciences
+features:
+- Joint campus with Temple University Japan (TUJ)
+- 'Ranked #1 for employment rate among women''s universities in Japan'
+- Mandatory or highly encouraged study abroad programs at Showa Boston
+- Located in the vibrant Sangenjaya district of Tokyo
+id: univ_showa-womens-university-complete-guide-for-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55% for international applicants
+  international_students: 285
+tags:
+- Joint campus with Temple University Japan (TUJ)
+- 'Ranked #1 for employment rate among women''s universities in Japan'
+- Mandatory or highly encouraged study abroad programs at Showa Boston
+- Located in the vibrant Sangenjaya district of Tokyo
+thumbnail: /static/img/pin-univ.png
+title: Showa Women's University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Pinnacle of Women's Education in Tokyo

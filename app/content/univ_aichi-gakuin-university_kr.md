@@ -1,55 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-gakuin-university",
-  "title": "아이치 가쿠인 대학 (Aichi Gakuin University)",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "조동종의 선(禪) 정신에 기반한 전인 교육",
-    "도심과 교외에 전략적으로 위치한 캠퍼스",
-    "일본 최고 수준의 치의학 및 의료 전문 학부",
-    "중부 지역 내 압도적인 취업 실적"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知学院大学",
-    "name_en": "Aichi Gakuin University",
-    "address": "12 Araike, Iwasaki-cho, Nisshin-shi, Aichi 470-0195, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "42%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Psychological Counseling",
-    "Faculty of Health and Social Services",
-    "Faculty of Commerce",
-    "Faculty of Management",
-    "Faculty of Economics",
-    "Faculty of Law",
-    "Faculty of Policy Studies",
-    "Faculty of Dentistry",
-    "Faculty of Pharmacy"
-  ],
-  "features": [
-    "조동종의 선(禪) 정신에 기반한 전인 교육",
-    "도심과 교외에 전략적으로 위치한 캠퍼스",
-    "일본 최고 수준의 치의학 및 의료 전문 학부",
-    "중부 지역 내 압도적인 취업 실적"
-  ],
-  "description": "일본 중부 지역을 대표하는 명문 사립대학교인 아이치 가쿠인 대학은 불교의 선(禪) 정신을 교육의 뿌리로 삼아 인격 형성과 실무 능력을 동시에 강조합니다. 나고야 중심부와 교외의 현대적인 캠퍼스, 그리고 일본 내에서 높은 명성을 자랑하는 치학부와 약학부를 갖추고 있으며, 특히 지역 산업과의 긴밀한 협력을 통해 압도적인 취업률을 자랑합니다."
-}
+basic_info:
+  address: 12 Araike, Iwasaki-cho, Nisshin-shi, Aichi 470-0195, Japan
+  capacity: null
+  name_en: Aichi Gakuin University
+  name_ja: 愛知学院大学
+category: university
+date: '2026-04-04'
+description: 일본 중부 지역을 대표하는 명문 사립대학교인 아이치 가쿠인 대학은 불교의 선(禪) 정신을 교육의 뿌리로 삼아 인격 형성과 실무
+  능력을 동시에 강조합니다. 나고야 중심부와 교외의 현대적인 캠퍼스, 그리고 일본 내에서 높은 명성을 자랑하는 치학부와 약학부를 갖추고 있으며,
+  특히 지역 산업과의 긴밀한 협력을 통해 압도적인 취업률을 자랑합니다.
+faculties:
+- Faculty of Letters
+- Faculty of Psychological Counseling
+- Faculty of Health and Social Services
+- Faculty of Commerce
+- Faculty of Management
+- Faculty of Economics
+- Faculty of Law
+- Faculty of Policy Studies
+- Faculty of Dentistry
+- Faculty of Pharmacy
+features:
+- 조동종의 선(禪) 정신에 기반한 전인 교육
+- 도심과 교외에 전략적으로 위치한 캠퍼스
+- 일본 최고 수준의 치의학 및 의료 전문 학부
+- 중부 지역 내 압도적인 취업 실적
+id: univ_aichi-gakuin-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 42%
+  international_students: 185
+tags:
+- 조동종의 선(禪) 정신에 기반한 전인 교육
+- 도심과 교외에 전략적으로 위치한 캠퍼스
+- 일본 최고 수준의 치의학 및 의료 전문 학부
+- 중부 지역 내 압도적인 취업 실적
+thumbnail: /static/img/pin-univ.png
+title: 아이치 가쿠인 대학 (Aichi Gakuin University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

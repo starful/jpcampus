@@ -1,63 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "千葉県君津市久保2-5-19",
-    "capacity": 112,
-    "name_en": "Tsubasa International Academy",
-    "name_ja": "つばさインターナショナル・アカデミー"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "일반1년코스",
-      "total_fees": 880000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "진학2년코스",
-      "total_fees": 1550000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "진학1년6개월코스",
-      "total_fees": 1210000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "교내 기숙사 시설",
-    "철저한 EJU 및 대학 진학 준비",
-    "학문적 일본어와 회화 일본어에 균형을 맞춘 커리큘럼",
-    "특화된 비즈니스 일본어 교육 트랙",
-    "치바현 키미츠시에 위치 (저렴한 생활비)",
-    "장기 및 단기 등록 옵션"
-  ],
-  "id": "school_tsubasa-international-academy-chiba",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.329447,
-    "lng": 139.9003722
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=615",
-  "stats": {
-    "capacity": 112,
-    "international_students": null
-  },
-  "tags": [
-    "On-site Dormitory Facilities",
-    "Rigorous EJU and University Progression Preparation",
-    "Balanced Curriculum focusing on Academic and Conversational Japanese",
-    "Specialized Business Japanese Training Track",
-    "Located in Kimitsu City, Chiba Prefecture (Lower Cost of Living)",
-    "Flexible Long-Term and Short-Term Enrollment Options"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "츠바사 인터내셔널 아카데미",
-  "description": "치바현 키미츠시에 위치한 츠바사 인터내셔널 아카데미는 EJU 시험 준비와 실용적인 일본어 능력 향상에 중점을 둡니다. 저렴한 학비와 기숙사 시설을 제공합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 千葉県君津市久保2-5-19
+  capacity: 112
+  name_en: Tsubasa International Academy
+  name_ja: つばさインターナショナル・アカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 일반1년코스
+  total_fees: 880000
+- admission_month: '4'
+  course_name: 진학2년코스
+  total_fees: 1550000
+- admission_month: '10'
+  course_name: 진학1년6개월코스
+  total_fees: 1210000
+date: '2026-01-28'
+description: 치바현 키미츠시에 위치한 츠바사 인터내셔널 아카데미는 EJU 시험 준비와 실용적인 일본어 능력 향상에 중점을 둡니다. 저렴한
+  학비와 기숙사 시설을 제공합니다.
+faculties: []
+features:
+- 교내 기숙사 시설
+- 철저한 EJU 및 대학 진학 준비
+- 학문적 일본어와 회화 일본어에 균형을 맞춘 커리큘럼
+- 특화된 비즈니스 일본어 교육 트랙
+- 치바현 키미츠시에 위치 (저렴한 생활비)
+- 장기 및 단기 등록 옵션
+id: school_tsubasa-international-academy-chiba
+lang: kr
+layout: school
+location:
+  lat: 35.329447
+  lng: 139.9003722
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=615
+stats:
+  capacity: 112
+  international_students: null
+tags:
+- On-site Dormitory Facilities
+- Rigorous EJU and University Progression Preparation
+- Balanced Curriculum focusing on Academic and Conversational Japanese
+- Specialized Business Japanese Training Track
+- Located in Kimitsu City, Chiba Prefecture (Lower Cost of Living)
+- Flexible Long-Term and Short-Term Enrollment Options
+thumbnail: /static/img/pin-school.png
+title: 츠바사 인터내셔널 아카데미
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

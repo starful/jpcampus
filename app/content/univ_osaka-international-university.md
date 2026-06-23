@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-international-university",
-  "title": "Osaka International University",
-  "category": "university",
-  "tags": [
-    "Global Campus Culture",
-    "Intensive Japanese Studies Program (Bekka)",
-    "Strong Career Support for Foreign Graduates",
-    "Located in the Heart of the Kansai Region",
-    "Personalized Academic Mentorship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪国際大学",
-    "name_en": "Osaka International University",
-    "address": "6-21-57 Tohda-cho, Moriguchi-shi, Osaka, 570-8555, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 385,
-    "acceptance_rate": "65-75% (International Selection)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Faculty of Business Administration",
-    "Faculty of International Studies",
-    "Faculty of Human Sciences",
-    "Department of International Liberal Arts",
-    "Department of Psychology",
-    "Department of Sports and Health Sciences"
-  ],
-  "features": [
-    "Global Campus Culture",
-    "Intensive Japanese Studies Program (Bekka)",
-    "Strong Career Support for Foreign Graduates",
-    "Located in the Heart of the Kansai Region",
-    "Personalized Academic Mentorship"
-  ]
-}
+basic_info:
+  address: 6-21-57 Tohda-cho, Moriguchi-shi, Osaka, 570-8555, Japan
+  capacity: null
+  name_en: Osaka International University
+  name_ja: 大阪国際大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Business Administration
+- Faculty of International Studies
+- Faculty of Human Sciences
+- Department of International Liberal Arts
+- Department of Psychology
+- Department of Sports and Health Sciences
+features:
+- Global Campus Culture
+- Intensive Japanese Studies Program (Bekka)
+- Strong Career Support for Foreign Graduates
+- Located in the Heart of the Kansai Region
+- Personalized Academic Mentorship
+id: univ_osaka-international-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (International Selection)
+  international_students: 385
+tags:
+- Global Campus Culture
+- Intensive Japanese Studies Program (Bekka)
+- Strong Career Support for Foreign Graduates
+- Located in the Heart of the Kansai Region
+- Personalized Academic Mentorship
+thumbnail: /static/img/pin-univ.png
+title: Osaka International University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview

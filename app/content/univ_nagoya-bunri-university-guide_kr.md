@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-bunri-university-guide",
-  "title": "나고야 분리 대학 (Nagoya Bunri University)",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "IT 기술과 보건 과학의 융합에 특화된 교육 과정",
-    "최첨단 멀티미디어 시설 및 전문 녹음 스튜디오 완비",
-    "일본 중부 경제권 내 강력한 취업 지원",
-    "외국인 유학생을 위한 풍부한 학비 감면 제도"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋文理大学",
-    "name_en": "Nagoya Bunri University",
-    "address": "302-1 Maeda, Inazawa-cho, Inazawa, Aichi 492-8520, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "65-75% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Information Media",
-    "Faculty of Health and Nutrition",
-    "Department of Food and Dietetics (Junior College Division)"
-  ],
-  "features": [
-    "IT 기술과 보건 과학의 융합에 특화된 교육 과정",
-    "최첨단 멀티미디어 시설 및 전문 녹음 스튜디오 완비",
-    "일본 중부 경제권 내 강력한 취업 지원",
-    "외국인 유학생을 위한 풍부한 학비 감면 제도"
-  ],
-  "description": "나고야 분리 대학(NBU)은 IT 미디어와 보건 영양 분야에 특화된 실무 중심 대학입니다. 나고야와 인접한 이나자와시에 위치하여 쾌적한 학습 환경과 강력한 취업 지원을 제공하며, 창의적인 인재를 양성합니다."
-}
+basic_info:
+  address: 302-1 Maeda, Inazawa-cho, Inazawa, Aichi 492-8520, Japan
+  capacity: 1200
+  name_en: Nagoya Bunri University
+  name_ja: 名古屋文理大学
+category: university
+date: '2026-04-04'
+description: 나고야 분리 대학(NBU)은 IT 미디어와 보건 영양 분야에 특화된 실무 중심 대학입니다. 나고야와 인접한 이나자와시에 위치하여
+  쾌적한 학습 환경과 강력한 취업 지원을 제공하며, 창의적인 인재를 양성합니다.
+faculties:
+- Faculty of Information Media
+- Faculty of Health and Nutrition
+- Department of Food and Dietetics (Junior College Division)
+features:
+- IT 기술과 보건 과학의 융합에 특화된 교육 과정
+- 최첨단 멀티미디어 시설 및 전문 녹음 스튜디오 완비
+- 일본 중부 경제권 내 강력한 취업 지원
+- 외국인 유학생을 위한 풍부한 학비 감면 제도
+id: univ_nagoya-bunri-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (Estimated)
+  international_students: 145
+tags:
+- IT 기술과 보건 과학의 융합에 특화된 교육 과정
+- 최첨단 멀티미디어 시설 및 전문 녹음 스튜디오 완비
+- 일본 중부 경제권 내 강력한 취업 지원
+- 외국인 유학생을 위한 풍부한 학비 감면 제도
+thumbnail: /static/img/pin-univ.png
+title: 나고야 분리 대학 (Nagoya Bunri University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

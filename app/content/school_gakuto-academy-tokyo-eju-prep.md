@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1291000
+date: '2026-01-28'
 faculties: []
 features:
 - Intensive EJU Preparation

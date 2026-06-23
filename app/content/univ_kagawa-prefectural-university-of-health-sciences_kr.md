@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kagawa-prefectural-university-of-health-sciences",
-  "title": "가가와현립보건의료대학",
-  "category": "university",
-  "tags": [
-    "높은 국가고시 합격률",
-    "지역 공립대학",
-    "최첨단 임상 시뮬레이션 센터",
-    "긴밀한 학생-교수 커뮤니티",
-    "지역사회 기반 의료 집중"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "香川県立保健医療大学",
-    "name_en": "Kagawa Prefectural University of Health Sciences",
-    "address": "281-1 Hara, Mure-cho, Takamatsu, Kagawa 761-0123, Japan",
-    "capacity": 480
-  },
-  "stats": {
-    "international_students": 2,
-    "acceptance_rate": "18%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "보건과학부",
-    "간호학과",
-    "임상병리학과",
-    "보건과학대학원"
-  ],
-  "features": [
-    "높은 국가고시 합격률",
-    "지역 공립대학",
-    "최첨단 임상 시뮬레이션 센터",
-    "긴밀한 학생-교수 커뮤니티",
-    "지역사회 기반 의료 집중"
-  ],
-  "description": "가가와현 다카마쓰시에 위치한 가가와현립보건의료대학은 시코쿠 지역의 의료 교육을 선도하는 명문 공립 대학입니다. 높은 국가고시 합격률, 최첨단 시설, 긴밀한 커뮤니티를 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 281-1 Hara, Mure-cho, Takamatsu, Kagawa 761-0123, Japan
+  capacity: 480
+  name_en: Kagawa Prefectural University of Health Sciences
+  name_ja: 香川県立保健医療大学
+category: university
+date: '2026-03-03'
+description: 가가와현 다카마쓰시에 위치한 가가와현립보건의료대학은 시코쿠 지역의 의료 교육을 선도하는 명문 공립 대학입니다. 높은 국가고시
+  합격률, 최첨단 시설, 긴밀한 커뮤니티를 자랑합니다.
+faculties:
+- 보건과학부
+- 간호학과
+- 임상병리학과
+- 보건과학대학원
+features:
+- 높은 국가고시 합격률
+- 지역 공립대학
+- 최첨단 임상 시뮬레이션 센터
+- 긴밀한 학생-교수 커뮤니티
+- 지역사회 기반 의료 집중
+id: univ_kagawa-prefectural-university-of-health-sciences
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 18%
+  international_students: 2
+tags:
+- 높은 국가고시 합격률
+- 지역 공립대학
+- 최첨단 임상 시뮬레이션 센터
+- 긴밀한 학생-교수 커뮤니티
+- 지역사회 기반 의료 집중
+thumbnail: /static/img/pin-univ.png
+title: 가가와현립보건의료대학
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

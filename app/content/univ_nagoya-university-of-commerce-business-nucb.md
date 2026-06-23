@@ -5,6 +5,7 @@ basic_info:
   name_en: Nagoya University of Commerce & Business
   name_ja: 名古屋商科大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Management (Business Administration)
 - Faculty of Commerce

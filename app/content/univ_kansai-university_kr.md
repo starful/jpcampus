@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "3-3-35 Yamate-cho, Suita-shi, Osaka 564-8680, Japan",
-    "name_en": "Kansai University",
-    "name_ja": "関西大学",
-    "website": "https://www.kansai-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Business and Commerce",
-    "Faculty of Sociology",
-    "Faculty of Policy Studies",
-    "Faculty of Foreign Language Studies",
-    "Faculty of Health and Well-being",
-    "Faculty of Informatics",
-    "Faculty of Safety Science",
-    "Faculty of Engineering Science",
-    "Faculty of Environmental and Urban Engineering",
-    "Faculty of Chemistry, Materials and Bioengineering"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_kansai-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "경쟁률이 매우 높으며, 학부 및 프로그램에 따라 크게 다릅니다.",
-    "international_students": 1043
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "간사이 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 270000,
-    "yearly_tuition": 1100000
-  }
-}
+basic_info:
+  address: 3-3-35 Yamate-cho, Suita-shi, Osaka 564-8680, Japan
+  name_en: Kansai University
+  name_ja: 関西大学
+  website: https://www.kansai-u.ac.jp/
+category: university
+date: '2026-01-28'
+faculties:
+- Faculty of Law
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Business and Commerce
+- Faculty of Sociology
+- Faculty of Policy Studies
+- Faculty of Foreign Language Studies
+- Faculty of Health and Well-being
+- Faculty of Informatics
+- Faculty of Safety Science
+- Faculty of Engineering Science
+- Faculty of Environmental and Urban Engineering
+- Faculty of Chemistry, Materials and Bioengineering
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_kansai-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 경쟁률이 매우 높으며, 학부 및 프로그램에 따라 크게 다릅니다.
+  international_students: 1043
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 간사이 대학
+translated: true
+tuition:
+  admission_fee: 270000
+  yearly_tuition: 1100000
 ---
 
 ## 대학 개요

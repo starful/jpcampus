@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sakushin-gakuin-university-guide",
-  "title": "사쿠신 가쿠인 대학교",
-  "description": "도치기현 우츠노미야시에 위치한 사쿠신 가쿠인 대학교는 지역사회와 밀착된 실용적인 교육과 유학생을 위한 세심한 지원을 제공하는 사립 대학교입니다.",
-  "category": "university",
-  "tags": [
-    "Strong Regional Business Networks",
-    "Advanced Psychological Research Facilities",
-    "Inclusive Small-Class Teaching Model",
-    "Comprehensive Career Support for International Graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "作新学院大学",
-    "name_en": "Sakushin Gakuin University",
-    "address": "908 Takebayashimachi, Utsunomiya, Tochigi 321-3236, Japan",
-    "capacity": 1500
-  },
-  "stats": {
-    "international_students": 68,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Management",
-    "Faculty of Human Culture",
-    "Graduate School of Management",
-    "Graduate School of Psychology"
-  ],
-  "features": [
-    "탄탄한 지역 비즈니스 네트워크",
-    "최첨단 심리학 연구 시설",
-    "소수 정예 밀착형 교육 모델",
-    "유학생을 위한 종합적인 취업 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 908 Takebayashimachi, Utsunomiya, Tochigi 321-3236, Japan
+  capacity: 1500
+  name_en: Sakushin Gakuin University
+  name_ja: 作新学院大学
+category: university
+date: '2026-03-24'
+description: 도치기현 우츠노미야시에 위치한 사쿠신 가쿠인 대학교는 지역사회와 밀착된 실용적인 교육과 유학생을 위한 세심한 지원을 제공하는
+  사립 대학교입니다.
+faculties:
+- Faculty of Management
+- Faculty of Human Culture
+- Graduate School of Management
+- Graduate School of Psychology
+features:
+- 탄탄한 지역 비즈니스 네트워크
+- 최첨단 심리학 연구 시설
+- 소수 정예 밀착형 교육 모델
+- 유학생을 위한 종합적인 취업 지원
+id: univ_sakushin-gakuin-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 68
+tags:
+- Strong Regional Business Networks
+- Advanced Psychological Research Facilities
+- Inclusive Small-Class Teaching Model
+- Comprehensive Career Support for International Graduates
+thumbnail: /static/img/pin-univ.png
+title: 사쿠신 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요: 사쿠신의 정신

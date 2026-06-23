@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1053000
+date: '2026-01-28'
 description: Ashiya Kokusai Gakuin Kobe School offers intensive, personalized EJU
   preparation in a small class setting with on-campus dormitory options, focusing
   on university progression.

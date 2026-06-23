@@ -1,49 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-yamanashi-guide",
-  "title": "야마나시대학교",
-  "category": "university",
-  "tags": [
-    "World-leading Hydrogen and Fuel Cell Research",
-    "Japan's only Institute of Enology and Viticulture (Wine Science)",
-    "Advanced Medical-Engineering Integration",
-    "Strategic proximity to Tokyo and Mt. Fuji"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山梨大学",
-    "name_en": "University of Yamanashi",
-    "address": "4-4-37 Takeda, Kofu, Yamanashi 400-8510, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Life and Environmental Sciences"
-  ],
-  "features": [
-    "세계적인 수준의 수소 및 연료 전지 연구",
-    "일본 유일의 양조 및 포도재배 연구소 (와인 과학)",
-    "첨단 의학-공학 통합",
-    "도쿄 및 후지산과의 전략적 근접성"
-  ],
-  "description": "야마나시대학교는 야마나시현 고후 분지의 중심부에 위치한 명문 국립 대학입니다. 수소 연료 전지 연구, 와인 과학, 의학-공학 융합 등 특화된 연구와 양질의 교육을 제공합니다. 도쿄에서 기차로 90분 거리에 위치해 접근성이 뛰어나며, 국제 학생들을 위한 다양한 지원 시스템을 갖추고 있습니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 4-4-37 Takeda, Kofu, Yamanashi 400-8510, Japan
+  capacity: null
+  name_en: University of Yamanashi
+  name_ja: 山梨大学
+category: university
+date: '2026-02-13'
+description: 야마나시대학교는 야마나시현 고후 분지의 중심부에 위치한 명문 국립 대학입니다. 수소 연료 전지 연구, 와인 과학, 의학-공학
+  융합 등 특화된 연구와 양질의 교육을 제공합니다. 도쿄에서 기차로 90분 거리에 위치해 접근성이 뛰어나며, 국제 학생들을 위한 다양한 지원 시스템을
+  갖추고 있습니다.
+faculties:
+- Faculty of Education
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Life and Environmental Sciences
+features:
+- 세계적인 수준의 수소 및 연료 전지 연구
+- 일본 유일의 양조 및 포도재배 연구소 (와인 과학)
+- 첨단 의학-공학 통합
+- 도쿄 및 후지산과의 전략적 근접성
+id: univ_university-of-yamanashi-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 245
+tags:
+- World-leading Hydrogen and Fuel Cell Research
+- Japan's only Institute of Enology and Viticulture (Wine Science)
+- Advanced Medical-Engineering Integration
+- Strategic proximity to Tokyo and Mt. Fuji
+thumbnail: /static/img/pin-univ.png
+title: 야마나시대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요

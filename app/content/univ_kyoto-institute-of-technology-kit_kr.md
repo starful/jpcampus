@@ -1,56 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "Matsugasaki, Sakyo-ku, Kyoto 606-8585, Japan",
-    "capacity": null,
-    "name_en": "Kyoto Institute of Technology",
-    "name_ja": "京都工芸繊維大学"
-  },
-  "category": "university",
-  "faculties": [
-    "School of Science and Technology",
-    "School of Design and Architecture",
-    "Department of Engineering Science",
-    "Department of Materials Science",
-    "Department of Applied Biology",
-    "Department of Information Science"
-  ],
-  "features": [
-    "고도로 특화된 국립대학",
-    "디자인과 공학 융합 교육의 선두주자",
-    "재료 과학 및 섬유 분야의 세계적인 연구",
-    "역사 및 문화 중심지인 교토에 위치",
-    "대부분의 학부 입학에 EJU 필요",
-    "제한적인 영어 강의 프로그램 (주로 대학원)"
-  ],
-  "id": "univ_kyoto-institute-of-technology-kit",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "25% (추정)",
-    "international_students": 350
-  },
-  "tags": [
-    "Highly specialized National University (Kokuritsu Daigaku)",
-    "Pioneer in integrated Design and Engineering education",
-    "World-class research in materials science and textiles",
-    "Located in the historical and cultural center of Kyoto",
-    "EJU Required for most Undergraduate admissions",
-    "Limited English-Taught Programs (primarily Graduate)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "교토 공예섬유대학 (Kyoto Institute of Technology)",
-  "description": "공학, 재료 과학, 예술 디자인의 독특한 융합을 추구하는 교토 공예섬유대학에 대해 알아보세요.",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: Matsugasaki, Sakyo-ku, Kyoto 606-8585, Japan
+  capacity: null
+  name_en: Kyoto Institute of Technology
+  name_ja: 京都工芸繊維大学
+category: university
+date: '2026-01-28'
+description: 공학, 재료 과학, 예술 디자인의 독특한 융합을 추구하는 교토 공예섬유대학에 대해 알아보세요.
+faculties:
+- School of Science and Technology
+- School of Design and Architecture
+- Department of Engineering Science
+- Department of Materials Science
+- Department of Applied Biology
+- Department of Information Science
+features:
+- 고도로 특화된 국립대학
+- 디자인과 공학 융합 교육의 선두주자
+- 재료 과학 및 섬유 분야의 세계적인 연구
+- 역사 및 문화 중심지인 교토에 위치
+- 대부분의 학부 입학에 EJU 필요
+- 제한적인 영어 강의 프로그램 (주로 대학원)
+id: univ_kyoto-institute-of-technology-kit
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25% (추정)
+  international_students: 350
+tags:
+- Highly specialized National University (Kokuritsu Daigaku)
+- Pioneer in integrated Design and Engineering education
+- World-class research in materials science and textiles
+- Located in the historical and cultural center of Kyoto
+- EJU Required for most Undergraduate admissions
+- Limited English-Taught Programs (primarily Graduate)
+thumbnail: /static/img/pin-univ.png
+title: 교토 공예섬유대학 (Kyoto Institute of Technology)
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 대학 개요

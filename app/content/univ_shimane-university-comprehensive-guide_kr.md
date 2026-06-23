@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shimane-university-comprehensive-guide",
-  "title": "시마네 대학교",
-  "category": "university",
-  "tags": [
-    "차세대 타타라 제철 프로젝트",
-    "산인 지역과의 강력한 연계",
-    "유학생을 위한 종합 지원",
-    "마쓰에와 이즈모의 아름다운 경관",
-    "환경 보존 분야의 높은 연구 성과"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "島根大学",
-    "name_en": "Shimane University",
-    "address": "1060 Nishikawatsu-cho, Matsue, Shimane 690-8504, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "법문학부",
-    "교육학부",
-    "의학부",
-    "총합이공학부",
-    "생명환경학부",
-    "인간과학부"
-  ],
-  "features": [
-    "차세대 타타라 제철 프로젝트",
-    "산인 지역과의 강력한 연계",
-    "유학생을 위한 종합 지원",
-    "마쓰에와 이즈모의 아름다운 경관",
-    "환경 보존 분야의 높은 연구 성과"
-  ],
-  "description": "일본 시마네현에 위치한 시마네 대학교에 대한 종합 안내입니다. 학부, 연구, 입학 정보 등을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1060 Nishikawatsu-cho, Matsue, Shimane 690-8504, Japan
+  capacity: null
+  name_en: Shimane University
+  name_ja: 島根大学
+category: university
+date: '2026-02-13'
+description: 일본 시마네현에 위치한 시마네 대학교에 대한 종합 안내입니다. 학부, 연구, 입학 정보 등을 제공합니다.
+faculties:
+- 법문학부
+- 교육학부
+- 의학부
+- 총합이공학부
+- 생명환경학부
+- 인간과학부
+features:
+- 차세대 타타라 제철 프로젝트
+- 산인 지역과의 강력한 연계
+- 유학생을 위한 종합 지원
+- 마쓰에와 이즈모의 아름다운 경관
+- 환경 보존 분야의 높은 연구 성과
+id: univ_shimane-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 245
+tags:
+- 차세대 타타라 제철 프로젝트
+- 산인 지역과의 강력한 연계
+- 유학생을 위한 종합 지원
+- 마쓰에와 이즈모의 아름다운 경관
+- 환경 보존 분야의 높은 연구 성과
+thumbnail: /static/img/pin-univ.png
+title: 시마네 대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

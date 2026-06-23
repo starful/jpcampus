@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gunma-prefectural-womens-university",
-  "title": "군마현립여자대학",
-  "category": "university",
-  "tags": [
-    "Small-group education with high faculty-to-student ratio",
-    "Unique specializations in Aesthetics and Art History",
-    "Affordable public university tuition rates",
-    "Strong local community engagement and employment support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "群馬県立女子大学",
-    "name_en": "Gunma Prefectural Women's University",
-    "address": "1395-1 Kaminote, Tamamura-machi, Sawa-gun, Gunma 370-1193, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "35-45% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Literature",
-    "Faculty of International Communication"
-  ],
-  "features": [
-    "높은 교수 대 학생 비율의 소규모 교육",
-    "미학 및 미술사 분야의 독특한 전문성",
-    "저렴한 국립대학 등록금",
-    "강력한 지역사회 참여 및 취업 지원"
-  ],
-  "description": "군마현 다마무라에 위치한 군마현립여자대학은 여성의 역량 강화와 지적 발전을 위해 설립된 명문 공립 교육기관입니다. 인문학 및 사회과학 분야에서 리더십, 비판적 사고, 전문 지식을 함양할 수 있는 특별한 환경을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1395-1 Kaminote, Tamamura-machi, Sawa-gun, Gunma 370-1193, Japan
+  capacity: null
+  name_en: Gunma Prefectural Women's University
+  name_ja: 群馬県立女子大学
+category: university
+date: '2026-03-03'
+description: 군마현 다마무라에 위치한 군마현립여자대학은 여성의 역량 강화와 지적 발전을 위해 설립된 명문 공립 교육기관입니다. 인문학 및
+  사회과학 분야에서 리더십, 비판적 사고, 전문 지식을 함양할 수 있는 특별한 환경을 제공합니다.
+faculties:
+- Faculty of Literature
+- Faculty of International Communication
+features:
+- 높은 교수 대 학생 비율의 소규모 교육
+- 미학 및 미술사 분야의 독특한 전문성
+- 저렴한 국립대학 등록금
+- 강력한 지역사회 참여 및 취업 지원
+id: univ_gunma-prefectural-womens-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated)
+  international_students: 35
+tags:
+- Small-group education with high faculty-to-student ratio
+- Unique specializations in Aesthetics and Art History
+- Affordable public university tuition rates
+- Strong local community engagement and employment support
+thumbnail: /static/img/pin-univ.png
+title: 군마현립여자대학
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

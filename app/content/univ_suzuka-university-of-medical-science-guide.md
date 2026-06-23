@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_suzuka-university-of-medical-science-guide",
-  "title": "Suzuka University of Medical Science",
-  "category": "university",
-  "tags": [
-    "First medical science university in Japan",
-    "Extremely high national exam pass rates",
-    "Advanced medical imaging and robotics technology",
-    "Close-knit community in a coastal scenic location"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鈴鹿医療科学大学",
-    "name_en": "Suzuka University of Medical Science",
-    "address": "1001-1 Kishioka-cho, Suzuka-shi, Mie 510-0293, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 32,
-    "acceptance_rate": "55-60%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1650000
-  },
-  "faculties": [
-    "Faculty of Health Sciences",
-    "Faculty of Medical Engineering",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "First medical science university in Japan",
-    "Extremely high national exam pass rates",
-    "Advanced medical imaging and robotics technology",
-    "Close-knit community in a coastal scenic location"
-  ]
-}
+basic_info:
+  address: 1001-1 Kishioka-cho, Suzuka-shi, Mie 510-0293, Japan
+  capacity: 3500
+  name_en: Suzuka University of Medical Science
+  name_ja: 鈴鹿医療科学大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Health Sciences
+- Faculty of Medical Engineering
+- Faculty of Pharmaceutical Sciences
+- Faculty of Nursing
+features:
+- First medical science university in Japan
+- Extremely high national exam pass rates
+- Advanced medical imaging and robotics technology
+- Close-knit community in a coastal scenic location
+id: univ_suzuka-university-of-medical-science-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-60%
+  international_students: 32
+tags:
+- First medical science university in Japan
+- Extremely high national exam pass rates
+- Advanced medical imaging and robotics technology
+- Close-knit community in a coastal scenic location
+thumbnail: /static/img/pin-univ.png
+title: Suzuka University of Medical Science
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1650000
 ---
 
 ## 🏫 University Overview

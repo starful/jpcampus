@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukushima-university-comprehensive-guide",
-  "title": "Fukushima University",
-  "category": "university",
-  "tags": [
-    "Unique Interdisciplinary 'Gakugun' System",
-    "Global Leader in Environmental and Radioactive Research",
-    "Strong Local Community Integration and Disaster Recovery Focus",
-    "Affordable Cost of Living and Comprehensive International Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福島大学",
-    "name_en": "Fukushima University",
-    "address": "1 Kanayagawa, Fukushima City, Fukushima Prefecture 960-1296, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 142,
-    "acceptance_rate": "25-35% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Human Development and Culture",
-    "Faculty of Administration and Social Sciences",
-    "Faculty of Economics and Business Administration",
-    "Faculty of Symbiotic Systems Science",
-    "Faculty of Food and Agricultural Sciences"
-  ],
-  "features": [
-    "Unique Interdisciplinary 'Gakugun' System",
-    "Global Leader in Environmental and Radioactive Research",
-    "Strong Local Community Integration and Disaster Recovery Focus",
-    "Affordable Cost of Living and Comprehensive International Support"
-  ]
-}
+basic_info:
+  address: 1 Kanayagawa, Fukushima City, Fukushima Prefecture 960-1296, Japan
+  capacity: null
+  name_en: Fukushima University
+  name_ja: 福島大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Human Development and Culture
+- Faculty of Administration and Social Sciences
+- Faculty of Economics and Business Administration
+- Faculty of Symbiotic Systems Science
+- Faculty of Food and Agricultural Sciences
+features:
+- Unique Interdisciplinary 'Gakugun' System
+- Global Leader in Environmental and Radioactive Research
+- Strong Local Community Integration and Disaster Recovery Focus
+- Affordable Cost of Living and Comprehensive International Support
+id: univ_fukushima-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (Estimated)
+  international_students: 142
+tags:
+- Unique Interdisciplinary 'Gakugun' System
+- Global Leader in Environmental and Radioactive Research
+- Strong Local Community Integration and Disaster Recovery Focus
+- Affordable Cost of Living and Comprehensive International Support
+thumbnail: /static/img/pin-univ.png
+title: Fukushima University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

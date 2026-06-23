@@ -1,54 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okayama-university-of-science-guide",
-  "title": "오카야마 이과대학",
-  "description": "서일본 지역을 대표하는 이공계 명문 사립 대학으로, 세계적인 공룡학 연구소와 일본 사립대 최초의 수의학부를 보유한 실무 중심의 대학입니다.",
-  "category": "university",
-  "tags": [
-    "세계적인 공룡학 연구소",
-    "사립대 최고 수준의 연구 시설",
-    "유학생을 위한 세심한 글로벌 지원",
-    "이공계 졸업생의 높은 취업률",
-    "오카야마 시내가 내려다보이는 아름다운 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡山理科大学",
-    "name_en": "Okayama University of Science",
-    "address": "1-1 Ridai-cho, Kita-ku, Okayama-shi, Okayama, 700-0005, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 450,
-    "acceptance_rate": "Estimated 45-60% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 220000,
-    "yearly_tuition": 1450000
-  },
-  "faculties": [
-    "이학부",
-    "공학부",
-    "정보학부",
-    "생물지구학부",
-    "교육학부",
-    "경영학부",
-    "수의학부"
-  ],
-  "features": [
-    "세계적인 수준의 공룡학 연구소 보유",
-    "일본 사립대 최고 수준의 이공계 연구 시설",
-    "유학생을 위한 전문적인 글로벌 지원 체계",
-    "이공계 졸업생의 높은 취업률 보장",
-    "오카야마 시내가 한눈에 내려다보이는 아름다운 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Ridai-cho, Kita-ku, Okayama-shi, Okayama, 700-0005, Japan
+  capacity: null
+  name_en: Okayama University of Science
+  name_ja: 岡山理科大学
+category: university
+date: '2026-03-15'
+description: 서일본 지역을 대표하는 이공계 명문 사립 대학으로, 세계적인 공룡학 연구소와 일본 사립대 최초의 수의학부를 보유한 실무 중심의
+  대학입니다.
+faculties:
+- 이학부
+- 공학부
+- 정보학부
+- 생물지구학부
+- 교육학부
+- 경영학부
+- 수의학부
+features:
+- 세계적인 수준의 공룡학 연구소 보유
+- 일본 사립대 최고 수준의 이공계 연구 시설
+- 유학생을 위한 전문적인 글로벌 지원 체계
+- 이공계 졸업생의 높은 취업률 보장
+- 오카야마 시내가 한눈에 내려다보이는 아름다운 캠퍼스
+id: univ_okayama-university-of-science-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-60% for International Applicants
+  international_students: 450
+tags:
+- 세계적인 공룡학 연구소
+- 사립대 최고 수준의 연구 시설
+- 유학생을 위한 세심한 글로벌 지원
+- 이공계 졸업생의 높은 취업률
+- 오카야마 시내가 내려다보이는 아름다운 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 오카야마 이과대학
+tuition:
+  admission_fee: 220000
+  yearly_tuition: 1450000
 ---
 
 ## 🏫 대학 개요

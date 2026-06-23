@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chiba-institute-of-technology-guide",
-  "title": "Chiba Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Oldest private technical university in Japan",
-    "World-class robotics research at fuRo",
-    "Cutting-edge Planetary Exploration Research Center (PERC)",
-    "High employment rate for international graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "千葉工業大学",
-    "name_en": "Chiba Institute of Technology",
-    "address": "2-17-1 Tsudanuma, Narashino, Chiba 275-0016, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 214,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1615000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Creative Engineering",
-    "Faculty of Advanced Engineering",
-    "Faculty of Information and Computer Science",
-    "Faculty of Social Systems Science"
-  ],
-  "features": [
-    "Oldest private technical university in Japan",
-    "World-class robotics research at fuRo",
-    "Cutting-edge Planetary Exploration Research Center (PERC)",
-    "High employment rate for international graduates"
-  ]
-}
+basic_info:
+  address: 2-17-1 Tsudanuma, Narashino, Chiba 275-0016, Japan
+  capacity: null
+  name_en: Chiba Institute of Technology
+  name_ja: 千葉工業大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Engineering
+- Faculty of Creative Engineering
+- Faculty of Advanced Engineering
+- Faculty of Information and Computer Science
+- Faculty of Social Systems Science
+features:
+- Oldest private technical university in Japan
+- World-class robotics research at fuRo
+- Cutting-edge Planetary Exploration Research Center (PERC)
+- High employment rate for international graduates
+id: univ_chiba-institute-of-technology-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 214
+tags:
+- Oldest private technical university in Japan
+- World-class robotics research at fuRo
+- Cutting-edge Planetary Exploration Research Center (PERC)
+- High employment rate for international graduates
+thumbnail: /static/img/pin-univ.png
+title: Chiba Institute of Technology
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1615000
 ---
 
 ## 🏫 University Overview: The Legacy of Innovation

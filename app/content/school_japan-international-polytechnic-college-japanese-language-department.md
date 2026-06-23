@@ -15,6 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 2-Year Course
   total_fees: 1339000
+date: '2026-01-28'
 faculties: []
 features:
 - Academic Progression Focus (University & Vocational)

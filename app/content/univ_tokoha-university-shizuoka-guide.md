@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokoha-university-shizuoka-guide",
-  "title": "Tokoha University",
-  "category": "university",
-  "tags": [
-    "Largest private university in Shizuoka Prefecture",
-    "Strong emphasis on local community engagement and employment",
-    "Multi-campus system providing specialized learning environments",
-    "Top-tier teacher training and healthcare programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "常葉大学",
-    "name_en": "Tokoha University",
-    "address": "6-1 Yayoi-cho, Suruga-ku, Shizuoka-shi, Shizuoka 422-8581, Japan",
-    "capacity": "Approximately 7,500 total students"
-  },
-  "stats": {
-    "international_students": 142,
-    "acceptance_rate": "45-55% (Estimated based on international tracks)"
-  },
-  "tuition": {
-    "admission_fee": 240000,
-    "yearly_tuition": 880000
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Foreign Studies",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Management",
-    "Faculty of Social Welfare",
-    "Faculty of Health Sciences",
-    "Faculty of Nursing",
-    "Faculty of Nutritional Sciences"
-  ],
-  "features": [
-    "Largest private university in Shizuoka Prefecture",
-    "Strong emphasis on local community engagement and employment",
-    "Multi-campus system providing specialized learning environments",
-    "Top-tier teacher training and healthcare programs"
-  ]
-}
+basic_info:
+  address: 6-1 Yayoi-cho, Suruga-ku, Shizuoka-shi, Shizuoka 422-8581, Japan
+  capacity: Approximately 7,500 total students
+  name_en: Tokoha University
+  name_ja: 常葉大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Education
+- Faculty of Foreign Studies
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Management
+- Faculty of Social Welfare
+- Faculty of Health Sciences
+- Faculty of Nursing
+- Faculty of Nutritional Sciences
+features:
+- Largest private university in Shizuoka Prefecture
+- Strong emphasis on local community engagement and employment
+- Multi-campus system providing specialized learning environments
+- Top-tier teacher training and healthcare programs
+id: univ_tokoha-university-shizuoka-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Estimated based on international tracks)
+  international_students: 142
+tags:
+- Largest private university in Shizuoka Prefecture
+- Strong emphasis on local community engagement and employment
+- Multi-campus system providing specialized learning environments
+- Top-tier teacher training and healthcare programs
+thumbnail: /static/img/pin-univ.png
+title: Tokoha University
+tuition:
+  admission_fee: 240000
+  yearly_tuition: 880000
 ---
 
 ## 🏫 University Overview

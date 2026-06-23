@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.5年コース
   total_fees: 1015000
+date: '2026-01-28'
 description: International Information Business College offers comprehensive Japanese
   language programs and university preparatory courses in Utsunomiya, Tochigi, providing
   a supportive environment for international students pursuing higher education in

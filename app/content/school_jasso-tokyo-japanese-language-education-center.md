@@ -19,6 +19,7 @@ courses:
 - admission_month: '10'
   course_name: 進学課程1年半コース
   total_fees: 1192337
+date: '2026-01-28'
 faculties: []
 features:
 - Government-Affiliated Public Institution (JASSO/MEXT)

@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanto-gakuen-university",
-  "title": "칸토가쿠엔대학교",
-  "category": "university",
-  "tags": [
-    "외국인 유학생을 위한 전문 지원 시스템",
-    "군마현 오타시(산업 중심지)의 전략적 위치",
-    "실천적인 지역 활성화 커리큘럼",
-    "제조업 및 서비스업 분야의 강력한 취업 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "関東学園大学",
-    "name_en": "Kanto Gakuen University",
-    "address": "200 Fujiagu-cho, Ota-shi, Gunma 373-8515, Japan",
-    "capacity": 1000
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "경제학부 (경제학과)",
-    "경제학부 (경영학과)"
-  ],
-  "features": [
-    "외국인 유학생을 위한 전문 지원 시스템",
-    "군마현 오타시(산업 중심지)의 전략적 위치",
-    "실천적인 지역 활성화 커리큘럼",
-    "제조업 및 서비스업 분야의 강력한 취업 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 200 Fujiagu-cho, Ota-shi, Gunma 373-8515, Japan
+  capacity: 1000
+  name_en: Kanto Gakuen University
+  name_ja: 関東学園大学
+category: university
+date: '2026-03-24'
+faculties:
+- 경제학부 (경제학과)
+- 경제학부 (경영학과)
+features:
+- 외국인 유학생을 위한 전문 지원 시스템
+- 군마현 오타시(산업 중심지)의 전략적 위치
+- 실천적인 지역 활성화 커리큘럼
+- 제조업 및 서비스업 분야의 강력한 취업 지원
+id: univ_kanto-gakuen-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 145
+tags:
+- 외국인 유학생을 위한 전문 지원 시스템
+- 군마현 오타시(산업 중심지)의 전략적 위치
+- 실천적인 지역 활성화 커리큘럼
+- 제조업 및 서비스업 분야의 강력한 취업 지원
+thumbnail: /static/img/pin-univ.png
+title: 칸토가쿠엔대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 대학 개요: 지역 사회의 우수 인재를 양성하는 관문

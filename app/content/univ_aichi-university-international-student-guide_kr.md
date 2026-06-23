@@ -1,55 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "4-60-6 Hiraike-cho, Nakamura-ku, Nagoya-shi, Aichi 453-8701, Japan (Nagoya Campus)",
-    "capacity": null,
-    "name_en": "Aichi University",
-    "name_ja": "愛知大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Contemporary China Studies",
-    "Faculty of International Communication",
-    "Faculty of Literature",
-    "Faculty of Regional Policy",
-    "Faculty of Education"
-  ],
-  "features": [
-    "중국 연구 및 동아시아 관계에 대한 강력한 집중",
-    "듀얼 캠퍼스 시스템 (도심 나고야 및 전통적인 도요하시)",
-    "사비 유학생을 위한 종합 장학금 제도",
-    "주요 입학 트랙에 EJU 필수",
-    "특화된 언어 및 국제 교류 프로그램의 높은 등록률"
-  ],
-  "id": "univ_aichi-university-international-student-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "35-40%",
-    "international_students": 550
-  },
-  "tags": [
-    "Strong Focus on China Studies and East Asian Relations",
-    "Dual Campus System (Urban Nagoya and Traditional Toyohashi)",
-    "Comprehensive Scholarship System for Privately Funded Students",
-    "EJU Required for Primary Admission Tracks",
-    "High Enrollment in Specialized Language and International Exchange Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "아이치 대학교",
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "description": "아이치현 나고야와 도요하시에 캠퍼스를 둔 아이치 대학교는 중국 연구에 강점을 가진 사립 대학교입니다."
-}
+basic_info:
+  address: 4-60-6 Hiraike-cho, Nakamura-ku, Nagoya-shi, Aichi 453-8701, Japan (Nagoya
+    Campus)
+  capacity: null
+  name_en: Aichi University
+  name_ja: 愛知大学
+category: university
+date: '2026-01-28'
+description: 아이치현 나고야와 도요하시에 캠퍼스를 둔 아이치 대학교는 중국 연구에 강점을 가진 사립 대학교입니다.
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Contemporary China Studies
+- Faculty of International Communication
+- Faculty of Literature
+- Faculty of Regional Policy
+- Faculty of Education
+features:
+- 중국 연구 및 동아시아 관계에 대한 강력한 집중
+- 듀얼 캠퍼스 시스템 (도심 나고야 및 전통적인 도요하시)
+- 사비 유학생을 위한 종합 장학금 제도
+- 주요 입학 트랙에 EJU 필수
+- 특화된 언어 및 국제 교류 프로그램의 높은 등록률
+id: univ_aichi-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-40%
+  international_students: 550
+tags:
+- Strong Focus on China Studies and East Asian Relations
+- Dual Campus System (Urban Nagoya and Traditional Toyohashi)
+- Comprehensive Scholarship System for Privately Funded Students
+- EJU Required for Primary Admission Tracks
+- High Enrollment in Specialized Language and International Exchange Programs
+thumbnail: /static/img/pin-univ.png
+title: 아이치 대학교
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학교 개요

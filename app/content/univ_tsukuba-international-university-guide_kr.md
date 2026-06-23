@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tsukuba-international-university-guide",
-  "title": "쓰쿠바국제대학교 (Tsukuba International University)",
-  "category": "university",
-  "tags": [
-    "Specialized Healthcare Training",
-    "High National Examination Pass Rates",
-    "Proximity to Tsukuba Science City",
-    "Hands-on Clinical Practice"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "つくば国際大学",
-    "name_en": "Tsukuba International University",
-    "address": "6-20-1 Manabe, Tsuchiura, Ibaraki 300-0051, Japan",
-    "capacity": 2400
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "Faculty of Health Sciences",
-    "Faculty of Medical Technology",
-    "Faculty of Health and Welfare"
-  ],
-  "features": [
-    "전문 의료 보건 교육",
-    "높은 국가시험 합격률",
-    "쓰쿠바 연구학원도시와 인접",
-    "실무 중심의 임상 실습"
-  ],
-  "description": "쓰쿠바국제대학교(TIU)는 의료, 보건, 복지 분야에 특화된 일본의 사립 대학교입니다. 높은 국가시험 합격률과 실습 중심의 교육을 통해 일본 의료계 진출을 꿈꾸는 학생들에게 최적의 환경을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 6-20-1 Manabe, Tsuchiura, Ibaraki 300-0051, Japan
+  capacity: 2400
+  name_en: Tsukuba International University
+  name_ja: つくば国際大学
+category: university
+date: '2026-03-24'
+description: 쓰쿠바국제대학교(TIU)는 의료, 보건, 복지 분야에 특화된 일본의 사립 대학교입니다. 높은 국가시험 합격률과 실습 중심의
+  교육을 통해 일본 의료계 진출을 꿈꾸는 학생들에게 최적의 환경을 제공합니다.
+faculties:
+- Faculty of Health Sciences
+- Faculty of Medical Technology
+- Faculty of Health and Welfare
+features:
+- 전문 의료 보건 교육
+- 높은 국가시험 합격률
+- 쓰쿠바 연구학원도시와 인접
+- 실무 중심의 임상 실습
+id: univ_tsukuba-international-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 45
+tags:
+- Specialized Healthcare Training
+- High National Examination Pass Rates
+- Proximity to Tsukuba Science City
+- Hands-on Clinical Practice
+thumbnail: /static/img/pin-univ.png
+title: 쓰쿠바국제대학교 (Tsukuba International University)
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 대학 개요

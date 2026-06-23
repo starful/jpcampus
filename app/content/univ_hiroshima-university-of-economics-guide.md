@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-university-of-economics-guide",
-  "title": "Hiroshima University of Economics",
-  "category": "university",
-  "tags": [
-    "Koudokan Project-Based Learning Initiative",
-    "Specialized Focus on Business and Economics",
-    "Strong Ties to Local Hiroshima Industry",
-    "Comprehensive Japanese Language Support for Foreign Students"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島経済大学",
-    "name_en": "Hiroshima University of Economics",
-    "address": "5-37-1 Gion, Asaminami-ku, Hiroshima, 731-0192, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Department of Economics",
-    "Department of Management",
-    "Department of Business Administration",
-    "Department of Media and Business",
-    "Department of Sports Management"
-  ],
-  "features": [
-    "Koudokan Project-Based Learning Initiative",
-    "Specialized Focus on Business and Economics",
-    "Strong Ties to Local Hiroshima Industry",
-    "Comprehensive Japanese Language Support for Foreign Students"
-  ]
-}
+basic_info:
+  address: 5-37-1 Gion, Asaminami-ku, Hiroshima, 731-0192, Japan
+  capacity: null
+  name_en: Hiroshima University of Economics
+  name_ja: 広島経済大学
+category: university
+date: '2026-03-15'
+faculties:
+- Department of Economics
+- Department of Management
+- Department of Business Administration
+- Department of Media and Business
+- Department of Sports Management
+features:
+- Koudokan Project-Based Learning Initiative
+- Specialized Focus on Business and Economics
+- Strong Ties to Local Hiroshima Industry
+- Comprehensive Japanese Language Support for Foreign Students
+id: univ_hiroshima-university-of-economics-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 145
+tags:
+- Koudokan Project-Based Learning Initiative
+- Specialized Focus on Business and Economics
+- Strong Ties to Local Hiroshima Industry
+- Comprehensive Japanese Language Support for Foreign Students
+thumbnail: /static/img/pin-univ.png
+title: Hiroshima University of Economics
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview: The Pinnacle of Practical Business Education in Western Japan

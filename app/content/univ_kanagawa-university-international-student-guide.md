@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanagawa-university-international-student-guide",
-  "title": "Kanagawa University",
-  "category": "university",
-  "tags": [
-    "State-of-the-Art Minato Mirai Global Campus",
-    "Strong Yoneda Scholarship System",
-    "Comprehensive Japanese Language Support",
-    "High Graduate Employment Rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神奈川大学",
-    "name_en": "Kanagawa University",
-    "address": "3-27-1 Rokkakubashi, Kanagawa-ku, Yokohama, Kanagawa 221-8686, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": "Approximately 800",
-    "acceptance_rate": "35-45% (Estimated based on faculty-specific data)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "Law",
-    "Economics",
-    "Business Administration",
-    "Foreign Languages",
-    "Humanities",
-    "Science",
-    "Engineering",
-    "Architecture",
-    "Health and Physical Education",
-    "Cross-Cultural and Japanese Studies"
-  ],
-  "features": [
-    "State-of-the-Art Minato Mirai Global Campus",
-    "Strong Yoneda Scholarship System",
-    "Comprehensive Japanese Language Support",
-    "High Graduate Employment Rates"
-  ]
-}
+basic_info:
+  address: 3-27-1 Rokkakubashi, Kanagawa-ku, Yokohama, Kanagawa 221-8686, Japan
+  capacity: null
+  name_en: Kanagawa University
+  name_ja: 神奈川大学
+category: university
+date: '2026-02-13'
+faculties:
+- Law
+- Economics
+- Business Administration
+- Foreign Languages
+- Humanities
+- Science
+- Engineering
+- Architecture
+- Health and Physical Education
+- Cross-Cultural and Japanese Studies
+features:
+- State-of-the-Art Minato Mirai Global Campus
+- Strong Yoneda Scholarship System
+- Comprehensive Japanese Language Support
+- High Graduate Employment Rates
+id: univ_kanagawa-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (Estimated based on faculty-specific data)
+  international_students: Approximately 800
+tags:
+- State-of-the-Art Minato Mirai Global Campus
+- Strong Yoneda Scholarship System
+- Comprehensive Japanese Language Support
+- High Graduate Employment Rates
+thumbnail: /static/img/pin-univ.png
+title: Kanagawa University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 University Overview: The Spirit of 'Jindai'

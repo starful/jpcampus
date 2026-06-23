@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tezukayama-gakuin-university",
-  "title": "데즈카야마 가쿠인 대학교",
-  "description": "100년 이상의 전통을 자랑하는 오사카의 명문 사립대학교로, 심리학과 식품영양학 분야에서 높은 명성을 보유하고 있으며 학생 개개인의 역량을 키워주는 밀착형 교육을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "간사이 지역의 유서 깊은 전통",
-    "인지도 높은 심리학부",
-    "강력한 식품영양학 프로그램",
-    "개인별 맞춤 소규모 교육"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "帝塚山学院大学",
-    "name_en": "Tezukayama Gakuin University",
-    "address": "2-1-1 Risacho, Minami-ku, Sakai, Osaka 590-0113, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 85,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Faculty of Psychology",
-    "Faculty of Food and Health",
-    "Graduate School of Human Sciences"
-  ],
-  "features": [
-    "간사이 지역의 유서 깊은 전통",
-    "인지도 높은 심리학부",
-    "강력한 식품영양학 프로그램",
-    "개인별 맞춤 소규모 교육"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1-1 Risacho, Minami-ku, Sakai, Osaka 590-0113, Japan
+  capacity: null
+  name_en: Tezukayama Gakuin University
+  name_ja: 帝塚山学院大学
+category: university
+date: '2026-04-19'
+description: 100년 이상의 전통을 자랑하는 오사카의 명문 사립대학교로, 심리학과 식품영양학 분야에서 높은 명성을 보유하고 있으며 학생
+  개개인의 역량을 키워주는 밀착형 교육을 제공합니다.
+faculties:
+- Faculty of Liberal Arts
+- Faculty of Psychology
+- Faculty of Food and Health
+- Graduate School of Human Sciences
+features:
+- 간사이 지역의 유서 깊은 전통
+- 인지도 높은 심리학부
+- 강력한 식품영양학 프로그램
+- 개인별 맞춤 소규모 교육
+id: univ_tezukayama-gakuin-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 85
+tags:
+- 간사이 지역의 유서 깊은 전통
+- 인지도 높은 심리학부
+- 강력한 식품영양학 프로그램
+- 개인별 맞춤 소규모 교육
+thumbnail: /static/img/pin-univ.png
+title: 데즈카야마 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

@@ -5,6 +5,7 @@ basic_info:
   name_ja: 慶應義塾大学
   website: https://www.keio.ac.jp/
 category: university
+date: '2026-06-19'
 description: Complete guide to Keio University. Learn about English-taught programs,
   campus life, admissions, and tuition fees for international students.
 faculties:
@@ -31,6 +32,9 @@ layout: school
 location:
   lat: 35.6492141
   lng: 139.7418255
+seo_description: Explore Keio University in Tokyo. Find comprehensive info on admissions,
+  English programs, tuition, and support for international students on JP Campus.
+seo_title: 'Keio University Guide: Admissions, Programs & Fees | JP Campus'
 stats:
   acceptance_rate: 10%
   international_students: 2000
@@ -46,11 +50,7 @@ translated: true
 tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
-seo_title: 'Keio University Guide: Admissions, Programs & Fees | JP Campus'
-seo_description: Explore Keio University in Tokyo. Find comprehensive info on admissions,
-  English programs, tuition, and support for international students on JP Campus.
 ---
-
 
 ## University Overview
 

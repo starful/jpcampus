@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学D
   total_fees: 1005000
+date: '2026-01-28'
 description: JSL Nihon Academy in Okinawa offers a unique learning environment for
   international students, providing comprehensive support for university entrance,
   cultural immersion, and career development.

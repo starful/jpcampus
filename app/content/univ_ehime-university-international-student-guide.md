@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ehime-university-international-student-guide",
-  "title": "Ehime University",
-  "category": "university",
-  "tags": [
-    "World-class Geodynamics Research Center (GRC)",
-    "Strong focus on regional revitalization and industrial collaboration",
-    "Located in Matsuyama, one of Japan's most livable and affordable cities",
-    "Advanced research in Proteo-Science and Marine Environmental Studies"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛媛大学",
-    "name_en": "Ehime University",
-    "address": "3 Bunkyo-cho, Matsuyama, Ehime 790-8577, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Law and Letters",
-    "Faculty of Education",
-    "Faculty of Science",
-    "School of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Agriculture",
-    "Faculty of Collaborative Regional Innovation"
-  ],
-  "features": [
-    "World-class Geodynamics Research Center (GRC)",
-    "Strong focus on regional revitalization and industrial collaboration",
-    "Located in Matsuyama, one of Japan's most livable and affordable cities",
-    "Advanced research in Proteo-Science and Marine Environmental Studies"
-  ]
-}
+basic_info:
+  address: 3 Bunkyo-cho, Matsuyama, Ehime 790-8577, Japan
+  capacity: null
+  name_en: Ehime University
+  name_ja: 愛媛大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Law and Letters
+- Faculty of Education
+- Faculty of Science
+- School of Medicine
+- Faculty of Engineering
+- Faculty of Agriculture
+- Faculty of Collaborative Regional Innovation
+features:
+- World-class Geodynamics Research Center (GRC)
+- Strong focus on regional revitalization and industrial collaboration
+- Located in Matsuyama, one of Japan's most livable and affordable cities
+- Advanced research in Proteo-Science and Marine Environmental Studies
+id: univ_ehime-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 320
+tags:
+- World-class Geodynamics Research Center (GRC)
+- Strong focus on regional revitalization and industrial collaboration
+- Located in Matsuyama, one of Japan's most livable and affordable cities
+- Advanced research in Proteo-Science and Marine Environmental Studies
+thumbnail: /static/img/pin-univ.png
+title: Ehime University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

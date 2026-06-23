@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seijo-university-guide",
-  "title": "세이죠 대학 (Seijo University)",
-  "category": "university",
-  "tags": [
-    "소규모 교육 (제미 형식 학습)",
-    "도쿄 세타가야의 명문 위치",
-    "민속학 및 문화 연구의 풍부한 유산",
-    "미디어 및 창작 산업과의 강력한 연계"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "成城大学",
-    "name_en": "Seijo University",
-    "address": "6-1-20 Seijo, Setagaya-ku, Tokyo 157-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "경제학부",
-    "문예학부",
-    "법학부",
-    "사회혁신학부"
-  ],
-  "features": [
-    "소규모 교육 (제미 형식 학습)",
-    "도쿄 세타가야의 명문 위치",
-    "민속학 및 문화 연구의 풍부한 유산",
-    "미디어 및 창작 산업과의 강력한 연계"
-  ],
-  "description": "도쿄 세타가야에 위치한 세이죠 대학은 소규모 교육과 풍부한 문화 유산으로 유명한 명문 사립 대학입니다. 국제 학생들에게 개인적인 관심과 지원을 제공하며, 일본 문화와 학문적 깊이를 경험할 수 있는 특별한 기회를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 6-1-20 Seijo, Setagaya-ku, Tokyo 157-8511, Japan
+  capacity: null
+  name_en: Seijo University
+  name_ja: 成城大学
+category: university
+date: '2026-02-13'
+description: 도쿄 세타가야에 위치한 세이죠 대학은 소규모 교육과 풍부한 문화 유산으로 유명한 명문 사립 대학입니다. 국제 학생들에게 개인적인
+  관심과 지원을 제공하며, 일본 문화와 학문적 깊이를 경험할 수 있는 특별한 기회를 제공합니다.
+faculties:
+- 경제학부
+- 문예학부
+- 법학부
+- 사회혁신학부
+features:
+- 소규모 교육 (제미 형식 학습)
+- 도쿄 세타가야의 명문 위치
+- 민속학 및 문화 연구의 풍부한 유산
+- 미디어 및 창작 산업과의 강력한 연계
+id: univ_seijo-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 145
+tags:
+- 소규모 교육 (제미 형식 학습)
+- 도쿄 세타가야의 명문 위치
+- 민속학 및 문화 연구의 풍부한 유산
+- 미디어 및 창작 산업과의 강력한 연계
+thumbnail: /static/img/pin-univ.png
+title: 세이죠 대학 (Seijo University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: 세이죠 대학의 우아함

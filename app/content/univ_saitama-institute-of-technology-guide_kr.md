@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_saitama-institute-of-technology-guide",
-  "title": "사이타마 공업대학교",
-  "category": "university",
-  "tags": [
-    "자율주행 연구의 선구자",
-    "모노즈쿠리 중심의 실무 교육",
-    "간토 지역 내 높은 취업률",
-    "외국인 유학생을 위한 전담 일본어 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "埼玉工業大学",
-    "name_en": "Saitama Institute of Technology",
-    "address": "1690 Fusaiji, Fukaya-shi, Saitama 369-0293, Japan",
-    "capacity": 2500
-  },
-  "stats": {
-    "international_students": 320,
-    "acceptance_rate": "Estimated 45-55% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1250000
-  },
-  "faculties": [
-    "공학부",
-    "인간사회학부",
-    "대학원 공학연구과",
-    "대학원 인간사회연구과"
-  ],
-  "features": [
-    "자율주행 연구의 선구자",
-    "모노즈쿠리 중심의 실무 교육",
-    "간토 지역 내 높은 취업률",
-    "외국인 유학생을 위한 전담 일본어 지원"
-  ],
-  "description": "사이타마 공업대학교는 자율주행과 AI 등 첨단 기술 연구를 선도하며, 실무 중심의 '모노즈쿠리' 교육을 통해 일본 내 높은 취업률을 자랑하는 명문 사립 공과대학교입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1690 Fusaiji, Fukaya-shi, Saitama 369-0293, Japan
+  capacity: 2500
+  name_en: Saitama Institute of Technology
+  name_ja: 埼玉工業大学
+category: university
+date: '2026-03-08'
+description: 사이타마 공업대학교는 자율주행과 AI 등 첨단 기술 연구를 선도하며, 실무 중심의 '모노즈쿠리' 교육을 통해 일본 내 높은
+  취업률을 자랑하는 명문 사립 공과대학교입니다.
+faculties:
+- 공학부
+- 인간사회학부
+- 대학원 공학연구과
+- 대학원 인간사회연구과
+features:
+- 자율주행 연구의 선구자
+- 모노즈쿠리 중심의 실무 교육
+- 간토 지역 내 높은 취업률
+- 외국인 유학생을 위한 전담 일본어 지원
+id: univ_saitama-institute-of-technology-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55% for International Applicants
+  international_students: 320
+tags:
+- 자율주행 연구의 선구자
+- 모노즈쿠리 중심의 실무 교육
+- 간토 지역 내 높은 취업률
+- 외국인 유학생을 위한 전담 일본어 지원
+thumbnail: /static/img/pin-univ.png
+title: 사이타마 공업대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1250000
 ---
 
 ## 🏫 대학 개요: 기술적 탁월함으로 가는 관문

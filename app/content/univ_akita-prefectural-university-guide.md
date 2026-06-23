@@ -1,45 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_akita-prefectural-university-guide",
-  "title": "Akita Prefectural University",
-  "category": "university",
-  "tags": [
-    "Top-tier research facilities in biotechnology and engineering",
-    "Excellent faculty-to-student ratio ensuring personalized guidance",
-    "Strategic focus on cold-region technology and sustainable agriculture",
-    "Affordable cost of living in the scenic Akita prefecture"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "秋田県立大学",
-    "name_en": "Akita Prefectural University",
-    "address": "84-4 Ebinokuchi, Tsuchiya, Yurihonjo-shi, Akita 015-0055, Japan (Honjo Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Systems Science and Technology",
-    "Faculty of Bioresource Sciences"
-  ],
-  "features": [
-    "Top-tier research facilities in biotechnology and engineering",
-    "Excellent faculty-to-student ratio ensuring personalized guidance",
-    "Strategic focus on cold-region technology and sustainable agriculture",
-    "Affordable cost of living in the scenic Akita prefecture"
-  ]
-}
+basic_info:
+  address: 84-4 Ebinokuchi, Tsuchiya, Yurihonjo-shi, Akita 015-0055, Japan (Honjo
+    Campus)
+  capacity: null
+  name_en: Akita Prefectural University
+  name_ja: 秋田県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Systems Science and Technology
+- Faculty of Bioresource Sciences
+features:
+- Top-tier research facilities in biotechnology and engineering
+- Excellent faculty-to-student ratio ensuring personalized guidance
+- Strategic focus on cold-region technology and sustainable agriculture
+- Affordable cost of living in the scenic Akita prefecture
+id: univ_akita-prefectural-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 35
+tags:
+- Top-tier research facilities in biotechnology and engineering
+- Excellent faculty-to-student ratio ensuring personalized guidance
+- Strategic focus on cold-region technology and sustainable agriculture
+- Affordable cost of living in the scenic Akita prefecture
+thumbnail: /static/img/pin-univ.png
+title: Akita Prefectural University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

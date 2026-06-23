@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nara-womens-university-guide",
-  "title": "나라여자대학교",
-  "category": "university",
-  "tags": [
-    "국립대학교",
-    "역사적인 캠퍼스 건축",
-    "일본 최초의 여자 공학부",
-    "EJU 및 JLPT 필수",
-    "높은 교수 대 학생 비율",
-    "고대 나라의 중심부에 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "奈良女子大学",
-    "name_en": "Nara Women's University",
-    "address": "Kitauoya-higashimachi, Nara-shi, Nara 630-8506, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "15-25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "문학부",
-    "이학부",
-    "생활환경학부",
-    "공학부"
-  ],
-  "features": [
-    "국립대학교",
-    "역사적인 캠퍼스 건축",
-    "일본 최초의 여자 공학부",
-    "EJU 및 JLPT 필수",
-    "높은 교수 대 학생 비율",
-    "고대 나라의 중심부에 위치"
-  ],
-  "description": "나라여자대학교는 일본에서 가장 명망 높고 역사적인 고등 교육 기관 중 하나입니다. 유학생들에게는 여성 리더십과 지적 우수성의 유산을 경험할 수 있는 특별한 기회를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: Kitauoya-higashimachi, Nara-shi, Nara 630-8506, Japan
+  capacity: null
+  name_en: Nara Women's University
+  name_ja: 奈良女子大学
+category: university
+date: '2026-02-13'
+description: 나라여자대학교는 일본에서 가장 명망 높고 역사적인 고등 교육 기관 중 하나입니다. 유학생들에게는 여성 리더십과 지적 우수성의
+  유산을 경험할 수 있는 특별한 기회를 제공합니다.
+faculties:
+- 문학부
+- 이학부
+- 생활환경학부
+- 공학부
+features:
+- 국립대학교
+- 역사적인 캠퍼스 건축
+- 일본 최초의 여자 공학부
+- EJU 및 JLPT 필수
+- 높은 교수 대 학생 비율
+- 고대 나라의 중심부에 위치
+id: univ_nara-womens-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25%
+  international_students: 165
+tags:
+- 국립대학교
+- 역사적인 캠퍼스 건축
+- 일본 최초의 여자 공학부
+- EJU 및 JLPT 필수
+- 높은 교수 대 학생 비율
+- 고대 나라의 중심부에 위치
+thumbnail: /static/img/pin-univ.png
+title: 나라여자대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 소개

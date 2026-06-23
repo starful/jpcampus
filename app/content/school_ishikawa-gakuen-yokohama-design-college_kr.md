@@ -1,64 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "神奈川県横浜市西区中央1-33-6",
-    "capacity": 240,
-    "name_en": "Ishikawa Gakuen Yokohama Design College (Japanese Language Department)",
-    "name_ja": "学校法人石川学園横浜デザイン学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学課程2年コース",
-      "total_fees": 1455000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学課程1.5年コース",
-      "total_fees": 1116000
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "進学課程1年コース",
-      "total_fees": 785000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "미술, 디자인 및 고급 대학 진학 준비에 특화",
-    "이과(Rika) 트랙 지원을 포함한 종합적인 EJU 준비",
-    "캠퍼스 내/제휴 기숙사 숙박 가능",
-    "포트폴리오 개발 및 직업 미술 연구를 위한 통합 커리큘럼",
-    "문화 및 학문 몰입을 위한 요코하마의 전략적 위치",
-    "높은 성적의 진학 학생을 위한 장학금 프로그램"
-  ],
-  "id": "school_ishikawa-gakuen-yokohama-design-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.4566628,
-    "lng": 139.6187842
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=243",
-  "stats": {
-    "capacity": 240,
-    "international_students": 240
-  },
-  "tags": [
-    "Specialized focus on Art, Design, and Advanced University Preparation",
-    "Comprehensive EJU preparation including Science (Rika) track support",
-    "On-campus/Affiliated Dormitory Accommodation available",
-    "Integrated curriculum for portfolio development and vocational art studies",
-    "Strategic location in Yokohama for cultural and academic immersion",
-    "Scholarship programs for high-achieving advancement students"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "이시카와 학원 요코하마 디자인 전문학교 (일본어학과)",
-  "description": "미술, 디자인, 과학 또는 비즈니스 분야의 일본 대학 또는 전문학교 진학을 목표로 하는 유학생을 위한 이시카와 학원 요코하마 디자인 전문학교 일본어학과를 소개합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 神奈川県横浜市西区中央1-33-6
+  capacity: 240
+  name_en: Ishikawa Gakuen Yokohama Design College (Japanese Language Department)
+  name_ja: 学校法人石川学園横浜デザイン学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1455000
+- admission_month: '10'
+  course_name: 進学課程1.5年コース
+  total_fees: 1116000
+- admission_month: 4,10
+  course_name: 進学課程1年コース
+  total_fees: 785000
+date: '2026-01-28'
+description: 미술, 디자인, 과학 또는 비즈니스 분야의 일본 대학 또는 전문학교 진학을 목표로 하는 유학생을 위한 이시카와 학원 요코하마
+  디자인 전문학교 일본어학과를 소개합니다.
+faculties: []
+features:
+- 미술, 디자인 및 고급 대학 진학 준비에 특화
+- 이과(Rika) 트랙 지원을 포함한 종합적인 EJU 준비
+- 캠퍼스 내/제휴 기숙사 숙박 가능
+- 포트폴리오 개발 및 직업 미술 연구를 위한 통합 커리큘럼
+- 문화 및 학문 몰입을 위한 요코하마의 전략적 위치
+- 높은 성적의 진학 학생을 위한 장학금 프로그램
+id: school_ishikawa-gakuen-yokohama-design-college
+lang: kr
+layout: school
+location:
+  lat: 35.4566628
+  lng: 139.6187842
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=243
+stats:
+  capacity: 240
+  international_students: 240
+tags:
+- Specialized focus on Art, Design, and Advanced University Preparation
+- Comprehensive EJU preparation including Science (Rika) track support
+- On-campus/Affiliated Dormitory Accommodation available
+- Integrated curriculum for portfolio development and vocational art studies
+- Strategic location in Yokohama for cultural and academic immersion
+- Scholarship programs for high-achieving advancement students
+thumbnail: /static/img/pin-school.png
+title: 이시카와 학원 요코하마 디자인 전문학교 (일본어학과)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

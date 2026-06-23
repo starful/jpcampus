@@ -1,54 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "北海道函館市千歳町3-2",
-    "capacity": 100,
-    "name_en": "Riche no Mori Japanese Language School, Hakodate Campus",
-    "name_ja": "理知の杜日本語学校函館校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "2-Year University Advancement Course",
-      "total_fees": 1240000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "1.5-Year University Advancement Course",
-      "total_fees": 950000
-    }
-  ],
-  "description": "홋카이도 하코다테에 위치한 리치노모리 일본어학교는 일본 대학 진학을 위한 집중 교육을 제공합니다. 실용적인 어학 능력과 지적 훈련을 함양하는 따뜻한 환경을 강조합니다.",
-  "faculties": [],
-  "features": [
-    "학생 전용 기숙사 이용 가능",
-    "EJU 및 대학 입시 준비",
-    "대학 진학 중심",
-    "실용적인 회화 능력 강화",
-    "단기 유학 옵션 제공"
-  ],
-  "id": "school_riche-no-mori-japanese-language-school-hakodate",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 41.7718913,
-    "lng": 140.7389217
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=573",
-  "stats": {},
-  "tags": [
-    "Dedicated Student Dormitory Available",
-    "EJU and University Entrance Exam Preparation",
-    "Focus on Higher Education Progression",
-    "Strong Emphasis on Practical Conversational Skills",
-    "Short-Term Study Options Provided"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "리치노모리 일본어학교, 하코다테 캠퍼스",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 北海道函館市千歳町3-2
+  capacity: 100
+  name_en: Riche no Mori Japanese Language School, Hakodate Campus
+  name_ja: 理知の杜日本語学校函館校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 2-Year University Advancement Course
+  total_fees: 1240000
+- admission_month: '10'
+  course_name: 1.5-Year University Advancement Course
+  total_fees: 950000
+date: '2026-01-28'
+description: 홋카이도 하코다테에 위치한 리치노모리 일본어학교는 일본 대학 진학을 위한 집중 교육을 제공합니다. 실용적인 어학 능력과 지적
+  훈련을 함양하는 따뜻한 환경을 강조합니다.
+faculties: []
+features:
+- 학생 전용 기숙사 이용 가능
+- EJU 및 대학 입시 준비
+- 대학 진학 중심
+- 실용적인 회화 능력 강화
+- 단기 유학 옵션 제공
+id: school_riche-no-mori-japanese-language-school-hakodate
+lang: kr
+layout: school
+location:
+  lat: 41.7718913
+  lng: 140.7389217
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=573
+stats: {}
+tags:
+- Dedicated Student Dormitory Available
+- EJU and University Entrance Exam Preparation
+- Focus on Higher Education Progression
+- Strong Emphasis on Practical Conversational Skills
+- Short-Term Study Options Provided
+thumbnail: /static/img/pin-school.png
+title: 리치노모리 일본어학교, 하코다테 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

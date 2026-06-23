@@ -5,6 +5,7 @@ basic_info:
   name_ja: 長崎大学
   website: https://www.nagasaki-u.ac.jp/en/
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Education
 - Faculty of Economics

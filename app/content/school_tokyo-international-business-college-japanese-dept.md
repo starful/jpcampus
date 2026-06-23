@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Japanese Language Department
   total_fees: 1570000
+date: '2026-01-28'
 faculties: []
 features:
 - Focus on Higher Education Advancement

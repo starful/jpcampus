@@ -1,54 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kagawa-university-comprehensive-guide",
-  "title": "Kagawa University: Comprehensive Guide for International Students",
-  "category": "university",
-  "tags": [
-    "World-leader in Rare Sugar (Izumoring) research",
-    "Unique 'Engineering and Design' integrated curriculum",
-    "Strong ties to the Setouchi regional revitalization and art projects",
-    "Cost-effective living in Takamatsu, the 'Gateway to Shikoku'"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "香川大学",
-    "name_en": "Kagawa University",
-    "address": "1-1 Saiwai-cho, Takamatsu, Kagawa 760-8521, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "20-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Medicine",
-    "Faculty of Engineering and Design",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "World-leader in Rare Sugar (Izumoring) research",
-    "Unique 'Engineering and Design' integrated curriculum",
-    "Strong ties to the Setouchi regional revitalization and art projects",
-    "Cost-effective living in Takamatsu, the 'Gateway to Shikoku'"
-  ],
-  "description": "Your complete guide to studying at Kagawa University. Find tuition fees, admission requirements, available programs, and student life details.",
-  "seo_title": "Kagawa University: Complete Guide to Tuition & Admissions | JP Campus",
-  "seo_description": "Planning to study at Kagawa University? Check out tuition fees, admission requirements, programs, and campus life in our complete guide."
-}
+basic_info:
+  address: 1-1 Saiwai-cho, Takamatsu, Kagawa 760-8521, Japan
+  capacity: null
+  name_en: Kagawa University
+  name_ja: 香川大学
+category: university
+date: '2026-06-19'
+description: Your complete guide to studying at Kagawa University. Find tuition fees,
+  admission requirements, available programs, and student life details.
+faculties:
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Medicine
+- Faculty of Engineering and Design
+- Faculty of Agriculture
+features:
+- World-leader in Rare Sugar (Izumoring) research
+- Unique 'Engineering and Design' integrated curriculum
+- Strong ties to the Setouchi regional revitalization and art projects
+- Cost-effective living in Takamatsu, the 'Gateway to Shikoku'
+id: univ_kagawa-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Planning to study at Kagawa University? Check out tuition fees, admission
+  requirements, programs, and campus life in our complete guide.
+seo_title: 'Kagawa University: Complete Guide to Tuition & Admissions | JP Campus'
+stats:
+  acceptance_rate: 20-30%
+  international_students: 245
+tags:
+- World-leader in Rare Sugar (Izumoring) research
+- Unique 'Engineering and Design' integrated curriculum
+- Strong ties to the Setouchi regional revitalization and art projects
+- Cost-effective living in Takamatsu, the 'Gateway to Shikoku'
+thumbnail: /static/img/pin-univ.png
+title: 'Kagawa University: Comprehensive Guide for International Students'
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 University Overview
 

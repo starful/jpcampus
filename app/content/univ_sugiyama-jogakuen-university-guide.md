@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sugiyama-jogakuen-university-guide",
-  "title": "Sugiyama Jogakuen University",
-  "category": "university",
-  "tags": [
-    "Leading Women's University in Central Japan",
-    "Strong Ties with the Nagoya Business Community",
-    "Holistic 'Human Education' Philosophy",
-    "Convenient Urban Campus in Hoshigaoka"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "椙山女学園大学",
-    "name_en": "Sugiyama Jogakuen University",
-    "address": "17-3 Hoshigaoka Motomachi, Chikusa-ku, Nagoya, Aichi 464-8662, Japan",
-    "capacity": 5600
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "40-55% (Varies by Faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "School of Life Studies",
-    "School of International Communications",
-    "School of Human Sciences",
-    "School of Culture and Information Media",
-    "School of Modern Life Studies",
-    "School of Education",
-    "School of Nursing"
-  ],
-  "features": [
-    "Leading Women's University in Central Japan",
-    "Strong Ties with the Nagoya Business Community",
-    "Holistic 'Human Education' Philosophy",
-    "Convenient Urban Campus in Hoshigaoka"
-  ]
-}
+basic_info:
+  address: 17-3 Hoshigaoka Motomachi, Chikusa-ku, Nagoya, Aichi 464-8662, Japan
+  capacity: 5600
+  name_en: Sugiyama Jogakuen University
+  name_ja: 椙山女学園大学
+category: university
+date: '2026-03-15'
+faculties:
+- School of Life Studies
+- School of International Communications
+- School of Human Sciences
+- School of Culture and Information Media
+- School of Modern Life Studies
+- School of Education
+- School of Nursing
+features:
+- Leading Women's University in Central Japan
+- Strong Ties with the Nagoya Business Community
+- Holistic 'Human Education' Philosophy
+- Convenient Urban Campus in Hoshigaoka
+id: univ_sugiyama-jogakuen-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-55% (Varies by Faculty)
+  international_students: 45
+tags:
+- Leading Women's University in Central Japan
+- Strong Ties with the Nagoya Business Community
+- Holistic 'Human Education' Philosophy
+- Convenient Urban Campus in Hoshigaoka
+thumbnail: /static/img/pin-univ.png
+title: Sugiyama Jogakuen University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

@@ -1,57 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都千代田区紀尾井町7-1",
-    "name_en": "Sophia University",
-    "name_ja": "上智大学",
-    "website": "https://www.sophia.ac.jp/"
-  },
-  "category": "university",
-  "description": "도쿄에 위치한 명문 사립, 국제적인 중심의 대학인 소피아 대학에 대해 알아보세요. 글로벌 프로그램, 학부, 장학금, 캠퍼스 생활에 대한 정보를 제공합니다.",
-  "faculties": [
-    "Faculty of Theology",
-    "Faculty of Philosophy",
-    "Faculty of Humanities",
-    "Faculty of Foreign Studies",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Science and Technology",
-    "Faculty of Human Sciences",
-    "Faculty of Global Studies"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_sophia-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6841522,
-    "lng": 139.7327545
-  },
-  "stats": {
-    "acceptance_rate": "20%",
-    "international_students": 1600
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "소피아 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  }
-}
+basic_info:
+  address: 東京都千代田区紀尾井町7-1
+  name_en: Sophia University
+  name_ja: 上智大学
+  website: https://www.sophia.ac.jp/
+category: university
+date: '2026-01-28'
+description: 도쿄에 위치한 명문 사립, 국제적인 중심의 대학인 소피아 대학에 대해 알아보세요. 글로벌 프로그램, 학부, 장학금, 캠퍼스
+  생활에 대한 정보를 제공합니다.
+faculties:
+- Faculty of Theology
+- Faculty of Philosophy
+- Faculty of Humanities
+- Faculty of Foreign Studies
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Science and Technology
+- Faculty of Human Sciences
+- Faculty of Global Studies
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_sophia-university
+lang: kr
+layout: school
+location:
+  lat: 35.6841522
+  lng: 139.7327545
+stats:
+  acceptance_rate: 20%
+  international_students: 1600
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 소피아 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요 및 명성

@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-womans-christian-university-guide",
-  "title": "Tokyo Woman's Christian University",
-  "category": "university",
-  "tags": [
-    "Historical Liberal Arts Tradition",
-    "Antonin Raymond Campus Architecture",
-    "EJU and JLPT Required for International Students",
-    "Strong Career Support for Women",
-    "Proximity to Kichijoji (Voted Best Neighborhood)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京女子大学",
-    "name_en": "Tokyo Woman's Christian University",
-    "address": "2-6-1 Zempukuji, Suginami-ku, Tokyo 167-8585, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 75,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Arts and Science"
-  ],
-  "features": [
-    "Historical Liberal Arts Tradition",
-    "Antonin Raymond Campus Architecture",
-    "EJU and JLPT Required for International Students",
-    "Strong Career Support for Women",
-    "Proximity to Kichijoji (Voted Best Neighborhood)"
-  ]
-}
+basic_info:
+  address: 2-6-1 Zempukuji, Suginami-ku, Tokyo 167-8585, Japan
+  capacity: null
+  name_en: Tokyo Woman's Christian University
+  name_ja: 東京女子大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Arts and Science
+features:
+- Historical Liberal Arts Tradition
+- Antonin Raymond Campus Architecture
+- EJU and JLPT Required for International Students
+- Strong Career Support for Women
+- Proximity to Kichijoji (Voted Best Neighborhood)
+id: univ_tokyo-womans-christian-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 75
+tags:
+- Historical Liberal Arts Tradition
+- Antonin Raymond Campus Architecture
+- EJU and JLPT Required for International Students
+- Strong Career Support for Women
+- Proximity to Kichijoji (Voted Best Neighborhood)
+thumbnail: /static/img/pin-univ.png
+title: Tokyo Woman's Christian University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

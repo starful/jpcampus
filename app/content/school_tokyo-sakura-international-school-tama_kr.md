@@ -1,67 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都多摩市関戸5-3-11",
-    "capacity": 150,
-    "name_en": "Tokyo Sakura International School",
-    "name_ja": "Tokyo Sakura International School"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1529000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9か月コース",
-      "total_fees": 1344750
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1160500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "一般1年6か月コース",
-      "total_fees": 1160500
-    }
-  ],
-  "description": "도쿄 사쿠라 인터내셔널 스쿨은 도쿄의 조용한 교외 지역에 위치하고 있으며, 전문적인 미술 대학 준비반과 소규모 학급에서의 맞춤형 지도를 포함하여 고등 교육 진학을 위한 종합적인 지원을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "종합적인 고등 교육 진학 지원 (EJU/JLPT)",
-    "전문적인 순수 미술/미술 대학 준비 과정",
-    "필수 회화 및 실용 일본어 능력 훈련",
-    "교내 또는 관리형 기숙사 숙박 시설",
-    "소규모 학급 정원으로 인한 맞춤형 지도"
-  ],
-  "id": "school_tokyo-sakura-international-school-tama",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6457915,
-    "lng": 139.452618
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=606",
-  "stats": {
-    "capacity": 150,
-    "international_students": null
-  },
-  "tags": [
-    "Comprehensive Higher Education Progression Support (EJU/JLPT)",
-    "Specialized Fine Arts/Art University Preparation Track",
-    "Mandatory Conversation and Practical Japanese Skills Training",
-    "On-campus or Managed Dormitory Accommodation",
-    "Personalized Guidance due to Small Class Capacity"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "도쿄 사쿠라 인터내셔널 스쿨",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都多摩市関戸5-3-11
+  capacity: 150
+  name_en: Tokyo Sakura International School
+  name_ja: Tokyo Sakura International School
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1529000
+- admission_month: '7'
+  course_name: 進学1年9か月コース
+  total_fees: 1344750
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1160500
+- admission_month: '10'
+  course_name: 一般1年6か月コース
+  total_fees: 1160500
+date: '2026-01-28'
+description: 도쿄 사쿠라 인터내셔널 스쿨은 도쿄의 조용한 교외 지역에 위치하고 있으며, 전문적인 미술 대학 준비반과 소규모 학급에서의 맞춤형
+  지도를 포함하여 고등 교육 진학을 위한 종합적인 지원을 제공합니다.
+faculties: []
+features:
+- 종합적인 고등 교육 진학 지원 (EJU/JLPT)
+- 전문적인 순수 미술/미술 대학 준비 과정
+- 필수 회화 및 실용 일본어 능력 훈련
+- 교내 또는 관리형 기숙사 숙박 시설
+- 소규모 학급 정원으로 인한 맞춤형 지도
+id: school_tokyo-sakura-international-school-tama
+lang: kr
+layout: school
+location:
+  lat: 35.6457915
+  lng: 139.452618
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=606
+stats:
+  capacity: 150
+  international_students: null
+tags:
+- Comprehensive Higher Education Progression Support (EJU/JLPT)
+- Specialized Fine Arts/Art University Preparation Track
+- Mandatory Conversation and Practical Japanese Skills Training
+- On-campus or Managed Dormitory Accommodation
+- Personalized Guidance due to Small Class Capacity
+thumbnail: /static/img/pin-school.png
+title: 도쿄 사쿠라 인터내셔널 스쿨
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヵ月コース
   total_fees: 970750
+date: '2026-01-28'
 faculties: []
 features:
 - Exclusive focus on higher education advancement (University/Graduate School)

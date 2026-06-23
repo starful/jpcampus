@@ -1,55 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_mukogawa-womens-university",
-  "title": "Mukogawa Women's University",
-  "category": "university",
-  "tags": [
-    "One of the largest private women's universities in Japan",
-    "Strong global focus with a dedicated campus in Spokane, USA",
-    "Exceptional employment rate and career development services",
-    "Unique Architecture programs housed in historical landmarks"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "武庫川女子大学",
-    "name_en": "Mukogawa Women's University",
-    "address": "6-46 Ikebiraki-cho, Nishinomiya, Hyogo 663-8558, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 92,
-    "acceptance_rate": "35.5%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Letters",
-    "Education",
-    "Health and Sports Sciences",
-    "Life Environmental Sciences",
-    "Music",
-    "Pharmacy",
-    "Nursing",
-    "Business",
-    "Architecture",
-    "Social Informatics",
-    "Psychology and Social Welfare",
-    "Food Sciences and Nutrition"
-  ],
-  "features": [
-    "One of the largest private women's universities in Japan",
-    "Strong global focus with a dedicated campus in Spokane, USA",
-    "Exceptional employment rate and career development services",
-    "Unique Architecture programs housed in historical landmarks"
-  ]
-}
+basic_info:
+  address: 6-46 Ikebiraki-cho, Nishinomiya, Hyogo 663-8558, Japan
+  capacity: null
+  name_en: Mukogawa Women's University
+  name_ja: 武庫川女子大学
+category: university
+date: '2026-03-15'
+faculties:
+- Letters
+- Education
+- Health and Sports Sciences
+- Life Environmental Sciences
+- Music
+- Pharmacy
+- Nursing
+- Business
+- Architecture
+- Social Informatics
+- Psychology and Social Welfare
+- Food Sciences and Nutrition
+features:
+- One of the largest private women's universities in Japan
+- Strong global focus with a dedicated campus in Spokane, USA
+- Exceptional employment rate and career development services
+- Unique Architecture programs housed in historical landmarks
+id: univ_mukogawa-womens-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35.5%
+  international_students: 92
+tags:
+- One of the largest private women's universities in Japan
+- Strong global focus with a dedicated campus in Spokane, USA
+- Exceptional employment rate and career development services
+- Unique Architecture programs housed in historical landmarks
+thumbnail: /static/img/pin-univ.png
+title: Mukogawa Women's University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Pinnacle of Women's Education in Japan

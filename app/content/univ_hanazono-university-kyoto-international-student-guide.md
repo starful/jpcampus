@@ -1,45 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hanazono-university-kyoto-international-student-guide",
-  "title": "Hanazono University",
-  "category": "university",
-  "tags": [
-    "Zen Buddhist Foundation",
-    "Renowned Japanese History Department",
-    "Pioneer in Social Welfare Education",
-    "Located in the heart of historic Kyoto"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "花園大学",
-    "name_en": "Hanazono University",
-    "address": "8-1 Nishinokyo Tsubonouchi-cho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8456, Japan",
-    "capacity": 2200
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "60-70%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Social Welfare"
-  ],
-  "features": [
-    "Zen Buddhist Foundation",
-    "Renowned Japanese History Department",
-    "Pioneer in Social Welfare Education",
-    "Located in the heart of historic Kyoto"
-  ]
-}
+basic_info:
+  address: 8-1 Nishinokyo Tsubonouchi-cho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8456,
+    Japan
+  capacity: 2200
+  name_en: Hanazono University
+  name_ja: 花園大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Letters
+- Faculty of Social Welfare
+features:
+- Zen Buddhist Foundation
+- Renowned Japanese History Department
+- Pioneer in Social Welfare Education
+- Located in the heart of historic Kyoto
+id: univ_hanazono-university-kyoto-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 60-70%
+  international_students: 145
+tags:
+- Zen Buddhist Foundation
+- Renowned Japanese History Department
+- Pioneer in Social Welfare Education
+- Located in the heart of historic Kyoto
+thumbnail: /static/img/pin-univ.png
+title: Hanazono University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 University Overview

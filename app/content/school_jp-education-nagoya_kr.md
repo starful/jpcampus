@@ -1,62 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中村区大秋町4-70-1",
-    "capacity": 100,
-    "name_en": "JP Education (JPエデュケーション)",
-    "name_ja": "JPエデュケーション"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "一般1年コース",
-      "total_fees": 840000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語2年コース",
-      "total_fees": 1600000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語1年6ヶ月コース",
-      "total_fees": 1220000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 보장",
-    "미술 및 디자인 대학 집중 준비 과정",
-    "집중 비즈니스 일본어 및 커리어 트랙",
-    "종합적인 EJU 및 고등 교육 배치 지원",
-    "넉넉한 장학금 기회",
-    "나고야(아이치현) 위치 – 저렴한 생활비",
-    "개인 맞춤형 지도를 보장하는 소규모 학교 환경"
-  ],
-  "id": "school_jp-education-nagoya",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.1725934,
-    "lng": 136.8681417
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=580",
-  "stats": {},
-  "tags": [
-    "Dormitory Accommodation Guaranteed",
-    "Specialized Art and Design University Preparation",
-    "Intensive Business Japanese & Career Track",
-    "Comprehensive EJU and Higher Education Placement Support",
-    "Generous Scholarship Opportunities",
-    "Located in Nagoya (Aichi Prefecture) – Lower Cost of Living",
-    "Small School Setting ensuring Personalized Attention"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "JP Education (JPエデュケーション)",
-  "description": "나고야에 위치한 JP Education은 집중적인 일본어 교육과 미술, 디자인, 비즈니스 분야의 전문적인 진로 준비를 위한 최적의 선택입니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県名古屋市中村区大秋町4-70-1
+  capacity: 100
+  name_en: JP Education (JPエデュケーション)
+  name_ja: JPエデュケーション
+category: school
+courses:
+- admission_month: '4'
+  course_name: 一般1年コース
+  total_fees: 840000
+- admission_month: '4'
+  course_name: 日本語2年コース
+  total_fees: 1600000
+- admission_month: '10'
+  course_name: 日本語1年6ヶ月コース
+  total_fees: 1220000
+date: '2026-01-28'
+description: 나고야에 위치한 JP Education은 집중적인 일본어 교육과 미술, 디자인, 비즈니스 분야의 전문적인 진로 준비를 위한
+  최적의 선택입니다.
+faculties: []
+features:
+- 기숙사 보장
+- 미술 및 디자인 대학 집중 준비 과정
+- 집중 비즈니스 일본어 및 커리어 트랙
+- 종합적인 EJU 및 고등 교육 배치 지원
+- 넉넉한 장학금 기회
+- 나고야(아이치현) 위치 – 저렴한 생활비
+- 개인 맞춤형 지도를 보장하는 소규모 학교 환경
+id: school_jp-education-nagoya
+lang: kr
+layout: school
+location:
+  lat: 35.1725934
+  lng: 136.8681417
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=580
+stats: {}
+tags:
+- Dormitory Accommodation Guaranteed
+- Specialized Art and Design University Preparation
+- Intensive Business Japanese & Career Track
+- Comprehensive EJU and Higher Education Placement Support
+- Generous Scholarship Opportunities
+- Located in Nagoya (Aichi Prefecture) – Lower Cost of Living
+- Small School Setting ensuring Personalized Attention
+thumbnail: /static/img/pin-school.png
+title: JP Education (JPエデュケーション)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

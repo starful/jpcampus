@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagoya-gakuin-university-comprehensive-guide",
-  "title": "나고야 가쿠인 대학교",
-  "description": "일본 중부 산업의 중심지 나고야에서 기독교 정신을 바탕으로 실무 중심 교육과 글로벌 인재 양성에 앞장서는 나고야 가쿠인 대학교를 소개합니다.",
-  "category": "university",
-  "tags": [
-    "탄탄한 개신교 기독교 정신의 교육 기반",
-    "나고야 중심부에 위치한 도심형 캠퍼스",
-    "광범위한 글로벌 교류 네트워크",
-    "토카이 지역 내 높은 취업률 기록"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "名古屋学院大学",
-    "name_en": "Nagoya Gakuin University",
-    "address": "1-25 Atsuta-nishimachi, Atsuta-ku, Nagoya, Aichi 456-8612, Japan",
-    "capacity": 6200
-  },
-  "stats": {
-    "international_students": 195,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "경제학부",
-    "경영학부",
-    "상학부",
-    "법학부",
-    "외국어학부",
-    "국제문화학부",
-    "스포츠건강학부",
-    "재활학부"
-  ],
-  "features": [
-    "탄탄한 개신교 기독교 정신의 교육 기반",
-    "나고야 중심부에 위치한 도심형 캠퍼스",
-    "광범위한 글로벌 교류 네트워크",
-    "토카이 지역 내 높은 취업률 기록"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-25 Atsuta-nishimachi, Atsuta-ku, Nagoya, Aichi 456-8612, Japan
+  capacity: 6200
+  name_en: Nagoya Gakuin University
+  name_ja: 名古屋学院大学
+category: university
+date: '2026-03-15'
+description: 일본 중부 산업의 중심지 나고야에서 기독교 정신을 바탕으로 실무 중심 교육과 글로벌 인재 양성에 앞장서는 나고야 가쿠인 대학교를
+  소개합니다.
+faculties:
+- 경제학부
+- 경영학부
+- 상학부
+- 법학부
+- 외국어학부
+- 국제문화학부
+- 스포츠건강학부
+- 재활학부
+features:
+- 탄탄한 개신교 기독교 정신의 교육 기반
+- 나고야 중심부에 위치한 도심형 캠퍼스
+- 광범위한 글로벌 교류 네트워크
+- 토카이 지역 내 높은 취업률 기록
+id: univ_nagoya-gakuin-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 195
+tags:
+- 탄탄한 개신교 기독교 정신의 교육 기반
+- 나고야 중심부에 위치한 도심형 캠퍼스
+- 광범위한 글로벌 교류 네트워크
+- 토카이 지역 내 높은 취업률 기록
+thumbnail: /static/img/pin-univ.png
+title: 나고야 가쿠인 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요

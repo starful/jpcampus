@@ -1,62 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県狭山市富士見1-14-15",
-    "capacity": 120,
-    "name_en": "Saitama Briller Japanese Language School",
-    "name_ja": "埼玉ブリエ日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1536800
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1172300
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학교 및 전문학교 진학 중심 (進学)",
-    "취업 및 커리어 지원 (就職)",
-    "다양한 문화 교류 프로그램 및 지역 사회 통합 (交流会)",
-    "기숙사 보장 (1인실 옵션 포함) (1人室)",
-    "EJU (일본유학시험) 특화 대비반 (이과 포함) (EJU, 理科)",
-    "미술, 디자인 분야 집중 준비 (美術, デザイン)",
-    "종합 장학금 프로그램 (奨学金)",
-    "단기 집중 회화 코스 (短期, 会話)"
-  ],
-  "id": "school_saitama-briller-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.8514016,
-    "lng": 139.4164522
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=567",
-  "stats": {
-    "capacity": 120,
-    "international_students": 120
-  },
-  "tags": [
-    "University and Vocational School Advancement Focus (進学)",
-    "Dedicated Job Hunting and Career Support (就職)",
-    "Active Cultural Exchange Programs and Local Integration (交流会)",
-    "Guaranteed Dormitory Housing, including Single Room Options (1人室)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation, including Science Tracks (EJU, 理科)",
-    "Focused Preparation for Art, Design, and Creative Pathways (美術, デザイン)",
-    "Comprehensive Scholarship Program (奨学金)",
-    "Short-Term and Intensive Conversational Courses (短期, 会話)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "사이타마 브리에 일본어학교",
-  "description": "사이타마현 사야마시에 위치한 사이타마 브리에 일본어학교는 대학 진학 및 취업을 위한 집중적인 커리큘럼을 제공합니다. EJU 대비, 아트/디자인, 비즈니스 일본어 등 다양한 특화 과정을 통해 학생들의 성공적인 일본 유학 생활을 지원합니다.",
-  "tuition": {}
-}
+basic_info:
+  address: 埼玉県狭山市富士見1-14-15
+  capacity: 120
+  name_en: Saitama Briller Japanese Language School
+  name_ja: 埼玉ブリエ日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1536800
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1172300
+date: '2026-01-28'
+description: 사이타마현 사야마시에 위치한 사이타마 브리에 일본어학교는 대학 진학 및 취업을 위한 집중적인 커리큘럼을 제공합니다. EJU
+  대비, 아트/디자인, 비즈니스 일본어 등 다양한 특화 과정을 통해 학생들의 성공적인 일본 유학 생활을 지원합니다.
+faculties: []
+features:
+- 대학교 및 전문학교 진학 중심 (進学)
+- 취업 및 커리어 지원 (就職)
+- 다양한 문화 교류 프로그램 및 지역 사회 통합 (交流会)
+- 기숙사 보장 (1인실 옵션 포함) (1人室)
+- EJU (일본유학시험) 특화 대비반 (이과 포함) (EJU, 理科)
+- 미술, 디자인 분야 집중 준비 (美術, デザイン)
+- 종합 장학금 프로그램 (奨学金)
+- 단기 집중 회화 코스 (短期, 会話)
+id: school_saitama-briller-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.8514016
+  lng: 139.4164522
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=567
+stats:
+  capacity: 120
+  international_students: 120
+tags:
+- University and Vocational School Advancement Focus (進学)
+- Dedicated Job Hunting and Career Support (就職)
+- Active Cultural Exchange Programs and Local Integration (交流会)
+- Guaranteed Dormitory Housing, including Single Room Options (1人室)
+- Specialized EJU (Examination for Japanese University Admission) Preparation, including
+  Science Tracks (EJU, 理科)
+- Focused Preparation for Art, Design, and Creative Pathways (美術, デザイン)
+- Comprehensive Scholarship Program (奨学金)
+- Short-Term and Intensive Conversational Courses (短期, 会話)
+thumbnail: /static/img/pin-school.png
+title: 사이타마 브리에 일본어학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

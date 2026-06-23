@@ -5,6 +5,7 @@ basic_info:
   name_en: University of the Ryukyus
   name_ja: 琉球大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Law and Letters (Humanities and Social Sciences)
 - Faculty of Education

@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hannan-university-guide",
-  "title": "한난대학교",
-  "description": "오사카에 위치한 실무 중심의 명문 사립 대학으로, 유통과 물류 분야의 선구자이자 강력한 취업 네트워크를 자랑하는 한난대학교를 소개합니다.",
-  "category": "university",
-  "tags": [
-    "실무 중심 교육 (실학)",
-    "유통 및 물류 학문의 개척자",
-    "간사이 지역 기반의 강력한 취업 네트워크",
-    "명성 높은 체육 프로그램 및 축구부"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "阪南大学",
-    "name_en": "Hannan University",
-    "address": "5-4-33 Amami-higashi, Matsubara-shi, Osaka 580-8502, Japan",
-    "capacity": 5500
-  },
-  "stats": {
-    "international_students": 195,
-    "acceptance_rate": "55-65% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 940000
-  },
-  "faculties": [
-    "경제학부",
-    "경영학부",
-    "유통학부",
-    "국제커뮤니케이션학부",
-    "국제관광학부"
-  ],
-  "features": [
-    "실무 중심 교육 (실학)",
-    "유통 및 물류 학문의 개척자",
-    "간사이 지역 기반의 강력한 취업 네트워크",
-    "명성 높은 체육 프로그램 및 축구부"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 5-4-33 Amami-higashi, Matsubara-shi, Osaka 580-8502, Japan
+  capacity: 5500
+  name_en: Hannan University
+  name_ja: 阪南大学
+category: university
+date: '2026-04-19'
+description: 오사카에 위치한 실무 중심의 명문 사립 대학으로, 유통과 물류 분야의 선구자이자 강력한 취업 네트워크를 자랑하는 한난대학교를
+  소개합니다.
+faculties:
+- 경제학부
+- 경영학부
+- 유통학부
+- 국제커뮤니케이션학부
+- 국제관광학부
+features:
+- 실무 중심 교육 (실학)
+- 유통 및 물류 학문의 개척자
+- 간사이 지역 기반의 강력한 취업 네트워크
+- 명성 높은 체육 프로그램 및 축구부
+id: univ_hannan-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65% (Estimated for International Applicants)
+  international_students: 195
+tags:
+- 실무 중심 교육 (실학)
+- 유통 및 물류 학문의 개척자
+- 간사이 지역 기반의 강력한 취업 네트워크
+- 명성 높은 체육 프로그램 및 축구부
+thumbnail: /static/img/pin-univ.png
+title: 한난대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 940000
 ---
 
 ## 🏫 학교 개요

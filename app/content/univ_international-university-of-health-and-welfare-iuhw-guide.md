@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_international-university-of-health-and-welfare-iuhw-guide",
-  "title": "International University of Health and Welfare",
-  "category": "university",
-  "tags": [
-    "Lowest tuition fees for private medical schools in Japan",
-    "Extensive English-taught medical curriculum",
-    "World-class clinical training at IUHW-affiliated hospitals",
-    "Strong support for international scholarship programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "国際医療福祉大学",
-    "name_en": "International University of Health and Welfare",
-    "address": "2600-1 Kitakamura, Otawara-shi, Tochigi 324-8501, Japan",
-    "capacity": 9800
-  },
-  "stats": {
-    "international_students": 562,
-    "acceptance_rate": "15-20% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 1500000,
-    "yearly_tuition": 2800000
-  },
-  "faculties": [
-    "School of Medicine",
-    "School of Pharmacy",
-    "School of Nursing",
-    "School of Physical Therapy",
-    "School of Occupational Therapy",
-    "School of Speech and Hearing Sciences",
-    "School of Orthoptics and Visual Sciences",
-    "School of Health Sciences",
-    "School of Psychology",
-    "School of Medical Social Services"
-  ],
-  "features": [
-    "Lowest tuition fees for private medical schools in Japan",
-    "Extensive English-taught medical curriculum",
-    "World-class clinical training at IUHW-affiliated hospitals",
-    "Strong support for international scholarship programs"
-  ]
-}
+basic_info:
+  address: 2600-1 Kitakamura, Otawara-shi, Tochigi 324-8501, Japan
+  capacity: 9800
+  name_en: International University of Health and Welfare
+  name_ja: 国際医療福祉大学
+category: university
+date: '2026-03-15'
+faculties:
+- School of Medicine
+- School of Pharmacy
+- School of Nursing
+- School of Physical Therapy
+- School of Occupational Therapy
+- School of Speech and Hearing Sciences
+- School of Orthoptics and Visual Sciences
+- School of Health Sciences
+- School of Psychology
+- School of Medical Social Services
+features:
+- Lowest tuition fees for private medical schools in Japan
+- Extensive English-taught medical curriculum
+- World-class clinical training at IUHW-affiliated hospitals
+- Strong support for international scholarship programs
+id: univ_international-university-of-health-and-welfare-iuhw-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-20% (Estimated)
+  international_students: 562
+tags:
+- Lowest tuition fees for private medical schools in Japan
+- Extensive English-taught medical curriculum
+- World-class clinical training at IUHW-affiliated hospitals
+- Strong support for international scholarship programs
+thumbnail: /static/img/pin-univ.png
+title: International University of Health and Welfare
+tuition:
+  admission_fee: 1500000
+  yearly_tuition: 2800000
 ---
 
 ## 🏫 University Overview: The Pioneer of Medical Education in Japan

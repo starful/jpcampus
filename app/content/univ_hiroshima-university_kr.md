@@ -1,60 +1,53 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県東広島市鏡山一丁目7番1号",
-    "name_en": "Hiroshima University",
-    "name_ja": "広島大学",
-    "website": "https://www.hiroshima-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Integrated Arts and Sciences",
-    "Letters",
-    "Education",
-    "Law",
-    "Economics",
-    "Science",
-    "Medicine",
-    "Dentistry",
-    "Pharmaceutical Sciences",
-    "Engineering",
-    "Applied Biological Science",
-    "Informatics and Data Science"
-  ],
-  "features": [
-    "SGU (Super Global University) 선정 대학입니다.",
-    "EJU (일본유학시험) 점수가 필요합니다.",
-    "영어 프로그램이 개설되어 있습니다.",
-    "기숙사를 제공합니다.",
-    "장학금 제도가 마련되어 있습니다."
-  ],
-  "id": "univ_hiroshima-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "35%",
-    "international_students": 1200
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "히로시마 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "description": "히로시마 대학교는 일본 히로시마에 위치한 명문 국립대학교입니다. 다양한 학부와 영어 프로그램, 장학금 제도를 제공하여 국제 학생들에게 매력적인 선택지입니다."
-}
+basic_info:
+  address: 広島県東広島市鏡山一丁目7番1号
+  name_en: Hiroshima University
+  name_ja: 広島大学
+  website: https://www.hiroshima-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 히로시마 대학교는 일본 히로시마에 위치한 명문 국립대학교입니다. 다양한 학부와 영어 프로그램, 장학금 제도를 제공하여 국제
+  학생들에게 매력적인 선택지입니다.
+faculties:
+- Integrated Arts and Sciences
+- Letters
+- Education
+- Law
+- Economics
+- Science
+- Medicine
+- Dentistry
+- Pharmaceutical Sciences
+- Engineering
+- Applied Biological Science
+- Informatics and Data Science
+features:
+- SGU (Super Global University) 선정 대학입니다.
+- EJU (일본유학시험) 점수가 필요합니다.
+- 영어 프로그램이 개설되어 있습니다.
+- 기숙사를 제공합니다.
+- 장학금 제도가 마련되어 있습니다.
+id: univ_hiroshima-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35%
+  international_students: 1200
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 히로시마 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요 및 명성

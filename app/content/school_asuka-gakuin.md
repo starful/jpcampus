@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般コース
   total_fees: 1634000
+date: '2026-01-28'
 description: Asuka Academy in Yokohama provides international students with a strong
   foundation in Japanese language and culture, preparing them for academic and professional
   success in Japan.

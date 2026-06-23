@@ -1,82 +1,66 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府堺市堺区榎元町1-1-6",
-    "capacity": 130,
-    "name_en": "Shin-A International Language Academy",
-    "name_ja": "新亜国際語言学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1473200
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヵ月コース",
-      "total_fees": 1299850
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年半コース",
-      "total_fees": 1126500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヵ月コース",
-      "total_fees": 953150
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 779800
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "학교 연계 기숙사 옵션",
-    "EJU(일본유학시험) 대비",
-    "집중적인 대학 진학 중심",
-    "장학금 기회 제공",
-    "특화된 이공계 트랙 지원",
-    "1인실 기숙사 이용 가능",
-    "실용적인 회화 일본어 강조",
-    "비즈니스 일본어 및 커리어 트레이닝",
-    "맞춤형 미술 및 디자인 트랙 준비",
-    "단기 연수 프로그램"
-  ],
-  "id": "school_shin-a-international-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.5727734,
-    "lng": 135.4843729
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=354",
-  "stats": {
-    "capacity": 130,
-    "international_students": 130
-  },
-  "tags": [
-    "School-Affiliated Dormitory Options",
-    "EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive University Advancement Focus",
-    "Scholarship Opportunities Available",
-    "Specialized Science Track Support (Rikei)",
-    "Single Room Dormitory Availability",
-    "Emphasis on Practical Conversational Japanese",
-    "Business Japanese and Career Training",
-    "Dedicated Art and Design Track Preparation",
-    "Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "신아 국제어학원",
-  "translated": true,
-  "tuition": {},
-  "description": "오사카 사카이시에 위치한 신아 국제어학원은 집중적인 일본어 학습과 학업 발전을 위한 최적의 환경을 제공합니다. 대학 진학을 위한 체계적인 커리큘럼과 다양한 장학금 제도를 통해 꿈을 실현할 수 있도록 지원합니다."
-}
+basic_info:
+  address: 大阪府堺市堺区榎元町1-1-6
+  capacity: 130
+  name_en: Shin-A International Language Academy
+  name_ja: 新亜国際語言学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1473200
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1299850
+- admission_month: '10'
+  course_name: 進学1年半コース
+  total_fees: 1126500
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 953150
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 779800
+date: '2026-01-28'
+description: 오사카 사카이시에 위치한 신아 국제어학원은 집중적인 일본어 학습과 학업 발전을 위한 최적의 환경을 제공합니다. 대학 진학을
+  위한 체계적인 커리큘럼과 다양한 장학금 제도를 통해 꿈을 실현할 수 있도록 지원합니다.
+faculties: []
+features:
+- 학교 연계 기숙사 옵션
+- EJU(일본유학시험) 대비
+- 집중적인 대학 진학 중심
+- 장학금 기회 제공
+- 특화된 이공계 트랙 지원
+- 1인실 기숙사 이용 가능
+- 실용적인 회화 일본어 강조
+- 비즈니스 일본어 및 커리어 트레이닝
+- 맞춤형 미술 및 디자인 트랙 준비
+- 단기 연수 프로그램
+id: school_shin-a-international-language-academy
+lang: kr
+layout: school
+location:
+  lat: 34.5727734
+  lng: 135.4843729
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=354
+stats:
+  capacity: 130
+  international_students: 130
+tags:
+- School-Affiliated Dormitory Options
+- EJU (Examination for Japanese University Admission) Preparation
+- Intensive University Advancement Focus
+- Scholarship Opportunities Available
+- Specialized Science Track Support (Rikei)
+- Single Room Dormitory Availability
+- Emphasis on Practical Conversational Japanese
+- Business Japanese and Career Training
+- Dedicated Art and Design Track Preparation
+- Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: 신아 국제어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

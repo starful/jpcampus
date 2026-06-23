@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kinjo-university-ishikawa-guide",
-  "title": "긴조 대학",
-  "description": "이시카와현에 위치한 긴조 대학은 보건, 의료, 복지 분야의 전문가 양성에 특화된 사립 대학교입니다. 높은 국가시험 합격률과 지역 사회와의 긴밀한 연계를 통해 일본 내 취업에 강력한 강점을 가지고 있습니다.",
-  "category": "university",
-  "tags": [
-    "최상위권 국가시험 합격 지원",
-    "전문적인 의료 및 복지 실무 교육",
-    "경관이 아름다운 이시카와현 위치",
-    "지역 의료 기관과의 긴밀한 협력 관계"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金城大学",
-    "name_en": "Kinjo University",
-    "address": "1200 Kasama-machi, Hakusan-shi, Ishikawa 924-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "Faculty of Social Work",
-    "Faculty of Health Sciences",
-    "Faculty of Nursing",
-    "Junior College Division (Art, Child Education, Business)"
-  ],
-  "features": [
-    "최상위권 국가시험 합격 지원",
-    "전문적인 의료 및 복지 실무 교육",
-    "경관이 아름다운 이시카와현 위치",
-    "지역 의료 기관과의 긴밀한 협력 관계"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1200 Kasama-machi, Hakusan-shi, Ishikawa 924-8511, Japan
+  capacity: null
+  name_en: Kinjo University
+  name_ja: 金城大学
+category: university
+date: '2026-03-24'
+description: 이시카와현에 위치한 긴조 대학은 보건, 의료, 복지 분야의 전문가 양성에 특화된 사립 대학교입니다. 높은 국가시험 합격률과
+  지역 사회와의 긴밀한 연계를 통해 일본 내 취업에 강력한 강점을 가지고 있습니다.
+faculties:
+- Faculty of Social Work
+- Faculty of Health Sciences
+- Faculty of Nursing
+- Junior College Division (Art, Child Education, Business)
+features:
+- 최상위권 국가시험 합격 지원
+- 전문적인 의료 및 복지 실무 교육
+- 경관이 아름다운 이시카와현 위치
+- 지역 의료 기관과의 긴밀한 협력 관계
+id: univ_kinjo-university-ishikawa-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 45
+tags:
+- 최상위권 국가시험 합격 지원
+- 전문적인 의료 및 복지 실무 교육
+- 경관이 아름다운 이시카와현 위치
+- 지역 의료 기관과의 긴밀한 협력 관계
+thumbnail: /static/img/pin-univ.png
+title: 긴조 대학
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 대학 개요: 이시카와현 복지와 보건의 중심

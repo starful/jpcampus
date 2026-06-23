@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kogakkan-university",
-  "title": "Kogakkan University",
-  "category": "university",
-  "tags": [
-    "One of only two universities specializing in Shinto Studies",
-    "Located in Ise, the spiritual heart of Japan",
-    "Exceptional teacher training and heritage preservation focus",
-    "Deep immersion in traditional Japanese culture and etiquette"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "皇學館大学",
-    "name_en": "Kogakkan University",
-    "address": "1704 Kushimoto-cho, Ise-shi, Mie 516-8555, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "65%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Contemporary Social Studies"
-  ],
-  "features": [
-    "One of only two universities specializing in Shinto Studies",
-    "Located in Ise, the spiritual heart of Japan",
-    "Exceptional teacher training and heritage preservation focus",
-    "Deep immersion in traditional Japanese culture and etiquette"
-  ]
-}
+basic_info:
+  address: 1704 Kushimoto-cho, Ise-shi, Mie 516-8555, Japan
+  capacity: null
+  name_en: Kogakkan University
+  name_ja: 皇學館大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Contemporary Social Studies
+features:
+- One of only two universities specializing in Shinto Studies
+- Located in Ise, the spiritual heart of Japan
+- Exceptional teacher training and heritage preservation focus
+- Deep immersion in traditional Japanese culture and etiquette
+id: univ_kogakkan-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65%
+  international_students: 25
+tags:
+- One of only two universities specializing in Shinto Studies
+- Located in Ise, the spiritual heart of Japan
+- Exceptional teacher training and heritage preservation focus
+- Deep immersion in traditional Japanese culture and etiquette
+thumbnail: /static/img/pin-univ.png
+title: Kogakkan University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 University Overview: The Spiritual Heart of Japanese Education

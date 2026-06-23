@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ohka-gakuen-university-guide-international-students",
-  "title": "Ohka Gakuen University",
-  "category": "university",
-  "tags": [
-    "Top-tier Childcare and Early Childhood Education Program",
-    "Small-group Personalized Career Support",
-    "High Job Placement Rate in the Chubu Region",
-    "Safe and Supportive Environment for Women"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桜花学園大学",
-    "name_en": "Ohka Gakuen University",
-    "address": "12-11 Takegahana, Sakae-cho, Toyoake-shi, Aichi 470-1193, Japan",
-    "capacity": 1150
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Child Studies",
-    "Faculty of Liberal Arts",
-    "Graduate School of Human Cultural Studies"
-  ],
-  "features": [
-    "Top-tier Childcare and Early Childhood Education Program",
-    "Small-group Personalized Career Support",
-    "High Job Placement Rate in the Chubu Region",
-    "Safe and Supportive Environment for Women"
-  ]
-}
+basic_info:
+  address: 12-11 Takegahana, Sakae-cho, Toyoake-shi, Aichi 470-1193, Japan
+  capacity: 1150
+  name_en: Ohka Gakuen University
+  name_ja: 桜花学園大学
+category: university
+date: '2026-04-04'
+faculties:
+- Faculty of Child Studies
+- Faculty of Liberal Arts
+- Graduate School of Human Cultural Studies
+features:
+- Top-tier Childcare and Early Childhood Education Program
+- Small-group Personalized Career Support
+- High Job Placement Rate in the Chubu Region
+- Safe and Supportive Environment for Women
+id: univ_ohka-gakuen-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 35
+tags:
+- Top-tier Childcare and Early Childhood Education Program
+- Small-group Personalized Career Support
+- High Job Placement Rate in the Chubu Region
+- Safe and Supportive Environment for Women
+thumbnail: /static/img/pin-univ.png
+title: Ohka Gakuen University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview

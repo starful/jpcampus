@@ -21,6 +21,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般コース Ⅰ・Ⅱ・Ⅲ・Ⅳ
   total_fees: 1619200
+date: '2026-01-28'
 description: Kyoto Min-Sai Japanese Language School offers comprehensive Japanese
   language education with a focus on university preparation, including specialized
   tracks for EJU and practical conversation skills.

@@ -1,89 +1,240 @@
 ---
-{
-  "basic_info": {
-    "address": "1-1-15 Tsuchitoi, Aoba-ku, Sendai, Miyagi Prefecture",
-    "capacity": 380,
-    "category": "school",
-    "courses": [
-      {
-        "admission_month": "4",
-        "course_name": "Preparatory Education 2-Year Course",
-        "total_fees": 1780000
-      },
-      {
-        "admission_month": "10",
-        "course_name": "Preparatory Education 1.5-Year Course",
-        "total_fees": 1370000
-      },
-      {
-        "admission_month": "4",
-        "course_name": "April Intake Course",
-        "total_fees": 1560000
-      },
-      {
-        "admission_month": "7",
-        "course_name": "July Intake Course",
-        "total_fees": 1365000
-      },
-      {
-        "admission_month": "10",
-        "course_name": "October Intake Course",
-        "total_fees": 1190000
-      },
-      {
-        "admission_month": "1",
-        "course_name": "January Intake Course",
-        "total_fees": 1015000
-      }
-    ],
-    "faculties": [],
-    "features": [
-      "EJU 시험 준비",
-      "대학 진학 지원",
-      "STEM/이공계열 준비",
-      "기숙사 이용 가능",
-      "1인실 이용 가능",
-      "장학금 프로그램",
-      "회화 중심 수업",
-      "비즈니스 일본어",
-      "미술 & 디자인 준비",
-      "단기 코스"
-    ],
-    "id": "school_kankyu-japanese-language-academy",
-    "layout": "school",
-    "location": {
-      "lat": 38.2485677,
-      "lng": 140.8795331
-    },
-    "name_en": "Kankyu Japanese Language Academy",
-    "name_ja": "環球日本語学習院",
-    "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=591",
-    "stats": {
-      "capacity": 380,
-      "international_students": 0
-    },
-    "tags": [
-      "EJU Preparation",
-      "University Advancement Support",
-      "STEM/Science Stream Prep",
-      "Dormitory Available",
-      "Single Rooms Available",
-      "Scholarship Programs",
-      "Conversation-focused Classes",
-      "Business Japanese",
-      "Art & Design Prep",
-      "Short-term Courses"
-    ],
-    "thumbnail": "/static/img/pin-school.png",
-    "title": "Kankyu 일본어 학습원",
-    "tuition": {}
-  },
-  "content_body": "## 🏫 School Overview & Philosophy\n\nKankyu Japanese Language Academy (環球日本語学習院), located in Sendai, Miyagi Prefecture, provides a comprehensive Japanese language education designed to prepare international students for higher education in Japan. The academy is known for its commitment to academic excellence, personalized student support, and a curriculum tailored to the diverse needs of its international students. With a capacity of 380 students, Kankyu fosters a supportive learning community with individualized attention and collaborative learning.\n\nThe academy's location in Sendai, the largest city in the Tohoku region, is advantageous. Sendai, often called the \"City of Trees,\" blends urban convenience with natural beauty. This peaceful environment allows students to focus on their studies without the distractions and high costs of larger cities like Tokyo. The city's academic community, with numerous universities and colleges, creates a stimulating environment for learning and personal growth. Additionally, Sendai's rich history and culture offer students opportunities to experience authentic Japanese traditions.\n\nKankyu Japanese Language Academy's educational philosophy focuses on equipping students with strong Japanese language skills and the critical thinking, cultural understanding, and academic preparedness needed for success in Japanese universities and beyond. The school's dedicated faculty uses innovative teaching methods, incorporating interactive activities, real-world scenarios, and personalized feedback to create a dynamic learning environment. The academy aims to empower students to become confident, communicative, and culturally aware individuals who can thrive in a globalized world.\n\nThe school's commitment extends beyond the classroom, providing comprehensive support services to ensure students' well-being and academic success. From assistance with visa applications and accommodation arrangements to personalized academic advising and career counseling, Kankyu strives to create a nurturing environment where students can flourish. The academy's ultimate goal is to help international students achieve their academic goals and build successful futures in Japan.\n\n## 📚 Courses, Curriculum & Teaching Style\n\n| Course Name | Duration | Target Level | Key Features |\n|---|---|---|---|\n| Preparatory Education 2-Year Course | 2 Years | Beginner to Advanced | Comprehensive Japanese language training, EJU preparation, focused instruction for students with fewer than 12 years of education, university placement guidance. |\n| Preparatory Education 1.5-Year Course | 1.5 Years | Beginner to Advanced | Intensive Japanese language training, EJU preparation, designed for students needing to meet university entrance requirements, personalized academic counseling. |\n| Long-term Course (April Intake) | 2 Years | Beginner to Advanced | General Japanese language proficiency development, cultural immersion, elective courses in Business Japanese and conversational skills, university application support. |\n| Long-term Course (July Intake) | 1 Year 9 Months | Beginner to Advanced | Accelerated Japanese language training, emphasis on practical communication skills, preparation for JLPT exams, guidance on university selection and application. |\n| Long-term Course (October Intake) | 1.5 Years | Beginner to Advanced | Intensive Japanese language study, tailored instruction for EJU subjects, interview practice, support for students aiming for specific academic fields (STEM, Art & Design). |\n| Long-term Course (January Intake) | 1 Year 3 Months | Beginner to Advanced | Fast-paced Japanese language acquisition, focus on both academic and practical Japanese, cultural exchange activities, comprehensive university application assistance. |\n\n**Preparatory Education 2-Year Course:**\n* Designed for students who need to fulfill the 12 years of education required for university admission in Japan.\n* Covers all aspects of the Japanese language, from basic grammar and vocabulary to advanced reading and writing skills.\n* Provides intensive preparation for the EJU exam, covering core subjects such as Japanese, mathematics, science, and social studies.\n* Features interactive and student-centered teaching style with a strong emphasis on active participation and collaborative learning.\n* Offers personalized feedback and guidance from experienced instructors.\n* Includes regular mock exams and practice sessions to simulate the EJU exam environment and build students' confidence.\n\n**Preparatory Education 1.5-Year Course:**\n* Offers a condensed version of the 2-year preparatory program.\n* Provides intensive Japanese language training and EJU preparation in a shorter timeframe.\n* Features a carefully structured curriculum covering all essential topics and skills required for university admission.\n* Employs a rigorous and demanding teaching style with a strong focus on maximizing students' learning potential.\n* Requires active engagement in class discussions, diligent completion of assignments, and participation in regular review sessions.\n* Offers personalized academic counseling to help students identify their strengths and weaknesses and develop effective study strategies.\n\n**Long-term Course (April Intake):**\n* Designed for students who wish to study Japanese language and culture in depth.\n* Covers a wide range of topics, including grammar, vocabulary, reading, writing, listening, and speaking.\n* Offers cultural immersion activities, such as tea ceremony, calligraphy, and traditional Japanese arts and crafts.\n* Employs a communicative and interactive teaching style, focusing on developing students' ability to use Japanese in real-world situations.\n* Offers elective courses in Business Japanese and conversational skills.\n* Provides comprehensive support for university application, including guidance on university selection, essay writing, and interview preparation.\n\n**Long-term Course (July Intake):**\n* An accelerated course designed for students who want to quickly improve their Japanese language skills and prepare for the JLPT exam.\n* Features an intensive and fast-paced curriculum covering a large amount of material in a relatively short timeframe.\n* Employs a dynamic and engaging teaching style, focusing on maximizing students' learning efficiency.\n* Requires students to dedicate significant time to self-study and practice outside of class.\n* Provides ample opportunities for students to practice their Japanese skills through group activities, presentations, and role-playing exercises.\n* Offers guidance on university selection and application.\n\n**Long-term Course (October Intake):**\n* Offers a balance between intensive Japanese language study and specialized preparation for the EJU exam.\n* Tailored to the specific needs of students who are aiming for particular academic fields, such as STEM or Art & Design.\n* Features a personalized and adaptive teaching style, with instructors providing individualized attention to each student.\n* Provides specialized instruction for EJU subjects, such as mathematics, physics, chemistry, and biology.\n* Offers interview practice to help students prepare for university interviews.\n\n**Long-term Course (January Intake):**\n* A fast-paced course designed for students who want to acquire Japanese language proficiency quickly and efficiently.\n* Focuses on both academic and practical Japanese, equipping students with the skills they need to succeed in both academic and professional settings.\n* Employs an intensive and demanding teaching style, with a strong emphasis on active participation and self-study.\n* Organizes cultural exchange activities to provide students with opportunities to interact with Japanese students and learn about Japanese culture.\n* Provides comprehensive university application assistance.\n\n## 🌍 Student Body & Campus Life\n\nWhile specific data on the current nationality mix is unavailable, Kankyu Japanese Language Academy attracts a diverse student body from various countries across Asia, Europe, and the Americas. This multicultural environment fosters cross-cultural understanding and enriches the learning experience for all students. Given the school's strong focus on university preparation, it's likely that a significant portion of the student population comes from countries with growing economies and a strong desire for higher education opportunities in Japan. The school's emphasis on STEM and Art & Design further suggests a strong interest from students in regions with developing technological and creative industries.\n\nCampus facilities are designed to provide a comfortable and conducive learning environment:\n*   Classrooms are equipped with modern technology, including interactive whiteboards and audio-visual equipment.\n*   The school has a library with a wide selection of Japanese language learning materials, computers, and internet access.\n*   Common areas provide spaces for students to relax, socialize, and study together.\n\nExtracurricular activities are an integral part of the student experience:\n*   The school organizes various cultural events and excursions throughout the year.\n*   Activities include visits to historical sites, participation in traditional festivals, and excursions to nearby cities.\n*   The school encourages students to participate in student clubs and organizations, such as language exchange, sports, and cultural activities.\n\n## 🎓 University & Career Pathways\n\nWhile specific data on past university admission records is unavailable, Kankyu Japanese Language Academy places a strong emphasis on university placement and career support.\n\n*   The academy's comprehensive university advancement program includes personalized academic counseling, EJU preparation, interview practice, and assistance with university application.\n*   The school also provides guidance on selecting the right university and academic program based on students' individual goals and interests.\n*   Students interested in STEM fields receive specialized guidance and preparation for science-related EJU subjects.\n*   Students aspiring to enter art universities or design schools benefit from tailored support, including portfolio development workshops.\n\nFor students interested in pursuing careers in Japan, the academy offers career counseling services:\n*   Resume writing workshops\n*   Interview skills training\n*   Job search assistance\n*   Seminars and workshops on Japanese business culture and etiquette\n*   Business Japanese course to equip students with the language skills needed for professional success\n\nIt’s reasonable to assume that Kankyu assists students in navigating the job market, connecting them with potential employers, and providing resources for visa sponsorship after graduation.\n\n## 🏡 Accommodation & Living Support\n\nKankyu Japanese Language Academy offers dormitory accommodation to international students, providing a secure and convenient living environment.\n\n*   Availability of single rooms.\n*   Dormitories are typically located within a reasonable distance from the school.\n\nBeyond dormitory accommodation, the school assists students with finding alternative housing options:\n*   Staff members provide guidance on navigating the Japanese rental market, understanding lease agreements, and setting up utilities.\n*   They also offer support with essential tasks such as opening a bank account, registering with the local government, and obtaining health insurance.\n\nThe school also provides ongoing support to students throughout their stay in Japan:\n*   Staff members are available to answer questions, provide advice, and assist with any problems that may arise.\n*   The school organizes social events and activities to help students connect with each other and build a sense of community.\n\nWhile the data doesn't specify services such as airport pick-up, it can be assumed that basic services are provided for students who request it.\n\n## 💰 Tuition, Fees & Scholarships\n\nThe following table outlines the estimated first-year costs for international students at Kankyu Japanese Language Academy.\n\n| Expense | Estimated Cost (JPY) |\n|---|---|\n| Tuition Fee | Varies by course (See Course Information Table) |\n| Admission Fee | Included in Total Fees Listed for Courses |\n| Textbook Fee | ¥30,000 - ¥50,000 (Estimated) |\n| Accommodation (Dormitory - 1 Year) | ¥400,000 - ¥600,000 (Estimated) |\n| Health Insurance (1 Year) | ¥20,000 - ¥30,000 (Estimated) |\n| Living Expenses (1 Year) | ¥600,000 - ¥800,000 (Estimated) |\n| **Total (Estimated)** | **¥1,850,000 - ¥3,260,000 (Varies by Course and Accommodation)** |\n\n*Note: These are estimates and may vary. Accommodation and living expenses depend on individual lifestyle choices. It is crucial to consult the school's official website or contact the admissions office for the most up-to-date and accurate information on tuition, fees, and other expenses.*\n\nKankyu Japanese Language Academy offers several scholarship opportunities to support deserving international students financially.\n\n**Internal Scholarships:**\n*   Details are not explicitly provided in the available data, but it is likely that Kankyu offers scholarships based on academic merit, financial need, or a combination of both.\n*   Prospective students should inquire directly with the school about the availability of internal scholarships, eligibility criteria, and application procedures.\n\n**External Scholarships:**\n*   International students may be eligible for various external scholarships.\n*   Some of the most common and prestigious external scholarships include:\n    *   Japanese Government (MEXT) Scholarship\n    *   JASSO Scholarship\n    *   Rotary Club Scholarship\n    *   Private Foundation Scholarships\n*   The school typically provides guidance and support to students in applying for these external scholarships.\n*   It is recommended to thoroughly research available scholarship options and carefully review the eligibility requirements and application deadlines for each scholarship.\n*   Early application is always advisable, as scholarship funding is often limited.",
-  "description": "센다이에 위치한 Kankyu 일본어 학습원은 국제 학생들에게 종합적인 일본어 교육을 제공하며, EJU 시험 준비, STEM 및 미술 & 디자인 과정 등을 통해 일본 대학 진학을 준비할 수 있도록 돕습니다.",
-  "lang": "kr",
-  "title": "Kankyu 일본어 학습원",
-  "translated": true
-}
+basic_info:
+  address: 1-1-15 Tsuchitoi, Aoba-ku, Sendai, Miyagi Prefecture
+  capacity: 380
+  category: school
+  courses:
+  - admission_month: '4'
+    course_name: Preparatory Education 2-Year Course
+    total_fees: 1780000
+  - admission_month: '10'
+    course_name: Preparatory Education 1.5-Year Course
+    total_fees: 1370000
+  - admission_month: '4'
+    course_name: April Intake Course
+    total_fees: 1560000
+  - admission_month: '7'
+    course_name: July Intake Course
+    total_fees: 1365000
+  - admission_month: '10'
+    course_name: October Intake Course
+    total_fees: 1190000
+  - admission_month: '1'
+    course_name: January Intake Course
+    total_fees: 1015000
+  faculties: []
+  features:
+  - EJU 시험 준비
+  - 대학 진학 지원
+  - STEM/이공계열 준비
+  - 기숙사 이용 가능
+  - 1인실 이용 가능
+  - 장학금 프로그램
+  - 회화 중심 수업
+  - 비즈니스 일본어
+  - 미술 & 디자인 준비
+  - 단기 코스
+  id: school_kankyu-japanese-language-academy
+  layout: school
+  location:
+    lat: 38.2485677
+    lng: 140.8795331
+  name_en: Kankyu Japanese Language Academy
+  name_ja: 環球日本語学習院
+  source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=591
+  stats:
+    capacity: 380
+    international_students: 0
+  tags:
+  - EJU Preparation
+  - University Advancement Support
+  - STEM/Science Stream Prep
+  - Dormitory Available
+  - Single Rooms Available
+  - Scholarship Programs
+  - Conversation-focused Classes
+  - Business Japanese
+  - Art & Design Prep
+  - Short-term Courses
+  thumbnail: /static/img/pin-school.png
+  title: Kankyu 일본어 학습원
+  tuition: {}
+content_body: "## \U0001F3EB School Overview & Philosophy\n\nKankyu Japanese Language
+  Academy (環球日本語学習院), located in Sendai, Miyagi Prefecture, provides a comprehensive
+  Japanese language education designed to prepare international students for higher
+  education in Japan. The academy is known for its commitment to academic excellence,
+  personalized student support, and a curriculum tailored to the diverse needs of
+  its international students. With a capacity of 380 students, Kankyu fosters a supportive
+  learning community with individualized attention and collaborative learning.\n\nThe
+  academy's location in Sendai, the largest city in the Tohoku region, is advantageous.
+  Sendai, often called the \"City of Trees,\" blends urban convenience with natural
+  beauty. This peaceful environment allows students to focus on their studies without
+  the distractions and high costs of larger cities like Tokyo. The city's academic
+  community, with numerous universities and colleges, creates a stimulating environment
+  for learning and personal growth. Additionally, Sendai's rich history and culture
+  offer students opportunities to experience authentic Japanese traditions.\n\nKankyu
+  Japanese Language Academy's educational philosophy focuses on equipping students
+  with strong Japanese language skills and the critical thinking, cultural understanding,
+  and academic preparedness needed for success in Japanese universities and beyond.
+  The school's dedicated faculty uses innovative teaching methods, incorporating interactive
+  activities, real-world scenarios, and personalized feedback to create a dynamic
+  learning environment. The academy aims to empower students to become confident,
+  communicative, and culturally aware individuals who can thrive in a globalized world.\n\nThe
+  school's commitment extends beyond the classroom, providing comprehensive support
+  services to ensure students' well-being and academic success. From assistance with
+  visa applications and accommodation arrangements to personalized academic advising
+  and career counseling, Kankyu strives to create a nurturing environment where students
+  can flourish. The academy's ultimate goal is to help international students achieve
+  their academic goals and build successful futures in Japan.\n\n## \U0001F4DA Courses,
+  Curriculum & Teaching Style\n\n| Course Name | Duration | Target Level | Key Features
+  |\n|---|---|---|---|\n| Preparatory Education 2-Year Course | 2 Years | Beginner
+  to Advanced | Comprehensive Japanese language training, EJU preparation, focused
+  instruction for students with fewer than 12 years of education, university placement
+  guidance. |\n| Preparatory Education 1.5-Year Course | 1.5 Years | Beginner to Advanced
+  | Intensive Japanese language training, EJU preparation, designed for students needing
+  to meet university entrance requirements, personalized academic counseling. |\n|
+  Long-term Course (April Intake) | 2 Years | Beginner to Advanced | General Japanese
+  language proficiency development, cultural immersion, elective courses in Business
+  Japanese and conversational skills, university application support. |\n| Long-term
+  Course (July Intake) | 1 Year 9 Months | Beginner to Advanced | Accelerated Japanese
+  language training, emphasis on practical communication skills, preparation for JLPT
+  exams, guidance on university selection and application. |\n| Long-term Course (October
+  Intake) | 1.5 Years | Beginner to Advanced | Intensive Japanese language study,
+  tailored instruction for EJU subjects, interview practice, support for students
+  aiming for specific academic fields (STEM, Art & Design). |\n| Long-term Course
+  (January Intake) | 1 Year 3 Months | Beginner to Advanced | Fast-paced Japanese
+  language acquisition, focus on both academic and practical Japanese, cultural exchange
+  activities, comprehensive university application assistance. |\n\n**Preparatory
+  Education 2-Year Course:**\n* Designed for students who need to fulfill the 12 years
+  of education required for university admission in Japan.\n* Covers all aspects of
+  the Japanese language, from basic grammar and vocabulary to advanced reading and
+  writing skills.\n* Provides intensive preparation for the EJU exam, covering core
+  subjects such as Japanese, mathematics, science, and social studies.\n* Features
+  interactive and student-centered teaching style with a strong emphasis on active
+  participation and collaborative learning.\n* Offers personalized feedback and guidance
+  from experienced instructors.\n* Includes regular mock exams and practice sessions
+  to simulate the EJU exam environment and build students' confidence.\n\n**Preparatory
+  Education 1.5-Year Course:**\n* Offers a condensed version of the 2-year preparatory
+  program.\n* Provides intensive Japanese language training and EJU preparation in
+  a shorter timeframe.\n* Features a carefully structured curriculum covering all
+  essential topics and skills required for university admission.\n* Employs a rigorous
+  and demanding teaching style with a strong focus on maximizing students' learning
+  potential.\n* Requires active engagement in class discussions, diligent completion
+  of assignments, and participation in regular review sessions.\n* Offers personalized
+  academic counseling to help students identify their strengths and weaknesses and
+  develop effective study strategies.\n\n**Long-term Course (April Intake):**\n* Designed
+  for students who wish to study Japanese language and culture in depth.\n* Covers
+  a wide range of topics, including grammar, vocabulary, reading, writing, listening,
+  and speaking.\n* Offers cultural immersion activities, such as tea ceremony, calligraphy,
+  and traditional Japanese arts and crafts.\n* Employs a communicative and interactive
+  teaching style, focusing on developing students' ability to use Japanese in real-world
+  situations.\n* Offers elective courses in Business Japanese and conversational skills.\n*
+  Provides comprehensive support for university application, including guidance on
+  university selection, essay writing, and interview preparation.\n\n**Long-term Course
+  (July Intake):**\n* An accelerated course designed for students who want to quickly
+  improve their Japanese language skills and prepare for the JLPT exam.\n* Features
+  an intensive and fast-paced curriculum covering a large amount of material in a
+  relatively short timeframe.\n* Employs a dynamic and engaging teaching style, focusing
+  on maximizing students' learning efficiency.\n* Requires students to dedicate significant
+  time to self-study and practice outside of class.\n* Provides ample opportunities
+  for students to practice their Japanese skills through group activities, presentations,
+  and role-playing exercises.\n* Offers guidance on university selection and application.\n\n**Long-term
+  Course (October Intake):**\n* Offers a balance between intensive Japanese language
+  study and specialized preparation for the EJU exam.\n* Tailored to the specific
+  needs of students who are aiming for particular academic fields, such as STEM or
+  Art & Design.\n* Features a personalized and adaptive teaching style, with instructors
+  providing individualized attention to each student.\n* Provides specialized instruction
+  for EJU subjects, such as mathematics, physics, chemistry, and biology.\n* Offers
+  interview practice to help students prepare for university interviews.\n\n**Long-term
+  Course (January Intake):**\n* A fast-paced course designed for students who want
+  to acquire Japanese language proficiency quickly and efficiently.\n* Focuses on
+  both academic and practical Japanese, equipping students with the skills they need
+  to succeed in both academic and professional settings.\n* Employs an intensive and
+  demanding teaching style, with a strong emphasis on active participation and self-study.\n*
+  Organizes cultural exchange activities to provide students with opportunities to
+  interact with Japanese students and learn about Japanese culture.\n* Provides comprehensive
+  university application assistance.\n\n## \U0001F30D Student Body & Campus Life\n\nWhile
+  specific data on the current nationality mix is unavailable, Kankyu Japanese Language
+  Academy attracts a diverse student body from various countries across Asia, Europe,
+  and the Americas. This multicultural environment fosters cross-cultural understanding
+  and enriches the learning experience for all students. Given the school's strong
+  focus on university preparation, it's likely that a significant portion of the student
+  population comes from countries with growing economies and a strong desire for higher
+  education opportunities in Japan. The school's emphasis on STEM and Art & Design
+  further suggests a strong interest from students in regions with developing technological
+  and creative industries.\n\nCampus facilities are designed to provide a comfortable
+  and conducive learning environment:\n*   Classrooms are equipped with modern technology,
+  including interactive whiteboards and audio-visual equipment.\n*   The school has
+  a library with a wide selection of Japanese language learning materials, computers,
+  and internet access.\n*   Common areas provide spaces for students to relax, socialize,
+  and study together.\n\nExtracurricular activities are an integral part of the student
+  experience:\n*   The school organizes various cultural events and excursions throughout
+  the year.\n*   Activities include visits to historical sites, participation in traditional
+  festivals, and excursions to nearby cities.\n*   The school encourages students
+  to participate in student clubs and organizations, such as language exchange, sports,
+  and cultural activities.\n\n## \U0001F393 University & Career Pathways\n\nWhile
+  specific data on past university admission records is unavailable, Kankyu Japanese
+  Language Academy places a strong emphasis on university placement and career support.\n\n*
+  \  The academy's comprehensive university advancement program includes personalized
+  academic counseling, EJU preparation, interview practice, and assistance with university
+  application.\n*   The school also provides guidance on selecting the right university
+  and academic program based on students' individual goals and interests.\n*   Students
+  interested in STEM fields receive specialized guidance and preparation for science-related
+  EJU subjects.\n*   Students aspiring to enter art universities or design schools
+  benefit from tailored support, including portfolio development workshops.\n\nFor
+  students interested in pursuing careers in Japan, the academy offers career counseling
+  services:\n*   Resume writing workshops\n*   Interview skills training\n*   Job
+  search assistance\n*   Seminars and workshops on Japanese business culture and etiquette\n*
+  \  Business Japanese course to equip students with the language skills needed for
+  professional success\n\nIt’s reasonable to assume that Kankyu assists students in
+  navigating the job market, connecting them with potential employers, and providing
+  resources for visa sponsorship after graduation.\n\n## \U0001F3E1 Accommodation
+  & Living Support\n\nKankyu Japanese Language Academy offers dormitory accommodation
+  to international students, providing a secure and convenient living environment.\n\n*
+  \  Availability of single rooms.\n*   Dormitories are typically located within a
+  reasonable distance from the school.\n\nBeyond dormitory accommodation, the school
+  assists students with finding alternative housing options:\n*   Staff members provide
+  guidance on navigating the Japanese rental market, understanding lease agreements,
+  and setting up utilities.\n*   They also offer support with essential tasks such
+  as opening a bank account, registering with the local government, and obtaining
+  health insurance.\n\nThe school also provides ongoing support to students throughout
+  their stay in Japan:\n*   Staff members are available to answer questions, provide
+  advice, and assist with any problems that may arise.\n*   The school organizes social
+  events and activities to help students connect with each other and build a sense
+  of community.\n\nWhile the data doesn't specify services such as airport pick-up,
+  it can be assumed that basic services are provided for students who request it.\n\n##
+  \U0001F4B0 Tuition, Fees & Scholarships\n\nThe following table outlines the estimated
+  first-year costs for international students at Kankyu Japanese Language Academy.\n\n|
+  Expense | Estimated Cost (JPY) |\n|---|---|\n| Tuition Fee | Varies by course (See
+  Course Information Table) |\n| Admission Fee | Included in Total Fees Listed for
+  Courses |\n| Textbook Fee | ¥30,000 - ¥50,000 (Estimated) |\n| Accommodation (Dormitory
+  - 1 Year) | ¥400,000 - ¥600,000 (Estimated) |\n| Health Insurance (1 Year) | ¥20,000
+  - ¥30,000 (Estimated) |\n| Living Expenses (1 Year) | ¥600,000 - ¥800,000 (Estimated)
+  |\n| **Total (Estimated)** | **¥1,850,000 - ¥3,260,000 (Varies by Course and Accommodation)**
+  |\n\n*Note: These are estimates and may vary. Accommodation and living expenses
+  depend on individual lifestyle choices. It is crucial to consult the school's official
+  website or contact the admissions office for the most up-to-date and accurate information
+  on tuition, fees, and other expenses.*\n\nKankyu Japanese Language Academy offers
+  several scholarship opportunities to support deserving international students financially.\n\n**Internal
+  Scholarships:**\n*   Details are not explicitly provided in the available data,
+  but it is likely that Kankyu offers scholarships based on academic merit, financial
+  need, or a combination of both.\n*   Prospective students should inquire directly
+  with the school about the availability of internal scholarships, eligibility criteria,
+  and application procedures.\n\n**External Scholarships:**\n*   International students
+  may be eligible for various external scholarships.\n*   Some of the most common
+  and prestigious external scholarships include:\n    *   Japanese Government (MEXT)
+  Scholarship\n    *   JASSO Scholarship\n    *   Rotary Club Scholarship\n    *   Private
+  Foundation Scholarships\n*   The school typically provides guidance and support
+  to students in applying for these external scholarships.\n*   It is recommended
+  to thoroughly research available scholarship options and carefully review the eligibility
+  requirements and application deadlines for each scholarship.\n*   Early application
+  is always advisable, as scholarship funding is often limited."
+date: '2026-02-13'
+description: 센다이에 위치한 Kankyu 일본어 학습원은 국제 학생들에게 종합적인 일본어 교육을 제공하며, EJU 시험 준비, STEM
+  및 미술 & 디자인 과정 등을 통해 일본 대학 진학을 준비할 수 있도록 돕습니다.
+lang: kr
+title: Kankyu 일본어 학습원
+translated: true
 ---
 
 ## 🏫 학교 개요 및 철학

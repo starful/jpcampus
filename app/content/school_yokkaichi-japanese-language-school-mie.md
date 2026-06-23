@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学Ⅰコース
   total_fees: 1045000
+date: '2026-01-28'
 description: Yokkaichi Japanese Language School offers specialized university preparation
   in a focused academic environment with comprehensive support and unique regional
   advantages.

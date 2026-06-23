@@ -24,6 +24,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般1年コース
   total_fees: 800000
+date: '2026-01-28'
 description: J International Academy, located in Osaka, offers various Japanese language
   courses, including university preparation and general courses. Features include
   dormitory accommodation and a focus on EJU preparation.

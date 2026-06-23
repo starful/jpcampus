@@ -1,72 +1,60 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県福山市霞町1-2-3",
-    "capacity": 260,
-    "name_en": "Hiroshima Kokusai Business College",
-    "name_ja": "専門学校広島国際ビジネスカレッジ"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1200000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 980000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 660000
-    }
-  ],
-  "description": "히로시마 국제 비즈니스 컬리지(HKBC)는 히로시마현 후쿠야마시에 위치하고 있으며, 실용적인 비즈니스 일본어 및 대학 준비 과정을 제공합니다. EJU 시험 준비를 위한 강력한 지원과 독특한 이공계/예체능 트랙을 운영합니다.",
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "EJU 시험 준비 지원",
-    "강력한 대학 진학 중심",
-    "비즈니스 일본어 전문 트랙",
-    "단기 유학 옵션",
-    "1인실 숙소 이용 가능",
-    "장학금 프로그램",
-    "이공계 진학 지원",
-    "회화 중심 수업",
-    "미술 디자인 진학 지원"
-  ],
-  "id": "school_hiroshima-kokusai-business-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.4853978,
-    "lng": 133.3655533
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=402",
-  "stats": {
-    "capacity": 260,
-    "international_students": 200
-  },
-  "tags": [
-    "Dormitory available",
-    "EJU preparation support",
-    "Strong university progression focus",
-    "Business Japanese specialized track",
-    "Short-term study options",
-    "Single room accommodation available",
-    "Scholarship programs",
-    "Science stream progression support",
-    "Conversation-focused classes",
-    "Art and Design progression support"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "히로시마 국제 비즈니스 컬리지",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 広島県福山市霞町1-2-3
+  capacity: 260
+  name_en: Hiroshima Kokusai Business College
+  name_ja: 専門学校広島国際ビジネスカレッジ
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1200000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 980000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 660000
+date: '2026-01-28'
+description: 히로시마 국제 비즈니스 컬리지(HKBC)는 히로시마현 후쿠야마시에 위치하고 있으며, 실용적인 비즈니스 일본어 및 대학 준비
+  과정을 제공합니다. EJU 시험 준비를 위한 강력한 지원과 독특한 이공계/예체능 트랙을 운영합니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- EJU 시험 준비 지원
+- 강력한 대학 진학 중심
+- 비즈니스 일본어 전문 트랙
+- 단기 유학 옵션
+- 1인실 숙소 이용 가능
+- 장학금 프로그램
+- 이공계 진학 지원
+- 회화 중심 수업
+- 미술 디자인 진학 지원
+id: school_hiroshima-kokusai-business-college
+lang: kr
+layout: school
+location:
+  lat: 34.4853978
+  lng: 133.3655533
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=402
+stats:
+  capacity: 260
+  international_students: 200
+tags:
+- Dormitory available
+- EJU preparation support
+- Strong university progression focus
+- Business Japanese specialized track
+- Short-term study options
+- Single room accommodation available
+- Scholarship programs
+- Science stream progression support
+- Conversation-focused classes
+- Art and Design progression support
+thumbnail: /static/img/pin-school.png
+title: 히로시마 국제 비즈니스 컬리지
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

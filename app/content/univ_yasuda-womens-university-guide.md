@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yasuda-womens-university-guide",
-  "title": "Yasuda Women's University",
-  "category": "university",
-  "tags": [
-    "Educational philosophy of 'Softness and Strength' (Yasashiku Tsuyoku)",
-    "Incredible 99% employment success rate for graduates",
-    "Brand new Faculty of Digital Business launched in 2023",
-    "Extensive 'Manners and Etiquette' training integrated into the curriculum"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "安田女子大学",
-    "name_en": "Yasuda Women's University",
-    "address": "6-18-1 Yasuhigashi, Asaminami-ku, Hiroshima-shi, Hiroshima 731-0153, Japan",
-    "capacity": "Approximately 5,100 total students"
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "45-55% (Estimated based on private university trends in Hiroshima)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Psychology",
-    "Faculty of Contemporary Business",
-    "Faculty of Pharmacy",
-    "Faculty of Nursing",
-    "Faculty of Health Sciences",
-    "Faculty of Digital Business"
-  ],
-  "features": [
-    "Educational philosophy of 'Softness and Strength' (Yasashiku Tsuyoku)",
-    "Incredible 99% employment success rate for graduates",
-    "Brand new Faculty of Digital Business launched in 2023",
-    "Extensive 'Manners and Etiquette' training integrated into the curriculum"
-  ]
-}
+basic_info:
+  address: 6-18-1 Yasuhigashi, Asaminami-ku, Hiroshima-shi, Hiroshima 731-0153, Japan
+  capacity: Approximately 5,100 total students
+  name_en: Yasuda Women's University
+  name_ja: 安田女子大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Psychology
+- Faculty of Contemporary Business
+- Faculty of Pharmacy
+- Faculty of Nursing
+- Faculty of Health Sciences
+- Faculty of Digital Business
+features:
+- Educational philosophy of 'Softness and Strength' (Yasashiku Tsuyoku)
+- Incredible 99% employment success rate for graduates
+- Brand new Faculty of Digital Business launched in 2023
+- Extensive 'Manners and Etiquette' training integrated into the curriculum
+id: univ_yasuda-womens-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Estimated based on private university trends in Hiroshima)
+  international_students: 45
+tags:
+- Educational philosophy of 'Softness and Strength' (Yasashiku Tsuyoku)
+- Incredible 99% employment success rate for graduates
+- Brand new Faculty of Digital Business launched in 2023
+- Extensive 'Manners and Etiquette' training integrated into the curriculum
+thumbnail: /static/img/pin-univ.png
+title: Yasuda Women's University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

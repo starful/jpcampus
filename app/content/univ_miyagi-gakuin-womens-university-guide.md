@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_miyagi-gakuin-womens-university-guide",
-  "title": "Miyagi Gakuin Women's University",
-  "category": "university",
-  "tags": [
-    "Oldest Christian Women's School in Northern Japan",
-    "Strong Music and Arts Heritage",
-    "Comprehensive International Support in Sendai",
-    "Specialized Food and Health Science Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宮城学院女子大学",
-    "name_en": "Miyagi Gakuin Women's University",
-    "address": "9-1-1 Sakuragaoka, Aoba-ku, Sendai, Miyagi 981-8557, Japan",
-    "capacity": 3000
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Liberal Arts",
-    "Department of English",
-    "Department of Japanese Culture",
-    "Department of Human Psychology",
-    "Department of Child Education",
-    "Department of Food and Health Sciences",
-    "Department of Music"
-  ],
-  "features": [
-    "Oldest Christian Women's School in Northern Japan",
-    "Strong Music and Arts Heritage",
-    "Comprehensive International Support in Sendai",
-    "Specialized Food and Health Science Programs"
-  ]
-}
+basic_info:
+  address: 9-1-1 Sakuragaoka, Aoba-ku, Sendai, Miyagi 981-8557, Japan
+  capacity: 3000
+  name_en: Miyagi Gakuin Women's University
+  name_ja: 宮城学院女子大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Liberal Arts
+- Department of English
+- Department of Japanese Culture
+- Department of Human Psychology
+- Department of Child Education
+- Department of Food and Health Sciences
+- Department of Music
+features:
+- Oldest Christian Women's School in Northern Japan
+- Strong Music and Arts Heritage
+- Comprehensive International Support in Sendai
+- Specialized Food and Health Science Programs
+id: univ_miyagi-gakuin-womens-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 35
+tags:
+- Oldest Christian Women's School in Northern Japan
+- Strong Music and Arts Heritage
+- Comprehensive International Support in Sendai
+- Specialized Food and Health Science Programs
+thumbnail: /static/img/pin-univ.png
+title: Miyagi Gakuin Women's University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview

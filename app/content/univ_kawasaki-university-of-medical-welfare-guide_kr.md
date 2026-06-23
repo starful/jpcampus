@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kawasaki-university-of-medical-welfare-guide",
-  "title": "가와사키 의료복지대학교",
-  "category": "university",
-  "lang": "kr",
-  "tags": [
-    "가와사키 의과대학 부속 병원과의 통합 실습 교육",
-    "일본 의료복지 교육의 선구자",
-    "독보적인 국가고시 합격률",
-    "전문직 간 협력 교육(IPE) 중심 커리큘럼",
-    "역사적인 도시 구라시키의 전략적 위치"
-  ],
-  "description": "일본 오카야마현 구라시키시에 위치한 가와사키 의료복지대학교는 일본 최초로 '의료복지'라는 명칭을 도입한 대학으로, 가와사키 의과대학 부속 병원과의 긴밀한 연계를 통해 수준 높은 임상 교육과 높은 국가고시 합격률을 자랑하는 의료·복지 전문 교육 기관입니다.",
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "川崎医療福祉大学",
-    "name_en": "Kawasaki University of Medical Welfare",
-    "address": "577 Matsushima, Kurashiki, Okayama 701-0193, Japan",
-    "capacity": 4500
-  },
-  "stats": {
-    "international_students": 25,
-    "acceptance_rate": "50-60%"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "의료복지학부",
-    "보건과학부",
-    "재활학부",
-    "건강체육학부",
-    "의료정보학부"
-  ],
-  "features": [
-    "가와사키 의과대학 부속 병원과의 통합 실습 교육",
-    "일본 의료복지 교육의 선구자",
-    "독보적인 국가고시 합격률",
-    "전문직 간 협력 교육(IPE) 중심 커리큘럼",
-    "역사적인 도시 구라시키의 전략적 위치"
-  ]
-}
+basic_info:
+  address: 577 Matsushima, Kurashiki, Okayama 701-0193, Japan
+  capacity: 4500
+  name_en: Kawasaki University of Medical Welfare
+  name_ja: 川崎医療福祉大学
+category: university
+date: '2026-04-19'
+description: 일본 오카야마현 구라시키시에 위치한 가와사키 의료복지대학교는 일본 최초로 '의료복지'라는 명칭을 도입한 대학으로, 가와사키
+  의과대학 부속 병원과의 긴밀한 연계를 통해 수준 높은 임상 교육과 높은 국가고시 합격률을 자랑하는 의료·복지 전문 교육 기관입니다.
+faculties:
+- 의료복지학부
+- 보건과학부
+- 재활학부
+- 건강체육학부
+- 의료정보학부
+features:
+- 가와사키 의과대학 부속 병원과의 통합 실습 교육
+- 일본 의료복지 교육의 선구자
+- 독보적인 국가고시 합격률
+- 전문직 간 협력 교육(IPE) 중심 커리큘럼
+- 역사적인 도시 구라시키의 전략적 위치
+id: univ_kawasaki-university-of-medical-welfare-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 50-60%
+  international_students: 25
+tags:
+- 가와사키 의과대학 부속 병원과의 통합 실습 교육
+- 일본 의료복지 교육의 선구자
+- 독보적인 국가고시 합격률
+- 전문직 간 협력 교육(IPE) 중심 커리큘럼
+- 역사적인 도시 구라시키의 전략적 위치
+thumbnail: /static/img/pin-univ.png
+title: 가와사키 의료복지대학교
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 대학 개요

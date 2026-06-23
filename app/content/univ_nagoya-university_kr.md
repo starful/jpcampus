@@ -1,72 +1,65 @@
 ---
-{
-  "basic_info": {
-    "address": "〒464-8601 愛知県名古屋市千種区不老町",
-    "name_en": "Nagoya University",
-    "name_ja": "名古屋大学",
-    "website": "https://www.nagoya-u.ac.jp/"
-  },
-  "category": "school",
-  "description": "나고야 대학교는 일본의 선도적인 국립 대학으로, 뛰어난 연구 및 학문적 우수성으로 명성이 높습니다. 국제 학생들을 위한 다양한 프로그램과 지원 서비스를 제공합니다.",
-  "faculties": [
-    "文学部",
-    "教育学部",
-    "法学部",
-    "経済学部",
-    "情報学部",
-    "理学部",
-    "医学部",
-    "工学部",
-    "農学部",
-    "国際開発研究科",
-    "多元数理科学研究科",
-    "情報科学研究科",
-    "生命農学研究科",
-    "環境学研究科",
-    "創薬科学研究科",
-    "国際言語文化研究科",
-    "法学研究科",
-    "経済学研究科",
-    "医学系研究科",
-    "工学研究科",
-    "理学研究科",
-    "高等教育研究科"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금",
-    "교환 학생 프로그램"
-  ],
-  "id": "school_nagoya-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.155816,
-    "lng": 136.9648909
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 2357
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "나고야 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 〒464-8601 愛知県名古屋市千種区不老町
+  name_en: Nagoya University
+  name_ja: 名古屋大学
+  website: https://www.nagoya-u.ac.jp/
+category: school
+date: '2026-01-28'
+description: 나고야 대학교는 일본의 선도적인 국립 대학으로, 뛰어난 연구 및 학문적 우수성으로 명성이 높습니다. 국제 학생들을 위한 다양한
+  프로그램과 지원 서비스를 제공합니다.
+faculties:
+- 文学部
+- 教育学部
+- 法学部
+- 経済学部
+- 情報学部
+- 理学部
+- 医学部
+- 工学部
+- 農学部
+- 国際開発研究科
+- 多元数理科学研究科
+- 情報科学研究科
+- 生命農学研究科
+- 環境学研究科
+- 創薬科学研究科
+- 国際言語文化研究科
+- 法学研究科
+- 経済学研究科
+- 医学系研究科
+- 工学研究科
+- 理学研究科
+- 高等教育研究科
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+- 교환 학생 프로그램
+id: school_nagoya-university
+lang: kr
+layout: school
+location:
+  lat: 35.155816
+  lng: 136.9648909
+stats:
+  acceptance_rate: 30%
+  international_students: 2357
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+thumbnail: /static/img/pin-school.png
+title: 나고야 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 학교 개요

@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanagawa-university-of-human-services",
-  "title": "Kanagawa University of Human Services",
-  "category": "university",
-  "tags": [
-    "Specialized in Interprofessional Education (IPE)",
-    "State-of-the-art Yokosuka campus overlooking the ocean",
-    "Exclusive School of Health Innovation (SHI) focused on healthcare technology",
-    "Strong government backing and high national exam pass rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神奈川県立保健福祉大学",
-    "name_en": "Kanagawa University of Human Services",
-    "address": "1-10-1 Heiseicho, Yokosuka, Kanagawa 238-8522, Japan",
-    "capacity": 1050
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "25%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Health and Social Services",
-    "Department of Nursing",
-    "Department of Nutrition",
-    "Department of Social Work",
-    "Department of Rehabilitation (Physical Therapy/Occupational Therapy)",
-    "Graduate School of Health and Social Services",
-    "School of Health Innovation (SHI)"
-  ],
-  "features": [
-    "Specialized in Interprofessional Education (IPE)",
-    "State-of-the-art Yokosuka campus overlooking the ocean",
-    "Exclusive School of Health Innovation (SHI) focused on healthcare technology",
-    "Strong government backing and high national exam pass rates"
-  ]
-}
+basic_info:
+  address: 1-10-1 Heiseicho, Yokosuka, Kanagawa 238-8522, Japan
+  capacity: 1050
+  name_en: Kanagawa University of Human Services
+  name_ja: 神奈川県立保健福祉大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Health and Social Services
+- Department of Nursing
+- Department of Nutrition
+- Department of Social Work
+- Department of Rehabilitation (Physical Therapy/Occupational Therapy)
+- Graduate School of Health and Social Services
+- School of Health Innovation (SHI)
+features:
+- Specialized in Interprofessional Education (IPE)
+- State-of-the-art Yokosuka campus overlooking the ocean
+- Exclusive School of Health Innovation (SHI) focused on healthcare technology
+- Strong government backing and high national exam pass rates
+id: univ_kanagawa-university-of-human-services
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25%
+  international_students: 15
+tags:
+- Specialized in Interprofessional Education (IPE)
+- State-of-the-art Yokosuka campus overlooking the ocean
+- Exclusive School of Health Innovation (SHI) focused on healthcare technology
+- Strong government backing and high national exam pass rates
+thumbnail: /static/img/pin-univ.png
+title: Kanagawa University of Human Services
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

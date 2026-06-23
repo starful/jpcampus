@@ -1,62 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区西新宿8-11-10 星野ビル",
-    "capacity": 360,
-    "name_en": "Japan Tokyo International Academy",
-    "name_ja": "日本東京国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学4月コース",
-      "total_fees": 1409700
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学7月コース",
-      "total_fees": 1248050
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学10月コース",
-      "total_fees": 1086400
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1月コース",
-      "total_fees": 924350
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 및 대학원 진학을 위한 전문 커리큘럼",
-    "일본 대학 입학 시험(EJU) 집중 대비",
-    "교내 또는 제휴 기숙사 이용 가능",
-    "유연한 단기 학습 프로그램"
-  ],
-  "id": "school_japan-tokyo-international-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6953231,
-    "lng": 139.6926962
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=555",
-  "stats": {},
-  "tags": [
-    "Specialized Curriculum for University and Graduate School Progression",
-    "Dedicated Examination for Japanese University Admission (EJU) Preparation",
-    "On-campus or Partnered Dormitory Accommodation Available",
-    "Flexible Short-Term Study Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "Japan Tokyo International Academy (일본 도쿄 국제 아카데미)",
-  "translated": true,
-  "tuition": {},
-  "description": "Japan Tokyo International Academy는 도쿄의 중심, 신주쿠에 위치한 일본어 학교입니다. 대학 및 대학원 진학을 위한 최적의 교육 환경을 제공합니다."
-}
+basic_info:
+  address: 東京都新宿区西新宿8-11-10 星野ビル
+  capacity: 360
+  name_en: Japan Tokyo International Academy
+  name_ja: 日本東京国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学4月コース
+  total_fees: 1409700
+- admission_month: '7'
+  course_name: 進学7月コース
+  total_fees: 1248050
+- admission_month: '10'
+  course_name: 進学10月コース
+  total_fees: 1086400
+- admission_month: '1'
+  course_name: 進学1月コース
+  total_fees: 924350
+date: '2026-01-28'
+description: Japan Tokyo International Academy는 도쿄의 중심, 신주쿠에 위치한 일본어 학교입니다. 대학 및 대학원
+  진학을 위한 최적의 교육 환경을 제공합니다.
+faculties: []
+features:
+- 대학 및 대학원 진학을 위한 전문 커리큘럼
+- 일본 대학 입학 시험(EJU) 집중 대비
+- 교내 또는 제휴 기숙사 이용 가능
+- 유연한 단기 학습 프로그램
+id: school_japan-tokyo-international-academy
+lang: kr
+layout: school
+location:
+  lat: 35.6953231
+  lng: 139.6926962
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=555
+stats: {}
+tags:
+- Specialized Curriculum for University and Graduate School Progression
+- Dedicated Examination for Japanese University Admission (EJU) Preparation
+- On-campus or Partnered Dormitory Accommodation Available
+- Flexible Short-Term Study Programs
+thumbnail: /static/img/pin-school.png
+title: Japan Tokyo International Academy (일본 도쿄 국제 아카데미)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

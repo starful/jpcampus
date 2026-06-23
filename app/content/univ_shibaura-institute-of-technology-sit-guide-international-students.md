@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shibaura-institute-of-technology-sit-guide-international-students",
-  "title": "Shibaura Institute of Technology",
-  "category": "university",
-  "tags": [
-    "Top Global University Project (Type B) Recipient",
-    "Pioneering Innovative Global Program (IGP) in English",
-    "Extremely High Graduate Employment Rate (near 100%)",
-    "Cutting-edge Urban and Suburban Campus Facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "芝浦工業大学",
-    "name_en": "Shibaura Institute of Technology",
-    "address": "3-9-14 Shibaura, Minato-ku, Tokyo 108-8548, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 1100,
-    "acceptance_rate": "15-25% (Highly competitive for global programs)"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1600000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Systems Science and Engineering",
-    "Faculty of Engineering and Design",
-    "Faculty of Architecture",
-    "Graduate School of Science and Engineering"
-  ],
-  "features": [
-    "Top Global University Project (Type B) Recipient",
-    "Pioneering Innovative Global Program (IGP) in English",
-    "Extremely High Graduate Employment Rate (near 100%)",
-    "Cutting-edge Urban and Suburban Campus Facilities"
-  ]
-}
+basic_info:
+  address: 3-9-14 Shibaura, Minato-ku, Tokyo 108-8548, Japan
+  capacity: null
+  name_en: Shibaura Institute of Technology
+  name_ja: 芝浦工業大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Engineering
+- Faculty of Systems Science and Engineering
+- Faculty of Engineering and Design
+- Faculty of Architecture
+- Graduate School of Science and Engineering
+features:
+- Top Global University Project (Type B) Recipient
+- Pioneering Innovative Global Program (IGP) in English
+- Extremely High Graduate Employment Rate (near 100%)
+- Cutting-edge Urban and Suburban Campus Facilities
+id: univ_shibaura-institute-of-technology-sit-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (Highly competitive for global programs)
+  international_students: 1100
+tags:
+- Top Global University Project (Type B) Recipient
+- Pioneering Innovative Global Program (IGP) in English
+- Extremely High Graduate Employment Rate (near 100%)
+- Cutting-edge Urban and Suburban Campus Facilities
+thumbnail: /static/img/pin-univ.png
+title: Shibaura Institute of Technology
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1600000
 ---
 
 ## 🏫 University Overview: The Pinnacle of Private Engineering in Japan

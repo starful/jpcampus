@@ -1,64 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "北海道上川郡東川町進化台",
-    "capacity": 200,
-    "name_en": "Higashikawa International Culture and Welfare College",
-    "name_ja": "東川国際文化福祉専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "General",
-      "total_fees": 1220000
-    },
-    {
-      "admission_month": "0",
-      "course_name": "General",
-      "total_fees": 1600000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합 기숙사 시스템",
-    "EJU 및 대학 입시 집중 대비",
-    "특화 과정 (이학, 미술 디자인, 비즈니스)",
-    "회화 능력 향상에 중점",
-    "장학금 및 재정 지원 가능",
-    "1인실 숙박 옵션 제공",
-    "홋카이도 (히가시카와)의 아름다운 경치",
-    "단기 연수 프로그램 운영"
-  ],
-  "id": "school_higashikawa-international-culture-welfare-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 43.7013995,
-    "lng": 142.5434911
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=499",
-  "stats": {},
-  "tags": [
-    "Comprehensive Dormitory System",
-    "Dedicated EJU and University Entrance Exam Preparation",
-    "Specialized Tracks (Science, Art & Design, Business)",
-    "Strong Emphasis on Conversational Fluency",
-    "Availability of Scholarships and Financial Aid",
-    "Single Room Accommodation Options",
-    "Located in Scenic Hokkaido (Higashikawa Town)",
-    "Short-Term Study Programs Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "[2026] 히가시카와 국제문화복지전문학교 - 학비 및 입학 가이드",
-  "translated": true,
-  "tuition": {},
-  "description": "히가시카와 국제문화복지전문학교의 2026년 최신 학비, 개설 코스, 유학생 혜택 정보를 JP Campus에서 확인하고 일본 유학을 준비하세요.",
-  "seo_title": "[2026] 히가시카와 국제문화복지전문학교 학비·입학 정보 | JP Campus",
-  "seo_description": "2026년 히가시카와 국제문화복지전문학교 입학을 위한 학비, 코스, 유학생 혜택 정보를 확인하세요. JP Campus에서 일본 유학 준비를 시작할 수 있습니다."
-}
+basic_info:
+  address: 北海道上川郡東川町進化台
+  capacity: 200
+  name_en: Higashikawa International Culture and Welfare College
+  name_ja: 東川国際文化福祉専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: General
+  total_fees: 1220000
+- admission_month: '0'
+  course_name: General
+  total_fees: 1600000
+date: '2026-06-19'
+description: 히가시카와 국제문화복지전문학교의 2026년 최신 학비, 개설 코스, 유학생 혜택 정보를 JP Campus에서 확인하고 일본
+  유학을 준비하세요.
+faculties: []
+features:
+- 종합 기숙사 시스템
+- EJU 및 대학 입시 집중 대비
+- 특화 과정 (이학, 미술 디자인, 비즈니스)
+- 회화 능력 향상에 중점
+- 장학금 및 재정 지원 가능
+- 1인실 숙박 옵션 제공
+- 홋카이도 (히가시카와)의 아름다운 경치
+- 단기 연수 프로그램 운영
+id: school_higashikawa-international-culture-welfare-college
+lang: kr
+layout: school
+location:
+  lat: 43.7013995
+  lng: 142.5434911
+seo_description: 2026년 히가시카와 국제문화복지전문학교 입학을 위한 학비, 코스, 유학생 혜택 정보를 확인하세요. JP Campus에서
+  일본 유학 준비를 시작할 수 있습니다.
+seo_title: '[2026] 히가시카와 국제문화복지전문학교 학비·입학 정보 | JP Campus'
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=499
+stats: {}
+tags:
+- Comprehensive Dormitory System
+- Dedicated EJU and University Entrance Exam Preparation
+- Specialized Tracks (Science, Art & Design, Business)
+- Strong Emphasis on Conversational Fluency
+- Availability of Scholarships and Financial Aid
+- Single Room Accommodation Options
+- Located in Scenic Hokkaido (Higashikawa Town)
+- Short-Term Study Programs Available
+thumbnail: /static/img/pin-school.png
+title: '[2026] 히가시카와 국제문화복지전문학교 - 학비 및 입학 가이드'
+translated: true
+tuition: {}
 ---
-
 
 ## 학교 개요 및 철학
 

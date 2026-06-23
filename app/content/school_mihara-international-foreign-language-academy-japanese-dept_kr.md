@@ -1,61 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "広島県三原市宮沖5-8-15",
-    "capacity": 120,
-    "name_en": "Mihara International Foreign Language Academy (Japanese Department)",
-    "name_ja": "三原国際外語学院日本語科"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "基礎1年コース",
-      "total_fees": 675000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 675000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 955000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 완비 (숙소 보장)",
-    "EJU(일본유학시험) 특화 준비반 운영",
-    "체계적인 상위 교육기관 진학 지원",
-    "실용적인 회화 및 커뮤니케이션 능력 강화",
-    "유연한 단기 연수 옵션 제공",
-    "주고쿠 지역 (히로시마현) 위치"
-  ],
-  "id": "school_mihara-international-foreign-language-academy-japanese-dept",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.3903297,
-    "lng": 133.0746919
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=398",
-  "stats": {},
-  "tags": [
-    "Integrated Student Dormitory (Accommodation Guarantee)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Dedicated Higher Education Progression Support",
-    "Emphasis on Practical Conversation and Communication Skills",
-    "Flexible Short-Term Study Options",
-    "Located in the Chugoku Region (Hiroshima Prefecture)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "미하라 국제외어학원 일본어학과",
-  "translated": true,
-  "tuition": {},
-  "description": "히로시마현 미하라시에 위치한 미하라 국제외어학원 일본어학과에 대한 소개입니다. EJU 시험 대비, 대학 진학 지원, 기숙사 시설 등의 특징을 제공합니다."
-}
+basic_info:
+  address: 広島県三原市宮沖5-8-15
+  capacity: 120
+  name_en: Mihara International Foreign Language Academy (Japanese Department)
+  name_ja: 三原国際外語学院日本語科
+category: school
+courses:
+- admission_month: '4'
+  course_name: 基礎1年コース
+  total_fees: 675000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 675000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 955000
+date: '2026-01-28'
+description: 히로시마현 미하라시에 위치한 미하라 국제외어학원 일본어학과에 대한 소개입니다. EJU 시험 대비, 대학 진학 지원, 기숙사
+  시설 등의 특징을 제공합니다.
+faculties: []
+features:
+- 기숙사 완비 (숙소 보장)
+- EJU(일본유학시험) 특화 준비반 운영
+- 체계적인 상위 교육기관 진학 지원
+- 실용적인 회화 및 커뮤니케이션 능력 강화
+- 유연한 단기 연수 옵션 제공
+- 주고쿠 지역 (히로시마현) 위치
+id: school_mihara-international-foreign-language-academy-japanese-dept
+lang: kr
+layout: school
+location:
+  lat: 34.3903297
+  lng: 133.0746919
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=398
+stats: {}
+tags:
+- Integrated Student Dormitory (Accommodation Guarantee)
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Dedicated Higher Education Progression Support
+- Emphasis on Practical Conversation and Communication Skills
+- Flexible Short-Term Study Options
+- Located in the Chugoku Region (Hiroshima Prefecture)
+thumbnail: /static/img/pin-school.png
+title: 미하라 국제외어학원 일본어학과
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

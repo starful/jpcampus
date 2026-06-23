@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-institute-of-technology-international-student-guide",
-  "title": "아이치 공업대학교 (Aichi Institute of Technology)",
-  "description": "일본 자동차 산업의 심장부에서 배우는 최첨단 공학, 압도적인 취업률을 자랑하는 실무 중심의 명문 공과대학교입니다.",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "일본 자동차 산업의 중심지, 도요타시에 위치",
-    "압도적인 취업률과 글로벌 제조 기업과의 강력한 네트워크",
-    "최첨단 방재 기술 및 로봇 공학 연구소 보유",
-    "실무 중심의 '모노즈쿠리(장인정신)' 교육 커리큘럼"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知工業大学",
-    "name_en": "Aichi Institute of Technology",
-    "address": "1247 Yakusa-cho, Toyota, Aichi, 470-0392, Japan",
-    "capacity": "학부 및 대학원생 총 약 6,200명"
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "45.0%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1380000
-  },
-  "faculties": [
-    "공학부",
-    "경영학부",
-    "정보과학부"
-  ],
-  "features": [
-    "일본 자동차 산업의 중심지, 도요타시에 위치",
-    "압도적인 취업률과 글로벌 제조 기업과의 강력한 네트워크",
-    "최첨단 방재 기술 및 로봇 공학 연구소 보유",
-    "실무 중심의 '모노즈쿠리(장인정신)' 교육 커리큘럼"
-  ]
-}
+basic_info:
+  address: 1247 Yakusa-cho, Toyota, Aichi, 470-0392, Japan
+  capacity: 학부 및 대학원생 총 약 6,200명
+  name_en: Aichi Institute of Technology
+  name_ja: 愛知工業大学
+category: university
+date: '2026-03-15'
+description: 일본 자동차 산업의 심장부에서 배우는 최첨단 공학, 압도적인 취업률을 자랑하는 실무 중심의 명문 공과대학교입니다.
+faculties:
+- 공학부
+- 경영학부
+- 정보과학부
+features:
+- 일본 자동차 산업의 중심지, 도요타시에 위치
+- 압도적인 취업률과 글로벌 제조 기업과의 강력한 네트워크
+- 최첨단 방재 기술 및 로봇 공학 연구소 보유
+- 실무 중심의 '모노즈쿠리(장인정신)' 교육 커리큘럼
+id: univ_aichi-institute-of-technology-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45.0%
+  international_students: 145
+tags:
+- 일본 자동차 산업의 중심지, 도요타시에 위치
+- 압도적인 취업률과 글로벌 제조 기업과의 강력한 네트워크
+- 최첨단 방재 기술 및 로봇 공학 연구소 보유
+- 실무 중심의 '모노즈쿠리(장인정신)' 교육 커리큘럼
+thumbnail: /static/img/pin-univ.png
+title: 아이치 공업대학교 (Aichi Institute of Technology)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1380000
 ---
 
 ## 🏫 대학 개요: 실무 공학의 정점

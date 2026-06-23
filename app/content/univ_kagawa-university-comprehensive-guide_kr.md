@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kagawa-university-comprehensive-guide",
-  "title": "가가와 대학 (香川大学)",
-  "category": "university",
-  "tags": [
-    "희귀당(이즈모링) 연구 분야의 세계적인 선두 주자",
-    "독특한 '공학 및 디자인' 통합 커리큘럼",
-    "세토우치 지역 활성화 및 예술 프로젝트와의 강력한 연계",
-    "시코쿠의 관문, 다카마쓰에서의 경제적인 생활"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "香川大学",
-    "name_en": "Kagawa University",
-    "address": "1-1 Saiwai-cho, Takamatsu, Kagawa 760-8521, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "20-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Medicine",
-    "Faculty of Engineering and Design",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "희귀당(이즈모링) 연구 분야의 세계적인 선두 주자",
-    "독특한 '공학 및 디자인' 통합 커리큘럼",
-    "세토우치 지역 활성화 및 예술 프로젝트와의 강력한 연계",
-    "시코쿠의 관문, 다카마쓰에서의 경제적인 생활"
-  ],
-  "description": "가가와현 다카마쓰시에 위치한 가가와 대학에 대한 종합 안내입니다. 희귀당 연구의 선두 주자이며, 세토우치 지역과의 강력한 연계를 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-1 Saiwai-cho, Takamatsu, Kagawa 760-8521, Japan
+  capacity: null
+  name_en: Kagawa University
+  name_ja: 香川大学
+category: university
+date: '2026-02-13'
+description: 가가와현 다카마쓰시에 위치한 가가와 대학에 대한 종합 안내입니다. 희귀당 연구의 선두 주자이며, 세토우치 지역과의 강력한 연계를
+  자랑합니다.
+faculties:
+- Faculty of Education
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Medicine
+- Faculty of Engineering and Design
+- Faculty of Agriculture
+features:
+- 희귀당(이즈모링) 연구 분야의 세계적인 선두 주자
+- 독특한 '공학 및 디자인' 통합 커리큘럼
+- 세토우치 지역 활성화 및 예술 프로젝트와의 강력한 연계
+- 시코쿠의 관문, 다카마쓰에서의 경제적인 생활
+id: univ_kagawa-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20-30%
+  international_students: 245
+tags:
+- 희귀당(이즈모링) 연구 분야의 세계적인 선두 주자
+- 독특한 '공학 및 디자인' 통합 커리큘럼
+- 세토우치 지역 활성화 및 예술 프로젝트와의 강력한 연계
+- 시코쿠의 관문, 다카마쓰에서의 경제적인 생활
+thumbnail: /static/img/pin-univ.png
+title: 가가와 대학 (香川大学)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

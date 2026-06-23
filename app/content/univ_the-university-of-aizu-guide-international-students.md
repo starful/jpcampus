@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_the-university-of-aizu-guide-international-students",
-  "title": "The University of Aizu",
-  "category": "university",
-  "tags": [
-    "First university in Japan dedicated solely to Computer Science",
-    "Approximately 40% of faculty members are international",
-    "Top-tier global rankings (THE World University Rankings)",
-    "Advanced Space Informatics and AI Research Centers",
-    "100% Computer Literacy education model"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "会津大学",
-    "name_en": "The University of Aizu",
-    "address": "Tsuruga, Ikki-machi, Aizuwakamatsu City, Fukushima, 965-8580, Japan",
-    "capacity": 1100
-  },
-  "stats": {
-    "international_students": 190,
-    "acceptance_rate": "25.5%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 520800
-  },
-  "faculties": [
-    "School of Computer Science and Engineering",
-    "Graduate School of Computer Science and Engineering"
-  ],
-  "features": [
-    "First university in Japan dedicated solely to Computer Science",
-    "Approximately 40% of faculty members are international",
-    "Top-tier global rankings (THE World University Rankings)",
-    "Advanced Space Informatics and AI Research Centers",
-    "100% Computer Literacy education model"
-  ]
-}
+basic_info:
+  address: Tsuruga, Ikki-machi, Aizuwakamatsu City, Fukushima, 965-8580, Japan
+  capacity: 1100
+  name_en: The University of Aizu
+  name_ja: 会津大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Computer Science and Engineering
+- Graduate School of Computer Science and Engineering
+features:
+- First university in Japan dedicated solely to Computer Science
+- Approximately 40% of faculty members are international
+- Top-tier global rankings (THE World University Rankings)
+- Advanced Space Informatics and AI Research Centers
+- 100% Computer Literacy education model
+id: univ_the-university-of-aizu-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25.5%
+  international_students: 190
+tags:
+- First university in Japan dedicated solely to Computer Science
+- Approximately 40% of faculty members are international
+- Top-tier global rankings (THE World University Rankings)
+- Advanced Space Informatics and AI Research Centers
+- 100% Computer Literacy education model
+thumbnail: /static/img/pin-univ.png
+title: The University of Aizu
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 520800
 ---
 
 ## 🏫 University Overview

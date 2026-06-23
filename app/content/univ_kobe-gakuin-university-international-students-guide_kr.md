@@ -1,55 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-gakuin-university-international-students-guide",
-  "title": "고베가쿠인대학교",
-  "description": "고베의 아름다운 워터프론트 캠퍼스와 방재(BOSAI) 및 보건 의료 분야의 강점을 가진 고베가쿠인대학교의 외국인 유학생 가이드입니다.",
-  "category": "university",
-  "tags": [
-    "포트 아일랜드 캠퍼스",
-    "방재 프로그램 강점",
-    "간사이 취업 지원",
-    "글로벌 커뮤니케이션"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸学院大学",
-    "name_en": "Kobe Gakuin University",
-    "address": "518 Arise, Ikawadani-cho, Nishi-ku, Kobe, Hyogo 651-2180, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 254,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "법학부",
-    "경제학부",
-    "경영학부",
-    "인문학부",
-    "심리학부",
-    "현대사회학부",
-    "글로벌 커뮤니케이션 학부",
-    "재활학부",
-    "영양학부",
-    "약학부"
-  ],
-  "features": [
-    "포트 아일랜드의 아름다운 워터프론트 캠퍼스",
-    "일본 전국적으로 인정받는 방재(BOSAI) 프로그램",
-    "간사이 지역의 강력한 취업 지원 체계",
-    "글로벌 커뮤니케이션 학부의 충실한 커리큘럼"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 518 Arise, Ikawadani-cho, Nishi-ku, Kobe, Hyogo 651-2180, Japan
+  capacity: null
+  name_en: Kobe Gakuin University
+  name_ja: 神戸学院大学
+category: university
+date: '2026-04-19'
+description: 고베의 아름다운 워터프론트 캠퍼스와 방재(BOSAI) 및 보건 의료 분야의 강점을 가진 고베가쿠인대학교의 외국인 유학생 가이드입니다.
+faculties:
+- 법학부
+- 경제학부
+- 경영학부
+- 인문학부
+- 심리학부
+- 현대사회학부
+- 글로벌 커뮤니케이션 학부
+- 재활학부
+- 영양학부
+- 약학부
+features:
+- 포트 아일랜드의 아름다운 워터프론트 캠퍼스
+- 일본 전국적으로 인정받는 방재(BOSAI) 프로그램
+- 간사이 지역의 강력한 취업 지원 체계
+- 글로벌 커뮤니케이션 학부의 충실한 커리큘럼
+id: univ_kobe-gakuin-university-international-students-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 254
+tags:
+- 포트 아일랜드 캠퍼스
+- 방재 프로그램 강점
+- 간사이 취업 지원
+- 글로벌 커뮤니케이션
+thumbnail: /static/img/pin-univ.png
+title: 고베가쿠인대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

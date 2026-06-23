@@ -5,6 +5,7 @@ basic_info:
   name_ja: 横浜国立大学
   website: https://www.ynu.ac.jp/
 category: university
+date: '2026-01-28'
 description: Explore Yokohama National University, a top-ranked Japanese university
   offering diverse programs in English, dormitories, and scholarships. Learn about
   its faculties, international student life, and more.

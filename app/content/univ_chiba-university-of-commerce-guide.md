@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chiba-university-of-commerce-guide",
-  "title": "Chiba University of Commerce",
-  "category": "university",
-  "tags": [
-    "Japan's First RE100 University",
-    "Practical Business-Oriented Education",
-    "Strong Career Support and Job Placement",
-    "Strategic Location Near Central Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "千葉商科大学",
-    "name_en": "Chiba University of Commerce",
-    "address": "1-3-1 Konodai, Ichikawa-shi, Chiba, 272-8512, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 542,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Commerce and Economics",
-    "Faculty of Economics",
-    "Faculty of Policy Studies",
-    "Faculty of Service Management",
-    "Faculty of Human and Social Studies"
-  ],
-  "features": [
-    "Japan's First RE100 University",
-    "Practical Business-Oriented Education",
-    "Strong Career Support and Job Placement",
-    "Strategic Location Near Central Tokyo"
-  ]
-}
+basic_info:
+  address: 1-3-1 Konodai, Ichikawa-shi, Chiba, 272-8512, Japan
+  capacity: null
+  name_en: Chiba University of Commerce
+  name_ja: 千葉商科大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Commerce and Economics
+- Faculty of Economics
+- Faculty of Policy Studies
+- Faculty of Service Management
+- Faculty of Human and Social Studies
+features:
+- Japan's First RE100 University
+- Practical Business-Oriented Education
+- Strong Career Support and Job Placement
+- Strategic Location Near Central Tokyo
+id: univ_chiba-university-of-commerce-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 542
+tags:
+- Japan's First RE100 University
+- Practical Business-Oriented Education
+- Strong Career Support and Job Placement
+- Strategic Location Near Central Tokyo
+thumbnail: /static/img/pin-univ.png
+title: Chiba University of Commerce
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview

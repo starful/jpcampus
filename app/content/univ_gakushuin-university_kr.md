@@ -1,51 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "〒171-8588 1-5-1 Mejiro, Toshima-ku, Tokyo",
-    "name_en": "Gakushuin University",
-    "name_ja": "学習院大学",
-    "website": "https://www.gakushuin.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics",
-    "Faculty of Letters",
-    "Faculty of Science",
-    "Faculty of International Social Sciences"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_gakushuin-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7187521,
-    "lng": 139.7088396
-  },
-  "stats": {
-    "acceptance_rate": "25%",
-    "international_students": 250
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "가쿠슈인 대학",
-  "translated": true,
-  "description": "도쿄 메지로에 위치한 명문 사립 대학, 가쿠슈인 대학에 대해 알아보세요. 특징적인 학부, 프로그램, 입학 정보 등을 제공합니다.",
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  }
-}
+basic_info:
+  address: 〒171-8588 1-5-1 Mejiro, Toshima-ku, Tokyo
+  name_en: Gakushuin University
+  name_ja: 学習院大学
+  website: https://www.gakushuin.ac.jp/
+category: university
+date: '2026-01-28'
+description: 도쿄 메지로에 위치한 명문 사립 대학, 가쿠슈인 대학에 대해 알아보세요. 특징적인 학부, 프로그램, 입학 정보 등을 제공합니다.
+faculties:
+- Faculty of Law
+- Faculty of Economics
+- Faculty of Letters
+- Faculty of Science
+- Faculty of International Social Sciences
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_gakushuin-university
+lang: kr
+layout: school
+location:
+  lat: 35.7187521
+  lng: 139.7088396
+stats:
+  acceptance_rate: 25%
+  international_students: 250
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 가쿠슈인 대학
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요 및 명성

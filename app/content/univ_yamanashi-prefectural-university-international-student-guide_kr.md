@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamanashi-prefectural-university-international-student-guide",
-  "title": "야마나시 현립 대학교",
-  "category": "university",
-  "tags": [
-    "Community-Rooted Learning",
-    "Globalized Public Curriculum",
-    "Small-Scale Intensive Education",
-    "High Professional Exam Success Rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山梨県立大学",
-    "name_en": "Yamanashi Prefectural University",
-    "address": "5-11-1 Iida, Kofu, Yamanashi 400-0035, Japan",
-    "capacity": 1350
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "25-35% (Estimated for International Tracks)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Policy Management",
-    "Faculty of Human and Social Services",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "지역사회 기반 학습",
-    "세계화된 공공 커리큘럼",
-    "소규모 집중 교육",
-    "높은 전문직 시험 합격률"
-  ],
-  "description": "야마나시 현에 위치한 야마나시 현립 대학교에 대한 정보입니다. 국제 정책 관리, 인간 사회 서비스, 간호학 분야에서 특화된 교육을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 5-11-1 Iida, Kofu, Yamanashi 400-0035, Japan
+  capacity: 1350
+  name_en: Yamanashi Prefectural University
+  name_ja: 山梨県立大学
+category: university
+date: '2026-03-03'
+description: 야마나시 현에 위치한 야마나시 현립 대학교에 대한 정보입니다. 국제 정책 관리, 인간 사회 서비스, 간호학 분야에서 특화된
+  교육을 제공합니다.
+faculties:
+- Faculty of International Policy Management
+- Faculty of Human and Social Services
+- Faculty of Nursing
+features:
+- 지역사회 기반 학습
+- 세계화된 공공 커리큘럼
+- 소규모 집중 교육
+- 높은 전문직 시험 합격률
+id: univ_yamanashi-prefectural-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (Estimated for International Tracks)
+  international_students: 42
+tags:
+- Community-Rooted Learning
+- Globalized Public Curriculum
+- Small-Scale Intensive Education
+- High Professional Exam Success Rates
+thumbnail: /static/img/pin-univ.png
+title: 야마나시 현립 대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

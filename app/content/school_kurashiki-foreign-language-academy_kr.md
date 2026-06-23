@@ -1,55 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "岡山県倉敷市阿知3-10-33",
-    "capacity": 500,
-    "name_en": "Kurashiki Foreign Language Academy",
-    "name_ja": "倉敷外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Progression 2-Year Course",
-      "total_fees": 1412000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Progression 1.5-Year Course",
-      "total_fees": 1082000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "특화된 대학 진학 과정 (EJU, 이학, 예술 & 디자인 트랙)",
-    "종합적인 교내 숙소 옵션 (싱글룸 포함)",
-    "오카야마 현 구라시키의 역사적인 도시 내 이상적인 학습 환경",
-    "실용적인 회화 및 고급 비즈니스 일본어 집중"
-  ],
-  "id": "school_kurashiki-foreign-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.5990621,
-    "lng": 133.7645322
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=466",
-  "stats": {
-    "capacity": 500,
-    "international_students": 450
-  },
-  "tags": [
-    "Specialized University Progression (EJU, Science, Arts & Design Tracks)",
-    "Comprehensive On-Campus Accommodation Options (Including Single Rooms)",
-    "Ideal Study Environment in the Historical City of Kurashiki, Okayama",
-    "Focus on Practical Conversation and Advanced Business Japanese"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "구라시키 외국어 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "구라시키 외국어 학원은 오카야마 현 구라시키시에 위치한 명문 어학원입니다. 대학 진학을 위한 체계적인 커리큘럼과 다양한 숙소 옵션을 제공합니다."
-}
+basic_info:
+  address: 岡山県倉敷市阿知3-10-33
+  capacity: 500
+  name_en: Kurashiki Foreign Language Academy
+  name_ja: 倉敷外語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Progression 2-Year Course
+  total_fees: 1412000
+- admission_month: '10'
+  course_name: University Progression 1.5-Year Course
+  total_fees: 1082000
+date: '2026-01-28'
+description: 구라시키 외국어 학원은 오카야마 현 구라시키시에 위치한 명문 어학원입니다. 대학 진학을 위한 체계적인 커리큘럼과 다양한 숙소
+  옵션을 제공합니다.
+faculties: []
+features:
+- 특화된 대학 진학 과정 (EJU, 이학, 예술 & 디자인 트랙)
+- 종합적인 교내 숙소 옵션 (싱글룸 포함)
+- 오카야마 현 구라시키의 역사적인 도시 내 이상적인 학습 환경
+- 실용적인 회화 및 고급 비즈니스 일본어 집중
+id: school_kurashiki-foreign-language-academy
+lang: kr
+layout: school
+location:
+  lat: 34.5990621
+  lng: 133.7645322
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=466
+stats:
+  capacity: 500
+  international_students: 450
+tags:
+- Specialized University Progression (EJU, Science, Arts & Design Tracks)
+- Comprehensive On-Campus Accommodation Options (Including Single Rooms)
+- Ideal Study Environment in the Historical City of Kurashiki, Okayama
+- Focus on Practical Conversation and Advanced Business Japanese
+thumbnail: /static/img/pin-school.png
+title: 구라시키 외국어 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

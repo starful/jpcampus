@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kiryu-university-guide-international-students",
-  "title": "Kiryu University",
-  "category": "university",
-  "tags": [
-    "High Success Rate for National Medical Licenses",
-    "Personalized Career Guidance and Small Class Sizes",
-    "Strong Regional Ties in Gunma Prefecture",
-    "Specialized Art and Culinary Junior College Programs"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "桐生大学",
-    "name_en": "Kiryu University",
-    "address": "606-7 Azami, Kasakake-machi, Midori-shi, Gunma 379-2311, Japan",
-    "capacity": 480
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "70-80%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1550000
-  },
-  "faculties": [
-    "Faculty of Health Care",
-    "Junior College Division: Art & Design",
-    "Junior College Division: Cooking & Confectionery"
-  ],
-  "features": [
-    "High Success Rate for National Medical Licenses",
-    "Personalized Career Guidance and Small Class Sizes",
-    "Strong Regional Ties in Gunma Prefecture",
-    "Specialized Art and Culinary Junior College Programs"
-  ]
-}
+basic_info:
+  address: 606-7 Azami, Kasakake-machi, Midori-shi, Gunma 379-2311, Japan
+  capacity: 480
+  name_en: Kiryu University
+  name_ja: 桐生大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Health Care
+- 'Junior College Division: Art & Design'
+- 'Junior College Division: Cooking & Confectionery'
+features:
+- High Success Rate for National Medical Licenses
+- Personalized Career Guidance and Small Class Sizes
+- Strong Regional Ties in Gunma Prefecture
+- Specialized Art and Culinary Junior College Programs
+id: univ_kiryu-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 70-80%
+  international_students: 45
+tags:
+- High Success Rate for National Medical Licenses
+- Personalized Career Guidance and Small Class Sizes
+- Strong Regional Ties in Gunma Prefecture
+- Specialized Art and Culinary Junior College Programs
+thumbnail: /static/img/pin-univ.png
+title: Kiryu University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1550000
 ---
 
 ## 🏫 University Overview: The Gateway to Practical Professionalism

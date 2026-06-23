@@ -1,79 +1,65 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中区金山1-16-16",
-    "capacity": 240,
-    "name_en": "ECC Japanese Language Institute Nagoya School",
-    "name_ja": "ＥＣＣ日本語学院名古屋校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語総合2年コース",
-      "total_fees": 1574000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "日本語総合1年9月コース",
-      "total_fees": 1387875
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語総合1年6月コース",
-      "total_fees": 1202750
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "日本語総合1年コース",
-      "total_fees": 825500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "회화",
-    "대학 진학 준비",
-    "EJU 준비",
-    "장학금",
-    "기숙사",
-    "개인실",
-    "이공계",
-    "비즈니스 일본어",
-    "미술",
-    "디자인",
-    "단기 코스"
-  ],
-  "id": "school_ecc-nagoya-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.1442182,
-    "lng": 136.8995483
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=296",
-  "stats": {
-    "capacity": 240,
-    "international_students": null
-  },
-  "tags": [
-    "Conversation",
-    "University Preparation",
-    "EJU Preparation",
-    "Scholarships",
-    "Dormitory",
-    "Private Room",
-    "Science",
-    "Business Japanese",
-    "Art",
-    "Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "ECC 일본어학원 나고야교",
-  "description": "ECC 일본어학원 나고야교는 아이치현 나고야시 나카구 가나야마에 위치하고 있으며, 240명의 학생을 수용할 수 있습니다. ECC 그룹의 풍부한 교육 노하우를 바탕으로 학생 개개인의 목표 달성을 위한 맞춤형 교육을 제공하는 것을 목표로 합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県名古屋市中区金山1-16-16
+  capacity: 240
+  name_en: ECC Japanese Language Institute Nagoya School
+  name_ja: ＥＣＣ日本語学院名古屋校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語総合2年コース
+  total_fees: 1574000
+- admission_month: '7'
+  course_name: 日本語総合1年9月コース
+  total_fees: 1387875
+- admission_month: '10'
+  course_name: 日本語総合1年6月コース
+  total_fees: 1202750
+- admission_month: 4,10
+  course_name: 日本語総合1年コース
+  total_fees: 825500
+date: '2026-01-28'
+description: ECC 일본어학원 나고야교는 아이치현 나고야시 나카구 가나야마에 위치하고 있으며, 240명의 학생을 수용할 수 있습니다. ECC
+  그룹의 풍부한 교육 노하우를 바탕으로 학생 개개인의 목표 달성을 위한 맞춤형 교육을 제공하는 것을 목표로 합니다.
+faculties: []
+features:
+- 회화
+- 대학 진학 준비
+- EJU 준비
+- 장학금
+- 기숙사
+- 개인실
+- 이공계
+- 비즈니스 일본어
+- 미술
+- 디자인
+- 단기 코스
+id: school_ecc-nagoya-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.1442182
+  lng: 136.8995483
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=296
+stats:
+  capacity: 240
+  international_students: null
+tags:
+- Conversation
+- University Preparation
+- EJU Preparation
+- Scholarships
+- Dormitory
+- Private Room
+- Science
+- Business Japanese
+- Art
+- Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: ECC 일본어학원 나고야교
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 이념

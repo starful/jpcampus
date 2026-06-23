@@ -1,57 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市昭和区八事本町101-2",
-    "name_en": "Chukyo University",
-    "name_ja": "中京大学",
-    "website": "https://www.chukyo-u.ac.jp/"
-  },
-  "category": "university",
-  "description": "나고야에 위치한 주쿄대학교는 스포츠 과학, 심리학, 경영학 분야에서 특히 강세를 보이는, 취업 지향적인 교육으로 명성이 높은 지역 명문 사립대학교입니다. 높은 졸업생 취업률과 균형 잡힌 인재 양성에 대한 헌신으로 잘 알려져 있으며, 국제 학생들에게도 든든한 지원 환경을 제공합니다.",
-  "faculties": [
-    "Law",
-    "Economics",
-    "Business Administration",
-    "Letters",
-    "Global Studies",
-    "Psychology",
-    "Sports Science",
-    "Information Science",
-    "Engineering"
-  ],
-  "features": [
-    "EJU 필수",
-    "지역 명문 대학",
-    "강력한 스포츠 과학",
-    "장학금 제공",
-    "높은 취업률"
-  ],
-  "id": "univ_chukyo-university-nagoya",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "Competitive",
-    "international_students": 450
-  },
-  "tags": [
-    "EJU Required",
-    "Regional Top Tier",
-    "Strong Sports Science",
-    "Scholarship",
-    "High Employment Rate"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "주쿄대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1250000
-  }
-}
+basic_info:
+  address: 愛知県名古屋市昭和区八事本町101-2
+  name_en: Chukyo University
+  name_ja: 中京大学
+  website: https://www.chukyo-u.ac.jp/
+category: university
+date: '2026-01-28'
+description: 나고야에 위치한 주쿄대학교는 스포츠 과학, 심리학, 경영학 분야에서 특히 강세를 보이는, 취업 지향적인 교육으로 명성이 높은
+  지역 명문 사립대학교입니다. 높은 졸업생 취업률과 균형 잡힌 인재 양성에 대한 헌신으로 잘 알려져 있으며, 국제 학생들에게도 든든한 지원 환경을
+  제공합니다.
+faculties:
+- Law
+- Economics
+- Business Administration
+- Letters
+- Global Studies
+- Psychology
+- Sports Science
+- Information Science
+- Engineering
+features:
+- EJU 필수
+- 지역 명문 대학
+- 강력한 스포츠 과학
+- 장학금 제공
+- 높은 취업률
+id: univ_chukyo-university-nagoya
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Competitive
+  international_students: 450
+tags:
+- EJU Required
+- Regional Top Tier
+- Strong Sports Science
+- Scholarship
+- High Employment Rate
+thumbnail: /static/img/pin-univ.png
+title: 주쿄대학교
+translated: true
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1250000
 ---
 
 ## 대학 개요 및 명성

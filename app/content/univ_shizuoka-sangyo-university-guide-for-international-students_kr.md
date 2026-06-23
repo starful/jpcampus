@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shizuoka-sangyo-university-guide-for-international-students",
-  "title": "시즈오카 산업대학교 (Shizuoka Sangyo University)",
-  "category": "university",
-  "tags": [
-    "강력한 산학 협력 시스템",
-    "유명한 스포츠 매니지먼트 프로그램",
-    "시즈오카 현지 기업 중심의 실무적 취업 지원",
-    "유학생을 위한 전용 일본어 학습 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "静岡産業大学",
-    "name_en": "Shizuoka Sangyo University",
-    "address": "1572-1 Ohkubo, Iwata-shi, Shizuoka 438-0043 (Iwata Campus) / 4-1-1 Surugadai, Fujieda-shi, Shizuoka 426-8668 (Fujieda Campus)",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "경영학부",
-    "스포츠건강과학부",
-    "심리경영학과"
-  ],
-  "features": [
-    "강력한 산학 협력 시스템",
-    "유명한 스포츠 매니지먼트 프로그램",
-    "시즈오카 현지 기업 중심의 실무적 취업 지원",
-    "유학생을 위한 전용 일본어 학습 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1572-1 Ohkubo, Iwata-shi, Shizuoka 438-0043 (Iwata Campus) / 4-1-1 Surugadai,
+    Fujieda-shi, Shizuoka 426-8668 (Fujieda Campus)
+  capacity: null
+  name_en: Shizuoka Sangyo University
+  name_ja: 静岡産業大学
+category: university
+date: '2026-04-04'
+faculties:
+- 경영학부
+- 스포츠건강과학부
+- 심리경영학과
+features:
+- 강력한 산학 협력 시스템
+- 유명한 스포츠 매니지먼트 프로그램
+- 시즈오카 현지 기업 중심의 실무적 취업 지원
+- 유학생을 위한 전용 일본어 학습 지원
+id: univ_shizuoka-sangyo-university-guide-for-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75%
+  international_students: 185
+tags:
+- 강력한 산학 협력 시스템
+- 유명한 스포츠 매니지먼트 프로그램
+- 시즈오카 현지 기업 중심의 실무적 취업 지원
+- 유학생을 위한 전용 일본어 학습 지원
+thumbnail: /static/img/pin-univ.png
+title: 시즈오카 산업대학교 (Shizuoka Sangyo University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요: 학문과 산업을 잇는 가교

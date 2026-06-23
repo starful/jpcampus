@@ -1,53 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区高田馬場1-34-6　八光ビル2F、3F",
-    "capacity": 460,
-    "name_en": "Shibuya Gaigo Gakuin",
-    "name_ja": "渋谷外語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "総合1年コース",
-      "total_fees": 773500
-    },
-    {
-      "admission_month": "7,10,1",
-      "course_name": "総合2年コース",
-      "total_fees": 1470500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "신주쿠의 학구적인 중심지인 다카다노바바에 위치",
-    "EJU(일본유학시험) 준비에 특화",
-    "명문 대학 및 대학원 진학률 높음",
-    "연중 이용 가능한 유연한 단기 유학 옵션 제공",
-    "종합적인 학업 및 비자 지원 서비스 제공"
-  ],
-  "id": "school_shibuya-gaigo-gakuin-tokyo-takadanobaba",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7118505,
-    "lng": 139.7040013
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=593",
-  "stats": {},
-  "tags": [
-    "Located in the academic hub of Takadanobaba, Shinjuku",
-    "Specialist focus on EJU (Examination for Japanese University Admission) preparation",
-    "High success rate for progression to prestigious universities and graduate schools",
-    "Flexible short-term study options available year-round",
-    "Comprehensive academic and visa support services"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "시부야외어학원",
-  "tuition": {},
-  "description": "일본 대학 진학을 위한 EJU 시험 전문 어학원, 시부야외어학원을 소개합니다."
-}
+basic_info:
+  address: 東京都新宿区高田馬場1-34-6　八光ビル2F、3F
+  capacity: 460
+  name_en: Shibuya Gaigo Gakuin
+  name_ja: 渋谷外語学院
+category: school
+courses:
+- admission_month: '10'
+  course_name: 総合1年コース
+  total_fees: 773500
+- admission_month: 7,10,1
+  course_name: 総合2年コース
+  total_fees: 1470500
+date: '2026-01-28'
+description: 일본 대학 진학을 위한 EJU 시험 전문 어학원, 시부야외어학원을 소개합니다.
+faculties: []
+features:
+- 신주쿠의 학구적인 중심지인 다카다노바바에 위치
+- EJU(일본유학시험) 준비에 특화
+- 명문 대학 및 대학원 진학률 높음
+- 연중 이용 가능한 유연한 단기 유학 옵션 제공
+- 종합적인 학업 및 비자 지원 서비스 제공
+id: school_shibuya-gaigo-gakuin-tokyo-takadanobaba
+lang: kr
+layout: school
+location:
+  lat: 35.7118505
+  lng: 139.7040013
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=593
+stats: {}
+tags:
+- Located in the academic hub of Takadanobaba, Shinjuku
+- Specialist focus on EJU (Examination for Japanese University Admission) preparation
+- High success rate for progression to prestigious universities and graduate schools
+- Flexible short-term study options available year-round
+- Comprehensive academic and visa support services
+thumbnail: /static/img/pin-school.png
+title: 시부야외어학원
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

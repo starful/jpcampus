@@ -1,44 +1,36 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nagaoka-university-international-student-guide",
-  "title": "Nagaoka University",
-  "category": "university",
-  "tags": [
-    "Specialized Regional Management Focus",
-    "Intensive Seminar-Based Learning (Zemi)",
-    "Exceptional Employment Support in Local Industries",
-    "Affordable Cost of Living in Niigata Prefecture"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "長岡大学",
-    "name_en": "Nagaoka University",
-    "address": "80-8 Gokurakuji-machi, Nagaoka-shi, Niigata 940-0828, Japan",
-    "capacity": 550
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 740000
-  },
-  "faculties": [
-    "Faculty of Economic Management"
-  ],
-  "features": [
-    "Specialized Regional Management Focus",
-    "Intensive Seminar-Based Learning (Zemi)",
-    "Exceptional Employment Support in Local Industries",
-    "Affordable Cost of Living in Niigata Prefecture"
-  ]
-}
+basic_info:
+  address: 80-8 Gokurakuji-machi, Nagaoka-shi, Niigata 940-0828, Japan
+  capacity: 550
+  name_en: Nagaoka University
+  name_ja: 長岡大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Economic Management
+features:
+- Specialized Regional Management Focus
+- Intensive Seminar-Based Learning (Zemi)
+- Exceptional Employment Support in Local Industries
+- Affordable Cost of Living in Niigata Prefecture
+id: univ_nagaoka-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75%
+  international_students: 115
+tags:
+- Specialized Regional Management Focus
+- Intensive Seminar-Based Learning (Zemi)
+- Exceptional Employment Support in Local Industries
+- Affordable Cost of Living in Niigata Prefecture
+thumbnail: /static/img/pin-univ.png
+title: Nagaoka University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 740000
 ---
 
 ## 🏫 University Overview: The Heart of Regional Revitalization

@@ -21,6 +21,7 @@ courses:
 - admission_month: '1'
   course_name: University Advancement 1 Year 3 Months Course
   total_fees: 979500
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized EJU (Examination for Japanese University Admission) Preparation

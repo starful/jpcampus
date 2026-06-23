@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-university-of-economics-guide",
-  "title": "Osaka University of Economics",
-  "category": "university",
-  "tags": [
-    "Strong focus on Practical Economics and Ningen-ryoku (Human Power)",
-    "Small-group seminar system (Zemi) starting from the first year",
-    "Excellent employment track record in the Kansai region",
-    "Strategically located urban campus in Osaka with modern facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪経済大学",
-    "name_en": "Osaka University of Economics",
-    "address": "2-2-8 Osumi, Higashiyodogawa-ku, Osaka, 533-8533, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 182,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Information Design",
-    "Faculty of Human Sciences"
-  ],
-  "features": [
-    "Strong focus on Practical Economics and Ningen-ryoku (Human Power)",
-    "Small-group seminar system (Zemi) starting from the first year",
-    "Excellent employment track record in the Kansai region",
-    "Strategically located urban campus in Osaka with modern facilities"
-  ]
-}
+basic_info:
+  address: 2-2-8 Osumi, Higashiyodogawa-ku, Osaka, 533-8533, Japan
+  capacity: null
+  name_en: Osaka University of Economics
+  name_ja: 大阪経済大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Information Design
+- Faculty of Human Sciences
+features:
+- Strong focus on Practical Economics and Ningen-ryoku (Human Power)
+- Small-group seminar system (Zemi) starting from the first year
+- Excellent employment track record in the Kansai region
+- Strategically located urban campus in Osaka with modern facilities
+id: univ_osaka-university-of-economics-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 182
+tags:
+- Strong focus on Practical Economics and Ningen-ryoku (Human Power)
+- Small-group seminar system (Zemi) starting from the first year
+- Excellent employment track record in the Kansai region
+- Strategically located urban campus in Osaka with modern facilities
+thumbnail: /static/img/pin-univ.png
+title: Osaka University of Economics
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview: The Heart of Practical Learning in Osaka

@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fuji-womens-university-guide-sapporo-japan",
-  "title": "후지 여자 대학교",
-  "category": "university",
-  "tags": [
-    "홋카이도에서 가장 오래된 가톨릭 여자 대학교",
-    "명성이 높은 식품영양학과",
-    "탄탄한 국제 교류 및 어학 프로그램",
-    "전인적인 인문학 교육",
-    "삿포로에 위치, 높은 취업률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "藤女子大学",
-    "name_en": "Fuji Women's University",
-    "address": "2-1, Kita 16-jo Nishi 2-chome, Kita-ku, Sapporo, Hokkaido 001-0016, Japan",
-    "capacity": "총 학생수 약 2,000명"
-  },
-  "stats": {
-    "international_students": 18,
-    "acceptance_rate": "유학생 합격률 65-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 980000
-  },
-  "faculties": [
-    "인문학부",
-    "생활과학부"
-  ],
-  "features": [
-    "홋카이도에서 가장 오래된 가톨릭 여자 대학교",
-    "명성이 높은 식품영양학과",
-    "탄탄한 국제 교류 및 어학 프로그램",
-    "전인적인 인문학 교육",
-    "삿포로에 위치, 높은 취업률"
-  ],
-  "description": "홋카이도 삿포로에 위치한 후지 여자 대학교에 대한 안내입니다. 수준 높은 학업 환경, 국제 학생 지원, 캠퍼스 생활 등에 대한 정보를 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1, Kita 16-jo Nishi 2-chome, Kita-ku, Sapporo, Hokkaido 001-0016, Japan
+  capacity: 총 학생수 약 2,000명
+  name_en: Fuji Women's University
+  name_ja: 藤女子大学
+category: university
+date: '2026-03-03'
+description: 홋카이도 삿포로에 위치한 후지 여자 대학교에 대한 안내입니다. 수준 높은 학업 환경, 국제 학생 지원, 캠퍼스 생활 등에 대한
+  정보를 제공합니다.
+faculties:
+- 인문학부
+- 생활과학부
+features:
+- 홋카이도에서 가장 오래된 가톨릭 여자 대학교
+- 명성이 높은 식품영양학과
+- 탄탄한 국제 교류 및 어학 프로그램
+- 전인적인 인문학 교육
+- 삿포로에 위치, 높은 취업률
+id: univ_fuji-womens-university-guide-sapporo-japan
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 유학생 합격률 65-75%
+  international_students: 18
+tags:
+- 홋카이도에서 가장 오래된 가톨릭 여자 대학교
+- 명성이 높은 식품영양학과
+- 탄탄한 국제 교류 및 어학 프로그램
+- 전인적인 인문학 교육
+- 삿포로에 위치, 높은 취업률
+thumbnail: /static/img/pin-univ.png
+title: 후지 여자 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 980000
 ---
 
 ## 🏫 대학교 개요

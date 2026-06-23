@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語進学2年コース
   total_fees: 1572000
+date: '2026-01-28'
 faculties: []
 features:
 - On-campus/Affiliated Dormitory Accommodation

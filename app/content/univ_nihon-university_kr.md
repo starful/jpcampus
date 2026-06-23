@@ -1,62 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都千代田区九段南4-8-24",
-    "name_en": "Nihon University",
-    "name_ja": "日本大学",
-    "website": "https://www.nihon-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "College of Law",
-    "College of Humanities and Sciences",
-    "College of Economics",
-    "College of Commerce",
-    "College of Art",
-    "College of Science and Technology",
-    "College of Industrial Technology",
-    "College of Engineering",
-    "College of Medicine",
-    "College of Dentistry",
-    "College of Bioresource Sciences",
-    "College of Pharmacy",
-    "College of International Relations",
-    "College of Sports Sciences",
-    "College of Risk Management",
-    "College of Global Innovation Studies"
-  ],
-  "features": [
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_nihon-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6909869,
-    "lng": 139.7375709
-  },
-  "stats": {
-    "acceptance_rate": "30%",
-    "international_students": 1500
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "니혼대 유학 가이드 2026: 지원 경로·학비·캠퍼스 생활",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  },
-  "description": "니혼대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 지원 경로, 학비, 캠퍼스 생활 정보를 한 번에 정리했습니다."
-}
+basic_info:
+  address: 東京都千代田区九段南4-8-24
+  name_en: Nihon University
+  name_ja: 日本大学
+  website: https://www.nihon-u.ac.jp/
+category: university
+date: '2026-04-27'
+description: 니혼대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 지원 경로, 학비, 캠퍼스 생활 정보를 한 번에 정리했습니다.
+faculties:
+- College of Law
+- College of Humanities and Sciences
+- College of Economics
+- College of Commerce
+- College of Art
+- College of Science and Technology
+- College of Industrial Technology
+- College of Engineering
+- College of Medicine
+- College of Dentistry
+- College of Bioresource Sciences
+- College of Pharmacy
+- College of International Relations
+- College of Sports Sciences
+- College of Risk Management
+- College of Global Innovation Studies
+features:
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_nihon-university
+lang: kr
+layout: school
+location:
+  lat: 35.6909869
+  lng: 139.7375709
+stats:
+  acceptance_rate: 30%
+  international_students: 1500
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: '니혼대 유학 가이드 2026: 지원 경로·학비·캠퍼스 생활'
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학 개요

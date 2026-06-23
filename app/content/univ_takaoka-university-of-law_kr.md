@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_takaoka-university-of-law",
-  "title": "다카오카 법과대학교",
-  "description": "호쿠리쿠 지역 최초의 사립 법과대학으로, 소수 정예 교육과 철저한 공무원 시험 대비 및 실무 중심의 법학 교육을 제공하는 대학입니다.",
-  "category": "university",
-  "tags": [
-    "호쿠리쿠 지역 최초의 사립 법과대학교",
-    "철저한 공무원 시험 대비 프로그램",
-    "소수 정예 수업 및 개별 멘토링 시스템",
-    "토야마현의 저렴한 생활비와 유학 비용"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "高岡法科大学",
-    "name_en": "Takaoka University of Law",
-    "address": "4-1 Toide-Machi, Takaoka-shi, Toyama 939-1193, Japan",
-    "capacity": "150 students per year"
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "65-75% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 720000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Department of Law"
-  ],
-  "features": [
-    "호쿠리쿠 지역 최초의 사립 법과대학교",
-    "철저한 공무원 시험 대비 프로그램",
-    "소수 정예 수업 및 개별 멘토링 시스템",
-    "토야마현의 저렴한 생활비와 유학 비용"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 4-1 Toide-Machi, Takaoka-shi, Toyama 939-1193, Japan
+  capacity: 150 students per year
+  name_en: Takaoka University of Law
+  name_ja: 高岡法科大学
+category: university
+date: '2026-03-24'
+description: 호쿠리쿠 지역 최초의 사립 법과대학으로, 소수 정예 교육과 철저한 공무원 시험 대비 및 실무 중심의 법학 교육을 제공하는 대학입니다.
+faculties:
+- Faculty of Law
+- Department of Law
+features:
+- 호쿠리쿠 지역 최초의 사립 법과대학교
+- 철저한 공무원 시험 대비 프로그램
+- 소수 정예 수업 및 개별 멘토링 시스템
+- 토야마현의 저렴한 생활비와 유학 비용
+id: univ_takaoka-university-of-law
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (Estimated)
+  international_students: 15
+tags:
+- 호쿠리쿠 지역 최초의 사립 법과대학교
+- 철저한 공무원 시험 대비 프로그램
+- 소수 정예 수업 및 개별 멘토링 시스템
+- 토야마현의 저렴한 생활비와 유학 비용
+thumbnail: /static/img/pin-univ.png
+title: 다카오카 법과대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 720000
 ---
 
 ## 🏫 대학 개요: 법학 교육의 특성화 중심지

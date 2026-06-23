@@ -1,58 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "茨城県水戸市宮町2-3-37 藤岡ビル4F",
-    "capacity": 74,
-    "name_en": "Ibaraki Kokusai Gakuin (Ibaraki International Academy)",
-    "name_ja": "茨城国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9月コース",
-      "total_fees": 1105000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1250000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6月コース",
-      "total_fees": 960000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 제공 (학교 또는 제휴)",
-    "EJU (일본유학시험) 집중 대비",
-    "심도 있는 대학 진학 지도",
-    "실용적인 비즈니스 일본어 능력 향상",
-    "단기 어학 연수 옵션 제공"
-  ],
-  "id": "school_ibaraki-kokusai-gakuin",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.3727781,
-    "lng": 140.4746556
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=30",
-  "stats": {},
-  "tags": [
-    "On-campus/Affiliated Dormitory Provided",
-    "Dedicated EJU (Examination for Japanese University Admission) Preparation",
-    "Intensive Higher Education Pathway Guidance",
-    "Focus on Practical Business Japanese Skills",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "이바라키 국제학원 (Ibaraki Kokusai Gakuin)",
-  "tuition": {},
-  "description": "이바라키현 미토시에 위치한 이바라키 국제학원은 소규모 집중 학습 환경을 제공하며, EJU 시험 대비 및 대학 진학 지도를 전문적으로 제공합니다."
-}
+basic_info:
+  address: 茨城県水戸市宮町2-3-37 藤岡ビル4F
+  capacity: 74
+  name_en: Ibaraki Kokusai Gakuin (Ibaraki International Academy)
+  name_ja: 茨城国際学院
+category: school
+courses:
+- admission_month: '7'
+  course_name: 進学1年9月コース
+  total_fees: 1105000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1250000
+- admission_month: '10'
+  course_name: 進学1年6月コース
+  total_fees: 960000
+date: '2026-01-28'
+description: 이바라키현 미토시에 위치한 이바라키 국제학원은 소규모 집중 학습 환경을 제공하며, EJU 시험 대비 및 대학 진학 지도를 전문적으로
+  제공합니다.
+faculties: []
+features:
+- 기숙사 제공 (학교 또는 제휴)
+- EJU (일본유학시험) 집중 대비
+- 심도 있는 대학 진학 지도
+- 실용적인 비즈니스 일본어 능력 향상
+- 단기 어학 연수 옵션 제공
+id: school_ibaraki-kokusai-gakuin
+lang: kr
+layout: school
+location:
+  lat: 36.3727781
+  lng: 140.4746556
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=30
+stats: {}
+tags:
+- On-campus/Affiliated Dormitory Provided
+- Dedicated EJU (Examination for Japanese University Admission) Preparation
+- Intensive Higher Education Pathway Guidance
+- Focus on Practical Business Japanese Skills
+- Flexible Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: 이바라키 국제학원 (Ibaraki Kokusai Gakuin)
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

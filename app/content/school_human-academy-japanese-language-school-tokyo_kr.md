@@ -1,72 +1,56 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区高田馬場4-9-9 早稲田予備校13時ホール5F",
-    "capacity": 2240,
-    "name_en": "Human Academy Japanese Language School, Tokyo Campus",
-    "name_ja": "ヒューマンアカデミー日本語学校東京校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "进学2年コース",
-      "total_fees": 1337200
-    },
-    {
-      "admission_month": "7",
-      "course_name": "进学1年9か月コース",
-      "total_fees": 1180850
-    },
-    {
-      "admission_month": "10",
-      "course_name": "进学1年6か月コース",
-      "total_fees": 1024500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "进学1年3か月コース",
-      "total_fees": 868100
-    },
-    {
-      "admission_month": "4,7,10,1",
-      "course_name": "一般2年コース",
-      "total_fees": 1337200
-    }
-  ],
-  "description": "휴먼 아카데미 일본어 학교 도쿄 캠퍼스는 도쿄의 학문 중심지인 다카다노바바에 위치한 명성 있는 교육 기관입니다. Human Group의 일부로서, 일본 유학을 준비하는 외국인 학생들에게 종합적인 일본어 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 준비",
-    "회화 중심",
-    "비즈니스 일본어",
-    "단기 코스"
-  ],
-  "id": "school_human-academy-japanese-language-school-tokyo",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7133076,
-    "lng": 139.7024913
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=140",
-  "stats": {
-    "capacity": 2240,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Preparation",
-    "Conversation Focus",
-    "Business Japanese",
-    "Short-term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "휴먼 아카데미 일본어 학교 도쿄 캠퍼스",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区高田馬場4-9-9 早稲田予備校13時ホール5F
+  capacity: 2240
+  name_en: Human Academy Japanese Language School, Tokyo Campus
+  name_ja: ヒューマンアカデミー日本語学校東京校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 进学2年コース
+  total_fees: 1337200
+- admission_month: '7'
+  course_name: 进学1年9か月コース
+  total_fees: 1180850
+- admission_month: '10'
+  course_name: 进学1年6か月コース
+  total_fees: 1024500
+- admission_month: '1'
+  course_name: 进学1年3か月コース
+  total_fees: 868100
+- admission_month: 4,7,10,1
+  course_name: 一般2年コース
+  total_fees: 1337200
+date: '2026-01-28'
+description: 휴먼 아카데미 일본어 학교 도쿄 캠퍼스는 도쿄의 학문 중심지인 다카다노바바에 위치한 명성 있는 교육 기관입니다. Human
+  Group의 일부로서, 일본 유학을 준비하는 외국인 학생들에게 종합적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 준비
+- 회화 중심
+- 비즈니스 일본어
+- 단기 코스
+id: school_human-academy-japanese-language-school-tokyo
+lang: kr
+layout: school
+location:
+  lat: 35.7133076
+  lng: 139.7024913
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=140
+stats:
+  capacity: 2240
+  international_students: 0
+tags:
+- University Preparation
+- EJU Preparation
+- Conversation Focus
+- Business Japanese
+- Short-term Courses
+thumbnail: /static/img/pin-school.png
+title: 휴먼 아카데미 일본어 학교 도쿄 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

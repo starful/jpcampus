@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_the-university-of-tokushima-guide",
-  "title": "The University of Tokushima",
-  "category": "university",
-  "tags": [
-    "Home of Nobel Laureate Shuji Nakamura (Blue LED research)",
-    "Global leader in Post-LED Photonics research",
-    "Exceptional Medical and Dental programs in Shikoku",
-    "Strong ties with local high-tech industries like Nichia Corporation"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "徳島大学",
-    "name_en": "The University of Tokushima",
-    "address": "2-24 Shinkura-cho, Tokushima-shi, Tokushima 770-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 254,
-    "acceptance_rate": "30-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Integrated Arts and Sciences",
-    "Faculty of Medicine",
-    "Faculty of Dentistry",
-    "Faculty of Pharmaceutical Sciences",
-    "Faculty of Science and Technology",
-    "Faculty of Bioscience and Bioindustry"
-  ],
-  "features": [
-    "Home of Nobel Laureate Shuji Nakamura (Blue LED research)",
-    "Global leader in Post-LED Photonics research",
-    "Exceptional Medical and Dental programs in Shikoku",
-    "Strong ties with local high-tech industries like Nichia Corporation"
-  ]
-}
+basic_info:
+  address: 2-24 Shinkura-cho, Tokushima-shi, Tokushima 770-8501, Japan
+  capacity: null
+  name_en: The University of Tokushima
+  name_ja: 徳島大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Integrated Arts and Sciences
+- Faculty of Medicine
+- Faculty of Dentistry
+- Faculty of Pharmaceutical Sciences
+- Faculty of Science and Technology
+- Faculty of Bioscience and Bioindustry
+features:
+- Home of Nobel Laureate Shuji Nakamura (Blue LED research)
+- Global leader in Post-LED Photonics research
+- Exceptional Medical and Dental programs in Shikoku
+- Strong ties with local high-tech industries like Nichia Corporation
+id: univ_the-university-of-tokushima-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 30-35%
+  international_students: 254
+tags:
+- Home of Nobel Laureate Shuji Nakamura (Blue LED research)
+- Global leader in Post-LED Photonics research
+- Exceptional Medical and Dental programs in Shikoku
+- Strong ties with local high-tech industries like Nichia Corporation
+thumbnail: /static/img/pin-univ.png
+title: The University of Tokushima
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

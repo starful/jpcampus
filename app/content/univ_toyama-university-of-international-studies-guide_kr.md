@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toyama-university-of-international-studies-guide",
-  "title": "도야마국제대학교 (Toyama University of International Studies)",
-  "description": "글로벌 감각과 지역 사회의 상생을 배우는 '글로컬(Glocal)' 교육의 중심, 도야마국제대학교를 소개합니다. ICT 교육과 실무 중심의 관광 커리큘럼, 풍부한 장학 혜택을 확인해 보세요.",
-  "category": "university",
-  "tags": [
-    "글로컬 교육 (Global + Local)",
-    "ICT 및 디지털 전환(DX) 중심",
-    "실무 중심 관광 및 호스피탈리티",
-    "풍부한 유학생 지원 제도"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "富山国際大学",
-    "name_en": "Toyama University of International Studies",
-    "address": "65-1 Higashikuromaki, Toyama-shi, Toyama 930-1292, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "Estimated 45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 730000
-  },
-  "faculties": [
-    "현대사회학부",
-    "현대사회학과",
-    "관광호스피탈리티학과"
-  ],
-  "features": [
-    "글로컬 교육 (Global + Local)",
-    "ICT 및 디지털 전환(DX) 중심 교육",
-    "실무 중심의 관광 및 호스피탈리티 교육",
-    "풍부한 유학생 지원 제도 (등록금 감면 등)"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 65-1 Higashikuromaki, Toyama-shi, Toyama 930-1292, Japan
+  capacity: null
+  name_en: Toyama University of International Studies
+  name_ja: 富山国際大学
+category: university
+date: '2026-03-24'
+description: 글로벌 감각과 지역 사회의 상생을 배우는 '글로컬(Glocal)' 교육의 중심, 도야마국제대학교를 소개합니다. ICT 교육과
+  실무 중심의 관광 커리큘럼, 풍부한 장학 혜택을 확인해 보세요.
+faculties:
+- 현대사회학부
+- 현대사회학과
+- 관광호스피탈리티학과
+features:
+- 글로컬 교육 (Global + Local)
+- ICT 및 디지털 전환(DX) 중심 교육
+- 실무 중심의 관광 및 호스피탈리티 교육
+- 풍부한 유학생 지원 제도 (등록금 감면 등)
+id: univ_toyama-university-of-international-studies-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 45-55%
+  international_students: 245
+tags:
+- 글로컬 교육 (Global + Local)
+- ICT 및 디지털 전환(DX) 중심
+- 실무 중심 관광 및 호스피탈리티
+- 풍부한 유학생 지원 제도
+thumbnail: /static/img/pin-univ.png
+title: 도야마국제대학교 (Toyama University of International Studies)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 730000
 ---
 
 ## 🏫 대학 개요

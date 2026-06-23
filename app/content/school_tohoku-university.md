@@ -5,6 +5,7 @@ basic_info:
   name_ja: 東北大学
   website: https://www.tohoku.ac.jp/
 category: school
+date: '2026-01-28'
 description: Tohoku University is a prestigious national university located in Sendai,
   Miyagi Prefecture, Japan, renowned for its commitment to research and global leadership.
 faculties:

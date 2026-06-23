@@ -1,64 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市伏見区上板橋町513",
-    "capacity": 120,
-    "name_en": "Kyoto Reigaku International Academy",
-    "name_ja": "京都励学国際学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学コースⅠ",
-      "total_fees": 1370000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コースⅡ",
-      "total_fees": 1045000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学コースⅢ",
-      "total_fees": 1207500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "특화된 대학 진학 준비 (신가쿠)",
-    "맞춤 EJU 및 이과/미술 트랙 지원",
-    "집중력 극대화를 위한 1인실 기숙사 필수 제공",
-    "교토의 문화 및 학술 중심지에 위치",
-    "소규모 정원으로 개인별 맞춤 지도",
-    "탄탄한 장학금 및 재정 지원 프로그램"
-  ],
-  "id": "school_kyoto-reigaku-international-academy-expert-guide",
-  "layout": "school",
-  "location": {
-    "lat": 34.9422923,
-    "lng": 135.7617884
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=319",
-  "stats": {
-    "capacity": 120,
-    "international_students": 120
-  },
-  "tags": [
-    "Specialized University Preparation (Shingaku)",
-    "Dedicated EJU and Science/Art Track Support",
-    "Mandatory Single-Room Dormitory Options for Maximum Focus",
-    "Located in the Cultural and Academic Hub of Kyoto",
-    "Small Student Capacity Ensuring Personalized Attention",
-    "Robust Scholarship and Financial Aid Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "교토 레이가쿠 국제 아카데미",
-  "translated": true,
-  "tuition": {},
-  "lang": "kr",
-  "description": "교토 레이가쿠 국제 아카데미는 일본 명문 대학, 대학원 또는 전문학교 진학을 목표로 하는 유학생을 위한 집중 준비 기관입니다."
-}
+basic_info:
+  address: 京都府京都市伏見区上板橋町513
+  capacity: 120
+  name_en: Kyoto Reigaku International Academy
+  name_ja: 京都励学国際学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コースⅠ
+  total_fees: 1370000
+- admission_month: '10'
+  course_name: 進学コースⅡ
+  total_fees: 1045000
+- admission_month: '7'
+  course_name: 進学コースⅢ
+  total_fees: 1207500
+date: '2026-01-28'
+description: 교토 레이가쿠 국제 아카데미는 일본 명문 대학, 대학원 또는 전문학교 진학을 목표로 하는 유학생을 위한 집중 준비 기관입니다.
+faculties: []
+features:
+- 특화된 대학 진학 준비 (신가쿠)
+- 맞춤 EJU 및 이과/미술 트랙 지원
+- 집중력 극대화를 위한 1인실 기숙사 필수 제공
+- 교토의 문화 및 학술 중심지에 위치
+- 소규모 정원으로 개인별 맞춤 지도
+- 탄탄한 장학금 및 재정 지원 프로그램
+id: school_kyoto-reigaku-international-academy-expert-guide
+lang: kr
+layout: school
+location:
+  lat: 34.9422923
+  lng: 135.7617884
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=319
+stats:
+  capacity: 120
+  international_students: 120
+tags:
+- Specialized University Preparation (Shingaku)
+- Dedicated EJU and Science/Art Track Support
+- Mandatory Single-Room Dormitory Options for Maximum Focus
+- Located in the Cultural and Academic Hub of Kyoto
+- Small Student Capacity Ensuring Personalized Attention
+- Robust Scholarship and Financial Aid Programs
+thumbnail: /static/img/pin-school.png
+title: 교토 레이가쿠 국제 아카데미
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

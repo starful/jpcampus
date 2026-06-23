@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_jobu-university-international-student-guide",
-  "title": "조부대학교 (Jobu University)",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "명성 높은 스포츠 매니지먼트 프로그램",
-    "군마현의 저렴한 생활비",
-    "지역 산업과의 강력한 연계",
-    "체계적인 일본어 학습 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "上武大学",
-    "name_en": "Jobu University",
-    "address": "일본 군마현 이세사키시 토요즈카마치 270-1 (우편번호 372-8588)",
-    "capacity": "약 2,500명"
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "75-85% (외국인 지원자 예상 합격률)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "경영학부",
-    "간호학부"
-  ],
-  "features": [
-    "명성 높은 스포츠 매니지먼트 프로그램",
-    "군마현의 저렴한 생활비",
-    "지역 산업과의 강력한 연계",
-    "체계적인 일본어 학습 지원"
-  ],
-  "description": "전진(Zenshin)의 정신을 바탕으로 실무 중심의 교육을 제공하며, 저렴한 물가와 강력한 취업 지원을 자랑하는 군마현의 명문 사립대학교입니다."
-}
+basic_info:
+  address: 일본 군마현 이세사키시 토요즈카마치 270-1 (우편번호 372-8588)
+  capacity: 약 2,500명
+  name_en: Jobu University
+  name_ja: 上武大学
+category: university
+date: '2026-03-08'
+description: 전진(Zenshin)의 정신을 바탕으로 실무 중심의 교육을 제공하며, 저렴한 물가와 강력한 취업 지원을 자랑하는 군마현의 명문
+  사립대학교입니다.
+faculties:
+- 경영학부
+- 간호학부
+features:
+- 명성 높은 스포츠 매니지먼트 프로그램
+- 군마현의 저렴한 생활비
+- 지역 산업과의 강력한 연계
+- 체계적인 일본어 학습 지원
+id: univ_jobu-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-85% (외국인 지원자 예상 합격률)
+  international_students: 185
+tags:
+- 명성 높은 스포츠 매니지먼트 프로그램
+- 군마현의 저렴한 생활비
+- 지역 산업과의 강력한 연계
+- 체계적인 일본어 학습 지원
+thumbnail: /static/img/pin-univ.png
+title: 조부대학교 (Jobu University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: '전진(Zenshin)'의 정신

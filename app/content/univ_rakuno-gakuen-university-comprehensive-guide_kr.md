@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_rakuno-gakuen-university-comprehensive-guide",
-  "title": "라쿠노 가쿠엔 대학교 (낙농학원대학)",
-  "category": "university",
-  "lang": "kr",
-  "tags": [
-    "일본 최대 규모의 사립 수의과 대학 캠퍼스",
-    "독특한 기독교 '삼애(三愛)' 교육 철학",
-    "교내 실습용 낙농 목장 및 가공 공장 보유",
-    "일본 농업의 중심지, 홋카이도 중심부에 위치",
-    "동물 건강 및 지속 가능한 농업 분야의 최상위권 연구"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "酪農学園大学",
-    "name_en": "Rakuno Gakuen University",
-    "address": "582 Bunkyodai-Midorimachi, Ebetsu, Hokkaido 069-8501, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "Estimated 30-45% (Varies significantly by faculty)"
-  },
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "수의학부",
-    "농식품환경학부"
-  ],
-  "features": [
-    "일본 최대 규모의 사립 수의과 대학 캠퍼스",
-    "독특한 기독교 '삼애(三愛)' 교육 철학",
-    "교내 실습용 낙농 목장 및 가공 공장 보유",
-    "일본 농업의 중심지, 홋카이도 중심부에 위치",
-    "동물 건강 및 지속 가능한 농업 분야의 최상위권 연구 역량"
-  ]
-}
+basic_info:
+  address: 582 Bunkyodai-Midorimachi, Ebetsu, Hokkaido 069-8501, Japan
+  capacity: null
+  name_en: Rakuno Gakuen University
+  name_ja: 酪農学園大学
+category: university
+date: '2026-03-08'
+faculties:
+- 수의학부
+- 농식품환경학부
+features:
+- 일본 최대 규모의 사립 수의과 대학 캠퍼스
+- 독특한 기독교 '삼애(三愛)' 교육 철학
+- 교내 실습용 낙농 목장 및 가공 공장 보유
+- 일본 농업의 중심지, 홋카이도 중심부에 위치
+- 동물 건강 및 지속 가능한 농업 분야의 최상위권 연구 역량
+id: univ_rakuno-gakuen-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 30-45% (Varies significantly by faculty)
+  international_students: 35
+tags:
+- 일본 최대 규모의 사립 수의과 대학 캠퍼스
+- 독특한 기독교 '삼애(三愛)' 교육 철학
+- 교내 실습용 낙농 목장 및 가공 공장 보유
+- 일본 농업의 중심지, 홋카이도 중심부에 위치
+- 동물 건강 및 지속 가능한 농업 분야의 최상위권 연구
+thumbnail: /static/img/pin-univ.png
+title: 라쿠노 가쿠엔 대학교 (낙농학원대학)
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1350000
 ---
 
 ## 🏫 대학 개요

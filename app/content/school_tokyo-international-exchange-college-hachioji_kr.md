@@ -1,72 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都八王子市千人町2-3-16",
-    "capacity": 480,
-    "name_en": "Tokyo International Exchange College",
-    "name_ja": "東京国際交流学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "취업 2년 과정",
-      "total_fees": 1522000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "대학 진학 2년 과정",
-      "total_fees": 1522000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "대학 진학 1년 9개월 과정",
-      "total_fees": 1339000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "대학 진학 1년 6개월 과정",
-      "total_fees": 1162500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "대학 진학 1년 3개월 과정",
-      "total_fees": 979500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "EJU(일본유학시험) 집중 대비",
-    "체계적인 대학 및 대학원 진학 지원",
-    "기숙사 옵션 제공 (보장)",
-    "다문화 커뮤니케이션 및 교류 중심",
-    "취업 및 고용 트랙 운영"
-  ],
-  "id": "school_tokyo-international-exchange-college-hachioji",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6582375,
-    "lng": 139.3135062
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=614",
-  "stats": {
-    "capacity": 480,
-    "international_students": null
-  },
-  "tags": [
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Comprehensive University and Graduate School Advancement Support",
-    "Guaranteed Student Dormitory Options Available",
-    "Focus on Intercultural Communication and Exchange",
-    "Dedicated Job Hunting and Employment Track"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "동경국제교류학원",
-  "translated": true,
-  "tuition": {},
-  "description": "동경국제교류학원은 EJU 집중 대비, 체계적인 대학/대학원 진학 지원, 기숙사 옵션 제공 및 다문화 교류 중심의 일본어 학교입니다."
-}
+basic_info:
+  address: 東京都八王子市千人町2-3-16
+  capacity: 480
+  name_en: Tokyo International Exchange College
+  name_ja: 東京国際交流学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 취업 2년 과정
+  total_fees: 1522000
+- admission_month: '4'
+  course_name: 대학 진학 2년 과정
+  total_fees: 1522000
+- admission_month: '7'
+  course_name: 대학 진학 1년 9개월 과정
+  total_fees: 1339000
+- admission_month: '10'
+  course_name: 대학 진학 1년 6개월 과정
+  total_fees: 1162500
+- admission_month: '1'
+  course_name: 대학 진학 1년 3개월 과정
+  total_fees: 979500
+date: '2026-02-13'
+description: 동경국제교류학원은 EJU 집중 대비, 체계적인 대학/대학원 진학 지원, 기숙사 옵션 제공 및 다문화 교류 중심의 일본어 학교입니다.
+faculties: []
+features:
+- EJU(일본유학시험) 집중 대비
+- 체계적인 대학 및 대학원 진학 지원
+- 기숙사 옵션 제공 (보장)
+- 다문화 커뮤니케이션 및 교류 중심
+- 취업 및 고용 트랙 운영
+id: school_tokyo-international-exchange-college-hachioji
+lang: kr
+layout: school
+location:
+  lat: 35.6582375
+  lng: 139.3135062
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=614
+stats:
+  capacity: 480
+  international_students: null
+tags:
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Comprehensive University and Graduate School Advancement Support
+- Guaranteed Student Dormitory Options Available
+- Focus on Intercultural Communication and Exchange
+- Dedicated Job Hunting and Employment Track
+thumbnail: /static/img/pin-school.png
+title: 동경국제교류학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

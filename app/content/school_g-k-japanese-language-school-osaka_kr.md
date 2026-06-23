@@ -1,58 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市住之江区北加賀屋3-4-7",
-    "capacity": 100,
-    "name_en": "GK Japanese Language School",
-    "name_ja": "GK日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1274900
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1674200
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "On-campus or Affiliated Dormitory Options",
-    "Comprehensive EJU and University Entrance Preparation",
-    "Dedicated Higher Education and Vocational School Track",
-    "Specialized Business Japanese and Professional Communication Training",
-    "Intensive Conversation and Practical Skills Focus",
-    "Flexible Short-Term Study and Cultural Programs"
-  ],
-  "id": "school_g-k-japanese-language-school-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6242472,
-    "lng": 135.4776531
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=612",
-  "stats": {
-    "capacity": 100,
-    "international_students": 100
-  },
-  "tags": [
-    "On-campus or Affiliated Dormitory Options",
-    "Comprehensive EJU and University Entrance Preparation",
-    "Dedicated Higher Education and Vocational School Track",
-    "Specialized Business Japanese and Professional Communication Training",
-    "Intensive Conversation and Practical Skills Focus",
-    "Flexible Short-Term Study and Cultural Programs"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "GK 일본어 학교",
-  "tuition": {},
-  "description": "오사카에 위치한 GK 일본어 학교는 진학 및 취업을 목표로 하는 유학생을 위한 맞춤형 교육을 제공합니다."
-}
+basic_info:
+  address: 大阪府大阪市住之江区北加賀屋3-4-7
+  capacity: 100
+  name_en: GK Japanese Language School
+  name_ja: GK日本語学校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1274900
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1674200
+date: '2026-02-13'
+description: 오사카에 위치한 GK 일본어 학교는 진학 및 취업을 목표로 하는 유학생을 위한 맞춤형 교육을 제공합니다.
+faculties: []
+features:
+- On-campus or Affiliated Dormitory Options
+- Comprehensive EJU and University Entrance Preparation
+- Dedicated Higher Education and Vocational School Track
+- Specialized Business Japanese and Professional Communication Training
+- Intensive Conversation and Practical Skills Focus
+- Flexible Short-Term Study and Cultural Programs
+id: school_g-k-japanese-language-school-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.6242472
+  lng: 135.4776531
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=612
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- On-campus or Affiliated Dormitory Options
+- Comprehensive EJU and University Entrance Preparation
+- Dedicated Higher Education and Vocational School Track
+- Specialized Business Japanese and Professional Communication Training
+- Intensive Conversation and Practical Skills Focus
+- Flexible Short-Term Study and Cultural Programs
+thumbnail: /static/img/pin-school.png
+title: GK 일본어 학교
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

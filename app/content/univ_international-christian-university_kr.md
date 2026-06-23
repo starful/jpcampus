@@ -1,49 +1,42 @@
 ---
-{
-  "basic_info": {
-    "address": "3-10-2 Osawa, Mitaka, Tokyo 181-8585, Japan",
-    "name_en": "International Christian University",
-    "name_ja": "国際基督教大学",
-    "website": "https://www.icu.ac.jp/"
-  },
-  "category": "university",
-  "description": "국제기독교대학교(ICU)는 도쿄에 위치한 명문 사립 리버럴 아츠 대학으로, 이중 언어 교육과 다양한 학생 구성으로 유명합니다. 학교의 역사, 프로그램, 등록금 및 국제 학생 지원에 대해 알아보세요.",
-  "faculties": [
-    "College of Liberal Arts"
-  ],
-  "features": [
-    "영어 프로그램",
-    "기숙사",
-    "장학금",
-    "리버럴 아츠 교육",
-    "이중 언어 환경"
-  ],
-  "id": "univ_international-christian-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6874807,
-    "lng": 139.5297309
-  },
-  "stats": {
-    "acceptance_rate": "15%",
-    "international_students": 300
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Liberal Arts Education",
-    "Bilingual Environment"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "국제기독교대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1700000
-  }
-}
+basic_info:
+  address: 3-10-2 Osawa, Mitaka, Tokyo 181-8585, Japan
+  name_en: International Christian University
+  name_ja: 国際基督教大学
+  website: https://www.icu.ac.jp/
+category: university
+date: '2026-01-28'
+description: 국제기독교대학교(ICU)는 도쿄에 위치한 명문 사립 리버럴 아츠 대학으로, 이중 언어 교육과 다양한 학생 구성으로 유명합니다.
+  학교의 역사, 프로그램, 등록금 및 국제 학생 지원에 대해 알아보세요.
+faculties:
+- College of Liberal Arts
+features:
+- 영어 프로그램
+- 기숙사
+- 장학금
+- 리버럴 아츠 교육
+- 이중 언어 환경
+id: univ_international-christian-university
+lang: kr
+layout: school
+location:
+  lat: 35.6874807
+  lng: 139.5297309
+stats:
+  acceptance_rate: 15%
+  international_students: 300
+tags:
+- English Program
+- Dormitory
+- Scholarship
+- Liberal Arts Education
+- Bilingual Environment
+thumbnail: /static/img/pin-univ.png
+title: 국제기독교대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1700000
 ---
 
 ## 학교 개요

@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fukuoka-prefectural-university-guide",
-  "title": "Fukuoka Prefectural University",
-  "category": "university",
-  "tags": [
-    "Premier Institution for Social Welfare and Health Sciences",
-    "High Success Rate in National Professional Licensing Exams",
-    "Small Class Sizes and Personalized Academic Guidance",
-    "Deep Integration with Local Fukuoka Community Research"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "福岡県立大学",
-    "name_en": "Fukuoka Prefectural University",
-    "address": "4395 Ita, Tagawa City, Fukuoka Prefecture 827-0002, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Integrated Human Studies",
-    "Faculty of Nursing"
-  ],
-  "features": [
-    "Premier Institution for Social Welfare and Health Sciences",
-    "High Success Rate in National Professional Licensing Exams",
-    "Small Class Sizes and Personalized Academic Guidance",
-    "Deep Integration with Local Fukuoka Community Research"
-  ]
-}
+basic_info:
+  address: 4395 Ita, Tagawa City, Fukuoka Prefecture 827-0002, Japan
+  capacity: null
+  name_en: Fukuoka Prefectural University
+  name_ja: 福岡県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Integrated Human Studies
+- Faculty of Nursing
+features:
+- Premier Institution for Social Welfare and Health Sciences
+- High Success Rate in National Professional Licensing Exams
+- Small Class Sizes and Personalized Academic Guidance
+- Deep Integration with Local Fukuoka Community Research
+id: univ_fukuoka-prefectural-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 15
+tags:
+- Premier Institution for Social Welfare and Health Sciences
+- High Success Rate in National Professional Licensing Exams
+- Small Class Sizes and Personalized Academic Guidance
+- Deep Integration with Local Fukuoka Community Research
+thumbnail: /static/img/pin-univ.png
+title: Fukuoka Prefectural University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

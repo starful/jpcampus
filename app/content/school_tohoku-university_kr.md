@@ -1,58 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "宮城県仙台市青葉区片平二丁目1-1",
-    "name_en": "Tohoku University",
-    "name_ja": "東北大学",
-    "website": "https://www.tohoku.ac.jp/"
-  },
-  "category": "school",
-  "description": "도호쿠 대학은 일본 미야기현 센다이에 위치한 명문 국립 대학으로, 연구와 글로벌 리더십에 대한 헌신으로 유명합니다.",
-  "faculties": [
-    "文学部",
-    "教育学部",
-    "法学部",
-    "経済学部",
-    "理学部",
-    "医学部",
-    "歯学部",
-    "薬学部",
-    "工学部",
-    "農学部"
-  ],
-  "features": [
-    "SGU",
-    "EJU 필수",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "school_tohoku-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 38.2515119,
-    "lng": 140.8753007
-  },
-  "stats": {
-    "acceptance_rate": "20-30%",
-    "international_students": 2000
-  },
-  "tags": [
-    "SGU",
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "도호쿠 대학",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 宮城県仙台市青葉区片平二丁目1-1
+  name_en: Tohoku University
+  name_ja: 東北大学
+  website: https://www.tohoku.ac.jp/
+category: school
+date: '2026-01-28'
+description: 도호쿠 대학은 일본 미야기현 센다이에 위치한 명문 국립 대학으로, 연구와 글로벌 리더십에 대한 헌신으로 유명합니다.
+faculties:
+- 文学部
+- 教育学部
+- 法学部
+- 経済学部
+- 理学部
+- 医学部
+- 歯学部
+- 薬学部
+- 工学部
+- 農学部
+features:
+- SGU
+- EJU 필수
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: school_tohoku-university
+lang: kr
+layout: school
+location:
+  lat: 38.2515119
+  lng: 140.8753007
+stats:
+  acceptance_rate: 20-30%
+  international_students: 2000
+tags:
+- SGU
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-school.png
+title: 도호쿠 대학
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 학교 개요 및 철학

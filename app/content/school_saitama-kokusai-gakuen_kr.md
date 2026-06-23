@@ -1,66 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県熊谷市桜木町2-101",
-    "capacity": 240,
-    "name_en": "Saitama International Academy",
-    "name_ja": "埼玉国際学園"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語科2年",
-      "total_fees": 1550000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "日本語科1年9か月",
-      "total_fees": 1372500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語科1年6か月",
-      "total_fees": 1195000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "日本語科1年3か月",
-      "total_fees": 1012500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 중심 (EJU 시험 대비)",
-    "특화된 학업 트랙 (STEM, 미술, 비즈니스)",
-    "기숙사 시설 보장 (교내 또는 제휴 기숙사)",
-    "종합적인 장학금 및 재정 지원 프로그램",
-    "균형 잡힌 학습 환경을 제공하는 구마가야시에 위치"
-  ],
-  "id": "school_saitama-kokusai-gakuen",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.1373121,
-    "lng": 139.3875631
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=55",
-  "stats": {
-    "capacity": 240,
-    "international_students": 240
-  },
-  "tags": [
-    "Strong University Advancement Focus (EJU Preparation)",
-    "Specialized Academic Tracks (STEM, Art, Business)",
-    "Guaranteed On-Campus or Affiliated Dormitory Facilities",
-    "Comprehensive Scholarship and Financial Aid Programs",
-    "Located in Kumagaya City, offering a balanced study environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "사이타마 국제 학원",
-  "tuition": {},
-  "description": "사이타마현 구마가야시에 위치한 사이타마 국제 학원은 국제 학생들의 대학 진학을 위한 전문 교육 기관입니다."
-}
+basic_info:
+  address: 埼玉県熊谷市桜木町2-101
+  capacity: 240
+  name_en: Saitama International Academy
+  name_ja: 埼玉国際学園
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語科2年
+  total_fees: 1550000
+- admission_month: '7'
+  course_name: 日本語科1年9か月
+  total_fees: 1372500
+- admission_month: '10'
+  course_name: 日本語科1年6か月
+  total_fees: 1195000
+- admission_month: '1'
+  course_name: 日本語科1年3か月
+  total_fees: 1012500
+date: '2026-01-28'
+description: 사이타마현 구마가야시에 위치한 사이타마 국제 학원은 국제 학생들의 대학 진학을 위한 전문 교육 기관입니다.
+faculties: []
+features:
+- 대학 진학 중심 (EJU 시험 대비)
+- 특화된 학업 트랙 (STEM, 미술, 비즈니스)
+- 기숙사 시설 보장 (교내 또는 제휴 기숙사)
+- 종합적인 장학금 및 재정 지원 프로그램
+- 균형 잡힌 학습 환경을 제공하는 구마가야시에 위치
+id: school_saitama-kokusai-gakuen
+lang: kr
+layout: school
+location:
+  lat: 36.1373121
+  lng: 139.3875631
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=55
+stats:
+  capacity: 240
+  international_students: 240
+tags:
+- Strong University Advancement Focus (EJU Preparation)
+- Specialized Academic Tracks (STEM, Art, Business)
+- Guaranteed On-Campus or Affiliated Dormitory Facilities
+- Comprehensive Scholarship and Financial Aid Programs
+- Located in Kumagaya City, offering a balanced study environment
+thumbnail: /static/img/pin-school.png
+title: 사이타마 국제 학원
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 철학

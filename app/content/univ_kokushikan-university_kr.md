@@ -1,56 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "〒154-8515 東京都世田谷区世田谷4-28-1",
-    "name_en": "Kokushikan University",
-    "name_ja": "国士舘大学",
-    "website": "https://www.kokushikan.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Political Science and Economics",
-    "Faculty of Physical Education",
-    "Faculty of Science and Engineering",
-    "Faculty of Law",
-    "Faculty of Letters",
-    "Faculty of Business Administration",
-    "Faculty of Contemporary Business",
-    "Faculty of 21st Century Asia"
-  ],
-  "features": [
-    "EJU 필수",
-    "기숙사",
-    "장학금",
-    "제한적인 영어 강의",
-    "일본어 지원"
-  ],
-  "id": "univ_kokushikan-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "경쟁률이 매우 높으며, 학부 및 입학 시험에 따라 약 35-45%입니다.",
-    "international_students": 431
-  },
-  "tags": [
-    "EJU Required",
-    "Dormitory",
-    "Scholarship",
-    "Limited English-taught courses",
-    "Japanese Language Support"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "국사관대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1000000
-  },
-  "description": "국사관대학교는 1917년에 설립된 사립 대학으로, 폭넓은 학문 분야와 국제적인 교류를 제공합니다."
-}
+basic_info:
+  address: 〒154-8515 東京都世田谷区世田谷4-28-1
+  name_en: Kokushikan University
+  name_ja: 国士舘大学
+  website: https://www.kokushikan.ac.jp/
+category: university
+date: '2026-01-28'
+description: 국사관대학교는 1917년에 설립된 사립 대학으로, 폭넓은 학문 분야와 국제적인 교류를 제공합니다.
+faculties:
+- Faculty of Political Science and Economics
+- Faculty of Physical Education
+- Faculty of Science and Engineering
+- Faculty of Law
+- Faculty of Letters
+- Faculty of Business Administration
+- Faculty of Contemporary Business
+- Faculty of 21st Century Asia
+features:
+- EJU 필수
+- 기숙사
+- 장학금
+- 제한적인 영어 강의
+- 일본어 지원
+id: univ_kokushikan-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 경쟁률이 매우 높으며, 학부 및 입학 시험에 따라 약 35-45%입니다.
+  international_students: 431
+tags:
+- EJU Required
+- Dormitory
+- Scholarship
+- Limited English-taught courses
+- Japanese Language Support
+thumbnail: /static/img/pin-univ.png
+title: 국사관대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1000000
 ---
 
 ## 대학 개요

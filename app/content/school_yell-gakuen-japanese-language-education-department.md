@@ -15,6 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語教育学科
   total_fees: 1600000
+date: '2026-01-28'
 description: Yell Gakuen's Japanese Language Education Department, located in central
   Osaka (Namba), focuses on preparing students for Japanese universities. They offer
   specialized tracks, school dormitories, and robust scholarships.

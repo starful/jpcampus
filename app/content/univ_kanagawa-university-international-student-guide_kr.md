@@ -1,55 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanagawa-university-international-student-guide",
-  "title": "가나가와 대학교",
-  "category": "university",
-  "tags": [
-    "최첨단 미나토미라이 글로벌 캠퍼스",
-    "탄탄한 요네다 장학금 제도",
-    "종합적인 일본어 지원",
-    "높은 졸업생 취업률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神奈川大学",
-    "name_en": "Kanagawa University",
-    "address": "3-27-1 Rokkakubashi, Kanagawa-ku, Yokohama, Kanagawa 221-8686, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": "약 800명",
-    "acceptance_rate": "35-45% (학과별 데이터 기반 추정치)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "법학부",
-    "경제학부",
-    "경영학부",
-    "외국어학부",
-    "인문학부",
-    "이학부",
-    "공학부",
-    "건축학부",
-    "건강체육학부",
-    "국제문화교류학부"
-  ],
-  "features": [
-    "최첨단 미나토미라이 글로벌 캠퍼스",
-    "탄탄한 요네다 장학금 제도",
-    "종합적인 일본어 지원",
-    "높은 졸업생 취업률"
-  ],
-  "description": "가나가와 대학교는 간토 지역에서 가장 명성이 높고 오랜 역사를 자랑하는 사립 대학교 중 하나입니다. 최첨단 미나토미라이 캠퍼스와 강력한 요네다 장학금 제도를 자랑하며, 국제 학생들을 위한 종합적인 일본어 지원과 높은 졸업생 취업률을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-27-1 Rokkakubashi, Kanagawa-ku, Yokohama, Kanagawa 221-8686, Japan
+  capacity: null
+  name_en: Kanagawa University
+  name_ja: 神奈川大学
+category: university
+date: '2026-02-13'
+description: 가나가와 대학교는 간토 지역에서 가장 명성이 높고 오랜 역사를 자랑하는 사립 대학교 중 하나입니다. 최첨단 미나토미라이 캠퍼스와
+  강력한 요네다 장학금 제도를 자랑하며, 국제 학생들을 위한 종합적인 일본어 지원과 높은 졸업생 취업률을 제공합니다.
+faculties:
+- 법학부
+- 경제학부
+- 경영학부
+- 외국어학부
+- 인문학부
+- 이학부
+- 공학부
+- 건축학부
+- 건강체육학부
+- 국제문화교류학부
+features:
+- 최첨단 미나토미라이 글로벌 캠퍼스
+- 탄탄한 요네다 장학금 제도
+- 종합적인 일본어 지원
+- 높은 졸업생 취업률
+id: univ_kanagawa-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45% (학과별 데이터 기반 추정치)
+  international_students: 약 800명
+tags:
+- 최첨단 미나토미라이 글로벌 캠퍼스
+- 탄탄한 요네다 장학금 제도
+- 종합적인 일본어 지원
+- 높은 졸업생 취업률
+thumbnail: /static/img/pin-univ.png
+title: 가나가와 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학교 개요: '진다이' 정신

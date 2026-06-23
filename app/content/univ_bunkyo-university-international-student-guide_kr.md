@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_bunkyo-university-international-student-guide",
-  "title": "분쿄대학 (Bunkyo University)",
-  "category": "university",
-  "lang": "kr",
-  "tags": [
-    "교원 양성 및 취업 실적 일본 최고 수준의 명문 사립대학교.",
-    "독자적인 '인간사랑(인간애)' 교육 이념.",
-    "외국인 유학생을 위한 특화된 취업 지원 시스템.",
-    "사이타마, 가나가와, 도쿄를 잇는 전략적인 캠퍼스 위치."
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "文教大学",
-    "name_en": "Bunkyo University",
-    "address": "3337 Minami-Ogishima, Koshigaya-shi, Saitama 343-8511, Japan",
-    "capacity": 8500
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "45% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 960000
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Human Sciences",
-    "Faculty of Literature",
-    "Faculty of Informatics",
-    "Faculty of Health and Nutrition",
-    "Faculty of International Studies",
-    "Faculty of Business Administration"
-  ],
-  "features": [
-    "교원 양성 및 취업 실적 일본 최고 수준의 명문 사립대학교.",
-    "독자적인 '인간사랑(인간애)' 교육 이념.",
-    "외국인 유학생을 위한 특화된 취업 지원 시스템.",
-    "사이타마, 가나가와, 도쿄를 잇는 전략적인 캠퍼스 위치."
-  ]
-}
+basic_info:
+  address: 3337 Minami-Ogishima, Koshigaya-shi, Saitama 343-8511, Japan
+  capacity: 8500
+  name_en: Bunkyo University
+  name_ja: 文教大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Education
+- Faculty of Human Sciences
+- Faculty of Literature
+- Faculty of Informatics
+- Faculty of Health and Nutrition
+- Faculty of International Studies
+- Faculty of Business Administration
+features:
+- 교원 양성 및 취업 실적 일본 최고 수준의 명문 사립대학교.
+- 독자적인 '인간사랑(인간애)' 교육 이념.
+- 외국인 유학생을 위한 특화된 취업 지원 시스템.
+- 사이타마, 가나가와, 도쿄를 잇는 전략적인 캠퍼스 위치.
+id: univ_bunkyo-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45% (Estimated for International Applicants)
+  international_students: 165
+tags:
+- 교원 양성 및 취업 실적 일본 최고 수준의 명문 사립대학교.
+- 독자적인 '인간사랑(인간애)' 교육 이념.
+- 외국인 유학생을 위한 특화된 취업 지원 시스템.
+- 사이타마, 가나가와, 도쿄를 잇는 전략적인 캠퍼스 위치.
+thumbnail: /static/img/pin-univ.png
+title: 분쿄대학 (Bunkyo University)
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 960000
 ---
 
 ## 🏫 대학 개요: '인간사랑'의 정신

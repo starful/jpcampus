@@ -24,6 +24,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般2年コース
   total_fees: 1560000
+date: '2026-01-28'
 description: Located in central Tokyo, Tokyo Central Japanese Language Institute (TCJ)
   offers comprehensive Japanese language education, with a strong focus on university
   preparation and academic excellence. They offer a variety of courses to suit different

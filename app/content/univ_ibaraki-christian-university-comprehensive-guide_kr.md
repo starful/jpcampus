@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ibaraki-christian-university-comprehensive-guide",
-  "title": "이바라키 그리스도교 대학교 (Ibaraki Christian University)",
-  "description": "사랑과 봉사의 정신을 바탕으로 인성 교육과 전문성을 겸비한 글로벌 인재를 양성하는 이바라키 그리스도교 대학교의 종합 가이드입니다.",
-  "category": "university",
-  "tags": [
-    "'사랑과 봉사'에 기초한 기독교 교육 이념",
-    "히타치시 지역 사회와의 강력한 유대 관계",
-    "간호 및 아동 교육을 위한 최첨단 시설",
-    "소규모 세미나 형식의 밀착형 학습"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "茨城キリスト教大学",
-    "name_en": "Ibaraki Christian University",
-    "address": "6-11-1 Omika-cho, Hitachi-shi, Ibaraki 319-1295, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "70-75%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Literature",
-    "Faculty of Lifestyle Studies",
-    "Faculty of Nursing",
-    "Faculty of Management"
-  ],
-  "features": [
-    "'사랑과 봉사'에 기초한 기독교 교육 이념",
-    "히타치시 지역 사회와의 강력한 유대 관계",
-    "간호 및 아동 교육을 위한 최첨단 시설",
-    "소규모 세미나 형식의 밀착형 학습"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 6-11-1 Omika-cho, Hitachi-shi, Ibaraki 319-1295, Japan
+  capacity: null
+  name_en: Ibaraki Christian University
+  name_ja: 茨城キリスト教大学
+category: university
+date: '2026-03-24'
+description: 사랑과 봉사의 정신을 바탕으로 인성 교육과 전문성을 겸비한 글로벌 인재를 양성하는 이바라키 그리스도교 대학교의 종합 가이드입니다.
+faculties:
+- Faculty of Literature
+- Faculty of Lifestyle Studies
+- Faculty of Nursing
+- Faculty of Management
+features:
+- '''사랑과 봉사''에 기초한 기독교 교육 이념'
+- 히타치시 지역 사회와의 강력한 유대 관계
+- 간호 및 아동 교육을 위한 최첨단 시설
+- 소규모 세미나 형식의 밀착형 학습
+id: univ_ibaraki-christian-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 70-75%
+  international_students: 45
+tags:
+- '''사랑과 봉사''에 기초한 기독교 교육 이념'
+- 히타치시 지역 사회와의 강력한 유대 관계
+- 간호 및 아동 교육을 위한 최첨단 시설
+- 소규모 세미나 형식의 밀착형 학습
+thumbnail: /static/img/pin-univ.png
+title: 이바라키 그리스도교 대학교 (Ibaraki Christian University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 대학 개요: 사랑과 봉사의 정신

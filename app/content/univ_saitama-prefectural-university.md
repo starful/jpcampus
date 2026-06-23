@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_saitama-prefectural-university",
-  "title": "Saitama Prefectural University",
-  "category": "university",
-  "tags": [
-    "Specialized Interprofessional Education (IPE) Curriculum",
-    "Stunning Modern Architecture by Riken Yamamoto",
-    "Exceptionally High National License Exam Pass Rates",
-    "Focus on Regional Health and Social Welfare Integration"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "埼玉県立大学",
-    "name_en": "Saitama Prefectural University",
-    "address": "820 Sannomiya, Koshigaya-shi, Saitama 343-8540, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "22%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Nursing",
-    "School of Physical Therapy",
-    "School of Occupational Therapy",
-    "School of Social Work",
-    "School of Child Studies",
-    "School of Health Sciences"
-  ],
-  "features": [
-    "Specialized Interprofessional Education (IPE) Curriculum",
-    "Stunning Modern Architecture by Riken Yamamoto",
-    "Exceptionally High National License Exam Pass Rates",
-    "Focus on Regional Health and Social Welfare Integration"
-  ]
-}
+basic_info:
+  address: 820 Sannomiya, Koshigaya-shi, Saitama 343-8540, Japan
+  capacity: null
+  name_en: Saitama Prefectural University
+  name_ja: 埼玉県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Nursing
+- School of Physical Therapy
+- School of Occupational Therapy
+- School of Social Work
+- School of Child Studies
+- School of Health Sciences
+features:
+- Specialized Interprofessional Education (IPE) Curriculum
+- Stunning Modern Architecture by Riken Yamamoto
+- Exceptionally High National License Exam Pass Rates
+- Focus on Regional Health and Social Welfare Integration
+id: univ_saitama-prefectural-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22%
+  international_students: 15
+tags:
+- Specialized Interprofessional Education (IPE) Curriculum
+- Stunning Modern Architecture by Riken Yamamoto
+- Exceptionally High National License Exam Pass Rates
+- Focus on Regional Health and Social Welfare Integration
+thumbnail: /static/img/pin-univ.png
+title: Saitama Prefectural University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

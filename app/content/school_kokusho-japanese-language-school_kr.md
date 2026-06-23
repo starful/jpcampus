@@ -1,79 +1,60 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都板橋区志村2-10-5",
-    "capacity": 788,
-    "name_en": "Kokusho Japanese Language School",
-    "name_ja": "国書日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学コース",
-      "total_fees": 880000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学コース",
-      "total_fees": 1083300
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学コース",
-      "total_fees": 1285800
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学コース",
-      "total_fees": 1487900
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学コース",
-      "total_fees": 1690000
-    },
-    {
-      "admission_month": "1,7",
-      "course_name": "一般コース",
-      "total_fees": 880000
-    },
-    {
-      "admission_month": "4,10",
-      "course_name": "一般コース",
-      "total_fees": 1690000
-    }
-  ],
-  "description": "고쿠쇼 일본어학교는 도쿄에 위치한 대규모 교육기관으로, 집중적인 대학 진학 준비 과정, 특화된 미술 및 디자인 프로그램, 포괄적인 EJU/JLPT 지원으로 잘 알려져 있습니다.",
-  "faculties": [],
-  "features": [
-    "집중적인 대학 진학 중심 (신가쿠)",
-    "특화된 미술 및 디자인 대학 입시 준비",
-    "포괄적인 EJU 및 JLPT 준비 과정",
-    "대규모 도쿄 소재 교육기관 (높은 수용력)",
-    "도쿄 북부의 편리한 위치 (이타바시구)"
-  ],
-  "id": "school_kokusho-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7763411,
-    "lng": 139.691145
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=214",
-  "stats": {},
-  "tags": [
-    "High-Intensity University Progression Focus (Shingaku)",
-    "Specialized Art and Design University Entrance Preparation",
-    "Comprehensive EJU and JLPT Preparation Courses",
-    "Large-Scale Tokyo Institution (High Capacity)",
-    "Convenient Location in Northern Tokyo (Itabashi Ward)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "고쿠쇼 일본어학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都板橋区志村2-10-5
+  capacity: 788
+  name_en: Kokusho Japanese Language School
+  name_ja: 国書日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学コース
+  total_fees: 880000
+- admission_month: '1'
+  course_name: 進学コース
+  total_fees: 1083300
+- admission_month: '10'
+  course_name: 進学コース
+  total_fees: 1285800
+- admission_month: '7'
+  course_name: 進学コース
+  total_fees: 1487900
+- admission_month: '4'
+  course_name: 進学コース
+  total_fees: 1690000
+- admission_month: 1,7
+  course_name: 一般コース
+  total_fees: 880000
+- admission_month: 4,10
+  course_name: 一般コース
+  total_fees: 1690000
+date: '2026-01-28'
+description: 고쿠쇼 일본어학교는 도쿄에 위치한 대규모 교육기관으로, 집중적인 대학 진학 준비 과정, 특화된 미술 및 디자인 프로그램, 포괄적인
+  EJU/JLPT 지원으로 잘 알려져 있습니다.
+faculties: []
+features:
+- 집중적인 대학 진학 중심 (신가쿠)
+- 특화된 미술 및 디자인 대학 입시 준비
+- 포괄적인 EJU 및 JLPT 준비 과정
+- 대규모 도쿄 소재 교육기관 (높은 수용력)
+- 도쿄 북부의 편리한 위치 (이타바시구)
+id: school_kokusho-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 35.7763411
+  lng: 139.691145
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=214
+stats: {}
+tags:
+- High-Intensity University Progression Focus (Shingaku)
+- Specialized Art and Design University Entrance Preparation
+- Comprehensive EJU and JLPT Preparation Courses
+- Large-Scale Tokyo Institution (High Capacity)
+- Convenient Location in Northern Tokyo (Itabashi Ward)
+thumbnail: /static/img/pin-school.png
+title: 고쿠쇼 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

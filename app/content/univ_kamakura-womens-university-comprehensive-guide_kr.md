@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kamakura-womens-university-comprehensive-guide",
-  "title": "가마쿠라 여자 대학교(Kamakura Women's University) 입학 가이드",
-  "category": "university",
-  "tags": [
-    "영양 및 교육 분야 전문 교육",
-    "높은 국가 자격증 합격률",
-    "역사적인 가마쿠라/오후나 지역",
-    "감사와 봉사의 교육 이념"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鎌倉女子大学",
-    "name_en": "Kamakura Women's University",
-    "address": "6-1-3 Ohfuna, Kamakura-shi, Kanagawa Prefecture 247-8512, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "Approximately 65% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1380000
-  },
-  "faculties": [
-    "가정학부",
-    "아동학부",
-    "교육학부"
-  ],
-  "features": [
-    "영양 및 교육 분야의 전문적인 직업 교육",
-    "압도적인 국가 자격증 합격률",
-    "역사와 문화의 도시 가마쿠라/오후나 지역에 위치",
-    "‘감사와 봉사’ 정신을 바탕으로 한 전인적 인성 교육"
-  ],
-  "lang": "kr",
-  "description": "역사적 도시 가마쿠라에 위치한 가마쿠라 여자 대학교는 영양, 교육, 아동 복지 분야에서 일본 최고의 전문성을 자랑하는 여성 인재 양성의 요람입니다."
-}
+basic_info:
+  address: 6-1-3 Ohfuna, Kamakura-shi, Kanagawa Prefecture 247-8512, Japan
+  capacity: null
+  name_en: Kamakura Women's University
+  name_ja: 鎌倉女子大学
+category: university
+date: '2026-03-15'
+description: 역사적 도시 가마쿠라에 위치한 가마쿠라 여자 대학교는 영양, 교육, 아동 복지 분야에서 일본 최고의 전문성을 자랑하는 여성
+  인재 양성의 요람입니다.
+faculties:
+- 가정학부
+- 아동학부
+- 교육학부
+features:
+- 영양 및 교육 분야의 전문적인 직업 교육
+- 압도적인 국가 자격증 합격률
+- 역사와 문화의 도시 가마쿠라/오후나 지역에 위치
+- ‘감사와 봉사’ 정신을 바탕으로 한 전인적 인성 교육
+id: univ_kamakura-womens-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 65% for international applicants
+  international_students: 15
+tags:
+- 영양 및 교육 분야 전문 교육
+- 높은 국가 자격증 합격률
+- 역사적인 가마쿠라/오후나 지역
+- 감사와 봉사의 교육 이념
+thumbnail: /static/img/pin-univ.png
+title: 가마쿠라 여자 대학교(Kamakura Women's University) 입학 가이드
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1380000
 ---
 
 ## 🏫 대학 개요

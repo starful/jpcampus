@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_niigata-sangyo-university-international-student-guide",
-  "title": "Niigata Sangyo University",
-  "category": "university",
-  "tags": [
-    "Exceptionally high international student ratio",
-    "Strong local community and industry ties",
-    "Affordable rural living costs",
-    "Specialized support for JLPT and career placement"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟産業大学",
-    "name_en": "Niigata Sangyo University",
-    "address": "4730 Karuishi, Kashiwazaki-shi, Niigata 945-1393, Japan",
-    "capacity": 840
-  },
-  "stats": {
-    "international_students": 420,
-    "acceptance_rate": "75-85% (International Stream)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 710000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Department of Economics and Business Administration",
-    "Department of Cultural Economy"
-  ],
-  "features": [
-    "Exceptionally high international student ratio",
-    "Strong local community and industry ties",
-    "Affordable rural living costs",
-    "Specialized support for JLPT and career placement"
-  ]
-}
+basic_info:
+  address: 4730 Karuishi, Kashiwazaki-shi, Niigata 945-1393, Japan
+  capacity: 840
+  name_en: Niigata Sangyo University
+  name_ja: 新潟産業大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Economics
+- Department of Economics and Business Administration
+- Department of Cultural Economy
+features:
+- Exceptionally high international student ratio
+- Strong local community and industry ties
+- Affordable rural living costs
+- Specialized support for JLPT and career placement
+id: univ_niigata-sangyo-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-85% (International Stream)
+  international_students: 420
+tags:
+- Exceptionally high international student ratio
+- Strong local community and industry ties
+- Affordable rural living costs
+- Specialized support for JLPT and career placement
+thumbnail: /static/img/pin-univ.png
+title: Niigata Sangyo University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 710000
 ---
 
 ## 🏫 University Overview: The Gateway to Regional Revitalization

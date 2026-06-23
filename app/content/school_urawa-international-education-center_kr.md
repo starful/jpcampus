@@ -1,79 +1,67 @@
 ---
-{
-  "basic_info": {
-    "address": "埼玉県さいたま市浦和区前地3-16-7",
-    "capacity": 206,
-    "name_en": "Urawa International Education Center",
-    "name_ja": "浦和国際教育センター"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学準備2年コース",
-      "total_fees": 1400000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学準備1年9ヶ月コース",
-      "total_fees": 1237500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学準備1年6ヶ月コース",
-      "total_fees": 1075000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学準備1年3ヶ月コース",
-      "total_fees": 912500
-    }
-  ],
-  "description": "우라와 국제 교육 센터는 사이타마현 사이타마시 우라와구에 위치한 일본어 학교로, 학생들이 일본 대학에 성공적으로 진학하고 일본 사회에 적응하도록 돕는 것을 목표로 합니다. 단순한 언어 교육을 넘어 각 학생의 잠재력을 극대화하는 맞춤형 교육 프로그램을 제공하는 데 중점을 둡니다. 학생들은 체계적인 커리큘럼, 경험이 풍부한 강사진, 쾌적한 학습 환경 속에서 꿈을 향해 나아갈 수 있습니다. 학교는 학생들의 다양한 배경과 학습 목표를 존중하며, 글로벌 인재로 성장할 수 있도록 지원하는 데 최선을 다하고 있습니다.",
-  "faculties": [],
-  "features": [
-    "기숙사",
-    "EJU 준비",
-    "대학 입시 준비",
-    "회화 일본어",
-    "비즈니스 일본어",
-    "이과 코스",
-    "장학금",
-    "개인실",
-    "미술 코스",
-    "디자인 코스",
-    "단기 코스"
-  ],
-  "id": "school_urawa-international-education-center",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.8604569,
-    "lng": 139.6670929
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=51",
-  "stats": {
-    "capacity": 206,
-    "international_students": null
-  },
-  "tags": [
-    "Dormitory",
-    "EJU Preparation",
-    "University Preparation",
-    "Conversational Japanese",
-    "Business Japanese",
-    "Science Course",
-    "Scholarships",
-    "Private Rooms",
-    "Art Course",
-    "Design Course",
-    "Short-Term Course"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "우라와 국제 교육 센터",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 埼玉県さいたま市浦和区前地3-16-7
+  capacity: 206
+  name_en: Urawa International Education Center
+  name_ja: 浦和国際教育センター
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学準備2年コース
+  total_fees: 1400000
+- admission_month: '7'
+  course_name: 進学準備1年9ヶ月コース
+  total_fees: 1237500
+- admission_month: '10'
+  course_name: 進学準備1年6ヶ月コース
+  total_fees: 1075000
+- admission_month: '1'
+  course_name: 進学準備1年3ヶ月コース
+  total_fees: 912500
+date: '2026-01-28'
+description: 우라와 국제 교육 센터는 사이타마현 사이타마시 우라와구에 위치한 일본어 학교로, 학생들이 일본 대학에 성공적으로 진학하고 일본
+  사회에 적응하도록 돕는 것을 목표로 합니다. 단순한 언어 교육을 넘어 각 학생의 잠재력을 극대화하는 맞춤형 교육 프로그램을 제공하는 데 중점을
+  둡니다. 학생들은 체계적인 커리큘럼, 경험이 풍부한 강사진, 쾌적한 학습 환경 속에서 꿈을 향해 나아갈 수 있습니다. 학교는 학생들의 다양한 배경과
+  학습 목표를 존중하며, 글로벌 인재로 성장할 수 있도록 지원하는 데 최선을 다하고 있습니다.
+faculties: []
+features:
+- 기숙사
+- EJU 준비
+- 대학 입시 준비
+- 회화 일본어
+- 비즈니스 일본어
+- 이과 코스
+- 장학금
+- 개인실
+- 미술 코스
+- 디자인 코스
+- 단기 코스
+id: school_urawa-international-education-center
+lang: kr
+layout: school
+location:
+  lat: 35.8604569
+  lng: 139.6670929
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=51
+stats:
+  capacity: 206
+  international_students: null
+tags:
+- Dormitory
+- EJU Preparation
+- University Preparation
+- Conversational Japanese
+- Business Japanese
+- Science Course
+- Scholarships
+- Private Rooms
+- Art Course
+- Design Course
+- Short-Term Course
+thumbnail: /static/img/pin-school.png
+title: 우라와 국제 교육 센터
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

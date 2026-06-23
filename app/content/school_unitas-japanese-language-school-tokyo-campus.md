@@ -21,6 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1560000
+date: '2026-01-28'
 faculties: []
 features:
 - Intensive University and Graduate School Preparation (Shingaku)

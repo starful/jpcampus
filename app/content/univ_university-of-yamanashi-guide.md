@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-yamanashi-guide",
-  "title": "University of Yamanashi",
-  "category": "university",
-  "tags": [
-    "World-leading Hydrogen and Fuel Cell Research",
-    "Japan's only Institute of Enology and Viticulture (Wine Science)",
-    "Advanced Medical-Engineering Integration",
-    "Strategic proximity to Tokyo and Mt. Fuji"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山梨大学",
-    "name_en": "University of Yamanashi",
-    "address": "4-4-37 Takeda, Kofu, Yamanashi 400-8510, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 245,
-    "acceptance_rate": "25-30%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Medicine",
-    "Faculty of Engineering",
-    "Faculty of Life and Environmental Sciences"
-  ],
-  "features": [
-    "World-leading Hydrogen and Fuel Cell Research",
-    "Japan's only Institute of Enology and Viticulture (Wine Science)",
-    "Advanced Medical-Engineering Integration",
-    "Strategic proximity to Tokyo and Mt. Fuji"
-  ]
-}
+basic_info:
+  address: 4-4-37 Takeda, Kofu, Yamanashi 400-8510, Japan
+  capacity: null
+  name_en: University of Yamanashi
+  name_ja: 山梨大学
+category: university
+date: '2026-02-13'
+faculties:
+- Faculty of Education
+- Faculty of Medicine
+- Faculty of Engineering
+- Faculty of Life and Environmental Sciences
+features:
+- World-leading Hydrogen and Fuel Cell Research
+- Japan's only Institute of Enology and Viticulture (Wine Science)
+- Advanced Medical-Engineering Integration
+- Strategic proximity to Tokyo and Mt. Fuji
+id: univ_university-of-yamanashi-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-30%
+  international_students: 245
+tags:
+- World-leading Hydrogen and Fuel Cell Research
+- Japan's only Institute of Enology and Viticulture (Wine Science)
+- Advanced Medical-Engineering Integration
+- Strategic proximity to Tokyo and Mt. Fuji
+thumbnail: /static/img/pin-univ.png
+title: University of Yamanashi
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

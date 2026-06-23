@@ -1,48 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_akita-international-university-aiu-guide",
-  "title": "아키타 국제 대학교 (AIU)",
-  "category": "university",
-  "tags": [
-    "All-English Curriculum",
-    "Mandatory One-Year Study Abroad",
-    "24/7 Open Library",
-    "Mandatory Freshman Dormitory Life",
-    "High Employment Rate in Global Companies"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "国際教養大学",
-    "name_en": "Akita International University",
-    "address": "193-2 Okutsubakidai, Yuwa Tsubakigawa, Akita City, Akita Prefecture 010-1292, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 200,
-    "acceptance_rate": "15-25% (Highly Competitive)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 696000
-  },
-  "faculties": [
-    "Faculty of International Liberal Arts"
-  ],
-  "features": [
-    "모든 수업 영어 진행",
-    "필수 1년 해외 유학",
-    "24시간 개방 도서관",
-    "신입생 기숙사 의무 생활",
-    "글로벌 기업 높은 취업률"
-  ],
-  "description": "아키타 국제 대학교 (AIU)는 일본의 혁신적인 국제 리버럴 아츠 대학교입니다. 영어로 진행되는 교육 과정, 의무적인 1년 해외 유학, 그리고 높은 취업률을 자랑합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 193-2 Okutsubakidai, Yuwa Tsubakigawa, Akita City, Akita Prefecture 010-1292,
+    Japan
+  capacity: null
+  name_en: Akita International University
+  name_ja: 国際教養大学
+category: university
+date: '2026-03-03'
+description: 아키타 국제 대학교 (AIU)는 일본의 혁신적인 국제 리버럴 아츠 대학교입니다. 영어로 진행되는 교육 과정, 의무적인 1년
+  해외 유학, 그리고 높은 취업률을 자랑합니다.
+faculties:
+- Faculty of International Liberal Arts
+features:
+- 모든 수업 영어 진행
+- 필수 1년 해외 유학
+- 24시간 개방 도서관
+- 신입생 기숙사 의무 생활
+- 글로벌 기업 높은 취업률
+id: univ_akita-international-university-aiu-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25% (Highly Competitive)
+  international_students: 200
+tags:
+- All-English Curriculum
+- Mandatory One-Year Study Abroad
+- 24/7 Open Library
+- Mandatory Freshman Dormitory Life
+- High Employment Rate in Global Companies
+thumbnail: /static/img/pin-univ.png
+title: 아키타 국제 대학교 (AIU)
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 696000
 ---
 
 ## 🏫 대학교 개요: AIU의 혁신

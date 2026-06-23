@@ -1,50 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_surugadai-university-guide-international-students",
-  "title": "스루가다이대학교 (Surugadai University)",
-  "description": "도쿄 근교 사이타마현 한노시에 위치한 스루가다이대학교는 순다이 교육 그룹의 전통을 이어받아 실무 중심의 교육과 유학생을 위한 밀착형 지원을 제공하는 명문 사립대학교입니다.",
-  "category": "university",
-  "tags": [
-    "TV 촬영지로 자주 쓰이는 아름다운 자연 속 캠퍼스 환경",
-    "순다이 교육 그룹의 노하우가 담긴 포괄적인 커리어 지원",
-    "유학생을 위한 전문적인 일본어 및 일본 문화 지원 프로그램",
-    "공무원 및 대기업 취업에서 높은 성공률 기록"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "駿河台大学",
-    "name_en": "Surugadai University",
-    "address": "698 Azu, Hanno, Saitama 357-8555, Japan",
-    "capacity": 4500
-  },
-  "stats": {
-    "international_students": 284,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Economics and Management",
-    "Faculty of Media and Information Resources",
-    "Faculty of Modern Culture",
-    "Faculty of Psychology"
-  ],
-  "features": [
-    "TV 촬영지로 자주 쓰이는 아름다운 자연 속 캠퍼스 환경",
-    "순다이 교육 그룹의 노하우가 담긴 포괄적인 커리어 지원",
-    "유학생을 위한 전문적인 일본어 및 일본 문화 지원 프로그램",
-    "공무원 및 대기업 취업에서 높은 성공률 기록"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 698 Azu, Hanno, Saitama 357-8555, Japan
+  capacity: 4500
+  name_en: Surugadai University
+  name_ja: 駿河台大学
+category: university
+date: '2026-03-08'
+description: 도쿄 근교 사이타마현 한노시에 위치한 스루가다이대학교는 순다이 교육 그룹의 전통을 이어받아 실무 중심의 교육과 유학생을 위한
+  밀착형 지원을 제공하는 명문 사립대학교입니다.
+faculties:
+- Faculty of Law
+- Faculty of Economics and Management
+- Faculty of Media and Information Resources
+- Faculty of Modern Culture
+- Faculty of Psychology
+features:
+- TV 촬영지로 자주 쓰이는 아름다운 자연 속 캠퍼스 환경
+- 순다이 교육 그룹의 노하우가 담긴 포괄적인 커리어 지원
+- 유학생을 위한 전문적인 일본어 및 일본 문화 지원 프로그램
+- 공무원 및 대기업 취업에서 높은 성공률 기록
+id: univ_surugadai-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 284
+tags:
+- TV 촬영지로 자주 쓰이는 아름다운 자연 속 캠퍼스 환경
+- 순다이 교육 그룹의 노하우가 담긴 포괄적인 커리어 지원
+- 유학생을 위한 전문적인 일본어 및 일본 문화 지원 프로그램
+- 공무원 및 대기업 취업에서 높은 성공률 기록
+thumbnail: /static/img/pin-univ.png
+title: 스루가다이대학교 (Surugadai University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요: 학문적 우수성의 전통

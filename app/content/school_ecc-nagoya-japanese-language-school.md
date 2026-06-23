@@ -18,6 +18,7 @@ courses:
 - admission_month: 4,10
   course_name: 日本語総合1年コース
   total_fees: 825500
+date: '2026-01-28'
 faculties: []
 features:
 - Conversation

@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_asahi-university-international-student-guide",
-  "title": "아사히 대학 (Asahi University)",
-  "description": "기후현에 위치한 아사히 대학은 일본 전국구 수준의 치의학부를 비롯하여 경영, 법학, 보건과학 등 실무 중심의 교육을 제공하는 종합대학교입니다. 저렴한 물가와 충실한 유학생 지원 시스템을 갖추고 있습니다.",
-  "category": "university",
-  "tags": [
-    "일본 전국구 수준의 치의학부",
-    "유학생 전용 별과 운영",
-    "기후현의 저렴한 생활비",
-    "지역 산업체 연계 취업 강점"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "朝日大学",
-    "name_en": "Asahi University",
-    "address": "1851 Hozumi, Mizuho, Gifu 501-0296, Japan",
-    "capacity": 3500
-  },
-  "stats": {
-    "international_students": 180,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "치의학부",
-    "경영학부",
-    "법학부",
-    "보건과학부"
-  ],
-  "features": [
-    "일본 전국구 수준의 치의학부",
-    "외국인 유학생을 위한 별과(일본어 예비 교육 과정) 운영",
-    "기후현의 저렴하고 쾌적한 물가와 생활 환경",
-    "지역 산업체와 연계된 강력한 취업 지원 시스템"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1851 Hozumi, Mizuho, Gifu 501-0296, Japan
+  capacity: 3500
+  name_en: Asahi University
+  name_ja: 朝日大学
+category: university
+date: '2026-03-15'
+description: 기후현에 위치한 아사히 대학은 일본 전국구 수준의 치의학부를 비롯하여 경영, 법학, 보건과학 등 실무 중심의 교육을 제공하는
+  종합대학교입니다. 저렴한 물가와 충실한 유학생 지원 시스템을 갖추고 있습니다.
+faculties:
+- 치의학부
+- 경영학부
+- 법학부
+- 보건과학부
+features:
+- 일본 전국구 수준의 치의학부
+- 외국인 유학생을 위한 별과(일본어 예비 교육 과정) 운영
+- 기후현의 저렴하고 쾌적한 물가와 생활 환경
+- 지역 산업체와 연계된 강력한 취업 지원 시스템
+id: univ_asahi-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 180
+tags:
+- 일본 전국구 수준의 치의학부
+- 유학생 전용 별과 운영
+- 기후현의 저렴한 생활비
+- 지역 산업체 연계 취업 강점
+thumbnail: /static/img/pin-univ.png
+title: 아사히 대학 (Asahi University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 학교 개요: 기후현으로 가는 관문

@@ -1,51 +1,43 @@
 ---
-{
-  "basic_info": {
-    "address": "836 Ohya, Suruga Ward, Shizuoka, 422-8529, Japan",
-    "name_en": "Shizuoka University",
-    "name_ja": "静岡大学",
-    "website": "https://www.shizuoka.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education",
-    "Faculty of Informatics",
-    "Faculty of Science",
-    "Faculty of Engineering",
-    "Faculty of Agriculture"
-  ],
-  "features": [
-    "EJU 필요",
-    "영어 프로그램",
-    "기숙사",
-    "장학금"
-  ],
-  "id": "univ_shizuoka-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "20-30%",
-    "international_students": 600
-  },
-  "tags": [
-    "EJU Required",
-    "English Program",
-    "Dormitory",
-    "Scholarship"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "시즈오카 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  }
-}
+basic_info:
+  address: 836 Ohya, Suruga Ward, Shizuoka, 422-8529, Japan
+  name_en: Shizuoka University
+  name_ja: 静岡大学
+  website: https://www.shizuoka.ac.jp/
+category: university
+date: '2026-01-28'
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education
+- Faculty of Informatics
+- Faculty of Science
+- Faculty of Engineering
+- Faculty of Agriculture
+features:
+- EJU 필요
+- 영어 프로그램
+- 기숙사
+- 장학금
+id: univ_shizuoka-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20-30%
+  international_students: 600
+tags:
+- EJU Required
+- English Program
+- Dormitory
+- Scholarship
+thumbnail: /static/img/pin-univ.png
+title: 시즈오카 대학교
+translated: true
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 소개

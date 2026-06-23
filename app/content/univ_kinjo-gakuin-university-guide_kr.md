@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kinjo-gakuin-university-guide",
-  "title": "긴조가쿠인 대학 (Kinjo Gakuin University)",
-  "description": "일본 도카이 지역을 대표하는 명문 사립 여자대학교로, 기독교 정신에 기반한 인성 교육과 압도적인 취업 지원 시스템을 통해 글로벌 여성 리더를 양성합니다.",
-  "category": "university",
-  "tags": [
-    "도카이 지역 최상위권 사립 여대",
-    "개신교 기독교 정신 기반",
-    "압도적인 취업 지원 및 취업률",
-    "오모테나시와 글로벌 에티켓 강조"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金城学院大学",
-    "name_en": "Kinjo Gakuin University",
-    "address": "2-1723 Omori, Moriyama-ku, Nagoya, Aichi 463-8521, Japan",
-    "capacity": "약 5,300명"
-  },
-  "stats": {
-    "international_students": 52,
-    "acceptance_rate": "외국인 지원자 대상 40-50%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "문학부",
-    "인간과학부",
-    "글로벌학부",
-    "국제정보학부",
-    "생활환경학부",
-    "약학부"
-  ],
-  "features": [
-    "도카이 지역 최상위권 사립 여자대학교",
-    "개신교 기독교 정신에 기반한 설립",
-    "압도적인 취업 지원 및 취업률 기록",
-    "오모테나시와 품격 있는 글로벌 에티켓 교육 강조"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 2-1723 Omori, Moriyama-ku, Nagoya, Aichi 463-8521, Japan
+  capacity: 약 5,300명
+  name_en: Kinjo Gakuin University
+  name_ja: 金城学院大学
+category: university
+date: '2026-03-15'
+description: 일본 도카이 지역을 대표하는 명문 사립 여자대학교로, 기독교 정신에 기반한 인성 교육과 압도적인 취업 지원 시스템을 통해 글로벌
+  여성 리더를 양성합니다.
+faculties:
+- 문학부
+- 인간과학부
+- 글로벌학부
+- 국제정보학부
+- 생활환경학부
+- 약학부
+features:
+- 도카이 지역 최상위권 사립 여자대학교
+- 개신교 기독교 정신에 기반한 설립
+- 압도적인 취업 지원 및 취업률 기록
+- 오모테나시와 품격 있는 글로벌 에티켓 교육 강조
+id: univ_kinjo-gakuin-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 외국인 지원자 대상 40-50%
+  international_students: 52
+tags:
+- 도카이 지역 최상위권 사립 여대
+- 개신교 기독교 정신 기반
+- 압도적인 취업 지원 및 취업률
+- 오모테나시와 글로벌 에티켓 강조
+thumbnail: /static/img/pin-univ.png
+title: 긴조가쿠인 대학 (Kinjo Gakuin University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 대학 개요: 긴조가쿠인의 명성

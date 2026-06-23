@@ -1,57 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都墨田区立川3-1-15",
-    "capacity": 100,
-    "name_en": "Gakuto Academy",
-    "name_ja": "学東アカデミー"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1660000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1291000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "집중적인 EJU 대비",
-    "고등 교육 진학 중심 커리큘럼",
-    "소규모 학교 환경 (정원 100명)",
-    "도쿄 위치 (스미다구)",
-    "개인 맞춤형 학업 상담"
-  ],
-  "id": "school_gakuto-academy-tokyo-eju-prep",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6900897,
-    "lng": 139.8041361
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=608",
-  "stats": {
-    "capacity": 100,
-    "international_students": 100
-  },
-  "tags": [
-    "Intensive EJU Preparation",
-    "Higher Education Progression Focused Curriculum",
-    "Small School Environment (Capacity 100)",
-    "Tokyo Location (Sumida Ward)",
-    "Personalized Academic Advising"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "각토 아카데미",
-  "translated": true,
-  "tuition": {},
-  "description": "각토 아카데미는 도쿄 스미다구에 위치한 EJU 시험 전문 학교입니다. 소규모 집중 교육을 통해 일본 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다."
-}
+basic_info:
+  address: 東京都墨田区立川3-1-15
+  capacity: 100
+  name_en: Gakuto Academy
+  name_ja: 学東アカデミー
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1660000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1291000
+date: '2026-01-28'
+description: 각토 아카데미는 도쿄 스미다구에 위치한 EJU 시험 전문 학교입니다. 소규모 집중 교육을 통해 일본 대학 진학을 목표로 하는
+  학생들에게 최적의 환경을 제공합니다.
+faculties: []
+features:
+- 집중적인 EJU 대비
+- 고등 교육 진학 중심 커리큘럼
+- 소규모 학교 환경 (정원 100명)
+- 도쿄 위치 (스미다구)
+- 개인 맞춤형 학업 상담
+id: school_gakuto-academy-tokyo-eju-prep
+lang: kr
+layout: school
+location:
+  lat: 35.6900897
+  lng: 139.8041361
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=608
+stats:
+  capacity: 100
+  international_students: 100
+tags:
+- Intensive EJU Preparation
+- Higher Education Progression Focused Curriculum
+- Small School Environment (Capacity 100)
+- Tokyo Location (Sumida Ward)
+- Personalized Academic Advising
+thumbnail: /static/img/pin-school.png
+title: 각토 아카데미
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,47 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kobe-international-university",
-  "title": "고베 국제대학교 (Kobe International University)",
-  "description": "일본 고베의 현대적인 롯코 아일랜드에 위치한 고베 국제대학교는 기독교 정신을 바탕으로 경제, 국제 관광, 물리 치료 분야에서 글로벌 인재를 양성하는 대학입니다.",
-  "category": "university",
-  "tags": [
-    "글로벌 캠퍼스 환경",
-    "관광 및 호스피탈리티 특화",
-    "기독교 기반 전인 교육",
-    "롯코 아일랜드 해안 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "神戸国際大学",
-    "name_en": "Kobe International University",
-    "address": "9-1-10 Koyo-cho Naka, Higashinada-ku, Kobe, Hyogo 658-0032, Japan",
-    "capacity": 2100
-  },
-  "stats": {
-    "international_students": 580,
-    "acceptance_rate": "55-60%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 830000
-  },
-  "faculties": [
-    "경제학부",
-    "재활학부"
-  ],
-  "features": [
-    "글로벌화된 캠퍼스 환경",
-    "관광 및 호스피탈리티 특화 프로그램",
-    "기독교 정신에 기반한 전인 교육",
-    "롯코 아일랜드의 아름다운 해안 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 9-1-10 Koyo-cho Naka, Higashinada-ku, Kobe, Hyogo 658-0032, Japan
+  capacity: 2100
+  name_en: Kobe International University
+  name_ja: 神戸国際大学
+category: university
+date: '2026-04-19'
+description: 일본 고베의 현대적인 롯코 아일랜드에 위치한 고베 국제대학교는 기독교 정신을 바탕으로 경제, 국제 관광, 물리 치료 분야에서
+  글로벌 인재를 양성하는 대학입니다.
+faculties:
+- 경제학부
+- 재활학부
+features:
+- 글로벌화된 캠퍼스 환경
+- 관광 및 호스피탈리티 특화 프로그램
+- 기독교 정신에 기반한 전인 교육
+- 롯코 아일랜드의 아름다운 해안 캠퍼스
+id: univ_kobe-international-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-60%
+  international_students: 580
+tags:
+- 글로벌 캠퍼스 환경
+- 관광 및 호스피탈리티 특화
+- 기독교 기반 전인 교육
+- 롯코 아일랜드 해안 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 고베 국제대학교 (Kobe International University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 830000
 ---
 
 ## 🏫 대학 개요

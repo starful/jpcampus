@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanazawa-seiryo-university-international-student-guide",
-  "title": "Kanazawa Seiryo University",
-  "category": "university",
-  "tags": [
-    "Top-tier National Employment Rate",
-    "Comprehensive Civil Service Preparation",
-    "Strategic Global Course for Business",
-    "Rich Cultural Environment in Kanazawa"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金沢星稜大学",
-    "name_en": "Kanazawa Seiryo University",
-    "address": "10-1 Gosho-machi, Kanazawa, Ishikawa 920-8620, Japan",
-    "capacity": 3200
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Human Sciences",
-    "Faculty of Humanities",
-    "Graduate School of Economics"
-  ],
-  "features": [
-    "Top-tier National Employment Rate",
-    "Comprehensive Civil Service Preparation",
-    "Strategic Global Course for Business",
-    "Rich Cultural Environment in Kanazawa"
-  ]
-}
+basic_info:
+  address: 10-1 Gosho-machi, Kanazawa, Ishikawa 920-8620, Japan
+  capacity: 3200
+  name_en: Kanazawa Seiryo University
+  name_ja: 金沢星稜大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Economics
+- Faculty of Human Sciences
+- Faculty of Humanities
+- Graduate School of Economics
+features:
+- Top-tier National Employment Rate
+- Comprehensive Civil Service Preparation
+- Strategic Global Course for Business
+- Rich Cultural Environment in Kanazawa
+id: univ_kanazawa-seiryo-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 42
+tags:
+- Top-tier National Employment Rate
+- Comprehensive Civil Service Preparation
+- Strategic Global Course for Business
+- Rich Cultural Environment in Kanazawa
+thumbnail: /static/img/pin-univ.png
+title: Kanazawa Seiryo University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 University Overview

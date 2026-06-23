@@ -1,56 +1,49 @@
 ---
-{
-  "basic_info": {
-    "address": "京都府京都市伏見区深草塚本町67",
-    "name_en": "Ryukoku University",
-    "name_ja": "龍谷大学",
-    "website": "https://www.ryukoku.ac.jp/"
-  },
-  "category": "university",
-  "description": "1639년에 설립된 류코쿠대학교는 일본 교토에 위치한 사립대학교로, 불교 연구의 깊은 전통과 다양한 현대 학부를 자랑합니다. 국제 시민 의식과 문화 간 이해를 위한 노력으로 잘 알려져 있습니다.",
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Science and Technology",
-    "Faculty of Sociology",
-    "Faculty of Policy Science",
-    "Faculty of International Studies",
-    "Faculty of Agriculture",
-    "Faculty of Intercultural Communication"
-  ],
-  "features": [
-    "영어 프로그램",
-    "기숙사",
-    "장학금",
-    "교환 학생 프로그램"
-  ],
-  "id": "univ_ryukoku-university",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "40%",
-    "international_students": 384
-  },
-  "tags": [
-    "English Program",
-    "Dormitory",
-    "Scholarship",
-    "Exchange Program"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "류코쿠대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1200000
-  }
-}
+basic_info:
+  address: 京都府京都市伏見区深草塚本町67
+  name_en: Ryukoku University
+  name_ja: 龍谷大学
+  website: https://www.ryukoku.ac.jp/
+category: university
+date: '2026-01-28'
+description: 1639년에 설립된 류코쿠대학교는 일본 교토에 위치한 사립대학교로, 불교 연구의 깊은 전통과 다양한 현대 학부를 자랑합니다.
+  국제 시민 의식과 문화 간 이해를 위한 노력으로 잘 알려져 있습니다.
+faculties:
+- Faculty of Letters
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Science and Technology
+- Faculty of Sociology
+- Faculty of Policy Science
+- Faculty of International Studies
+- Faculty of Agriculture
+- Faculty of Intercultural Communication
+features:
+- 영어 프로그램
+- 기숙사
+- 장학금
+- 교환 학생 프로그램
+id: univ_ryukoku-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40%
+  international_students: 384
+tags:
+- English Program
+- Dormitory
+- Scholarship
+- Exchange Program
+thumbnail: /static/img/pin-univ.png
+title: 류코쿠대학교
+translated: true
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1200000
 ---
 
 ## 대학교 개요 및 명성

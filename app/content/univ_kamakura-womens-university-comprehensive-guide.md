@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kamakura-womens-university-comprehensive-guide",
-  "title": "Kamakura Women's University",
-  "category": "university",
-  "tags": [
-    "Specialized Vocational Training in Nutrition and Education",
-    "Exceptional National License Pass Rates",
-    "Located in the Historic Cultural District of Kamakura/Ohfuna",
-    "Holistic Character Building through 'Gratitude and Service'"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "鎌倉女子大学",
-    "name_en": "Kamakura Women's University",
-    "address": "6-1-3 Ohfuna, Kamakura-shi, Kanagawa Prefecture 247-8512, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "Approximately 65% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1380000
-  },
-  "faculties": [
-    "Faculty of Home Economics",
-    "Faculty of Child Studies",
-    "Faculty of Education"
-  ],
-  "features": [
-    "Specialized Vocational Training in Nutrition and Education",
-    "Exceptional National License Pass Rates",
-    "Located in the Historic Cultural District of Kamakura/Ohfuna",
-    "Holistic Character Building through 'Gratitude and Service'"
-  ]
-}
+basic_info:
+  address: 6-1-3 Ohfuna, Kamakura-shi, Kanagawa Prefecture 247-8512, Japan
+  capacity: null
+  name_en: Kamakura Women's University
+  name_ja: 鎌倉女子大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Home Economics
+- Faculty of Child Studies
+- Faculty of Education
+features:
+- Specialized Vocational Training in Nutrition and Education
+- Exceptional National License Pass Rates
+- Located in the Historic Cultural District of Kamakura/Ohfuna
+- Holistic Character Building through 'Gratitude and Service'
+id: univ_kamakura-womens-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 65% for international applicants
+  international_students: 15
+tags:
+- Specialized Vocational Training in Nutrition and Education
+- Exceptional National License Pass Rates
+- Located in the Historic Cultural District of Kamakura/Ohfuna
+- Holistic Character Building through 'Gratitude and Service'
+thumbnail: /static/img/pin-univ.png
+title: Kamakura Women's University
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1380000
 ---
 
 ## 🏫 University Overview

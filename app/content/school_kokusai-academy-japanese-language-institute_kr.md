@@ -1,69 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都豊島区池袋3-28-1",
-    "capacity": 180,
-    "name_en": "Kokusai Academy Japanese Language Institute",
-    "name_ja": "国際アカデミー日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "Advanced Studies 2-Year Course",
-      "total_fees": 1323840
-    },
-    {
-      "admission_month": "7",
-      "course_name": "Advanced Studies 1 Year 9-Month Course",
-      "total_fees": 1171560
-    },
-    {
-      "admission_month": "10",
-      "course_name": "Advanced Studies 1 Year 6-Month Course",
-      "total_fees": 1014280
-    },
-    {
-      "admission_month": "1",
-      "course_name": "Advanced Studies 1 Year 3-Month Course",
-      "total_fees": 862000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "대학 진학 중심",
-    "EJU 시험 대비",
-    "기숙사 제공",
-    "단기 유학 옵션",
-    "비즈니스 일본어",
-    "도쿄 중심지 (이케부쿠로) 위치"
-  ],
-  "id": "school_kokusai-academy-japanese-language-institute",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7348296,
-    "lng": 139.7057883
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=197",
-  "stats": {
-    "capacity": 180,
-    "international_students": 165
-  },
-  "tags": [
-    "University Admission Focus",
-    "EJU Preparation",
-    "Dormitory Provided",
-    "Short-term Study Options",
-    "Business Japanese",
-    "Prime Tokyo Location (Ikebukuro)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "국제 아카데미 일본어 학교",
-  "translated": true,
-  "tuition": {},
-  "description": "도쿄 이케부쿠로에 위치한 국제 아카데미 일본어 학교는 소규모 맞춤형 교육을 제공하며, 대학 진학 및 일본 사회 적응을 목표로 합니다."
-}
+basic_info:
+  address: 東京都豊島区池袋3-28-1
+  capacity: 180
+  name_en: Kokusai Academy Japanese Language Institute
+  name_ja: 国際アカデミー日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: Advanced Studies 2-Year Course
+  total_fees: 1323840
+- admission_month: '7'
+  course_name: Advanced Studies 1 Year 9-Month Course
+  total_fees: 1171560
+- admission_month: '10'
+  course_name: Advanced Studies 1 Year 6-Month Course
+  total_fees: 1014280
+- admission_month: '1'
+  course_name: Advanced Studies 1 Year 3-Month Course
+  total_fees: 862000
+date: '2026-01-28'
+description: 도쿄 이케부쿠로에 위치한 국제 아카데미 일본어 학교는 소규모 맞춤형 교육을 제공하며, 대학 진학 및 일본 사회 적응을 목표로
+  합니다.
+faculties: []
+features:
+- 대학 진학 중심
+- EJU 시험 대비
+- 기숙사 제공
+- 단기 유학 옵션
+- 비즈니스 일본어
+- 도쿄 중심지 (이케부쿠로) 위치
+id: school_kokusai-academy-japanese-language-institute
+lang: kr
+layout: school
+location:
+  lat: 35.7348296
+  lng: 139.7057883
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=197
+stats:
+  capacity: 180
+  international_students: 165
+tags:
+- University Admission Focus
+- EJU Preparation
+- Dormitory Provided
+- Short-term Study Options
+- Business Japanese
+- Prime Tokyo Location (Ikebukuro)
+thumbnail: /static/img/pin-school.png
+title: 국제 아카데미 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 🏫 학교 개요 및 교육 철학

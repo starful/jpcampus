@@ -1,56 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chubu-university-international-student-guide",
-  "title": "Chubu University International Student Guide",
-  "category": "university",
-  "tags": [
-    "Industrial Powerhouse Connection",
-    "Comprehensive Research Facilities",
-    "International Exchange Programs",
-    "Multidisciplinary Campus Culture"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "中部大学",
-    "name_en": "Chubu University",
-    "address": "1200 Matsumoto-cho, Kasugai-shi, Aichi 487-8501, Japan",
-    "capacity": 11000
-  },
-  "stats": {
-    "international_students": 280,
-    "acceptance_rate": "40-50%"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 1350000
-  },
-  "faculties": [
-    "Faculty of Engineering",
-    "Faculty of Business Administration and Information Science",
-    "Faculty of International Studies",
-    "Faculty of Humanities",
-    "Faculty of Bioscience and Biotechnology",
-    "Faculty of Life and Health Sciences",
-    "Faculty of Contemporary Education",
-    "Faculty of Science and Technology"
-  ],
-  "features": [
-    "Industrial Powerhouse Connection",
-    "Comprehensive Research Facilities",
-    "International Exchange Programs",
-    "Multidisciplinary Campus Culture"
-  ],
-  "description": "Your complete guide to studying at Chubu University. Discover 2026 admission requirements, tuition fees, available scholarships, and international student support.",
-  "seo_title": "Chubu University 2026: International Student Guide | JP Campus",
-  "seo_description": "Explore Chubu University's 2026 guide for international students. Find accurate details on tuition, admissions, scholarships, and how to apply."
-}
+basic_info:
+  address: 1200 Matsumoto-cho, Kasugai-shi, Aichi 487-8501, Japan
+  capacity: 11000
+  name_en: Chubu University
+  name_ja: 中部大学
+category: university
+date: '2026-06-19'
+description: Your complete guide to studying at Chubu University. Discover 2026 admission
+  requirements, tuition fees, available scholarships, and international student support.
+faculties:
+- Faculty of Engineering
+- Faculty of Business Administration and Information Science
+- Faculty of International Studies
+- Faculty of Humanities
+- Faculty of Bioscience and Biotechnology
+- Faculty of Life and Health Sciences
+- Faculty of Contemporary Education
+- Faculty of Science and Technology
+features:
+- Industrial Powerhouse Connection
+- Comprehensive Research Facilities
+- International Exchange Programs
+- Multidisciplinary Campus Culture
+id: univ_chubu-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Explore Chubu University's 2026 guide for international students.
+  Find accurate details on tuition, admissions, scholarships, and how to apply.
+seo_title: 'Chubu University 2026: International Student Guide | JP Campus'
+stats:
+  acceptance_rate: 40-50%
+  international_students: 280
+tags:
+- Industrial Powerhouse Connection
+- Comprehensive Research Facilities
+- International Exchange Programs
+- Multidisciplinary Campus Culture
+thumbnail: /static/img/pin-univ.png
+title: Chubu University International Student Guide
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 1350000
 ---
-
 
 ## 🏫 University Overview
 

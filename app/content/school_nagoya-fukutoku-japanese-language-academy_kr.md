@@ -1,89 +1,75 @@
 ---
-{
-  "basic_info": {
-    "address": "愛知県名古屋市中区葵2-14-22",
-    "capacity": 300,
-    "name_en": "Nagoya Futoku Japanese Language Academy",
-    "name_ja": "名古屋福徳日本語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1330000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.6年コース",
-      "total_fees": 1015000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1.9年コース",
-      "total_fees": 1172500
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1.3年コース",
-      "total_fees": 857500
-    }
-  ],
-  "description": "나고야 후쿠토쿠 일본어 학교는 나고야 중심부에 위치하여 일본어 실력 향상, 고등 교육 준비, 일본 문화 체험을 위한 훌륭한 환경을 제공합니다. 소규모 학급, 맞춤형 학습, 종합적인 지원 서비스가 특징입니다.",
-  "faculties": [],
-  "features": [
-    "소규모 학급",
-    "실력별 반 편성",
-    "담임 선생님 제도",
-    "국제 교류",
-    "일본 문화 체험",
-    "생활 지도",
-    "기숙사",
-    "개인실",
-    "장학금",
-    "EJU 준비",
-    "이과 집중",
-    "대학 진학 과정",
-    "회화 연습",
-    "비즈니스 일본어",
-    "미술 & 디자인",
-    "단기 코스"
-  ],
-  "id": "school_nagoya-fukutoku-japanese-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.1699293,
-    "lng": 136.9259032
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=288",
-  "stats": {
-    "capacity": 300,
-    "international_students": 0
-  },
-  "tags": [
-    "Small Class Sizes",
-    "Ability-Based Classes",
-    "Homeroom Teacher System",
-    "International Exchange",
-    "Japanese Culture",
-    "Lifestyle Guidance",
-    "Dormitory",
-    "Private Rooms",
-    "Scholarships",
-    "EJU Preparation",
-    "Science Focus",
-    "University Pathway",
-    "Conversation Practice",
-    "Business Japanese",
-    "Art & Design",
-    "Short-Term Courses"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "나고야 후쿠토쿠 일본어 학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 愛知県名古屋市中区葵2-14-22
+  capacity: 300
+  name_en: Nagoya Futoku Japanese Language Academy
+  name_ja: 名古屋福徳日本語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1330000
+- admission_month: '10'
+  course_name: 進学1.6年コース
+  total_fees: 1015000
+- admission_month: '7'
+  course_name: 進学1.9年コース
+  total_fees: 1172500
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 857500
+date: '2026-01-28'
+description: 나고야 후쿠토쿠 일본어 학교는 나고야 중심부에 위치하여 일본어 실력 향상, 고등 교육 준비, 일본 문화 체험을 위한 훌륭한
+  환경을 제공합니다. 소규모 학급, 맞춤형 학습, 종합적인 지원 서비스가 특징입니다.
+faculties: []
+features:
+- 소규모 학급
+- 실력별 반 편성
+- 담임 선생님 제도
+- 국제 교류
+- 일본 문화 체험
+- 생활 지도
+- 기숙사
+- 개인실
+- 장학금
+- EJU 준비
+- 이과 집중
+- 대학 진학 과정
+- 회화 연습
+- 비즈니스 일본어
+- 미술 & 디자인
+- 단기 코스
+id: school_nagoya-fukutoku-japanese-language-academy
+lang: kr
+layout: school
+location:
+  lat: 35.1699293
+  lng: 136.9259032
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=288
+stats:
+  capacity: 300
+  international_students: 0
+tags:
+- Small Class Sizes
+- Ability-Based Classes
+- Homeroom Teacher System
+- International Exchange
+- Japanese Culture
+- Lifestyle Guidance
+- Dormitory
+- Private Rooms
+- Scholarships
+- EJU Preparation
+- Science Focus
+- University Pathway
+- Conversation Practice
+- Business Japanese
+- Art & Design
+- Short-Term Courses
+thumbnail: /static/img/pin-school.png
+title: 나고야 후쿠토쿠 일본어 학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요

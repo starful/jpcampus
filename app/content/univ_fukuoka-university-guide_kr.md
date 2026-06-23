@@ -1,59 +1,51 @@
 ---
-{
-  "basic_info": {
-    "address": "〒814-0180 福岡県福岡市城南区七隈8丁目19-1",
-    "name_en": "Fukuoka University",
-    "name_ja": "福岡大学",
-    "website": "https://www.fukuoka-u.ac.jp/"
-  },
-  "category": "university",
-  "faculties": [
-    "Humanities",
-    "Law",
-    "Economics",
-    "Commerce",
-    "Science",
-    "Engineering",
-    "Medicine",
-    "Pharmaceutical Sciences",
-    "Sports Science",
-    "Nursing"
-  ],
-  "features": [
-    "대규모 종합 사립 대학교",
-    "큐슈 지역 최고 교육 기관",
-    "EJU 필수 (대부분의 프로그램)",
-    "강력한 의학 및 공학 분야",
-    "저렴한 도시 생활",
-    "종합적인 장학금 제도"
-  ],
-  "id": "univ_fukuoka-university-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "Varied Widely (일반 입학의 경우 약 20-35%로 추정)",
-    "international_students": 550
-  },
-  "tags": [
-    "Large Comprehensive Private University",
-    "Leading Institution in Kyushu",
-    "EJU Required (for most programs)",
-    "Strong Medical and Engineering Faculties",
-    "Affordable City Living",
-    "Comprehensive Scholarship System"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "후쿠오카 대학교",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 300000,
-    "yearly_tuition": 1300000
-  }
-}
+basic_info:
+  address: 〒814-0180 福岡県福岡市城南区七隈8丁目19-1
+  name_en: Fukuoka University
+  name_ja: 福岡大学
+  website: https://www.fukuoka-u.ac.jp/
+category: university
+date: '2026-01-28'
+faculties:
+- Humanities
+- Law
+- Economics
+- Commerce
+- Science
+- Engineering
+- Medicine
+- Pharmaceutical Sciences
+- Sports Science
+- Nursing
+features:
+- 대규모 종합 사립 대학교
+- 큐슈 지역 최고 교육 기관
+- EJU 필수 (대부분의 프로그램)
+- 강력한 의학 및 공학 분야
+- 저렴한 도시 생활
+- 종합적인 장학금 제도
+id: univ_fukuoka-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Varied Widely (일반 입학의 경우 약 20-35%로 추정)
+  international_students: 550
+tags:
+- Large Comprehensive Private University
+- Leading Institution in Kyushu
+- EJU Required (for most programs)
+- Strong Medical and Engineering Faculties
+- Affordable City Living
+- Comprehensive Scholarship System
+thumbnail: /static/img/pin-univ.png
+title: 후쿠오카 대학교
+translated: true
+tuition:
+  admission_fee: 300000
+  yearly_tuition: 1300000
 ---
 
 ## 대학교 개요 및 명성

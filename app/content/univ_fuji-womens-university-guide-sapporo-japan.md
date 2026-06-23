@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_fuji-womens-university-guide-sapporo-japan",
-  "title": "Fuji Women's University",
-  "category": "university",
-  "tags": [
-    "Oldest Catholic Women's University in Hokkaido",
-    "Renowned Food and Nutrition Department",
-    "Strong Global Exchange and Language Programs",
-    "Holistic Liberal Arts Education",
-    "Sapporo-based with High Employment Rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "藤女子大学",
-    "name_en": "Fuji Women's University",
-    "address": "2-1, Kita 16-jo Nishi 2-chome, Kita-ku, Sapporo, Hokkaido 001-0016, Japan",
-    "capacity": "Approximately 2,000 students total"
-  },
-  "stats": {
-    "international_students": 18,
-    "acceptance_rate": "65-75% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 980000
-  },
-  "faculties": [
-    "Faculty of Humanities",
-    "Faculty of Human Life Sciences"
-  ],
-  "features": [
-    "Oldest Catholic Women's University in Hokkaido",
-    "Renowned Food and Nutrition Department",
-    "Strong Global Exchange and Language Programs",
-    "Holistic Liberal Arts Education",
-    "Sapporo-based with High Employment Rates"
-  ]
-}
+basic_info:
+  address: 2-1, Kita 16-jo Nishi 2-chome, Kita-ku, Sapporo, Hokkaido 001-0016, Japan
+  capacity: Approximately 2,000 students total
+  name_en: Fuji Women's University
+  name_ja: 藤女子大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Humanities
+- Faculty of Human Life Sciences
+features:
+- Oldest Catholic Women's University in Hokkaido
+- Renowned Food and Nutrition Department
+- Strong Global Exchange and Language Programs
+- Holistic Liberal Arts Education
+- Sapporo-based with High Employment Rates
+id: univ_fuji-womens-university-guide-sapporo-japan
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% for International Applicants
+  international_students: 18
+tags:
+- Oldest Catholic Women's University in Hokkaido
+- Renowned Food and Nutrition Department
+- Strong Global Exchange and Language Programs
+- Holistic Liberal Arts Education
+- Sapporo-based with High Employment Rates
+thumbnail: /static/img/pin-univ.png
+title: Fuji Women's University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 980000
 ---
 
 ## 🏫 University Overview

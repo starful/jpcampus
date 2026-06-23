@@ -69,6 +69,7 @@ content_body: "## \U0001F3EB School Overview\n\nKobe YMCA College of Professiona
   fostering a vibrant international learning environment. The school's mission is
   to empower students with the Japanese language skills and cultural knowledge needed
   to succeed in their academic or professional pursuits in Japan."
+date: '2026-01-28'
 description: Kobe YMCA College of Professional Studies offers comprehensive Japanese
   language programs with a focus on university preparation, practical communication,
   and cultural understanding in the heart of Kobe.

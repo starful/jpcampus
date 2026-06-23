@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyushu-international-university",
-  "title": "규슈국제대학교",
-  "category": "university",
-  "tags": [
-    "법학 교육의 깊은 전통",
-    "지역 산업체와의 긴밀한 연계",
-    "유학생을 위한 전문적인 일본어 지원",
-    "기타큐슈의 전략적 위치",
-    "높은 공무원 시험 합격률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "九州国際大学",
-    "name_en": "Kyushu International University",
-    "address": "1-6-1 Hirano, Yahatahigashi-ku, Kitakyushu-shi, Fukuoka 805-8512, Japan",
-    "capacity": 2200
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "65-75% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Modern Business"
-  ],
-  "features": [
-    "법학 교육의 깊은 전통",
-    "지역 산업체와의 긴밀한 연계",
-    "유학생을 위한 전문적인 일본어 지원",
-    "기타큐슈의 전략적 위치",
-    "높은 공무원 시험 합격률"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1-6-1 Hirano, Yahatahigashi-ku, Kitakyushu-shi, Fukuoka 805-8512, Japan
+  capacity: 2200
+  name_en: Kyushu International University
+  name_ja: 九州国際大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Law
+- Faculty of Modern Business
+features:
+- 법학 교육의 깊은 전통
+- 지역 산업체와의 긴밀한 연계
+- 유학생을 위한 전문적인 일본어 지원
+- 기타큐슈의 전략적 위치
+- 높은 공무원 시험 합격률
+id: univ_kyushu-international-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% for international applicants
+  international_students: 185
+tags:
+- 법학 교육의 깊은 전통
+- 지역 산업체와의 긴밀한 연계
+- 유학생을 위한 전문적인 일본어 지원
+- 기타큐슈의 전략적 위치
+- 높은 공무원 시험 합격률
+thumbnail: /static/img/pin-univ.png
+title: 규슈국제대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 대학 개요

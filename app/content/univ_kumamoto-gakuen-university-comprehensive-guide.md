@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kumamoto-gakuen-university-comprehensive-guide",
-  "title": "Kumamoto Gakuen University",
-  "category": "university",
-  "tags": [
-    "Strong ties to local business and commerce sectors",
-    "Specialized Japanese language and culture support for international students",
-    "Located in Kumamoto City, offering a high quality of life with low living costs",
-    "Proximity to the expanding semiconductor hub in Kumamoto (TSMC influence)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "熊本学園大学",
-    "name_en": "Kumamoto Gakuen University",
-    "address": "2-5-1 Oe, Chuo-ku, Kumamoto City, Kumamoto 862-8680, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 750000
-  },
-  "faculties": [
-    "Faculty of Economics",
-    "Faculty of Commerce",
-    "Faculty of Foreign Languages",
-    "Faculty of Social Welfare"
-  ],
-  "features": [
-    "Strong ties to local business and commerce sectors",
-    "Specialized Japanese language and culture support for international students",
-    "Located in Kumamoto City, offering a high quality of life with low living costs",
-    "Proximity to the expanding semiconductor hub in Kumamoto (TSMC influence)"
-  ]
-}
+basic_info:
+  address: 2-5-1 Oe, Chuo-ku, Kumamoto City, Kumamoto 862-8680, Japan
+  capacity: null
+  name_en: Kumamoto Gakuen University
+  name_ja: 熊本学園大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Economics
+- Faculty of Commerce
+- Faculty of Foreign Languages
+- Faculty of Social Welfare
+features:
+- Strong ties to local business and commerce sectors
+- Specialized Japanese language and culture support for international students
+- Located in Kumamoto City, offering a high quality of life with low living costs
+- Proximity to the expanding semiconductor hub in Kumamoto (TSMC influence)
+id: univ_kumamoto-gakuen-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 165
+tags:
+- Strong ties to local business and commerce sectors
+- Specialized Japanese language and culture support for international students
+- Located in Kumamoto City, offering a high quality of life with low living costs
+- Proximity to the expanding semiconductor hub in Kumamoto (TSMC influence)
+thumbnail: /static/img/pin-univ.png
+title: Kumamoto Gakuen University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 750000
 ---
 
 ## 🏫 University Overview

@@ -1,48 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-niigata-prefecture",
-  "title": "니가타현립대학교",
-  "category": "university",
-  "tags": [
-    "Small-group intensive language education",
-    "Strong focus on Northeast Asian relations",
-    "High employment rate in both local and global sectors",
-    "Integration of regional revitalization and international perspectives"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "新潟県立大学",
-    "name_en": "University of Niigata Prefecture",
-    "address": "4-3-1 Ebigase, Higashi-ku, Niigata-shi, Niigata 950-8680, Japan",
-    "capacity": "총 학부생 약 1,150명"
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "25-35% (학부 및 입학 전형에 따라 다름)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Studies and Regional Development",
-    "Faculty of Human Life Studies",
-    "Faculty of International Economic Studies"
-  ],
-  "features": [
-    "소규모 집중 어학 교육",
-    "동북아 관계에 대한 강력한 집중",
-    "지역 및 글로벌 부문 모두에서 높은 취업률",
-    "지역 활성화와 국제적 관점의 통합"
-  ],
-  "description": "니가타현립대학교는 국제 관계, 경제 시스템, 인간 복지에 특화된 명문 공립 대학입니다. 특히 동북아시아 지역에 중점을 두고 있습니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 4-3-1 Ebigase, Higashi-ku, Niigata-shi, Niigata 950-8680, Japan
+  capacity: 총 학부생 약 1,150명
+  name_en: University of Niigata Prefecture
+  name_ja: 新潟県立大学
+category: university
+date: '2026-03-03'
+description: 니가타현립대학교는 국제 관계, 경제 시스템, 인간 복지에 특화된 명문 공립 대학입니다. 특히 동북아시아 지역에 중점을 두고
+  있습니다.
+faculties:
+- Faculty of International Studies and Regional Development
+- Faculty of Human Life Studies
+- Faculty of International Economic Studies
+features:
+- 소규모 집중 어학 교육
+- 동북아 관계에 대한 강력한 집중
+- 지역 및 글로벌 부문 모두에서 높은 취업률
+- 지역 활성화와 국제적 관점의 통합
+id: univ_university-of-niigata-prefecture
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35% (학부 및 입학 전형에 따라 다름)
+  international_students: 65
+tags:
+- Small-group intensive language education
+- Strong focus on Northeast Asian relations
+- High employment rate in both local and global sectors
+- Integration of regional revitalization and international perspectives
+thumbnail: /static/img/pin-univ.png
+title: 니가타현립대학교
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 학교 개요

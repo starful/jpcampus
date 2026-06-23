@@ -1,55 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都渋谷区代々木3-22-1",
-    "capacity": 280,
-    "name_en": "Bunka Foreign Language College",
-    "name_ja": "文化外国語専門学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "Japanese Language Advancement Course (April Term)",
-      "total_fees": 1113300
-    },
-    {
-      "admission_month": "10",
-      "course_name": "Japanese Language Advancement Course (October Term)",
-      "total_fees": 1597000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "체계적인 진학 중심 교육",
-    "EJU 시험 전문 대비",
-    "교내 또는 제휴 기숙사 지원",
-    "도쿄 시부야의 최적의 위치"
-  ],
-  "id": "school_bunka-foreign-language-college",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6855325,
-    "lng": 139.6936686
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=179",
-  "stats": {
-    "capacity": 280,
-    "international_students": 280
-  },
-  "tags": [
-    "Dedicated Academic Advancement Focus",
-    "Expert EJU Examination Preparation",
-    "On-Campus or Affiliated Dormitory Support",
-    "Prime Location in Shibuya, Tokyo"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "분카 외국어 전문학교",
-  "translated": true,
-  "tuition": {},
-  "description": "도쿄 시부야에 위치한 분카 외국어 전문학교는 일본 대학 및 전문학교 진학을 위한 체계적인 일본어 교육을 제공합니다. EJU 시험 대비, 기숙사 지원 등 유학생에게 필요한 맞춤형 지원을 제공합니다."
-}
+basic_info:
+  address: 東京都渋谷区代々木3-22-1
+  capacity: 280
+  name_en: Bunka Foreign Language College
+  name_ja: 文化外国語専門学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: Japanese Language Advancement Course (April Term)
+  total_fees: 1113300
+- admission_month: '10'
+  course_name: Japanese Language Advancement Course (October Term)
+  total_fees: 1597000
+date: '2026-01-28'
+description: 도쿄 시부야에 위치한 분카 외국어 전문학교는 일본 대학 및 전문학교 진학을 위한 체계적인 일본어 교육을 제공합니다. EJU
+  시험 대비, 기숙사 지원 등 유학생에게 필요한 맞춤형 지원을 제공합니다.
+faculties: []
+features:
+- 체계적인 진학 중심 교육
+- EJU 시험 전문 대비
+- 교내 또는 제휴 기숙사 지원
+- 도쿄 시부야의 최적의 위치
+id: school_bunka-foreign-language-college
+lang: kr
+layout: school
+location:
+  lat: 35.6855325
+  lng: 139.6936686
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=179
+stats:
+  capacity: 280
+  international_students: 280
+tags:
+- Dedicated Academic Advancement Focus
+- Expert EJU Examination Preparation
+- On-Campus or Affiliated Dormitory Support
+- Prime Location in Shibuya, Tokyo
+thumbnail: /static/img/pin-school.png
+title: 분카 외국어 전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

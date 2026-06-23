@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_okayama-prefectural-university-guide",
-  "title": "Okayama Prefectural University",
-  "category": "university",
-  "tags": [
-    "Human-Centric Research Philosophy",
-    "Strong Regional Industry Ties",
-    "Advanced Design and Engineering Integration",
-    "Tranquil Campus in Historic Soja City"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "岡山県立大学",
-    "name_en": "Okayama Prefectural University",
-    "address": "111 Kuboki, Soja-shi, Okayama 719-1197, Japan",
-    "capacity": 1600
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Health and Welfare Science",
-    "Faculty of Computer Science and Systems Engineering",
-    "Faculty of Design"
-  ],
-  "features": [
-    "Human-Centric Research Philosophy",
-    "Strong Regional Industry Ties",
-    "Advanced Design and Engineering Integration",
-    "Tranquil Campus in Historic Soja City"
-  ]
-}
+basic_info:
+  address: 111 Kuboki, Soja-shi, Okayama 719-1197, Japan
+  capacity: 1600
+  name_en: Okayama Prefectural University
+  name_ja: 岡山県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- Faculty of Health and Welfare Science
+- Faculty of Computer Science and Systems Engineering
+- Faculty of Design
+features:
+- Human-Centric Research Philosophy
+- Strong Regional Industry Ties
+- Advanced Design and Engineering Integration
+- Tranquil Campus in Historic Soja City
+id: univ_okayama-prefectural-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 42
+tags:
+- Human-Centric Research Philosophy
+- Strong Regional Industry Ties
+- Advanced Design and Engineering Integration
+- Tranquil Campus in Historic Soja City
+thumbnail: /static/img/pin-univ.png
+title: Okayama Prefectural University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

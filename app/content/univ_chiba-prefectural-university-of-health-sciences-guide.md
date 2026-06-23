@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_chiba-prefectural-university-of-health-sciences-guide",
-  "title": "Chiba Prefectural University of Health Sciences",
-  "category": "university",
-  "tags": [
-    "High National Examination Pass Rates",
-    "Public Prefectural Tuition Rates",
-    "Specialized Inter-professional Education (IPE)",
-    "Strong Ties with Chiba Prefectural Hospitals"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "千葉県立保健医療大学",
-    "name_en": "Chiba Prefectural University of Health Sciences",
-    "address": "2-10-1 Wakaba, Mihama-ku, Chiba-shi, Chiba 261-0014, Japan",
-    "capacity": 840
-  },
-  "stats": {
-    "international_students": 5,
-    "acceptance_rate": "15-22%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Department of Nursing",
-    "Department of Physical Therapy",
-    "Department of Occupational Therapy",
-    "Department of Dental Hygiene",
-    "Department of Health and Nutrition"
-  ],
-  "features": [
-    "High National Examination Pass Rates",
-    "Public Prefectural Tuition Rates",
-    "Specialized Inter-professional Education (IPE)",
-    "Strong Ties with Chiba Prefectural Hospitals"
-  ]
-}
+basic_info:
+  address: 2-10-1 Wakaba, Mihama-ku, Chiba-shi, Chiba 261-0014, Japan
+  capacity: 840
+  name_en: Chiba Prefectural University of Health Sciences
+  name_ja: 千葉県立保健医療大学
+category: university
+date: '2026-03-03'
+faculties:
+- Department of Nursing
+- Department of Physical Therapy
+- Department of Occupational Therapy
+- Department of Dental Hygiene
+- Department of Health and Nutrition
+features:
+- High National Examination Pass Rates
+- Public Prefectural Tuition Rates
+- Specialized Inter-professional Education (IPE)
+- Strong Ties with Chiba Prefectural Hospitals
+id: univ_chiba-prefectural-university-of-health-sciences-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-22%
+  international_students: 5
+tags:
+- High National Examination Pass Rates
+- Public Prefectural Tuition Rates
+- Specialized Inter-professional Education (IPE)
+- Strong Ties with Chiba Prefectural Hospitals
+thumbnail: /static/img/pin-univ.png
+title: Chiba Prefectural University of Health Sciences
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

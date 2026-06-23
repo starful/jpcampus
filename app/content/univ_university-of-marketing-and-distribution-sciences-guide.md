@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-marketing-and-distribution-sciences-guide",
-  "title": "University of Marketing and Distribution Sciences",
-  "category": "university",
-  "tags": [
-    "Founded by Isao Nakauchi (Daiei Group)",
-    "Specialized focus on Marketing and Retail Logistics",
-    "High employment rate for international students in Japan",
-    "Modern campus in Kobe's Gakuen-toshi educational hub"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "流通科学大学",
-    "name_en": "University of Marketing and Distribution Sciences",
-    "address": "3-1, Gakuen-nishimachi, Nishi-ku, Kobe-shi, Hyogo, 651-2188, Japan",
-    "capacity": "Approx. 4,500 total students"
-  },
-  "stats": {
-    "international_students": 782,
-    "acceptance_rate": "55-65% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 850000
-  },
-  "faculties": [
-    "Faculty of Marketing and Distribution",
-    "Faculty of Commerce",
-    "Faculty of Economics",
-    "Faculty of Human and Social Sciences"
-  ],
-  "features": [
-    "Founded by Isao Nakauchi (Daiei Group)",
-    "Specialized focus on Marketing and Retail Logistics",
-    "High employment rate for international students in Japan",
-    "Modern campus in Kobe's Gakuen-toshi educational hub"
-  ]
-}
+basic_info:
+  address: 3-1, Gakuen-nishimachi, Nishi-ku, Kobe-shi, Hyogo, 651-2188, Japan
+  capacity: Approx. 4,500 total students
+  name_en: University of Marketing and Distribution Sciences
+  name_ja: 流通科学大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Marketing and Distribution
+- Faculty of Commerce
+- Faculty of Economics
+- Faculty of Human and Social Sciences
+features:
+- Founded by Isao Nakauchi (Daiei Group)
+- Specialized focus on Marketing and Retail Logistics
+- High employment rate for international students in Japan
+- Modern campus in Kobe's Gakuen-toshi educational hub
+id: univ_university-of-marketing-and-distribution-sciences-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65% (Estimated for International Applicants)
+  international_students: 782
+tags:
+- Founded by Isao Nakauchi (Daiei Group)
+- Specialized focus on Marketing and Retail Logistics
+- High employment rate for international students in Japan
+- Modern campus in Kobe's Gakuen-toshi educational hub
+thumbnail: /static/img/pin-univ.png
+title: University of Marketing and Distribution Sciences
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 850000
 ---
 
 ## 🏫 University Overview: The 'Ryuka' Legacy

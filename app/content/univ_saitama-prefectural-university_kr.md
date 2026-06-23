@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_saitama-prefectural-university",
-  "title": "사이타마현립대학",
-  "category": "university",
-  "tags": [
-    "Specialized Interprofessional Education (IPE) Curriculum",
-    "Stunning Modern Architecture by Riken Yamamoto",
-    "Exceptionally High National License Exam Pass Rates",
-    "Focus on Regional Health and Social Welfare Integration"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "埼玉県立大学",
-    "name_en": "Saitama Prefectural University",
-    "address": "820 Sannomiya, Koshigaya-shi, Saitama 343-8540, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "22%"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Nursing",
-    "School of Physical Therapy",
-    "School of Occupational Therapy",
-    "School of Social Work",
-    "School of Child Studies",
-    "School of Health Sciences"
-  ],
-  "features": [
-    "특화된 전문직 간 교육 (IPE) 커리큘럼",
-    "리켄 야마모토의 아름다운 현대 건축",
-    "매우 높은 국가 면허 시험 합격률",
-    "지역 보건 및 사회 복지 통합에 중점"
-  ],
-  "description": "사이타마현립대학은 사이타마현 고시가야시에 위치한 명문 공립 대학입니다. 보건, 간호, 사회복지 교육 분야에서 선도적인 역할을 하고 있습니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 820 Sannomiya, Koshigaya-shi, Saitama 343-8540, Japan
+  capacity: null
+  name_en: Saitama Prefectural University
+  name_ja: 埼玉県立大学
+category: university
+date: '2026-03-03'
+description: 사이타마현립대학은 사이타마현 고시가야시에 위치한 명문 공립 대학입니다. 보건, 간호, 사회복지 교육 분야에서 선도적인 역할을
+  하고 있습니다.
+faculties:
+- School of Nursing
+- School of Physical Therapy
+- School of Occupational Therapy
+- School of Social Work
+- School of Child Studies
+- School of Health Sciences
+features:
+- 특화된 전문직 간 교육 (IPE) 커리큘럼
+- 리켄 야마모토의 아름다운 현대 건축
+- 매우 높은 국가 면허 시험 합격률
+- 지역 보건 및 사회 복지 통합에 중점
+id: univ_saitama-prefectural-university
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22%
+  international_students: 15
+tags:
+- Specialized Interprofessional Education (IPE) Curriculum
+- Stunning Modern Architecture by Riken Yamamoto
+- Exceptionally High National License Exam Pass Rates
+- Focus on Regional Health and Social Welfare Integration
+thumbnail: /static/img/pin-univ.png
+title: 사이타마현립대학
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요

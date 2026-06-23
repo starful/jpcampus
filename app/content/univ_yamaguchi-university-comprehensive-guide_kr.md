@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_yamaguchi-university-comprehensive-guide",
-  "title": "야마구치 대학교 (Yamaguchi University)",
-  "category": "university",
-  "tags": [
-    "1815년 (Yamaguchi Kodo) 부터 시작된 역사적인 뿌리",
-    "글로벌 과학 연구 학부를 통한 강력한 학제 간 프로그램",
-    "일본 최고 수준의 수의학 공동 학부",
-    "우베 산업 중심지와 야마구치 문화 중심지 사이의 전략적 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "山口大学",
-    "name_en": "Yamaguchi University",
-    "address": "1677-1 Yoshida, Yamaguchi City, Yamaguchi Prefecture 753-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 560,
-    "acceptance_rate": "25-35%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "인문학부",
-    "교육학부",
-    "경제학부",
-    "이학부",
-    "의학부",
-    "공학부",
-    "농학부",
-    "수의학 공동 학부",
-    "글로벌 과학 연구 학부"
-  ],
-  "features": [
-    "1815년 (Yamaguchi Kodo) 부터 시작된 역사적인 뿌리",
-    "글로벌 과학 연구 학부를 통한 강력한 학제 간 프로그램",
-    "일본 최고 수준의 수의학 공동 학부",
-    "우베 산업 중심지와 야마구치 문화 중심지 사이의 전략적 위치"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 1677-1 Yoshida, Yamaguchi City, Yamaguchi Prefecture 753-8511, Japan
+  capacity: null
+  name_en: Yamaguchi University
+  name_ja: 山口大学
+category: university
+date: '2026-02-13'
+faculties:
+- 인문학부
+- 교육학부
+- 경제학부
+- 이학부
+- 의학부
+- 공학부
+- 농학부
+- 수의학 공동 학부
+- 글로벌 과학 연구 학부
+features:
+- 1815년 (Yamaguchi Kodo) 부터 시작된 역사적인 뿌리
+- 글로벌 과학 연구 학부를 통한 강력한 학제 간 프로그램
+- 일본 최고 수준의 수의학 공동 학부
+- 우베 산업 중심지와 야마구치 문화 중심지 사이의 전략적 위치
+id: univ_yamaguchi-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 25-35%
+  international_students: 560
+tags:
+- 1815년 (Yamaguchi Kodo) 부터 시작된 역사적인 뿌리
+- 글로벌 과학 연구 학부를 통한 강력한 학제 간 프로그램
+- 일본 최고 수준의 수의학 공동 학부
+- 우베 산업 중심지와 야마구치 문화 중심지 사이의 전략적 위치
+thumbnail: /static/img/pin-univ.png
+title: 야마구치 대학교 (Yamaguchi University)
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 야마구치 대학교 개요: 발견과 혁신의 정신

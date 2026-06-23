@@ -12,6 +12,9 @@ courses:
 - admission_month: '10'
   course_name: 進学コース（1.5年）
   total_fees: 1055000
+date: '2026-06-12'
+description: Complete guide to Yamate Japanese Language School in Saitama. Explore
+  tuition fees, course details, admission requirements, and student reviews.
 faculties: []
 features:
 - University Preparation
@@ -30,6 +33,9 @@ layout: school
 location:
   lat: 35.9059146
   lng: 139.480069
+seo_description: Learn about Yamate Japanese Language School in Saitama. Find tuition
+  fees, visa requirements, courses, and student reviews on JP Campus.
+seo_title: Yamate Japanese Language School (Saitama) | Tuition & Admission
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=54
 stats:
   capacity: 340
@@ -49,13 +55,7 @@ thumbnail: /static/img/pin-school.png
 title: Yamate Japanese Language School (Saitama)
 translated: true
 tuition: {}
-description: Complete guide to Yamate Japanese Language School in Saitama. Explore
-  tuition fees, course details, admission requirements, and student reviews.
-seo_title: Yamate Japanese Language School (Saitama) | Tuition & Admission
-seo_description: Learn about Yamate Japanese Language School in Saitama. Find tuition
-  fees, visa requirements, courses, and student reviews on JP Campus.
 ---
-
 
 ## School Overview
 

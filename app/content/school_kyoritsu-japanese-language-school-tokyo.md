@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 2年コース
   total_fees: 1640000
+date: '2026-01-28'
 faculties: []
 features:
 - Intensive University Preparatory Focus (Shin-gaku)

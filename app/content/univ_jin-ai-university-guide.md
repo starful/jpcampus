@@ -1,49 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_jin-ai-university-guide",
-  "title": "Jin-ai University",
-  "category": "university",
-  "tags": [
-    "Buddhist Educational Philosophy",
-    "High Employment Rate in Fukui Prefecture",
-    "Specialized Clinical Psychology Training",
-    "Strong Community Integration"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "仁愛大学",
-    "name_en": "Jin-ai University",
-    "address": "3-1-1 Ohama-cho, Echizen-shi, Fukui, 915-8586, Japan",
-    "capacity": 1500
-  },
-  "stats": {
-    "international_students": 15,
-    "acceptance_rate": "72%"
-  },
-  "tuition": {
-    "admission_fee": 280000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "Faculty of Human Studies",
-    "Faculty of Nursing",
-    "Department of Psychology",
-    "Department of Communication",
-    "Department of Health and Nutrition",
-    "Department of Child Studies"
-  ],
-  "features": [
-    "Buddhist Educational Philosophy",
-    "High Employment Rate in Fukui Prefecture",
-    "Specialized Clinical Psychology Training",
-    "Strong Community Integration"
-  ]
-}
+basic_info:
+  address: 3-1-1 Ohama-cho, Echizen-shi, Fukui, 915-8586, Japan
+  capacity: 1500
+  name_en: Jin-ai University
+  name_ja: 仁愛大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Human Studies
+- Faculty of Nursing
+- Department of Psychology
+- Department of Communication
+- Department of Health and Nutrition
+- Department of Child Studies
+features:
+- Buddhist Educational Philosophy
+- High Employment Rate in Fukui Prefecture
+- Specialized Clinical Psychology Training
+- Strong Community Integration
+id: univ_jin-ai-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 72%
+  international_students: 15
+tags:
+- Buddhist Educational Philosophy
+- High Employment Rate in Fukui Prefecture
+- Specialized Clinical Psychology Training
+- Strong Community Integration
+thumbnail: /static/img/pin-univ.png
+title: Jin-ai University
+tuition:
+  admission_fee: 280000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 University Overview

@@ -1,57 +1,46 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府堺市堺区海山町1-1-2",
-    "capacity": 99,
-    "name_en": "Osaka Frontier Japanese Language School",
-    "name_ja": "大阪フロンティア日本語学校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1310000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6か月コース",
-      "total_fees": 1000000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "EJU 및 대학 입시 집중 대비",
-    "종합적인 교내 또는 제휴 숙소 이용 가능 (기숙사)",
-    "체계적인 진학 (Shin-gaku) 집중 지도",
-    "실용적인 회화 능력 및 의사소통 강조",
-    "유연한 단기 학습 옵션 제공"
-  ],
-  "id": "school_osaka-frontier-japanese-language-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.5871599,
-    "lng": 135.4773018
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=515",
-  "stats": {
-    "capacity": 99,
-    "international_students": 90
-  },
-  "tags": [
-    "Dedicated EJU and University Entrance Examination Preparation",
-    "Comprehensive On-Campus or Partnered Housing Available (Dormitory)",
-    "Focused Advanced Pathway Guidance (Shin-gaku)",
-    "Emphasis on Practical Conversational Skills and Communication",
-    "Flexible Short-Term Study Options Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "오사카 프론티어 일본어학교",
-  "description": "오사카 남부 사카이시에 위치한 오사카 프론티어 일본어학교는 일본 유학을 꿈꾸는 학생들을 위한 맞춤형 교육을 제공합니다.",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府堺市堺区海山町1-1-2
+  capacity: 99
+  name_en: Osaka Frontier Japanese Language School
+  name_ja: 大阪フロンティア日本語学校
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1310000
+- admission_month: '10'
+  course_name: 進学1年6か月コース
+  total_fees: 1000000
+date: '2026-01-28'
+description: 오사카 남부 사카이시에 위치한 오사카 프론티어 일본어학교는 일본 유학을 꿈꾸는 학생들을 위한 맞춤형 교육을 제공합니다.
+faculties: []
+features:
+- EJU 및 대학 입시 집중 대비
+- 종합적인 교내 또는 제휴 숙소 이용 가능 (기숙사)
+- 체계적인 진학 (Shin-gaku) 집중 지도
+- 실용적인 회화 능력 및 의사소통 강조
+- 유연한 단기 학습 옵션 제공
+id: school_osaka-frontier-japanese-language-school
+lang: kr
+layout: school
+location:
+  lat: 34.5871599
+  lng: 135.4773018
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=515
+stats:
+  capacity: 99
+  international_students: 90
+tags:
+- Dedicated EJU and University Entrance Examination Preparation
+- Comprehensive On-Campus or Partnered Housing Available (Dormitory)
+- Focused Advanced Pathway Guidance (Shin-gaku)
+- Emphasis on Practical Conversational Skills and Communication
+- Flexible Short-Term Study Options Available
+thumbnail: /static/img/pin-school.png
+title: 오사카 프론티어 일본어학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 이념

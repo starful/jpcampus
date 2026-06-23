@@ -1,62 +1,54 @@
 ---
-{
-  "basic_info": {
-    "address": "福岡県久留米市天神町2-55",
-    "capacity": 280,
-    "name_en": "Kurume Seminar Vocational School",
-    "name_ja": "専修学校久留米ゼミナール"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "日本語総合1年コース",
-      "total_fees": 830000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "日本語総合2年コース",
-      "total_fees": 1530000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "日本語総合1.5年コース",
-      "total_fees": 1180000
-    }
-  ],
-  "description": "구루메 세미나 전문학교는 일본의 대학, 대학원 진학 및 취업을 위한 집중적인 일본어 교육을 제공합니다.",
-  "faculties": [],
-  "features": [
-    "전문 학교(専修学校) 인증으로 높은 학업 수준과 인정된 비자 지원을 보장합니다.",
-    "EJU(일본유학시험) 및 N1/N2 JLPT 레벨에 대한 집중적인 준비를 제공하며, 주로 고급 레벨에 초점을 맞춥니다.",
-    "캠퍼스 내 기숙사 이용이 가능하여 도착 즉시 편리하고 저렴하며 안전한 생활 환경을 제공합니다.",
-    "후쿠오카현 구루메시에 위치하여 주요 대도시 지역에 비해 생활비가 현저히 저렴합니다.",
-    "대학/대학원 진학 및 특화된 비즈니스 일본어 능력 향상을 위한 이중 트랙 커리큘럼을 제공합니다."
-  ],
-  "id": "school_kurume-seminar-vocational-school-fukuoka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 33.3107028,
-    "lng": 130.5225888
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=613",
-  "stats": {
-    "capacity": 280,
-    "international_students": 250
-  },
-  "tags": [
-    "Accredited Vocational School Status (Senmon Gakko) ensures high academic standards and recognized visa support.",
-    "Intensive preparation for EJU (Examination for Japanese University Admission) and N1/N2 JLPT levels, focused primarily on advanced placement.",
-    "On-campus dormitory availability provides convenient, affordable, and secure living arrangements immediately upon arrival.",
-    "Located in Kurume City, Fukuoka Prefecture, offering a significantly lower cost of living compared to major metropolitan areas.",
-    "Dual pathways curriculum covering both University/Graduate School advancement and specialized Business Japanese proficiency."
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "구루메 세미나 전문학교",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 福岡県久留米市天神町2-55
+  capacity: 280
+  name_en: Kurume Seminar Vocational School
+  name_ja: 専修学校久留米ゼミナール
+category: school
+courses:
+- admission_month: '4'
+  course_name: 日本語総合1年コース
+  total_fees: 830000
+- admission_month: '4'
+  course_name: 日本語総合2年コース
+  total_fees: 1530000
+- admission_month: '10'
+  course_name: 日本語総合1.5年コース
+  total_fees: 1180000
+date: '2026-01-28'
+description: 구루메 세미나 전문학교는 일본의 대학, 대학원 진학 및 취업을 위한 집중적인 일본어 교육을 제공합니다.
+faculties: []
+features:
+- 전문 학교(専修学校) 인증으로 높은 학업 수준과 인정된 비자 지원을 보장합니다.
+- EJU(일본유학시험) 및 N1/N2 JLPT 레벨에 대한 집중적인 준비를 제공하며, 주로 고급 레벨에 초점을 맞춥니다.
+- 캠퍼스 내 기숙사 이용이 가능하여 도착 즉시 편리하고 저렴하며 안전한 생활 환경을 제공합니다.
+- 후쿠오카현 구루메시에 위치하여 주요 대도시 지역에 비해 생활비가 현저히 저렴합니다.
+- 대학/대학원 진학 및 특화된 비즈니스 일본어 능력 향상을 위한 이중 트랙 커리큘럼을 제공합니다.
+id: school_kurume-seminar-vocational-school-fukuoka
+lang: kr
+layout: school
+location:
+  lat: 33.3107028
+  lng: 130.5225888
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=613
+stats:
+  capacity: 280
+  international_students: 250
+tags:
+- Accredited Vocational School Status (Senmon Gakko) ensures high academic standards
+  and recognized visa support.
+- Intensive preparation for EJU (Examination for Japanese University Admission) and
+  N1/N2 JLPT levels, focused primarily on advanced placement.
+- On-campus dormitory availability provides convenient, affordable, and secure living
+  arrangements immediately upon arrival.
+- Located in Kurume City, Fukuoka Prefecture, offering a significantly lower cost
+  of living compared to major metropolitan areas.
+- Dual pathways curriculum covering both University/Graduate School advancement and
+  specialized Business Japanese proficiency.
+thumbnail: /static/img/pin-school.png
+title: 구루메 세미나 전문학교
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

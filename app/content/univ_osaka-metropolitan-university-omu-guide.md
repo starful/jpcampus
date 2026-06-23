@@ -5,6 +5,7 @@ basic_info:
   name_en: Osaka Metropolitan University
   name_ja: 大阪公立大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Literature and Human Sciences
 - Faculty of Law

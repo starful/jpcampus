@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nihon-fukushi-university-comprehensive-guide",
-  "title": "Nihon Fukushi University",
-  "category": "university",
-  "tags": [
-    "Japan's first university dedicated to Social Welfare",
-    "Strong focus on 'Glocal' (Global + Local) community development",
-    "Top-tier job placement in social services and medical administration",
-    "Multiple campuses across Aichi Prefecture with specialized facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "日本福祉大学",
-    "name_en": "Nihon Fukushi University",
-    "address": "35-6 Eguchi, Mihama-cho, Chita-gun, Aichi 470-3233, Japan",
-    "capacity": "Approximately 12,500 total students"
-  },
-  "stats": {
-    "international_students": 385,
-    "acceptance_rate": "55-65% (Variable by faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Social Welfare",
-    "Health and Social Services",
-    "Health Sciences",
-    "Child Development",
-    "Sport Sciences",
-    "Economics",
-    "International Studies",
-    "Nursing"
-  ],
-  "features": [
-    "Japan's first university dedicated to Social Welfare",
-    "Strong focus on 'Glocal' (Global + Local) community development",
-    "Top-tier job placement in social services and medical administration",
-    "Multiple campuses across Aichi Prefecture with specialized facilities"
-  ]
-}
+basic_info:
+  address: 35-6 Eguchi, Mihama-cho, Chita-gun, Aichi 470-3233, Japan
+  capacity: Approximately 12,500 total students
+  name_en: Nihon Fukushi University
+  name_ja: 日本福祉大学
+category: university
+date: '2026-04-04'
+faculties:
+- Social Welfare
+- Health and Social Services
+- Health Sciences
+- Child Development
+- Sport Sciences
+- Economics
+- International Studies
+- Nursing
+features:
+- Japan's first university dedicated to Social Welfare
+- Strong focus on 'Glocal' (Global + Local) community development
+- Top-tier job placement in social services and medical administration
+- Multiple campuses across Aichi Prefecture with specialized facilities
+id: univ_nihon-fukushi-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65% (Variable by faculty)
+  international_students: 385
+tags:
+- Japan's first university dedicated to Social Welfare
+- Strong focus on 'Glocal' (Global + Local) community development
+- Top-tier job placement in social services and medical administration
+- Multiple campuses across Aichi Prefecture with specialized facilities
+thumbnail: /static/img/pin-univ.png
+title: Nihon Fukushi University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Pioneer of Social Welfare in Japan

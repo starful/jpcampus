@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_setsunan-university-comprehensive-guide",
-  "title": "세츠난 대학교",
-  "category": "university",
-  "tags": [
-    "8개의 다양한 학부를 보유한 종합 사립 대학교",
-    "죠쇼 학원 네트워크를 통한 실무 중심의 산학 연계 교육",
-    "간사이 지역 최첨단 시설을 갖춘 농학부 운영",
-    "높은 취업률을 자랑하는 강력한 커리어 지원 시스템"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "摂南大学",
-    "name_en": "Setsunan University",
-    "address": "17-8 Ikeda Nakamachi, Neyagawa, Osaka 572-8508, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "45-55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "법학부",
-    "경제학부",
-    "경영학부",
-    "외국어학부",
-    "이공학부",
-    "약학부",
-    "간호학부",
-    "농학부"
-  ],
-  "features": [
-    "8개의 다양한 학부를 보유한 종합 사립 대학교",
-    "죠쇼 학원 네트워크를 통한 실무 중심의 산학 연계 교육",
-    "간사이 지역 최첨단 시설을 갖춘 농학부 운영",
-    "높은 취업률을 자랑하는 강력한 커리어 지원 시스템"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 17-8 Ikeda Nakamachi, Neyagawa, Osaka 572-8508, Japan
+  capacity: null
+  name_en: Setsunan University
+  name_ja: 摂南大学
+category: university
+date: '2026-03-15'
+faculties:
+- 법학부
+- 경제학부
+- 경영학부
+- 외국어학부
+- 이공학부
+- 약학부
+- 간호학부
+- 농학부
+features:
+- 8개의 다양한 학부를 보유한 종합 사립 대학교
+- 죠쇼 학원 네트워크를 통한 실무 중심의 산학 연계 교육
+- 간사이 지역 최첨단 시설을 갖춘 농학부 운영
+- 높은 취업률을 자랑하는 강력한 커리어 지원 시스템
+id: univ_setsunan-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55%
+  international_students: 185
+tags:
+- 8개의 다양한 학부를 보유한 종합 사립 대학교
+- 죠쇼 학원 네트워크를 통한 실무 중심의 산학 연계 교육
+- 간사이 지역 최첨단 시설을 갖춘 농학부 운영
+- 높은 취업률을 자랑하는 강력한 커리어 지원 시스템
+thumbnail: /static/img/pin-univ.png
+title: 세츠난 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: 세츠난의 정신

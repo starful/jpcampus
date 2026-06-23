@@ -1,58 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "静岡県袋井市諸井2331-1",
-    "capacity": 180,
-    "name_en": "Shizuoka International Language Academy",
-    "name_ja": "静岡国際言語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1246000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "一般2年コース",
-      "total_fees": 1246000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합적인 대학 및 전문학교 진학 경로 제공",
-    "특화된 EJU 준비 과정 (이과/문과)",
-    "기숙사 입주 보장",
-    "미술, 디자인 및 비즈니스 일본어 집중 교육",
-    "다양한 교내외 장학금 기회",
-    "시즈오카현에 위치하여 집중적인 학습 환경 제공"
-  ],
-  "id": "school_shizuoka-international-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.7310147,
-    "lng": 137.918748
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=283",
-  "stats": {
-    "capacity": 180,
-    "international_students": 160
-  },
-  "tags": [
-    "Comprehensive University & Vocational Advancement Pathways",
-    "Specialized EJU Preparation Tracks (Science/Liberal Arts)",
-    "Guaranteed Student Dormitory Accommodation",
-    "Dedicated Focus on Art, Design, and Business Japanese",
-    "Extensive Internal and External Scholarship Opportunities",
-    "Located in Shizuoka Prefecture, offering a focused study environment"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "시즈오카 국제언어학원 (SILA)",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 静岡県袋井市諸井2331-1
+  capacity: 180
+  name_en: Shizuoka International Language Academy
+  name_ja: 静岡国際言語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1246000
+- admission_month: '10'
+  course_name: 一般2年コース
+  total_fees: 1246000
+date: '2026-01-28'
+faculties: []
+features:
+- 종합적인 대학 및 전문학교 진학 경로 제공
+- 특화된 EJU 준비 과정 (이과/문과)
+- 기숙사 입주 보장
+- 미술, 디자인 및 비즈니스 일본어 집중 교육
+- 다양한 교내외 장학금 기회
+- 시즈오카현에 위치하여 집중적인 학습 환경 제공
+id: school_shizuoka-international-language-academy
+lang: kr
+layout: school
+location:
+  lat: 34.7310147
+  lng: 137.918748
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=283
+stats:
+  capacity: 180
+  international_students: 160
+tags:
+- Comprehensive University & Vocational Advancement Pathways
+- Specialized EJU Preparation Tracks (Science/Liberal Arts)
+- Guaranteed Student Dormitory Accommodation
+- Dedicated Focus on Art, Design, and Business Japanese
+- Extensive Internal and External Scholarship Opportunities
+- Located in Shizuoka Prefecture, offering a focused study environment
+thumbnail: /static/img/pin-school.png
+title: 시즈오카 국제언어학원 (SILA)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

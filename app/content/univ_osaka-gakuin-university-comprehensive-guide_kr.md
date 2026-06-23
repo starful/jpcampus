@@ -1,54 +1,47 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-gakuin-university-comprehensive-guide",
-  "title": "오사카 가쿠인 대학교(Osaka Gakuin University) 종합 가이드",
-  "description": "오사카 스이타시에 위치한 실무 중심의 명문 사립대학교, 오사카 가쿠인 대학교의 학부 정보, 국제 교류 프로그램, 취업 지원 및 장학금 제도를 소개합니다.",
-  "category": "university",
-  "lang": "kr",
-  "tags": [
-    "실무 중심 비즈니스 교육",
-    "강력한 글로벌 교류 파트너십",
-    "문화 교류를 위한 I-Chat 라운지",
-    "오사카 스이타시의 전략적 위치",
-    "포괄적인 취업 지원 시스템"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪学院大学",
-    "name_en": "Osaka Gakuin University",
-    "address": "2-36-1 Kishibe-Minami, Suita, Osaka 564-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 280,
-    "acceptance_rate": "65-75% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1080000
-  },
-  "faculties": [
-    "상학부",
-    "경영학부",
-    "경제학부",
-    "법학부",
-    "외국어학부",
-    "국제학부",
-    "정보학부"
-  ],
-  "features": [
-    "실무 중심의 비즈니스 교육",
-    "강력한 글로벌 교류 파트너십",
-    "문화 교류를 위한 'I-Chat 라운지'",
-    "오사카 스이타시의 전략적 위치",
-    "포괄적인 취업 지원 시스템"
-  ]
-}
+basic_info:
+  address: 2-36-1 Kishibe-Minami, Suita, Osaka 564-8511, Japan
+  capacity: null
+  name_en: Osaka Gakuin University
+  name_ja: 大阪学院大学
+category: university
+date: '2026-04-19'
+description: 오사카 스이타시에 위치한 실무 중심의 명문 사립대학교, 오사카 가쿠인 대학교의 학부 정보, 국제 교류 프로그램, 취업 지원
+  및 장학금 제도를 소개합니다.
+faculties:
+- 상학부
+- 경영학부
+- 경제학부
+- 법학부
+- 외국어학부
+- 국제학부
+- 정보학부
+features:
+- 실무 중심의 비즈니스 교육
+- 강력한 글로벌 교류 파트너십
+- 문화 교류를 위한 'I-Chat 라운지'
+- 오사카 스이타시의 전략적 위치
+- 포괄적인 취업 지원 시스템
+id: univ_osaka-gakuin-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (Estimated)
+  international_students: 280
+tags:
+- 실무 중심 비즈니스 교육
+- 강력한 글로벌 교류 파트너십
+- 문화 교류를 위한 I-Chat 라운지
+- 오사카 스이타시의 전략적 위치
+- 포괄적인 취업 지원 시스템
+thumbnail: /static/img/pin-univ.png
+title: 오사카 가쿠인 대학교(Osaka Gakuin University) 종합 가이드
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1080000
 ---
 
 ## 🏫 대학 개요

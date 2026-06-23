@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sugiyama-jogakuen-university-guide",
-  "title": "스기야마 여학원 대학 (Sugiyama Jogakuen University)",
-  "description": "나고야의 전통 있는 명문 여대로, '인간 교육'이라는 철학 아래 실무 중심의 학문과 강력한 지역 네트워크를 자랑하는 스기야마 여학원 대학을 소개합니다.",
-  "category": "university",
-  "tags": [
-    "중부 지방을 대표하는 명문 여자대학교",
-    "나고야 비즈니스 업계와의 강력한 네트워크",
-    "전인적 '인간 교육' 철학",
-    "호시가오카의 편리한 도심형 캠퍼스"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "椙山女학園大学",
-    "name_en": "Sugiyama Jogakuen University",
-    "address": "17-3 Hoshigaoka Motomachi, Chikusa-ku, Nagoya, Aichi 464-8662, Japan",
-    "capacity": 5600
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "40-55% (학부별 상이)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "생활과학부",
-    "국제커뮤니케이션학부",
-    "인간관계학부",
-    "문화정보학부",
-    "현대매니지먼트학부",
-    "교육학부",
-    "간호학부"
-  ],
-  "features": [
-    "중부 지방을 대표하는 명문 여자대학교",
-    "나고야 비즈니스 업계와의 강력한 네트워크",
-    "전인적 '인간 교육' 철학",
-    "호시가오카의 편리한 도심형 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 17-3 Hoshigaoka Motomachi, Chikusa-ku, Nagoya, Aichi 464-8662, Japan
+  capacity: 5600
+  name_en: Sugiyama Jogakuen University
+  name_ja: 椙山女학園大学
+category: university
+date: '2026-03-15'
+description: 나고야의 전통 있는 명문 여대로, '인간 교육'이라는 철학 아래 실무 중심의 학문과 강력한 지역 네트워크를 자랑하는 스기야마
+  여학원 대학을 소개합니다.
+faculties:
+- 생활과학부
+- 국제커뮤니케이션학부
+- 인간관계학부
+- 문화정보학부
+- 현대매니지먼트학부
+- 교육학부
+- 간호학부
+features:
+- 중부 지방을 대표하는 명문 여자대학교
+- 나고야 비즈니스 업계와의 강력한 네트워크
+- 전인적 '인간 교육' 철학
+- 호시가오카의 편리한 도심형 캠퍼스
+id: univ_sugiyama-jogakuen-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 40-55% (학부별 상이)
+  international_students: 45
+tags:
+- 중부 지방을 대표하는 명문 여자대학교
+- 나고야 비즈니스 업계와의 강력한 네트워크
+- 전인적 '인간 교육' 철학
+- 호시가오카의 편리한 도심형 캠퍼스
+thumbnail: /static/img/pin-univ.png
+title: 스기야마 여학원 대학 (Sugiyama Jogakuen University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

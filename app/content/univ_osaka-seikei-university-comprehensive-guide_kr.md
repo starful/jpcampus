@@ -1,50 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_osaka-seikei-university-comprehensive-guide",
-  "title": "오사카 세이케이 대학교",
-  "description": "실무 중심 교육과 강력한 취업 지원을 자랑하는 오사카 세이케이 대학교의 특징, 학부 정보, 입학 가이드를 확인해 보세요.",
-  "category": "university",
-  "tags": [
-    "Practical Experience-Based Learning",
-    "Extensive Career Support",
-    "Strategic Location in Osaka",
-    "Multidisciplinary Research Opportunities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "大阪成蹊大学",
-    "name_en": "Osaka Seikei University",
-    "address": "3-5-30 Aikawa, Higashiyodogawa-ku, Osaka, 533-0007, Japan",
-    "capacity": 5200
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "55-65%"
-  },
-  "tuition": {
-    "admission_fee": 250000,
-    "yearly_tuition": 1050000
-  },
-  "faculties": [
-    "경영학부",
-    "예술학부",
-    "교육학부",
-    "데이터사이언스학부",
-    "간호학부"
-  ],
-  "features": [
-    "실무 중심의 체험 학습",
-    "폭넓은 취업 지원 시스템",
-    "오사카의 전략적 위치",
-    "다학제적 연구 기회"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 3-5-30 Aikawa, Higashiyodogawa-ku, Osaka, 533-0007, Japan
+  capacity: 5200
+  name_en: Osaka Seikei University
+  name_ja: 大阪成蹊大学
+category: university
+date: '2026-04-19'
+description: 실무 중심 교육과 강력한 취업 지원을 자랑하는 오사카 세이케이 대학교의 특징, 학부 정보, 입학 가이드를 확인해 보세요.
+faculties:
+- 경영학부
+- 예술학부
+- 교육학부
+- 데이터사이언스학부
+- 간호학부
+features:
+- 실무 중심의 체험 학습
+- 폭넓은 취업 지원 시스템
+- 오사카의 전략적 위치
+- 다학제적 연구 기회
+id: univ_osaka-seikei-university-comprehensive-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55-65%
+  international_students: 165
+tags:
+- Practical Experience-Based Learning
+- Extensive Career Support
+- Strategic Location in Osaka
+- Multidisciplinary Research Opportunities
+thumbnail: /static/img/pin-univ.png
+title: 오사카 세이케이 대학교
+tuition:
+  admission_fee: 250000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

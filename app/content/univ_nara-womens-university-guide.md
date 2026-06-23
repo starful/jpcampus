@@ -1,56 +1,49 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_nara-womens-university-guide",
-  "title": "Nara Women's University Guide for International Students",
-  "category": "university",
-  "tags": [
-    "National University Status",
-    "Historical Campus Architecture",
-    "First Women's Engineering Faculty in Japan",
-    "EJU and JLPT Required",
-    "High Faculty-to-Student Ratio",
-    "Located in the Heart of Ancient Nara"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "奈良女子大学",
-    "name_en": "Nara Women's University",
-    "address": "Kitauoya-higashimachi, Nara-shi, Nara 630-8506, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 165,
-    "acceptance_rate": "15-25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Science",
-    "Faculty of Human Life and Environment",
-    "Faculty of Engineering"
-  ],
-  "features": [
-    "National University Status",
-    "Historical Campus Architecture",
-    "First Women's Engineering Faculty in Japan",
-    "EJU and JLPT Required",
-    "High Faculty-to-Student Ratio",
-    "Located in the Heart of Ancient Nara"
-  ],
-  "description": "Explore Nara Women's University: admission guidelines, tuition fees, academic programs, and essential tips for international students.",
-  "seo_title": "Nara Women's University Guide: Admission & Tuition | JP Campus",
-  "seo_description": "Plan your study at Nara Women's University. Find tuition fees, admission requirements, and guides for international students in Japan."
-}
+basic_info:
+  address: Kitauoya-higashimachi, Nara-shi, Nara 630-8506, Japan
+  capacity: null
+  name_en: Nara Women's University
+  name_ja: 奈良女子大学
+category: university
+date: '2026-06-19'
+description: 'Explore Nara Women''s University: admission guidelines, tuition fees,
+  academic programs, and essential tips for international students.'
+faculties:
+- Faculty of Letters
+- Faculty of Science
+- Faculty of Human Life and Environment
+- Faculty of Engineering
+features:
+- National University Status
+- Historical Campus Architecture
+- First Women's Engineering Faculty in Japan
+- EJU and JLPT Required
+- High Faculty-to-Student Ratio
+- Located in the Heart of Ancient Nara
+id: univ_nara-womens-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: Plan your study at Nara Women's University. Find tuition fees, admission
+  requirements, and guides for international students in Japan.
+seo_title: 'Nara Women''s University Guide: Admission & Tuition | JP Campus'
+stats:
+  acceptance_rate: 15-25%
+  international_students: 165
+tags:
+- National University Status
+- Historical Campus Architecture
+- First Women's Engineering Faculty in Japan
+- EJU and JLPT Required
+- High Faculty-to-Student Ratio
+- Located in the Heart of Ancient Nara
+thumbnail: /static/img/pin-univ.png
+title: Nara Women's University Guide for International Students
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 University Overview
 

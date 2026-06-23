@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kyushu-international-university",
-  "title": "Kyushu International University",
-  "category": "university",
-  "tags": [
-    "Strong Heritage in Legal Education",
-    "Extensive Local Industry Ties",
-    "Dedicated Japanese Language Support",
-    "Strategic Location in Kitakyushu",
-    "High Civil Service Exam Pass Rates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "九州国際大学",
-    "name_en": "Kyushu International University",
-    "address": "1-6-1 Hirano, Yahatahigashi-ku, Kitakyushu-shi, Fukuoka 805-8512, Japan",
-    "capacity": 2200
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "65-75% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "Faculty of Law",
-    "Faculty of Modern Business"
-  ],
-  "features": [
-    "Strong Heritage in Legal Education",
-    "Extensive Local Industry Ties",
-    "Dedicated Japanese Language Support",
-    "Strategic Location in Kitakyushu",
-    "High Civil Service Exam Pass Rates"
-  ]
-}
+basic_info:
+  address: 1-6-1 Hirano, Yahatahigashi-ku, Kitakyushu-shi, Fukuoka 805-8512, Japan
+  capacity: 2200
+  name_en: Kyushu International University
+  name_ja: 九州国際大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Law
+- Faculty of Modern Business
+features:
+- Strong Heritage in Legal Education
+- Extensive Local Industry Ties
+- Dedicated Japanese Language Support
+- Strategic Location in Kitakyushu
+- High Civil Service Exam Pass Rates
+id: univ_kyushu-international-university
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% for international applicants
+  international_students: 185
+tags:
+- Strong Heritage in Legal Education
+- Extensive Local Industry Ties
+- Dedicated Japanese Language Support
+- Strategic Location in Kitakyushu
+- High Civil Service Exam Pass Rates
+thumbnail: /static/img/pin-univ.png
+title: Kyushu International University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 University Overview

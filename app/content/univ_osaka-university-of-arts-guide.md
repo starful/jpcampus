@@ -5,6 +5,9 @@ basic_info:
   name_ja: 大阪芸術大学
   website: http://www.osaka-geidai.ac.jp/
 category: university
+date: '2026-06-19'
+description: Your ultimate guide to entering Osaka University of Arts in 2026. Learn
+  about portfolio rules, tuition fees, and admission steps for international students.
 faculties:
 - Faculty of Arts
 - Faculty of Design
@@ -23,6 +26,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
+seo_description: Want to study at Osaka University of Arts? Discover 2026 admission
+  requirements, portfolio tips, tuition, and how to apply successfully.
+seo_title: 'Osaka University of Arts: 2026 Admission Guide | jpcampus'
 stats:
   acceptance_rate: Highly competitive for select programs (Approx. 20-30% overall)
   international_students: 350
@@ -38,15 +44,7 @@ translated: true
 tuition:
   admission_fee: 330000
   yearly_tuition: 1780000
-description: Your ultimate guide to entering Osaka University of Arts in 2026. Learn
-  about portfolio rules, tuition fees, and admission steps for international students.
-seo_title: 'Osaka University of Arts: 2026 Admission Guide | jpcampus'
-seo_description: Want to study at Osaka University of Arts? Discover 2026 admission
-  requirements, portfolio tips, tuition, and how to apply successfully.
 ---
-
-
-
 
 ## University Overview & Reputation
 

@@ -1,47 +1,39 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_ashiya-university-comprehensive-international-student-guide",
-  "title": "Ashiya University",
-  "category": "university",
-  "tags": [
-    "Small-group education with a high teacher-to-student ratio",
-    "Located in Rokurokuso, Japan's most prestigious residential area",
-    "Strong focus on clinical psychology and childhood pedagogy",
-    "Specialized career support for international student placement"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "芦屋大学",
-    "name_en": "Ashiya University",
-    "address": "13-22 Rokurokusocho, Ashiya, Hyogo 659-0011, Japan",
-    "capacity": 1200
-  },
-  "stats": {
-    "international_students": 95,
-    "acceptance_rate": "75-80%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1180000
-  },
-  "faculties": [
-    "Faculty of Clinical Education",
-    "Department of Child Education",
-    "Department of Clinical Education",
-    "Graduate School of Education"
-  ],
-  "features": [
-    "Small-group education with a high teacher-to-student ratio",
-    "Located in Rokurokuso, Japan's most prestigious residential area",
-    "Strong focus on clinical psychology and childhood pedagogy",
-    "Specialized career support for international student placement"
-  ]
-}
+basic_info:
+  address: 13-22 Rokurokusocho, Ashiya, Hyogo 659-0011, Japan
+  capacity: 1200
+  name_en: Ashiya University
+  name_ja: 芦屋大学
+category: university
+date: '2026-04-19'
+faculties:
+- Faculty of Clinical Education
+- Department of Child Education
+- Department of Clinical Education
+- Graduate School of Education
+features:
+- Small-group education with a high teacher-to-student ratio
+- Located in Rokurokuso, Japan's most prestigious residential area
+- Strong focus on clinical psychology and childhood pedagogy
+- Specialized career support for international student placement
+id: univ_ashiya-university-comprehensive-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 75-80%
+  international_students: 95
+tags:
+- Small-group education with a high teacher-to-student ratio
+- Located in Rokurokuso, Japan's most prestigious residential area
+- Strong focus on clinical psychology and childhood pedagogy
+- Specialized career support for international student placement
+thumbnail: /static/img/pin-univ.png
+title: Ashiya University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1180000
 ---
 
 ## 🏫 University Overview

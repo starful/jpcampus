@@ -18,6 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1月コース
   total_fees: 924350
+date: '2026-01-28'
 faculties: []
 features:
 - Specialized Curriculum for University and Graduate School Progression

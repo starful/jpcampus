@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_shujitsu-university-international-student-guide",
-  "title": "슈지츠 대학교 (Shujitsu University)",
-  "description": "100년 이상의 역사를 가진 '거화취실'의 정신으로 실무 교육에 집중하며, 일본 오카야마에서 높은 취업률과 국가 고시 합격률을 자랑하는 명문 사립 대학입니다.",
-  "lang": "kr",
-  "category": "university",
-  "tags": [
-    "100년 이상의 역사, '거화취실'의 정신",
-    "'햇살의 나라' 오카야마의 전략적 위치",
-    "지역 활성화 및 실무 비즈니스 기술 강조",
-    "국가 고시 및 자격증 시험의 높은 합격률"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "就実大学",
-    "name_en": "Shujitsu University",
-    "address": "1-1-1 Nishigawara, Naka-ku, Okayama-shi, Okayama 703-8516, Japan",
-    "capacity": 2800
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "45-55% (Varies by faculty)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "인문학부",
-    "교육학부",
-    "경영학부",
-    "약학부"
-  ],
-  "features": [
-    "100년 이상의 역사, '거화취실'의 정신",
-    "'햇살의 나라' 오카야마의 전략적 위치",
-    "지역 활성화 및 실무 비즈니스 기술 강조",
-    "국가 고시 및 자격증 시험의 높은 합격률"
-  ]
-}
+basic_info:
+  address: 1-1-1 Nishigawara, Naka-ku, Okayama-shi, Okayama 703-8516, Japan
+  capacity: 2800
+  name_en: Shujitsu University
+  name_ja: 就実大学
+category: university
+date: '2026-03-15'
+description: 100년 이상의 역사를 가진 '거화취실'의 정신으로 실무 교육에 집중하며, 일본 오카야마에서 높은 취업률과 국가 고시 합격률을
+  자랑하는 명문 사립 대학입니다.
+faculties:
+- 인문학부
+- 교육학부
+- 경영학부
+- 약학부
+features:
+- 100년 이상의 역사, '거화취실'의 정신
+- '''햇살의 나라'' 오카야마의 전략적 위치'
+- 지역 활성화 및 실무 비즈니스 기술 강조
+- 국가 고시 및 자격증 시험의 높은 합격률
+id: univ_shujitsu-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45-55% (Varies by faculty)
+  international_students: 45
+tags:
+- 100년 이상의 역사, '거화취실'의 정신
+- '''햇살의 나라'' 오카야마의 전략적 위치'
+- 지역 활성화 및 실무 비즈니스 기술 강조
+- 국가 고시 및 자격증 시험의 높은 합격률
+thumbnail: /static/img/pin-univ.png
+title: 슈지츠 대학교 (Shujitsu University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: 슈지츠의 유산

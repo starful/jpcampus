@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_bukkyo-university-international-student-guide",
-  "title": "붓쿄대학교 (Bukkyo University)",
-  "description": "교토의 전통과 불교 휴머니즘을 바탕으로 교육과 사회복지 분야에서 일본 내 최고 수준의 명성을 자랑하는 붓쿄대학교를 소개합니다.",
-  "category": "university",
-  "tags": [
-    "독보적인 교원 양성 프로그램",
-    "불교 휴머니즘 기반 교육",
-    "교토 문화유산의 중심지",
-    "사회복지 연구의 명문"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "佛教大学",
-    "name_en": "Bukkyo University",
-    "address": "96, Kitamurasakino-cho, Murasakino, Kita-ku, Kyoto 603-8301, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 142,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Education",
-    "Faculty of Social Welfare",
-    "Faculty of Sociology",
-    "Faculty of Policy Studies",
-    "Faculty of Health Sciences"
-  ],
-  "features": [
-    "독보적인 교원 양성 프로그램",
-    "불교 휴머니즘에 기반한 강력한 뿌리",
-    "교토의 문화유산 중심지에 위치",
-    "명성 높은 사회복지 연구"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 96, Kitamurasakino-cho, Murasakino, Kita-ku, Kyoto 603-8301, Japan
+  capacity: null
+  name_en: Bukkyo University
+  name_ja: 佛教大学
+category: university
+date: '2026-03-15'
+description: 교토의 전통과 불교 휴머니즘을 바탕으로 교육과 사회복지 분야에서 일본 내 최고 수준의 명성을 자랑하는 붓쿄대학교를 소개합니다.
+faculties:
+- Faculty of Letters
+- Faculty of Education
+- Faculty of Social Welfare
+- Faculty of Sociology
+- Faculty of Policy Studies
+- Faculty of Health Sciences
+features:
+- 독보적인 교원 양성 프로그램
+- 불교 휴머니즘에 기반한 강력한 뿌리
+- 교토의 문화유산 중심지에 위치
+- 명성 높은 사회복지 연구
+id: univ_bukkyo-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 142
+tags:
+- 독보적인 교원 양성 프로그램
+- 불교 휴머니즘 기반 교육
+- 교토 문화유산의 중심지
+- 사회복지 연구의 명문
+thumbnail: /static/img/pin-univ.png
+title: 붓쿄대학교 (Bukkyo University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요: 불교 휴머니즘의 중심

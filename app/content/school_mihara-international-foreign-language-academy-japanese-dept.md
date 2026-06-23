@@ -15,6 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.5年コース
   total_fees: 955000
+date: '2026-01-28'
 faculties: []
 features:
 - Integrated Student Dormitory (Accommodation Guarantee)

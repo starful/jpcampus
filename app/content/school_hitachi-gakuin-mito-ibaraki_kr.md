@@ -1,69 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "茨城県水戸市元吉田町1818-4",
-    "capacity": 136,
-    "name_en": "Hitachi Gakuin",
-    "name_ja": "常陸学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "University Prep 2-Year Course",
-      "total_fees": 1366400
-    },
-    {
-      "admission_month": "7",
-      "course_name": "University Prep 1 Year 9 Month Course",
-      "total_fees": 1203600
-    },
-    {
-      "admission_month": "10",
-      "course_name": "University Prep 1.5-Year Course",
-      "total_fees": 1040800
-    },
-    {
-      "admission_month": "1",
-      "course_name": "University Prep 1 Year 3 Month Course",
-      "total_fees": 878000
-    }
-  ],
-  "description": "히타치 가쿠인(Hitachi Gakuin)은 이바라키현 미토시에 위치해 있으며, 집중적이고 비용 효율적인 환경에서 전문 트랙, 캠퍼스 내 기숙사, 맞춤형 지도를 제공하여 종합적인 대학 입시 준비를 지원합니다.",
-  "faculties": [],
-  "features": [
-    "종합적인 대학 입시 준비 (EJU/JLPT 집중)",
-    "특화된 학업 트랙 (STEM, 미술 & 디자인, 비즈니스 일본어)",
-    "싱글룸 옵션이 있는 캠퍼스 내 기숙사 제공",
-    "미토시에 위치하여 집중적이고 비용 효율적인 학습 환경 제공",
-    "소규모 학급으로 맞춤형 학업 지도 보장",
-    "회화 능력 향상을 위한 전문 프로그램"
-  ],
-  "id": "school_hitachi-gakuin-mito-ibaraki",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 36.3392771,
-    "lng": 140.4697384
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=29",
-  "stats": {
-    "capacity": 136,
-    "international_students": 136
-  },
-  "tags": [
-    "Comprehensive University Preparation (EJU/JLPT Focus)",
-    "Specialized Academic Tracks (STEM, Arts & Design, Business Japanese)",
-    "On-Campus Dormitory with Single Room Options Available",
-    "Located in Mito City, providing a Focused and Cost-Effective Study Environment",
-    "Small Class Sizes Ensuring Personalized Academic Attention",
-    "Dedicated Programs for Enhanced Conversational Fluency"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "히타치 가쿠인",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 茨城県水戸市元吉田町1818-4
+  capacity: 136
+  name_en: Hitachi Gakuin
+  name_ja: 常陸学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: University Prep 2-Year Course
+  total_fees: 1366400
+- admission_month: '7'
+  course_name: University Prep 1 Year 9 Month Course
+  total_fees: 1203600
+- admission_month: '10'
+  course_name: University Prep 1.5-Year Course
+  total_fees: 1040800
+- admission_month: '1'
+  course_name: University Prep 1 Year 3 Month Course
+  total_fees: 878000
+date: '2026-01-28'
+description: 히타치 가쿠인(Hitachi Gakuin)은 이바라키현 미토시에 위치해 있으며, 집중적이고 비용 효율적인 환경에서 전문 트랙,
+  캠퍼스 내 기숙사, 맞춤형 지도를 제공하여 종합적인 대학 입시 준비를 지원합니다.
+faculties: []
+features:
+- 종합적인 대학 입시 준비 (EJU/JLPT 집중)
+- 특화된 학업 트랙 (STEM, 미술 & 디자인, 비즈니스 일본어)
+- 싱글룸 옵션이 있는 캠퍼스 내 기숙사 제공
+- 미토시에 위치하여 집중적이고 비용 효율적인 학습 환경 제공
+- 소규모 학급으로 맞춤형 학업 지도 보장
+- 회화 능력 향상을 위한 전문 프로그램
+id: school_hitachi-gakuin-mito-ibaraki
+lang: kr
+layout: school
+location:
+  lat: 36.3392771
+  lng: 140.4697384
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=29
+stats:
+  capacity: 136
+  international_students: 136
+tags:
+- Comprehensive University Preparation (EJU/JLPT Focus)
+- Specialized Academic Tracks (STEM, Arts & Design, Business Japanese)
+- On-Campus Dormitory with Single Room Options Available
+- Located in Mito City, providing a Focused and Cost-Effective Study Environment
+- Small Class Sizes Ensuring Personalized Academic Attention
+- Dedicated Programs for Enhanced Conversational Fluency
+thumbnail: /static/img/pin-school.png
+title: 히타치 가쿠인
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

@@ -1,66 +1,50 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市天王寺区寺田町1-7-1",
-    "capacity": 300,
-    "name_en": "Ashiya Kokusai Gakuin Osaka School",
-    "name_ja": "芦屋国際学院大阪校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "1",
-      "course_name": "進学1.3年コース",
-      "total_fees": 873000
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1.5年コース",
-      "total_fees": 1027000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヵ月コース",
-      "total_fees": 1180000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1334000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "一般2年コース",
-      "total_fees": 1334000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "종합적인 대학 진학 집중 교육",
-    "EJU(일본유학시험) 특화 준비반 운영",
-    "기숙사 옵션 보장",
-    "실용적인 회화 능력 향상에 중점"
-  ],
-  "id": "school_ashiya-kokusai-gakuin-osaka-school",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.6512129,
-    "lng": 135.5227097
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=329",
-  "stats": {},
-  "tags": [
-    "Comprehensive University Progression Focus (進学)",
-    "Specialized EJU (Examination for Japanese University Admission) Preparation",
-    "Guaranteed Dormitory Options for Stable Start (기숙사)",
-    "Emphasis on Practical Conversational Fluency (회화)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아시야 국제학원 오사카 캠퍼스",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 大阪府大阪市天王寺区寺田町1-7-1
+  capacity: 300
+  name_en: Ashiya Kokusai Gakuin Osaka School
+  name_ja: 芦屋国際学院大阪校
+category: school
+courses:
+- admission_month: '1'
+  course_name: 進学1.3年コース
+  total_fees: 873000
+- admission_month: '10'
+  course_name: 進学1.5年コース
+  total_fees: 1027000
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1180000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1334000
+- admission_month: '1'
+  course_name: 一般2年コース
+  total_fees: 1334000
+date: '2026-01-28'
+faculties: []
+features:
+- 종합적인 대학 진학 집중 교육
+- EJU(일본유학시험) 특화 준비반 운영
+- 기숙사 옵션 보장
+- 실용적인 회화 능력 향상에 중점
+id: school_ashiya-kokusai-gakuin-osaka-school
+lang: kr
+layout: school
+location:
+  lat: 34.6512129
+  lng: 135.5227097
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=329
+stats: {}
+tags:
+- Comprehensive University Progression Focus (進学)
+- Specialized EJU (Examination for Japanese University Admission) Preparation
+- Guaranteed Dormitory Options for Stable Start (기숙사)
+- Emphasis on Practical Conversational Fluency (회화)
+thumbnail: /static/img/pin-school.png
+title: 아시야 국제학원 오사카 캠퍼스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 교육 철학

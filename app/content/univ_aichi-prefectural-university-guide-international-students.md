@@ -1,48 +1,40 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-prefectural-university-guide-international-students",
-  "title": "Aichi Prefectural University",
-  "category": "university",
-  "tags": [
-    "Premier Language Programs",
-    "Industrial Connection to Toyota and Tokai Region",
-    "iCoToBa Multilingual Learning Center",
-    "Affordable Public University Status"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知県立大学",
-    "name_en": "Aichi Prefectural University",
-    "address": "1522-3 Ibaragabasama, Kumabari, Nagakute-shi, Aichi 480-1198, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "20-35% (Estimated based on faculty)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Foreign Studies",
-    "School of Japanese Studies",
-    "School of Education and Welfare",
-    "School of Information Science and Technology",
-    "School of Nursing"
-  ],
-  "features": [
-    "Premier Language Programs",
-    "Industrial Connection to Toyota and Tokai Region",
-    "iCoToBa Multilingual Learning Center",
-    "Affordable Public University Status"
-  ]
-}
+basic_info:
+  address: 1522-3 Ibaragabasama, Kumabari, Nagakute-shi, Aichi 480-1198, Japan
+  capacity: null
+  name_en: Aichi Prefectural University
+  name_ja: 愛知県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Foreign Studies
+- School of Japanese Studies
+- School of Education and Welfare
+- School of Information Science and Technology
+- School of Nursing
+features:
+- Premier Language Programs
+- Industrial Connection to Toyota and Tokai Region
+- iCoToBa Multilingual Learning Center
+- Affordable Public University Status
+id: univ_aichi-prefectural-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20-35% (Estimated based on faculty)
+  international_students: 115
+tags:
+- Premier Language Programs
+- Industrial Connection to Toyota and Tokai Region
+- iCoToBa Multilingual Learning Center
+- Affordable Public University Status
+thumbnail: /static/img/pin-univ.png
+title: Aichi Prefectural University
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview: The Heart of Academic Excellence in Central Japan

@@ -5,6 +5,7 @@ basic_info:
   name_en: Tokyo University of Agriculture and Technology (TUAT)
   name_ja: 東京農工大学
 category: university
+date: '2026-01-28'
 faculties:
 - Faculty of Agriculture
 - Faculty of Engineering

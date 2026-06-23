@@ -1,60 +1,48 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都大田区千鳥3-9-6",
-    "capacity": 80,
-    "name_en": "Tokyo Education Professional Institute, Tamagawa Campus (T.E.P.I.)",
-    "name_ja": "東京教育専門学院・多摩川校"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヶ月コース",
-      "total_fees": 940000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヶ月コース",
-      "total_fees": 1075000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1210000
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "체계적인 대학 진학 지도 (신가쿠)",
-    "소규모 정원으로 맞춤형 교육 제공",
-    "학교 내 또는 제휴 기숙사 제공",
-    "최적의 대학 입시 준비를 위한 유연한 입학 시기 (4월, 7월, 10월)"
-  ],
-  "id": "school_tokyo-education-professional-institute-tamagawa",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.57255910000001,
-    "lng": 139.6882858
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=167",
-  "stats": {
-    "capacity": 80,
-    "international_students": 75
-  },
-  "tags": [
-    "Dedicated Higher Education Pathway Guidance (Shingaku)",
-    "Small School Capacity Ensuring Personalized Attention",
-    "On-Campus or Affiliated Dormitory Accommodation",
-    "Flexible Entry Periods (April, July, October) tailored for optimal university preparation"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "동경교육전문학교 다마가와 캠퍼스 (T.E.P.I.)",
-  "translated": true,
-  "tuition": {},
-  "description": "소규모 정원으로 개인 맞춤형 교육을 제공하는 동경교육전문학교 다마가와 캠퍼스 (T.E.P.I.)에 대해 알아보세요. 대학 진학을 위한 최적의 환경을 제공합니다."
-}
+basic_info:
+  address: 東京都大田区千鳥3-9-6
+  capacity: 80
+  name_en: Tokyo Education Professional Institute, Tamagawa Campus (T.E.P.I.)
+  name_ja: 東京教育専門学院・多摩川校
+category: school
+courses:
+- admission_month: '10'
+  course_name: 進学1年6ヶ月コース
+  total_fees: 940000
+- admission_month: '7'
+  course_name: 進学1年9ヶ月コース
+  total_fees: 1075000
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1210000
+date: '2026-02-13'
+description: 소규모 정원으로 개인 맞춤형 교육을 제공하는 동경교육전문학교 다마가와 캠퍼스 (T.E.P.I.)에 대해 알아보세요. 대학 진학을
+  위한 최적의 환경을 제공합니다.
+faculties: []
+features:
+- 체계적인 대학 진학 지도 (신가쿠)
+- 소규모 정원으로 맞춤형 교육 제공
+- 학교 내 또는 제휴 기숙사 제공
+- 최적의 대학 입시 준비를 위한 유연한 입학 시기 (4월, 7월, 10월)
+id: school_tokyo-education-professional-institute-tamagawa
+lang: kr
+layout: school
+location:
+  lat: 35.57255910000001
+  lng: 139.6882858
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=167
+stats:
+  capacity: 80
+  international_students: 75
+tags:
+- Dedicated Higher Education Pathway Guidance (Shingaku)
+- Small School Capacity Ensuring Personalized Attention
+- On-Campus or Affiliated Dormitory Accommodation
+- Flexible Entry Periods (April, July, October) tailored for optimal university preparation
+thumbnail: /static/img/pin-school.png
+title: 동경교육전문학교 다마가와 캠퍼스 (T.E.P.I.)
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

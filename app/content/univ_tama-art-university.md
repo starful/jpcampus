@@ -5,6 +5,7 @@ basic_info:
   name_ja: 多摩美術大学
   website: https://www.tamabi.ac.jp/
 category: university
+date: '2026-06-12'
 description: Learn how to apply to Tama Art University. Get details on tuition, programs,
   and admission requirements for international students on JP Campus.
 faculties:
@@ -21,6 +22,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
+seo_description: Explore Tama Art University. Find admission requirements, programs,
+  tuition fees, and scholarship info for international students to study art in Japan.
+seo_title: 'Tama Art University: Admission, Fees & Programs | JP Campus'
 stats:
   acceptance_rate: 20%
   international_students: 130
@@ -35,11 +39,7 @@ translated: true
 tuition:
   admission_fee: 300000
   yearly_tuition: 1700000
-seo_title: 'Tama Art University: Admission, Fees & Programs | JP Campus'
-seo_description: Explore Tama Art University. Find admission requirements, programs,
-  tuition fees, and scholarship info for international students to study art in Japan.
 ---
-
 
 ## Overview
 

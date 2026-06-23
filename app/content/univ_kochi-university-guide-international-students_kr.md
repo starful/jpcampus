@@ -1,55 +1,48 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kochi-university-guide-international-students",
-  "title": "[2026] 고치 대학교 유학 가이드: 입시, 학부, 학비 | JP Campus",
-  "category": "university",
-  "tags": [
-    "World-class Marine and Subtropical Agriculture Research",
-    "First-in-Japan Faculty of Regional Collaboration",
-    "Strategic Focus on Disaster Prevention and Kuroshio Science",
-    "Highly Affordable Living Costs in a Nature-Rich Environment"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "高知大学",
-    "name_en": "Kochi University",
-    "address": "2-5-1 Akebono-cho, Kochi-shi, Kochi, 780-8520, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 178,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Humanities and Social Sciences",
-    "Faculty of Education",
-    "Faculty of Science and Technology",
-    "Medical School",
-    "Faculty of Agriculture and Marine Science",
-    "Faculty of Regional Collaboration"
-  ],
-  "features": [
-    "세계적인 해양 및 아열대 농업 연구",
-    "일본 최초의 지역 협력 학부",
-    "재해 예방 및 쿠로시오 과학에 대한 전략적 집중",
-    "자연이 풍부한 환경에서 매우 저렴한 생활비"
-  ],
-  "description": "일본 국립 고치 대학교 유학의 모든 것! 2026년도 외국인 유학생 입시 요강, 학부 및 학과 소개, 학비, 장학금 정보를 JP Campus에서 한눈에 확인하세요.",
-  "lang": "kr",
-  "seo_title": "고치 대학교 유학 가이드 2026 (국립대 입시, 학비, 학부) | JP Campus",
-  "seo_description": "일본 국립 고치 대학교 유학의 모든 것! 2026년도 외국인 유학생 입시 요강, 학부 및 학과 소개, 학비, 장학금 정보를 JP Campus에서 한눈에 확인하세요."
-}
+basic_info:
+  address: 2-5-1 Akebono-cho, Kochi-shi, Kochi, 780-8520, Japan
+  capacity: null
+  name_en: Kochi University
+  name_ja: 高知大学
+category: university
+date: '2026-06-19'
+description: 일본 국립 고치 대학교 유학의 모든 것! 2026년도 외국인 유학생 입시 요강, 학부 및 학과 소개, 학비, 장학금 정보를
+  JP Campus에서 한눈에 확인하세요.
+faculties:
+- Faculty of Humanities and Social Sciences
+- Faculty of Education
+- Faculty of Science and Technology
+- Medical School
+- Faculty of Agriculture and Marine Science
+- Faculty of Regional Collaboration
+features:
+- 세계적인 해양 및 아열대 농업 연구
+- 일본 최초의 지역 협력 학부
+- 재해 예방 및 쿠로시오 과학에 대한 전략적 집중
+- 자연이 풍부한 환경에서 매우 저렴한 생활비
+id: univ_kochi-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+seo_description: 일본 국립 고치 대학교 유학의 모든 것! 2026년도 외국인 유학생 입시 요강, 학부 및 학과 소개, 학비, 장학금
+  정보를 JP Campus에서 한눈에 확인하세요.
+seo_title: 고치 대학교 유학 가이드 2026 (국립대 입시, 학비, 학부) | JP Campus
+stats:
+  acceptance_rate: 35-45%
+  international_students: 178
+tags:
+- World-class Marine and Subtropical Agriculture Research
+- First-in-Japan Faculty of Regional Collaboration
+- Strategic Focus on Disaster Prevention and Kuroshio Science
+- Highly Affordable Living Costs in a Nature-Rich Environment
+thumbnail: /static/img/pin-univ.png
+title: '[2026] 고치 대학교 유학 가이드: 입시, 학부, 학비 | JP Campus'
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
-
 
 ## 🏫 대학교 개요
 고치 대학교는 1949년에 설립된 시코쿠 섬 남쪽 해안에 위치한 명문 국립 대학교입니다. 지역 혁신과 글로벌 연구를 선도하는 기관으로 발전했으며, 특히 태평양과 고치현의 독특한 지리와의 연관성으로 유명합니다. 이 대학은 "지역에서 세계로"라는 철학 아래 재해 관리, 환경 보존 및 지속 가능한 농업과 같이 세계적인 의미를 갖는 지역적 문제 해결을 목표로 운영됩니다.

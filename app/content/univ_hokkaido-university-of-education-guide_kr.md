@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hokkaido-university-of-education-guide",
-  "title": "홋카이도 교육대학교",
-  "category": "university",
-  "tags": [
-    "홋카이도 전역에 걸친 독특한 5개 캠퍼스 시스템",
-    "최고 수준의 교사 양성 및 자격증 취득",
-    "하코다테 캠퍼스의 국제 지역 연구 전문 학부",
-    "저렴한 국립대학교 등록금",
-    "유학생을 위한 광범위한 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "北海道教育大学",
-    "name_en": "Hokkaido University of Education",
-    "address": "5-3-1 Ainosato, Kita-ku, Sapporo, Hokkaido 002-8501, Japan",
-    "capacity": "5,500 students"
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "22-28% (추정)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "교육학부 (삿포로 캠퍼스)",
-    "교육학부 (아사히카와 캠퍼스)",
-    "교육학부 (쿠시로 캠퍼스)",
-    "국제 지역 연구 학부 (하코다테 캠퍼스)",
-    "예술 스포츠 학부 (이와미자와 캠퍼스)"
-  ],
-  "features": [
-    "홋카이도 전역에 걸친 독특한 5개 캠퍼스 시스템",
-    "최고 수준의 교사 양성 및 자격증 취득",
-    "하코다테 캠퍼스의 국제 지역 연구 전문 학부",
-    "저렴한 국립대학교 등록금",
-    "유학생을 위한 광범위한 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 5-3-1 Ainosato, Kita-ku, Sapporo, Hokkaido 002-8501, Japan
+  capacity: 5,500 students
+  name_en: Hokkaido University of Education
+  name_ja: 北海道教育大学
+category: university
+date: '2026-02-13'
+faculties:
+- 교육학부 (삿포로 캠퍼스)
+- 교육학부 (아사히카와 캠퍼스)
+- 교육학부 (쿠시로 캠퍼스)
+- 국제 지역 연구 학부 (하코다테 캠퍼스)
+- 예술 스포츠 학부 (이와미자와 캠퍼스)
+features:
+- 홋카이도 전역에 걸친 독특한 5개 캠퍼스 시스템
+- 최고 수준의 교사 양성 및 자격증 취득
+- 하코다테 캠퍼스의 국제 지역 연구 전문 학부
+- 저렴한 국립대학교 등록금
+- 유학생을 위한 광범위한 지원
+id: univ_hokkaido-university-of-education-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 22-28% (추정)
+  international_students: 185
+tags:
+- 홋카이도 전역에 걸친 독특한 5개 캠퍼스 시스템
+- 최고 수준의 교사 양성 및 자격증 취득
+- 하코다테 캠퍼스의 국제 지역 연구 전문 학부
+- 저렴한 국립대학교 등록금
+- 유학생을 위한 광범위한 지원
+thumbnail: /static/img/pin-univ.png
+title: 홋카이도 교육대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요

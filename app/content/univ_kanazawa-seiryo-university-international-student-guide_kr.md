@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_kanazawa-seiryo-university-international-student-guide",
-  "title": "가나자와 세이료 대학교",
-  "description": "일본 전국 최상위권의 취업률과 체계적인 커리어 지원을 자랑하는 가나자와 세이료 대학교입니다. '작은 교토'라 불리는 가나자와에서 실무 중심의 교육을 경험해 보세요.",
-  "category": "university",
-  "tags": [
-    "일본 전국 최상위권 취업률",
-    "철저한 공무원 시험 대비",
-    "비즈니스 특화 글로벌 코스",
-    "가나자와의 풍부한 문화 환경"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "金沢星稜大学",
-    "name_en": "Kanazawa Seiryo University",
-    "address": "10-1 Gosho-machi, Kanazawa, Ishikawa 920-8620, Japan",
-    "capacity": 3200
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 820000
-  },
-  "faculties": [
-    "경제학부",
-    "인간과학부",
-    "인문학부",
-    "경제학연구과(대학원)"
-  ],
-  "features": [
-    "일본 전국 최상위권 취업률",
-    "철저한 공무원 시험 대비",
-    "비즈니스 특화 글로벌 코스",
-    "가나자와의 풍부한 문화 환경"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 10-1 Gosho-machi, Kanazawa, Ishikawa 920-8620, Japan
+  capacity: 3200
+  name_en: Kanazawa Seiryo University
+  name_ja: 金沢星稜大学
+category: university
+date: '2026-03-15'
+description: 일본 전국 최상위권의 취업률과 체계적인 커리어 지원을 자랑하는 가나자와 세이료 대학교입니다. '작은 교토'라 불리는 가나자와에서
+  실무 중심의 교육을 경험해 보세요.
+faculties:
+- 경제학부
+- 인간과학부
+- 인문학부
+- 경제학연구과(대학원)
+features:
+- 일본 전국 최상위권 취업률
+- 철저한 공무원 시험 대비
+- 비즈니스 특화 글로벌 코스
+- 가나자와의 풍부한 문화 환경
+id: univ_kanazawa-seiryo-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 42
+tags:
+- 일본 전국 최상위권 취업률
+- 철저한 공무원 시험 대비
+- 비즈니스 특화 글로벌 코스
+- 가나자와의 풍부한 문화 환경
+thumbnail: /static/img/pin-univ.png
+title: 가나자와 세이료 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 820000
 ---
 
 ## 🏫 대학 개요

@@ -1,67 +1,52 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区早稲田鶴巻町543番地",
-    "capacity": 736,
-    "name_en": "Waseda Language Academy",
-    "name_ja": "早稲田言語学院"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学課程2年コース",
-      "total_fees": 1542200
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学課程1年9か月コース",
-      "total_fees": 1360700
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学課程1年6か月コース",
-      "total_fees": 1179200
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学課程1年3か月コース",
-      "total_fees": 997700
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "주요 목표: 높은 수준의 학업 발전 (대학교/대학원 진학)",
-    "종합적인 EJU (일본유학시험) 대비 과정",
-    "도쿄 중심부에 위치한 교내 또는 제휴 기숙사 지원",
-    "주요 학술 기관 근처인 신주쿠의 전략적 위치",
-    "학술 작문 및 연구 계획에 특화된 커리큘럼"
-  ],
-  "id": "school_waseda-language-academy",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7078719,
-    "lng": 139.7277122
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=237",
-  "stats": {
-    "capacity": 736,
-    "international_students": 736
-  },
-  "tags": [
-    "Primary mission: High-level academic advancement (University/Graduate School entry)",
-    "Comprehensive EJU (Examination for Japanese University Admission) preparation tracks",
-    "On-campus or affiliated dormitory support provided in central Tokyo",
-    "Strategic location in Shinjuku, near major academic institutions",
-    "Specialized curriculum tailored for academic writing and research planning"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "와세다 언어 학원",
-  "translated": true,
-  "tuition": {},
-  "description": "명문 일본 대학 및 대학원 진학을 목표로 하는 국제 학생들을 위한 와세다 언어 학원 (WLA)을 소개합니다."
-}
+basic_info:
+  address: 東京都新宿区早稲田鶴巻町543番地
+  capacity: 736
+  name_en: Waseda Language Academy
+  name_ja: 早稲田言語学院
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学課程2年コース
+  total_fees: 1542200
+- admission_month: '7'
+  course_name: 進学課程1年9か月コース
+  total_fees: 1360700
+- admission_month: '10'
+  course_name: 進学課程1年6か月コース
+  total_fees: 1179200
+- admission_month: '1'
+  course_name: 進学課程1年3か月コース
+  total_fees: 997700
+date: '2026-01-28'
+description: 명문 일본 대학 및 대학원 진학을 목표로 하는 국제 학생들을 위한 와세다 언어 학원 (WLA)을 소개합니다.
+faculties: []
+features:
+- '주요 목표: 높은 수준의 학업 발전 (대학교/대학원 진학)'
+- 종합적인 EJU (일본유학시험) 대비 과정
+- 도쿄 중심부에 위치한 교내 또는 제휴 기숙사 지원
+- 주요 학술 기관 근처인 신주쿠의 전략적 위치
+- 학술 작문 및 연구 계획에 특화된 커리큘럼
+id: school_waseda-language-academy
+lang: kr
+layout: school
+location:
+  lat: 35.7078719
+  lng: 139.7277122
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=237
+stats:
+  capacity: 736
+  international_students: 736
+tags:
+- 'Primary mission: High-level academic advancement (University/Graduate School entry)'
+- Comprehensive EJU (Examination for Japanese University Admission) preparation tracks
+- On-campus or affiliated dormitory support provided in central Tokyo
+- Strategic location in Shinjuku, near major academic institutions
+- Specialized curriculum tailored for academic writing and research planning
+thumbnail: /static/img/pin-school.png
+title: 와세다 언어 학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

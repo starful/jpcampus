@@ -27,6 +27,7 @@ courses:
 - admission_month: 4,10
   course_name: 一般コース
   total_fees: 1690000
+date: '2026-01-28'
 description: Kokusho Japanese Language School is a large Tokyo-based institution known
   for its intensive university preparation courses, specialized art and design programs,
   and comprehensive EJU/JLPT support.

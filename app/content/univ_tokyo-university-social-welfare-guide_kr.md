@@ -1,52 +1,45 @@
 ---
-{
-  "basic_info": {
-    "address": "3-39-22 Higashi-Ikebukuro, Toshima-ku, Tokyo 170-8432, Japan (Ikebukuro Main Campus)",
-    "capacity": null,
-    "name_en": "Tokyo University of Social Welfare",
-    "name_ja": "東京福祉大学"
-  },
-  "category": "university",
-  "faculties": [
-    "Faculty of Social Welfare",
-    "Faculty of Child Development and Education",
-    "Faculty of Psychology",
-    "Faculty of Education",
-    "Faculty of Business Management"
-  ],
-  "features": [
-    "사회복지, 심리학, 교육에 특화된 교육 과정",
-    "실무 훈련 및 전문 자격증 취득 경로 강조",
-    "여러 도시 캠퍼스 운영 (이케부쿠로, 오지, 나고야, 이세사키)",
-    "EJU 시험을 일반 입학에 권장",
-    "주로 일본어로 진행되는 수업"
-  ],
-  "id": "univ_tokyo-university-social-welfare-guide",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "stats": {
-    "acceptance_rate": "45% (추정)",
-    "international_students": 1200
-  },
-  "tags": [
-    "Specialized focus on social welfare, psychology, and education",
-    "Strong emphasis on practical training and professional certification pathways",
-    "Multiple urban campuses (Ikebukuro, Oji, Nagoya, Isesaki)",
-    "EJU Recommended for General Admissions",
-    "Primarily Japanese Medium Instruction"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "title": "동경복지대학 (Tokyo University of Social Welfare)",
-  "translated": true,
-  "tuition": {
-    "admission_fee": 230000,
-    "yearly_tuition": 1050000
-  }
-}
+basic_info:
+  address: 3-39-22 Higashi-Ikebukuro, Toshima-ku, Tokyo 170-8432, Japan (Ikebukuro
+    Main Campus)
+  capacity: null
+  name_en: Tokyo University of Social Welfare
+  name_ja: 東京福祉大学
+category: university
+date: '2026-01-28'
+faculties:
+- Faculty of Social Welfare
+- Faculty of Child Development and Education
+- Faculty of Psychology
+- Faculty of Education
+- Faculty of Business Management
+features:
+- 사회복지, 심리학, 교육에 특화된 교육 과정
+- 실무 훈련 및 전문 자격증 취득 경로 강조
+- 여러 도시 캠퍼스 운영 (이케부쿠로, 오지, 나고야, 이세사키)
+- EJU 시험을 일반 입학에 권장
+- 주로 일본어로 진행되는 수업
+id: univ_tokyo-university-social-welfare-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 45% (추정)
+  international_students: 1200
+tags:
+- Specialized focus on social welfare, psychology, and education
+- Strong emphasis on practical training and professional certification pathways
+- Multiple urban campuses (Ikebukuro, Oji, Nagoya, Isesaki)
+- EJU Recommended for General Admissions
+- Primarily Japanese Medium Instruction
+thumbnail: /static/img/pin-univ.png
+title: 동경복지대학 (Tokyo University of Social Welfare)
+translated: true
+tuition:
+  admission_fee: 230000
+  yearly_tuition: 1050000
 ---
 
 ## 🏫 대학 개요

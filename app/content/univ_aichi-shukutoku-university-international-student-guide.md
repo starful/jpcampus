@@ -1,52 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_aichi-shukutoku-university-international-student-guide",
-  "title": "Aichi Shukutoku University",
-  "category": "university",
-  "tags": [
-    "Philosophy of 'Difference as Ethos'",
-    "Strong local industry connections in the Nagoya area",
-    "Renowned Center for Japanese Language and Culture (CJLC)",
-    "Dual-campus system combining nature and urban lifestyles"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "愛知淑徳大学",
-    "name_en": "Aichi Shukutoku University",
-    "address": "9-1 Kanabo, Nagakute-shi, Aichi 480-1197, Japan",
-    "capacity": 8950
-  },
-  "stats": {
-    "international_students": 185,
-    "acceptance_rate": "35-45%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Letters",
-    "Faculty of Human Services",
-    "Faculty of Communication",
-    "Faculty of Psychology",
-    "Faculty of Creative Media",
-    "Faculty of Global Culture and Communication",
-    "Faculty of Business",
-    "Faculty of Health and Medical Sciences",
-    "Faculty of Welfare Engineering"
-  ],
-  "features": [
-    "Philosophy of 'Difference as Ethos'",
-    "Strong local industry connections in the Nagoya area",
-    "Renowned Center for Japanese Language and Culture (CJLC)",
-    "Dual-campus system combining nature and urban lifestyles"
-  ]
-}
+basic_info:
+  address: 9-1 Kanabo, Nagakute-shi, Aichi 480-1197, Japan
+  capacity: 8950
+  name_en: Aichi Shukutoku University
+  name_ja: 愛知淑徳大学
+category: university
+date: '2026-03-15'
+faculties:
+- Faculty of Letters
+- Faculty of Human Services
+- Faculty of Communication
+- Faculty of Psychology
+- Faculty of Creative Media
+- Faculty of Global Culture and Communication
+- Faculty of Business
+- Faculty of Health and Medical Sciences
+- Faculty of Welfare Engineering
+features:
+- Philosophy of 'Difference as Ethos'
+- Strong local industry connections in the Nagoya area
+- Renowned Center for Japanese Language and Culture (CJLC)
+- Dual-campus system combining nature and urban lifestyles
+id: univ_aichi-shukutoku-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-45%
+  international_students: 185
+tags:
+- Philosophy of 'Difference as Ethos'
+- Strong local industry connections in the Nagoya area
+- Renowned Center for Japanese Language and Culture (CJLC)
+- Dual-campus system combining nature and urban lifestyles
+thumbnail: /static/img/pin-univ.png
+title: Aichi Shukutoku University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Spirit of 'Difference as Ethos'

@@ -6,6 +6,9 @@ basic_info:
   name_en: Tokyo University of Social Welfare
   name_ja: 東京福祉大学
 category: university
+date: '2026-06-19'
+description: A comprehensive guide to Tokyo University of Social Welfare (TUSW) for
+  international students, covering 2026 tuition, admissions, and campus life.
 faculties:
 - Faculty of Social Welfare
 - Faculty of Child Development and Education
@@ -24,6 +27,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
+seo_description: Planning to study at Tokyo University of Social Welfare? Check 2026
+  tuition, entry requirements & application tips for international students.
+seo_title: 'Tokyo University of Social Welfare: 2026 Guide | jpcampus'
 stats:
   acceptance_rate: 45% (Estimated)
   international_students: 1200
@@ -39,15 +45,7 @@ translated: true
 tuition:
   admission_fee: 230000
   yearly_tuition: 1050000
-description: A comprehensive guide to Tokyo University of Social Welfare (TUSW) for
-  international students, covering 2026 tuition, admissions, and campus life.
-seo_title: 'Tokyo University of Social Welfare: 2026 Guide | jpcampus'
-seo_description: Planning to study at Tokyo University of Social Welfare? Check 2026
-  tuition, entry requirements & application tips for international students.
 ---
-
-
-
 
 ## 🏫 University Overview
 

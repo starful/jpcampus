@@ -12,6 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 4月入学コース
   total_fees: 1280000
+date: '2026-01-28'
 description: Tokai Gakuin College of Culture and Liberal Arts offers international
   students a pathway to higher education in Japan with a supportive environment, EJU
   preparation, conversation skills, and comprehensive guidance.

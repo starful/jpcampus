@@ -5,6 +5,9 @@ basic_info:
   name_en: The University of Electro-Communications
   name_ja: 電気通信大学
 category: university
+date: '2026-04-27'
+description: A 2026 admissions guide to the University of Electro-Communications for
+  international students pursuing engineering and computer science.
 faculties:
 - College of Informatics and Engineering (Undergraduate)
 - Graduate School of Informatics and Engineering
@@ -33,11 +36,10 @@ tags:
 - EJU Required for most undergraduate tracks (Japanese proficiency is essential)
 - Select English-Taught Graduate Programs (e.g., GSC Program)
 thumbnail: /static/img/pin-univ.png
-title: "UEC Guide 2026: Engineering & CS Admission, Lab Track, Tuition (International)"
+title: 'UEC Guide 2026: Engineering & CS Admission, Lab Track, Tuition (International)'
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-description: "A 2026 admissions guide to the University of Electro-Communications for international students pursuing engineering and computer science."
 ---
 
 ## 🏫 University Overview

@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_miyagi-university-international-student-guide",
-  "title": "Miyagi University",
-  "category": "university",
-  "tags": [
-    "Interdisciplinary Project-Based Learning",
-    "Advanced Research in Food Resource Innovation",
-    "Community-Centric Health and Nursing Programs",
-    "Modernist Architecture and High-Tech Facilities"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宮城大学",
-    "name_en": "Miyagi University",
-    "address": "1-1 Gakuen, Taiwa-cho, Kurokawa-gun, Miyagi Prefecture 981-3298, Japan",
-    "capacity": 1750
-  },
-  "stats": {
-    "international_students": 42,
-    "acceptance_rate": "28% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Nursing",
-    "School of Project Design",
-    "School of Food, Agricultural and Environmental Sciences"
-  ],
-  "features": [
-    "Interdisciplinary Project-Based Learning",
-    "Advanced Research in Food Resource Innovation",
-    "Community-Centric Health and Nursing Programs",
-    "Modernist Architecture and High-Tech Facilities"
-  ]
-}
+basic_info:
+  address: 1-1 Gakuen, Taiwa-cho, Kurokawa-gun, Miyagi Prefecture 981-3298, Japan
+  capacity: 1750
+  name_en: Miyagi University
+  name_ja: 宮城大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Nursing
+- School of Project Design
+- School of Food, Agricultural and Environmental Sciences
+features:
+- Interdisciplinary Project-Based Learning
+- Advanced Research in Food Resource Innovation
+- Community-Centric Health and Nursing Programs
+- Modernist Architecture and High-Tech Facilities
+id: univ_miyagi-university-international-student-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 28% (Estimated)
+  international_students: 42
+tags:
+- Interdisciplinary Project-Based Learning
+- Advanced Research in Food Resource Innovation
+- Community-Centric Health and Nursing Programs
+- Modernist Architecture and High-Tech Facilities
+thumbnail: /static/img/pin-univ.png
+title: Miyagi University
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview

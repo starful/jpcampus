@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_sonoda-gakuen-womens-university-guide",
-  "title": "소노다학원여자대학교",
-  "description": "효고현 아마가사키시에 위치한 명문 사립대학교로, '소노다이즘'이라는 독자적인 교육 철학을 바탕으로 지역 사회와 연계된 실천 중심의 교육을 제공하며, 특히 보건, 복지, 교육 분야에서 높은 자격증 취득률을 자랑합니다.",
-  "category": "university",
-  "tags": [
-    "지역 사회 밀착형 학습 (소노다이즘)",
-    "높은 국가 자격증 취득률",
-    "엘리트 스포츠 프로그램",
-    "유학생을 위한 맞춤형 지원"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "園田学園女子大学",
-    "name_en": "Sonoda Gakuen Women's University",
-    "address": "7-29-1 Minamitsukaguchi-cho, Amagasaki, Hyogo 661-8520, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 45,
-    "acceptance_rate": "65-75% (전공별 상이)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "인간발달학부",
-    "보건복지학부",
-    "아동교육학과",
-    "식품영양학과",
-    "인간건강학과",
-    "간호학과"
-  ],
-  "features": [
-    "지역 사회 밀착형 학습 (소노다이즘)",
-    "높은 국가 자격증 취득률",
-    "엘리트 스포츠 프로그램",
-    "유학생을 위한 맞춤형 지원"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 7-29-1 Minamitsukaguchi-cho, Amagasaki, Hyogo 661-8520, Japan
+  capacity: null
+  name_en: Sonoda Gakuen Women's University
+  name_ja: 園田学園女子大学
+category: university
+date: '2026-04-19'
+description: 효고현 아마가사키시에 위치한 명문 사립대학교로, '소노다이즘'이라는 독자적인 교육 철학을 바탕으로 지역 사회와 연계된 실천
+  중심의 교육을 제공하며, 특히 보건, 복지, 교육 분야에서 높은 자격증 취득률을 자랑합니다.
+faculties:
+- 인간발달학부
+- 보건복지학부
+- 아동교육학과
+- 식품영양학과
+- 인간건강학과
+- 간호학과
+features:
+- 지역 사회 밀착형 학습 (소노다이즘)
+- 높은 국가 자격증 취득률
+- 엘리트 스포츠 프로그램
+- 유학생을 위한 맞춤형 지원
+id: univ_sonoda-gakuen-womens-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 65-75% (전공별 상이)
+  international_students: 45
+tags:
+- 지역 사회 밀착형 학습 (소노다이즘)
+- 높은 국가 자격증 취득률
+- 엘리트 스포츠 프로그램
+- 유학생을 위한 맞춤형 지원
+thumbnail: /static/img/pin-univ.png
+title: 소노다학원여자대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

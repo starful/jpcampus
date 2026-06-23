@@ -2,17 +2,23 @@
 
 import os
 import json
+import sys
 import frontmatter
 from datetime import datetime
 import re
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, SCRIPT_DIR)
+from md_dates import ensure_post_date, save_post  # noqa: E402
+
 CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'app', 'static', 'json')
 
 def build_json(lang_suffix, output_filename):
     print(f"🔨 Building {output_filename} ...")
     schools_list = []
+    backfilled = 0
     
     # 해당 언어의 파일만 찾기 (예: _kr.md 또는 일반 .md)
     all_files = os.listdir(CONTENT_DIR)
@@ -41,6 +47,11 @@ def build_json(lang_suffix, output_filename):
             with open(filepath, 'r', encoding='utf-8') as f:
                 post = frontmatter.load(f)
                 meta = post.metadata
+
+                published_date, changed = ensure_post_date(post, filepath)
+                if changed:
+                    save_post(filepath, post)
+                    backfilled += 1
                 
                 # ID에서 _kr 제거 (URL은 동일하게 유지하기 위함)
                 school_id = meta.get('id').replace('_kr', '') if meta.get('id') else ''
@@ -48,7 +59,7 @@ def build_json(lang_suffix, output_filename):
                 school_data = {
                     "id": school_id,
                     "category": meta.get('category', 'school'),
-                    "published": datetime.fromtimestamp(os.path.getmtime(filepath)).strftime("%Y-%m-%d"),
+                    "published": published_date,
                     "basic_info": {
                         "name_ja": meta.get('basic_info', {}).get('name_ja'),
                         "name_en": meta.get('basic_info', {}).get('name_en'),
@@ -68,6 +79,8 @@ def build_json(lang_suffix, output_filename):
         except Exception as e:
             print(f"⚠️ Error ({filename}): {e}")
 
+    schools_list.sort(key=lambda x: (x.get('published', ''), x.get('id', '')), reverse=True)
+
     final_data = {
         "last_updated": datetime.now().strftime("%Y-%m-%d"),
         "schools": schools_list
@@ -78,6 +91,8 @@ def build_json(lang_suffix, output_filename):
         json.dump(final_data, f, ensure_ascii=False)
     
     print(f"✅ Saved {len(schools_list)} items to {output_filename}")
+    if backfilled:
+        print(f"📅 date 백필: {backfilled}개 MD")
 
 def main():
     if not os.path.exists(OUTPUT_DIR):

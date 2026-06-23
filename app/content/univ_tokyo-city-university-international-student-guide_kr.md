@@ -1,53 +1,46 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tokyo-city-university-international-student-guide",
-  "title": "도쿄 도시 대학교 (Tokyo City University)",
-  "category": "university",
-  "tags": [
-    "도큐 그룹과의 강력한 제휴",
-    "취업 및 진로 지원에서 높은 순위",
-    "국제적 경험을 위한 TCU 호주 프로그램 (TAP)",
-    "지속 가능한 개발 목표 (SDGs)에 대한 전문적인 집중"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東京都市大学",
-    "name_en": "Tokyo City University",
-    "address": "1-28-1 Tamazutsumi, Setagaya-ku, Tokyo 158-8557, Japan",
-    "capacity": 7500
-  },
-  "stats": {
-    "international_students": 485,
-    "acceptance_rate": "35-40%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1560000
-  },
-  "faculties": [
-    "이공학부",
-    "건축도시디자인학부",
-    "정보학부",
-    "환경학부",
-    "미디어정보학부",
-    "디자인데이터과학부",
-    "보건의료기술학부",
-    "인간과학부"
-  ],
-  "features": [
-    "도큐 그룹과의 강력한 제휴",
-    "취업 및 진로 지원에서 높은 순위",
-    "국제적 경험을 위한 TCU 호주 프로그램 (TAP)",
-    "지속 가능한 개발 목표 (SDGs)에 대한 전문적인 집중"
-  ],
-  "description": "도쿄 도시 대학교는 공학, 정보학, 환경 지속 가능성에 중점을 둔 명문 사립 대학입니다. 도큐 그룹과의 강력한 연계와 높은 취업률이 특징입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 1-28-1 Tamazutsumi, Setagaya-ku, Tokyo 158-8557, Japan
+  capacity: 7500
+  name_en: Tokyo City University
+  name_ja: 東京都市大学
+category: university
+date: '2026-02-13'
+description: 도쿄 도시 대학교는 공학, 정보학, 환경 지속 가능성에 중점을 둔 명문 사립 대학입니다. 도큐 그룹과의 강력한 연계와 높은
+  취업률이 특징입니다.
+faculties:
+- 이공학부
+- 건축도시디자인학부
+- 정보학부
+- 환경학부
+- 미디어정보학부
+- 디자인데이터과학부
+- 보건의료기술학부
+- 인간과학부
+features:
+- 도큐 그룹과의 강력한 제휴
+- 취업 및 진로 지원에서 높은 순위
+- 국제적 경험을 위한 TCU 호주 프로그램 (TAP)
+- 지속 가능한 개발 목표 (SDGs)에 대한 전문적인 집중
+id: univ_tokyo-city-university-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 35-40%
+  international_students: 485
+tags:
+- 도큐 그룹과의 강력한 제휴
+- 취업 및 진로 지원에서 높은 순위
+- 국제적 경험을 위한 TCU 호주 프로그램 (TAP)
+- 지속 가능한 개발 목표 (SDGs)에 대한 전문적인 집중
+thumbnail: /static/img/pin-univ.png
+title: 도쿄 도시 대학교 (Tokyo City University)
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1560000
 ---
 
 ## 🏫 대학교 개요: 도쿄 도시 대학교의 역사와 유산

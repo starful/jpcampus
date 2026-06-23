@@ -1,46 +1,38 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_seigakuin-university-guide-international-students",
-  "title": "Seigakuin University",
-  "category": "university",
-  "tags": [
-    "Christian Liberal Arts Education",
-    "High International Student Ratio",
-    "Personalized Career Support",
-    "Located in safe, affordable Saitama"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "聖学院大学",
-    "name_en": "Seigakuin University",
-    "address": "1-1 Tozaki, Ageo-shi, Saitama 362-8585, Japan",
-    "capacity": "Approximately 2,500 total students"
-  },
-  "stats": {
-    "international_students": 465,
-    "acceptance_rate": "60% - 70% (Estimated for International Applicants)"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 832000
-  },
-  "faculties": [
-    "Faculty of Political Science and Economics",
-    "Faculty of Humanities",
-    "Faculty of Human Care and Support"
-  ],
-  "features": [
-    "Christian Liberal Arts Education",
-    "High International Student Ratio",
-    "Personalized Career Support",
-    "Located in safe, affordable Saitama"
-  ]
-}
+basic_info:
+  address: 1-1 Tozaki, Ageo-shi, Saitama 362-8585, Japan
+  capacity: Approximately 2,500 total students
+  name_en: Seigakuin University
+  name_ja: 聖学院大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Political Science and Economics
+- Faculty of Humanities
+- Faculty of Human Care and Support
+features:
+- Christian Liberal Arts Education
+- High International Student Ratio
+- Personalized Career Support
+- Located in safe, affordable Saitama
+id: univ_seigakuin-university-guide-international-students
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 60% - 70% (Estimated for International Applicants)
+  international_students: 465
+tags:
+- Christian Liberal Arts Education
+- High International Student Ratio
+- Personalized Career Support
+- Located in safe, affordable Saitama
+thumbnail: /static/img/pin-univ.png
+title: Seigakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 832000
 ---
 
 ## 🏫 University Overview

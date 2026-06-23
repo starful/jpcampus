@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: インテンシブ1.5年コース
   total_fees: 1273600
+date: '2026-01-28'
 faculties: []
 features:
 - Dormitory

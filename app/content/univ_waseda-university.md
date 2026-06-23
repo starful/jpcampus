@@ -5,6 +5,7 @@ basic_info:
   name_ja: 早稲田大学
   website: https://www.waseda.jp/
 category: university
+date: '2026-01-28'
 faculties:
 - School of Political Science and Economics
 - School of Law

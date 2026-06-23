@@ -1,49 +1,42 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_gunma-university-guide-international-students",
-  "title": "군마대학교",
-  "category": "university",
-  "tags": [
-    "World-class Heavy Ion Medical Center",
-    "Strong ties with Subaru and regional manufacturing hubs",
-    "Comprehensive G-Course for global leadership",
-    "High employment rate for international graduates"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "群馬大学",
-    "name_en": "Gunma University",
-    "address": "4-2 Aramaki-machi, Maebashi, Gunma 371-8510, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 280,
-    "acceptance_rate": "Estimated 25-35% for international applicants"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of Education",
-    "Faculty of Informatics",
-    "Faculty of Medicine",
-    "School of Science and Technology"
-  ],
-  "features": [
-    "세계적인 중입자 의료 센터",
-    "스바루 및 지역 제조 허브와의 강력한 연계",
-    "글로벌 리더십을 위한 종합적인 G-코스",
-    "국제 졸업생의 높은 취업률"
-  ],
-  "description": "군마대학교는 간토 지역 중심부에 위치한 명문 국립 대학입니다. 의학 및 공학 분야에서 뛰어난 연구 성과를 자랑하며, 국제 학생들에게 저렴한 생활비와 글로벌 통합을 우선시하는 지원적인 환경을 제공합니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 4-2 Aramaki-machi, Maebashi, Gunma 371-8510, Japan
+  capacity: null
+  name_en: Gunma University
+  name_ja: 群馬大学
+category: university
+date: '2026-02-13'
+description: 군마대학교는 간토 지역 중심부에 위치한 명문 국립 대학입니다. 의학 및 공학 분야에서 뛰어난 연구 성과를 자랑하며, 국제 학생들에게
+  저렴한 생활비와 글로벌 통합을 우선시하는 지원적인 환경을 제공합니다.
+faculties:
+- Faculty of Education
+- Faculty of Informatics
+- Faculty of Medicine
+- School of Science and Technology
+features:
+- 세계적인 중입자 의료 센터
+- 스바루 및 지역 제조 허브와의 강력한 연계
+- 글로벌 리더십을 위한 종합적인 G-코스
+- 국제 졸업생의 높은 취업률
+id: univ_gunma-university-guide-international-students
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Estimated 25-35% for international applicants
+  international_students: 280
+tags:
+- World-class Heavy Ion Medical Center
+- Strong ties with Subaru and regional manufacturing hubs
+- Comprehensive G-Course for global leadership
+- High employment rate for international graduates
+thumbnail: /static/img/pin-univ.png
+title: 군마대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학교 개요: 혁신과 전통의 중심지

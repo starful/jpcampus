@@ -1,45 +1,37 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_toyo-eiwa-university-guide",
-  "title": "Toyo Eiwa University",
-  "category": "university",
-  "tags": [
-    "Christian-based liberal arts education",
-    "Specialized career support for women",
-    "Serene green campus in Yokohama",
-    "Low faculty-to-student ratio"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東洋英和女学院大学",
-    "name_en": "Toyo Eiwa University",
-    "address": "32-1 Miho-cho, Midori-ku, Yokohama, Kanagawa 226-0015, Japan",
-    "capacity": 1800
-  },
-  "stats": {
-    "international_students": 65,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "Faculty of Human Sciences",
-    "Faculty of International Social Sciences"
-  ],
-  "features": [
-    "Christian-based liberal arts education",
-    "Specialized career support for women",
-    "Serene green campus in Yokohama",
-    "Low faculty-to-student ratio"
-  ]
-}
+basic_info:
+  address: 32-1 Miho-cho, Midori-ku, Yokohama, Kanagawa 226-0015, Japan
+  capacity: 1800
+  name_en: Toyo Eiwa University
+  name_ja: 東洋英和女学院大学
+category: university
+date: '2026-03-24'
+faculties:
+- Faculty of Human Sciences
+- Faculty of International Social Sciences
+features:
+- Christian-based liberal arts education
+- Specialized career support for women
+- Serene green campus in Yokohama
+- Low faculty-to-student ratio
+id: univ_toyo-eiwa-university-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 65
+tags:
+- Christian-based liberal arts education
+- Specialized career support for women
+- Serene green campus in Yokohama
+- Low faculty-to-student ratio
+thumbnail: /static/img/pin-univ.png
+title: Toyo Eiwa University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 University Overview: The Legacy of Toyo Eiwa University

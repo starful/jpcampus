@@ -22,6 +22,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1434000
+date: '2026-01-28'
 faculties: []
 features:
 - High focus on practical conversation skills

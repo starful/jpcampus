@@ -1,73 +1,55 @@
 ---
-{
-  "basic_info": {
-    "address": "東京都新宿区北新宿4-1-1 第三山廣ビル",
-    "capacity": 700,
-    "name_en": "Mitsumine Career Academy Japanese Language Course",
-    "name_ja": "ミツミネキャリアアカデミー 日本語コース"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "4",
-      "course_name": "進学2年コース",
-      "total_fees": 1420000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "進学1年9ヵ月コース",
-      "total_fees": 1259500
-    },
-    {
-      "admission_month": "10",
-      "course_name": "進学1年6ヵ月コース",
-      "total_fees": 1096000
-    },
-    {
-      "admission_month": "1",
-      "course_name": "進学1年3ヵ月コース",
-      "total_fees": 931000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "進学1年コース",
-      "total_fees": 760000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "一般2年コース",
-      "total_fees": 1420000
-    }
-  ],
-  "description": "미츠미네 커리어 아카데미 일본어 코스는 도쿄 신주쿠에 위치하고 있으며, 대학 진학 및 취업을 위한 종합적인 일본어 교육을 제공합니다. 다양한 수준과 목표에 맞는 여러 코스를 제공하고 있습니다.",
-  "faculties": [],
-  "features": [
-    "대학 진학 준비",
-    "EJU 시험 지원",
-    "기숙사 이용 가능"
-  ],
-  "id": "school_mitsumine-career-academy-japanese-course",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 35.7042413,
-    "lng": 139.6944427
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=130",
-  "stats": {
-    "capacity": 700,
-    "international_students": 0
-  },
-  "tags": [
-    "University Preparation",
-    "EJU Support",
-    "Dormitory Available"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "미츠미네 커리어 아카데미 일본어 코스",
-  "translated": true,
-  "tuition": {}
-}
+basic_info:
+  address: 東京都新宿区北新宿4-1-1 第三山廣ビル
+  capacity: 700
+  name_en: Mitsumine Career Academy Japanese Language Course
+  name_ja: ミツミネキャリアアカデミー 日本語コース
+category: school
+courses:
+- admission_month: '4'
+  course_name: 進学2年コース
+  total_fees: 1420000
+- admission_month: '7'
+  course_name: 進学1年9ヵ月コース
+  total_fees: 1259500
+- admission_month: '10'
+  course_name: 進学1年6ヵ月コース
+  total_fees: 1096000
+- admission_month: '1'
+  course_name: 進学1年3ヵ月コース
+  total_fees: 931000
+- admission_month: '4'
+  course_name: 進学1年コース
+  total_fees: 760000
+- admission_month: '4'
+  course_name: 一般2年コース
+  total_fees: 1420000
+date: '2026-01-28'
+description: 미츠미네 커리어 아카데미 일본어 코스는 도쿄 신주쿠에 위치하고 있으며, 대학 진학 및 취업을 위한 종합적인 일본어 교육을 제공합니다.
+  다양한 수준과 목표에 맞는 여러 코스를 제공하고 있습니다.
+faculties: []
+features:
+- 대학 진학 준비
+- EJU 시험 지원
+- 기숙사 이용 가능
+id: school_mitsumine-career-academy-japanese-course
+lang: kr
+layout: school
+location:
+  lat: 35.7042413
+  lng: 139.6944427
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=130
+stats:
+  capacity: 700
+  international_students: 0
+tags:
+- University Preparation
+- EJU Support
+- Dormitory Available
+thumbnail: /static/img/pin-school.png
+title: 미츠미네 커리어 아카데미 일본어 코스
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

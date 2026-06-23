@@ -1,52 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_miyagi-gakuin-womens-university-guide",
-  "title": "미야기 가쿠인 여자대학교",
-  "description": "일본 북부에서 가장 역사가 깊은 기독교계 여자대학교로, 음악, 예술, 식품 영양학 분야에서 뛰어난 전통을 자랑하는 미야기 가쿠인 여자대학교를 소개합니다. 센다이의 쾌적한 환경에서 유학생을 위한 맞춤형 지원을 제공합니다.",
-  "category": "university",
-  "tags": [
-    "일본 북부 지역에서 가장 오래된 기독교계 여학교",
-    "강력한 음악 및 예술적 전통",
-    "센다이에서의 종합적인 유학생 지원",
-    "전문화된 식품 영양 및 보건학 프로그램"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "宮城学院女子大学",
-    "name_en": "Miyagi Gakuin Women's University",
-    "address": "9-1-1 Sakuragaoka, Aoba-ku, Sendai, Miyagi 981-8557, Japan",
-    "capacity": 3000
-  },
-  "stats": {
-    "international_students": 35,
-    "acceptance_rate": "55%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1150000
-  },
-  "faculties": [
-    "학예학부",
-    "영문학과",
-    "일본문화학과",
-    "심리학과",
-    "아동교육학과",
-    "식품영양학과",
-    "음악과"
-  ],
-  "features": [
-    "일본 북부 지역에서 가장 오래된 기독교계 여학교",
-    "강력한 음악 및 예술적 전통과 유산",
-    "센다이에서의 종합적인 유학생 지원 체계",
-    "전문화된 식품영양 및 보건학 프로그램"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 9-1-1 Sakuragaoka, Aoba-ku, Sendai, Miyagi 981-8557, Japan
+  capacity: 3000
+  name_en: Miyagi Gakuin Women's University
+  name_ja: 宮城学院女子大学
+category: university
+date: '2026-03-08'
+description: 일본 북부에서 가장 역사가 깊은 기독교계 여자대학교로, 음악, 예술, 식품 영양학 분야에서 뛰어난 전통을 자랑하는 미야기 가쿠인
+  여자대학교를 소개합니다. 센다이의 쾌적한 환경에서 유학생을 위한 맞춤형 지원을 제공합니다.
+faculties:
+- 학예학부
+- 영문학과
+- 일본문화학과
+- 심리학과
+- 아동교육학과
+- 식품영양학과
+- 음악과
+features:
+- 일본 북부 지역에서 가장 오래된 기독교계 여학교
+- 강력한 음악 및 예술적 전통과 유산
+- 센다이에서의 종합적인 유학생 지원 체계
+- 전문화된 식품영양 및 보건학 프로그램
+id: univ_miyagi-gakuin-womens-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 55%
+  international_students: 35
+tags:
+- 일본 북부 지역에서 가장 오래된 기독교계 여학교
+- 강력한 음악 및 예술적 전통
+- 센다이에서의 종합적인 유학생 지원
+- 전문화된 식품 영양 및 보건학 프로그램
+thumbnail: /static/img/pin-univ.png
+title: 미야기 가쿠인 여자대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1150000
 ---
 
 ## 🏫 대학 개요

@@ -1,51 +1,44 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hiroshima-city-university-guide",
-  "title": "히로시마 시립대학교",
-  "category": "university",
-  "tags": [
-    "World-class Hiroshima Peace Institute (HPI)",
-    "Strong emphasis on the synergy between Art and Technology",
-    "Small-group education with a low student-to-faculty ratio",
-    "Strategic focus on Peace, Information, and Global Culture"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "広島市立大学",
-    "name_en": "Hiroshima City University",
-    "address": "3-4-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3194, Japan",
-    "capacity": 2100
-  },
-  "stats": {
-    "international_students": 115,
-    "acceptance_rate": "15-25%"
-  },
-  "tuition": {
-    "admission_fee": 282000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "Faculty of International Studies",
-    "Faculty of Information Sciences",
-    "Faculty of Arts",
-    "Graduate School of International Studies",
-    "Graduate School of Information Sciences",
-    "Graduate School of Arts"
-  ],
-  "features": [
-    "세계적인 히로시마 평화 연구소 (HPI)",
-    "예술과 기술의 시너지에 대한 강력한 강조",
-    "낮은 학생 대 교수 비율의 소규모 교육",
-    "평화, 정보, 글로벌 문화에 대한 전략적 집중"
-  ],
-  "description": "히로시마 시립대학교는 평화와 국제 협력을 추구하는 히로시마의 역사적 사명을 구현하는 공립 대학입니다. 세계적인 평화 연구소와 예술-기술 융합, 소규모 교육이 특징입니다.",
-  "lang": "kr"
-}
+basic_info:
+  address: 3-4-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3194, Japan
+  capacity: 2100
+  name_en: Hiroshima City University
+  name_ja: 広島市立大学
+category: university
+date: '2026-03-03'
+description: 히로시마 시립대학교는 평화와 국제 협력을 추구하는 히로시마의 역사적 사명을 구현하는 공립 대학입니다. 세계적인 평화 연구소와
+  예술-기술 융합, 소규모 교육이 특징입니다.
+faculties:
+- Faculty of International Studies
+- Faculty of Information Sciences
+- Faculty of Arts
+- Graduate School of International Studies
+- Graduate School of Information Sciences
+- Graduate School of Arts
+features:
+- 세계적인 히로시마 평화 연구소 (HPI)
+- 예술과 기술의 시너지에 대한 강력한 강조
+- 낮은 학생 대 교수 비율의 소규모 교육
+- 평화, 정보, 글로벌 문화에 대한 전략적 집중
+id: univ_hiroshima-city-university-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 15-25%
+  international_students: 115
+tags:
+- World-class Hiroshima Peace Institute (HPI)
+- Strong emphasis on the synergy between Art and Technology
+- Small-group education with a low student-to-faculty ratio
+- Strategic focus on Peace, Information, and Global Culture
+thumbnail: /static/img/pin-univ.png
+title: 히로시마 시립대학교
+tuition:
+  admission_fee: 282000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 대학 개요: 히로시마의 정신

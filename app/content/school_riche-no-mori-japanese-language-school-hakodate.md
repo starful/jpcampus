@@ -12,6 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 1.5-Year University Advancement Course
   total_fees: 950000
+date: '2026-01-28'
 description: Riche no Mori Japanese Language School in Hakodate, Hokkaido, offers
   focused education for higher education in Japan, emphasizing practical language
   skills and intellectual discipline within a nurturing environment.

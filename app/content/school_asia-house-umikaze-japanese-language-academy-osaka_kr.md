@@ -1,59 +1,47 @@
 ---
-{
-  "basic_info": {
-    "address": "大阪府大阪市生野区中川西1-5-7",
-    "capacity": 100,
-    "name_en": "Asia House Attached Umikaze Japanese Language Academy",
-    "name_ja": "アジアハウス附属海風日本語学舎"
-  },
-  "category": "school",
-  "courses": [
-    {
-      "admission_month": "10",
-      "course_name": "2-Year University Prep Course",
-      "total_fees": 1138000
-    },
-    {
-      "admission_month": "4",
-      "course_name": "2-Year University Prep Course",
-      "total_fees": 1490000
-    },
-    {
-      "admission_month": "7",
-      "course_name": "1.75-Year University Prep Course",
-      "total_fees": 1316500
-    }
-  ],
-  "faculties": [],
-  "features": [
-    "기숙사 이용 가능",
-    "종합적인 장학금 제도",
-    "EJU 집중 대비",
-    "탄탄한 상급 학교 진학 지원",
-    "단기 어학 연수 옵션 (추정)"
-  ],
-  "id": "school_asia-house-umikaze-japanese-language-academy-osaka",
-  "lang": "kr",
-  "layout": "school",
-  "location": {
-    "lat": 34.66446,
-    "lng": 135.5406099
-  },
-  "source_url": "https://www.nisshinkyo.org/search/college.php?lng=1&id=341",
-  "stats": {},
-  "tags": [
-    "Dedicated Dormitory Accommodation Available",
-    "Comprehensive Scholarship System",
-    "Intensive EJU Preparation Focus",
-    "Strong Higher Education Progression Support",
-    "Short-term Study Options (Inferred)"
-  ],
-  "thumbnail": "/static/img/pin-school.png",
-  "title": "아시아 하우스 부속 우미카제 일본어학원",
-  "translated": true,
-  "tuition": {},
-  "description": "오사카에 위치한 아시아 하우스 부속 우미카제 일본어학원은 대학 진학을 목표로 하는 학생들을 위한 일본어 교육 기관입니다."
-}
+basic_info:
+  address: 大阪府大阪市生野区中川西1-5-7
+  capacity: 100
+  name_en: Asia House Attached Umikaze Japanese Language Academy
+  name_ja: アジアハウス附属海風日本語学舎
+category: school
+courses:
+- admission_month: '10'
+  course_name: 2-Year University Prep Course
+  total_fees: 1138000
+- admission_month: '4'
+  course_name: 2-Year University Prep Course
+  total_fees: 1490000
+- admission_month: '7'
+  course_name: 1.75-Year University Prep Course
+  total_fees: 1316500
+date: '2026-01-28'
+description: 오사카에 위치한 아시아 하우스 부속 우미카제 일본어학원은 대학 진학을 목표로 하는 학생들을 위한 일본어 교육 기관입니다.
+faculties: []
+features:
+- 기숙사 이용 가능
+- 종합적인 장학금 제도
+- EJU 집중 대비
+- 탄탄한 상급 학교 진학 지원
+- 단기 어학 연수 옵션 (추정)
+id: school_asia-house-umikaze-japanese-language-academy-osaka
+lang: kr
+layout: school
+location:
+  lat: 34.66446
+  lng: 135.5406099
+source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=341
+stats: {}
+tags:
+- Dedicated Dormitory Accommodation Available
+- Comprehensive Scholarship System
+- Intensive EJU Preparation Focus
+- Strong Higher Education Progression Support
+- Short-term Study Options (Inferred)
+thumbnail: /static/img/pin-school.png
+title: 아시아 하우스 부속 우미카제 일본어학원
+translated: true
+tuition: {}
 ---
 
 ## 학교 개요 및 철학

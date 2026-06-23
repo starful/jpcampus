@@ -1,47 +1,41 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_hanazono-university-kyoto-international-student-guide",
-  "title": "하나조노 대학교",
-  "description": "교토의 역사적 중심지에 위치한 하나조노 대학교는 선불교 정신을 바탕으로 인문학 및 사회복지 분야에서 깊이 있는 교육을 제공하며, 유학생을 위한 밀착형 지원을 아끼지 않는 명문 사립대학입니다.",
-  "category": "university",
-  "tags": [
-    "선불교 재단 기반",
-    "명성 높은 일본 사학과",
-    "사회복지 교육의 선구자",
-    "역사 도시 교토 중심부 위치"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "花園大学",
-    "name_en": "Hanazono University",
-    "address": "8-1 Nishinokyo Tsubonouchi-cho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8456, Japan",
-    "capacity": 2200
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "60-70%"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 760000
-  },
-  "faculties": [
-    "문학부",
-    "사회복지학부"
-  ],
-  "features": [
-    "선불교 재단 기반의 교육 이념",
-    "일본 역사 및 인문학 분야의 높은 전문성",
-    "일본 사회복지 교육의 선구적 역할",
-    "교토의 역사적 중심지에 위치한 평온한 캠퍼스"
-  ],
-  "lang": "kr"
-}
+basic_info:
+  address: 8-1 Nishinokyo Tsubonouchi-cho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8456,
+    Japan
+  capacity: 2200
+  name_en: Hanazono University
+  name_ja: 花園大学
+category: university
+date: '2026-04-04'
+description: 교토의 역사적 중심지에 위치한 하나조노 대학교는 선불교 정신을 바탕으로 인문학 및 사회복지 분야에서 깊이 있는 교육을 제공하며,
+  유학생을 위한 밀착형 지원을 아끼지 않는 명문 사립대학입니다.
+faculties:
+- 문학부
+- 사회복지학부
+features:
+- 선불교 재단 기반의 교육 이념
+- 일본 역사 및 인문학 분야의 높은 전문성
+- 일본 사회복지 교육의 선구적 역할
+- 교토의 역사적 중심지에 위치한 평온한 캠퍼스
+id: univ_hanazono-university-kyoto-international-student-guide
+lang: kr
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 60-70%
+  international_students: 145
+tags:
+- 선불교 재단 기반
+- 명성 높은 일본 사학과
+- 사회복지 교육의 선구자
+- 역사 도시 교토 중심부 위치
+thumbnail: /static/img/pin-univ.png
+title: 하나조노 대학교
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 760000
 ---
 
 ## 🏫 대학 개요

@@ -9,6 +9,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: General 2-Year Course
   total_fees: 1507000
+date: '2026-01-28'
 faculties: []
 features:
 - Dedicated Higher Education Advancement Program (EJU Preparation)

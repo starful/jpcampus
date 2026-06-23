@@ -1,51 +1,43 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_tohoku-gakuin-university-comprehensive-guide",
-  "title": "Tohoku Gakuin University",
-  "category": "university",
-  "tags": [
-    "Largest private university in the Tohoku region",
-    "Strong Christian educational foundation (Protestant)",
-    "State-of-the-art urban Itsutsubashi Campus",
-    "Excellent regional employment network"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "東北学院大学",
-    "name_en": "Tohoku Gakuin University",
-    "address": "1-3-1 Tsuchitoi, Aoba-ku, Sendai, Miyagi 980-8511, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 145,
-    "acceptance_rate": "Approximately 45-55% for International Applicants"
-  },
-  "tuition": {
-    "admission_fee": 200000,
-    "yearly_tuition": 1100000
-  },
-  "faculties": [
-    "Faculty of Literature",
-    "Faculty of Economics",
-    "Faculty of Business Administration",
-    "Faculty of Law",
-    "Faculty of Engineering",
-    "Faculty of Liberal Arts",
-    "Faculty of Regional Studies",
-    "Faculty of Informatics"
-  ],
-  "features": [
-    "Largest private university in the Tohoku region",
-    "Strong Christian educational foundation (Protestant)",
-    "State-of-the-art urban Itsutsubashi Campus",
-    "Excellent regional employment network"
-  ]
-}
+basic_info:
+  address: 1-3-1 Tsuchitoi, Aoba-ku, Sendai, Miyagi 980-8511, Japan
+  capacity: null
+  name_en: Tohoku Gakuin University
+  name_ja: 東北学院大学
+category: university
+date: '2026-03-08'
+faculties:
+- Faculty of Literature
+- Faculty of Economics
+- Faculty of Business Administration
+- Faculty of Law
+- Faculty of Engineering
+- Faculty of Liberal Arts
+- Faculty of Regional Studies
+- Faculty of Informatics
+features:
+- Largest private university in the Tohoku region
+- Strong Christian educational foundation (Protestant)
+- State-of-the-art urban Itsutsubashi Campus
+- Excellent regional employment network
+id: univ_tohoku-gakuin-university-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: Approximately 45-55% for International Applicants
+  international_students: 145
+tags:
+- Largest private university in the Tohoku region
+- Strong Christian educational foundation (Protestant)
+- State-of-the-art urban Itsutsubashi Campus
+- Excellent regional employment network
+thumbnail: /static/img/pin-univ.png
+title: Tohoku Gakuin University
+tuition:
+  admission_fee: 200000
+  yearly_tuition: 1100000
 ---
 
 ## 🏫 University Overview

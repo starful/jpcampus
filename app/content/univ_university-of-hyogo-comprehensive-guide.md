@@ -1,53 +1,45 @@
 ---
-{
-  "layout": "school",
-  "id": "univ_university-of-hyogo-comprehensive-guide",
-  "title": "University of Hyogo",
-  "category": "university",
-  "tags": [
-    "Public University Prestige",
-    "Diverse Multi-Campus System",
-    "Global Business Course (GBC) in English",
-    "Strategic Industry-Academia Collaboration",
-    "Proximity to World-Class Research Facilities (SPring-8)"
-  ],
-  "thumbnail": "/static/img/pin-univ.png",
-  "location": {
-    "lat": 35.6812,
-    "lng": 139.7671
-  },
-  "basic_info": {
-    "name_ja": "兵庫県立大学",
-    "name_en": "University of Hyogo",
-    "address": "8-2-1 Gakuen-nishi-machi, Nishi-ku, Kobe-shi, Hyogo 651-2197, Japan",
-    "capacity": null
-  },
-  "stats": {
-    "international_students": 382,
-    "acceptance_rate": "20-30% (Estimated)"
-  },
-  "tuition": {
-    "admission_fee": 423000,
-    "yearly_tuition": 535800
-  },
-  "faculties": [
-    "School of Economics",
-    "School of Business Administration",
-    "School of Engineering",
-    "School of Science",
-    "School of Nursing Art and Science",
-    "School of Human Science and Environment",
-    "School of Social Information Science",
-    "School of Global Business"
-  ],
-  "features": [
-    "Public University Prestige",
-    "Diverse Multi-Campus System",
-    "Global Business Course (GBC) in English",
-    "Strategic Industry-Academia Collaboration",
-    "Proximity to World-Class Research Facilities (SPring-8)"
-  ]
-}
+basic_info:
+  address: 8-2-1 Gakuen-nishi-machi, Nishi-ku, Kobe-shi, Hyogo 651-2197, Japan
+  capacity: null
+  name_en: University of Hyogo
+  name_ja: 兵庫県立大学
+category: university
+date: '2026-03-03'
+faculties:
+- School of Economics
+- School of Business Administration
+- School of Engineering
+- School of Science
+- School of Nursing Art and Science
+- School of Human Science and Environment
+- School of Social Information Science
+- School of Global Business
+features:
+- Public University Prestige
+- Diverse Multi-Campus System
+- Global Business Course (GBC) in English
+- Strategic Industry-Academia Collaboration
+- Proximity to World-Class Research Facilities (SPring-8)
+id: univ_university-of-hyogo-comprehensive-guide
+layout: school
+location:
+  lat: 35.6812
+  lng: 139.7671
+stats:
+  acceptance_rate: 20-30% (Estimated)
+  international_students: 382
+tags:
+- Public University Prestige
+- Diverse Multi-Campus System
+- Global Business Course (GBC) in English
+- Strategic Industry-Academia Collaboration
+- Proximity to World-Class Research Facilities (SPring-8)
+thumbnail: /static/img/pin-univ.png
+title: University of Hyogo
+tuition:
+  admission_fee: 423000
+  yearly_tuition: 535800
 ---
 
 ## 🏫 University Overview
