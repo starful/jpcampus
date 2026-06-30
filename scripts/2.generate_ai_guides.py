@@ -4,6 +4,7 @@ import json
 import time
 import logging
 import glob
+import sys
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
@@ -127,15 +128,13 @@ def process_topic(row):
         return f"❌ Failed: {slug}"
 
 def main():
-    if not os.path.exists(INPUT_CSV):
-        print(f"❌ CSV file not found: {INPUT_CSV}")
-        return
-    if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
 
     csv_path = _guide_topics_csv()
     if not os.path.exists(csv_path):
         print(f"❌ CSV file not found: {csv_path}")
-        return
+        sys.exit(1)
 
     with open(csv_path, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
@@ -144,24 +143,34 @@ def main():
     processed_slugs = load_history()
     topics_to_process = [row for row in all_topics if row['slug'] not in processed_slugs]
     topics_to_process = topics_to_process[: _guide_batch_limit()]
-    
+
     print(f"🚀 Total: {len(all_topics)} | Processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
+    if not topics_to_process:
+        print("✅ No pending guide topics in queue.")
+        return
+
     print(f"⚡ Running with {MAX_WORKERS} workers...")
 
+    failures = 0
     # --- 멀티스레딩 적용 ---
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_topic = {executor.submit(process_topic, row): row for row in topics_to_process}
-        
+
         for future in tqdm(as_completed(future_to_topic), total=len(topics_to_process)):
             row = future_to_topic[future]
             try:
                 result = future.result()
-                # 로깅 시스템 활용
                 logging.info(result)
+                if result and str(result).startswith("❌"):
+                    failures += 1
             except Exception as e:
+                failures += 1
                 logging.error(f"Error in {row['slug']}: {e}")
 
     print("\n🎉 Generation finished.")
+    if failures:
+        print(f"❌ {failures} guide(s) failed")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

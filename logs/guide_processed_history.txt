@@ -119,3 +119,9 @@ glasses-jins-zoff
 teaching-english-baito
 hotel-cleaning-baito
 part-time-delivery-jobs
+cost-seed
+housing-seed
+visa-seed
+healthcare-seed
+parttime-seed
+bank-seed

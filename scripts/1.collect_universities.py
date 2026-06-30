@@ -1,12 +1,14 @@
 import csv
 import json
 import os
+import sys
 import time
 import requests
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.generativeai.types import GenerationConfig
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
+from topic_queue_csv import resolve as resolve_queue_csv
 
 # --- 설정 ---
 setup_logging("univ_gen.log")
@@ -15,6 +17,10 @@ model = setup_gemini()
 LIMIT = 20
 MAX_WORKERS = 5  # 동시에 처리할 개수 (Gemini 유료 계정은 10~20, 무료는 2~5 권장)
 INPUT_CSV = os.path.join(DATA_DIR, "univ_list_100.csv")
+
+
+def _universities_csv() -> str:
+    return resolve_queue_csv("universities", INPUT_CSV)
 OUTPUT_DIR = CONTENT_DIR
 HISTORY_FILE = os.path.join(LOG_DIR, "univ_processed_history.txt")
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
@@ -128,34 +134,46 @@ def process_university(univ):
     return f"✅ Saved: {slug}.md"
 
 def main():
-    if not os.path.exists(INPUT_CSV):
-        print(f"❌ {INPUT_CSV} file not found.")
-        return
+    input_csv = _universities_csv()
+    if not os.path.exists(input_csv):
+        print(f"❌ {input_csv} file not found.")
+        sys.exit(1)
 
     processed_list = load_history()
     univ_list = []
-    with open(INPUT_CSV, 'r', encoding='utf-8') as f:
+    with open(input_csv, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if row['name_ja'] not in processed_list:
-                univ_list.append(row)
-            
-    univ_list = univ_list[:LIMIT] # 처리할 개수 제한
-    print(f"🚀 Total Universities to process: {len(univ_list)} | Workers: {MAX_WORKERS}")
+            name_ja = (row.get('name_ja') or '').strip()
+            if not name_ja or name_ja in processed_list:
+                continue
+            univ_list.append(row)
 
+    univ_list = univ_list[:LIMIT]  # 처리할 개수 제한
+    print(f"🚀 Total Universities to process: {len(univ_list)} | Workers: {MAX_WORKERS}")
+    if not univ_list:
+        print("✅ No pending universities in queue.")
+        return
+
+    failures = 0
     # --- 멀티스레딩 처리 부분 ---
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        # 작업 등록
         future_to_univ = {executor.submit(process_university, univ): univ for univ in univ_list}
-        
-        # tqdm으로 진행률 표시
+
         for future in tqdm(as_completed(future_to_univ), total=len(univ_list)):
             univ = future_to_univ[future]
+            name_ja = univ.get('name_ja', '?')
             try:
                 result = future.result()
-                # print(result) # 필요시 결과 출력
+                if result and str(result).startswith("❌"):
+                    failures += 1
             except Exception as e:
-                print(f"⚠️ {univ['name_ja']} generated an exception: {e}")
+                failures += 1
+                print(f"⚠️ {name_ja} generated an exception: {e}")
+
+    if failures:
+        print(f"❌ {failures} universit(y/ies) failed")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
