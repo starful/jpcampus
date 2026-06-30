@@ -60,7 +60,7 @@ TOPICS = [
             "tag": "national" 
         },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1525921429624-479b6a29d84c?w=500" # 클래식한 캠퍼스 건물
+        "thumbnail": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500" # 클래식한 캠퍼스 건물
     },
 
     # 5. 애니메이션, 만화, 디자인 전공자를 위한 예술 학교

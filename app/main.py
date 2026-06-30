@@ -16,7 +16,7 @@ from xml.sax.saxutils import escape as xml_escape
 from app.utils import (
     calculate_tag_counts, assign_thumbnails, get_ui_text, get_type_filters, get_region_filters,
     load_school_data, load_guides, prepare_compare_items, compare_fee_value,
-    build_compare_export,
+    build_compare_export, resolve_guide_thumbnail,
     STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
 )
 from app.content_new import enrich_items
@@ -613,7 +613,8 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
 
     post = frontmatter.load(md_path)
     content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code', 'nl2br'])
-    item = post.metadata
+    item = dict(post.metadata)
+    item["thumbnail"] = resolve_guide_thumbnail(item, slug)
 
     title_raw, desc_raw = _apply_guide_serp_overrides(slug, lang, item)
 

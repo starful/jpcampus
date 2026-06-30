@@ -11,7 +11,7 @@
     "best-national-universities-japan"
   ],
   "description": "Explore our top picks for Affordable Excellence: Top 5 National Universities for International Students. Discover the best schools matching your career and lifestyle goals in Japan.",
-  "thumbnail": "https://images.unsplash.com/photo-1525921429624-479b6a29d84c?w=500",
+  "thumbnail": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500",
   "date": "2026-06-30"
 }
 ---

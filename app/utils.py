@@ -168,9 +168,19 @@ GUIDE_THUMBNAILS =[
     "https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?w=500", "https://images.unsplash.com/photo-1551322120-c697cf88fbdc?w=500",
     "https://images.unsplash.com/photo-1573655349936-de6bed86f839?w=500", "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?w=500",
     "https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=500",
-    "https://images.unsplash.com/photo-1524413840847-05c04c1f964b?w=500", "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=500"
+    "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500", "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=500"
 ]
 # =========================================================================
+
+def resolve_guide_thumbnail(meta: dict, guide_id: str) -> str:
+    """Use frontmatter thumbnail when set; otherwise stable pool by guide id."""
+    thumb = (meta.get("thumbnail") or "").strip()
+    if thumb.startswith(("http://", "https://", "/")):
+        return thumb
+    key = (guide_id or "guide").replace("_kr", "")
+    hash_val = int(hashlib.md5(key.encode("utf-8")).hexdigest(), 16)
+    return GUIDE_THUMBNAILS[hash_val % len(GUIDE_THUMBNAILS)]
+
 
 def assign_thumbnails(items, item_category="school"):
     if item_category == "university": thumb_pool = UNIV_THUMBNAILS
@@ -368,12 +378,7 @@ def load_guides(lang="en"):
             post = frontmatter.load(filepath)
             meta = post.metadata
             guide_id = str(meta.get('id', '')).replace('_kr', '')
-            
-            if meta.get('is_featured'):
-                safe_thumbnail = meta.get('thumbnail', '')
-            else:
-                hash_val = int(hashlib.md5(guide_id.encode('utf-8')).hexdigest(), 16)
-                safe_thumbnail = GUIDE_THUMBNAILS[hash_val % len(GUIDE_THUMBNAILS)]
+            safe_thumbnail = resolve_guide_thumbnail(meta, guide_id)
 
             guides.append(enrich_item({
                 "title": meta.get('title', 'Untitled'), 

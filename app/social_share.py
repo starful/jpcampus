@@ -10,7 +10,7 @@ from urllib.parse import quote
 
 import frontmatter
 
-from app.utils import CONTENT_DIR, GUIDE_THUMBNAILS, assign_thumbnails
+from app.utils import CONTENT_DIR, assign_thumbnails, resolve_guide_thumbnail
 
 SOCIAL_CARD_VERSION = "2"
 _FETCH_UA = "JPCampus/1.0 (+https://jpcampus.net)"
@@ -66,12 +66,8 @@ def share_context(domain: str, kind: str, identifier: str, title: str, lang: str
 
 
 def _guide_thumbnail(item: dict, guide_slug: str) -> str:
-    thumb = (item.get("thumbnail") or "").strip()
-    if item.get("is_featured") and thumb:
-        return thumb
     guide_id = str(item.get("id") or guide_slug).replace("_kr", "")
-    hash_val = int(hashlib.md5(guide_id.encode("utf-8")).hexdigest(), 16)
-    return GUIDE_THUMBNAILS[hash_val % len(GUIDE_THUMBNAILS)]
+    return resolve_guide_thumbnail(item, guide_id)
 
 
 def resolve_thumbnail_url(domain: str, item: dict, item_type: str, *, guide_slug: str | None = None) -> str:

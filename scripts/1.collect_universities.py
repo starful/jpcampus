@@ -14,7 +14,7 @@ from topic_queue_csv import resolve as resolve_queue_csv
 setup_logging("univ_gen.log")
 model = setup_gemini()
 
-LIMIT = 20
+LIMIT = 6
 MAX_WORKERS = 5  # 동시에 처리할 개수 (Gemini 유료 계정은 10~20, 무료는 2~5 권장)
 INPUT_CSV = os.path.join(DATA_DIR, "univ_list_100.csv")
 
