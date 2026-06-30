@@ -172,9 +172,16 @@ GUIDE_THUMBNAILS =[
 ]
 # =========================================================================
 
+_BROKEN_THUMBNAIL_REDIRECTS = {
+    # Dead Unsplash IDs — remap so stale frontmatter still renders.
+    "https://images.unsplash.com/photo-1454165833767-027ffea9e778?w=500": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500",
+    "https://images.unsplash.com/photo-1525921429624-6ba2fc41daa4?w=500": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=500",
+}
+
 def resolve_guide_thumbnail(meta: dict, guide_id: str) -> str:
     """Use frontmatter thumbnail when set; otherwise stable pool by guide id."""
     thumb = (meta.get("thumbnail") or "").strip()
+    thumb = _BROKEN_THUMBNAIL_REDIRECTS.get(thumb, thumb)
     if thumb.startswith(("http://", "https://", "/")):
         return thumb
     key = (guide_id or "guide").replace("_kr", "")

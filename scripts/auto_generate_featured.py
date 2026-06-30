@@ -24,7 +24,7 @@ TOPICS = [
             "tag": "business" 
         },
         "count": 5,
-        "thumbnail": "https://images.unsplash.com/photo-1454165833767-027ffea9e778?w=500" # 비즈니스 미팅 이미지
+        "thumbnail": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500" # 비즈니스 미팅 이미지
     },
 
     # 2. 여학생을 위한 안전하고 전문적인 여자 대학교/교육기관

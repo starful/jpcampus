@@ -11,7 +11,7 @@
     "career-success-business-schools"
   ],
   "description": "Explore our top picks for Boost Your Career: Top 5 Japanese Schools for Job Seekers. Discover the best schools matching your career and lifestyle goals in Japan.",
-  "thumbnail": "https://images.unsplash.com/photo-1454165833767-027ffea9e778?w=500",
+  "thumbnail": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500",
   "date": "2026-06-30"
 }
 ---
