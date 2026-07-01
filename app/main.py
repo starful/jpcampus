@@ -5,8 +5,6 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse, PlainTextResponse, Response, FileResponse, RedirectResponse
 import json
 import os
-import frontmatter
-import markdown
 from dotenv import load_dotenv
 from datetime import datetime, timezone
 from pathlib import Path
@@ -20,6 +18,7 @@ from app.utils import (
     STATIC_DIR, CONTENT_DIR, TEMPLATES_DIR
 )
 from app.content_new import enrich_items
+from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content
 from app.reactions import router as reactions_router
 from app.social_share import (
     card_page_path,
@@ -562,18 +561,11 @@ async def read_root(request: Request, lang: str = Query("en")):
 
 @app.get("/school/{school_id}", response_class=HTMLResponse)
 async def read_school_detail(request: Request, school_id: str, lang: str = Query("en")):
-    filename = f"{school_id}_kr.md" if lang == "kr" else f"{school_id}.md"
-    md_path = os.path.join(CONTENT_DIR, filename)
-    if not os.path.exists(md_path) and lang == "kr":
-        md_path = os.path.join(CONTENT_DIR, f"{school_id}.md")
-    
-    if not os.path.exists(md_path):
+    try:
+        item, item_type, content_html = load_school_content(school_id, lang)
+    except ContentNotFoundError:
         raise HTTPException(status_code=404, detail="School content file not found")
-    
-    post = frontmatter.load(md_path)
-    content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code', 'nl2br'])
-    item = post.metadata
-    item_type = 'university' if item.get('category') == 'university' else 'school'
+
     share_title = (
         item.get("title")
         or item.get("basic_info", {}).get("name_en")
@@ -603,17 +595,11 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
 
 @app.get("/guide/{slug}", response_class=HTMLResponse)
 async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
-    filename = f"guide_{slug}_kr.md" if lang == "kr" else f"guide_{slug}.md"
-    md_path = os.path.join(CONTENT_DIR, filename)
-    if not os.path.exists(md_path) and lang == "kr":
-        md_path = os.path.join(CONTENT_DIR, f"guide_{slug}.md")
-
-    if not os.path.exists(md_path):
+    try:
+        item, content_html = load_guide_content(slug, lang)
+    except ContentNotFoundError:
         raise HTTPException(status_code=404, detail="Guide content file not found")
 
-    post = frontmatter.load(md_path)
-    content_html = markdown.markdown(post.content, extensions=['tables', 'fenced_code', 'nl2br'])
-    item = dict(post.metadata)
     item["thumbnail"] = resolve_guide_thumbnail(item, slug)
 
     title_raw, desc_raw = _apply_guide_serp_overrides(slug, lang, item)

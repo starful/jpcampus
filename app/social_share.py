@@ -2,14 +2,12 @@
 from __future__ import annotations
 
 import io
-import os
 import re
 import urllib.request
 from urllib.parse import quote
 
-import frontmatter
-
-from app.utils import CONTENT_DIR, assign_thumbnails, resolve_guide_thumbnail
+from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content
+from app.utils import assign_thumbnails, resolve_guide_thumbnail
 
 SOCIAL_CARD_VERSION = "2"
 _FETCH_UA = "JPCampus/1.0 (+https://jpcampus.net)"
@@ -84,30 +82,20 @@ def resolve_thumbnail_url(domain: str, item: dict, item_type: str, *, guide_slug
 
 
 def load_school_item(school_id: str, lang: str) -> tuple[dict, str]:
-    filename = f"{school_id}_kr.md" if lang == "kr" else f"{school_id}.md"
-    md_path = os.path.join(CONTENT_DIR, filename)
-    if not os.path.exists(md_path) and lang == "kr":
-        md_path = os.path.join(CONTENT_DIR, f"{school_id}.md")
-    if not os.path.exists(md_path):
-        raise FileNotFoundError(school_id)
-    post = frontmatter.load(md_path)
-    item = dict(post.metadata)
+    try:
+        item, item_type, _content_html = load_school_content(school_id, lang)
+    except ContentNotFoundError as exc:
+        raise FileNotFoundError(school_id) from exc
     item["id"] = school_id
-    item_type = "university" if item.get("category") == "university" else "school"
     assign_thumbnails([item], item_type)
     return item, item_type
 
 
 def load_guide_item(slug: str, lang: str) -> dict:
-    filename = f"guide_{slug}_kr.md" if lang == "kr" else f"guide_{slug}.md"
-    md_path = os.path.join(CONTENT_DIR, filename)
-    if not os.path.exists(md_path) and lang == "kr":
-        md_path = os.path.join(CONTENT_DIR, f"guide_{slug}.md")
-    if not os.path.exists(md_path):
-        raise FileNotFoundError(slug)
-    post = frontmatter.load(md_path)
-    item = dict(post.metadata)
-    item.setdefault("id", slug)
+    try:
+        item, _content_html = load_guide_content(slug, lang)
+    except ContentNotFoundError as exc:
+        raise FileNotFoundError(slug) from exc
     return item
 
 
