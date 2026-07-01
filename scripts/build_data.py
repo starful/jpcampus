@@ -7,12 +7,11 @@ import frontmatter
 from datetime import datetime
 import re
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPT_DIR)
+from common import BASE_DIR, CONTENT_DIR  # noqa: E402
 from md_dates import ensure_post_date, save_post  # noqa: E402
 
-CONTENT_DIR = os.path.join(BASE_DIR, 'app', 'content')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'app', 'static', 'json')
 
 def build_json(lang_suffix, output_filename):

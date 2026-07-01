@@ -2,11 +2,15 @@
 import csv
 import json
 import os
+import sys
 from datetime import datetime, timezone
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_CSV = os.path.join(BASE_DIR, "data", "longtail_topics_seed_20.csv")
-OUTPUT_DIR = os.path.join(BASE_DIR, "app", "content")
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, SCRIPT_DIR)
+from common import BASE_DIR, CONTENT_DIR, DATA_DIR  # noqa: E402
+
+DATA_CSV = os.path.join(DATA_DIR, "longtail_topics_seed_20.csv")
+OUTPUT_DIR = CONTENT_DIR
 
 DEFAULT_THUMBNAIL = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500"
 

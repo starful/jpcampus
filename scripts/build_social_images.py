@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 import os
-import re
 import sys
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, SCRIPT_DIR)
+from common import BASE_DIR, CONTENT_DIR  # noqa: E402
+
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
@@ -18,7 +20,6 @@ from app.social_share import (
     static_social_image_key,
 )
 
-CONTENT_DIR = os.path.join(BASE_DIR, "app", "content")
 OUTPUT_DIR = os.path.join(BASE_DIR, "app", "static", "social")
 
 

@@ -100,9 +100,6 @@ def get_region_filters(lang="en"):
     ]
 
 
-def get_quick_filters(lang="en"):
-    return get_type_filters(lang) + get_region_filters(lang)[1:]
-
 def get_client_ip(request: Request):
     try:
         x_forwarded_for = request.headers.get("X-Forwarded-For")

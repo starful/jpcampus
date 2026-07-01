@@ -22,3 +22,6 @@ schools_complete_db.json
 # [IDE] 에디터 설정 파일
 .vscode/
 .idea/
+
+# [로그] 스크립트 실행 시 생성되는 로그
+logs/
