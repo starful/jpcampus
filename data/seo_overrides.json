@@ -1,0 +1,105 @@
+{
+  "high_ctr_slugs": ["coe-denial", "university-clubs"],
+  "serp_overrides": {
+    "amazon-prime-student": {
+      "en": {
+        "title": "Amazon Prime Student Japan: Price, Benefits & Eligibility (2026)",
+        "description": "Prime Student Japan pricing vs regular Prime, shipping benefits, Prime Video, student eligibility, and whether it saves money for international students."
+      },
+      "kr": {
+        "title": "일본 아마존 프라임 스튜던트: 가격·혜택·가입 조건 (2026)",
+        "description": "일반 프라임 대비 학생 요금, 배송·영상 혜택, 유학생 가입 시 확인할 조건을 짧게 비교합니다."
+      }
+    },
+    "sim-card-guide": {
+      "kr": {
+        "title": "일본 유학생 SIM·휴대폰: 통신사·알뜰폰(MVNO) 비교와 개통 절차",
+        "description": "docomo/Softbank/KDDI와 MVNO 특징, 유학생에게 맞는 요금제 고르는 기준, 개통 시 준비물을 정리했습니다."
+      }
+    },
+    "eju-subjects": {
+      "en": {
+        "title": "EJU Subject Tests: Japan & World, Math, Science — How to Choose (2026)",
+        "description": "Pick EJU subjects with admissions in mind: syllabus scope, study order, and how Japan & the World, Science, and Math scores fit university requirements."
+      }
+    }
+  },
+  "faq": {
+    "housing": {
+      "en": [
+        {
+          "q": "What are the main housing options for international students in Japan?",
+          "a": "Most students choose between school dormitories (ryo), share houses, or private apartments. Each differs in upfront costs, flexibility, and commute time."
+        },
+        {
+          "q": "Which housing type usually has the lowest move-in cost?",
+          "a": "School dormitories often have lower upfront costs than private apartments, but availability and rules vary by school."
+        },
+        {
+          "q": "What should I check before signing a rental contract in Japan?",
+          "a": "Review key money (reikin), deposit (shikikin), renewal fees, fire insurance, and cancellation terms with your school or agent."
+        }
+      ],
+      "kr": [
+        {
+          "q": "일본 유학생 주거는 어떤 선택지가 있나요?",
+          "a": "기숙사(寮), 쉐어하우스, 자취(원룸·아파트)가 대표적이며 초기비용·통학·규칙이 서로 다릅니다."
+        },
+        {
+          "q": "초기비용을 줄이려면 어떤 유형이 유리할까요?",
+          "a": "학교 기숙사는 원룸 대비 초기비용 부담이 적은 경우가 많지만, 공실과 규칙을 먼저 확인해야 합니다."
+        },
+        {
+          "q": "계약 전 꼭 확인해야 할 항목은 무엇인가요?",
+          "a": "礼金·敷金·更新料·火災保険·解約条件 등을 서면으로 확인하고, 학교 안내 또는 공인 중개와 절차를 맞추는 것이 안전합니다."
+        }
+      ]
+    },
+    "amazon-prime-student": {
+      "en": [
+        {
+          "q": "How much does Amazon Prime Student cost in Japan?",
+          "a": "Pricing is lower than regular Prime; compare monthly and annual student plans against how often you ship and stream."
+        },
+        {
+          "q": "Who can sign up for Amazon Prime Student in Japan?",
+          "a": "Eligibility depends on Amazon's student verification rules; confirm your student status and account region requirements before subscribing."
+        }
+      ],
+      "kr": [
+        {
+          "q": "일본에서 아마존 프라임 스튜던트는 얼마인가요?",
+          "a": "일반 프라임보다 낮은 월/연 요금이 특징이며, 배송·스트리밍 이용 빈도에 따라 이득이 달라집니다."
+        },
+        {
+          "q": "유학생도 가입할 수 있나요?",
+          "a": "아마존의 학생 인증·계정 지역 조건을 충족해야 하므로, 가입 전 요건을 확인하는 것이 좋습니다."
+        }
+      ]
+    },
+    "sim-card-guide": {
+      "kr": [
+        {
+          "q": "유학생은 일본에서 어떤 통신 선택지가 있나요?",
+          "a": "대형 통신사(MNO)와 저가 알뜰폰(MVNO) 중에서 데이터·통화 필요량과 체류 기간에 맞게 고를 수 있습니다."
+        },
+        {
+          "q": "개통할 때 무엇을 준비해야 하나요?",
+          "a": "여권·재류카드 등 신분과 주소 확인 서류가 필요한 경우가 많습니다. 절차는 회사·매장마다 다릅니다."
+        }
+      ]
+    },
+    "eju-subjects": {
+      "en": [
+        {
+          "q": "Which EJU subject tests should I take?",
+          "a": "Choose subjects based on each university program's requirements, then align your study plan to the official syllabus scope."
+        },
+        {
+          "q": "Is Japan and the World required for every university?",
+          "a": "Requirements vary by school and faculty; always verify the latest admissions bulletin for your target programs."
+        }
+      ]
+    }
+  }
+}
