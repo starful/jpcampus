@@ -12,7 +12,7 @@ from common import BASE_DIR, CONTENT_DIR  # noqa: E402
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
-from app.main import DOMAIN
+from app.config import DOMAIN
 from app.social_share import (
     fetch_social_jpeg,
     load_guide_item,
