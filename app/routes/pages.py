@@ -10,7 +10,7 @@ from fastapi.responses import HTMLResponse, PlainTextResponse, Response
 
 from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY
 from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content
-from app.content_new import enrich_items
+from app.content_badges import enrich_items
 from app.deps import templates
 from app.family_sites import cross_links_for, inject_family_context
 from app.related import pick_compare_guides, pick_related_guides, pick_related_schools
