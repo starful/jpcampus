@@ -8,25 +8,6 @@
         });
     }
 
-    function copyText(text) {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-            return navigator.clipboard.writeText(text);
-        }
-        var ta = document.createElement("textarea");
-        ta.value = text;
-        ta.setAttribute("readonly", "");
-        ta.style.position = "absolute";
-        ta.style.left = "-9999px";
-        document.body.appendChild(ta);
-        ta.select();
-        try {
-            document.execCommand("copy");
-            return Promise.resolve();
-        } finally {
-            document.body.removeChild(ta);
-        }
-    }
-
     function flashButton(btn, label) {
         var original = btn.textContent;
         btn.textContent = label;
@@ -69,7 +50,8 @@
                 }
                 if (method === "copy_link") {
                     event.preventDefault();
-                    copyText(shareUrl).then(function () {
+                    JPCampusClipboard.copyText(shareUrl).then(function (ok) {
+                        if (!ok) return;
                         flashButton(el, copyLabel);
                         trackShare("copy_link", shareId);
                     });

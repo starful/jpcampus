@@ -54,28 +54,6 @@
         }
     }
 
-    async function copyText(text) {
-        try {
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-                await navigator.clipboard.writeText(text);
-                return true;
-            }
-        } catch (_) { /* fallback below */ }
-        const ta = document.createElement("textarea");
-        ta.value = text;
-        ta.style.position = "fixed";
-        ta.style.left = "-9999px";
-        document.body.appendChild(ta);
-        ta.select();
-        try {
-            return document.execCommand("copy");
-        } catch (_) {
-            return false;
-        } finally {
-            document.body.removeChild(ta);
-        }
-    }
-
     function buildCompareTextFromExport(data) {
         if (!data || !data.items || !data.items.length) return "";
         const site = data.siteName || "Campus";
@@ -233,7 +211,7 @@
         const copyUrlBtn = event.target.closest("[data-compare-copy-url]");
         if (copyUrlBtn) {
             event.preventDefault();
-            copyText(window.location.href).then((ok) => {
+            JPCampusClipboard.copyText(window.location.href).then((ok) => {
                 if (ok) {
                     showToast(cfg.toastCopied || "Copied!");
                     trackEvent("compare_copy_url", "");
@@ -246,7 +224,7 @@
         if (copyTextBtn) {
             event.preventDefault();
             const text = buildCompareTextFromExport(window.COMPARE_PAGE_DATA);
-            copyText(text).then((ok) => {
+            JPCampusClipboard.copyText(text).then((ok) => {
                 if (ok) {
                     showToast(cfg.toastCopied || "Copied!");
                     trackEvent("compare_copy_text", "");

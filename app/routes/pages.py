@@ -42,6 +42,23 @@ from app.utils import (
 router = APIRouter()
 
 
+def page_context(
+    path: str,
+    lang: str,
+    *,
+    title: str,
+    description: str,
+) -> dict:
+    return {
+        "canonical_url": build_canonical_url(path, lang),
+        "current_lang": lang,
+        "hreflang_urls": build_hreflang_urls(path),
+        "updated_at": default_updated_at(),
+        "meta_title": build_meta_title(title, lang),
+        "meta_description": build_meta_description(description, description),
+    }
+
+
 def _campus_address(item: dict) -> str | None:
     basic = item.get("basic_info") or {}
     return basic.get("address") or item.get("address")
@@ -395,44 +412,26 @@ async def compare_page(request: Request, ids: str = "", lang: str = Query("en"))
 
 @router.get("/about", response_class=HTMLResponse)
 async def about(request: Request, lang: str = Query("en")):
-    return templates.TemplateResponse(request, "about.html", {
-        "canonical_url": build_canonical_url("/about", lang),
-        "current_lang": lang,
-        "hreflang_urls": build_hreflang_urls("/about"),
-        "updated_at": default_updated_at(),
-        "meta_title": build_meta_title("About JP Campus", lang),
-        "meta_description": build_meta_description(
-            "Learn how JP Campus helps international students choose schools in Japan.",
-            "Learn how JP Campus helps international students choose schools in Japan."
-        ),
-    })
+    return templates.TemplateResponse(request, "about.html", page_context(
+        "/about", lang,
+        title="About JP Campus",
+        description="Learn how JP Campus helps international students choose schools in Japan.",
+    ))
 
 
 @router.get("/contact", response_class=HTMLResponse)
 async def contact(request: Request, lang: str = Query("en")):
-    return templates.TemplateResponse(request, "contact.html", {
-        "canonical_url": build_canonical_url("/contact", lang),
-        "current_lang": lang,
-        "hreflang_urls": build_hreflang_urls("/contact"),
-        "updated_at": default_updated_at(),
-        "meta_title": build_meta_title("Contact JP Campus", lang),
-        "meta_description": build_meta_description(
-            "Contact JP Campus for corrections, feedback, or collaboration.",
-            "Contact JP Campus for corrections, feedback, or collaboration."
-        ),
-    })
+    return templates.TemplateResponse(request, "contact.html", page_context(
+        "/contact", lang,
+        title="Contact JP Campus",
+        description="Contact JP Campus for corrections, feedback, or collaboration.",
+    ))
 
 
 @router.get("/policy", response_class=HTMLResponse)
 async def policy(request: Request, lang: str = Query("en")):
-    return templates.TemplateResponse(request, "policy.html", {
-        "canonical_url": build_canonical_url("/policy", lang),
-        "current_lang": lang,
-        "hreflang_urls": build_hreflang_urls("/policy"),
-        "updated_at": default_updated_at(),
-        "meta_title": build_meta_title("Privacy Policy", lang),
-        "meta_description": build_meta_description(
-            "Read how JP Campus handles privacy, cookies, and data usage.",
-            "Read how JP Campus handles privacy, cookies, and data usage."
-        ),
-    })
+    return templates.TemplateResponse(request, "policy.html", page_context(
+        "/policy", lang,
+        title="Privacy Policy",
+        description="Read how JP Campus handles privacy, cookies, and data usage.",
+    ))

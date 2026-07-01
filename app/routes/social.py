@@ -101,39 +101,31 @@ async def guide_social_card(request: Request, slug: str, lang: str = Query("en")
     })
 
 
-@router.api_route("/favicon.ico", methods=["GET", "HEAD"], include_in_schema=False)
-async def favicon():
-    return FileResponse(os.path.join(STATIC_DIR, "img", "favicon.ico"))
+_STATIC_ROOT_FILES: dict[str, tuple[str, str | None]] = {
+    "/favicon.ico": ("img/favicon.ico", None),
+    "/favicon-32x32.png": ("img/favicon-32x32.png", "image/png"),
+    "/favicon-48x48.png": ("img/favicon-48x48.png", "image/png"),
+    "/apple-touch-icon.png": ("img/apple-touch-icon.png", "image/png"),
+    "/android-chrome-192x192.png": ("img/android-chrome-192x192.png", "image/png"),
+    "/android-chrome-512x512.png": ("img/android-chrome-512x512.png", "image/png"),
+    "/site.webmanifest": ("site.webmanifest", "application/manifest+json"),
+}
 
 
-@router.api_route("/favicon-32x32.png", methods=["GET", "HEAD"], include_in_schema=False)
-async def favicon_32():
-    return FileResponse(os.path.join(STATIC_DIR, "img", "favicon-32x32.png"))
+def _make_static_handler(rel_path: str, media_type: str | None):
+    async def handler():
+        path = os.path.join(STATIC_DIR, rel_path)
+        if media_type:
+            return FileResponse(path, media_type=media_type)
+        return FileResponse(path)
+
+    return handler
 
 
-@router.api_route("/favicon-48x48.png", methods=["GET", "HEAD"], include_in_schema=False)
-async def favicon_48():
-    return FileResponse(os.path.join(STATIC_DIR, "img", "favicon-48x48.png"))
-
-
-@router.api_route("/apple-touch-icon.png", methods=["GET", "HEAD"], include_in_schema=False)
-async def apple_touch_icon():
-    return FileResponse(os.path.join(STATIC_DIR, "img", "apple-touch-icon.png"))
-
-
-@router.api_route("/android-chrome-192x192.png", methods=["GET", "HEAD"], include_in_schema=False)
-async def android_chrome_192():
-    return FileResponse(os.path.join(STATIC_DIR, "img", "android-chrome-192x192.png"))
-
-
-@router.api_route("/android-chrome-512x512.png", methods=["GET", "HEAD"], include_in_schema=False)
-async def android_chrome_512():
-    return FileResponse(os.path.join(STATIC_DIR, "img", "android-chrome-512x512.png"))
-
-
-@router.api_route("/site.webmanifest", methods=["GET", "HEAD"], include_in_schema=False)
-async def site_webmanifest():
-    return FileResponse(
-        os.path.join(STATIC_DIR, "site.webmanifest"),
-        media_type="application/manifest+json",
+for _route_path, (_rel_path, _media_type) in _STATIC_ROOT_FILES.items():
+    router.add_api_route(
+        _route_path,
+        _make_static_handler(_rel_path, _media_type),
+        methods=["GET", "HEAD"],
+        include_in_schema=False,
     )
