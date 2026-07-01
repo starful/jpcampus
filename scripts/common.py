@@ -2,7 +2,6 @@ import os
 import json
 import re
 import logging
-import google.generativeai as genai
 from dotenv import load_dotenv
 
 # 환경 변수 로드
@@ -25,8 +24,10 @@ def setup_logging(filename):
         encoding='utf-8'
     )
 
-# Gemini 모델 설정 함수
+# Gemini 모델 설정 함수 (lazy import — Docker runtime does not need google-generativeai)
 def setup_gemini():
+    import google.generativeai as genai
+
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("GEMINI_API_KEY is missing in .env")
