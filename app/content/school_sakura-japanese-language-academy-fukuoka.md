@@ -22,8 +22,9 @@ courses:
   course_name: 進学Eコース
   total_fees: 850000
 date: '2026-06-19'
-description: Learn about Sakura Japanese Language Academy in Fukuoka. Explore 2026
-  tuition fees, courses, admission requirements, and student reviews.
+description: Explore Sakura Japanese Language Academy in Fukuoka, Japan. Find comprehensive
+  details on 2026 tuition fees, intensive courses, visa support, and student admission
+  requirements.
 faculties: []
 features:
 - Dormitory Available
@@ -37,9 +38,9 @@ layout: school
 location:
   lat: 33.7019817
   lng: 130.4401957
-seo_description: Want to study in Fukuoka? Explore Sakura Japanese Language Academy's
-  2026 tuition, courses, visa application guidelines, and student reviews.
-seo_title: Sakura Japanese Language Academy Fukuoka | 2026 Fees & Reviews
+seo_description: Study Japanese in Fukuoka! Get 2026 tuition, course details, and
+  visa application steps for Sakura Japanese Language Academy. Apply via JP Campus.
+seo_title: 'Sakura Japanese Language Academy Fukuoka: 2026 Fees & Admission'
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=438
 stats:
   capacity: 496
@@ -55,6 +56,8 @@ title: Sakura Japanese Language Academy Fukuoka
 translated: true
 tuition: {}
 ---
+
+
 
 ## School Overview & Philosophy
 

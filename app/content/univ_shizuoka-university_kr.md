@@ -33,12 +33,19 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: 시즈오카 대학교
+title: 시즈오카 대학교 (Shizuoka University)
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+description: 일본 국립 시즈오카 대학교의 2026년도 최신 입학 전형, 학비, 장학금 및 유학 준비 가이드를 JP Campus에서 쉽고
+  빠르게 확인하세요.
+seo_title: '[2026] 시즈오카 대학교 입시 요강 및 학비·유학 정보 | JP Campus'
+seo_description: 일본 국립 시즈오카 대학교의 2026년도 최신 입학 전형, 학비, 장학금 및 유학 준비 가이드를 JP Campus에서
+  쉽고 빠르게 확인하세요.
 ---
+
+
 
 ## 🏫 학교 소개
 

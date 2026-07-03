@@ -6,8 +6,8 @@ basic_info:
   name_ja: 電気通信大学
 category: university
 date: '2026-06-19'
-description: 일본 국립대 컴퓨터공학 유학의 명문, 전기통신대학교(전통대/UEC) 입시 가이드! EJU 전형, 학비, 장학금 및 취업 전망까지
-  합격을 위한 필수 정보를 정리했습니다.
+description: 일본 이공계·컴공 명문 국립대 '전기통신대학교(전통대/UEC)' 유학 가이드. EJU 합격선, 학비, 장학금 및 취업 정보까지
+  합격을 위한 필수 정보를 확인하세요.
 faculties:
 - College of Informatics and Engineering (Undergraduate)
 - Graduate School of Informatics and Engineering
@@ -25,9 +25,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
-seo_description: 일본 국립대 컴퓨터공학 유학의 명문, 전기통신대학교(전통대/UEC) 입시 가이드! EJU 전형, 학비, 장학금 및 취업
-  전망까지 합격을 위한 필수 정보를 정리했습니다.
-seo_title: '[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공 입시, 학비 | JP Campus'
+seo_description: 일본 컴공·IT 명문 전기통신대학교(전통대) 유학의 모든 것! [2026] EJU 입시 전형, 합격 컷, 학비, 장학금,
+  취업 전망 등 필수 정보를 완벽 정리했습니다.
+seo_title: '[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공, EJU, 학비 | JP Campus'
 stats:
   acceptance_rate: 높은 경쟁률 (약 25% 추정)
   international_students: 650
@@ -39,11 +39,13 @@ tags:
 - EJU Required for most undergraduate tracks (Japanese proficiency is essential)
 - Select English-Taught Graduate Programs (e.g., GSC Program)
 thumbnail: /static/img/pin-univ.png
-title: '[2026] 전기통신대학교(전통대) 유학 가이드: 일본 국립대 컴공 입시, 학비 | JP Campus'
+title: '전기통신대학교(전통대/UEC) 유학 가이드: 일본 국립대 컴공 및 EJU 입시 정보'
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
+
 
 ## 🏫 학교 개요
 

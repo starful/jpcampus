@@ -44,9 +44,16 @@ tags:
 - Guaranteed, Affordable Dormitory Accommodation
 - Dedicated Science/STEM Track (理科/Rika) Curriculum
 thumbnail: /static/img/pin-school.png
-title: JASSO Tokyo Japanese Language Education Center (Japan Student Services Organization)
+title: JASSO Tokyo Japanese Language Education Center
 tuition: {}
+description: Learn about JASSO Tokyo Japanese Language Education Center. Check 2026
+  tuition, EJU prep courses, and admissions on JPCAMPUS.
+seo_title: JASSO Tokyo Japanese Language Education Center (2026 Guide)
+seo_description: Learn about JASSO Tokyo Japanese Language Education Center. Check
+  2026 tuition, EJU prep courses, and admissions on JPCAMPUS.
 ---
+
+
 
 ## 🏫 School Overview & Philosophy
 

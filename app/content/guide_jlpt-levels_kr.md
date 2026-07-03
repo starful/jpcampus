@@ -2,20 +2,24 @@
 {
   "layout": "guide",
   "id": "jlpt-levels",
-  "title": "JLPT 레벨 완벽 해설: N5부터 N1까지",
+  "title": "JLPT 레벨 및 난이도 완벽 가이드: N5부터 N1까지",
   "category": "Exam",
   "tags": [
     "Exam"
   ],
-  "description": "각 레벨이 일상생활과 커리어에 어떤 의미를 가지는지 알려드립니다.",
+  "description": "JLPT N1부터 N5까지 각 레벨별 난이도, 합격 기준, 실제 일본어 수준을 완벽하게 정리해 드립니다. 나에게 맞는 시험 등급과 준비 방법을 JP Campus에서 확인하세요!",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
   "date": "2026-02-13",
   "basic_info": {
     "name_en": "JLPT Levels Explained: N5 to N1"
   },
-  "lang": "kr"
+  "lang": "kr",
+  "seo_title": "JLPT 레벨 및 난이도 가이드: N5~N1 수준 비교 | JP Campus",
+  "seo_description": "JLPT N1부터 N5까지 각 레벨별 난이도, 합격 기준, 실제 일본어 수준을 완벽하게 정리해 드립니다. 나에게 맞는 시험 등급과 준비 방법을 JP Campus에서 확인하세요!"
 }
 ---
+
+
 
 # JLPT 레벨 완벽 해설: N5부터 N1까지 – 일본어 능력 시험 완벽 가이드
 

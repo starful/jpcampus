@@ -35,12 +35,19 @@ tags:
 - EJU Required for Standard Admission Tracks
 - Dedicated Career Support for Foreign Graduates
 thumbnail: /static/img/pin-univ.png
-title: Japan University of Economics
+title: 'Japan University of Economics (JUE): Admission & Tuition Guide'
 translated: true
 tuition:
   admission_fee: 280000
   yearly_tuition: 1180000
+description: An all-in-one guide to the Japan University of Economics (JUE) for international
+  students, covering 2026 tuition, campuses, and admission requirements.
+seo_title: 'Japan University of Economics (JUE) 2026: Tuition & Admission Guide'
+seo_description: Explore Japan University of Economics (JUE). Find 2026 tuition, campuses
+  (Tokyo, Fukuoka), and admission guidelines for international students.
 ---
+
+
 
 ## University Overview
 
