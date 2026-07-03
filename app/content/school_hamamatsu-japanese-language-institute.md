@@ -13,9 +13,8 @@ courses:
   course_name: 進学1年6か月コース
   total_fees: 1106100
 date: '2026-01-28'
-description: Located in Hamamatsu City, Shizuoka, this institute offers specialized
-  academic tracks, mandatory dormitory accommodation, EJU countermeasures, and practical
-  business Japanese training.
+description: Study in Shizuoka! Hamamatsu Japanese Language Institute offers expert
+  EJU prep, higher education pathways, and guaranteed dorms. Explore 2026 courses.
 faculties: []
 features:
 - Specialized Academic Tracks (Science/Rikei and Art/Design preparation)
@@ -43,7 +42,11 @@ thumbnail: /static/img/pin-school.png
 title: Hamamatsu Japanese Language Institute
 translated: true
 tuition: {}
+seo_title: 'Hamamatsu Japanese Language Institute: Dorms & EJU | JP Campus'
+seo_description: Study in Shizuoka! Hamamatsu Japanese Language Institute offers expert
+  EJU prep, higher education pathways, and guaranteed dorms. Explore 2026 courses.
 ---
+
 
 ## School Overview & Philosophy
 

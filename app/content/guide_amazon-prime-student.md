@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "amazon-prime-student",
-  "title": "Amazon Prime Student Japan: Is It Worth It? (2025 Guide)",
+  "title": "Amazon Prime Student Japan: Is It Worth It? (6-Month Free Trial)",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Get 6 months free! Learn about Amazon Prime Student Japan's price, benefits, and sign-up eligibility for international students in 2025.",
+  "description": "Get a 6-month free trial & 50% off! Learn how international students in Japan can sign up for Amazon Prime Student, save money, and get free shipping.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-04-19",
-  "seo_title": "Amazon Prime Student Japan (2025): Price & 6-Month Free Trial",
-  "seo_description": "Get 6 months free! Learn about Amazon Prime Student Japan's price, benefits, and sign-up eligibility for international students in 2025."
+  "seo_title": "Amazon Prime Student Japan: 6-Month Free Trial Guide (2025)",
+  "seo_description": "Get a 6-month free trial & 50% off! Learn how international students in Japan can sign up for Amazon Prime Student, save money, and get free shipping."
 }
 ---
+
 
 
 

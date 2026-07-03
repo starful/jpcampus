@@ -2,7 +2,7 @@
 {
   "layout": "guide",
   "id": "creative-arts-design-schools",
-  "title": "Art & Design: Best Schools for Anime, Manga, and Creative Studies",
+  "title": "Best Art & Design Schools in Japan (Anime, Manga & Creative Arts)",
   "category": "Curated List",
   "is_featured": true,
   "tags": [
@@ -10,11 +10,14 @@
     "Recommendation",
     "creative-arts-design-schools"
   ],
-  "description": "Explore our top picks for Art & Design: Best Schools for Anime, Manga, and Creative Studies. Discover the best schools matching your career and lifestyle goals in Japan.",
+  "description": "Discover the top art and design universities and vocational schools in Japan. Find the perfect program for anime, manga, illustration, and creative studies.",
   "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500",
-  "date": "2026-06-30"
+  "date": "2026-06-30",
+  "seo_title": "Top Art & Design Schools in Japan: Anime & Manga | jpcampus",
+  "seo_description": "Want to study Art, Anime, or Manga in Japan? Discover the top creative design schools, programs, and admission guides for international students."
 }
 ---
+
 
 # Art & Design: Best Schools for Anime, Manga, and Creative Studies
 

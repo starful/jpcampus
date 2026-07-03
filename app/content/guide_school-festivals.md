@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "school-festivals",
-  "title": "Bunkasai: How to Visit a Japanese School Festival",
+  "title": "How to Visit a Japanese School Festival (Bunkasai Guide)",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "Want to experience a real Bunkasai? Learn how to visit a Japanese school festival, find dates, and enjoy the anime-like atmosphere.",
+  "description": "Can tourists attend a Japanese school festival? Discover how to visit a Bunkasai, find event dates, and experience the real anime atmosphere.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-03-10",
-  "seo_title": "How to Visit a Japanese School Festival (Bunkasai) | JPCampus",
-  "seo_description": "Want to experience a real Bunkasai? Learn how to visit a Japanese school festival, find dates, and enjoy the anime-like atmosphere."
+  "seo_title": "Can Tourists Visit a Japanese School Festival? Bunkasai Guide",
+  "seo_description": "Can tourists attend a Japanese school festival? Discover how to visit a Bunkasai, find event dates, and experience the real anime atmosphere."
 }
 ---
+
 
 
 
