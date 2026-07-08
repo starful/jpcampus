@@ -6,8 +6,8 @@ basic_info:
   website: https://www.kyoto-u.ac.jp/
 category: school
 date: '2026-06-12'
-description: 2026년 교토대학교 유학을 준비하시나요? 교토대의 학부 정보, 학비, EJU 입시 요강, 장학금 등 입학에 필요한 최신 가이드를
-  JP Campus에서 확인해 보세요!
+description: 2026년 교토대 유학을 위한 필수 가이드! 교토대학교의 학부 정보, 학비, EJU 입시 요강, 장학금 등 합격을 위한 최신
+  입학 정보를 JP Campus에서 확인하세요.
 faculties:
 - Faculty of Letters
 - Faculty of Education
@@ -31,9 +31,9 @@ layout: school
 location:
   lat: 35.0270496
   lng: 135.7823155
-seo_description: 2026년 교토대학교 유학을 준비하시나요? 교토대의 학부 정보, 학비, EJU 입시 요강, 장학금 등 입학에 필요한
-  최신 가이드를 JP Campus에서 확인해 보세요!
-seo_title: '교토대학교 입학 가이드 2026: 학부, 학비, 유학 정보 | JP Campus'
+seo_description: 2026년 교토대 유학을 위한 필수 가이드! 교토대학교의 학부 정보, 학비, EJU 입시 요강, 장학금 등 합격을 위한
+  최신 입학 정보를 JP Campus에서 확인하세요.
+seo_title: '2026 교토대학교 입학 가이드: 학부, 학비, EJU 요강 | JP Campus'
 stats:
   acceptance_rate: 15%
   international_students: 2400
@@ -44,12 +44,13 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-school.png
-title: 교토대학교 입학 및 학부 정보 (2026)
+title: 교토대학교 (Kyoto University)
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 학교 개요 및 철학
 

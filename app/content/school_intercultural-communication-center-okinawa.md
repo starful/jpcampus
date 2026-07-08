@@ -42,12 +42,13 @@ tags:
 thumbnail: /static/img/pin-school.png
 title: Intercultural Communication Center Affiliated Japanese Language School (Okinawa)
 tuition: {}
-description: Learn Japanese in Okinawa! Get 2026 tuition fees, requirements, and reviews
-  for Intercultural Communication Center Affiliated Japanese Language School.
-seo_title: Intercultural Communication Center Japanese School (Okinawa) | jpcampus
-seo_description: Learn Japanese in Okinawa! Get 2026 tuition fees, requirements, and
-  reviews for Intercultural Communication Center Affiliated Japanese Language School.
+description: Study Japanese in Okinawa! Get 2026 tuition fees, admission requirements,
+  and student reviews for Intercultural Communication Center.
+seo_title: Intercultural Communication Center Okinawa | 2026 Fees & Reviews
+seo_description: Study Japanese in Okinawa at Intercultural Communication Center.
+  Find 2026 tuition fees, admission requirements, and student reviews.
 ---
+
 
 
 

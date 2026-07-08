@@ -41,12 +41,18 @@ tags:
 - EJU Required (for most undergraduate programs)
 - Growing Portfolio of English-Taught Graduate Programs
 thumbnail: /static/img/pin-univ.png
-title: Osaka Metropolitan University
+title: Osaka Metropolitan University (OMU) Guide for International Students
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+description: Your guide to Osaka Metropolitan University (OMU) tuition, admission
+  requirements, and English-taught programs for international students.
+seo_title: 'Osaka Metropolitan University (OMU): Admissions & Tuition | JP Campus'
+seo_description: Explore Osaka Metropolitan University (OMU). Find details on tuition,
+  admission requirements, scholarships, and programs for international students.
 ---
+
 
 ## University Overview
 

@@ -34,12 +34,18 @@ tags:
 - EJU Required (for Japanese Track)
 - Limited English Track Programs (Global Studies)
 thumbnail: /static/img/pin-univ.png
-title: J.F. Oberlin University
+title: 'J.F. Oberlin University: Guide for International Students'
 translated: true
 tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
+description: Discover everything you need to know about J.F. Oberlin University, including
+  tuition fees, admission requirements, programs, and student life in Japan.
+seo_title: 'J.F. Oberlin University Guide: Admissions & Tuition | JP Campus'
+seo_description: Explore J.F. Oberlin University's guide for international students.
+  Find tuition fees, admission requirements, and preparation tips to study in Japan.
 ---
+
 
 ## University Overview
 

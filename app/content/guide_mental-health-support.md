@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "mental-health-support",
-  "title": "Mental Health Resources for Students in Japan",
+  "title": "Mental Health & English Counseling Support for Students in Japan",
   "category": "Health",
   "tags": [
     "Health"
   ],
-  "description": "Where to find counseling and support services.",
+  "description": "A complete guide to finding English-speaking therapists, university counseling services, and free mental health hotlines for international students in Japan.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-15"
+  "date": "2026-03-15",
+  "seo_title": "Mental Health & English Counseling for Students in Japan",
+  "seo_description": "Find English-speaking mental health support, counseling services, and free hotlines for international students in Japan. Get the help you need."
 }
 ---
+
 
 # Navigating Mental Health: A Comprehensive Guide for International Students in Japan
 

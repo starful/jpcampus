@@ -19,10 +19,8 @@ courses:
   course_name: 進学1.3年コース
   total_fees: 857500
 date: '2026-01-28'
-description: 'Nagoya Futoku Japanese Language Academy: A supportive environment in
-  central Nagoya for mastering Japanese, preparing for higher education, and experiencing
-  Japanese culture. Features small class sizes, personalized learning, and comprehensive
-  support services.'
+description: Study at Nagoya Fukutoku Japanese Language Academy. Learn Japanese, prepare
+  for higher education, and get student visa support in Nagoya, Japan.
 faculties: []
 features:
 - Small Class Sizes
@@ -69,10 +67,14 @@ tags:
 - Art & Design
 - Short-Term Courses
 thumbnail: /static/img/pin-school.png
-title: Nagoya Futoku Japanese Language Academy
+title: Nagoya Fukutoku Japanese Language Academy
 translated: true
 tuition: {}
+seo_title: Nagoya Fukutoku Japanese Language Academy | JP Campus
+seo_description: Study at Nagoya Fukutoku Japanese Language Academy. Learn Japanese,
+  prepare for higher education, and get student visa support in Nagoya, Japan.
 ---
+
 
 ## School Overview
 

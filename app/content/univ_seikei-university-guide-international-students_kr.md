@@ -6,8 +6,8 @@ basic_info:
   name_ja: 成蹊大学
 category: university
 date: '2026-02-13'
-description: 도쿄 무사시노에 위치한 세이케이 대학교는 일본의 명문 사립 대학 중 하나입니다. 국제 학생들에게 전통적인 일본 학문적 엄격함과
-  현대적인 국제적 분위기를 제공합니다.
+description: 세이케이 대학교(成蹊大学) 외국인 유학생 입학 전형, 학부 소개, 학비 및 장학금 정보를 정리했습니다. 도쿄 명문 사립대 유학을
+  준비해 보세요.
 faculties:
 - 경제학부
 - 법학부
@@ -34,11 +34,15 @@ tags:
 - 미래지향적인 '플래닛' 도서관 포드
 - 소규모 세미나 교육 중심
 thumbnail: /static/img/pin-univ.png
-title: 세이케이 대학교 (成蹊大学)
+title: 세이케이 대학교 (成蹊大学) 외국인 유학생 가이드
 tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
+seo_title: 세이케이 대학교 외국인 유학생 입시 가이드 (학부, 학비) | JP Campus
+seo_description: 도쿄 명문 사립 세이케이 대학교(成蹊大学)의 외국인 유학생 입시 요강, 개설 학부, 학비 및 장학금 혜택 등 유학 준비
+  필수 정보를 확인하세요.
 ---
+
 
 ## 🏫 대학교 개요
 

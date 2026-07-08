@@ -6,7 +6,8 @@ basic_info:
   name_ja: 関東学院大学
 category: university
 date: '2026-02-13'
-description: 기독교 정신을 바탕으로 설립된 간토 가쿠인 대학은 요코하마에 위치하며, 실용적인 교육과 높은 취업률을 자랑하는 명문 사립 대학입니다.
+description: 일본 요코하마에 위치한 간토 가쿠인 대학(관동학원대학)의 2026학년도 최신 입시 정보, 학부 및 학비, 외국인 유학생 전형을
+  확인해보세요.
 faculties:
 - Faculty of Economics
 - Faculty of Business Administration
@@ -41,11 +42,15 @@ tags:
 - High Graduate Employment Rates
 - Comprehensive Support for International Students
 thumbnail: /static/img/pin-univ.png
-title: 간토 가쿠인 대학
+title: 간토 가쿠인 대학 (관동학원대학)
 tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
+seo_title: 간토 가쿠인 대학(관동학원대학) 2026 입시·학부·유학 정보 | JP Campus
+seo_description: 일본 요코하마의 명문 사립 대학, 간토 가쿠인 대학(관동학원대학)의 2026년도 최신 입시 요강, 유학생 전형, 학부
+  정보, 학비 및 장학금 혜택을 JP Campus에서 확인하세요.
 ---
+
 
 ## 🏫 대학 개요
 
