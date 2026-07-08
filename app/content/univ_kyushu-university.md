@@ -6,8 +6,8 @@ basic_info:
   website: https://www.kyushu-u.ac.jp/
 category: university
 date: '2026-06-19'
-description: Your ultimate resource for Kyushu University's 2026 intake. Discover
-  English-taught courses, tuition costs, scholarships, and admission requirements.
+description: Want to study at Kyushu University? Explore 2026 English-taught programs,
+  tuition, scholarships, and step-by-step admission requirements on JP Campus.
 faculties:
 - Faculty of Humanities
 - Faculty of Education
@@ -35,9 +35,9 @@ layout: school
 location:
   lat: 33.6227692
   lng: 130.4253123
-seo_description: Apply to Kyushu University in 2026. Explore English-taught programs,
-  tuition fees, scholarships, and admission requirements on JP Campus.
-seo_title: 'Kyushu University 2026 Admissions: English Programs | JP Campus'
+seo_description: How to apply to Kyushu University in 2026? Find English-taught programs,
+  tuition, scholarships, and admission requirements in our complete guide.
+seo_title: 'Kyushu University 2026: English Programs & Admissions Guide'
 stats:
   acceptance_rate: 25%
   international_students: 2500
@@ -48,12 +48,13 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: 'Kyushu University: 2026 International Admission Guide'
+title: 'Kyushu University: 2026 English Programs & Admission Guide'
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

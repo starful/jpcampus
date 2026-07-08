@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "resume-jp",
-  "title": "How to Write a Japanese Resume (Rirekisho): Step-by-Step Guide",
+  "title": "How to Write a Japanese Resume (Rirekisho): Step-by-Step Guide with Free Templates",
   "category": "Career",
   "tags": [
     "Career"
   ],
-  "description": "Master the Japanese resume (Rirekisho). Get free Excel/PDF templates and step-by-step writing instructions to land your dream job in Japan.",
+  "description": "Download free PDF/Excel Japanese resume (Rirekisho) templates. Follow our step-by-step writing guide and examples to land your dream job in Japan!",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-02-13",
-  "seo_title": "Japanese Resume (Rirekisho) Guide + Free Templates (2026)",
-  "seo_description": "Master the Japanese resume (Rirekisho). Get free Excel/PDF templates and step-by-step writing instructions to land your dream job in Japan."
+  "seo_title": "How to Write a Japanese Resume (Rirekisho): 2025 Step-by-Step Guide",
+  "seo_description": "Download free PDF/Excel Japanese resume (Rirekisho) templates. Follow our step-by-step writing guide and examples to land your dream job in Japan!"
 }
 ---
+
 
 
 

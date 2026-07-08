@@ -7,13 +7,14 @@
   "tags": [
     "Budget"
   ],
-  "description": "Get a 6-month free trial & 50% off! Learn how international students in Japan can sign up for Amazon Prime Student, save money, and get free shipping.",
+  "description": "Wondering if Amazon Prime Student Japan is worth your money? Read our complete guide covering the massive 6-month free trial, half-price membership fees, eligibility criteria, and exclusive benefits for international students.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-04-19",
-  "seo_title": "Amazon Prime Student Japan: 6-Month Free Trial Guide (2025)",
-  "seo_description": "Get a 6-month free trial & 50% off! Learn how international students in Japan can sign up for Amazon Prime Student, save money, and get free shipping."
+  "seo_title": "Amazon Prime Student Japan: 6-Month Free Trial Guide",
+  "seo_description": "Get a 6-month free trial of Amazon Prime Student Japan. Learn eligibility rules, half-price discounts, and exclusive benefits for international students."
 }
 ---
+
 
 
 

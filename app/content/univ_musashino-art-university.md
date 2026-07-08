@@ -6,8 +6,8 @@ basic_info:
   website: https://www.musabi.ac.jp/
 category: university
 date: '2026-06-19'
-description: An ultimate 2026 admissions guide to Musashino Art University (MAU) for
-  international students. Learn about portfolios, tuition, and requirements.
+description: An ultimate guide to Musashino Art University (MAU) admissions for international
+  students, covering portfolios, tuition, and application requirements.
 faculties:
 - 油絵学科 (Department of Oil Painting)
 - 彫刻学科 (Department of Sculpture)
@@ -30,9 +30,9 @@ layout: school
 location:
   lat: 35.6812
   lng: 139.7671
-seo_description: How to get into Musashino Art University (MAU) in 2026. Discover
-  admission requirements, portfolio tips, and tuition fees for international students.
-seo_title: Musashino Art University (MAU) 2026 Admissions Guide | JP Campus
+seo_description: Want to study at MAU? Read our 2026 Musashino Art University guide
+  for international students. Learn about portfolio tips, tuition, and requirements!
+seo_title: 'Musashino Art University 2026: Portfolio & Admissions | JP Campus'
 stats:
   acceptance_rate: 20%
   international_students: 150
@@ -42,12 +42,13 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: Musashino Art University (MAU)
+title: Musashino Art University (MAU) 2026 Admission Guide
 translated: true
 tuition:
   admission_fee: 300000
   yearly_tuition: 1800000
 ---
+
 
 
 ## University Overview & Reputation
