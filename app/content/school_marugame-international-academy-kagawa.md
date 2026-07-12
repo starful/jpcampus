@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1154510
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Dedicated Dormitory Available
@@ -41,123 +41,119 @@ title: Marugame International Academy
 tuition: {}
 ---
 
-## 🏫 School Overview & Philosophy
+# Marugame International Academy: Your Gateway to Success from the Heart of Kagawa
 
-Marugame International Academy (MIA), located in the picturesque city of Marugame, Kagawa Prefecture, offers a distinctive and highly focused educational experience far removed from the hyper-dense environment of Japan’s major metropolises. Situated in the heart of the Shikoku region, MIA operates under a philosophy emphasizing personalized attention, deep cultural integration, and rigorous academic preparation. The core mission of the Academy is not merely to teach the Japanese language, but to cultivate independent global citizens fully equipped with the linguistic proficiency and cultural fluency necessary to thrive in Japanese higher education or professional settings. The school’s address in Marugame City, specifically Minami Jōmachi, places students within a historical and culturally rich environment, most famously known for the stunning Marugame Castle, one of the twelve original castles remaining in Japan. This regional setting ensures students experience authentic Japan, promoting unparalleled language immersion.
+Choosing the right Japanese language school is one of the most critical decisions you will make on your journey to academic or professional success in Japan. While massive institutions in bustling metropolises like Tokyo or Osaka often capture the spotlight, smaller, specialized academies in regional Japan offer unique, highly focused advantages that are hard to replicate elsewhere. 
 
-### The Advantage of Scale and Location
+**Marugame International Academy (丸亀国際学院)**, located in the scenic and historic city of Marugame in Kagawa Prefecture, is one such hidden gem. With a cozy and highly personalized **capacity of just 80 students**, this academy offers an intimate, supportive, and intensive learning environment. It is the perfect destination for students who want to avoid the distractions and high living costs of Japan's major capitals, focusing instead on deep linguistic acquisition, cultural immersion, and rigorous academic preparation.
 
-A defining characteristic of Marugame International Academy is its remarkably small scale. With a maximum capacity capped at 80 students, MIA deliberately maintains an intimate educational environment. This low student-to-capacity ratio fundamentally impacts the learning experience, allowing instructors to provide highly individualized feedback, monitor academic progress closely, and ensure no student falls behind due to lack of attention. The administration views each student as an individual project, meticulously charting their path from novice Japanese speaker to prospective university student or employee. This level of personalized instruction is often unattainable in larger, metropolitan language schools that may host thousands of students.
+Let’s dive deep into what makes Marugame International Academy a standout choice for international students, exploring its academic offerings, campus life in Kagawa, and the long-term pathways it opens up for your future.
 
-Furthermore, the geographical location provides immense strategic benefits. Kagawa Prefecture, while known for its unique culinary culture (Sanuki Udon) and stunning Setouchi art islands, offers a significantly lower cost of living compared to areas like Tokyo, Osaka, or Fukuoka. Students can allocate more financial resources toward their education and cultural activities rather than high rent. The slower pace of life in Marugame facilitates a less stressful learning environment, enabling deeper focus and faster cultural adaptation. The school actively encourages interaction with the local community, utilizing the proximity to historical sites and local businesses as extensions of the classroom, thereby ensuring that the language learned is immediately applicable in real-world Japanese contexts.
+---
 
-## 📚 Courses, Curriculum & Teaching Style
+## 1. School Overview & Philosophy
 
-MIA’s curriculum is explicitly tailored for students pursuing long-term academic goals, offering comprehensive 2-year and 1.5-year pathways designated as 'University Preparation Courses' (*進学コース*). The curriculum is structured in highly systematic phases, moving students efficiently from foundational Japanese skills (N5/N4 level entry) to advanced proficiency (N2/N1 level mastery) required for advanced academic study or high-level business interactions.
+Marugame International Academy operates on a simple but profound philosophy: **personalized, high-quality education combined with regional integration.** By maintaining a small student capacity of 80, the school ensures that no student is left behind. Every teacher, administrative staff member, and career advisor knows your name, your academic strengths, your linguistic weaknesses, and your personal dreams.
 
-### Academic Rigor and EJU Specialization
+### Why Study in Marugame, Kagawa?
+Marugame City is situated on the coast of the beautiful **Seto Inland Sea** in Kagawa Prefecture, Shikoku. Famous nationwide for its historic wooden castle (Marugame Castle, built in 1597 and boasting the tallest stone walls in Japan) and as the birthplace of traditional *Uchiwa* (Japanese paper fans), the city is steeped in cultural heritage. 
 
-The central focus of the academic structure is robust preparation for the Examination for Japanese University Admission for International Students (EJU). This preparation is seamlessly integrated into the curriculum, rather than being treated as an extracurricular add-on. Classes dedicate substantial time to mastering the required Japanese language domains of the EJU—listening, listening comprehension, reading comprehension, and written expression. Beyond language, MIA provides support in the compulsory supplementary EJU subjects, which often pose significant challenges to international students. This includes specialized instruction in EJU Mathematics (Course 1 or 2), General Knowledge (Social Studies/History/Economics), and Science components (Physics, Chemistry, Biology), tailored to the student’s intended field of study (Humanities or Sciences).
+Choosing Marugame over Tokyo or Osaka offers several distinct advantages:
+- **Exceptional Affordability:** The cost of rent, fresh local food, and daily essentials in Kagawa is a fraction of what you would pay in Japan’s major metropolitan areas. This significantly reduces financial pressure, allowing you to focus on your studies.
+- **True Cultural Immersion:** Unlike mega-cities where English or other foreign languages are widely spoken, daily life in Marugame requires you to use your Japanese. This natural "immersion booster" accelerates your speaking and listening comprehension rapidly.
+- **A Safe and Peaceful Environment:** Kagawa boasts a mild, Mediterranean-like climate with very low rainfall. It is safe, peaceful, and incredibly welcoming to international students, making it an ideal setting for focused academic study.
 
-**Teaching Methodology:** The instructional approach at MIA is highly communicative and student-centric. Class sizes are inherently small due to the school's capacity, maximizing opportunities for student speaking time and interaction. Teachers employ a variety of methods, including role-playing, focused discussions, and frequent student presentations, moving the student beyond passive reception of grammar rules to active production of complex Japanese structures. Feedback is provided immediately and personally. The academic team works collaboratively to track student performance in all areas, using regular progress tests to adjust teaching methodologies to individual or collective learning needs, ensuring an accelerated, yet thorough, rate of learning progression.
+### Core Strengths of the Academy
+To support its students, the academy focuses on five major pillars:
+1. **Dedicated Dormitory Available:** Securing housing from abroad can be incredibly stressful. The school provides comfortable, affordable dormitory accommodations specifically for its students, eliminating the need for expensive upfront real estate fees.
+2. **Intensive EJU Preparation:** For students targeting Japanese universities, the school provides rigorous preparation for the Examination for Japanese University Admission for International Students (EJU).
+3. **Clear University Pathway Guidance:** From matching you with the right institutions to practicing mock admissions interviews, the school offers step-by-step counseling.
+4. **Focus on Practical Conversational Japanese:** The curriculum is designed to break the common habit of "memorizing for tests" and instead focuses on confidence in real-world Japanese communication.
+5. **Specialized Business Japanese Training:** For students looking to transition directly into the Japanese workforce, the school offers practical training in workplace etiquette, business emails, honorific language (*keigo*), and interview preparation.
 
-### Integrating Practical and Professional Japanese Skills
+---
 
-A key distinguishing feature of the MIA curriculum is the mandatory inclusion of both **Conversational Japanese** and **Business Japanese** training. This dual focus ensures graduates are versatile, possessing both the casual fluency needed for social life and the formal precision required for professional life.
+## 2. Courses, Curriculum & Teaching Style
 
-1.  **Conversational Japanese Enhancement:** These classes move beyond the polite forms taught in basic courses, focusing on speed, intonation, appropriate use of contractions and colloquialisms, and quick responsiveness—essential skills for interacting naturally with peers and community members. The goal is complete immersion and fluency in spontaneous communication.
+Marugame International Academy offers structured, long-term visa programs designed to take students from absolute beginners to advanced academic or professional communicators. The school offers two main entry points depending on your prior language level and your long-term graduation goals.
 
-2.  **Business Japanese Proficiency:** Targeted toward students intending to enter the Japanese workforce or those pursuing graduate studies requiring professional demeanor, this module covers essential **Keigo** (honorific language), professional writing (emails, reports, proposals), proper business etiquette (meishi exchange, seating hierarchy), and preparation for high-stakes business meetings. This pragmatic focus significantly enhances a graduate’s competitive edge in the job market, making them more attractive to companies seeking culturally aware, highly professional bilingual staff.
+### Course Offerings & Tuition Breakdown
 
-## 🌍 Student Body & Campus Life
+Below is the detailed tuition structure for the primary courses offered at the academy. Note that these rates are highly competitive compared to schools located in central Tokyo or Osaka, representing excellent value for money.
 
-Studying at Marugame International Academy offers a profoundly different experience from studying in Japan’s major urban centers. The smaller student body (capacity 80) fosters a deeply communal and mutually supportive atmosphere. Students often arrive from diverse global origins, but the limited scale encourages rapid integration and the formation of strong, lasting bonds that serve as a crucial support network during their study abroad journey.
+| Course Name | Admission Month | Duration | Total Fees (inc. tax/materials) |
+| :--- | :---: | :---: | :---: |
+| **University Preparatory 2-Year Course**<br>*(進学2年コース)* | April | 2 Years | **¥1,498,500** |
+| **University Preparatory 1.5-Year Course**<br>*(進学1年6か月コース)* | October | 1.5 Years | **¥1,154,510** |
 
-### Deep Cultural Immersion in Shikoku
+*Note: Tuition fees are subject to change by the institution; please confirm current billing schedules with the school upon receiving your acceptance package. Comprehensive study materials and foundational textbooks are factored into these pathways.*
 
-One of the most significant advantages of choosing Marugame is the opportunity for deep cultural immersion. Students are not shielded by large international communities; rather, they are integrated directly into the fabric of Kagawa life. Daily interactions—from shopping at local markets to seeking part-time employment (arubaito) and navigating public services—require the consistent application of Japanese, dramatically accelerating fluency. The local community is typically welcoming and curious, providing ample opportunities for genuine cross-cultural exchange that might be harder to initiate in busier cities.
+### Curriculum Highlights
 
-**Campus and Community Activities:** Campus life is enriched by the local environment. The Academy regularly organizes cultural outings that capitalize on the unique heritage of the region. These might include visits to the historical Marugame Castle, excursions to the Setouchi islands (known for contemporary art), participation in local festivals, and exploration of Kagawa’s unique culinary traditions. These activities are designed to be educational extensions of the classroom, providing context for historical and cultural lessons taught during language study. The school's administration plays a highly active role in organizing these events, ensuring cultural engagement is accessible and safe for all international students.
+*   **The 2-Year University Preparatory Course (April Intake):** This is the ideal pathway for students who starting with basic Japanese (N5/N4 level). Over two years, you will systematically build your skills across reading, writing, listening, and speaking, progressing toward N2 or N1 levels of the JLPT (Japanese Language Proficiency Test). It provides ample time to prepare for university entrance exams, draft research proposals, and practice for entrance interviews.
+*   **The 1.5-Year University Preparatory Course (October Intake):** Designed for students who may already have a basic to intermediate grasp of Japanese or who want a faster, more intensive route to higher education. This course is fast-paced and focuses on ramping up your academic writing and advanced reading comprehension quickly to align with the spring college application season in Japan.
 
-## 🎓 University & Career Pathways
+### Teaching Style
+Classes are small, highly interactive, and communicative. Rather than sitting through passive lectures, you will participate in:
+*   **Active Role-playing:** Practicing real-life scenarios like visiting a doctor, asking for directions, ordering food, or speaking with a landlord.
+*   **Presentation-based Learning:** Researching local topics, writing essays, and delivering presentations in front of your peers to build confidence in public speaking.
+*   **Targeted JLPT & EJU Drills:** Utilizing past exams, mock testing, and strategy-focused sessions to help you score high on standardized tests.
 
-Marugame International Academy views student success through the lens of successful matriculation into their desired academic or professional track. The dedicated pathway planning is a continuous process, starting from the moment a student enrolls.
+---
 
-### Comprehensive Academic Counseling
+## 3. Student Body & Campus Life
 
-Given the small cohort size, academic counseling is highly personalized. Counselors work one-on-one with students to define their academic goals, whether they aim for prestigious national universities, specialized public universities, or practical vocational colleges (Senmon Gakko). The counseling process involves several critical stages:
+With a maximum capacity of 80 students, Marugame International Academy functions like a close-knit family. You are not just a number on a spreadsheet; you are an active member of a warm, supportive community.
 
-1.  **Target Setting:** Identifying suitable institutions based on EJU performance projections, field of study, and geographical preferences.
-2.  **Application Management:** Providing detailed support in navigating the often complex application procedures, including translating required documents and meeting institutional deadlines.
-3.  **Interview Preparation (Menstsu):** Conducting rigorous mock interviews tailored to specific university entrance styles, focusing on appropriate academic Japanese (Keigo used in interviews), logical presentation of research goals, and conveying genuine motivation.
-4.  **Essay and Statement Refinement:** Intensive coaching on writing compelling Statement of Purpose and research proposals that meet the rigorous standards of Japanese higher education institutions.
+### International Environment
+While smaller schools in rural prefectures sometimes draw from limited demographics, the academy actively seeks to create a diverse classroom environment. Students from various countries across Asia and beyond come together, using Japanese as their common language of communication. This creates a highly motivating atmosphere where you are constantly encouraged to practice your target language.
 
-While Kagawa Prefecture is home to reputable regional universities, MIA graduates are fully prepared and encouraged to apply to top institutions across the entirety of Japan, leveraging the universal acceptance of EJU scores.
+### Housing & Accommodation
+One of the biggest advantages of studying at Marugame International Academy is the **Dedicated Dormitory Available** option. 
+*   **Affordable and Convenient:** Unlike apartments in Tokyo, which often require *reikin* (key money), *shikikin* (deposit), guarantor fees, and agency commissions, the school’s dorms are structured specifically for international students. 
+*   **Fully Equipped:** Rooms are typically furnished with essentials (bedding, desk, refrigerator, Wi-Fi access), letting you start your life in Japan from day one without stressful shopping trips.
+*   **Commute:** The dormitories are located within easy walking or cycling distance of the school, saving you time and money on daily transportation.
 
-### Career Acceleration Through Business Japanese
+### Daily Life in Marugame
+Life in Kagawa is relaxed and healthy. Most students commute by bicycle. A typical day might include classes in the morning, followed by self-study, a part-time job, or socializing with classmates in the afternoon. 
 
-For students whose immediate goal is employment, the strong focus on Business Japanese provides a critical advantage. MIA bridges the gap between language learning and workplace readiness. Beyond the classroom instruction in Keigo, the school provides crucial logistical support for job seeking, including:
+Kagawa is famously known as the **"Udon Prefecture"** (*Udon Ken*). Sanuki Udon is delicious, filling, and incredibly cheap—with a bowl of freshly made noodles often costing as little as ¥250 to ¥400. It is the ultimate student budget food! Over the weekends, you can explore the peaceful Seto Inland Sea islands (like Naoshima, the world-famous art island), hike up to local shrines, or enjoy picnics under the cherry blossoms at Marugame Castle.
 
-*   **Resume/CV Workshops (Rirekisho):** Training in formatting and content presentation according to specific Japanese employment standards.
-*   **Job Market Seminars:** Providing insights into the current employment landscape in Japan, focusing on regional opportunities in Shikoku and nationwide trends.
-*   **Internship Opportunities:** Leveraging local business connections in Marugame and Kagawa to potentially secure short-term professional exposure, offering invaluable real-world experience before graduation.
+---
 
-This holistic approach ensures that graduates are not only academically qualified but also possess the professional polish and linguistic tools essential for successful integration into the competitive Japanese job market.
+## 4. University & Career Pathways
 
-## 🏡 Accommodation & Living Support
+While studying the language is rewarding, the ultimate goal of most students is what comes *after* language school. Marugame International Academy excels in providing customized guidance to help you reach your next milestone.
 
-The provision of a dedicated **Dormitory** is perhaps the most significant logistical advantage offered by Marugame International Academy, particularly for students arriving in Japan for the first time.
+### Intensive EJU Preparation & Higher Education Pathways
+For students aiming to enter prestigious public or private universities in Japan, passing the EJU is essential. The school provides targeted preparation, not just in Japanese, but also in understanding the structure of the exam. 
 
-### Stress-Free Start with Dormitory Living
+Because of the school's geographical location, you will have access to excellent regional higher-education institutions in Shikoku and the Chugoku region, such as:
+*   **Kagawa University** (National University in Kagawa)
+*   **Ehime University**
+*   **Tokushima University**
+*   Various highly regarded local vocational schools (*Senmon Gakko*) specializing in IT, design, business, hospitality, and automotive technology.
 
-International students often face significant hurdles when first securing housing in Japan, dealing with complex lease agreements, guarantor requirements, large initial payments (key money, deposit, agency fees), and setting up utilities. MIA's dormitory option entirely removes this burden. Moving directly into school-managed accommodation ensures a safe, reliable, and cost-effective living arrangement from day one. Dormitories typically offer furnished rooms, communal facilities, and are strategically located for easy access to the campus, often within walking distance or a short, convenient commute.
+If your goal is to attend a university in Tokyo, Osaka, or Kyoto, the school's personalized pathway guidance will help you navigate long-distance applications, travel arrangements for exams, and online interview preparation.
 
-Living in the dormitory reinforces the communal atmosphere of the Academy. Students from different courses and nationalities interact constantly, providing an excellent environment for practicing Japanese outside of classroom hours and establishing a strong peer support system crucial for managing homesickness and cultural adjustment.
+### Career Guidance & Business Japanese
+If you already hold a university degree from your home country, your goal may be to find direct employment in Japan. The academy's **Specialized Business Japanese Training** is invaluable here. 
 
-### Localized Administrative and Financial Support
+Teachers provide direct training in:
+*   **Writing a Japanese-style Resume (*Rirekisho*):** Highlighting your unique cross-border skills effectively.
+*   **Interview Etiquette:** Understanding exactly how to enter the room, bow, introduce yourself, and answer complex situational questions.
+*   **Business Communication:** Mastering the difference between casual language, polite language (*teineigo*), and honorific language (*keigo/kenjougo*) used in professional offices.
 
-Beyond housing, the administrative support at MIA is comprehensive, leveraging the close relationship between the small student body and staff. The administration provides hands-on assistance with all essential procedures required for establishing life in Japan:
+---
 
-*   **Immigration and Residency:** Assistance with initial residency card (Zairyu Card) registration at the local Marugame city office.
-*   **Healthcare:** Guidance on enrolling in the mandatory National Health Insurance system and understanding the local healthcare structure.
-*   **Banking and Finances:** Assistance with opening local bank accounts, a prerequisite for paying tuition, receiving remittances, and managing salaries from part-time work.
-*   **Part-Time Work (Arubaito) Guidance:** Helping students secure the necessary permission to work and linking them with suitable local employment opportunities. Given the regional setting, local employers in Kagawa often value the linguistic and cultural skills international students bring, sometimes providing stable employment opportunities with less competition than in major cities.
+## 5. Practical Tips for Applicants
 
-### The Cost of Living Advantage in Kagawa
+To ensure a smooth transition to Marugame International Academy, keep these practical advisor tips in mind:
 
-The regional location of Marugame International Academy guarantees a substantial reduction in monthly living expenses compared to major metropolitan centers. While tuition fees are set, expenses like rent can be 30-50% lower than in Tokyo or central Osaka. This financial relief allows students and their families to budget more effectively, making the study abroad experience in Japan significantly more accessible and sustainable over the long term, enabling a greater focus on academic achievement rather than financial stress.
+1.  **Plan Your Finances Wisely:** While the tuition is incredibly reasonable (ranging from ¥1,154,510 to ¥1,498,500 depending on the course length) and local rent is cheap, you still need to demonstrate sufficient financial sponsorship to immigration authorities to secure your student visa. Ensure your bank statements are clear, organized, and meet visa requirements.
+2.  **Apply Early for Dormitory Spots:** Since the school has a total capacity of 80, dormitory rooms are highly sought after. As soon as you receive your Certificate of Eligibility (COE), make sure to apply for a space in the dedicated student dormitory to lock in your housing.
+3.  **Start Learning Before You Arrive:** Do not wait until you land in Kagawa to start studying Japanese. Having a solid mastery of Hiragana, Katakana, and basic N5 vocabulary/grammar before you arrive will help you pass initial placement tests, make local friends faster, and secure part-time employment much sooner.
+4.  **Embrace the Bicycle Culture:** Marugame is a highly flat, bicycle-friendly city. Investing in a cheap secondhand bicycle (often easily acquired with help from the school staff) will give you total freedom to explore the city, commute to school, and reach local supermarkets.
+5.  **Utilize the Small School Advantage:** Don't be shy! At a larger school, you might have to wait days for a career counseling appointment. At Marugame International Academy, the teachers are right there. Ask questions, seek feedback on your pronunciation, and take full advantage of their local connections to find part-time work or college recommendations.
 
-## 💰 Tuition, Fees & Scholarships
-
-Marugame International Academy maintains a clear and competitive tuition structure tailored to its primary academic pathways. The fees listed below represent the *Total Fees* payable for the full duration of the initial enrollment period, covering essential costs such as admission, tuition, facility fees, and initial materials/insurance.
-
-### Detailed Tuition Structure (Based on Total Enrollment Fees)
-
-| Enrollment Period | Course Name | Admission Month | Total Fees (JPY) | Approximate Duration | Notes |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 2-Year Program | 進学2年コース (University Prep) | April | ¥1,498,500 | 24 Months | Comprehensive EJU preparation. |
-| 1.5-Year Program | 進学1年6か月コース (University Prep) | October | ¥1,154,510 | 18 Months | Intensive path for later entry. |
-
-*Note: The total fees are inclusive of the enrollment fee (typically ¥50,000 - ¥70,000), annual facility fees, initial tuition (12 months for the 2-year course or 6 months for the 1.5-year course), and initial costs for mandatory insurance and textbooks. Subsequent payments will be required annually or semi-annually based on the school's billing cycle, primarily covering tuition.* 
-
-### Estimated First-Year Breakdown (Hypothetical Standardized Calculation)
-
-To provide a clearer financial picture, we can estimate a typical first-year payment structure based on the 2-Year (April Start) course, using common industry averages while ensuring the overall 24-month total remains accurate. The initial required payment usually covers the first year (12 months) of tuition plus all one-time enrollment costs.
-
-| Fee Category | 2-Year Course (April Start) Estimated Cost (JPY) |
-|:---:|:---:|
-| **Enrollment Fee** (One-Time) | ¥70,000 |
-| **Tuition Fee** (First 12 Months) | ¥660,000 |
-| **Facility Fee/Equipment Fee** (Annual) | ¥50,000 |
-| **Textbook Fee** (Initial Year) | ¥35,000 |
-| **Insurance/Other Administrative Costs** (Initial) | ¥25,000 |
-| **TOTAL First-Year Payment (Approx.)** | **¥840,000** |
-
-*The remaining portion of the ¥1,498,500 total (approximately ¥658,500) would be due in subsequent installments over the second year.* 
-
-### Scholarship Opportunities
-
-While specific internal scholarship details require direct confirmation with the Academy, schools focused on rigorous university pathways like MIA actively support students in applying for external governmental and private scholarships. Key scholarships often targeted by students at MIA include:
-
-1.  **MEXT Honors Scholarship for Privately Financed International Students:** A highly sought-after stipend program administered through the Japan Student Services Organization (JASSO), providing monthly financial support to top-performing students demonstrating financial need.
-2.  **Local Government and Private Foundation Scholarships:** Due to its regional location, MIA students may have access to local Kagawa-based foundation scholarships or city subsidies aimed at supporting international residents, which often have less competition than nationwide programs. The Academy's administration provides crucial guidance and recommendations to help students secure these financial aids, reinforcing their commitment to student academic and financial sustainability.
+Marugame International Academy offers the perfect blend of high-quality, intensive education and a peaceful, affordable, and culturally rich lifestyle. It is an exceptional choice for serious students looking to build a strong, authentic foundation for their future in Japan.

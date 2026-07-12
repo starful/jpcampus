@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 2年コース
   total_fees: 1290000
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Located in historic Kanazawa (Ishikawa Prefecture)
@@ -44,76 +44,83 @@ translated: true
 tuition: {}
 ---
 
+# Alice Gakuen Language Institute & Professional Training College
+
+Choosing the right Japanese language school is more than just selecting a classroom—it is about finding an environment where your academic, professional, and personal goals are aligned. Located in the beautiful, historic city of Kanazawa in Ishikawa Prefecture, **Alice Gakuen Language Institute & Professional Training College** (専門学校アリス学園) offers a unique educational path. 
+
+With its status as an official Professional Training College (*Senmon Gakko*), Alice Gakuen does not just teach Japanese as an isolated academic subject. Instead, it serves as a direct bridge to professional careers, vocational training, and higher education in Japan, all while supporting its student body of 200 with highly personalized care.
+
+---
+
 ## 🏫 School Overview & Philosophy
 
-Alice Gakuen Language Institute and Professional Training College (専門学校アリス学園) distinguishes itself as both a comprehensive Japanese language institution and a fully accredited *Senmon Gakko*, or Professional Training College. Located in Kanazawa City, the capital of Ishikawa Prefecture, the school offers an exceptional opportunity for international students to immerse themselves in a region renowned for its profound historical, artistic, and cultural heritage, while benefiting from a lower cost of living compared to major metropolises like Tokyo or Osaka. The school's philosophy centers on providing high-quality, outcome-driven language education deeply integrated with specialized vocational and academic preparation, ensuring students are not just fluent in Japanese but are fully equipped to transition into the rigorous demands of Japanese universities, graduate schools, or the professional workforce.
+Alice Gakuen is situated at **8-50 Enkoji Honmachi, Kanazawa-shi, Ishikawa Prefecture**, a quiet and safe residential neighborhood that allows students to fully immerse themselves in Japanese life without the chaotic distractions of major metropolises like Tokyo or Osaka. The school's core philosophy centers on **vocational integration and practical fluency**. Rather than focusing solely on rote memorization for exams, Alice Gakuen structures its programs to ensure students can confidently use Japanese in daily life, professional workplaces, and academic institutions.
 
-With a moderate capacity of approximately 200 students, Alice Gakuen maintains a focused, personalized educational environment. This smaller scale allows instructors to pay close attention to the individual progress, strengths, and weaknesses of each student, a crucial factor often diluted in larger, city-center schools. The strategic location in Kanazawa—often referred to as 'Little Kyoto'—means students benefit from a high quality of life, proximity to stunning nature, and immediate access to traditional Japanese arts and crafts, which serves as a constant, authentic context for language learning. The institution emphasizes that learning Japanese is the gateway to specialization, positioning the language curriculum as the foundational phase for achieving specific educational or career objectives in Japan, whether that involves tackling the complexity of the EJU Science track or pursuing creative studies in Art and Design.
+Because Alice Gakuen is a recognized *Senmon Gakko*, language students study alongside Japanese students enrolled in various vocational divisions. This creates a natural environment for cross-cultural exchange and provides international students with firsthand exposure to Japanese professional standards and social etiquette from day one. 
 
-Alice Gakuen's mission goes beyond mere linguistic fluency. It aims to foster 'global citizens' who possess the deep cross-cultural competence necessary to thrive in Japan. The curriculum is specifically designed to bridge the academic and cultural gaps faced by international students. Unlike many standard language schools, the incorporation of advanced EJU and vocational tracks early in the program reflects a commitment to advanced progression. The school leverages its Senmon Gakko status to offer curricula that are inherently practical and future-oriented, ensuring that the Japanese learned is functional in specialized academic fields (such as STEM) and specific industry contexts (such as business and design). This dual focus provides a substantial competitive advantage for students seeking high-stakes placements in competitive Japanese institutions. The overall environment supports intensive study combined with rich cultural engagement, making it an ideal choice for serious, goal-oriented learners who prefer a historic yet dynamic regional center over the frenetic pace of larger cities. The availability of robust student support, including guaranteed accommodation, further solidifies its commitment to a seamless transition for all incoming students.
+Kanazawa itself serves as an extension of the classroom. Often referred to as "Little Kyoto," Kanazawa is a historic city famous for its preserved Edo-period districts, the stunning Kenroku-en Garden, and a thriving traditional arts scene (including gold leaf, tea ceremony, and Kaga Yuzen silk dyeing). For students, this means learning Japanese in a city that deeply values its cultural heritage while offering a significantly lower cost of living and a friendlier, more welcoming local community than Japan’s overcrowded capital.
+
+---
 
 ## 📚 Courses, Curriculum & Teaching Style
 
-Alice Gakuen offers structured long-term programs tailored to maximize academic progression, alongside convenient short-term study options for cultural immersion and rapid skill development. The primary enrollment paths are the 2-Year Course (April intake) and the 1.5-Year Course (October intake), designed to align perfectly with the standard Japanese academic calendar for higher education entrance. The curriculum is meticulously structured into distinct phases, beginning with fundamental grammar and vocabulary and rapidly progressing into sophisticated communication strategies and academic reading/writing necessary for higher education.
+Alice Gakuen offers structured, long-term courses designed to take students from their current proficiency level up to academic and professional fluency. The curriculum focuses equally on the four core language skills—reading, writing, listening, and speaking—with a heavy emphasis on conversational fluency and practical application.
 
-**Specialized Progression Tracks:** A standout feature of Alice Gakuen is its commitment to specialized preparation, highly unusual for a school of this size outside the main urban centers. The school explicitly offers detailed preparatory paths catering to diverse future goals:
+### Available Courses
 
-*   **EJU Preparation Track (General and Specialized):** Recognizing the necessity of excelling in the Examination for Japanese University Admission (EJU), the school provides dedicated courses focusing on all components: Japanese as a Foreign Language, Mathematics, Japan and the World, and critically, a rare and essential offering—the **Science/STEM Track (理科)**. This track supports students aiming for high-demand fields like Engineering, Medicine, and Physical Sciences, providing specialized terminology and foundational knowledge in Japanese. This makes Alice Gakuen exceptionally valuable for science-focused students who often struggle to find comprehensive EJU Science coaching in general language schools.
-*   **Art & Design Progression Track (美術・デザイン):** Leveraging Kanazawa’s reputation as a center for traditional and contemporary art, the school provides focused guidance and practical preparation for entry into art universities or vocational design programs. This includes portfolio preparation advice, specialized terminology instruction related to art history and theory, and interview practice essential for highly competitive design schools.
-*   **Business & Humanities Track (ビジネス):** For students aiming for business schools, economics faculties, or general humanities programs, this track incorporates specialized business Japanese terminology, practical presentation skills, and an understanding of the Japanese corporate environment, preparing them for entrance exams and future employment.
+| Course Name | Admission Month | Duration | Total Fees (JPY) |
+| :--- | :---: | :---: | :---: |
+| **1.5 Year Course (1年半コース)** | October | 1.5 Years | ¥1,000,000 |
+| **2 Year Course (2年コース)** | April | 2 Years | ¥1,290,000 |
 
-**Teaching Methodology & Conversational Focus:** The teaching style at Alice Gakuen is highly interactive, balancing rigorous grammar study with practical application. The '회화' (Conversational) tag confirms a strong emphasis on developing real-world, spoken fluency. Classrooms utilize small-group instruction and frequent communicative tasks, moving beyond textbook memorization to foster spontaneous and accurate Japanese use. Teachers, who are highly qualified native Japanese speakers, focus not just on linguistic accuracy but on nuance, pitch accent, and socio-linguistic appropriateness, essential skills for navigating both academic and professional environments in Japan. The curriculum also integrates cultural and current affairs topics, using them as a foundation for advanced discussion and debate, thus enriching the learning experience and preparing students for the broader cultural context of Japan.
+*Note: Total fees include tuition and registration costs as outlined by the school’s enrollment guidelines. Textbooks, health insurance, and personal living expenses are separate.*
 
-## 🌍 Student Body & Campus Life
+### Curriculum Highlights
 
-Studying at Alice Gakuen means joining a tightly-knit student community in one of Japan's most historically preserved and culturally rich cities. While the student body, derived from the 200-student capacity, is generally diverse, the regional location often attracts students who are specifically dedicated to intensive study away from the distractions of Tokyo or who are particularly drawn to Japanese tradition and the arts. The relatively smaller scale of the school fosters a high degree of interaction among students from different countries and ensures closer mentorship from the faculty.
+*   **Practical Conversational Training:** Daily lessons emphasize communication strategies, active vocabulary usage, and natural pronunciation, helping students overcome the shyness often associated with speaking a new language.
+*   **Specialized EJU Preparation (with STEM Tracks):** For students aiming to enter prestigious Japanese universities, Alice Gakuen provides comprehensive Examination for Japanese University Admission for International Students (EJU) preparation. Uniquely, this includes guidance in hard-to-find Science and STEM tracks (such as mathematics, chemistry, and physics), which are rarely offered at standard regional language schools.
+*   **Vocational & Practical Seminars:** As a professional training college, the school frequently integrates guest lectures, workplace visits, and business manners seminars into the curriculum, giving language students a clear view of what is expected in the Japanese job market.
 
-Campus life is significantly enhanced by the school's location in Kanazawa. Students have the unparalleled opportunity to experience Japan beyond the standard tourist routes, living close to national treasures like Kenrokuen Garden, the historic Chaya districts, and the innovative 21st Century Museum of Contemporary Art. Extracurricular activities are often centered around integrating the students into the local culture, including workshops on traditional crafts such as Kaga Yuzen dyeing, gold leaf application, and participation in local festivals. These cultural excursions are not merely leisure activities; they are integral components of the language curriculum, providing real-world contexts for using specialized vocabulary.
+---
 
-The atmosphere is supportive yet demanding, reflecting the school's professional focus. The institution encourages students to participate actively in local society, which is often easier in a regional city where international student populations are smaller, leading to more authentic linguistic exchange with local residents. Furthermore, the school facilities are contemporary, necessary given its status as a Senmon Gakko, providing suitable resources for rigorous academic study, including computer labs, dedicated study spaces, and specialized preparation rooms for art or science students to pursue their specific academic goals. The overall environment promotes discipline, strong camaraderie, and deep engagement with Japanese culture, setting students up for academic success and lasting memories of their time in Kanazawa.
+## 🏡 Student Body & Campus Life
 
-## 🎓 University & Career Pathways
+With a total capacity of **200 students**, Alice Gakuen offers an intimate, supportive campus environment where no one gets lost in the crowd. Teachers and administrative staff know every student by name, allowing them to provide personalized academic counseling, mental health support, and daily life assistance.
 
-The academic progression success rate is a core metric of Alice Gakuen, underpinned by its dual identity as a language institute and a Professional Training College. The focus is relentlessly on securing placement for students into highly competitive universities, graduate schools, or vocational careers immediately following language training. The strategic offering of the EJU Science/STEM track is critical here, ensuring that students aiming for technical or medical fields—historically underserved in general language programs—receive the necessary specialized grounding.
+### Guaranteed On-Campus Housing
+One of the most significant advantages of studying at Alice Gakuen is the **guaranteed on-campus housing**. Finding an apartment in Japan as an international student can be notoriously difficult, expensive, and stressful. Alice Gakuen eliminates this barrier by offering comfortable, fully furnished housing directly through the school. 
 
-**Progression Counseling:** Comprehensive one-on-one counseling is provided from the early stages of the program, customized based on the student's chosen track (Science, Humanities, Business, or Art/Design). Counselors assist with:
+*   **Single Room Options:** For students who prioritize privacy and quiet study time, single rooms are readily available.
+*   **Community Living:** Dormitories are equipped with shared spaces where you can cook, study, and socialize with classmates from diverse cultural backgrounds.
+*   **Convenience:** Living on or very close to campus means minimizing commute times and transportation costs, leaving more time for studying and exploring Kanazawa.
 
-*   Selection of target institutions (universities, graduate schools, Senmon Gakko)
-*   Detailed application procedures
-*   Specialized essay writing support
-*   Mock interviews tailored to the specific field (e.g., technical interviews for STEM, portfolio defense for Art)
-*   Intensive preparation for EJU and JLPT exams.
+### Living in Kanazawa
+Kanazawa is an incredibly student-friendly city. It is compact enough to navigate easily by bicycle, yet large enough to offer excellent shopping, modern amenities, and vibrant food scenes. Because Ishikawa Prefecture has a high concentration of universities and colleges, the city is accustomed to hosting students, making part-time job opportunities in hospitality, retail, and local industries highly accessible for international students who have obtained their work permits (*Shikakugai Katsudo*).
 
-**The Senmon Gakko Advantage:** Because Alice Gakuen is classified as a Senmon Gakko (Professional Training College), it often maintains strong direct connections with regional and national vocational institutions. This status can facilitate smoother transfers for students aiming for vocational diplomas, particularly in fields related to the 'Business,' 'Art,' and 'Design' tags. For students who wish to pursue a high-level vocational career immediately, the school’s environment is already geared toward professional readiness, providing a natural bridge to the Japanese job market. The Business track, in particular, prepares students for the rigorous expectations of Japanese companies, emphasizing professional decorum and industry-specific communication skills crucial for success in a competitive economy. The integration of specialized language learning with career-focused guidance ensures that students are not merely receiving a language certificate, but are obtaining a qualification that maximizes their progression potential across a wide spectrum of academic and professional fields in Japan.
+---
 
-## 🏡 Accommodation & Living Support
+## 🎨 University & Career Pathways
 
-One of the most attractive and stress-reducing features of Alice Gakuen is the robust accommodation support, confirmed by the '기숙사' (Dormitory) and '1인실' (Single Room) tags. For international students, securing reliable and comfortable housing immediately upon arrival is often the biggest logistical challenge. Alice Gakuen eliminates this hurdle by offering readily available, high-quality dormitory spaces, with the highly desirable option of secure, private single rooms. This arrangement is significantly beneficial, allowing new students to focus entirely on their studies and cultural adjustment without the immediate pressure of finding private rental accommodation.
+Alice Gakuen’s dual identity as a language school and a *Senmon Gakko* gives its graduates a massive competitive edge when transitioning to higher education or career tracks.
 
-**Dormitory Benefits:** The provision of dormitories, especially single rooms, ensures safety, convenience, and a dedicated environment conducive to study. The location of the dormitories is typically chosen to be easily accessible to the campus, minimizing commute times and associated expenses. The single-room option caters specifically to students who require personal space and quiet for intensive academic preparation (such as EJU or graduate school preparation), a level of privacy often difficult or prohibitively expensive to secure immediately in large city rentals.
+### Art, Design, and Business Progression
+The school has dedicated pathways for students looking to transition into creative and business fields. If your dream is to study graphic design, traditional crafts, fashion, or international business, the advisors at Alice Gakuen can guide you in building portfolios, writing research plans, and preparing for intensive interviews. 
 
-**Living in Kanazawa:** Beyond school-provided housing, the cost of living in Kanazawa is considerably lower than in major Japanese cities. Rent, groceries, and daily transportation costs are typically much more manageable, meaning international students can allocate more of their budget towards tuition or cultural experiences. The school assists students with essential administrative tasks necessary for life in Japan, including setting up bank accounts, registering at the local city hall, and obtaining necessary health insurance. Furthermore, the supportive staff is trained to help students integrate into the local community and handle any challenges that arise, from medical appointments to understanding local transportation systems, ensuring a comprehensive, safe, and positive living experience throughout their enrollment.
+### Vocational Integration
+Many language graduates choose to continue their education directly within Alice Gakuen’s own professional training departments (which specialize in fields like business, care welfare, and local industries) or transition to regional universities in the Hokuriku region. Completing a *Senmon Gakko* program in Japan awards you an "Associate Degree" (*Senmon-shi*), which qualifies you for a work visa in Japan, making this a highly efficient and cost-effective route to long-term employment.
 
-## 💰 Tuition, Fees & Scholarships
+### Career Support Services
+*   **One-on-One Counseling:** Regular check-ins to map out your post-graduation goals.
+*   **Mock Interviews:** Intensive practice for both university admissions and job interviews.
+*   **Resume & Essay Correction:** Professional feedback on college application essays and Japanese resumes (*Rirekisho*).
 
-Alice Gakuen offers highly competitive tuition rates, especially considering the comprehensive academic preparation (including specialized EJU science and art tracks) and guaranteed housing options. The tuition structure reflects excellent value, particularly when compared to similar programs in the Kanto or Kansai regions.
+---
 
-**Estimated Tuition and Fees (Based on Provided Totals):**
+## 💡 Practical Tips for Applicants
 
-The total fees provided generally include the Application Fee, Entrance Fee, Tuition, and Facility/Material Fees, offering a clear overview of the required financial commitment.
+If you are considering applying to Alice Gakuen Language Institute & Professional Training College, keep these practical points in mind:
 
-| Item | 2-Year Course (April Entry) | 1.5-Year Course (October Entry) |
-| :--- | :---: | :---: |
-| **Total Fees** | **¥1,290,000** | **¥1,000,000** |
-| *Estimated Breakdown (First Year/Initial Payment)* |
-| Application Fee (Initial) | ¥25,000 | ¥25,000 |
-| Entrance Fee | ¥50,000 | ¥50,000 |
-| Tuition (First Year/6 Months) | ¥600,000 | ¥450,000 |
-| Facility/Material Fees | ¥75,000 | ¥75,000 |
-| **Total Initial Payment (Approximate)** | **¥750,000** | **¥600,000** |
-
-*Note: These are estimates based on standard institutional breakdowns, aligning with the provided total fees.* The tuition for the 1.5-year course (¥1,000,000 total) represents significant cost efficiency, making this intake particularly attractive for students who require advanced preparation in a shorter timeframe.
-
-**Scholarship Opportunities (장학금):**
-
-Alice Gakuen actively supports ambitious students through various scholarship opportunities. The '장학금' tag confirms the availability of financial aid, which typically includes performance-based scholarships funded by the school itself, as well as the ability to apply for government-sponsored scholarships, such as the Japanese Student Services Organization (JASSO) Scholarship for privately financed international students. These scholarships are generally awarded based on academic merit (high grades, attendance records) and strong recommendations from the teaching faculty, further incentivizing rigorous study and high achievement, particularly for those excelling in the specialized EJU tracks. The school provides detailed guidance on application processes and requirements for maximizing a student's eligibility for external and internal funding sources, reducing the overall financial burden of studying in Japan.
+1.  **Plan for the Weather:** Kanazawa experiences distinct seasons, including beautiful spring cherry blossoms, warm summers, and snowy winters. The region is known for its precipitation (there is a local saying: *"Even if you forget your lunchbox, don't forget your umbrella"*). Bring high-quality waterproof gear and look forward to the stunning winter scenery of Kanazawa Castle covered in snow!
+2.  **Budget Advantage:** Your money goes much further in Ishikawa Prefecture than in Tokyo. Rent, dining out, and daily essentials are highly affordable, allowing you to focus on your studies without constant financial stress. The total tuition of ¥1,000,000 for the 1.5-year course and ¥1,290,000 for the 2-year course represents excellent value when paired with the low local cost of living.
+3.  **Start Your Applications Early:** Because of the school’s limited capacity of 200 and the highly desirable guaranteed housing, spots fill up quickly. For the April intake (2-year course), aim to start your application process by September of the previous year. For the October intake (1.5-year course), begin your preparations by March.
+4.  **Learn Basic Hiragana and Katakana Before Arrival:** While the school caters to beginners, having a basic foundation of the Japanese writing systems will help you settle into your dorm, navigate local convenience stores, and adapt to your new life in Kanazawa much faster.

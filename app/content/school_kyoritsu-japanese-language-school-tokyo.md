@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 2年コース
   total_fees: 1640000
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Intensive University Preparatory Focus (Shin-gaku)
@@ -43,112 +43,79 @@ tuition: {}
 
 ## 🏫 School Overview & Philosophy
 
-Kyoritsu Japanese Language School (共立日本語学校) is strategically located in Yushima, Bunkyo-ku, Tokyo—a district synonymous with academic excellence and higher education in Japan. Unlike massive language academies that cater to general enrollment volumes, Kyoritsu operates on a highly focused, small-scale model, boasting a capacity of just 100 students. This deliberate limitation allows the school to maintain an exceptionally high standard of personalized instruction, which is the cornerstone of its operational philosophy. The school’s mission is clearly defined: to rigorously prepare international students not just to speak Japanese, but to master the complex linguistic, cognitive, and cultural skills required for successful entry into and completion of studies at Japan’s top universities and graduate schools. The location itself reinforces this academic ethos; situated within easy reach of institutions like the University of Tokyo and numerous specialized research facilities, Kyoritsu students are immersed in an environment that actively encourages intellectual curiosity and serious study.
+Kyoritsu Japanese Language School (共立日本語学校) is a highly specialized, boutique educational institution located in the intellectual heart of Tokyo: Bunkyo Ward (Bunkyo-ku). With an approved student capacity of just 100 students, Kyoritsu stands out as an exceptionally intimate, high-focus academy. Unlike the massive "language school factories" found in Shinjuku or Shibuya where students can easily become just another face in a crowd of thousands, Kyoritsu operates on a highly personalized, family-like model. The school’s core philosophy centers on intensive academic advancement (*Shin-gaku*), preparing serious international students to enter Japan's top-tier universities, graduate schools, and prestigious vocational colleges.
 
-The philosophy underpinning Kyoritsu’s approach is 'Precision and Advancement.' Recognizing that university-level Japanese requires far more than conversational fluency, the curriculum is specifically engineered to bridge the gap between JLPT N1 proficiency and the nuanced, academic language demanded by the EJU (Examination for Japanese University Admission for International Students) and university entrance interviews. The school views its small size as its most significant advantage, enabling teachers to track the progress of every individual student, identify specific areas of weakness in academic writing or specialized terminology, and provide tailored mentorship that is virtually impossible in larger institutions. This commitment to individualized success, deeply rooted in the highly academic setting of Bunkyo Ward, makes Kyoritsu an ideal choice for ambitious students whose primary goal is advancing to higher education in Japan.
+### The Bunkyo Ward Advantage
+Location is destiny when studying abroad, and Kyoritsu’s address at 2-20-4 Yushima, Bunkyo-ku, Tokyo, places students in Tokyo’s historic and literal center of learning. Bunkyo Ward is renowned throughout Japan as the country's educational capital. The school is situated a short distance from the prestigious University of Tokyo (Todai), Tokyo Medical and Dental University, and Toyo University. 
 
-Furthermore, Kyoritsu emphasizes the cultural integration necessary for long-term academic success. While linguistic prowess is essential, the school believes that understanding Japanese academic culture—including respect for institutional hierarchy, specialized etiquette, and meticulous attention to detail in presentation and research—is equally vital. The teachers, who often possess extensive experience in university prep, serve not only as language instructors but also as cultural guides, helping students navigate the subtle complexities of the Japanese educational system. The serene, yet central, location of Yushima provides a focused atmosphere conducive to intense study, away from the immediate distractions of major entertainment hubs, yet close enough to utilize Tokyo’s vast resources for research and enrichment. The limited enrollment ensures that classroom dynamics remain intense, highly interactive, and centered on the goal of university admission, creating a supportive yet demanding peer group.
+Living and studying in Yushima means being surrounded by a quiet, safe, and deeply academic atmosphere. Just steps away lies the historic Yushima Tenmangu (Yushima Tenjin), a famous Shinto shrine dedicated to Sugawara no Michizane, the kami of scholarship. You will constantly see Japanese students visiting this shrine to pray for success in entrance exams—an inspiring energy that directly matches the atmosphere within Kyoritsu’s classrooms. Additionally, because the campus is positioned right on the edge of Bunkyo Ward, you are within walking distance of Ochanomizu (known as Tokyo's student town) and Akihabara (the global capital of electronics and subculture), providing an incredible balance between traditional academia and modern Japanese life.
 
-In essence, Kyoritsu Japanese Language School is not merely a place to learn Japanese; it is a specialized training ground for aspiring university students. The school actively selects applicants who demonstrate a clear commitment to their academic future and a willingness to engage in the highly structured and intensive curriculum. The reputation the school seeks to uphold is one of quality over quantity, producing graduates who are not only linguistically competent but academically competitive, ready to tackle the challenges of Japan’s most rigorous higher education programs. This dedication to advanced preparation permeates every aspect of school life, from course scheduling and material selection to the specialized counseling offered throughout the application period, ensuring that every student maximizes their potential for academic placement.
+---
 
 ## 📚 Courses, Curriculum & Teaching Style
 
-The curriculum at Kyoritsu is explicitly geared towards *Shin-gaku* (higher education advancement), structuring all language instruction around the requirements of the EJU and the JLPT N1 exam. The school offers standard course durations designed to align with university application timelines: the **2-Year Course** (starting in April) and the **1 Year 6-Month Course** (starting in October). Both courses cover the same comprehensive academic content, with the 1.5-year track requiring a notably faster pace and presupposing a relatively strong foundation in basic Japanese or an intense dedication to accelerated learning.
+Kyoritsu Japanese Language School strictly tailors its curriculum around structured, long-term academic courses. The school does not spread its resources thin with short-term hobbyist programs; instead, it focuses its entire pedagogy on preparing students for the rigorous entrance requirements of Japanese higher education.
 
-**Curriculum Structure: The EJU & JLPT Framework**
+### Available Programs & Fee Structure
 
-During the initial phase (Beginner to Intermediate), the focus is on rapidly establishing core grammar (covering N5 through N3 levels) and foundational vocabulary. However, once students achieve intermediate proficiency (around N3/N2), the curriculum transitions sharply into advanced academic preparation. Key components of the advanced curriculum include:
+The following table outlines the structured academic programs offered at Kyoritsu. Please note that these fees represent the total cumulative costs for the respective course durations as indicated in the official school registry:
 
-1.  **EJU Specialized Subjects:** Recognizing that the EJU covers subjects beyond Japanese, Kyoritsu provides integrated instruction for the crucial components: Mathematics (Course 1 or 2), Japan and the World (Social Studies/History), and Science (Physics, Chemistry, Biology). These classes are taught in Japanese, preparing students for the specialized terminology required to score highly on the exam and understand university lectures in these fields. The availability of these specialized subjects within the language school itself is a major draw for students aiming for competitive STEM or high-level Humanities programs.
-2.  **Academic Writing (論理的な文章作成):** This is a critical differentiator. Students receive extensive training in composing logical, well-structured essays and research reports (レポート作成) crucial for university entrance examinations and subsequent studies. This involves mastering techniques for summarizing complex articles, developing persuasive arguments, and using formal, academic Japanese (である style) rather than conversational Japanese.
-3.  **Advanced Reading Comprehension:** Classes focus on dissecting complex, dense texts—including academic papers, philosophical articles, and advanced journalistic pieces—to build the speed and analytical skills necessary to process university-level reading materials. This goes far beyond standard JLPT reading exercises, focusing instead on critical evaluation and deep understanding.
-4.  **Interview and Presentation Skills (面接対策):** As many universities require an oral interview (*mensetsu*), the curriculum dedicates significant time to mock interviews, role-playing, and mastering the formal Japanese etiquette and linguistic structures required to interact professionally with professors. This preparation is highly individualized, tailored to the student’s specific target university and major.
+| Course Name (English) | Course Name (Japanese) | Admission Month | Course Duration | Total Fees (JPY) |
+| :--- | :--- | :---: | :---: | :---: |
+| **Academic 1.5-Year Course** | 進学1年6か月コース | October | 1 Year, 6 Months | ¥1,255,000 |
+| **2-Year Course** | 2年コース | April | 2 Years | ¥1,640,000 |
 
-The teaching style at Kyoritsu is highly interactive and demanding. Given the small class sizes (often 10-15 students), teachers can employ seminar-style instruction, encouraging debate and active participation rather than passive listening. Regular, rigorous testing and monthly progress reports ensure students are consistently challenged and receive immediate feedback. The school often implements a homeroom teacher system where a dedicated instructor monitors a small group’s overall well-being, academic progress, and university application status, ensuring continuity of support throughout the student's enrollment period.
+*Note: Total fees generally cover enrollment, tuition, facility fees, and materials. Always verify directly with the school regarding payment installments and potential changes in material costs.*
 
-## 🌍 Student Body & Campus Life
+### Curriculum Highlights & Academic Rigor
+At Kyoritsu, the curriculum is built around two primary pillars: achieving flawless scores on the **JLPT (Japanese Language Proficiency Test) N1/N2** and mastering the **EJU (Examination for Japanese University Admission for International Students)**. 
 
-With a total capacity of only 100 students, Kyoritsu Japanese Language School fosters a unique, close-knit, and academically driven community. The student body typically consists of individuals with very high academic ambitions, predominantly those whose ultimate goal is to enter a rigorous degree program in Japan. While specific demographics fluctuate annually, schools with a strong EJU focus often attract motivated students from East Asian countries (South Korea, China, Vietnam, Taiwan) who are accustomed to highly competitive educational environments, as well as an increasing number of students from Southeast Asia, Europe, and North America who have identified Japan as a key academic destination.
+*   **Intensive Language Foundation:** Classes are structured to move you from foundational Japanese to high-level academic literacy. Instructors focus heavily on reading comprehension of dense academic essays, listening comprehension of university lectures, and advanced writing.
+*   **EJU & JLPT Specific Training:** The school incorporates targeted test-taking strategies directly into the daily curriculum. You will not just learn Japanese; you will learn how to analyze EJU questions under time pressure, write structured short essays (*shorunbun*) required by top universities, and master advanced kanji.
+*   **Small-Group Interactive Environment:** Because the school's total capacity is strictly capped at 100 students, class sizes are kept small. This ensures that every student has ample opportunities to speak, receive direct pronunciation correction, and engage in debates. Your teachers will know your name, your academic goals, and your specific linguistic weaknesses from day one.
 
-**Life in Bunkyo-ku: The Academic Hub**
+---
 
-The campus life experience at Kyoritsu is heavily influenced by its location in Bunkyo-ku. This area is characterized by its historical significance, high concentration of academic institutions (including Tokyo Medical and Dental University, Ochanomizu University, and major private schools), and numerous cultural resources like museums and libraries (especially in the adjacent Ueno area). Campus life is therefore centered less on large-scale nightlife and more on serious study, research, and cultural immersion.
+## 👥 Student Body & Campus Life
 
-**Cultural and Extracurricular Activities**
+With a maximum capacity of 100 students, the community at Kyoritsu Japanese Language School is tight-knit, highly focused, and supportive. While exact real-time demographic percentages fluctuate from term to term, the student body is primarily composed of highly motivated individuals from East and Southeast Asia who share a singular, unified goal: passing competitive Japanese university entrance exams.
 
-While the curriculum is academically intensive, Kyoritsu recognizes the necessity of practical language application and cultural understanding. The school organizes regular cultural immersion activities designed to reinforce classroom learning and aid cultural acclimatization. Typical activities include:
+### The Small-School Experience
+At larger schools, administrative staff are often overwhelmed, leaving students to navigate the complexities of life in Japan alone. At Kyoritsu, the small student body allows for a highly supportive environment. The staff provide thorough assistance with essential life setup tasks, such as registering your address at the ward office, opening a Japanese bank account, and securing health insurance. 
 
-*   **Field Trips:** Excursions to major Tokyo landmarks, historical sites (e.g., Asakusa, Imperial Palace East Garden), and important cultural facilities (e.g., museums in Ueno Park). These trips are often integrated with curriculum themes, requiring students to research and present on the locations in Japanese.
-*   **Traditional Arts Workshops:** Opportunities to experience traditional Japanese culture firsthand, such as tea ceremony (Sado), calligraphy (Shodo), or flower arrangement (Ikebana). These activities help students internalize the aesthetic and philosophical dimensions of the Japanese language and culture.
-*   **Local Interaction Programs:** Efforts are made to connect students with the local Yushima community, potentially through volunteering or language exchange programs, providing essential opportunities to practice formal and informal Japanese outside the controlled classroom setting. This localized integration is often easier in a smaller, neighborhood-focused setting like Yushima compared to vast, anonymous campuses.
+### Living in Bunkyo Ward & Surrounding Areas
+While Bunkyo-ku is highly desirable, it is also a premium residential district. Many students choose to live in slightly more affordable residential areas nearby, commuting easily via Tokyo's world-class transit system. The school is exceptionally well-connected:
+*   **Yushima Station** (Chiyoda Line) offers direct access to central Tokyo.
+*   **Ochanomizu Station** (JR Chuo-Sobu Line) connects you to Shinjuku and western Tokyo in minutes.
+*   **Suehirocho Station** (Ginza Line) provides a direct route into Asakusa, Ueno, and Ginza.
 
-Crucially, the small student body size ensures that the student support system is highly responsive. New students benefit from immediate integration and personalized guidance on navigating life in Tokyo, including essential tasks like setting up bank accounts, registering at the local ward office (Bunkyo-ku Yakusho), and understanding public transportation. The close relationships developed between students and teachers often extend beyond the classroom, creating a highly supportive network essential for international students facing the pressures of intensive EJU preparation.
+Campus life here is characterized by focused study groups, quiet afternoon study sessions in local library cafes, and group walks through the historic streets of Yushima and Kanda. It is an ideal environment for students who find the overwhelming crowds of Shibuya or Shinjuku distracting and prefer a mature, study-oriented atmosphere.
+
+---
 
 ## 🎓 University & Career Pathways
 
-Advancement (進学 - Shin-gaku) is the explicit, primary objective of Kyoritsu Japanese Language School. The entire two-year trajectory is meticulously planned to maximize a student’s chances of gaining entry into highly competitive tertiary institutions in Japan. Given the school’s capacity limitation and high-intensity focus, the expectation is that a vast majority of graduates will transition successfully into four-year universities, junior colleges, or specialized vocational schools (Senmon Gakko), with a significant portion aiming for top-tier national universities.
+Kyoritsu’s reputation is built entirely on its "Shin-gaku" (higher education entry) results. The school’s small scale is its greatest asset when it comes to university placement, as counselors can offer highly customized mentorship that is impossible to replicate in larger institutions.
 
-**Personalized Advising and Application Strategy**
+### Customized Academic Guidance
+The transition from a language school to a Japanese university or graduate school (*Daigakuin*) is notoriously complex. Kyoritsu handles this through a multi-stage guidance system:
+1.  **Individual Target Profiling:** Early in your course, advisors sit down with you to map out target universities based on your academic background, strengths, and personal interests.
+2.  **Research Proposal Support (*Kenkyuu Keikakusho*):** For students aiming for graduate schools, writing a compelling research proposal is the most critical hurdle. Faculty members provide rigorous, one-on-one editing sessions to ensure your academic Japanese is flawless and your thesis proposal meets Japanese research standards.
+3.  **Mock Interviews:** Japanese university admissions rely heavily on personal interviews. Kyoritsu conducts exhaustive mock interviews, training you in formal business Japanese, proper posture, bowing etiquette, and how to confidently articulate your academic ambitions.
+4.  **Vocational School Pathway (*Senmon Gakko*):** If your goal is a specialized trade (such as design, IT, culinary arts, or business hospitality), advisors leverage long-standing relationships with Tokyo's top vocational schools to guide you through the recommendation entry process.
 
-Kyoritsu employs a highly personalized advising process that starts almost immediately upon enrollment. This process typically includes:
+---
 
-1.  **Goal Assessment:** Detailed evaluation of the student's academic background, existing Japanese proficiency, target major (e.g., economics, engineering, law), and desired level of university (National, Public, or competitive Private).
-2.  **EJU Strategy Development:** Creating a customized study plan for the EJU, including recommendations on which specialized subjects to focus on and setting target scores based on the admission requirements of specific universities. Since the EJU scores are crucial, the school tracks performance closely and adjusts the curriculum intervention accordingly.
-3.  **Application Management:** Providing systematic guidance through the convoluted Japanese university application process, which varies significantly between institutions. This includes timeline management, document preparation, translation verification, and coordination with various examination bodies.
-4.  **Interview and Essay Coaching:** This is arguably the most critical support element. The faculty, specialized in entrance exam strategies, conduct numerous mock interviews, focusing on content clarity, structural integrity (for essays), and impeccable use of Keigo (honorific language) during interviews with university professors. For STEM students, this might involve rehearsing how to explain complex scientific concepts clearly in Japanese.
+## 💡 Practical Tips for Applicants
 
-**Target Institutions**
+If you are considering applying to Kyoritsu Japanese Language School, keeping these expert-level tips in mind will maximize your chances of admission and long-term success:
 
-While success is dependent on individual effort, Kyoritsu aims to place students into institutions that match their capabilities. Given its location and academic focus, target universities often include the University of Tokyo, Hitotsubashi University, Tokyo Institute of Technology, Waseda University, Keio University, and other prominent national and public universities in the Kanto region and beyond. The small student body size allows for focused attention on entrance requirements that are unique to each institution, rather than a generalized application approach.
+1.  **Plan Far in Advance for Intake Months:** 
+    *   If you want the full preparation window, apply for the **2-Year Course starting in April**. This aligns perfectly with the Japanese academic year, which begins in April, giving you two full years to prepare for the EJU and university application deadlines.
+    *   If you already have a solid foundation in Japanese (N4 or N3 level) and want a faster track, the **1.5-Year Course starting in October** is highly efficient and cost-effective, saving you half a year of tuition.
 
-For students aiming for career pathways immediately following graduation, or those aiming for specialized vocational colleges (Senmon Gakko), the school also provides guidance on writing specialized résumés (履歴書) and practicing interviews relevant to the specific vocational field (e.g., design, IT, hospitality), though the main focus remains firmly on academic advancement.
+2.  **Prepare Your Finances for Bunkyo-ku Living:** Tokyo's academic district is safe, clean, and highly desirable, but rent can be higher than in the outer suburbs. Expect to budget between ¥60,000 to ¥90,000 per month for a private room or sharehouse nearby. Commuting from neighboring prefectures (such as Chiba or Saitama) via the Chiyoda or Yamanote lines is a great way to save money while still attending class easily.
 
-## 🏡 Accommodation & Living Support
+3.  **Show Serious Academic Intent in Your Application:** Because the school capacity is capped at 100, seats are highly competitive. In your statement of purpose, be incredibly clear about *why* you want to study in Japan, which universities or subject areas you are targeting, and how you plan to use your education in the future. The admissions committee prioritizes applicants who display a strong, realistic drive to pursue higher education.
 
-As a smaller, centrally located school in a high-demand area like Bunkyo-ku, Kyoritsu Japanese Language School typically coordinates housing through affiliated external partners rather than maintaining large, dedicated on-campus dormitories. The school understands that secure and comfortable housing is essential for students undergoing rigorous academic preparation, and therefore offers robust support for securing accommodation upon arrival.
-
-**Accommodation Options**
-
-1.  **School-Affiliated Dormitories:** Kyoritsu will likely have established partnerships with private student dormitory companies (such as Kyoritsu Maintenance or similar providers, though this is inferred based on standard industry practice, given the name 'Kyoritsu' is a large dormitory operator) or external agencies. These options often provide: (a) single or shared rooms, (b) meal plans (breakfast and dinner), (c) structured, safe environments, and (d) relatively easy access to the school via Tokyo’s excellent public transit system. While they may not be in Yushima proper, they are generally located on major train lines connecting efficiently to the school.
-2.  **Guaranteed Apartments/Guest Houses (Gaijin Houses):** For more independent students or those on the 1.5-year track, the school assists in coordinating leases for private apartments (often via agents specializing in international tenants) or placement in shared guest houses. Guest houses offer a chance to live affordably with other international and Japanese residents, providing excellent opportunities for informal language practice.
-
-**Cost of Living Consideration**
-
-Bunkyo-ku is centrally located and considered an affluent, secure area. Consequently, the cost of living, especially for rent, tends to be higher than in suburban areas of Tokyo. Students must budget carefully for this central location premium. In addition to tuition, initial setup costs will include key money, deposit, fire insurance, and utilities for private housing, or a non-refundable entrance fee for dormitories. The school’s support services help students budget for and navigate these complex initial financial requirements.
-
-**Initial Settling Support**
-
-Comprehensive support is offered during the first weeks of arrival, vital for students who have never lived in Japan. This includes:
-
-*   Airport Pickup and Transfer Assistance.
-*   Guidance for Residency Procedures: Completing necessary registration at the Bunkyo Ward Office (including obtaining the residence card and My Number ID).
-*   Setting up Essential Services: Opening a Japanese bank account and arranging mobile phone service.
-*   Health and Safety: Enrolling in the National Health Insurance (Kokumin Kenko Hoken) and understanding local emergency procedures. The smaller student body allows staff to dedicate more time to these crucial administrative tasks for each new intake.
-
-## 💰 Tuition, Fees & Scholarships
-
-Kyoritsu Japanese Language School maintains a transparent fee structure for its specialized, intensive programs. The tuition is competitive for an EJU-focused school operating in central Tokyo. The fees cover instructional costs, facility usage, and materials necessary for the rigorous academic curriculum. It is important for prospective students to recognize that the total fees provided include the tuition fee itself, along with initial application and entrance costs.
-
-Based on the provided data for the two main courses, here is a detailed breakdown, using standard industry estimates for the components of the total fee. All figures are in Japanese Yen (JPY) and reflect costs for the entire program duration.
-
-| Fee Category | 2-Year Course (April Intake) | 1 Year 6-Month Course (October Intake) | Notes |
-| :--- | :--- | :--- | :--- |
-| **Total Program Fees** | **¥1,640,000** | **¥1,255,000** | As published by the institution. |
-| Application Fee (Initial) | ¥30,000 | ¥30,000 | Non-refundable processing fee. |
-| Entrance Fee (Enrollment) | ¥80,000 | ¥80,000 | One-time enrollment fee upon acceptance. |
-| Tuition Fee (Instruction) | ¥1,400,000 | ¥990,000 | Estimated core instructional cost (often paid in installments). |
-| Facility/Maintenance Fee | ¥80,000 | ¥60,000 | For maintenance of academic facilities and resources. |
-| Teaching Materials/Textbooks | ¥50,000 | ¥45,000 | Covers specialized EJU texts and supplementary academic materials. |
-| **Estimated Annual Tuition** | **¥820,000** (For comparison) | **¥836,667** (For comparison) | Reflects the higher intensity of the 1.5-year track per year. |
-
-*Note: The breakdown above is an estimated standard allocation based on the provided total fee figures. Actual specific component costs (Tuition, Facility, Materials) should be confirmed directly with the school upon application.* The fees are generally paid in multiple installments (usually biannually or annually) after the initial application and entrance fees are remitted.
-
-**Scholarship Opportunities**
-
-Kyoritsu students, given their intense academic focus, are highly competitive candidates for both internal and external scholarships. The school actively supports eligible students in applying for these crucial financial aids:
-
-1.  **JASSO Honors Scholarship:** The most sought-after external scholarship, administered by the Japan Student Services Organization (JASSO). Students must demonstrate exceptional academic performance (high attendance and strong grades) and a definite plan for university advancement. This scholarship provides a monthly stipend (currently around ¥48,000) for one year.
-2.  **MEXT Scholarship (Monbukagakusho):** While typically awarded before arrival, the school may guide high-performing students who intend to apply for the MEXT University Recommendation track after graduation.
-3.  **Kyoritsu Internal Scholarships:** Many language schools, especially those linked to larger educational organizations, offer their own scholarships based on merit (high EJU/JLPT scores), attendance, or financial need. Kyoritsu often uses these internal funds to encourage students to maintain perfect attendance records and high academic standing, often providing tuition reductions or lump-sum payments.
-
-4.  **Local Government/Private Foundation Scholarships:** Located in Tokyo, students are eligible for various smaller scholarships offered by local foundations or the Tokyo Metropolitan Government, which the school’s administrative staff assist in identifying and applying for, further alleviating the financial burden of advanced study in Japan.
+4.  **Pre-study Hiragana, Katakana, and Basic Kanji:** Do not arrive in Tokyo as a complete beginner. To get the most out of Kyoritsu’s intensive pace, aim to master basic grammar (equivalent to JLPT N5) before your flight. This will allow the instructors to place you in a functional class immediately, ensuring your transition to academic-level Japanese is as smooth as possible.

@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学2年コース
   total_fees: 1184000
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - On-campus/Affiliated Dormitory Accommodation Available
@@ -44,143 +44,66 @@ tuition: {}
 
 ## 🏫 School Overview & Philosophy
 
-Tokuyama College of Comprehensive Business is a respected educational institution located in the historically significant and beautiful Yamaguchi Prefecture, specifically in Shunan City. Unlike many language schools, Tokuyama College is a *Senmon Gakko* (vocational college) with a specialized Japanese Language Division dedicated to international student education. This structure provides a unique advantage: students are integrated into a higher education environment, gaining early exposure to the academic demands and professional expectations of the Japanese tertiary system, not just learning a language. The school's philosophy is based on achieving high Japanese language proficiency (necessary for advanced studies and careers) while also instilling core business ethics, critical thinking, and cross-cultural communication skills essential for success in the global economy.
+Choosing the right environment to start your Japanese academic journey can feel overwhelming, but **Tokuyama College of Comprehensive Business (徳山総合ビジネス専門学校)** offers a uniquely supportive path for international students. Located at **2-13 Honmachi, Shunan City, Yamaguchi Prefecture (山口県周南市本町2-13)** in Western Japan, this school strikes an ideal balance between academic rigor and local community immersion. With a total student capacity of **200 students**, the school maintains a highly personalized, close-knit learning community where you are a valued individual, not just a face in a crowded lecture hall.
 
-Located outside of expensive metropolitan areas like Tokyo or Osaka, Tokuyama College offers an atmosphere conducive to focused study, supported by a lower cost of living and a safer, community-oriented environment, maximizing educational investment.
+What sets Tokuyama College of Comprehensive Business apart is its physical and structural integration within a **vocational college environment**. This is not a standalone, isolated language school where you only interact with other language learners. Instead, you share a campus with Japanese students who are pursuing specialized technical, professional, and business credentials. This creates a natural, daily environment for organic language practice and cross-cultural friendship.
 
-Its strategic location in Shunan City reinforces the school's mission. Shunan, a vital industrial hub in Western Japan, offers a stable local economy and opportunities for cultural interaction and potential part-time employment, enabling students to practice their language skills daily. The school's modest maximum capacity of 200 students ensures a low student-to-teacher ratio, leading to personalized attention, academic counseling, and student support. The institution bridges the cultural gap for students, offering guidance on navigating Japanese society, academic procedures, and university/career advancement, beyond language instruction. The school aims to produce linguistically competent, globally-minded graduates capable of entering a Japanese university or the workforce with confidence and cultural fluency. This integrated approach, balancing intensive language study with vocational and academic preparation, makes Tokuyama College an excellent choice for motivated international students.
+The school’s philosophical core is centered on empowering students to build bright, practical futures in Japan. Located in Shunan City—a vibrant municipal and industrial hub overlooking the scenic Seto Inland Sea—the school leverages its quiet, safe, and highly affordable location to give students an distraction-free environment to master Japanese, pass rigorous entrance exams, and transition smoothly into higher education or regional employment.
 
-The institution's history reflects a commitment to regional development and professional training, now extended to preparing international students for roles in Japan and their home countries. The vocational track alongside the Japanese language program means that career counselors, IT facilities, and post-graduation guidance are readily available. The school collaborates with local businesses and universities, providing international students with clearer pathways and connections than schools lacking such ties. This is particularly valuable for students aiming to enter universities in the Chugoku, Shikoku, or Northern Kyushu regions. The language program recognizes diverse educational backgrounds, offering adaptive teaching that ensures rapid progress from foundational competence to the academic level required for competitive entrance exams like the EJU (Examination for Japanese University Admission for International Students).
-
-The philosophy embraces well-being alongside achievement. Recognizing the challenges of moving to a new country, Tokuyama College emphasizes welfare support. The availability of affiliated dormitory accommodation offers a secure living environment, allowing new arrivals to focus on studies without housing stress. By fostering a rigorous academic setting in a dynamic regional city, Tokuyama College of Comprehensive Business is a strategic choice for students dedicated to educational and career goals in Japan. The educational ecosystem is supportive, structured, and focused on student outcomes, distinguishing it from larger, less personal institutions.
+---
 
 ## 📚 Courses, Curriculum & Teaching Style
 
-The curriculum is academically rigorous and designed for university advancement, reflecting the nature of the courses: the **University Advancement 1.5 Year Course (October admission)** and the **University Advancement 2 Year Course (April admission)**. These are specialized tracks designed to transition students from foundational language knowledge to the skills required for a Japanese undergraduate or graduate program, or the college's vocational tracks.
+The academic programs at Tokuyama College of Comprehensive Business are designed to cater to two primary student timelines: those starting in the spring for a full two-year immersion, and those starting in the autumn for an intensive one-and-a-half-year track. Both courses are highly structured, prioritizing preparation for higher education and professional integration.
 
-**Curriculum Structure and Progression:**
+### Official Course Overview
 
-The standard curriculum is divided into four core competency areas:
+| Course Name (Japanese) | Course Name (English) | Admission Month | Duration | Total Fees (JPY) |
+| :--- | :--- | :--- | :--- | :--- |
+| **大学進学2年コース** | University Prep 2-Year Course | April (4) | 2 Years | ¥1,184,000 |
+| **大学進学1年半コース** | University Prep 1.5-Year Course | October (10) | 1.5 Years | ¥921,500 |
 
-*   Reading (読解)
-*   Writing (作文/記述)
-*   Listening (聴解)
-*   Speaking (会話/発音)
+*Note: In addition to these primary academic-track courses, the school also offers short-term study opportunities for students wishing to study for shorter intervals alongside the long-term academic students, though specific pricing for short-term programs should be requested directly from the school as official data is limited.*
 
-Progression through the levels—from beginner (N5 equivalent) to advanced (N1 equivalent)—is demanding. The 2-year course provides immersion, building competence from zero Japanese knowledge to the level required for academic report writing and university lectures. The 1.5-year course, for students with a strong foundation (often N4 or low N3 level) or who need a shorter timeframe, is intensive and focuses on rapid attainment of N2 and N1 competencies.
+### Curriculum Highlights & Teaching Style
+- **EJU & JLPT Preparation Focus:** The curriculum is heavily optimized for the Examination for Japanese University Admission (EJU) and the Japanese Language Proficiency Test (JLPT N2 and N1). Teachers guide you through the specific test structures, essay writing styles, and mathematical/general knowledge terminology required to excel in these examinations.
+- **Practical Business Integration:** Because this language school operates within a "Comprehensive Business" vocational framework, lessons frequently incorporate practical Japanese etiquette, business-level speaking styles, and real-world communication scenarios. 
+- **Immersive Learning Atmosphere:** Teachers utilize communicative methods designed to get you speaking immediately. With a maximum capacity of 200, class sizes are kept small enough to guarantee that every student gets called on daily, helping you build confidence rapidly.
 
-**Specialized University Advancement Modules (EJU Focus):**
+---
 
-A critical component is the preparation for the Examination for Japanese University Admission for International Students (EJU) and the Japanese Language Proficiency Test (JLPT). Once students reach the intermediate level (approximately N3/N2), the curriculum shifts toward EJU preparatory subjects. This includes:
+## 👥 Student Body & Campus Life
 
-*   **EJU Japanese:** Focused classes on the Academic Japanese section of the EJU, including essay writing (記述), complex reading comprehension, and advanced listening comprehension, often using past examination papers.
-*   **Elective Academic Subjects:** Depending on the student's intended major (Liberal Arts or Science track), the school offers supplementary courses in EJU-relevant subjects such as Mathematics (Courses 1 and 2), Japan and the World (Social Studies/History), and Science (Physics, Chemistry, Biology). These classes are essential for gaining admission to competitive public universities and are taught by specialized instructors, often in Japanese, to simulate the university lecture environment.
-*   **Research Project Preparation:** For students aiming for Graduate School (院進学), the curriculum will include modules focused on selecting a research topic, drafting a research proposal (研究計画書), and preparing for interviews with university professors.
+At Tokuyama College of Comprehensive Business, campus life is defined by its warm, community-driven spirit. Because the student body is limited to 200, the faculty, administration, and student counselors know everyone by name. 
 
-**Teaching Style and Methodology:**
+### On-Campus & Affiliated Dormitories
+One of the most significant advantages for incoming international students is the availability of **on-campus/affiliated dormitory accommodation**. Moving to a new country can be stressful, but having pre-arranged housing managed directly by the school simplifies your transition. 
+- **Convenience:** Commuting is effortless and inexpensive, allowing you to maximize your study and rest time.
+- **Affordability:** Rent and living costs in Yamaguchi Prefecture are a fraction of what you would pay in metropolitan areas like Tokyo, Kyoto, or Osaka. This makes it much easier to manage your budget without having to overwork.
 
-The teaching methodology emphasizes active learning and practical application. Teachers use a blended approach combining grammar instruction with task-based learning (TBL) and project work. In advanced classes, students are routinely required to deliver presentations, participate in debates, and complete academic papers. This ensures students are capable of applying knowledge in high-pressure contexts typical of a Japanese university setting. Furthermore, the teaching staff, experienced in guiding international students through the complex university application process, serves as both language educators and academic mentors.
+### Life in Shunan City & Yamaguchi Prefecture
+Shunan City is a charming coastal city in Western Japan (Chugoku Region). It is famous for its industrial night views, beautiful green spaces, and its proximity to the Seto Inland Sea. Living here means:
+- **Fewer Distractions, Faster Progress:** In massive metropolitan cities, it is easy to fall into "expat bubbles" and speak your native language. In Shunan City, you will find an authentic Japanese lifestyle. To buy groceries, order at restaurants, or chat with neighbors, you will use Japanese, accelerating your fluency exponentially.
+- **Outdoor and Cultural Activities:** From local sea-side festivals to exploring the historic towns of Yamaguchi Prefecture, there is plenty to do on weekends. The weather is relatively mild, making it pleasant to explore the surrounding nature.
 
-**Short-Term Study Option:**
-
-The presence of 'Short-term study' implies that the college also caters to individuals seeking shorter immersion experiences. While the primary focus is on long-term academic tracts, these shorter programs often provide flexible, intensive Japanese training focused primarily on daily communication, cultural understanding, and practical skills, offering a taste of the learning environment before committing to a multi-year program.
-
-## 🌍 Student Body & Campus Life
-
-With a capacity of 200 students, Tokuyama College offers an intimate learning environment. This mid-sized setting contrasts with larger schools, fostering a close-knit community. While specific demographics fluctuate annually, regional schools like this often attract a student body primarily from East and Southeast Asia (e.g., China, Vietnam, South Korea, Nepal), all united by the common goal of advancing to higher education in Japan.
-
-**Campus Facilities and Integration:**
-
-As a division within a *Senmon Gakko*, international students benefit from utilizing the broader college facilities. This may include specialized computer labs, modern libraries, common areas, and potentially access to vocational course resources. Crucially, the integration within the vocational college environment offers unique opportunities for cultural and linguistic exchange with Japanese students enrolled in the business or technical tracks. While language schools often exist in isolation, the integrated setting at Tokuyama College encourages informal, daily interaction, invaluable for practicing natural Japanese and breaking down social barriers.
-
-**Life in Shunan City, Yamaguchi:**
-
-Studying in Shunan provides an authentic regional Japanese experience. Shunan is known for its quality of life, lower cost of living compared to major cities, and proximity to natural landscapes and historical sites, including those around the Seto Inland Sea. The pace of life is calmer, reducing external pressures often associated with studying in Tokyo or Osaka, allowing students to focus on their academic schedule. The local community is typically supportive of international students, often leading to easier access to local cultural events and community engagement programs.
-
-**Part-Time Employment and Local Economy:**
-
-Yamaguchi Prefecture presents a different landscape for part-time work (arubaito) than metropolises. While competition for jobs may be lower, the types of jobs available might be concentrated in manufacturing, regional tourism, and service industries (convenience stores, restaurants). The school typically provides guidance and documentation support to ensure students find legal employment that does not interfere with their study schedule, adhering to the 28-hour per week limit. The regional setting often means wages are slightly lower than Tokyo but are entirely commensurate with the reduced regional living expenses.
-
-**Cultural Activities and Support:**
-
-Campus life includes organized extracurricular activities designed to immerse students in Japanese culture, such as traditional festivals, regional excursions, participation in local sports days, and tea ceremony introductions. These activities are managed by the school to provide breaks from the academic schedule and aid in cultural adjustment. The small student body size ensures that the school’s administration can offer detailed, personalized welfare support, assisting with every facet of daily life, from initial alien registration and banking procedures to navigating local medical services.
+---
 
 ## 🎓 University & Career Pathways
 
-The core mission of Tokuyama College's language division is to serve as a preparatory institution, facilitating the advancement of students into universities, graduate schools, or specialized vocational careers across Japan. The curriculum, especially the focus on EJU and academic writing, guarantees a high level of preparedness.
+For many students, language school is the launching pad for long-term aspirations in Japan. Tokuyama College of Comprehensive Business provides robust, personalized support to help you achieve your goals.
 
-**Strategic Academic Guidance:**
+### Progression Pathways
+1. **University and Graduate School Admission:** The intensive EJU and JLPT prep courses prepare you for entry into prestigious national, public, and private universities throughout Western Japan and beyond. Individual teachers provide rigorous coaching for university entrance interviews and personal statement writing.
+2. **Internal Vocational Progression:** As the school is integrated with a vocational college, qualified graduates can seamlessly apply to transition into specialized vocational tracks on campus (such as business management, IT, or administrative fields). This provides a clear, streamlined 2-to-4-year pathway to acquiring the "Senmon-shi" (Specialist) degree required for work visas in Japan.
+3. **Local Career Placement:** The school maintains strong relationships with businesses throughout Yamaguchi Prefecture. For students who already hold a bachelor's degree from their home country, the school's career support office helps tailor resumes and prepares them for job interviews with regional employers eager to hire global talent.
 
-The school’s guidance program is structured into three phases:
+---
 
-1.  **Selection and Assessment (Intermediate Level):** Counseling begins early, typically six months into the 2-year program, where counselors assess the student's academic strengths, career aspirations, and desired university level (National, Public, or Private). Based on EJU and JLPT mock scores, personalized study plans are developed.
-2.  **Application and Examination Preparation (Advanced Level):** This phase is dedicated to intensive EJU and JLPT preparation, including specialized electives (Math, Science, Social Studies). Instructors provide one-on-one tutoring for difficult concepts. Crucially, students receive comprehensive support in preparing application documents, drafting personal essays (志望理由書), and undergoing mock interviews designed to replicate the challenging nature of university entrance examinations.
-3.  **Post-Admission Support:** Once acceptance letters are received, the school assists with necessary visa status changes, housing transitions, and orientation for the next stage of their education.
+## 💡 Practical Tips for Applicants
 
-**Pathways to Higher Education:**
+If you are considering applying to Tokuyama College of Comprehensive Business, keep these practical points in mind:
 
-Given its location in Yamaguchi, the school strategically prepares students for universities throughout Western Japan, including institutions in the Chugoku and Northern Kyushu regions. The EJU specialization ensures that graduates are competitive for national universities, while the rigorous Japanese language training secures high passing rates for the JLPT N1, a requirement for many competitive private institutions.
-
-**Vocational Advancement (Senmon Gakko Track):**
-
-A pathway open to Tokuyama College graduates is direct enrollment into the advanced vocational courses offered by the main College of Business. For students interested in specialized fields such as business management, accounting, IT, or design, this option provides a seamless transition without the necessity of the EJU. The vocational track leverages the student's existing relationship with the institution, offering a fast-track to professional qualifications and direct employment support within Japan, particularly within the industries centered in the Yamaguchi region. The school’s local business network often serves as a valuable resource for graduates seeking employment after completing their specialized vocational training.
-
-## 🏡 Accommodation & Living Support
-
-Tokuyama College of Comprehensive Business prioritizes student welfare by featuring readily available dormitory accommodation, a significant benefit for international students. The challenge of securing initial housing in Japan is entirely mitigated, providing students with a safe, stable, and affordable living arrangement from the moment they arrive.
-
-**Dormitory Features and Benefits:**
-
-The dormitories, likely affiliated or directly managed by the school, ensure guaranteed housing and a standardized quality of living. Key benefits include:
-
-*   **Security and Management:** Dormitories are typically managed 24/7, providing a structured, secure environment conducive to studying. Rules are enforced to ensure quiet study times and good communal living.
-*   **Convenience:** The dorms are usually located in close proximity to the campus or are well-connected by local public transport, reducing daily commuting stress and cost.
-*   **Cost-Effectiveness:** Dormitory fees are generally lower than renting a private apartment, especially when considering that utility setup, initial key money (reikin), and deposit (shikikin) costs are eliminated.
-*   **Community Building:** Living in the dorms facilitates immediate friendships with classmates from diverse backgrounds, creating a supportive network for newcomers to Japan.
-
-Room types typically range from single rooms to shared twin rooms, equipped with basic furniture (bed, desk, chair, storage). Common facilities often include shared kitchens, laundry rooms, and communal bath/shower facilities, though some modern dorms may offer private washrooms.
-
-**Comprehensive Initial Support:**
-
-Upon arrival, the school provides support essential for settling into life in Japan. This includes:
-
-*   Airport pickup and transportation to the dormitory.
-*   Guidance on registration at the local city hall (resident registration and National Health Insurance enrollment).
-*   Assistance with opening a Japanese bank account and setting up essential services.
-*   Cultural orientation sessions detailing local customs, emergency procedures, and navigating the local transportation network in Shunan City.
-
-The dedicated support staff is bilingual and provides consultation for issues related to academic stress, health concerns, visa renewals, and daily life, ensuring students have access to a reliable support system. The emphasis on dormitory life and welfare support underscores the school's commitment to enabling students to focus exclusively on their academic objectives.
-
-## 💰 Tuition, Fees & Scholarships
-
-Studying in a regional city like Shunan offers a financial advantage over schools in Tokyo or Osaka, in terms of living costs and tuition structures. The total fees include enrollment charges, tuition, facility fees, and textbook/materials costs for the first year. It is important for prospective students to budget for the second year’s tuition (if applicable) and additional living expenses.
-
-**Detailed Tuition Structure (Based on Input Data):**
-
-| Course Name (English)          | Course Name (Japanese) | Admission Month | Total Fees (First Installment/Year) | Duration    | Estimated Monthly Cost (JPY) |
-| :----------------------------- | :--------------------- | :---------------- | :---------------------------------- | :---------- | :----------------------------- |
-| University Advancement 1.5 Year Course | 大学進学1年半コース         | October           | ¥921,500                              | 18 Months   | ¥51,194                      |
-| University Advancement 2 Year Course | 大学進学2年コース         | April             | ¥1,184,000                             | 24 Months   | ¥49,333                       |
-
-*Note: The total fees listed represent the initial payment required upon enrollment. Subsequent tuition payments will follow a periodic schedule, typically semi-annually or annually, and are generally lower than the initial combined fee.* **These figures typically cover tuition, enrollment fees, materials (textbooks), and facility usage for the designated period.**
-
-**Estimated Annual Cost of Attendance (Yamaguchi Region):**
-
-| Item                                   | Estimated Annual Cost (JPY) | Notes                                                                              |
-| :------------------------------------- | :-------------------------- | :--------------------------------------------------------------------------------- |
-| First Year Tuition & Fees              | ¥1,184,000                  | Based on the longer, full-cost option.                                              |
-| Dormitory/Accommodation                  | ¥360,000 - ¥480,000         | Estimate: ¥30,000 - ¥40,000 per month for managed dorm living.                        |
-| Food/Groceries                         | ¥360,000 - ¥500,000         | Estimate: ¥30,000 - ¥40,000 per month.                                              |
-| Local Transportation/Commuting          | ¥60,000 - ¥100,000           | Highly dependent on distance and usage (often lower with nearby dorms).             |
-| Utilities, Phone, Insurance (Hoken)      | ¥150,000 - ¥200,000         | Includes mandatory National Health Insurance (~¥2,000/month).                        |
-| **Total Estimated First Year Cost**     | **¥2,114,000 - ¥2,500,000** | **(Approx. $13,500 - $16,000 USD, exchange rates pending)**                         |
-
-**Scholarship Opportunities:**
-
-Tokuyama College actively supports students in applying for external and internal financial aid. While detailed school-specific scholarships are not provided in the input data, students at accredited Japanese language schools often have access to the following critical opportunities:
-
-1.  **JASSO Honors Scholarship for Privately Financed International Students:** This scholarship (currently offering around ¥48,000 per month) is often awarded to students exhibiting excellent academic performance and attendance records. The college assists high-performing students with the nomination process.
-2.  **Local Government/Private Foundation Scholarships:** Schools in regional areas often have connections to local foundations (e.g., Prefecture-based or Shunan City organizations) that offer regional scholarships specifically for students studying locally to boost community engagement. The school acts as the primary conduit for these applications.
-3.  **Internal Merit Scholarships:** Many *Senmon Gakko* offer internal tuition reductions or scholarships for students who maintain perfect attendance and achieve outstanding results on the EJU or JLPT, encouraging focused academic effort and providing financial relief in the second year.
-
-The financial profile of studying at Tokuyama College of Comprehensive Business is compelling, offering academic quality and focused preparation at a lower overall cost compared to major metropolitan competitors, making it an excellent investment for dedicated students. The curriculum's specific focus on EJU preparation, the supportive regional environment of Yamaguchi, and the availability of managed accommodation are all benefits designed to maximize student success while minimizing burdens, offering a holistic educational package appealing to ambitious students.
+*   **Choose Your Intake Wisely:** If your goal is to transition to a Japanese university (which almost always starts its academic year in April), the **April (2-Year Course)** is highly recommended. It gives you a full 24 months to prepare for exams. If you already have some Japanese background or want a quicker, more intense path, the **October (1.5-Year Course)** is an excellent, cost-effective alternative at ¥921,500.
+*   **Apply for the Dormitory Early:** Affiliated housing is highly sought after because of its convenience and low cost. Be sure to indicate your interest in the school's dormitory as soon as you submit your initial application.
+*   **Budget Advantage:** Tuition here is exceptionally reasonable. When you combine the low tuition (e.g., ¥1,184,000 for a full two years) with Yamaguchi's cheap local rent and food costs, your total financial outlay will be significantly lower than studying in Japan's major capitals. This allows you to focus deeply on your studies without academic burnout.
+*   **Embrace the Regional Lifestyle:** To get the most out of your time here, be prepared to step out of your comfort zone. Engage with the Japanese vocational students on campus, attend local city events in Shunan, and use your Japanese in daily life. This proactive mindset is what turns a regular study abroad experience into a life-changing career foundation.

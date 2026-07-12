@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1291000
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Intensive EJU Preparation
@@ -42,110 +42,79 @@ translated: true
 tuition: {}
 ---
 
-## School Overview & Philosophy
+Choosing the right Japanese language school is one of the most critical decisions you will make on your academic journey. If your ultimate goal is to enter a prestigious Japanese university, graduate school, or vocational college, and you thrive in a highly focused, personal, and supportive environment, **Gakuto Academy (学東アカデミー)** in Tokyo is an exceptional contender. 
 
-Gakuto Academy (学東アカデミー), strategically located in the accessible yet traditional Sumida Ward of Tokyo, offers a highly focused and intensive environment tailored specifically for international students aiming for rapid and successful entry into Japanese higher education institutions. Unlike larger, more general language schools that cater to varied objectives (tourism, culture, general conversation), Gakuto Academy is a rigorous academic preparatory center. The core philosophy of the school centers on maximizing student potential within a condensed timeframe, ensuring they not only achieve fluency in Japanese but also acquire the specialized academic skills necessary to compete effectively in Japan's demanding entrance examination system.
+Unlike massive "language factories" where students can easily become just another face in a crowded lecture hall, Gakuto Academy is a boutique, highly specialized institution with a maximum student capacity of just **100 students**. This small-school environment is strategically designed to provide intensive academic preparation, ensuring every student receives the individual attention, customized mentoring, and rigorous training required to ace competitive admissions exams. Located in the culturally rich and peaceful Sumida Ward, Gakuto Academy combines deep academic focus with an authentic, comfortable Tokyo lifestyle.
 
-## The Advantage of Intimacy: Small School Environment
+---
 
-With a maximum capacity of just 100 students, Gakuto Academy deliberately cultivates an intimate, supportive, and highly focused learning environment. This low student-to-staff ratio is perhaps its most distinguishing feature, allowing for a level of personalized attention that is simply unfeasible in larger schools. This small size translates directly into academic advantages:
+## 🏫 School Overview & Philosophy
 
-*   Teachers are immediately aware of individual student strengths and weaknesses.
-*   Learning gaps are addressed rapidly through tailored intervention.
-*   The atmosphere encourages deep interaction and frequent one-on-one consultation.
+At the core of Gakuto Academy’s educational philosophy is the belief that language learning is not an end in itself, but a bridge to your future academic and professional success in Japan. The academy does not offer generic "experience Japan" courses; instead, it directs all its resources toward **intensive higher education progression**.
 
-This personalized approach is crucial for mastering complex EJU subjects and navigating the intricate university application process. Students choosing Gakuto Academy seek a dedicated, boutique educational experience where their progress is monitored daily and their goals are prioritized.
+With a strict capacity of 100 students, the school fosters a warm, family-like atmosphere where faculty and staff know every student’s name, academic background, strengths, weaknesses, and personal goals. This high-touch, personalized environment eliminates the administrative disconnect often found in larger schools. At Gakuto Academy, your progress is tracked closely, and your academic advisors act as personal coaches who push you to achieve your absolute best.
 
-## Strategic Location: Sumida Ward, Tokyo
+The school is situated at **3-1-15 Tatekawa, Sumida-ku, Tokyo (東京都墨田区立川3-1-15)**. This location offers a distinct advantage for serious students. Sumida Ward is located in eastern Tokyo, a region known as *shitamachi* (historic downtown). It is a charming neighborhood characterized by a peaceful atmosphere, safe streets, and rich cultural traditions—it is home to the famous Ryogoku Kokugikan (the heart of professional sumo wrestling), the Sumida River, and the iconic Tokyo Skytree. Living and studying here means you are away from the overwhelming noise and daily distractions of major western hubs like Shinjuku or Shibuya, yet you remain exceptionally well-connected to the rest of metropolitan Tokyo via nearby transit hubs like Kinshicho and Kikukawa stations.
 
-Located in Sumida Ward, Gakuto Academy benefits from a location that offers both the convenience of central Tokyo and a calmer, more conducive setting for intensive study. Sumida is rich in history and culture, providing an authentic Japanese backdrop to academic studies. It offers excellent public transport links, ensuring easy access to major university districts for application processes and examinations, while maintaining lower living costs compared to areas like Shinjuku or Shibuya. This balance allows students to remain engaged with the dynamism of the capital city without constant distractions. The setting itself underscores the school's focus: a disciplined environment within the world's largest metropolis.
+---
 
-## Courses, Curriculum & Teaching Style
+## 📚 Courses, Curriculum & Teaching Style
 
-The curriculum at Gakuto Academy is defined by its core mission: Higher Education Progression. The school offers specialized tracks designed to systematically prepare students for university entry. The primary course offerings align with standard visa durations and academic cycles in Japan:
+To ensure students are fully prepared for the demanding schedules of Japanese higher education, Gakuto Academy offers structured, long-term academic advancement tracks. The curriculum is designed with the **Examination for Japanese University Admission for International Students (EJU)** and the **Japanese-Language Proficiency Test (JLPT)** as central pillars. 
 
-*   **2-Year University Progression Course (April Admission):** Ideal for beginners or those requiring a comprehensive two-year roadmap, covering Japanese proficiency from fundamental levels up to the N1/N2 required for university entrance, while simultaneously integrating EJU subject preparation.
-*   **1 Year 6 Month University Progression Course (October Admission):** Designed for students with some prior basic Japanese knowledge or those requiring a slightly shorter track to meet the following April intake of Japanese universities.
+Rather than teaching passive memorization, Gakuto’s pedagogical style emphasizes active expression, logical thinking, and academic writing. Below is the detailed breakdown of the official courses offered by Gakuto Academy:
 
-## The Intensive EJU Preparation Model
+### Official Course Programs & Tuition Fees
 
-Central to Gakuto Academy's academic structure is its intensive preparation for the Examination for Japanese University Admission for International Students (EJU). EJU preparation goes far beyond standard JLPT (Japanese Language Proficiency Test) training. The curriculum dedicates significant class time to EJU-specific subjects:
+| Course Name | Admission Month | Duration | Total Fees (JPY) | Purpose & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **進学2年コース**<br>(2-Year Academic Advancement Course) | April | 2 Years | **1,660,000 JPY** | Comprehensive preparation starting from foundational Japanese up to advanced academic EJU/JLPT N1 levels. Ideal for students aiming for highly competitive universities. |
+| **進学1年6か月コース**<br>(1.5-Year Academic Advancement Course) | October | 1.5 Years | **1,291,000 JPY** | Accelerated track for students with some prior Japanese knowledge or those aiming to fast-track their entry into graduate schools or specialized colleges. |
 
-*   Mathematics (Course 1 or 2)
-*   Science (Physics, Chemistry, Biology)
-*   Japan and the World (General Subjects)
+*Note: Total fees include application, admission, tuition, and basic facility fees as per official guidelines. Textbooks and individual exam fees may be billed separately. Always verify the current fee schedules directly with the school during your application process.*
 
-Instruction for these subjects is often delivered in Japanese to simulate the university classroom environment, building both academic understanding and necessary language proficiency concurrently.
+### The Curriculum Structure
+- **Intensive EJU Preparation**: The EJU is a mandatory hurdle for international students seeking admission to undergraduate programs at national, public, and top-tier private universities in Japan. Gakuto Academy integrates EJU-focused reading comprehension, listening, and listening-reading exercises directly into daily classes. Students also practice writing timed essays under exam conditions.
+- **Advanced Academic Writing & Discussion**: For graduate school applicants, writing a *Kenkyu Keikakusho* (Research Proposal) is critical. Gakuto’s curriculum covers advanced grammar, academic register, and logical structuring so you can present your ideas convincingly to Japanese university professors.
+- **Classroom Dynamics**: Because of the tiny student body, classes are small. Teachers encourage active dialogue, which dramatically accelerates your speaking and presentation skills—skills that are critical for university interviews.
 
-Teaching methodology emphasizes high-frequency testing, simulated exams, and immediate performance feedback. Small class sizes ensure educators can monitor student weaknesses and implement targeted remedial instruction. The pedagogy shifts from broad language acquisition to tactical, exam-oriented study skills, ensuring students develop strong test-taking strategies and time management skills crucial for success on the EJU and subsequent university entrance exams. The goal is not merely to pass the exams, but to achieve high scores that open doors to competitive National and Public universities.
+---
 
-## Student Body & Campus Life
+## 🌍 Student Body & Campus Life
 
-The student demographic at Gakuto Academy is highly self-selected. Given the intense academic focus and emphasis on university progression and EJU preparation, the student body typically consists of mature, disciplined, and goal-oriented individuals from various countries. This shared ambition creates a focused and competitive, yet mutually supportive, atmosphere essential for achieving high academic targets.
+Because Gakuto Academy maintains a total capacity of 100 students, the campus vibe is incredibly close-knit, supportive, and cooperative. Students do not get lost in a sea of hundreds of classmates. You will quickly get to know everyone in your cohort, as well as the entire administrative and teaching staff.
 
-## Fostering Community in a Small Setting
+### Life in Sumida-ku: A Cultural and Strategic Haven
+Studying at Tatekawa, Sumida-ku gives you a unique window into local Tokyo life. The area is highly residential, safe, and surprisingly affordable compared to western Tokyo. 
+- **Daily Conveniences**: The surrounding neighborhood features quiet streets, local Japanese supermarkets (which are much cheaper than convenience stores), cozy public baths (*sento*), and family-run restaurants serving delicious, budget-friendly meals.
+- **Recreation and Culture**: You are a short walk or bike ride away from the scenic Sumida River walk. During spring, you can enjoy stunning cherry blossoms, and in summer, the legendary Sumida River Fireworks Festival takes place nearby. For modern entertainment, Kinshicho is just around the corner, offering large shopping malls, movie theaters, international grocery stores, and massive parks where students gather to study or relax.
+- **Accessibility**: From nearby Kikukawa or Kinshicho stations, you can easily access major Tokyo hubs such as Akihabara (electronic town), Otemachi (business center), and Shinjuku via direct train lines. 
 
-With a capacity capped at 100 students, the sense of community is strong. New students quickly integrate, benefiting from the close relationship between senior students and staff. This allows for a robust informal support system where students share study techniques, university application tips, and resources, fostering a collaborative learning environment. The small campus size ensures all students feel seen and heard.
+While the campus itself is compact and focused primarily on academic delivery, the local neighborhood serves as an extended, living classroom where you can practice your Japanese daily with local shopkeepers, neighbors, and fellow residents.
 
-## Beyond the Classroom: Cultural and Academic Activities
+---
 
-While academic pressure is high, Gakuto Academy recognizes the necessity of cultural immersion and mental well-being. Campus life includes structured activities:
+## 🎓 University & Career Pathways
 
-*   **Cultural Understanding:** Regular trips to local Sumida landmarks or broader Tokyo attractions provide practical exposure to Japanese culture and daily life, ensuring the language learned in class is immediately utilized.
-*   **Academic Preparation:** Integrated with academic goals, such as organized tours of local university campuses (open days), mock interviews conducted by external educational consultants, and workshops on thesis writing or research methodology.
+Gakuto Academy’s defining feature is its commitment to **Personalized Academic Advising**. In larger schools, a single career advisor might be responsible for hundreds of students, leading to generic advice. At Gakuto, your target pathway is treated as a collaborative project between you, your homeroom teacher, and specialized progression counselors.
 
-Students are encouraged to participate actively, demonstrating a comprehensive understanding of Japanese society, a soft requirement for successful university admission.
+### The Counseling Process Includes:
+1. **Target Identification**: Right from your first term, advisors assess your academic background, career goals, and current Japanese level to map out realistic yet ambitious target schools.
+2. **EJU and JLPT Milestone Tracking**: Regular practice testing ensures you are on track to get the scores needed for your chosen universities.
+3. **Application Essay and Research Proposal Mentoring**: Staff provide comprehensive, line-by-line feedback on your university application forms, personal statements, and graduate research proposals.
+4. **Mock Interview Drills (Mensetsu)**: Japanese university interviews can be highly formal and nerve-wracking. Gakuto's teachers conduct rigorous, realistic interview practices, teaching you the proper etiquette, speech patterns, and posture to impress university admissions boards.
 
-## University & Career Pathways
+Whether your goal is to enter a rigorous national university, a famous private university (such as Waseda, Keio, or the MARCH group), a specialized technical college (*Senmon Gakko*), or a demanding Graduate School program, Gakuto Academy's small-scale counseling ensures you are never navigating the complex Japanese admissions system alone.
 
-University progression is the singular focus of Gakuto Academy, supported by a system of highly **Personalized Academic Advising**. This advising starts immediately upon enrollment and continues until the student matriculates.
+---
 
-## Detailed Progression Support Components:
+## 💡 Practical Tips for Applicants
 
-*   **Targeted EJU Strategy Development:** Based on initial assessments, advisors work with students to set realistic EJU score targets for their desired faculties. Study plans are adjusted quarterly.
-*   **Faculty and University Matching:** Specialized counseling is provided to help select the most suitable universities and faculties, including guidance on the division between National, Public, and Private universities.
-*   **Application and Document Review:** Staff provide meticulous oversight of the university application process, including help with drafting Statement of Purpose essays and ensuring all required documents meet deadlines and formatting rules.
-*   **Intensive Interview Practice:** The Academy runs extensive mock interview sessions, focusing on clarity, cultural etiquette, academic motivation, and articulating future career goals in Japanese. Support is customized based on the student's program.
+If you are considering applying to Gakuto Academy, keep these practical, advisor-tested strategies in mind to maximize your chances of success and ensure a smooth transition to Tokyo:
 
-This robust support system ensures that students graduate from Gakuto Academy with high Japanese proficiency, specific academic content knowledge, and the confidence required to transition smoothly into demanding Japanese university environments.
+1. **Apply Well in Advance**: With a strict capacity limit of 100 students, the school's available slots fill up very quickly for both the April (2-year) and October (1.5-year) intakes. It is recommended to begin your inquiry and document preparation 6 to 8 months before your intended start date.
+2. **Prioritize Language Preparation**: Because both courses at Gakuto Academy are fast-paced "academic advancement" tracks, having a solid baseline of Japanese before you arrive is highly advantageous. Even if you only know basic hiragana, katakana, and elementary grammar (equivalent to JLPT N5), you will adjust much faster and get far more out of the EJU-focused classes.
+3. **Budget Wisely for Tokyo Shitamachi**: While the tuition is highly competitive (ranging from 1.291 million to 1.66 million JPY for the full duration), you must also account for living costs. Fortunately, housing in Sumida Ward is generally more budget-friendly than in central or western Tokyo. Look for shared houses or student apartments near Kikukawa, Kinshicho, or Morishita to save on daily commuting costs—many students even commute by bicycle to completely eliminate train fares!
+4. **Balance Work and Study**: As an international student in Japan on a student visa, you are legally permitted to work part-time up to 28 hours per week (and up to 40 hours during long school holidays) after obtaining the "Permission to Engage in Activity Other Than That Permitted Under the Status of Residence Previously Granted." Because Gakuto Academy's curriculum is intensive, it is wise to limit your initial part-time work to 15-20 hours a week until you adapt to the academic workload. The local Sumida and Koto wards have a high demand for part-time staff in convenience stores, logistics centers, and cafes, offering excellent opportunities to earn living expenses while practicing conversational Japanese.
 
-## Accommodation & Living Support
-
-While Gakuto Academy provides intensive academic preparation, its accommodation services are primarily focused on facilitating smooth initial settlement in Tokyo, especially for first-time international students.
-
-## Initial Settlement and Residential Guidance
-
-The school assists new entrants with securing safe and affordable housing options near the Sumida campus. While Gakuto Academy may not operate dormitories, they maintain partnerships with reliable third-party housing providers.
-
-Key support services include:
-
-*   **Initial Setup:** Assistance with opening Japanese bank accounts, registering local residency, obtaining insurance, and familiarizing students with local infrastructure.
-*   **Health and Safety:** Comprehensive orientation sessions cover essential knowledge regarding health services, emergency procedures, and navigating daily life in Tokyo.
-*   **Visa Management:** Continuous support regarding visa renewal processes, work permit applications, and status changes necessary upon university enrollment.
-
-Living in Sumida Ward offers a distinct advantage, providing access to essential amenities and affordable local markets while still being connected to central Tokyo, maximizing study time efficiency and minimizing the financial burden. The small student body further ensures that administrative staff can provide prompt and detailed support for housing issues and life adjustments.
-
-## Tuition, Fees & Scholarships
-
-Gakuto Academy's tuition structure reflects its status as a specialized, progression-focused institution. While the total fees are competitive for a Tokyo-based school offering intensive EJU preparation, prospective students should factor in the high return on investment resulting from personalized academic counseling and subject matter teaching.
-
-## Detailed Course Cost Breakdown
-
-The provided total fees include application, admission, tuition, and materials/facility costs. Below is an estimation of the typical breakdown for planning purposes:
-
-| Fee Component | 2-Year Progression Course (4 Month) | 1.5-Year Progression Course (10 Month) |
-| :--- | :---: | :---: |
-| **Application Fee (Initial)** | ¥30,000 | ¥30,000 |
-| **Admission Fee (One-Time)** | ¥70,000 | ¥70,000 |
-| **Tuition (1st Year/Annualized)** | ¥750,000 | ¥750,000 |
-| **Facilities/Maintenance Fee** | ¥50,000 | ¥35,000 |
-| **Materials/Insurance (1st Year)** | ¥50,000 | ¥40,000 |
-| **Subtotal 1st Year (Estimated)** | ¥950,000 | ¥925,000 |
-| **Tuition (Subsequent Term/Year)** | ¥710,000 (Year 2) | ¥366,000 (0.5 Year) |
-| **Total Program Fees (Official)** | **¥1,660,000** | **¥1,291,000** |
-
-*Note: The actual internal breakdown may vary, but these figures reflect the officially submitted total costs. All fees are in Japanese Yen (JPY) and are subject to change annually.*
-
-## Scholarship Opportunities and Financial Aid
-
-Given its focus on high academic achievement, Gakuto Academy encourages and assists high-performing students in applying for various external scholarships. Students are strong candidates for government-sponsored scholarships reserved for language school students demonstrating clear intent to progress to university (such as the Monbukagakusho Honors Scholarship for Privately Financed International Students). The personalized advising staff identify eligible students, helping them prepare necessary documents, and navigate the application interviews. Achieving high EJU scores is the primary gateway to these financial benefits.
+**Advisor's Final Verdict:** Gakuto Academy is the ideal choice for motivated, goal-oriented students who do not want to get lost in a massive student body. The combination of intense EJU preparation, highly personalized university counseling, and the peaceful, culturally authentic environment of Sumida Ward provides a highly efficient and supportive launchpad for your academic future in Japan.

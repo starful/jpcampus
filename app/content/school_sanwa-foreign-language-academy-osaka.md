@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1074000
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Dormitory accommodation provided
@@ -54,96 +54,76 @@ translated: true
 tuition: {}
 ---
 
-## School Overview & Philosophy
+## 🏫 School Overview & Philosophy
 
-SANWA Foreign Language Academy is a specialized Japanese language institution located in Osaka, Japan's second-largest metropolitan area. Unlike larger language schools, SANWA operates with a boutique model, emphasizing quality over quantity, as demonstrated by its limited capacity. This allows for a low student-to-teacher ratio, creating a personalized learning environment tailored to each student's academic or professional goals. Situated in Hirano-ku, the school offers a balance: it's accessible to central Osaka's dynamism while retaining a calmer, more affordable local atmosphere, ideal for focused study.
+Welcome to **SANWA Foreign Language Academy (SANWA外国語学院)**, a highly focused and remarkably supportive educational institution located in the heart of Osaka's charming Hirano ward (平野区). Operating with a cozy and highly personalized student capacity of just **85 students**, SANWA represents the ideal alternative to the massive, often impersonal "factory" schools found in Japan's major metropolitan areas. Here, you are never just a number; instead, you are a member of a close-knit academic family where teachers, counselors, and peers know you by name and actively collaborate to ensure your success.
 
-SANWA's core philosophy centers on 'Progression and Practicality.' It's not just about teaching grammar; the academy prepares international students for Japanese higher education (university, graduate school, or vocational colleges) or high-level careers. This mission is integrated throughout the curriculum, linking language acquisition with essential academic skills: critical thinking, structured essay writing, professional communication, and specialized subject knowledge for exams like the EJU and JLPT. SANWA serves as a strategic starting point for students aiming for long-term success in Japan, providing the linguistic and cultural foundation needed to thrive.
+Located at **2-3-31 Hirano Baba, Hirano-ku, Osaka-shi**, the academy sits in one of the city's most historically rich and pleasantly residential areas. While tourists flock to the neon-lit corridors of Namba and Umeda, Hirano-ku offers students an authentic, distraction-free slice of daily Japanese life. It is an area characterized by peaceful neighborhood temples, traditional shopping streets (*shotengai*), and incredibly affordable living costs. At the same time, the bustling heart of Osaka is just a short train ride away, giving you the absolute best of both worlds: a quiet, focused sanctuary for academic immersion and easy access to the culinary and economic capital of Western Japan.
 
-The school's small size fosters a supportive community. Students benefit from frequent, personalized consultations with advisors familiar with Kansai's educational institutions. This support ensures students are academically ready and culturally and personally supported. Support extends beyond academics to daily life, accommodation, and visa procedures, easing the transition for international learners. SANWA aims to cultivate independent, articulate, and academically competitive individuals ready for top Japanese institutions.
+SANWA’s educational philosophy rests on creating a bridge between high-level academic achievement and real-world communication competence. The school recognizes that passing a written exam is only half the battle. To truly thrive in Japanese society—whether that means navigating a university lecture, presenting a graduate research plan, or negotiating in a corporate setting—students must possess practical, natural conversational skills (*Kaiwa*). By maintaining an intimate environment, SANWA fosters an immersive interactive dynamic where students are consistently challenged to speak, debate, and present, building immense confidence along the way.
 
-The specialized tracks offered, including support for Science (Rikei) subjects, Art/Design preparation, and Business Japanese, highlight SANWA's commitment to diverse student pathways. This ensures that students in non-humanities fields, who often struggle to find language school support for their specific entrance exam requirements, find a robust and tailored academic home at SANWA. The institutional structure is efficient and focused on maximizing student outcomes, positioning SANWA as a strategic choice for intensive, results-oriented preparation in a nurturing environment.
+---
 
-## Courses, Curriculum & Teaching Style
+## 📚 Courses, Curriculum & Teaching Style
 
-The curriculum is structured around the 'Shingaku' (Higher Education Progression) objective. The primary courses are the 2-Year Progression Course (starting in April) and the 1 Year 6-Month Progression Course (starting in October). These tracks take students from beginner Japanese (or low intermediate) to N1/N2 JLPT levels while preparing them for university entrance exams and specialized subject requirements. The pacing is intensive, requiring commitment, reflecting the competitive nature of university entry in Japan.
+At SANWA Foreign Language Academy, the academic programs are designed around structured, long-term progression paths that align perfectly with the standard admissions cycles of Japanese higher education. The school offers two primary long-term courses tailored for academic advancement (*Shingaku*):
 
-### Specialized Curricular Streams:
+| Course Name | Admission Month | Duration | Total Program Tuition & Fees (JPY) |
+| :--- | :---: | :---: | :---: |
+| **University Prep 2-Year Course**<br>*(進学2年コース)* | April | 2 Years | ¥1,394,000 |
+| **University Prep 1.5-Year Course**<br>*(進学1年6か月コース)* | October | 1.5 Years | ¥1,074,000 |
 
-*   **EJU Preparation Mastery:** EJU subjects are deeply integrated into the advanced curriculum. Unlike schools that offer EJU preparation as an elective, SANWA ensures training in Japanese, General Knowledge, Mathematics, and Science modules (Physics, Chemistry, Biology) for Science track students. The Science track coaching is a distinguishing feature, catering to engineering, medicine, and science applicants needing targeted support.
-*   **Art and Design Pathway:** For students aiming for art colleges, SANWA offers specialized support beyond language, including portfolio preparation, vocabulary related to art history and theory, and interview practice for design school entry requirements.
-*   **Advanced Business Japanese:** Recognizing students aiming for employment or internships, the curriculum includes modules on Business Etiquette, professional document composition, presentation skills, and vocabulary for various Japanese industries. This ensures graduates are professionally articulate in a Japanese corporate environment.
+### Specialized Curriculum Streams
+What sets SANWA apart from other schools of its size is its ability to offer highly specialized, modular curriculum enhancements within these foundational courses. Depending on your personal goals, you can access the following training paths:
 
-### Teaching Methodology:
+*   **Comprehensive EJU Preparation:** The Examination for Japanese University Admission for International Students (EJU) is the gateway to top-tier universities. SANWA provides rigorous training not just in Japanese language proficiency, but also in the specific test-taking methodologies, essay writing, and analytical skills required to score highly on this critical exam.
+*   **Specialized Science Track (Rikei) Preparation:** For students aiming for STEM fields, medicine, or engineering, ordinary language classes are not enough. SANWA offers specialized preparation to help students master the complex, technical Japanese vocabulary and conceptual frameworks required for scientific university programs.
+*   **Art and Design University Support:** Admission to Japanese art universities requires more than just academic testing—it demands portfolio development, conceptual presentation skills, and intense interview preparation. SANWA provides tailored support to guide creative students through these highly specialized audition processes.
+*   **Advanced Business Japanese & Career Training:** For those looking to enter the workforce directly or after graduation, the academy offers practical modules focusing on the nuances of honorific language (*keigo*), business email writing, formal presentation techniques, and corporate etiquette in Japan.
+*   **Flexible Short-Term Study Options:** For students who cannot commit to a long-term student visa but still wish to experience SANWA's superior instruction, the academy offers adaptable short-term programs that fit into various travel or temporary stay frameworks.
 
-SANWA employs a communicative and outcome-based teaching style. While grammar and kanji acquisition are systematic, the emphasis shifts to practical application and critical analysis for academic life. Teachers use immersive techniques, engaging students in discussions, debates, and presentations to hone conversational fluency. Small class sizes facilitate interaction and feedback. Mock exams, essay writing workshops, and regular assessments simulating the EJU and JLPT ensure students are test-ready. The flexible short-term study option caters to those seeking rapid improvement in specific areas, showcasing the school's adaptability.
+---
 
-## Student Body & Campus Life
+## 🏠 Student Body & Campus Life
 
-The student body is intentionally small, creating a focused community. The school attracts motivated students primarily from East Asian countries (China, South Korea, Vietnam, Nepal, etc.) who share the goal of advancing to higher education in Japan. The small size ensures diversity remains manageable, allowing for cross-cultural communication and friendship building in a supervised setting.
+With a total capacity of only 85 students, the atmosphere on campus is distinctively warm, cooperative, and supportive. Rather than separating into isolated cultural cliques, students of various nationalities interact daily, using Japanese as their primary bridge language. This small-scale environment ensures that the administrative staff can provide deep, hands-on lifestyle support to every single individual—helping you open bank accounts, register at the local ward office, navigate the Japanese medical system, and find part-time jobs (*arubaito*).
 
-Campus life is characterized by academic rigor and personalized support. Since the school is progression-focused, students spend time in classes, group study sessions, and consultations. The institution balances this with cultural engagement, organizing activities from arts workshops to excursions to historical sites in Osaka, Kyoto, and Nara. These activities provide opportunities to practice Japanese and deepen understanding of Japanese norms and customs (Kansai dialect exposure).
+### Accommodation & Housing Options
+Recognizing that housing security is critical to academic success, SANWA provides comprehensive dormitory accommodations. For students who value their privacy and seek a quiet study environment after school hours, the academy stands out by offering **single-room housing options**. This is a massive advantage compared to many schools where shared, multi-person rooms are the only affordable choice. These accommodations are located close to the campus, minimizing commute times and allowing you to save money while living comfortably in a safe, residential neighborhood.
 
-Living in Hirano-ku, Osaka, offers advantages. While not in the expensive central districts, it's well-connected by transport, providing access to amenities, including supermarkets, medical facilities, and part-time job opportunities. The cost of living is generally lower than in central Tokyo or commercialized parts of Osaka, which is beneficial for international students. The campus environment, coupled with guidance for daily logistics, ensures even new students can establish a comfortable and productive life.
+### Financial Peace of Mind: Scholarships
+To ensure that financial constraints do not stand in the way of talented individuals, SANWA provides robust internal and external scholarship opportunities. Hardworking students with excellent attendance records, high academic achievements, and positive contributions to the school community are regularly nominated for prestigious regional and national scholarships, as well as the academy's own performance-based financial awards.
 
-## University & Career Pathways
+### Life in Osaka's Hirano Ward
+Living in Hirano-ku means enjoying a significantly lower cost of living than you would find in central Tokyo or even central Osaka. Fresh produce, local restaurants, and daily necessities are very reasonably priced. The local community is incredibly welcoming, offering students a safe environment to practice conversational Japanese with shopkeepers, neighbors, and local residents. Whenever you want to dive into the high-energy city life, Osaka’s excellent rail network puts downtown hubs like Tennoji, Namba, and Shinsaibashi within immediate, stress-free reach.
 
-A strength of SANWA is its commitment to university and career placement. The school’s infrastructure aims to maximize students' success in entering competitive programs. Advisors have specialized knowledge regarding entrance requirements for Kansai institutions, including national, public, and private universities.
+---
 
-### Comprehensive Progression Support:
+## 🎓 University & Career Pathways
 
-*   **Targeted EJU and JLPT Strategy:** Students are tracked through mock exams, and personalized study plans are formulated. This includes remedial classes in specific EJU subjects, ensuring a well-rounded score profile for top university applications.
-*   **Application and Interview Training:** The school provides guidance on preparing application documents, writing research proposals (for graduate school applicants), and crafting personal essays. Intensive interview practice sessions simulate the environment of university admissions interviews, focusing on linguistic fluency and logical presentation of ideas.
-*   **Specialized Placement:** The school excels in directing students toward niche fields:
-    *   **Science Track:** Successful placement into science and engineering faculties at regional public universities.
-    *   **Art/Design Track:** Guidance for portfolio creation and entry into leading Japanese art universities.
-    *   **Business/Economics:** Preparation for entering competitive faculties, leveraging the business Japanese curriculum to give students a competitive edge.
-*   **Career Guidance:** For students opting for employment or vocational college, SANWA offers career guidance, including resume critique, understanding Japanese corporate culture, and preparation for job-hunting, ensuring a smooth transition into the professional world if higher education is not the immediate goal. The school leverages its network within the Osaka area.
+Whether your dream is to enter a prestigious national university, a specialized graduate program (*daigakuin*), a vocational school (*senmon gakko*), or transition directly into the Japanese corporate world, SANWA Foreign Language Academy is built to get you there.
 
-## Accommodation & Living Support
+### Graduate School Track
+Applying to graduate school in Japan is a complex process that relies heavily on your ability to write a compelling, academically rigorous **Research Proposal (Kenkyu Keikaku-sho)** and directly contact potential academic advisors. SANWA's instructors work one-on-one with graduate hopefuls, helping them refine their research topics, draft scholarly correspondence, and prepare for intensive academic interviews.
 
-SANWA emphasizes providing accommodation options, recognizing the challenges international students face in securing housing. The availability of dormitory housing is a major feature, offering peace of mind.
+### Undergraduate and Art School Pathways
+For undergraduate applicants, the combination of comprehensive EJU prep, Science Track (*Rikei*) tutoring, and targeted Art & Design school guidance ensures that you are competitive across multiple disciplines. Mock interviews are conducted repeatedly until your responses flow naturally and confidently, leaving a lasting, positive impression on university admissions boards.
 
-### Key Accommodation Features:
+### Career Support & Professional Transitions
+For students looking to build a career in Japan, the school's advanced Business Japanese training is paired with comprehensive job placement advice. You will receive hands-on instruction in crafting a Japanese-style resume (*rirekisho*), navigating the unique timelines of the Japanese job hunt, and mastering the subtle social dynamics of Japanese corporate culture.
 
-*   **Dormitory Availability:** The school manages or partners with dormitories located within commuting distance from the campus. These facilities are designed for international students.
-*   **Single Room Option:** A sought-after feature is the availability of single rooms, which is invaluable for focused students requiring a quiet space for academic preparation for the EJU or JLPT N1.
-*   **Comprehensive Amenities:** Dormitories typically include furnished rooms, shared common areas (kitchens/lounges), laundry facilities, and utilities (electricity, water, internet) included in the monthly fee.
+---
 
-### Extensive Daily Life Support:
+## 💡 Practical Tips for Applicants
 
-Beyond housing, SANWA provides support services for navigating life in Japan:
+Choosing the right path at SANWA involves strategic planning. Here are some expert, actionable tips to keep in mind as you prepare your application:
 
-*   **Immigration and Administrative Support:** Staff assist students with administrative tasks, including alien registration, national health insurance enrollment, and visa renewal.
-*   **Health and Safety:** Support staff assist students in accessing medical services, translating health information, and ensuring they understand safety protocols.
-*   **Part-time Job Guidance (Arubaito):** While the focus is academics, the school recognizes the necessity of part-time work for many students. Guidance is provided on understanding visa restrictions, application procedures for jobs, and workplace communication.
-
-This support system allows students to focus on their studies, knowing their arrangements and requirements are being managed.
-
-## Tuition, Fees & Scholarships
-
-SANWA maintains competitive tuition fees, considering the individualized attention and academic support provided. The small capacity ensures the investment translates into educational outcomes.
-
-### Standard Progression Course Fees (Example)
-
-Costs are approximations based on the provided fee structure and reflect a breakdown for a Japanese language school focused on progression. Fees cover tuition, entrance fees, facility maintenance, and textbooks.
-
-| Item                          | 2-Year Progression Course (April Entry) | 1 Year 6-Month Progression Course (October Entry) |
-| :---------------------------- | :--------------------------------------: | :---------------------------------------------------: |
-| **Application/Selection Fee** |                 ¥30,000                  |                        ¥30,000                        |
-| **Entrance Fee**              |                 ¥60,000                  |                        ¥60,000                        |
-| **Tuition (1st Year)**        |                ¥720,000                  |                    ¥720,000 (Prorated)                   |
-| **Facility Fee**              |                 ¥50,000                  |                        ¥40,000                        |
-| **Textbooks/Materials (1st Year)** |                 ¥34,000                  |                        ¥34,000                        |
-| **Insurance/Other Fees**      |                 ¥20,000                  |                        ¥20,000                        |
-| **Subtotal (Initial Payment)**   |                ¥914,000                  |                        ¥904,000                        |
-| **Tuition (Subsequent)**       |             ¥480,000 (2nd Year)            |                 ¥170,000 (Remaining 6 Months)                 |
-| **Total Course Fees (Approx.)** |               **¥1,394,000**               |                       **¥1,074,000**                       |
-
-*Note: The total fees provided are ¥1,394,000 for the 2-Year course and ¥1,074,000 for the 1 Year 6-Month course. The table provides a common cost breakdown to meet these totals.* **Accommodation fees are separate** and vary based on dormitory type (single vs. shared) and location, ranging from ¥35,000 to ¥65,000 per month.
-
-### Scholarships and Financial Aid
-
-SANWA emphasizes the accessibility of its education through a scholarship system. The school supports students in applying for external scholarships, such as the *Monbukagakusho Honors Scholarship* for privately financed international students, which offers a monthly stipend.
-
-Furthermore, SANWA maintains its own internal scholarship program. These internal awards are merit-based, rewarding students who exhibit academic performance, high attendance rates, and progress in their language studies (e.g., achieving JLPT N1 or outstanding EJU scores). The goal of these scholarships is to reduce financial burden and incentivize academic excellence and dedication, aligning with the school's mission. Information on eligibility and application procedures for scholarships is communicated to students after enrollment.
+1.  **Select the Right Intake Based on Your Goals:**
+    *   Choose the **April Intake (2-Year Course)** if you are starting with a beginner-level foundation in Japanese or if you are aiming for highly competitive national universities, science programs, or art institutions that require extensive portfolio/exam preparation.
+    *   Choose the **October Intake (1.5-Year Course)** if you already possess a basic to intermediate grasp of the language (N4/N3 level) and want to streamline your path directly into a vocational school, graduate school, or career within eighteen months.
+2.  **Plan Your Housing Early:**
+    *   Since SANWA’s capacity is 85, their high-demand **single-room dormitory accommodations** fill up quickly. If having your own private space is important to you, make sure to indicate your housing preference as soon as your school application is submitted.
+3.  **Leverage the Cost Advantages of Osaka:**
+    *   With tuition rates set at a very reasonable ¥1,394,000 for two full years or ¥1,074,000 for one and a half years, you are already saving significantly compared to Tokyo-based institutions. Combine this with the low cost of rent and food in Hirano-ku, and you can comfortably fund your studies with a modest budget or through standard part-time work (up to the legally permitted 28 hours per week).
+4.  **Embrace the Community-Focused Atmosphere:**
+    *   To get the most out of SANWA, be proactive. Because the school is small, the teachers are exceptionally accessible. Do not hesitate to ask for extra help with your EJU prep, ask for portfolio reviews, or seek guidance on local job applications. The students who succeed best at SANWA are those who actively utilize the personalized attention that only a boutique academy can offer.

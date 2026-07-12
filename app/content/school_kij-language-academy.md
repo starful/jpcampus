@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparation 1.25-Year Course
   total_fees: 920990
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Scholarships
@@ -60,70 +60,77 @@ tuition: {}
 
 ## 🏫 School Overview & Philosophy
 
-KIJ Language Academy, located in Kobe, Hyogo Prefecture, focuses on providing customized education to help students achieve their diverse goals. Beyond simply acquiring language skills, the academy aims to foster a deep understanding of Japanese society and culture, supporting students to live and study successfully in Japan. With a capacity of 510 students, KIJ Language Academy creates an optimal environment for providing personal attention and guidance. Experienced faculty members tailor their teaching methods to students' individual learning styles and needs, helping them improve not only their Japanese language skills but also their critical thinking and problem-solving abilities. KIJ Language Academy constantly strives to be a reliable stepping stone, helping students turn their dreams into reality.
+Welcome to **KIJ Language Academy (ＫＩＪ語学院)**, a premier language institution nestled in the historic and vibrant port city of Kobe, within Hyogo Prefecture. Located specifically at **3-7 Hamasaki-dori, Hyogo-ku, Kobe-shi**, the school occupies a perfect sweet spot for international students: situated in a peaceful, traditional neighborhood that promotes focused study, yet remaining just minutes away from the bustling, cosmopolitan downtown districts of Sannomiya and Harborland.
 
-The educational philosophy of KIJ Language Academy is 'student-centered.' The top priority is to help each student maximize their potential. To achieve this, student opinions are actively solicited and reflected in the curriculum and school operations. Furthermore, various activities and programs are organized to boost students' motivation. For example, through Japanese cultural experience activities, community service activities, and sports competitions, students can deepen their understanding of Japanese culture and form bonds with other students through interaction. KIJ Language Academy is committed to creating an environment where students can enjoy studying and move towards their dreams.
+Kobe has long been celebrated as one of Japan’s most welcoming cities for foreigners. Framed by the majestic Mount Rokko range to the north and the sparkling Osaka Bay to the south, it offers an exceptionally high quality of life with a relaxed, coastal breeze. Studying at KIJ Language Academy means immersing yourself in this rich multicultural environment, where Western-influenced architecture, traditional Japanese shrines, and bustling international communities coexist harmoniously.
 
-KIJ Language Academy offers a variety of courses tailored to students' career goals. These include university preparation courses for students aiming to enter universities, business Japanese courses for students aiming to work in Japanese companies, and short-term courses for students interested in Japanese culture and the arts. Each course is subdivided according to students' levels and goals, and students can choose and take the course that best suits their needs. In addition, KIJ Language Academy runs test preparation classes to help students achieve good results on the Japanese-Language Proficiency Test (JLPT) and the Examination for Japanese University Admission for International Students (EJU). Under the guidance of experienced instructors, students can become familiar with the test format and improve their problem-solving skills. KIJ Language Academy provides a systematic learning system to help students achieve their goals.
+With a generous student capacity of **510 students**, KIJ Language Academy is large enough to offer robust academic facilities, dedicated career resources, and diverse elective tracks, yet small enough to avoid the impersonal atmosphere of massive metropolitan schools. The school’s core philosophy is built upon the dual pillars of academic excellence and cultural empathy. The educators here do not just teach Japanese for examinations; they aim to cultivate global citizens who can confidently articulate their thoughts, appreciate cultural nuances, and seamlessly transition into Japanese universities, vocational schools, or professional work environments.
 
-KIJ Language Academy operates various support systems to help students adapt to life in Japan. Counselors who can speak various languages, including Korean and English, are stationed in the school and provide counseling on students' academic, personal, and career matters. In addition, the school operates dormitories for students around the school, and the dormitories are equipped with basic living facilities. KIJ Language Academy provides the best possible support to enable students to concentrate on their studies with peace of mind.
+---
 
 ## 📚 Courses, Curriculum & Teaching Style
 
-KIJ Language Academy offers a variety of courses to suit different goals and study durations. Each course focuses on improving students' Japanese language skills and deepening their understanding of Japanese culture. Through a systematic curriculum and guidance from experienced faculty, students can effectively learn Japanese and adapt to Japanese society. In particular, KIJ Language Academy operates a university preparation course for students aiming to enter universities and supports students in achieving good results through EJU test preparation classes.
+KIJ Language Academy boasts a highly structured curriculum designed to match your specific academic timeline and linguistic starting point. Understanding that students arrive with different goals and schedules, the academy offers four distinct university preparation courses starting at different times of the year. 
 
-| Course Name                      | Admission Month | Total Tuition (Yen) | Features                                                                                                                                                                                                                                               |
-| -------------------------------- | --------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| University Preparation 2-Year Course | April           | 1,434,960           | A course for students aiming to enter universities, graduate schools, or vocational schools. Focuses on improving overall Japanese language skills and preparing for the EJU exam.                                                        |
-| University Preparation 1.5-Year Course | October         | 1,097,470           | A course for students aiming to enter universities, graduate schools, or vocational schools. Focuses on improving Japanese language skills intensively in a short period and preparing for the EJU exam.                                    |
-| University Preparation 1.75-Year Course | July            | 1,265,980           | A course for students aiming to enter universities, graduate schools, or vocational schools. Allows for a more relaxed schedule for learning Japanese and preparing for the EJU exam compared to the 1.5-year course.                    |
-| University Preparation 1.25-Year Course | January         | 920,990             | A course for students aiming to enter universities, graduate schools, or vocational schools. Focuses on improving Japanese language skills through intensive study in a short period and preparing for the EJU exam.                                    |
-| Short-Term Course                  | Any time        | Please inquire      | A course for students who want to experience Japan through various activities such as Japanese language learning, cultural experiences, and exchange activities.                                                                        |
-| Business Japanese Course             | Any time        | Please inquire      | A course for students aiming to work in Japanese companies. Provides education to acquire the Japanese language skills and business manners required in a business environment.                                                              |
-| EJU Exam Preparation Class          | Any time        | Please inquire      | A course for students aiming to score high on the EJU exam. Improves skills through exam type analysis, problem-solving practice, and mock exams.                                                                                       |
-| JLPT Exam Preparation Class         | Any time        | Please inquire      | A course for students aiming to pass the JLPT exam. Improves skills through exam type analysis, vocabulary and grammar learning, listening and reading comprehension practice.                                                                        |
+Below is the official course structure and tuition breakdown. *Please note that these fees represent the comprehensive total cost for the respective course durations:*
 
-KIJ Language Academy's teaching style encourages active student participation. Instead of unilaterally delivering knowledge, teachers constantly communicate with students, asking questions and encouraging discussion. Through this, students can develop the ability to think for themselves and solve problems, rather than simply memorizing content. In addition, KIJ Language Academy uses various audio-visual materials and teaching aids to increase the interest of the lessons and help students learn Japanese more easily and enjoyably.
+| Course Name | Intake Month | Duration | Total Fees (JPY) |
+| :--- | :--- | :--- | :--- |
+| **University Preparation 2-Year Course** | April | 24 Months | ¥1,434,960 |
+| **University Preparation 1.75-Year Course** | July | 21 Months | ¥1,265,980 |
+| **University Preparation 1.5-Year Course** | October | 18 Months | ¥1,097,470 |
+| **University Preparation 1.25-Year Course** | January | 15 Months | ¥920,990 |
 
-## 🌍 Student Body & Campus Life
+### Specialized Electives & Teaching Methodology
+KIJ does not believe in a "one-size-fits-all" approach. Once you achieve intermediate proficiency, the curriculum opens up to target your specific aspirations through specialized support modules:
 
-KIJ Language Academy provides an international environment where students from various countries study together. Although the exact percentage by nationality is not disclosed, the ability for students with diverse cultural backgrounds to interact, understand each other and develop a global sense is a major advantage. Making friends from various countries and learning about each other's cultures helps students develop an international perspective and contributes to improving the communication skills needed in future society.
+*   **EJU Preparation (Science & Humanities):** For students aiming for prestigious national or private universities, the school provides focused training for the Examination for Japanese University Admission (EJU). This includes intensive instruction in academic reading, listening, and essay writing.
+*   **Science Course Track:** Unique among many language schools, KIJ provides specific academic support for students specializing in the sciences, helping them master technical vocabulary and logical scientific presentation styles in Japanese.
+*   **Art & Design Course Pathways:** If your dream is to enter one of Japan's legendary art universities or design colleges, KIJ offers targeted advice on portfolio creation, artist statements, and interview preparation.
+*   **Business Japanese & Conversation-Focused Training:** For those aiming to enter the workforce directly, classes focus on practical business etiquette, honorific language (Keigo), telephone manners, and interactive, real-world conversation practices.
 
-KIJ Language Academy is more than just a place to learn Japanese; it supports a variety of activities where students can have fun and make memories. The school has a lounge area and study space available for students to use freely, and various club activities allow students to share hobbies and build friendships. In addition, the school regularly holds various events such as cultural experience activities, sports competitions, and volunteer activities to enhance students' understanding of Japanese culture and promote interaction with other students. Through these activities, students can create unforgettable memories at KIJ Language Academy and increase their satisfaction with life in Japan.
+---
 
-In particular, KIJ Language Academy is strengthening its ties with the local community to help students understand Japanese society more deeply. Through activities such as participating in local festivals and interacting with local residents, students can directly experience Japanese culture and form relationships with Japanese people. This experience greatly helps students adapt to Japanese society and enriches their lives in Japan.
+## 🏠 Student Body & Campus Life
+
+With a diverse community of up to 510 students, campus life at KIJ Language Academy is a lively tapestry of backgrounds and cultures. Students from all across Asia, Europe, and the Americas come together here, creating a mini-global village in the heart of Kobe.
+
+### Housing & Dormitory Options
+To ease your transition into Japan, the academy offers **dormitory accommodations**. For many international students, navigating the private rental market in Japan can be daunting due to requirements like guarantors and high upfront key money. KIJ’s student housing options remove this barrier, providing affordable, fully furnished, and safe living spaces located within walking distance or a short bicycle ride from the school. This setup allows you to immediately make friends, study in groups, and live comfortably from day one.
+
+### Living in Kobe (Hyogo-ku)
+Kobe is famously student-friendly. While Tokyo and Osaka can feel overwhelmingly dense and expensive, Kobe offers a much more reasonable cost of living. Rent, food, and daily essentials are significantly cheaper, allowing your budget to stretch further. Around the Hyogo-ku area, you will find quiet residential streets, convenient supermarkets, affordable public baths, and local eateries. When you need a break from studying, you can easily hike up Mount Rokko, picnic at Meriken Park, visit the historic Ikuta Shrine, or explore Kobe’s famous Chinatown (Nankinmachi).
+
+---
 
 ## 🎓 University & Career Pathways
 
-KIJ Language Academy operates a systematic university admission support system for students who wish to enter universities. It provides customized university admission counseling tailored to each student's desired university and department and supports students in achieving high scores through EJU exam preparation classes. In addition, it supports all the processes necessary for university admission, such as providing university entrance exam information, interview practice, and proofreading personal statements.
+For most international students, a language school is a stepping stone to a larger dream. KIJ Language Academy takes its role as a bridge to your future very seriously. The school’s dedicated career guidance office provides individualized, step-by-step counseling to ensure you reach your destination.
 
-KIJ Language Academy's university admission guidance focuses not only on university acceptance but also on helping students choose universities and departments that match their aptitudes and interests. Through career counseling, students can identify their strengths and weaknesses and obtain various job information. In addition, KIJ Language Academy builds a network with graduates to help students obtain information on career paths after graduation and receive assistance necessary for employment.
+### Higher Education Support
+Whether you are aiming for prestigious national universities (such as Kobe University or Osaka University) or specialized vocational schools (senmon gakko) in the Kansai region, KIJ provides comprehensive guidance:
+1.  **Mock Interviews:** Multiple rounds of practice interviews to build your confidence and refine your answers.
+2.  **Research Plan Guidance:** Crucial for graduate school aspirants; teachers help you draft and polish your research proposals.
+3.  **University Recommendations:** Because of KIJ’s solid reputation, several universities and vocational colleges offer designated recommendation pathways (*suisen*), which can greatly simplify the admission process for qualifying students.
 
-KIJ Language Academy also provides support for students who wish to work in Japanese companies in addition to university admission. Through the business Japanese course, students can acquire the Japanese language skills and business manners required in Japanese companies, and through employment counseling, they can receive practical assistance necessary for employment, such as resume writing and interview practice. KIJ Language Academy is committed to supporting students to successfully find employment in Japan.
+### Financial Aid & Scholarships
+To reward diligence and support students facing financial challenges, KIJ Language Academy offers opportunities for **Scholarships**. These are typically awarded based on excellent academic performance, exemplary attendance records, and positive contributions to the school community. Additionally, the staff can help you apply for external honors, such as the prestigious JASSO scholarship for privately-financed international students.
 
-## 🏡 Accommodation & Living Support
+---
 
-KIJ Language Academy operates dormitories around the school so that students can live comfortably and safely. The dormitory is located close to the school, making it convenient to commute, and is equipped with basic furniture and daily necessities so that students can live without inconvenience. A caretaker is stationed in the dormitory to ensure the safety of the students and respond immediately in the event of a problem.
+## 💡 Practical Tips for Applicants
 
-Dormitory life offers various advantages to students. While living with students of other nationalities, they can exchange cultures and build friendships by helping each other. In addition, there is a study space in the dormitory where students can study together and share information. Dormitory life helps students adapt to life in Japan quickly and create pleasant memories.
+To make your journey to KIJ Language Academy as smooth as possible, keep these professional tips in mind:
 
-In addition to dormitories, KIJ Language Academy provides various information necessary for students to live in Japan. It provides guidance so that students can easily obtain the information they need, such as opening a bank account, purchasing a mobile phone, and information on part-time jobs. In addition, counselors who can speak various languages, including Korean and English, are stationed in the school and provide counseling on students' lives.
+1.  **Match Your Course to Your Starting Level:** 
+    *   If you are a absolute beginner, we strongly recommend applying for the **2-Year Course** (April intake) or **1.75-Year Course** (July intake). Acquiring the advanced JLPT N2/N1 levels required for higher education or professional employment takes time and consistent immersion.
+    *   If you already possess a solid N3 or N4 foundation, the **1.5-Year** or **1.25-Year** courses are highly efficient, cost-effective options to fast-track your entry into university or the job market.
 
-## 💰 Tuition, Fees & Scholarships
+2.  **Prepare Your Finances Realistically:** 
+    While the school’s tuition is highly competitive (ranging from ¥920,990 for 1.25 years to ¥1,434,960 for 2 years), you must also budget for living costs. We recommend having at least ¥80,000 to ¥100,000 per month for rent, food, utilities, and health insurance. 
 
-KIJ Language Academy's tuition varies depending on the course and study period. The table below provides tuition information for major courses.
+3.  **Part-Time Work Guidelines:** 
+    Under the Student Visa regulations in Japan, you are permitted to work up to **28 hours per week** (and up to 8 hours per day during school long-term holidays). Kobe has plenty of opportunities in hospitality, convenience stores, tourism, and logistics. KIJ's staff can assist you with preparing your Japanese resume and practicing for part-time job interviews, but remember: your studies must always remain your top priority.
 
-| Course Name                      | Total Tuition (Yen) | Remarks                                                                                                                                                 |
-| -------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| University Preparation 2-Year Course | 1,434,960           | Includes admission fee, tuition fee, and facility usage fee. Textbook fees are separate.                                                                 |
-| University Preparation 1.5-Year Course | 1,097,470           | Includes admission fee, tuition fee, and facility usage fee. Textbook fees are separate.                                                                 |
-| University Preparation 1.75-Year Course | 1,265,980           | Includes admission fee, tuition fee, and facility usage fee. Textbook fees are separate.                                                                 |
-| University Preparation 1.25-Year Course | 920,990             | Includes admission fee, tuition fee, and facility usage fee. Textbook fees are separate.                                                                 |
-| Short-Term Course                  | Please inquire      | Tuition varies depending on the course duration and content. Please contact the school directly.                                                              |
-| Business Japanese Course             | Please inquire      | Tuition varies depending on the course duration and content. Please contact the school directly.                                                              |
-| EJU Exam Preparation Class          | Please inquire      | Tuition varies depending on the course duration and content. Please contact the school directly.                                                              |
-| JLPT Exam Preparation Class         | Please inquire      | Tuition varies depending on the course duration and content. Please contact the school directly.                                                              |
-
-KIJ Language Academy operates a variety of scholarship programs for students with excellent academic records or financial difficulties. The scholarship payment criteria and amounts are subject to change each year, so it is best to contact the school directly for detailed information. Scholarships are provided in the form of tuition fee reductions or cash payments. To apply for a scholarship, you must submit the documents required by the school, and scholarship recipients are determined through a screening process.
-
-KIJ Language Academy operates a tuition installment payment system. Students who wish to pay in installments must apply to the school, and the school will determine whether installment payment is possible, taking into account the student's financial situation. The number of installments and payment due dates can be determined in consultation with the school.
+4.  **Early Application is Crucial:** 
+    Because of the school's robust capacity and popular seaside location, visa processing slots fill up quickly. It is highly recommended to begin your application process **6 to 8 months prior** to your desired intake month to ensure all documentation, certificate of eligibility (COE), and visa paperwork are processed without delay.

@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学課程1年6ヵ月コース
   total_fees: 979000
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Small Class Size System (少人数制)
@@ -52,95 +52,86 @@ title: Aishin International Academy
 tuition: {}
 ---
 
-## 🏫 School Overview & Philosophy
+## 🏢 School Overview & Philosophy
 
-Aishin International Academy, known in Japanese as 愛心国際学院, is a specialized Japanese language institution located in the highly desirable and cosmopolitan city of Yokohama, Kanagawa Prefecture. Positioning itself strategically outside the immediate high-pressure environment of central Tokyo, Aishin offers a balanced life experience in a major port city while maintaining close proximity to Japan’s capital. The academy is situated in the Noge-cho area of Yokohama's Naka Ward, providing students with exceptional access to local amenities, cultural sites, and excellent public transportation links, notably near the dynamic Sakuragicho and Hinodecho stations. With a highly manageable capacity of just 140 students, Aishin operates on a philosophy rooted in personalized care, reflected in its name 'Ai Shin' (Love and Heart), ensuring that every student receives individualized attention crucial for navigating the demanding process of higher education in Japan. This smaller scale facilitates a highly supportive learning ecosystem that is often diluted in larger, higher-capacity schools, making Aishin an ideal choice for students who require close monitoring and dedicated mentorship.
+Choosing a Japanese language school is one of the most critical decisions you will make on your path to studying, living, or working in Japan. If you are looking for an intimate, highly supportive academic environment away from the overwhelming crowds of central Tokyo—yet close enough to enjoy everything the capital has to offer—**Aishin International Academy (愛心国際学院)** deserves a spot at the top of your list.
 
-The core mission of Aishin International Academy is unequivocal: to prepare international students not just for language proficiency, but for guaranteed successful advancement (進学) into highly competitive Japanese universities, graduate schools, and vocational colleges. The school excels particularly in providing tailored preparation for the Examination for Japanese University Admission (EJU) and the Japanese Language Proficiency Test (JLPT). Unlike many general language schools, Aishin heavily invests in specialized tracks, most notably its robust support for students aiming for STEM fields (理系/Science Track) and the rigorous requirements of Art and Design departments. This specialized focus necessitates a commitment to small class sizes (少人数制), ensuring that instructors can deliver complex academic content and provide immediate feedback on advanced subjects required for specialized entrance exams.
+### A Cozy, Dedicated Learning Environment
+Located in the vibrant city of Yokohama, Aishin International Academy stands out for its deliberate choice to remain a boutique institution. With a maximum capacity of **only 140 students**, this school avoids the factory-like atmosphere common in massive language institutions. The "Small Class Size System" (少人数制) is not just a marketing slogan here; it is the core of their educational philosophy. In a smaller school, the teachers, administrative staff, and principal know you by your name, understand your specific learning bottlenecks, and keep a close eye on your physical and emotional well-being as you adjust to life in Japan.
 
-Choosing Yokohama as its base provides Aishin students with a distinct advantage. Yokohama is renowned for its international atmosphere, history, and modern infrastructure, yet the cost of living and the daily commuting stress are often significantly lower than in neighboring Tokyo. This allows students to dedicate more time and focus to their intensive academic study schedules. The academy is committed to fostering an environment where students feel secure, supported, and motivated to achieve their ambitious academic goals. By combining high-level academic training with comprehensive personal support and dedicated accommodation options, Aishin creates a highly focused pathway for international matriculation.
+### The Allure of Yokohama and Nogecho
+The school is situated at **1-29-4 Nogecho, Naka-ku, Yokohama-shi, Kanagawa**. For those unfamiliar with the local geography, Nogecho is one of Yokohama’s most fascinating neighborhoods. It is a historic district known for its retro charm, bustling local food stalls, and traditional izakayas, lying just a short walk from the modern waterfront of **Minato Mirai 21** and **Sakuragicho Station**. 
 
-The school’s organizational structure is specifically designed to handle the complex needs of students targeting advanced degrees. The staff composition includes experienced career counselors and teachers knowledgeable in the specific entrance requirements of Japan's leading public and private universities. The low student-to-teacher ratio is not merely a marketing point; it is the fundamental pedagogical method ensuring that learning gaps are identified and addressed quickly. For students transitioning directly from high school abroad, Aishin provides the structural support needed to bridge the educational gap between their home country's curriculum and the specific requirements of the Japanese education system, ultimately preparing them for a long-term successful career or academic life in Japan.
+Studying here offers you the best of both worlds:
+* **A Relaxed, Historic Vibe:** Step outside the school, and you are surrounded by local shops, friendly neighborhood dining, and the scenic Ooka River (fabulous during cherry blossom season).
+* **The Modern Metropolis:** Within a 15-minute walk, you are in the heart of Yokohama’s futuristic port area, complete with high-rise libraries, shopping malls, and seaside parks.
+* **Easy Access to Tokyo:** Yokohama Station is a major transit hub, allowing you to reach Shibuya, Shinjuku, or Tokyo Station in under 30 to 40 minutes via multiple express train lines.
+
+---
 
 ## 📚 Courses, Curriculum & Teaching Style
 
-Aishin International Academy's curriculum is intensely focused on achieving high academic proficiency benchmarks, prioritizing the successful completion of the JLPT N1 or N2 and achieving competitive scores on the EJU. The general Japanese curriculum follows a standard progression, moving from beginner fundamentals (Hiragana/Katakana, basic grammar) through intermediate and into advanced levels, emphasizing balanced skills in reading, writing, listening, and speaking (会話). However, the real strength of the curriculum lies in the highly specialized elective tracks available, which begin relatively early in the long-term courses (1.5 years to 2 years).
+Aishin International Academy focuses heavily on structured preparatory pathways. Their curriculum is designed to take students from their current proficiency level to the academic and professional heights required to pass the JLPT (Japanese Language Proficiency Test) N2/N1 levels, clear the EJU (Examination for Japanese University Admission), or transition seamlessly into the local workforce.
 
-The defining feature is the school’s dedication to **Small Class Sizes (少人数制)**. With a total capacity of only 140, the average class size remains small, fostering a highly interactive and personalized learning environment. This method is crucial when dealing with advanced EJU preparatory subjects, where complex problem-solving and in-depth essay writing require one-on-one attention. Instructors are able to adjust teaching speed and methods based on the immediate needs of a small cohort, ensuring no student is left behind in the fast-paced environment of university preparation.
+### Long-Term Preparatory Courses
+The school structured its long-term courses around standard Japanese academic entry windows. Below is the breakdown of the official long-term programs offered by Aishin International Academy:
 
-**Specialized Advancement Tracks:**
+| Course Name (English) | Course Name (Japanese) | Admission Month | Duration | Total Tuition & Fees (JPY) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Preparatory Course 2-Year** | 進学課程2年コース | April | 2 Years | ¥1,277,000 |
+| **Preparatory Course 1-Year 9-Month** | 進学課程1年9ヵ月コース | July | 1 Year 9 Months | ¥1,131,000 |
+| **Preparatory Course 1-Year 6-Month** | 進学課程1年6ヵ月コース | October | 1 Year 6 Months | ¥979,000 |
 
-1.  **EJU Preparation (Science/Liberal Arts):** Aishin offers rigorous, dedicated classes for EJU subjects. Critically, they provide support for the Science Track (理科) covering subjects like Physics, Chemistry, and Mathematics (Course 2), a specialization often lacking in general language schools that focus primarily on Liberal Arts (文系). This makes Aishin highly attractive to students aspiring to enter Engineering, IT, or medical preparatory fields. The Liberal Arts track focuses on subjects like Japan and the World, and Mathematics (Course 1), tailored for humanities, business, and law degrees.
+*Note: Total fees generally include enrollment fees, tuition, facilities, and materials for the entire duration of the course as per the school's official listings. Always confirm directly with the school regarding exact payment schedules and potential textbook surcharges.*
 
-2.  **Art and Design Pathway (美術・デザイン):** For creative students, Aishin provides essential guidance on portfolio creation, interview techniques, and preparing for the unique entrance examinations required by Japanese art universities (such as Musashino Art University or Tama Art University). This track includes specialized vocabulary and practice required to discuss complex artistic concepts in Japanese, bridging the gap between language ability and artistic expression.
+### Curriculum Details & Class Structure
+The teaching style at Aishin is highly interactive. Rather than passive lecture-style classes, the small student body enables teachers to implement communicative methodologies, focusing heavily on real-world output (speaking and writing). For those on the preparatory tracks, the daily curriculum balances rigorous grammar study and kanji acquisition with practical conversation modules.
 
-3.  **Practical Japanese:** Alongside academic drilling, Aishin integrates practical language use. Conversation (会話) skills are prioritized, moving beyond textbook dialogues to focus on the nuanced communication required in academic and future professional settings. Furthermore, the inclusion of **Business Japanese (ビジネスクラス)** preparation suggests a focus on professionalism, catering not only to undergraduates but also to students targeting vocational schools or direct employment in Japan post-graduation.
+If you are looking for flexible options, the school also accommodates **Short-term Study Visa Options**, making it possible for students on temporary visitor visas to join classes for shorter intensive bursts to jumpstart their language acquisition.
 
-**Course Structure and Length:** Aishin offers standard long-term visa tracks, ensuring optimal time for preparation:
-*   2-Year Course (April Intake)
-*   1 Year 9 Month Course (July Intake)
-*   1 Year 6 Month Course (October Intake)
-*   Short-Term Courses (単期) are also available, offering flexible options for those seeking intensive study without the commitment of a full student visa.
+---
 
-## 🌍 Student Body & Campus Life
+## 🏠 Student Body & Campus Life
 
-The student body at Aishin International Academy is characterized by a high degree of academic motivation. Given the institution's emphasis on EJU and specialized preparatory tracks, the majority of students are explicitly focused on immediate progression to higher education in Japan. This shared goal creates a focused, disciplined, and mutually supportive campus atmosphere. Students are typically high-achieving individuals who appreciate the detailed attention offered by the school’s small class methodology.
+Because Aishin capped its capacity at 140 students, campus life feels like a close-knit community. You will not get lost in the crowd here. The student body is a diverse mix of international students, fostering a multicultural environment where Japanese becomes your primary common language.
 
-Life in Yokohama offers an enriching and sophisticated experience. As Japan's second-largest city by population, Yokohama boasts a rich history as a major international port, resulting in a culturally diverse and modern environment. Students at Aishin benefit from easy access to landmarks like Minato Mirai 21, Chinatown, and the historical Yamate district, offering ample opportunities for cultural immersion outside of rigorous study hours. The school’s location in Naka Ward places students centrally, reducing transit time and cost compared to highly dispersed metropolitan areas, allowing students more time to focus on their studies and local exploration.
+### Dedicated Housing and Private Rooms
+One of the biggest hurdles for international students moving to Kanagawa or Tokyo is finding affordable, safe, and convenient housing. Aishin solves this pain point by offering **Dedicated Student Dormitory Options**. 
 
-Campus life itself is intimate and supportive. The small size of the school ensures that international students are integrated quickly into the community. Regular student counseling (進路相談) sessions extend beyond academic choices to cover adapting to life in Japan, administrative procedures, and cultural navigation. The school actively facilitates a smooth transition for newcomers, essential when navigating the complexities of Japanese bureaucracy and social norms. Furthermore, extracurricular activities, while perhaps less publicized than those at large schools, are targeted and aimed at practical application of Japanese language skills in real-world scenarios, leveraging the diverse resources available in the Yokohama area.
+Crucially for students who value their personal space and quiet study hours, the school provides the **Availability of Private (Single) Rooms**. Having your own private room in a student dorm is a major luxury in the Japanese language school landscape, where shared rooms of two to four people are standard. This allows you to have a quiet sanctuary to study for the JLPT or EJU, while still having access to communal spaces to socialize with fellow students.
+
+### Rewarding Academic Excellence
+To maintain high academic standards and keep motivation levels high, Aishin International Academy offers **Scholarship Opportunities for High Achievers**. These scholarships are typically awarded based on excellent attendance records, high marks in internal examinations, and positive classroom participation. This financial support can significantly ease your daily living costs in Yokohama.
+
+---
 
 ## 🎓 University & Career Pathways
 
-Academic advancement is the primary pillar of Aishin International Academy. The school’s comprehensive support system (進路相談) begins early in the student's enrollment, establishing clear, individualized academic pathways. The expertise of the academic counseling staff is a defining feature, especially concerning the nuanced application processes for Japanese universities.
+For most students, language school is a stepping stone to a grander goal. Aishin is uniquely positioned to help you take that next step through its specialized support systems.
 
-**Key Areas of Advancement Support:**
+### Intensive Academic and Career Counseling (進路相談)
+At larger schools, you might only get a few minutes of counseling per semester. At Aishin, the career counseling is highly personalized and continuous. Faculty advisors work one-on-one with you to research universities, graduate programs, or vocational colleges (*senmon gakko*) that align with your long-term goals.
 
-1.  **EJU Strategy and Implementation:** The curriculum is meticulously aligned with EJU requirements. Beyond merely teaching subjects, the faculty provides strategic guidance on how to score optimally, including time management, test-taking strategies, and selection of appropriate EJU modules based on target schools. The specialized support for the Science track is particularly vital for students aiming at highly selective STEM departments, which require specific EJU preparation often beyond the capability of generic language programs.
+### Specialized Academic Tracks
+To support diverse aspirations, Aishin offers specific, high-value academic tracks:
+1. **Specialized EJU Preparation (Science and Liberal Arts):** Getting into a prestigious Japanese university requires more than just language skills; you must score well on the EJU. Aishin provides targeted guidance for both the Liberal Arts track (Japan and the World, Mathematics Course 1) and the Science track (Chemistry, Physics, Biology, Mathematics Course 2).
+2. **Art and Design Portfolio Preparation Track:** Japan is a global hub for art, animation, and design. However, entering top art schools (like Tama Art University or Musashino Art University) requires a highly specialized portfolio and specific interview techniques. Aishin assists prospective art students with portfolio reviews, artist statements, and specialized interview prep.
+3. **Integrated Business Japanese Training:** For students holding university degrees from their home countries who wish to transition directly into the Japanese corporate world, Aishin teaches high-level business Japanese, business manners, keigo (honorific language), resume writing (Rirekisho), and mock job interviews.
 
-2.  **Art Portfolio and Interview Coaching:** For art and design students, counseling involves detailed critiques of portfolios, targeted Japanese interview practice, and knowledge of the specific submission requirements for top art universities. This specialized mentorship is critical for success in a field where subjective assessment plays a large role.
+---
 
-3.  **Application and Essay Writing:** Counselors assist students extensively with drafting personal statements, research proposals (especially for graduate school applicants), and managing the complex documentation required for university applications. Detailed mock interviews are conducted regularly to prepare students for the rigorous entrance interviews characteristic of prestigious national and public universities.
+## 💡 Practical Tips for Applicants
 
-4.  **Targeted University Placement:** Aishin’s goal is to place students into institutions that match their capabilities, including National Universities (e.g., Yokohama National University, Tokyo University, Kobe University), prestigious private institutions (e.g., Waseda, Keio, Meiji), and specialized vocational colleges. The emphasis on high JLPT scores (N1 or high N2) ensures students meet the minimum language prerequisites required by most top-tier institutions for non-native speakers. The commitment to preparing students for specialized fields, such as science and business, ensures a diverse range of successful university placements across various disciplines.
+If you are considering applying to Aishin International Academy, here are some insider tips to help you navigate the process smoothly:
 
-## 🏡 Accommodation & Living Support
+1. **Plan Around the Intake Cycles:** 
+   If your goal is to transition directly into a Japanese university or vocational school (which almost always start their academic year in **April**), the **2-Year Course (April start)** or the **1-Year 6-Month Course (October start)** will align perfectly with your graduation timeline. The **1-Year 9-Month Course (July start)** is fantastic for students who graduate from high school or university in June and want to transition to Japan immediately without wasting any months.
 
-Recognizing the challenges international students face in securing reliable and comfortable housing upon arrival, Aishin International Academy provides crucial support through dedicated student dormitories (기숙사). This option simplifies the initial transition phase, providing a safe, managed living environment close to the school, eliminating the immediate need for complex lease agreements and utility setup.
+2. **Secure Your Housing Early:**
+   While Aishin offers dedicated dormitories with highly desirable single private rooms, spots are naturally limited due to the school’s cozy 140-student capacity. Once you receive your Certificate of Eligibility (COE), make sure to apply for housing immediately to secure a single room.
 
-The accommodation options feature a significant advantage: the availability of **Private Single Rooms (1인실)**. While many language school dormitories rely on double or shared rooms to manage costs, the option for a single room at Aishin is invaluable for students enrolled in intensive academic tracks like EJU preparation. A private space is essential for focused, uninterrupted study, rest, and managing the high volume of homework and self-study required to succeed in competitive entrance exams.
+3. **Leverage the Yokohama Cost Advantage:**
+   Your tuition fees at Aishin (ranging from ¥979,000 for 1.5 years to ¥1,277,000 for 2 years) are highly competitive compared to major Tokyo-based academies. Combine this with Yokohama’s slightly more affordable cost of living (rent, groceries, and dining out are generally cheaper than in Tokyo’s Shibuya or Shinjuku wards), and you will find that your budget stretches much further here.
 
-**Comprehensive Living Support:**
-
-*   **Initial Setup:** Staff assist students with essential procedures such as residency registration, national health insurance enrollment, opening bank accounts, and understanding local rules and etiquette.
-*   **Dormitory Management:** Dormitories are generally managed to ensure a quiet, study-focused atmosphere, typically offering essential amenities, internet access, and shared common areas.
-*   **Local Guidance:** Yokohama offers easy access to affordable living resources, and the school provides guidance on navigating local services, part-time job seeking (within visa limitations), and dealing with emergencies. The proximity of the school to the central hub of Yokohama ensures students are never far from necessary services, compounding the benefit of residing in a centralized, less overwhelming city compared to Tokyo.
-
-This holistic approach to housing and living support allows students to minimize logistical distractions and maximize their focus on academic achievement, fulfilling the school's commitment to personalized care.
-
-## 💰 Tuition, Fees & Scholarships
-
-Aishin International Academy strives for transparency in its fee structure, though prospective students should always verify current figures directly with the school as costs may fluctuate based on intake year and course adjustments. The following table details the total course fees provided for the long-term visa programs. It is important to note that these figures represent the **full cost for the stated duration**, and the initial payment upon enrollment typically includes the enrollment fee, facility costs, and the first term's tuition.
-
-**Availability of Scholarships (장학금):**
-The academy offers scholarship opportunities to highly motivated and academically successful students. These scholarships serve as both an incentive and a recognition of academic excellence, often linked to performance in class and attendance rates. Specific scholarships may also be available for students who maintain exemplary results on the JLPT or EJU during their enrollment period, helping to offset the overall cost of study in Japan.
-
-### Detailed Course Fee Breakdown (Full Course Total)
-
-| Course Name (English Translation) | Admission Month | Full Course Duration | Total Course Fees (JPY) | Notes |
-| :--- | :--- | :--- | :--- | :--- |
-| Academic Progression 2-Year Course | April | 24 Months | ¥1,277,000 | Standard university track. |
-| Academic Progression 1 Year 9 Month Course | July | 21 Months | ¥1,131,000 | Accelerated track option. |
-| Academic Progression 1 Year 6 Month Course | October | 18 Months | ¥979,000 | Ideal for students with prior Japanese knowledge. |
-
-*Note: These figures represent the total fees for the duration of the course as provided in the source data and may not reflect the initial payment required at enrollment. Initial payments typically range from ¥650,000 to ¥750,000, depending on the course length.*
-
-
-### Summary of Estimated First-Year Breakdown (2-Year Course Estimate)
-
-| Item | Estimated Annual Cost (JPY) | Notes |
-| :--- | :--- | :--- |
-| Enrollment/Application Fee | ¥50,000 – ¥80,000 | Non-refundable initial fee. |
-| Tuition (1st Year Portion) | ¥650,000 – ¥750,000 | Varies based on school allocation methods. |
-| Facility/Material Fees | ¥50,000 – ¥80,000 | Includes classroom use and textbook costs. |
-| **Estimated Total First Year Payment** | **¥750,000 – ¥910,000** | Excluding accommodation and living costs. |
+4. **Prepare Your Documents Diligently:**
+   As Kanagawa is under the jurisdiction of the Tokyo Regional Immigration Services Bureau, visa processing is rigorous. Ensure your financial sponsor's documents, bank statements, and your personal statement explaining your motivation to study Japanese are clear, honest, and meticulous. The supportive administrative staff at Aishin are highly experienced in guiding students through this paperwork.

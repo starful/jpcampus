@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語進学1年6か月コース
   total_fees: 1150000
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Intensive University and Graduate School Preparation
@@ -48,57 +48,83 @@ translated: true
 tuition: {}
 ---
 
-## School Overview & Philosophy
+# Subaru Gakuin Motosu School: Your Specialized Gateway to Higher Education in Serene Gifu
 
-Subaru Gakuin Motosu School, situated in the tranquil Gifu Prefecture, provides a comprehensive Japanese language education specifically designed for international students aiming for higher education in Japan. Unlike schools in bustling metropolitan areas, Subaru Gakuin benefits from a peaceful environment that promotes focused study and a lower cost of living. This enables students to concentrate on their academics without the distractions and financial burdens common in larger cities. The school's core philosophy revolves around offering a supportive and personalized learning experience, ensuring each student receives the necessary attention and guidance to excel academically. Subaru Gakuin recognizes that each student has unique academic goals and learning preferences, which is why they offer specialized courses tailored to diverse academic paths. Their commitment goes beyond mere language acquisition, aiming to equip students with the cultural understanding and practical communication skills needed to thrive both academically and socially in Japan. The school cultivates a welcoming and inclusive community where students from diverse backgrounds can interact, learn from one another, and form lasting friendships.
+Choosing the right Japanese language school is one of the most critical decisions you will make on your path to academic and professional success in Japan. While massive schools in the center of Tokyo or Osaka grab headlines, smart students look for institutions that offer targeted, high-intensity academic preparation combined with an environment that allows you to focus without financial stress. 
 
-Subaru Gakuin distinguishes itself through its dedicated focus on preparing students for university and graduate school. Recognizing the specific challenges international students face when applying to Japanese institutions, the school has carefully designed its curriculum to address these needs. The primary goal is to pave the way for advanced education in Japan. This includes thorough training in Japanese language skills, as well as preparation for the Examination for Japanese University Admission for International Students (EJU). Subaru Gakuin understands that success on the EJU is crucial for admission to top universities and provides targeted preparation in both liberal arts and STEM subjects. Furthermore, the school's faculty comprises experienced educators well-versed in the Japanese education system, who can offer valuable insights and guidance on the application process. They provide individual consultations, mock interviews, and assistance with preparing application documents, increasing the likelihood of student acceptance into desired programs.
+**Subaru Gakuin Motosu School (スバル学院本巣校)**, located in the beautiful, peaceful prefecture of Gifu, offers exactly this balance. With a highly personalized capacity of just **160 students**, this school focuses intensely on preparing students for top-tier Japanese universities, graduate schools, and vocational colleges. By combining rigorous EJU (Examination for Japanese University Admission) prep with incredibly affordable on-site single-room dormitories, Subaru Gakuin Motosu School provides an unparalleled environment for focused, distraction-free study.
 
-One of the significant advantages of Subaru Gakuin is its commitment to practical Japanese language acquisition. The school emphasizes conversational skills, recognizing that fluency in spoken Japanese is essential for both academic success and daily life in Japan. Interactive lessons, group discussions, and real-life simulation exercises are integrated into the curriculum to encourage active learning and build confidence in speaking Japanese. Moreover, the school provides opportunities for students to interact with native Japanese speakers through extracurricular activities and cultural exchange programs. This immerses students in the language and culture, enabling them to refine their language skills in a natural and engaging setting. The school also recognizes the importance of cultural understanding and incorporates elements of Japanese culture into its language lessons, enabling students to better understand the nuances of the language and communicate effectively with locals. Ultimately, Subaru Gakuin's teaching approach seeks to develop well-rounded individuals equipped with the linguistic proficiency and cultural sensitivity needed to succeed in Japan.
+---
 
-## Courses, Curriculum & Teaching Style
+## 🏫 1. School Overview & Philosophy
 
-Subaru Gakuin offers two main courses tailored to students with different start dates and program lengths:
+Subaru Gakuin Motosu School is built on the philosophy that language learning is not merely about memorizing vocabulary—it is about equipping students with the academic, cultural, and practical skills necessary to thrive in Japanese society. Located at **1963 Kamimakuwa, Motosu City, Gifu Prefecture (岐阜県本巣市上真桑1963番地)**, the school sits in a scenic, historically rich region of central Japan. 
 
-*   **Japanese University Preparatory 2-Year Course:** Starts in April and provides a comprehensive two-year program for students seeking in-depth language and academic preparation. This course is designed to equip students with the language skills, knowledge, and cultural understanding necessary for success in Japanese universities.
-*   **Japanese University Preparatory 1.5-Year Course:** Starts in October and offers an accelerated yet thorough program for students with some prior Japanese language experience or those who prefer a shorter course duration.
+Motosu City provides a peaceful, suburban environment that stands in sharp contrast to the overwhelming noise and high cost of living found in Japan's mega-cities. Here, surrounded by clean air and local Gifu greenery, you can dedicate your full attention to your studies. However, you are never isolated; Gifu City is just a short train ride away, and the major metropolis of Nagoya—the industrial heart of central Japan—is easily accessible for weekend trips, university open houses, and job interviews.
 
-Both courses share the common goal of preparing students for the EJU and university entrance exams. However, the 1.5-year course is more intensive, requiring students to dedicate more time to study and practice. Both courses incorporate the four core language skills: reading, writing, listening, and speaking. Lessons are structured to progressively build upon fundamental grammar and vocabulary, gradually introducing more complex language structures and concepts. Emphasis is placed on developing practical communication skills, enabling students to engage in meaningful conversations and express themselves fluently. The curriculum also encompasses instruction in Japanese culture, customs, and etiquette, fostering a deeper understanding of Japanese society.
+Because the school limits its student capacity to 160, it operates like a close-knit academic community. The faculty and staff know every student by name, monitor their academic progress individually, and provide tailor-made guidance for university applications. This high-touch, supportive environment is ideal for students who might feel lost in a giant language school of one thousand or more classmates.
 
-Beyond the core language curriculum, Subaru Gakuin offers specialized tracks to cater to students with specific academic interests. These tracks include options for students pursuing art and design, business, and other specialized fields:
+---
 
-*   **Art and Design Track:** Provides students with the language skills and portfolio development guidance needed to apply to art and design universities in Japan. This involves learning industry-specific vocabulary and techniques, as well as developing the ability to effectively communicate their creative ideas in Japanese.
-*   **Business Japanese Track:** Focuses on developing the language skills needed to succeed in the Japanese business world. This includes learning business terminology, understanding Japanese business etiquette, and practicing professional communication skills.
+## 📚 2. Courses, Curriculum & Teaching Style
 
-These specialized tracks provide students with a competitive edge when applying to universities and pursuing careers in their chosen fields. This focused approach significantly enhances their prospects of securing admission to reputable institutions and subsequently thriving in their chosen professions. The school also offers comprehensive EJU preparation, providing students with practice tests, mock exams, and personalized feedback. This helps students identify their strengths and weaknesses and develop strategies to improve their performance on the EJU.
+The curriculum at Subaru Gakuin Motosu School is designed specifically for students who aim to enter Japanese higher education. Rather than focusing solely on conversational fluency, the academic program integrates advanced reading comprehension, academic writing, and critical thinking from an early stage.
 
-Subaru Gakuin's teaching style is characterized by its emphasis on active learning and student participation. Teachers utilize a variety of interactive teaching methods, such as group discussions, role-playing exercises, and project-based learning, to engage students and promote active learning. The school recognizes that different students learn in different ways and strives to create a learning environment that caters to diverse learning styles. Teachers provide individualized attention and support, ensuring that each student receives the help they need to succeed. The school also utilizes technology to enhance the learning experience, incorporating multimedia resources and online learning platforms into the curriculum. This enables students to access learning materials outside of the classroom and engage in self-paced learning.
+The school offers two primary tracks based on your entry timeline, both designed to take you from your current Japanese level to the proficiency required for academic success:
 
-## Student Body & Campus Life
+### Available Courses & Tuition Fees
 
-While specific statistics on the current international student body are not available in the provided data, Subaru Gakuin fosters a diverse and inclusive learning environment. The school attracts students from various countries and backgrounds, creating a rich tapestry of cultures and perspectives. This intercultural exchange promotes understanding, tolerance, and global awareness among students. Subaru Gakuin actively encourages students to interact with each other, participate in extracurricular activities, and build lasting friendships. This sense of community fosters a supportive and collaborative learning environment, where students can learn from each other and grow both academically and personally.
+| Course Name | Admission Month | Duration | Total Program Fees (JPY) |
+| :--- | :--- | :--- | :--- |
+| **2-Year University Prep Course**<br>*(日本語進学2年コース)* | April | 2 Years | **¥1,510,000** |
+| **1.5-Year University Prep Course**<br>*(日本語進学1年6か月コース)* | October | 1.5 Years | **¥1,150,000** |
 
-Campus life at Subaru Gakuin is designed to support students' academic and personal well-being. The school provides a range of facilities and services, including classrooms, a library, a computer lab, and a student lounge. These facilities provide students with the resources they need to study, research, and relax. The school also organizes a variety of extracurricular activities, such as cultural excursions, sports tournaments, and social events, to enrich students' experiences and promote social interaction. These activities provide students with opportunities to explore Japanese culture, practice their language skills, and make new friends. Furthermore, Subaru Gakuin actively promotes student involvement in community service projects, enabling students to contribute to society and develop a sense of social responsibility.
+*Note: Total program fees include tuition and standard academic fees for the entire duration of the course. These rates are exceptionally competitive compared to language schools in metropolitan Tokyo, offering tremendous value for high-caliber instruction.*
 
-## University & Career Pathways
+### Specialized Curricular Tracks
 
-Subaru Gakuin's primary focus is on preparing students for university and graduate school admission in Japan. The curriculum is meticulously designed to align with the requirements of Japanese universities, and the school provides comprehensive support to students throughout the application process. Subaru Gakuin offers personalized career counseling to help students identify their academic and career goals. This includes assisting students with choosing a major, researching universities, and preparing application materials. The school also organizes university information sessions and campus visits, allowing students to learn more about different universities and programs. Furthermore, Subaru Gakuin maintains strong relationships with several universities in Japan, which can facilitate the admission process for its students. The success rate of Subaru Gakuin graduates gaining admission to universities and graduate schools is testament to the school's commitment to academic excellence and student support. The school equips students with not only the language proficiency but also the critical thinking, problem-solving, and communication skills necessary to succeed in their chosen fields.
+*   **Targeted EJU Preparation (Liberal Arts & STEM):** Unlike schools that only offer general Japanese, Subaru Gakuin Motosu provides specialized preparation for the EJU. This includes subject-specific tutoring for both Humanities (Japan and the World, Mathematics Course 1) and Science/STEM tracks (Physics, Chemistry, Biology, Mathematics Course 2).
+*   **Art & Design Prep:** For creative students aiming to enter prestigious Japanese art universities (such as Tama Art University, Musashino Art University, or local design academies), the school provides specialized guidance to help build portfolios, write artist statements, and ace the practical and interview stages of art school admissions.
+*   **Graduate School Preparation:** If your goal is a Master's or Doctoral program, the faculty will assist you with the complex process of writing research proposals (*Kenkyu Keikakusho*), contacting prospective professors, and preparing for intensive academic interviews.
+*   **Business Japanese & Conversation:** For those planning to transition directly into the Japanese workforce, the curriculum covers business etiquette, honorific language (*Keigo*), resume writing, and formal interview techniques.
 
-## Accommodation & Living Support
+---
 
-One of the key advantages of studying at Subaru Gakuin Motosu School is the availability of on-site dormitory facilities. This provides students with a safe, convenient, and affordable living option. The guaranteed single-room dormitory options ensure privacy and a comfortable living environment, conducive to focused study. Living on-site also fosters a sense of community among students, as they have opportunities to interact with each other outside of the classroom. The dormitories are typically equipped with essential amenities, such as beds, desks, chairs, and wardrobes. Common areas may include shared kitchens, laundry facilities, and recreational spaces. The school provides ongoing support to students living in the dormitories, addressing any concerns or issues that may arise. This includes providing assistance with daily living tasks, such as grocery shopping and transportation. The on-site dormitory arrangement offers a structured and supportive environment, particularly beneficial for students new to Japan.
+## 🏡 3. Student Body & Campus Life
 
-Beyond accommodation, Subaru Gakuin offers comprehensive living support to international students. This includes assistance with visa applications, health insurance, and other administrative procedures. The school also provides guidance on navigating Japanese society and culture, helping students adapt to their new environment. Furthermore, Subaru Gakuin offers a 24-hour emergency support service, ensuring that students have access to help whenever they need it. The school's staff are dedicated to ensuring the well-being of international students and are always available to provide assistance and support.
+At Subaru Gakuin Motosu School, campus life is defined by a sense of security, community, and focus. With a maximum capacity of 160 students, the school maintains a diverse but tightly-knit student body from various countries across Asia and beyond. This diversity encourages students to use Japanese as their primary medium of daily communication.
 
-## Tuition, Fees & Scholarships
+### The Ultimate Housing Advantage: On-Site Single Rooms
+One of the most significant advantages of choosing Subaru Gakuin Motosu School is its **on-site dormitory facilities**. Finding housing in Japan can be a massive headache for international students, often requiring expensive guarantors, key money, and long daily train commutes. Subaru Gakuin solves this by offering **guaranteed single-room dormitory options** right on or next to the campus.
 
-Here's a breakdown of the tuition and fees for the available courses at Subaru Gakuin Motosu School:
+*   **Privacy & Focus:** Having your own private single room means you have a quiet, dedicated space to study, rest, and recharge without the friction of sharing a bedroom with roommates.
+*   **Zero Commute:** Living on-site eliminates train fares and saves you hours of commuting time every day, leaving more time for sleep, study, and part-time work.
+*   **Unbeatable Affordability:** Rent and living expenses in Motosu, Gifu, are a fraction of what you would pay in Tokyo or Kyoto. Your monthly budget goes much further here, reducing financial stress significantly.
 
-| Course Name                                  | Admission Month | Total Fees (JPY) | Notes                                                                                                             |
-| :------------------------------------------- | :-------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------- |
-| Japanese University Preparatory 2-Year Course | April           | 1,510,000        | Comprehensive program designed for in-depth preparation for Japanese universities.                                |
-| Japanese University Preparatory 1.5-Year Course | October         | 1,150,000        | Accelerated program for students with some prior Japanese language experience.                                   |
+### Local Living in Motosu
+Motosu City offers a safe and welcoming environment. Nearby, you will find supermarkets, convenience stores, and the massive *Malera Gifu* shopping mall, which has hundreds of shops, restaurants, and a movie theater—perfect for your daily needs and part-time job opportunities. Gifu is famous for its beautiful rivers, historic castles, and local delicacies. The school also organizes seasonal cultural excursions, allowing you to experience traditional Japanese festivals, pottery making, and local nature trips.
 
-It is crucial to note that the 'Total Fees' mentioned above likely encompass tuition, facility fees, and other mandatory charges. However, these fees may not include the cost of textbooks, accommodation, meals, health insurance, and personal expenses. Students are strongly advised to confirm the exact breakdown of fees with the school directly. This ensures clarity on what is covered under the 'Total Fees' and enables proper budgeting for additional expenses.
+---
 
-Subaru Gakuin provides scholarship opportunities to meritorious students. Details about specific scholarship programs, eligibility criteria, and application procedures can be obtained directly from the school. Scholarships can significantly reduce the financial burden of studying in Japan, making it more accessible for deserving students. Students are encouraged to explore all available scholarship options and carefully review the eligibility requirements before applying. Securing a scholarship can not only alleviate financial stress but also serve as a testament to a student's academic achievements and potential.
+## 🎓 4. University & Career Pathways
+
+The primary goal for the vast majority of students at Subaru Gakuin Motosu School is progressing to higher education in Japan. The school’s comprehensive guidance system ensures that you are never left to navigate the complex Japanese admissions system alone.
+
+### Personalized Academic Guidance
+*   **One-on-One Counseling:** Starting from your first term, you will have regular individual meetings with academic advisors to map out your target universities, vocational schools, or career goals.
+*   **Mock Interviews & Essay Writing:** Japanese university admissions heavily emphasize interviews and short essay exams (*Xiaolunwen*). Instructors conduct rigorous mock interviews and guide you through multiple drafts of your essays until they are flawless.
+*   **Scholarship Support:** To reward academic excellence and dedication, the school offers internal scholarship opportunities and assists high-performing students in applying for prestigious external scholarships, such as the JASSO honors scholarship.
+
+Because of the school’s strong reputation and rigorous curriculum, graduates are well-prepared to enter competitive regional public universities, private universities in the Chubu and Kansai regions, and top-tier specialized vocational colleges in fields like IT, automotive technology, hospitality, and design.
+
+---
+
+## 💡 5. Practical Tips for Applicants
+
+If you are considering applying to Subaru Gakuin Motosu School, keep these practical tips in mind to maximize your chances of success and smooth your transition to Gifu:
+
+1.  **Plan Your Finances Wisely:** While the tuition is incredibly reasonable (¥1,150,000 for 1.5 years or ¥1,510,000 for 2 years) and the cost of living in Gifu is low, you will still need to show sufficient financial sponsorship to secure your student visa. Highlight the savings of Gifu's low rent when preparing your financial documents.
+2.  **Learn Hiragana, Katakana, and Basic Kanji Early:** The pace of the academic prep courses is fast. Arriving in Japan with a solid foundation of basic vocabulary and grammar (equivalent to N5 level) will allow you to hit the ground running and immediately join the advanced EJU track classes.
+3.  **Embrace the Bicycle Lifestyle:** Motosu is a suburban city. While public transportation is available, having a bicycle is the local standard. It will give you total freedom to explore the area, commute to local supermarkets, and travel to part-time job locations.
+4.  **Prepare for Seasonal Weather:** Gifu experiences beautiful, distinct seasons. Summer can be quite warm and humid, while winter brings cold air and occasional snow due to its proximity to the mountains. Be sure to pack a mix of clothing, including a warm winter coat.
+5.  **Utilize the Single-Room Dorms:** If you value your privacy and need a quiet space to focus on difficult EJU science or math prep, make sure to apply for the guaranteed single-room dormitory option early during your enrollment process, as these rooms are highly sought-after.

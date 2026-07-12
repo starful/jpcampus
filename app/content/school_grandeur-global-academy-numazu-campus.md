@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1657000
-date: '2026-01-28'
+date: '2026-07-12'
 faculties: []
 features:
 - Specialized EJU & University Entrance Preparation
@@ -44,71 +44,85 @@ translated: true
 tuition: {}
 ---
 
-## School Overview & Philosophy
+## 🗻 1. School Overview & Philosophy
 
-Grandeur Global Academy (GGA) Numazu Campus is a leading institution for international students seeking higher education in Japan. Conveniently located outside major metropolitan areas in Numazu City, Shizuoka Prefecture, GGA offers the tranquility and affordability of a regional hub with the rigorous academics of schools in Tokyo or Osaka. The academy believes that mastering the Japanese language and gaining university admission require holistic immersion and specialized preparation tailored to individual academic goals. Numazu's location near Mount Fuji and the Izu Peninsula provides students with a supportive and safe environment, fostering cultural understanding and language acquisition.
+Grandeur Global Academy Numazu Campus (Grandeur Global Academy 沼津校) is a dynamic, forward-thinking educational institution located in the scenic coastal city of Numazu in Shizuoka Prefecture. Nestled between the tranquil waters of Suruga Bay and the majestic backdrop of Mount Fuji, the academy offers students an idyllic environment that perfectly balances serious academic pursuits with a high quality of life. Unlike overcrowded metropolitan language schools, the Numazu Campus provides a clean, safe, and nurturing setting where students can fully focus on their linguistic and academic development.
 
-The academy's mission is to prepare students for Japanese higher education or the professional workforce. With a capacity of 240 students, GGA ensures personalized learning and individual attention from experienced faculty. This size allows the school to create a close-knit community that addresses the specific needs of students preparing for entrance examinations like the Examination for Japanese University Admission (EJU). The specialized tracks, including pathways for science and art/design majors, demonstrate GGA Numazu's commitment to providing targeted academic routes that maximize enrollment into competitive institutions across Japan. The institutional culture emphasizes discipline, goal setting, and continuous academic improvement, positioning GGA as a launching pad for future global leaders.
+With a certified capacity of 240 students, Grandeur Global Academy Numazu Campus prides itself on maintaining a close-knit, supportive community. The school’s guiding philosophy is centered on fostering global talent through personalized attention. The administration believes that mastering the Japanese language is not simply about passing exams, but about building a bridge to a successful future in Japanese society. By maintaining a smaller student body, faculty members are able to understand each student's personal background, academic strengths, and long-term career aspirations, ensuring that no one is left behind.
 
-Studying in Shizuoka Prefecture offers advantages beyond cost savings. The region is known for its high quality of life, access to nature, and proximity to industrial centers, providing opportunities for cultural engagement and post-graduate employment. GGA integrates local cultural workshops and encourages community involvement, ensuring students' Japanese learning extends beyond the classroom. Guaranteed, high-quality dormitory accommodation, including single rooms, removes initial hurdles for international students, allowing them to focus on their studies from day one.
+The region itself plays a major role in the school's educational approach. Numazu is a thriving port city known for its warm climate, friendly locals, and rich cultural traditions. Students here enjoy the benefits of an immersive environment where they are encouraged to practice their Japanese daily with local residents, merchants, and community members. This organic integration helps students develop natural conversational fluency and a deep appreciation for Japanese hospitality and cultural nuances.
 
-## Courses, Curriculum & Teaching Style
+---
 
-The curriculum at Grandeur Global Academy Numazu is structured around two long-term visa tracks: the 2-Year Higher Education Course (starting in April) and the 1-Year 6-Month Higher Education Course (starting in October). Both courses focus on developing reading, writing, speaking, and listening skills, but quickly specialize to align with students' fields of study. The core curriculum progresses from beginner (N5/N4 equivalent) through intermediate (N3/N2) to advanced fluency (N1 preparation), using a communicative methodology that emphasizes practical application.
+## 📊 2. Courses, Curriculum & Teaching Style
 
-GGA’s teaching style is interactive and student-centered. Instructors, experienced in teaching Japanese as a foreign language and preparing students for university entrance, use grammar instruction, task-based learning, and mock testing. The school is known for its academic tracks:
+The curriculum at Grandeur Global Academy Numazu Campus is highly structured and specifically designed to meet the rigorous demands of Japanese higher education and corporate environments. The school adapts its pedagogy to the evolving needs of international students, offering specialized academic tracks that go far beyond standard language acquisition.
 
-*   **Science Track:** Designed for students aiming for Japanese universities in engineering, medicine, pharmacy, or science. It includes advanced Japanese language instruction and preparatory classes for EJU Science subjects (Physics, Chemistry, and Mathematics - Course 2), taught entirely in Japanese to familiarize students with technical vocabulary and exam formats.
-*   **Art and Design Track:** Recognizing the requirements of art universities, this track offers instruction tailored to creative fields. Students receive vocabulary related to art history, aesthetics, and design concepts, and assistance with portfolio development and specialized practical exams. The academy provides guidance on selecting higher education institutions and facilitates connections with external art preparatory schools.
-*   **Business Japanese & General Conversation Track:** For students entering vocational schools (Senmon Gakko), finding employment, or requiring refined conversational skills, GGA offers modules focusing on keigo (honorific language), business etiquette, professional communication, and terminology. Short-term students benefit from intensive conversation-focused modules for rapid improvement in communicative fluency, integrating cultural insights.
+### Official Course Offerings & Tuition
 
-## Student Body & Campus Life
+The academy offers two primary long-term preparatory tracks tailored to different academic timelines. Both courses are designed to transition students systematically from foundational Japanese to academic-level proficiency.
 
-With a capacity of 240 students, Grandeur Global Academy fosters a diverse student body, typically drawing from Asia (including China, Korea, Vietnam, Nepal, and South Asia), creating an international atmosphere. The school's size allows for intercultural exchange while ensuring that the primary language of communication remains Japanese, maximizing immersion.
+| Course Name | Admission Month | Total Fees (JPY) | Duration & Focus |
+| :--- | :--- | :--- | :--- |
+| **輻学1年6か月コース**<br>(1 Year 6 Months Prep Course) | October | ¥1,284,000 | An accelerated program focusing on rapid language acquisition, EJU prep, and university application readiness. |
+| **輻学2年コース**<br>(2 Years Prep Course) | April | ¥1,657,000 | A comprehensive program ideal for building a flawless linguistic foundation, exploring specialized tracks, and extensive exam prep. |
 
-Campus life in Numazu is characterized by its safety, affordability, and accessibility. Numazu offers a taste of regional Japanese life, ideal for students seeking immersion without the distractions of mega-cities. Students benefit from lower living costs. GGA staff organize extracurricular activities to enrich the cultural experience and provide practical application of language skills.
+*Note: Total fees typically include application screening, admission fees, tuition, and basic facility costs. Please confirm the payment schedule and potential material fees directly with the school upon acceptance.*
 
-These activities include cultural workshops (tea ceremony, calligraphy), festival participation, and field trips to historical sites and economic hubs within Shizuoka Prefecture. GGA’s student support includes welfare and counseling. Faculty members are mentors who assist students with adapting to a new country, offering advice on health services, financial management, and local processes. The school emphasizes attendance and academic integrity, providing the necessary support structure.
+### Specialized Curricular Tracks
 
-## University & Career Pathways
+*   **EJU & University Entrance Preparation:** The academy features targeted preparation for the Examination for Japanese University Admission for International Students (EJU). This includes intensive training in academic Japanese writing, reading comprehension, listening, and listening-reading comprehension.
+*   **Dedicated Science Track (Rikei):** For students aiming to enter science, technology, engineering, or mathematics (STEM) fields, the school provides support in specialized scientific vocabulary, helping students bridge the gap between basic Japanese and complex scientific terminology.
+*   **Dedicated Art & Design Track:** Recognizing the growing interest in Japan's prestigious art universities, the academy provides specialized guidance for art and design applicants. This includes portfolio preparation, review of interview techniques, and assistance in writing compelling artist statements in Japanese.
+*   **Comprehensive Business Japanese Training:** For students looking to enter the Japanese workforce directly or after university graduation, coursework includes business etiquette (keigo), email writing, resume preparation, and simulated job interviews.
+*   **Short-Term & Cultural Study Options:** For learners who want to experience life in Shizuoka without committing to a multi-year academic track, the school provides short-term options that combine core linguistic instruction with regional cultural excursions, historical site visits, and community exchange programs.
 
-GGA Numazu’s strength lies in its specialized university entrance preparation. The program prepares students for the EJU and JLPT N1/N2 examinations, prerequisites for most four-year Japanese universities. The curriculum ensures students peak academically prior to university application periods.
+---
 
-*   **EJU Preparation Excellence:** Students receive intensive training in all required EJU subjects, with customized tracks for General Studies (Humanities/Social Sciences), Mathematics (Course 1 or 2), and Science (Physics, Chemistry, Biology). Classes are taught by specialists familiar with EJU testing trends, using past papers and mock examinations. This preparation is vital for admission to public and private universities across the Kanto and Tokai regions, including schools within Shizuoka Prefecture and national universities.
-*   **Personalized Guidance and Counseling:** A dedicated Student Guidance Office provides one-on-one counseling, covering: 1. University selection based on the student's profile and career aspirations. 2. Assistance with application procedures, including translating documents. 3. Practice for university interview examinations, focusing on polite Japanese (keigo). 4. Essay and research proposal writing workshops.
+## 🏡 3. Student Body & Campus Life
 
-For students pursuing vocational pathways, the academy provides resources for connecting with Senmon Gakko (vocational schools) specializing in IT, tourism, hospitality, and specific trades in the Shizuoka area. GGA provides a supported pathway whether the student's goal is a competitive national university or entry into the Japanese workforce.
+Campus life at Grandeur Global Academy Numazu Campus is defined by comfort, security, and cultural exchange. With a capacity of 240, students do not get lost in a sea of faces; instead, they join a multicultural family of peers from various countries across Asia, Europe, and the Americas, promoting a truly international atmosphere.
 
-## Accommodation & Living Support
+### Guaranteed Accommodation (Single Room Dormitories)
 
-Grandeur Global Academy Numazu's accommodation system is a central component of its support, providing guaranteed, stable housing, which reduces the stress of moving to a new country.
+One of the most exceptional features of Grandeur Global Academy Numazu Campus is its **Guaranteed Accommodation Program**. The school provides dedicated student dormitories consisting of **single rooms**. Finding comfortable, private, and affordable housing is often one of the biggest challenges for international students in Japan. Grandeur Global Academy eliminates this stress entirely. 
 
-*   **Guaranteed, High-Quality Dormitories:** GGA manages or partners with student residences located close to the campus. This proximity ensures attendance and minimizes commuting time. Initial costs incorporate a dormitory management fee.
-*   **The Single Room Advantage:** The availability of single rooms is attractive, especially for students requiring a quiet environment for study and portfolio work. GGA prioritizes private living space, recognizing that personal space is crucial for academic success. Dormitories are furnished and equipped with amenities, including internet access, communal kitchens, laundry facilities, and common areas.
-*   **Initial Settling-In Support:** Upon arrival, students are guided through an orientation to familiarize them with local life. This includes assistance with residency registration, bank accounts, national health insurance, and local transportation systems. Numazu’s smaller environment simplifies finding part-time jobs (arubaito) once permission is granted, with the school providing employment guidance, though the focus remains on academic achievement.
+Each single room is designed to be a private sanctuary where students can study in peace, relax, and enjoy their personal space. The dormitories are fully furnished with essential appliances (refrigerator, microwave, air conditioner, and study desk) and are situated within convenient walking or cycling distance from the campus, local supermarkets, and convenience stores. This guarantees a safe, low-stress transition to life in Japan.
 
-## Tuition, Fees & Scholarships
+### Financial Aid & Scholarships
 
-Grandeur Global Academy Numazu offers competitive tuition rates, factoring in the specialized course offerings and the cost benefits of living in Shizuoka compared to Tokyo or Kyoto. The tuition covers the full period of study, excluding health insurance and miscellaneous costs.
+To make high-quality education accessible, the academy supports a robust array of scholarship and financial aid opportunities. Excellent academic performance, high attendance rates, and active participation in school life are recognized and rewarded. Students have access to both internal school-specific scholarships and recommendations for external honors, such as the prestigious JASSO (Japan Student Services Organization) scholarships for privately-financed international students. This financial support helps alleviate living costs, allowing students to dedicate their energy entirely to their studies.
 
-### Detailed Course Cost Breakdown (Estimated based on Input Data)
+### Living in Numazu
 
-| Item | 2-Year Higher Education Course (April Start) | 1.5-Year Higher Education Course (October Start) |
-| :--- | :---: | :---: |
-| **Total Fees (Approx.)** | **¥1,657,000** | **¥1,284,000** |
-| Application Fee (Initial) | ¥20,000 - ¥30,000 | ¥20,000 - ¥30,000 |
-| Entrance Fee (Enrollment) | ¥60,000 - ¥80,000 | ¥60,000 - ¥80,000 |
-| Tuition Fee (Full Course) | Approx. ¥1,400,000 | Approx. ¥1,100,000 |
-| Facilities Fee (Annual) | ¥30,000 - ¥50,000 | ¥25,000 - ¥40,000 |
-| Study Materials Fee (Estimated) | ¥30,000 - ¥50,000 | ¥20,000 - ¥35,000 |
-| **First Year Payment Due** | **Approx. ¥850,000** | **¥1,284,000 (Full 1.5 years)** |
+Beyond the classroom, life in Shizuoka is rich with outdoor and cultural activities. Numazu is famous for its exceptionally fresh seafood, particularly at the bustling Numazu Port. Students enjoy cycling along the coast, hiking the nearby foothills, and taking weekend trips to hot spring resorts in Izu or scenic spots in Hakone. The local community is highly welcoming, and the school regularly organizes cultural events, local festival participations, and field trips, giving students real-world opportunities to practice their language skills and build lifelong friendships with local residents.
 
-*Note: The total fees provided in the input data (¥1,657,000 and ¥1,284,000) are assumed to be the comprehensive fee charged by the school for the full duration of the visa period (excluding accommodation, which is typically paid separately or in bundled packages).*
+---
 
-*   **Scholarship Opportunities:**
+## 🎓 4. University & Career Pathways
 
-GGA Numazu maintains a scholarship system to reward students. The school utilizes three scholarship avenues:
+Grandeur Global Academy Numazu Campus is highly committed to the post-graduation success of its students. Whether your goal is to attend a top-tier national university, enter a specialized vocational school (Senmon Gakko), or embark on a professional career in Japan, the school's career guidance department provides personalized, one-on-one counseling.
 
-*   **Academic Excellence Scholarships:** Awarded to students who demonstrate results in the EJU, JLPT, or internal exams. These often cover a reduction in tuition payments or provide a stipend.
-*   **Attendance and Conduct Scholarships (In-School):** These are performance-based scholarships rewarding students who maintain attendance and exhibit exemplary behavior and active participation. These are highly encouraged, given the attendance requirements for visa renewal and university letters.
-*   **External Scholarships:** The academy assists eligible students in applying for external scholarships, such as the Japanese Government (MEXT) Honors Scholarship for Privately Financed International Students (through the JASSO system), providing guidance on the application processes and documentation.
+### Higher Education Support
+
+The specialized EJU, Science, and Art & Design tracks ensure that students are prepared for the specific entry requirements of Japanese higher education. The school provides:
+*   Detailed guidance on selecting the right universities based on academic performance and career goals.
+*   Intensive interview preparation, including mock interviews with faculty members to build confidence.
+*   Assistance with university application essays (Reason for Study essays), which are heavily weighted in the Japanese admissions process.
+*   Direct recommendation pathways (Suisen) to partner universities and vocational colleges for students with exemplary attendance and grades.
+
+### Career Progression & Job Placement
+
+For students with a university degree from their home country or those who complete their higher education in Japan, the school’s Business Japanese curriculum provides a powerful competitive edge. Shizuoka Prefecture is home to many manufacturing, tourism, and technology companies that actively recruit global talent. The academy leverages its local network to connect students with regional job fairs, internship opportunities, and professional recruitment agencies, guiding them through the complex job-hunting process (Shukatsu) in Japan.
+
+---
+
+## 💡 5. Practical Tips for Applicants
+
+Navigating the application process and preparing for life in Japan can feel overwhelming. Here are some highly practical, insider tips to help you transition smoothly to Grandeur Global Academy Numazu Campus:
+
+*   **Plan Your Travel and Commute:** Numazu is exceptionally well-connected. While it offers a quiet, relaxed atmosphere, it is highly accessible. You can easily travel from Tokyo or Nagoya. The Tokaido Shinkansen (bullet train) stops at nearby Mishima Station, which is only a short, 5-minute local train ride away from Numazu Station. This makes weekend trips to major metropolitan centers incredibly convenient.
+*   **Prepare Your Academic Records Early:** If you are planning to join the specialized **Science** or **Art & Design** tracks, begin gathering your academic transcripts, portfolios, or previous coursework syllabi from your home country early. Discussing these with your counselors upon arrival will allow them to customize your study plan immediately.
+*   **Budgeting for Shizuoka:** One of the greatest benefits of studying in Numazu compared to Tokyo or Osaka is the significantly lower cost of living. Fresh local produce, seafood, and daily necessities are highly affordable. Because single-room dormitory housing is guaranteed by the school, your monthly rent and utility costs will be highly predictable. Budgeting around ¥70,000 to ¥90,000 per month (excluding tuition) is typically more than enough for a very comfortable student life here.
+*   **Learn Hiragana, Katakana, and Basic Kanji Before Arrival:** Even though the school caters to beginners, having a solid grasp of Hiragana, Katakana, and basic daily greetings before you land will help you navigate your neighborhood, read street signs, and settle into your single-room dorm with immediate confidence.
+*   **Respect the Attendance Policy:** Japanese immigration and universities place an extremely high value on class attendance. To qualify for scholarship recommendations and visa renewals, make it your goal to maintain an attendance rate of 90% or higher from day one.

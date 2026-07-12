@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 特別進学コース
   total_fees: 1419000
-date: '2026-01-28'
+date: '2026-07-12'
 description: Located in Amagasaki, Hyogo, AIC provides specialized academic pathways
   to Japanese universities with dormitory availability, scholarship programs and EJU
   preparation.
@@ -62,67 +62,80 @@ translated: true
 tuition: {}
 ---
 
-## School Overview & Philosophy
+## 🏫 1. School Overview & Philosophy
 
-The Asian International Center (AIC), located in Amagasaki City, Hyogo Prefecture, is strategically positioned as a key educational gateway for international students aiming for higher education and professional careers in Japan's Kansai region. Unlike schools situated in the crowded centers of Tokyo or Osaka, AIC offers a balance: easy access to the cultural richness and economic opportunities of the Osaka-Kobe metropolitan area, combined with a calmer, more focused study environment and lower living costs. This geographical advantage is central to the school’s appeal, providing a high-quality education without the overwhelming intensity of Japan's most expensive urban hubs. AIC’s core philosophy is rooted in fostering comprehensive linguistic and academic readiness, recognizing that Japanese proficiency alone is insufficient for navigating competitive university entrance exams or the complexities of the modern Japanese workplace. The center aims to develop independent, globally-minded individuals capable of thriving in diverse sectors.
+**Asian International Center** (AIC) is a dedicated Japanese language institution located in the dynamic city of **Amagasaki, Hyogo Prefecture** (兵庫県尼崎市久々知1-9-8). While Hyogo is famously home to the beautiful port city of Kobe, Amagasaki occupies a incredibly strategic position right on the eastern border, directly adjacent to Osaka. For international students, this location is an absolute hidden gem: you can easily access the massive commercial and cultural hubs of Osaka (such as Umeda) in just a few minutes by train, while enjoying the significantly lower living costs, quieter neighborhoods, and relaxed pace of Hyogo Prefecture.
 
-Established with a clear mission to support students through specialized academic tracks, the Asian International Center distinguishes itself with its multi-faceted approach to preparation. The school recognizes that the goals of a student planning to study art or design differ significantly from those pursuing engineering or business. Consequently, AIC’s curriculum is designed to accommodate these divergent ambitions from an early stage, offering bespoke pathways in Science (Rikei), Arts/Humanities (Bunkei), and specific Art/Design preparation. This specialization is rare and demonstrates a commitment to high success rates in Japan’s highly competitive university entrance system. Furthermore, the inclusion of robust living support, notably student dormitories, underscores the school’s dedication to ensuring a smooth transition and a stable foundation for learning, particularly valuable for students arriving in a new cultural and educational environment.
+With a licensed capacity of **232 students**, Asian International Center intentionally keeps its student body mid-sized. This scale represents the perfect sweet spot for language learning. Unlike massive language schools where students can feel like just another face in a crowded lecture hall, AIC offers a highly supportive, close-knit environment. Every student receives personal attention, individual counseling, and targeted academic guidance from a passionate team of educators.
 
-By leveraging its position in the broader Kansai economic zone—a region known for innovation in manufacturing, arts, and commerce—AIC prepares students not only for the standardized requirements of the Examination for Japanese University Admission for International Students (EJU) but also for the practical application of language in real-world contexts. The integration of conversational and business Japanese training alongside rigorous academic subjects ensures a holistic skill set. The school’s name, 'Asian International Center,' suggests a historical focus on students from neighboring Asian countries, creating a supportive, culturally relatable environment. However, its comprehensive program structure is built to serve any international student determined to meet Japan’s stringent educational benchmarks. This blend of strategic location, specialized curriculum, and strong foundational support defines the AIC experience, positioning it as a top choice for serious academic candidates in the Kansai area.
+At the core of AIC’s educational philosophy is the belief that language learning should not exist in a vacuum. The school is committed to preparing students for the real-world demands of Japanese society, higher education, and corporate workplaces. By offering robust financial support through **scholarship programs** and secure, affordable **dormitory options**, the school ensures that students can focus entirely on their studies without unnecessary financial stress. Whether your ultimate goal is entering a top-tier national university, mastering a specialized technical field, or launching a corporate career in Japan, Asian International Center provides the physical resources and educational foundation to make it happen.
 
-## Courses, Curriculum & Teaching Style
+---
 
-The Asian International Center provides a flexible and structured array of long-term courses, all geared toward academic advancement. The course structure is designed around maximizing contact hours and aligning study durations with the application timelines of Japanese universities. AIC offers five distinct progression pathways:
+## 📚 2. Courses, Curriculum & Teaching Style
 
-*   2-Year Course (starting April)
-*   1 Year 9 Month Course (starting July)
-*   1 Year 6 Month Course (starting October)
-*   1 Year 3 Month Course (starting January)
+Asian International Center offers a range of long-term academic preparation courses tailored to different intake periods. The curriculum is meticulously designed to take students from absolute beginners (N5 level) up to advanced proficiency (N1/N2), preparing them thoroughly for higher education or professional employment.
 
-This ensures that students can matriculate at the most suitable time relative to their prior Japanese knowledge and the targeted university entrance cycle. This variety demonstrates exceptional organizational planning focused on student efficiency.
+Below is the official tuition and fee structure for the available courses at AIC:
 
-The core of the curriculum is divided into intensive preparation modules. The first phase focuses on rapid linguistic acquisition, moving students from beginner to intermediate levels, establishing grammatical fundamentals, and expanding the essential 10,000-word vocabulary required for higher education. The second, more advanced phase is where the specialized tracks become paramount. The school commits significant resources to three key areas:
+| Course Name (English) | Course Name (Japanese) | Admission Month | Duration | Total Tuition & Fees (JPY) |
+| :--- | :--- | :---: | :---: | :---: |
+| **Special Academic Prep Course** | 特別進学コース | April | 2 Years | ¥1,419,000 |
+| **Academic Prep 2-Year Course** | 進学2年コース | April | 2 Years | ¥1,419,000 |
+| **Academic Prep 1-Year 9-Month Course** | 進学1年9ヶ月コース | July | 1.75 Years | ¥1,269,000 |
+| **Academic Prep 1.5-Year Course** | 進学1年半コース | October | 1.5 Years | ¥1,102,000 |
+| **Academic Prep 1-Year 3-Month Course** | 進学1年3ヶ月コース | January | 1.25 Years | ¥952,000 |
 
-*   **EJU Preparation:** Intensive training in the Japanese language segment, combined with instruction in Mathematics, and either General Knowledge (for humanities students) or specialized Science subjects (Physics, Chemistry, Biology) for the Rikei track.
-*   **Science Track (Rikei):** Dedicated instruction in Japanese terminology specific to science and engineering disciplines. AIC’s commitment to this feature implies specialized faculty capable of teaching complex scientific concepts clearly, while ensuring students master the necessary vocabulary for EJU and subsequent university coursework.
-*   **Art/Design Track:** Goes beyond standard language training, integrating specialized sessions focused on portfolio development, critical thinking in Japanese art and design contexts, and interview preparation specific to art schools, which often emphasize creativity and conceptual articulation in Japanese. This holistic approach ensures students are not merely linguistically prepared but academically competitive within their chosen fields.
+### 🎓 Unique Curricular Tracks
+What truly sets Asian International Center apart from standard language institutions is its commitment to specialized guidance. While basic grammar, vocabulary, reading, and listening are thoroughly covered, the curriculum goes far beyond standard rote memorization:
 
-Furthermore, AIC incorporates both **Conversational** and **Business Japanese** training as mandatory components, even within the academic tracks. While EJU success is primary, universities and future employers value practical communication ability. Conversational classes build fluency and confidence in daily life, while Business Japanese modules introduce keigo (honorific language), workplace etiquette, and the communication styles necessary for formal interviews and potential part-time employment. The existence of a **Special Advanced Course** signifies a rigorous pathway reserved for high-achieving students targeting elite national universities or competitive postgraduate programs, demanding academic rigor and one-on-one coaching.
+*   **EJU Preparation Specialist Tracks:** The Examination for Japanese University Admission for International Students (EJU) is the gateway to top schools. AIC provides systematic training in EJU Japanese, alongside specialized support in academic subjects.
+*   **Specialized Science Track (Rikei):** For students pursuing engineering, medicine, computer science, or natural sciences, language alone isn't enough. AIC provides guidance on the specialized scientific vocabulary and concepts necessary to pass science-specific university entrance exams.
+*   **Specialized Art & Design Track:** Aspiring art students receive targeted advice on how to build portfolios, prepare for practical exams, and handle the unique interview styles of Japanese art universities.
+*   **Business Japanese & Conversational Skills:** In addition to academic tracks, the school places heavy emphasis on functional, natural conversational fluency and business etiquette, ensuring students are ready for part-time jobs and future corporate careers.
 
-## Student Body & Campus Life
+---
 
-The student body at the Asian International Center is primarily composed of motivated individuals pursuing academic goals, reflecting the school's specialization in university and advanced education pathways. Given the school's name and geographical context, a significant percentage of students historically come from East and Southeast Asian nations, including China, Vietnam, Nepal, South Korea, and others. This creates a supportive network and a multinational classroom environment where students share similar aspirations regarding Japanese higher education. The capacity (232 students) suggests a close-knit community where teachers can offer personalized attention, a critical factor for students navigating complex entrance examination processes.
+## 🏠 3. Student Body & Campus Life
 
-Campus life in Amagasaki offers a balance between convenience and cost-effectiveness. Amagasaki, situated between Osaka and Kobe, provides students with access to cultural attractions, universities, and job opportunities without the high accommodation and living expenses of central Osaka. Students can use train lines to participate in city life, visit museums, and explore historical sites. AIC likely organizes cultural excursions, such as trips to Kyoto and Nara. Moreover, proximity to industrial and commercial centers in Hyogo means that part-time employment opportunities (arubaito) are readily available. The dormitory facilities foster a community and provide a secure base for academic careers.
+At Asian International Center, student life is characterized by a warm, family-like atmosphere. With a 232-student capacity, classmates quickly become close friends, and teachers are highly accessible for daily conversations, advice, or academic counseling. The school draws an energetic and diverse student body from across Asia and beyond, creating a multicultural environment where Japanese becomes the shared language of connection.
 
-## University & Career Pathways
+### 📍 Living in Amagasaki (Kuguchi)
+The school is situated in the Kuguchi neighborhood of Amagasaki. This is a very pleasant, peaceful residential area that offers a authentic slice of daily Japanese life. Unlike the chaotic, crowded streets of central Tokyo or downtown Osaka, Amagasaki allows you to commute to school safely and calmly. 
 
-The core mission of the Asian International Center is to serve as a launchpad into Japanese tertiary education. Success is measured by the quality and quantity of university acceptances. The emphasis on EJU preparation is paramount, involving mock exams, analysis of past papers, and subject tutoring. The school's academic guidance team specializes in navigating application procedures for private and public universities, including securing letters of recommendation, preparing personal essays (shokiyuisho), and conducting practice for university-specific interviews.
+*   **Cost of Living:** One of the biggest advantages of studying at AIC is the affordability of the region. Rent, groceries, and daily necessities are remarkably cheaper than in Tokyo or central Osaka. This makes your student budget stretch much further.
+*   **Dormitory Availability:** AIC offers dedicated student housing, allowing newcomers to transition smoothly into Japanese life without the stress of navigating Japanese real estate agencies, finding guarantors, or paying hefty upfront key money (*reikin*).
+*   **Local Culture & Access:** When you want excitement, JR Amagasaki Station connects you directly to Osaka Station in under 10 minutes. This means you can easily enjoy Osaka’s world-famous food scene, shopping, and entertainment, and then return to the quiet comfort of your Amagasaki dormitory to study.
 
-The specialization in **Science (Rikei)** and **Art/Design** provides students with a competitive edge. Rikei students receive advising regarding the selection of science faculties and preparation for secondary exams often required by national universities. For Art/Design students, the pathway involves guidance on compiling portfolios and preparing for practical exams and artistic interviews common in Japanese art institutions. This support increases the probability of admission to programs.
+---
 
-Beyond university entrance, AIC’s inclusion of **Business Japanese** training facilitates career pathways. The Kansai region is home to corporations and an SME sector, providing opportunities for graduates with linguistic and business etiquette skills. AIC prepares students to engage with hiring managers, focusing on formal communication, resume drafting, and mastering cultural nuances of the Japanese employment process (Shūshoku Katsudō).
+## 🚀 4. University & Career Pathways
 
-## Accommodation & Living Support
+Asian International Center places an immense focus on **Advanced Education Pathway Focus**. For many students, the language school is not the destination, but the launchpad. AIC’s academic counseling team works tirelessly to guide students into prestigious institutions across the Kansai region and throughout Japan.
 
-The provision of student **Dormitories** is one of the Asian International Center's defining features, offering a stable living environment. In Amagasaki, readily available school-managed housing removes the stress of apartment hunting. The dormitories typically offer furnished rooms, proximity to the school, and often include utilities in a monthly fee.
+### 🏛️ Higher Education Support
+The school’s specialized tracks ensure that students are competitive candidates for national, public, and high-ranking private universities. 
+*   **The Special Academic Prep Course** is ideal for highly motivated students aiming for elite institutions. 
+*   Teachers provide rigorous, personalized interview preparation, essay-writing workshops (小論文, *shorunbun*), and guidance on university-specific application procedures.
+*   The presence of both **Science (Rikei) and Art/Design support** ensures that students targeting specialized academies receive expert mentorship rather than generic advice.
 
-Living support extends beyond housing. AIC likely provides orientation programs covering daily life skills: registering with authorities, opening bank accounts, accessing medical services, and understanding transportation. The school staff serves as a point of contact for cultural adjustment. The manageable student capacity ensures personalized support, assisting students with academic endeavors and overall well-being.
+### 💼 Career Placement & Professional Training
+For those looking to enter the Japanese workforce immediately or after graduating from a local university, AIC’s **Business Japanese Training** is invaluable. Students learn the nuances of polite Japanese (*keigo*), phone etiquette, resume writing, and interview strategies tailored specifically to Japanese corporate standards. The Kansai region is home to countless international businesses, manufacturing hubs, and tech companies, providing a wealth of local employment opportunities for bilingual graduates.
 
-## Tuition, Fees & Scholarships
+---
 
-The Asian International Center’s tuition structure reflects the intensive nature of its academic preparation courses. The fees are competitive for a school offering specialized tracks (Science, Art, EJU) in the Kansai area. All courses include enrollment, facility, and tuition components consolidated into a total fee. The school emphasizes financial accessibility through **Scholarship Programs**.
+## 💡 5. Practical Tips for Applicants
 
-Scholarship opportunities typically include external governmental scholarships (like the Monbukagakusho Honors Scholarship) facilitated by the school, as well as potential internal AIC-funded awards based on attendance, academic performance, and entrance exam results. These scholarships ease the financial burden.
+Planning your application to Asian International Center requires a strategic approach. Here are some essential insider tips to help you prepare:
 
-Below is a detailed breakdown of the total costs for the various academic preparation courses:
-
-| Course Name | Start Date (Admission Month) | Duration | Total Fees (JPY) | Approximate Annualized Cost (JPY) |
-| :--- | :--- | :--- | :--- | :--- |
-| **University Prep 2 Years** | April (4) | 24 Months | ¥1,419,000 | ¥709,500 |
-| **Special Advanced Prep** | April (4) | 24 Months | ¥1,419,000 | ¥709,500 |
-| **University Prep 1 Year 9 Months** | July (7) | 21 Months | ¥1,269,000 | ¥725,143 (per 12 months) |
-| **University Prep 1 Year 6 Months** | October (10) | 18 Months | ¥1,102,000 | ¥734,667 (per 12 months) |
-| **University Prep 1 Year 3 Months** | January (1) | 15 Months | ¥952,000 | ¥761,600 (per 12 months) |
-
-*Note on Fees: The total fees listed typically include the Application Fee, Admission Fee, and Tuition for the entire duration of the course. The variations in the annualized cost reflect the differing administrative structuring and efficiency of shorter, more intensive programs versus the standard two-year track. Students must also budget separately for living expenses (rent, utilities, food), which are significantly more affordable in Amagasaki compared to central Tokyo.*
+1.  **Choose the Right Intake Month:**
+    *   If you are a beginner aiming for top-tier universities, the **April Intake (2-Year or Special Prep)** is highly recommended. It gives you the maximum time to master the language and prepare for the EJU exams.
+    *   If you already have an intermediate foundation (N4 or N3) and want to save time and tuition, the **October (1.5-Year)** or **January (1 Year, 3 Months)** intakes are excellent, cost-effective options.
+2.  **Budget for Initial Fees:**
+    The tuition table details the comprehensive fees. Be sure to factor in your initial dormitory security deposits and daily living expenses for the first two to three months before you secure a part-time job.
+3.  **Secure Your Part-Time Job (*Arubaito*):**
+    Under the Student Visa, you are legally permitted to work up to 28 hours per week (and up to 40 hours during long school vacations). Because Amagasaki is so close to Osaka, you will have access to thousands of part-time jobs in retail, dining, logistics, and hospitality. Utilize AIC's conversational training early on to boost your confidence for job interviews.
+4.  **Inquire About Scholarships Early:**
+    AIC features dedicated scholarship programs for outstanding students. Don't hesitate to ask the admissions office about the specific academic and attendance criteria required to qualify for financial awards during your studies.
+5.  **Leverage the Art & Science Focus:**
+    If you intend to major in an art-related field or a specialized science program, prepare your portfolio materials or previous academic transcripts before arriving in Japan. This allows the teachers at AIC to begin tailoring your pathway program from your very first week of school starts.

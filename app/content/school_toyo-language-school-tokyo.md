@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学課程1年コース
   total_fees: 816000
-date: '2026-01-28'
+date: '2026-07-12'
 description: Toyo Language School is a high-capacity language institution in Tokyo
   focused on academic advancement, offering specialized EJU and graduate school preparation,
   along with mandatory dormitory options and a dedicated art and design pathway.
@@ -56,74 +56,68 @@ translated: true
 tuition: {}
 ---
 
-## School Overview & Philosophy
+## 🏫 School Overview & Philosophy
 
-Toyo Language School (東洋言語学院), often referred to as TLS, is a major language institution in Tokyo, accommodating up to 700 students. Situated in Edogawa Ward, specifically Nishikasai, the school provides a balanced learning environment, combining rigorous academics with the relative tranquility and affordability of a location removed from central hubs like Shinjuku or Shibuya. This location allows students to focus on their studies while still maintaining easy access to cultural and educational opportunities via the Tokyo Metro Tozai Line.
+Toyo Language School (東洋言語学院 - TLS) is a premier, high-capacity Japanese language institution located in the vibrant district of Nishi-Kasai in Edogawa Ward, Tokyo. With an official student capacity of 700, TLS is recognized as a major educational hub that brings together aspiring academics, artists, and professionals from all over the globe. The school’s foundational philosophy centers on empowering students to realize their specific career and academic dreams through highly structured, goal-oriented Japanese language acquisition.
 
-The school's core philosophy emphasizes Academic Advancement (進学, Shingaku). Unlike schools focused on general communication or cultural immersion, TLS prepares international students for admission to Japanese universities (undergraduate and graduate), technical colleges (Senmon Gakko), and specialized art programs. This mission shapes the curriculum, teacher training, and support systems, including initial housing requirements. The school views Japanese language mastery as essential for success in Japan's competitive higher education system.
+Unlike schools that apply a one-size-fits-all approach, Toyo Language School prides itself on its tailored pathway programs. Whether your goal is to pass the rigorous entrance exams for a Japanese graduate school, gain admission to a prestigious traditional university, or break into Japan’s highly competitive art and design universities, TLS provides a systematic roadmap. 
 
-The school benefits from significant organizational resources typical of a high-capacity institution. This includes a large faculty, administrative support for visa and university applications, and well-developed facilities. However, students should expect strict regulations, including attendance policies and mandatory testing, to ensure progress toward academic goals. The school cultivates a disciplined academic environment crucial for standardized tests like the Japanese Language Proficiency Test (JLPT) and the Examination for Japanese University Admission for International Students (EJU).
+Located in Nishi-Kasai, Edogawa Ward, the school offers a unique geographical advantage. This neighborhood is known for being remarkably friendly, residential, and green, featuring a lower cost of living compared to bustling central hubs like Shinjuku or Shibuya. Yet, it remains incredibly accessible—the Tokyo Metro Tozai Line connects you directly to the center of Tokyo (such as Otemachi and Nihombashi) in under 20 minutes. This balance of quiet, focused study environments and rapid urban connectivity makes TLS an exceptional launchpad for your life in Japan.
 
-The school's Tokyo location has fostered strong relationships with universities and vocational schools in the Kanto region. These connections can lead to recommendation pathways or designated school admission procedures (推薦入学), easing the application process for high-performing TLS students. The administration guides students through the complex university application process, managing documentation, interviews, and preparatory courses. This focus on academic outcomes distinguishes TLS from smaller, general-purpose language schools, making it attractive to goal-oriented learners who see language school as a critical first step in their academic journey in Japan. The atmosphere encourages focused study, peer collaboration, and continuous language skill improvement.
+---
 
-## Courses, Curriculum & Teaching Style
+## 📚 Courses, Curriculum & Teaching Style
 
-Toyo Language School primarily offers the *Shingaku Katei* (Academic Advancement Course), designed to equip students with the necessary academic skills for Japanese higher education. The school offers multiple entry points: a 2-year course in April, a 1.9-year course in July, a 1.6-year course in October, a 1.3-year course in January, and specialized 1-year courses. This allows students to begin their studies almost year-round, while maintaining an intense focus on preparation.
+Toyo Language School is highly regarded for its diverse curriculum options, offering multiple entry points throughout the year (January, April, July, and October). This flexibility allows students to align their language studies perfectly with their academic calendars back home.
 
-Upon entry, students are placed into classes based on comprehensive testing of grammar, listening, reading, writing, and speaking abilities. The curriculum systematically progresses from beginner levels (N5/N4 equivalent) to advanced academic Japanese (N1 equivalent and beyond). The teaching methodology is structured, emphasizing balanced skill development. Initial levels focus on foundational grammar, vocabulary, and language structure. As students advance, the curriculum shifts toward application, critical thinking, and advanced linguistic tasks.
+Students are placed into specific tracks depending on their ultimate goals, such as the Graduate School Prep Track, University Prep Track, or the highly specialized Art & Design Track. Classes are interactive and focus not only on grammar and vocabulary for exams, but also on practical communication skills, academic writing, and presentation skills.
 
-Key curriculum components include intensive preparation for standardized exams. Dedicated class time is allocated to EJU preparation, covering the Japanese section and auxiliary subjects like Mathematics, Science (Physics, Chemistry, Biology), and Japan and the World (Social Studies). These EJU subject classes are often taught by native Japanese instructors specialized in those disciplines, a feature that many smaller schools cannot replicate. This approach ensures students learn not just general Japanese, but the academic vocabulary needed for subjects like Engineering or Economics.
+### Comprehensive Course & Tuition Fees Table
 
-The school also offers specialized tracks for specific needs, notably the Art and Design Pathway Program. This track provides intensive Japanese language training, portfolio development assistance, preparation for art school entrance exams, and exposure to art history and terminology in Japanese. This specialization is vital for students targeting institutions like Musashino Art University, Tama Art University, or Tokyo University of the Arts, requiring a tailored approach beyond general academic language. The teaching style involves mock exams, timed essay writing, formal presentation practice, and critical reading assignments using authentic Japanese academic texts to simulate university-level work.
+Below is the official breakdown of the academic courses offered at Toyo Language School. Please note that total fees are comprehensive of registration, tuition, and facility costs for the duration of the course:
 
-## Student Body & Campus Life
+| Course Name | Admission Month | Duration | Total Fees (JPY) |
+| :--- | :---: | :---: | :---: |
+| **Academic 2-Year Course** (進学課程2年コース) | April | 2.0 Years | ¥1,512,000 |
+| **Academic 1.9-Year Course** (進学課程1.9年コース) | July | 1.9 Years | ¥1,338,000 |
+| **Academic 1.6-Year Course** (進学課程1.6年コース) | October | 1.6 Years | ¥1,164,000 |
+| **Academic 1.3-Year Course** (進学課程1.3年コース) | January | 1.3 Years | ¥990,000 |
+| **Academic 1-Year Course** (進学課程1年コース) | April | 1.0 Year | ¥816,000 |
 
-With a capacity of 700 students, Toyo Language School has a diverse international student body. Students share the common ambition of entering Japanese higher education and come from countries like China, Korea, Vietnam, and Nepal. This demographic composition often leads to a fast-paced, competitive, and collaborative learning environment.
+*Note: Specific details regarding individual short-term programs or 1-month options can be inquired about directly with the school administration, but the core academic advancement tracks follow the schedule above.*
 
-Campus life at TLS is focused and disciplined, reflecting the school's academic mandate. Attendance and adherence to school regulations are strictly enforced, crucial for visa compliance and recommendation letters. Nishikasai in Edogawa Ward offers a more residential and affordable setting compared to central Tokyo, known for its parks, markets, and public transport. While less crowded with tourists, the area offers supermarkets, clinics, and dining options. 
+---
 
-Though academics are primary, TLS organizes cultural orientation programs and seasonal events to provide cultural context and breaks from studying. These activities enrich the student experience and provide real-world opportunities to use Japanese skills. The administrative staff assists students with settling into life in Japan, including registering with local authorities, accessing healthcare, and understanding part-time employment regulations. Proximity to central Tokyo allows students to easily access cultural landmarks and universities for campus visits and research. The atmosphere fosters focused commitment, with students leveraging school resources and peer support to maintain motivation.
+## 👥 Student Body & Campus Life
 
-## University & Career Pathways
+With a capacity of 700 students, Toyo Language School hosts a large, energetic, and multicultural student body. You will study alongside classmates from a wide array of countries, facilitating global networking and ensuring that Japanese becomes your common language of communication outside the classroom.
 
-Toyo Language School's reputation is tied to its success in placing students into Japanese universities and graduate schools. The comprehensive *Shingaku* program optimizes student success in the JLPT and the EJU. The school's high success rate is a result of its strategic pathway programs.
+One of the unique aspects of Toyo Language School is its **Mandatory Dormitory Options**. For many international students, navigating the Japanese real estate market, securing guarantors, and setting up utilities can be incredibly overwhelming. TLS solves this by providing dedicated, managed dormitory accommodations. While this housing structure is mandatory/strongly integrated into the enrollment package for certain intakes, it provides massive peace of mind. The dorms are safe, fully furnished, and located within an easy walk or bicycle ride to the campus, offering an instant community of peers who are on the same journey.
 
-**EJU Mastery and Specialized Subject Tutoring:** TLS's targeted EJU preparation is a key offering. Students receive detailed instruction in the Japanese language section of the EJU and in academic subjects. This includes advanced mathematics, science modules, and rigorous study of Japan and the World. Specialized subject teachers, often native Japanese high school educators or university tutors, deliver academic content at the level expected by Japanese institutions. Frequent mock EJU examinations are standard practice, using past papers and simulated conditions to track student performance and identify areas for improvement. This iterative testing process is crucial for achieving high scores required for top universities.
+Campus life extends beyond the classroom. Located in Edogawa Ward, students have easy access to beautiful riverside parks, local Japanese shopping streets (shotengai), and affordable dining options. The school also organizes regular cultural exchange events, seasonal festivals, and neighborhood cleanups, allowing you to integrate smoothly into the local Japanese community.
 
-**Graduate School Specialization:** For students targeting Master’s or Doctoral programs, TLS offers guidance that differs from undergraduate preparation. This includes workshops on drafting research proposals (研究計画書, *Kenkyu Keikakusho*), essential for securing a supervisor and gaining admission. Instructors provide coaching on contacting professors, structuring interviews, and presenting research ideas in academic Japanese. The program recognizes the unique challenges faced by graduate applicants, who need academic literacy and professional communication skills.
+---
 
-**The Art and Design Pathway Advantage:** The specialized Art and Design program is a differentiator for TLS. Students receive lessons designed to bridge the gap between their artistic abilities and the specific Japanese academic requirements. This includes learning Japanese terminology related to art history, media, and design principles, as well as portfolio review sessions. Many art school entrance exams require practical skills demonstration and a specialized interview in Japanese, making this integrated approach crucial for admission to selective institutions.
+## 🎓 University & Career Pathways
 
-**Post-Graduation Support:** While the primary focus is academic, the school offers introductory guidance for students interested in pursuing careers after language school, focusing on job interview skills, writing Japanese résumés, and understanding Japanese business etiquette (keigo). However, most TLS graduates successfully enter universities or vocational schools, cementing TLS's reputation as a leader in academic pathway programs in the Tokyo region.
+Toyo Language School’s reputation is built on its **Strong Academic Advancement Focus**. The school does not just teach Japanese; it actively coaches you to clear the hurdles of higher education in Japan.
 
-## Accommodation & Living Support
+### 1. Specialized EJU Preparation
+The Examination for Japanese University Admission (EJU) is the gatekeeper for undergraduate studies. TLS offers intensive, targeted preparation for the EJU, helping students master not only the Japanese language section but also providing support for academic subjects like mathematics, science, and Japan and the World (social studies).
 
-Toyo Language School has a student-supportive accommodation policy: **Mandatory Dormitory Options are Available and often highly encouraged or required for initial entry students.** This ensures a smooth and secure transition into life in Japan, particularly for first-time international students. By providing guaranteed, supervised housing, TLS alleviates the stress of finding private accommodation.
+### 2. Graduate School Preparation
+Applying to graduate school in Japan requires a highly sophisticated level of academic Japanese, the ability to formulate a thesis proposal (Kenkyu Keikakusho), and the confidence to interview with professors. TLS instructors provide one-on-one counseling to help you refine your research topics, contact prospective academic advisors, and practice intensive mock interviews.
 
-The school manages or partners with student dormitories near the Nishikasai campus, accessible by bicycle or public transport. These residences are well-maintained and offer single, double, or shared occupancy options. Standard amenities include communal kitchens, laundry facilities, internet access, and security measures. The structured environment aids students in adjusting to the Japanese lifestyle and provides a community for studying and cultural exchange.
+### 3. Dedicated Art and Design Pathway Programs
+This is one of TLS’s most unique and celebrated features. Japan’s top art universities (such as Tama Art University and Musashino Art University) have incredibly competitive entrance requirements that involve portfolio presentations, practical drawing exams, and essays. TLS provides specialized guidance for creative students, helping them translate their artistic concepts into professional academic Japanese and prepare portfolios that align with the specific expectations of Japanese art faculty panels.
 
-**Detailed Support and Welfare:** TLS offers general living support for international students. Administrative staff assists with local authority procedures, such as registering at the Edogawa City Office, obtaining identification cards, and navigating the national health insurance system. Health and welfare counseling services are available, recognizing potential stress. The school acts as an intermediary for students, supporting communication with landlords, hospitals, and part-time employers. 
+---
 
-Regarding part-time employment, TLS provides guidance on seeking approved *arubaito* (part-time jobs) within legal limits (28 hours per week). This includes advice on creating Japanese-style resumes (履歴書), practicing interview techniques, and understanding Japanese workplace expectations. Due to the school's location, part-time opportunities exist in local restaurants, convenience stores, and teaching academies. The combination of housing and support services allows students to dedicate their energy to their academic program, minimizing distractions.
+## 💡 Practical Tips for Applicants
 
-## Tuition, Fees & Scholarships
+If you are planning to apply to Toyo Language School, here are several practical insights to keep in mind:
 
-Toyo Language School's tuition reflects the academic focus of its programs and is competitive among high-quality institutions in Tokyo. The total fees include the application fee, entrance fee, annual tuition, facility costs, and initial materials costs. Accommodation, living expenses, or health insurance premiums are typically *not* included.
-
-Below is a breakdown of the total costs for the Academic Advancement Course based on the duration of study (all fees are in Japanese Yen, ¥):
-
-*   **2-Year Course:** April admission, ¥1,512,000 total fees, ¥756,000 estimated annual tuition equivalent. (Standard Track for most beginners)
-*   **1.9-Year Course:** July admission, ¥1,338,000 total fees, Approx. ¥704,210 estimated annual tuition equivalent. (Accelerated track, starts mid-year)
-*   **1.6-Year Course:** October admission, ¥1,164,000 total fees, Approx. ¥727,500 estimated annual tuition equivalent. (Intensive mid-year entry)
-*   **1.3-Year Course:** January admission, ¥990,000 total fees, Approx. ¥761,538 estimated annual tuition equivalent. (Shortest track for academic advancement)
-*   **1-Year Course:** April admission, ¥816,000 total fees, ¥816,000 estimated annual tuition equivalent. (For high-level students or specific goals)
-
-Note: These total fees are often broken down into Application Fee (¥20,000–¥30,000), Entrance Fee (¥50,000–¥80,000), Tuition, and Facilities/Materials Fees, paid upfront or in installments. Confirm the installment schedule with the school.
-
-**Scholarship Opportunities:** Toyo Language School supports high-performing students through various scholarship schemes:
-
-1.  **Internal Academic Excellence Awards:** TLS offers scholarships or grants to students who demonstrate academic achievement, high attendance, and excellent scores on internal mock exams. These scholarships often serve as tuition waivers or stipends.
-2.  **External Scholarships:** The school assists students in applying for external scholarships, most notably the *Monbukagakusho* Honors Scholarship (MEXT Scholarship). Successful applicants typically receive a monthly stipend.
-3.  **JLPT/EJU Performance Scholarships:** Students who achieve outstanding scores on the JLPT (N1) or the EJU are often prioritized for funding, rewarding commitment to academic excellence.
-
-The administrative staff counsels students on financial aid options, including documentation and deadlines, ensuring that financial constraints do not hinder motivated students. Investment in TLS is viewed as an investment in a preparatory foundation for achieving educational goals in Japan, offering value through specialized instruction and pathway support. The mandatory dormitory options provide predictable, safe, and cost-effective living solutions compared to private housing, streamlining the student's focus entirely onto the academic challenges ahead.
+* **Plan for Housing Costs Early:** Because TLS integrates mandatory dormitory options, ensure you discuss housing fees and availability with your admissions counselor early. Having guaranteed housing saves you hundreds of thousands of yen in upfront real estate agent fees (key money, guarantor fees) typical of private Tokyo apartments.
+* **Prepare for Your Pathway Early:** If you are aiming for the Art & Design program or Graduate School, bring your portfolio drafts, previous thesis papers, or academic ideas with you. Don't wait until your Japanese is perfect to start thinking about your major; the faculty at TLS can help you shape your ideas from your very first term.
+* **Understand the Timeline:** For the popular 2-Year and 1.6-Year Academic Courses, you should begin your application process 6 to 8 months in advance. Tokyo’s immigration bureau has strict deadlines for student visa document submissions.
+* **Embrace Nishi-Kasai:** Take advantage of your location! While it is quieter than central Tokyo, Nishi-Kasai is exceptionally livable. Buying a bicycle is highly recommended, as it will be your primary mode of transport between the school, your dormitory, and local supermarkets, keeping your daily living costs remarkably low.
