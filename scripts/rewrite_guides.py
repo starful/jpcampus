@@ -13,6 +13,7 @@ import frontmatter
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import CONTENT_DIR, clean_json_response, setup_gemini, setup_logging  # noqa: E402
+from content_quality import GUIDE_QUALITY_PROMPT_RULES, assert_quality  # noqa: E402
 
 setup_logging("guide_rewrite.log")
 model = setup_gemini()
@@ -66,33 +67,34 @@ Rules:
 - Length 7000–9000 characters.
 - Use ## / ### headings, bullet lists, and at least two markdown tables.
 - Answer search intent in the first section.
-- Practical, specific, 2026-aware. No thin template sections like "Who This Guide Is For" only fluff.
-- Do not mention that you are an AI.
+- Practical, specific, 2026-aware. No thin template sections.
+
+{GUIDE_QUALITY_PROMPT_RULES}
 """.strip()
 
     body = None
+    last_err = None
     for i in range(3):
         try:
             res = model.generate_content(prompt)
             text = clean_json_response(res.text)
             # if model wrapped in fences already cleaned; ensure markdown
-            body = text.strip()
-            if body.startswith("{") and "description" in body:
-                data = json.loads(body)
-                body = (data.get("description") or "").strip()
-            if len(body) >= 3000:
-                break
-            body = None
+            candidate = text.strip()
+            if candidate.startswith("{") and "description" in candidate:
+                data = json.loads(candidate)
+                candidate = (data.get("description") or "").strip()
+            assert_quality(candidate, kind="guide", require_tables=2)
+            body = candidate
+            break
         except Exception as e:
+            last_err = e
             if "429" in str(e):
                 time.sleep(20 * (i + 1))
             else:
                 time.sleep(3)
-                if i == 2:
-                    return f"fail:{slug}:{e}"
 
     if not body:
-        return f"fail:{slug}:empty"
+        return f"fail:{slug}:{last_err}"
 
     meta["date"] = date.today().isoformat()
     new_post = frontmatter.Post(body, **meta)

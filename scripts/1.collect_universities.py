@@ -1,6 +1,7 @@
 import csv
 import json
 import os
+import re
 import sys
 import time
 import requests
@@ -8,6 +9,11 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.generativeai.types import GenerationConfig
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
+from content_quality import (
+    ENTITY_QUALITY_PROMPT_RULES,
+    assert_quality,
+    is_deleted_univ,
+)
 from topic_queue_csv import resolve as resolve_queue_csv
 
 # --- 설정 ---
@@ -54,82 +60,107 @@ def get_university_info(name_ja, name_en):
     prompt = f"""
     You are an expert consultant for international students planning to study in Japan.
     Analyze the university "{name_ja}" ({name_en}) and write an in-depth, comprehensive guide in **ENGLISH**.
-    
-    The output must be in Markdown format, follow the structure below precisely, and be **between 7000 and 8000 characters**.
-    
+
+    Prefer verifiable public facts. If a figure is uncertain, use null or a cautious range —
+    do not invent precise enrollment or acceptance numbers.
+
     Required JSON Structure:
     {{
         "english_slug": "url-friendly-slug-in-english",
         "basic_info": {{
             "name_ja": "{name_ja}",
             "name_en": "{name_en}",
-            "address": "Official address in English",
+            "address": "Official address (Japanese or English)",
+            "website": "Official website URL if known, else empty string",
             "capacity": null
         }},
         "stats": {{
-            "international_students": 123,
-            "acceptance_rate": "Estimated % string"
+            "international_students": null,
+            "acceptance_rate": null
         }},
         "tuition": {{
-            "admission_fee": 123456,
-            "yearly_tuition": 123456
+            "admission_fee": null,
+            "yearly_tuition": null
         }},
         "faculties": ["List", "of", "faculties"],
         "features": ["Key Feature 1", "Key Feature 2"],
-        "description": "## 🏫 University Overview\\n...long text..."
+        "description": "## ...unique markdown body for this university..."
     }}
+
+    description field rules:
+    - 5500–8000 characters of Markdown
+    - Sections unique to this university (campus location, faculties, admissions path, student life)
+    - Include at least one Markdown table (tuition ranges, faculties, or application timeline)
+    - Do not use interchangeable boilerplate that could apply to any university unchanged
+
+    {ENTITY_QUALITY_PROMPT_RULES}
     """
     for i in range(3):
         try:
             res = model.generate_content(
                 prompt, generation_config=GenerationConfig(response_mime_type="application/json")
             )
-            return json.loads(clean_json_response(res.text))
+            data = json.loads(clean_json_response(res.text))
+            body = (data.get("description") or "").strip()
+            assert_quality(body, kind="entity", require_tables=1)
+            data["description"] = body
+            return data
         except Exception as e:
             # 429 Error (Rate Limit) 발생 시 대기 후 재시도
             if "429" in str(e):
                 time.sleep(10 * (i + 1))
             else:
                 time.sleep(2)
+                if i == 2:
+                    print(f"⚠️ {name_en} quality/generation error: {e}")
     return None
 
 def process_university(univ):
     """한 대학교를 처리하는 독립적인 작업 단위"""
     name_ja = univ['name_ja']
     name_en = univ['name_en']
-    
+
     data = get_university_info(name_ja, name_en)
     if not data:
         return f"❌ Failed: {name_ja}"
 
     addr = data['basic_info'].get('address')
     coords = get_google_coordinates(addr)
-    
+
     raw_slug = data.get('english_slug', name_en.replace(" ", "-").lower())
+    raw_slug = re.sub(r"[^a-zA-Z0-9_-]+", "-", str(raw_slug)).strip("-").lower()
     slug = f"univ_{raw_slug}" if not raw_slug.startswith("univ_") else raw_slug
-    
-    frontmatter_data = {
-        "layout": "school", 
-        "id": slug, 
-        "title": data['basic_info']['name_en'],
-        "category": "university",
-        "tags": data.get('features', []), 
-        "thumbnail": "/static/img/pin-univ.png", 
-        "location": coords,
-        "basic_info": data['basic_info'], 
-        "stats": data['stats'], 
-        "tuition": data['tuition'],
-        "faculties": data.get('faculties', []), 
-        "features": data.get('features', [])
-    }
+
+    if is_deleted_univ(slug):
+        return f"⏭️ Skip deleted univ id: {slug}"
 
     filepath = os.path.join(OUTPUT_DIR, f"{slug}.md")
+    if os.path.exists(filepath):
+        return f"⏭️ Exists: {slug}.md"
+
+    frontmatter_data = {
+        "layout": "school",
+        "id": slug,
+        "title": data['basic_info']['name_en'],
+        "category": "university",
+        "tags": data.get('features', []),
+        "thumbnail": "/static/img/pin-univ.png",
+        "location": coords,
+        "basic_info": data['basic_info'],
+        "stats": data['stats'],
+        "tuition": data['tuition'],
+        "faculties": data.get('faculties', []),
+        "features": data.get('features', []),
+        "date": time.strftime("%Y-%m-%d"),
+        "lang": "en",
+    }
+
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write("---\n")
         f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
         f.write("\n---\n\n")
         f.write(data.get('description', 'No content available.'))
-    
+
     append_history(name_ja)
     return f"✅ Saved: {slug}.md"
 

@@ -20,6 +20,7 @@ from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import CONTENT_DIR, LOG_DIR, clean_json_response, setup_gemini, setup_logging  # noqa: E402
+from content_quality import ENTITY_QUALITY_PROMPT_RULES, assert_quality  # noqa: E402
 
 setup_logging("school_regen.log")
 model = setup_gemini()
@@ -81,6 +82,8 @@ Requirements:
   5) Practical Tips for Applicants
 - Specific to THIS school and city/region when address is known.
 - Friendly, practical, non-generic tone. Avoid identical boilerplate across schools.
+
+{ENTITY_QUALITY_PROMPT_RULES}
 """.strip()
 
 
@@ -94,6 +97,7 @@ def regenerate_one(school_id: str) -> str:
     prompt = build_prompt(meta)
 
     body = None
+    last_err = None
     for i in range(3):
         try:
             res = model.generate_content(
@@ -101,20 +105,19 @@ def regenerate_one(school_id: str) -> str:
                 generation_config=GenerationConfig(response_mime_type="application/json"),
             )
             data = json.loads(clean_json_response(res.text))
-            body = (data.get("description") or "").strip()
-            if len(body) >= 2000:
-                break
-            body = None
+            candidate = (data.get("description") or "").strip()
+            assert_quality(candidate, kind="entity", require_tables=1)
+            body = candidate
+            break
         except Exception as e:
+            last_err = e
             if "429" in str(e):
                 time.sleep(15 * (i + 1))
             else:
                 time.sleep(3)
-                if i == 2:
-                    return f"fail:{school_id}:{e}"
 
     if not body:
-        return f"fail:{school_id}:empty"
+        return f"fail:{school_id}:{last_err}"
 
     meta["date"] = date.today().isoformat()
     meta["lang"] = meta.get("lang") or "en"

@@ -5,6 +5,12 @@ import re
 import frontmatter
 from datetime import datetime
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
+from content_quality import (
+    GUIDE_QUALITY_PROMPT_RULES,
+    assert_quality,
+    is_deleted_guide,
+    is_deleted_univ,
+)
 
 # --- 설정 ---
 setup_logging("auto_featured.log")
@@ -114,24 +120,37 @@ def load_data_and_build_index():
 def filter_schools(schools, criteria, limit):
     candidates = []
     for s in schools:
-        if s.get('category') != criteria['category']: continue
-        
+        sid = s.get("id") or ""
+        if sid.startswith("univ_") and is_deleted_univ(sid):
+            continue
+        if not sid.startswith("univ_") and not os.path.exists(
+            os.path.join(CONTENT_DIR, f"{sid}.md")
+        ):
+            # Prefer entities that still exist on disk
+            pass
+        if s.get('category') != criteria['category']:
+            continue
+        if criteria['category'] == "university" and not os.path.exists(
+            os.path.join(CONTENT_DIR, f"{sid}.md")
+        ):
+            continue
+
         full_text = str(s).lower()
         match = True
-        
+
         if 'region' in criteria and criteria['region'] not in s['basic_info']['address']:
             match = False
         if 'tag' in criteria and criteria['tag'].lower() not in full_text:
             match = False
-            
+
         if match:
             candidates.append(s)
-            
+
     return candidates[:limit]
 
 def generate_article_content(topic, selected_schools):
     print(f"🤖 Writing Curated List: {topic['title']}...")
-    
+
     schools_context = ""
     for s in selected_schools:
         name = s['basic_info']['name_en'] or s['basic_info']['name_ja']
@@ -141,7 +160,7 @@ def generate_article_content(topic, selected_schools):
     prompt = f"""
     You are an expert educational editor. Write a high-quality "Curated Guide" article.
     Title: "{topic['title']}"
-    
+
     Structure:
     1. Introduction: Explain the importance of this choice for international students (approx 120 words).
     2. The Selection: List each school below with a catchy subheading.
@@ -151,16 +170,21 @@ def generate_article_content(topic, selected_schools):
     Constraints:
     - Use professional, encouraging English.
     - Standard Markdown (## for schools).
-    - Length: Detailed and substantial (aim for 1000+ words).
-    
+    - Length: Detailed and substantial (aim for 1000+ words / 5500+ characters).
+    - Include at least one comparison Markdown table.
+    - Headings must be unique to this curated list (not a generic template).
+
+    {GUIDE_QUALITY_PROMPT_RULES}
+
     Schools to include:
     {schools_context}
     """
-    
+
     try:
-        # 텍스트가 길어질 수 있으므로 flash 모델의 토큰 제한 내에서 최대한 길게 요청
         response = model.generate_content(prompt)
-        return clean_json_response(response.text)
+        body = clean_json_response(response.text)
+        assert_quality(body, kind="guide", require_tables=1)
+        return body
     except Exception as e:
         print(f"❌ Error during AI generation: {e}")
         return None
@@ -168,6 +192,9 @@ def generate_article_content(topic, selected_schools):
 def apply_auto_links(content, link_index):
     updated_content = content
     for item in link_index:
+        sid = item.get("id") or ""
+        if sid.startswith("univ_") and is_deleted_univ(sid):
+            continue
         name = item['name']
         link = item['link']
         pattern = re.compile(r'(?<!\[)\b' + re.escape(name) + r'\b(?!\])')
@@ -180,16 +207,21 @@ def main():
     if not schools: return
 
     for topic in TOPICS:
+        if is_deleted_guide(topic["slug"]):
+            print(f"⏭️ Skip deleted guide slug: {topic['slug']}")
+            continue
         selected = filter_schools(schools, topic["criteria"], topic["count"])
-        if not selected: continue
-            
+        if not selected:
+            print(f"⏭️ No living candidates for: {topic['slug']}")
+            continue
+
         raw_content = generate_article_content(topic, selected)
         if raw_content:
             linked_content = apply_auto_links(raw_content, link_index)
-            
+
             filename = f"guide_{topic['slug']}.md"
             filepath = os.path.join(CONTENT_DIR, filename)
-            
+
             meta = {
                 "layout": "guide",
                 "id": topic['slug'],
@@ -201,13 +233,13 @@ def main():
                 "thumbnail": topic['thumbnail'],
                 "date": datetime.now().strftime("%Y-%m-%d")
             }
-            
+
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write("---\n")
                 f.write(json.dumps(meta, ensure_ascii=False, indent=2))
                 f.write("\n---\n\n")
                 f.write(linked_content)
-                
+
             print(f"✅ Created: {filename}")
             time.sleep(5) # API 속도 제한 준수
 

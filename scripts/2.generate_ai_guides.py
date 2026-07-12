@@ -8,6 +8,11 @@ import sys
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
+from content_quality import (
+    GUIDE_QUALITY_PROMPT_RULES,
+    assert_quality,
+    is_deleted_guide,
+)
 from topic_queue_csv import resolve as resolve_queue_csv
 
 # --- 설정 ---
@@ -68,30 +73,34 @@ def generate_content(row):
     You are an expert author who writes comprehensive guides for international students preparing to study in Japan.
     Write a long-form, detailed blog post in **ENGLISH** based on the topic below.
     The article must be well-structured, informative, and easy to read.
-    
-    **Total length must be between 7000 and 8000 characters.**
-    
+
+    **Total length must be between 7000 and 9000 characters.**
+
     ---
     Topic Title: {row['title']}
     Core Prompt: {row['prompt']}
+    Meta description hint: {row.get('description', '')}
     ---
-    
-    Guidelines: 
+
+    Guidelines:
     - Use standard Markdown format.
-    - Create 3-5 main sections with clear headings (##).
+    - Create 4-7 main sections with clear headings (##) unique to this topic.
     - Use bullet points and lists where appropriate.
-    - Include at least two Markdown tables for comparisons or data.
     - Maintain a friendly, encouraging, and professional tone in English.
     - Generate ONLY the Markdown body content (do not include frontmatter).
+
+    {GUIDE_QUALITY_PROMPT_RULES}
     """
     for i in range(3):
         try:
             response = model.generate_content(prompt)
-            return clean_json_response(response.text)
+            body = clean_json_response(response.text)
+            assert_quality(body, kind="guide", require_tables=2)
+            return body
         except Exception as e:
-            print(f"⚠️ Error details: {e}") # 에러 내용을 직접 출력해서 확인
-            if "429" in str(e): 
-                time.sleep(30 * (i + 1)) # 대기 시간을 더 늘림 (30초, 60초...)
+            print(f"⚠️ Error details: {e}")  # 에러 내용을 직접 출력해서 확인
+            if "429" in str(e):
+                time.sleep(30 * (i + 1))  # 대기 시간을 더 늘림 (30초, 60초...)
             else:
                 time.sleep(5)
     return None
@@ -99,20 +108,24 @@ def generate_content(row):
 def process_topic(row):
     """한 개의 주제를 생성하고 파일로 저장하는 단위 작업"""
     slug = row['slug']
+    if is_deleted_guide(slug):
+        return f"⏭️ Skip deleted slug: {slug}"
     filename = f"guide_{slug}.md"
     filepath = os.path.join(OUTPUT_DIR, filename)
+    if os.path.exists(filepath):
+        return f"⏭️ Exists: {filename}"
 
     content_body = generate_content(row)
-    
+
     if content_body:
         thumbnail_url = get_thumbnail(row['category'])
         frontmatter_data = {
-            "layout": "guide", 
-            "id": slug, 
+            "layout": "guide",
+            "id": slug,
             "title": row['title'],
-            "category": row['category'], 
+            "category": row['category'],
             "tags": [row['category']],
-            "description": row['description'], 
+            "description": row['description'],
             "thumbnail": thumbnail_url,
             "date": time.strftime("%Y-%m-%d")
         }
@@ -121,7 +134,7 @@ def process_topic(row):
             f.write(json.dumps(frontmatter_data, ensure_ascii=False, indent=2))
             f.write("\n---\n\n")
             f.write(content_body)
-        
+
         append_history(slug)
         return f"✅ Success: {filename}"
     else:
@@ -141,10 +154,24 @@ def main():
         all_topics = list(reader)
 
     processed_slugs = load_history()
-    topics_to_process = [row for row in all_topics if row['slug'] not in processed_slugs]
+    topics_to_process = []
+    skipped_deleted = 0
+    for row in all_topics:
+        slug = (row.get("slug") or "").strip()
+        if not slug or slug in processed_slugs:
+            continue
+        if is_deleted_guide(slug):
+            skipped_deleted += 1
+            continue
+        if os.path.exists(os.path.join(OUTPUT_DIR, f"guide_{slug}.md")):
+            continue
+        topics_to_process.append(row)
     topics_to_process = topics_to_process[: _guide_batch_limit()]
 
-    print(f"🚀 Total: {len(all_topics)} | Processed: {len(processed_slugs)} | Pending: {len(topics_to_process)}")
+    print(
+        f"🚀 Total: {len(all_topics)} | Processed: {len(processed_slugs)} | "
+        f"Pending: {len(topics_to_process)} | Skipped deleted: {skipped_deleted}"
+    )
     if not topics_to_process:
         print("✅ No pending guide topics in queue.")
         return

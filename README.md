@@ -49,7 +49,7 @@ jpcampus/
 │   ├── build_data.py          # Markdown -> static JSON build
 │   ├── build_social_images.py # Pre-render guide social JPEGs
 │   ├── seo_guard.py           # SEO smoke checks (used in Cloud Build)
-│   ├── generate_longtail_seed.py
+│   ├── generate_longtail_seed.py  # deprecated (exits with guidance)
 │   ├── generate_favicons.py
 │   ├── 1.collect_universities.py
 │   ├── 2.generate_ai_guides.py
@@ -133,16 +133,19 @@ python scripts/optimize_meta_copy.py --dry-run
 python scripts/optimize_meta_copy.py --apply
 ```
 
-## 📈 Longtail Growth Starter (20 Pages)
+## 📈 Longtail / New Guides
 
-Generate a starter batch of 20 longtail guides from a curated topic seed:
+Template longtail seeding (`scripts/generate_longtail_seed.py`) is **deprecated**
+(it produced identical thin pages). Add curated rows to `data/guide_topics.csv`, then:
 
 ```bash
-python scripts/generate_longtail_seed.py
+python scripts/2.generate_ai_guides.py
 ```
 
+Quality gates live in `scripts/content_quality.py` (blocks deleted slugs + template headings).
+
 Files:
-- Topic seed CSV: `data/longtail_topics_seed_20.csv`
+- Topic seed CSV (legacy reference only): `data/longtail_topics_seed_20.csv`
 - KPI checklist: `docs/seo_longtail_kpi_checklist.md`
 
 ## 🔁 301 Redirect Management
