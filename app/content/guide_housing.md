@@ -189,7 +189,7 @@ The location and the city you choose to study in significantly affect housing co
 
 *   **Start Early:** Begin your housing search well in advance of your arrival in Japan. This is especially important for private apartments, which can take time to secure.
 *   **Contact Your School:** Your school's international student office can provide valuable information and resources, including lists of recommended dormitories or share houses.
-*   **Use Online Resources:** Utilize websites such as GaijinPot Housing Service, Leopalace21 (especially for furnished apartments with shorter leases), and local real estate websites.
+*   **Use Online Resources:** Utilize websites such as GaijinPot Housing Service, Leopalace21 (especially for furnished apartments with shorter leases), and local real estate websites. For operator shortlists and official booking links, see [Tokyo Student Housing Operators](/guide/tokyo-student-housing-operators?lang=en).
 *   **Visit Properties in Person:** If possible, visit potential properties in person to get a feel for the neighborhood and the condition of the accommodation. If you cannot visit in person, ask for detailed photos and videos.
 *   **Read Reviews:** Look for reviews from previous tenants to get an idea of the landlord or share house management.
 *   **Understand the Contract:** Carefully read and understand the lease agreement before signing anything. Ask for clarification on any points you're unsure about. Don't be afraid to ask for an English translation.

@@ -5,6 +5,10 @@ import json
 import os
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 FAMILY_SITE_ID = "jpcampus"
 BASE_DIR = Path(__file__).resolve().parent
 REDIRECT_MAP_PATH = BASE_DIR / "redirects.json"
@@ -17,6 +21,9 @@ ADS_TXT_CONTENT = os.getenv(
 )
 GA_MEASUREMENT_ID = os.getenv("GA_MEASUREMENT_ID", "G-EDJL0618LL")
 ADSENSE_CLIENT_ID = os.getenv("ADSENSE_CLIENT_ID", "ca-pub-8780435268193938")
+
+# Stay map/cards/nearby UI (seed + /stay/{id} kept; set true to re-enable)
+SHOW_STAYS_UI = os.getenv("SHOW_STAYS_UI", "0").strip().lower() in {"1", "true", "yes", "on"}
 
 
 def load_redirect_map() -> dict[str, str]:

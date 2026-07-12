@@ -1,7 +1,9 @@
 """Related content pickers for detail and compare pages."""
 from __future__ import annotations
 
-from app.utils import assign_thumbnails, load_guides, load_school_data
+import math
+
+from app.utils import assign_thumbnails, load_guides, load_school_data, load_stay_data
 
 
 def pick_related_guides(item: dict, item_type: str, lang: str, limit: int = 4) -> list[dict]:
@@ -90,3 +92,39 @@ def pick_related_schools(item: dict, lang: str, limit: int = 4) -> list[dict]:
                 break
 
     return assign_thumbnails(related[:limit], "university" if wants_university else "school")
+
+
+def _haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    r = 6371.0
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dlat = math.radians(lat2 - lat1)
+    dlng = math.radians(lng2 - lng1)
+    a = math.sin(dlat / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dlng / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
+
+
+def pick_nearby_stays(item: dict, lang: str, limit: int = 4, radius_km: float = 3.0) -> list[dict]:
+    loc = item.get("location") or {}
+    lat, lng = loc.get("lat"), loc.get("lng")
+    if lat is None or lng is None:
+        basic = item.get("basic_info") or {}
+        address = (basic.get("address") or "").lower()
+        if "tokyo" not in address and "東京都" not in address:
+            return []
+        lat, lng = 35.6762, 139.6503
+
+    stays, _ = load_stay_data(lang)
+    scored: list[tuple[float, dict]] = []
+    for stay in stays:
+        sloc = stay.get("location") or {}
+        slat, slng = sloc.get("lat"), sloc.get("lng")
+        if slat is None or slng is None:
+            continue
+        dist = _haversine_km(float(lat), float(lng), float(slat), float(slng))
+        if dist <= radius_km:
+            stay = dict(stay)
+            stay["distance_km"] = round(dist, 1)
+            scored.append((dist, stay))
+
+    scored.sort(key=lambda x: x[0])
+    return [s for _, s in scored[:limit]]

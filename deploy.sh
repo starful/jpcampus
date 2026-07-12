@@ -79,6 +79,8 @@ generate_content() {
 
 build_data() {
     print_step "STEP B  |  데이터 빌드"
+    python3 scripts/generate_stay_content.py 2>/dev/null || true
+    python3 scripts/ensure_stay_images.py
     python3 scripts/build_data.py
     print_ok "JSON/sitemap 빌드 완료"
 }

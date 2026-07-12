@@ -9,7 +9,7 @@ import markdown
 
 from app.utils import CONTENT_DIR
 
-ContentKind = Literal["school", "guide"]
+ContentKind = Literal["school", "guide", "stay"]
 MARKDOWN_EXTENSIONS = ["tables", "fenced_code", "nl2br"]
 
 
@@ -20,6 +20,9 @@ class ContentNotFoundError(FileNotFoundError):
 def resolve_md_path(identifier: str, lang: str, kind: ContentKind) -> str:
     if kind == "school":
         filename = f"{identifier}_kr.md" if lang == "kr" else f"{identifier}.md"
+    elif kind == "stay":
+        base = identifier if identifier.startswith("stay_") else f"stay_{identifier}"
+        filename = f"{base}_kr.md" if lang == "kr" else f"{base}.md"
     else:
         filename = f"guide_{identifier}_kr.md" if lang == "kr" else f"guide_{identifier}.md"
 
@@ -27,6 +30,9 @@ def resolve_md_path(identifier: str, lang: str, kind: ContentKind) -> str:
     if not os.path.exists(md_path) and lang == "kr":
         if kind == "school":
             md_path = os.path.join(CONTENT_DIR, f"{identifier}.md")
+        elif kind == "stay":
+            base = identifier if identifier.startswith("stay_") else f"stay_{identifier}"
+            md_path = os.path.join(CONTENT_DIR, f"{base}.md")
         else:
             md_path = os.path.join(CONTENT_DIR, f"guide_{identifier}.md")
 
@@ -57,3 +63,12 @@ def load_guide_content(slug: str, lang: str) -> tuple[dict, str]:
     item = dict(post.metadata)
     item.setdefault("id", slug)
     return item, content_html
+
+
+def load_stay_content(stay_id: str, lang: str) -> tuple[dict, str, str]:
+    """Return (item metadata, item_type, content_html)."""
+    md_path = resolve_md_path(stay_id, lang, "stay")
+    post, content_html = load_post(md_path)
+    item = dict(post.metadata)
+    item.setdefault("id", stay_id.replace("stay_", ""))
+    return item, "stay", content_html

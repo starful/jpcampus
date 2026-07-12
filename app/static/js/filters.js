@@ -1,10 +1,14 @@
-/* app/static/js/filters.js — two-axis combo filters (type + region) */
+/* app/static/js/filters.js — entity (school/stay) + type + region filters */
 
 (function () {
     let allSchoolData = [];
+    let allStayData = [];
+    let currentEntityFilter = "all";
     let currentTypeFilter = "all";
+    let currentStayTypeFilter = "all";
     let currentRegionFilter = "all";
-    let currentFilteredData = [];
+    let currentFilteredSchools = [];
+    let currentFilteredStays = [];
 
     const ACADEMIC_KEYWORDS = ["eju", "university", "academic", "進学", "大学"];
     const DORM_KEYWORDS = ["dormitory", "dorm", "기숙사", "寮", "student housing"];
@@ -17,11 +21,11 @@
             : String(rawFeatures || "").toLowerCase();
     }
 
-    function getAddress(school) {
-        return school.basic_info?.address || "";
+    function getAddress(item) {
+        return item.basic_info?.address || "";
     }
 
-    function matchesType(school, typeKey) {
+    function matchesSchoolType(school, typeKey) {
         if (typeKey === "university") return school.category === "university";
         if (school.category === "university") return false;
         if (typeKey === "all") return true;
@@ -41,21 +45,22 @@
         }
     }
 
-    function matchesRegion(school, regionKey) {
+    function matchesRegion(item, regionKey) {
         if (regionKey === "all") return true;
-        const address = getAddress(school);
+        const address = getAddress(item);
 
         switch (regionKey) {
             case "tokyo":
-                return address.includes("東京都");
+                return address.includes("東京都") || address.includes("Tokyo");
             case "osaka":
-                return address.includes("大阪府");
+                return address.includes("大阪府") || address.includes("Osaka");
             case "nagoya":
-                return address.includes("名古屋") || address.includes("愛知");
+                return address.includes("名古屋") || address.includes("愛知") || address.includes("Nagoya");
             case "kyoto":
-                return address.includes("京都") && !address.includes("東京都");
+                return (address.includes("京都") && !address.includes("東京都")) || address.includes("Kyoto");
             case "major_city":
                 return !address.includes("東京都")
+                    && !address.includes("Tokyo")
                     && !address.includes("大阪府")
                     && !address.includes("名古屋")
                     && !address.includes("愛知")
@@ -64,6 +69,11 @@
             default:
                 return true;
         }
+    }
+
+    function matchesStayType(stay, typeKey) {
+        if (typeKey === "all") return true;
+        return stay.stay_type === typeKey;
     }
 
     function sortByPublishedDesc(items) {
@@ -75,36 +85,84 @@
         });
     }
 
-    function computeFilteredData(typeKey = currentTypeFilter, regionKey = currentRegionFilter) {
+    function computeFilteredSchools() {
+        if (currentEntityFilter === "stays") return [];
         return sortByPublishedDesc(allSchoolData.filter((school) => (
-            matchesType(school, typeKey) && matchesRegion(school, regionKey)
+            matchesSchoolType(school, currentTypeFilter) && matchesRegion(school, currentRegionFilter)
         )));
     }
 
+    function computeFilteredStays() {
+        if (currentEntityFilter === "schools") return [];
+        const typeKey = currentEntityFilter === "stays" ? currentStayTypeFilter : "all";
+        return sortByPublishedDesc(allStayData.filter((stay) => (
+            matchesStayType(stay, typeKey) && matchesRegion(stay, currentRegionFilter)
+        )));
+    }
+
+    function countEntity(key) {
+        if (key === "all") {
+            const s = allSchoolData.filter((x) => matchesSchoolType(x, currentTypeFilter) && matchesRegion(x, currentRegionFilter)).length;
+            const t = allStayData.filter((x) => matchesRegion(x, currentRegionFilter)).length;
+            return s + t;
+        }
+        if (key === "schools") {
+            return allSchoolData.filter((x) => matchesSchoolType(x, currentTypeFilter) && matchesRegion(x, currentRegionFilter)).length;
+        }
+        return allStayData.filter((x) => matchesStayType(x, currentStayTypeFilter) && matchesRegion(x, currentRegionFilter)).length;
+    }
+
     function countForAxis(axis, key) {
+        if (axis === "entity") return countEntity(key);
+        if (axis === "stay_type") {
+            return allStayData.filter((x) => matchesStayType(x, key) && matchesRegion(x, currentRegionFilter)).length;
+        }
         const typeKey = axis === "type" ? key : currentTypeFilter;
         const regionKey = axis === "region" ? key : currentRegionFilter;
-        return computeFilteredData(typeKey, regionKey).length;
+        return allSchoolData.filter((s) => matchesSchoolType(s, typeKey) && matchesRegion(s, regionKey)).length;
+    }
+
+    function toggleFilterRows() {
+        const schoolRow = document.getElementById("filter-row-school-type");
+        const stayRow = document.getElementById("filter-row-stay-type");
+        if (!schoolRow || !stayRow) return;
+
+        const showSchool = currentEntityFilter === "all" || currentEntityFilter === "schools";
+        const showStay = currentEntityFilter === "stays";
+
+        schoolRow.classList.toggle("is-hidden", !showSchool);
+        schoolRow.setAttribute("aria-hidden", showSchool ? "false" : "true");
+        stayRow.classList.toggle("is-hidden", !showStay);
+        stayRow.setAttribute("aria-hidden", showStay ? "false" : "true");
     }
 
     function filterVisibleCards(filteredSchools) {
+        // Homepage sections always show all cards; map filters only affect the map.
+        if (document.querySelector(".home-sections")) {
+            return;
+        }
+
         const ids = new Set(filteredSchools.map((s) => s.id));
         const isUniversityFilter = currentTypeFilter === "university";
+        const hideSchoolCards = currentEntityFilter === "stays";
 
         document.querySelectorAll(".school-card[data-school-id]").forEach((card) => {
-            card.classList.toggle("is-filter-hidden", isUniversityFilter || !ids.has(card.dataset.schoolId));
+            card.classList.toggle("is-filter-hidden", hideSchoolCards || isUniversityFilter || !ids.has(card.dataset.schoolId));
         });
 
         document.querySelectorAll(".university-card[data-school-id]").forEach((card) => {
-            card.classList.toggle("is-filter-hidden", !isUniversityFilter || !ids.has(card.dataset.schoolId));
+            card.classList.toggle("is-filter-hidden", hideSchoolCards || !isUniversityFilter || !ids.has(card.dataset.schoolId));
+        });
+
+        const stayIds = new Set(currentFilteredStays.map((s) => s.id));
+        const hideStayCards = currentEntityFilter === "schools";
+        document.querySelectorAll(".stay-card[data-stay-id]").forEach((card) => {
+            card.classList.toggle("is-filter-hidden", hideStayCards || !stayIds.has(card.dataset.stayId));
         });
 
         document.querySelectorAll(".card-grid").forEach((grid) => {
-            const schoolCards = grid.querySelectorAll(".school-card[data-school-id]");
-            const univCards = grid.querySelectorAll(".university-card[data-school-id]");
-            const cards = schoolCards.length ? schoolCards : univCards;
+            const cards = grid.querySelectorAll(".school-card, .university-card, .stay-card");
             if (!cards.length) return;
-
             const visibleCount = [...cards].filter((c) => !c.classList.contains("is-filter-hidden")).length;
             grid.classList.toggle("is-filter-empty", visibleCount === 0);
             const sectionHeader = grid.previousElementSibling;
@@ -124,24 +182,33 @@
     }
 
     function syncActiveButtons() {
-        document.querySelectorAll('.theme-button[data-filter-axis="type"]').forEach((btn) => {
-            btn.classList.toggle("active", btn.dataset.filterKey === currentTypeFilter);
-        });
-        document.querySelectorAll('.theme-button[data-filter-axis="region"]').forEach((btn) => {
-            btn.classList.toggle("active", btn.dataset.filterKey === currentRegionFilter);
+        document.querySelectorAll(".theme-button[data-filter-axis]").forEach((btn) => {
+            const axis = btn.dataset.filterAxis;
+            const key = btn.dataset.filterKey;
+            let active = false;
+            if (axis === "entity") active = key === currentEntityFilter;
+            if (axis === "type") active = key === currentTypeFilter;
+            if (axis === "stay_type") active = key === currentStayTypeFilter;
+            if (axis === "region") active = key === currentRegionFilter;
+            btn.classList.toggle("active", active);
         });
     }
 
     function applyFilters() {
-        currentFilteredData = computeFilteredData();
+        currentFilteredSchools = computeFilteredSchools();
+        currentFilteredStays = computeFilteredStays();
+        toggleFilterRows();
         syncActiveButtons();
-        filterVisibleCards(currentFilteredData);
+        filterVisibleCards(currentFilteredSchools);
 
         document.dispatchEvent(new CustomEvent("jpcampus:filter", {
             detail: {
+                entity: currentEntityFilter,
                 type: currentTypeFilter,
+                stay_type: currentStayTypeFilter,
                 region: currentRegionFilter,
-                schools: currentFilteredData.slice(),
+                schools: currentFilteredSchools.slice(),
+                stays: currentFilteredStays.slice(),
             },
         }));
     }
@@ -149,6 +216,9 @@
     function bootstrap() {
         if (typeof SCHOOLS_DATA !== "undefined") {
             allSchoolData = sortByPublishedDesc(SCHOOLS_DATA.schools || []);
+        }
+        if (typeof STAYS_DATA !== "undefined") {
+            allStayData = sortByPublishedDesc(STAYS_DATA.stays || []);
         }
         updateFilterCounts();
         applyFilters();
@@ -161,7 +231,9 @@
 
         const axis = btn.dataset.filterAxis;
         const key = btn.dataset.filterKey || "all";
+        if (axis === "entity") currentEntityFilter = key;
         if (axis === "type") currentTypeFilter = key;
+        if (axis === "stay_type") currentStayTypeFilter = key;
         if (axis === "region") currentRegionFilter = key;
 
         updateFilterCounts();
@@ -170,8 +242,12 @@
 
     window.JPCampusFilters = {
         applyFilters,
-        getCurrentFilteredData: () => currentFilteredData.slice(),
+        getCurrentFilteredSchools: () => currentFilteredSchools.slice(),
+        getCurrentFilteredStays: () => currentFilteredStays.slice(),
+        getCurrentFilteredData: () => currentFilteredSchools.slice(),
         getAllSchoolData: () => allSchoolData.slice(),
+        getAllStayData: () => allStayData.slice(),
+        getEntityFilter: () => currentEntityFilter,
         getTypeFilter: () => currentTypeFilter,
         getRegionFilter: () => currentRegionFilter,
         refresh: bootstrap,

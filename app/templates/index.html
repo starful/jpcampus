@@ -2,7 +2,24 @@
 
 {% block map_filters %}
 <div class="top-filter-bar" aria-label="Map filters">
-    <div class="filter-row filter-row-type">
+    <div class="filter-row filter-row-entity">
+        <div class="theme-filter-buttons">
+            {% for f in entity_filters %}
+            <button type="button"
+                class="theme-button theme-button-entity{% if loop.first %} active{% endif %}"
+                data-filter-axis="entity"
+                data-filter-key="{{ f.key }}"
+                data-track="quick_filter"
+                data-track-label="entity-{{ f.key }}"
+                title="{{ f.label }}">
+                <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
+                <span class="filter-label">{{ f.label }}</span>
+                <span class="count-badge" id="count-entity-{{ f.key }}">0</span>
+            </button>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="filter-row filter-row-type" id="filter-row-school-type">
         <div class="theme-filter-buttons">
             {% for f in type_filters %}
             <button type="button"
@@ -15,6 +32,23 @@
                 <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
                 <span class="filter-label">{{ f.label }}</span>
                 <span class="count-badge" id="count-type-{{ f.key }}">0</span>
+            </button>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="filter-row filter-row-type filter-row-stay-type is-hidden" id="filter-row-stay-type" aria-hidden="true"{% if not show_stays_ui %} style="display:none"{% endif %}>
+        <div class="theme-filter-buttons">
+            {% for f in stay_type_filters %}
+            <button type="button"
+                class="theme-button{% if loop.first %} active{% endif %}"
+                data-filter-axis="stay_type"
+                data-filter-key="{{ f.key }}"
+                data-track="quick_filter"
+                data-track-label="stay-{{ f.key }}"
+                title="{{ f.label }}">
+                <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
+                <span class="filter-label">{{ f.label }}</span>
+                <span class="count-badge" id="count-stay_type-{{ f.key }}">0</span>
             </button>
             {% endfor %}
         </div>
@@ -45,7 +79,7 @@
     <div id="map"></div>
 </section>
 
-<div class="content-wrapper">
+<div class="content-wrapper home-sections">
 
     <div class="quick-actions" aria-label="Quick actions">
         <a href="/schools?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="schools">
@@ -55,6 +89,10 @@
         <a href="/universities?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="universities">
             <i class="fa-solid fa-building-columns"></i>
             <span>{{ ui.find_universities }}</span>
+        </a>
+        <a href="/guide/tokyo-student-housing-operators?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="housing-operators">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>{{ ui.housing_operators_cta }}</span>
         </a>
         <a href="/guide?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="guides">
             <i class="fa-solid fa-book-open"></i>
@@ -67,11 +105,11 @@
             <i class="fa-solid fa-star"></i> {{ ui.featured_title }}
         </h2>
     </div>
-    <div class="card-grid" style="margin-bottom: 80px;">
+    <div class="card-grid" style="margin-bottom: 60px;">
         {% for guide in featured_guides %}
         <a href="{{ guide.link }}" class="card{% if guide.is_new %} is-new-content{% endif %}" style="border: 2px solid var(--accent);">
             <div class="card-img" style="height: 200px;">
-                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
                 <span class="card-badge" style="background: var(--accent); color: white;">{{ ui.best_selection }}</span>
                 {% if guide.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
@@ -91,11 +129,11 @@
         <h2 class="section-title">{{ ui.language_schools }}</h2>
         <a href="/schools?lang={{ current_lang }}" class="view-all">{{ ui.view_all_schools }}</a>
     </div>
-    <div class="card-grid">
+    <div class="card-grid" style="margin-bottom: 60px;">
         {% for item in latest_schools %}
         <a href="{{ item.link }}" class="card school-card{% if item.is_new %} is-new-content{% endif %}" data-school-id="{{ item.id }}" data-track="school_card" data-track-label="{{ item.id }}">
             <div class="card-img">
-                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
                 <span class="card-badge" style="color: var(--primary);">{{ ui.school_badge }}</span>
                 {% if item.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
@@ -128,15 +166,15 @@
         {% endfor %}
     </div>
 
-    <div class="section-header" style="margin-top: 80px;">
+    <div class="section-header">
         <h2 class="section-title">{{ ui.top_universities }}</h2>
         <a href="/universities?lang={{ current_lang }}" class="view-all">{{ ui.view_all_univs }}</a>
     </div>
-    <div class="card-grid">
+    <div class="card-grid" style="margin-bottom: 60px;">
         {% for item in latest_universities %}
         <a href="{{ item.link }}" class="card university-card{% if item.is_new %} is-new-content{% endif %}" data-school-id="{{ item.id }}" data-track="university_card" data-track-label="{{ item.id }}">
             <div class="card-img">
-                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
                 <span class="card-badge" style="color: var(--accent);">{{ ui.univ_badge }}</span>
                 {% if item.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
@@ -157,7 +195,36 @@
         {% endfor %}
     </div>
 
-    <div class="section-header" style="margin-top: 80px;">
+    {% if show_stays_ui and latest_stays %}
+    <div class="section-header" id="stays-section">
+        <h2 class="section-title" style="color: #0d9488; display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-house-chimney"></i> {{ ui.stays_section_title }}
+            <span class="count-badge" style="background:#ccfbf1;color:#0f766e;">{{ total_stays }}</span>
+        </h2>
+        <a href="/?lang={{ current_lang }}#stays-section" class="view-all">{{ ui.view_all_stays }}</a>
+    </div>
+    <div class="card-grid" style="margin-bottom: 60px;">
+        {% for item in latest_stays %}
+        <a href="{{ item.link }}" class="card stay-card{% if item.is_new %} is-new-content{% endif %}" data-stay-id="{{ item.id }}" data-stay-type="{{ item.stay_type }}" data-track="stay_card" data-track-label="{{ item.id }}">
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en }}" loading="lazy" decoding="async" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
+                <span class="card-badge" style="background:#0d9488;color:white;">{{ ui.stay_badge }}</span>
+            </div>
+            <div class="card-body">
+                <h4 style="font-size: 1.05rem; margin-bottom: 6px;">{{ item.basic_info.name_en }}</h4>
+                <p style="font-size: 0.85rem; color: var(--text-gray);">
+                    {% if item.stay_type == 'guesthouse' %}{{ ui.stay_type_guesthouse }}
+                    {% elif item.stay_type == 'share_house' %}{{ ui.stay_type_share_house }}
+                    {% else %}{{ ui.stay_type_monthly_mansion }}{% endif %}
+                    · ¥{{ "{:,}".format(item.rent.min) }}{{ ui.per_month }}
+                </p>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="section-header">
         <h2 class="section-title">{{ ui.essential_guides }}</h2>
         <a href="/guide?lang={{ current_lang }}" class="view-all">{{ ui.view_all }}</a>
     </div>
@@ -165,7 +232,7 @@
         {% for guide in latest_guides %}
         <a href="{{ guide.link }}" class="card{% if guide.is_new %} is-new-content{% endif %}">
             <div class="card-img" style="height: 180px;">
-                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
                 {% if guide.is_new %}<span class="badge-new">New</span>{% endif %}
             </div>
             <div class="card-body">
@@ -184,8 +251,9 @@
 {% block scripts %}
 <script>
     const SCHOOLS_DATA = {{ schools_json | safe }};
+    const STAYS_DATA = {{ stays_json | safe }};
 </script>
-<script src="/static/js/filters.js?v=6"></script>
-<script src="/static/js/map.js?v=11"></script>
+<script src="/static/js/filters.js?v=8"></script>
+<script src="/static/js/map.js?v=12"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
 {% endblock %}

@@ -188,13 +188,44 @@ def load_school_data(lang="en"):
     file_path = os.path.join(STATIC_DIR, "json", filename)
     if not os.path.exists(file_path):
         file_path = os.path.join(STATIC_DIR, "json", "schools_data.json")
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            return data.get('schools',[]), data.get('last_updated', '')
-    except Exception as e:
-        print(f"Error loading data: {e}")
-        return [], ""
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("schools", []), data.get("last_updated")
+
+
+def load_stay_data(lang="en"):
+    filename = "stays_data_kr.json" if lang == "kr" else "stays_data.json"
+    file_path = os.path.join(STATIC_DIR, "json", filename)
+    if not os.path.exists(file_path):
+        return [], None
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("stays", []), data.get("last_updated")
+
+
+def get_entity_filters(lang="en", *, include_stays: bool | None = None):
+    from app.config import SHOW_STAYS_UI
+
+    ui = get_ui_text(lang)
+    show_stays = SHOW_STAYS_UI if include_stays is None else include_stays
+    filters = [
+        {"key": "all", "icon": "🗺️", "label": ui["filter_entity_all"]},
+        {"key": "schools", "icon": "🏫", "label": ui["filter_entity_schools"]},
+    ]
+    if show_stays:
+        filters.append({"key": "stays", "icon": "🏠", "label": ui["filter_entity_stays"]})
+    return filters
+
+
+def get_stay_type_filters(lang="en"):
+    ui = get_ui_text(lang)
+    return [
+        {"key": "all", "icon": "📍", "label": ui["filter_all"]},
+        {"key": "guesthouse", "icon": "🛏️", "label": ui["filter_guesthouse"]},
+        {"key": "share_house", "icon": "👥", "label": ui["filter_share_house"]},
+        {"key": "monthly_mansion", "icon": "🏢", "label": ui["filter_monthly_mansion"]},
+    ]
+
 
 def load_guides(lang="en"):
     guides =[]

@@ -13,6 +13,22 @@ from common import BASE_DIR, CONTENT_DIR  # noqa: E402
 from md_dates import ensure_post_date, save_post  # noqa: E402
 
 OUTPUT_DIR = os.path.join(BASE_DIR, 'app', 'static', 'json')
+GCS_IMAGE_BASE = os.environ.get(
+    "GCS_IMAGE_BASE",
+    "https://storage.googleapis.com/ok-project-assets/jpcampus",
+)
+STAY_THUMB_FALLBACK = "/static/img/logo.png"
+
+
+def resolve_stay_thumbnail(meta: dict, md_stem: str) -> str:
+    raw = str(meta.get("thumbnail") or "").strip()
+    if raw.startswith("http") and "unsplash.com" not in raw:
+        return raw
+    if raw.startswith("/static/images/") or raw.startswith("/static/img/"):
+        return f"{GCS_IMAGE_BASE}/{os.path.basename(raw)}"
+    if md_stem:
+        return f"{GCS_IMAGE_BASE}/{md_stem}.jpg"
+    return STAY_THUMB_FALLBACK
 
 def build_json(lang_suffix, output_filename):
     print(f"🔨 Building {output_filename} ...")
@@ -93,15 +109,91 @@ def build_json(lang_suffix, output_filename):
     if backfilled:
         print(f"📅 date 백필: {backfilled}개 MD")
 
+def build_stays_json(lang_suffix, output_filename):
+    print(f"🔨 Building {output_filename} ...")
+    stays_list = []
+
+    if not os.path.exists(CONTENT_DIR):
+        print("❌ content directory not found")
+        return
+
+    for filename in sorted(os.listdir(CONTENT_DIR)):
+        if not filename.startswith("stay_"):
+            continue
+        is_kr_file = filename.endswith("_kr.md")
+        if lang_suffix == "kr" and not is_kr_file:
+            continue
+        if lang_suffix == "en" and is_kr_file:
+            continue
+
+        filepath = os.path.join(CONTENT_DIR, filename)
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                post = frontmatter.load(f)
+                meta = post.metadata
+
+            stay_id = str(meta.get("id") or "").replace("_kr", "")
+            md_stem = stay_id
+            if stay_id.startswith("stay_"):
+                stay_id = stay_id[5:]
+            else:
+                md_stem = f"stay_{stay_id}"
+            location = meta.get("location") or {}
+            rent = meta.get("rent") or {}
+            basic = meta.get("basic_info") or {}
+
+            stays_list.append({
+                "id": stay_id,
+                "entity": "stay",
+                "category": "stay",
+                "stay_type": meta.get("stay_type", "guesthouse"),
+                "published": meta.get("date") or meta.get("published"),
+                "basic_info": {
+                    "name_en": basic.get("name_en"),
+                    "name_ja": basic.get("name_ja"),
+                    "name_display": meta.get("title") or basic.get("name_en"),
+                    "address": basic.get("address"),
+                    "operator": basic.get("operator"),
+                },
+                "location": location,
+                "rent": rent,
+                "foreigner_ok": meta.get("foreigner_ok", True),
+                "furnished": meta.get("furnished", True),
+                "no_guarantor": meta.get("no_guarantor", True),
+                "booking_url": meta.get("booking_url", ""),
+                "thumbnail": resolve_stay_thumbnail(meta, md_stem),
+                "link": f"/stay/{stay_id}?lang={lang_suffix}",
+            })
+        except Exception as e:
+            print(f"⚠️ Stay error ({filename}): {e}")
+
+    stays_list.sort(key=lambda x: (x.get("published", ""), x.get("id", "")), reverse=True)
+    output_path = os.path.join(OUTPUT_DIR, output_filename)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "last_updated": datetime.now().strftime("%Y-%m-%d"),
+                "stays": stays_list,
+            },
+            f,
+            ensure_ascii=False,
+        )
+    print(f"✅ Saved {len(stays_list)} stays to {output_filename}")
+
+
 def main():
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
-        
+
     # 영어 데이터 빌드 (기본)
-    build_json('en', 'schools_data.json')
-    
+    build_json("en", "schools_data.json")
+
     # 한국어 데이터 빌드
-    build_json('kr', 'schools_data_kr.json')
+    build_json("kr", "schools_data_kr.json")
+
+    build_stays_json("en", "stays_data.json")
+    build_stays_json("kr", "stays_data_kr.json")
+
 
 if __name__ == "__main__":
     main()

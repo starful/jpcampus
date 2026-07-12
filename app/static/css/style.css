@@ -309,7 +309,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .view-all { color: var(--primary); font-weight: 700; font-size: 0.9rem; }
 .quick-actions {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 12px;
     margin-bottom: 18px;
 }
@@ -578,6 +578,20 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .map-marker.marker-univ::after { border-top-color: var(--accent); }
 .map-marker.marker-school { background-color: var(--primary); }
 .map-marker.marker-school::after { border-top-color: var(--primary); }
+.map-marker.marker-stay { background-color: #0d9488; }
+.map-marker.marker-stay::after { border-top-color: #0d9488; }
+.map-marker.marker-stay-share_house { background-color: #0891b2; }
+.map-marker.marker-stay-share_house::after { border-top-color: #0891b2; }
+.map-marker.marker-stay-monthly_mansion { background-color: #7c3aed; }
+.map-marker.marker-stay-monthly_mansion::after { border-top-color: #7c3aed; }
+
+.filter-row.is-hidden { display: none !important; }
+.filter-row-entity .theme-button-entity.active {
+    background: #ecfdf5;
+    border-color: #0d9488;
+    color: #0f766e;
+}
+.iw-rent { font-weight: 700; color: #0d9488; margin: 4px 0 0; font-size: 0.9rem; }
 
 .map-marker:hover {
     transform: scale(1.1) translateY(-4px); 

@@ -8,12 +8,12 @@ from xml.sax.saxutils import escape as xml_escape
 from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, PlainTextResponse, Response
 
-from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY
-from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content
+from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY, SHOW_STAYS_UI
+from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content, load_stay_content
 from app.content_badges import enrich_items
 from app.deps import templates
 from app.family_sites import cross_links_for, inject_family_context
-from app.related import pick_compare_guides, pick_related_guides, pick_related_schools
+from app.related import pick_compare_guides, pick_nearby_stays, pick_related_guides, pick_related_schools
 from app.seo import (
     apply_guide_serp_overrides,
     build_canonical_url,
@@ -30,11 +30,14 @@ from app.utils import (
     build_compare_export,
     calculate_tag_counts,
     compare_fee_value,
+    get_entity_filters,
     get_region_filters,
+    get_stay_type_filters,
     get_type_filters,
     get_ui_text,
     load_guides,
     load_school_data,
+    load_stay_data,
     prepare_compare_items,
     resolve_guide_thumbnail,
 )
@@ -131,6 +134,18 @@ async def sitemap():
             "0.7",
         )
 
+    stays_en, _ = load_stay_data("en")
+    for stay in stays_en:
+        stay_id = stay.get("id")
+        if not stay_id:
+            continue
+        add_entry(
+            f"/stay/{stay_id}",
+            content_lastmod(f"stay_{stay_id}.md", f"stay_{stay_id}_kr.md"),
+            "weekly",
+            "0.75",
+        )
+
     unique_entries = {(e["loc"], e["lastmod"], e["changefreq"], e["priority"]): e for e in entries}
     xml_items = []
     for entry in sorted(unique_entries.values(), key=lambda x: x["loc"]):
@@ -163,6 +178,7 @@ async def robots():
 @router.get("/", response_class=HTMLResponse)
 async def read_root(request: Request, lang: str = Query("en")):
     schools_data, updated_at = load_school_data(lang)
+    stays_data, stays_updated = load_stay_data(lang) if SHOW_STAYS_UI else ([], None)
     all_guides = load_guides(lang)
     ui = get_ui_text(lang)
 
@@ -176,6 +192,7 @@ async def read_root(request: Request, lang: str = Query("en")):
 
     latest_schools = enrich_items(assign_thumbnails([s for s in schools_data if s.get('category') != 'university'][:6], "school"))
     latest_universities = enrich_items(assign_thumbnails([s for s in schools_data if s.get('category') == 'university'][:6], "university"))
+    latest_stays = enrich_items(stays_data[:6]) if SHOW_STAYS_UI else []
     tags_with_counts = calculate_tag_counts(schools_data)
 
     university_list = []
@@ -189,18 +206,25 @@ async def read_root(request: Request, lang: str = Query("en")):
 
     return templates.TemplateResponse(request, "index.html", {
         "schools_json": json.dumps({"schools": schools_data}, ensure_ascii=False),
+        "stays_json": json.dumps({"stays": stays_data}, ensure_ascii=False),
         "maps_api_key": GOOGLE_MAPS_API_KEY,
         "updated_at": updated_at,
+        "stays_updated": stays_updated,
         "total_schools": len(schools_data),
+        "total_stays": len(stays_data),
+        "show_stays_ui": SHOW_STAYS_UI,
         "featured_guides": featured_guides,
         "latest_schools": latest_schools,
         "latest_universities": latest_universities,
+        "latest_stays": latest_stays,
         "latest_guides": enrich_items([g for g in all_guides if g["link"] not in featured_links][:6]),
         "tags_with_counts": tags_with_counts,
         "university_list_json": university_list,
         "current_lang": lang,
         "ui": ui,
         "type_filters": get_type_filters(lang),
+        "entity_filters": get_entity_filters(lang),
+        "stay_type_filters": get_stay_type_filters(lang) if SHOW_STAYS_UI else [],
         "region_filters": get_region_filters(lang),
         "canonical_url": build_canonical_url("/", lang),
         "hreflang_urls": build_hreflang_urls("/"),
@@ -250,10 +274,52 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "hreflang_urls": build_hreflang_urls(f"/school/{school_id}"),
         "updated_at": default_updated_at(),
         "related_guides": pick_related_guides(item, item_type, lang),
+        "nearby_stays": pick_nearby_stays(item, lang) if SHOW_STAYS_UI and item_type != "guide" else [],
+        "show_stays_ui": SHOW_STAYS_UI,
         "meta_title": build_meta_title(share_title, lang),
         "meta_description": build_meta_description(
             item.get("description", ""),
             "Compare school details, tuition clues, and student-ready preparation tips."
+        ),
+        "faq_json_ld": None,
+        "cross_site_links": _detail_cross_links(lang, item),
+        **inject_family_context(FAMILY_SITE_ID, lang),
+        **ctx,
+    })
+
+
+@router.get("/stay/{stay_id}", response_class=HTMLResponse)
+async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en")):
+    try:
+        item, item_type, content_html = load_stay_content(stay_id, lang)
+    except ContentNotFoundError:
+        raise HTTPException(status_code=404, detail="Stay content file not found")
+
+    basic = item.get("basic_info") or {}
+    share_title = item.get("title") or basic.get("name_en") or "Student Housing"
+    ctx = share_context(DOMAIN, "stay", stay_id, share_title, lang)
+
+    stay_type = item.get("stay_type", "guesthouse")
+    ui = get_ui_text(lang)
+    stay_type_label = ui.get(f"stay_type_{stay_type}", stay_type)
+
+    return templates.TemplateResponse(request, "detail.html", {
+        "item": item,
+        "item_type": item_type,
+        "stay_type_label": stay_type_label,
+        "content_body": content_html,
+        "current_lang": lang,
+        "ui": ui,
+        "show_stays_ui": SHOW_STAYS_UI,
+        "nearby_stays": [],
+        "canonical_url": build_canonical_url(f"/stay/{stay_id}", lang),
+        "hreflang_urls": build_hreflang_urls(f"/stay/{stay_id}"),
+        "updated_at": default_updated_at(),
+        "related_guides": pick_related_guides(item, "stay", lang),
+        "meta_title": build_meta_title(share_title, lang),
+        "meta_description": build_meta_description(
+            item.get("description", ""),
+            "Foreigner-friendly Tokyo guesthouse or monthly mansion for international students.",
         ),
         "faq_json_ld": None,
         "cross_site_links": _detail_cross_links(lang, item),
@@ -284,6 +350,8 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "updated_at": default_updated_at(),
         "related_schools": pick_related_schools(item, lang),
         "related_guides": pick_related_guides(item, "guide", lang),
+        "nearby_stays": [],
+        "show_stays_ui": SHOW_STAYS_UI,
         "meta_title": build_meta_title(title_raw or item.get("title", "Study in Japan Guide"), lang),
         "meta_description": build_meta_description(
             desc_raw,

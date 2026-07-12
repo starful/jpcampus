@@ -36,9 +36,9 @@
 <main class="detail-container" style="margin-top: 40px;">
 
     <div class="detail-top-bar">
-        <a href="{{ '/guide' if item_type == 'guide' else ('/universities' if item_type == 'university' else '/schools') }}?lang={{ current_lang }}" class="back-to-list-btn">
+        <a href="{% if item_type == 'guide' %}/guide{% elif item_type == 'stay' %}{% if show_stays_ui %}/{% else %}/guide/tokyo-student-housing-operators{% endif %}{% else %}{{ '/universities' if item_type == 'university' else '/schools' }}{% endif %}?lang={{ current_lang }}{% if item_type == 'stay' and show_stays_ui %}#stays-section{% endif %}" class="back-to-list-btn">
             <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
-            <span>{{ ui.back_to_list }}</span>
+            <span>{% if item_type == 'stay' %}{% if show_stays_ui %}{{ ui.back_to_stays }}{% else %}{{ ui.housing_operators_cta }}{% endif %}{% else %}{{ ui.back_to_list }}{% endif %}</span>
         </a>
         {% include 'partials/lang_selector.html' %}
     </div>
@@ -47,6 +47,19 @@
         {% if item_type == 'guide' %}
             <span class="detail-category">{{ item.get('category', 'Guide') }}</span>
             <h1 class="detail-title">{{ item.get('title', 'Guide Detail') }}</h1>
+        {% elif item_type == 'stay' %}
+            <span class="detail-category" style="background:#ccfbf1;color:#0f766e;">{{ stay_type_label }}</span>
+            <h1 class="detail-title">{{ item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ja') }}</h1>
+            <p style="color: var(--text-gray); display: flex; align-items: center; gap: 8px;">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                {{ item.get('basic_info', {}).get('address', 'Address not available') }}
+            </p>
+            {% if item.get('booking_url') %}
+            <a href="{{ item.booking_url }}" class="detail-cta-btn" style="display:inline-flex;margin-top:12px;" target="_blank" rel="noopener noreferrer nofollow sponsored" data-track="stay_booking" data-track-label="{{ item.id }}">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>{{ ui.book_stay }}</span>
+            </a>
+            {% endif %}
         {% else %}
             <span class="detail-category">{{ 'University' if item_type == 'university' else 'Language School' }}</span>
             <h1 class="detail-title">{{ item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ja') }}</h1>
@@ -72,10 +85,41 @@
             decoding="async"
         >
     </figure>
+    {% elif item_type == 'stay' and item.get('thumbnail') %}
+    <figure class="detail-guide-hero">
+        <img
+            src="{{ item.get('thumbnail') }}"
+            alt="{{ item.get('basic_info', {}).get('name_en', 'Housing') }}"
+            loading="eager"
+            decoding="async"
+            onerror="this.onerror=null;this.src='/static/img/logo.png'"
+        >
+    </figure>
     {% endif %}
 
-    {# 학교/대학 정보 그리드 #}
-    {% if item_type != 'guide' %}
+    {# 학교/대학/숙소 정보 그리드 #}
+    {% if item_type == 'stay' %}
+    <div class="info-grid">
+        <div class="info-item">
+            <div class="info-label">Operator</div>
+            <div class="info-value">{{ item.get('basic_info', {}).get('operator') or 'N/A' }}</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Monthly Rent</div>
+            <div class="info-value">
+                {% if item.get('rent') %}
+                    ¥{{ "{:,}".format(item.rent.min) }} – ¥{{ "{:,}".format(item.rent.max) }}
+                {% else %}
+                    TBD
+                {% endif %}
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Foreigner OK</div>
+            <div class="info-value">{{ 'Yes' if item.get('foreigner_ok') else 'Check' }}</div>
+        </div>
+    </div>
+    {% elif item_type != 'guide' %}
     <div class="info-grid">
         <div class="info-item">
             <div class="info-label">Capacity</div>
@@ -130,6 +174,28 @@
             </button>
         </div>
     </section>
+
+    {% if nearby_stays %}
+    <div class="section-header" style="margin-top: 48px;">
+        <h2 class="section-title">{{ ui.nearby_stays_title }}</h2>
+    </div>
+    <div class="card-grid">
+        {% for stay in nearby_stays %}
+        <a href="{{ stay.link }}" class="card stay-card" data-track="nearby_stay" data-track-label="{{ stay.id }}">
+            <div class="card-img">
+                <img src="{{ stay.thumbnail }}" alt="{{ stay.basic_info.name_en }}" loading="lazy" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
+                <span class="card-badge" style="background:#0d9488;color:white;">{{ ui.stay_badge }}</span>
+            </div>
+            <div class="card-body">
+                <h4>{{ stay.basic_info.name_en }}</h4>
+                <div class="card-meta">
+                    <span>{{ stay.distance_km }} km · ¥{{ "{:,}".format(stay.rent.min) }}{{ ui.per_month }}</span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
 
     {% if related_schools %}
     <div class="section-header" style="margin-top: 56px;">
