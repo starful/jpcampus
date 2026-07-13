@@ -97,6 +97,10 @@
     </figure>
     {% endif %}
 
+    {% if item_type == 'guide' %}
+    {% include 'partials/affiliate_box.html' %}
+    {% endif %}
+
     {# 학교/대학/숙소 정보 그리드 #}
     {% if item_type == 'stay' %}
     <div class="info-grid">

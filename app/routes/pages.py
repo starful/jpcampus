@@ -9,6 +9,7 @@ from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, PlainTextResponse, Response
 
 from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY, SHOW_STAYS_UI
+from app.affiliate import affiliate_context
 from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content, load_stay_content
 from app.content_badges import enrich_items
 from app.deps import templates
@@ -360,6 +361,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "faq_json_ld": guide_faq_json_ld(slug, lang),
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
+        **affiliate_context(slug, lang=lang),
         **ctx,
     })
 
