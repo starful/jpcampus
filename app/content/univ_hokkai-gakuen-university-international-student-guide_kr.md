@@ -23,8 +23,8 @@ id: univ_hokkai-gakuen-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 43.046236
+  lng: 141.368116
 stats:
   acceptance_rate: 유학생 합격률 약 45-55% 추정
   international_students: 42

@@ -19,8 +19,8 @@ features:
 id: univ_kanazawa-seiryo-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.58345
+  lng: 136.682582
 stats:
   acceptance_rate: 55%
   international_students: 42

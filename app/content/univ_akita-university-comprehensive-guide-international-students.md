@@ -19,8 +19,8 @@ features:
 id: univ_akita-university-comprehensive-guide-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 39.726264
+  lng: 140.132574
 stats:
   acceptance_rate: Estimated 25% to 35% depending on faculty
   international_students: 240

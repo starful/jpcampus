@@ -17,8 +17,8 @@ features:
 id: univ_st-catherine-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.975206
+  lng: 132.78187
 stats:
   acceptance_rate: 80% (Estimated)
   international_students: 45

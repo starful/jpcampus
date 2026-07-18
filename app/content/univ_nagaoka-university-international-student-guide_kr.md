@@ -19,8 +19,8 @@ id: univ_nagaoka-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.431003
+  lng: 138.878726
 stats:
   acceptance_rate: 75%
   international_students: 115

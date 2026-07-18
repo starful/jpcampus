@@ -20,8 +20,8 @@ id: univ_sanno-university-comprehensive-guide-for-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.41564
+  lng: 139.287535
 stats:
   acceptance_rate: Estimated 35% - 45%
   international_students: 245

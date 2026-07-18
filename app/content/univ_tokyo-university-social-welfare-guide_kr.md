@@ -23,8 +23,8 @@ id: univ_tokyo-university-social-welfare-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.727869
+  lng: 139.718312
 stats:
   acceptance_rate: 45% (추정)
   international_students: 1200

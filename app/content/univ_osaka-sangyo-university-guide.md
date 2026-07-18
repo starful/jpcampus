@@ -21,8 +21,8 @@ features:
 id: univ_osaka-sangyo-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.70782
+  lng: 135.64192
 stats:
   acceptance_rate: 45-65% (Varies by department)
   international_students: 750

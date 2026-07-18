@@ -23,8 +23,8 @@ id: univ_surugadai-university-guide-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.832034
+  lng: 139.334114
 stats:
   acceptance_rate: 55%
   international_students: 284

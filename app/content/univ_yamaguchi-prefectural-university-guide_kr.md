@@ -21,8 +21,8 @@ id: univ_yamaguchi-prefectural-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.193945
+  lng: 131.498782
 stats:
   acceptance_rate: 35-45%
   international_students: 54

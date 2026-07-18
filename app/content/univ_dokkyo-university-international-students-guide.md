@@ -19,8 +19,8 @@ features:
 id: univ_dokkyo-university-international-students-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.839693
+  lng: 139.794877
 stats:
   acceptance_rate: 35-45% (Estimated)
   international_students: 185

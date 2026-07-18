@@ -26,8 +26,8 @@ id: univ_chubu-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.274265
+  lng: 137.013278
 stats:
   acceptance_rate: 40-50%
   international_students: 280

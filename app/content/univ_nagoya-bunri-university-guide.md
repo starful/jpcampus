@@ -18,8 +18,8 @@ features:
 id: univ_nagoya-bunri-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.24808
+  lng: 136.791224
 stats:
   acceptance_rate: 65-75% (Estimated)
   international_students: 145

@@ -20,8 +20,8 @@ features:
 id: univ_gakushuin-womens-college-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.706255
+  lng: 139.713121
 stats:
   acceptance_rate: 35-45%
   international_students: 75

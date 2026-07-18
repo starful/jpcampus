@@ -21,8 +21,8 @@ features:
 id: univ_shitennoji-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.546053
+  lng: 135.586215
 stats:
   acceptance_rate: 55-65%
   international_students: 65

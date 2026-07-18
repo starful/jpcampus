@@ -18,8 +18,8 @@ features:
 id: univ_kiryu-university-guide-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.378324
+  lng: 139.295964
 stats:
   acceptance_rate: 70-80%
   international_students: 45

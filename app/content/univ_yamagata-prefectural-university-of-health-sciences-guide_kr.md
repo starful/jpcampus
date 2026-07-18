@@ -24,8 +24,8 @@ id: univ_yamagata-prefectural-university-of-health-sciences-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 38.296144
+  lng: 140.346078
 stats:
   acceptance_rate: 15-20%
   international_students: 5

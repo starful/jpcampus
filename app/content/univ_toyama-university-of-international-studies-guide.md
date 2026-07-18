@@ -18,8 +18,8 @@ features:
 id: univ_toyama-university-of-international-studies-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.600181
+  lng: 137.274821
 stats:
   acceptance_rate: Estimated 45-55%
   international_students: 245

@@ -17,8 +17,8 @@ features:
 id: univ_jobu-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.279835
+  lng: 139.115711
 stats:
   acceptance_rate: 75-85% (Estimated for International Applicants)
   international_students: 185

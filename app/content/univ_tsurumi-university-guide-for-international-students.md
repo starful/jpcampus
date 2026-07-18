@@ -19,8 +19,8 @@ features:
 id: univ_tsurumi-university-guide-for-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.505997
+  lng: 139.673572
 stats:
   acceptance_rate: 55%
   international_students: 52

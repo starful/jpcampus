@@ -21,8 +21,8 @@ id: univ_yamanashi-prefectural-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.671405
+  lng: 138.546037
 stats:
   acceptance_rate: 25-35% (Estimated for International Tracks)
   international_students: 42

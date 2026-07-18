@@ -22,8 +22,8 @@ id: univ_sakushin-gakuin-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.543797
+  lng: 139.977785
 stats:
   acceptance_rate: 65-75%
   international_students: 68

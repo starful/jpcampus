@@ -19,8 +19,8 @@ features:
 id: univ_suzuka-university-of-medical-science-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.859
+  lng: 136.599154
 stats:
   acceptance_rate: 55-60%
   international_students: 32

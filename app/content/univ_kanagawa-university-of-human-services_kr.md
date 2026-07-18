@@ -25,8 +25,8 @@ id: univ_kanagawa-university-of-human-services
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.275182
+  lng: 139.680476
 stats:
   acceptance_rate: 25%
   international_students: 15

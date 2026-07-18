@@ -17,8 +17,8 @@ features:
 id: univ_gunma-prefectural-womens-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.29788
+  lng: 139.112567
 stats:
   acceptance_rate: 35-45% (Estimated)
   international_students: 35

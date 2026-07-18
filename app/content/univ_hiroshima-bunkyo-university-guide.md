@@ -17,8 +17,8 @@ features:
 id: univ_hiroshima-bunkyo-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.51104
+  lng: 132.523338
 stats:
   acceptance_rate: 80%
   international_students: 45

@@ -24,8 +24,8 @@ id: univ_kurume-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.327521
+  lng: 130.512097
 stats:
   acceptance_rate: 35-45% (Varies by Faculty)
   international_students: 185

@@ -21,8 +21,8 @@ id: univ_akita-international-university-aiu-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 39.627428
+  lng: 140.19829
 stats:
   acceptance_rate: 15-25% (Highly Competitive)
   international_students: 200

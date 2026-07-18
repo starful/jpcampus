@@ -20,8 +20,8 @@ features:
 id: univ_himeji-dokkyo-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.872555
+  lng: 134.689728
 stats:
   acceptance_rate: 55%
   international_students: 165

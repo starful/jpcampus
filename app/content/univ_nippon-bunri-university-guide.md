@@ -17,8 +17,8 @@ features:
 id: univ_nippon-bunri-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.232554
+  lng: 131.723517
 stats:
   acceptance_rate: 65-75%
   international_students: 320

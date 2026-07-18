@@ -22,8 +22,8 @@ features:
 id: univ_miyagi-gakuin-womens-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 38.306899
+  lng: 140.853506
 stats:
   acceptance_rate: 55%
   international_students: 35

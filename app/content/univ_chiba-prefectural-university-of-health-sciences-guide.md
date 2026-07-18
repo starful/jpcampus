@@ -20,8 +20,8 @@ features:
 id: univ_chiba-prefectural-university-of-health-sciences-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.64576
+  lng: 140.051112
 stats:
   acceptance_rate: 15-22%
   international_students: 5

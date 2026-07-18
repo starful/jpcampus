@@ -22,8 +22,8 @@ id: univ_osaka-university-of-economics-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.749753
+  lng: 135.543019
 stats:
   acceptance_rate: 35-45%
   international_students: 182

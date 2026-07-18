@@ -18,8 +18,8 @@ features:
 id: univ_university-of-east-asia
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.000334
+  lng: 130.948285
 stats:
   acceptance_rate: 70% - 80% (Highly accessible for qualified international applicants)
   international_students: 520

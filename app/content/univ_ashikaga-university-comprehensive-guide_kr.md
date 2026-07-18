@@ -20,8 +20,8 @@ id: univ_ashikaga-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.353841
+  lng: 139.395572
 stats:
   acceptance_rate: 65%
   international_students: 320

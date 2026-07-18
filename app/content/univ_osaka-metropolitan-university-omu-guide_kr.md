@@ -29,8 +29,8 @@ id: univ_osaka-metropolitan-university-omu-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.591955
+  lng: 135.506101
 stats:
   acceptance_rate: 약 35-40% (전체)
   international_students: 750

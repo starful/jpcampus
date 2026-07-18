@@ -20,8 +20,8 @@ features:
 id: univ_kobe-shinwa-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.727745
+  lng: 135.154855
 stats:
   acceptance_rate: 65-75%
   international_students: 85

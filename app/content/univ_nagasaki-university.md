@@ -25,8 +25,8 @@ id: univ_nagasaki-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 32.7862
+  lng: 129.865345
 stats:
   acceptance_rate: 30%
   international_students: 782

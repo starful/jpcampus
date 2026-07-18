@@ -21,8 +21,8 @@ features:
 id: univ_kurashiki-sakuyo-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.575616
+  lng: 133.677297
 stats:
   acceptance_rate: Estimated 75-85%
   international_students: 65

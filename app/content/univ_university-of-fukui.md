@@ -19,8 +19,8 @@ features:
 id: univ_university-of-fukui
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.07681
+  lng: 136.211926
 stats:
   acceptance_rate: 25-35%
   international_students: 204

@@ -23,8 +23,8 @@ id: univ_kobe-city-university-of-foreign-studies-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.679456
+  lng: 135.060245
 stats:
   acceptance_rate: 25-30% (Estimated for International Applicants)
   international_students: 160

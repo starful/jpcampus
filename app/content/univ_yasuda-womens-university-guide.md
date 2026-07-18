@@ -23,8 +23,8 @@ features:
 id: univ_yasuda-womens-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.478574
+  lng: 132.452775
 stats:
   acceptance_rate: 45-55% (Estimated based on private university trends in Hiroshima)
   international_students: 45

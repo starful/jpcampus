@@ -29,8 +29,8 @@ id: univ_chukyo-university-nagoya
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.141877
+  lng: 136.963772
 stats:
   acceptance_rate: Competitive
   international_students: 450

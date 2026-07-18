@@ -27,8 +27,8 @@ id: univ_komazawa-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.63312
+  lng: 139.661221
 stats:
   acceptance_rate: Competitive (Not officially published)
   international_students: 400

@@ -19,8 +19,8 @@ features:
 id: univ_nagoya-university-of-foreign-studies-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.157879
+  lng: 137.042261
 stats:
   acceptance_rate: 35-45% (Estimated for International Applicants)
   international_students: 285

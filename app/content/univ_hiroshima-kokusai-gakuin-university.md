@@ -17,8 +17,8 @@ features:
 id: univ_hiroshima-kokusai-gakuin-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.425494
+  lng: 132.626965
 stats:
   acceptance_rate: N/A (Operations Ceased)
   international_students: 180

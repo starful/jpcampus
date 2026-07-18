@@ -17,8 +17,8 @@ features:
 id: univ_niigata-university-of-international-and-information-studies
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.816895
+  lng: 138.900844
 stats:
   acceptance_rate: 65%
   international_students: 115

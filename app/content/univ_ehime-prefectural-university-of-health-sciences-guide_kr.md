@@ -21,8 +21,8 @@ id: univ_ehime-prefectural-university-of-health-sciences-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.744698
+  lng: 132.790104
 stats:
   acceptance_rate: 22%
   international_students: 2

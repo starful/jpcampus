@@ -20,8 +20,8 @@ id: univ_nagoya-ryujo-womens-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.1815
+  lng: 136.9066
 stats:
   acceptance_rate: 75-85%
   international_students: 5

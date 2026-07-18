@@ -19,8 +19,8 @@ id: univ_tokyo-university-of-the-arts
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.747229
+  lng: 139.802157
 stats:
   acceptance_rate: 8%
   international_students: 150

@@ -21,8 +21,8 @@ features:
 id: univ_university-of-shizuoka-guide-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.978964
+  lng: 133.607848
 stats:
   acceptance_rate: 15-25% (Varies by faculty)
   international_students: 110

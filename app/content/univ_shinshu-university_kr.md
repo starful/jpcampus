@@ -25,8 +25,8 @@ id: univ_shinshu-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.252433
+  lng: 137.976978
 stats:
   acceptance_rate: 60%
   international_students: 400

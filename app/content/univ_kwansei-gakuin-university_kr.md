@@ -33,8 +33,8 @@ id: univ_kwansei-gakuin-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.768813
+  lng: 135.34691
 stats:
   acceptance_rate: 경쟁률 높음, 학부별 상이
   international_students: 957

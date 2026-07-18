@@ -24,8 +24,8 @@ id: univ_tokyo-university-foreign-studies-tufs-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.674173
+  lng: 139.520434
 seo_description: Discover Tokyo University of Foreign Studies (TUFS). Your guide to
   international admissions, tuition fees, English-taught programs, and campus life.
 seo_title: Tokyo University of Foreign Studies (TUFS) Guide | JP Campus

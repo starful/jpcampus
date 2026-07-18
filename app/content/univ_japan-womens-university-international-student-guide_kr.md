@@ -24,8 +24,8 @@ id: univ_japan-womens-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.716769
+  lng: 139.720579
 stats:
   acceptance_rate: 35-45%
   international_students: 165

@@ -21,8 +21,8 @@ features:
 id: univ_kyoto-prefectural-university-of-medicine-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.0116
+  lng: 135.7681
 seo_description: Your complete 2026 guide to Kyoto Prefectural University of Medicine.
   Get details on admission requirements, tuition, and living costs in Japan.
 seo_title: Kyoto Prefectural University of Medicine 2026 | JP Campus

@@ -25,8 +25,8 @@ features:
 id: univ_yamaguchi-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.148076
+  lng: 131.468678
 stats:
   acceptance_rate: 25-35%
   international_students: 560

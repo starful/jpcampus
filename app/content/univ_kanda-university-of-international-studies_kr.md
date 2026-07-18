@@ -21,8 +21,8 @@ id: univ_kanda-university-of-international-studies
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.658025
+  lng: 140.043405
 stats:
   acceptance_rate: 35-45% (Varies by department and entry track)
   international_students: 165

@@ -22,8 +22,8 @@ features:
 id: univ_hiroshima-shudo-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.433852
+  lng: 132.404086
 stats:
   acceptance_rate: 45-55% (International Category)
   international_students: 158

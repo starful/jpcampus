@@ -19,8 +19,8 @@ features:
 id: univ_wayo-womens-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.742991
+  lng: 139.904291
 stats:
   acceptance_rate: Estimated 45-55%
   international_students: 85

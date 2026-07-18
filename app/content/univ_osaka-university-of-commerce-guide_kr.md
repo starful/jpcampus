@@ -20,8 +20,8 @@ id: univ_osaka-university-of-commerce-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.665999
+  lng: 135.585314
 stats:
   acceptance_rate: 45-55% (Varies by entrance examination type)
   international_students: 210

@@ -25,8 +25,8 @@ id: univ_tezukayama-university-nara-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.685858
+  lng: 135.721476
 stats:
   acceptance_rate: Estimated 45-55%
   international_students: 165

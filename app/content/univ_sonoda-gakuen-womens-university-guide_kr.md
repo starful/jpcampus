@@ -24,8 +24,8 @@ id: univ_sonoda-gakuen-womens-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.7338
+  lng: 135.4064
 stats:
   acceptance_rate: 65-75% (전공별 상이)
   international_students: 45

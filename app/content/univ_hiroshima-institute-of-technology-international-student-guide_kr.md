@@ -21,8 +21,8 @@ id: univ_hiroshima-institute-of-technology-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.373336
+  lng: 132.348201
 stats:
   acceptance_rate: 45% - 55% (일본 사립 공과대학 추세에 따른 추정치)
   international_students: 42

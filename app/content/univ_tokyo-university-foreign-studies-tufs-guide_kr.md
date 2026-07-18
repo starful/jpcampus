@@ -22,8 +22,8 @@ id: univ_tokyo-university-foreign-studies-tufs-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.674173
+  lng: 139.520434
 stats:
   acceptance_rate: 18% - 25% (매우 경쟁적)
   international_students: 650

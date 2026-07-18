@@ -18,8 +18,8 @@ features:
 id: univ_nakamura-gakuen-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.168623
+  lng: 136.88734
 stats:
   acceptance_rate: Approximately 40-50%
   international_students: 54

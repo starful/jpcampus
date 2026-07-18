@@ -6,6 +6,8 @@ basic_info:
   name_ja: 桜美林大学
 category: university
 date: '2026-01-28'
+description: Discover everything you need to know about J.F. Oberlin University, including
+  tuition fees, admission requirements, programs, and student life in Japan.
 faculties:
 - College of Arts and Sciences (Liberal Arts)
 - College of Business Management
@@ -23,8 +25,11 @@ id: univ_j-f-oberlin-university-international-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.584837
+  lng: 139.406999
+seo_description: Explore J.F. Oberlin University's guide for international students.
+  Find tuition fees, admission requirements, and preparation tips to study in Japan.
+seo_title: 'J.F. Oberlin University Guide: Admissions & Tuition | JP Campus'
 stats:
   acceptance_rate: 50-65%
   international_students: 1200
@@ -39,13 +44,7 @@ translated: true
 tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
-description: Discover everything you need to know about J.F. Oberlin University, including
-  tuition fees, admission requirements, programs, and student life in Japan.
-seo_title: 'J.F. Oberlin University Guide: Admissions & Tuition | JP Campus'
-seo_description: Explore J.F. Oberlin University's guide for international students.
-  Find tuition fees, admission requirements, and preparation tips to study in Japan.
 ---
-
 
 ## University Overview
 

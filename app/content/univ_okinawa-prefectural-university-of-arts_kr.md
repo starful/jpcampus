@@ -23,8 +23,8 @@ id: univ_okinawa-prefectural-university-of-arts
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 26.218809
+  lng: 127.72008
 stats:
   acceptance_rate: 22% (경쟁이 치열한 실기 시험)
   international_students: 38

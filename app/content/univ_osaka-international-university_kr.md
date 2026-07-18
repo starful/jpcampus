@@ -25,8 +25,8 @@ id: univ_osaka-international-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.747173
+  lng: 135.603508
 stats:
   acceptance_rate: 65-75% (International Selection)
   international_students: 385

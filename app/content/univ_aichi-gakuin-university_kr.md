@@ -29,8 +29,8 @@ id: univ_aichi-gakuin-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.161709
+  lng: 137.047104
 stats:
   acceptance_rate: 42%
   international_students: 185

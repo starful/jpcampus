@@ -25,8 +25,8 @@ id: univ_tokyo-university-social-welfare-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.727869
+  lng: 139.718312
 seo_description: Planning to study at Tokyo University of Social Welfare? Check 2026
   tuition, entry requirements & application tips for international students.
 seo_title: 'Tokyo University of Social Welfare: 2026 Guide | jpcampus'

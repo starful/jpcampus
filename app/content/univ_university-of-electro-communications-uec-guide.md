@@ -23,8 +23,8 @@ id: univ_university-of-electro-communications-uec-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.657267
+  lng: 139.542563
 stats:
   acceptance_rate: Highly Competitive (Est. 25%)
   international_students: 650

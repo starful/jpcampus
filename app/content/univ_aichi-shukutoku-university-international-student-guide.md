@@ -24,8 +24,8 @@ features:
 id: univ_aichi-shukutoku-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.157995
+  lng: 137.032159
 stats:
   acceptance_rate: 35-45%
   international_students: 185

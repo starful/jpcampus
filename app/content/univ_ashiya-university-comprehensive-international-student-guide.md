@@ -19,8 +19,8 @@ features:
 id: univ_ashiya-university-comprehensive-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.756408
+  lng: 135.307854
 stats:
   acceptance_rate: 75-80%
   international_students: 95

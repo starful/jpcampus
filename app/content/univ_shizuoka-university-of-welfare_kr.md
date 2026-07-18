@@ -20,8 +20,8 @@ id: univ_shizuoka-university-of-welfare
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.283617
+  lng: 135.128063
 stats:
   acceptance_rate: 65%
   international_students: 45

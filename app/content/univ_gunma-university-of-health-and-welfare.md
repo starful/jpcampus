@@ -18,8 +18,8 @@ features:
 id: univ_gunma-university-of-health-and-welfare
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.252688
+  lng: 139.079664
 stats:
   acceptance_rate: 72%
   international_students: 22

@@ -7,6 +7,8 @@ basic_info:
   name_ja: 日本経済大学
 category: university
 date: '2026-01-28'
+description: An all-in-one guide to the Japan University of Economics (JUE) for international
+  students, covering 2026 tuition, campuses, and admission requirements.
 faculties:
 - Faculty of Economics
 - Faculty of Business Management
@@ -23,8 +25,11 @@ id: univ_japan-university-of-economics-jue-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.505933
+  lng: 130.52593
+seo_description: Explore Japan University of Economics (JUE). Find 2026 tuition, campuses
+  (Tokyo, Fukuoka), and admission guidelines for international students.
+seo_title: 'Japan University of Economics (JUE) 2026: Tuition & Admission Guide'
 stats:
   acceptance_rate: 55-60%
   international_students: 2500
@@ -40,14 +45,7 @@ translated: true
 tuition:
   admission_fee: 280000
   yearly_tuition: 1180000
-description: An all-in-one guide to the Japan University of Economics (JUE) for international
-  students, covering 2026 tuition, campuses, and admission requirements.
-seo_title: 'Japan University of Economics (JUE) 2026: Tuition & Admission Guide'
-seo_description: Explore Japan University of Economics (JUE). Find 2026 tuition, campuses
-  (Tokyo, Fukuoka), and admission guidelines for international students.
 ---
-
-
 
 ## University Overview
 

@@ -26,8 +26,8 @@ id: univ_aichi-university-international-student-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.741808
+  lng: 137.387478
 stats:
   acceptance_rate: 35-40%
   international_students: 550

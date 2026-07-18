@@ -1,0 +1,1916 @@
+{
+  "univ_aichi-gakuin-university": {
+    "lat": 35.161709,
+    "lng": 137.047104,
+    "address": "12 Araike, Iwasaki-cho, Nisshin-shi, Aichi 470-0195, Japan",
+    "name_en": "Aichi Gakuin University"
+  },
+  "univ_aichi-institute-of-technology-international-student-guide": {
+    "lat": 35.183143,
+    "lng": 137.114919,
+    "address": "1247 Yakusa-cho, Toyota, Aichi, 470-0392, Japan",
+    "name_en": "Aichi Institute of Technology"
+  },
+  "univ_aichi-prefectural-university-guide-international-students": {
+    "lat": 35.18135,
+    "lng": 137.087795,
+    "address": "1522-3 Ibaragabasama, Kumabari, Nagakute-shi, Aichi 480-1198, Japan",
+    "name_en": "Aichi Prefectural University"
+  },
+  "univ_aichi-shukutoku-university-international-student-guide": {
+    "lat": 35.157995,
+    "lng": 137.032159,
+    "address": "9-1 Kanabo, Nagakute-shi, Aichi 480-1197, Japan",
+    "name_en": "Aichi Shukutoku University"
+  },
+  "univ_aichi-toho-university-guide-for-international-students": {
+    "lat": 35.173781,
+    "lng": 136.98422,
+    "address": "3-11 Heiwagaoka, Meito-ku, Nagoya, Aichi 465-8515, Japan",
+    "name_en": "Aichi Toho University"
+  },
+  "univ_aichi-university-international-student-guide": {
+    "lat": 34.741808,
+    "lng": 137.387478,
+    "address": "4-60-6 Hiraike-cho, Nakamura-ku, Nagoya-shi, Aichi 453-8701, Japan (Nagoya Campus)",
+    "name_en": "Aichi University"
+  },
+  "univ_aino-university-international-student-guide": {
+    "lat": 34.843054,
+    "lng": 135.582619,
+    "address": "4-5-41 Higashiohda, Ibaraki, Osaka 567-0012, Japan",
+    "name_en": "Aino University"
+  },
+  "univ_akita-international-university-aiu-guide": {
+    "lat": 39.627428,
+    "lng": 140.19829,
+    "address": "193-2 Okutsubakidai, Yuwa Tsubakigawa, Akita City, Akita Prefecture 010-1292, Japan",
+    "name_en": "Akita International University"
+  },
+  "univ_akita-prefectural-university-guide": {
+    "lat": 39.393257,
+    "lng": 140.0735,
+    "address": "84-4 Ebinokuchi, Tsuchiya, Yurihonjo-shi, Akita 015-0055, Japan (Honjo Campus)",
+    "name_en": "Akita Prefectural University"
+  },
+  "univ_akita-university-comprehensive-guide-international-students": {
+    "lat": 39.726264,
+    "lng": 140.132574,
+    "address": "1-1 Tegata Gakuen-machi, Akita City, Akita Prefecture 010-8502, Japan",
+    "name_en": "Akita University"
+  },
+  "univ_aomori-university-of-health-and-welfare-guide": {
+    "lat": 40.814191,
+    "lng": 140.792575,
+    "address": "58-1 Mase, Hamadate, Aomori-shi, Aomori 030-8505, Japan",
+    "name_en": "Aomori University of Health and Welfare"
+  },
+  "univ_asahi-university-international-student-guide": {
+    "lat": 35.38067,
+    "lng": 136.690685,
+    "address": "1851 Hozumi, Mizuho, Gifu 501-0296, Japan",
+    "name_en": "Asahi University"
+  },
+  "univ_ashikaga-university-comprehensive-guide": {
+    "lat": 36.353841,
+    "lng": 139.395572,
+    "address": "268-1 Ohama-cho, Ashikaga-shi, Tochigi 326-8558, Japan",
+    "name_en": "Ashikaga University"
+  },
+  "univ_ashiya-university-comprehensive-international-student-guide": {
+    "lat": 34.756408,
+    "lng": 135.307854,
+    "address": "13-22 Rokurokusocho, Ashiya, Hyogo 659-0011, Japan",
+    "name_en": "Ashiya University"
+  },
+  "univ_asia-university": {
+    "lat": 35.705999,
+    "lng": 139.534504,
+    "address": "〒180-8629 東京都武蔵野市境5-8",
+    "name_en": "Asia University"
+  },
+  "univ_baiko-gakuin-university": {
+    "lat": 33.577379,
+    "lng": 130.378067,
+    "address": "1-1-2 Maruyamacho, Shimonoseki, Yamaguchi 750-8511, Japan",
+    "name_en": "Baiko Gakuin University"
+  },
+  "univ_beppu-university-international-student-guide": {
+    "lat": 33.31299,
+    "lng": 131.499406,
+    "address": "827-11 Kita-Ishigaki, Beppu, Oita 874-8501, Japan",
+    "name_en": "Beppu University"
+  },
+  "univ_bunkyo-university-international-student-guide": {
+    "lat": 35.905374,
+    "lng": 139.771244,
+    "address": "3337 Minami-Ogishima, Koshigaya-shi, Saitama 343-8511, Japan",
+    "name_en": "Bunkyo University"
+  },
+  "univ_chiba-institute-of-technology-guide": {
+    "lat": 35.689548,
+    "lng": 140.025272,
+    "address": "2-17-1 Tsudanuma, Narashino, Chiba 275-0016, Japan",
+    "name_en": "Chiba Institute of Technology"
+  },
+  "univ_chiba-prefectural-university-of-health-sciences-guide": {
+    "lat": 35.64576,
+    "lng": 140.051112,
+    "address": "2-10-1 Wakaba, Mihama-ku, Chiba-shi, Chiba 261-0014, Japan",
+    "name_en": "Chiba Prefectural University of Health Sciences"
+  },
+  "univ_chiba-university-of-commerce-guide": {
+    "lat": 35.744226,
+    "lng": 139.902874,
+    "address": "1-3-1 Konodai, Ichikawa-shi, Chiba, 272-8512, Japan",
+    "name_en": "Chiba University of Commerce"
+  },
+  "univ_chubu-university-international-student-guide": {
+    "lat": 35.274265,
+    "lng": 137.013278,
+    "address": "1200 Matsumoto-cho, Kasugai-shi, Aichi 487-8501, Japan",
+    "name_en": "Chubu University"
+  },
+  "univ_chugoku-gakuen-university": {
+    "lat": 34.64589,
+    "lng": 133.84854,
+    "address": "83 Niwase, Kita-ku, Okayama-shi, Okayama 701-0197, Japan",
+    "name_en": "Chugoku Gakuen University"
+  },
+  "univ_chukyo-university-nagoya": {
+    "lat": 35.141877,
+    "lng": 136.963772,
+    "address": "愛知県名古屋市昭和区八事本町101-2",
+    "name_en": "Chukyo University"
+  },
+  "univ_dokkyo-medical-university-guide": {
+    "lat": 36.473315,
+    "lng": 139.823426,
+    "address": "880 Kitakobayashi, Mibu, Shimotsuga District, Tochigi 321-0293, Japan",
+    "name_en": "Dokkyo Medical University"
+  },
+  "univ_dokkyo-university-international-students-guide": {
+    "lat": 35.839693,
+    "lng": 139.794877,
+    "address": "1-1 Gakuen-cho, Soka-shi, Saitama 340-0042, Japan",
+    "name_en": "Dokkyo University"
+  },
+  "univ_ehime-prefectural-university-of-health-sciences-guide": {
+    "lat": 33.744698,
+    "lng": 132.790104,
+    "address": "543 Tobe-cho, Iyo-gun, Ehime 791-2101, Japan",
+    "name_en": "Ehime Prefectural University of Health Sciences"
+  },
+  "univ_ehime-university-international-student-guide": {
+    "lat": 33.839337,
+    "lng": 132.791503,
+    "address": "3 Bunkyo-cho, Matsuyama, Ehime 790-8577, Japan",
+    "name_en": "Ehime University"
+  },
+  "univ_ferris-university-guide-for-international-students": {
+    "lat": 35.441488,
+    "lng": 139.524611,
+    "address": "4-5-3 Ryokuen, Izumi-ku, Yokohama, Kanagawa 245-8650, Japan",
+    "name_en": "Ferris University"
+  },
+  "univ_fukui-prefectural-university-guide": {
+    "lat": 34.978964,
+    "lng": 133.607848,
+    "address": "4-1-1 Kenjojima, Matsuoka, Eiheiji-cho, Yoshida-gun, Fukui 910-1195, Japan",
+    "name_en": "Fukui Prefectural University"
+  },
+  "univ_fukui-university-of-technology-guide": {
+    "lat": 36.06874,
+    "lng": 136.194816,
+    "address": "3-6-1 Gakuen, Fukui City, Fukui Prefecture 910-8505, Japan",
+    "name_en": "Fukui University of Technology"
+  },
+  "univ_fukuoka-institute-of-technology-fit": {
+    "lat": 33.687947,
+    "lng": 130.43164,
+    "address": "3-30-1 Wajiro-higashi, Higashi-ku, Fukuoka-shi, Fukuoka 811-0295, Japan",
+    "name_en": "Fukuoka Institute of Technology"
+  },
+  "univ_fukuoka-jo-gakuin-university": {
+    "lat": 33.533332,
+    "lng": 130.441213,
+    "address": "2-15-1 Oki, Minami-ku, Fukuoka-shi, Fukuoka 811-1313, Japan",
+    "name_en": "Fukuoka Jo Gakuin University"
+  },
+  "univ_fukuoka-prefectural-university-guide": {
+    "lat": 34.978964,
+    "lng": 133.607848,
+    "address": "4395 Ita, Tagawa City, Fukuoka Prefecture 827-0002, Japan",
+    "name_en": "Fukuoka Prefectural University"
+  },
+  "univ_fukuoka-womens-university-guide": {
+    "lat": 33.665515,
+    "lng": 130.439065,
+    "address": "1-1-1 Kasumigaoka, Higashi-ku, Fukuoka City, Fukuoka, 813-8529 Japan",
+    "name_en": "Fukuoka Women's University"
+  },
+  "univ_fukuyama-heisei-university-guide": {
+    "lat": 34.549835,
+    "lng": 133.349254,
+    "address": "117-1, Miyacho, Kannabe-cho, Fukuyama, Hiroshima 720-2101, Japan",
+    "name_en": "Fukuyama Heisei University"
+  },
+  "univ_fukuyama-university": {
+    "lat": 34.456974,
+    "lng": 133.23088,
+    "address": "985 Sanzo, Gakuen-cho, Fukuyama, Hiroshima 729-0292, Japan",
+    "name_en": "Fukuyama University"
+  },
+  "univ_gakushuin-womens-college-international-student-guide": {
+    "lat": 35.706255,
+    "lng": 139.713121,
+    "address": "3-20-1 Toyama, Shinjuku-ku, Tokyo 162-8650, Japan",
+    "name_en": "Gakushuin Women's College"
+  },
+  "univ_gifu-pharmaceutical-university": {
+    "lat": 35.465574,
+    "lng": 136.733919,
+    "address": "1-25-4 Daigaku-nishi, Gifu City, Gifu 501-1196, Japan",
+    "name_en": "Gifu Pharmaceutical University"
+  },
+  "univ_doshisha-womens-college-of-liberal-arts-guide": {
+    "lat": 35.0116,
+    "lng": 135.7681,
+    "address": "Teramachi Nishi-iru, Imadegawa-dori, Kamigyo-ku, Kyoto 602-0893, Japan",
+    "name_en": "Doshisha Women's College of Liberal Arts",
+    "name_ja": "同志社女子大学",
+    "source": "city:京都府"
+  },
+  "univ_gifu-shotoku-gakuen-university-comprehensive-guide": {
+    "lat": 35.386933,
+    "lng": 136.736228,
+    "address": "1-38 Nakauzura, Gifu City, Gifu Prefecture, 500-8288, Japan",
+    "name_en": "Gifu Shotoku Gakuen University",
+    "name_ja": "岐阜聖徳学園大学",
+    "source": "nominatim:岐阜聖徳学園大学"
+  },
+  "univ_gunma-prefectural-womens-university": {
+    "lat": 36.29788,
+    "lng": 139.112567,
+    "address": "1395-1 Kaminote, Tamamura-machi, Sawa-gun, Gunma 370-1193, Japan",
+    "name_en": "Gunma Prefectural Women's University",
+    "name_ja": "群馬県立女子大学",
+    "source": "nominatim:群馬県立女子大学"
+  },
+  "univ_gunma-university-guide-international-students": {
+    "lat": 36.430808,
+    "lng": 139.044491,
+    "address": "4-2 Aramaki-machi, Maebashi, Gunma 371-8510, Japan",
+    "name_en": "Gunma University",
+    "name_ja": "群馬大学",
+    "source": "nominatim:群馬大学"
+  },
+  "univ_gunma-university-of-health-and-welfare": {
+    "lat": 36.252688,
+    "lng": 139.079664,
+    "address": "606-7 Aramaki-machi, Maebashi, Gunma 371-0044, Japan",
+    "name_en": "Gunma University of Health and Welfare",
+    "name_ja": "群馬医療福祉大学",
+    "source": "nominatim:群馬医療福祉大学"
+  },
+  "univ_hakuoh-university-guide-for-international-students": {
+    "lat": 36.314646,
+    "lng": 139.792535,
+    "address": "1117 Daigyoji, Oyama-shi, Tochigi, 323-8585, Japan",
+    "name_en": "Hakuoh University",
+    "name_ja": "白鴎大学",
+    "source": "nominatim:白鴎大学"
+  },
+  "univ_hannan-university-guide": {
+    "lat": 34.592793,
+    "lng": 135.536543,
+    "address": "5-4-33 Amami-higashi, Matsubara-shi, Osaka 580-8502, Japan",
+    "name_en": "Hannan University",
+    "name_ja": "阪南大学",
+    "source": "nominatim:阪南大学"
+  },
+  "univ_himeji-dokkyo-university-international-student-guide": {
+    "lat": 34.872555,
+    "lng": 134.689728,
+    "address": "7-2-1 Kamiozawa, Himeji-shi, Hyogo 670-8524, Japan",
+    "name_en": "Himeji Dokkyo University",
+    "name_ja": "姫路獨協大学",
+    "source": "nominatim:姫路獨協大学"
+  },
+  "univ_hirosaki-university-comprehensive-guide": {
+    "lat": 40.587949,
+    "lng": 140.472483,
+    "address": "1 Bunkyo-cho, Hirosaki, Aomori 036-8560, Japan",
+    "name_en": "Hirosaki University",
+    "name_ja": "弘前大学",
+    "source": "nominatim:弘前大学"
+  },
+  "univ_hiroshima-city-university-guide": {
+    "lat": 34.437973,
+    "lng": 132.416496,
+    "address": "3-4-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3194, Japan",
+    "name_en": "Hiroshima City University",
+    "name_ja": "広島市立大学",
+    "source": "nominatim:広島市立大学"
+  },
+  "univ_hiroshima-jogakuin-university": {
+    "lat": 34.41352,
+    "lng": 132.484172,
+    "address": "4-13-1 Ushita-higashi, Higashi-ku, Hiroshima-shi, Hiroshima 732-0063 Japan",
+    "name_en": "Hiroshima Jogakuin University",
+    "name_ja": "広島女学院大学",
+    "source": "nominatim:広島女学院大学"
+  },
+  "univ_hiroshima-kokusai-gakuin-university": {
+    "lat": 34.425494,
+    "lng": 132.626965,
+    "address": "6-20-1 Nakano, Aki-ku, Hiroshima-shi, Hiroshima 739-0321, Japan",
+    "name_en": "Hiroshima Kokusai Gakuin University",
+    "name_ja": "広島国際学院大学",
+    "source": "nominatim:広島国際学院大学"
+  },
+  "univ_hiroshima-shudo-university-comprehensive-guide": {
+    "lat": 34.433852,
+    "lng": 132.404086,
+    "address": "1-1-1 Ozuka-higashi, Asaminami-ku, Hiroshima 731-3195, Japan",
+    "name_en": "Hiroshima Shudo University",
+    "name_ja": "広島修道大学",
+    "source": "nominatim:広島修道大学"
+  },
+  "univ_hiroshima-university-of-economics-guide": {
+    "lat": 34.44961,
+    "lng": 132.455122,
+    "address": "5-37-1 Gion, Asaminami-ku, Hiroshima, 731-0192, Japan",
+    "name_en": "Hiroshima University of Economics",
+    "name_ja": "広島経済大学",
+    "source": "nominatim:広島経済大学"
+  },
+  "univ_hiroshima-university": {
+    "lat": 34.401638,
+    "lng": 132.720721,
+    "address": "広島県東広島市鏡山一丁目7番1号",
+    "name_en": "Hiroshima University",
+    "name_ja": "広島大学",
+    "source": "nominatim:広島大学"
+  },
+  "univ_hitotsubashi-university": {
+    "lat": 35.693795,
+    "lng": 139.443928,
+    "address": "〒186-8601 東京都国立市中2-1",
+    "name_en": "Hitotsubashi University",
+    "name_ja": "一橋大学",
+    "source": "nominatim:一橋大学"
+  },
+  "univ_hokkai-gakuen-university-international-student-guide": {
+    "lat": 43.046236,
+    "lng": 141.368116,
+    "address": "4-1-40 Asahimachi, Toyohira-ku, Sapporo, Hokkaido 062-8605, Japan",
+    "name_en": "Hokkai Gakuen University",
+    "name_ja": "北海学園大学",
+    "source": "nominatim:北海学園大学"
+  },
+  "univ_hokkaido-university-of-education-guide": {
+    "lat": 43.169835,
+    "lng": 141.393881,
+    "address": "5-3-1 Ainosato, Kita-ku, Sapporo, Hokkaido 002-8501, Japan",
+    "name_en": "Hokkaido University of Education",
+    "name_ja": "北海道教育大学",
+    "source": "nominatim:北海道教育大学"
+  },
+  "univ_hokuriku-university-guide-for-international-students": {
+    "lat": 35.030952,
+    "lng": 135.784963,
+    "address": "1-1 Taiyogaoka, Kanazawa, Ishikawa 920-1180, Japan",
+    "name_en": "Hokuriku University",
+    "name_ja": "北陸大学",
+    "source": "nominatim:北陸大学"
+  },
+  "univ_hokusei-gakuen-university-guide-for-international-students": {
+    "lat": 43.024371,
+    "lng": 141.448594,
+    "address": "2-1-1 Oyachi-nishi, Atsubetsu-ku, Sapporo, Hokkaido 004-8631, Japan",
+    "name_en": "Hokusei Gakuen University",
+    "name_ja": "北星学園大学",
+    "source": "nominatim:北星学園大学"
+  },
+  "univ_ibaraki-christian-university-comprehensive-guide": {
+    "lat": 36.511689,
+    "lng": 140.616911,
+    "address": "6-11-1 Omika-cho, Hitachi-shi, Ibaraki 319-1295, Japan",
+    "name_en": "Ibaraki Christian University",
+    "name_ja": "茨城キリスト教大学",
+    "source": "nominatim:茨城キリスト教大学"
+  },
+  "univ_ibaraki-university-comprehensive-guide": {
+    "lat": 36.400798,
+    "lng": 140.443145,
+    "address": "2-1-1 Bunkyo, Mito, Ibaraki 310-8512, Japan",
+    "name_en": "Ibaraki University",
+    "name_ja": "茨城大学",
+    "source": "nominatim:茨城大学"
+  },
+  "univ_international-university-of-health-and-welfare-iuhw-guide": {
+    "lat": 36.870729,
+    "lng": 140.071084,
+    "address": "2600-1 Kitakamura, Otawara-shi, Tochigi 324-8501, Japan",
+    "name_en": "International University of Health and Welfare",
+    "name_ja": "国際医療福祉大学",
+    "source": "nominatim:国際医療福祉大学"
+  },
+  "univ_ishikawa-prefectural-university-guide": {
+    "lat": 36.506553,
+    "lng": 136.596449,
+    "address": "1-308 Suematsu, Nonoichi, Ishikawa 921-8836, Japan",
+    "name_en": "Ishikawa Prefectural University",
+    "name_ja": "石川県立大学",
+    "source": "nominatim:石川県立大学"
+  },
+  "univ_ishinomaki-senshu-university-international-student-guide": {
+    "lat": 38.453379,
+    "lng": 141.294131,
+    "address": "1 Shin-Mishiro, Ishinomaki-shi, Miyagi 986-8580, Japan",
+    "name_en": "Ishinomaki Senshu University",
+    "name_ja": "石巻専修大学",
+    "source": "nominatim:石巻専修大学"
+  },
+  "univ_iwate-prefectural-university-guide": {
+    "lat": 39.802553,
+    "lng": 141.136061,
+    "address": "152-52 Sugo, Takizawa, Iwate 020-0693, Japan",
+    "name_en": "Iwate Prefectural University",
+    "name_ja": "岩手県立大学",
+    "source": "nominatim:岩手県立大学"
+  },
+  "univ_j-f-oberlin-university-international-guide": {
+    "lat": 35.584837,
+    "lng": 139.406999,
+    "address": "3758 Tokiwa-cho, Machida-shi, Tokyo 194-0294, Japan (Machida Campus)",
+    "name_en": "J.F. Oberlin University",
+    "name_ja": "桜美林大学",
+    "source": "nominatim:桜美林大学"
+  },
+  "univ_japan-university-of-economics-jue-guide": {
+    "lat": 33.505933,
+    "lng": 130.52593,
+    "address": "Fukuoka Campus (Main): 5-7-1 Kogane, Musashigaoka, Dazaifu, Fukuoka 818-0197, Japan. Other campuses in Kobe Sannomiya and Tokyo Shibuya.",
+    "name_en": "Japan University of Economics",
+    "name_ja": "日本経済大学",
+    "source": "nominatim:日本経済大学"
+  },
+  "univ_japan-womens-university-international-student-guide": {
+    "lat": 35.716769,
+    "lng": 139.720579,
+    "address": "2-8-1 Mejirodai, Bunkyo-ku, Tokyo 112-8681, Japan",
+    "name_en": "Japan Women's University",
+    "name_ja": "日本女子大学",
+    "source": "nominatim:日本女子大学"
+  },
+  "univ_jin-ai-university-guide": {
+    "lat": 35.89262,
+    "lng": 136.211287,
+    "address": "3-1-1 Ohama-cho, Echizen-shi, Fukui, 915-8586, Japan",
+    "name_en": "Jin-ai University",
+    "name_ja": "仁愛大学",
+    "source": "nominatim:仁愛大学"
+  },
+  "univ_jobu-university-international-student-guide": {
+    "lat": 36.279835,
+    "lng": 139.115711,
+    "address": "270-1 Toyozuka-machi, Isesaki-shi, Gunma 372-8588, Japan",
+    "name_en": "Jobu University",
+    "name_ja": "上武大学",
+    "source": "nominatim:上武大学"
+  },
+  "univ_josai-university-comprehensive-guide-international-students": {
+    "lat": 35.931985,
+    "lng": 139.339377,
+    "address": "1-1 Keyakidai, Sakado-shi, Saitama 350-0295, Japan",
+    "name_en": "Josai University",
+    "name_ja": "城西大学",
+    "source": "nominatim:城西大学"
+  },
+  "univ_kagawa-university-comprehensive-guide": {
+    "lat": 34.341619,
+    "lng": 134.03676,
+    "address": "1-1 Saiwai-cho, Takamatsu, Kagawa 760-8521, Japan",
+    "name_en": "Kagawa University",
+    "name_ja": "香川大学",
+    "source": "nominatim:香川大学"
+  },
+  "univ_kagoshima-university-guide": {
+    "lat": 31.571605,
+    "lng": 130.544087,
+    "address": "1-21-24 Korimoto, Kagoshima City, Kagoshima, 890-8580, Japan",
+    "name_en": "Kagoshima University",
+    "name_ja": "鹿児島大学",
+    "source": "nominatim:鹿児島大学"
+  },
+  "univ_kamakura-womens-university-comprehensive-guide": {
+    "lat": 35.352989,
+    "lng": 139.539453,
+    "address": "6-1-3 Ohfuna, Kamakura-shi, Kanagawa Prefecture 247-8512, Japan",
+    "name_en": "Kamakura Women's University",
+    "name_ja": "鎌倉女子大学",
+    "source": "nominatim:鎌倉女子大学"
+  },
+  "univ_kanagawa-university-international-student-guide": {
+    "lat": 35.348522,
+    "lng": 139.261461,
+    "address": "3-27-1 Rokkakubashi, Kanagawa-ku, Yokohama, Kanagawa 221-8686, Japan",
+    "name_en": "Kanagawa University",
+    "name_ja": "神奈川大学",
+    "source": "nominatim:神奈川大学"
+  },
+  "univ_kanagawa-university-of-human-services": {
+    "lat": 35.275182,
+    "lng": 139.680476,
+    "address": "1-10-1 Heiseicho, Yokosuka, Kanagawa 238-8522, Japan",
+    "name_en": "Kanagawa University of Human Services",
+    "name_ja": "神奈川県立保健福祉大学",
+    "source": "nominatim:Kanagawa University of Human Services"
+  },
+  "univ_kanazawa-gakuin-university-guide": {
+    "lat": 35.323083,
+    "lng": 139.624091,
+    "address": "10 Sue-machi, Kanazawa, Ishikawa 920-1392, Japan",
+    "name_en": "Kanazawa Gakuin University",
+    "name_ja": "金沢学院大学",
+    "source": "nominatim:金沢学院大学"
+  },
+  "univ_kanazawa-institute-of-technology": {
+    "lat": 36.530922,
+    "lng": 136.627583,
+    "address": "7-1 Ohgigaoka, Nonoichi, Ishikawa 921-8501, Japan",
+    "name_en": "Kanazawa Institute of Technology",
+    "name_ja": "金沢工業大学",
+    "source": "nominatim:金沢工業大学"
+  },
+  "univ_kanazawa-seiryo-university-international-student-guide": {
+    "lat": 36.58345,
+    "lng": 136.682582,
+    "address": "10-1 Gosho-machi, Kanazawa, Ishikawa 920-8620, Japan",
+    "name_en": "Kanazawa Seiryo University",
+    "name_ja": "金沢星稜大学",
+    "source": "nominatim:金沢星稜大学"
+  },
+  "univ_kanazawa-university": {
+    "lat": 36.550169,
+    "lng": 136.713718,
+    "address": "〒920-1192 Kanazawa, Kakuma-machi",
+    "name_en": "Kanazawa University",
+    "name_ja": "金沢大学",
+    "source": "nominatim:金沢大学"
+  },
+  "univ_kanda-university-of-international-studies": {
+    "lat": 35.658025,
+    "lng": 140.043405,
+    "address": "1-4-1 Wakaba, Mihama-ku, Chiba City, Chiba 261-0014, Japan",
+    "name_en": "Kanda University of International Studies",
+    "name_ja": "神田外語大学",
+    "source": "nominatim:神田外語大学"
+  },
+  "univ_kansai-gaidai-university": {
+    "lat": 34.82299,
+    "lng": 135.657151,
+    "address": "1-16-1 Kitakatahoko-cho, Hirakata City, Osaka 573-1001, Japan",
+    "name_en": "Kansai Gaidai University",
+    "name_ja": "関西外国語大学",
+    "source": "nominatim:Kansai Gaidai University"
+  },
+  "univ_kansai-university-of-health-sciences": {
+    "lat": 34.406698,
+    "lng": 135.370251,
+    "address": "2-11-1 Wakaba, Kumatori-cho, Sennan-gun, Osaka, 590-0482, Japan",
+    "name_en": "Kansai University of Health Sciences",
+    "name_ja": "関西医療大学",
+    "source": "nominatim:関西医療大学"
+  },
+  "univ_kansai-university": {
+    "lat": 34.879158,
+    "lng": 135.575998,
+    "address": "3-3-35 Yamate-cho, Suita-shi, Osaka 564-8680, Japan",
+    "name_en": "Kansai University",
+    "name_ja": "関西大学",
+    "source": "nominatim:関西大学"
+  },
+  "univ_kanto-gakuen-university": {
+    "lat": 35.256553,
+    "lng": 139.139601,
+    "address": "200 Fujiagu-cho, Ota-shi, Gunma 373-8515, Japan",
+    "name_en": "Kanto Gakuen University",
+    "name_ja": "関東学園大学",
+    "source": "nominatim:関東学園大学"
+  },
+  "univ_kawasaki-university-of-medical-welfare-guide": {
+    "lat": 34.634207,
+    "lng": 133.809472,
+    "address": "577 Matsushima, Kurashiki, Okayama 701-0193, Japan",
+    "name_en": "Kawasaki University of Medical Welfare",
+    "name_ja": "川崎医療福祉大学",
+    "source": "nominatim:川崎医療福祉大学"
+  },
+  "univ_keiwa-college-international-student-guide": {
+    "lat": 37.955827,
+    "lng": 139.292394,
+    "address": "1270 Kumanodo, Shibata, Niigata 957-8585, Japan",
+    "name_en": "Keiwa College",
+    "name_ja": "敬和学園大学",
+    "source": "nominatim:敬和学園大学"
+  },
+  "univ_kindai-university": {
+    "lat": 34.671106,
+    "lng": 135.734804,
+    "address": "大阪府東大阪市小若江3-4-1",
+    "name_en": "Kindai University",
+    "name_ja": "近畿大学",
+    "source": "nominatim:近畿大学"
+  },
+  "univ_kinjo-gakuin-university-guide": {
+    "lat": 35.211582,
+    "lng": 136.996066,
+    "address": "2-1723 Omori, Moriyama-ku, Nagoya, Aichi 463-8521, Japan",
+    "name_en": "Kinjo Gakuin University",
+    "name_ja": "金城学院大学",
+    "source": "nominatim:金城学院大学"
+  },
+  "univ_kinjo-university-ishikawa-guide": {
+    "lat": 36.509271,
+    "lng": 136.528253,
+    "address": "1200 Kasama-machi, Hakusan-shi, Ishikawa 924-8511, Japan",
+    "name_en": "Kinjo University",
+    "name_ja": "金城大学",
+    "source": "nominatim:金城大学"
+  },
+  "univ_kiryu-university-guide-international-students": {
+    "lat": 36.378324,
+    "lng": 139.295964,
+    "address": "606-7 Azami, Kasakake-machi, Midori-shi, Gunma 379-2311, Japan",
+    "name_en": "Kiryu University",
+    "name_ja": "桐生大学",
+    "source": "nominatim:桐生大学"
+  },
+  "univ_kobe-city-university-of-foreign-studies-guide": {
+    "lat": 34.679456,
+    "lng": 135.060245,
+    "address": "9-1, Gakuen-higashimachi, Nishi-ku, Kobe, Hyogo 651-2187, Japan",
+    "name_en": "Kobe City University of Foreign Studies",
+    "name_ja": "神戸市外国語大学",
+    "source": "nominatim:神戸市外国語大学"
+  },
+  "univ_kobe-college-guide-international-students": {
+    "lat": 34.758687,
+    "lng": 135.350645,
+    "address": "4-1 Okadayama, Nishinomiya, Hyogo 662-8505, Japan",
+    "name_en": "Kobe College",
+    "name_ja": "神戸女学院大学",
+    "source": "nominatim:神戸女学院大学"
+  },
+  "univ_kobe-international-university": {
+    "lat": 34.68101,
+    "lng": 135.269617,
+    "address": "9-1-10 Koyo-cho Naka, Higashinada-ku, Kobe, Hyogo 658-0032, Japan",
+    "name_en": "Kobe International University",
+    "name_ja": "神戸国際大学",
+    "source": "nominatim:神戸国際大学"
+  },
+  "univ_kobe-shinwa-university-guide": {
+    "lat": 34.727745,
+    "lng": 135.154855,
+    "address": "7-13-1 Suzurandai-kitamachi, Kita-ku, Kobe, Hyogo 651-1111, Japan",
+    "name_en": "Kobe Shinwa University",
+    "name_ja": "神戸親和大学",
+    "source": "nominatim:神戸親和大学"
+  },
+  "univ_kobe-university": {
+    "lat": 34.726639,
+    "lng": 135.237169,
+    "address": "〒657-8501 2-1 Rokkodai-cho, Nada-ku, Kobe, Hyogo Prefecture",
+    "name_en": "Kobe University",
+    "name_ja": "神戸大学",
+    "source": "nominatim:神戸大学"
+  },
+  "univ_kobe-womens-university": {
+    "lat": 34.667871,
+    "lng": 135.207933,
+    "address": "2-1, Higashisuma Aoyama, Suma-ku, Kobe-shi, Hyogo, 654-8585, Japan",
+    "name_en": "Kobe Women's University",
+    "name_ja": "神戸女子大学",
+    "source": "nominatim:神戸女子大学"
+  },
+  "univ_kochi-university-guide-international-students": {
+    "lat": 33.549062,
+    "lng": 133.487006,
+    "address": "2-5-1 Akebono-cho, Kochi-shi, Kochi, 780-8520, Japan",
+    "name_en": "Kochi University",
+    "name_ja": "高知大学",
+    "source": "nominatim:高知大学"
+  },
+  "univ_kochi-university-of-technology-kut-comprehensive-guide": {
+    "lat": 33.620809,
+    "lng": 133.719376,
+    "address": "185 Miyanokuchi, Tosayamada-cho, Kami-shi, Kochi 782-8502, Japan",
+    "name_en": "Kochi University of Technology",
+    "name_ja": "高知工科大学",
+    "source": "nominatim:高知工科大学"
+  },
+  "univ_kogakkan-university": {
+    "lat": 34.485977,
+    "lng": 136.727059,
+    "address": "1704 Kushimoto-cho, Ise-shi, Mie 516-8555, Japan",
+    "name_en": "Kogakkan University",
+    "name_ja": "皇學館大学",
+    "source": "nominatim:皇學館大学"
+  },
+  "univ_kokushikan-university": {
+    "lat": 35.649428,
+    "lng": 139.651886,
+    "address": "〒154-8515 東京都世田谷区世田谷4-28-1",
+    "name_en": "Kokushikan University",
+    "name_ja": "国士舘大学",
+    "source": "nominatim:国士舘大学"
+  },
+  "univ_komazawa-university": {
+    "lat": 35.63312,
+    "lng": 139.661221,
+    "address": "1-23-1 Komazawa, Setagaya-ku, Tokyo 154-8525, Japan",
+    "name_en": "Komazawa University",
+    "name_ja": "駒澤大学",
+    "source": "nominatim:駒澤大学"
+  },
+  "univ_konan-university": {
+    "lat": 34.729142,
+    "lng": 135.268379,
+    "address": "〒658-8501 兵庫県神戸市東灘区岡本8丁目9番1号",
+    "name_en": "Konan University",
+    "name_ja": "甲南大学",
+    "source": "nominatim:甲南大学"
+  },
+  "univ_konan-womens-university-guide-international-students": {
+    "lat": 34.734848,
+    "lng": 135.287752,
+    "address": "6-2-23 Morikita-machi, Higashinada-ku, Kobe, Hyogo 658-0001, Japan",
+    "name_en": "Konan Women's University",
+    "name_ja": "甲南女子大学",
+    "source": "nominatim:甲南女子大学"
+  },
+  "univ_kumamoto-gakuen-university-comprehensive-guide": {
+    "lat": 32.804344,
+    "lng": 130.73038,
+    "address": "2-5-1 Oe, Chuo-ku, Kumamoto City, Kumamoto 862-8680, Japan",
+    "name_en": "Kumamoto Gakuen University",
+    "name_ja": "熊本学園大学",
+    "source": "nominatim:熊本学園大学"
+  },
+  "univ_kurashiki-sakuyo-university": {
+    "lat": 34.575616,
+    "lng": 133.677297,
+    "address": "3515 Tamashima Nagao, Kurashiki, Okayama 710-0251, Japan",
+    "name_en": "Kurashiki Sakuyo University",
+    "name_ja": "くらしき作陽大学",
+    "source": "nominatim:くらしき作陽大学"
+  },
+  "univ_kurume-university-guide": {
+    "lat": 33.327521,
+    "lng": 130.512097,
+    "address": "67 Asahimachi, Kurume, Fukuoka 830-0011, Japan",
+    "name_en": "Kurume University",
+    "name_ja": "久留米大学",
+    "source": "nominatim:久留米大学"
+  },
+  "univ_kwansei-gakuin-university": {
+    "lat": 34.768813,
+    "lng": 135.34691,
+    "address": "〒662-8501 兵庫県西宮市上ケ原一番町1-1",
+    "name_en": "Kwansei Gakuin University",
+    "name_ja": "関西学院大学",
+    "source": "nominatim:関西学院大学"
+  },
+  "univ_kwassui-womens-university": {
+    "lat": 32.7503,
+    "lng": 129.8777,
+    "address": "1-50 Higashiyamate-machi, Nagasaki-shi, Nagasaki, 850-8515, Japan",
+    "name_en": "Kwassui Women's University",
+    "name_ja": "活水女子大学",
+    "source": "city:長崎"
+  },
+  "univ_kyoai-gakuen-university-guide": {
+    "lat": 36.3912,
+    "lng": 139.0608,
+    "address": "1154-4 Koya-machi, Maebashi, Gunma 379-2192, Japan",
+    "name_en": "Kyoai Gakuen University",
+    "name_ja": "共愛学園前橋国際大学",
+    "source": "city:群馬"
+  },
+  "univ_kyoto-city-university-of-arts-guide": {
+    "lat": 34.986385,
+    "lng": 135.763716,
+    "address": "57-1 Shimotsumaya-cho, Shimogyo-ku, Kyoto 600-8206, Japan",
+    "name_en": "Kyoto City University of Arts",
+    "name_ja": "京都市立芸術大学",
+    "source": "nominatim:京都市立芸術大学"
+  },
+  "univ_kyoto-koka-womens-university-international-student-guide": {
+    "lat": 34.997107,
+    "lng": 135.718663,
+    "address": "38 Kadono-cho, Nishikyogoku, Ukyo-ku, Kyoto 615-0882, Japan",
+    "name_en": "Kyoto Koka Women's University",
+    "name_ja": "京都光華女子大学",
+    "source": "nominatim:京都光華女子大学"
+  },
+  "univ_kyoto-prefectural-university-of-medicine-guide": {
+    "lat": 35.0116,
+    "lng": 135.7681,
+    "address": "465 Kajii-cho, Kawaramachi-Hirokoji, Kamigyo-ku, Kyoto 602-8566, Japan",
+    "name_en": "Kyoto Prefectural University of Medicine",
+    "name_ja": "京都府立医科大学",
+    "source": "city:京都府"
+  },
+  "univ_kyoto-tachibana-university-comprehensive-guide": {
+    "lat": 34.96848,
+    "lng": 135.826526,
+    "address": "34 Yamada-cho, Oyadano, Yamashina-ku, Kyoto 607-8175, Japan",
+    "name_en": "Kyoto Tachibana University",
+    "name_ja": "京都橘大学",
+    "source": "nominatim:京都橘大学"
+  },
+  "univ_kyoto-university-of-advanced-science-comprehensive-guide": {
+    "lat": 35.009924,
+    "lng": 135.718438,
+    "address": "18 Uzumasa Yamanomoto-cho, Ukyo-ku, Kyoto 615-8577, Japan",
+    "name_en": "Kyoto University of Advanced Science",
+    "name_ja": "京都先端科学大学",
+    "source": "nominatim:京都先端科学大学"
+  },
+  "univ_kyoto-university-of-art-and-design-kyobi": {
+    "lat": 34.991344,
+    "lng": 135.768388,
+    "address": "737-1 Kawabata-cho, Higashiyama-ku, Kyoto, 605-0991, Japan",
+    "name_en": "Kyoto University of Art and Design",
+    "name_ja": "京都美術工芸大学",
+    "source": "nominatim:京都美術工芸大学"
+  },
+  "univ_kyoto-womens-university-comprehensive-guide": {
+    "lat": 34.989602,
+    "lng": 135.778413,
+    "address": "35 Kitahiyoshi-cho, Imakumano, Higashiyama-ku, Kyoto 605-8501, Japan",
+    "name_en": "Kyoto Women's University",
+    "name_ja": "京都女子大学",
+    "source": "nominatim:京都女子大学"
+  },
+  "univ_kyushu-dental-university-comprehensive-guide": {
+    "lat": 33.5904,
+    "lng": 130.4017,
+    "address": "2-6-1 Manazuru, Kokurakita-ku, Kitakyushu, Fukuoka 803-8580, Japan",
+    "name_en": "Kyushu Dental University",
+    "name_ja": "九州歯科大学",
+    "source": "city:福岡"
+  },
+  "univ_kyushu-institute-of-information-sciences": {
+    "lat": 33.524824,
+    "lng": 130.540624,
+    "address": "6-3-1 Sakiemyo, Dazaifu, Fukuoka 818-0117, Japan",
+    "name_en": "Kyushu Institute of Information Sciences",
+    "name_ja": "九州情報大学",
+    "source": "nominatim:九州情報大学"
+  },
+  "univ_kyushu-international-university": {
+    "lat": 33.862416,
+    "lng": 130.791693,
+    "address": "1-6-1 Hirano, Yahatahigashi-ku, Kitakyushu-shi, Fukuoka 805-8512, Japan",
+    "name_en": "Kyushu International University",
+    "name_ja": "九州国際大学",
+    "source": "nominatim:九州国際大学"
+  },
+  "univ_kyushu-lutheran-college": {
+    "lat": 32.820558,
+    "lng": 130.72315,
+    "address": "3-12-16 Kurokami, Chuo-ku, Kumamoto-shi, Kumamoto 860-8520, Japan",
+    "name_en": "Kyushu Lutheran College",
+    "name_ja": "九州ルーテル学院大学",
+    "source": "nominatim:九州ルーテル学院大学"
+  },
+  "univ_matsuyama-university-comprehensive-guide": {
+    "lat": 33.855368,
+    "lng": 132.766134,
+    "address": "4-2 Bunkyo-cho, Matsuyama, Ehime 790-8578, Japan",
+    "name_en": "Matsuyama University",
+    "name_ja": "松山大学",
+    "source": "nominatim:松山大学"
+  },
+  "univ_meiji-gakuin-university-comprehensive-guide": {
+    "lat": 35.637634,
+    "lng": 139.731313,
+    "address": "1-2-37 Shirokanedai, Minato-ku, Tokyo 108-8636, Japan",
+    "name_en": "Meiji Gakuin University",
+    "name_ja": "明治学院大学",
+    "source": "nominatim:明治学院大学"
+  },
+  "univ_meikai-university-international-student-guide": {
+    "lat": 35.644657,
+    "lng": 139.919419,
+    "address": "1 Akemi, Urayasu, Chiba 279-8550, Japan",
+    "name_en": "Meikai University",
+    "name_ja": "明海大学",
+    "source": "nominatim:明海大学"
+  },
+  "univ_meio-university-okinawa-guide": {
+    "lat": 26.624447,
+    "lng": 127.973613,
+    "address": "1220-1 Biimata, Nago, Okinawa 905-8585, Japan",
+    "name_en": "Meio University",
+    "name_ja": "名桜大学",
+    "source": "nominatim:名桜大学"
+  },
+  "univ_mie-prefectural-college-of-nursing": {
+    "lat": 34.760551,
+    "lng": 136.488578,
+    "address": "1-1-1 Yumegaoka, Tsu, Mie 514-0116, Japan",
+    "name_en": "Mie Prefectural College of Nursing",
+    "name_ja": "三重県立看護大学",
+    "source": "nominatim:三重県立看護大学"
+  },
+  "univ_mie-university-guide-international-students": {
+    "lat": 34.743524,
+    "lng": 136.524086,
+    "address": "1577 Kurimamachiya-cho, Tsu City, Mie Prefecture 514-8507, Japan",
+    "name_en": "Mie University",
+    "name_ja": "三重大学",
+    "source": "nominatim:三重大学"
+  },
+  "univ_miyagi-gakuin-womens-university-guide": {
+    "lat": 38.306899,
+    "lng": 140.853506,
+    "address": "9-1-1 Sakuragaoka, Aoba-ku, Sendai, Miyagi 981-8557, Japan",
+    "name_en": "Miyagi Gakuin Women's University",
+    "name_ja": "宮城学院女子大学",
+    "source": "nominatim:宮城学院女子大学"
+  },
+  "univ_miyagi-university-international-student-guide": {
+    "lat": 38.350597,
+    "lng": 140.842286,
+    "address": "1-1 Gakuen, Taiwa-cho, Kurokawa-gun, Miyagi Prefecture 981-3298, Japan",
+    "name_en": "Miyagi University",
+    "name_ja": "宮城大学",
+    "source": "nominatim:宮城大学"
+  },
+  "univ_miyazaki-municipal-university-guide": {
+    "lat": 31.92599,
+    "lng": 131.419454,
+    "address": "1-1-2 Funatsuka, Miyazaki City, Miyazaki Prefecture 880-8520, Japan",
+    "name_en": "Miyazaki Municipal University",
+    "name_ja": "宮崎公立大学",
+    "source": "nominatim:宮崎公立大学"
+  },
+  "univ_momoyama-gakuin-university-international-student-guide": {
+    "lat": 34.449396,
+    "lng": 135.45722,
+    "address": "1-1 Manabino, Izumi, Osaka 594-1198, Japan",
+    "name_en": "Momoyama Gakuin University",
+    "name_ja": "桃山学院大学",
+    "source": "nominatim:桃山学院大学"
+  },
+  "univ_mukogawa-womens-university": {
+    "lat": 34.733645,
+    "lng": 135.377559,
+    "address": "6-46 Ikebiraki-cho, Nishinomiya, Hyogo 663-8558, Japan",
+    "name_en": "Mukogawa Women's University",
+    "name_ja": "武庫川女子大学",
+    "source": "nominatim:Mukogawa Women's University"
+  },
+  "univ_musashino-art-university": {
+    "lat": 35.727455,
+    "lng": 139.447151,
+    "address": "〒187-8505 東京都小平市小川町1-736",
+    "name_en": "Musashino Art University",
+    "name_ja": "武蔵野美術大学",
+    "source": "nominatim:武蔵野美術大学"
+  },
+  "univ_nagaoka-university-international-student-guide": {
+    "lat": 37.431003,
+    "lng": 138.878726,
+    "address": "80-8 Gokurakuji-machi, Nagaoka-shi, Niigata 940-0828, Japan",
+    "name_en": "Nagaoka University",
+    "name_ja": "長岡大学",
+    "source": "nominatim:長岡大学"
+  },
+  "univ_nagasaki-international-university": {
+    "lat": 33.102525,
+    "lng": 129.791066,
+    "address": "2825-7 Huis Ten Bosch-cho, Sasebo, Nagasaki 859-3298, Japan",
+    "name_en": "Nagasaki International University",
+    "name_ja": "長崎国際大学",
+    "source": "nominatim:長崎国際大学"
+  },
+  "univ_nagasaki-junshin-catholic-university": {
+    "lat": 32.785379,
+    "lng": 129.867626,
+    "address": "235 Mitsumachi, Nagasaki-shi, Nagasaki 852-8558, Japan",
+    "name_en": "Nagasaki Junshin Catholic University",
+    "name_ja": "長崎純心大学",
+    "source": "nominatim:長崎純心大学"
+  },
+  "univ_nagasaki-university": {
+    "lat": 32.7862,
+    "lng": 129.865345,
+    "address": "1-14 Bunkyo-machi, Nagasaki 852-8521, Japan",
+    "name_en": "Nagasaki University",
+    "name_ja": "長崎大学",
+    "source": "nominatim:長崎大学"
+  },
+  "univ_nagoya-bunri-university-guide": {
+    "lat": 35.24808,
+    "lng": 136.791224,
+    "address": "302-1 Maeda, Inazawa-cho, Inazawa, Aichi 492-8520, Japan",
+    "name_en": "Nagoya Bunri University",
+    "name_ja": "名古屋文理大学",
+    "source": "nominatim:名古屋文理大学"
+  },
+  "univ_nagoya-city-university-guide": {
+    "lat": 35.1995,
+    "lng": 136.882529,
+    "address": "1 Kawasumi, Mizuho-cho, Mizuho-ku, Nagoya, Aichi 467-8601, Japan",
+    "name_en": "Nagoya City University",
+    "name_ja": "名古屋市立大学",
+    "source": "nominatim:名古屋市立大学"
+  },
+  "univ_nagoya-gakuin-university-comprehensive-guide": {
+    "lat": 35.128591,
+    "lng": 136.899281,
+    "address": "1-25 Atsuta-nishimachi, Atsuta-ku, Nagoya, Aichi 456-8612, Japan",
+    "name_en": "Nagoya Gakuin University",
+    "name_ja": "名古屋学院大学",
+    "source": "nominatim:名古屋学院大学"
+  },
+  "univ_nagoya-ryujo-womens-university-guide": {
+    "lat": 35.1815,
+    "lng": 136.9066,
+    "address": "4-21-1 Shioiri-cho, Mizuho-ku, Nagoya, Aichi 467-0853, Japan",
+    "name_en": "Nagoya Ryujo Women's University",
+    "name_ja": "名古屋柳城女子大学",
+    "source": "city:愛知県"
+  },
+  "univ_nagoya-university-of-foreign-studies-comprehensive-guide": {
+    "lat": 35.157879,
+    "lng": 137.042261,
+    "address": "57 Takenoyama, Iwasaki-cho, Nisshin-shi, Aichi, 470-0197, Japan",
+    "name_en": "Nagoya University of Foreign Studies",
+    "name_ja": "名古屋外国語大学",
+    "source": "nominatim:名古屋外国語大学"
+  },
+  "univ_nakamura-gakuen-university": {
+    "lat": 35.168623,
+    "lng": 136.88734,
+    "address": "5-7-1 Befu, Jonan-ku, Fukuoka-shi, Fukuoka 814-0198, Japan",
+    "name_en": "Nakamura Gakuen University",
+    "name_ja": "中村学園大学",
+    "source": "nominatim:中村学園大学"
+  },
+  "univ_nara-medical-university-guide": {
+    "lat": 34.503917,
+    "lng": 135.792889,
+    "address": "840 Shijo-cho, Kashihara, Nara 634-8521, Japan",
+    "name_en": "Nara Medical University",
+    "name_ja": "奈良県立医科大学",
+    "source": "nominatim:奈良県立医科大学"
+  },
+  "univ_nara-womens-university-guide": {
+    "lat": 34.688192,
+    "lng": 135.827882,
+    "address": "Kitauoya-higashimachi, Nara-shi, Nara 630-8506, Japan",
+    "name_en": "Nara Women's University",
+    "name_ja": "奈良女子大学",
+    "source": "nominatim:奈良女子大学"
+  },
+  "univ_national-institute-of-fitness-and-sports-in-kanoya-guide": {
+    "lat": 31.39355,
+    "lng": 130.787871,
+    "address": "1 Shiromizu-cho, Kanoya, Kagoshima 891-2393, Japan",
+    "name_en": "National Institute of Fitness and Sports in Kanoya",
+    "name_ja": "鹿屋体育大学",
+    "source": "nominatim:鹿屋体育大学"
+  },
+  "univ_nihon-fukushi-university-comprehensive-guide": {
+    "lat": 34.783404,
+    "lng": 136.868762,
+    "address": "35-6 Eguchi, Mihama-cho, Chita-gun, Aichi 470-3233, Japan",
+    "name_en": "Nihon Fukushi University",
+    "name_ja": "日本福祉大学",
+    "source": "nominatim:日本福祉大学"
+  },
+  "univ_niigata-sangyo-university-international-student-guide": {
+    "lat": 37.334856,
+    "lng": 138.591819,
+    "address": "4730 Karuishi, Kashiwazaki-shi, Niigata 945-1393, Japan",
+    "name_en": "Niigata Sangyo University",
+    "name_ja": "新潟産業大学",
+    "source": "nominatim:新潟産業大学"
+  },
+  "univ_niigata-university-of-international-and-information-studies": {
+    "lat": 37.816895,
+    "lng": 138.900844,
+    "address": "3-1-1 Mizukino, Nishi-ku, Niigata City, Niigata 950-2292, Japan",
+    "name_en": "Niigata University of International and Information Studies",
+    "name_ja": "新潟国際情報大学",
+    "source": "nominatim:新潟国際情報大学"
+  },
+  "univ_niigata-university": {
+    "lat": 37.86777,
+    "lng": 138.943763,
+    "address": "8050 Ikarashi 2-no-cho, Nishi-ku, Niigata City, Niigata Prefecture 950-2181",
+    "name_en": "Niigata University",
+    "name_ja": "新潟大学",
+    "source": "nominatim:新潟大学"
+  },
+  "univ_nippon-bunri-university-guide": {
+    "lat": 33.232554,
+    "lng": 131.723517,
+    "address": "1727 Ichigi, Oita City, Oita Prefecture 870-0397, Japan",
+    "name_en": "Nippon Bunri University",
+    "name_ja": "日本文理大学",
+    "source": "nominatim:日本文理大学"
+  },
+  "univ_obihiro-university-of-agriculture-and-veterinary-medicine": {
+    "lat": 42.871877,
+    "lng": 143.174227,
+    "address": "Inada-cho, Obihiro, Hokkaido 080-8555, Japan",
+    "name_en": "Obihiro University of Agriculture and Veterinary Medicine",
+    "name_ja": "帯広畜産大学",
+    "source": "nominatim:帯広畜産大学"
+  },
+  "univ_ohka-gakuen-university-guide-international-students": {
+    "lat": 35.475144,
+    "lng": 133.065868,
+    "address": "12-11 Takegahana, Sakae-cho, Toyoake-shi, Aichi 470-1193, Japan",
+    "name_en": "Ohka Gakuen University",
+    "name_ja": "桜花学園大学",
+    "source": "nominatim:桜花学園大学"
+  },
+  "univ_ohtani-university-kyoto-international-student-guide": {
+    "lat": 35.041923,
+    "lng": 135.758497,
+    "address": "22 Koyama-Kazusa-cho, Kita-ku, Kyoto 603-8143, Japan",
+    "name_en": "Ohtani University",
+    "name_ja": "大谷大学",
+    "source": "nominatim:大谷大学"
+  },
+  "univ_okayama-prefectural-university-guide": {
+    "lat": 34.692781,
+    "lng": 133.781995,
+    "address": "111 Kuboki, Soja-shi, Okayama 719-1197, Japan",
+    "name_en": "Okayama Prefectural University",
+    "name_ja": "岡山県立大学",
+    "source": "nominatim:岡山県立大学"
+  },
+  "univ_okayama-shoka-university-guide": {
+    "lat": 34.683087,
+    "lng": 133.900654,
+    "address": "2-10-1 Tsushima-Kyomachi, Kita-ku, Okayama-shi, Okayama 700-8601, Japan",
+    "name_en": "Okayama Shoka University",
+    "name_ja": "岡山商科大学",
+    "source": "nominatim:岡山商科大学"
+  },
+  "univ_okayama-university-of-science-guide": {
+    "lat": 34.696575,
+    "lng": 133.928811,
+    "address": "1-1 Ridai-cho, Kita-ku, Okayama-shi, Okayama, 700-0005, Japan",
+    "name_en": "Okayama University of Science",
+    "name_ja": "岡山理科大学",
+    "source": "nominatim:岡山理科大学"
+  },
+  "univ_okinawa-international-university-okiu": {
+    "lat": 26.262048,
+    "lng": 127.753696,
+    "address": "2-6-1 Ginowan, Ginowan City, Okinawa 901-2701, Japan",
+    "name_en": "Okinawa International University",
+    "name_ja": "沖縄国際大学",
+    "source": "nominatim:沖縄国際大学"
+  },
+  "univ_okinawa-prefectural-university-of-arts": {
+    "lat": 26.218809,
+    "lng": 127.72008,
+    "address": "1-4 Shuri-tonokura-cho, Naha-shi, Okinawa, 903-8602, Japan",
+    "name_en": "Okinawa Prefectural University of Arts",
+    "name_ja": "沖縄県立芸術大学",
+    "source": "nominatim:沖縄県立芸術大学"
+  },
+  "univ_osaka-electro-communication-university-international-student-guide": {
+    "lat": 34.742196,
+    "lng": 135.658969,
+    "address": "18-8 Hatsucho, Neyagawa, Osaka 572-8530, Japan",
+    "name_en": "Osaka Electro-Communication University",
+    "name_ja": "大阪電気通信大学",
+    "source": "nominatim:大阪電気通信大学"
+  },
+  "univ_osaka-gakuin-university-comprehensive-guide": {
+    "lat": 34.773713,
+    "lng": 135.541664,
+    "address": "2-36-1 Kishibe-Minami, Suita, Osaka 564-8511, Japan",
+    "name_en": "Osaka Gakuin University",
+    "name_ja": "大阪学院大学",
+    "source": "nominatim:大阪学院大学"
+  },
+  "univ_osaka-institute-of-technology-guide": {
+    "lat": 34.710249,
+    "lng": 135.52536,
+    "address": "5-16-1 Omiya, Asahi-ku, Osaka 535-8585, Japan",
+    "name_en": "Osaka Institute of Technology",
+    "name_ja": "大阪工業大学",
+    "source": "nominatim:大阪工業大学"
+  },
+  "univ_osaka-international-university": {
+    "lat": 34.747173,
+    "lng": 135.603508,
+    "address": "6-21-57 Tohda-cho, Moriguchi-shi, Osaka, 570-8555, Japan",
+    "name_en": "Osaka International University",
+    "name_ja": "大阪国際大学",
+    "source": "nominatim:大阪国際大学"
+  },
+  "univ_osaka-metropolitan-university-omu-guide": {
+    "lat": 34.591955,
+    "lng": 135.506101,
+    "address": "3-3-138 Sugimoto, Sumiyoshi-ku, Osaka 558-8585, Japan (Sugimoto Campus)",
+    "name_en": "Osaka Metropolitan University",
+    "name_ja": "大阪公立大学",
+    "source": "nominatim:大阪公立大学"
+  },
+  "univ_osaka-sangyo-university-guide": {
+    "lat": 34.70782,
+    "lng": 135.64192,
+    "address": "3-1-1 Nakagaito, Daito-shi, Osaka, 574-8530, Japan",
+    "name_en": "Osaka Sangyo University",
+    "name_ja": "大阪産業大学",
+    "source": "nominatim:大阪産業大学"
+  },
+  "univ_osaka-seikei-university-comprehensive-guide": {
+    "lat": 34.759168,
+    "lng": 135.537123,
+    "address": "3-5-30 Aikawa, Higashiyodogawa-ku, Osaka, 533-0007, Japan",
+    "name_en": "Osaka Seikei University",
+    "name_ja": "大阪成蹊大学",
+    "source": "nominatim:大阪成蹊大学"
+  },
+  "univ_osaka-university-of-arts-guide": {
+    "lat": 34.511199,
+    "lng": 135.631448,
+    "address": "〒585-8555 大阪府南河内郡河南町東山469",
+    "name_en": "Osaka University of Arts",
+    "name_ja": "大阪芸術大学",
+    "source": "nominatim:大阪芸術大学"
+  },
+  "univ_osaka-university-of-commerce-guide": {
+    "lat": 34.665999,
+    "lng": 135.585314,
+    "address": "4-1-10 Mikunigaoka, Higashiosaka-shi, Osaka 577-8505, Japan",
+    "name_en": "Osaka University of Commerce",
+    "name_ja": "大阪商業大学",
+    "source": "nominatim:大阪商業大学"
+  },
+  "univ_osaka-university-of-economics-guide": {
+    "lat": 34.749753,
+    "lng": 135.543019,
+    "address": "2-2-8 Osumi, Higashiyodogawa-ku, Osaka, 533-8533, Japan",
+    "name_en": "Osaka University of Economics",
+    "name_ja": "大阪経済大学",
+    "source": "nominatim:大阪経済大学"
+  },
+  "univ_otaru-university-of-commerce-guide": {
+    "lat": 43.191213,
+    "lng": 140.979456,
+    "address": "3-5-21 Midori, Otaru, Hokkaido 047-8501, Japan",
+    "name_en": "Otaru University of Commerce",
+    "name_ja": "小樽商科大学",
+    "source": "nominatim:小樽商科大学"
+  },
+  "univ_otemae-university-guide-for-international-students": {
+    "lat": 34.737951,
+    "lng": 135.32583,
+    "address": "6-42 Okada-yama, Nishinomiya, Hyogo 662-8505, Japan",
+    "name_en": "Otemae University",
+    "name_ja": "大手前大学",
+    "source": "nominatim:大手前大学"
+  },
+  "univ_otemon-gakuin-university": {
+    "lat": 34.848141,
+    "lng": 135.558485,
+    "address": "2-1-15 Nishiai, Ibaraki-shi, Osaka 567-8502, Japan",
+    "name_en": "Otemon Gakuin University",
+    "name_ja": "追手門学院大学",
+    "source": "nominatim:追手門学院大学"
+  },
+  "univ_prefectural-university-of-hiroshima": {
+    "lat": 34.366538,
+    "lng": 132.468797,
+    "address": "1-1-71 Ujina-higashi, Minami-ku, Hiroshima City, Hiroshima, 734-8558, Japan",
+    "name_en": "Prefectural University of Hiroshima",
+    "name_ja": "県立広島大学",
+    "source": "nominatim:県立広島大学"
+  },
+  "univ_prefectural-university-of-kumamoto": {
+    "lat": 32.805866,
+    "lng": 130.765266,
+    "address": "3-1-100 Tsukide, Higashi-ku, Kumamoto City, Kumamoto, 862-8502, Japan",
+    "name_en": "Prefectural University of Kumamoto",
+    "name_ja": "熊本県立大学",
+    "source": "nominatim:熊本県立大学"
+  },
+  "univ_ritsumeikan-university": {
+    "lat": 35.03297,
+    "lng": 135.724468,
+    "address": "56-1 Tojiin Kitamachi, Kita Ward, Kyoto, 603-8577, Japan (Kinugasa Campus)",
+    "name_en": "Ritsumeikan University",
+    "name_ja": "立命館大学",
+    "source": "nominatim:立命館大学"
+  },
+  "univ_ryukoku-university": {
+    "lat": 34.963379,
+    "lng": 135.940931,
+    "address": "京都府京都市伏見区深草塚本町67",
+    "name_en": "Ryukoku University",
+    "name_ja": "龍谷大学",
+    "source": "nominatim:龍谷大学"
+  },
+  "univ_saga-university-international-student-guide": {
+    "lat": 33.242193,
+    "lng": 130.290651,
+    "address": "1 Honjo-machi, Saga City, Saga Prefecture, 840-8502, Japan",
+    "name_en": "Saga University",
+    "name_ja": "佐賀大学",
+    "source": "nominatim:佐賀大学"
+  },
+  "univ_saitama-institute-of-technology-guide": {
+    "lat": 36.19515,
+    "lng": 139.239298,
+    "address": "1690 Fusaiji, Fukaya-shi, Saitama 369-0293, Japan",
+    "name_en": "Saitama Institute of Technology",
+    "name_ja": "埼玉工業大学",
+    "source": "nominatim:埼玉工業大学"
+  },
+  "univ_saitama-university": {
+    "lat": 35.861972,
+    "lng": 139.607589,
+    "address": "〒338-8570 埼玉県さいたま市桜区大字下大久保255",
+    "name_en": "Saitama University",
+    "name_ja": "埼玉大学",
+    "source": "nominatim:埼玉大学"
+  },
+  "univ_sakushin-gakuin-university-guide": {
+    "lat": 36.543797,
+    "lng": 139.977785,
+    "address": "908 Takebayashimachi, Utsunomiya, Tochigi 321-3236, Japan",
+    "name_en": "Sakushin Gakuin University",
+    "name_ja": "作新学院大学",
+    "source": "nominatim:作新学院大学"
+  },
+  "univ_sanno-university-comprehensive-guide-for-international-students": {
+    "lat": 35.41564,
+    "lng": 139.287535,
+    "address": "6-39-15 Todoroki, Setagaya-ku, Tokyo 158-8630, Japan",
+    "name_en": "Sanno University",
+    "name_ja": "産業能率大学",
+    "source": "nominatim:産業能率大学"
+  },
+  "univ_sanyo-gakuen-university": {
+    "lat": 37.907976,
+    "lng": 139.061876,
+    "address": "1-14-1 Hirai, Naka-ku, Okayama-shi, Okayama, 703-8501, Japan",
+    "name_en": "Sanyo Gakuen University",
+    "name_ja": "山陽学園大学",
+    "source": "nominatim:山陽学園大学"
+  },
+  "univ_seigakuin-university-guide-international-students": {
+    "lat": 35.938893,
+    "lng": 139.596344,
+    "address": "1-1 Tozaki, Ageo-shi, Saitama 362-8585, Japan",
+    "name_en": "Seigakuin University",
+    "name_ja": "聖学院大学",
+    "source": "nominatim:聖学院大学"
+  },
+  "univ_seinan-gakuin-university-fukuoka": {
+    "lat": 33.585864,
+    "lng": 130.357557,
+    "address": "〒814-8511 福岡県福岡市早良区西新6丁目2-92",
+    "name_en": "Seinan Gakuin University",
+    "name_ja": "西南学院大学",
+    "source": "nominatim:西南学院大学"
+  },
+  "univ_setsunan-university-comprehensive-guide": {
+    "lat": 34.778422,
+    "lng": 135.612768,
+    "address": "17-8 Ikeda Nakamachi, Neyagawa, Osaka 572-8508, Japan",
+    "name_en": "Setsunan University",
+    "name_ja": "摂南大学",
+    "source": "nominatim:摂南大学"
+  },
+  "univ_shikoku-gakuin-university-guide": {
+    "lat": 34.225915,
+    "lng": 133.783403,
+    "address": "3-2-1 Bunkyo-cho, Zentsuji-shi, Kagawa 765-8505, Japan",
+    "name_en": "Shikoku Gakuin University",
+    "name_ja": "四国学院大学",
+    "source": "nominatim:四国学院大学"
+  },
+  "univ_shikoku-university": {
+    "lat": 34.102504,
+    "lng": 134.55398,
+    "address": "115 Furukawa, Ojin-cho, Tokushima City, Tokushima Prefecture, 771-1192, Japan",
+    "name_en": "Shikoku University",
+    "name_ja": "四国大学",
+    "source": "nominatim:四国大学"
+  },
+  "univ_shimane-university-comprehensive-guide": {
+    "lat": 35.48583,
+    "lng": 133.068479,
+    "address": "1060 Nishikawatsu-cho, Matsue, Shimane 690-8504, Japan",
+    "name_en": "Shimane University",
+    "name_ja": "島根大学",
+    "source": "nominatim:島根大学"
+  },
+  "univ_shinshu-university": {
+    "lat": 36.252433,
+    "lng": 137.976978,
+    "address": "長野県松本市旭3-1-1",
+    "name_en": "Shinshu University",
+    "name_ja": "信州大学",
+    "source": "nominatim:信州大学"
+  },
+  "univ_shitennoji-university-international-student-guide": {
+    "lat": 34.546053,
+    "lng": 135.586215,
+    "address": "3-2-1 Gakuenmae, Habikino, Osaka 583-8501, Japan",
+    "name_en": "Shitennoji University",
+    "name_ja": "四天王寺大学",
+    "source": "nominatim:四天王寺大学"
+  },
+  "univ_shizuoka-university-of-welfare": {
+    "lat": 35.283617,
+    "lng": 135.128063,
+    "address": "5-1-1 Honmachi, Yaizu, Shizuoka 425-8611, Japan",
+    "name_en": "Shizuoka University of Welfare",
+    "name_ja": "静岡福祉大学",
+    "source": "nominatim:静岡福祉大学"
+  },
+  "univ_shujitsu-university-international-student-guide": {
+    "lat": 34.676899,
+    "lng": 133.935871,
+    "address": "1-1-1 Nishigawara, Naka-ku, Okayama-shi, Okayama 703-8516, Japan",
+    "name_en": "Shujitsu University",
+    "name_ja": "就実大学",
+    "source": "nominatim:就実大学"
+  },
+  "univ_sojo-university-comprehensive-guide": {
+    "lat": 32.833696,
+    "lng": 130.699027,
+    "address": "4-22-1 Ikeda, Nishi-ku, Kumamoto-shi, Kumamoto 860-0082, Japan",
+    "name_en": "Sojo University",
+    "name_ja": "崇城大学",
+    "source": "nominatim:崇城大学"
+  },
+  "univ_st-catherine-university": {
+    "lat": 33.975206,
+    "lng": 132.78187,
+    "address": "660 Hojomachi, Matsuyama, Ehime 799-2496, Japan",
+    "name_en": "St. Catherine University",
+    "name_ja": "聖カタリナ大学",
+    "source": "nominatim:聖カタリナ大学"
+  },
+  "univ_sugiyama-jogakuen-university-guide": {
+    "lat": 35.15999,
+    "lng": 136.987555,
+    "address": "17-3 Hoshigaoka Motomachi, Chikusa-ku, Nagoya, Aichi 464-8662, Japan",
+    "name_en": "Sugiyama Jogakuen University",
+    "name_ja": "椙山女学園大学",
+    "source": "nominatim:椙山女学園大学"
+  },
+  "univ_surugadai-university-guide-international-students": {
+    "lat": 35.832034,
+    "lng": 139.334114,
+    "address": "698 Azu, Hanno, Saitama 357-8555, Japan",
+    "name_en": "Surugadai University",
+    "name_ja": "駿河台大学",
+    "source": "nominatim:駿河台大学"
+  },
+  "univ_suzuka-university-of-medical-science-guide": {
+    "lat": 34.859,
+    "lng": 136.599154,
+    "address": "1001-1 Kishioka-cho, Suzuka-shi, Mie 510-0293, Japan",
+    "name_en": "Suzuka University of Medical Science",
+    "name_ja": "鈴鹿医療科学大学",
+    "source": "nominatim:鈴鹿医療科学大学"
+  },
+  "univ_takamatsu-university": {
+    "lat": 35.496978,
+    "lng": 133.026068,
+    "address": "960 Kasugacho, Takamatsu, Kagawa 761-0194, Japan",
+    "name_en": "Takamatsu University",
+    "name_ja": "高松大学",
+    "source": "nominatim:高松大学"
+  },
+  "univ_takaoka-university-of-law": {
+    "lat": 35.635028,
+    "lng": 139.735413,
+    "address": "4-1 Toide-Machi, Takaoka-shi, Toyama 939-1193, Japan",
+    "name_en": "Takaoka University of Law",
+    "name_ja": "高岡法科大学",
+    "source": "nominatim:高岡法科大学"
+  },
+  "univ_takasaki-city-university-of-economics-comprehensive-guide": {
+    "lat": 36.345438,
+    "lng": 138.976662,
+    "address": "1300 Kaminamiemachi, Takasaki, Gunma 370-0801, Japan",
+    "name_en": "Takasaki City University of Economics",
+    "name_ja": "高崎経済大学",
+    "source": "nominatim:高崎経済大学"
+  },
+  "univ_tenri-university-guide-international-students": {
+    "lat": 34.596921,
+    "lng": 135.843908,
+    "address": "1050 Somanouchi-cho, Tenri, Nara 632-8510, Japan",
+    "name_en": "Tenri University",
+    "name_ja": "天理大学",
+    "source": "nominatim:天理大学"
+  },
+  "univ_tezukayama-gakuin-university": {
+    "lat": 34.490247,
+    "lng": 135.5334,
+    "address": "2-1-1 Risacho, Minami-ku, Sakai, Osaka 590-0113, Japan",
+    "name_en": "Tezukayama Gakuin University",
+    "name_ja": "帝塚山学院大学",
+    "source": "nominatim:帝塚山学院大学"
+  },
+  "univ_tezukayama-university-nara-comprehensive-guide": {
+    "lat": 34.685858,
+    "lng": 135.721476,
+    "address": "7-1-1 Tezukayama, Nara City, Nara Prefecture, 631-8501, Japan",
+    "name_en": "Tezukayama University",
+    "name_ja": "帝塚山大学",
+    "source": "nominatim:帝塚山大学"
+  },
+  "univ_the-university-of-aizu-guide-international-students": {
+    "lat": 37.523673,
+    "lng": 139.938073,
+    "address": "Tsuruga, Ikki-machi, Aizuwakamatsu City, Fukushima, 965-8580, Japan",
+    "name_en": "The University of Aizu",
+    "name_ja": "会津大学",
+    "source": "nominatim:会津大学"
+  },
+  "univ_the-university-of-kitakyushu-international-student-guide": {
+    "lat": 33.843975,
+    "lng": 130.87732,
+    "address": "4-2-1 Kitagawa, Kokuraminami-ku, Kitakyushu, Fukuoka 802-8577, Japan",
+    "name_en": "The University of Kitakyushu",
+    "name_ja": "北九州市立大学",
+    "source": "nominatim:北九州市立大学"
+  },
+  "univ_the-university-of-shiga-prefecture-guide": {
+    "lat": 35.258498,
+    "lng": 136.218177,
+    "address": "2500 Hassaka-cho, Hikone, Shiga 522-8533, Japan",
+    "name_en": "The University of Shiga Prefecture",
+    "name_ja": "滋賀県立大学",
+    "source": "nominatim:滋賀県立大学"
+  },
+  "univ_tohoku-fukushi-university-guide": {
+    "lat": 38.279684,
+    "lng": 140.848649,
+    "address": "1-8-1 Kunimi, Aoba-ku, Sendai, Miyagi 981-8522, Japan",
+    "name_en": "Tohoku Fukushi University",
+    "name_ja": "東北福祉大学",
+    "source": "nominatim:東北福祉大学"
+  },
+  "univ_tohoku-gakuin-university-comprehensive-guide": {
+    "lat": 43.066045,
+    "lng": 141.494649,
+    "address": "1-3-1 Tsuchitoi, Aoba-ku, Sendai, Miyagi 980-8511, Japan",
+    "name_en": "Tohoku Gakuin University",
+    "name_ja": "東北学院大学",
+    "source": "nominatim:東北学院大学"
+  },
+  "univ_tohoku-institute-of-technology-guide": {
+    "lat": 35.606783,
+    "lng": 139.684799,
+    "address": "35-1 Yagiyama-kasumicho, Taihaku-ku, Sendai, Miyagi 982-8577, Japan",
+    "name_en": "Tohoku Institute of Technology",
+    "name_ja": "東北工業大学",
+    "source": "nominatim:東北工業大学"
+  },
+  "univ_toin-university-of-yokohama-international-student-guide": {
+    "lat": 35.566191,
+    "lng": 139.519133,
+    "address": "1614 Kuroganecho, Aoba Ward, Yokohama, Kanagawa 225-8503, Japan",
+    "name_en": "Toin University of Yokohama",
+    "name_ja": "桐蔭横浜大学",
+    "source": "nominatim:Toin University of Yokohama"
+  },
+  "univ_tokiwa-university-international-student-guide": {
+    "lat": 36.379377,
+    "lng": 140.4404,
+    "address": "1-430-1 Miwa, Mito, Ibaraki 310-8585, Japan",
+    "name_en": "Tokiwa University",
+    "name_ja": "常磐大学",
+    "source": "nominatim:常磐大学"
+  },
+  "univ_tokoha-university-shizuoka-guide": {
+    "lat": 35.00474,
+    "lng": 138.437709,
+    "address": "6-1 Yayoi-cho, Suruga-ku, Shizuoka-shi, Shizuoka 422-8581, Japan",
+    "name_en": "Tokoha University",
+    "name_ja": "常葉大学",
+    "source": "nominatim:常葉大学"
+  },
+  "univ_tokushima-bunri-university": {
+    "lat": 34.053402,
+    "lng": 134.558272,
+    "address": "180 Yamashiro-cho, Tokushima-shi, Tokushima 770-8514, Japan",
+    "name_en": "Tokushima Bunri University",
+    "name_ja": "徳島文理大学",
+    "source": "nominatim:徳島文理大学"
+  },
+  "univ_tokuyama-university-shunan-public-university": {
+    "lat": 34.186,
+    "lng": 131.4706,
+    "address": "843-4-2 Gakuedai, Shunan, Yamaguchi 745-8566, Japan",
+    "name_en": "Tokuyama University (Current: Shunan University)",
+    "name_ja": "徳山大学（現：周南公立大学）",
+    "source": "city:山口"
+  },
+  "univ_tokyo-city-university-international-student-guide": {
+    "lat": 35.598114,
+    "lng": 139.650995,
+    "address": "1-28-1 Tamazutsumi, Setagaya-ku, Tokyo 158-8557, Japan",
+    "name_en": "Tokyo City University",
+    "name_ja": "東京都市大学",
+    "source": "nominatim:東京都市大学"
+  },
+  "univ_tokyo-metropolitan-university-tmu-guide": {
+    "lat": 35.620037,
+    "lng": 139.382867,
+    "address": "1-1 Minami-Osawa, Hachioji, Tokyo 192-0397, Japan (Minami-Osawa Campus)",
+    "name_en": "Tokyo Metropolitan University",
+    "name_ja": "東京都立大学",
+    "source": "nominatim:東京都立大学"
+  },
+  "univ_tokyo-university-foreign-studies-tufs-guide": {
+    "lat": 35.674173,
+    "lng": 139.520434,
+    "address": "3-11-1 Asahi-cho, Fuchu-shi, Tokyo 183-8534, Japan",
+    "name_en": "Tokyo University of Foreign Studies",
+    "name_ja": "東京外国語大学",
+    "source": "nominatim:東京外国語大学"
+  },
+  "univ_tokyo-university-of-the-arts": {
+    "lat": 35.747229,
+    "lng": 139.802157,
+    "address": "〒110-8714 東京都台東区上野公園12-8",
+    "name_en": "Tokyo University of the Arts",
+    "name_ja": "東京藝術大学",
+    "source": "nominatim:東京藝術大学"
+  },
+  "univ_tokyo-university-social-welfare-guide": {
+    "lat": 35.727869,
+    "lng": 139.718312,
+    "address": "3-39-22 Higashi-Ikebukuro, Toshima-ku, Tokyo 170-8432, Japan (Ikebukuro Main Campus)",
+    "name_en": "Tokyo University of Social Welfare",
+    "name_ja": "東京福祉大学",
+    "source": "nominatim:東京福祉大学"
+  },
+  "univ_tottori-university-international-student-guide": {
+    "lat": 35.513899,
+    "lng": 134.173131,
+    "address": "4-101 Koyama-cho Minami, Tottori-shi, Tottori 680-8550, Japan",
+    "name_en": "Tottori University",
+    "name_ja": "鳥取大学",
+    "source": "nominatim:鳥取大学"
+  },
+  "univ_toyama-prefectural-university-guide": {
+    "lat": 36.709504,
+    "lng": 137.101221,
+    "address": "5180 Kurokawa, Imizu, Toyama 939-0398, Japan",
+    "name_en": "Toyama Prefectural University",
+    "name_ja": "富山県立大学",
+    "source": "nominatim:富山県立大学"
+  },
+  "univ_toyama-university-of-international-studies-guide": {
+    "lat": 36.600181,
+    "lng": 137.274821,
+    "address": "65-1 Higashikuromaki, Toyama-shi, Toyama 930-1292, Japan",
+    "name_en": "Toyama University of International Studies",
+    "name_ja": "富山国際大学",
+    "source": "nominatim:富山国際大学"
+  },
+  "univ_toyo-eiwa-university-guide": {
+    "lat": 35.508541,
+    "lng": 139.510107,
+    "address": "32-1 Miho-cho, Midori-ku, Yokohama, Kanagawa 226-0015, Japan",
+    "name_en": "Toyo Eiwa University",
+    "name_ja": "東洋英和女学院大学",
+    "source": "nominatim:東洋英和女学院大学"
+  },
+  "univ_tsuda-university-international-students-guide": {
+    "lat": 35.722047,
+    "lng": 139.46502,
+    "address": "2-1-1 Tsuda-machi, Kodaira-shi, Tokyo 187-8577, Japan",
+    "name_en": "Tsuda University",
+    "name_ja": "津田塾大学",
+    "source": "nominatim:津田塾大学"
+  },
+  "univ_tsukuba-international-university-guide": {
+    "lat": 36.106942,
+    "lng": 140.199063,
+    "address": "6-20-1 Manabe, Tsuchiura, Ibaraki 300-0051, Japan",
+    "name_en": "Tsukuba International University",
+    "name_ja": "つくば国際大学",
+    "source": "nominatim:つくば国際大学"
+  },
+  "univ_tsurumi-university-guide-for-international-students": {
+    "lat": 35.505997,
+    "lng": 139.673572,
+    "address": "2-1-3 Tsurumi, Tsurumi-ku, Yokohama, Kanagawa 230-8501, Japan",
+    "name_en": "Tsurumi University",
+    "name_ja": "鶴見大学",
+    "source": "nominatim:鶴見大学"
+  },
+  "univ_university-of-east-asia": {
+    "lat": 34.000334,
+    "lng": 130.948285,
+    "address": "2-1 Ichinomiya Gakuencho, Shimonoseki, Yamaguchi 751-8503, Japan",
+    "name_en": "University of East Asia",
+    "name_ja": "東亜大学",
+    "source": "nominatim:東亜大学"
+  },
+  "univ_university-of-electro-communications-uec-guide": {
+    "lat": 35.657267,
+    "lng": 139.542563,
+    "address": "1-5-1 Chofugaoka, Chofu, Tokyo 182-8585, Japan",
+    "name_en": "The University of Electro-Communications",
+    "name_ja": "電気通信大学",
+    "source": "nominatim:電気通信大学"
+  },
+  "univ_university-of-fukui": {
+    "lat": 36.07681,
+    "lng": 136.211926,
+    "address": "3-9-1 Bunkyo, Fukui-shi, Fukui, 910-8507, Japan",
+    "name_en": "University of Fukui",
+    "name_ja": "福井大学",
+    "source": "nominatim:福井大学"
+  },
+  "univ_university-of-hyogo-comprehensive-guide": {
+    "lat": 34.825628,
+    "lng": 134.702066,
+    "address": "8-2-1 Gakuen-nishi-machi, Nishi-ku, Kobe-shi, Hyogo 651-2197, Japan",
+    "name_en": "University of Hyogo",
+    "name_ja": "兵庫県立大学",
+    "source": "nominatim:兵庫県立大学"
+  },
+  "univ_university-of-marketing-and-distribution-sciences-guide": {
+    "lat": 34.686808,
+    "lng": 135.056487,
+    "address": "3-1, Gakuen-nishimachi, Nishi-ku, Kobe-shi, Hyogo, 651-2188, Japan",
+    "name_en": "University of Marketing and Distribution Sciences",
+    "name_ja": "流通科学大学",
+    "source": "nominatim:流通科学大学"
+  },
+  "univ_university-of-nagasaki-guide": {
+    "lat": 33.185789,
+    "lng": 129.667214,
+    "address": "123 Kawashimo-cho, Sasebo, Nagasaki 858-8580, Japan (Sasebo Campus)",
+    "name_en": "University of Nagasaki",
+    "name_ja": "長崎県立大学",
+    "source": "nominatim:長崎県立大学"
+  },
+  "univ_university-of-niigata-prefecture": {
+    "lat": 37.923141,
+    "lng": 139.126972,
+    "address": "4-3-1 Ebigase, Higashi-ku, Niigata-shi, Niigata 950-8680, Japan",
+    "name_en": "University of Niigata Prefecture",
+    "name_ja": "新潟県立大学",
+    "source": "nominatim:新潟県立大学"
+  },
+  "univ_university-of-shizuoka-guide-international-students": {
+    "lat": 34.978964,
+    "lng": 133.607848,
+    "address": "52-1 Yada, Suruga-ku, Shizuoka City, Shizuoka Prefecture, 422-8526, Japan",
+    "name_en": "University of Shizuoka",
+    "name_ja": "静岡県立大学",
+    "source": "nominatim:静岡県立大学"
+  },
+  "univ_university-of-the-ryukyus-okinawa": {
+    "lat": 26.249377,
+    "lng": 127.764158,
+    "address": "1 Senbaru, Nishihara-cho, Nakagami-gun, Okinawa 903-0213, Japan",
+    "name_en": "University of the Ryukyus",
+    "name_ja": "琉球大学",
+    "source": "nominatim:琉球大学"
+  },
+  "univ_university-of-toyama-international-student-guide": {
+    "lat": 34.456974,
+    "lng": 133.23088,
+    "address": "3190 Gofuku, Toyama-shi, Toyama 930-8555, Japan",
+    "name_en": "University of Toyama",
+    "name_ja": "富山大学",
+    "source": "nominatim:富山大学"
+  },
+  "univ_wakayama-medical-university-international-student-guide": {
+    "lat": 34.195257,
+    "lng": 135.190272,
+    "address": "811-1 Kimiidera, Wakayama City, Wakayama Prefecture 641-8509, Japan",
+    "name_en": "Wakayama Medical University",
+    "name_ja": "和歌山県立医科大学",
+    "source": "nominatim:和歌山県立医科大学"
+  },
+  "univ_wakayama-university-international-student-guide": {
+    "lat": 34.265828,
+    "lng": 135.151736,
+    "address": "930 Sakaedani, Wakayama City, Wakayama Prefecture 640-8510, Japan",
+    "name_en": "Wakayama University",
+    "name_ja": "和歌山大学",
+    "source": "nominatim:和歌山大学"
+  },
+  "univ_wayo-womens-university-guide": {
+    "lat": 35.742991,
+    "lng": 139.904291,
+    "address": "2-3-1 Konodai, Ichikawa, Chiba 272-8533, Japan",
+    "name_en": "Wayo Women's University",
+    "name_ja": "和洋女子大学",
+    "source": "nominatim:和洋女子大学"
+  },
+  "univ_yamagata-prefectural-university-of-health-sciences-guide": {
+    "lat": 38.296144,
+    "lng": 140.346078,
+    "address": "260 Kamiyanagi, Yamagata-shi, Yamagata 990-2212, Japan",
+    "name_en": "Yamagata Prefectural University of Health Sciences",
+    "name_ja": "山形県立保健医療大学",
+    "source": "nominatim:山形県立保健医療大学"
+  },
+  "univ_yamaguchi-gakugei-university": {
+    "lat": 34.120752,
+    "lng": 131.402994,
+    "address": "3251-1 Senboda, Yamaguchi City, Yamaguchi Prefecture 754-0021, Japan",
+    "name_en": "Yamaguchi Gakugei University",
+    "name_ja": "山口学芸大学",
+    "source": "nominatim:山口学芸大学"
+  },
+  "univ_yamaguchi-prefectural-university-guide": {
+    "lat": 34.193945,
+    "lng": 131.498782,
+    "address": "3-2-1 Sakurabatake, Yamaguchi-shi, Yamaguchi 753-8502, Japan",
+    "name_en": "Yamaguchi Prefectural University",
+    "name_ja": "山口県立大学",
+    "source": "nominatim:山口県立大学"
+  },
+  "univ_yamaguchi-university-comprehensive-guide": {
+    "lat": 34.148076,
+    "lng": 131.468678,
+    "address": "1677-1 Yoshida, Yamaguchi City, Yamaguchi Prefecture 753-8511, Japan",
+    "name_en": "Yamaguchi University",
+    "name_ja": "山口大学",
+    "source": "nominatim:山口大学"
+  },
+  "univ_yamanashi-gakuin-university-comprehensive-guide": {
+    "lat": 35.656363,
+    "lng": 138.601628,
+    "address": "2-4-5 Sakaori, Kofu, Yamanashi 400-8575, Japan",
+    "name_en": "Yamanashi Gakuin University",
+    "name_ja": "山梨学院大学",
+    "source": "nominatim:山梨学院大学"
+  },
+  "univ_yamanashi-prefectural-university-international-student-guide": {
+    "lat": 35.671405,
+    "lng": 138.546037,
+    "address": "5-11-1 Iida, Kofu, Yamanashi 400-0035, Japan",
+    "name_en": "Yamanashi Prefectural University",
+    "name_ja": "山梨県立大学",
+    "source": "nominatim:山梨県立大学"
+  },
+  "univ_yasuda-womens-university-guide": {
+    "lat": 34.478574,
+    "lng": 132.452775,
+    "address": "6-18-1 Yasuhigashi, Asaminami-ku, Hiroshima-shi, Hiroshima 731-0153, Japan",
+    "name_en": "Yasuda Women's University",
+    "name_ja": "安田女子大学",
+    "source": "nominatim:安田女子大学"
+  },
+  "univ_yokkaichi-university-guide": {
+    "lat": 35.021609,
+    "lng": 136.607151,
+    "address": "1200 Kayacho, Yokkaichi, Mie 512-8512, Japan",
+    "name_en": "Yokkaichi University",
+    "name_ja": "四日市大学",
+    "source": "nominatim:四日市大学"
+  },
+  "univ_yokohama-city-university-ycu-comprehensive-guide": {
+    "lat": 35.473798,
+    "lng": 139.590045,
+    "address": "1-1 Kanazawa-Hakkei, Kanazawa-ku, Yokohama, 236-0027, Japan (Main Campus)",
+    "name_en": "Yokohama City University",
+    "name_ja": "横浜市立大学",
+    "source": "nominatim:横浜市立大学"
+  },
+  "univ_yokohama-college-of-commerce-guide": {
+    "lat": 35.498176,
+    "lng": 139.659597,
+    "address": "4-11-1 Higashiterao, Tsurumi-ku, Yokohama, Kanagawa 230-8577, Japan",
+    "name_en": "Yokohama College of Commerce",
+    "name_ja": "横浜商科大学",
+    "source": "nominatim:横浜商科大学"
+  }
+}

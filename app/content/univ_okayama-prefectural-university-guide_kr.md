@@ -21,8 +21,8 @@ id: univ_okayama-prefectural-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.692781
+  lng: 133.781995
 stats:
   acceptance_rate: 25-35%
   international_students: 42

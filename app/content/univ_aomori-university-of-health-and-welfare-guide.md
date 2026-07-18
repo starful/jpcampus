@@ -20,8 +20,8 @@ features:
 id: univ_aomori-university-of-health-and-welfare-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 40.814191
+  lng: 140.792575
 stats:
   acceptance_rate: 25% (Highly competitive due to regional public status)
   international_students: 3

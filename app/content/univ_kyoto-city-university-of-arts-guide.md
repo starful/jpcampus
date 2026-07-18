@@ -18,8 +18,8 @@ features:
 id: univ_kyoto-city-university-of-arts-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.986385
+  lng: 135.763716
 stats:
   acceptance_rate: Estimated 8-12% depending on department
   international_students: 55

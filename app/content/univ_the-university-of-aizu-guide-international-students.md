@@ -18,8 +18,8 @@ features:
 id: univ_the-university-of-aizu-guide-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.523673
+  lng: 139.938073
 stats:
   acceptance_rate: 25.5%
   international_students: 190

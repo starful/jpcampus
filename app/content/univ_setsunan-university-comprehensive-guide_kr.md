@@ -24,8 +24,8 @@ id: univ_setsunan-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.778422
+  lng: 135.612768
 stats:
   acceptance_rate: 45-55%
   international_students: 185

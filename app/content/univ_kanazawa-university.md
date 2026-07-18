@@ -26,8 +26,8 @@ id: univ_kanazawa-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.550169
+  lng: 136.713718
 stats:
   acceptance_rate: 30-40%
   international_students: 693

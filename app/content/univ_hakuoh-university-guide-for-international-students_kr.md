@@ -21,8 +21,8 @@ id: univ_hakuoh-university-guide-for-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.314646
+  lng: 139.792535
 stats:
   acceptance_rate: 약 45-55% (추정)
   international_students: 145

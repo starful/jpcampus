@@ -20,8 +20,8 @@ features:
 id: univ_chiba-university-of-commerce-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.744226
+  lng: 139.902874
 stats:
   acceptance_rate: 35-45%
   international_students: 542

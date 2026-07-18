@@ -24,8 +24,8 @@ id: univ_kyoai-gakuen-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.3912
+  lng: 139.0608
 stats:
   acceptance_rate: 65-75%
   international_students: 135

@@ -18,8 +18,8 @@ features:
 id: univ_kyushu-dental-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.5904
+  lng: 130.4017
 stats:
   acceptance_rate: 15-20% (Highly Competitive)
   international_students: 12

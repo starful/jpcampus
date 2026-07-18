@@ -22,8 +22,8 @@ id: univ_hokuriku-university-guide-for-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.030952
+  lng: 135.784963
 stats:
   acceptance_rate: Estimated 45-65%
   international_students: 450

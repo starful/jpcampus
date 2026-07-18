@@ -19,8 +19,8 @@ features:
 id: univ_kansai-university-of-health-sciences
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.406698
+  lng: 135.370251
 stats:
   acceptance_rate: 60% (Highly dependent on Japanese language proficiency)
   international_students: 12

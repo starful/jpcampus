@@ -19,8 +19,8 @@ features:
 id: univ_national-institute-of-fitness-and-sports-in-kanoya-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 31.39355
+  lng: 130.787871
 stats:
   acceptance_rate: 15-25%
   international_students: 25

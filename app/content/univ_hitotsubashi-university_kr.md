@@ -24,8 +24,8 @@ id: univ_hitotsubashi-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.693795
+  lng: 139.443928
 stats:
   acceptance_rate: 15%
   international_students: 300

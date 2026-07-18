@@ -24,8 +24,8 @@ id: univ_shimane-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.48583
+  lng: 133.068479
 stats:
   acceptance_rate: 35-45%
   international_students: 245

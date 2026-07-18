@@ -21,8 +21,8 @@ id: univ_kanazawa-institute-of-technology
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.530922
+  lng: 136.627583
 stats:
   acceptance_rate: Estimated 45-55%
   international_students: 118

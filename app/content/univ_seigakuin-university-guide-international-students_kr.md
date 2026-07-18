@@ -21,8 +21,8 @@ id: univ_seigakuin-university-guide-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.938893
+  lng: 139.596344
 stats:
   acceptance_rate: 60% - 70% (유학생 전형 추정치)
   international_students: 465

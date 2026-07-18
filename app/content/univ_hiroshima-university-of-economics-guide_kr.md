@@ -23,8 +23,8 @@ id: univ_hiroshima-university-of-economics-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.44961
+  lng: 132.455122
 stats:
   acceptance_rate: 55-65%
   international_students: 145

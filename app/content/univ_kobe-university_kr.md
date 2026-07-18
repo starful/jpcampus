@@ -30,8 +30,8 @@ id: univ_kobe-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.726639
+  lng: 135.237169
 stats:
   acceptance_rate: 20%
   international_students: 1500

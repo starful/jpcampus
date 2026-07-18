@@ -20,8 +20,8 @@ features:
 id: univ_hirosaki-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 40.587949
+  lng: 140.472483
 stats:
   acceptance_rate: 35-45%
   international_students: 195

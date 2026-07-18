@@ -18,8 +18,8 @@ features:
 id: univ_aichi-toho-university-guide-for-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.173781
+  lng: 136.98422
 stats:
   acceptance_rate: Approx. 65-75%
   international_students: 115

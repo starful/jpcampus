@@ -24,8 +24,8 @@ features:
 id: univ_tezukayama-university-nara-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.685858
+  lng: 135.721476
 seo_description: Explore Tezukayama University in Nara. Find 2026 tuition fees, campus
   life, and admission requirements for international students.
 seo_title: Tezukayama University (Nara) | 2026 Guide for International Students

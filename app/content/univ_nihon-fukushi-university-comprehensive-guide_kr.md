@@ -26,8 +26,8 @@ id: univ_nihon-fukushi-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.783404
+  lng: 136.868762
 stats:
   acceptance_rate: 55-65% (학부별 상이)
   international_students: 385

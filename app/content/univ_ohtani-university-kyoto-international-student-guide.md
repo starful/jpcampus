@@ -19,8 +19,8 @@ features:
 id: univ_ohtani-university-kyoto-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.041923
+  lng: 135.758497
 stats:
   acceptance_rate: 55-65% (Variable by program)
   international_students: 145

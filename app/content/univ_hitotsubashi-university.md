@@ -6,6 +6,8 @@ basic_info:
   website: https://www.hit-u.ac.jp/
 category: university
 date: '2026-01-28'
+description: Explore Hitotsubashi University's academic programs, admission requirements,
+  tuition fees, and campus life for international students.
 faculties:
 - School of Commerce
 - School of Economics
@@ -22,8 +24,11 @@ id: univ_hitotsubashi-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.693795
+  lng: 139.443928
+seo_description: Guide to Hitotsubashi University admission requirements, tuition,
+  English-taught programs, and rankings for international students.
+seo_title: 'Hitotsubashi University 2026: Admissions & Fees | JP Campus'
 stats:
   acceptance_rate: 15%
   international_students: 300
@@ -39,14 +44,7 @@ translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-description: Explore Hitotsubashi University's academic programs, admission requirements,
-  tuition fees, and campus life for international students.
-seo_title: 'Hitotsubashi University 2026: Admissions & Fees | JP Campus'
-seo_description: Guide to Hitotsubashi University admission requirements, tuition,
-  English-taught programs, and rankings for international students.
 ---
-
-
 
 ## University Overview & Reputation
 

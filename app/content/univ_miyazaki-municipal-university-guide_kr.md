@@ -20,8 +20,8 @@ id: univ_miyazaki-municipal-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 31.92599
+  lng: 131.419454
 stats:
   acceptance_rate: Competitive (approx. 25-35%)
   international_students: 25

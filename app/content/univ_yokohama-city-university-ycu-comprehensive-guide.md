@@ -27,8 +27,8 @@ id: univ_yokohama-city-university-ycu-comprehensive-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.473798
+  lng: 139.590045
 stats:
   acceptance_rate: Est. 20%
   international_students: 250

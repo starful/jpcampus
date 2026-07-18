@@ -21,8 +21,8 @@ features:
 id: univ_osaka-electro-communication-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.742196
+  lng: 135.658969
 stats:
   acceptance_rate: 45-60% (Estimated)
   international_students: 342

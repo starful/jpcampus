@@ -18,8 +18,8 @@ features:
 id: univ_akita-prefectural-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 39.393257
+  lng: 140.0735
 stats:
   acceptance_rate: 35-45%
   international_students: 35

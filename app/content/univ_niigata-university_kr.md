@@ -29,8 +29,8 @@ id: univ_niigata-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.86777
+  lng: 138.943763
 stats:
   acceptance_rate: 학부별 상이
   international_students: 610

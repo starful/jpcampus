@@ -19,8 +19,8 @@ features:
 id: univ_tokuyama-university-shunan-public-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.186
+  lng: 131.4706
 stats:
   acceptance_rate: 75% - 85% (Estimated)
   international_students: 115

@@ -24,8 +24,8 @@ id: univ_osaka-university-of-arts-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.511199
+  lng: 135.631448
 seo_description: Want to study at Osaka University of Arts? Discover 2026 admission
   requirements, portfolio tips, tuition, and how to apply successfully.
 seo_title: 'Osaka University of Arts: 2026 Admission Guide | jpcampus'

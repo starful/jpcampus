@@ -17,8 +17,8 @@ features:
 id: univ_fukuyama-heisei-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.549835
+  lng: 133.349254
 stats:
   acceptance_rate: 78% (Estimated)
   international_students: 72

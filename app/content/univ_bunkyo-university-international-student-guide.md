@@ -22,8 +22,8 @@ features:
 id: univ_bunkyo-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.905374
+  lng: 139.771244
 stats:
   acceptance_rate: 45% (Estimated for International Applicants)
   international_students: 165

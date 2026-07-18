@@ -25,8 +25,8 @@ id: univ_kyoto-womens-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.989602
+  lng: 135.778413
 stats:
   acceptance_rate: 35-45%
   international_students: 145

@@ -21,8 +21,8 @@ features:
 id: univ_kochi-university-guide-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.549062
+  lng: 133.487006
 stats:
   acceptance_rate: 35-45%
   international_students: 178

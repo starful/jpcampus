@@ -23,8 +23,8 @@ features:
 id: univ_tokyo-city-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.598114
+  lng: 139.650995
 stats:
   acceptance_rate: 35-40%
   international_students: 485

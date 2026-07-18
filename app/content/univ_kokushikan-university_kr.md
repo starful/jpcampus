@@ -26,8 +26,8 @@ id: univ_kokushikan-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.649428
+  lng: 139.651886
 stats:
   acceptance_rate: 경쟁률이 매우 높으며, 학부 및 입학 시험에 따라 약 35-45%입니다.
   international_students: 431

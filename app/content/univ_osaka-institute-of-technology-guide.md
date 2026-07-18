@@ -19,8 +19,8 @@ features:
 id: univ_osaka-institute-of-technology-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.710249
+  lng: 135.52536
 stats:
   acceptance_rate: 30-40%
   international_students: 185

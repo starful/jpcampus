@@ -19,8 +19,8 @@ features:
 id: univ_tottori-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.513899
+  lng: 134.173131
 stats:
   acceptance_rate: 25-30%
   international_students: 242

@@ -26,8 +26,8 @@ features:
 id: univ_university-of-toyama-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.456974
+  lng: 133.23088
 seo_description: Your complete 2026 guide to the University of Toyama. Learn about
   tuition fees, admission requirements, scholarships, and student life in Japan.
 seo_title: University of Toyama International Student Guide 2026 | JP Campus

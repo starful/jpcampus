@@ -19,8 +19,8 @@ features:
 id: univ_kyushu-lutheran-college
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 32.820558
+  lng: 130.72315
 stats:
   acceptance_rate: 72%
   international_students: 28

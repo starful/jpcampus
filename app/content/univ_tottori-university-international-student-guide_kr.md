@@ -22,8 +22,8 @@ id: univ_tottori-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.513899
+  lng: 134.173131
 seo_description: 돗토리 대학교 외국인 유학생 입학 가이드. 학부 및 학과 소개, 학비, 장학금 혜택, 2026년도 입시 요강 및 EJU
   유학 정보를 JP Campus에서 확인하세요!
 seo_title: '[2026] 돗토리 대학교 유학 가이드: 입학 전형, 학비, 학부 | JP Campus'

@@ -25,8 +25,8 @@ id: univ_momoyama-gakuin-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.449396
+  lng: 135.45722
 stats:
   acceptance_rate: 45-55%
   international_students: 215

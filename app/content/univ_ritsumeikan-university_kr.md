@@ -36,8 +36,8 @@ id: univ_ritsumeikan-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.03297
+  lng: 135.724468
 stats:
   acceptance_rate: 경쟁률 높음, 학부별 상이
   international_students: 2600

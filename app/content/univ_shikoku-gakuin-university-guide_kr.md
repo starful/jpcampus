@@ -24,8 +24,8 @@ id: univ_shikoku-gakuin-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.225915
+  lng: 133.783403
 stats:
   acceptance_rate: 75%
   international_students: 45

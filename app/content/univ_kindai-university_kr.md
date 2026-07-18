@@ -33,8 +33,8 @@ id: univ_kindai-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.671106
+  lng: 135.734804
 stats:
   acceptance_rate: 35%
   international_students: 1200

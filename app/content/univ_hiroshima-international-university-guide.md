@@ -22,8 +22,8 @@ features:
 id: univ_hiroshima-international-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.313551
+  lng: 132.687593
 stats:
   acceptance_rate: 65% - 75%
   international_students: 65

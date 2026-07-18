@@ -22,8 +22,8 @@ id: univ_kyoto-koka-womens-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.997107
+  lng: 135.718663
 stats:
   acceptance_rate: 55-65%
   international_students: 65

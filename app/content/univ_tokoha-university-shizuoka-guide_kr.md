@@ -27,8 +27,8 @@ id: univ_tokoha-university-shizuoka-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.00474
+  lng: 138.437709
 stats:
   acceptance_rate: 45-55% (유학생 전형 기준 추정치)
   international_students: 142

@@ -19,8 +19,8 @@ features:
 id: univ_wakayama-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.265828
+  lng: 135.151736
 stats:
   acceptance_rate: 22-28%
   international_students: 198

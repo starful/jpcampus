@@ -19,8 +19,8 @@ features:
 id: univ_toin-university-of-yokohama-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.566191
+  lng: 139.519133
 stats:
   acceptance_rate: Approx. 60-70% (Varies by faculty)
   international_students: 165

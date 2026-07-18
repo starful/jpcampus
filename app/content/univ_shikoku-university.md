@@ -20,8 +20,8 @@ features:
 id: univ_shikoku-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.102504
+  lng: 134.55398
 stats:
   acceptance_rate: 78% - 85% (Estimated)
   international_students: 142

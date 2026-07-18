@@ -17,8 +17,8 @@ features:
 id: univ_sanyo-gakuen-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.907976
+  lng: 139.061876
 stats:
   acceptance_rate: Estimated 80%
   international_students: 42

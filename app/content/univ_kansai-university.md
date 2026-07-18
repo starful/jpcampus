@@ -29,8 +29,8 @@ id: univ_kansai-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.879158
+  lng: 135.575998
 stats:
   acceptance_rate: Highly competitive, varies significantly by faculty and program.
   international_students: 1043

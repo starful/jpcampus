@@ -29,8 +29,8 @@ id: univ_niigata-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.86777
+  lng: 138.943763
 seo_description: Explore Niigata University's programs, rankings, and admission guides
   for international students. Plan your study in Japan with JP Campus.
 seo_title: 'Niigata University Guide: Programs, Admissions & Ranking | JP'

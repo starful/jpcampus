@@ -35,8 +35,8 @@ id: univ_ritsumeikan-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.03297
+  lng: 135.724468
 stats:
   acceptance_rate: Competitive, varies by faculty
   international_students: 2600

@@ -20,8 +20,8 @@ features:
 id: univ_fukuyama-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.456974
+  lng: 133.23088
 stats:
   acceptance_rate: Approximately 75-80% for qualified international applicants
   international_students: 185

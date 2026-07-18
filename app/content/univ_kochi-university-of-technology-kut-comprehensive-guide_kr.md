@@ -22,8 +22,8 @@ id: univ_kochi-university-of-technology-kut-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.620809
+  lng: 133.719376
 stats:
   acceptance_rate: 15-20% for International Programs
   international_students: 220

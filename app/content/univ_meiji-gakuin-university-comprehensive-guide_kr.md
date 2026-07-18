@@ -25,8 +25,8 @@ id: univ_meiji-gakuin-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.637634
+  lng: 139.731313
 stats:
   acceptance_rate: 25-35% (유학생 기준 추정)
   international_students: 350

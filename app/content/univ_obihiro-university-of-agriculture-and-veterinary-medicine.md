@@ -21,8 +21,8 @@ features:
 id: univ_obihiro-university-of-agriculture-and-veterinary-medicine
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 42.871877
+  lng: 143.174227
 seo_description: Thinking of studying in Japan? Find 2026 tuition fees, admission
   requirements, and student guides for Obihiro University of Agriculture & Vet Medicine.
 seo_title: Obihiro University of Agriculture & Veterinary Medicine 2026

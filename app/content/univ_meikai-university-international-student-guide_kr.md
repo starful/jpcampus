@@ -25,8 +25,8 @@ id: univ_meikai-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.644657
+  lng: 139.919419
 stats:
   acceptance_rate: 48-52%
   international_students: 320

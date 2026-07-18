@@ -21,8 +21,8 @@ id: univ_kobe-college-guide-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.758687
+  lng: 135.350645
 stats:
   acceptance_rate: 45-55% (Estimated for International Applicants)
   international_students: 25

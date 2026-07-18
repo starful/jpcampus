@@ -21,8 +21,8 @@ id: univ_okazaki-womens-university-junior-college-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.954735
+  lng: 137.185216
 stats:
   acceptance_rate: 75%
   international_students: 15

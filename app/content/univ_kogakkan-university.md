@@ -18,8 +18,8 @@ features:
 id: univ_kogakkan-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.485977
+  lng: 136.727059
 stats:
   acceptance_rate: 65%
   international_students: 25

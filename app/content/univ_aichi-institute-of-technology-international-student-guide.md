@@ -18,8 +18,8 @@ features:
 id: univ_aichi-institute-of-technology-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.183143
+  lng: 137.114919
 stats:
   acceptance_rate: 45.0%
   international_students: 145

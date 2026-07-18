@@ -20,8 +20,8 @@ features:
 id: univ_kwassui-womens-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 32.7503
+  lng: 129.8777
 stats:
   acceptance_rate: 80%
   international_students: 45

@@ -18,8 +18,8 @@ features:
 id: univ_keiwa-college-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.955827
+  lng: 139.292394
 stats:
   acceptance_rate: 85%
   international_students: 115

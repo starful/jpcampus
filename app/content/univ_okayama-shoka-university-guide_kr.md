@@ -20,8 +20,8 @@ id: univ_okayama-shoka-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.683087
+  lng: 133.900654
 stats:
   acceptance_rate: 75-85%
   international_students: 342

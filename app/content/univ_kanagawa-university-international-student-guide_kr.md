@@ -28,8 +28,8 @@ id: univ_kanagawa-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.348522
+  lng: 139.261461
 stats:
   acceptance_rate: 35-45% (학과별 데이터 기반 추정치)
   international_students: 약 800명

@@ -19,8 +19,8 @@ features:
 id: univ_fukuoka-jo-gakuin-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.533332
+  lng: 130.441213
 stats:
   acceptance_rate: Estimated 75% for qualified international applicants
   international_students: 85

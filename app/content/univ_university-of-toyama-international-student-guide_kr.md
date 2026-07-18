@@ -26,8 +26,8 @@ id: univ_university-of-toyama-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.456974
+  lng: 133.23088
 stats:
   acceptance_rate: 25-35% (Estimated)
   international_students: 382

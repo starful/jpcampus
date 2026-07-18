@@ -20,8 +20,8 @@ features:
 id: univ_matsuyama-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.855368
+  lng: 132.766134
 stats:
   acceptance_rate: 55%
   international_students: 50

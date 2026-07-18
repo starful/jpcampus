@@ -23,8 +23,8 @@ id: univ_kyoto-university-of-advanced-science-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.009924
+  lng: 135.718438
 stats:
   acceptance_rate: Estimated 30-40% for International Engineering Program
   international_students: 550

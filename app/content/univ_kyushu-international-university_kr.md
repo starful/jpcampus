@@ -19,8 +19,8 @@ id: univ_kyushu-international-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.862416
+  lng: 130.791693
 stats:
   acceptance_rate: 65-75% for international applicants
   international_students: 185

@@ -23,8 +23,8 @@ id: univ_prefectural-university-of-hiroshima
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.366538
+  lng: 132.468797
 stats:
   acceptance_rate: 25%
   international_students: 92

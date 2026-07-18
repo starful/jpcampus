@@ -24,8 +24,8 @@ id: univ_doshisha-womens-college-of-liberal-arts-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.0116
+  lng: 135.7681
 stats:
   acceptance_rate: 45%
   international_students: 92

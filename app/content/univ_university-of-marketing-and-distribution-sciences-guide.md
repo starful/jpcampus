@@ -19,8 +19,8 @@ features:
 id: univ_university-of-marketing-and-distribution-sciences-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.686808
+  lng: 135.056487
 stats:
   acceptance_rate: 55-65% (Estimated for International Applicants)
   international_students: 782

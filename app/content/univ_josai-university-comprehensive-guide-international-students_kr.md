@@ -22,8 +22,8 @@ id: univ_josai-university-comprehensive-guide-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.931985
+  lng: 139.339377
 stats:
   acceptance_rate: 55-65%
   international_students: 650

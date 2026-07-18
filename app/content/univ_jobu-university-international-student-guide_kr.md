@@ -20,8 +20,8 @@ id: univ_jobu-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.279835
+  lng: 139.115711
 stats:
   acceptance_rate: 75-85% (외국인 지원자 예상 합격률)
   international_students: 185

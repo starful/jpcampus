@@ -23,8 +23,8 @@ id: univ_ibaraki-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.400798
+  lng: 140.443145
 stats:
   acceptance_rate: 25-35%
   international_students: 365

@@ -19,8 +19,8 @@ features:
 id: univ_saitama-institute-of-technology-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.19515
+  lng: 139.239298
 stats:
   acceptance_rate: Estimated 45-55% for International Applicants
   international_students: 320

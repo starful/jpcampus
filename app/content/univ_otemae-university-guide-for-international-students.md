@@ -21,8 +21,8 @@ features:
 id: univ_otemae-university-guide-for-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.737951
+  lng: 135.32583
 stats:
   acceptance_rate: 55%
   international_students: 380

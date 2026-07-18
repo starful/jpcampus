@@ -19,8 +19,8 @@ features:
 id: univ_fukuoka-womens-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.665515
+  lng: 130.439065
 stats:
   acceptance_rate: Estimated 25-35% for International Applicants
   international_students: 125

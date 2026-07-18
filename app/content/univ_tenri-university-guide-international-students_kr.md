@@ -22,8 +22,8 @@ id: univ_tenri-university-guide-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.596921
+  lng: 135.843908
 stats:
   acceptance_rate: 55% (Department dependent)
   international_students: 245

@@ -23,8 +23,8 @@ features:
 id: univ_kagawa-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.341619
+  lng: 134.03676
 seo_description: Planning to study at Kagawa University? Check out tuition fees, admission
   requirements, programs, and campus life in our complete guide.
 seo_title: 'Kagawa University: Complete Guide to Tuition & Admissions | JP Campus'

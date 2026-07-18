@@ -18,8 +18,8 @@ features:
 id: univ_university-of-niigata-prefecture
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.923141
+  lng: 139.126972
 stats:
   acceptance_rate: 25-35% (Varies by faculty and entry track)
   international_students: 65

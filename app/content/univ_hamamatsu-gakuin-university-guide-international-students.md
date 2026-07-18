@@ -18,8 +18,8 @@ features:
 id: univ_hamamatsu-gakuin-university-guide-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.720522
+  lng: 137.716606
 stats:
   acceptance_rate: 75%
   international_students: 145

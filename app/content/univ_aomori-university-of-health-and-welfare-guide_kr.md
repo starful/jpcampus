@@ -23,8 +23,8 @@ id: univ_aomori-university-of-health-and-welfare-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 40.814191
+  lng: 140.792575
 stats:
   acceptance_rate: 25% (지역 공립 대학으로서 경쟁률이 매우 높음)
   international_students: 3

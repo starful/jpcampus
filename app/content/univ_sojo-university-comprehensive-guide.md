@@ -20,8 +20,8 @@ features:
 id: univ_sojo-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 32.833696
+  lng: 130.699027
 stats:
   acceptance_rate: 55-65%
   international_students: 160

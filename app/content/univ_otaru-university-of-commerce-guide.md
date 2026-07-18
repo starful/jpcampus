@@ -22,8 +22,8 @@ features:
 id: univ_otaru-university-of-commerce-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 43.191213
+  lng: 140.979456
 seo_description: Planning to study at Otaru University of Commerce? Find the latest
   2026 info on admissions, tuition fees, scholarships, and student life in Japan.
 seo_title: 'Otaru University of Commerce 2026: Admission & Fees Guide'

@@ -18,8 +18,8 @@ features:
 id: univ_tsukuba-international-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.106942
+  lng: 140.199063
 stats:
   acceptance_rate: 65-75%
   international_students: 45

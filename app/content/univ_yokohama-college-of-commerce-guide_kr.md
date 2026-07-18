@@ -21,8 +21,8 @@ id: univ_yokohama-college-of-commerce-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.498176
+  lng: 139.659597
 stats:
   acceptance_rate: 75% - 85%
   international_students: 250

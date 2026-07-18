@@ -20,8 +20,8 @@ features:
 id: univ_hannan-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.592793
+  lng: 135.536543
 stats:
   acceptance_rate: 55-65% (Estimated for International Applicants)
   international_students: 195

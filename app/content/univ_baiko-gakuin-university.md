@@ -17,8 +17,8 @@ features:
 id: univ_baiko-gakuin-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.577379
+  lng: 130.378067
 stats:
   acceptance_rate: 78% - 85% (Estimated)
   international_students: 165

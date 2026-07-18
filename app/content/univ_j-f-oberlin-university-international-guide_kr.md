@@ -23,8 +23,8 @@ id: univ_j-f-oberlin-university-international-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.584837
+  lng: 139.406999
 stats:
   acceptance_rate: 50-65%
   international_students: 1200

@@ -19,8 +19,8 @@ id: univ_wakayama-medical-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.195257
+  lng: 135.190272
 stats:
   acceptance_rate: 10-15%
   international_students: 12

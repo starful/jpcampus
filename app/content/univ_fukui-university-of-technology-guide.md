@@ -18,8 +18,8 @@ features:
 id: univ_fukui-university-of-technology-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.06874
+  lng: 136.194816
 stats:
   acceptance_rate: 60-70% (Estimated for International Applicants)
   international_students: 165

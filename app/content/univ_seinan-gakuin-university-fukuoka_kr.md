@@ -24,8 +24,8 @@ id: univ_seinan-gakuin-university-fukuoka
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.585864
+  lng: 130.357557
 stats:
   acceptance_rate: 매우 경쟁적 (학부별로 다름)
   international_students: 650

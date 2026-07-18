@@ -16,8 +16,8 @@ features:
 id: univ_kyushu-institute-of-information-sciences
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.524824
+  lng: 130.540624
 stats:
   acceptance_rate: Estimated 75-85% for qualified international applicants
   international_students: 650

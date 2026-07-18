@@ -25,8 +25,8 @@ id: univ_tokyo-metropolitan-university-tmu-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.620037
+  lng: 139.382867
 stats:
   acceptance_rate: 25% (Highly Competitive)
   international_students: 450

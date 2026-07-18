@@ -20,8 +20,8 @@ id: univ_toyama-prefectural-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.709504
+  lng: 137.101221
 stats:
   acceptance_rate: 25-35%
   international_students: 45

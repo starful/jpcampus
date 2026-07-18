@@ -18,8 +18,8 @@ id: univ_kanto-gakuen-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.256553
+  lng: 139.139601
 stats:
   acceptance_rate: 65%
   international_students: 145

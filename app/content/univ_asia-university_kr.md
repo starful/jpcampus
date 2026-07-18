@@ -22,8 +22,8 @@ id: univ_asia-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.705999
+  lng: 139.534504
 stats:
   acceptance_rate: 공식적으로 공개되지 않았지만, 일반적으로 경쟁률이 높습니다.
   international_students: 200

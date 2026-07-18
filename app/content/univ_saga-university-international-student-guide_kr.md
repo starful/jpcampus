@@ -24,8 +24,8 @@ id: univ_saga-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.242193
+  lng: 130.290651
 seo_description: 일본 국립 사가대학교(Saga University)의 2026년 외국인 유학생 입학 가이드. 학비 감면, 장학금 혜택,
   학부 정보 및 캠퍼스 생활을 확인해 보세요.
 seo_title: '[2026] 사가대학교 유학 가이드: 국립대 학비·입학·장학금 | JP Campus'

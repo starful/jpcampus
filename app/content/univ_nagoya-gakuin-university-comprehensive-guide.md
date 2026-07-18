@@ -23,8 +23,8 @@ features:
 id: univ_nagoya-gakuin-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.128591
+  lng: 136.899281
 stats:
   acceptance_rate: 55%
   international_students: 195

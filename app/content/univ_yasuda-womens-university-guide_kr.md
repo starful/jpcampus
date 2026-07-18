@@ -25,8 +25,8 @@ id: univ_yasuda-womens-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.478574
+  lng: 132.452775
 stats:
   acceptance_rate: 45-55% (히로시마 지역 사립대 추세를 바탕으로 한 추정치)
   international_students: 45

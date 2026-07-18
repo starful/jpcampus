@@ -22,8 +22,8 @@ id: univ_shujitsu-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.676899
+  lng: 133.935871
 stats:
   acceptance_rate: 45-55% (Varies by faculty)
   international_students: 45

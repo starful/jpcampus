@@ -21,8 +21,8 @@ id: univ_nara-medical-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.503917
+  lng: 135.792889
 stats:
   acceptance_rate: 5-10%
   international_students: 15

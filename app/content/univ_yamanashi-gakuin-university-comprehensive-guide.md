@@ -20,8 +20,8 @@ features:
 id: univ_yamanashi-gakuin-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.656363
+  lng: 138.601628
 stats:
   acceptance_rate: Estimated 45-60%
   international_students: 1150

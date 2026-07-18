@@ -26,8 +26,8 @@ id: univ_okayama-university-of-science-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.696575
+  lng: 133.928811
 stats:
   acceptance_rate: Estimated 45-60% for International Applicants
   international_students: 450

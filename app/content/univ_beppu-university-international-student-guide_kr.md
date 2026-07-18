@@ -22,8 +22,8 @@ id: univ_beppu-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.31299
+  lng: 131.499406
 stats:
   acceptance_rate: 65-75%
   international_students: 320

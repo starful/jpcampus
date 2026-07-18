@@ -20,8 +20,8 @@ features:
 id: univ_mie-university-guide-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.743524
+  lng: 136.524086
 stats:
   acceptance_rate: 25-30%
   international_students: 320

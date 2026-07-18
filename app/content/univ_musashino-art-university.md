@@ -28,8 +28,8 @@ id: univ_musashino-art-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.727455
+  lng: 139.447151
 seo_description: Want to study at MAU? Read our 2026 Musashino Art University guide
   for international students. Learn about portfolio tips, tuition, and requirements!
 seo_title: 'Musashino Art University 2026: Portfolio & Admissions | JP Campus'
@@ -48,8 +48,6 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1800000
 ---
-
-
 
 ## University Overview & Reputation
 

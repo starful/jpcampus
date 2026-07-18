@@ -17,8 +17,8 @@ features:
 id: univ_fukuoka-prefectural-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.978964
+  lng: 133.607848
 stats:
   acceptance_rate: 25-35%
   international_students: 15

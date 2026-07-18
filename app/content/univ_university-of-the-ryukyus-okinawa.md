@@ -24,8 +24,8 @@ id: univ_university-of-the-ryukyus-okinawa
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 26.249377
+  lng: 127.764158
 stats:
   acceptance_rate: 30-40%
   international_students: 280

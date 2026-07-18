@@ -24,8 +24,8 @@ id: univ_kagawa-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.341619
+  lng: 134.03676
 stats:
   acceptance_rate: 20-30%
   international_students: 245

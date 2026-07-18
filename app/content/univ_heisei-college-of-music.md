@@ -17,8 +17,8 @@ features:
 id: univ_heisei-college-of-music
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 32.709161
+  lng: 130.794509
 stats:
   acceptance_rate: Estimated 65%
   international_students: 22

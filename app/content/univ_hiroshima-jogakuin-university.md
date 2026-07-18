@@ -16,8 +16,8 @@ features:
 id: univ_hiroshima-jogakuin-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.41352
+  lng: 132.484172
 stats:
   acceptance_rate: Estimated 75%
   international_students: 35

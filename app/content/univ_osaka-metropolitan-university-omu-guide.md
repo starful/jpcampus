@@ -6,6 +6,8 @@ basic_info:
   name_ja: 大阪公立大学
 category: university
 date: '2026-01-28'
+description: Your guide to Osaka Metropolitan University (OMU) tuition, admission
+  requirements, and English-taught programs for international students.
 faculties:
 - Faculty of Literature and Human Sciences
 - Faculty of Law
@@ -29,8 +31,11 @@ id: univ_osaka-metropolitan-university-omu-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.591955
+  lng: 135.506101
+seo_description: Explore Osaka Metropolitan University (OMU). Find details on tuition,
+  admission requirements, scholarships, and programs for international students.
+seo_title: 'Osaka Metropolitan University (OMU): Admissions & Tuition | JP Campus'
 stats:
   acceptance_rate: Approx. 35-40% (Overall)
   international_students: 750
@@ -46,13 +51,7 @@ translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-description: Your guide to Osaka Metropolitan University (OMU) tuition, admission
-  requirements, and English-taught programs for international students.
-seo_title: 'Osaka Metropolitan University (OMU): Admissions & Tuition | JP Campus'
-seo_description: Explore Osaka Metropolitan University (OMU). Find details on tuition,
-  admission requirements, scholarships, and programs for international students.
 ---
-
 
 ## University Overview
 

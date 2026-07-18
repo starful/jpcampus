@@ -17,8 +17,8 @@ features:
 id: univ_chugoku-gakuen-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.64589
+  lng: 133.84854
 stats:
   acceptance_rate: 75% - 85% (Estimated)
   international_students: 42

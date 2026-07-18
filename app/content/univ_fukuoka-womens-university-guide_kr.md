@@ -22,8 +22,8 @@ id: univ_fukuoka-womens-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.665515
+  lng: 130.439065
 meta_description: 후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다.
 og_description: 후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다.
 stats:

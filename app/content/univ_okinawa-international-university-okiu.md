@@ -23,8 +23,8 @@ id: univ_okinawa-international-university-okiu
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 26.262048
+  lng: 127.753696
 seo_description: Want to study in Japan? Explore Okinawa International University
   (OKIU). Find 2026 tuition, admission, and scholarships for international students.
 seo_title: Okinawa International University (OKIU) 2026 Guide | JP Campus

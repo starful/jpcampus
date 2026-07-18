@@ -20,8 +20,8 @@ features:
 id: univ_aino-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.843054
+  lng: 135.582619
 stats:
   acceptance_rate: 62%
   international_students: 6

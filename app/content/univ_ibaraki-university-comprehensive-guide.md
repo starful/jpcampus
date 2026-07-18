@@ -22,8 +22,8 @@ features:
 id: univ_ibaraki-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.400798
+  lng: 140.443145
 seo_description: Planning to study at Ibaraki University? Explore tuition fees, admission
   requirements, English programs, and scholarships for international students.
 seo_title: 'Ibaraki University Guide 2026: Tuition & Admissions | JP Campus'

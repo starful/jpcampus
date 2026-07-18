@@ -22,8 +22,8 @@ id: univ_university-of-electro-communications-uec-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.657267
+  lng: 139.542563
 seo_description: 일본 컴공·이공계 명문 국립대 전기통신대학교(전통대/UEC)의 EJU 합격선, 학비, 장학금 및 일본 IT 취업 정보를
   총정리했습니다.
 seo_title: '전기통신대학교(UEC) 유학 가이드: 일본 국립대 컴공·IT 및 EJU 입시 | JP Campus'
@@ -43,9 +43,6 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
-
-
-
 
 ## 🏫 학교 개요
 

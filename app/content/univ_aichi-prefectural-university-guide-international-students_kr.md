@@ -23,8 +23,8 @@ id: univ_aichi-prefectural-university-guide-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.18135
+  lng: 137.087795
 stats:
   acceptance_rate: 20-35% (Estimated based on faculty)
   international_students: 115

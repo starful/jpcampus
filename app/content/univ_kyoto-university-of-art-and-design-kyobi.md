@@ -21,8 +21,8 @@ features:
 id: univ_kyoto-university-of-art-and-design-kyobi
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.991344
+  lng: 135.768388
 stats:
   acceptance_rate: 40-50%
   international_students: 115

@@ -18,8 +18,8 @@ features:
 id: univ_kamakura-womens-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.352989
+  lng: 139.539453
 stats:
   acceptance_rate: Approximately 65% for international applicants
   international_students: 15

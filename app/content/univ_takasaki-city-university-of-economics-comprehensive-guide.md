@@ -18,8 +18,8 @@ features:
 id: univ_takasaki-city-university-of-economics-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.345438
+  lng: 138.976662
 stats:
   acceptance_rate: Approximately 22-28%
   international_students: 135

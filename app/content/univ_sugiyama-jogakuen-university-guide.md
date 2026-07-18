@@ -22,8 +22,8 @@ features:
 id: univ_sugiyama-jogakuen-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.15999
+  lng: 136.987555
 stats:
   acceptance_rate: 40-55% (Varies by Faculty)
   international_students: 45

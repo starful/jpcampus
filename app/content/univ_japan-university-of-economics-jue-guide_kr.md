@@ -25,8 +25,8 @@ id: univ_japan-university-of-economics-jue-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.505933
+  lng: 130.52593
 seo_description: 2026 일본경제대학교(JUE) 입학의 모든 것! 도쿄·후쿠오카 캠퍼스 특징, 학비, 장학금 혜택 및 외국인 특별전형
   정보를 JP Campus에서 확인하세요.
 seo_title: '[2026] 일본경제대학교 입학 가이드: 학비, 장학금, 외국인 전형 | JP Campus'

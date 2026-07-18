@@ -20,8 +20,8 @@ features:
 id: univ_ishikawa-prefectural-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.506553
+  lng: 136.596449
 stats:
   acceptance_rate: 25-35%
   international_students: 15

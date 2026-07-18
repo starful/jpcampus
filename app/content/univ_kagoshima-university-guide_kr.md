@@ -27,8 +27,8 @@ id: univ_kagoshima-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 31.571605
+  lng: 130.544087
 stats:
   acceptance_rate: 25-35%
   international_students: 320

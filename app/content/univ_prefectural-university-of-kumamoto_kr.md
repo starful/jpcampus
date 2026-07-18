@@ -21,8 +21,8 @@ id: univ_prefectural-university-of-kumamoto
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 32.805866
+  lng: 130.765266
 stats:
   acceptance_rate: 25-30%
   international_students: 55

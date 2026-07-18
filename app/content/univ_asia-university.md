@@ -20,8 +20,8 @@ id: univ_asia-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.705999
+  lng: 139.534504
 stats:
   acceptance_rate: Not publicly disclosed; generally competitive.
   international_students: 200

@@ -23,8 +23,8 @@ features:
 id: univ_osaka-gakuin-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.773713
+  lng: 135.541664
 stats:
   acceptance_rate: 65-75% (Estimated)
   international_students: 280

@@ -21,8 +21,8 @@ features:
 id: univ_kinjo-gakuin-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.211582
+  lng: 136.996066
 stats:
   acceptance_rate: 40-50% for international applicants
   international_students: 52

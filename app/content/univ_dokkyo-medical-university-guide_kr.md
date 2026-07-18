@@ -22,8 +22,8 @@ id: univ_dokkyo-medical-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.473315
+  lng: 139.823426
 stats:
   acceptance_rate: 8%
   international_students: 18

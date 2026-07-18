@@ -18,8 +18,8 @@ features:
 id: univ_nagasaki-junshin-catholic-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 32.785379
+  lng: 129.867626
 stats:
   acceptance_rate: Estimated 85%
   international_students: 42

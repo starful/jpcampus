@@ -21,8 +21,8 @@ id: univ_wayo-womens-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.742991
+  lng: 139.904291
 seo_description: 2026학년도 와요여자대학교(와요여대) 입학 및 유학 가이드. 개설 학부, 학비, 장학금 혜택 및 외국인 유학생 특별
   전형 정보를 확인하세요.
 seo_title: '[2026] 와요여자대학교 유학 가이드: 학부, 학비, 입시 정보 | JP Campus'

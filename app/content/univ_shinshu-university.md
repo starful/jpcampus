@@ -26,8 +26,8 @@ id: univ_shinshu-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.252433
+  lng: 137.976978
 seo_description: Discover Shinshu University. Get updated 2026 info on international
   student admissions, tuition fees, scholarships, and campus life on JP Campus.
 seo_title: 'Shinshu University 2026: Admissions, Tuition & Guide | JP Campus'

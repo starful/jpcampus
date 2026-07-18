@@ -23,8 +23,8 @@ id: univ_tsuda-university-international-students-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.722047
+  lng: 139.46502
 stats:
   acceptance_rate: 25-30%
   international_students: 75

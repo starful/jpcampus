@@ -21,8 +21,8 @@ id: univ_university-of-niigata-prefecture
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 37.923141
+  lng: 139.126972
 stats:
   acceptance_rate: 25-35% (학부 및 입학 전형에 따라 다름)
   international_students: 65

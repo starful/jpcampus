@@ -22,8 +22,8 @@ id: univ_the-university-of-shiga-prefecture-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.258498
+  lng: 136.218177
 stats:
   acceptance_rate: 35-45%
   international_students: 62

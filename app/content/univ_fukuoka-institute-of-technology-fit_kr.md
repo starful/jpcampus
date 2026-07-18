@@ -21,8 +21,8 @@ id: univ_fukuoka-institute-of-technology-fit
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.687947
+  lng: 130.43164
 stats:
   acceptance_rate: 35-45% (Estimated)
   international_students: 192

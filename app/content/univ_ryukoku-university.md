@@ -29,8 +29,8 @@ id: univ_ryukoku-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.963379
+  lng: 135.940931
 stats:
   acceptance_rate: 40%
   international_students: 384

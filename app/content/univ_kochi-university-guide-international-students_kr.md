@@ -24,8 +24,8 @@ id: univ_kochi-university-guide-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.549062
+  lng: 133.487006
 seo_description: 일본 국립 고치 대학교 유학의 모든 것! 2026년도 외국인 유학생 입시 요강, 학부 및 학과 소개, 학비, 장학금
   정보를 JP Campus에서 한눈에 확인하세요.
 seo_title: 고치 대학교 유학 가이드 2026 (국립대 입시, 학비, 학부) | JP Campus

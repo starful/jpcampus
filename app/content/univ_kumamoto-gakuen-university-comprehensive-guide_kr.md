@@ -22,8 +22,8 @@ id: univ_kumamoto-gakuen-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 32.804344
+  lng: 130.73038
 stats:
   acceptance_rate: 45-55%
   international_students: 165

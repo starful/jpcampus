@@ -23,8 +23,8 @@ id: univ_osaka-university-of-arts-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.511199
+  lng: 135.631448
 stats:
   acceptance_rate: 일부 프로그램은 경쟁률이 매우 높음 (전체 약 20-30%)
   international_students: 350

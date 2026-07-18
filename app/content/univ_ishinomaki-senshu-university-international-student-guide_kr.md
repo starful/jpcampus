@@ -20,8 +20,8 @@ id: univ_ishinomaki-senshu-university-international-student-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 38.453379
+  lng: 141.294131
 seo_description: 2026학년도 이시노마키 센슈 대학교 외국인 유학생 모집요강! 학비 감면 혜택, 장학금 제도, 학부별 입시 및 편입학
   정보까지 합격 핵심 정보를 JP Campus에서 지금 확인하세요.
 seo_title: 2026 이시노마키 센슈 대학교 유학생 입시 가이드 (학비 감면) | JP Campus

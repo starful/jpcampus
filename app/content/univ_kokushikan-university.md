@@ -25,8 +25,8 @@ id: univ_kokushikan-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.649428
+  lng: 139.651886
 stats:
   acceptance_rate: Highly competitive, approximately 35-45% depending on faculty and
     entrance exam.

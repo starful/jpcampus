@@ -29,8 +29,8 @@ id: univ_mukogawa-womens-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.733645
+  lng: 135.377559
 stats:
   acceptance_rate: 35.5%
   international_students: 92

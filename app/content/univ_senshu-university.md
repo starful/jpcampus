@@ -25,8 +25,8 @@ id: univ_senshu-university
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.609984
+  lng: 139.554561
 stats:
   acceptance_rate: Competitive
   international_students: 600

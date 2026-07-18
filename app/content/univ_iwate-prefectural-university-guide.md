@@ -18,8 +18,8 @@ features:
 id: univ_iwate-prefectural-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 39.802553
+  lng: 141.136061
 stats:
   acceptance_rate: 35-45% (Estimated)
   international_students: 45

@@ -21,8 +21,8 @@ features:
 id: univ_hokkaido-university-of-education-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 43.169835
+  lng: 141.393881
 stats:
   acceptance_rate: 22-28% (Estimated)
   international_students: 185

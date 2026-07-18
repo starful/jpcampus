@@ -21,8 +21,8 @@ id: univ_gifu-pharmaceutical-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.465574
+  lng: 136.733919
 stats:
   acceptance_rate: 18%
   international_students: 15

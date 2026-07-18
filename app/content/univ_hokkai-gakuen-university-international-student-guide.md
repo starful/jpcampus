@@ -20,8 +20,8 @@ features:
 id: univ_hokkai-gakuen-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 43.046236
+  lng: 141.368116
 stats:
   acceptance_rate: Estimated 45-55% for international applicants
   international_students: 42

@@ -18,8 +18,8 @@ features:
 id: univ_ishinomaki-senshu-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 38.453379
+  lng: 141.294131
 stats:
   acceptance_rate: Approx. 65-75% for qualified international applicants
   international_students: 115

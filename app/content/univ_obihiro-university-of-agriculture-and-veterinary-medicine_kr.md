@@ -22,8 +22,8 @@ id: univ_obihiro-university-of-agriculture-and-veterinary-medicine
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 42.871877
+  lng: 143.174227
 stats:
   acceptance_rate: 15-25% (수의학과의 경우 경쟁률 매우 높음)
   international_students: 58

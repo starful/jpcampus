@@ -22,8 +22,8 @@ id: univ_tohoku-fukushi-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 38.279684
+  lng: 140.848649
 stats:
   acceptance_rate: Estimated 45-55%
   international_students: 145

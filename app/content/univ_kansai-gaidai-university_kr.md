@@ -23,8 +23,8 @@ id: univ_kansai-gaidai-university
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.82299
+  lng: 135.657151
 stats:
   acceptance_rate: Approx. 50%
   international_students: 850

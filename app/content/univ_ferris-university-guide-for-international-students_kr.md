@@ -21,8 +21,8 @@ id: univ_ferris-university-guide-for-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.441488
+  lng: 139.524611
 stats:
   acceptance_rate: 55%
   international_students: 65

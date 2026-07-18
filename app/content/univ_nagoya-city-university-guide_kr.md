@@ -27,8 +27,8 @@ id: univ_nagoya-city-university-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.1995
+  lng: 136.882529
 stats:
   acceptance_rate: 15-25% (학과에 따라 경쟁률이 매우 높음)
   international_students: 185

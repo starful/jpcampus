@@ -19,8 +19,8 @@ features:
 id: univ_ibaraki-christian-university-comprehensive-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.511689
+  lng: 140.616911
 stats:
   acceptance_rate: 70-75%
   international_students: 45

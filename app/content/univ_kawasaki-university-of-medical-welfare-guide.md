@@ -21,8 +21,8 @@ features:
 id: univ_kawasaki-university-of-medical-welfare-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.634207
+  lng: 133.809472
 stats:
   acceptance_rate: 50-60%
   international_students: 25

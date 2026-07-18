@@ -16,8 +16,8 @@ features:
 id: univ_yamaguchi-gakugei-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.120752
+  lng: 131.402994
 stats:
   acceptance_rate: 75% - 85% (Highly selective based on language proficiency)
   international_students: 12

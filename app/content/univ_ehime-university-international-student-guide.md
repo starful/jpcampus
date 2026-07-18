@@ -22,8 +22,8 @@ features:
 id: univ_ehime-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 33.839337
+  lng: 132.791503
 stats:
   acceptance_rate: 25-35%
   international_students: 320

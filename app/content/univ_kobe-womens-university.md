@@ -19,8 +19,8 @@ features:
 id: univ_kobe-womens-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.667871
+  lng: 135.207933
 stats:
   acceptance_rate: 50-60% (Varies by Faculty)
   international_students: 32

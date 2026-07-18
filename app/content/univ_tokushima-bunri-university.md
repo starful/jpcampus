@@ -25,8 +25,8 @@ features:
 id: univ_tokushima-bunri-university
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.053402
+  lng: 134.558272
 stats:
   acceptance_rate: Estimated 75-80%
   international_students: 145

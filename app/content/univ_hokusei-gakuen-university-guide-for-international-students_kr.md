@@ -25,8 +25,8 @@ id: univ_hokusei-gakuen-university-guide-for-international-students
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 43.024371
+  lng: 141.448594
 stats:
   acceptance_rate: Approximately 40-50%
   international_students: 160

@@ -21,8 +21,8 @@ features:
 id: univ_gunma-university-guide-international-students
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.430808
+  lng: 139.044491
 seo_description: Thinking of studying at Gunma University? Explore our complete guide
   on international student admissions, tuition fees, courses, and life in Japan.
 seo_title: 'Gunma University: Guide for International Students | JPCampus'

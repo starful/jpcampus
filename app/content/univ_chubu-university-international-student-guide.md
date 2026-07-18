@@ -25,8 +25,8 @@ features:
 id: univ_chubu-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.274265
+  lng: 137.013278
 seo_description: Explore Chubu University's 2026 guide for international students.
   Find accurate details on tuition, admissions, scholarships, and how to apply.
 seo_title: 'Chubu University 2026: International Student Guide | JP Campus'

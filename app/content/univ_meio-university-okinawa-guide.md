@@ -19,8 +19,8 @@ features:
 id: univ_meio-university-okinawa-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 26.624447
+  lng: 127.973613
 stats:
   acceptance_rate: 35-45%
   international_students: 135

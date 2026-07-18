@@ -21,8 +21,8 @@ features:
 id: univ_kanazawa-gakuin-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.323083
+  lng: 139.624091
 stats:
   acceptance_rate: 55%
   international_students: 145

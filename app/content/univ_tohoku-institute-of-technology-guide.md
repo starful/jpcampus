@@ -17,8 +17,8 @@ features:
 id: univ_tohoku-institute-of-technology-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.606783
+  lng: 139.684799
 stats:
   acceptance_rate: 55%
   international_students: 65

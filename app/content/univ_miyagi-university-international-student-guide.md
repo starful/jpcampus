@@ -18,8 +18,8 @@ features:
 id: univ_miyagi-university-international-student-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 38.350597
+  lng: 140.842286
 stats:
   acceptance_rate: 28% (Estimated)
   international_students: 42

@@ -23,8 +23,8 @@ features:
 id: univ_nara-womens-university-guide
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 34.688192
+  lng: 135.827882
 seo_description: Plan your study at Nara Women's University. Find tuition fees, admission
   requirements, and guides for international students in Japan.
 seo_title: 'Nara Women''s University Guide: Admission & Tuition | JP Campus'

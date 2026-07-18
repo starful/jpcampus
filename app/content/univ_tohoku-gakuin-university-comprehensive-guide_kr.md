@@ -26,8 +26,8 @@ id: univ_tohoku-gakuin-university-comprehensive-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 43.066045
+  lng: 141.494649
 stats:
   acceptance_rate: Approximately 45-55% for International Applicants
   international_students: 145

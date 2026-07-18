@@ -26,8 +26,8 @@ id: univ_international-university-of-health-and-welfare-iuhw-guide
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 36.870729
+  lng: 140.071084
 stats:
   acceptance_rate: 15-20% (Estimated)
   international_students: 562
