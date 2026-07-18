@@ -128,3 +128,43 @@ def pick_nearby_stays(item: dict, lang: str, limit: int = 4, radius_km: float = 
 
     scored.sort(key=lambda x: x[0])
     return [s for _, s in scored[:limit]]
+
+
+def pick_nearby_schools(item: dict, lang: str, limit: int = 4, radius_km: float = 5.0) -> list[dict]:
+    """Schools closest to a stay (or other geo item) by haversine distance."""
+    loc = item.get("location") or {}
+    lat, lng = loc.get("lat"), loc.get("lng")
+    if lat is None or lng is None:
+        return []
+
+    schools, _ = load_school_data(lang)
+    scored: list[tuple[float, dict]] = []
+    for school in schools:
+        sloc = school.get("location") or {}
+        slat, slng = sloc.get("lat"), sloc.get("lng")
+        if slat is None or slng is None:
+            continue
+        dist = _haversine_km(float(lat), float(lng), float(slat), float(slng))
+        if dist <= radius_km:
+            row = dict(school)
+            row["distance_km"] = round(dist, 1)
+            scored.append((dist, row))
+
+    scored.sort(key=lambda x: x[0])
+    nearby = [s for _, s in scored[:limit]]
+    if not nearby:
+        # Fall back to nearest schools even outside the radius.
+        scored = []
+        for school in schools:
+            sloc = school.get("location") or {}
+            slat, slng = sloc.get("lat"), sloc.get("lng")
+            if slat is None or slng is None:
+                continue
+            dist = _haversine_km(float(lat), float(lng), float(slat), float(slng))
+            row = dict(school)
+            row["distance_km"] = round(dist, 1)
+            scored.append((dist, row))
+        scored.sort(key=lambda x: x[0])
+        nearby = [s for _, s in scored[:limit]]
+
+    return assign_thumbnails(nearby, "school")

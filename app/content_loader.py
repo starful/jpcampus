@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import re
 from typing import Literal
 
 import frontmatter
@@ -11,6 +12,21 @@ from app.utils import CONTENT_DIR
 
 ContentKind = Literal["school", "guide", "stay"]
 MARKDOWN_EXTENSIONS = ["tables", "fenced_code", "nl2br"]
+
+# Benefits / booking UI moved to detail.html — strip leftover MD sections.
+_STAY_UI_SECTION_RE = re.compile(
+    r"<h2[^>]*>\s*(?:"
+    r"Why students choose this type|"
+    r"유학생에게 좋은 이유|"
+    r"Booking|"
+    r"예약"
+    r")\s*</h2>.*?(?=<h2|\Z)",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def strip_stay_template_sections(content_html: str) -> str:
+    return _STAY_UI_SECTION_RE.sub("", content_html).strip()
 
 
 class ContentNotFoundError(FileNotFoundError):
@@ -71,4 +87,4 @@ def load_stay_content(stay_id: str, lang: str) -> tuple[dict, str, str]:
     post, content_html = load_post(md_path)
     item = dict(post.metadata)
     item.setdefault("id", stay_id.replace("stay_", ""))
-    return item, "stay", content_html
+    return item, "stay", strip_stay_template_sections(content_html)

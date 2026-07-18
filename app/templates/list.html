@@ -20,6 +20,30 @@
 
     <div class="card-grid">
         {% for item in items %}
+        {% if item_type == 'stay' %}
+        <a href="{{ item.link }}" class="card stay-card{% if item.is_new %} is-new-content{% endif %}" data-stay-id="{{ item.id }}" data-stay-type="{{ item.stay_type }}" data-track="stay_card" data-track-label="{{ item.id }}">
+            <div class="card-img">
+                <img src="{{ item.thumbnail }}" alt="{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
+                {% if item.is_new %}<span class="badge-new">New</span>{% endif %}
+                <span class="card-badge" style="background:#0d9488;color:white;">{{ ui.stay_badge }}</span>
+            </div>
+            <div class="card-body">
+                <h4>{{ item.basic_info.name_display or item.basic_info.name_en or item.basic_info.name_ja }}</h4>
+                <div class="card-meta">
+                    <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path></svg>
+                    <span>{{ item.basic_info.address }}</span>
+                </div>
+                <p style="font-size: 0.85rem; color: var(--text-gray); margin-top: 8px;">
+                    {% if item.stay_type == 'guesthouse' %}{{ ui.stay_type_guesthouse }}
+                    {% elif item.stay_type == 'share_house' %}{{ ui.stay_type_share_house }}
+                    {% else %}{{ ui.stay_type_monthly_mansion }}{% endif %}
+                    {% if item.rent and item.rent.min %}
+                    · ¥{{ "{:,}".format(item.rent.min) }}{{ ui.per_month }}
+                    {% endif %}
+                </p>
+            </div>
+        </a>
+        {% else %}
         <a href="{{ item.link }}" class="card{% if item_type != 'guide' %} school-card{% endif %}{% if item.is_new %} is-new-content{% endif %}"{% if item_type != 'guide' %} data-school-id="{{ item.id }}"{% endif %}>
             <div class="card-img">
                 <img src="{{ item.thumbnail }}" alt="{{ item.title or item.basic_info.name_en or item.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
@@ -48,6 +72,7 @@
             </div>
             {% endif %}
         </a>
+        {% endif %}
         {% endfor %}
     </div>
 </main>

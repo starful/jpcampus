@@ -83,13 +83,26 @@ def calculate_tag_counts(schools):
     return [tag for tag in results if tag['count'] >= 5]
 
 def get_type_filters(lang="en"):
+    """Language-school detail chips (entity = language_schools)."""
     ui = get_ui_text(lang)
     return [
         {"key": "all", "icon": "📍", "label": ui["filter_all"]},
-        {"key": "dormitory", "icon": "🏠", "label": ui["filter_dormitory"]},
-        {"key": "academic", "icon": "🎓", "label": ui["filter_academic"]},
-        {"key": "university", "icon": "🏛️", "label": ui["filter_universities"]},
-        {"key": "size_medium", "icon": "📊", "label": ui["filter_medium"]},
+        {"key": "short_term", "icon": "⏱️", "label": ui["filter_short_term"]},
+        {"key": "scholarship", "icon": "💴", "label": ui["filter_scholarship"]},
+        {"key": "business", "icon": "💼", "label": ui["filter_business"]},
+        {"key": "size_small", "icon": "🪴", "label": ui["filter_size_small"]},
+    ]
+
+
+def get_university_type_filters(lang="en"):
+    """University detail chips (entity = universities)."""
+    ui = get_ui_text(lang)
+    return [
+        {"key": "all", "icon": "📍", "label": ui["filter_all"]},
+        {"key": "tuition_low", "icon": "⬇️", "label": ui["filter_tuition_low"]},
+        {"key": "tuition_mid", "icon": "↔️", "label": ui["filter_tuition_mid"]},
+        {"key": "tuition_high", "icon": "⬆️", "label": ui["filter_tuition_high"]},
+        {"key": "english_intl", "icon": "🌏", "label": ui["filter_english_intl"]},
     ]
 
 
@@ -210,7 +223,8 @@ def get_entity_filters(lang="en", *, include_stays: bool | None = None):
     show_stays = SHOW_STAYS_UI if include_stays is None else include_stays
     filters = [
         {"key": "all", "icon": "🗺️", "label": ui["filter_entity_all"]},
-        {"key": "schools", "icon": "🏫", "label": ui["filter_entity_schools"]},
+        {"key": "language_schools", "icon": "🎓", "label": ui["filter_entity_language_schools"]},
+        {"key": "universities", "icon": "🏛️", "label": ui["filter_entity_universities"]},
     ]
     if show_stays:
         filters.append({"key": "stays", "icon": "🏠", "label": ui["filter_entity_stays"]})
@@ -224,6 +238,8 @@ def get_stay_type_filters(lang="en"):
         {"key": "guesthouse", "icon": "🛏️", "label": ui["filter_guesthouse"]},
         {"key": "share_house", "icon": "👥", "label": ui["filter_share_house"]},
         {"key": "monthly_mansion", "icon": "🏢", "label": ui["filter_monthly_mansion"]},
+        {"key": "oakhouse", "icon": "🏡", "label": ui["filter_operator_oakhouse"]},
+        {"key": "sakura", "icon": "🌸", "label": ui["filter_operator_sakura"]},
     ]
 
 

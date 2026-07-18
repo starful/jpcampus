@@ -81,6 +81,9 @@ GOOGLE_MAPS_API_KEY=your_maps_api_key
 # Optional content generation
 GEMINI_API_KEY=your_gemini_api_key
 
+# Stay map / cards / nearby (default off)
+SHOW_STAYS_UI=1
+
 # Optional SEO/ads settings
 SITE_DOMAIN=https://jpcampus.net
 GA_MEASUREMENT_ID=G-XXXXXXXXXX
@@ -93,6 +96,20 @@ ADS_TXT_CONTENT=google.com, pub-xxxxxxxxxxxxxxxx, DIRECT, f08c47fec0942fa0
 ```bash
 python scripts/build_data.py
 ```
+
+### Stay housing (selective publish)
+
+Catalog: `data/stay_listings.json` (Oakhouse + Sakura, EN/KR).  
+Do **not** generate all pages at once — publish samples or selected ids:
+
+```bash
+python scripts/publish_stays.py --list-regions
+python scripts/publish_stays.py --sample --per-region 8 --build
+python scripts/publish_stays.py --ids oakhouse_384,sakura_asakusa_kuramae --build
+python scripts/publish_stays.py --region tokyo --limit 10 --build
+```
+
+Or use **okadmin → JP Campus → 숙소 발행**. Set `SHOW_STAYS_UI=1` to show stays on the map.
 
 ### 4) Run app
 

@@ -3,10 +3,11 @@
 {% block map_filters %}
 <div class="top-filter-bar" aria-label="Map filters">
     <div class="filter-row filter-row-entity">
+        <span class="filter-row-label">{{ ui.filter_row_entity }}</span>
         <div class="theme-filter-buttons">
             {% for f in entity_filters %}
             <button type="button"
-                class="theme-button theme-button-entity{% if loop.first %} active{% endif %}"
+                class="theme-button theme-button-entity theme-button-entity--{{ f.key }}{% if loop.first %} active{% endif %}"
                 data-filter-axis="entity"
                 data-filter-key="{{ f.key }}"
                 data-track="quick_filter"
@@ -19,7 +20,8 @@
             {% endfor %}
         </div>
     </div>
-    <div class="filter-row filter-row-type" id="filter-row-school-type">
+    <div class="filter-row filter-row-type is-hidden" id="filter-row-school-type" aria-hidden="true">
+        <span class="filter-row-label">{{ ui.filter_row_detail }}</span>
         <div class="theme-filter-buttons">
             {% for f in type_filters %}
             <button type="button"
@@ -36,7 +38,26 @@
             {% endfor %}
         </div>
     </div>
+    <div class="filter-row filter-row-type is-hidden" id="filter-row-univ-type" aria-hidden="true">
+        <span class="filter-row-label">{{ ui.filter_row_detail }}</span>
+        <div class="theme-filter-buttons">
+            {% for f in university_type_filters %}
+            <button type="button"
+                class="theme-button{% if loop.first %} active{% endif %}"
+                data-filter-axis="univ_type"
+                data-filter-key="{{ f.key }}"
+                data-track="quick_filter"
+                data-track-label="univ-{{ f.key }}"
+                title="{{ f.label }}">
+                <span class="filter-emoji" aria-hidden="true">{{ f.icon }}</span>
+                <span class="filter-label">{{ f.label }}</span>
+                <span class="count-badge" id="count-univ_type-{{ f.key }}">0</span>
+            </button>
+            {% endfor %}
+        </div>
+    </div>
     <div class="filter-row filter-row-type filter-row-stay-type is-hidden" id="filter-row-stay-type" aria-hidden="true"{% if not show_stays_ui %} style="display:none"{% endif %}>
+        <span class="filter-row-label">{{ ui.filter_row_detail }}</span>
         <div class="theme-filter-buttons">
             {% for f in stay_type_filters %}
             <button type="button"
@@ -54,6 +75,7 @@
         </div>
     </div>
     <div class="filter-row filter-row-region">
+        <span class="filter-row-label">{{ ui.filter_row_region }}</span>
         <div class="theme-filter-buttons">
             {% for f in region_filters %}
             <button type="button"
@@ -77,6 +99,13 @@
 
 <section class="map-section">
     <div id="map"></div>
+    <div class="map-legend" aria-label="{{ ui.map_legend_aria }}">
+        <span class="map-legend-item"><span class="map-legend-dot map-legend-school" aria-hidden="true"></span>{{ ui.map_legend_school }}</span>
+        <span class="map-legend-item"><span class="map-legend-dot map-legend-univ" aria-hidden="true"></span>{{ ui.map_legend_university }}</span>
+        {% if show_stays_ui %}
+        <span class="map-legend-item"><span class="map-legend-dot map-legend-stay" aria-hidden="true"></span>{{ ui.map_legend_stay }}</span>
+        {% endif %}
+    </div>
 </section>
 
 <div class="content-wrapper home-sections">
@@ -90,10 +119,17 @@
             <i class="fa-solid fa-building-columns"></i>
             <span>{{ ui.find_universities }}</span>
         </a>
+        {% if show_stays_ui %}
+        <a href="/stays?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="stays">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>{{ ui.find_stays }}</span>
+        </a>
+        {% else %}
         <a href="/guide/tokyo-student-housing-operators?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="housing-operators">
             <i class="fa-solid fa-house-chimney"></i>
             <span>{{ ui.housing_operators_cta }}</span>
         </a>
+        {% endif %}
         <a href="/guide?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="guides">
             <i class="fa-solid fa-book-open"></i>
             <span>{{ ui.read_guides }}</span>
@@ -201,7 +237,7 @@
             <i class="fa-solid fa-house-chimney"></i> {{ ui.stays_section_title }}
             <span class="count-badge" style="background:#ccfbf1;color:#0f766e;">{{ total_stays }}</span>
         </h2>
-        <a href="/?lang={{ current_lang }}#stays-section" class="view-all">{{ ui.view_all_stays }}</a>
+        <a href="/stays?lang={{ current_lang }}" class="view-all">{{ ui.view_all_stays }}</a>
     </div>
     <div class="card-grid" style="margin-bottom: 60px;">
         {% for item in latest_stays %}
@@ -216,7 +252,9 @@
                     {% if item.stay_type == 'guesthouse' %}{{ ui.stay_type_guesthouse }}
                     {% elif item.stay_type == 'share_house' %}{{ ui.stay_type_share_house }}
                     {% else %}{{ ui.stay_type_monthly_mansion }}{% endif %}
+                    {% if item.rent and item.rent.min %}
                     · ¥{{ "{:,}".format(item.rent.min) }}{{ ui.per_month }}
+                    {% endif %}
                 </p>
             </div>
         </a>
@@ -253,7 +291,7 @@
     const SCHOOLS_DATA = {{ schools_json | safe }};
     const STAYS_DATA = {{ stays_json | safe }};
 </script>
-<script src="/static/js/filters.js?v=8"></script>
-<script src="/static/js/map.js?v=12"></script>
+<script src="/static/js/filters.js?v=11"></script>
+<script src="/static/js/map.js?v=14"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
 {% endblock %}

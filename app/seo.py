@@ -96,3 +96,27 @@ def guide_faq_json_ld(slug: str, lang: str) -> str | None:
         )
     payload = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": entities}
     return json.dumps(payload, ensure_ascii=False)
+
+
+def stay_faq_json_ld(item: dict) -> str | None:
+    """Build FAQPage JSON-LD from stay frontmatter `faq` list [{q,a}, ...]."""
+    rows = item.get("faq") or []
+    entities = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        q = (row.get("q") or row.get("question") or "").strip()
+        a = (row.get("a") or row.get("answer") or "").strip()
+        if not q or not a:
+            continue
+        entities.append(
+            {
+                "@type": "Question",
+                "name": q,
+                "acceptedAnswer": {"@type": "Answer", "text": a},
+            }
+        )
+    if not entities:
+        return None
+    payload = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": entities}
+    return json.dumps(payload, ensure_ascii=False)

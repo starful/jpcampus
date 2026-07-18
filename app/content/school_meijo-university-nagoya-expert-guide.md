@@ -4,7 +4,7 @@ basic_info:
   name_en: Meijo University
   name_ja: 名城大学
   website: https://www.meijo-u.ac.jp/
-category: school
+category: university
 date: '2026-07-12'
 faculties:
 - Law
@@ -27,8 +27,8 @@ id: school_meijo-university-nagoya-expert-guide
 lang: en
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.136
+  lng: 136.976
 stats:
   acceptance_rate: Data Not Public (Estimated Highly Competitive)
   international_students: 550

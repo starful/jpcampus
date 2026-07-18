@@ -1,18 +1,28 @@
-/* app/static/js/filters.js — entity (school/stay) + type + region filters */
+/* app/static/js/filters.js — entity + detail (school/univ/stay) + region */
 
 (function () {
     let allSchoolData = [];
     let allStayData = [];
     let currentEntityFilter = "all";
     let currentTypeFilter = "all";
+    let currentUnivTypeFilter = "all";
     let currentStayTypeFilter = "all";
     let currentRegionFilter = "all";
     let currentFilteredSchools = [];
     let currentFilteredStays = [];
 
-    const ACADEMIC_KEYWORDS = ["eju", "university", "academic", "進学", "大学"];
-    const DORM_KEYWORDS = ["dormitory", "dorm", "기숙사", "寮", "student housing"];
-    const MAJOR_CITIES = ["福岡", "神戸", "札幌", "横浜", "仙台", "Fukuoka", "Kobe", "Sapporo", "Yokohama", "Sendai"];
+    const SHORT_TERM_KEYWORDS = ["short-term", "short term", "short_term", "단기", "短期"];
+    const SCHOLARSHIP_KEYWORDS = ["scholarship", "장학금", "奨学金"];
+    const BUSINESS_KEYWORDS = ["business japanese", "business jp", "비즈니스", "ビジネス", "business"];
+    const ENGLISH_INTL_KEYWORDS = [
+        "english", "international", "english-taught", "english program",
+        "영어", "국제", "英語", "国際",
+    ];
+    const MAJOR_CITIES = [
+        "福岡", "神戸", "札幌", "横浜", "仙台",
+        "Fukuoka", "Kobe", "Sapporo", "Yokohama", "Sendai",
+        "후쿠오카", "고베", "삿포로", "요코하마", "센다이",
+    ];
 
     function getFeatures(school) {
         const rawFeatures = school.features;
@@ -25,24 +35,104 @@
         return item.basic_info?.address || "";
     }
 
+    function isUniversity(school) {
+        return school.category === "university";
+    }
+
+    function isLanguageSchool(school) {
+        return !isUniversity(school);
+    }
+
+    function featuresIncludeAny(features, keywords) {
+        return keywords.some((kw) => features.includes(kw.toLowerCase()));
+    }
+
+    function getYearlyTuition(school) {
+        const raw = school.tuition?.yearly_tuition;
+        if (typeof raw === "number" && Number.isFinite(raw)) return raw;
+        if (typeof raw === "string") {
+            const digits = raw.replace(/[^\d]/g, "");
+            if (digits) return Number(digits);
+        }
+        return null;
+    }
+
     function matchesSchoolType(school, typeKey) {
-        if (typeKey === "university") return school.category === "university";
-        if (school.category === "university") return false;
+        if (isUniversity(school)) return false;
         if (typeKey === "all") return true;
 
         const features = getFeatures(school);
         const capacity = school.basic_info?.capacity;
 
         switch (typeKey) {
-            case "academic":
-                return ACADEMIC_KEYWORDS.some((kw) => features.includes(kw));
-            case "dormitory":
-                return DORM_KEYWORDS.some((kw) => features.includes(kw));
-            case "size_medium":
-                return typeof capacity === "number" && capacity > 150 && capacity <= 500;
+            case "short_term":
+                return featuresIncludeAny(features, SHORT_TERM_KEYWORDS)
+                    || (features.includes("short") && features.includes("course"));
+            case "scholarship":
+                return featuresIncludeAny(features, SCHOLARSHIP_KEYWORDS);
+            case "business":
+                return featuresIncludeAny(features, BUSINESS_KEYWORDS);
+            case "size_small":
+                return typeof capacity === "number" && capacity > 0 && capacity <= 150;
             default:
                 return true;
         }
+    }
+
+    function matchesUnivType(school, typeKey) {
+        if (!isUniversity(school)) return false;
+        if (typeKey === "all") return true;
+
+        if (typeKey === "english_intl") {
+            return featuresIncludeAny(getFeatures(school), ENGLISH_INTL_KEYWORDS);
+        }
+
+        const tuition = getYearlyTuition(school);
+        if (tuition == null) return false;
+
+        switch (typeKey) {
+            case "tuition_low":
+                return tuition <= 800000;
+            case "tuition_mid":
+                return tuition > 800000 && tuition < 1200000;
+            case "tuition_high":
+                return tuition >= 1200000;
+            default:
+                return true;
+        }
+    }
+
+    function matchesEntitySchoolSimple(school) {
+        if (currentEntityFilter === "stays") return false;
+        if (currentEntityFilter === "language_schools") {
+            return isLanguageSchool(school) && matchesSchoolType(school, currentTypeFilter);
+        }
+        if (currentEntityFilter === "universities") {
+            return isUniversity(school) && matchesUnivType(school, currentUnivTypeFilter);
+        }
+        // all — show every school/university (subtype row is hidden)
+        return true;
+    }
+
+    function addressHasAny(address, needles) {
+        return needles.some((n) => address.includes(n));
+    }
+
+    function isTokyoAddress(address) {
+        return addressHasAny(address, ["東京都", "東京", "Tokyo", "tokyo", "도쿄", "동경"]);
+    }
+
+    function isOsakaAddress(address) {
+        return addressHasAny(address, ["大阪府", "大阪", "Osaka", "osaka", "오사카"]);
+    }
+
+    function isNagoyaAddress(address) {
+        return addressHasAny(address, ["名古屋", "愛知", "Nagoya", "nagoya", "Aichi", "aichi", "나고야", "아이치"]);
+    }
+
+    function isKyotoAddress(address) {
+        if (isTokyoAddress(address)) return false;
+        return addressHasAny(address, ["京都府", "京都", "Kyoto", "kyoto", "교토"]);
     }
 
     function matchesRegion(item, regionKey) {
@@ -51,28 +141,36 @@
 
         switch (regionKey) {
             case "tokyo":
-                return address.includes("東京都") || address.includes("Tokyo");
+                return isTokyoAddress(address);
             case "osaka":
-                return address.includes("大阪府") || address.includes("Osaka");
+                return isOsakaAddress(address);
             case "nagoya":
-                return address.includes("名古屋") || address.includes("愛知") || address.includes("Nagoya");
+                return isNagoyaAddress(address);
             case "kyoto":
-                return (address.includes("京都") && !address.includes("東京都")) || address.includes("Kyoto");
+                return isKyotoAddress(address) && !isTokyoAddress(address);
             case "major_city":
-                return !address.includes("東京都")
-                    && !address.includes("Tokyo")
-                    && !address.includes("大阪府")
-                    && !address.includes("名古屋")
-                    && !address.includes("愛知")
-                    && !(address.includes("京都") && !address.includes("東京都"))
+                return !isTokyoAddress(address)
+                    && !isOsakaAddress(address)
+                    && !isNagoyaAddress(address)
+                    && !isKyotoAddress(address)
                     && MAJOR_CITIES.some((city) => address.includes(city));
             default:
                 return true;
         }
     }
 
+    function stayOperator(stay) {
+        const id = String(stay.id || "").toLowerCase();
+        if (id.startsWith("oakhouse") || id.includes("oakhouse")) return "oakhouse";
+        if (id.startsWith("sakura") || id.includes("sakura")) return "sakura";
+        return "";
+    }
+
     function matchesStayType(stay, typeKey) {
         if (typeKey === "all") return true;
+        if (typeKey === "oakhouse" || typeKey === "sakura") {
+            return stayOperator(stay) === typeKey;
+        }
         return stay.stay_type === typeKey;
     }
 
@@ -86,13 +184,15 @@
     }
 
     function computeFilteredSchools() {
-        if (currentEntityFilter === "stays") return [];
         return sortByPublishedDesc(allSchoolData.filter((school) => (
-            matchesSchoolType(school, currentTypeFilter) && matchesRegion(school, currentRegionFilter)
+            matchesEntitySchoolSimple(school) && matchesRegion(school, currentRegionFilter)
         )));
     }
 
     function computeFilteredStays() {
+        if (currentEntityFilter === "language_schools" || currentEntityFilter === "universities") {
+            return [];
+        }
         if (currentEntityFilter === "schools") return [];
         const typeKey = currentEntityFilter === "stays" ? currentStayTypeFilter : "all";
         return sortByPublishedDesc(allStayData.filter((stay) => (
@@ -100,38 +200,95 @@
         )));
     }
 
+    function countLanguageSchools(regionKey, typeKey) {
+        return allSchoolData.filter((x) => (
+            isLanguageSchool(x)
+            && matchesSchoolType(x, typeKey)
+            && matchesRegion(x, regionKey)
+        )).length;
+    }
+
+    function countUniversities(regionKey, univTypeKey) {
+        return allSchoolData.filter((x) => (
+            isUniversity(x)
+            && matchesUnivType(x, univTypeKey || "all")
+            && matchesRegion(x, regionKey)
+        )).length;
+    }
+
+    function countStays(regionKey, stayTypeKey) {
+        return allStayData.filter((x) => (
+            matchesStayType(x, stayTypeKey) && matchesRegion(x, regionKey)
+        )).length;
+    }
+
     function countEntity(key) {
+        const region = currentRegionFilter;
         if (key === "all") {
-            const s = allSchoolData.filter((x) => matchesSchoolType(x, currentTypeFilter) && matchesRegion(x, currentRegionFilter)).length;
-            const t = allStayData.filter((x) => matchesRegion(x, currentRegionFilter)).length;
-            return s + t;
+            return countLanguageSchools(region, "all")
+                + countUniversities(region, "all")
+                + countStays(region, "all");
+        }
+        if (key === "language_schools") {
+            return countLanguageSchools(region, currentTypeFilter);
+        }
+        if (key === "universities") {
+            return countUniversities(region, currentUnivTypeFilter);
+        }
+        if (key === "stays") {
+            return countStays(region, currentStayTypeFilter);
         }
         if (key === "schools") {
-            return allSchoolData.filter((x) => matchesSchoolType(x, currentTypeFilter) && matchesRegion(x, currentRegionFilter)).length;
+            return countLanguageSchools(region, "all") + countUniversities(region, "all");
         }
-        return allStayData.filter((x) => matchesStayType(x, currentStayTypeFilter) && matchesRegion(x, currentRegionFilter)).length;
+        return 0;
     }
 
     function countForAxis(axis, key) {
         if (axis === "entity") return countEntity(key);
         if (axis === "stay_type") {
-            return allStayData.filter((x) => matchesStayType(x, key) && matchesRegion(x, currentRegionFilter)).length;
+            return countStays(currentRegionFilter, key);
         }
-        const typeKey = axis === "type" ? key : currentTypeFilter;
-        const regionKey = axis === "region" ? key : currentRegionFilter;
-        return allSchoolData.filter((s) => matchesSchoolType(s, typeKey) && matchesRegion(s, regionKey)).length;
+        if (axis === "type") {
+            return countLanguageSchools(currentRegionFilter, key);
+        }
+        if (axis === "univ_type") {
+            return countUniversities(currentRegionFilter, key);
+        }
+        if (axis === "region") {
+            const regionKey = key;
+            if (currentEntityFilter === "language_schools") {
+                return countLanguageSchools(regionKey, currentTypeFilter);
+            }
+            if (currentEntityFilter === "universities") {
+                return countUniversities(regionKey, currentUnivTypeFilter);
+            }
+            if (currentEntityFilter === "stays") {
+                return countStays(regionKey, currentStayTypeFilter);
+            }
+            return countLanguageSchools(regionKey, "all")
+                + countUniversities(regionKey, "all")
+                + countStays(regionKey, "all");
+        }
+        return 0;
     }
 
     function toggleFilterRows() {
         const schoolRow = document.getElementById("filter-row-school-type");
+        const univRow = document.getElementById("filter-row-univ-type");
         const stayRow = document.getElementById("filter-row-stay-type");
         if (!schoolRow || !stayRow) return;
 
-        const showSchool = currentEntityFilter === "all" || currentEntityFilter === "schools";
+        const showSchool = currentEntityFilter === "language_schools";
+        const showUniv = currentEntityFilter === "universities";
         const showStay = currentEntityFilter === "stays";
 
         schoolRow.classList.toggle("is-hidden", !showSchool);
         schoolRow.setAttribute("aria-hidden", showSchool ? "false" : "true");
+        if (univRow) {
+            univRow.classList.toggle("is-hidden", !showUniv);
+            univRow.setAttribute("aria-hidden", showUniv ? "false" : "true");
+        }
         stayRow.classList.toggle("is-hidden", !showStay);
         stayRow.setAttribute("aria-hidden", showStay ? "false" : "true");
     }
@@ -143,19 +300,19 @@
         }
 
         const ids = new Set(filteredSchools.map((s) => s.id));
-        const isUniversityFilter = currentTypeFilter === "university";
-        const hideSchoolCards = currentEntityFilter === "stays";
+        const hideLanguageCards = currentEntityFilter === "stays" || currentEntityFilter === "universities";
+        const hideUniversityCards = currentEntityFilter === "stays" || currentEntityFilter === "language_schools";
 
         document.querySelectorAll(".school-card[data-school-id]").forEach((card) => {
-            card.classList.toggle("is-filter-hidden", hideSchoolCards || isUniversityFilter || !ids.has(card.dataset.schoolId));
+            card.classList.toggle("is-filter-hidden", hideLanguageCards || !ids.has(card.dataset.schoolId));
         });
 
         document.querySelectorAll(".university-card[data-school-id]").forEach((card) => {
-            card.classList.toggle("is-filter-hidden", hideSchoolCards || !isUniversityFilter || !ids.has(card.dataset.schoolId));
+            card.classList.toggle("is-filter-hidden", hideUniversityCards || !ids.has(card.dataset.schoolId));
         });
 
         const stayIds = new Set(currentFilteredStays.map((s) => s.id));
-        const hideStayCards = currentEntityFilter === "schools";
+        const hideStayCards = currentEntityFilter === "language_schools" || currentEntityFilter === "universities";
         document.querySelectorAll(".stay-card[data-stay-id]").forEach((card) => {
             card.classList.toggle("is-filter-hidden", hideStayCards || !stayIds.has(card.dataset.stayId));
         });
@@ -188,6 +345,7 @@
             let active = false;
             if (axis === "entity") active = key === currentEntityFilter;
             if (axis === "type") active = key === currentTypeFilter;
+            if (axis === "univ_type") active = key === currentUnivTypeFilter;
             if (axis === "stay_type") active = key === currentStayTypeFilter;
             if (axis === "region") active = key === currentRegionFilter;
             btn.classList.toggle("active", active);
@@ -205,6 +363,7 @@
             detail: {
                 entity: currentEntityFilter,
                 type: currentTypeFilter,
+                univ_type: currentUnivTypeFilter,
                 stay_type: currentStayTypeFilter,
                 region: currentRegionFilter,
                 schools: currentFilteredSchools.slice(),
@@ -231,8 +390,14 @@
 
         const axis = btn.dataset.filterAxis;
         const key = btn.dataset.filterKey || "all";
-        if (axis === "entity") currentEntityFilter = key;
+        if (axis === "entity") {
+            currentEntityFilter = key;
+            currentTypeFilter = "all";
+            currentUnivTypeFilter = "all";
+            currentStayTypeFilter = "all";
+        }
         if (axis === "type") currentTypeFilter = key;
+        if (axis === "univ_type") currentUnivTypeFilter = key;
         if (axis === "stay_type") currentStayTypeFilter = key;
         if (axis === "region") currentRegionFilter = key;
 
@@ -249,6 +414,7 @@
         getAllStayData: () => allStayData.slice(),
         getEntityFilter: () => currentEntityFilter,
         getTypeFilter: () => currentTypeFilter,
+        getUnivTypeFilter: () => currentUnivTypeFilter,
         getRegionFilter: () => currentRegionFilter,
         refresh: bootstrap,
     };

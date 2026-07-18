@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from xml.sax.saxutils import escape as xml_escape
 
 from fastapi import APIRouter, HTTPException, Query, Request
-from fastapi.responses import HTMLResponse, PlainTextResponse, Response
+from fastapi.responses import HTMLResponse, PlainTextResponse, RedirectResponse, Response
 
 from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY, SHOW_STAYS_UI
 from app.affiliate import affiliate_context
@@ -14,7 +14,13 @@ from app.content_loader import ContentNotFoundError, load_guide_content, load_sc
 from app.content_badges import enrich_items
 from app.deps import templates
 from app.family_sites import cross_links_for, inject_family_context
-from app.related import pick_compare_guides, pick_nearby_stays, pick_related_guides, pick_related_schools
+from app.related import (
+    pick_compare_guides,
+    pick_nearby_schools,
+    pick_nearby_stays,
+    pick_related_guides,
+    pick_related_schools,
+)
 from app.seo import (
     apply_guide_serp_overrides,
     build_canonical_url,
@@ -24,6 +30,7 @@ from app.seo import (
     content_lastmod,
     default_updated_at,
     guide_faq_json_ld,
+    stay_faq_json_ld,
 )
 from app.social_share import share_context
 from app.utils import (
@@ -35,6 +42,7 @@ from app.utils import (
     get_region_filters,
     get_stay_type_filters,
     get_type_filters,
+    get_university_type_filters,
     get_ui_text,
     load_guides,
     load_school_data,
@@ -110,7 +118,10 @@ async def sitemap():
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     add_entry("/", today, "daily", "1.0")
-    for page in ["/about", "/guide", "/schools", "/universities", "/contact", "/policy", "/compare"]:
+    static_pages = ["/about", "/guide", "/schools", "/universities", "/contact", "/policy", "/compare"]
+    if SHOW_STAYS_UI:
+        static_pages.append("/stays")
+    for page in static_pages:
         add_entry(page, today, "weekly", "0.8")
 
     schools_en, _ = load_school_data("en")
@@ -224,6 +235,7 @@ async def read_root(request: Request, lang: str = Query("en")):
         "current_lang": lang,
         "ui": ui,
         "type_filters": get_type_filters(lang),
+        "university_type_filters": get_university_type_filters(lang),
         "entity_filters": get_entity_filters(lang),
         "stay_type_filters": get_stay_type_filters(lang) if SHOW_STAYS_UI else [],
         "region_filters": get_region_filters(lang),
@@ -303,6 +315,8 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
     stay_type = item.get("stay_type", "guesthouse")
     ui = get_ui_text(lang)
     stay_type_label = ui.get(f"stay_type_{stay_type}", stay_type)
+    meta_raw_title = item.get("seo_title") or share_title
+    meta_raw_desc = item.get("seo_description") or item.get("description", "")
 
     return templates.TemplateResponse(request, "detail.html", {
         "item": item,
@@ -313,16 +327,17 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
         "ui": ui,
         "show_stays_ui": SHOW_STAYS_UI,
         "nearby_stays": [],
+        "related_schools": pick_nearby_schools(item, lang),
         "canonical_url": build_canonical_url(f"/stay/{stay_id}", lang),
         "hreflang_urls": build_hreflang_urls(f"/stay/{stay_id}"),
         "updated_at": default_updated_at(),
         "related_guides": pick_related_guides(item, "stay", lang),
-        "meta_title": build_meta_title(share_title, lang),
+        "meta_title": build_meta_title(meta_raw_title, lang),
         "meta_description": build_meta_description(
-            item.get("description", ""),
-            "Foreigner-friendly Tokyo guesthouse or monthly mansion for international students.",
+            meta_raw_desc,
+            "Foreigner-friendly student housing near Japanese language schools and universities.",
         ),
-        "faq_json_ld": None,
+        "faq_json_ld": stay_faq_json_ld(item),
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **ctx,
@@ -417,6 +432,53 @@ async def university_list(request: Request, lang: str = Query("en")):
         "meta_description": build_meta_description(
             "Find university options in Japan with practical comparisons and prep guidance.",
             "Find university options in Japan with practical comparisons and prep guidance."
+        ),
+    })
+
+
+@router.get("/stays", response_class=HTMLResponse)
+async def stay_list(request: Request, lang: str = Query("en")):
+    if not SHOW_STAYS_UI:
+        return RedirectResponse(
+            url=f"/guide/tokyo-student-housing-operators?lang={lang}",
+            status_code=302,
+        )
+
+    stays_data, _ = load_stay_data(lang)
+    stays = enrich_items(stays_data)
+
+    return templates.TemplateResponse(request, "list.html", {
+        "items": stays,
+        "item_type": "stay",
+        "title": "Student Housing" if lang == "en" else "숙소 일람",
+        "description": (
+            "Browse guesthouses, share houses, and monthly mansions for students in Japan."
+            if lang == "en"
+            else "유학생을 위한 게스트하우스·셰어하우스·먼슬리맨션을 확인하세요."
+        ),
+        "current_lang": lang,
+        "ui": get_ui_text(lang),
+        "show_stays_ui": True,
+        "canonical_url": build_canonical_url("/stays", lang),
+        "hreflang_urls": build_hreflang_urls("/stays"),
+        "updated_at": default_updated_at(),
+        "meta_title": build_meta_title(
+            "Student Housing in Japan — Guesthouse, Share House & Monthly | JP Campus"
+            if lang != "kr"
+            else "일본 유학생 숙소 일람 — 게스트·셰어·먼슬리 | JP Campus",
+            lang,
+        ),
+        "meta_description": build_meta_description(
+            (
+                "Browse student-friendly housing across Japan: guesthouses, share houses, "
+                "and monthly mansions with links to operator booking pages."
+            )
+            if lang != "kr"
+            else (
+                "일본 유학생용 게스트하우스·셰어하우스·먼슬리맨션을 한곳에서 살펴보고 "
+                "각 숙소 상세·예약 링크로 이어지는 목록입니다."
+            ),
+            "Browse student housing options across Japan.",
         ),
     })
 

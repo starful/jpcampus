@@ -32,40 +32,47 @@
 {% endblock %}
 
 {% block content %}
-{# [수정] 상단 여백 축소 (40px) #}
-<main class="detail-container" style="margin-top: 40px;">
+{% set stay_operator = item.get('basic_info', {}).get('operator') or 'Operator' %}
+{% set stay_booking_label = (ui.book_stay_on or ui.book_stay).replace('{operator}', stay_operator) %}
+{% set type_class = 'is-' ~ item_type %}
+<main class="detail-container {{ type_class }}">
 
     <div class="detail-top-bar">
-        <a href="{% if item_type == 'guide' %}/guide{% elif item_type == 'stay' %}{% if show_stays_ui %}/{% else %}/guide/tokyo-student-housing-operators{% endif %}{% else %}{{ '/universities' if item_type == 'university' else '/schools' }}{% endif %}?lang={{ current_lang }}{% if item_type == 'stay' and show_stays_ui %}#stays-section{% endif %}" class="back-to-list-btn">
-            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+        <a href="{% if item_type == 'guide' %}/guide{% elif item_type == 'stay' %}{% if show_stays_ui %}/stays{% else %}/guide/tokyo-student-housing-operators{% endif %}{% else %}{{ '/universities' if item_type == 'university' else '/schools' }}{% endif %}?lang={{ current_lang }}" class="back-to-list-btn">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
             <span>{% if item_type == 'stay' %}{% if show_stays_ui %}{{ ui.back_to_stays }}{% else %}{{ ui.housing_operators_cta }}{% endif %}{% else %}{{ ui.back_to_list }}{% endif %}</span>
         </a>
         {% include 'partials/lang_selector.html' %}
     </div>
 
-    <div class="detail-header">
+    <header class="detail-header">
         {% if item_type == 'guide' %}
-            <span class="detail-category">{{ item.get('category', 'Guide') }}</span>
+            <span class="detail-badge detail-badge--guide">{{ item.get('category', ui.guide_badge) }}</span>
             <h1 class="detail-title">{{ item.get('title', 'Guide Detail') }}</h1>
+            {% if item.get('description') %}
+            <p class="detail-lead">{{ item.get('description') }}</p>
+            {% endif %}
         {% elif item_type == 'stay' %}
-            <span class="detail-category" style="background:#ccfbf1;color:#0f766e;">{{ stay_type_label }}</span>
-            <h1 class="detail-title">{{ item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ja') }}</h1>
-            <p style="color: var(--text-gray); display: flex; align-items: center; gap: 8px;">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
-                {{ item.get('basic_info', {}).get('address', 'Address not available') }}
+            <span class="detail-badge detail-badge--stay">{{ stay_type_label }}</span>
+            <h1 class="detail-title">{{ item.get('basic_info', {}).get('name_display') or item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ja') }}</h1>
+            <p class="detail-address">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <span>{{ item.get('basic_info', {}).get('address', 'Address not available') }}</span>
             </p>
             {% if item.get('booking_url') %}
-            <a href="{{ item.booking_url }}" class="detail-cta-btn" style="display:inline-flex;margin-top:12px;" target="_blank" rel="noopener noreferrer nofollow sponsored" data-track="stay_booking" data-track-label="{{ item.id }}">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                <span>{{ ui.book_stay }}</span>
+            <a href="{{ item.booking_url }}" class="stay-booking-btn" target="_blank" rel="noopener noreferrer nofollow sponsored" data-track="stay_booking" data-track-label="{{ item.id }}">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                <span>{{ stay_booking_label }}</span>
             </a>
             {% endif %}
         {% else %}
-            <span class="detail-category">{{ 'University' if item_type == 'university' else 'Language School' }}</span>
-            <h1 class="detail-title">{{ item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ja') }}</h1>
-            <p style="color: var(--text-gray); display: flex; align-items: center; gap: 8px;">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
-                {{ item.get('basic_info', {}).get('address', 'Address not available') }}
+            <span class="detail-badge detail-badge--{{ 'univ' if item_type == 'university' else 'school' }}">
+                {{ ui.university if item_type == 'university' else ui.language_school }}
+            </span>
+            <h1 class="detail-title">{{ item.get('basic_info', {}).get('name_display') or item.get('basic_info', {}).get('name_en') or item.get('basic_info', {}).get('name_ja') }}</h1>
+            <p class="detail-address">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <span>{{ item.get('basic_info', {}).get('address', 'Address not available') }}</span>
             </p>
             <button type="button" class="compare-toggle-btn detail-compare-btn"
                 data-compare-id="{{ item.id }}"
@@ -74,10 +81,10 @@
                 data-track="compare_toggle"
                 data-track-label="{{ item.id }}">{{ ui.compare_add }}</button>
         {% endif %}
-    </div>
+    </header>
 
     {% if item_type == 'guide' and item.get('thumbnail') %}
-    <figure class="detail-guide-hero">
+    <figure class="detail-hero">
         <img
             src="{{ item.get('thumbnail') }}"
             alt="{{ item.get('title', 'Guide thumbnail') }}"
@@ -86,7 +93,7 @@
         >
     </figure>
     {% elif item_type == 'stay' and item.get('thumbnail') %}
-    <figure class="detail-guide-hero">
+    <figure class="detail-hero detail-hero--stay">
         <img
             src="{{ item.get('thumbnail') }}"
             alt="{{ item.get('basic_info', {}).get('name_en', 'Housing') }}"
@@ -101,62 +108,130 @@
     {% include 'partials/affiliate_box.html' %}
     {% endif %}
 
-    {# 학교/대학/숙소 정보 그리드 #}
     {% if item_type == 'stay' %}
-    <div class="info-grid">
+    <div class="info-grid detail-info-grid detail-info-grid--stay">
         <div class="info-item">
-            <div class="info-label">Operator</div>
-            <div class="info-value">{{ item.get('basic_info', {}).get('operator') or 'N/A' }}</div>
+            <div class="info-label">{{ ui.stay_label_operator }}</div>
+            <div class="info-value">{{ stay_operator }}</div>
         </div>
         <div class="info-item">
-            <div class="info-label">Monthly Rent</div>
+            <div class="info-label">{{ ui.stay_label_type }}</div>
+            <div class="info-value">{{ stay_type_label }}</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">{{ ui.stay_label_rent }}</div>
             <div class="info-value">
-                {% if item.get('rent') %}
+                {% if item.get('rent') and item.rent.min and item.rent.max %}
                     ¥{{ "{:,}".format(item.rent.min) }} – ¥{{ "{:,}".format(item.rent.max) }}
                 {% else %}
-                    TBD
+                    {{ ui.stay_rent_see_operator }}
                 {% endif %}
             </div>
         </div>
         <div class="info-item">
-            <div class="info-label">Foreigner OK</div>
-            <div class="info-value">{{ 'Yes' if item.get('foreigner_ok') else 'Check' }}</div>
+            <div class="info-label">{{ ui.stay_label_foreigner }}</div>
+            <div class="info-value">{{ ui.stay_yes if item.get('foreigner_ok') else '—' }}</div>
         </div>
     </div>
+
+    <section class="stay-benefits" aria-labelledby="stay-benefits-title">
+        <h2 id="stay-benefits-title" class="detail-section-title">{{ ui.stay_benefits_title }}</h2>
+        <div class="stay-benefit-grid">
+            <article class="stay-benefit-card">
+                <div class="stay-benefit-icon" aria-hidden="true"><i class="fa-solid fa-user-check"></i></div>
+                <h3>{{ ui.stay_benefit_guarantor_title }}</h3>
+                <p>{{ ui.stay_benefit_guarantor_text }}</p>
+            </article>
+            <article class="stay-benefit-card">
+                <div class="stay-benefit-icon" aria-hidden="true"><i class="fa-solid fa-wifi"></i></div>
+                <h3>{{ ui.stay_benefit_furnished_title }}</h3>
+                <p>{{ ui.stay_benefit_furnished_text }}</p>
+            </article>
+            <article class="stay-benefit-card">
+                <div class="stay-benefit-icon" aria-hidden="true"><i class="fa-solid fa-calendar-check"></i></div>
+                <h3>{{ ui.stay_benefit_flexible_title }}</h3>
+                <p>{{ ui.stay_benefit_flexible_text }}</p>
+            </article>
+            <article class="stay-benefit-card">
+                <div class="stay-benefit-icon" aria-hidden="true"><i class="fa-solid fa-language"></i></div>
+                <h3>{{ ui.stay_benefit_english_title }}</h3>
+                <p>{{ ui.stay_benefit_english_text }}</p>
+            </article>
+        </div>
+    </section>
     {% elif item_type != 'guide' %}
-    <div class="info-grid">
-        <div class="info-item">
-            <div class="info-label">Capacity</div>
-            <div class="info-value">{{ item.get('basic_info', {}).get('capacity') or 'N/A' }}</div>
+    {% set capacity = item.get('basic_info', {}).get('capacity') %}
+    {% set students = item.get('stats', {}).get('international_students') if item.get('stats') else none %}
+    {% set tuition = item.get('tuition', {}).get('yearly_tuition') if item.get('tuition') else none %}
+    {% set label_capacity = ui.detail_label_capacity or ui.capacity or ('Capacity' if current_lang == 'en' else '정원') %}
+    {% set label_students = ui.detail_label_students or ui.students or ('International students' if current_lang == 'en' else '유학생 수') %}
+    {% set label_tuition = ui.detail_label_tuition or ui.yearly_tuition or ('Yearly tuition' if current_lang == 'en' else '연간 학비') %}
+    {% set na = ui.detail_na or ('N/A' if current_lang == 'en' else '정보 없음') %}
+    {% set tbd = ui.detail_tbd or ('TBD' if current_lang == 'en' else '미정') %}
+    <div class="info-grid detail-info-grid detail-info-grid--{{ 'univ' if item_type == 'university' else 'school' }}">
+        <div class="info-item{% if capacity is none or capacity == '' %} is-empty{% endif %}">
+            <div class="info-label">{{ label_capacity }}</div>
+            <div class="info-value">{% if capacity is not none and capacity != '' %}{{ capacity }}{% else %}{{ na }}{% endif %}</div>
         </div>
-        <div class="info-item">
-            <div class="info-label">Students</div>
-            <div class="info-value">{{ item.get('stats', {}).get('international_students') or 'N/A' }}</div>
+        <div class="info-item{% if students is none or students == '' %} is-empty{% endif %}">
+            <div class="info-label">{{ label_students }}</div>
+            <div class="info-value">{% if students is not none and students != '' %}{{ students }}{% else %}{{ na }}{% endif %}</div>
         </div>
-        <div class="info-item">
-            <div class="info-label">Yearly Tuition</div>
+        <div class="info-item{% if not tuition %} is-empty{% endif %}">
+            <div class="info-label">{{ label_tuition }}</div>
             <div class="info-value">
-                {% if item.get('tuition') and item.get('tuition').get('yearly_tuition') %}
-                    ¥{{ "{:,}".format(item.get('tuition').get('yearly_tuition')) }}
+                {% if tuition %}
+                    ¥{{ "{:,}".format(tuition) }}
                 {% else %}
-                    TBD
+                    {{ tbd }}
                 {% endif %}
             </div>
         </div>
     </div>
     {% endif %}
 
-    {# 본문 내용 #}
     <div class="detail-content">{{ content_body | safe }}</div>
+
+    {% if item_type == 'stay' and item.get('booking_url') %}
+    <section class="stay-booking-panel">
+        <div class="stay-booking-panel__text">
+            <h2>{{ ui.stay_booking_title }}</h2>
+            <p>{{ ui.stay_booking_desc }}</p>
+        </div>
+        <a href="{{ item.booking_url }}" class="stay-booking-btn stay-booking-btn--lg" target="_blank" rel="noopener noreferrer nofollow sponsored" data-track="stay_booking_bottom" data-track-label="{{ item.id }}">
+            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            <span>{{ stay_booking_label }}</span>
+        </a>
+        <p class="stay-booking-disclaimer">{{ ui.stay_booking_disclaimer }}</p>
+    </section>
+    {% endif %}
+
+    {% if item_type == 'stay' and item.get('faq') %}
+    <section class="stay-faq" aria-labelledby="stay-faq-title">
+        <h2 id="stay-faq-title" class="detail-section-title">{{ ui.stay_faq_title }}</h2>
+        <div class="stay-faq-list">
+            {% for row in item.faq %}
+            {% set q = row.get('q') or row.get('question') %}
+            {% set a = row.get('a') or row.get('answer') %}
+            {% if q and a %}
+            <details class="stay-faq-item"{% if loop.first %} open{% endif %}>
+                <summary>{{ q }}</summary>
+                <p>{{ a }}</p>
+            </details>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
 
     <div class="detail-cta-panel">
         <a href="/guide?lang={{ current_lang }}" class="detail-cta-btn" data-track="detail_cta" data-track-label="related_guides">
-            <i class="fa-solid fa-compass"></i>
-            <span>{{ 'See Related Guides' if current_lang == 'en' else '연관 가이드 보기' }}</span>
+            <i class="fa-solid fa-compass" aria-hidden="true"></i>
+            <span>{{ ui.detail_cta_guides }}</span>
         </a>
         <a href="/contact?lang={{ current_lang }}" class="detail-cta-btn" data-track="detail_cta" data-track-label="contact">
-            <i class="fa-solid fa-envelope"></i>
-            <span>{{ 'Contact Us' if current_lang == 'en' else '문의하기' }}</span>
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>{{ ui.detail_cta_contact }}</span>
         </a>
     </div>
 
@@ -179,71 +254,84 @@
         </div>
     </section>
 
-    {% if nearby_stays %}
-    <div class="section-header" style="margin-top: 48px;">
-        <h2 class="section-title">{{ ui.nearby_stays_title }}</h2>
-    </div>
-    <div class="card-grid">
-        {% for stay in nearby_stays %}
-        <a href="{{ stay.link }}" class="card stay-card" data-track="nearby_stay" data-track-label="{{ stay.id }}">
-            <div class="card-img">
-                <img src="{{ stay.thumbnail }}" alt="{{ stay.basic_info.name_en }}" loading="lazy" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
-                <span class="card-badge" style="background:#0d9488;color:white;">{{ ui.stay_badge }}</span>
+    {% if nearby_stays or related_schools or related_guides %}
+    <div class="detail-related">
+        {% if nearby_stays %}
+        <section class="detail-related-section">
+            <div class="section-header">
+                <h2 class="section-title">{{ ui.nearby_stays_title }}</h2>
             </div>
-            <div class="card-body">
-                <h4>{{ stay.basic_info.name_en }}</h4>
-                <div class="card-meta">
-                    <span>{{ stay.distance_km }} km · ¥{{ "{:,}".format(stay.rent.min) }}{{ ui.per_month }}</span>
-                </div>
+            <div class="card-grid">
+                {% for stay in nearby_stays %}
+                <a href="{{ stay.link }}" class="card stay-card" data-track="nearby_stay" data-track-label="{{ stay.id }}">
+                    <div class="card-img">
+                        <img src="{{ stay.thumbnail }}" alt="{{ stay.basic_info.name_en }}" loading="lazy" class="card-thumb" onerror="this.onerror=null;this.src='/static/img/logo.png'">
+                        <span class="card-badge card-badge--stay">{{ ui.stay_badge }}</span>
+                    </div>
+                    <div class="card-body">
+                        <h4>{{ stay.basic_info.name_en }}</h4>
+                        <div class="card-meta">
+                            <span>{{ stay.distance_km }} km{% if stay.rent and stay.rent.min %} · ¥{{ "{:,}".format(stay.rent.min) }}{{ ui.per_month }}{% endif %}</span>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
             </div>
-        </a>
-        {% endfor %}
-    </div>
-    {% endif %}
+        </section>
+        {% endif %}
 
-    {% if related_schools %}
-    <div class="section-header" style="margin-top: 56px;">
-        <h2 class="section-title">{{ 'Related Schools' if current_lang == 'en' else '연관 학교' }}</h2>
-    </div>
-    <div class="card-grid">
-        {% for school in related_schools %}
-        <a href="{{ school.link }}" class="card" data-track="related_school" data-track-label="{{ school.id }}">
-            <div class="card-img">
-                <img src="{{ school.thumbnail }}" alt="{{ school.basic_info.name_display or school.basic_info.name_en or school.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
-                <span class="card-badge" style="color: var(--primary);">
-                    {{ 'University' if school.category == 'university' else 'School' }}
-                </span>
+        {% if related_schools %}
+        <section class="detail-related-section">
+            <div class="section-header">
+                <h2 class="section-title">{% if item_type == 'stay' %}{{ ui.stay_nearby_schools_title }}{% else %}{{ ui.detail_related_schools }}{% endif %}</h2>
             </div>
-            <div class="card-body">
-                <h4>{{ school.basic_info.name_display or school.basic_info.name_en or school.basic_info.name_ja }}</h4>
-                <div class="card-meta">
-                    <span>{{ school.basic_info.address or 'Japan' }}</span>
-                </div>
+            <div class="card-grid">
+                {% for school in related_schools %}
+                <a href="{{ school.link }}" class="card" data-track="related_school" data-track-label="{{ school.id }}">
+                    <div class="card-img">
+                        <img src="{{ school.thumbnail }}" alt="{{ school.basic_info.name_display or school.basic_info.name_en or school.basic_info.name_ja }}" loading="lazy" decoding="async" class="card-thumb">
+                        <span class="card-badge card-badge--{{ 'univ' if school.category == 'university' else 'school' }}">
+                            {{ ui.university if school.category == 'university' else ui.school_badge }}
+                        </span>
+                    </div>
+                    <div class="card-body">
+                        <h4>{{ school.basic_info.name_display or school.basic_info.name_en or school.basic_info.name_ja }}</h4>
+                        <div class="card-meta">
+                            <span>{{ school.basic_info.address or 'Japan' }}</span>
+                            {% if school.distance_km is defined and school.distance_km is not none %}
+                            <span>· {{ school.distance_km }} km</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
             </div>
-        </a>
-        {% endfor %}
-    </div>
-    {% endif %}
+        </section>
+        {% endif %}
 
-    {% if related_guides %}
-    <div class="section-header" style="margin-top: 56px;">
-        <h2 class="section-title">{{ 'Related Guides' if current_lang == 'en' else '연관 가이드' }}</h2>
-    </div>
-    <div class="card-grid">
-        {% for guide in related_guides %}
-        <a href="{{ guide.link }}" class="card" data-track="related_guide" data-track-label="{{ guide.link }}">
-            <div class="card-img" style="height: 180px;">
-                <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
-                <span class="card-badge" style="color: var(--accent);">{{ guide.category }}</span>
+        {% if related_guides %}
+        <section class="detail-related-section">
+            <div class="section-header">
+                <h2 class="section-title">{{ ui.detail_related_guides }}</h2>
             </div>
-            <div class="card-body">
-                <h4>{{ guide.title }}</h4>
-                <div class="card-meta">
-                    <span>{{ guide.description | truncate(110) }}</span>
-                </div>
+            <div class="card-grid">
+                {% for guide in related_guides %}
+                <a href="{{ guide.link }}" class="card" data-track="related_guide" data-track-label="{{ guide.link }}">
+                    <div class="card-img card-img--guide">
+                        <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" loading="lazy" decoding="async" class="card-thumb">
+                        <span class="card-badge card-badge--guide">{{ guide.category }}</span>
+                    </div>
+                    <div class="card-body">
+                        <h4>{{ guide.title }}</h4>
+                        <div class="card-meta">
+                            <span>{{ guide.description | truncate(110) }}</span>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
             </div>
-        </a>
-        {% endfor %}
+        </section>
+        {% endif %}
     </div>
     {% endif %}
 
@@ -252,18 +340,16 @@
 
 {% block scripts %}
 <script>
-    const itemSlug = "{{ item.get('id') }}"; // 현재 페이지의 slug
+    const itemSlug = "{{ item.get('id') }}";
 
-    // 페이지 로드 시 초기 데이터 가져오기
     document.addEventListener("DOMContentLoaded", async () => {
         try {
             const res = await fetch(`/api/reactions/${itemSlug}`);
             const data = await res.json();
-            
+
             document.getElementById("count-like").innerText = data.likes || 0;
             document.getElementById("count-dislike").innerText = data.dislikes || 0;
 
-            // 로컬 스토리지를 확인하여 이전에 내가 누른 버튼 상태 복원 (UX 개선)
             const myReaction = localStorage.getItem(`reaction_${itemSlug}`);
             if (myReaction === 'like') {
                 document.getElementById("btn-like").classList.add("active-like");
@@ -275,9 +361,7 @@
         }
     });
 
-    // 버튼 클릭 시 처리
     async function toggleReaction(type) {
-        // 더블 클릭 방지 시각적 피드백
         const btnLike = document.getElementById("btn-like");
         const btnDislike = document.getElementById("btn-dislike");
         btnLike.style.pointerEvents = 'none';
@@ -288,16 +372,13 @@
             const data = await res.json();
 
             if (data.status === "success") {
-                // 숫자 업데이트
                 document.getElementById("count-like").innerText = data.likes;
                 document.getElementById("count-dislike").innerText = data.dislikes;
 
-                // UI 클래스 및 로컬 스토리지 초기화
                 btnLike.classList.remove("active-like");
                 btnDislike.classList.remove("active-dislike");
                 localStorage.removeItem(`reaction_${itemSlug}`);
 
-                // Action이 추가(또는 변경)된 경우 클래스와 로컬스토리지 재설정
                 if (data.current_type === "like") {
                     btnLike.classList.add("active-like");
                     localStorage.setItem(`reaction_${itemSlug}`, "like");
@@ -309,7 +390,6 @@
         } catch (error) {
             console.error("Failed to post reaction:", error);
         } finally {
-            // 클릭 잠금 해제
             btnLike.style.pointerEvents = 'auto';
             btnDislike.style.pointerEvents = 'auto';
         }

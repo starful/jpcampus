@@ -93,13 +93,10 @@ function renderMarkers(schools, stays) {
 function createSchoolMarker(item, bounds) {
     if (!item.location || item.location.lat == null) return null;
 
+    // Always use type icons (not photo pins) so university / school / stay stay distinct.
     const isUniv = item.category === "university";
     const markerEl = document.createElement("div");
-    const thumb = item.thumbnail || "";
-    if (thumb) {
-        markerEl.className = "marker-icon";
-        markerEl.style.backgroundImage = `url(${thumb})`;
-    } else if (isUniv) {
+    if (isUniv) {
         markerEl.className = "map-marker marker-univ";
         markerEl.innerHTML = '<i class="fa-solid fa-building-columns"></i>';
     } else {
@@ -112,7 +109,7 @@ function createSchoolMarker(item, bounds) {
         position: item.location,
         title: item.basic_info?.name_en || item.basic_info?.name_ja,
         content: markerEl,
-        zIndex: isUniv ? 100 : 10,
+        zIndex: isUniv ? 100 : 20,
     });
 
     marker.addListener("click", () => openSchoolInfoWindow(item, marker));
@@ -135,7 +132,7 @@ function createStayMarker(item, bounds) {
         position: item.location,
         title: item.basic_info?.name_en || item.basic_info?.name_ja,
         content: markerEl,
-        zIndex: 50,
+        zIndex: 60,
     });
 
     marker.addListener("click", () => openStayInfoWindow(item, marker));
@@ -198,7 +195,7 @@ function openStayInfoWindow(stay, marker) {
     infoWindow.setContent(`
         <div class="info-window-content">
             <div class="iw-header">
-                <span class="iw-badge" style="background-color:#0d9488;">${typeLabel}</span>
+                <span class="iw-badge" style="background-color:#c026d3;">${typeLabel}</span>
                 <h5 class="iw-title">${stay.basic_info.name_en || stay.basic_info.name_ja}</h5>
                 <p class="iw-address">${stay.basic_info.address || ""}</p>
                 ${rentMin ? `<p class="iw-rent">${rentMin}</p>` : ""}
