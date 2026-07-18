@@ -25,8 +25,8 @@ id: univ_nagoya-university-of-commerce-business-nucb
 lang: kr
 layout: school
 location:
-  lat: 35.6812
-  lng: 139.7671
+  lat: 35.1524488
+  lng: 137.0953026
 stats:
   acceptance_rate: 40% (추정)
   international_students: 210
