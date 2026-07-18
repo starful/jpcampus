@@ -1,7 +1,6 @@
 ---
 basic_info:
-  address: 'Fukuoka Campus (Main): 5-7-1 Kogane, Musashigaoka, Dazaifu, Fukuoka 818-0197,
-    Japan. Other campuses in Kobe Sannomiya and Tokyo Shibuya.'
+  address: 5-7-1 Kogane, Musashigaoka, Dazaifu, Fukuoka 818-0197, Japan
   capacity: null
   name_en: Japan University of Economics
   name_ja: 日本経済大学

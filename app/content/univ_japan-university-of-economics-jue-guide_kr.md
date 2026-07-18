@@ -1,7 +1,6 @@
 ---
 basic_info:
-  address: '후쿠오카 캠퍼스 (본교): 〒818-0197 일본 후쿠오카현 다자이후시 무사시가오카 5-7-1 코가네. 고베 산노미야 및 도쿄
-    시부야에도 캠퍼스 위치.'
+  address: 〒818-0197 후쿠오카현 다자이후시 무사시가오카 코가네 5-7-1
   capacity: null
   name_en: Japan University of Economics
   name_ja: 日本経済大学

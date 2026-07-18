@@ -118,6 +118,37 @@
         return needles.some((n) => address.includes(n));
     }
 
+    /** Drop secondary-campus blurbs that cause false region hits (e.g. "…Tokyo Shibuya"). */
+    function primaryAddress(item) {
+        let address = getAddress(item);
+        const cutters = [
+            /Other campuses/i,
+            /그 외\s*캠퍼스/,
+            /기타\s*캠퍼스/,
+            /그밖[에은]\s*캠퍼스/,
+            /その他の?\s*キャンパス/,
+            /他の?\s*キャンパス/,
+        ];
+        for (const re of cutters) {
+            const parts = address.split(re);
+            if (parts.length > 1) address = parts[0];
+        }
+        // KR multi-campus: "본교: …후쿠오카…. 고베 … 및 도쿄…"
+        if (/본교|メイン|Main/i.test(address) && /도쿄|Tokyo|東京/.test(address)) {
+            const beforeKobe = address.split(/고베|Kobe|神戸/)[0];
+            if (beforeKobe.length > 20) address = beforeKobe;
+        }
+        return address.trim();
+    }
+
+    function getCoords(item) {
+        const loc = item.location || {};
+        const lat = Number(loc.lat);
+        const lng = Number(loc.lng);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
+        return { lat, lng };
+    }
+
     function isTokyoAddress(address) {
         return addressHasAny(address, ["東京都", "東京", "Tokyo", "tokyo", "도쿄", "동경"]);
     }
@@ -135,10 +166,36 @@
         return addressHasAny(address, ["京都府", "京都", "Kyoto", "kyoto", "교토"]);
     }
 
-    function matchesRegion(item, regionKey) {
-        if (regionKey === "all") return true;
-        const address = getAddress(item);
+    function matchesRegionByCoords(lat, lng, regionKey) {
+        switch (regionKey) {
+            case "tokyo":
+                // Tokyo Metropolis core (excludes Yokohama center / Kyushu)
+                return lat >= 35.50 && lat <= 35.92 && lng >= 138.90 && lng <= 139.95;
+            case "osaka":
+                return lat >= 34.45 && lat <= 34.85 && lng >= 135.30 && lng <= 135.70;
+            case "nagoya":
+                // Aichi incl. Nisshin / eastern Nagoya
+                return lat >= 34.85 && lat <= 35.35 && lng >= 136.70 && lng <= 137.25;
+            case "kyoto":
+                return lat >= 34.85 && lat <= 35.15 && lng >= 135.60 && lng <= 135.90;
+            case "major_city": {
+                const boxes = [
+                    [33.45, 33.75, 130.25, 130.55], // Fukuoka
+                    [34.60, 34.80, 134.95, 135.30], // Kobe
+                    [42.95, 43.20, 141.20, 141.50], // Sapporo
+                    [35.30, 35.55, 139.45, 139.75], // Yokohama
+                    [38.15, 38.35, 140.75, 141.05], // Sendai
+                ];
+                return boxes.some(([latMin, latMax, lngMin, lngMax]) => (
+                    lat >= latMin && lat <= latMax && lng >= lngMin && lng <= lngMax
+                ));
+            }
+            default:
+                return null;
+        }
+    }
 
+    function matchesRegionByAddress(address, regionKey) {
         switch (regionKey) {
             case "tokyo":
                 return isTokyoAddress(address);
@@ -157,6 +214,16 @@
             default:
                 return true;
         }
+    }
+
+    function matchesRegion(item, regionKey) {
+        if (regionKey === "all") return true;
+        const coords = getCoords(item);
+        if (coords) {
+            const byCoords = matchesRegionByCoords(coords.lat, coords.lng, regionKey);
+            if (typeof byCoords === "boolean") return byCoords;
+        }
+        return matchesRegionByAddress(primaryAddress(item), regionKey);
     }
 
     function stayOperator(stay) {
