@@ -67,11 +67,7 @@ The Japanese medical system functions differently from systems in Western countr
 
 When you feel unwell, select a local clinic specializing in your symptoms. Many clinics operate on a walk-in basis, though some offer online appointments.
 
-
-[Arrival at Clinic] ➔ [Submit Health Insurance Card] ➔ [Fill Out Medical Questionnaire]
-                                                                  ↓
-[Prescription Pickup] 💳 [Pay 30% Co-pay at Reception] 💳 [Doctor Consultation/Exam]
-
+**Clinic visit flow:** arrive → submit health insurance card → fill out medical questionnaire → doctor consultation/exam → pay 30% co-pay at reception → pick up prescription at a nearby pharmacy.
 
 1.  **Reception (Uketsuke):** Walk up to the reception desk and hand over your NHI card (*Hokensho*). If it is your first visit, say: *"Hajimete desu"* (It is my first time here).
 2.  **Medical Questionnaire (Shinsatsushogaki):** You will be given a clipboard to fill out your medical history, current symptoms, and allergy details. Many clinics in major cities provide English forms. (Tip: Keep a translation app handy on your phone to translate kanji characters).

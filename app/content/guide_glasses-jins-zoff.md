@@ -56,9 +56,7 @@ To help you decide which store fits your needs, here is a detailed breakdown of 
 
 Buying glasses at JINS or Zoff is incredibly straightforward. You do not need to visit an eye clinic beforehand, and you do not need health insurance. The entire process—from walking into the store to walking out with your new glasses—can be completed in under an hour.
 
-
-[1. Choose Frame] ──> [2. Eye Exam] ──> [3. Lens Selection] ──> [4. Payment & Wait] ──> [5. Fitting]
-
+**In-store flow:** choose a frame → eye exam → lens selection → payment & wait → fitting.
 
 ### Step 1: Browse and Select Your Frames
 Walk into any branch and start trying on frames. They are organized by price point, material, and style. Once you find a pair you like, keep them in your hands or place them in a shopping tray provided near the mirrors. 

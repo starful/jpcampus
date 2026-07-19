@@ -80,11 +80,7 @@ Once the Japanese Immigration Bureau approves your application, they will issue 
 
 Now, the second phase begins: turning that CoE into an actual visa at your local Japanese Embassy or Consulate.
 
-
-[Get Accepted by School] ➔ [Submit Documents] ➔ [School Applies for CoE]
-                                                       │
-[Book Travel & Pack] ◄─── [Embassy Issues Visa] ◄─── [Receive CoE Document]
-
+**Typical flow:** get accepted by a school → submit documents → school applies for CoE → receive CoE → embassy issues visa → book travel and pack.
 
 ### Step 4: Gather Your Visa Application Documents
 As soon as you receive your physical CoE, you must schedule an appointment at the nearest Japanese Embassy, Consulate General, or designated visa processing center in your home country. 

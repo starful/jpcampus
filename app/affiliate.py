@@ -1,4 +1,4 @@
-"""Amazon Associates + Rakuten Ichiba search CTAs for JP Campus guides."""
+"""Amazon Associates + Rakuten Ichiba + Klook CTAs for JP Campus guides."""
 
 from __future__ import annotations
 
@@ -11,6 +11,19 @@ RAKUTEN_HGC = os.getenv(
     "RAKUTEN_ICHIBA_HGC", "43cde6d2.98a376f7.43cde6d3.c7b92630"
 )
 _RAKUTEN_UT = "eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
+
+# Travelpayouts jpcampus project — do not reuse krcampus / okonsen short links.
+KLOOK_URL = os.getenv("KLOOK_URL", "https://klook.tpo.mx/s8kswiYD")
+
+# eSIM / transport → Klook
+GUIDE_KLOOK_SLUGS: frozenset[str] = frozenset(
+    {
+        "sim-card-guide",
+        "transport-ic",
+        "transport-seed",
+        "cheap-phone-accessories",
+    }
+)
 
 # guide slug (without _kr) → search keyword + kind
 # kind: "shop" | "book"
@@ -67,61 +80,72 @@ def rakuten_search_url(keyword: str) -> str:
 
 
 def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
-    """Return template vars for guide affiliate box, or empty show_affiliate=False."""
+    """Amazon/Rakuten (mapped) + Klook (sim/transport). No Coupang on jpcampus."""
     key = normalize_guide_slug(slug)
-    mapped = GUIDE_AFFILIATE_MAP.get(key)
-    if not mapped:
-        return {"show_affiliate": False}
-
-    keyword, kind = mapped
     is_kr = (lang or "en").lower() in ("kr", "ko")
 
+    mapped = GUIDE_AFFILIATE_MAP.get(key)
+    show_amazon = bool(mapped)
+    keyword, kind = mapped if mapped else ("", "shop")
+    show_klook = key in GUIDE_KLOOK_SLUGS
+
+    if not show_amazon and not show_klook:
+        return {
+            "show_affiliate": False,
+            "show_amazon": False,
+            "show_klook": False,
+        }
+
+    partners: list[str] = []
+    if show_amazon:
+        partners.extend(["Amazon", "라쿠텐" if is_kr else "Rakuten"])
+    if show_klook:
+        partners.append("Klook")
+
     if is_kr:
-        if kind == "book":
-            title = f"관련 책은 Amazon / 라쿠텐에서 검색하세요"
-            desc = (
-                "이 페이지는 가이드입니다. 버튼을 누르면 새 탭에서 "
-                f"「{keyword}」 검색 결과가 열리며, 특정 상품 페이지가 아닐 수 있습니다."
+        title = "관련 링크 — " + " / ".join(partners)
+        bits = []
+        if show_amazon:
+            bits.append(
+                f"「{keyword}」을 Amazon·라쿠텐에서 검색"
+                if keyword
+                else "Amazon·라쿠텐에서 검색"
             )
-            amazon_label = f"Amazon에서 {keyword} 검색 ↗"
-            rakuten_label = f"라쿠텐에서 {keyword} 검색 ↗"
-        else:
-            title = f"관련 쇼핑은 Amazon / 라쿠텐에서 검색하세요"
-            desc = (
-                "이 페이지는 가이드입니다. 버튼을 누르면 새 탭에서 "
-                f"「{keyword}」 검색 결과가 열리며, 특정 상품 페이지가 아닐 수 있습니다."
-            )
-            amazon_label = f"Amazon에서 {keyword} 검색 ↗"
-            rakuten_label = f"라쿠텐에서 {keyword} 검색 ↗"
+        if show_klook:
+            bits.append("eSIM·교통은 Klook")
+        desc = ". ".join(bits) + "."
+        amazon_label = f"Amazon에서 {keyword} 검색 ↗" if keyword else ""
+        rakuten_label = f"라쿠텐에서 {keyword} 검색 ↗" if keyword else ""
+        klook_label = "Klook에서 eSIM·교통 보기 ↗"
         note = "제휴 링크 · 새 탭에서 열림"
     else:
-        if kind == "book":
-            title = f"Find related books on Amazon / Rakuten"
-            desc = (
-                "This page is a guide. Buttons open a new-tab search for "
-                f"「{keyword}」 — not always a specific product page."
+        title = "Related links — " + " / ".join(partners)
+        bits = []
+        if show_amazon:
+            bits.append(
+                f"Search 「{keyword}」 on Amazon / Rakuten" if keyword else "Amazon / Rakuten"
             )
-            amazon_label = f"Search {keyword} on Amazon ↗"
-            rakuten_label = f"Search {keyword} on Rakuten ↗"
-        else:
-            title = f"Shop related items on Amazon / Rakuten"
-            desc = (
-                "This page is a guide. Buttons open a new-tab search for "
-                f"「{keyword}」 — not always a specific product page."
-            )
-            amazon_label = f"Search {keyword} on Amazon ↗"
-            rakuten_label = f"Search {keyword} on Rakuten ↗"
+        if show_klook:
+            bits.append("Klook for eSIM & transport")
+        desc = ". ".join(bits) + "."
+        amazon_label = f"Search {keyword} on Amazon ↗" if keyword else ""
+        rakuten_label = f"Search {keyword} on Rakuten ↗" if keyword else ""
+        klook_label = "eSIM & transport on Klook ↗"
         note = "Affiliate links · opens in new tab"
 
     return {
         "show_affiliate": True,
+        "show_amazon": show_amazon,
+        "show_klook": show_klook,
         "affiliate_kind": kind,
         "affiliate_keyword": keyword,
         "affiliate_title": title,
         "affiliate_desc": desc,
         "affiliate_note": note,
-        "amazon_search_url": amazon_search_url(keyword),
-        "rakuten_search_url": rakuten_search_url(keyword),
+        "amazon_search_url": amazon_search_url(keyword) if keyword else "",
+        "rakuten_search_url": rakuten_search_url(keyword) if keyword else "",
         "amazon_button_label": amazon_label,
         "rakuten_button_label": rakuten_label,
+        "klook_url": KLOOK_URL if show_klook else "",
+        "klook_button_label": klook_label if show_klook else "",
     }

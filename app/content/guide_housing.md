@@ -59,24 +59,7 @@ If you value independence but still want a built-in social network, a **dormitor
 ### How Share Houses Work
 In a share house, you rent a private bedroom while sharing the kitchen, living room, bathrooms, and showers with other residents. Major operators—such as Oakhouse, Borderless House, and GG House Club—actively curate an international environment, often aiming for a 50/50 split between foreign students and young Japanese professionals.
 
-
-+-------------------------------------------------------------+
-|                     TYPICAL SHARE HOUSE LAYOUT              |
-|                                                             |
-|  +------------------+  +------------------+  +-----------+  |
-|  |   Private Room   |  |   Private Room   |  | Shared    |  |
-|  |   (Bed, Desk, AC) |  |   (Bed, Desk, AC) |  | Showers & |  |
-|  +------------------+  +------------------+  | Bathrooms |  |
-|  +------------------+  +------------------+  +-----------+  |
-|  |   Private Room   |  |   Private Room   |                 |
-|  |   (Bed, Desk, AC) |  |   (Bed, Desk, AC) |  +-----------+  |
-|  +------------------+  +------------------+  | Shared    |  |
-|                                              | Kitchen & |  |
-|  +----------------------------------------+  | Living    |  |
-|  |           Common Lounge / Dining Area  |  | Space     |  |
-|  +----------------------------------------+  +-----------+  |
-+-------------------------------------------------------------+
-
+**Typical layout:** private bedrooms (bed, desk, AC) plus shared showers/bathrooms, kitchen, and a common lounge/dining area.
 
 ### Why Students Choose Share Houses
 *   **No Guarantor Needed:** You do not need a Japanese guarantor or guarantor company.
@@ -130,19 +113,7 @@ To illustrate the difference, here is an estimation of upfront costs for a prope
 
 If you decide to rent a private apartment, you will encounter the **guarantor (*hoshonin*)** requirement. In Japan, landlords require a guarantor to co-sign the lease and take financial liability if you fail to pay rent or damage the property.
 
-
-                             [Landlord]
-                                 ^
-                                 |  Lease Agreement
-                                 v
-+-------------------------> [Student Renter] <-------------------------+
-|                                                                     |
-| Direct Co-signing (Rare)                                            | Pays Fee (50%-100% Rent)
-v                                                                     v
-[Japanese Joint Guarantor]                                   [Guarantor Company]
-(Must be a relative with                                     (e.g., GTN, J-Lease)
- stable income in Japan)                                     Assumes liability for a fee
-
+**How it usually works:** you sign a lease with the landlord, and either a Japanese joint guarantor (rare for international students—often a relative with stable income in Japan) or a **guarantor company** (e.g. GTN, J-Lease) backs the lease for a fee, typically about 50%–100% of one month’s rent.
 
 ### What are your options as an international student?
 

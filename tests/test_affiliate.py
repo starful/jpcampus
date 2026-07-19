@@ -1,6 +1,8 @@
-"""Affiliate slug → keyword mapping for JP Campus guides."""
+"""Affiliate slug → keyword / Klook for JP Campus guides (no Coupang)."""
 
 from app.affiliate import (
+    GUIDE_KLOOK_SLUGS,
+    KLOOK_URL,
     affiliate_context,
     amazon_search_url,
     normalize_guide_slug,
@@ -22,6 +24,9 @@ def test_shopping_guide_context():
     assert "starful06-22" in ctx["amazon_search_url"]
     assert "hb.afl.rakuten.co.jp/hgc/" in ctx["rakuten_search_url"]
     assert "search.rakuten.co.jp" in ctx["rakuten_search_url"]
+    assert ctx["show_klook"] is True
+    assert ctx["klook_url"] == KLOOK_URL
+    assert "s8kswiYD" in ctx["klook_url"]
 
 
 def test_book_guide_korean_copy():
@@ -29,7 +34,22 @@ def test_book_guide_korean_copy():
     assert ctx["show_affiliate"] is True
     assert ctx["affiliate_kind"] == "book"
     assert "JLPT 本" in ctx["amazon_button_label"]
-    assert "새 탭" in ctx["affiliate_desc"]
+    assert "Amazon" in ctx["affiliate_desc"]
+    assert "라쿠텐" in ctx["affiliate_desc"]
+    assert ctx["show_klook"] is False
+
+
+def test_housing_no_coupang():
+    ctx = affiliate_context("housing", lang="kr")
+    assert ctx["show_affiliate"] is False
+
+
+def test_transport_shows_klook_only_partners():
+    ctx = affiliate_context("transport-seed", lang="en")
+    assert ctx["show_affiliate"] is True
+    assert ctx["show_klook"] is True
+    assert ctx["show_amazon"] is False
+    assert "s8kswiYD" in ctx["klook_url"]
 
 
 def test_unmapped_guide_hides_box():
@@ -40,3 +60,11 @@ def test_unmapped_guide_hides_box():
 def test_url_builders():
     assert "tag=starful06-22" in amazon_search_url("JLPT 本")
     assert "%2520" in rakuten_search_url("JLPT 本") or "%20" in rakuten_search_url("JLPT 本")
+
+
+def test_klook_url_is_jpcampus_only():
+    assert "ED7IfKaq" not in KLOOK_URL
+    assert "s8kswiYD" in KLOOK_URL
+    for slug in GUIDE_KLOOK_SLUGS:
+        ctx = affiliate_context(slug, lang="en")
+        assert ctx["klook_url"] == KLOOK_URL

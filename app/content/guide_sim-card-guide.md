@@ -91,17 +91,15 @@ If you have already registered your residence, obtained your Residence Card, and
 
 ## Week-1 Mobile Setup Checklist for Students
 
-To ensure you do not lose connection or hit administrative walls during your first week in Japan, follow this step-by-step setup checklist.
+To ensure you do not lose connection or hit administrative walls during your first week in Japan, follow this step-by-step setup checklist:
 
-
-[ ] Step 1: Confirm your device is fully carrier-unlocked.
-[ ] Step 2: Reserve your SIM/eSIM 1-2 weeks prior to departure.
-[ ] Step 3: Collect your SIM card at the airport or your dorm.
-[ ] Step 4: Delete old APN configuration profiles from your phone.
-[ ] Step 5: Activate your new line and confirm your "070/080/090" number.
-[ ] Step 6: Go to the Ward Office to register your address.
-[ ] Step 7: Open your bank account using your new phone number.
-
+1. Confirm your device is fully carrier-unlocked.
+2. Reserve your SIM/eSIM 1–2 weeks prior to departure.
+3. Collect your SIM card at the airport or your dorm.
+4. Delete old APN configuration profiles from your phone.
+5. Activate your new line and confirm your `070` / `080` / `090` number.
+6. Go to the Ward Office to register your address.
+7. Open your bank account using your new phone number.
 
 ### Phase 1: Before You Leave Home
 * **Device Unlock:** Ensure your home carrier has unlocked your phone. Japanese SIMs will not register on locked devices.

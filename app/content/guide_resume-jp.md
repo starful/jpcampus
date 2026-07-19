@@ -49,24 +49,13 @@ The first step is selecting the correct format. While standard Japanese stationa
 
 Every section of the Rirekisho has strict formatting expectations. Here is how to write each field without making critical cultural errors.
 
+A standard rirekisho usually includes, in order:
 
-+---------------------------------------------------------+
-|                      RIREKISHO                          |
-|  +--------------------+      +-----------------------+  |
-|  | Basic Information  |      |      ID Photo         |  |
-|  +--------------------+      | (Strict Rules Apply)  |  |
-|                              +-----------------------+  |
-|  +---------------------------------------------------+  |
-|  | Academic & Work History (Chronological Order)      |  |
-|  +---------------------------------------------------+  |
-|  | Licenses & Certifications (JLPT, Technical, etc.) |  |
-|  +---------------------------------------------------+  |
-|  | Motivation & Self-PR / Personal Statement          |  |
-|  +---------------------------------------------------+  |
-|  | Commuting Info & Special Requests                  |  |
-|  +---------------------------------------------------+  |
-+---------------------------------------------------------+
-
+1. **Basic information** (name, contact) and a photo that follows strict rules
+2. **Academic & work history** (chronological)
+3. **Licenses & certifications** (JLPT, technical, etc.)
+4. **Motivation & self-PR** / personal statement
+5. **Commuting info & special requests**
 
 ### Basic Information (基本情報)
 This header section contains your core contact details and identity.
@@ -95,21 +84,18 @@ This section is divided into two parts but written in one continuous table block
 4.  Write entrance (**入社**) and resignation (**退社**) on separate lines. If you are still working, write **現在に至る** (Currently employed here) on the line below your last entry, aligned to the left, and write **以上** (End) aligned to the far right on the final line.
 
 
-(Example Academic/Work History Layout)
-------------------------------------------------------------
-年 (Year) | 月 (Month) |             学歴・職歴
-------------------------------------------------------------
-  2018    |     4      |  〇〇大学 人文学部 国際文化学科 入学
-  2022    |     3      |  〇〇大学 人文学部 国際文化学科 卒業
-          |            |
-          |            |                 職歴
-  2022    |     4      |  株式会社アークシステムズ 入社 (正社員)
-          |            |  システム開発部にてエンジニアとして勤務
-  2025    |     10     |  株式会社アークシステムズ 一身上の都合により退社
-          |            |                                現在に至る
-          |            |                                      以上
-------------------------------------------------------------
+**Example academic / work history layout** (year → month → entry):
 
+| Year | Month | Academic / Work History |
+| :--- | :---: | :--- |
+| 2018 | 4 | 〇〇大学 人文学部 国際文化学科 入学 |
+| 2022 | 3 | 〇〇大学 人文学部 国際文化学科 卒業 |
+| | | **職歴** |
+| 2022 | 4 | 株式会社アークシステムズ 入社 (正社員) |
+| | | システム開発部にてエンジニアとして勤務 |
+| 2025 | 10 | 株式会社アークシステムズ 一身上の都合により退社 |
+| | | 現在に至る |
+| | | 以上 |
 
 ### Licenses and Certifications (免許・資格)
 This is where you showcase your language proficiency, technical skills, and industry qualifications.

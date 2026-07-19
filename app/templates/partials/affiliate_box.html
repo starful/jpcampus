@@ -1,9 +1,10 @@
-{# Amazon + Rakuten Ichiba search CTA (guides with slug map only) #}
+{# Amazon + Rakuten Ichiba + Klook (jpcampus Travelpayouts). No Coupang. #}
 {% if show_affiliate %}
-<aside class="affiliate-box" role="complementary" aria-label="{{ '제휴 쇼핑 링크' if current_lang == 'kr' else 'Affiliate shopping links' }}">
+<aside class="affiliate-box" role="complementary" aria-label="{{ '제휴 링크' if current_lang == 'kr' else 'Affiliate links' }}">
     <p class="affiliate-box__title">{{ affiliate_title }}</p>
     <p class="affiliate-box__desc">{{ affiliate_desc }}</p>
     <div class="affiliate-box__actions">
+        {% if show_amazon %}
         <a class="affiliate-box__btn affiliate-box__btn--amazon"
            href="{{ amazon_search_url }}"
            target="_blank"
@@ -18,6 +19,16 @@
            title="{{ '라쿠텐에서 열기 (새 탭)' if current_lang == 'kr' else 'Opens Rakuten in a new tab' }}">
             {{ rakuten_button_label }}
         </a>
+        {% endif %}
+        {% if show_klook %}
+        <a class="affiliate-box__btn affiliate-box__btn--klook"
+           href="{{ klook_url }}"
+           target="_blank"
+           rel="nofollow sponsored noopener noreferrer"
+           title="Klook">
+            {{ klook_button_label }}
+        </a>
+        {% endif %}
     </div>
     <p class="affiliate-box__note">{{ affiliate_note }}</p>
 </aside>

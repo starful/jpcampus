@@ -101,14 +101,13 @@ When filling out a *Rirekisho*, observe these strict cultural rules:
 ### Step 3: Mastering the Interview (Mentsetsu)
 If your resume passes, you will be invited for an interview (*Mentsetsu*). First impressions are incredibly important in Japan.
 
+**Interview-day roadmap:**
 
-[Interview Day Roadmap]
-  ├── Arrive 5 to 10 minutes early (never late, never too early)
-  ├── Knock three times and say "Shitsurei shimasu" (Excuse me) before entering
-  ├── Bow politely to the interviewer
-  ├── Wait until you are asked to sit down
-  └── Keep your posture straight throughout the conversation
-
+1. Arrive 5 to 10 minutes early (never late, never too early)
+2. Knock three times and say *Shitsurei shimasu* (Excuse me) before entering
+3. Bow politely to the interviewer
+4. Wait until you are asked to sit down
+5. Keep your posture straight throughout the conversation
 
 Ensure you prepare answers to common questions, such as:
 *   *Why do you want to work here?* (志望動機 - *Shibou douki*)

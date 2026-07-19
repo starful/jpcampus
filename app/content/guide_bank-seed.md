@@ -69,14 +69,13 @@ These are Japan's prestigious traditional banks. Having an account here looks hi
 
 To ensure a successful visit to the bank, you must gather your documents beforehand. Missing even a single item can result in rejection, requiring you to make a return trip.
 
+**Required documents checklist:**
 
-[Required Documents Checklist]
-├── 1. Resident Card (Zairyu Card) - Must have your current address registered
-├── 2. Valid Passport - With your student visa stamp
-├── 3. Student ID Card or Certificate of Enrollment (Zaigaku Shomeisho)
-├── 4. Active Japanese Phone Number (for contact and verification)
-└── 5. Personal Seal (Hanko/Inkan) or a clean Signature
-
+1. Resident Card (*Zairyu Card*) — must have your current address registered
+2. Valid passport — with your student visa stamp
+3. Student ID card or Certificate of Enrollment (*Zaigaku Shomeisho*)
+4. Active Japanese phone number (for contact and verification)
+5. Personal seal (*Hanko* / *Inkan*) or a clean signature
 
 ### 1. Resident Card (*Zairyu Card*)
 This is your most important piece of identification in Japan. Crucially, before going to the bank, you **must register your residential address** at your local ward office (*kuyakusho* or *shakuyosho*). They will print your address on the back of your card and stamp it. Banks will not accept a Resident Card without a registered address.

@@ -151,22 +151,15 @@ To help you visualize how these three options stack up against each other, we ha
 
 Choosing where to live shouldn't be a guessing game. Use this structured decision guide to align your personality, budget, and language ability with the right housing choice.
 
-
-                  [ Where should you live in Japan? ]
-                                   │
-         ┌─────────────────────────┴─────────────────────────┐
-         ▼                                                   ▼
-Is your budget tight?                               Are you craving privacy?
-   (Under ¥60k/month)                                  (No shared spaces)
-         │                                                   │
-         ├───────► YES: [ University Dormitory ]             ├───────► YES: [ Private Apartment ]
-         │                                                   │
-         └───────► NO: Do you want to practice Japanese?     └───────► NO: [ Share House ]
-                         │
-                         ├───────► YES: [ Share House ]
-                         │
-                         └───────► NO: [ Private Apartment ]
-
+1. **Is your budget tight (under ¥60k/month)?**
+   - **Yes** → University dormitory
+   - **No** → Continue below
+2. **Do you want to practice Japanese with roommates?**
+   - **Yes** → Share house
+   - **No** → Continue below
+3. **Do you need full privacy (no shared spaces)?**
+   - **Yes** → Private apartment
+   - **No** → Share house is usually the better fit
 
 ### Actionable Steps for Your Housing Search:
 

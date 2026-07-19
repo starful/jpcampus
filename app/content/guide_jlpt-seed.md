@@ -85,11 +85,11 @@ The answer is yes. While the EJU is the primary academic test used by Japanese u
 *   **Visa Processing Safety:** Having an N5 or N4 certificate when applying for a student visa to enter a language school in Japan significantly reduces the risk of visa rejection by showing the immigration bureau that you are a serious student.
 
 
-[Target Academic Path] ───> [Minimum JLPT Needed] ───> [Recommended JLPT for Safety]
-Vocational School   ───>         N3          ───>          N2
-Undergraduate       ───>         N2          ───>          N1
-Graduate School     ───>         N2 (STEM)   ───>          N1 (All Majors)
-
+| Target academic path | Minimum JLPT | Recommended for safety |
+| :--- | :---: | :---: |
+| Vocational school | N3 | N2 |
+| Undergraduate | N2 | N1 |
+| Graduate school | N2 (STEM) | N1 (all majors) |
 
 ### Strategic Benchmarks for University Entry
 *   **Undergraduate Programs taught in Japanese:** You should aim to pass the **N2 level** by the end of the year preceding your university application. Ideally, achieving an **N1** will make your application stand out, especially at elite universities like the University of Tokyo, Kyoto University, or Waseda University.
