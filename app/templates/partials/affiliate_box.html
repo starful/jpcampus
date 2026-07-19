@@ -9,14 +9,18 @@
            href="{{ amazon_search_url }}"
            target="_blank"
            rel="nofollow sponsored noopener noreferrer"
-           title="{{ 'Amazon에서 열기 (새 탭)' if current_lang == 'kr' else 'Opens Amazon in a new tab' }}">
+           title="{{ 'Amazon에서 열기 (새 탭)' if current_lang == 'kr' else 'Opens Amazon in a new tab' }}"
+           data-track="affiliate_amazon"
+           data-track-label="{{ affiliate_keyword }}">
             {{ amazon_button_label }}
         </a>
         <a class="affiliate-box__btn affiliate-box__btn--rakuten"
            href="{{ rakuten_search_url }}"
            target="_blank"
            rel="nofollow sponsored noopener noreferrer"
-           title="{{ '라쿠텐에서 열기 (새 탭)' if current_lang == 'kr' else 'Opens Rakuten in a new tab' }}">
+           title="{{ '라쿠텐에서 열기 (새 탭)' if current_lang == 'kr' else 'Opens Rakuten in a new tab' }}"
+           data-track="affiliate_rakuten"
+           data-track-label="{{ affiliate_keyword }}">
             {{ rakuten_button_label }}
         </a>
         {% endif %}
@@ -25,7 +29,9 @@
            href="{{ klook_url }}"
            target="_blank"
            rel="nofollow sponsored noopener noreferrer"
-           title="Klook">
+           title="Klook"
+           data-track="affiliate_klook"
+           data-track-label="klook">
             {{ klook_button_label }}
         </a>
         {% endif %}
