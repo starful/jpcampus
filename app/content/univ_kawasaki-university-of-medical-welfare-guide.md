@@ -5,7 +5,7 @@ basic_info:
   name_en: Kawasaki University of Medical Welfare
   name_ja: 川崎医療福祉大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Medical Welfare
 - Faculty of Health Sciences
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 University Overview
 

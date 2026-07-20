@@ -5,7 +5,7 @@ basic_info:
   name_en: Kagawa University
   name_ja: 香川大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 가가와현 다카마쓰시에 위치한 가가와 대학에 대한 종합 안내입니다. 희귀당 연구의 선두 주자이며, 세토우치 지역과의 강력한 연계를
   자랑합니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya Gakuin University
   name_ja: 名古屋学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics
 - Faculty of Business Administration
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 

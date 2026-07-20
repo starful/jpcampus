@@ -5,7 +5,7 @@ basic_info:
   name_en: Meikai University
   name_ja: 明海大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 메이카이 대학(明海大学)은 국제적인 관점과 실용적인 기술을 강조하는 일본의 사립 대학입니다. 치학, 외국어, 경제학, 부동산
   과학, 관광학 분야에서 다양한 프로그램을 제공합니다.
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1250000
 ---
+
 
 ## 대학 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima International University
   name_ja: 広島国際大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Sciences
 - Faculty of Comprehensive Rehabilitation
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1400000
 ---
+
 
 ## 🏫 University Overview
 

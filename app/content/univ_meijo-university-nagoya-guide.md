@@ -6,7 +6,7 @@ basic_info:
   name_en: Meijo University
   name_ja: 名城大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Law
 - Faculty of Business Administration
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1250000
 ---
+
 
 ## 🏫 University Overview
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: National Institute of Fitness and Sports in Kanoya
   name_ja: 鹿屋体育大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 일본 유일의 국립 체육 대학, 가노야 체육대학에 대한 완벽 가이드입니다. 스포츠 과학 연구, 무도 훈련, 엘리트 시설, 입학
   정보 등을 한국 학생들을 위해 소개합니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 일본 스포츠 과학의 정점
 

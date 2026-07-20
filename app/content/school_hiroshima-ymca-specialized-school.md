@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 2年コース
   total_fees: 1390000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Hiroshima YMCA College offers comprehensive Japanese language programs
   with a focus on university preparation, EJU test preparation, and conversational
   Japanese skills. Dormitory is available.
@@ -47,6 +47,7 @@ title: Hiroshima YMCA College
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview
 

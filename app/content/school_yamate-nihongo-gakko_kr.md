@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学コース（1.5年）
   total_fees: 1055000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 사이타마현 카와고에시에 위치한 야마테 일본어 학교는 국제 학생들에게 양질의 일본어 교육을 제공합니다. 대학 진학 및 일본에서의
   미래 커리어를 위한 학생들을 위한 종합적인 커리큘럼과 지원 서비스를 제공합니다.
 faculties: []
@@ -53,6 +53,7 @@ title: 야마테 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

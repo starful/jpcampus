@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.5年コース
   total_fees: 955000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Integrated Student Dormitory (Accommodation Guarantee)
@@ -44,6 +44,7 @@ title: Mihara International Foreign Language Academy (Japanese Department)
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukui Prefectural University
   name_ja: 福井県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: '후쿠이 현립 대학교: 공룡 고생물학, 해양 과학, 지역 혁신에 특화된 일본의 숨겨진 보석 같은 대학교입니다.'
 faculties:
 - Faculty of Economics
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요: 농촌 혁신의 탁월함
 

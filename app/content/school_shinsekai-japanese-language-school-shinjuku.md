@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.6年コース
   total_fees: 1130000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Intensive Academic Progression Focus (University/Graduate School)
@@ -38,6 +38,7 @@ title: Shinsekai Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

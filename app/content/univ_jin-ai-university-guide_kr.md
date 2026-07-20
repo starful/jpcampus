@@ -5,7 +5,7 @@ basic_info:
   name_en: Jin-ai University
   name_ja: 仁愛大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 후쿠이현의 아름다운 자연 속에 자리 잡은 진아이 대학교는 불교의 '인애(仁愛)' 정신을 바탕으로 심리학, 커뮤니케이션, 간호학
   분야에서 따뜻한 인성을 갖춘 전문 인력을 양성합니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 280000
   yearly_tuition: 760000
 ---
+
 
 ## 🏫 대학 개요
 

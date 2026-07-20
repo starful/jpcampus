@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: University Prep Course II
   total_fees: 1182500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 사가미 국제学院는 가나가와현 사가미하라시에 위치한 일본어 학교입니다. 대학 진학을 위한 맞춤형 커리큘럼을 제공합니다.
 faculties: []
 features:
@@ -44,6 +44,7 @@ title: 사가미 국제学院
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

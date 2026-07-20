@@ -18,7 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 一般コース
   total_fees: 1477760
-date: '2026-01-28'
+date: '2026-07-20'
 description: 에버그린 랭귀지 스쿨은 도쿄 메구로에 위치한 소규모 집중 일본어 학교입니다. 대학 진학을 목표로 하는 학생들에게 맞춤형 교육과
   집중적인 EJU 시험 준비를 제공합니다.
 faculties: []
@@ -46,6 +46,7 @@ thumbnail: /static/img/pin-school.png
 title: 에버그린 랭귀지 스쿨 (エヴァグリーンランゲージスクール)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

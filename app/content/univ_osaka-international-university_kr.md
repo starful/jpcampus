@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka International University
   name_ja: 大阪国際大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 글로벌 시민 양성을 목표로 하는 오사카 국제 대학교는 강력한 취업 지원과 밀착형 멘토링을 통해 유학생들이 일본 사회에 성공적으로
   안착할 수 있도록 돕습니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 대학 개요
 

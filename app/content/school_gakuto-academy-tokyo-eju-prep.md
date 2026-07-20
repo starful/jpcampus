@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1291000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Intensive EJU Preparation
@@ -41,6 +41,7 @@ title: Gakuto Academy
 translated: true
 tuition: {}
 ---
+
 
 Choosing the right Japanese language school is one of the most critical decisions you will make on your academic journey. If your ultimate goal is to enter a prestigious Japanese university, graduate school, or vocational college, and you thrive in a highly focused, personal, and supportive environment, **Gakuto Academy (学東アカデミー)** in Tokyo is an exceptional contender. 
 

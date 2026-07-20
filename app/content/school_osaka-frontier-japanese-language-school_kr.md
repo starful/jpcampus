@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1000000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카 남부 사카이시에 위치한 오사카 프론티어 일본어학교는 일본 유학을 꿈꾸는 학생들을 위한 맞춤형 교육을 제공합니다.
 faculties: []
 features:
@@ -42,6 +42,7 @@ title: 오사카 프론티어 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 이념
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Dokkyo University
   name_ja: 獨協大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Foreign Languages
 - Faculty of International Liberal Arts
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 880000
 ---
+
 
 ## 🏫 University Overview
 

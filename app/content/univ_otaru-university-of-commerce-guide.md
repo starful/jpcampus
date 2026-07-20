@@ -5,7 +5,7 @@ basic_info:
   name_en: Otaru University of Commerce
   name_ja: 小樽商科大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Planning to study at Otaru University of Commerce? Find the latest 2026
   info on admissions, tuition fees, scholarships, and student life in Japan.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

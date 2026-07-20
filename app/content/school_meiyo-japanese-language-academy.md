@@ -25,7 +25,7 @@ courses:
   course_name: 進学1.9年コース
   total_fees: 1239300
   translated_course_name: University Prep 1.9-Year Course
-date: '2026-07-12'
+date: '2026-07-20'
 description: Located in Kashiwa, Chiba, Meiyu Japanese Language Academy offers comprehensive
   Japanese language education, focusing on university preparation, especially in science.
   Features dormitory accommodation and EJU support.
@@ -55,6 +55,7 @@ title: Meiyu Japanese Language Academy
 translated: true
 tuition: {}
 ---
+
 
 # Study in the Academic Hub of Kashiwa: Meiyu Japanese Language Academy
 

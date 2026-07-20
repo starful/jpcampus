@@ -12,7 +12,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般会話コース
   total_fees: 1162500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 중심부에 위치한 구단 일본문화연구소는 대학 진학 준비와 실용적인 의사 소통 능력 향상에 중점을 둔 맞춤형 일본어 교육을
   제공합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 구단 일본문화연구소 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

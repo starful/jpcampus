@@ -5,7 +5,7 @@ basic_info:
   name_ja: 神戸大学
   website: https://www.kobe-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 일본 고베에 위치한 명문 국립대학교, 고베 대학교에 대한 상세 정보입니다. 입학 정보, 학비, 장학금, 캠퍼스 생활 등에 대한
   유용한 정보를 확인하세요.
 faculties:
@@ -48,6 +48,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학교 개요 및 명성
 

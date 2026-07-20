@@ -13,7 +13,7 @@ courses:
 - admission_month: '4'
   course_name: University Preparatory 2-Year Course
   total_fees: 1550000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Located in Tokyo, Teikyo Heisei University Affiliated Japanese Language
   School offers comprehensive Japanese language education with a focus on preparing
   students for higher education in Japan, particularly in science-related fields.
@@ -41,6 +41,7 @@ title: Teikyo Heisei University Affiliated Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

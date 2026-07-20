@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 1年3か月進学コース
   total_fees: 907500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야 SKY 일본어학교는 일본에서 고등 교육을 목표로 하는 국제 학생들에게 종합적인 언어 훈련, EJU 준비, 대학 상담을
   제공하며 지원적인 환경을 제공합니다.
 faculties: []
@@ -59,6 +59,7 @@ title: 나고야 SKY 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

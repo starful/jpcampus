@@ -5,7 +5,7 @@ basic_info:
   name_en: Gifu Pharmaceutical University
   name_ja: 岐阜薬科大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 기후현 기후시에 위치한 명문 공립 약학대학인 기후약과대학에 대해 알아보세요. 뛰어난 연구, 실용적인 교육 및 글로벌 네트워크를
   제공합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

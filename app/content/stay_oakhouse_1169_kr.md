@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/house/1169
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 에도가와구 셰어하우스 아파트먼트 히라이. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -62,6 +62,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_1169.jpg
 title: 아파트먼트 히라이 — 에도가와구 유학생 셰어하우스
 ---
+
 
 ## 시설 소개
 

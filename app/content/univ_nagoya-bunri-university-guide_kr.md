@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya Bunri University
   name_ja: 名古屋文理大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 나고야 분리 대학(NBU)은 IT 미디어와 보건 영양 분야에 특화된 실무 중심 대학입니다. 나고야와 인접한 이나자와시에 위치하여
   쾌적한 학습 환경과 강력한 취업 지원을 제공하며, 창의적인 인재를 양성합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

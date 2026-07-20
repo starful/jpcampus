@@ -9,9 +9,10 @@
   ],
   "description": "Planning your application for April, July, October, or January intake.",
   "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Language School Application Deadlines Explained: Your Ultimate Guide to Studying in Japan
 

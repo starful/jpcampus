@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語教育進学1.5年コース
   total_fees: 1086000
-date: '2026-06-19'
+date: '2026-07-20'
 description: Study at Tokyo Nakano Japanese Language Institute. Top Japanese language
   school in Tokyo offering EJU prep, science-stream classes & university pathways.
 faculties: []
@@ -47,6 +47,7 @@ title: Tokyo Nakano Japanese Language Institute
 translated: true
 tuition: {}
 ---
+
 
 
 ## School Overview & Philosophy

@@ -9,10 +9,11 @@
   ],
   "description": "오후 7시 이후 슈퍼마켓 쇼핑 기술을 알려드립니다.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-03-03",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # '반액' 사냥: 반값으로 식료품 구매하는 방법
 

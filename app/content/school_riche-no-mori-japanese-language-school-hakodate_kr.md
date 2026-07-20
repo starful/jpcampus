@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 1.5-Year University Advancement Course
   total_fees: 950000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 홋카이도 하코다테에 위치한 리치노모리 일본어학교는 일본 대학 진학을 위한 집중 교육을 제공합니다. 실용적인 어학 능력과 지적
   훈련을 함양하는 따뜻한 환경을 강조합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 리치노모리 일본어학교, 하코다테 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

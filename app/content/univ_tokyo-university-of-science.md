@@ -5,7 +5,7 @@ basic_info:
   name_ja: 東京理科大学
   website: https://www.tus.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Science and Technology
 - Faculty of Engineering
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1600000
 ---
+
 
 ## 🏫 University Overview & Reputation
 

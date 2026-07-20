@@ -5,7 +5,7 @@ basic_info:
   name_en: Yasuda Women's University
   name_ja: 安田女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Education
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

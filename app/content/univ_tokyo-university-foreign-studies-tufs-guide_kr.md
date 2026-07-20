@@ -5,7 +5,7 @@ basic_info:
   name_en: Tokyo University of Foreign Studies
   name_ja: 東京外国語大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 일본 최고의 외국어 및 지역 연구 대학인 도쿄 외국어 대학교에 대한 안내입니다.
 faculties:
 - School of Language and Culture Studies
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Niigata University of International and Information Studies
   name_ja: 新潟国際情報大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: IT 기술과 국제적 감각을 동시에 갖춘 인재를 양성하는 니가타현의 명문 사립 대학으로, 높은 취업률과 저렴한 생활비가 장점입니다.
 faculties:
 - Faculty of Information Systems
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 대학 개요
 

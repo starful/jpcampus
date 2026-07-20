@@ -5,7 +5,7 @@ basic_info:
   name_en: Tokyo City University
   name_ja: 東京都市大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Science and Engineering
 - Faculty of Architecture and Urban Design
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1560000
 ---
+
 
 ## 🏫 University Overview: The Legacy of Tokyo City University
 

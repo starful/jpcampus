@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 996330
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized EJU Preparation for University Progression
@@ -46,6 +46,7 @@ thumbnail: /static/img/pin-school.png
 title: KIJ Language Institute, Tokyo Campus
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

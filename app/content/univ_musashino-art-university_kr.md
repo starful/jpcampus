@@ -5,7 +5,7 @@ basic_info:
   name_ja: 武蔵野美術大学
   website: https://www.musabi.ac.jp/
 category: university
-date: '2026-04-27'
+date: '2026-07-20'
 description: 무사시노미술대 지원을 위한 2026 실전 가이드입니다. 지원요건, 포트폴리오 준비, 학비, 유학생 생활 포인트를 정리했습니다.
 faculties:
 - 油絵学科 (Department of Oil Painting)
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1800000
 ---
+
 
 ## 대학 개요 및 명성
 

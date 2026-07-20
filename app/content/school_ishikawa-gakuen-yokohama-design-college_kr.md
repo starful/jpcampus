@@ -15,7 +15,7 @@ courses:
 - admission_month: 4,10
   course_name: 進学課程1年コース
   total_fees: 785000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 미술, 디자인, 과학 또는 비즈니스 분야의 일본 대학 또는 전문학교 진학을 목표로 하는 유학생을 위한 이시카와 학원 요코하마
   디자인 전문학교 일본어학과를 소개합니다.
 faculties: []
@@ -48,6 +48,7 @@ title: 이시카와 학원 요코하마 디자인 전문학교 (일본어학과)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

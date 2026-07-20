@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1074000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory accommodation provided
@@ -53,6 +53,7 @@ title: SANWA Foreign Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

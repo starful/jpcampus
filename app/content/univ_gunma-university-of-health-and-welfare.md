@@ -5,7 +5,7 @@ basic_info:
   name_en: Gunma University of Health and Welfare
   name_ja: 群馬医療福祉大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Social Welfare
 - Faculty of Nursing
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

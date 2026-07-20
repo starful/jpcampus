@@ -9,9 +9,10 @@
   ],
   "description": "A step-by-step guide to onsen etiquette.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Onsen 101: How to Bathe in a Japanese Hot Spring
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 東京大学
   website: https://www.u-tokyo.ac.jp/
 category: school
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄대학교에 대한 개요, 교육 철학, 과정, 캠퍼스 생활 및 진로에 대한 정보입니다.
 faculties:
 - 法学部 (School of Law)
@@ -52,6 +52,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

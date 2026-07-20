@@ -5,7 +5,7 @@ basic_info:
   name_en: Mukogawa Women's University
   name_ja: 武庫川女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Letters
 - Education
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview: The Pinnacle of Women's Education in Japan
 

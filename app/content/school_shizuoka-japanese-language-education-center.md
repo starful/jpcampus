@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1141600
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized Higher Education Advancement Track (進学)
@@ -45,6 +45,7 @@ thumbnail: /static/img/pin-school.png
 title: Shizuoka Japanese Language Education Center
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

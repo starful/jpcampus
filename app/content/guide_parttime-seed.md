@@ -9,9 +9,10 @@
   ],
   "description": "Work rules overview",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-06-30"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Mastering the Arubaito: The Ultimate Guide to Part-Time Jobs for International Students in Japan
 

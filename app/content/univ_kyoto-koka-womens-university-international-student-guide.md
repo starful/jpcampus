@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Koka Women's University
   name_ja: 京都光華女子大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Science
 - Faculty of Psychology
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 University Overview
 

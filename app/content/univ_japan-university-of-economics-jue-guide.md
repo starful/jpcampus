@@ -5,7 +5,7 @@ basic_info:
   name_en: Japan University of Economics
   name_ja: 日本経済大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: An all-in-one guide to the Japan University of Economics (JUE) for international
   students, covering 2026 tuition, campuses, and admission requirements.
 faculties:
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 280000
   yearly_tuition: 1180000
 ---
+
 
 ## University Overview
 

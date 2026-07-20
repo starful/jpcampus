@@ -5,7 +5,7 @@ basic_info:
   name_en: Iwate Prefectural University
   name_ja: 岩手県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 이와테현립대학교는 일본 북부의 IT 및 사회 복지 분야를 선도하는 공립 대학입니다. 높은 취업률과 지역사회와의 긴밀한 연계가
   특징입니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

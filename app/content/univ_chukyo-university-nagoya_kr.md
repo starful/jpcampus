@@ -5,7 +5,7 @@ basic_info:
   name_ja: 中京大学
   website: https://www.chukyo-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야에 위치한 주쿄대학교는 스포츠 과학, 심리학, 경영학 분야에서 특히 강세를 보이는, 취업 지향적인 교육으로 명성이 높은
   지역 명문 사립대학교입니다. 높은 졸업생 취업률과 균형 잡힌 인재 양성에 대한 헌신으로 잘 알려져 있으며, 국제 학생들에게도 든든한 지원 환경을
   제공합니다.
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1250000
 ---
+
 
 ## 대학 개요 및 명성
 

@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1436000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 미드림 일본어 학교는 도쿄 신주쿠에 위치한 대학 진학 전문 일본어 학교입니다. EJU 시험 준비, 미술 대학 진학 프로그램
   등 다양한 학습 옵션을 제공합니다.
 faculties: []
@@ -48,6 +48,7 @@ title: 미드림 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

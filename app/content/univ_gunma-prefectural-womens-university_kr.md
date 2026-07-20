@@ -5,7 +5,7 @@ basic_info:
   name_en: Gunma Prefectural Women's University
   name_ja: 群馬県立女子大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 군마현 다마무라에 위치한 군마현립여자대학은 여성의 역량 강화와 지적 발전을 위해 설립된 명문 공립 교육기관입니다. 인문학 및
   사회과학 분야에서 리더십, 비판적 사고, 전문 지식을 함양할 수 있는 특별한 환경을 제공합니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

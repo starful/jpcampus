@@ -21,7 +21,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般2年コース
   total_fees: 1402000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Human Academy Japanese Language School Osaka Campus (HAJLS Osaka) is
   a leading institution in Kansai, known for its scale and professional framework.
   Backed by the Human Academy group, it offers specialized knowledge and industry
@@ -60,6 +60,7 @@ title: Human Academy Japanese Language School Osaka Campus (HAJLS Osaka)
 translated: true
 tuition: {}
 ---
+
 
 # Human Academy Japanese Language School Osaka Campus
 

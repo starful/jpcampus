@@ -5,7 +5,7 @@ basic_info:
   name_en: Mukogawa Women's University
   name_ja: 武庫川女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 최대 규모의 사립 여대 중 하나로, 12개 학부와 강력한 취업 지원 시스템, 미국 스포캔의 해외 캠퍼스를 갖춘 종합 대학교입니다.
 faculties:
 - 문학부
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요: 일본 여성 교육의 정점
 

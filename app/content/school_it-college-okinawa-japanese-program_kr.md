@@ -9,7 +9,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語ビジネスコース
   total_fees: 1585000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 후지 학원 IT 칼리지 오키나와는 비즈니스 및 IT에 중점을 둔 전문적인 일본어 프로그램을 제공하여, 일본에서의 직업 연구
   및 커리어를 위한 길을 열어줍니다.
 faculties: []
@@ -40,6 +40,7 @@ title: 후지 학원 IT 칼리지 오키나와 (일본어 과정)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanda University of International Studies
   name_ja: 神田外語大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Foreign Languages
 - Faculty of Global Liberal Arts
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1210000
 ---
+
 
 ## 🏫 University Overview
 

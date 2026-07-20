@@ -5,7 +5,7 @@ basic_info:
   name_en: Yasuda Women's University
   name_ja: 安田女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 히로시마의 전통 있는 명문 사립 여자 대학교, 야스다 여자대학교의 교육 철학과 학부 정보, 높은 취업률을 확인해보세요.
 faculties:
 - 문학부
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

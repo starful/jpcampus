@@ -9,9 +9,10 @@
   ],
   "description": "Bulk buying tips for shared living or long-term stays.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-04-19"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Is a Costco Japan Membership Good for Students? A Comprehensive Guide
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3月コース
   total_fees: 770000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Mizuno Language School in Ichikawa City, Chiba, prepares international
   students for Japanese universities with personalized attention and comprehensive
   EJU preparation.
@@ -56,6 +56,7 @@ title: Mizuno Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

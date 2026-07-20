@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヶ月コース
   total_fees: 1112000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 시즈오카 일본어 학원은 도쿄와 나고야 사이에 위치하여, 안전하고 아름다운 환경에서 저렴한 비용으로 공부할 수 있는 기회를 제공합니다.
   대학 및 전문학교 진학을 위한 맞춤형 지원을 제공합니다.
 faculties: []
@@ -40,6 +40,7 @@ thumbnail: /static/img/pin-school.png
 title: 시즈오카 일본어 학원
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

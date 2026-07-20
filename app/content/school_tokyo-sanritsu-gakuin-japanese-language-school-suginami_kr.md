@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 総合1年3ヶ月コース
   total_fees: 960000
-date: '2026-02-13'
+date: '2026-07-20'
 description: 도쿄 삼립 학원은 체계적인 기숙사 시설을 통해 학업 발전, EJU 시험 준비, 구조화된 학생 생활에 중점을 둔 종합적인 일본어
   교육을 제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ title: 도쿄 삼립 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

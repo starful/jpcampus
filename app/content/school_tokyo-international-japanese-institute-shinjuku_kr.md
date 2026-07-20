@@ -18,7 +18,7 @@ courses:
 - admission_month: '7'
   course_name: 一般コース
   total_fees: 1400000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 신주쿠에 위치한 동경국제일본어학원은 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다. EJU 시험 대비에
   특화된 커리큘럼과 학생 기숙사 지원을 통해 성공적인 일본 유학을 지원합니다.
 faculties: []
@@ -47,6 +47,7 @@ title: 동경국제일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 이념
 

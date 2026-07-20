@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 국제일본어전과
   total_fees: 1230000
-date: '2026-03-08'
+date: '2026-07-20'
 description: 도쿄 시부야구에 위치한 진학 전문 일본어학교로, 소수 정예 시스템과 강력한 이공계 진학 서포트를 통해 일본 명문대 합격을 지원합니다.
 faculties: []
 features:
@@ -43,6 +43,7 @@ title: 도쿄 공학원 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

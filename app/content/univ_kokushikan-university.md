@@ -5,7 +5,7 @@ basic_info:
   name_ja: 国士舘大学
   website: https://www.kokushikan.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Political Science and Economics
 - Faculty of Physical Education
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1000000
 ---
+
 
 ## University Overview
 Kokushikan University was established in 1917 as a private academy and achieved university status in 1949. Founded on the principles of "Bushido Spirit," "Respect for Humanity," and "Cultivation of Intellect," the university boasts a unique historical journey, blending traditional Japanese martial arts and values with modern academic pursuits. Initially focused on cultivating individuals with strong moral character and a dedication to public service, it has evolved into a comprehensive institution, providing a diverse range of academic disciplines across humanities, social sciences, natural sciences, and physical education.

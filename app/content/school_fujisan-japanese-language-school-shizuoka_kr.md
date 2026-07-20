@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1210000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 시즈오카현 후지시에 위치한 후지산 일본어 학교는 집중적인 어학 습득과 일본 고등 교육 진학을 위한 견고한 경로를 제공합니다.
 faculties: []
 features:
@@ -47,6 +47,7 @@ title: 후지산 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

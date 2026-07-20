@@ -5,7 +5,7 @@ basic_info:
   name_en: Meio University
   name_ja: 名桜大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 오키나와 나고시에 위치한 메이오 대학교는 아름다운 자연 환경과 함께 독특한 학문적 경험을 제공합니다. 관광, 국제 문화, 스포츠
   건강 과학 분야에서 특히 두각을 나타내며, 저렴한 학비로 높은 수준의 교육을 받을 수 있는 기회입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

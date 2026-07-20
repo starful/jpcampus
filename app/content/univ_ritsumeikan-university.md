@@ -5,7 +5,7 @@ basic_info:
   name_ja: 立命館大学
   website: http://www.ritsumei.ac.jp/eng/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - College of Law
 - College of Economics
@@ -53,6 +53,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1280000
 ---
+
 
 ## University Overview
 

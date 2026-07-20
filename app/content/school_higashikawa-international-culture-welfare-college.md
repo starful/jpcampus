@@ -12,7 +12,7 @@ courses:
 - admission_month: '0'
   course_name: General
   total_fees: 1600000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Comprehensive Dormitory System
@@ -45,6 +45,7 @@ title: Higashikawa International Culture and Welfare College
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

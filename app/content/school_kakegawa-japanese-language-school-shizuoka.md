@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 一般2年コース
   total_fees: 1340000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized EJU & Science Track Preparation
@@ -38,6 +38,7 @@ thumbnail: /static/img/pin-school.png
 title: Kakegawa Japanese Language School (Kakegawa Nihongo Gakko)
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 Kakegawa Japanese Language School, situated in the tranquil yet historically rich city of Kakegawa in Shizuoka Prefecture, offers a distinctive learning environment highly focused on academic progression and practical fluency. Unlike the massive, often overwhelming schools found in Tokyo or Osaka, Kakegawa Nihongo Gakko operates with a highly focused capacity of just 120 students. This intentional sizing cultivates an intimate, supportive, and highly personalized learning ecosystem, ensuring that every student receives dedicated attention necessary for mastering a complex language and navigating the challenging Japanese higher education system.

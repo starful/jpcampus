@@ -9,9 +9,10 @@
   ],
   "description": "How to find furniture and appliances at Off-House and local recycle shops.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-04-04"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Furnishing for Less: The Ultimate Guide to Japanese Second-hand Shops
 

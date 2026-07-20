@@ -5,7 +5,7 @@ basic_info:
   name_ja: 九州大学
   website: https://www.kyushu-u.ac.jp/
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Want to study at Kyushu University? Explore 2026 English-taught programs,
   tuition, scholarships, and step-by-step admission requirements on JP Campus.
 faculties:
@@ -54,6 +54,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 
 ## 🏫 University Overview

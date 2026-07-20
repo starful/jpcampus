@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年半コース
   total_fees: 1055000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory Available
@@ -44,6 +44,7 @@ title: Osaka Minami Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 長崎大学
   website: https://www.nagasaki-u.ac.jp/en/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나가사키 대학교는 일본 나가사키에 위치한 명문 국립대학교입니다. 다양한 학부와 국제적인 프로그램을 제공합니다.
 faculties:
 - Faculty of Education
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 817800
 ---
+
 
 ## 대학교 개요 및 명성
 

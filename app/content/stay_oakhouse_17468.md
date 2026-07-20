@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/17468
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: Tokyo monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -71,6 +71,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_17468.jpg
 title: ALIKA HIKIFUNE 2 — Tokyo Student Monthly Mansion
 ---
+
 
 ## About this property
 

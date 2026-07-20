@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 進학コース
   total_fees: 1376000
-date: '2026-03-08'
+date: '2026-07-20'
 description: 도쿄 타카다노바바에 위치한 토신 랭귀지 스쿨은 이공계 대학 진학 및 EJU 대비에 특화된 일본어 교육 기관입니다. 전문적인
   진학 지도와 학생 맞춤형 서포트를 제공합니다.
 faculties: []
@@ -45,6 +45,7 @@ title: 토신 랭귀지 스쿨 (Toshin Language School)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

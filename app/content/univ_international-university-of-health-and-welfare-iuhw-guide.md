@@ -5,7 +5,7 @@ basic_info:
   name_en: International University of Health and Welfare
   name_ja: 国際医療福祉大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - School of Medicine
 - School of Pharmacy
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 1500000
   yearly_tuition: 2800000
 ---
+
 
 ## 🏫 University Overview: The Pioneer of Medical Education in Japan
 

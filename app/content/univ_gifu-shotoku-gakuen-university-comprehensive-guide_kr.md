@@ -5,7 +5,7 @@ basic_info:
   name_en: Gifu Shotoku Gakuen University
   name_ja: 岐阜聖徳学園大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 일본 내 최고 수준의 교사 임용률과 '화(和)의 정신'을 바탕으로 한 인성 교육을 실천하는 기후 쇼토쿠 가쿠엔 대학교의 종합
   가이드입니다. 교육, 간호, 외국어, 경제정보 분야의 전문적인 커리큘럼을 확인해 보세요.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

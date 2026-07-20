@@ -9,9 +9,10 @@
   ],
   "description": "Where and how to use your student ID for savings.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # 'Gakuwari': The Magic of Student Discounts in Japan
 

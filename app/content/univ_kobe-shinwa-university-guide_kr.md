@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe Shinwa University
   name_ja: 神戸親和大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 교육학 및 심리학 분야에서 전통을 자랑하는 고베 신와 대학교는 2023년 남녀공학으로 새롭게 전환하며, 학생 한 명 한 명에게
   집중하는 세심한 교육 환경과 강력한 취업 지원을 제공합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 대학 개요
 

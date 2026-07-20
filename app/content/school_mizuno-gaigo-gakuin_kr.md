@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3月コース
   total_fees: 770000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 미즈노외어학원은 치바현 이치카와시에 위치하고 있으며, 국제 학생들에게 맞춤형 지도와 종합적인 EJU 시험 준비를 제공하여 일본
   대학 진학을 돕습니다.
 faculties: []
@@ -55,6 +55,7 @@ title: 미즈노외어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

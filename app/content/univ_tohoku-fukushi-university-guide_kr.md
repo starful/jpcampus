@@ -5,7 +5,7 @@ basic_info:
   name_en: Tohoku Fukushi University
   name_ja: 東北福祉大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 일본 사회복지 및 보건 의료 분야의 명문, 도호쿠 복지대학교의 학부 정보와 입시 가이드, 스포츠 프로그램 및 장학금 혜택을
   확인해 보세요.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kinjo Gakuin University
   name_ja: 金城学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 도카이 지역을 대표하는 명문 사립 여자대학교로, 기독교 정신에 기반한 인성 교육과 압도적인 취업 지원 시스템을 통해 글로벌
   여성 리더를 양성합니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 대학 개요: 긴조가쿠인의 명성
 

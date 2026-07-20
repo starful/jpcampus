@@ -5,7 +5,7 @@ basic_info:
   name_en: Shujitsu University
   name_ja: 就実大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 100년 이상의 역사를 가진 '거화취실'의 정신으로 실무 교육에 집중하며, 일본 오카야마에서 높은 취업률과 국가 고시 합격률을
   자랑하는 명문 사립 대학입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요: 슈지츠의 유산
 

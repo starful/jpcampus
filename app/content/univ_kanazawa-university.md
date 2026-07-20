@@ -5,7 +5,7 @@ basic_info:
   name_ja: 金沢大学
   website: https://www.kanazawa-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: Kanazawa University, a leading national university in Ishikawa Prefecture,
   offers a wide range of programs, including English-taught options and scholarships,
   making it an attractive destination for international students.
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview & Reputation
 

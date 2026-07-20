@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Women's University
   name_ja: 京都女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Literature
 - Faculty of Developmental Education
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 University Overview
 

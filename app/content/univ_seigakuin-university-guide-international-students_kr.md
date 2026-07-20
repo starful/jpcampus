@@ -5,7 +5,7 @@ basic_info:
   name_en: Seigakuin University
   name_ja: 聖学院大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 세이가쿠인 대학교는 기독교 정신의 리버럴 아츠 교육과 높은 외국인 유학생 비율을 자랑하며, 사이타마의 안전하고 합리적인 환경에서
   개인별 맞춤형 커리어 지원을 제공하는 대학교입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 832000
 ---
+
 
 ## 🏫 대학 개요
 

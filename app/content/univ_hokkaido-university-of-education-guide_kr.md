@@ -5,7 +5,7 @@ basic_info:
   name_en: Hokkaido University of Education
   name_ja: 北海道教育大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - 교육학부 (삿포로 캠퍼스)
 - 교육학부 (아사히카와 캠퍼스)
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

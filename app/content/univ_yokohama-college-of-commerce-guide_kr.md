@@ -5,7 +5,7 @@ basic_info:
   name_en: Yokohama College of Commerce
   name_ja: 横浜商科大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 실무 중심의 비즈니스 교육과 요코하마라는 전략적 위치를 활용하여 일본 내 취업에 강점을 가진 요코하마 상과대학교를 소개합니다.
 faculties:
 - 상학부
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요: 일본 비즈니스 세계로 가는 관문
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Okayama Shoka University
   name_ja: 岡山商科大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Law
 - Faculty of Economics
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 University Overview
 

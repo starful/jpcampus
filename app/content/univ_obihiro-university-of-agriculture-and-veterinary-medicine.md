@@ -5,7 +5,7 @@ basic_info:
   name_en: Obihiro University of Agriculture and Veterinary Medicine
   name_ja: 帯広畜産大学
 category: university
-date: '2026-05-28'
+date: '2026-07-20'
 description: Compare Obihiro University of Agriculture and Veterinary Medicine tuition,
   admissions, and program details for 2026 international students.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

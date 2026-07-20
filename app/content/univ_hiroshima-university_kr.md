@@ -5,7 +5,7 @@ basic_info:
   name_ja: 広島大学
   website: https://www.hiroshima-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 히로시마 대학교는 일본 히로시마에 위치한 명문 국립대학교입니다. 다양한 학부와 영어 프로그램, 장학금 제도를 제공하여 국제
   학생들에게 매력적인 선택지입니다.
 faculties:
@@ -49,6 +49,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요 및 명성
 

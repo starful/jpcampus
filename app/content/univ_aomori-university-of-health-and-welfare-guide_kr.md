@@ -5,7 +5,7 @@ basic_info:
   name_en: Aomori University of Health and Welfare
   name_ja: 青森県立保健大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 아오모리현에 위치한 아오모리현립보건대학은 보건 및 복지 분야의 인재 양성에 힘쓰고 있습니다. IPE 교육과정, 높은 국가고시
   합격률, 지역 사회와의 연계가 특징입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 일본 북부 보건의 핵심
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Shitennoji University
   name_ja: 四天王寺大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities
 - Faculty of Education
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

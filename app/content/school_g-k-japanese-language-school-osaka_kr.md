@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1674200
-date: '2026-02-13'
+date: '2026-07-20'
 description: 오사카에 위치한 GK 일본어 학교는 진학 및 취업을 목표로 하는 유학생을 위한 맞춤형 교육을 제공합니다.
 faculties: []
 features:
@@ -43,6 +43,7 @@ thumbnail: /static/img/pin-school.png
 title: GK 일본어 학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

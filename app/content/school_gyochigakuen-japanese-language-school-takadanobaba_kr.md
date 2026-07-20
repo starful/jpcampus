@@ -21,7 +21,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヶ月コース
   total_fees: 1232000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 교치학원 일본어학교 다카다노바바 캠퍼스는 수준 높은 일본어 교육을 제공하는 곳으로, 일본 대학 진학을 목표하는 학생들에게 최적의
   환경을 제공합니다.
 faculties: []
@@ -50,6 +50,7 @@ title: 교치학원 일본어학교 다카다노바바 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

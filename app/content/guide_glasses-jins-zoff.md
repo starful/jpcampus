@@ -9,9 +9,10 @@
   ],
   "description": "High-quality, affordable eyewear in under 60 minutes.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-06-19"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Clear Sight, Affordable Price: A Student's Guide to Buying Glasses at JINS and Zoff in Japan
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Tsukuba International University
   name_ja: つくば国際大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Sciences
 - Faculty of Medical Technology
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 University Overview
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1020000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Advanced University Entrance Focus (EJU/Specialized Tracks)
@@ -43,6 +43,7 @@ thumbnail: /static/img/pin-school.png
 title: Daiwa Academy
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

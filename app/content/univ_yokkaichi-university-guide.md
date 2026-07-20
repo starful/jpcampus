@@ -5,7 +5,7 @@ basic_info:
   name_en: Yokkaichi University
   name_ja: 四日市大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Policy Management
 - Faculty of Environmental and Information Sciences
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 780000
 ---
+
 
 ## 🏫 University Overview
 

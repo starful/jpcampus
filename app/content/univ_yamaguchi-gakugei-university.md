@@ -5,7 +5,7 @@ basic_info:
   name_en: Yamaguchi Gakugei University
   name_ja: 山口学芸大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Education (Department of Child Education)
 features:
@@ -32,6 +32,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 University Overview
 

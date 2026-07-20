@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1657000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - EJU 및 대학 입시 집중 대비
@@ -43,6 +43,7 @@ title: Grandeur Global Academy Numazu Campus
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

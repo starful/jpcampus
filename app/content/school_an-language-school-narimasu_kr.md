@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヶ月コース
   total_fees: 883200
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 대학교 진학 준비
@@ -49,6 +49,7 @@ title: AN 랭귀지 스쿨 나리마스 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

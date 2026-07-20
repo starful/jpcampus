@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学Eコース
   total_fees: 850000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 후쿠오카현 신구마치에 위치한 사쿠라 일본어학원은 국제 학생들의 학업 목표 달성을 지원하는 명문 교육 기관입니다.
 faculties: []
 features:
@@ -51,6 +51,7 @@ title: 사쿠라 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

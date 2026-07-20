@@ -5,7 +5,7 @@ basic_info:
   name_en: Prefectural University of Hiroshima
   name_ja: 県立広島大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 히로시마 현립 대학은 실용적이고 지역 사회 중심적인 교육을 제공하는 공립 대학입니다. 지역 개발의 핵심 동력으로서의 역할을
   수행하고 있습니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 히로시마 현립 대학(Prefectural University of Hiroshima, PUH)은 일본어로 *Kenritsu Hiroshima Daigaku*로 알려져 있으며, 뛰어난 학문적 성취와 실용적이고 지역 사회 중심적인 교육을 제공하는 명문 공립 교육기관입니다. 2005년에 세 개의 현립 대학이 합병되어 현재의 모습을 갖추게 되었으며, 일본 주고쿠 지역의 지역 개발을 위한 중요한 엔진으로서 명성을 쌓아왔습니다. 대학은 히로시마 캠퍼스, 쇼바라 캠퍼스, 미하라 캠퍼스의 세 곳의 특화된 캠퍼스에서 운영됩니다. 이러한 3개의 캠퍼스 구조를 통해 대학은 비즈니스, 농업/생명공학, 보건 의료와 같은 특정 분야에 깊이 집중할 수 있으며, 학생들이 현대 사회에 즉시 적용 가능한 고도의 전문적인 교육을 받을 수 있도록 보장합니다.

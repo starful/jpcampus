@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: Progression Course (2 Years)
   total_fees: 1600000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Higher Education Progression Focus
@@ -45,6 +45,7 @@ title: Meikou Education Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

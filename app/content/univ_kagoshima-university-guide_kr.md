@@ -5,7 +5,7 @@ basic_info:
   name_en: Kagoshima University
   name_ja: 鹿児島大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 규슈 최남단 가고시마에 위치한 국립 가고시마 대학교에 대한 안내입니다. 열대 해양 과학, 수산학, 농업, 우주 과학 분야에서
   두각을 나타내며, 국제 학생들에게 훌륭한 학업 환경과 독특한 문화 경험을 제공합니다.
 faculties:
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 소개: 일본 우수성의 남쪽 관문
 

@@ -24,7 +24,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1420000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 미츠미네 커리어 아카데미 일본어 코스는 도쿄 신주쿠에 위치하고 있으며, 대학 진학 및 취업을 위한 종합적인 일본어 교육을 제공합니다.
   다양한 수준과 목표에 맞는 여러 코스를 제공하고 있습니다.
 faculties: []
@@ -51,6 +51,7 @@ title: 미츠미네 커리어 아카데미 일본어 코스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

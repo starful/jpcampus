@@ -1,6 +1,6 @@
 ---
 category: Selection
-date: '2026-01-28'
+date: '2026-07-20'
 description: Choosing the right path after language studies.
 id: career-path
 lang: en
@@ -10,6 +10,7 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1528164344705-47542687000d?w=500
 title: Language School to University vs. Vocational School
 ---
+
 
 # From Language Learner to Professional: Navigating the Crossroads After Japanese Language School
 

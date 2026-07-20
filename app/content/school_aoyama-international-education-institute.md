@@ -33,7 +33,7 @@ courses:
 - admission_month: 4,7,10
   course_name: Japanese Language Course/Business Japanese Course (April Enrollment)
   total_fees: 880000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Aoyama International Education Institute is dedicated to providing high-quality
   Japanese language education to international students in a supportive learning environment,
   preparing them for success in Japanese universities and the global workforce.
@@ -65,6 +65,7 @@ title: Aoyama International Education Institute
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 1) School Overview & Philosophy
 

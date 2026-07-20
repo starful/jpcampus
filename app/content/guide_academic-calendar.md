@@ -9,9 +9,10 @@
   ],
   "description": "Understanding the spring-start school system.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-03"
+  "date": "2026-07-20"
 }
 ---
+
 
 # The Japanese Academic Year: April Start Explained
 

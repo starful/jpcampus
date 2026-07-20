@@ -5,7 +5,7 @@ basic_info:
   name_ja: 新潟大学
   website: https://www.niigata-u.ac.jp/
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Discover Niigata University's academic programs, rankings, admission
   requirements, and campus life for international students looking to study in Japan.
 faculties:
@@ -49,6 +49,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview & Reputation
 

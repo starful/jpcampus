@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukuyama Heisei University
   name_ja: 福山平成大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Management
 - Faculty of Welfare and Health Science
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 

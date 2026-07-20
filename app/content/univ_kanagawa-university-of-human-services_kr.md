@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanagawa University of Human Services
   name_ja: 神奈川県立保健福祉大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 가나가와현립보건복지대학교는 전문직간 교육(IPE)에 특화된 일본 명문 공립 대학입니다. 요코스카의 아름다운 캠퍼스와 헬스케어혁신스쿨(SHI)을
   자랑합니다.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 소개
 

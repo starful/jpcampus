@@ -364,10 +364,11 @@ content_body: '## School Overview & Philosophy
   It is essential to research the eligibility requirements, application deadlines,
   and application procedures for each scholarship carefully. Applying for multiple
   scholarships can increase your chances of receiving financial assistance.'
-date: '2026-01-28'
+date: '2026-07-20'
 lang: en
 translated: true
 ---
+
 
 ## School Overview & Philosophy
 

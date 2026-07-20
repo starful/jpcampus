@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1560000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Intensive University and Graduate School Preparation (Shingaku)
@@ -50,6 +50,7 @@ title: UNITAS Japanese Language School, Tokyo Campus
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語進学1年コース
   total_fees: 780000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 롯폰기에 위치한 UJS 랭귀지 인스티튜트는 대학 진학을 위한 집중적인 일본어 교육을 제공합니다. 소규모 학급과 EJU 및 JLPT
   시험 전문성을 갖추고 있습니다.
 faculties: []
@@ -52,6 +52,7 @@ title: UJS 랭귀지 인스티튜트
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

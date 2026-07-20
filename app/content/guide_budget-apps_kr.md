@@ -9,10 +9,11 @@
   ],
   "description": "일본 가계부 앱을 활용해 스마트하게 지출을 관리하는 방법을 소개합니다.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-03-15",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 엔화 관리의 달인: 일본 유학생을 위한 가계부 앱 TOP 3
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 一般1年6か月コース
   total_fees: 1160500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 사쿠라 인터내셔널 스쿨은 도쿄의 조용한 교외 지역에 위치하고 있으며, 전문적인 미술 대학 준비반과 소규모 학급에서의 맞춤형
   지도를 포함하여 고등 교육 진학을 위한 종합적인 지원을 제공합니다.
 faculties: []
@@ -49,6 +49,7 @@ title: 도쿄 사쿠라 인터내셔널 스쿨
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

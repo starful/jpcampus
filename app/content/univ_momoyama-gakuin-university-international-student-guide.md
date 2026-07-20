@@ -5,7 +5,7 @@ basic_info:
   name_en: Momoyama Gakuin University
   name_ja: 桃山学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Business Administration
 - Faculty of Economics
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 University Overview
 Momoyama Gakuin University, also known globally as St. Andrew's University, is one of the most prestigious private liberal arts institutions in Western Japan. Founded in 1959 based on Christian principles, the university has a long-standing tradition of fostering "citizens of the world." Located in the beautiful Izumi City of Osaka Prefecture, with a secondary urban campus in Abeno, the university offers a serene yet intellectually stimulating environment for students from across the globe. The institution is part of the Anglican Communion, which informs its educational philosophy of 'Freedom and Love,' emphasizing the development of the whole person—intellectually, socially, and spiritually.

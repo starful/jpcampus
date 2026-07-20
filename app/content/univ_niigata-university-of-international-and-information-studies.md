@@ -5,7 +5,7 @@ basic_info:
   name_en: Niigata University of International and Information Studies
   name_ja: 新潟国際情報大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Information Systems
 - Faculty of International Studies
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 

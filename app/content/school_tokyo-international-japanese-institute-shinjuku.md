@@ -18,7 +18,7 @@ courses:
 - admission_month: '7'
   course_name: 一般コース
   total_fees: 1400000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - University Progression Focus
@@ -45,6 +45,7 @@ title: Tokyo International Japanese Language Academy
 translated: true
 tuition: {}
 ---
+
 
 # Tokyo International Japanese Language Academy: Your Gateway to Shinjuku and Beyond
 

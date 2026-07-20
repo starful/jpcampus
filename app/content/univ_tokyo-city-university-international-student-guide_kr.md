@@ -5,7 +5,7 @@ basic_info:
   name_en: Tokyo City University
   name_ja: 東京都市大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 도쿄 도시 대학교는 공학, 정보학, 환경 지속 가능성에 중점을 둔 명문 사립 대학입니다. 도큐 그룹과의 강력한 연계와 높은
   취업률이 특징입니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1560000
 ---
+
 
 ## 🏫 대학교 개요: 도쿄 도시 대학교의 역사와 유산
 

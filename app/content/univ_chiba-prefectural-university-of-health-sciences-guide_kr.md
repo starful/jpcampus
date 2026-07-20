@@ -5,7 +5,7 @@ basic_info:
   name_en: Chiba Prefectural University of Health Sciences
   name_ja: 千葉県立保健医療大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 치바현에 위치한 치바현립 보건의료대학에 대한 안내입니다. 높은 국가고시 합격률, 저렴한 공립 등록금, 전문적인 교육을 제공합니다.
 faculties:
 - Department of Nursing
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 치바현립 보건의료대학(CPUHS) 또는 *치바 켄리츠 호켄 이료 다이가쿠*는 일본 치바현에 위치한 명망 있는 공립 교육기관입니다. 지역 및 국제 사회에 기여할 수 있는 고도로 숙련된 의료 전문가를 양성한다는 사명으로 설립된 이 대학은 집중적인 학업 환경을 제공합니다. 대규모 종합 대학과는 달리 CPUHS는 건강 및 의료 과학만을 전문적으로 다루고 있어 의료 분야에서 진로를 확실히 정한 학생들에게 중심지가 되고 있습니다.

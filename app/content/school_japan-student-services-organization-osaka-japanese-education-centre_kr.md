@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学課程1年半コース
   total_fees: 1192337
-date: '2026-01-28'
+date: '2026-07-20'
 description: 'JASSO 오사카: 일본 명문 대학으로 가는 확실한 길. 정부 지원 교육, 풍부한 장학금, 국립/공립 대학 성공을 위한 전문적인
   EJU 대비 혜택을 누리세요.'
 faculties: []
@@ -49,6 +49,7 @@ title: Japan Student Services Organization 오사카 일본어 교육 센터
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

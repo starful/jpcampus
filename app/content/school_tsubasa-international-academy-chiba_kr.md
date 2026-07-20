@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 진학1년6개월코스
   total_fees: 1210000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 치바현 키미츠시에 위치한 츠바사 인터내셔널 아카데미는 EJU 시험 준비와 실용적인 일본어 능력 향상에 중점을 둡니다. 저렴한
   학비와 기숙사 시설을 제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ thumbnail: /static/img/pin-school.png
 title: 츠바사 인터내셔널 아카데미
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

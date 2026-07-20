@@ -18,7 +18,7 @@ courses:
 - admission_month: '7'
   course_name: 進学1年9か月コース
   total_fees: 1260000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야 교육 아카데미는 일본 대학 진학을 전문으로 하는 일본어 학교입니다. 집중적인 학업 지원, 교내 기숙사, 특화된 EJU
   시험 대비반을 제공합니다.
 faculties: []
@@ -55,6 +55,7 @@ title: 나고야 교육 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

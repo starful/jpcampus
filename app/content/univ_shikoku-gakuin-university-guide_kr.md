@@ -5,7 +5,7 @@ basic_info:
   name_en: Shikoku Gakuin University
   name_ja: 四国学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 카가와현 젠츠지시에 위치한 기독교 정신 기반의 리버럴 아츠 대학으로, 독자적인 전공-부전공 제도와 일본 내 선구적인 공연예술
   및 사회복지 프로그램을 제공합니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요
 

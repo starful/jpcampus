@@ -5,7 +5,7 @@ basic_info:
   name_en: Japan Women's University
   name_ja: 日本女子大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Home Economics
 - Faculty of Humanities
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 950000
 ---
+
 
 ## 🏫 University Overview
 

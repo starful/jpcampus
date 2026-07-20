@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 779800
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카 사카이시에 위치한 신아 국제어학원은 집중적인 일본어 학습과 학업 발전을 위한 최적의 환경을 제공합니다. 대학 진학을
   위한 체계적인 커리큘럼과 다양한 장학금 제도를 통해 꿈을 실현할 수 있도록 지원합니다.
 faculties: []
@@ -62,6 +62,7 @@ title: 신아 국제어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Aichi Shukutoku University
   name_ja: 愛知淑徳大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Human Services
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview: The Spirit of 'Difference as Ethos'
 

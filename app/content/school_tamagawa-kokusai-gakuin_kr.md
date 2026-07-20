@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヶ月コース
   total_fees: 901500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 玉川国際学院(TKG)은 도쿄 아사쿠사바시에 위치한 어학교로, 기숙사 옵션을 제공하며 대학 진학을 전문으로 합니다. EJU 및
   JLPT 대비 강좌와 체계적인 진학 프로그램을 제공합니다.
 faculties: []
@@ -49,6 +49,7 @@ title: 다마가와 국제학원 (TKG)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

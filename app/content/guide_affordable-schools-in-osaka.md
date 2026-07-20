@@ -12,9 +12,10 @@
   ],
   "description": "Our curated selection for Study in Kansai: Top 4 Language Schools in Osaka.",
   "thumbnail": "https://images.unsplash.com/photo-1590559899731-a382839e5549?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Study in Kansai: Top 4 Language Schools in Osaka
 

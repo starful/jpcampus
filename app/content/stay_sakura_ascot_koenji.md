@@ -7,7 +7,7 @@ basic_info:
   operator: Sakura House
 booking_url: https://www.sakura-house.com/building/ascot-koenji
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: Koenjikita Suginami monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -76,6 +76,7 @@ thumbnail: /static/images/stay_sakura_ascot_koenji.jpg
 title: SAKURA HOUSE ASCOT KOENJI (TOKYO APARTMENTS) — Koenjikita Suginami Student
   Monthly Mansion
 ---
+
 
 ## About this property
 

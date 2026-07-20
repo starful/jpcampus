@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyushu Institute of Information Sciences
   name_ja: 九州情報大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Management Information
 features:
@@ -32,6 +32,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 University Overview
 

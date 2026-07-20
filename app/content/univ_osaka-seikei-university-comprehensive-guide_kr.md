@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Seikei University
   name_ja: 大阪成蹊大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 실무 중심 교육과 강력한 취업 지원을 자랑하는 오사카 세이케이 대학교의 특징, 학부 정보, 입학 가이드를 확인해 보세요.
 faculties:
 - 경영학부
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 대학 개요
 

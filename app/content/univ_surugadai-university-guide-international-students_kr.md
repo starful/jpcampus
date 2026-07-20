@@ -5,7 +5,7 @@ basic_info:
   name_en: Surugadai University
   name_ja: 駿河台大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 도쿄 근교 사이타마현 한노시에 위치한 스루가다이대학교는 순다이 교육 그룹의 전통을 이어받아 실무 중심의 교육과 유학생을 위한
   밀착형 지원을 제공하는 명문 사립대학교입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요: 학문적 우수성의 전통
 

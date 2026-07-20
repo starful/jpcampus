@@ -9,10 +9,11 @@
   ],
   "description": "일본 학교 축제의 매력과 방문해야 하는 이유를 소개합니다.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # '분카사이': 일본 학교 축제의 모든 것
 

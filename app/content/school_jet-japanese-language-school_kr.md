@@ -42,7 +42,7 @@ basic_info:
   thumbnail: /static/img/pin-school.png
   title: JET 일본어학교
   tuition: {}
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄에 위치한 JET 일본어학교에서 일본어를 배워보세요. 초급부터 고급까지 모든 레벨의 학생들을 위한 코스를 제공하며, EJU
   시험 준비 및 미술, 디자인 분야 학습 경로를 지원합니다. 학교 내 기숙사 이용 가능합니다.
 features:
@@ -74,6 +74,7 @@ title: JET 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

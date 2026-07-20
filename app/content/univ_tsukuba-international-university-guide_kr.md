@@ -5,7 +5,7 @@ basic_info:
   name_en: Tsukuba International University
   name_ja: つくば国際大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 쓰쿠바국제대학교(TIU)는 의료, 보건, 복지 분야에 특화된 일본의 사립 대학교입니다. 높은 국가시험 합격률과 실습 중심의
   교육을 통해 일본 의료계 진출을 꿈꾸는 학생들에게 최적의 환경을 제공합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 대학 개요
 

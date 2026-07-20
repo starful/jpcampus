@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparation 1.25-Year Course
   total_fees: 920990
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Scholarships
@@ -57,6 +57,7 @@ title: KIJ Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

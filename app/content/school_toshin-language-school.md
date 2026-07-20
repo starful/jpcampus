@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コース
   total_fees: 1376000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - University Preparation
@@ -43,6 +43,7 @@ title: Toshin Language School
 translated: true
 tuition: {}
 ---
+
 
 # Toshin Language School: Your Gateway to Higher Education in Tokyo
 

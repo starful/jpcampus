@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 996330
-date: '2026-01-28'
+date: '2026-07-20'
 description: KIJ 랭귀지 인스티튜트 도쿄 캠퍼스는 대학 진학을 목표로 하는 학생들을 위한 전문 어학원입니다.
 faculties: []
 features:
@@ -47,6 +47,7 @@ thumbnail: /static/img/pin-school.png
 title: KIJ 랭귀지 인스티튜트, 도쿄 캠퍼스
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

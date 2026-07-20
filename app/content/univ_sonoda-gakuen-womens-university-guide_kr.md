@@ -5,7 +5,7 @@ basic_info:
   name_en: Sonoda Gakuen Women's University
   name_ja: 園田学園女子大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 효고현 아마가사키시에 위치한 명문 사립대학교로, '소노다이즘'이라는 독자적인 교육 철학을 바탕으로 지역 사회와 연계된 실천
   중심의 교육을 제공하며, 특히 보건, 복지, 교육 분야에서 높은 자격증 취득률을 자랑합니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

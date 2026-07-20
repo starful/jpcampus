@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: University Prep 2 Year Course
   total_fees: 1545000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카에 위치한 아베노 일본어 학원은 외국인 학생들에게 종합적인 어학 교육과 일본에서의 학업 및 전문적인 목표를 위한 강력한
   지원을 제공합니다.
 faculties: []
@@ -43,6 +43,7 @@ title: 아베노 일본어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

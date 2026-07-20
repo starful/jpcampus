@@ -5,7 +5,7 @@ basic_info:
   name_ja: 名城大学
   website: https://www.meijo-u.ac.jp/
 category: university
-date: '2026-07-12'
+date: '2026-07-20'
 faculties:
 - Law
 - Business Administration
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 # 🏫 School Overview & Philosophy
 

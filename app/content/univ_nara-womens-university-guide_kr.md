@@ -5,7 +5,7 @@ basic_info:
   name_en: Nara Women's University
   name_ja: 奈良女子大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 나라여자대학교는 일본에서 가장 명망 높고 역사적인 고등 교육 기관 중 하나입니다. 유학생들에게는 여성 리더십과 지적 우수성의
   유산을 경험할 수 있는 특별한 기회를 제공합니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 소개
 

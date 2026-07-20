@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukui University of Technology
   name_ja: 福井工業大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 일본 내 행복지수 1위 지역에 위치한 후쿠이 공업대학교는 99%의 높은 취업률과 첨단 공학 연구를 자랑하는 명문 사립 기술
   대학입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1300000
 ---
+
 
 ## 🏫 학교 개요
 

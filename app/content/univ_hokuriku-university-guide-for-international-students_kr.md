@@ -5,7 +5,7 @@ basic_info:
   name_en: Hokuriku University
   name_ja: 北陸大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 가나자와에 위치한 호쿠리쿠 대학은 높은 약사 고시 합격률과 강력한 국제 교류 네트워크를 자랑하는 종합 사립대학입니다.
   유학생 지원 제도와 합리적인 생활 환경으로 한국 학생들에게 매력적인 선택지입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요: 가나자와에서 시작하는 전문성의 관문
 

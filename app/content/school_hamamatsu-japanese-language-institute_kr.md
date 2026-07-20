@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1106100
-date: '2026-01-28'
+date: '2026-07-20'
 description: 시즈오카현 하마마쓰시에 위치한 이 어학원은 특화된 학업 트랙, 기숙사 의무 숙박, EJU 대책, 실용적인 비즈니스 일본어 교육을
   제공합니다.
 faculties: []
@@ -42,6 +42,7 @@ title: 하마마쓰 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

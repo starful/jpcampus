@@ -9,11 +9,12 @@
   ],
   "description": "Land your dream job in Japan! Our 2026 Shukatsu guide covers entry sheets, SPI tests, and interview tips for international applicants.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-02-13",
+  "date": "2026-07-20",
   "seo_title": "The Ultimate Shukatsu Guide 2026: Job Hunting in Japan | JP Campus",
   "seo_description": "Land your dream job in Japan! Our 2026 Shukatsu guide covers entry sheets, SPI tests, and interview tips for international applicants."
 }
 ---
+
 
 
 

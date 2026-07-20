@@ -9,9 +9,10 @@
   ],
   "description": "Suica, commuter tickets, and discounts",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-08"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Master the Rails: The Ultimate Guide to Student Commuter Passes in Japan
 

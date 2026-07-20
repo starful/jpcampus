@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Japanese Language Advancement Course (October Term)
   total_fees: 1597000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Dedicated Academic Advancement Focus
@@ -39,6 +39,7 @@ title: Bunka Foreign Language College
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

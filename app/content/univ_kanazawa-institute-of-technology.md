@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanazawa Institute of Technology
   name_ja: 金沢工業大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Informatics and Human Communication
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1515000
 ---
+
 
 ## 🏫 University Overview
 

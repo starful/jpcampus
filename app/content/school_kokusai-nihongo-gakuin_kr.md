@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヶ月コース
   total_fees: 842500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 국제일본어학원은 도쿄 중심부(니혼바시)에 위치한 일본어 전문 학교로, 대학 및 대학원 입학을 위한 학생 준비에 집중하고 있습니다.
   맞춤형 지침 및 STEM 지원과 함께 집중적인 EJU 및 JLPT 교육을 제공합니다.
 faculties: []
@@ -49,6 +49,7 @@ title: 국제일본어학원 (International Japanese Language Institute)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

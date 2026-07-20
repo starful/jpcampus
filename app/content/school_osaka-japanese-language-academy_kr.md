@@ -24,7 +24,7 @@ courses:
 - admission_month: '4'
   course_name: 一般1年コース
   total_fees: 760000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카 일본어 아카데미는 오사카의 히라노구에 위치하고 있으며, 평화롭고 집중적인 학습 환경을 제공합니다.
 faculties: []
 features:
@@ -64,6 +64,7 @@ title: 오사카 일본어 아카데미
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto University of Art and Design
   name_ja: 京都美術工芸大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Architecture and Design
 - Department of Architecture and Design
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 University Overview
 

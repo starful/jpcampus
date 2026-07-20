@@ -1,6 +1,6 @@
 ---
 category: Housing
-date: '2026-07-12'
+date: '2026-07-20'
 description: Find student housing in Japan easily. Compare dorms, share houses, and
   apartments. Learn how to rent without a guarantor today!
 id: housing
@@ -14,6 +14,7 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
 title: 'Japan Student Housing Guide: Renting Dorms, Share Houses & Apartments'
 ---
+
 
 Finding safe, affordable, and convenient student housing in Japan is one of the most critical steps in planning your study abroad journey. Whether you are moving to Tokyo, Kyoto, Osaka, or a regional university town, your choice of accommodation will shape your daily life, your budget, and your social integration.
 

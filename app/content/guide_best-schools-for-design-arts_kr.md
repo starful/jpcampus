@@ -1,7 +1,7 @@
 ---
 {
   "category": "Curated List",
-  "date": "2026-01-28",
+  "date": "2026-07-20",
   "description": "디자인·미술 유학을 준비하는 유학생을 위해 2026 기준 추천 4개 학교를 입시, 포트폴리오, 진로 관점에서 비교했습니다.",
   "id": "best-schools-for-design-arts",
   "is_featured": true,
@@ -19,6 +19,7 @@
   }
 }
 ---
+
 
 # 애니메이션, 만화, 디자인 분야 최고의 학교 4곳
 

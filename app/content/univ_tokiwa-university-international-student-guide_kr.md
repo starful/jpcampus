@@ -5,7 +5,7 @@ basic_info:
   name_en: Tokiwa University
   name_ja: 常磐大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 이바라키현 미토시에 위치한 도키와 대학교는 실천적인 교육과 지역 사회와의 연계를 중시하는 종합 사립대학입니다. 심리학, 인간과학,
   간호학, 정책학 분야의 전문적인 커리큘럼과 외국인 유학생을 위한 충실한 지원 시스템을 갖추고 있습니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -1,7 +1,7 @@
 ---
 {
   "category": "Curated List",
-  "date": "2026-01-15",
+  "date": "2026-07-20",
   "description": "외국인 학생을 위한 일본 최고의 예술 대학 3곳을 엄선하여 소개합니다.",
   "id": "best-3-art-universities",
   "is_featured": true,
@@ -23,6 +23,7 @@
   }
 }
 ---
+
 
 ## 외국인을 위한 일본 최고의 예술 대학 3곳
 

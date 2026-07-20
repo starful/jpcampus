@@ -5,7 +5,7 @@ basic_info:
   name_en: Tokyo Metropolitan University
   name_ja: 東京都立大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 도립대학교 (TMU)는 도시 연구, 시스템 디자인 및 저렴한 학비로 유명한 도쿄의 주요 공립 대학입니다. 유학생을 위한
   정보와 지원 서비스를 확인하세요.
 faculties:
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 520800
 ---
+
 
 ## 대학 개요
 

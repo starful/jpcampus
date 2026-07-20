@@ -5,7 +5,7 @@ basic_info:
   name_en: Jobu University
   name_ja: 上武大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Business Administration
 - Faculty of Nursing
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview: The Spirit of 'Zenshin'
 

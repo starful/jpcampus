@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1074000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카에 위치한 SANWA 외국어 학원은 소규모 정예 교육을 지향하며, 학생 개개인의 목표에 맞춘 맞춤형 학습 환경을 제공합니다.
   대학, 대학원 진학 및 취업을 위한 실용적인 일본어 교육을 제공합니다.
 faculties: []
@@ -54,6 +54,7 @@ title: SANWA 외국어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

@@ -24,7 +24,7 @@ courses:
 - admission_month: '4'
   course_name: 一般1年コース
   total_fees: 760000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory Available
@@ -63,6 +63,7 @@ title: Osaka Japanese Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

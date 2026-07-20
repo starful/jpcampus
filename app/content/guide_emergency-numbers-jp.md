@@ -9,9 +9,10 @@
   ],
   "description": "How to call police or ambulance and what to say in Japanese.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-04-04"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Emergency Contacts in Japan: A Comprehensive Guide for International Students (110, 119, and Beyond)
 

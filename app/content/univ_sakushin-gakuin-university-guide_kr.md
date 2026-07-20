@@ -5,7 +5,7 @@ basic_info:
   name_en: Sakushin Gakuin University
   name_ja: 作新学院大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 도치기현 우츠노미야시에 위치한 사쿠신 가쿠인 대학교는 지역사회와 밀착된 실용적인 교육과 유학생을 위한 세심한 지원을 제공하는
   사립 대학교입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요: 사쿠신의 정신
 

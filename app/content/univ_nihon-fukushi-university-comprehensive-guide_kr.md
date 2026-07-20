@@ -5,7 +5,7 @@ basic_info:
   name_en: Nihon Fukushi University
   name_ja: 日本福祉大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 일본 최초의 사회복지 전문 대학인 일본복지대학교(NFU)를 소개합니다. 아이치현에 위치한 4개의 캠퍼스에서 지역사회 발전과
   의료 복지 분야의 글로벌 인재로 성장해 보세요.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요: 일본 사회복지의 개척자
 

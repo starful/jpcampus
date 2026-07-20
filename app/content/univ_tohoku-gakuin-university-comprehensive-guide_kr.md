@@ -5,7 +5,7 @@ basic_info:
   name_en: Tohoku Gakuin University
   name_ja: 東北学院大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 도호쿠 지역 최대 규모의 사립 대학인 도호쿠 가쿠인 대학교의 학부 구성, 최신 이츠츠바시 캠퍼스 시설, 외국인 유학생 지원
   제도 및 강력한 지역 취업 네트워크를 소개하는 종합 가이드입니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 대학 개요
 

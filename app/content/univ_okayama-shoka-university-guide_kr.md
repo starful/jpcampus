@@ -5,7 +5,7 @@ basic_info:
   name_en: Okayama Shoka University
   name_ja: 岡山商科大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 실무 중심의 비즈니스 교육과 강력한 유학생 취업 지원 시스템을 갖춘 오카야마 상과대학교를 소개합니다.
 faculties:
 - 법학부
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 대학 개요
 

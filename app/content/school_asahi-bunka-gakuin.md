@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 1年6ヶ月進学コース
   total_fees: 1096000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Asahi Culture Academy in Nagoya provides comprehensive Japanese language
   education for international students, focusing on university preparation and career
   advancement in Japan. Features include dormitory accommodation, EJU preparation,
@@ -49,6 +49,7 @@ title: Asahi Culture Academy
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview
 

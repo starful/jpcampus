@@ -21,7 +21,7 @@ courses:
 - admission_month: '1'
   course_name: 대학 진학 1년 3개월 과정
   total_fees: 979500
-date: '2026-02-13'
+date: '2026-07-20'
 description: 동경국제교류학원은 EJU 집중 대비, 체계적인 대학/대학원 진학 지원, 기숙사 옵션 제공 및 다문화 교류 중심의 일본어 학교입니다.
 faculties: []
 features:
@@ -51,6 +51,7 @@ title: 동경국제교류학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学コースC
   total_fees: 1035000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 사쿠라 국제 언어 교육 학원은 일본 야마구치현 하기시에 위치한 전문학교입니다. 종합적인 진학 트랙, 기숙사, 장학금 기회 등을
   제공합니다.
 faculties: []
@@ -48,6 +48,7 @@ title: 사쿠라 국제 언어 교육 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

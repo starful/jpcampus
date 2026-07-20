@@ -5,7 +5,7 @@ basic_info:
   name_en: Hokkaido University of Education
   name_ja: 北海道教育大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Education (Sapporo Campus)
 - Faculty of Education (Asahikawa Campus)
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 金沢大学
   website: https://www.kanazawa-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 이시카와현의 대표적인 국립 대학인 가나자와 대학은 다양한 영어 강의 프로그램과 장학금을 제공하여 유학생들에게 매력적인 선택지입니다.
 faculties:
 - 인간사회학역
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학 개요 및 명성
 

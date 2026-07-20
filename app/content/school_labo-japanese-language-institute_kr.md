@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1384000
-date: '2026-01-28'
+date: '2026-07-20'
 description: LABO 일본어 교육 연수소는 도쿄의 센다기 지역에 위치하고 있으며, 특히 미술 및 디자인 분야의 고등 교육 진학을 목표로
   하는 학생들을 위해 종합적인 일본어 교육을 제공합니다.
 faculties: []
@@ -50,6 +50,7 @@ title: LABO 일본어 교육 연수소
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -9,9 +9,10 @@
   ],
   "description": "Understanding the restrictions on part-time work.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Navigating the Japanese Workplace: A Comprehensive Guide to Prohibited Jobs for International Students
 

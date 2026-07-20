@@ -15,7 +15,7 @@ courses:
 - admission_month: '7'
   course_name: 1.75-Year University Prep Course
   total_fees: 1316500
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dedicated Dormitory Accommodation Available
@@ -42,6 +42,7 @@ title: Asia House Attached Umikaze Japanese Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🌊 School Overview & Philosophy
 

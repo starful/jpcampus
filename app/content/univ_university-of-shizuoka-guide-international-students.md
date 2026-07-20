@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Shizuoka
   name_ja: 静岡県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - School of Pharmaceutical Sciences
 - School of Food and Nutritional Sciences
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: The University of Shizuoka
 

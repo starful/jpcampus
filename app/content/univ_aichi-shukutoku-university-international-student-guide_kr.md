@@ -5,7 +5,7 @@ basic_info:
   name_en: Aichi Shukutoku University
   name_ja: 愛知淑徳大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - 문학부
 - 인간정보학부
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요: '차이를 함께 살아가는' 정신
 

@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/house/1149
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 이치카와시 셰어하우스 이치카와 부르그. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -67,6 +67,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_1149.jpg
 title: 이치카와 부르그 — 이치카와시 유학생 셰어하우스
 ---
+
 
 ## 시설 소개
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 十月期生
   total_fees: 1146000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - University Advancement
@@ -45,6 +45,7 @@ title: Shinjuku Gyoen Gakuin
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

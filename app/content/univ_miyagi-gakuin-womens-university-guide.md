@@ -5,7 +5,7 @@ basic_info:
   name_en: Miyagi Gakuin Women's University
   name_ja: 宮城学院女子大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Liberal Arts
 - Department of English
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

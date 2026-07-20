@@ -9,9 +9,10 @@
   ],
   "description": "Levels, schedule, and study tips",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
-  "date": "2026-07-08"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Master the JLPT: The Ultimate Guide for International Students Targeting Japanese Universities
 

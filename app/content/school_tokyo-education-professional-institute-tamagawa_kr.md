@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1210000
-date: '2026-02-13'
+date: '2026-07-20'
 description: 소규모 정원으로 개인 맞춤형 교육을 제공하는 동경교육전문학교 다마가와 캠퍼스 (T.E.P.I.)에 대해 알아보세요. 대학 진학을
   위한 최적의 환경을 제공합니다.
 faculties: []
@@ -44,6 +44,7 @@ title: 동경교육전문학교 다마가와 캠퍼스 (T.E.P.I.)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

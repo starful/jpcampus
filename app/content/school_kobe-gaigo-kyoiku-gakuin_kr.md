@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 950625
-date: '2026-01-28'
+date: '2026-07-20'
 description: 고베외어교육학원은 일본 대학 진학을 목표로 하는 유학생들을 위한 집중적인 학습 환경을 제공합니다.
 faculties: []
 features:
@@ -50,6 +50,7 @@ title: 고베외어교육학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

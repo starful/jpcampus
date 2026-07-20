@@ -12,7 +12,7 @@ courses:
 - admission_month: 4,10
   course_name: 一般2年コース
   total_fees: 1470000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카에 위치한 Osaka International Education Academy는 대학 진학에 특화된 일본어 학교로, 기숙사
   옵션과 장학금을 제공합니다.
 faculties: []
@@ -45,6 +45,7 @@ title: Osaka International Education Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

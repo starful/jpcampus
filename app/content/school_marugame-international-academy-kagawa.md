@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1154510
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dedicated Dormitory Available
@@ -40,6 +40,7 @@ thumbnail: /static/img/pin-school.png
 title: Marugame International Academy
 tuition: {}
 ---
+
 
 # Marugame International Academy: Your Gateway to Success from the Heart of Kagawa
 

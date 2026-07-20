@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Fukui
   name_ja: 福井大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 후쿠이 대학은 높은 취업률, 섬유 공학 및 원자력 분야의 세계적인 연구, 유학생 지원 시스템, 안전하고 경제적인 생활 환경을
   자랑합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Saitama Institute of Technology
   name_ja: 埼玉工業大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Human and Social Studies
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1250000
 ---
+
 
 ## 🏫 University Overview: The Gateway to Technical Excellence
 

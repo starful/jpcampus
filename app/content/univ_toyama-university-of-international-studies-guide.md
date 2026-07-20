@@ -5,7 +5,7 @@ basic_info:
   name_en: Toyama University of International Studies
   name_ja: 富山国際大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Contemporary Social Studies
 - Department of Contemporary Social Studies
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 730000
 ---
+
 
 ## 🏫 University Overview
 

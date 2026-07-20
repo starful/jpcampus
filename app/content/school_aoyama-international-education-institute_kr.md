@@ -33,7 +33,7 @@ courses:
 - admission_month: 4,7,10
   course_name: 일본어 과정/비즈니스 일본어 과정 (4월 입학)
   total_fees: 880000
-date: '2026-03-08'
+date: '2026-07-20'
 description: 아오야마 국제교육학원은 도쿄 중심부에 위치하여 유학생들에게 수준 높은 일본어 교육과 체계적인 학습 환경을 제공합니다. 일본
   대학 진학 및 글로벌 인재 양성을 목표로 학생들의 성공적인 일본 생활을 지원합니다.
 faculties: []
@@ -64,6 +64,7 @@ title: 아오야마 국제교육학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

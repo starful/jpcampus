@@ -9,7 +9,7 @@
   ],
   "description": "JLPT N1부터 N5까지 각 레벨별 난이도, 합격 기준, 실제 일본어 수준을 완벽하게 정리해 드립니다. 나에게 맞는 시험 등급과 준비 방법을 JP Campus에서 확인하세요!",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
-  "date": "2026-02-13",
+  "date": "2026-07-20",
   "basic_info": {
     "name_en": "JLPT Levels Explained: N5 to N1"
   },
@@ -18,6 +18,7 @@
   "seo_description": "JLPT N1부터 N5까지 각 레벨별 난이도, 합격 기준, 실제 일본어 수준을 완벽하게 정리해 드립니다. 나에게 맞는 시험 등급과 준비 방법을 JP Campus에서 확인하세요!"
 }
 ---
+
 
 
 

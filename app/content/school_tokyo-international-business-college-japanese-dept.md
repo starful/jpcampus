@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Japanese Language Department
   total_fees: 1570000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Focus on Higher Education Advancement
@@ -39,6 +39,7 @@ title: Tokyo International Business College, Japanese Language Department
 translated: true
 tuition: {}
 ---
+
 
 # 🏫 School Overview & Philosophy
 

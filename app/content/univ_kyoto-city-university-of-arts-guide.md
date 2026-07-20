@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto City University of Arts
   name_ja: 京都市立芸術大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Fine Arts
 - Faculty of Music
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 482000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

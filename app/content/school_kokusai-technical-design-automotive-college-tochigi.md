@@ -13,7 +13,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1340000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Integrated Technical and Language Training
@@ -43,6 +43,7 @@ title: Kokusai Technical Design and Automotive Vocational College (Japanese Lang
 translated: true
 tuition: {}
 ---
+
 
 ## 🏢 School Overview & Philosophy
 

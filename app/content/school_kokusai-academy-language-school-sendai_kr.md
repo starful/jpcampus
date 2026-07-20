@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1206000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 센다이에 위치한 국제 아카데미 랭귀지 스쿨은 대학 진학 및 취업 준비에 중점을 둔 종합적인 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -44,6 +44,7 @@ thumbnail: /static/img/pin-school.png
 title: 국제 아카데미 랭귀지 스쿨
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

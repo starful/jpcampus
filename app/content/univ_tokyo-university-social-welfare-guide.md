@@ -6,7 +6,7 @@ basic_info:
   name_en: Tokyo University of Social Welfare
   name_ja: 東京福祉大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: A comprehensive guide to Tokyo University of Social Welfare (TUSW) for
   international students, covering 2026 tuition, admissions, and campus life.
 faculties:
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 230000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 

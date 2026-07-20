@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: University Prep Course II
   total_fees: 1182500
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory Available
@@ -43,6 +43,7 @@ title: Sagami International Academy
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

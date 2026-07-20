@@ -5,7 +5,7 @@ basic_info:
   name_en: Ashiya University
   name_ja: 芦屋大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Clinical Education
 - Department of Child Education
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 University Overview
 

@@ -9,9 +9,10 @@
   ],
   "description": "Housing compare",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-06-30"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Navigating Your Home in Japan: The Ultimate Student Housing Guide
 

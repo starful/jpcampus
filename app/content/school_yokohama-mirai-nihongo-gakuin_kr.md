@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1510000
-date: '2026-02-13'
+date: '2026-07-20'
 description: 요코하마 미라이 일본어 학원은 일본 유학을 희망하는 학생들을 위한 효과적인 학습 환경을 제공합니다. 대학 진학 및 실용적인
   일본어 능력 향상을 목표로 합니다.
 faculties: []
@@ -51,6 +51,7 @@ title: 요코하마 미라이 일본어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

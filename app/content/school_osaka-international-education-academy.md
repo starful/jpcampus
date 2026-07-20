@@ -12,7 +12,7 @@ courses:
 - admission_month: 4,10
   course_name: 一般2年コース
   total_fees: 1470000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Osaka International Education Academy is a Japanese language school located
   in Osaka, offering strong university progression focus, dormitory options, and scholarships.
 faculties: []
@@ -45,6 +45,7 @@ title: Osaka International Education Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

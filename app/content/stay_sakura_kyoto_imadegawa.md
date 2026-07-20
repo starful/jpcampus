@@ -7,7 +7,7 @@ basic_info:
   operator: Sakura House
 booking_url: https://www.sakura-house.com/building/kyoto-imadegawa
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: Kamigyo monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -73,6 +73,7 @@ tags:
 thumbnail: /static/images/stay_sakura_kyoto_imadegawa.jpg
 title: SAKURA HOUSE KYOTO A (Former Kyoto R) — Kamigyo Student Monthly Mansion
 ---
+
 
 ## About this property
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Beppu University
   name_ja: 別府大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 100년 이상의 역사를 자랑하는 벳푸대학은 발효식품학, 만화학, 문화재 보존 등 일본 내에서도 독보적인 특성화 학과를 보유한
   유서 깊은 대학입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 750000
 ---
+
 
 ## 🏫 대학 개요: 벳푸대학의 유산
 

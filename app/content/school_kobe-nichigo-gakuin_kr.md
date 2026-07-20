@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: General 1 Year 6-Month Course
   total_fees: 1157000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 효고현 아마가사키시에 위치한 고베 일본어학원은 대학 진학을 목표로 하는 학생들에게 종합적인 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -55,6 +55,7 @@ title: 고베 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요
 

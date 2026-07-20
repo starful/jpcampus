@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: アドバンスドコース
   total_fees: 1351500
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - University Preparation
@@ -58,6 +58,7 @@ title: Osafune Japanese Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview
 

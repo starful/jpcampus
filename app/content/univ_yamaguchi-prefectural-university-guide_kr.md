@@ -5,7 +5,7 @@ basic_info:
   name_en: Yamaguchi Prefectural University
   name_ja: 山口県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 야마구치현에 위치한 야마구치 현립 대학교에 대한 안내입니다. 지역사회 연계 연구, 강력한 국제 교류 지원, 인간 생태학 철학을
   특징으로 합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

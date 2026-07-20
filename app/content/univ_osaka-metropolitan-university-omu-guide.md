@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Metropolitan University
   name_ja: 大阪公立大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: Your guide to Osaka Metropolitan University (OMU) tuition, admission
   requirements, and English-taught programs for international students.
 faculties:
@@ -52,6 +52,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview
 

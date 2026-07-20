@@ -5,7 +5,7 @@ basic_info:
   name_en: The University of Aizu
   name_ja: 会津大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - School of Computer Science and Engineering
 - Graduate School of Computer Science and Engineering
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 520800
 ---
+
 
 ## 🏫 University Overview
 The University of Aizu (U-Aizu) holds the prestigious distinction of being the first university in Japan solely dedicated to computer science and engineering. Established in 1993 in Aizuwakamatsu, Fukushima Prefecture, the university was founded on the principle of 'Advancing Knowledge for Humanity.' Unlike traditional Japanese polytechnic universities, U-Aizu focuses exclusively on the diverse and rapidly evolving fields of ICT (Information and Communication Technology). For international students, this represents a unique opportunity to study at a highly specialized institution that bridges the gap between Eastern academic rigor and Western innovation.

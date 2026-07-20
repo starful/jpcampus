@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparatory Course 4
   total_fees: 932500
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - University Entrance Preparation (Shinagaku)
@@ -47,6 +47,7 @@ title: Waseda EDU Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 1) School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Miyazaki Municipal University
   name_ja: 宮崎公立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 미야자키 공립대학교는 규슈 미야자키시에 위치한 명문 공립 대학입니다. 국제적인 시각과 지역 사회와의 연계를 강조하는 교양 교육을
   제공합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

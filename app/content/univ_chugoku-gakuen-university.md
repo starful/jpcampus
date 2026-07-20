@@ -5,7 +5,7 @@ basic_info:
   name_en: Chugoku Gakuen University
   name_ja: 中国学園大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Modern Life Studies
 - Faculty of International Liberal Arts
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

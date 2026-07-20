@@ -24,7 +24,7 @@ courses:
 - admission_month: 4, 10
   course_name: 本科一般6ヶ月コース
   total_fees: 394000
-date: '2026-01-28'
+date: '2026-07-20'
 description: A.C.C. 국제교류학원은 시즈오카현 후지노미야시에 위치한 일본어 학교입니다. EJU 시험 준비와 대학 진학에 특화된 커리큘럼을
   제공합니다.
 faculties: []
@@ -57,6 +57,7 @@ title: A.C.C. 국제교류학원
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

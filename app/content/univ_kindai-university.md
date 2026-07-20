@@ -5,7 +5,7 @@ basic_info:
   name_ja: 近畿大学
   website: https://www.kindai.ac.jp/
 category: university
-date: '2026-04-27'
+date: '2026-07-20'
 description: Explore Kindai University, a leading private institution in Japan renowned
   for its academic excellence, innovative research, and commitment to global perspectives.
   Discover its diverse faculties, English programs, international student support,
@@ -53,6 +53,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## University Overview & Reputation
 

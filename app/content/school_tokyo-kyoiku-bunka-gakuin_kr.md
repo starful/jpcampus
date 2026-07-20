@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1.3年コース
   total_fees: 1035300
-date: '2026-01-28'
+date: '2026-07-20'
 description: Tokyo Kyoiku Bunka Gakuin은 도쿄에 위치한 일본어 학교로, 종합적인 대학 진학 준비, EJU 코스, 그리고
   특화된 미술 프로그램을 제공합니다.
 faculties: []
@@ -51,6 +51,7 @@ title: Tokyo Kyoiku Bunka Gakuin
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

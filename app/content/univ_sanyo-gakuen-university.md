@@ -5,7 +5,7 @@ basic_info:
   name_en: Sanyo Gakuen University
   name_ja: 山陽学園大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Regional Management
 - Faculty of Nursing
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 

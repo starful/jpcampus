@@ -6,7 +6,7 @@ basic_info:
   name_en: Akita International University
   name_ja: 国際教養大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of International Liberal Arts
 features:
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 696000
 ---
+
 
 ## 🏫 University Overview: The AIU Revolution
 

@@ -24,7 +24,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1420000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Located in Tokyo's Shinjuku district, Mitsumine Career Academy Japanese
   Language Course offers comprehensive Japanese language education with a focus on
   university preparation and career advancement. They offer various courses suitable
@@ -53,6 +53,7 @@ title: Mitsumine Career Academy Japanese Language Course
 translated: true
 tuition: {}
 ---
+
 
 # Study at Mitsumine Career Academy Japanese Language Course (MCA)
 

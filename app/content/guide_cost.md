@@ -1,6 +1,6 @@
 ---
 category: Cost/Budget
-date: '2026-01-01'
+date: '2026-07-20'
 description: Realistic budget analysis for tuition and living costs in Tokyo.
 id: cost
 lang: en
@@ -10,6 +10,7 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500
 title: 1-Year Cost Breakdown for Studying in Japan
 ---
+
 
 ## 1-Year Cost Breakdown for Studying in Japan: A Realistic Guide for International Students
 

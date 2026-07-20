@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 838000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오카야마 외어학원은 일본 유학을 희망하는 학생들을 위한 전문 교육 기관입니다. 대학 진학 및 취업을 위한 다양한 과정을 제공하며,
   맞춤형 상담과 지원을 통해 학생들의 성공적인 일본 생활을 돕습니다.
 faculties: []
@@ -47,6 +47,7 @@ thumbnail: /static/img/pin-school.png
 title: 오카야마 외어학원 (Okayama Foreign Language Institute)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: '7'
   course_name: 進学コースⅢ
   total_fees: 1207500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 교토 레이가쿠 국제 아카데미는 일본 명문 대학, 대학원 또는 전문학교 진학을 목표로 하는 유학생을 위한 집중 준비 기관입니다.
 faculties: []
 features:
@@ -47,6 +47,7 @@ title: 교토 레이가쿠 국제 아카데미
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

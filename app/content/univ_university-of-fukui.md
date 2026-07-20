@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Fukui
   name_ja: 福井大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Education
 - Faculty of Medical Sciences
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

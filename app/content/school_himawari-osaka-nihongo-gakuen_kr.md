@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1463000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 히마와리 오사카 일본어학원은 오사카에 위치하고 있으며, 대학 및 전문학교 진학을 준비하는 학생들을 위한 과정을 제공합니다.
   또한 단기 코스도 운영하며, 회화 및 비즈니스 일본어에 중점을 두고 있습니다.
 faculties: []
@@ -55,6 +55,7 @@ title: 히마와리 오사카 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

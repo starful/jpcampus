@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe City University of Foreign Studies
   name_ja: 神戸市外国語大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Department of English
 - Department of Russian
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

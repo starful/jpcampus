@@ -9,9 +9,10 @@
   ],
   "description": "What to expect during Japan's major holiday seasons.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-03"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Navigating the Japanese Holiday Calendar: A Comprehensive Guide for International Students
 

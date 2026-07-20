@@ -5,7 +5,7 @@ basic_info:
   name_ja: 上智大学
   website: https://www.sophia.ac.jp/
 category: university
-date: '2026-06-12'
+date: '2026-07-20'
 description: An ultimate guide to studying at Sophia University in Tokyo. Check out
   English-taught programs, fees, scholarships, and international admissions.
 faculties:
@@ -49,6 +49,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## University Overview & Reputation
 

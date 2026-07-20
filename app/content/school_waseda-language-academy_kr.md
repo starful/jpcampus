@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学課程1年3か月コース
   total_fees: 997700
-date: '2026-01-28'
+date: '2026-07-20'
 description: 명문 일본 대학 및 대학원 진학을 목표로 하는 국제 학생들을 위한 와세다 언어 학원 (WLA)을 소개합니다.
 faculties: []
 features:
@@ -48,6 +48,7 @@ title: 와세다 언어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

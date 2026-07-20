@@ -9,9 +9,10 @@
   ],
   "description": "A resource guide for Muslim international students.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-04-19"
+  "date": "2026-07-20"
 }
 ---
+
 
 # A Student’s Guide to Halal Living in Japan: Food, Mosques, and Community
 

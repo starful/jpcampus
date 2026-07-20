@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe Shinwa University
   name_ja: 神戸親和大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Education
 - Faculty of Psychology and Social Welfare
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 University Overview
 

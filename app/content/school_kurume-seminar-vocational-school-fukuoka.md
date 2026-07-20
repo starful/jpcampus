@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語総合1.5年コース
   total_fees: 1180000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Kurume Seminar Vocational School offers intensive Japanese language education
   with pathways to university, graduate school, and career advancement in Japan.
 faculties: []
@@ -56,6 +56,7 @@ title: Kurume Seminar Vocational School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

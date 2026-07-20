@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1206000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Strategic Location in Sendai (Tohoku Region)
@@ -48,6 +48,7 @@ seo_title: 'Kokusai Academy Language School Sendai: 2026 Fees & Admission'
 seo_description: Looking to study in Sendai? Find Kokusai Academy Language School's
   2026 tuition fees, course details, and admission requirements on JP Campus.
 ---
+
 
 
 ## 🏫 School Overview & Philosophy

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyushu Dental University
   name_ja: 九州歯科大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 큐슈 치과 대학 (Kyushu Dental University)에 대한 종합 안내입니다. 학비, 입학 요건, 학과, 시설 등을
   자세히 알아보세요.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

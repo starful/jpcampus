@@ -5,7 +5,7 @@ basic_info:
   name_en: Kinjo Gakuin University
   name_ja: 金城学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Literature
 - Faculty of Human Sciences
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 University Overview: The Prestige of Kinjo Gakuin
 

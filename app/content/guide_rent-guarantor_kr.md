@@ -1,7 +1,7 @@
 ---
 {
   "category": "Housing",
-  "date": "2026-01-28",
+  "date": "2026-07-20",
   "description": "보증 회사란 무엇이며, 어떻게 이용하는지에 대한 설명입니다.",
   "id": "rent-guarantor",
   "lang": "kr",
@@ -24,6 +24,7 @@
   "tuition": null
 }
 ---
+
 
 # 반드시 거쳐야 할 단계: 일본 유학 생활, 보증인 제도 완벽 가이드
 

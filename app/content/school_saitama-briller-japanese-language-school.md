@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1172300
-date: '2026-06-12'
+date: '2026-07-20'
 description: Learn about Saitama Briller Japanese Language School. Find tuition fees,
   course details, admission requirements, and student reviews on JP Campus.
 faculties: []
@@ -54,6 +54,7 @@ thumbnail: /static/img/pin-school.png
 title: Saitama Briller Japanese Language School
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

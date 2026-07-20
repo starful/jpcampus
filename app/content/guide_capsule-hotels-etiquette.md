@@ -9,9 +9,10 @@
   ],
   "description": "How to stay in Japan's unique budget accommodation safely.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-04-04"
+  "date": "2026-07-20"
 }
 ---
+
 
 # A Student's Guide to Capsule Hotels: Navigating Japan’s Iconic Budget Accommodation
 

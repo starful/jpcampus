@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語科
   total_fees: 1395000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아소 외어 관광 & 브라이달 전문학교는 후쿠오카 하카타에 위치한 전문학교로, 일본어 과정과 관광 및 웨딩 서비스 분야의 전문적인
   직업 훈련을 제공합니다. 상급 학교 진학 및 EJU 시험 준비를 위한 지원도 제공하고 있습니다.
 faculties: []
@@ -50,6 +50,7 @@ title: 아소 외어 관광 & 브라이달 전문학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

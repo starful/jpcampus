@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1360000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 YMCA 일본어 학교에서 지원적이고 커뮤니티 중심적인 환경에서 일본어를 배우세요. 헌신적인 EJU 준비, 맞춤형 지도,
   일본 대학으로의 학업 발전에 대한 강력한 집중을 통해 혜택을 누리세요.
 faculties: []
@@ -43,6 +43,7 @@ title: 도쿄 YMCA 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

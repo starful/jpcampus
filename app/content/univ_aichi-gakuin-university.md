@@ -5,7 +5,7 @@ basic_info:
   name_en: Aichi Gakuin University
   name_ja: 愛知学院大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Psychological Counseling
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 

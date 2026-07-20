@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanazawa Institute of Technology
   name_ja: 金沢工業大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 실무 중심의 프로젝트 디자인 교육과 압도적인 취업률을 자랑하는 일본 최고의 사립 공과대학교입니다.
 faculties:
 - Faculty of Engineering
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1515000
 ---
+
 
 ## 🏫 대학 개요
 

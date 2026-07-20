@@ -5,7 +5,7 @@ basic_info:
   name_en: Okayama University of Science
   name_ja: 岡山理科大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Science
 - Faculty of Engineering
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 220000
   yearly_tuition: 1450000
 ---
+
 
 ## 🏫 University Overview
 Okayama University of Science (OUS), or *Okayama Rika Daigaku*, is one of Western Japan’s premier private institutions dedicated to the advancement of science, technology, and specialized research. Founded in 1964 by Tsutomu Kake, the university is built upon the philosophy of "drawing out the maximum potential of every student." Over the decades, it has evolved from a small science college into a comprehensive academic powerhouse with seven faculties and a reputation for producing industry-ready graduates.

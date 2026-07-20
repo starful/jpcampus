@@ -5,7 +5,7 @@ basic_info:
   name_en: Shizuoka University of Welfare
   name_ja: 静岡福祉大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 일본 시즈오카현 야이즈시에 위치한 사회복지 및 아동 교육 특화 대학으로, 높은 국가 자격증 합격률과 충실한 유학생 지원을 자랑합니다.
 faculties:
 - 사회복지학부
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 대학 개요: 지역 사회 케어의 중심
 

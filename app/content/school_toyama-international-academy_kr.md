@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1296000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도야마 국제학원은 소규모 정예 교육을 통해 대학 및 전문학교 진학을 위한 맞춤형 커리큘럼을 제공합니다.
 faculties: []
 features:
@@ -45,6 +45,7 @@ thumbnail: /static/img/pin-school.png
 title: Toyama International Academy (富山国際学院)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

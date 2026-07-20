@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1340000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 쇼난 일본어학교 하마마츠 캠퍼스는 집중적인 EJU 시험 준비, 공학 지망생을 위한 특화된 이과 트랙, 그리고 시즈오카현 하마마츠의
   주요 산업 중심지에 위치한 통합 기숙사 숙소를 제공합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 쇼난 일본어학교 하마마츠 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 長崎大学
   website: https://www.nagasaki-u.ac.jp/en/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Education
 - Faculty of Economics
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 817800
 ---
+
 
 ## University Overview & Reputation
 

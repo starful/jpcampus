@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年半コース
   total_fees: 1105000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아이치현 신시로에 위치한 코분 인터내셔널 랭귀지 스쿨은 지원적인 시골 환경에서 집중적인 대학 입시 준비를 제공합니다. EJU
   및 JLPT 특화 트레이닝을 제공하며, 이공계, 예술, 비즈니스 등 다양한 분야로 진학할 수 있도록 지원합니다.
 faculties: []
@@ -49,6 +49,7 @@ title: 코분 인터내셔널 랭귀지 스쿨
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

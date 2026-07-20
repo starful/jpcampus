@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学Ⅰコース
   total_fees: 1045000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 욧카이치 일본어학교는 체계적인 지원과 특별한 지역적 이점을 바탕으로 집중적인 학업 환경에서 특화된 대학 진학 준비 과정을 제공합니다.
 faculties: []
 features:
@@ -44,6 +44,7 @@ title: 욧카이치 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

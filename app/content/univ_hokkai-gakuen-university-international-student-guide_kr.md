@@ -5,7 +5,7 @@ basic_info:
   name_en: Hokkai Gakuen University
   name_ja: 北海学園大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 홋카이학원대학교는 홋카이도 삿포로에 위치한 명문 사립대학교입니다. 유학생을 위한 다양한 지원과 홋카이도 지역 사회와의 긴밀한
   연계가 특징입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 대학교 개요
 

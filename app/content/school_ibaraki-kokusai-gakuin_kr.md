@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6月コース
   total_fees: 960000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 이바라키현 미토시에 위치한 이바라키 국제학원은 소규모 집중 학습 환경을 제공하며, EJU 시험 대비 및 대학 진학 지도를 전문적으로
   제공합니다.
 faculties: []
@@ -43,6 +43,7 @@ thumbnail: /static/img/pin-school.png
 title: 이바라키 국제학원 (Ibaraki Kokusai Gakuin)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

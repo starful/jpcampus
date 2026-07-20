@@ -5,7 +5,7 @@ basic_info:
   name_en: Chubu University
   name_ja: 中部大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 최대의 산업 중심지인 아이치현에 위치한 주부 대학교는 8개 학부를 보유한 대규모 종합대학으로, 실무 중심의 교육과 강력한
   취업 네트워크, 최첨단 연구 환경을 제공합니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 280000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Takamatsu University
   name_ja: 高松大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Management
 - Faculty of Human Development
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 730000
 ---
+
 
 ## 🏫 University Overview
 Established in 1996 in the scenic coastal city of Takamatsu, Kagawa Prefecture, Takamatsu University (高松大学, Takamatsu Daigaku) is a private institution that has earned a solid reputation for its commitment to practical, community-oriented higher education. The university operates under the educational philosophy of "Respect for Humanity" and "Practical Learning," aiming to cultivate self-reliant professionals who can contribute actively to regional revitalization and international society.

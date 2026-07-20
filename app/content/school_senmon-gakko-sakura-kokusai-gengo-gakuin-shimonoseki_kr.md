@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学ｺｰｽC
   total_fees: 1035000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 사쿠라 국제언어학원 전문학교는 시모노세키에 위치하여 저렴한 생활비, EJU, STEM, 미술, 디자인 등 다양한 전문 학업
   트랙을 제공하는 일본 유학 전문학교입니다.
 faculties: []
@@ -46,6 +46,7 @@ title: 사쿠라 국제언어학원 전문학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

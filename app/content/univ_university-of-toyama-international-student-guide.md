@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Toyama
   name_ja: 富山大学
 category: university
-date: '2026-06-12'
+date: '2026-07-20'
 description: Explore the comprehensive guide for international students at the University
   of Toyama. Find details on tuition, admissions, scholarships, and student life.
 faculties:
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: The Jewel of the Hokuriku Region
 

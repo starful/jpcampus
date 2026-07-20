@@ -60,16 +60,19 @@ basic_info:
   thumbnail: /static/img/pin-school.png
   title: Kobe YMCA College of Professional Studies
   tuition: {}
-content_body: "## \U0001F3EB School Overview\n\nKobe YMCA College of Professional
-  Studies has a long-standing tradition of providing quality Japanese language education
-  to international students. As part of the global YMCA network, the school emphasizes
-  holistic development, focusing not only on language acquisition but also on cultural
-  understanding and personal growth. The campus atmosphere is generally described
-  as welcoming and supportive, with a diverse student body from various countries,
-  fostering a vibrant international learning environment. The school's mission is
-  to empower students with the Japanese language skills and cultural knowledge needed
-  to succeed in their academic or professional pursuits in Japan."
-date: '2026-02-13'
+content_body: '## 🏫 School Overview
+
+
+  Kobe YMCA College of Professional Studies has a long-standing tradition of providing
+  quality Japanese language education to international students. As part of the global
+  YMCA network, the school emphasizes holistic development, focusing not only on language
+  acquisition but also on cultural understanding and personal growth. The campus atmosphere
+  is generally described as welcoming and supportive, with a diverse student body
+  from various countries, fostering a vibrant international learning environment.
+  The school''s mission is to empower students with the Japanese language skills and
+  cultural knowledge needed to succeed in their academic or professional pursuits
+  in Japan.'
+date: '2026-07-20'
 description: Kobe YMCA College of Professional Studies offers comprehensive Japanese
   language programs with a focus on university preparation, practical communication,
   and cultural understanding in the heart of Kobe.
@@ -123,6 +126,7 @@ title: Kobe YMCA College of Professional Studies
 title_kr: 고베 YMCA College of Professional Studies
 translated: true
 ---
+
 
 ## 🏫 학교 소개
 

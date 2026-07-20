@@ -9,10 +9,11 @@
   ],
   "description": "일본 거주 외국인을 위한 구약소 서비스 안내입니다.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-02-13",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 일본 유학생을 위한 구약소 방문 가이드
 

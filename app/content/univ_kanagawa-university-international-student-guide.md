@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanagawa University
   name_ja: 神奈川大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Law
 - Economics
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview: The Spirit of 'Jindai'
 

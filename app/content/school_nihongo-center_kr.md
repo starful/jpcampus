@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語集中1年半コース
   total_fees: 1116720
-date: '2026-01-28'
+date: '2026-07-20'
 description: KAI 일본어 학교는 교토의 가와라마치 지역에 위치하고 있으며, 유학생들이 일본의 고등 교육 기관에 진학할 수 있도록 돕는
   데 특화되어 있습니다. 종합적인 언어 교육과 EJU (일본유학시험) 지원, 그리고 이공계 (Science Stream) 옵션까지 제공합니다.
 faculties: []
@@ -43,6 +43,7 @@ title: KAI 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 823000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 신주쿠에 위치한 도쿄 월드 일본어 학교는 유학생들에게 종합적인 일본어 교육을 제공합니다. 대학 진학 및 EJU 시험 준비에
   특화되어 있습니다.
 faculties: []
@@ -50,6 +50,7 @@ title: 도쿄 월드 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

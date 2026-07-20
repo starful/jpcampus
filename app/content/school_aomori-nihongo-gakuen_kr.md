@@ -14,7 +14,7 @@ courses:
   course_name: 日本語2年コース
   course_name_en: 2-Year Japanese Course
   total_fees: 1450000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아오모리에 위치한 일본어 학교로, 대학 진학 준비, 단기 코스, 비즈니스 일본어 코스 등 다양한 과정을 제공합니다. 기숙사
   및 장학금 기회 등의 특징이 있습니다.
 faculties: []
@@ -55,6 +55,7 @@ title: 아오모리 일본어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

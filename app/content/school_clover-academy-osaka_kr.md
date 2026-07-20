@@ -21,7 +21,7 @@ courses:
 - admission_month: 4,10
   course_name: 一般2年コース
   total_fees: 1440000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카에 위치한 클로버 어학원은 국제 학생들에게 종합적인 일본어 교육을 제공하며, 일본 대학 입시와 미래의 커리어를 위한 전문
   코스와 강력한 이공계 프로그램 지원에 집중합니다.
 faculties: []
@@ -52,6 +52,7 @@ title: 클로버 어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

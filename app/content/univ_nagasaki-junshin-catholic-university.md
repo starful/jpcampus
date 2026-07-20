@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagasaki Junshin Catholic University
   name_ja: 長崎純心大学
 category: university
-date: '2026-07-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities (Department of Culture and Communication)
 - Faculty of Humanities (Department of Child Development and Education)
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 University Overview
 

@@ -12,7 +12,7 @@ courses:
 - admission_month: 7,10,1
   course_name: 総合2年コース
   total_fees: 1470500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 일본 대학 진학을 위한 EJU 시험 전문 어학원, 시부야외어학원을 소개합니다.
 faculties: []
 features:
@@ -39,6 +39,7 @@ thumbnail: /static/img/pin-school.png
 title: 시부야외어학원
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

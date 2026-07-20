@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年6か月コース
   total_fees: 1180000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - University Entrance Preparation Focus
@@ -41,6 +41,7 @@ title: JSL Nihon Academy Tokyo School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

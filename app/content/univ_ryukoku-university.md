@@ -5,7 +5,7 @@ basic_info:
   name_ja: 龍谷大学
   website: https://www.ryukoku.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: Ryukoku University, founded in 1639, is a private university in Kyoto,
   Japan with a strong tradition in Buddhist studies and a wide range of modern faculties.
   Known for its commitment to global citizenship and intercultural understanding.
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## University Overview & Reputation
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Gifu Shotoku Gakuen University
   name_ja: 岐阜聖徳学園大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Education
 - Faculty of Foreign Studies
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

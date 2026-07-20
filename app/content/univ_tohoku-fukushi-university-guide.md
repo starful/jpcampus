@@ -5,7 +5,7 @@ basic_info:
   name_en: Tohoku Fukushi University
   name_ja: 東北福祉大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Social Welfare
 - Faculty of Comprehensive Management
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 

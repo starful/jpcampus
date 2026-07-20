@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 특별 진학 코스
   total_fees: 1419000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 효고현 아마가사키에 위치한 AIC는 기숙사, 장학금 프로그램 및 EJU 대비를 통해 일본 대학 진학을 위한 전문적인 아카데믹
   과정을 제공합니다.
 faculties: []
@@ -60,6 +60,7 @@ title: 아시안 인터내셔널 센터
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

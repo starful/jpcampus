@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyushu Lutheran College
   name_ja: 九州ルーテル学院大学
 category: university
-date: '2026-07-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities (人文学部)
 - Department of Career English (キャリア英語多文化コミュニケーション学科)
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 # 🏫 University Overview
 

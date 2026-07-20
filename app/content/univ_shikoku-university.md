@@ -6,7 +6,7 @@ basic_info:
   name_en: Shikoku University
   name_ja: 四国大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Literature
 - Faculty of Management and Information Science
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 160000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 

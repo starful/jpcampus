@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1.3年コース
   total_fees: 857500
-date: '2026-01-28'
+date: '2026-07-20'
 description: Study at Nagoya Fukutoku Japanese Language Academy. Learn Japanese, prepare
   for higher education, and get student visa support in Nagoya, Japan.
 faculties: []
@@ -74,6 +74,7 @@ seo_title: Nagoya Fukutoku Japanese Language Academy | JP Campus
 seo_description: Study at Nagoya Fukutoku Japanese Language Academy. Learn Japanese,
   prepare for higher education, and get student visa support in Nagoya, Japan.
 ---
+
 
 
 ## School Overview

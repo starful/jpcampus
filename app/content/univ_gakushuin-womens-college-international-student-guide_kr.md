@@ -5,7 +5,7 @@ basic_info:
   name_en: Gakushuin Women's College
   name_ja: 学習院女子大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 도쿄 중심부에 위치한 명문 사립 여자대학, 가쿠슈인 여자대학에 대해 알아보세요. 2026년 가쿠슈인 대학과의 합병 예정입니다.
 faculties:
 - Faculty of International Studies
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 860000
 ---
+
 
 ## 🏫 학교 소개
 

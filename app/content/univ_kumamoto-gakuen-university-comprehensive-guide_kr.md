@@ -5,7 +5,7 @@ basic_info:
   name_en: Kumamoto Gakuen University
   name_ja: 熊本学園大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 구마모토 가쿠엔 대학교는 80년 이상의 역사를 가진 규슈 지역의 명문 사립 대학으로, 경제, 경영, 사회복지 등 다양한 분야에서
   실무 중심의 교육을 제공하며 유학생을 위한 체계적인 지원 시스템을 갖추고 있습니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 750000
 ---
+
 
 ## 🏫 대학 개요
 

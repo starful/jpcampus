@@ -21,7 +21,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般2年コース
   total_fees: 1402000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Human Academy 일본어학교 오사카 캠퍼스(HAJLS Osaka)는 간사이 지역을 대표하는 교육 기관으로, 그 규모와
   전문적인 교육 시스템으로 잘 알려져 있습니다. Human Academy 그룹의 지원을 받아, 전문 지식과 업계 네트워크를 제공합니다. 오사카 중심부에
   위치하여 문화, 상업 시설 및 아르바이트 기회에 쉽게 접근할 수 있습니다. 기숙사 및 진로 상담을 포함한 광범위한 지원을 제공합니다.
@@ -53,6 +53,7 @@ title: Human Academy 일본어학교 오사카 캠퍼스 (HAJLS Osaka)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -55,7 +55,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparation 1 Year 3-Month Course
   total_fees: 915000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 일본 유학, 특히 과학 및 공학 분야의 고등 교육을 목표로 하는 국제 학생들에게 종합적인 일본어 교육을 제공합니다. 강력한
   학업 지원과 양성적인 환경을 제공합니다.
 faculties: []
@@ -84,6 +84,7 @@ title: Chuo College of Engineering Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

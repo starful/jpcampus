@@ -5,7 +5,7 @@ basic_info:
   name_en: Okinawa International University
   name_ja: 沖縄国際大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: An all-in-one guide to Okinawa International University (OKIU) for international
   students, featuring 2026 admission details, tuition fees, and scholarship opportunities.
 faculties:
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 220000
   yearly_tuition: 750000
 ---
+
 
 ## University Overview
 

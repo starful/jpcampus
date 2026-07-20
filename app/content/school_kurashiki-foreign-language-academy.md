@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: University Progression 1.5-Year Course
   total_fees: 1082000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized University Progression (EJU, Science, Arts & Design Tracks)
@@ -39,6 +39,7 @@ title: Kurashiki Foreign Language Academy
 translated: true
 tuition: {}
 ---
+
 
 # 🏯 Kurashiki Foreign Language Academy: Your Gateway to Academic and Professional Success in Japan
 

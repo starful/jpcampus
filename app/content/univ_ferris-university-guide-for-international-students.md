@@ -5,7 +5,7 @@ basic_info:
   name_en: Ferris University
   name_ja: フェリス女学院大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Global and Intercultural Studies
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

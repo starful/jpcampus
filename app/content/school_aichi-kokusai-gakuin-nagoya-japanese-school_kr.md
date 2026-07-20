@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヶ月コース
   total_fees: 1024000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아이치현 나고야에 위치한 아이치 국제학원은 일본 대학 진학을 희망하는 유학생들을 위한 최고의 교육 기관입니다.
 faculties: []
 features:
@@ -43,6 +43,7 @@ thumbnail: /static/img/pin-school.png
 title: 아이치 국제학원 (Aichi International Academy)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

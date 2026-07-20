@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya Bunri University
   name_ja: 名古屋文理大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Information Media
 - Faculty of Health and Nutrition
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

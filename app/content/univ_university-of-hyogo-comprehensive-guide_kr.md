@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Hyogo
   name_ja: 兵庫県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 효고현립대학교는 고베 상과대학, 히메지 공업대학, 효고 간호 예술 과학 대학의 통합으로 설립된 명문 공립 대학입니다. 영어로
   진행되는 GBC 과정과 다양한 캠퍼스, 뛰어난 연구 시설을 자랑합니다.
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 개요
 

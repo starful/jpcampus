@@ -5,7 +5,7 @@ basic_info:
   name_en: Sakushin Gakuin University
   name_ja: 作新学院大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Management
 - Faculty of Human Culture
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview: The Spirit of Sakushin
 

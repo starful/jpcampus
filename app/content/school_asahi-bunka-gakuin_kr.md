@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 1年6ヶ月進学コース
   total_fees: 1096000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야에 위치한 아사히 문화 학원은 국제 학생들에게 종합적인 일본어 교육을 제공하며, 일본에서의 대학 진학 및 취업을 위한
   준비에 중점을 둡니다. 기숙사, EJU 시험 준비, 비즈니스 일본어 강좌 등의 특징을 제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ title: 아사히 문화 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

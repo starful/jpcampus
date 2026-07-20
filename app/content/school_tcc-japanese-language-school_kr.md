@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparation Course (1 Year 3 Months)
   total_fees: 811750
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 나카노에 위치한 TCC 일본어학교는 대학 진학 준비 과정만을 전문적으로 제공합니다. 철저한 학업 지도, 이과/STEM
   트랙을 포함한 일본유학시험(EJU) 종합 대비, 그리고 일본에서 고등 교육을 희망하는 유학생을 위한 필수적인 지원을 제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ title: TCC 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Prefectural University of Medicine
   name_ja: 京都府立医科大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 150년 이상의 역사를 자랑하는 교토부립의과대학교에 대한 종합 안내입니다. 뛰어난 임상 교육, 선구적인 연구, 그리고 아름다운
   교토에서의 생활을 경험해 보세요.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学コース（1.5年）
   total_fees: 1055000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Complete guide to Yamate Japanese Language School in Saitama. Explore
   tuition fees, course details, admission requirements, and student reviews.
 faculties: []
@@ -56,6 +56,7 @@ title: Yamate Japanese Language School (Saitama)
 translated: true
 tuition: {}
 ---
+
 
 # 🇯🇵 Learn Japanese in Historic Kawagoe: Yamate Japanese Language School
 

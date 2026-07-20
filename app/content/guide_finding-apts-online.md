@@ -9,9 +9,10 @@
   ],
   "description": "How to use SUUMO, Homes, and Apaman Shop.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Navigating the Japanese Rental Market: Top Websites and Essential Tips for International Students
 

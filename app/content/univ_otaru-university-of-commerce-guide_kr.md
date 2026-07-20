@@ -5,7 +5,7 @@ basic_info:
   name_en: Otaru University of Commerce
   name_ja: 小樽商科大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 오타루 상과대학은 홋카이도 오타루시에 위치한 명문 국립대학입니다. 상업 및 사회 과학 분야에 특화된 교육을 제공하며, 탁월한
   취업률과 아름다운 캠퍼스를 자랑합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

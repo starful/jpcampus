@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima Institute of Technology
   name_ja: 広島工業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 99% 이상의 압도적인 취업률을 자랑하며, 마쓰다 등 일본 주요 제조업체와 긴밀한 네트워크를 가진 실무 중심의 명문 사립 공과대학교입니다.
 faculties:
 - 공학부
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1395000
 ---
+
 
 ## 🏫 대학 개요: 히로시마의 혁신 정신
 

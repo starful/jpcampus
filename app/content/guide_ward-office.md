@@ -9,9 +9,10 @@
   ],
   "description": "A guide to the services available for residents.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-02-13"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Navigating Your Local Ward Office: A Comprehensive Guide for International Students in Japan
 

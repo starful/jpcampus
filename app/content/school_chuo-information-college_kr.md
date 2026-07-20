@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語本科進学1年6月
   total_fees: 1044000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 中央정보전문학교는 사이타마현 니자시에 위치한 전문학교로, 유학생을 위한 일본어 교육을 전문으로 합니다. 특히 이공계 대학 진학을
   위한 종합적인 코스와 지원을 제공합니다.
 faculties: []
@@ -55,6 +55,7 @@ title: 중앙정보전문학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

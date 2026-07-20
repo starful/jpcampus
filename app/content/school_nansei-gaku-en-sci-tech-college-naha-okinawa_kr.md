@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 700000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와 나하에 위치한 난세이 가쿠엔 사이테크 컬리지 나하는 소규모 정예 학교로, 대학 진학을 위한 맞춤형 일본어 교육을 제공합니다.
   EJU 시험 대비 및 기숙사 옵션 안내.
 faculties: []
@@ -42,6 +42,7 @@ thumbnail: /static/img/pin-school.png
 title: 난세이 가쿠엔 사이테크 컬리지 나하
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

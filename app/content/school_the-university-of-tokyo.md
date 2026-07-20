@@ -5,7 +5,7 @@ basic_info:
   name_ja: 東京大学
   website: https://www.u-tokyo.ac.jp/
 category: school
-date: '2026-01-28'
+date: '2026-07-20'
 description: An overview of The University of Tokyo, its philosophy, courses, campus
   life, and career pathways.
 faculties:
@@ -53,6 +53,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

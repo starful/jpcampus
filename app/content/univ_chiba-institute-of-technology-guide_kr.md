@@ -5,7 +5,7 @@ basic_info:
   name_en: Chiba Institute of Technology
   name_ja: 千葉工業大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 일본에서 가장 오래된 사립 공과대학교로, 세계적인 로봇 공학 연구와 최첨단 행성 탐사 기술을 자랑하며 높은 취업률을 기록하고
   있는 명문 기술 대학입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1615000
 ---
+
 
 ## 🏫 대학 개요: 혁신의 역사
 

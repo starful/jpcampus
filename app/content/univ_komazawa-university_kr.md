@@ -5,7 +5,7 @@ basic_info:
   name_ja: 駒澤大学
   website: https://www.komazawa-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 고마자와 대학교는 도쿄에 위치한 사립 대학으로, 젠 불교 철학에 깊은 뿌리를 두고 있습니다. 다양한 학부와 국제 학생을 위한
   강력한 지원을 제공합니다.
 faculties:
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 학교 소개
 

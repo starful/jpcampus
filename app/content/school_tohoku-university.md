@@ -5,7 +5,7 @@ basic_info:
   name_ja: 東北大学
   website: https://www.tohoku.ac.jp/
 category: school
-date: '2026-01-28'
+date: '2026-07-20'
 description: Tohoku University is a prestigious national university located in Sendai,
   Miyagi Prefecture, Japan, renowned for its commitment to research and global leadership.
 faculties:
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## School Overview & Philosophy
 

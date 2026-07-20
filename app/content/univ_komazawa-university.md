@@ -5,7 +5,7 @@ basic_info:
   name_ja: 駒澤大学
   website: https://www.komazawa-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: Komazawa University is a private university in Tokyo with a long history
   rooted in Zen Buddhist philosophy. It offers a wide range of faculties and strong
   support for international students.
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## University Overview
 

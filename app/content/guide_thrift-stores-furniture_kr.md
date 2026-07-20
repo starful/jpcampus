@@ -9,10 +9,11 @@
   ],
   "description": "오프하우스(Off-House)와 지역 리사이클 숍에서 저렴하게 가구와 가전을 구입하는 방법을 소개합니다.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-04-04",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 알뜰하게 가구 장만하기: 일본 중고 매장 완벽 가이드
 

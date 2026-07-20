@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語進学2年コース
   total_fees: 1572000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와 나하에 위치한 Life Junior 일본어학원은 일본 대학 진학을 위한 집중적인 준비를 제공하며, 류큐 제도의 풍부한
   문화와 아열대 기후를 즐길 수 있는 독특한 학습 환경을 제공합니다.
 faculties: []
@@ -40,6 +40,7 @@ thumbnail: /static/img/pin-school.png
 title: Life Junior 일본어학원
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

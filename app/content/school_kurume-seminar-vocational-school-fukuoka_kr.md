@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語総合1.5年コース
   total_fees: 1180000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 구루메 세미나 전문학교는 일본의 대학, 대학원 진학 및 취업을 위한 집중적인 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -50,6 +50,7 @@ title: 구루메 세미나 전문학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -9,9 +9,10 @@
   ],
   "description": "From phone calls to eating on the train.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Mastering the Rails: A Comprehensive Guide to Japanese Train Etiquette for International Students
 

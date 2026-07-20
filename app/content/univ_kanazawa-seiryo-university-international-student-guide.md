@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanazawa Seiryo University
   name_ja: 金沢星稜大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics
 - Faculty of Human Sciences
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 Kanazawa Seiryo University (KSU) is a distinguished private institution located in the culturally rich city of Kanazawa, Ishikawa Prefecture. Since its establishment in 1967, KSU has transformed from a local business college into one of the most respected private universities in the Hokuriku region. For international students, KSU offers a unique proposition: a high-quality education focused on practical skills and character development, set against the backdrop of one of Japan's most beautiful and historically significant cities.

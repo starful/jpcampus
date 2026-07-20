@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語進学1年コース
   total_fees: 780000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Elite Academic Progression Focus (Shingaku)
@@ -50,6 +50,7 @@ title: UJS Language Institute
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

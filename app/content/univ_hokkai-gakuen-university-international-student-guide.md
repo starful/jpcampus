@@ -5,7 +5,7 @@ basic_info:
   name_en: Hokkai Gakuen University
   name_ja: 北海学園大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics
 - Faculty of Business Administration
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 University Overview
 

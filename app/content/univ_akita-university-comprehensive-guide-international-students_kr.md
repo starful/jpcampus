@@ -5,7 +5,7 @@ basic_info:
   name_en: Akita University
   name_ja: 秋田大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 아키타 대학교는 일본 도호쿠 지방에 위치한 명문 국립대학교입니다. 특히 자원 과학 분야에서 뛰어난 연구 성과를 자랑합니다.
   유학생을 위한 지원 시스템과 저렴한 생활비, 안전한 환경을 제공합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

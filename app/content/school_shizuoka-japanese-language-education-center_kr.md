@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1141600
-date: '2026-01-28'
+date: '2026-07-20'
 description: 시즈오카 일본어 교육 센터는 시즈오카시에 위치하고 있으며, 수준 높은 교육과 철저한 학생 지원을 제공합니다. 대학 진학을 목표로
   하는 학생들에게 최적의 환경을 제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ thumbnail: /static/img/pin-school.png
 title: 시즈오카 일본어 교육 센터
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1172300
-date: '2026-01-28'
+date: '2026-07-20'
 description: 사이타마현 사야마시에 위치한 사이타마 브리에 일본어학교는 대학 진학 및 취업을 위한 집중적인 커리큘럼을 제공합니다. EJU
   대비, 아트/디자인, 비즈니스 일본어 등 다양한 특화 과정을 통해 학생들의 성공적인 일본 유학 생활을 지원합니다.
 faculties: []
@@ -49,6 +49,7 @@ thumbnail: /static/img/pin-school.png
 title: 사이타마 브리에 일본어학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

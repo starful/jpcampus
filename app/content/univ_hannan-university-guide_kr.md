@@ -5,7 +5,7 @@ basic_info:
   name_en: Hannan University
   name_ja: 阪南大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 오사카에 위치한 실무 중심의 명문 사립 대학으로, 유통과 물류 분야의 선구자이자 강력한 취업 네트워크를 자랑하는 한난대학교를
   소개합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 940000
 ---
+
 
 ## 🏫 학교 개요
 

@@ -9,9 +9,10 @@
   ],
   "description": "From bowing to answering common questions.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-02-13"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Japanese Job Interview Etiquette 101: A Guide for International Students
 

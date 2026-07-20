@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般コース
   total_fees: 1634000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 요코하마에 위치한 아스카 어학원은 국제 학생들이 일본어와 문화에 대한 탄탄한 기반을 다져 일본에서의 학업 및 직업적 성공을
   준비할 수 있도록 돕습니다.
 faculties: []
@@ -54,6 +54,7 @@ title: 아스카 어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

@@ -9,9 +9,10 @@
   ],
   "description": "Effective and affordable products from Matsukiyo and Welcia.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-04-19"
+  "date": "2026-07-20"
 }
 ---
+
 
 # The Ultimate Guide to Japanese Drugstore Skincare for International Students
 

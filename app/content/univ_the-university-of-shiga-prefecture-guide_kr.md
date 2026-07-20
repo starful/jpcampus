@@ -5,7 +5,7 @@ basic_info:
   name_en: The University of Shiga Prefecture
   name_ja: 滋賀県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 시가현 히코네시에 위치한 시가현립대학교는 자연과 사람과의 조화를 추구하는 명문 공립 대학입니다. 독특한 교육 철학과 아름다운
   캠퍼스, 비와호 연구 접근성을 자랑합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

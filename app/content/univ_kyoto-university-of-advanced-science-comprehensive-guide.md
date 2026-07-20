@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto University of Advanced Science
   name_ja: 京都先端科学大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Economics and Business Administration
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1600000
 ---
+
 
 ## 🏫 University Overview: The Evolution of KUAS
 

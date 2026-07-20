@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学ｺｰｽC
   total_fees: 1035000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Located in Shimonoseki, offering lower living costs than major cities.
@@ -44,6 +44,7 @@ title: Sakura International Language Institute Professional Training College
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1560000
-date: '2026-01-28'
+date: '2026-07-20'
 description: UNITAS 일본어학교 도쿄 캠퍼스는 명문 대학 진학을 위한 체계적인 커리큘럼과 다양한 국적의 학생들이 함께하는 국제적인 학습
   환경을 제공합니다.
 faculties: []
@@ -51,6 +51,7 @@ title: UNITAS 일본어학교, 도쿄 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

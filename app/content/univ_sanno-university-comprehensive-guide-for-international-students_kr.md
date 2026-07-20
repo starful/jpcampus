@@ -5,7 +5,7 @@ basic_info:
   name_en: Sanno University
   name_ja: 産業能率大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 내 액티브 러닝의 선구자이자 높은 취업률을 자랑하는 산노능률대학교의 학부 정보, 캠퍼스 라이프, 장학금 및 입학 가이드를
   확인해 보세요.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 대학 개요: 산노의 유산
 

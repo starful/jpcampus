@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Women's University
   name_ja: 京都女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 교토의 역사적인 히가시야마 지구에 위치한 교토여자대학교는 전통적인 불교 정신과 현대적인 혁신이 공존하는 명문 여자대학교입니다.
   높은 취업률과 전문적인 교육 과정을 자랑합니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요
 

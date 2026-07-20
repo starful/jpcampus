@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学2年コース
   total_fees: 1366000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아이치현 나고야에 위치한 나고야 국제 일본어 학교는 고등 교육에 집중하는 교육 기관입니다. 대학 진학, EJU 시험 대비,
   포트폴리오 준비 등을 위한 다양한 과정을 제공합니다.
 faculties: []
@@ -48,6 +48,7 @@ title: 나고야 국제 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanagawa University of Human Services
   name_ja: 神奈川県立保健福祉大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Health and Social Services
 - Department of Nursing
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

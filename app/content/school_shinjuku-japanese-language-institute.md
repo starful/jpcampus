@@ -18,7 +18,7 @@ courses:
 - admission_month: 1,7
   course_name: Japanese Language Course 4
   total_fees: 825000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - On-campus/Affiliated Dormitory Options Available
@@ -45,6 +45,7 @@ title: Shinjuku Japanese Language Institute (SNG)
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

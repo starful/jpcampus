@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1213300
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - University Preparation Focus
@@ -51,6 +51,7 @@ title: Yamanashi Foreign Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

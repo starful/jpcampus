@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparation 1.25-Year Course
   total_fees: 920990
-date: '2026-02-13'
+date: '2026-07-20'
 description: 효고현 고베에 위치한 KIJ 랭귀지 아카데미는 학생들의 다양한 목표 달성을 위한 맞춤형 교육을 제공합니다. 어학 능력 습득은
   물론, 일본 사회와 문화에 대한 깊은 이해를 돕고 일본에서의 성공적인 유학 생활을 지원합니다.
 faculties: []
@@ -59,6 +59,7 @@ title: KIJ 랭귀지 아카데미
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 埼玉大学
   website: https://www.saitama-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 사이타마현에 위치한 국립대학으로, 공학, 이학, 교육 분야에서 강점을 보입니다. 합리적인 학비와 다양한 장학금 기회를 제공합니다.
 faculties:
 - Faculty of Liberal Arts
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학 개요
 

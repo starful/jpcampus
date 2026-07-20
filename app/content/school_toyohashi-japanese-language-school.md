@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コース（2年）
   total_fees: 1220000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Explore Toyohashi Japanese Language School in Aichi. Find 2026 tuition
   fees, courses, application requirements, and student reviews on JP Campus.
 faculties: []
@@ -45,6 +45,7 @@ thumbnail: /static/img/pin-school.png
 title: Toyohashi Japanese Language School
 tuition: {}
 ---
+
 
 # Study in the Heart of Aichi: Toyohashi Japanese Language School
 

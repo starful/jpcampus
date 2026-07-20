@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学コースC
   total_fees: 1035000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Comprehensive Progression Tracks (EJU, Science, Art, Business)
@@ -46,6 +46,7 @@ title: Sakura International Language Education College
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

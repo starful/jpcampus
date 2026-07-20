@@ -9,10 +9,11 @@
   ],
   "description": "오사카 주요 중심지에 대한 유학생 가이드입니다.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-02-13",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 오사카 어디에 살까? 우메다 vs. 난바 완벽 비교
 

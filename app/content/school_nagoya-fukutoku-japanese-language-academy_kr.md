@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1.3年コース
   total_fees: 857500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야 후쿠토쿠 일본어 학교는 나고야 중심부에 위치하여 일본어 실력 향상, 고등 교육 준비, 일본 문화 체험을 위한 훌륭한
   환경을 제공합니다. 소규모 학급, 맞춤형 학습, 종합적인 지원 서비스가 특징입니다.
 faculties: []
@@ -71,6 +71,7 @@ title: 나고야 후쿠토쿠 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

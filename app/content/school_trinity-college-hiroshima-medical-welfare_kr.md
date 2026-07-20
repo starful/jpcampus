@@ -16,7 +16,7 @@ courses:
 - admission_month: '4'
   course_name: 介護進学コース
   total_fees: 875000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 히로시마에 위치한 트리니티 컬리지 의료복지 전문학교 일본어학과는 의료 및 복지 분야 진출을 희망하는 유학생을 위한 전문적인
   일본어 교육을 제공합니다.
 faculties: []
@@ -50,6 +50,7 @@ thumbnail: /static/img/pin-school.png
 title: 트리니티 컬리지 히로시마 의료복지 전문학교 (일본어학과)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

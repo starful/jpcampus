@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1250500
-date: '2026-02-13'
+date: '2026-07-20'
 description: 군마현 마에바시에 위치한 NIPPON 어학원은 체계적인 커리큘럼과 다양한 지원 시스템을 제공하는 일본어 학교입니다.
 faculties: []
 features:
@@ -54,6 +54,7 @@ thumbnail: /static/img/pin-school.png
 title: NIPPON 어학원 (NIPPON Japanese Language Institute)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

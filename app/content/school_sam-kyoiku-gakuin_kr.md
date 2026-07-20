@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヶ月コース
   total_fees: 904850
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 신주쿠에 위치한 사무 교육학원은 어학, EJU 시험 준비, 이공계 과목을 중심으로 일본 대학 진학을 희망하는 외국인 유학생들을
   위한 교육을 제공합니다. 대학 진학 지도 및 단기 코스 등의 특징이 있습니다.
 faculties: []
@@ -49,6 +49,7 @@ title: Samu Education Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

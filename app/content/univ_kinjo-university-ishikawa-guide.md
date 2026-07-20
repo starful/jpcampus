@@ -5,7 +5,7 @@ basic_info:
   name_en: Kinjo University
   name_ja: 金城大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Social Work
 - Faculty of Health Sciences
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 University Overview: The Heart of Welfare and Health in Ishikawa
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヵ月コース
   total_fees: 970750
-date: '2026-01-28'
+date: '2026-07-20'
 description: 교신 랭귀지 아카데미 우에노 캠퍼스는 일본 대학/대학원 진학을 위한 최적의 선택입니다. 체계적인 EJU 대비, 숙소 지원,
   도쿄 우에노/닛포리 지역의 편리한 위치를 제공합니다.
 faculties: []
@@ -48,6 +48,7 @@ title: 교신 랭귀지 아카데미 우에노 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe College
   name_ja: 神戸女学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Music
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 University Overview
 

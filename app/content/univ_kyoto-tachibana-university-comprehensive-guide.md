@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Tachibana University
   name_ja: 京都橘大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities
 - Faculty of International Studies
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 Kyoto Tachibana University (KTU) is a private institution located in the Yamashina Ward of Kyoto, Japan's cultural heart. Originally founded as a women's college, it transitioned into a co-educational university in 2005 and has since undergone a rapid and successful expansion. Today, it stands as a comprehensive university known for its forward-thinking approach to education, blending traditional liberal arts with cutting-edge science and healthcare disciplines. For international students, KTU offers a unique balance: the serenity of a hillside campus in a historic city, combined with the energy of a modern, technology-driven academic environment. The university's philosophy, 'Independent and Creative,' encourages students to forge their own paths in an increasingly globalized world.

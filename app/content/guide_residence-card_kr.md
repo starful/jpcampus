@@ -9,10 +9,11 @@
   ],
   "description": "일본에서 가장 중요한 신분증인 재류카드의 발급부터 관리법까지 상세히 알아봅니다.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-03-10",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 외국인 유학생을 위한 '재류카드(Zairyu Card)' 필수 가이드
 

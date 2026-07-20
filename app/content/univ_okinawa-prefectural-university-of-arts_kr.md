@@ -5,7 +5,7 @@ basic_info:
   name_en: Okinawa Prefectural University of Arts
   name_ja: 沖縄県立芸術大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 류큐 전통 문화에 깊이 뿌리내린 오키나와 현립 예술대학에 대해 알아보세요. 독특한 예술 프로그램과 국제 학생을 위한 이점을
   제공합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 류큐의 혼
 

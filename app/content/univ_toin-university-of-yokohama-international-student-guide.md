@@ -5,7 +5,7 @@ basic_info:
   name_en: Toin University of Yokohama
   name_ja: 桐蔭横浜大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Law
 - Faculty of Biomedical Engineering
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 Toin University of Yokohama (TUY), established in 1988, is a private higher education institution located in the scenic Aoba Ward of Yokohama, Kanagawa Prefecture. While it is a relatively young university, it has rapidly earned a reputation as a prestigious hub for practical education, particularly in the fields of law, medicine, and sports science. It is part of the larger Toin Gakuen educational foundation, which is legendary in Japan for its high-level academic standards and dominant sports teams.

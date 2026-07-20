@@ -5,7 +5,7 @@ basic_info:
   name_ja: 一橋大学
   website: https://www.hit-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 사회과학 분야에서 명성이 높은 일본의 명문 대학인 히토츠바시 대학에 대해 알아보세요. 뛰어난 프로그램, 입학 요건, 학생 생활
   등을 상세히 소개합니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학 개요 및 명성
 

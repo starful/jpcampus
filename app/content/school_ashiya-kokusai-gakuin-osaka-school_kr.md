@@ -21,7 +21,7 @@ courses:
 - admission_month: '1'
   course_name: 一般2年コース
   total_fees: 1334000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 종합적인 대학 진학 집중 교육
@@ -46,6 +46,7 @@ title: 아시야 국제학원 오사카 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

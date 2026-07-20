@@ -5,7 +5,7 @@ basic_info:
   name_ja: 学習院大学
   website: https://www.gakushuin.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 메지로에 위치한 명문 사립 대학, 가쿠슈인 대학에 대해 알아보세요. 특징적인 학부, 프로그램, 입학 정보 등을 제공합니다.
 faculties:
 - Faculty of Law
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## 대학 개요 및 명성
 

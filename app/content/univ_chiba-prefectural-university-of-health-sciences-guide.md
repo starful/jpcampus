@@ -5,7 +5,7 @@ basic_info:
   name_en: Chiba Prefectural University of Health Sciences
   name_ja: 千葉県立保健医療大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Department of Nursing
 - Department of Physical Therapy
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 Chiba Prefectural University of Health Sciences (CPUHS), or *Chiba Kenritsu Hoken Iryo Daigaku*, is a distinguished public institution located in Chiba Prefecture, Japan. Established with the mission to cultivate highly skilled healthcare professionals who can contribute to the local and global community, the university offers a focused, intensive academic environment. Unlike large-scale comprehensive universities, CPUHS specializes strictly in the health and medical sciences, making it a hub for students who are certain about their career path in healthcare.

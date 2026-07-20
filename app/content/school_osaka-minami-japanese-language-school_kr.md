@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年半コース
   total_fees: 1055000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카 미나미 일본어 학교는 일본 유학을 목표하는 학생들을 위한 최고의 선택입니다. 대학 진학을 위한 체계적인 커리큘럼과 지원을
   제공합니다.
 faculties: []
@@ -46,6 +46,7 @@ title: 오사카 미나미 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

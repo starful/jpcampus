@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagaoka University
   name_ja: 長岡大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 니가타현 나가오카시에 위치한 나가오카 대학은 지역 경영 특화 교육과 밀착형 제미 시스템을 통해 높은 취업률을 자랑하는 지역
   거점 대학입니다.
 faculties:
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 학교 개요: 지역 활성화의 중심지
 

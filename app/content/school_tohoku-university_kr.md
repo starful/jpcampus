@@ -5,7 +5,7 @@ basic_info:
   name_ja: 東北大学
   website: https://www.tohoku.ac.jp/
 category: school
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도호쿠 대학은 일본 미야기현 센다이에 위치한 명문 국립 대학으로, 연구와 글로벌 리더십에 대한 헌신으로 유명합니다.
 faculties:
 - 文学部
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 학교 개요 및 철학
 

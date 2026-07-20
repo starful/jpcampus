@@ -9,9 +9,10 @@
   ],
   "description": "How to communicate your dietary needs and find ingredients.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-04-19"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Surviving Japan as a Vegetarian or Vegan: The Ultimate Student Guide
 

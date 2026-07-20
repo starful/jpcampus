@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヶ月コース
   total_fees: 901500
-date: '2026-07-12'
+date: '2026-07-20'
 description: Tamagawa International Academy (TKG) is a language school located in
   Asakusabashi, Tokyo, specializing in university preparation with dormitory options.
   It offers EJU and JLPT prep courses and structured advancement programs.
@@ -50,6 +50,7 @@ title: Tamagawa Kokusai Gakuin (TKG)
 translated: true
 tuition: {}
 ---
+
 
 # 🎓 Tamagawa International Academy: Your Gateway to Academic Success in Tokyo
 

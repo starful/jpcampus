@@ -5,7 +5,7 @@ basic_info:
   name_en: Kagawa University
   name_ja: 香川大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Your complete guide to studying at Kagawa University. Find tuition fees,
   admission requirements, available programs, and student life details.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 慶應義塾大学
   website: https://www.keio.ac.jp/
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Complete guide to Keio University. Learn about English-taught programs,
   campus life, admissions, and tuition fees for international students.
 faculties:
@@ -51,6 +51,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## University Overview
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 838000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Comprehensive University Preparation (EJU, STEM, Art/Design)
@@ -45,6 +45,7 @@ thumbnail: /static/img/pin-school.png
 title: Okayama Gaigo Gakuin (Okayama Foreign Language Institute)
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Electro-Communication University
   name_ja: 大阪電気通信大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Information Science and Arts
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1280000
 ---
+
 
 ## 🏫 University Overview
 

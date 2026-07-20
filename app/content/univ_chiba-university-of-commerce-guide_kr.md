@@ -5,7 +5,7 @@ basic_info:
   name_en: Chiba University of Commerce
   name_ja: 千葉商科大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 일본 최초의 RE100 대학으로서 실무 중심의 비즈니스 교육과 강력한 취업 지원 시스템을 갖춘 치바상과대학교를 소개합니다.
   도쿄 도심과 인접한 뛰어난 접근성과 유학생을 위한 탄탄한 지원 정책을 확인해 보세요.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요
 

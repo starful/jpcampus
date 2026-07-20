@@ -5,7 +5,7 @@ basic_info:
   name_en: Doshisha Women's College of Liberal Arts
   name_ja: 同志社女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 교토의 역사와 전통을 자랑하는 도시샤 여자대학교는 기독교 정신과 리버럴 아츠 교육을 통해 글로벌 시대를 이끌어갈 여성
   인재를 양성하는 명문 사립 여자대학교입니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 학교 개요
 

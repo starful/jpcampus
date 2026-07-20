@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1238600
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카에 위치한 사립 일본어 학교로, 집중적인 EJU 시험 준비, 이공계 학생들을 위한 전문적인 지원, 싱글룸 옵션을 포함한
   기숙사 숙박 보장을 제공합니다. 높은 학생 대 교사 비율과 탄탄한 장학금 제도로 유명합니다.
 faculties: []
@@ -46,6 +46,7 @@ title: Sakura Kotonoha 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

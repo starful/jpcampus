@@ -5,7 +5,7 @@ basic_info:
   name_en: Josai University
   name_ja: 城西大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 약학 및 이공계 분야의 강력한 전문성과 중부 유럽과의 독자적인 글로벌 네트워크를 자랑하는 조사이대학교를 소개합니다.
 faculties:
 - 약학부
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요
 

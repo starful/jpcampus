@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1291000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 각토 아카데미는 도쿄 스미다구에 위치한 EJU 시험 전문 학교입니다. 소규모 집중 교육을 통해 일본 대학 진학을 목표로 하는
   학생들에게 최적의 환경을 제공합니다.
 faculties: []
@@ -43,6 +43,7 @@ title: 각토 아카데미
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

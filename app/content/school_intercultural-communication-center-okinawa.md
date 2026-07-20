@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学4月
   total_fees: 891000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Study Japanese in Okinawa! Get 2026 tuition fees, admission requirements,
   and student reviews for Intercultural Communication Center.
 faculties: []
@@ -48,6 +48,7 @@ thumbnail: /static/img/pin-school.png
 title: Intercultural Communication Center Affiliated Japanese Language School (Okinawa)
 tuition: {}
 ---
+
 
 ## 1) 🌴 School Overview & Philosophy
 

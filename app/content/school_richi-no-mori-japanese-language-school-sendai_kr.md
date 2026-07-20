@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Progression Course (1 Year 6 Months)
   total_fees: 1050000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 일본 대학 진학 및 취업을 위한 전문 교육 기관, 리치노모리 일본어학교 센다이 캠퍼스를 소개합니다. 센다이에서 집중적인 학습
   환경과 저렴한 생활비를 누리세요.
 faculties: []
@@ -49,6 +49,7 @@ title: 리치노모리 일본어학교 센다이 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

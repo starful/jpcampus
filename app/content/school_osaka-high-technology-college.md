@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヵ月コース
   total_fees: 965000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 'Osaka High Technology College: Your gateway to higher education in Japan.
   Comprehensive programs for EJU preparation and university advancement.'
 faculties: []
@@ -55,6 +55,7 @@ title: Osaka High Technology College
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

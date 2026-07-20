@@ -6,7 +6,7 @@ basic_info:
   name_en: Heisei College of Music
   name_ja: 平成音楽大学
 category: university
-date: '2026-07-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Music
 features:
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1450000
 ---
+
 
 ## 🏫 University Overview
 

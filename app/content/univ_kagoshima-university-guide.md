@@ -5,7 +5,7 @@ basic_info:
   name_en: Kagoshima University
   name_ja: 鹿児島大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Law, Economics and the Humanities
 - Faculty of Education
@@ -45,6 +45,7 @@ seo_title: 'Kagoshima University: Tuition, Admissions & Programs | JP Campus'
 seo_description: Learn about Kagoshima University's tuition fees, admission requirements,
   and programs for international students in our comprehensive 2026 guide.
 ---
+
 
 
 ## 🏫 University Overview: The Southern Gateway to Japanese Excellence

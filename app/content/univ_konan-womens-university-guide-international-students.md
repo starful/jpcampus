@@ -5,7 +5,7 @@ basic_info:
   name_en: Konan Women's University
   name_ja: 甲南女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Human Sciences
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 980000
 ---
+
 
 ## 🏫 University Overview: The Legacy of Konan Women’s University
 

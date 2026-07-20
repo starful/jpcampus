@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1053000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아시야 국제학원 고베교는 소규모 학급에서 기숙사 옵션을 제공하며, 대학 진학에 집중하여 집중적이고 개인 맞춤화된 EJU 대비를
   제공합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 아시야 국제학원 고베교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

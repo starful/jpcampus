@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 美術系進学1年課程
   total_fees: 1260000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 미술 대학 진학을 위한 전문 어학원, 쇼게이샤 랭귀지 아카데미에 대해 알아보세요.
 faculties: []
 features:
@@ -47,6 +47,7 @@ thumbnail: /static/img/pin-school.png
 title: 쇼게이샤 랭귀지 아카데미
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

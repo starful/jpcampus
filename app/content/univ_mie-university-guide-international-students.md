@@ -5,7 +5,7 @@ basic_info:
   name_en: Mie University
   name_ja: 三重大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Humanities, Law and Economics
 - Education
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

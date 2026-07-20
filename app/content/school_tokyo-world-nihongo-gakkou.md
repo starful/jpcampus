@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 823000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - University Preparation
@@ -48,6 +48,7 @@ title: Tokyo World Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

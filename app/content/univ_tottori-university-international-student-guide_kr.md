@@ -5,7 +5,7 @@ basic_info:
   name_en: Tottori University
   name_ja: 鳥取大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: 돗토리 대학교 외국인 유학생 입학 가이드. 학부 및 학과 소개, 학비, 장학금 혜택, 2026년도 입시 요강 및 EJU 유학
   정보를 JP Campus에서 확인하세요!
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

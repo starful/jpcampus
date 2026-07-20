@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 1.5-Year Japanese Language Course
   total_fees: 1111000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카에 위치한 세이후 정보공과전문학교에서 일본어를 배워보세요. 대학, 전문학교 진학 및 EJU 시험을 위한 종합적인 일본어
   교육을 제공합니다. 기숙사, 장학금, 비즈니스 일본어 및 미술 & 디자인과 같은 특화된 과정을 제공합니다.
 faculties: []
@@ -55,6 +55,7 @@ title: 세이후 정보공과전문학교 일본어학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

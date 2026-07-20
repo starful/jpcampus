@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima University of Economics
   name_ja: 広島経済大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 서일본 비즈니스 및 실무 교육의 중심지로서, 경제와 경영 분야에 특화된 커리큘럼과 강력한 지역 산업 연계, 그리고 유학생을
   위한 세심한 지원을 제공하는 히로시마 경제대학교를 소개합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요: 서일본 실무 비즈니스 교육의 정점
 

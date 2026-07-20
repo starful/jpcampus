@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 4월 입학 코스
   total_fees: 1280000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 東海学院文化教養専門学校는 국제 학생들이 일본에서 고등 교육을 받을 수 있도록 지원적인 환경, EJU 준비, 회화 기술 및 종합적인
   지도를 제공합니다.
 faculties: []
@@ -43,6 +43,7 @@ title: 東海学院文化教養専門学校
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: General Course
   total_fees: 930000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Located in Shizuoka City, Kokusai Kotoba Gakuin offers comprehensive
   Japanese language education, focusing on university preparation and EJU exam success,
   with convenient dormitory options.
@@ -49,6 +49,7 @@ title: Kokusai Kotoba Gakuin Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 950625
-date: '2026-06-12'
+date: '2026-07-20'
 description: Explore Kobe Institute of Foreign Languages. Find 2026 tuition fees,
   course details, admission guides, and student reviews to study Japanese in Kobe.
 faculties: []
@@ -54,6 +54,7 @@ title: Kobe Institute of Foreign Languages
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

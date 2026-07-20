@@ -9,9 +9,10 @@
   ],
   "description": "Choosing the right internet connection for your apartment.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-03-03"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Getting Internet in Japan: Fiber vs. Pocket Wi-Fi
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kiryu University
   name_ja: 桐生大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Care
 - 'Junior College Division: Art & Design'
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1550000
 ---
+
 
 ## 🏫 University Overview: The Gateway to Practical Professionalism
 

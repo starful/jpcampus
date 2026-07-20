@@ -27,7 +27,7 @@ courses:
 - admission_month: '10'
   course_name: 総合日本語課程1年半コース
   total_fees: 980000
-date: '2026-01-28'
+date: '2026-07-20'
 description: KCP International Japanese Language School, located in Shinjuku, Tokyo,
   offers comprehensive Japanese language education with a focus on university preparation
   and global citizenship. Features include EJU preparation, science stream support,
@@ -58,6 +58,7 @@ title: KCP International Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

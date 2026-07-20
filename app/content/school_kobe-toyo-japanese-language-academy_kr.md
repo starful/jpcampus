@@ -30,7 +30,7 @@ courses:
 - admission_month: '1'
   course_name: 冬コースⅡ
   total_fees: 881000
-date: '2026-04-27'
+date: '2026-07-20'
 description: 고베동양일본어학원의 2026 코스 구성, 학비, 대학진학 준비 강점을 유학생 관점에서 정리한 가이드입니다.
 faculties: []
 features:
@@ -70,6 +70,7 @@ title: '고베동양일본어학원 가이드 2026: 코스·학비·대학진학
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

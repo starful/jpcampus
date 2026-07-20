@@ -5,7 +5,7 @@ basic_info:
   name_en: Sugiyama Jogakuen University
   name_ja: 椙山女학園大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 나고야의 전통 있는 명문 여대로, '인간 교육'이라는 철학 아래 실무 중심의 학문과 강력한 지역 네트워크를 자랑하는 스기야마
   여학원 대학을 소개합니다.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

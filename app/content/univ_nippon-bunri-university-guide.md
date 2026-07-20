@@ -5,7 +5,7 @@ basic_info:
   name_en: Nippon Bunri University
   name_ja: 日本文理大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Health and Management
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview: The Spirit of Nippon Bunri University (NBU)
 

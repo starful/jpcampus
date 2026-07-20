@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語進学1年6か月コース
   total_fees: 1150000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Intensive University and Graduate School Preparation
@@ -47,6 +47,7 @@ title: Subaru Gakuin Motosu School
 translated: true
 tuition: {}
 ---
+
 
 # Subaru Gakuin Motosu School: Your Specialized Gateway to Higher Education in Serene Gifu
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Yamanashi Prefectural University
   name_ja: 山梨県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 야마나시 현에 위치한 야마나시 현립 대학교에 대한 정보입니다. 국제 정책 관리, 인간 사회 서비스, 간호학 분야에서 특화된
   교육을 제공합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

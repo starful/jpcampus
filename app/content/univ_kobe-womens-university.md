@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe Women's University
   name_ja: 神戸女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Home Economics
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1320000
 ---
+
 
 ## 🏫 University Overview
 Kobe Women's University (KWU), known locally as 'Shinjo,' is a private women's higher education institution located in the picturesque city of Kobe, Hyogo Prefecture. Founded with the mission to cultivate women with 'intelligence and sentiment,' the university has spent decades establishing itself as a premier destination for those seeking a curriculum that balances academic rigor with the development of practical skills. For international students, KWU offers a unique window into Japanese culture through a lens that values both tradition and the modernization of women's roles in society. The university operates two distinct campuses: the Suma Campus, nestled on a lush hillside, and the Port Island (Minatojima) Campus, a modern facility located in a high-tech urban environment near the sea. This duality allows students to experience both the natural beauty of Kobe and the bustling, international atmosphere of its maritime developments.

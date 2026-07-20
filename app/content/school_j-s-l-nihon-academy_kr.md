@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学D
   total_fees: 1005000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와에 위치한 JSL Nihon Academy는 국제 학생들에게 특별한 학습 환경을 제공하며, 대학 입학, 문화 체험,
   그리고 커리어 개발을 위한 종합적인 지원을 제공합니다.
 faculties: []
@@ -59,6 +59,7 @@ title: JSL Nihon Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

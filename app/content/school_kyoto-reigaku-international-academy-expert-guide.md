@@ -15,7 +15,7 @@ courses:
 - admission_month: '7'
   course_name: 進学コースⅢ
   total_fees: 1207500
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized University Preparation (Shingaku)
@@ -46,6 +46,7 @@ title: Kyoto Reigaku International Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

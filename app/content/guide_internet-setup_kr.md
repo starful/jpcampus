@@ -9,10 +9,11 @@
   ],
   "description": "나에게 맞는 인터넷 회선 선택하기.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-03-03",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 일본에서 인터넷 연결하기: 광케이블 vs 포켓 와이파이
 

@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: General Course
   total_fees: 896000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Happiness Foreign Language Academy offers personalized Japanese language
   education in a tranquil setting in Niihama, Ehime. Features include university advancement
   support, EJU preparation, dormitory with single rooms, and specialized courses.
@@ -54,6 +54,7 @@ title: Happiness Foreign Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

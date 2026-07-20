@@ -5,7 +5,7 @@ basic_info:
   name_en: Sojo University
   name_ja: 崇城大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Computer and Media Sciences
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1360000
 ---
+
 
 ## 🏫 University Overview
 Sojo University, located in the scenic and culturally rich city of Kumamoto, is one of Japan's most forward-thinking private technical universities. Founded originally as the Kumamoto Institute of Technology, it has evolved into a multi-disciplinary hub of innovation. For international students, Sojo University represents a strategic choice, particularly for those interested in engineering, biotechnology, and computer sciences. The university’s philosophy is built on 'humanity and technology,' aiming to produce graduates who are not only technically proficient but also socially responsible and globally minded. The campus sits on a hill overlooking Kumamoto, providing a serene yet technologically charged environment for academic pursuit.

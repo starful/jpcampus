@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学2年コース
   total_fees: 1184000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - On-campus/Affiliated Dormitory Accommodation Available
@@ -41,6 +41,7 @@ title: Tokuyama College of Comprehensive Business
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

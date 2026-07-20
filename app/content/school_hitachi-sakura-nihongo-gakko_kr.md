@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般1年コース
   total_fees: 770500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 자연이 아름다운 이바라키현 히타치시에 위치한 히타치 사쿠라 일본어 학교는, 대학/전문학교 진학 및 회화, 비즈니스 일본어 등
   다양한 코스를 제공합니다.
 faculties: []
@@ -64,6 +64,7 @@ title: 히타치 사쿠라 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

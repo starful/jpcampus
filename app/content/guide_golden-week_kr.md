@@ -9,10 +9,11 @@
   ],
   "description": "일본 주요 연휴 시즌에 대해 알아야 할 모든 것.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-03",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 일본 공휴일 완벽 가이드: 유학생을 위한 꿀팁
 

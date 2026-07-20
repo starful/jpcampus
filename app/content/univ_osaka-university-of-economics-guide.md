@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka University of Economics
   name_ja: 大阪経済大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics
 - Faculty of Business Administration
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview: The Heart of Practical Learning in Osaka
 

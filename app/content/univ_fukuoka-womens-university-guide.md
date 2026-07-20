@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukuoka Women's University
   name_ja: 福岡女子大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - International College of Arts and Sciences
 - Department of International Liberal Arts
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: A Legacy of Excellence
 

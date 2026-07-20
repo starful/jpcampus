@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語科1.5年コース
   total_fees: 1249000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Strong Focus on Higher Education Progression (Shin-gaku)
@@ -53,6 +53,7 @@ title: Nagoya College of Management and Accounting, Japanese Language Department
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

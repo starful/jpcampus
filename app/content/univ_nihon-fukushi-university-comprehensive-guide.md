@@ -5,7 +5,7 @@ basic_info:
   name_en: Nihon Fukushi University
   name_ja: 日本福祉大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Social Welfare
 - Health and Social Services
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview: The Pioneer of Social Welfare in Japan
 

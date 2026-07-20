@@ -18,7 +18,7 @@ courses:
 - admission_month: 4,10
   course_name: 日本語総合1年コース
   total_fees: 825500
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Conversation
@@ -59,6 +59,7 @@ title: ECC Japanese Language Institute Nagoya School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

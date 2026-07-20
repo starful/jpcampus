@@ -6,7 +6,7 @@ basic_info:
   name_en: Aichi University
   name_ja: 愛知大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Law
 - Faculty of Economics
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

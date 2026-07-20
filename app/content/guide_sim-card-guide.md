@@ -1,6 +1,6 @@
 ---
 category: Settlement
-date: '2026-07-12'
+date: '2026-07-20'
 description: Looking for a cheap Japan SIM card? Compare student-friendly mobile plans
   with easy English signup and no credit card required.
 id: sim-card-guide
@@ -14,6 +14,7 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500
 title: Best SIM Cards & Mobile Plans for Students in Japan (2026)
 ---
+
 
 # Best SIM Cards & Mobile Plans for Students in Japan (2026)
 

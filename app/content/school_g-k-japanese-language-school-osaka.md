@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1674200
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - On-campus or Affiliated Dormitory Options
@@ -42,6 +42,7 @@ thumbnail: /static/img/pin-school.png
 title: GK Japanese Language School
 tuition: {}
 ---
+
 
 # 🏫 School Overview & Philosophy
 

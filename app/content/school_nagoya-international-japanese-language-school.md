@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学2年コース
   total_fees: 1366000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Dedicated Pathways for Higher Education Advancement (University, Graduate School,
@@ -52,6 +52,7 @@ seo_title: 'Nagoya International Japanese Language School: Tuition & Apply | JP 
 seo_description: Study in Japan! Find 2026 tuition fees, course details, and admission
   requirements for Nagoya International Japanese Language School on JP Campus.
 ---
+
 
 
 ## School Overview & Philosophy

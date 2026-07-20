@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagasaki International University
   name_ja: 長崎国際大学
 category: university
-date: '2026-07-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Human Social Studies
 - Faculty of Health Management
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 220000
   yearly_tuition: 810000
 ---
+
 
 ## 🏫 University Overview
 

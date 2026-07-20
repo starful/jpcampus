@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1106100
-date: '2026-01-28'
+date: '2026-07-20'
 description: Study Japanese in Shizuoka, Japan. Find 2026 course details, affordable
   tuition fees, guaranteed school dormitories, and career/academic support at Hamamatsu
   Japanese Language Institute.
@@ -48,6 +48,7 @@ seo_description: Study in Shizuoka! Check 2026 fees, guaranteed dorms, and cours
   options at Hamamatsu Japanese Language Institute. Start your application with JP
   Campus!
 ---
+
 
 
 

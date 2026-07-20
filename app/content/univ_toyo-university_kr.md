@@ -5,7 +5,7 @@ basic_info:
   name_ja: 東洋大学
   website: https://www.toyo.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄에 위치한 도요 대학은 철학자 이노우에 엔료에 의해 1887년에 설립된 명문 사립 대학입니다. 다양한 학부 및 대학원 프로그램을
   제공하며, 국제 교류 프로그램과 학생들의 독립적인 사고 및 문제 해결 능력 함양에 힘쓰고 있습니다.
 faculties:
@@ -48,6 +48,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## 대학 개요
 

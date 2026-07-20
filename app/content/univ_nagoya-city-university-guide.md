@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya City University
   name_ja: 名古屋市立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Medicine
 - Faculty of Pharmaceutical Sciences
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

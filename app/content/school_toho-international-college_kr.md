@@ -24,7 +24,7 @@ courses:
 - admission_month: 4, 10
   course_name: 一般1年コース
   total_fees: 669600
-date: '2026-01-28'
+date: '2026-07-20'
 description: Toho International College는 도쿄에서 종합적인 일본어 교육과 대학 진학 준비 과정을 지원적인 환경에서
   제공합니다.
 faculties: []
@@ -55,6 +55,7 @@ title: Toho International College
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

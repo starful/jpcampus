@@ -5,7 +5,7 @@ basic_info:
   name_en: Ohka Gakuen University
   name_ja: 桜花学園大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 일본 중부 지역 최고의 아동 교육 및 보육 프로그램을 자랑하며, 소수 정예 밀착 지원을 통해 높은 취업률을 실현하는 명문 여자대학교입니다.
 faculties:
 - 학예학부 아동학과
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요
 

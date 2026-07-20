@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1020000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카 사카이시에 위치한 다이와 아카데미는 일본 대학 진학을 위한 집중적인 일본어 교육 기관입니다.
 faculties: []
 features:
@@ -44,6 +44,7 @@ thumbnail: /static/img/pin-school.png
 title: 다이와 아카데미
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

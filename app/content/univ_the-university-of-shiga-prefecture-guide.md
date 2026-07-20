@@ -5,7 +5,7 @@ basic_info:
   name_en: The University of Shiga Prefecture
   name_ja: 滋賀県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - School of Environmental Science
 - School of Engineering
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

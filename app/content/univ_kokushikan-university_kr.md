@@ -5,7 +5,7 @@ basic_info:
   name_ja: 国士舘大学
   website: https://www.kokushikan.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 국사관대학교는 1917년에 설립된 사립 대학으로, 폭넓은 학문 분야와 국제적인 교류를 제공합니다.
 faculties:
 - Faculty of Political Science and Economics
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1000000
 ---
+
 
 ## 대학 개요
 국사관대학교는 1917년에 사립 학교로 설립되어 1949년에 대학교로 승격되었습니다. "무사도 정신", "인간 존중", "지성 함양"의 원칙을 바탕으로 설립된 이 대학은 전통적인 일본 무도와 가치를 현대적인 학문적 추구와 조화시키는 독특한 역사를 자랑합니다. 처음에는 강한 도덕적 인격과 공공 서비스에 대한 헌신을 가진 인재를 양성하는 데 중점을 두었지만, 인문학, 사회 과학, 자연 과학 및 체육 분야에 걸쳐 다양한 학문 분야를 제공하는 종합 교육 기관으로 발전했습니다.

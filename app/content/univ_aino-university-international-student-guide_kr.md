@@ -5,7 +5,7 @@ basic_info:
   name_en: Aino University
   name_ja: 藍野大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 오사카부 이바라키시에 위치한 의료 및 보건 특화 대학으로, 아이노 병원 그룹과의 긴밀한 연계를 통해 높은 국가시험 합격률과
   압도적인 취업률을 자랑합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1550000
 ---
+
 
 ## 🏫 대학 개요
 

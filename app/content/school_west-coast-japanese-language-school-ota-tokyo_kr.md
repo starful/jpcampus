@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 特定技能就職1年コース
   total_fees: 822500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 오타구에 위치한 웨스트 코스트 일본어 학교는 소규모 정원과 맞춤형 지도를 통해 대학 및 대학원 진학을 위한 집중적인 교육을
   제공합니다.
 faculties: []
@@ -46,6 +46,7 @@ thumbnail: /static/img/pin-school.png
 title: 웨스트 코스트 일본어 학교 (ウエストコースト語学院)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

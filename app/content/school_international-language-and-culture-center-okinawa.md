@@ -22,7 +22,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1434000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - High focus on practical conversation skills
@@ -60,6 +60,7 @@ thumbnail: /static/img/pin-school.png
 title: International Language and Culture Center Affiliated Japanese Language School
 tuition: {}
 ---
+
 
 ## 🌺 School Overview & Philosophy
 

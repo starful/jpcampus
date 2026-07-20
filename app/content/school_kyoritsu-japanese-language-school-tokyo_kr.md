@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 2年コース
   total_fees: 1640000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 분쿄구에 위치한 교리츠 일본어 학교는 소규모 정예 교육을 통해 대학 진학을 집중적으로 대비하는 전문 학교입니다.
 faculties: []
 features:
@@ -41,6 +41,7 @@ thumbnail: /static/img/pin-school.png
 title: 교리츠 일본어 학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

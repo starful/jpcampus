@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1393700
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Comprehensive Higher Education Guidance (EJU focus)
@@ -44,6 +44,7 @@ title: KEN Japanese Language Institute
 translated: true
 tuition: {}
 ---
+
 
 # 🏫 School Overview & Philosophy
 

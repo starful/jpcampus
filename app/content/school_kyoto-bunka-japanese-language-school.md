@@ -9,7 +9,7 @@ courses:
 - admission_month: 4,10
   course_name: 総合日本語学科
   total_fees: 1608000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized Art & Design Preparation
@@ -37,6 +37,7 @@ thumbnail: /static/img/pin-school.png
 title: Kyoto Bunka Japanese Language School
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

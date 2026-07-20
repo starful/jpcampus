@@ -9,10 +9,11 @@
   ],
   "description": "일본 온천 에티켓에 대한 단계별 안내 가이드입니다.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 온센 101: 일본 온천 이용 방법과 에티켓 가이드
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Otemae University
   name_ja: 大手前大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Global Business
 - Faculty of Architecture and Design
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 240000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

@@ -16,7 +16,7 @@ courses:
 - admission_month: '4'
   course_name: 1年コース
   total_fees: 720500
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory Available
@@ -45,6 +45,7 @@ title: Wakayama YMCA International Welfare Technical School, Japanese Language D
 translated: true
 tuition: {}
 ---
+
 
 # 🌟 Wakayama YMCA International Welfare Technical School, Japanese Language Department
 

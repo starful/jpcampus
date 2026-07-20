@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 総合2年コース
   total_fees: 1435800
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory
@@ -54,6 +54,7 @@ title: Yono Gakuin Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 # Yono Gakuin Japanese Language School: Your Gateway to Success in the Greater Tokyo Area
 

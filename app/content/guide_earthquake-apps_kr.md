@@ -9,10 +9,11 @@
   ],
   "description": "'유레쿠루 콜'과 'Safety Tips' 등 일본 생활에 꼭 필요한 재난 대비 앱을 소개합니다.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-15",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 지진 및 쓰나미 알림 필수 앱: 일본 유학생을 위한 생존 가이드
 

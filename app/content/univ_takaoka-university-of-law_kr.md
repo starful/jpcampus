@@ -5,7 +5,7 @@ basic_info:
   name_en: Takaoka University of Law
   name_ja: 高岡法科大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 호쿠리쿠 지역 최초의 사립 법과대학으로, 소수 정예 교육과 철저한 공무원 시험 대비 및 실무 중심의 법학 교육을 제공하는 대학입니다.
 faculties:
 - Faculty of Law
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 720000
 ---
+
 
 ## 🏫 대학 개요: 법학 교육의 특성화 중심지
 

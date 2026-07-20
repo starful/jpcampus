@@ -9,9 +9,10 @@
   ],
   "description": "What to eat in spring, summer, autumn, and winter.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # A Guide to Seasonal Foods in Japan: A Culinary Roadmap for International Students
 

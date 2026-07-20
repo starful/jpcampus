@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語総合2年コース
   total_fees: 1574000
-date: '2026-01-28'
+date: '2026-07-20'
 description: ECC 일본어학원 신주쿠 캠퍼스는 일본 대학 진학을 목표하는 유학생들에게 최적의 교육 환경을 제공합니다.
 faculties: []
 features:
@@ -45,6 +45,7 @@ thumbnail: /static/img/pin-school.png
 title: ECC 일본어학원, 신주쿠 캠퍼스
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

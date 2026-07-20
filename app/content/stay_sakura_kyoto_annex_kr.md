@@ -7,7 +7,7 @@ basic_info:
   operator: Sakura House
 booking_url: https://www.sakura-house.com/building/kyoto-annex
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 교토부교토시上京区横大宮町 게스트하우스 사쿠라 하우스 KYOTO C (Former Kyoto Annex). 외국인 친화 숙소.
   근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
@@ -68,6 +68,7 @@ tags:
 thumbnail: /static/images/stay_sakura_kyoto_annex.jpg
 title: 사쿠라 하우스 KYOTO C (Former Kyoto Annex) — 교토부교토시上京区横大宮町 유학생 게스트하우스
 ---
+
 
 ## 시설 소개
 

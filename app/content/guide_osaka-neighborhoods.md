@@ -9,9 +9,10 @@
   ],
   "description": "A student's guide to Osaka's major hubs.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-02-13"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Where to Live in Osaka: Umeda vs. Namba
 

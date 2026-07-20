@@ -5,7 +5,7 @@ basic_info:
   name_en: Gunma Prefectural Women's University
   name_ja: 群馬県立女子大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Literature
 - Faculty of International Communication
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

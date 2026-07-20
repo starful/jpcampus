@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コース（2年）
   total_fees: 1220000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아이치현 토요하시에 위치한 토요하시 일본어 학교는 대학 진학을 위한 체계적인 커리큘럼과 다양한 장학금 혜택을 제공합니다. 자세한
   정보를 확인하세요.
 faculties: []
@@ -42,6 +42,7 @@ thumbnail: /static/img/pin-school.png
 title: 토요하시 일본어 학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

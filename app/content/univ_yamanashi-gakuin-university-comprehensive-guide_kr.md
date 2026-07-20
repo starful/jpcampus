@@ -5,7 +5,7 @@ basic_info:
   name_en: Yamanashi Gakuin University
   name_ja: 山梨学院大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 도쿄 근교 야마나시현에 위치한 야마나시 가쿠인 대학교는 100% 영어로 진행되는 iCLA(국제 자유전공 학부)와 세계적인 수준의
   스포츠 시설, 그리고 유학생을 위한 파격적인 장학금 혜택을 제공하는 명문 사립 대학입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1390000
 ---
+
 
 ## 🏫 대학 개요
 

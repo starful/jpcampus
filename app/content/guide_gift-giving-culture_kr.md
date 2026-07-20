@@ -9,10 +9,11 @@
   ],
   "description": "일본 특산물 선물(오미야게) 문화의 중요성과 에티켓을 알아봅니다.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-15",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # '오미야게(Omiyage)' 마스터하기: 일본 유학생을 위한 선물 문화 가이드
 

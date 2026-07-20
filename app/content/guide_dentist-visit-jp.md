@@ -9,9 +9,10 @@
   ],
   "description": "What to expect regarding costs and multiple appointments.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-06-19"
+  "date": "2026-07-20"
 }
 ---
+
 
 Moving to a new country is an exhilarating adventure, filled with new foods, cultural discoveries, and academic milestones. However, amid the excitement of adjusting to life in Japan, practical matters like healthcare can feel incredibly daunting. Among these, dental care is often a source of anxiety for international students. 
 

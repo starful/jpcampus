@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka International University
   name_ja: 大阪国際大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Business Administration
 - Faculty of International Studies
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 

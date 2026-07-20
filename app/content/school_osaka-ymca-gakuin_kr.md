@@ -33,7 +33,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: キャリア形成実用日本語学科 (2年午後コース)
   total_fees: 1630000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카 YMCA 학원은 YMCA의 교육 철학을 바탕으로, 대학 진학 및 커리어 개발을 위한 실용적인 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -68,6 +68,7 @@ thumbnail: /static/img/pin-school.png
 title: 오사카 YMCA 학원
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

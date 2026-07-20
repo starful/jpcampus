@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 700000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Located in Naha, Okinawa, offering a subtropical learning environment.
@@ -40,6 +40,7 @@ thumbnail: /static/img/pin-school.png
 title: Nansei Gakuen Sci-Tech College Naha
 tuition: {}
 ---
+
 
 Choosing the right environment for your Japanese language studies can completely redefine your study-abroad experience. While mainland metropolises like Tokyo and Osaka often dominate the conversation, regional Japan offers hidden gems that combine academic rigor with an exceptional quality of life. Among these, **Nansei Gakuen Sci-Tech College Naha** (学校法人南星学園サイ・テク・カレッジ那覇) stands out as an incredibly unique institution. Located in the capital city of Japan’s subtropical island prefecture, Okinawa, this school offers a highly focused academic pathway within a relaxed, warm, and welcoming resort-like setting. 
 

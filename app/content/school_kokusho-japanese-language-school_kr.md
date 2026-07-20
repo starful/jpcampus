@@ -27,7 +27,7 @@ courses:
 - admission_month: 4,10
   course_name: 一般コース
   total_fees: 1690000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 고쿠쇼 일본어학교는 도쿄에 위치한 대규모 교육기관으로, 집중적인 대학 진학 준비 과정, 특화된 미술 및 디자인 프로그램, 포괄적인
   EJU/JLPT 지원으로 잘 알려져 있습니다.
 faculties: []
@@ -56,6 +56,7 @@ title: 고쿠쇼 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Chiba University of Commerce
   name_ja: 千葉商科大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Commerce and Economics
 - Faculty of Economics
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 University Overview
 

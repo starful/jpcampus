@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Prep 1 Year 3 Month Course
   total_fees: 878000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 히타치 가쿠인(Hitachi Gakuin)은 이바라키현 미토시에 위치해 있으며, 집중적이고 비용 효율적인 환경에서 전문 트랙,
   캠퍼스 내 기숙사, 맞춤형 지도를 제공하여 종합적인 대학 입시 준비를 지원합니다.
 faculties: []
@@ -51,6 +51,7 @@ title: 히타치 가쿠인
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

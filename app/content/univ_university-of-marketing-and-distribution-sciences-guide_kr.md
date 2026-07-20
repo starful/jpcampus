@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Marketing and Distribution Sciences
   name_ja: 流通科学大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 일본 유통 업계의 전설적인 인물인 나카우치 이사오가 설립한 유통과학대학교는 고베에 위치한 실무 중심 명문 대학입니다. 마케팅,
   물류, 비즈니스 분야에서 압도적인 전문성을 자랑하며 유학생을 위한 체계적인 취업 지원을 제공합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요: '류카(Ryuka)'의 정신
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Suzuka University of Medical Science
   name_ja: 鈴鹿医療科学大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Sciences
 - Faculty of Medical Engineering
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1650000
 ---
+
 
 ## 🏫 University Overview
 

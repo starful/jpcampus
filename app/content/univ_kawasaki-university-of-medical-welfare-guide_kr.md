@@ -5,7 +5,7 @@ basic_info:
   name_en: Kawasaki University of Medical Welfare
   name_ja: 川崎医療福祉大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 일본 오카야마현 구라시키시에 위치한 가와사키 의료복지대학교는 일본 최초로 '의료복지'라는 명칭을 도입한 대학으로, 가와사키
   의과대학 부속 병원과의 긴밀한 연계를 통해 수준 높은 임상 교육과 높은 국가고시 합격률을 자랑하는 의료·복지 전문 교육 기관입니다.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 대학 개요
 

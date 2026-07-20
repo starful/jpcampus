@@ -5,7 +5,7 @@ basic_info:
   name_en: Ashikaga University
   name_ja: 足利大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 토치기현 아시카가시에 위치한 아시카가 대학교는 재생 에너지 연구와 공학 및 간호학 분야에서 실무 중심의 교육을 제공하는 명문
   사립대학교입니다. 높은 취업률과 유학생 지원 시스템을 갖추고 있어 일본 내 취업을 희망하는 학생들에게 최적의 선택지입니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1250000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -9,9 +9,10 @@
   ],
   "description": "Who can be your sponsor and what documents are needed.",
   "thumbnail": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Proving Financial Stability for Your Student Visa: A Comprehensive Guide
 

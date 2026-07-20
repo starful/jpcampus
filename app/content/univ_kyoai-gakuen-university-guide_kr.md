@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoai Gakuen University
   name_ja: 共愛学園前橋国際大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 일본 군마현 마에바시에 위치한 쿄아이학원 마에바시 국제대학교는 지역 사회와 세계를 잇는 '글로컬' 인재 양성의 선두주자입니다.
   소규모 정예 교육과 강력한 취업 지원을 통해 일본 내에서도 높은 평가를 받고 있습니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요: '글로컬(Glocal)' 교육의 선구자
 

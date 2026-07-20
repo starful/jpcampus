@@ -9,9 +9,10 @@
   ],
   "description": "What to expect when working as a hotel bed-maker.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-06-26"
+  "date": "2026-07-20"
 }
 ---
+
 
 Finding a part-time job (*arubaito*) is one of the first major milestones for international students arriving in Japan. While working is a fantastic way to cover your living expenses and tuition, it also presents a major hurdle: the language barrier. Most customer-facing jobs in convenience stores, cafes, and supermarkets require a Japanese proficiency level of at least N3 or N2 on the Japanese Language Proficiency Test (JLPT). 
 

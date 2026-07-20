@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 1.5-Year Japanese Language Course
   total_fees: 1035000
-date: '2026-02-13'
+date: '2026-07-20'
 description: 국제외국어・관광・에어라인 전문학교는 니가타시에 위치한 전문학교로, 일본어 과정과 관광 및 항공 산업 분야의 커리어 훈련을 제공합니다.
 faculties: []
 features:
@@ -42,6 +42,7 @@ title: 국제외국어・관광・에어라인 전문학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

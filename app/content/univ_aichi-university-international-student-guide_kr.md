@@ -6,7 +6,7 @@ basic_info:
   name_en: Aichi University
   name_ja: 愛知大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아이치현 나고야와 도요하시에 캠퍼스를 둔 아이치 대학교는 중국 연구에 강점을 가진 사립 대학교입니다.
 faculties:
 - Faculty of Law
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학교 개요
 

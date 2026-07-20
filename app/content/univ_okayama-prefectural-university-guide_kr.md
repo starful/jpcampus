@@ -5,7 +5,7 @@ basic_info:
   name_en: Okayama Prefectural University
   name_ja: 岡山県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 오카야마 현립 대학교(OPU)는 인간, 자연, 기술의 조화를 중시하는 오카야마현 소자시에 위치한 명문 공립 대학입니다. 헬스케어,
   엔지니어링, 디자인 분야에서 뛰어난 교육을 제공합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

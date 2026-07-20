@@ -1,6 +1,6 @@
 ---
 category: Career
-date: '2026-07-12'
+date: '2026-07-20'
 description: Download free PDF/Excel Japanese resume (Rirekisho) templates. Follow
   our step-by-step writing guide and examples to land your dream job in Japan!
 id: resume-jp
@@ -13,6 +13,7 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500
 title: 'How to Write a Japanese Resume (Rirekisho): Step-by-Step Guide with Free Templates'
 ---
+
 
 Navigating the job market in Japan requires mastering a highly standardized and culturally unique application process. At the heart of this process is the **Rirekisho (履歴書)**—the Japanese resume. Whether you are applying for a part-time job (*baito*), a post-graduation career path via *Shukatsu* (job hunting), or a mid-career transition, submitting a flawless Rirekisho is your first and most critical hurdle.
 

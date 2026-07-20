@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヶ月コース
   total_fees: 1316300
-date: '2026-01-28'
+date: '2026-07-20'
 description: 치바현 아비코시에 위치한 사쿠라 치바 일본어학교는 대학 진학을 위한 전문적인 교육과 실용적인 일본어 능력을 키울 수 있는 환경을
   제공합니다.
 faculties: []
@@ -40,6 +40,7 @@ thumbnail: /static/img/pin-school.png
 title: 사쿠라 치바 일본어학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

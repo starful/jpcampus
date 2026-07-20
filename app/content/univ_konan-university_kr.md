@@ -5,7 +5,7 @@ basic_info:
   name_ja: 甲南大学
   website: https://www.konan-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Economics
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## 대학교 개요 및 명성
 

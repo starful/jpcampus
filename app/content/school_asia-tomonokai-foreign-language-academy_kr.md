@@ -21,7 +21,7 @@ courses:
 - admission_month: 4,7,10
   course_name: 一般1年コース
   total_fees: 816000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 즉각적이고 안전한 정착을 위한 기숙사 시설 완비
@@ -48,6 +48,7 @@ title: 아시아 토모노카이 외국어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

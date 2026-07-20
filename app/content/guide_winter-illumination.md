@@ -9,9 +9,10 @@
   ],
   "description": "Where to see the most spectacular light displays.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Lighting Up the Dark: A Comprehensive Guide to Winter Illuminations in Japan
 

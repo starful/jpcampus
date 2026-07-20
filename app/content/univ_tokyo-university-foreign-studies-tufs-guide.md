@@ -5,7 +5,7 @@ basic_info:
   name_en: Tokyo University of Foreign Studies
   name_ja: 東京外国語大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Explore Tokyo University of Foreign Studies (TUFS). Get essential information
   on tuition fees, international admissions, English programs, and student life.
 faculties:
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

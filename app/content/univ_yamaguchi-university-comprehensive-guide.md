@@ -5,7 +5,7 @@ basic_info:
   name_en: Yamaguchi University
   name_ja: 山口大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities
 - Faculty of Education
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: The Spirit of Discovery and Innovation
 

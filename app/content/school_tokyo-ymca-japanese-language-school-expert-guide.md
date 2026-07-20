@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1360000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Learn Japanese in a supportive, community-focused environment at the
   Tokyo YMCA Japanese Language School. Benefit from dedicated EJU preparation, personalized
   guidance, and a strong focus on academic advancement to Japanese universities.
@@ -44,6 +44,7 @@ title: Tokyo YMCA Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学課程1年6ヵ月コース
   total_fees: 979000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Small Class Size System (少人数制)
@@ -51,6 +51,7 @@ thumbnail: /static/img/pin-school.png
 title: Aishin International Academy
 tuition: {}
 ---
+
 
 ## 🏢 School Overview & Philosophy
 

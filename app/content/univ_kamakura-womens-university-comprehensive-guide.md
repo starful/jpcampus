@@ -5,7 +5,7 @@ basic_info:
   name_en: Kamakura Women's University
   name_ja: 鎌倉女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Home Economics
 - Faculty of Child Studies
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1380000
 ---
+
 
 ## 🏫 University Overview
 

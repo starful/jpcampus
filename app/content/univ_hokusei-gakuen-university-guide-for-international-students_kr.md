@@ -5,7 +5,7 @@ basic_info:
   name_en: Hokusei Gakuen University
   name_ja: 北星学園大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 홋카이도 삿포로에 위치한 호쿠세이 학원 대학은 130년 이상의 역사를 가진 명문 사립 대학입니다. 국제 학생들을 위한 따뜻하고
   지지적인 분위기와 훌륭한 학업 환경을 제공합니다.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 880000
 ---
+
 
 ## 🏫 대학 개요: 홋카이도의 북극성
 

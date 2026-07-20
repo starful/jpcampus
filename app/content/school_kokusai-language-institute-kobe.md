@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 972350
-date: '2026-07-12'
+date: '2026-07-20'
 description: Located in Kobe, Kokusai Language Institute offers comprehensive Japanese
   language education and specialized academic preparation. Features include intensive
   EJU prep, university advancement tracks, and integrated dormitory services.
@@ -58,6 +58,7 @@ title: Kokusai Language Institute
 translated: true
 tuition: {}
 ---
+
 
 # 🎒 Kokusai Language Institute (国際語学学院)
 

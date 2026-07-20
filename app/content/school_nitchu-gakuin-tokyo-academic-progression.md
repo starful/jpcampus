@@ -9,7 +9,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1501000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - High-Level University and Graduate School Progression Support
@@ -37,6 +37,7 @@ thumbnail: /static/img/pin-school.png
 title: Nitchu Gakuin (Japan-China Institute)
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

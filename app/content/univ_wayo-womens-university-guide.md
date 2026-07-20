@@ -5,7 +5,7 @@ basic_info:
   name_en: Wayo Women's University
   name_ja: 和洋女子大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities
 - Faculty of Global Studies
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

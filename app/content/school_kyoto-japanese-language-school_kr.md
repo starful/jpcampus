@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: インテンシブ1.5年コース
   total_fees: 1273600
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 기숙사
@@ -45,6 +45,7 @@ title: 교토 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

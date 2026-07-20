@@ -5,7 +5,7 @@ basic_info:
   name_en: Tohoku Institute of Technology
   name_ja: 東北工業大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 도호쿠 지역의 기술 혁신과 부흥을 이끄는 실무 중심의 공과대학, 도호쿠 공업대학을 소개합니다.
 faculties:
 - 공학부
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 대학 개요
 

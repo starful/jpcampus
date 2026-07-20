@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1000000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dedicated EJU and University Entrance Examination Preparation
@@ -41,6 +41,7 @@ title: Osaka Frontier Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 立命館大学
   website: http://www.ritsumei.ac.jp/eng/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 교토에 위치한 명문 사립대학교인 리츠메이칸 대학교에 대해 알아보세요. 다양한 학부와 국제적인 학생 지원 시스템을 제공합니다.
 faculties:
 - College of Law
@@ -54,6 +54,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1280000
 ---
+
 
 ## 대학교 개요
 

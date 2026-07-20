@@ -5,7 +5,7 @@ basic_info:
   name_en: Tokoha University
   name_ja: 常葉大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Education
 - Faculty of Foreign Studies
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 240000
   yearly_tuition: 880000
 ---
+
 
 ## 🏫 University Overview
 Tokoha University (常葉大学) stands as the largest and most prominent private higher education institution in Shizuoka Prefecture. Established with a mission centered on 'Tokoha' (meaning 'Evergreen,' symbolizing eternal vitality and growth), the university has grown from a specialized teacher training college into a comprehensive university system with ten faculties and nineteen departments. For international students, Tokoha offers a unique blend of high-quality Japanese education, a supportive local environment, and a gateway to the industrial heart of Japan. The university is spread across four major campuses—Kusanagi, Mizuochi, Sena, and Hamamatsu—each strategically designed to cater to specific academic disciplines.

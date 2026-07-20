@@ -5,7 +5,7 @@ basic_info:
   name_en: Yamagata Prefectural University of Health Sciences
   name_ja: 山形県立保健医療大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Sciences
 - Department of Nursing
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

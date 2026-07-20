@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 2年コース
   total_fees: 1290000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Located in historic Kanazawa (Ishikawa Prefecture)
@@ -43,6 +43,7 @@ title: Alice Gakuen Language Institute & Professional Training College
 translated: true
 tuition: {}
 ---
+
 
 # Alice Gakuen Language Institute & Professional Training College
 

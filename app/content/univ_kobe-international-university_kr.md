@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe International University
   name_ja: 神戸国際大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 일본 고베의 현대적인 롯코 아일랜드에 위치한 고베 국제대학교는 기독교 정신을 바탕으로 경제, 국제 관광, 물리 치료 분야에서
   글로벌 인재를 양성하는 대학입니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 830000
 ---
+
 
 ## 🏫 대학 개요
 

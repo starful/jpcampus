@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/1152
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: Kyoto monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -71,6 +71,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_1152.jpg
 title: BERCEUSE (KYOTO) — Kyoto Student Monthly Mansion
 ---
+
 
 ## About this property
 

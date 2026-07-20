@@ -59,7 +59,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 786700
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아오야마 일본어학교는 일본 유학을 희망하는 학생들을 위한 체계적인 일본어 교육을 제공합니다. 대학 진학 준비, 기숙사, EJU
   시험 대비 등 다양한 지원을 받을 수 있습니다.
 faculties: []
@@ -86,6 +86,7 @@ title: 아오야마 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 소개
 

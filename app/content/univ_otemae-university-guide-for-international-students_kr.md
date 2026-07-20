@@ -5,7 +5,7 @@ basic_info:
   name_en: Otemae University
   name_ja: 大手前大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 오사카와 고베 사이의 전략적 요충지에 위치한 오테마에 대학교는 유연한 리버럴 아츠 교육과 강력한 취업 지원, 외국인 유학생을
   위한 풍부한 장학 혜택을 제공합니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 240000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: 4,10
   course_name: 一般1年コース
   total_fees: 770000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Asia Japanese Academy in Fukuoka offers comprehensive Japanese language
   education with a focus on university preparation and cultural understanding. Features
   include dormitory options, scholarships, and specialized tracks like EJU prep and
@@ -58,6 +58,7 @@ title: Asia Japanese Academy
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

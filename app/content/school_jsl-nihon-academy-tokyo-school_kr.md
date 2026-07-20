@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年6か月コース
   total_fees: 1180000
-date: '2026-01-28'
+date: '2026-07-20'
 description: JSL 니혼 아카데미 도쿄 스쿨은 소규모 학습 환경에서 집중적인 학업 성취를 장려하는 것을 목표로 합니다. 아사쿠사바시에 위치하고
   있으며, 유연한 단기 연수 옵션을 제공합니다.
 faculties: []
@@ -43,6 +43,7 @@ title: JSL 니혼 아카데미 도쿄 스쿨
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

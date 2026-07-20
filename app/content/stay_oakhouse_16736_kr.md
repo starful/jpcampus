@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/16736
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 아이치 먼슬리맨션 에스팀코트 나고야 신에이 Ⅳ 네스트. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -66,6 +66,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_16736.jpg
 title: 에스팀코트 나고야 신에이 Ⅳ 네스트 — 아이치 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

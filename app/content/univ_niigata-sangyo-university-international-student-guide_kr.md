@@ -5,7 +5,7 @@ basic_info:
   name_en: Niigata Sangyo University
   name_ja: 新潟産業大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 니가타현 가시와자키시에 위치한 경제학 특화 대학으로, 압도적으로 높은 외국인 유학생 비율과 저렴한 생활비, 그리고 지역 사회와
   연계된 강력한 취업 지원을 제공합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 710000
 ---
+
 
 ## 🏫 대학 개요: 지역 활성화의 관문
 

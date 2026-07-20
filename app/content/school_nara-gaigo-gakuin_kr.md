@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: General 1.5-Year Course
   total_fees: 1140000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 기숙사
@@ -53,6 +53,7 @@ title: 나라외어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

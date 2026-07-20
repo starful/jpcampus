@@ -5,7 +5,7 @@ basic_info:
   name_en: Miyazaki Municipal University
   name_ja: 宮崎公立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities (Department of International Culture)
 features:
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Meiji Gakuin University
   name_ja: 明治学院大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: A comprehensive 2026 guide to Meiji Gakuin University for international
   students, covering admissions, tuition, English programs, and campus life.
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 Meiji Gakuin University (MGU) stands as one of Japan’s most prestigious and historic private liberal arts institutions. Founded in 1863 by Dr. James Curtis Hepburn—the missionary and physician famous for creating the Hepburn Romanization system for the Japanese language—the university is deeply rooted in Christian principles. Its educational philosophy is encapsulated in the motto, "Do for Others." This isn't just a catchy phrase; it is the guiding light for the university’s curriculum, volunteering initiatives, and international exchange programs. With campuses in the heart of Tokyo (Shirokane) and the scenic hills of Yokohama, MGU offers a unique blend of historical charm and modern academic rigor. For international students, it represents a gateway to Japanese society that prioritizes social responsibility and global citizenship over mere rote learning.

@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学Dコース
   total_fees: 993500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아이치현 나고야에 위치한 코잔 학원 일본어학교는 유학생들이 일본의 고등 교육 기관에 진학할 수 있도록 전문적인 트랙과 맞춤형
   지원을 제공합니다.
 faculties: []
@@ -55,6 +55,7 @@ title: 코잔 학원 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 이념
 

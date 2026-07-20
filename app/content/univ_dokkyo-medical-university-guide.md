@@ -5,7 +5,7 @@ basic_info:
   name_en: Dokkyo Medical University
   name_ja: 獨協医科大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Medicine
 - Faculty of Nursing
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 1000000
   yearly_tuition: 3700000
 ---
+
 
 ## 🏫 University Overview
 

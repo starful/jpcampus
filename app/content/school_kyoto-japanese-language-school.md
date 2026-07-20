@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: インテンシブ1.5年コース
   total_fees: 1273600
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory
@@ -45,6 +45,7 @@ title: Kyoto Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏯 School Overview & Philosophy
 

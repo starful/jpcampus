@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/house/700
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 후나바시시 셰어하우스 SOCIAL RESIDENCE 후나바시. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서
   비교하세요.
 entity: stay
@@ -50,6 +50,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_700.jpg
 title: SOCIAL RESIDENCE 후나바시 — 후나바시시 유학생 셰어하우스
 ---
+
 
 ## 시설 소개
 

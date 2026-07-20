@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コース（2年）
   total_fees: 1240000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Okazaki Japanese Language School offers specialized EJU prep and academic
   support in Aichi Prefecture, preparing students for top universities and vocational
   schools with comprehensive dormitory options and robust financial aid.
@@ -42,6 +42,7 @@ title: Okazaki Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

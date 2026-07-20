@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: Comprehensive University Progression Course (1 Year)
   total_fees: 989000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 대학 및 대학원 진학에 특화된 집중 교육
@@ -48,6 +48,7 @@ title: 인터컬트 일본어학교 (Intercult)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

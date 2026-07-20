@@ -5,7 +5,7 @@ basic_info:
   name_en: The University of Electro-Communications
   name_ja: 電気通信大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: 일본 컴공·이공계 명문 국립대 전기통신대학교(전통대/UEC)의 EJU 합격선, 학비, 장학금 및 일본 IT 취업 정보를 총정리했습니다.
 faculties:
 - College of Informatics and Engineering (Undergraduate)
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 개요
 

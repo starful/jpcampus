@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: General Course
   total_fees: 896000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Happiness Foreign Language Academy는 에히메현 니이하마의 조용한 환경에서 맞춤형 일본어 교육을 제공합니다.
   대학 진학 지원, EJU 준비, 1인실 기숙사, 특별 코스 등이 특징입니다.
 faculties: []
@@ -53,6 +53,7 @@ title: Happiness 외어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

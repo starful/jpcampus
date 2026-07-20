@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanda University of International Studies
   name_ja: 神田外語大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 일본 지바현 마쿠하리에 위치한 칸다외국어대학교는 실무 중심의 언어 교육과 혁신적인 자기주도 학습 환경으로 유명한 일본의 명문
   사립 대학입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1210000
 ---
+
 
 ## 🏫 대학 개요
 

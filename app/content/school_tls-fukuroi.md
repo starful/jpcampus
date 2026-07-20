@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1425400
-date: '2026-07-12'
+date: '2026-07-20'
 description: TLS Fukuroi offers comprehensive Japanese language education, preparing
   students for higher education and daily life in Japan. Features include university
   preparation, cultural experiences, job hunting support, and dormitory accommodations.
@@ -51,6 +51,7 @@ title: TLS Fukuroi
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

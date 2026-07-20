@@ -9,9 +9,10 @@
   ],
   "description": "Tips to stay warm and manage high electricity bills.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-04-19"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Heating Your Room in Winter: AC vs. Kerosene – An International Student’s Guide
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kwassui Women's University
   name_ja: 活水女子大学
 category: university
-date: '2026-07-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities
 - Faculty of Global Communication
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 

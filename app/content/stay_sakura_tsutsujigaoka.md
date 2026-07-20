@@ -7,7 +7,7 @@ basic_info:
   operator: Sakura House
 booking_url: https://www.sakura-house.com/building/tsutsujigaoka
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: Tokyo share house for international students. Foreigner-friendly housing
   near schools. Confirm details on the operator site.
 entity: stay
@@ -54,6 +54,7 @@ tags:
 thumbnail: /static/images/stay_sakura_tsutsujigaoka.jpg
 title: SAKURA HOUSE CHOFU TSUTSUJIGAOKA — Tokyo Student Share House
 ---
+
 
 ## About this property
 

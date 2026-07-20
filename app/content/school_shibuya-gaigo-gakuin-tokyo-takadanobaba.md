@@ -12,7 +12,7 @@ courses:
 - admission_month: 7,10,1
   course_name: 総合2年コース
   total_fees: 1470500
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Located in the academic hub of Takadanobaba, Shinjuku
@@ -38,6 +38,7 @@ thumbnail: /static/img/pin-school.png
 title: Shibuya Gaigo Gakuin
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

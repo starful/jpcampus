@@ -19,7 +19,7 @@ courses:
 - admission_month: '10'
   course_name: 進学課程1年半コース
   total_fees: 1192337
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Government-Affiliated Public Institution (JASSO/MEXT)
@@ -52,6 +52,7 @@ seo_title: JASSO Tokyo Japanese Language Education Center (2026 Guide)
 seo_description: Learn about JASSO Tokyo Japanese Language Education Center. Check
   2026 tuition, EJU prep courses, and admissions on JPCAMPUS.
 ---
+
 
 
 

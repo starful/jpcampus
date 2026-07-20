@@ -9,10 +9,11 @@
   ],
   "description": "엔트리 시트(ES) 작성법부터 SPI 적성 검사, 그룹 토론 및 면접까지 일본 취업의 전 과정을 상세히 알아봅니다.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-02-13",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # '슈카츠(Shukatsu)': 일본의 독특한 취업 활동 프로세스 정복하기
 

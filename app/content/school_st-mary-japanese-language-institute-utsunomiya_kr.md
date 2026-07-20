@@ -24,7 +24,7 @@ courses:
 - admission_month: '10'
   course_name: 進学Dコース
   total_fees: 1050000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 세인트 메리 일본어 학원은 도치기현 우쓰노미야시에 위치하고 있으며, 일본 대학 입시 및 실용적인 일본어 능력 향상을 위한 다양한
   코스를 제공합니다.
 faculties: []
@@ -54,6 +54,7 @@ title: 세인트 메리 일본어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

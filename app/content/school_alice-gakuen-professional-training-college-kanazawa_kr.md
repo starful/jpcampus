@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 2年コース
   total_fees: 1290000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 앨리스 학원 어학원 및 전문학교는 일본어 교육 기관이자 전문학교로서, 가나자와에 위치하여 역사, 예술, 문화적 유산이 풍부한
   지역에서 생활하며, 도쿄나 오사카보다 저렴한 생활비를 누릴 수 있는 기회를 제공합니다.
 faculties: []
@@ -44,6 +44,7 @@ title: Alice Gakuen Language Institute & Professional Training College
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

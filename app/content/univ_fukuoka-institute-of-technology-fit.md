@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukuoka Institute of Technology
   name_ja: 福岡工業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Information Science
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 220000
   yearly_tuition: 1385000
 ---
+
 
 ## 🏫 University Overview
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 1년3개월진학코스
   total_fees: 794150
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야에 위치한 North River 일본어학교는 대학 진학을 위한 종합적인 일본어 교육을 제공합니다. 기숙사 이용 가능,
   장학금 기회, 비즈니스 일본어 및 미술 디자인 준비반과 같은 전문 과정이 특징입니다.
 faculties: []
@@ -59,6 +59,7 @@ title: North River 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

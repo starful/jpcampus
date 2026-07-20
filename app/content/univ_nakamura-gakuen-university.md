@@ -5,7 +5,7 @@ basic_info:
   name_en: Nakamura Gakuen University
   name_ja: 中村学園大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Nutritional Sciences
 - Faculty of Education and Psychology
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 220000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 University Overview
 

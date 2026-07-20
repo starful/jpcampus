@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語総合1.5年コース
   total_fees: 1115000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카 스미요시구에 위치한 세이간 일본어 학교는 일본 고등 교육 진학을 위한 국제 학생들을 위한 교육 기관입니다.
 faculties: []
 features:
@@ -42,6 +42,7 @@ title: 세이간 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

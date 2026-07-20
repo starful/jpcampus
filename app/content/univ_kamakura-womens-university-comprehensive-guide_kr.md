@@ -5,7 +5,7 @@ basic_info:
   name_en: Kamakura Women's University
   name_ja: 鎌倉女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 역사적 도시 가마쿠라에 위치한 가마쿠라 여자 대학교는 영양, 교육, 아동 복지 분야에서 일본 최고의 전문성을 자랑하는 여성
   인재 양성의 요람입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1380000
 ---
+
 
 ## 🏫 대학 개요
 

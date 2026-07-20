@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学2年コース
   total_fees: 1362000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 시즈오카현 시즈오카시에 위치한 시즈오카 인터내셔널 스쿨은 일본 대학 진학을 목표로 하는 국제 학생들을 위한 학교입니다. EJU
   시험 준비 및 대학 입시 지원에 특화된 커리큘럼을 제공합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 시즈오카 인터내셔널 스쿨
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

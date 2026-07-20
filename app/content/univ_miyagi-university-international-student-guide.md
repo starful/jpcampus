@@ -5,7 +5,7 @@ basic_info:
   name_en: Miyagi University
   name_ja: 宮城大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - School of Nursing
 - School of Project Design
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 Miyagi University (MYU), locally known as Miyagi Daigaku, is a distinguished public prefectural university established in 1997. Located in the heart of Miyagi Prefecture, near the vibrant city of Sendai, it was founded with a mission to cultivate leaders who can drive regional development while maintaining a global perspective. Unlike traditional national universities that focus heavily on theoretical research, MYU is celebrated for its 'practical science' approach. The university operates across two main campuses: the Taiwa Campus, focusing on Project Design and Nursing, and the Taihaku Campus, dedicated to Food, Agricultural, and Environmental Sciences. For international students, MYU offers a unique environment where design thinking, community engagement, and technological innovation intersect.

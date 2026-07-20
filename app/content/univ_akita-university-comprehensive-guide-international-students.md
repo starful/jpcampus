@@ -5,7 +5,7 @@ basic_info:
   name_en: Akita University
   name_ja: 秋田大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of International Resource Sciences
 - Faculty of Education and Human Studies
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 Akita University, located in the heart of Northern Japan's Tohoku region, is a prestigious national university that stands as a beacon of academic excellence and specialized research. Established in 1949, it has evolved from a regional center of learning into a globally recognized institution, particularly renowned for its contributions to the field of resource sciences. The university operates primarily out of three campuses in Akita City: Tegata, Hondo, and Hodono, each serving distinct academic disciplines and fostering a community-focused yet globally-minded atmosphere.

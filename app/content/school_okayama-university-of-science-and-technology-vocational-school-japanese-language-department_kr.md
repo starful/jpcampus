@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1026000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오카야마에 위치한 이 학교는 대학 진학 준비, 기숙사, EJU 시험 대비에 중점을 둔 종합적인 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -42,6 +42,7 @@ title: 오카야마 이공과 대학 일본어학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

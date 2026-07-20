@@ -9,9 +9,10 @@
   ],
   "description": "What each level means for daily life and career.",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
-  "date": "2026-02-13"
+  "date": "2026-07-20"
 }
 ---
+
 
 # JLPT Levels Explained: From N5 to N1 – Your Ultimate Guide to Navigating the Japanese Language Proficiency Test
 

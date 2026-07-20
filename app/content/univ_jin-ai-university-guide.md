@@ -5,7 +5,7 @@ basic_info:
   name_en: Jin-ai University
   name_ja: 仁愛大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Human Studies
 - Faculty of Nursing
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 280000
   yearly_tuition: 760000
 ---
+
 
 ## 🏫 University Overview
 

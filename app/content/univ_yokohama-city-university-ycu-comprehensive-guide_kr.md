@@ -5,7 +5,7 @@ basic_info:
   name_en: Yokohama City University
   name_ja: 横浜市立大学
 category: university
-date: '2026-04-27'
+date: '2026-07-20'
 description: 요코하마시립대 진학을 준비하는 유학생을 위한 2026 실전 가이드입니다. 입시요건, 학비, EJU, 캠퍼스 생활 정보를 정리했습니다.
 faculties:
 - Faculty of International Relations
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학교 개요
 

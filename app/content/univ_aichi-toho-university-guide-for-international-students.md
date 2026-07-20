@@ -5,7 +5,7 @@ basic_info:
   name_en: Aichi Toho University
   name_ja: 愛知東邦大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Management
 - Faculty of Human Development
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 980000
 ---
+
 
 ## 🏫 University Overview: The Spirit of Aichi Toho University
 

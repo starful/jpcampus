@@ -5,7 +5,7 @@ basic_info:
   name_ja: 中京大学
   website: https://www.chukyo-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: Chukyo University, located in Nagoya, is a regionally prestigious private
   university known for its strong focus on career-oriented education, particularly
   in Sports Science, Psychology, and Business Administration. Renowned for its high
@@ -49,6 +49,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1250000
 ---
+
 
 ## University Overview & Reputation
 

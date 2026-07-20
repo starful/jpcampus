@@ -5,7 +5,7 @@ basic_info:
   name_en: Aichi Prefectural University
   name_ja: 愛知県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 아이치현립대학교는 아이치현에 위치한 명문 공립 대학입니다. 어학, 일본학, 정보 과학 분야에서 뛰어난 교육을 제공하며, 국제
   학생들을 위한 다양한 지원 프로그램을 운영합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 일본 중부 지역 학문적 우수성의 중심지
 

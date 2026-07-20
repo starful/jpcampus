@@ -5,7 +5,7 @@ basic_info:
   name_en: Yokohama City University
   name_ja: 横浜市立大学
 category: university
-date: '2026-04-27'
+date: '2026-07-20'
 description: A practical 2026 guide to Yokohama City University for international
   students covering admission requirements, tuition, EJU strategy, and campus life.
 faculties:
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview
 

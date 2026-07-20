@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima University of Economics
   name_ja: 広島経済大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Department of Economics
 - Department of Management
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview: The Pinnacle of Practical Business Education in Western Japan
 

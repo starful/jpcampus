@@ -5,7 +5,7 @@ basic_info:
   name_en: Aichi Institute of Technology
   name_ja: 愛知工業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 자동차 산업의 심장부에서 배우는 최첨단 공학, 압도적인 취업률을 자랑하는 실무 중심의 명문 공과대학교입니다.
 faculties:
 - 공학부
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1380000
 ---
+
 
 ## 🏫 대학 개요: 실무 공학의 정점
 

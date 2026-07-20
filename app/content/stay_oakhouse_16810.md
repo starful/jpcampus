@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/16810
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: Kawasaki monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -72,6 +72,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_16810.jpg
 title: Amista Ikuta — Kawasaki Student Monthly Mansion
 ---
+
 
 ## About this property
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Setsunan University
   name_ja: 摂南大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - 법학부
 - 경제학부
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요: 세츠난의 정신
 

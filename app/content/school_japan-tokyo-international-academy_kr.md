@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1月コース
   total_fees: 924350
-date: '2026-01-28'
+date: '2026-07-20'
 description: Japan Tokyo International Academy는 도쿄의 중심, 신주쿠에 위치한 일본어 학교입니다. 대학 및 대학원
   진학을 위한 최적의 교육 환경을 제공합니다.
 faculties: []
@@ -45,6 +45,7 @@ title: Japan Tokyo International Academy (일본 도쿄 국제 아카데미)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

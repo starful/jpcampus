@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1210000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Dedicated Higher Education Pathway Guidance (Shingaku)
@@ -42,6 +42,7 @@ title: Tokyo Education Professional Institute, Tamagawa Campus (T.E.P.I.)
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

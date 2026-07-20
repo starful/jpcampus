@@ -5,7 +5,7 @@ basic_info:
   name_en: J.F. Oberlin University
   name_ja: 桜美林大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: Discover everything you need to know about J.F. Oberlin University, including
   tuition fees, admission requirements, programs, and student life in Japan.
 faculties:
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## University Overview
 

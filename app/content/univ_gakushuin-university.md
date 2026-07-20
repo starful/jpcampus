@@ -5,7 +5,7 @@ basic_info:
   name_ja: 学習院大学
   website: https://www.gakushuin.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Law
 - Faculty of Economics
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## University Overview & Reputation
 

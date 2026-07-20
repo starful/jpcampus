@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima Kokusai Gakuin University
   name_ja: 広島国際学院大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Information Science
@@ -32,6 +32,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 800000
 ---
+
 
 ## 🏫 University Overview
 

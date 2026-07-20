@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanazawa Gakuin University
   name_ja: 金沢学院大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Economic Management
 - Faculty of Humanities
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 

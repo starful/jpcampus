@@ -5,7 +5,7 @@ basic_info:
   name_ja: 大阪芸術大学
   website: http://www.osaka-geidai.ac.jp/
 category: university
-date: '2026-04-27'
+date: '2026-07-20'
 description: 오사카예술대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 포트폴리오, 입시절차, 학비, 진로 정보를 담았습니다.
 faculties:
 - Faculty of Arts
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 330000
   yearly_tuition: 1780000
 ---
+
 
 ## 대학 개요 및 명성
 

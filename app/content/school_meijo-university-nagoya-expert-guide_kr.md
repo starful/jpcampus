@@ -5,7 +5,7 @@ basic_info:
   name_ja: 名城大学
   website: https://www.meijo-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야에 위치한 메이조 대학교는 STEM 분야에서 두각을 나타내는 명문 사립 종합대학교입니다. 약학, 농학 분야 역시 강력하며,
   노벨상 수상 연구와 연계되어 있습니다. 주부 지역 산업과의 협력이 활발합니다.
 faculties:
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

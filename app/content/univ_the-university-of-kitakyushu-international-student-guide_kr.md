@@ -5,7 +5,7 @@ basic_info:
   name_en: The University of Kitakyushu
   name_ja: 北九州市立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 기타큐슈 시립 대학교는 큐슈 지역의 명문 공립 대학교입니다. 어학, 해외 유학 프로그램이 강하며, 특히 히비키노 캠퍼스는 친환경
   연구에 집중하고 있습니다. 저렴한 학비와 생활비 또한 장점입니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

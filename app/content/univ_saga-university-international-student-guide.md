@@ -5,7 +5,7 @@ basic_info:
   name_en: Saga University
   name_ja: 佐賀大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Art and Regional Design
 - Faculty of Education
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: The Gateway to Knowledge in Kyushu
 

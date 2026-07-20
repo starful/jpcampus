@@ -9,9 +9,10 @@
   ],
   "description": "What you can learn and experience on a tourist visa.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Short-Term Study in Japan: Your Comprehensive Guide to 1-3 Month Programs
 

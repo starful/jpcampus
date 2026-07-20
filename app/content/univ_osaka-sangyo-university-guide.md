@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Sangyo University
   name_ja: 大阪産業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Business Administration
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 Osaka Sangyo University (OSU), known in Japanese as Osaka Sangyo Daigaku, is a prominent private institution located in Daito, Osaka. Founded in 1928 as the Osaka Railroad School, it transitioned into a comprehensive university in 1965. The name 'Sangyo' (Industry) reflects the university's core mission: to provide practical education that meets the needs of the industrial and economic sectors. OSU has built a strong reputation for producing graduates who are not just theoretically sound but are ready to contribute to the workforce immediately upon graduation.

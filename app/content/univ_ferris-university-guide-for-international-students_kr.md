@@ -5,7 +5,7 @@ basic_info:
   name_en: Ferris University
   name_ja: フェリス女学院大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 일본 최초의 근대 여성 교육 기관으로서 150년 이상의 역사를 자랑하며, '타인을 위하여'라는 기독교적 가치를 바탕으로 음악
   및 글로벌 인재를 양성하는 요코하마의 명문 여자대학교입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

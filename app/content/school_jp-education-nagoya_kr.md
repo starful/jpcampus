@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語1年6ヶ月コース
   total_fees: 1220000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야에 위치한 JP Education은 집중적인 일본어 교육과 미술, 디자인, 비즈니스 분야의 전문적인 진로 준비를 위한
   최적의 선택입니다.
 faculties: []
@@ -47,6 +47,7 @@ thumbnail: /static/img/pin-school.png
 title: JP Education (JPエデュケーション)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

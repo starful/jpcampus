@@ -12,7 +12,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 日本語総合コース午後クラス
   total_fees: 1640000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 신주쿠에 위치한 KAI 일본어 학교는 회화 능력 향상과 대학 진학을 위한 맞춤형 프로그램을 제공합니다.
 faculties: []
 features:
@@ -39,6 +39,7 @@ thumbnail: /static/img/pin-school.png
 title: KAI 일본어 학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

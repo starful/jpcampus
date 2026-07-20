@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学2年コース
   total_fees: 1420000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카에 위치한 닛츄 일본어학원은 국제 학생들에게 종합적인 일본어 교육을 제공합니다. 대학 입시를 위한 체계적인 준비 과정을
   제공하는 것이 특징입니다.
 faculties: []
@@ -51,6 +51,7 @@ title: 닛츄 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 진학 코스 2년
   total_fees: 1590000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 카잔 소사이어티 토아 아카데미는 도쿄에 위치한 일본어 학교로, 대학 진학 준비에 중점을 두고 있으며, 지원적인 환경과 특화된
   과학 프로그램을 제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ title: 카잔 소사이어티 토아 아카데미
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Yokohama College of Commerce
   name_ja: 横浜商科大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Commerce
 - Department of Commerce
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 University Overview: The Gateway to Business in Japan
 

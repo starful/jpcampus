@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 1.5-Year Japanese Language Course
   total_fees: 1111000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Learn Japanese at Seifu Information Engineering Academy in Osaka. Offers
   comprehensive Japanese language education with courses preparing students for university,
   vocational school, and the EJU exam. Features include dormitory, scholarships, and
@@ -57,6 +57,7 @@ title: Seifu Information Engineering Academy, Japanese Language Department
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 1. School Overview & Philosophy
 

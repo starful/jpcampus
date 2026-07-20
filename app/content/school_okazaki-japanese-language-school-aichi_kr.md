@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コース（2年）
   total_fees: 1240000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오카자키 일본어 학교는 아이치현에 위치해 있으며, 전문적인 EJU 대비 및 학업 지원을 제공하여 학생들이 명문 대학 및 전문학교에
   진학할 수 있도록 돕습니다. 종합적인 기숙사 옵션과 든든한 재정 지원도 제공합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 오카자키 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

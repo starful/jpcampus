@@ -5,7 +5,7 @@ basic_info:
   name_en: Takasaki City University of Economics
   name_ja: 高崎経済大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 다카사키 경제대학교는 경제 및 지역 개발 분야에 특화된 명문 공립 대학입니다. 저렴한 학비와 뛰어난 취업률을 자랑합니다.
 faculties:
 - Faculty of Economics
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

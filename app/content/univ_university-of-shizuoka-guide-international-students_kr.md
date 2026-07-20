@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Shizuoka
   name_ja: 静岡県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 시즈오카현립대학교는 약학, 식품영양학, 국제관계학 등 다양한 분야에서 뛰어난 교육을 제공하는 일본의 명문 공립대학교입니다.
   아름다운 캠퍼스와 저렴한 학비는 유학생에게 매력적인 선택지가 될 것입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 개요: 시즈오카현립대학교
 

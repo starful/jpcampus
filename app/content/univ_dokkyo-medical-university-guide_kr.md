@@ -5,7 +5,7 @@ basic_info:
   name_en: Dokkyo Medical University
   name_ja: 獨協医科大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 토치기현에 위치한 독쿄 의과대학교는 '인간 중심의 의학'을 바탕으로 한 우수한 교육과 일본 최대 수준의 병원 네트워크를
   자랑하는 명문 사립 의과대학교입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 1000000
   yearly_tuition: 3700000
 ---
+
 
 ## 🏫 학교 개요
 

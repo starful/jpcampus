@@ -5,7 +5,7 @@ basic_info:
   name_ja: 北海道大学
   website: https://www.hokudai.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 홋카이도 삿포로에 위치한 명문 국립대학인 홋카이도 대학교에 대해 알아보세요. 다양한 학부 및 국제 학생 지원 정보를 제공합니다.
 faculties:
 - Faculty of Letters
@@ -52,6 +52,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 홋카이도 대학교 개요
 

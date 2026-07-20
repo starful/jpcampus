@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima Bunkyo University
   name_ja: 広島文教大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Education
 - Faculty of Human Sciences
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Baiko Gakuin University
   name_ja: 梅光学院大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities
 - Faculty of Child Studies
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 University Overview
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Yamanashi Gakuin University
   name_ja: 山梨学院大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Law
 - Business Administration
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1390000
 ---
+
 
 ## 🏫 University Overview
 

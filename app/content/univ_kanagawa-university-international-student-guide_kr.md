@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanagawa University
   name_ja: 神奈川大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 가나가와 대학교는 간토 지역에서 가장 명성이 높고 오랜 역사를 자랑하는 사립 대학교 중 하나입니다. 최첨단 미나토미라이 캠퍼스와
   강력한 요네다 장학금 제도를 자랑하며, 국제 학생들을 위한 종합적인 일본어 지원과 높은 졸업생 취업률을 제공합니다.
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 대학교 개요: '진다이' 정신
 

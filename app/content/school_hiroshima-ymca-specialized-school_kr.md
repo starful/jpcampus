@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 2년 코스
   total_fees: 1390000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 히로시마 YMCA 전문학교는 대학 진학 준비, EJU 시험 준비, 회화 능력 향상에 중점을 둔 종합적인 일본어 프로그램을 제공합니다.
   기숙사 이용이 가능합니다.
 faculties: []
@@ -46,6 +46,7 @@ title: 히로시마 YMCA 전문학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

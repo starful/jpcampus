@@ -5,7 +5,7 @@ basic_info:
   name_en: The University of Kitakyushu
   name_ja: 北九州市立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Foreign Studies
 - Faculty of Economics and Business Administration
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

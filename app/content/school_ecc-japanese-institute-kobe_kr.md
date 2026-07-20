@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語総合2年コース
   total_fees: 1574000
-date: '2026-01-28'
+date: '2026-07-20'
 description: ECC 일본어학원 고베교는 회화 중심 교육, EJU 및 대학 진학 집중 트랙, 이공계 특화 과정, 주거 지원 등 다양한 장점을
   제공합니다. 국제적인 도시 고베에서 일본 유학을 시작하세요.
 faculties: []
@@ -52,6 +52,7 @@ title: ECC 일본어학원 고베교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

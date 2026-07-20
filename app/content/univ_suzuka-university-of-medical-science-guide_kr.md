@@ -5,7 +5,7 @@ basic_info:
   name_en: Suzuka University of Medical Science
   name_ja: 鈴鹿医療과학대학
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 일본 최초의 의료과학 전문 대학교로, 높은 국가 고시 합격률과 첨단 의료 시설을 갖춘 스즈카 의료과학대학교를 소개합니다.
 faculties:
 - 보건학부
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1650000
 ---
+
 
 ## 🏫 대학 개요
 

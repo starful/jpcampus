@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 日本語科1年3か月
   total_fees: 1012500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 사이타마현 구마가야시에 위치한 사이타마 국제 학원은 국제 학생들의 대학 진학을 위한 전문 교육 기관입니다.
 faculties: []
 features:
@@ -47,6 +47,7 @@ thumbnail: /static/img/pin-school.png
 title: 사이타마 국제 학원
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

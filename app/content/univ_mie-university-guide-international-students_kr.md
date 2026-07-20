@@ -5,7 +5,7 @@ basic_info:
   name_en: Mie University
   name_ja: 三重大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 미에현 츠시에 위치한 미에 대학교는 환경 친화적인 캠퍼스와 독특한 학문 분야로 유명합니다. 국제 닌자 연구 센터와 지역 산업과의
   강력한 연계는 특별한 강점입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe College
   name_ja: 神戸女学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 1875년에 설립된 일본의 유서 깊은 사립 여자 대학으로, 기독교 리버럴 아츠 교육과 아름다운 보리스 설계 캠퍼스를 자랑하며
   소수 정예 교육을 통해 글로벌 인재를 양성합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/16968
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 일본 먼슬리맨션 앰풀루페르페르 한나한나. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -66,6 +66,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_16968.jpg
 title: 앰풀루페르페르 한나한나 — 일본 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Ishikawa Prefectural University
   name_ja: 石川県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 발효 및 식품 생명공학 분야의 선도적인 연구 중심지인 이시카와현립대학에 대한 소개입니다.
 faculties:
 - Faculty of Bioresources and Environmental Sciences
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 바이오 혁신을 위한 전문 허브
 

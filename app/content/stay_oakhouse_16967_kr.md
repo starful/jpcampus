@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/16967
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 일본 먼슬리맨션 앙ンプルールクラージュアミティエ(앙ンプルールクラージュアミティエ). 외국인 친화 숙소. 근처 어학원·대학과 함께
   JP Campus에서 비교하세요.
 entity: stay
@@ -67,6 +67,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_16967.jpg
 title: 앙ンプルールクラージュアミティエ(앙ンプルールクラージュアミティエ) — 일본 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

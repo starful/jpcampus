@@ -5,7 +5,7 @@ basic_info:
   name_en: Japan Women's University
   name_ja: 日本女子大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 일본여자대학교는 일본 최초의 사립 여자대학교로, 도쿄 중심부에 위치하고 있으며, 뛰어난 취업률과 여학생들을 위한 체계적인 커리어
   지원을 제공합니다.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 950000
 ---
+
 
 ## 🏫 학교 개요
 

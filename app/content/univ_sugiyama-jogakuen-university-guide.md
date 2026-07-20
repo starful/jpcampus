@@ -5,7 +5,7 @@ basic_info:
   name_en: Sugiyama Jogakuen University
   name_ja: 椙山女学園大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - School of Life Studies
 - School of International Communications
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1030000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 캠퍼스 내/제휴 기숙사
@@ -50,6 +50,7 @@ thumbnail: /static/img/pin-school.png
 title: 후카야 국제외어학원 (Fukaya International Language School)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Saitama Institute of Technology
   name_ja: 埼玉工業大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 사이타마 공업대학교는 자율주행과 AI 등 첨단 기술 연구를 선도하며, 실무 중심의 '모노즈쿠리' 교육을 통해 일본 내 높은
   취업률을 자랑하는 명문 사립 공과대학교입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1250000
 ---
+
 
 ## 🏫 대학 개요: 기술적 탁월함으로 가는 관문
 

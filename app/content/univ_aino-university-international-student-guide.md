@@ -5,7 +5,7 @@ basic_info:
   name_en: Aino University
   name_ja: 藍野大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Care Sciences
 - Department of Nursing
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1550000
 ---
+
 
 ## 🏫 University Overview
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Electro-Communication University
   name_ja: 大阪電気通信大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 게임 교육의 선구자이자 실무 중심의 기술 교육을 제공하는 오사카 전기통신대학교(OECU)는 높은 취업률과 최첨단 연구 시설을
   자랑하는 간사이 지역의 명문 IT·공학 특화 대학교입니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1280000
 ---
+
 
 ## 🏫 대학 개요
 

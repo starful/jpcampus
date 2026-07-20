@@ -5,7 +5,7 @@ basic_info:
   name_en: Chiba Institute of Technology
   name_ja: 千葉工業大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Creative Engineering
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1615000
 ---
+
 
 ## 🏫 University Overview: The Legacy of Innovation
 

@@ -13,7 +13,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヵ月コース
   total_fees: 1041700
-date: '2026-01-28'
+date: '2026-07-20'
 description: IGL 의료복지전문학교 일본어학과는 히로시마에 위치하고 있으며, 일본에서의 고등 교육 또는 취업을 목표로 하는 학생들을 위한
   종합적인 일본어 교육을 제공합니다. 이 학교는 이공계, 미술, 디자인과 같은 전문 트랙의 코스를 제공합니다.
 faculties: []
@@ -52,6 +52,7 @@ title: IGL 의료복지전문학교 일본어학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

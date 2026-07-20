@@ -9,9 +9,10 @@
   ],
   "description": "How friends and family can shop tax-free when visiting you.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-03-15"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Maximizing Your Budget: The Ultimate Guide to Tax-Free Shopping for Visitors in Japan
 

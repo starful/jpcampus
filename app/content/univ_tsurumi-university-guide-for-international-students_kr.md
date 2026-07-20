@@ -5,7 +5,7 @@ basic_info:
   name_en: Tsurumi University
   name_ja: 鶴見大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 요코하마에 위치한 쓰루미 대학은 세계적 수준의 치학부와 깊이 있는 인문학 교육을 자랑하며, 불교의 선(禪) 정신을 바탕으로
   인격 형성과 전문 지식을 동시에 함양할 수 있는 명문 사립대학교입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요
 

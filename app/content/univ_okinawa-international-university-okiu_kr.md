@@ -5,7 +5,7 @@ basic_info:
   name_en: Okinawa International University
   name_ja: 沖縄国際大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와 국제대학교(OKIU)는 오키나와현에 위치한 주요 고등 교육 기관입니다. 지역 개발, 평화 연구 및 오키나와 문화에
   대한 심도 있는 연구를 제공합니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 220000
   yearly_tuition: 750000
 ---
+
 
 ## 대학 개요
 

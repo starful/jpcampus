@@ -5,7 +5,7 @@ basic_info:
   name_en: Himeji Dokkyo University
   name_ja: 姫路獨協大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 효고현 히메지시에 위치한 히메지 독쿄 대학교는 보건 의료와 인문 사회 과학 분야에 특화된 명문 사립 대학입니다. 유서 깊은
   히메지성을 배경으로 전문적인 교육과 충실한 유학생 지원 프로그램을 제공합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 대학 개요: 효고현에서 전문적인 성공으로 가는 관문
 

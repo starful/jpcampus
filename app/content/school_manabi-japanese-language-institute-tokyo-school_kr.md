@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 818640
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 료고쿠 지역에 위치한 MANABI 일본어학교 도쿄 캠퍼스는 종합적인 코스와 개인별 맞춤 학습을 통해 학생들이 고등 교육을
   받을 수 있도록 준비합니다.
 faculties: []
@@ -50,6 +50,7 @@ title: MANABI 일본어학교 도쿄 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1408000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Comprehensive University & Graduate School Advancement Support
@@ -52,6 +52,7 @@ title: ARMS Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 東京理科大学
   website: https://www.tus.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 이과대학은 일본의 과학 기술 발전에 깊이 관여하고 있는 명문 사립 대학입니다. 영어 프로그램, 기숙사, 장학금 등의 혜택을
   제공합니다.
 faculties:
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1600000
 ---
+
 
 ## 🏫 대학 개요 및 명성
 

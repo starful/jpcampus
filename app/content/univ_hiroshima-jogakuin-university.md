@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima Jogakuin University
   name_ja: 広島女学院大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities
 - Faculty of Human Life Science
@@ -31,6 +31,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 

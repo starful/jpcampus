@@ -5,7 +5,7 @@ basic_info:
   name_en: Ehime University
   name_ja: 愛媛大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 에히메 대학교는 시코쿠 섬에서 가장 큰 도시인 마쓰야마에 위치한 선도적인 국립 대학입니다. 세계적인 수준의 연구 시설과 경제적인
   생활 환경을 제공합니다.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

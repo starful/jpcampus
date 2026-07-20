@@ -5,7 +5,7 @@ basic_info:
   name_en: Takasaki City University of Economics
   name_ja: 高崎経済大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics
 - Faculty of Regional Policy
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

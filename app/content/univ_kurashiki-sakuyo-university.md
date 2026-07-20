@@ -5,7 +5,7 @@ basic_info:
   name_en: Kurashiki Sakuyo University
   name_ja: くらしき作陽大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Music (Sakuyo College of Music)
 - Faculty of Food and Child Sciences
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1300000
 ---
+
 
 ## 🏫 University Overview
 

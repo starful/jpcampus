@@ -9,9 +9,10 @@
   ],
   "description": "How to find jobs and typical hourly rates for native speakers.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-06-26"
+  "date": "2026-07-20"
 }
 ---
+
 
 Welcome to Japan! As an international student, navigating life in a new country is an incredibly exciting adventure. Between adjusting to your university classes, exploring historic temples, and trying out delicious local food, you will likely find yourself thinking about your budget. 
 

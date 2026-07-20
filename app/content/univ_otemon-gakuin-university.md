@@ -5,7 +5,7 @@ basic_info:
   name_en: Otemon Gakuin University
   name_ja: 追手門学院大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics
 - Faculty of Management
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1280000
 ---
+
 
 ## 🏫 University Overview
 Otemon Gakuin University (OGU), located in the heart of Osaka Prefecture, is a prestigious private institution with a heritage dating back to 1888. Originally founded as the Osaka Garrison School, it has evolved into a modern powerhouse of social sciences and humanities. For international students, OGU represents a perfect blend of Japanese tradition and forward-thinking educational methodology. The university is particularly famous for its commitment to 'WIL' (Work-Is-Learning), a philosophy that ensures students do not just consume information but apply it to real-world scenarios through industry-linked projects.

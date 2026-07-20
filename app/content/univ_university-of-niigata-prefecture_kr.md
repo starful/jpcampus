@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Niigata Prefecture
   name_ja: 新潟県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 니가타현립대학교는 국제 관계, 경제 시스템, 인간 복지에 특화된 명문 공립 대학입니다. 특히 동북아시아 지역에 중점을 두고
   있습니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 개요
 

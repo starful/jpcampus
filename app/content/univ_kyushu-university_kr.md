@@ -5,7 +5,7 @@ basic_info:
   name_ja: 九州大学
   website: https://www.kyushu-u.ac.jp/
 category: university
-date: '2026-04-27'
+date: '2026-07-20'
 description: 규슈대 진학을 준비하는 유학생을 위한 2026 가이드입니다. 입시 경로, 학비 계획, 장학금 전략을 정리했습니다.
 faculties:
 - Faculty of Humanities
@@ -50,6 +50,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

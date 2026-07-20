@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe International University
   name_ja: 神戸国際大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics
 - Faculty of Rehabilitation
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 830000
 ---
+
 
 ## 🏫 University Overview
 

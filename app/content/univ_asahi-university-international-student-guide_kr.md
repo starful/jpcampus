@@ -5,7 +5,7 @@ basic_info:
   name_en: Asahi University
   name_ja: 朝日大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 기후현에 위치한 아사히 대학은 일본 전국구 수준의 치의학부를 비롯하여 경영, 법학, 보건과학 등 실무 중심의 교육을 제공하는
   종합대학교입니다. 저렴한 물가와 충실한 유학생 지원 시스템을 갖추고 있습니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 학교 개요: 기후현으로 가는 관문
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Japan University of Economics
   name_ja: 日本経済大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: 일본경제대학교(JUE)의 2026학년도 최신 입학 정보. 도쿄 및 후쿠오카 캠퍼스 특징, 장학 혜택, 학비 및 취업 지원 정보를
   확인해 보세요.
 faculties:
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 280000
   yearly_tuition: 1180000
 ---
+
 
 
 ## 대학교 개요

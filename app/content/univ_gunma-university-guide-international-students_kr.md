@@ -5,7 +5,7 @@ basic_info:
   name_en: Gunma University
   name_ja: 群馬大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 군마대학교는 간토 지역 중심부에 위치한 명문 국립 대학입니다. 의학 및 공학 분야에서 뛰어난 연구 성과를 자랑하며, 국제 학생들에게
   저렴한 생활비와 글로벌 통합을 우선시하는 지원적인 환경을 제공합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요: 혁신과 전통의 중심지
 

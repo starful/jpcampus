@@ -33,7 +33,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: キャリア形成実用日本語学科 (2年午後コース)
   total_fees: 1630000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized University/Graduate School Progression Support
@@ -72,6 +72,7 @@ seo_title: Osaka YMCA Gakuin | 2026 Tuition, Admission & Reviews - JP Campus
 seo_description: Thinking of studying at Osaka YMCA Gakuin? Check 2026 tuition, courses,
   admission requirements, and student reviews on JP Campus.
 ---
+
 
 
 ## 🏫 School Overview & Philosophy

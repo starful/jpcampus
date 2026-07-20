@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 진학 과정 1년 코스
   total_fees: 816000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Toyo Language School은 도쿄에 위치한 대규모 어학 기관으로, 체계적인 진학 준비를 제공합니다. EJU 및 대학원
   진학 대비반을 운영하며, 기숙사 의무 옵션과 특화된 미술 디자인 과정을 제공합니다.
 faculties: []
@@ -54,6 +54,7 @@ title: Toyo Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

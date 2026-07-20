@@ -12,9 +12,10 @@
   ],
   "description": "Our curated selection for No Japanese Needed: Top 5 Universities with English Degree Programs.",
   "thumbnail": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # No Japanese Needed: Top 5 Universities with English Degree Programs
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1月コース
   total_fees: 924350
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized Curriculum for University and Graduate School Progression
@@ -43,6 +43,7 @@ title: Japan Tokyo International Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏢 1) School Overview & Philosophy
 

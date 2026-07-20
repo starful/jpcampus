@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima Institute of Technology
   name_ja: 広島工業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Applied Information Technology
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1395000
 ---
+
 
 ## 🏫 University Overview: The Spirit of Innovation in Hiroshima
 

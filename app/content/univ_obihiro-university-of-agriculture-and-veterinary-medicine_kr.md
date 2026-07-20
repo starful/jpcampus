@@ -5,7 +5,7 @@ basic_info:
   name_en: Obihiro University of Agriculture and Veterinary Medicine
   name_ja: 帯広畜産大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 홋카이도에 위치한 오비히로 축산대학교는 일본 유일의 농축산 수의학 전문 국립대학입니다. 도카치 지역의 풍부한 자연 환경과 실용적인
   교육을 통해 세계적인 전문가를 양성합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 소개
 

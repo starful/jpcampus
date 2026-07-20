@@ -5,7 +5,7 @@ basic_info:
   name_en: Ehime University
   name_ja: 愛媛大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Law and Letters
 - Faculty of Education
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

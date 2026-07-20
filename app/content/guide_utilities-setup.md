@@ -9,9 +9,10 @@
   ],
   "description": "A guide to contacting utility companies.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-03-03"
+  "date": "2026-07-20"
 }
 ---
+
 
 Congratulations on your move to Japan! Whether you are here for a long-term degree, a language exchange, or a specialized technical program, securing your first apartment is a monumental milestone. However, in Japan, most apartments are handed over "empty," meaning the lights won’t turn on, the water won’t run, and the stove won’t light until you’ve officially registered with the utility providers.
 

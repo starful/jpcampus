@@ -21,7 +21,7 @@ courses:
 - admission_month: 4,7,10
   course_name: 一般1年コース
   total_fees: 816000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - On-site Dormitory Facilities for immediate and secure settlement
@@ -48,6 +48,7 @@ title: Asia Tomonokai Foreign Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

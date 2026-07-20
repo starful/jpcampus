@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Prefectural University of Medicine
   name_ja: 京都府立医科大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Explore Kyoto Prefectural University of Medicine. Find 2026 admission
   guidelines, tuition fees, and helpful resources for international students.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

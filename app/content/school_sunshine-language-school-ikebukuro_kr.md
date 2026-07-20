@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 1041000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 이케부쿠로에 위치한 선샤인 랭귀지 스쿨은 대학 진학을 위한 집중적인 커리큘럼과 다양한 장학금, 학교 운영 기숙사를 제공합니다.
   EJU 시험 준비에 특화되어 있습니다.
 faculties: []
@@ -46,6 +46,7 @@ thumbnail: /static/img/pin-school.png
 title: 선샤인 랭귀지 스쿨
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

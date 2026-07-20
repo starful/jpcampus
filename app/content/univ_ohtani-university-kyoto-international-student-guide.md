@@ -5,7 +5,7 @@ basic_info:
   name_en: Ohtani University
   name_ja: 大谷大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Buddhist Studies
 - Faculty of Letters
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1080000
 ---
+
 
 ## 🏫 University Overview
 Ohtani University (大谷大学) is a private institution located in the historical Kita-ku district of Kyoto. With a legacy dating back to 1665, when it was established as a seminary for the Otani-ha branch of Jodo Shinshu (True Pure Land School) Buddhism, it has evolved into a comprehensive humanities-focused university. For international students, Ohtani offers a unique atmosphere that blends traditional Japanese values with rigorous academic research in the liberal arts.

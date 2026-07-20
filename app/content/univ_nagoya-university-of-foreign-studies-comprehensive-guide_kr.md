@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya University of Foreign Studies
   name_ja: 名古屋外国語大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 중부 지역을 대표하는 외국어 및 국제학 교육의 중심지인 나고야 외국어대학교(NUFS)를 소개합니다. 4:1 소수 정예
   수업인 PUT 시스템과 강력한 글로벌 취업 지원이 특징입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1170000
 ---
+
 
 ## 🏫 대학 개요
 나고야 외국어대학교(Nagoya University of Foreign Studies, 이하 NUFS)는 일본 아이치현 닛신시에 위치한 명문 사립대학교로, 나고야 대도시권에 자리 잡고 있습니다. 1988년에 설립된 이래 일본 중부 지역에서 외국어 학습과 국제 교육을 선도하는 기관으로 빠르게 성장해 왔습니다.

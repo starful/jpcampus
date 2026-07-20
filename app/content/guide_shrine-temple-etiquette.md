@@ -9,9 +9,10 @@
   ],
   "description": "The difference between a 'jinja' and 'tera' and how to pray.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Visiting Shrines & Temples: A Comprehensive Guide for International Students
 

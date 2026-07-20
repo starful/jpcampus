@@ -9,7 +9,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: General 2-Year Course
   total_fees: 1507000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 신주쿠에 위치한 엘리트 일본어학교는 대학 진학을 위한 집중적인 일본어 교육을 제공합니다. EJU 대비 프로그램, 다양한
   장학금 기회, 기숙사 지원 등 유학생을 위한 최적의 환경을 제공합니다.
 faculties: []
@@ -40,6 +40,7 @@ title: 엘리트 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 이념
 

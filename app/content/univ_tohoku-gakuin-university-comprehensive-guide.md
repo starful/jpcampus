@@ -5,7 +5,7 @@ basic_info:
   name_en: Tohoku Gakuin University
   name_ja: 東北学院大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Literature
 - Faculty of Economics
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 University Overview
 

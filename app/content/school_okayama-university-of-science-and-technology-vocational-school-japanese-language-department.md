@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1026000
-date: '2026-01-28'
+date: '2026-07-20'
 description: Located in Okayama, this school offers comprehensive Japanese language
   education with a focus on university preparation, dormitory accommodation, and EJU
   exam training.
@@ -44,6 +44,7 @@ title: Okayama Institute of Science and Technology Japanese Language Department
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

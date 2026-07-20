@@ -5,7 +5,7 @@ basic_info:
   name_en: Dokkyo University
   name_ja: 獨協大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 사이타마현 소카시에 위치한 독쿄대학교는 언어 교육 및 국제 연구 분야에서 일본 최고의 사립 대학 중 하나로 널리 알려져 있습니다.
   국제 학생들을 위한 다양한 지원 시스템과 독특한 학습 환경을 제공합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 880000
 ---
+
 
 ## 🏫 학교 개요
 

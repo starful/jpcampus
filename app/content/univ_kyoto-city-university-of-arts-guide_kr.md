@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto City University of Arts
   name_ja: 京都市立芸術大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 일본 교토에 위치한 교토시립예술대학교에 대한 안내입니다.
 faculties:
 - Faculty of Fine Arts
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 482000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

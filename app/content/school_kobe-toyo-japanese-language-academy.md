@@ -30,7 +30,7 @@ courses:
 - admission_month: '1'
   course_name: 冬コースⅡ
   total_fees: 881000
-date: '2026-06-19'
+date: '2026-07-20'
 description: Explore Kobe Toyo Japanese Language Academy. Find updated 2026 tuition
   fees, courses, student reviews, and step-by-step visa support on JP Campus.
 faculties: []
@@ -74,6 +74,7 @@ title: Kobe Toyo Japanese Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview
 

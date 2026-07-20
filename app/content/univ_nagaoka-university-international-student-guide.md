@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagaoka University
   name_ja: 長岡大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Economic Management
 features:
@@ -32,6 +32,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 University Overview: The Heart of Regional Revitalization
 

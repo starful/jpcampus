@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: Advanced Studies 1 Year 3-Month Course
   total_fees: 862000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - University Admission Focus
@@ -49,6 +49,7 @@ title: Kokusai Academy Japanese Language Institute
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

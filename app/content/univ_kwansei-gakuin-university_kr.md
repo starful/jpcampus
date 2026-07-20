@@ -5,7 +5,7 @@ basic_info:
   name_ja: 関西学院大学
   website: https://www.kwansei.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 간세이 가쿠인 대학은 유서 깊은 역사와 국제적인 인재 양성에 헌신하는 명문 사립 종합 대학입니다. 다양한 학부와 폭넓은 국제
   교류 프로그램을 제공합니다.
 faculties:
@@ -50,6 +50,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## 대학 개요
 

@@ -9,9 +9,10 @@
   ],
   "description": "How to save money by using Japan's biggest C2C marketplace.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-04-04"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Master the Marketplace: A Comprehensive Guide to Mercari Japan for International Students
 

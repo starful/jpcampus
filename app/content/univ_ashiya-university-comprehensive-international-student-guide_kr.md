@@ -5,7 +5,7 @@ basic_info:
   name_en: Ashiya University
   name_ja: 芦屋大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 일본 최고의 부촌 록쿠록쿠소에 위치한 아시야 대학교는 소수 정예 교육과 임상심리, 아동교육 분야에서 탁월한 강점을 가진 사립
   대학입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 대학 개요
 

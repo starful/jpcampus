@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Gakuin University
   name_ja: 大阪学院大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Commerce
 - Faculty of Business Administration
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1080000
 ---
+
 
 ## 🏫 University Overview
 

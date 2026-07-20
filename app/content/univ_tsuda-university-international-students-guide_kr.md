@@ -5,7 +5,7 @@ basic_info:
   name_en: Tsuda University
   name_ja: 津田塾大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 쓰다 쥬쿠 대학교는 일본의 명문 여자 대학교 중 하나입니다. 국제 학생들을 위한 다양한 지원 시스템과 높은 취업률을 자랑합니다.
 faculties:
 - Faculty of Liberal Arts
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 대학교 개요
 

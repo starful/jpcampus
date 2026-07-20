@@ -9,9 +9,10 @@
   ],
   "description": "How to save money with T-Point, Ponta, and Rakuten Points.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-03-15"
+  "date": "2026-07-20"
 }
 ---
+
 
 # 'Pointo Kādo': Mastering Japan's Loyalty Card Culture
 

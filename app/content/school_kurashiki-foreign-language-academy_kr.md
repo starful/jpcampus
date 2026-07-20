@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: University Progression 1.5-Year Course
   total_fees: 1082000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 구라시키 외국어 학원은 오카야마 현 구라시키시에 위치한 명문 어학원입니다. 대학 진학을 위한 체계적인 커리큘럼과 다양한 숙소
   옵션을 제공합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 구라시키 외국어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

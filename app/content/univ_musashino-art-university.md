@@ -5,7 +5,7 @@ basic_info:
   name_ja: 武蔵野美術大学
   website: https://www.musabi.ac.jp/
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: An ultimate guide to Musashino Art University (MAU) admissions for international
   students, covering portfolios, tuition, and application requirements.
 faculties:
@@ -48,6 +48,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1800000
 ---
+
 
 ## University Overview & Reputation
 

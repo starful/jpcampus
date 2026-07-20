@@ -5,7 +5,7 @@ basic_info:
   name_en: Wakayama University
   name_ja: 和歌山大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 와카야마 대학교는 간사이 지역의 아름다운 와카야마현에 위치한 명문 국립 대학입니다. 관광 학부와 시스템 공학 분야에서 뛰어난
   강점을 가지고 있습니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 개요
 

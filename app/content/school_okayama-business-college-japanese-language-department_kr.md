@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.5年コース
   total_fees: 1045000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오카야마 비즈니스 칼리지 일본어학과는 대학 진학을 위한 체계적인 준비와 일본 문화 적응을 돕는 교육을 제공합니다. 자세한 정보와
   커리큘럼을 확인하세요.
 faculties: []
@@ -48,6 +48,7 @@ thumbnail: /static/img/pin-school.png
 title: Okayama Business College - 일본어학과
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

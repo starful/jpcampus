@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1030000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - On-Campus/Affiliated Dormitory
@@ -50,6 +50,7 @@ thumbnail: /static/img/pin-school.png
 title: Fukaya Kokusai Gaigo Gakuin (Fukaya International Language School)
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

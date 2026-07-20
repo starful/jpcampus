@@ -5,7 +5,7 @@ basic_info:
   name_en: National Institute of Fitness and Sports in Kanoya
   name_ja: 鹿屋体育大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Physical Education
 - Graduate School of Physical Education
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: The Pinnacle of Sports Science in Japan
 

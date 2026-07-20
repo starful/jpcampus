@@ -5,7 +5,7 @@ basic_info:
   name_en: Toyama University of International Studies
   name_ja: 富山国際大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 글로벌 감각과 지역 사회의 상생을 배우는 '글로컬(Glocal)' 교육의 중심, 도야마국제대학교를 소개합니다. ICT 교육과
   실무 중심의 관광 커리큘럼, 풍부한 장학 혜택을 확인해 보세요.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 730000
 ---
+
 
 ## 🏫 대학 개요
 

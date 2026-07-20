@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1150000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 아이치 코토노하学院는 아이치현에서 수준 높은 일본어 교육을 제공하며, 대학 진학 준비, EJU 시험, 실용적인 회화 능력 향상에
   중점을 두고 있습니다.
 faculties: []
@@ -43,6 +43,7 @@ title: 아이치 코토노하学院
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kobe City University of Foreign Studies
   name_ja: 神戸市外国語大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 고베시 외국어 대학교(KCUFS)는 외국어 학습과 국제 교류에 중점을 둔 명문 국립 대학입니다. 소규모 그룹 교육과 다양한
   국제 프로그램을 제공합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

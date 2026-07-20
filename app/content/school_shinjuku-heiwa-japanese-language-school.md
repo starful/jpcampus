@@ -41,8 +41,8 @@ basic_info:
   thumbnail: /static/img/pin-school.png
   title: Shinjuku Heiwa Japanese Language School
   tuition: {}
-content_body: "## \U0001F3EB School Overview & Philosophy"
-date: '2026-01-28'
+content_body: '## 🏫 School Overview & Philosophy'
+date: '2026-07-20'
 description: 'Discover Shinjuku Heiwa Japanese Language School in Tokyo: a leading
   institution for Japanese language education, specializing in university preparation.
   Explore courses, campus life, and accommodation options.'
@@ -55,6 +55,7 @@ lang: en
 title: Shinjuku Heiwa Japanese Language School
 translated: true
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

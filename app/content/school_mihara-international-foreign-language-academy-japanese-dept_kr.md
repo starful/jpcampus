@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.5年コース
   total_fees: 955000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 히로시마현 미하라시에 위치한 미하라 국제외어학원 일본어학과에 대한 소개입니다. EJU 시험 대비, 대학 진학 지원, 기숙사
   시설 등의 특징을 제공합니다.
 faculties: []
@@ -46,6 +46,7 @@ title: 미하라 국제외어학원 일본어학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

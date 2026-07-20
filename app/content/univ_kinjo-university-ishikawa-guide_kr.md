@@ -5,7 +5,7 @@ basic_info:
   name_en: Kinjo University
   name_ja: 金城大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 이시카와현에 위치한 긴조 대학은 보건, 의료, 복지 분야의 전문가 양성에 특화된 사립 대학교입니다. 높은 국가시험 합격률과
   지역 사회와의 긴밀한 연계를 통해 일본 내 취업에 강력한 강점을 가지고 있습니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 대학 개요: 이시카와현 복지와 보건의 중심
 

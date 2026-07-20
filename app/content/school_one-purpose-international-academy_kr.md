@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 大学進学1年3ヵ月コース
   total_fees: 892500
-date: '2026-01-28'
+date: '2026-07-20'
 description: One Purpose International Academy는 일본 오사카에서 종합적인 일본어 교육을 제공합니다. 기숙사,
   장학금, 대학 입학 및 비즈니스 일본어 과정 등의 특징을 제공합니다.
 faculties: []
@@ -53,6 +53,7 @@ title: One Purpose International Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요
 

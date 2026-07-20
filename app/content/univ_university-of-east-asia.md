@@ -5,7 +5,7 @@ basic_info:
   name_en: University of East Asia
   name_ja: 東亜大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Human Sciences
 - Faculty of Medical Science
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 University Overview
 

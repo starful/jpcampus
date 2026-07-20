@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 進学課程1年コース
   total_fees: 816000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Toyo Language School is a high-capacity language institution in Tokyo
   focused on academic advancement, offering specialized EJU and graduate school preparation,
   along with mandatory dormitory options and a dedicated art and design pathway.
@@ -55,6 +55,7 @@ title: Toyo Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

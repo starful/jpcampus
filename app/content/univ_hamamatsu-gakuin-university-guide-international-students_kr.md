@@ -5,7 +5,7 @@ basic_info:
   name_en: Hamamatsu Gakuin University
   name_ja: 浜松学院大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 시즈오카현 하마마츠시에 위치한 하마마츠 가쿠인 대학교는 지역 사회와 밀착된 실무 교육과 높은 취업률을 자랑하는 사립 대학입니다.
   외국인 유학생을 위한 풍부한 학비 감면 혜택과 소수 정예 교육 환경을 제공합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 740000
 ---
+
 
 ## 🏫 대학 개요: 일본 중부 지역으로 가는 관문
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kurume University
   name_ja: 久留米大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Medicine
 - Faculty of Literature
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 Kurume University (久留米大学, Kurume Daigaku) is a prestigious private university located in the heart of Kurume City, Fukuoka Prefecture, on the island of Kyushu. Established in 1928, it originally began as Kyushu Medical School, reflecting its deeply rooted expertise in the medical sciences. Over the nearly 100 years since its founding, it has expanded into a comprehensive institution that bridges the gap between traditional medicine and the modern social sciences. 

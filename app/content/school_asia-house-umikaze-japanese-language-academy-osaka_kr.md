@@ -15,7 +15,7 @@ courses:
 - admission_month: '7'
   course_name: 1.75-Year University Prep Course
   total_fees: 1316500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카에 위치한 아시아 하우스 부속 우미카제 일본어학원은 대학 진학을 목표로 하는 학생들을 위한 일본어 교육 기관입니다.
 faculties: []
 features:
@@ -43,6 +43,7 @@ title: 아시아 하우스 부속 우미카제 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

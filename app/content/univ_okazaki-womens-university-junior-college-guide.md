@@ -5,7 +5,7 @@ basic_info:
   name_en: Okazaki Women's University / Okazaki Women's Junior College
   name_ja: 岡崎女子大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Children's Studies
 - Department of Early Childhood Education (Junior College)
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 Okazaki Women's University (Okazaki Joshi Daigaku) and its affiliated Okazaki Women's Junior College are prestigious private institutions located in the historic city of Okazaki, Aichi Prefecture. Established with a profound commitment to women's empowerment through education, the institution has built a formidable reputation as a leading training ground for professionals in childcare, elementary education, and contemporary business. For over half a century, the college has adhered to its founding principles of 'Sincerity, Diligence, and Kindness,' fostering an environment where students can develop both professional expertise and humanistic values. The campus provides an intimate learning atmosphere where the faculty-to-student ratio is kept low, ensuring that every student—including international applicants—receives personalized guidance and mentorship.

@@ -12,7 +12,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般会話コース
   total_fees: 1162500
-date: '2026-01-28'
+date: '2026-07-20'
 description: The Kudan Institute of Japanese Language and Culture, located in central
   Tokyo, offers personalized Japanese language education with a strong focus on university
   preparation and practical communication skills.
@@ -42,6 +42,7 @@ title: Kudan Institute of Japanese Language and Culture
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

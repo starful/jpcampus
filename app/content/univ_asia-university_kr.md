@@ -5,7 +5,7 @@ basic_info:
   name_ja: 亜細亜大学
   website: https://www.asia-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 무사시노에 위치한 아시아 대학은 글로벌 관점과 실무 능력을 키우는 데 주력하는 명문 사립 대학입니다. 영어 프로그램,
   기숙사, 장학금 등 다양한 혜택을 제공합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 대학 소개
 

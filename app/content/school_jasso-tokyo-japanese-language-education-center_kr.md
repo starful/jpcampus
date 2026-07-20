@@ -19,7 +19,7 @@ courses:
 - admission_month: '10'
   course_name: 進学課程1年半コース
   total_fees: 1192337
-date: '2026-01-28'
+date: '2026-07-20'
 description: JASSO (일본학생지원기구)에서 운영하는 동경 일본어 교육 센터에 대해 자세히 알아보세요. 대학/대학원 진학을 위한 최적의
   교육 환경을 제공합니다.
 faculties: []
@@ -49,6 +49,7 @@ thumbnail: /static/img/pin-school.png
 title: JASSO 동경 일본어 교육 센터 (일본학생지원기구)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

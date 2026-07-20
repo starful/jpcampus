@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 2-Year Course
   total_fees: 1339000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 일본국제공과전문학교 일본어학과는 일본의 고등 교육 기관 진학 또는 취업을 목표로 하는 유학생을 위한 맞춤형 교육 환경을 제공합니다.
 faculties: []
 features:
@@ -51,6 +51,7 @@ title: 일본국제공과전문학교 일본어학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

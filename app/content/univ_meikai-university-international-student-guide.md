@@ -5,7 +5,7 @@ basic_info:
   name_en: Meikai University
   name_ja: 明海大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Dentistry
 - Faculty of Applied Foreign Languages
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1250000
 ---
+
 
 ## University Overview
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 十月期生
   total_fees: 1146000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 활기 넘치는 신주쿠에 위치한 신주쿠 교엔 학원은 대학 진학을 목표로 하는 학생들에게 최적의 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -46,6 +46,7 @@ title: 신주쿠 교엔 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

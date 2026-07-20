@@ -6,7 +6,7 @@ basic_info:
   name_en: Akita International University
   name_ja: 国際教養大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 아키타 국제 대학교 (AIU)는 일본의 혁신적인 국제 리버럴 아츠 대학교입니다. 영어로 진행되는 교육 과정, 의무적인 1년
   해외 유학, 그리고 높은 취업률을 자랑합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 696000
 ---
+
 
 ## 🏫 대학교 개요: AIU의 혁신
 

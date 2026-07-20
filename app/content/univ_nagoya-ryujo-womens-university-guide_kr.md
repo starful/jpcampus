@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya Ryujo Women's University
   name_ja: 名古屋柳城女子大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 120년 이상의 역사를 가진 유아교육의 명문, 나고야 류죠 여자대학을 소개합니다. 높은 취업률과 소수 정예 교육을 통해 일본
   내 전문 보육사와 유치원 교사를 양성합니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1340000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Toyo Eiwa University
   name_ja: 東洋英和女学院大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - 인간과학부
 - 국제사회학부
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요: 전통과 역사를 자랑하는 도요에이와여학원대학
 

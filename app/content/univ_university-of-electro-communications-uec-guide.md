@@ -5,7 +5,7 @@ basic_info:
   name_en: The University of Electro-Communications
   name_ja: 電気通信大学
 category: university
-date: '2026-04-27'
+date: '2026-07-20'
 description: A 2026 admissions guide to the University of Electro-Communications for
   international students pursuing engineering and computer science.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

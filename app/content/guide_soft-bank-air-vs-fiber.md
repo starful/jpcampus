@@ -9,9 +9,10 @@
   ],
   "description": "Pros and cons of 'no-construction' Wi-Fi vs high-speed fiber.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-04-04"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Choosing Your Connection: SoftBank Air vs. Fiber Optic Internet for Students in Japan
 

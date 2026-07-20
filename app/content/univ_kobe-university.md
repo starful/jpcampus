@@ -5,7 +5,7 @@ basic_info:
   name_ja: 神戸大学
   website: https://www.kobe-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Human Development
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview & Reputation
 

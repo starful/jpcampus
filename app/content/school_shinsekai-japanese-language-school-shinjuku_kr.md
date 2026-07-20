@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.6年コース
   total_fees: 1130000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 신주쿠에 위치한 신세카이 일본어 학교는 대학/대학원 진학을 목표로 하는 학생들을 위한 집중적인 교육을 제공합니다.
 faculties: []
 features:
@@ -39,6 +39,7 @@ title: 신세카이 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

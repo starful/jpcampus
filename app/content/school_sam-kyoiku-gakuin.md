@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヶ月コース
   total_fees: 904850
-date: '2026-01-28'
+date: '2026-07-20'
 description: Located in Shinjuku, Tokyo, Samu Education Academy prepares international
   students for Japanese universities with courses focusing on language, EJU prep,
   and science. Features include university guidance and short-term options.
@@ -50,6 +50,7 @@ title: Samu Education Academy
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

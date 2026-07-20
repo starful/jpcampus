@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1420000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 구마모토에 위치한 일본어 학교로, 소규모 학급과 맞춤형 지원을 통해 일본 대학 진학을 목표로 하는 학생들을 위한 과정을 제공합니다.
 faculties: []
 features:
@@ -58,6 +58,7 @@ title: 구마모토 YMCA 학원 일본어학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Kogakkan University
   name_ja: 皇學館大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본의 정신적 고향인 이세(Ise)에 위치하여 신도(神道)와 일본 전통문화를 깊이 있게 연구하며, 우수한 교원을 양성하는 코가칸
   대학교입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 760000
 ---
+
 
 ## 🏫 대학 개요: 일본 교육의 정신적 지주
 

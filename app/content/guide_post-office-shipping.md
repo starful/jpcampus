@@ -9,9 +9,10 @@
   ],
   "description": "Sending gifts home using EMS, SAL, or Surface mail.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-04-19"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Master the Mail: A Comprehensive Guide to International Shipping via Japan Post
 

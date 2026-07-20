@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/18112
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 오사카 먼슬리맨션 아무르 HARMONYI. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -58,6 +58,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_18112.jpg
 title: 아무르 HARMONYI — 오사카 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

@@ -6,7 +6,7 @@ basic_info:
   name_en: Akita Prefectural University
   name_ja: 秋田県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 아키타현립대학교는 시스템 공학 및 생명 과학 분야에서 높은 연구 수준으로 빠르게 명성을 얻고 있는 명문 공립 대학입니다. 수준
   높은 연구 시설, 훌륭한 교수진 비율, 저렴한 생활비 등 유학을 고려하는 학생들에게 매력적인 선택지입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

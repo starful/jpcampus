@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 大学進学1年3ヵ月コース
   total_fees: 892500
-date: '2026-01-28'
+date: '2026-07-20'
 description: One Purpose International Academy offers comprehensive Japanese language
   education in Osaka, Japan. Features include dormitory accommodation, scholarships,
   and courses for university admission and business Japanese.
@@ -54,6 +54,7 @@ title: One Purpose International Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview
 

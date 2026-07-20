@@ -1,6 +1,6 @@
 ---
 category: Budget
-date: '2026-01-28'
+date: '2026-07-20'
 description: How to transfer tuition and living funds from abroad.
 id: remittance
 lang: en
@@ -10,6 +10,7 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500
 title: 'Sending Money to Japan: Best Methods & Fees'
 ---
+
 
 # Sending Money to Japan: Best Methods, Cheapest Fees, and Fastest Transfers for International Students
 

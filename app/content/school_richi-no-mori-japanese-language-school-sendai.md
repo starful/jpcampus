@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Progression Course (1 Year 6 Months)
   total_fees: 1050000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dedicated Dormitory Options (including Single Rooms)
@@ -47,6 +47,7 @@ title: Richi no Mori Japanese Language School, Sendai Campus
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

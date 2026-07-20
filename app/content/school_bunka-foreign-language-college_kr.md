@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Japanese Language Advancement Course (October Term)
   total_fees: 1597000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 시부야에 위치한 분카 외국어 전문학교는 일본 대학 및 전문학교 진학을 위한 체계적인 일본어 교육을 제공합니다. EJU
   시험 대비, 기숙사 지원 등 유학생에게 필요한 맞춤형 지원을 제공합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 분카 외국어 전문학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

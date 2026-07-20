@@ -9,9 +9,10 @@
   ],
   "description": "The art of shopping at supermarkets after 7 PM.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-03-03"
+  "date": "2026-07-20"
 }
 ---
+
 
 # 'Hangaku' Hunting: How to Buy Food for Half-Price
 

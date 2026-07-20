@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/house/130
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 니이자시 셰어하우스 메이플하우스 A (히바리가오카). 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -66,6 +66,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_130.jpg
 title: 메이플하우스 A (히바리가오카) — 니이자시 유학생 셰어하우스
 ---
+
 
 ## 시설 소개
 

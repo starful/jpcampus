@@ -5,7 +5,7 @@ basic_info:
   name_en: Kochi University
   name_ja: 高知大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities and Social Sciences
 - Faculty of Education
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 Kochi University is a prestigious national university located on the southern coast of Shikoku Island, Japan. Established in 1949, it has evolved into a leading institution for regional innovation and global research, particularly known for its connection to the Pacific Ocean and the unique geography of Kochi Prefecture. The university operates under the philosophy of "from the local to the global," aiming to solve regional challenges that have global implications, such as disaster management, environmental conservation, and sustainable agriculture.

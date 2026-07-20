@@ -5,7 +5,7 @@ basic_info:
   name_en: Hirosaki University
   name_ja: 弘前大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Humanities and Social Sciences
 - Faculty of Education
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 Hirosaki University, located in the heart of Aomori Prefecture, stands as one of Japan’s most respected national universities. Established in 1949, it has evolved into a comprehensive research institution that balances global academic standards with a deep commitment to regional development. Known for its tagline, 'The world may be wide, but Hirosaki is our home,' the university emphasizes the importance of 'local roots and global reach.' For international students, Hirosaki University offers a unique blend of high-quality education, cutting-edge research opportunities, and an authentic Japanese cultural experience that is often lost in larger cities like Tokyo or Osaka.

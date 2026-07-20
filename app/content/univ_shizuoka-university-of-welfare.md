@@ -5,7 +5,7 @@ basic_info:
   name_en: Shizuoka University of Welfare
   name_ja: 静岡福祉大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Social Welfare
 - Faculty of Child Education
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview: The Heart of Community Care
 

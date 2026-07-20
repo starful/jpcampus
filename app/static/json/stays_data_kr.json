@@ -1,1 +1,2693 @@
-{"last_updated": "2026-07-18", "stays": [{"id": "sakura_tsutsujigaoka", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "SAKURA HOUSE CHOFU TSUTSUJIGAOKA", "name_ja": "사쿠라 하우스 CHOFU TSUTSUJIGAOKA", "name_display": "사쿠라 하우스 CHOFU TSUTSUJIGAOKA — 도쿄도調布市 유학생 셰어하우스", "address": "도쿄도調布市菊野台3-36-44", "operator": "Sakura House"}, "location": {"lat": 35.652213, "lng": 139.570892}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/tsutsujigaoka", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_tsutsujigaoka.jpg", "link": "/stay/sakura_tsutsujigaoka?lang=kr"}, {"id": "sakura_kyoto_imadegawa_l", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-18", "basic_info": {"name_en": "SAKURA HOUSE KYOTO B (Former Kyoto L)", "name_ja": "사쿠라 하우스 KYOTO B (Former Kyoto L)", "name_display": "사쿠라 하우스 KYOTO B (Former Kyoto L) — 교토부교토시上京区中筋通大宮西入横大宮町 유학생 게스트하우스", "address": "교토부교토시上京区中筋通大宮西入横大宮町204", "operator": "Sakura House"}, "location": {"lat": 35.029252, "lng": 135.74762}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/kyoto-imadegawa-l", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_kyoto_imadegawa_l.jpg", "link": "/stay/sakura_kyoto_imadegawa_l?lang=kr"}, {"id": "sakura_kyoto_imadegawa", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "SAKURA HOUSE KYOTO A (Former Kyoto R)", "name_ja": "사쿠라 하우스 KYOTO A (Former Kyoto R)", "name_display": "사쿠라 하우스 KYOTO A (Former Kyoto R) — 교토부교토시上京区中筋通大宮西入横大宮町 유학생 먼슬리맨션", "address": "교토부교토시上京区中筋通大宮西入横大宮町204", "operator": "Sakura House"}, "location": {"lat": 35.029283, "lng": 135.7476}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/kyoto-imadegawa", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_kyoto_imadegawa.jpg", "link": "/stay/sakura_kyoto_imadegawa?lang=kr"}, {"id": "sakura_kyoto_annex", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-18", "basic_info": {"name_en": "SAKURA HOUSE KYOTO C (Former Kyoto Annex)", "name_ja": "사쿠라 하우스 KYOTO C (Former Kyoto Annex)", "name_display": "사쿠라 하우스 KYOTO C (Former Kyoto Annex) — 교토부교토시上京区横大宮町 유학생 게스트하우스", "address": "교토부교토시上京区横大宮町２０２", "operator": "Sakura House"}, "location": {"lat": 35.029365, "lng": 135.74753}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/kyoto-annex", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_kyoto_annex.jpg", "link": "/stay/sakura_kyoto_annex?lang=kr"}, {"id": "sakura_ascot_koenji", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "SAKURA HOUSE ASCOT KOENJI (TOKYO APARTMENTS)", "name_ja": "사쿠라 하우스 ASCOT KOENJI (TOKYO APARTMENTS)", "name_display": "사쿠라 하우스 ASCOT KOENJI (TOKYO APARTMENTS) — 도쿄도스기나미구 유학생 먼슬리맨션", "address": "도쿄도스기나미구高円寺北1丁目23番6号", "operator": "Sakura House"}, "location": {"lat": 35.7089995, "lng": 139.6551352}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/ascot-koenji", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_ascot_koenji.jpg", "link": "/stay/sakura_ascot_koenji?lang=kr"}, {"id": "sakura_ascot_hatagaya", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "SAKURA HOUSE ASCOT HATAGAYA (TOKYO APARTMENTS)", "name_ja": "사쿠라 하우스 ASCOT HATAGAYA (TOKYO APARTMENTS)", "name_display": "사쿠라 하우스 ASCOT HATAGAYA (TOKYO APARTMENTS) — 도쿄도시부야구 유학생 먼슬리맨션", "address": "도쿄도시부야구幡ヶ谷1-20-5", "operator": "Sakura House"}, "location": {"lat": 35.6748, "lng": 139.673}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/ascot-hatagaya", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_ascot_hatagaya.jpg", "link": "/stay/sakura_ascot_hatagaya?lang=kr"}, {"id": "sakura_asakusa_kuramae", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "SAKURA HOUSE ASAKUSA KURAMAE", "name_ja": "사쿠라 하우스 ASAKUSA KURAMAE", "name_display": "사쿠라 하우스 ASAKUSA KURAMAE — 도쿄도다이토구 유학생 셰어하우스", "address": "도쿄도다이토구寿3-13-14", "operator": "Sakura House"}, "location": {"lat": 35.706402702, "lng": 139.792601019}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/asakusa-kuramae", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_asakusa_kuramae.jpg", "link": "/stay/sakura_asakusa_kuramae?lang=kr"}, {"id": "oakhouse_976", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "GRAN TODA", "name_ja": "그랑 토다", "name_display": "그랑 토다 — 토다시 유학생 셰어하우스", "address": "사이타마켄 토다시 사사메", "operator": "Oakhouse"}, "location": {"lat": 35.8180046, "lng": 139.6556091}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/976", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_976.jpg", "link": "/stay/oakhouse_976?lang=kr"}, {"id": "oakhouse_700", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "SOCIAL RESIDENCE FUNABASHI", "name_ja": "SOCIAL RESIDENCE 후나바시", "name_display": "SOCIAL RESIDENCE 후나바시 — 후나바시시 유학생 셰어하우스", "address": "치바켄 후나바시시 모토나카야마", "operator": "Oakhouse"}, "location": {"lat": 35.7133865, "lng": 139.9422913}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/700", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_700.jpg", "link": "/stay/oakhouse_700?lang=kr"}, {"id": "oakhouse_18112", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Amour HARMONYI", "name_ja": "아무르 HARMONYI", "name_display": "아무르 HARMONYI — 오사카 유학생 먼슬리맨션", "address": "오사카 부 오사카 시 스가와라 1초메", "operator": "Oakhouse"}, "location": {"lat": 34.7367973, "lng": 135.5280762}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/18112", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_18112.jpg", "link": "/stay/oakhouse_18112?lang=kr"}, {"id": "oakhouse_17468", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "ALIKA HIKIFUNE 2", "name_ja": "ALIKA HIKIFUNE 2", "name_display": "ALIKA HIKIFUNE 2 — 스미다구 유학생 먼슬리맨션", "address": "도쿄도 스미다구", "operator": "Oakhouse"}, "location": {"lat": 35.7212486, "lng": 139.8257294}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17468", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17468.jpg", "link": "/stay/oakhouse_17468?lang=kr"}, {"id": "oakhouse_17441", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Huenet Kobe Motomachi", "name_ja": "휴넷 고베 모토마치", "name_display": "휴넷 고베 모토마치 — 고베시 유학생 먼슬리맨션", "address": "효고현 고베시 모토마치도리 5초메", "operator": "Oakhouse"}, "location": {"lat": 34.6858597, "lng": 135.1819}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17441", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17441.jpg", "link": "/stay/oakhouse_17441?lang=kr"}, {"id": "oakhouse_17326", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AILE Minami Tsukaguchi V", "name_ja": "AILE 미나미츠카구치 V", "name_display": "AILE 미나미츠카구치 V — 미나미츠카구 유학생 먼슬리맨션", "address": "효고현 아마가사키 시 미나미츠카구치초 8초메", "operator": "Oakhouse"}, "location": {"lat": 34.7523766, "lng": 135.4073334}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17326", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17326.jpg", "link": "/stay/oakhouse_17326?lang=kr"}, {"id": "oakhouse_17316", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "ALEGRIA Hiranohonmachi II", "name_ja": "ALEGRIA 히라노혼마치 Ⅱ", "name_display": "ALEGRIA 히라노혼마치 Ⅱ — 오사카 유학생 먼슬리맨션", "address": "오사카 부 오사카 시 히라노혼마치 3초메", "operator": "Oakhouse"}, "location": {"lat": 34.6238518, "lng": 135.5536804}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17316", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17316.jpg", "link": "/stay/oakhouse_17316?lang=kr"}, {"id": "oakhouse_17290", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "ARKMARK Ikebukuro Honcho", "name_ja": "ARKMARK 이케부쿠로 본점", "name_display": "ARKMARK 이케부쿠로 본점 — 토시마구 유학생 먼슬리맨션", "address": "도쿄도 토시마구 이케부쿠로 혼마치 2초메", "operator": "Oakhouse"}, "location": {"lat": 35.7417984, "lng": 139.7119446}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17290", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17290.jpg", "link": "/stay/oakhouse_17290?lang=kr"}, {"id": "oakhouse_17182", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Luminous Higashiurawa", "name_ja": "루미나스 히가시우라와", "name_display": "루미나스 히가시우라와 — 사이타마시 유학생 먼슬리맨션", "address": "사이타마현 사이타마시 히가시우라와 5초메", "operator": "Oakhouse"}, "location": {"lat": 35.8677521, "lng": 139.7062378}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17182", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17182.jpg", "link": "/stay/oakhouse_17182?lang=kr"}, {"id": "oakhouse_17103", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "G-Maison Goi Chuo Nishi Zephyr", "name_ja": "지메종 고이 츄오이 주오니시 제퍼", "name_display": "지메종 고이 츄오이 주오니시 제퍼 — 일본 유학생 먼슬리맨션", "address": "고이중앙서1초메", "operator": "Oakhouse"}, "location": {"lat": 35.5145416, "lng": 140.085968}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17103", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17103.jpg", "link": "/stay/oakhouse_17103?lang=kr"}, {"id": "oakhouse_17078", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Exelan Matsudo II", "name_ja": "엑셀랑 마쓰도 II", "name_display": "엑셀랑 마쓰도 II — 마쓰도시 유학생 먼슬리맨션", "address": "지바현 마쓰도시 마쓰도", "operator": "Oakhouse"}, "location": {"lat": 35.7844009, "lng": 139.8961487}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17078", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17078.jpg", "link": "/stay/oakhouse_17078?lang=kr"}, {"id": "oakhouse_17059", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "ERCity's Tachibana Ekimae", "name_ja": "ERCity's 다치바나 역 앞", "name_display": "ERCity's 다치바나 역 앞 — 효고 유학생 먼슬리맨션", "address": "효고현 아마가사키 시 나나마츠초 1초메", "operator": "Oakhouse"}, "location": {"lat": 34.7346573, "lng": 135.3998108}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/17059", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17059.jpg", "link": "/stay/oakhouse_17059?lang=kr"}, {"id": "oakhouse_16968", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Ampouleur Ferre Hannah Hannah", "name_ja": "앰풀루페르페르 한나한나", "name_display": "앰풀루페르페르 한나한나 — 일본 유학생 먼슬리맨션", "address": "Joutou Town", "operator": "Oakhouse"}, "location": {"lat": 34.8450508, "lng": 135.6278534}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16968", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16968.jpg", "link": "/stay/oakhouse_16968?lang=kr"}, {"id": "oakhouse_16967", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Ampleur Clage Amitié", "name_ja": "앙ンプルールクラージュアミティエ(앙ンプルールクラージュアミティエ)", "name_display": "앙ンプルールクラージュアミティエ(앙ンプルールクラージュアミティエ) — 일본 유학생 먼슬리맨션", "address": "카지마치 4초메", "operator": "Oakhouse"}, "location": {"lat": 34.7520943, "lng": 135.5892334}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16967", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16967.jpg", "link": "/stay/oakhouse_16967?lang=kr"}, {"id": "oakhouse_16956", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AILE Higashinakahama", "name_ja": "AILE 히가시나카하마", "name_display": "AILE 히가시나카하마 — 히가시 유학생 먼슬리맨션", "address": "오사카 부 오사카 시 히가시나카하마 8초메", "operator": "Oakhouse"}, "location": {"lat": 34.6841354, "lng": 135.5531311}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16956", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16956.jpg", "link": "/stay/oakhouse_16956?lang=kr"}, {"id": "oakhouse_16856", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Belle Grande Yoshinomachi", "name_ja": "벨그란데 요시노초", "name_display": "벨그란데 요시노초 — 요코하마시 유학생 먼슬리맨션", "address": "가나가와현 요코하마시 무츠초 2초메", "operator": "Oakhouse"}, "location": {"lat": 35.4283295, "lng": 139.6201477}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16856", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16856.jpg", "link": "/stay/oakhouse_16856?lang=kr"}, {"id": "oakhouse_16841", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "ARCA Nishikyogoku", "name_ja": "ARCA 니시쿄고쿠", "name_display": "ARCA 니시쿄고쿠 — 교토시 유학생 먼슬리맨션", "address": "교토부 교토시 니시쿄쿠가쿠하마노혼마치", "operator": "Oakhouse"}, "location": {"lat": 34.9947014, "lng": 135.7115631}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16841", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16841.jpg", "link": "/stay/oakhouse_16841?lang=kr"}, {"id": "oakhouse_16823", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AILE Shibashima", "name_ja": "AILE 시바지마", "name_display": "AILE 시바지마 — 오사카 유학생 먼슬리맨션", "address": "오사카 부 오사카 시 시바지마 2초메", "operator": "Oakhouse"}, "location": {"lat": 34.7301254, "lng": 135.5139465}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16823", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16823.jpg", "link": "/stay/oakhouse_16823?lang=kr"}, {"id": "oakhouse_16810", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Amista Ikuta", "name_ja": "아미스타 이쿠타", "name_display": "아미스타 이쿠타 — 가와사키시 유학생 먼슬리맨션", "address": "가나가와현 가와사키시 이쿠타 6초메", "operator": "Oakhouse"}, "location": {"lat": 35.6189346, "lng": 139.5379181}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16810", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16810.jpg", "link": "/stay/oakhouse_16810?lang=kr"}, {"id": "oakhouse_16736", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Estem Court Nagoya Shinsakae IV Nest", "name_ja": "에스팀코트 나고야 신에이 Ⅳ 네스트", "name_display": "에스팀코트 나고야 신에이 Ⅳ 네스트 — 아이치 유학생 먼슬리맨션", "address": "신에이 2초메", "operator": "Oakhouse"}, "location": {"lat": 35.1679535, "lng": 136.9203644}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16736", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16736.jpg", "link": "/stay/oakhouse_16736?lang=kr"}, {"id": "oakhouse_16685", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Ampleur Faire Gland Mob.", "name_ja": "앰플루르페르 Gland・Mob(몹)", "name_display": "앰플루르페르 Gland・Mob(몹) — 사타히가시 유학생 먼슬리맨션", "address": "사타히가시쵸 1초메", "operator": "Oakhouse"}, "location": {"lat": 34.7547073, "lng": 135.5852661}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16685", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16685.jpg", "link": "/stay/oakhouse_16685?lang=kr"}, {"id": "oakhouse_16670", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Amour HARMONY II", "name_ja": "아몰 HARMONYⅡ", "name_display": "아몰 HARMONYⅡ — 오사카 유학생 먼슬리맨션", "address": "오사카 부 오사카 시 스가와라 1초메", "operator": "Oakhouse"}, "location": {"lat": 34.7362556, "lng": 135.52771}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16670", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16670.jpg", "link": "/stay/oakhouse_16670?lang=kr"}, {"id": "oakhouse_16667", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "FIORE", "name_ja": "FIORE", "name_display": "FIORE — 니시 유학생 먼슬리맨션", "address": "니시가와라 1초메", "operator": "Oakhouse"}, "location": {"lat": 34.8288307, "lng": 135.5753326}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16667", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16667.jpg", "link": "/stay/oakhouse_16667?lang=kr"}, {"id": "oakhouse_16550", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AQUA GALAXY", "name_ja": "AQUA GALAXY", "name_display": "AQUA GALAXY — 오사카 유학생 먼슬리맨션", "address": "오사카 부 오사카 시 혼다 2초메", "operator": "Oakhouse"}, "location": {"lat": 34.6768456, "lng": 135.4778595}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16550", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16550.jpg", "link": "/stay/oakhouse_16550?lang=kr"}, {"id": "oakhouse_16371", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Raffiner Matsudo", "name_ja": "라피너 마츠도", "name_display": "라피너 마츠도 — 마쓰도시 유학생 먼슬리맨션", "address": "지바현 마쓰도시 이와세", "operator": "Oakhouse"}, "location": {"lat": 35.7869148, "lng": 139.907135}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16371", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16371.jpg", "link": "/stay/oakhouse_16371?lang=kr"}, {"id": "oakhouse_16368", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "G-Maison Yakuendai", "name_ja": "지메종 야쿠엔다이", "name_display": "지메종 야쿠엔다이 — 후나바시시 유학생 먼슬리맨션", "address": "지바현 후나바시시 야쿠엔다이 3초메", "operator": "Oakhouse"}, "location": {"lat": 35.7107811, "lng": 140.0477905}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16368", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16368.jpg", "link": "/stay/oakhouse_16368?lang=kr"}, {"id": "oakhouse_16238", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Ark Square", "name_ja": "아크 스퀘어", "name_display": "아크 스퀘어 — 가와사키시 유학생 먼슬리맨션", "address": "가나가와현 가와사키시 키츠키오마치", "operator": "Oakhouse"}, "location": {"lat": 35.5703278, "lng": 139.6524811}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16238", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16238.jpg", "link": "/stay/oakhouse_16238?lang=kr"}, {"id": "oakhouse_16156", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AILE Mukonoso", "name_ja": "AILE 무고노소", "name_display": "AILE 무고노소 — 효고 유학생 먼슬리맨션", "address": "효고현 아마가사키 시 미나미무코노소 5초메", "operator": "Oakhouse"}, "location": {"lat": 34.749649, "lng": 135.3869934}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16156", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16156.jpg", "link": "/stay/oakhouse_16156?lang=kr"}, {"id": "oakhouse_16128", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Advance Osaka Dome-mae", "name_ja": "어드밴스 오사카 돔 앞", "name_display": "어드밴스 오사카 돔 앞 — 오사카 유학생 먼슬리맨션", "address": "오사카 부 오사카 시 구조미나미 1초메", "operator": "Oakhouse"}, "location": {"lat": 34.6716309, "lng": 135.476181}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16128", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16128.jpg", "link": "/stay/oakhouse_16128?lang=kr"}, {"id": "oakhouse_16023", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Amour Kuragano", "name_ja": "아므르 쿠라가노", "name_display": "아므르 쿠라가노 — 교토시 유학생 먼슬리맨션", "address": "교토부 교토시 사가 다이카쿠지몬마에이카쿠지마치", "operator": "Oakhouse"}, "location": {"lat": 35.0213699, "lng": 135.6781464}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/16023", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16023.jpg", "link": "/stay/oakhouse_16023?lang=kr"}, {"id": "oakhouse_15900", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Excel Himeji", "name_ja": "엑셀 히메지", "name_display": "엑셀 히메지 — 일본 유학생 먼슬리맨션", "address": "동연말 2초메", "operator": "Oakhouse"}, "location": {"lat": 34.8225441, "lng": 134.6855927}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15900", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15900.jpg", "link": "/stay/oakhouse_15900?lang=kr"}, {"id": "oakhouse_15898", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Foria Rise Showa Minamidori I", "name_ja": "포리얼라이즈 쇼와난도리 I", "name_display": "포리얼라이즈 쇼와난도리 I — 효고 유학생 먼슬리맨션", "address": "효고현 아마가사키 시 쇼와난도리 5초메", "operator": "Oakhouse"}, "location": {"lat": 34.7213669, "lng": 135.411972}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15898", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15898.jpg", "link": "/stay/oakhouse_15898?lang=kr"}, {"id": "oakhouse_15881", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Aqua Place Kyoto Rakunan III", "name_ja": "아쿠아플레이스 교토 라쿠난 Ⅲ", "name_display": "아쿠아플레이스 교토 라쿠난 Ⅲ — 교토시 유학생 먼슬리맨션", "address": "교토부 교토시 가라하시가와쿠보초", "operator": "Oakhouse"}, "location": {"lat": 34.9780502, "lng": 135.7362061}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15881", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15881.jpg", "link": "/stay/oakhouse_15881?lang=kr"}, {"id": "oakhouse_15880", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Advance Nishi-Umeda Lashley", "name_ja": "어드밴스 니시우메다 라슐레", "name_display": "어드밴스 니시우메다 라슐레 — 요시 유학생 먼슬리맨션", "address": "오사카 부 오사카 시 요시노 2초메", "operator": "Oakhouse"}, "location": {"lat": 34.6923828, "lng": 135.4762573}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15880", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15880.jpg", "link": "/stay/oakhouse_15880?lang=kr"}, {"id": "oakhouse_15608", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "MQuarto Toyoshiki", "name_ja": "MQuarto 풍사계", "name_display": "MQuarto 풍사계 — 나가야마시 유학생 먼슬리맨션", "address": "치바현 나가야마시 노노시타 5초메", "operator": "Oakhouse"}, "location": {"lat": 35.8620415, "lng": 139.941391}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15608", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15608.jpg", "link": "/stay/oakhouse_15608?lang=kr"}, {"id": "oakhouse_15598", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Avenir Yamato", "name_ja": "아베닐 야마토", "name_display": "아베닐 야마토 — 일본 유학생 먼슬리맨션", "address": "가미쿠사야나기 2초메", "operator": "Oakhouse"}, "location": {"lat": 35.4726753, "lng": 139.4541168}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15598", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15598.jpg", "link": "/stay/oakhouse_15598?lang=kr"}, {"id": "oakhouse_15178", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Ampleur Ferre TAKEDA", "name_ja": "앰풀루페르 타케다(TAKEDA)", "name_display": "앰풀루페르 타케다(TAKEDA) — 사이타마시 유학생 먼슬리맨션", "address": "사이타마현 사이타마시 오아자 오오아자시", "operator": "Oakhouse"}, "location": {"lat": 35.8826675, "lng": 139.6389618}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15178", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15178.jpg", "link": "/stay/oakhouse_15178?lang=kr"}, {"id": "oakhouse_15176", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AZEST-RENT Tokorozawa", "name_ja": "AZEST-RENT 토코로자와", "name_display": "AZEST-RENT 토코로자와 — 토코로자와시 유학생 먼슬리맨션", "address": "사이타마현 토코로자와시 아사히마치", "operator": "Oakhouse"}, "location": {"lat": 35.7904549, "lng": 139.4781647}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15176", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15176.jpg", "link": "/stay/oakhouse_15176?lang=kr"}, {"id": "oakhouse_15165", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Libres Warabi", "name_ja": "리브레스 고사리", "name_display": "리브레스 고사리 — 와라비시 유학생 먼슬리맨션", "address": "사이타마현 와라비시 츠카고에 1초메", "operator": "Oakhouse"}, "location": {"lat": 35.8251915, "lng": 139.6941223}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/15165", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15165.jpg", "link": "/stay/oakhouse_15165?lang=kr"}, {"id": "oakhouse_14677", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Bandobashi KNOTS", "name_ja": "Bandobashi KNOTS", "name_display": "Bandobashi KNOTS — 요코하마시 유학생 먼슬리맨션", "address": "가나가와현 요코하마시 시라묘초 3초메", "operator": "Oakhouse"}, "location": {"lat": 35.4355812, "lng": 139.6256104}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/14677", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14677.jpg", "link": "/stay/oakhouse_14677?lang=kr"}, {"id": "oakhouse_14618", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AZEST-RENT Miyazakidai", "name_ja": "AZEST-RENT 미야자키다이", "name_display": "AZEST-RENT 미야자키다이 — 가와사키시 유학생 먼슬리맨션", "address": "가나가와현 가와사키시 미야자키", "operator": "Oakhouse"}, "location": {"lat": 35.5889931, "lng": 139.5964355}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/14618", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14618.jpg", "link": "/stay/oakhouse_14618?lang=kr"}, {"id": "oakhouse_14592", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AZEST Yokohama Kannai", "name_ja": "AZEST 요코하마관내", "name_display": "AZEST 요코하마관내 — 요코하마시 유학생 먼슬리맨션", "address": "가나가와현 요코하마시 치토세초", "operator": "Oakhouse"}, "location": {"lat": 35.4375801, "lng": 139.6350098}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/14592", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14592.jpg", "link": "/stay/oakhouse_14592?lang=kr"}, {"id": "oakhouse_14561", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AZEST Yokohama Odori Park", "name_ja": "AZEST 요코하마 오도리 공원", "name_display": "AZEST 요코하마 오도리 공원 — 요코하마시 유학생 먼슬리맨션", "address": "가나가와현 요코하마시 마가네초 2초메", "operator": "Oakhouse"}, "location": {"lat": 35.4390068, "lng": 139.6293793}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/14561", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14561.jpg", "link": "/stay/oakhouse_14561?lang=kr"}, {"id": "oakhouse_14537", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Access Shonan Hiratsuka", "name_ja": "Access 쇼난 히라쓰카", "name_display": "Access 쇼난 히라쓰카 — 아카시 유학생 먼슬리맨션", "address": "아카시쵸", "operator": "Oakhouse"}, "location": {"lat": 35.3303642, "lng": 139.3495331}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/14537", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14537.jpg", "link": "/stay/oakhouse_14537?lang=kr"}, {"id": "oakhouse_14503", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AZEST Kannai", "name_ja": "AZEST 관내", "name_display": "AZEST 관내 — 요코하마시 유학생 먼슬리맨션", "address": "가나가와현 요코하마시 스에요시초 1초메", "operator": "Oakhouse"}, "location": {"lat": 35.4426117, "lng": 139.6277771}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/14503", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14503.jpg", "link": "/stay/oakhouse_14503?lang=kr"}, {"id": "oakhouse_130", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "MAPLE HOUSE A (Hibarigaoka)", "name_ja": "메이플하우스 A (히바리가오카)", "name_display": "메이플하우스 A (히바리가오카) — 니이자시 유학생 셰어하우스", "address": "사이타마켄 니이자시 쿠리하라", "operator": "Oakhouse"}, "location": {"lat": 35.7598495, "lng": 139.5470123}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/130", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_130.jpg", "link": "/stay/oakhouse_130?lang=kr"}, {"id": "oakhouse_1185", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "Charman Life Motomachi (Kobe)", "name_ja": "Charman Life Motomachi (모토마치 고베)", "name_display": "Charman Life Motomachi (모토마치 고베) — 고베시 유학생 먼슬리맨션", "address": "효고현 고베시 주오구 모토마치도리", "operator": "Oakhouse"}, "location": {"lat": 34.6867332, "lng": 135.1828461}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/1185", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1185.jpg", "link": "/stay/oakhouse_1185?lang=kr"}, {"id": "oakhouse_1177", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "GRAN ICHIKAWA", "name_ja": "그랑 이치카와", "name_display": "그랑 이치카와 — 이치카와시 유학생 셰어하우스", "address": "지바현 이치카와시 이치카와", "operator": "Oakhouse"}, "location": {"lat": 35.7323685, "lng": 139.9059753}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1177", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1177.jpg", "link": "/stay/oakhouse_1177?lang=kr"}, {"id": "oakhouse_1172", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "LANDMARK TODA", "name_ja": "랜드마크 토다", "name_display": "랜드마크 토다 — 토다시 유학생 셰어하우스", "address": "사이타마현 토다시 신조", "operator": "Oakhouse"}, "location": {"lat": 35.8187141, "lng": 139.6593018}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1172", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1172.jpg", "link": "/stay/oakhouse_1172?lang=kr"}, {"id": "oakhouse_1169", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "APPARTEMENT HIRAI", "name_ja": "아파트먼트 히라이", "name_display": "아파트먼트 히라이 — 에도가와구 유학생 셰어하우스", "address": "도쿄도 에도가와구 히라이", "operator": "Oakhouse"}, "location": {"lat": 35.701664, "lng": 139.8466034}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1169", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1169.jpg", "link": "/stay/oakhouse_1169?lang=kr"}, {"id": "oakhouse_1164", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "APPARTEMENT MABASHI", "name_ja": "아파트먼트 마바시", "name_display": "아파트먼트 마바시 — 마츠도시 유학생 셰어하우스", "address": "치바켄 마츠도시 마바시", "operator": "Oakhouse"}, "location": {"lat": 35.8154144, "lng": 139.9203949}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1164", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1164.jpg", "link": "/stay/oakhouse_1164?lang=kr"}, {"id": "oakhouse_1157", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "AQURIEST Ⅰ (KYOTO)", "name_ja": "AQURIEST Ⅰ (교토)", "name_display": "AQURIEST Ⅰ (교토) — 교토시 유학생 먼슬리맨션", "address": "교토부 교토시 가미교구 호즈이초", "operator": "Oakhouse"}, "location": {"lat": 35.0238304, "lng": 135.736618}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/1157", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1157.jpg", "link": "/stay/oakhouse_1157?lang=kr"}, {"id": "oakhouse_1152", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "BERCEUSE (KYOTO)", "name_ja": "벨수즈 (교토)", "name_display": "벨수즈 (교토) — 교토시 유학생 먼슬리맨션", "address": "교토부 교토시 시모교구 묘만지마치", "operator": "Oakhouse"}, "location": {"lat": 35.0028877, "lng": 135.7513275}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/1152", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1152.jpg", "link": "/stay/oakhouse_1152?lang=kr"}, {"id": "oakhouse_1150", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "APPARTEMENT IIDABASHI", "name_ja": "아파트먼트 이다바시", "name_display": "아파트먼트 이다바시 — 신주쿠구 유학생 셰어하우스", "address": "도쿄도 신주쿠구 신오가와초", "operator": "Oakhouse"}, "location": {"lat": 35.7041054, "lng": 139.7432404}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1150", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1150.jpg", "link": "/stay/oakhouse_1150?lang=kr"}, {"id": "oakhouse_1149", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "ICHIKAWA BURG", "name_ja": "이치카와 부르그", "name_display": "이치카와 부르그 — 이치카와시 유학생 셰어하우스", "address": "치바현 이치카와시 스와다", "operator": "Oakhouse"}, "location": {"lat": 35.737606, "lng": 139.91362}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1149", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1149.jpg", "link": "/stay/oakhouse_1149?lang=kr"}, {"id": "oakhouse_1142", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "GRAN KOBE", "name_ja": "그랑 고베", "name_display": "그랑 고베 — 고베시 유학생 셰어하우스", "address": "효고현 고베시 히가시나다구 우오자키키타마치", "operator": "Oakhouse"}, "location": {"lat": 34.7159424, "lng": 135.2690582}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1142", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1142.jpg", "link": "/stay/oakhouse_1142?lang=kr"}, {"id": "oakhouse_1139", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "APPARTEMENT AICHI", "name_ja": "아파트먼트 아이치", "name_display": "아파트먼트 아이치 — 캇타니시 유학생 셰어하우스", "address": "아이치현 캇타니시 마츠에이초", "operator": "Oakhouse"}, "location": {"lat": 34.9805603, "lng": 137.0331573}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1139", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1139.jpg", "link": "/stay/oakhouse_1139?lang=kr"}, {"id": "oakhouse_1137", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-18", "basic_info": {"name_en": "LEGENDARY MUKOGAWA (Hyogo)", "name_ja": "레전더리 무코가와 (효고)", "name_display": "레전더리 무코가와 (효고) — 니시노미야시 유학생 먼슬리맨션", "address": "효고현 니시노미야시 코마츠키타마치", "operator": "Oakhouse"}, "location": {"lat": 34.7263374, "lng": 135.3783722}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/1137", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1137.jpg", "link": "/stay/oakhouse_1137?lang=kr"}, {"id": "oakhouse_1129", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-18", "basic_info": {"name_en": "APPARTEMENT ASAKA", "name_ja": "아파트먼트 아사카", "name_display": "아파트먼트 아사카 — 아사카시 유학생 셰어하우스", "address": "사이타마현 아사카시 미조누마", "operator": "Oakhouse"}, "location": {"lat": 35.8040466, "lng": 139.5910187}, "rent": {"max": null, "min": null}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/1129", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1129.jpg", "link": "/stay/oakhouse_1129?lang=kr"}, {"id": "world_neighbors_kiba", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "WORLD NEIGHBORS KIYOSUMI-SHIRAKAWA", "name_ja": "ワールドネイバーズ清澄白河", "name_display": "WORLD NEIGHBORS KIYOSUMI-SHIRAKAWA — 도쿄 유학생 셰어하우스", "address": "4-13-1 Hirano, Koto-ku, Tokyo 135-0023, Japan", "operator": "World Neighbors"}, "location": {"lat": 35.677725, "lng": 139.804309}, "rent": {"max": 74000, "min": 53000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.social-apartment.com/eng/builds/tokyo/koto-ku/view/49", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_world_neighbors_kiba.jpg", "link": "/stay/world_neighbors_kiba?lang=kr"}, {"id": "tokyu_stay_shibuya", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Tokyu Stay Shibuya", "name_ja": "東急ステイ渋谷", "name_display": "Tokyu Stay Shibuya — 도쿄 유학생 먼슬리맨션", "address": "8-14 Shinsencho, Shibuya-ku, Tokyo 150-0045, Japan", "operator": "Tokyu Stay"}, "location": {"lat": 35.656374, "lng": 139.692513}, "rent": {"max": 140000, "min": 95000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.tokyustay.co.jp/en/hotel/shibuya-tokyo/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_tokyu_stay_shibuya.jpg", "link": "/stay/tokyu_stay_shibuya?lang=kr"}, {"id": "shin_okubo_monthly", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Shin-Okubo Monthly Mansion (Monthly Net)", "name_ja": "新大久保マンスリーマンション", "name_display": "Shin-Okubo Monthly Mansion (Monthly Net) — 도쿄 유학생 먼슬리맨션", "address": "1-10-15 Hyakunincho, Shinjuku-ku, Tokyo 169-0073, Japan", "operator": "Monthly Net"}, "location": {"lat": 35.701495, "lng": 139.699932}, "rent": {"max": 90000, "min": 65000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.monthly-net-tokyo.com/area/shinjuku/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_shin_okubo_monthly.jpg", "link": "/stay/shin_okubo_monthly?lang=kr"}, {"id": "sapore_shibuya", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "SAPORE Shibuya Dogenzaka", "name_ja": "サポーレ渋谷道玄坂", "name_display": "SAPORE Shibuya Dogenzaka — 도쿄 유학생 먼슬리맨션", "address": "28-13 Maruyama-cho, Shibuya-ku, Tokyo 150-0044, Japan", "operator": "SAPORE"}, "location": {"lat": 35.657941, "lng": 139.698329}, "rent": {"max": 130000, "min": 92000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sapore.jp/english/shibuya/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sapore_shibuya.jpg", "link": "/stay/sapore_shibuya?lang=kr"}, {"id": "sakura_house_shinjuku", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-09", "basic_info": {"name_en": "SAKURA HOUSE NISHI-SHINJUKU B", "name_ja": "さくらハウス西新宿B", "name_display": "SAKURA HOUSE NISHI-SHINJUKU B — 도쿄 유학생 게스트하우스", "address": "Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023, Japan", "operator": "Sakura House"}, "location": {"lat": 35.689884, "lng": 139.684518}, "rent": {"max": 85000, "min": 48000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/nishi-shinjuku", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_house_shinjuku.jpg", "link": "/stay/sakura_house_shinjuku?lang=kr"}, {"id": "sakura_house_nippori", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-09", "basic_info": {"name_en": "SAKURA HOUSE NIPPORI", "name_ja": "さくらハウス日暮里", "name_display": "SAKURA HOUSE NIPPORI — 도쿄 유학생 게스트하우스", "address": "Nippori, Arakawa-ku, Tokyo 116-0013, Japan", "operator": "Sakura House"}, "location": {"lat": 35.728006, "lng": 139.771378}, "rent": {"max": 72000, "min": 42000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/nippori", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_house_nippori.jpg", "link": "/stay/sakura_house_nippori?lang=kr"}, {"id": "sakura_house_ikebukuro", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-09", "basic_info": {"name_en": "SAKURA HOUSE IKEBUKURO", "name_ja": "さくらハウス池袋", "name_display": "SAKURA HOUSE IKEBUKURO — 도쿄 유학생 게스트하우스", "address": "Ikebukuro, Toshima-ku, Tokyo 170-0013, Japan", "operator": "Sakura House"}, "location": {"lat": 35.730943, "lng": 139.709171}, "rent": {"max": 78000, "min": 45000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-house.com/building/ikebukuro", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_house_ikebukuro.jpg", "link": "/stay/sakura_house_ikebukuro?lang=kr"}, {"id": "sakura_hotel_hatagaya", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-09", "basic_info": {"name_en": "Sakura Hotel Hatagaya", "name_ja": "サクラホテル幡ヶ谷", "name_display": "Sakura Hotel Hatagaya — 도쿄 유학생 게스트하우스", "address": "32-3 Hatagaya, Shibuya-ku, Tokyo 151-0072, Japan", "operator": "Sakura Hotels"}, "location": {"lat": 35.677005, "lng": 139.676588}, "rent": {"max": 68000, "min": 40000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.sakura-hotel.co.jp/hatagaya/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_hotel_hatagaya.jpg", "link": "/stay/sakura_hotel_hatagaya?lang=kr"}, {"id": "oakhouse_shibuya", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "OAK TERRACE SHIBUYA", "name_ja": "オークテラス渋谷", "name_display": "OAK TERRACE SHIBUYA — 도쿄 유학생 셰어하우스", "address": "Maruyama-cho, Shibuya-ku, Tokyo 150-0046, Japan", "operator": "Oakhouse"}, "location": {"lat": 35.656374, "lng": 139.692513}, "rent": {"max": 88000, "min": 62000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/996", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_shibuya.jpg", "link": "/stay/oakhouse_shibuya?lang=kr"}, {"id": "oakhouse_nishi_shinjuku", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "OAKHOUSE SHINJUKU CITY VIEW", "name_ja": "オークハウス新宿シティビュー", "name_display": "OAKHOUSE SHINJUKU CITY VIEW — 도쿄 유학생 셰어하우스", "address": "Nishishinjuku, Shinjuku-ku, Tokyo 160-0023, Japan", "operator": "Oakhouse"}, "location": {"lat": 35.689884, "lng": 139.684518}, "rent": {"max": 82000, "min": 58000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/house/384", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_nishi_shinjuku.jpg", "link": "/stay/oakhouse_nishi_shinjuku?lang=kr"}, {"id": "oakhouse_nakano", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "FOUSYM SHINNAKANO", "name_ja": "フォーシム新中野", "name_display": "FOUSYM SHINNAKANO — 도쿄 유학생 셰어하우스", "address": "Honcho, Nakano-ku, Tokyo 164-0013, Japan", "operator": "Oakhouse"}, "location": {"lat": 35.69746, "lng": 139.668643}, "rent": {"max": 70000, "min": 50000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/1148", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_nakano.jpg", "link": "/stay/oakhouse_nakano?lang=kr"}, {"id": "oakhouse_monthly_shinjuku", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "OAK APARTMENT SHINJUKU", "name_ja": "オークアパートメント新宿", "name_display": "OAK APARTMENT SHINJUKU — 도쿄 유학생 먼슬리맨션", "address": "Shinjuku, Shinjuku-ku, Tokyo 160-0022, Japan", "operator": "Oakhouse"}, "location": {"lat": 35.692525, "lng": 139.705768}, "rent": {"max": 115000, "min": 80000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/apartment/1117", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_monthly_shinjuku.jpg", "link": "/stay/oakhouse_monthly_shinjuku?lang=kr"}, {"id": "oakhouse_kichijoji", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "OAKHOUSE KICHIJOJI 3", "name_ja": "オークハウス吉祥寺3", "name_display": "OAKHOUSE KICHIJOJI 3 — 도쿄 유학생 셰어하우스", "address": "Kichijoji Honcho, Musashino, Tokyo 180-0004, Japan", "operator": "Oakhouse"}, "location": {"lat": 35.702698, "lng": 139.579543}, "rent": {"max": 72000, "min": 52000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/station/kichijoji/apartment", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_kichijoji.jpg", "link": "/stay/oakhouse_kichijoji?lang=kr"}, {"id": "oakhouse_ikebukuro", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "OAKHOUSE IKEBUKURO", "name_ja": "オークハウス池袋", "name_display": "OAKHOUSE IKEBUKURO — 도쿄 유학생 셰어하우스", "address": "Kita-Ikebukuro, Toshima-ku, Tokyo 170-0004, Japan", "operator": "Oakhouse"}, "location": {"lat": 35.740986, "lng": 139.71682}, "rent": {"max": 75000, "min": 55000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.oakhouse.jp/eng/station/kita-ikebukuro", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_ikebukuro.jpg", "link": "/stay/oakhouse_ikebukuro?lang=kr"}, {"id": "neo_house_tokyo", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "Neo House Otsuka", "name_ja": "ネオハウス大塚", "name_display": "Neo House Otsuka — 도쿄 유학생 셰어하우스", "address": "2-43-1 Minami-Otsuka, Toshima-ku, Tokyo 170-0005, Japan", "operator": "Neo House"}, "location": {"lat": 35.731685, "lng": 139.728588}, "rent": {"max": 71000, "min": 49000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.neohouse.jp/english/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_neo_house_tokyo.jpg", "link": "/stay/neo_house_tokyo?lang=kr"}, {"id": "mustard_shimokitazawa", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Mustard Hotel Shimokitazawa", "name_ja": "マスタードホテル下北沢", "name_display": "Mustard Hotel Shimokitazawa — 도쿄 유학생 먼슬리맨션", "address": "2-26-2 Kitazawa, Setagaya-ku, Tokyo 155-0031, Japan", "operator": "Mustard Hotel"}, "location": {"lat": 35.661566, "lng": 139.66706}, "rent": {"max": 110000, "min": 75000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://mustardhotel.com/shimokitazawa/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_mustard_shimokitazawa.jpg", "link": "/stay/mustard_shimokitazawa?lang=kr"}, {"id": "mansion_hayakawa_shibuya", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Weekly Mansion Hayakawa Shibuya", "name_ja": "ウィークリーマンション早川渋谷", "name_display": "Weekly Mansion Hayakawa Shibuya — 도쿄 유학생 먼슬리맨션", "address": "1-11-2 Shibuya, Shibuya-ku, Tokyo 150-0002, Japan", "operator": "Weekly Mansion"}, "location": {"lat": 35.659718, "lng": 139.699593}, "rent": {"max": 125000, "min": 88000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.weekly-mansion.com/area/tokyo/shibuya/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_mansion_hayakawa_shibuya.jpg", "link": "/stay/mansion_hayakawa_shibuya?lang=kr"}, {"id": "leopalace_shinjuku_gyoen", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Leopalace21 Shinjuku-Gyoen", "name_ja": "レオパレス21新宿御苑", "name_display": "Leopalace21 Shinjuku-Gyoen — 도쿄 유학생 먼슬리맨션", "address": "Shinjuku, Shinjuku-ku, Tokyo 160-0022, Japan", "operator": "Leopalace21"}, "location": {"lat": 35.688611, "lng": 139.710278}, "rent": {"max": 105000, "min": 78000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=新宿", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_shinjuku_gyoen.jpg", "link": "/stay/leopalace_shinjuku_gyoen?lang=kr"}, {"id": "leopalace_nakano", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Leopalace21 Nakano", "name_ja": "レオパレス21中野", "name_display": "Leopalace21 Nakano — 도쿄 유학생 먼슬리맨션", "address": "Nakano, Nakano-ku, Tokyo 165-0026, Japan", "operator": "Leopalace21"}, "location": {"lat": 35.704987, "lng": 139.66619}, "rent": {"max": 92000, "min": 68000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=中野", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_nakano.jpg", "link": "/stay/leopalace_nakano?lang=kr"}, {"id": "leopalace_machida", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Leopalace21 Machida", "name_ja": "レオパレス21町田", "name_display": "Leopalace21 Machida — 도쿄 유학생 먼슬리맨션", "address": "Machida, Tokyo 194-0013, Japan", "operator": "Leopalace21"}, "location": {"lat": 35.542072, "lng": 139.445436}, "rent": {"max": 78000, "min": 58000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=町田", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_machida.jpg", "link": "/stay/leopalace_machida?lang=kr"}, {"id": "leopalace_kichijoji", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Leopalace21 Kichijoji", "name_ja": "レオパレス21吉祥寺", "name_display": "Leopalace21 Kichijoji — 도쿄 유학생 먼슬리맨션", "address": "Kichijoji Honcho, Musashino, Tokyo 180-0004, Japan", "operator": "Leopalace21"}, "location": {"lat": 35.702698, "lng": 139.579543}, "rent": {"max": 95000, "min": 70000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=吉祥寺", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_kichijoji.jpg", "link": "/stay/leopalace_kichijoji?lang=kr"}, {"id": "leopalace_ikebukuro", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Leopalace21 Ikebukuro", "name_ja": "レオパレス21池袋", "name_display": "Leopalace21 Ikebukuro — 도쿄 유학생 먼슬리맨션", "address": "Ikebukuro, Toshima-ku, Tokyo 171-0022, Japan", "operator": "Leopalace21"}, "location": {"lat": 35.730943, "lng": 139.709171}, "rent": {"max": 98000, "min": 72000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=池袋", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_ikebukuro.jpg", "link": "/stay/leopalace_ikebukuro?lang=kr"}, {"id": "khaosan_world_ninja", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-09", "basic_info": {"name_en": "Khaosan World Asakusa Ryokan & Hostel", "name_ja": "カオサンワールド浅草", "name_display": "Khaosan World Asakusa Ryokan & Hostel — 도쿄 유학생 게스트하우스", "address": "3-15-1 Nishi-Asakusa, Taito-ku, Tokyo 111-0035, Japan", "operator": "Khaosan"}, "location": {"lat": 35.71441, "lng": 139.790328}, "rent": {"max": 48000, "min": 32000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://world.khaosan-tokyo.com/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_khaosan_world_ninja.jpg", "link": "/stay/khaosan_world_ninja?lang=kr"}, {"id": "guesthouse_wasabi_shinjuku", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-09", "basic_info": {"name_en": "Hostel Wasabi Asakusa", "name_ja": "ホステルわさび浅草", "name_display": "Hostel Wasabi Asakusa — 도쿄 유학생 게스트하우스", "address": "4-31-9 Asakusa, Taito-ku, Tokyo 111-0032, Japan", "operator": "Wasabi"}, "location": {"lat": 35.718839, "lng": 139.796578}, "rent": {"max": 55000, "min": 35000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://guesthousejp.com/asakusa/en/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_guesthouse_wasabi_shinjuku.jpg", "link": "/stay/guesthouse_wasabi_shinjuku?lang=kr"}, {"id": "grids_akihabara", "entity": "stay", "category": "stay", "stay_type": "guesthouse", "published": "2026-07-09", "basic_info": {"name_en": "GRIDS Tokyo Akihabara Hotel & Hostel", "name_ja": "グリッズ東京秋葉原", "name_display": "GRIDS Tokyo Akihabara Hotel & Hostel — 도쿄 유학생 게스트하우스", "address": "2-8-16 Higashikanda, Chiyoda-ku, Tokyo 101-0031, Japan", "operator": "GRIDS"}, "location": {"lat": 35.69659, "lng": 139.780332}, "rent": {"max": 62000, "min": 38000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://grids-hostel.com/akihabara/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_grids_akihabara.jpg", "link": "/stay/grids_akihabara?lang=kr"}, {"id": "flexstay_shinjuku", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Flexstay Inn Shinjuku", "name_ja": "フレックスステイイン新宿", "name_display": "Flexstay Inn Shinjuku — 도쿄 유학생 먼슬리맨션", "address": "2-10-5 Kabukicho, Shinjuku-ku, Tokyo 160-0021, Japan", "operator": "Flexstay"}, "location": {"lat": 35.694543, "lng": 139.70271}, "rent": {"max": 120000, "min": 85000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.flexstay.jp/english/shinjuku/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_flexstay_shinjuku.jpg", "link": "/stay/flexstay_shinjuku?lang=kr"}, {"id": "citadines_shinjuku", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Citadines Shinjuku Tokyo", "name_ja": "シタディーン新宿東京", "name_display": "Citadines Shinjuku Tokyo — 도쿄 유학생 먼슬리맨션", "address": "1-28-13 Shinjuku, Shinjuku-ku, Tokyo 160-0022, Japan", "operator": "Citadines"}, "location": {"lat": 35.689607, "lng": 139.700023}, "rent": {"max": 165000, "min": 110000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.citadines.com/en/japan/tokyo/citadines-shinjuku-tokyo.html", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_citadines_shinjuku.jpg", "link": "/stay/citadines_shinjuku?lang=kr"}, {"id": "borderless_shinjuku", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "BORDERLESS HOUSE SHINJUKU-CHUO1", "name_ja": "ボーダレスハウス新宿中央1", "name_display": "BORDERLESS HOUSE SHINJUKU-CHUO1 — 도쿄 유학생 셰어하우스", "address": "Shinjuku, Shinjuku-ku, Tokyo 160-0023, Japan", "operator": "Borderless House"}, "location": {"lat": 35.692525, "lng": 139.705768}, "rent": {"max": 79000, "min": 56000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.borderless-house.com/jp/sharehouse/shinjuku_chuo/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_borderless_shinjuku.jpg", "link": "/stay/borderless_shinjuku?lang=kr"}, {"id": "borderless_meguro", "entity": "stay", "category": "stay", "stay_type": "share_house", "published": "2026-07-09", "basic_info": {"name_en": "BORDERLESS HOUSE MEGURO-HONCHO1", "name_ja": "ボーダレスハウス目黒本町1", "name_display": "BORDERLESS HOUSE MEGURO-HONCHO1 — 도쿄 유학생 셰어하우스", "address": "Meguro-Honcho, Meguro-ku, Tokyo 152-0002, Japan", "operator": "Borderless House"}, "location": {"lat": 35.619722, "lng": 139.703611}, "rent": {"max": 76000, "min": 54000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.borderless-house.com/jp/sharehouse/musashikoyama/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_borderless_meguro.jpg", "link": "/stay/borderless_meguro?lang=kr"}, {"id": "akasaka_weekly_mansion", "entity": "stay", "category": "stay", "stay_type": "monthly_mansion", "published": "2026-07-09", "basic_info": {"name_en": "Akasaka Weekly Mansion", "name_ja": "赤坂ウィークリーマンション", "name_display": "Akasaka Weekly Mansion — 도쿄 유학생 먼슬리맨션", "address": "5-4-7 Akasaka, Minato-ku, Tokyo 107-0052, Japan", "operator": "Weekly Mansion"}, "location": {"lat": 35.672224, "lng": 139.736388}, "rent": {"max": 135000, "min": 90000}, "foreigner_ok": true, "furnished": true, "no_guarantor": true, "booking_url": "https://www.weekly-mansion.com/area/tokyo/akasaka/", "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_akasaka_weekly_mansion.jpg", "link": "/stay/akasaka_weekly_mansion?lang=kr"}]}
+{
+  "last_updated": "2026-07-20",
+  "stays": [
+    {
+      "id": "sakura_tsutsujigaoka",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE CHOFU TSUTSUJIGAOKA",
+        "name_ja": "사쿠라 하우스 CHOFU TSUTSUJIGAOKA",
+        "name_display": "사쿠라 하우스 CHOFU TSUTSUJIGAOKA — 도쿄도調布市 유학생 셰어하우스",
+        "address": "도쿄도調布市菊野台3-36-44",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.652213,
+        "lng": 139.570892
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/tsutsujigaoka",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_tsutsujigaoka.jpg",
+      "link": "/stay/sakura_tsutsujigaoka?lang=kr"
+    },
+    {
+      "id": "sakura_kyoto_imadegawa_l",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE KYOTO B (Former Kyoto L)",
+        "name_ja": "사쿠라 하우스 KYOTO B (Former Kyoto L)",
+        "name_display": "사쿠라 하우스 KYOTO B (Former Kyoto L) — 교토부교토시上京区中筋通大宮西入横大宮町 유학생 게스트하우스",
+        "address": "교토부교토시上京区中筋通大宮西入横大宮町204",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.029252,
+        "lng": 135.74762
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/kyoto-imadegawa-l",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_kyoto_imadegawa_l.jpg",
+      "link": "/stay/sakura_kyoto_imadegawa_l?lang=kr"
+    },
+    {
+      "id": "sakura_kyoto_imadegawa",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE KYOTO A (Former Kyoto R)",
+        "name_ja": "사쿠라 하우스 KYOTO A (Former Kyoto R)",
+        "name_display": "사쿠라 하우스 KYOTO A (Former Kyoto R) — 교토부교토시上京区中筋通大宮西入横大宮町 유학생 먼슬리맨션",
+        "address": "교토부교토시上京区中筋通大宮西入横大宮町204",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.029283,
+        "lng": 135.7476
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/kyoto-imadegawa",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_kyoto_imadegawa.jpg",
+      "link": "/stay/sakura_kyoto_imadegawa?lang=kr"
+    },
+    {
+      "id": "sakura_kyoto_annex",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE KYOTO C (Former Kyoto Annex)",
+        "name_ja": "사쿠라 하우스 KYOTO C (Former Kyoto Annex)",
+        "name_display": "사쿠라 하우스 KYOTO C (Former Kyoto Annex) — 교토부교토시上京区横大宮町 유학생 게스트하우스",
+        "address": "교토부교토시上京区横大宮町２０２",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.029365,
+        "lng": 135.74753
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/kyoto-annex",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_kyoto_annex.jpg",
+      "link": "/stay/sakura_kyoto_annex?lang=kr"
+    },
+    {
+      "id": "sakura_ascot_koenji",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE ASCOT KOENJI (TOKYO APARTMENTS)",
+        "name_ja": "사쿠라 하우스 ASCOT KOENJI (TOKYO APARTMENTS)",
+        "name_display": "사쿠라 하우스 ASCOT KOENJI (TOKYO APARTMENTS) — 도쿄도스기나미구 유학생 먼슬리맨션",
+        "address": "도쿄도스기나미구高円寺北1丁目23番6号",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.7089995,
+        "lng": 139.6551352
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/ascot-koenji",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_ascot_koenji.jpg",
+      "link": "/stay/sakura_ascot_koenji?lang=kr"
+    },
+    {
+      "id": "sakura_ascot_hatagaya",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE ASCOT HATAGAYA (TOKYO APARTMENTS)",
+        "name_ja": "사쿠라 하우스 ASCOT HATAGAYA (TOKYO APARTMENTS)",
+        "name_display": "사쿠라 하우스 ASCOT HATAGAYA (TOKYO APARTMENTS) — 도쿄도시부야구 유학생 먼슬리맨션",
+        "address": "도쿄도시부야구幡ヶ谷1-20-5",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.6748,
+        "lng": 139.673
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/ascot-hatagaya",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_ascot_hatagaya.jpg",
+      "link": "/stay/sakura_ascot_hatagaya?lang=kr"
+    },
+    {
+      "id": "sakura_asakusa_kuramae",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE ASAKUSA KURAMAE",
+        "name_ja": "사쿠라 하우스 ASAKUSA KURAMAE",
+        "name_display": "사쿠라 하우스 ASAKUSA KURAMAE — 도쿄도다이토구 유학생 셰어하우스",
+        "address": "도쿄도다이토구寿3-13-14",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.706402702,
+        "lng": 139.792601019
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/asakusa-kuramae",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_asakusa_kuramae.jpg",
+      "link": "/stay/sakura_asakusa_kuramae?lang=kr"
+    },
+    {
+      "id": "oakhouse_976",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "GRAN TODA",
+        "name_ja": "그랑 토다",
+        "name_display": "그랑 토다 — 토다시 유학생 셰어하우스",
+        "address": "사이타마켄 토다시 사사메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.8180046,
+        "lng": 139.6556091
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/976",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_976.jpg",
+      "link": "/stay/oakhouse_976?lang=kr"
+    },
+    {
+      "id": "oakhouse_700",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "SOCIAL RESIDENCE FUNABASHI",
+        "name_ja": "SOCIAL RESIDENCE 후나바시",
+        "name_display": "SOCIAL RESIDENCE 후나바시 — 후나바시시 유학생 셰어하우스",
+        "address": "치바켄 후나바시시 모토나카야마",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7133865,
+        "lng": 139.9422913
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/700",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_700.jpg",
+      "link": "/stay/oakhouse_700?lang=kr"
+    },
+    {
+      "id": "oakhouse_18112",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Amour HARMONYI",
+        "name_ja": "아무르 HARMONYI",
+        "name_display": "아무르 HARMONYI — 오사카 유학생 먼슬리맨션",
+        "address": "오사카 부 오사카 시 스가와라 1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7367973,
+        "lng": 135.5280762
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/18112",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_18112.jpg",
+      "link": "/stay/oakhouse_18112?lang=kr"
+    },
+    {
+      "id": "oakhouse_17468",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "ALIKA HIKIFUNE 2",
+        "name_ja": "ALIKA HIKIFUNE 2",
+        "name_display": "ALIKA HIKIFUNE 2 — 스미다구 유학생 먼슬리맨션",
+        "address": "도쿄도 스미다구",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7212486,
+        "lng": 139.8257294
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17468",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17468.jpg",
+      "link": "/stay/oakhouse_17468?lang=kr"
+    },
+    {
+      "id": "oakhouse_17441",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Huenet Kobe Motomachi",
+        "name_ja": "휴넷 고베 모토마치",
+        "name_display": "휴넷 고베 모토마치 — 고베시 유학생 먼슬리맨션",
+        "address": "효고현 고베시 모토마치도리 5초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.6858597,
+        "lng": 135.1819
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17441",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17441.jpg",
+      "link": "/stay/oakhouse_17441?lang=kr"
+    },
+    {
+      "id": "oakhouse_17326",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AILE Minami Tsukaguchi V",
+        "name_ja": "AILE 미나미츠카구치 V",
+        "name_display": "AILE 미나미츠카구치 V — 미나미츠카구 유학생 먼슬리맨션",
+        "address": "효고현 아마가사키 시 미나미츠카구치초 8초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7523766,
+        "lng": 135.4073334
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17326",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17326.jpg",
+      "link": "/stay/oakhouse_17326?lang=kr"
+    },
+    {
+      "id": "oakhouse_17316",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "ALEGRIA Hiranohonmachi II",
+        "name_ja": "ALEGRIA 히라노혼마치 Ⅱ",
+        "name_display": "ALEGRIA 히라노혼마치 Ⅱ — 오사카 유학생 먼슬리맨션",
+        "address": "오사카 부 오사카 시 히라노혼마치 3초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.6238518,
+        "lng": 135.5536804
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17316",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17316.jpg",
+      "link": "/stay/oakhouse_17316?lang=kr"
+    },
+    {
+      "id": "oakhouse_17290",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "ARKMARK Ikebukuro Honcho",
+        "name_ja": "ARKMARK 이케부쿠로 본점",
+        "name_display": "ARKMARK 이케부쿠로 본점 — 토시마구 유학생 먼슬리맨션",
+        "address": "도쿄도 토시마구 이케부쿠로 혼마치 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7417984,
+        "lng": 139.7119446
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17290",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17290.jpg",
+      "link": "/stay/oakhouse_17290?lang=kr"
+    },
+    {
+      "id": "oakhouse_17182",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Luminous Higashiurawa",
+        "name_ja": "루미나스 히가시우라와",
+        "name_display": "루미나스 히가시우라와 — 사이타마시 유학생 먼슬리맨션",
+        "address": "사이타마현 사이타마시 히가시우라와 5초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.8677521,
+        "lng": 139.7062378
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17182",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17182.jpg",
+      "link": "/stay/oakhouse_17182?lang=kr"
+    },
+    {
+      "id": "oakhouse_17103",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "G-Maison Goi Chuo Nishi Zephyr",
+        "name_ja": "지메종 고이 츄오이 주오니시 제퍼",
+        "name_display": "지메종 고이 츄오이 주오니시 제퍼 — 일본 유학생 먼슬리맨션",
+        "address": "고이중앙서1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.5145416,
+        "lng": 140.085968
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17103",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17103.jpg",
+      "link": "/stay/oakhouse_17103?lang=kr"
+    },
+    {
+      "id": "oakhouse_17078",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Exelan Matsudo II",
+        "name_ja": "엑셀랑 마쓰도 II",
+        "name_display": "엑셀랑 마쓰도 II — 마쓰도시 유학생 먼슬리맨션",
+        "address": "지바현 마쓰도시 마쓰도",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7844009,
+        "lng": 139.8961487
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17078",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17078.jpg",
+      "link": "/stay/oakhouse_17078?lang=kr"
+    },
+    {
+      "id": "oakhouse_17059",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "ERCity's Tachibana Ekimae",
+        "name_ja": "ERCity's 다치바나 역 앞",
+        "name_display": "ERCity's 다치바나 역 앞 — 효고 유학생 먼슬리맨션",
+        "address": "효고현 아마가사키 시 나나마츠초 1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7346573,
+        "lng": 135.3998108
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/17059",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_17059.jpg",
+      "link": "/stay/oakhouse_17059?lang=kr"
+    },
+    {
+      "id": "oakhouse_16968",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Ampouleur Ferre Hannah Hannah",
+        "name_ja": "앰풀루페르페르 한나한나",
+        "name_display": "앰풀루페르페르 한나한나 — 일본 유학생 먼슬리맨션",
+        "address": "Joutou Town",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.8450508,
+        "lng": 135.6278534
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16968",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16968.jpg",
+      "link": "/stay/oakhouse_16968?lang=kr"
+    },
+    {
+      "id": "oakhouse_16967",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Ampleur Clage Amitié",
+        "name_ja": "앙ンプルールクラージュアミティエ(앙ンプルールクラージュアミティエ)",
+        "name_display": "앙ンプルールクラージュアミティエ(앙ンプルールクラージュアミティエ) — 일본 유학생 먼슬리맨션",
+        "address": "카지마치 4초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7520943,
+        "lng": 135.5892334
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16967",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16967.jpg",
+      "link": "/stay/oakhouse_16967?lang=kr"
+    },
+    {
+      "id": "oakhouse_16956",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AILE Higashinakahama",
+        "name_ja": "AILE 히가시나카하마",
+        "name_display": "AILE 히가시나카하마 — 히가시 유학생 먼슬리맨션",
+        "address": "오사카 부 오사카 시 히가시나카하마 8초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.6841354,
+        "lng": 135.5531311
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16956",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16956.jpg",
+      "link": "/stay/oakhouse_16956?lang=kr"
+    },
+    {
+      "id": "oakhouse_16856",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Belle Grande Yoshinomachi",
+        "name_ja": "벨그란데 요시노초",
+        "name_display": "벨그란데 요시노초 — 요코하마시 유학생 먼슬리맨션",
+        "address": "가나가와현 요코하마시 무츠초 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.4283295,
+        "lng": 139.6201477
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16856",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16856.jpg",
+      "link": "/stay/oakhouse_16856?lang=kr"
+    },
+    {
+      "id": "oakhouse_16841",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "ARCA Nishikyogoku",
+        "name_ja": "ARCA 니시쿄고쿠",
+        "name_display": "ARCA 니시쿄고쿠 — 교토시 유학생 먼슬리맨션",
+        "address": "교토부 교토시 니시쿄쿠가쿠하마노혼마치",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.9947014,
+        "lng": 135.7115631
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16841",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16841.jpg",
+      "link": "/stay/oakhouse_16841?lang=kr"
+    },
+    {
+      "id": "oakhouse_16823",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AILE Shibashima",
+        "name_ja": "AILE 시바지마",
+        "name_display": "AILE 시바지마 — 오사카 유학생 먼슬리맨션",
+        "address": "오사카 부 오사카 시 시바지마 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7301254,
+        "lng": 135.5139465
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16823",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16823.jpg",
+      "link": "/stay/oakhouse_16823?lang=kr"
+    },
+    {
+      "id": "oakhouse_16810",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Amista Ikuta",
+        "name_ja": "아미스타 이쿠타",
+        "name_display": "아미스타 이쿠타 — 가와사키시 유학생 먼슬리맨션",
+        "address": "가나가와현 가와사키시 이쿠타 6초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.6189346,
+        "lng": 139.5379181
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16810",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16810.jpg",
+      "link": "/stay/oakhouse_16810?lang=kr"
+    },
+    {
+      "id": "oakhouse_16736",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Estem Court Nagoya Shinsakae IV Nest",
+        "name_ja": "에스팀코트 나고야 신에이 Ⅳ 네스트",
+        "name_display": "에스팀코트 나고야 신에이 Ⅳ 네스트 — 아이치 유학생 먼슬리맨션",
+        "address": "신에이 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.1679535,
+        "lng": 136.9203644
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16736",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16736.jpg",
+      "link": "/stay/oakhouse_16736?lang=kr"
+    },
+    {
+      "id": "oakhouse_16685",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Ampleur Faire Gland Mob.",
+        "name_ja": "앰플루르페르 Gland・Mob(몹)",
+        "name_display": "앰플루르페르 Gland・Mob(몹) — 사타히가시 유학생 먼슬리맨션",
+        "address": "사타히가시쵸 1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7547073,
+        "lng": 135.5852661
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16685",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16685.jpg",
+      "link": "/stay/oakhouse_16685?lang=kr"
+    },
+    {
+      "id": "oakhouse_16670",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Amour HARMONY II",
+        "name_ja": "아몰 HARMONYⅡ",
+        "name_display": "아몰 HARMONYⅡ — 오사카 유학생 먼슬리맨션",
+        "address": "오사카 부 오사카 시 스가와라 1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7362556,
+        "lng": 135.52771
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16670",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16670.jpg",
+      "link": "/stay/oakhouse_16670?lang=kr"
+    },
+    {
+      "id": "oakhouse_16667",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "FIORE",
+        "name_ja": "FIORE",
+        "name_display": "FIORE — 니시 유학생 먼슬리맨션",
+        "address": "니시가와라 1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.8288307,
+        "lng": 135.5753326
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16667",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16667.jpg",
+      "link": "/stay/oakhouse_16667?lang=kr"
+    },
+    {
+      "id": "oakhouse_16550",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AQUA GALAXY",
+        "name_ja": "AQUA GALAXY",
+        "name_display": "AQUA GALAXY — 오사카 유학생 먼슬리맨션",
+        "address": "오사카 부 오사카 시 혼다 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.6768456,
+        "lng": 135.4778595
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16550",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16550.jpg",
+      "link": "/stay/oakhouse_16550?lang=kr"
+    },
+    {
+      "id": "oakhouse_16371",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Raffiner Matsudo",
+        "name_ja": "라피너 마츠도",
+        "name_display": "라피너 마츠도 — 마쓰도시 유학생 먼슬리맨션",
+        "address": "지바현 마쓰도시 이와세",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7869148,
+        "lng": 139.907135
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16371",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16371.jpg",
+      "link": "/stay/oakhouse_16371?lang=kr"
+    },
+    {
+      "id": "oakhouse_16368",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "G-Maison Yakuendai",
+        "name_ja": "지메종 야쿠엔다이",
+        "name_display": "지메종 야쿠엔다이 — 후나바시시 유학생 먼슬리맨션",
+        "address": "지바현 후나바시시 야쿠엔다이 3초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7107811,
+        "lng": 140.0477905
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16368",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16368.jpg",
+      "link": "/stay/oakhouse_16368?lang=kr"
+    },
+    {
+      "id": "oakhouse_16238",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Ark Square",
+        "name_ja": "아크 스퀘어",
+        "name_display": "아크 스퀘어 — 가와사키시 유학생 먼슬리맨션",
+        "address": "가나가와현 가와사키시 키츠키오마치",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.5703278,
+        "lng": 139.6524811
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16238",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16238.jpg",
+      "link": "/stay/oakhouse_16238?lang=kr"
+    },
+    {
+      "id": "oakhouse_16156",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AILE Mukonoso",
+        "name_ja": "AILE 무고노소",
+        "name_display": "AILE 무고노소 — 효고 유학생 먼슬리맨션",
+        "address": "효고현 아마가사키 시 미나미무코노소 5초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.749649,
+        "lng": 135.3869934
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16156",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16156.jpg",
+      "link": "/stay/oakhouse_16156?lang=kr"
+    },
+    {
+      "id": "oakhouse_16128",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Advance Osaka Dome-mae",
+        "name_ja": "어드밴스 오사카 돔 앞",
+        "name_display": "어드밴스 오사카 돔 앞 — 오사카 유학생 먼슬리맨션",
+        "address": "오사카 부 오사카 시 구조미나미 1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.6716309,
+        "lng": 135.476181
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16128",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16128.jpg",
+      "link": "/stay/oakhouse_16128?lang=kr"
+    },
+    {
+      "id": "oakhouse_16023",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Amour Kuragano",
+        "name_ja": "아므르 쿠라가노",
+        "name_display": "아므르 쿠라가노 — 교토시 유학생 먼슬리맨션",
+        "address": "교토부 교토시 사가 다이카쿠지몬마에이카쿠지마치",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.0213699,
+        "lng": 135.6781464
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/16023",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_16023.jpg",
+      "link": "/stay/oakhouse_16023?lang=kr"
+    },
+    {
+      "id": "oakhouse_15900",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Excel Himeji",
+        "name_ja": "엑셀 히메지",
+        "name_display": "엑셀 히메지 — 일본 유학생 먼슬리맨션",
+        "address": "동연말 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.8225441,
+        "lng": 134.6855927
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15900",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15900.jpg",
+      "link": "/stay/oakhouse_15900?lang=kr"
+    },
+    {
+      "id": "oakhouse_15898",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Foria Rise Showa Minamidori I",
+        "name_ja": "포리얼라이즈 쇼와난도리 I",
+        "name_display": "포리얼라이즈 쇼와난도리 I — 효고 유학생 먼슬리맨션",
+        "address": "효고현 아마가사키 시 쇼와난도리 5초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7213669,
+        "lng": 135.411972
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15898",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15898.jpg",
+      "link": "/stay/oakhouse_15898?lang=kr"
+    },
+    {
+      "id": "oakhouse_15881",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Aqua Place Kyoto Rakunan III",
+        "name_ja": "아쿠아플레이스 교토 라쿠난 Ⅲ",
+        "name_display": "아쿠아플레이스 교토 라쿠난 Ⅲ — 교토시 유학생 먼슬리맨션",
+        "address": "교토부 교토시 가라하시가와쿠보초",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.9780502,
+        "lng": 135.7362061
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15881",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15881.jpg",
+      "link": "/stay/oakhouse_15881?lang=kr"
+    },
+    {
+      "id": "oakhouse_15880",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Advance Nishi-Umeda Lashley",
+        "name_ja": "어드밴스 니시우메다 라슐레",
+        "name_display": "어드밴스 니시우메다 라슐레 — 요시 유학생 먼슬리맨션",
+        "address": "오사카 부 오사카 시 요시노 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.6923828,
+        "lng": 135.4762573
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15880",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15880.jpg",
+      "link": "/stay/oakhouse_15880?lang=kr"
+    },
+    {
+      "id": "oakhouse_15608",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "MQuarto Toyoshiki",
+        "name_ja": "MQuarto 풍사계",
+        "name_display": "MQuarto 풍사계 — 나가야마시 유학생 먼슬리맨션",
+        "address": "치바현 나가야마시 노노시타 5초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.8620415,
+        "lng": 139.941391
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15608",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15608.jpg",
+      "link": "/stay/oakhouse_15608?lang=kr"
+    },
+    {
+      "id": "oakhouse_15598",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Avenir Yamato",
+        "name_ja": "아베닐 야마토",
+        "name_display": "아베닐 야마토 — 일본 유학생 먼슬리맨션",
+        "address": "가미쿠사야나기 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.4726753,
+        "lng": 139.4541168
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15598",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15598.jpg",
+      "link": "/stay/oakhouse_15598?lang=kr"
+    },
+    {
+      "id": "oakhouse_15178",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Ampleur Ferre TAKEDA",
+        "name_ja": "앰풀루페르 타케다(TAKEDA)",
+        "name_display": "앰풀루페르 타케다(TAKEDA) — 사이타마시 유학생 먼슬리맨션",
+        "address": "사이타마현 사이타마시 오아자 오오아자시",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.8826675,
+        "lng": 139.6389618
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15178",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15178.jpg",
+      "link": "/stay/oakhouse_15178?lang=kr"
+    },
+    {
+      "id": "oakhouse_15176",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AZEST-RENT Tokorozawa",
+        "name_ja": "AZEST-RENT 토코로자와",
+        "name_display": "AZEST-RENT 토코로자와 — 토코로자와시 유학생 먼슬리맨션",
+        "address": "사이타마현 토코로자와시 아사히마치",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7904549,
+        "lng": 139.4781647
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15176",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15176.jpg",
+      "link": "/stay/oakhouse_15176?lang=kr"
+    },
+    {
+      "id": "oakhouse_15165",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Libres Warabi",
+        "name_ja": "리브레스 고사리",
+        "name_display": "리브레스 고사리 — 와라비시 유학생 먼슬리맨션",
+        "address": "사이타마현 와라비시 츠카고에 1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.8251915,
+        "lng": 139.6941223
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/15165",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_15165.jpg",
+      "link": "/stay/oakhouse_15165?lang=kr"
+    },
+    {
+      "id": "oakhouse_14677",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Bandobashi KNOTS",
+        "name_ja": "Bandobashi KNOTS",
+        "name_display": "Bandobashi KNOTS — 요코하마시 유학생 먼슬리맨션",
+        "address": "가나가와현 요코하마시 시라묘초 3초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.4355812,
+        "lng": 139.6256104
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/14677",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14677.jpg",
+      "link": "/stay/oakhouse_14677?lang=kr"
+    },
+    {
+      "id": "oakhouse_14618",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AZEST-RENT Miyazakidai",
+        "name_ja": "AZEST-RENT 미야자키다이",
+        "name_display": "AZEST-RENT 미야자키다이 — 가와사키시 유학생 먼슬리맨션",
+        "address": "가나가와현 가와사키시 미야자키",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.5889931,
+        "lng": 139.5964355
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/14618",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14618.jpg",
+      "link": "/stay/oakhouse_14618?lang=kr"
+    },
+    {
+      "id": "oakhouse_14592",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AZEST Yokohama Kannai",
+        "name_ja": "AZEST 요코하마관내",
+        "name_display": "AZEST 요코하마관내 — 요코하마시 유학생 먼슬리맨션",
+        "address": "가나가와현 요코하마시 치토세초",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.4375801,
+        "lng": 139.6350098
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/14592",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14592.jpg",
+      "link": "/stay/oakhouse_14592?lang=kr"
+    },
+    {
+      "id": "oakhouse_14561",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AZEST Yokohama Odori Park",
+        "name_ja": "AZEST 요코하마 오도리 공원",
+        "name_display": "AZEST 요코하마 오도리 공원 — 요코하마시 유학생 먼슬리맨션",
+        "address": "가나가와현 요코하마시 마가네초 2초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.4390068,
+        "lng": 139.6293793
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/14561",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14561.jpg",
+      "link": "/stay/oakhouse_14561?lang=kr"
+    },
+    {
+      "id": "oakhouse_14537",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Access Shonan Hiratsuka",
+        "name_ja": "Access 쇼난 히라쓰카",
+        "name_display": "Access 쇼난 히라쓰카 — 아카시 유학생 먼슬리맨션",
+        "address": "아카시쵸",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.3303642,
+        "lng": 139.3495331
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/14537",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14537.jpg",
+      "link": "/stay/oakhouse_14537?lang=kr"
+    },
+    {
+      "id": "oakhouse_14503",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AZEST Kannai",
+        "name_ja": "AZEST 관내",
+        "name_display": "AZEST 관내 — 요코하마시 유학생 먼슬리맨션",
+        "address": "가나가와현 요코하마시 스에요시초 1초메",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.4426117,
+        "lng": 139.6277771
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/14503",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_14503.jpg",
+      "link": "/stay/oakhouse_14503?lang=kr"
+    },
+    {
+      "id": "oakhouse_130",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "MAPLE HOUSE A (Hibarigaoka)",
+        "name_ja": "메이플하우스 A (히바리가오카)",
+        "name_display": "메이플하우스 A (히바리가오카) — 니이자시 유학생 셰어하우스",
+        "address": "사이타마켄 니이자시 쿠리하라",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7598495,
+        "lng": 139.5470123
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/130",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_130.jpg",
+      "link": "/stay/oakhouse_130?lang=kr"
+    },
+    {
+      "id": "oakhouse_1185",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "Charman Life Motomachi (Kobe)",
+        "name_ja": "Charman Life Motomachi (모토마치 고베)",
+        "name_display": "Charman Life Motomachi (모토마치 고베) — 고베시 유학생 먼슬리맨션",
+        "address": "효고현 고베시 주오구 모토마치도리",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.6867332,
+        "lng": 135.1828461
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/1185",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1185.jpg",
+      "link": "/stay/oakhouse_1185?lang=kr"
+    },
+    {
+      "id": "oakhouse_1177",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "GRAN ICHIKAWA",
+        "name_ja": "그랑 이치카와",
+        "name_display": "그랑 이치카와 — 이치카와시 유학생 셰어하우스",
+        "address": "지바현 이치카와시 이치카와",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7323685,
+        "lng": 139.9059753
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1177",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1177.jpg",
+      "link": "/stay/oakhouse_1177?lang=kr"
+    },
+    {
+      "id": "oakhouse_1172",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "LANDMARK TODA",
+        "name_ja": "랜드마크 토다",
+        "name_display": "랜드마크 토다 — 토다시 유학생 셰어하우스",
+        "address": "사이타마현 토다시 신조",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.8187141,
+        "lng": 139.6593018
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1172",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1172.jpg",
+      "link": "/stay/oakhouse_1172?lang=kr"
+    },
+    {
+      "id": "oakhouse_1169",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "APPARTEMENT HIRAI",
+        "name_ja": "아파트먼트 히라이",
+        "name_display": "아파트먼트 히라이 — 에도가와구 유학생 셰어하우스",
+        "address": "도쿄도 에도가와구 히라이",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.701664,
+        "lng": 139.8466034
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1169",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1169.jpg",
+      "link": "/stay/oakhouse_1169?lang=kr"
+    },
+    {
+      "id": "oakhouse_1164",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "APPARTEMENT MABASHI",
+        "name_ja": "아파트먼트 마바시",
+        "name_display": "아파트먼트 마바시 — 마츠도시 유학생 셰어하우스",
+        "address": "치바켄 마츠도시 마바시",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.8154144,
+        "lng": 139.9203949
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1164",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1164.jpg",
+      "link": "/stay/oakhouse_1164?lang=kr"
+    },
+    {
+      "id": "oakhouse_1157",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "AQURIEST Ⅰ (KYOTO)",
+        "name_ja": "AQURIEST Ⅰ (교토)",
+        "name_display": "AQURIEST Ⅰ (교토) — 교토시 유학생 먼슬리맨션",
+        "address": "교토부 교토시 가미교구 호즈이초",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.0238304,
+        "lng": 135.736618
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/1157",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1157.jpg",
+      "link": "/stay/oakhouse_1157?lang=kr"
+    },
+    {
+      "id": "oakhouse_1152",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "BERCEUSE (KYOTO)",
+        "name_ja": "벨수즈 (교토)",
+        "name_display": "벨수즈 (교토) — 교토시 유학생 먼슬리맨션",
+        "address": "교토부 교토시 시모교구 묘만지마치",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.0028877,
+        "lng": 135.7513275
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/1152",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1152.jpg",
+      "link": "/stay/oakhouse_1152?lang=kr"
+    },
+    {
+      "id": "oakhouse_1150",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "APPARTEMENT IIDABASHI",
+        "name_ja": "아파트먼트 이다바시",
+        "name_display": "아파트먼트 이다바시 — 신주쿠구 유학생 셰어하우스",
+        "address": "도쿄도 신주쿠구 신오가와초",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.7041054,
+        "lng": 139.7432404
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1150",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1150.jpg",
+      "link": "/stay/oakhouse_1150?lang=kr"
+    },
+    {
+      "id": "oakhouse_1149",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "ICHIKAWA BURG",
+        "name_ja": "이치카와 부르그",
+        "name_display": "이치카와 부르그 — 이치카와시 유학생 셰어하우스",
+        "address": "치바현 이치카와시 스와다",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.737606,
+        "lng": 139.91362
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1149",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1149.jpg",
+      "link": "/stay/oakhouse_1149?lang=kr"
+    },
+    {
+      "id": "oakhouse_1142",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "GRAN KOBE",
+        "name_ja": "그랑 고베",
+        "name_display": "그랑 고베 — 고베시 유학생 셰어하우스",
+        "address": "효고현 고베시 히가시나다구 우오자키키타마치",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7159424,
+        "lng": 135.2690582
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1142",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1142.jpg",
+      "link": "/stay/oakhouse_1142?lang=kr"
+    },
+    {
+      "id": "oakhouse_1139",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "APPARTEMENT AICHI",
+        "name_ja": "아파트먼트 아이치",
+        "name_display": "아파트먼트 아이치 — 캇타니시 유학생 셰어하우스",
+        "address": "아이치현 캇타니시 마츠에이초",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.9805603,
+        "lng": 137.0331573
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1139",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1139.jpg",
+      "link": "/stay/oakhouse_1139?lang=kr"
+    },
+    {
+      "id": "oakhouse_1137",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "LEGENDARY MUKOGAWA (Hyogo)",
+        "name_ja": "레전더리 무코가와 (효고)",
+        "name_display": "레전더리 무코가와 (효고) — 니시노미야시 유학생 먼슬리맨션",
+        "address": "효고현 니시노미야시 코마츠키타마치",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 34.7263374,
+        "lng": 135.3783722
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/1137",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1137.jpg",
+      "link": "/stay/oakhouse_1137?lang=kr"
+    },
+    {
+      "id": "oakhouse_1129",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-20",
+      "basic_info": {
+        "name_en": "APPARTEMENT ASAKA",
+        "name_ja": "아파트먼트 아사카",
+        "name_display": "아파트먼트 아사카 — 아사카시 유학생 셰어하우스",
+        "address": "사이타마현 아사카시 미조누마",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.8040466,
+        "lng": 139.5910187
+      },
+      "rent": {
+        "max": null,
+        "min": null
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/1129",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_1129.jpg",
+      "link": "/stay/oakhouse_1129?lang=kr"
+    },
+    {
+      "id": "world_neighbors_kiba",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "WORLD NEIGHBORS KIYOSUMI-SHIRAKAWA",
+        "name_ja": "ワールドネイバーズ清澄白河",
+        "name_display": "WORLD NEIGHBORS KIYOSUMI-SHIRAKAWA — 도쿄 유학생 셰어하우스",
+        "address": "4-13-1 Hirano, Koto-ku, Tokyo 135-0023, Japan",
+        "operator": "World Neighbors"
+      },
+      "location": {
+        "lat": 35.677725,
+        "lng": 139.804309
+      },
+      "rent": {
+        "max": 74000,
+        "min": 53000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.social-apartment.com/eng/builds/tokyo/koto-ku/view/49",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_world_neighbors_kiba.jpg",
+      "link": "/stay/world_neighbors_kiba?lang=kr"
+    },
+    {
+      "id": "tokyu_stay_shibuya",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Tokyu Stay Shibuya",
+        "name_ja": "東急ステイ渋谷",
+        "name_display": "Tokyu Stay Shibuya — 도쿄 유학생 먼슬리맨션",
+        "address": "8-14 Shinsencho, Shibuya-ku, Tokyo 150-0045, Japan",
+        "operator": "Tokyu Stay"
+      },
+      "location": {
+        "lat": 35.656374,
+        "lng": 139.692513
+      },
+      "rent": {
+        "max": 140000,
+        "min": 95000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.tokyustay.co.jp/en/hotel/shibuya-tokyo/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_tokyu_stay_shibuya.jpg",
+      "link": "/stay/tokyu_stay_shibuya?lang=kr"
+    },
+    {
+      "id": "shin_okubo_monthly",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Shin-Okubo Monthly Mansion (Monthly Net)",
+        "name_ja": "新大久保マンスリーマンション",
+        "name_display": "Shin-Okubo Monthly Mansion (Monthly Net) — 도쿄 유학생 먼슬리맨션",
+        "address": "1-10-15 Hyakunincho, Shinjuku-ku, Tokyo 169-0073, Japan",
+        "operator": "Monthly Net"
+      },
+      "location": {
+        "lat": 35.701495,
+        "lng": 139.699932
+      },
+      "rent": {
+        "max": 90000,
+        "min": 65000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.monthly-net-tokyo.com/area/shinjuku/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_shin_okubo_monthly.jpg",
+      "link": "/stay/shin_okubo_monthly?lang=kr"
+    },
+    {
+      "id": "sapore_shibuya",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "SAPORE Shibuya Dogenzaka",
+        "name_ja": "サポーレ渋谷道玄坂",
+        "name_display": "SAPORE Shibuya Dogenzaka — 도쿄 유학생 먼슬리맨션",
+        "address": "28-13 Maruyama-cho, Shibuya-ku, Tokyo 150-0044, Japan",
+        "operator": "SAPORE"
+      },
+      "location": {
+        "lat": 35.657941,
+        "lng": 139.698329
+      },
+      "rent": {
+        "max": 130000,
+        "min": 92000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sapore.jp/english/shibuya/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sapore_shibuya.jpg",
+      "link": "/stay/sapore_shibuya?lang=kr"
+    },
+    {
+      "id": "sakura_house_shinjuku",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE NISHI-SHINJUKU B",
+        "name_ja": "さくらハウス西新宿B",
+        "name_display": "SAKURA HOUSE NISHI-SHINJUKU B — 도쿄 유학생 게스트하우스",
+        "address": "Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023, Japan",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.689884,
+        "lng": 139.684518
+      },
+      "rent": {
+        "max": 85000,
+        "min": 48000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/nishi-shinjuku",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_house_shinjuku.jpg",
+      "link": "/stay/sakura_house_shinjuku?lang=kr"
+    },
+    {
+      "id": "sakura_house_nippori",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE NIPPORI",
+        "name_ja": "さくらハウス日暮里",
+        "name_display": "SAKURA HOUSE NIPPORI — 도쿄 유학생 게스트하우스",
+        "address": "Nippori, Arakawa-ku, Tokyo 116-0013, Japan",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.728006,
+        "lng": 139.771378
+      },
+      "rent": {
+        "max": 72000,
+        "min": 42000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/nippori",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_house_nippori.jpg",
+      "link": "/stay/sakura_house_nippori?lang=kr"
+    },
+    {
+      "id": "sakura_house_ikebukuro",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "SAKURA HOUSE IKEBUKURO",
+        "name_ja": "さくらハウス池袋",
+        "name_display": "SAKURA HOUSE IKEBUKURO — 도쿄 유학생 게스트하우스",
+        "address": "Ikebukuro, Toshima-ku, Tokyo 170-0013, Japan",
+        "operator": "Sakura House"
+      },
+      "location": {
+        "lat": 35.730943,
+        "lng": 139.709171
+      },
+      "rent": {
+        "max": 78000,
+        "min": 45000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-house.com/building/ikebukuro",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_house_ikebukuro.jpg",
+      "link": "/stay/sakura_house_ikebukuro?lang=kr"
+    },
+    {
+      "id": "sakura_hotel_hatagaya",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Sakura Hotel Hatagaya",
+        "name_ja": "サクラホテル幡ヶ谷",
+        "name_display": "Sakura Hotel Hatagaya — 도쿄 유학생 게스트하우스",
+        "address": "32-3 Hatagaya, Shibuya-ku, Tokyo 151-0072, Japan",
+        "operator": "Sakura Hotels"
+      },
+      "location": {
+        "lat": 35.677005,
+        "lng": 139.676588
+      },
+      "rent": {
+        "max": 68000,
+        "min": 40000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.sakura-hotel.co.jp/hatagaya/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_sakura_hotel_hatagaya.jpg",
+      "link": "/stay/sakura_hotel_hatagaya?lang=kr"
+    },
+    {
+      "id": "oakhouse_shibuya",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "OAK TERRACE SHIBUYA",
+        "name_ja": "オークテラス渋谷",
+        "name_display": "OAK TERRACE SHIBUYA — 도쿄 유학생 셰어하우스",
+        "address": "Maruyama-cho, Shibuya-ku, Tokyo 150-0046, Japan",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.656374,
+        "lng": 139.692513
+      },
+      "rent": {
+        "max": 88000,
+        "min": 62000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/996",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_shibuya.jpg",
+      "link": "/stay/oakhouse_shibuya?lang=kr"
+    },
+    {
+      "id": "oakhouse_nishi_shinjuku",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "OAKHOUSE SHINJUKU CITY VIEW",
+        "name_ja": "オークハウス新宿シティビュー",
+        "name_display": "OAKHOUSE SHINJUKU CITY VIEW — 도쿄 유학생 셰어하우스",
+        "address": "Nishishinjuku, Shinjuku-ku, Tokyo 160-0023, Japan",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.689884,
+        "lng": 139.684518
+      },
+      "rent": {
+        "max": 82000,
+        "min": 58000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/house/384",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_nishi_shinjuku.jpg",
+      "link": "/stay/oakhouse_nishi_shinjuku?lang=kr"
+    },
+    {
+      "id": "oakhouse_nakano",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "FOUSYM SHINNAKANO",
+        "name_ja": "フォーシム新中野",
+        "name_display": "FOUSYM SHINNAKANO — 도쿄 유학생 셰어하우스",
+        "address": "Honcho, Nakano-ku, Tokyo 164-0013, Japan",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.69746,
+        "lng": 139.668643
+      },
+      "rent": {
+        "max": 70000,
+        "min": 50000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/1148",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_nakano.jpg",
+      "link": "/stay/oakhouse_nakano?lang=kr"
+    },
+    {
+      "id": "oakhouse_monthly_shinjuku",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "OAK APARTMENT SHINJUKU",
+        "name_ja": "オークアパートメント新宿",
+        "name_display": "OAK APARTMENT SHINJUKU — 도쿄 유학생 먼슬리맨션",
+        "address": "Shinjuku, Shinjuku-ku, Tokyo 160-0022, Japan",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.692525,
+        "lng": 139.705768
+      },
+      "rent": {
+        "max": 115000,
+        "min": 80000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/apartment/1117",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_monthly_shinjuku.jpg",
+      "link": "/stay/oakhouse_monthly_shinjuku?lang=kr"
+    },
+    {
+      "id": "oakhouse_kichijoji",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "OAKHOUSE KICHIJOJI 3",
+        "name_ja": "オークハウス吉祥寺3",
+        "name_display": "OAKHOUSE KICHIJOJI 3 — 도쿄 유학생 셰어하우스",
+        "address": "Kichijoji Honcho, Musashino, Tokyo 180-0004, Japan",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.702698,
+        "lng": 139.579543
+      },
+      "rent": {
+        "max": 72000,
+        "min": 52000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/station/kichijoji/apartment",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_kichijoji.jpg",
+      "link": "/stay/oakhouse_kichijoji?lang=kr"
+    },
+    {
+      "id": "oakhouse_ikebukuro",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "OAKHOUSE IKEBUKURO",
+        "name_ja": "オークハウス池袋",
+        "name_display": "OAKHOUSE IKEBUKURO — 도쿄 유학생 셰어하우스",
+        "address": "Kita-Ikebukuro, Toshima-ku, Tokyo 170-0004, Japan",
+        "operator": "Oakhouse"
+      },
+      "location": {
+        "lat": 35.740986,
+        "lng": 139.71682
+      },
+      "rent": {
+        "max": 75000,
+        "min": 55000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.oakhouse.jp/eng/station/kita-ikebukuro",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_oakhouse_ikebukuro.jpg",
+      "link": "/stay/oakhouse_ikebukuro?lang=kr"
+    },
+    {
+      "id": "neo_house_tokyo",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Neo House Otsuka",
+        "name_ja": "ネオハウス大塚",
+        "name_display": "Neo House Otsuka — 도쿄 유학생 셰어하우스",
+        "address": "2-43-1 Minami-Otsuka, Toshima-ku, Tokyo 170-0005, Japan",
+        "operator": "Neo House"
+      },
+      "location": {
+        "lat": 35.731685,
+        "lng": 139.728588
+      },
+      "rent": {
+        "max": 71000,
+        "min": 49000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.neohouse.jp/english/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_neo_house_tokyo.jpg",
+      "link": "/stay/neo_house_tokyo?lang=kr"
+    },
+    {
+      "id": "mustard_shimokitazawa",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Mustard Hotel Shimokitazawa",
+        "name_ja": "マスタードホテル下北沢",
+        "name_display": "Mustard Hotel Shimokitazawa — 도쿄 유학생 먼슬리맨션",
+        "address": "2-26-2 Kitazawa, Setagaya-ku, Tokyo 155-0031, Japan",
+        "operator": "Mustard Hotel"
+      },
+      "location": {
+        "lat": 35.661566,
+        "lng": 139.66706
+      },
+      "rent": {
+        "max": 110000,
+        "min": 75000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://mustardhotel.com/shimokitazawa/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_mustard_shimokitazawa.jpg",
+      "link": "/stay/mustard_shimokitazawa?lang=kr"
+    },
+    {
+      "id": "mansion_hayakawa_shibuya",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Weekly Mansion Hayakawa Shibuya",
+        "name_ja": "ウィークリーマンション早川渋谷",
+        "name_display": "Weekly Mansion Hayakawa Shibuya — 도쿄 유학생 먼슬리맨션",
+        "address": "1-11-2 Shibuya, Shibuya-ku, Tokyo 150-0002, Japan",
+        "operator": "Weekly Mansion"
+      },
+      "location": {
+        "lat": 35.659718,
+        "lng": 139.699593
+      },
+      "rent": {
+        "max": 125000,
+        "min": 88000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.weekly-mansion.com/area/tokyo/shibuya/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_mansion_hayakawa_shibuya.jpg",
+      "link": "/stay/mansion_hayakawa_shibuya?lang=kr"
+    },
+    {
+      "id": "leopalace_shinjuku_gyoen",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Leopalace21 Shinjuku-Gyoen",
+        "name_ja": "レオパレス21新宿御苑",
+        "name_display": "Leopalace21 Shinjuku-Gyoen — 도쿄 유학생 먼슬리맨션",
+        "address": "Shinjuku, Shinjuku-ku, Tokyo 160-0022, Japan",
+        "operator": "Leopalace21"
+      },
+      "location": {
+        "lat": 35.688611,
+        "lng": 139.710278
+      },
+      "rent": {
+        "max": 105000,
+        "min": 78000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=新宿",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_shinjuku_gyoen.jpg",
+      "link": "/stay/leopalace_shinjuku_gyoen?lang=kr"
+    },
+    {
+      "id": "leopalace_nakano",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Leopalace21 Nakano",
+        "name_ja": "レオパレス21中野",
+        "name_display": "Leopalace21 Nakano — 도쿄 유학생 먼슬리맨션",
+        "address": "Nakano, Nakano-ku, Tokyo 165-0026, Japan",
+        "operator": "Leopalace21"
+      },
+      "location": {
+        "lat": 35.704987,
+        "lng": 139.66619
+      },
+      "rent": {
+        "max": 92000,
+        "min": 68000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=中野",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_nakano.jpg",
+      "link": "/stay/leopalace_nakano?lang=kr"
+    },
+    {
+      "id": "leopalace_machida",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Leopalace21 Machida",
+        "name_ja": "レオパレス21町田",
+        "name_display": "Leopalace21 Machida — 도쿄 유학생 먼슬리맨션",
+        "address": "Machida, Tokyo 194-0013, Japan",
+        "operator": "Leopalace21"
+      },
+      "location": {
+        "lat": 35.542072,
+        "lng": 139.445436
+      },
+      "rent": {
+        "max": 78000,
+        "min": 58000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=町田",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_machida.jpg",
+      "link": "/stay/leopalace_machida?lang=kr"
+    },
+    {
+      "id": "leopalace_kichijoji",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Leopalace21 Kichijoji",
+        "name_ja": "レオパレス21吉祥寺",
+        "name_display": "Leopalace21 Kichijoji — 도쿄 유학생 먼슬리맨션",
+        "address": "Kichijoji Honcho, Musashino, Tokyo 180-0004, Japan",
+        "operator": "Leopalace21"
+      },
+      "location": {
+        "lat": 35.702698,
+        "lng": 139.579543
+      },
+      "rent": {
+        "max": 95000,
+        "min": 70000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=吉祥寺",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_kichijoji.jpg",
+      "link": "/stay/leopalace_kichijoji?lang=kr"
+    },
+    {
+      "id": "leopalace_ikebukuro",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Leopalace21 Ikebukuro",
+        "name_ja": "レオパレス21池袋",
+        "name_display": "Leopalace21 Ikebukuro — 도쿄 유학생 먼슬리맨션",
+        "address": "Ikebukuro, Toshima-ku, Tokyo 171-0022, Japan",
+        "operator": "Leopalace21"
+      },
+      "location": {
+        "lat": 35.730943,
+        "lng": 139.709171
+      },
+      "rent": {
+        "max": 98000,
+        "min": 72000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.leopalace21.com/info/search/list.aspx?station=池袋",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_leopalace_ikebukuro.jpg",
+      "link": "/stay/leopalace_ikebukuro?lang=kr"
+    },
+    {
+      "id": "khaosan_world_ninja",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Khaosan World Asakusa Ryokan & Hostel",
+        "name_ja": "カオサンワールド浅草",
+        "name_display": "Khaosan World Asakusa Ryokan & Hostel — 도쿄 유학생 게스트하우스",
+        "address": "3-15-1 Nishi-Asakusa, Taito-ku, Tokyo 111-0035, Japan",
+        "operator": "Khaosan"
+      },
+      "location": {
+        "lat": 35.71441,
+        "lng": 139.790328
+      },
+      "rent": {
+        "max": 48000,
+        "min": 32000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://world.khaosan-tokyo.com/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_khaosan_world_ninja.jpg",
+      "link": "/stay/khaosan_world_ninja?lang=kr"
+    },
+    {
+      "id": "guesthouse_wasabi_shinjuku",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Hostel Wasabi Asakusa",
+        "name_ja": "ホステルわさび浅草",
+        "name_display": "Hostel Wasabi Asakusa — 도쿄 유학생 게스트하우스",
+        "address": "4-31-9 Asakusa, Taito-ku, Tokyo 111-0032, Japan",
+        "operator": "Wasabi"
+      },
+      "location": {
+        "lat": 35.718839,
+        "lng": 139.796578
+      },
+      "rent": {
+        "max": 55000,
+        "min": 35000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://guesthousejp.com/asakusa/en/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_guesthouse_wasabi_shinjuku.jpg",
+      "link": "/stay/guesthouse_wasabi_shinjuku?lang=kr"
+    },
+    {
+      "id": "grids_akihabara",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "guesthouse",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "GRIDS Tokyo Akihabara Hotel & Hostel",
+        "name_ja": "グリッズ東京秋葉原",
+        "name_display": "GRIDS Tokyo Akihabara Hotel & Hostel — 도쿄 유학생 게스트하우스",
+        "address": "2-8-16 Higashikanda, Chiyoda-ku, Tokyo 101-0031, Japan",
+        "operator": "GRIDS"
+      },
+      "location": {
+        "lat": 35.69659,
+        "lng": 139.780332
+      },
+      "rent": {
+        "max": 62000,
+        "min": 38000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://grids-hostel.com/akihabara/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_grids_akihabara.jpg",
+      "link": "/stay/grids_akihabara?lang=kr"
+    },
+    {
+      "id": "flexstay_shinjuku",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Flexstay Inn Shinjuku",
+        "name_ja": "フレックスステイイン新宿",
+        "name_display": "Flexstay Inn Shinjuku — 도쿄 유학생 먼슬리맨션",
+        "address": "2-10-5 Kabukicho, Shinjuku-ku, Tokyo 160-0021, Japan",
+        "operator": "Flexstay"
+      },
+      "location": {
+        "lat": 35.694543,
+        "lng": 139.70271
+      },
+      "rent": {
+        "max": 120000,
+        "min": 85000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.flexstay.jp/english/shinjuku/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_flexstay_shinjuku.jpg",
+      "link": "/stay/flexstay_shinjuku?lang=kr"
+    },
+    {
+      "id": "citadines_shinjuku",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Citadines Shinjuku Tokyo",
+        "name_ja": "シタディーン新宿東京",
+        "name_display": "Citadines Shinjuku Tokyo — 도쿄 유학생 먼슬리맨션",
+        "address": "1-28-13 Shinjuku, Shinjuku-ku, Tokyo 160-0022, Japan",
+        "operator": "Citadines"
+      },
+      "location": {
+        "lat": 35.689607,
+        "lng": 139.700023
+      },
+      "rent": {
+        "max": 165000,
+        "min": 110000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.citadines.com/en/japan/tokyo/citadines-shinjuku-tokyo.html",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_citadines_shinjuku.jpg",
+      "link": "/stay/citadines_shinjuku?lang=kr"
+    },
+    {
+      "id": "borderless_shinjuku",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "BORDERLESS HOUSE SHINJUKU-CHUO1",
+        "name_ja": "ボーダレスハウス新宿中央1",
+        "name_display": "BORDERLESS HOUSE SHINJUKU-CHUO1 — 도쿄 유학생 셰어하우스",
+        "address": "Shinjuku, Shinjuku-ku, Tokyo 160-0023, Japan",
+        "operator": "Borderless House"
+      },
+      "location": {
+        "lat": 35.692525,
+        "lng": 139.705768
+      },
+      "rent": {
+        "max": 79000,
+        "min": 56000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.borderless-house.com/jp/sharehouse/shinjuku_chuo/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_borderless_shinjuku.jpg",
+      "link": "/stay/borderless_shinjuku?lang=kr"
+    },
+    {
+      "id": "borderless_meguro",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "share_house",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "BORDERLESS HOUSE MEGURO-HONCHO1",
+        "name_ja": "ボーダレスハウス目黒本町1",
+        "name_display": "BORDERLESS HOUSE MEGURO-HONCHO1 — 도쿄 유학생 셰어하우스",
+        "address": "Meguro-Honcho, Meguro-ku, Tokyo 152-0002, Japan",
+        "operator": "Borderless House"
+      },
+      "location": {
+        "lat": 35.619722,
+        "lng": 139.703611
+      },
+      "rent": {
+        "max": 76000,
+        "min": 54000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.borderless-house.com/jp/sharehouse/musashikoyama/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_borderless_meguro.jpg",
+      "link": "/stay/borderless_meguro?lang=kr"
+    },
+    {
+      "id": "akasaka_weekly_mansion",
+      "entity": "stay",
+      "category": "stay",
+      "stay_type": "monthly_mansion",
+      "published": "2026-07-09",
+      "basic_info": {
+        "name_en": "Akasaka Weekly Mansion",
+        "name_ja": "赤坂ウィークリーマンション",
+        "name_display": "Akasaka Weekly Mansion — 도쿄 유학생 먼슬리맨션",
+        "address": "5-4-7 Akasaka, Minato-ku, Tokyo 107-0052, Japan",
+        "operator": "Weekly Mansion"
+      },
+      "location": {
+        "lat": 35.672224,
+        "lng": 139.736388
+      },
+      "rent": {
+        "max": 135000,
+        "min": 90000
+      },
+      "foreigner_ok": true,
+      "furnished": true,
+      "no_guarantor": true,
+      "booking_url": "https://www.weekly-mansion.com/area/tokyo/akasaka/",
+      "thumbnail": "https://storage.googleapis.com/ok-project-assets/jpcampus/stay_akasaka_weekly_mansion.jpg",
+      "link": "/stay/akasaka_weekly_mansion?lang=kr"
+    }
+  ]
+}

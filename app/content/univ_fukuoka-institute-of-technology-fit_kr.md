@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukuoka Institute of Technology
   name_ja: 福岡工業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 후쿠오카 공업대학교(FIT)는 일본 규슈 지역의 기술 혁신을 선도하는 명문 사립 공과대학입니다. 압도적인 취업률과 실무 중심의
   교육 과정, 그리고 유학생을 위한 세심한 지원 체계를 갖추고 있어 일본 내 취업을 희망하는 학생들에게 최고의 선택지 중 하나입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 220000
   yearly_tuition: 1385000
 ---
+
 
 ## 🏫 학교 개요
 

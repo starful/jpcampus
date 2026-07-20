@@ -5,7 +5,7 @@ basic_info:
   name_en: Takaoka University of Law
   name_ja: 高岡法科大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Law
 - Department of Law
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 720000
 ---
+
 
 ## 🏫 University Overview: A Specialized Hub for Legal Studies
 

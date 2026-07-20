@@ -41,8 +41,8 @@ basic_info:
   thumbnail: /static/img/pin-school.png
   title: Shinjuku Heiwa Japanese Language School
   tuition: {}
-content_body: "## \U0001F3EB School Overview & Philosophy"
-date: '2026-01-28'
+content_body: '## 🏫 School Overview & Philosophy'
+date: '2026-07-20'
 description: '도쿄에 위치한 신주쿠 헤이와 일본어학교를 만나보세요: 대학 진학을 전문으로 하는 일본어 교육의 선두 기관입니다. 코스, 캠퍼스
   생활, 숙박 옵션을 살펴보세요.'
 features:
@@ -54,6 +54,7 @@ lang: kr
 title: 신주쿠 헤이와 일본어학교
 translated: true
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

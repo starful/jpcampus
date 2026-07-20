@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 大学進学1.3年ｺｰｽ
   total_fees: 1001250
-date: '2026-07-12'
+date: '2026-07-20'
 description: The Kokusai Jinbun Foreign Language Academy is a preparatory institution
   focused on rigorous academic assimilation for international students seeking entry
   into Japan’s competitive higher education system. Located in Nakano, Tokyo, the
@@ -47,6 +47,7 @@ title: Kokusai Jinbun Foreign Language Academy
 translated: true
 tuition: {}
 ---
+
 
 # Kokusai Jinbun Foreign Language Academy: Your Academic Launchpad in Tokyo's Nakano District
 

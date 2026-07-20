@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukui University of Technology
   name_ja: 福井工業大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Environmental and Information Sciences
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1300000
 ---
+
 
 ## 🏫 University Overview
 

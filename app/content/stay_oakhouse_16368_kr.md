@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/16368
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 후나바시시 먼슬리맨션 지메종 야쿠엔다이. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -66,6 +66,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_16368.jpg
 title: 지메종 야쿠엔다이 — 후나바시시 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

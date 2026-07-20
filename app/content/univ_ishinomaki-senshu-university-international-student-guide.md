@@ -5,7 +5,7 @@ basic_info:
   name_en: Ishinomaki Senshu University
   name_ja: 石巻専修大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Business Administration
 - Faculty of Science and Engineering
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 University Overview: The Gateway to Northern Japan
 

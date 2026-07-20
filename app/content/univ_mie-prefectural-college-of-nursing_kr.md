@@ -5,7 +5,7 @@ basic_info:
   name_en: Mie Prefectural College of Nursing
   name_ja: 三重県立看護大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 미에현립 간호대학은 높은 수준의 기술과 윤리 의식을 갖춘 간호 전문가를 양성하는 데 주력하는 일본 중부의 명문 의료 교육 기관입니다.
 faculties:
 - Faculty of Nursing
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 헬스케어 교육의 탁월함
 

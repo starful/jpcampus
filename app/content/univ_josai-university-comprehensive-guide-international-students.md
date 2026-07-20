@@ -5,7 +5,7 @@ basic_info:
   name_en: Josai University
   name_ja: 城西大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Pharmacy
 - Faculty of Science
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 University Overview
 Josai University, established in 1965 by Mikio Mizuta, a former Japanese Minister of Finance, is a distinguished private institution that has grown into a hub for academic excellence and international cooperation. With its main campus located in the scenic yet accessible city of Sakado in Saitama Prefecture, and a satellite campus in the heart of Tokyo (Kioicho), Josai University offers a unique blend of suburban tranquility and urban connectivity. The university was founded on the principles of 'Human Development through Character Building,' focusing on fostering individuals who are not only technically proficient but also socially responsible and globally minded. For international students, Josai represents a gateway to Japan that balances rigorous scientific research with deep humanitarian values.

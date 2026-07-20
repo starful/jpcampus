@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3ヵ月コース
   total_fees: 1104500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 신주쿠에 위치한 히가시 신주쿠 일본어학원은 학생들이 고등 교육을 받을 수 있도록 종합적인 일본어 교육을 제공합니다. 소규모
   학급, 기숙사 숙박 시설, EJU 준비 지원 등의 특징이 있습니다.
 faculties: []
@@ -47,6 +47,7 @@ title: 히가시 신주쿠 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

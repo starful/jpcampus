@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 一般2年コース
   total_fees: 1246000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 종합적인 대학 및 전문학교 진학 경로 제공
@@ -43,6 +43,7 @@ title: 시즈오카 국제언어학원 (SILA)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Saga University
   name_ja: 佐賀大学
 category: university
-date: '2026-06-12'
+date: '2026-07-20'
 description: 일본 국립 사가대학교(Saga University)의 2026년 외국인 유학생 입학 정보, 학비, 장학금, 추천 학부 및 캠퍼스
   생활을 담은 종합 유학 가이드입니다.
 faculties:
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요: 규슈 지식의 관문
 

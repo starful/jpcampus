@@ -5,7 +5,7 @@ basic_info:
   name_en: Shikoku Gakuin University
   name_ja: 四国学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Liberal Arts
 - Department of Social Welfare
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview
 

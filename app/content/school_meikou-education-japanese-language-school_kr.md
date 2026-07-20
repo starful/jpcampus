@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: Progression Course (2 Years)
   total_fees: 1600000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 명문 대학 진학을 목표로 하는 학생들을 위한 도쿄 중심부의 일본어 학교입니다. 집중적인 EJU 대비 및 STEM 특화 트랙을
   제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ title: 메이코 교육 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

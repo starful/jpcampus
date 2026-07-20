@@ -5,7 +5,7 @@ basic_info:
   name_en: Himeji Dokkyo University
   name_ja: 姫路獨協大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Sciences
 - Faculty of Nursing
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 University Overview: The Gateway to Professional Success in Hyogo
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 京都大学
   website: https://www.kyoto-u.ac.jp/
 category: school
-date: '2026-06-12'
+date: '2026-07-20'
 description: 2026년 교토대 유학을 위한 필수 가이드! 교토대학교의 학부 정보, 학비, EJU 입시 요강, 장학금 등 합격을 위한 최신
   입학 정보를 JP Campus에서 확인하세요.
 faculties:
@@ -50,6 +50,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 
 ## 학교 개요 및 철학

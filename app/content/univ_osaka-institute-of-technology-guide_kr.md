@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Institute of Technology
   name_ja: 大阪工業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 실무 중심의 공학 교육과 압도적인 취업률을 자랑하며, 일본 유일의 지식재산학부를 보유한 오사카 공업대학을 소개합니다.
 faculties:
 - 공학부
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1420000
 ---
+
 
 ## 🏫 대학 개요: 실무형 공학의 강자
 

@@ -9,9 +9,10 @@
   ],
   "description": "How student commuter passes can save you money.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-03-03"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Saving on Travel: The 'Teikiken' (Commuter Pass) – Your Ultimate Guide as an International Student in Japan
 

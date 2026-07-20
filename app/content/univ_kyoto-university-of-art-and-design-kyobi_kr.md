@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto University of Art and Design
   name_ja: 京都美術工芸大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 교토의 전통 장인 정신과 현대적 디자인 및 건축 기술을 결합하여, 일본의 '모노즈쿠리' 정신을 이어가는 예술 및 디자인 전문
   대학입니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 대학 개요
 

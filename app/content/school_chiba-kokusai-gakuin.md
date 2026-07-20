@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1333000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Focused University Entrance Preparation (EJU/JLPT N1)
@@ -46,6 +46,7 @@ title: Chiba Kokusai Gakuin (Chiba International Academy)
 translated: true
 tuition: {}
 ---
+
 
 # Chiba International Academy: Your Boutique Gateway to Japanese Higher Education
 

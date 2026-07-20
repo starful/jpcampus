@@ -5,7 +5,7 @@ basic_info:
   name_en: Ehime Prefectural University of Health Sciences
   name_ja: 愛媛県立医療技術大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Department of Nursing
 - Department of Medical Technology
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: The Gateway to Healthcare in Shikoku
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 信州大学
   website: https://www.shinshu-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 일본 알프스의 심장부에 위치한 신슈대학교에 대한 소개입니다. 다양한 학부, 영어 프로그램, 장학금 기회 등에 대해 알아보세요.
 faculties:
 - Faculty of Arts
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학교 개요 및 명성
 

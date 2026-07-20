@@ -5,7 +5,7 @@ basic_info:
   name_en: Kansai University of Health Sciences
   name_ja: 関西医療大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Health Sciences (保健医療学部)
 - Faculty of Nursing (看護学部)
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 300000
   yearly_tuition: 1550000
 ---
+
 
 ## 🏫 University Overview
 

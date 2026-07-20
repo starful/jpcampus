@@ -5,7 +5,7 @@ basic_info:
   name_ja: 新潟大学
   website: https://www.niigata-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 니가타 대학교는 일본 니가타현에 위치한 종합 국립대학교로, 다양한 학부와 프로그램을 제공합니다. 연구 및 지역 환경과 경제에
   대한 기여로 잘 알려져 있으며, 국제 학생들에게 다양하고 포용적인 환경을 제공합니다.
 faculties:
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학교 개요 및 명성
 

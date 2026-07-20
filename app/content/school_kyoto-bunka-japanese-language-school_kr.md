@@ -9,7 +9,7 @@ courses:
 - admission_month: 4,10
   course_name: 総合日本語学科
   total_fees: 1608000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 교토 문화 일본어 학교는 교토의 중심부에 위치하여 미술 및 디자인 분야 진학을 희망하는 학생들에게 최적의 환경을 제공합니다.
 faculties: []
 features:
@@ -38,6 +38,7 @@ thumbnail: /static/img/pin-school.png
 title: 교토 문화 일본어 학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

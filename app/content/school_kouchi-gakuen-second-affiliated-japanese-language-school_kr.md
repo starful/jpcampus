@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1700000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 스기나미구에 위치한 코우치 학원 제2부속 일본어학교는 대학 입시를 위한 집중적인 교육을 제공합니다. EJU 시험 및 이과
   과정에 특화된 커리큘럼과 기숙사를 제공합니다.
 faculties: []
@@ -46,6 +46,7 @@ title: 코우치 학원 제2부속 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

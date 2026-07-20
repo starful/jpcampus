@@ -5,7 +5,7 @@ basic_info:
   name_en: Meio University
   name_ja: 名桜大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - School of Liberal Arts
 - School of Health Sciences
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

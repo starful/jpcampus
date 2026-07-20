@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学1年3か月コース
   total_fees: 972350
-date: '2026-01-28'
+date: '2026-07-20'
 description: 고베에 위치한 국제어학원은 종합적인 일본어 교육과 전문적인 학업 준비를 제공합니다. 집중 EJU 준비, 대학 진학 트랙, 통합
   기숙사 서비스 등의 특징을 갖추고 있습니다.
 faculties: []
@@ -57,6 +57,7 @@ title: Kokusai Language Institute
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

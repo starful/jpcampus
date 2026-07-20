@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka University of Commerce
   name_ja: 大阪商業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Business Administration
 - Faculty of Economics
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

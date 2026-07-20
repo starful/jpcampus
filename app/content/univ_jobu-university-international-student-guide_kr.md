@@ -5,7 +5,7 @@ basic_info:
   name_en: Jobu University
   name_ja: 上武大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 전진(Zenshin)의 정신을 바탕으로 실무 중심의 교육을 제공하며, 저렴한 물가와 강력한 취업 지원을 자랑하는 군마현의 명문
   사립대학교입니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요: '전진(Zenshin)'의 정신
 

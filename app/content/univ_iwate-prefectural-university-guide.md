@@ -5,7 +5,7 @@ basic_info:
   name_en: Iwate Prefectural University
   name_ja: 岩手県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Nursing
 - Faculty of Social Welfare
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

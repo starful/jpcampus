@@ -364,7 +364,7 @@ content_body: '## School Overview & Philosophy
   It is essential to research the eligibility requirements, application deadlines,
   and application procedures for each scholarship carefully. Applying for multiple
   scholarships can increase your chances of receiving financial assistance.'
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 스미다구 료고쿠에 위치한 슈린 일본어 학교에 대한 소개입니다. 대학 진학을 목표로 하는 유학생을 위한 전문적인 일본어
   교육을 제공합니다.
 features:
@@ -375,6 +375,7 @@ lang: kr
 title: 슈린 일본어 학교
 translated: true
 ---
+
 
 ## 학교 개요 및 철학
 

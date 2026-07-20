@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya Ryujo Women's University
   name_ja: 名古屋柳城女子大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Childhood Development
 - Department of Childhood Development
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1340000
 ---
+
 
 ## 🏫 University Overview
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 大学進学1.3年ｺｰｽ
   total_fees: 1001250
-date: '2026-01-28'
+date: '2026-07-20'
 description: 국제인문외국어학원은 일본의 경쟁적인 고등 교육 시스템으로 진학하려는 유학생을 위한 철저한 학업 적응에 중점을 둔 예비 교육
   기관입니다. 도쿄 나카노에 위치한 이 학원은 전문적인 EJU 훈련과 종합적인 지원을 제공합니다.
 faculties: []
@@ -45,6 +45,7 @@ title: 국제인문외국어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

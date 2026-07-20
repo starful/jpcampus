@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 大学進学4月
   total_fees: 891000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와에 위치한 소규모 정예 일본어 학교로, 대학 진학을 목표하는 학생들에게 맞춤형 교육과 체계적인 EJU 준비를 제공합니다.
 faculties: []
 features:
@@ -43,6 +43,7 @@ thumbnail: /static/img/pin-school.png
 title: 인터컬쳐럴 커뮤니케이션 센터 부속 일본어 학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

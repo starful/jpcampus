@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Gakuin University
   name_ja: 大阪学院大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 오사카 스이타시에 위치한 실무 중심의 명문 사립대학교, 오사카 가쿠인 대학교의 학부 정보, 국제 교류 프로그램, 취업 지원
   및 장학금 제도를 소개합니다.
 faculties:
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1080000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 近畿大学
   website: https://www.kindai.ac.jp/
 category: university
-date: '2026-04-27'
+date: '2026-07-20'
 description: 긴키대 진학을 고민하는 유학생을 위한 2026 가이드입니다. 인기 학과, 지원요건, 학비, 학교 선택 포인트를 다룹니다.
 faculties:
 - Faculty of Law
@@ -49,6 +49,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## 대학 개요 및 명성
 

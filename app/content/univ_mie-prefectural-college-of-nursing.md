@@ -5,7 +5,7 @@ basic_info:
   name_en: Mie Prefectural College of Nursing
   name_ja: 三重県立看護大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Nursing
 - Graduate School of Nursing
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: Excellence in Healthcare Education
 

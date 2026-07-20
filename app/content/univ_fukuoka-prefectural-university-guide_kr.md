@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukuoka Prefectural University
   name_ja: 福岡県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 후쿠오카 현립 대학은 사회 복지 및 보건 과학 분야에서 명성이 높은 공립 대학입니다. 전문적인 학업 지도와 지역 사회와의 깊은
   연계를 제공합니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

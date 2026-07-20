@@ -9,9 +9,10 @@
   ],
   "description": "Finding cables, cases, and chargers without overpaying.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-04-04"
+  "date": "2026-07-20"
 }
 ---
+
 
 # The International Student’s Guide to Smartphone Accessories in Japan: Daiso vs. Akihabara
 

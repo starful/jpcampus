@@ -5,7 +5,7 @@ basic_info:
   name_en: Aomori University of Health and Welfare
   name_ja: 青森県立保健大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Department of Nursing
 - Department of Physical Therapy
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: A Pillar of Health in Northern Japan
 

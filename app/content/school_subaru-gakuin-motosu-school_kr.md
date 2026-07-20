@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語進学1年6か月コース
   total_fees: 1150000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 기후현에 위치한 스바루 학원 모토스 캠퍼스는 일본 대학 및 대학원 진학을 목표로 하는 유학생을 위한 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -48,6 +48,7 @@ title: 스바루 학원 모토스 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

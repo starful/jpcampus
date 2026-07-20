@@ -25,7 +25,7 @@ courses:
   course_name: 進学1.9年コース
   total_fees: 1239300
   translated_course_name: University Prep 1.9-Year Course
-date: '2026-01-28'
+date: '2026-07-20'
 description: 치바현 카시와시에 위치한 메이유 일본어학원은 종합적인 일본어 교육을 제공하며, 특히 이공계 대학 진학 준비에 중점을 두고 있습니다.
   기숙사 시설과 EJU 시험 지원을 제공합니다.
 faculties: []
@@ -54,6 +54,7 @@ title: 메이유 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

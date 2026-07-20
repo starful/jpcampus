@@ -5,7 +5,7 @@ basic_info:
   name_en: Wayo Women's University
   name_ja: 和洋女子大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: 도쿄 근교에 위치한 역사 깊은 와요여자대학교의 학부 정보, 학비, 장학 제도 및 외국인 유학생을 위한 입시 가이드를 제공합니다.
 faculties:
 - Faculty of Humanities
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

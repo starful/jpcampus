@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 総合1年3ヶ月コース
   total_fees: 960000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Tokyo Sanritsu Gakuin offers comprehensive Japanese language education
   with a strong focus on academic progression, EJU preparation, and structured student
   life through dedicated dormitory facilities.
@@ -48,6 +48,7 @@ title: Tokyo Sanritsu Gakuin
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Sanno University
   name_ja: 産業能率大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Management
 - Faculty of Information Management
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## 🏫 University Overview: The Sanno Legacy
 

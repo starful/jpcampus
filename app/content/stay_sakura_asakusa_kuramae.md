@@ -7,7 +7,7 @@ basic_info:
   operator: Sakura House
 booking_url: https://www.sakura-house.com/building/asakusa-kuramae
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: Taito share house for international students. Foreigner-friendly housing
   near schools. Confirm details on the operator site.
 entity: stay
@@ -73,6 +73,7 @@ tags:
 thumbnail: /static/images/stay_sakura_asakusa_kuramae.jpg
 title: SAKURA HOUSE ASAKUSA KURAMAE — Taito Student Share House
 ---
+
 
 ## About this property
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Ohka Gakuen University
   name_ja: 桜花学園大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 faculties:
 - Faculty of Child Studies
 - Faculty of Liberal Arts
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 University Overview
 

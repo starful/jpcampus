@@ -6,7 +6,7 @@ basic_info:
   name_en: Tokyo University of Social Welfare
   name_ja: 東京福祉大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Social Welfare
 - Faculty of Child Development and Education
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 230000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 대학 개요
 

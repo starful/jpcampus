@@ -16,7 +16,7 @@ courses:
 - admission_month: '4'
   course_name: 1년 코스
   total_fees: 720500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 와카야마 YMCA 국제 복지 전문학교 일본어학과는 YMCA의 윤리적, 공동체적 가치와 통합된 일본어 교육을 제공합니다. EJU
   시험과 이과 트랙에 대한 강력한 지원을 제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ title: 와카야마 YMCA 국제 복지 전문학교 일본어학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

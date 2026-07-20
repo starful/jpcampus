@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto University of Advanced Science
   name_ja: 京都先端과학大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 세계적인 전동기 기업 니덱(Nidec)의 전폭적인 지원을 바탕으로, 100% 영어 공학 교육과 실무 중심 커리큘럼을 제공하는
   교토첨단과학대학교를 소개합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1600000
 ---
+
 
 ## 🏫 대학 개요: 교토첨단과학대학교(KUAS)의 진화
 

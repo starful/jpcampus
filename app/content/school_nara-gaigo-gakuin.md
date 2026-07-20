@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: General 1.5-Year Course
   total_fees: 1140000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory
@@ -53,6 +53,7 @@ title: Nara Foreign Language Academy
 translated: true
 tuition: {}
 ---
+
 
 # Nara Foreign Language Academy: Study Japanese Amidst Living History
 

@@ -18,7 +18,7 @@ courses:
 - admission_month: 4,10
   course_name: 日本語総合1年コース
   total_fees: 825500
-date: '2026-01-28'
+date: '2026-07-20'
 description: ECC 일본어학원 나고야교는 아이치현 나고야시 나카구 가나야마에 위치하고 있으며, 240명의 학생을 수용할 수 있습니다. ECC
   그룹의 풍부한 교육 노하우를 바탕으로 학생 개개인의 목표 달성을 위한 맞춤형 교육을 제공하는 것을 목표로 합니다.
 faculties: []
@@ -61,6 +61,7 @@ title: ECC 일본어학원 나고야교
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 이념
 

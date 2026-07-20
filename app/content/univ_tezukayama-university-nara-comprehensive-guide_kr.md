@@ -5,7 +5,7 @@ basic_info:
   name_en: Tezukayama University
   name_ja: 帝塚山大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본의 고도(古都) 나라에 위치한 테즈카야마 대학교는 전통적인 가치와 현대적인 실무 교육을 결합한 커리큘럼을 제공합니다. 6개의
   전문 학부와 유학생을 위한 꼼꼼한 지원 시스템을 갖춘 이 대학은 일본 내 성공적인 취업을 꿈꾸는 학생들에게 최적의 선택지입니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요: 나라의 전통과 우수성을 잇는 교육의 장
 

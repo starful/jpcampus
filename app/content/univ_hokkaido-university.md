@@ -5,7 +5,7 @@ basic_info:
   name_ja: 北海道大学
   website: https://www.hokudai.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Education
@@ -51,6 +51,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## Overview of Hokkaido University
 

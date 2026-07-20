@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1210000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - On-campus/Affiliated Dormitory Accommodation
@@ -46,6 +46,7 @@ title: Fujisan Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## 🗻 1) School Overview & Philosophy
 

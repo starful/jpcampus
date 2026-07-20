@@ -21,7 +21,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 一般2年コース
   total_fees: 1337200
-date: '2026-01-28'
+date: '2026-07-20'
 description: 휴먼 아카데미 일본어 학교 도쿄 캠퍼스는 도쿄의 학문 중심지인 다카다노바바에 위치한 명성 있는 교육 기관입니다. Human
   Group의 일부로서, 일본 유학을 준비하는 외국인 학생들에게 종합적인 일본어 교육을 제공합니다.
 faculties: []
@@ -52,6 +52,7 @@ title: 휴먼 아카데미 일본어 학교 도쿄 캠퍼스
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

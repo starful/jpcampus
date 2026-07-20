@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: General Course
   total_fees: 930000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 시즈오카시에 위치한 국제 코토바 학원은 종합적인 일본어 교육을 제공하며, 특히 대학 진학 준비 및 EJU 시험 성공에 중점을
   두고 있습니다. 편리한 기숙사 옵션도 제공합니다.
 faculties: []
@@ -48,6 +48,7 @@ title: 국제 코토바 학원 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 総合2年コース
   total_fees: 1435800
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - 기숙사
@@ -54,6 +54,7 @@ title: 요노가쿠인 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

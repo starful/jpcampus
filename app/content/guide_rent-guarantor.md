@@ -1,6 +1,6 @@
 ---
 category: Housing
-date: '2026-01-28'
+date: '2026-07-20'
 description: Learn how the Japanese rent guarantor system, joint guarantors, and guarantor
   companies work when renting an apartment in Japan as a foreigner.
 id: rent-guarantor
@@ -14,6 +14,7 @@ seo_title: 'Renting in Japan: Guarantor System & Companies | JP Campus'
 seo_description: Confused about renting in Japan? Learn how the guarantor system and
   guarantor companies work, fees, and requirements for foreigners.
 ---
+
 
 
 # The Non-Negotiable Step: Navigating Japan’s Guarantor System for International Students

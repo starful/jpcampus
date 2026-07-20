@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka University of Commerce
   name_ja: 大阪商業大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 오사카 상업대학교(OUC)는 '세상에 도움이 되는 인재 양성'을 건학 이념으로 하며, 실무 중심의 경상 계열 교육과 강력한
   취업 지원을 통해 일본 비즈니스 현장에서 활약할 전문가를 배출하는 명문 사립대학교입니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

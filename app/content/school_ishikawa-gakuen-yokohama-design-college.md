@@ -15,7 +15,7 @@ courses:
 - admission_month: 4,10
   course_name: 進学課程1年コース
   total_fees: 785000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized focus on Art, Design, and Advanced University Preparation
@@ -46,6 +46,7 @@ title: Ishikawa Gakuen Yokohama Design College (Japanese Language Department)
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

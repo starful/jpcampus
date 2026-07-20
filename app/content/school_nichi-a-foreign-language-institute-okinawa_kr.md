@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学コースＣ　2年コース
   total_fees: 1433000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와 나하에 위치한 Nichi-A 외국어 학원은 대학 및 대학원 진학을 위한 집중적인 일본어 교육을 제공합니다. 다양한
   코스와 장학금, 편리한 기숙사를 확인하세요.
 faculties: []
@@ -45,6 +45,7 @@ thumbnail: /static/img/pin-school.png
 title: Nichi-A 외국어 학원
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

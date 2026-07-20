@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語集中1年半コース
   total_fees: 1116720
-date: '2026-01-28'
+date: '2026-07-20'
 description: Located in Kyoto's Kawaramachi district, KAI Japanese Language School
   specializes in preparing international students for higher education, offering comprehensive
   language training and EJU support, including a Science Stream option.
@@ -44,6 +44,7 @@ title: KAI Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

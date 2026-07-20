@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1425400
-date: '2026-01-28'
+date: '2026-07-20'
 description: TLS 후쿠로이는 일본에서의 고등 교육과 일상생활을 위해 학생들을 준비시키는 종합적인 일본어 교육을 제공합니다. 대학 진학
   준비, 문화 체험, 취업 지원 및 기숙사 숙박 등의 특징이 있습니다.
 faculties: []
@@ -50,6 +50,7 @@ title: TLS 후쿠로이
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요
 

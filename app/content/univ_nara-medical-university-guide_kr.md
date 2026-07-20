@@ -5,7 +5,7 @@ basic_info:
   name_en: Nara Medical University
   name_ja: 奈良県立医科大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Medicine
 - School of Medicine
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 564000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

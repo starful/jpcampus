@@ -5,7 +5,7 @@ basic_info:
   name_ja: 埼玉大学
   website: https://www.saitama-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Liberal Arts
 - Faculty of Education
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview
 

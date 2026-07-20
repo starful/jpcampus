@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学課程1年3か月コース
   total_fees: 997700
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - 'Primary mission: High-level academic advancement (University/Graduate School entry)'
@@ -47,6 +47,7 @@ title: Waseda Language Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

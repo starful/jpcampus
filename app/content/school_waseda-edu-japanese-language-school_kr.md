@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: University Preparatory Course 4
   total_fees: 932500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 명문대 진학을 목표로 하는 학생들을 위한 와세다 EDU 일본어학교에 대해 알아보세요. EJU 특화 교육, 이공계 집중 코스
   등 다양한 정보를 제공합니다.
 faculties: []
@@ -49,6 +49,7 @@ title: Waseda EDU 일본어학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

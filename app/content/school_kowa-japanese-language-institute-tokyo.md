@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1057100
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialist focus on University and Higher Education Preparation
@@ -46,6 +46,7 @@ title: Kowa Japanese Language Institute
 translated: true
 tuition: {}
 ---
+
 
 # 🏫 Kowa Japanese Language Institute: Your Pathway to Higher Education in Tokyo
 

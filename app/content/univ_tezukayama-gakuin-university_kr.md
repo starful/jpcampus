@@ -5,7 +5,7 @@ basic_info:
   name_en: Tezukayama Gakuin University
   name_ja: 帝塚山学院大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 100년 이상의 전통을 자랑하는 오사카의 명문 사립대학교로, 심리학과 식품영양학 분야에서 높은 명성을 보유하고 있으며 학생
   개개인의 역량을 키워주는 밀착형 교육을 제공합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

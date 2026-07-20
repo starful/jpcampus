@@ -5,7 +5,7 @@ basic_info:
   name_en: Prefectural University of Hiroshima
   name_ja: 県立広島大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Regional Business and Economics
 - Bioresource Sciences
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 The Prefectural University of Hiroshima (PUH), known in Japanese as *Kenritsu Hiroshima Daigaku*, is a distinguished public institution that offers a unique blend of academic excellence and practical, community-oriented education. Established in its current form in 2005 through the merger of three prefectural colleges, PUH has built a reputation as a vital engine for regional development in the Chugoku region of Japan. The university operates across three specialized campuses: the Hiroshima Campus, the Shobara Campus, and the Mihara Campus. This tri-campus structure allows the university to focus deeply on specific sectors—business, agriculture/biotechnology, and healthcare—ensuring that students receive highly specialized training that is directly applicable to the modern workforce.

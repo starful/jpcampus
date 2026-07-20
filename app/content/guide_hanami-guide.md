@@ -9,9 +9,10 @@
   ],
   "description": "A guide to Japan's favorite spring pastime.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # The Ultimate Guide to Hanami: Mastering the Art of Cherry Blossom Viewing in Japan
 

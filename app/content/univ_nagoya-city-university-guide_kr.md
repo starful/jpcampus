@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya City University
   name_ja: 名古屋市立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 나고야 시립대학교는 일본 아이치현 나고야에 위치한 명문 공립 대학입니다. 의학, 약학 분야에서 특히 강세를 보이며, 경제,
   디자인, 데이터 사이언스 등 다양한 분야에서 우수한 교육을 제공합니다.
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

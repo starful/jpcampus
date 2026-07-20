@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyushu Dental University
   name_ja: 九州歯科大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - School of Dentistry
 - School of Oral Health Sciences
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

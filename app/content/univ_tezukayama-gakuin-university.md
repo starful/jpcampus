@@ -5,7 +5,7 @@ basic_info:
   name_en: Tezukayama Gakuin University
   name_ja: 帝塚山学院大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Liberal Arts
 - Faculty of Psychology
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview
 

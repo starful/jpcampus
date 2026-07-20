@@ -18,7 +18,7 @@ courses:
 - admission_month: '4'
   course_name: 介護1年コース
   total_fees: 781600
-date: '2026-01-28'
+date: '2026-07-20'
 description: 東京국제외어학원은 대학 및 전문학교 진학에 특화된 과정을 제공하며, STEM 및 간병 분야에서 독자적인 진로를 제공합니다.
   도쿄 하치오지에 위치한 이 어학원은 기숙사 옵션과 종합적인 학생 지원을 통해 쾌적한 학습 환경을 제공합니다.
 faculties: []
@@ -50,6 +50,7 @@ title: 東京국제외어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

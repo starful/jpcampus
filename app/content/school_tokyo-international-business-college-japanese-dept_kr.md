@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: Japanese Language Department
   total_fees: 1570000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 대학 진학 및 취업을 위한 체계적인 일본어 교육, EJU 시험 대비, 기숙사 제공, 회화 중심 수업을 제공하는 동경국제비즈니스카レッジ
   일본어학과입니다.
 faculties: []
@@ -41,6 +41,7 @@ title: 동경국제비즈니스카レッジ 일본어학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 이념
 

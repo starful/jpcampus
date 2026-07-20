@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: 進学Dコース
   total_fees: 993500
-date: '2026-07-12'
+date: '2026-07-20'
 description: Located in Nagoya, Aichi Prefecture, Kozan Gakuin Japanese Language School
   focuses on preparing international students for higher education in Japan, offering
   specialized tracks and personalized support.
@@ -56,6 +56,7 @@ title: Kozan Gakuin Japanese Language School
 translated: true
 tuition: {}
 ---
+
 
 # 🎓 Kozan Gakuin Japanese Language School: Your Gateway to Nagoya and Beyond
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 大阪芸術大学
   website: http://www.osaka-geidai.ac.jp/
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Your ultimate guide to entering Osaka University of Arts in 2026. Learn
   about portfolio rules, tuition fees, and admission steps for international students.
 faculties:
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 330000
   yearly_tuition: 1780000
 ---
+
 
 ## University Overview & Reputation
 

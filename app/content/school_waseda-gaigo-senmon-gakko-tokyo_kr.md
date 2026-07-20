@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学コース1年半
   total_fees: 1045000
-date: '2026-02-13'
+date: '2026-07-20'
 description: Waseda Foreign Language College는 도쿄에 위치한 일본어 전문 교육기관으로, 외국인 학생들이 대학 및
   대학원 진학을 준비하는 데 중점을 두고 있습니다. 신주쿠의 다카다노바바에 위치하여 집중 코스, 기숙사 지원, EJU 및 JLPT N1 성공을 위한
   맞춤형 지도를 제공합니다.
@@ -44,6 +44,7 @@ title: Waseda Foreign Language College
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヶ月コース
   total_fees: 1024000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - High-level EJU and University Entrance Preparation
@@ -42,6 +42,7 @@ thumbnail: /static/img/pin-school.png
 title: Aichi Kokusai Gakuin (Aichi International Academy)
 tuition: {}
 ---
+
 
 ## 🏫 1) School Overview & Philosophy
 

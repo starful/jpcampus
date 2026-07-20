@@ -5,7 +5,7 @@ basic_info:
   name_en: Ehime Prefectural University of Health Sciences
   name_ja: 愛媛県立医療技術大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 에히메현립 의료기술대학은 시코쿠 지역 의료 전문가 양성의 관문입니다. 높은 국가고시 합격률, 소규모 전문 교육, 강력한 지역
   병원과의 협력을 자랑합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 시코쿠 의료의 관문
 

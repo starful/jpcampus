@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヵ月コース
   total_fees: 965000
-date: '2026-01-28'
+date: '2026-07-20'
 description: '오사카 하이 테크놀로지 전문학교: 일본 고등 교육으로 가는 관문. EJU 준비 및 대학 진학을 위한 종합적인 프로그램을 제공합니다.'
 faculties: []
 features:
@@ -54,6 +54,7 @@ title: 오사카 하이 테크놀로지 전문학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

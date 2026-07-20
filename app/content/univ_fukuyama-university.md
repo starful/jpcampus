@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukuyama University
   name_ja: 福山大学
 category: university
-date: '2026-06-30'
+date: '2026-07-20'
 faculties:
 - Faculty of Pharmacy
 - Faculty of Engineering
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 950000
 ---
+
 
 ## 🏫 University Overview
 

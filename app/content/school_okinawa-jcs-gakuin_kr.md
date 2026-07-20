@@ -18,7 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 実用日本語1年コース
   total_fees: 781696
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와 JCS 어학원은 오키나와 나하에 위치한 일본어 학교로, 종합적인 EJU 시험 준비, 통합 기숙사 시스템, 실용적인
   회화 기술에 중점을 둔 학습 환경을 제공합니다.
 faculties: []
@@ -51,6 +51,7 @@ title: 오키나와 JCS 어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

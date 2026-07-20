@@ -1,6 +1,6 @@
 ---
 category: Budget
-date: '2026-07-12'
+date: '2026-07-20'
 description: Wondering if Amazon Prime Student Japan is worth your money? Read our
   complete guide covering the massive 6-month free trial, half-price membership fees,
   eligibility criteria, and exclusive benefits for international students.
@@ -14,6 +14,7 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500
 title: 'Amazon Prime Student Japan: Is It Worth It? (6-Month Free Trial)'
 ---
+
 
 # Amazon Prime Student Japan: Is It Worth It? (6-Month Free Trial)
 

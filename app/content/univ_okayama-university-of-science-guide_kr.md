@@ -5,7 +5,7 @@ basic_info:
   name_en: Okayama University of Science
   name_ja: 岡山理科大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 서일본 지역을 대표하는 이공계 명문 사립 대학으로, 세계적인 공룡학 연구소와 일본 사립대 최초의 수의학부를 보유한 실무 중심의
   대학입니다.
 faculties:
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 220000
   yearly_tuition: 1450000
 ---
+
 
 ## 🏫 대학 개요
 오카야마 이과대학(Okayama University of Science, OUS)은 서일본 지역을 대표하는 사립 명문 대학 중 하나로, 과학 기술과 전문 연구 분야의 발전에 전념하고 있습니다. 1964년 카케 츠토무(Tsutomu Kake)에 의해 설립된 이 대학은 "모든 학생의 잠재력을 최대한 끌어올린다"는 교육 철학을 바탕으로 세워졌습니다. 수십 년에 걸쳐 작은 과학 단과대학에서 7개 학부를 갖춘 종합 대학으로 성장했으며, 산업 현장에 즉시 투입 가능한 실무형 인재를 양성하는 곳으로 명성이 높습니다.

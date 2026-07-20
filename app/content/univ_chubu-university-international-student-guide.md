@@ -5,7 +5,7 @@ basic_info:
   name_en: Chubu University
   name_ja: 中部大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: Find Chubu University 2026 admission requirements, tuition fees, scholarships,
   and programs for international students looking to study in Japan.
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 280000
   yearly_tuition: 1350000
 ---
+
 
 
 ## 🏫 University Overview

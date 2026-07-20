@@ -5,7 +5,7 @@ basic_info:
   name_ja: 明治大学
   website: https://www.meiji.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 메이지 대학교는 도쿄에 위치한 명문 사립 대학교입니다. 다양한 학부와 국제 학생 지원 프로그램을 제공합니다.
 faculties:
 - School of Law
@@ -48,6 +48,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## 대학교 개요
 

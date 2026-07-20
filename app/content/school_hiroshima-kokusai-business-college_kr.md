@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学1年コース
   total_fees: 660000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 히로시마 국제 비즈니스 컬리지(HKBC)는 히로시마현 후쿠야마시에 위치하고 있으며, 실용적인 비즈니스 일본어 및 대학 준비
   과정을 제공합니다. EJU 시험 준비를 위한 강력한 지원과 독특한 이공계/예체능 트랙을 운영합니다.
 faculties: []
@@ -56,6 +56,7 @@ title: 히로시마 국제 비즈니스 컬리지
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

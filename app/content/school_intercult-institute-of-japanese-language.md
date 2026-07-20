@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: Comprehensive University Progression Course (1 Year)
   total_fees: 989000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dedicated Focus on University and Graduate School Progression
@@ -48,6 +48,7 @@ title: Intercultural Institute of Japanese Language (Intercult)
 translated: true
 tuition: {}
 ---
+
 
 # 🎓 Intercultural Institute of Japanese Language (Intercult)
 

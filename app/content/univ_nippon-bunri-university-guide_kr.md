@@ -5,7 +5,7 @@ basic_info:
   name_en: Nippon Bunri University
   name_ja: 日本文理大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 규슈 오이타현에 위치한 니폰분리대학교는 항공우주, 공학, 보건 분야의 전문 교육과 높은 취업률을 자랑하는 실무 중심의
   명문 사립 대학입니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요: 니폰분리대학교(NBU)의 정신
 

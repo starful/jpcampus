@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1333000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 치바현 가시와시에 위치한 치바 국제학원은 소규모 집중 환경에서 수준 높은 학업 준비를 원하는 유학생에게 매력적인 선택지입니다.
 faculties: []
 features:
@@ -47,6 +47,7 @@ title: 치바 국제학원 (Chiba Kokusai Gakuin)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

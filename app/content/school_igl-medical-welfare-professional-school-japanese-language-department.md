@@ -13,7 +13,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヵ月コース
   total_fees: 1041700
-date: '2026-01-28'
+date: '2026-07-20'
 description: The IGL College of Medical and Welfare Japanese Language Department is
   located in Hiroshima and offers comprehensive Japanese language education for students
   aiming for higher education or careers in Japan. They offer courses with specialized
@@ -54,6 +54,7 @@ title: IGL College of Medical and Welfare Japanese Language Department
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Gakushuin Women's College
   name_ja: 学習院女子大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of International Studies
 - Department of Japanese Studies
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 860000
 ---
+
 
 ## 🏫 University Overview
 

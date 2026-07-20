@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1393700
-date: '2026-01-28'
+date: '2026-07-20'
 description: 치바현 마츠도시에 위치한 KEN 일본어학원은 대학 진학을 목표로 하는 학생들에게 최적의 환경을 제공합니다. EJU 시험 준비에
   특화된 커리큘럼과 기숙사 의무 숙박 제도를 통해 학생들의 성공적인 일본 유학 생활을 지원합니다.
 faculties: []
@@ -46,6 +46,7 @@ title: KEN 일본어학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

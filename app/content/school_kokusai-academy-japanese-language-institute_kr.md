@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: Advanced Studies 1 Year 3-Month Course
   total_fees: 862000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 이케부쿠로에 위치한 국제 아카데미 일본어 학교는 소규모 맞춤형 교육을 제공하며, 대학 진학 및 일본 사회 적응을 목표로
   합니다.
 faculties: []
@@ -51,6 +51,7 @@ title: 국제 아카데미 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

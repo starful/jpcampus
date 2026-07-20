@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1213300
-date: '2026-01-28'
+date: '2026-07-20'
 description: 야마나시현 고후시에 위치한 야마나시 외국어 학원은 일본에서 학업 또는 전문 분야에서 성공하고자 하는 국제 학생들에게 종합적인
   어학 교육과 지원을 제공합니다.
 faculties: []
@@ -53,6 +53,7 @@ title: 야마나시 외국어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

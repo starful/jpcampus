@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Nagasaki
   name_ja: 長崎県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 나가사키 현립 대학교는 아름답고 역사적인 나가사키현에 위치한 명문 공립 대학입니다. 실용적인 교육과 지역 혁신의 중심지로,
   국제 학생들에게 특별한 기회를 제공합니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 개요
 

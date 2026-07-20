@@ -5,7 +5,7 @@ basic_info:
   name_en: Kanto Gakuen University
   name_ja: 関東学園大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics (Department of Economics)
 - Faculty of Economics (Department of Business Administration)
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 760000
 ---
+
 
 ## 🏫 University Overview: The Gateway to Regional Excellence
 

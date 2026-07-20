@@ -5,7 +5,7 @@ basic_info:
   name_en: Seigakuin University
   name_ja: 聖学院大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Political Science and Economics
 - Faculty of Humanities
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 832000
 ---
+
 
 ## 🏫 University Overview
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukuoka Women's University
   name_ja: 福岡女子大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 후쿠오카 여자대학교는 일본 최초의 공립 여자대학교로서, 글로벌 리더십 함양에 중점을 두고 있습니다. 나데시코 기숙사에서의 의무적인
   기숙사 생활, 다양한 국제 교류 프로그램, 그리고 후쿠오카라는 매력적인 도시에서의 생활이 특별한 경험을 선사합니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 빛나는 역사와 전통
 

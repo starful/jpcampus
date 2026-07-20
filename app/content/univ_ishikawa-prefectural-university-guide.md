@@ -5,7 +5,7 @@ basic_info:
   name_en: Ishikawa Prefectural University
   name_ja: 石川県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Bioresources and Environmental Sciences
 - Department of Bioresource Science
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: A Specialized Hub for Bio-Innovation
 

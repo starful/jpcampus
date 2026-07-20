@@ -5,7 +5,7 @@ basic_info:
   name_en: Fukuoka Jo Gakuin University
   name_ja: 福岡女学院大学
 category: university
-date: '2026-07-08'
+date: '2026-07-20'
 description: 135년 이상의 개신교 여성 교육 역사를 자랑하는 명문 여자대학교, 후쿠오카 여학원 대학의 상세 학부 정보, 압도적인 취업률,
   풍성한 유학생 지원 혜택을 소개합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요
 

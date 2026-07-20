@@ -18,7 +18,7 @@ courses:
 - admission_month: 1,7
   course_name: Japanese Language Course 4
   total_fees: 825000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 신주쿠 일본어 학교 (SNG)는 도쿄의 활기 넘치는 학생 지구에 위치한 명성 높은 일본어 교육 기관입니다. 대학 및 대학원
   진학을 위한 체계적인 커리큘럼과 다양한 학생 지원 서비스를 제공합니다.
 faculties: []
@@ -47,6 +47,7 @@ title: 신주쿠 일본어 학교 (SNG)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Prefectural University of Kumamoto
   name_ja: 熊本県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 구마모토현에 위치한 현립 구마모토 대학교는 지역 개발과 학문적 우수성을 추구하는 명문 공립 대학입니다. 유학생을 위한 다양한
   기회와 장학금 제도를 제공합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학교 개요
 

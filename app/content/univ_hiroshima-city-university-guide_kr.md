@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima City University
   name_ja: 広島市立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 히로시마 시립대학교는 평화와 국제 협력을 추구하는 히로시마의 역사적 사명을 구현하는 공립 대학입니다. 세계적인 평화 연구소와
   예술-기술 융합, 소규모 교육이 특징입니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 히로시마의 정신
 

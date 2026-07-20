@@ -5,7 +5,7 @@ basic_info:
   name_en: Kansai Gaidai University
   name_ja: 関西外国語大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 간사이 외국어 대학교는 외국어 교육과 국제 연구 분야에서 선도적인 일본 사립 대학교입니다.
 faculties:
 - Faculty of Foreign Studies
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 280000
   yearly_tuition: 1350000
 ---
+
 
 ## 대학교 개요
 

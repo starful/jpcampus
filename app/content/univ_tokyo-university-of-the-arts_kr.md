@@ -5,7 +5,7 @@ basic_info:
   name_ja: 東京藝術大学
   website: https://www.geidai.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 일본 최고의 예술 대학교인 도쿄 예술 대학교에 대한 정보입니다. 입학 요강, 학비, 캠퍼스 생활 등에 대해 알아보세요.
 faculties:
 - Faculty of Fine Arts
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학교 개요 및 명성
 

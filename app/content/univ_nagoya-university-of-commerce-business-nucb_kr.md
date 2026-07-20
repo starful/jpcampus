@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya University of Commerce & Business
   name_ja: 名古屋商科大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 국제적인 인증을 받은 일본 나고야 상과대학 (NUCB)의 경영 및 비즈니스 프로그램을 알아보세요. 영어 BBA 프로그램 및
   장학금 정보가 제공됩니다.
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1450000
 ---
+
 
 ## 대학 개요
 

@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 진학 과정 1년 6개월 코스
   total_fees: 979000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 요코하마에 위치한 아이신 국제学院은 소규모 학급과 EJU 집중 대비반으로 유명합니다. 대학 진학을 목표로 하는 학생들에게 맞춤형
   지원을 제공합니다.
 faculties: []
@@ -53,6 +53,7 @@ thumbnail: /static/img/pin-school.png
 title: 아이신 국제学院
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 교육 철학
 

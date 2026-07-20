@@ -5,7 +5,7 @@ basic_info:
   name_en: Nara Women's University
   name_ja: 奈良女子大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: 'Explore Nara Women''s University: admission guidelines, tuition fees,
   academic programs, and essential tips for international students.'
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

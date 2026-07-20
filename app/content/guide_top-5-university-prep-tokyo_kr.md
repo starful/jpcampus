@@ -1,7 +1,7 @@
 ---
 {
   "category": "Curated List",
-  "date": "2026-01-15",
+  "date": "2026-07-20",
   "description": "대학교 진학을 위한 최고의 어학원 Top 5를 확인하세요.",
   "id": "top-5-university-prep-tokyo",
   "is_featured": true,
@@ -25,6 +25,7 @@
   }
 }
 ---
+
 
 # 대학교 진학을 위한 도쿄 최고의 어학원 Top 5
 

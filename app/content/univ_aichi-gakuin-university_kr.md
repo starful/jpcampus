@@ -5,7 +5,7 @@ basic_info:
   name_en: Aichi Gakuin University
   name_ja: 愛知学院大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 일본 중부 지역을 대표하는 명문 사립대학교인 아이치 가쿠인 대학은 불교의 선(禪) 정신을 교육의 뿌리로 삼아 인격 형성과 실무
   능력을 동시에 강조합니다. 나고야 중심부와 교외의 현대적인 캠퍼스, 그리고 일본 내에서 높은 명성을 자랑하는 치학부와 약학부를 갖추고 있으며,
   특히 지역 산업과의 긴밀한 협력을 통해 압도적인 취업률을 자랑합니다.
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 대학 개요
 

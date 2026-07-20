@@ -5,7 +5,7 @@ basic_info:
   name_en: University of the Ryukyus
   name_ja: 琉球大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Law and Letters (Humanities and Social Sciences)
 - Faculty of Education
@@ -43,6 +43,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview
 

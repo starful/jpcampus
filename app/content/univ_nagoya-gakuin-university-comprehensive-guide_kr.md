@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya Gakuin University
   name_ja: 名古屋学院大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 중부 산업의 중심지 나고야에서 기독교 정신을 바탕으로 실무 중심 교육과 글로벌 인재 양성에 앞장서는 나고야 가쿠인 대학교를
   소개합니다.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -16,7 +16,7 @@ courses:
 - admission_month: '4'
   course_name: 介護進学コース
   total_fees: 875000
-date: '2026-06-12'
+date: '2026-07-20'
 description: Explore Trinity College Hiroshima Medical & Welfare Vocational School.
   Find 2026 Japanese course tuition, requirements, and admission info on JP Campus.
 faculties: []
@@ -54,6 +54,7 @@ thumbnail: /static/img/pin-school.png
 title: Trinity College Hiroshima Medical and Welfare Vocational School (2026)
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

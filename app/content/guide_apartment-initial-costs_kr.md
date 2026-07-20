@@ -9,13 +9,14 @@
   ],
   "description": "사례금, 보증금 등 각종 선불 비용에 대해 자세히 설명합니다.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-03-03",
+  "date": "2026-07-20",
   "basic_info": {
     "name_en": null
   },
   "lang": "kr"
 }
 ---
+
 
 # 보증금과 사례금: 일본 아파트 초기 비용 완벽 해부
 

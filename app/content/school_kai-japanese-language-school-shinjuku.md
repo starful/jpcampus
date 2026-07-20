@@ -12,7 +12,7 @@ courses:
 - admission_month: 4,7,10,1
   course_name: 日本語総合コース午後クラス
   total_fees: 1640000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - High-level Conversational Competency Focus (The KAI Method)
@@ -38,6 +38,7 @@ thumbnail: /static/img/pin-school.png
 title: KAI Japanese Language School
 tuition: {}
 ---
+
 
 ## 🏫 1) School Overview & Philosophy
 

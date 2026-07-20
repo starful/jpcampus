@@ -5,7 +5,7 @@ basic_info:
   name_en: Wakayama Medical University
   name_ja: 和歌山県立医科大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - 의학부
 - 간호학부
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

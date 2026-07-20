@@ -9,9 +9,10 @@
   ],
   "description": "How to use the machines and understand the pricing.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # A Beginner's Guide to Karaoke in Japan: Sing Your Heart Out Like a Local
 

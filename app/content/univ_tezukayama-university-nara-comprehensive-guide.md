@@ -5,7 +5,7 @@ basic_info:
   name_en: Tezukayama University
   name_ja: 帝塚山大学
 category: university
-date: '2026-06-12'
+date: '2026-07-20'
 description: Explore Tezukayama University in Nara. Find 2026 tuition fees, campus
   life, and admission requirements for international students.
 faculties:
@@ -44,6 +44,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 University Overview: A Heritage of Excellence in Nara
 

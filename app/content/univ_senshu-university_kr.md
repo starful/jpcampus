@@ -6,7 +6,7 @@ basic_info:
   name_ja: 専修大学
   website: https://www.senshu-u.ac.jp/english/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - School of Economics
 - School of Law
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1000000
 ---
+
 
 ## 학교 소개
 

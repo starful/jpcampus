@@ -12,9 +12,10 @@
   ],
   "description": "Our curated selection for Best 4 Schools for Short-Term Study and Conversational Japanese.",
   "thumbnail": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Best 4 Schools for Short-Term Study and Conversational Japanese
 

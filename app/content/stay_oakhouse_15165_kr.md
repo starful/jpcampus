@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/15165
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: 와라비시 먼슬리맨션 리브레스 고사리. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -49,6 +49,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_15165.jpg
 title: 리브레스 고사리 — 와라비시 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 京都大学
   website: https://www.kyoto-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Integrated Human Studies
 - Faculty of Letters
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview & Reputation
 

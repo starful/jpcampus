@@ -5,7 +5,7 @@ basic_info:
   name_en: Yamagata Prefectural University of Health Sciences
   name_ja: 山形県立保健医療大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 야마가타현립보건의료대학은 도호쿠 지역에 위치한 명문 공립 대학입니다. 높은 수준의 의료 전문가를 양성하여 지역 및 세계 사회의
   건강과 복지에 기여하는 것을 목표로 설립되었습니다. 수준 높은 일본 의료 커리큘럼과 야마가타현의 풍부한 문화와 아름다운 자연을 경험할 수 있는
   특별한 기회를 제공합니다.
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요
 

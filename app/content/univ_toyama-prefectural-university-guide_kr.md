@@ -5,7 +5,7 @@ basic_info:
   name_en: Toyama Prefectural University
   name_ja: 富山県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 description: 도야마 현립 대학교 (TPU)는 일본 호쿠리쿠 지역의 뛰어난 공학 교육의 중심지입니다. 높은 취업률과 지역 산업과의 긴밀한
   연계를 자랑합니다.
 faculties:
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 일본 공학 우수성을 향한 관문
 

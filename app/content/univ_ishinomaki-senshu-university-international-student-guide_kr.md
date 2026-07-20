@@ -5,7 +5,7 @@ basic_info:
   name_en: Ishinomaki Senshu University
   name_ja: 石巻専修大学
 category: university
-date: '2026-06-19'
+date: '2026-07-20'
 description: 2026학년도 이시노마키 센슈 대학교 외국인 유학생 입시 요강 및 학비 감면, 장학금, 편입학 정보를 한눈에 확인하세요.
 faculties:
 - 경영학부
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 대학 개요: 일본 북부 교육의 관문
 

@@ -21,7 +21,7 @@ courses:
 - admission_month: '1'
   course_name: 一般2年コース
   total_fees: 1334000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Comprehensive University Progression Focus
@@ -46,6 +46,7 @@ title: Ashiya Kokusai Gakuin Osaka School
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

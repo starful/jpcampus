@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 日本語1年6ヶ月コース
   total_fees: 1220000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Dormitory Accommodation Guaranteed
@@ -45,6 +45,7 @@ thumbnail: /static/img/pin-school.png
 title: JP Education (JPエデュケーション)
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Okinawa Prefectural University of Arts
   name_ja: 沖縄県立芸術大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Arts and Crafts
 - Faculty of Music
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: The Soul of Ryukyu
 

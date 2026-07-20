@@ -5,7 +5,7 @@ basic_info:
   name_en: Shitennoji University
   name_ja: 四天王寺大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 description: 1,400년의 유구한 역사와 쇼토쿠 태자의 '화(和)'의 정신을 계승하며, 높은 취업률과 탄탄한 유학생 지원 시스템을 갖춘
   오사카의 명문 사립대학교입니다.
 faculties:
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

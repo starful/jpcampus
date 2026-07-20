@@ -5,7 +5,7 @@ basic_info:
   name_en: Hakuoh University
   name_ja: 白鴎大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 탁월한 취업 지원과 실무 중심 교육으로 유명한 하쿠오 대학교는 도쿄 인근의 편리한 위치와 저렴한 생활비를 자랑하는 일본의 명문
   사립대학교입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 800000
 ---
+
 
 ## 🏫 대학 개요
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Bunkyo University
   name_ja: 文教大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Education
 - Faculty of Human Sciences
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 280000
   yearly_tuition: 960000
 ---
+
 
 ## 🏫 University Overview: The Spirit of Human Love
 

@@ -5,7 +5,7 @@ basic_info:
   name_ja: 亜細亜大学
   website: https://www.asia-u.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Business Administration
 - Faculty of Economics
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1100000
 ---
+
 
 ## University Overview
 

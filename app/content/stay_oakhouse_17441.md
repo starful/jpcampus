@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/17441
 category: stay
-date: '2026-07-18'
+date: '2026-07-20'
 description: Kobe monthly mansion for international students. Foreigner-friendly housing
   near schools. Confirm details on the operator site.
 entity: stay
@@ -72,6 +72,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_17441.jpg
 title: Huenet Kobe Motomachi — Kobe Student Monthly Mansion
 ---
+
 
 ## About this property
 

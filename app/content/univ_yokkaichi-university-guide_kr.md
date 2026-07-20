@@ -5,7 +5,7 @@ basic_info:
   name_en: Yokkaichi University
   name_ja: 四日市大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 일본 미에현의 공업 중심지에 위치한 욧카이치 대학교는 지역 활성화와 환경 및 정보 과학 분야에 특화된 실무 중심의 사립 대학교입니다.
 faculties:
 - Faculty of Policy Management
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 780000
 ---
+
 
 ## 🏫 대학 개요
 

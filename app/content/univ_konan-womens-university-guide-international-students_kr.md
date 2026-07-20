@@ -5,7 +5,7 @@ basic_info:
   name_en: Konan Women's University
   name_ja: 甲南女子大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 일본 고베의 아름다운 풍경 속에 위치한 고난여자대학교는 전통과 현대적 커리큘럼이 조화를 이룬 명문 여자대학교입니다. 무라노
   도고의 건축 미학과 더불어 높은 취업률과 전문적인 교육 환경을 제공합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 980000
 ---
+
 
 ## 🏫 대학 개요: 고난여자대학교의 유산
 

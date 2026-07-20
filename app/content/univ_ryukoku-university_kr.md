@@ -5,7 +5,7 @@ basic_info:
   name_ja: 龍谷大学
   website: https://www.ryukoku.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 1639년에 설립된 류코쿠대학교는 일본 교토에 위치한 사립대학교로, 불교 연구의 깊은 전통과 다양한 현대 학부를 자랑합니다.
   국제 시민 의식과 문화 간 이해를 위한 노력으로 잘 알려져 있습니다.
 faculties:
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
 ---
+
 
 ## 대학교 개요 및 명성
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka University of Economics
   name_ja: 大阪経済大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 오사카경제대학교(OUE)는 '인간력'과 '실학'을 중심으로 간사이 지역에서 압도적인 취업 실적을 자랑하는 경제·경영 특화 사립
   대학입니다. 1학년부터 시작되는 소수 정예 세미나 시스템을 통해 유학생들에게도 밀착형 교육과 풍부한 지원을 제공합니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 대학 개요: 오사카 실용 학문의 중심
 

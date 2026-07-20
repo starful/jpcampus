@@ -5,7 +5,7 @@ basic_info:
   name_en: Toyama Prefectural University
   name_ja: 富山県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Nursing
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview: The Gateway to Japanese Engineering Excellence
 

@@ -11,10 +11,11 @@
   ],
   "description": "SUUMO, Homes, Apaman Shop 활용법 및 외국인 유학생을 위한 일본 부동산 이용 팁을 소개합니다.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-03-10",
+  "date": "2026-07-20",
   "lang": "kr"
 }
 ---
+
 
 # 일본 부동산 시장 공략하기: 유학생을 위한 추천 사이트 및 필수 팁
 

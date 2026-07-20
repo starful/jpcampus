@@ -9,11 +9,12 @@
   ],
   "description": "Avoid unexpected tax bills. Learn how the 1.03 million yen tax-free threshold affects your part-time job and income in Japan.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-03-10",
+  "date": "2026-07-20",
   "seo_title": "Japan Part-Time Job Tax: 1.03 Million Yen Limit (2026 Guide)",
   "seo_description": "How much can you earn tax-free in Japan? Learn how the 1.03 million yen part-time tax limit works for international students."
 }
 ---
+
 
 
 

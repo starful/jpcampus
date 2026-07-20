@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 大学・専門学校進学2年課程(A2)
   total_fees: 1698400
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized EJU Preparation Tracks (Science, Art/Design)
@@ -44,6 +44,7 @@ thumbnail: /static/img/pin-school.png
 title: ZERO Japanese Language School
 tuition: {}
 ---
+
 
 ## 1. School Overview & Philosophy 🌟
 

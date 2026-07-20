@@ -5,7 +5,7 @@ basic_info:
   name_ja: 信州大学
   website: https://www.shinshu-u.ac.jp/
 category: university
-date: '2026-06-12'
+date: '2026-07-20'
 description: Discover Shinshu University. Get updated 2026 info on international student
   admissions, tuition fees, scholarships, and campus life on JP Campus.
 faculties:
@@ -46,6 +46,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## University Overview & Reputation
 

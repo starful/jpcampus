@@ -5,7 +5,7 @@ basic_info:
   name_en: Toyo Eiwa University
   name_ja: 東洋英和女学院大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Human Sciences
 - Faculty of International Social Sciences
@@ -33,6 +33,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 University Overview: The Legacy of Toyo Eiwa University
 

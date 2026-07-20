@@ -5,7 +5,7 @@ basic_info:
   name_en: Beppu University
   name_ja: 別府大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Letters
 - Faculty of Food and Nutrition
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 750000
 ---
+
 
 ## 🏫 University Overview: The Heritage of Beppu University
 

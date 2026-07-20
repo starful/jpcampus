@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Hyogo
   name_ja: 兵庫県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - School of Economics
 - School of Business Administration
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

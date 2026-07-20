@@ -21,7 +21,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1408000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야에 위치한 ARMS 일본어 학교는 대학 및 대학원 진학을 위한 종합적인 지원을 제공합니다. 과학, 예술, 비즈니스 분야의
   전문 트랙, 기숙사, 장학금, EJU/JLPT 시험 준비 등 다양한 특징을 가지고 있습니다.
 faculties: []
@@ -54,6 +54,7 @@ title: ARMS 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

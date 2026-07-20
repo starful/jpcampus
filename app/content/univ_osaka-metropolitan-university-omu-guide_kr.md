@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Metropolitan University
   name_ja: 大阪公立大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Faculty of Literature and Human Sciences
 - Faculty of Law
@@ -47,6 +47,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학교 개요
 

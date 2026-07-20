@@ -5,7 +5,7 @@ basic_info:
   name_en: Ashikaga University
   name_ja: 足利大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 faculties:
 - Faculty of Engineering
 - Faculty of Nursing
@@ -38,6 +38,7 @@ seo_title: 'Ashikaga University Guide: Tuition, Admission & Programs | JP Campus
 seo_description: Explore Ashikaga University! Get details on tuition, faculties (Engineering,
   Nursing), international admissions, and campus life for 2026.
 ---
+
 
 
 ## 🏫 University Overview

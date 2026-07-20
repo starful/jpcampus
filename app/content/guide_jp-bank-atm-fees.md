@@ -9,9 +9,10 @@
   ],
   "description": "Why ATMs charge fees at night and how to avoid them.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-04-04"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Master Your Yen: A Deep Dive into Japanese ATM Fees and Operating Hours
 

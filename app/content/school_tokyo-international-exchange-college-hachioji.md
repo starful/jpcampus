@@ -21,7 +21,7 @@ courses:
 - admission_month: '1'
   course_name: University Advancement 1 Year 3 Months Course
   total_fees: 979500
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Specialized EJU (Examination for Japanese University Admission) Preparation
@@ -50,6 +50,7 @@ title: Tokyo International Exchange College
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

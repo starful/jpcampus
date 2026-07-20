@@ -24,7 +24,7 @@ courses:
 - admission_month: 4, 10
   course_name: 本科一般6ヶ月コース
   total_fees: 394000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Compulsory or Highly Recommended Dormitory Placement
@@ -55,6 +55,7 @@ title: A.C.C. International Exchange Academy
 translated: true
 tuition: {}
 ---
+
 
 ## 🗻 School Overview & Philosophy
 

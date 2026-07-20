@@ -5,7 +5,7 @@ basic_info:
   name_en: Surugadai University
   name_ja: 駿河台大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 faculties:
 - Faculty of Law
 - Faculty of Economics and Management
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 820000
 ---
+
 
 ## 🏫 University Overview: A Heritage of Academic Excellence
 

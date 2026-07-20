@@ -5,7 +5,7 @@ basic_info:
   name_en: University of the Ryukyus
   name_ja: 琉球大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와에 위치한 류큐대학교에 대해 알아보세요! 아열대 환경, 해양 과학 연구, 류큐 문화 연구에 특화된 국립대학교입니다.
   자세한 입학 정보, 학과, 장학금 정보를 제공합니다.
 faculties:
@@ -45,6 +45,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 대학교 개요
 

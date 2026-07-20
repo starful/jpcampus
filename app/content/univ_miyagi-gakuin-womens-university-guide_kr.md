@@ -5,7 +5,7 @@ basic_info:
   name_en: Miyagi Gakuin Women's University
   name_ja: 宮城学院女子大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 일본 북부에서 가장 역사가 깊은 기독교계 여자대학교로, 음악, 예술, 식품 영양학 분야에서 뛰어난 전통을 자랑하는 미야기 가쿠인
   여자대학교를 소개합니다. 센다이의 쾌적한 환경에서 유학생을 위한 맞춤형 지원을 제공합니다.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요
 

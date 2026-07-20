@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1.5年コース
   total_fees: 1015000
-date: '2026-01-28'
+date: '2026-07-20'
 description: International Information Business College는 도치기현 우츠노미야에 위치하고 있으며, 일본
   대학 진학을 희망하는 국제 학생들에게 종합적인 일본어 프로그램과 대학 준비 과정을 제공하여 든든한 지원 환경을 제공합니다.
 faculties: []
@@ -41,6 +41,7 @@ title: International Information Business College
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

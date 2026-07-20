@@ -5,7 +5,7 @@ basic_info:
   name_en: Hakuoh University
   name_ja: 白鴎大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Business Administration
 - Faculty of Law
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 800000
 ---
+
 
 ## 🏫 University Overview
 

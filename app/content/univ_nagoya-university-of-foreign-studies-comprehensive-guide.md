@@ -5,7 +5,7 @@ basic_info:
   name_en: Nagoya University of Foreign Studies
   name_ja: 名古屋外国語大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - School of Foreign Languages
 - School of Contemporary International Studies
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1170000
 ---
+
 
 ## 🏫 University Overview
 Nagoya University of Foreign Studies (NUFS), known in Japanese as Nagoya Gaikokugo Daigaku, is a prestigious private university located in Nisshin City, Aichi Prefecture, within the greater Nagoya metropolitan area. Established in 1988, it has rapidly ascended to become the leading institution for foreign language studies and international education in the Chubu region of Central Japan. 

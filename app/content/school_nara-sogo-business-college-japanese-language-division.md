@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: University Preparation 1.5-Year Course
   total_fees: 1195000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Comprehensive University Preparation
@@ -47,6 +47,7 @@ title: Nara Sogo Business College (Japanese Language Division)
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

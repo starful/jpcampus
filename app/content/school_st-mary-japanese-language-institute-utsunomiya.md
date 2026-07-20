@@ -24,7 +24,7 @@ courses:
 - admission_month: '10'
   course_name: 進学Dコース
   total_fees: 1050000
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Located in Utsunomiya, Tochigi Prefecture, offering a balanced, regional lifestyle.
@@ -53,6 +53,7 @@ title: St. Mary Japanese Language Institute
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

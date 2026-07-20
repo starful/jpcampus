@@ -5,7 +5,7 @@ basic_info:
   name_en: Keiwa College
   name_ja: 敬和学園大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 니가타현 시바타시에 위치한 케이와 학원 대학은 기독교 정신을 바탕으로 한 소수 정예 리버럴 아츠 교육을 제공합니다. 유학생을
   위한 세심한 지원과 높은 취업 실적을 자랑하는 대학입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 780000
 ---
+
 
 ## 🏫 대학 개요: 케이와 정신 (The Keiwa Spirit)
 

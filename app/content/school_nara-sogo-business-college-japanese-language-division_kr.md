@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: University Preparation 1.5-Year Course
   total_fees: 1195000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나라에 위치한 나라종합비즈니스전문학교 일본어학과는 대학 진학을 위한 집중적인 EJU 준비 및 맞춤형 커리큘럼을 제공합니다.
 faculties: []
 features:
@@ -48,6 +48,7 @@ title: 나라종합비즈니스전문학교 (일본어학과)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 교육 철학
 

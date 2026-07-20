@@ -9,9 +9,10 @@
   ],
   "description": "Bank account steps",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-06-30"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Master Guide: Opening a Bank Account in Japan as an International Student
 

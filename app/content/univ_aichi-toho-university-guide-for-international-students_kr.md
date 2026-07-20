@@ -5,7 +5,7 @@ basic_info:
   name_en: Aichi Toho University
   name_ja: 愛知東邦大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 나고야에 위치한 아이치 토호 대학교는 소수 정예 교육과 지역 산업과의 강력한 연계를 통해 유학생들의 일본 내 성공적인 취업과
   성장을 지원합니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 980000
 ---
+
 
 ## 🏫 대학 개요: 아이치 토호 대학교의 정신
 

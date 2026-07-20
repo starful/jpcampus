@@ -9,9 +9,10 @@
   ],
   "description": "Requirements and earnings for student delivery partners.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
-  "date": "2026-06-26"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Working as a Delivery Rider in Japan: The Ultimate Guide to Uber Eats and Menu for International Students
 

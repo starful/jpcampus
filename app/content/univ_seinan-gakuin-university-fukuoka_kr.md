@@ -5,7 +5,7 @@ basic_info:
   name_ja: 西南学院大学
   website: https://www.seinan-gu.ac.jp/
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 faculties:
 - Theology
 - Literature
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1150000
 ---
+
 
 ## 🏫 대학 개요 및 명성
 

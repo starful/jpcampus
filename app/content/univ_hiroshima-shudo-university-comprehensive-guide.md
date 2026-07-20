@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima Shudo University
   name_ja: 広島修道大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Commercial Sciences
 - Faculty of Humanities and Human Sciences
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 880000
 ---
+
 
 ## 🏫 University Overview
 

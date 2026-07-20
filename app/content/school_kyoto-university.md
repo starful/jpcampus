@@ -5,7 +5,7 @@ basic_info:
   name_ja: 京都大学
   website: https://www.kyoto-u.ac.jp/
 category: school
-date: '2026-01-28'
+date: '2026-07-20'
 description: Kyoto University is one of Japan's leading national universities, globally
   recognized for its research achievements, dedication to the 'Spirit of Freedom,'
   and its numerous Nobel laureates.
@@ -48,6 +48,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## School Overview & Philosophy
 

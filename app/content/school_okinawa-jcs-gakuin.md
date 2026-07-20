@@ -18,7 +18,7 @@ courses:
 - admission_month: '10'
   course_name: 実用日本語1年コース
   total_fees: 781696
-date: '2026-01-28'
+date: '2026-07-20'
 description: Okinawa JCS Academy is a Japanese language school in Naha, Okinawa, offering
   a supportive learning environment with comprehensive EJU preparation, an integrated
   dormitory system, and a strong focus on practical conversation skills.
@@ -52,6 +52,7 @@ title: Okinawa JCS Gakuin
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

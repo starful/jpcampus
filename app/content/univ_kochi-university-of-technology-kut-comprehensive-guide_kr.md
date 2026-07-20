@@ -5,7 +5,7 @@ basic_info:
   name_en: Kochi University of Technology
   name_ja: 高知工科大学
 category: university
-date: '2026-03-08'
+date: '2026-07-20'
 description: 세계적 수준의 연구 시설과 혁신적인 교육 환경을 자랑하는 시코쿠의 명문, 고치공과대학교(KUT)의 학비, 장학금 및 캠퍼스
   생활 정보를 확인하세요.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 대학 개요: 시코쿠의 숨겨진 보석
 

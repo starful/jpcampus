@@ -5,7 +5,7 @@ basic_info:
   name_en: Shimane University
   name_ja: 島根大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 faculties:
 - Faculty of Law and Literature
 - Faculty of Education
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 Shimane University is a distinguished national university located in the heart of the San-in region of Japan. Established in 1949 through the merger of several prestigious local educational institutions, the university has evolved into a comprehensive research hub that bridges traditional Japanese culture with cutting-edge global technology. The university operates two main campuses: the Matsue Campus, situated near the scenic Lake Shinji and the historic Matsue Castle, and the Izumo Campus, located in the spiritual heartland of Japan near the Izumo Taisha Grand Shrine. For international students, Shimane University offers a unique 'slow-life' educational environment that avoids the overwhelming congestion of Tokyo or Osaka while providing world-class academic rigor. The institution is known for its 'Global Commons' initiative, which facilitates intercultural exchange and provides a home away from home for students from over 30 countries.

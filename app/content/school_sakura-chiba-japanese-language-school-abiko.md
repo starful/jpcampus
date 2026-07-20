@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6ヶ月コース
   total_fees: 1316300
-date: '2026-01-28'
+date: '2026-07-20'
 faculties: []
 features:
 - Highly specialized University Preparation (EJU, STEM, Art/Design)
@@ -38,6 +38,7 @@ thumbnail: /static/img/pin-school.png
 title: Sakura Chiba Japanese Language School
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

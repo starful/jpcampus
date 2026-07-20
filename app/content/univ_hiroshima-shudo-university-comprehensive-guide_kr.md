@@ -5,7 +5,7 @@ basic_info:
   name_en: Hiroshima Shudo University
   name_ja: 広島修道大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 description: 300년의 역사를 자랑하는 히로시마 슈도 대학은 일본 중국·시코쿠 지역을 대표하는 명문 사립대학으로, 뛰어난 취업 실적과 체계적인
   유학생 지원 시스템을 제공합니다.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 880000
 ---
+
 
 ## 🏫 대학 개요
 

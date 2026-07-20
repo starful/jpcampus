@@ -5,7 +5,7 @@ basic_info:
   name_en: Kiryu University
   name_ja: 桐生大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 군마현에 위치한 키류 대학교는 실무 중심의 교육을 통해 보건의료, 예술, 조리 분야의 전문가를 양성합니다. 높은 국가 자격증
   합격률과 소수 정예의 밀착형 지도가 강점입니다.
 faculties:
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1550000
 ---
+
 
 ## 🏫 대학 개요: 실무 전문가로 가는 관문
 

@@ -9,7 +9,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語ビジネスコース
   total_fees: 1585000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Fuji Gakuen IT College Okinawa offers a specialized Japanese language
   program focused on business and IT, providing a pathway to vocational studies and
   careers in Japan.
@@ -41,6 +41,7 @@ title: Fuji Gakuen IT College Okinawa (Japanese Language Division)
 translated: true
 tuition: {}
 ---
+
 
 # 🌺 Fuji Gakuen IT College Okinawa (Japanese Language Division)
 

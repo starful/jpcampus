@@ -5,7 +5,7 @@ basic_info:
   name_en: Ibaraki University
   name_ja: 茨城大学
 category: university
-date: '2026-06-12'
+date: '2026-07-20'
 description: An ultimate guide to Ibaraki University. Explore admission requirements,
   tuition fees, scholarships, and campus life for international students in Japan.
 faculties:
@@ -41,6 +41,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 Ibaraki University (茨城大学), often abbreviated as "Ibadai," is a distinguished national university located in Ibaraki Prefecture, just north of Tokyo. Established in 1949 through the integration of several regional colleges, it has evolved into a comprehensive research institution that plays a pivotal role in Japan’s intellectual and industrial landscape. The university is spread across three main campuses—Mito, Hitachi, and Ami—each specializing in distinct academic disciplines that leverage the unique geographical and economic strengths of the region.

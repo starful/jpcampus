@@ -9,9 +9,10 @@
   ],
   "description": "What to have in your emergency kit and where to go.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-07-20"
 }
 ---
+
 
 # Staying Safe in the Land of the Rising Sun: A Comprehensive Preparedness Guide for International Students
 

@@ -5,7 +5,7 @@ basic_info:
   name_en: Ibaraki Christian University
   name_ja: 茨城キリスト教大学
 category: university
-date: '2026-03-24'
+date: '2026-07-20'
 description: 사랑과 봉사의 정신을 바탕으로 인성 교육과 전문성을 겸비한 글로벌 인재를 양성하는 이바라키 그리스도교 대학교의 종합 가이드입니다.
 faculties:
 - Faculty of Literature
@@ -37,6 +37,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 대학 개요: 사랑과 봉사의 정신
 

@@ -12,7 +12,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1340000
-date: '2026-07-12'
+date: '2026-07-20'
 description: Shonan Japanese Academy Hamamatsu Campus offers intensive EJU preparation,
   a specialized science track for engineering aspirants, and integrated dormitory
   accommodation in Hamamatsu, Shizuoka, a major industrial hub.
@@ -42,6 +42,7 @@ title: Shonan Japanese Academy Hamamatsu Campus
 translated: true
 tuition: {}
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

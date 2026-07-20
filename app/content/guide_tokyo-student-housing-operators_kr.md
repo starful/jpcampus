@@ -1,6 +1,6 @@
 ---
 category: Housing
-date: '2026-07-12'
+date: '2026-07-20'
 description: 도쿄 유학생용 셰어하우스·게스트하우스·먼슬리맨션 운영사를 공식 링크로 비교. 보증인 없이 시작하기 쉬운 옵션을 정리했습니다.
 id: tokyo-student-housing-operators
 lang: kr
@@ -11,9 +11,11 @@ tags:
 - Tokyo
 thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
 title: '도쿄 유학생 숙소 운영사 가이드: 셰어하우스·게스트하우스·먼슬리'
-seo_title: '도쿄 유학생 숙소 운영사·공식 예약 링크 | JPCampus'
-seo_description: Oakhouse, Sakura House, Borderless 등 도쿄 외국인 친화 숙소 운영사와 공식 검색·예약 링크를 한곳에 정리했습니다.
+seo_title: 도쿄 유학생 숙소 운영사·공식 예약 링크 | JPCampus
+seo_description: Oakhouse, Sakura House, Borderless 등 도쿄 외국인 친화 숙소 운영사와 공식 검색·예약 링크를
+  한곳에 정리했습니다.
 ---
+
 
 ## 이 가이드 사용법
 

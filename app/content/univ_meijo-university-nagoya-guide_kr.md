@@ -6,7 +6,7 @@ basic_info:
   name_en: Meijo University
   name_ja: 名城大学
 category: university
-date: '2026-01-28'
+date: '2026-07-20'
 description: 나고야에 위치한 메이조 대학교는 과학, 기술, 약학 분야에서 강세를 보이는 명문 사립 대학입니다. EJU 시험이 필요하며,
   국제 학생 지원 시스템을 제공합니다.
 faculties:
@@ -49,6 +49,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1250000
 ---
+
 
 ## 🏫 대학교 개요
 

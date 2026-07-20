@@ -9,7 +9,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1501000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 도쿄 분쿄구에 위치한 닛츄 가쿠인은 일본 명문 대학 및 대학원 진학을 위한 집중적인 EJU 시험 준비 및 STEM 교육을 제공하는
   일본어 학교입니다.
 faculties: []
@@ -39,6 +39,7 @@ thumbnail: /static/img/pin-school.png
 title: 닛츄 가쿠인 (일중학원)
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

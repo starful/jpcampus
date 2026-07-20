@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語総合2年コース
   total_fees: 1574000
-date: '2026-07-12'
+date: '2026-07-20'
 faculties: []
 features:
 - Part of the renowned ECC education group, ensuring quality pedagogy
@@ -45,6 +45,7 @@ thumbnail: /static/img/pin-school.png
 title: ECC Japanese Language Institute, Shinjuku Campus
 tuition: {}
 ---
+
 
 ## 🏢 School Overview & Philosophy
 

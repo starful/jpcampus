@@ -5,7 +5,7 @@ basic_info:
   name_en: Matsuyama University
   name_ja: 松山大学
 category: university
-date: '2026-03-15'
+date: '2026-07-20'
 faculties:
 - Faculty of Economics
 - Faculty of Business Administration
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 810000
 ---
+
 
 ## 🏫 University Overview
 Matsuyama University (松山大学, Matsudai) is one of the most prestigious and long-standing private universities in western Japan, specifically on the island of Shikoku. Established in 1923 as the Matsuyama Higher Commercial School, it recently celebrated its centennial anniversary, marking a century of contribution to Japanese higher education. The university is founded on the educational philosophy of "Zensei" (Real Sincerity), "Koshu" (Public Spirit), and "Jichi" (Self-Government). 

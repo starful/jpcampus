@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Koka Women's University
   name_ja: 京都光華女子大学
 category: university
-date: '2026-04-04'
+date: '2026-07-20'
 description: 일본의 문화 수도 교토에 위치한 교토광화여자대학교는 불교 정신을 바탕으로 보건의료, 심리, 교육 분야에서 전문성을 갖춘 여성
   인재를 양성하는 유서 깊은 대학입니다.
 faculties:
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1180000
 ---
+
 
 ## 🏫 대학 개요
 

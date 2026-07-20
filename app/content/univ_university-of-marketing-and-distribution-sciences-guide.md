@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Marketing and Distribution Sciences
   name_ja: 流通科学大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Marketing and Distribution
 - Faculty of Commerce
@@ -35,6 +35,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 850000
 ---
+
 
 ## 🏫 University Overview: The 'Ryuka' Legacy
 

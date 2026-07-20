@@ -5,7 +5,7 @@ basic_info:
   name_en: University of Toyama
   name_ja: 富山大学
 category: university
-date: '2026-02-13'
+date: '2026-07-20'
 description: 도야마 대학교는 일본 호쿠리쿠 지역의 보석 같은 존재입니다. 수준 높은 학업 환경과 독특한 연구 기회를 제공하는 국립 대학입니다.
 faculties:
 - Humanities
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 학교 소개: 호쿠리쿠 지방의 보석
 

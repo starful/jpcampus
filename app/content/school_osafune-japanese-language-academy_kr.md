@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: アドバンスドコース
   total_fees: 1351500
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오카야마현에 위치한 오사후네 일본어 학원은 일본 대학 진학을 목표로 하는 유학생에게 종합적인 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -59,6 +59,7 @@ title: 오사후네 일본어 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요
 

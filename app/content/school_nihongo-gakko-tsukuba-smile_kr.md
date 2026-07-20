@@ -15,7 +15,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年半6か月コース
   total_fees: 895000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 츠쿠바 스마일 일본어 학교는 이바라키현 토리데시에 위치하고 있으며, 유학생을 위한 맞춤형 지원과 고등 교육 진학 지도를 제공합니다.
 faculties: []
 features:
@@ -43,6 +43,7 @@ title: 츠쿠바 스마일 일본어 학교
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

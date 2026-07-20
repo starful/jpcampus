@@ -18,7 +18,7 @@ courses:
 - admission_month: '1'
   course_name: Comprehensive Japanese Course (January Start)
   total_fees: 1960200
-date: '2026-01-28'
+date: '2026-07-20'
 description: 고베에 위치한 커뮤니카 학원은 일본에서의 학업 성공을 목표로 하는 국제 학생들에게 종합적인 일본어 교육을 제공합니다. EJU
   시험 준비, STEM 분야 지원, 회화 중심 학습을 제공합니다.
 faculties: []
@@ -51,6 +51,7 @@ title: 커뮤니카 학원
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

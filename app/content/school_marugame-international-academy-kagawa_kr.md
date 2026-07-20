@@ -12,7 +12,7 @@ courses:
 - admission_month: '10'
   course_name: 進学1年6か月コース
   total_fees: 1154510
-date: '2026-01-28'
+date: '2026-07-20'
 description: 가가와현 마루가메시에 위치한 마루가메 국제 아카데미에 대한 상세 정보입니다. 학교 개요, 커리큘럼, 캠퍼스 생활 및 입학 정보를
   확인하세요.
 faculties: []
@@ -42,6 +42,7 @@ thumbnail: /static/img/pin-school.png
 title: 마루가메 국제 아카데미
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

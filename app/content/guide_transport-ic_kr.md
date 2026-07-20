@@ -1,7 +1,7 @@
 ---
 {
   "category": "Settlement",
-  "date": "2026-01-13",
+  "date": "2026-07-20",
   "description": "충전식 교통 카드를 획득하고 사용하는 방법에 대한 안내입니다.",
   "id": "transport-ic",
   "lang": "kr",
@@ -22,6 +22,7 @@
   }
 }
 ---
+
 
 # Suica vs PASMO: 일본의 편리한 IC 카드 시스템 탐색하기
 

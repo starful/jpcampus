@@ -13,7 +13,7 @@ courses:
 - admission_month: '4'
   course_name: 進学2年コース
   total_fees: 1340000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 국제 테크니컬 디자인 자동차 전문학교 일본어학과는 기술 및 공학 분야 진학을 희망하는 유학생을 위한 맞춤형 일본어 교육을 제공합니다.
 faculties: []
 features:
@@ -43,6 +43,7 @@ title: 국제 테크니컬 디자인 자동차 전문학교 (일본어학과)
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

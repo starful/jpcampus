@@ -22,7 +22,7 @@ courses:
 - admission_month: '4'
   course_name: 一般2年コース
   total_fees: 1434000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오키나와 나하에 위치한 International Language and Culture Center 부속 일본어 학교에 대해
   알아보세요. 실용적인 회화, 전문 트랙, 기숙사, 장학금 등 다양한 혜택을 제공합니다.
 faculties: []
@@ -62,6 +62,7 @@ thumbnail: /static/img/pin-school.png
 title: International Language and Culture Center 부속 일본어 학교
 tuition: {}
 ---
+
 
 ## 🏫 학교 개요 및 철학
 

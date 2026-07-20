@@ -5,7 +5,7 @@ basic_info:
   name_en: Prefectural University of Kumamoto
   name_ja: 熊本県立大学
 category: university
-date: '2026-03-03'
+date: '2026-07-20'
 faculties:
 - Faculty of Literature
 - Faculty of Environmental and Symbiotic Sciences
@@ -34,6 +34,7 @@ tuition:
   admission_fee: 423000
   yearly_tuition: 535800
 ---
+
 
 ## 🏫 University Overview
 

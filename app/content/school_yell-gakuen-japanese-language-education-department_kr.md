@@ -15,7 +15,7 @@ courses:
 - admission_month: '4'
   course_name: 日本語教育学科
   total_fees: 1600000
-date: '2026-01-28'
+date: '2026-07-20'
 description: 오사카 중심부(난바)에 위치한 에ール(Yell) 학원 일본어 교육학과는 일본 대학 진학을 위한 학생들을 집중적으로 교육합니다.
   특화된 트랙, 학교 기숙사 및 풍부한 장학금 제도를 제공합니다.
 faculties: []
@@ -48,6 +48,7 @@ title: 에ール(Yell) 학원 일본어 교육학과
 translated: true
 tuition: {}
 ---
+
 
 ## 학교 개요 및 철학
 

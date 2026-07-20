@@ -5,7 +5,7 @@ basic_info:
   name_en: Osaka Seikei University
   name_ja: 大阪成蹊大学
 category: university
-date: '2026-04-19'
+date: '2026-07-20'
 faculties:
 - Faculty of Management
 - Faculty of Art and Design
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 250000
   yearly_tuition: 1050000
 ---
+
 
 ## 🏫 University Overview
 

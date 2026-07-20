@@ -1,7 +1,7 @@
 ---
 {
   "category": "Curated List",
-  "date": "2026-01-28",
+  "date": "2026-07-20",
   "description": "교토 유학을 위한 추천: 일본 문화 수도의 최고 학교 3곳.",
   "id": "study-in-kyoto-top-picks",
   "is_featured": true,
@@ -24,6 +24,7 @@
   }
 }
 ---
+
 
 ## 교토 유학: 일본 문화 수도의 최고 학교 3곳
 
