@@ -6,8 +6,8 @@ basic_info:
   name_ja: 中部大学
 category: university
 date: '2026-06-19'
-description: Your complete guide to studying at Chubu University. Discover 2026 admission
-  requirements, tuition fees, available scholarships, and international student support.
+description: Find Chubu University 2026 admission requirements, tuition fees, scholarships,
+  and programs for international students looking to study in Japan.
 faculties:
 - Faculty of Engineering
 - Faculty of Business Administration and Information Science
@@ -27,9 +27,9 @@ layout: school
 location:
   lat: 35.274265
   lng: 137.013278
-seo_description: Explore Chubu University's 2026 guide for international students.
-  Find accurate details on tuition, admissions, scholarships, and how to apply.
-seo_title: 'Chubu University 2026: International Student Guide | JP Campus'
+seo_description: Find Chubu University 2026 admission requirements, tuition fees,
+  scholarships, and programs for international students looking to study in Japan.
+seo_title: Chubu University Admissions, Tuition & Scholarships [2026] | JP Campus
 stats:
   acceptance_rate: 40-50%
   international_students: 280
@@ -39,11 +39,12 @@ tags:
 - International Exchange Programs
 - Multidisciplinary Campus Culture
 thumbnail: /static/img/pin-univ.png
-title: Chubu University International Student Guide
+title: Chubu University International Student Guide (2026)
 tuition:
   admission_fee: 280000
   yearly_tuition: 1350000
 ---
+
 
 ## 🏫 University Overview
 

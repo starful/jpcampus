@@ -13,8 +13,8 @@ courses:
   course_name: University Prep 2 Year Course
   total_fees: 1545000
 date: '2026-06-19'
-description: Your complete guide to Abeno Japanese Language School in Osaka. Find
-  updated 2026 tuition fees, courses, requirements, and honest student reviews.
+description: The ultimate 2026 guide to Abeno Japanese Language School in Osaka. Explore
+  courses, tuition fees, student reviews, and step-by-step application requirements.
 faculties: []
 features:
 - University Preparation
@@ -28,8 +28,8 @@ layout: school
 location:
   lat: 34.6255119
   lng: 135.5154831
-seo_description: Is Abeno Japanese Language School in Osaka right for you? Find 2026
-  tuition fees, courses, admission requirements, and genuine student reviews.
+seo_description: Thinking of studying in Osaka? Check Abeno Japanese Language School's
+  2026 tuition, courses, and honest student reviews before applying.
 seo_title: 'Abeno Japanese Language School Osaka: 2026 Fees & Reviews'
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=557
 stats:
@@ -42,10 +42,11 @@ tags:
 - EJU Preparation
 - Short-Term Courses
 thumbnail: /static/img/pin-school.png
-title: Abeno Japanese Language School
+title: Abeno Japanese Language School (Osaka) | 2026 Guide
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview
 

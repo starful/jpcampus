@@ -46,7 +46,13 @@ thumbnail: /static/img/pin-school.png
 title: Nagoya International Japanese Language School
 translated: true
 tuition: {}
+description: Learn about Nagoya International Japanese Language School. Check 2026
+  tuition, courses, and application steps on JP Campus.
+seo_title: 'Nagoya International Japanese Language School: Tuition & Apply | JP Campus'
+seo_description: Study in Japan! Find 2026 tuition fees, course details, and admission
+  requirements for Nagoya International Japanese Language School on JP Campus.
 ---
+
 
 ## School Overview & Philosophy
 

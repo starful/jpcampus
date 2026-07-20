@@ -16,8 +16,8 @@ courses:
   course_name: 日本語教育進学1.5年コース
   total_fees: 1086000
 date: '2026-06-19'
-description: Learn Japanese at Tokyo Nakano Japanese Language Institute. Specializing
-  in EJU prep, Science Stream curriculum, and university placement in Tokyo.
+description: Study at Tokyo Nakano Japanese Language Institute. Top Japanese language
+  school in Tokyo offering EJU prep, science-stream classes & university pathways.
 faculties: []
 features:
 - Dedicated University and Vocational School Placement Support
@@ -30,9 +30,9 @@ layout: school
 location:
   lat: 35.6917092
   lng: 139.6786235
-seo_description: Study at Tokyo Nakano Japanese Language Institute. Expert EJU prep,
-  Science Stream, and top university placement support in Tokyo. Learn more!
-seo_title: 'Tokyo Nakano Japanese Language Institute: EJU Prep | JP Campus'
+seo_description: Study at Tokyo Nakano Japanese Language Institute. Top Japanese language
+  school in Tokyo offering EJU prep, science-stream classes & university pathways.
+seo_title: Tokyo Nakano Japanese Language Institute | JP Campus
 source_url: https://www.nisshinkyo.org/search/college.php?lng=1&id=183
 stats:
   capacity: 150
@@ -47,6 +47,7 @@ title: Tokyo Nakano Japanese Language Institute
 translated: true
 tuition: {}
 ---
+
 
 ## School Overview & Philosophy
 

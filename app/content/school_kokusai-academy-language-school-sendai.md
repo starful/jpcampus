@@ -40,9 +40,15 @@ tags:
 - Curriculum includes Specialized Business Japanese Training
 - Active Scholarship Opportunities for High Performers
 thumbnail: /static/img/pin-school.png
-title: Kokusai Academy Language School
+title: Kokusai Academy Language School (Sendai)
 tuition: {}
+description: Looking to study in Sendai? Find Kokusai Academy Language School's 2026
+  tuition fees, course details, and admission requirements on JP Campus.
+seo_title: 'Kokusai Academy Language School Sendai: 2026 Fees & Admission'
+seo_description: Looking to study in Sendai? Find Kokusai Academy Language School's
+  2026 tuition fees, course details, and admission requirements on JP Campus.
 ---
+
 
 ## 🏫 School Overview & Philosophy
 

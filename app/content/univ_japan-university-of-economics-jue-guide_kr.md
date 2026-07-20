@@ -6,7 +6,7 @@ basic_info:
   name_ja: 日本経済大学
 category: university
 date: '2026-06-19'
-description: 일본경제대학교(JUE)의 캠퍼스별 특징, 학비, 유학생 장학 혜택 및 취업 지원 등 2026학년도 최신 입학 정보를 한눈에
+description: 일본경제대학교(JUE)의 2026학년도 최신 입학 정보. 도쿄 및 후쿠오카 캠퍼스 특징, 장학 혜택, 학비 및 취업 지원 정보를
   확인해 보세요.
 faculties:
 - 경제학부
@@ -26,9 +26,9 @@ layout: school
 location:
   lat: 33.505933
   lng: 130.52593
-seo_description: 2026 일본경제대학교(JUE) 입학의 모든 것! 도쿄·후쿠오카 캠퍼스 특징, 학비, 장학금 혜택 및 외국인 특별전형
-  정보를 JP Campus에서 확인하세요.
-seo_title: '[2026] 일본경제대학교 입학 가이드: 학비, 장학금, 외국인 전형 | JP Campus'
+seo_description: 일본경제대학교(JUE) 2026학년도 입학 안내! 도쿄·후쿠오카 캠퍼스 특징, 유학생 특별 장학금 혜택, 학비 및 높은
+  취업률 정보를 지금 확인해 보세요.
+seo_title: '일본경제대학교(JUE) 2026 입학 가이드: 학비 감면 & 캠퍼스 정보 | JP Campus'
 stats:
   acceptance_rate: 55-60%
   international_students: 2500
@@ -39,12 +39,13 @@ tags:
 - EJU Required for Standard Admission Tracks
 - Dedicated Career Support for Foreign Graduates
 thumbnail: /static/img/pin-univ.png
-title: 일본경제대학교 (Japan University of Economics) 입학 가이드
+title: '[2026] 일본경제대학교 (JUE) 입학 가이드 | JP Campus'
 translated: true
 tuition:
   admission_fee: 280000
   yearly_tuition: 1180000
 ---
+
 
 ## 대학교 개요
 

@@ -35,11 +35,17 @@ tags:
 - Strategic proximity to Japan's space centers
 - Strong focus on the 'Spirit of Enterprise' and local revitalization
 thumbnail: /static/img/pin-univ.png
-title: Kagoshima University
+title: Kagoshima University Guide for International Students
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+description: Learn about Kagoshima University's tuition fees, admission requirements,
+  and programs for international students in our comprehensive 2026 guide.
+seo_title: 'Kagoshima University: Tuition, Admissions & Programs | JP Campus'
+seo_description: Learn about Kagoshima University's tuition fees, admission requirements,
+  and programs for international students in our comprehensive 2026 guide.
 ---
+
 
 ## 🏫 University Overview: The Southern Gateway to Japanese Excellence
 

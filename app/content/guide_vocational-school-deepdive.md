@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "vocational-school-deepdive",
-  "title": "What Can You Study at a 'Senmon Gakko'?",
+  "title": "What Can You Study at a Senmon Gakko? (Complete Guide)",
   "category": "Career",
   "tags": [
     "Career"
   ],
-  "description": "Exploring vocational schools for fields like anime, cooking, and IT.",
+  "description": "Discover popular Senmon Gakko courses in Japan, from anime to IT. Learn about vocational majors, career options, and requirements.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-03-10"
+  "date": "2026-03-10",
+  "seo_title": "What Can You Study at a Senmon Gakko? (2026 Guide) | JP Campus",
+  "seo_description": "Discover popular Senmon Gakko courses in Japan! From anime and IT to culinary arts, explore vocational majors, career paths, and visa options."
 }
 ---
+
 
 # Your Ultimate Guide to Senmon Gakko: Practical Careers in Japan
 

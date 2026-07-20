@@ -13,8 +13,9 @@ courses:
   course_name: 進学1年6か月コース
   total_fees: 1106100
 date: '2026-01-28'
-description: Study in Shizuoka! Explore Hamamatsu Japanese Language Institute's 2026
-  courses, fees, guaranteed dorms, and EJU prep. Start your application today!
+description: Study Japanese in Shizuoka, Japan. Find 2026 course details, affordable
+  tuition fees, guaranteed school dormitories, and career/academic support at Hamamatsu
+  Japanese Language Institute.
 faculties: []
 features:
 - Specialized Academic Tracks (Science/Rikei and Art/Design preparation)
@@ -42,10 +43,12 @@ thumbnail: /static/img/pin-school.png
 title: Hamamatsu Japanese Language Institute
 translated: true
 tuition: {}
-seo_title: 'Hamamatsu Japanese Language Institute: 2026 Fees & Apply'
-seo_description: Study in Shizuoka! Explore Hamamatsu Japanese Language Institute's
-  2026 courses, fees, guaranteed dorms, and EJU prep. Start your application today!
+seo_title: Hamamatsu Japanese Language Institute | 2026 Fees & Dorms
+seo_description: Study in Shizuoka! Check 2026 fees, guaranteed dorms, and course
+  options at Hamamatsu Japanese Language Institute. Start your application with JP
+  Campus!
 ---
+
 
 
 

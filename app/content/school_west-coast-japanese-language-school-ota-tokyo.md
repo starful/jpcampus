@@ -43,12 +43,13 @@ tags:
 thumbnail: /static/img/pin-school.png
 title: West Coast Japanese Language School (ウエストコースト語学院)
 tuition: {}
-description: Thinking of studying at West Coast Japanese Language School in Ota, Tokyo?
-  Find 2026 tuition fees, admission requirements, and student reviews.
-seo_title: West Coast Japanese Language School (Ota, Tokyo) | JP Campus
-seo_description: Thinking of studying at West Coast Japanese Language School in Ota,
-  Tokyo? Find 2026 tuition fees, admission requirements, and student reviews.
+description: Study at West Coast Japanese Language School in Ota, Tokyo. Find 2026
+  tuition fees, admission requirements, visa support, and reviews on JP Campus.
+seo_title: 'West Coast Japanese Language School Tokyo: Fees & Reviews'
+seo_description: Study at West Coast Japanese Language School in Ota, Tokyo. Find
+  2026 tuition, admission requirements, visa process, and student reviews.
 ---
+
 
 
 

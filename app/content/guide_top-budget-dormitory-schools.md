@@ -1,8 +1,8 @@
 ---
 category: Curated List
 date: '2026-01-15'
-description: Looking for affordable study options? Here are the 5 cheapest schools
-  in Japan offering budget-friendly, safe dormitories to save you money.
+description: Discover the most budget-friendly schools in Japan that offer low-cost,
+  safe, and fully furnished dormitories for international students.
 id: top-budget-dormitory-schools
 is_featured: true
 lang: en
@@ -11,11 +11,12 @@ tags:
 - Ranking
 - Recommendation
 thumbnail: https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=500
-title: 5 Cheapest Schools in Japan with Dormitories
-seo_title: 5 Cheapest Schools in Japan with Dormitories (2026)
-seo_description: Cut study abroad costs! Discover the cheapest schools in Japan with
-  safe, low-cost dorms. Save on tuition & rent in 2026.
+title: 5 Cheapest Schools in Japan with Dormitories (Save on Rent & Tuition)
+seo_title: 5 Cheapest Schools in Japan with Dorms (Low Rent) | JP Campus
+seo_description: Study in Japan on a budget! Discover the 5 cheapest schools offering
+  low-cost, safe dormitories to save on tuition and accommodation.
 ---
+
 
 
 

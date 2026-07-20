@@ -7,13 +7,14 @@
   "tags": [
     "Region"
   ],
-  "description": "Where should international students live in Tokyo? Compare top neighborhoods like Shinjuku, Shibuya, and Kichijoji for rent, lifestyle, and safety.",
+  "description": "Compare the best places to live in Tokyo for international students. Find top neighborhoods based on rent, safety, lifestyle, and transit ease.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
   "date": "2026-02-13",
-  "seo_title": "Best Tokyo Neighborhoods for Students: 2026 Guide | JP Campus",
-  "seo_description": "Where should international students live in Tokyo? Compare top neighborhoods like Shinjuku, Shibuya, and Kichijoji for rent, lifestyle, and safety."
+  "seo_title": "Where to Live in Tokyo: Best Neighborhoods for Students (2026)",
+  "seo_description": "Compare the best places to live in Tokyo for international students. Find top neighborhoods based on rent, safety, lifestyle, and transit ease."
 }
 ---
+
 
 
 # Student Guide to Tokyo Neighborhoods: Finding Your Perfect Home in the World’s Greatest Metropolis
