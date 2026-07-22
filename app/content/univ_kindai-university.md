@@ -6,10 +6,8 @@ basic_info:
   website: https://www.kindai.ac.jp/
 category: university
 date: '2026-07-20'
-description: Explore Kindai University, a leading private institution in Japan renowned
-  for its academic excellence, innovative research, and commitment to global perspectives.
-  Discover its diverse faculties, English programs, international student support,
-  and more.
+description: 'Discover Kindai University: explore popular majors, tuition fees, 2026
+  admission requirements, and campus life for international students in Japan.'
 faculties:
 - Faculty of Law
 - Faculty of Economics
@@ -46,13 +44,16 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: 'Kindai University Guide 2026: Popular Majors, Admission, Tuition for International
-  Students'
+title: 'Kindai University 2026: Majors, Tuition & Admissions | JPCampus'
 translated: true
 tuition:
   admission_fee: 200000
   yearly_tuition: 1200000
+seo_title: 'Kindai University 2026: Majors, Tuition & Admissions | JPCampus'
+seo_description: 'Discover Kindai University: explore popular majors, tuition fees,
+  2026 admission requirements, and campus life for international students in Japan.'
 ---
+
 
 
 ## University Overview & Reputation

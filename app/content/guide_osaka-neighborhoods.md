@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "osaka-neighborhoods",
-  "title": "Where to Live in Osaka: Umeda vs. Namba",
+  "title": "Best Neighborhoods in Osaka: Where to Live Guide",
   "category": "Region",
   "tags": [
     "Region"
   ],
-  "description": "A student's guide to Osaka's major hubs.",
+  "description": "Compare Osaka's top neighborhoods for students and expats. Learn about rent costs, safety, and lifestyle in Umeda, Namba, and top surrounding areas.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Where to Live in Osaka: Best Neighborhoods Guide | JP Campus",
+  "seo_description": "Discover the best neighborhoods to live in Osaka. Compare Umeda vs. Namba, rent costs, safety, and transportation to find your perfect student housing."
 }
 ---
+
 
 
 # Where to Live in Osaka: Umeda vs. Namba

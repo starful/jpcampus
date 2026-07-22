@@ -40,12 +40,18 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: 간사이 대학
+title: 간사이 대학(Kansai University) 입시·학비·학부 정보 | JP Campus
 translated: true
 tuition:
   admission_fee: 270000
   yearly_tuition: 1100000
+description: 간사이 대학(Kansai University)의 학부별 학비, 입시 요강, 유학생 지원 및 캠퍼스 상세 정보를 한눈에 확인하고
+  성공적인 일본 유학을 준비하세요.
+seo_title: 간사이 대학(Kansai University) 입시·학비·학부 정보 | JP Campus
+seo_description: 간사이 대학(Kansai University)의 학부별 학비, 입시 요강, 유학생 지원 및 캠퍼스 상세 정보를 한눈에
+  확인하고 성공적인 일본 유학을 준비하세요.
 ---
+
 
 
 ## 대학 개요

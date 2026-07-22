@@ -28,16 +28,17 @@ tags:
 - Specialized Support for International Students
 - Located in a Historic and Safe Educational City
 thumbnail: /static/img/pin-univ.png
-title: 'Ashikaga University: 2026 Admission, Tuition & Guide'
+title: Ashikaga University
 tuition:
   admission_fee: 200000
   yearly_tuition: 1250000
-description: Your comprehensive guide to Ashikaga University. Discover engineering
-  and nursing programs, fees, and admission requirements for international students.
-seo_title: 'Ashikaga University Guide: Tuition, Admission & Programs | JP Campus'
-seo_description: Explore Ashikaga University! Get details on tuition, faculties (Engineering,
-  Nursing), international admissions, and campus life for 2026.
+description: 'Ashikaga University 2026 guide: Explore Engineering & Nursing programs,
+  tuition fees, scholarships, and international student admissions in Japan.'
+seo_title: 'Ashikaga University 2026: Tuition, Programs & Admissions | JP Campus'
+seo_description: 'Ashikaga University 2026 guide: Explore Engineering & Nursing programs,
+  tuition fees, scholarships, and international student admissions in Japan.'
 ---
+
 
 
 

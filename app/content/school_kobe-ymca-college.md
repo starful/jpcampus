@@ -73,9 +73,8 @@ content_body: '## 🏫 School Overview
   cultural knowledge needed to succeed in their academic or professional pursuits
   in Japan.'
 date: '2026-07-20'
-description: Kobe YMCA College of Professional Studies offers comprehensive Japanese
-  language programs with a focus on university preparation, practical communication,
-  and cultural understanding in the heart of Kobe.
+description: Explore Kobe YMCA College Japanese language courses in Kobe, Japan. Check
+  2026 tuition, admission requirements, student reviews, and course details.
 features:
 - University Preparation
 - EJU Preparation
@@ -109,7 +108,11 @@ tags:
 thumbnail: /static/img/pin-school.png
 title: Kobe YMCA College of Professional Studies
 translated: true
+seo_title: 'Kobe YMCA Japanese Language Course: Tuition & Admission | JP Campus'
+seo_description: Explore Kobe YMCA College Japanese language courses in Kobe, Japan.
+  Check 2026 tuition, admission requirements, student reviews, and course details.
 ---
+
 
 
 ## School Overview

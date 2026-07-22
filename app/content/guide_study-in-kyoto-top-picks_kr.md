@@ -2,7 +2,7 @@
 {
   "category": "Curated List",
   "date": "2026-07-20",
-  "description": "교토 유학을 위한 추천: 일본 문화 수도의 최고 학교 3곳.",
+  "description": "일본의 문화 수도 교토에서 성공적인 유학을 시작하세요. 어학연수 및 대학 진학에 최적화된 교토 최고 추천 학교 3곳의 특징과 유학 혜택을 한눈에 비교해 드립니다.",
   "id": "study-in-kyoto-top-picks",
   "is_featured": true,
   "lang": "kr",
@@ -13,7 +13,7 @@
     "General"
   ],
   "thumbnail": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500",
-  "title": "교토 유학: 일본 문화 수도의 최고 학교 3곳",
+  "title": "교토 유학 추천 학교 TOP 3: 어학연수부터 대학 진학까지",
   "features": [
     "엄선된 학교",
     "교토",
@@ -21,9 +21,12 @@
   ],
   "basic_info": {
     "name_en": null
-  }
+  },
+  "seo_title": "[2026] 교토 유학 추천 학교 TOP 3 | 어학연수·대학 입학 가이드 | JP Campus",
+  "seo_description": "교토 유학을 고민 중이신가요? 일본 전통과 문화의 중심지 교토의 추천 학교 TOP 3와 어학연수, 대학 진학 정보 및 학교별 특징을 한눈에 확인하세요."
 }
 ---
+
 
 
 ## 교토 유학: 일본 문화 수도의 최고 학교 3곳

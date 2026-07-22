@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "gym-memberships-japan",
-  "title": "Affordable Gyms: ChocoZAP vs. Municipal Centers",
+  "title": "Cheap Gyms in Japan: ChocoZAP vs. Municipal Gyms",
   "category": "Health",
   "tags": [
     "Health"
   ],
-  "description": "How to stay fit without expensive monthly contracts.",
+  "description": "Looking for cheap gym memberships in Japan? Compare ChocoZAP, municipal gyms, and 24/7 fitness centers to work out affordably without contract traps.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Cheap Gyms in Japan: ChocoZAP vs. Municipal Gyms | JP Campus",
+  "seo_description": "Looking for cheap gym memberships in Japan? Compare ChocoZAP, municipal gyms, and 24/7 fitness centers to work out affordably without contract traps."
 }
 ---
+
 
 
 # Staying Fit in Japan: A Comprehensive Guide to Affordable Gyms for International Students

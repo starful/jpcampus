@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "eju-subjects",
-  "title": "EJU Subjects Guide 2026: Math, Science, Japan & the World Study Strategy",
+  "title": "EJU Subjects Guide 2026: How to Choose the Right Tests",
   "category": "Exam",
   "tags": [
     "Exam"
   ],
-  "description": "Master EJU subject selection and scoring with a clear 2026 strategy for Math, Science, and Japan & the World, including university-fit planning.",
+  "description": "A complete guide to choosing your EJU subject tests—Japan & the World, Science, and Mathematics—tailored to Japanese university entry requirements.",
   "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "2026 EJU Subjects: How to Choose Math, Science & World",
+  "seo_description": "Not sure which EJU subjects to take? Compare Math, Science, and Japan & the World requirements, syllabi, and study strategies for 2026 admissions."
 }
 ---
+
 
 
 # Navigating the EJU: A Comprehensive Guide to Subjects and Strategies for Success

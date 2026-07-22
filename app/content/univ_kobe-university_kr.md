@@ -6,8 +6,8 @@ basic_info:
   website: https://www.kobe-u.ac.jp/
 category: university
 date: '2026-07-20'
-description: 일본 고베에 위치한 명문 국립대학교, 고베 대학교에 대한 상세 정보입니다. 입학 정보, 학비, 장학금, 캠퍼스 생활 등에 대한
-  유용한 정보를 확인하세요.
+description: 일본 명문 국립대 고베 대학교(Kobe University)의 2026 최신 입학 정보! 학비, 학과 목록, EJU 입시 전형,
+  장학금 혜택까지 JP Campus에서 한눈에 확인하세요.
 faculties:
 - Faculty of Letters
 - Faculty of Human Development
@@ -42,12 +42,16 @@ tags:
 - Scholarship
 - Exchange Program
 thumbnail: /static/img/pin-univ.png
-title: 고베 대학교
+title: '[2026] 고베 대학교 유학 가이드: 학부·학비·입시 정보 | JP Campus'
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+seo_title: '고베 대학교 2026 입학 가이드: 학부·학비·EJU 정보 | JP Campus'
+seo_description: 일본 명문 국립대 고베 대학교(Kobe University)의 2026 최신 입학 정보! 학비, 학과 목록, EJU
+  입시 전형, 장학금 혜택까지 JP Campus에서 한눈에 확인하세요.
 ---
+
 
 
 ## 대학교 개요 및 명성

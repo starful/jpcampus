@@ -31,11 +31,20 @@ tags:
 - Cutting-edge Planetary Exploration Research Center (PERC)
 - High employment rate for international graduates
 thumbnail: /static/img/pin-univ.png
-title: Chiba Institute of Technology
+title: 'Chiba Institute of Technology Guide 2026: Tuition, Faculties & Admissions
+  | JP Campus'
 tuition:
   admission_fee: 250000
   yearly_tuition: 1615000
+description: 'Explore Chiba Institute of Technology: tuition fees, faculties, admissions
+  requirements, and campus details for international students studying in Japan.'
+seo_title: 'Chiba Institute of Technology Guide 2026: Tuition, Faculties & Admissions
+  | JP Campus'
+seo_description: 'Explore Chiba Institute of Technology: tuition fees, faculties,
+  admissions requirements, and campus details for international students studying
+  in Japan.'
 ---
+
 
 
 ## 🏫 University Overview: The Legacy of Innovation
