@@ -297,6 +297,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "faq_json_ld": None,
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
+        **affiliate_context(school_id, lang=lang, item_type=item_type),
         **ctx,
     })
 
@@ -376,7 +377,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "faq_json_ld": guide_faq_json_ld(slug, lang),
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
-        **affiliate_context(slug, lang=lang),
+        **affiliate_context(slug, lang=lang, item_type="guide"),
         **ctx,
     })
 

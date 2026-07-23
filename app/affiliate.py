@@ -1,4 +1,8 @@
-"""Amazon Associates + Rakuten Ichiba + Klook CTAs for JP Campus guides."""
+"""Amazon Associates + Rakuten Ichiba + Klook CTAs for JP Campus.
+
+Guides: slug maps. Schools/universities: default book + Klook. Stay: none.
+No Coupang on jpcampus.
+"""
 
 from __future__ import annotations
 
@@ -15,13 +19,24 @@ _RAKUTEN_UT = "eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
 # Travelpayouts jpcampus project — do not reuse krcampus / okonsen short links.
 KLOOK_URL = os.getenv("KLOOK_URL", "https://klook.tpo.mx/s8kswiYD")
 
-# eSIM / transport → Klook
+SCHOOL_BOOK_KEYWORD = "JLPT 本"
+UNIVERSITY_BOOK_KEYWORD = "EJU 本"
+
+# Arrival / eSIM / transport / domestic travel → Klook
 GUIDE_KLOOK_SLUGS: frozenset[str] = frozenset(
     {
         "sim-card-guide",
         "transport-ic",
         "transport-seed",
         "cheap-phone-accessories",
+        "internet-setup",
+        "soft-bank-air-vs-fiber",
+        "shinkansen-deals",
+        "student-travel-willerexpress",
+        "capsule-hotels-etiquette",
+        "train-pass",
+        "golden-week",
+        "onsen-etiquette",
     }
 )
 
@@ -41,13 +56,31 @@ GUIDE_AFFILIATE_MAP: dict[str, tuple[str, str]] = {
     "bicycle-rules": ("自転車", "shop"),
     "bicycle-parking": ("自転車", "shop"),
     "bicycle-insurance-law": ("自転車 保険", "shop"),
-    # Books / study
+    "amazon-prime-student": ("Amazonプライム 学生", "shop"),
+    "hanko-guide": ("印鑑", "shop"),
+    "over-the-counter-meds": ("常備薬", "shop"),
+    "earthquake-prep": ("防災グッズ", "shop"),
+    "typhoon-prep": ("防災グッズ", "shop"),
+    "gift-giving-culture": ("お土産", "shop"),
+    "internet-setup": ("ポケットWiFi", "shop"),
+    "soft-bank-air-vs-fiber": ("ポケットWiFi", "shop"),
+    # Housing prep (product search only — no stay operator affiliate)
+    "housing": ("寝具セット", "shop"),
+    "housing-seed": ("寝具セット", "shop"),
+    "apartment-initial-costs": ("収納ボックス", "shop"),
+    "finding-apts-online": ("収納ボックス", "shop"),
+    "utilities-setup": ("延長コード", "shop"),
+    "tokyo-student-housing-operators": ("寝具セット", "shop"),
+    # Books / study / career
     "jlpt-levels": ("JLPT 本", "book"),
     "jlpt-seed": ("JLPT 本", "book"),
     "eju-subjects": ("EJU 本", "book"),
     "eju-jlpt": ("JLPT EJU 本", "book"),
     "job-hunting": ("就活 本", "book"),
     "resume-jp": ("履歴書 本", "book"),
+    "interview-etiquette": ("面接 本", "book"),
+    "internship-types-japan": ("インターンシップ 本", "book"),
+    "vocational-school-deepdive": ("専門学校 進学", "book"),
 }
 
 
@@ -57,6 +90,10 @@ def normalize_guide_slug(slug: str) -> str:
         s = s[: -len("_kr")]
     if s.startswith("guide_"):
         s = s[len("guide_") :]
+    if s.startswith("school_"):
+        s = s[len("school_") :]
+    if s.startswith("univ_"):
+        s = s[len("univ_") :]
     return s
 
 
@@ -79,31 +116,68 @@ def rakuten_search_url(keyword: str) -> str:
     )
 
 
-def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
-    """Amazon/Rakuten (mapped) + Klook (sim/transport). No Coupang on jpcampus."""
-    key = normalize_guide_slug(slug)
-    is_kr = (lang or "en").lower() in ("kr", "ko")
+def _hidden() -> dict[str, Any]:
+    return {
+        "show_affiliate": False,
+        "show_amazon": False,
+        "show_klook": False,
+    }
 
-    mapped = GUIDE_AFFILIATE_MAP.get(key)
-    show_amazon = bool(mapped)
-    keyword, kind = mapped if mapped else ("", "shop")
-    show_klook = key in GUIDE_KLOOK_SLUGS
 
-    if not show_amazon and not show_klook:
-        return {
-            "show_affiliate": False,
-            "show_amazon": False,
-            "show_klook": False,
-        }
-
+def _build_copy(
+    *,
+    is_kr: bool,
+    show_amazon: bool,
+    show_klook: bool,
+    keyword: str,
+    item_type: str,
+) -> dict[str, str]:
     partners: list[str] = []
     if show_amazon:
         partners.extend(["Amazon", "라쿠텐" if is_kr else "Rakuten"])
     if show_klook:
         partners.append("Klook")
 
+    if item_type == "school":
+        if is_kr:
+            return {
+                "title": "유학 준비 — " + " / ".join(partners),
+                "desc": "JLPT 교재는 Amazon·라쿠텐, 도착용 eSIM·교통은 Klook.",
+                "amazon_label": f"Amazon에서 {keyword} 검색 ↗",
+                "rakuten_label": f"라쿠텐에서 {keyword} 검색 ↗",
+                "klook_label": "Klook에서 eSIM·교통 보기 ↗",
+                "note": "제휴 링크 · 새 탭에서 열림",
+            }
+        return {
+            "title": "Prep links — " + " / ".join(partners),
+            "desc": "JLPT books on Amazon / Rakuten. Klook for eSIM & transport.",
+            "amazon_label": f"Search {keyword} on Amazon ↗",
+            "rakuten_label": f"Search {keyword} on Rakuten ↗",
+            "klook_label": "eSIM & transport on Klook ↗",
+            "note": "Affiliate links · opens in new tab",
+        }
+
+    if item_type == "university":
+        if is_kr:
+            return {
+                "title": "유학 준비 — " + " / ".join(partners),
+                "desc": "EJU 교재는 Amazon·라쿠텐, 도착용 eSIM·교통은 Klook.",
+                "amazon_label": f"Amazon에서 {keyword} 검색 ↗",
+                "rakuten_label": f"라쿠텐에서 {keyword} 검색 ↗",
+                "klook_label": "Klook에서 eSIM·교통 보기 ↗",
+                "note": "제휴 링크 · 새 탭에서 열림",
+            }
+        return {
+            "title": "Prep links — " + " / ".join(partners),
+            "desc": "EJU books on Amazon / Rakuten. Klook for eSIM & transport.",
+            "amazon_label": f"Search {keyword} on Amazon ↗",
+            "rakuten_label": f"Search {keyword} on Rakuten ↗",
+            "klook_label": "eSIM & transport on Klook ↗",
+            "note": "Affiliate links · opens in new tab",
+        }
+
+    # guide
     if is_kr:
-        title = "관련 링크 — " + " / ".join(partners)
         bits = []
         if show_amazon:
             bits.append(
@@ -112,26 +186,70 @@ def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
                 else "Amazon·라쿠텐에서 검색"
             )
         if show_klook:
-            bits.append("eSIM·교통은 Klook")
-        desc = ". ".join(bits) + "."
-        amazon_label = f"Amazon에서 {keyword} 검색 ↗" if keyword else ""
-        rakuten_label = f"라쿠텐에서 {keyword} 검색 ↗" if keyword else ""
-        klook_label = "Klook에서 eSIM·교통 보기 ↗"
-        note = "제휴 링크 · 새 탭에서 열림"
+            bits.append("eSIM·교통·여행은 Klook")
+        return {
+            "title": "관련 링크 — " + " / ".join(partners),
+            "desc": ". ".join(bits) + ".",
+            "amazon_label": f"Amazon에서 {keyword} 검색 ↗" if keyword else "",
+            "rakuten_label": f"라쿠텐에서 {keyword} 검색 ↗" if keyword else "",
+            "klook_label": "Klook에서 eSIM·교통·여행 보기 ↗",
+            "note": "제휴 링크 · 새 탭에서 열림",
+        }
+
+    bits = []
+    if show_amazon:
+        bits.append(
+            f"Search 「{keyword}」 on Amazon / Rakuten" if keyword else "Amazon / Rakuten"
+        )
+    if show_klook:
+        bits.append("Klook for eSIM, transport & trips")
+    return {
+        "title": "Related links — " + " / ".join(partners),
+        "desc": ". ".join(bits) + ".",
+        "amazon_label": f"Search {keyword} on Amazon ↗" if keyword else "",
+        "rakuten_label": f"Search {keyword} on Rakuten ↗" if keyword else "",
+        "klook_label": "eSIM, transport & trips on Klook ↗",
+        "note": "Affiliate links · opens in new tab",
+    }
+
+
+def affiliate_context(
+    slug: str = "",
+    *,
+    lang: str = "en",
+    item_type: str = "guide",
+) -> dict[str, Any]:
+    """Amazon/Rakuten (mapped or school/univ default) + Klook. Stay → hidden."""
+    kind_raw = (item_type or "guide").strip().lower()
+    if kind_raw == "stay":
+        return _hidden()
+
+    is_kr = (lang or "en").lower() in ("kr", "ko")
+    key = normalize_guide_slug(slug)
+
+    if kind_raw in ("school", "university"):
+        show_amazon = True
+        show_klook = True
+        keyword = (
+            SCHOOL_BOOK_KEYWORD if kind_raw == "school" else UNIVERSITY_BOOK_KEYWORD
+        )
+        kind = "book"
     else:
-        title = "Related links — " + " / ".join(partners)
-        bits = []
-        if show_amazon:
-            bits.append(
-                f"Search 「{keyword}」 on Amazon / Rakuten" if keyword else "Amazon / Rakuten"
-            )
-        if show_klook:
-            bits.append("Klook for eSIM & transport")
-        desc = ". ".join(bits) + "."
-        amazon_label = f"Search {keyword} on Amazon ↗" if keyword else ""
-        rakuten_label = f"Search {keyword} on Rakuten ↗" if keyword else ""
-        klook_label = "eSIM & transport on Klook ↗"
-        note = "Affiliate links · opens in new tab"
+        mapped = GUIDE_AFFILIATE_MAP.get(key)
+        show_amazon = bool(mapped)
+        keyword, kind = mapped if mapped else ("", "shop")
+        show_klook = key in GUIDE_KLOOK_SLUGS
+
+    if not show_amazon and not show_klook:
+        return _hidden()
+
+    copy = _build_copy(
+        is_kr=is_kr,
+        show_amazon=show_amazon,
+        show_klook=show_klook,
+        keyword=keyword,
+        item_type=kind_raw if kind_raw in ("school", "university") else "guide",
+    )
 
     return {
         "show_affiliate": True,
@@ -139,13 +257,13 @@ def affiliate_context(slug: str, *, lang: str = "en") -> dict[str, Any]:
         "show_klook": show_klook,
         "affiliate_kind": kind,
         "affiliate_keyword": keyword,
-        "affiliate_title": title,
-        "affiliate_desc": desc,
-        "affiliate_note": note,
+        "affiliate_title": copy["title"],
+        "affiliate_desc": copy["desc"],
+        "affiliate_note": copy["note"],
         "amazon_search_url": amazon_search_url(keyword) if keyword else "",
         "rakuten_search_url": rakuten_search_url(keyword) if keyword else "",
-        "amazon_button_label": amazon_label,
-        "rakuten_button_label": rakuten_label,
+        "amazon_button_label": copy["amazon_label"] if show_amazon else "",
+        "rakuten_button_label": copy["rakuten_label"] if show_amazon else "",
         "klook_url": KLOOK_URL if show_klook else "",
-        "klook_button_label": klook_label if show_klook else "",
+        "klook_button_label": copy["klook_label"] if show_klook else "",
     }
