@@ -44,7 +44,7 @@ def build_guide_images() -> None:
         try:
             item = load_guide_item(slug, "en")
             source = resolve_thumbnail_url(DOMAIN, item, "guide", guide_slug=slug)
-            data = fetch_social_jpeg(source)
+            data = fetch_social_jpeg(source, timeout=15)
             with open(output_path, "wb") as handle:
                 handle.write(data)
             ok += 1

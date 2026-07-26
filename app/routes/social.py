@@ -12,9 +12,10 @@ from app.seo import apply_guide_serp_overrides, build_meta_description, build_me
 from app.social_share import (
     card_page_path,
     detail_page_path,
-    fetch_social_jpeg,
     load_guide_item,
     load_school_item,
+    placeholder_social_jpeg,
+    resolve_social_jpeg,
     resolve_thumbnail_url,
     share_context,
 )
@@ -33,13 +34,18 @@ def _social_image_headers() -> dict[str, str]:
 
 
 def _render_social_image(kind: str, identifier: str, lang: str) -> Response:
-    if kind == "school":
-        item, item_type = load_school_item(identifier, lang)
-        source = resolve_thumbnail_url(DOMAIN, item, item_type)
-    else:
-        item = load_guide_item(identifier, lang)
-        source = resolve_thumbnail_url(DOMAIN, item, "guide", guide_slug=identifier)
-    data = fetch_social_jpeg(source)
+    try:
+        if kind == "school":
+            item, item_type = load_school_item(identifier, lang)
+            source = resolve_thumbnail_url(DOMAIN, item, item_type)
+        else:
+            item = load_guide_item(identifier, lang)
+            source = resolve_thumbnail_url(DOMAIN, item, "guide", guide_slug=identifier)
+        data = resolve_social_jpeg(source)
+    except FileNotFoundError:
+        data = placeholder_social_jpeg()
+    except Exception:
+        data = placeholder_social_jpeg()
     return Response(content=data, media_type="image/jpeg", headers=_social_image_headers())
 
 

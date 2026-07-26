@@ -49,6 +49,18 @@ class ShareBarTests(unittest.TestCase):
         self.assertTrue(response.headers["content-type"].startswith("image/jpeg"))
         self.assertEqual(response.content, b"")
 
+    def test_social_image_missing_uses_placeholder_fast(self):
+        response = self.client.get("/social/univ_fukuoka-prefectural-university-guide.jpg")
+        self.assertEqual(response.status_code, 200)
+        self.assertTrue(response.headers["content-type"].startswith("image/jpeg"))
+        self.assertGreater(len(response.content), 500)
+
+    def test_resolve_social_jpeg_skips_remote_by_default(self):
+        from app.social_share import placeholder_social_jpeg, resolve_social_jpeg
+
+        data = resolve_social_jpeg("https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500")
+        self.assertEqual(data, placeholder_social_jpeg())
+
     def test_social_card_head(self):
         response = self.client.head("/card/guide/housing")
         self.assertEqual(response.status_code, 200)
