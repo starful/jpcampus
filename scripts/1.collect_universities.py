@@ -7,7 +7,6 @@ import time
 import requests
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from google.generativeai.types import GenerationConfig
 from common import setup_logging, setup_gemini, clean_json_response, DATA_DIR, CONTENT_DIR, LOG_DIR
 from content_quality import (
     ENTITY_QUALITY_PROMPT_RULES,
@@ -97,9 +96,7 @@ def get_university_info(name_ja, name_en):
     """
     for i in range(3):
         try:
-            res = model.generate_content(
-                prompt, generation_config=GenerationConfig(response_mime_type="application/json")
-            )
+            res = model.generate_content(prompt)
             data = json.loads(clean_json_response(res.text))
             body = (data.get("description") or "").strip()
             assert_quality(body, kind="entity", require_tables=1)

@@ -15,7 +15,6 @@ from datetime import date
 from pathlib import Path
 
 import frontmatter
-from google.generativeai.types import GenerationConfig
 from tqdm import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -28,7 +27,7 @@ model = setup_gemini()
 ROOT = Path(__file__).resolve().parents[1]
 PLAN_PATH = ROOT / "data" / "content_diet" / "plan.json"
 HISTORY_FILE = Path(LOG_DIR) / "school_regen_history.txt"
-MAX_WORKERS = int(os.getenv("SCHOOL_REGEN_WORKERS", "5"))
+MAX_WORKERS = int(os.getenv("SCHOOL_REGEN_WORKERS", "3"))
 LIMIT = int(os.getenv("SCHOOL_REGEN_LIMIT", "0"))  # 0 = all
 
 
@@ -100,10 +99,7 @@ def regenerate_one(school_id: str) -> str:
     last_err = None
     for i in range(3):
         try:
-            res = model.generate_content(
-                prompt,
-                generation_config=GenerationConfig(response_mime_type="application/json"),
-            )
+            res = model.generate_content(prompt)
             data = json.loads(clean_json_response(res.text))
             candidate = (data.get("description") or "").strip()
             assert_quality(candidate, kind="entity", require_tables=1)
