@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -25,6 +26,11 @@ ADSENSE_CLIENT_ID = os.getenv("ADSENSE_CLIENT_ID", "ca-pub-8780435268193938")
 # Stay map/cards/nearby UI (seed + /stay/{id} kept; set true to re-enable)
 SHOW_STAYS_UI = os.getenv("SHOW_STAYS_UI", "0").strip().lower() in {"1", "true", "yes", "on"}
 
+# Pre-slug school IDs from older crawls (GSC 404s): /school/L002, /school/B810, /school/5028
+_LEGACY_SCHOOL_CODE_RE = re.compile(r"^/school/(?:[A-Z]\d+|\d+)$")
+# Pre-slug university shortcuts: /school/U_TOKYO, /school/U_WASEDA
+_LEGACY_UNIV_CODE_RE = re.compile(r"^/school/U_[A-Z0-9_]+$")
+
 
 def load_redirect_map() -> dict[str, str]:
     if not REDIRECT_MAP_PATH.exists():
@@ -46,7 +52,12 @@ def redirect_target(path: str) -> str | None:
     normalized = path.rstrip("/") or "/"
     target = REDIRECT_MAP.get(normalized) or REDIRECT_MAP.get(f"{normalized}/")
     if not target:
-        return None
+        if _LEGACY_UNIV_CODE_RE.match(normalized):
+            target = "/universities"
+        elif _LEGACY_SCHOOL_CODE_RE.match(normalized):
+            target = "/schools"
+        else:
+            return None
     if not target.startswith("/"):
         return f"/{target}"
     if target == normalized:

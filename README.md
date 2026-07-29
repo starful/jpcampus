@@ -180,6 +180,12 @@ Example:
 
 When a request results in 404, the middleware checks this map and issues `301` if matched.
 
+Additional SEO crawl cleanups (same middleware):
+- `?add_compare=` → 301 to `/school/{id}` (keeps `lang=kr` only)
+- explicit `?lang=en` → 301 to the bare canonical path
+- legacy `/school/L002`-style codes → `/schools`; `/school/U_TOKYO`-style → `/universities`
+- `/card/*` is `noindex` and listed in `robots.txt` Disallow
+
 ## ☁️ Deployment (Cloud Run)
 
 `cloudbuild.yaml` runs `scripts/seo_guard.py` first.  

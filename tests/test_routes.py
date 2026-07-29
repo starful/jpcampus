@@ -33,6 +33,47 @@ class RouteSmokeTests(unittest.TestCase):
         self.assertEqual(response.status_code, 301)
         self.assertEqual(response.headers.get("location"), "/policy")
 
+    def test_add_compare_query_redirects_to_school(self):
+        response = self.client.get(
+            "/?lang=en&add_compare=univ_shiga-university-guide",
+            follow_redirects=False,
+        )
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response.headers.get("location"), "/school/univ_shiga-university-guide")
+
+    def test_add_compare_preserves_korean_lang(self):
+        response = self.client.get(
+            "/?lang=kr&add_compare=school_asuka-gakuin",
+            follow_redirects=False,
+        )
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(
+            response.headers.get("location"),
+            "/school/school_asuka-gakuin?lang=kr",
+        )
+
+    def test_explicit_lang_en_redirects_to_bare_path(self):
+        response = self.client.get("/universities?lang=en", follow_redirects=False)
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response.headers.get("location"), "/universities")
+
+    def test_legacy_school_code_redirects_to_schools_hub(self):
+        response = self.client.get("/school/L002", follow_redirects=False)
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response.headers.get("location"), "/schools")
+
+    def test_legacy_univ_code_redirects_to_universities_hub(self):
+        response = self.client.get("/school/U_TOKYO", follow_redirects=False)
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response.headers.get("location"), "/universities")
+
+    def test_robots_disallows_card_and_add_compare(self):
+        response = self.client.get("/robots.txt")
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("Disallow: /card/", response.text)
+        self.assertIn("Disallow: /*?add_compare=", response.text)
+        self.assertIn(f"Sitemap: {DOMAIN}/sitemap.xml", response.text)
+
     def test_reactions_api_returns_counts(self):
         response = self.client.get("/api/reactions/smoke-test-slug")
         self.assertEqual(response.status_code, 200)
