@@ -1,4 +1,4 @@
-"""Affiliate slug → keyword / Klook for JP Campus (no Coupang; stay skipped)."""
+"""Affiliate slug → keyword / Klook for JP Campus (no Coupang; stay → Klook)."""
 
 from app.affiliate import (
     GUIDE_KLOOK_SLUGS,
@@ -51,9 +51,13 @@ def test_housing_guide_shows_amazon_not_coupang():
     assert "coupang" not in ctx["amazon_search_url"].lower()
 
 
-def test_stay_page_hides_affiliate():
+def test_stay_page_shows_klook_only():
     ctx = affiliate_context("oakhouse_1164", lang="en", item_type="stay")
-    assert ctx["show_affiliate"] is False
+    assert ctx["show_affiliate"] is True
+    assert ctx["show_klook"] is True
+    assert ctx["show_amazon"] is False
+    assert ctx["klook_url"] == KLOOK_URL
+    assert "s8kswiYD" in ctx["klook_url"]
 
 
 def test_transport_shows_klook_only_partners():

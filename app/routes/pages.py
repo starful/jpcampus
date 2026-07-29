@@ -341,6 +341,7 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
         "faq_json_ld": stay_faq_json_ld(item),
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
+        **affiliate_context(stay_id, lang=lang, item_type="stay"),
         **ctx,
     })
 

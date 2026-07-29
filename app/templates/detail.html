@@ -206,6 +206,10 @@
     </section>
     {% endif %}
 
+    {% if item_type == 'stay' %}
+    {% include 'partials/affiliate_box.html' %}
+    {% endif %}
+
     {% if item_type == 'stay' and item.get('faq') %}
     <section class="stay-faq" aria-labelledby="stay-faq-title">
         <h2 id="stay-faq-title" class="detail-section-title">{{ ui.stay_faq_title }}</h2>

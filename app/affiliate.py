@@ -219,13 +219,45 @@ def affiliate_context(
     lang: str = "en",
     item_type: str = "guide",
 ) -> dict[str, Any]:
-    """Amazon/Rakuten (mapped or school/univ default) + Klook. Stay → hidden."""
+    """Amazon/Rakuten (mapped or school/univ default) + Klook. Stay → Klook only."""
     kind_raw = (item_type or "guide").strip().lower()
-    if kind_raw == "stay":
-        return _hidden()
-
     is_kr = (lang or "en").lower() in ("kr", "ko")
     key = normalize_guide_slug(slug)
+
+    if kind_raw == "stay":
+        if is_kr:
+            return {
+                "show_affiliate": True,
+                "show_amazon": False,
+                "show_klook": True,
+                "affiliate_kind": "travel",
+                "affiliate_keyword": "",
+                "affiliate_title": "유학 준비 — Klook",
+                "affiliate_desc": "도착용 eSIM·교통·액티비티는 Klook에서 확인할 수 있습니다.",
+                "affiliate_note": "제휴 링크 · 새 탭에서 열림",
+                "amazon_search_url": "",
+                "rakuten_search_url": "",
+                "amazon_button_label": "",
+                "rakuten_button_label": "",
+                "klook_url": KLOOK_URL,
+                "klook_button_label": "Klook에서 eSIM·교통 보기 ↗",
+            }
+        return {
+            "show_affiliate": True,
+            "show_amazon": False,
+            "show_klook": True,
+            "affiliate_kind": "travel",
+            "affiliate_keyword": "",
+            "affiliate_title": "Prep links — Klook",
+            "affiliate_desc": "Klook for eSIM, transport, and arrival essentials.",
+            "affiliate_note": "Affiliate links · opens in new tab",
+            "amazon_search_url": "",
+            "rakuten_search_url": "",
+            "amazon_button_label": "",
+            "rakuten_button_label": "",
+            "klook_url": KLOOK_URL,
+            "klook_button_label": "eSIM & transport on Klook ↗",
+        }
 
     if kind_raw in ("school", "university"):
         show_amazon = True
