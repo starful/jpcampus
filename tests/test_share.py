@@ -35,6 +35,7 @@ class ShareBarTests(unittest.TestCase):
         response = self.client.get("/card/guide/housing")
         self.assertEqual(response.status_code, 200)
         self.assertIn(f'property="og:url" content="{DOMAIN}/card/guide/housing?sc=2"', response.text)
+        self.assertIn('name="robots" content="noindex,nofollow"', response.text)
 
     def test_social_image_served_from_static(self):
         response = self.client.get("/social/guide-housing.jpg")

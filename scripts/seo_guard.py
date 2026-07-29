@@ -157,12 +157,46 @@ def run_checks() -> tuple[list[CheckResult], list[CheckResult]]:
         failed.append(CheckResult(False, f"/robots.txt: expected 200, got {robots.status_code}"))
     else:
         body = robots.text
-        if "Disallow: /" in body:
+        if re.search(r"(?m)^Disallow:\s*/\s*$", body):
             failed.append(CheckResult(False, "/robots.txt: blocks entire site with Disallow: /"))
+        elif "Disallow: /card/" not in body:
+            failed.append(CheckResult(False, "/robots.txt: missing Disallow: /card/"))
         elif f"Sitemap: {DOMAIN}/sitemap.xml" not in body:
             failed.append(CheckResult(False, "/robots.txt: sitemap URL missing or incorrect"))
         else:
             passed.append(CheckResult(True, "/robots.txt: checks passed"))
+
+    add_compare_res = client.get("/?lang=en&add_compare=univ_example", follow_redirects=False)
+    if add_compare_res.status_code != 301:
+        failed.append(CheckResult(False, "add_compare: expected 301 cleanup redirect"))
+    elif add_compare_res.headers.get("location") != "/school/univ_example":
+        failed.append(CheckResult(False, "add_compare: redirect target mismatch"))
+    else:
+        passed.append(CheckResult(True, "add_compare: cleanup redirect checks passed"))
+
+    lang_en_res = client.get("/guide/housing?lang=en", follow_redirects=False)
+    if lang_en_res.status_code != 301:
+        failed.append(CheckResult(False, "lang=en: expected 301 cleanup redirect"))
+    elif lang_en_res.headers.get("location") != "/guide/housing":
+        failed.append(CheckResult(False, "lang=en: redirect target mismatch"))
+    else:
+        passed.append(CheckResult(True, "lang=en: cleanup redirect checks passed"))
+
+    legacy_code_res = client.get("/school/L002", follow_redirects=False)
+    if legacy_code_res.status_code != 301:
+        failed.append(CheckResult(False, "/school/L002: expected 301 legacy redirect"))
+    elif legacy_code_res.headers.get("location") != "/schools":
+        failed.append(CheckResult(False, "/school/L002: redirect target mismatch"))
+    else:
+        passed.append(CheckResult(True, "/school/L002: legacy code redirect checks passed"))
+
+    card_res = client.get("/card/guide/housing")
+    if card_res.status_code != 200:
+        failed.append(CheckResult(False, f"/card/guide/housing: expected 200, got {card_res.status_code}"))
+    elif not _has_noindex(card_res.text):
+        failed.append(CheckResult(False, "/card/guide/housing: expected noindex robots meta"))
+    else:
+        passed.append(CheckResult(True, "/card/guide/housing: noindex checks passed"))
 
     sitemap = client.get("/sitemap.xml")
     if sitemap.status_code != 200:

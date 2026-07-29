@@ -184,7 +184,14 @@ async def sitemap():
 
 @router.get("/robots.txt", response_class=PlainTextResponse)
 async def robots():
-    return f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml"
+    return (
+        "User-agent: *\n"
+        "Allow: /\n"
+        "Disallow: /card/\n"
+        "Disallow: /*?*add_compare=\n"
+        "Disallow: /*?add_compare=\n"
+        f"Sitemap: {DOMAIN}/sitemap.xml\n"
+    )
 
 
 @router.get("/", response_class=HTMLResponse)
