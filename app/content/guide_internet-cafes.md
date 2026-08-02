@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "internet-cafes",
-  "title": "'Net Cafe' & 'Manga Kissa': More Than Just Internet",
+  "title": "Internet Cafes & Manga Kissas in Japan: Complete Guide",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "A guide to Japan's 24-hour havens.",
+  "description": "Japan's affordable 24-hour internet cafes and manga kissas. Discover costs, best locations, and insider tips.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Internet Cafes & Manga Kissas in Japan: Complete Guide",
+  "seo_description": "Your guide to Japan's internet cafes and manga kissas. Find affordable rates, top locations, hours, and tips for visitors."
 }
 ---
+
 
 
 # 'Net Cafe' & 'Manga Kissa': More Than Just Internet

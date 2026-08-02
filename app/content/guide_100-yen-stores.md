@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "100-yen-stores",
-  "title": "100-Yen Store Essentials for Student Life",
+  "title": "100-Yen Store Shopping Guide for Students in Japan",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
   "description": "How to maximize value at Daiso, Seria, and Can Do.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Best 100 Yen Stores for Students in Japan | Daiso, Seria & Can Do Guide",
+  "seo_description": "Complete guide to Japan's 100 yen stores: Daiso, Seria, Can Do & more. Essential items for international students + money-saving shopping tips."
 }
 ---
+
 
 
 # 100-Yen Store Essentials: The Ultimate Budget Guide for International Students in Japan
