@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "part-time-tax",
-  "title": "Japan Part-Time Job Tax: 1.03 Million Yen Limit Explained",
+  "title": "Japan Part-Time Tax: Master the 1.03M Yen Rule (2026)",
   "category": "Part-time",
   "tags": [
     "Part-time"
   ],
-  "description": "A complete guide to Japan's part-time job tax rules. Understand the 1.03 million yen threshold, income tax, and how to stay tax-free.",
+  "description": "Complete guide to Japan's part-time job tax rules. Understand the 1.03M yen threshold, filing requirements, and tax deductions.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
   "date": "2026-07-20",
-  "seo_title": "Japan Part-Time Job Tax: 1.03 Million Yen Limit Explained",
-  "seo_description": "Working a part-time job in Japan? Learn how the 1.03 million yen tax-free limit works, income tax rules, and how to avoid unexpected tax bills."
+  "seo_title": "Part-Time Job Tax in Japan: 1.03 Million Yen Explained",
+  "seo_description": "Learn when part-time workers must file taxes in Japan: the 1.03M yen threshold, how to calculate, and smart deduction strategies."
 }
 ---
+
 
 
 

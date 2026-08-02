@@ -6,8 +6,8 @@ basic_info:
   name_ja: 大谷大学
 category: university
 date: '2026-07-20'
-description: 교토의 역사적 중심지에서 수백 년의 전통을 이어온 오타니 대학교는 불교 정신을 바탕으로 깊이 있는 인문학적 통찰과 자기 성찰을
-  제공하는 명문 사립 대학입니다.
+description: 오타니 대학교는 교토의 역사적 중심지에 위치한 명문 사립대학입니다. 유학생·국제학생 입학 정보, 학과, 캠퍼스 소개 및 수백
+  년 전통의 불교 정신 교육을 안내합니다.
 faculties:
 - 불교학부
 - 문학부
@@ -33,11 +33,15 @@ tags:
 - 교토의 문화적 중심지 위치
 - 소수 정예 밀착형 교육 시스템
 thumbnail: /static/img/pin-univ.png
-title: 오타니 대학교 (Ohtani University)
+title: 오타니 대학교 교토 유학생 가이드 | 국제학생 입학 정보 | JP Campus
 tuition:
   admission_fee: 200000
   yearly_tuition: 1080000
+seo_title: 오타니 대학교 교토 유학생 가이드 | 국제학생 입학 정보
+seo_description: 오타니 대학교 교토 유학생 입학가이드. 국제학생 모집요강, 학과, 장학금, 캠퍼스 정보. 수백 년 전통의 명문 사립대
+  입학을 지원합니다.
 ---
+
 
 
 ## 🏫 대학 개요
