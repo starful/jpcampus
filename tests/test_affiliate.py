@@ -26,7 +26,7 @@ def test_shopping_guide_context():
     ctx = affiliate_context("sim-card-guide", lang="en")
     assert ctx["show_affiliate"] is True
     assert ctx["affiliate_kind"] == "shop"
-    assert ctx["affiliate_keyword"] == "格安SIM"
+    assert "ポケットWiFi" in ctx["affiliate_keyword"]
     assert "amazon.co.jp/s?k=" in ctx["amazon_search_url"]
     assert "starful06-22" in ctx["amazon_search_url"]
     assert "hb.afl.rakuten.co.jp/hgc/" in ctx["rakuten_search_url"]
@@ -39,7 +39,7 @@ def test_book_guide_korean_copy():
     ctx = affiliate_context("jlpt-levels_kr", lang="kr")
     assert ctx["show_affiliate"] is True
     assert ctx["affiliate_kind"] == "book"
-    assert "JLPT 本" in ctx["amazon_button_label"]
+    assert "JLPT" in ctx["amazon_button_label"]
     assert "Amazon" in ctx["affiliate_desc"]
     assert "라쿠텐" in ctx["affiliate_desc"]
     assert ctx["show_klook"] is False

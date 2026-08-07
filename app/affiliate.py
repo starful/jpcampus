@@ -32,8 +32,8 @@ KLOOK_URLS: dict[str, str] = {
 # Back-compat: default / generic landing.
 KLOOK_URL = os.getenv("KLOOK_URL", KLOOK_URLS["fallback_en"])
 
-SCHOOL_BOOK_KEYWORD = "JLPT 本"
-UNIVERSITY_BOOK_KEYWORD = "EJU 本"
+SCHOOL_BOOK_KEYWORD = "JLPT N2 問題集"
+UNIVERSITY_BOOK_KEYWORD = "EJU 問題集"
 
 GUIDE_KLOOK_ESIM: frozenset[str] = frozenset(
     {
@@ -68,44 +68,44 @@ GUIDE_KLOOK_SLUGS: frozenset[str] = (
 # guide slug (without _kr) → search keyword + kind
 # kind: "shop" | "book"
 GUIDE_AFFILIATE_MAP: dict[str, tuple[str, str]] = {
-    # Shopping / lifestyle
-    "sim-card-guide": ("格安SIM", "shop"),
-    "drugstore-skincare-guide": ("スキンケア", "shop"),
-    "cheap-phone-accessories": ("スマホアクセサリー", "shop"),
-    "costco-japan-membership": ("コストコ", "shop"),
-    "thrift-stores-furniture": ("家具", "shop"),
-    "glasses-jins-zoff": ("メガネ", "shop"),
-    "100-yen-stores": ("100円ショップ", "shop"),
+    # Shopping / lifestyle — buyable JP keywords
+    "sim-card-guide": ("ポケットWiFi レンタル", "shop"),
+    "drugstore-skincare-guide": ("スキンケア 化粧水", "shop"),
+    "cheap-phone-accessories": ("モバイルバッテリー", "shop"),
+    "costco-japan-membership": ("クーラーボックス", "shop"),
+    "thrift-stores-furniture": ("収納ボックス", "shop"),
+    "glasses-jins-zoff": ("ブルーライトカット メガネ", "shop"),
+    "100-yen-stores": ("キッチン用品 セット", "shop"),
     "humidity-mold-prevention": ("除湿機", "shop"),
-    "winter-room-heating": ("ヒーター", "shop"),
-    "bicycle-rules": ("自転車", "shop"),
-    "bicycle-parking": ("自転車", "shop"),
+    "winter-room-heating": ("セラミックヒーター", "shop"),
+    "bicycle-rules": ("自転車 ヘルメット", "shop"),
+    "bicycle-parking": ("自転車 鍵", "shop"),
     "bicycle-insurance-law": ("自転車 保険", "shop"),
-    "amazon-prime-student": ("Amazonプライム 学生", "shop"),
-    "hanko-guide": ("印鑑", "shop"),
-    "over-the-counter-meds": ("常備薬", "shop"),
-    "earthquake-prep": ("防災グッズ", "shop"),
-    "typhoon-prep": ("防災グッズ", "shop"),
-    "gift-giving-culture": ("お土産", "shop"),
+    "amazon-prime-student": ("Amazonプライム", "shop"),
+    "hanko-guide": ("認印", "shop"),
+    "over-the-counter-meds": ("常備薬 セット", "shop"),
+    "earthquake-prep": ("防災セット", "shop"),
+    "typhoon-prep": ("防災セット", "shop"),
+    "gift-giving-culture": ("手土産 お菓子", "shop"),
     "internet-setup": ("ポケットWiFi", "shop"),
     "soft-bank-air-vs-fiber": ("ポケットWiFi", "shop"),
     # Housing prep (product search only — no stay operator affiliate)
-    "housing": ("寝具セット", "shop"),
-    "housing-seed": ("寝具セット", "shop"),
-    "apartment-initial-costs": ("収納ボックス", "shop"),
+    "housing": ("寝具セット シングル", "shop"),
+    "housing-seed": ("寝具セット シングル", "shop"),
+    "apartment-initial-costs": ("掃除用具 セット", "shop"),
     "finding-apts-online": ("収納ボックス", "shop"),
-    "utilities-setup": ("延長コード", "shop"),
-    "tokyo-student-housing-operators": ("寝具セット", "shop"),
+    "utilities-setup": ("延長コード 電源タップ", "shop"),
+    "tokyo-student-housing-operators": ("寝具セット シングル", "shop"),
     # Books / study / career
-    "jlpt-levels": ("JLPT 本", "book"),
-    "jlpt-seed": ("JLPT 本", "book"),
-    "eju-subjects": ("EJU 本", "book"),
-    "eju-jlpt": ("JLPT EJU 本", "book"),
-    "job-hunting": ("就活 本", "book"),
-    "resume-jp": ("履歴書 本", "book"),
-    "interview-etiquette": ("面接 本", "book"),
+    "jlpt-levels": ("JLPT N2 問題集", "book"),
+    "jlpt-seed": ("JLPT N2 問題集", "book"),
+    "eju-subjects": ("EJU 問題集", "book"),
+    "eju-jlpt": ("JLPT EJU 問題集", "book"),
+    "job-hunting": ("就活 自己分析 本", "book"),
+    "resume-jp": ("履歴書 書き方", "book"),
+    "interview-etiquette": ("面接 対策 本", "book"),
     "internship-types-japan": ("インターンシップ 本", "book"),
-    "vocational-school-deepdive": ("専門学校 進学", "book"),
+    "vocational-school-deepdive": ("専門学校 進路 本", "book"),
 }
 
 
