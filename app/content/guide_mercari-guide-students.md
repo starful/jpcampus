@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "mercari-guide-students",
-  "title": "Mercari Japan Guide for Students: Buy & Sell with Easy English Steps",
+  "title": "Make Money Selling on Mercari Japan: Complete English Guide for Students",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Complete beginner's guide to Mercari Japan for students. Learn to safely buy and sell, save money, earn cash—full English instructions included.",
+  "description": "Earn cash on Mercari Japan as a student. Step-by-step English guide to buying, selling & saving money safely. No experience needed.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Mercari for Students in Japan: Step-by-Step Buying & Selling Guide | JP Camp",
-  "seo_description": "Master Mercari Japan as a student: safe setup, smart buying strategies, and easy selling tips to earn cash. Beginner-friendly English guide."
+  "seo_title": "Make Money Selling on Mercari Japan: Complete English Guide for Students",
+  "seo_description": "Earn cash on Mercari Japan as a student. Step-by-step English guide to buying, selling & saving money safely. No experience needed."
 }
 ---
+
 
 
 

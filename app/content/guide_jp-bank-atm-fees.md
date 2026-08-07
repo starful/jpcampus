@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "jp-bank-atm-fees",
-  "title": "Understanding Japanese ATM Fees & Operating Hours",
+  "title": "Save on Japanese ATM Fees: Expert Tips to Avoid Charges | JP Campus",
   "category": "Settlement",
   "tags": [
     "Settlement"
   ],
-  "description": "Why ATMs charge fees at night and how to avoid them.",
+  "description": "Discover how to avoid expensive Japanese ATM fees at night. Expert tips for finding fee-free ATMs and saving money on withdrawals.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Save on Japanese ATM Fees: Expert Tips to Avoid Charges",
+  "seo_description": "Discover how to avoid expensive Japanese ATM fees at night. Expert tips for finding fee-free ATMs and saving money on withdrawals."
 }
 ---
+
 
 
 # Master Your Yen: A Deep Dive into Japanese ATM Fees and Operating Hours

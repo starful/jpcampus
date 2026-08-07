@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "supermarket-point-cards",
-  "title": "Must-have Supermarket Point Cards",
+  "title": "Best Supermarket Point Cards: Maximize Rewards at Aeon & More",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Maximizing rewards at Aeon, Ito-Yokado, and Life.",
+  "description": "Compare top point card programs. Earn cashback, get discounts & exclusive perks. Find your perfect supermarket rewards card.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Best Supermarket Point Cards 2026: Maximize Cashback & Rewards | JP Campus",
+  "seo_description": "Compare supermarket point cards from Aeon, Ito-Yokado & Life. Get cashback, discounts & exclusive perks. Find the best card for you."
 }
 ---
+
 
 
 # Mastering the "Poi-katsu" Culture: A Guide to Supermarket Point Cards for International Students in Japan
