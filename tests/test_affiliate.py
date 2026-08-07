@@ -3,12 +3,15 @@
 from app.affiliate import (
     GUIDE_KLOOK_SLUGS,
     KLOOK_URL,
+    KLOOK_URLS,
     SCHOOL_BOOK_KEYWORD,
     UNIVERSITY_BOOK_KEYWORD,
     affiliate_context,
     amazon_search_url,
+    klook_url_for,
     normalize_guide_slug,
     rakuten_search_url,
+    resolve_klook_intent,
 )
 
 
@@ -29,8 +32,7 @@ def test_shopping_guide_context():
     assert "hb.afl.rakuten.co.jp/hgc/" in ctx["rakuten_search_url"]
     assert "search.rakuten.co.jp" in ctx["rakuten_search_url"]
     assert ctx["show_klook"] is True
-    assert ctx["klook_url"] == KLOOK_URL
-    assert "s8kswiYD" in ctx["klook_url"]
+    assert ctx["klook_url"] == KLOOK_URLS["esim_en"]
 
 
 def test_book_guide_korean_copy():
@@ -56,8 +58,7 @@ def test_stay_page_shows_klook_only():
     assert ctx["show_affiliate"] is True
     assert ctx["show_klook"] is True
     assert ctx["show_amazon"] is False
-    assert ctx["klook_url"] == KLOOK_URL
-    assert "s8kswiYD" in ctx["klook_url"]
+    assert ctx["klook_url"] == KLOOK_URLS["transport_en"]
 
 
 def test_transport_shows_klook_only_partners():
@@ -65,13 +66,14 @@ def test_transport_shows_klook_only_partners():
     assert ctx["show_affiliate"] is True
     assert ctx["show_klook"] is True
     assert ctx["show_amazon"] is False
-    assert "s8kswiYD" in ctx["klook_url"]
+    assert ctx["klook_url"] == KLOOK_URLS["transport_en"]
 
 
 def test_travel_guide_shows_klook():
     ctx = affiliate_context("shinkansen-deals", lang="en")
     assert ctx["show_klook"] is True
     assert ctx["show_amazon"] is False
+    assert ctx["klook_url"] == KLOOK_URLS["transport_en"]
 
 
 def test_prime_guide_shows_amazon():
@@ -87,7 +89,7 @@ def test_school_default_jlpt_and_klook():
     assert ctx["show_amazon"] is True
     assert ctx["show_klook"] is True
     assert ctx["affiliate_keyword"] == SCHOOL_BOOK_KEYWORD
-    assert "s8kswiYD" in ctx["klook_url"]
+    assert ctx["klook_url"] == KLOOK_URLS["esim_en"]
 
 
 def test_university_default_eju_and_klook():
@@ -96,6 +98,7 @@ def test_university_default_eju_and_klook():
     assert ctx["affiliate_keyword"] == UNIVERSITY_BOOK_KEYWORD
     assert "EJU" in ctx["affiliate_desc"]
     assert ctx["show_klook"] is True
+    assert ctx["klook_url"] == KLOOK_URLS["esim_ko"]
 
 
 def test_unmapped_guide_hides_box():
@@ -108,9 +111,14 @@ def test_url_builders():
     assert "%2520" in rakuten_search_url("JLPT 本") or "%20" in rakuten_search_url("JLPT 本")
 
 
-def test_klook_url_is_jpcampus_only():
+def test_klook_intents_are_jpcampus_only():
     assert "ED7IfKaq" not in KLOOK_URL
-    assert "s8kswiYD" in KLOOK_URL
+    assert "YUPTrdhU" in KLOOK_URL
     for slug in GUIDE_KLOOK_SLUGS:
         ctx = affiliate_context(slug, lang="en")
-        assert ctx["klook_url"] == KLOOK_URL
+        assert "klook.tpo.mx" in ctx["klook_url"]
+        assert ctx["klook_url"] in KLOOK_URLS.values()
+    assert resolve_klook_intent("sim-card-guide") == "esim"
+    assert resolve_klook_intent("transport-ic") == "transport"
+    assert klook_url_for("onsen-etiquette", lang="en") == KLOOK_URLS["fallback_en"]
+    assert klook_url_for("sim-card-guide", lang="kr") == KLOOK_URLS["esim_ko"]

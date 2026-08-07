@@ -7,7 +7,7 @@ No Coupang on jpcampus.
 from __future__ import annotations
 
 import os
-from typing import Any
+from typing import Any, Literal
 from urllib.parse import quote, quote_plus
 
 AMAZON_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "starful06-22")
@@ -16,28 +16,53 @@ RAKUTEN_HGC = os.getenv(
 )
 _RAKUTEN_UT = "eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
 
+KlookIntent = Literal["esim", "transport", "fallback"]
+
 # Travelpayouts jpcampus project — do not reuse krcampus / okonsen short links.
-KLOOK_URL = os.getenv("KLOOK_URL", "https://klook.tpo.mx/s8kswiYD")
+KLOOK_URLS: dict[str, str] = {
+    "esim_en": "https://klook.tpo.mx/G3Ubatko",
+    "esim_ko": "https://klook.tpo.mx/v1ZEX82k",
+    "transport_en": "https://klook.tpo.mx/ZFlCQaio",
+    "transport_ko": "https://klook.tpo.mx/UkhBXMaj",
+    "fallback_en": "https://klook.tpo.mx/YUPTrdhU",
+    # No dedicated KO fallback issued — reuse transport_ko.
+    "fallback_ko": "https://klook.tpo.mx/UkhBXMaj",
+}
+
+# Back-compat: default / generic landing.
+KLOOK_URL = os.getenv("KLOOK_URL", KLOOK_URLS["fallback_en"])
 
 SCHOOL_BOOK_KEYWORD = "JLPT 本"
 UNIVERSITY_BOOK_KEYWORD = "EJU 本"
 
-# Arrival / eSIM / transport / domestic travel → Klook
-GUIDE_KLOOK_SLUGS: frozenset[str] = frozenset(
+GUIDE_KLOOK_ESIM: frozenset[str] = frozenset(
     {
         "sim-card-guide",
-        "transport-ic",
-        "transport-seed",
         "cheap-phone-accessories",
         "internet-setup",
         "soft-bank-air-vs-fiber",
+    }
+)
+GUIDE_KLOOK_TRANSPORT: frozenset[str] = frozenset(
+    {
+        "transport-ic",
+        "transport-seed",
         "shinkansen-deals",
         "student-travel-willerexpress",
-        "capsule-hotels-etiquette",
         "train-pass",
+    }
+)
+GUIDE_KLOOK_FALLBACK: frozenset[str] = frozenset(
+    {
+        "capsule-hotels-etiquette",
         "golden-week",
         "onsen-etiquette",
     }
+)
+
+# Arrival / eSIM / transport / domestic travel → Klook
+GUIDE_KLOOK_SLUGS: frozenset[str] = (
+    GUIDE_KLOOK_ESIM | GUIDE_KLOOK_TRANSPORT | GUIDE_KLOOK_FALLBACK
 )
 
 # guide slug (without _kr) → search keyword + kind
@@ -114,6 +139,36 @@ def rakuten_search_url(keyword: str) -> str:
         f"https://hb.afl.rakuten.co.jp/hgc/{RAKUTEN_HGC}/"
         f"?pc={pc}&link_type=text&ut={_RAKUTEN_UT}"
     )
+
+
+def resolve_klook_intent(
+    slug: str = "",
+    *,
+    item_type: str = "guide",
+) -> KlookIntent:
+    kind = (item_type or "guide").strip().lower()
+    if kind in ("school", "university"):
+        return "esim"
+    if kind == "stay":
+        return "transport"
+    key = normalize_guide_slug(slug)
+    if key in GUIDE_KLOOK_ESIM:
+        return "esim"
+    if key in GUIDE_KLOOK_TRANSPORT:
+        return "transport"
+    return "fallback"
+
+
+def klook_url_for(
+    slug: str = "",
+    *,
+    lang: str = "en",
+    item_type: str = "guide",
+) -> str:
+    intent = resolve_klook_intent(slug, item_type=item_type)
+    is_kr = (lang or "en").lower() in ("kr", "ko")
+    suffix = "ko" if is_kr else "en"
+    return KLOOK_URLS[f"{intent}_{suffix}"]
 
 
 def _hidden() -> dict[str, Any]:
@@ -223,6 +278,7 @@ def affiliate_context(
     kind_raw = (item_type or "guide").strip().lower()
     is_kr = (lang or "en").lower() in ("kr", "ko")
     key = normalize_guide_slug(slug)
+    klook = klook_url_for(slug, lang=lang, item_type=kind_raw)
 
     if kind_raw == "stay":
         if is_kr:
@@ -239,7 +295,7 @@ def affiliate_context(
                 "rakuten_search_url": "",
                 "amazon_button_label": "",
                 "rakuten_button_label": "",
-                "klook_url": KLOOK_URL,
+                "klook_url": klook,
                 "klook_button_label": "Klook에서 eSIM·교통 보기 ↗",
             }
         return {
@@ -255,7 +311,7 @@ def affiliate_context(
             "rakuten_search_url": "",
             "amazon_button_label": "",
             "rakuten_button_label": "",
-            "klook_url": KLOOK_URL,
+            "klook_url": klook,
             "klook_button_label": "eSIM & transport on Klook ↗",
         }
 
@@ -296,6 +352,6 @@ def affiliate_context(
         "rakuten_search_url": rakuten_search_url(keyword) if keyword else "",
         "amazon_button_label": copy["amazon_label"] if show_amazon else "",
         "rakuten_button_label": copy["rakuten_label"] if show_amazon else "",
-        "klook_url": KLOOK_URL if show_klook else "",
+        "klook_url": klook if show_klook else "",
         "klook_button_label": copy["klook_label"] if show_klook else "",
     }
