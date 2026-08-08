@@ -525,6 +525,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .affiliate-box__btn--rakuten:hover { background: #a00000; }
 .affiliate-box__btn--coupang { background: #e7422d; }
 .affiliate-box__btn--coupang:hover { background: #c93624; }
+.affiliate-box__btn--esim { background: #1e3a8a; }
+.affiliate-box__btn--esim:hover { background: #1e40af; }
 .affiliate-box__btn--klook { background: #166534; }
 .affiliate-box__btn--klook:hover { background: #14532d; }
 .affiliate-box__banners {

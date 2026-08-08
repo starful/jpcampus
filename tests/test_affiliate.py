@@ -56,6 +56,7 @@ def test_housing_guide_shows_coupang_shop_on_ko():
     assert "寝具" in ctx["affiliate_keyword"]
     assert ctx["show_coupang"] is True
     assert "f29dMP4AEe" in ctx["coupang_url"]
+    assert ctx["show_jp_esim"] is False
     ctx_en = affiliate_context("housing", lang="en", item_type="guide")
     assert ctx_en["show_coupang"] is False
 
@@ -125,8 +126,7 @@ def test_university_default_eju_and_klook():
     assert ctx["show_affiliate"] is True
     assert ctx["affiliate_keyword"] == UNIVERSITY_BOOK_KEYWORD
     assert ctx["show_klook"] is False
-    assert ctx["show_jp_esim"] is True
-    assert "hPsyyI" in ctx["jp_esim_url"]
+    assert ctx["show_jp_esim"] is False
     assert ctx["show_coupang"] is True
     assert "f29dMP4AEe" in ctx["coupang_url"]
 

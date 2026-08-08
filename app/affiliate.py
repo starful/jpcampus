@@ -233,9 +233,12 @@ def _build_copy(
 
     if item_type == "school":
         if is_kr:
+            bits = ["JLPT 교재는 Amazon·라쿠텐", "준비물은 쿠팡"]
+            if show_jp_esim:
+                bits.append("도착용 eSIM은 라쿠텐")
             return {
                 "title": "유학 준비 — " + " / ".join(partners),
-                "desc": "JLPT 교재는 Amazon·라쿠텐, 준비물은 쿠팡, 도착용 eSIM은 라쿠텐.",
+                "desc": ", ".join(bits) + ".",
                 "amazon_label": f"Amazon에서 {keyword} 검색 ↗",
                 "rakuten_label": f"라쿠텐에서 {keyword} 검색 ↗",
                 "coupang_label": "쿠팡에서 유학 준비물 보기 ↗",
@@ -256,9 +259,12 @@ def _build_copy(
 
     if item_type == "university":
         if is_kr:
+            bits = ["EJU 교재는 Amazon·라쿠텐", "준비물은 쿠팡"]
+            if show_jp_esim:
+                bits.append("도착용 eSIM은 라쿠텐")
             return {
                 "title": "유학 준비 — " + " / ".join(partners),
-                "desc": "EJU 교재는 Amazon·라쿠텐, 준비물은 쿠팡, 도착용 eSIM은 라쿠텐.",
+                "desc": ", ".join(bits) + ".",
                 "amazon_label": f"Amazon에서 {keyword} 검색 ↗",
                 "rakuten_label": f"라쿠텐에서 {keyword} 검색 ↗",
                 "coupang_label": "쿠팡에서 유학 준비물 보기 ↗",
@@ -403,7 +409,8 @@ def affiliate_context(
         mapped_klook = key in GUIDE_KLOOK_SLUGS
 
     show_klook = mapped_klook and not is_kr
-    show_jp_esim = is_kr and (show_amazon or mapped_klook)
+    # KO eSIM only when Amazon shop/book CTAs are absent (avoid 4 buttons).
+    show_jp_esim = is_kr and not show_amazon and mapped_klook
     show_coupang = is_kr and (show_amazon or mapped_klook)
 
     if not show_amazon and not show_klook and not show_jp_esim and not show_coupang:
