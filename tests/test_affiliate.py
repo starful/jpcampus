@@ -72,7 +72,10 @@ def test_stay_page_shows_klook_only():
 def test_stay_page_ko_shows_coupang_travel():
     ctx = affiliate_context("oakhouse_1164", lang="kr", item_type="stay")
     assert ctx["show_coupang"] is True
+    assert ctx["show_klook"] is False
+    assert ctx["show_jp_esim"] is True
     assert "f289Oxl1hI" in ctx["coupang_url"]
+    assert "hPsyyI" in ctx["jp_esim_url"]
     assert "쿠팡 파트너스" in ctx["coupang_disclosure"]
 
 
@@ -86,11 +89,13 @@ def test_transport_shows_klook_only_partners():
 
 def test_travel_guide_ko_uses_coupang_travel():
     ctx = affiliate_context("shinkansen-deals", lang="kr")
-    assert ctx["show_klook"] is True
+    assert ctx["show_klook"] is False
     assert ctx["show_amazon"] is False
     assert ctx["affiliate_kind"] == "travel"
     assert ctx["show_coupang"] is True
+    assert ctx["show_jp_esim"] is True
     assert "f289Oxl1hI" in ctx["coupang_url"]
+    assert "hPsyyI" in ctx["jp_esim_url"]
 
 
 def test_travel_guide_shows_klook():
@@ -119,8 +124,9 @@ def test_university_default_eju_and_klook():
     ctx = affiliate_context("univ_xyz", lang="kr", item_type="university")
     assert ctx["show_affiliate"] is True
     assert ctx["affiliate_keyword"] == UNIVERSITY_BOOK_KEYWORD
-    assert ctx["show_klook"] is True
-    assert ctx["klook_url"] == KLOOK_URLS["esim_ko"]
+    assert ctx["show_klook"] is False
+    assert ctx["show_jp_esim"] is True
+    assert "hPsyyI" in ctx["jp_esim_url"]
     assert ctx["show_coupang"] is True
     assert "f29dMP4AEe" in ctx["coupang_url"]
 

@@ -35,6 +35,17 @@
             {{ coupang_button_label }}
         </a>
         {% endif %}
+        {% if show_jp_esim and jp_esim_url %}
+        <a class="affiliate-box__btn affiliate-box__btn--rakuten"
+           href="{{ jp_esim_url }}"
+           target="_blank"
+           rel="nofollow sponsored noopener noreferrer"
+           title="일본 eSIM (새 탭)"
+           data-track="affiliate_rakuten_esim"
+           data-track-label="jp-esim">
+            {{ jp_esim_button_label }}
+        </a>
+        {% endif %}
         {% if show_klook %}
         <a class="affiliate-box__btn affiliate-box__btn--klook"
            href="{{ klook_url }}"
