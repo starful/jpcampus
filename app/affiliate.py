@@ -1,7 +1,6 @@
-"""Amazon Associates + Rakuten Ichiba + Klook CTAs for JP Campus.
+"""Amazon Associates + Rakuten Ichiba + Klook + KO Coupang CTAs for JP Campus.
 
-Guides: slug maps. Schools/universities: default book + Klook. Stay: none.
-No Coupang on jpcampus.
+Guides: slug maps. Schools/universities: default book + Klook. Stay: Klook (+ Coupang on KO).
 """
 
 from __future__ import annotations
@@ -15,6 +14,15 @@ RAKUTEN_HGC = os.getenv(
     "RAKUTEN_ICHIBA_HGC", "43cde6d2.98a376f7.43cde6d3.c7b92630"
 )
 _RAKUTEN_UT = "eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
+
+COUPANG_DISCLOSURE_KO = (
+    "이 포스팅은 쿠팡 파트너스 활동의 일환으로, "
+    "이에 따른 일정액의 수수료를 제공받습니다."
+)
+_COUPANG = {
+    "travel": "https://link.coupang.com/a/f289Oxl1hI",
+    "shop": "https://link.coupang.com/a/f29dMP4AEe",
+}
 
 KlookIntent = Literal["esim", "transport", "fallback"]
 
@@ -171,11 +179,28 @@ def klook_url_for(
     return KLOOK_URLS[f"{intent}_{suffix}"]
 
 
+def resolve_coupang_intent(*, affiliate_kind: str, show_amazon: bool) -> str:
+    """shop/book Amazon CTAs → shop prep; travel / Klook-only → travel."""
+    if affiliate_kind in ("shop", "book") or show_amazon:
+        return "shop"
+    return "travel"
+
+
+def coupang_url_for(*, affiliate_kind: str, show_amazon: bool) -> str:
+    return _COUPANG[
+        resolve_coupang_intent(affiliate_kind=affiliate_kind, show_amazon=show_amazon)
+    ]
+
+
 def _hidden() -> dict[str, Any]:
     return {
         "show_affiliate": False,
         "show_amazon": False,
         "show_klook": False,
+        "show_coupang": False,
+        "coupang_url": "",
+        "coupang_button_label": "",
+        "coupang_disclosure": "",
     }
 
 
@@ -184,12 +209,15 @@ def _build_copy(
     is_kr: bool,
     show_amazon: bool,
     show_klook: bool,
+    show_coupang: bool,
     keyword: str,
     item_type: str,
 ) -> dict[str, str]:
     partners: list[str] = []
     if show_amazon:
         partners.extend(["Amazon", "라쿠텐" if is_kr else "Rakuten"])
+    if show_coupang:
+        partners.append("쿠팡" if is_kr else "Coupang")
     if show_klook:
         partners.append("Klook")
 
@@ -197,9 +225,10 @@ def _build_copy(
         if is_kr:
             return {
                 "title": "유학 준비 — " + " / ".join(partners),
-                "desc": "JLPT 교재는 Amazon·라쿠텐, 도착용 eSIM·교통은 Klook.",
+                "desc": "JLPT 교재는 Amazon·라쿠텐, 준비물은 쿠팡, 도착용 eSIM·교통은 Klook.",
                 "amazon_label": f"Amazon에서 {keyword} 검색 ↗",
                 "rakuten_label": f"라쿠텐에서 {keyword} 검색 ↗",
+                "coupang_label": "쿠팡에서 유학 준비물 보기 ↗",
                 "klook_label": "Klook에서 eSIM·교통 보기 ↗",
                 "note": "제휴 링크 · 새 탭에서 열림",
             }
@@ -208,6 +237,7 @@ def _build_copy(
             "desc": "JLPT books on Amazon / Rakuten. Klook for eSIM & transport.",
             "amazon_label": f"Search {keyword} on Amazon ↗",
             "rakuten_label": f"Search {keyword} on Rakuten ↗",
+            "coupang_label": "",
             "klook_label": "eSIM & transport on Klook ↗",
             "note": "Affiliate links · opens in new tab",
         }
@@ -216,9 +246,10 @@ def _build_copy(
         if is_kr:
             return {
                 "title": "유학 준비 — " + " / ".join(partners),
-                "desc": "EJU 교재는 Amazon·라쿠텐, 도착용 eSIM·교통은 Klook.",
+                "desc": "EJU 교재는 Amazon·라쿠텐, 준비물은 쿠팡, 도착용 eSIM·교통은 Klook.",
                 "amazon_label": f"Amazon에서 {keyword} 검색 ↗",
                 "rakuten_label": f"라쿠텐에서 {keyword} 검색 ↗",
+                "coupang_label": "쿠팡에서 유학 준비물 보기 ↗",
                 "klook_label": "Klook에서 eSIM·교통 보기 ↗",
                 "note": "제휴 링크 · 새 탭에서 열림",
             }
@@ -227,6 +258,7 @@ def _build_copy(
             "desc": "EJU books on Amazon / Rakuten. Klook for eSIM & transport.",
             "amazon_label": f"Search {keyword} on Amazon ↗",
             "rakuten_label": f"Search {keyword} on Rakuten ↗",
+            "coupang_label": "",
             "klook_label": "eSIM & transport on Klook ↗",
             "note": "Affiliate links · opens in new tab",
         }
@@ -240,6 +272,8 @@ def _build_copy(
                 if keyword
                 else "Amazon·라쿠텐에서 검색"
             )
+        if show_coupang:
+            bits.append("여행·준비물은 쿠팡")
         if show_klook:
             bits.append("eSIM·교통·여행은 Klook")
         return {
@@ -247,6 +281,11 @@ def _build_copy(
             "desc": ". ".join(bits) + ".",
             "amazon_label": f"Amazon에서 {keyword} 검색 ↗" if keyword else "",
             "rakuten_label": f"라쿠텐에서 {keyword} 검색 ↗" if keyword else "",
+            "coupang_label": (
+                "쿠팡에서 준비물 보기 ↗"
+                if show_amazon
+                else "쿠팡트래블에서 여행 보기 ↗"
+            ),
             "klook_label": "Klook에서 eSIM·교통·여행 보기 ↗",
             "note": "제휴 링크 · 새 탭에서 열림",
         }
@@ -263,6 +302,7 @@ def _build_copy(
         "desc": ". ".join(bits) + ".",
         "amazon_label": f"Search {keyword} on Amazon ↗" if keyword else "",
         "rakuten_label": f"Search {keyword} on Rakuten ↗" if keyword else "",
+        "coupang_label": "",
         "klook_label": "eSIM, transport & trips on Klook ↗",
         "note": "Affiliate links · opens in new tab",
     }
@@ -274,27 +314,32 @@ def affiliate_context(
     lang: str = "en",
     item_type: str = "guide",
 ) -> dict[str, Any]:
-    """Amazon/Rakuten (mapped or school/univ default) + Klook. Stay → Klook only."""
+    """Amazon/Rakuten (mapped or school/univ default) + Klook + KO Coupang."""
     kind_raw = (item_type or "guide").strip().lower()
     is_kr = (lang or "en").lower() in ("kr", "ko")
     key = normalize_guide_slug(slug)
     klook = klook_url_for(slug, lang=lang, item_type=kind_raw)
 
     if kind_raw == "stay":
+        show_coupang = is_kr
         if is_kr:
             return {
                 "show_affiliate": True,
                 "show_amazon": False,
                 "show_klook": True,
+                "show_coupang": True,
                 "affiliate_kind": "travel",
                 "affiliate_keyword": "",
-                "affiliate_title": "유학 준비 — Klook",
-                "affiliate_desc": "도착용 eSIM·교통·액티비티는 Klook에서 확인할 수 있습니다.",
+                "affiliate_title": "유학 준비 — 쿠팡 / Klook",
+                "affiliate_desc": "여행·숙소는 쿠팡트래블, 도착용 eSIM·교통은 Klook.",
                 "affiliate_note": "제휴 링크 · 새 탭에서 열림",
                 "amazon_search_url": "",
                 "rakuten_search_url": "",
                 "amazon_button_label": "",
                 "rakuten_button_label": "",
+                "coupang_url": _COUPANG["travel"],
+                "coupang_button_label": "쿠팡트래블에서 여행 보기 ↗",
+                "coupang_disclosure": COUPANG_DISCLOSURE_KO,
                 "klook_url": klook,
                 "klook_button_label": "Klook에서 eSIM·교통 보기 ↗",
             }
@@ -302,6 +347,7 @@ def affiliate_context(
             "show_affiliate": True,
             "show_amazon": False,
             "show_klook": True,
+            "show_coupang": False,
             "affiliate_kind": "travel",
             "affiliate_keyword": "",
             "affiliate_title": "Prep links — Klook",
@@ -311,6 +357,9 @@ def affiliate_context(
             "rakuten_search_url": "",
             "amazon_button_label": "",
             "rakuten_button_label": "",
+            "coupang_url": "",
+            "coupang_button_label": "",
+            "coupang_disclosure": "",
             "klook_url": klook,
             "klook_button_label": "eSIM & transport on Klook ↗",
         }
@@ -325,24 +374,35 @@ def affiliate_context(
     else:
         mapped = GUIDE_AFFILIATE_MAP.get(key)
         show_amazon = bool(mapped)
-        keyword, kind = mapped if mapped else ("", "shop")
+        if mapped:
+            keyword, kind = mapped
+        else:
+            keyword, kind = "", "travel"
         show_klook = key in GUIDE_KLOOK_SLUGS
 
     if not show_amazon and not show_klook:
         return _hidden()
 
+    show_coupang = is_kr
     copy = _build_copy(
         is_kr=is_kr,
         show_amazon=show_amazon,
         show_klook=show_klook,
+        show_coupang=show_coupang,
         keyword=keyword,
         item_type=kind_raw if kind_raw in ("school", "university") else "guide",
+    )
+    coupang_url = (
+        coupang_url_for(affiliate_kind=kind, show_amazon=show_amazon)
+        if show_coupang
+        else ""
     )
 
     return {
         "show_affiliate": True,
         "show_amazon": show_amazon,
         "show_klook": show_klook,
+        "show_coupang": show_coupang,
         "affiliate_kind": kind,
         "affiliate_keyword": keyword,
         "affiliate_title": copy["title"],
@@ -352,6 +412,9 @@ def affiliate_context(
         "rakuten_search_url": rakuten_search_url(keyword) if keyword else "",
         "amazon_button_label": copy["amazon_label"] if show_amazon else "",
         "rakuten_button_label": copy["rakuten_label"] if show_amazon else "",
+        "coupang_url": coupang_url,
+        "coupang_button_label": copy["coupang_label"] if show_coupang else "",
+        "coupang_disclosure": COUPANG_DISCLOSURE_KO if show_coupang else "",
         "klook_url": klook if show_klook else "",
         "klook_button_label": copy["klook_label"] if show_klook else "",
     }

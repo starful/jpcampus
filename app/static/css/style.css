@@ -523,6 +523,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .affiliate-box__btn--amazon:hover { background: #e88b00; }
 .affiliate-box__btn--rakuten { background: #bf0000; }
 .affiliate-box__btn--rakuten:hover { background: #a00000; }
+.affiliate-box__btn--coupang { background: #e7422d; }
+.affiliate-box__btn--coupang:hover { background: #c93624; }
 .affiliate-box__btn--klook { background: #166534; }
 .affiliate-box__btn--klook:hover { background: #14532d; }
 .affiliate-box__banners {

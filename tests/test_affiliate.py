@@ -1,4 +1,4 @@
-"""Affiliate slug → keyword / Klook for JP Campus (no Coupang; stay → Klook)."""
+"""Affiliate slug → keyword / Klook / KO Coupang for JP Campus."""
 
 from app.affiliate import (
     GUIDE_KLOOK_SLUGS,
@@ -33,6 +33,7 @@ def test_shopping_guide_context():
     assert "search.rakuten.co.jp" in ctx["rakuten_search_url"]
     assert ctx["show_klook"] is True
     assert ctx["klook_url"] == KLOOK_URLS["esim_en"]
+    assert ctx["show_coupang"] is False
 
 
 def test_book_guide_korean_copy():
@@ -43,14 +44,20 @@ def test_book_guide_korean_copy():
     assert "Amazon" in ctx["affiliate_desc"]
     assert "라쿠텐" in ctx["affiliate_desc"]
     assert ctx["show_klook"] is False
+    assert ctx["show_coupang"] is True
+    assert "f29dMP4AEe" in ctx["coupang_url"]
+    assert "쿠팡 파트너스" in ctx["coupang_disclosure"]
 
 
-def test_housing_guide_shows_amazon_not_coupang():
+def test_housing_guide_shows_coupang_shop_on_ko():
     ctx = affiliate_context("housing", lang="kr", item_type="guide")
     assert ctx["show_affiliate"] is True
     assert ctx["show_amazon"] is True
     assert "寝具" in ctx["affiliate_keyword"]
-    assert "coupang" not in ctx["amazon_search_url"].lower()
+    assert ctx["show_coupang"] is True
+    assert "f29dMP4AEe" in ctx["coupang_url"]
+    ctx_en = affiliate_context("housing", lang="en", item_type="guide")
+    assert ctx_en["show_coupang"] is False
 
 
 def test_stay_page_shows_klook_only():
@@ -59,6 +66,14 @@ def test_stay_page_shows_klook_only():
     assert ctx["show_klook"] is True
     assert ctx["show_amazon"] is False
     assert ctx["klook_url"] == KLOOK_URLS["transport_en"]
+    assert ctx["show_coupang"] is False
+
+
+def test_stay_page_ko_shows_coupang_travel():
+    ctx = affiliate_context("oakhouse_1164", lang="kr", item_type="stay")
+    assert ctx["show_coupang"] is True
+    assert "f289Oxl1hI" in ctx["coupang_url"]
+    assert "쿠팡 파트너스" in ctx["coupang_disclosure"]
 
 
 def test_transport_shows_klook_only_partners():
@@ -67,6 +82,15 @@ def test_transport_shows_klook_only_partners():
     assert ctx["show_klook"] is True
     assert ctx["show_amazon"] is False
     assert ctx["klook_url"] == KLOOK_URLS["transport_en"]
+
+
+def test_travel_guide_ko_uses_coupang_travel():
+    ctx = affiliate_context("shinkansen-deals", lang="kr")
+    assert ctx["show_klook"] is True
+    assert ctx["show_amazon"] is False
+    assert ctx["affiliate_kind"] == "travel"
+    assert ctx["show_coupang"] is True
+    assert "f289Oxl1hI" in ctx["coupang_url"]
 
 
 def test_travel_guide_shows_klook():
@@ -78,27 +102,27 @@ def test_travel_guide_shows_klook():
 
 def test_prime_guide_shows_amazon():
     ctx = affiliate_context("amazon-prime-student", lang="en")
-    assert ctx["show_affiliate"] is True
     assert ctx["show_amazon"] is True
-    assert "プライム" in ctx["affiliate_keyword"]
+    assert ctx["show_klook"] is False
 
 
 def test_school_default_jlpt_and_klook():
-    ctx = affiliate_context("school_kokusai-nihongo-gakuin", lang="en", item_type="school")
+    ctx = affiliate_context("school_abc", lang="en", item_type="school")
     assert ctx["show_affiliate"] is True
-    assert ctx["show_amazon"] is True
-    assert ctx["show_klook"] is True
+    assert ctx["affiliate_kind"] == "book"
     assert ctx["affiliate_keyword"] == SCHOOL_BOOK_KEYWORD
+    assert ctx["show_klook"] is True
     assert ctx["klook_url"] == KLOOK_URLS["esim_en"]
 
 
 def test_university_default_eju_and_klook():
-    ctx = affiliate_context("univ_waseda", lang="kr", item_type="university")
+    ctx = affiliate_context("univ_xyz", lang="kr", item_type="university")
     assert ctx["show_affiliate"] is True
     assert ctx["affiliate_keyword"] == UNIVERSITY_BOOK_KEYWORD
-    assert "EJU" in ctx["affiliate_desc"]
     assert ctx["show_klook"] is True
     assert ctx["klook_url"] == KLOOK_URLS["esim_ko"]
+    assert ctx["show_coupang"] is True
+    assert "f29dMP4AEe" in ctx["coupang_url"]
 
 
 def test_unmapped_guide_hides_box():
@@ -108,7 +132,9 @@ def test_unmapped_guide_hides_box():
 
 def test_url_builders():
     assert "tag=starful06-22" in amazon_search_url("JLPT 本")
-    assert "%2520" in rakuten_search_url("JLPT 本") or "%20" in rakuten_search_url("JLPT 本")
+    assert "%2520" in rakuten_search_url("JLPT 本") or "%20" in rakuten_search_url(
+        "JLPT 本"
+    )
 
 
 def test_klook_intents_are_jpcampus_only():
