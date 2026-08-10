@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "glasses-jins-zoff",
-  "title": "Getting Glasses at JINS or Zoff",
+  "title": "JINS vs Zoff: Complete Guide to Getting Glasses in Japan",
   "category": "Health",
   "tags": [
     "Health"
   ],
-  "description": "High-quality, affordable eyewear in under 60 minutes.",
+  "description": "Compare two of Japan's most popular eyewear chains. Detailed guide to pricing, quality, speed, and how to order at JINS or Zoff.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Cheap Glasses at JINS vs Zoff: Prices & Reviews | JP Campus",
+  "seo_description": "Compare JINS vs Zoff eyewear: prices, quality, 60-minute service. Complete buying guide for Japan. Which is cheaper and faster?"
 }
 ---
+
 
 
 # Clear Sight, Affordable Price: A Student's Guide to Buying Glasses at JINS and Zoff in Japan

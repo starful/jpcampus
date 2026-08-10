@@ -7,13 +7,14 @@
   "tags": [
     "Culture"
   ],
-  "description": "Japan's affordable 24-hour internet cafes and manga kissas. Discover costs, best locations, and insider tips.",
+  "description": "Find 24-hour internet cafes & manga kissas in Japan: real prices, locations, WiFi quality & traveler tips.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Internet Cafes & Manga Kissas in Japan: Complete Guide",
-  "seo_description": "Your guide to Japan's internet cafes and manga kissas. Find affordable rates, top locations, hours, and tips for visitors."
+  "seo_title": "Internet Cafes & Manga Kissas in Japan: Prices, Hours & Tips",
+  "seo_description": "Find 24-hour internet cafes & manga kissas in Japan. Real prices, best locations, WiFi quality, and traveler tips."
 }
 ---
+
 
 
 

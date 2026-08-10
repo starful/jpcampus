@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "typhoon-prep",
-  "title": "How to Prepare for a Typhoon in Japan",
+  "title": "Typhoon Preparation Guide for Japan: Essential Safety Tips & Checklist",
   "category": "Safety",
   "tags": [
     "Safety"
   ],
-  "description": "What to do before, during, and after the storm.",
+  "description": "Your comprehensive guide to preparing for typhoons in Japan with safety tips and emergency supply checklist.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Typhoon Preparation Guide for Japan: Safety Tips & Emergency Checklist | JP Campus",
+  "seo_description": "Learn how to prepare for typhoons in Japan: safety measures, emergency supplies checklist, and what to do before, during, and after. Complete guide."
 }
 ---
+
 
 
 # Navigating the Storm: A Comprehensive Guide to Typhoon Preparation for International Students in Japan

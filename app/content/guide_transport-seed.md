@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "transport-seed",
-  "title": "Student commuter passes in Japan",
+  "title": "Student Commuter Passes in Japan: Save Money on Train Fares",
   "category": "Life",
   "tags": [
     "Life"
   ],
-  "description": "Suica, commuter tickets, and discounts",
+  "description": "Get student discounts on Suica, commuter tickets, and train passes in Japan. Learn the best options to save money studying abroad.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Student Commuter Passes in Japan: Save Money on Train Fares | JP Campus",
+  "seo_description": "Get student discounts on Suica, commuter tickets, and train passes in Japan. Learn the best options to save money studying abroad."
 }
 ---
+
 
 
 # Master the Rails: The Ultimate Guide to Student Commuter Passes in Japan
