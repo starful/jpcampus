@@ -1,19 +1,19 @@
 ---
 category: Budget
 date: '2026-07-20'
-description: Wondering if Amazon Prime Student Japan is worth your money? Read our
-  complete guide covering the massive 6-month free trial, half-price membership fees,
-  eligibility criteria, and exclusive benefits for international students.
+description: 'Amazon Prime Student Japan: ¥2,450/year with free shipping, Prime Video
+  & 6-month trial. Full pricing breakdown and eligibility guide.'
 id: amazon-prime-student
 layout: guide
-seo_description: Get a 6-month free trial of Amazon Prime Student Japan. Learn eligibility
-  rules, half-price discounts, and exclusive benefits for international students.
-seo_title: 'Amazon Prime Student Japan: 6-Month Free Trial Guide'
+seo_description: ¥2,450/year student pricing, free shipping, Prime Video access &
+  6-month free trial. Full breakdown of benefits and eligibility for students in Japan.
+seo_title: 'Amazon Prime Student Japan: 50% OFF—Pricing, Benefits & Free Trial Guide'
 tags:
 - Budget
 thumbnail: https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500
-title: 'Amazon Prime Student Japan: Is It Worth It? (6-Month Free Trial)'
+title: 'Amazon Prime Student Japan: 50% OFF Pricing, Benefits & Free Trial'
 ---
+
 
 
 # Amazon Prime Student Japan: Is It Worth It? (6-Month Free Trial)

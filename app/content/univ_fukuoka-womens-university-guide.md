@@ -30,11 +30,17 @@ tags:
 - Global leadership focus for female professionals
 - Strategic location in Fukuoka, Japan's startup hub
 thumbnail: /static/img/pin-univ.png
-title: Fukuoka Women's University
+title: Fukuoka Women's University Guide | Admissions, Tuition & Programs
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
+description: 'Complete guide to Fukuoka Women''s University: admissions requirements,
+  tuition costs, majors, and campus life.'
+seo_title: Fukuoka Women's University - Admissions, Tuition & Programs Guide
+seo_description: 'Fukuoka Women''s University: compare tuition, admission requirements,
+  explore programs, and learn about student life.'
 ---
+
 
 
 ## 🏫 University Overview: A Legacy of Excellence

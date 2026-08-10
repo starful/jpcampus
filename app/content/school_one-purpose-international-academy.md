@@ -19,9 +19,8 @@ courses:
   course_name: 大学進学1年3ヵ月コース
   total_fees: 892500
 date: '2026-07-20'
-description: One Purpose International Academy offers comprehensive Japanese language
-  education in Osaka, Japan. Features include dormitory accommodation, scholarships,
-  and courses for university admission and business Japanese.
+description: Japanese language school in Osaka offering dormitory accommodation, scholarships,
+  and comprehensive language education programs.
 faculties: []
 features:
 - Dormitory
@@ -50,10 +49,14 @@ tags:
 - Short-term Courses
 - Conversational Japanese
 thumbnail: /static/img/pin-school.png
-title: One Purpose International Academy
+title: Learn Japanese in Osaka | Dormitory & Scholarships | One Purpose Academy
 translated: true
 tuition: {}
+seo_title: Learn Japanese in Osaka | Dormitory & Scholarships | One Purpose Academy
+seo_description: Study Japanese in Osaka with dormitory housing and scholarships.
+  Comprehensive language programs for international students. Enroll today.
 ---
+
 
 
 ## 🏫 School Overview

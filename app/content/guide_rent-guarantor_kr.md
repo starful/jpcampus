@@ -2,7 +2,7 @@
 {
   "category": "Housing",
   "date": "2026-07-20",
-  "description": "보증 회사란 무엇이며, 어떻게 이용하는지에 대한 설명입니다.",
+  "description": "일본에서 집을 구할 때 필요한 보증인의 모든 정보를 한눈에 확인하세요. 역할, 보증금, 비용, 신청 방법까지 완벽 가이드.",
   "id": "rent-guarantor",
   "lang": "kr",
   "layout": "guide",
@@ -10,7 +10,7 @@
     "Housing"
   ],
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "title": "일본에서 집을 구할 때 필요한 보증인 제도 완벽 가이드",
+  "title": "일본 보증인 제도 완벽 가이드 | 집 렌트할 때 역할, 비용, 신청",
   "features": [
     "보증인 제도 설명",
     "보증 회사 (Hoshou-Gaisha) 이용 방법",
@@ -21,9 +21,12 @@
   },
   "location": null,
   "stats": null,
-  "tuition": null
+  "tuition": null,
+  "seo_title": "일본 보증인 제도 완벽 가이드 | 집 렌트할 때 역할, 비용, 신청",
+  "seo_description": "일본에서 집을 구할 때 필요한 보증인의 모든 정보를 한눈에 확인하세요. 역할, 보증금, 비용, 신청 방법까지 완벽 가이드."
 }
 ---
+
 
 
 # 반드시 거쳐야 할 단계: 일본 유학 생활, 보증인 제도 완벽 가이드
