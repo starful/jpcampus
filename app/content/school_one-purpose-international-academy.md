@@ -19,8 +19,8 @@ courses:
   course_name: 大学進学1年3ヵ月コース
   total_fees: 892500
 date: '2026-07-20'
-description: Japanese language school in Osaka offering dormitory accommodation, scholarships,
-  and comprehensive language education programs.
+description: Study Japanese in Osaka with free dormitory, scholarships & expert instruction.
+  Flexible programs for all levels.
 faculties: []
 features:
 - Dormitory
@@ -49,13 +49,14 @@ tags:
 - Short-term Courses
 - Conversational Japanese
 thumbnail: /static/img/pin-school.png
-title: Learn Japanese in Osaka | Dormitory & Scholarships | One Purpose Academy
+title: Japanese Language School in Osaka | Free Dormitory & Scholarships
 translated: true
 tuition: {}
-seo_title: Learn Japanese in Osaka | Dormitory & Scholarships | One Purpose Academy
-seo_description: Study Japanese in Osaka with dormitory housing and scholarships.
-  Comprehensive language programs for international students. Enroll today.
+seo_title: Learn Japanese in Osaka | One Purpose Academy | Dormitory Included
+seo_description: Japanese language school in Osaka offering free dormitory, scholarships,
+  and comprehensive programs. Enroll now and start today!
 ---
+
 
 
 
