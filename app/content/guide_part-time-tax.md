@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "part-time-tax",
-  "title": "Japan Part-Time Tax: Master the 1.03M Yen Rule (2026)",
+  "title": "[2026] Japan Part-Time Tax: Navigate the 1.03M Yen Rule & Save | JP Campus",
   "category": "Part-time",
   "tags": [
     "Part-time"
   ],
-  "description": "Complete guide to Japan's part-time job tax rules. Understand the 1.03M yen threshold, filing requirements, and tax deductions.",
+  "description": "Master Japan's part-time tax rules. Learn the 1.03M yen threshold, filing deadlines, deductions & penalties. Avoid costly mistakes in 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=500",
   "date": "2026-07-20",
-  "seo_title": "Part-Time Job Tax in Japan: 1.03 Million Yen Explained",
-  "seo_description": "Learn when part-time workers must file taxes in Japan: the 1.03M yen threshold, how to calculate, and smart deduction strategies."
+  "seo_title": "Japan Part-Time Tax 2026: Avoid Mistakes with the 1.03M Yen Rule | JiCampus",
+  "seo_description": "Complete 2026 guide to Japan's part-time tax rules. Master the 1.03M yen threshold, filing requirements, deductions & tax-saving strategies."
 }
 ---
+
 
 
 

@@ -6,7 +6,8 @@ basic_info:
   website: https://www.u-tokyo.ac.jp/
 category: school
 date: '2026-07-20'
-description: 도쿄대학교(도다이) 입시, 학비, 캠퍼스 생활, 학부·대학원 정보를 한눈에 확인하세요.
+description: 도쿄대학교 2026 입시, 학비, 장학금 정보를 한눈에 비교하세요. 학부·대학원, 캠퍼스 생활까지 한국 유학생을 위한 완벽
+  가이드입니다.
 faculties:
 - 法学部 (School of Law)
 - 経済学部 (School of Economics)
@@ -46,14 +47,16 @@ tags:
 - Scholarship
 - Global Campus Initiatives
 thumbnail: /static/img/pin-school.png
-title: The University of Tokyo - 도쿄대학교
+title: 도쿄대학교 입시 정보 2026 | 학비·학부·대학원·캠퍼스 생활 | JP Campus
 translated: true
 tuition:
   admission_fee: 282000
   yearly_tuition: 535800
-seo_title: 도쿄대학교(도다이) 입시·학비·순위 | 일본 명문대 | JP Campus
-seo_description: 도쿄대학교 입시 요강, 학비, 캠퍼스, 교육 프로그램 정보. 일본 유학은 JP Campus에서 시작하세요.
+seo_title: 도쿄대학교 입시 정보 2026 | 학비·학부·대학원·캠퍼스 생활 | JP Campus
+seo_description: 도쿄대학교 2026 입시, 학비, 장학금 정보를 한눈에 비교하세요. 학부·대학원, 캠퍼스 생활까지 한국 유학생을 위한
+  완벽 가이드입니다.
 ---
+
 
 
 

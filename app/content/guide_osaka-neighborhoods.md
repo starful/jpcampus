@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "osaka-neighborhoods",
-  "title": "Best Neighborhoods in Osaka: Where to Live for Students & Expats",
+  "title": "Best Neighborhoods in Osaka 2026: Where to Live for Students & Expats",
   "category": "Region",
   "tags": [
     "Region"
   ],
-  "description": "Discover Osaka's best neighborhoods for students & expats. Compare rent costs, safety ratings, and lifestyle in Umeda, Namba, and more areas.",
+  "description": "Compare Osaka's top neighborhoods by rent costs, safety ratings, and lifestyle. Find the best areas in Umeda, Namba, Dotonbori, and beyond for students and expats.",
   "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=500",
   "date": "2026-07-20",
-  "seo_title": "Best Neighborhoods in Osaka for Students & Expats | Where to Live | JP Campus",
-  "seo_description": "Explore the best neighborhoods in Osaka for students and expats. Compare living costs, safety, and lifestyle in Umeda, Namba and surrounding areas."
+  "seo_title": "Best Osaka Neighborhoods 2026: Rent, Safety & Living Guide for Students",
+  "seo_description": "Explore Osaka's best neighborhoods: Umeda, Namba, Dotonbori & more. Compare rent, safety, and lifestyle. Perfect guide for students and expats choosing where to live."
 }
 ---
+
 
 
 

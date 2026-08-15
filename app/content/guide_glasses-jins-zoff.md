@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "glasses-jins-zoff",
-  "title": "JINS vs Zoff: Complete Guide to Getting Glasses in Japan",
+  "title": "JINS vs Zoff: Which Eyewear Brand Wins in Japan?",
   "category": "Health",
   "tags": [
     "Health"
   ],
-  "description": "Compare two of Japan's most popular eyewear chains. Detailed guide to pricing, quality, speed, and how to order at JINS or Zoff.",
+  "description": "Compare JINS and Zoff: pricing, quality, delivery speed. Expert guide to choosing the best glasses in Japan.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Cheap Glasses at JINS vs Zoff: Prices & Reviews | JP Campus",
-  "seo_description": "Compare JINS vs Zoff eyewear: prices, quality, 60-minute service. Complete buying guide for Japan. Which is cheaper and faster?"
+  "seo_title": "JINS vs Zoff: Complete Guide to Getting Glasses in Japan",
+  "seo_description": "JINS vs Zoff comparison: pricing, quality, speed. Expert tips on choosing and ordering the best glasses in Japan."
 }
 ---
+
 
 
 

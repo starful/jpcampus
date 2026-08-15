@@ -43,15 +43,17 @@ tags:
 - JASSO/Private Scholarship Opportunities for High-Achieving Students
 - Flexible Short-Term Study Options Available
 thumbnail: /static/img/pin-school.png
-title: Nagoya International Japanese Language School
+title: Nagoya International Japanese Language School - Courses & Tuition 2026
 translated: true
 tuition: {}
-description: Learn about Nagoya International Japanese Language School. Check 2026
-  tuition, courses, and application steps on JP Campus.
-seo_title: 'Nagoya International Japanese Language School: Tuition & Apply | JP Campus'
-seo_description: Study in Japan! Find 2026 tuition fees, course details, and admission
-  requirements for Nagoya International Japanese Language School on JP Campus.
+description: Study Japanese at Nagoya International Japanese Language School. Check
+  tuition, courses, and apply for 2026 admission.
+seo_title: Nagoya International Japanese Language School | Courses, Tuition & Admission
+  2026
+seo_description: Affordable Japanese language courses at Nagoya International School.
+  Check class schedules, tuition fees, and enroll for 2026.
 ---
+
 
 
 
