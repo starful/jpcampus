@@ -2,17 +2,19 @@
 {
   "layout": "guide",
   "id": "budget-apps",
-  "title": "Top 3 Budgeting Apps for Life in Japan",
+  "title": "Best Budgeting Apps for Life in Japan (2026): Top 3 Compared",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Tracking your expenses with Japanese apps.",
+  "description": "Compare Money Forward ME, Zaim, and more—see which Japan budgeting app fits your bank, PayPay, and Suica setup best in 2026.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Japan Budgeting Apps 2026: Money Forward ME vs Zaim | JP Campus",
+  "seo_description": "Which budgeting app actually works with Japanese banks, PayPay, and Suica? We compare the top 3 for 2026 so you don't have to guess."
 }
 ---
-
+**Quick take:** Money Forward ME wins for syncing directly with Japan Post Bank and PayPay, while Zaim edges ahead on receipt scanning and the classic "kakeibo" budgeting style. Both beat foreign apps like Mint here simply because they speak the local banks' language—see the full breakdown below.
 
 # Master Your Yen: The Top 3 Budgeting Apps for International Students in Japan
 
