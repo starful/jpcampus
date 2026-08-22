@@ -2,17 +2,19 @@
 {
   "layout": "guide",
   "id": "student-discounts",
-  "title": "'Gakuwari': The Magic of Student Discounts in Japan",
+  "title": "'Gakuwari': The Ultimate Guide to Student Discounts in Japan (2026)",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Where and how to use your student ID for savings.",
+  "description": "See exactly where 'Gakuwari' student discounts apply in Japan: trains, movies, museums, cafes, and more — plus how to use your ID card.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Gakuwari 2026: Japan Student Discounts on Trains, Movies & Food | JP Camp",
+  "seo_description": "See exactly where 'Gakuwari' student discounts apply in Japan: trains, movies, museums, cafes, and more — plus how to use your ID card."
 }
 ---
-
+**Quick answer:** Flash your Gakusei-sho (学生証) and 'Gakuwari' can shave real yen off train fares, movie tickets, museum entry, and even some cafes and gyms across Japan — no complicated sign-up required. Below, we break down exactly where to look for the discount sign and how to make sure your ID actually qualifies.
 
 # 'Gakuwari': The Magic of Student Discounts in Japan
 
