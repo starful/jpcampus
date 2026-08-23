@@ -1,0 +1,26 @@
+{# A8.net housing banners — Oakhouse / Cross One Room #}
+{% if show_a8_housing and a8_housing_banners %}
+<aside class="affiliate-box affiliate-box--a8-housing" role="complementary" aria-label="{{ '제휴 숙소' if current_lang == 'kr' else 'Affiliate housing' }}">
+    <p class="affiliate-box__title">{{ a8_housing_title }}</p>
+    <div class="affiliate-box__banners">
+        {% for banner in a8_housing_banners %}
+        <a class="affiliate-box__banner affiliate-box__banner--a8"
+           href="{{ banner.click_url }}"
+           target="_blank"
+           rel="nofollow sponsored noopener noreferrer"
+           title="{{ banner.alt }}"
+           data-track="affiliate_a8"
+           data-track-label="{{ banner.id }}">
+            <img src="{{ banner.image_url }}"
+                 alt="{{ banner.alt }}"
+                 width="320"
+                 height="50"
+                 loading="lazy"
+                 decoding="async">
+        </a>
+        <img class="a8-affiliate-pixel" src="{{ banner.pixel_url }}" width="1" height="1" alt="" aria-hidden="true">
+        {% endfor %}
+    </div>
+    <p class="affiliate-box__note">{{ a8_housing_note }}</p>
+</aside>
+{% endif %}

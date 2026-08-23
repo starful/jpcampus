@@ -9,6 +9,7 @@ from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, PlainTextResponse, RedirectResponse, Response
 
 from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY, SHOW_STAYS_UI
+from app.a8_affiliate import a8_housing_context, oakhouse_booking_url
 from app.affiliate import affiliate_context
 from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content, load_stay_content
 from app.content_badges import enrich_items
@@ -321,8 +322,14 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
     ctx = share_context(DOMAIN, "stay", stay_id, share_title, lang)
 
     stay_type = item.get("stay_type", "guesthouse")
+    basic = item.get("basic_info") or {}
+    stay_operator = basic.get("operator", "")
     ui = get_ui_text(lang)
     stay_type_label = ui.get(f"stay_type_{stay_type}", stay_type)
+    stay_booking_href = oakhouse_booking_url(
+        operator=stay_operator,
+        booking_url=item.get("booking_url") or "",
+    )
     meta_raw_title = item.get("seo_title") or share_title
     meta_raw_desc = item.get("seo_description") or item.get("description", "")
 
@@ -349,6 +356,13 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(stay_id, lang=lang, item_type="stay"),
+        **a8_housing_context(
+            page_kind="stay_detail",
+            lang=lang,
+            stay_id=stay_id,
+            stay_operator=stay_operator,
+        ),
+        "stay_booking_href": stay_booking_href,
         **ctx,
     })
 
@@ -386,6 +400,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(slug, lang=lang, item_type="guide"),
+        **a8_housing_context(page_kind="housing_guide", lang=lang, guide_slug=slug),
         **ctx,
     })
 
@@ -489,6 +504,7 @@ async def stay_list(request: Request, lang: str = Query("en")):
             ),
             "Browse student housing options across Japan.",
         ),
+        **a8_housing_context(page_kind="stays_list", lang=lang),
     })
 
 
