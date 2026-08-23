@@ -9,7 +9,7 @@ from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, PlainTextResponse, RedirectResponse, Response
 
 from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY, SHOW_STAYS_UI
-from app.a8_affiliate import a8_housing_context, oakhouse_booking_url
+from app.a8_affiliate import a8_housing_context
 from app.affiliate import affiliate_context
 from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content, load_stay_content
 from app.content_badges import enrich_items
@@ -326,10 +326,6 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
     stay_operator = basic.get("operator", "")
     ui = get_ui_text(lang)
     stay_type_label = ui.get(f"stay_type_{stay_type}", stay_type)
-    stay_booking_href = oakhouse_booking_url(
-        operator=stay_operator,
-        booking_url=item.get("booking_url") or "",
-    )
     meta_raw_title = item.get("seo_title") or share_title
     meta_raw_desc = item.get("seo_description") or item.get("description", "")
 
@@ -362,7 +358,6 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
             stay_id=stay_id,
             stay_operator=stay_operator,
         ),
-        "stay_booking_href": stay_booking_href,
         **ctx,
     })
 

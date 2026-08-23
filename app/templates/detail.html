@@ -33,8 +33,6 @@
 
 {% block content %}
 {% set stay_operator = item.get('basic_info', {}).get('operator') or 'Operator' %}
-{% set stay_booking_label = (ui.book_stay_on or ui.book_stay).replace('{operator}', stay_operator) %}
-{% set stay_booking_href = stay_booking_href if stay_booking_href is defined and stay_booking_href else item.get('booking_url') %}
 {% set type_class = 'is-' ~ item_type %}
 <main class="detail-container {{ type_class }}">
 
@@ -60,12 +58,6 @@
                 <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                 <span>{{ item.get('basic_info', {}).get('address', 'Address not available') }}</span>
             </p>
-            {% if stay_booking_href %}
-            <a href="{{ stay_booking_href }}" class="stay-booking-btn" target="_blank" rel="noopener noreferrer nofollow sponsored" data-track="stay_booking" data-track-label="{{ item.id }}">
-                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
-                <span>{{ stay_booking_label }}</span>
-            </a>
-            {% endif %}
         {% else %}
             <span class="detail-badge detail-badge--{{ 'univ' if item_type == 'university' else 'school' }}">
                 {{ ui.university if item_type == 'university' else ui.language_school }}
@@ -198,21 +190,14 @@
 
     <div class="detail-content">{{ content_body | safe }}</div>
 
-    {% if item_type == 'stay' and stay_booking_href %}
+    {% if item_type == 'stay' and show_a8_housing %}
     <section class="stay-booking-panel">
         <div class="stay-booking-panel__text">
             <h2>{{ ui.stay_booking_title }}</h2>
             <p>{{ ui.stay_booking_desc }}</p>
         </div>
-        <a href="{{ stay_booking_href }}" class="stay-booking-btn stay-booking-btn--lg" target="_blank" rel="noopener noreferrer nofollow sponsored" data-track="stay_booking_bottom" data-track-label="{{ item.id }}">
-            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
-            <span>{{ stay_booking_label }}</span>
-        </a>
-        <p class="stay-booking-disclaimer">{{ ui.stay_booking_disclaimer }}</p>
-        {% if show_a8_housing %}
         {% set a8_housing_in_booking_panel = true %}
         {% include 'partials/a8_housing_banners.html' %}
-        {% endif %}
     </section>
     {% endif %}
 

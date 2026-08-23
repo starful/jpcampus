@@ -6,8 +6,6 @@
        aria-label="{{ '제휴 숙소' if current_lang == 'kr' else 'Affiliate housing' }}">
     {% if not _panel %}
     <p class="affiliate-box__title">{{ a8_housing_title }}</p>
-    {% else %}
-    <p class="a8-housing__panel-title">{{ '다른 숙소 옵션 보기' if current_lang == 'kr' else 'Compare partner housing options' }}</p>
     {% endif %}
     <div class="a8-housing__grid">
         {% for banner in a8_housing_banners %}
