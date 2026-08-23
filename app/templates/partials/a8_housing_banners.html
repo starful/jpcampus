@@ -1,26 +1,39 @@
-{# A8.net housing banners — Oakhouse / Cross One Room #}
+{# A8.net housing banners — Oakhouse / Cross One Room (clearly separated cards) #}
 {% if show_a8_housing and a8_housing_banners %}
-<aside class="affiliate-box affiliate-box--a8-housing" role="complementary" aria-label="{{ '제휴 숙소' if current_lang == 'kr' else 'Affiliate housing' }}">
+{% set _panel = a8_housing_in_booking_panel | default(false) %}
+<aside class="a8-housing{% if _panel %} a8-housing--in-panel{% else %} affiliate-box affiliate-box--a8-housing{% endif %}"
+       role="complementary"
+       aria-label="{{ '제휴 숙소' if current_lang == 'kr' else 'Affiliate housing' }}">
+    {% if not _panel %}
     <p class="affiliate-box__title">{{ a8_housing_title }}</p>
-    <div class="affiliate-box__banners">
+    {% else %}
+    <p class="a8-housing__panel-title">{{ '다른 숙소 옵션 보기' if current_lang == 'kr' else 'Compare partner housing options' }}</p>
+    {% endif %}
+    <div class="a8-housing__grid">
         {% for banner in a8_housing_banners %}
-        <a class="affiliate-box__banner affiliate-box__banner--a8"
-           href="{{ banner.click_url }}"
-           target="_blank"
-           rel="nofollow sponsored noopener noreferrer"
-           title="{{ banner.alt }}"
-           data-track="affiliate_a8"
-           data-track-label="{{ banner.id }}">
-            <img src="{{ banner.image_url }}"
-                 alt="{{ banner.alt }}"
-                 width="320"
-                 height="50"
-                 loading="lazy"
-                 decoding="async">
-        </a>
-        <img class="a8-affiliate-pixel" src="{{ banner.pixel_url }}" width="1" height="1" alt="" aria-hidden="true">
+        <article class="a8-housing__card a8-housing__card--{{ banner.id }}">
+            <header class="a8-housing__card-head">
+                <span class="a8-housing__badge">{{ banner.label }}</span>
+                <p class="a8-housing__card-desc">{{ banner.desc }}</p>
+            </header>
+            <a class="a8-housing__banner-link"
+               href="{{ banner.click_url }}"
+               target="_blank"
+               rel="nofollow sponsored noopener noreferrer"
+               title="{{ banner.alt }}"
+               data-track="affiliate_a8"
+               data-track-label="{{ banner.id }}">
+                <img src="{{ banner.image_url }}"
+                     alt="{{ banner.alt }}"
+                     width="320"
+                     height="50"
+                     loading="lazy"
+                     decoding="async">
+            </a>
+            <img class="a8-affiliate-pixel" src="{{ banner.pixel_url }}" width="1" height="1" alt="" aria-hidden="true">
+        </article>
         {% endfor %}
     </div>
-    <p class="affiliate-box__note">{{ a8_housing_note }}</p>
+    <p class="a8-housing__note">{{ a8_housing_note }}</p>
 </aside>
 {% endif %}

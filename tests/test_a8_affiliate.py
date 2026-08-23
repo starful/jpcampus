@@ -44,6 +44,8 @@ def test_housing_guide_shows_banners():
     assert ctx["show_a8_housing"] is True
     assert len(ctx["a8_housing_banners"]) == 2
     assert ctx["a8_housing_banners"][0]["alt"] == OAKHOUSE_A8["alt_kr"]
+    assert ctx["a8_housing_banners"][0]["label"] == OAKHOUSE_A8["label_kr"]
+    assert ctx["a8_housing_banners"][1]["label"] == "크로스 원룸 — 가구·가전 포함"
 
 
 def test_non_housing_guide_hidden():

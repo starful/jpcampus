@@ -109,7 +109,8 @@
     {% include 'partials/affiliate_box.html' %}
     {% endif %}
 
-    {% if show_a8_housing %}
+    {# Housing guides only — stay detail banners live inside Ready to book #}
+    {% if show_a8_housing and item_type != 'stay' %}
     {% include 'partials/a8_housing_banners.html' %}
     {% endif %}
 
@@ -208,6 +209,10 @@
             <span>{{ stay_booking_label }}</span>
         </a>
         <p class="stay-booking-disclaimer">{{ ui.stay_booking_disclaimer }}</p>
+        {% if show_a8_housing %}
+        {% set a8_housing_in_booking_panel = true %}
+        {% include 'partials/a8_housing_banners.html' %}
+        {% endif %}
     </section>
     {% endif %}
 

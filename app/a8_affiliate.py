@@ -22,6 +22,10 @@ OAKHOUSE_A8 = {
         "A8_OAKHOUSE_PIXEL_URL",
         "https://www18.a8.net/0.gif?a8mat=4BACLH+3OROOI+41A0+601S1",
     ),
+    "label_en": "Oakhouse — share houses",
+    "label_kr": "오크하우스 — 셰어하우스",
+    "desc_en": "Japan’s largest share-house network · no deposit / key money",
+    "desc_kr": "일본 최대급 셰어하우스 · 보증금·예키금 부담 적음",
     "alt_en": "Oakhouse share house — affiliate",
     "alt_kr": "오크하우스 셰어하우스 — 제휴",
 }
@@ -40,6 +44,10 @@ CROSS_ONEROOM_A8 = {
         "A8_CROSS_ONEROOM_PIXEL_URL",
         "https://www11.a8.net/0.gif?a8mat=4BACLH+3L731U+4EZ2+BY641",
     ),
+    "label_en": "Cross One Room — furnished apartments",
+    "label_kr": "크로스 원룸 — 가구·가전 포함",
+    "desc_en": "Tokyo from ¥38,000/mo · furniture & appliances included",
+    "desc_kr": "도쿄 월 3.8만엔부터 · 가구·가전 포함 원룸",
     "alt_en": "Cross One Room furnished apartments in Tokyo — affiliate",
     "alt_kr": "크로스 원룸 도쿄 가구·가전 포함 원룸 — 제휴",
 }
@@ -67,13 +75,14 @@ def _is_oakhouse_stay(stay_id: str = "", operator: str = "") -> bool:
 
 def _banner_copy(banner: dict[str, str], *, lang: str) -> dict[str, str]:
     is_kr = (lang or "en").lower() in ("kr", "ko")
-    alt = banner["alt_kr"] if is_kr else banner["alt_en"]
     return {
         "id": banner["id"],
         "click_url": banner["click_url"],
         "image_url": banner["image_url"],
         "pixel_url": banner["pixel_url"],
-        "alt": alt,
+        "alt": banner["alt_kr"] if is_kr else banner["alt_en"],
+        "label": banner["label_kr"] if is_kr else banner["label_en"],
+        "desc": banner["desc_kr"] if is_kr else banner["desc_en"],
     }
 
 
