@@ -1,16 +1,31 @@
 # A8.net 広告掲載URL (jpcampus.net)
 
-Upload these UTF-8 CSV files in A8 **広告掲載URL管理 → CSV一括アップロード**.
+Upload in A8 **広告掲載URL管理 → CSV一括アップロード** (UTF-8).
 
-| File | Program | URLs (approx.) |
-|------|---------|----------------|
-| `a8-oakhouse-placement-urls.csv` | オークハウス シェアハウス | `/stays` hub + all Oakhouse `/stay/*` |
-| `a8-cross-oneroom-placement-urls.csv` | クロスワンルーム | `/stays` + all stays + housing guides |
+## CSV format (required)
 
-Regenerate after stay/guide URL changes:
+| Column A | Column B |
+|----------|----------|
+| プログラムID | 広告掲載URL |
+
+No header row. Example:
+
+```text
+s00000018828001,https://jpcampus.net/stays
+s00000018828001,https://jpcampus.net/stay/oakhouse_994
+```
+
+## Files
+
+| File | Program ID | Program |
+|------|------------|---------|
+| `a8-oakhouse-placement-urls.csv` | `s00000018828001` | オークハウス |
+| `a8-cross-oneroom-placement-urls.csv` | `s00000020603002` | クロスワンルーム |
+
+Regenerate:
 
 ```bash
 python3 scripts/generate_a8_placement_urls.py
 ```
 
-Banner links are configured in `app/a8_affiliate.py` (override via `A8_OAKHOUSE_*` / `A8_CROSS_ONEROOM_*` env vars).
+If Cross One Room upload fails on program ID, confirm the ID on the A8 program detail page and update `CROSS_ONEROOM_PROGRAM_ID` in the script.
