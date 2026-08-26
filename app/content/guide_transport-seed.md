@@ -2,20 +2,19 @@
 {
   "layout": "guide",
   "id": "transport-seed",
-  "title": "Student Commuter Passes in Japan: Save Money on Train Fares",
+  "title": "Japan Student Commuter Pass 2026: The Suica Discount Guide",
   "category": "Life",
   "tags": [
     "Life"
   ],
-  "description": "Get student discounts on Suica, commuter tickets, and train passes in Japan. Learn the best options to save money studying abroad.",
+  "description": "Confused by Suica student discounts? See how Japan's Teiki commuter pass works and how much international students can really save on trains.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Student Commuter Passes in Japan: Save Money on Train Fares | JP Campus",
-  "seo_description": "Get student discounts on Suica, commuter tickets, and train passes in Japan. Learn the best options to save money studying abroad."
+  "seo_title": "Student Commuter Pass Japan 2026 | Suica & Pasmo Discount Guide",
+  "seo_description": "Studying in Japan? Learn how the Teiki student commuter pass cuts your Suica/Pasmo train fares, who qualifies, and how to set it up in 2026."
 }
 ---
-
-
+**Quick answer:** yes — Suica and Pasmo both support a discounted *Tsugaku-teiki* fare for verified students, and setting one up correctly can meaningfully lower your daily commute cost. Below, we walk through how the Student Commuter Pass works, who qualifies, and how to get yours before your next semester of tuition-and-transit bills arrives.
 
 # Master the Rails: The Ultimate Guide to Student Commuter Passes in Japan
 
