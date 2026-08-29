@@ -1,19 +1,10 @@
-{# Amazon + Rakuten Ichiba + KO Coupang + Klook (jpcampus Travelpayouts). #}
+{# Rakuten Ichiba + JP eSIM (KO). A8 travel banners in partials/a8_banners.html #}
 {% if show_affiliate %}
 <aside class="affiliate-box" role="complementary" aria-label="{{ '제휴 링크' if current_lang == 'kr' else 'Affiliate links' }}">
     <p class="affiliate-box__title">{{ affiliate_title }}</p>
     <p class="affiliate-box__desc">{{ affiliate_desc }}</p>
     <div class="affiliate-box__actions">
-        {% if show_amazon %}
-        <a class="affiliate-box__btn affiliate-box__btn--amazon"
-           href="{{ amazon_search_url }}"
-           target="_blank"
-           rel="nofollow sponsored noopener noreferrer"
-           title="{{ 'Amazon에서 열기 (새 탭)' if current_lang == 'kr' else 'Opens Amazon in a new tab' }}"
-           data-track="affiliate_amazon"
-           data-track-label="{{ affiliate_keyword }}">
-            {{ amazon_button_label }}
-        </a>
+        {% if show_rakuten %}
         <a class="affiliate-box__btn affiliate-box__btn--rakuten"
            href="{{ rakuten_search_url }}"
            target="_blank"
@@ -22,17 +13,6 @@
            data-track="affiliate_rakuten"
            data-track-label="{{ affiliate_keyword }}">
             {{ rakuten_button_label }}
-        </a>
-        {% endif %}
-        {% if show_coupang and coupang_url %}
-        <a class="affiliate-box__btn affiliate-box__btn--coupang"
-           href="{{ coupang_url }}"
-           target="_blank"
-           rel="nofollow sponsored noopener noreferrer"
-           title="쿠팡 (새 탭)"
-           data-track="affiliate_coupang"
-           data-track-label="{{ affiliate_kind or 'coupang' }}">
-            {{ coupang_button_label }}
         </a>
         {% endif %}
         {% if show_jp_esim and jp_esim_url %}
@@ -46,21 +26,7 @@
             {{ jp_esim_button_label }}
         </a>
         {% endif %}
-        {% if show_klook %}
-        <a class="affiliate-box__btn affiliate-box__btn--klook"
-           href="{{ klook_url }}"
-           target="_blank"
-           rel="nofollow sponsored noopener noreferrer"
-           title="Klook"
-           data-track="affiliate_klook"
-           data-track-label="klook">
-            {{ klook_button_label }}
-        </a>
-        {% endif %}
     </div>
-    {% if coupang_disclosure %}
-    <p class="affiliate-box__disclosure">{{ coupang_disclosure }}</p>
-    {% endif %}
     <p class="affiliate-box__note">{{ affiliate_note }}</p>
 </aside>
 {% endif %}

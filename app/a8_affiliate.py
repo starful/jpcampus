@@ -1,56 +1,32 @@
-"""A8.net housing affiliate banners (Oakhouse, Cross One Room)."""
+"""A8.net housing + travel affiliate banners for JP Campus."""
 
 from __future__ import annotations
 
 import os
 from typing import Any, Literal
 
-A8PageKind = Literal["stays_list", "stay_detail", "housing_guide"]
+A8PageKind = Literal["stays_list", "stay_detail", "housing_guide", "travel_guide"]
 
-# Default links from A8 link generator (jpcampus.com media). Override via env if rotated.
-OAKHOUSE_A8 = {
-    "id": "oakhouse",
-    "click_url": os.getenv(
-        "A8_OAKHOUSE_CLICK_URL",
-        "https://px.a8.net/svt/ejp?a8mat=4BACLH+3OROOI+41A0+601S1",
-    ),
-    "image_url": os.getenv(
-        "A8_OAKHOUSE_BANNER_URL",
-        "https://www23.a8.net/svt/bgt?aid=260823365223&wid=001&eno=01&mid=s00000018828001008000&mc=1",
-    ),
-    "pixel_url": os.getenv(
-        "A8_OAKHOUSE_PIXEL_URL",
-        "https://www18.a8.net/0.gif?a8mat=4BACLH+3OROOI+41A0+601S1",
-    ),
-    "label_en": "Oakhouse — share houses",
-    "label_kr": "오크하우스 — 셰어하우스",
-    "desc_en": "Japan’s largest share-house network · no deposit / key money",
-    "desc_kr": "일본 최대급 셰어하우스 · 보증금·예키금 부담 적음",
-    "alt_en": "Oakhouse share house — affiliate",
-    "alt_kr": "오크하우스 셰어하우스 — 제휴",
-}
-
-CROSS_ONEROOM_A8 = {
-    "id": "cross_oneroom",
-    "click_url": os.getenv(
-        "A8_CROSS_ONEROOM_CLICK_URL",
-        "https://px.a8.net/svt/ejp?a8mat=4BACLH+3L731U+4EZ2+BY641",
-    ),
-    "image_url": os.getenv(
-        "A8_CROSS_ONEROOM_BANNER_URL",
-        "https://www27.a8.net/svt/bgt?aid=260823365217&wid=001&eno=01&mid=s00000020603002007000&mc=1",
-    ),
-    "pixel_url": os.getenv(
-        "A8_CROSS_ONEROOM_PIXEL_URL",
-        "https://www11.a8.net/0.gif?a8mat=4BACLH+3L731U+4EZ2+BY641",
-    ),
-    "label_en": "Cross One Room — furnished apartments",
-    "label_kr": "크로스 원룸 — 가구·가전 포함",
-    "desc_en": "Tokyo from ¥38,000/mo · furniture & appliances included",
-    "desc_kr": "도쿄 월 3.8만엔부터 · 가구·가전 포함 원룸",
-    "alt_en": "Cross One Room furnished apartments in Tokyo — affiliate",
-    "alt_kr": "크로스 원룸 도쿄 가구·가전 포함 원룸 — 제휴",
-}
+GUIDE_A8_ESIM: frozenset[str] = frozenset(
+    {
+        "sim-card-guide",
+        "cheap-phone-accessories",
+        "internet-setup",
+        "soft-bank-air-vs-fiber",
+    }
+)
+GUIDE_A8_TRAVEL: frozenset[str] = frozenset(
+    {
+        "transport-ic",
+        "transport-seed",
+        "shinkansen-deals",
+        "student-travel-willerexpress",
+        "train-pass",
+        "capsule-hotels-etiquette",
+        "golden-week",
+        "onsen-etiquette",
+    }
+)
 
 HOUSING_A8_GUIDE_SLUGS: frozenset[str] = frozenset(
     {
@@ -65,6 +41,103 @@ HOUSING_A8_GUIDE_SLUGS: frozenset[str] = frozenset(
         "thrift-stores-furniture",
     }
 )
+
+OAKHOUSE_A8 = {
+    "id": "oakhouse",
+    "click_url": os.getenv(
+        "A8_OAKHOUSE_CLICK_URL",
+        "https://px.a8.net/svt/ejp?a8mat=4BACLH+3OROOI+41A0+60H7L",
+    ),
+    "image_url": os.getenv(
+        "A8_OAKHOUSE_BANNER_URL",
+        "https://www22.a8.net/svt/bgt?aid=260823365223&wid=001&eno=01&mid=s00000018828001010000&mc=1",
+    ),
+    "pixel_url": os.getenv(
+        "A8_OAKHOUSE_PIXEL_URL",
+        "https://www17.a8.net/0.gif?a8mat=4BACLH+3OROOI+41A0+60H7L",
+    ),
+    "label_en": "Oakhouse — share houses",
+    "label_kr": "오크하우스 — 셰어하우스",
+    "desc_en": "Japan's largest share-house network · no deposit / key money",
+    "desc_kr": "일본 최대급 셰어하우스 · 보증금·예키금 부담 적음",
+    "alt_en": "Oakhouse share house — affiliate",
+    "alt_kr": "오크하우스 셰어하우스 — 제휴",
+}
+
+CROSS_ONEROOM_A8 = {
+    "id": "cross_oneroom",
+    "click_url": os.getenv(
+        "A8_CROSS_ONEROOM_CLICK_URL",
+        "https://px.a8.net/svt/ejp?a8mat=4BACLH+3L731U+4EZ2+BYDTT",
+    ),
+    "image_url": os.getenv(
+        "A8_CROSS_ONEROOM_BANNER_URL",
+        "https://www21.a8.net/svt/bgt?aid=260823365217&wid=001&eno=01&mid=s00000020603002008000&mc=1",
+    ),
+    "pixel_url": os.getenv(
+        "A8_CROSS_ONEROOM_PIXEL_URL",
+        "https://www16.a8.net/0.gif?a8mat=4BACLH+3L731U+4EZ2+BYDTT",
+    ),
+    "label_en": "Cross One Room — furnished apartments",
+    "label_kr": "크로스 원룸 — 가구·가전 포함",
+    "desc_en": "Tokyo from ¥38,000/mo · furniture & appliances included",
+    "desc_kr": "도쿄 월 3.8만엔부터 · 가구·가전 포함 원룸",
+    "alt_en": "Cross One Room furnished apartments in Tokyo — affiliate",
+    "alt_kr": "크로스 원룸 도쿄 가구·가전 포함 원룸 — 제휴",
+}
+
+AGODA_A8 = {
+    "id": "agoda",
+    "click_url": os.getenv(
+        "A8_AGODA_CLICK_URL",
+        "https://px.a8.net/svt/ejp?a8mat=4BAH9J+13AMPE+4X1W+5ZMCH",
+    ),
+    "image_url": os.getenv(
+        "A8_AGODA_BANNER_URL",
+        "https://www28.a8.net/svt/bgt?aid=260829415066&wid=001&eno=01&mid=s00000022946001006000&mc=1",
+    ),
+    "pixel_url": os.getenv(
+        "A8_AGODA_PIXEL_URL",
+        "https://www17.a8.net/0.gif?a8mat=4BAH9J+13AMPE+4X1W+5ZMCH",
+    ),
+    "label_en": "Agoda — hotels in Japan",
+    "label_kr": "Agoda — 일본 숙소",
+    "desc_en": "Book hotels and hostels for trips around Japan.",
+    "desc_kr": "일본 여행 숙소·호스텔 예약.",
+    "alt_en": "Agoda — affiliate",
+    "alt_kr": "Agoda — 제휴",
+}
+
+TORA_ESIM_A8 = {
+    "id": "tora_esim",
+    "click_url": os.getenv(
+        "A8_TORA_ESIM_CLICK_URL",
+        "https://px.a8.net/svt/ejp?a8mat=4BAH9I+GEM0VM+5NG6+5ZEMP",
+    ),
+    "image_url": os.getenv(
+        "A8_TORA_ESIM_BANNER_URL",
+        "https://www23.a8.net/svt/bgt?aid=260829414992&wid=001&eno=01&mid=s00000026367001005000&mc=1",
+    ),
+    "pixel_url": os.getenv(
+        "A8_TORA_ESIM_PIXEL_URL",
+        "https://www10.a8.net/0.gif?a8mat=4BAH9I+GEM0VM+5NG6+5ZEMP",
+    ),
+    "label_en": "TORA eSIM — Japan travel",
+    "label_kr": "TORA eSIM — 일본 여행",
+    "desc_en": "Travel eSIM for your arrival in Japan.",
+    "desc_kr": "일본 도착용 여행 eSIM.",
+    "alt_en": "TORA eSIM — affiliate",
+    "alt_kr": "TORA eSIM — 제휴",
+}
+
+
+def _enabled() -> bool:
+    return os.getenv("A8_HOUSING_ENABLED", "1").strip().lower() in (
+        "1",
+        "true",
+        "yes",
+        "on",
+    )
 
 
 def _is_oakhouse_stay(stay_id: str = "", operator: str = "") -> bool:
@@ -86,6 +159,17 @@ def _banner_copy(banner: dict[str, str], *, lang: str) -> dict[str, str]:
     }
 
 
+def _empty() -> dict[str, Any]:
+    return {
+        "show_a8_housing": False,
+        "a8_housing_banners": [],
+        "a8_housing_note": "",
+        "show_a8_banners": False,
+        "a8_banners": [],
+        "a8_banners_note": "",
+    }
+
+
 def a8_housing_context(
     *,
     page_kind: A8PageKind,
@@ -94,9 +178,9 @@ def a8_housing_context(
     stay_operator: str = "",
     guide_slug: str = "",
 ) -> dict[str, Any]:
-    """Template context for A8 housing banners on stays / housing guides."""
-    if not os.getenv("A8_HOUSING_ENABLED", "1").strip().lower() in ("1", "true", "yes", "on"):
-        return {"show_a8_housing": False, "a8_housing_banners": [], "a8_housing_note": ""}
+    """Oakhouse / Cross One Room on stays and housing guides."""
+    if not _enabled():
+        return _empty()
 
     is_kr = (lang or "en").lower() in ("kr", "ko")
     guide_key = (guide_slug or "").removesuffix("_kr").removeprefix("guide_")
@@ -121,33 +205,66 @@ def a8_housing_context(
         banners.append(_banner_copy(CROSS_ONEROOM_A8, lang=lang))
 
     if not banners:
-        return {"show_a8_housing": False, "a8_housing_banners": [], "a8_housing_note": ""}
+        return _empty()
 
     note = (
         "제휴 광고 · 새 탭 · JP Campus는 운영사와 제휴 관계가 없을 수 있습니다."
         if is_kr
         else "Affiliate ads · open in new tab · JP Campus may earn a commission."
     )
-    title = (
-        "유학생 숙소 제휴"
-        if is_kr
-        else "Student housing partners"
-    )
+    title = "유학생 숙소 제휴" if is_kr else "Student housing partners"
     return {
         "show_a8_housing": True,
         "a8_housing_banners": banners,
         "a8_housing_note": note,
         "a8_housing_title": title,
         "oakhouse_a8_click_url": OAKHOUSE_A8["click_url"],
+        "show_a8_banners": False,
+        "a8_banners": [],
+        "a8_banners_note": "",
     }
 
 
-def oakhouse_booking_url(
+def a8_travel_context(
     *,
-    operator: str,
-    booking_url: str,
-) -> str:
-    """Use A8 click URL for Oakhouse operator booking CTAs when configured."""
+    page_kind: A8PageKind,
+    lang: str = "en",
+    guide_slug: str = "",
+    item_type: str = "guide",
+) -> dict[str, Any]:
+    """Agoda / TORA eSIM on travel prep guides and EN stay pages."""
+    if not _enabled():
+        return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
+
+    is_kr = (lang or "en").lower() in ("kr", "ko")
+    if is_kr:
+        return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
+
+    guide_key = (guide_slug or "").removesuffix("_kr").removeprefix("guide_")
+    kind = (item_type or "guide").strip().lower()
+    banners: list[dict[str, str]] = []
+
+    if kind == "stay" or page_kind == "stay_detail":
+        banners.append(_banner_copy(AGODA_A8, lang=lang))
+    elif guide_key in GUIDE_A8_ESIM:
+        banners.append(_banner_copy(TORA_ESIM_A8, lang=lang))
+    elif guide_key in GUIDE_A8_TRAVEL:
+        banners.append(_banner_copy(AGODA_A8, lang=lang))
+    elif kind in ("school", "university"):
+        banners.append(_banner_copy(TORA_ESIM_A8, lang=lang))
+
+    if not banners:
+        return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
+
+    return {
+        "show_a8_banners": True,
+        "a8_banners": banners,
+        "a8_banners_title": "Travel partners",
+        "a8_banners_note": "Affiliate ads · opens in new tab",
+    }
+
+
+def oakhouse_booking_url(*, operator: str, booking_url: str) -> str:
     if _is_oakhouse_stay(operator=operator) and OAKHOUSE_A8["click_url"]:
         return OAKHOUSE_A8["click_url"]
     return booking_url

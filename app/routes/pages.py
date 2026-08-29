@@ -9,7 +9,7 @@ from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, PlainTextResponse, RedirectResponse, Response
 
 from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY, SHOW_STAYS_UI
-from app.a8_affiliate import a8_housing_context
+from app.a8_affiliate import a8_housing_context, a8_travel_context
 from app.affiliate import affiliate_context
 from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content, load_stay_content
 from app.content_badges import enrich_items
@@ -306,6 +306,12 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(school_id, lang=lang, item_type=item_type),
+        **a8_travel_context(
+            page_kind="travel_guide",
+            lang=lang,
+            guide_slug=school_id,
+            item_type=item_type,
+        ),
         **ctx,
     })
 
@@ -358,6 +364,12 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
             stay_id=stay_id,
             stay_operator=stay_operator,
         ),
+        **a8_travel_context(
+            page_kind="stay_detail",
+            lang=lang,
+            guide_slug=stay_id,
+            item_type="stay",
+        ),
         **ctx,
     })
 
@@ -396,6 +408,12 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(slug, lang=lang, item_type="guide"),
         **a8_housing_context(page_kind="housing_guide", lang=lang, guide_slug=slug),
+        **a8_travel_context(
+            page_kind="travel_guide",
+            lang=lang,
+            guide_slug=slug,
+            item_type="guide",
+        ),
         **ctx,
     })
 
