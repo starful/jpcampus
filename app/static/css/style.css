@@ -572,66 +572,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     opacity: 0;
     pointer-events: none;
 }
-.affiliate-box--a8-housing {
-    margin: 24px 0;
-}
-.a8-housing__grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-    margin: 12px 0 8px;
-}
-@media (min-width: 720px) {
-    .a8-housing__grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-}
-.a8-housing__card {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 14px 14px 16px;
-    border-radius: 14px;
-    border: 1px solid #e2e8f0;
-    background: #fff;
-    text-align: left;
-}
-.a8-housing__card--oakhouse {
-    border-color: #86efac;
-    background: linear-gradient(180deg, #f0fdf4 0%, #fff 55%);
-}
-.a8-housing__card--cross_oneroom {
-    border-color: #fcd34d;
-    background: linear-gradient(180deg, #fffbeb 0%, #fff 55%);
-}
-.a8-housing__badge {
-    display: inline-block;
-    font-size: 0.78rem;
-    font-weight: 800;
-    letter-spacing: 0.01em;
-    color: #0f172a;
-}
-.a8-housing__card--oakhouse .a8-housing__badge { color: #166534; }
-.a8-housing__card--cross_oneroom .a8-housing__badge { color: #92400e; }
-.a8-housing__card-desc {
-    margin: 4px 0 0;
-    font-size: 0.8rem;
-    line-height: 1.45;
-    color: #64748b;
-}
-.a8-housing__banner-link {
-    display: block;
-    border-radius: 8px;
-    overflow: hidden;
-}
-.a8-housing__banner-link img {
-    display: block;
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-    margin: 0 auto;
-}
 .a8-housing__note {
     margin: 10px 0 0;
     font-size: 0.72rem;
@@ -640,11 +580,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .a8-housing--in-panel {
     margin: 22px 0 0;
-    padding-top: 20px;
+    padding: 16px 0 0;
     border-top: 1px solid rgba(255, 255, 255, 0.28);
+    text-align: center;
 }
 .a8-housing__panel-title {
-    margin: 0 0 4px;
+    margin: 0 0 12px;
     font-size: 0.95rem;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.95);
@@ -652,7 +593,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .a8-housing--in-panel .a8-housing__note {
     color: rgba(255, 255, 255, 0.72);
 }
-.a8-housing--in-panel .a8-housing__card {
+.a8-housing--in-panel .a8-banners__label {
+    color: rgba(255, 255, 255, 0.85);
+}
+.a8-housing--in-panel .a8-banners__link {
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
