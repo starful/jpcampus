@@ -56,10 +56,10 @@ OAKHOUSE_A8 = {
         "A8_OAKHOUSE_PIXEL_URL",
         "https://www17.a8.net/0.gif?a8mat=4BACLH+3OROOI+41A0+60H7L",
     ),
-    "label_en": "Oakhouse — share houses",
-    "label_kr": "오크하우스 — 셰어하우스",
-    "desc_en": "Japan's largest share-house network · no deposit / key money",
-    "desc_kr": "일본 최대급 셰어하우스 · 보증금·예키금 부담 적음",
+    "label_en": "Oakhouse",
+    "label_kr": "오크하우스",
+    "desc_en": "Share houses · no deposit / key money",
+    "desc_kr": "셰어하우스 · 보증금·예키금 부담 적음",
     "alt_en": "Oakhouse share house — affiliate",
     "alt_kr": "오크하우스 셰어하우스 — 제휴",
 }
@@ -78,10 +78,10 @@ CROSS_ONEROOM_A8 = {
         "A8_CROSS_ONEROOM_PIXEL_URL",
         "https://www16.a8.net/0.gif?a8mat=4BACLH+3L731U+4EZ2+BYDTT",
     ),
-    "label_en": "Cross One Room — furnished apartments",
-    "label_kr": "크로스 원룸 — 가구·가전 포함",
-    "desc_en": "Tokyo from ¥38,000/mo · furniture & appliances included",
-    "desc_kr": "도쿄 월 3.8만엔부터 · 가구·가전 포함 원룸",
+    "label_en": "Cross One Room",
+    "label_kr": "크로스 원룸",
+    "desc_en": "Furnished Tokyo apartments from ¥38,000/mo",
+    "desc_kr": "도쿄 월 3.8만엔부터 · 가구·가전 포함",
     "alt_en": "Cross One Room furnished apartments in Tokyo — affiliate",
     "alt_kr": "크로스 원룸 도쿄 가구·가전 포함 원룸 — 제휴",
 }
@@ -100,10 +100,10 @@ AGODA_A8 = {
         "A8_AGODA_PIXEL_URL",
         "https://www17.a8.net/0.gif?a8mat=4BAH9J+13AMPE+4X1W+5ZMCH",
     ),
-    "label_en": "Agoda — hotels in Japan",
-    "label_kr": "Agoda — 일본 숙소",
-    "desc_en": "Book hotels and hostels for trips around Japan.",
-    "desc_kr": "일본 여행 숙소·호스텔 예약.",
+    "label_en": "Agoda",
+    "label_kr": "Agoda",
+    "desc_en": "Hotels and stays near campus",
+    "desc_kr": "캠퍼스 주변 숙소·호텔",
     "alt_en": "Agoda — affiliate",
     "alt_kr": "Agoda — 제휴",
 }
@@ -122,10 +122,10 @@ TORA_ESIM_A8 = {
         "A8_TORA_ESIM_PIXEL_URL",
         "https://www10.a8.net/0.gif?a8mat=4BAH9I+GEM0VM+5NG6+5ZEMP",
     ),
-    "label_en": "TORA eSIM — Japan travel",
-    "label_kr": "TORA eSIM — 일본 여행",
-    "desc_en": "Travel eSIM for your arrival in Japan.",
-    "desc_kr": "일본 도착용 여행 eSIM.",
+    "label_en": "TORA eSIM",
+    "label_kr": "TORA eSIM",
+    "desc_en": "Travel eSIM for arrival in Japan",
+    "desc_kr": "일본 도착용 여행 eSIM",
     "alt_en": "TORA eSIM — affiliate",
     "alt_kr": "TORA eSIM — 제휴",
 }
@@ -211,12 +211,13 @@ def a8_housing_context(
         return _empty()
 
     note = (
-        "제휴 광고 · 새 탭 · JP Campus는 운영사와 제휴 관계가 없을 수 있습니다."
+        "제휴 광고 · 새 탭에서 열림"
         if is_kr
-        else "Affiliate ads · open in new tab · JP Campus may earn a commission."
+        else "Affiliate ads · opens in a new tab"
     )
-    if page_kind == "stay_detail" and not is_kr:
-        title = "Stay partners"
+    if page_kind == "stay_detail":
+        # Panel already has Ready to book? — skip duplicate section title
+        title = ""
     else:
         title = "유학생 숙소 제휴" if is_kr else "Student housing partners"
     return {
