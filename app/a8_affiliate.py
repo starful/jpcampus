@@ -203,6 +203,9 @@ def a8_housing_context(
         banners.append(_banner_copy(OAKHOUSE_A8, lang=lang))
     if show_cross:
         banners.append(_banner_copy(CROSS_ONEROOM_A8, lang=lang))
+    # Stay detail EN: Agoda in the same one-row (not a second block)
+    if page_kind == "stay_detail" and not is_kr:
+        banners.append(_banner_copy(AGODA_A8, lang=lang))
 
     if not banners:
         return _empty()
@@ -212,7 +215,10 @@ def a8_housing_context(
         if is_kr
         else "Affiliate ads · open in new tab · JP Campus may earn a commission."
     )
-    title = "유학생 숙소 제휴" if is_kr else "Student housing partners"
+    if page_kind == "stay_detail" and not is_kr:
+        title = "Stay partners"
+    else:
+        title = "유학생 숙소 제휴" if is_kr else "Student housing partners"
     return {
         "show_a8_housing": True,
         "a8_housing_banners": banners,
@@ -244,9 +250,10 @@ def a8_travel_context(
     kind = (item_type or "guide").strip().lower()
     banners: list[dict[str, str]] = []
 
+    # Stay detail Agoda lives in a8_housing_context (one row with housing)
     if kind == "stay" or page_kind == "stay_detail":
-        banners.append(_banner_copy(AGODA_A8, lang=lang))
-    elif guide_key in GUIDE_A8_ESIM:
+        return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
+    if guide_key in GUIDE_A8_ESIM:
         banners.append(_banner_copy(TORA_ESIM_A8, lang=lang))
     elif guide_key in GUIDE_A8_TRAVEL:
         banners.append(_banner_copy(AGODA_A8, lang=lang))

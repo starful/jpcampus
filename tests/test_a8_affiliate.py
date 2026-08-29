@@ -24,14 +24,24 @@ def test_oakhouse_stay_detail():
     )
     assert ctx["show_a8_housing"] is True
     ids = [b["id"] for b in ctx["a8_housing_banners"]]
-    assert "oakhouse" in ids
-    assert "cross_oneroom" in ids
+    assert ids == ["oakhouse", "cross_oneroom", "agoda"]
 
 
-def test_sakura_stay_shows_cross_only():
+def test_sakura_stay_shows_cross_and_agoda_one_row():
     ctx = a8_housing_context(
         page_kind="stay_detail",
         lang="en",
+        stay_id="sakura_sunshine_city",
+        stay_operator="Sakura House",
+    )
+    ids = [b["id"] for b in ctx["a8_housing_banners"]]
+    assert ids == ["cross_oneroom", "agoda"]
+
+
+def test_sakura_stay_kr_no_agoda():
+    ctx = a8_housing_context(
+        page_kind="stay_detail",
+        lang="kr",
         stay_id="sakura_sunshine_city",
         stay_operator="Sakura House",
     )

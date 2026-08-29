@@ -8,7 +8,7 @@ from app.affiliate import (
     normalize_guide_slug,
     rakuten_search_url,
 )
-from app.a8_affiliate import a8_travel_context
+from app.a8_affiliate import a8_housing_context, a8_travel_context
 
 
 def test_rakuten_search_url_encoded():
@@ -62,14 +62,26 @@ def test_university_eju_rakuten():
 def test_stay_en_uses_a8_not_klook():
     aff = affiliate_context("oakhouse_1164", lang="en", item_type="stay")
     assert aff["show_affiliate"] is False
-    a8 = a8_travel_context(
+    # Agoda is in the housing one-row, not a separate travel block
+    travel = a8_travel_context(
         page_kind="stay_detail",
         lang="en",
         guide_slug="oakhouse_1164",
         item_type="stay",
     )
-    assert a8["show_a8_banners"] is True
-    assert a8["a8_banners"][0]["id"] == "agoda"
+    assert travel["show_a8_banners"] is False
+    housing = a8_housing_context(
+        page_kind="stay_detail",
+        lang="en",
+        stay_id="oakhouse_1164",
+        stay_operator="Oakhouse",
+    )
+    assert housing["show_a8_housing"] is True
+    assert [b["id"] for b in housing["a8_housing_banners"]] == [
+        "oakhouse",
+        "cross_oneroom",
+        "agoda",
+    ]
 
 
 def test_transport_guide_a8_agoda():
