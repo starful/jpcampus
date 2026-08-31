@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/16379
 category: stay
-date: '2026-08-22'
+date: '2026-08-31'
 description: Kyoto monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -71,6 +71,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_16379.jpg
 title: Forest Nishioji Gojo — Kyoto Student Monthly Mansion
 ---
+
 
 ## About this property
 

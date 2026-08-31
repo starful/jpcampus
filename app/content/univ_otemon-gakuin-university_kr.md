@@ -5,7 +5,7 @@ basic_info:
   name_en: Otemon Gakuin University
   name_ja: 追手門学院大学
 category: university
-date: '2026-07-20'
+date: '2026-08-31'
 description: 오사카의 전통과 혁신이 공존하는 오테몬가쿠인 대학교에서 실무 중심의 'WIL' 교육과 최첨단 캠퍼스 라이프를 경험해 보세요.
 faculties:
 - 경제학부
@@ -40,6 +40,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1280000
 ---
+
 
 
 ## 🏫 대학 개요

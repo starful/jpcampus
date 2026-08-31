@@ -8,7 +8,7 @@ from app.affiliate import (
     normalize_guide_slug,
     rakuten_search_url,
 )
-from app.a8_affiliate import a8_housing_context, a8_travel_context
+from app.a8_affiliate import a8_housing_context, a8_travel_context, SHINOKUBO_KOREAN_A8
 
 
 def test_rakuten_search_url_encoded():
@@ -104,6 +104,33 @@ def test_esim_guide_a8_tora():
     )
     assert ctx["show_a8_banners"] is True
     assert ctx["a8_banners"][0]["id"] == "tora_esim"
+
+
+def test_urban_tokyo_guide_korean_banner(monkeypatch):
+    monkeypatch.setitem(
+        SHINOKUBO_KOREAN_A8,
+        "click_url",
+        "https://px.a8.net/svt/ejp?a8mat=TEST",
+    )
+    monkeypatch.setitem(
+        SHINOKUBO_KOREAN_A8,
+        "image_url",
+        "https://www22.a8.net/svt/bgt?aid=test",
+    )
+    monkeypatch.setitem(
+        SHINOKUBO_KOREAN_A8,
+        "pixel_url",
+        "https://www17.a8.net/0.gif?a8mat=TEST",
+    )
+    ctx = a8_travel_context(
+        page_kind="travel_guide",
+        lang="en",
+        guide_slug="urban-lifestyle-tokyo-schools",
+        item_type="guide",
+    )
+    assert ctx["show_a8_banners"] is True
+    assert ctx["a8_banners"][0]["id"] == "shin_okubo_korean"
+    assert ctx["a8_banners_title"] == "Learn Korean in Tokyo"
 
 
 def test_normalize_guide_slug():
