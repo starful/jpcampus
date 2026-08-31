@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/14684
 category: stay
-date: '2026-08-22'
+date: '2026-08-31'
 description: Yokohama monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -73,6 +73,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_14684.jpg
 title: Deerleitious Yokohama South Palace — Yokohama Student Monthly Mansion
 ---
+
 
 ## About this property
 

@@ -3,6 +3,7 @@
 from app.a8_affiliate import (
     HOUSING_A8_GUIDE_SLUGS,
     OAKHOUSE_A8,
+    SHINOKUBO_KOREAN_A8,
     a8_housing_context,
     oakhouse_booking_url,
 )
@@ -79,3 +80,29 @@ def test_non_oakhouse_booking_url_unchanged():
 def test_housing_guide_slug_set_nonempty():
     assert "housing" in HOUSING_A8_GUIDE_SLUGS
     assert "tokyo-student-housing-operators" in HOUSING_A8_GUIDE_SLUGS
+
+
+def test_shin_okubo_stay_korean_banner(monkeypatch):
+    monkeypatch.setitem(
+        SHINOKUBO_KOREAN_A8,
+        "click_url",
+        "https://px.a8.net/svt/ejp?a8mat=TEST",
+    )
+    monkeypatch.setitem(
+        SHINOKUBO_KOREAN_A8,
+        "image_url",
+        "https://www22.a8.net/svt/bgt?aid=test",
+    )
+    monkeypatch.setitem(
+        SHINOKUBO_KOREAN_A8,
+        "pixel_url",
+        "https://www17.a8.net/0.gif?a8mat=TEST",
+    )
+    ctx = a8_housing_context(
+        page_kind="stay_detail",
+        lang="en",
+        stay_id="shin_okubo_monthly",
+        stay_operator="Sakura House",
+    )
+    ids = [b["id"] for b in ctx["a8_housing_banners"]]
+    assert ids == ["cross_oneroom", "agoda", "shin_okubo_korean"]

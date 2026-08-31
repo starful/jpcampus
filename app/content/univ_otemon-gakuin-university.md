@@ -5,7 +5,7 @@ basic_info:
   name_en: Otemon Gakuin University
   name_ja: 追手門学院大学
 category: university
-date: '2026-07-20'
+date: '2026-08-31'
 faculties:
 - Faculty of Economics
 - Faculty of Management
@@ -38,6 +38,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1280000
 ---
+
 
 
 ## 🏫 University Overview

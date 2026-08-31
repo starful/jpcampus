@@ -9,9 +9,10 @@
   ],
   "description": "Finding deals on components at Tsukumo, Dospara, and Ark.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-08-26"
+  "date": "2026-08-31"
 }
 ---
+
 
 
 ## Akihabara: Your One-Stop Destination for PC Parts

@@ -27,6 +27,23 @@ GUIDE_A8_TRAVEL: frozenset[str] = frozenset(
         "onsen-etiquette",
     }
 )
+GUIDE_A8_KOREAN: frozenset[str] = frozenset(
+    {
+        "urban-lifestyle-tokyo-schools",
+        "part-time-restrictions",
+        "part-time-delivery-jobs",
+        "student-discounts",
+    }
+)
+GUIDE_A8_KOREAN_SCHOOLS: frozenset[str] = frozenset(
+    {
+        "school_yoshida-japanese-language-academy",
+        "school_waseda-language-academy",
+        "school_waseda-gaigo-senmon-gakko-tokyo",
+        "school_waseda-edu-japanese-language-school",
+        "school_unitas-japanese-language-school-tokyo-campus",
+    }
+)
 
 HOUSING_A8_GUIDE_SLUGS: frozenset[str] = frozenset(
     {
@@ -130,6 +147,19 @@ TORA_ESIM_A8 = {
     "alt_kr": "TORA eSIM — 제휴",
 }
 
+SHINOKUBO_KOREAN_A8 = {
+    "id": "shin_okubo_korean",
+    "click_url": os.getenv("A8_SHINOKUBO_KOREAN_CLICK_URL", ""),
+    "image_url": os.getenv("A8_SHINOKUBO_KOREAN_BANNER_URL", ""),
+    "pixel_url": os.getenv("A8_SHINOKUBO_KOREAN_PIXEL_URL", ""),
+    "label_en": "Shin-Okubo Korean",
+    "label_kr": "신오쿠보 한국어",
+    "desc_en": "Free trial · Korean lessons in Tokyo",
+    "desc_kr": "무료 체험 · 도쿄 신오쿠보 한국어 레슨",
+    "alt_en": "Shin-Okubo Language School Korean lessons — affiliate",
+    "alt_kr": "신오쿠보어학원 한국어 레슨 — 제휴",
+}
+
 
 def _enabled() -> bool:
     return os.getenv("A8_HOUSING_ENABLED", "1").strip().lower() in (
@@ -144,6 +174,15 @@ def _is_oakhouse_stay(stay_id: str = "", operator: str = "") -> bool:
     sid = (stay_id or "").lower()
     op = (operator or "").lower()
     return sid.startswith("oakhouse_") or "oakhouse" in op
+
+
+def _is_shin_okubo_stay(stay_id: str = "") -> bool:
+    sid = (stay_id or "").lower()
+    return "shin_okubo" in sid or "shinokubo" in sid
+
+
+def _korean_banner_active() -> bool:
+    return bool(SHINOKUBO_KOREAN_A8["click_url"].strip())
 
 
 def _banner_copy(banner: dict[str, str], *, lang: str) -> dict[str, str]:
@@ -206,6 +245,13 @@ def a8_housing_context(
     # Stay detail EN: Agoda in the same one-row (not a second block)
     if page_kind == "stay_detail" and not is_kr:
         banners.append(_banner_copy(AGODA_A8, lang=lang))
+    if (
+        page_kind == "stay_detail"
+        and not is_kr
+        and _is_shin_okubo_stay(stay_id)
+        and _korean_banner_active()
+    ):
+        banners.append(_banner_copy(SHINOKUBO_KOREAN_A8, lang=lang))
 
     if not banners:
         return _empty()
@@ -258,16 +304,24 @@ def a8_travel_context(
         banners.append(_banner_copy(TORA_ESIM_A8, lang=lang))
     elif guide_key in GUIDE_A8_TRAVEL:
         banners.append(_banner_copy(AGODA_A8, lang=lang))
+    elif guide_key in GUIDE_A8_KOREAN and _korean_banner_active():
+        banners.append(_banner_copy(SHINOKUBO_KOREAN_A8, lang=lang))
     elif kind in ("school", "university"):
         banners.append(_banner_copy(TORA_ESIM_A8, lang=lang))
+        if guide_key in GUIDE_A8_KOREAN_SCHOOLS and _korean_banner_active():
+            banners.append(_banner_copy(SHINOKUBO_KOREAN_A8, lang=lang))
 
     if not banners:
         return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
 
+    has_korean = any(b["id"] == "shin_okubo_korean" for b in banners)
+    has_travel = any(b["id"] in ("agoda", "tora_esim") for b in banners)
+    title = "Learn Korean in Tokyo" if has_korean and not has_travel else "Travel partners"
+
     return {
         "show_a8_banners": True,
         "a8_banners": banners,
-        "a8_banners_title": "Travel partners",
+        "a8_banners_title": title,
         "a8_banners_note": "Affiliate ads · opens in new tab",
     }
 
