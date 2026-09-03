@@ -1,4 +1,4 @@
-{# A8.net housing banners — Oakhouse / Cross One Room (one-row) #}
+{# A8.net housing partners — Oakhouse / Cross / Agoda (text buttons) #}
 {% if show_a8_housing and a8_housing_banners %}
 {% set _panel = a8_housing_in_booking_panel | default(false) %}
 <aside class="a8-banners a8-housing{% if _panel %} a8-housing--in-panel{% else %} affiliate-box affiliate-box--a8{% endif %}"
@@ -19,14 +19,10 @@
                title="{{ banner.label }}{% if banner.desc %} — {{ banner.desc }}{% endif %}"
                data-track="affiliate_a8"
                data-track-label="{{ banner.id }}">
-                <img class="a8-banners__img"
-                     src="{{ banner.image_url }}"
-                     alt="{{ banner.alt }}"
-                     width="300"
-                     height="250"
-                     loading="lazy"
-                     decoding="async">
                 <span class="a8-banners__label">{{ banner.label }}</span>
+                {% if banner.desc %}
+                <span class="a8-banners__desc">{{ banner.desc }}</span>
+                {% endif %}
             </a>
             <img class="a8-affiliate-pixel" src="{{ banner.pixel_url }}" width="1" height="1" alt="" aria-hidden="true">
         </div>

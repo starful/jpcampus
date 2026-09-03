@@ -106,3 +106,22 @@ def test_shin_okubo_stay_korean_banner(monkeypatch):
     )
     ids = [b["id"] for b in ctx["a8_housing_banners"]]
     assert ids == ["cross_oneroom", "agoda", "shin_okubo_korean"]
+
+
+def test_rendered_a8_uses_text_buttons_not_images():
+    from fastapi.testclient import TestClient
+
+    from app.main import app
+
+    client = TestClient(app)
+    travel = client.get("/guide/sim-card-guide")
+    assert travel.status_code == 200
+    assert "a8-banners__img" not in travel.text
+    assert "TORA eSIM" in travel.text
+    assert "px.a8.net" in travel.text
+
+    stay = client.get("/stay/oakhouse_994")
+    if stay.status_code == 200:
+        assert "a8-banners__img" not in stay.text
+        assert "a8-banners__label" in stay.text
+        assert "Agoda" in stay.text
