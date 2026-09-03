@@ -97,6 +97,33 @@ class RouteSmokeTests(unittest.TestCase):
         self.assertIn("share-bar", guide_response.text)
         self.assertIn("count-like", school_response.text)
 
+    def test_housing_serp_title_matches_search_intent(self):
+        from app.seo import build_meta_title
+        from app.seo_overrides import _load, serp_override
+
+        _load.cache_clear()
+        ov = serp_override("housing", "en")
+        self.assertIsNotNone(ov)
+        meta = build_meta_title(ov["title"], "en")
+        self.assertLessEqual(len(meta), 68)
+        self.assertIn("Share Houses", meta)
+        self.assertIn("Dorms", meta)
+        self.assertIn("Japan", meta)
+        self.assertTrue(meta.endswith("| JP Campus"))
+
+        response = self.client.get("/guide/housing")
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(
+            "<title>[2026] Share Houses &amp; Dorms for Students in Japan | JP Campus</title>",
+            response.text,
+        )
+        self.assertIn(
+            "Share Houses &amp; Dorms for International Students in Japan",
+            response.text,
+        )
+        self.assertIn("/guide/tokyo-student-housing-operators", response.text)
+        self.assertNotIn("Renting Made Easy", response.text)
+
     def test_favicon_and_manifest_routes_exist(self):
         for path in [
             "/favicon.ico",

@@ -1,6 +1,16 @@
 {
   "high_ctr_slugs": ["coe-denial", "university-clubs"],
   "serp_overrides": {
+    "housing": {
+      "en": {
+        "title": "Share Houses & Dorms for Students in Japan",
+        "description": "Compare share houses, university dorms, and rentals for international students in Japan. Tokyo prices, no guarantor, and what to book before arrival."
+      },
+      "kr": {
+        "title": "일본 유학생 쉐어하우스·기숙사 비교",
+        "description": "도쿄 기숙사·쉐어하우스·원룸 초기비용과 보증인 여부를 비교합니다. 입국 전 예약할 유형을 고르는 기준을 정리했습니다."
+      }
+    },
     "amazon-prime-student": {
       "en": {
         "title": "Amazon Prime Student Japan: Price, Benefits & Eligibility (2026)",
@@ -28,30 +38,30 @@
     "housing": {
       "en": [
         {
-          "q": "What are the main housing options for international students in Japan?",
-          "a": "Most students choose between school dormitories (ryo), share houses, or private apartments. Each differs in upfront costs, flexibility, and commute time."
+          "q": "Do Japanese universities have dorms for international students?",
+          "a": "Many do, but places are limited and often last one year. If the school dorm is full, a share house is the usual no-guarantor backup in Tokyo and other cities."
         },
         {
-          "q": "Which housing type usually has the lowest move-in cost?",
-          "a": "School dormitories often have lower upfront costs than private apartments, but availability and rules vary by school."
+          "q": "What is the cheapest student housing in Tokyo?",
+          "a": "School dorms are usually cheapest to move into. Share houses cost more per month than a far-out dorm but skip key money and a Japanese guarantor. Central Tokyo studios often exceed ¥90,000."
         },
         {
-          "q": "What should I check before signing a rental contract in Japan?",
-          "a": "Review key money (reikin), deposit (shikikin), renewal fees, fire insurance, and cancellation terms with your school or agent."
+          "q": "Can international students rent a share house in Japan without a guarantor?",
+          "a": "Yes. Major share-house operators typically use an in-house contract instead of a personal Japanese guarantor. Private apartments usually still require a guarantor company."
         }
       ],
       "kr": [
         {
-          "q": "일본 유학생 주거는 어떤 선택지가 있나요?",
-          "a": "기숙사(寮), 쉐어하우스, 자취(원룸·아파트)가 대표적이며 초기비용·통학·규칙이 서로 다릅니다."
+          "q": "일본 대학은 유학생 기숙사가 있나요?",
+          "a": "있는 학교가 많지만 정원은 적고 1년 제한인 경우가 흔합니다. 기숙사가 없으면 도쿄 등에서는 보증인 없이 들어가는 쉐어하우스가 일반적인 대안입니다."
         },
         {
-          "q": "초기비용을 줄이려면 어떤 유형이 유리할까요?",
-          "a": "학교 기숙사는 원룸 대비 초기비용 부담이 적은 경우가 많지만, 공실과 규칙을 먼저 확인해야 합니다."
+          "q": "도쿄 유학생 숙소 중 초기비용이 적은 유형은?",
+          "a": "학교 기숙사가 입주 비용이 가장 낮은 편입니다. 쉐어하우스는 월세는 더 나와도 예금·보증인이 거의 없습니다. 도심 원룸은 월 9만 엔을 넘는 경우가 많습니다."
         },
         {
-          "q": "계약 전 꼭 확인해야 할 항목은 무엇인가요?",
-          "a": "礼金·敷金·更新料·火災保険·解約条件 등을 서면으로 확인하고, 학교 안내 또는 공인 중개와 절차를 맞추는 것이 안전합니다."
+          "q": "유학생이 보증인 없이 쉐어하우스에 들어갈 수 있나요?",
+          "a": "주요 쉐어하우스 운영사는 개인 연대보증 대신 자체 계약으로 받는 경우가 많습니다. 일반 원룸은 보증회사 가입이 보통입니다."
         }
       ]
     },

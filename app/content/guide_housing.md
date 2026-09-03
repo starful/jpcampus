@@ -1,24 +1,23 @@
 ---
 category: Housing
-date: '2026-07-20'
-description: Find student housing in Japan easily. Compare dorms, share houses, and
-  apartments. Learn how to rent without a guarantor today!
+date: '2026-09-03'
+description: Compare share houses, university dorms, and rentals for international students
+  in Japan. Tokyo prices, no guarantor, and what to book before arrival.
 id: housing
 lang: en
 layout: guide
-seo_description: Find student housing in Japan easily. Compare dorms, share houses,
-  and apartments. Learn how to rent without a guarantor today!
-seo_title: 'Japan Student Housing Guide: Renting Made Easy | JPCampus'
+seo_description: Compare share houses, university dorms, and rentals for international
+  students in Japan. Tokyo prices, no guarantor, and what to book before arrival.
+seo_title: Share Houses & Dorms for Students in Japan
 tags:
 - Housing
 thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
-title: 'Japan Student Housing Guide: Renting Dorms, Share Houses & Apartments'
+title: Share Houses & Dorms for International Students in Japan
 ---
 
+**Most international students in Japan start in a university dormitory or a share house — not a private apartment.** Both are furnished, skip the Japanese guarantor in most cases, and cost far less to move into than a Tokyo rental.
 
-Finding safe, affordable, and convenient student housing in Japan is one of the most critical steps in planning your study abroad journey. Whether you are moving to Tokyo, Kyoto, Osaka, or a regional university town, your choice of accommodation will shape your daily life, your budget, and your social integration.
-
-For international students, the Japanese rental market presents unique hurdles, from complex upfront fees like *shikikin* (deposit) and *reikin* (key money) to the requirement of a guarantor (*hoshonin*). This guide simplifies the process by comparing the three primary housing pathways: university dormitories, shared houses, and private apartments.
+If you are searching for **student housing in Tokyo** (or Osaka/Kyoto) before your COE or school dorm assignment, use the table below, then pick one path. For operators that book in English with no guarantor, see [Tokyo student housing operators](/guide/tokyo-student-housing-operators).
 
 ---
 
@@ -38,9 +37,21 @@ To help you make an immediate, informed decision, the table below summarizes the
 
 ---
 
-## 1. University & Private Dormitories: Hassle-Free Community Living
+## Student housing in Tokyo
 
-For incoming international students, school-affiliated or private student dormitories (*ryu*) represent the softest landing spot. These facilities are designed specifically to ease the transition into Japanese life.
+Tokyo student accommodation is expensive next to campus and cheap if you accept a 30–40 minute commute.
+
+*   **Central (Shinjuku, Shibuya, Takadanobaba):** a tiny studio often runs **¥90,000+** per month. Language-school students cluster here; share houses are usually the only no-guarantor option at that location.
+*   **30–40 minutes out (Seibu Shinjuku, Odakyu, Toei Mita):** rent often falls to **¥55,000–¥70,000**. University dorms and private student dorms (Dormy / WID) are more common on this belt.
+*   **April intake:** start looking by January. October intake is quieter but still books out near popular schools.
+
+Utilities are bundled in most dorms and share houses. In a private apartment they are not — summer/winter AC can add ¥15,000–¥20,000.
+
+---
+
+## 1. Dormitory for international students
+
+For incoming international students, a school-affiliated or private student dormitory (*ryo*) is the softest landing. These facilities are built to ease the first months in Japan.
 
 ### School-Managed vs. Private Student Dorms
 Most universities offer dedicated dormitories for international students. These may be on-campus or a short commute away. Additionally, companies like Kyoritsu Maintenance (which operates WID and Dormy residences) partner with universities to provide high-quality private student dorms.
@@ -53,9 +64,9 @@ Dormitories generally offer single or shared rooms equipped with a desk, bed, wa
 
 ---
 
-## 2. Share Houses: The Social and Flexible Alternative
+## 2. Share house for international students in Japan
 
-If you value independence but still want a built-in social network, a **dormitory/share house for international students** strikes the perfect balance. Share houses have surged in popularity across major cities like Tokyo and Osaka.
+If you want a private room without a Japanese guarantor, a **share house for international students in Japan** is the usual next choice after (or instead of) a school dorm. Operators such as Oakhouse, Borderless House, and GG House book in English and are common in Tokyo, Osaka, and Kyoto.
 
 ### How Share Houses Work
 In a share house, you rent a private bedroom while sharing the kitchen, living room, bathrooms, and showers with other residents. Major operators—such as Oakhouse, Borderless House, and GG House Club—actively curate an international environment, often aiming for a 50/50 split between foreign students and young Japanese professionals.
@@ -142,10 +153,7 @@ Use this step-by-step checklist to determine which housing path matches your pro
 
 ---
 
-## Essential Tips for Tokyo and Major Cities
+## Where to look next
 
-If you are looking for **Tokyo student accommodation**, keep these regional realities in mind:
-
-*   **Commute Time vs. Rent:** Living right next to central hubs like Shinjuku, Shibuya, or Takadanobaba (home to many Japanese language schools) will easily cost ¥90,000+ per month for a tiny studio. By commuting 30 to 40 minutes out on lines like the Seibu Shinjuku Line, Odakyu Line, or Toei Mita Line, your rent can drop to ¥55,000–¥70,000.
-*   **The Utility Trap:** In private apartments, utilities (electricity, gas, water) are rarely included. In winter and summer, heavy air conditioner use can add ¥15,000 to ¥20,000 to your monthly expenses. Share houses and dorms generally cap these costs in a flat communal fee.
-*   **Start Your Search Early:** The Japanese academic year begins in April, with a smaller intake in October. Peak housing competition occurs from January to March. Begin your search at least three months before your arrival to secure the best options.
+*   [Tokyo student housing operators](/guide/tokyo-student-housing-operators) — share houses, guesthouses, and monthly mansions that take international students without a personal guarantor.
+*   Ask your school’s international office **before** you pay a private agent. Many universities hold dorm rooms until a set deadline; missing that date is how students end up in a last-minute share house (which is still a valid plan).
