@@ -148,5 +148,16 @@
   "compare_copy_url": "비교 링크 복사",
   "compare_copy_text": "비교 텍스트 복사",
   "compare_copied": "복사됨!",
-  "compare_related_guides": "관련 가이드"
+  "compare_related_guides": "관련 가이드",
+  "workbook_box_label": "무료 워크북",
+  "workbook_free_badge": "무료 PDF · 영어",
+  "workbook_box_title": "인쇄용 체크리스트",
+  "workbook_box_desc": "학교에 가져갈 빈칸 워크시트입니다. 법률·임대 자문이 아닙니다. 더 두꺼운 유료판은 따로 만들 예정입니다.",
+  "workbook_box_note": "지금은 영어만 있습니다. 통장·신분증을 JP Campus로 보내지 마세요.",
+  "workbook_coe_title": "COE 재정 서류",
+  "workbook_coe_desc": "재류자격인정증명서 서류 자가 점검.",
+  "workbook_arrival_title": "도착 후 14일",
+  "workbook_arrival_desc": "공항, 구약소, 건보, 전화, 은행.",
+  "workbook_housing_title": "숙소·보증인",
+  "workbook_housing_desc": "기숙·셰어·맨션과 保証会社 비용."
 }

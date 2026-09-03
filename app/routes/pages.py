@@ -11,6 +11,7 @@ from fastapi.responses import HTMLResponse, PlainTextResponse, RedirectResponse,
 from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY, SHOW_STAYS_UI
 from app.a8_affiliate import a8_housing_context, a8_travel_context
 from app.affiliate import affiliate_context
+from app.workbooks import workbook_context
 from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content, load_stay_content
 from app.content_badges import enrich_items
 from app.deps import templates
@@ -358,6 +359,7 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(stay_id, lang=lang, item_type="stay"),
+        **workbook_context(lang, page_kind="stay_detail"),
         **a8_housing_context(
             page_kind="stay_detail",
             lang=lang,
@@ -407,6 +409,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
         **affiliate_context(slug, lang=lang, item_type="guide"),
+        **workbook_context(lang, guide_slug=slug),
         **a8_housing_context(page_kind="housing_guide", lang=lang, guide_slug=slug),
         **a8_travel_context(
             page_kind="travel_guide",
@@ -517,6 +520,7 @@ async def stay_list(request: Request, lang: str = Query("en")):
             ),
             "Browse student housing options across Japan.",
         ),
+        **workbook_context(lang, page_kind="stays_list"),
         **a8_housing_context(page_kind="stays_list", lang=lang),
     })
 

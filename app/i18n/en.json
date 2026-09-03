@@ -148,5 +148,16 @@
   "compare_copy_url": "Copy comparison link",
   "compare_copy_text": "Copy as text",
   "compare_copied": "Copied!",
-  "compare_related_guides": "Related guides"
+  "compare_related_guides": "Related guides",
+  "workbook_box_label": "Free workbooks",
+  "workbook_free_badge": "Free PDF · English",
+  "workbook_box_title": "Printable checklist",
+  "workbook_box_desc": "Fill-in worksheets to use with your school. Not legal or rental advice. A longer paid edition may come later.",
+  "workbook_box_note": "English only for now. Do not send bank statements or ID scans to JP Campus.",
+  "workbook_coe_title": "COE financial documents",
+  "workbook_coe_desc": "Certificate of Eligibility paperwork self-check.",
+  "workbook_arrival_title": "First 14 days in Japan",
+  "workbook_arrival_desc": "Airport, ward office, insurance, phone, bank.",
+  "workbook_housing_title": "Housing & guarantor",
+  "workbook_housing_desc": "Dorm, share house, apartment, and 保証会社 fees."
 }

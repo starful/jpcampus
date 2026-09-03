@@ -560,6 +560,66 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     color: #a8a29e;
     line-height: 1.4;
 }
+.workbook-box {
+    margin: 0 0 28px;
+    padding: 22px 24px 18px;
+    background: linear-gradient(180deg, #eff6ff 0%, #f8fafc 100%);
+    border: 2px solid #3b82f6;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.1);
+    text-align: center;
+}
+.workbook-box__kicker {
+    margin: 0 0 6px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1d4ed8;
+}
+.workbook-box__title {
+    margin: 0 0 8px;
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    line-height: 1.4;
+}
+.workbook-box__desc {
+    margin: 0 auto 16px;
+    max-width: 36rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: #475569;
+}
+.workbook-box__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.workbook-box__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    border-radius: 999px;
+    font-size: 0.92rem;
+    font-weight: 800;
+    color: #fff !important;
+    text-decoration: none;
+    background: #2563eb;
+    transition: transform 0.15s, background 0.15s;
+}
+.workbook-box__btn:hover {
+    transform: translateY(-2px);
+    background: #1d4ed8;
+}
+.workbook-box__note {
+    margin: 12px 0 0;
+    font-size: 0.78rem;
+    line-height: 1.45;
+    color: #64748b;
+}
 .affiliate-box__note {
     margin: 12px 0 0;
     font-size: 0.75rem;
