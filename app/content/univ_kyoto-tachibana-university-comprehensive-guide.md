@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Tachibana University
   name_ja: 京都橘大学
 category: university
-date: '2026-07-20'
+date: '2026-08-31'
 faculties:
 - Faculty of Humanities
 - Faculty of International Studies
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 
 ## 🏫 University Overview

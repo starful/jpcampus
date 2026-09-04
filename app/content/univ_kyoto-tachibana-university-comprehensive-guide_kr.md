@@ -5,7 +5,7 @@ basic_info:
   name_en: Kyoto Tachibana University
   name_ja: 京都橘大学
 category: university
-date: '2026-07-20'
+date: '2026-08-31'
 description: 교토의 전통과 최첨단 기술이 공존하는 교토 타치바나 대학교의 학부 정보, 입시 가이드 및 유학생을 위한 풍부한 지원 혜택을
   확인해 보세요.
 faculties:
@@ -42,6 +42,7 @@ tuition:
   admission_fee: 200000
   yearly_tuition: 1150000
 ---
+
 
 
 ## 🏫 대학 개요

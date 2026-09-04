@@ -5,7 +5,7 @@ basic_info:
   name_en: Chugoku Gakuen University
   name_ja: 中国学園大学
 category: university
-date: '2026-07-20'
+date: '2026-08-31'
 faculties:
 - Faculty of Modern Life Studies
 - Faculty of International Liberal Arts
@@ -38,6 +38,7 @@ seo_title: Chugoku Gakuen University (Okayama) 2026 Guide | JP Campus
 seo_description: 'Chugoku Gakuen University in Okayama, Japan: faculties, tuition
   clues, campus life, and admission guidance for international students.'
 ---
+
 
 
 

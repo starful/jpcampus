@@ -5,7 +5,7 @@ basic_info:
   name_en: Hirosaki University
   name_ja: 弘前大学
 category: university
-date: '2026-07-20'
+date: '2026-08-31'
 faculties:
 - Faculty of Humanities and Social Sciences
 - Faculty of Education
@@ -36,6 +36,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 
 ## 🏫 University Overview

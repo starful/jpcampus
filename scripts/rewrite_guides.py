@@ -23,10 +23,10 @@ PLAN_PATH = ROOT / "data" / "content_diet" / "plan.json"
 
 REWRITE_HINTS = {
     "housing": (
-        "Target queries: student housing Japan, dormitory/share house for international students, "
-        "Tokyo student accommodation. Compare dorm vs share house vs apartment with upfront costs "
-        "(shikikin/reikin/agency), monthly rent ranges, guarantor issues, and a clear decision checklist. "
-        "Include practical tables. Lead with answer-first summary."
+        "Target queries (do not chase operator brand names like Sakura House Ikebukuro): "
+        "share house for international students japan, dormitory for international students japan, "
+        "student housing tokyo. Lead with dorm vs share house vs apartment; Tokyo commute vs rent; "
+        "no-guarantor options. Keep the comparison table. Link to tokyo-student-housing-operators."
     ),
     "amazon-prime-student": (
         "Focus on Student membership eligibility for international students in Japan, pricing, "

@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/14701
 category: stay
-date: '2026-08-22'
+date: '2026-08-31'
 description: 요코하마시 먼슬리맨션 크레비스타 요코하마 야무타. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -59,6 +59,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_14701.jpg
 title: 크레비스타 요코하마 야무타 — 요코하마시 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 
