@@ -5,7 +5,7 @@ basic_info:
   name_en: Hirosaki University
   name_ja: 弘前大学
 category: university
-date: '2026-07-20'
+date: '2026-08-31'
 description: 아오모리현에 위치한 히로사키 대학교는 일본의 명문 국립 대학 중 하나입니다. 사과 연구, 신재생에너지, 저렴한 생활비 등이
   특징입니다.
 faculties:
@@ -39,6 +39,7 @@ tuition:
   admission_fee: 282000
   yearly_tuition: 535800
 ---
+
 
 
 ## 🏫 대학교 개요

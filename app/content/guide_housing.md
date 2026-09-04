@@ -1,19 +1,22 @@
 ---
 category: Housing
 date: '2026-09-03'
-description: Compare share houses, university dorms, and rentals for international students
-  in Japan. Tokyo prices, no guarantor, and what to book before arrival.
+description: 'Find student apartments in Tokyo and dorms at Japanese universities:
+  costs, no-guarantor options, and what international students should book first.'
 id: housing
 lang: en
 layout: guide
-seo_description: Compare share houses, university dorms, and rentals for international
-  students in Japan. Tokyo prices, no guarantor, and what to book before arrival.
-seo_title: Share Houses & Dorms for Students in Japan
+seo_description: 'Find student apartments in Tokyo and dorms at Japanese universities:
+  costs, no-guarantor options, and what international students should book first.'
+seo_title: Tokyo Student Apartments & Dorms in Japan
 tags:
 - Housing
 thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
-title: Share Houses & Dorms for International Students in Japan
+title: Tokyo Student Apartments & Dorms in Japan
 ---
+Most Japanese universities offer some on-campus or affiliated dormitories, but spots are limited and often reserved for first-year or exchange students, so many international students end up renting private student apartments or share houses instead. In Tokyo, options range from single-room studios to shared houses, and some listings don't require a Japanese guarantor, which is a common hurdle for newcomers.
+
+If you're weighing dorms vs. apartments for rent, dorms tend to be cheaper and come furnished but have stricter rules and shared common spaces, while private apartments and share houses offer more independence and more flexible lease lengths.
 
 **Most international students in Japan start in a university dormitory or a share house — not a private apartment.** Both are furnished, skip the Japanese guarantor in most cases, and cost far less to move into than a Tokyo rental.
 

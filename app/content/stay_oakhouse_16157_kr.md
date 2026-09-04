@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/16157
 category: stay
-date: '2026-08-22'
+date: '2026-08-31'
 description: 고베시 먼슬리맨션 프레상스 고베 셀레스티아. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -67,6 +67,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_16157.jpg
 title: 프레상스 고베 셀레스티아 — 고베시 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

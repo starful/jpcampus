@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/15852
 category: stay
-date: '2026-08-22'
+date: '2026-08-31'
 description: 일본 먼슬리맨션 MQuarto 쇼난 해안 공원 Ⅱ. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -65,6 +65,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_15852.jpg
 title: MQuarto 쇼난 해안 공원 Ⅱ — 일본 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

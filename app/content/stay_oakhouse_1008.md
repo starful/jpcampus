@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/house/1008
 category: stay
-date: '2026-08-22'
+date: '2026-08-31'
 description: Kanagawa share house for international students. Foreigner-friendly housing
   near schools. Confirm details on the operator site.
 entity: stay
@@ -58,6 +58,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_1008.jpg
 title: GRAN YOMIURILAND MAE — Kanagawa Student Share House
 ---
+
 
 ## About this property
 

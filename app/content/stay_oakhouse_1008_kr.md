@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/house/1008
 category: stay
-date: '2026-08-22'
+date: '2026-08-31'
 description: 카와사키시 셰어하우스 그랑 요미우리랜드마에. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -54,6 +54,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_1008.jpg
 title: 그랑 요미우리랜드마에 — 카와사키시 유학생 셰어하우스
 ---
+
 
 ## 시설 소개
 
