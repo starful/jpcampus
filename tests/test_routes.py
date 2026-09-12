@@ -118,11 +118,43 @@ class RouteSmokeTests(unittest.TestCase):
             response.text,
         )
         self.assertIn(
-            "Share Houses &amp; Dorms for International Students in Japan",
+            "Student Apartments &amp; Dorms in Tokyo, Japan",
             response.text,
         )
         self.assertIn("/guide/tokyo-student-housing-operators", response.text)
         self.assertNotIn("Renting Made Easy", response.text)
+
+    def test_gym_and_prime_serp_titles_fit_68(self):
+        from app.seo import build_meta_title
+        from app.seo_overrides import _load, serp_override
+
+        _load.cache_clear()
+        gym = serp_override("gym-memberships-japan", "en")
+        prime = serp_override("amazon-prime-student", "en")
+        self.assertIsNotNone(gym)
+        self.assertIsNotNone(prime)
+        gym_meta = build_meta_title(gym["title"], "en")
+        prime_meta = build_meta_title(prime["title"], "en")
+        self.assertLessEqual(len(gym_meta), 68)
+        self.assertLessEqual(len(prime_meta), 68)
+        self.assertNotIn("[2026] [2026]", gym_meta)
+        self.assertIn("ChocoZAP", gym_meta)
+        self.assertIn("Prime Student", prime_meta)
+        self.assertTrue(gym_meta.endswith("| JP Campus"))
+        self.assertTrue(prime_meta.endswith("| JP Campus"))
+
+        gym_page = self.client.get("/guide/gym-memberships-japan")
+        self.assertEqual(gym_page.status_code, 200)
+        self.assertIn(
+            "<title>[2026] ChocoZAP vs Municipal Gyms in Japan | JP Campus</title>",
+            gym_page.text,
+        )
+        prime_page = self.client.get("/guide/amazon-prime-student")
+        self.assertEqual(prime_page.status_code, 200)
+        self.assertIn(
+            "<title>[2026] Prime Student Japan: Price &amp; Eligibility | JP Campus</title>",
+            prime_page.text,
+        )
 
     def test_favicon_and_manifest_routes_exist(self):
         for path in [

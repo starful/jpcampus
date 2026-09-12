@@ -1,6 +1,12 @@
 {
   "high_ctr_slugs": ["coe-denial", "university-clubs"],
   "serp_overrides": {
+    "gym-memberships-japan": {
+      "en": {
+        "title": "ChocoZAP vs Municipal Gyms in Japan",
+        "description": "ChocoZAP vs municipal gyms in Japan: no-contract visits, 24/7 access, and which is cheaper for students."
+      }
+    },
     "housing": {
       "en": {
         "title": "Share Houses & Dorms for Students in Japan",
@@ -13,8 +19,8 @@
     },
     "amazon-prime-student": {
       "en": {
-        "title": "Amazon Prime Student Japan: Price, Benefits & Eligibility (2026)",
-        "description": "Prime Student Japan pricing vs regular Prime, shipping benefits, Prime Video, student eligibility, and whether it saves money for international students."
+        "title": "Prime Student Japan: Price & Eligibility",
+        "description": "Prime Student Japan price vs regular Prime, 6-month free trial, shipping and Video, plus who qualifies."
       },
       "kr": {
         "title": "일본 아마존 프라임 스튜던트: 가격·혜택·가입 조건 (2026)",

@@ -1,17 +1,17 @@
 ---
 category: Budget
 date: '2026-07-20'
-description: 'Prime Student Japan 2026: 50% off pricing, 6-month free trial, shipping
-  & Prime Video perks, plus eligibility rules for international students.'
+description: Prime Student Japan price vs regular Prime, 6-month free trial, shipping
+  and Video, plus who qualifies.
 id: amazon-prime-student
 layout: guide
-seo_description: See Prime Student Japan's 2026 pricing (half of regular Prime), the
-  6-month free trial, shipping/Video perks, and who actually qualifies to join.
-seo_title: 'Amazon Prime Student Japan 2026: Price, Perks & Eligibility'
+seo_description: Prime Student Japan price vs regular Prime, 6-month free trial, shipping
+  and Video, plus who qualifies.
+seo_title: 'Prime Student Japan: Price & Eligibility'
 tags:
 - Budget
 thumbnail: https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500
-title: 'Amazon Prime Student Japan (2026): 50% Off & Eligibility'
+title: 'Prime Student Japan: Price & Eligibility'
 ---
 **Updated for 2026:** Amazon Prime Student Japan still runs at half the price of regular Prime, and the 6-month free trial remains the easiest way to test whether the shipping, Prime Video, and student-only perks are worth it before you pay anything.
 
