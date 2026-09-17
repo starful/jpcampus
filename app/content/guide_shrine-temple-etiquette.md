@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "shrine-temple-etiquette",
-  "title": "Visiting Shrines & Temples: A Simple Guide",
+  "title": "[2026] Shrine &amp; Temple Etiquette in Japan: A Beginner&#39;s Guide | JP Campus",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "The difference between a 'jinja' and 'tera' and how to pray.",
+  "description": "The difference between a &#39;jinja&#39; and &#39;tera&#39;, plus shrine and temple etiquette: torii gates, purification, and how to pray in Japan.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Shrine &amp; Temple Etiquette in Japan: Jinja vs Tera Guide | JP Campus",
+  "seo_description": "Shrine vs temple etiquette in Japan: torii gates, purification rituals, bowing customs, and how to pray — a guide for students and visitors."
 }
 ---
+
 
 
 # Visiting Shrines & Temples: A Comprehensive Guide for International Students
@@ -137,3 +140,12 @@ Living in Japan as an international student offers more than just academic growt
 Don't be afraid to make mistakes! The Japanese people are generally very forgiving of international visitors who show a sincere effort to learn. The next time you walk through a Torii gate or smell the incense of a Sanmon gate, take a deep breath, follow the steps, and enjoy the profound sense of history and peace that these places offer.
 
 **Happy exploring, and may your studies in Japan be filled with "Great Blessings"!**
+
+## Quick Etiquette Tips for First-Time Visitors
+
+- Bow slightly and avoid walking through the center of the path when passing through a torii gate.
+- Rinse your hands and mouth at the chōzuya purification fountain before approaching the main hall.
+- At shrines, follow the two bows, two claps, one bow prayer method; at temples, simply bow with hands together.
+- Keep your voice low, dress modestly, and check signage before taking photos inside halls.
+
+This routine works well whether you're visiting for a festival, an exam-season prayer, or just sightseeing.
