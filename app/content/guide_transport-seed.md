@@ -2,18 +2,20 @@
 {
   "layout": "guide",
   "id": "transport-seed",
-  "title": "Commuter Pass Japan: Student Suica/Pasmo Guide",
+  "title": "[2026] Student Commuter Pass Japan: Suica & Pasmo Discount Guide | JP Campus",
   "category": "Life",
   "tags": [
     "Life"
   ],
-  "description": "How does Japan's commuter pass (teiki) work for international and foreign students? Compare Suica/Pasmo student discounts, eligibility, and setup.",
+  "description": "Yes—Suica and Pasmo offer discounted student teiki passes. See who qualifies and how to set yours up before term starts.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Commuter Pass Japan: Student Suica/Pasmo Guide",
-  "seo_description": "How does Japan's commuter pass (teiki) work for international and foreign students? Compare Suica/Pasmo student discounts, eligibility, and setup."
+  "seo_title": "[2026] Student Commuter Pass Japan: Suica & Pasmo Discount Guide | JP Campus",
+  "seo_description": "Yes—Suica and Pasmo offer discounted student teiki passes. See who qualifies and how to set yours up before term starts."
 }
 ---
+**Still paying full fare to class?** Japan's student teiki discount can meaningfully cut your daily commute cost — but only if your enrollment certificate, route, and IC card are set up correctly. Here's exactly what qualifies, what to bring to the ticket window, and how to load the discount onto your Suica or Pasmo before the term rush hits.
+
 International students studying in Japan can use the same student commuter pass (teiki) system as Japanese students, whether it's loaded onto a Suica or Pasmo IC card. To qualify for the discounted student teiki, you'll typically need a certificate of enrollment from your school and a valid commuting route between your home and school.
 
 If you're wondering how much a commuter pass costs, the exact fare depends on your specific route and distance, so it's best to confirm the price directly at your local station's ticket window (窓口) or through the Suica/Pasmo app before you apply.

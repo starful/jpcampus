@@ -1,19 +1,23 @@
 ---
 category: Housing
 date: '2026-09-03'
-description: 'Find student apartments in Tokyo and dorms at Japanese universities:
-  costs, no-guarantor options, and what international students should book first.'
+description: Compare student dorms, share houses, and rentals in Japan. See real Tokyo
+  cost ranges, no-guarantor picks, and what to book before arrival.
 id: housing
 lang: en
 layout: guide
-seo_description: 'Find student apartments in Tokyo and dorms at Japanese universities:
-  costs, no-guarantor options, and what international students should book first.'
-seo_title: Tokyo Student Apartments & Dorms in Japan
+seo_description: Dorms, share houses, or rentals? Compare costs and no-guarantor options
+  for international students in Japan before you book.
+seo_title: '[2026] Student Housing in Japan: Dorms vs Share Houses (No Guarantor)
+  | JP Campus'
 tags:
 - Housing
 thumbnail: https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500
-title: Tokyo Student Apartments & Dorms in Japan
+title: '[2026] Student Housing in Japan: Dorms, Share Houses &amp; No-Guarantor Options
+  | JP Campus'
 ---
+**Not sure where to start?** Most incoming students skip the guesswork by comparing dorms, share houses, and apartments side by side before committing to a lease — the table below is the fastest way to see which option fits your budget and timeline.
+
 Most Japanese universities offer some on-campus or affiliated dormitories, but spots are limited and often reserved for first-year or exchange students, so many international students end up renting private student apartments or share houses instead. In Tokyo, options range from single-room studios to shared houses, and some listings don't require a Japanese guarantor, which is a common hurdle for newcomers.
 
 If you're weighing dorms vs. apartments for rent, dorms tend to be cheaper and come furnished but have stricter rules and shared common spaces, while private apartments and share houses offer more independence and more flexible lease lengths.
