@@ -161,6 +161,13 @@ def affiliate_context(
             "jp_esim_button_label": "",
         }
 
+    # Housing + eSIM guides: A8 Oakhouse/Cross/TORA is the primary CTA.
+    # Hide Rakuten Ichiba bedding/WiFi so it does not sit above partner buttons.
+    from app.a8_affiliate import A8_PRIORITY_GUIDE_SLUGS
+
+    if key in A8_PRIORITY_GUIDE_SLUGS:
+        return _hidden()
+
     mapped = GUIDE_AFFILIATE_MAP.get(key)
     show_rakuten = bool(mapped)
     show_jp_esim = is_kr and key in GUIDE_PREP_ESIM and not show_rakuten

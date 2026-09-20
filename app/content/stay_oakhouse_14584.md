@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/14584
 category: stay
-date: '2026-09-17'
+date: '2026-09-20'
 description: Kawasaki monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -60,6 +60,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_14584.jpg
 title: Genovia Nakanoshima — Kawasaki Student Monthly Mansion
 ---
+
 
 ## About this property
 

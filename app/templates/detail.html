@@ -76,6 +76,13 @@
         {% endif %}
     </header>
 
+    {# Primary A8 CTAs above the fold (housing · eSIM) — before hero. #}
+    {% if item_type == 'guide' and show_a8_housing %}
+    {% include 'partials/a8_housing_banners.html' %}
+    {% elif item_type == 'guide' and show_a8_banners %}
+    {% include 'partials/a8_banners.html' %}
+    {% endif %}
+
     {% if item_type == 'guide' and item.get('thumbnail') %}
     <figure class="detail-hero">
         <img
@@ -97,16 +104,11 @@
     </figure>
     {% endif %}
 
-    {% if item_type in ('guide', 'school', 'university') %}
+    {% if item_type in ('school', 'university') %}
     {% include 'partials/affiliate_box.html' %}
     {% include 'partials/a8_banners.html' %}
     {% endif %}
     {% include 'partials/workbook_box.html' %}
-
-    {# Housing guides only — stay detail banners live inside Ready to book #}
-    {% if show_a8_housing and item_type != 'stay' %}
-    {% include 'partials/a8_housing_banners.html' %}
-    {% endif %}
 
     {% if item_type == 'stay' %}
     <div class="info-grid detail-info-grid detail-info-grid--stay">
@@ -191,6 +193,17 @@
     {% endif %}
 
     <div class="detail-content">{{ content_body | safe }}</div>
+
+    {# Bottom A8 repeat on housing / eSIM guides (no second pixel). #}
+    {% if item_type == 'guide' and show_a8_housing and a8_housing_banners %}
+    {% set a8_repeat_banners = a8_housing_banners %}
+    {% set a8_repeat_title = a8_housing_title %}
+    {% include 'partials/a8_repeat_cta.html' %}
+    {% elif item_type == 'guide' and show_a8_banners and a8_banners %}
+    {% set a8_repeat_banners = a8_banners %}
+    {% set a8_repeat_title = a8_banners_title %}
+    {% include 'partials/a8_repeat_cta.html' %}
+    {% endif %}
 
     {% if item_type == 'stay' and show_a8_housing %}
     <section class="stay-booking-panel">

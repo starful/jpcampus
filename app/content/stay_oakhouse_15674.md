@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/15674
 category: stay
-date: '2026-09-17'
+date: '2026-09-20'
 description: Osaka monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -71,6 +71,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_15674.jpg
 title: Pleasant Minamihorie The Sense — Osaka Student Monthly Mansion
 ---
+
 
 ## About this property
 
