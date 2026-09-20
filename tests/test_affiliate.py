@@ -17,19 +17,19 @@ def test_rakuten_search_url_encoded():
     assert "search.rakuten.co.jp" in url
 
 
-def test_english_sim_guide_shows_rakuten_shop():
+def test_english_sim_guide_defers_to_a8_tora():
     ctx = affiliate_context("sim-card-guide", lang="en")
-    assert ctx["show_affiliate"] is True
-    assert ctx["show_rakuten"] is True
-    assert "ポケットWiFi" in ctx["affiliate_keyword"]
+    assert ctx["show_affiliate"] is False
 
 
-def test_korean_sim_guide_shows_rakuten_shop():
+def test_korean_sim_guide_defers_to_a8_tora():
     ctx = affiliate_context("sim-card-guide_kr", lang="kr")
-    assert ctx["show_affiliate"] is True
-    assert ctx["show_rakuten"] is True
-    assert ctx["show_jp_esim"] is False
-    assert "ポケットWiFi" in ctx["affiliate_keyword"]
+    assert ctx["show_affiliate"] is False
+
+
+def test_housing_guide_hides_rakuten_bedding():
+    ctx = affiliate_context("housing", lang="en")
+    assert ctx["show_affiliate"] is False
 
 
 def test_korean_jlpt_guide_no_klook():
@@ -104,6 +104,18 @@ def test_esim_guide_a8_tora():
     )
     assert ctx["show_a8_banners"] is True
     assert ctx["a8_banners"][0]["id"] == "tora_esim"
+
+
+def test_esim_guide_a8_tora_kr():
+    ctx = a8_travel_context(
+        page_kind="travel_guide",
+        lang="kr",
+        guide_slug="sim-card-guide",
+        item_type="guide",
+    )
+    assert ctx["show_a8_banners"] is True
+    assert ctx["a8_banners"][0]["id"] == "tora_esim"
+    assert "eSIM" in ctx["a8_banners_title"] or "eSIM" in ctx["a8_banners"][0]["label"]
 
 
 def test_urban_tokyo_guide_korean_banner(monkeypatch):

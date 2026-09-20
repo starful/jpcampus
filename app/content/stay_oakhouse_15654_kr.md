@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/15654
 category: stay
-date: '2026-09-17'
+date: '2026-09-20'
 description: 요시 먼슬리맨션 프레상스 후쿠시마 미드엘. 외국인 친화 숙소. 근처 어학원·대학과 함께 JP Campus에서 비교하세요.
 entity: stay
 faq:
@@ -66,6 +66,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_15654.jpg
 title: 프레상스 후쿠시마 미드엘 — 요시 유학생 먼슬리맨션
 ---
+
 
 ## 시설 소개
 

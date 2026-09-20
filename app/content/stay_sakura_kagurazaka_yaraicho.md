@@ -7,7 +7,7 @@ basic_info:
   operator: Sakura House
 booking_url: https://www.sakura-house.com/building/kagurazaka-yaraicho
 category: stay
-date: '2026-09-17'
+date: '2026-09-20'
 description: Shinjuku share house for international students. Foreigner-friendly housing
   near schools. Confirm details on the operator site.
 entity: stay
@@ -77,6 +77,7 @@ thumbnail: /static/images/stay_sakura_kagurazaka_yaraicho.jpg
 title: SAKURA HOUSE KAGURAZAKA YARAICHO (APARTMENT & SHARE HOUSE) — Shinjuku Student
   Share House
 ---
+
 
 ## About this property
 

@@ -7,7 +7,7 @@ basic_info:
   operator: Oakhouse
 booking_url: https://www.oakhouse.jp/eng/apartment/17251
 category: stay
-date: '2026-09-17'
+date: '2026-09-20'
 description: Kanagawa monthly mansion for international students. Foreigner-friendly
   housing near schools. Confirm details on the operator site.
 entity: stay
@@ -63,6 +63,7 @@ tags:
 thumbnail: /static/images/stay_oakhouse_17251.jpg
 title: Genovia Futago Shinchi — Kanagawa Student Monthly Mansion
 ---
+
 
 ## About this property
 

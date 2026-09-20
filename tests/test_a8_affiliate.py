@@ -119,6 +119,18 @@ def test_rendered_a8_uses_text_buttons_not_images():
     assert "a8-banners__img" not in travel.text
     assert "TORA eSIM" in travel.text
     assert "px.a8.net" in travel.text
+    # Early (above hero) + bottom repeat
+    assert travel.text.count("data-track-label=\"tora_esim\"") >= 1
+    assert "tora_esim-repeat" in travel.text
+    assert "ポケットWiFi" not in travel.text
+    assert "hb.afl.rakuten.co.jp" not in travel.text
+
+    housing = client.get("/guide/housing")
+    assert housing.status_code == 200
+    assert "Oakhouse" in housing.text
+    assert "Cross One Room" in housing.text
+    assert "oakhouse-repeat" in housing.text
+    assert "Check share houses" in housing.text
 
     stay = client.get("/stay/oakhouse_994")
     if stay.status_code == 200:
