@@ -2,17 +2,19 @@
 {
   "layout": "guide",
   "id": "train-pass",
-  "title": "Saving on Travel: The 'Teikiken' (Commuter Pass)",
+  "title": "[2026] Teikiken Guide: Student Commuter Pass Discounts in Japan | JP Campus",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "How student commuter passes can save you money.",
+  "description": "Get the student discount on Japan's Teikiken commuter pass. Our 2026 guide covers eligibility, how to apply, and ways to cut your daily commute cost.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "[2026] Teikiken Guide: Student Commuter Pass Discounts | JP Campus",
+  "seo_description": "Get the student discount on Japan's Teikiken commuter pass. Our 2026 guide covers eligibility, how to apply, and ways to cut your daily commute cost."
 }
 ---
-
+**Quick answer:** If you commute to a Japanese university or language school, the student Teikiken can meaningfully cut your regular fare — and applying is simpler than it looks once you know the steps. Below, we cover how to qualify for the student discount, how to pick the right pass length for your schedule, and the mistakes that end up costing students money.
 
 # Saving on Travel: The 'Teikiken' (Commuter Pass) – Your Ultimate Guide as an International Student in Japan
 

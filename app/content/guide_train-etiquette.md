@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "train-etiquette",
-  "title": "Japanese Train Etiquette: 10 Things Not to Do",
+  "title": "[2026] Japanese Train Etiquette: 10 Rules Students & Tourists Must Know | JP Campus",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
   "description": "From phone calls to eating on the train.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "[2026] Japanese Train Etiquette: 10 Rules Students & Tourists Must Know | JP Campus",
+  "seo_description": "Avoid awkward mistakes on Japanese trains: phone calls, eating, priority seats & more. A practical etiquette guide for international students and tourists."
 }
 ---
+
 
 
 # Mastering the Rails: A Comprehensive Guide to Japanese Train Etiquette for International Students
@@ -118,3 +121,7 @@ Beyond the "don'ts," here are a few "dos" to make your student life easier:
 Learning these 10 rules might feel overwhelming at first, but they will quickly become second nature. Following train etiquette is one of the fastest ways to show respect for Japanese culture and integrate into your local community. When you stand in line, silence your phone, and keep your backpack in front of you, you are sending a signal to everyone around you: "I respect your space, and I am part of this society."
 
 The Japanese rail system is a marvel of human engineering and social cooperation. By doing your part, you contribute to the legendary comfort and efficiency that makes living and studying in Japan such a world-class experience. So, grab your Suica or Pasmo card, line up behind the yellow line, and enjoy the ride! Happy travels!
+
+## Quick Etiquette Checklist for First-Time Riders
+
+Short on time? Here's the fast version: switch your phone to silent (*manner mode*) and skip calls, keep conversations quiet, avoid eating on short commuter rides (longer limited-express or Shinkansen trips are more relaxed), and give up priority seats near the doors when someone needs them. Follow the platform queue markings, let passengers exit before you board, and keep bags off the seats during busy hours. These small habits make a big difference in blending in and riding stress-free.

@@ -6,7 +6,7 @@ basic_info:
   website: https://www.musabi.ac.jp/
 category: university
 date: '2026-07-20'
-description: 무사시노미술대 지원을 위한 2026 실전 가이드입니다. 지원요건, 포트폴리오 준비, 학비, 유학생 생활 포인트를 정리했습니다.
+description: 무사비 지원요건부터 포트폴리오 준비, 학비까지 한눈에. 2026 무사시노미술대 유학 실전 가이드로 지원 전략을 확인하세요.
 faculties:
 - 油絵学科 (Department of Oil Painting)
 - 彫刻学科 (Department of Sculpture)
@@ -38,13 +38,15 @@ tags:
 - Dormitory
 - Scholarship
 thumbnail: /static/img/pin-univ.png
-title: '무사시노미술대 유학 가이드 2026: 지원요건·포트폴리오·학비'
+title: '[2026] 무사시노미술대 유학 체크리스트: 지원요건·포트폴리오·학비 | JP Campus'
 translated: true
 tuition:
   admission_fee: 300000
   yearly_tuition: 1800000
+seo_title: '[2026] 무사시노미술대 유학 체크리스트: 지원요건·포트폴리오·학비 | JP Campus'
+seo_description: 무사비 지원 전 꼭 확인할 지원요건·포트폴리오·학비 핵심만 정리했습니다. 2026 무사시노미술대 유학 가이드 바로 확인하세요.
 ---
-
+무사시노미술대(무사비) 유학을 고민 중이라면, 지원요건부터 포트폴리오 준비 방향, 학비 부담까지 미리 점검해두는 것이 합격 가능성을 높이는 첫걸음입니다. 아래에서 무사비 지원 전 반드시 확인해야 할 핵심 포인트를 순서대로 정리했습니다.
 
 ## 대학 개요 및 명성
 
