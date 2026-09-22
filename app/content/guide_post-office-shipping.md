@@ -2,17 +2,19 @@
 {
   "layout": "guide",
   "id": "post-office-shipping",
-  "title": "How to Ship Packages at Japan Post",
+  "title": "Japan Post Shipping Guide 2026: EMS vs SAL vs Surface | JP Campus",
   "category": "Settlement",
   "tags": [
     "Settlement"
   ],
-  "description": "Sending gifts home using EMS, SAL, or Surface mail.",
+  "description": "Compare EMS, SAL, and Surface mail costs, speed, and customs steps to ship packages from Japan Post the smart way.",
   "thumbnail": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Japan Post Shipping Guide 2026: EMS vs SAL vs Surface | JP Campus",
+  "seo_description": "Compare EMS, SAL, and Surface mail costs, speed, and customs steps to ship packages from Japan Post the smart way."
 }
 ---
-
+**Quick answer:** EMS gets there fastest but costs the most, Surface is the cheapest but slowest, and SAL splits the difference. Below, we break down exactly which one fits your budget and timeline, plus how to fill out the customs form so your package doesn't get held up at the counter.
 
 # Master the Mail: A Comprehensive Guide to International Shipping via Japan Post
 
