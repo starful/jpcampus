@@ -5,6 +5,15 @@ from __future__ import annotations
 import os
 from typing import Any, Literal
 
+try:
+    from agoda_partners import url_for_location
+except ImportError:
+    from .agoda_partners import url_for_location
+
+def _agoda_partners_url(lang: str | None = "en") -> str:
+    return url_for_location(lang=lang, country="jp", default_city=5085)
+
+
 A8PageKind = Literal["stays_list", "stay_detail", "housing_guide", "travel_guide"]
 
 GUIDE_A8_ESIM: frozenset[str] = frozenset(
@@ -110,24 +119,15 @@ CROSS_ONEROOM_A8 = {
 
 AGODA_A8 = {
     "id": "agoda",
-    "click_url": os.getenv(
-        "A8_AGODA_CLICK_URL",
-        "https://px.a8.net/svt/ejp?a8mat=4BAH9J+13AMPE+4X1W+5ZMCH",
-    ),
-    "image_url": os.getenv(
-        "A8_AGODA_BANNER_URL",
-        "https://www28.a8.net/svt/bgt?aid=260829415066&wid=001&eno=01&mid=s00000022946001006000&mc=1",
-    ),
-    "pixel_url": os.getenv(
-        "A8_AGODA_PIXEL_URL",
-        "https://www17.a8.net/0.gif?a8mat=4BAH9J+13AMPE+4X1W+5ZMCH",
-    ),
+    "click_url": "",  # filled by _agoda_partners_url(lang)
+    "image_url": "",
+    "pixel_url": "",
     "label_en": "Agoda",
     "label_kr": "Agoda",
     "desc_en": "Hotels and stays near campus",
     "desc_kr": "캠퍼스 주변 숙소·호텔",
-    "alt_en": "Agoda — affiliate",
-    "alt_kr": "Agoda — 제휴",
+    "alt_en": "Agoda — hotels",
+    "alt_kr": "Agoda — 숙소",
 }
 
 TORA_ESIM_A8 = {
@@ -192,11 +192,18 @@ def _korean_banner_active() -> bool:
 
 def _banner_copy(banner: dict[str, str], *, lang: str) -> dict[str, str]:
     is_kr = (lang or "en").lower() in ("kr", "ko")
+    click = banner["click_url"]
+    image = banner["image_url"]
+    pixel = banner["pixel_url"]
+    if banner.get("id") == "agoda":
+        click = _agoda_partners_url(lang)
+        image = ""
+        pixel = ""
     return {
         "id": banner["id"],
-        "click_url": banner["click_url"],
-        "image_url": banner["image_url"],
-        "pixel_url": banner["pixel_url"],
+        "click_url": click,
+        "image_url": image,
+        "pixel_url": pixel,
         "alt": banner["alt_kr"] if is_kr else banner["alt_en"],
         "label": banner["label_kr"] if is_kr else banner["label_en"],
         "desc": banner["desc_kr"] if is_kr else banner["desc_en"],
