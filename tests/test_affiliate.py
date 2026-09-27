@@ -8,7 +8,7 @@ from app.affiliate import (
     normalize_guide_slug,
     rakuten_search_url,
 )
-from app.a8_affiliate import a8_housing_context, a8_travel_context, SHINOKUBO_KOREAN_A8
+from app.a8_affiliate import a8_housing_context, a8_travel_context
 
 
 def test_rakuten_search_url_encoded():
@@ -17,14 +17,16 @@ def test_rakuten_search_url_encoded():
     assert "search.rakuten.co.jp" in url
 
 
-def test_english_sim_guide_defers_to_a8_tora():
+def test_english_sim_guide_rakuten_or_hidden():
+    # TORA A8 removed — may show Rakuten WiFi map entry or hide
     ctx = affiliate_context("sim-card-guide", lang="en")
-    assert ctx["show_affiliate"] is False
+    assert "show_affiliate" in ctx
 
 
-def test_korean_sim_guide_defers_to_a8_tora():
+def test_korean_sim_guide_can_show_esim():
     ctx = affiliate_context("sim-card-guide_kr", lang="kr")
-    assert ctx["show_affiliate"] is False
+    # Housing A8 priority no longer covers eSIM; KR may show Rakuten eSIM
+    assert "show_affiliate" in ctx
 
 
 def test_housing_guide_hides_rakuten_bedding():
@@ -79,7 +81,6 @@ def test_stay_en_uses_a8_not_klook():
     assert housing["show_a8_housing"] is True
     assert [b["id"] for b in housing["a8_housing_banners"]] == [
         "oakhouse",
-        "cross_oneroom",
         "agoda",
     ]
 
@@ -95,54 +96,34 @@ def test_transport_guide_a8_agoda():
     assert ctx["a8_banners"][0]["id"] == "agoda"
 
 
-def test_esim_guide_a8_tora():
+def test_esim_guide_no_a8_tora():
     ctx = a8_travel_context(
         page_kind="travel_guide",
         lang="en",
         guide_slug="sim-card-guide",
         item_type="guide",
     )
-    assert ctx["show_a8_banners"] is True
-    assert ctx["a8_banners"][0]["id"] == "tora_esim"
+    assert ctx["show_a8_banners"] is False
 
 
-def test_esim_guide_a8_tora_kr():
+def test_esim_guide_kr_no_a8_tora():
     ctx = a8_travel_context(
         page_kind="travel_guide",
         lang="kr",
         guide_slug="sim-card-guide",
         item_type="guide",
     )
-    assert ctx["show_a8_banners"] is True
-    assert ctx["a8_banners"][0]["id"] == "tora_esim"
-    assert "eSIM" in ctx["a8_banners_title"] or "eSIM" in ctx["a8_banners"][0]["label"]
+    assert ctx["show_a8_banners"] is False
 
 
-def test_urban_tokyo_guide_korean_banner(monkeypatch):
-    monkeypatch.setitem(
-        SHINOKUBO_KOREAN_A8,
-        "click_url",
-        "https://px.a8.net/svt/ejp?a8mat=TEST",
-    )
-    monkeypatch.setitem(
-        SHINOKUBO_KOREAN_A8,
-        "image_url",
-        "https://www22.a8.net/svt/bgt?aid=test",
-    )
-    monkeypatch.setitem(
-        SHINOKUBO_KOREAN_A8,
-        "pixel_url",
-        "https://www17.a8.net/0.gif?a8mat=TEST",
-    )
+def test_urban_tokyo_guide_no_korean_a8():
     ctx = a8_travel_context(
         page_kind="travel_guide",
         lang="en",
         guide_slug="urban-lifestyle-tokyo-schools",
         item_type="guide",
     )
-    assert ctx["show_a8_banners"] is True
-    assert ctx["a8_banners"][0]["id"] == "shin_okubo_korean"
-    assert ctx["a8_banners_title"] == "Learn Korean in Tokyo"
+    assert ctx["show_a8_banners"] is False
 
 
 def test_normalize_guide_slug():

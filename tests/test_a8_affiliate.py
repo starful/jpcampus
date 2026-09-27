@@ -3,17 +3,16 @@
 from app.a8_affiliate import (
     HOUSING_A8_GUIDE_SLUGS,
     OAKHOUSE_A8,
-    SHINOKUBO_KOREAN_A8,
     a8_housing_context,
     oakhouse_booking_url,
 )
 
 
-def test_stays_list_shows_both_banners():
+def test_stays_list_shows_oakhouse_only():
     ctx = a8_housing_context(page_kind="stays_list", lang="en")
     assert ctx["show_a8_housing"] is True
     ids = [b["id"] for b in ctx["a8_housing_banners"]]
-    assert ids == ["oakhouse", "cross_oneroom"]
+    assert ids == ["oakhouse"]
 
 
 def test_oakhouse_stay_detail():
@@ -25,10 +24,10 @@ def test_oakhouse_stay_detail():
     )
     assert ctx["show_a8_housing"] is True
     ids = [b["id"] for b in ctx["a8_housing_banners"]]
-    assert ids == ["oakhouse", "cross_oneroom", "agoda"]
+    assert ids == ["oakhouse", "agoda"]
 
 
-def test_sakura_stay_shows_cross_and_agoda_one_row():
+def test_sakura_stay_shows_agoda_only():
     ctx = a8_housing_context(
         page_kind="stay_detail",
         lang="en",
@@ -36,27 +35,25 @@ def test_sakura_stay_shows_cross_and_agoda_one_row():
         stay_operator="Sakura House",
     )
     ids = [b["id"] for b in ctx["a8_housing_banners"]]
-    assert ids == ["cross_oneroom", "agoda"]
+    assert ids == ["agoda"]
 
 
-def test_sakura_stay_kr_no_agoda():
+def test_sakura_stay_kr_no_banners():
     ctx = a8_housing_context(
         page_kind="stay_detail",
         lang="kr",
         stay_id="sakura_sunshine_city",
         stay_operator="Sakura House",
     )
-    ids = [b["id"] for b in ctx["a8_housing_banners"]]
-    assert ids == ["cross_oneroom"]
+    assert ctx["show_a8_housing"] is False
 
 
-def test_housing_guide_shows_banners():
+def test_housing_guide_shows_oakhouse():
     ctx = a8_housing_context(page_kind="housing_guide", lang="kr", guide_slug="housing")
     assert ctx["show_a8_housing"] is True
-    assert len(ctx["a8_housing_banners"]) == 2
+    assert len(ctx["a8_housing_banners"]) == 1
     assert ctx["a8_housing_banners"][0]["alt"] == OAKHOUSE_A8["alt_kr"]
     assert ctx["a8_housing_banners"][0]["label"] == OAKHOUSE_A8["label_kr"]
-    assert ctx["a8_housing_banners"][1]["label"] == "크로스 원룸"
 
 
 def test_non_housing_guide_hidden():
@@ -82,53 +79,24 @@ def test_housing_guide_slug_set_nonempty():
     assert "tokyo-student-housing-operators" in HOUSING_A8_GUIDE_SLUGS
 
 
-def test_shin_okubo_stay_korean_banner(monkeypatch):
-    monkeypatch.setitem(
-        SHINOKUBO_KOREAN_A8,
-        "click_url",
-        "https://px.a8.net/svt/ejp?a8mat=TEST",
-    )
-    monkeypatch.setitem(
-        SHINOKUBO_KOREAN_A8,
-        "image_url",
-        "https://www22.a8.net/svt/bgt?aid=test",
-    )
-    monkeypatch.setitem(
-        SHINOKUBO_KOREAN_A8,
-        "pixel_url",
-        "https://www17.a8.net/0.gif?a8mat=TEST",
-    )
-    ctx = a8_housing_context(
-        page_kind="stay_detail",
-        lang="en",
-        stay_id="shin_okubo_monthly",
-        stay_operator="Sakura House",
-    )
-    ids = [b["id"] for b in ctx["a8_housing_banners"]]
-    assert ids == ["cross_oneroom", "agoda", "shin_okubo_korean"]
-
-
 def test_rendered_a8_uses_text_buttons_not_images():
     from fastapi.testclient import TestClient
 
     from app.main import app
 
     client = TestClient(app)
-    travel = client.get("/guide/sim-card-guide")
+    travel = client.get("/guide/transport-ic")
     assert travel.status_code == 200
     assert "a8-banners__img" not in travel.text
-    assert "TORA eSIM" in travel.text
-    assert "px.a8.net" in travel.text
-    # Early (above hero) + bottom repeat
-    assert travel.text.count("data-track-label=\"tora_esim\"") >= 1
-    assert "tora_esim-repeat" in travel.text
-    assert "ポケットWiFi" not in travel.text
-    assert "hb.afl.rakuten.co.jp" not in travel.text
+    assert "Travel partners" in travel.text
+    assert "Agoda" in travel.text
+    assert "agoda.com/partners" in travel.text
+    assert "TORA" not in travel.text
 
     housing = client.get("/guide/housing")
     assert housing.status_code == 200
     assert "Oakhouse" in housing.text
-    assert "Cross One Room" in housing.text
+    assert "Cross One Room" not in housing.text
     assert "oakhouse-repeat" in housing.text
     assert "Check share houses" in housing.text
 

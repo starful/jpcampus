@@ -76,11 +76,9 @@
         {% endif %}
     </header>
 
-    {# Primary A8 CTAs above the fold (housing · eSIM) — before hero. #}
+    {# Primary A8 CTAs above the fold for housing only — travel/eSIM once at bottom. #}
     {% if item_type == 'guide' and show_a8_housing %}
     {% include 'partials/a8_housing_banners.html' %}
-    {% elif item_type == 'guide' and show_a8_banners %}
-    {% include 'partials/a8_banners.html' %}
     {% endif %}
 
     {% if item_type == 'guide' and item.get('thumbnail') %}

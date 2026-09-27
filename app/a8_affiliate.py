@@ -1,4 +1,7 @@
-"""A8.net housing + travel affiliate banners for JP Campus."""
+"""A8.net housing + travel affiliate banners for JP Campus.
+
+Oakhouse (A8) + Agoda Partners. Cross One Room / TORA / Shin-Okubo removed.
+"""
 
 from __future__ import annotations
 
@@ -10,20 +13,13 @@ try:
 except ImportError:
     from .agoda_partners import url_for_location
 
+
 def _agoda_partners_url(lang: str | None = "en") -> str:
     return url_for_location(lang=lang, country="jp", default_city=5085)
 
 
 A8PageKind = Literal["stays_list", "stay_detail", "housing_guide", "travel_guide"]
 
-GUIDE_A8_ESIM: frozenset[str] = frozenset(
-    {
-        "sim-card-guide",
-        "cheap-phone-accessories",
-        "internet-setup",
-        "soft-bank-air-vs-fiber",
-    }
-)
 GUIDE_A8_TRAVEL: frozenset[str] = frozenset(
     {
         "transport-ic",
@@ -34,23 +30,6 @@ GUIDE_A8_TRAVEL: frozenset[str] = frozenset(
         "capsule-hotels-etiquette",
         "golden-week",
         "onsen-etiquette",
-    }
-)
-GUIDE_A8_KOREAN: frozenset[str] = frozenset(
-    {
-        "urban-lifestyle-tokyo-schools",
-        "part-time-restrictions",
-        "part-time-delivery-jobs",
-        "student-discounts",
-    }
-)
-GUIDE_A8_KOREAN_SCHOOLS: frozenset[str] = frozenset(
-    {
-        "school_yoshida-japanese-language-academy",
-        "school_waseda-language-academy",
-        "school_waseda-gaigo-senmon-gakko-tokyo",
-        "school_waseda-edu-japanese-language-school",
-        "school_unitas-japanese-language-school-tokyo-campus",
     }
 )
 
@@ -70,8 +49,8 @@ HOUSING_A8_GUIDE_SLUGS: frozenset[str] = frozenset(
     }
 )
 
-# Guides where A8 partners are the primary CTA (not Rakuten Ichiba bedding/WiFi).
-A8_PRIORITY_GUIDE_SLUGS: frozenset[str] = HOUSING_A8_GUIDE_SLUGS | GUIDE_A8_ESIM
+# Housing guides: Oakhouse A8 is primary CTA (not Rakuten Ichiba bedding).
+A8_PRIORITY_GUIDE_SLUGS: frozenset[str] = HOUSING_A8_GUIDE_SLUGS
 
 OAKHOUSE_A8 = {
     "id": "oakhouse",
@@ -95,31 +74,9 @@ OAKHOUSE_A8 = {
     "alt_kr": "오크하우스 셰어하우스 — 제휴",
 }
 
-CROSS_ONEROOM_A8 = {
-    "id": "cross_oneroom",
-    "click_url": os.getenv(
-        "A8_CROSS_ONEROOM_CLICK_URL",
-        "https://px.a8.net/svt/ejp?a8mat=4BACLH+3L731U+4EZ2+BYDTT",
-    ),
-    "image_url": os.getenv(
-        "A8_CROSS_ONEROOM_BANNER_URL",
-        "https://www21.a8.net/svt/bgt?aid=260823365217&wid=001&eno=01&mid=s00000020603002008000&mc=1",
-    ),
-    "pixel_url": os.getenv(
-        "A8_CROSS_ONEROOM_PIXEL_URL",
-        "https://www16.a8.net/0.gif?a8mat=4BACLH+3L731U+4EZ2+BYDTT",
-    ),
-    "label_en": "Cross One Room",
-    "label_kr": "크로스 원룸",
-    "desc_en": "Furnished Tokyo apartments from ¥38,000/mo",
-    "desc_kr": "도쿄 월 3.8만엔부터 · 가구·가전 포함",
-    "alt_en": "Cross One Room furnished apartments in Tokyo — affiliate",
-    "alt_kr": "크로스 원룸 도쿄 가구·가전 포함 원룸 — 제휴",
-}
-
 AGODA_A8 = {
     "id": "agoda",
-    "click_url": "",  # filled by _agoda_partners_url(lang)
+    "click_url": "",
     "image_url": "",
     "pixel_url": "",
     "label_en": "Agoda",
@@ -128,41 +85,6 @@ AGODA_A8 = {
     "desc_kr": "캠퍼스 주변 숙소·호텔",
     "alt_en": "Agoda — hotels",
     "alt_kr": "Agoda — 숙소",
-}
-
-TORA_ESIM_A8 = {
-    "id": "tora_esim",
-    "click_url": os.getenv(
-        "A8_TORA_ESIM_CLICK_URL",
-        "https://px.a8.net/svt/ejp?a8mat=4BAH9I+GEM0VM+5NG6+5ZEMP",
-    ),
-    "image_url": os.getenv(
-        "A8_TORA_ESIM_BANNER_URL",
-        "https://www23.a8.net/svt/bgt?aid=260829414992&wid=001&eno=01&mid=s00000026367001005000&mc=1",
-    ),
-    "pixel_url": os.getenv(
-        "A8_TORA_ESIM_PIXEL_URL",
-        "https://www10.a8.net/0.gif?a8mat=4BAH9I+GEM0VM+5NG6+5ZEMP",
-    ),
-    "label_en": "TORA eSIM",
-    "label_kr": "TORA eSIM",
-    "desc_en": "Travel eSIM for arrival in Japan",
-    "desc_kr": "일본 도착용 여행 eSIM",
-    "alt_en": "TORA eSIM — affiliate",
-    "alt_kr": "TORA eSIM — 제휴",
-}
-
-SHINOKUBO_KOREAN_A8 = {
-    "id": "shin_okubo_korean",
-    "click_url": os.getenv("A8_SHINOKUBO_KOREAN_CLICK_URL", ""),
-    "image_url": os.getenv("A8_SHINOKUBO_KOREAN_BANNER_URL", ""),
-    "pixel_url": os.getenv("A8_SHINOKUBO_KOREAN_PIXEL_URL", ""),
-    "label_en": "Shin-Okubo Korean",
-    "label_kr": "신오쿠보 한국어",
-    "desc_en": "Free trial · Korean lessons in Tokyo",
-    "desc_kr": "무료 체험 · 도쿄 신오쿠보 한국어 레슨",
-    "alt_en": "Shin-Okubo Language School Korean lessons — affiliate",
-    "alt_kr": "신오쿠보어학원 한국어 레슨 — 제휴",
 }
 
 
@@ -179,15 +101,6 @@ def _is_oakhouse_stay(stay_id: str = "", operator: str = "") -> bool:
     sid = (stay_id or "").lower()
     op = (operator or "").lower()
     return sid.startswith("oakhouse_") or "oakhouse" in op
-
-
-def _is_shin_okubo_stay(stay_id: str = "") -> bool:
-    sid = (stay_id or "").lower()
-    return "shin_okubo" in sid or "shinokubo" in sid
-
-
-def _korean_banner_active() -> bool:
-    return bool(SHINOKUBO_KOREAN_A8["click_url"].strip())
 
 
 def _banner_copy(banner: dict[str, str], *, lang: str) -> dict[str, str]:
@@ -229,41 +142,27 @@ def a8_housing_context(
     stay_operator: str = "",
     guide_slug: str = "",
 ) -> dict[str, Any]:
-    """Oakhouse / Cross One Room on stays and housing guides."""
+    """Oakhouse on stays and housing guides; Agoda on stay detail (EN)."""
     if not _enabled():
         return _empty()
 
     is_kr = (lang or "en").lower() in ("kr", "ko")
     guide_key = (guide_slug or "").removesuffix("_kr").removeprefix("guide_")
     show_oakhouse = False
-    show_cross = False
 
     if page_kind == "stays_list":
         show_oakhouse = True
-        show_cross = True
     elif page_kind == "stay_detail":
         if _is_oakhouse_stay(stay_id, stay_operator):
             show_oakhouse = True
-        show_cross = True
     elif page_kind == "housing_guide" and guide_key in HOUSING_A8_GUIDE_SLUGS:
         show_oakhouse = True
-        show_cross = True
 
     banners: list[dict[str, str]] = []
     if show_oakhouse:
         banners.append(_banner_copy(OAKHOUSE_A8, lang=lang))
-    if show_cross:
-        banners.append(_banner_copy(CROSS_ONEROOM_A8, lang=lang))
-    # Stay detail EN: Agoda in the same one-row (not a second block)
     if page_kind == "stay_detail" and not is_kr:
         banners.append(_banner_copy(AGODA_A8, lang=lang))
-    if (
-        page_kind == "stay_detail"
-        and not is_kr
-        and _is_shin_okubo_stay(stay_id)
-        and _korean_banner_active()
-    ):
-        banners.append(_banner_copy(SHINOKUBO_KOREAN_A8, lang=lang))
 
     if not banners:
         return _empty()
@@ -274,13 +173,12 @@ def a8_housing_context(
         else "Affiliate ads · opens in a new tab"
     )
     if page_kind == "stay_detail":
-        # Panel already has Ready to book? — skip duplicate section title
         title = ""
     elif page_kind == "housing_guide":
         title = (
-            "셰어하우스·원룸 먼저 확인"
+            "셰어하우스 먼저 확인"
             if is_kr
-            else "Check share houses & furnished rooms first"
+            else "Check share houses first"
         )
     else:
         title = "유학생 숙소 제휴" if is_kr else "Student housing partners"
@@ -303,57 +201,26 @@ def a8_travel_context(
     guide_slug: str = "",
     item_type: str = "guide",
 ) -> dict[str, Any]:
-    """Agoda / TORA eSIM on travel prep guides (EN + KR for eSIM)."""
+    """Agoda Partners on travel prep guides (EN)."""
     if not _enabled():
         return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
 
     is_kr = (lang or "en").lower() in ("kr", "ko")
     guide_key = (guide_slug or "").removesuffix("_kr").removeprefix("guide_")
     kind = (item_type or "guide").strip().lower()
-    banners: list[dict[str, str]] = []
 
-    # Stay detail Agoda lives in a8_housing_context (one row with housing)
     if kind == "stay" or page_kind == "stay_detail":
         return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
 
-    # eSIM guides: show TORA for both EN and KR (primary arrival CTA).
-    if guide_key in GUIDE_A8_ESIM:
-        banners.append(_banner_copy(TORA_ESIM_A8, lang=lang))
-    elif is_kr:
-        # Other travel/Korean A8 creatives stay EN-only.
-        return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
-    elif guide_key in GUIDE_A8_TRAVEL:
-        banners.append(_banner_copy(AGODA_A8, lang=lang))
-    elif guide_key in GUIDE_A8_KOREAN and _korean_banner_active():
-        banners.append(_banner_copy(SHINOKUBO_KOREAN_A8, lang=lang))
-    elif kind in ("school", "university"):
-        banners.append(_banner_copy(TORA_ESIM_A8, lang=lang))
-        if guide_key in GUIDE_A8_KOREAN_SCHOOLS and _korean_banner_active():
-            banners.append(_banner_copy(SHINOKUBO_KOREAN_A8, lang=lang))
-
-    if not banners:
+    if is_kr or guide_key not in GUIDE_A8_TRAVEL:
         return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
 
-    has_korean = any(b["id"] == "shin_okubo_korean" for b in banners)
-    has_esim = any(b["id"] == "tora_esim" for b in banners)
-    has_travel = any(b["id"] in ("agoda", "tora_esim") for b in banners)
-    if has_esim and guide_key in GUIDE_A8_ESIM:
-        title = "도착용 eSIM" if is_kr else "Get a Japan eSIM before you arrive"
-    elif has_korean and not has_travel:
-        title = "Learn Korean in Tokyo"
-    else:
-        title = "Travel partners"
-    note = (
-        "제휴 광고 · 새 탭에서 열림"
-        if is_kr
-        else "Affiliate ads · opens in new tab"
-    )
-
+    banners = [_banner_copy(AGODA_A8, lang=lang)]
     return {
         "show_a8_banners": True,
         "a8_banners": banners,
-        "a8_banners_title": title,
-        "a8_banners_note": note,
+        "a8_banners_title": "Travel partners",
+        "a8_banners_note": "Affiliate ads · opens in new tab",
     }
 
 
