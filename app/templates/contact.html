@@ -23,6 +23,12 @@
         .btn:hover { background: #2980b9; }
         .links { margin-top: 28px; font-size: 0.95rem; }
         .links a { color: #3498db; margin: 0 8px; }
+        .notice {
+            text-align: left; margin: 0 auto 28px; max-width: 36rem;
+            padding: 14px 16px; background: #f4f8fc; border-left: 4px solid #3498db;
+            border-radius: 0 8px 8px 0; color: #444; font-size: 0.95rem; line-height: 1.6;
+        }
+        .notice strong { color: #2c3e50; }
     </style>
     {% if ga_measurement_id %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
@@ -44,12 +50,14 @@
         <div class="contact-box">
             {% if current_lang == 'kr' %}
             <h1>문의하기</h1>
-            <p class="subtitle">학교 정보 오류, 피드백, 제휴 문의는 아래 버튼을 이용해 주세요.<br>이름·이메일·제목·메시지를 입력하시면 운영자에게 전달됩니다.</p>
+            <p class="subtitle">학교 정보 오류, 가이드 피드백, 사이트 문제는 아래 폼으로 보내 주세요.</p>
+            <p class="notice"><strong>JP Campus는 정보 사이트입니다.</strong> 학교·출입국 기관이 아니며, 입학 대행, 해외 에이전트 계약, COE/비자 상담, 개인 서류 검토는 하지 않습니다. 특정 학교는 해당 학교 공식 창구로 문의해 주세요.</p>
             <a class="btn" href="https://script.google.com/macros/s/AKfycbw4VlSszEVcOl1Jllgv-3ftTwOyIIZM_V8P0oXXa71rI6KqHtaw7o3igBPen2V1I1Me/exec?site=jpcampus" target="_blank" rel="noopener noreferrer">문의 폼 열기</a>
             <p class="links"><a href="/policy?lang=kr">개인정보 처리방침</a> · <a href="/about?lang=kr">소개</a></p>
             {% else %}
             <h1>Contact Us</h1>
-            <p class="subtitle">School data corrections, feedback, or partnerships?<br>Open the form to send your name, email, subject, and message.</p>
+            <p class="subtitle">School data corrections, guide feedback, or site issues? Open the form below.</p>
+            <p class="notice"><strong>JP Campus is an information site.</strong> We are not a school or visa office. We do not handle admissions, exclusive agent agreements, or COE/visa cases, and we do not review personal documents. For a specific school, contact that school directly.</p>
             <a class="btn" href="https://script.google.com/macros/s/AKfycbw4VlSszEVcOl1Jllgv-3ftTwOyIIZM_V8P0oXXa71rI6KqHtaw7o3igBPen2V1I1Me/exec?site=jpcampus" target="_blank" rel="noopener noreferrer">Open contact form</a>
             <p class="links"><a href="/policy?lang=en">Privacy Policy</a> · <a href="/about?lang=en">About</a></p>
             {% endif %}

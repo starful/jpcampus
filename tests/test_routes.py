@@ -17,6 +17,15 @@ class RouteSmokeTests(unittest.TestCase):
                 response = self.client.get(path)
                 self.assertEqual(response.status_code, 200)
 
+    def test_contact_says_not_a_school(self):
+        en = self.client.get("/contact")
+        self.assertEqual(en.status_code, 200)
+        self.assertIn("not a school or visa office", en.text)
+        self.assertIn("do not review personal documents", en.text)
+        kr = self.client.get("/contact?lang=kr")
+        self.assertEqual(kr.status_code, 200)
+        self.assertIn("학교·출입국 기관이 아니며", kr.text)
+
     def test_core_routes_have_canonical(self):
         target = self.client.get("/schools")
         self.assertIn(f'<link rel="canonical" href="{DOMAIN}/schools">', target.text)
