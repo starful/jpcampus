@@ -110,31 +110,34 @@
 
 <div class="content-wrapper home-sections">
 
-    <div class="quick-actions" aria-label="Quick actions">
-        <a href="/schools?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="schools">
-            <i class="fa-solid fa-school"></i>
-            <span>{{ ui.find_schools }}</span>
-        </a>
-        <a href="/universities?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="universities">
-            <i class="fa-solid fa-building-columns"></i>
-            <span>{{ ui.find_universities }}</span>
-        </a>
-        {% if show_stays_ui %}
-        <a href="/stays?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="stays">
-            <i class="fa-solid fa-house-chimney"></i>
-            <span>{{ ui.find_stays }}</span>
-        </a>
-        {% else %}
-        <a href="/guide/tokyo-student-housing-operators?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="housing-operators">
-            <i class="fa-solid fa-house-chimney"></i>
-            <span>{{ ui.housing_operators_cta }}</span>
-        </a>
-        {% endif %}
-        <a href="/guide?lang={{ current_lang }}" class="quick-action-btn" data-track="quick_action" data-track-label="guides">
-            <i class="fa-solid fa-book-open"></i>
-            <span>{{ ui.read_guides }}</span>
-        </a>
-    </div>
+    <section class="checklist-promo" aria-label="{{ ui.checklist_promo_aria }}">
+        <div class="checklist-promo__copy">
+            <p class="checklist-promo__kicker">{{ ui.checklist_promo_kicker }}</p>
+            <h2 class="checklist-promo__title">{{ ui.checklist_promo_title }}</h2>
+            <p class="checklist-promo__desc">{{ ui.checklist_promo_desc }}</p>
+        </div>
+        <div class="checklist-promo__actions">
+            <a href="/static/checklist-preview/{{ 'kr' if current_lang == 'kr' else 'en' }}/00-flow.html"
+               class="checklist-promo__btn checklist-promo__btn--primary"
+               data-track="cta_checklist"
+               data-track-label="home_preview_{{ current_lang }}"
+               data-track-lang="{{ current_lang }}"
+               data-preview-popup="1"
+               rel="noopener noreferrer">
+                <i class="fa-solid fa-list-check" aria-hidden="true"></i>
+                <span>{{ ui.checklist_promo_preview_cta }}</span>
+            </a>
+            <a href="/static/workbooks/jpcampus-first-14-days-workbook-en.pdf"
+               class="checklist-promo__btn checklist-promo__btn--secondary"
+               download="jpcampus-first-14-days-workbook-en.pdf"
+               data-track="workbook_download"
+               data-track-label="arrival_home_{{ current_lang }}"
+               data-track-lang="{{ current_lang }}">
+                <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+                <span>{{ ui.checklist_promo_workbook_cta }}</span>
+            </a>
+        </div>
+    </section>
 
     <div class="section-header" style="margin-bottom: 20px;">
         <h2 class="section-title" style="color: var(--accent); display: flex; align-items: center; gap: 10px;">
@@ -294,4 +297,21 @@
 <script src="/static/js/filters.js?v=12"></script>
 <script src="/static/js/map.js?v=14"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ maps_api_key }}&callback=initMap&libraries=marker,geometry&v=weekly" async defer></script>
+<script>
+document.addEventListener("click", function (event) {
+    const link = event.target.closest("[data-preview-popup]");
+    if (!link) return;
+    event.preventDefault();
+    const url = link.href;
+    const w = Math.min(960, screen.width - 40);
+    const h = Math.min(860, screen.height - 80);
+    const left = Math.max(0, (screen.width - w) / 2);
+    const top = Math.max(0, (screen.height - h) / 2);
+    const features = "popup=yes,noopener,noreferrer,width=" + w + ",height=" + h + ",left=" + left + ",top=" + top + ",scrollbars=yes,resizable=yes";
+    const win = window.open(url, "jpcampusChecklistPreview", features);
+    if (!win) {
+        window.open(url, "_blank", "noopener,noreferrer");
+    }
+}, true);
+</script>
 {% endblock %}

@@ -2,12 +2,12 @@
 {
   "layout": "guide",
   "id": "academic-calendar",
-  "title": "일본의 학사 일정: 4월 시작에 대한 모든 것",
+  "title": "[2026] 일본 학사일정 완전정리: 4월 입학부터 방학까지 | JP Campus",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "봄에 시작하는 일본 학교 시스템에 대한 이해",
+  "description": "일본 유학 준비 중이라면 필수! 4월 입학 이유, 학기 구성, 방학 시기를 한눈에 정리했습니다. 지금 확인하세요.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
   "features": [
@@ -19,10 +19,12 @@
   "basic_info": {
     "name_en": "The Japanese Academic Year: April Start Explained"
   },
-  "lang": "kr"
+  "lang": "kr",
+  "seo_title": "[2026] 일본 학사일정 완전정리: 4월 입학부터 방학까지 | JP Campus",
+  "seo_description": "일본 유학 준비 중이라면 필수! 4월 입학 이유, 학기 구성, 방학 시기를 한눈에 정리했습니다. 지금 확인하세요."
 }
 ---
-
+일본 유학을 계획 중이라면 4월 입학 학사일정은 꼭 알아야 할 기본 정보입니다. 언제 학기가 시작되고 끝나는지, 방학은 언제인지 미리 파악해두면 학업 적응과 생활 계획이 훨씬 수월해집니다. 아래에서 핵심만 빠르게 확인해 보세요.
 
 ## 일본의 학사 일정: 4월 시작에 대한 모든 것
 
