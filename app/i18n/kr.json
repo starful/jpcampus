@@ -159,5 +159,11 @@
   "workbook_arrival_title": "도착 후 14일",
   "workbook_arrival_desc": "공항, 구약소, 건보, 전화, 은행.",
   "workbook_housing_title": "숙소·보증인",
-  "workbook_housing_desc": "기숙·셰어·맨션과 保証会社 비용."
+  "workbook_housing_desc": "기숙·셰어·맨션과 保証会社 비용.",
+  "checklist_promo_aria": "입국 체크리스트",
+  "checklist_promo_kicker": "미리보기 · 곧 500엔",
+  "checklist_promo_title": "입국 14일 체크리스트",
+  "checklist_promo_desc": "한국어 순서표 HTML 미리보기와, 기존 영어 무료 인쇄 워크북(PDF)을 바로 받을 수 있습니다.",
+  "checklist_promo_preview_cta": "HTML 미리보기 열기",
+  "checklist_promo_workbook_cta": "영어 무료 PDF 받기"
 }

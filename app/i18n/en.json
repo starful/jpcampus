@@ -159,5 +159,11 @@
   "workbook_arrival_title": "First 14 days in Japan",
   "workbook_arrival_desc": "Airport, ward office, insurance, phone, bank.",
   "workbook_housing_title": "Housing & guarantor",
-  "workbook_housing_desc": "Dorm, share house, apartment, and 保証会社 fees."
+  "workbook_housing_desc": "Dorm, share house, apartment, and 保証会社 fees.",
+  "checklist_promo_aria": "Arrival checklist",
+  "checklist_promo_kicker": "Preview · paid KR edition coming (¥500)",
+  "checklist_promo_title": "First 14 days checklist",
+  "checklist_promo_desc": "Open a short HTML preview of the Korean paid checklist, or download the free English fill-in workbook (PDF).",
+  "checklist_promo_preview_cta": "Open HTML preview",
+  "checklist_promo_workbook_cta": "Free English PDF"
 }

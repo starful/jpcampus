@@ -2,18 +2,20 @@
 {
   "layout": "guide",
   "id": "bicycle-insurance-law",
-  "title": "[2026] Is Bicycle Insurance Mandatory in Japan? Prefecture Guide | JP Campus",
+  "title": "Japan Bicycle Insurance 2026: Mandatory in Your Prefecture?",
   "category": "Safety",
   "tags": [
     "Safety"
   ],
-  "description": "Cycling in Japan? Check if your prefecture requires liability insurance, what's covered, and how international students can get insured quickly.",
+  "description": "Most Japan prefectures require cyclists to carry liability insurance in 2026. Check if yours does, what's covered, and fast options for students.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "[2026] Is Bicycle Insurance Mandatory in Japan? Prefecture Guide | JP Campus",
-  "seo_description": "Cycling in Japan? Check if your prefecture requires liability insurance, what's covered, and how international students can get insured quickly."
+  "seo_title": "Japan Bicycle Insurance 2026: Mandatory in Your Prefecture?",
+  "seo_description": "Most Japan prefectures require cyclists to carry liability insurance in 2026. Check if yours does, what's covered, and fast options for students."
 }
 ---
+**Still riding uninsured in 2026?** Most of Japan's prefectures now require cyclists to carry liability insurance, and skipping it can leave you on the hook if an accident happens. Below, check whether your prefecture is on the list, what counts as valid coverage, and the fastest way international students can get insured.
+
 **Short answer: yes, in most of Japan.** As of 2026, most prefectures—including Tokyo, Osaka, Kanagawa, and Kyoto—legally require cyclists to carry liability insurance. Below, we break down whether your prefecture is covered, what counts as valid coverage, and the fastest ways international students can get insured.
 
 # Navigating the Streets of Japan: A Comprehensive Guide to Mandatory Bicycle Insurance

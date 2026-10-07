@@ -2,17 +2,19 @@
 {
   "layout": "guide",
   "id": "point-cards",
-  "title": "'Pointo Kādo': Japan's Loyalty Card Culture",
+  "title": "[2026] Japan Point Card Guide: T-Point, Ponta & Rakuten Points | JP Campus",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "How to save money with T-Point, Ponta, and Rakuten Points.",
+  "description": "Confused by 'pointo kādo'? Learn how T-Point, Ponta, and Rakuten Points work in Japan and start saving on daily student expenses today.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "[2026] Japan Point Card Guide: T-Point, Ponta & Rakuten Points | JP Campus",
+  "seo_description": "Confused by 'pointo kādo'? Learn how T-Point, Ponta, and Rakuten Points work in Japan and start saving on daily student expenses today."
 }
 ---
-
+Still guessing which point card actually saves you money? This guide breaks down Japan's loyalty card maze—T-Point, Ponta, Rakuten Points, and more—so you can start stacking savings as a student living in Japan, starting with your very first convenience store run.
 
 # 'Pointo Kādo': Mastering Japan's Loyalty Card Culture
 

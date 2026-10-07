@@ -148,11 +148,16 @@ document.addEventListener("click", function(event) {
     if (typeof window.gtag !== "function") return;
     const action = target.getAttribute("data-track");
     const label = target.getAttribute("data-track-label") || target.getAttribute("href") || "";
+    const lang = target.getAttribute("data-track-lang") || document.documentElement.lang || "";
+    const href = target.getAttribute("href") || "";
     window.gtag("event", action, {
         event_category: "engagement",
-        event_label: label
+        event_label: label,
+        language: lang,
+        link_url: href,
+        transport_type: "beacon"
     });
-});
+}, true);
 </script>
 
 </body>

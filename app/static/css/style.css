@@ -353,6 +353,68 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     font-weight: 700;
     color: var(--text-dark);
 }
+.checklist-promo {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 16px 20px;
+    align-items: center;
+    margin-bottom: 22px;
+    padding: 18px 20px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: linear-gradient(135deg, #f4faf7 0%, #fff 55%, #f7f3ea 100%);
+    box-shadow: var(--shadow-md);
+}
+.checklist-promo__kicker {
+    margin: 0 0 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent, #0d5c4d);
+}
+.checklist-promo__title {
+    margin: 0 0 8px;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    color: var(--text-dark);
+}
+.checklist-promo__desc {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+.checklist-promo__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checklist-promo__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+.checklist-promo__btn--primary {
+    background: #0b6b58;
+    color: #fff !important;
+    border-color: #085445;
+    box-shadow: 0 2px 0 #064437;
+}
+.checklist-promo__btn--primary:hover { background: #0d7a64; color: #fff !important; }
+.checklist-promo__btn--secondary {
+    background: #c45c16;
+    color: #fff !important;
+    border-color: #9a450e;
+    box-shadow: 0 2px 0 #7a360b;
+}
+.checklist-promo__btn--secondary:hover { background: #d4681c; color: #fff !important; }
 .quick-filter-chips {
     display: flex;
     flex-wrap: wrap;
@@ -991,6 +1053,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .detail-title, .list-title { font-size: 2rem; text-align: center; }
     .card-grid, .info-grid { grid-template-columns: 1fr; }
     .quick-actions { grid-template-columns: 1fr; }
+    .checklist-promo { grid-template-columns: 1fr; padding: 16px; }
     .card { border-radius: 16px; }
     .card-body, .card-footer { padding-left: 16px; padding-right: 16px; }
     .card-img { height: 200px; }

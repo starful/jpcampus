@@ -14,6 +14,7 @@ from app.deps import configure_template_globals
 from app.reactions import router as reactions_router
 from app.routes.pages import router as pages_router
 from app.routes.social import router as social_router
+from app.waitlist import router as waitlist_router
 from app.utils import CONTENT_DIR, STATIC_DIR
 
 load_dotenv()
@@ -79,6 +80,7 @@ async def legacy_redirect_middleware(request: Request, call_next):
 
 
 app.include_router(reactions_router, prefix="/api")
+app.include_router(waitlist_router, prefix="/api")
 app.include_router(pages_router)
 app.include_router(social_router)
 
