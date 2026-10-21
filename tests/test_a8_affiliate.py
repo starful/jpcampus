@@ -38,14 +38,16 @@ def test_sakura_stay_shows_agoda_only():
     assert ids == ["agoda"]
 
 
-def test_sakura_stay_kr_no_banners():
+def test_sakura_stay_kr_shows_agoda():
     ctx = a8_housing_context(
         page_kind="stay_detail",
         lang="kr",
         stay_id="sakura_sunshine_city",
         stay_operator="Sakura House",
     )
-    assert ctx["show_a8_housing"] is False
+    assert ctx["show_a8_housing"] is True
+    assert [b["id"] for b in ctx["a8_housing_banners"]] == ["agoda"]
+    assert ctx["show_agoda_cta"] is True
 
 
 def test_housing_guide_shows_oakhouse():

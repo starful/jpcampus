@@ -94,6 +94,19 @@ def test_transport_guide_a8_agoda():
     )
     assert ctx["show_a8_banners"] is True
     assert ctx["a8_banners"][0]["id"] == "agoda"
+    assert ctx["show_agoda_cta"] is True
+
+
+def test_transport_guide_kr_a8_agoda():
+    ctx = a8_travel_context(
+        page_kind="travel_guide",
+        lang="kr",
+        guide_slug="shinkansen-deals",
+        item_type="guide",
+    )
+    assert ctx["show_a8_banners"] is True
+    assert ctx["a8_banners"][0]["id"] == "agoda"
+    assert ctx["show_agoda_cta"] is True
 
 
 def test_esim_guide_no_a8_tora():

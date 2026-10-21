@@ -131,7 +131,17 @@ def _empty() -> dict[str, Any]:
         "show_a8_banners": False,
         "a8_banners": [],
         "a8_banners_note": "",
+        "agoda_cta": None,
+        "show_agoda_cta": False,
     }
+
+
+def _attach_agoda_cta(ctx: dict[str, Any]) -> dict[str, Any]:
+    banners = ctx.get("a8_housing_banners") or ctx.get("a8_banners") or []
+    agoda = next((b for b in banners if b.get("id") == "agoda"), None)
+    ctx["agoda_cta"] = agoda
+    ctx["show_agoda_cta"] = agoda is not None
+    return ctx
 
 
 def a8_housing_context(
@@ -161,7 +171,7 @@ def a8_housing_context(
     banners: list[dict[str, str]] = []
     if show_oakhouse:
         banners.append(_banner_copy(OAKHOUSE_A8, lang=lang))
-    if page_kind == "stay_detail" and not is_kr:
+    if page_kind == "stay_detail":
         banners.append(_banner_copy(AGODA_A8, lang=lang))
 
     if not banners:
@@ -182,16 +192,18 @@ def a8_housing_context(
         )
     else:
         title = "유학생 숙소 제휴" if is_kr else "Student housing partners"
-    return {
-        "show_a8_housing": True,
-        "a8_housing_banners": banners,
-        "a8_housing_note": note,
-        "a8_housing_title": title,
-        "oakhouse_a8_click_url": OAKHOUSE_A8["click_url"],
-        "show_a8_banners": False,
-        "a8_banners": [],
-        "a8_banners_note": "",
-    }
+    return _attach_agoda_cta(
+        {
+            "show_a8_housing": True,
+            "a8_housing_banners": banners,
+            "a8_housing_note": note,
+            "a8_housing_title": title,
+            "oakhouse_a8_click_url": OAKHOUSE_A8["click_url"],
+            "show_a8_banners": False,
+            "a8_banners": [],
+            "a8_banners_note": "",
+        }
+    )
 
 
 def a8_travel_context(
@@ -201,27 +213,40 @@ def a8_travel_context(
     guide_slug: str = "",
     item_type: str = "guide",
 ) -> dict[str, Any]:
-    """Agoda Partners on travel prep guides (EN)."""
+    """Agoda Partners on travel prep guides (EN + KR).
+
+    Empty responses omit agoda_cta keys so a prior a8_housing_context
+    (e.g. stay detail) is not overwritten when contexts are merged.
+    """
+    empty = {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
     if not _enabled():
-        return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
+        return empty
 
     is_kr = (lang or "en").lower() in ("kr", "ko")
     guide_key = (guide_slug or "").removesuffix("_kr").removeprefix("guide_")
     kind = (item_type or "guide").strip().lower()
 
     if kind == "stay" or page_kind == "stay_detail":
-        return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
+        return empty
 
-    if is_kr or guide_key not in GUIDE_A8_TRAVEL:
-        return {"show_a8_banners": False, "a8_banners": [], "a8_banners_note": ""}
+    if guide_key not in GUIDE_A8_TRAVEL:
+        return empty
 
     banners = [_banner_copy(AGODA_A8, lang=lang)]
-    return {
-        "show_a8_banners": True,
-        "a8_banners": banners,
-        "a8_banners_title": "Travel partners",
-        "a8_banners_note": "Affiliate ads · opens in new tab",
-    }
+    return _attach_agoda_cta(
+        {
+            "show_a8_banners": True,
+            "a8_banners": banners,
+            "a8_banners_title": (
+                "여행·숙소 제휴" if is_kr else "Travel partners"
+            ),
+            "a8_banners_note": (
+                "제휴 광고 · 새 탭에서 열림"
+                if is_kr
+                else "Affiliate ads · opens in new tab"
+            ),
+        }
+    )
 
 
 def oakhouse_booking_url(*, operator: str, booking_url: str) -> str:

@@ -1,4 +1,4 @@
-"""Home checklist preview CTA + free workbook download tracking hooks."""
+"""Guide-list checklist preview CTA + free workbook download tracking hooks."""
 
 from pathlib import Path
 
@@ -11,13 +11,13 @@ STATIC = Path(__file__).resolve().parents[1] / "app" / "static"
 PREVIEW = STATIC / "checklist-preview"
 
 
-def test_home_has_cta_checklist_and_workbook_download_tracking():
+def test_guide_list_has_cta_checklist_and_workbook_download_tracking():
     client = TestClient(app)
     for lang, label_preview, label_wb in (
-        ("en", "home_preview_en", "arrival_home_en"),
-        ("kr", "home_preview_kr", "arrival_home_kr"),
+        ("en", "guide_list_preview_en", "arrival_guide_list_en"),
+        ("kr", "guide_list_preview_kr", "arrival_guide_list_kr"),
     ):
-        path = "/" if lang == "en" else "/?lang=kr"
+        path = "/guide" if lang == "en" else "/guide?lang=kr"
         response = client.get(path)
         assert response.status_code == 200
         html = response.text
@@ -28,7 +28,23 @@ def test_home_has_cta_checklist_and_workbook_download_tracking():
         assert f'data-track-lang="{lang}"' in html
         assert f"/static/checklist-preview/{lang}/00-flow.html" in html
         assert workbook_href("arrival") in html
-        assert "quick-action-btn" not in html
+        assert "data-preview-popup" not in html
+
+
+def test_home_no_longer_has_checklist_promo():
+    client = TestClient(app)
+    html = client.get("/?lang=kr").text
+    assert 'data-track-label="home_preview_kr"' not in html
+    assert 'data-preview-popup="1"' not in html
+    # Home may still have other CTAs; checklist section title track should be gone.
+    assert "checklist-promo" not in html
+
+
+def test_schools_list_has_no_checklist_promo():
+    client = TestClient(app)
+    html = client.get("/schools").text
+    assert "checklist-promo" not in html
+    assert 'data-track="cta_checklist"' not in html
 
 
 def test_preview_html_files_exist_kr_en():
