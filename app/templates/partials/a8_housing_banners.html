@@ -9,6 +9,9 @@
     {% elif a8_housing_title %}
     <p class="a8-housing__panel-title">{{ a8_housing_title }}</p>
     {% endif %}
+    {% if a8_housing_desc and not _panel %}
+    <p class="affiliate-box__desc">{{ a8_housing_desc }}</p>
+    {% endif %}
     <div class="a8-banners__grid">
         {% for banner in a8_housing_banners %}
         <div class="a8-banners__item a8-banners__item--{{ banner.id }}">

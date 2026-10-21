@@ -6,6 +6,9 @@
     {% if a8_banners_title %}
     <p class="affiliate-box__title">{{ a8_banners_title }}</p>
     {% endif %}
+    {% if a8_banners_desc %}
+    <p class="affiliate-box__desc">{{ a8_banners_desc }}</p>
+    {% endif %}
     <div class="a8-banners__grid">
         {% for banner in a8_banners %}
         <div class="a8-banners__item a8-banners__item--{{ banner.id }}">

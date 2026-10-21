@@ -288,6 +288,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         or "School Guide"
     )
     ctx = share_context(DOMAIN, "school", school_id, share_title, lang)
+    school_location = item.get("location") or {}
 
     return templates.TemplateResponse(request, "detail.html", {
         "item": item, "item_type": item_type,
@@ -312,6 +313,8 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
             lang=lang,
             guide_slug=school_id,
             item_type=item_type,
+            lat=school_location.get("lat"),
+            lng=school_location.get("lng"),
         ),
         **ctx,
     })
@@ -335,6 +338,8 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
     stay_type_label = ui.get(f"stay_type_{stay_type}", stay_type)
     meta_raw_title = item.get("seo_title") or share_title
     meta_raw_desc = item.get("seo_description") or item.get("description", "")
+    stay_location = item.get("location") or {}
+    stay_rent = item.get("rent") or {}
 
     return templates.TemplateResponse(request, "detail.html", {
         "item": item,
@@ -365,6 +370,10 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
             lang=lang,
             stay_id=stay_id,
             stay_operator=stay_operator,
+            lat=stay_location.get("lat"),
+            lng=stay_location.get("lng"),
+            rent_min=stay_rent.get("min"),
+            rent_max=stay_rent.get("max"),
         ),
         **a8_travel_context(
             page_kind="stay_detail",
