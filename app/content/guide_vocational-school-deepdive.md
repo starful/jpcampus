@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "vocational-school-deepdive",
-  "title": "Top Senmon Gakko Majors 2026: Anime, IT, Hospitality & Career Paths",
+  "title": "Senmon Gakko 2026: Top Vocational Majors in Japan (Anime, IT, Hospitality)",
   "category": "Career",
   "tags": [
     "Career"
   ],
-  "description": "Explore popular vocational school majors in Japan. Career outcomes, salary data, and admission guides for anime, IT, hospitality & more.",
+  "description": "Japan's vocational schools: anime, IT, hospitality & culinary. 2-year programs, job placement rates, careers, and enrollment requirements.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Top Senmon Gakko Majors 2026: Anime, IT, Hospitality & Career Paths",
-  "seo_description": "Explore Japan's vocational school majors: anime, IT, hospitality & more. Learn career outcomes, salaries, and enrollment requirements."
+  "seo_title": "Senmon Gakko 2026: Top Vocational Majors in Japan (Anime, IT, Hospitality)",
+  "seo_description": "Japan's vocational schools: anime, IT, hospitality & culinary. 2-year programs, job placement rates, careers, and enrollment requirements."
 }
 ---
+
 
 
 
