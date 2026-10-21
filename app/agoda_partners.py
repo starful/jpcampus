@@ -159,3 +159,35 @@ def url_for_location(
     if city is None:
         city = default_city
     return partner_search_url(lang=lang, city_id=city)
+
+
+def city_name_for_id(city_id: int | str | None) -> str | None:
+    try:
+        cid = int(city_id) if city_id is not None else None
+    except (TypeError, ValueError):
+        return None
+    if cid is None:
+        return None
+    for c in AGODA_CITIES:
+        if c["id"] == cid:
+            return str(c["name"])
+    return None
+
+
+def partner_context_for_location(
+    *,
+    lang: str | None = "en",
+    lat: float | None = None,
+    lng: float | None = None,
+    country: str | None = None,
+    default_city: int | None = None,
+) -> dict[str, Any]:
+    """Agoda search URL + the matched city name, for content-aware banner copy."""
+    city = nearest_city_id(lat, lng, country=country)
+    if city is None:
+        city = default_city
+    return {
+        "url": partner_search_url(lang=lang, city_id=city),
+        "city_id": city,
+        "city_name": city_name_for_id(city),
+    }
