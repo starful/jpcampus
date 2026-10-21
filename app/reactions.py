@@ -9,9 +9,6 @@ from app.utils import get_client_ip
 router = APIRouter()
 COLLECTION_NAME = os.getenv("REACTIONS_COLLECTION", "jpcampus")
 
-# ==========================================
-# Firebase 초기화 세팅
-# ==========================================
 try:
     if not firebase_admin._apps:
         cred_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
@@ -25,9 +22,6 @@ except Exception as e:
     print(f"🔥 Firebase initialization error: {e}")
     db = None
 
-# ==========================================
-# 좋아요/싫어요 API 엔드포인트
-# ==========================================
 @router.get("/reactions/{slug}")
 async def get_reactions(slug: str):
     if db is None:
@@ -88,7 +82,7 @@ async def process_reaction(request: Request, slug: str, reaction_type: str):
 
     try:
         result, data = await run_in_threadpool(sync_process_reaction, db, COLLECTION_NAME, slug, safe_ip, reaction_type)
-    except Exception as e:
+    except Exception:
         raise HTTPException(status_code=500, detail="Reaction processing failed")
 
     return {

@@ -5,7 +5,6 @@ import json
 import sys
 import frontmatter
 from datetime import datetime
-import re
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPT_DIR)

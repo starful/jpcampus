@@ -16,13 +16,11 @@ from app.thumbnails import (
     univ_thumbnails,
 )
 
-# --- 디렉토리 경로 설정 ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_DIR = os.path.join(BASE_DIR, "static")
-CONTENT_DIR = os.path.join(BASE_DIR, "content") 
+CONTENT_DIR = os.path.join(BASE_DIR, "content")
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 
-# --- 기존 필터 정의 ---
 TAG_DEFINITIONS = {
     'academic': {'name': 'Academic', 'icon': '🎓', 'description': 'Schools with a strong focus on university admissions (EJU prep).', 'keywords':["eju", "university", "academic", "進学", "大学"]},
     'business': {'name': 'Business', 'icon': '💼', 'description': 'Schools with business Japanese courses or job hunting support.', 'keywords':["business", "job", "취업", "ビジネス"]},

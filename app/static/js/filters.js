@@ -476,13 +476,6 @@
         applyFilters,
         getCurrentFilteredSchools: () => currentFilteredSchools.slice(),
         getCurrentFilteredStays: () => currentFilteredStays.slice(),
-        getCurrentFilteredData: () => currentFilteredSchools.slice(),
-        getAllSchoolData: () => allSchoolData.slice(),
-        getAllStayData: () => allStayData.slice(),
-        getEntityFilter: () => currentEntityFilter,
-        getTypeFilter: () => currentTypeFilter,
-        getUnivTypeFilter: () => currentUnivTypeFilter,
-        getRegionFilter: () => currentRegionFilter,
         refresh: bootstrap,
     };
 

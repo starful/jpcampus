@@ -401,20 +401,6 @@ h2.section-head {
   border-radius: 12px;
 }
 
-.flow-step__card h2 {
-  margin: 0 0 0.35rem;
-  font-size: 1rem;
-}
-
-.flow-step__card h2 a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.flow-step__card h2 a:hover {
-  text-decoration: underline;
-}
-
 .flow-step__card p {
   margin: 0;
   font-size: 0.88rem;
