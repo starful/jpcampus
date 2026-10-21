@@ -31,10 +31,10 @@ def test_waitlist_honeypot_ignored():
     assert response.json().get("action") == "ignored"
 
 
-def test_home_preview_opens_via_popup_attr():
-    html = client.get("/?lang=kr").text
-    assert 'data-preview-popup="1"' in html
+def test_guide_list_has_checklist_cta_without_popup():
+    html = client.get("/guide?lang=kr").text
     assert 'data-track="cta_checklist"' in html
+    assert "data-preview-popup" not in html
 
 
 def test_preview_pages_have_waitlist_mount():

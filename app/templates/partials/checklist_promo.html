@@ -1,0 +1,28 @@
+<section class="checklist-promo" aria-label="{{ ui.checklist_promo_aria }}">
+    <div class="checklist-promo__copy">
+        <p class="checklist-promo__kicker">{{ ui.checklist_promo_kicker }}</p>
+        <h2 class="checklist-promo__title">{{ ui.checklist_promo_title }}</h2>
+        <p class="checklist-promo__desc">{{ ui.checklist_promo_desc }}</p>
+    </div>
+    <div class="checklist-promo__actions">
+        <a href="/static/checklist-preview/{{ 'kr' if current_lang == 'kr' else 'en' }}/00-flow.html"
+           class="checklist-promo__btn checklist-promo__btn--primary"
+           data-track="cta_checklist"
+           data-track-label="{{ track_label_preview }}"
+           data-track-lang="{{ current_lang }}"
+           target="_blank"
+           rel="noopener noreferrer">
+            <i class="fa-solid fa-list-check" aria-hidden="true"></i>
+            <span>{{ ui.checklist_promo_preview_cta }}</span>
+        </a>
+        <a href="/static/workbooks/jpcampus-first-14-days-workbook-en.pdf"
+           class="checklist-promo__btn checklist-promo__btn--secondary"
+           download="jpcampus-first-14-days-workbook-en.pdf"
+           data-track="workbook_download"
+           data-track-label="{{ track_label_workbook }}"
+           data-track-lang="{{ current_lang }}">
+            <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+            <span>{{ ui.checklist_promo_workbook_cta }}</span>
+        </a>
+    </div>
+</section>

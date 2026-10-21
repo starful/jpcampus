@@ -80,5 +80,13 @@
         {% endif %}
         {% endfor %}
     </div>
+
+    {% if item_type == 'guide' %}
+    <div style="margin-top: 48px;">
+        {% with track_label_preview='guide_list_preview_' ~ current_lang, track_label_workbook='arrival_guide_list_' ~ current_lang %}
+        {% include 'partials/checklist_promo.html' %}
+        {% endwith %}
+    </div>
+    {% endif %}
 </main>
 {% endblock %}
