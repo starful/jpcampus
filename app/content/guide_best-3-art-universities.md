@@ -1,8 +1,8 @@
 ---
 category: Curated List
 date: '2026-07-20'
-description: Want to study art in Japan? Discover the top 3 art universities for international
-  students, English programs, and 2026 portfolio requirements.
+description: 'Top art universities in Japan for international students: discover requirements,
+  English programs, and portfolio guidelines for 2026.'
 id: best-3-art-universities
 is_featured: true
 lang: en
@@ -11,11 +11,12 @@ tags:
 - Ranking
 - Recommendation
 thumbnail: https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500
-title: Top 3 Art Universities in Japan for International Students (2026)
-seo_title: Best 3 Art Universities in Japan for International Students (2026)
-seo_description: Want to study art in Japan? Discover the top 3 art universities for
-  international students, English programs, and 2026 portfolio requirements.
+title: Top 3 Art Universities for International Students in Japan (2026)
+seo_title: Top 3 Art Universities for International Students in Japan (2026)
+seo_description: 'Study art in Japan: discover the top-ranked universities for international
+  students, portfolio requirements, and English program options in 2026.'
 ---
+
 
 
 

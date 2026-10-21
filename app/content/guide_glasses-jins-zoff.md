@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "glasses-jins-zoff",
-  "title": "JINS vs Zoff (2026): Which Is Cheaper & Better in Japan? | JP Campus",
+  "title": "JINS vs Zoff: Which Beats on Price & Speed in 2026 Japan?",
   "category": "Health",
   "tags": [
     "Health"
   ],
-  "description": "JINS or Zoff? Compare 2026 prices, lens quality, and pickup speed so you pick the right eyewear brand in Japan fast.",
+  "description": "Compare JINS and Zoff eyewear on 2026 prices, lens quality, and pickup speed. Find the best budget glasses for students in Japan.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "JINS vs Zoff (2026): Which Is Cheaper & Better in Japan? | JP Campus",
-  "seo_description": "JINS or Zoff? Compare 2026 prices, lens quality, and pickup speed so you pick the right eyewear brand in Japan fast."
+  "seo_title": "JINS vs Zoff: Which Beats on Price & Speed in 2026 Japan?",
+  "seo_description": "Compare JINS and Zoff on prices, lens quality, and speed. Find the best budget eyewear for students in Japan—complete 2026 price breakdown."
 }
 ---
+
 **Quick answer:** JINS tends to win on frame variety and blue-light lens options, while Zoff often edges out on starter pricing and simple, fast pickup. Which one fits you depends on your budget and how soon you need glasses in hand — the full breakdown below compares real pricing tiers, lens quality, and speed at both chains.
 
 # Clear Sight, Affordable Price: A Student's Guide to Buying Glasses at JINS and Zoff in Japan
