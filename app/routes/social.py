@@ -42,8 +42,6 @@ def _render_social_image(kind: str, identifier: str, lang: str) -> Response:
             item = load_guide_item(identifier, lang)
             source = resolve_thumbnail_url(DOMAIN, item, "guide", guide_slug=identifier)
         data = resolve_social_jpeg(source)
-    except FileNotFoundError:
-        data = placeholder_social_jpeg()
     except Exception:
         data = placeholder_social_jpeg()
     return Response(content=data, media_type="image/jpeg", headers=_social_image_headers())

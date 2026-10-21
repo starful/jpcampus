@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "internet-cafes",
-  "title": "Japan Internet Cafes & Manga Kissa: 2026 Price & Booth Guide",
+  "title": "Internet Cafes & Manga Kissa in Japan: Booth Prices, Hours & Overnight Stay Tips",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "Real 2026 prices, private booths & WiFi speeds at Japan's net cafes & manga kissa — plus tips for missed trains and budget stays.",
+  "description": "Japan internet cafe and manga kissa guide: booth types, hourly rates, WiFi quality, private rooms, overnight options, and location tips.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "[2026] Internet Cafes & Manga Kissa in Japan: Prices, Booths & WiFi",
-  "seo_description": "See real prices, private booth types & WiFi speeds at Japan's net cafes and manga kissa, updated for 2026 — plus tips for late-train nights."
+  "seo_title": "Internet Cafes & Manga Kissa in Japan: Booth Prices, Hours & Overnight Stay Tips",
+  "seo_description": "Japan internet cafe and manga kissa guide: booth types, hourly rates, WiFi quality, private rooms, overnight options, and location tips."
 }
 ---
+
 
 
 

@@ -6,8 +6,7 @@ basic_info:
   name_ja: 天理大学
 category: university
 date: '2026-07-20'
-description: 일본 역사의 중심지인 나라현에 위치한 텐리대학교는 세계적인 유도 명문이자 일본 최초의 사립 외국어 학교로서의 전통을 자랑하는
-  명문 사립 대학입니다.
+description: '유도 명문 텐리대학교 국제학생 안내: 입학 요건, 학부 정보, 등록금 감면, 별과 프로그램, 기숙사 모든 정보.'
 faculties:
 - 인문학부
 - 국제학부
@@ -33,11 +32,14 @@ tags:
 - 천리교의 인도주의적 가치 기반 교육
 - 역사적인 종교 도시에서의 저렴한 생활비
 thumbnail: /static/img/pin-univ.png
-title: 텐리대학교 (Tenri University)
+title: '텐리대학교 국제학생 완벽 가이드: 유도 명문 + 입학 + 장학금'
 tuition:
   admission_fee: 200000
   yearly_tuition: 820000
+seo_title: '텐리대학교 국제학생 완벽 가이드: 유도 명문 + 입학 + 장학금'
+seo_description: '유도 명문 텐리대학교 국제학생 안내: 입학 요건, 학부 정보, 등록금 감면, 별과 프로그램, 기숙사 모든 정보.'
 ---
+
 
 
 ## 🏫 대학 개요
