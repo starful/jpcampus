@@ -12,7 +12,7 @@ tags:
 - Recommendation
 - Design
 thumbnail: https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=500
-title: Best Design Schools in Japan 2026 | Expert Rankings & Admissions
+title: Best Design Pathway Language Schools in Japan 2026 | Expert Rankings & Admissions
 seo_title: 'Best Schools for Animation & Manga in Japan 2026: Design Pathway Guide'
 seo_description: 'Japanese language schools for animation & manga design: portfolio
   prep, EJU exam, N1-N2 Japanese, pathways to Tokyo arts universities.'
