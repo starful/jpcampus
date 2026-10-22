@@ -1,20 +1,20 @@
 ---
 category: Visa
 date: '2026-07-20'
-description: A comprehensive guide on what to do if your Japan Certificate of Eligibility
-  (COE) is rejected, including common denial reasons and step-by-step re-application
-  strategies.
+description: Did Immigration reject your Japan COE? Learn the top denial reasons and
+  follow our step-by-step guide to successfully re-apply.
 id: coe-denial
 lang: en
 layout: guide
 tags:
 - Visa
 thumbnail: https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=500
-title: 'My COE Was Denied: How to Re-Apply & Get Approved'
-seo_title: Japan COE Denied? How to Re-Apply & Get Approved | JP Campus
-seo_description: Did Immigration reject your Japan COE? Learn the top denial reasons
-  and follow our step-by-step guide to successfully re-apply.
+title: Japan COE Denied? How to Re-Apply & Get Approved | JP Campus
+seo_title: Japan COE Denied? Top Denial Reasons & Step-by-Step Re-Application Guide
+seo_description: COE rejected? Learn top denial reasons—financial proof, inconsistent
+  docs, language proficiency—plus our proven re-application strategy.
 ---
+
 
 
 

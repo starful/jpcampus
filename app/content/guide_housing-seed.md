@@ -10,10 +10,11 @@
   "description": "Find student housing in Japan: compare university dorms, share houses, and private apartments. Costs, neighborhoods, and how to apply.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
   "date": "2026-07-20",
-  "seo_title": "Student Housing in Japan: Dorms, Share Houses & Apartments (2026 Guide)",
-  "seo_description": "Find student housing in Japan: compare university dorms, share houses, and private apartments. Costs, neighborhoods, and how to apply."
+  "seo_title": "International Student Housing in Japan 2026: Dorms vs Share Houses vs Apartments",
+  "seo_description": "International student housing: compare dorm costs, share house living, private apartments. Find housing near universities with guides."
 }
 ---
+
 
 
 
