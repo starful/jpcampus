@@ -2113,3 +2113,6 @@ body.compare-bar-active {
         max-width: none;
     }
 }
+
+/* Google Places photo credit under the guide cover */
+.photo-credit { font-size: 11px; color: #8a8f99; text-align: right; margin: 4px 2px 0; }
