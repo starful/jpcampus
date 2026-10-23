@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "internet-cafes",
-  "title": "Internet Cafes & Manga Kissa in Japan: Booth Prices, Hours & Overnight Stay Tips",
+  "title": "'Net Cafe' & 'Manga Kissa': More Than Just Internet",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "Japan internet cafe and manga kissa guide: booth types, hourly rates, WiFi quality, private rooms, overnight options, and location tips.",
+  "description": "Manga kissa and internet cafe guide: hourly rates, booth types, WiFi, 24-hour options, overnight stays, best student chains",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Manga Kissa & Internet Cafes in Japan: Prices, Hours & Overnight Stay Guide",
-  "seo_description": "Manga kissa and internet cafe guide: hourly rates, booth types, WiFi quality, private rooms, 24-hour options, overnight stay tips for students."
+  "seo_title": "Manga Kissa & Internet Cafes in Japan: Student Guide to Overnight Stays, Prices & Hours",
+  "seo_description": "Manga kissa & net cafe guide for students: hourly rates, private booths, WiFi, 24-hour chains, overnight stay tips across Tokyo & Osaka"
 }
 ---
+
 **International Student Essential:** Miss the last train home? Manga kissa and internet cafes offer affordable overnight stays, private booths, free drinks, and manga libraries. Kaikatsu CLUB, Customa, and Bagus are the most widespread and budget-friendly chains across Tokyo and Osaka.
 
 # 'Net Cafe' & 'Manga Kissa': More Than Just Internet
