@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "akihabara-pc-parts",
-  "title": "Building a PC in Akihabara: Best Shops",
+  "title": "Build Your PC in Akihabara: Tsukumo, Dospara, Ark - Student Guide 2026",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Finding deals on components at Tsukumo, Dospara, and Ark.",
+  "description": "PC building in Akihabara: find Tsukumo, Dospara, Ark. Student tax-free shopping, used components, and best shops for GPUs and CPUs.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-08-31",
-  "seo_title": "Build a PC in Akihabara 2026: Best Shops, Deals, and Student Savings Guide",
-  "seo_description": "PC parts at Tsukumo, Dospara, Ark. Student deals, tax-free shopping, used components, and international student building tips."
+  "seo_title": "Build Your PC in Akihabara: Tsukumo, Dospara, Ark - Student Guide 2026",
+  "seo_description": "PC building in Akihabara: find Tsukumo, Dospara, Ark. Student tax-free shopping, used components, and best shops for GPUs and CPUs."
 }
 ---
+
 
 
 

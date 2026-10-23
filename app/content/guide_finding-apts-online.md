@@ -2,16 +2,19 @@
 {
   "layout": "guide",
   "id": "finding-apts-online",
-  "title": "Top Websites for Finding Apartments in Japan",
+  "title": "Find Apartments in Japan: Complete SUUMO, Homes, Apaman Shop Guide",
   "category": "Housing",
   "tags": [
     "Housing"
   ],
-  "description": "How to use SUUMO, Homes, and Apaman Shop.",
+  "description": "How to find apartments in Japan using SUUMO, Homes, and Apaman Shop. Decode Japanese rental listings, negotiate with agencies, student tips.",
   "thumbnail": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500",
-  "date": "2026-07-20"
+  "date": "2026-07-20",
+  "seo_title": "Find Apartments in Japan: Complete SUUMO, Homes, Apaman Shop Guide",
+  "seo_description": "How to find apartments in Japan using SUUMO, Homes, and Apaman Shop. Decode Japanese rental listings, negotiate with agencies, student tips."
 }
 ---
+
 
 
 # Navigating the Japanese Rental Market: Top Websites and Essential Tips for International Students

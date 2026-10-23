@@ -2,17 +2,20 @@
 {
   "layout": "guide",
   "id": "school-festivals",
-  "title": "'분카사이(文化祭)': 일본 학교 축제 완벽 가이드",
+  "title": "'분카사이': 일본 학교 축제의 모든 것",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "일본 학교 축제의 매력과 방문해야 하는 이유를 소개합니다.",
+  "description": "일본 학교축제 분카사이 완벽 가이드: 유령의 집, 음식 노점, 라이브 공연, 고등학교 vs 대학축제 비교",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "lang": "kr"
+  "lang": "kr",
+  "seo_title": "분카사이(文化祭): 일본 학교축제 완벽가이드 | 유령의 집·공연·음식·참가 팁",
+  "seo_description": "분카사이 일본 학교축제: 유령의 집, 음식 노점, 라이브, 고등학교·대학축제 차이, 국제학생 필수 경험 정리"
 }
 ---
+
 
 
 # '분카사이': 일본 학교 축제의 모든 것
