@@ -8,10 +8,11 @@ for the Agoda city code rather than guessing.
 
 from __future__ import annotations
 
-import math
 import os
 from typing import Any
 from urllib.parse import urlencode
+
+from app.utils import haversine_km
 
 AGODA_CID = os.getenv("AGODA_PARTNERS_CID", "1976214").strip() or "1976214"
 
@@ -66,15 +67,6 @@ def hl_for_lang(lang: str | None) -> str:
     return _HL.get(code, "en-us")
 
 
-def _haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
-    r = 6371.0
-    p1, p2 = math.radians(lat1), math.radians(lat2)
-    dphi = math.radians(lat2 - lat1)
-    dlmb = math.radians(lng2 - lng1)
-    a = math.sin(dphi / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dlmb / 2) ** 2
-    return 2 * r * math.asin(math.sqrt(a))
-
-
 def nearest_city_id(
     lat: float | None,
     lng: float | None,
@@ -115,7 +107,7 @@ def nearest_city_id(
     best = None
     best_d = float("inf")
     for c in pool:
-        d = _haversine_km(lat_f, lng_f, float(c["lat"]), float(c["lng"]))
+        d = haversine_km(lat_f, lng_f, float(c["lat"]), float(c["lng"]))
         if d < best_d:
             best_d = d
             best = c

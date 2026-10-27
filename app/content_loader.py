@@ -33,24 +33,21 @@ class ContentNotFoundError(FileNotFoundError):
     """Raised when no markdown file exists for the requested content."""
 
 
-def resolve_md_path(identifier: str, lang: str, kind: ContentKind) -> str:
+def _md_base_name(identifier: str, kind: ContentKind) -> str:
     if kind == "school":
-        filename = f"{identifier}_kr.md" if lang == "kr" else f"{identifier}.md"
-    elif kind == "stay":
-        base = identifier if identifier.startswith("stay_") else f"stay_{identifier}"
-        filename = f"{base}_kr.md" if lang == "kr" else f"{base}.md"
-    else:
-        filename = f"guide_{identifier}_kr.md" if lang == "kr" else f"guide_{identifier}.md"
+        return identifier
+    if kind == "stay":
+        return identifier if identifier.startswith("stay_") else f"stay_{identifier}"
+    return f"guide_{identifier}"
+
+
+def resolve_md_path(identifier: str, lang: str, kind: ContentKind) -> str:
+    base = _md_base_name(identifier, kind)
+    filename = f"{base}_kr.md" if lang == "kr" else f"{base}.md"
 
     md_path = os.path.join(CONTENT_DIR, filename)
     if not os.path.exists(md_path) and lang == "kr":
-        if kind == "school":
-            md_path = os.path.join(CONTENT_DIR, f"{identifier}.md")
-        elif kind == "stay":
-            base = identifier if identifier.startswith("stay_") else f"stay_{identifier}"
-            md_path = os.path.join(CONTENT_DIR, f"{base}.md")
-        else:
-            md_path = os.path.join(CONTENT_DIR, f"guide_{identifier}.md")
+        md_path = os.path.join(CONTENT_DIR, f"{base}.md")
 
     if not os.path.exists(md_path):
         raise ContentNotFoundError(identifier)

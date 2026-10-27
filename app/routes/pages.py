@@ -30,8 +30,8 @@ from app.seo import (
     build_meta_description,
     build_meta_title,
     content_lastmod,
-    default_updated_at,
     guide_faq_json_ld,
+    seo_url_context,
     stay_faq_json_ld,
 )
 from app.social_share import share_context
@@ -64,12 +64,10 @@ def page_context(
     description: str,
 ) -> dict:
     return {
-        "canonical_url": build_canonical_url(path, lang),
         "current_lang": lang,
-        "hreflang_urls": build_hreflang_urls(path),
-        "updated_at": default_updated_at(),
         "meta_title": build_meta_title(title, lang),
         "meta_description": build_meta_description(description, description),
+        **seo_url_context(path, lang),
     }
 
 
@@ -293,9 +291,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
     return templates.TemplateResponse(request, "detail.html", {
         "item": item, "item_type": item_type,
         "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang),
-        "canonical_url": build_canonical_url(f"/school/{school_id}", lang),
-        "hreflang_urls": build_hreflang_urls(f"/school/{school_id}"),
-        "updated_at": default_updated_at(),
+        **seo_url_context(f"/school/{school_id}", lang),
         "related_guides": pick_related_guides(item, item_type, lang),
         "nearby_stays": pick_nearby_stays(item, lang) if SHOW_STAYS_UI and item_type != "guide" else [],
         "show_stays_ui": SHOW_STAYS_UI,
@@ -351,9 +347,7 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
         "show_stays_ui": SHOW_STAYS_UI,
         "nearby_stays": [],
         "related_schools": pick_nearby_schools(item, lang),
-        "canonical_url": build_canonical_url(f"/stay/{stay_id}", lang),
-        "hreflang_urls": build_hreflang_urls(f"/stay/{stay_id}"),
-        "updated_at": default_updated_at(),
+        **seo_url_context(f"/stay/{stay_id}", lang),
         "related_guides": pick_related_guides(item, "stay", lang),
         "meta_title": build_meta_title(meta_raw_title, lang),
         "meta_description": build_meta_description(
@@ -402,9 +396,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
     return templates.TemplateResponse(request, "detail.html", {
         "item": item, "item_type": "guide",
         "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang),
-        "canonical_url": build_canonical_url(f"/guide/{slug}", lang),
-        "hreflang_urls": build_hreflang_urls(f"/guide/{slug}"),
-        "updated_at": default_updated_at(),
+        **seo_url_context(f"/guide/{slug}", lang),
         "related_schools": pick_related_schools(item, lang),
         "related_guides": pick_related_guides(item, "guide", lang),
         "nearby_stays": [],
@@ -440,9 +432,7 @@ async def school_list(request: Request, lang: str = Query("en")):
         "title": "All Language Schools" if lang == 'en' else "일본어학교 목록",
         "description": "Browse all language schools across Japan." if lang == "en" else "일본 전역의 일본어학교를 확인하세요.",
         "current_lang": lang, "ui": get_ui_text(lang),
-        "canonical_url": build_canonical_url("/schools", lang),
-        "hreflang_urls": build_hreflang_urls("/schools"),
-        "updated_at": default_updated_at(),
+        **seo_url_context("/schools", lang),
         "meta_title": build_meta_title(
             "Japanese Language Schools in Japan — Compare by City | JP Campus"
             if lang != "kr"
@@ -474,9 +464,7 @@ async def university_list(request: Request, lang: str = Query("en")):
         "title": "All Universities" if lang == 'en' else "일본 대학 목록",
         "description": "Explore universities in Japan for international students." if lang == "en" else "유학생을 위한 일본 대학교 정보를 확인하세요.",
         "current_lang": lang, "ui": get_ui_text(lang),
-        "canonical_url": build_canonical_url("/universities", lang),
-        "hreflang_urls": build_hreflang_urls("/universities"),
-        "updated_at": default_updated_at(),
+        **seo_url_context("/universities", lang),
         "meta_title": build_meta_title("Universities in Japan for International Students", lang),
         "meta_description": build_meta_description(
             "Find university options in Japan with practical comparisons and prep guidance.",
@@ -508,9 +496,7 @@ async def stay_list(request: Request, lang: str = Query("en")):
         "current_lang": lang,
         "ui": get_ui_text(lang),
         "show_stays_ui": True,
-        "canonical_url": build_canonical_url("/stays", lang),
-        "hreflang_urls": build_hreflang_urls("/stays"),
-        "updated_at": default_updated_at(),
+        **seo_url_context("/stays", lang),
         "meta_title": build_meta_title(
             "Student Housing in Japan — Guesthouse, Share House & Monthly | JP Campus"
             if lang != "kr"
@@ -543,9 +529,7 @@ async def guide_list_page(request: Request, lang: str = Query("en")):
         "title": "Essential Guides" if lang == 'en' else "유학 가이드",
         "description": "Read practical study-abroad guides for life in Japan." if lang == "en" else "일본 유학 생활 실전 가이드를 확인하세요.",
         "current_lang": lang, "ui": get_ui_text(lang),
-        "canonical_url": build_canonical_url("/guide", lang),
-        "hreflang_urls": build_hreflang_urls("/guide"),
-        "updated_at": default_updated_at(),
+        **seo_url_context("/guide", lang),
         "meta_title": build_meta_title("Essential Japan Study Guides", lang),
         "meta_description": build_meta_description(
             "Read practical guides on costs, housing, visas, and student life in Japan.",
@@ -582,9 +566,7 @@ async def compare_page(request: Request, ids: str = "", lang: str = Query("en"))
         "compare_export": build_compare_export(prepared, lang, "JP Campus"),
         "current_lang": lang,
         "ui": ui,
-        "canonical_url": build_canonical_url("/compare", lang),
-        "hreflang_urls": build_hreflang_urls("/compare"),
-        "updated_at": default_updated_at(),
+        **seo_url_context("/compare", lang),
         "meta_title": build_meta_title(ui["meta_compare_title"], lang),
         "meta_description": build_meta_description(
             ui["meta_compare_desc"],

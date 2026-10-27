@@ -1,9 +1,7 @@
 """Related content pickers for detail and compare pages."""
 from __future__ import annotations
 
-import math
-
-from app.utils import assign_thumbnails, load_guides, load_school_data, load_stay_data
+from app.utils import assign_thumbnails, haversine_km, load_guides, load_school_data, load_stay_data
 
 
 def pick_related_guides(item: dict, item_type: str, lang: str, limit: int = 4) -> list[dict]:
@@ -94,13 +92,22 @@ def pick_related_schools(item: dict, lang: str, limit: int = 4) -> list[dict]:
     return assign_thumbnails(related[:limit], "university" if wants_university else "school")
 
 
-def _haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
-    r = 6371.0
-    p1, p2 = math.radians(lat1), math.radians(lat2)
-    dlat = math.radians(lat2 - lat1)
-    dlng = math.radians(lng2 - lng1)
-    a = math.sin(dlat / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dlng / 2) ** 2
-    return 2 * r * math.asin(math.sqrt(a))
+def _sorted_by_distance(
+    lat: float, lng: float, candidates: list[dict], radius_km: float | None = None
+) -> list[tuple[float, dict]]:
+    scored: list[tuple[float, dict]] = []
+    for candidate in candidates:
+        cloc = candidate.get("location") or {}
+        clat, clng = cloc.get("lat"), cloc.get("lng")
+        if clat is None or clng is None:
+            continue
+        dist = haversine_km(float(lat), float(lng), float(clat), float(clng))
+        if radius_km is None or dist <= radius_km:
+            row = dict(candidate)
+            row["distance_km"] = round(dist, 1)
+            scored.append((dist, row))
+    scored.sort(key=lambda x: x[0])
+    return scored
 
 
 def pick_nearby_stays(item: dict, lang: str, limit: int = 4, radius_km: float = 3.0) -> list[dict]:
@@ -114,19 +121,7 @@ def pick_nearby_stays(item: dict, lang: str, limit: int = 4, radius_km: float = 
         lat, lng = 35.6762, 139.6503
 
     stays, _ = load_stay_data(lang)
-    scored: list[tuple[float, dict]] = []
-    for stay in stays:
-        sloc = stay.get("location") or {}
-        slat, slng = sloc.get("lat"), sloc.get("lng")
-        if slat is None or slng is None:
-            continue
-        dist = _haversine_km(float(lat), float(lng), float(slat), float(slng))
-        if dist <= radius_km:
-            stay = dict(stay)
-            stay["distance_km"] = round(dist, 1)
-            scored.append((dist, stay))
-
-    scored.sort(key=lambda x: x[0])
+    scored = _sorted_by_distance(lat, lng, stays, radius_km)
     return [s for _, s in scored[:limit]]
 
 
@@ -138,33 +133,11 @@ def pick_nearby_schools(item: dict, lang: str, limit: int = 4, radius_km: float 
         return []
 
     schools, _ = load_school_data(lang)
-    scored: list[tuple[float, dict]] = []
-    for school in schools:
-        sloc = school.get("location") or {}
-        slat, slng = sloc.get("lat"), sloc.get("lng")
-        if slat is None or slng is None:
-            continue
-        dist = _haversine_km(float(lat), float(lng), float(slat), float(slng))
-        if dist <= radius_km:
-            row = dict(school)
-            row["distance_km"] = round(dist, 1)
-            scored.append((dist, row))
-
-    scored.sort(key=lambda x: x[0])
+    scored = _sorted_by_distance(lat, lng, schools, radius_km)
     nearby = [s for _, s in scored[:limit]]
     if not nearby:
         # Fall back to nearest schools even outside the radius.
-        scored = []
-        for school in schools:
-            sloc = school.get("location") or {}
-            slat, slng = sloc.get("lat"), sloc.get("lng")
-            if slat is None or slng is None:
-                continue
-            dist = _haversine_km(float(lat), float(lng), float(slat), float(slng))
-            row = dict(school)
-            row["distance_km"] = round(dist, 1)
-            scored.append((dist, row))
-        scored.sort(key=lambda x: x[0])
+        scored = _sorted_by_distance(lat, lng, schools, None)
         nearby = [s for _, s in scored[:limit]]
 
     return assign_thumbnails(nearby, "school")

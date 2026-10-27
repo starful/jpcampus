@@ -6,6 +6,8 @@ import os
 from typing import Any
 from urllib.parse import quote
 
+from app.i18n import is_kr_lang
+
 RAKUTEN_HGC = os.getenv(
     "RAKUTEN_ICHIBA_HGC", "43cde6d2.98a376f7.43cde6d3.c7b92630"
 )
@@ -103,7 +105,7 @@ def affiliate_context(
 ) -> dict[str, Any]:
     """Rakuten Ichiba (shop/book) + JP eSIM for KO prep guides."""
     kind_raw = (item_type or "guide").strip().lower()
-    is_kr = (lang or "en").lower() in ("kr", "ko")
+    is_kr = is_kr_lang(lang)
     key = normalize_guide_slug(slug)
 
     if kind_raw == "stay":

@@ -8,6 +8,8 @@ from __future__ import annotations
 import os
 from typing import Any, Literal
 
+from app.i18n import is_kr_lang
+
 try:
     from agoda_partners import partner_context_for_location
 except ImportError:
@@ -37,7 +39,7 @@ def _price_band_label(
         avg = sum(float(v) for v in values) / len(values)
     except (TypeError, ValueError):
         return ""
-    is_kr = (lang or "en").lower() in ("kr", "ko")
+    is_kr = is_kr_lang(lang)
     if avg <= 60000:
         return "예산형" if is_kr else "Budget-friendly"
     if avg <= 90000:
@@ -137,7 +139,7 @@ def _banner_copy(
     location_ctx: dict[str, Any] | None = None,
     price_label: str = "",
 ) -> dict[str, str]:
-    is_kr = (lang or "en").lower() in ("kr", "ko")
+    is_kr = is_kr_lang(lang)
     click = banner["click_url"]
     image = banner["image_url"]
     pixel = banner["pixel_url"]
@@ -207,7 +209,7 @@ def a8_housing_context(
     if not _enabled():
         return _empty()
 
-    is_kr = (lang or "en").lower() in ("kr", "ko")
+    is_kr = is_kr_lang(lang)
     guide_key = (guide_slug or "").removesuffix("_kr").removeprefix("guide_")
     show_oakhouse = False
 
@@ -300,7 +302,7 @@ def a8_travel_context(
     if not _enabled():
         return empty
 
-    is_kr = (lang or "en").lower() in ("kr", "ko")
+    is_kr = is_kr_lang(lang)
     guide_key = (guide_slug or "").removesuffix("_kr").removeprefix("guide_")
     kind = (item_type or "guide").strip().lower()
 
