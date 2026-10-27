@@ -2,7 +2,7 @@
 {
   "layout": "guide",
   "id": "a8",
-  "title": "自転車保険 가입 의무화 지역별 정리 (留学生 대상, A8 보험 제휴 연계)",
+  "title": "Bicycle Insurance Requirements by Region in Japan (For International Students, A8 Insurance Affiliate Links)",
   "category": "Insurance",
   "tags": [
     "Insurance"
