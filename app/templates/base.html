@@ -16,7 +16,7 @@
     <title>{% block title %}{{ meta_title or ('JP Campus - ' ~ ui.essential_guides) }}{% endblock %}</title>
     <meta name="description" content="{{ meta_description or 'JP Campus helps international students choose schools and universities in Japan.' }}">
     
-    {% if ga_measurement_id %}
+    {% if ga_measurement_id and not request.state.is_suspected_bot %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
