@@ -1,6 +1,7 @@
 """FastAPI application entrypoint."""
 from __future__ import annotations
 
+import logging
 import os
 from urllib.parse import urlencode
 
@@ -9,6 +10,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
+from app.bot_filter import describe_traffic
 from app.config import DOMAIN, redirect_target
 from app.deps import configure_template_globals
 from app.reactions import router as reactions_router
@@ -18,6 +20,8 @@ from app.waitlist import router as waitlist_router
 from app.utils import CONTENT_DIR, STATIC_DIR
 
 load_dotenv()
+
+traffic_logger = logging.getLogger("jpcampus.traffic")
 
 app = FastAPI()
 
@@ -77,6 +81,25 @@ async def legacy_redirect_middleware(request: Request, call_next):
     else:
         redirect_url = target
     return RedirectResponse(url=redirect_url, status_code=301)
+
+
+@app.middleware("http")
+async def bot_traffic_filter_middleware(request: Request, call_next):
+    """Flags suspected bot/script traffic and logs Direct-attribution gaps.
+
+    Never blocks a request -- legitimate search/social crawlers must still
+    reach every page for SEO and social card previews. `request.state`
+    carries the flag so templates can skip firing GA for suspected bots,
+    which is the main source of bot-inflated "Direct" sessions.
+    """
+    is_static_or_api = request.url.path.startswith(("/api", "/static"))
+    info = None if is_static_or_api else describe_traffic(request)
+    request.state.is_suspected_bot = bool(info and info["is_suspected_bot"])
+
+    if info and (info["is_suspected_bot"] or info["referer_without_utm"]):
+        traffic_logger.info("traffic_flag %s", info)
+
+    return await call_next(request)
 
 
 app.include_router(reactions_router, prefix="/api")
