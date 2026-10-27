@@ -15,6 +15,10 @@ def _load_lang_cached(lang_key: str, mtime_ns: int) -> dict[str, str]:
         return json.load(f)
 
 
+def is_kr_lang(lang: str | None) -> bool:
+    return (lang or "en").lower() in ("kr", "ko")
+
+
 def get_ui_text(lang: str = "en") -> dict[str, str]:
     lang_key = "kr" if lang == "kr" else "en"
     path = _I18N_DIR / f"{lang_key}.json"

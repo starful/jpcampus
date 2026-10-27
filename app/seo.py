@@ -30,6 +30,15 @@ def default_updated_at() -> str:
     return updated_at or datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
+def seo_url_context(path: str, lang: str) -> dict[str, object]:
+    """Canonical URL, hreflang alternates, and last-updated date shared by every page."""
+    return {
+        "canonical_url": build_canonical_url(path, lang),
+        "hreflang_urls": build_hreflang_urls(path),
+        "updated_at": default_updated_at(),
+    }
+
+
 def site_stats(lang: str = "en") -> dict[str, int | str]:
     schools, updated_at = load_school_data(lang)
     return {
