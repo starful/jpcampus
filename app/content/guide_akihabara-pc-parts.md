@@ -7,17 +7,16 @@
   "tags": [
     "Budget"
   ],
-  "description": "PC building in Akihabara: find Tsukumo, Dospara, Ark. Student tax-free shopping, used components, and best shops for GPUs and CPUs.",
+  "description": "PC building in Akihabara: find Tsukumo, Dospara, Ark shops. Student tax-free shopping, used components.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-08-31",
-  "seo_title": "Build Your PC in Akihabara: Tsukumo, Dospara, Ark - Student Guide 2026",
-  "seo_description": "PC building in Akihabara: find Tsukumo, Dospara, Ark. Student tax-free shopping, used components, and best shops for GPUs and CPUs."
+  "seo_title": "Build Your PC in Akihabara: Tax-Free Deal + Student GPU/CPU Guide",
+  "seo_description": "Akihabara PC building: shop Tsukumo, Dospara, Ark. Student tax-free discounts, used components, CPU/GPU deals."
 }
 ---
+### Tax-Free Shopping Hack for Students
 
-
-
-
+Bring your **passport + tourist visa** (not student visa) to claim tax-free status. Most major shops apply 8% refund at checkout. For best selection: Tsukumo (GPUs), Dospara (CPUs), Ark (budget builds). Check current prices via **Akiba's online** before visiting—stores honor listed prices.
 
 ## Akihabara: Your One-Stop Destination for PC Parts
 
