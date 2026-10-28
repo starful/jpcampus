@@ -14,10 +14,6 @@
   "seo_description": "Akihabara PC building: shop Tsukumo, Dospara, Ark. Student tax-free discounts, used components, CPU/GPU deals."
 }
 ---
-### Tax-Free Shopping Hack for Students
-
-Bring your **passport + tourist visa** (not student visa) to claim tax-free status. Most major shops apply 8% refund at checkout. For best selection: Tsukumo (GPUs), Dospara (CPUs), Ark (budget builds). Check current prices via **Akiba's online** before visiting—stores honor listed prices.
-
 ## Akihabara: Your One-Stop Destination for PC Parts
 
 If you're an international student in Tokyo looking to build a custom PC, Akihabara ("Akiba") is the answer to nearly every question you have about where to shop. This Tokyo neighborhood has been Japan's electronics epicenter for decades, and while it's now equally famous for anime and gaming culture, the multi-story component shops that line Chuo-dori and the surrounding backstreets remain some of the best places in the world to build a machine from scratch. Whether you need a flagship GPU, a budget CPU, or a single obscure cable, Akihabara has a shop that specializes in exactly that. This guide walks you through which stores to visit for which parts, how to use your tax-free status as a temporary visitor, and where to find used components if you're building on a student budget.
