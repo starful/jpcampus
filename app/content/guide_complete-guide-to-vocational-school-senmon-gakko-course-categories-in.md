@@ -26,8 +26,8 @@ The Japanese government (MEXT) classifies senmon gakko programs into eight broad
 | Industrial/Engineering | 工業 | 2–4 years | IT, civil engineering, electronics, automotive mechanics |
 | Agriculture | 農業 | 2 years | Agribusiness, landscaping, food production |
 | Medical | 医療 | 2–4 years | Nursing assistant, dental hygiene, physical therapy |
-| Welfare | 衛生・福祉 | 2 years | Elder care, childcare, social work |
-| Education/Social Welfare | 教育・社会福祉 | 2 years | Early childhood education, interpreter training |
+| Hygiene | 衛生 | 2 years | Cosmetology, barbering, culinary arts, nutrition |
+| Education/Social Welfare | 教育・社会福祉 | 2 years | Early childhood education, elder care, social work |
 | Commercial Practical | 商業実務 | 1–2 years | Accounting, trade, business administration |
 | Fashion/Home Economics | 服飾・家政 | 2 years | Fashion design, textiles, cooking, patisserie |
 | Culture/General Education | 文化・教養 | 2 years | Anime, game design, music, foreign language, tourism |

@@ -16,7 +16,7 @@
 ---
 ### Quick Gakuwari Checklist
 
-**Transport:** JR/Kanto Railways 20% off | **Entertainment:** Cinemas 1,000¥ → 800¥, museums 30-50% | **Dining:** Ramen chains, izakayas, gyms | **Always ask** at register—discounts aren't always posted. Bring your Gakusei-sho (student card).
+**Transport:** JR/Kanto Railways 20% off | **Entertainment:** Cinemas ¥1,900-2,000 → ¥1,500, museums 30-50% | **Dining:** Ramen chains, izakayas, gyms | **Always ask** at register—discounts aren't always posted. Bring your Gakusei-sho (student card).
 
 **Most students in Japan leave money on the table simply because they don't ask.** Gakuwari isn't hidden — it's posted at ticket windows, box offices, and admission counters all over the country — but only if you know where to look and how to flash your Gakusei-sho at the right moment. Here's the full rundown.
 
