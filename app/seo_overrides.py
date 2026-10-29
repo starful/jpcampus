@@ -18,6 +18,11 @@ def high_ctr_slugs() -> frozenset[str]:
     return frozenset(_load().get("high_ctr_slugs", []))
 
 
+def noindex_slugs() -> frozenset[str]:
+    """Slugs/ids forced to noindex regardless of the thin-content check (manual curation)."""
+    return frozenset(_load().get("noindex_slugs", []))
+
+
 def serp_override(slug: str, lang_key: str) -> dict[str, str] | None:
     entry = _load().get("serp_overrides", {}).get(slug, {}).get(lang_key)
     if not entry:

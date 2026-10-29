@@ -31,6 +31,7 @@ from app.seo import (
     build_meta_title,
     content_lastmod,
     guide_faq_json_ld,
+    meta_robots_directive,
     seo_url_context,
     stay_faq_json_ld,
 )
@@ -292,6 +293,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "item": item, "item_type": item_type,
         "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang),
         **seo_url_context(f"/school/{school_id}", lang),
+        "meta_robots": meta_robots_directive(school_id, content_html),
         "related_guides": pick_related_guides(item, item_type, lang),
         "nearby_stays": pick_nearby_stays(item, lang) if SHOW_STAYS_UI and item_type != "guide" else [],
         "show_stays_ui": SHOW_STAYS_UI,
@@ -348,6 +350,7 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
         "nearby_stays": [],
         "related_schools": pick_nearby_schools(item, lang),
         **seo_url_context(f"/stay/{stay_id}", lang),
+        "meta_robots": meta_robots_directive(stay_id, content_html),
         "related_guides": pick_related_guides(item, "stay", lang),
         "meta_title": build_meta_title(meta_raw_title, lang),
         "meta_description": build_meta_description(
@@ -397,6 +400,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "item": item, "item_type": "guide",
         "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang),
         **seo_url_context(f"/guide/{slug}", lang),
+        "meta_robots": meta_robots_directive(slug, content_html),
         "related_schools": pick_related_schools(item, lang),
         "related_guides": pick_related_guides(item, "guide", lang),
         "nearby_stays": [],
