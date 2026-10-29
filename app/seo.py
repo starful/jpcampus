@@ -3,11 +3,17 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from datetime import datetime, timezone
 
 from app.config import DOMAIN
-from app.seo_overrides import faq_rows, high_ctr_slugs, serp_override
+from app.seo_overrides import faq_rows, high_ctr_slugs, noindex_slugs, serp_override
 from app.utils import CONTENT_DIR, load_school_data
+
+# Pages under this word count are "crawled - currently not indexed" risks in
+# Search Console; serve them noindex,follow until the content is expanded.
+THIN_CONTENT_MIN_WORDS = 300
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
 
 
 def build_canonical_url(path: str, lang: str | None = None) -> str:
@@ -70,6 +76,22 @@ def build_meta_description(raw_description: str, fallback: str) -> str:
     if len(text) <= 155:
         return text
     return f"{text[:152].rstrip()}..."
+
+
+def content_word_count(content_html: str) -> int:
+    text = _HTML_TAG_RE.sub(" ", content_html or "")
+    return len(text.split())
+
+
+def is_thin_content(content_html: str, min_words: int = THIN_CONTENT_MIN_WORDS) -> bool:
+    return content_word_count(content_html) < min_words
+
+
+def meta_robots_directive(slug: str, content_html: str) -> str:
+    """index,follow unless the slug is manually flagged or the body is thin content."""
+    if slug in noindex_slugs() or is_thin_content(content_html):
+        return "noindex,follow"
+    return "index,follow"
 
 
 def _guide_lang_key(lang: str) -> str:
