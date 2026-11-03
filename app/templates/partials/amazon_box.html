@@ -1,0 +1,19 @@
+{# Amazon JP — always secondary (below article / after Oakhouse repeat CTA). #}
+{% if show_amazon and amazon_cta %}
+<aside class="affiliate-box affiliate-box--amazon{% if amazon_cta.after_oakhouse %} affiliate-box--secondary{% endif %}"
+       role="complementary"
+       aria-label="{{ '제휴 링크' if current_lang == 'kr' else 'Affiliate links' }}">
+    <p class="affiliate-box__title">{{ amazon_cta.title }}</p>
+    <div class="affiliate-box__actions">
+        <a class="affiliate-box__btn affiliate-box__btn--amazon"
+           href="{{ amazon_cta.click_url }}"
+           target="_blank"
+           rel="nofollow sponsored noopener noreferrer"
+           data-track="affiliate_amazon"
+           data-track-label="{{ amazon_cta.keyword }}">
+            {{ amazon_cta.button_label }}
+        </a>
+    </div>
+    <p class="affiliate-box__note">{{ amazon_cta.note }}</p>
+</aside>
+{% endif %}

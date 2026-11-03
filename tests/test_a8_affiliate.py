@@ -1,6 +1,7 @@
 """A8 housing affiliate banners."""
 
 from app.a8_affiliate import (
+    AGODA_A8,
     HOUSING_A8_GUIDE_SLUGS,
     OAKHOUSE_A8,
     a8_housing_context,
@@ -107,3 +108,14 @@ def test_rendered_a8_uses_text_buttons_not_images():
         assert "a8-banners__img" not in stay.text
         assert "a8-banners__label" in stay.text
         assert "Agoda" in stay.text
+
+
+def test_only_oakhouse_uses_px_a8():
+    import inspect
+
+    import app.a8_affiliate as mod
+
+    src = inspect.getsource(mod)
+    assert src.count("px.a8.net") == 1
+    assert "ejp?a8mat=4BACLH+3OROOI+41A0+60H7L" in OAKHOUSE_A8["click_url"]
+    assert AGODA_A8["click_url"] == ""  # Agoda = Partners CID, never A8
