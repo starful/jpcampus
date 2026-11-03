@@ -11,6 +11,7 @@ from fastapi.responses import HTMLResponse, PlainTextResponse, RedirectResponse,
 from app.config import ADS_TXT_CONTENT, DOMAIN, FAMILY_SITE_ID, GOOGLE_MAPS_API_KEY, SHOW_STAYS_UI
 from app.a8_affiliate import a8_housing_context, a8_travel_context
 from app.affiliate import affiliate_context
+from app.amazon_affiliate import amazon_context
 from app.workbooks import workbook_context
 from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content, load_stay_content
 from app.content_badges import enrich_items
@@ -288,6 +289,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
     )
     ctx = share_context(DOMAIN, "school", school_id, share_title, lang)
     school_location = item.get("location") or {}
+    _school_affiliate = affiliate_context(school_id, lang=lang, item_type=item_type)
 
     return templates.TemplateResponse(request, "detail.html", {
         "item": item, "item_type": item_type,
@@ -305,7 +307,13 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
         "faq_json_ld": None,
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
-        **affiliate_context(school_id, lang=lang, item_type=item_type),
+        **_school_affiliate,
+        **amazon_context(
+            school_id,
+            lang=lang,
+            item_type=item_type,
+            rakuten_shown=_school_affiliate.get("show_affiliate", False),
+        ),
         **a8_travel_context(
             page_kind="travel_guide",
             lang=lang,
@@ -395,6 +403,8 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
 
     share_title = title_raw or item.get("title", "Study in Japan Guide")
     ctx = share_context(DOMAIN, "guide", slug, share_title, lang)
+    _guide_affiliate = affiliate_context(slug, lang=lang, item_type="guide")
+    _guide_housing = a8_housing_context(page_kind="housing_guide", lang=lang, guide_slug=slug)
 
     return templates.TemplateResponse(request, "detail.html", {
         "item": item, "item_type": "guide",
@@ -413,9 +423,16 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
         "faq_json_ld": guide_faq_json_ld(slug, lang),
         "cross_site_links": _detail_cross_links(lang, item),
         **inject_family_context(FAMILY_SITE_ID, lang),
-        **affiliate_context(slug, lang=lang, item_type="guide"),
+        **_guide_affiliate,
         **workbook_context(lang, guide_slug=slug),
-        **a8_housing_context(page_kind="housing_guide", lang=lang, guide_slug=slug),
+        **_guide_housing,
+        **amazon_context(
+            slug,
+            lang=lang,
+            item_type="guide",
+            oakhouse_primary=_guide_housing.get("show_a8_housing", False),
+            rakuten_shown=_guide_affiliate.get("show_affiliate", False),
+        ),
         **a8_travel_context(
             page_kind="travel_guide",
             lang=lang,
