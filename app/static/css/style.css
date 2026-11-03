@@ -940,6 +940,62 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .detail-content td { padding: 15px; border-bottom: 1px solid var(--border); }
 .detail-content tr:last-child td { border-bottom: 0; }
 
+/* Guide quick-summary table + table of contents */
+.guide-quick-summary, .guide-toc {
+    margin: 0 0 28px;
+    padding: 20px 22px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+}
+.guide-quick-summary .detail-section-title, .guide-toc .detail-section-title {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+.guide-summary-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.guide-summary-table tr { border-bottom: 1px solid var(--border); }
+.guide-summary-table tr:last-child { border-bottom: 0; }
+.guide-summary-table th, .guide-summary-table td {
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+}
+.guide-summary-table th {
+    width: 40%;
+    color: var(--text-gray);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.guide-summary-table td {
+    font-weight: 600;
+    color: var(--text-dark);
+}
+.guide-toc-list {
+    margin: 0;
+    padding-left: 1.1em;
+    counter-reset: guide-toc-counter;
+}
+.guide-toc-item {
+    margin-bottom: 8px;
+}
+.guide-toc-item--sub {
+    list-style: none;
+    margin-left: 1.1em;
+}
+.guide-toc-item a {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+}
+.guide-toc-item a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 .detail-cta-panel {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
