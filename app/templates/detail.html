@@ -124,6 +124,49 @@
     {% endif %}
     {% include 'partials/workbook_box.html' %}
 
+    {% if item_type == 'guide' %}
+    {% set guide_tags = item.get('tags') or [] %}
+    {% set guide_word_count = content_body | striptags | wordcount %}
+    {% set guide_read_minutes = ((guide_word_count / 200) | round(0, 'ceil')) | int %}
+    {% if guide_read_minutes < 1 %}{% set guide_read_minutes = 1 %}{% endif %}
+    <section class="guide-quick-summary" aria-labelledby="guide-quick-summary-title">
+        <h2 id="guide-quick-summary-title" class="detail-section-title">{% if current_lang in ('kr', 'ko') %}핵심 요약{% else %}Quick Summary{% endif %}</h2>
+        <table class="guide-summary-table">
+            <tbody>
+                <tr>
+                    <th scope="row">{% if current_lang in ('kr', 'ko') %}카테고리{% else %}Category{% endif %}</th>
+                    <td>{{ item.get('category', '—') }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">{% if current_lang in ('kr', 'ko') %}예상 읽기 시간{% else %}Estimated read time{% endif %}</th>
+                    <td>{% if current_lang in ('kr', 'ko') %}약 {{ guide_read_minutes }}분{% else %}~{{ guide_read_minutes }} min{% endif %}</td>
+                </tr>
+                {% if item.get('date') %}
+                <tr>
+                    <th scope="row">{% if current_lang in ('kr', 'ko') %}최종 업데이트{% else %}Last updated{% endif %}</th>
+                    <td>{{ item.get('date') }}</td>
+                </tr>
+                {% endif %}
+                {% if guide_tags %}
+                <tr>
+                    <th scope="row">{% if current_lang in ('kr', 'ko') %}태그{% else %}Tags{% endif %}</th>
+                    <td>{{ guide_tags | join(', ') }}</td>
+                </tr>
+                {% endif %}
+                <tr>
+                    <th scope="row">{% if current_lang in ('kr', 'ko') %}이런 분께 추천{% else %}Who it's for{% endif %}</th>
+                    <td>{% if current_lang in ('kr', 'ko') %}일본 유학을 준비·재학 중인 학생{% else %}Students planning or living through study in Japan{% endif %}</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <nav class="guide-toc" id="guide-toc" aria-labelledby="guide-toc-title">
+        <h2 id="guide-toc-title" class="detail-section-title">{% if current_lang in ('kr', 'ko') %}목차{% else %}Table of Contents{% endif %}</h2>
+        <ol class="guide-toc-list" id="guide-toc-list"></ol>
+    </nav>
+    {% endif %}
+
     {% if item_type == 'stay' %}
     <div class="info-grid detail-info-grid detail-info-grid--stay">
         <div class="info-item">
@@ -368,6 +411,50 @@
 
 {% block scripts %}
 <script>
+    (function buildGuideToc() {
+        const tocNav = document.getElementById("guide-toc");
+        const tocList = document.getElementById("guide-toc-list");
+        const content = document.querySelector(".detail-content");
+        if (!tocNav || !tocList || !content) return;
+
+        const headings = content.querySelectorAll("h2, h3");
+        const usedIds = new Set();
+        let itemCount = 0;
+
+        headings.forEach((heading) => {
+            const text = heading.textContent.trim();
+            if (!text) return;
+
+            let slug = text.toLowerCase()
+                .replace(/[^\p{L}\p{N}\s-]/gu, "")
+                .trim()
+                .replace(/\s+/g, "-")
+                .slice(0, 60) || "section";
+
+            let id = slug;
+            let suffix = 2;
+            while (usedIds.has(id) || document.getElementById(id)) {
+                id = `${slug}-${suffix}`;
+                suffix += 1;
+            }
+            usedIds.add(id);
+            heading.id = id;
+
+            const li = document.createElement("li");
+            li.className = heading.tagName === "H3" ? "guide-toc-item guide-toc-item--sub" : "guide-toc-item";
+            const a = document.createElement("a");
+            a.href = `#${id}`;
+            a.textContent = text;
+            li.appendChild(a);
+            tocList.appendChild(li);
+            itemCount += 1;
+        });
+
+        if (itemCount < 2) {
+            tocNav.style.display = "none";
+        }
+    })();
+
     const itemSlug = "{{ item.get('id') }}";
 
     document.addEventListener("DOMContentLoaded", async () => {
