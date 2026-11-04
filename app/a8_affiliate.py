@@ -47,7 +47,14 @@ def _price_band_label(
     return "프리미엄" if is_kr else "Comfort"
 
 
-A8PageKind = Literal["stays_list", "stay_detail", "housing_guide", "travel_guide"]
+A8PageKind = Literal[
+    "stays_list",
+    "stay_detail",
+    "housing_guide",
+    "travel_guide",
+    "guide_list",
+    "schools_list",
+]
 
 GUIDE_A8_TRAVEL: frozenset[str] = frozenset(
     {
@@ -334,7 +341,8 @@ def a8_travel_context(
             }
         )
 
-    if guide_key not in GUIDE_A8_TRAVEL:
+    # Guide list (empty slug) or travel-prep guides: one Agoda slot.
+    if guide_key and guide_key not in GUIDE_A8_TRAVEL and page_kind != "guide_list":
         return empty
 
     banners = [_banner_copy(AGODA_A8, lang=lang)]

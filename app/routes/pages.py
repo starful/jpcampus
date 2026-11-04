@@ -537,7 +537,6 @@ async def stay_list(request: Request, lang: str = Query("en")):
             "Browse student housing options across Japan.",
         ),
         **workbook_context(lang, page_kind="stays_list"),
-        **a8_housing_context(page_kind="stays_list", lang=lang),
     })
 
 
