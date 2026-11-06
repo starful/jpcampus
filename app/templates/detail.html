@@ -82,6 +82,7 @@
             src="{{ item.get('thumbnail') }}"
             alt="{{ item.get('title', 'Guide thumbnail') }}"
             loading="eager"
+            fetchpriority="high"
             decoding="async"
         >
     {% if item.get('thumbnail_credit') %}<figcaption class="photo-credit">{{ item.get('thumbnail_credit') }}</figcaption>{% endif %}
@@ -92,6 +93,7 @@
             src="{{ item.get('thumbnail') }}"
             alt="{{ item.get('basic_info', {}).get('name_en', 'Housing') }}"
             loading="eager"
+            fetchpriority="high"
             decoding="async"
             onerror="this.onerror=null;this.src='/static/img/logo.png'"
         >
@@ -99,7 +101,9 @@
     {% endif %}
 
     {% if item_type in ('school', 'university') %}
+    {% with a8_top_of_page = true %}
     {% include 'partials/a8_banners.html' %}
+    {% endwith %}
     {% endif %}
     {% include 'partials/workbook_box.html' %}
 
@@ -386,6 +390,23 @@
 
 {% block scripts %}
 <script>
+    (function initA8TopCollapse() {
+        document.querySelectorAll(".a8-banners--top").forEach((box) => {
+            const grid = box.querySelector(".a8-banners__grid");
+            const btn = box.querySelector("[data-a8-toggle]");
+            if (!grid || !btn) return;
+            if (grid.scrollHeight > grid.clientHeight + 4) {
+                btn.hidden = false;
+            }
+            btn.addEventListener("click", () => {
+                const expanded = box.classList.toggle("is-a8-expanded");
+                btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+                btn.querySelector(".a8-banners__more-toggle-text").textContent =
+                    expanded ? btn.dataset.labelLess : btn.dataset.labelMore;
+            });
+        });
+    })();
+
     (function buildGuideToc() {
         const tocNav = document.getElementById("guide-toc");
         const tocList = document.getElementById("guide-toc-list");

@@ -1694,7 +1694,7 @@ body.compare-bar-active {
     z-index: 2000;
     background: var(--text-dark);
     color: #fff;
-    padding: 14px 20px;
+    padding: 14px 20px calc(14px + env(safe-area-inset-bottom));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2017,6 +2017,9 @@ body.compare-bar-active {
         flex-direction: column;
         text-align: center;
     }
+    body.compare-bar-active {
+        padding-bottom: 150px;
+    }
 }/* A8.net partner buttons (text, not remote images) */
 .affiliate-box--a8 {
     margin: 24px auto;
@@ -2168,6 +2171,28 @@ body.compare-bar-active {
         flex: 1 1 100%;
         max-width: none;
     }
+}
+/* a8_banners placed right under the detail header (school/university): cap its
+   height on mobile so real page content stays in the first viewport. */
+@media (max-width: 640px) {
+    .a8-banners--top .a8-banners__grid {
+        max-height: 190px;
+        overflow: hidden;
+    }
+    .a8-banners--top.is-a8-expanded .a8-banners__grid {
+        max-height: none;
+    }
+}
+.a8-banners__more-toggle {
+    display: block;
+    margin: 10px auto 0;
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    color: #475569;
+    font-size: 0.78rem;
+    font-weight: 700;
 }
 
 /* Google Places photo credit under the guide cover */
