@@ -7,7 +7,7 @@ import re
 import urllib.error
 import urllib.request
 from functools import lru_cache
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, urlencode, urlparse
 
 from app.content_loader import ContentNotFoundError, load_guide_content, load_school_content
 from app.utils import STATIC_DIR, assign_thumbnails, resolve_guide_thumbnail
@@ -50,17 +50,27 @@ def card_page_path(kind: str, identifier: str, lang: str) -> str:
     return f"/card/{kind}/{identifier}?{query}"
 
 
+def append_utm_params(url: str, *, source: str, medium: str, campaign: str) -> str:
+    """Tag an outbound share link so GA attributes the click instead of
+    bucketing it as "Direct" (the anomaly under investigation)."""
+    separator = "&" if "?" in url else "?"
+    query = urlencode({"utm_source": source, "utm_medium": medium, "utm_campaign": campaign})
+    return f"{url}{separator}{query}"
+
+
 def share_context(domain: str, kind: str, identifier: str, title: str, lang: str) -> dict:
     page = detail_page_path(kind, identifier, lang)
     share_url = f"{domain.rstrip('/')}{page}"
+    card_url = f"{domain.rstrip('/')}{card_page_path(kind, identifier, lang)}"
+    campaign = f"{kind}_share"
     if lang == "kr":
         share_tweet = f"{title} — JP Campus"
     else:
         share_tweet = f"{title} — Study in Japan on JP Campus"
     return {
         "share_id": identifier,
-        "share_url": share_url,
-        "share_url_x": f"{domain.rstrip('/')}{card_page_path(kind, identifier, lang)}",
+        "share_url": append_utm_params(share_url, source="share_bar", medium="social", campaign=campaign),
+        "share_url_x": append_utm_params(card_url, source="x", medium="social", campaign=campaign),
         "share_tweet": share_tweet,
         "share_lang": lang,
         "og_page_url": share_url,
