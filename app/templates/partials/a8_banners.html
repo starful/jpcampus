@@ -2,8 +2,9 @@
 {% set _a8_list = a8_banners if (show_a8_banners and a8_banners) else [] %}
 {% set _amz = amazon_cta if (show_amazon and amazon_cta) else None %}
 {% set _rkt = show_affiliate and (show_rakuten or (show_jp_esim and jp_esim_url)) %}
+{% set _top = a8_top_of_page is defined and a8_top_of_page %}
 {% if _a8_list or _amz or _rkt %}
-<aside class="a8-banners affiliate-box affiliate-box--a8"
+<aside class="a8-banners affiliate-box affiliate-box--a8{% if _top %} a8-banners--top{% endif %}"
        role="complementary"
        aria-label="{{ '제휴 광고' if current_lang == 'kr' else 'Affiliate ads' }}">
     {% if a8_banners_title or affiliate_title %}
@@ -67,6 +68,13 @@
         </div>
         {% endif %}
     </div>
+    {% if _top %}
+    <button type="button" class="a8-banners__more-toggle" data-a8-toggle aria-expanded="false" hidden
+        data-label-more="{{ '더 보기' if current_lang == 'kr' else 'Show more' }}"
+        data-label-less="{{ '접기' if current_lang == 'kr' else 'Show less' }}">
+        <span class="a8-banners__more-toggle-text">{{ '더 보기' if current_lang == 'kr' else 'Show more' }}</span>
+    </button>
+    {% endif %}
     {% if a8_banners_note or affiliate_note %}
     <p class="affiliate-box__note">{{ a8_banners_note or affiliate_note }}</p>
     {% elif _amz and _amz.note %}
