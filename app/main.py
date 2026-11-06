@@ -96,7 +96,7 @@ async def bot_traffic_filter_middleware(request: Request, call_next):
     info = None if is_static_or_api else describe_traffic(request)
     request.state.is_suspected_bot = bool(info and info["is_suspected_bot"])
 
-    if info and (info["is_suspected_bot"] or info["referer_without_utm"]):
+    if info and (info["is_suspected_bot"] or info["referer_without_utm"] or info["is_direct_session"]):
         traffic_logger.info("traffic_flag %s", info)
 
     return await call_next(request)

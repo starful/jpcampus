@@ -50,14 +50,21 @@ def describe_traffic(request: Request) -> dict:
     ua = request.headers.get("User-Agent", "")
     referer = request.headers.get("Referer", "")
     has_utm = has_utm_params(request)
+    is_bot = is_suspected_bot(ua)
+    # No referer and no UTM is exactly what GA buckets as "Direct". Pairing
+    # this with is_suspected_bot lets us split the 86% Direct spike into
+    # bot-inflated vs genuinely direct sessions from the logs alone.
+    is_direct_session = not referer and not has_utm
     return {
         "path": request.url.path,
         "user_agent": ua,
-        "is_suspected_bot": is_suspected_bot(ua),
+        "is_suspected_bot": is_bot,
         "has_referer": bool(referer),
         "has_utm": has_utm,
         # Referer present but no UTM: GA will likely bucket this as
         # "Direct" even though it came from somewhere -- the anomaly
         # we're chasing separately from bot traffic.
         "referer_without_utm": bool(referer) and not has_utm,
+        "is_direct_session": is_direct_session,
+        "direct_session_is_bot": is_direct_session and is_bot,
     }
