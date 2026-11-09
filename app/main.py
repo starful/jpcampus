@@ -90,13 +90,20 @@ async def bot_traffic_filter_middleware(request: Request, call_next):
     Never blocks a request -- legitimate search/social crawlers must still
     reach every page for SEO and social card previews. `request.state`
     carries the flag so templates can skip firing GA for suspected bots,
-    which is the main source of bot-inflated "Direct" sessions.
+    which is the main source of bot-inflated "Direct" sessions. Requests
+    tagged with a known app/email/SNS utm_source are also logged, so the
+    86% Direct figure can be split against real acquisition-channel volume.
     """
     is_static_or_api = request.url.path.startswith(("/api", "/static"))
     info = None if is_static_or_api else describe_traffic(request)
     request.state.is_suspected_bot = bool(info and info["is_suspected_bot"])
 
-    if info and (info["is_suspected_bot"] or info["referer_without_utm"] or info["is_direct_session"]):
+    if info and (
+        info["is_suspected_bot"]
+        or info["referer_without_utm"]
+        or info["is_direct_session"]
+        or info["utm_channel"] != "none"
+    ):
         traffic_logger.info("traffic_flag %s", info)
 
     return await call_next(request)
