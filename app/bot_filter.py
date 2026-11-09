@@ -45,6 +45,33 @@ def has_utm_params(request: Request) -> bool:
     return any(key.startswith("utm_") for key in request.query_params.keys())
 
 
+# Known utm_source/utm_medium values for the acquisition channels we tag
+# ourselves (app webview, email campaigns, SNS shares -- see
+# app/social_share.py:append_utm_params) plus common provider names, so we
+# can separate real app/email/SNS entries from the catch-all "Direct" bucket.
+_APP_UTM_SOURCES = {"app", "ios_app", "android_app", "webview", "inapp"}
+_EMAIL_UTM_SOURCES = {"email", "newsletter", "mailchimp", "sendgrid"}
+_SNS_UTM_SOURCES = {
+    "share_bar", "x", "twitter", "instagram", "facebook", "kakao", "kakaotalk",
+    "line", "threads", "tiktok", "naver_blog",
+}
+
+
+def classify_utm_channel(request: Request) -> str:
+    """Bucket an inbound request into app/email/sns/other/none by its UTM params."""
+    source = (request.query_params.get("utm_source") or "").strip().lower()
+    medium = (request.query_params.get("utm_medium") or "").strip().lower()
+    if not source and not medium:
+        return "none"
+    if source in _APP_UTM_SOURCES or medium == "app":
+        return "app"
+    if source in _EMAIL_UTM_SOURCES or medium == "email":
+        return "email"
+    if source in _SNS_UTM_SOURCES or medium in {"social", "sns"}:
+        return "sns"
+    return "other"
+
+
 def describe_traffic(request: Request) -> dict:
     """Snapshot logged for the Direct-traffic anomaly investigation."""
     ua = request.headers.get("User-Agent", "")
@@ -67,4 +94,11 @@ def describe_traffic(request: Request) -> dict:
         "referer_without_utm": bool(referer) and not has_utm,
         "is_direct_session": is_direct_session,
         "direct_session_is_bot": is_direct_session and is_bot,
+        # App/email/SNS entries carry their own utm_source -- logging these
+        # separately shows how much of the 86% "Direct" figure is really
+        # attributable traffic that GA just can't see the tag for.
+        "utm_channel": classify_utm_channel(request),
+        "utm_source": request.query_params.get("utm_source", ""),
+        "utm_medium": request.query_params.get("utm_medium", ""),
+        "utm_campaign": request.query_params.get("utm_campaign", ""),
     }

@@ -2,18 +2,22 @@
 {
   "layout": "guide",
   "id": "student-discounts",
-  "title": "Gakuwari in Japan: Every Place Your Student ID Saves You Money (2026)",
+  "title": "Save 20-50% With Gakuwari: Japan's Student Discount Secret",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "See every place Gakuwari discounts apply—trains, movies, museums, cafes—and the ID rule most students miss.",
+  "description": "Gakuwari student discounts: 20% trains, ¥1,500 movie tickets, 30-50% museums. Bring your Gakusei-sho ID to unlock savings across Japan.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Gakuwari: Student Discounts in Japan—20% OFF Movies, Trains, Museums",
-  "seo_description": "Gakuwari student discounts: 20% off trains, movies, museums, cafes. How to use your Gakusei-sho ID card."
+  "seo_title": "Save 20-50% With Gakuwari: Japan's Student Discount Secret",
+  "seo_description": "Gakuwari student discounts: 20% trains, ¥1,500 movie tickets, 30-50% museums. Bring your Gakusei-sho ID to unlock savings across Japan."
 }
 ---
+**Most international students in Japan leave thousands of yen on the table every month.** Gakuwari isn't hidden—it's posted at ticket windows and box offices everywhere—but many students don't know exactly where to look or what ID to bring. With your Gakusei-sho, you can unlock 20-50% savings on transport, entertainment, and more across the country. Below, we show you the exact locations and how to maximize your discounts.
+
+---
+
 ### Quick Gakuwari Checklist
 
 **Transport:** JR/Kanto Railways 20% off | **Entertainment:** Cinemas ¥1,900-2,000 → ¥1,500, museums 30-50% | **Dining:** Ramen chains, izakayas, gyms | **Always ask** at register—discounts aren't always posted. Bring your Gakusei-sho (student card).
