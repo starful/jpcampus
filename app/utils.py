@@ -14,7 +14,6 @@ from app.thumbnails import (
     broken_thumbnail_redirects,
     guide_thumbnails,
     school_thumbnails,
-    stay_interior_thumbnails,
     univ_thumbnails,
 )
 
@@ -159,12 +158,12 @@ def assign_thumbnails(items, item_category="school"):
 
 
 def build_stay_gallery(item: dict, size: int = 4) -> list[str]:
-    """Combine a stay's photo sources into a small gallery list.
+    """Combine a stay's real photo sources into a small gallery list.
 
-    Most listings only have one photographed image (item['thumbnail']),
-    so the real photo is kept first and padded with a deterministic pick
-    from the interior stock pool. An explicit `gallery` list in the stay's
-    frontmatter (future content) takes priority when present.
+    Only actual photos of the listing are used (the frontmatter `gallery`
+    list if present, otherwise the single photographed thumbnail). There is
+    no stock-photo pool here: padding the gallery with unrelated school or
+    guide images would misrepresent them as photos of this specific stay.
     """
     gallery = item.get('gallery')
     if isinstance(gallery, list) and gallery:
@@ -174,17 +173,6 @@ def build_stay_gallery(item: dict, size: int = 4) -> list[str]:
         primary = (item.get('thumbnail') or '').strip()
         if primary:
             photos.append(primary)
-
-        pool = stay_interior_thumbnails()
-        item_id = str(item.get('id', 'default_id'))
-        hash_val = int(hashlib.md5(item_id.encode('utf-8')).hexdigest(), 16)
-        offset = hash_val % len(pool)
-        for i in range(len(pool)):
-            if len(photos) >= size:
-                break
-            candidate = pool[(offset + i) % len(pool)]
-            if candidate not in photos:
-                photos.append(candidate)
 
     seen = set()
     deduped = []
