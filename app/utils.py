@@ -14,6 +14,7 @@ from app.thumbnails import (
     broken_thumbnail_redirects,
     guide_thumbnails,
     school_thumbnails,
+    stay_interior_thumbnails,
     univ_thumbnails,
 )
 
@@ -155,6 +156,43 @@ def assign_thumbnails(items, item_category="school"):
             hash_val = int(hashlib.md5(item_id.encode('utf-8')).hexdigest(), 16)
             item['thumbnail'] = thumb_pool[hash_val % len(thumb_pool)]
     return items
+
+
+def build_stay_gallery(item: dict, size: int = 4) -> list[str]:
+    """Combine a stay's photo sources into a small gallery list.
+
+    Most listings only have one photographed image (item['thumbnail']),
+    so the real photo is kept first and padded with a deterministic pick
+    from the interior stock pool. An explicit `gallery` list in the stay's
+    frontmatter (future content) takes priority when present.
+    """
+    gallery = item.get('gallery')
+    if isinstance(gallery, list) and gallery:
+        photos = [str(url).strip() for url in gallery if str(url).strip()]
+    else:
+        photos = []
+        primary = (item.get('thumbnail') or '').strip()
+        if primary:
+            photos.append(primary)
+
+        pool = stay_interior_thumbnails()
+        item_id = str(item.get('id', 'default_id'))
+        hash_val = int(hashlib.md5(item_id.encode('utf-8')).hexdigest(), 16)
+        offset = hash_val % len(pool)
+        for i in range(len(pool)):
+            if len(photos) >= size:
+                break
+            candidate = pool[(offset + i) % len(pool)]
+            if candidate not in photos:
+                photos.append(candidate)
+
+    seen = set()
+    deduped = []
+    for url in photos:
+        if url not in seen:
+            seen.add(url)
+            deduped.append(url)
+    return deduped[:size]
 
 
 def compare_city(item: dict) -> str:

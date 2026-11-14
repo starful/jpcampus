@@ -42,6 +42,7 @@ from app.social_share import share_context
 from app.utils import (
     assign_thumbnails,
     build_compare_export,
+    build_stay_gallery,
     calculate_tag_counts,
     compare_fee_value,
     get_entity_filters,
@@ -368,6 +369,7 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
         "item": item,
         "item_type": item_type,
         "stay_type_label": stay_type_label,
+        "stay_gallery": build_stay_gallery(item),
         "content_body": content_html,
         "current_lang": lang,
         "ui": ui,
