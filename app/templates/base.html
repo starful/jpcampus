@@ -151,6 +151,26 @@ window.JPCAMPUS_COMPARE = {
 <script src="/static/js/compare.js?v=2"></script>
 
 <script>
+(function() {
+    function logLoadTiming() {
+        var entry = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
+        var metrics = entry ? {
+            ttfb_ms: Math.round(entry.responseStart),
+            dom_content_loaded_ms: Math.round(entry.domContentLoadedEventEnd),
+            load_ms: Math.round(entry.loadEventEnd),
+            is_mobile: {{ 'true' if request.state.is_mobile else 'false' }}
+        } : { load_ms: Math.round(performance.now()), is_mobile: {{ 'true' if request.state.is_mobile else 'false' }} };
+        console.debug('[jpcampus] page_load_timing', metrics);
+    }
+    if (document.readyState === 'complete') {
+        logLoadTiming();
+    } else {
+        window.addEventListener('load', logLoadTiming);
+    }
+})();
+</script>
+
+<script>
 document.addEventListener("click", function(event) {
     const target = event.target.closest("[data-track]");
     if (!target) return;

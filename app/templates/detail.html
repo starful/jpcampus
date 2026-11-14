@@ -87,16 +87,40 @@
         >
     {% if item.get('thumbnail_credit') %}<figcaption class="photo-credit">{{ item.get('thumbnail_credit') }}</figcaption>{% endif %}
     </figure>
-    {% elif item_type == 'stay' and item.get('thumbnail') %}
-    <figure class="detail-hero detail-hero--stay">
-        <img
-            src="{{ item.get('thumbnail') }}"
-            alt="{{ item.get('basic_info', {}).get('name_en', 'Housing') }}"
-            loading="eager"
-            fetchpriority="high"
-            decoding="async"
-            onerror="this.onerror=null;this.src='/static/img/logo.png'"
-        >
+    {% elif item_type == 'stay' and stay_gallery %}
+    {% set stay_name = item.get('basic_info', {}).get('name_en', 'Housing') %}
+    <figure class="detail-hero detail-hero--stay stay-gallery" data-stay-gallery>
+        <div class="stay-gallery__main">
+            <img
+                src="{{ stay_gallery[0] }}"
+                alt="{{ stay_name }}"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+                data-stay-gallery-main
+                onerror="this.onerror=null;this.src='/static/img/logo.png'"
+            >
+            {% if stay_gallery|length > 1 %}
+            <span class="stay-gallery__count"><i class="fa-solid fa-images" aria-hidden="true"></i> <span data-stay-gallery-count>1</span>/{{ stay_gallery|length }}</span>
+            {% endif %}
+        </div>
+        {% if stay_gallery|length > 1 %}
+        <div class="stay-gallery__thumbs" role="tablist" aria-label="{{ ui.stay_gallery_title }}">
+            {% for photo in stay_gallery %}
+            <button
+                type="button"
+                class="stay-gallery__thumb{% if loop.first %} is-active{% endif %}"
+                data-stay-gallery-thumb
+                data-src="{{ photo }}"
+                role="tab"
+                aria-selected="{{ 'true' if loop.first else 'false' }}"
+                aria-label="{{ ui.stay_gallery_photo_label }} {{ loop.index }}"
+            >
+                <img src="{{ photo }}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='/static/img/logo.png'">
+            </button>
+            {% endfor %}
+        </div>
+        {% endif %}
     </figure>
     {% endif %}
 
@@ -403,6 +427,29 @@
                 btn.setAttribute("aria-expanded", expanded ? "true" : "false");
                 btn.querySelector(".a8-banners__more-toggle-text").textContent =
                     expanded ? btn.dataset.labelLess : btn.dataset.labelMore;
+            });
+        });
+    })();
+
+    (function initStayGallery() {
+        const gallery = document.querySelector("[data-stay-gallery]");
+        if (!gallery) return;
+        const mainImg = gallery.querySelector("[data-stay-gallery-main]");
+        const countEl = gallery.querySelector("[data-stay-gallery-count]");
+        const thumbs = gallery.querySelectorAll("[data-stay-gallery-thumb]");
+
+        thumbs.forEach((thumb, index) => {
+            thumb.addEventListener("click", () => {
+                const src = thumb.dataset.src;
+                if (!src || !mainImg) return;
+                mainImg.src = src;
+                if (countEl) countEl.textContent = index + 1;
+                thumbs.forEach((t) => {
+                    t.classList.remove("is-active");
+                    t.setAttribute("aria-selected", "false");
+                });
+                thumb.classList.add("is-active");
+                thumb.setAttribute("aria-selected", "true");
             });
         });
     })();

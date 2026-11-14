@@ -157,6 +157,32 @@ def assign_thumbnails(items, item_category="school"):
     return items
 
 
+def build_stay_gallery(item: dict, size: int = 4) -> list[str]:
+    """Combine a stay's real photo sources into a small gallery list.
+
+    Only actual photos of the listing are used (the frontmatter `gallery`
+    list if present, otherwise the single photographed thumbnail). There is
+    no stock-photo pool here: padding the gallery with unrelated school or
+    guide images would misrepresent them as photos of this specific stay.
+    """
+    gallery = item.get('gallery')
+    if isinstance(gallery, list) and gallery:
+        photos = [str(url).strip() for url in gallery if str(url).strip()]
+    else:
+        photos = []
+        primary = (item.get('thumbnail') or '').strip()
+        if primary:
+            photos.append(primary)
+
+    seen = set()
+    deduped = []
+    for url in photos:
+        if url not in seen:
+            seen.add(url)
+            deduped.append(url)
+    return deduped[:size]
+
+
 def compare_city(item: dict) -> str:
     address = item.get("basic_info", {}).get("address", "")
     if not address:
