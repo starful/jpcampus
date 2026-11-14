@@ -97,6 +97,18 @@
 
 {% block content %}
 
+<div class="mobile-hero-cta" aria-label="Quick actions">
+    <a href="/schools?lang={{ current_lang }}" class="mobile-hero-cta-btn" data-track="mobile_hero_cta" data-track-label="schools">
+        <i class="fa-solid fa-building-columns" aria-hidden="true"></i> {{ ui.language_schools }}
+    </a>
+    <a href="/universities?lang={{ current_lang }}" class="mobile-hero-cta-btn" data-track="mobile_hero_cta" data-track-label="universities">
+        <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> {{ ui.top_universities }}
+    </a>
+    <a href="/compare?lang={{ current_lang }}" class="mobile-hero-cta-btn mobile-hero-cta-btn--accent" data-compare-open data-track="compare_open" data-track-label="mobile_hero">
+        <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i> {{ ui.compare_header }}
+    </a>
+</div>
+
 <section class="map-section">
     <div id="map"></div>
     <div class="map-legend" aria-label="{{ ui.map_legend_aria }}">

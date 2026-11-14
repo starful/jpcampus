@@ -324,6 +324,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     min-height: 400px;
     background: #e5e7eb;
 }
+.mobile-hero-cta { display: none; }
 .content-wrapper {
     max-width: 1100px;
     margin: 0 auto;
@@ -1070,6 +1071,29 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .nav-guide-link { font-size: 0.85rem; }
     .map-section { min-height: 340px; height: 45vh; }
     .top-filter-bar { padding: 8px 10px 10px; }
+    .mobile-hero-cta {
+        display: flex;
+        gap: 8px;
+        padding: 10px 16px 4px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .mobile-hero-cta-btn {
+        flex: 1 1 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 10px 8px;
+        border-radius: 10px;
+        background: var(--primary-light);
+        color: var(--primary);
+        font-weight: 700;
+        font-size: 0.78rem;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .mobile-hero-cta-btn--accent { background: var(--accent-light); color: var(--accent); }
     .filter-row {
         flex-direction: column;
         align-items: stretch;
@@ -1130,6 +1154,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .section-title { font-size: 1.2rem; }
     .detail-title, .list-title { font-size: 1.6rem; }
     .theme-button { font-size: 0.7rem; padding: 7px 10px; min-height: 38px; }
+}
+
+/* 짧은 모바일 화면(세로 fold 영역이 좁은 기기)에서 지도 높이를 더 줄여
+   히어로 CTA와 다음 섹션 헤더가 fold 가까이 보이도록 함 */
+@media (max-width: 768px) and (max-height: 700px) {
+    .map-section { height: 32vh; min-height: 220px; }
 }
 
 /* --- [11] 상세/리스트 페이지 전용 심플 헤더 스타일 --- */
