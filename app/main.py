@@ -97,12 +97,14 @@ async def bot_traffic_filter_middleware(request: Request, call_next):
     is_static_or_api = request.url.path.startswith(("/api", "/static"))
     info = None if is_static_or_api else describe_traffic(request)
     request.state.is_suspected_bot = bool(info and info["is_suspected_bot"])
+    request.state.is_mobile = bool(info and info["is_mobile"])
 
     if info and (
         info["is_suspected_bot"]
         or info["referer_without_utm"]
         or info["is_direct_session"]
         or info["utm_channel"] != "none"
+        or info["mobile_flagged_as_bot"]
     ):
         traffic_logger.info("traffic_flag %s", info)
 

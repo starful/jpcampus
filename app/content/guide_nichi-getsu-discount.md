@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "nichi-getsu-discount",
-  "title": "Understanding Weekly Discount Cycles at Supermarkets",
+  "title": "Japanese Supermarket Weekly Sales: Save 20-30% on Produce & Meat",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "When are meats, veggies, and milk cheapest at Japanese supermarkets?",
+  "description": "Master Japanese supermarket weekly cycles: Tuesday vegetables (kayou-ichi), Wednesday meat, Saturday family packs. Top chains: Aeon, Ito-Yokado.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Japanese Supermarket Weekly Sales: Save 20-30% on Produce & Meat",
-  "seo_description": "Aeon, Ito-Yokado, Life weekly sales cycles. Best days for produce, meat, dairy. Kayou-ichi Tuesday deals."
+  "seo_title": "Japanese Supermarket Weekly Sales Calendar | Save 20-30%",
+  "seo_description": "Master Japanese supermarket weekly cycles: Tuesday vegetables (kayou-ichi), Wednesday meat, Saturday family packs. Top chains: Aeon, Ito-Yokado."
 }
 ---
+
 ### When to Shop: Weekly Sales Map
 
 **Tuesday (Kayou-ichi):** Aeon vegetables/fruit at flat rates (98-198¥) | **Wednesday:** Meat promotions | **Saturday-Sunday:** Family deals, bulk discounts | **Best chains:** Aeon, Ito-Yokado, Life, Summit. Apps like Ikkatsu Flyer show weekly ads 1 week ahead.
