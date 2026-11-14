@@ -30,6 +30,14 @@ _SUSPECT_BOT_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Phone/tablet browser UAs -- used only to check that mobile sessions never
+# get caught by _SUSPECT_BOT_RE above, since that would silently drop the
+# GA4 tag in base.html and could explain undercounted mobile sessions.
+_MOBILE_UA_RE = re.compile(
+    r"mobile|android|iphone|ipad|ipod|iemobile|blackberry|opera mini",
+    re.IGNORECASE,
+)
+
 
 def is_suspected_bot(user_agent: str) -> bool:
     """True when the UA looks like a non-essential bot/script, not a known search/social crawler."""
@@ -39,6 +47,11 @@ def is_suspected_bot(user_agent: str) -> bool:
     if _ALLOWED_BOT_RE.search(ua):
         return False
     return bool(_SUSPECT_BOT_RE.search(ua))
+
+
+def is_mobile_user_agent(user_agent: str) -> bool:
+    """True when the UA identifies a phone/tablet browser."""
+    return bool(_MOBILE_UA_RE.search(user_agent or ""))
 
 
 def has_utm_params(request: Request) -> bool:
@@ -78,6 +91,7 @@ def describe_traffic(request: Request) -> dict:
     referer = request.headers.get("Referer", "")
     has_utm = has_utm_params(request)
     is_bot = is_suspected_bot(ua)
+    is_mobile = is_mobile_user_agent(ua)
     # No referer and no UTM is exactly what GA buckets as "Direct". Pairing
     # this with is_suspected_bot lets us split the 86% Direct spike into
     # bot-inflated vs genuinely direct sessions from the logs alone.
@@ -86,6 +100,11 @@ def describe_traffic(request: Request) -> dict:
         "path": request.url.path,
         "user_agent": ua,
         "is_suspected_bot": is_bot,
+        "is_mobile": is_mobile,
+        # If this is ever True, a real mobile visitor is being misread as a
+        # script and base.html skips the GA4 tag for them -- the suspected
+        # cause of the 9.6% mobile session anomaly.
+        "mobile_flagged_as_bot": is_mobile and is_bot,
         "has_referer": bool(referer),
         "has_utm": has_utm,
         # Referer present but no UTM: GA will likely bucket this as

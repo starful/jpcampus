@@ -25,6 +25,13 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', '{{ ga_measurement_id }}');
+      {% if request.state.is_mobile %}
+      console.debug('[jpcampus] ga4_loaded', {is_mobile: true});
+      {% endif %}
+    </script>
+    {% elif request.state.is_mobile %}
+    <script>
+      console.debug('[jpcampus] ga4_skipped', {is_mobile: true, is_suspected_bot: {{ 'true' if request.state.is_suspected_bot else 'false' }}});
     </script>
     {% endif %}
     
