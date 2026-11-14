@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "akihabara-pc-parts",
-  "title": "Build Your PC in Akihabara: Tsukumo, Dospara, Ark - Student Guide 2026",
+  "title": "Build Your PC in Akihabara: Best Shops & Budget Guide",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "PC building in Akihabara: find Tsukumo, Dospara, Ark shops. Student tax-free shopping, used components.",
+  "description": "Akihabara PC building: Shop Tsukumo, Dospara, Ark for GPUs, CPUs, components. Guide for international students building custom PCs.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-08-31",
-  "seo_title": "Build Your PC in Akihabara: Tax-Free Deal + Student GPU/CPU Guide",
-  "seo_description": "Akihabara PC building: shop Tsukumo, Dospara, Ark. Student tax-free discounts, used components, CPU/GPU deals."
+  "seo_title": "Build PC in Akihabara: Tsukumo, Dospara, Ark Guide",
+  "seo_description": "Akihabara PC building: Shop Tsukumo, Dospara, Ark for GPUs, CPUs, components. Guide for international students building custom PCs."
 }
 ---
+
 ## Akihabara: Your One-Stop Destination for PC Parts
 
 If you're an international student in Tokyo looking to build a custom PC, Akihabara ("Akiba") is the answer to nearly every question you have about where to shop. This Tokyo neighborhood has been Japan's electronics epicenter for decades, and while it's now equally famous for anime and gaming culture, the multi-story component shops that line Chuo-dori and the surrounding backstreets remain some of the best places in the world to build a machine from scratch. Whether you need a flagship GPU, a budget CPU, or a single obscure cable, Akihabara has a shop that specializes in exactly that. This guide walks you through which stores to visit for which parts, which tax-free shopping rules actually apply to you (tax-free status is reserved for short-term tourists, not most student-visa holders), and where to find used components if you're building on a student budget.

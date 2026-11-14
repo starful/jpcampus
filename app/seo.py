@@ -16,19 +16,33 @@ THIN_CONTENT_MIN_WORDS = 300
 _HTML_TAG_RE = re.compile(r"<[^>]+>")
 
 
-def build_canonical_url(path: str, lang: str | None = None) -> str:
+def build_canonical_url(path: str, lang: str | None = None, has_translation: bool = True) -> str:
+    """?lang=kr only gets its own canonical when a real kr translation backs it.
+
+    Pages that fall back to the English markdown (no _kr.md file) render the
+    same content at two URLs; self-canonicalizing the fallback just hands
+    Google a duplicate pair to pick between, which is how they end up
+    "crawled - currently not indexed" instead of served."""
     canonical = f"{DOMAIN}{path}"
-    if lang == "kr":
+    if lang == "kr" and has_translation:
         return f"{canonical}?lang=kr"
     return canonical
 
 
-def build_hreflang_urls(path: str) -> dict[str, str]:
-    return {
+def build_hreflang_urls(path: str, has_kr_translation: bool = True) -> dict[str, str]:
+    urls = {
         "en": build_canonical_url(path),
-        "ko": build_canonical_url(path, "kr"),
         "x-default": build_canonical_url(path),
     }
+    if has_kr_translation:
+        urls["ko"] = build_canonical_url(path, "kr", has_translation=True)
+    return urls
+
+
+def has_kr_content(kr_filename: str) -> bool:
+    """Whether a real _kr.md translation exists (vs. the lang=kr route falling
+    back to the English markdown)."""
+    return os.path.exists(os.path.join(CONTENT_DIR, kr_filename))
 
 
 def default_updated_at() -> str:
@@ -36,11 +50,11 @@ def default_updated_at() -> str:
     return updated_at or datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
-def seo_url_context(path: str, lang: str) -> dict[str, object]:
+def seo_url_context(path: str, lang: str, has_translation: bool = True) -> dict[str, object]:
     """Canonical URL, hreflang alternates, and last-updated date shared by every page."""
     return {
-        "canonical_url": build_canonical_url(path, lang),
-        "hreflang_urls": build_hreflang_urls(path),
+        "canonical_url": build_canonical_url(path, lang, has_translation),
+        "hreflang_urls": build_hreflang_urls(path, has_translation),
         "updated_at": default_updated_at(),
     }
 

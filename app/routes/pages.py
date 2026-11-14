@@ -32,10 +32,12 @@ from app.seo import (
     build_meta_title,
     content_lastmod,
     guide_faq_json_ld,
+    has_kr_content,
     meta_robots_directive,
     seo_url_context,
     stay_faq_json_ld,
 )
+from app.seo_overrides import noindex_slugs
 from app.social_share import share_context
 from app.utils import (
     assign_thumbnails,
@@ -97,26 +99,30 @@ async def ads_txt():
 async def sitemap():
     entries: list[dict[str, str]] = []
 
-    def add_entry(path: str, lastmod: str, changefreq: str, priority: str):
-        alternates = build_hreflang_urls(path)
+    def add_entry(path: str, lastmod: str, changefreq: str, priority: str, has_kr: bool = True):
+        alternates = build_hreflang_urls(path, has_kr)
         entries.append({
             "loc": alternates["en"],
             "lastmod": lastmod,
             "changefreq": changefreq,
             "priority": priority,
             "alt_en": alternates["en"],
-            "alt_ko": alternates["ko"],
+            "alt_ko": alternates.get("ko", ""),
             "alt_default": alternates["x-default"],
         })
-        entries.append({
-            "loc": alternates["ko"],
-            "lastmod": lastmod,
-            "changefreq": changefreq,
-            "priority": priority,
-            "alt_en": alternates["en"],
-            "alt_ko": alternates["ko"],
-            "alt_default": alternates["x-default"],
-        })
+        # Skip submitting a separate ?lang=kr URL when there's no real _kr.md
+        # translation -- it would just resubmit the English content under a
+        # second URL, which is how guides end up duplicate/unindexed in GSC.
+        if has_kr:
+            entries.append({
+                "loc": alternates["ko"],
+                "lastmod": lastmod,
+                "changefreq": changefreq,
+                "priority": priority,
+                "alt_en": alternates["en"],
+                "alt_ko": alternates["ko"],
+                "alt_default": alternates["x-default"],
+            })
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     add_entry("/", today, "daily", "1.0")
@@ -126,43 +132,55 @@ async def sitemap():
     for page in static_pages:
         add_entry(page, today, "weekly", "0.8")
 
+    skip_slugs = noindex_slugs()
+
     schools_en, _ = load_school_data("en")
     for school in schools_en:
         school_id = school.get("id")
-        if not school_id:
+        if not school_id or school_id in skip_slugs:
             continue
         add_entry(
             f"/school/{school_id}",
             content_lastmod(f"{school_id}.md", f"{school_id}_kr.md"),
             "weekly",
             "0.8",
+            has_kr=has_kr_content(f"{school_id}_kr.md"),
         )
 
     guides_en = load_guides("en")
     for guide in guides_en:
         slug = guide["link"].split("/")[-1].split("?")[0]
+        if slug in skip_slugs:
+            continue
         add_entry(
             f"/guide/{slug}",
             content_lastmod(f"guide_{slug}.md", f"guide_{slug}_kr.md"),
             "weekly",
             "0.7",
+            has_kr=has_kr_content(f"guide_{slug}_kr.md"),
         )
 
     stays_en, _ = load_stay_data("en")
     for stay in stays_en:
         stay_id = stay.get("id")
-        if not stay_id:
+        if not stay_id or stay_id in skip_slugs:
             continue
         add_entry(
             f"/stay/{stay_id}",
             content_lastmod(f"stay_{stay_id}.md", f"stay_{stay_id}_kr.md"),
             "weekly",
             "0.75",
+            has_kr=has_kr_content(f"stay_{stay_id}_kr.md"),
         )
 
     unique_entries = {(e["loc"], e["lastmod"], e["changefreq"], e["priority"]): e for e in entries}
     xml_items = []
     for entry in sorted(unique_entries.values(), key=lambda x: x["loc"]):
+        ko_link = (
+            f'\n            <xhtml:link rel="alternate" hreflang="ko" href="{xml_escape(entry["alt_ko"])}" />'
+            if entry["alt_ko"]
+            else ""
+        )
         xml_items.append(
             f"""
         <url>
@@ -170,8 +188,7 @@ async def sitemap():
             <lastmod>{entry["lastmod"]}</lastmod>
             <changefreq>{entry["changefreq"]}</changefreq>
             <priority>{entry["priority"]}</priority>
-            <xhtml:link rel="alternate" hreflang="en" href="{xml_escape(entry["alt_en"])}" />
-            <xhtml:link rel="alternate" hreflang="ko" href="{xml_escape(entry["alt_ko"])}" />
+            <xhtml:link rel="alternate" hreflang="en" href="{xml_escape(entry["alt_en"])}" />{ko_link}
             <xhtml:link rel="alternate" hreflang="x-default" href="{xml_escape(entry["alt_default"])}" />
         </url>"""
         )
@@ -294,7 +311,7 @@ async def read_school_detail(request: Request, school_id: str, lang: str = Query
     return templates.TemplateResponse(request, "detail.html", {
         "item": item, "item_type": item_type,
         "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang),
-        **seo_url_context(f"/school/{school_id}", lang),
+        **seo_url_context(f"/school/{school_id}", lang, has_kr_content(f"{school_id}_kr.md")),
         "meta_robots": meta_robots_directive(school_id, content_html),
         "related_guides": pick_related_guides(item, item_type, lang),
         "nearby_stays": pick_nearby_stays(item, lang) if SHOW_STAYS_UI and item_type != "guide" else [],
@@ -357,7 +374,7 @@ async def read_stay_detail(request: Request, stay_id: str, lang: str = Query("en
         "show_stays_ui": SHOW_STAYS_UI,
         "nearby_stays": [],
         "related_schools": pick_nearby_schools(item, lang),
-        **seo_url_context(f"/stay/{stay_id}", lang),
+        **seo_url_context(f"/stay/{stay_id}", lang, has_kr_content(f"stay_{stay_id}_kr.md")),
         "meta_robots": meta_robots_directive(stay_id, content_html),
         "related_guides": pick_related_guides(item, "stay", lang),
         "meta_title": build_meta_title(meta_raw_title, lang),
@@ -409,7 +426,7 @@ async def guide_detail(request: Request, slug: str, lang: str = Query("en")):
     return templates.TemplateResponse(request, "detail.html", {
         "item": item, "item_type": "guide",
         "content_body": content_html, "current_lang": lang, "ui": get_ui_text(lang),
-        **seo_url_context(f"/guide/{slug}", lang),
+        **seo_url_context(f"/guide/{slug}", lang, has_kr_content(f"guide_{slug}_kr.md")),
         "meta_robots": meta_robots_directive(slug, content_html),
         "related_schools": pick_related_schools(item, lang),
         "related_guides": pick_related_guides(item, "guide", lang),

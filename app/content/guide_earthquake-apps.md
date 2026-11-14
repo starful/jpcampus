@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "earthquake-apps",
-  "title": "Essential Apps for Earthquake & Tsunami Alerts",
+  "title": "Earthquake Alerts in Japan: Get 30-Sec Warnings with Yurekuru Call",
   "category": "Safety",
   "tags": [
     "Safety"
   ],
-  "description": "Stay informed with apps like Yurekuru Call and Safety Tips for earthquake warnings.",
+  "description": "Yurekuru Call, Safety Tips, Tenki.jp: Get earthquake early warnings 5-30 seconds before impact. Essential for international students.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Earthquake Alert Apps in Japan: Yurekuru Call + Safety Tips Setup",
-  "seo_description": "Yurekuru Call, Safety Tips apps: Get 5-30 second EEW earthquake warnings. Essential for international students."
+  "seo_title": "Earthquake Alerts Japan: Yurekuru Call + Safety Tips Apps",
+  "seo_description": "Yurekuru Call, Safety Tips, Tenki.jp: Get earthquake early warnings 5-30 seconds before impact. Essential for international students."
 }
 ---
+
 ### Download These 3 Apps Now
 
 1. **Yurekuru Call** — Counts down seconds to earthquake impact (5-30s warning) via JMA system
