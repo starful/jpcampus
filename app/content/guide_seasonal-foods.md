@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "seasonal-foods",
-  "title": "Seasonal Foods in Japan (Shun): Eat Fresh, Save Money",
+  "title": "Seasonal Foods in Japan (Shun): What to Buy Each Season to Save 30% on Groceries",
   "category": "Culture",
   "tags": [
     "Culture"
   ],
-  "description": "Master seasonal eating in Japan: Spring vegetables, summer seafood, fall mushrooms, winter citrus. Fresher, cheaper ingredients explained.",
+  "description": "Seasonal eating in Japan (Shun): Spring vegetables, summer seafood, autumn mushrooms, winter citrus. Save money and eat fresher at peak season.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Seasonal Foods in Japan (Shun): Eat Fresh, Save Money",
-  "seo_description": "Master seasonal eating in Japan: Spring vegetables, summer seafood, fall mushrooms, winter citrus. Fresher, cheaper ingredients explained."
+  "seo_title": "Seasonal Foods in Japan (Shun): What to Buy Each Season to Save 30% on Groceries",
+  "seo_description": "Seasonal eating in Japan (Shun): Spring vegetables, summer seafood, autumn mushrooms, winter citrus. Save money and eat fresher at peak season."
 }
 ---
+
 
 
 

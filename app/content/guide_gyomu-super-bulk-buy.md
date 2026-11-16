@@ -2,17 +2,19 @@
 {
   "layout": "guide",
   "id": "gyomu-super-bulk-buy",
-  "title": "Gyomu Super: The King of Bulk Buying",
+  "title": "Gyomu Super Bulk Buying Guide: Save 50% on Groceries (Best Items & Student Tips)",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Best frozen foods and imported items for students.",
+  "description": "Gyomu Super shopping guide: frozen vegetables, bulk spices, imported foods, and strategies to cut grocery costs by 50–70% as a student.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
-  "date": "2026-09-26"
+  "date": "2026-09-26",
+  "seo_title": "Gyomu Super Bulk Buying Guide: Save 50% on Groceries (Best Items & Student Tips)",
+  "seo_description": "Complete Gyomu Super guide for students: frozen vegetables (¥150–¥200/kg), imported spices, bulk items. What to buy, what to skip."
 }
 ---
-
+Gyomu Super cuts grocery costs by 50–70% versus regular supermarkets. Frozen vegetable bags (1kg) cost ¥150–¥200—ideal for fried rice, curry, and stir-fries. Edamame, broccoli florets, and pre-cut onions save both money and prep time. A typical student dinner of frozen vegetables, rice, and seasoning costs ¥300–¥400. Smart bulk shopping means buying only what you'll use before expiration.
 
 ## Gyomu Super: Why It's the First Stop for Every Budget-Conscious Student
 
