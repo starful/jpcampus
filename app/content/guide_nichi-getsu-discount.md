@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "nichi-getsu-discount",
-  "title": "Japanese Supermarket Weekly Sales: Save 20-30% on Produce & Meat",
+  "title": "Japanese Supermarket Weekly Sales Calendar: When to Shop & Save 20-30% Each Week",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Master Japanese supermarket weekly cycles: Tuesday vegetables (kayou-ichi), Wednesday meat, Saturday family packs. Top chains: Aeon, Ito-Yokado.",
+  "description": "Master Japanese supermarket weekly cycles: Tuesday vegetables (kayou-ichi, 98-198¥), Wednesday meat sales, Saturday family deals. Aeon, Ito-Yokado schedules.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Japanese Supermarket Weekly Sales Calendar | Save 20-30%",
-  "seo_description": "Master Japanese supermarket weekly cycles: Tuesday vegetables (kayou-ichi), Wednesday meat, Saturday family packs. Top chains: Aeon, Ito-Yokado."
+  "seo_title": "Japanese Supermarket Weekly Sales Calendar: When to Shop & Save 20-30% Each Week",
+  "seo_description": "Master Japanese supermarket weekly cycles: Tuesday vegetables (kayou-ichi, 98-198¥), Wednesday meat sales, Saturday family deals. Aeon, Ito-Yokado schedules."
 }
 ---
+
 
 ### When to Shop: Weekly Sales Map
 
