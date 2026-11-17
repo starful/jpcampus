@@ -2,18 +2,20 @@
 {
   "layout": "guide",
   "id": "art-university-rankings",
-  "title": "Best Art Universities in Japan: Rankings, Specializations & International Admissions",
+  "title": "Best Art Universities in Japan Ranked: Geidai, Tamabi, Musabi & N2 Admission Tips",
   "category": "Curated List",
   "tags": [
     "Curated List"
   ],
-  "description": "Ranked guide to Japan's top art schools: Geidai, Tamabi, Musabi. Compare specializations, acceptance rates, and international student support.",
+  "description": "Top art universities in Japan ranked by specialty: Geidai (fine arts, 5–10% acceptance), Tamabi/Musabi (design). N2 requirements, portfolios, career placement.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-10-29",
-  "seo_title": "Best Art Universities in Japan: Rankings, Specializations & International Admissions",
-  "seo_description": "Japan's top art universities ranked: Geidai (fine arts, 5–10% acceptance), Tamabi & Musabi (design). N2 Japanese, portfolios, post-grad placement."
+  "seo_title": "Best Art Universities in Japan Ranked: Geidai, Tamabi, Musabi & N2 Admission Tips",
+  "seo_description": "Top art universities in Japan ranked by specialty: Geidai (fine arts, 5–10% acceptance), Tamabi/Musabi (design). N2 requirements, portfolios, career placement."
 }
 ---
+
+
 Japan's elite art schools are tier-ranked by prestige and specialization: Geidai (Tokyo University of the Arts) leads in fine arts and traditional crafts with 5–10% acceptance rates; Tamabi and Musabi dominate design. Most international applicants need N2 Japanese or higher for written entrance exams. Portfolio quality matters significantly, and institutional prestige directly shapes post-graduate placement at Japan's creative agencies.
 
 ## Where Japan's Art Universities Actually Stand
