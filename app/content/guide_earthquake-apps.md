@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "earthquake-apps",
-  "title": "Earthquake Alert Apps in Japan: 5-30 Second Warnings + Safety Tips for International Students",
+  "title": "Best Earthquake Alert Apps in Japan: Yurekuru Call, Safety Tips, Emergency Warnings",
   "category": "Safety",
   "tags": [
     "Safety"
   ],
-  "description": "Yurekuru Call, Safety Tips, Tenki.jp: Get earthquake early warnings 5-30 seconds before impact. English-language alerts and real-time tsunami warnings.",
+  "description": "5-30 second earthquake early warnings: Yurekuru Call, Safety Tips, Tenki.jp. Free English-language alert apps for Japan with tsunami warnings.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Earthquake Alert Apps in Japan: 5-30 Second Warnings + Safety Tips for International Students",
-  "seo_description": "Yurekuru Call, Safety Tips, Tenki.jp: Get earthquake early warnings 5-30 seconds before impact. English-language alerts and real-time tsunami warnings."
+  "seo_title": "Best Earthquake Alert Apps in Japan: Yurekuru Call, Safety Tips, Emergency Warnings",
+  "seo_description": "5-30 second earthquake early warnings: Yurekuru Call, Safety Tips, Tenki.jp. Free English-language alert apps for Japan with tsunami warnings."
 }
 ---
+
 
 
 ### Download These 3 Apps Now
