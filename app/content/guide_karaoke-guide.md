@@ -10,10 +10,11 @@
   "description": "Japanese karaoke box guide: Big Echo vs Manekineko vs Joysound pricing, booking tips, English menus, song selection, and social etiquette for students.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Karaoke in Japan: First-Timer's Guide to Chains, Pricing & Social Etiquette",
-  "seo_description": "Japanese karaoke box guide: Big Echo vs Manekineko vs Joysound pricing, booking tips, English menus, song selection, and social etiquette for students."
+  "seo_title": "Karaoke in Japan: First-Timer's Guide (Chains, Pricing & Etiquette)",
+  "seo_description": "Karaoke in Japan: guide to Manekineko, Big Echo, Joysound. Pricing, booking, English menus, etiquette, song selection tips for first-timers."
 }
 ---
+
 
 Japanese karaoke revolves around private 'karaoke boxes' where you rent a room with friends—very different from stage karaoke in Western bars. Major chains are Manekineko (budget-friendly, often allows bring-your-own food/drinks), Big Echo (premium quality), and Joysound (best song selection). Song selection and payment happen via tablet at your table, and most machines offer English menus for foreign users.
 

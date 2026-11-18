@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "supermarket-point-cards",
-  "title": "Best Supermarket Point Cards: Maximize Rewards at Aeon & More",
+  "title": "Best Supermarket Point Cards 2026: Maximize Cashback & Rewards | JP Campus",
   "category": "Budget",
   "tags": [
     "Budget"
   ],
-  "description": "Compare top point card programs. Earn cashback, get discounts & exclusive perks. Find your perfect supermarket rewards card.",
+  "description": "Compare supermarket point cards from Aeon, Ito-Yokado & Life. Get cashback, discounts & exclusive perks. Find the best card for you.",
   "thumbnail": "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Best Supermarket Point Cards 2026: Maximize Cashback & Rewards | JP Campus",
-  "seo_description": "Compare supermarket point cards from Aeon, Ito-Yokado & Life. Get cashback, discounts & exclusive perks. Find the best card for you."
+  "seo_title": "Best Supermarket Point Cards: WAON, Nanaco, LaCuCa (Rewards Guide)",
+  "seo_description": "Japan supermarket point cards compared: WAON (Aeon), Nanaco (Ito-Yokado), LaCuCa (Life). Earn cashback, discounts. Student savings guide."
 }
 ---
+
 
 
 
