@@ -7,13 +7,14 @@
   "tags": [
     "Culture"
   ],
-  "description": "Seasonal foods in Japan (Shun 旬): Spring vegetables, summer seafood, autumn mushrooms, winter citrus. Save money by eating at peak season.",
+  "description": "Seasonal foods in Japan (Shun 旬): spring vegetables, summer seafood, autumn mushrooms, winter citrus. Save money by eating at peak season.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-07-20",
-  "seo_title": "Seasonal Foods in Japan (Shun 旬): Spring, Summer, Autumn Foods to Save 30%",
-  "seo_description": "Seasonal foods in Japan (Shun 旬): Spring vegetables, summer seafood, autumn mushrooms, winter citrus. Save money by eating at peak season."
+  "seo_title": "Seasonal Foods in Japan (Shun 旬): Eat Fresh & Save 30%—Monthly Guide",
+  "seo_description": "Discover seasonal foods in Japan (Shun 旬) month by month: spring vegetables, summer seafood, autumn mushrooms, winter citrus. Budget guide."
 }
 ---
+
 
 
 
