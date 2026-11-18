@@ -116,4 +116,14 @@ app.include_router(waitlist_router, prefix="/api")
 app.include_router(pages_router)
 app.include_router(social_router)
 
+# Anonymous visit log for Starful HQ「이용자 보기」
+from pathlib import Path as _Path
+try:
+    from visitkit.fastapi_api import register_visitlog
+except ImportError:
+    import sys
+    sys.path.insert(0, str(_Path(__file__).resolve().parents[1]))
+    from visitkit.fastapi_api import register_visitlog
+register_visitlog(app, site_id="jpcampus", db_path=_Path(__file__).resolve().parents[1] / "data" / "visitlog.sqlite3")
+
 __all__ = ["app", "DOMAIN"]
