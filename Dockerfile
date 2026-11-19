@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 2. 필수 앱 소스 복사
 COPY app ./app
 COPY data ./data
+COPY visitkit ./visitkit
 # scripts 폴더 전체 복사 (build_data.py가 여기 포함됨)
 COPY scripts ./scripts
 
