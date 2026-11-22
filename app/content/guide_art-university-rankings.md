@@ -2,18 +2,19 @@
 {
   "layout": "guide",
   "id": "art-university-rankings",
-  "title": "Best Art Universities in Japan Ranked: Geidai, Tamabi, Musabi & N2 Admission Tips",
+  "title": "Japan's Top Art Universities Ranked: Geidai, Tamabi, Musabi—Admissions & N2 Requirements",
   "category": "Curated List",
   "tags": [
     "Curated List"
   ],
-  "description": "Top art universities in Japan ranked by specialty: Geidai (fine arts, 5–10% acceptance), Tamabi/Musabi (design). N2 requirements, portfolios, career placement.",
+  "description": "Compare Japan's best art schools: Geidai (fine arts, most selective), Tamabi/Musabi (design). N2 requirement, 5–10% acceptance, portfolio tips.",
   "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500",
   "date": "2026-10-29",
-  "seo_title": "Japan's Top Art Universities Ranked: Geidai, Tamabi, Musabi—Admissions & N2 Requirements",
-  "seo_description": "Compare Japan's best art schools: Geidai (fine arts, most selective), Tamabi/Musabi (design). N2 requirement, 5–10% acceptance, portfolio tips."
+  "seo_title": "Japan's Best Art Universities Ranked: Geidai, Tamabi, Musabi (Admission Guide)",
+  "seo_description": "Compare Japan's top art schools: Geidai (fine arts, 5–10% acceptance), Tamabi/Musabi (design). Portfolio, N2 requirements, admission tips."
 }
 ---
+
 
 
 

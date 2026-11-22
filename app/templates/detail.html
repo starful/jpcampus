@@ -414,6 +414,13 @@
 
 {% block scripts %}
 <script>
+    (function lazyLoadContentImages() {
+        document.querySelectorAll(".detail-content img:not([loading])").forEach((img) => {
+            img.setAttribute("loading", "lazy");
+            img.setAttribute("decoding", "async");
+        });
+    })();
+
     (function initA8TopCollapse() {
         document.querySelectorAll(".a8-banners--top").forEach((box) => {
             const grid = box.querySelector(".a8-banners__grid");
