@@ -15,8 +15,6 @@
 }
 ---
 
-
-
 Japanese karaoke revolves around private 'karaoke boxes' where you rent a room with friends—very different from stage karaoke in Western bars. Major chains are Manekineko (budget-friendly, often allows bring-your-own food/drinks), Big Echo (premium quality), and Joysound (best song selection). Song selection and payment happen via tablet at your table, and most machines offer English menus for foreign users.
 
 # A Beginner's Guide to Karaoke in Japan: Sing Your Heart Out Like a Local

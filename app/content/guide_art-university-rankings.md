@@ -15,10 +15,6 @@
 }
 ---
 
-
-
-
-
 Japan's elite art schools are tier-ranked by prestige and specialization: Geidai (Tokyo University of the Arts) leads in fine arts and traditional crafts with 5–10% acceptance rates; Tamabi and Musabi dominate design. Most international applicants need N2 Japanese or higher for written entrance exams. Portfolio quality matters significantly, and institutional prestige directly shapes post-graduate placement at Japan's creative agencies.
 
 ## Where Japan's Art Universities Actually Stand

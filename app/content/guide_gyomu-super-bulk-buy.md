@@ -15,8 +15,6 @@
 }
 ---
 
-
-
 Gyomu Super cuts grocery costs by 50–70% versus regular supermarkets. Frozen vegetable bags (1kg) cost ¥150–¥200—ideal for fried rice, curry, and stir-fries. Edamame, broccoli florets, and pre-cut onions save both money and prep time. A typical student dinner of frozen vegetables, rice, and seasoning costs ¥300–¥400. Smart bulk shopping means buying only what you'll use before expiration.
 
 ## Gyomu Super: Why It's the First Stop for Every Budget-Conscious Student

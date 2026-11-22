@@ -15,10 +15,6 @@
 }
 ---
 
-
-
-
-
 # Mastering the "Poi-katsu" Culture: A Guide to Supermarket Point Cards for International Students in Japan
 
 Welcome to Japan! As you settle into your new life as an international student, you will quickly realize that while Japan is a land of incredible convenience and high-quality food, the cost of living—especially in major cities like Tokyo, Osaka, or Nagoya—can add up fast. One of the best-kept secrets to surviving on a student budget is mastering the art of **"Poi-katsu"** (Point Activities).
