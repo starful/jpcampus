@@ -1107,15 +1107,27 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .header-right { grid-column: 2; grid-row: 1; justify-self: end; }
     .logo-wrapper { grid-column: 1 / -1; grid-row: 2; justify-self: center; }
     .logo-img { height: 52px; }
-    .nav-guide-link { font-size: 0.85rem; }
+    .nav-guide-link { font-size: 0.9rem; min-height: 44px; display: inline-flex; align-items: center; }
+    .lang-btn {
+        min-height: 40px;
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        display: inline-flex;
+        align-items: center;
+    }
     .map-section { min-height: 340px; height: 45vh; }
     .top-filter-bar { padding: 8px 10px 10px; }
     .mobile-hero-cta {
         display: flex;
         gap: 8px;
-        padding: 10px 16px 4px;
+        padding: 10px 16px;
         max-width: 1200px;
         margin: 0 auto;
+        position: sticky;
+        top: var(--header-h, 90px);
+        z-index: 500;
+        background: var(--bg-light);
+        border-bottom: 1px solid var(--border);
     }
     .mobile-hero-cta-btn {
         flex: 1 1 0;
@@ -1123,14 +1135,17 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
         align-items: center;
         justify-content: center;
         gap: 6px;
+        min-height: 44px;
         padding: 10px 8px;
         border-radius: 10px;
         background: var(--primary-light);
         color: var(--primary);
         font-weight: 700;
-        font-size: 0.78rem;
+        font-size: 0.8rem;
         text-align: center;
         white-space: nowrap;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
     }
     .mobile-hero-cta-btn--accent { background: var(--accent-light); color: var(--accent); }
     .filter-row {
@@ -1140,7 +1155,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     }
     .filter-row-label {
         min-width: 0;
-        font-size: 0.65rem;
+        font-size: 0.7rem;
         text-align: left;
         padding-left: 2px;
     }
@@ -1157,8 +1172,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     }
     .theme-button {
         padding: 8px 11px;
-        min-height: 40px;
-        font-size: 0.74rem;
+        min-height: 44px;
+        font-size: 0.78rem;
         gap: 3px;
     }
     .filter-emoji { font-size: 0.85rem; }
@@ -1192,7 +1207,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     .content-wrapper { padding: 0 12px 32px; }
     .section-title { font-size: 1.2rem; }
     .detail-title, .list-title { font-size: 1.6rem; }
-    .theme-button { font-size: 0.7rem; padding: 7px 10px; min-height: 38px; }
+    .theme-button { font-size: 0.74rem; padding: 7px 10px; min-height: 42px; }
 }
 
 /* 짧은 모바일 화면(세로 fold 영역이 좁은 기기)에서 지도 높이를 더 줄여
